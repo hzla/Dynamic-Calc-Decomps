@@ -1697,7 +1697,7 @@
     <script type="text/javascript" src="./js/data/sets/gen3.js?13854f5b"></script>
     <script type="text/javascript" src="./js/data/sets/gen2.js?4cb8be40"></script>
     <script type="text/javascript" src="./js/data/sets/gen1.js?a2f6e086"></script>
-    <script type="text/javascript" src="./js/showdown_hooks.js?100105"></script>
+    <script type="text/javascript" src="./js/showdown_hooks.js?100106"></script>
     <script type="text/javascript" src="./calc/data/types.js?b935c17b"></script>
     <script type="text/javascript" src="./calc/data/natures.js?407b5243"></script>
     <script type="text/javascript" src="./calc/data/abilities.js?c1788575"></script>
@@ -293095,9 +293095,11 @@ Upon witnessing the initial cutscene, the difficulty of the gauntlet is set. Thu
 </h1>
 		
 	
-		
+		<br>
 			<p>
-</p>
+                There is a bug in BW2 Challenge mode where the stats of a pokemon do not match it's displayed level. The calc will adjust the level to show it's true stats. However, the damage formula in this game uses Pokemon level as one of the inputs and this formula uses the incorrect displayed level. So the true power level of a pokemon is somewhere between the bugged displayed level, and the non challenge mode level. The challenge mode version of this calc takes into account this bug and adjusts the calculations accordingly.
+            </p>
+
 		
 	
 		
