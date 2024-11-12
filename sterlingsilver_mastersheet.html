@@ -67,7 +67,7 @@
             <div id="img-toggle" class="menu-item">Backup Mode</div>
             <div id="invert-types" class="menu-item">Invert Types</div>
             <div id="sprite-toggle" class="menu-item">Toggle Sprite Icons</div>
-            <!-- <div id="show-encs" class="menu-item">Encounters</div> -->
+            <div id="toggle-battle-notes" class="menu-item">Toggle Battle Notes</div>
         </div>
 
         <span class="title-text">
@@ -1119,6 +1119,17 @@
         </div>
 
         <div aria-label="Import team" role="region">
+            <fieldset class="poke-import">
+                <legend align="center">Battle Notes</legend>
+                <div id="battle-notes" class="dataTables_wrapper no-footer">
+                    <form class="import-team">
+                        <div class="notes-text" contenteditable="true">
+        
+                        </div>
+                    </form>
+                    <button id="save-state">Get Battle State</button>
+                </div>
+            </fieldset>
             <fieldset class="poke-import">
                 <legend align="center">Import / Export</legend>
                 <div id="import-1_wrapper" class="dataTables_wrapper no-footer">
