@@ -20,7 +20,6 @@ document.getElementById('save-upload').addEventListener('change', function(event
 
             let lvlCap = $('#lvl-cap').val()  || 1
 
-
             changelog = "<h4>Changelog:</h4>"
             changelog += `<p>${saveFileName} loaded</p>`
             if ($('#changelog').length == 0) {
@@ -113,19 +112,14 @@ document.getElementById('save-upload').addEventListener('change', function(event
                         continue
                     }
 
-
-                    console.log(speciesName)
                     if (!pokedex[speciesName]) {
                         speciesName = speciesName.replace(" ", "-")
                     }
-                    console.log(speciesName)
-
 
                     // get Item
                     let itemId = [decrypted[growth_index * 3]] >> 16 & 0x07FF
                     
                     // get nature
-
                     let monNature = 0
                     if (TITLE.includes("Inclement")) {
                         let natureByte = [decrypted[misc_index * 3]] >> 16 & 0x07FF
@@ -156,7 +150,6 @@ document.getElementById('save-upload').addEventListener('change', function(event
                         continue
                     }
 
-
                     // get moves
                     let move1 = pokeemeraldMoves[[decrypted[moves_index * 3]] & 0x07FF]
                     let move2 = pokeemeraldMoves[[decrypted[moves_index * 3]] >> 16 & 0x07FF]
@@ -164,8 +157,6 @@ document.getElementById('save-upload').addEventListener('change', function(event
                     let move4 = pokeemeraldMoves[[decrypted[moves_index * 3 + 1]] >> 16 & 0x07FF]
 
                     let moves = [move1, move2, move3, move4]
-
-                    
 
                     // skip if any moves out of bounds or duplicates moves that aren't "None"
                     if (hasInvalidMoves(moves)) {
@@ -180,7 +171,6 @@ document.getElementById('save-upload').addEventListener('change', function(event
 
                     let abilitySlot = 0
 
-
                     if (TITLE.includes("Inclement")) {
                         abilitySlot = decrypted[misc_index * 3 + 2] & 96 >> 5
                     } else {
@@ -190,15 +180,11 @@ document.getElementById('save-upload').addEventListener('change', function(event
                         }           
                     }
                     
-                    
-
-
                     showdownText += `${speciesName}`
                     if (itemId != 0) {
                         showdownText += ` @ ${itemTitleize(emImpItems[itemId])}`
                     }
                     showdownText += "\n"
-
                     showdownText += `Level: ${lvlCap}\n`
                     showdownText += `${monNature} Nature\n`
 
@@ -212,21 +198,13 @@ document.getElementById('save-upload').addEventListener('change', function(event
                     showdownText += `- ${move2}\n`
                     showdownText += `- ${move3}\n`
                     showdownText += `- ${move4}\n\n`
-
-                    pokCount += 1
-
                     offset = lastFoundAt + 2
-                
-
-
                 } else {
-                    offset += 2; // Move to next uint16 (2 bytes)
+                    offset += 2; 
                 }   
             }
             $('.import-team-text').val(showdownText)    
         };
-
-        // Read file as binary string
         reader.readAsArrayBuffer(file);
     }
 });
@@ -250,7 +228,6 @@ function getIVs(ivValue) {
         spDefense,
     ];
 }
-
 
 function hasInvalidMoves(arr) {
     const seen = new Set();
