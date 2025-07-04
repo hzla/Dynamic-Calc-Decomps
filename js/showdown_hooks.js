@@ -441,7 +441,7 @@ function get_trainer_poks(trainer_name)
     var all_poks = SETDEX_BW
     var matches = []
 
-    var og_trainer_name = trainer_name.split(/Lvl [-+]?\d+ /)[1]
+    var og_trainer_name = trainer_name.split(/Lvl\*? [-+]?\d+ /)[1]
 
 
 
@@ -2372,6 +2372,7 @@ function loadDataSource(data) {
         $('#maxL').next().remove()
         $('#maxR').next().remove()
         pokedex["Raichu"]["types"] = ["Electric", "Normal"]
+        pokedex["Sunflora"]["types"] = ["Grass"]
     }
 
     // for (pok in pokedex) {
