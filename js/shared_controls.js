@@ -416,8 +416,6 @@ var lockerMove = "";
 $(".move-selector").change(function () {
 	var moveName = $(this).val();
 	var move = moves[moveName] || moves['(No Move)'];
-	console.log(moveName)
-	console.log(moves[moveName])
 
 	var moveGroupObj = $(this).parent();
 	moveGroupObj.children(".move-bp").val(moveName === 'Present' ? 40 : move.bp);
@@ -680,6 +678,8 @@ $(".set-selector").change(function () {
 						
 						$("#levelR1").val(lvl_delta + current_cap).change()
 						console.log(`changing to ${lvl_delta + current_cap}`)
+
+						
 					},20)
 					
 				}
@@ -1327,7 +1327,13 @@ function createField() {
 
 function calcHP(poke) {
 	var total = calcStat(poke, "hp");
+
+	
 	var $maxHP = poke.find(".max-hp");
+
+	if (!total) {
+		total = parseInt($maxHP.text())
+	}
 
 	var prevMaxHP = Number($maxHP.attr('data-prev')) || total;
 	var $currentHP = poke.find(".current-hp");
@@ -1337,6 +1343,7 @@ function calcHP(poke) {
 
 	$maxHP.text(total);
 	$maxHP.attr('data-prev', total);
+
 
 	var newCurrentHP = calcCurrentHP(poke, total, prevPercentHP);
 	calcPercentHP(poke, total, newCurrentHP);
