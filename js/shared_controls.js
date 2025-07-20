@@ -27,7 +27,7 @@ if (!Array.prototype.indexOf) {
 	};
 }
 
-boxSprites = ["newhd", "pokesprite"]
+boxSprites = ["pokesprite", "pokesprite"]
 fainted = []
 if (!localStorage.boxspriteindex) {
 localStorage.boxspriteindex = 1
@@ -81,10 +81,6 @@ var bounds = {
 	"dvs": [0, 15],
 	"move-bp": [0, 65535]
 };
-
-if (damageGen == 1) {
-	bounds["evs"] = [0,65535]
-}
 for (var bounded in bounds) {
 	attachValidation(bounded, bounds[bounded][0], bounds[bounded][1]);
 }
@@ -420,6 +416,8 @@ var lockerMove = "";
 $(".move-selector").change(function () {
 	var moveName = $(this).val();
 	var move = moves[moveName] || moves['(No Move)'];
+	console.log(moveName)
+	console.log(moves[moveName])
 
 	var moveGroupObj = $(this).parent();
 	moveGroupObj.children(".move-bp").val(moveName === 'Present' ? 40 : move.bp);
@@ -442,7 +440,6 @@ $(".move-selector").change(function () {
 		if (actual.type !== m[1]) {
 			
 			$(this).val(`Hidden Power ${actual.type}`)
-
 
 			var hpIVs = calc.Stats.getHiddenPowerIVs(GENERATION, m[1]);
 			if (hpIVs && gen < 7) {
@@ -529,14 +526,8 @@ function refresh_next_in() {
 	console.log("refreshing next in " + lastSetName)
 	var next_poks = get_next_in()
 
-	if (damageGen < 7 && !TITLE.includes("Lumi") && damageGen != 1) {
+	if (damageGen < 8 && !TITLE.includes("Lumi")) {
         $("#p2 .evs, #p2 .ev-label").hide()
-
-    }
-
-    if (damageGen == 1) {
-    	$('.evs.calc-trigger').attr('max', '65535').addClass('expanded')
-    	$('.dvs.calc-trigger').removeAttr('disabled')
     }
 
 	var trpok_html = ""
@@ -578,14 +569,8 @@ function refresh_next_in() {
 			isFainted = "fainted"
 		}
 
-		var isLead = ""
-
-		if (next_poks[i][0].includes("[0]")) {
-			isLead = "lead"
-		}
-
 		var pok = `<div class="trainer-pok-container no-switch-${noSwitch}">
-			<img class="trainer-pok right-side ${highlight} ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name}.png" data-id="${dataID}">`
+			<img class="trainer-pok right-side ${highlight} ${isFainted} " src="./img/${sprite_style}/${pok_name.replace(" ", "")}.png" data-id="${dataID}">`
 
 
 		var species = next_poks[i][0].split(" (")[0]
@@ -640,12 +625,10 @@ $(".set-selector").change(function () {
 
 
 	if ($(this).hasClass('opposing')) {
-		if (SETDEX_BW && SETDEX_BW[pokemonName] && SETDEX_BW[pokemonName][setName]) {
+		if (SETDEX_BW && SETDEX_BW[pokemonName]) {
 			if (setName != "Blank Set") {
 				// var sprite = SETDEX_BW[pokemonName][setName]["sprite"]
 				
-
-
 				var battle_type = SETDEX_BW[pokemonName][setName]["battle_type"]
 				var ai = SETDEX_BW[pokemonName][setName]["ai"]
 				var next = SETDEX_BW[pokemonName][setName]["next"]
@@ -676,7 +659,7 @@ $(".set-selector").change(function () {
 					}
 				}
 
-				if ((battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation") && !partner_name) {
+				if (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation") {
 					$('#singles-format').click()
 				} else {
 					$('#doubles-format').click()
@@ -690,15 +673,13 @@ $(".set-selector").change(function () {
 				// $('#trainer-sprite').attr('src', `./img/${sprite}`)
 				// $('#trainer-sprite').show()
 
-				if (INC_EM && $("#lvl-cap").val() != "") {
+				if ($("#lvl-cap").val() != "" && SETDEX_BW[pokemonName][setName]["sublevel"]) {
 					var lvl_delta = parseInt(SETDEX_BW[pokemonName][setName]["sublevel"])
 					var current_cap = parseInt($("#lvl-cap").val())
 					setTimeout(function() {
 						
 						$("#levelR1").val(lvl_delta + current_cap).change()
 						console.log(`changing to ${lvl_delta + current_cap}`)
-
-						
 					},20)
 					
 				}
@@ -706,7 +687,7 @@ $(".set-selector").change(function () {
 		} else {
 			$('#trainer-sprite').hide()
 		}
-		var pokesprite = pokemonName.toLowerCase().replace(" ", "-").replace(".","").replace("’","").replace(":","-")
+		var pokesprite = pokemonName.toLowerCase().replace(" ", "").replace(".","").replace("’","").replace(":","-")
 
 		if (pokesprite.includes("galarian-")) {
 			pokesprite = pokesprite.split("galarian-")[1] +  "-galar"
@@ -720,6 +701,8 @@ $(".set-selector").change(function () {
 			pokesprite = pokesprite.split("alolan-")[1] +  "-alola"
 		}
 
+	
+
 
 		$('#p2 .poke-sprite').attr('src', `./img/${trainerSprites}/${pokesprite.replace("-glitched", "")}.${suffix}`)
 
@@ -729,16 +712,16 @@ $(".set-selector").change(function () {
 
 	} else {
 		if (SETDEX_BW) {
-			var pokesprite = pokemonName.toLowerCase().replace(" ", "-").replace(".","").replace("’","")
+			var pokesprite = pokemonName.toLowerCase().replace(" ", "").replace(".","").replace("’","")
 			
 			$('#p1 .poke-sprite').attr('src', `./img/${playerSprites}/${pokesprite}.${suffix}`)
 
 
 
 
-			if (damageGen <= 5 || TITLE.includes("Lumi")) {
+	
 				$('#p1 .poke-sprite').addClass('no-flip')
-			}
+
 			if (TITLE == "Emerald Kaizo") {
 				caps = [15, 29, 48, 70]
 				current_tr_mon_level = parseInt($("#levelL1").val())
@@ -755,6 +738,7 @@ $(".set-selector").change(function () {
 				if (current_tr_mon_level > caps[3]) {
 					$("#SpecL").prop("checked", true)
 				}
+
 			}
 		}
 	}
@@ -762,6 +746,9 @@ $(".set-selector").change(function () {
 
 
 	var pokemon = pokedex[pokemonName];
+
+
+	console.log(pokemon)
 
 
 	if (pokemon) {
@@ -822,18 +809,11 @@ $(".set-selector").change(function () {
 
 
 			pokeObj.find(".hp .ivs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 31);
-			
-
 			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : 15);
-
-			if (damageGen == 1 ) {
-				pokeObj.find(".hp .dvs").val((set.ivs && set.ivs.hp !== undefined) ? set.ivs.hp : 15);
-			}
 			for (i = 0; i < LEGACY_STATS[gen].length; i++) {
 				
 				if (hasEvs) {
 					pokeObj.find("." + LEGACY_STATS[gen][i] + " .evs").val(
-
 					(set.evs && set.evs[LEGACY_STATS[gen][i]] !== undefined) ?
 						set.evs[LEGACY_STATS[gen][i]] : ($("#randoms").prop("checked") ? 84 : 0));
 				}
@@ -843,15 +823,6 @@ $(".set-selector").change(function () {
 					(set.ivs && set.ivs[LEGACY_STATS[gen][i]] !== undefined) ? set.ivs[LEGACY_STATS[gen][i]] : 31);
 				pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(
 					(set.dvs && set.dvs[LEGACY_STATS[gen][i]] !== undefined) ? set.dvs[LEGACY_STATS[gen][i]] : 15);
-
-				if (damageGen == 1) {
-					LEGACY_STATS[gen][i] = LEGACY_STATS[gen][i].replace("sa", "sl")
-
-					pokeObj.find("." + LEGACY_STATS[gen][i] + " .dvs").val(
-					(set.ivs && set.ivs[LEGACY_STATS[gen][i]] !== undefined) ? set.ivs[LEGACY_STATS[gen][i]] : 15);
-				}
-
-
 			}
 			setSelectValueIfValid(pokeObj.find(".nature"), set.nature, "Hardy");
 			var abilityFallback = (typeof pokemon.abilities !== "undefined") ? pokemon.abilities[0] : "";
@@ -1107,10 +1078,6 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 
 			ivs[stat] = (gen >= 3 && set.ivs && typeof set.ivs[legacyStat] !== "undefined") ? set.ivs[legacyStat] : 31;
 			evs[stat] = (set.evs && typeof set.evs[legacyStat] !== "undefined") ? set.evs[legacyStat] : 0;
-
-			if (damageGen == 1) {
-				evs[stat] = Math.floor(evs[stat] / 255 * 4)
-			}
 		}
 
 		var pokemonMoves = [];
@@ -1170,13 +1137,12 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 				var stat = legacyStatToStat(LEGACY_STATS[gen][i]);
 				
+				console.log(stat)
+				console.log(pokedex['Rotom']['bs'][stat_abvs[stat]]) 
 				baseStats[stat === 'spc' ? 'spa' : stat] = pokedex['Rotom']['bs'][stat_abvs[stat]];
 				~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .base").val(pokedex['Rotom']['bs'][stat_abvs[stat]])
 				ivs[stat] = gen > 2 ? ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .ivs").val() : ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .dvs").val() * 2 + 1;
 				evs[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .evs").val();
-				if (damageGen == 1) {
-					evs[stat] = Math.floor(evs[stat] / 255 * 4)
-				}
 				boosts[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .boost").val();
 			}
 		} else {
@@ -1185,9 +1151,6 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 				baseStats[stat === 'spc' ? 'spa' : stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .base").val();
 				ivs[stat] = gen > 2 ? ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .ivs").val() : ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .dvs").val() * 2 + 1;
 				evs[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .evs").val();
-				if (damageGen == 1) {
-					evs[stat] = Math.floor(evs[stat] / 255 * 4)
-				}
 				boosts[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .boost").val();
 			}
 		}
@@ -1301,7 +1264,6 @@ function createField() {
 	var gameType = $("input:radio[name='format']:checked").val();
 	var isMagicRoom = $("#magicroom").prop("checked");
 	var isWonderRoom = $("#wonderroom").prop("checked");
-	var isInverseBattle = $("#inverse").prop("checked");
 	var isGravity = $("#gravity").prop("checked");
 	var isSR = [$("#srL").prop("checked"), $("#srR").prop("checked")];
 	var weather;
@@ -1348,7 +1310,7 @@ function createField() {
 
 	var createSide = function (i) {
 		return new calc.Side({
-			spikes: spikes[i], isSR: isSR[i], steelsurge: steelsurge[i], 
+			spikes: spikes[i], isSR: isSR[i], steelsurge: steelsurge[i],
 			vinelash: vinelash[i], wildfire: wildfire[i], cannonade: cannonade[i], volcalith: volcalith[i],
 			isReflect: isReflect[i], isLightScreen: isLightScreen[i],
 			isProtected: isProtected[i], isSeeded: isSeeded[i], isForesight: isForesight[i], isFlowerGift: isFlowerGift[i],
@@ -1356,21 +1318,16 @@ function createField() {
 			isAuroraVeil: isAuroraVeil[i], isBattery: isBattery[i], isPowerSpot: isPowerSpot[i], isSwitching: isSwitchingOut[i], is10Buff: is10Buff[i], is15Buff: is15Buff[i], is20Buff: is20Buff[i], is25Buff: is25Buff[i], is30Buff: is30Buff[i], is50Buff: is50Buff[i] ? 'out' : undefined
 		});
 	};
+	// console.log(is10Buff)
 	return new calc.Field({
-		gameType: gameType, weather: weather, terrain: terrain, isMagicRoom: isMagicRoom, isWonderRoom: isWonderRoom, isGravity: isGravity, isInverseBattle: isInverseBattle,
+		gameType: gameType, weather: weather, terrain: terrain, isMagicRoom: isMagicRoom, isWonderRoom: isWonderRoom, isGravity: isGravity,
 		attackerSide: createSide(0), defenderSide: createSide(1)
 	});
 }
 
 function calcHP(poke) {
 	var total = calcStat(poke, "hp");
-
-	
 	var $maxHP = poke.find(".max-hp");
-
-	if (!total) {
-		total = parseInt($maxHP.text())
-	}
 
 	var prevMaxHP = Number($maxHP.attr('data-prev')) || total;
 	var $currentHP = poke.find(".current-hp");
@@ -1380,7 +1337,6 @@ function calcHP(poke) {
 
 	$maxHP.text(total);
 	$maxHP.attr('data-prev', total);
-
 
 	var newCurrentHP = calcCurrentHP(poke, total, prevPercentHP);
 	calcPercentHP(poke, total, newCurrentHP);
@@ -1393,16 +1349,14 @@ function calcStat(poke, StatID) {
 	var base = ~~stat.find(".base").val();
 	var level = ~~poke.find(".level").val();
 	var nature, ivs, evs;
-	if (gen < 3 || damageGen < 3) {
+	if (gen < 3) {
 		ivs = ~~stat.find(".dvs").val() * 2;
-		evs = Math.floor(~~stat.find(".evs").val() / 255 * 4);
+		evs = 252;
 	} else {
 		ivs = ~~stat.find(".ivs").val();
 		evs = ~~stat.find(".evs").val();
 		if (StatID !== "hp") nature = poke.find(".nature").val();
 	}
-
-
 	// Shedinja still has 1 max HP during the effect even if its Dynamax Level is maxed (DaWoblefet)
 	var total = calc.calcStat(gen, legacyStatToStat(StatID), base, ivs, evs, level, nature);
 	if (gen > 7 && StatID === "hp" && poke.isDynamaxed && total !== 1) {
@@ -1777,7 +1731,7 @@ function loadDefaultLists() {
 				more: results.length >= query.page * pageSize
 			});
 		}
-	}).addClass('set-selectors');
+	});
 	$(".opposing.set-selector").select2({
 		formatResult: function (object) {
 			if ($("#randoms").prop("checked")) {
@@ -1902,10 +1856,10 @@ $(document).ready(function () {
 		playerSprites = "back"
 		suffix = "gif"
 	} else {
-		trainerSprites = "newhd"
-		playerSprites = "newhd"
+		trainerSprites = "front"
+		playerSprites = "back"
 		$('.poke-sprite').css('background', 'none')
-		suffix = "png"
+		suffix = "gif"
 	}
 	console.log(`Initializing Calc with moves from gen ${g} and mechanics from gen ${damageGen}`)
 	$("#gen" + g).prop("checked", true);
