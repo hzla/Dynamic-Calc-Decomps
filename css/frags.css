@@ -40,7 +40,7 @@ div {
 
 #sheet-btns {
     position: absolute;
-    top: 82px;
+    top: 72px;
     right: 40px;
     display: flex;
     width: calc(100vw - 1335px);
@@ -103,7 +103,7 @@ div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1235px;
 }
 
 .tab {

@@ -39,7 +39,8 @@ SOURCES = {
    "9fd7b1ba4583a9ba7166": "Mariomon",
    "b60bd402cbb993ed3b77": "Parallel Emerald ATO",
     "17af2cc6ec56f8f293bd": "Parallel Emerald Hard",
-    "a0e5b4fa06d9e7762210": "Parallel Emerald Normal"
+    "a0e5b4fa06d9e7762210": "Parallel Emerald Normal",
+    "55d895a19083b26c0c53": "Emerald Imperium 1.2"
 }
 
 function initializeSplits() {
@@ -151,7 +152,7 @@ function setColumnDefs() {
             width: 80,
             cellRenderer: (params) => {
               if (params.data.species) {
-                return `<img src="./img/newhd/${params.data.species.toLowerCase().replace(/[ :]/g, '-').replace(/[.']/g, '')}.png" style="width: 60px; height: 60px; object-fit: cover;margin-top: 10px;" />`;
+                return `<img src="./img/pokesprite/${params.data.species.toLowerCase().replace(/[ :]/g, '-').replace(/[.']/g, '')}.png" style="width: 60px; height: 60px; object-fit: cover;margin-top: 10px;" />`;
               }
               return '';
             },
