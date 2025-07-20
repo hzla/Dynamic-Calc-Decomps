@@ -41,11 +41,66 @@ function load_js() {
     states = {}
   }
   calcing = false
+  partner_name = null
 
   if (localStorage.notes) {
     $('#battle-notes .notes-text').html(localStorage.notes);
   }
 }
+
+function checkAndLoadScript(src, options = {}) {
+    const {
+        onLoad = null,
+        onError = null,
+        onNotFound = null,
+        timeout = 10000
+    } = options;
+
+    return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = src;
+        script.type = 'text/javascript';
+        
+        let timeoutId;
+        let resolved = false;
+
+        // Set up timeout
+        if (timeout > 0) {
+            timeoutId = setTimeout(() => {
+                if (!resolved) {
+                    resolved = true;
+                    console.error(`Timeout loading: ${src}`);
+                    if (onError) onError(src, new Error('Timeout'));
+                    resolve(false);
+                }
+            }, timeout);
+        }
+
+        script.onload = () => {
+            if (!resolved) {
+                resolved = true;
+                if (timeoutId) clearTimeout(timeoutId);
+                console.log(`Successfully loaded: ${src}`);
+                if (onLoad) onLoad(src);
+                resolve(true);
+            }
+        };
+        
+        script.onerror = (error) => {
+            if (!resolved) {
+                resolved = true;
+                if (timeoutId) clearTimeout(timeoutId);
+                console.log(`File not found or failed to load: ${src}`);
+                if (onNotFound) onNotFound(src, error);
+                resolve(false);
+            }
+        };
+        
+        // Add script to document head
+        document.head.appendChild(script);
+    });
+}
+
 
 
 function isValidJSON(str) {
@@ -253,6 +308,14 @@ $('#battle-notes .notes-text').on('keydown', function(event) {
 });
 
 function setOpposing(id) {
+    // if in multi battle mode and user selects pokemon from already set partner, switch partners
+    if (partner_name && id.includes(partner_name)) {
+        partner_name = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
+        if (partner_name) {
+            partner_name = partner_name.replace(/.?\)/, "")
+        }
+    }
+
     currentTrainerSet = id
     localStorage["right"] = currentTrainerSet
 
@@ -436,6 +499,27 @@ function filterStringsByNumber(targetNum, strArray) {
     });
 }
 
+
+function haveSameMiddleSubstring(str1, str2="") {
+    if (!str2) {return false}
+    const parts1 = str1.split('|');
+    const parts2 = str2.split('|');
+
+    if (parts1.length == 1 || parts2.length == 1) {
+        return true;
+    }
+    
+    // Check if both strings have exactly 3 parts (2 pipes)
+    if (parts1.length !== 3 || parts2.length !== 3) {
+        return false;
+    }
+    
+    // Compare the middle parts (index 1)
+    return parts1[1] === parts2[1];
+}
+
+
+
 function get_trainer_poks(trainer_name)
 {
     var all_poks = SETDEX_BW
@@ -444,20 +528,26 @@ function get_trainer_poks(trainer_name)
     var og_trainer_name = trainer_name.split(/Lvl\*? [-+]?\d+ /)[1]
 
 
-
     if (og_trainer_name) {
         og_trainer_name = og_trainer_name.replace(/.?\)/, "")
     }
 
-    console.log(og_trainer_name)
+
+    let sameLocation = haveSameMiddleSubstring(og_trainer_name, partner_name)
+
+
 
     for (i in TR_NAMES) {
-
-        if (TR_NAMES[i].includes(og_trainer_name + " ")) {
-            
+        if (TR_NAMES[i].includes(og_trainer_name + " ") || ((TR_NAMES[i].includes(partner_name + " ")))) {
             if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
                console.log(TR_NAMES[i])
                matches.push(TR_NAMES[i])
+
+            }
+            if (partner_name && !sameLocation) {
+                if (partner_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (partner_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
+                   matches.push(TR_NAMES[i])
+                }  
             }    
         }
     }
@@ -468,7 +558,6 @@ function get_trainer_poks(trainer_name)
         for (i in TR_NAMES) {
 
             if (TR_NAMES[i].includes(og_trainer_name)) {
-                
                 if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
                    matches.push(TR_NAMES[i])
                 }    
@@ -1763,7 +1852,7 @@ $('#toggle-battle-notes').click(function(){
 
 function get_next_in() {  
     
-    if (switchIn == 4) {
+    if (switchIn == 4 && !partner_name) {
         return get_next_in_g4()
     }
 
@@ -1940,8 +2029,8 @@ function get_next_in() {
     var endSwap = null
     var foundMega = false
     for (var i = 0; i < ranked_trainer_poks.length; i++) {
-				if (TITLE == "Ancestral X")
-					break;
+                if (TITLE == "Ancestral X")
+                    break;
 
         if (foundMega) {
             if (i == ranked_trainer_poks.length - 1)
@@ -2152,15 +2241,15 @@ function loadDataSource(data) {
     //     moves[move]["bp"] = jsonMove["basePower"]
     //     MOVES_BY_ID[g][move_id].basePower = jsonMove["basePower"]
 
-	// 	var special_case_power_overrides = {
-	// 		"Return": 102,
-	// 		"Magnitude": 70
-	// 	}
+    //  var special_case_power_overrides = {
+    //      "Return": 102,
+    //      "Magnitude": 70
+    //  }
 
-	// 	if (move in special_case_power_overrides) {
-	// 		moves[move]["bp"] = special_case_power_overrides[move]
-	//        MOVES_BY_ID[g][move_id].basePower = special_case_power_overrides[move]
-	// 	}
+    //  if (move in special_case_power_overrides) {
+    //      moves[move]["bp"] = special_case_power_overrides[move]
+    //        MOVES_BY_ID[g][move_id].basePower = special_case_power_overrides[move]
+    //  }
         
     //     var optional_move_params = ["type", "category", "e_id", "multihit", "target", "recoil", "overrideBP", "secondaries", "drain", "priority", "makesContact"]  
     //     for (n in optional_move_params) {
@@ -2372,7 +2461,6 @@ function loadDataSource(data) {
         $('#maxL').next().remove()
         $('#maxR').next().remove()
         pokedex["Raichu"]["types"] = ["Electric", "Normal"]
-        pokedex["Sunflora"]["types"] = ["Grass"]
     }
 
     // for (pok in pokedex) {
@@ -2381,10 +2469,10 @@ function loadDataSource(data) {
     //         continue
     //     }
 
-	// 	// Allow import of Farfetch'd w/ unicode standard apostrophe
-	// 	if (pok == "Farfetch’d" && jsonPoks["Farfetch'd"]) {
-	// 		jsonPok = jsonPoks["Farfetch'd"];
-	// 	}
+    //  // Allow import of Farfetch'd w/ unicode standard apostrophe
+    //  if (pok == "Farfetch’d" && jsonPoks["Farfetch'd"]) {
+    //      jsonPok = jsonPoks["Farfetch'd"];
+    //  }
     //     else if (jsonPoks[pok]) {
     //         jsonPok = jsonPoks[pok]
     //     } else {
@@ -2628,50 +2716,15 @@ $(document).ready(function() {
 
    var g =  parseInt(params.get('gen'));
    
-   if (BACKUP_MODE) {
-        setTimeout(function() {
-            console.log("loading backups")
-            if (SOURCES[params.get('data')]) {
-                TITLE = SOURCES[params.get('data')] || "NONE"
-                $('.genSelection').hide()
-                $('#rom-title').text(TITLE).show()
-                console.log(TITLE)
-                backup_data = {}
-                if (TITLE == "Blaze Black/Volt White") {
-                    backup_data = bb_backup
-                } else if (TITLE == "Blaze Black 2/Volt White 2 Redux") {
-                    backup_data = bb2redux_backup
-                } else if (TITLE == "Blaze Black 2/Volt White 2 Redux 1.4") {
-                    backup_data = bb2redux_backup
-                } else if (TITLE == "Vintage White") {
-                    backup_data = vw_backup
-                } else if (TITLE == "Renegade Platinum") {
-                    backup_data = rp_backup
-                } else if (TITLE == "Sacred Gold/Storm Silver") {
-                    backup_data = sgss_backup
-                } else if (TITLE == "Ancestral X") {
-                    backup_data = ax_backup
-                } else if (TITLE == "Rising Ruby/Sinking Saphire") {
-                    console.log("loading rrss")
-                    backup_data = rrss_backup
-                } else if (TITLE == "Grand Colloseum 2.0") {
-                    backup_data = gcol_backup
-                } else if (TITLE == "Emerald Kaizo") {
-                    backup_data = ek_backup
-                } else if (TITLE == "Emerald Imperium 1.2") {
-                    backup_data = imp_backup
-                }
-                else {
-                    // dist
-                    "nothing"
-                }
-                npoint_data = backup_data
-            } else {
-                TITLE = "NONE"
-            }
-            loadDataSource(backup_data)
-
-        },500)
+   if (backupFiles[TITLE]) {
+        console.log("now loading local data instead of npoint")
+        checkAndLoadScript(`./backups/${backupFiles[TITLE]}.js`, {
+                onLoad: (src) => {
+                    npoint_data = backup_data
+                    loadDataSource(npoint_data)
+                },
+                onNotFound: (src) => console.log(`Not found: ${src}`)
+        }); 
             
         
         
@@ -2933,6 +2986,19 @@ $(document).ready(function() {
             $('.move-crit').last().change()
         } else if (e.altKey && e.key == "s" || e.key == "ß") {
             toggleBoxSpriteStyle()
+        } else if (e.altKey && e.key == "p" || e.key == "π") {
+            if (partner_name) {
+                partner_name = null
+                alert("Partner trainer cleared")
+            } else {
+                partner_name = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
+                if (partner_name) {
+                    partner_name = partner_name.replace(/.?\)/, "")
+                }
+                alert(`${partner_name} set as doubles partner for next trainer selected`)   
+            }
+
+            
         }
     }
 

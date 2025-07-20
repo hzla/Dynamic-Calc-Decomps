@@ -38,6 +38,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     if (move.category === 'Status' && !move.named('Nature Power')) {
         return result;
     }
+
     if (field.defenderSide.isProtected && !move.breaksProtect) {
         desc.isProtected = true;
         return result;
@@ -82,6 +83,10 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                         : field.hasTerrain('Misty') ? 'Fairy'
                             : 'Normal';
         }
+    }
+    else if (move.named('Brick Break')) {
+        field.defenderSide.isReflect = false;
+        field.defenderSide.isLightScreen = false;
     }
     var isAerilate = false;
     var isPixilate = false;
@@ -749,7 +754,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     if (field.attackerSide.is50Buff) {
         bpMods.push(6144)
     }
-    if (isAerilate || isPixilate || isRefrigerate || isNormalize) {
+    if (isAerilate || isPixilate || isRefrigerate) {
         bpMods.push(5325);
         desc.attackerAbility = attacker.ability;
     }
@@ -964,7 +969,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
 
 
     // Check if challenge mode, if calculating trainer pok, and if trainer pok is in challenge mode exception list
-    if (challengeMode && !get_current_in()["noCh"] && $('.set-selector')[3].value.includes(attacker.name) && $('.set-selector')[3].value.includes(attacker.level) ) {
+    if (challengeMode && (get_current_in(false) && !get_current_in(false)["noCh"]) && $('.set-selector')[3].value.includes(attacker.name) && $('.set-selector')[3].value.includes(attacker.level) ) {
         var delta = 4
         for (n in levelCaps) {
             if (attacker.level <= levelCaps[n][0]) {

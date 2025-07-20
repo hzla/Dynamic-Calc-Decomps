@@ -32,8 +32,17 @@ document.getElementById('save-upload').addEventListener('change', function(event
             boxSize = 0xFF0
             partySize = 0x534
             checksumsOffset = 0x23F00
+            checksumEnd = 0x23F9A
             partyPokSize = 220
+            checksumTableSize = 0x8C
+
+            if (baseVersion == "BW2") {
+                checksumsOffset = 0x25F00
+                checksumEnd = 0x25FA2
+                checksumTableSize = 0x94
+            }
         }
+
         battleStatSize = (partyPokSize - 136) / 2
 
         reader.onload = function(e) {
@@ -115,7 +124,7 @@ document.getElementById('save-upload').addEventListener('change', function(event
             
 
             if (baseGame == "BW") {
-                n = 690
+                n = 210
             }
 
             boxPokOffsets = {}
@@ -167,8 +176,8 @@ function setBWChecksums() {
     view.set([partyChecksum & 0xFF, (partyChecksum >>> 8) & 0xFF], checksumsOffset + 52)
 
     // set checksum table
-    checksumsChecksum = getCheckSum(view.slice(0x23F00, 0x23F00 + 0x8C))
-    view.set([checksumsChecksum & 0xFF, (checksumsChecksum >>> 8) & 0xFF], 0x23F9A)
+    checksumsChecksum = getCheckSum(view.slice(checksumsOffset, checksumsOffset + checksumTableSize))
+    view.set([checksumsChecksum & 0xFF, (checksumsChecksum >>> 8) & 0xFF], checksumEnd)
 }
 
 // The decryptData function, as described earlier
@@ -260,6 +269,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
     
     var mon_data_offset = shiftOrder.indexOf(0) * 16
     var move_data_offset = shiftOrder.indexOf(1) * 16
+    var met_data_offset = shiftOrder.indexOf(3) * 16
 
     var mon_name = sav_pok_names[decryptedData[mon_data_offset]]
 
@@ -287,6 +297,17 @@ function parsePKM(chunk, is_party=false, offset=0) {
 
     var iv_value = (decryptedData[move_data_offset + 9] << 16) | (decryptedData[move_data_offset + 8]  & 0xFFFF)
     ivs = getIVs(iv_value) 
+
+    let met_location
+
+    if (baseGame == "Pt" || baseGame == "HGSS") {
+        met_location = locations[baseGame][decryptedData[move_data_offset + 15]] 
+    } else {
+        met_location = locations[baseGame][decryptedData[met_data_offset + 12]] 
+    }
+    
+
+
 
     if (baseGame != "BW") {
         var nature = natures[Math.abs(pv) % 25]
@@ -335,6 +356,8 @@ function parsePKM(chunk, is_party=false, offset=0) {
         var move_name = sav_move_names[decryptedData[move_data_offset + i]]
         showdownString += `- ${move_name}\n`
     }
+
+    showdownString += `Met: ${met_location}\n`
     showdownString += "\n"
     return showdownString    
 }
@@ -408,6 +431,7 @@ function getCheckSum(dataToUpdate) {
     for (let i = 0; i < view.length; i++) {
         sum = ((sum << 8) ^ table[(view[i] ^ (sum >> 8)) & 0xFF]) & 0xFFFF;
     }
+    console.log('0x' + (sum & 0xFFFF).toString(16).toUpperCase().padStart(4, '0'))
     return '0x' + (sum & 0xFFFF).toString(16).toUpperCase().padStart(4, '0');
 }
 
@@ -869,7 +893,7 @@ function getStat(mods, stat, base, iv, ev, level) {
                 : mods[1] === stat
                     ? 0.9
                     : 1;
-        console.log(`${stat}: ${Math.floor((Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) + 5) * n)}`)
+        // console.log(`${stat}: ${Math.floor((Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) + 5) * n)}`)
         return Math.floor((Math.floor(((base * 2 + iv + Math.floor(ev / 4)) * level) / 100) + 5) * n);
     }
 };

@@ -457,6 +457,7 @@ itemChanges = {
 	}
 }
 
+
 if(typeof CHANGES === 'undefined') {
 	
 } else {
@@ -686,6 +687,11 @@ function getMoves(currentPoke, rows, offset) {
 					move = move.replace("HP ", "Hidden Power")
 				}
 
+				if (typeof rows[x + 1] != "undefined" && rows[x + 1][0] == "M") {
+					currentPoke.met = rows[x + 1].substr(5, rows[x + 1].length)
+					console.log(currentPoke.met)
+				}
+
 				moves.push(move);
 			} else {
 				if (movesFound == true) {
@@ -700,6 +706,21 @@ function getMoves(currentPoke, rows, offset) {
 
 function addToDex(poke) {
 	var dexObject = {};
+
+
+	if (typeof npoint_data.poks_replacements != "undefined") {
+		if (typeof pokChanges === "undefined") {
+			pokChanges = {}
+		}
+		
+		pokChanges[TITLE] = npoint_data.poks_replacements
+
+		if (pokChanges[TITLE] && pokChanges[TITLE][poke.name]) {
+			poke.name = pokChanges[TITLE][poke.name] 
+		}
+	}
+
+	
 	if ($("#randoms").prop("checked")) {
 		if (GEN8RANDOMBATTLE[poke.name] == undefined) GEN8RANDOMBATTLE[poke.name] = {};
 		if (GEN7RANDOMBATTLE[poke.name] == undefined) GEN7RANDOMBATTLE[poke.name] = {};
@@ -724,8 +745,6 @@ function addToDex(poke) {
 	}
 
 
-	console.log(`${poke.name} - ${parseInt(poke.ability)}`)
-	console.log(pokedex[poke.name]['abilities'][parseInt(poke.ability)])
 
 	if (isInt(poke.ability)) {
 		console.log("ability updated")
@@ -740,6 +759,11 @@ function addToDex(poke) {
 	dexObject.nature = poke.nature;
 	dexObject.item = poke.item;
 	dexObject.isCustomSet = poke.isCustomSet;
+
+	if (typeof poke["met"] != "undefined") {
+		dexObject.met = poke["met"] 
+	}
+
 	var customsets;
 	if (localStorage.customsets) {
 		customsets = JSON.parse(localStorage.customsets);
@@ -751,13 +775,20 @@ function addToDex(poke) {
 	if (!customsets[poke.name]) {
 		customsets[poke.name] = {};
 	}
+
 	customsets[poke.name]["My Box"] = dexObject;
+	
+	
+
+
 	if (poke.name === "Aegislash-Blade") {
 		if (!customsets["Aegislash-Shield"]) {
 			customsets["Aegislash-Shield"] = {};
 		}
 		customsets["Aegislash-Shield"][poke.nameProp] = dexObject;
 	}
+
+
 	updateDex(customsets);
 }
 
@@ -822,7 +853,6 @@ function addSets(pokes, name) {
 				item = rows[i].split("@")[1].trim()
 			}
 			rows[i] = rows[i].split(" |Party")[0]
-			console.log(rows[i])
 			currentParty.push(rows[i])
 		}
 
@@ -852,9 +882,6 @@ function addSets(pokes, name) {
 				} else {
 					currentPoke.ability = getAbility(rows[i + 1].split(":"));
 				}
-
-				console.log(currentPoke.ability)
-				console.log("........")
 				
 				currentPoke = getStats(currentPoke, rows, i + 1);
 				currentPoke = getMoves(currentPoke, rows, i);
@@ -873,6 +900,7 @@ function addSets(pokes, name) {
 		}, 500)
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
 		displayParty()
+		importEncounters()
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}
@@ -935,31 +963,49 @@ function checkExeptions(poke) {
 		poke = "Florges";
 		break;
 	}
+
+	// try replacing spaces with dashes
+	if (typeof pokedex[poke] == 'undefined' && pokedex[poke.replace(" ", "-")]) {
+		poke = poke.replace(" ", "-")
+		return poke
+	}
+
+	// try replacing dashes with spaces
+	if (typeof pokedex[poke] == 'undefined' && pokedex[poke.replace("-", " ")]) {
+		poke = poke.replace("-", " ")
+		return poke
+	}
+
+	// try using only first part of name
+	if (typeof pokedex[poke] == 'undefined' && pokedex[poke.split("-")[0]]) {
+		poke = poke.split("-")[0]
+		return poke
+	}
+
+
 	return poke;
 
 }
 
 $("#clearSets").click(function () {
-	if (confirm("Are you sure you want to delete your custom sets? This action cannot be undone.")) {
-		localStorage.removeItem("customsets");
-		$("#importedSetsOptions").hide();
-		
-		// Remove Set Data from Dropdown
-		$('.trainer-pok.left-side').each(function() {
-			var species_name = $(this).attr('data-id').replace(" (My Box)", "")
-			delete SETDEX_BW[species_name]["My Box"]
-		})
+	localStorage.removeItem("customsets");
+	$("#importedSetsOptions").hide();
+	
+	// Remove Set Data from Dropdown
+	$('.trainer-pok.left-side').each(function() {
+		var species_name = $(this).attr('data-id').replace(" (My Box)", "")
+		delete SETDEX_BW[species_name]["My Box"]
+	})
 
-		// Remove Icons
-		$('.trainer-pok.left-side').remove()
-		$('#clear-party').click()
+	// Remove Icons
+	$('.trainer-pok.left-side').remove()
+	$('#clear-party').click()
 
-		// Shake box
-		$('.player-poks').addClass('shake')
-		setTimeout(function(){
-			$('.player-poks').removeClass('shake')
-		}, 500)
-	}
+	// Shake box
+	$('.player-poks').addClass('shake')
+	setTimeout(function(){
+		$('.player-poks').removeClass('shake')
+	}, 500)
 });
 
 $("#importedSets").click(function () {

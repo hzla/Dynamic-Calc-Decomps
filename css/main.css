@@ -172,7 +172,7 @@ input[type="file"] {
 
 
 
-#ai-tags div, #nav-tags div, #learnset-show, #box-remove, #save-pok {
+#ai-tags div, #nav-tags div,  #learnset-show, #box-remove, #save-pok, #add-party-pok {
     line-height: 20px;
     margin-right: 10px;
     color: #bb86fc;
@@ -438,7 +438,7 @@ input {
     position: absolute;
     max-width: calc(100% - 430px);
     right: 13px;
-    top: 70px;
+    top: 80px;
 /*    background: rgba(255,255,255,0.1);*/
     border-bottom-left-radius: 10px;
     height: 96px;
@@ -447,6 +447,25 @@ input {
     border-radius:  20px;
     padding: 20px;
     z-index:  12;
+}
+
+.frag-text, .unfrag-text {
+    color: #1abc9c;
+    position: absolute;
+    top: 190px;
+    right: 13px;
+    width: 96px;
+    text-align: center;
+    display: none;
+}
+
+.frag-counter {
+    position: absolute;
+    top: 220px;
+    right: 13px;
+    width: 96px;
+    text-align: right;
+    display: none;
 }
 
 
@@ -600,7 +619,6 @@ html, body {
     color: #f8f8f2;
     margin: 0;
     padding: 0;
-/*    min-width: 100em;*/
 }
 
 .importedSetsOptions {
@@ -803,6 +821,10 @@ table td {
     font-size: 12px;
 } 
 
+.evs.calc-trigger.expanded {
+    width: 65px;
+}
+
 
 .trainer-pok {
     height:  65px;
@@ -825,6 +847,13 @@ table td {
     min-content: 64px;
 }
 
+.poke-sprite {
+    cursor: pointer;
+}
+
+.poke-sprite:hover {
+    border: 1px solid #1abc9c;
+}
 
 
 .trainer-pok-list .pokesprite.left-side, .pokesprite .trainer-pok.left-side {
@@ -841,6 +870,11 @@ table td {
 
 .trainer-pok.right-side.fainted {
     background: rgb(255, 85, 85, 0.5);
+}
+
+.trainer-pok.right-side.lead {
+    border: 1px solid #bb86fc;
+    margin-bottom: 10px;
 }
 
 .left-side:hover {
@@ -871,6 +905,11 @@ table td {
 .info-group.hp-cntrl {
     margin-bottom: 0;
     height: 40px;
+    margin-top: 4px;
+}
+
+.info-group.left-table, .info-group-right-table {
+    margin-bottom: 0px;
 }
 
 .info-group.info-selectors {
@@ -1240,6 +1279,8 @@ th {
     width: 100%;
 }
 
+
+
 .info-selectors select {
     width: 12em;
 }
@@ -1310,6 +1351,15 @@ select.toxic-counter {
     border: 1px solid #bb86fc ;
 }
 
+#clearSets {
+    padding: 8px;
+    margin-top: 20px;
+
+}
+
+button:hover, label:hover {
+    background: rgba(0,0,0,0.1) !important;
+}
 #save-state {
 /*    border: 1px solid #bb86fc ;*/
 }
@@ -1620,7 +1670,11 @@ table.field {
   }
 
   .trainer-pok-list.opposing {
-    flex-wrap: wrap;
+/*    flex-wrap: wrap;*/
+  }
+
+  .select2-drop.select2-drop-above .select2-search input {
+        font-size: max(1em, 16px);
   }
 
 }
@@ -1655,7 +1709,8 @@ table.field {
     }
 
     .move-result-group .btn  {
-        min-width: 200px;
+        min-width: 160px;
+        width: 160px;
     }
 
     #ai-tags div {
@@ -1797,6 +1852,49 @@ table.field {
     #nav-tags {
         top: 112px;
     }
+    #add-party-pok {
+        display: block;
+    }
+
+    #nav-tags {
+        top: 112px;
+    }
+
+/*    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%238C98F2'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
+      background-size: 12px;
+      background-position: calc(100% - 20px) center;
+      background-repeat: no-repeat;
+      background-color: #efefef;
+    }*/
+
+/*    .select2-drop {
+        left: 20px !important;
+        width: calc(100vw - 40px) !important;
+    }*/
+
+    .select2-search input, .select2-search {
+        height: 40px !important;
+        font-size: 24px;
+
+    }
+
+    .select2-results li {
+        min-height: 40px;
+        font-size: 24px;
+    }
+
+    .resultDamage {
+        font-size: 20px;
+    }
+
+
+
+
+>>>>>>> master
 }
 
 

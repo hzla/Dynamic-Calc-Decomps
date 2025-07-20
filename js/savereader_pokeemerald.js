@@ -112,6 +112,9 @@ document.getElementById('save-upload').addEventListener('change', function(event
                         continue
                     }
 
+
+                    // Try Substitute Spaces for Dashes if pokemon name doesn't exist
+
                     if (!pokedex[speciesName]) {
                         speciesName = speciesName.replace(" ", "-")
                     }
