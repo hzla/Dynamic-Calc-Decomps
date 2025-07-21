@@ -993,6 +993,7 @@ function checkExeptions(poke) {
 
 $("#clearSets").click(function () {
 	localStorage.removeItem("customsets");
+	customSets = {}
 	$("#importedSetsOptions").hide();
 	
 	// Remove Set Data from Dropdown

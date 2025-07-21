@@ -71,7 +71,20 @@ document.getElementById('save-upload').addEventListener('change', function(event
                     offset += 4
                     let tid = saveFile.getUint32(offset, true)
                     offset += 4
-                    let moddedNature = (saveFile.getUint16(offset, true) >> 13) && 0b11111
+
+
+                    let nn = ""
+
+                    for (let i = 0; i <10; i++) {
+                        let letter = gen3TextTable[saveFile.getUint8(offset + i, true)] || ""
+                        nn += letter
+                    }
+
+
+                    // let moddedNature = (saveFile.getUint16(offset, true) >> 13) && 0b11111
+
+
+
 
                     // substructs are scrambled according to PID
                     let suborder = orderFormats[pid % 24]
@@ -121,6 +134,18 @@ document.getElementById('save-upload').addEventListener('change', function(event
 
                     // get Item
                     let itemId = [decrypted[growth_index * 3]] >> 16 & 0x07FF
+
+                    let nn11 = gen3TextTable[decrypted[growth_index * 3 + 1] >> 21 & 0xFF] || ""
+                    let nn12 = gen3TextTable[decrypted[growth_index * 3 + 2] >> 14 & 0xFF] || ""
+
+                    nn += nn11
+                    nn += nn12
+
+                    met = locations["EM"][decrypted[misc_index * 3] >> 8 & 0xFF] 
+
+
+
+                    // console.log(nn)
                     
                     // get nature
                     let monNature = 0
@@ -129,9 +154,9 @@ document.getElementById('save-upload').addEventListener('change', function(event
                         monNature = natures[natureByte & 31744 >> 10]   
                     } else {
                         monNature = natures[pid % 25]
-                        if (moddedNature <= 26) {
-                            monNature = natures[moddedNature]
-                        }
+                        // if (moddedNature <= 26) {
+                        //     monNature = natures[moddedNature]
+                        // }
                     }
 
                     // get evs
@@ -183,7 +208,13 @@ document.getElementById('save-upload').addEventListener('change', function(event
                         }           
                     }
                     
-                    showdownText += `${speciesName}`
+                    if (nn.toLowerCase() != speciesName.toLowerCase()){
+                       showdownText += `${nn} (${speciesName})`
+                    } else {
+                        showdownText += `${speciesName}`
+                    }
+
+                    
                     if (itemId != 0) {
                         showdownText += ` @ ${itemTitleize(emImpItems[itemId])}`
                     }
@@ -200,7 +231,8 @@ document.getElementById('save-upload').addEventListener('change', function(event
                     showdownText += `- ${move1}\n`
                     showdownText += `- ${move2}\n`
                     showdownText += `- ${move3}\n`
-                    showdownText += `- ${move4}\n\n`
+                    showdownText += `- ${move4}\n`
+                    showdownText += `Met: ${met}\n\n`
                     offset = lastFoundAt + 2
                 } else {
                     offset += 2; 
