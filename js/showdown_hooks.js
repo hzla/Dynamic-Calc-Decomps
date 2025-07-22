@@ -309,10 +309,12 @@ $('#battle-notes .notes-text').on('keydown', function(event) {
 
 function setOpposing(id) {
     // if in multi battle mode and user selects pokemon from already set partner, switch partners
+    console.log([id, partner_name])
     if (partner_name && id.includes(partner_name)) {
         partner_name = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
         if (partner_name) {
             partner_name = partner_name.replace(/\s?\)/, "").replace(/\s$/, "")
+            console.log(`Switching partners: ${partner_name}`)
         }
     }
 
@@ -530,7 +532,7 @@ function get_trainer_poks(trainer_name)
         og_trainer_name = og_trainer_name.replace(/.?\)/, "")
     }
 
-    let sameLocation = haveSameMiddleSubstring(og_trainer_name, partner_name)
+    // let sameLocation = haveSameMiddleSubstring(og_trainer_name, partner_name)
 
     let og_white_space = " "
     let partner_white_space = " "
@@ -547,14 +549,20 @@ function get_trainer_poks(trainer_name)
 
 
 
+
+
     for (i in TR_NAMES) {
 
         if (TR_NAMES[i].includes(og_trainer_name + og_white_space) || ((TR_NAMES[i].includes(partner_name + partner_white_space)))) {
+            
+
+            // To avoid cases where grunt1 matches grunt11, we check the last word in the set string to make sure it's  an actual match
+
             if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
                matches.push(TR_NAMES[i])
 
             }
-            if (partner_name && !sameLocation) {
+            if (partner_name) {
                 if (partner_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (partner_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
                    matches.push(TR_NAMES[i])
                 }  
