@@ -42,10 +42,29 @@ function resetEncounters() {
 	console.log("Encounters cleared")
 }
 
+function extractLevel(str) {
+    const match = str.match(/Lvl (-?\d+)/);
+    return match ? match[1] : null;
+}
+
 function addFrag(e) {
 	e.preventDefault()
 	let speciesName = $('.select2-chosen')[0].innerHTML.split(" (")[0]
 	let fragged =  $('.select2-chosen')[5].innerHTML
+
+	const internalLevel = extractLevel(fragged)
+	let actualLevel = $('#levelR1').val()
+
+	if (parseInt(actualLevel) <= 0) {
+		actualLevel = $('#levelL1').val() || "1"
+	}
+
+	fragged = fragged.replace(internalLevel, actualLevel);
+
+
+
+
+
 	let currentEncounters = JSON.parse(localStorage.encounters)
 
 	if (currentEncounters[speciesName] && currentEncounters[speciesName].frags.indexOf(fragged) == -1 ) {
