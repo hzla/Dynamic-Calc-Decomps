@@ -866,7 +866,12 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
     if (attacker.hasItem("".concat(move.type, " Gem")) ||
         (attacker.named('Electivire') && attacker.hasItem('Electirizer') && move.hasType('Fighting')) ||
         (attacker.named('Sunflora') && attacker.hasItem('Burnt Seed') && move.hasType('Fire'))) {
-        bpMods.push(6144);
+        if (TITLE.includes("Radical")) {
+            bpMods.push(6144);
+        } else {
+            bpMods.push(5325);
+        }
+        
         desc.attackerItem = attacker.item;
     }
     else if ((((attacker.hasItem('Adamant Crystal') && attacker.named('Dialga-Origin')) ||
