@@ -152,7 +152,7 @@ function setColumnDefs() {
             width: 80,
             cellRenderer: (params) => {
               if (params.data.species) {
-                return `<img src="./img/pokesprite/${params.data.species.toLowerCase().replace(/[ :]/g, '-').replace(/[.']/g, '')}.png" style="width: 60px; height: 60px; object-fit: cover;margin-top: 10px;" />`;
+                return `<img src="./img/pokesprite/${params.data.species.toLowerCase().replace(/[ :]/g, '-').replace(/[.’]/g, '')}.png" style="width: 60px; height: 60px; object-fit: cover;margin-top: 10px;" />`;
               }
               return '';
             },
@@ -185,7 +185,10 @@ function setColumnDefs() {
             onCellValueChanged: (event) => {
                 updateEncounterSetData('met', event.data.species, event.newValue);
             },
-            valueFormatter: (params) => toTitleCase(params.value)
+            valueFormatter: (params) => toTitleCase(params.value),
+            cellStyle: params => {
+                return { 'text-overflow': 'initial' };
+            },
         },
         {
             headerName: 'S1',
@@ -352,7 +355,7 @@ function displayFragHistory(rowData) {
             let trName = extractTrainerName(frag)
             
             let pokName = extractPokemonName(frag)
-            let spritePath = `./img/pokesprite/${pokName.toLowerCase().replace(/[ :]/g, '-').replace(/[.']/g, '').replace("-glitched", "")}.png`
+            let spritePath = `./img/pokesprite/${pokName.toLowerCase().replace(/[ :'.-]+/g, '-').replace(/^-|-glitched$|-$/g, '')}.png`
 
             if (!seenTrainers[trName]) {
                 let fragHTML = `<div class="frag-row">
@@ -391,6 +394,14 @@ function extractPokemonName(str) {
     return match ? match[1].trim() : null;
 }
 
+function toTitleCase(str) {
+  return str
+    .toLowerCase()
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
 function findRowDataBySpecies(speciesName) {
     for (row of rowData) {
         if (row.species == speciesName) {
@@ -398,14 +409,6 @@ function findRowDataBySpecies(speciesName) {
         }
     }
     return {}
-}
-
-function toTitleCase(str) {
-  return str
-    .toLowerCase()
-    .split(' ')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
 }
 
 function createRowData() {

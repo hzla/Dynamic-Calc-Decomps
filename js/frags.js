@@ -74,6 +74,8 @@ function addFrag(e) {
 
 		$('#p2 .frag-text').show()
 
+		$('#frag-count').text(`Frags: ${currentEncounters[speciesName].fragCount}`)
+
 		setTimeout(function() {
 			$('#p2 .frag-text').hide()
 		},300)
