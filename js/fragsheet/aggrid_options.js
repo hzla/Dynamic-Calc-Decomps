@@ -167,7 +167,7 @@ function setColumnDefs() {
             cellEditor: 'agTextCellEditor',
             onCellValueChanged: (event) => {
                 updateEncounter('nn', event.data.species, event.newValue);
-            },
+            }
         },
         {
             headerName: 'Species',
@@ -185,6 +185,7 @@ function setColumnDefs() {
             onCellValueChanged: (event) => {
                 updateEncounterSetData('met', event.data.species, event.newValue);
             },
+            valueFormatter: (params) => toTitleCase(params.value)
         },
         {
             headerName: 'S1',
@@ -397,6 +398,14 @@ function findRowDataBySpecies(speciesName) {
         }
     }
     return {}
+}
+
+function toTitleCase(str) {
+  return str
+    .toLowerCase()
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
 }
 
 function createRowData() {
