@@ -395,6 +395,9 @@ function extractPokemonName(str) {
 }
 
 function toTitleCase(str) {
+  if (!str) {
+    return ""
+  }
   return str
     .toLowerCase()
     .split(' ')
