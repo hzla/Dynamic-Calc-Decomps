@@ -208,8 +208,18 @@ document.getElementById('save-upload').addEventListener('change', function(event
                         }           
                     }
                     
-                    if (nn.toLowerCase() != speciesName.toLowerCase()){
-                       showdownText += `${nn} (${speciesName})`
+
+
+
+                    if (nn.toLowerCase() != speciesName.toLowerCase() && !(speciesName.toLowerCase().includes(nn.toLowerCase().trim()))) {
+                    
+                        if (nn.toLowerCase().includes(speciesName.toLowerCase())) {
+                            showdownText += `${speciesName}`
+                        } else {
+                            showdownText += `${nn} (${speciesName})`
+                        }
+
+                       
                     } else {
                         showdownText += `${speciesName}`
                     }
