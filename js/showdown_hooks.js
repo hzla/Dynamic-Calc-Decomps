@@ -3093,6 +3093,9 @@ $('.set-selector, .move-selector').on("select2-close", function () {
     }
 
     function toTitleCase(str) {
+      if (!str) {
+        return ""
+      }
       return str
         .toLowerCase()
         .split(' ')
