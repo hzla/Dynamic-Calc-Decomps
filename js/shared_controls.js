@@ -1326,6 +1326,10 @@ function calcHP(poke) {
 	var total = calcStat(poke, "hp");
 	var $maxHP = poke.find(".max-hp");
 
+	if (!total) {
+		total = parseInt($maxHP.text())
+	}
+
 	var prevMaxHP = Number($maxHP.attr('data-prev')) || total;
 	var $currentHP = poke.find(".current-hp");
 	var prevCurrentHP = $currentHP.attr('data-set') ? Math.min(Number($currentHP.val()), prevMaxHP) : prevMaxHP;
