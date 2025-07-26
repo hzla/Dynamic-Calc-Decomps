@@ -42,7 +42,11 @@ function importEncounters() {
 }
 
 function getEncounters() {
-	return JSON.parse(localStorage.encounters)
+	if (localStorage.encounters && localStorage.encounters != "" ) {
+		return JSON.parse(localStorage.encounters)
+	} else {
+		return {}
+	}	
 }
 
 function resetEncounters() {
