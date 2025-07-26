@@ -670,7 +670,7 @@ $(".set-selector").change(function () {
 				// $('#trainer-sprite').attr('src', `./img/${sprite}`)
 				// $('#trainer-sprite').show()
 
-				if ($("#lvl-cap").val() != "" && SETDEX_BW[pokemonName][setName]["sublevel"]) {
+				if ($("#lvl-cap").val() != "" && (typeof (SETDEX_BW[pokemonName][setName]["sublevel"]) !== "undefined")) {
 					var lvl_delta = parseInt(SETDEX_BW[pokemonName][setName]["sublevel"])
 					var current_cap = parseInt($("#lvl-cap").val())
 					setTimeout(function() {
