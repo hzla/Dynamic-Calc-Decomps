@@ -138,28 +138,28 @@ function toggleEncounterStatus(e) {
 	console.log(`${speciesName} marked as alive: ${currentEncounters[speciesName].alive}`)
 }
 
-// Returns [fragCount, frags]
+// Returns [fragCount, frags, met location, nickname]
 function prevoData(speciesName, encounters) {
-	let ancestor = evoData[speciesName]["anc"]
+    let ancestor = evoData[speciesName]["anc"]
 
-	if (ancestor == speciesName) {
-		console.log("Does not evolve")
-		return [0, []]
-	}
+    if (ancestor == speciesName) {
+        console.log("Does not evolve")
+        return [0, [], false, false]
+    }
 
-	let evos = evoData[ancestor]["evos"]
+    let evos = [ancestor].concat(evoData[ancestor]["evos"])
 
-	// Look for later evolutions first
-	for (let i = evos.length - 1; i >= 0; i--) {
-	    mon = evos[i]
-	    if (encounters[mon] && mon != speciesName) {
-			console.log(mon)
-			return [encounters[mon].fragCount, encounters[mon].frags, encounters[mon].setData["My Box"].met, encounters[mon].setData["My Box"].nn]
-		}
-	}
+    // Look for later evolutions first
+    for (let i = evos.length - 1; i >= 0; i--) {
+        mon = evos[i]
+        console.log(mon)
+        if (encounters[mon] && mon != speciesName) {
+            return [encounters[mon].fragCount, encounters[mon].frags, encounters[mon].setData["My Box"].met, encounters[mon].setData["My Box"].nn]
+        }
+    }
 
-	console.log("prevo data not found")
-	return [0, [], false, false]
+    console.log("prevo data not found")
+    return [0, [], false, false]
 }
 
 

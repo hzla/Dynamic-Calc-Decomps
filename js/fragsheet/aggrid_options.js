@@ -414,6 +414,31 @@ function findRowDataBySpecies(speciesName) {
     return {}
 }
 
+// Returns [fragCount, frags, met location, nickname]
+function prevoData(speciesName, encounters) {
+    let ancestor = evoData[speciesName]["anc"]
+
+    if (ancestor == speciesName) {
+        console.log("Is not evolved form")
+        return [0, [], false, false]
+    }
+
+    let evos = [ancestor].concat(evoData[ancestor]["evos"])
+
+    // Look for later evolutions first
+    for (let i = evos.length - 1; i >= 0; i--) {
+        mon = evos[i]
+        if (encounters[mon] && mon != speciesName) {
+            return [encounters[mon].fragCount, encounters[mon].frags, encounters[mon].setData["My Box"].met, encounters[mon].setData["My Box"].nn]
+        }
+    }
+
+    console.log("prevo data not found")
+    return [0, [], false, false]
+}
+
+
+
 function createRowData() {
     allKos = 0
     aliveCount = 0
@@ -434,6 +459,21 @@ function createRowData() {
             }
         }
 
+
+        // merge frags with prevos
+        let prevo = prevoData(enc, encounters)
+        let uniqFrags = [...new Set(encounters[enc].frags.concat(prevo[1]))].filter(item => item !== undefined);
+
+        encounters[enc].frags = uniqFrags
+        encounters[enc].fragCount = uniqFrags.length
+        encRow.frags = uniqFrags
+        encRow.fragCount = uniqFrags.length
+
+
+
+
+
+
         if (foundEvo) {
             continue
         }
@@ -445,7 +485,7 @@ function createRowData() {
         encRow.status = "Dead"
         deadCount++
        }
-       
+
        let setData = encounters[enc].setData["My Box"]
 
        encRow.nickname = setData.nn || enc
