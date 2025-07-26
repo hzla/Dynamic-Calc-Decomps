@@ -18,12 +18,23 @@ function importEncounters() {
 	  	let encounter = {setData: setData, fragCount: 0, frags: [], prevoFragCount: 0, alive: true, hide: false}
 	  	currentEncounters[speciesName] = encounter
 
-	  	let preFrags = prevoFrags(speciesName, currentEncounters)
+	  	let preFrags = prevoData(speciesName, currentEncounters)
 	
 	  	encounter.prevoFragCount = preFrags[0]
-	  	encounter.fragCount = preFrags[0]
 
+
+	  	encounter.fragCount = preFrags[0]
 	  	encounter.frags = preFrags[1]
+
+
+
+	  	if (preFrags[2]) {
+	  		encounter.setData["My Box"].met = preFrags[2]
+	  	}
+
+	  	if (preFrags[3]) {
+	  		encounter.setData["My Box"].nn = preFrags[3]
+	  	}	  	
 	  } 
 	}
 	localStorage.encounters = JSON.stringify(currentEncounters)  	
@@ -128,7 +139,7 @@ function toggleEncounterStatus(e) {
 }
 
 // Returns [fragCount, frags]
-function prevoFrags(speciesName, encounters) {
+function prevoData(speciesName, encounters) {
 	let ancestor = evoData[speciesName]["anc"]
 
 	if (ancestor == speciesName) {
@@ -143,12 +154,12 @@ function prevoFrags(speciesName, encounters) {
 	    mon = evos[i]
 	    if (encounters[mon] && mon != speciesName) {
 			console.log(mon)
-			return [encounters[mon].fragCount, encounters[mon].frags]
+			return [encounters[mon].fragCount, encounters[mon].frags, encounters[mon].setData["My Box"].met, encounters[mon].setData["My Box"].nn]
 		}
 	}
 
 	console.log("prevo data not found")
-	return [0, []]
+	return [0, [], false, false]
 }
 
 
