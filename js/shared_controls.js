@@ -748,7 +748,7 @@ $(".set-selector").change(function () {
 
 
 	if (pokemon) {
-		var pokeObj = $(this).closest(".poke-info");
+		pokeObj = $(this).closest(".poke-info");
 		if (stickyMoves.getSelectedSide() === pokeObj.prop("id")) {
 			stickyMoves.clearStickyMove();
 		}
@@ -762,15 +762,12 @@ $(".set-selector").change(function () {
 		}
 		pokeObj.find(".boost").val(0);
 		pokeObj.find(".percent-hp").val(100);
-		pokeObj.find(".status").val("Healthy");
+		pokeObj.find(".status").val("Healthy").change();
 
 
 		console.log(setName)
 		console.log(SETDEX_BW[pokemonName][setName]["status"])
-		if (SETDEX_BW[pokemonName][setName]["status"]) {
-			pokeObj.find(".status").val(SETDEX_BW[pokemonName][setName]["status"]);
-		}
-		$(".status").change();
+		
 		var moveObj;
 		var abilityObj = pokeObj.find(".ability");
 		var itemObj = pokeObj.find(".item");
@@ -900,6 +897,14 @@ $(".set-selector").change(function () {
 			pokeObj.find(".gender").parent().hide();
 			pokeObj.find(".gender").val("");
 		} else pokeObj.find(".gender").parent().show();
+
+		if (SETDEX_BW[pokemonName][setName]["status"]) {
+			console.log("adjust status")
+			pokeObj.find(".status").val(SETDEX_BW[pokemonName][setName]["status"]).change();
+		} else {
+			pokeObj.find(".status").val("Healthy").change();
+		}
+		
 	}
 
 	// don't get new switch ins if set was the same
