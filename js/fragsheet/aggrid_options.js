@@ -40,7 +40,8 @@ SOURCES = {
    "b60bd402cbb993ed3b77": "Parallel Emerald ATO",
     "17af2cc6ec56f8f293bd": "Parallel Emerald Hard",
     "a0e5b4fa06d9e7762210": "Parallel Emerald Normal",
-    "55d895a19083b26c0c53": "Emerald Imperium 1.2"
+    "55d895a19083b26c0c53": "Emerald Imperium 1.2",
+    "imp13": "Emerald Imperium 1.3"
 }
 
 function initializeSplits() {
