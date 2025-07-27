@@ -533,6 +533,8 @@ function filter_box() {
     let search_string = $('#search-box').val().toLowerCase()
     let container = $('.trainer-pok-list.player-poks')
 
+
+
     if (search_string.length < 2) {
         container.find('.pokesprite').removeClass('active')
         return
@@ -542,11 +544,12 @@ function filter_box() {
 
     for (set in customSets) {
         
-        let set_string = JSON.stringify(customSets[set])
+        let setInfo = JSON.stringify(customSets[set]).toLowerCase()
+        let pokedexInfo = JSON.stringify(pokedex[set]).toLowerCase()
         let set_id = `${set} (My Box)`
 
         
-        if (set_string.toLowerCase().includes(search_string) || set.toLowerCase().includes(search_string)) {
+        if (setInfo.includes(search_string) || set.includes(search_string) || pokedexInfo.includes(search_string)) {
             container.find(`[data-id='${set_id}']`).addClass('active')
         }
     }
