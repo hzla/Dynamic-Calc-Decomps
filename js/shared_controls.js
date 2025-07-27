@@ -677,8 +677,7 @@ $(".set-selector").change(function () {
 						
 						$("#levelR1").val(lvl_delta + current_cap).change()
 						console.log(`changing to ${lvl_delta + current_cap}`)
-					},20)
-					
+					},20)	
 				}
 			}
 		} else {
@@ -764,6 +763,13 @@ $(".set-selector").change(function () {
 		pokeObj.find(".boost").val(0);
 		pokeObj.find(".percent-hp").val(100);
 		pokeObj.find(".status").val("Healthy");
+
+
+		console.log(setName)
+		console.log(SETDEX_BW[pokemonName][setName]["status"])
+		if (SETDEX_BW[pokemonName][setName]["status"]) {
+			pokeObj.find(".status").val(SETDEX_BW[pokemonName][setName]["status"]);
+		}
 		$(".status").change();
 		var moveObj;
 		var abilityObj = pokeObj.find(".ability");
