@@ -649,9 +649,12 @@ $(".set-selector").change(function () {
 				}
 
 				$('#ai-tags').html("")
-				for (tag of ai) {
-					$('#ai-tags').append(`<div>${tag}</div>`)
+				if (typeof ai != "undefined") {
+					for (tag of ai) {
+						$('#ai-tags').append(`<div>${tag}</div>`)
+					}
 				}
+				
 
 				if (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation") {
 					$('#singles-format').click()
