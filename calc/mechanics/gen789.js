@@ -144,6 +144,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
           type = 'Fire';
         } else if (attacker.named('Tauros-Paldea-Aqua')) {
           type = 'Water';
+        } else if (attacker.named('Granbull')) {
+          type = 'Fairy';
         }
 
         field.defenderSide.isReflect = false;

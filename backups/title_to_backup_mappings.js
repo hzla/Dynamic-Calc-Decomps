@@ -13,6 +13,7 @@ backupFiles = {
 	"Black 2/White 2": "bw2",
 	"Eternal X/Wilting Y Insanity Rebalanced": "exwy",
 	"Emerald Imperium 1.2": "imp",
+	"Emerald Imperium 1.3": "imp_1-3",
 	"Inclement Emerald": "inc",
 	"Inclement Emerald No EVs": "inc",
 	"Sterling Silver 1.16": "ster",

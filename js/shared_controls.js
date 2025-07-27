@@ -627,7 +627,7 @@ $(".set-selector").change(function () {
 				// var sprite = SETDEX_BW[pokemonName][setName]["sprite"]
 				
 				var battle_type = SETDEX_BW[pokemonName][setName]["battle_type"]
-				var ai = SETDEX_BW[pokemonName][setName]["ai"]
+				var ai = SETDEX_BW[pokemonName][setName]["ai_tags"]
 				var next = SETDEX_BW[pokemonName][setName]["next"]
 				var prev = SETDEX_BW[pokemonName][setName]["prev"]
 
@@ -647,13 +647,10 @@ $(".set-selector").change(function () {
 				} else {
 					$(".nav-tag.partner").hide()
 				}
-				for (n in [1,2,3,4,5,6]) {
-					n = parseInt(n)
-					if (ai & (1 << n)) {
-						$(`#ai${n + 1}`).show()
-					} else {
-						$(`#ai${n + 1}`).hide()
-					}
+
+				$('#ai-tags').html("")
+				for (tag of ai) {
+					$('#ai-tags').append(`<div>${tag}</div>`)
 				}
 
 				if (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation") {

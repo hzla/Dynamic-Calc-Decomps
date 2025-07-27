@@ -2246,6 +2246,13 @@ function get_type_info(pok_types, move=false) {
     return result
 }
 
+function adjustStat(speciesName, stat, value) {
+    pokedex[speciesName].bs[stat] = value
+
+    speciesId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    SPECIES_BY_ID[gen][speciesId].baseStats[stat] = value
+}
+
 function loadDataSource(data) {
     SETDEX_BW = data
     SETDEX_ADV = data
@@ -2261,10 +2268,6 @@ function loadDataSource(data) {
     //     $('#rom-title').text(TITLE).show()
     // }
 
-
-    if (TITLE == 'Ancestral X') {
-        npoint_data["order"] = ax_order
-    }
 
     TR_NAMES = get_trainer_names()
     if ('move_replacements' in data) {
@@ -2285,227 +2288,25 @@ function loadDataSource(data) {
 
 
     console.log("loaded custom poks data")
-    // for (move in moves) {
-
-    //     var move_id = move.replace(/-|,|'|’| /g, "").toLowerCase()
-
-    //     if (jsonMoves[move]) {
-    //         jsonMove = jsonMoves[move]
-    //     } else {
-    //         // moves[move] = jsonMoves[move]
-    //         continue //completely overite if custom move data found
-    //     }
-
-    //     if (move == '(No Move)') {
-    //         continue
-    //     }
-    //     moves[move]["bp"] = jsonMove["basePower"]
-    //     MOVES_BY_ID[g][move_id].basePower = jsonMove["basePower"]
-
-    //  var special_case_power_overrides = {
-    //      "Return": 102,
-    //      "Magnitude": 70
-    //  }
-
-    //  if (move in special_case_power_overrides) {
-    //      moves[move]["bp"] = special_case_power_overrides[move]
-    //        MOVES_BY_ID[g][move_id].basePower = special_case_power_overrides[move]
-    //  }
-        
-    //     var optional_move_params = ["type", "category", "e_id", "multihit", "target", "recoil", "overrideBP", "secondaries", "drain", "priority", "makesContact"]  
-    //     for (n in optional_move_params) {
-    //         var param = optional_move_params[n]
-    //         if (jsonMove[param]) {
-    //           moves[move][param] = jsonMove[param]
-    //           MOVES_BY_ID[g][move_id][param] = jsonMove[param]  
-    //         }
-    //     }
-
-    //     // if (jsonMove["sf"]) {
-    //     //     moves[move]["secondaries"] = true
-    //     //     MOVES_BY_ID[g][move_id]["secondaries"] = true
-    //     // }
-
-    //     if (jsonMove['flags']) {
-    //         if (jsonMove['flags']['punch']) {
-    //             moves[move]['isPunch'] = true
-    //             MOVES_BY_ID[g][move_id]["flags"]["punch"] = 1
-    //         }
-    //         if (jsonMove['flags']['sound']) {
-    //             moves[move]['isSound'] = true
-    //             MOVES_BY_ID[g][move_id]["flags"]["sound"] = 1
-    //         }
-    //     }
-    // }
-
-    // for (move in jsonMoves) {
-        
-    //     // if defined in showdown move list
-    //     if (moves[move]) {
-    //     } else {
-    //         // custom move
-    //         jsonMoves[move]["flags"] = {}
-
-    //         moves[move] = jsonMoves[move]
-    //         moves[move]["bp"] = jsonMoves[move]["basePower"]
-    //         MOVES_BY_ID[8][move.replace(/-|,|'|’| /g, "").toLowerCase()] = jsonMoves[move]
-    //     }
-    // }
-
-    // jsonPoks = data["poks"]
-    // var jsonPok 
-    
-
-
-    // if (jsonPoks["Bulbasaur"]["learnset_info"]) {
-    //     $('#learnset-show').show()
-    // }
 
     $('#save-pok').show()
 
 
 
 
-    // if ( TITLE.includes("Platinum") && !TITLE.includes("Lumi") ) {
-    //     var rotom_info = [["Heat", "Fire"],["Wash", "Water"],["Mow", "Grass"],["Frost", "Ice"],["Fan", "Flying"]]
-    //     var deoxys_info = ['Attack', 'Defense','Speed']
-    //     var wormadam_info = ['Sandy', 'Trash']
-        
-    //     for (let i = 0; i < rotom_info.length; i++) {
-    //         pokedex[`Rotom-${rotom_info[i][0]}-Glitched`] = {
-    //             "types": [
-    //                 "Electric",
-    //                 rotom_info[i][1]
-    //             ],
-    //             "bs": jsonPoks['Rotom']['bs'],
-    //             "weightkg": 0.3,
-    //             "abilities": {
-    //                 "0": "Levitate"
-    //             },
-    //             "gender": "N"
-    //         }
-    //     }
 
-    //     for (let i = 0; i < deoxys_info.length; i++) {
-    //         pokedex[`Deoxys-${deoxys_info[i]}-Glitched`] = {
-    //             "types": [
-    //                 "Psychic"
-    //             ],
-    //             "bs": jsonPoks['Deoxys']['bs'],
-    //             "weightkg": 60.8,
-    //             "abilities": {
-    //                 "0": "Pressure"
-    //             },
-    //             "gender": "N",
-    //         }
-    //     }
-
-    //     pokedex['Shaymin-Sky-Glitched'] = {
-    //         "types": [
-    //             "Grass",
-    //             "Flying"
-    //         ],
-    //         "bs": jsonPoks['Shaymin']['bs'],
-    //         "weightkg": 2.1,
-    //         "abilities": {
-    //             "0": "Natural Cure"
-    //         },
-    //         "gender": "N",
-    //         "otherFormes": [
-    //             "Shaymin-Sky"
-    //         ]
-    //     }
-
-    //     pokedex['Wormadam-Trash-Glitched'] = {
-    //         "types": [
-    //             "Bug",
-    //             "Steel"
-    //         ],
-    //         "bs": {
-    //             "at": 50,
-    //             "df": 90,
-    //             "hp": 60,
-    //             "sa": 110,
-    //             "sd": 110,
-    //             "sp": 30
-    //         },
-    //         "weightkg": 6.5,
-    //         "abilities": {
-    //             "0": "Anticipation"
-    //         },
-    //         "otherFormes": [
-    //             "Wormadam-Sandy",
-    //             "Wormadam-Trash"
-    //         ]
-    //     }
-
-    //     pokedex['Wormadam-Sandy-Glitched'] = {
-    //         "types": [
-    //             "Bug",
-    //             "Ground"
-    //         ],
-    //         "bs": {
-    //             "at": 50,
-    //             "df": 90,
-    //             "hp": 60,
-    //             "sa": 110,
-    //             "sd": 110,
-    //             "sp": 30
-    //         },
-    //         "weightkg": 6.5,
-    //         "abilities": {
-    //             "0": "Anticipation"
-    //         },
-    //         "otherFormes": [
-    //             "Wormadam-Sandy",
-    //             "Wormadam-Trash"
-    //         ]
-    //     }
-    // }
-
-
-
-    // if (TITLE == "Cascade White 2") {
-    //     moves['Pay Day'].willCrit = true;
-    // }
-
-    if (TITLE.includes("Emerald Imperium")) {
-        moves['Chloroblast'].recoil = [50,100];
-        MOVES_BY_ID[g].chloroblast.recoil = [50,100]
-    }
-
-
-    // const cleanString = (str) => str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-
-   
-    // if (TITLE.includes("Lumi")) {
-
-    //     for (pok in jsonPoks) {
-    //         var pok_id = cleanString(pok)
-
-    //         if (typeof SPECIES_BY_ID[gen][pok_id] === "undefined") {
-
-    //             if (!jsonPoks[pok]) {
-    //                 console.log(pok)
-    //                 continue
-
-    //             } 
-
-    //             jsonPoks[pok]["baseStats"] = jsonPoks[pok]["bs"]
-    //             jsonPoks[pok]["id"] = pok_id
-    //             jsonPoks[pok]["kind"] = "Species"
-    //             SPECIES_BY_ID[gen][pok_id] = jsonPoks[pok]
-    //             pokedex[pok] = jsonPoks[pok]
-    //         }
-            
-    //     }
-    // }
 
     const cleanString = (str) => str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
 
+
+
+    // imperium changes
     if (TITLE.includes("Emerald Imperium")) {
+
+        moves['Chloroblast'].recoil = [50,100];
+        MOVES_BY_ID[g].chloroblast.recoil = [50,100]
         
-        if (!TITLE.includes("1.2")) {
+        if (!TITLE.includes("1.2") && !TITLE.includes("1.3")) {
             for (i = 0; i < em_imp_changes.length;i++) {
                 var change = em_imp_changes[i]
                 var species_name = change[0]
@@ -2517,6 +2318,40 @@ function loadDataSource(data) {
                 SPECIES_BY_ID[gen][pok_id].baseStats[stat_name] = stat_value
             }  
         }
+
+        if (TITLE.includes("1.3")) {
+            adjustStat("Unfezant", "at", 115)
+            adjustStat("Unfezant", "sp", 108)
+
+            adjustStat("Empoleon-Mega-O", "hp", 84)
+            adjustStat("Empoleon-Mega-O", "df", 83)
+            adjustStat("Empoleon-Mega-O", "sd", 83)
+
+            adjustStat("Empoleon-Mega-D", "hp", 118)
+            adjustStat("Empoleon-Mega-D", "df", 88)
+            adjustStat("Empoleon-Mega-D", "sd", 157)
+            adjustStat("Empoleon-Mega-D", "sa", 131)
+
+            adjustStat("Infernape-Mega", "df", 82)
+            adjustStat("Infernape-Mega", "sd", 82)
+            adjustStat("Infernape-Mega", "sp", 120)
+
+            adjustStat("Slaking-Mega", "sa", 95)
+            adjustStat("Slaking-Mega", "sd", 75)
+
+            adjustStat("Roserade-Mega", "at", 80)
+            adjustStat("Roserade-Mega", "df", 90)
+            adjustStat("Roserade-Mega", "sa", 140)
+            adjustStat("Roserade-Mega", "sd", 125)
+            adjustStat("Roserade-Mega", "sp", 120)
+
+
+            moves['Mighty Cleave'].bp = 90;
+            MOVES_BY_ID[g].mightycleave.basePower = 90
+
+
+
+        }
         
 
         $('#maxL').next().remove()
@@ -2524,81 +2359,6 @@ function loadDataSource(data) {
         pokedex["Raichu"]["types"] = ["Electric", "Normal"]
     }
 
-    // for (pok in pokedex) {
-
-    //     if (pok.includes("Glitched")) {
-    //         continue
-    //     }
-
-    //  // Allow import of Farfetch'd w/ unicode standard apostrophe
-    //  if (pok == "Farfetch’d" && jsonPoks["Farfetch'd"]) {
-    //      jsonPok = jsonPoks["Farfetch'd"];
-    //  }
-    //     else if (jsonPoks[pok]) {
-    //         jsonPok = jsonPoks[pok]
-    //     } else {
-    //         // override for lumi plat
-           
-    //             continue //skip weird smogon pokemon and arceus forms
-
-    //     }
-
-    //     // revert fairy pokemon base stats for sgss
-    //     if (TITLE == "Sacred Gold/Storm Silver" && !FAIRY ) {
-    //         if (jsonPok["types"].includes('Fairy')) {
-    //             jsonPok["bs"] = pokedex[pok]["bs"]
-    //             jsonPok["types"] = pokedex[pok]["types"]
-    //         }
-    //     }
-
-    //     pokedex[pok]["bs"] = jsonPok["bs"]
-
-    //     if (jsonPok["types"]) {
-    //         pokedex[pok]["types"] = jsonPok["types"]
-    //     }
-        
-    //     if (jsonPok.hasOwnProperty("abilities"))
-    //         pokedex[pok]["abilities"] = jsonPok["abilities"]
-
-    //     const pok_id = cleanString(pok)
-    //     SPECIES_BY_ID[gen][pok_id].types = jsonPok["types"]
-
-    //     SPECIES_BY_ID[gen][pok_id].baseStats = {
-    //         "atk": jsonPok["bs"]["at"],
-    //         "def": jsonPok["bs"]["df"],
-    //         "hp": jsonPok["bs"]["hp"],
-    //         "spa": jsonPok["bs"]["sa"],
-    //         "spd": jsonPok["bs"]["sd"],
-    //         "spe": jsonPok["bs"]["sp"],
-    //     }
-    // }
-
-    
-
-    // if (damageGen > 3 && damageGen < 6) {
-    //     pokedex['Cherrim-Sunshine']['bs'] = jsonPoks["Cherrim"]["bs"]
-    // }
-    // if (damageGen == 4) {
-    //     var gen4Forms = [
-    //         ["Deoxys", ["Attack", "Defense", "Speed"]],
-    //         ["Castform", ["Rainy", "Sunny", "Snowy"]]
-    //         ]
-
-    //     // if (TITLE.includes("Sterling")) {
-    //     //     gen4Forms.pop()
-    //     // }
-      
-    //     for (i in gen4Forms) {
-    //         var base = gen4Forms[i][0]
-    //         var forms = gen4Forms[i][1]
-
-    //         for (j in forms) {
-    //             pokedex[`${base}-${forms[j]}`]['bs'] = pokedex[base]['bs']
-    //         }
-    //     }
-    // }
-
-    
 
     load_js() 
 
@@ -2611,14 +2371,7 @@ function loadDataSource(data) {
     }
     
     customLeads = get_custom_trainer_names()
-    // if (customMoves) {
-    //     for (move in customMoves) {
-    //         moves[move] = customMoves[move]
-    //         moves[move]["bp"] = customMoves[move]["basePower"]
 
-    //         MOVES_BY_ID[8][move.replace(/-|,|'|’| /g, "").toLowerCase()] = customMoves[move]
-    //     }
-    // }
     moves['(No Move)'] = moves['-'] = {
         "bp": 0,
         "category": "Status",
@@ -2704,6 +2457,7 @@ $(document).ready(function() {
    "006ac04e900ccb3110df": "Luminescent Platinum",
    "2ec049ba9513d189a915": "Emerald Imperium",
    "55d895a19083b26c0c53": "Emerald Imperium 1.2",
+   "imp13": "Emerald Imperium 1.3",
    "ced457ba9aa55731616c": "Radical Red 4.1 Normal"
     }
 

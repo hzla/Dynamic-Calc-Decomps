@@ -194,6 +194,11 @@ input[type="file"] {
     display: none;
 }
 
+#ai-tags div {
+    display: flex;
+    font-size: 10px;
+}
+
 #met-loc, #frag-count {
     color: #f8f8f2;
     border: 1px solid rgb(118, 118, 118);
