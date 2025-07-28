@@ -499,6 +499,7 @@ function get_box() {
     if ($('.trainer-pok.left-side').length >= 10) {
         $('#search-row').css('display', 'flex')
     }
+    filter_box()
     return box
 }
 
@@ -548,9 +549,17 @@ function filter_box() {
         let pokedexInfo = JSON.stringify(pokedex[set]).toLowerCase()
         let set_id = `${set} (My Box)`
 
+        let learnset = JSON.stringify(learnsets[set.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]).toLowerCase()
+
         
         if (setInfo.includes(search_string) || set.includes(search_string) || pokedexInfo.includes(search_string)) {
             container.find(`[data-id='${set_id}']`).addClass('active')
+        }
+
+        if (learnsets) {
+            if (learnset.includes(search_string)) {
+                container.find(`[data-id='${set_id}']`).addClass('active')
+            }
         }
     }
 }
@@ -1787,20 +1796,22 @@ function get_current_learnset() {
     if (pok_name.includes("-Mega")) {
         pok_name = pok_name.split("-Mega")[0]
     } 
-    current_learnset = npoint_data['poks'][pok_name]["learnset_info"]
+    current_learnset = learnsets[pok_name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]
     
 
 
     if (!current_learnset) {
         $("#learnset-show").hide()
         return
+    } else {
+        $("#learnset-show").show()
     }
 
     var ls_html = ""
 
-    for (let i = 0; i < current_learnset["learnset"].length; i++) {
-        var lvl = current_learnset["learnset"][i][0]
-        var mv_name = current_learnset["learnset"][i][1]
+    for (let i = 0; i < current_learnset["ls"].length; i++) {
+        var lvl = current_learnset["ls"][i][0]
+        var mv_name = current_learnset["ls"][i][1]
         ls_html += `<div class='ls-row'><div class='ls-level'>${lvl}</div><div class='ls-name'>${mv_name}</div></div>`
     }
     $(".lvl-up-moves").html(ls_html)
@@ -2352,7 +2363,7 @@ function loadDataSource(data) {
             moves['Mighty Cleave'].bp = 90;
             MOVES_BY_ID[g].mightycleave.basePower = 90
 
-
+            $('#learnset-show').show()
 
         }
         
