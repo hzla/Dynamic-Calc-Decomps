@@ -765,8 +765,8 @@ $(".set-selector").change(function () {
 		pokeObj.find(".status").val("Healthy").change();
 
 
-		console.log(setName)
-		console.log(SETDEX_BW[pokemonName][setName]["status"])
+		// console.log(setName)
+		// console.log(SETDEX_BW[pokemonName][setName]["status"])
 		
 		var moveObj;
 		var abilityObj = pokeObj.find(".ability");
