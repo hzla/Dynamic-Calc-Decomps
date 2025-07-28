@@ -898,7 +898,7 @@ $(".set-selector").change(function () {
 			pokeObj.find(".gender").val("");
 		} else pokeObj.find(".gender").parent().show();
 
-		if (SETDEX_BW[pokemonName][setName]["status"]) {
+		if (typeof SETDEX_BW[pokemonName][setName] != "undefined" && SETDEX_BW[pokemonName][setName]["status"]) {
 			console.log("adjust status")
 			pokeObj.find(".status").val(SETDEX_BW[pokemonName][setName]["status"]).change();
 		} else {
