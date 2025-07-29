@@ -1743,7 +1743,8 @@ evoData = {
   "Duskull": {
     "evos": [
       "Dusclops",
-      "Dusknoir"
+      "Dusknoir",
+      "Dusknoir-Mega"
     ],
     "anc": "Duskull"
   },
@@ -1758,14 +1759,16 @@ evoData = {
   "Budew": {
     "evos": [
       "Roselia",
-      "Roserade"
+      "Roserade",
+      "Roserade-Mega"
     ],
     "anc": "Budew"
   },
   "Slakoth": {
     "evos": [
       "Vigoroth",
-      "Slaking"
+      "Slaking",
+      "Slaking-Mega"
     ],
     "anc": "Slakoth"
   },
@@ -1774,6 +1777,10 @@ evoData = {
     "anc": "Slakoth"
   },
   "Slaking": {
+    "evos": [],
+    "anc": "Slakoth"
+  },
+  "Slaking-Mega": {
     "evos": [],
     "anc": "Slakoth"
   },
@@ -2011,7 +2018,8 @@ evoData = {
   "Turtwig": {
     "evos": [
       "Grotle",
-      "Torterra"
+      "Torterra",
+      "Torterra-Mega"
     ],
     "anc": "Turtwig"
   },
@@ -2023,10 +2031,15 @@ evoData = {
     "evos": [],
     "anc": "Turtwig"
   },
+  "Torterra-Mega": {
+    "evos": [],
+    "anc": "Turtwig"
+  },
   "Chimchar": {
     "evos": [
       "Monferno",
-      "Infernape"
+      "Infernape",
+      "Infernape-Mega"
     ],
     "anc": "Chimchar"
   },
@@ -2038,10 +2051,16 @@ evoData = {
     "evos": [],
     "anc": "Chimchar"
   },
+  "Internape-Mega": {
+    "evos": [],
+    "anc": "Chimchar"
+  },
   "Piplup": {
     "evos": [
       "Prinplup",
-      "Empoleon"
+      "Empoleon",
+      "Empoleon-Mega-D",
+      "Empoleon-Meag-O"
     ],
     "anc": "Piplup"
   },
@@ -2050,6 +2069,14 @@ evoData = {
     "anc": "Piplup"
   },
   "Empoleon": {
+    "evos": [],
+    "anc": "Piplup"
+  },
+  "Empoleon-Mega-D": {
+    "evos": [],
+    "anc": "Piplup"
+  },
+  "Empoloen-Mega-O": {
     "evos": [],
     "anc": "Piplup"
   },
@@ -2091,7 +2118,8 @@ evoData = {
   "Shinx": {
     "evos": [
       "Luxio",
-      "Luxray"
+      "Luxray",
+      "Luxray-Mega"
     ],
     "anc": "Shinx"
   },
@@ -2103,7 +2131,15 @@ evoData = {
     "evos": [],
     "anc": "Shinx"
   },
+  "Luxray-Mega": {
+    "evos": [],
+    "anc": "Shinx"
+  },
   "Roserade": {
+    "evos": [],
+    "anc": "Budew"
+  },
+  "Roserade-Mega": {
     "evos": [],
     "anc": "Budew"
   },
@@ -2408,6 +2444,10 @@ evoData = {
     "anc": "Nosepass"
   },
   "Dusknoir": {
+    "evos": [],
+    "anc": "Duskull"
+  },
+  "Dusknoir-Mega": {
     "evos": [],
     "anc": "Duskull"
   },
@@ -5153,7 +5193,8 @@ evoData = {
   "Impidimp": {
     "evos": [
       "Morgrem",
-      "Grimmsnarl"
+      "Grimmsnarl",
+      "Grimmsnarl-Mega"
     ],
     "anc": "Impidimp"
   },
@@ -5162,6 +5203,10 @@ evoData = {
     "anc": "Impidimp"
   },
   "Grimmsnarl": {
+    "evos": [],
+    "anc": "Impidimp"
+  },
+  "Grimmsnarl-Mega": {
     "evos": [],
     "anc": "Impidimp"
   },

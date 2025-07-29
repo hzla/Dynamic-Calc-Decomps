@@ -489,13 +489,31 @@ function createRowData() {
 
        let setData = encounters[enc].setData["My Box"]
 
-       encRow.nickname = setData.nn || enc
-       encRow.species = enc
+
+
+       if (typeof setData == "undefined" && enc.includes("Rotom-") && typeof encounters["Rotom"].setData != "undefined") {
+            setData = encounters["Rotom"].setData
+       } 
+
+
+
+
 
        
-       encRow.encounterLocation = setData.met
-       encRow.nature = setData.nature
-       encRow.ability = setData.ability
+       encRow.species = enc
+
+        if (typeof setData == "undefined") {
+            setData = {}
+            encRow.nickname = enc
+            encRow.encounterLocation = "Click to Edit"
+            encRow.nature = "Unknown"
+            encRow.ability = "Unknown"
+        } else {
+            encRow.nickname = setData.nn || enc
+            encRow.encounterLocation = setData.met
+            encRow.nature = setData.nature
+            encRow.ability = setData.ability
+        }
 
        if (!setData.ivs) {
            encRow.hp = 31
