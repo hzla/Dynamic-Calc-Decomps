@@ -2551,6 +2551,22 @@ $(document).ready(function() {
                 onLoad: (src) => {
                     npoint_data = backup_data
                     loadDataSource(npoint_data)
+
+                    setTimeout(function() {
+                        if (localStorage["left"]) {
+                            var set = localStorage["right"]
+                            $('.opposing').val(set)
+                            $('.opposing').change()
+                            $('.opposing .select2-chosen').text(set)
+                            if ($('.info-group.opp > * > .forme').is(':visible')) {
+                                $('.info-group.opp > * > .forme').change()
+                            }
+                        }
+
+                        if (localStorage["right"]) {
+                            $(`[data-id='${localStorage["left"]}']`).click()
+                        }             
+                    }, 20)
                 },
                 onNotFound: (src) => console.log(`Not found: ${src}`)
         }); 

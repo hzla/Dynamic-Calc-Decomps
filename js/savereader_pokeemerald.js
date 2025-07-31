@@ -83,9 +83,6 @@ document.getElementById('save-upload').addEventListener('change', function(event
 
                     // let moddedNature = (saveFile.getUint16(offset, true) >> 13) && 0b11111
 
-
-
-
                     // substructs are scrambled according to PID
                     let suborder = orderFormats[pid % 24]
                    
@@ -118,6 +115,9 @@ document.getElementById('save-upload').addEventListener('change', function(event
                     let speciesName = emImpMons[speciesId]
 
 
+                    
+
+
 
                     // Skip if species id out of bounds
                     if (!speciesName || speciesName == "None") {
@@ -134,6 +134,24 @@ document.getElementById('save-upload').addEventListener('change', function(event
 
                     // get Item
                     let itemId = [decrypted[growth_index * 3]] >> 16 & 0x07FF
+
+
+                    // get Level
+                    let speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
+                    let exp = [decrypted[growth_index * 3 + 1]] & 0x1FFFFF
+                    let gr = learnsets[speciesNameId].gr 
+
+                    if (typeof gr == "unefined") {
+                       console.log(learnsets[speciesNameId])
+                       console.log(`${speciesNameId} growth not found`)
+                       gr = 0 
+                    }
+
+
+                    
+
+                    let level = get_level(expTables[gr], exp)
+
 
                     let nn11 = gen3TextTable[decrypted[growth_index * 3 + 1] >> 21 & 0xFF] || ""
                     let nn12 = gen3TextTable[decrypted[growth_index * 3 + 2] >> 14 & 0xFF] || ""
@@ -229,7 +247,7 @@ document.getElementById('save-upload').addEventListener('change', function(event
                         showdownText += ` @ ${itemTitleize(emImpItems[itemId])}`
                     }
                     showdownText += "\n"
-                    showdownText += `Level: ${lvlCap}\n`
+                    showdownText += `Level: ${level}\n`
                     showdownText += `${monNature} Nature\n`
 
                     if (hasEvs) {
