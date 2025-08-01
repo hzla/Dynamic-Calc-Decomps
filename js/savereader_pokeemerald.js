@@ -139,8 +139,32 @@ document.getElementById('save-upload').addEventListener('change', function(event
                     // get Level
                     let speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
                     let exp = [decrypted[growth_index * 3 + 1]] & 0x1FFFFF
-                    let gr = learnsets[speciesNameId].gr 
+                    let gr = 0
 
+                    
+                    if (typeof learnsets[speciesNameId] == "undefined") {
+                        speciesName = speciesName.split("-").slice(0,2).join("-")
+                        speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
+                    } 
+
+                    if (typeof learnsets[speciesNameId] == "undefined") {
+                        speciesName = speciesName.split("-")[0]
+                        speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
+                    } 
+
+
+                    if (typeof learnsets[speciesNameId] == "undefined") {
+                        console.log(`can't find growth for ${speciesName}`)
+                    } else {
+                        gr = learnsets[speciesNameId].gr 
+                    }
+
+
+
+                    
+          
+
+                    
                     if (typeof gr == "unefined") {
                        console.log(learnsets[speciesNameId])
                        console.log(`${speciesNameId} growth not found`)
