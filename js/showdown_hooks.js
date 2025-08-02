@@ -589,6 +589,7 @@ function get_trainer_poks(trainer_name)
     var all_poks = SETDEX_BW
     var matches = []
 
+    trainer_name = trainer_name.replace("*", "")
     var og_trainer_name = trainer_name.split(/Lvl [-+]?\d+ /)[1]
 
 
