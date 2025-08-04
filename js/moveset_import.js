@@ -533,9 +533,6 @@ $('#save-pok').click(function () {
 	$('#import').click()
 	$(this).text("Saved!")
 
-	if (saveUploaded) {
-		updatePartyPKMN()
-	}
 
 	$('.import-team-text').val("")
 	
@@ -942,7 +939,9 @@ function checkExeptions(poke) {
 	case 'Pikachu-PhD':
 	case 'Pikachu-Pop-Star':
 	case 'Pikachu-Rock-Star':
-		poke = "Pikachu";
+		if (!TITLE.includes("Imperium")) {
+			poke = "Pikachu";
+		}		
 		break;
 	case 'Vivillon-Fancy':
 	case 'Vivillon-Pokeball':
@@ -967,6 +966,8 @@ function checkExeptions(poke) {
 		poke = "Florges";
 		break;
 	}
+
+
 
 	// try replacing spaces with dashes
 	if (typeof pokedex[poke] == 'undefined' && pokedex[poke.replace(" ", "-")]) {

@@ -5985,11 +5985,16 @@ evoData = {
   },
   "Tandemaus": {
     "evos": [
-      "Maushold"
+      "Maushold",
+      "Maushold-Four"
     ],
     "anc": "Tandemaus"
   },
   "Maushold": {
+    "evos": [],
+    "anc": "Tandemaus"
+  },
+  "Maushold-Four": {
     "evos": [],
     "anc": "Tandemaus"
   },

@@ -144,7 +144,16 @@ function toggleEncounterStatus(e) {
 
 // Returns [fragCount, frags, met location, nickname]
 function prevoData(speciesName, encounters) {
-    let ancestor = evoData[speciesName]["anc"]
+    
+    let ancestor = {}
+	try {
+		ancestor = evoData[speciesName]["anc"]
+	} catch {
+		console.log(speciesName)
+		speciesName = speciesName.split("-")[0]
+		ancestor = evoData[speciesName]
+	}
+    
 
     if (ancestor == speciesName) {
         console.log("Does not evolve")
@@ -156,7 +165,6 @@ function prevoData(speciesName, encounters) {
     // Look for later evolutions first
     for (let i = evos.length - 1; i >= 0; i--) {
         mon = evos[i]
-        console.log(mon)
         if (encounters[mon] && mon != speciesName) {
             return [encounters[mon].fragCount, encounters[mon].frags, encounters[mon].setData["My Box"].met, encounters[mon].setData["My Box"].nn]
         }
