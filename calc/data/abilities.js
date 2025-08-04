@@ -207,6 +207,7 @@ var BW = DPP.concat([
     'Sap Sipper',
     'Ice Eater',
     "Emperor's Prescence",
+    "THE GRIPPER",
     'Sheer Force',
     'Telepathy',
     'Teravolt',
