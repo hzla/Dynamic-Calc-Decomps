@@ -721,9 +721,7 @@ function box_rolls() {
         var defend_count = 0
 
 
-
-        
-
+ 
         for (j = 0; j < 4; j++) {
             player_dmg = player_results[j].damage
 
@@ -1352,8 +1350,13 @@ function can_kill(damages, hp) {
 // check if ai mon highest roll kills player
 function can_topkill(damages, hp) {
     kill_count = 0
+
+    if (damages.length == 2) {
+        damages = damages[0].map((val, i) => val + damages[1][i])
+    }
+
     for (n in damages) {
-        if (damages[n] >= hp) {
+        if (damages[n] > hp) {
             kill_count += 1
         }
     }
@@ -2953,7 +2956,13 @@ $('.set-selector, .move-selector').on("select2-close", function () {
         if (typeof localStorage.encounters != "undefined") {
             let encounters = getEncounters()
 
-            if (encounters[speciesName] && encounters[speciesName].setData["My Box"].met) {
+
+            // get encounter setdata from customSets if empty
+            if (customSets[speciesName] && encounters[speciesName].setData == {}) {
+                encounters[speciesName].setData = customSets[speciesName]
+            }
+
+            if (encounters[speciesName] && encounters[speciesName].setData && encounters[speciesName].setData["My Box"].met) {
                 const met = toTitleCase(encounters[speciesName].setData["My Box"].met)
                 const fragCount = encounters[speciesName].fragCount
 
