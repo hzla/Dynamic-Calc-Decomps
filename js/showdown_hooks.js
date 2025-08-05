@@ -2962,7 +2962,7 @@ $('.set-selector, .move-selector').on("select2-close", function () {
                 encounters[speciesName].setData = customSets[speciesName]
             }
 
-            if (encounters[speciesName] && encounters[speciesName].setData && encounters[speciesName].setData["My Box"].met) {
+            if (encounters[speciesName] && encounters[speciesName].setData && encounters[speciesName].setData["My Box"] && encounters[speciesName].setData["My Box"].met) {
                 const met = toTitleCase(encounters[speciesName].setData["My Box"].met)
                 const fragCount = encounters[speciesName].fragCount
 
