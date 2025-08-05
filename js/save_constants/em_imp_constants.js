@@ -20,7 +20,7 @@ emImpMons = [
     "Pidgeot",
     "Rattata",
     "Raticate",
-    "Spearow",
+    "Spearow",x
     "Fearow",
     "Ekans",
     "Arbok",
@@ -423,7 +423,7 @@ emImpMons = [
     "Cherrim",
     "Shellos",
     "Gastrodon",
-    "Gastrodon",
+    "Ambipom",
     "Drifloon",
     "Drifblim",
     "Buneary",
