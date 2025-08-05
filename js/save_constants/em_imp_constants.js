@@ -20,7 +20,7 @@ emImpMons = [
     "Pidgeot",
     "Rattata",
     "Raticate",
-    "Spearow",x
+    "Spearow",
     "Fearow",
     "Ekans",
     "Arbok",
