@@ -617,7 +617,7 @@ var RBY = {
         nfe: true
     },
     Raichu: {
-        types: ['Electric'],
+        types: ['Electric', "Normal"],
         bs: { hp: 60, at: 90, df: 55, sp: 100, sl: 90 },
         weightkg: 30
     },
@@ -8941,7 +8941,7 @@ var RR_PATCH = {
     'Eiscue': { bs: { at: 100, sa: 45 } },
     'Eiscue-Noice': { bs: { at: 100, sa: 45 } },
     'Eldegoss': { bs: { hp: 75, sa: 90 } },
-    'Electivire': { types: ['Electric', 'Fighting'], bs: { at: 123, sa: 95 } },
+    'Electivire': { types: ['Electric'], bs: { at: 123, sa: 95 } },
     'Electrode': { bs: { at: 55, sa: 100 }, otherFormes: ['Electrode-Hisui'] },
     'Eternatus-Eternamax': { bs: { hp: 140, at: 105, df: 110, sa: 185, sd: 110, sp: 140 }, weightkg: 950, abilities: { 0: 'Levitate' } },
     'Emolga': { bs: { at: 55, sa: 95 } },
@@ -9103,7 +9103,7 @@ var RR_PATCH = {
     'Stonjourner': { bs: { sd: 50, sp: 80 } },
     'Stoutland': { bs: { hp: 90, at: 115 } },
     'Sudowoodo': { bs: { hp: 90 } },
-    'Sunflora': { types: ['Grass', 'Fire'], bs: { hp: 95, sa: 135, sp: 55 } },
+    'Sunflora': { types: ['Grass'], bs: { hp: 95, sa: 135, sp: 55 } },
     'Swalot': { bs: { at: 53, df: 88, sa: 93, sd: 88 } },
     'Swanna': { bs: { at: 77, sa: 97, sp: 108 } },
     'Swoobat': { bs: { hp: 75, df: 65 } },

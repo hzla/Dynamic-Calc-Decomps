@@ -2324,19 +2324,6 @@ function loadDataSource(data) {
         moves['Chloroblast'].recoil = [50,100];
         MOVES_BY_ID[g].chloroblast.recoil = [50,100]
         
-        if (!TITLE.includes("1.2") && !TITLE.includes("1.3")) {
-            for (i = 0; i < em_imp_changes.length;i++) {
-                var change = em_imp_changes[i]
-                var species_name = change[0]
-                var stat_name = change[1]
-                var stat_value = change[2]
-
-                pokedex[species_name]["bs"][stat_name] = stat_value
-                const pok_id = cleanString(species_name)
-                SPECIES_BY_ID[gen][pok_id].baseStats[stat_name] = stat_value
-            }  
-        }
-
         if (TITLE.includes("1.3")) {
             adjustStat("Unfezant", "at", 115)
             adjustStat("Unfezant", "sp", 108)
