@@ -801,7 +801,6 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
                 desc.defenderAbility = defender.ability;
         }
     }
-    console.log(attacker)
 
     if ((attacker.hasAbility('Sheer Force') &&
         (move.secondaries || move.named('Jet Punch', 'Order Up')) && !move.isMax) ||

@@ -2958,7 +2958,7 @@ $('.set-selector, .move-selector').on("select2-close", function () {
 
 
             // get encounter setdata from customSets if empty
-            if (customSets[speciesName] && encounters[speciesName].setData == {}) {
+            if (customSets[speciesName] && encounters[speciesName] && encounters[speciesName].setData == {}) {
                 encounters[speciesName].setData = customSets[speciesName]
             }
 
@@ -2974,7 +2974,6 @@ $('.set-selector, .move-selector').on("select2-close", function () {
         } else {
             $('#met-loc, #frag-count').hide()
         }
-        console.log("switching")
         $('.player').change()
 
         $('.set-selector').first().change()
