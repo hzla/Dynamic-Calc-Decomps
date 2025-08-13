@@ -23,7 +23,9 @@ backupFiles = {
 	"Fire Red Omega": "fro",
 	"Fire Red": "fr",
 	"Emerald": "em",
-	"Luminescent Platinum": "lumi"
+	"Luminescent Platinum": "lumi",
+	"Radical Red 4.1 Hardcore": "radredhc",
+	"Radical Red 4.1 Normal": "radrednm"
 }
 
 
