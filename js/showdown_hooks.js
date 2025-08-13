@@ -597,6 +597,7 @@ function get_trainer_poks(trainer_name)
         og_trainer_name = og_trainer_name.replace(/.?\)/, "")
     }
 
+
     // let sameLocation = haveSameMiddleSubstring(og_trainer_name, partner_name)
 
     let og_white_space = " "
@@ -609,10 +610,6 @@ function get_trainer_poks(trainer_name)
     if (partner_name && partner_name.includes(" - ")) {
         partner_white_space = ""
     }
-
-
-
-
 
 
 
