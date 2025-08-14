@@ -42,6 +42,7 @@ function getItemBoostType(item) {
         case 'Odd Incense':
         case 'Twisted Spoon':
             return 'Psychic';
+        case 'Fairy Feather':
         case 'Pixie Plate':
             return 'Fairy';
         case 'Sky Plate':
