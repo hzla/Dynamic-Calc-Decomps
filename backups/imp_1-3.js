@@ -1531,10 +1531,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -1569,10 +1569,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -1603,10 +1603,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -1637,10 +1637,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -1671,10 +1671,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -4288,10 +4288,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -4360,10 +4360,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -4507,10 +4507,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -4544,10 +4544,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -4579,10 +4579,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -4614,10 +4614,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -4649,10 +4649,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -5452,9 +5452,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -6482,10 +6482,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -7424,6 +7424,38 @@ backup_data = {
       },
       "item": null,
       "level": 70,
+      "nature": "Lax",
+      "battle_type": "Singles",
+      "moves": [
+        "Hurricane",
+        "Rain Dance",
+        "Hyper Beam",
+        "Bounce"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 70* Fisherman Ronald ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 70,
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
@@ -7679,12 +7711,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Assault Vest",
       "level": 80,
@@ -7876,12 +7908,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 64,
@@ -7913,12 +7945,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 64,
@@ -7950,12 +7982,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 84,
@@ -7987,12 +8019,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 84,
@@ -9543,10 +9575,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -9682,6 +9714,38 @@ backup_data = {
       ]
     },
     "Lvl 44 Gentleman Micah ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 44,
+      "nature": "Bold",
+      "battle_type": "Singles",
+      "moves": [
+        "Bite",
+        "Discharge",
+        "Roar",
+        "Wild Charge"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 44* Gentleman Micah ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10166,10 +10230,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -10774,10 +10838,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -10990,10 +11054,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -11028,10 +11092,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -11062,10 +11126,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -11096,10 +11160,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -11130,10 +11194,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -13230,44 +13294,6 @@ backup_data = {
       "ability": "Gluttony",
       "sublevel": -1
     },
-    "Lvl -1 Guitarist Brian 3 Badges ": {
-      "ivs": {
-        "hp": 31,
-        "at": 30,
-        "df": 31,
-        "sa": 30,
-        "sd": 30,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": "Sitrus Berry",
-      "level": "-1",
-      "nature": "Timid",
-      "battle_type": "Singles",
-      "moves": [
-        "Grass Knot",
-        "Brine",
-        "Icy Wind",
-        "Hidden Power"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Gluttony",
-      "sublevel": -1
-    },
     "Lvl 22 Tuber M Ricky2  ": {
       "ivs": {
         "hp": 31,
@@ -13419,44 +13445,6 @@ backup_data = {
   },
   "Hitmontop": {
     "Lvl -1 Guitarist Brian ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": "Muscle Band",
-      "level": "-1",
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Smash",
-        "Mach Punch",
-        "Aerial Ace",
-        "Thief"
-      ],
-      "sub_index": 1,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Technician",
-      "sublevel": -1
-    },
-    "Lvl -1 Guitarist Brian 3 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13654,6 +13642,524 @@ backup_data = {
         "Rapid Spin",
         "Feint",
         "Sucker Punch"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    }
+  },
+  "Heracross": {
+    "Lvl -1 Guitarist Brian 3 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Flame Orb",
+      "level": "-1",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Protect",
+        "Rock Slide",
+        "Brick Break",
+        "Pounce"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Guts",
+      "sublevel": -1
+    },
+    "Lvl -2 Parasol Lady Madeline ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Heracronite",
+      "level": "-2",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Blast",
+        "Arm Thrust",
+        "Bullet Seed",
+        "Pin Missile"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Guts",
+      "sublevel": -2
+    },
+    "Lvl -2 Parasol Lady Madeline2  ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Heracronite",
+      "level": "-2",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Blast",
+        "Arm Thrust",
+        "Bullet Seed",
+        "Pin Missile"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move"
+      ],
+      "ability": "Guts",
+      "sublevel": -2
+    },
+    "Lvl -2 Parasol Lady Madeline3  ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Heracronite",
+      "level": "-2",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Blast",
+        "Arm Thrust",
+        "Bullet Seed",
+        "Pin Missile"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move"
+      ],
+      "ability": "Guts",
+      "sublevel": -2
+    },
+    "Lvl -2 Parasol Lady Madeline4  ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Heracronite",
+      "level": "-2",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Blast",
+        "Arm Thrust",
+        "Bullet Seed",
+        "Pin Missile"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move"
+      ],
+      "ability": "Guts",
+      "sublevel": -2
+    },
+    "Lvl -2 Parasol Lady Madeline5  ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Heracronite",
+      "level": "-2",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Blast",
+        "Arm Thrust",
+        "Bullet Seed",
+        "Pin Missile"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move"
+      ],
+      "ability": "Guts",
+      "sublevel": -2
+    }
+  },
+  "Stunfisk": {
+    "Lvl -1 Guitarist Brian 3 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 252,
+        "at": 252,
+        "df": 6,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Shuca Berry",
+      "level": "-1",
+      "nature": "Sassy",
+      "battle_type": "Singles",
+      "moves": [
+        "Discharge",
+        "Mud Bomb",
+        "Rock Slide",
+        "Silver Wind"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Water Absorb",
+      "sublevel": -1
+    }
+  },
+  "Azumarill": {
+    "Lvl -1 Guitarist Brian 3 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Mystic Water",
+      "level": "-1",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Aqua Tail",
+        "Play Rough",
+        "Aqua Jet",
+        "Ice Punch"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Huge Power",
+      "sublevel": -1
+    },
+    "Lvl 56 Tuber M Charlie ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 56,
+      "nature": "Docile",
+      "battle_type": "Singles",
+      "moves": [
+        "Rain Dance",
+        "Double-Edge",
+        "Superpower",
+        "Hydro Pump"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 71 Beauty Bridget ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 71,
+      "nature": "Rash",
+      "battle_type": "Singles",
+      "moves": [
+        "Rain Dance",
+        "Double-Edge",
+        "Superpower",
+        "Hydro Pump"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 45 Rich Boy Garret ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 45,
+      "nature": "Bashful",
+      "battle_type": "Singles",
+      "moves": [
+        "Play Rough",
+        "Aqua Ring",
+        "Rain Dance",
+        "Double-Edge"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 55 Swimmer F Imani ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 55,
+      "nature": "Careful",
+      "battle_type": "Singles",
+      "moves": [
+        "Rain Dance",
+        "Double-Edge",
+        "Superpower",
+        "Hydro Pump"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 70 Swimmer F Dana ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 70,
+      "nature": "Lonely",
+      "battle_type": "Singles",
+      "moves": [
+        "Rain Dance",
+        "Double-Edge",
+        "Superpower",
+        "Hydro Pump"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 22 Tuber F Hailey ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 22,
+      "nature": "Careful",
+      "battle_type": "Singles",
+      "moves": [
+        "Covet",
+        "Body Slam",
+        "Helping Hand",
+        "Aqua Tail"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 50 Swimmer F Isabelle ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 50,
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Aqua Ring",
+        "Rain Dance",
+        "Double-Edge",
+        "Superpower"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -14604,9 +15110,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -14720,9 +15226,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -15308,9 +15814,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -15336,232 +15842,6 @@ backup_data = {
       ],
       "ability": "Earth Eater",
       "sublevel": -1
-    }
-  },
-  "Azumarill": {
-    "Lvl 56 Tuber M Charlie ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 56,
-      "nature": "Docile",
-      "battle_type": "Singles",
-      "moves": [
-        "Rain Dance",
-        "Double-Edge",
-        "Superpower",
-        "Hydro Pump"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
-    },
-    "Lvl 71 Beauty Bridget ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 71,
-      "nature": "Rash",
-      "battle_type": "Singles",
-      "moves": [
-        "Rain Dance",
-        "Double-Edge",
-        "Superpower",
-        "Hydro Pump"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
-    },
-    "Lvl 45 Rich Boy Garret ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 45,
-      "nature": "Bashful",
-      "battle_type": "Singles",
-      "moves": [
-        "Play Rough",
-        "Aqua Ring",
-        "Rain Dance",
-        "Double-Edge"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
-    },
-    "Lvl 55 Swimmer F Imani ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 55,
-      "nature": "Careful",
-      "battle_type": "Singles",
-      "moves": [
-        "Rain Dance",
-        "Double-Edge",
-        "Superpower",
-        "Hydro Pump"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
-    },
-    "Lvl 70 Swimmer F Dana ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 70,
-      "nature": "Lonely",
-      "battle_type": "Singles",
-      "moves": [
-        "Rain Dance",
-        "Double-Edge",
-        "Superpower",
-        "Hydro Pump"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
-    },
-    "Lvl 22 Tuber F Hailey ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 22,
-      "nature": "Careful",
-      "battle_type": "Singles",
-      "moves": [
-        "Covet",
-        "Body Slam",
-        "Helping Hand",
-        "Aqua Tail"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
-    },
-    "Lvl 50 Swimmer F Isabelle ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 50,
-      "nature": "Timid",
-      "battle_type": "Singles",
-      "moves": [
-        "Aqua Ring",
-        "Rain Dance",
-        "Double-Edge",
-        "Superpower"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
     }
   },
   "Dudunsparce": {
@@ -15839,10 +16119,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -15878,10 +16158,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -15912,10 +16192,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -15946,10 +16226,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -15980,10 +16260,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -17758,9 +18038,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -20657,9 +20937,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -21869,12 +22149,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-4",
@@ -21907,12 +22187,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-4",
@@ -21941,12 +22221,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-4",
@@ -21975,12 +22255,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-4",
@@ -22009,12 +22289,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-4",
@@ -23160,9 +23440,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -23237,9 +23517,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -23521,9 +23801,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -26009,10 +26289,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -29463,9 +29743,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -31447,9 +31727,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -31963,10 +32243,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -35614,6 +35894,38 @@ backup_data = {
       },
       "item": null,
       "level": 56,
+      "nature": "Lax",
+      "battle_type": "Doubles",
+      "moves": [
+        "Sludge Bomb",
+        "Bug Buzz",
+        "Detect",
+        "Quiver Dance"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 56* Young Couple Mel And Paul ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 56,
       "nature": "Naughty",
       "battle_type": "Doubles",
       "moves": [
@@ -36462,12 +36774,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "White Herb",
       "level": "-2",
@@ -36500,12 +36812,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "White Herb",
       "level": "-2",
@@ -36534,12 +36846,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "White Herb",
       "level": "-2",
@@ -36568,12 +36880,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "White Herb",
       "level": "-2",
@@ -36602,12 +36914,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "White Herb",
       "level": "-2",
@@ -37880,10 +38192,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -40102,9 +40414,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -40140,9 +40452,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -40174,9 +40486,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -40208,9 +40520,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -40242,9 +40554,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -41055,9 +41367,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -41305,10 +41617,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -41343,12 +41655,12 @@ backup_data = {
         "sp": 0
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Focus Sash",
       "level": 85,
@@ -41421,12 +41733,12 @@ backup_data = {
         "sp": 0
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Grimmite",
       "level": 85,
@@ -41923,12 +42235,12 @@ backup_data = {
         "sp": 0
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Grimmite",
       "level": 85,
@@ -42232,10 +42544,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -44863,10 +45175,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -44900,10 +45212,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -45008,12 +45320,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Empoleonite D",
       "level": 85,
@@ -45045,12 +45357,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Empoleonite D",
       "level": "-1",
@@ -45083,12 +45395,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Empoleonite D",
       "level": 71,
@@ -45120,12 +45432,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Empoleonite D",
       "level": 84,
@@ -45428,12 +45740,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Empoleonite D",
       "level": 85,
@@ -45465,12 +45777,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Empoleonite D",
       "level": "-1",
@@ -45503,12 +45815,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Empoleonite D",
       "level": 71,
@@ -45540,12 +45852,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Empoleonite D",
       "level": 84,
@@ -45956,10 +46268,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -54270,10 +54582,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -54657,10 +54969,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -55081,10 +55393,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -55854,6 +56166,38 @@ backup_data = {
       ]
     },
     "Lvl 45 Young Couple Lea And Jed ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 45,
+      "nature": "Careful",
+      "battle_type": "Doubles",
+      "moves": [
+        "Take Down",
+        "Captivate",
+        "Lovely Kiss",
+        "Soak"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 45* Young Couple Lea And Jed ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61449,9 +61793,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -61558,9 +61902,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -63447,182 +63791,6 @@ backup_data = {
       "sublevel": 0
     }
   },
-  "Heracross": {
-    "Lvl -2 Parasol Lady Madeline ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Heracronite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Blast",
-        "Arm Thrust",
-        "Bullet Seed",
-        "Pin Missile"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Guts",
-      "sublevel": -2
-    },
-    "Lvl -2 Parasol Lady Madeline2  ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Heracronite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Blast",
-        "Arm Thrust",
-        "Bullet Seed",
-        "Pin Missile"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move"
-      ],
-      "ability": "Guts",
-      "sublevel": -2
-    },
-    "Lvl -2 Parasol Lady Madeline3  ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Heracronite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Blast",
-        "Arm Thrust",
-        "Bullet Seed",
-        "Pin Missile"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move"
-      ],
-      "ability": "Guts",
-      "sublevel": -2
-    },
-    "Lvl -2 Parasol Lady Madeline4  ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Heracronite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Blast",
-        "Arm Thrust",
-        "Bullet Seed",
-        "Pin Missile"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move"
-      ],
-      "ability": "Guts",
-      "sublevel": -2
-    },
-    "Lvl -2 Parasol Lady Madeline5  ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Heracronite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Blast",
-        "Arm Thrust",
-        "Bullet Seed",
-        "Pin Missile"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move"
-      ],
-      "ability": "Guts",
-      "sublevel": -2
-    }
-  },
   "Heracross-Mega": {
     "Lvl -2 Parasol Lady Madeline ": {
       "ivs": {
@@ -64147,6 +64315,70 @@ backup_data = {
   },
   "Wugtrio": {
     "Lvl 56 Swimmer F Missy ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 56,
+      "nature": "Hardy",
+      "battle_type": "Singles",
+      "moves": [
+        "Waterfall",
+        "Throat Chop",
+        "Triple Dive",
+        "Earthquake"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 56* Swimmer F Missy ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 56,
+      "nature": "Bold",
+      "battle_type": "Singles",
+      "moves": [
+        "Waterfall",
+        "Throat Chop",
+        "Triple Dive",
+        "Earthquake"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 56** Swimmer F Missy ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -67502,10 +67734,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -67622,10 +67854,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -67662,10 +67894,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
+        "hp": 0,
         "at": 252,
         "df": 0,
-        "sa": 0,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -67702,10 +67934,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -67742,9 +67974,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -68140,10 +68372,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -71560,10 +71792,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -71598,10 +71830,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -71632,10 +71864,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -71666,10 +71898,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -71700,10 +71932,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -71736,10 +71968,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -71774,10 +72006,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -71808,10 +72040,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -71842,10 +72074,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -71876,10 +72108,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
@@ -72368,10 +72600,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -72405,10 +72637,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -73713,10 +73945,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -75096,12 +75328,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "-2",
@@ -75911,9 +76143,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -75949,9 +76181,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -75983,9 +76215,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -76017,9 +76249,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -76051,9 +76283,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -76269,9 +76501,9 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
+        "hp": 252,
+        "at": 6,
+        "df": 252,
         "sa": 0,
         "sd": 0,
         "sp": 252
@@ -77479,10 +77711,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -77931,12 +78163,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Assault Vest",
       "level": "-1",
@@ -78550,6 +78782,38 @@ backup_data = {
   },
   "Piloswine": {
     "Lvl 38 Sr And Jr Tyra And Ivy ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 38,
+      "nature": "Hasty",
+      "battle_type": "Doubles",
+      "moves": [
+        "Ice Fang",
+        "Take Down",
+        "Ancient Power",
+        "Mist"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 38* Sr And Jr Tyra And Ivy ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -80865,7 +81129,7 @@ backup_data = {
       "sublevel": -1
     }
   },
-  "Landorus": {
+  "Landorus Incarnate": {
     "Lvl -1 Leader Roark ": {
       "ivs": {
         "hp": 31,
@@ -80876,10 +81140,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -81048,12 +81312,12 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Sludge",
-        "Poison Powder",
+        "Mega Drain",
+        "Stun Spore",
         "Leech Seed",
         "Synthesis"
       ],
-      "sub_index": 4,
+      "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
         "Try To Faint",
@@ -81086,8 +81350,8 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Mega Drain",
-        "Stun Spore",
+        "Sludge",
+        "Poison Powder",
         "Leech Seed",
         "Synthesis"
       ],
@@ -81114,12 +81378,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 252,
+        "at": 0,
         "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-1",
@@ -81236,10 +81500,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
+        "hp": 0,
+        "at": 6,
         "df": 0,
-        "sa": 0,
+        "sa": 252,
         "sd": 0,
         "sp": 252
       },
@@ -83092,10 +83356,10 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
         "sd": 0,
         "sp": 252
       },
