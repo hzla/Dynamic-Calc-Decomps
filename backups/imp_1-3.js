@@ -100,7 +100,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 60 Team Aqua Grunt Weather Inst4  ": {
+    "Lvl 60 Team Aqua Grunt Weather Inst4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -306,7 +306,7 @@ backup_data = {
     }
   },
   "Crobat": {
-    "Lvl 65 Team Aqua Grunt Aqua Hideout2  ": {
+    "Lvl 65 Team Aqua Grunt Aqua Hideout2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -338,7 +338,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 70 Team Aqua Grunt Seafloor Cavern3  ": {
+    "Lvl 70 Team Aqua Grunt Seafloor Cavern3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -370,7 +370,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 60 Team Aqua Grunt Weather Inst3  ": {
+    "Lvl 60 Team Aqua Grunt Weather Inst3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -1173,7 +1173,7 @@ backup_data = {
     }
   },
   "Lanturn": {
-    "Lvl 65 Team Aqua Grunt Aqua Hideout2  ": {
+    "Lvl 65 Team Aqua Grunt Aqua Hideout2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -1417,7 +1417,7 @@ backup_data = {
     }
   },
   "Beartic": {
-    "Lvl 65 Team Aqua Grunt Aqua Hideout3  ": {
+    "Lvl 65 Team Aqua Grunt Aqua Hideout3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -1489,7 +1489,7 @@ backup_data = {
     }
   },
   "Palossand": {
-    "Lvl 65 Team Aqua Grunt Aqua Hideout4  ": {
+    "Lvl 65 Team Aqua Grunt Aqua Hideout4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -1559,7 +1559,7 @@ backup_data = {
       "ability": "Water Compaction",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline2  ": {
+    "Lvl -2 Parasol Lady Madeline2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -1593,7 +1593,7 @@ backup_data = {
       "ability": "Water Compaction",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline3  ": {
+    "Lvl -2 Parasol Lady Madeline3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -1627,7 +1627,7 @@ backup_data = {
       "ability": "Water Compaction",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline4  ": {
+    "Lvl -2 Parasol Lady Madeline4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -1661,7 +1661,7 @@ backup_data = {
       "ability": "Water Compaction",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline5  ": {
+    "Lvl -2 Parasol Lady Madeline5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -1767,7 +1767,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -2
     },
-    "Lvl 60 Team Aqua Grunt Weather Inst3  ": {
+    "Lvl 60 Team Aqua Grunt Weather Inst3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -1799,7 +1799,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Team Magma Grunt Space Center2  ": {
+    "Lvl 26 Team Magma Grunt Space Center2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -1831,7 +1831,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Team Magma Grunt Space Center2  ": {
+    "Lvl 28 Team Magma Grunt Space Center2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -1927,7 +1927,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout6  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout6 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -2125,7 +2125,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 40 Camper Ethan2  ": {
+    "Lvl 40 Camper Ethan2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -2157,7 +2157,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 40 Camper Ethan3  ": {
+    "Lvl 40 Camper Ethan3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -2189,7 +2189,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 40 Camper Ethan4  ": {
+    "Lvl 40 Camper Ethan4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -2221,7 +2221,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 40 Camper Ethan5  ": {
+    "Lvl 40 Camper Ethan5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -2470,7 +2470,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 62 Triathlete Pablo2  ": {
+    "Lvl 62 Triathlete Pablo2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -2502,7 +2502,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 62 Triathlete Pablo3  ": {
+    "Lvl 62 Triathlete Pablo3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -2534,7 +2534,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 62 Triathlete Pablo4  ": {
+    "Lvl 62 Triathlete Pablo4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -2566,7 +2566,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 62 Triathlete Pablo5  ": {
+    "Lvl 62 Triathlete Pablo5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3040,7 +3040,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 40 Black Belt Nob2  ": {
+    "Lvl 40 Black Belt Nob2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3072,7 +3072,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 40 Black Belt Nob3  ": {
+    "Lvl 40 Black Belt Nob3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3104,7 +3104,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 40 Black Belt Nob4  ": {
+    "Lvl 40 Black Belt Nob4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3136,7 +3136,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 40 Black Belt Nob5  ": {
+    "Lvl 40 Black Belt Nob5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3342,7 +3342,7 @@ backup_data = {
     }
   },
   "Carracosta": {
-    "Lvl 70 Team Aqua Grunt Seafloor Cavern3  ": {
+    "Lvl 70 Team Aqua Grunt Seafloor Cavern3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3474,7 +3474,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Pkmn Breeder Gabrielle2  ": {
+    "Lvl 64 Pkmn Breeder Gabrielle2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3506,7 +3506,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Pkmn Breeder Gabrielle3  ": {
+    "Lvl 64 Pkmn Breeder Gabrielle3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3538,7 +3538,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Pkmn Breeder Gabrielle4  ": {
+    "Lvl 64 Pkmn Breeder Gabrielle4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3570,7 +3570,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Pkmn Breeder Gabrielle5  ": {
+    "Lvl 64 Pkmn Breeder Gabrielle5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3748,7 +3748,7 @@ backup_data = {
       ],
       "ability": "Bone Zone"
     },
-    "Lvl 47 Leader Flannery2  ": {
+    "Lvl 47 Leader Flannery2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -3783,7 +3783,7 @@ backup_data = {
       ],
       "ability": "Bone Zone"
     },
-    "Lvl 47 Leader Flannery3  ": {
+    "Lvl 47 Leader Flannery3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -3818,7 +3818,7 @@ backup_data = {
       ],
       "ability": "Bone Zone"
     },
-    "Lvl 47 Leader Flannery4  ": {
+    "Lvl 47 Leader Flannery4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -3853,7 +3853,7 @@ backup_data = {
       ],
       "ability": "Bone Zone"
     },
-    "Lvl 47 Leader Flannery5  ": {
+    "Lvl 47 Leader Flannery5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -3888,7 +3888,7 @@ backup_data = {
       ],
       "ability": "Bone Zone"
     },
-    "Lvl 64 Pkmn Breeder Gabrielle2  ": {
+    "Lvl 64 Pkmn Breeder Gabrielle2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3920,7 +3920,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Pkmn Breeder Gabrielle3  ": {
+    "Lvl 64 Pkmn Breeder Gabrielle3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3952,7 +3952,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Pkmn Breeder Gabrielle4  ": {
+    "Lvl 64 Pkmn Breeder Gabrielle4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -3984,7 +3984,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Pkmn Breeder Gabrielle5  ": {
+    "Lvl 64 Pkmn Breeder Gabrielle5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -4084,7 +4084,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 5 Youngster Calvin2  ": {
+    "Lvl 5 Youngster Calvin2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -4114,7 +4114,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 5 Youngster Calvin3  ": {
+    "Lvl 5 Youngster Calvin3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -4144,7 +4144,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 5 Youngster Calvin4  ": {
+    "Lvl 5 Youngster Calvin4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -4174,7 +4174,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 5 Youngster Calvin5  ": {
+    "Lvl 5 Youngster Calvin5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -4534,7 +4534,7 @@ backup_data = {
       ],
       "ability": "Tinted Lens"
     },
-    "Lvl 68 Leader Winona2  ": {
+    "Lvl 68 Leader Winona2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -4569,7 +4569,7 @@ backup_data = {
       ],
       "ability": "Tinted Lens"
     },
-    "Lvl 68 Leader Winona3  ": {
+    "Lvl 68 Leader Winona3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -4604,7 +4604,7 @@ backup_data = {
       ],
       "ability": "Tinted Lens"
     },
-    "Lvl 68 Leader Winona4  ": {
+    "Lvl 68 Leader Winona4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -4639,7 +4639,7 @@ backup_data = {
       ],
       "ability": "Tinted Lens"
     },
-    "Lvl 68 Leader Winona5  ": {
+    "Lvl 68 Leader Winona5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -4814,7 +4814,7 @@ backup_data = {
     }
   },
   "Golisopod": {
-    "Lvl 70 Team Aqua Grunt Seafloor Cavern4  ": {
+    "Lvl 70 Team Aqua Grunt Seafloor Cavern4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -4846,7 +4846,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 30 Team Aqua Grunt Museum2  ": {
+    "Lvl 30 Team Aqua Grunt Museum2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -4885,7 +4885,7 @@ backup_data = {
     }
   },
   "Lokix": {
-    "Lvl 70 Team Aqua Grunt Seafloor Cavern4  ": {
+    "Lvl 70 Team Aqua Grunt Seafloor Cavern4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -5483,7 +5483,7 @@ backup_data = {
     }
   },
   "Palpitoad": {
-    "Lvl 28 Team Aqua Grunt Museum2  ": {
+    "Lvl 28 Team Aqua Grunt Museum2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -5554,7 +5554,7 @@ backup_data = {
     }
   },
   "Qwilfish-Hisui": {
-    "Lvl 28 Team Aqua Grunt Museum2  ": {
+    "Lvl 28 Team Aqua Grunt Museum2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -5625,7 +5625,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 30 Team Magma Grunt Space Center2  ": {
+    "Lvl 30 Team Magma Grunt Space Center2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -5659,7 +5659,7 @@ backup_data = {
     }
   },
   "Bisharp": {
-    "Lvl 65 Team Aqua Grunt Aqua Hideout5  ": {
+    "Lvl 65 Team Aqua Grunt Aqua Hideout5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -5693,7 +5693,7 @@ backup_data = {
     }
   },
   "Grapploct": {
-    "Lvl 65 Team Aqua Grunt Aqua Hideout6  ": {
+    "Lvl 65 Team Aqua Grunt Aqua Hideout6 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -5857,7 +5857,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 0 Rival Iriv24  ": {
+    "Lvl 0 Rival Iriv24 ": {
       "ivs": {
         "hp": 31,
         "at": 30,
@@ -6007,7 +6007,7 @@ backup_data = {
       ],
       "ability": "Intimidate"
     },
-    "Lvl 85 Elite Four Phoebe1  ": {
+    "Lvl 85 Elite Four Phoebe1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -6620,7 +6620,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 85 Elite Four Phoebe1  ": {
+    "Lvl 85 Elite Four Phoebe1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -6657,7 +6657,7 @@ backup_data = {
       ],
       "ability": "Defiant"
     },
-    "Lvl 85 Elite Four Phoebe2  ": {
+    "Lvl 85 Elite Four Phoebe2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -6946,7 +6946,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 56 Expert Timothy2  ": {
+    "Lvl 56 Expert Timothy2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -6980,7 +6980,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 56 Expert Timothy3  ": {
+    "Lvl 56 Expert Timothy3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -7014,7 +7014,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 56 Expert Timothy4  ": {
+    "Lvl 56 Expert Timothy4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -7048,7 +7048,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 56 Expert Timothy5  ": {
+    "Lvl 56 Expert Timothy5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -7770,7 +7770,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 71 Dragon Tamer Nicolas2  ": {
+    "Lvl 71 Dragon Tamer Nicolas2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -7802,7 +7802,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 71 Dragon Tamer Nicolas3  ": {
+    "Lvl 71 Dragon Tamer Nicolas3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -7834,7 +7834,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 71 Dragon Tamer Nicolas4  ": {
+    "Lvl 71 Dragon Tamer Nicolas4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -7866,7 +7866,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 71 Dragon Tamer Nicolas5  ": {
+    "Lvl 71 Dragon Tamer Nicolas5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -8488,7 +8488,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 60 Pkmn Ranger Jackson2  ": {
+    "Lvl 60 Pkmn Ranger Jackson2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -8522,7 +8522,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 60 Pkmn Ranger Jackson3  ": {
+    "Lvl 60 Pkmn Ranger Jackson3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -8556,7 +8556,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 60 Pkmn Ranger Jackson4  ": {
+    "Lvl 60 Pkmn Ranger Jackson4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -8590,7 +8590,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 60 Pkmn Ranger Jackson5  ": {
+    "Lvl 60 Pkmn Ranger Jackson5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -8788,7 +8788,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 29 Aroma Lady Rose2  ": {
+    "Lvl 29 Aroma Lady Rose2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -8820,7 +8820,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 29 Aroma Lady Rose3  ": {
+    "Lvl 29 Aroma Lady Rose3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -8852,7 +8852,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 29 Aroma Lady Rose4  ": {
+    "Lvl 29 Aroma Lady Rose4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -8884,7 +8884,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 29 Aroma Lady Rose5  ": {
+    "Lvl 29 Aroma Lady Rose5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -8984,7 +8984,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 29 Aroma Lady Rose2  ": {
+    "Lvl 29 Aroma Lady Rose2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -9016,7 +9016,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 29 Aroma Lady Rose3  ": {
+    "Lvl 29 Aroma Lady Rose3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -9048,7 +9048,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 29 Aroma Lady Rose4  ": {
+    "Lvl 29 Aroma Lady Rose4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -9080,7 +9080,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 29 Aroma Lady Rose5  ": {
+    "Lvl 29 Aroma Lady Rose5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -9364,7 +9364,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -2
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout15  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout15 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -9396,7 +9396,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Beauty Thalia2  ": {
+    "Lvl 56 Beauty Thalia2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -9428,7 +9428,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Beauty Thalia3  ": {
+    "Lvl 56 Beauty Thalia3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -9460,7 +9460,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Beauty Thalia4  ": {
+    "Lvl 56 Beauty Thalia4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -9492,7 +9492,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Beauty Thalia5  ": {
+    "Lvl 56 Beauty Thalia5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10084,7 +10084,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 58 Pkmn Ranger Catherine2  ": {
+    "Lvl 58 Pkmn Ranger Catherine2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10118,7 +10118,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 58 Pkmn Ranger Catherine3  ": {
+    "Lvl 58 Pkmn Ranger Catherine3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10152,7 +10152,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 58 Pkmn Ranger Catherine4  ": {
+    "Lvl 58 Pkmn Ranger Catherine4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10186,7 +10186,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 58 Pkmn Ranger Catherine5  ": {
+    "Lvl 58 Pkmn Ranger Catherine5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10220,7 +10220,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl -1 Leader Gardenia2  ": {
+    "Lvl -1 Leader Gardenia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -10324,7 +10324,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Picnicker Diana2  ": {
+    "Lvl 39 Picnicker Diana2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10356,7 +10356,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Picnicker Diana3  ": {
+    "Lvl 39 Picnicker Diana3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10388,7 +10388,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Picnicker Diana4  ": {
+    "Lvl 39 Picnicker Diana4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10420,7 +10420,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Picnicker Diana5  ": {
+    "Lvl 39 Picnicker Diana5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10486,7 +10486,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 58 Pkmn Ranger Catherine2  ": {
+    "Lvl 58 Pkmn Ranger Catherine2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10520,7 +10520,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 58 Pkmn Ranger Catherine3  ": {
+    "Lvl 58 Pkmn Ranger Catherine3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10554,7 +10554,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 58 Pkmn Ranger Catherine4  ": {
+    "Lvl 58 Pkmn Ranger Catherine4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10588,7 +10588,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 58 Pkmn Ranger Catherine5  ": {
+    "Lvl 58 Pkmn Ranger Catherine5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -10692,7 +10692,7 @@ backup_data = {
       "ability": "Chlorophyll",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent2  ": {
+    "Lvl -2 Hiker Trent2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -10726,7 +10726,7 @@ backup_data = {
       "ability": "Chlorophyll",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent3  ": {
+    "Lvl -2 Hiker Trent3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -10760,7 +10760,7 @@ backup_data = {
       "ability": "Chlorophyll",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent4  ": {
+    "Lvl -2 Hiker Trent4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -10794,7 +10794,7 @@ backup_data = {
       "ability": "Chlorophyll",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent5  ": {
+    "Lvl -2 Hiker Trent5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -10828,7 +10828,7 @@ backup_data = {
       "ability": "Chlorophyll",
       "sublevel": -2
     },
-    "Lvl -1 Leader Gardenia2  ": {
+    "Lvl -1 Leader Gardenia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -10906,7 +10906,7 @@ backup_data = {
       "ability": "Sand Force",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty2  ": {
+    "Lvl -2 Ruin Maniac Dusty2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -10940,7 +10940,7 @@ backup_data = {
       "ability": "Sand Force",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty3  ": {
+    "Lvl -2 Ruin Maniac Dusty3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -10974,7 +10974,7 @@ backup_data = {
       "ability": "Sand Force",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty4  ": {
+    "Lvl -2 Ruin Maniac Dusty4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11008,7 +11008,7 @@ backup_data = {
       "ability": "Sand Force",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty5  ": {
+    "Lvl -2 Ruin Maniac Dusty5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11082,7 +11082,7 @@ backup_data = {
       "ability": "Shields Down",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty2  ": {
+    "Lvl -2 Ruin Maniac Dusty2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11116,7 +11116,7 @@ backup_data = {
       "ability": "Shields Down",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty3  ": {
+    "Lvl -2 Ruin Maniac Dusty3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11150,7 +11150,7 @@ backup_data = {
       "ability": "Shields Down",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty4  ": {
+    "Lvl -2 Ruin Maniac Dusty4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11184,7 +11184,7 @@ backup_data = {
       "ability": "Shields Down",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty5  ": {
+    "Lvl -2 Ruin Maniac Dusty5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11290,7 +11290,7 @@ backup_data = {
       "ability": "Sand Rush",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty2  ": {
+    "Lvl -2 Ruin Maniac Dusty2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11324,7 +11324,7 @@ backup_data = {
       "ability": "Sand Rush",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty3  ": {
+    "Lvl -2 Ruin Maniac Dusty3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11358,7 +11358,7 @@ backup_data = {
       "ability": "Sand Rush",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty4  ": {
+    "Lvl -2 Ruin Maniac Dusty4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11392,7 +11392,7 @@ backup_data = {
       "ability": "Sand Rush",
       "sublevel": -2
     },
-    "Lvl -2 Ruin Maniac Dusty5  ": {
+    "Lvl -2 Ruin Maniac Dusty5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11536,7 +11536,7 @@ backup_data = {
       "ability": "Rock Head",
       "sublevel": -1
     },
-    "Lvl -1 Ruin Maniac Dusty2  ": {
+    "Lvl -1 Ruin Maniac Dusty2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11570,7 +11570,7 @@ backup_data = {
       "ability": "Rock Head",
       "sublevel": -1
     },
-    "Lvl -1 Ruin Maniac Dusty3  ": {
+    "Lvl -1 Ruin Maniac Dusty3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11604,7 +11604,7 @@ backup_data = {
       "ability": "Rock Head",
       "sublevel": -1
     },
-    "Lvl -1 Ruin Maniac Dusty4  ": {
+    "Lvl -1 Ruin Maniac Dusty4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11638,7 +11638,7 @@ backup_data = {
       "ability": "Rock Head",
       "sublevel": -1
     },
-    "Lvl -1 Ruin Maniac Dusty5  ": {
+    "Lvl -1 Ruin Maniac Dusty5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11744,7 +11744,7 @@ backup_data = {
       "ability": "Tough Claws",
       "sublevel": -1
     },
-    "Lvl -1 Ruin Maniac Dusty2  ": {
+    "Lvl -1 Ruin Maniac Dusty2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11778,7 +11778,7 @@ backup_data = {
       "ability": "Tough Claws",
       "sublevel": -1
     },
-    "Lvl -1 Ruin Maniac Dusty3  ": {
+    "Lvl -1 Ruin Maniac Dusty3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11812,7 +11812,7 @@ backup_data = {
       "ability": "Tough Claws",
       "sublevel": -1
     },
-    "Lvl -1 Ruin Maniac Dusty4  ": {
+    "Lvl -1 Ruin Maniac Dusty4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -11846,7 +11846,7 @@ backup_data = {
       "ability": "Tough Claws",
       "sublevel": -1
     },
-    "Lvl -1 Ruin Maniac Dusty5  ": {
+    "Lvl -1 Ruin Maniac Dusty5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -12110,7 +12110,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Interviewer Gabby And Ty2  ": {
+    "Lvl 55 Interviewer Gabby And Ty2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -12142,7 +12142,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 60 Interviewer Gabby And Ty3  ": {
+    "Lvl 60 Interviewer Gabby And Ty3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -12174,7 +12174,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 60 Interviewer Gabby And Ty4  ": {
+    "Lvl 60 Interviewer Gabby And Ty4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -12206,7 +12206,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 60 Interviewer Gabby And Ty5  ": {
+    "Lvl 60 Interviewer Gabby And Ty5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -12238,7 +12238,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 60 Interviewer Gabby And Ty6  ": {
+    "Lvl 60 Interviewer Gabby And Ty6 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -12370,7 +12370,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Interviewer Gabby And Ty2  ": {
+    "Lvl 55 Interviewer Gabby And Ty2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -12402,7 +12402,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 60 Interviewer Gabby And Ty3  ": {
+    "Lvl 60 Interviewer Gabby And Ty3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -12434,7 +12434,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 60 Interviewer Gabby And Ty4  ": {
+    "Lvl 60 Interviewer Gabby And Ty4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -12466,7 +12466,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 60 Interviewer Gabby And Ty5  ": {
+    "Lvl 60 Interviewer Gabby And Ty5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -12498,7 +12498,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 60 Interviewer Gabby And Ty6  ": {
+    "Lvl 60 Interviewer Gabby And Ty6 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -12660,7 +12660,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 20 Tuber F Lola2  ": {
+    "Lvl 20 Tuber F Lola2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -12692,7 +12692,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 20 Tuber F Lola3  ": {
+    "Lvl 20 Tuber F Lola3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -12724,7 +12724,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 20 Tuber F Lola4  ": {
+    "Lvl 20 Tuber F Lola4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -12756,7 +12756,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 20 Tuber F Lola5  ": {
+    "Lvl 20 Tuber F Lola5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -12822,7 +12822,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 20 Tuber F Lola2  ": {
+    "Lvl 20 Tuber F Lola2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -12854,7 +12854,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 20 Tuber F Lola3  ": {
+    "Lvl 20 Tuber F Lola3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -12886,7 +12886,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 20 Tuber F Lola4  ": {
+    "Lvl 20 Tuber F Lola4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -12918,7 +12918,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 20 Tuber F Lola5  ": {
+    "Lvl 20 Tuber F Lola5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13085,7 +13085,7 @@ backup_data = {
       ],
       "ability": "Truant"
     },
-    "Lvl 59 Leader Norman2  ": {
+    "Lvl 59 Leader Norman2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13120,7 +13120,7 @@ backup_data = {
       ],
       "ability": "Truant"
     },
-    "Lvl 59 Leader Norman3  ": {
+    "Lvl 59 Leader Norman3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13155,7 +13155,7 @@ backup_data = {
       ],
       "ability": "Truant"
     },
-    "Lvl 59 Leader Norman4  ": {
+    "Lvl 59 Leader Norman4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13190,7 +13190,7 @@ backup_data = {
       ],
       "ability": "Truant"
     },
-    "Lvl 59 Leader Norman5  ": {
+    "Lvl 59 Leader Norman5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13294,7 +13294,7 @@ backup_data = {
       "ability": "Gluttony",
       "sublevel": -1
     },
-    "Lvl 22 Tuber M Ricky2  ": {
+    "Lvl 22 Tuber M Ricky2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13323,7 +13323,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 22 Tuber M Ricky3  ": {
+    "Lvl 22 Tuber M Ricky3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13352,7 +13352,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 22 Tuber M Ricky4  ": {
+    "Lvl 22 Tuber M Ricky4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13381,7 +13381,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 22 Tuber M Ricky5  ": {
+    "Lvl 22 Tuber M Ricky5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13520,7 +13520,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -1
     },
-    "Lvl 70 Team Aqua Grunt Seafloor Cavern5  ": {
+    "Lvl 70 Team Aqua Grunt Seafloor Cavern5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -13616,7 +13616,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Hiker Mike2  ": {
+    "Lvl 28 Hiker Mike2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -13726,7 +13726,7 @@ backup_data = {
       "ability": "Guts",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline2  ": {
+    "Lvl -2 Parasol Lady Madeline2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13760,7 +13760,7 @@ backup_data = {
       "ability": "Guts",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline3  ": {
+    "Lvl -2 Parasol Lady Madeline3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13794,7 +13794,7 @@ backup_data = {
       "ability": "Guts",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline4  ": {
+    "Lvl -2 Parasol Lady Madeline4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13828,7 +13828,7 @@ backup_data = {
       "ability": "Guts",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline5  ": {
+    "Lvl -2 Parasol Lady Madeline5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -15909,7 +15909,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Battle Girl Cyndy2  ": {
+    "Lvl 39 Battle Girl Cyndy2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -15941,7 +15941,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Battle Girl Cyndy3  ": {
+    "Lvl 39 Battle Girl Cyndy3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -15973,7 +15973,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Battle Girl Cyndy4  ": {
+    "Lvl 39 Battle Girl Cyndy4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -16005,7 +16005,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Battle Girl Cyndy5  ": {
+    "Lvl 39 Battle Girl Cyndy5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -16148,7 +16148,7 @@ backup_data = {
       "ability": "Sturdy",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica2  ": {
+    "Lvl -2 Beauty Jessica2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -16182,7 +16182,7 @@ backup_data = {
       "ability": "Sturdy",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica3  ": {
+    "Lvl -2 Beauty Jessica3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -16216,7 +16216,7 @@ backup_data = {
       "ability": "Sturdy",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica4  ": {
+    "Lvl -2 Beauty Jessica4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -16250,7 +16250,7 @@ backup_data = {
       "ability": "Sturdy",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica5  ": {
+    "Lvl -2 Beauty Jessica5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -16892,7 +16892,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 63 Team Aqua Grunt Weather Inst5  ": {
+    "Lvl 63 Team Aqua Grunt Weather Inst5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -16965,7 +16965,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton2  ": {
+    "Lvl 35 Cooltrainer Wilton2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -16999,7 +16999,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton3  ": {
+    "Lvl 35 Cooltrainer Wilton3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17033,7 +17033,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton4  ": {
+    "Lvl 35 Cooltrainer Wilton4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17067,7 +17067,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton5  ": {
+    "Lvl 35 Cooltrainer Wilton5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17169,7 +17169,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton2  ": {
+    "Lvl 35 Cooltrainer Wilton2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17203,7 +17203,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton3  ": {
+    "Lvl 35 Cooltrainer Wilton3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17237,7 +17237,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton4  ": {
+    "Lvl 35 Cooltrainer Wilton4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17271,7 +17271,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton5  ": {
+    "Lvl 35 Cooltrainer Wilton5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17341,7 +17341,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton2  ": {
+    "Lvl 35 Cooltrainer Wilton2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17375,7 +17375,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton3  ": {
+    "Lvl 35 Cooltrainer Wilton3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17409,7 +17409,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton4  ": {
+    "Lvl 35 Cooltrainer Wilton4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17443,7 +17443,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 35 Cooltrainer Wilton5  ": {
+    "Lvl 35 Cooltrainer Wilton5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17579,7 +17579,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 37 Cooltrainer Brooke2  ": {
+    "Lvl 37 Cooltrainer Brooke2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17613,7 +17613,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 37 Cooltrainer Brooke3  ": {
+    "Lvl 37 Cooltrainer Brooke3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17647,7 +17647,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 37 Cooltrainer Brooke4  ": {
+    "Lvl 37 Cooltrainer Brooke4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17681,7 +17681,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 37 Cooltrainer Brooke5  ": {
+    "Lvl 37 Cooltrainer Brooke5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17890,7 +17890,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 70 Old Couple John And Jay2  ": {
+    "Lvl 70 Old Couple John And Jay2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17924,7 +17924,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 70 Old Couple John And Jay3  ": {
+    "Lvl 70 Old Couple John And Jay3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17958,7 +17958,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 70 Old Couple John And Jay4  ": {
+    "Lvl 70 Old Couple John And Jay4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -17992,7 +17992,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 70 Old Couple John And Jay5  ": {
+    "Lvl 70 Old Couple John And Jay5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -18065,7 +18065,7 @@ backup_data = {
       ],
       "ability": "Regenerator"
     },
-    "Lvl 64 Team Aqua Grunt Aqua Hideout7  ": {
+    "Lvl 64 Team Aqua Grunt Aqua Hideout7 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -18554,7 +18554,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 40 Expert Shelby2  ": {
+    "Lvl 40 Expert Shelby2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -18588,7 +18588,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 40 Expert Shelby3  ": {
+    "Lvl 40 Expert Shelby3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -18622,7 +18622,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 40 Expert Shelby4  ": {
+    "Lvl 40 Expert Shelby4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -18656,7 +18656,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 40 Expert Shelby5  ": {
+    "Lvl 40 Expert Shelby5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -18720,7 +18720,7 @@ backup_data = {
       "sub_index": 0,
       "ai_tags": []
     },
-    "Lvl 36 Ninja Boy Lao2  ": {
+    "Lvl 36 Ninja Boy Lao2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -18750,7 +18750,7 @@ backup_data = {
       "sub_index": 0,
       "ai_tags": []
     },
-    "Lvl 36 Ninja Boy Lao3  ": {
+    "Lvl 36 Ninja Boy Lao3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -18780,7 +18780,7 @@ backup_data = {
       "sub_index": 0,
       "ai_tags": []
     },
-    "Lvl 36 Ninja Boy Lao4  ": {
+    "Lvl 36 Ninja Boy Lao4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -18810,7 +18810,7 @@ backup_data = {
       "sub_index": 0,
       "ai_tags": []
     },
-    "Lvl 36 Ninja Boy Lao5  ": {
+    "Lvl 36 Ninja Boy Lao5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -18955,7 +18955,7 @@ backup_data = {
       "ability": "Ripen",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny2  ": {
+    "Lvl -1 Battle Girl Jenny2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -18989,7 +18989,7 @@ backup_data = {
       "ability": "Ripen",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny3  ": {
+    "Lvl -1 Battle Girl Jenny3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -19023,7 +19023,7 @@ backup_data = {
       "ability": "Ripen",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny4  ": {
+    "Lvl -1 Battle Girl Jenny4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -19057,7 +19057,7 @@ backup_data = {
       "ability": "Ripen",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny5  ": {
+    "Lvl -1 Battle Girl Jenny5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -19584,7 +19584,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 71 Dragon Tamer Nicolas2  ": {
+    "Lvl 71 Dragon Tamer Nicolas2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -19616,7 +19616,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 71 Dragon Tamer Nicolas3  ": {
+    "Lvl 71 Dragon Tamer Nicolas3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -19648,7 +19648,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 71 Dragon Tamer Nicolas4  ": {
+    "Lvl 71 Dragon Tamer Nicolas4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -19680,7 +19680,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 71 Dragon Tamer Nicolas5  ": {
+    "Lvl 71 Dragon Tamer Nicolas5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -19817,7 +19817,7 @@ backup_data = {
       ],
       "ability": "Magic Guard"
     },
-    "Lvl 56 Beauty Thalia2  ": {
+    "Lvl 56 Beauty Thalia2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -19849,7 +19849,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Beauty Thalia3  ": {
+    "Lvl 56 Beauty Thalia3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -19881,7 +19881,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Beauty Thalia4  ": {
+    "Lvl 56 Beauty Thalia4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -19913,7 +19913,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Beauty Thalia5  ": {
+    "Lvl 56 Beauty Thalia5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -19945,7 +19945,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 0 Rival Iriv24  ": {
+    "Lvl 0 Rival Iriv24 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -20095,7 +20095,7 @@ backup_data = {
       "ability": "Compound Eyes",
       "sublevel": 0
     },
-    "Lvl -1 Rival Wally Route110  ": {
+    "Lvl -1 Rival Wally Route110 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -20371,7 +20371,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Sr And Jr Anna And Meg2  ": {
+    "Lvl 26 Sr And Jr Anna And Meg2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -20403,7 +20403,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Sr And Jr Anna And Meg3  ": {
+    "Lvl 26 Sr And Jr Anna And Meg3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -20435,7 +20435,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Sr And Jr Anna And Meg4  ": {
+    "Lvl 26 Sr And Jr Anna And Meg4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -20467,7 +20467,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Sr And Jr Anna And Meg5  ": {
+    "Lvl 26 Sr And Jr Anna And Meg5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -20531,7 +20531,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 67 Triathlete Isaiah2  ": {
+    "Lvl 67 Triathlete Isaiah2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -20563,7 +20563,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 67 Triathlete Isaiah3  ": {
+    "Lvl 67 Triathlete Isaiah3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -20595,7 +20595,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 67 Triathlete Isaiah4  ": {
+    "Lvl 67 Triathlete Isaiah4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -20627,7 +20627,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 67 Triathlete Isaiah5  ": {
+    "Lvl 67 Triathlete Isaiah5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -20755,7 +20755,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 49 Leader Tate And Liza2  ": {
+    "Lvl 49 Leader Tate And Liza2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -20789,7 +20789,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 54 Leader Tate And Liza3  ": {
+    "Lvl 54 Leader Tate And Liza3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -20823,7 +20823,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 59 Leader Tate And Liza4  ": {
+    "Lvl 59 Leader Tate And Liza4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -20857,7 +20857,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 64 Leader Tate And Liza5  ": {
+    "Lvl 64 Leader Tate And Liza5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -21131,7 +21131,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Pokefan Miguel2  ": {
+    "Lvl 25 Pokefan Miguel2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -21163,7 +21163,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Pokefan Miguel3  ": {
+    "Lvl 25 Pokefan Miguel3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -21195,7 +21195,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Pokefan Miguel4  ": {
+    "Lvl 25 Pokefan Miguel4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -21227,7 +21227,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Pokefan Miguel5  ": {
+    "Lvl 25 Pokefan Miguel5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -21570,7 +21570,7 @@ backup_data = {
       "ability": "Natural Cure",
       "sublevel": 0
     },
-    "Lvl 0 Leader Gardenia2  ": {
+    "Lvl 0 Leader Gardenia2 ": {
       "ivs": {
         "hp": 31,
         "at": 30,
@@ -21786,7 +21786,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 37 Cooltrainer Brooke2  ": {
+    "Lvl 37 Cooltrainer Brooke2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -21820,7 +21820,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 37 Cooltrainer Brooke3  ": {
+    "Lvl 37 Cooltrainer Brooke3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -21854,7 +21854,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 37 Cooltrainer Brooke4  ": {
+    "Lvl 37 Cooltrainer Brooke4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -21888,7 +21888,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 37 Cooltrainer Brooke5  ": {
+    "Lvl 37 Cooltrainer Brooke5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -22177,7 +22177,7 @@ backup_data = {
       "ability": "Swarm",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel2  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -22211,7 +22211,7 @@ backup_data = {
       "ability": "Swarm",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel3  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -22245,7 +22245,7 @@ backup_data = {
       "ability": "Swarm",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel4  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -22279,7 +22279,7 @@ backup_data = {
       "ability": "Swarm",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel5  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -22484,7 +22484,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Dylan2  ": {
+    "Lvl 27 Triathlete Dylan2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -22516,7 +22516,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Dylan3  ": {
+    "Lvl 27 Triathlete Dylan3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -22548,7 +22548,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Dylan4  ": {
+    "Lvl 27 Triathlete Dylan4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -22580,7 +22580,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Dylan5  ": {
+    "Lvl 27 Triathlete Dylan5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -22744,7 +22744,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Maria2  ": {
+    "Lvl 27 Triathlete Maria2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -22776,7 +22776,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Maria3  ": {
+    "Lvl 27 Triathlete Maria3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -22808,7 +22808,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Maria4  ": {
+    "Lvl 27 Triathlete Maria4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -22840,7 +22840,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Maria5  ": {
+    "Lvl 27 Triathlete Maria5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -23119,7 +23119,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Guitarist Fernando2  ": {
+    "Lvl 56 Guitarist Fernando2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -23151,7 +23151,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Guitarist Fernando3  ": {
+    "Lvl 56 Guitarist Fernando3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -23183,7 +23183,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Guitarist Fernando4  ": {
+    "Lvl 56 Guitarist Fernando4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -23215,7 +23215,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Guitarist Fernando5  ": {
+    "Lvl 56 Guitarist Fernando5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -23615,7 +23615,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 68 Leader Winona2  ": {
+    "Lvl 68 Leader Winona2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -23650,7 +23650,7 @@ backup_data = {
       ],
       "ability": "Rock Head"
     },
-    "Lvl 68 Leader Winona3  ": {
+    "Lvl 68 Leader Winona3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -23685,7 +23685,7 @@ backup_data = {
       ],
       "ability": "Rock Head"
     },
-    "Lvl 68 Leader Winona4  ": {
+    "Lvl 68 Leader Winona4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -23720,7 +23720,7 @@ backup_data = {
       ],
       "ability": "Rock Head"
     },
-    "Lvl 68 Leader Winona5  ": {
+    "Lvl 68 Leader Winona5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -23943,7 +23943,7 @@ backup_data = {
       "ability": "Infiltrator",
       "sublevel": -2
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout16  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout16 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -24402,7 +24402,7 @@ backup_data = {
         "Try To Faint"
       ]
     },
-    "Lvl -2 Rival Dawn Route111  ": {
+    "Lvl -2 Rival Dawn Route111 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -24785,7 +24785,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Psychic Cameron2  ": {
+    "Lvl 55 Psychic Cameron2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -24817,7 +24817,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Psychic Cameron3  ": {
+    "Lvl 55 Psychic Cameron3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -24849,7 +24849,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Psychic Cameron4  ": {
+    "Lvl 55 Psychic Cameron4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -24881,7 +24881,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Psychic Cameron5  ": {
+    "Lvl 55 Psychic Cameron5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -24951,7 +24951,7 @@ backup_data = {
       "ability": "Levitate",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Lucas2  ": {
+    "Lvl -2 Hiker Lucas2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -24985,7 +24985,7 @@ backup_data = {
       "ability": "Levitate",
       "sublevel": -2
     },
-    "Lvl 50 Leader Tate And Liza2  ": {
+    "Lvl 50 Leader Tate And Liza2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -25019,7 +25019,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 55 Leader Tate And Liza3  ": {
+    "Lvl 55 Leader Tate And Liza3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -25053,7 +25053,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 60 Leader Tate And Liza4  ": {
+    "Lvl 60 Leader Tate And Liza4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -25087,7 +25087,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 65 Leader Tate And Liza5  ": {
+    "Lvl 65 Leader Tate And Liza5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -25187,7 +25187,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 85 Elite Four Phoebe1  ": {
+    "Lvl 85 Elite Four Phoebe1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -25412,7 +25412,7 @@ backup_data = {
       "ability": "Dry Skin",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Lucas2  ": {
+    "Lvl -2 Hiker Lucas2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -25551,7 +25551,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton2  ": {
+    "Lvl 28 Guitarist Dalton2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -25583,7 +25583,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton3  ": {
+    "Lvl 28 Guitarist Dalton3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -25615,7 +25615,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton4  ": {
+    "Lvl 28 Guitarist Dalton4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -25647,7 +25647,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton5  ": {
+    "Lvl 28 Guitarist Dalton5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -25717,7 +25717,7 @@ backup_data = {
       "ability": "Solar Power",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny2  ": {
+    "Lvl -2 Battle Girl Jenny2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -25751,7 +25751,7 @@ backup_data = {
       "ability": "Solar Power",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny3  ": {
+    "Lvl -2 Battle Girl Jenny3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -25785,7 +25785,7 @@ backup_data = {
       "ability": "Solar Power",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny4  ": {
+    "Lvl -2 Battle Girl Jenny4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -25819,7 +25819,7 @@ backup_data = {
       "ability": "Solar Power",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny5  ": {
+    "Lvl -2 Battle Girl Jenny5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -25925,7 +25925,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton2  ": {
+    "Lvl 28 Guitarist Dalton2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -25957,7 +25957,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton3  ": {
+    "Lvl 28 Guitarist Dalton3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -25989,7 +25989,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton4  ": {
+    "Lvl 28 Guitarist Dalton4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26021,7 +26021,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton5  ": {
+    "Lvl 28 Guitarist Dalton5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26119,7 +26119,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 65 Hex Maniac Valerie2  ": {
+    "Lvl 65 Hex Maniac Valerie2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26151,7 +26151,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 65 Hex Maniac Valerie3  ": {
+    "Lvl 65 Hex Maniac Valerie3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26183,7 +26183,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 65 Hex Maniac Valerie4  ": {
+    "Lvl 65 Hex Maniac Valerie4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26215,7 +26215,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 65 Hex Maniac Valerie5  ": {
+    "Lvl 65 Hex Maniac Valerie5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26380,7 +26380,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Lady Cindy2  ": {
+    "Lvl 7 Lady Cindy2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26411,7 +26411,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Lady Cindy3  ": {
+    "Lvl 7 Lady Cindy3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26442,7 +26442,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Lady Cindy4  ": {
+    "Lvl 7 Lady Cindy4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26473,7 +26473,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Lady Cindy5  ": {
+    "Lvl 7 Lady Cindy5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26504,7 +26504,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Lady Cindy6  ": {
+    "Lvl 7 Lady Cindy6 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26949,7 +26949,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Psychic Jacki2  ": {
+    "Lvl 56 Psychic Jacki2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -26981,7 +26981,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Psychic Jacki3  ": {
+    "Lvl 56 Psychic Jacki3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -27013,7 +27013,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Psychic Jacki4  ": {
+    "Lvl 56 Psychic Jacki4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -27045,7 +27045,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Psychic Jacki5  ": {
+    "Lvl 56 Psychic Jacki5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -27283,7 +27283,7 @@ backup_data = {
       "ability": "Flash Fire",
       "sublevel": -3
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout14  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout14 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -27356,7 +27356,7 @@ backup_data = {
       "ability": "Poison Heal",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica2  ": {
+    "Lvl -2 Beauty Jessica2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27390,7 +27390,7 @@ backup_data = {
       "ability": "Poison Heal",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica3  ": {
+    "Lvl -2 Beauty Jessica3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27424,7 +27424,7 @@ backup_data = {
       "ability": "Poison Heal",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica4  ": {
+    "Lvl -2 Beauty Jessica4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27458,7 +27458,7 @@ backup_data = {
       "ability": "Poison Heal",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica5  ": {
+    "Lvl -2 Beauty Jessica5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27533,7 +27533,7 @@ backup_data = {
       "ability": "Adaptability",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica2  ": {
+    "Lvl -2 Beauty Jessica2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27567,7 +27567,7 @@ backup_data = {
       "ability": "Adaptability",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica3  ": {
+    "Lvl -2 Beauty Jessica3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27601,7 +27601,7 @@ backup_data = {
       "ability": "Adaptability",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica4  ": {
+    "Lvl -2 Beauty Jessica4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27635,7 +27635,7 @@ backup_data = {
       "ability": "Adaptability",
       "sublevel": -2
     },
-    "Lvl -2 Beauty Jessica5  ": {
+    "Lvl -2 Beauty Jessica5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27742,7 +27742,7 @@ backup_data = {
       "ability": "Torrent",
       "sublevel": -1
     },
-    "Lvl -1 Beauty Jessica2  ": {
+    "Lvl -1 Beauty Jessica2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27776,7 +27776,7 @@ backup_data = {
       "ability": "Torrent",
       "sublevel": -1
     },
-    "Lvl -1 Beauty Jessica3  ": {
+    "Lvl -1 Beauty Jessica3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27810,7 +27810,7 @@ backup_data = {
       "ability": "Torrent",
       "sublevel": -1
     },
-    "Lvl -1 Beauty Jessica4  ": {
+    "Lvl -1 Beauty Jessica4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27844,7 +27844,7 @@ backup_data = {
       "ability": "Torrent",
       "sublevel": -1
     },
-    "Lvl -1 Beauty Jessica5  ": {
+    "Lvl -1 Beauty Jessica5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27951,7 +27951,7 @@ backup_data = {
       "ability": "Mega Launcher",
       "sublevel": -1
     },
-    "Lvl -1 Beauty Jessica2  ": {
+    "Lvl -1 Beauty Jessica2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -27985,7 +27985,7 @@ backup_data = {
       "ability": "Mega Launcher",
       "sublevel": -1
     },
-    "Lvl -1 Beauty Jessica3  ": {
+    "Lvl -1 Beauty Jessica3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -28019,7 +28019,7 @@ backup_data = {
       "ability": "Mega Launcher",
       "sublevel": -1
     },
-    "Lvl -1 Beauty Jessica4  ": {
+    "Lvl -1 Beauty Jessica4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -28053,7 +28053,7 @@ backup_data = {
       "ability": "Mega Launcher",
       "sublevel": -1
     },
-    "Lvl -1 Beauty Jessica5  ": {
+    "Lvl -1 Beauty Jessica5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -28185,7 +28185,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Battle Girl Cyndy2  ": {
+    "Lvl 39 Battle Girl Cyndy2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -28217,7 +28217,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Battle Girl Cyndy3  ": {
+    "Lvl 39 Battle Girl Cyndy3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -28249,7 +28249,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Battle Girl Cyndy4  ": {
+    "Lvl 39 Battle Girl Cyndy4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -28281,7 +28281,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Battle Girl Cyndy5  ": {
+    "Lvl 39 Battle Girl Cyndy5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -28731,7 +28731,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Rich Boy Winston2  ": {
+    "Lvl 8 Rich Boy Winston2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -28762,7 +28762,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Rich Boy Winston3  ": {
+    "Lvl 8 Rich Boy Winston3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -28793,7 +28793,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Rich Boy Winston4  ": {
+    "Lvl 8 Rich Boy Winston4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -28824,7 +28824,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Rich Boy Winston5  ": {
+    "Lvl 8 Rich Boy Winston5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29153,7 +29153,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve2  ": {
+    "Lvl 36 Pokemaniac Steve2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29185,7 +29185,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve3  ": {
+    "Lvl 36 Pokemaniac Steve3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29217,7 +29217,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve4  ": {
+    "Lvl 36 Pokemaniac Steve4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29249,7 +29249,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve5  ": {
+    "Lvl 36 Pokemaniac Steve5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29409,7 +29409,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve2  ": {
+    "Lvl 36 Pokemaniac Steve2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29441,7 +29441,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve3  ": {
+    "Lvl 36 Pokemaniac Steve3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29473,7 +29473,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve4  ": {
+    "Lvl 36 Pokemaniac Steve4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29505,7 +29505,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve5  ": {
+    "Lvl 36 Pokemaniac Steve5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29571,7 +29571,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve2  ": {
+    "Lvl 36 Pokemaniac Steve2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29603,7 +29603,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve3  ": {
+    "Lvl 36 Pokemaniac Steve3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29635,7 +29635,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve4  ": {
+    "Lvl 36 Pokemaniac Steve4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29667,7 +29667,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 36 Pokemaniac Steve5  ": {
+    "Lvl 36 Pokemaniac Steve5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29805,7 +29805,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 70 Old Couple John And Jay2  ": {
+    "Lvl 70 Old Couple John And Jay2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29839,7 +29839,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 70 Old Couple John And Jay3  ": {
+    "Lvl 70 Old Couple John And Jay3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29873,7 +29873,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 70 Old Couple John And Jay4  ": {
+    "Lvl 70 Old Couple John And Jay4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -29907,7 +29907,7 @@ backup_data = {
         "Force Setup First Turn"
       ]
     },
-    "Lvl 70 Old Couple John And Jay5  ": {
+    "Lvl 70 Old Couple John And Jay5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -30615,7 +30615,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Swimmer M Tony2  ": {
+    "Lvl 56 Swimmer M Tony2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -30647,7 +30647,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Swimmer M Tony3  ": {
+    "Lvl 56 Swimmer M Tony3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -30679,7 +30679,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Swimmer M Tony4  ": {
+    "Lvl 56 Swimmer M Tony4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -30711,7 +30711,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Swimmer M Tony5  ": {
+    "Lvl 56 Swimmer M Tony5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -31355,7 +31355,7 @@ backup_data = {
       "ability": "Unaware",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin2  ": {
+    "Lvl -2 Collector Edwin2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -31389,7 +31389,7 @@ backup_data = {
       "ability": "Unaware",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin3  ": {
+    "Lvl -2 Collector Edwin3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -31423,7 +31423,7 @@ backup_data = {
       "ability": "Unaware",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin4  ": {
+    "Lvl -2 Collector Edwin4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -31457,7 +31457,7 @@ backup_data = {
       "ability": "Unaware",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin5  ": {
+    "Lvl -2 Collector Edwin5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -31901,7 +31901,7 @@ backup_data = {
       "ability": "Shadow Tag",
       "sublevel": -2
     },
-    "Lvl -2 Rival Dawn Route111  ": {
+    "Lvl -2 Rival Dawn Route111 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -33541,7 +33541,7 @@ backup_data = {
       "ability": "Scrappy",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel2  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -33575,7 +33575,7 @@ backup_data = {
       "ability": "Scrappy",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel3  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -33609,7 +33609,7 @@ backup_data = {
       "ability": "Scrappy",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel4  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -33643,7 +33643,7 @@ backup_data = {
       "ability": "Scrappy",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel5  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -33782,7 +33782,7 @@ backup_data = {
       ],
       "ability": "Guts"
     },
-    "Lvl 25 Leader Brawly2  ": {
+    "Lvl 25 Leader Brawly2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -33817,7 +33817,7 @@ backup_data = {
       ],
       "ability": "Guts"
     },
-    "Lvl 25 Leader Brawly3  ": {
+    "Lvl 25 Leader Brawly3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -33852,7 +33852,7 @@ backup_data = {
       ],
       "ability": "Guts"
     },
-    "Lvl 25 Leader Brawly4  ": {
+    "Lvl 25 Leader Brawly4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -33887,7 +33887,7 @@ backup_data = {
       ],
       "ability": "Guts"
     },
-    "Lvl 25 Leader Brawly5  ": {
+    "Lvl 25 Leader Brawly5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -33988,7 +33988,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 59 Sailor Ernest2  ": {
+    "Lvl 59 Sailor Ernest2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34020,7 +34020,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 59 Sailor Ernest3  ": {
+    "Lvl 59 Sailor Ernest3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34052,7 +34052,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 59 Sailor Ernest4  ": {
+    "Lvl 59 Sailor Ernest4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34084,7 +34084,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 59 Sailor Ernest5  ": {
+    "Lvl 59 Sailor Ernest5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34185,7 +34185,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 65 Black Belt Koji2  ": {
+    "Lvl 65 Black Belt Koji2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34217,7 +34217,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 65 Black Belt Koji3  ": {
+    "Lvl 65 Black Belt Koji3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34249,7 +34249,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 65 Black Belt Koji4  ": {
+    "Lvl 65 Black Belt Koji4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34281,7 +34281,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 65 Black Belt Koji5  ": {
+    "Lvl 65 Black Belt Koji5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34454,7 +34454,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Ruin Maniac Andres2  ": {
+    "Lvl 55 Ruin Maniac Andres2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34486,7 +34486,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Ruin Maniac Andres3  ": {
+    "Lvl 55 Ruin Maniac Andres3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34518,7 +34518,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Ruin Maniac Andres4  ": {
+    "Lvl 55 Ruin Maniac Andres4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34550,7 +34550,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Ruin Maniac Andres5  ": {
+    "Lvl 55 Ruin Maniac Andres5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34864,7 +34864,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Dylan2  ": {
+    "Lvl 27 Triathlete Dylan2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34896,7 +34896,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Dylan3  ": {
+    "Lvl 27 Triathlete Dylan3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34928,7 +34928,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Dylan4  ": {
+    "Lvl 27 Triathlete Dylan4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -34960,7 +34960,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Dylan5  ": {
+    "Lvl 27 Triathlete Dylan5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -35102,7 +35102,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Maria2  ": {
+    "Lvl 27 Triathlete Maria2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -35134,7 +35134,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Maria3  ": {
+    "Lvl 27 Triathlete Maria3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -35166,7 +35166,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Maria4  ": {
+    "Lvl 27 Triathlete Maria4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -35198,7 +35198,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 27 Triathlete Maria5  ": {
+    "Lvl 27 Triathlete Maria5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -35334,7 +35334,7 @@ backup_data = {
     }
   },
   "Spiritomb": {
-    "Lvl 64 Team Aqua Grunt Aqua Hideout7  ": {
+    "Lvl 64 Team Aqua Grunt Aqua Hideout7 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -35441,7 +35441,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel2  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -35475,7 +35475,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel3  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -35509,7 +35509,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel4  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -35543,7 +35543,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel5  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -35579,7 +35579,7 @@ backup_data = {
     }
   },
   "Liepard": {
-    "Lvl 64 Team Aqua Grunt Aqua Hideout8  ": {
+    "Lvl 64 Team Aqua Grunt Aqua Hideout8 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -35939,7 +35939,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Guitarist Fernando2  ": {
+    "Lvl 56 Guitarist Fernando2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -35971,7 +35971,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Guitarist Fernando3  ": {
+    "Lvl 56 Guitarist Fernando3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36003,7 +36003,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Guitarist Fernando4  ": {
+    "Lvl 56 Guitarist Fernando4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36035,7 +36035,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Guitarist Fernando5  ": {
+    "Lvl 56 Guitarist Fernando5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36101,7 +36101,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton2  ": {
+    "Lvl 28 Guitarist Dalton2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36133,7 +36133,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton3  ": {
+    "Lvl 28 Guitarist Dalton3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36165,7 +36165,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton4  ": {
+    "Lvl 28 Guitarist Dalton4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36197,7 +36197,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton5  ": {
+    "Lvl 28 Guitarist Dalton5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36327,7 +36327,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton2  ": {
+    "Lvl 28 Guitarist Dalton2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36359,7 +36359,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton3  ": {
+    "Lvl 28 Guitarist Dalton3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36391,7 +36391,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton4  ": {
+    "Lvl 28 Guitarist Dalton4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36423,7 +36423,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Guitarist Dalton5  ": {
+    "Lvl 28 Guitarist Dalton5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -36802,7 +36802,7 @@ backup_data = {
       "ability": "Dauntless Shield",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent2  ": {
+    "Lvl -2 Hiker Trent2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -36836,7 +36836,7 @@ backup_data = {
       "ability": "Dauntless Shield",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent3  ": {
+    "Lvl -2 Hiker Trent3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -36870,7 +36870,7 @@ backup_data = {
       "ability": "Dauntless Shield",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent4  ": {
+    "Lvl -2 Hiker Trent4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -36904,7 +36904,7 @@ backup_data = {
       "ability": "Dauntless Shield",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent5  ": {
+    "Lvl -2 Hiker Trent5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -37004,7 +37004,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 37 Kindler Bernie2  ": {
+    "Lvl 37 Kindler Bernie2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37036,7 +37036,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 37 Kindler Bernie3  ": {
+    "Lvl 37 Kindler Bernie3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37068,7 +37068,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 37 Kindler Bernie4  ": {
+    "Lvl 37 Kindler Bernie4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37100,7 +37100,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 37 Kindler Bernie5  ": {
+    "Lvl 37 Kindler Bernie5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37166,7 +37166,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 37 Kindler Bernie2  ": {
+    "Lvl 37 Kindler Bernie2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37198,7 +37198,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 37 Kindler Bernie3  ": {
+    "Lvl 37 Kindler Bernie3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37230,7 +37230,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 37 Kindler Bernie4  ": {
+    "Lvl 37 Kindler Bernie4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37262,7 +37262,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 37 Kindler Bernie5  ": {
+    "Lvl 37 Kindler Bernie5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37366,7 +37366,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Ruin Maniac Andres2  ": {
+    "Lvl 55 Ruin Maniac Andres2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37398,7 +37398,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Ruin Maniac Andres3  ": {
+    "Lvl 55 Ruin Maniac Andres3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37430,7 +37430,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Ruin Maniac Andres4  ": {
+    "Lvl 55 Ruin Maniac Andres4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37462,7 +37462,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Ruin Maniac Andres5  ": {
+    "Lvl 55 Ruin Maniac Andres5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37566,7 +37566,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout7  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout7 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37742,7 +37742,7 @@ backup_data = {
       "ability": "Levitate",
       "sublevel": -2
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout4  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -37774,7 +37774,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 49 Leader Tate And Liza2  ": {
+    "Lvl 49 Leader Tate And Liza2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -37808,7 +37808,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 54 Leader Tate And Liza3  ": {
+    "Lvl 54 Leader Tate And Liza3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -37842,7 +37842,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 59 Leader Tate And Liza4  ": {
+    "Lvl 59 Leader Tate And Liza4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -37876,7 +37876,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 64 Leader Tate And Liza5  ": {
+    "Lvl 64 Leader Tate And Liza5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -38076,7 +38076,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout2  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -38894,7 +38894,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Bug Maniac Jeffrey2  ": {
+    "Lvl 64 Bug Maniac Jeffrey2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -38926,7 +38926,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Bug Maniac Jeffrey3  ": {
+    "Lvl 64 Bug Maniac Jeffrey3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -38958,7 +38958,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Bug Maniac Jeffrey4  ": {
+    "Lvl 64 Bug Maniac Jeffrey4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -38990,7 +38990,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 64 Bug Maniac Jeffrey5  ": {
+    "Lvl 64 Bug Maniac Jeffrey5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -39096,7 +39096,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout8  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout8 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -39339,7 +39339,7 @@ backup_data = {
         "Try To Faint"
       ]
     },
-    "Lvl 58 Leader Tate And Liza4  ": {
+    "Lvl 58 Leader Tate And Liza4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -39373,7 +39373,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 63 Leader Tate And Liza5  ": {
+    "Lvl 63 Leader Tate And Liza5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -39544,7 +39544,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Psychic Cameron2  ": {
+    "Lvl 55 Psychic Cameron2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -39576,7 +39576,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Psychic Cameron3  ": {
+    "Lvl 55 Psychic Cameron3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -39608,7 +39608,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Psychic Cameron4  ": {
+    "Lvl 55 Psychic Cameron4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -39640,7 +39640,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 55 Psychic Cameron5  ": {
+    "Lvl 55 Psychic Cameron5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -39672,7 +39672,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 50 Leader Tate And Liza2  ": {
+    "Lvl 50 Leader Tate And Liza2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -39706,7 +39706,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 55 Leader Tate And Liza3  ": {
+    "Lvl 55 Leader Tate And Liza3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -39740,7 +39740,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 60 Leader Tate And Liza4  ": {
+    "Lvl 60 Leader Tate And Liza4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -39774,7 +39774,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 65 Leader Tate And Liza5  ": {
+    "Lvl 65 Leader Tate And Liza5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -39916,7 +39916,7 @@ backup_data = {
       ],
       "ability": "Trace"
     },
-    "Lvl 84 Rival Wally Vr2  ": {
+    "Lvl 84 Rival Wally Vr2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -39953,7 +39953,7 @@ backup_data = {
       ],
       "ability": "Trace"
     },
-    "Lvl 0 Rival Wally Route110  ": {
+    "Lvl 0 Rival Wally Route110 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -40268,7 +40268,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 40 Expert Shelby2  ": {
+    "Lvl 40 Expert Shelby2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -40302,7 +40302,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 40 Expert Shelby3  ": {
+    "Lvl 40 Expert Shelby3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -40336,7 +40336,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 40 Expert Shelby4  ": {
+    "Lvl 40 Expert Shelby4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -40370,7 +40370,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 40 Expert Shelby5  ": {
+    "Lvl 40 Expert Shelby5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -40442,7 +40442,7 @@ backup_data = {
       "ability": "Shadow Shield",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent2  ": {
+    "Lvl -2 Hiker Trent2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -40476,7 +40476,7 @@ backup_data = {
       "ability": "Shadow Shield",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent3  ": {
+    "Lvl -2 Hiker Trent3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -40510,7 +40510,7 @@ backup_data = {
       "ability": "Shadow Shield",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent4  ": {
+    "Lvl -2 Hiker Trent4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -40544,7 +40544,7 @@ backup_data = {
       "ability": "Shadow Shield",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent5  ": {
+    "Lvl -2 Hiker Trent5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -40646,7 +40646,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Psychic Jacki2  ": {
+    "Lvl 56 Psychic Jacki2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -40678,7 +40678,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Psychic Jacki3  ": {
+    "Lvl 56 Psychic Jacki3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -40710,7 +40710,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Psychic Jacki4  ": {
+    "Lvl 56 Psychic Jacki4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -40742,7 +40742,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Psychic Jacki5  ": {
+    "Lvl 56 Psychic Jacki5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -40853,7 +40853,7 @@ backup_data = {
       "ability": "Lightning Rod",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter2  ": {
+    "Lvl -1 Gentleman Walter2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -40887,7 +40887,7 @@ backup_data = {
       "ability": "Lightning Rod",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter3  ": {
+    "Lvl -1 Gentleman Walter3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -40921,7 +40921,7 @@ backup_data = {
       "ability": "Lightning Rod",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter4  ": {
+    "Lvl -1 Gentleman Walter4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -40955,7 +40955,7 @@ backup_data = {
       "ability": "Lightning Rod",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter5  ": {
+    "Lvl -1 Gentleman Walter5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41189,7 +41189,7 @@ backup_data = {
       "ability": "Unnerve",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter2  ": {
+    "Lvl -1 Gentleman Walter2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41223,7 +41223,7 @@ backup_data = {
       "ability": "Unnerve",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter3  ": {
+    "Lvl -1 Gentleman Walter3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41257,7 +41257,7 @@ backup_data = {
       "ability": "Unnerve",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter4  ": {
+    "Lvl -1 Gentleman Walter4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41291,7 +41291,7 @@ backup_data = {
       "ability": "Unnerve",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter5  ": {
+    "Lvl -1 Gentleman Walter5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41357,7 +41357,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl -1 Rival Wally Route110  ": {
+    "Lvl -1 Rival Wally Route110 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41469,7 +41469,7 @@ backup_data = {
       "ability": "Swift Swim",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter2  ": {
+    "Lvl -1 Gentleman Walter2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41503,7 +41503,7 @@ backup_data = {
       "ability": "Swift Swim",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter3  ": {
+    "Lvl -1 Gentleman Walter3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41537,7 +41537,7 @@ backup_data = {
       "ability": "Swift Swim",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter4  ": {
+    "Lvl -1 Gentleman Walter4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41571,7 +41571,7 @@ backup_data = {
       "ability": "Swift Swim",
       "sublevel": -1
     },
-    "Lvl -1 Gentleman Walter5  ": {
+    "Lvl -1 Gentleman Walter5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41607,7 +41607,7 @@ backup_data = {
     }
   },
   "Moltres-Galar": {
-    "Lvl 85 Elite Four Sidney1  ": {
+    "Lvl 85 Elite Four Sidney1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41645,7 +41645,7 @@ backup_data = {
       ],
       "ability": "Berserk"
     },
-    "Lvl 85 Elite Four Sidney2  ": {
+    "Lvl 85 Elite Four Sidney2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41685,7 +41685,7 @@ backup_data = {
     }
   },
   "Grimmsnarl": {
-    "Lvl 85 Elite Four Sidney1  ": {
+    "Lvl 85 Elite Four Sidney1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41723,7 +41723,7 @@ backup_data = {
       ],
       "ability": "Prankster"
     },
-    "Lvl 85 Elite Four Sidney2  ": {
+    "Lvl 85 Elite Four Sidney2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41763,7 +41763,7 @@ backup_data = {
     }
   },
   "Munkidori": {
-    "Lvl 85 Elite Four Sidney1  ": {
+    "Lvl 85 Elite Four Sidney1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41801,7 +41801,7 @@ backup_data = {
       ],
       "ability": "Toxic Chain"
     },
-    "Lvl 85 Elite Four Sidney2  ": {
+    "Lvl 85 Elite Four Sidney2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41841,7 +41841,7 @@ backup_data = {
     }
   },
   "Delphox": {
-    "Lvl 85 Elite Four Sidney1  ": {
+    "Lvl 85 Elite Four Sidney1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41881,7 +41881,7 @@ backup_data = {
     }
   },
   "Roaring Moon": {
-    "Lvl 85 Elite Four Sidney1  ": {
+    "Lvl 85 Elite Four Sidney1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41959,7 +41959,7 @@ backup_data = {
     }
   },
   "Absol": {
-    "Lvl 85 Elite Four Sidney1  ": {
+    "Lvl 85 Elite Four Sidney1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -41997,7 +41997,7 @@ backup_data = {
       ],
       "ability": "Justified"
     },
-    "Lvl 85 Elite Four Sidney2  ": {
+    "Lvl 85 Elite Four Sidney2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42105,7 +42105,7 @@ backup_data = {
     }
   },
   "Absol-Mega": {
-    "Lvl 85 Elite Four Sidney1  ": {
+    "Lvl 85 Elite Four Sidney1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42145,7 +42145,7 @@ backup_data = {
     }
   },
   "Victini": {
-    "Lvl 85 Elite Four Sidney2  ": {
+    "Lvl 85 Elite Four Sidney2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42185,7 +42185,7 @@ backup_data = {
     }
   },
   "Guzzlord": {
-    "Lvl 85 Elite Four Sidney2  ": {
+    "Lvl 85 Elite Four Sidney2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42225,7 +42225,7 @@ backup_data = {
     }
   },
   "Grimmsnarl-Mega": {
-    "Lvl 85 Elite Four Sidney2  ": {
+    "Lvl 85 Elite Four Sidney2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42265,7 +42265,7 @@ backup_data = {
     }
   },
   "Okidogi": {
-    "Lvl 85 Elite Four Phoebe1  ": {
+    "Lvl 85 Elite Four Phoebe1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42304,7 +42304,7 @@ backup_data = {
     }
   },
   "Naganadel": {
-    "Lvl 85 Elite Four Phoebe1  ": {
+    "Lvl 85 Elite Four Phoebe1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42382,7 +42382,7 @@ backup_data = {
     }
   },
   "Calyrex-Shadow": {
-    "Lvl 85 Elite Four Phoebe1  ": {
+    "Lvl 85 Elite Four Phoebe1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42419,7 +42419,7 @@ backup_data = {
       ],
       "ability": "As One Shadow Rider"
     },
-    "Lvl 85 Elite Four Phoebe2  ": {
+    "Lvl 85 Elite Four Phoebe2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42458,7 +42458,7 @@ backup_data = {
     }
   },
   "Dusknoir-Mega": {
-    "Lvl 85 Elite Four Phoebe1  ": {
+    "Lvl 85 Elite Four Phoebe1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42497,7 +42497,7 @@ backup_data = {
     }
   },
   "Dragapult": {
-    "Lvl 85 Elite Four Phoebe2  ": {
+    "Lvl 85 Elite Four Phoebe2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42651,7 +42651,7 @@ backup_data = {
     }
   },
   "Drapion": {
-    "Lvl 85 Elite Four Phoebe2  ": {
+    "Lvl 85 Elite Four Phoebe2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42729,7 +42729,7 @@ backup_data = {
     }
   },
   "Pecharunt": {
-    "Lvl 85 Elite Four Phoebe2  ": {
+    "Lvl 85 Elite Four Phoebe2 ": {
       "ivs": {
         "hp": 31,
         "at": 30,
@@ -42768,7 +42768,7 @@ backup_data = {
     }
   },
   "Gengar": {
-    "Lvl 85 Elite Four Phoebe2  ": {
+    "Lvl 85 Elite Four Phoebe2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -42951,7 +42951,7 @@ backup_data = {
     }
   },
   "Gengar-Mega": {
-    "Lvl 85 Elite Four Phoebe2  ": {
+    "Lvl 85 Elite Four Phoebe2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43066,7 +43066,7 @@ backup_data = {
     }
   },
   "Ninetales": {
-    "Lvl 85 Elite Four Glacia1  ": {
+    "Lvl 85 Elite Four Glacia1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43140,7 +43140,7 @@ backup_data = {
       ],
       "ability": "Drought"
     },
-    "Lvl 47 Leader Flannery2  ": {
+    "Lvl 47 Leader Flannery2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43175,7 +43175,7 @@ backup_data = {
       ],
       "ability": "Drought"
     },
-    "Lvl 47 Leader Flannery3  ": {
+    "Lvl 47 Leader Flannery3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43210,7 +43210,7 @@ backup_data = {
       ],
       "ability": "Drought"
     },
-    "Lvl 47 Leader Flannery4  ": {
+    "Lvl 47 Leader Flannery4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43245,7 +43245,7 @@ backup_data = {
       ],
       "ability": "Drought"
     },
-    "Lvl 47 Leader Flannery5  ": {
+    "Lvl 47 Leader Flannery5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43282,7 +43282,7 @@ backup_data = {
     }
   },
   "Decidueye-Hisui": {
-    "Lvl 85 Elite Four Glacia1  ": {
+    "Lvl 85 Elite Four Glacia1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43353,7 +43353,7 @@ backup_data = {
     }
   },
   "Darmanitan-Galar-Zen": {
-    "Lvl 85 Elite Four Glacia1  ": {
+    "Lvl 85 Elite Four Glacia1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43390,7 +43390,7 @@ backup_data = {
       ],
       "ability": "Zen Mode"
     },
-    "Lvl 85 Elite Four Glacia2  ": {
+    "Lvl 85 Elite Four Glacia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43429,7 +43429,7 @@ backup_data = {
     }
   },
   "Volcanion": {
-    "Lvl 85 Elite Four Glacia1  ": {
+    "Lvl 85 Elite Four Glacia1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43466,7 +43466,7 @@ backup_data = {
       ],
       "ability": "Water Absorb"
     },
-    "Lvl 85 Elite Four Glacia2  ": {
+    "Lvl 85 Elite Four Glacia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43505,7 +43505,7 @@ backup_data = {
     }
   },
   "Reshiram": {
-    "Lvl 85 Elite Four Glacia1  ": {
+    "Lvl 85 Elite Four Glacia1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43544,7 +43544,7 @@ backup_data = {
     }
   },
   "Charizard": {
-    "Lvl 85 Elite Four Glacia1  ": {
+    "Lvl 85 Elite Four Glacia1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43621,7 +43621,7 @@ backup_data = {
     }
   },
   "Charizard-Mega-Y": {
-    "Lvl 85 Elite Four Glacia1  ": {
+    "Lvl 85 Elite Four Glacia1 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43660,7 +43660,7 @@ backup_data = {
     }
   },
   "Ninetales-Alola": {
-    "Lvl 85 Elite Four Glacia2  ": {
+    "Lvl 85 Elite Four Glacia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43735,7 +43735,7 @@ backup_data = {
       "ability": "Snow Warning",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Lucas2  ": {
+    "Lvl -2 Hiker Lucas2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43809,7 +43809,7 @@ backup_data = {
     }
   },
   "Electivire": {
-    "Lvl 85 Elite Four Glacia2  ": {
+    "Lvl 85 Elite Four Glacia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43848,7 +43848,7 @@ backup_data = {
     }
   },
   "Kyurem-Black": {
-    "Lvl 85 Elite Four Glacia2  ": {
+    "Lvl 85 Elite Four Glacia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43887,7 +43887,7 @@ backup_data = {
     }
   },
   "Abomasnow": {
-    "Lvl 85 Elite Four Glacia2  ": {
+    "Lvl 85 Elite Four Glacia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -43926,7 +43926,7 @@ backup_data = {
     }
   },
   "Abomasnow-Mega": {
-    "Lvl 85 Elite Four Glacia2  ": {
+    "Lvl 85 Elite Four Glacia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -44105,7 +44105,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 63 Bird Keeper Robert2  ": {
+    "Lvl 63 Bird Keeper Robert2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -44137,7 +44137,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 63 Bird Keeper Robert3  ": {
+    "Lvl 63 Bird Keeper Robert3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -44169,7 +44169,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 63 Bird Keeper Robert4  ": {
+    "Lvl 63 Bird Keeper Robert4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -44201,7 +44201,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 63 Bird Keeper Robert5  ": {
+    "Lvl 63 Bird Keeper Robert5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -44733,7 +44733,7 @@ backup_data = {
       "ability": "Own Tempo",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin2  ": {
+    "Lvl -2 Collector Edwin2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -44767,7 +44767,7 @@ backup_data = {
       "ability": "Own Tempo",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin3  ": {
+    "Lvl -2 Collector Edwin3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -44801,7 +44801,7 @@ backup_data = {
       "ability": "Own Tempo",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin4  ": {
+    "Lvl -2 Collector Edwin4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -44835,7 +44835,7 @@ backup_data = {
       "ability": "Own Tempo",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin5  ": {
+    "Lvl -2 Collector Edwin5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -44935,7 +44935,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 66 Sis And Bro Lila And Roy2  ": {
+    "Lvl 66 Sis And Bro Lila And Roy2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -44967,7 +44967,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 66 Sis And Bro Lila And Roy3  ": {
+    "Lvl 66 Sis And Bro Lila And Roy3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -44999,7 +44999,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 66 Sis And Bro Lila And Roy4  ": {
+    "Lvl 66 Sis And Bro Lila And Roy4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -45031,7 +45031,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 66 Sis And Bro Lila And Roy5  ": {
+    "Lvl 66 Sis And Bro Lila And Roy5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -45347,7 +45347,7 @@ backup_data = {
       ],
       "ability": "Torrent"
     },
-    "Lvl -1 Rival Dawn Route111  ": {
+    "Lvl -1 Rival Dawn Route111 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -45459,7 +45459,7 @@ backup_data = {
       ],
       "ability": "Torrent"
     },
-    "Lvl 0 Rival Iriv24  ": {
+    "Lvl 0 Rival Iriv24 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -45574,7 +45574,7 @@ backup_data = {
       ],
       "ability": "Emperor's Prescence"
     },
-    "Lvl 0 Rival Iriv24  ": {
+    "Lvl 0 Rival Iriv24 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -45767,7 +45767,7 @@ backup_data = {
       ],
       "ability": "Lightning Rod"
     },
-    "Lvl -1 Rival Dawn Route111  ": {
+    "Lvl -1 Rival Dawn Route111 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46334,7 +46334,7 @@ backup_data = {
       ],
       "ability": "Lightning Rod"
     },
-    "Lvl 14 Leader Roxanne2  ": {
+    "Lvl 14 Leader Roxanne2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46369,7 +46369,7 @@ backup_data = {
       ],
       "ability": "Lightning Rod"
     },
-    "Lvl 14 Leader Roxanne3  ": {
+    "Lvl 14 Leader Roxanne3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46404,7 +46404,7 @@ backup_data = {
       ],
       "ability": "Lightning Rod"
     },
-    "Lvl 14 Leader Roxanne4  ": {
+    "Lvl 14 Leader Roxanne4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46439,7 +46439,7 @@ backup_data = {
       ],
       "ability": "Lightning Rod"
     },
-    "Lvl 14 Leader Roxanne5  ": {
+    "Lvl 14 Leader Roxanne5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46513,7 +46513,7 @@ backup_data = {
       ],
       "ability": "Water Absorb"
     },
-    "Lvl 15 Leader Roxanne2  ": {
+    "Lvl 15 Leader Roxanne2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46548,7 +46548,7 @@ backup_data = {
       ],
       "ability": "Water Absorb"
     },
-    "Lvl 15 Leader Roxanne3  ": {
+    "Lvl 15 Leader Roxanne3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46583,7 +46583,7 @@ backup_data = {
       ],
       "ability": "Water Absorb"
     },
-    "Lvl 15 Leader Roxanne4  ": {
+    "Lvl 15 Leader Roxanne4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46618,7 +46618,7 @@ backup_data = {
       ],
       "ability": "Water Absorb"
     },
-    "Lvl 15 Leader Roxanne5  ": {
+    "Lvl 15 Leader Roxanne5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46691,7 +46691,7 @@ backup_data = {
       ],
       "ability": "Sand Veil"
     },
-    "Lvl 15 Leader Roxanne2  ": {
+    "Lvl 15 Leader Roxanne2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46725,7 +46725,7 @@ backup_data = {
       ],
       "ability": "Sand Veil"
     },
-    "Lvl 15 Leader Roxanne3  ": {
+    "Lvl 15 Leader Roxanne3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46759,7 +46759,7 @@ backup_data = {
       ],
       "ability": "Sand Veil"
     },
-    "Lvl 15 Leader Roxanne4  ": {
+    "Lvl 15 Leader Roxanne4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46793,7 +46793,7 @@ backup_data = {
       ],
       "ability": "Sand Veil"
     },
-    "Lvl 15 Leader Roxanne5  ": {
+    "Lvl 15 Leader Roxanne5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46866,7 +46866,7 @@ backup_data = {
       ],
       "ability": "Sturdy"
     },
-    "Lvl 15 Leader Roxanne2  ": {
+    "Lvl 15 Leader Roxanne2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46901,7 +46901,7 @@ backup_data = {
       ],
       "ability": "Sturdy"
     },
-    "Lvl 15 Leader Roxanne3  ": {
+    "Lvl 15 Leader Roxanne3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46936,7 +46936,7 @@ backup_data = {
       ],
       "ability": "Sturdy"
     },
-    "Lvl 15 Leader Roxanne4  ": {
+    "Lvl 15 Leader Roxanne4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -46971,7 +46971,7 @@ backup_data = {
       ],
       "ability": "Sturdy"
     },
-    "Lvl 15 Leader Roxanne5  ": {
+    "Lvl 15 Leader Roxanne5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47045,7 +47045,7 @@ backup_data = {
       ],
       "ability": "Lightning Rod"
     },
-    "Lvl 23 Leader Brawly2  ": {
+    "Lvl 23 Leader Brawly2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47080,7 +47080,7 @@ backup_data = {
       ],
       "ability": "Lightning Rod"
     },
-    "Lvl 23 Leader Brawly3  ": {
+    "Lvl 23 Leader Brawly3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47115,7 +47115,7 @@ backup_data = {
       ],
       "ability": "Lightning Rod"
     },
-    "Lvl 23 Leader Brawly4  ": {
+    "Lvl 23 Leader Brawly4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47150,7 +47150,7 @@ backup_data = {
       ],
       "ability": "Lightning Rod"
     },
-    "Lvl 23 Leader Brawly5  ": {
+    "Lvl 23 Leader Brawly5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47288,7 +47288,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 24 Leader Brawly2  ": {
+    "Lvl 24 Leader Brawly2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47323,7 +47323,7 @@ backup_data = {
       ],
       "ability": "Ice Scales"
     },
-    "Lvl 24 Leader Brawly3  ": {
+    "Lvl 24 Leader Brawly3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47358,7 +47358,7 @@ backup_data = {
       ],
       "ability": "Ice Scales"
     },
-    "Lvl 24 Leader Brawly4  ": {
+    "Lvl 24 Leader Brawly4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47393,7 +47393,7 @@ backup_data = {
       ],
       "ability": "Ice Scales"
     },
-    "Lvl 24 Leader Brawly5  ": {
+    "Lvl 24 Leader Brawly5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47467,7 +47467,7 @@ backup_data = {
       ],
       "ability": "Tough Claws"
     },
-    "Lvl 25 Leader Brawly2  ": {
+    "Lvl 25 Leader Brawly2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47502,7 +47502,7 @@ backup_data = {
       ],
       "ability": "Tough Claws"
     },
-    "Lvl 25 Leader Brawly3  ": {
+    "Lvl 25 Leader Brawly3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47537,7 +47537,7 @@ backup_data = {
       ],
       "ability": "Tough Claws"
     },
-    "Lvl 25 Leader Brawly4  ": {
+    "Lvl 25 Leader Brawly4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47572,7 +47572,7 @@ backup_data = {
       ],
       "ability": "Tough Claws"
     },
-    "Lvl 25 Leader Brawly5  ": {
+    "Lvl 25 Leader Brawly5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47646,7 +47646,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 25 Leader Brawly2  ": {
+    "Lvl 25 Leader Brawly2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47681,7 +47681,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 25 Leader Brawly3  ": {
+    "Lvl 25 Leader Brawly3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47716,7 +47716,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 25 Leader Brawly4  ": {
+    "Lvl 25 Leader Brawly4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47751,7 +47751,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 25 Leader Brawly5  ": {
+    "Lvl 25 Leader Brawly5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47857,7 +47857,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 34 Leader Wattson2  ": {
+    "Lvl 34 Leader Wattson2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47892,7 +47892,7 @@ backup_data = {
       ],
       "ability": "Electric Surge"
     },
-    "Lvl 34 Leader Wattson3  ": {
+    "Lvl 34 Leader Wattson3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47927,7 +47927,7 @@ backup_data = {
       ],
       "ability": "Electric Surge"
     },
-    "Lvl 34 Leader Wattson4  ": {
+    "Lvl 34 Leader Wattson4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -47962,7 +47962,7 @@ backup_data = {
       ],
       "ability": "Electric Surge"
     },
-    "Lvl 34 Leader Wattson5  ": {
+    "Lvl 34 Leader Wattson5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48140,7 +48140,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 34 Leader Wattson2  ": {
+    "Lvl 34 Leader Wattson2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48175,7 +48175,7 @@ backup_data = {
       ],
       "ability": "Volt Absorb"
     },
-    "Lvl 34 Leader Wattson3  ": {
+    "Lvl 34 Leader Wattson3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48210,7 +48210,7 @@ backup_data = {
       ],
       "ability": "Volt Absorb"
     },
-    "Lvl 34 Leader Wattson4  ": {
+    "Lvl 34 Leader Wattson4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48245,7 +48245,7 @@ backup_data = {
       ],
       "ability": "Volt Absorb"
     },
-    "Lvl 34 Leader Wattson5  ": {
+    "Lvl 34 Leader Wattson5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48351,7 +48351,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 34 Leader Wattson2  ": {
+    "Lvl 34 Leader Wattson2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48386,7 +48386,7 @@ backup_data = {
       ],
       "ability": "Analytic"
     },
-    "Lvl 34 Leader Wattson3  ": {
+    "Lvl 34 Leader Wattson3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48421,7 +48421,7 @@ backup_data = {
       ],
       "ability": "Analytic"
     },
-    "Lvl 34 Leader Wattson4  ": {
+    "Lvl 34 Leader Wattson4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48456,7 +48456,7 @@ backup_data = {
       ],
       "ability": "Analytic"
     },
-    "Lvl 34 Leader Wattson5  ": {
+    "Lvl 34 Leader Wattson5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48530,7 +48530,7 @@ backup_data = {
       ],
       "ability": "Levitate"
     },
-    "Lvl 34 Leader Wattson2  ": {
+    "Lvl 34 Leader Wattson2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48565,7 +48565,7 @@ backup_data = {
       ],
       "ability": "Levitate"
     },
-    "Lvl 34 Leader Wattson3  ": {
+    "Lvl 34 Leader Wattson3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48600,7 +48600,7 @@ backup_data = {
       ],
       "ability": "Levitate"
     },
-    "Lvl 34 Leader Wattson4  ": {
+    "Lvl 34 Leader Wattson4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48635,7 +48635,7 @@ backup_data = {
       ],
       "ability": "Levitate"
     },
-    "Lvl 34 Leader Wattson5  ": {
+    "Lvl 34 Leader Wattson5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48741,7 +48741,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 34 Leader Wattson2  ": {
+    "Lvl 34 Leader Wattson2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48776,7 +48776,7 @@ backup_data = {
       ],
       "ability": "Intimidate"
     },
-    "Lvl 34 Leader Wattson3  ": {
+    "Lvl 34 Leader Wattson3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48811,7 +48811,7 @@ backup_data = {
       ],
       "ability": "Intimidate"
     },
-    "Lvl 34 Leader Wattson4  ": {
+    "Lvl 34 Leader Wattson4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48846,7 +48846,7 @@ backup_data = {
       ],
       "ability": "Intimidate"
     },
-    "Lvl 34 Leader Wattson5  ": {
+    "Lvl 34 Leader Wattson5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48958,7 +48958,7 @@ backup_data = {
       ],
       "ability": "Strong Jaw"
     },
-    "Lvl 34 Leader Wattson2  ": {
+    "Lvl 34 Leader Wattson2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -48993,7 +48993,7 @@ backup_data = {
       ],
       "ability": "Strong Jaw"
     },
-    "Lvl 34 Leader Wattson3  ": {
+    "Lvl 34 Leader Wattson3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49028,7 +49028,7 @@ backup_data = {
       ],
       "ability": "Strong Jaw"
     },
-    "Lvl 34 Leader Wattson4  ": {
+    "Lvl 34 Leader Wattson4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49063,7 +49063,7 @@ backup_data = {
       ],
       "ability": "Strong Jaw"
     },
-    "Lvl 34 Leader Wattson5  ": {
+    "Lvl 34 Leader Wattson5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49175,7 +49175,7 @@ backup_data = {
       ],
       "ability": "Protosynthesis"
     },
-    "Lvl 47 Leader Flannery2  ": {
+    "Lvl 47 Leader Flannery2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49210,7 +49210,7 @@ backup_data = {
       ],
       "ability": "Protosynthesis"
     },
-    "Lvl 47 Leader Flannery3  ": {
+    "Lvl 47 Leader Flannery3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49245,7 +49245,7 @@ backup_data = {
       ],
       "ability": "Protosynthesis"
     },
-    "Lvl 47 Leader Flannery4  ": {
+    "Lvl 47 Leader Flannery4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49280,7 +49280,7 @@ backup_data = {
       ],
       "ability": "Protosynthesis"
     },
-    "Lvl 47 Leader Flannery5  ": {
+    "Lvl 47 Leader Flannery5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49388,7 +49388,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 47 Leader Flannery2  ": {
+    "Lvl 47 Leader Flannery2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49423,7 +49423,7 @@ backup_data = {
       ],
       "ability": "Chlorophyll"
     },
-    "Lvl 47 Leader Flannery3  ": {
+    "Lvl 47 Leader Flannery3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49458,7 +49458,7 @@ backup_data = {
       ],
       "ability": "Chlorophyll"
     },
-    "Lvl 47 Leader Flannery4  ": {
+    "Lvl 47 Leader Flannery4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49493,7 +49493,7 @@ backup_data = {
       ],
       "ability": "Chlorophyll"
     },
-    "Lvl 47 Leader Flannery5  ": {
+    "Lvl 47 Leader Flannery5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49567,7 +49567,7 @@ backup_data = {
       ],
       "ability": "Levitate"
     },
-    "Lvl 47 Leader Flannery2  ": {
+    "Lvl 47 Leader Flannery2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49602,7 +49602,7 @@ backup_data = {
       ],
       "ability": "Levitate"
     },
-    "Lvl 47 Leader Flannery3  ": {
+    "Lvl 47 Leader Flannery3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49637,7 +49637,7 @@ backup_data = {
       ],
       "ability": "Levitate"
     },
-    "Lvl 47 Leader Flannery4  ": {
+    "Lvl 47 Leader Flannery4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49672,7 +49672,7 @@ backup_data = {
       ],
       "ability": "Levitate"
     },
-    "Lvl 47 Leader Flannery5  ": {
+    "Lvl 47 Leader Flannery5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49746,7 +49746,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 47 Leader Flannery2  ": {
+    "Lvl 47 Leader Flannery2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49781,7 +49781,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 47 Leader Flannery3  ": {
+    "Lvl 47 Leader Flannery3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49816,7 +49816,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 47 Leader Flannery4  ": {
+    "Lvl 47 Leader Flannery4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49851,7 +49851,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 47 Leader Flannery5  ": {
+    "Lvl 47 Leader Flannery5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49963,7 +49963,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 47 Leader Flannery2  ": {
+    "Lvl 47 Leader Flannery2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -49998,7 +49998,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 47 Leader Flannery3  ": {
+    "Lvl 47 Leader Flannery3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50033,7 +50033,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 47 Leader Flannery4  ": {
+    "Lvl 47 Leader Flannery4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50068,7 +50068,7 @@ backup_data = {
       ],
       "ability": "Iron Fist"
     },
-    "Lvl 47 Leader Flannery5  ": {
+    "Lvl 47 Leader Flannery5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50180,7 +50180,7 @@ backup_data = {
       ],
       "ability": "Illusion"
     },
-    "Lvl 59 Leader Norman2  ": {
+    "Lvl 59 Leader Norman2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50215,7 +50215,7 @@ backup_data = {
       ],
       "ability": "Illusion"
     },
-    "Lvl 59 Leader Norman3  ": {
+    "Lvl 59 Leader Norman3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50250,7 +50250,7 @@ backup_data = {
       ],
       "ability": "Illusion"
     },
-    "Lvl 59 Leader Norman4  ": {
+    "Lvl 59 Leader Norman4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50285,7 +50285,7 @@ backup_data = {
       ],
       "ability": "Illusion"
     },
-    "Lvl 59 Leader Norman5  ": {
+    "Lvl 59 Leader Norman5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50359,7 +50359,7 @@ backup_data = {
       ],
       "ability": "Quark Drive"
     },
-    "Lvl 59 Leader Norman2  ": {
+    "Lvl 59 Leader Norman2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50394,7 +50394,7 @@ backup_data = {
       ],
       "ability": "Quark Drive"
     },
-    "Lvl 59 Leader Norman3  ": {
+    "Lvl 59 Leader Norman3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50429,7 +50429,7 @@ backup_data = {
       ],
       "ability": "Quark Drive"
     },
-    "Lvl 59 Leader Norman4  ": {
+    "Lvl 59 Leader Norman4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50464,7 +50464,7 @@ backup_data = {
       ],
       "ability": "Quark Drive"
     },
-    "Lvl 59 Leader Norman5  ": {
+    "Lvl 59 Leader Norman5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50538,7 +50538,7 @@ backup_data = {
       ],
       "ability": "Minds Eye"
     },
-    "Lvl 59 Leader Norman2  ": {
+    "Lvl 59 Leader Norman2 ": {
       "ivs": {
         "hp": 31,
         "at": 30,
@@ -50573,7 +50573,7 @@ backup_data = {
       ],
       "ability": "Minds Eye"
     },
-    "Lvl 59 Leader Norman3  ": {
+    "Lvl 59 Leader Norman3 ": {
       "ivs": {
         "hp": 31,
         "at": 30,
@@ -50608,7 +50608,7 @@ backup_data = {
       ],
       "ability": "Minds Eye"
     },
-    "Lvl 59 Leader Norman4  ": {
+    "Lvl 59 Leader Norman4 ": {
       "ivs": {
         "hp": 31,
         "at": 30,
@@ -50643,7 +50643,7 @@ backup_data = {
       ],
       "ability": "Minds Eye"
     },
-    "Lvl 59 Leader Norman5  ": {
+    "Lvl 59 Leader Norman5 ": {
       "ivs": {
         "hp": 31,
         "at": 30,
@@ -50717,7 +50717,7 @@ backup_data = {
       ],
       "ability": "Regenerator"
     },
-    "Lvl 59 Leader Norman2  ": {
+    "Lvl 59 Leader Norman2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50752,7 +50752,7 @@ backup_data = {
       ],
       "ability": "Regenerator"
     },
-    "Lvl 59 Leader Norman3  ": {
+    "Lvl 59 Leader Norman3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50787,7 +50787,7 @@ backup_data = {
       ],
       "ability": "Regenerator"
     },
-    "Lvl 59 Leader Norman4  ": {
+    "Lvl 59 Leader Norman4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50822,7 +50822,7 @@ backup_data = {
       ],
       "ability": "Regenerator"
     },
-    "Lvl 59 Leader Norman5  ": {
+    "Lvl 59 Leader Norman5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50896,7 +50896,7 @@ backup_data = {
       ],
       "ability": "Comatose"
     },
-    "Lvl 59 Leader Norman2  ": {
+    "Lvl 59 Leader Norman2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50931,7 +50931,7 @@ backup_data = {
       ],
       "ability": "Comatose"
     },
-    "Lvl 59 Leader Norman3  ": {
+    "Lvl 59 Leader Norman3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -50966,7 +50966,7 @@ backup_data = {
       ],
       "ability": "Comatose"
     },
-    "Lvl 59 Leader Norman4  ": {
+    "Lvl 59 Leader Norman4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51001,7 +51001,7 @@ backup_data = {
       ],
       "ability": "Comatose"
     },
-    "Lvl 59 Leader Norman5  ": {
+    "Lvl 59 Leader Norman5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51108,7 +51108,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 70 Team Aqua Grunt Seafloor Cavern5  ": {
+    "Lvl 70 Team Aqua Grunt Seafloor Cavern5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -51174,7 +51174,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 59 Leader Norman2  ": {
+    "Lvl 59 Leader Norman2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51210,7 +51210,7 @@ backup_data = {
       "status": "Frozen",
       "ability": "Guts"
     },
-    "Lvl 59 Leader Norman3  ": {
+    "Lvl 59 Leader Norman3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51246,7 +51246,7 @@ backup_data = {
       "status": "Frozen",
       "ability": "Guts"
     },
-    "Lvl 59 Leader Norman4  ": {
+    "Lvl 59 Leader Norman4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51282,7 +51282,7 @@ backup_data = {
       "status": "Frozen",
       "ability": "Guts"
     },
-    "Lvl 59 Leader Norman5  ": {
+    "Lvl 59 Leader Norman5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51423,7 +51423,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 66 Sis And Bro Lila And Roy2  ": {
+    "Lvl 66 Sis And Bro Lila And Roy2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -51455,7 +51455,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 66 Sis And Bro Lila And Roy3  ": {
+    "Lvl 66 Sis And Bro Lila And Roy3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -51487,7 +51487,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 66 Sis And Bro Lila And Roy4  ": {
+    "Lvl 66 Sis And Bro Lila And Roy4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -51519,7 +51519,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 66 Sis And Bro Lila And Roy5  ": {
+    "Lvl 66 Sis And Bro Lila And Roy5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -51583,7 +51583,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 68 Leader Winona2  ": {
+    "Lvl 68 Leader Winona2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51618,7 +51618,7 @@ backup_data = {
       ],
       "ability": "Intimidate"
     },
-    "Lvl 68 Leader Winona3  ": {
+    "Lvl 68 Leader Winona3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51653,7 +51653,7 @@ backup_data = {
       ],
       "ability": "Intimidate"
     },
-    "Lvl 68 Leader Winona4  ": {
+    "Lvl 68 Leader Winona4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51688,7 +51688,7 @@ backup_data = {
       ],
       "ability": "Intimidate"
     },
-    "Lvl 68 Leader Winona5  ": {
+    "Lvl 68 Leader Winona5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51762,7 +51762,7 @@ backup_data = {
       ],
       "ability": "Ice Scales"
     },
-    "Lvl 68 Leader Winona2  ": {
+    "Lvl 68 Leader Winona2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51797,7 +51797,7 @@ backup_data = {
       ],
       "ability": "Ice Scales"
     },
-    "Lvl 68 Leader Winona3  ": {
+    "Lvl 68 Leader Winona3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51832,7 +51832,7 @@ backup_data = {
       ],
       "ability": "Ice Scales"
     },
-    "Lvl 68 Leader Winona4  ": {
+    "Lvl 68 Leader Winona4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51867,7 +51867,7 @@ backup_data = {
       ],
       "ability": "Ice Scales"
     },
-    "Lvl 68 Leader Winona5  ": {
+    "Lvl 68 Leader Winona5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51941,7 +51941,7 @@ backup_data = {
       ],
       "ability": "Volt Absorb"
     },
-    "Lvl 68 Leader Winona2  ": {
+    "Lvl 68 Leader Winona2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -51976,7 +51976,7 @@ backup_data = {
       ],
       "ability": "Volt Absorb"
     },
-    "Lvl 68 Leader Winona3  ": {
+    "Lvl 68 Leader Winona3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52011,7 +52011,7 @@ backup_data = {
       ],
       "ability": "Volt Absorb"
     },
-    "Lvl 68 Leader Winona4  ": {
+    "Lvl 68 Leader Winona4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52046,7 +52046,7 @@ backup_data = {
       ],
       "ability": "Volt Absorb"
     },
-    "Lvl 68 Leader Winona5  ": {
+    "Lvl 68 Leader Winona5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52152,7 +52152,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 68 Leader Winona2  ": {
+    "Lvl 68 Leader Winona2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52187,7 +52187,7 @@ backup_data = {
       ],
       "ability": "Natural Cure"
     },
-    "Lvl 68 Leader Winona3  ": {
+    "Lvl 68 Leader Winona3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52222,7 +52222,7 @@ backup_data = {
       ],
       "ability": "Natural Cure"
     },
-    "Lvl 68 Leader Winona4  ": {
+    "Lvl 68 Leader Winona4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52257,7 +52257,7 @@ backup_data = {
       ],
       "ability": "Natural Cure"
     },
-    "Lvl 68 Leader Winona5  ": {
+    "Lvl 68 Leader Winona5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52331,7 +52331,7 @@ backup_data = {
       ],
       "ability": "Pixilate"
     },
-    "Lvl 68 Leader Winona2  ": {
+    "Lvl 68 Leader Winona2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52366,7 +52366,7 @@ backup_data = {
       ],
       "ability": "Pixilate"
     },
-    "Lvl 68 Leader Winona3  ": {
+    "Lvl 68 Leader Winona3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52401,7 +52401,7 @@ backup_data = {
       ],
       "ability": "Pixilate"
     },
-    "Lvl 68 Leader Winona4  ": {
+    "Lvl 68 Leader Winona4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52436,7 +52436,7 @@ backup_data = {
       ],
       "ability": "Pixilate"
     },
-    "Lvl 68 Leader Winona5  ": {
+    "Lvl 68 Leader Winona5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52811,7 +52811,7 @@ backup_data = {
       ],
       "ability": "Misty Surge"
     },
-    "Lvl 82 Leader Juan2  ": {
+    "Lvl 82 Leader Juan2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52846,7 +52846,7 @@ backup_data = {
       ],
       "ability": "Misty Surge"
     },
-    "Lvl 82 Leader Juan3  ": {
+    "Lvl 82 Leader Juan3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52881,7 +52881,7 @@ backup_data = {
       ],
       "ability": "Misty Surge"
     },
-    "Lvl 82 Leader Juan4  ": {
+    "Lvl 82 Leader Juan4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52916,7 +52916,7 @@ backup_data = {
       ],
       "ability": "Misty Surge"
     },
-    "Lvl 82 Leader Juan5  ": {
+    "Lvl 82 Leader Juan5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -52990,7 +52990,7 @@ backup_data = {
       ],
       "ability": "Own Tempo"
     },
-    "Lvl 82 Leader Juan2  ": {
+    "Lvl 82 Leader Juan2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53025,7 +53025,7 @@ backup_data = {
       ],
       "ability": "Own Tempo"
     },
-    "Lvl 82 Leader Juan3  ": {
+    "Lvl 82 Leader Juan3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53060,7 +53060,7 @@ backup_data = {
       ],
       "ability": "Own Tempo"
     },
-    "Lvl 82 Leader Juan4  ": {
+    "Lvl 82 Leader Juan4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53095,7 +53095,7 @@ backup_data = {
       ],
       "ability": "Own Tempo"
     },
-    "Lvl 82 Leader Juan5  ": {
+    "Lvl 82 Leader Juan5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53319,7 +53319,7 @@ backup_data = {
       ],
       "ability": "Flash Fire"
     },
-    "Lvl 82 Leader Juan2  ": {
+    "Lvl 82 Leader Juan2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53354,7 +53354,7 @@ backup_data = {
       ],
       "ability": "Flash Fire"
     },
-    "Lvl 82 Leader Juan3  ": {
+    "Lvl 82 Leader Juan3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53389,7 +53389,7 @@ backup_data = {
       ],
       "ability": "Flash Fire"
     },
-    "Lvl 82 Leader Juan4  ": {
+    "Lvl 82 Leader Juan4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53424,7 +53424,7 @@ backup_data = {
       ],
       "ability": "Flash Fire"
     },
-    "Lvl 82 Leader Juan5  ": {
+    "Lvl 82 Leader Juan5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53537,7 +53537,7 @@ backup_data = {
       "status": "Burned",
       "ability": "Guts"
     },
-    "Lvl 82 Leader Juan2  ": {
+    "Lvl 82 Leader Juan2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53573,7 +53573,7 @@ backup_data = {
       "status": "Burned",
       "ability": "Guts"
     },
-    "Lvl 82 Leader Juan3  ": {
+    "Lvl 82 Leader Juan3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53609,7 +53609,7 @@ backup_data = {
       "status": "Burned",
       "ability": "Guts"
     },
-    "Lvl 82 Leader Juan4  ": {
+    "Lvl 82 Leader Juan4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53645,7 +53645,7 @@ backup_data = {
       "status": "Burned",
       "ability": "Guts"
     },
-    "Lvl 82 Leader Juan5  ": {
+    "Lvl 82 Leader Juan5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53720,7 +53720,7 @@ backup_data = {
       ],
       "ability": "Protosynthesis"
     },
-    "Lvl 82 Leader Juan2  ": {
+    "Lvl 82 Leader Juan2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53755,7 +53755,7 @@ backup_data = {
       ],
       "ability": "Protosynthesis"
     },
-    "Lvl 82 Leader Juan3  ": {
+    "Lvl 82 Leader Juan3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53790,7 +53790,7 @@ backup_data = {
       ],
       "ability": "Protosynthesis"
     },
-    "Lvl 82 Leader Juan4  ": {
+    "Lvl 82 Leader Juan4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53825,7 +53825,7 @@ backup_data = {
       ],
       "ability": "Protosynthesis"
     },
-    "Lvl 82 Leader Juan5  ": {
+    "Lvl 82 Leader Juan5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53937,7 +53937,7 @@ backup_data = {
       ],
       "ability": "Clear Body"
     },
-    "Lvl 82 Leader Juan2  ": {
+    "Lvl 82 Leader Juan2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -53972,7 +53972,7 @@ backup_data = {
       ],
       "ability": "Clear Body"
     },
-    "Lvl 82 Leader Juan3  ": {
+    "Lvl 82 Leader Juan3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -54007,7 +54007,7 @@ backup_data = {
       ],
       "ability": "Clear Body"
     },
-    "Lvl 82 Leader Juan4  ": {
+    "Lvl 82 Leader Juan4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -54042,7 +54042,7 @@ backup_data = {
       ],
       "ability": "Clear Body"
     },
-    "Lvl 82 Leader Juan5  ": {
+    "Lvl 82 Leader Juan5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -54116,7 +54116,7 @@ backup_data = {
       ],
       "ability": "Magic Bounce"
     },
-    "Lvl 82 Leader Juan2  ": {
+    "Lvl 82 Leader Juan2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -54151,7 +54151,7 @@ backup_data = {
       ],
       "ability": "Magic Bounce"
     },
-    "Lvl 82 Leader Juan3  ": {
+    "Lvl 82 Leader Juan3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -54186,7 +54186,7 @@ backup_data = {
       ],
       "ability": "Magic Bounce"
     },
-    "Lvl 82 Leader Juan4  ": {
+    "Lvl 82 Leader Juan4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -54221,7 +54221,7 @@ backup_data = {
       ],
       "ability": "Magic Bounce"
     },
-    "Lvl 82 Leader Juan5  ": {
+    "Lvl 82 Leader Juan5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -54290,7 +54290,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 17 School Kid Jerry2  ": {
+    "Lvl 17 School Kid Jerry2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -54322,7 +54322,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 17 School Kid Jerry3  ": {
+    "Lvl 17 School Kid Jerry3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -54354,7 +54354,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 17 School Kid Jerry4  ": {
+    "Lvl 17 School Kid Jerry4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -54386,7 +54386,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 17 School Kid Jerry5  ": {
+    "Lvl 17 School Kid Jerry5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -54881,7 +54881,7 @@ backup_data = {
       "ability": "Technician",
       "sublevel": -2
     },
-    "Lvl 0 Leader Gardenia2  ": {
+    "Lvl 0 Leader Gardenia2 ": {
       "ivs": {
         "hp": 31,
         "at": 30,
@@ -55031,7 +55031,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 10 School Kid Karen2  ": {
+    "Lvl 10 School Kid Karen2 ": {
       "ivs": {
         "hp": 10,
         "at": 10,
@@ -55063,7 +55063,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 10 School Kid Karen3  ": {
+    "Lvl 10 School Kid Karen3 ": {
       "ivs": {
         "hp": 10,
         "at": 10,
@@ -55095,7 +55095,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 10 School Kid Karen4  ": {
+    "Lvl 10 School Kid Karen4 ": {
       "ivs": {
         "hp": 10,
         "at": 10,
@@ -55127,7 +55127,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 10 School Kid Karen5  ": {
+    "Lvl 10 School Kid Karen5 ": {
       "ivs": {
         "hp": 10,
         "at": 10,
@@ -55489,7 +55489,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Sr And Jr Anna And Meg2  ": {
+    "Lvl 26 Sr And Jr Anna And Meg2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55521,7 +55521,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Sr And Jr Anna And Meg3  ": {
+    "Lvl 26 Sr And Jr Anna And Meg3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55553,7 +55553,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Sr And Jr Anna And Meg4  ": {
+    "Lvl 26 Sr And Jr Anna And Meg4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55585,7 +55585,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Sr And Jr Anna And Meg5  ": {
+    "Lvl 26 Sr And Jr Anna And Meg5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55649,7 +55649,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 59 Sailor Ernest2  ": {
+    "Lvl 59 Sailor Ernest2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55681,7 +55681,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 59 Sailor Ernest3  ": {
+    "Lvl 59 Sailor Ernest3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55713,7 +55713,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 59 Sailor Ernest4  ": {
+    "Lvl 59 Sailor Ernest4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55745,7 +55745,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 59 Sailor Ernest5  ": {
+    "Lvl 59 Sailor Ernest5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55811,7 +55811,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 24 Sr And Jr Anna And Meg2  ": {
+    "Lvl 24 Sr And Jr Anna And Meg2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55843,7 +55843,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 24 Sr And Jr Anna And Meg3  ": {
+    "Lvl 24 Sr And Jr Anna And Meg3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55875,7 +55875,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 24 Sr And Jr Anna And Meg4  ": {
+    "Lvl 24 Sr And Jr Anna And Meg4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55907,7 +55907,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 24 Sr And Jr Anna And Meg5  ": {
+    "Lvl 24 Sr And Jr Anna And Meg5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -55973,7 +55973,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 24 Sr And Jr Anna And Meg2  ": {
+    "Lvl 24 Sr And Jr Anna And Meg2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -56005,7 +56005,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 24 Sr And Jr Anna And Meg3  ": {
+    "Lvl 24 Sr And Jr Anna And Meg3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -56037,7 +56037,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 24 Sr And Jr Anna And Meg4  ": {
+    "Lvl 24 Sr And Jr Anna And Meg4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -56069,7 +56069,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 24 Sr And Jr Anna And Meg5  ": {
+    "Lvl 24 Sr And Jr Anna And Meg5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -56557,7 +56557,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Pokefan Miguel2  ": {
+    "Lvl 25 Pokefan Miguel2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -56589,7 +56589,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Pokefan Miguel3  ": {
+    "Lvl 25 Pokefan Miguel3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -56621,7 +56621,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Pokefan Miguel4  ": {
+    "Lvl 25 Pokefan Miguel4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -56653,7 +56653,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Pokefan Miguel5  ": {
+    "Lvl 25 Pokefan Miguel5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -57222,7 +57222,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin2  ": {
+    "Lvl 26 Triathlete Benjamin2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -57254,7 +57254,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin3  ": {
+    "Lvl 26 Triathlete Benjamin3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -57286,7 +57286,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin4  ": {
+    "Lvl 26 Triathlete Benjamin4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -57318,7 +57318,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin5  ": {
+    "Lvl 26 Triathlete Benjamin5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -57390,7 +57390,7 @@ backup_data = {
       "ability": "Transistor",
       "sublevel": -3
     },
-    "Lvl -3 Pokefan Isabel2  ": {
+    "Lvl -3 Pokefan Isabel2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -57424,7 +57424,7 @@ backup_data = {
       "ability": "Transistor",
       "sublevel": -3
     },
-    "Lvl -3 Pokefan Isabel3  ": {
+    "Lvl -3 Pokefan Isabel3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -57458,7 +57458,7 @@ backup_data = {
       "ability": "Transistor",
       "sublevel": -3
     },
-    "Lvl -3 Pokefan Isabel4  ": {
+    "Lvl -3 Pokefan Isabel4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -57492,7 +57492,7 @@ backup_data = {
       "ability": "Transistor",
       "sublevel": -3
     },
-    "Lvl -3 Pokefan Isabel5  ": {
+    "Lvl -3 Pokefan Isabel5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -57566,7 +57566,7 @@ backup_data = {
       "ability": "Water Absorb",
       "sublevel": -2
     },
-    "Lvl -2 Pokefan Isabel2  ": {
+    "Lvl -2 Pokefan Isabel2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -57600,7 +57600,7 @@ backup_data = {
       "ability": "Water Absorb",
       "sublevel": -2
     },
-    "Lvl -2 Pokefan Isabel3  ": {
+    "Lvl -2 Pokefan Isabel3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -57634,7 +57634,7 @@ backup_data = {
       "ability": "Water Absorb",
       "sublevel": -2
     },
-    "Lvl -2 Pokefan Isabel4  ": {
+    "Lvl -2 Pokefan Isabel4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -57668,7 +57668,7 @@ backup_data = {
       "ability": "Water Absorb",
       "sublevel": -2
     },
-    "Lvl -2 Pokefan Isabel5  ": {
+    "Lvl -2 Pokefan Isabel5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -57734,7 +57734,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 67 Triathlete Isaiah2  ": {
+    "Lvl 67 Triathlete Isaiah2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -57766,7 +57766,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 67 Triathlete Isaiah3  ": {
+    "Lvl 67 Triathlete Isaiah3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -57798,7 +57798,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 67 Triathlete Isaiah4  ": {
+    "Lvl 67 Triathlete Isaiah4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -57830,7 +57830,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 67 Triathlete Isaiah5  ": {
+    "Lvl 67 Triathlete Isaiah5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -58905,7 +58905,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 13 Fisherman Elliot2  ": {
+    "Lvl 13 Fisherman Elliot2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -58934,7 +58934,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 13 Fisherman Elliot3  ": {
+    "Lvl 13 Fisherman Elliot3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -58963,7 +58963,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 13 Fisherman Elliot4  ": {
+    "Lvl 13 Fisherman Elliot4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -58992,7 +58992,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 13 Fisherman Elliot5  ": {
+    "Lvl 13 Fisherman Elliot5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59197,7 +59197,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 15 Fisherman Elliot2  ": {
+    "Lvl 15 Fisherman Elliot2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59229,7 +59229,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 15 Fisherman Elliot3  ": {
+    "Lvl 15 Fisherman Elliot3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59261,7 +59261,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 15 Fisherman Elliot4  ": {
+    "Lvl 15 Fisherman Elliot4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59293,7 +59293,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 15 Fisherman Elliot5  ": {
+    "Lvl 15 Fisherman Elliot5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59360,7 +59360,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 14 Fisherman Elliot2  ": {
+    "Lvl 14 Fisherman Elliot2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59392,7 +59392,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 14 Fisherman Elliot3  ": {
+    "Lvl 14 Fisherman Elliot3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59424,7 +59424,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 14 Fisherman Elliot4  ": {
+    "Lvl 14 Fisherman Elliot4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59456,7 +59456,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 14 Fisherman Elliot5  ": {
+    "Lvl 14 Fisherman Elliot5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59927,7 +59927,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 64 Cooltrainer Cristin2  ": {
+    "Lvl 64 Cooltrainer Cristin2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59961,7 +59961,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 64 Cooltrainer Cristin3  ": {
+    "Lvl 64 Cooltrainer Cristin3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -59995,7 +59995,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 64 Cooltrainer Cristin4  ": {
+    "Lvl 64 Cooltrainer Cristin4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60029,7 +60029,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 64 Cooltrainer Cristin5  ": {
+    "Lvl 64 Cooltrainer Cristin5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60097,7 +60097,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin2  ": {
+    "Lvl 26 Triathlete Benjamin2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60129,7 +60129,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin3  ": {
+    "Lvl 26 Triathlete Benjamin3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60161,7 +60161,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin4  ": {
+    "Lvl 26 Triathlete Benjamin4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60193,7 +60193,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin5  ": {
+    "Lvl 26 Triathlete Benjamin5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60259,7 +60259,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin2  ": {
+    "Lvl 26 Triathlete Benjamin2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60291,7 +60291,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin3  ": {
+    "Lvl 26 Triathlete Benjamin3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60323,7 +60323,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin4  ": {
+    "Lvl 26 Triathlete Benjamin4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60355,7 +60355,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Benjamin5  ": {
+    "Lvl 26 Triathlete Benjamin5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60421,7 +60421,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Abigail2  ": {
+    "Lvl 26 Triathlete Abigail2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60453,7 +60453,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Abigail3  ": {
+    "Lvl 26 Triathlete Abigail3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60485,7 +60485,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Abigail4  ": {
+    "Lvl 26 Triathlete Abigail4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60517,7 +60517,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Abigail5  ": {
+    "Lvl 26 Triathlete Abigail5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60583,7 +60583,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Abigail2  ": {
+    "Lvl 26 Triathlete Abigail2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60615,7 +60615,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Abigail3  ": {
+    "Lvl 26 Triathlete Abigail3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60647,7 +60647,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Abigail4  ": {
+    "Lvl 26 Triathlete Abigail4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -60679,7 +60679,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 26 Triathlete Abigail5  ": {
+    "Lvl 26 Triathlete Abigail5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61055,7 +61055,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 54 Sailor Cory2  ": {
+    "Lvl 54 Sailor Cory2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61087,7 +61087,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 54 Sailor Cory3  ": {
+    "Lvl 54 Sailor Cory3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61119,7 +61119,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 54 Sailor Cory4  ": {
+    "Lvl 54 Sailor Cory4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61151,7 +61151,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 54 Sailor Cory5  ": {
+    "Lvl 54 Sailor Cory5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61183,7 +61183,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 62 Triathlete Pablo2  ": {
+    "Lvl 62 Triathlete Pablo2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61215,7 +61215,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 62 Triathlete Pablo3  ": {
+    "Lvl 62 Triathlete Pablo3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61247,7 +61247,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 62 Triathlete Pablo4  ": {
+    "Lvl 62 Triathlete Pablo4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61279,7 +61279,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 62 Triathlete Pablo5  ": {
+    "Lvl 62 Triathlete Pablo5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61417,7 +61417,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 35 Triathlete Katelyn2  ": {
+    "Lvl 35 Triathlete Katelyn2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61449,7 +61449,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 35 Triathlete Katelyn3  ": {
+    "Lvl 35 Triathlete Katelyn3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61481,7 +61481,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 35 Triathlete Katelyn4  ": {
+    "Lvl 35 Triathlete Katelyn4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61513,7 +61513,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 35 Triathlete Katelyn5  ": {
+    "Lvl 35 Triathlete Katelyn5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -61997,7 +61997,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Picnicker Diana2  ": {
+    "Lvl 39 Picnicker Diana2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -62029,7 +62029,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Picnicker Diana3  ": {
+    "Lvl 39 Picnicker Diana3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -62061,7 +62061,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Picnicker Diana4  ": {
+    "Lvl 39 Picnicker Diana4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -62093,7 +62093,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 39 Picnicker Diana5  ": {
+    "Lvl 39 Picnicker Diana5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -62267,7 +62267,7 @@ backup_data = {
       "ability": "Super Luck",
       "sublevel": -3
     },
-    "Lvl -3 Parasol Lady Madeline2  ": {
+    "Lvl -3 Parasol Lady Madeline2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -62301,7 +62301,7 @@ backup_data = {
       "ability": "Super Luck",
       "sublevel": -3
     },
-    "Lvl -3 Parasol Lady Madeline3  ": {
+    "Lvl -3 Parasol Lady Madeline3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -62335,7 +62335,7 @@ backup_data = {
       "ability": "Super Luck",
       "sublevel": -3
     },
-    "Lvl -3 Parasol Lady Madeline4  ": {
+    "Lvl -3 Parasol Lady Madeline4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -62369,7 +62369,7 @@ backup_data = {
       "ability": "Super Luck",
       "sublevel": -3
     },
-    "Lvl -3 Parasol Lady Madeline5  ": {
+    "Lvl -3 Parasol Lady Madeline5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -62638,7 +62638,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 42 Team Magma Grunt Mt Chimney2  ": {
+    "Lvl 42 Team Magma Grunt Mt Chimney2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -62847,7 +62847,7 @@ backup_data = {
       "sub_index": 1,
       "ai_tags": []
     },
-    "Lvl 35 Ninja Boy Lao2  ": {
+    "Lvl 35 Ninja Boy Lao2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -62877,7 +62877,7 @@ backup_data = {
       "sub_index": 1,
       "ai_tags": []
     },
-    "Lvl 35 Ninja Boy Lao3  ": {
+    "Lvl 35 Ninja Boy Lao3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -62907,7 +62907,7 @@ backup_data = {
       "sub_index": 1,
       "ai_tags": []
     },
-    "Lvl 35 Ninja Boy Lao4  ": {
+    "Lvl 35 Ninja Boy Lao4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -62937,7 +62937,7 @@ backup_data = {
       "sub_index": 1,
       "ai_tags": []
     },
-    "Lvl 35 Ninja Boy Lao5  ": {
+    "Lvl 35 Ninja Boy Lao5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -62999,7 +62999,7 @@ backup_data = {
       "sub_index": 2,
       "ai_tags": []
     },
-    "Lvl 36 Ninja Boy Lao2  ": {
+    "Lvl 36 Ninja Boy Lao2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -63029,7 +63029,7 @@ backup_data = {
       "sub_index": 2,
       "ai_tags": []
     },
-    "Lvl 36 Ninja Boy Lao3  ": {
+    "Lvl 36 Ninja Boy Lao3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -63059,7 +63059,7 @@ backup_data = {
       "sub_index": 2,
       "ai_tags": []
     },
-    "Lvl 36 Ninja Boy Lao4  ": {
+    "Lvl 36 Ninja Boy Lao4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -63089,7 +63089,7 @@ backup_data = {
       "sub_index": 2,
       "ai_tags": []
     },
-    "Lvl 36 Ninja Boy Lao5  ": {
+    "Lvl 36 Ninja Boy Lao5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -63289,7 +63289,7 @@ backup_data = {
       "ability": "Thick Fat",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel2  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63323,7 +63323,7 @@ backup_data = {
       "ability": "Thick Fat",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel3  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63357,7 +63357,7 @@ backup_data = {
       "ability": "Thick Fat",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel4  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63391,7 +63391,7 @@ backup_data = {
       "ability": "Thick Fat",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel5  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63465,7 +63465,7 @@ backup_data = {
       "ability": "Poison Touch",
       "sublevel": -3
     },
-    "Lvl -3 Parasol Lady Madeline2  ": {
+    "Lvl -3 Parasol Lady Madeline2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63499,7 +63499,7 @@ backup_data = {
       "ability": "Poison Touch",
       "sublevel": -3
     },
-    "Lvl -3 Parasol Lady Madeline3  ": {
+    "Lvl -3 Parasol Lady Madeline3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63533,7 +63533,7 @@ backup_data = {
       "ability": "Poison Touch",
       "sublevel": -3
     },
-    "Lvl -3 Parasol Lady Madeline4  ": {
+    "Lvl -3 Parasol Lady Madeline4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63567,7 +63567,7 @@ backup_data = {
       "ability": "Poison Touch",
       "sublevel": -3
     },
-    "Lvl -3 Parasol Lady Madeline5  ": {
+    "Lvl -3 Parasol Lady Madeline5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63638,7 +63638,7 @@ backup_data = {
       ],
       "ability": "Poison Touch"
     },
-    "Lvl 84 Rival Wally Vr2  ": {
+    "Lvl 84 Rival Wally Vr2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63675,7 +63675,7 @@ backup_data = {
       ],
       "ability": "Poison Touch"
     },
-    "Lvl -1 Rival Wally Route110  ": {
+    "Lvl -1 Rival Wally Route110 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63830,7 +63830,7 @@ backup_data = {
       "ability": "Skill Link",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline2  ": {
+    "Lvl -2 Parasol Lady Madeline2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63864,7 +63864,7 @@ backup_data = {
       "ability": "Skill Link",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline3  ": {
+    "Lvl -2 Parasol Lady Madeline3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63898,7 +63898,7 @@ backup_data = {
       "ability": "Skill Link",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline4  ": {
+    "Lvl -2 Parasol Lady Madeline4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -63932,7 +63932,7 @@ backup_data = {
       "ability": "Skill Link",
       "sublevel": -2
     },
-    "Lvl -2 Parasol Lady Madeline5  ": {
+    "Lvl -2 Parasol Lady Madeline5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64038,7 +64038,7 @@ backup_data = {
       "ability": "Chlorophyll",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny2  ": {
+    "Lvl -2 Battle Girl Jenny2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64072,7 +64072,7 @@ backup_data = {
       "ability": "Chlorophyll",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny3  ": {
+    "Lvl -2 Battle Girl Jenny3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64106,7 +64106,7 @@ backup_data = {
       "ability": "Chlorophyll",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny4  ": {
+    "Lvl -2 Battle Girl Jenny4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64140,7 +64140,7 @@ backup_data = {
       "ability": "Chlorophyll",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny5  ": {
+    "Lvl -2 Battle Girl Jenny5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64450,7 +64450,7 @@ backup_data = {
       "ability": "White Smoke",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny2  ": {
+    "Lvl -2 Battle Girl Jenny2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64484,7 +64484,7 @@ backup_data = {
       "ability": "White Smoke",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny3  ": {
+    "Lvl -2 Battle Girl Jenny3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64518,7 +64518,7 @@ backup_data = {
       "ability": "White Smoke",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny4  ": {
+    "Lvl -2 Battle Girl Jenny4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64552,7 +64552,7 @@ backup_data = {
       "ability": "White Smoke",
       "sublevel": -2
     },
-    "Lvl -2 Battle Girl Jenny5  ": {
+    "Lvl -2 Battle Girl Jenny5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64586,7 +64586,7 @@ backup_data = {
       "ability": "White Smoke",
       "sublevel": -2
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout5  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -64658,7 +64658,7 @@ backup_data = {
       "ability": "Defeatist",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny2  ": {
+    "Lvl -1 Battle Girl Jenny2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64692,7 +64692,7 @@ backup_data = {
       "ability": "Defeatist",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny3  ": {
+    "Lvl -1 Battle Girl Jenny3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64726,7 +64726,7 @@ backup_data = {
       "ability": "Defeatist",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny4  ": {
+    "Lvl -1 Battle Girl Jenny4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64760,7 +64760,7 @@ backup_data = {
       "ability": "Defeatist",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny5  ": {
+    "Lvl -1 Battle Girl Jenny5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64834,7 +64834,7 @@ backup_data = {
       "ability": "Dragon's Maw",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny2  ": {
+    "Lvl -1 Battle Girl Jenny2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64868,7 +64868,7 @@ backup_data = {
       "ability": "Dragon's Maw",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny3  ": {
+    "Lvl -1 Battle Girl Jenny3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64902,7 +64902,7 @@ backup_data = {
       "ability": "Dragon's Maw",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny4  ": {
+    "Lvl -1 Battle Girl Jenny4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -64936,7 +64936,7 @@ backup_data = {
       "ability": "Dragon's Maw",
       "sublevel": -1
     },
-    "Lvl -1 Battle Girl Jenny5  ": {
+    "Lvl -1 Battle Girl Jenny5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -65087,7 +65087,7 @@ backup_data = {
       ],
       "ability": "Steam Engine"
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout10  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout10 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66096,7 +66096,7 @@ backup_data = {
       "ability": "Merciless",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia2  ": {
+    "Lvl -4 Pkmn Breeder Lydia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -66130,7 +66130,7 @@ backup_data = {
       "ability": "Merciless",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia3  ": {
+    "Lvl -4 Pkmn Breeder Lydia3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -66164,7 +66164,7 @@ backup_data = {
       "ability": "Merciless",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia4  ": {
+    "Lvl -4 Pkmn Breeder Lydia4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -66198,7 +66198,7 @@ backup_data = {
       "ability": "Merciless",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia5  ": {
+    "Lvl -4 Pkmn Breeder Lydia5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -66420,7 +66420,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Twins Amy And Liv2  ": {
+    "Lvl 25 Twins Amy And Liv2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66452,7 +66452,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Twins Amy And Liv3  ": {
+    "Lvl 25 Twins Amy And Liv3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66484,7 +66484,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Twins Amy And Liv4  ": {
+    "Lvl 25 Twins Amy And Liv4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66516,7 +66516,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Twins Amy And Liv5  ": {
+    "Lvl 25 Twins Amy And Liv5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66548,7 +66548,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Twins Amy And Liv6  ": {
+    "Lvl 25 Twins Amy And Liv6 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66614,7 +66614,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Twins Amy And Liv2  ": {
+    "Lvl 25 Twins Amy And Liv2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66646,7 +66646,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Twins Amy And Liv3  ": {
+    "Lvl 25 Twins Amy And Liv3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66678,7 +66678,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Twins Amy And Liv4  ": {
+    "Lvl 25 Twins Amy And Liv4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66710,7 +66710,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Twins Amy And Liv5  ": {
+    "Lvl 25 Twins Amy And Liv5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66742,7 +66742,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 25 Twins Amy And Liv6  ": {
+    "Lvl 25 Twins Amy And Liv6 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66808,7 +66808,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 9 Twins Gina And Mia2  ": {
+    "Lvl 9 Twins Gina And Mia2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -66874,7 +66874,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 9 Twins Gina And Mia2  ": {
+    "Lvl 9 Twins Gina And Mia2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -67540,7 +67540,7 @@ backup_data = {
       "ability": "Adaptability",
       "sublevel": 0
     },
-    "Lvl 70 Team Magma Grunt Magma Hideout3  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -67644,7 +67644,7 @@ backup_data = {
       "ability": "Plus",
       "sublevel": 0
     },
-    "Lvl 0 Rival Iriv24  ": {
+    "Lvl 0 Rival Iriv24 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -68613,7 +68613,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin2  ": {
+    "Lvl -2 Collector Edwin2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -68647,7 +68647,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin3  ": {
+    "Lvl -2 Collector Edwin3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -68681,7 +68681,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin4  ": {
+    "Lvl -2 Collector Edwin4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -68715,7 +68715,7 @@ backup_data = {
       "ability": "Intimidate",
       "sublevel": -2
     },
-    "Lvl -2 Collector Edwin5  ": {
+    "Lvl -2 Collector Edwin5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -69050,7 +69050,7 @@ backup_data = {
       ],
       "ability": "Serene Grace"
     },
-    "Lvl 84 Rival Wally Vr2  ": {
+    "Lvl 84 Rival Wally Vr2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -69126,7 +69126,7 @@ backup_data = {
       ],
       "ability": "Beast Boost"
     },
-    "Lvl 84 Rival Wally Vr2  ": {
+    "Lvl 84 Rival Wally Vr2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -69240,7 +69240,7 @@ backup_data = {
       ],
       "ability": "Sheer Force"
     },
-    "Lvl 84 Rival Wally Vr2  ": {
+    "Lvl 84 Rival Wally Vr2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -69277,7 +69277,7 @@ backup_data = {
       ],
       "ability": "Sheer Force"
     },
-    "Lvl -1 Rival Wally Route110  ": {
+    "Lvl -1 Rival Wally Route110 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -69392,7 +69392,7 @@ backup_data = {
       ],
       "ability": "Protosynthesis"
     },
-    "Lvl 84 Rival Wally Vr2  ": {
+    "Lvl 84 Rival Wally Vr2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -69468,7 +69468,7 @@ backup_data = {
       ],
       "ability": "Pixilate"
     },
-    "Lvl 84 Rival Wally Vr2  ": {
+    "Lvl 84 Rival Wally Vr2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -69505,7 +69505,7 @@ backup_data = {
       ],
       "ability": "Pixilate"
     },
-    "Lvl 0 Rival Wally Route110  ": {
+    "Lvl 0 Rival Wally Route110 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -71644,7 +71644,7 @@ backup_data = {
       "ability": "Punk Rock",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel2  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -71678,7 +71678,7 @@ backup_data = {
       "ability": "Punk Rock",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel3  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -71712,7 +71712,7 @@ backup_data = {
       "ability": "Punk Rock",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel4  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -71746,7 +71746,7 @@ backup_data = {
       "ability": "Punk Rock",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Ezekiel5  ": {
+    "Lvl -4 Pkmn Breeder Ezekiel5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -71820,7 +71820,7 @@ backup_data = {
       "ability": "Toxic Debris",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia2  ": {
+    "Lvl -4 Pkmn Breeder Lydia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -71854,7 +71854,7 @@ backup_data = {
       "ability": "Toxic Debris",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia3  ": {
+    "Lvl -4 Pkmn Breeder Lydia3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -71888,7 +71888,7 @@ backup_data = {
       "ability": "Toxic Debris",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia4  ": {
+    "Lvl -4 Pkmn Breeder Lydia4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -71922,7 +71922,7 @@ backup_data = {
       "ability": "Toxic Debris",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia5  ": {
+    "Lvl -4 Pkmn Breeder Lydia5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -71996,7 +71996,7 @@ backup_data = {
       "ability": "Overgrow",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia2  ": {
+    "Lvl -4 Pkmn Breeder Lydia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72030,7 +72030,7 @@ backup_data = {
       "ability": "Overgrow",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia3  ": {
+    "Lvl -4 Pkmn Breeder Lydia3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72064,7 +72064,7 @@ backup_data = {
       "ability": "Overgrow",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia4  ": {
+    "Lvl -4 Pkmn Breeder Lydia4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72098,7 +72098,7 @@ backup_data = {
       "ability": "Overgrow",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia5  ": {
+    "Lvl -4 Pkmn Breeder Lydia5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72172,7 +72172,7 @@ backup_data = {
       "ability": "Thick Fat",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia2  ": {
+    "Lvl -4 Pkmn Breeder Lydia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72206,7 +72206,7 @@ backup_data = {
       "ability": "Thick Fat",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia3  ": {
+    "Lvl -4 Pkmn Breeder Lydia3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72240,7 +72240,7 @@ backup_data = {
       "ability": "Thick Fat",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia4  ": {
+    "Lvl -4 Pkmn Breeder Lydia4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72274,7 +72274,7 @@ backup_data = {
       "ability": "Thick Fat",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia5  ": {
+    "Lvl -4 Pkmn Breeder Lydia5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72381,7 +72381,7 @@ backup_data = {
       "ability": "Poison Touch",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia2  ": {
+    "Lvl -4 Pkmn Breeder Lydia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72415,7 +72415,7 @@ backup_data = {
       "ability": "Poison Touch",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia3  ": {
+    "Lvl -4 Pkmn Breeder Lydia3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72449,7 +72449,7 @@ backup_data = {
       "ability": "Poison Touch",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia4  ": {
+    "Lvl -4 Pkmn Breeder Lydia4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72483,7 +72483,7 @@ backup_data = {
       "ability": "Poison Touch",
       "sublevel": -4
     },
-    "Lvl -4 Pkmn Breeder Lydia5  ": {
+    "Lvl -4 Pkmn Breeder Lydia5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72875,7 +72875,7 @@ backup_data = {
     }
   },
   "Cradily": {
-    "Lvl 42 Team Magma Grunt Mt Chimney2  ": {
+    "Lvl 42 Team Magma Grunt Mt Chimney2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -72948,7 +72948,7 @@ backup_data = {
     }
   },
   "Iron Thorns": {
-    "Lvl 43 Team Magma Grunt Mt Chimney2  ": {
+    "Lvl 43 Team Magma Grunt Mt Chimney2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -73521,7 +73521,7 @@ backup_data = {
     }
   },
   "Armaldo": {
-    "Lvl 63 Team Aqua Grunt Weather Inst5  ": {
+    "Lvl 63 Team Aqua Grunt Weather Inst5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -73594,7 +73594,7 @@ backup_data = {
     }
   },
   "Iron Jugulis": {
-    "Lvl 63 Team Aqua Grunt Weather Inst5  ": {
+    "Lvl 63 Team Aqua Grunt Weather Inst5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -74330,7 +74330,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley2  ": {
+    "Lvl 8 Lass Haley2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74360,7 +74360,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley3  ": {
+    "Lvl 8 Lass Haley3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74390,7 +74390,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley4  ": {
+    "Lvl 8 Lass Haley4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74420,7 +74420,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley5  ": {
+    "Lvl 8 Lass Haley5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74484,7 +74484,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley2  ": {
+    "Lvl 8 Lass Haley2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74516,7 +74516,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley3  ": {
+    "Lvl 8 Lass Haley3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74548,7 +74548,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley4  ": {
+    "Lvl 8 Lass Haley4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74580,7 +74580,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley5  ": {
+    "Lvl 8 Lass Haley5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74644,7 +74644,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley2  ": {
+    "Lvl 8 Lass Haley2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74674,7 +74674,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley3  ": {
+    "Lvl 8 Lass Haley3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74704,7 +74704,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley4  ": {
+    "Lvl 8 Lass Haley4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -74734,7 +74734,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 8 Lass Haley5  ": {
+    "Lvl 8 Lass Haley5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -75850,7 +75850,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Bug Catcher James2  ": {
+    "Lvl 7 Bug Catcher James2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -75881,7 +75881,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Bug Catcher James3  ": {
+    "Lvl 7 Bug Catcher James3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -75912,7 +75912,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Bug Catcher James4  ": {
+    "Lvl 7 Bug Catcher James4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -75943,7 +75943,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Bug Catcher James5  ": {
+    "Lvl 7 Bug Catcher James5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76007,7 +76007,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Bug Catcher James2  ": {
+    "Lvl 7 Bug Catcher James2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76038,7 +76038,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Bug Catcher James3  ": {
+    "Lvl 7 Bug Catcher James3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76069,7 +76069,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Bug Catcher James4  ": {
+    "Lvl 7 Bug Catcher James4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76100,7 +76100,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 7 Bug Catcher James5  ": {
+    "Lvl 7 Bug Catcher James5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76171,7 +76171,7 @@ backup_data = {
       "ability": "Sturdy",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent2  ": {
+    "Lvl -2 Hiker Trent2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -76205,7 +76205,7 @@ backup_data = {
       "ability": "Sturdy",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent3  ": {
+    "Lvl -2 Hiker Trent3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -76239,7 +76239,7 @@ backup_data = {
       "ability": "Sturdy",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent4  ": {
+    "Lvl -2 Hiker Trent4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -76273,7 +76273,7 @@ backup_data = {
       "ability": "Sturdy",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Trent5  ": {
+    "Lvl -2 Hiker Trent5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -76381,7 +76381,7 @@ backup_data = {
       "ability": "Ice Face",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Lucas2  ": {
+    "Lvl -2 Hiker Lucas2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -76455,7 +76455,7 @@ backup_data = {
       "ability": "Slush Rush",
       "sublevel": -2
     },
-    "Lvl -2 Hiker Lucas2  ": {
+    "Lvl -2 Hiker Lucas2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -76563,7 +76563,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 21 Hiker Sawyer2  ": {
+    "Lvl 21 Hiker Sawyer2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76597,7 +76597,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 21 Hiker Sawyer3  ": {
+    "Lvl 21 Hiker Sawyer3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76631,7 +76631,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 21 Hiker Sawyer4  ": {
+    "Lvl 21 Hiker Sawyer4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76665,7 +76665,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 21 Hiker Sawyer5  ": {
+    "Lvl 21 Hiker Sawyer5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76733,7 +76733,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Hiker Mike2  ": {
+    "Lvl 28 Hiker Mike2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76799,7 +76799,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 28 Hiker Mike2  ": {
+    "Lvl 28 Hiker Mike2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76865,7 +76865,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Young Couple Kira And Dan2  ": {
+    "Lvl 56 Young Couple Kira And Dan2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76897,7 +76897,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Young Couple Kira And Dan3  ": {
+    "Lvl 56 Young Couple Kira And Dan3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76929,7 +76929,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Young Couple Kira And Dan4  ": {
+    "Lvl 56 Young Couple Kira And Dan4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -76961,7 +76961,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Young Couple Kira And Dan5  ": {
+    "Lvl 56 Young Couple Kira And Dan5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -77061,7 +77061,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Young Couple Kira And Dan2  ": {
+    "Lvl 56 Young Couple Kira And Dan2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -77093,7 +77093,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Young Couple Kira And Dan3  ": {
+    "Lvl 56 Young Couple Kira And Dan3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -77125,7 +77125,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Young Couple Kira And Dan4  ": {
+    "Lvl 56 Young Couple Kira And Dan4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -77157,7 +77157,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 56 Young Couple Kira And Dan5  ": {
+    "Lvl 56 Young Couple Kira And Dan5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -77859,7 +77859,7 @@ backup_data = {
       "ability": "Sand Stream",
       "sublevel": 0
     },
-    "Lvl 0 Rival Iriv24  ": {
+    "Lvl 0 Rival Iriv24 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -78153,7 +78153,7 @@ backup_data = {
     }
   },
   "Wishiwashi": {
-    "Lvl -1 Rival Wally Route110  ": {
+    "Lvl -1 Rival Wally Route110 ": {
       "ivs": {
         "hp": 31,
         "at": 30,
@@ -79517,7 +79517,7 @@ backup_data = {
       "ability": "Regenerator",
       "sublevel": -2
     },
-    "Lvl 63 Leader Tate And Liza5  ": {
+    "Lvl 63 Leader Tate And Liza5 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -79747,7 +79747,7 @@ backup_data = {
     }
   },
   "Sudowoodo": {
-    "Lvl 70 Team Magma Grunt Magma Hideout9  ": {
+    "Lvl 70 Team Magma Grunt Magma Hideout9 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -79817,7 +79817,7 @@ backup_data = {
       "ability": "Sturdy",
       "sublevel": -1
     },
-    "Lvl -1 Leader Gardenia2  ": {
+    "Lvl -1 Leader Gardenia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -79962,7 +79962,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 54 Sailor Cory2  ": {
+    "Lvl 54 Sailor Cory2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -79994,7 +79994,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 54 Sailor Cory3  ": {
+    "Lvl 54 Sailor Cory3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -80026,7 +80026,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 54 Sailor Cory4  ": {
+    "Lvl 54 Sailor Cory4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -80058,7 +80058,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 54 Sailor Cory5  ": {
+    "Lvl 54 Sailor Cory5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -80594,7 +80594,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 64 Cooltrainer Cristin2  ": {
+    "Lvl 64 Cooltrainer Cristin2 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -80628,7 +80628,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 64 Cooltrainer Cristin3  ": {
+    "Lvl 64 Cooltrainer Cristin3 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -80662,7 +80662,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 64 Cooltrainer Cristin4  ": {
+    "Lvl 64 Cooltrainer Cristin4 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -80696,7 +80696,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 64 Cooltrainer Cristin5  ": {
+    "Lvl 64 Cooltrainer Cristin5 ": {
       "ivs": {
         "hp": 0,
         "at": 0,
@@ -80732,7 +80732,7 @@ backup_data = {
     }
   },
   "Slowpoke": {
-    "Lvl 48 Leader Tate And Liza2  ": {
+    "Lvl 48 Leader Tate And Liza2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -80766,7 +80766,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 53 Leader Tate And Liza3  ": {
+    "Lvl 53 Leader Tate And Liza3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -80800,7 +80800,7 @@ backup_data = {
         "Check Viability"
       ]
     },
-    "Lvl 58 Leader Tate And Liza4  ": {
+    "Lvl 58 Leader Tate And Liza4 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -80836,7 +80836,7 @@ backup_data = {
     }
   },
   "Drowzee": {
-    "Lvl 53 Leader Tate And Liza3  ": {
+    "Lvl 53 Leader Tate And Liza3 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -81368,7 +81368,7 @@ backup_data = {
     }
   },
   "Arboliva": {
-    "Lvl -1 Leader Gardenia2  ": {
+    "Lvl -1 Leader Gardenia2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -82407,7 +82407,7 @@ backup_data = {
     }
   },
   "Buneary": {
-    "Lvl -3 Rival Dawn Route104  ": {
+    "Lvl -3 Rival Dawn Route104 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -82446,7 +82446,7 @@ backup_data = {
     }
   },
   "Noibat": {
-    "Lvl -2 Rival Dawn Route104  ": {
+    "Lvl -2 Rival Dawn Route104 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -82485,7 +82485,7 @@ backup_data = {
     }
   },
   "Piplup": {
-    "Lvl -1 Rival Dawn Route104  ": {
+    "Lvl -1 Rival Dawn Route104 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -82525,7 +82525,7 @@ backup_data = {
     }
   },
   "Noivern": {
-    "Lvl -2 Rival Dawn Route111  ": {
+    "Lvl -2 Rival Dawn Route111 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -82639,7 +82639,7 @@ backup_data = {
     }
   },
   "Tsareena": {
-    "Lvl -2 Rival Dawn Route111  ": {
+    "Lvl -2 Rival Dawn Route111 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -83186,7 +83186,7 @@ backup_data = {
     }
   },
   "Rillaboom": {
-    "Lvl 0 Rival Iriv24  ": {
+    "Lvl 0 Rival Iriv24 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
