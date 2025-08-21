@@ -81129,7 +81129,7 @@ backup_data = {
       "sublevel": -1
     }
   },
-  "Landorus Incarnate": {
+  "Landorus": {
     "Lvl -1 Leader Roark ": {
       "ivs": {
         "hp": 31,
