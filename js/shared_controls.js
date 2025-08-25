@@ -422,55 +422,55 @@ $(".move-selector").change(function () {
 	var m = moveName.match(HIDDEN_POWER_REGEX);
 
 
+	// 
+	// if (m) {
+	// 	var pokeObj = $(this).closest(".poke-info");
+	// 	var pokemon = createPokemon(pokeObj);
 
-	if (m) {
-		var pokeObj = $(this).closest(".poke-info");
-		var pokemon = createPokemon(pokeObj);
+	// 	if ( TITLE.includes("Sterling") || TITLE.includes("Ancestral") || TITLE.includes("Maximum")) {
+	// 		trueHP = false
+	// 	} else {
+	// 		trueHP = true
+	// 	}
 
-		if ( TITLE.includes("Sterling") || TITLE.includes("Ancestral") || TITLE.includes("Maximum")) {
-			trueHP = false
-		} else {
-			trueHP = true
-		}
-
-		var actual = calc.Stats.getHiddenPower(GENERATION, pokemon.ivs, trueHP);
-		if (actual.type !== m[1]) {
+	// 	var actual = calc.Stats.getHiddenPower(GENERATION, pokemon.ivs, trueHP);
+	// 	if (actual.type !== m[1]) {
 			
-			$(this).val(`Hidden Power ${actual.type}`)
+	// 		$(this).val(`Hidden Power ${actual.type}`)
 
-			var hpIVs = calc.Stats.getHiddenPowerIVs(GENERATION, m[1]);
-			if (hpIVs && gen < 7) {
-				for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
-					var legacyStat = LEGACY_STATS[gen][i];
-					var stat = legacyStatToStat(legacyStat);
-					pokeObj.find("." + legacyStat + " .ivs").val(hpIVs[stat] !== undefined ? hpIVs[stat] : 31);
-					pokeObj.find("." + legacyStat + " .dvs").val(hpIVs[stat] !== undefined ? calc.Stats.IVToDV(hpIVs[stat]) : 15);
-				}
-				if (gen < 3) {
-					var hpDV = calc.Stats.getHPDV({
-						atk: pokeObj.find(".at .ivs").val(),
-						def: pokeObj.find(".df .ivs").val(),
-						spe: pokeObj.find(".sp .ivs").val(),
-						spc: pokeObj.find(".sa .ivs").val()
-					});
-					pokeObj.find(".hp .ivs").val(calc.Stats.DVToIV(hpDV));
-					pokeObj.find(".hp .dvs").val(hpDV);
-				}
-				pokeObj.change();
-				moveGroupObj.children(".move-bp").val(gen >= 6 ? 60 : 70);
-			}
-		} else {
-			moveGroupObj.children(".move-bp").val(actual.power);
-		}
-	} else if (gen >= 2 && gen <= 6 && HIDDEN_POWER_REGEX.test($(this).attr('data-prev'))) {
-		// If this selector was previously Hidden Power but now isn't, reset all IVs/DVs to max.
-		var pokeObj = $(this).closest(".poke-info");
-		for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
-			var legacyStat = LEGACY_STATS[gen][i];
-			pokeObj.find("." + legacyStat + " .ivs").val(31);
-			pokeObj.find("." + legacyStat + " .dvs").val(15);
-		}
-	}
+	// 		var hpIVs = calc.Stats.getHiddenPowerIVs(GENERATION, m[1]);
+	// 		if (hpIVs && gen < 7) {
+	// 			for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
+	// 				var legacyStat = LEGACY_STATS[gen][i];
+	// 				var stat = legacyStatToStat(legacyStat);
+	// 				pokeObj.find("." + legacyStat + " .ivs").val(hpIVs[stat] !== undefined ? hpIVs[stat] : 31);
+	// 				pokeObj.find("." + legacyStat + " .dvs").val(hpIVs[stat] !== undefined ? calc.Stats.IVToDV(hpIVs[stat]) : 15);
+	// 			}
+	// 			if (gen < 3) {
+	// 				var hpDV = calc.Stats.getHPDV({
+	// 					atk: pokeObj.find(".at .ivs").val(),
+	// 					def: pokeObj.find(".df .ivs").val(),
+	// 					spe: pokeObj.find(".sp .ivs").val(),
+	// 					spc: pokeObj.find(".sa .ivs").val()
+	// 				});
+	// 				pokeObj.find(".hp .ivs").val(calc.Stats.DVToIV(hpDV));
+	// 				pokeObj.find(".hp .dvs").val(hpDV);
+	// 			}
+	// 			pokeObj.change();
+	// 			moveGroupObj.children(".move-bp").val(gen >= 6 ? 60 : 70);
+	// 		}
+	// 	} else {
+	// 		moveGroupObj.children(".move-bp").val(actual.power);
+	// 	}
+	// } else if (gen >= 2 && gen <= 6 && HIDDEN_POWER_REGEX.test($(this).attr('data-prev'))) {
+	// 	// If this selector was previously Hidden Power but now isn't, reset all IVs/DVs to max.
+	// 	var pokeObj = $(this).closest(".poke-info");
+	// 	for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
+	// 		var legacyStat = LEGACY_STATS[gen][i];
+	// 		pokeObj.find("." + legacyStat + " .ivs").val(31);
+	// 		pokeObj.find("." + legacyStat + " .dvs").val(15);
+	// 	}
+	// }
 	$(this).attr('data-prev', moveName);
 	moveGroupObj.children(".move-type").val(move.type);
 	moveGroupObj.children(".move-cat").val(move.category);
