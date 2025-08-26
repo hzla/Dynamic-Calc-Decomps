@@ -41,6 +41,7 @@ function load_js() {
     states = {}
   }
   calcing = false
+  changingSets = false
   partner_name = null
 
   if (localStorage.notes) {
