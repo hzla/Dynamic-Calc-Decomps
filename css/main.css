@@ -648,7 +648,6 @@ html, body {
 }
 
 .trainer-poks {
-    margin-bottom: 20px;
     width:  auto;
 }
 
@@ -778,6 +777,7 @@ table td {
     margin-left: 13px;
     margin-top:  20px;
     border: 1px solid #bb86fc;
+    margin-bottom: 20px;
 }
 
 #edge {
