@@ -1205,44 +1205,6 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 0 Guitarist Brian2 ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
-      },
-      "item": "Weakness Policy",
-      "level": "0",
-      "nature": "Bold",
-      "battle_type": "Doubles",
-      "moves": [
-        "Parabolic Charge",
-        "Scald",
-        "Dazzling Gleam",
-        "Ice Beam"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Volt Absorb",
-      "sublevel": 0
-    },
     "Lvl 68 Triathlete Chase ": {
       "ivs": {
         "hp": 0,
@@ -3636,44 +3598,6 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 0 Guitarist Brian2 ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
-      },
-      "item": "Thick Club",
-      "level": "0",
-      "nature": "Brave",
-      "battle_type": "Doubles",
-      "moves": [
-        "Heat Wave",
-        "Shadow Bone",
-        "Bonemerang",
-        "Icy Wind"
-      ],
-      "sub_index": 4,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Lightning Rod",
-      "sublevel": 0
-    },
     "Lvl 83 Cooltrainer Hope ": {
       "ivs": {
         "hp": 31,
@@ -4387,6 +4311,44 @@ backup_data = {
       ],
       "ability": "Intimidate"
     },
+    "Lvl 0 Sailor Dwayne 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Salamencite",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Double-Edge",
+        "Iron Head",
+        "Dragon Claw",
+        "Dragon Dance"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Intimidate",
+      "sublevel": 0
+    },
     "Lvl 0 Rival Natn ": {
       "ivs": {
         "hp": 31,
@@ -4669,6 +4631,44 @@ backup_data = {
       "ai_tags": [
         "Check Bad Move"
       ]
+    },
+    "Lvl 0 Guitarist Brian 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Big Root",
+      "level": "0",
+      "nature": "Modest",
+      "battle_type": "Singles",
+      "moves": [
+        "Giga Drain",
+        "Draining Kiss",
+        "Ancient Power",
+        "Synthesis"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Triage",
+      "sublevel": 0
     },
     "Lvl 70 Pokefan Bethany ": {
       "ivs": {
@@ -5968,6 +5968,44 @@ backup_data = {
       ],
       "status": "Frozen",
       "ability": "Intimidate"
+    },
+    "Lvl 0 Beauty Johanna 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Leftovers",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Toxic Spikes",
+        "Haze",
+        "Barb Barrage",
+        "Throat Chop"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Intimidate",
+      "sublevel": 0
     }
   },
   "Basculegion": {
@@ -8143,45 +8181,6 @@ backup_data = {
       "ai_tags": []
     }
   },
-  "Kyogre-Primal": {
-    "Lvl 80 Aqua Leader Archie ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Blue Orb",
-      "level": 80,
-      "nature": "Timid",
-      "battle_type": "Doubles",
-      "moves": [
-        "Origin Pulse",
-        "Thunder",
-        "Ice Beam",
-        "Water Spout"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Primordial Sea"
-    }
-  },
   "Grumpig": {
     "Lvl 65 Hex Maniac Leah ": {
       "ivs": {
@@ -8280,6 +8279,45 @@ backup_data = {
       "ai_tags": [
         "Check Bad Move"
       ]
+    },
+    "Lvl 0 Guitarist Brian 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 252,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Leftovers",
+      "level": "0",
+      "nature": "Impish",
+      "battle_type": "Singles",
+      "moves": [
+        "Substitute",
+        "Spore",
+        "Focus Punch",
+        "Rock Slide"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "status": "Badly Poisoned",
+      "ability": "Poison Heal",
+      "sublevel": 0
     },
     "Lvl 40 Beauty Sheila ": {
       "ivs": {
@@ -9526,6 +9564,44 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Stance Change"
+    },
+    "Lvl 0 Sailor Dwayne 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 252,
+        "at": 252,
+        "df": 6,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Leftovers",
+      "level": "0",
+      "nature": "Bold",
+      "battle_type": "Singles",
+      "moves": [
+        "Flash Cannon",
+        "Shadow Ball",
+        "Toxic",
+        "King's Shield"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Stance Change",
+      "sublevel": 0
     }
   },
   "Manectric": {
@@ -13181,6 +13257,44 @@ backup_data = {
       "ability": "Gluttony",
       "sublevel": -1
     },
+    "Lvl -1 Guitarist Brian 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 30,
+        "df": 31,
+        "sa": 30,
+        "sd": 30,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": "Sitrus Berry",
+      "level": "-1",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Grass Knot",
+        "Brine",
+        "Icy Wind",
+        "Hidden Power"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Gluttony",
+      "sublevel": -1
+    },
     "Lvl 22 Tuber M Ricky2 ": {
       "ivs": {
         "hp": 31,
@@ -13332,6 +13446,44 @@ backup_data = {
   },
   "Hitmontop": {
     "Lvl -1 Guitarist Brian ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": "Muscle Band",
+      "level": "-1",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Smash",
+        "Mach Punch",
+        "Aerial Ace",
+        "Thief"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Technician",
+      "sublevel": -1
+    },
+    "Lvl -1 Guitarist Brian 7 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13536,8 +13688,8 @@ backup_data = {
       ]
     }
   },
-  "Sandy Shocks": {
-    "Lvl 0 Guitarist Brian2 ": {
+  "Heracross": {
+    "Lvl -1 Guitarist Brian 3 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13548,20 +13700,21 @@ backup_data = {
       },
       "evs": {
         "hp": 6,
-        "at": 0,
+        "at": 252,
         "df": 0,
-        "sa": 252,
+        "sa": 0,
         "sd": 0,
         "sp": 252
       },
-      "item": "Focus Sash",
-      "level": "0",
-      "nature": "Timid",
-      "battle_type": "Doubles",
+      "item": "Flame Orb",
+      "level": "-1",
+      "nature": "Jolly",
+      "battle_type": "Singles",
       "moves": [
-        "Bulldoze",
-        "Parabolic Charge",
-        "Substitute"
+        "Protect",
+        "Rock Slide",
+        "Brick Break",
+        "Pounce"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -13571,88 +13724,10 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Water Compaction",
-      "sublevel": 0
-    },
-    "Lvl -1 Camper Drew ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Air Balloon",
-      "level": "-1",
-      "nature": "Timid",
-      "battle_type": "Singles",
-      "moves": [
-        "Discharge",
-        "Earth Power",
-        "Flash Cannon",
-        "Thunderbolt"
-      ],
-      "sub_index": 1,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Water Compaction",
+      "ability": "Guts",
       "sublevel": -1
-    }
-  },
-  "Rhyperior": {
-    "Lvl 0 Guitarist Brian2 ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Weakness Policy",
-      "level": "0",
-      "nature": "Adamant",
-      "battle_type": "Doubles",
-      "moves": [
-        "Stone Edge",
-        "Hammer Arm",
-        "Drill Run",
-        "Dragon Tail"
-      ],
-      "sub_index": 1,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Solid Rock",
-      "sublevel": 0
     },
-    "Lvl 83 Cooltrainer Albert ": {
+    "Lvl -2 Parasol Lady Madeline ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13669,15 +13744,15 @@ backup_data = {
         "sd": 0,
         "sp": 252
       },
-      "item": "Weakness Policy",
-      "level": 83,
-      "nature": "Jolly",
+      "item": "Heracronite",
+      "level": "-2",
+      "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Stone Edge",
-        "Earthquake",
-        "Thunderpunch",
-        "Megahorn"
+        "Rock Blast",
+        "Arm Thrust",
+        "Bullet Seed",
+        "Pin Missile"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -13687,51 +13762,10 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Solid Rock"
-    }
-  },
-  "Rotom-Fan": {
-    "Lvl 0 Guitarist Brian2 ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Lum Berry",
-      "level": "0",
-      "nature": "Timid",
-      "battle_type": "Doubles",
-      "moves": [
-        "Air Slash",
-        "Discharge",
-        "Shadow Ball",
-        "Will-O-Wisp"
-      ],
-      "sub_index": 2,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Motor Drive",
-      "sublevel": 0
-    }
-  },
-  "Orthworm": {
-    "Lvl 0 Guitarist Brian2 ": {
+      "ability": "Guts",
+      "sublevel": -2
+    },
+    "Lvl -2 Parasol Lady Madeline2 ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13743,33 +13777,133 @@ backup_data = {
       "evs": {
         "hp": 6,
         "at": 252,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
       },
-      "item": "Leftovers",
-      "level": "0",
-      "nature": "Impish",
-      "battle_type": "Doubles",
+      "item": "Heracronite",
+      "level": "-2",
+      "nature": "Adamant",
+      "battle_type": "Singles",
       "moves": [
-        "Heavy Slam",
-        "Body Press",
-        "Stomping Tantrum",
-        "Coil"
+        "Rock Blast",
+        "Arm Thrust",
+        "Bullet Seed",
+        "Pin Missile"
       ],
       "sub_index": 3,
       "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
+        "Check Bad Move"
       ],
-      "ability": "Earth Eater",
-      "sublevel": 0
+      "ability": "Guts",
+      "sublevel": -2
     },
-    "Lvl -1 Leader Byron ": {
+    "Lvl -2 Parasol Lady Madeline3 ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Heracronite",
+      "level": "-2",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Blast",
+        "Arm Thrust",
+        "Bullet Seed",
+        "Pin Missile"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move"
+      ],
+      "ability": "Guts",
+      "sublevel": -2
+    },
+    "Lvl -2 Parasol Lady Madeline4 ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Heracronite",
+      "level": "-2",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Blast",
+        "Arm Thrust",
+        "Bullet Seed",
+        "Pin Missile"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move"
+      ],
+      "ability": "Guts",
+      "sublevel": -2
+    },
+    "Lvl -2 Parasol Lady Madeline5 ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Heracronite",
+      "level": "-2",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Blast",
+        "Arm Thrust",
+        "Bullet Seed",
+        "Pin Missile"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move"
+      ],
+      "ability": "Guts",
+      "sublevel": -2
+    }
+  },
+  "Stunfisk": {
+    "Lvl -1 Guitarist Brian 3 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13780,36 +13914,73 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 6,
-        "df": 252,
+        "at": 252,
+        "df": 6,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Shuca Berry",
+      "level": "-1",
+      "nature": "Sassy",
+      "battle_type": "Singles",
+      "moves": [
+        "Discharge",
+        "Mud Bomb",
+        "Rock Slide",
+        "Silver Wind"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Water Absorb",
+      "sublevel": -1
+    }
+  },
+  "Azumarill": {
+    "Lvl -1 Guitarist Brian 3 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
         "sa": 0,
         "sd": 0,
         "sp": 252
       },
-      "item": "Sitrus Berry",
+      "item": "Mystic Water",
       "level": "-1",
-      "nature": "Impish",
+      "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Shed Tail",
-        "Body Press",
-        "Iron Head",
-        "Earthquake"
+        "Aqua Tail",
+        "Play Rough",
+        "Aqua Jet",
+        "Ice Punch"
       ],
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
         "Try To Faint",
         "Check Viability",
-        "Will Suicide",
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Earth Eater",
+      "ability": "Huge Power",
       "sublevel": -1
-    }
-  },
-  "Azumarill": {
+    },
     "Lvl 56 Tuber M Charlie ": {
       "ivs": {
         "hp": 0,
@@ -14033,6 +14204,1856 @@ backup_data = {
       "ai_tags": [
         "Check Bad Move"
       ]
+    }
+  },
+  "Yanmega": {
+    "Lvl 0 Guitarist Brian 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Life Orb",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Air Slash",
+        "Bug Buzz",
+        "Psychic",
+        "Detect"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Speed Boost",
+      "sublevel": 0
+    },
+    "Lvl 31 Kindler Hayden ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 31,
+      "nature": "Relaxed",
+      "battle_type": "Singles",
+      "moves": [
+        "Detect",
+        "Supersonic",
+        "Uproar",
+        "Pursuit"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    }
+  },
+  "Vaporeon": {
+    "Lvl 0 Guitarist Brian 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Leftovers",
+      "level": "0",
+      "nature": "Calm",
+      "battle_type": "Singles",
+      "moves": [
+        "Scald",
+        "Ice Beam",
+        "Shadow Ball",
+        "Yawn"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Water Absorb",
+      "sublevel": 0
+    }
+  },
+  "Blaziken": {
+    "Lvl 0 Guitarist Brian 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blazikenite",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Thunderous Kick",
+        "Blaze Kick",
+        "Knock Off",
+        "Power-Up Punch"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker",
+      "sublevel": 0
+    },
+    "Lvl 64 Rival Brendan Route 119 Treecko ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blazikenite",
+      "level": 64,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Blaze Kick",
+        "Thunderous Kick",
+        "Thunder Punch",
+        "Bulk Up"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker"
+    },
+    "Lvl 64 Rival May Route 119 Treecko ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blazikenite",
+      "level": 64,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Blaze Kick",
+        "Thunderous Kick",
+        "Thunder Punch",
+        "Bulk Up"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker"
+    },
+    "Lvl 84 Rival Brendan Evergrande Treecko ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blazikenite",
+      "level": 84,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Blaze Kick",
+        "Thunderous Kick",
+        "Thunder Punch",
+        "Bulk Up"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker"
+    },
+    "Lvl 84 Rival May Evergrande Treecko ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blazikenite",
+      "level": 84,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Blaze Kick",
+        "Thunderous Kick",
+        "Thunder Punch",
+        "Bulk Up"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker"
+    },
+    "Lvl 0 Rival Suneal ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Life Orb",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Flame Charge",
+        "Flare Blitz",
+        "Close Combat",
+        "Swords Dance"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient",
+        "Ace Pokemon"
+      ],
+      "ability": "Blaze",
+      "sublevel": 0
+    },
+    "Lvl 0 Rival Dollamike ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Leftovers",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Flame Charge",
+        "Brick Break",
+        "Swords Dance",
+        "Blaze Kick"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker",
+      "sublevel": 0
+    },
+    "Lvl 0 Rival Oblivion Wing ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Expert Belt",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Triple Arrows",
+        "Brave Bird",
+        "Blaze Kick",
+        "Quick Attack"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker",
+      "sublevel": 0
+    }
+  },
+  "Blaziken-Mega": {
+    "Lvl 0 Guitarist Brian 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blazikenite",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Thunderous Kick",
+        "Blaze Kick",
+        "Knock Off",
+        "Power-Up Punch"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker",
+      "sublevel": 0
+    },
+    "Lvl 64 Rival Brendan Route 119 Treecko ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blazikenite",
+      "level": 64,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Blaze Kick",
+        "Thunderous Kick",
+        "Thunder Punch",
+        "Bulk Up"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker"
+    },
+    "Lvl 64 Rival May Route 119 Treecko ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blazikenite",
+      "level": 64,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Blaze Kick",
+        "Thunderous Kick",
+        "Thunder Punch",
+        "Bulk Up"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker"
+    },
+    "Lvl 84 Rival Brendan Evergrande Treecko ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blazikenite",
+      "level": 84,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Blaze Kick",
+        "Thunderous Kick",
+        "Thunder Punch",
+        "Bulk Up"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker"
+    },
+    "Lvl 84 Rival May Evergrande Treecko ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blazikenite",
+      "level": 84,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Blaze Kick",
+        "Thunderous Kick",
+        "Thunder Punch",
+        "Bulk Up"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Striker"
+    }
+  },
+  "Snorlax": {
+    "Lvl 0 Guitarist Brian 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 252,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Focus Sash",
+      "level": "0",
+      "nature": "Impish",
+      "battle_type": "Singles",
+      "moves": [
+        "Crunch",
+        "Last Resort"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Thick Fat",
+      "sublevel": 0
+    },
+    "Lvl -2 School Kid Ted ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Snorlaxite",
+      "level": "-2",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Body Slam",
+        "Wood Hammer",
+        "Earthquake",
+        "Heavy Slam"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Thick Fat",
+      "sublevel": -2
+    },
+    "Lvl 75 Lass Halle ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 75,
+      "nature": "Impish",
+      "battle_type": "Singles",
+      "moves": [
+        "Crunch",
+        "Heavy slam",
+        "High horsepower",
+        "Wood hammer"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability"
+      ]
+    }
+  },
+  "Gothitelle": {
+    "Lvl 0 Guitarist Brian 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 30,
+        "sp": 30
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Choice Scarf",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Psychic",
+        "Thunderbolt",
+        "Shadow Ball",
+        "Hidden Power"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Shadow Tag",
+      "sublevel": 0
+    },
+    "Lvl 56 Hex Maniac Kindra ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 56,
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Future sight",
+        "Shadow ball",
+        "Psychic",
+        "Charm"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 66 Hex Maniac Sylvia ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 66,
+      "nature": "Relaxed",
+      "battle_type": "Singles",
+      "moves": [
+        "Shadow ball",
+        "Psychic",
+        "Charm",
+        "Magic room"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    }
+  },
+  "Togekiss": {
+    "Lvl 0 Guitarist Brian 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Kings Rock",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Air Slash",
+        "Moonblast",
+        "Extrasensory",
+        "Flamethrower"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Serene Grace",
+      "sublevel": 0
+    },
+    "Lvl 83 Cooltrainer Hope ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Leftovers",
+      "level": 83,
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Air Slash",
+        "Thunder Wave",
+        "Moonblast",
+        "Roost"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Serene Grace"
+    }
+  },
+  "Steelix": {
+    "Lvl 0 Guitarist Brian 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 252,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Steelixite",
+      "level": "0",
+      "nature": "Brave",
+      "battle_type": "Singles",
+      "moves": [
+        "Spin Out",
+        "Curse",
+        "Earthquake",
+        "Stone Edge"
+      ],
+      "sub_index": 4,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Rock Head",
+      "sublevel": 0
+    },
+    "Lvl -2 Hiker Alan ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 252,
+        "at": 6,
+        "df": 252,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Steelixite",
+      "level": "-2",
+      "nature": "Impish",
+      "battle_type": "Singles",
+      "moves": [
+        "Earthquake",
+        "Stone Edge",
+        "Heavy Slam",
+        "Curse"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Rock Head",
+      "sublevel": -2
+    },
+    "Lvl 0 Leader Roark ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 252,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Steelixite",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Heavy Slam",
+        "Crunch",
+        "Earthquake",
+        "Stone Edge"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Rock Head",
+      "sublevel": 0
+    }
+  },
+  "Steelix-Mega": {
+    "Lvl 0 Guitarist Brian 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 252,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Steelixite",
+      "level": "0",
+      "nature": "Brave",
+      "battle_type": "Singles",
+      "moves": [
+        "Spin Out",
+        "Curse",
+        "Earthquake",
+        "Stone Edge"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Heatproof",
+      "sublevel": 0
+    },
+    "Lvl -2 Hiker Alan ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 252,
+        "at": 6,
+        "df": 252,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Steelixite",
+      "level": "-2",
+      "nature": "Impish",
+      "battle_type": "Singles",
+      "moves": [
+        "Earthquake",
+        "Stone Edge",
+        "Heavy Slam",
+        "Curse"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Heatproof",
+      "sublevel": -2
+    },
+    "Lvl 0 Leader Roark ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 252,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Steelixite",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Heavy Slam",
+        "Crunch",
+        "Earthquake",
+        "Stone Edge"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Heatproof",
+      "sublevel": 0
+    }
+  },
+  "Silvally": {
+    "Lvl 0 Guitarist Brian 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Dark Memory",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "Psychic Fangs",
+        "Rock Slide",
+        "Parting Shot"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0* Guitarist Brian 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 30,
+        "sa": 30,
+        "sd": 30,
+        "sp": 30
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Flying Memory",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Air Slash",
+        "Tailwind",
+        "Shadow Ball",
+        "Hidden Power"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0** Guitarist Brian 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Ground Memory",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "X-Scissor",
+        "Flame Charge",
+        "Swords Dance"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0*** Guitarist Brian 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Grass Memory",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "U-turn",
+        "Fire Fang",
+        "Ice Fang"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0**** Guitarist Brian 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Ice Memory",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Ice Beam",
+        "Thunderbolt",
+        "Flamethrower",
+        "Surf"
+      ],
+      "sub_index": 4,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0***** Guitarist Brian 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Life Orb",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "Iron Head",
+        "Dragon Claw",
+        "Shadow Claw"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0 Sailor Dwayne 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 0,
+        "at": 6,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Fire Memory",
+      "level": "0",
+      "nature": "Naive",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "Thunderbolt",
+        "Surf",
+        "Ice Beam"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0* Sailor Dwayne 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Dragon Memory",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "Iron Head",
+        "Flame Charge",
+        "Swords Dance"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0** Sailor Dwayne 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Fighting Memory",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "X-Scissor",
+        "Crunch",
+        "Rock Slide"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0*** Sailor Dwayne 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 0,
+        "at": 252,
+        "df": 0,
+        "sa": 6,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Poison Memory",
+      "level": "0",
+      "nature": "Hasty",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "Surf",
+        "Crunch",
+        "Thunderbolt"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0**** Sailor Dwayne 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 0,
+        "at": 252,
+        "df": 0,
+        "sa": 6,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Psychic Memory",
+      "level": "0",
+      "nature": "Hasty",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "Air Slash",
+        "X-Scissor",
+        "Parting Shot"
+      ],
+      "sub_index": 4,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0***** Sailor Dwayne 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 0,
+        "at": 6,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Rock Memory",
+      "level": "0",
+      "nature": "Naive",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "Surf",
+        "Flamethrower",
+        "Work Up"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0 Beauty Johanna 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Ghost Memory",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Shadow Ball",
+        "Tri Attack",
+        "Ice Beam",
+        "Parting Shot"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0* Beauty Johanna 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Electric Memory",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Ice Beam",
+        "Thunderbolt",
+        "Flamethrower",
+        "Surf"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0** Beauty Johanna 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Water Memory",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "Thunder Fang",
+        "Flame Charge",
+        "Swords Dance"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0*** Beauty Johanna 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Bug Memory",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "U-turn",
+        "Fire Fang",
+        "Rock Slide"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0**** Beauty Johanna 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Fairy Memory",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Multi-Attack",
+        "Fire Fang",
+        "Psychic Fangs",
+        "Swords Dance"
+      ],
+      "sub_index": 4,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0***** Beauty Johanna 6 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 0,
+        "at": 6,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Steel Memory",
+      "level": "0",
+      "nature": "Hasty",
+      "battle_type": "Singles",
+      "moves": [
+        "Steel Beam",
+        "Explosion",
+        "Shadow Claw",
+        "Parting Shot"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
+    },
+    "Lvl 0 Rival Dollamike ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Leftovers",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Thunder Fang",
+        "Rock Slide",
+        "Parting Shot",
+        "Multi-Attack"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "RKS System",
+      "sublevel": 0
     }
   },
   "Dudunsparce": {
@@ -14512,6 +16533,44 @@ backup_data = {
       ],
       "ability": "Sturdy",
       "sublevel": -2
+    },
+    "Lvl 0 Beauty Johanna 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 30,
+        "df": 31,
+        "sa": 30,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Air Balloon",
+      "level": "0",
+      "nature": "Modest",
+      "battle_type": "Singles",
+      "moves": [
+        "Thunderbolt",
+        "Hidden Power",
+        "Flash Cannon",
+        "Body Press"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Magnet Pull",
+      "sublevel": 0
     }
   },
   "Shiftry": {
@@ -15971,6 +18030,44 @@ backup_data = {
         "Check Viability"
       ]
     },
+    "Lvl -1 Beauty Johanna 3 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Muscle Band",
+      "level": "-1",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Fire Fang",
+        "Extreme Speed",
+        "Thunder Fang",
+        "Crunch"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Intimidate",
+      "sublevel": -1
+    },
     "Lvl 70 Old Couple John And Jay ": {
       "ivs": {
         "hp": 0,
@@ -16451,6 +18548,45 @@ backup_data = {
         "Try To Faint",
         "Check Viability"
       ]
+    }
+  },
+  "Rhyperior": {
+    "Lvl 83 Cooltrainer Albert ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Weakness Policy",
+      "level": 83,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Stone Edge",
+        "Earthquake",
+        "Thunderpunch",
+        "Megahorn"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Solid Rock"
     }
   },
   "Venusaur": {
@@ -16954,6 +19090,44 @@ backup_data = {
       ],
       "sub_index": 0,
       "ai_tags": []
+    },
+    "Lvl 0 Sailor Dwayne 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Life Orb",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Poison Jab",
+        "Close Combat",
+        "Knock Off",
+        "U-turn"
+      ],
+      "sub_index": 4,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Regenerator",
+      "sublevel": 0
     }
   },
   "Flapple": {
@@ -17451,6 +19625,44 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Hyper Cutter"
+    },
+    "Lvl -1 Sailor Dwayne 3 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sitrus Berry",
+      "level": "-1",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "X-Scissor",
+        "Brick Break",
+        "Rock Slide",
+        "Cut"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Mold Breaker",
+      "sublevel": -1
     },
     "Lvl 57 Bug Catcher Davis ": {
       "ivs": {
@@ -18095,6 +20307,44 @@ backup_data = {
         "Try To Faint",
         "Check Viability"
       ]
+    },
+    "Lvl 0 Beauty Johanna 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Focus Sash",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Sticky Web",
+        "Thunder",
+        "Bug Buzz",
+        "Giga Drain"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Compound Eyes",
+      "sublevel": 0
     },
     "Lvl -1 Rival Wally Route110 ": {
       "ivs": {
@@ -20025,45 +22275,6 @@ backup_data = {
       ]
     }
   },
-  "Togekiss": {
-    "Lvl 83 Cooltrainer Hope ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Leftovers",
-      "level": 83,
-      "nature": "Timid",
-      "battle_type": "Singles",
-      "moves": [
-        "Air Slash",
-        "Thunder Wave",
-        "Moonblast",
-        "Roost"
-      ],
-      "sub_index": 2,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Serene Grace"
-    }
-  },
   "Xurkitree": {
     "Lvl 83 Cooltrainer Hope ": {
       "ivs": {
@@ -21051,6 +23262,44 @@ backup_data = {
         "Check Bad Move"
       ]
     },
+    "Lvl 0 Beauty Johanna 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 252,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Chesto Berry",
+      "level": "0",
+      "nature": "Bold",
+      "battle_type": "Singles",
+      "moves": [
+        "Moonblast",
+        "Body Press",
+        "Iron Defense",
+        "Rest"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Sturdy",
+      "sublevel": 0
+    },
     "Lvl 30 Camper Tyron ": {
       "ivs": {
         "hp": 0,
@@ -21831,6 +24080,44 @@ backup_data = {
       ],
       "ability": "Infiltrator"
     },
+    "Lvl 0 Beauty Johanna 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Dark Gem",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Pursuit",
+        "Icicle Crash",
+        "Low Kick",
+        "Ice Shard"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Pressure",
+      "sublevel": 0
+    },
     "Lvl -2 Fisherman Kai ": {
       "ivs": {
         "hp": 31,
@@ -22146,6 +24433,44 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Levitate"
+    },
+    "Lvl 0 Sailor Dwayne 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Life Orb",
+      "level": "0",
+      "nature": "Modest",
+      "battle_type": "Singles",
+      "moves": [
+        "Dazzling Gleam",
+        "Shadow Ball",
+        "Psychic",
+        "Energy Ball"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Levitate",
+      "sublevel": 0
     },
     "Lvl -1 Leader Fantina ": {
       "ivs": {
@@ -23111,72 +25436,6 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Hustle"
-    }
-  },
-  "Gothitelle": {
-    "Lvl 56 Hex Maniac Kindra ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 56,
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Future sight",
-        "Shadow ball",
-        "Psychic",
-        "Charm"
-      ],
-      "sub_index": 1,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
-    },
-    "Lvl 66 Hex Maniac Sylvia ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 66,
-      "nature": "Relaxed",
-      "battle_type": "Singles",
-      "moves": [
-        "Shadow ball",
-        "Psychic",
-        "Charm",
-        "Magic room"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
     }
   },
   "Jynx": {
@@ -24232,6 +26491,44 @@ backup_data = {
       "ai_tags": [
         "Check Bad Move"
       ]
+    },
+    "Lvl 0 Sailor Dwayne 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 252,
+        "at": 0,
+        "df": 252,
+        "sa": 6,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Leftovers",
+      "level": "0",
+      "nature": "Bold",
+      "battle_type": "Singles",
+      "moves": [
+        "Encore",
+        "Counter",
+        "Mirror Coat",
+        "Destiny Bond"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Shadow Tag",
+      "sublevel": 0
     },
     "Lvl 41 Gentleman Everett ": {
       "ivs": {
@@ -29521,6 +31818,44 @@ backup_data = {
       ],
       "ability": "Torrent"
     },
+    "Lvl 0 Beauty Johanna 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Swampertite",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Liquidation",
+        "Earthquake",
+        "Power-Up Punch",
+        "Avalanche"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Torrent",
+      "sublevel": 0
+    },
     "Lvl 84 Rival Brendan Evergrande Torchic ": {
       "ivs": {
         "hp": 31,
@@ -34504,6 +36839,44 @@ backup_data = {
         "Check Bad Move"
       ]
     },
+    "Lvl 0 Sailor Dwayne 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Toxic Orb",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Flame Charge",
+        "Sacred Fire",
+        "Facade",
+        "Flame Charge"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Toxic Boost",
+      "sublevel": 0
+    },
     "Lvl 28 Youngster Deandre ": {
       "ivs": {
         "hp": 0,
@@ -35333,6 +37706,46 @@ backup_data = {
       "ai_tags": [
         "Check Bad Move"
       ]
+    }
+  },
+  "Sandy Shocks": {
+    "Lvl -1 Camper Drew ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Air Balloon",
+      "level": "-1",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Discharge",
+        "Earth Power",
+        "Flash Cannon",
+        "Thunderbolt"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Water Compaction",
+      "sublevel": -1
     }
   },
   "Sandaconda": {
@@ -42072,6 +44485,44 @@ backup_data = {
       "ai_tags": [
         "Check Bad Move"
       ]
+    },
+    "Lvl -1 Sailor Dwayne 3 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sitrus Berry",
+      "level": "-1",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Roost",
+        "Surf",
+        "Icy Wind",
+        "Air Slash"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Gulp Missile",
+      "sublevel": -1
     }
   },
   "Zamazenta": {
@@ -42103,45 +44554,6 @@ backup_data = {
         "Play Rough"
       ],
       "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Dauntless Shield"
-    }
-  },
-  "Zamazenta-Crowned": {
-    "Lvl 85 Elite Four Cynthia ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Rusted Shield",
-      "level": 85,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Body Press",
-        "Iron Defense",
-        "Iron Head",
-        "Play Rough"
-      ],
-      "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
         "Try To Faint",
@@ -43531,45 +45943,6 @@ backup_data = {
       "ability": "Telepathy"
     }
   },
-  "Palkia-Primal": {
-    "Lvl 85 Champion Wallace With Steven ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Lustrous Orb",
-      "level": 85,
-      "nature": "Timid",
-      "battle_type": "Singles",
-      "moves": [
-        "Spacial Rend",
-        "Earth Power",
-        "Aura Sphere",
-        "Hydro Pump"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": null
-    }
-  },
   "Suicune": {
     "Lvl 85 Champion Wallace With Steven ": {
       "ivs": {
@@ -43797,45 +46170,6 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Telepathy"
-    }
-  },
-  "Dialga-Primal": {
-    "Lvl 85 Champion Steven With Wallace ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Adamant Orb",
-      "level": 85,
-      "nature": "Timid",
-      "battle_type": "Singles",
-      "moves": [
-        "Draco Barrage",
-        "Flash Cannon",
-        "Fire Blast",
-        "Ice Beam"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": null
     }
   },
   "Metagross": {
@@ -44251,45 +46585,6 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Air Lock"
-    }
-  },
-  "Rayquaza-Mega": {
-    "Lvl 82 Elite Four Drake ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 0,
-        "at": 252,
-        "df": 0,
-        "sa": 6,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Focus Sash",
-      "level": 82,
-      "nature": "Naive",
-      "battle_type": "Doubles",
-      "moves": [
-        "Dragon Ascent",
-        "Dragon Pulse",
-        "Earth Power",
-        "Extreme Speed"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Delta Stream"
     }
   },
   "Rhyhorn": {
@@ -52598,80 +54893,6 @@ backup_data = {
       "sublevel": -2
     }
   },
-  "Snorlax": {
-    "Lvl -2 School Kid Ted ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Snorlaxite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Body Slam",
-        "Wood Hammer",
-        "Earthquake",
-        "Heavy Slam"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Thick Fat",
-      "sublevel": -2
-    },
-    "Lvl 75 Lass Halle ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 75,
-      "nature": "Impish",
-      "battle_type": "Singles",
-      "moves": [
-        "Crunch",
-        "Heavy slam",
-        "High horsepower",
-        "Wood hammer"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability"
-      ]
-    }
-  },
   "Snorlax-Mega": {
     "Lvl -2 School Kid Ted ": {
       "ivs": {
@@ -54516,6 +56737,44 @@ backup_data = {
       "ability": "Frisk",
       "sublevel": -1
     },
+    "Lvl 0 Beauty Johanna 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Pidgeotite",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Hurricane",
+        "Heat Wave",
+        "Hyper Voice",
+        "Focus Blast"
+      ],
+      "sub_index": 4,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Frisk",
+      "sublevel": 0
+    },
     "Lvl 60 Picnicker Ashley ": {
       "ivs": {
         "hp": 0,
@@ -54587,6 +56846,44 @@ backup_data = {
       ],
       "ability": "No Guard",
       "sublevel": -1
+    },
+    "Lvl 0 Beauty Johanna 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Pidgeotite",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Hurricane",
+        "Heat Wave",
+        "Hyper Voice",
+        "Focus Blast"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "No Guard",
+      "sublevel": 0
     }
   },
   "Fearow": {
@@ -56342,6 +58639,44 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Mega Launcher"
+    },
+    "Lvl 0 Beauty Johanna 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "White Herb",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Armor Cannon",
+        "Aura Sphere",
+        "Dragon Pulse",
+        "Psyshock"
+      ],
+      "sub_index": 4,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Mega Launcher",
+      "sublevel": 0
     }
   },
   "Ceruledge": {
@@ -56378,6 +58713,44 @@ backup_data = {
         "Try To Faint",
         "Check Viability"
       ]
+    },
+    "Lvl 0 Sailor Dwayne 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Air Balloon",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Bitter Blade",
+        "Shadow Claw",
+        "Close Combat",
+        "Shadow Sneak"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Flash Fire",
+      "sublevel": 0
     },
     "Lvl 0 Rival Befools ": {
       "ivs": {
@@ -60458,6 +62831,45 @@ backup_data = {
         "Check Bad Move"
       ]
     },
+    "Lvl 0 Sailor Dwayne 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Muscle Band",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Steel Wing",
+        "Facade",
+        "Dual Wingbeat",
+        "U-turn"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "status": "Frozen",
+      "ability": "Guts",
+      "sublevel": 0
+    },
     "Lvl 60 Camper Flint ": {
       "ivs": {
         "hp": 0,
@@ -60688,6 +63100,44 @@ backup_data = {
       ],
       "sub_index": 1,
       "ai_tags": []
+    },
+    "Lvl 0 Beauty Johanna 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sitrus Berry",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Dragon Hammer",
+        "Wood Hammer",
+        "Facade",
+        "Iron Head"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Harvest",
+      "sublevel": 0
     },
     "Lvl -3 Triathlete Alyssa ": {
       "ivs": {
@@ -61739,182 +64189,6 @@ backup_data = {
       ],
       "ability": "Poison Touch",
       "sublevel": 0
-    }
-  },
-  "Heracross": {
-    "Lvl -2 Parasol Lady Madeline ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Heracronite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Blast",
-        "Arm Thrust",
-        "Bullet Seed",
-        "Pin Missile"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Guts",
-      "sublevel": -2
-    },
-    "Lvl -2 Parasol Lady Madeline2 ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Heracronite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Blast",
-        "Arm Thrust",
-        "Bullet Seed",
-        "Pin Missile"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move"
-      ],
-      "ability": "Guts",
-      "sublevel": -2
-    },
-    "Lvl -2 Parasol Lady Madeline3 ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Heracronite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Blast",
-        "Arm Thrust",
-        "Bullet Seed",
-        "Pin Missile"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move"
-      ],
-      "ability": "Guts",
-      "sublevel": -2
-    },
-    "Lvl -2 Parasol Lady Madeline4 ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Heracronite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Blast",
-        "Arm Thrust",
-        "Bullet Seed",
-        "Pin Missile"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move"
-      ],
-      "ability": "Guts",
-      "sublevel": -2
-    },
-    "Lvl -2 Parasol Lady Madeline5 ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Heracronite",
-      "level": "-2",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Rock Blast",
-        "Arm Thrust",
-        "Bullet Seed",
-        "Pin Missile"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move"
-      ],
-      "ability": "Guts",
-      "sublevel": -2
     }
   },
   "Heracross-Mega": {
@@ -63598,6 +65872,44 @@ backup_data = {
         "Check Bad Move"
       ]
     },
+    "Lvl 0 Sailor Dwayne 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Throat Spray",
+      "level": "0",
+      "nature": "Modest",
+      "battle_type": "Singles",
+      "moves": [
+        "Hyper Voice",
+        "Moonblast",
+        "Energy Ball",
+        "Psychic"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Liquid Voice",
+      "sublevel": 0
+    },
     "Lvl 0 Rival Natn ": {
       "ivs": {
         "hp": 31,
@@ -63707,6 +66019,44 @@ backup_data = {
       "ai_tags": [
         "Check Bad Move"
       ]
+    },
+    "Lvl 0 Sailor Dwayne 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "White Herb",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Razor Shell",
+        "Night Slash",
+        "Sacred Sword",
+        "Shell Smash"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Sharpness",
+      "sublevel": 0
     },
     "Lvl 65 Swimmer M Harrison ": {
       "ivs": {
@@ -65133,6 +67483,838 @@ backup_data = {
       ],
       "ability": "Gluttony",
       "sublevel": -1
+    }
+  },
+  "Thievul": {
+    "Lvl -1 Sailor Dwayne 3 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Dark Gem",
+      "level": "-1",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Dark Pulse",
+        "Sucker Punch",
+        "Grass Knot",
+        "Psychic"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Unburden",
+      "sublevel": -1
+    }
+  },
+  "Sceptile": {
+    "Lvl 0 Sailor Dwayne 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sceptilite",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Dual Chop",
+        "Bullet Seed",
+        "Rock Tomb",
+        "Power-Up Punch"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Overgrow",
+      "sublevel": 0
+    },
+    "Lvl 64 Rival Brendan Route 119 Mudkip ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sceptilite",
+      "level": 64,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Dual Chop",
+        "Bullet Seed",
+        "Earthquake",
+        "Swords Dance"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Overgrow"
+    },
+    "Lvl 64 Rival May Route 119 Mudkip ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sceptilite",
+      "level": 64,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Dual Chop",
+        "Bullet Seed",
+        "Earthquake",
+        "Swords Dance"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Omniscient"
+      ],
+      "ability": "Overgrow"
+    },
+    "Lvl 84 Rival Brendan Evergrande Mudkip ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sceptilite",
+      "level": 84,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Dual Chop",
+        "Bullet Seed",
+        "Earthquake",
+        "Swords Dance"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Overgrow"
+    },
+    "Lvl 84 Rival May Evergrande Mudkip ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sceptilite",
+      "level": 84,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Dual Chop",
+        "Bullet Seed",
+        "Earthquake",
+        "Swords Dance"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Overgrow"
+    }
+  },
+  "Sceptile-Mega": {
+    "Lvl 0 Sailor Dwayne 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sceptilite",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Dual Chop",
+        "Bullet Seed",
+        "Rock Tomb",
+        "Power-Up Punch"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Technician",
+      "sublevel": 0
+    },
+    "Lvl 64 Rival Brendan Route 119 Mudkip ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sceptilite",
+      "level": 64,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Dual Chop",
+        "Bullet Seed",
+        "Earthquake",
+        "Swords Dance"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Technician"
+    },
+    "Lvl 64 Rival May Route 119 Mudkip ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sceptilite",
+      "level": 64,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Dual Chop",
+        "Bullet Seed",
+        "Earthquake",
+        "Swords Dance"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Omniscient"
+      ],
+      "ability": "Technician"
+    },
+    "Lvl 84 Rival Brendan Evergrande Mudkip ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sceptilite",
+      "level": 84,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Dual Chop",
+        "Bullet Seed",
+        "Earthquake",
+        "Swords Dance"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Technician"
+    },
+    "Lvl 84 Rival May Evergrande Mudkip ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sceptilite",
+      "level": 84,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Dual Chop",
+        "Bullet Seed",
+        "Earthquake",
+        "Swords Dance"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Technician"
+    }
+  },
+  "Dugtrio": {
+    "Lvl 0 Sailor Dwayne 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Focus Sash",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Earthquake",
+        "Stone Edge",
+        "Sucker Punch",
+        "Swords Dance"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Arena Trap",
+      "sublevel": 0
+    }
+  },
+  "Pyroar": {
+    "Lvl 0 Sailor Dwayne 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Throat Spray",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Hyper Voice",
+        "Torch Song",
+        "Dark Pulse",
+        "Scorching Sands"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Adaptability",
+      "sublevel": 0
+    },
+    "Lvl 70 Team Magma Grunt Magma Hideout3 ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 70,
+      "nature": "Hardy",
+      "battle_type": "Singles",
+      "moves": [
+        "Hyper voice",
+        "Incinerate",
+        "Overheat",
+        "Torch song"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    },
+    "Lvl 35 Aroma Lady Shayla ": {
+      "ivs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "evs": {
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
+      },
+      "item": null,
+      "level": 35,
+      "nature": "Sassy",
+      "battle_type": "Singles",
+      "moves": [
+        "Take down",
+        "Fire fang",
+        "Endeavor",
+        "Echoed voice"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move"
+      ]
+    }
+  },
+  "Ampharos": {
+    "Lvl 0 Sailor Dwayne 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Ampharosite",
+      "level": "0",
+      "nature": "Modest",
+      "battle_type": "Singles",
+      "moves": [
+        "Thunderbolt",
+        "Dragon Pulse",
+        "Aura Sphere",
+        "Agility"
+      ],
+      "sub_index": 4,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Plus",
+      "sublevel": 0
+    },
+    "Lvl 0 Rival Iriv24 ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Life Orb",
+      "level": "0",
+      "nature": "Modest",
+      "battle_type": "Singles",
+      "moves": [
+        "Thunderbolt",
+        "Dragon Pulse",
+        "Signal Beam",
+        "Aura Sphere"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Static",
+      "sublevel": 0
+    }
+  },
+  "Ampharos-Mega": {
+    "Lvl 0 Sailor Dwayne 5 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Ampharosite",
+      "level": "0",
+      "nature": "Modest",
+      "battle_type": "Singles",
+      "moves": [
+        "Thunderbolt",
+        "Dragon Pulse",
+        "Aura Sphere",
+        "Agility"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Mold Breaker",
+      "sublevel": 0
+    }
+  },
+  "Ferrothorn": {
+    "Lvl 0 Sailor Dwayne 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 252,
+        "at": 6,
+        "df": 252,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Quick Claw",
+      "level": "0",
+      "nature": "Relaxed",
+      "battle_type": "Singles",
+      "moves": [
+        "Gyro Ball",
+        "Power Whip",
+        "Stealth Rock",
+        "Explosion"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Iron Barbs",
+      "sublevel": 0
+    },
+    "Lvl -2 Hiker Alan ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 252,
+        "at": 6,
+        "df": 252,
+        "sa": null,
+        "sd": null,
+        "sp": null
+      },
+      "item": "Rocky Helmet",
+      "level": "-2",
+      "nature": "Relaxed",
+      "battle_type": "Singles",
+      "moves": [
+        "Power Whip",
+        "Gyro Ball",
+        "Leech Seed",
+        "Thunder Wave"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Iron Barbs",
+      "sublevel": -2
+    }
+  },
+  "Salamence-Mega": {
+    "Lvl 0 Sailor Dwayne 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Salamencite",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Double-Edge",
+        "Iron Head",
+        "Dragon Claw",
+        "Dragon Dance"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Aerilate",
+      "sublevel": 0
+    },
+    "Lvl 0 Rival Natn ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Salamencite",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Return",
+        "Dragon Claw",
+        "Earthquake",
+        "Dragon Dance"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Aerilate",
+      "sublevel": 0
     }
   },
   "Machop": {
@@ -67685,304 +70867,6 @@ backup_data = {
       "sublevel": 0
     }
   },
-  "Sceptile": {
-    "Lvl 64 Rival Brendan Route 119 Mudkip ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Sceptilite",
-      "level": 64,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Dual Chop",
-        "Bullet Seed",
-        "Earthquake",
-        "Swords Dance"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Overgrow"
-    },
-    "Lvl 64 Rival May Route 119 Mudkip ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Sceptilite",
-      "level": 64,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Dual Chop",
-        "Bullet Seed",
-        "Earthquake",
-        "Swords Dance"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Omniscient"
-      ],
-      "ability": "Overgrow"
-    },
-    "Lvl 84 Rival Brendan Evergrande Mudkip ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Sceptilite",
-      "level": 84,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Dual Chop",
-        "Bullet Seed",
-        "Earthquake",
-        "Swords Dance"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Overgrow"
-    },
-    "Lvl 84 Rival May Evergrande Mudkip ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Sceptilite",
-      "level": 84,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Dual Chop",
-        "Bullet Seed",
-        "Earthquake",
-        "Swords Dance"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Overgrow"
-    }
-  },
-  "Sceptile-Mega": {
-    "Lvl 64 Rival Brendan Route 119 Mudkip ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Sceptilite",
-      "level": 64,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Dual Chop",
-        "Bullet Seed",
-        "Earthquake",
-        "Swords Dance"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Technician"
-    },
-    "Lvl 64 Rival May Route 119 Mudkip ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Sceptilite",
-      "level": 64,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Dual Chop",
-        "Bullet Seed",
-        "Earthquake",
-        "Swords Dance"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Omniscient"
-      ],
-      "ability": "Technician"
-    },
-    "Lvl 84 Rival Brendan Evergrande Mudkip ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Sceptilite",
-      "level": 84,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Dual Chop",
-        "Bullet Seed",
-        "Earthquake",
-        "Swords Dance"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Technician"
-    },
-    "Lvl 84 Rival May Evergrande Mudkip ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Sceptilite",
-      "level": 84,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Dual Chop",
-        "Bullet Seed",
-        "Earthquake",
-        "Swords Dance"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Technician"
-    }
-  },
   "Torchic": {
     "Lvl 5 Rival Brendan Route 103 Treecko ": {
       "ivs": {
@@ -68279,421 +71163,6 @@ backup_data = {
       ],
       "ability": "Striker",
       "sublevel": -1
-    }
-  },
-  "Blaziken": {
-    "Lvl 64 Rival Brendan Route 119 Treecko ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Blazikenite",
-      "level": 64,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Blaze Kick",
-        "Thunderous Kick",
-        "Thunder Punch",
-        "Bulk Up"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Striker"
-    },
-    "Lvl 64 Rival May Route 119 Treecko ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Blazikenite",
-      "level": 64,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Blaze Kick",
-        "Thunderous Kick",
-        "Thunder Punch",
-        "Bulk Up"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Striker"
-    },
-    "Lvl 84 Rival Brendan Evergrande Treecko ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Blazikenite",
-      "level": 84,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Blaze Kick",
-        "Thunderous Kick",
-        "Thunder Punch",
-        "Bulk Up"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Striker"
-    },
-    "Lvl 84 Rival May Evergrande Treecko ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Blazikenite",
-      "level": 84,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Blaze Kick",
-        "Thunderous Kick",
-        "Thunder Punch",
-        "Bulk Up"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Striker"
-    },
-    "Lvl 0 Rival Suneal ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Life Orb",
-      "level": "0",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Flame Charge",
-        "Flare Blitz",
-        "Close Combat",
-        "Swords Dance"
-      ],
-      "sub_index": 1,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient",
-        "Ace Pokemon"
-      ],
-      "ability": "Blaze",
-      "sublevel": 0
-    },
-    "Lvl 0 Rival Dollamike ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Leftovers",
-      "level": "0",
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Flame Charge",
-        "Brick Break",
-        "Swords Dance",
-        "Blaze Kick"
-      ],
-      "sub_index": 1,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Striker",
-      "sublevel": 0
-    },
-    "Lvl 0 Rival Oblivion Wing ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Expert Belt",
-      "level": "0",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Triple Arrows",
-        "Brave Bird",
-        "Blaze Kick",
-        "Quick Attack"
-      ],
-      "sub_index": 2,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Striker",
-      "sublevel": 0
-    }
-  },
-  "Blaziken-Mega": {
-    "Lvl 64 Rival Brendan Route 119 Treecko ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Blazikenite",
-      "level": 64,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Blaze Kick",
-        "Thunderous Kick",
-        "Thunder Punch",
-        "Bulk Up"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Striker"
-    },
-    "Lvl 64 Rival May Route 119 Treecko ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Blazikenite",
-      "level": 64,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Blaze Kick",
-        "Thunderous Kick",
-        "Thunder Punch",
-        "Bulk Up"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Striker"
-    },
-    "Lvl 84 Rival Brendan Evergrande Treecko ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Blazikenite",
-      "level": 84,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Blaze Kick",
-        "Thunderous Kick",
-        "Thunder Punch",
-        "Bulk Up"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Striker"
-    },
-    "Lvl 84 Rival May Evergrande Treecko ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Blazikenite",
-      "level": 84,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Blaze Kick",
-        "Thunderous Kick",
-        "Thunder Punch",
-        "Bulk Up"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Striker"
     }
   },
   "Mudkip": {
@@ -69068,6 +71537,44 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Swift Swim"
+    },
+    "Lvl 0 Beauty Johanna 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Swampertite",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Liquidation",
+        "Earthquake",
+        "Power-Up Punch",
+        "Avalanche"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Swift Swim",
+      "sublevel": 0
     },
     "Lvl 84 Rival Brendan Evergrande Torchic ": {
       "ivs": {
@@ -71772,45 +74279,6 @@ backup_data = {
       "ai_tags": []
     }
   },
-  "Groudon-Primal": {
-    "Lvl 80 Magma Leader Maxie Magma Hideout ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Red Orb",
-      "level": 80,
-      "nature": "Jolly",
-      "battle_type": "Doubles",
-      "moves": [
-        "Precipice Blades",
-        "Fire Punch",
-        "Body Press",
-        "Rock Slide"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Desolate Land"
-    }
-  },
   "Jigglypuff": {
     "Lvl 5 Lass Tiana ": {
       "ivs": {
@@ -74068,202 +76536,6 @@ backup_data = {
       "sublevel": -2
     }
   },
-  "Ferrothorn": {
-    "Lvl -2 Hiker Alan ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 252,
-        "at": 6,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
-      },
-      "item": "Rocky Helmet",
-      "level": "-2",
-      "nature": "Relaxed",
-      "battle_type": "Singles",
-      "moves": [
-        "Power Whip",
-        "Gyro Ball",
-        "Leech Seed",
-        "Thunder Wave"
-      ],
-      "sub_index": 1,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Iron Barbs",
-      "sublevel": -2
-    }
-  },
-  "Steelix": {
-    "Lvl -2 Hiker Alan ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 252,
-        "at": 6,
-        "df": 252,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Steelixite",
-      "level": "-2",
-      "nature": "Impish",
-      "battle_type": "Singles",
-      "moves": [
-        "Earthquake",
-        "Stone Edge",
-        "Heavy Slam",
-        "Curse"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Rock Head",
-      "sublevel": -2
-    },
-    "Lvl 0 Leader Roark ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
-      },
-      "item": "Steelixite",
-      "level": "0",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Heavy Slam",
-        "Crunch",
-        "Earthquake",
-        "Stone Edge"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Rock Head",
-      "sublevel": 0
-    }
-  },
-  "Steelix-Mega": {
-    "Lvl -2 Hiker Alan ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 252,
-        "at": 6,
-        "df": 252,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Steelixite",
-      "level": "-2",
-      "nature": "Impish",
-      "battle_type": "Singles",
-      "moves": [
-        "Earthquake",
-        "Stone Edge",
-        "Heavy Slam",
-        "Curse"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Heatproof",
-      "sublevel": -2
-    },
-    "Lvl 0 Leader Roark ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
-      },
-      "item": "Steelixite",
-      "level": "0",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Heavy Slam",
-        "Crunch",
-        "Earthquake",
-        "Stone Edge"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Heatproof",
-      "sublevel": 0
-    }
-  },
   "Stakataka": {
     "Lvl -1 Hiker Alan ": {
       "ivs": {
@@ -74996,6 +77268,480 @@ backup_data = {
         "Try To Faint",
         "Check Viability"
       ]
+    }
+  },
+  "Scyther": {
+    "Lvl -1 Beauty Johanna 3 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Eviolite",
+      "level": "-1",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Swords Dance",
+        "Aerial Ace",
+        "Bug Bite",
+        "Rock Smash"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Technician",
+      "sublevel": -1
+    }
+  },
+  "Lumineon": {
+    "Lvl -1 Beauty Johanna 3 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Wise Glasses",
+      "level": "-1",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Scald",
+        "Aurora Beam",
+        "Air Cutter",
+        "Ominous Wind"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Storm Drain",
+      "sublevel": -1
+    }
+  },
+  "Glimmora": {
+    "Lvl 0 Beauty Johanna 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Focus Sash",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Stealth Rock",
+        "Flash Cannon",
+        "Sludge Wave",
+        "Power Gem"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Toxic Debris",
+      "sublevel": 0
+    },
+    "Lvl 0 Rival Sunbird ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Black Sludge",
+      "level": "0",
+      "nature": "Modest",
+      "battle_type": "Singles",
+      "moves": [
+        "Stealth Rock",
+        "Hidden Power",
+        "Sludge Wave",
+        "Power Gem"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Toxic Debris",
+      "sublevel": 0
+    }
+  },
+  "Leafeon": {
+    "Lvl 0 Beauty Johanna 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Life Orb",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Leaf Blade",
+        "X-Scissor",
+        "Stomping Tantrum",
+        "Swords Dance"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Sap Sipper",
+      "sublevel": 0
+    }
+  },
+  "Skeledirge": {
+    "Lvl 0 Beauty Johanna 4 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Throat Spray",
+      "level": "0",
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Torch Song",
+        "Shadow Ball",
+        "Hyper Voice",
+        "Flame Charge"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Unaware",
+      "sublevel": 0
+    },
+    "Lvl 0 Rival Sunbird ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Throat Spray",
+      "level": "0",
+      "nature": "Modest",
+      "battle_type": "Singles",
+      "moves": [
+        "Snarl",
+        "Hex",
+        "Hyper Voice",
+        "Torch Song"
+      ],
+      "sub_index": 4,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Unaware",
+      "sublevel": 0
+    }
+  },
+  "Palafin": {
+    "Lvl 0 Beauty Johanna 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Choice Band",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Jet Punch",
+        "Flip Turn",
+        "Close Combat",
+        "Ice Punch"
+      ],
+      "sub_index": 0,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Zero To Hero",
+      "sublevel": 0
+    }
+  },
+  "Hydrapple": {
+    "Lvl 0 Beauty Johanna 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 30,
+        "df": 31,
+        "sa": 30,
+        "sd": 31,
+        "sp": 30
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Assault Vest",
+      "level": "0",
+      "nature": "Modest",
+      "battle_type": "Singles",
+      "moves": [
+        "Fickle Beam",
+        "Energy Ball",
+        "Earth Power",
+        "Hidden Power"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Regenerator",
+      "sublevel": 0
+    }
+  },
+  "Tyranitar": {
+    "Lvl 0 Beauty Johanna 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Tyranitarite",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Slide",
+        "Crunch",
+        "Earthquake",
+        "Dragon Dance"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Sand Stream",
+      "sublevel": 0
+    },
+    "Lvl 0 Rival Iriv24 ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Chople Berry",
+      "level": "0",
+      "nature": "Adamant",
+      "battle_type": "Singles",
+      "moves": [
+        "Crunch",
+        "Rock Slide",
+        "High Horsepower",
+        "Dragon Dance"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Unnerve",
+      "sublevel": 0
+    }
+  },
+  "Tyranitar-Mega": {
+    "Lvl 0 Beauty Johanna 7 Badges ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Tyranitarite",
+      "level": "0",
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Rock Slide",
+        "Crunch",
+        "Earthquake",
+        "Dragon Dance"
+      ],
+      "sub_index": 6,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Sand Stream",
+      "sublevel": 0
     }
   },
   "Kecleon": {
@@ -76470,40 +79216,6 @@ backup_data = {
       ]
     }
   },
-  "Yanmega": {
-    "Lvl 31 Kindler Hayden ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 31,
-      "nature": "Relaxed",
-      "battle_type": "Singles",
-      "moves": [
-        "Detect",
-        "Supersonic",
-        "Uproar",
-        "Pursuit"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
-    }
-  },
   "Dusclops": {
     "Lvl 37 Picnicker Sophie ": {
       "ivs": {
@@ -76833,72 +79545,6 @@ backup_data = {
         "Lucky chant",
         "Psybeam",
         "Hypnosis"
-      ],
-      "sub_index": 2,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
-    }
-  },
-  "Pyroar": {
-    "Lvl 70 Team Magma Grunt Magma Hideout3 ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 70,
-      "nature": "Hardy",
-      "battle_type": "Singles",
-      "moves": [
-        "Hyper voice",
-        "Incinerate",
-        "Overheat",
-        "Torch song"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move"
-      ]
-    },
-    "Lvl 35 Aroma Lady Shayla ": {
-      "ivs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "evs": {
-        "hp": 0,
-        "at": 0,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 0
-      },
-      "item": null,
-      "level": 35,
-      "nature": "Sassy",
-      "battle_type": "Singles",
-      "moves": [
-        "Take down",
-        "Fire fang",
-        "Endeavor",
-        "Echoed voice"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -79125,6 +81771,47 @@ backup_data = {
       "sublevel": 0
     }
   },
+  "Orthworm": {
+    "Lvl -1 Leader Byron ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 252,
+        "at": 6,
+        "df": 252,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Sitrus Berry",
+      "level": "-1",
+      "nature": "Impish",
+      "battle_type": "Singles",
+      "moves": [
+        "Shed Tail",
+        "Body Press",
+        "Iron Head",
+        "Earthquake"
+      ],
+      "sub_index": 2,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Will Suicide",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Earth Eater",
+      "sublevel": -1
+    }
+  },
   "Melmetal": {
     "Lvl 0 Leader Byron ": {
       "ivs": {
@@ -80423,86 +83110,6 @@ backup_data = {
       "sublevel": 0
     }
   },
-  "Tyranitar": {
-    "Lvl 0 Rival Iriv24 ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Chople Berry",
-      "level": "0",
-      "nature": "Adamant",
-      "battle_type": "Singles",
-      "moves": [
-        "Crunch",
-        "Rock Slide",
-        "High Horsepower",
-        "Dragon Dance"
-      ],
-      "sub_index": 2,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Unnerve",
-      "sublevel": 0
-    }
-  },
-  "Ampharos": {
-    "Lvl 0 Rival Iriv24 ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Life Orb",
-      "level": "0",
-      "nature": "Modest",
-      "battle_type": "Singles",
-      "moves": [
-        "Thunderbolt",
-        "Dragon Pulse",
-        "Signal Beam",
-        "Aura Sphere"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Static",
-      "sublevel": 0
-    }
-  },
   "Donphan": {
     "Lvl 0 Rival Cap ": {
       "ivs": {
@@ -80580,86 +83187,6 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Tough Claws",
-      "sublevel": 0
-    }
-  },
-  "Glimmora": {
-    "Lvl 0 Rival Sunbird ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Black Sludge",
-      "level": "0",
-      "nature": "Modest",
-      "battle_type": "Singles",
-      "moves": [
-        "Stealth Rock",
-        "Hidden Power",
-        "Sludge Wave",
-        "Power Gem"
-      ],
-      "sub_index": 0,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Toxic Debris",
-      "sublevel": 0
-    }
-  },
-  "Skeledirge": {
-    "Lvl 0 Rival Sunbird ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 0,
-        "df": 0,
-        "sa": 252,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Throat Spray",
-      "level": "0",
-      "nature": "Modest",
-      "battle_type": "Singles",
-      "moves": [
-        "Snarl",
-        "Hex",
-        "Hyper Voice",
-        "Torch Song"
-      ],
-      "sub_index": 4,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Unaware",
       "sublevel": 0
     }
   },
@@ -80743,46 +83270,6 @@ backup_data = {
       "sublevel": 0
     }
   },
-  "Silvally": {
-    "Lvl 0 Rival Dollamike ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Leftovers",
-      "level": "0",
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Thunder Fang",
-        "Rock Slide",
-        "Parting Shot",
-        "Multi-Attack"
-      ],
-      "sub_index": 5,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "RKS System",
-      "sublevel": 0
-    }
-  },
   "Darkrai": {
     "Lvl 0 Rival Danni ": {
       "ivs": {
@@ -80820,46 +83307,6 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Bad Dreams",
-      "sublevel": 0
-    }
-  },
-  "Salamence-Mega": {
-    "Lvl 0 Rival Natn ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Salamencite",
-      "level": "0",
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Return",
-        "Dragon Claw",
-        "Earthquake",
-        "Dragon Dance"
-      ],
-      "sub_index": 6,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Aerilate",
       "sublevel": 0
     }
   },
@@ -80941,6 +83388,246 @@ backup_data = {
       ],
       "ability": "Thick Fat",
       "sublevel": 0
+    }
+  },
+  "Kyogre-Primal": {
+    "Lvl 80 Aqua Leader Archie ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Blue Orb",
+      "level": 80,
+      "nature": "Timid",
+      "battle_type": "Doubles",
+      "moves": [
+        "Origin Pulse",
+        "Thunder",
+        "Ice Beam",
+        "Water Spout"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": null,
+      "sub_index": 6
+    }
+  },
+  "Zamazenta-Crowned": {
+    "Lvl 85 Elite Four Cynthia ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Rusted Shield",
+      "level": 85,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Body Press",
+        "Iron Defense",
+        "Iron Head",
+        "Play Rough"
+      ],
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": null,
+      "sub_index": 6
+    }
+  },
+  "Palkia-Primal": {
+    "Lvl 85 Champion Wallace With Steven ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Lustrous Orb",
+      "level": 85,
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Spacial Rend",
+        "Earth Power",
+        "Aura Sphere",
+        "Hydro Pump"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": null,
+      "sub_index": 6
+    }
+  },
+  "Dialga-Primal": {
+    "Lvl 85 Champion Steven With Wallace ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Adamant Orb",
+      "level": 85,
+      "nature": "Timid",
+      "battle_type": "Singles",
+      "moves": [
+        "Draco Barrage",
+        "Flash Cannon",
+        "Fire Blast",
+        "Ice Beam"
+      ],
+      "sub_index": 1,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": null,
+      "sub_index": 6
+    }
+  },
+  "Rayquaza-Mega": {
+    "Lvl 82 Elite Four Drake ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 0,
+        "at": 252,
+        "df": 0,
+        "sa": 6,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Focus Sash",
+      "level": 82,
+      "nature": "Naive",
+      "battle_type": "Doubles",
+      "moves": [
+        "Dragon Ascent",
+        "Dragon Pulse",
+        "Earth Power",
+        "Extreme Speed"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": null,
+      "sub_index": 6
+    }
+  },
+  "Groudon-Primal": {
+    "Lvl 80 Magma Leader Maxie Magma Hideout ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Red Orb",
+      "level": 80,
+      "nature": "Jolly",
+      "battle_type": "Doubles",
+      "moves": [
+        "Precipice Blades",
+        "Fire Punch",
+        "Body Press",
+        "Rock Slide"
+      ],
+      "sub_index": 5,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": null,
+      "sub_index": 6
     }
   }
 }
