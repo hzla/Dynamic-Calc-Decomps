@@ -226,6 +226,41 @@ $('#save-state').click(function(){
 })
 
 
+function getLastInteger(str) {
+  // find all numbers
+  let matches = str.match(/\d+/g);
+  if (!matches) return null;
+  return parseInt(matches[matches.length - 1], 10);
+}
+
+
+$('.results-right label').on('contextmenu', function(e) {
+    e.preventDefault()
+    $(this).click()
+    let matches = $('#damageValues').text().match(/\d+/g)
+    let dmg = parseInt(matches[matches.length - 1])
+
+    let newHP = Math.max(parseInt($('#p1 .max-hp').text()) - dmg, 0)
+
+    $('#p1 .current-hp').val(newHP).change()
+
+})
+
+$('[aria-labelledby="resultHeaderL"] label').on('contextmenu', function(e) {
+    e.preventDefault()
+    $(this).click()
+    let matches = $('#damageValues').text().match(/\d+/g)
+    let dmg = parseInt(matches[matches.length - 1])
+
+    let newHP = Math.max(parseInt($('#p2 .max-hp').text()) - dmg, 0)
+
+    $('#p2 .current-hp').val(newHP).change()
+
+})
+
+
+
+
 $('.notes-text').on("mouseup keyup", function () {
     const selection = window.getSelection();
     if (selection.rangeCount > 0) {
@@ -2676,29 +2711,6 @@ $(document).ready(function() {
 
    $('body').on('click', function() {
         $("#ai-container").hide()
-   })
-
-   $(document).on('click', '.results-right label', function() {
-        
-        var move = $(".results-right .visually-hidden:checked + .btn").text()
-        if (move == "") {
-            return
-        }
-
-        var effect_code = parseInt(jsonMoves[move]["e_id"])
-
-
-        var ai_content = expertAI[effect_code]
-
-        ai_html = ""
-        
-        ai_html += `<h2>${move} AI</h2><br>`
-
-        for (n in ai_content) {
-            ai_html += ai_content[n].replace("\t", "&ensp;")
-            ai_html += "<br>"
-        }
-        $("#ai-container").html(ai_html)
    })
 
    $(document).on('click', '#img-toggle', function() {
