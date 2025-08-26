@@ -532,7 +532,7 @@ var ADV_PATCH = {
     Refresh: { bp: 0, category: 'Status', type: 'Normal' },
     'Signal Beam': { bp: 75, type: 'Bug' },
     'Silver Wind': { bp: 60, type: 'Bug' },
-    'Aerial Ace': { bp: 60, type: 'Flying', makesContact: true },
+    'Aerial Ace': { bp: 60, type: 'Flying', makesContact: true, isSlicing: true},
     'Blast Burn': { bp: 150, type: 'Fire' },
     'Blaze Kick': { bp: 85, type: 'Fire', makesContact: true },
     'Bulk Up': { bp: 0, category: 'Status', type: 'Fighting' },
@@ -4877,7 +4877,7 @@ var SV_PATCH = {
     }
 };
 var RR_PATCH = {
-    'Aerial Ace': { isSlicing: false },
+    'Aerial Ace': { isSlicing: true },
     'Aqua Step': { isKick: true, zp: 140, maxPower: 120 },
     'Armor Cannon': { isPulse: true },
     'Arm Thrust': { bp: 25 },

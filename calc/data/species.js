@@ -6816,7 +6816,7 @@ var SM_PATCH = {
     Melmetal: {
         types: ['Steel'],
         bs: { hp: 135, at: 143, df: 143, sa: 80, sd: 65, sp: 34 },
-        weightkg: 800,
+        weightkg: 80,
         gender: 'N',
         abilities: { 0: 'Iron Fist' }
     },
