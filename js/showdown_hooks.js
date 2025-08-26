@@ -332,6 +332,20 @@ function setOpposing(id) {
     } 
 }
 
+$(document).on('change', '.set-selector', function() {
+    setTimeout(function() {
+        let weather = $('#weather-bar input:checked').first().val().toLowerCase()
+        $('.field-info').attr('class', 'field-info')
+        $('.field-info').addClass(weather)
+    }, 1)  
+})
+
+$(document).on('click', '#weather-bar input', function() {
+    let weather = $('#weather-bar input:checked').first().val().toLowerCase()
+    $('.field-info').attr('class', 'field-info')
+    $('.field-info').addClass(weather)
+})
+
 function get_trainer_names() {
     var all_poks = SETDEX_BW
     var trainer_names = [] 

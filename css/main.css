@@ -1394,6 +1394,22 @@ select.toxic-counter {
     border: 1px solid #bb86fc ;
 }
 
+.field-info.sun {
+    background-color: rgba(168, 71, 0, 0.15);
+}
+
+.field-info.rain {
+    background-color: rgba(26, 88, 174, 0.15);
+}
+
+.field-info.sand {
+    background-color: rgba(120, 102, 0, 0.15);
+}
+
+.field-info.snow, .field-info.hail {
+    background-color: rgba(92, 153, 153, 0.15);
+}
+
 #fragsheet-howto {
     border: 1px solid #1abc9c;
     color: #1abc9c;
