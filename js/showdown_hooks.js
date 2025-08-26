@@ -2662,6 +2662,12 @@ $(document).ready(function() {
         setOpposing($(this).attr('data-id'))
    })
 
+   $(document).on('click', '.trainer-pok-item', function() {
+        $(this).prev().click()
+   })
+
+
+
    
    $(document).on('click', '.nav-tag', function() {
         var set = customLeads[$(this).attr('data-next')].split("[")[0]

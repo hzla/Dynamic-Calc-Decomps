@@ -215,6 +215,8 @@ input[type="file"] {
 #ai-tags div {
     color: #bb86fc;
     background: none;
+    max-height: 20px;
+    overflow: hidden;
 }
 
 #learnset-show {
@@ -746,6 +748,7 @@ table td {
     left: 6px;
     width: 30px;
     top: 14px;
+    cursor: pointer;
 }
 
 .player-party .trainer-pok-container {
@@ -958,8 +961,8 @@ table td {
 .info-group.info-selectors {
     position: absolute;
     right: 0;
-    top: 240px;
-    max-width: calc(100% - 390px);
+    top: 237px;
+    max-width: calc(100% - 440px);
 }
 
 .info-group.info-selectors select {
