@@ -912,12 +912,6 @@ function addSets(pokes, name) {
 	 $(".trainer-pok.left-side" ).attr("draggable", "true")
 }
 
-
-
-
-
-
-
 function checkExeptions(poke) {
 	switch (poke) {
 	case 'Aegislash':
