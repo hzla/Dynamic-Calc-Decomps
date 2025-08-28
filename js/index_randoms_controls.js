@@ -154,7 +154,7 @@ $(".result-move").change(function () {
 			var desc = result.fullDesc(notation, false);
 			if (desc.indexOf('--') === -1) desc += ' -- possibly the worst move ever';
 			$("#mainResult").text(desc);
-			$("#damageValues").text("Possible damage amounts: (" + displayDamageHits(result.damage) + ")");
+			$("#damageValues").html("Possible damage amounts: (" + displayDamageHits(result.damage) + ")");
 		}
 	}
 
@@ -183,6 +183,11 @@ $(".result-move").change(function () {
 function displayDamageHits(damage) {
 	// Fixed Damage
 	if (typeof damage === 'number') return damage;
+
+	if (damage.length == 16) {
+		return ( damage.slice(0,8).join(', ') + `, <span id='dmg-median' title='AI Simulated Dmg Roll'>${damage[8]}</span>, ` + damage.slice(9).join(', '))
+	}
+
 	// Standard Damage
 	if (damage.length > 2) return damage.join(', ');
 	// Fixed Parental Bond Damage

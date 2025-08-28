@@ -412,6 +412,12 @@ input {
     font-size: 15px;
 }
 
+#dmg-median {
+    color: #bb86fc;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 #show-ai {
     position:  absolute;
     background: #bb86fc;
