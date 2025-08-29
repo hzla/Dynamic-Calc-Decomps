@@ -4247,7 +4247,7 @@ abils = {
     "Rapidash-Galar":
     [
         "Immunity",
-        null,
+        "Immunity",
         "Flash Fire"
     ],
     "Slowpoke":

@@ -129,7 +129,8 @@ document.getElementById('save-upload').addEventListener('change', function(event
                     // Try Substitute Spaces for Dashes if pokemon name doesn't exist
 
                     if (!pokedex[speciesName]) {
-                        speciesName = speciesName.replace(" ", "-")
+       
+                        speciesName = speciesName.replaceAll(" ", "-")
                     }
 
                     // get Item
@@ -247,7 +248,9 @@ document.getElementById('save-upload').addEventListener('change', function(event
                         abilitySlot = decrypted[misc_index * 3 + 2] >> 29 & 0b11
                         if (abils[speciesName]) {
                             abilitySlot = abils[speciesName][abilitySlot]
-                        }           
+                        } else {
+                            console.log(`${speciesName} no ability found`)
+                        }          
                     }
                     
 
