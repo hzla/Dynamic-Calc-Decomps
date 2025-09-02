@@ -767,6 +767,7 @@ function box_rolls() {
         }
 
         var monHp = mon.originalCurHP
+        var selected_move_index = $('#filter-move option:selected').index()
 
 
         var all_results = calculateAllMoves(damageGen, p1, p1field, mon, p2field, false);
@@ -787,9 +788,9 @@ function box_rolls() {
 
             opposing_dmg = opposing_results[j].damage
 
-            if (!can_topkill(opposing_dmg, monHp * taken_max_roll / 100)) {
+            if (!can_topkill(opposing_dmg, monHp * taken_max_roll / 100) && (selected_move_index == 0 || j == selected_move_index - 1)) {
                 defend_count += 1
-                if (defend_count == 4) {
+                if (defend_count == 4 || selected_move_index > 0) {
                     defenders.push({"set": box[m], "move": opposing_results[j].move.originalName})
                     $(`.trainer-pok[data-id='${box[m]}']`).addClass('defender')
                 }         
@@ -3023,6 +3024,8 @@ $('.set-selector, .move-selector').on("select2-close", function () {
            box_rolls() 
         } 
     })
+
+    $(document).on('change', '#filter-move', box_rolls)
 
     $(document).on('click', '#clear-filters', function(){
         $('#max-taken').val("")
