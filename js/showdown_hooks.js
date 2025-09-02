@@ -1404,6 +1404,7 @@ function can_kill(damages, hp) {
 
 // check if ai mon highest roll kills player
 function can_topkill(damages, hp) {
+    if (hp < 0) return true;
     kill_count = 0
 
     if (damages.length == 2) {
