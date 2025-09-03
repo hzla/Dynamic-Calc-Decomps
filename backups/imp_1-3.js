@@ -22,9 +22,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Self destruct",
-        "Stealth rock",
-        "Rock blast",
+        "Self Destruct",
+        "Stealth Rock",
+        "Rock Blast",
         "Discharge"
       ],
       "sub_index": 0,
@@ -56,10 +56,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Rock throw",
-        "Smack down",
+        "Rock Throw",
+        "Smack Down",
         "Thunderpunch",
-        "Self destruct"
+        "Self Destruct"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -92,7 +92,7 @@ backup_data = {
       "moves": [
         "Crunch",
         "Agility",
-        "Skull bash",
+        "Skull Bash",
         "Taunt"
       ],
       "sub_index": 0,
@@ -124,7 +124,7 @@ backup_data = {
       "moves": [
         "Crunch",
         "Agility",
-        "Skull bash",
+        "Skull Bash",
         "Taunt"
       ],
       "sub_index": 0,
@@ -229,8 +229,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swagger",
-        "Ice fang",
-        "Poison fang",
+        "Ice Fang",
+        "Poison Fang",
         "Crunch"
       ],
       "sub_index": 2,
@@ -262,10 +262,10 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Poison fang",
+        "Poison Fang",
         "Crunch",
         "Agility",
-        "Skull bash"
+        "Skull Bash"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -296,7 +296,7 @@ backup_data = {
       "moves": [
         "Crunch",
         "Agility",
-        "Skull bash",
+        "Skull Bash",
         "Taunt"
       ],
       "sub_index": 0,
@@ -330,8 +330,8 @@ backup_data = {
       "moves": [
         "Haze",
         "Venoshock",
-        "Air slash",
-        "Quick guard"
+        "Air Slash",
+        "Quick Guard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -362,8 +362,8 @@ backup_data = {
       "moves": [
         "Haze",
         "Venoshock",
-        "Air slash",
-        "Quick guard"
+        "Air Slash",
+        "Quick Guard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -394,8 +394,8 @@ backup_data = {
       "moves": [
         "Haze",
         "Venoshock",
-        "Air slash",
-        "Quick guard"
+        "Air Slash",
+        "Quick Guard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -426,8 +426,8 @@ backup_data = {
       "moves": [
         "Haze",
         "Venoshock",
-        "Air slash",
-        "Quick guard"
+        "Air Slash",
+        "Quick Guard"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -1129,8 +1129,8 @@ backup_data = {
       "moves": [
         "Haze",
         "Venoshock",
-        "Air slash",
-        "Quick guard"
+        "Air Slash",
+        "Quick Guard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -1159,8 +1159,8 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Leech life",
-        "Dual wingbeat",
+        "Leech Life",
+        "Dual Wingbeat",
         "Haze",
         "Venoshock"
       ],
@@ -1195,9 +1195,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Hydro pump",
-        "Ion deluge",
-        "Parabolic charge",
+        "Hydro Pump",
+        "Ion Deluge",
+        "Parabolic Charge",
         "Charge"
       ],
       "sub_index": 1,
@@ -1265,9 +1265,9 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Hydro pump",
-        "Ion deluge",
-        "Parabolic charge",
+        "Hydro Pump",
+        "Ion Deluge",
+        "Parabolic Charge",
         "Charge"
       ],
       "sub_index": 0,
@@ -1299,7 +1299,7 @@ backup_data = {
       "moves": [
         "Bubblebeam",
         "Spark",
-        "Signal beam",
+        "Signal Beam",
         "Scald"
       ],
       "sub_index": 0,
@@ -1329,9 +1329,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Hydro pump",
-        "Ion deluge",
-        "Parabolic charge",
+        "Hydro Pump",
+        "Ion Deluge",
+        "Parabolic Charge",
         "Charge"
       ],
       "sub_index": 0,
@@ -1442,7 +1442,7 @@ backup_data = {
         "Blizzard",
         "Snowscape",
         "Thrash",
-        "Ice hammer"
+        "Ice Hammer"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -1511,9 +1511,9 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Shadow ball",
-        "Earth power",
-        "Shore up",
+        "Shadow Ball",
+        "Earth Power",
+        "Shore Up",
         "Sandstorm"
       ],
       "sub_index": 0,
@@ -1721,8 +1721,8 @@ backup_data = {
       "moves": [
         "Embargo",
         "Yawn",
-        "Jaw lock",
-        "Play rough"
+        "Jaw Lock",
+        "Play Rough"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -1791,8 +1791,8 @@ backup_data = {
       "moves": [
         "Embargo",
         "Yawn",
-        "Jaw lock",
-        "Play rough"
+        "Jaw Lock",
+        "Play Rough"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -1821,9 +1821,9 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Odor sleuth",
+        "Odor Sleuth",
         "Roar",
-        "Poison fang",
+        "Poison Fang",
         "Assurance"
       ],
       "sub_index": 0,
@@ -1854,9 +1854,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Roar",
-        "Poison fang",
+        "Poison Fang",
         "Assurance",
-        "Scary face"
+        "Scary Face"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -1886,7 +1886,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Assurance",
-        "Scary face",
+        "Scary Face",
         "Crunch",
         "Taunt"
       ],
@@ -1917,7 +1917,7 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Scary face",
+        "Scary Face",
         "Crunch",
         "Taunt",
         "Embargo"
@@ -1951,8 +1951,8 @@ backup_data = {
       "moves": [
         "Embargo",
         "Yawn",
-        "Jaw lock",
-        "Play rough"
+        "Jaw Lock",
+        "Play Rough"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -1981,7 +1981,7 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Scary face",
+        "Scary Face",
         "Crunch",
         "Taunt",
         "Embargo"
@@ -2019,7 +2019,7 @@ backup_data = {
       "moves": [
         "Assurance",
         "Captivate",
-        "Night slash",
+        "Night Slash",
         "Feint"
       ],
       "sub_index": 1,
@@ -2052,9 +2052,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Captivate",
-        "Night slash",
+        "Night Slash",
         "Feint",
-        "Dark pulse"
+        "Dark Pulse"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -2084,7 +2084,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Slash",
-        "Nasty plot",
+        "Nasty Plot",
         "Assurance",
         "Captivate"
       ],
@@ -2115,9 +2115,9 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Feint attack",
+        "Feint Attack",
         "Taunt",
-        "Power gem",
+        "Power Gem",
         "Slash"
       ],
       "sub_index": 0,
@@ -2147,9 +2147,9 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Feint attack",
+        "Feint Attack",
         "Taunt",
-        "Power gem",
+        "Power Gem",
         "Slash"
       ],
       "sub_index": 0,
@@ -2179,9 +2179,9 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Feint attack",
+        "Feint Attack",
         "Taunt",
-        "Power gem",
+        "Power Gem",
         "Slash"
       ],
       "sub_index": 0,
@@ -2211,9 +2211,9 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Feint attack",
+        "Feint Attack",
         "Taunt",
-        "Power gem",
+        "Power Gem",
         "Slash"
       ],
       "sub_index": 0,
@@ -2243,9 +2243,9 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Feint attack",
+        "Feint Attack",
         "Taunt",
-        "Power gem",
+        "Power Gem",
         "Slash"
       ],
       "sub_index": 0,
@@ -2428,7 +2428,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Feint attack",
+        "Feint Attack",
         "Substitute",
         "Bounce",
         "Extrasensory"
@@ -2463,7 +2463,7 @@ backup_data = {
         "Substitute",
         "Bounce",
         "Extrasensory",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -2492,7 +2492,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Feint attack",
+        "Feint Attack",
         "Substitute",
         "Bounce",
         "Extrasensory"
@@ -2524,7 +2524,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Feint attack",
+        "Feint Attack",
         "Substitute",
         "Bounce",
         "Extrasensory"
@@ -2556,7 +2556,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Feint attack",
+        "Feint Attack",
         "Substitute",
         "Bounce",
         "Extrasensory"
@@ -2588,7 +2588,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Feint attack",
+        "Feint Attack",
         "Substitute",
         "Bounce",
         "Extrasensory"
@@ -2735,8 +2735,8 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Aqua tail",
-        "Dragon rush",
+        "Aqua Tail",
+        "Dragon Rush",
         "Safeguard",
         "Outrage"
       ],
@@ -3030,9 +3030,9 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Vital throw",
-        "Wake-up slap",
-        "Dual chop",
+        "Vital Throw",
+        "Wake-up Slap",
+        "Dual Chop",
         "Submission"
       ],
       "sub_index": 0,
@@ -3062,9 +3062,9 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Vital throw",
-        "Wake-up slap",
-        "Dual chop",
+        "Vital Throw",
+        "Wake-up Slap",
+        "Dual Chop",
         "Submission"
       ],
       "sub_index": 0,
@@ -3094,9 +3094,9 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Vital throw",
-        "Wake-up slap",
-        "Dual chop",
+        "Vital Throw",
+        "Wake-up Slap",
+        "Dual Chop",
         "Submission"
       ],
       "sub_index": 0,
@@ -3126,9 +3126,9 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Vital throw",
-        "Wake-up slap",
-        "Dual chop",
+        "Vital Throw",
+        "Wake-up Slap",
+        "Dual Chop",
         "Submission"
       ],
       "sub_index": 0,
@@ -3158,9 +3158,9 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Vital throw",
-        "Wake-up slap",
-        "Dual chop",
+        "Vital Throw",
+        "Wake-up Slap",
+        "Dual Chop",
         "Submission"
       ],
       "sub_index": 0,
@@ -3191,9 +3191,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Submission",
-        "Bulk up",
-        "Cross chop",
-        "Scary face"
+        "Bulk Up",
+        "Cross Chop",
+        "Scary Face"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -3222,10 +3222,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Cross chop",
-        "Scary face",
-        "Dynamic punch",
-        "Close combat"
+        "Cross Chop",
+        "Scary Face",
+        "Dynamic Punch",
+        "Close Combat"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -3254,10 +3254,10 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Bulk up",
-        "Cross chop",
-        "Scary face",
-        "Dynamic punch"
+        "Bulk Up",
+        "Cross Chop",
+        "Scary Face",
+        "Dynamic Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -3364,10 +3364,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Rock slide",
-        "Wave crash",
-        "Rain dance",
-        "Hydro pump"
+        "Rock Slide",
+        "Wave Crash",
+        "Rain Dance",
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -3396,10 +3396,10 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Rock slide",
-        "Wave crash",
-        "Rain dance",
-        "Hydro pump"
+        "Rock Slide",
+        "Wave Crash",
+        "Rain Dance",
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -3430,10 +3430,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Rock slide",
-        "Wave crash",
-        "Rain dance",
-        "Hydro pump"
+        "Rock Slide",
+        "Wave Crash",
+        "Rain Dance",
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -3464,7 +3464,7 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Endeavor",
         "Double-edge",
         "Retaliate"
@@ -3496,7 +3496,7 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Endeavor",
         "Double-edge",
         "Retaliate"
@@ -3528,7 +3528,7 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Endeavor",
         "Double-edge",
         "Retaliate"
@@ -3560,7 +3560,7 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Endeavor",
         "Double-edge",
         "Retaliate"
@@ -3592,7 +3592,7 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Endeavor",
         "Double-edge",
         "Retaliate"
@@ -3626,9 +3626,9 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Endeavor",
-        "Flare blitz",
+        "Flare Blitz",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -3910,9 +3910,9 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Endeavor",
-        "Flare blitz",
+        "Flare Blitz",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -3942,9 +3942,9 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Endeavor",
-        "Flare blitz",
+        "Flare Blitz",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -3974,9 +3974,9 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Endeavor",
-        "Flare blitz",
+        "Flare Blitz",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -4006,9 +4006,9 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Endeavor",
-        "Flare blitz",
+        "Flare Blitz",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -4266,10 +4266,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Spike cannon",
-        "Ice shard",
+        "Spike Cannon",
+        "Ice Shard",
         "Spikes",
-        "Icicle crash"
+        "Icicle Crash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -4340,9 +4340,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Dragon claw",
-        "Zen headbutt",
-        "Scary face",
+        "Dragon Claw",
+        "Zen Headbutt",
+        "Scary Face",
         "Flamethrower"
       ],
       "sub_index": 0,
@@ -4487,10 +4487,10 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Wing attack",
-        "Hyper beam",
-        "Dragon rush",
-        "Sandsear storm"
+        "Wing Attack",
+        "Hyper Beam",
+        "Dragon Rush",
+        "Sandsear Storm"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -4698,9 +4698,9 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Sweet scent",
-        "Light screen",
-        "Body slam",
+        "Sweet Scent",
+        "Light Screen",
+        "Body Slam",
         "Safeguard"
       ],
       "sub_index": 0,
@@ -4732,8 +4732,8 @@ backup_data = {
       "moves": [
         "Safeguard",
         "Aromatherapy",
-        "Solar beam",
-        "Petal blizzard"
+        "Solar Beam",
+        "Petal Blizzard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -4804,8 +4804,8 @@ backup_data = {
       "moves": [
         "Discharge",
         "Lock-on",
-        "Tri attack",
-        "Magic coat"
+        "Tri Attack",
+        "Magic Coat"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -4836,9 +4836,9 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Sucker punch",
-        "Iron defense",
-        "Pin missile",
+        "Sucker Punch",
+        "Iron Defense",
+        "Pin Missile",
         "Liquidation"
       ],
       "sub_index": 0,
@@ -4907,10 +4907,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Sucker punch",
-        "First impression",
+        "Sucker Punch",
+        "First Impression",
         "Bounce",
-        "Axe kick"
+        "Axe Kick"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -4976,10 +4976,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Sucker punch",
-        "First impression",
+        "Sucker Punch",
+        "First Impression",
         "Bounce",
-        "Axe kick"
+        "Axe Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -5010,10 +5010,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Sucker punch",
-        "First impression",
+        "Sucker Punch",
+        "First Impression",
         "Bounce",
-        "Axe kick"
+        "Axe Kick"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -5324,7 +5324,7 @@ backup_data = {
       "moves": [
         "Screech",
         "Slash",
-        "Metal sound",
+        "Metal Sound",
         "Thrash"
       ],
       "sub_index": 0,
@@ -5354,9 +5354,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Bullet punch",
+        "Bullet Punch",
         "Swagger",
-        "Fury swipes",
+        "Fury Swipes",
         "Screech"
       ],
       "sub_index": 0,
@@ -5543,9 +5543,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Flail",
-        "Echoed voice",
-        "Hydro pump",
-        "Hyper voice"
+        "Echoed Voice",
+        "Hydro Pump",
+        "Hyper Voice"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -5615,10 +5615,10 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Lava plume",
-        "Earth power",
+        "Lava Plume",
+        "Earth Power",
         "Curse",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -5648,8 +5648,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Amnesia",
-        "Lava plume",
-        "Earth power",
+        "Lava Plume",
+        "Earth Power",
         "Curse"
       ],
       "sub_index": 2,
@@ -5682,9 +5682,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Embargo",
-        "Iron defense",
-        "Night slash",
-        "Sucker punch"
+        "Iron Defense",
+        "Night Slash",
+        "Sucker Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -5717,8 +5717,8 @@ backup_data = {
       "moves": [
         "Superpower",
         "Topsy-turvy",
-        "Brutal swing",
-        "Arm thrust"
+        "Brutal Swing",
+        "Arm Thrust"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -5750,7 +5750,7 @@ backup_data = {
         "Reversal",
         "Superpower",
         "Topsy-turvy",
-        "Brutal swing"
+        "Brutal Swing"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -5779,8 +5779,8 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Low sweep",
-        "Bulk up",
+        "Low Sweep",
+        "Bulk Up",
         "Submission",
         "Taunt"
       ],
@@ -5814,7 +5814,7 @@ backup_data = {
         "Reversal",
         "Superpower",
         "Topsy-turvy",
-        "Brutal swing"
+        "Brutal Swing"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -5846,9 +5846,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Moonblast",
-        "Petal dance",
+        "Petal Dance",
         "Aromatherapy",
-        "Pollen puff"
+        "Pollen Puff"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -5919,10 +5919,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Night shade",
+        "Night Shade",
         "Curse",
         "Earthquake",
-        "Hammer arm"
+        "Hammer Arm"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -6144,9 +6144,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
-        "Head smash",
-        "Shadow ball",
-        "Spirit shackle"
+        "Head Smash",
+        "Shadow Ball",
+        "Spirit Shackle"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -6175,10 +6175,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Shadow ball",
-        "Spirit shackle",
-        "Wave crash",
-        "Hydro pump"
+        "Shadow Ball",
+        "Spirit Shackle",
+        "Wave Crash",
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -6354,10 +6354,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
-        "Dynamic punch",
-        "Circle throw",
-        "Jet punch"
+        "Double Slap",
+        "Dynamic Punch",
+        "Circle Throw",
+        "Jet Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -6386,10 +6386,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Dynamic punch",
-        "Circle throw",
-        "Jet punch",
-        "Surging strikes"
+        "Dynamic Punch",
+        "Circle Throw",
+        "Jet Punch",
+        "Surging Strikes"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -6610,10 +6610,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Cross chop",
-        "Final gambit",
-        "Close combat",
-        "Rage fist"
+        "Cross Chop",
+        "Final Gambit",
+        "Close Combat",
+        "Rage Fist"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -6756,9 +6756,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Crunch",
-        "Aqua fang",
-        "Shell smash",
-        "Wave crash"
+        "Aqua Fang",
+        "Shell Smash",
+        "Wave Crash"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -6789,8 +6789,8 @@ backup_data = {
       "moves": [
         "Coil",
         "Crunch",
-        "Aqua fang",
-        "Shell smash"
+        "Aqua Fang",
+        "Shell Smash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -6934,10 +6934,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Dragon claw",
+        "Dragon Claw",
         "Taunt",
-        "Dragon pulse",
-        "Swords dance"
+        "Dragon Pulse",
+        "Swords Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -6968,10 +6968,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Dragon claw",
+        "Dragon Claw",
         "Taunt",
-        "Dragon pulse",
-        "Swords dance"
+        "Dragon Pulse",
+        "Swords Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -7002,10 +7002,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Dragon claw",
+        "Dragon Claw",
         "Taunt",
-        "Dragon pulse",
-        "Swords dance"
+        "Dragon Pulse",
+        "Swords Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -7036,10 +7036,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Dragon claw",
+        "Dragon Claw",
         "Taunt",
-        "Dragon pulse",
-        "Swords dance"
+        "Dragon Pulse",
+        "Swords Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -7070,10 +7070,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Dragon claw",
+        "Dragon Claw",
         "Taunt",
-        "Dragon pulse",
-        "Swords dance"
+        "Dragon Pulse",
+        "Swords Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -7180,10 +7180,10 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Singles",
       "moves": [
-        "Feather dance",
-        "Brave bird",
-        "Nasty plot",
-        "Thousand arrows"
+        "Feather Dance",
+        "Brave Bird",
+        "Nasty Plot",
+        "Thousand Arrows"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -7328,8 +7328,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hurricane",
-        "Rain dance",
-        "Hyper beam",
+        "Rain Dance",
+        "Hyper Beam",
         "Bounce"
       ],
       "sub_index": 0,
@@ -7395,10 +7395,10 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Aqua tail",
+        "Aqua Tail",
         "Hurricane",
-        "Rain dance",
-        "Hyper beam"
+        "Rain Dance",
+        "Hyper Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -7428,8 +7428,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hurricane",
-        "Rain dance",
-        "Hyper beam",
+        "Rain Dance",
+        "Hyper Beam",
         "Bounce"
       ],
       "sub_index": 0,
@@ -7460,8 +7460,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hurricane",
-        "Rain dance",
-        "Hyper beam",
+        "Rain Dance",
+        "Hyper Beam",
         "Bounce"
       ],
       "sub_index": 1,
@@ -7798,9 +7798,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Dragon pulse",
-        "Power whip",
+        "Muddy Water",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage"
       ],
       "sub_index": 1,
@@ -7830,9 +7830,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Dragon pulse",
-        "Power whip",
+        "Muddy Water",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage"
       ],
       "sub_index": 1,
@@ -7862,9 +7862,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Dragon pulse",
-        "Power whip",
+        "Muddy Water",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage"
       ],
       "sub_index": 1,
@@ -7894,9 +7894,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Dragon pulse",
-        "Power whip",
+        "Muddy Water",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage"
       ],
       "sub_index": 1,
@@ -7926,9 +7926,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Dragon pulse",
-        "Power whip",
+        "Muddy Water",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage"
       ],
       "sub_index": 1,
@@ -8146,9 +8146,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Liquidation",
-        "Feather dance",
-        "Close combat",
-        "Wave crash"
+        "Feather Dance",
+        "Close Combat",
+        "Wave Crash"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -8178,9 +8178,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Liquidation",
-        "Feather dance",
-        "Close combat",
-        "Wave crash"
+        "Feather Dance",
+        "Close Combat",
+        "Wave Crash"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -8248,9 +8248,9 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Aqua ring",
+        "Aqua Ring",
         "Rest",
-        "Scary face"
+        "Scary Face"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -8282,7 +8282,7 @@ backup_data = {
         "Payback",
         "Psychic",
         "Bounce",
-        "Slack off"
+        "Slack Off"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8314,7 +8314,7 @@ backup_data = {
         "Payback",
         "Psychic",
         "Bounce",
-        "Slack off"
+        "Slack Off"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8345,7 +8345,7 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Mega drain",
+        "Mega Drain",
         "Headbutt",
         "Feint",
         "Counter"
@@ -8378,9 +8378,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Counter",
-        "Force palm",
-        "Mind reader",
-        "Sky uppercut"
+        "Force Palm",
+        "Mind Reader",
+        "Sky Uppercut"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8409,7 +8409,7 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Mega drain",
+        "Mega Drain",
         "Headbutt",
         "Feint",
         "Counter"
@@ -8441,10 +8441,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Mind reader",
-        "Sky uppercut",
-        "Seed bomb",
-        "Dynamic punch"
+        "Mind Reader",
+        "Sky Uppercut",
+        "Seed Bomb",
+        "Dynamic Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8475,10 +8475,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Mind reader",
-        "Sky uppercut",
-        "Seed bomb",
-        "Dynamic punch"
+        "Mind Reader",
+        "Sky Uppercut",
+        "Seed Bomb",
+        "Dynamic Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8509,10 +8509,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Mind reader",
-        "Sky uppercut",
-        "Seed bomb",
-        "Dynamic punch"
+        "Mind Reader",
+        "Sky Uppercut",
+        "Seed Bomb",
+        "Dynamic Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8543,10 +8543,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Mind reader",
-        "Sky uppercut",
-        "Seed bomb",
-        "Dynamic punch"
+        "Mind Reader",
+        "Sky Uppercut",
+        "Seed Bomb",
+        "Dynamic Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8577,10 +8577,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Mind reader",
-        "Sky uppercut",
-        "Seed bomb",
-        "Dynamic punch"
+        "Mind Reader",
+        "Sky Uppercut",
+        "Seed Bomb",
+        "Dynamic Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8611,10 +8611,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Mind reader",
-        "Sky uppercut",
-        "Seed bomb",
-        "Dynamic punch"
+        "Mind Reader",
+        "Sky Uppercut",
+        "Seed Bomb",
+        "Dynamic Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8647,8 +8647,8 @@ backup_data = {
       "moves": [
         "Feint",
         "Counter",
-        "Force palm",
-        "Mind reader"
+        "Force Palm",
+        "Mind Reader"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8718,8 +8718,8 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Aerial ace",
-        "Fury attack",
+        "Aerial Ace",
+        "Fury Attack",
         "Taunt",
         "Uproar"
       ],
@@ -8751,7 +8751,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swagger",
-        "Brave bird",
+        "Brave Bird",
         "Roost",
         "Reversal"
       ],
@@ -8783,7 +8783,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swagger",
-        "Brave bird",
+        "Brave Bird",
         "Roost",
         "Reversal"
       ],
@@ -8817,9 +8817,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
-        "Teeter dance",
-        "Sleep powder",
-        "Quiver dance"
+        "Teeter Dance",
+        "Sleep Powder",
+        "Quiver Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8849,9 +8849,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
-        "Teeter dance",
-        "Sleep powder",
-        "Quiver dance"
+        "Teeter Dance",
+        "Sleep Powder",
+        "Quiver Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8881,9 +8881,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
-        "Teeter dance",
-        "Sleep powder",
-        "Quiver dance"
+        "Teeter Dance",
+        "Sleep Powder",
+        "Quiver Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8913,9 +8913,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
-        "Teeter dance",
-        "Sleep powder",
-        "Quiver dance"
+        "Teeter Dance",
+        "Sleep Powder",
+        "Quiver Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8945,9 +8945,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
-        "Teeter dance",
-        "Sleep powder",
-        "Quiver dance"
+        "Teeter Dance",
+        "Sleep Powder",
+        "Quiver Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -8977,8 +8977,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Recover",
-        "Petal dance",
-        "Petal blizzard",
+        "Petal Dance",
+        "Petal Blizzard",
         "Chloroblast"
       ],
       "sub_index": 2,
@@ -9014,8 +9014,8 @@ backup_data = {
       "moves": [
         "Stockpile",
         "Swallow",
-        "Body slam",
-        "Sludge bomb"
+        "Body Slam",
+        "Sludge Bomb"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9046,8 +9046,8 @@ backup_data = {
       "moves": [
         "Stockpile",
         "Swallow",
-        "Body slam",
-        "Sludge bomb"
+        "Body Slam",
+        "Sludge Bomb"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9078,8 +9078,8 @@ backup_data = {
       "moves": [
         "Stockpile",
         "Swallow",
-        "Body slam",
-        "Sludge bomb"
+        "Body Slam",
+        "Sludge Bomb"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9110,8 +9110,8 @@ backup_data = {
       "moves": [
         "Stockpile",
         "Swallow",
-        "Body slam",
-        "Sludge bomb"
+        "Body Slam",
+        "Sludge Bomb"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9142,8 +9142,8 @@ backup_data = {
       "moves": [
         "Stockpile",
         "Swallow",
-        "Body slam",
-        "Sludge bomb"
+        "Body Slam",
+        "Sludge Bomb"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9174,7 +9174,7 @@ backup_data = {
       "moves": [
         "Amnesia",
         "Belch",
-        "Gunk shot",
+        "Gunk Shot",
         "Explosion"
       ],
       "sub_index": 2,
@@ -9284,9 +9284,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psychic",
-        "Skill swap",
-        "Heal block",
-        "Wonder room"
+        "Skill Swap",
+        "Heal Block",
+        "Wonder Room"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -9354,10 +9354,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Jaw lock",
-        "Raging bull",
+        "Jaw Lock",
+        "Raging Bull",
         "Payback",
-        "Hammer arm"
+        "Hammer Arm"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9425,7 +9425,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Payback",
-        "Hammer arm",
+        "Hammer Arm",
         "Crunch",
         "Outrage"
       ],
@@ -9456,10 +9456,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Jaw lock",
-        "Raging bull",
+        "Jaw Lock",
+        "Raging Bull",
         "Payback",
-        "Hammer arm"
+        "Hammer Arm"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9488,10 +9488,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Jaw lock",
-        "Raging bull",
+        "Jaw Lock",
+        "Raging Bull",
         "Payback",
-        "Hammer arm"
+        "Hammer Arm"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9520,10 +9520,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Jaw lock",
-        "Raging bull",
+        "Jaw Lock",
+        "Raging Bull",
         "Payback",
-        "Hammer arm"
+        "Hammer Arm"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9552,10 +9552,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Jaw lock",
-        "Raging bull",
+        "Jaw Lock",
+        "Raging Bull",
         "Payback",
-        "Hammer arm"
+        "Hammer Arm"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9742,7 +9742,7 @@ backup_data = {
         "Bite",
         "Discharge",
         "Roar",
-        "Wild charge"
+        "Wild Charge"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9776,7 +9776,7 @@ backup_data = {
         "Bite",
         "Discharge",
         "Roar",
-        "Wild charge"
+        "Wild Charge"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -9808,7 +9808,7 @@ backup_data = {
         "Bite",
         "Discharge",
         "Roar",
-        "Wild charge"
+        "Wild Charge"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -9838,8 +9838,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Spark",
-        "Odor sleuth",
-        "Thunder fang",
+        "Odor Sleuth",
+        "Thunder Fang",
         "Bite"
       ],
       "sub_index": 1,
@@ -9870,7 +9870,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Roar",
-        "Wild charge",
+        "Wild Charge",
         "Charge",
         "Thunder"
       ],
@@ -9901,10 +9901,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Wild charge",
+        "Wild Charge",
         "Charge",
         "Thunder",
-        "Electric terrain"
+        "Electric Terrain"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -9936,7 +9936,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Roar",
-        "Wild charge",
+        "Wild Charge",
         "Charge",
         "Thunder"
       ],
@@ -9969,10 +9969,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Wild charge",
+        "Wild Charge",
         "Charge",
         "Thunder",
-        "Electric terrain"
+        "Electric Terrain"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10045,9 +10045,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
-        "Poison powder",
-        "Stun spore",
-        "Petal blizzard"
+        "Poison Powder",
+        "Stun Spore",
+        "Petal Blizzard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10076,10 +10076,10 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Petal dance",
-        "Strength sap",
-        "Solar beam",
-        "Apple acid"
+        "Petal Dance",
+        "Strength Sap",
+        "Solar Beam",
+        "Apple Acid"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10111,9 +10111,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
-        "Poison powder",
-        "Stun spore",
-        "Petal blizzard"
+        "Poison Powder",
+        "Stun Spore",
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -10145,9 +10145,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
-        "Poison powder",
-        "Stun spore",
-        "Petal blizzard"
+        "Poison Powder",
+        "Stun Spore",
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -10179,9 +10179,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
-        "Poison powder",
-        "Stun spore",
-        "Petal blizzard"
+        "Poison Powder",
+        "Stun Spore",
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -10213,9 +10213,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
-        "Poison powder",
-        "Stun spore",
-        "Petal blizzard"
+        "Poison Powder",
+        "Stun Spore",
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -10247,9 +10247,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
-        "Poison powder",
-        "Stun spore",
-        "Petal blizzard"
+        "Poison Powder",
+        "Stun Spore",
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -10320,10 +10320,10 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard",
-        "Petal dance"
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard",
+        "Petal Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -10352,10 +10352,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sweet scent",
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard"
+        "Sweet Scent",
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10384,10 +10384,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sweet scent",
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard"
+        "Sweet Scent",
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10416,10 +10416,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sweet scent",
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard"
+        "Sweet Scent",
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10448,10 +10448,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sweet scent",
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard"
+        "Sweet Scent",
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10480,10 +10480,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sweet scent",
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard"
+        "Sweet Scent",
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10512,10 +10512,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard",
-        "Petal dance"
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard",
+        "Petal Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10546,10 +10546,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard",
-        "Petal dance"
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard",
+        "Petal Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10580,10 +10580,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard",
-        "Petal dance"
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard",
+        "Petal Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10614,10 +10614,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard",
-        "Petal dance"
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard",
+        "Petal Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10648,10 +10648,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Stun spore",
-        "Sunny day",
-        "Petal blizzard",
-        "Petal dance"
+        "Stun Spore",
+        "Sunny Day",
+        "Petal Blizzard",
+        "Petal Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -10682,10 +10682,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Petal blizzard",
-        "Petal dance",
-        "Quiver dance",
-        "Fiery dance"
+        "Petal Blizzard",
+        "Petal Dance",
+        "Quiver Dance",
+        "Fiery Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -11279,9 +11279,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swift",
-        "Ancient power",
-        "Self destruct",
-        "Stealth rock"
+        "Ancient Power",
+        "Self Destruct",
+        "Stealth Rock"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -11486,9 +11486,9 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Dragon breath",
+        "Dragon Breath",
         "Stomp",
-        "Super fang",
+        "Super Fang",
         "Crunch"
       ],
       "sub_index": 1,
@@ -11734,8 +11734,8 @@ backup_data = {
       "moves": [
         "Roar",
         "Agility",
-        "Wing attack",
-        "Ancient power"
+        "Wing Attack",
+        "Ancient Power"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -11943,9 +11943,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Flail",
-        "Drain punch",
-        "Echoed voice",
-        "Hydro pump"
+        "Drain Punch",
+        "Echoed Voice",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -11974,10 +11974,10 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Drain punch",
-        "Echoed voice",
-        "Hydro pump",
-        "Wave crash"
+        "Drain Punch",
+        "Echoed Voice",
+        "Hydro Pump",
+        "Wave Crash"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -12008,8 +12008,8 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Gyro ball",
-        "Swords dance",
+        "Gyro Ball",
+        "Swords Dance",
         "Sandstorm",
         "Earthquake"
       ],
@@ -12040,8 +12040,8 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Gyro ball",
-        "Swords dance",
+        "Gyro Ball",
+        "Swords Dance",
         "Sandstorm",
         "Earthquake"
       ],
@@ -12072,8 +12072,8 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Fury swipes",
-        "Sand tomb",
+        "Fury Swipes",
+        "Sand Tomb",
         "Slash",
         "Dig"
       ],
@@ -12104,8 +12104,8 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Gyro ball",
-        "Swords dance",
+        "Gyro Ball",
+        "Swords Dance",
         "Sandstorm",
         "Earthquake"
       ],
@@ -12139,9 +12139,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Stockpile",
-        "Spit up",
+        "Spit Up",
         "Swallow",
-        "Sludge bomb"
+        "Sludge Bomb"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12170,10 +12170,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Doubles",
       "moves": [
-        "Gastro acid",
+        "Gastro Acid",
         "Belch",
-        "Wring out",
-        "Gunk shot"
+        "Wring Out",
+        "Gunk Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12202,10 +12202,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Doubles",
       "moves": [
-        "Gastro acid",
+        "Gastro Acid",
         "Belch",
-        "Wring out",
-        "Gunk shot"
+        "Wring Out",
+        "Gunk Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12234,10 +12234,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Doubles",
       "moves": [
-        "Gastro acid",
+        "Gastro Acid",
         "Belch",
-        "Wring out",
-        "Gunk shot"
+        "Wring Out",
+        "Gunk Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12266,10 +12266,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Doubles",
       "moves": [
-        "Gastro acid",
+        "Gastro Acid",
         "Belch",
-        "Wring out",
-        "Gunk shot"
+        "Wring Out",
+        "Gunk Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12298,10 +12298,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Doubles",
       "moves": [
-        "Gastro acid",
+        "Gastro Acid",
         "Belch",
-        "Wring out",
-        "Gunk shot"
+        "Wring Out",
+        "Gunk Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12330,10 +12330,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Gastro acid",
+        "Gastro Acid",
         "Belch",
-        "Wring out",
-        "Gunk shot"
+        "Wring Out",
+        "Gunk Shot"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -12364,10 +12364,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Gastro acid",
+        "Gastro Acid",
         "Belch",
-        "Wring out",
-        "Gunk shot"
+        "Wring Out",
+        "Gunk Shot"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -12399,8 +12399,8 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Revenge",
-        "Crush claw",
-        "False swipe",
+        "Crush Claw",
+        "False Swipe",
         "Embargo"
       ],
       "sub_index": 1,
@@ -12432,8 +12432,8 @@ backup_data = {
       "moves": [
         "Taunt",
         "Agility",
-        "Swords dance",
-        "Close combat"
+        "Swords Dance",
+        "Close Combat"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -12464,8 +12464,8 @@ backup_data = {
       "moves": [
         "Taunt",
         "Agility",
-        "Swords dance",
-        "Close combat"
+        "Swords Dance",
+        "Close Combat"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -12496,8 +12496,8 @@ backup_data = {
       "moves": [
         "Taunt",
         "Agility",
-        "Swords dance",
-        "Close combat"
+        "Swords Dance",
+        "Close Combat"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -12528,8 +12528,8 @@ backup_data = {
       "moves": [
         "Taunt",
         "Agility",
-        "Swords dance",
-        "Close combat"
+        "Swords Dance",
+        "Close Combat"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -12560,8 +12560,8 @@ backup_data = {
       "moves": [
         "Taunt",
         "Agility",
-        "Swords dance",
-        "Close combat"
+        "Swords Dance",
+        "Close Combat"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -12623,7 +12623,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Detect",
-        "Fake out",
+        "Fake Out",
         "Taunt",
         "Agility"
       ],
@@ -12654,10 +12654,10 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "False swipe",
+        "False Swipe",
         "Embargo",
         "Detect",
-        "Fake out"
+        "Fake Out"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12690,8 +12690,8 @@ backup_data = {
       "moves": [
         "Bubble",
         "Whirlpool",
-        "Iron defense",
-        "Aurora beam"
+        "Iron Defense",
+        "Aurora Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12722,8 +12722,8 @@ backup_data = {
       "moves": [
         "Bubble",
         "Whirlpool",
-        "Iron defense",
-        "Aurora beam"
+        "Iron Defense",
+        "Aurora Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12754,8 +12754,8 @@ backup_data = {
       "moves": [
         "Bubble",
         "Whirlpool",
-        "Iron defense",
-        "Aurora beam"
+        "Iron Defense",
+        "Aurora Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12786,8 +12786,8 @@ backup_data = {
       "moves": [
         "Bubble",
         "Whirlpool",
-        "Iron defense",
-        "Aurora beam"
+        "Iron Defense",
+        "Aurora Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12818,8 +12818,8 @@ backup_data = {
       "moves": [
         "Bubble",
         "Whirlpool",
-        "Iron defense",
-        "Aurora beam"
+        "Iron Defense",
+        "Aurora Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -12850,9 +12850,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Water gun",
+        "Water Gun",
         "Leer",
-        "Water gun",
+        "Water Gun",
         "Twister"
       ],
       "sub_index": 1,
@@ -12882,9 +12882,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Water gun",
+        "Water Gun",
         "Leer",
-        "Water gun",
+        "Water Gun",
         "Twister"
       ],
       "sub_index": 1,
@@ -12914,9 +12914,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Water gun",
+        "Water Gun",
         "Leer",
-        "Water gun",
+        "Water Gun",
         "Twister"
       ],
       "sub_index": 1,
@@ -12946,9 +12946,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Water gun",
+        "Water Gun",
         "Leer",
-        "Water gun",
+        "Water Gun",
         "Twister"
       ],
       "sub_index": 1,
@@ -12978,9 +12978,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Water gun",
+        "Water Gun",
         "Leer",
-        "Water gun",
+        "Water Gun",
         "Twister"
       ],
       "sub_index": 1,
@@ -13012,7 +13012,7 @@ backup_data = {
       "moves": [
         "Twister",
         "Bubblebeam",
-        "Focus energy",
+        "Focus Energy",
         "Brine"
       ],
       "sub_index": 1,
@@ -13473,7 +13473,7 @@ backup_data = {
         "Scald",
         "Leer",
         "Lick",
-        "Fury swipes"
+        "Fury Swipes"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -13618,10 +13618,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Wide guard",
-        "Quick guard",
+        "Wide Guard",
+        "Quick Guard",
         "Detect",
-        "Triple kick"
+        "Triple Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -13650,10 +13650,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Mach punch",
-        "Focus energy",
+        "Mach Punch",
+        "Focus Energy",
         "Pursuit",
-        "Quick attack"
+        "Quick Attack"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -13682,10 +13682,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Quick attack",
-        "Rapid spin",
+        "Quick Attack",
+        "Rapid Spin",
         "Feint",
-        "Sucker punch"
+        "Sucker Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -13714,10 +13714,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Quick attack",
-        "Rapid spin",
+        "Quick Attack",
+        "Rapid Spin",
         "Feint",
-        "Sucker punch"
+        "Sucker Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -14059,10 +14059,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Rain dance",
+        "Rain Dance",
         "Double-edge",
         "Superpower",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -14091,10 +14091,10 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Rain dance",
+        "Rain Dance",
         "Double-edge",
         "Superpower",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -14123,9 +14123,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Play rough",
-        "Aqua ring",
-        "Rain dance",
+        "Play Rough",
+        "Aqua Ring",
+        "Rain Dance",
         "Double-edge"
       ],
       "sub_index": 0,
@@ -14155,10 +14155,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Rain dance",
+        "Rain Dance",
         "Double-edge",
         "Superpower",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -14187,10 +14187,10 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Rain dance",
+        "Rain Dance",
         "Double-edge",
         "Superpower",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -14220,9 +14220,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Covet",
-        "Body slam",
-        "Helping hand",
-        "Aqua tail"
+        "Body Slam",
+        "Helping Hand",
+        "Aqua Tail"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -14251,8 +14251,8 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Aqua ring",
-        "Rain dance",
+        "Aqua Ring",
+        "Rain Dance",
         "Double-edge",
         "Superpower"
       ],
@@ -14323,10 +14323,10 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Air slash",
-        "Dragon rush",
+        "Air Slash",
+        "Dragon Rush",
         "Endure",
-        "Crush claw"
+        "Crush Claw"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -14518,9 +14518,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Screech",
-        "Stomping tantrum",
+        "Stomping Tantrum",
         "Outrage",
-        "Cross chop"
+        "Cross Chop"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -14556,7 +14556,7 @@ backup_data = {
         "Screech",
         "Discharge",
         "Lock-on",
-        "Magnet rise"
+        "Magnet Rise"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -14841,9 +14841,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hurricane",
-        "Nasty plot",
-        "Leaf storm",
-        "Toxic spikes"
+        "Nasty Plot",
+        "Leaf Storm",
+        "Toxic Spikes"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -14913,9 +14913,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hurricane",
-        "Nasty plot",
-        "Leaf storm",
-        "Toxic spikes"
+        "Nasty Plot",
+        "Leaf Storm",
+        "Toxic Spikes"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -14986,9 +14986,9 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Power gem",
-        "Shadow ball",
-        "Foul play",
+        "Power Gem",
+        "Shadow Ball",
+        "Foul Play",
         "Quash"
       ],
       "sub_index": 0,
@@ -15022,9 +15022,9 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "High jump kick",
-        "Psych up",
-        "Power trick",
+        "High Jump Kick",
+        "Psych Up",
+        "Power Trick",
         "Reversal"
       ],
       "sub_index": 1,
@@ -15132,10 +15132,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Mind reader",
-        "High jump kick",
-        "Psych up",
-        "Power trick"
+        "Mind Reader",
+        "High Jump Kick",
+        "Psych Up",
+        "Power Trick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -15168,8 +15168,8 @@ backup_data = {
       "moves": [
         "Stockpile",
         "Swallow",
-        "Spit up",
-        "Iron head"
+        "Spit Up",
+        "Iron Head"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -15201,9 +15201,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swallow",
-        "Spit up",
-        "Iron head",
-        "Play rough"
+        "Spit Up",
+        "Iron Head",
+        "Play Rough"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -15272,10 +15272,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Rapid spin",
+        "Rapid Spin",
         "Psybeam",
         "Recover",
-        "Confuse ray"
+        "Confuse Ray"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -15308,8 +15308,8 @@ backup_data = {
       "moves": [
         "Psybeam",
         "Recover",
-        "Confuse ray",
-        "Meteor beam"
+        "Confuse Ray",
+        "Meteor Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -15340,8 +15340,8 @@ backup_data = {
       "moves": [
         "Psybeam",
         "Recover",
-        "Confuse ray",
-        "Meteor beam"
+        "Confuse Ray",
+        "Meteor Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -15409,9 +15409,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Psycho shift",
+        "Psycho Shift",
         "Extrasensory",
-        "Air slash",
+        "Air Slash",
         "Reflect"
       ],
       "sub_index": 0,
@@ -15443,9 +15443,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Psycho shift",
+        "Psycho Shift",
         "Extrasensory",
-        "Air slash",
+        "Air Slash",
         "Reflect"
       ],
       "sub_index": 0,
@@ -15477,9 +15477,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Psycho shift",
+        "Psycho Shift",
         "Extrasensory",
-        "Air slash",
+        "Air Slash",
         "Reflect"
       ],
       "sub_index": 0,
@@ -15511,9 +15511,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Psycho shift",
+        "Psycho Shift",
         "Extrasensory",
-        "Air slash",
+        "Air Slash",
         "Reflect"
       ],
       "sub_index": 0,
@@ -15545,9 +15545,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Psycho shift",
+        "Psycho Shift",
         "Extrasensory",
-        "Air slash",
+        "Air Slash",
         "Reflect"
       ],
       "sub_index": 0,
@@ -15582,7 +15582,7 @@ backup_data = {
         "Roost",
         "Moonblast",
         "Synchronoise",
-        "Oblivion wing"
+        "Oblivion Wing"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -15614,9 +15614,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Return",
-        "Jump kick",
+        "Jump Kick",
         "Aromatherapy",
-        "Energy ball"
+        "Energy Ball"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -15648,9 +15648,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Return",
-        "Jump kick",
+        "Jump Kick",
         "Aromatherapy",
-        "Energy ball"
+        "Energy Ball"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -15682,9 +15682,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Return",
-        "Jump kick",
+        "Jump Kick",
         "Aromatherapy",
-        "Energy ball"
+        "Energy Ball"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -15716,9 +15716,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Return",
-        "Jump kick",
+        "Jump Kick",
         "Aromatherapy",
-        "Energy ball"
+        "Energy Ball"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -15750,9 +15750,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Return",
-        "Jump kick",
+        "Jump Kick",
         "Aromatherapy",
-        "Energy ball"
+        "Energy Ball"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -15785,10 +15785,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Hidden power",
+        "Hidden Power",
         "Imprison",
-        "Simple beam",
-        "Zen headbutt"
+        "Simple Beam",
+        "Zen Headbutt"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -15819,10 +15819,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Hidden power",
+        "Hidden Power",
         "Imprison",
-        "Simple beam",
-        "Zen headbutt"
+        "Simple Beam",
+        "Zen Headbutt"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -15853,10 +15853,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Hidden power",
+        "Hidden Power",
         "Imprison",
-        "Simple beam",
-        "Zen headbutt"
+        "Simple Beam",
+        "Zen Headbutt"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -15887,10 +15887,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Hidden power",
+        "Hidden Power",
         "Imprison",
-        "Simple beam",
-        "Zen headbutt"
+        "Simple Beam",
+        "Zen Headbutt"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -15921,10 +15921,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Hidden power",
+        "Hidden Power",
         "Imprison",
-        "Simple beam",
-        "Zen headbutt"
+        "Simple Beam",
+        "Zen Headbutt"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -15956,8 +15956,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Recover",
-        "Guard split",
-        "Power split",
+        "Guard Split",
+        "Power Split",
         "Synchronoise"
       ],
       "sub_index": 0,
@@ -15990,7 +15990,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Counter",
-        "Super fang",
+        "Super Fang",
         "Belch",
         "Recycle"
       ],
@@ -16023,7 +16023,7 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Body slam",
+        "Body Slam",
         "Crunch",
         "Rest",
         "Counter"
@@ -16057,7 +16057,7 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Body slam",
+        "Body Slam",
         "Crunch",
         "Rest",
         "Counter"
@@ -16091,7 +16091,7 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Body slam",
+        "Body Slam",
         "Crunch",
         "Rest",
         "Counter"
@@ -16125,7 +16125,7 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Body slam",
+        "Body Slam",
         "Crunch",
         "Rest",
         "Counter"
@@ -16159,7 +16159,7 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Body slam",
+        "Body Slam",
         "Crunch",
         "Rest",
         "Counter"
@@ -16194,7 +16194,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Counter",
-        "Super fang",
+        "Super Fang",
         "Belch",
         "Recycle"
       ],
@@ -16227,7 +16227,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Counter",
-        "Super fang",
+        "Super Fang",
         "Belch",
         "Recycle"
       ],
@@ -16262,9 +16262,9 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Fire fang",
-        "Flare blitz",
-        "Helping hand",
+        "Fire Fang",
+        "Flare Blitz",
+        "Helping Hand",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -16296,9 +16296,9 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Doubles",
       "moves": [
-        "Fire fang",
-        "Flare blitz",
-        "Helping hand",
+        "Fire Fang",
+        "Flare Blitz",
+        "Helping Hand",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -16330,9 +16330,9 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Doubles",
       "moves": [
-        "Fire fang",
-        "Flare blitz",
-        "Helping hand",
+        "Fire Fang",
+        "Flare Blitz",
+        "Helping Hand",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -16364,9 +16364,9 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Doubles",
       "moves": [
-        "Fire fang",
-        "Flare blitz",
-        "Helping hand",
+        "Fire Fang",
+        "Flare Blitz",
+        "Helping Hand",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -16398,9 +16398,9 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Doubles",
       "moves": [
-        "Fire fang",
-        "Flare blitz",
-        "Helping hand",
+        "Fire Fang",
+        "Flare Blitz",
+        "Helping Hand",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -16432,9 +16432,9 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Doubles",
       "moves": [
-        "Fire fang",
-        "Flare blitz",
-        "Helping hand",
+        "Fire Fang",
+        "Flare Blitz",
+        "Helping Hand",
         "Retaliate"
       ],
       "sub_index": 1,
@@ -16543,9 +16543,9 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Singles",
       "moves": [
-        "Poison jab",
-        "Venom drench",
-        "Pin missile",
+        "Poison Jab",
+        "Venom Drench",
+        "Pin Missile",
         "Liquidation"
       ],
       "sub_index": 0,
@@ -16646,7 +16646,7 @@ backup_data = {
       "moves": [
         "Swagger",
         "Reversal",
-        "Jaw lock",
+        "Jaw Lock",
         "Double-edge"
       ],
       "sub_index": 1,
@@ -16715,10 +16715,10 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Air slash",
+        "Air Slash",
         "Psychic",
-        "Cosmic power",
-        "Sky attack"
+        "Cosmic Power",
+        "Sky Attack"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -16751,8 +16751,8 @@ backup_data = {
       "moves": [
         "Whirlwind",
         "Psybeam",
-        "Air cutter",
-        "Light screen"
+        "Air Cutter",
+        "Light Screen"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -16781,10 +16781,10 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Singles",
       "moves": [
-        "Air slash",
+        "Air Slash",
         "Psychic",
-        "Cosmic power",
-        "Sky attack"
+        "Cosmic Power",
+        "Sky Attack"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -16854,10 +16854,10 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Sludge bomb",
+        "Sludge Bomb",
         "Synthesis",
-        "Petal blizzard",
-        "Solar beam"
+        "Petal Blizzard",
+        "Solar Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -16966,9 +16966,9 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Jump kick",
+        "Jump Kick",
         "U-turn",
-        "Wide guard",
+        "Wide Guard",
         "Bounce"
       ],
       "sub_index": 0,
@@ -16999,9 +16999,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swift",
-        "Calm mind",
-        "Drain punch",
-        "Jump kick"
+        "Calm Mind",
+        "Drain Punch",
+        "Jump Kick"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -17033,9 +17033,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swift",
-        "Calm mind",
-        "Drain punch",
-        "Jump kick"
+        "Calm Mind",
+        "Drain Punch",
+        "Jump Kick"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -17067,9 +17067,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swift",
-        "Calm mind",
-        "Drain punch",
-        "Jump kick"
+        "Calm Mind",
+        "Drain Punch",
+        "Jump Kick"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -17101,9 +17101,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swift",
-        "Calm mind",
-        "Drain punch",
-        "Jump kick"
+        "Calm Mind",
+        "Drain Punch",
+        "Jump Kick"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -17135,9 +17135,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swift",
-        "Calm mind",
-        "Drain punch",
-        "Jump kick"
+        "Calm Mind",
+        "Drain Punch",
+        "Jump Kick"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -17168,10 +17168,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
+        "Double Slap",
         "Swift",
-        "Calm mind",
-        "Drain punch"
+        "Calm Mind",
+        "Drain Punch"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -17198,10 +17198,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
+        "Double Slap",
         "Swift",
-        "Calm mind",
-        "Drain punch"
+        "Calm Mind",
+        "Drain Punch"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -17228,10 +17228,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
+        "Double Slap",
         "Swift",
-        "Calm mind",
-        "Drain punch"
+        "Calm Mind",
+        "Drain Punch"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -17258,10 +17258,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
+        "Double Slap",
         "Swift",
-        "Calm mind",
-        "Drain punch"
+        "Calm Mind",
+        "Drain Punch"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -17288,10 +17288,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
+        "Double Slap",
         "Swift",
-        "Calm mind",
-        "Drain punch"
+        "Calm Mind",
+        "Drain Punch"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -17609,9 +17609,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psychic",
-        "Teeter dance",
-        "Frost breath",
-        "Freezy frost"
+        "Teeter Dance",
+        "Frost Breath",
+        "Freezy Frost"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -17642,8 +17642,8 @@ backup_data = {
       "moves": [
         "Freeze-dry",
         "Psychic",
-        "Teeter dance",
-        "Frost breath"
+        "Teeter Dance",
+        "Frost Breath"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -17753,7 +17753,7 @@ backup_data = {
         "U-turn",
         "Liquidation",
         "Soak",
-        "Rain dance"
+        "Rain Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -17784,8 +17784,8 @@ backup_data = {
       "moves": [
         "Liquidation",
         "Soak",
-        "Rain dance",
-        "Hydro pump"
+        "Rain Dance",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -17856,7 +17856,7 @@ backup_data = {
         "Thrash",
         "Superpower",
         "Slash",
-        "Swords dance"
+        "Swords Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -17887,7 +17887,7 @@ backup_data = {
       "moves": [
         "Superpower",
         "Slash",
-        "Swords dance",
+        "Swords Dance",
         "Megahorn"
       ],
       "sub_index": 0,
@@ -17996,10 +17996,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Dragon pulse",
-        "Power whip",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage",
-        "Dragon hammer"
+        "Dragon Hammer"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -18030,9 +18030,9 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Dragon pulse",
-        "Power whip",
+        "Muddy Water",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage"
       ],
       "sub_index": 0,
@@ -18062,9 +18062,9 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Dragon pulse",
-        "Power whip",
+        "Muddy Water",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage"
       ],
       "sub_index": 0,
@@ -18094,9 +18094,9 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Dragon pulse",
-        "Power whip",
+        "Muddy Water",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage"
       ],
       "sub_index": 0,
@@ -18126,9 +18126,9 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Dragon pulse",
-        "Power whip",
+        "Muddy Water",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage"
       ],
       "sub_index": 0,
@@ -18158,9 +18158,9 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Dragon pulse",
-        "Power whip",
+        "Muddy Water",
+        "Dragon Pulse",
+        "Power Whip",
         "Outrage"
       ],
       "sub_index": 0,
@@ -18193,9 +18193,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psychic",
-        "Future sight",
-        "Calm mind",
-        "Focus blast"
+        "Future Sight",
+        "Calm Mind",
+        "Focus Blast"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -18228,8 +18228,8 @@ backup_data = {
       "moves": [
         "Recover",
         "Psychic",
-        "Future sight",
-        "Calm mind"
+        "Future Sight",
+        "Calm Mind"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -18297,8 +18297,8 @@ backup_data = {
       "moves": [
         "Recover",
         "Psychic",
-        "Future sight",
-        "Calm mind"
+        "Future Sight",
+        "Calm Mind"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -18329,8 +18329,8 @@ backup_data = {
       "moves": [
         "Recover",
         "Psychic",
-        "Future sight",
-        "Calm mind"
+        "Future Sight",
+        "Calm Mind"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -18361,8 +18361,8 @@ backup_data = {
       "moves": [
         "Recover",
         "Psychic",
-        "Future sight",
-        "Calm mind"
+        "Future Sight",
+        "Calm Mind"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -18393,8 +18393,8 @@ backup_data = {
       "moves": [
         "Recover",
         "Psychic",
-        "Future sight",
-        "Calm mind"
+        "Future Sight",
+        "Calm Mind"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -18501,10 +18501,10 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Singles",
       "moves": [
-        "Sucker punch",
+        "Sucker Punch",
         "Discharge",
-        "Thunder cage",
-        "Bug buzz"
+        "Thunder Cage",
+        "Bug Buzz"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -18652,9 +18652,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psychic",
-        "Calm mind",
+        "Calm Mind",
         "Endeavor",
-        "Heat wave"
+        "Heat Wave"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -18686,9 +18686,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psychic",
-        "Calm mind",
+        "Calm Mind",
         "Endeavor",
-        "Heat wave"
+        "Heat Wave"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -18719,10 +18719,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Future sight",
-        "Power swap",
-        "Guard swap",
-        "Me first"
+        "Future Sight",
+        "Power Swap",
+        "Guard Swap",
+        "Me First"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -18753,10 +18753,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Future sight",
-        "Power swap",
-        "Guard swap",
-        "Me first"
+        "Future Sight",
+        "Power Swap",
+        "Guard Swap",
+        "Me First"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -18785,10 +18785,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Confuse ray",
+        "Confuse Ray",
         "Wish",
         "Psychic",
-        "Esper wing"
+        "Esper Wing"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -18818,9 +18818,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Confusion",
-        "Stored power",
-        "Ominous wind",
-        "Confuse ray"
+        "Stored Power",
+        "Ominous Wind",
+        "Confuse Ray"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -18850,9 +18850,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Confusion",
-        "Stored power",
-        "Ominous wind",
-        "Confuse ray"
+        "Stored Power",
+        "Ominous Wind",
+        "Confuse Ray"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -18882,9 +18882,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Confusion",
-        "Stored power",
-        "Ominous wind",
-        "Confuse ray"
+        "Stored Power",
+        "Ominous Wind",
+        "Confuse Ray"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -18914,9 +18914,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Confusion",
-        "Stored power",
-        "Ominous wind",
-        "Confuse ray"
+        "Stored Power",
+        "Ominous Wind",
+        "Confuse Ray"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -18946,9 +18946,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Confusion",
-        "Stored power",
-        "Ominous wind",
-        "Confuse ray"
+        "Stored Power",
+        "Ominous Wind",
+        "Confuse Ray"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -18977,10 +18977,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Future sight",
-        "Power swap",
-        "Guard swap",
-        "Me first"
+        "Future Sight",
+        "Power Swap",
+        "Guard Swap",
+        "Me First"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -19009,10 +19009,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Future sight",
-        "Power swap",
-        "Guard swap",
-        "Me first"
+        "Future Sight",
+        "Power Swap",
+        "Guard Swap",
+        "Me First"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -19041,10 +19041,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Future sight",
-        "Power swap",
-        "Guard swap",
-        "Me first"
+        "Future Sight",
+        "Power Swap",
+        "Guard Swap",
+        "Me First"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -19073,10 +19073,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Future sight",
-        "Power swap",
-        "Guard swap",
-        "Me first"
+        "Future Sight",
+        "Power Swap",
+        "Guard Swap",
+        "Me First"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -19105,10 +19105,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Future sight",
-        "Power swap",
-        "Guard swap",
-        "Me first"
+        "Future Sight",
+        "Power Swap",
+        "Guard Swap",
+        "Me First"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -19137,10 +19137,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Future sight",
-        "Power swap",
-        "Guard swap",
-        "Me first"
+        "Future Sight",
+        "Power Swap",
+        "Guard Swap",
+        "Me First"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -19169,10 +19169,10 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Future sight",
-        "Power swap",
-        "Guard swap",
-        "Me first"
+        "Future Sight",
+        "Power Swap",
+        "Guard Swap",
+        "Me First"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -19201,8 +19201,8 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Ominous wind",
-        "Confuse ray",
+        "Ominous Wind",
+        "Confuse Ray",
         "Wish",
         "Psychic"
       ],
@@ -19371,10 +19371,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Headlong rush",
+        "Headlong Rush",
         "Double-edge",
-        "Stone edge",
-        "Head smash"
+        "Stone Edge",
+        "Head Smash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -19446,9 +19446,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Double-edge",
-        "Stone edge",
-        "Head smash",
-        "Volt tackle"
+        "Stone Edge",
+        "Head Smash",
+        "Volt Tackle"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -19480,9 +19480,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Thunderpunch",
-        "Self destruct",
-        "Stealth rock",
-        "Rock blast"
+        "Self Destruct",
+        "Stealth Rock",
+        "Rock Blast"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -19545,7 +19545,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Fake out",
+        "Fake Out",
         "Sing",
         "Attract",
         "Round"
@@ -19609,7 +19609,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Fake out",
+        "Fake Out",
         "Sing",
         "Attract",
         "Round"
@@ -19641,7 +19641,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Fake out",
+        "Fake Out",
         "Sing",
         "Attract",
         "Round"
@@ -19673,7 +19673,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Fake out",
+        "Fake Out",
         "Sing",
         "Attract",
         "Round"
@@ -19705,7 +19705,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Fake out",
+        "Fake Out",
         "Sing",
         "Attract",
         "Round"
@@ -19773,9 +19773,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Covet",
-        "Alluring voice",
+        "Alluring Voice",
         "Moonblast",
-        "Lovely kiss"
+        "Lovely Kiss"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -19805,9 +19805,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Covet",
-        "Alluring voice",
+        "Alluring Voice",
         "Moonblast",
-        "Lovely kiss"
+        "Lovely Kiss"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -19839,7 +19839,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Encore",
-        "Volt switch",
+        "Volt Switch",
         "Agility",
         "Discharge"
       ],
@@ -19873,9 +19873,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Pursuit",
-        "Air cutter",
-        "Shock wave",
-        "Electro ball"
+        "Air Cutter",
+        "Shock Wave",
+        "Electro Ball"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -19906,10 +19906,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Mega drain",
-        "Magical leaf",
-        "Sweet scent",
-        "Ancient power"
+        "Mega Drain",
+        "Magical Leaf",
+        "Sweet Scent",
+        "Ancient Power"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -19978,10 +19978,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Mega drain",
-        "Magical leaf",
-        "Sweet scent",
-        "Ancient power"
+        "Mega Drain",
+        "Magical Leaf",
+        "Sweet Scent",
+        "Ancient Power"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20088,10 +20088,10 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Smack down",
-        "Aqua jet",
-        "Muddy water",
-        "Snipe shot"
+        "Smack Down",
+        "Aqua Jet",
+        "Muddy Water",
+        "Snipe Shot"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -20162,9 +20162,9 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Metal sound",
-        "Iron tail",
-        "Iron defense",
+        "Metal Sound",
+        "Iron Tail",
+        "Iron Defense",
         "Double-edge"
       ],
       "sub_index": 0,
@@ -20196,10 +20196,10 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Rock slide",
-        "Take down",
-        "Metal sound",
-        "Iron tail"
+        "Rock Slide",
+        "Take Down",
+        "Metal Sound",
+        "Iron Tail"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20230,10 +20230,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
+        "Take Down",
         "Bulldoze",
-        "Seed bomb",
-        "Bulk up"
+        "Seed Bomb",
+        "Bulk Up"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20264,10 +20264,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
+        "Take Down",
         "Bulldoze",
-        "Seed bomb",
-        "Bulk up"
+        "Seed Bomb",
+        "Bulk Up"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20298,10 +20298,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
+        "Take Down",
         "Bulldoze",
-        "Seed bomb",
-        "Bulk up"
+        "Seed Bomb",
+        "Bulk Up"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20332,10 +20332,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
+        "Take Down",
         "Bulldoze",
-        "Seed bomb",
-        "Bulk up"
+        "Seed Bomb",
+        "Bulk Up"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20366,10 +20366,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
+        "Take Down",
         "Bulldoze",
-        "Seed bomb",
-        "Bulk up"
+        "Seed Bomb",
+        "Bulk Up"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20401,9 +20401,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Double-edge",
-        "Horn leech",
-        "Leaf blade",
-        "Milk drink"
+        "Horn Leech",
+        "Leaf Blade",
+        "Milk Drink"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -20434,10 +20434,10 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Sucker punch",
+        "Sucker Punch",
         "Double-edge",
         "Attract",
-        "Hone claws"
+        "Hone Claws"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20507,10 +20507,10 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Double hit",
-        "Bullet seed",
+        "Double Hit",
+        "Bullet Seed",
         "Encore",
-        "Play rough"
+        "Play Rough"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20869,9 +20869,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psychic",
-        "After you",
-        "Calm mind",
-        "Psychic terrain"
+        "After You",
+        "Calm Mind",
+        "Psychic Terrain"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20942,9 +20942,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Reversal",
-        "Bulk up",
-        "Hammer arm",
-        "Close combat"
+        "Bulk Up",
+        "Hammer Arm",
+        "Close Combat"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -20976,9 +20976,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Reversal",
-        "Bulk up",
-        "Hammer arm",
-        "Close combat"
+        "Bulk Up",
+        "Hammer Arm",
+        "Close Combat"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21007,10 +21007,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Low sweep",
+        "Low Sweep",
         "Counter",
-        "Karate chop",
-        "Brick break"
+        "Karate Chop",
+        "Brick Break"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21039,10 +21039,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Low sweep",
+        "Low Sweep",
         "Counter",
-        "Karate chop",
-        "Brick break"
+        "Karate Chop",
+        "Brick Break"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21071,10 +21071,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Low sweep",
+        "Low Sweep",
         "Counter",
-        "Karate chop",
-        "Brick break"
+        "Karate Chop",
+        "Brick Break"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21103,10 +21103,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Low sweep",
+        "Low Sweep",
         "Counter",
-        "Karate chop",
-        "Brick break"
+        "Karate Chop",
+        "Brick Break"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21135,10 +21135,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Low sweep",
+        "Low Sweep",
         "Counter",
-        "Karate chop",
-        "Brick break"
+        "Karate Chop",
+        "Brick Break"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21167,10 +21167,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Double kick",
-        "Low sweep",
+        "Double Kick",
+        "Low Sweep",
         "Counter",
-        "Karate chop"
+        "Karate Chop"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -21201,10 +21201,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Wide guard",
+        "Wide Guard",
         "Superpower",
         "Reversal",
-        "Bulk up"
+        "Bulk Up"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21235,10 +21235,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Wide guard",
+        "Wide Guard",
         "Superpower",
         "Reversal",
-        "Bulk up"
+        "Bulk Up"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -21267,10 +21267,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Vital throw",
+        "Vital Throw",
         "Revenge",
-        "Storm throw",
-        "Body slam"
+        "Storm Throw",
+        "Body Slam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21299,10 +21299,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Vital throw",
+        "Vital Throw",
         "Revenge",
-        "Storm throw",
-        "Body slam"
+        "Storm Throw",
+        "Body Slam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21331,10 +21331,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Vital throw",
+        "Vital Throw",
         "Revenge",
-        "Storm throw",
-        "Body slam"
+        "Storm Throw",
+        "Body Slam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21363,10 +21363,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Vital throw",
+        "Vital Throw",
         "Revenge",
-        "Storm throw",
-        "Body slam"
+        "Storm Throw",
+        "Body Slam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21395,10 +21395,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Vital throw",
+        "Vital Throw",
         "Revenge",
-        "Storm throw",
-        "Body slam"
+        "Storm Throw",
+        "Body Slam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -21430,9 +21430,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "X-scissor",
-        "Iron defense",
-        "Hone claws",
-        "Metal sound"
+        "Iron Defense",
+        "Hone Claws",
+        "Metal Sound"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -21540,9 +21540,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Skill swap",
-        "Power gem",
-        "Stone edge",
+        "Skill Swap",
+        "Power Gem",
+        "Stone Edge",
         "Moonblast"
       ],
       "sub_index": 0,
@@ -21573,7 +21573,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Moonblast",
-        "Light screen",
+        "Light Screen",
         "Recover",
         "Safeguard"
       ],
@@ -21604,10 +21604,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Smack down",
+        "Smack Down",
         "Reflect",
-        "Stealth rock",
-        "Guard split"
+        "Stealth Rock",
+        "Guard Split"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -21636,9 +21636,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Skill swap",
-        "Power gem",
-        "Stone edge",
+        "Skill Swap",
+        "Power Gem",
+        "Stone Edge",
         "Moonblast"
       ],
       "sub_index": 0,
@@ -21668,9 +21668,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Skill swap",
-        "Power gem",
-        "Stone edge",
+        "Skill Swap",
+        "Power Gem",
+        "Stone Edge",
         "Moonblast"
       ],
       "sub_index": 0,
@@ -21700,9 +21700,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Skill swap",
-        "Power gem",
-        "Stone edge",
+        "Skill Swap",
+        "Power Gem",
+        "Stone Edge",
         "Moonblast"
       ],
       "sub_index": 0,
@@ -21732,9 +21732,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Skill swap",
-        "Power gem",
-        "Stone edge",
+        "Skill Swap",
+        "Power Gem",
+        "Stone Edge",
         "Moonblast"
       ],
       "sub_index": 0,
@@ -21841,9 +21841,9 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Giga drain",
-        "Nasty plot",
-        "Shadow ball",
+        "Giga Drain",
+        "Nasty Plot",
+        "Shadow Ball",
         "Memento"
       ],
       "sub_index": 0,
@@ -21952,7 +21952,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Sing",
-        "Fury attack",
+        "Fury Attack",
         "Round",
         "Taunt"
       ],
@@ -22138,8 +22138,8 @@ backup_data = {
       "moves": [
         "Double-edge",
         "Autotomize",
-        "Heavy slam",
-        "Metal burst"
+        "Heavy Slam",
+        "Metal Burst"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -22460,10 +22460,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Night slash",
+        "Night Slash",
         "Snatch",
         "Punishment",
-        "Dark pulse"
+        "Dark Pulse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -22569,9 +22569,9 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Flame burst",
-        "Power gem",
-        "Lava plume",
+        "Flame Burst",
+        "Power Gem",
+        "Lava Plume",
         "Amnesia"
       ],
       "sub_index": 0,
@@ -22601,10 +22601,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Body slam",
+        "Body Slam",
         "Recover",
         "Flamethrower",
-        "Earth power"
+        "Earth Power"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -22672,7 +22672,7 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Laser focus",
+        "Laser Focus",
         "Crunch",
         "Liquidation",
         "Double-edge"
@@ -22705,7 +22705,7 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Laser focus",
+        "Laser Focus",
         "Crunch",
         "Liquidation",
         "Double-edge"
@@ -22894,8 +22894,8 @@ backup_data = {
       "moves": [
         "Foresight",
         "Endure",
-        "Baby-doll eyes",
-        "Quick attack"
+        "Baby-doll Eyes",
+        "Quick Attack"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -22927,7 +22927,7 @@ backup_data = {
         "Charm",
         "Entrainment",
         "Bounce",
-        "Healing wish"
+        "Healing Wish"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -23073,8 +23073,8 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Gunk shot",
-        "Acid armor",
+        "Gunk Shot",
+        "Acid Armor",
         "Belch",
         "Memento"
       ],
@@ -23107,8 +23107,8 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Gunk shot",
-        "Acid armor",
+        "Gunk Shot",
+        "Acid Armor",
         "Belch",
         "Memento"
       ],
@@ -23140,8 +23140,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Screech",
-        "Gunk shot",
-        "Acid armor",
+        "Gunk Shot",
+        "Acid Armor",
         "Belch"
       ],
       "sub_index": 0,
@@ -23174,9 +23174,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Curse",
-        "Shadow ball",
+        "Shadow Ball",
         "Embargo",
-        "Sucker punch"
+        "Sucker Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -23206,9 +23206,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Curse",
-        "Shadow ball",
+        "Shadow Ball",
         "Embargo",
-        "Sucker punch"
+        "Sucker Punch"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -23276,10 +23276,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Lumina crash",
-        "Future sight",
-        "Stone edge",
-        "Photon geyser"
+        "Lumina Crash",
+        "Future Sight",
+        "Stone Edge",
+        "Photon Geyser"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -23308,10 +23308,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Photon geyser",
+        "Photon Geyser",
         "Explosion",
-        "Magic room",
-        "Meteor beam"
+        "Magic Room",
+        "Meteor Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -23340,10 +23340,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Photon geyser",
+        "Photon Geyser",
         "Explosion",
-        "Magic room",
-        "Meteor beam"
+        "Magic Room",
+        "Meteor Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -23372,10 +23372,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Photon geyser",
+        "Photon Geyser",
         "Explosion",
-        "Magic room",
-        "Meteor beam"
+        "Magic Room",
+        "Meteor Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -23404,10 +23404,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Photon geyser",
+        "Photon Geyser",
         "Explosion",
-        "Magic room",
-        "Meteor beam"
+        "Magic Room",
+        "Meteor Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -23436,10 +23436,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Photon geyser",
+        "Photon Geyser",
         "Explosion",
-        "Magic room",
-        "Meteor beam"
+        "Magic Room",
+        "Meteor Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -23680,8 +23680,8 @@ backup_data = {
       "moves": [
         "Curse",
         "Hex",
-        "Shadow ball",
-        "Mean look"
+        "Shadow Ball",
+        "Mean Look"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -23710,10 +23710,10 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Shadow ball",
-        "Mean look",
+        "Shadow Ball",
+        "Mean Look",
         "Payback",
-        "Hammer arm"
+        "Hammer Arm"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -23781,8 +23781,8 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Future sight",
-        "Shadow ball",
+        "Future Sight",
+        "Shadow Ball",
         "Psychic",
         "Charm"
       ],
@@ -23813,10 +23813,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Shadow ball",
+        "Shadow Ball",
         "Psychic",
         "Charm",
-        "Magic room"
+        "Magic Room"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -23923,9 +23923,9 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Mean look",
-        "Fake tears",
-        "Wake-up slap",
+        "Mean Look",
+        "Fake Tears",
+        "Wake-up Slap",
         "Freeze-dry"
       ],
       "sub_index": 0,
@@ -24105,10 +24105,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Poison jab",
-        "Sludge bomb",
+        "Poison Jab",
+        "Sludge Bomb",
         "Belch",
-        "Close combat"
+        "Close Combat"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -24178,10 +24178,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Quick attack",
+        "Quick Attack",
         "Thunder",
         "Charge",
-        "Parabolic charge"
+        "Parabolic Charge"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -24210,10 +24210,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Quick attack",
+        "Quick Attack",
         "Thunder",
         "Charge",
-        "Parabolic charge"
+        "Parabolic Charge"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -24242,10 +24242,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Quick attack",
+        "Quick Attack",
         "Thunder",
         "Charge",
-        "Parabolic charge"
+        "Parabolic Charge"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -24274,10 +24274,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Quick attack",
+        "Quick Attack",
         "Thunder",
         "Charge",
-        "Parabolic charge"
+        "Parabolic Charge"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -24306,10 +24306,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Quick attack",
+        "Quick Attack",
         "Thunder",
         "Charge",
-        "Parabolic charge"
+        "Parabolic Charge"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -24553,9 +24553,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
-        "Air slash",
-        "Draining kiss",
-        "Signal beam"
+        "Air Slash",
+        "Draining Kiss",
+        "Signal Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -24585,9 +24585,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
-        "Air slash",
-        "Draining kiss",
-        "Signal beam"
+        "Air Slash",
+        "Draining Kiss",
+        "Signal Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -24617,9 +24617,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
-        "Air slash",
-        "Draining kiss",
-        "Signal beam"
+        "Air Slash",
+        "Draining Kiss",
+        "Signal Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -24649,9 +24649,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
-        "Air slash",
-        "Draining kiss",
-        "Signal beam"
+        "Air Slash",
+        "Draining Kiss",
+        "Signal Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -24681,9 +24681,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
-        "Air slash",
-        "Draining kiss",
-        "Signal beam"
+        "Air Slash",
+        "Draining Kiss",
+        "Signal Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -24713,7 +24713,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Safeguard",
-        "Quiver dance",
+        "Quiver Dance",
         "Hurricane",
         "Powder"
       ],
@@ -24939,9 +24939,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Counter",
-        "Mirror coat",
+        "Mirror Coat",
         "Safeguard",
-        "Destiny bond"
+        "Destiny Bond"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -25008,9 +25008,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Mega drain",
-        "Fairy wind",
-        "Stun spore"
+        "Mega Drain",
+        "Fairy Wind",
+        "Stun Spore"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -25039,9 +25039,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Mega drain",
-        "Fairy wind",
-        "Stun spore"
+        "Mega Drain",
+        "Fairy Wind",
+        "Stun Spore"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -25070,9 +25070,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Mega drain",
-        "Fairy wind",
-        "Stun spore"
+        "Mega Drain",
+        "Fairy Wind",
+        "Stun Spore"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -25101,9 +25101,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Mega drain",
-        "Fairy wind",
-        "Stun spore"
+        "Mega Drain",
+        "Fairy Wind",
+        "Stun Spore"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -25132,9 +25132,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Mega drain",
-        "Fairy wind",
-        "Stun spore"
+        "Mega Drain",
+        "Fairy Wind",
+        "Stun Spore"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -25163,9 +25163,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Mega drain",
-        "Fairy wind",
-        "Stun spore"
+        "Mega Drain",
+        "Fairy Wind",
+        "Stun Spore"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -25196,7 +25196,7 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
+        "Double Slap",
         "Metronome",
         "Teleport",
         "Moonblast"
@@ -25228,7 +25228,7 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
+        "Double Slap",
         "Metronome",
         "Teleport",
         "Moonblast"
@@ -25261,7 +25261,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Sing",
-        "Double slap",
+        "Double Slap",
         "Metronome",
         "Teleport"
       ],
@@ -25292,7 +25292,7 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
+        "Double Slap",
         "Metronome",
         "Teleport",
         "Moonblast"
@@ -25546,8 +25546,8 @@ backup_data = {
       "moves": [
         "Safeguard",
         "Moonblast",
-        "Sparkly swirl",
-        "Psycho boost"
+        "Sparkly Swirl",
+        "Psycho Boost"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -25578,7 +25578,7 @@ backup_data = {
       "moves": [
         "Taunt",
         "Psychic",
-        "Role play",
+        "Role Play",
         "Safeguard"
       ],
       "sub_index": 0,
@@ -25610,7 +25610,7 @@ backup_data = {
       "moves": [
         "Taunt",
         "Psychic",
-        "Role play",
+        "Role Play",
         "Safeguard"
       ],
       "sub_index": 0,
@@ -25642,7 +25642,7 @@ backup_data = {
       "moves": [
         "Taunt",
         "Psychic",
-        "Role play",
+        "Role Play",
         "Safeguard"
       ],
       "sub_index": 0,
@@ -25674,7 +25674,7 @@ backup_data = {
       "moves": [
         "Taunt",
         "Psychic",
-        "Role play",
+        "Role Play",
         "Safeguard"
       ],
       "sub_index": 0,
@@ -25706,7 +25706,7 @@ backup_data = {
       "moves": [
         "Taunt",
         "Psychic",
-        "Role play",
+        "Role Play",
         "Safeguard"
       ],
       "sub_index": 0,
@@ -25739,7 +25739,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Ingrain",
-        "Petal blizzard",
+        "Petal Blizzard",
         "Toxic",
         "Aromatherapy"
       ],
@@ -25770,10 +25770,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Toxic spikes",
-        "Sleep powder",
+        "Toxic Spikes",
+        "Sleep Powder",
         "Ingrain",
-        "Petal blizzard"
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -25807,9 +25807,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Slash",
-        "Chip away",
+        "Chip Away",
         "Counter",
-        "Focus punch"
+        "Focus Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -25839,7 +25839,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Uproar",
-        "Fury swipes",
+        "Fury Swipes",
         "Endure",
         "Slash"
       ],
@@ -25872,10 +25872,10 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Fury swipes",
+        "Fury Swipes",
         "Snatch",
-        "Flame burst",
-        "Bug bite"
+        "Flame Burst",
+        "Bug Bite"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -25942,9 +25942,9 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Singles",
       "moves": [
-        "Spit up",
+        "Spit Up",
         "Swallow",
-        "Flare blitz",
+        "Flare Blitz",
         "Inferno"
       ],
       "sub_index": 0,
@@ -26331,7 +26331,7 @@ backup_data = {
         "Crunch",
         "Crabhammer",
         "Slash",
-        "Dragon dance"
+        "Dragon Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -26537,10 +26537,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Ice beam",
-        "Iron defense",
-        "Rain dance",
-        "Hydro pump"
+        "Ice Beam",
+        "Iron Defense",
+        "Rain Dance",
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -26749,7 +26749,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Recover",
-        "Misty terrain",
+        "Misty Terrain",
         "Entrainment",
         "Moonblast"
       ],
@@ -26780,8 +26780,8 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Sweet scent",
-        "Draining kiss",
+        "Sweet Scent",
+        "Draining Kiss",
         "Aromatherapy",
         "Attract"
       ],
@@ -26814,8 +26814,8 @@ backup_data = {
       "moves": [
         "Aromatherapy",
         "Attract",
-        "Acid armor",
-        "Dazzling gleam"
+        "Acid Armor",
+        "Dazzling Gleam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -26846,8 +26846,8 @@ backup_data = {
       "moves": [
         "Aromatherapy",
         "Attract",
-        "Acid armor",
-        "Dazzling gleam"
+        "Acid Armor",
+        "Dazzling Gleam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -26878,8 +26878,8 @@ backup_data = {
       "moves": [
         "Aromatherapy",
         "Attract",
-        "Acid armor",
-        "Dazzling gleam"
+        "Acid Armor",
+        "Dazzling Gleam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -26910,8 +26910,8 @@ backup_data = {
       "moves": [
         "Aromatherapy",
         "Attract",
-        "Acid armor",
-        "Dazzling gleam"
+        "Acid Armor",
+        "Dazzling Gleam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -26942,8 +26942,8 @@ backup_data = {
       "moves": [
         "Aromatherapy",
         "Attract",
-        "Acid armor",
-        "Dazzling gleam"
+        "Acid Armor",
+        "Dazzling Gleam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -26973,7 +26973,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Recover",
-        "Misty terrain",
+        "Misty Terrain",
         "Entrainment",
         "Moonblast"
       ],
@@ -27005,7 +27005,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Recover",
-        "Misty terrain",
+        "Misty Terrain",
         "Entrainment",
         "Moonblast"
       ],
@@ -27040,8 +27040,8 @@ backup_data = {
       "moves": [
         "Coil",
         "Moonblast",
-        "Hydro pump",
-        "Shell smash"
+        "Hydro Pump",
+        "Shell Smash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -27221,8 +27221,8 @@ backup_data = {
       "moves": [
         "Coil",
         "Moonblast",
-        "Hydro pump",
-        "Shell smash"
+        "Hydro Pump",
+        "Shell Smash"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -27256,7 +27256,7 @@ backup_data = {
         "Wish",
         "Charm",
         "Crunch",
-        "Last resort"
+        "Last Resort"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -27326,8 +27326,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psychic",
-        "Healing wish",
-        "Magic powder",
+        "Healing Wish",
+        "Magic Powder",
         "Moonblast"
       ],
       "sub_index": 1,
@@ -27519,7 +27519,7 @@ backup_data = {
         "Magnitude",
         "Rest",
         "Snore",
-        "Water pulse"
+        "Water Pulse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -27549,9 +27549,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Earthquake",
-        "Muddy water",
-        "Future sight",
-        "Dragon dance"
+        "Muddy Water",
+        "Future Sight",
+        "Dragon Dance"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -27618,7 +27618,7 @@ backup_data = {
       "moves": [
         "Rest",
         "Snore",
-        "Water pulse",
+        "Water Pulse",
         "Earthquake"
       ],
       "sub_index": 0,
@@ -27648,9 +27648,9 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Mud bomb",
+        "Mud Bomb",
         "Amnesia",
-        "Water pulse",
+        "Water Pulse",
         "Magnitude"
       ],
       "sub_index": 1,
@@ -27682,10 +27682,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Calm mind",
-        "Mind reader",
-        "High jump kick",
-        "Psych up"
+        "Calm Mind",
+        "Mind Reader",
+        "High Jump Kick",
+        "Psych Up"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -27714,9 +27714,9 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Rock tomb",
+        "Rock Tomb",
         "Endure",
-        "Force palm",
+        "Force Palm",
         "Feint"
       ],
       "sub_index": 0,
@@ -27747,9 +27747,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Feint",
-        "Bullet punch",
-        "Calm mind",
-        "Mind reader"
+        "Bullet Punch",
+        "Calm Mind",
+        "Mind Reader"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -27780,9 +27780,9 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Miracle eye",
+        "Miracle Eye",
         "Reflect",
-        "Energy ball",
+        "Energy Ball",
         "Recover"
       ],
       "sub_index": 0,
@@ -27812,9 +27812,9 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Miracle eye",
+        "Miracle Eye",
         "Reflect",
-        "Energy ball",
+        "Energy Ball",
         "Recover"
       ],
       "sub_index": 0,
@@ -27844,9 +27844,9 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Miracle eye",
+        "Miracle Eye",
         "Reflect",
-        "Energy ball",
+        "Energy Ball",
         "Recover"
       ],
       "sub_index": 0,
@@ -27876,9 +27876,9 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Miracle eye",
+        "Miracle Eye",
         "Reflect",
-        "Energy ball",
+        "Energy Ball",
         "Recover"
       ],
       "sub_index": 0,
@@ -27908,9 +27908,9 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Miracle eye",
+        "Miracle Eye",
         "Reflect",
-        "Energy ball",
+        "Energy Ball",
         "Recover"
       ],
       "sub_index": 0,
@@ -27940,10 +27940,10 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Energy ball",
+        "Energy Ball",
         "Recover",
         "Psychic",
-        "Role play"
+        "Role Play"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -27975,7 +27975,7 @@ backup_data = {
         "Confusion",
         "Teleport",
         "Confusion",
-        "Hidden power"
+        "Hidden Power"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -28004,10 +28004,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Energy ball",
+        "Energy Ball",
         "Recover",
         "Psychic",
-        "Role play"
+        "Role Play"
       ],
       "sub_index": 1,
       "ai_tags": []
@@ -28036,7 +28036,7 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Natural gift",
+        "Natural Gift",
         "Spikes",
         "Payback",
         "Explosion"
@@ -28068,7 +28068,7 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Natural gift",
+        "Natural Gift",
         "Spikes",
         "Payback",
         "Explosion"
@@ -28100,7 +28100,7 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Natural gift",
+        "Natural Gift",
         "Spikes",
         "Payback",
         "Explosion"
@@ -28132,7 +28132,7 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Natural gift",
+        "Natural Gift",
         "Spikes",
         "Payback",
         "Explosion"
@@ -28164,7 +28164,7 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Natural gift",
+        "Natural Gift",
         "Spikes",
         "Payback",
         "Explosion"
@@ -28361,9 +28361,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Ingrain",
-        "Wood hammer",
-        "Destiny bond",
-        "Forests curse"
+        "Wood Hammer",
+        "Destiny Bond",
+        "Forests Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28431,9 +28431,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Ingrain",
-        "Wood hammer",
-        "Destiny bond",
-        "Forests curse"
+        "Wood Hammer",
+        "Destiny Bond",
+        "Forests Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28465,9 +28465,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Ingrain",
-        "Wood hammer",
-        "Destiny bond",
-        "Forests curse"
+        "Wood Hammer",
+        "Destiny Bond",
+        "Forests Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28499,9 +28499,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Ingrain",
-        "Wood hammer",
-        "Destiny bond",
-        "Forests curse"
+        "Wood Hammer",
+        "Destiny Bond",
+        "Forests Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28533,9 +28533,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Ingrain",
-        "Wood hammer",
-        "Destiny bond",
-        "Forests curse"
+        "Wood Hammer",
+        "Destiny Bond",
+        "Forests Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28567,9 +28567,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Ingrain",
-        "Wood hammer",
-        "Destiny bond",
-        "Forests curse"
+        "Wood Hammer",
+        "Destiny Bond",
+        "Forests Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28873,9 +28873,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Screech",
-        "Psychic fangs",
-        "Wave crash",
-        "Aqua fang"
+        "Psychic Fangs",
+        "Wave Crash",
+        "Aqua Fang"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28905,9 +28905,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Screech",
-        "Psychic fangs",
-        "Wave crash",
-        "Aqua fang"
+        "Psychic Fangs",
+        "Wave Crash",
+        "Aqua Fang"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -28940,7 +28940,7 @@ backup_data = {
       "moves": [
         "Roost",
         "Tailwind",
-        "Hydro pump",
+        "Hydro Pump",
         "Hurricane"
       ],
       "sub_index": 1,
@@ -28971,7 +28971,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Mist",
-        "Water pulse",
+        "Water Pulse",
         "Payback",
         "Brine"
       ],
@@ -29004,7 +29004,7 @@ backup_data = {
       "moves": [
         "Roost",
         "Tailwind",
-        "Hydro pump",
+        "Hydro Pump",
         "Hurricane"
       ],
       "sub_index": 0,
@@ -29037,7 +29037,7 @@ backup_data = {
         "Fling",
         "Stockpile",
         "Swallow",
-        "Spit up"
+        "Spit Up"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -29069,7 +29069,7 @@ backup_data = {
         "Fling",
         "Stockpile",
         "Swallow",
-        "Spit up"
+        "Spit Up"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -29100,7 +29100,7 @@ backup_data = {
       "moves": [
         "Stockpile",
         "Swallow",
-        "Spit up",
+        "Spit Up",
         "Roost"
       ],
       "sub_index": 1,
@@ -29170,10 +29170,10 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Perish song",
+        "Perish Song",
         "Swagger",
         "Bounce",
-        "Hyper voice"
+        "Hyper Voice"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -29242,8 +29242,8 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
-        "Stone edge",
+        "Take Down",
+        "Stone Edge",
         "Earthquake",
         "Megahorn"
       ],
@@ -29274,8 +29274,8 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
-        "Stone edge",
+        "Take Down",
+        "Stone Edge",
         "Earthquake",
         "Megahorn"
       ],
@@ -29306,8 +29306,8 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
-        "Stone edge",
+        "Take Down",
+        "Stone Edge",
         "Earthquake",
         "Megahorn"
       ],
@@ -29338,8 +29338,8 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
-        "Stone edge",
+        "Take Down",
+        "Stone Edge",
         "Earthquake",
         "Megahorn"
       ],
@@ -29370,8 +29370,8 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
-        "Stone edge",
+        "Take Down",
+        "Stone Edge",
         "Earthquake",
         "Megahorn"
       ],
@@ -29442,10 +29442,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Psych up",
-        "Nasty plot",
-        "Hydro pump",
-        "Wonder room"
+        "Psych Up",
+        "Nasty Plot",
+        "Hydro Pump",
+        "Wonder Room"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -29474,10 +29474,10 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Psych up",
-        "Nasty plot",
-        "Hydro pump",
-        "Wonder room"
+        "Psych Up",
+        "Nasty Plot",
+        "Hydro Pump",
+        "Wonder Room"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -29546,10 +29546,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Brick break",
-        "Swords dance",
+        "Brick Break",
+        "Swords Dance",
         "Slam",
-        "Leaf blade"
+        "Leaf Blade"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -29579,9 +29579,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Leer",
-        "Fury cutter",
-        "Rock smash",
-        "Brutal swing"
+        "Fury Cutter",
+        "Rock Smash",
+        "Brutal Swing"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -29613,9 +29613,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hex",
-        "Sludge wave",
-        "Hydro pump",
-        "Wring out"
+        "Sludge Wave",
+        "Hydro Pump",
+        "Wring Out"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -29645,9 +29645,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hex",
-        "Sludge wave",
-        "Hydro pump",
-        "Wring out"
+        "Sludge Wave",
+        "Hydro Pump",
+        "Wring Out"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -29679,7 +29679,7 @@ backup_data = {
         "Sludge",
         "Bubblebeam",
         "Barrier",
-        "Poison jab"
+        "Poison Jab"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -29709,9 +29709,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hex",
-        "Sludge wave",
-        "Hydro pump",
-        "Wring out"
+        "Sludge Wave",
+        "Hydro Pump",
+        "Wring Out"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -29778,8 +29778,8 @@ backup_data = {
       "moves": [
         "Screech",
         "Hex",
-        "Sludge wave",
-        "Hydro pump"
+        "Sludge Wave",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -29809,9 +29809,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hex",
-        "Sludge wave",
-        "Hydro pump",
-        "Wring out"
+        "Sludge Wave",
+        "Hydro Pump",
+        "Wring Out"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -29840,7 +29840,7 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Poison jab",
+        "Poison Jab",
         "Scald",
         "Screech",
         "Hex"
@@ -29911,9 +29911,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hex",
-        "Sludge wave",
-        "Hydro pump",
-        "Wring out"
+        "Sludge Wave",
+        "Hydro Pump",
+        "Wring Out"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -29944,7 +29944,7 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Sludge wave",
+        "Sludge Wave",
         "Megahorn",
         "Toxic",
         "Earthquake"
@@ -30454,10 +30454,10 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Natural gift",
-        "Solar beam",
+        "Natural Gift",
+        "Solar Beam",
         "Double-edge",
-        "Sunny day"
+        "Sunny Day"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -30486,10 +30486,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Sunny day",
-        "Leaf storm",
-        "Seed flare",
-        "Fiery dance"
+        "Sunny Day",
+        "Leaf Storm",
+        "Seed Flare",
+        "Fiery Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -30794,10 +30794,10 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Sleep talk",
-        "Heavy slam",
+        "Sleep Talk",
+        "Heavy Slam",
         "Double-edge",
-        "Wave crash"
+        "Wave Crash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -30826,10 +30826,10 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Sleep talk",
-        "Heavy slam",
+        "Sleep Talk",
+        "Heavy Slam",
         "Double-edge",
-        "Wave crash"
+        "Wave Crash"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -30861,9 +30861,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Whirlpool",
-        "Aqua tail",
-        "Hydro pump",
-        "Wave crash"
+        "Aqua Tail",
+        "Hydro Pump",
+        "Wave Crash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -30930,10 +30930,10 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Double hit",
+        "Double Hit",
         "Whirlpool",
-        "Aqua tail",
-        "Hydro pump"
+        "Aqua Tail",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -30965,9 +30965,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
-        "Head smash",
-        "Shadow ball",
-        "Spirit shackle"
+        "Head Smash",
+        "Shadow Ball",
+        "Spirit Shackle"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -31072,10 +31072,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Aqua fang",
-        "Head smash",
+        "Aqua Fang",
+        "Head Smash",
         "Waterfall",
-        "Wave crash"
+        "Wave Crash"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -31106,10 +31106,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Rain dance",
+        "Rain Dance",
         "Hex",
-        "Hydro pump",
-        "Wring out"
+        "Hydro Pump",
+        "Wring Out"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -31138,10 +31138,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Rain dance",
+        "Rain Dance",
         "Hex",
-        "Hydro pump",
-        "Wring out"
+        "Hydro Pump",
+        "Wring Out"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -31174,8 +31174,8 @@ backup_data = {
       "moves": [
         "Swagger",
         "Thrash",
-        "Wave crash",
-        "Close combat"
+        "Wave Crash",
+        "Close Combat"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -31243,10 +31243,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Power gem",
-        "Night shade",
+        "Power Gem",
+        "Night Shade",
         "Grudge",
-        "Mirror coat"
+        "Mirror Coat"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -31316,10 +31316,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Dragon dance",
+        "Dragon Dance",
         "Wish",
         "Boomburst",
-        "Dragon hammer"
+        "Dragon Hammer"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -31348,9 +31348,9 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Hydro pump",
-        "Dragon pulse",
-        "Dragon dance",
+        "Hydro Pump",
+        "Dragon Pulse",
+        "Dragon Dance",
         "Wish"
       ],
       "sub_index": 0,
@@ -31420,9 +31420,9 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "High jump kick",
-        "Sky attack",
-        "Dual wingbeat",
+        "High Jump Kick",
+        "Sky Attack",
+        "Dual Wingbeat",
         "Acrobatics"
       ],
       "sub_index": 1,
@@ -31526,10 +31526,10 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Feather dance",
-        "High jump kick",
-        "Sky attack",
-        "Dual wingbeat"
+        "Feather Dance",
+        "High Jump Kick",
+        "Sky Attack",
+        "Dual Wingbeat"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -31563,7 +31563,7 @@ backup_data = {
         "Snore",
         "Snowscape",
         "Blizzard",
-        "Ice beam"
+        "Ice Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -31595,7 +31595,7 @@ backup_data = {
         "Snore",
         "Snowscape",
         "Blizzard",
-        "Ice beam"
+        "Ice Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -31659,7 +31659,7 @@ backup_data = {
         "Snore",
         "Snowscape",
         "Blizzard",
-        "Ice beam"
+        "Ice Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -31691,7 +31691,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Dive",
-        "Aqua tail",
+        "Aqua Tail",
         "Safeguard",
         "Snowscape"
       ],
@@ -31723,7 +31723,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Dive",
-        "Aqua tail",
+        "Aqua Tail",
         "Safeguard",
         "Snowscape"
       ],
@@ -31794,10 +31794,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Acid armor",
+        "Acid Armor",
         "Belch",
         "Memento",
-        "Sucker punch"
+        "Sucker Punch"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -31827,8 +31827,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Screech",
-        "Gunk shot",
-        "Acid armor",
+        "Gunk Shot",
+        "Acid Armor",
         "Belch"
       ],
       "sub_index": 1,
@@ -31901,7 +31901,7 @@ backup_data = {
         "Sludge",
         "Bubblebeam",
         "Barrier",
-        "Poison jab"
+        "Poison Jab"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -31930,10 +31930,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Water gun",
+        "Water Gun",
         "Supersonic",
         "Acid",
-        "Toxic spikes"
+        "Toxic Spikes"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -31964,9 +31964,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Air cutter",
+        "Air Cutter",
         "Pursuit",
-        "Aerial ace",
+        "Aerial Ace",
         "Roost"
       ],
       "sub_index": 1,
@@ -31996,10 +31996,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Wing attack",
+        "Wing Attack",
         "Mist",
-        "Water pulse",
-        "Quick attack"
+        "Water Pulse",
+        "Quick Attack"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -32032,8 +32032,8 @@ backup_data = {
       "moves": [
         "Leer",
         "Bide",
-        "Baby-doll eyes",
-        "Brutal swing"
+        "Baby-doll Eyes",
+        "Brutal Swing"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -32064,7 +32064,7 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Rock smash",
+        "Rock Smash",
         "Leer",
         "Pursuit",
         "Bubblebeam"
@@ -32098,10 +32098,10 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Mega kick",
-        "Wide guard",
-        "Throat chop",
-        "Brave bird"
+        "Mega Kick",
+        "Wide Guard",
+        "Throat Chop",
+        "Brave Bird"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -32130,10 +32130,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Mega kick",
-        "Wide guard",
-        "Throat chop",
-        "Brave bird"
+        "Mega Kick",
+        "Wide Guard",
+        "Throat Chop",
+        "Brave Bird"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -32339,7 +32339,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Lunge",
-        "Close combat",
+        "Close Combat",
         "Megahorn",
         "Counter"
       ],
@@ -32373,9 +32373,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Endure",
-        "Close combat",
+        "Close Combat",
         "Reversal",
-        "Heavy slam"
+        "Heavy Slam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -32583,9 +32583,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 1,
@@ -32615,9 +32615,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 0,
@@ -32647,9 +32647,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 0,
@@ -32679,9 +32679,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 0,
@@ -32711,9 +32711,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 0,
@@ -32743,9 +32743,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 0,
@@ -32812,9 +32812,9 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 0,
@@ -32844,9 +32844,9 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 0,
@@ -32876,9 +32876,9 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 0,
@@ -32908,9 +32908,9 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 0,
@@ -32940,9 +32940,9 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Hammer arm",
-        "Stone edge",
-        "Focus punch",
+        "Hammer Arm",
+        "Stone Edge",
+        "Focus Punch",
         "Superpower"
       ],
       "sub_index": 0,
@@ -33012,9 +33012,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Stealth rock",
+        "Stealth Rock",
         "Sandstorm",
-        "Stone edge",
+        "Stone Edge",
         "Explosion"
       ],
       "sub_index": 1,
@@ -33081,9 +33081,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Stealth rock",
+        "Stealth Rock",
         "Sandstorm",
-        "Stone edge",
+        "Stone Edge",
         "Explosion"
       ],
       "sub_index": 0,
@@ -33113,9 +33113,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Stealth rock",
+        "Stealth Rock",
         "Sandstorm",
-        "Stone edge",
+        "Stone Edge",
         "Explosion"
       ],
       "sub_index": 0,
@@ -33145,9 +33145,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Stealth rock",
+        "Stealth Rock",
         "Sandstorm",
-        "Stone edge",
+        "Stone Edge",
         "Explosion"
       ],
       "sub_index": 0,
@@ -33177,9 +33177,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Stealth rock",
+        "Stealth Rock",
         "Sandstorm",
-        "Stone edge",
+        "Stone Edge",
         "Explosion"
       ],
       "sub_index": 0,
@@ -33209,9 +33209,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Stealth rock",
+        "Stealth Rock",
         "Sandstorm",
-        "Stone edge",
+        "Stone Edge",
         "Explosion"
       ],
       "sub_index": 0,
@@ -33244,9 +33244,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Whirlwind",
-        "Knock off",
-        "Vital throw",
-        "Belly drum"
+        "Knock Off",
+        "Vital Throw",
+        "Belly Drum"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -33277,10 +33277,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Seismic toss",
+        "Seismic Toss",
         "Revenge",
-        "Knock off",
-        "Vital throw"
+        "Knock Off",
+        "Vital Throw"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -33309,10 +33309,10 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Wake-up slap",
-        "Dual chop",
+        "Wake-up Slap",
+        "Dual Chop",
         "Submission",
-        "Bulk up"
+        "Bulk Up"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -33341,10 +33341,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Wake-up slap",
-        "Dual chop",
+        "Wake-up Slap",
+        "Dual Chop",
         "Submission",
-        "Bulk up"
+        "Bulk Up"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -33491,10 +33491,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Mach punch",
-        "Bullet punch",
+        "Mach Punch",
+        "Bullet Punch",
         "Feint",
-        "Brick break"
+        "Brick Break"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -33523,10 +33523,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Mach punch",
-        "Bullet punch",
+        "Mach Punch",
+        "Bullet Punch",
         "Feint",
-        "Brick break"
+        "Brick Break"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -33555,10 +33555,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Mach punch",
-        "Bullet punch",
+        "Mach Punch",
+        "Bullet Punch",
         "Feint",
-        "Brick break"
+        "Brick Break"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -33587,10 +33587,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Mach punch",
-        "Bullet punch",
+        "Mach Punch",
+        "Bullet Punch",
         "Feint",
-        "Brick break"
+        "Brick Break"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -33619,10 +33619,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Mach punch",
-        "Bullet punch",
+        "Mach Punch",
+        "Bullet Punch",
         "Feint",
-        "Brick break"
+        "Brick Break"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -33729,9 +33729,9 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Jump kick",
-        "Brick break",
-        "Focus energy",
+        "Jump Kick",
+        "Brick Break",
+        "Focus Energy",
         "Feint"
       ],
       "sub_index": 0,
@@ -33761,9 +33761,9 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Jump kick",
-        "Brick break",
-        "Focus energy",
+        "Jump Kick",
+        "Brick Break",
+        "Focus Energy",
         "Feint"
       ],
       "sub_index": 0,
@@ -33793,9 +33793,9 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Jump kick",
-        "Brick break",
-        "Focus energy",
+        "Jump Kick",
+        "Brick Break",
+        "Focus Energy",
         "Feint"
       ],
       "sub_index": 0,
@@ -33825,9 +33825,9 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Jump kick",
-        "Brick break",
-        "Focus energy",
+        "Jump Kick",
+        "Brick Break",
+        "Focus Energy",
         "Feint"
       ],
       "sub_index": 0,
@@ -33857,9 +33857,9 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Jump kick",
-        "Brick break",
-        "Focus energy",
+        "Jump Kick",
+        "Brick Break",
+        "Focus Energy",
         "Feint"
       ],
       "sub_index": 0,
@@ -33930,9 +33930,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psywave",
-        "Take down",
+        "Take Down",
         "Extrasensory",
-        "Heal bell"
+        "Heal Bell"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -33962,7 +33962,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Extrasensory",
-        "Heal bell",
+        "Heal Bell",
         "Uproar",
         "Safeguard"
       ],
@@ -33994,9 +33994,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Extrasensory",
-        "Nasty plot",
+        "Nasty Plot",
         "Memento",
-        "Dark pulse"
+        "Dark Pulse"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -34238,10 +34238,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Night slash",
+        "Night Slash",
         "Snatch",
-        "Nasty plot",
-        "Play rough"
+        "Nasty Plot",
+        "Play Rough"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -34270,10 +34270,10 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Doubles",
       "moves": [
-        "Night slash",
+        "Night Slash",
         "Snatch",
-        "Nasty plot",
-        "Play rough"
+        "Nasty Plot",
+        "Play Rough"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -34302,10 +34302,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Doubles",
       "moves": [
-        "Night slash",
+        "Night Slash",
         "Snatch",
-        "Nasty plot",
-        "Play rough"
+        "Nasty Plot",
+        "Play Rough"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -34334,10 +34334,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Night slash",
+        "Night Slash",
         "Snatch",
-        "Nasty plot",
-        "Play rough"
+        "Nasty Plot",
+        "Play Rough"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -34370,8 +34370,8 @@ backup_data = {
       "moves": [
         "Pursuit",
         "Torment",
-        "Fake out",
-        "Hone claws"
+        "Fake Out",
+        "Hone Claws"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -34402,9 +34402,9 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Scary face",
-        "Dual wingbeat",
-        "Dragon rage",
+        "Scary Face",
+        "Dual Wingbeat",
+        "Dragon Rage",
         "Crunch"
       ],
       "sub_index": 1,
@@ -34434,10 +34434,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Rock climb",
+        "Rock Climb",
         "Superpower",
         "Outrage",
-        "Dragon hammer"
+        "Dragon Hammer"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -34470,10 +34470,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sludge bomb",
-        "Bug buzz",
+        "Sludge Bomb",
+        "Bug Buzz",
         "Detect",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -34502,10 +34502,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Sludge bomb",
-        "Bug buzz",
+        "Sludge Bomb",
+        "Bug Buzz",
         "Detect",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -34534,10 +34534,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Doubles",
       "moves": [
-        "Sludge bomb",
-        "Bug buzz",
+        "Sludge Bomb",
+        "Bug Buzz",
         "Detect",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -34566,10 +34566,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Doubles",
       "moves": [
-        "Sludge bomb",
-        "Bug buzz",
+        "Sludge Bomb",
+        "Bug Buzz",
         "Detect",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -34598,10 +34598,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sludge bomb",
-        "Bug buzz",
+        "Sludge Bomb",
+        "Bug Buzz",
         "Detect",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -34630,10 +34630,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sludge bomb",
-        "Bug buzz",
+        "Sludge Bomb",
+        "Bug Buzz",
         "Detect",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -34662,10 +34662,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sludge bomb",
-        "Bug buzz",
+        "Sludge Bomb",
+        "Bug Buzz",
         "Detect",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -34694,10 +34694,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sludge bomb",
-        "Bug buzz",
+        "Sludge Bomb",
+        "Bug Buzz",
         "Detect",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -34728,10 +34728,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Feather dance",
-        "Icy wind",
-        "Aqua ring",
-        "Air slash"
+        "Feather Dance",
+        "Icy Wind",
+        "Aqua Ring",
+        "Air Slash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -34760,10 +34760,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Feather dance",
-        "Icy wind",
-        "Aqua ring",
-        "Air slash"
+        "Feather Dance",
+        "Icy Wind",
+        "Aqua Ring",
+        "Air Slash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -34792,10 +34792,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Feather dance",
-        "Icy wind",
-        "Aqua ring",
-        "Air slash"
+        "Feather Dance",
+        "Icy Wind",
+        "Aqua Ring",
+        "Air Slash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -34824,10 +34824,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Feather dance",
-        "Icy wind",
-        "Aqua ring",
-        "Air slash"
+        "Feather Dance",
+        "Icy Wind",
+        "Aqua Ring",
+        "Air Slash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -34856,10 +34856,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Feather dance",
-        "Icy wind",
-        "Aqua ring",
-        "Air slash"
+        "Feather Dance",
+        "Icy Wind",
+        "Aqua Ring",
+        "Air Slash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -34888,9 +34888,9 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Rain dance",
+        "Rain Dance",
         "Tailwind",
-        "Hydro pump",
+        "Hydro Pump",
         "Hurricane"
       ],
       "sub_index": 0,
@@ -34920,9 +34920,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Rain dance",
+        "Rain Dance",
         "Tailwind",
-        "Hydro pump",
+        "Hydro Pump",
         "Hurricane"
       ],
       "sub_index": 1,
@@ -34957,7 +34957,7 @@ backup_data = {
         "Dig",
         "Headbutt",
         "Yawn",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -34989,7 +34989,7 @@ backup_data = {
         "Dig",
         "Headbutt",
         "Yawn",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -35021,7 +35021,7 @@ backup_data = {
         "Dig",
         "Headbutt",
         "Yawn",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -35053,7 +35053,7 @@ backup_data = {
         "Dig",
         "Headbutt",
         "Yawn",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -35085,7 +35085,7 @@ backup_data = {
         "Dig",
         "Headbutt",
         "Yawn",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -35150,8 +35150,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Roost",
-        "Aerial ace",
-        "Flame charge",
+        "Aerial Ace",
+        "Flame Charge",
         "Acrobatics"
       ],
       "sub_index": 1,
@@ -35181,10 +35181,10 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Dual wingbeat",
-        "Me first",
+        "Dual Wingbeat",
+        "Me First",
         "Tailwind",
-        "Steel wing"
+        "Steel Wing"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -35253,10 +35253,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Scary face",
+        "Scary Face",
         "Smog",
-        "Lava plume",
-        "Last resort"
+        "Lava Plume",
+        "Last Resort"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -35285,10 +35285,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Quick attack",
+        "Quick Attack",
         "Bite",
-        "Fire fang",
-        "Fire spin"
+        "Fire Fang",
+        "Fire Spin"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -35357,10 +35357,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
+        "Take Down",
         "Inferno",
         "Agility",
-        "Fire blast"
+        "Fire Blast"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -35392,9 +35392,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Flamethrower",
-        "Body slam",
-        "Shell smash",
-        "Dragon pulse"
+        "Body Slam",
+        "Shell Smash",
+        "Dragon Pulse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -35597,10 +35597,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Doubles",
       "moves": [
-        "Shell trap",
-        "Armor cannon",
+        "Shell Trap",
+        "Armor Cannon",
         "Explosion",
-        "Burning bulwark"
+        "Burning Bulwark"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -35631,9 +35631,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Thunder wave",
-        "Electro ball",
-        "Light screen",
+        "Thunder Wave",
+        "Electro Ball",
+        "Light Screen",
         "Discharge"
       ],
       "sub_index": 0,
@@ -35663,9 +35663,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Thunder wave",
-        "Electro ball",
-        "Light screen",
+        "Thunder Wave",
+        "Electro Ball",
+        "Light Screen",
         "Discharge"
       ],
       "sub_index": 0,
@@ -35695,9 +35695,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Thunder wave",
-        "Electro ball",
-        "Light screen",
+        "Thunder Wave",
+        "Electro Ball",
+        "Light Screen",
         "Discharge"
       ],
       "sub_index": 0,
@@ -35727,9 +35727,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Thunder wave",
-        "Electro ball",
-        "Light screen",
+        "Thunder Wave",
+        "Electro Ball",
+        "Light Screen",
         "Discharge"
       ],
       "sub_index": 0,
@@ -35759,9 +35759,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Thunder wave",
-        "Electro ball",
-        "Light screen",
+        "Thunder Wave",
+        "Electro Ball",
+        "Light Screen",
         "Discharge"
       ],
       "sub_index": 0,
@@ -35793,9 +35793,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Trick or treat",
-        "Magical leaf",
-        "Shadow ball",
+        "Trick Or Treat",
+        "Magical Leaf",
+        "Shadow Ball",
         "Hex"
       ],
       "sub_index": 1,
@@ -35825,9 +35825,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Trick or treat",
-        "Magical leaf",
-        "Shadow ball",
+        "Trick Or Treat",
+        "Magical Leaf",
+        "Shadow Ball",
         "Hex"
       ],
       "sub_index": 1,
@@ -35857,9 +35857,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Trick or treat",
-        "Magical leaf",
-        "Shadow ball",
+        "Trick Or Treat",
+        "Magical Leaf",
+        "Shadow Ball",
         "Hex"
       ],
       "sub_index": 1,
@@ -35889,9 +35889,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Trick or treat",
-        "Magical leaf",
-        "Shadow ball",
+        "Trick Or Treat",
+        "Magical Leaf",
+        "Shadow Ball",
         "Hex"
       ],
       "sub_index": 1,
@@ -35921,9 +35921,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Trick or treat",
-        "Magical leaf",
-        "Shadow ball",
+        "Trick Or Treat",
+        "Magical Leaf",
+        "Shadow Ball",
         "Hex"
       ],
       "sub_index": 1,
@@ -35993,10 +35993,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Rock slide",
+        "Rock Slide",
         "Earthquake",
         "Sandstorm",
-        "Drill run"
+        "Drill Run"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -36025,10 +36025,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Rock slide",
+        "Rock Slide",
         "Earthquake",
         "Sandstorm",
-        "Drill run"
+        "Drill Run"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -36057,10 +36057,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Rock slide",
+        "Rock Slide",
         "Earthquake",
         "Sandstorm",
-        "Drill run"
+        "Drill Run"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -36089,10 +36089,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Rock slide",
+        "Rock Slide",
         "Earthquake",
         "Sandstorm",
-        "Drill run"
+        "Drill Run"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -36121,10 +36121,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Rock slide",
+        "Rock Slide",
         "Earthquake",
         "Sandstorm",
-        "Drill run"
+        "Drill Run"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -36225,10 +36225,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Sand tomb",
+        "Sand Tomb",
         "Earthquake",
         "Double-edge",
-        "Last resort"
+        "Last Resort"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -36299,9 +36299,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Guard split",
-        "Power split",
-        "Earth power",
+        "Guard Split",
+        "Power Split",
+        "Earth Power",
         "Sandstorm"
       ],
       "sub_index": 0,
@@ -36331,10 +36331,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Self destruct",
+        "Self Destruct",
         "Extrasensory",
-        "Guard split",
-        "Power split"
+        "Guard Split",
+        "Power Split"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -36401,8 +36401,8 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Power split",
-        "Earth power",
+        "Power Split",
+        "Earth Power",
         "Sandstorm",
         "Explosion"
       ],
@@ -36608,7 +36608,7 @@ backup_data = {
         "Roost",
         "Slash",
         "Taunt",
-        "Dual wingbeat"
+        "Dual Wingbeat"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -36637,8 +36637,8 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Dual wingbeat",
-        "Night slash",
+        "Dual Wingbeat",
+        "Night Slash",
         "Swagger",
         "Facade"
       ],
@@ -36669,8 +36669,8 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Dual wingbeat",
-        "Night slash",
+        "Dual Wingbeat",
+        "Night Slash",
         "Swagger",
         "Facade"
       ],
@@ -36703,8 +36703,8 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Poison tail",
-        "Bug bite",
+        "Poison Tail",
+        "Bug Bite",
         "Venoshock",
         "Agility"
       ],
@@ -36735,8 +36735,8 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Venom drench",
-        "Rock climb",
+        "Venom Drench",
+        "Rock Climb",
         "Double-edge",
         "Megahorn"
       ],
@@ -36769,10 +36769,10 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Double kick",
+        "Double Kick",
         "Headbutt",
-        "Take down",
-        "Guard swap"
+        "Take Down",
+        "Guard Swap"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -36999,10 +36999,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Swords dance",
-        "Hydro pump",
-        "Sacred sword",
-        "Razor shell"
+        "Swords Dance",
+        "Hydro Pump",
+        "Sacred Sword",
+        "Razor Shell"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -37073,10 +37073,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Bug bite",
-        "Fury cutter",
+        "Bug Bite",
+        "Fury Cutter",
         "Spore",
-        "Leech life"
+        "Leech Life"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -37146,9 +37146,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Roost",
-        "Fury attack",
+        "Fury Attack",
         "Screech",
-        "Drill peck"
+        "Drill Peck"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -37177,10 +37177,10 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Drill peck",
-        "Bullet seed",
-        "Feather dance",
-        "Hyper voice"
+        "Drill Peck",
+        "Bullet Seed",
+        "Feather Dance",
+        "Hyper Voice"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -37209,10 +37209,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Drill peck",
-        "Bullet seed",
-        "Feather dance",
-        "Hyper voice"
+        "Drill Peck",
+        "Bullet Seed",
+        "Feather Dance",
+        "Hyper Voice"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -37243,10 +37243,10 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Hydro pump",
+        "Hydro Pump",
         "Hurricane",
         "Whirlwind",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -37315,10 +37315,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Bug buzz",
-        "Dazzling gleam",
+        "Bug Buzz",
+        "Dazzling Gleam",
         "Aromatherapy",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -37387,10 +37387,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Giga drain",
+        "Giga Drain",
         "Psychic",
         "Rage",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -37419,10 +37419,10 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Doubles",
       "moves": [
-        "Giga drain",
+        "Giga Drain",
         "Psychic",
         "Rage",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -37453,10 +37453,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Rock slide",
-        "Body slam",
-        "Wide guard",
-        "Heavy slam"
+        "Rock Slide",
+        "Body Slam",
+        "Wide Guard",
+        "Heavy Slam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -37485,10 +37485,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Wide guard",
-        "Heavy slam",
-        "Stone edge",
-        "Mega kick"
+        "Wide Guard",
+        "Heavy Slam",
+        "Stone Edge",
+        "Mega Kick"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -37522,7 +37522,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Camouflage",
-        "Bug buzz",
+        "Bug Buzz",
         "Psychic",
         "Hurricane"
       ],
@@ -37554,7 +37554,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Camouflage",
-        "Bug buzz",
+        "Bug Buzz",
         "Psychic",
         "Hurricane"
       ],
@@ -37586,7 +37586,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Camouflage",
-        "Bug buzz",
+        "Bug Buzz",
         "Psychic",
         "Hurricane"
       ],
@@ -37618,7 +37618,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Camouflage",
-        "Bug buzz",
+        "Bug Buzz",
         "Psychic",
         "Hurricane"
       ],
@@ -37650,7 +37650,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Camouflage",
-        "Bug buzz",
+        "Bug Buzz",
         "Psychic",
         "Hurricane"
       ],
@@ -37722,9 +37722,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Earthquake",
-        "Mega kick",
+        "Mega Kick",
         "Superpower",
-        "Slack off"
+        "Slack Off"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -37756,9 +37756,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Earthquake",
-        "Mega kick",
+        "Mega Kick",
         "Superpower",
-        "Slack off"
+        "Slack Off"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -37829,9 +37829,9 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Speed swap",
-        "Thunder shock",
-        "Quick attack",
+        "Speed Swap",
+        "Thunder Shock",
+        "Quick Attack",
         "Thunderbolt"
       ],
       "sub_index": 0,
@@ -37903,8 +37903,8 @@ backup_data = {
       "moves": [
         "Psychic",
         "Swagger",
-        "Future sight",
-        "Dark void"
+        "Future Sight",
+        "Dark Void"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -37934,7 +37934,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Headbutt",
-        "Poison gas",
+        "Poison Gas",
         "Meditate",
         "Psybeam"
       ],
@@ -37967,8 +37967,8 @@ backup_data = {
       "moves": [
         "Psychic",
         "Swagger",
-        "Future sight",
-        "Dark void"
+        "Future Sight",
+        "Dark Void"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -38069,9 +38069,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Uproar",
-        "Dazzling gleam",
+        "Dazzling Gleam",
         "Psychic",
-        "Last resort"
+        "Last Resort"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -38140,9 +38140,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psychic",
-        "Heal block",
-        "Stone edge",
-        "Photon geyser"
+        "Heal Block",
+        "Stone Edge",
+        "Photon Geyser"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -38171,10 +38171,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Stone edge",
-        "Photon geyser",
+        "Stone Edge",
+        "Photon Geyser",
         "Explosion",
-        "Wonder room"
+        "Wonder Room"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -38203,10 +38203,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Stone edge",
-        "Photon geyser",
+        "Stone Edge",
+        "Photon Geyser",
         "Explosion",
-        "Wonder room"
+        "Wonder Room"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -38235,10 +38235,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Stone edge",
-        "Photon geyser",
+        "Stone Edge",
+        "Photon Geyser",
         "Explosion",
-        "Wonder room"
+        "Wonder Room"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -38267,10 +38267,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Stone edge",
-        "Photon geyser",
+        "Stone Edge",
+        "Photon Geyser",
         "Explosion",
-        "Wonder room"
+        "Wonder Room"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -38299,10 +38299,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Stone edge",
-        "Photon geyser",
+        "Stone Edge",
+        "Photon Geyser",
         "Explosion",
-        "Wonder room"
+        "Wonder Room"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -38470,8 +38470,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hypnosis",
-        "Dream eater",
-        "Calm mind",
+        "Dream Eater",
+        "Calm Mind",
         "Moonblast"
       ],
       "sub_index": 0,
@@ -38652,10 +38652,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "False swipe",
+        "False Swipe",
         "Protect",
-        "Close combat",
-        "Psycho cut"
+        "Close Combat",
+        "Psycho Cut"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -38763,10 +38763,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Shadow ball",
+        "Shadow Ball",
         "Grudge",
-        "Mean look",
-        "Destiny bond"
+        "Mean Look",
+        "Destiny Bond"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -38795,10 +38795,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Shadow ball",
+        "Shadow Ball",
         "Grudge",
-        "Mean look",
-        "Destiny bond"
+        "Mean Look",
+        "Destiny Bond"
       ],
       "sub_index": 1,
       "ai_tags": []
@@ -38825,10 +38825,10 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Shadow ball",
+        "Shadow Ball",
         "Grudge",
-        "Mean look",
-        "Destiny bond"
+        "Mean Look",
+        "Destiny Bond"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -38862,9 +38862,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Earthquake",
-        "Guard split",
-        "Power split",
-        "Destiny bond"
+        "Guard Split",
+        "Power Split",
+        "Destiny Bond"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -38894,7 +38894,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hex",
-        "Mean look",
+        "Mean Look",
         "Slam",
         "Curse"
       ],
@@ -38928,7 +38928,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hex",
-        "Mean look",
+        "Mean Look",
         "Slam",
         "Curse"
       ],
@@ -38962,7 +38962,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hex",
-        "Mean look",
+        "Mean Look",
         "Slam",
         "Curse"
       ],
@@ -38996,7 +38996,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hex",
-        "Mean look",
+        "Mean Look",
         "Slam",
         "Curse"
       ],
@@ -39030,7 +39030,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Hex",
-        "Mean look",
+        "Mean Look",
         "Slam",
         "Curse"
       ],
@@ -39241,7 +39241,7 @@ backup_data = {
       "moves": [
         "Psychic",
         "Imprison",
-        "Future sight",
+        "Future Sight",
         "Charm"
       ],
       "sub_index": 0,
@@ -39275,8 +39275,8 @@ backup_data = {
       "moves": [
         "Crunch",
         "Entrainment",
-        "Parting shot",
-        "Sky uppercut"
+        "Parting Shot",
+        "Sky Uppercut"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -39307,8 +39307,8 @@ backup_data = {
       "moves": [
         "Crunch",
         "Entrainment",
-        "Parting shot",
-        "Sky uppercut"
+        "Parting Shot",
+        "Sky Uppercut"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -39339,8 +39339,8 @@ backup_data = {
       "moves": [
         "Crunch",
         "Entrainment",
-        "Parting shot",
-        "Sky uppercut"
+        "Parting Shot",
+        "Sky Uppercut"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -39371,8 +39371,8 @@ backup_data = {
       "moves": [
         "Crunch",
         "Entrainment",
-        "Parting shot",
-        "Sky uppercut"
+        "Parting Shot",
+        "Sky Uppercut"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -39403,8 +39403,8 @@ backup_data = {
       "moves": [
         "Crunch",
         "Entrainment",
-        "Parting shot",
-        "Sky uppercut"
+        "Parting Shot",
+        "Sky Uppercut"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -39715,7 +39715,7 @@ backup_data = {
         "Waterfall",
         "Soak",
         "Megahorn",
-        "Fishious rend"
+        "Fishious Rend"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -39747,7 +39747,7 @@ backup_data = {
         "Waterfall",
         "Soak",
         "Megahorn",
-        "Fishious rend"
+        "Fishious Rend"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -39779,7 +39779,7 @@ backup_data = {
         "Waterfall",
         "Soak",
         "Megahorn",
-        "Fishious rend"
+        "Fishious Rend"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -39984,10 +39984,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Drill peck",
+        "Drill Peck",
         "Swagger",
-        "Brave bird",
-        "Iron defense"
+        "Brave Bird",
+        "Iron Defense"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -40054,10 +40054,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Scary face",
-        "Drill peck",
+        "Scary Face",
+        "Drill Peck",
         "Swagger",
-        "Brave bird"
+        "Brave Bird"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -40694,10 +40694,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Sucker punch",
-        "Razor wind",
-        "Future sight",
-        "Perish song"
+        "Sucker Punch",
+        "Razor Wind",
+        "Future Sight",
+        "Perish Song"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -40728,10 +40728,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Razor wind",
-        "Future sight",
-        "Perish song",
-        "Swords dance"
+        "Razor Wind",
+        "Future Sight",
+        "Perish Song",
+        "Swords Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -41464,8 +41464,8 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Dark pulse",
-        "Destiny bond",
+        "Dark Pulse",
+        "Destiny Bond",
         "Hex",
         "Nightmare"
       ],
@@ -41978,10 +41978,10 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Leaf storm",
-        "Brave bird",
-        "Swords dance",
-        "Thousand arrows"
+        "Leaf Storm",
+        "Brave Bird",
+        "Swords Dance",
+        "Thousand Arrows"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -42701,7 +42701,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Dive",
-        "Drill peck",
+        "Drill Peck",
         "Amnesia",
         "Surf"
       ],
@@ -42732,10 +42732,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Drill peck",
+        "Drill Peck",
         "Amnesia",
         "Surf",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -42764,10 +42764,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Drill peck",
+        "Drill Peck",
         "Amnesia",
         "Surf",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -42796,10 +42796,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Drill peck",
+        "Drill Peck",
         "Amnesia",
         "Surf",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -42828,10 +42828,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Drill peck",
+        "Drill Peck",
         "Amnesia",
         "Surf",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -42860,10 +42860,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Drill peck",
+        "Drill Peck",
         "Amnesia",
         "Surf",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -43127,7 +43127,7 @@ backup_data = {
         "Amnesia",
         "Dive",
         "Bounce",
-        "Bouncy bubble"
+        "Bouncy Bubble"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -43159,7 +43159,7 @@ backup_data = {
         "Amnesia",
         "Dive",
         "Bounce",
-        "Bouncy bubble"
+        "Bouncy Bubble"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -43191,7 +43191,7 @@ backup_data = {
         "Amnesia",
         "Dive",
         "Bounce",
-        "Bouncy bubble"
+        "Bouncy Bubble"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -43223,7 +43223,7 @@ backup_data = {
         "Mist",
         "Brine",
         "Rest",
-        "Water spout"
+        "Water Spout"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -43254,8 +43254,8 @@ backup_data = {
       "moves": [
         "Dive",
         "Bounce",
-        "Bouncy bubble",
-        "Hydro pump"
+        "Bouncy Bubble",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -43323,9 +43323,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Growl",
-        "Mega drain",
-        "Nature power",
-        "Aqua step"
+        "Mega Drain",
+        "Nature Power",
+        "Aqua Step"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -43529,9 +43529,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Growl",
-        "Mega drain",
-        "Nature power",
-        "Aqua step"
+        "Mega Drain",
+        "Nature Power",
+        "Aqua Step"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -43563,9 +43563,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Growl",
-        "Mega drain",
-        "Nature power",
-        "Aqua step"
+        "Mega Drain",
+        "Nature Power",
+        "Aqua Step"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -43595,9 +43595,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Growl",
-        "Mega drain",
-        "Nature power",
-        "Aqua step"
+        "Mega Drain",
+        "Nature Power",
+        "Aqua Step"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -43627,9 +43627,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Growl",
-        "Mega drain",
-        "Nature power",
-        "Aqua step"
+        "Mega Drain",
+        "Nature Power",
+        "Aqua Step"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -43659,9 +43659,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Growl",
-        "Mega drain",
-        "Nature power",
-        "Aqua step"
+        "Mega Drain",
+        "Nature Power",
+        "Aqua Step"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -43691,9 +43691,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Growl",
-        "Mega drain",
-        "Nature power",
-        "Aqua step"
+        "Mega Drain",
+        "Nature Power",
+        "Aqua Step"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -43762,8 +43762,8 @@ backup_data = {
       "moves": [
         "Safeguard",
         "Coil",
-        "Hydro pump",
-        "Rain dance"
+        "Hydro Pump",
+        "Rain Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -43793,9 +43793,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Coil",
-        "Hydro pump",
-        "Rain dance",
-        "Bouncy bubble"
+        "Hydro Pump",
+        "Rain Dance",
+        "Bouncy Bubble"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -43900,8 +43900,8 @@ backup_data = {
       "moves": [
         "Safeguard",
         "Coil",
-        "Hydro pump",
-        "Rain dance"
+        "Hydro Pump",
+        "Rain Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -45923,8 +45923,8 @@ backup_data = {
       "moves": [
         "Slash",
         "Spikes",
-        "Ice ball",
-        "Spiky shield"
+        "Ice Ball",
+        "Spiky Shield"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -45955,8 +45955,8 @@ backup_data = {
       "moves": [
         "Slash",
         "Spikes",
-        "Ice ball",
-        "Spiky shield"
+        "Ice Ball",
+        "Spiky Shield"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -46522,10 +46522,10 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Thunder shock",
+        "Thunder Shock",
         "Charge",
         "Charm",
-        "Shock wave"
+        "Shock Wave"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -46772,7 +46772,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Agility",
-        "Volt switch",
+        "Volt Switch",
         "Discharge",
         "Hurricane"
       ],
@@ -46804,7 +46804,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Agility",
-        "Volt switch",
+        "Volt Switch",
         "Discharge",
         "Hurricane"
       ],
@@ -47016,10 +47016,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Sonic boom",
+        "Sonic Boom",
         "Spark",
-        "Mirror shot",
-        "Metal sound"
+        "Mirror Shot",
+        "Metal Sound"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -47407,9 +47407,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Crunch",
-        "Sucker punch",
-        "Zing zap",
-        "Volt tackle"
+        "Sucker Punch",
+        "Zing Zap",
+        "Volt Tackle"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -48052,8 +48052,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Crunch",
-        "Seed bomb",
-        "Solar beam",
+        "Seed Bomb",
+        "Solar Beam",
         "Overheat"
       ],
       "sub_index": 0,
@@ -49849,7 +49849,7 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Scary face",
+        "Scary Face",
         "Counter",
         "Taunt",
         "Double-edge"
@@ -49884,7 +49884,7 @@ backup_data = {
         "Counter",
         "Taunt",
         "Double-edge",
-        "Sucker punch"
+        "Sucker Punch"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -49913,7 +49913,7 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Scary face",
+        "Scary Face",
         "Counter",
         "Taunt",
         "Double-edge"
@@ -50131,8 +50131,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Agility",
-        "Brave bird",
-        "Final gambit",
+        "Brave Bird",
+        "Final Gambit",
         "Double-edge"
       ],
       "sub_index": 0,
@@ -50165,8 +50165,8 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Agility",
-        "Brave bird",
-        "Final gambit",
+        "Brave Bird",
+        "Final Gambit",
         "Double-edge"
       ],
       "sub_index": 0,
@@ -50197,8 +50197,8 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Agility",
-        "Brave bird",
-        "Final gambit",
+        "Brave Bird",
+        "Final Gambit",
         "Double-edge"
       ],
       "sub_index": 0,
@@ -50229,8 +50229,8 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Agility",
-        "Brave bird",
-        "Final gambit",
+        "Brave Bird",
+        "Final Gambit",
         "Double-edge"
       ],
       "sub_index": 0,
@@ -50261,8 +50261,8 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Agility",
-        "Brave bird",
-        "Final gambit",
+        "Brave Bird",
+        "Final Gambit",
         "Double-edge"
       ],
       "sub_index": 0,
@@ -50293,8 +50293,8 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Agility",
-        "Brave bird",
-        "Final gambit",
+        "Brave Bird",
+        "Final Gambit",
         "Double-edge"
       ],
       "sub_index": 0,
@@ -50324,10 +50324,10 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Dual wingbeat",
-        "Take down",
+        "Dual Wingbeat",
+        "Take Down",
         "Agility",
-        "Brave bird"
+        "Brave Bird"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -50893,10 +50893,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Doubles",
       "moves": [
-        "Dragon claw",
-        "Perish song",
+        "Dragon Claw",
+        "Perish Song",
         "Moonblast",
-        "Sky attack"
+        "Sky Attack"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -51324,7 +51324,7 @@ backup_data = {
       "moves": [
         "Endure",
         "Outrage",
-        "Sucker punch",
+        "Sucker Punch",
         "Reversal"
       ],
       "sub_index": 1,
@@ -53032,8 +53032,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Growth",
-        "Pin missile",
-        "Mega drain",
+        "Pin Missile",
+        "Mega Drain",
         "Synthesis"
       ],
       "sub_index": 0,
@@ -53064,8 +53064,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Growth",
-        "Pin missile",
-        "Mega drain",
+        "Pin Missile",
+        "Mega Drain",
         "Synthesis"
       ],
       "sub_index": 0,
@@ -53096,8 +53096,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Growth",
-        "Pin missile",
-        "Mega drain",
+        "Pin Missile",
+        "Mega Drain",
         "Synthesis"
       ],
       "sub_index": 0,
@@ -53128,8 +53128,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Growth",
-        "Pin missile",
-        "Mega drain",
+        "Pin Missile",
+        "Mega Drain",
         "Synthesis"
       ],
       "sub_index": 0,
@@ -53160,8 +53160,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Growth",
-        "Pin missile",
-        "Mega drain",
+        "Pin Missile",
+        "Mega Drain",
         "Synthesis"
       ],
       "sub_index": 0,
@@ -53191,10 +53191,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Solar beam",
-        "Sappy seed",
-        "Cotton guard",
-        "After you"
+        "Solar Beam",
+        "Sappy Seed",
+        "Cotton Guard",
+        "After You"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -53344,9 +53344,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Crunch",
-        "Heavy slam",
-        "High horsepower",
-        "Wood hammer"
+        "Heavy Slam",
+        "High Horsepower",
+        "Wood Hammer"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -53884,8 +53884,8 @@ backup_data = {
       "moves": [
         "Growl",
         "Scratch",
-        "Tail whip",
-        "Double kick"
+        "Tail Whip",
+        "Double Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -53916,8 +53916,8 @@ backup_data = {
       "moves": [
         "Growl",
         "Scratch",
-        "Tail whip",
-        "Double kick"
+        "Tail Whip",
+        "Double Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -53948,8 +53948,8 @@ backup_data = {
       "moves": [
         "Growl",
         "Scratch",
-        "Tail whip",
-        "Double kick"
+        "Tail Whip",
+        "Double Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -53980,8 +53980,8 @@ backup_data = {
       "moves": [
         "Growl",
         "Scratch",
-        "Tail whip",
-        "Double kick"
+        "Tail Whip",
+        "Double Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -54012,8 +54012,8 @@ backup_data = {
       "moves": [
         "Growl",
         "Scratch",
-        "Tail whip",
-        "Double kick"
+        "Tail Whip",
+        "Double Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -54160,10 +54160,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Rage powder",
+        "Rage Powder",
         "Captivate",
         "Tailwind",
-        "Air slash"
+        "Air Slash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -54192,10 +54192,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Doubles",
       "moves": [
-        "Rage powder",
+        "Rage Powder",
         "Captivate",
         "Tailwind",
-        "Air slash"
+        "Air Slash"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -54306,7 +54306,7 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Doubles",
       "moves": [
-        "Psych up",
+        "Psych Up",
         "Double-edge",
         "Flail",
         "Thrash"
@@ -54340,9 +54340,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Doubles",
       "moves": [
-        "Odor sleuth",
-        "Mud sport",
-        "Fury swipes",
+        "Odor Sleuth",
+        "Mud Sport",
+        "Fury Swipes",
         "Covet"
       ],
       "sub_index": 0,
@@ -54372,9 +54372,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Doubles",
       "moves": [
-        "Odor sleuth",
-        "Mud sport",
-        "Fury swipes",
+        "Odor Sleuth",
+        "Mud Sport",
+        "Fury Swipes",
         "Covet"
       ],
       "sub_index": 0,
@@ -54404,9 +54404,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Doubles",
       "moves": [
-        "Odor sleuth",
-        "Mud sport",
-        "Fury swipes",
+        "Odor Sleuth",
+        "Mud Sport",
+        "Fury Swipes",
         "Covet"
       ],
       "sub_index": 0,
@@ -54436,9 +54436,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Doubles",
       "moves": [
-        "Odor sleuth",
-        "Mud sport",
-        "Fury swipes",
+        "Odor Sleuth",
+        "Mud Sport",
+        "Fury Swipes",
         "Covet"
       ],
       "sub_index": 0,
@@ -54468,9 +54468,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Doubles",
       "moves": [
-        "Odor sleuth",
-        "Mud sport",
-        "Fury swipes",
+        "Odor Sleuth",
+        "Mud Sport",
+        "Fury Swipes",
         "Covet"
       ],
       "sub_index": 0,
@@ -54502,7 +54502,7 @@ backup_data = {
       "moves": [
         "Double-edge",
         "Rest",
-        "Belly drum",
+        "Belly Drum",
         "Fling"
       ],
       "sub_index": 1,
@@ -54534,7 +54534,7 @@ backup_data = {
       "moves": [
         "Double-edge",
         "Rest",
-        "Belly drum",
+        "Belly Drum",
         "Fling"
       ],
       "sub_index": 1,
@@ -54566,7 +54566,7 @@ backup_data = {
       "moves": [
         "Double-edge",
         "Rest",
-        "Belly drum",
+        "Belly Drum",
         "Fling"
       ],
       "sub_index": 1,
@@ -54598,7 +54598,7 @@ backup_data = {
       "moves": [
         "Double-edge",
         "Rest",
-        "Belly drum",
+        "Belly Drum",
         "Fling"
       ],
       "sub_index": 1,
@@ -54630,7 +54630,7 @@ backup_data = {
       "moves": [
         "Double-edge",
         "Rest",
-        "Belly drum",
+        "Belly Drum",
         "Fling"
       ],
       "sub_index": 1,
@@ -54663,9 +54663,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Flash",
-        "Cotton spore",
+        "Cotton Spore",
         "Charge",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -54695,9 +54695,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Flash",
-        "Cotton spore",
+        "Cotton Spore",
         "Charge",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -54727,9 +54727,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Flash",
-        "Cotton spore",
+        "Cotton Spore",
         "Charge",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -54759,9 +54759,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Flash",
-        "Cotton spore",
+        "Cotton Spore",
         "Charge",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -54791,9 +54791,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Flash",
-        "Cotton spore",
+        "Cotton Spore",
         "Charge",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -54824,10 +54824,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Doubles",
       "moves": [
-        "Lucky chant",
-        "Water pulse",
+        "Lucky Chant",
+        "Water Pulse",
         "Attract",
-        "Heart stamp"
+        "Heart Stamp"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -54856,10 +54856,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Doubles",
       "moves": [
-        "Lucky chant",
-        "Water pulse",
+        "Lucky Chant",
+        "Water Pulse",
         "Attract",
-        "Heart stamp"
+        "Heart Stamp"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -54888,10 +54888,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Doubles",
       "moves": [
-        "Lucky chant",
-        "Water pulse",
+        "Lucky Chant",
+        "Water Pulse",
         "Attract",
-        "Heart stamp"
+        "Heart Stamp"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -54920,10 +54920,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Doubles",
       "moves": [
-        "Lucky chant",
-        "Water pulse",
+        "Lucky Chant",
+        "Water Pulse",
         "Attract",
-        "Heart stamp"
+        "Heart Stamp"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -54952,10 +54952,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Doubles",
       "moves": [
-        "Lucky chant",
-        "Water pulse",
+        "Lucky Chant",
+        "Water Pulse",
         "Attract",
-        "Heart stamp"
+        "Heart Stamp"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -54985,7 +54985,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Soak",
-        "Hydro pump",
+        "Hydro Pump",
         "Safeguard",
         "Moonblast"
       ],
@@ -55017,7 +55017,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Soak",
-        "Hydro pump",
+        "Hydro Pump",
         "Safeguard",
         "Moonblast"
       ],
@@ -55048,9 +55048,9 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Doubles",
       "moves": [
-        "Take down",
+        "Take Down",
         "Captivate",
-        "Lovely kiss",
+        "Lovely Kiss",
         "Soak"
       ],
       "sub_index": 0,
@@ -55080,9 +55080,9 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Doubles",
       "moves": [
-        "Take down",
+        "Take Down",
         "Captivate",
-        "Lovely kiss",
+        "Lovely Kiss",
         "Soak"
       ],
       "sub_index": 1,
@@ -55153,9 +55153,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Charge",
-        "Wild charge",
-        "Play rough",
-        "Electric terrain"
+        "Wild Charge",
+        "Play Rough",
+        "Electric Terrain"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -55259,8 +55259,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Agility",
-        "Air slash",
-        "Mirror move",
+        "Air Slash",
+        "Mirror Move",
         "Tailwind"
       ],
       "sub_index": 0,
@@ -55408,9 +55408,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Fury attack",
+        "Fury Attack",
         "Pluck",
-        "Mirror move",
+        "Mirror Move",
         "Assurance"
       ],
       "sub_index": 1,
@@ -55440,9 +55440,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Fury attack",
+        "Fury Attack",
         "Pluck",
-        "Mirror move",
+        "Mirror Move",
         "Assurance"
       ],
       "sub_index": 1,
@@ -55472,9 +55472,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Fury attack",
+        "Fury Attack",
         "Pluck",
-        "Mirror move",
+        "Mirror Move",
         "Assurance"
       ],
       "sub_index": 1,
@@ -55504,9 +55504,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Fury attack",
+        "Fury Attack",
         "Pluck",
-        "Mirror move",
+        "Mirror Move",
         "Assurance"
       ],
       "sub_index": 1,
@@ -55536,9 +55536,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Fury attack",
+        "Fury Attack",
         "Pluck",
-        "Mirror move",
+        "Mirror Move",
         "Assurance"
       ],
       "sub_index": 1,
@@ -55932,7 +55932,7 @@ backup_data = {
       "moves": [
         "Headbutt",
         "Counter",
-        "Jaw lock",
+        "Jaw Lock",
         "Liquidation"
       ],
       "sub_index": 1,
@@ -56042,9 +56042,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
-        "Grassy terrain",
-        "Play rough",
-        "Sparkly swirl"
+        "Grassy Terrain",
+        "Play Rough",
+        "Sparkly Swirl"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -56074,9 +56074,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Wrap",
-        "Sweet kiss",
-        "Natural gift",
-        "Petal blizzard"
+        "Sweet Kiss",
+        "Natural Gift",
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -56106,9 +56106,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Wrap",
-        "Sweet kiss",
-        "Natural gift",
-        "Petal blizzard"
+        "Sweet Kiss",
+        "Natural Gift",
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -56138,9 +56138,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Wrap",
-        "Sweet kiss",
-        "Natural gift",
-        "Petal blizzard"
+        "Sweet Kiss",
+        "Natural Gift",
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -56170,9 +56170,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Wrap",
-        "Sweet kiss",
-        "Natural gift",
-        "Petal blizzard"
+        "Sweet Kiss",
+        "Natural Gift",
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -56202,9 +56202,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Wrap",
-        "Sweet kiss",
-        "Natural gift",
-        "Petal blizzard"
+        "Sweet Kiss",
+        "Natural Gift",
+        "Petal Blizzard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -56585,10 +56585,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Air slash",
-        "Aqua ring",
+        "Air Slash",
+        "Aqua Ring",
         "Bounce",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -56617,10 +56617,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Air slash",
-        "Aqua ring",
+        "Air Slash",
+        "Aqua Ring",
         "Bounce",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -56649,10 +56649,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Air slash",
-        "Aqua ring",
+        "Air Slash",
+        "Aqua Ring",
         "Bounce",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -56681,10 +56681,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Air slash",
-        "Aqua ring",
+        "Air Slash",
+        "Aqua Ring",
         "Bounce",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -56713,10 +56713,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Air slash",
-        "Aqua ring",
+        "Air Slash",
+        "Aqua Ring",
         "Bounce",
-        "Hydro pump"
+        "Hydro Pump"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -56749,7 +56749,7 @@ backup_data = {
       "moves": [
         "Growl",
         "Tackle",
-        "Defense curl"
+        "Defense Curl"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -56814,8 +56814,8 @@ backup_data = {
       "moves": [
         "Ember",
         "Leer",
-        "Odor sleuth",
-        "Helping hand"
+        "Odor Sleuth",
+        "Helping Hand"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -56847,9 +56847,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Leer",
-        "Low sweep",
+        "Low Sweep",
         "Headbutt",
-        "Feint attack"
+        "Feint Attack"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -56880,9 +56880,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Metal claw",
+        "Metal Claw",
         "Growl",
-        "Rock blast",
+        "Rock Blast",
         "Mud-slap"
       ],
       "sub_index": 1,
@@ -56916,7 +56916,7 @@ backup_data = {
       "moves": [
         "Pound",
         "Leer",
-        "Focus energy",
+        "Focus Energy",
         "Bide"
       ],
       "sub_index": 0,
@@ -56951,7 +56951,7 @@ backup_data = {
         "Flatter",
         "Slash",
         "U-turn",
-        "Poison jab"
+        "Poison Jab"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -57021,9 +57021,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Pluck",
-        "Nasty plot",
+        "Nasty Plot",
         "Flatter",
-        "Feint attack"
+        "Feint Attack"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -57054,10 +57054,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Calm mind",
+        "Calm Mind",
         "Flamethrower",
-        "Expanding force",
-        "Armor cannon"
+        "Expanding Force",
+        "Armor Cannon"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -57201,10 +57201,10 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Flare blitz",
-        "Psycho cut",
-        "Bitter blade",
-        "Swords dance"
+        "Flare Blitz",
+        "Psycho Cut",
+        "Bitter Blade",
+        "Swords Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -57351,10 +57351,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Hyper voice",
+        "Hyper Voice",
         "Aromatherapy",
-        "Leaf storm",
-        "Cotton guard"
+        "Leaf Storm",
+        "Cotton Guard"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -57385,10 +57385,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Sweet scent",
-        "Razor leaf",
+        "Sweet Scent",
+        "Razor Leaf",
         "Round",
-        "Mega drain"
+        "Mega Drain"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -57419,8 +57419,8 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Earth power",
-        "Bug buzz",
+        "Earth Power",
+        "Bug Buzz",
         "Earthquake",
         "Sandstorm"
       ],
@@ -57533,10 +57533,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Poison jab",
+        "Poison Jab",
         "Agility",
         "Endeavor",
-        "Fell stinger"
+        "Fell Stinger"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -57974,9 +57974,9 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Aurora veil",
+        "Aurora Veil",
         "Freeze-dry",
-        "Super fang",
+        "Super Fang",
         "Crunch"
       ],
       "sub_index": 0,
@@ -58048,10 +58048,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Poison sting",
+        "Poison Sting",
         "Peck",
         "Bite",
-        "Toxic spikes"
+        "Toxic Spikes"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58080,10 +58080,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Poison sting",
+        "Poison Sting",
         "Peck",
         "Bite",
-        "Toxic spikes"
+        "Toxic Spikes"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58112,10 +58112,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Poison sting",
+        "Poison Sting",
         "Peck",
         "Bite",
-        "Toxic spikes"
+        "Toxic Spikes"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58144,10 +58144,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Poison sting",
+        "Poison Sting",
         "Peck",
         "Bite",
-        "Toxic spikes"
+        "Toxic Spikes"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58176,10 +58176,10 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Poison sting",
+        "Poison Sting",
         "Peck",
         "Bite",
-        "Toxic spikes"
+        "Toxic Spikes"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58212,7 +58212,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bubble",
-        "Vice grip",
+        "Vice Grip",
         "Leer",
         "Harden"
       ],
@@ -58244,7 +58244,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bubble",
-        "Vice grip",
+        "Vice Grip",
         "Leer",
         "Harden"
       ],
@@ -58276,7 +58276,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bubble",
-        "Vice grip",
+        "Vice Grip",
         "Leer",
         "Harden"
       ],
@@ -58308,7 +58308,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bubble",
-        "Vice grip",
+        "Vice Grip",
         "Leer",
         "Harden"
       ],
@@ -58340,7 +58340,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bubble",
-        "Vice grip",
+        "Vice Grip",
         "Leer",
         "Harden"
       ],
@@ -58472,10 +58472,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Chip away",
-        "Take down",
+        "Chip Away",
+        "Take Down",
         "Crunch",
-        "Aqua tail"
+        "Aqua Tail"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -58504,10 +58504,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Chip away",
-        "Take down",
+        "Chip Away",
+        "Take Down",
         "Crunch",
-        "Aqua tail"
+        "Aqua Tail"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -58538,10 +58538,10 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Mud sport",
-        "Mud shot",
+        "Mud Sport",
+        "Mud Shot",
         "Slam",
-        "Mud bomb"
+        "Mud Bomb"
       ],
       "sub_index": 3,
       "ai_tags": [
@@ -58570,7 +58570,7 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Mud bomb",
+        "Mud Bomb",
         "Amnesia",
         "Yawn",
         "Earthquake"
@@ -58604,10 +58604,10 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Mud bomb",
-        "Hidden power",
-        "Rain dance",
-        "Body slam"
+        "Mud Bomb",
+        "Hidden Power",
+        "Rain Dance",
+        "Body Slam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58676,8 +58676,8 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Quick attack",
-        "Wing attack",
+        "Quick Attack",
+        "Wing Attack",
         "Endeavor",
         "Whirlwind"
       ],
@@ -58710,10 +58710,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Rock blast",
+        "Rock Blast",
         "Mud-slap",
-        "Iron defense",
-        "Smack down"
+        "Iron Defense",
+        "Smack Down"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58744,10 +58744,10 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Helping hand",
+        "Helping Hand",
         "Tickle",
         "Sing",
-        "Tail slap"
+        "Tail Slap"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -58778,8 +58778,8 @@ backup_data = {
       "moves": [
         "Tickle",
         "Sing",
-        "Tail slap",
-        "Tidy up"
+        "Tail Slap",
+        "Tidy Up"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58812,8 +58812,8 @@ backup_data = {
       "moves": [
         "Tickle",
         "Sing",
-        "Tail slap",
-        "Tidy up"
+        "Tail Slap",
+        "Tidy Up"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58846,8 +58846,8 @@ backup_data = {
       "moves": [
         "Tickle",
         "Sing",
-        "Tail slap",
-        "Tidy up"
+        "Tail Slap",
+        "Tidy Up"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58880,8 +58880,8 @@ backup_data = {
       "moves": [
         "Tickle",
         "Sing",
-        "Tail slap",
-        "Tidy up"
+        "Tail Slap",
+        "Tidy Up"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58914,8 +58914,8 @@ backup_data = {
       "moves": [
         "Tickle",
         "Sing",
-        "Tail slap",
-        "Tidy up"
+        "Tail Slap",
+        "Tidy Up"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -58949,9 +58949,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Mud-slap",
-        "Take down",
-        "Mud shot",
-        "Double kick"
+        "Take Down",
+        "Mud Shot",
+        "Double Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -58981,9 +58981,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Mud-slap",
-        "Take down",
-        "Mud shot",
-        "Double kick"
+        "Take Down",
+        "Mud Shot",
+        "Double Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -59013,9 +59013,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Mud-slap",
-        "Take down",
-        "Mud shot",
-        "Double kick"
+        "Take Down",
+        "Mud Shot",
+        "Double Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -59045,9 +59045,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Mud-slap",
-        "Take down",
-        "Mud shot",
-        "Double kick"
+        "Take Down",
+        "Mud Shot",
+        "Double Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -59077,9 +59077,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Mud-slap",
-        "Take down",
-        "Mud shot",
-        "Double kick"
+        "Take Down",
+        "Mud Shot",
+        "Double Kick"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -59110,10 +59110,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Fury swipes",
+        "Fury Swipes",
         "Agility",
-        "Metal claw",
-        "Hone claws"
+        "Metal Claw",
+        "Hone Claws"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -59142,10 +59142,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Fury swipes",
+        "Fury Swipes",
         "Agility",
-        "Metal claw",
-        "Hone claws"
+        "Metal Claw",
+        "Hone Claws"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -59174,10 +59174,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Fury swipes",
+        "Fury Swipes",
         "Agility",
-        "Metal claw",
-        "Hone claws"
+        "Metal Claw",
+        "Hone Claws"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -59206,10 +59206,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Fury swipes",
+        "Fury Swipes",
         "Agility",
-        "Metal claw",
-        "Hone claws"
+        "Metal Claw",
+        "Hone Claws"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -59238,10 +59238,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Fury swipes",
+        "Fury Swipes",
         "Agility",
-        "Metal claw",
-        "Hone claws"
+        "Metal Claw",
+        "Hone Claws"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -59272,8 +59272,8 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Power trip",
-        "Quick attack",
+        "Power Trip",
+        "Quick Attack",
         "Flatter",
         "Bite"
       ],
@@ -59304,8 +59304,8 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Power trip",
-        "Quick attack",
+        "Power Trip",
+        "Quick Attack",
         "Flatter",
         "Bite"
       ],
@@ -59336,8 +59336,8 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Power trip",
-        "Quick attack",
+        "Power Trip",
+        "Quick Attack",
         "Flatter",
         "Bite"
       ],
@@ -59368,8 +59368,8 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Power trip",
-        "Quick attack",
+        "Power Trip",
+        "Quick Attack",
         "Flatter",
         "Bite"
       ],
@@ -59400,8 +59400,8 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Power trip",
-        "Quick attack",
+        "Power Trip",
+        "Quick Attack",
         "Flatter",
         "Bite"
       ],
@@ -59435,9 +59435,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Refresh",
-        "Ancient power",
-        "Spike cannon",
-        "Lucky chant"
+        "Ancient Power",
+        "Spike Cannon",
+        "Lucky Chant"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -59467,9 +59467,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Refresh",
-        "Ancient power",
-        "Spike cannon",
-        "Lucky chant"
+        "Ancient Power",
+        "Spike Cannon",
+        "Lucky Chant"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -59499,9 +59499,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Refresh",
-        "Ancient power",
-        "Spike cannon",
-        "Lucky chant"
+        "Ancient Power",
+        "Spike Cannon",
+        "Lucky Chant"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -59531,9 +59531,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Refresh",
-        "Ancient power",
-        "Spike cannon",
-        "Lucky chant"
+        "Ancient Power",
+        "Spike Cannon",
+        "Lucky Chant"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -59563,9 +59563,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Refresh",
-        "Ancient power",
-        "Spike cannon",
-        "Lucky chant"
+        "Ancient Power",
+        "Spike Cannon",
+        "Lucky Chant"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -59597,7 +59597,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Absorb",
-        "Fury swipes",
+        "Fury Swipes",
         "Agility",
         "Slash"
       ],
@@ -59629,8 +59629,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Pounce",
-        "First impression",
-        "Swords dance",
+        "First Impression",
+        "Swords Dance",
         "X-scissor"
       ],
       "sub_index": 0,
@@ -59701,9 +59701,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bite",
-        "Sucker punch",
-        "Odor sleuth",
-        "Flame burst"
+        "Sucker Punch",
+        "Odor Sleuth",
+        "Flame Burst"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -59808,10 +59808,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Charge beam",
+        "Charge Beam",
         "Swift",
-        "Electro ball",
-        "Self destruct"
+        "Electro Ball",
+        "Self Destruct"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -59842,10 +59842,10 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Ice beam",
-        "Bullet seed",
-        "Hydro pump",
-        "Snipe shot"
+        "Ice Beam",
+        "Bullet Seed",
+        "Hydro Pump",
+        "Snipe Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -59875,9 +59875,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
-        "Aurora beam",
+        "Aurora Beam",
         "Bubblebeam",
-        "Focus energy"
+        "Focus Energy"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -59906,10 +59906,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Signal beam",
-        "Ice beam",
-        "Bullet seed",
-        "Hydro pump"
+        "Signal Beam",
+        "Ice Beam",
+        "Bullet Seed",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -59938,10 +59938,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Signal beam",
-        "Ice beam",
-        "Bullet seed",
-        "Hydro pump"
+        "Signal Beam",
+        "Ice Beam",
+        "Bullet Seed",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -59970,10 +59970,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Signal beam",
-        "Ice beam",
-        "Bullet seed",
-        "Hydro pump"
+        "Signal Beam",
+        "Ice Beam",
+        "Bullet Seed",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60002,10 +60002,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Signal beam",
-        "Ice beam",
-        "Bullet seed",
-        "Hydro pump"
+        "Signal Beam",
+        "Ice Beam",
+        "Bullet Seed",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60034,10 +60034,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Signal beam",
-        "Ice beam",
-        "Bullet seed",
-        "Hydro pump"
+        "Signal Beam",
+        "Ice Beam",
+        "Bullet Seed",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60066,10 +60066,10 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Ice beam",
-        "Bullet seed",
-        "Hydro pump",
-        "Snipe shot"
+        "Ice Beam",
+        "Bullet Seed",
+        "Hydro Pump",
+        "Snipe Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60098,10 +60098,10 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Ice beam",
-        "Bullet seed",
-        "Hydro pump",
-        "Snipe shot"
+        "Ice Beam",
+        "Bullet Seed",
+        "Hydro Pump",
+        "Snipe Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60130,10 +60130,10 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Ice beam",
-        "Bullet seed",
-        "Hydro pump",
-        "Snipe shot"
+        "Ice Beam",
+        "Bullet Seed",
+        "Hydro Pump",
+        "Snipe Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60162,10 +60162,10 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Ice beam",
-        "Bullet seed",
-        "Hydro pump",
-        "Snipe shot"
+        "Ice Beam",
+        "Bullet Seed",
+        "Hydro Pump",
+        "Snipe Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60196,10 +60196,10 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Muddy water",
-        "Nasty plot",
-        "Mirror coat",
-        "Dragon pulse"
+        "Muddy Water",
+        "Nasty Plot",
+        "Mirror Coat",
+        "Dragon Pulse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60268,10 +60268,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Gyro ball",
+        "Gyro Ball",
         "Recover",
         "Brine",
-        "Reflect type"
+        "Reflect Type"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60300,10 +60300,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Gyro ball",
+        "Gyro Ball",
         "Recover",
         "Brine",
-        "Reflect type"
+        "Reflect Type"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60332,10 +60332,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Gyro ball",
+        "Gyro Ball",
         "Recover",
         "Brine",
-        "Reflect type"
+        "Reflect Type"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60364,10 +60364,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Gyro ball",
+        "Gyro Ball",
         "Recover",
         "Brine",
-        "Reflect type"
+        "Reflect Type"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60396,10 +60396,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Gyro ball",
+        "Gyro Ball",
         "Recover",
         "Brine",
-        "Reflect type"
+        "Reflect Type"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60430,10 +60430,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Noble roar",
-        "Dragon dance",
+        "Noble Roar",
+        "Dragon Dance",
         "Outrage",
-        "Clangorous soul"
+        "Clangorous Soul"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60503,9 +60503,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
-        "Dragon pulse",
-        "Solar beam",
-        "Leaf storm"
+        "Dragon Pulse",
+        "Solar Beam",
+        "Leaf Storm"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60535,9 +60535,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
-        "Dragon pulse",
-        "Solar beam",
-        "Leaf storm"
+        "Dragon Pulse",
+        "Solar Beam",
+        "Leaf Storm"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60566,10 +60566,10 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Leaf tornado",
-        "Natural gift",
-        "Air slash",
-        "Body slam"
+        "Leaf Tornado",
+        "Natural Gift",
+        "Air Slash",
+        "Body Slam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60600,9 +60600,9 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Singles",
       "moves": [
-        "Sucker punch",
-        "Psych up",
-        "Wood hammer",
+        "Sucker Punch",
+        "Psych Up",
+        "Wood Hammer",
         "Thrash"
       ],
       "sub_index": 0,
@@ -60634,10 +60634,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Metal sound",
-        "Dual wingbeat",
+        "Metal Sound",
+        "Dual Wingbeat",
         "Autotomize",
-        "Night slash"
+        "Night Slash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60819,7 +60819,7 @@ backup_data = {
         "Double-edge",
         "Endeavor",
         "Thrash",
-        "Brave bird"
+        "Brave Bird"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -60848,10 +60848,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Double hit",
+        "Double Hit",
         "Agility",
         "Uproar",
-        "Swords dance"
+        "Swords Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -60880,10 +60880,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Double hit",
+        "Double Hit",
         "Agility",
         "Uproar",
-        "Swords dance"
+        "Swords Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -60912,10 +60912,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Double hit",
+        "Double Hit",
         "Agility",
         "Uproar",
-        "Swords dance"
+        "Swords Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -60944,10 +60944,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Double hit",
+        "Double Hit",
         "Agility",
         "Uproar",
-        "Swords dance"
+        "Swords Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -60976,10 +60976,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Double hit",
+        "Double Hit",
         "Agility",
         "Uproar",
-        "Swords dance"
+        "Swords Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -61008,8 +61008,8 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Swords dance",
-        "Jump kick",
+        "Swords Dance",
+        "Jump Kick",
         "Double-edge",
         "Endeavor"
       ],
@@ -61080,10 +61080,10 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Nasty plot",
+        "Nasty Plot",
         "Snarl",
         "Comeuppance",
-        "Drill peck"
+        "Drill Peck"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -61288,9 +61288,9 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Singles",
       "moves": [
-        "Wing attack",
-        "Aerial ace",
-        "Quick guard",
+        "Wing Attack",
+        "Aerial Ace",
+        "Quick Guard",
         "Agility"
       ],
       "sub_index": 0,
@@ -61320,9 +61320,9 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Wing attack",
-        "Aerial ace",
-        "Quick guard",
+        "Wing Attack",
+        "Aerial Ace",
+        "Quick Guard",
         "Agility"
       ],
       "sub_index": 0,
@@ -61352,9 +61352,9 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Dual wingbeat",
+        "Dual Wingbeat",
         "Endeavor",
-        "Brave bird",
+        "Brave Bird",
         "Reversal"
       ],
       "sub_index": 0,
@@ -61385,9 +61385,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Agility",
-        "Dual wingbeat",
+        "Dual Wingbeat",
         "Endeavor",
-        "Brave bird"
+        "Brave Bird"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -61457,10 +61457,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Dual wingbeat",
-        "Rock slide",
-        "Knock off",
-        "Parting shot"
+        "Dual Wingbeat",
+        "Rock Slide",
+        "Knock Off",
+        "Parting Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -61489,10 +61489,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Dual wingbeat",
-        "Rock slide",
-        "Knock off",
-        "Parting shot"
+        "Dual Wingbeat",
+        "Rock Slide",
+        "Knock Off",
+        "Parting Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -61561,9 +61561,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Psyshock",
-        "Egg bomb",
-        "Wood hammer",
-        "Leaf storm"
+        "Egg Bomb",
+        "Wood Hammer",
+        "Leaf Storm"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -61592,10 +61592,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Egg bomb",
-        "Wood hammer",
-        "Leaf storm",
-        "Fickle beam"
+        "Egg Bomb",
+        "Wood Hammer",
+        "Leaf Storm",
+        "Fickle Beam"
       ],
       "sub_index": 1,
       "ai_tags": []
@@ -61700,9 +61700,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Razor leaf",
+        "Razor Leaf",
         "Screech",
-        "Knock off",
+        "Knock Off",
         "Slam"
       ],
       "sub_index": 1,
@@ -61730,9 +61730,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Razor leaf",
+        "Razor Leaf",
         "Screech",
-        "Knock off",
+        "Knock Off",
         "Slam"
       ],
       "sub_index": 1,
@@ -61760,9 +61760,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Razor leaf",
+        "Razor Leaf",
         "Screech",
-        "Knock off",
+        "Knock Off",
         "Slam"
       ],
       "sub_index": 1,
@@ -61790,9 +61790,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Razor leaf",
+        "Razor Leaf",
         "Screech",
-        "Knock off",
+        "Knock Off",
         "Slam"
       ],
       "sub_index": 1,
@@ -61820,9 +61820,9 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Razor leaf",
+        "Razor Leaf",
         "Screech",
-        "Knock off",
+        "Knock Off",
         "Slam"
       ],
       "sub_index": 1,
@@ -61852,10 +61852,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Sticky web",
-        "Circle throw",
-        "Throat chop",
-        "Skitter smack"
+        "Sticky Web",
+        "Circle Throw",
+        "Throat Chop",
+        "Skitter Smack"
       ],
       "sub_index": 2,
       "ai_tags": []
@@ -61882,10 +61882,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Sticky web",
-        "Circle throw",
-        "Throat chop",
-        "Skitter smack"
+        "Sticky Web",
+        "Circle Throw",
+        "Throat Chop",
+        "Skitter Smack"
       ],
       "sub_index": 2,
       "ai_tags": []
@@ -61912,10 +61912,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Sticky web",
-        "Circle throw",
-        "Throat chop",
-        "Skitter smack"
+        "Sticky Web",
+        "Circle Throw",
+        "Throat Chop",
+        "Skitter Smack"
       ],
       "sub_index": 2,
       "ai_tags": []
@@ -61942,10 +61942,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Sticky web",
-        "Circle throw",
-        "Throat chop",
-        "Skitter smack"
+        "Sticky Web",
+        "Circle Throw",
+        "Throat Chop",
+        "Skitter Smack"
       ],
       "sub_index": 2,
       "ai_tags": []
@@ -61972,10 +61972,10 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Sticky web",
-        "Circle throw",
-        "Throat chop",
-        "Skitter smack"
+        "Sticky Web",
+        "Circle Throw",
+        "Throat Chop",
+        "Skitter Smack"
       ],
       "sub_index": 2,
       "ai_tags": []
@@ -62042,10 +62042,10 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Icy wind",
+        "Icy Wind",
         "Round",
         "Fling",
-        "Smack down"
+        "Smack Down"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -62074,10 +62074,10 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Self destruct",
+        "Self Destruct",
         "Haze",
-        "Gyro ball",
-        "Sludge bomb"
+        "Gyro Ball",
+        "Sludge Bomb"
       ],
       "sub_index": 2,
       "ai_tags": []
@@ -62104,9 +62104,9 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Sludge bomb",
+        "Sludge Bomb",
         "Explosion",
-        "Destiny bond",
+        "Destiny Bond",
         "Belch"
       ],
       "sub_index": 0,
@@ -62141,9 +62141,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Ember",
-        "Odor sleuth",
-        "Defense curl",
-        "Flame charge"
+        "Odor Sleuth",
+        "Defense Curl",
+        "Flame Charge"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -63103,10 +63103,10 @@ backup_data = {
       "nature": "Docile",
       "battle_type": "Singles",
       "moves": [
-        "Leaf storm",
+        "Leaf Storm",
         "Lunge",
-        "Leaf blade",
-        "Sludge bomb"
+        "Leaf Blade",
+        "Sludge Bomb"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -63311,10 +63311,10 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Solar blade",
-        "Lucky chant",
-        "Petal blizzard",
-        "Grav apple"
+        "Solar Blade",
+        "Lucky Chant",
+        "Petal Blizzard",
+        "Grav Apple"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -63418,7 +63418,7 @@ backup_data = {
         "Brine",
         "Crabhammer",
         "Flail",
-        "Meteor mash"
+        "Meteor Mash"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -63450,8 +63450,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
-        "Throat chop",
-        "Triple dive",
+        "Throat Chop",
+        "Triple Dive",
         "Earthquake"
       ],
       "sub_index": 0,
@@ -63482,8 +63482,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
-        "Throat chop",
-        "Triple dive",
+        "Throat Chop",
+        "Triple Dive",
         "Earthquake"
       ],
       "sub_index": 1,
@@ -63514,8 +63514,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
-        "Throat chop",
-        "Triple dive",
+        "Throat Chop",
+        "Triple Dive",
         "Earthquake"
       ],
       "sub_index": 2,
@@ -63722,8 +63722,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Flail",
-        "Heat wave",
-        "Shell smash",
+        "Heat Wave",
+        "Shell Smash",
         "Inferno"
       ],
       "sub_index": 0,
@@ -64222,10 +64222,10 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Singles",
       "moves": [
-        "Burning bulwark",
-        "Stone edge",
-        "Power gem",
-        "Burn up"
+        "Burning Bulwark",
+        "Stone Edge",
+        "Power Gem",
+        "Burn Up"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -64297,9 +64297,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Agility",
-        "Dragon pulse",
-        "Dragon dance",
-        "Hydro pump"
+        "Dragon Pulse",
+        "Dragon Dance",
+        "Hydro Pump"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -64328,10 +64328,10 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Dragon pulse",
-        "Dragon dance",
-        "Hydro pump",
-        "Snipe shot"
+        "Dragon Pulse",
+        "Dragon Dance",
+        "Hydro Pump",
+        "Snipe Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -64401,9 +64401,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Lick",
-        "Fury swipes",
-        "Seed bomb",
-        "Leaf storm"
+        "Fury Swipes",
+        "Seed Bomb",
+        "Leaf Storm"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -64473,9 +64473,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Agility",
-        "Wild charge",
-        "Close combat",
-        "Double shock"
+        "Wild Charge",
+        "Close Combat",
+        "Double Shock"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -64545,8 +64545,8 @@ backup_data = {
       "moves": [
         "Moonblast",
         "Captivate",
-        "Hydro pump",
-        "Misty terrain"
+        "Hydro Pump",
+        "Misty Terrain"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -64577,8 +64577,8 @@ backup_data = {
       "moves": [
         "Moonblast",
         "Captivate",
-        "Hydro pump",
-        "Misty terrain"
+        "Hydro Pump",
+        "Misty Terrain"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -64723,10 +64723,10 @@ backup_data = {
       "nature": "Impish",
       "battle_type": "Singles",
       "moves": [
-        "Swords dance",
-        "Sucker punch",
-        "Sacred sword",
-        "Razor shell"
+        "Swords Dance",
+        "Sucker Punch",
+        "Sacred Sword",
+        "Razor Shell"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -64755,10 +64755,10 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Singles",
       "moves": [
-        "Swords dance",
-        "Sucker punch",
-        "Sacred sword",
-        "Razor shell"
+        "Swords Dance",
+        "Sucker Punch",
+        "Sacred Sword",
+        "Razor Shell"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -64829,7 +64829,7 @@ backup_data = {
       "moves": [
         "Twister",
         "Bubblebeam",
-        "Focus energy",
+        "Focus Energy",
         "Brine"
       ],
       "sub_index": 0,
@@ -64861,10 +64861,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Power split",
-        "Guard split",
-        "Stone edge",
-        "Sticky web"
+        "Power Split",
+        "Guard Split",
+        "Stone Edge",
+        "Sticky Web"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -64895,9 +64895,9 @@ backup_data = {
       "nature": "Mild",
       "battle_type": "Singles",
       "moves": [
-        "Iron head",
-        "Gyro ball",
-        "Swords dance",
+        "Iron Head",
+        "Gyro Ball",
+        "Swords Dance",
         "Snowscape"
       ],
       "sub_index": 1,
@@ -64931,8 +64931,8 @@ backup_data = {
       "moves": [
         "Attract",
         "Psychic",
-        "Power gem",
-        "Bug buzz"
+        "Power Gem",
+        "Bug Buzz"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -64962,7 +64962,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Harden",
-        "Earth power",
+        "Earth Power",
         "Captivate",
         "Flail"
       ],
@@ -65031,8 +65031,8 @@ backup_data = {
       "moves": [
         "Avalanche",
         "Taunt",
-        "Mirror shot",
-        "Acid armor"
+        "Mirror Shot",
+        "Acid Armor"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -65065,8 +65065,8 @@ backup_data = {
       "moves": [
         "Stockpile",
         "Swallow",
-        "Spit up",
-        "Poison fang"
+        "Spit Up",
+        "Poison Fang"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -65135,8 +65135,8 @@ backup_data = {
       "moves": [
         "Stockpile",
         "Swallow",
-        "Spit up",
-        "Poison fang"
+        "Spit Up",
+        "Poison Fang"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -65167,10 +65167,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Gastro acid",
-        "Poison jab",
+        "Gastro Acid",
+        "Poison Jab",
         "Haze",
-        "Swords dance"
+        "Swords Dance"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -65199,9 +65199,9 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Singles",
       "moves": [
-        "Poison jab",
+        "Poison Jab",
         "Haze",
-        "Swords dance",
+        "Swords Dance",
         "Crunch"
       ],
       "sub_index": 1,
@@ -65527,10 +65527,10 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Horn attack",
-        "Scary face",
+        "Horn Attack",
+        "Scary Face",
         "Revenge",
-        "Head charge"
+        "Head Charge"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -65561,10 +65561,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Doubles",
       "moves": [
-        "Focus energy",
-        "Double kick",
-        "Poison sting",
-        "Chip away"
+        "Focus Energy",
+        "Double Kick",
+        "Poison Sting",
+        "Chip Away"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -65593,10 +65593,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Doubles",
       "moves": [
-        "Focus energy",
-        "Double kick",
-        "Poison sting",
-        "Chip away"
+        "Focus Energy",
+        "Double Kick",
+        "Poison Sting",
+        "Chip Away"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -65625,10 +65625,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Doubles",
       "moves": [
-        "Focus energy",
-        "Double kick",
-        "Poison sting",
-        "Chip away"
+        "Focus Energy",
+        "Double Kick",
+        "Poison Sting",
+        "Chip Away"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -65657,10 +65657,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Doubles",
       "moves": [
-        "Focus energy",
-        "Double kick",
-        "Poison sting",
-        "Chip away"
+        "Focus Energy",
+        "Double Kick",
+        "Poison Sting",
+        "Chip Away"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -65689,10 +65689,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Doubles",
       "moves": [
-        "Focus energy",
-        "Double kick",
-        "Poison sting",
-        "Chip away"
+        "Focus Energy",
+        "Double Kick",
+        "Poison Sting",
+        "Chip Away"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -65721,10 +65721,10 @@ backup_data = {
       "nature": "Quiet",
       "battle_type": "Doubles",
       "moves": [
-        "Focus energy",
-        "Double kick",
-        "Poison sting",
-        "Chip away"
+        "Focus Energy",
+        "Double Kick",
+        "Poison Sting",
+        "Chip Away"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -65755,10 +65755,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Doubles",
       "moves": [
-        "Double kick",
-        "Poison sting",
+        "Double Kick",
+        "Poison Sting",
         "Sludge",
-        "Chip away"
+        "Chip Away"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -65787,10 +65787,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Doubles",
       "moves": [
-        "Double kick",
-        "Poison sting",
+        "Double Kick",
+        "Poison Sting",
         "Sludge",
-        "Chip away"
+        "Chip Away"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -65819,10 +65819,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Doubles",
       "moves": [
-        "Double kick",
-        "Poison sting",
+        "Double Kick",
+        "Poison Sting",
         "Sludge",
-        "Chip away"
+        "Chip Away"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -65851,10 +65851,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Doubles",
       "moves": [
-        "Double kick",
-        "Poison sting",
+        "Double Kick",
+        "Poison Sting",
         "Sludge",
-        "Chip away"
+        "Chip Away"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -65883,10 +65883,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Doubles",
       "moves": [
-        "Double kick",
-        "Poison sting",
+        "Double Kick",
+        "Poison Sting",
         "Sludge",
-        "Chip away"
+        "Chip Away"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -65915,10 +65915,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Doubles",
       "moves": [
-        "Double kick",
-        "Poison sting",
+        "Double Kick",
+        "Poison Sting",
         "Sludge",
-        "Chip away"
+        "Chip Away"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -65951,7 +65951,7 @@ backup_data = {
       "moves": [
         "Wrap",
         "Leer",
-        "Poison sting",
+        "Poison Sting",
         "Bite"
       ],
       "sub_index": 0,
@@ -65983,7 +65983,7 @@ backup_data = {
       "moves": [
         "Wrap",
         "Leer",
-        "Poison sting",
+        "Poison Sting",
         "Bite"
       ],
       "sub_index": 0,
@@ -66017,8 +66017,8 @@ backup_data = {
       "moves": [
         "Leafage",
         "Sing",
-        "Rapid spin",
-        "Sweet scent"
+        "Rapid Spin",
+        "Sweet Scent"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -66049,8 +66049,8 @@ backup_data = {
       "moves": [
         "Leafage",
         "Sing",
-        "Rapid spin",
-        "Sweet scent"
+        "Rapid Spin",
+        "Sweet Scent"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -66081,10 +66081,10 @@ backup_data = {
       "nature": "Lax",
       "battle_type": "Doubles",
       "moves": [
-        "Morning sun",
+        "Morning Sun",
         "Psychic",
-        "Last resort",
-        "Power swap"
+        "Last Resort",
+        "Power Swap"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -66116,9 +66116,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Moonlight",
-        "Mean look",
-        "Last resort",
-        "Guard swap"
+        "Mean Look",
+        "Last Resort",
+        "Guard Swap"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -66148,9 +66148,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Moonlight",
-        "Mean look",
-        "Last resort",
-        "Guard swap"
+        "Mean Look",
+        "Last Resort",
+        "Guard Swap"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -66222,9 +66222,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Submission",
-        "Bulk up",
-        "Cross chop",
-        "Scary face"
+        "Bulk Up",
+        "Cross Chop",
+        "Scary Face"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -66255,9 +66255,9 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Earth power",
+        "Earth Power",
         "Curse",
-        "Take down",
+        "Take Down",
         "Yawn"
       ],
       "sub_index": 0,
@@ -66287,10 +66287,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Lava plume",
-        "Earth power",
+        "Lava Plume",
+        "Earth Power",
         "Curse",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -66393,9 +66393,9 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Earth power",
+        "Earth Power",
         "Curse",
-        "Take down",
+        "Take Down",
         "Yawn"
       ],
       "sub_index": 2,
@@ -66429,7 +66429,7 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Sludge bomb",
+        "Sludge Bomb",
         "Toxic",
         "Belch",
         "Explosion"
@@ -66503,8 +66503,8 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Raging bull",
-        "Zen headbutt",
+        "Raging Bull",
+        "Zen Headbutt",
         "Swagger",
         "Thrash"
       ],
@@ -66571,10 +66571,10 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Close combat",
-        "Calm mind",
-        "Dragon pulse",
-        "Final gambit"
+        "Close Combat",
+        "Calm Mind",
+        "Dragon Pulse",
+        "Final Gambit"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -66645,9 +66645,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Reversal",
-        "Last resort",
-        "Giga impact",
-        "Play rough"
+        "Last Resort",
+        "Giga Impact",
+        "Play Rough"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -66852,9 +66852,9 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Poison fang",
-        "Leech life",
-        "Dual wingbeat",
+        "Poison Fang",
+        "Leech Life",
+        "Dual Wingbeat",
         "Haze"
       ],
       "sub_index": 2,
@@ -71275,9 +71275,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Captivate",
-        "Gyro ball",
-        "Heal bell",
-        "Wake-up slap"
+        "Gyro Ball",
+        "Heal Bell",
+        "Wake-up Slap"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -71487,8 +71487,8 @@ backup_data = {
       "moves": [
         "Payback",
         "Spikes",
-        "Sucker punch",
-        "Pin missile"
+        "Sucker Punch",
+        "Pin Missile"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -71633,9 +71633,9 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Sweet scent",
-        "Solar blade",
-        "Leaf storm",
+        "Sweet Scent",
+        "Solar Blade",
+        "Leaf Storm",
         "Superpower"
       ],
       "sub_index": 2,
@@ -71669,10 +71669,10 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Dual wingbeat",
-        "Mirror move",
-        "Cotton guard",
-        "Dragon pulse"
+        "Dual Wingbeat",
+        "Mirror Move",
+        "Cotton Guard",
+        "Dragon Pulse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -71705,10 +71705,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Flame burst",
-        "Confuse ray",
-        "Fire punch",
-        "Lava plume"
+        "Flame Burst",
+        "Confuse Ray",
+        "Fire Punch",
+        "Lava Plume"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -71740,9 +71740,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Harden",
-        "Mud sport",
-        "Aqua jet",
-        "Fury cutter"
+        "Mud Sport",
+        "Aqua Jet",
+        "Fury Cutter"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -71774,9 +71774,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Leer",
-        "Wing attack",
-        "Rock throw",
-        "Scary face"
+        "Wing Attack",
+        "Rock Throw",
+        "Scary Face"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -71807,10 +71807,10 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Water gun",
+        "Water Gun",
         "Hypnosis",
         "Bubble",
-        "Double slap"
+        "Double Slap"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -71992,9 +71992,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Superpower",
-        "Triple dive",
-        "Jaw lock",
-        "Dragon dance"
+        "Triple Dive",
+        "Jaw Lock",
+        "Dragon Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -72025,7 +72025,7 @@ backup_data = {
       "moves": [
         "Screech",
         "Thrash",
-        "Aqua fang",
+        "Aqua Fang",
         "Superpower"
       ],
       "sub_index": 0,
@@ -72058,8 +72058,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Agility",
-        "Double hit",
-        "Twin beam",
+        "Double Hit",
+        "Twin Beam",
         "Crunch"
       ],
       "sub_index": 0,
@@ -72091,10 +72091,10 @@ backup_data = {
       "nature": "Naughty",
       "battle_type": "Singles",
       "moves": [
-        "Zen headbutt",
-        "Poison fang",
+        "Zen Headbutt",
+        "Poison Fang",
         "Psychic",
-        "Quiver dance"
+        "Quiver Dance"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -72123,10 +72123,10 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Stun spore",
-        "Signal beam",
-        "Sleep powder",
-        "Leech life"
+        "Stun Spore",
+        "Signal Beam",
+        "Sleep Powder",
+        "Leech Life"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -72157,10 +72157,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Signal beam",
-        "Sucker punch",
-        "Future sight",
-        "Stored power"
+        "Signal Beam",
+        "Sucker Punch",
+        "Future Sight",
+        "Stored Power"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -72192,9 +72192,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Imprison",
-        "Sucker punch",
-        "Misty terrain",
-        "Quick guard"
+        "Sucker Punch",
+        "Misty Terrain",
+        "Quick Guard"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -72225,7 +72225,7 @@ backup_data = {
       "moves": [
         "Psyshock",
         "Charm",
-        "Miracle eye",
+        "Miracle Eye",
         "Reflect"
       ],
       "sub_index": 1,
@@ -72869,8 +72869,8 @@ backup_data = {
       "moves": [
         "Imprison",
         "Captivate",
-        "Calm mind",
-        "Me first"
+        "Calm Mind",
+        "Me First"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -73169,9 +73169,9 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Singles",
       "moves": [
-        "Metal claw",
-        "Smack down",
-        "Scary face"
+        "Metal Claw",
+        "Smack Down",
+        "Scary Face"
       ],
       "sub_index": 0,
       "ai_tags": []
@@ -73201,7 +73201,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Sing",
-        "Defense curl",
+        "Defense Curl",
         "Pound"
       ],
       "sub_index": 0,
@@ -73235,7 +73235,7 @@ backup_data = {
       "moves": [
         "Absorb",
         "Tackle",
-        "Stun spore"
+        "Stun Spore"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -73419,7 +73419,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Scratch",
-        "Play nice",
+        "Play Nice",
         "Leer",
         "Lick"
       ],
@@ -73451,7 +73451,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Scratch",
-        "Play nice",
+        "Play Nice",
         "Leer",
         "Lick"
       ],
@@ -73483,7 +73483,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Scratch",
-        "Play nice",
+        "Play Nice",
         "Leer",
         "Lick"
       ],
@@ -73515,7 +73515,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Scratch",
-        "Play nice",
+        "Play Nice",
         "Leer",
         "Lick"
       ],
@@ -73547,7 +73547,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Scratch",
-        "Play nice",
+        "Play Nice",
         "Leer",
         "Lick"
       ],
@@ -73929,10 +73929,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Night shade",
-        "Shadow sneak",
-        "Poison fang",
-        "Sucker punch"
+        "Night Shade",
+        "Shadow Sneak",
+        "Poison Fang",
+        "Sucker Punch"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -74001,10 +74001,10 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Poison jab",
+        "Poison Jab",
         "Overdrive",
         "Boomburst",
-        "Shift gear"
+        "Shift Gear"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -74155,8 +74155,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Wish",
-        "Play rough",
-        "Light screen",
+        "Play Rough",
+        "Light Screen",
         "Safeguard"
       ],
       "sub_index": 0,
@@ -74189,9 +74189,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Moonblast",
-        "Dream eater",
+        "Dream Eater",
         "Spotlight",
-        "Sparkly swirl"
+        "Sparkly Swirl"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -74221,9 +74221,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Moonblast",
-        "Dream eater",
+        "Dream Eater",
         "Spotlight",
-        "Sparkly swirl"
+        "Sparkly Swirl"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -74253,8 +74253,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Moonlight",
-        "Mega drain",
-        "Sleep powder",
+        "Mega Drain",
+        "Sleep Powder",
         "Ingrain"
       ],
       "sub_index": 0,
@@ -74325,9 +74325,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Recycle",
-        "Play rough",
-        "Magic room",
-        "Heal block"
+        "Play Rough",
+        "Magic Room",
+        "Heal Block"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -74356,10 +74356,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Metal sound",
+        "Metal Sound",
         "Spikes",
-        "Draining kiss",
-        "Crafty shield"
+        "Draining Kiss",
+        "Crafty Shield"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -74390,8 +74390,8 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Vice grip",
-        "String shot"
+        "Vice Grip",
+        "String Shot"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -74422,10 +74422,10 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "String shot",
-        "Mega drain",
-        "Spider web",
-        "Thunder wave"
+        "String Shot",
+        "Mega Drain",
+        "Spider Web",
+        "Thunder Wave"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -74457,8 +74457,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Tackle",
-        "String shot",
-        "Poison sting"
+        "String Shot",
+        "Poison Sting"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -74489,7 +74489,7 @@ backup_data = {
       "nature": "Careful",
       "battle_type": "Singles",
       "moves": [
-        "Struggle bug"
+        "Struggle Bug"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -74520,7 +74520,7 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Water sport",
+        "Water Sport",
         "Bubble",
         "Infestation"
       ],
@@ -74553,8 +74553,8 @@ backup_data = {
       "nature": "Bashful",
       "battle_type": "Singles",
       "moves": [
-        "Poison sting",
-        "String shot",
+        "Poison Sting",
+        "String Shot",
         "Constrict",
         "Absorb"
       ],
@@ -74618,9 +74618,9 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Comet punch",
+        "Comet Punch",
         "Agility",
-        "Bug buzz",
+        "Bug Buzz",
         "Double-edge"
       ],
       "sub_index": 0,
@@ -74685,10 +74685,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Heavy slam",
-        "Phantom force",
-        "Power whip",
-        "Spirit shackle"
+        "Heavy Slam",
+        "Phantom Force",
+        "Power Whip",
+        "Spirit Shackle"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -74721,8 +74721,8 @@ backup_data = {
       "moves": [
         "Swallow",
         "Crunch",
-        "Wring out",
-        "Power whip"
+        "Wring Out",
+        "Power Whip"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -74751,10 +74751,10 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Vine whip",
-        "Sweet scent",
+        "Vine Whip",
+        "Sweet Scent",
         "Ingrain",
-        "Feint attack"
+        "Feint Attack"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -74943,7 +74943,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Ember",
-        "Bug bite",
+        "Bug Bite",
         "Wrap"
       ],
       "sub_index": 1,
@@ -74974,7 +74974,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Ember",
-        "Bug bite",
+        "Bug Bite",
         "Wrap"
       ],
       "sub_index": 1,
@@ -75005,7 +75005,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Ember",
-        "Bug bite",
+        "Bug Bite",
         "Wrap"
       ],
       "sub_index": 1,
@@ -75036,7 +75036,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Ember",
-        "Bug bite",
+        "Bug Bite",
         "Wrap"
       ],
       "sub_index": 1,
@@ -75067,7 +75067,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Ember",
-        "Bug bite",
+        "Bug Bite",
         "Wrap"
       ],
       "sub_index": 1,
@@ -75094,7 +75094,7 @@ backup_data = {
         "sd": 0,
         "sp": 252
       },
-      "item": "Nevermeltice",
+      "item": "Never-Melt Ice",
       "level": "-2",
       "nature": "Impish",
       "battle_type": "Singles",
@@ -75132,7 +75132,7 @@ backup_data = {
         "sd": 0,
         "sp": 252
       },
-      "item": "Nevermeltice",
+      "item": "Never-Melt Ice",
       "level": "-2",
       "nature": "Impish",
       "battle_type": "Singles",
@@ -75166,7 +75166,7 @@ backup_data = {
         "sd": 0,
         "sp": 252
       },
-      "item": "Nevermeltice",
+      "item": "Never-Melt Ice",
       "level": "-2",
       "nature": "Impish",
       "battle_type": "Singles",
@@ -75200,7 +75200,7 @@ backup_data = {
         "sd": 0,
         "sp": 252
       },
-      "item": "Nevermeltice",
+      "item": "Never-Melt Ice",
       "level": "-2",
       "nature": "Impish",
       "battle_type": "Singles",
@@ -75234,7 +75234,7 @@ backup_data = {
         "sd": 0,
         "sp": 252
       },
-      "item": "Nevermeltice",
+      "item": "Never-Melt Ice",
       "level": "-2",
       "nature": "Impish",
       "battle_type": "Singles",
@@ -75275,8 +75275,8 @@ backup_data = {
       "nature": "Quirky",
       "battle_type": "Singles",
       "moves": [
-        "Sweet scent",
-        "Giga drain",
+        "Sweet Scent",
+        "Giga Drain",
         "Toxic",
         "Synthesis"
       ],
@@ -75807,9 +75807,9 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Defense curl",
-        "Mud sport",
-        "Rock polish",
+        "Defense Curl",
+        "Mud Sport",
+        "Rock Polish",
         "Rollout"
       ],
       "sub_index": 0,
@@ -75841,8 +75841,8 @@ backup_data = {
       "moves": [
         "Rollout",
         "Magnitude",
-        "Rock tomb",
-        "Smack down"
+        "Rock Tomb",
+        "Smack Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -75875,8 +75875,8 @@ backup_data = {
       "moves": [
         "Rollout",
         "Magnitude",
-        "Rock tomb",
-        "Smack down"
+        "Rock Tomb",
+        "Smack Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -75909,8 +75909,8 @@ backup_data = {
       "moves": [
         "Rollout",
         "Magnitude",
-        "Rock tomb",
-        "Smack down"
+        "Rock Tomb",
+        "Smack Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -75943,8 +75943,8 @@ backup_data = {
       "moves": [
         "Rollout",
         "Magnitude",
-        "Rock tomb",
-        "Smack down"
+        "Rock Tomb",
+        "Smack Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -75978,7 +75978,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Detect",
-        "Rock blast",
+        "Rock Blast",
         "X-scissor",
         "Flail"
       ],
@@ -76010,7 +76010,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Detect",
-        "Rock blast",
+        "Rock Blast",
         "X-scissor",
         "Flail"
       ],
@@ -76043,10 +76043,10 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Bug bite",
+        "Bug Bite",
         "Headbutt",
-        "False swipe",
-        "Bug buzz"
+        "False Swipe",
+        "Bug Buzz"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -76075,10 +76075,10 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Bug bite",
+        "Bug Bite",
         "Headbutt",
-        "False swipe",
-        "Bug buzz"
+        "False Swipe",
+        "Bug Buzz"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -76109,7 +76109,7 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Doubles",
       "moves": [
-        "Bug buzz",
+        "Bug Buzz",
         "Encore",
         "Double-edge",
         "Infestation"
@@ -76141,7 +76141,7 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Doubles",
       "moves": [
-        "Bug buzz",
+        "Bug Buzz",
         "Encore",
         "Double-edge",
         "Infestation"
@@ -76173,7 +76173,7 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Doubles",
       "moves": [
-        "Bug buzz",
+        "Bug Buzz",
         "Encore",
         "Double-edge",
         "Infestation"
@@ -76205,7 +76205,7 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Doubles",
       "moves": [
-        "Bug buzz",
+        "Bug Buzz",
         "Encore",
         "Double-edge",
         "Infestation"
@@ -76237,7 +76237,7 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Doubles",
       "moves": [
-        "Bug buzz",
+        "Bug Buzz",
         "Encore",
         "Double-edge",
         "Infestation"
@@ -76269,10 +76269,10 @@ backup_data = {
       "nature": "Adamant",
       "battle_type": "Singles",
       "moves": [
-        "Struggle bug",
+        "Struggle Bug",
         "Moonlight",
-        "Helping hand",
-        "Signal beam"
+        "Helping Hand",
+        "Signal Beam"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -76305,8 +76305,8 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
-        "Zen headbutt",
-        "Play rough",
+        "Zen Headbutt",
+        "Play Rough",
         "Double-edge",
         "Infestation"
       ],
@@ -76337,8 +76337,8 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
-        "Zen headbutt",
-        "Play rough",
+        "Zen Headbutt",
+        "Play Rough",
         "Double-edge",
         "Infestation"
       ],
@@ -76369,8 +76369,8 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
-        "Zen headbutt",
-        "Play rough",
+        "Zen Headbutt",
+        "Play Rough",
         "Double-edge",
         "Infestation"
       ],
@@ -76401,8 +76401,8 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
-        "Zen headbutt",
-        "Play rough",
+        "Zen Headbutt",
+        "Play Rough",
         "Double-edge",
         "Infestation"
       ],
@@ -76433,8 +76433,8 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
-        "Zen headbutt",
-        "Play rough",
+        "Zen Headbutt",
+        "Play Rough",
         "Double-edge",
         "Infestation"
       ],
@@ -76540,7 +76540,7 @@ backup_data = {
         "Charge",
         "Spark",
         "Nuzzle",
-        "Magnet rise"
+        "Magnet Rise"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -76572,8 +76572,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Present",
-        "Drill peck",
-        "Extreme speed"
+        "Drill Peck",
+        "Extreme Speed"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -76644,8 +76644,8 @@ backup_data = {
       "moves": [
         "Screech",
         "U-turn",
-        "Air slash",
-        "Bug buzz"
+        "Air Slash",
+        "Bug Buzz"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -77097,9 +77097,9 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Electric terrain",
-        "Poison jab",
-        "Zing zap",
+        "Electric Terrain",
+        "Poison Jab",
+        "Zing Zap",
         "Discharge"
       ],
       "sub_index": 2,
@@ -77131,10 +77131,10 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Tail whip",
-        "Quick attack",
+        "Tail Whip",
+        "Quick Attack",
         "Thunderbolt",
-        "Extreme speed"
+        "Extreme Speed"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -77203,10 +77203,10 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Earth power",
-        "Stone edge",
+        "Earth Power",
+        "Stone Edge",
         "Lock-on",
-        "Zap cannon"
+        "Zap Cannon"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -77237,8 +77237,8 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Power gem",
-        "Rock blast",
+        "Power Gem",
+        "Rock Blast",
         "Discharge",
         "Sandstorm"
       ],
@@ -77309,7 +77309,7 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Hyper fang",
+        "Hyper Fang",
         "Yawn",
         "Thrash",
         "Rest"
@@ -77343,9 +77343,9 @@ backup_data = {
       "nature": "Hasty",
       "battle_type": "Doubles",
       "moves": [
-        "Ice fang",
-        "Take down",
-        "Ancient power",
+        "Ice Fang",
+        "Take Down",
+        "Ancient Power",
         "Mist"
       ],
       "sub_index": 0,
@@ -77375,9 +77375,9 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Doubles",
       "moves": [
-        "Ice fang",
-        "Take down",
-        "Ancient power",
+        "Ice Fang",
+        "Take Down",
+        "Ancient Power",
         "Mist"
       ],
       "sub_index": 1,
@@ -77410,9 +77410,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Psychic",
-        "Psych up",
-        "Rain dance",
-        "Heal pulse"
+        "Psych Up",
+        "Rain Dance",
+        "Heal Pulse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -77444,9 +77444,9 @@ backup_data = {
       "battle_type": "Doubles",
       "moves": [
         "Psychic",
-        "Psych up",
-        "Rain dance",
-        "Heal pulse"
+        "Psych Up",
+        "Rain Dance",
+        "Heal Pulse"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -77517,8 +77517,8 @@ backup_data = {
       "moves": [
         "Safeguard",
         "Whirlpool",
-        "Helping hand",
-        "Healing wish"
+        "Helping Hand",
+        "Healing Wish"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -77547,10 +77547,10 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
-        "Heal pulse",
+        "Double Slap",
+        "Heal Pulse",
         "Protect",
-        "Water pulse"
+        "Water Pulse"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -77582,9 +77582,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Torment",
-        "Fake out",
-        "Nature power",
-        "Sucker punch"
+        "Fake Out",
+        "Nature Power",
+        "Sucker Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -77617,8 +77617,8 @@ backup_data = {
       "moves": [
         "Absorb",
         "Bubble",
-        "Aurora beam",
-        "Fake out"
+        "Aurora Beam",
+        "Fake Out"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -77652,7 +77652,7 @@ backup_data = {
         "Lick",
         "Snarl",
         "Headbutt",
-        "Hone claws"
+        "Hone Claws"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -77684,9 +77684,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Wrap",
-        "Aqua jet",
+        "Aqua Jet",
         "Slam",
-        "Water pulse"
+        "Water Pulse"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -77838,9 +77838,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Curse",
-        "Night shade",
-        "Confuse ray",
-        "Sucker punch"
+        "Night Shade",
+        "Confuse Ray",
+        "Sucker Punch"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -77873,7 +77873,7 @@ backup_data = {
       "moves": [
         "Infestation",
         "Hex",
-        "Mega drain",
+        "Mega Drain",
         "Disable"
       ],
       "sub_index": 1,
@@ -77939,10 +77939,10 @@ backup_data = {
       "nature": "Timid",
       "battle_type": "Singles",
       "moves": [
-        "Fury swipes",
-        "Defend order",
-        "Power gem",
-        "Heal order"
+        "Fury Swipes",
+        "Defend Order",
+        "Power Gem",
+        "Heal Order"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -78047,7 +78047,7 @@ backup_data = {
       "moves": [
         "Pursuit",
         "Will-o-wisp",
-        "Confuse ray",
+        "Confuse Ray",
         "Curse"
       ],
       "sub_index": 1,
@@ -78080,9 +78080,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Slash",
-        "Play nice",
+        "Play Nice",
         "Crunch",
-        "Scary face"
+        "Scary Face"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -78347,8 +78347,8 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Singles",
       "moves": [
-        "Defense curl",
-        "Lucky chant",
+        "Defense Curl",
+        "Lucky Chant",
         "Psybeam",
         "Hypnosis"
       ],
@@ -78381,10 +78381,10 @@ backup_data = {
       "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Hyper voice",
+        "Hyper Voice",
         "Incinerate",
         "Overheat",
-        "Torch song"
+        "Torch Song"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -78413,10 +78413,10 @@ backup_data = {
       "nature": "Sassy",
       "battle_type": "Singles",
       "moves": [
-        "Take down",
-        "Fire fang",
+        "Take Down",
+        "Fire Fang",
         "Endeavor",
-        "Echoed voice"
+        "Echoed Voice"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -78486,9 +78486,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Double-edge",
-        "Stone edge",
-        "Hammer arm",
-        "Head smash"
+        "Stone Edge",
+        "Hammer Arm",
+        "Head Smash"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -78634,8 +78634,8 @@ backup_data = {
       "nature": "Modest",
       "battle_type": "Singles",
       "moves": [
-        "Crush claw",
-        "Sky drop",
+        "Crush Claw",
+        "Sky Drop",
         "Whirlwind",
         "Double-edge"
       ],
@@ -78669,9 +78669,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Slash",
-        "Night slash",
+        "Night Slash",
         "Superpower",
-        "Psycho boost"
+        "Psycho Boost"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -78701,9 +78701,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Slash",
-        "Night slash",
+        "Night Slash",
         "Superpower",
-        "Psycho boost"
+        "Psycho Boost"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -78733,9 +78733,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Slash",
-        "Night slash",
+        "Night Slash",
         "Superpower",
-        "Psycho boost"
+        "Psycho Boost"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -78765,9 +78765,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Slash",
-        "Night slash",
+        "Night Slash",
         "Superpower",
-        "Psycho boost"
+        "Psycho Boost"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -78797,9 +78797,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Slash",
-        "Night slash",
+        "Night Slash",
         "Superpower",
-        "Psycho boost"
+        "Psycho Boost"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -78989,9 +78989,9 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Swift",
-        "Electro ball",
-        "Sweet kiss",
-        "Thunder wave"
+        "Electro Ball",
+        "Sweet Kiss",
+        "Thunder Wave"
       ],
       "sub_index": 2,
       "ai_tags": [
@@ -79022,10 +79022,10 @@ backup_data = {
       "nature": "Lonely",
       "battle_type": "Singles",
       "moves": [
-        "Double slap",
+        "Double Slap",
         "Attract",
         "Entrainment",
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -79056,10 +79056,10 @@ backup_data = {
       "nature": "Relaxed",
       "battle_type": "Singles",
       "moves": [
-        "Focus energy",
+        "Focus Energy",
         "Crunch",
-        "Dragon claw",
-        "Zen headbutt"
+        "Dragon Claw",
+        "Zen Headbutt"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79091,8 +79091,8 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Incinerate",
-        "Rapid spin",
-        "Smack down"
+        "Rapid Spin",
+        "Smack Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79158,8 +79158,8 @@ backup_data = {
       "moves": [
         "Tackle",
         "Growth",
-        "Vine whip",
-        "Tail whip"
+        "Vine Whip",
+        "Tail Whip"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79193,7 +79193,7 @@ backup_data = {
         "Gust",
         "Growl",
         "Leer",
-        "Quick attack"
+        "Quick Attack"
       ],
       "sub_index": 1,
       "ai_tags": [
@@ -79264,10 +79264,10 @@ backup_data = {
       "nature": "Brave",
       "battle_type": "Singles",
       "moves": [
-        "Bug buzz",
+        "Bug Buzz",
         "Recover",
-        "Power swap",
-        "Final gambit"
+        "Power Swap",
+        "Final Gambit"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79301,7 +79301,7 @@ backup_data = {
         "Synchronoise",
         "Boomburst",
         "Overdrive",
-        "Hyper beam"
+        "Hyper Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79335,7 +79335,7 @@ backup_data = {
         "Synchronoise",
         "Boomburst",
         "Overdrive",
-        "Hyper beam"
+        "Hyper Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79369,7 +79369,7 @@ backup_data = {
         "Synchronoise",
         "Boomburst",
         "Overdrive",
-        "Hyper beam"
+        "Hyper Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79403,7 +79403,7 @@ backup_data = {
         "Synchronoise",
         "Boomburst",
         "Overdrive",
-        "Hyper beam"
+        "Hyper Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79437,7 +79437,7 @@ backup_data = {
         "Synchronoise",
         "Boomburst",
         "Overdrive",
-        "Hyper beam"
+        "Hyper Beam"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79610,7 +79610,7 @@ backup_data = {
       "nature": "Naive",
       "battle_type": "Singles",
       "moves": [
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79641,7 +79641,7 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79672,7 +79672,7 @@ backup_data = {
       "nature": "Serious",
       "battle_type": "Singles",
       "moves": [
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79703,7 +79703,7 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79734,7 +79734,7 @@ backup_data = {
       "nature": "Bold",
       "battle_type": "Singles",
       "moves": [
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79765,7 +79765,7 @@ backup_data = {
       "nature": "Jolly",
       "battle_type": "Singles",
       "moves": [
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -79796,7 +79796,7 @@ backup_data = {
       "nature": "Rash",
       "battle_type": "Singles",
       "moves": [
-        "Take down"
+        "Take Down"
       ],
       "sub_index": 0,
       "ai_tags": [
