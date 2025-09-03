@@ -231,7 +231,7 @@ input[type="file"] {
 
 #learnset-container {
     position: fixed;
-    background: #f1f1f1;
+    background: #f8f8f2;
     height:  80vh;
     width:  400px;
     left: calc(50vw - 200px);
@@ -242,6 +242,7 @@ input[type="file"] {
     border:  2px solid black;
     color: black;
     overflow: scroll;
+    padding-bottom: 20px
 }
 
 #learnset-container h2 {
@@ -249,15 +250,27 @@ input[type="file"] {
     border-bottom:  1px solid black;
 }
 
+.close-modal {
+    position: absolute;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    top: 4px;
+    right: 4px;
+    fill: red;
+    background: #f8f8f2;
+
+}
+
 .ls-row {
     display: flex;
     justify-content: space-between;
     margin-top:  5px;
     margin-left:  20px;
-    font-size:  16px;
-    height:  16px;
-    line-height: 16px;
-    width: 180px;
+    font-size:  18px;
+    height:  20px;
+    line-height: 20px;
+    width: calc(100% - 40px);
 }
 
 #nav-tags div {
