@@ -1882,7 +1882,15 @@ function get_current_learnset() {
     if (current_learnset["tms"]) {
         for (let i = 0; i < current_learnset["tms"].length; i++) {
             var mv_name = current_learnset["tms"][i]
-            tm_html += `<div class='ls-row'><div class='ls-name'>${mv_name}</div></div>`
+
+            let tm_index = ""
+            if (tms["tms"][mv_name]) {
+                tm_index = `TM${tms["tms"][mv_name]}`
+            } else if (tms["hms"][mv_name]) {
+                tm_index = `HM${tms["hms"][mv_name]}`
+            }
+
+            tm_html += `<div class='ls-row'><div class='ls-level'>${tm_index}</div><div class='ls-name'>${mv_name}</div></div>`
         }
 
     }
