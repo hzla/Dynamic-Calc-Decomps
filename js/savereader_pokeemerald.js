@@ -344,7 +344,7 @@ function hasInvalidMoves(arr) {
 }
 
 function itemTitleize(item) {
-    return item.toLowerCase().split(/([ _-])/).map(s => s.charAt(0).toUpperCase() + s.slice(1)).join('').replace("_", " ").replace("Never Melt", "Never-Melt")
+    return item.toLowerCase().split(/([ _-])/).map(s => s.charAt(0).toUpperCase() + s.slice(1)).join('').replace("_", " ").replace("Never Melt_Ice", "Never-Melt Ice")
 }
 
 const orderFormats = [[1,2,3,4],         
