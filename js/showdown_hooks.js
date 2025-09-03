@@ -534,6 +534,7 @@ function sort_box_by_name(aToZ = true) {
 
 function get_box() {
     var names = get_trainer_names()
+    encounters = getEncounters()
 
     var box = []
 
@@ -544,6 +545,11 @@ function get_box() {
             box.push(names[i].split("[")[0])
 
             var pok_name = names[i].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace(".","").replace("’","").replace(":","-")
+            
+            if (encounters && encounters[names[i].split(" (")[0]] && !encounters[names[i].split(" (")[0]].alive) {
+                continue
+            }
+
             var pok = `<img class="trainer-pok left-side ${sprite_style}" src="./img/${sprite_style}/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
 
             box_html += pok
