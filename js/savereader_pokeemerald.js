@@ -246,7 +246,12 @@ document.getElementById('save-upload').addEventListener('change', function(event
                         abilitySlot = decrypted[misc_index * 3 + 2] & 96 >> 5
                     } else {
                         abilitySlot = decrypted[misc_index * 3 + 2] >> 29 & 0b11
-                        if (abils[speciesName]) {
+                        
+                        // todo: get final ability list
+                        if (abilsPrimary[speciesName]) {
+                            abilitySlot = abilsPrimary[speciesName][abilitySlot]
+                        }
+                        else if (abils[speciesName]) {
                             abilitySlot = abils[speciesName][abilitySlot]
                         } else {
                             console.log(`${speciesName} no ability found`)
