@@ -41,6 +41,11 @@ input[type="file"] {
 }
 
 
+.switch-info {
+    color: #1abc9c;
+}
+
+
 
 .filterable.doc-enc {
     background: #383a59;
@@ -939,7 +944,7 @@ table td {
 }
 
 .trainer-pok.right-side {
-    height: 100%;
+    height: auto;
     width:  100%;
     aspect-ratio: 40 / 30;
 }
@@ -1310,9 +1315,10 @@ th {
     border-radius: 6px;
     margin-left: 20px;
     margin-top:  20px;
-    width:  124px;
+    width:  180px;
     cursor: pointer;
     margin-bottom:  20px;
+    text-align: center;
 
 }
 

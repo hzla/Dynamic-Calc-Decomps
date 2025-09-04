@@ -584,12 +584,17 @@ function refresh_next_in() {
 
 		
 		pok +=`
-			<div class="bp-info" data-strong="${next_poks[i][2].includes(next_poks[i][4][0])}">${next_poks[i][4][0].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info" data-strong="${next_poks[i][2].includes(next_poks[i][4][1])}">${next_poks[i][4][1].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info" data-strong="${next_poks[i][2].includes(next_poks[i][4][2])}">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info" data-strong="${next_poks[i][2].includes(next_poks[i][4][3])}">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div>
-
-		</div>`
+			<div class="bp-info">${next_poks[i][4][0].replace("Hidden Power", "HP")}</div>
+			<div class="bp-info">${next_poks[i][4][1].replace("Hidden Power", "HP")}</div>
+			<div class="bp-info">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
+			<div class="bp-info">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div>`
+		
+		if (TITLE.includes("1.3") && noSwitch != "1") {
+			pok += "<br>"
+			pok += next_poks[i][5]
+		}
+		pok += `</div>`
+		
 		trpok_html += pok
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
@@ -1089,6 +1094,7 @@ function autosetQP(pokemon) {
 }
 
 
+
 function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 	if (typeof pokeInfo === "string") { // in this case, pokeInfo is the id of an individual setOptions value whose moveset's tier matches the selected tier(s)
 		var name = pokeInfo.substring(0, pokeInfo.indexOf(" ("));
@@ -1122,6 +1128,16 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			pokemonMoves = pokemonMoves.filter(function (move) {
 				return move.category !== "Status";
 			});
+		}
+
+
+		if (parseInt(set.level) < 1) {
+			console.log("adjusting to level cap for pokemon creation")
+			if ($('#lvl-cap').val() != "") {
+				set.level = parseInt($('#lvl-cap').val()) + set.sublevel
+			} else {
+				set.level = parseInt($('#levelR1').val()) + set.sublevel
+			}	
 		}
 
 		return new calc.Pokemon(gen, name, {
@@ -1863,17 +1879,14 @@ $(document).ready(function () {
 		switchIn = 5
 	}
 
-	if (switchIn == 10 || switchIn == 11) {
-        $(document).on('mouseover', '.trainer-pok-container', function() {
-            var trpok_index = $(this).index()
-            var reasoning = ""
-            for (let i = 0;i < RR_SORTED.length; i++) {
-            	if (RR_SORTED[i][0].includes($(this).find('.trainer-pok').attr('data-id'))) {
-            		reasoning = RR_SORTED[i][6]
-            	}
-            }
-            $('#reasoning').text(reasoning)
-        })
+	if (TITLE.includes("1.3")) {
+        // $(document).on('mouseover', '.trainer-pok-container', function() {
+        //     var trpok_index = $(this).index()
+            
+        //     reasoning = ranked_trainer_poks[trpok_index][5]
+
+        //     $('#reasoning').html(reasoning)
+        // })
    }
 
    // if (switchIn == 11) {

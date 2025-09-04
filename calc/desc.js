@@ -32,7 +32,9 @@ function display(gen, attacker, defender, move, field, damage, rawDesc, notation
     var damageText = "".concat(min, "-").concat(max, " (").concat(minDisplay, " - ").concat(maxDisplay).concat(notation, ")");
     if (move.category === 'Status' && !move.named('Nature Power'))
         return "".concat(desc, ": ").concat(damageText);
+
     var koChanceText = getKOChance(gen, attacker, defender, move, field, damage, err).text;
+
     return koChanceText ? "".concat(desc, ": ").concat(damageText, " -- ").concat(koChanceText) : "".concat(desc, ": ").concat(damageText);
 }
 exports.display = display;
@@ -186,9 +188,16 @@ function getRecoil(gen, attacker, defender, move, damage, notation) {
     return { recoil: recoil, text: text };
 }
 exports.getRecoil = getRecoil;
+
 function getKOChance(gen, attacker, defender, move, field, damage, err) {
     if (err === void 0) { err = true; }
+
     damage = combine(damage);
+
+
+
+
+
     if (isNaN(damage[0])) {
         (0, util_1.error)(err, 'damage[0] must be a number.');
         return { chance: 0, n: 0, text: '' };
@@ -237,6 +246,9 @@ function getKOChance(gen, attacker, defender, move, field, damage, err) {
         if (damage.length === 256) {
             qualifier = 'approx. ';
         }
+
+
+
         for (var i = 2; i <= 4; i++) {
             var chance_1 = computeKOChance(damage, defender.curHP() - hazards.damage, eot.damage, i, 1, defender.maxHP(), toxicCounter);
             if (chance_1 === 1) {
@@ -522,7 +534,11 @@ function getEndOfTurn(gen, attacker, defender, move, field) {
     return { damage: damage, texts: texts };
 }
 function computeKOChance(damage, hp, eot, hits, timesUsed, maxHP, toxicCounter) {
+
     var n = damage.length;
+
+    // console.log(damage)
+
     if (hits === 1) {
         for (var i = 0; i < n; i++) {
             if (damage[n - 1] < hp)
