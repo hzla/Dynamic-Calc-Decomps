@@ -1566,6 +1566,29 @@ $(document).ready(function() {
         window.location.href = url;
    })
 
+   function toggleParam(name, value = "1") {
+      const url = new URL(window.location.href);
+
+      if (url.searchParams.has(name)) {
+        // remove it if it exists
+        url.searchParams.delete(name);
+      } else {
+        // add it if missing
+        url.searchParams.set(name, value);
+      }
+
+      // navigate (reload) to the new URL
+      window.location.href = url.toString();
+    }
+
+
+    $(document).on('click', '#switch-preview', function() {
+        toggleParam('noSwitch')
+   })
+
+
+
+
     $(document).on('contextmenu', '.trainer-pok.right-side', function(e) {
         e.preventDefault()
         $(this).toggleClass('fainted')
