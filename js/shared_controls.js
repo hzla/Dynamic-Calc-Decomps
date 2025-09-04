@@ -767,9 +767,6 @@ $(".set-selector").change(function () {
 	var pokemon = pokedex[pokemonName];
 
 
-	console.log(pokemon)
-
-
 	if (pokemon) {
 		pokeObj = $(this).closest(".poke-info");
 		if (stickyMoves.getSelectedSide() === pokeObj.prop("id")) {

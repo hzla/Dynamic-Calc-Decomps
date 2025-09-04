@@ -53,9 +53,6 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let bestMove = "(None)"
     let isOhkod = false
 
-
-
-
     for (moveIndex in defender.moves) {
         let move = defender.moves[moveIndex]
         damage = defenderVAttackerResults[moveIndex].damage
@@ -64,7 +61,6 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
         if (damage.length == 16) {
             damage = damage.map(() => damage[8])
         }
-
 
         if (damage[0] > highestDmgDealt) {
             highestDmgDealt = damage[0]
@@ -134,7 +130,6 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
             }
         }        
     }
-
     // if both or neither have prio speed is based on raw stats otherwise set whichever side has prio as faster
     if ((!attackerBestMoveHasPrio && !defenderBestMoveHasPrio) || (attackerBestMoveHasPrio && defenderBestMoveHasPrio)) {
         isFaster = defender.rawStats.spe > attacker.rawStats.spe
@@ -175,14 +170,8 @@ function get_next_in() {
 
     ranked_trainer_poks = []
 
-
-
     for (i in trainer_poks) {
         analysis = ""
-
-
-        console.log(trainer_poks[i].slice(0,-3))
-
 
         p2 = createPokemon(trainer_poks[i].slice(0,-3))
 
@@ -201,8 +190,6 @@ function get_next_in() {
         
         let player_results = all_results[0]
         let results = all_results[1]
-
-
 
         let pok_name = trainer_poks[i].split(" (")[0]
         let tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
@@ -269,8 +256,6 @@ function get_next_in() {
             }
         }
 
-
-
         if (switchInScore == 0) {
             switchInScore += sub_index / 1000
         }
@@ -280,8 +265,6 @@ function get_next_in() {
         }
 
         // Set ace to last or second to last if mega
-
-
         if (pok_data["ai_tags"] && pok_data["ai_tags"].includes("Ace Pokemon") && (pok_data.sub_index == trainer_poks.length - 2))  {
             analysis += `<div class='bp-info switch-info'>Ace</div>` 
             switchInScore -= 500000
@@ -302,7 +285,7 @@ function get_next_in() {
     return ranked_trainer_poks
 }
 
-// sort by highest move bp, break ties on trainer order
+// sort by switch in score, break ties on trainer order
 function sort_trpoks(a, b) {
     if (a[1] === b[1]) {
         return (b[3] > a[3]) ? -1 : 1;
