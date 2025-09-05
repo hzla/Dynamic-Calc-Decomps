@@ -589,7 +589,7 @@ function refresh_next_in() {
 			<div class="bp-info">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
 			<div class="bp-info">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div>`
 		
-		if (TITLE.includes("1.3") && noSwitch != "1") {
+		if (TITLE.includes("1.3")) {
 			pok += "<br>"
 			pok += next_poks[i][5]
 		}

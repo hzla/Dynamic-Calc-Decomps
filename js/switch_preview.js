@@ -206,87 +206,90 @@ function get_next_in() {
 
         matchup = {}
 
-        matchup = matchupData(player_results, results)
-
-        matchup["type_matchup"] = type_matchup
-
         analysis += `<div class='bp-info switch-info'>Type MU: ${type_matchup}</div><br>` 
 
-        // Check for trappers, revenge killers, and good matchups
-        if (matchup.wins1v1) {
-            analysis += "<div class='bp-info switch-info'>Wins 1v1</div>" 
-            // trapper
-            if (matchup.isTrapper && matchup.wins1v1) {
-                switchInScore += 100000
-                analysis += "<div class='bp-info switch-info'>Trapper</div>"
-            // fast ohko
-            } else if (matchup.isRevenge && matchup.isFaster) {
-                switchInScore += sub_index
-                switchInScore += 10000 
-                analysis += "<div class='bp-info switch-info'>Fast Ohko</div>"
-            // slow ohko
-            } else if (matchup.isRevenge && !matchup.isFaster) {
-                switchInScore += sub_index
-                switchInScore += 9500
-                analysis += "<div class='bp-info switch-info'>Slow Ohko</div>" 
-            // fast 2hko
-            } else if (matchup.isThreaten && matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
-                switchInScore += sub_index
-                switchInScore += 9000 
-                analysis += "<div class='bp-info switch-info'>Fast 2Hko</div>" 
-            // slow 2hko
-            } else if (matchup.isThreaten && matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
-                switchInScore += sub_index
-                switchInScore += 8500
-                analysis += "<div class='bp-info switch-info'>Slow 2Hko</div>" 
-            // good matchup
-            } else if (type_matchup < 2) {
-                "<div class='bp-info switch-info'>Good MU</div>" 
-                switchInScore += 4000 * (2 - type_matchup)
-            // wins 1v1
+
+
+
+        if (noSwitch != '1') {
+             matchup = matchupData(player_results, results)
+
+            matchup["type_matchup"] = type_matchup
+
+            
+
+            // Check for trappers, revenge killers, and good matchups
+            if (matchup.wins1v1) {
+                analysis += "<div class='bp-info switch-info'>Wins 1v1</div>" 
+                // trapper
+                if (matchup.isTrapper && matchup.wins1v1) {
+                    switchInScore += 100000
+                    analysis += "<div class='bp-info switch-info'>Trapper</div>"
+                // fast ohko
+                } else if (matchup.isRevenge && matchup.isFaster) {
+                    switchInScore += sub_index
+                    switchInScore += 10000 
+                    analysis += "<div class='bp-info switch-info'>Fast Ohko</div>"
+                // slow ohko
+                } else if (matchup.isRevenge && !matchup.isFaster) {
+                    switchInScore += sub_index
+                    switchInScore += 9500
+                    analysis += "<div class='bp-info switch-info'>Slow Ohko</div>" 
+                // fast 2hko
+                } else if (matchup.isThreaten && matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
+                    switchInScore += sub_index
+                    switchInScore += 9000 
+                    analysis += "<div class='bp-info switch-info'>Fast 2Hko</div>" 
+                // slow 2hko
+                } else if (matchup.isThreaten && matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
+                    switchInScore += sub_index
+                    switchInScore += 8500
+                    analysis += "<div class='bp-info switch-info'>Slow 2Hko</div>" 
+                // good matchup
+                } else if (type_matchup < 2) {
+                    "<div class='bp-info switch-info'>Good MU</div>" 
+                    switchInScore += 4000 * (2 - type_matchup)
+                // wins 1v1
+                } else {
+                    switchInScore += sub_index
+                    analysis += "<div class='bp-info switch-info'></div>" 
+                    switchInScore += 300
+                }
+            // loses 1v1
             } else {
-                switchInScore += sub_index
-                analysis += "<div class='bp-info switch-info'></div>" 
-                switchInScore += 300
+                analysis += `<div class='bp-info switch-info'>Loses 1v1</div>` 
+                if (!matchup.isOhkod) {
+                    switchInScore += sub_index / 1000
+                    switchInScore += Math.min(matchup.maxDmg / 10, currentHp)
+                    analysis += `<div class='bp-info switch-info'>Deals ${Math.min(matchup.maxDmg, currentHp)}</div>` 
+                } else {
+                    analysis += `<div class='bp-info switch-info'>Is Ohko'd</div>` 
+                }
             }
-        // loses 1v1
-        } else {
-            analysis += `<div class='bp-info switch-info'>Loses 1v1</div>` 
-            if (!matchup.isOhkod) {
+
+            if (switchInScore == 0) {
                 switchInScore += sub_index / 1000
-                switchInScore += Math.min(matchup.maxDmg / 10, currentHp)
-                analysis += `<div class='bp-info switch-info'>Deals ${Math.min(matchup.maxDmg, currentHp)}</div>` 
-            } else {
-                analysis += `<div class='bp-info switch-info'>Is Ohko'd</div>` 
+            }
+
+            analysis += `<br><div class='bp-info switch-info'>P-KO: ${switchInScore}</div>` 
+
+            if (pok_name.includes("-Mega")) {
+                switchInScore -= 1000000
+            }
+
+            // Set ace to last or second to last if mega
+            if (pok_data["ai_tags"] && pok_data["ai_tags"].includes("Ace Pokemon") && (pok_data.sub_index == trainer_poks.length - 2))  {
+                analysis += `<div class='bp-info switch-info'>Ace</div>` 
+                switchInScore -= 500000
             }
         }
-
-        if (switchInScore == 0) {
-            switchInScore += sub_index / 1000
-        }
-
-        analysis += `<br><div class='bp-info switch-info'>P-KO: ${switchInScore}</div>` 
-
-        if (pok_name.includes("-Mega")) {
-            switchInScore -= 1000000
-        }
-
-        // Set ace to last or second to last if mega
-        if (pok_data["ai_tags"] && pok_data["ai_tags"].includes("Ace Pokemon") && (pok_data.sub_index == trainer_poks.length - 2))  {
-            analysis += `<div class='bp-info switch-info'>Ace</div>` 
-            switchInScore -= 500000
-        }
-
-
         ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis])
     }
 
 
-   if (typeof noSwitch != "undefined" && noSwitch == "1") {
-       ranked_trainer_poks.sort(sort_subindex)
-    } else {
-        ranked_trainer_poks.sort(sort_subindex)
-    }
+
+    ranked_trainer_poks.sort(sort_subindex)
+
 
     
     console.log(ranked_trainer_poks)
