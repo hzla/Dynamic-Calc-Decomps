@@ -210,6 +210,8 @@ function get_next_in() {
 
         matchup["type_matchup"] = type_matchup
 
+        analysis += `<div class='bp-info switch-info'>Type MU: ${type_matchup}</div><br>` 
+
         // Check for trappers, revenge killers, and good matchups
         if (matchup.wins1v1) {
             analysis += "<div class='bp-info switch-info'>Wins 1v1</div>" 
@@ -239,11 +241,12 @@ function get_next_in() {
                 analysis += "<div class='bp-info switch-info'>Slow 2Hko</div>" 
             // good matchup
             } else if (type_matchup < 2) {
+                "<div class='bp-info switch-info'>Good MU</div>" 
                 switchInScore += 4000 * (2 - type_matchup)
-                analysis += `<div class='bp-info switch-info'>Type MU: ${type_matchup}</div>` 
             // wins 1v1
             } else {
                 switchInScore += sub_index
+                analysis += "<div class='bp-info switch-info'></div>" 
                 switchInScore += 300
             }
         // loses 1v1
@@ -252,7 +255,7 @@ function get_next_in() {
             if (!matchup.isOhkod) {
                 switchInScore += sub_index / 1000
                 switchInScore += Math.min(matchup.maxDmg / 10, currentHp)
-                analysis += `<div class='bp-info switch-info'>Dmg: ${Math.min(matchup.maxDmg, currentHp)}</div>` 
+                analysis += `<div class='bp-info switch-info'>Deals ${Math.min(matchup.maxDmg, currentHp)}</div>` 
             } else {
                 analysis += `<div class='bp-info switch-info'>Is Ohko'd</div>` 
             }
@@ -261,6 +264,8 @@ function get_next_in() {
         if (switchInScore == 0) {
             switchInScore += sub_index / 1000
         }
+
+        analysis += `<br><div class='bp-info switch-info'>P-KO: ${switchInScore}</div>` 
 
         if (pok_name.includes("-Mega")) {
             switchInScore -= 1000000
@@ -272,6 +277,7 @@ function get_next_in() {
             switchInScore -= 500000
         }
 
+
         ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis])
     }
 
@@ -279,7 +285,7 @@ function get_next_in() {
    if (typeof noSwitch != "undefined" && noSwitch == "1") {
        ranked_trainer_poks.sort(sort_subindex)
     } else {
-        ranked_trainer_poks.sort(sort_trpoks)
+        ranked_trainer_poks.sort(sort_subindex)
     }
 
     

@@ -534,9 +534,9 @@ function refresh_next_in() {
 	for (i in next_poks ) {
 		
 
-		if (next_poks[i][0].includes($('input.opposing').val()) && noSwitch != "1"){
-			continue
-		}
+		// if (next_poks[i][0].includes($('input.opposing').val()) && noSwitch != "1"){
+		// 	continue
+		// }
 		var pok_name = next_poks[i][0].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
 
 		if (pok_name.includes("galarian-")) {
