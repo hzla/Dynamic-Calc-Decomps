@@ -1216,11 +1216,11 @@ backup_data = {
       },
       "evs": {
         "hp": 6,
-        "at": 252,
+        "at": 0,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 252,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Weakness Policy",
       "level": "0",
@@ -3648,10 +3648,10 @@ backup_data = {
       "evs": {
         "hp": 6,
         "at": 252,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Thick Club",
       "level": "0",
@@ -5033,11 +5033,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 6,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 6,
+        "sp": 0
       },
       "item": "Focus Sash",
       "level": "-1",
@@ -5112,10 +5112,10 @@ backup_data = {
       "evs": {
         "hp": 6,
         "at": 252,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Life Orb",
       "level": "-1",
@@ -8668,9 +8668,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "0",
@@ -9651,11 +9651,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 0,
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "0",
@@ -13971,9 +13971,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "0",
@@ -21492,11 +21492,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 0,
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Custap Berry",
       "level": 83,
@@ -21753,11 +21753,11 @@ backup_data = {
       },
       "evs": {
         "hp": 6,
-        "at": 252,
+        "at": 0,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 252,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Chesto Berry",
       "level": "0",
@@ -22090,9 +22090,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Assault Vest",
       "level": 68,
@@ -22161,9 +22161,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Assault Vest",
       "level": 68,
@@ -22196,9 +22196,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Assault Vest",
       "level": 68,
@@ -22231,9 +22231,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Assault Vest",
       "level": 68,
@@ -22266,9 +22266,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Assault Vest",
       "level": 68,
@@ -23733,9 +23733,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Dusknoirite",
       "level": 85,
@@ -30003,11 +30003,11 @@ backup_data = {
       },
       "evs": {
         "hp": 180,
-        "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 180,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Black Sludge",
       "level": "-2",
@@ -30037,11 +30037,11 @@ backup_data = {
       },
       "evs": {
         "hp": 180,
-        "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 180,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Black Sludge",
       "level": "-2",
@@ -30071,11 +30071,11 @@ backup_data = {
       },
       "evs": {
         "hp": 180,
-        "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 180,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Black Sludge",
       "level": "-2",
@@ -30105,11 +30105,11 @@ backup_data = {
       },
       "evs": {
         "hp": 180,
-        "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 180,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Black Sludge",
       "level": "-2",
@@ -30142,10 +30142,10 @@ backup_data = {
       "evs": {
         "hp": 252,
         "at": 6,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Rindo Berry",
       "level": "-2",
@@ -34014,11 +34014,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 0,
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Assault Vest",
       "level": 85,
@@ -34051,11 +34051,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 252,
+        "sa": 6,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-4",
@@ -34089,11 +34089,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 252,
+        "sa": 6,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-4",
@@ -34123,11 +34123,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 252,
+        "sa": 6,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-4",
@@ -34157,11 +34157,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 252,
+        "sa": 6,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-4",
@@ -34191,11 +34191,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 252,
+        "sa": 6,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-4",
@@ -36352,11 +36352,11 @@ backup_data = {
       },
       "evs": {
         "hp": 6,
-        "at": 252,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 0,
+        "sa": 252,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Custap Berry",
       "level": "-2",
@@ -36792,11 +36792,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 252,
+        "sa": 6,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Eviolite",
       "level": "-2",
@@ -36870,11 +36870,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 252,
+        "sa": 0,
+        "sd": 6,
+        "sp": 0
       },
       "item": "Occa Berry",
       "level": "-2",
@@ -38526,12 +38526,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 80,
-        "at": null,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 80,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Wise Glasses",
       "level": 32,
@@ -40647,9 +40647,9 @@ backup_data = {
         "hp": 252,
         "at": 252,
         "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Scope Lens",
       "level": 85,
@@ -40795,9 +40795,9 @@ backup_data = {
         "hp": 252,
         "at": 252,
         "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Room Service",
       "level": 85,
@@ -40834,10 +40834,10 @@ backup_data = {
       "evs": {
         "hp": 252,
         "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 6,
+        "sp": 0
       },
       "item": "Life Orb",
       "level": 85,
@@ -41108,9 +41108,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Dusknoirite",
       "level": 85,
@@ -43380,12 +43380,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 180,
-        "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 180,
+        "sd": 0,
+        "sp": 180
       },
       "item": "Coba Berry",
       "level": "-2",
@@ -43414,12 +43414,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 180,
-        "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 180,
+        "sd": 0,
+        "sp": 180
       },
       "item": "Coba Berry",
       "level": "-2",
@@ -43448,12 +43448,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 180,
-        "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 180,
+        "sd": 0,
+        "sp": 180
       },
       "item": "Coba Berry",
       "level": "-2",
@@ -43482,12 +43482,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 180,
-        "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 180,
+        "sd": 0,
+        "sp": 180
       },
       "item": "Coba Berry",
       "level": "-2",
@@ -45019,12 +45019,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Rindo Berry",
       "level": 14,
@@ -45054,12 +45054,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Rindo Berry",
       "level": 14,
@@ -45089,12 +45089,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Rindo Berry",
       "level": 14,
@@ -45124,12 +45124,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Rindo Berry",
       "level": 14,
@@ -45198,12 +45198,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
-        "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 36,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Oran Berry",
       "level": 15,
@@ -45233,12 +45233,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
-        "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 36,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Oran Berry",
       "level": 15,
@@ -45268,12 +45268,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
-        "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 36,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Oran Berry",
       "level": 15,
@@ -45303,12 +45303,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
-        "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 36,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Oran Berry",
       "level": 15,
@@ -45376,12 +45376,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Oran Berry",
       "level": 15,
@@ -45410,12 +45410,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Oran Berry",
       "level": 15,
@@ -45444,12 +45444,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Oran Berry",
       "level": 15,
@@ -45478,12 +45478,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 36
       },
       "item": "Oran Berry",
       "level": 15,
@@ -45551,12 +45551,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 36,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Berry Juice",
       "level": 15,
@@ -45586,12 +45586,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 36,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Berry Juice",
       "level": 15,
@@ -45621,12 +45621,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 36,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Berry Juice",
       "level": 15,
@@ -45656,12 +45656,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 36,
+        "hp": 0,
         "at": 36,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 36,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Berry Juice",
       "level": 15,
@@ -48215,12 +48215,12 @@ backup_data = {
         "sp": 30
       },
       "evs": {
-        "hp": 252,
-        "at": 6,
+        "hp": 0,
+        "at": 0,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 252,
+        "sd": 6,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 47,
@@ -48252,12 +48252,12 @@ backup_data = {
         "sp": 30
       },
       "evs": {
-        "hp": 252,
-        "at": 6,
+        "hp": 0,
+        "at": 0,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 252,
+        "sd": 6,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 47,
@@ -48287,12 +48287,12 @@ backup_data = {
         "sp": 30
       },
       "evs": {
-        "hp": 252,
-        "at": 6,
+        "hp": 0,
+        "at": 0,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 252,
+        "sd": 6,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 47,
@@ -48322,12 +48322,12 @@ backup_data = {
         "sp": 30
       },
       "evs": {
-        "hp": 252,
-        "at": 6,
+        "hp": 0,
+        "at": 0,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 252,
+        "sd": 6,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 47,
@@ -48357,12 +48357,12 @@ backup_data = {
         "sp": 30
       },
       "evs": {
-        "hp": 252,
-        "at": 6,
+        "hp": 0,
+        "at": 0,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 252,
+        "sd": 6,
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 47,
@@ -53368,9 +53368,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Focus Sash",
       "level": "0",
@@ -56261,12 +56261,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 160,
-        "at": 160,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 160,
+        "sd": 0,
+        "sp": 160
       },
       "item": "Magnet",
       "level": "-3",
@@ -56295,12 +56295,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 160,
-        "at": 160,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 160,
+        "sd": 0,
+        "sp": 160
       },
       "item": "Magnet",
       "level": "-3",
@@ -56329,12 +56329,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 160,
-        "at": 160,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 160,
+        "sd": 0,
+        "sp": 160
       },
       "item": "Magnet",
       "level": "-3",
@@ -56363,12 +56363,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 160,
-        "at": 160,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 160,
+        "sd": 0,
+        "sp": 160
       },
       "item": "Magnet",
       "level": "-3",
@@ -56438,11 +56438,11 @@ backup_data = {
       },
       "evs": {
         "hp": 160,
-        "at": 160,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 160,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-2",
@@ -56472,11 +56472,11 @@ backup_data = {
       },
       "evs": {
         "hp": 160,
-        "at": 160,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 160,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-2",
@@ -56506,11 +56506,11 @@ backup_data = {
       },
       "evs": {
         "hp": 160,
-        "at": 160,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 160,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-2",
@@ -56540,11 +56540,11 @@ backup_data = {
       },
       "evs": {
         "hp": 160,
-        "at": 160,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 160,
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-2",
@@ -63537,10 +63537,10 @@ backup_data = {
       "evs": {
         "hp": 252,
         "at": 6,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Custap Berry",
       "level": "-2",
@@ -63575,10 +63575,10 @@ backup_data = {
       "evs": {
         "hp": 252,
         "at": 6,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Custap Berry",
       "level": "-2",
@@ -63609,10 +63609,10 @@ backup_data = {
       "evs": {
         "hp": 252,
         "at": 6,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Custap Berry",
       "level": "-2",
@@ -63643,10 +63643,10 @@ backup_data = {
       "evs": {
         "hp": 252,
         "at": 6,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Custap Berry",
       "level": "-2",
@@ -63677,10 +63677,10 @@ backup_data = {
       "evs": {
         "hp": 252,
         "at": 6,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 252,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Custap Berry",
       "level": "-2",
@@ -64136,11 +64136,11 @@ backup_data = {
       },
       "evs": {
         "hp": 6,
-        "at": 252,
+        "at": 0,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 252,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Coalossite",
       "level": "-1",
@@ -64174,11 +64174,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 252,
+        "sa": 0,
+        "sd": 6,
+        "sp": 0
       },
       "item": "Air Balloon",
       "level": 44,
@@ -64245,11 +64245,11 @@ backup_data = {
       },
       "evs": {
         "hp": 6,
-        "at": 252,
+        "at": 0,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 252,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Coalossite",
       "level": "-1",
@@ -65397,10 +65397,10 @@ backup_data = {
       "evs": {
         "hp": 252,
         "at": 6,
-        "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Focus Sash",
       "level": "-2",
@@ -66702,12 +66702,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 180,
+        "hp": 0,
         "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 180
       },
       "item": "Silk Scarf",
       "level": "-2",
@@ -66736,12 +66736,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 180,
+        "hp": 0,
         "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 180
       },
       "item": "Silk Scarf",
       "level": "-2",
@@ -66770,12 +66770,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 180,
+        "hp": 0,
         "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 180
       },
       "item": "Silk Scarf",
       "level": "-2",
@@ -66804,12 +66804,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 180,
+        "hp": 0,
         "at": 180,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 180
       },
       "item": "Silk Scarf",
       "level": "-2",
@@ -68236,12 +68236,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 80,
-        "at": null,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 80
       },
       "item": "Focus Sash",
       "level": "0",
@@ -68274,12 +68274,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 80,
-        "at": null,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 80
       },
       "item": "Focus Sash",
       "level": "0",
@@ -69429,12 +69429,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 80,
-        "at": null,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 80
       },
       "item": "Focus Sash",
       "level": "0",
@@ -69467,12 +69467,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 80,
-        "at": null,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 0,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 80
       },
       "item": "Focus Sash",
       "level": "0",
@@ -70218,12 +70218,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 80,
-        "at": null,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 80,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Focus Sash",
       "level": "0",
@@ -70256,12 +70256,12 @@ backup_data = {
         "sp": 31
       },
       "evs": {
-        "hp": 80,
-        "at": null,
-        "df": null,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "hp": 0,
+        "at": 80,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Focus Sash",
       "level": "0",
@@ -75448,9 +75448,9 @@ backup_data = {
         "hp": 252,
         "at": 6,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Rocky Helmet",
       "level": "-2",
@@ -75564,9 +75564,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Steelixite",
       "level": "0",
@@ -75602,9 +75602,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Steelixite",
       "level": "0",
@@ -75680,9 +75680,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Steelixite",
       "level": "0",
@@ -75718,9 +75718,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Steelixite",
       "level": "0",
@@ -79820,9 +79820,9 @@ backup_data = {
         "hp": 6,
         "at": 252,
         "df": 252,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Smooth Rock",
       "level": "-1",
@@ -80775,9 +80775,9 @@ backup_data = {
         "hp": 252,
         "at": 252,
         "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Copperajite",
       "level": "0",
@@ -80816,9 +80816,9 @@ backup_data = {
         "hp": 252,
         "at": 252,
         "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "sa": 0,
+        "sd": 0,
+        "sp": 0
       },
       "item": "Copperajite",
       "level": "0",
@@ -83100,11 +83100,11 @@ backup_data = {
       },
       "evs": {
         "hp": 252,
-        "at": 252,
-        "df": 6,
-        "sa": null,
-        "sd": null,
-        "sp": null
+        "at": 0,
+        "df": 0,
+        "sa": 6,
+        "sd": 252,
+        "sp": 0
       },
       "item": "Shuca Berry",
       "level": "-1",
