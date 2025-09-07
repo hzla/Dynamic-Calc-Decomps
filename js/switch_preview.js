@@ -58,8 +58,9 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let wins1v1 = false
 
 
-    let isFaster = defender.rawStats.spe > attacker.rawStats.spe
+    let isFaster = defender.rawStats.spe > p1RawSpeed
     let movesFirst = false
+
 
 
 
@@ -195,8 +196,7 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
     let debug = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill, attackerFastestPrioKill: attackerFastestPrioKill, isFaster: isFaster, movesFirst: movesFirst}
     
-    console.log(defender.name)
-    console.log(debug)
+    // console.log(debug)
     
     // console.log(`${defender.name} using ${bestMove} kills in ${defenderFastestKill}`)
     // console.log(`${attacker.name} kills in ${attackerFastestKill}`)
@@ -206,7 +206,6 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
     disableKOChanceCalcs = false
     return matchupData
 }
-
 
 function get_next_in() {  
     if (typeof CURRENT_TRAINER_POKS === "undefined") {
@@ -227,6 +226,8 @@ function get_next_in() {
     var p1info = $("#p1");
     var p2info = $("#p2");
     var p1 = createPokemon(p1info);
+
+    p1RawSpeed = parseInt($('#p1 .totalMod').text())
 
     var p1field = createField();
     var p2field = p1field.clone().swap();

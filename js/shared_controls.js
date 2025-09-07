@@ -1175,9 +1175,6 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			var stat_abvs = {"hp": "hp", "atk": "at", "def": "df", "spa": "sa", "spd": "sd", "spe": "sp"}
 			for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
 				var stat = legacyStatToStat(LEGACY_STATS[gen][i]);
-				
-				console.log(stat)
-				console.log(pokedex['Rotom']['bs'][stat_abvs[stat]]) 
 				baseStats[stat === 'spc' ? 'spa' : stat] = pokedex['Rotom']['bs'][stat_abvs[stat]];
 				~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .base").val(pokedex['Rotom']['bs'][stat_abvs[stat]])
 				ivs[stat] = gen > 2 ? ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .ivs").val() : ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .dvs").val() * 2 + 1;
@@ -1193,6 +1190,8 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 				boosts[stat] = ~~pokeInfo.find("." + LEGACY_STATS[gen][i] + " .boost").val();
 			}
 		}
+
+
 
 		if (ignoreStatMods) {
 			boosts = {};

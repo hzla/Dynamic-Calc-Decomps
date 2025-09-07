@@ -58,6 +58,10 @@ function performCalculations() {
 	}
 
 	p1info.find(".sp .totalMod").text(p1.stats.spe);
+	p1info.find(".at .total").text(p1.stats.atk);
+	p1info.find(".df .total").text(p1.stats.def);
+	p1info.find(".sa .total").text(p1.stats.spa);
+	p1info.find(".sd .total").text(p1.stats.spd);
 
 	p2info.find(".sp .totalMod").text(p2.stats.spe);
 	var fastestSide = p1.stats.spe > p2.stats.spe ? 0 : p1.stats.spe === p2.stats.spe ? "tie" : 1;
