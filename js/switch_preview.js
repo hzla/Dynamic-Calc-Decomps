@@ -77,10 +77,18 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
         if (turnsToKill == 1) {
             isRevenge = true
+
+            if (move.priority) {
+                defenderBestMoveHasPrio = true
+            }
         }
 
         if (turnsToKill == 2) {
             isThreaten = true
+
+            if (move.priority && defenderFastestKill >= 2) {
+                defenderBestMoveHasPrio = true
+            }
         }
 
         if (turnsToKill < defenderFastestKill) {
@@ -125,12 +133,16 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
     // if both or neither have prio speed is based on raw stats otherwise set whichever side has prio as faster
     // if ((!attackerBestMoveHasPrio && !defenderBestMoveHasPrio) || (attackerBestMoveHasPrio && defenderBestMoveHasPrio)) {
     isFaster = defender.rawStats.spe > attacker.rawStats.spe
+
+    if (defenderBestMoveHasPrio) {
+        isFaster = true
+    }
     // } else if (defenderBestMoveHasPrio) { 
     //     isFaster = true
     // }
 
-    console.log(`${defender.name} using ${bestMove} kills in ${defenderFastestKill}`)
-    console.log(`${attacker.name} kills in ${attackerFastestKill}`)
+    // console.log(`${defender.name} using ${bestMove} kills in ${defenderFastestKill}`)
+    // console.log(`${attacker.name} kills in ${attackerFastestKill}`)
 
     if (isFaster) {
         defenderFastestKill -= 1
