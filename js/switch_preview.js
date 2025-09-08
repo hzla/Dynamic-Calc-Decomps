@@ -333,17 +333,17 @@ function get_next_in() {
                 switchInScore += sub_index / 100
             }
 
-            analysis += `<br><div class='bp-info switch-info'>P-KO: ${Math.round(switchInScore * 100) / 100 }</div>` 
-
             if (pok_name.includes("-Mega")) {
-                switchInScore -= 30000
+                switchInScore -= 100000
             }
 
             // Set ace to last or second to last if mega
             if (pok_data["ai_tags"] && pok_data["ai_tags"].includes("Ace Pokemon") && (pok_data.sub_index == trainer_poks.length - 2))  {
                 analysis += `<div class='bp-info switch-info'>Ace</div>` 
-                switchInScore -= 25000
+                switchInScore -= 50000
             }
+
+            analysis += `<br><div class='bp-info switch-info switch-score'>${Math.round(switchInScore * 100) / 100 }</div>` 
         }
         ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis])
     }
@@ -356,6 +356,31 @@ function get_next_in() {
     
     console.log(ranked_trainer_poks)
     return ranked_trainer_poks
+}
+
+function simplifySwitchScores() {
+    let scores = $('.switch-score')
+    let rawScores = []
+
+    scores.each(function() {
+        let score = parseInt($(this).text())
+        rawScores.push(score)
+    })
+
+    rawScores = rawScores.sort((a,b) => b - a)
+
+    scores.each(function() {
+        let score = parseInt($(this).text())
+        let order = rawScores.indexOf(score)
+        
+        if (score < -50000) {
+            $(this).text(`Mega Form`)
+        } else if ((score < 0) ) {
+            $(this).text(`Ace`)
+        } else {
+           $(this).text(`Order: ${order + 1}`) 
+        }        
+    })
 }
 
 // sort by switch in score, break ties on trainer order

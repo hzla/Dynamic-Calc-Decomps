@@ -24,6 +24,11 @@ function load_js() {
   if (typeof localStorage.themeIndex === 'undefined') {
     localStorage.themeIndex = 1
   }
+
+  if (typeof localStorage.lvlCap != 'undefined') {
+    $('#lvl-cap').val(localStorage.lvlCap)
+  }
+
   localStorage.toDelete = ""
 
   if (parseInt(localStorage.themeIndex) == 0) {

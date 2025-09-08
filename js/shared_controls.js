@@ -599,6 +599,9 @@ function refresh_next_in() {
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
 
+	if (noSwitch != "1") {
+		simplifySwitchScores()
+	}
 }
 
 
@@ -1127,18 +1130,19 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			});
 		}
 
+		let tmpLvl = set.level
 
 		if (parseInt(set.level) < 1) {
 			console.log("adjusting to level cap for pokemon creation")
 			if ($('#lvl-cap').val() != "") {
-				set.level = parseInt($('#lvl-cap').val()) + set.sublevel
+				tmpLvl = parseInt($('#lvl-cap').val()) + set.sublevel
 			} else {
-				set.level = parseInt($('#levelR1').val()) + set.sublevel
+				tmpLvl = parseInt($('#levelR1').val()) + set.sublevel
 			}	
 		}
 
 		return new calc.Pokemon(gen, name, {
-			level: set.level,
+			level: tmpLvl,
 			ability: set.ability,
 			abilityOn: true,
 			item: set.item && typeof set.item !== "undefined" && (set.item === "Eviolite" || set.item.indexOf("ite") < 0) ? set.item : "",

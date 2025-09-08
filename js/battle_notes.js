@@ -207,6 +207,8 @@ document.addEventListener(
     (event) => {
       const defaultViewportContent = 'width=device-width, initial-scale=1.0'
 
+      localStorage.lvlCap = $('#lvl-cap').val()
+
       const isRelevantElement =
         event.target instanceof Element &&
           (['input', 'textarea', 'select'].includes(
