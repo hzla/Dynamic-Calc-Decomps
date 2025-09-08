@@ -309,7 +309,7 @@ function get_next_in() {
                     analysis += "<div class='bp-info switch-info'>Slow 2Hko</div>" 
                 // good matchup
                 } else if (type_matchup < 2) {
-                    "<div class='bp-info switch-info'>Good MU</div>" 
+                    analysis += "<div class='bp-info switch-info'>Good MU</div>" 
                     switchInScore += 4000 * (2 - type_matchup)
                 // wins 1v1
                 } else {
