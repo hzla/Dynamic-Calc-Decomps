@@ -5585,63 +5585,63 @@ var XY_PATCH = {
     'Luxray-Mega': {
         types: ['Electric', 'Dark'],
         bs: { hp: 95, at: 130, df: 79, sa: 110, sd: 79, sp: 130 },
-        weightkg: 185,
+        weightkg: 46,
         abilities: { 0: 'Strong Jaw' },
         baseSpecies: 'Luxray'
     },
     'Infernape-Mega': {
         types: ['Fire', 'Fighting'],
         bs: { hp: 76, at: 137, df: 71, sa: 137, sd: 71, sp: 142 },
-        weightkg: 185,
+        weightkg: 70,
         abilities: { 0: 'Adaptability' },
         baseSpecies: 'Infernape'
     },
     'Torterra-Mega': {
         types: ['Grass', 'Ground'],
         bs: { hp: 115, at: 139, df: 135, sa: 75, sd: 105, sp: 56 },
-        weightkg: 185,
+        weightkg: 310,
         abilities: { 0: 'Ice Eater' },
         baseSpecies: 'Torterra'
     },
     'Roserade-Mega': {
         types: ['Grass', 'Poison'],
         bs: { hp: 60, at: 70, df: 85, sa: 150, sd: 120, sp: 130 },
-        weightkg: 185,
+        weightkg: 20,
         abilities: { 0: 'Technician' },
         baseSpecies: 'Roserade'
     },
     'Empoleon-Mega-O': {
         types: ['Water', 'Steel'],
         bs: { hp: 100, at: 150, df: 75, sa: 110, sd: 75, sp: 120 },
-        weightkg: 185,
+        weightkg: 84.5,
         abilities: { 0: "Emperor's Prescence" },
         baseSpecies: 'Empoleon'
     },
     'Empoleon-Mega-D': {
         types: ['Water', 'Steel'],
         bs: { hp: 140, at: 75, df: 145, sa: 75, sd: 145, sp: 50 },
-        weightkg: 185,
+        weightkg: 160,
         abilities: { 0: "Lightning Rod" },
         baseSpecies: 'Empoleon'
     },
     'Dusknoir-Mega': {
         types: ['Ghost', 'Dark'],
         bs: { hp: 105, at: 110, df: 150, sa: 65, sd: 150, sp: 45 },
-        weightkg: 185,
+        weightkg: 106.6,
         abilities: { 0: 'Prankster' },
         baseSpecies: 'Dusknoir'
     },
     'Grimmsnarl-Mega': {
         types: ['Dark', 'Fairy'],
         bs: { hp: 115, at: 100, df: 95, sa: 145, sd: 95, sp: 60 },
-        weightkg: 185,
+        weightkg: 61,
         abilities: { 0: 'Sheer Force' },
         baseSpecies: 'Grimmsnarl'
     },
     'Slaking-Mega': {
         types: ['Normal'],
         bs: { hp: 150, at: 160, df: 110, sa: 60, sd: 110, sp: 110 },
-        weightkg: 185,
+        weightkg: 130.5,
         abilities: { 0: 'Comatose' },
         baseSpecies: 'Slaking'
     },
