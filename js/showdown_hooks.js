@@ -17,18 +17,16 @@ function load_js() {
   partner_name = null
 
 
-  // local storage settings
+  // local storage settings defaults
   if (typeof localStorage.boxspriteindex === 'undefined') {
     localStorage.boxspriteindex = 1
   }
   if (typeof localStorage.themeIndex === 'undefined') {
     localStorage.themeIndex = 1
   }
-
   if (typeof localStorage.lvlCap != 'undefined') {
     $('#lvl-cap').val(localStorage.lvlCap)
   }
-
   localStorage.toDelete = ""
 
   if (parseInt(localStorage.themeIndex) == 0) {
@@ -61,7 +59,25 @@ function load_js() {
   if (localStorage.notes) {
     $('#battle-notes .notes-text').html(localStorage.notes);
   }
+
+  setSettingsTogglesFromLocalStorage()
 }
+
+function setSettingsTogglesFromLocalStorage() {
+    if (sprite_style == "pokesprite") {
+        $('#sprite-toggle input').prop('checked', true)
+    }
+    if (localStorage.themeIndex == '1') {
+        $('#theme-toggle input').prop('checked', true)
+    }
+    if (localStorage.boxrolls == '1') {
+        $('#toggle-boxroll input').prop('checked', true)
+    }
+    if (localStorage.battlenotes == '1') {
+        $('#toggle-battle-notes input').prop('checked', true)
+    }
+}
+
 
 function cleanString(str) {str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()};
 
@@ -1494,7 +1510,7 @@ $(document).ready(function() {
    })
 
    $(document).on('click', '#open-menu, #settings-menu div', function() {
-        $('#settings-menu').toggle()
+        // $('#settings-menu').toggle()
    })
 
    $(document).on('keyup', '#search-box', filter_box)
