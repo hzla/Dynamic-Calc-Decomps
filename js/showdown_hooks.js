@@ -1014,7 +1014,7 @@ function toggleBoxSpriteStyle() {
     })
 }
 
-$('#theme-toggle').click(toggleThemes)
+$('#theme-toggle .slider').click(toggleThemes)
 
 function toggleThemes() {
     var oldStyle = themes[parseInt(localStorage.themeIndex)]
@@ -1029,7 +1029,7 @@ function toggle_box_rolls() {
     localStorage.boxrolls = (parseInt(localStorage.boxrolls) + 1) % 2   
 }
 
-$('#toggle-boxroll').click(function(){
+$('#toggle-boxroll .slider').click(function(){
     toggle_box_rolls()
     $('#player-poks-filter').toggle()
     if ($('#player-poks-filter:visible').length > 0) {
@@ -1037,7 +1037,7 @@ $('#toggle-boxroll').click(function(){
     }
 })
 
-$('#toggle-battle-notes').click(function(){
+$('#toggle-battle-notes .slider').click(function(){
     localStorage.battlenotes = (parseInt(localStorage.battlenotes) + 1) % 2   
     $('.poke-import').first().toggle()
 })
@@ -1504,7 +1504,7 @@ $(document).ready(function() {
         $('.opposing').change()
    })
 
-   $(document).on('click', '#show-mid', function() {
+   $(document).on('click', '#show-mid .slider', function() {
         $('.panel-mid').toggle()
         $('.panel:not(.panel-mid)').toggleClass('third')
    })
@@ -1775,15 +1775,9 @@ $(document).ready(function() {
         window.location.href = url;
    })
 
-   $(document).on('click', '#sprite-toggle', function() {
+   $(document).on('click', '#sprite-toggle label', function() {
         toggleBoxSpriteStyle()
-
    })
-
-
-
-
-
 
 $('.set-selector, .move-selector').on("select2-close", function () {
     setTimeout(function() {
