@@ -1509,8 +1509,8 @@ $(document).ready(function() {
         $('.panel:not(.panel-mid)').toggleClass('third')
    })
 
-   $(document).on('click', '#open-menu, #settings-menu div', function() {
-        // $('#settings-menu').toggle()
+   $(document).on('click', '#open-menu', function() {
+        $('#settings-menu').toggle()
    })
 
    $(document).on('keyup', '#search-box', filter_box)
