@@ -268,7 +268,7 @@ function get_next_in() {
 
         matchup = {}
 
-        analysis += `<div class='bp-info switch-info'>Type MU: ${type_matchup}</div><br>` 
+        analysis += `<div class='bp-info switch-info mu-info'>Type MU: ${type_matchup}</div>` 
 
 
 
@@ -343,7 +343,7 @@ function get_next_in() {
                 switchInScore -= 50000
             }
 
-            analysis += `<br><div class='bp-info switch-info switch-score'>${Math.round(switchInScore * 100) / 100 }</div>` 
+            analysis += `<div class='bp-info switch-info switch-score'>${Math.round(switchInScore * 100) / 100 }</div>` 
         }
         ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis])
     }
@@ -378,7 +378,7 @@ function simplifySwitchScores() {
         } else if ((score < 0) ) {
             $(this).text(`Ace`)
         } else {
-           $(this).text(`Order: ${order + 1}`) 
+           $(this).text(`Post KO: ${order + 1}`) 
         }        
     })
 }

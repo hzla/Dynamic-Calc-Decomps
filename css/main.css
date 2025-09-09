@@ -1022,6 +1022,10 @@ table td {
     color: #bb86fc;
 }
 
+.mu-info, .switch-score {
+    margin: 10px 0px;
+}
+
 #p1 .bp-info {
     font-size: 12px;
 }
