@@ -112,7 +112,8 @@ function performCalculations() {
 		if (moveProbabilities[i] != 0 && damageGen >= 8) {
 			
 			if (!is100) {
-				var probability = `  (${(Math.round(moveProbabilities[i] * 1000) / 10).toString()}% top roll)` 
+				// var probability = `  (${(Math.round(moveProbabilities[i] * 1000) / 10).toString()}% top roll)` 
+				probability = ""
 				if (moveProbabilities[i] == 1) {
 					is100 = true
 				}
