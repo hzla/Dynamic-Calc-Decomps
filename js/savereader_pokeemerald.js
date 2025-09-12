@@ -142,23 +142,29 @@ document.getElementById('save-upload').addEventListener('change', function(event
                     let exp = [decrypted[growth_index * 3 + 1]] & 0x1FFFFF
                     let gr = 0
 
-                    
-                    if (typeof learnsets[speciesNameId] == "undefined") {
-                        speciesName = speciesName.split("-").slice(0,2).join("-")
-                        speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
-                    } 
-
-                    if (typeof learnsets[speciesNameId] == "undefined") {
-                        speciesName = speciesName.split("-")[0]
-                        speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
-                    } 
-
-
-                    if (typeof learnsets[speciesNameId] == "undefined") {
-                        console.log(`can't find growth for ${speciesName}`)
+                    // todo consolidate files
+                    if (em_imp_primary_mons[speciesName] && em_imp_primary_mons[speciesName]["gr"]) {
+                        gr =  em_imp_primary_mons[speciesName]["gr"]
                     } else {
-                        gr = learnsets[speciesNameId].gr 
+                        if (typeof learnsets[speciesNameId] == "undefined") {
+                            speciesName = speciesName.split("-").slice(0,2).join("-")
+                            speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
+                        } 
+
+                        if (typeof learnsets[speciesNameId] == "undefined") {
+                            speciesName = speciesName.split("-")[0]
+                            speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
+                        } 
+
+
+                        if (typeof learnsets[speciesNameId] == "undefined") {
+                            console.log(`can't find growth for ${speciesName}`)
+                        } else {
+                            gr = learnsets[speciesNameId].gr 
+                        }
                     }
+                    
+                    
 
 
 
