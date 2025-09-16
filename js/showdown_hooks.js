@@ -1714,7 +1714,7 @@ $(document).ready(function() {
             if (partner_name) {
                 partner_name = partner_name.replace(/\s?\)/, "").replace(/\s$/, "")
             }
-            $('#set-partner').text(`Partner: ${partner_name}`)
+            $('#set-partner').text(`Partner: ${partner_name}`.slice(0,34))
 
             alert(`${partner_name} set as doubles partner for next trainer selected`)   
         }
