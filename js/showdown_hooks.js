@@ -1704,54 +1704,59 @@ $(document).ready(function() {
    })
 
 
+   function setPartner() {
+        if (partner_name) {
+            partner_name = null
+            $('#set-partner').text('Toggle as Partner')
+            alert("Partner trainer cleared")
+        } else {
+            partner_name = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
+            if (partner_name) {
+                partner_name = partner_name.replace(/\s?\)/, "").replace(/\s$/, "")
+            }
+            $('#set-partner').text(`Partner: ${partner_name}`)
+
+            alert(`${partner_name} set as doubles partner for next trainer selected`)   
+        }
+    }
+
+    $(document).on('click', '#set-partner', setPartner)
 
 
 
 
     $(document).keydown(async function (e) {
-    if ($('.select2-drop-active:visible').length == 0 && 
-        document.activeElement != $('textarea.import-team-text')[0] && 
-        $('.pokemon-filter:visible').length === 0 && 
-        document.activeElement != $('#battle-notes .notes-text')[0]) {
-        
-
-        if ((e.altKey || e.metaKey) && (e.key == "f" || e.key == "ƒ")){ 
-            e.preventDefault()
-            $('.panel-mid').toggle()
-            $('.panel:not(.panel-mid)').toggleClass('third')
-        } else if ((e.altKey || e.metaKey) && (e.key == "b" || e.key == "∫") && saveUploaded && (baseGame == "Pt" || baseGame == "HGSS")) {
-            e.preventDefault()
-            if (confirm("Put full party to sleep?")) {
-                bedtime()
-            }
-        } else if (e.altKey && e.key == "c" || e.key == "ç") {
-            console.log("asdf")
-            e.preventDefault()
-            $("#critR1")[0].checked = !$("#critR1")[0].checked
-            $("#critR2")[0].checked = !$("#critR2")[0].checked
-            $("#critR3")[0].checked = !$("#critR3")[0].checked
-            $("#critR4")[0].checked = !$("#critR4")[0].checked
-            $('#resultDamageR1, #resultDamageR2, #resultDamageR3, #resultDamageR4').toggleClass('crit-text')
-            $('.move-crit').last().change()
-        } else if (e.altKey && e.key == "s" || e.key == "ß") {
-            toggleBoxSpriteStyle()
-        } else if (e.altKey && e.key == "p" || e.key == "π") {
-            if (partner_name) {
-                partner_name = null
-                alert("Partner trainer cleared")
-            } else {
-                partner_name = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
-                if (partner_name) {
-                    partner_name = partner_name.replace(/\s?\)/, "").replace(/\s$/, "")
-                }
-                alert(`${partner_name} set as doubles partner for next trainer selected`)   
-            }
-
+        if ($('.select2-drop-active:visible').length == 0 && 
+            document.activeElement != $('textarea.import-team-text')[0] && 
+            $('.pokemon-filter:visible').length === 0 && 
+            document.activeElement != $('#battle-notes .notes-text')[0]) {
             
-        }
-    }
 
-})
+            if ((e.altKey || e.metaKey) && (e.key == "f" || e.key == "ƒ")){ 
+                e.preventDefault()
+                $('.panel-mid').toggle()
+                $('.panel:not(.panel-mid)').toggleClass('third')
+            } else if ((e.altKey || e.metaKey) && (e.key == "b" || e.key == "∫") && saveUploaded && (baseGame == "Pt" || baseGame == "HGSS")) {
+                e.preventDefault()
+                if (confirm("Put full party to sleep?")) {
+                    bedtime()
+                }
+            } else if (e.altKey && e.key == "c" || e.key == "ç") {
+                console.log("asdf")
+                e.preventDefault()
+                $("#critR1")[0].checked = !$("#critR1")[0].checked
+                $("#critR2")[0].checked = !$("#critR2")[0].checked
+                $("#critR3")[0].checked = !$("#critR3")[0].checked
+                $("#critR4")[0].checked = !$("#critR4")[0].checked
+                $('#resultDamageR1, #resultDamageR2, #resultDamageR3, #resultDamageR4').toggleClass('crit-text')
+                $('.move-crit').last().change()
+            } else if (e.altKey && e.key == "s" || e.key == "ß") {
+                toggleBoxSpriteStyle()
+            } else if (e.altKey && e.key == "p" || e.key == "π") {
+                setPartner()       
+            }
+        }
+    })
 
     $(document).keydown(function(e) {
         var keyCode = e.keyCode || e.which;

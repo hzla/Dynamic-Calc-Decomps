@@ -128,7 +128,7 @@ input[type="file"] {
     display: none;
 }
 
-#ai-tags, #player-tags {
+#ai-tags, #player-tags, #mobile-tags {
     position: absolute;
     display: flex;
     top: 71px;
@@ -154,7 +154,7 @@ input[type="file"] {
     min-height: 100px;
 }
 
-#ai-tags, #nav-tags {
+#ai-tags, #nav-tags, #mobile-tags {
     position: absolute;
     display: flex;
     top: 71px;
@@ -166,7 +166,7 @@ input[type="file"] {
 
 
 
-#ai-tags div, #nav-tags div,  #learnset-show, #box-remove, #save-pok, #add-party-pok, #met-loc, #frag-count {
+#ai-tags div, #nav-tags div, #mobile-tags div, #learnset-show, #box-remove, #save-pok, #add-party-pok, #met-loc, #frag-count {
     line-height: 20px;
     margin-right: 10px;
     color: #bb86fc;
@@ -1800,8 +1800,12 @@ table.field {
         width: 160px;
     }
 
-    #ai-tags div {
+    #ai-tags div:not(#partner) {
         display: none !important;
+    }
+
+    #mobile-tags div {
+        display: block;
     }
 
     .panel-wrapper {
@@ -1822,8 +1826,8 @@ table.field {
         display: none;
     }
 
-    #footer {
-        display: none;
+    #footer, #met-loc, #frag-count {
+        display: none !important;
     }
 
     .panel-mid .btn-wide, .panel-mid .btn-xwide {
@@ -1836,7 +1840,7 @@ table.field {
         font-size: 24px;
     }
 
-    #player-tags div, #nav-tags div {
+    #player-tags div, #nav-tags div, #mobile-tags div {
         height: 40px;
         font-size: 18px;
         line-height: 40px;
@@ -1931,7 +1935,7 @@ table.field {
         line-height: 80px;
     }
 
-    #player-tags {
+    #player-tags, #mobile-tags {
         top: 112px;
         left: 10px;
     }

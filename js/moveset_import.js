@@ -742,8 +742,8 @@ function addToDex(poke) {
 
 
 	if (isInt(poke.ability)) {
-		console.log("ability updated")
-		dexObject.ability = pokedex[poke.name]['abilities'][parseInt(poke.ability)]
+		console.log(`cannot find ability for ${poke.name}`)
+		// dexObject.ability = pokedex[poke.name]['abilities'][parseInt(poke.ability)]
 	}
 	
 

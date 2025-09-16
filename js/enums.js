@@ -45,6 +45,9 @@ natMods = {
   Quirky: { plus: 'atk', minus: 'atk' }
 };
 
+allTypes = ["None", "Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Mystery", "Fire", "Water","Grass","Electric","Psychic","Ice","Dragon","Dark", "Fairy", "Stellar"]
+
+
 
 
 natures = ["Hardy",
