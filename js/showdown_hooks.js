@@ -1623,6 +1623,12 @@ $(document).ready(function() {
         }
     })
 
+    $(document).on('click', '#add-party-pok', function() {
+        var currentPok = $('.set-selector')[1].value
+        $(`[data-id="${currentPok}"]`).trigger('contextmenu')
+    })
+
+
 
    $(document).on('contextmenu', '.trainer-pok.left-side', function(e) {
         e.preventDefault()
