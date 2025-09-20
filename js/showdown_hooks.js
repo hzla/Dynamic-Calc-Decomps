@@ -21,6 +21,11 @@ function load_js() {
   if (typeof localStorage.boxspriteindex === 'undefined') {
     localStorage.boxspriteindex = 1
   }
+
+  if (typeof localStorage.watchSaveFile === 'undefined') {
+    localStorage.watchSaveFile = 1
+  }
+
   if (typeof localStorage.themeIndex === 'undefined') {
     localStorage.themeIndex = 1
   }
@@ -67,6 +72,9 @@ function setSettingsTogglesFromLocalStorage() {
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
     }
+    if (localStorage.watchSaveFile == "1") {
+        $('#save-toggle input').prop('checked', true)
+    }
     if (localStorage.themeIndex == '1') {
         $('#theme-toggle input').prop('checked', true)
     }
@@ -76,6 +84,9 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.battlenotes == '1') {
         $('#toggle-battle-notes input').prop('checked', true)
     }
+
+
+
 }
 
 
@@ -1040,6 +1051,10 @@ $('#toggle-boxroll .slider').click(function(){
 $('#toggle-battle-notes .slider').click(function(){
     localStorage.battlenotes = (parseInt(localStorage.battlenotes) + 1) % 2   
     $('.poke-import').first().toggle()
+})
+
+$('#save-toggle .slider').click(function(){
+    localStorage.watchSaveFile = (parseInt(localStorage.watchSaveFile) + 1) % 2;   
 })
 
 function construct_type_chart() {

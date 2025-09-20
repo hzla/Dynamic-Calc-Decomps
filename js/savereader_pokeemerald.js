@@ -3,311 +3,376 @@ $('#read-save').click(function(){
     $('#save-upload')[0].value = null
 })
 
-document.getElementById('save-upload').addEventListener('change', function(event) {
-    const file = event.target.files[0];
-    if (file) {
-        const reader = new FileReader();
-        saveFileName = $('#save-upload').val().split("\\").pop()
-        savExt = saveFileName.slice(-3)
-
-        reader.onload = function(e) {
-            // Convert the binary string to ArrayBuffer for easier access
-            const buffer = e.target.result;
-            view = new Uint8Array(buffer);
-            saveFile = new DataView(buffer);
-            saveUploaded = true;
+let fileHandle = null;
+let lastContents = null;
+let file = null
 
 
-            let lvlCap = $('#lvl-cap').val()  || 1
+if ('showOpenFilePicker' in window && localStorage.watchSaveFile == '1') {
+    saveOpenSelector = 'read-save'
+    saveOpenEvent = 'click' 
+} else {
+    saveOpenSelector = 'save-upload'
+    saveOpenEvent = 'change' 
+}
 
-            changelog = "<h4>Changelog:</h4>"
-            changelog += `<p>${saveFileName} loaded</p>`
-            if ($('#changelog').length == 0) {
-               $('#clearSets').after("<p id='changelog'></p>") 
+document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, function(event) {
+    (async () => {
+
+        // Try to get a persistent handle via File System Access API (if supported)
+        if ('showOpenFilePicker' in window && localStorage.watchSaveFile == '1') {
+            try {
+                [fileHandle] = await window.showOpenFilePicker({
+                    types: [{
+                        description: 'Save Files',
+                        accept: { 'application/octet-stream': ['.sav'] }
+                    }]
+                });
+            } catch (err) {
+                console.warn("User cancelled file handle selection, falling back to input-only mode.");
+                fileHandle = null;
             }
-            $('#changelog').html(changelog).show()
-            
+            file = await fileHandle.getFile();
+        } else {
+            file = event.target.files[0];
+        }
 
-            save_index_a_offset = 0xffc
-            save_block_b_offset = 0x00E000
-            trainer_id_offset = 0xa
-            save_index_b_offset = save_block_b_offset + save_index_a_offset
+        if (file) {
+            const reader = new FileReader();
+            saveFileName = $('#save-upload').val().split("\\").pop()
+            savExt = saveFileName.slice(-3)
 
-            const save_index_a = saveFile.getUint16(save_index_a_offset, true)
-            const save_index_b = saveFile.getUint16(save_index_b_offset, true)
-            var block_offset = 0
-
-
-            if (save_index_b > save_index_a || save_index_a == 65535) {
-                 block_offset = save_block_b_offset
-            }
-
-            var save_index = Math.max(save_index_a, save_index_b)
-            if (save_index_b == 65535) {save_index = save_index_a }
-            if (save_index_a == 65535) { save_index = save_index_b }
-
-            const rotation = (save_index % 14) 
-            const total_offset = rotation * 4096
-
-            let offset = 0;
-            const magicValue = 0x0202;
-
-            let pokCount = 0
+            reader.onload = function(e) {
+                console.log("reloading new save file")
+                // Convert the binary string to ArrayBuffer for easier access
+                const buffer = e.target.result;
+                view = new Uint8Array(buffer);
+                saveFile = new DataView(buffer);
+                saveUploaded = true;
 
 
-            let lastFoundAt = 0
+                let lvlCap = $('#lvl-cap').val()  || 1
 
-            let showdownText = ""
+                const now = new Date();
+                const timeString = now.toLocaleTimeString([], {
+                  hour: '2-digit',
+                  minute: '2-digit',
+                  second: '2-digit',
+                  hour12: true
+                });
 
-            while (offset < saveFile.byteLength - 1) { 
-                const value = saveFile.getUint16(offset, true); 
+                changelog = "<h4>Changelog:</h4>"
+                changelog += `<p>${saveFileName} loaded at ${timeString}</p>`
+                if ($('#changelog').length == 0) {
+                   $('#clearSets').after("<p id='changelog'></p>") 
+                }
+                $('#changelog').html(changelog).show()
                 
-                if (value === magicValue) {
-                    lastFoundAt = offset
 
-                    // move back 18 bytes and get PID, TID, and custom nature info
-                    offset -= 18
-                    let pid = saveFile.getUint32(offset, true)
-                    offset += 4
-                    let tid = saveFile.getUint32(offset, true)
-                    offset += 4
+                save_index_a_offset = 0xffc
+                save_block_b_offset = 0x00E000
+                trainer_id_offset = 0xa
+                save_index_b_offset = save_block_b_offset + save_index_a_offset
 
-
-                    let nn = ""
-
-                    for (let i = 0; i <10; i++) {
-                        let letter = gen3TextTable[saveFile.getUint8(offset + i, true)] || ""
-                        nn += letter
-                    }
+                const save_index_a = saveFile.getUint16(save_index_a_offset, true)
+                const save_index_b = saveFile.getUint16(save_index_b_offset, true)
+                var block_offset = 0
 
 
-                    // let moddedNature = (saveFile.getUint16(offset, true) >> 13) && 0b11111
+                if (save_index_b > save_index_a || save_index_a == 65535) {
+                     block_offset = save_block_b_offset
+                }
 
-                    // substructs are scrambled according to PID
-                    let suborder = orderFormats[pid % 24]
-                   
+                var save_index = Math.max(save_index_a, save_index_b)
+                if (save_index_b == 65535) {save_index = save_index_a }
+                if (save_index_a == 65535) { save_index = save_index_b }
 
-                    let key = pid ^ tid
-                    let decrypted = []
+                const rotation = (save_index % 14) 
+                const total_offset = rotation * 4096
+
+                let offset = 0;
+                const magicValue = 0x0202;
+
+                let pokCount = 0
 
 
-                    offset = lastFoundAt + 14
+                let lastFoundAt = 0
 
-                    // decrypt substructs
-                    for (let i = 0; i <= 11; i++) {
-                        let block = saveFile.getUint32(offset , true) ^ key
-                        decrypted.push(block)
+                let showdownText = ""
+
+                while (offset < saveFile.byteLength - 1) { 
+                    const value = saveFile.getUint16(offset, true); 
+                    
+                    if (value === magicValue) {
+                        lastFoundAt = offset
+
+                        // move back 18 bytes and get PID, TID, and custom nature info
+                        offset -= 18
+                        let pid = saveFile.getUint32(offset, true)
                         offset += 4
-                    }
-
-                    let growth_index = suborder.indexOf(1)
-                    let moves_index = suborder.indexOf(2)
-                    let evs_index = suborder.indexOf(3)
-                    let misc_index = suborder.indexOf(4)
+                        let tid = saveFile.getUint32(offset, true)
+                        offset += 4
 
 
-                    // get Species
-                    let speciesId = [decrypted[growth_index * 3]] & 0x07FF
-                    // for Inclement Emerald
-                    if (TITLE.includes("Inclement") && speciesId > 899) {
-                        speciesId += 7
-                    }
-                    let speciesName = emImpMons[speciesId]
+                        let nn = ""
 
-
-                    
-
-
-
-                    // Skip if species id out of bounds
-                    if (!speciesName || speciesName == "None") {
-                        offset = lastFoundAt + 2
-                        continue
-                    }
-
-
-                    // Try Substitute Spaces for Dashes if pokemon name doesn't exist
-
-                    if (!pokedex[speciesName]) {
-       
-                        speciesName = speciesName.replaceAll(" ", "-")
-                    }
-
-                    // get Item
-                    let itemId = [decrypted[growth_index * 3]] >> 16 & 0x07FF
-
-
-                    // get Level
-                    let speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
-                    let exp = [decrypted[growth_index * 3 + 1]] & 0x1FFFFF
-                    let gr = 0
-
-                    // todo consolidate files
-                    if (em_imp_primary_mons[speciesName] && em_imp_primary_mons[speciesName]["gr"]) {
-                        gr =  em_imp_primary_mons[speciesName]["gr"]
-                    } else {
-                        if (typeof learnsets[speciesNameId] == "undefined") {
-                            speciesName = speciesName.split("-").slice(0,2).join("-")
-                            speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
-                        } 
-
-                        if (typeof learnsets[speciesNameId] == "undefined") {
-                            speciesName = speciesName.split("-")[0]
-                            speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
-                        } 
-
-
-                        if (typeof learnsets[speciesNameId] == "undefined") {
-                            console.log(`can't find growth for ${speciesName}`)
-                        } else {
-                            gr = learnsets[speciesNameId].gr 
-                        }
-                    }
-                    
-                    
-
-
-
-                    
-          
-
-                    
-                    if (typeof gr == "unefined") {
-                       console.log(learnsets[speciesNameId])
-                       console.log(`${speciesNameId} growth not found`)
-                       gr = 0 
-                    }
-
-
-                    
-
-                    let level = get_level(expTables[gr], exp)
-
-
-                    let nn11 = gen3TextTable[decrypted[growth_index * 3 + 1] >> 21 & 0xFF] || ""
-                    let nn12 = gen3TextTable[decrypted[growth_index * 3 + 2] >> 14 & 0xFF] || ""
-
-                    nn += nn11
-                    nn += nn12
-
-                    met = locations["EM"][decrypted[misc_index * 3] >> 8 & 0xFF] 
-
-
-
-                    // console.log(nn)
-                    
-                    // get nature
-                    let monNature = 0
-                    if (TITLE.includes("Inclement")) {
-                        let natureByte = [decrypted[misc_index * 3]] >> 16 & 0x07FF
-                        monNature = natures[natureByte & 31744 >> 10]   
-                    } else {
-                        monNature = natures[pid % 25]
-                        // if (moddedNature <= 26) {
-                        //     monNature = natures[moddedNature]
-                        // }
-                    }
-
-                    // get evs
-                    let int1 = decrypted[evs_index * 3]
-                    let int2 = decrypted[evs_index * 3 + 1]
-
-                    let evs = []
-
-                    evs[0] = (int1 & 0xFF)
-                    evs[1] = ((int1 >> 8) & 0xFF)
-                    evs[2] = ((int1 >> 16) & 0xFF)
-                    evs[3]= ((int1 >> 24) & 0xFF)
-                    evs[4] = (int2 & 0xFF)
-                    evs[5] = ((int2 >> 8) & 0xFF)
-
-                    // skip if pokemon has evs and evs are turned off
-                    if (evs[0] +  evs[1] +  evs[2] +  evs[3] +  evs[4] +  evs[5] > 0 && !hasEvs) {
-                        offset = lastFoundAt + 2
-                        continue
-                    }
-
-                    // get moves
-                    let move1 = pokeemeraldMoves[[decrypted[moves_index * 3]] & 0x07FF]
-                    let move2 = pokeemeraldMoves[[decrypted[moves_index * 3]] >> 16 & 0x07FF]
-                    let move3 = pokeemeraldMoves[[decrypted[moves_index * 3 + 1]] & 0x07FF]
-                    let move4 = pokeemeraldMoves[[decrypted[moves_index * 3 + 1]] >> 16 & 0x07FF]
-
-                    let moves = [move1, move2, move3, move4]
-
-                    // skip if any moves out of bounds or duplicates moves that aren't "None"
-                    if (hasInvalidMoves(moves)) {
-                        offset = lastFoundAt + 2
-                        continue
-                    }
-
-                    // get ivs 
-                    let ivs = getIVs(decrypted[misc_index * 3 + 1])
-
-                    // get ability
-
-                    let abilitySlot = 0
-
-                    if (TITLE.includes("Inclement")) {
-                        abilitySlot = decrypted[misc_index * 3 + 2] & 96 >> 5
-                    } else {
-                        abilitySlot = decrypted[misc_index * 3 + 2] >> 29 & 0b11
-                        
-                        // todo: get final ability list
-                        if (abilsPrimary[speciesName]) {
-                            abilitySlot = abilsPrimary[speciesName][abilitySlot]
-                        }
-                        else if (abils[speciesName]) {
-                            abilitySlot = abils[speciesName][abilitySlot]
-                        } else {
-                            console.log(`${speciesName} no ability found`)
-                        }          
-                    }
-                    
-
-
-
-                    if (nn.toLowerCase() != speciesName.toLowerCase() && !(speciesName.toLowerCase().includes(nn.toLowerCase().trim()))) {
-                    
-                        if (nn.toLowerCase().includes(speciesName.toLowerCase())) {
-                            showdownText += `${speciesName}`
-                        } else {
-                            showdownText += `${nn} (${speciesName})`
+                        for (let i = 0; i <10; i++) {
+                            let letter = gen3TextTable[saveFile.getUint8(offset + i, true)] || ""
+                            nn += letter
                         }
 
+
+                        // let moddedNature = (saveFile.getUint16(offset, true) >> 13) && 0b11111
+
+                        // substructs are scrambled according to PID
+                        let suborder = orderFormats[pid % 24]
                        
+
+                        let key = pid ^ tid
+                        let decrypted = []
+
+
+                        offset = lastFoundAt + 14
+
+                        // decrypt substructs
+                        for (let i = 0; i <= 11; i++) {
+                            let block = saveFile.getUint32(offset , true) ^ key
+                            decrypted.push(block)
+                            offset += 4
+                        }
+
+                        let growth_index = suborder.indexOf(1)
+                        let moves_index = suborder.indexOf(2)
+                        let evs_index = suborder.indexOf(3)
+                        let misc_index = suborder.indexOf(4)
+
+
+                        // get Species
+                        let speciesId = [decrypted[growth_index * 3]] & 0x07FF
+                        // for Inclement Emerald
+                        if (TITLE.includes("Inclement") && speciesId > 899) {
+                            speciesId += 7
+                        }
+                        let speciesName = emImpMons[speciesId]
+
+
+                        
+
+
+
+                        // Skip if species id out of bounds
+                        if (!speciesName || speciesName == "None") {
+                            offset = lastFoundAt + 2
+                            continue
+                        }
+
+
+                        // Try Substitute Spaces for Dashes if pokemon name doesn't exist
+
+                        if (!pokedex[speciesName]) {
+           
+                            speciesName = speciesName.replaceAll(" ", "-")
+                        }
+
+                        // get Item
+                        let itemId = [decrypted[growth_index * 3]] >> 16 & 0x07FF
+
+
+                        // get Level
+                        let speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
+                        let exp = [decrypted[growth_index * 3 + 1]] & 0x1FFFFF
+                        let gr = 0
+
+                        // todo consolidate files
+                        if (em_imp_primary_mons[speciesName] && em_imp_primary_mons[speciesName]["gr"]) {
+                            gr =  em_imp_primary_mons[speciesName]["gr"]
+                        } else {
+                            if (typeof learnsets[speciesNameId] == "undefined") {
+                                speciesName = speciesName.split("-").slice(0,2).join("-")
+                                speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
+                            } 
+
+                            if (typeof learnsets[speciesNameId] == "undefined") {
+                                speciesName = speciesName.split("-")[0]
+                                speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
+                            } 
+
+
+                            if (typeof learnsets[speciesNameId] == "undefined") {
+                                console.log(`can't find growth for ${speciesName}`)
+                            } else {
+                                gr = learnsets[speciesNameId].gr 
+                            }
+                        }
+                        
+                        
+
+
+
+                        
+              
+
+                        
+                        if (typeof gr == "unefined") {
+                           console.log(learnsets[speciesNameId])
+                           console.log(`${speciesNameId} growth not found`)
+                           gr = 0 
+                        }
+
+
+                        
+
+                        let level = get_level(expTables[gr], exp)
+
+
+                        let nn11 = gen3TextTable[decrypted[growth_index * 3 + 1] >> 21 & 0xFF] || ""
+                        let nn12 = gen3TextTable[decrypted[growth_index * 3 + 2] >> 14 & 0xFF] || ""
+
+                        nn += nn11
+                        nn += nn12
+
+                        met = locations["EM"][decrypted[misc_index * 3] >> 8 & 0xFF] 
+
+
+
+                        // console.log(nn)
+                        
+                        // get nature
+                        let monNature = 0
+                        if (TITLE.includes("Inclement")) {
+                            let natureByte = [decrypted[misc_index * 3]] >> 16 & 0x07FF
+                            monNature = natures[natureByte & 31744 >> 10]   
+                        } else {
+                            monNature = natures[pid % 25]
+                            // if (moddedNature <= 26) {
+                            //     monNature = natures[moddedNature]
+                            // }
+                        }
+
+                        // get evs
+                        let int1 = decrypted[evs_index * 3]
+                        let int2 = decrypted[evs_index * 3 + 1]
+
+                        let evs = []
+
+                        evs[0] = (int1 & 0xFF)
+                        evs[1] = ((int1 >> 8) & 0xFF)
+                        evs[2] = ((int1 >> 16) & 0xFF)
+                        evs[3]= ((int1 >> 24) & 0xFF)
+                        evs[4] = (int2 & 0xFF)
+                        evs[5] = ((int2 >> 8) & 0xFF)
+
+                        // skip if pokemon has evs and evs are turned off
+                        if (evs[0] +  evs[1] +  evs[2] +  evs[3] +  evs[4] +  evs[5] > 0 && !hasEvs) {
+                            offset = lastFoundAt + 2
+                            continue
+                        }
+
+                        // get moves
+                        let move1 = pokeemeraldMoves[[decrypted[moves_index * 3]] & 0x07FF]
+                        let move2 = pokeemeraldMoves[[decrypted[moves_index * 3]] >> 16 & 0x07FF]
+                        let move3 = pokeemeraldMoves[[decrypted[moves_index * 3 + 1]] & 0x07FF]
+                        let move4 = pokeemeraldMoves[[decrypted[moves_index * 3 + 1]] >> 16 & 0x07FF]
+
+                        let moves = [move1, move2, move3, move4]
+
+                        // skip if any moves out of bounds or duplicates moves that aren't "None"
+                        if (hasInvalidMoves(moves)) {
+                            offset = lastFoundAt + 2
+                            continue
+                        }
+
+                        // get ivs 
+                        let ivs = getIVs(decrypted[misc_index * 3 + 1])
+
+                        // get ability
+
+                        let abilitySlot = 0
+
+                        if (TITLE.includes("Inclement")) {
+                            abilitySlot = decrypted[misc_index * 3 + 2] & 96 >> 5
+                        } else {
+                            abilitySlot = decrypted[misc_index * 3 + 2] >> 29 & 0b11
+                            
+                            // todo: get final ability list
+                            if (abilsPrimary[speciesName]) {
+                                abilitySlot = abilsPrimary[speciesName][abilitySlot]
+                            }
+                            else if (abils[speciesName]) {
+                                abilitySlot = abils[speciesName][abilitySlot]
+                            } else {
+                                console.log(`${speciesName} no ability found`)
+                            }          
+                        }
+                        
+
+
+
+                        if (nn.toLowerCase() != speciesName.toLowerCase() && !(speciesName.toLowerCase().includes(nn.toLowerCase().trim()))) {
+                        
+                            if (nn.toLowerCase().includes(speciesName.toLowerCase())) {
+                                showdownText += `${speciesName}`
+                            } else {
+                                showdownText += `${nn} (${speciesName})`
+                            }
+
+                           
+                        } else {
+                            showdownText += `${speciesName}`
+                        }
+
+                        
+                        if (itemId != 0) {
+                            showdownText += ` @ ${itemTitleize(emImpItems[itemId])}`
+                        }
+                        showdownText += "\n"
+                        showdownText += `Level: ${level}\n`
+                        showdownText += `${monNature} Nature\n`
+
+                        if (hasEvs) {
+                            showdownText += `EVs: ${evs[0]} HP / ${evs[1]} Atk / ${evs[2]} Def / ${evs[3]} Spe / ${evs[4]} SpA / ${evs[5]} SpD\n`
+                        }
+                        showdownText += `IVs: ${ivs[0]} HP / ${ivs[1]} Atk / ${ivs[2]} Def / ${ivs[3]} Spe / ${ivs[4]} SpA / ${ivs[5]} SpD\n`
+
+                        showdownText += `Ability: ${abilitySlot}\n`
+                        showdownText += `- ${move1}\n`
+                        showdownText += `- ${move2}\n`
+                        showdownText += `- ${move3}\n`
+                        showdownText += `- ${move4}\n`
+                        showdownText += `Met: ${met}\n\n`
+                        offset = lastFoundAt + 2
                     } else {
-                        showdownText += `${speciesName}`
+                        offset += 2; 
+                    }   
+                }
+                $('.import-team-text').val(showdownText)    
+            };
+            reader.readAsArrayBuffer(file);
+
+            // Start watching immediately
+            if (fileHandle) {
+                async function checkFile() {
+                    const newFile = await fileHandle.getFile();
+
+                    const contents = new Uint8Array(await newFile.arrayBuffer());
+
+                    if (lastContents && !arraysEqual(contents, lastContents)) {
+                        // console.log("File changed! New contents:", contents);
+                        reader.readAsArrayBuffer(newFile);
                     }
 
-                    
-                    if (itemId != 0) {
-                        showdownText += ` @ ${itemTitleize(emImpItems[itemId])}`
-                    }
-                    showdownText += "\n"
-                    showdownText += `Level: ${level}\n`
-                    showdownText += `${monNature} Nature\n`
+                    lastContents = contents;
+                }
 
-                    if (hasEvs) {
-                        showdownText += `EVs: ${evs[0]} HP / ${evs[1]} Atk / ${evs[2]} Def / ${evs[3]} Spe / ${evs[4]} SpA / ${evs[5]} SpD\n`
-                    }
-                    showdownText += `IVs: ${ivs[0]} HP / ${ivs[1]} Atk / ${ivs[2]} Def / ${ivs[3]} Spe / ${ivs[4]} SpA / ${ivs[5]} SpD\n`
-
-                    showdownText += `Ability: ${abilitySlot}\n`
-                    showdownText += `- ${move1}\n`
-                    showdownText += `- ${move2}\n`
-                    showdownText += `- ${move3}\n`
-                    showdownText += `- ${move4}\n`
-                    showdownText += `Met: ${met}\n\n`
-                    offset = lastFoundAt + 2
-                } else {
-                    offset += 2; 
-                }   
+                // Run once now
+                await checkFile();
+                // Poll every 2s
+                setInterval(checkFile, 2000);
+            } else {
+                console.warn("No persistent file handle, cannot watch for changes continuously.");
             }
-            $('.import-team-text').val(showdownText)    
-        };
-        reader.readAsArrayBuffer(file);
-    }
+        }
+    })()
 });
 
 function getIVs(ivValue) {
@@ -347,6 +412,13 @@ function hasInvalidMoves(arr) {
         }
     }    
     return false;
+}
+function arraysEqual(a, b) {
+    if (a.byteLength !== b.byteLength) return false;
+    for (let i = 0; i < a.byteLength; i++) {
+        if (a[i] !== b[i]) return false;
+    }
+    return true;
 }
 
 function itemTitleize(item) {
