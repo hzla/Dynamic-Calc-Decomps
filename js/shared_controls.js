@@ -523,7 +523,7 @@ function smogonAnalysis(pokemonName) {
 // auto-update set details on select
 
 function refresh_next_in() {
-	console.log("refreshing next in " + lastSetName)
+	// console.log("refreshing next in " + lastSetName)
 	var next_poks = get_next_in()
 
 	if (damageGen < 8 && !TITLE.includes("Lumi")) {
@@ -937,7 +937,7 @@ $(".set-selector").change(function () {
 		return
 	}
 	lastSetName = fullSetName
-	console.log("last set name set to: " + lastSetName)
+	// console.log("last set name set to: " + lastSetName)
 });
 
 function formatMovePool(moves) {

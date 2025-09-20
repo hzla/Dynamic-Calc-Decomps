@@ -127,6 +127,7 @@ function addFrag(e) {
 		setTimeout(function() {
 			$('#p2 .unfrag-text').hide()
 		},300)
+		$('#frag-count').text(`Frags: ${currentEncounters[speciesName].fragCount}`)
 
 		console.log(`${speciesName} unfragged ${fragged}, frag count now at ${currentEncounters[speciesName].fragCount}`)
 	} else {
