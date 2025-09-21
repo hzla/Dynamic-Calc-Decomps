@@ -23,7 +23,7 @@ function load_js() {
   }
 
   if (typeof localStorage.watchSaveFile === 'undefined') {
-    localStorage.watchSaveFile = 1
+    localStorage.watchSaveFile = 0
   }
 
   if (typeof localStorage.themeIndex === 'undefined') {
@@ -84,9 +84,6 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.battlenotes == '1') {
         $('#toggle-battle-notes input').prop('checked', true)
     }
-
-
-
 }
 
 

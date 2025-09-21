@@ -308,6 +308,13 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=t
 		
 		p2.moves[i].overrides = {}
 
+		// In case p2 comes up as empty
+		if (!p2.name) {
+			console.log(p2)
+			var p2info = $("#p2");
+			p2 = createPokemon(p2info);
+		}
+		
 
 		results[0][i] = calc.calculate(gen, p1, p2, p1.moves[i], p1field);
 		results[1][i] = calc.calculate(gen, p2, p1, p2.moves[i], p2field);

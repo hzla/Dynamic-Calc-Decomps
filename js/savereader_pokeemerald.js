@@ -177,6 +177,12 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                         // get Item
                         let itemId = [decrypted[growth_index * 3]] >> 16 & 0x07FF
 
+                        // skip if invalid item
+                        if (itemId >= emImpItems.length) {
+                            offset = lastFoundAt + 2
+                            continue
+                        }
+
 
                         // get Level
                         let speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()

@@ -5528,7 +5528,7 @@ evoData = {
     "anc": "Slowpoke-Galar"
   },
   "Linoone-Galar": {
-    "evos": [],
+    "evos": ["Obstagoon"],
     "anc": "Zigzagoon-Galar"
   },
   "Darumaka-Galar": {
