@@ -25,7 +25,7 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                 [fileHandle] = await window.showOpenFilePicker({
                     types: [{
                         description: 'Save Files',
-                        accept: { 'application/octet-stream': ['.sav'] }
+                        accept: { 'application/octet-stream': ['.sav','.ss1','.ss2','.ss3','.ss4','.ss5','.ss6','.ss7','.ss8','.ss9'] }
                     }]
                 });
             } catch (err) {
@@ -42,11 +42,37 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
             saveFileName = $('#save-upload').val().split("\\").pop()
             savExt = saveFileName.slice(-3)
 
+            if (saveFileName == '') {
+                saveFileName = fileHandle.name
+            }
+
+            savExt = saveFileName.slice(-3)
+
             reader.onload = function(e) {
                 console.log("reloading new save file")
                 // Convert the binary string to ArrayBuffer for easier access
-                const buffer = e.target.result;
-                view = new Uint8Array(buffer);
+                let buffer = e.target.result;
+                // view = new Uint8Array(buffer);
+
+                if (savExt.includes("ss")) {
+
+                    // decompress compressed mgba save state
+                    if (buffer.byteLength < 100000) {
+                      buffer = extractSaveState(buffer)  
+                    }
+                    
+
+                    // console.log(buffer)
+
+
+                    buffer = new Uint8Array(buffer.slice(135168, 397312).slice(0, 242800)).buffer.slice(
+                        buffer.byteOffset,
+                        buffer.byteOffset + buffer.byteLength
+                    );
+
+                }
+
+
                 saveFile = new DataView(buffer);
                 saveUploaded = true;
 
@@ -281,14 +307,25 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                         let move4 = pokeemeraldMoves[[decrypted[moves_index * 3 + 1]] >> 16 & 0x07FF]
 
                         let moves = [move1, move2, move3, move4]
-
                         let illegalMoveFound = false
+
+
+
+                        if (move1 == "None") {
+                            illegalMoveFound = true
+                        }
 
                         
                         // filter for legal moves
                         if (localStorage.filterSaveFile == '1') {
                             let legalMoves = getFamilyLegalMoves(speciesName)
                             for (move of moves) {
+
+                                if (!move) {
+                                    illegalMoveFound = true
+                                    continue
+                                }
+
                                 if (legalMoves.indexOf(move.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()) == -1 && move != "None") {
                                     console.log(`Ilegal move found on ${speciesName}: ${move}`)
                                     illegalMoveFound = true
@@ -301,6 +338,8 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                             offset = lastFoundAt + 2
                             continue
                         }
+
+                        console.log(`${level} ${speciesName}`)
 
                         // get ivs 
                         let ivs = getIVs(decrypted[misc_index * 3 + 1])
@@ -365,7 +404,8 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                         offset += 2; 
                     }   
                 }
-                $('.import-team-text').val(showdownText)    
+                $('.import-team-text').val(showdownText)
+                $('#import').click()    
             };
             reader.readAsArrayBuffer(file);
 
@@ -504,6 +544,129 @@ const orderFormats = [[1,2,3,4],
                         [4,2,3,1],
                         [4,3,1,2],
                         [4,3,2,1]]
+
+function parsePngChunks(arrayBuffer) {
+  const dv = new DataView(arrayBuffer);
+  const chunks = [];
+  // verify PNG signature (optional)
+  // PNG signature is: 89 50 4E 47 0D 0A 1A 0A
+  const pngSig = [0x89,0x50,0x4E,0x47,0x0D,0x0A,0x1A,0x0A];
+  for (let i = 0; i < 8; i++) {
+    if (dv.getUint8(i) !== pngSig[i]) {
+      throw new Error('Not a PNG file');
+    }
+  }
+  let offset = 8;
+  while (offset + 8 <= dv.byteLength) {
+    const length = dv.getUint32(offset, false); // big-endian
+    const typeChars = [];
+    for (let i = 0; i < 4; i++) {
+      typeChars.push(String.fromCharCode(dv.getUint8(offset + 4 + i)));
+    }
+    const type = typeChars.join('');
+    const dataStart = offset + 8;
+    const dataEnd = dataStart + length;
+    if (dataEnd > dv.byteLength) break;
+    const data = new Uint8Array(arrayBuffer.slice(dataStart, dataEnd));
+    const crc = dv.getUint32(dataEnd, false);
+    chunks.push({ type, length, data, crc });
+    offset = dataEnd + 4;
+  }
+  return chunks;
+}
+
+function getChunksByName(chunks, name) {
+  return chunks.filter(c => c.type === name).map(c => c.data);
+}
+
+function concatUint8Arrays(arrays) {
+  if (arrays.length === 0) return new Uint8Array();
+  let total = 0;
+  arrays.forEach(a => total += a.length);
+  const out = new Uint8Array(total);
+  let pos = 0;
+  arrays.forEach(a => { out.set(a, pos); pos += a.length; });
+  return out;
+}
+
+function decompressZlib(u8arr) {
+  // pako.inflate returns Uint8Array or throws
+  return pako.inflate(u8arr);
+}
+
+
+function extractSaveState(file) {
+  const ab = file;
+  let chunks;
+  try {
+    chunks = parsePngChunks(ab);
+  } catch (e) {
+    console.error('PNG parse error:', e);
+    return;
+  }
+
+  const gbAs = getChunksByName(chunks, 'gbAs');
+
+
+  if (gbAs.length > 0) {
+    const combined = concatUint8Arrays(gbAs);
+    try {
+      const inflated = decompressZlib(combined);
+      return inflated
+      // console.log('gbAs decompressed length', inflated.length);
+      // // do something with inflated: for example create a Blob for download
+      // const blob = new Blob([inflated]);
+      // const url = URL.createObjectURL(blob);
+      // const a = document.createElement('a');
+      // a.href = url;
+      // a.download = file.name + '.gbAs.bin';
+      // a.textContent = 'Download gbAs';
+      // document.body.appendChild(a);
+    } catch (e) {
+      console.error('Error inflating gbAs', e);
+    }
+  }
+
+
+}
+
+
+
+// document.getElementById('file').addEventListener('change', async (ev) => {
+//   const file = ev.target.files[0];
+//   if (!file) return;
+//   const ab = await file.arrayBuffer();
+//   let chunks;
+//   try {
+//     chunks = parsePngChunks(ab);
+//   } catch (e) {
+//     console.error('PNG parse error:', e);
+//     return;
+//   }
+
+//   const gbAs = getChunksByName(chunks, 'gbAs');
+
+
+//   if (gbAs.length > 0) {
+//     const combined = concatUint8Arrays(gbAs);
+//     try {
+//       const inflated = decompressZlib(combined);
+//       // console.log('gbAs decompressed length', inflated.length);
+//       // // do something with inflated: for example create a Blob for download
+//       // const blob = new Blob([inflated]);
+//       // const url = URL.createObjectURL(blob);
+//       // const a = document.createElement('a');
+//       // a.href = url;
+//       // a.download = file.name + '.gbAs.bin';
+//       // a.textContent = 'Download gbAs';
+//       // document.body.appendChild(a);
+//     } catch (e) {
+//       console.error('Error inflating gbAs', e);
+//     }
+//   }
+
+
+// });
 
 
 
