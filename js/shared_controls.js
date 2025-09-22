@@ -1240,7 +1240,7 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			evs: evs,
 			isDynamaxed: isDynamaxed,
 			alliesFainted: parseInt(pokeInfo.find(".alliesFainted").val()),
-			boostedStat: pokeInfo.find(".boostedStat").val() || undefined,
+			boostedStat: pokeInfo.find(".boostedStat:visible").val() || undefined,
 			boosts: boosts,
 			curHP: curHP,
 			status: CALC_STATUS[pokeInfo.find(".status").val()],

@@ -64,6 +64,9 @@ function performCalculations() {
 	p1info.find(".sd .total").text(p1.stats.spd);
 
 	p2info.find(".sp .totalMod").text(p2.stats.spe);
+
+
+
 	var fastestSide = p1.stats.spe > p2.stats.spe ? 0 : p1.stats.spe === p2.stats.spe ? "tie" : 1;
 
 	var result, maxDamage;
@@ -313,6 +316,12 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=t
 			console.log(p2)
 			var p2info = $("#p2");
 			p2 = createPokemon(p2info);
+		}
+
+		if (!p1.name) {
+			console.log(p1)
+			var p1info = $("#p1");
+			p1 = createPokemon(p1info);
 		}
 		
 
