@@ -282,8 +282,22 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
 
                         let moves = [move1, move2, move3, move4]
 
+                        let illegalMoveFound = false
+
+                        
+                        // filter for legal moves
+                        if (localStorage.filterSaveFile == '1') {
+                            let legalMoves = getFamilyLegalMoves(speciesName)
+                            for (move of moves) {
+                                if (legalMoves.indexOf(move.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()) == -1 && move != "None") {
+                                    console.log(`Ilegal move found on ${speciesName}: ${move}`)
+                                    illegalMoveFound = true
+                                }
+                            }
+                        }
+
                         // skip if any moves out of bounds or duplicates moves that aren't "None"
-                        if (hasInvalidMoves(moves)) {
+                        if (hasInvalidMoves(moves) || illegalMoveFound) {
                             offset = lastFoundAt + 2
                             continue
                         }
@@ -429,6 +443,41 @@ function arraysEqual(a, b) {
 
 function itemTitleize(item) {
     return item.toLowerCase().split(/([ _-])/).map(s => s.charAt(0).toUpperCase() + s.slice(1)).join('').replace("_", " ").replace("Never Melt_Ice", "Never-Melt Ice")
+}
+
+function getLegalMoves(speciesName) {
+    if (speciesName.includes("-Mega")) return [];
+
+    let speciesNameId = speciesName.replace(/[^a-zA-Z0-9é]/g, '').toLowerCase()
+    let moves = learnsets[speciesNameId]
+    let ls = moves["ls"]
+    let tms = moves["tms"]
+
+    let legalMoves = []
+
+    for (l of ls) {
+        legalMoves.push(l[1].replace(/[^a-zA-Z0-9]/g, '').toLowerCase())
+    }
+    for (tm of tms) {
+        legalMoves.push(tm.replace(/[^a-zA-Z0-9]/g, '').toLowerCase())
+    }
+    return legalMoves
+}
+
+function getFamilyLegalMoves(speciesName) {
+    let anc = evoData[speciesName]["anc"]
+    let possibleMiddleEvo = evoData[anc]["evos"][0]
+
+    let legalMoves = getLegalMoves(speciesName)
+
+    if (anc != speciesName) {
+        legalMoves = legalMoves.concat(getLegalMoves(anc))
+    }
+
+    if (possibleMiddleEvo && possibleMiddleEvo != speciesName) {
+        legalMoves = legalMoves.concat(getLegalMoves(possibleMiddleEvo))
+    }
+    return [...new Set(legalMoves)]
 }
 
 const orderFormats = [[1,2,3,4],         

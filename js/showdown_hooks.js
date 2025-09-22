@@ -26,6 +26,10 @@ function load_js() {
     localStorage.watchSaveFile = 0
   }
 
+  if (typeof localStorage.filterSaveFile === 'undefined') {
+    localStorage.filterSaveFile = 0
+  }
+
   if (typeof localStorage.themeIndex === 'undefined') {
     localStorage.themeIndex = 1
   }
@@ -74,6 +78,9 @@ function setSettingsTogglesFromLocalStorage() {
     }
     if (localStorage.watchSaveFile == "1") {
         $('#save-toggle input').prop('checked', true)
+    }
+    if (localStorage.filterSaveFile == "1") {
+        $('#save-filter-toggle input').prop('checked', true)
     }
     if (localStorage.themeIndex == '1') {
         $('#theme-toggle input').prop('checked', true)
@@ -1052,6 +1059,10 @@ $('#toggle-battle-notes .slider').click(function(){
 
 $('#save-toggle .slider').click(function(){
     localStorage.watchSaveFile = (parseInt(localStorage.watchSaveFile) + 1) % 2;   
+})
+
+$('#save-filter-toggle .slider').click(function(){
+    localStorage.filterSaveFile = (parseInt(localStorage.filterSaveFile) + 1) % 2;   
 })
 
 function construct_type_chart() {

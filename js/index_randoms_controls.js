@@ -313,13 +313,13 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=t
 
 		// In case p2 comes up as empty
 		if (!p2.name) {
-			console.log(p2)
+			// console.log(p2)
 			var p2info = $("#p2");
 			p2 = createPokemon(p2info);
 		}
 
 		if (!p1.name) {
-			console.log(p1)
+			// console.log(p1)
 			var p1info = $("#p1");
 			p1 = createPokemon(p1info);
 		}
