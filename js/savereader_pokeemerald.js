@@ -61,11 +61,7 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                       buffer = extractSaveState(buffer)  
                     }
                     
-
-                    // console.log(buffer)
-
-
-                    buffer = new Uint8Array(buffer.slice(135168, 397312).slice(0, 242800)).buffer.slice(
+                    buffer = new Uint8Array(buffer.slice(205168, 397312).slice(0, 157477)).buffer.slice(
                         buffer.byteOffset,
                         buffer.byteOffset + buffer.byteLength
                     );
@@ -160,11 +156,26 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
 
                         offset = lastFoundAt + 14
 
+
+                        invalidData = false
                         // decrypt substructs
                         for (let i = 0; i <= 11; i++) {
-                            let block = saveFile.getUint32(offset , true) ^ key
+                            let block = null
+                            try {
+                               block = saveFile.getUint32(offset , true) ^ key 
+                            } catch {
+                                invalidData = true
+                                block = []
+                                break;
+                            }
+                            
                             decrypted.push(block)
                             offset += 4
+                        }
+
+                        if (invalidData) {
+                            offset = lastFoundAt + 2
+                            continue
                         }
 
                         let growth_index = suborder.indexOf(1)
@@ -590,7 +601,6 @@ function concatUint8Arrays(arrays) {
 }
 
 function decompressZlib(u8arr) {
-  // pako.inflate returns Uint8Array or throws
   return pako.inflate(u8arr);
 }
 
@@ -613,15 +623,6 @@ function extractSaveState(file) {
     try {
       const inflated = decompressZlib(combined);
       return inflated
-      // console.log('gbAs decompressed length', inflated.length);
-      // // do something with inflated: for example create a Blob for download
-      // const blob = new Blob([inflated]);
-      // const url = URL.createObjectURL(blob);
-      // const a = document.createElement('a');
-      // a.href = url;
-      // a.download = file.name + '.gbAs.bin';
-      // a.textContent = 'Download gbAs';
-      // document.body.appendChild(a);
     } catch (e) {
       console.error('Error inflating gbAs', e);
     }
@@ -629,44 +630,6 @@ function extractSaveState(file) {
 
 
 }
-
-
-
-// document.getElementById('file').addEventListener('change', async (ev) => {
-//   const file = ev.target.files[0];
-//   if (!file) return;
-//   const ab = await file.arrayBuffer();
-//   let chunks;
-//   try {
-//     chunks = parsePngChunks(ab);
-//   } catch (e) {
-//     console.error('PNG parse error:', e);
-//     return;
-//   }
-
-//   const gbAs = getChunksByName(chunks, 'gbAs');
-
-
-//   if (gbAs.length > 0) {
-//     const combined = concatUint8Arrays(gbAs);
-//     try {
-//       const inflated = decompressZlib(combined);
-//       // console.log('gbAs decompressed length', inflated.length);
-//       // // do something with inflated: for example create a Blob for download
-//       // const blob = new Blob([inflated]);
-//       // const url = URL.createObjectURL(blob);
-//       // const a = document.createElement('a');
-//       // a.href = url;
-//       // a.download = file.name + '.gbAs.bin';
-//       // a.textContent = 'Download gbAs';
-//       // document.body.appendChild(a);
-//     } catch (e) {
-//       console.error('Error inflating gbAs', e);
-//     }
-//   }
-
-
-// });
 
 
 
