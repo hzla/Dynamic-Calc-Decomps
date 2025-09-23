@@ -1536,7 +1536,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Yache Berry",
       "level": "-2",
@@ -1574,7 +1574,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Yache Berry",
       "level": "-2",
@@ -1608,7 +1608,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Yache Berry",
       "level": "-2",
@@ -1642,7 +1642,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Yache Berry",
       "level": "-2",
@@ -1676,7 +1676,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Yache Berry",
       "level": "-2",
@@ -5457,7 +5457,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Focus Sash",
       "level": "-2",
@@ -9618,7 +9618,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 83,
@@ -10273,7 +10273,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Black Sludge",
       "level": "-1",
@@ -10881,7 +10881,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "-1",
@@ -14011,7 +14011,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-1",
@@ -16499,7 +16499,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Black Sludge",
       "level": 83,
@@ -19398,7 +19398,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Rindo Berry",
       "level": "-2",
@@ -21978,7 +21978,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 83,
@@ -22055,7 +22055,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Aggronite",
       "level": 84,
@@ -22339,7 +22339,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Aggronite",
       "level": 84,
@@ -24961,7 +24961,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "0",
@@ -28385,7 +28385,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Sitrus Berry",
       "level": "-2",
@@ -30331,7 +30331,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Muscle Band",
       "level": "0",
@@ -36834,7 +36834,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Eviolite",
       "level": "-1",
@@ -39056,7 +39056,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "-2",
@@ -39094,7 +39094,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "-2",
@@ -39128,7 +39128,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "-2",
@@ -39162,7 +39162,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "-2",
@@ -39196,7 +39196,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "-2",
@@ -40009,7 +40009,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Rocky Helmet",
       "level": "-1",
@@ -43817,7 +43817,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 84,
@@ -43854,7 +43854,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": 84,
@@ -53835,7 +53835,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Focus Sash",
       "level": "0",
@@ -54259,7 +54259,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "-1",
@@ -60659,7 +60659,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Leftovers",
       "level": "-2",
@@ -60768,7 +60768,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Rocky Helmet",
       "level": "-1",
@@ -66456,7 +66456,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Black Sludge",
       "level": "-2",
@@ -70741,7 +70741,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Air Balloon",
       "level": "-4",
@@ -70779,7 +70779,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Air Balloon",
       "level": "-4",
@@ -70813,7 +70813,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Air Balloon",
       "level": "-4",
@@ -70847,7 +70847,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Air Balloon",
       "level": "-4",
@@ -70881,7 +70881,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Air Balloon",
       "level": "-4",
@@ -70917,7 +70917,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Eviolite",
       "level": "-4",
@@ -70955,7 +70955,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Eviolite",
       "level": "-4",
@@ -70989,7 +70989,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Eviolite",
       "level": "-4",
@@ -71023,7 +71023,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Eviolite",
       "level": "-4",
@@ -71057,7 +71057,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Eviolite",
       "level": "-4",
@@ -75092,7 +75092,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Never-Melt Ice",
       "level": "-2",
@@ -75130,7 +75130,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Never-Melt Ice",
       "level": "-2",
@@ -75164,7 +75164,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Never-Melt Ice",
       "level": "-2",
@@ -75198,7 +75198,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Never-Melt Ice",
       "level": "-2",
@@ -75232,7 +75232,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Never-Melt Ice",
       "level": "-2",
@@ -75488,7 +75488,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Quick Claw",
       "level": "0",
@@ -75528,7 +75528,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Steelixite",
       "level": "-2",
@@ -75644,7 +75644,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Steelixite",
       "level": "-2",
@@ -75760,7 +75760,7 @@ backup_data = {
         "df": 252,
         "sa": 0,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Air Balloon",
       "level": "-1",
@@ -82428,7 +82428,7 @@ backup_data = {
         "df": 252,
         "sa": 6,
         "sd": 0,
-        "sp": 252
+        "sp": 0
       },
       "item": "Focus Sash",
       "level": "0",
@@ -83913,7 +83913,7 @@ backup_data = {
       "moves": [
         "Body Press",
         "Iron Defense",
-        "Behemoth Bash",
+        "Iron Head",
         "Play Rough"
       ],
       "sub_index": 3,
