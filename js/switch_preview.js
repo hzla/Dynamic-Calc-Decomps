@@ -11,6 +11,7 @@ function canTrap(trapper, target) {
     return false;
 }
 
+// Attacker is Player, Defender is AI
 function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
     disableKOChanceCalcs = true
     let gen = {
@@ -58,7 +59,7 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let wins1v1 = false
 
 
-    let isFaster = defender.rawStats.spe > p1RawSpeed
+    let isFaster = defender.rawStats.spe >= p1RawSpeed
     let movesFirst = false
 
 
@@ -120,6 +121,10 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
             highestDmgDealt = damage[0]
         }
 
+        // TODO: AI doesn't see status on player, or weather damage effects
+
+
+
         // count how many turns to kill including status/hazards and recovery items
         let koData = getKOChance(gen, defender, attacker, move, defenderField, damage, false)
         let turnsToKill = koData.n
@@ -129,6 +134,7 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
             continue;
         }
 
+        // OHKO means revenge killer
         if (turnsToKill == 1) {
             isRevenge = true
 
@@ -137,6 +143,7 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
             }
         }
 
+        // 2hko means threatener
         if (turnsToKill == 2) {
             isThreaten = true
 

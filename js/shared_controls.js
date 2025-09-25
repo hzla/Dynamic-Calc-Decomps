@@ -689,7 +689,7 @@ $(".set-selector").change(function () {
 
 
 
-				if (misc == "Orre" || partner_name) {
+				if (misc == "Orre" || partnerName) {
 					$('#doubles-format').click()
 				}
 				// $('#trainer-sprite').attr('src', `./img/${sprite}`)

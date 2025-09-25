@@ -350,8 +350,6 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                             continue
                         }
 
-                        console.log(`${level} ${speciesName}`)
-
                         // get ivs 
                         let ivs = getIVs(decrypted[misc_index * 3 + 1])
 

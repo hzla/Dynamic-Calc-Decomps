@@ -1,4 +1,4 @@
-function load_js() {
+function initCalc() {
 
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
@@ -14,10 +14,20 @@ function load_js() {
 
   pokChanges = {}
   calcing = false
-  partner_name = null
-
 
   // local storage settings defaults
+  if (typeof localStorage.partnerName === 'undefined') {
+     partnerName = null 
+  } else {
+    partnerName = localStorage.partnerName
+  }
+
+  if (typeof localStorage.currentParty == "undefined" || localStorage.currentParty == "") {
+    currentParty = []
+  } else {
+    currentParty = localStorage.currentParty.split(",")
+  }
+
   if (typeof localStorage.boxspriteindex === 'undefined') {
     localStorage.boxspriteindex = 1
   }
@@ -61,9 +71,9 @@ function load_js() {
   } else {
     states = {}
   }
+
   calcing = false
   changingSets = false
-  partner_name = null
 
   if (localStorage.notes) {
     $('#battle-notes .notes-text').html(localStorage.notes);
@@ -392,13 +402,13 @@ $('#battle-notes .notes-text').on('keydown', function(event) {
 
 function setOpposing(id) {
     // if in multi battle mode and user selects pokemon from already set partner, switch partners
-    console.log([id, partner_name])
-    if (partner_name && id.includes(partner_name)) {
-        partner_name = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
-        if (partner_name) {
-            partner_name = partner_name.replace(/\s?\)/, "").replace(/\s$/, "")
-            console.log(`Switching partners: ${partner_name}`)
+    if (partnerName && id.includes(partnerName)) {
+        partnerName = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
+        if (partnerName) {
+            partnerName = partnerName.replace(/\s?\)/, "").replace(/\s$/, "")
+            console.log(`Switching partners: ${partnerName}`)
         }
+        localStorage.partnerName = partnerName
     }
 
     currentTrainerSet = id
@@ -701,7 +711,7 @@ function get_trainer_poks(trainer_name)
     }
 
 
-    // let sameLocation = haveSameMiddleSubstring(og_trainer_name, partner_name)
+    // let sameLocation = haveSameMiddleSubstring(og_trainer_name, partnerName)
 
     let og_white_space = " "
     let partner_white_space = " "
@@ -710,7 +720,7 @@ function get_trainer_poks(trainer_name)
         og_white_space = ""
     }
 
-    if (partner_name && partner_name.includes(" - ")) {
+    if (partnerName && partnerName.includes(" - ")) {
         partner_white_space = ""
     }
 
@@ -718,7 +728,7 @@ function get_trainer_poks(trainer_name)
 
     for (i in TR_NAMES) {
 
-        if (TR_NAMES[i].includes(og_trainer_name + og_white_space) || ((TR_NAMES[i].includes(partner_name + partner_white_space)))) {
+        if (TR_NAMES[i].includes(og_trainer_name + og_white_space) || ((TR_NAMES[i].includes(partnerName + partner_white_space)))) {
             
 
             // To avoid cases where grunt1 matches grunt11, we check the last word in the set string to make sure it's  an actual match
@@ -727,8 +737,8 @@ function get_trainer_poks(trainer_name)
                matches.push(TR_NAMES[i])
 
             }
-            if (partner_name) {
-                if (partner_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (partner_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
+            if (partnerName) {
+                if (partnerName.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (partnerName.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
                    matches.push(TR_NAMES[i])
                 }  
             }    
@@ -1260,7 +1270,7 @@ function loadDataSource(data) {
     }
 
 
-    load_js() 
+    initCalc() 
 
 
     if (localStorage.customsets) {
@@ -1268,6 +1278,7 @@ function loadDataSource(data) {
         customSets = JSON.parse(localStorage.customsets);
         updateDex(customSets)   
         get_box()
+        displayParty()
     }
     
     customLeads = get_custom_trainer_names()
@@ -1680,10 +1691,6 @@ $(document).ready(function() {
             <div class="bp-info">${abv(set_data['moves'][2].replace("Hidden Power", "HP"))}</div>
             <div class="bp-info">${abv(set_data['moves'][3].replace("Hidden Power", "HP"))}</div>
         </div>`
-            
-
-        
-
 
         if (!parentBox.hasClass('trainer-pok-container')) {
             destination = $('.player-party')
@@ -1694,14 +1701,21 @@ $(document).ready(function() {
                 $('#edge').css('display', 'inline-block')
             }
             destination.append(pok)
+
+            currentParty.push(species_name)
+            
         } else {
             $(this).parent().remove()
+
+            currentParty = currentParty.filter(item => item !== species_name);
+
             if ($('.player-party').children().length == 0) {
                 $('.player-party').hide()
                 $('#clear-party').hide()
                 $('#edge').hide()
             }
         }
+        localStorage.currentParty = currentParty
    })
 
    $(document).on('click', '#clear-party', function() {
@@ -1734,18 +1748,22 @@ $(document).ready(function() {
 
 
    function setPartner() {
-        if (partner_name) {
-            partner_name = null
+        if (partnerName) {
+            partnerName = null
+            
             $('#set-partner').text('Toggle as Partner')
             alert("Partner trainer cleared")
+            localStorage.removeItem("partnerName")
+            console.log(localStorage.partnerName)
         } else {
-            partner_name = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
-            if (partner_name) {
-                partner_name = partner_name.replace(/\s?\)/, "").replace(/\s$/, "")
+            partnerName = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
+            if (partnerName) {
+                partnerName = partnerName.replace(/\s?\)/, "").replace(/\s$/, "")
             }
-            $('#set-partner').text(`Partner: ${partner_name}`.slice(0,34))
+            $('#set-partner').text(`Partner: ${partnerName}`.slice(0,34))
 
-            alert(`${partner_name} set as doubles partner for next trainer selected`)   
+            alert(`${partnerName} set as doubles partner for next trainer selected`)  
+            localStorage.partnerName = partnerName
         }
     }
 
