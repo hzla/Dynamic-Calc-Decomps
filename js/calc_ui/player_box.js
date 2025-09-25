@@ -103,13 +103,20 @@ function displayParty() {
         }
 
         for (i in currentParty) {
-            species_name = currentParty[i]
 
-            var sprite_name = species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
-            var set_data = setdex[species_name]["My Box"]
-            var data_id = species_name + " (My Box)"
-
-
+            try {
+                species_name = currentParty[i]
+                var sprite_name = species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
+                var set_data = setdex[species_name]["My Box"]
+                var data_id = species_name + " (My Box)"
+            } catch {
+                $('.player-party').html("")
+                $('.player-party').hide()
+                $('#clear-party').hide()
+                $('#edge').hide()
+                break;
+            }
+            
             var pok = `<div class="trainer-pok-container">
                 <img class="trainer-pok left-side" src="./img/${sprite_style}/${sprite_name}.png" data-id="${data_id}">
                 <div class="bp-info">${abv(set_data['moves'][0].replace("Hidden Power", "HP"))}</div>
