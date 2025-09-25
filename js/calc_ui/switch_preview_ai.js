@@ -62,12 +62,6 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let isFaster = defender.rawStats.spe >= p1RawSpeed
     let movesFirst = false
 
-
-
-
-
-
-
      for (moveIndex in attacker.moves) {
         let move = attacker.moves[moveIndex]
         damage = attackerVDefenderResults[moveIndex].damage
@@ -105,9 +99,6 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
         }       
     }
 
-
-
-
     for (moveIndex in defender.moves) {
         let move = defender.moves[moveIndex]
         damage = defenderVAttackerResults[moveIndex].damage
@@ -122,8 +113,6 @@ function matchupData(attackerVDefenderResults, defenderVAttackerResults) {
         }
 
         // TODO: AI doesn't see status on player, or weather damage effects
-
-
 
         // count how many turns to kill including status/hazards and recovery items
         let koData = getKOChance(gen, defender, attacker, move, defenderField, damage, false)

@@ -1,1429 +1,76 @@
-function initCalc() {
+$(document).ready(function() {
+    document.addEventListener(
+        'blur',
+        (event) => {
+          const defaultViewportContent = 'width=device-width, initial-scale=1.0'
 
-  var head= document.getElementsByTagName('head')[0];
-  var script= document.createElement('script');
-  script.src= './js/shared_controls.js?0b3ea005';
-  head.appendChild(script);
-  saveUploaded = false
-  boxSprites = ["pokesprite", "pokesprite"]
-  themes = ["old", "new"]
-  trueHP = true
-  fainted = []
-  lastSetName = ""
-  disableKOChanceCalcs = false
+          localStorage.lvlCap = $('#lvl-cap').val()
 
-  pokChanges = {}
-  calcing = false
+          const isRelevantElement =
+            event.target instanceof Element &&
+              (['input', 'textarea', 'select'].includes(
+                event.target.tagName.toLowerCase()
+              ) ||
+            event.target.hasAttribute('contenteditable'))
 
-  // local storage settings defaults
-  if (typeof localStorage.partnerName === 'undefined') {
-     partnerName = null 
-  } else {
-    partnerName = localStorage.partnerName
-  }
+          refresh_next_in()
+          if (isRelevantElement) {
+            const viewportMeta = document.querySelector('meta[name="viewport"]')
+            if (viewportMeta) {
+              setTimeout(() => {
+                viewportMeta.setAttribute(
+                  'content',
+                  defaultViewportContent + ', maximum-scale=1.0'
+                )
+              }, 50)
 
-  if (typeof localStorage.currentParty == "undefined" || localStorage.currentParty == "") {
-    currentParty = []
-  } else {
-    currentParty = localStorage.currentParty.split(",")
-  }
-
-  if (typeof localStorage.boxspriteindex === 'undefined') {
-    localStorage.boxspriteindex = 1
-  }
-
-  if (typeof localStorage.watchSaveFile === 'undefined') {
-    localStorage.watchSaveFile = 0
-  }
-
-  if (typeof localStorage.filterSaveFile === 'undefined') {
-    localStorage.filterSaveFile = 0
-  }
-
-  if (typeof localStorage.themeIndex === 'undefined') {
-    localStorage.themeIndex = 1
-  }
-  if (typeof localStorage.lvlCap != 'undefined') {
-    $('#lvl-cap').val(localStorage.lvlCap)
-  }
-  localStorage.toDelete = ""
-
-  if (parseInt(localStorage.themeIndex) == 0) {
-    $('body, html').addClass('old')
-  }
-  sprite_style = boxSprites[parseInt(localStorage.boxspriteindex)]
-  
-  if (!parseInt(localStorage.boxrolls)) {
-    localStorage.boxrolls = 0
-  } else {
-    $('#player-poks-filter').show()
-  }
-
-  // if first time
-  if (typeof localStorage.battlenotes === 'undefined') {
-    localStorage.battlenotes = '1'
-  } else if (localStorage.battlenotes == '0'){
-    $('.poke-import').first().hide()
-  } 
-
-  if (localStorage.states && isValidJSON(localStorage.states)) {
-    states = JSON.parse(localStorage.states)
-  } else {
-    states = {}
-  }
-
-  calcing = false
-  changingSets = false
-
-  if (localStorage.notes) {
-    $('#battle-notes .notes-text').html(localStorage.notes);
-  }
-
-  setSettingsTogglesFromLocalStorage()
-}
-
-function setSettingsTogglesFromLocalStorage() {
-    if (sprite_style == "pokesprite") {
-        $('#sprite-toggle input').prop('checked', true)
-    }
-    if (localStorage.watchSaveFile == "1") {
-        $('#save-toggle input').prop('checked', true)
-    }
-    if (localStorage.filterSaveFile == "1") {
-        $('#save-filter-toggle input').prop('checked', true)
-    }
-    if (localStorage.themeIndex == '1') {
-        $('#theme-toggle input').prop('checked', true)
-    }
-    if (localStorage.boxrolls == '1') {
-        $('#toggle-boxroll input').prop('checked', true)
-    }
-    if (localStorage.battlenotes == '1') {
-        $('#toggle-battle-notes input').prop('checked', true)
-    }
-}
-
-
-function cleanString(str) {str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()};
-
-function checkAndLoadScript(src, options = {}) {
-    const {
-        onLoad = null,
-        onError = null,
-        onNotFound = null,
-        timeout = 10000
-    } = options;
-
-    return new Promise((resolve, reject) => {
-        const script = document.createElement('script');
-        script.src = src;
-        script.type = 'text/javascript';
-        
-        let timeoutId;
-        let resolved = false;
-
-        // Set up timeout
-        if (timeout > 0) {
-            timeoutId = setTimeout(() => {
-                if (!resolved) {
-                    resolved = true;
-                    console.error(`Timeout loading: ${src}`);
-                    if (onError) onError(src, new Error('Timeout'));
-                    resolve(false);
-                }
-            }, timeout);
-        }
-
-        script.onload = () => {
-            if (!resolved) {
-                resolved = true;
-                if (timeoutId) clearTimeout(timeoutId);
-                console.log(`Successfully loaded: ${src}`);
-                if (onLoad) onLoad(src);
-                resolve(true);
+              setTimeout(() => {
+                viewportMeta.setAttribute('content', defaultViewportContent)
+              }, 100)
             }
-        };
-        
-        script.onerror = (error) => {
-            if (!resolved) {
-                resolved = true;
-                if (timeoutId) clearTimeout(timeoutId);
-                console.log(`File not found or failed to load: ${src}`);
-                if (onNotFound) onNotFound(src, error);
-                resolve(false);
-            }
-        };
-        
-        // Add script to document head
-        document.head.appendChild(script);
-    });
-}
+          }
+        },
+        true
+    )
 
+    // Apply highest damage roll to max HP
+    $('.results-right label').on('contextmenu', function(e) {
+        e.preventDefault()
+        $(this).click()
+        let matches = $('#damageValues').text().match(/\d+/g)
+        let dmg = parseInt(matches[matches.length - 1])
 
+        let newHP = Math.max(parseInt($('#p1 .max-hp').text()) - dmg, 0)
 
-function isValidJSON(str) {
-    try {
-        JSON.parse(str);
-        return true;
-    } catch (e) {
-        return false;
-    }
-}
+        $('#p1 .current-hp').val(newHP).change()
 
+    })
 
-function padArray(array, length, fill) {   return length > array.length ? array.concat(Array(length - array.length).fill(fill)) : array; }
+    $('[aria-labelledby="resultHeaderL"] label').on('contextmenu', function(e) {
+        e.preventDefault()
+        $(this).click()
+        let matches = $('#damageValues').text().match(/\d+/g)
+        let dmg = parseInt(matches[matches.length - 1])
 
+        let newHP = Math.max(parseInt($('#p2 .max-hp').text()) - dmg, 0)
 
-// status
+        $('#p2 .current-hp').val(newHP).change()
 
+    })
 
-function saveState() {
-    var state = {}
+    $(document).on('change', '.set-selector', function() {
+        setTimeout(function() {
+            let weather = $('#weather-bar input:checked').first().val().toLowerCase()
+            $('.field-info').attr('class', 'field-info')
+            $('.field-info').addClass(weather)
+        }, 1)  
+    })
 
-    state["left"] = $('.set-selector')[0].value
-    state["right"] = $('.set-selector')[2].value
-
-
-    const stats = ["at", "df", "sa", "sd", "sp"]
-    
-    state["rightBoosts"] = []
-    for (let i = 0;i<stats.length;i++) {
-        var boostVal = $(`#p2 .${stats[i]} select`).val()
-        state["rightBoosts"].push(boostVal)
-    }
-
-    state["leftBoosts"] = []
-    for (let i = 0;i<stats.length;i++) {
-        var boostVal = $(`#p1 .${stats[i]} select`).val()
-        state["leftBoosts"].push(boostVal)
-    }
-
-    state["rightHP"] = ''
-    if ($('#p2 .percent-hp').val() != '100') {
-        state["rightHP"] = $('#p2 .current-hp').val()
-    }
-
-    state["leftHP"] = ''
-    if ($('#p1 .percent-hp').val() != '100') {
-        state["leftHP"] = $('#p1 .current-hp').val()
-    }
-
-    state["rightStatus"] = ''
-    if ($('#statusR1').val() != 'Healthy') {
-        state["rightStatus"] = $('#statusR1').val()
-    }
-
-    state["leftStatus"] = ''
-    if ($('#statusL1').val() != 'Healthy') {
-        state["leftStatus"] = $('#statusL1').val()
-    }
-
-    stateKeyLeft = `${state['left'].split(" (")[0]}` 
-    for (let i = 0;i<stats.length;i++) {
-        var boostVal = state["leftBoosts"][i]
-        if (boostVal != '0') {
-            if (parseInt(boostVal) > 0) {
-                boostVal = "+" + boostVal
-            }
-
-            boostVal += stats[i].toUpperCase()
-            stateKeyLeft = `${boostVal} ${stateKeyLeft}`
-        }  
-    }
-
-    if (state["leftStatus"]) {
-        stateKeyLeft += ` (${state["leftStatus"]})`
-    }
-
-    if (state["leftHP"]) {
-        stateKeyLeft += ` (${state["leftHP"]}HP)`
-    }
-
-    stateKeyRight = `${state['right'].split(" (")[0]}` 
-    for (let i = 0;i<stats.length;i++) {
-        var boostVal = state["rightBoosts"][i]
-        if (boostVal != '0') {
-            if (parseInt(boostVal) > 0) {
-                boostVal = "+" + boostVal
-            }
-            boostVal += stats[i].toUpperCase()
-            stateKeyRight = `${boostVal} ${stateKeyRight}`
-        }  
-    }
-
-    if (state["rightStatus"]) {
-        stateKeyRight += ` (${state["rightStatus"]})`
-    }
-
-    if (state["rightHP"]) {
-        stateKeyRight += ` (${state["rightHP"]}HP)`
-    }
-
-    stateKey = `${stateKeyLeft} vs ${stateKeyRight}`
-
-    states[stateKey] = state
-    return $(`<span class="state" contenteditable="false">${stateKey}</span>`)[0]
-}
-
-
-$('#save-state').click(function(){
-    stateHTML = saveState()
-
-    // Restore the saved range
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(savedRange);
-
-    savedRange.insertNode(stateHTML)
-
-    // $('#battle-notes .notes-text').append(stateHTML)
-
-    localStorage.notes = $('#battle-notes .notes-text').html()
-    localStorage.states = JSON.stringify(states)
-})
-
-
-function getLastInteger(str) {
-  // find all numbers
-  let matches = str.match(/\d+/g);
-  if (!matches) return null;
-  return parseInt(matches[matches.length - 1], 10);
-}
-
-
-$('.results-right label').on('contextmenu', function(e) {
-    e.preventDefault()
-    $(this).click()
-    let matches = $('#damageValues').text().match(/\d+/g)
-    let dmg = parseInt(matches[matches.length - 1])
-
-    let newHP = Math.max(parseInt($('#p1 .max-hp').text()) - dmg, 0)
-
-    $('#p1 .current-hp').val(newHP).change()
-
-})
-
-$('[aria-labelledby="resultHeaderL"] label').on('contextmenu', function(e) {
-    e.preventDefault()
-    $(this).click()
-    let matches = $('#damageValues').text().match(/\d+/g)
-    let dmg = parseInt(matches[matches.length - 1])
-
-    let newHP = Math.max(parseInt($('#p2 .max-hp').text()) - dmg, 0)
-
-    $('#p2 .current-hp').val(newHP).change()
-
-})
-
-
-
-
-$('.notes-text').on("mouseup keyup", function () {
-    const selection = window.getSelection();
-    if (selection.rangeCount > 0) {
-      savedRange = selection.getRangeAt(0);
-
-    }
-});
-
-
-
-
-$('#battle-notes .notes-text').blur(function() {
-    localStorage.notes = $('#battle-notes .notes-text').html()
-})
-
-$(document).on('click', '.state', function() {
-    loadState($(this).text())
-
-})
-
-function loadState(id) {
-    state = states[id]
-
-    $('#p1').find(`.trainer-pok.left-side[data-id="${state['left']}"]`).click()
-
-    const stats = ["at", "df", "sa", "sd", "sp"]
-
-    // set boosts
-    for (let i = 0;i<stats.length;i++) {
-        var boostVal = stats[i]
-        if (stats[i] != "0") {
-            $(`#p1 .${stats[i]} select`).val(state["leftBoosts"][i])
-        }
-    }
-
-    // set hp
-    if (state["leftHP"]) {
-        $('#p1 .current-hp').val(state["leftHP"])
-    }
-
-    
-    // set status
-    if (state["leftStatus"]) {
-        $('#statusL1').val(state["leftStatus"])
-    }
-
-    setOpposing(state["right"])
-
-    for (let i = 0;i<stats.length;i++) {
-        var boostVal = stats[i]
-        if (stats[i] != "0") {
-            $(`#p2 .${stats[i]} select`).val(state["rightBoosts"][i])
-        }
-    }
-
-    if (state["rightHP"]) {
-        $('#p2 .current-hp').val(state["rightHP"])
-    }
-
-    if (state["rightStatus"]) {
-        $('#statusR1').val(state["rightStatus"])
-    }
-}
-
-$('#battle-notes .notes-text').on('keydown', function(event) {
-    if (event.key === '[') {
-        event.preventDefault(); // Prevent default behavior of creating a new <div> or <p>
-        
-        // Insert a line break at the caret position
-        $('#save-state').click()
-    }
-});
-
-$('#battle-notes .notes-text').on('keydown', function(event) {
-    if (event.key === 'Enter') {
-        event.preventDefault(); // Prevent default behavior of creating a new <div> or <p>
-        
-        // Insert a line break at the caret position
-        document.execCommand('insertLineBreak');
-    }
-});
-
-function setOpposing(id) {
-    // if in multi battle mode and user selects pokemon from already set partner, switch partners
-    if (partnerName && id.includes(partnerName)) {
-        partnerName = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
-        if (partnerName) {
-            partnerName = partnerName.replace(/\s?\)/, "").replace(/\s$/, "")
-            console.log(`Switching partners: ${partnerName}`)
-        }
-        localStorage.partnerName = partnerName
-    }
-
-    currentTrainerSet = id
-    localStorage["right"] = currentTrainerSet
-
-    $('.opposing').val(currentTrainerSet)
-    $('.opposing').change()
-    $('.opposing .select2-chosen').text(currentTrainerSet)
-    if ($('.info-group.opp > * > .forme').is(':visible')) {
-        $('.info-group.opp > * > .forme').change()
-    }
-    if ($('#player-poks-filter:visible').length > 0) {
-       box_rolls() 
-    } 
-}
-
-$(document).on('change', '.set-selector', function() {
-    setTimeout(function() {
+    $(document).on('click', '#weather-bar input', function() {
         let weather = $('#weather-bar input:checked').first().val().toLowerCase()
         $('.field-info').attr('class', 'field-info')
         $('.field-info').addClass(weather)
-    }, 1)  
-})
-
-$(document).on('click', '#weather-bar input', function() {
-    let weather = $('#weather-bar input:checked').first().val().toLowerCase()
-    $('.field-info').attr('class', 'field-info')
-    $('.field-info').addClass(weather)
-})
-
-function get_trainer_names() {
-    var all_poks = SETDEX_BW
-    var trainer_names = [] 
-
-    for (const [pok_name, poks] of Object.entries(all_poks)) {
-        var pok_tr_names = Object.keys(poks)
-        for (i in pok_tr_names) {
-           var trainer_name = pok_tr_names[i]
-           var sub_index = poks[trainer_name]["sub_index"]
-           trainer_names.push(`${pok_name} (${trainer_name})[${sub_index}]`) 
-        }      
-    }
-    return trainer_names
-}
-
-function sort_box_by_set(attr) {
-    var box = $('.player-poks'),
-    mons = box.children('.trainer-pok');
- 
-    mons.sort(function(a,b){
-        mon1_id = a.getAttribute('data-id')
-        mon1_species = mon1_id.split(" (")[0]
-        mon1_data = setdex[mon1_species]["My Box"]
-
-        mon2_id = b.getAttribute('data-id')
-        mon2_species = mon2_id.split(" (")[0]
-        mon2_data = setdex[mon2_species]["My Box"]
-
-        var an = mon1_data[attr],
-            bn = mon2_data[attr];
-     
-        
-
-        if(an > bn) {
-            return 1;
-        }
-        if(an < bn) {
-            return -1;
-        }
-        return 0;
-    });   
-    mons.detach().appendTo(box);
-}
-
-function sort_box_by_dex(attr) {
-    var box = $('.player-poks'),
-    mons = box.children('.trainer-pok');
- 
-    mons.sort(function(a,b){
-        mon1_id = a.getAttribute('data-id')
-        mon1_species = mon1_id.split(" (")[0]
-        mon1_data = pokedex[mon1_species]
-
-        mon2_id = b.getAttribute('data-id')
-        mon2_species = mon2_id.split(" (")[0]
-        mon2_data = pokedex[mon2_species]
-
-        var an = mon1_data[attr],
-            bn = mon2_data[attr];
-     
-        
-
-        if(an > bn) {
-            return 1;
-        }
-        if(an < bn) {
-            return -1;
-        }
-        return 0;
-    });   
-    mons.detach().appendTo(box);
-}
-
-function abv(s) {
-    if (($('.player-party').width() / s.length <= 50)) {
-        if (s.split(" ")[1]) {
-            return (s.split(" ")[0][0] + " " + s.split(" ")[1]).slice(0,13)
-        } else {
-            return s.slice(0,13)
-        }
-        
-    } else {
-        return s
-    }
-}
-
-function get_custom_trainer_names() {
-    var all_poks = setdex
-    var trainer_names = {} 
-
-    for (const [pok_name, poks] of Object.entries(all_poks)) {
-        var pok_tr_names = Object.keys(poks)
-        for (i in pok_tr_names) {
-           var trainer_name = pok_tr_names[i]
-           var sub_index = poks[trainer_name]["sub_index"]
-
-
-
-           // If there's a mastersheet
-           if (npoint_data["order"]) {
-                // If this trainer is listed in the mastersheet
-                if (npoint_data["order"][poks[trainer_name]["tr_id"]]) {
-                    next = npoint_data["order"][poks[trainer_name]["tr_id"]]["next"]
-                    prev = npoint_data["order"][poks[trainer_name]["tr_id"]]["prev"]
-                    setdex[pok_name][trainer_name]["next"] = next
-                    setdex[pok_name][trainer_name]["prev"] = prev
-                }  
-                
-           }
-
-
-           if (sub_index == 0) {
-                trainer_names[poks[trainer_name]["tr_id"] || 0] = `${pok_name} (${trainer_name})[${sub_index}]`
-           }     
-        }      
-    }
-
-    return trainer_names
-}
-
-function sort_box_by_name(aToZ = true) {
-    var box = $('.player-poks'),
-    mons = box.children('.trainer-pok');
- 
-    mons.sort(function(a,b){
-        mon1_id = a.getAttribute('data-id');
-        mon1_species = mon1_id.split(" (")[0];
-
-        mon2_id = b.getAttribute('data-id');
-        mon2_species = mon2_id.split(" (")[0];
-
-        if(mon1_species > mon2_species) {
-            return aToZ ? 1 : -1;
-        }
-        if(mon1_species < mon2_species) {
-            return aToZ ? -1 : 1;
-        }
-        return 0;
-    });   
-    mons.detach().appendTo(box);
-}
-
-function get_box() {
-    var names = get_trainer_names()
-    encounters = getEncounters()
-
-    var box = []
-
-    var box_html = ""
-
-    for (i in names) {
-        if (names[i].includes("My Box")) {
-            box.push(names[i].split("[")[0])
-
-            var pok_name = names[i].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace(".","").replace("’","").replace(":","-")
-            
-            if (encounters && encounters[names[i].split(" (")[0]] && !encounters[names[i].split(" (")[0]].alive) {
-                continue
-            }
-
-            var pok = `<img class="trainer-pok left-side ${sprite_style}" src="./img/${sprite_style}/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
-
-            box_html += pok
-        }   
-    }
-
-
-    $('.player-poks').html(box_html)
-    sort_box_by_name()
-
-    if ($('.trainer-pok.left-side').length >= 10) {
-        $('#search-row').css('display', 'flex')
-    }
-    filter_box()
-    return box
-}
-
-
-function filterStringsByNumber(targetNum, strArray) {
-    // Define the acceptable range
-    const minNum = targetNum - 3;
-    const maxNum = targetNum + 3;
-    
-    // Helper function to find numbers that follow "Lvl " in a string
-    const findLevelNumbersInString = (str) => {
-        const matches = str.match(/Lvl (-?\d+)/g);
-        if (!matches) return [];
-        
-        // Extract just the numbers from the matches
-        return matches.map(match => parseInt(match.replace('Lvl ', '')));
-    };
-    
-    // Filter the array
-    return strArray.filter(str => {
-        const numbers = findLevelNumbersInString(str);
-        
-        // Check if any number in the string is within range
-        return numbers.some(num => 
-            num >= minNum && num <= maxNum
-        );
-    });
-}
-
-
-function filter_box() {
-    let search_string = $('#search-box').val().toLowerCase()
-    let container = $('.trainer-pok-list.player-poks')
-
-
-
-    if (search_string.length < 2) {
-        container.find('.pokesprite').removeClass('active')
-        return
-    }
- 
-    container.find('.pokesprite').removeClass('active')
-
-    for (set in customSets) {
-        
-        let setInfo = JSON.stringify(customSets[set]).toLowerCase()
-        let pokedexInfo = JSON.stringify(pokedex[set]).toLowerCase()
-        let set_id = `${set} (My Box)`
-
-        let learnset = JSON.stringify(learnsets[set.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]).toLowerCase()
-
-        
-        if (setInfo.includes(search_string) || set.includes(search_string) || pokedexInfo.includes(search_string)) {
-            container.find(`[data-id='${set_id}']`).addClass('active')
-        }
-
-        if (learnsets) {
-            if (learnset.includes(search_string)) {
-                container.find(`[data-id='${set_id}']`).addClass('active')
-            }
-        }
-    }
-}
-
-
-
-
-function haveSameMiddleSubstring(str1, str2="") {
-    if (!str2) {return false}
-    const parts1 = str1.split('|');
-    const parts2 = str2.split('|');
-
-
-    
-    // Check if both strings have exactly 3 parts (2 pipes)
-    if (parts1.length !== 3 || parts2.length !== 3) {
-        return false;
-    }
-    
-    // Compare the middle parts (index 1)
-    return parts1[1] === parts2[1];
-}
-
-
-function get_trainer_poks(trainer_name)
-{
-    var all_poks = SETDEX_BW
-    var matches = []
-
-    trainer_name = trainer_name.replace("*", "")
-    var og_trainer_name = trainer_name.split(/Lvl [-+]?\d+ /)[1]
-
-
-    if (og_trainer_name) {
-        og_trainer_name = og_trainer_name.replace(/.?\)/, "")
-    }
-
-
-    // let sameLocation = haveSameMiddleSubstring(og_trainer_name, partnerName)
-
-    let og_white_space = " "
-    let partner_white_space = " "
-
-    if (og_trainer_name && og_trainer_name.includes(" - ")) {
-        og_white_space = ""
-    }
-
-    if (partnerName && partnerName.includes(" - ")) {
-        partner_white_space = ""
-    }
-
-
-
-    for (i in TR_NAMES) {
-
-        if (TR_NAMES[i].includes(og_trainer_name + og_white_space) || ((TR_NAMES[i].includes(partnerName + partner_white_space)))) {
-            
-
-            // To avoid cases where grunt1 matches grunt11, we check the last word in the set string to make sure it's  an actual match
-
-            if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-               matches.push(TR_NAMES[i])
-
-            }
-            if (partnerName) {
-                if (partnerName.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (partnerName.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-                   matches.push(TR_NAMES[i])
-                }  
-            }    
-        }
-    }
-
-    if (matches.length == 0) {
-        for (i in TR_NAMES) {
-
-            if (TR_NAMES[i].includes(og_trainer_name)) {
-                if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-                   matches.push(TR_NAMES[i])
-                }    
-            }
-        }
-    }
-    return matches
-}
-
-function box_rolls() {
-    if (!parseInt(localStorage.boxrolls)) {
-        return
-    }
-    var box = get_box()
-
-    var dealt_min_roll = $("#min-dealt").val()
-    var taken_max_roll = $("#max-taken").val()
-
-    // if ($("#min-dealt").val() == "" && $("#max-taken").val() == "") {
-    //     return
-    // }
-
-
-    if ($("#min-dealt").val() == "") {
-        // $("#min-dealt").val(10000)
-        dealt_min_roll=10000
-    } 
-
-    if ($("#max-taken").val() == "") {
-        // $("#max-taken").val(0)
-        taken_max_roll=-1
-    }
-
-    
-
-    $('.killer').removeClass('killer')
-    $('.defender').removeClass('defender')
-
-    var p1field = createField();
-    var p2field = p1field.clone().swap();
-
-    var p1info = $("#p2");
-    var p1 = createPokemon(p1info);
-    var p1hp = $('#p2').find('#currentHpL1').val()
-    var p1speed = parseInt($('.total.totalMod')[1].innerHTML)
-
-    if (p1.ability == "Intimidate") {
-        p1.ability = "Minus"
-    }
-
-
-
-    var killers = []
-    var defenders = []
-    var faster = []
-
-
-
-
-    for (m = 0; m < box.length; m++) {
-        var mon = createPokemon(box[m])
-        var monSpeed = mon.rawStats.spe
-
-        if (mon.ability == "Intimidate") {
-            mon.ability = "Minus"
-        }
-
-        if (monSpeed > p1speed) {
-            faster.push({"set": box[m]})
-            $(`.trainer-pok[data-id='${box[m]}']`).addClass('faster')
-        }
-
-        var monHp = mon.originalCurHP
-        var selected_move_index = $('#filter-move option:selected').index()
-
-
-        var all_results = calculateAllMoves(damageGen, p1, p1field, mon, p2field, false);
-        var opposing_results = all_results[0]
-        var player_results = all_results[1]
-
-        var defend_count = 0
-
-
- 
-        for (j = 0; j < 4; j++) {
-            player_dmg = player_results[j].damage
-
-            if (can_kill(player_dmg, p1hp * dealt_min_roll / 100)) {
-                killers.push({"set": box[m], "move": player_results[j].move.originalName})
-                $(`.trainer-pok[data-id='${box[m]}']`).addClass('killer')
-            }
-
-            opposing_dmg = opposing_results[j].damage
-
-            if (!can_topkill(opposing_dmg, monHp * taken_max_roll / 100) && (selected_move_index == 0 || j == selected_move_index - 1)) {
-                defend_count += 1
-                if (defend_count == 4 || selected_move_index > 0) {
-                    defenders.push({"set": box[m], "move": opposing_results[j].move.originalName})
-                    $(`.trainer-pok[data-id='${box[m]}']`).addClass('defender')
-                }         
-            }
-        }
-    }
-
-
-    return {"killers": killers, "defenders": defenders, "faster": faster}
-    
-}
-
-// check if ai mon has >= 50% chance kills player
-function can_kill(damages, hp) {
-    kill_count = 0
-    for (n in damages) {
-        if (damages[n] >= hp) {
-            kill_count += 1
-        }
-    }
-    return (kill_count >= 16)
-}
-
-function can_median_kill(damages, hp) {
-    kill_count = 0
-    for (n in damages) {
-        if (damages[n] >= hp) {
-            kill_count += 1
-        }
-    }
-    return (kill_count >= 8)
-}
-
-// check if ai mon highest roll kills player
-function can_topkill(damages, hp) {
-    if (hp < 0) return true;
-    kill_count = 0
-
-    if (damages.length == 2) {
-        damages = damages[0].map((val, i) => val + damages[1][i])
-    }
-
-    for (n in damages) {
-        if (damages[n] > hp) {
-            kill_count += 1
-        }
-    }
-    return (kill_count > 0)
-}
-
-// check if player deals 50% or more to ai
-function can_chunk(damages, hp) {
-    var threshold = hp / 2
-    var chunk_count = 0
-
-    for (n in damages) {
-        if (damages[n] >= threshold) {
-            chunk_count += 1
-        }
-    }
-    return (chunk_count >= 8)
-}
-
-function get_current_in() {
-    var setInfo = $('.set-selector')[3].value
-    var pok_name = setInfo.split(" (")[0]
-    var tr_name = setInfo.split(" (")[1].replace(")", "").split("[")[0]
-
-    box_rolls()
-    return SETDEX_BW[pok_name][tr_name]
-}
-
-function get_adjacent_sets() {
-    var current_in = get_current_in()
-
-}
-
-function get_current_learnset() {
-    var pok_name = createPokemon($("#p1")).name
-    if (pok_name.includes("-Mega")) {
-        pok_name = pok_name.split("-Mega")[0]
-    } 
-    current_learnset = learnsets[pok_name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]
-    
-
-
-    if (!current_learnset) {
-        $("#learnset-show").hide()
-        return
-    } else {
-        $("#learnset-show").show()
-    }
-
-    var ls_html = ""
-
-    for (let i = 0; i < current_learnset["ls"].length; i++) {
-        var lvl = current_learnset["ls"][i][0]
-        var mv_name = current_learnset["ls"][i][1]
-        ls_html += `<div class='ls-row'><div class='ls-level'>${lvl}</div><div class='ls-name'>${mv_name}</div></div>`
-    }
-    $(".lvl-up-moves").html(ls_html)
-
-    var tm_html = ""
-
-    if (current_learnset["tms"]) {
-        for (let i = 0; i < current_learnset["tms"].length; i++) {
-            var mv_name = current_learnset["tms"][i]
-
-            let tm_index = ""
-            if (tms["tms"][mv_name]) {
-                tm_index = `TM${tms["tms"][mv_name]}`
-            } else if (tms["hms"][mv_name]) {
-                tm_index = `HM${tms["hms"][mv_name]}`
-            }
-
-            tm_html += `<div class='ls-row'><div class='ls-level'>${tm_index}</div><div class='ls-name'>${mv_name}</div></div>`
-        }
-
-    }
-    
-    $(".tms").html(tm_html)
-
-    sort_tms()
-
-    return current_learnset    
-}
-
-function exportAll() {
-    $('.import-team-text').val(JSON.stringify(localStorage.customsets))
-}
-
-
-function displayParty() {
-    var destination = $('.player-party')
-
-    if (currentParty.length > 0) {
-        $('.player-party').css('display', 'flex')
-        $('#clear-party').css('display', 'inline-block')
-
-        if (saveUploaded) {
-            $('#edge').css('display', 'inline-block')
-        }
-
-        for (i in currentParty) {
-            species_name = currentParty[i]
-
-            var sprite_name = species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
-            var set_data = setdex[species_name]["My Box"]
-            var data_id = species_name + " (My Box)"
-
-
-            var pok = `<div class="trainer-pok-container">
-                <img class="trainer-pok left-side" src="./img/${sprite_style}/${sprite_name}.png" data-id="${data_id}">
-                <div class="bp-info">${abv(set_data['moves'][0].replace("Hidden Power", "HP"))}</div>
-                <div class="bp-info">${abv(set_data['moves'][1].replace("Hidden Power", "HP"))}</div>
-                <div class="bp-info">${abv(set_data['moves'][2].replace("Hidden Power", "HP"))}</div>
-                <div class="bp-info">${abv(set_data['moves'][3].replace("Hidden Power", "HP"))}</div>
-            </div>`
-            destination.append(pok)
-        }
-
-    }
-}
-
-function get_encs() {
-    if (typeof all_encs == 'undefined') {
-        $.ajax({
-             async: false,
-             type: 'GET',
-             url: encs,
-             success: function(data) {
-                all_encs = data
-             }
-        });
-    }
-    return all_encs
-}
-
-function toggleBoxSpriteStyle() {
-    var oldStyle = boxSprites[parseInt(localStorage.boxspriteindex)]
-    localStorage.boxspriteindex = (parseInt(localStorage.boxspriteindex) + 1) % 2
-    sprite_style = boxSprites[parseInt(localStorage.boxspriteindex)]
-
-    $('.player-poks').removeClass(oldStyle)
-    $('.player-poks').addClass(sprite_style)
-
-    $('.trainer-pok').each(function() {
-        $(this).removeClass(oldStyle)
-        var newURL = $(this).attr('src').replace(oldStyle, sprite_style)
-        $(this).attr('src', newURL)
     })
-}
-
-$('#theme-toggle .slider').click(toggleThemes)
-
-function toggleThemes() {
-    var oldStyle = themes[parseInt(localStorage.themeIndex)]
-    localStorage.themeIndex = (parseInt(localStorage.themeIndex) + 1) % 2
-    themeStyle = themes[parseInt(localStorage.themeIndex)]
-
-    $('html, body').removeClass(oldStyle)
-    $('html, body').addClass(themeStyle)
-}
-
-function toggle_box_rolls() {
-    localStorage.boxrolls = (parseInt(localStorage.boxrolls) + 1) % 2   
-}
-
-$('#toggle-boxroll .slider').click(function(){
-    toggle_box_rolls()
-    $('#player-poks-filter').toggle()
-    if ($('#player-poks-filter:visible').length > 0) {
-        box_rolls()
-    }
-})
-
-$('#toggle-battle-notes .slider').click(function(){
-    localStorage.battlenotes = (parseInt(localStorage.battlenotes) + 1) % 2   
-    $('.poke-import').first().toggle()
-})
-
-$('#save-toggle .slider').click(function(){
-    localStorage.watchSaveFile = (parseInt(localStorage.watchSaveFile) + 1) % 2;   
-})
-
-$('#save-filter-toggle .slider').click(function(){
-    localStorage.filterSaveFile = (parseInt(localStorage.filterSaveFile) + 1) % 2;   
-})
-
-function construct_type_chart() {
-    var type_names = ["Normal", "Fire", "Water", "Electric", "Grass", "Ice",
-             "Fighting", "Poison", "Ground", "Flying", "Psychic",
-             "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy","???"]
-
-    var types = TYPES_BY_ID[type_chart]
-    var chart = []
-
-    for (i = 0; i < type_names.length; i++) {
-        var effectiveness = []
-
-        for (j = 0; j < type_names.length; j++) {
-            effectiveness.push(types[type_names[i].toLowerCase().replace("???", "")].effectiveness[type_names[j]])
-        }
-        chart.push(effectiveness)
-    }
-
-    return chart
-}
-
-function get_type_info(pok_types, move=false) {
-    if (pok_types[1] == pok_types[0]) {
-        pok_types[1] = "None"
-    }
-
-    var type_name = ["Normal", "Fire", "Water", "Electric", "Grass", "Ice",
-                 "Fighting", "Poison", "Ground", "Flying", "Psychic",
-                 "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy","None"]
-
-    var result = {}
-
-    if (typeof final_type_chart !== 'undefined') {
-        var types = final_type_chart
-
-    } else {
-
-        var types = [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.5, 0, 1, 1, 0.5, 1,1],
-                [1, 0.5, 0.5, 1, 2, 2, 1, 1, 1, 1, 1, 2, 0.5, 1, 0.5, 1, 2, 1,1],
-                [1, 2, 0.5, 1, 0.5, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0.5, 1, 1, 1,1],
-                [1, 1, 2, 0.5, 0.5, 1, 1, 1, 0, 2, 1, 1, 1, 1, 0.5, 1, 1, 1,1],
-                [1, 0.5, 2, 1, 0.5, 1, 1, 0.5, 2, 0.5, 1, 0.5, 2, 1, 0.5, 1, 0.5, 1,1],
-                [1, 0.5, 0.5, 1, 2, 0.5, 1, 1, 2, 2, 1, 1, 1, 1, 2, 1, 0.5, 1,1],
-                [2, 1, 1, 1, 1, 2, 1, 0.5, 1, 0.5, 0.5, 0.5, 2, 0, 1, 2, 2, 0.5,1],
-                [1, 1, 1, 1, 2, 1, 1, 0.5, 0.5, 1, 1, 1, 0.5, 0.5, 1, 1, 0, 2,1],
-                [1, 2, 1, 2, 0.5, 1, 1, 2, 1, 0, 1, 0.5, 2, 1, 1, 1, 2, 1,1],
-                [1, 1, 1, 0.5, 2, 1, 2, 1, 1, 1, 1, 2, 0.5, 1, 1, 1, 0.5, 1,1],
-                [1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 0.5, 1, 1, 1, 1, 0, 0.5, 1,1],
-                [1, 0.5, 1, 1, 2, 1, 0.5, 0.5, 1, 0.5, 2, 1, 1, 0.5, 1, 2, 0.5, 0.5,1],
-                [1, 2, 1, 1, 1, 2, 0.5, 1, 0.5, 2, 1, 2, 1, 1, 1, 1, 0.5, 1,1],
-                [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 2, 1, 0.5, 1, 1,1],
-                [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 0.5, 0,1],
-                [1, 1, 1, 1, 1, 1, 0.5, 1, 1, 1, 2, 1, 1, 2, 1, 0.5, 1, 0.5,1],
-                [1, 0.5, 0.5, 0.5, 1, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0.5, 2,1],
-                [1, 0.5, 1, 1, 1, 1, 2, 0.5, 1, 1, 1, 1, 1, 1, 2, 2, 0.5, 1,1],
-                [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
-
-        if (type_chart < 6) {
-            types[13][16] = 0.5
-            types[15][16] = 0.5
-        } else {
-           types[13][16] = 1
-            types[15][16] = 1 
-        }
-
-        if (move == "Corrosion") {
-            types[7][16] = 2
-        }
-        if (move == "Scrappy") {
-            types[0][13] = 1
-            types[6][13] = 1
-        }
-    }
-   
-    var type1 = type_name.indexOf(pok_types[0])
-    var type2 = type_name.indexOf(pok_types[1])
-
-
-    for (i in types) {
-        if (invert) {
-            if (type1 == -1) {
-                return result
-            }
-            
-            var matchup1 = types[i][type1]
-            var matchup2 = types[i][type2]
-
-            if (matchup1 == 0) {
-                matchup1 = 0.5
-            }
-
-            if (matchup2 == 0) {
-                matchup2 = 0.5
-            }
-            result[type_name[i]] = (1 / (matchup1 * matchup2))
-        } else {
-          
-          result[type_name[i]] = (types[i][type1] * types[i][type2])  
-        }   
-    }
-    return result
-}
-
-function adjustStat(speciesName, stat, value) {
-    pokedex[speciesName].bs[stat] = value
-
-    speciesId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-    SPECIES_BY_ID[gen][speciesId].baseStats[stat] = value
-}
-
-function loadDataSource(data) {
-    SETDEX_BW = data
-    SETDEX_ADV = data
-    SETDEX_DPP = data
-    SETDEX_SM = data
-    SETDEX_SS = data
-    SETDEX_XY = data
-    setdex = data
-
-    // if (data["title"]) {
-    //     TITLE = data["title"]
-    //     $('.genSelection').hide()
-    //     $('#rom-title').text(TITLE).show()
-    // }
-
-
-    TR_NAMES = get_trainer_names()
-    if ('move_replacements' in data) {
-        CHANGES = data['move_replacements']
-    } else {
-        CHANGES = {}
-    }
-
-    moveChanges["NONE"] = CHANGES
-
-    
-    jsonMoves = data["moves"]
-    customMoves = data["custom_moves"]
-    var jsonMove
-
-
-    $("#show-ai").hide()
-
-
-    console.log("loaded custom poks data")
-
-    $('#save-pok').show()
-
-    // imperium changes
-    if (TITLE.includes("Emerald Imperium")) {
-
-        moves['Chloroblast'].recoil = [50,100];
-        MOVES_BY_ID[g].chloroblast.recoil = [50,100]
-        
-        if (TITLE.includes("1.3")) {
-            $('#reasoning').show()
-            adjustStat("Unfezant", "at", 115)
-            adjustStat("Unfezant", "sp", 108)
-
-            adjustStat("Empoleon-Mega-O", "hp", 84)
-            adjustStat("Empoleon-Mega-O", "df", 83)
-            adjustStat("Empoleon-Mega-O", "sd", 83)
-
-            adjustStat("Empoleon-Mega-D", "hp", 118)
-            adjustStat("Empoleon-Mega-D", "df", 88)
-            adjustStat("Empoleon-Mega-D", "sd", 157)
-            adjustStat("Empoleon-Mega-D", "sa", 131)
-
-            adjustStat("Infernape-Mega", "df", 82)
-            adjustStat("Infernape-Mega", "sd", 82)
-            adjustStat("Infernape-Mega", "sp", 120)
-
-            adjustStat("Slaking-Mega", "sa", 95)
-            adjustStat("Slaking-Mega", "sd", 75)
-
-            adjustStat("Roserade-Mega", "at", 80)
-            adjustStat("Roserade-Mega", "df", 90)
-            adjustStat("Roserade-Mega", "sa", 140)
-            adjustStat("Roserade-Mega", "sd", 125)
-            adjustStat("Roserade-Mega", "sp", 120)
-
-
-            moves['Mighty Cleave'].bp = 90;
-            MOVES_BY_ID[g].mightycleave.basePower = 90
-
-            $('#learnset-show').show()
-
-        }
-        
-
-        $('#maxL').next().remove()
-        $('#maxR').next().remove()
-        pokedex["Raichu"]["types"] = ["Electric", "Normal"]
-    }
-
-
-    initCalc() 
-
-
-    if (localStorage.customsets) {
-        console.log("loading box")
-        customSets = JSON.parse(localStorage.customsets);
-        updateDex(customSets)   
-        get_box()
-        displayParty()
-    }
-    
-    customLeads = get_custom_trainer_names()
-
-    moves['(No Move)'] = moves['-'] = {
-        "bp": 0,
-        "category": "Status",
-        "type": "Normal"
-    }
-
-    
-}
-
-
-params = new URLSearchParams(window.location.search);
-devMode = params.get('dev') == '1'
-g = params.get('gen');
-damageGen = parseInt(params.get('dmgGen'))
-type_chart = parseInt(params.get('types'))
-type_mod = params.get('type_mod')
-switchIn = parseInt(params.get('switchIn'))
-noSwitch = params.get('noSwitch')
-hasEvs = params.get('evs') != '0'
-challengeMode = params.get('challengeMode')
-FAIRY = params.get('fairy') == '1'
-misc = params.get('misc')
-invert = params.get('invert')
-DEFAULTS_LOADED = false
-analyze = false
-limitHits = false
-FIELD_EFFECTS = {}
-
-if (params.get('data') == 'bd7fc78f8fa2500dfcca') {
-    location.href = 'https://hzla.github.io/Dynamic-Calc/?data=26138cc1d500b0cf7334&gen=7&switchIn=4&types=6'
-}
-
-if (damageGen <= 3) {
-    $('#player-poks-filter').remove()
-}
-
-
-
-// if (!TITLE.includes("1.3")) {
-    $('#toggle-analysis').addClass('gone')
-// }  
-
-$(document).ready(function() {
-   SETDEX_BW = null
-   TR_NAMES = null
-   BACKUP_MODE = params.get('backup')
-
-
-   params = new URLSearchParams(window.location.search)
-    SOURCES = {"9aa37533b7c000992d92": "Blaze Black/Volt White",
-   "04770c9a89687b02a9f5": "Blaze Black 2/Volt White 2 Original",
-   "945a33720dbd6bc04488": "Blaze Black 2/Volt White 2 Redux 1.4",
-   "da1eedc0e39ea07b75bf": "Vintage White",
-   "26138cc1d500b0cf7334": "Renegade Platinum",
-   "03e577af7cc9856a1f42": "Sacred Gold/Storm Silver",
-   "9e7113f0ee22dad116e1": "Platinum Redux 5.2 TC6",
-   "b6e2693147e215f10f4a": "Radical Red 3.02",
-   "e91164d90d06a009e6cc": "Radical Red 4.1 Hardcore",
-   "7a1ed35468b22ea01103": "Ancestral X",
-   "8c3ca30ba346734d5e4f": "Run & Bun",
-   "f109940e5639c3702e6d": "Rising Ruby/Sinking Saphire",
-   "00734d33040067eb7e9f": "Grand Colloseum 2.0",
-   "24bbfc0e69ff4a5c006b": "Emerald Kaizo",
-   "13fc25a3b19071978dd6": "Platinum",
-   "be0a4fedbe0ff31e47b0": "Heart Gold/Soul Silver",
-   "78381c312866ee2e6ff9": "Black/White",
-   "83c196dce6759252b3f4": "Black 2/White 2",
-   "8d1ab90a3b3c494d8485": "Eternal X/Wilting Y Insanity Rebalanced",
-   "68bfb2ccba14b7f6b1f0": "Inclement Emerald",
-   "e9030beba9c1ba8804e8": "Kaizo Colloseum",
-   "6875151cfa5eea00eafa": "Inclement Emerald No EVs",
-   "8f199f3f40194ecc4b8e": "Sterling Silver 1.14",
-   "7ea3ff9a608c1963a0a5": "Sterling Silver 1.15",
-   "b819708dba8f8c0641d5": "Sterling Silver 1.16",
-   "5b789b0056c18c5c668b": "Platinum Redux 2.6",
-   "de22f896c09fceb0b273": "Maximum Platinum",
-   "a0ff5953fbf39bcdddd3": "Cascade White 2",
-   "ee9b421600cd6487e4e3": "Photonic Sun/Prismatic Moon",
-   "d3501821feaa976d581a": "Azure Platinum",
-   "9abb79df1e356642c229": "Fire Red Omega",
-   "12f82557ed0e08145660": "Fire Red",
-   "aeb373b7631d4afd7a53": "Emerald",
-   "006ac04e900ccb3110df": "Luminescent Platinum",
-   "2ec049ba9513d189a915": "Emerald Imperium",
-   "55d895a19083b26c0c53": "Emerald Imperium 1.2",
-   "imp13": "Emerald Imperium 1.3",
-   "ced457ba9aa55731616c": "Radical Red 4.1 Normal"
-    }
-
-    MASTERSHEETS = {
-        "Blaze Black 2/Volt White 2 Redux 1.4": "bb2redux",
-        "Sterling Silver 1.14": "sterlingsilver",
-        "Renegade Platinum": "renplat",
-        "Vintage White": "vw"
-    }
-    encs = `https://api.npoint.io/c39f79b412a6f19f3c4f`
-
-    INC_EM = false
-    if (SOURCES[params.get('data')]) {
-        TITLE = SOURCES[params.get('data')] || "NONE"
-
-        // redirect for old ren plat url
-        if (params.get('data') == 'bd7fc78f8fa2500dfcca') {
-            location.href = 'https://hzla.github.io/Dynamic-Calc/?data=26138cc1d500b0cf7334&gen=7&switchIn=4&types=6'
-        }
-
-
-        baseGame = ""
-        if (TITLE.includes("Inclement") ) {
-            baseGame = "inc_em"
-        } else if (TITLE.includes("Imperium")) {
-            baseGame = "imp"
-        }
-
-        if (!baseGame) {
-            $('#read-save').hide()
-        } else {
-            $('.save-editor-guide').show()
-        }
-
-        $('.genSelection').hide()
-        $('#rom-title').text(TITLE).show()
-        if (TITLE.includes("Radical Red") || TITLE.includes("Emerald Imperium")) {
-            // INC_EM = true
-            $("#lvl-cap").show()
-            // $("#harsh-sunshine").next().text("Ability Sun")
-            // $("#heavy-rain").next().text("Ability Rain")
-        }
-
-        if ( TITLE == "Cascade White 2") {
-            $('.cascade-effects .btn-small').show()
-        }
-
-        if (MASTERSHEETS[TITLE] && !location.href.includes("mastersheet")) {
-            mastersheetURL = location.href.replace("index.html","").replace("?data", `/${MASTERSHEETS[TITLE]}_mastersheet.html?data`)
-            $("#ms-btn").show()
-            $("#ms-btn").click(function() {location.href = mastersheetURL})
-        }
-    } else {
-        TITLE = "NONE"
-    }
 
 
     $(document).on('change', '.calc-select', function() {
@@ -1432,12 +79,6 @@ $(document).ready(function() {
 
     if (!params.get('data')) {return}
 
-   npoint = `https://api.npoint.io/${params.get('data')}`
-
-
-   if (params.get('data').includes("Pokeweb")) {
-    npoint = `http://fishbowlweb.cloud:3000/${params.get('data').split("Pokeweb-")[1]}_calc.json`
-   }
    jsonMoves = moves
 
    var g =  parseInt(params.get('gen'));
@@ -1466,9 +107,7 @@ $(document).ready(function() {
                     }, 20)
                 },
                 onNotFound: (src) => console.log(`Not found: ${src}`)
-        }); 
-            
-        
+        });    
         
    } else {
         $.get(npoint, function(data){
@@ -1495,13 +134,10 @@ $(document).ready(function() {
         })
    }
 
-
-
    $(document).on('click', '.trainer-name', function() {
         var tr_id = parseInt($(this).parent().parent().attr('data-index'))
 
         currentTrainerSet = customLeads[tr_id].split("[")[0]
-
         localStorage["right"] = currentTrainerSet
 
         $('.opposing').val(currentTrainerSet)
@@ -1516,7 +152,6 @@ $(document).ready(function() {
 
    })
   
-
    $(document).on('click', '.trainer-pok.right-side, .sim-trainer', function() {
         setOpposing($(this).attr('data-id'))
    })
@@ -1524,9 +159,6 @@ $(document).ready(function() {
    $(document).on('click', '.trainer-pok-item', function() {
         $(this).prev().click()
    })
-
-
-
    
    $(document).on('click', '.nav-tag', function() {
         var set = customLeads[$(this).attr('data-next')].split("[")[0]
@@ -1599,10 +231,6 @@ $(document).ready(function() {
         }
    })
 
-   // $(document).on('click', '#toggle-analysis', function() {
-   //      $('#reasoning').toggleClass('gone')
-   // })
-
    $(document).on('click', '#show-ai', function() {
         $("#ai-container").toggle()
    })
@@ -1641,9 +269,6 @@ $(document).ready(function() {
         toggleParam('noSwitch')
    })
 
-
-
-
     $(document).on('contextmenu', '.trainer-pok.right-side', function(e) {
         e.preventDefault()
         $(this).toggleClass('fainted')
@@ -1661,8 +286,6 @@ $(document).ready(function() {
         var currentPok = $('.set-selector')[1].value
         $(`[data-id="${currentPok}"]`).trigger('contextmenu')
     })
-
-
 
    $(document).on('contextmenu', '.trainer-pok.left-side', function(e) {
         e.preventDefault()
@@ -1726,26 +349,11 @@ $(document).ready(function() {
         currentParty = []
    })
 
-
-
-
-
-   $(document).on('click', '#img-toggle', function() {
-        let url = window.location.href;    
-        if (url.indexOf('?') > -1){
-           url += '&backup=true'
-        } else {
-           url += '?backup=true'
-        }
-        window.location.href = url;
-   })
-
    $(document).on('click', '.cascade-effects input', function() {
         var effect = $(this).attr('id')
         FIELD_EFFECTS = {}
         FIELD_EFFECTS[effect] = true
    })
-
 
    function setPartner() {
         if (partnerName) {
@@ -1768,9 +376,6 @@ $(document).ready(function() {
     }
 
     $(document).on('click', '#set-partner', setPartner)
-
-
-
 
     $(document).keydown(async function (e) {
         if ($('.select2-drop-active:visible').length == 0 && 
@@ -1816,7 +421,6 @@ $(document).ready(function() {
         }   
     });
 
-
    $(document).on('click', '#invert-types', function() {
         let url = window.location.href;    
         if (url.indexOf('?') > -1){
@@ -1831,18 +435,18 @@ $(document).ready(function() {
         toggleBoxSpriteStyle()
    })
 
-$('.set-selector, .move-selector').on("select2-close", function () {
-    setTimeout(function() {
-        $('.select2-container-active').removeClass('select2-container-active');
-        $(':focus').blur();
-    }, 1);
-});
+    $('.set-selector, .move-selector').on("select2-close", function () {
+        setTimeout(function() {
+            $('.select2-container-active').removeClass('select2-container-active');
+            $(':focus').blur();
+        }, 1);
+    });
 
-$('body').on('change', 'select', function(e) {
-    if (!e.originalEvent) return;
-    console.log("refreshing team preview")
-    refresh_next_in()
-})
+    $('body').on('change', 'select', function(e) {
+        if (!e.originalEvent) return;
+        console.log("refreshing team preview")
+        refresh_next_in()
+    })
 
 
    $(document).on('click', '#weather-bar label', function() {
@@ -1855,8 +459,7 @@ $('body').on('change', 'select', function(e) {
         if ($('.opposing .forme:visible').length < 1) {
             return
         }
-
-        
+   
         if (weather == "Rain" && $('.forme').last().val().includes("Castform")) {
             $('.forme').last().val("Castform-Rainy").change()
             $('#p2 .poke-sprite').attr('src', sprite.replace(cast_regx, "castform-rainy"))
@@ -1877,24 +480,6 @@ $('body').on('change', 'select', function(e) {
             $('#p2 .poke-sprite').attr('src', sprite.replace(cast_regx, "castform"))
         }     
    })
-
-   function extractPokemonName(str) {
-        // Match everything before the opening parenthesis and trim whitespace
-        const match = str.match(/^(.+?)\s*\(/);
-        return match ? match[1].trim() : null;
-    }
-
-    function toTitleCase(str) {
-      if (!str) {
-        return ""
-      }
-      return str
-        .toLowerCase()
-        .split(' ')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
-    }
-
 
     $(document).on('click', '.trainer-pok.left-side', function() {
         var set = $(this).attr('data-id')
@@ -1958,5 +543,4 @@ $('body').on('change', 'select', function(e) {
         poks.removeClass('defender')
         poks.removeClass('killer')
     })
-
 })
