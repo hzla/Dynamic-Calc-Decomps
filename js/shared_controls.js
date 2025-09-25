@@ -746,20 +746,23 @@ $(".set-selector").change(function () {
 			let abilities = abilsPrimary[pokemonName]
 			let uniqAbilities = []
 
-			if (abilities) {
-				abilities = abilities.filter(item => item !== "None");
-				uniqAbilities = [...new Set(abilities)]
+			if (TITLE.includes("1.3")) {
+				if (abilities) {
+					abilities = abilities.filter(item => item !== "None");
+					uniqAbilities = [...new Set(abilities)]
 
-				console.log(uniqAbilities)
+					console.log(uniqAbilities)
 
-				let abilOptions = ""
-				for (abil of uniqAbilities) {
-					abilOptions += `<option value="${abil}">${abil}</option>`
+					let abilOptions = ""
+					for (abil of uniqAbilities) {
+						abilOptions += `<option value="${abil}">${abil}</option>`
+					}
+					$('#abilityL1').html(abilOptions)
+				} else {
+					$('#abilityL1').html($('#abilityR1').html())
 				}
-				$('#abilityL1').html(abilOptions)
-			} else {
-				$('#abilityL1').html($('#abilityR1').html())
 			}
+			
 
 			
 			
