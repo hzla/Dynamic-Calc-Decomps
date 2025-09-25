@@ -13,6 +13,7 @@ challengeMode = params.get('challengeMode')
 FAIRY = params.get('fairy') == '1'
 misc = params.get('misc')
 invert = params.get('invert')
+randomized = params.get('random') == '1'
 DEFAULTS_LOADED = false
 analyze = false
 limitHits = false

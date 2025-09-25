@@ -6,6 +6,9 @@ let fileHandle = null;
 let lastContents = null;
 let file = null
 
+let isRandom = localStorage.isRandom
+
+
 
 if ('showOpenFilePicker' in window && localStorage.watchSaveFile == '1') {
     saveOpenSelector = 'read-save'
@@ -203,6 +206,9 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                         }
 
 
+                        console.log(`${speciesName}: ${tid}`)
+
+
                         // Try Substitute Spaces for Dashes if pokemon name doesn't exist
 
                         if (!pokedex[speciesName]) {
@@ -247,12 +253,7 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                             }
                         }
                         
-                        
-
-
-
-                        
-              
+                    
 
                         
                         if (typeof gr == "unefined") {
@@ -371,6 +372,23 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                                 console.log(`${speciesName} no ability found`)
                             }          
                         }
+
+                        if (randomized) {
+
+                            try {
+                                let slotIndex = decrypted[misc_index * 3 + 2] >> 29 & 0b11
+                                if (abilsPrimary[speciesName][slotIndex] == "None") {
+                                    slotIndex = 0
+                                } 
+                                abilitySlot = sav_abilities[randomizeAbility(speciesId, slotIndex, tid)]
+                                console.log([speciesId, slotIndex, tid])
+                                console.log(abilitySlot)
+                            } catch {
+                                abilitySlot = "None"
+                            }                  
+                        }
+
+
                         
 
 
