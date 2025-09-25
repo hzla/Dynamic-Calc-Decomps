@@ -5496,9 +5496,10 @@ abilsPrimary = {
     "Technician"
   ],
   "Ogerpon": [
-    "Ability",
-    "None",
-    "Ability"
+    "Defiant",
+    "Water Absorb",
+    "Mold Breaker",
+    "Sturdy"
   ],
   "Dipplin": [
     "Sticky Hold",

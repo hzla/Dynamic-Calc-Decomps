@@ -741,7 +741,31 @@ $(".set-selector").change(function () {
 
 
 	
-				$('#p1 .poke-sprite').addClass('no-flip')
+			$('#p1 .poke-sprite').addClass('no-flip')
+
+			let abilities = abilsPrimary[pokemonName]
+			let uniqAbilities = []
+
+			if (abilities) {
+				abilities = abilities.filter(item => item !== "None");
+				uniqAbilities = [...new Set(abilities)]
+
+				console.log(uniqAbilities)
+
+				let abilOptions = ""
+				for (abil of uniqAbilities) {
+					abilOptions += `<option value="${abil}">${abil}</option>`
+				}
+				$('#abilityL1').html(abilOptions)
+			} else {
+				$('#abilityL1').html($('#abilityR1').html())
+			}
+
+			
+			
+			
+
+
 
 			if (TITLE == "Emerald Kaizo") {
 				caps = [15, 29, 48, 70]
@@ -920,7 +944,7 @@ $(".set-selector").change(function () {
 			pokeObj.find(".gender").val("");
 		} else pokeObj.find(".gender").parent().show();
 
-		if (typeof SETDEX_BW[pokemonName][setName] != "undefined" && SETDEX_BW[pokemonName][setName]["status"]) {
+		if (typeof SETDEX_BW[pokemonName] != "undefined" && typeof SETDEX_BW[pokemonName][setName] != "undefined" && SETDEX_BW[pokemonName][setName]["status"]) {
 			console.log("adjust status")
 			pokeObj.find(".status").val(SETDEX_BW[pokemonName][setName]["status"]).change();
 		} else {
