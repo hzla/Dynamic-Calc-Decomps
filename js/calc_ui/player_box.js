@@ -93,6 +93,8 @@ function sort_box_by_name(aToZ = true) {
 
 function displayParty() {
     var destination = $('.player-party')
+    $('.player-party').html("")
+
 
     if (currentParty.length > 0) {
         $('.player-party').css('display', 'flex')
