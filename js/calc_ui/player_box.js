@@ -217,12 +217,12 @@ function box_rolls() {
 
     if ($("#min-dealt").val() == "") {
         // $("#min-dealt").val(10000)
-        dealt_min_roll=10000
+        dealt_min_roll=10000000
     } 
 
     if ($("#max-taken").val() == "") {
         // $("#max-taken").val(0)
-        taken_max_roll=-1
+        taken_max_roll=-100000
     }
 
     
