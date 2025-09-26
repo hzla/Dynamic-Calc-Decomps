@@ -746,7 +746,7 @@ $(".set-selector").change(function () {
 			let abilities = abilsPrimary[pokemonName]
 			let uniqAbilities = []
 
-			if (TITLE.includes("1.3") && !randomized) {
+			if (TITLE.includes("1.3") && localStorage.randomized != '1') {
 				if (abilities) {
 					abilities = abilities.filter(item => item !== "None");
 					uniqAbilities = [...new Set(abilities)]

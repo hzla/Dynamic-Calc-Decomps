@@ -6,7 +6,7 @@ let fileHandle = null;
 let lastContents = null;
 let file = null
 
-let isRandom = localStorage.isRandom
+let isRandom = localStorage.randomized == '1'
 
 
 
@@ -373,7 +373,7 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                             }          
                         }
 
-                        if (randomized) {
+                        if (localStorage.randomized == '1') {
 
                             try {
                                 let slotIndex = decrypted[misc_index * 3 + 2] >> 29 & 0b11

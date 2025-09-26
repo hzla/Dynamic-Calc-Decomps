@@ -146,6 +146,10 @@ function initCalc() {
     localStorage.watchSaveFile = 0
   }
 
+  if (typeof localStorage.randomized === 'undefined') {
+    localStorage.randomized = 0
+  }
+
   if (typeof localStorage.filterSaveFile === 'undefined') {
     localStorage.filterSaveFile = 0
   }
@@ -213,6 +217,10 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.battlenotes == '1') {
         $('#toggle-battle-notes input').prop('checked', true)
     }
+
+    if (localStorage.randomized == '1') {
+        $('#toggle-rand input').prop('checked', true)
+    }
 }
 
 function toggleBoxSpriteStyle() {
@@ -259,6 +267,10 @@ $('#toggle-boxroll .slider').click(function(){
 $('#toggle-battle-notes .slider').click(function(){
     localStorage.battlenotes = (parseInt(localStorage.battlenotes) + 1) % 2   
     $('.poke-import').first().toggle()
+})
+
+$('#toggle-rand .slider').click(function(){
+    localStorage.randomized = (parseInt(localStorage.randomized) + 1) % 2   
 })
 
 $('#save-toggle .slider').click(function(){
