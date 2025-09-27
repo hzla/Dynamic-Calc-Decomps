@@ -419,6 +419,12 @@ $(".move-selector").change(function () {
 
 	var moveGroupObj = $(this).parent();
 	moveGroupObj.children(".move-bp").val(moveName === 'Present' ? 40 : move.bp);
+
+	
+	if (typeof backup_moves != 'undefined' && typeof backup_moves[moveName] != 'undefined') {
+		moveGroupObj.children(".move-pp").val(backup_moves[moveName].pp);
+	}
+				
 	var m = moveName.match(HIDDEN_POWER_REGEX);
 
 
@@ -460,6 +466,7 @@ $(".move-selector").change(function () {
 					moveGroupObj.children(".move-bp").val(gen >= 6 ? 60 : 70);
 				}
 			} else {
+				console.log("helloooo")
 				moveGroupObj.children(".move-bp").val(actual.power);
 			}
 		} else if (gen >= 2 && gen <= 6 && HIDDEN_POWER_REGEX.test($(this).attr('data-prev'))) {

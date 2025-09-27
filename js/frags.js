@@ -196,6 +196,22 @@ function prevoData(speciesName, encounters) {
     return [0, [], false, false]
 }
 
+function shouldHidePrevo(speciesName) {
+	let evos = evoData[speciesName]["evos"]
+
+	for (evo of evos) {
+		if (evo == speciesName) {
+			continue
+		} else {
+			if (customSets[evo] && !evo.includes("-Mega") && Object.keys(customSets[evo]).length != 0) {
+				console.log(customSets[evo])
+				return true
+			}
+		}
+	}
+	return false
+}
+
 
 $(document).ready(function(){
 	$(document).on('click', '#p2 .poke-sprite', addFrag)

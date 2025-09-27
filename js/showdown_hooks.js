@@ -186,9 +186,14 @@ $(document).ready(function() {
    $(document).on('keyup', '#search-box', filter_box)
 
 
-   $(document).on('click', '#learnset-show', function() {
+   $(document).on('click', '#learnset-show', function(e) {
         get_current_learnset()
         $('#learnset-container').toggle()
+         e.stopPropagation();
+   })
+
+   $(document).on('click', 'body', function() {
+      $('#learnset-container').hide()
    })
 
    sort_tms = function () {

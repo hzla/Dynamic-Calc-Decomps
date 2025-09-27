@@ -59,6 +59,8 @@ input[type="file"] {
     text-align: center;
 }
 
+
+
 .ms-move .move-name {
     margin-left:  0px;
 }
@@ -390,6 +392,13 @@ input {
 .move-result-subgroup {
     margin-bottom: 20px;
     font-size: 16px;
+}
+
+.poke-info input:not([type]).move-info {
+    width: 2em;
+    font-size: 0.9em;
+    text-align: center;
+    display: none;
 }
 
 .move-result-subgroup div {
@@ -1355,7 +1364,7 @@ select.toxic-counter {
     font-size: 0.9em;
 }
 .move-selector {
-    width: 15.5em;
+    width: 200px;
     font-size: 18px;
     height: 24px;
     margin: 5px 0px;
@@ -1364,8 +1373,13 @@ select.toxic-counter {
     width: 2em;
 }
 .move-type.calc-trigger {
-    width: 6em;
+    width: 85px;
 }
+
+.move-type.acc {
+
+}
+
 .move-cat {
     width: 6em;
 }

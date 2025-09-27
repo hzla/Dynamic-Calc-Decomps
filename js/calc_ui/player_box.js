@@ -164,6 +164,7 @@ function get_box() {
         $('#search-row').css('display', 'flex')
     }
     filter_box()
+
     return box
 }
 
@@ -171,15 +172,24 @@ function filter_box() {
     let search_string = $('#search-box').val().toLowerCase()
     let container = $('.trainer-pok-list.player-poks')
 
+    // Hide Prevos
+    if (localStorage.hidePrevos == '1') {
+        container.find('.pokesprite').show()
+        for (set in customSets) {
+            let set_id = `${set} (My Box)`
+            if (shouldHidePrevo(set)) {
+               container.find(`[data-id='${set_id}']`).hide()
+            }
+        }
+    }
 
-
+    // Return if search string is too short
     if (search_string.length < 2) {
         container.find('.pokesprite').removeClass('active')
         return
     }
- 
-    container.find('.pokesprite').removeClass('active')
 
+    container.find('.pokesprite').removeClass('active')
     for (set in customSets) {
         
         let setInfo = JSON.stringify(customSets[set]).toLowerCase()
@@ -210,18 +220,13 @@ function box_rolls() {
     var dealt_min_roll = $("#min-dealt").val()
     var taken_max_roll = $("#max-taken").val()
 
-    // if ($("#min-dealt").val() == "" && $("#max-taken").val() == "") {
-    //     return
-    // }
 
 
     if ($("#min-dealt").val() == "") {
-        // $("#min-dealt").val(10000)
         dealt_min_roll=10000000
     } 
 
     if ($("#max-taken").val() == "") {
-        // $("#max-taken").val(0)
         taken_max_roll=-100000
     }
 
@@ -246,6 +251,9 @@ function box_rolls() {
     var defenders = []
     var faster = []
     for (m = 0; m < box.length; m++) {
+        if (p1.level < 1) {
+            break;
+        }
         var mon = createPokemon(box[m])
         var monSpeed = mon.rawStats.spe
 

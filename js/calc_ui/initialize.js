@@ -18,6 +18,7 @@ DEFAULTS_LOADED = false
 analyze = false
 limitHits = false
 FIELD_EFFECTS = {}
+learnsetClosable = false
 
 if (damageGen <= 3) {
     $('#player-poks-filter').remove()
@@ -140,6 +141,10 @@ function initCalc() {
 
   if (typeof localStorage.boxspriteindex === 'undefined') {
     localStorage.boxspriteindex = 1
+  }
+
+  if (typeof localStorage.hidePrevos === 'undefined') {
+    localStorage.hidePrevos = 1
   }
 
   if (typeof localStorage.watchSaveFile === 'undefined') {
@@ -326,6 +331,7 @@ function loadDataSource(data) {
         
         if (TITLE.includes("1.3")) {
             $('#reasoning').show()
+            $('.move-pp').show()
             adjustStat("Unfezant", "at", 115)
             adjustStat("Unfezant", "sp", 108)
 

@@ -84089,3 +84089,8619 @@ backup_data = {
     }
   }
 }
+
+backup_moves = {
+  "-": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 0
+  },
+  "Pound": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 35,
+    "makesContact": true
+  },
+  "Karate Chop": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 50,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 25,
+    "makesContact": true
+  },
+  "Double Slap": {
+    "flags": {
+      "makesContact": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 15,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Comet Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 18,
+    "type": "Normal",
+    "acc": 85,
+    "pp": 15,
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Mega Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 80,
+    "type": "Normal",
+    "acc": 85,
+    "pp": 20,
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Pay Day": {
+    "flags": {},
+    "bp": 40,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Fire Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 75,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isPunch": true,
+    "secondaries": true
+  },
+  "Ice Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 75,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isPunch": true,
+    "secondaries": true
+  },
+  "Thunder Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 75,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isPunch": true,
+    "secondaries": true
+  },
+  "Scratch": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 35,
+    "makesContact": true
+  },
+  "Vise Grip": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 55,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 30,
+    "makesContact": true
+  },
+  "Guillotine": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Normal",
+    "acc": 30,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Razor Wind": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 80,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "isWind": true
+  },
+  "Swords Dance": {
+    "flags": {
+      "isDance": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 6,
+    "isDance": true
+  },
+  "Cut": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 75,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 25,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Gust": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 40,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 35,
+    "isWind": true
+  },
+  "Wing Attack": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 35,
+    "makesContact": true
+  },
+  "Whirlwind": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 6,
+    "pp": 20,
+    "isWind": true
+  },
+  "Fly": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Bind": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 15,
+    "type": "Normal",
+    "acc": 85,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Slam": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Vine Whip": {
+    "flags": {
+      "makesContact": true
+    },
+    "pp": 25,
+    "bp": 45,
+    "type": "Grass",
+    "acc": 100,
+    "makesContact": true
+  },
+  "Stomp": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 65,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true,
+    "isKick": true
+  },
+  "Double Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 30,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 30,
+    "makesContact": true,
+    "multihit": [
+      2,
+      2
+    ],
+    "isKick": true
+  },
+  "Mega Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 120,
+    "type": "Normal",
+    "acc": 75,
+    "pp": 5,
+    "makesContact": true,
+    "isKick": true
+  },
+  "Jump Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 100,
+    "type": "Fighting",
+    "acc": 95,
+    "pp": 10,
+    "makesContact": true,
+    "isKick": true
+  },
+  "Rolling Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 60,
+    "type": "Fighting",
+    "acc": 85,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true,
+    "isKick": true
+  },
+  "Sand Attack": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 15
+  },
+  "Headbutt": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Horn Attack": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 65,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 25,
+    "makesContact": true
+  },
+  "Fury Attack": {
+    "flags": {
+      "makesContact": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 20,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Horn Drill": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Normal",
+    "acc": 30,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Tackle": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 35,
+    "makesContact": true
+  },
+  "Body Slam": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 85,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Wrap": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 15,
+    "type": "Normal",
+    "acc": 90,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Take Down": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Normal",
+    "acc": 100,
+    "recoil": [
+      25,
+      100
+    ],
+    "pp": 20,
+    "makesContact": true
+  },
+  "Thrash": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Double-Edge": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Normal",
+    "acc": 100,
+    "recoil": [
+      33,
+      100
+    ],
+    "pp": 15,
+    "makesContact": true
+  },
+  "Tail Whip": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 30,
+    "target": "allAdjacentFoes"
+  },
+  "Poison Sting": {
+    "flags": {},
+    "bp": 15,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 35,
+    "secondaries": true
+  },
+  "Twineedle": {
+    "flags": {},
+    "bp": 25,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 20,
+    "multihit": [
+      2,
+      2
+    ],
+    "secondaries": true
+  },
+  "Pin Missile": {
+    "flags": {},
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 25,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 20
+  },
+  "Leer": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 30,
+    "target": "allAdjacentFoes"
+  },
+  "Bite": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 60,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 25,
+    "makesContact": true,
+    "isBite": true,
+    "secondaries": true
+  },
+  "Growl": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 40,
+    "target": "allAdjacentFoes",
+    "isSound": true
+  },
+  "Roar": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 6,
+    "pp": 20,
+    "isSound": true
+  },
+  "Sing": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 55,
+    "pp": 15,
+    "isSound": true
+  },
+  "Supersonic": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 55,
+    "pp": 20,
+    "isSound": true
+  },
+  "Sonic Boom": {
+    "flags": {},
+    "bp": 1,
+    "type": "Normal",
+    "acc": 90,
+    "pp": 20
+  },
+  "Disable": {
+    "flags": {},
+    "acc": 100,
+    "bp": 0,
+    "type": "Normal",
+    "pp": 20
+  },
+  "Acid": {
+    "flags": {},
+    "bp": 40,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 30,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Ember": {
+    "flags": {},
+    "bp": 40,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 25,
+    "secondaries": true
+  },
+  "Flamethrower": {
+    "flags": {},
+    "bp": 90,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Mist": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ice",
+    "acc": 0,
+    "pp": 30
+  },
+  "Water Gun": {
+    "flags": {},
+    "bp": 40,
+    "type": "Water",
+    "acc": 100,
+    "pp": 25
+  },
+  "Hydro Pump": {
+    "flags": {},
+    "bp": 110,
+    "type": "Water",
+    "acc": 80,
+    "pp": 5
+  },
+  "Surf": {
+    "flags": {},
+    "bp": 90,
+    "type": "Water",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacent"
+  },
+  "Ice Beam": {
+    "flags": {},
+    "bp": 90,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Blizzard": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 110,
+    "type": "Ice",
+    "acc": 70,
+    "pp": 5,
+    "target": "allAdjacentFoes",
+    "isWind": true,
+    "secondaries": true
+  },
+  "Psybeam": {
+    "flags": {},
+    "bp": 65,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Bubble Beam": {
+    "flags": {},
+    "bp": 65,
+    "type": "Water",
+    "acc": 100,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Aurora Beam": {
+    "flags": {},
+    "bp": 65,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Hyper Beam": {
+    "flags": {},
+    "bp": 150,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Peck": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 35,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 35,
+    "makesContact": true
+  },
+  "Drill Peck": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Submission": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 6,
+    "recoil": [
+      25,
+      100
+    ],
+    "makesContact": true
+  },
+  "Low Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 1,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "isKick": true
+  },
+  "Counter": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Seismic Toss": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Strength": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Absorb": {
+    "flags": {},
+    "bp": 25,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 4,
+    "drain": [
+      50,
+      100
+    ]
+  },
+  "Mega Drain": {
+    "flags": {},
+    "bp": 120,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 4,
+    "drain": [
+      50,
+      100
+    ]
+  },
+  "Leech Seed": {
+    "flags": {},
+    "bp": 0,
+    "type": "Grass",
+    "acc": 90,
+    "pp": 10
+  },
+  "Growth": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 6
+  },
+  "Razor Leaf": {
+    "flags": {
+      "isSword": true
+    },
+    "bp": 55,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 25,
+    "target": "allAdjacentFoes",
+    "isSword": true
+  },
+  "Solar Beam": {
+    "flags": {},
+    "bp": 120,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10
+  },
+  "Poison Powder": {
+    "flags": {
+      "isPowder": true
+    },
+    "bp": 0,
+    "type": "Poison",
+    "acc": 75,
+    "pp": 35,
+    "isPowder": true
+  },
+  "Stun Spore": {
+    "flags": {
+      "isPowder": true
+    },
+    "bp": 0,
+    "type": "Grass",
+    "acc": 75,
+    "pp": 30,
+    "isPowder": true
+  },
+  "Sleep Powder": {
+    "flags": {
+      "isPowder": true
+    },
+    "bp": 0,
+    "type": "Grass",
+    "acc": 75,
+    "pp": 15,
+    "isPowder": true
+  },
+  "Petal Dance": {
+    "flags": {
+      "makesContact": true,
+      "isDance": true
+    },
+    "bp": 120,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "isDance": true,
+    "secondaries": true
+  },
+  "String Shot": {
+    "flags": {},
+    "bp": 0,
+    "type": "Bug",
+    "acc": 95,
+    "pp": 40,
+    "target": "allAdjacentFoes"
+  },
+  "Dragon Rage": {
+    "flags": {},
+    "bp": 1,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 10
+  },
+  "Fire Spin": {
+    "flags": {},
+    "bp": 35,
+    "type": "Fire",
+    "acc": 85,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Thunder Shock": {
+    "flags": {},
+    "bp": 40,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 30,
+    "secondaries": true
+  },
+  "Thunderbolt": {
+    "flags": {},
+    "bp": 90,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Thunder Wave": {
+    "flags": {},
+    "bp": 0,
+    "type": "Electric",
+    "acc": 90,
+    "pp": 20
+  },
+  "Thunder": {
+    "flags": {},
+    "bp": 110,
+    "type": "Electric",
+    "acc": 70,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Rock Throw": {
+    "flags": {},
+    "bp": 50,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 15
+  },
+  "Earthquake": {
+    "flags": {},
+    "bp": 100,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacent"
+  },
+  "Fissure": {
+    "flags": {},
+    "bp": 1,
+    "type": "Ground",
+    "acc": 30,
+    "pp": 5
+  },
+  "Dig": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Toxic": {
+    "flags": {},
+    "bp": 0,
+    "type": "Poison",
+    "acc": 90,
+    "pp": 10
+  },
+  "Confusion": {
+    "flags": {},
+    "bp": 50,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 25,
+    "secondaries": true
+  },
+  "Psychic": {
+    "flags": {},
+    "bp": 90,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Hypnosis": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 60,
+    "pp": 20
+  },
+  "Meditate": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 40
+  },
+  "Agility": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 30
+  },
+  "Quick Attack": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 30,
+    "makesContact": true
+  },
+  "Rage": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 20,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Teleport": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 20
+  },
+  "Night Shade": {
+    "flags": {},
+    "bp": 1,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 15
+  },
+  "Mimic": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Screech": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 85,
+    "pp": 40,
+    "isSound": true
+  },
+  "Double Team": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 15
+  },
+  "Recover": {
+    "flags": {
+      "isHealing": true
+    },
+    "pp": 5,
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "isHealing": true
+  },
+  "Harden": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 30
+  },
+  "Minimize": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 6
+  },
+  "Smokescreen": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20
+  },
+  "Confuse Ray": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 10
+  },
+  "Withdraw": {
+    "flags": {},
+    "bp": 0,
+    "type": "Water",
+    "acc": 0,
+    "pp": 40
+  },
+  "Defense Curl": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 40
+  },
+  "Barrier": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 6
+  },
+  "Light Screen": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 30
+  },
+  "Haze": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ice",
+    "acc": 0,
+    "pp": 30
+  },
+  "Reflect": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 20
+  },
+  "Focus Energy": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 30
+  },
+  "Bide": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Normal",
+    "acc": 4,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Metronome": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Mirror Move": {
+    "flags": {},
+    "bp": 0,
+    "type": "Flying",
+    "acc": 0,
+    "pp": 20
+  },
+  "Self-Destruct": {
+    "flags": {},
+    "bp": 100,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacent"
+  },
+  "Egg Bomb": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 100,
+    "type": "Normal",
+    "acc": 75,
+    "pp": 10,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Lick": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 6,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 30,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Smog": {
+    "flags": {},
+    "bp": 6,
+    "type": "Poison",
+    "acc": 70,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Sludge": {
+    "flags": {},
+    "bp": 65,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Bone Club": {
+    "flags": {
+      "isBone": true
+    },
+    "bp": 65,
+    "type": "Ground",
+    "acc": 85,
+    "pp": 20,
+    "secondaries": true,
+    "isBone": true
+  },
+  "Fire Blast": {
+    "flags": {},
+    "bp": 110,
+    "type": "Fire",
+    "acc": 85,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Waterfall": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Water",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Clamp": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 35,
+    "type": "Water",
+    "acc": 85,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Swift": {
+    "flags": {},
+    "bp": 60,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 20,
+    "target": "allAdjacentFoes"
+  },
+  "Skull Bash": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 6,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 6,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Spike Cannon": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "isBullet": true,
+    "isBallistic": true,
+    "bp": 20,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15
+  },
+  "Constrict": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 10,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 35,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Amnesia": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 20
+  },
+  "Kinesis": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 80,
+    "pp": 15
+  },
+  "Soft-Boiled": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 9,
+    "isHealing": true
+  },
+  "High Jump Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 85,
+    "type": "Fighting",
+    "acc": 90,
+    "pp": 5,
+    "makesContact": true,
+    "isKick": true
+  },
+  "Glare": {
+    "flags": {},
+    "acc": 100,
+    "bp": 0,
+    "type": "Normal",
+    "pp": 30
+  },
+  "Dream Eater": {
+    "flags": {},
+    "bp": 100,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 15
+  },
+  "Poison Gas": {
+    "flags": {},
+    "acc": 90,
+    "bp": 0,
+    "type": "Poison",
+    "pp": 40,
+    "target": "allAdjacentFoes"
+  },
+  "Barrage": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 15,
+    "type": "Normal",
+    "acc": 85,
+    "pp": 20,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Leech Life": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 15,
+    "drain": [
+      50,
+      100
+    ],
+    "makesContact": true
+  },
+  "Lovely Kiss": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 85,
+    "pp": 10
+  },
+  "Sky Attack": {
+    "flags": {},
+    "bp": 140,
+    "type": "Flying",
+    "acc": 90,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Transform": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Bubble": {
+    "flags": {},
+    "bp": 6,
+    "type": "Water",
+    "acc": 100,
+    "pp": 30,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Dizzy Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 70,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isPunch": true,
+    "secondaries": true
+  },
+  "Spore": {
+    "flags": {
+      "isPowder": true
+    },
+    "bp": 0,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 15,
+    "isPowder": true
+  },
+  "Flash": {
+    "flags": {},
+    "bp": 60,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Psywave": {
+    "flags": {},
+    "bp": 1,
+    "type": "Psychic",
+    "acc": 6,
+    "pp": 15
+  },
+  "Splash": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 40
+  },
+  "Acid Armor": {
+    "flags": {},
+    "bp": 0,
+    "type": "Poison",
+    "acc": 0,
+    "pp": 6
+  },
+  "Crabhammer": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Water",
+    "acc": 90,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Explosion": {
+    "flags": {},
+    "bp": 150,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacent"
+  },
+  "Fury Swipes": {
+    "flags": {
+      "makesContact": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 18,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Bonemerang": {
+    "flags": {
+      "isBone": true
+    },
+    "bp": 50,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "multihit": [
+      2,
+      2
+    ],
+    "isBone": true
+  },
+  "Rest": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 9,
+    "isHealing": true
+  },
+  "Rock Slide": {
+    "flags": {},
+    "bp": 75,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Hyper Fang": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 80,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isBite": true,
+    "secondaries": true
+  },
+  "Sharpen": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 30
+  },
+  "Conversion": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 30
+  },
+  "Tri Attack": {
+    "flags": {},
+    "bp": 90,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Super Fang": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Normal",
+    "acc": 90,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Slash": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 70,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Substitute": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 5
+  },
+  "Struggle": {
+    "flags": {
+      "makesContact": true
+    },
+    "acc": 100,
+    "secondaries": true,
+    "recoil": [
+      25,
+      100
+    ],
+    "bp": 50,
+    "type": "Normal",
+    "pp": 1,
+    "makesContact": true
+  },
+  "Sketch": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 1
+  },
+  "Triple Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 20,
+    "type": "Fighting",
+    "acc": 90,
+    "pp": 10,
+    "makesContact": true,
+    "multihit": [
+      3,
+      3
+    ],
+    "isKick": true
+  },
+  "Thief": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 6,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Spider Web": {
+    "flags": {},
+    "bp": 0,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 10
+  },
+  "Mind Reader": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 4,
+    "pp": 5
+  },
+  "Nightmare": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ghost",
+    "acc": 4,
+    "pp": 15
+  },
+  "Flame Wheel": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 25,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Snore": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 50,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15,
+    "isSound": true,
+    "secondaries": true
+  },
+  "Curse": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ghost",
+    "acc": 0,
+    "pp": 10
+  },
+  "Flail": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Conversion 2": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 30
+  },
+  "Aeroblast": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 100,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 5,
+    "isWind": true
+  },
+  "Cotton Spore": {
+    "flags": {
+      "isPowder": true
+    },
+    "bp": 0,
+    "type": "Grass",
+    "acc": 5,
+    "pp": 40,
+    "target": "allAdjacentFoes",
+    "isPowder": true
+  },
+  "Reversal": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Spite": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 10
+  },
+  "Powder Snow": {
+    "flags": {},
+    "bp": 40,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 25,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Protect": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Mach Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 40,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 30,
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Scary Face": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 5,
+    "pp": 10
+  },
+  "Feint Attack": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Sweet Kiss": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 75,
+    "pp": 10
+  },
+  "Belly Drum": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Sludge Bomb": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 90,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 10,
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true
+  },
+  "Mud-Slap": {
+    "flags": {},
+    "bp": 40,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10
+  },
+  "Octazooka": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 65,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Spikes": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ground",
+    "acc": 0,
+    "pp": 20
+  },
+  "Zap Cannon": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 120,
+    "type": "Electric",
+    "acc": 50,
+    "pp": 5,
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true
+  },
+  "Foresight": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 5,
+    "pp": 40
+  },
+  "Destiny Bond": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ghost",
+    "acc": 0,
+    "pp": 5
+  },
+  "Perish Song": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 5,
+    "isSound": true
+  },
+  "Icy Wind": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 55,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacentFoes",
+    "isWind": true,
+    "secondaries": true
+  },
+  "Detect": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 5
+  },
+  "Bone Rush": {
+    "flags": {
+      "isBone": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 25,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "isBone": true
+  },
+  "Lock-On": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 4,
+    "pp": 5
+  },
+  "Outrage": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Sandstorm": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 0,
+    "type": "Rock",
+    "acc": 0,
+    "pp": 10,
+    "isWind": true
+  },
+  "Giga Drain": {
+    "flags": {},
+    "bp": 75,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10,
+    "drain": [
+      50,
+      100
+    ]
+  },
+  "Endure": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Charm": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 5
+  },
+  "Rollout": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 30,
+    "type": "Rock",
+    "acc": 90,
+    "pp": 20,
+    "makesContact": true
+  },
+  "False Swipe": {
+    "flags": {
+      "isSword": true,
+      "makesContact": true
+    },
+    "isSword": true,
+    "bp": 40,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 40,
+    "makesContact": true
+  },
+  "Swagger": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 90,
+    "pp": 15
+  },
+  "Milk Drink": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 5,
+    "isHealing": true
+  },
+  "Spark": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 65,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Fury Cutter": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 40,
+    "type": "Bug",
+    "acc": 95,
+    "pp": 20,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Steel Wing": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 25,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Mean Look": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 5
+  },
+  "Attract": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15
+  },
+  "Sleep Talk": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Heal Bell": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 5,
+    "isSound": true
+  },
+  "Return": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Present": {
+    "flags": {},
+    "bp": 1,
+    "type": "Normal",
+    "acc": 90,
+    "pp": 15
+  },
+  "Frustration": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Safeguard": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 25
+  },
+  "Pain Split": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 20
+  },
+  "Sacred Fire": {
+    "flags": {},
+    "bp": 100,
+    "type": "Fire",
+    "acc": 95,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Magnitude": {
+    "flags": {},
+    "bp": 1,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 30,
+    "target": "allAdjacent"
+  },
+  "Dynamic Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 100,
+    "type": "Fighting",
+    "acc": 50,
+    "pp": 5,
+    "makesContact": true,
+    "isPunch": true,
+    "secondaries": true
+  },
+  "Megahorn": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Bug",
+    "acc": 85,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Dragon Breath": {
+    "flags": {},
+    "bp": 60,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Baton Pass": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 40
+  },
+  "Encore": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5
+  },
+  "Pursuit": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Rapid Spin": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 50,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 40,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Sweet Scent": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "target": "allAdjacentFoes"
+  },
+  "Iron Tail": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Steel",
+    "acc": 75,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Metal Claw": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 50,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 35,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Vital Throw": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Morning Sun": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 5,
+    "isHealing": true
+  },
+  "Synthesis": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 5,
+    "isHealing": true
+  },
+  "Moonlight": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 5,
+    "isHealing": true
+  },
+  "Hidden Power": {
+    "flags": {},
+    "bp": 6,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15
+  },
+  "Cross Chop": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Fighting",
+    "acc": 80,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Twister": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 40,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 20,
+    "target": "allAdjacentFoes",
+    "isWind": true,
+    "secondaries": true
+  },
+  "Rain Dance": {
+    "flags": {},
+    "bp": 0,
+    "type": "Water",
+    "acc": 0,
+    "pp": 5
+  },
+  "Sunny Day": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fire",
+    "acc": 0,
+    "pp": 5
+  },
+  "Crunch": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 80,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isBite": true,
+    "secondaries": true
+  },
+  "Mirror Coat": {
+    "flags": {},
+    "bp": 1,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 20
+  },
+  "Psych Up": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Extreme Speed": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Ancient Power": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Shadow Ball": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 80,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 15,
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true
+  },
+  "Future Sight": {
+    "flags": {},
+    "bp": 120,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10
+  },
+  "Rock Smash": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Whirlpool": {
+    "flags": {},
+    "bp": 35,
+    "type": "Water",
+    "acc": 85,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Beat Up": {
+    "flags": {},
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 25,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10
+  },
+  "Fake Out": {
+    "flags": {
+      "makesContact": true
+    },
+    "makesContact": true,
+    "bp": 40,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Uproar": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 90,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "isSound": true,
+    "secondaries": true
+  },
+  "Stockpile": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 4
+  },
+  "Spit Up": {
+    "flags": {},
+    "bp": 4,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10
+  },
+  "Swallow": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10,
+    "isHealing": true
+  },
+  "Heat Wave": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 95,
+    "type": "Fire",
+    "acc": 90,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "isWind": true,
+    "secondaries": true
+  },
+  "Hail": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ice",
+    "acc": 0,
+    "pp": 10
+  },
+  "Torment": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 15
+  },
+  "Flatter": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 15
+  },
+  "Will-O-Wisp": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fire",
+    "acc": 6,
+    "pp": 15
+  },
+  "Memento": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10
+  },
+  "Facade": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Focus Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 150,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Smelling Salts": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 6,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Follow Me": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20
+  },
+  "Nature Power": {
+    "flags": {},
+    "bp": 1,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 20
+  },
+  "Charge": {
+    "flags": {},
+    "bp": 0,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 20
+  },
+  "Taunt": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 20
+  },
+  "Helping Hand": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20
+  },
+  "Trick": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10
+  },
+  "Role Play": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Wish": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10,
+    "isHealing": true
+  },
+  "Assist": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20
+  },
+  "Ingrain": {
+    "flags": {},
+    "bp": 0,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 20
+  },
+  "Superpower": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Magic Coat": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 15
+  },
+  "Recycle": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10
+  },
+  "Revenge": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Brick Break": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 75,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Yawn": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Knock Off": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 65,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Endeavor": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Eruption": {
+    "flags": {},
+    "bp": 150,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacentFoes"
+  },
+  "Skill Swap": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Imprison": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10
+  },
+  "Refresh": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20
+  },
+  "Grudge": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 5
+  },
+  "Snatch": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10
+  },
+  "Secret Power": {
+    "flags": {},
+    "bp": 70,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Dive": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Arm Thrust": {
+    "flags": {
+      "makesContact": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 25,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Camouflage": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20
+  },
+  "Tail Glow": {
+    "flags": {},
+    "bp": 0,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 20
+  },
+  "Luster Purge": {
+    "flags": {},
+    "bp": 85,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Mist Ball": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 85,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true
+  },
+  "Feather Dance": {
+    "flags": {
+      "isDance": true
+    },
+    "bp": 0,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 5,
+    "isDance": true
+  },
+  "Teeter Dance": {
+    "flags": {
+      "isDance": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "target": "allAdjacent",
+    "isDance": true
+  },
+  "Blaze Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 85,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true,
+    "isKick": true
+  },
+  "Mud Sport": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 15
+  },
+  "Ice Ball": {
+    "flags": {
+      "makesContact": true,
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 30,
+    "type": "Ice",
+    "acc": 90,
+    "pp": 20,
+    "makesContact": true,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Needle Arm": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 95,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Slack Off": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 9,
+    "isHealing": true
+  },
+  "Hyper Voice": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 90,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "isSound": true
+  },
+  "Poison Fang": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 75,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isBite": true,
+    "secondaries": true
+  },
+  "Crush Claw": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 75,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Blast Burn": {
+    "flags": {},
+    "bp": 160,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Hydro Cannon": {
+    "flags": {},
+    "bp": 160,
+    "type": "Water",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Meteor Mash": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 90,
+    "type": "Steel",
+    "acc": 90,
+    "pp": 10,
+    "makesContact": true,
+    "isPunch": true,
+    "secondaries": true
+  },
+  "Astonish": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 30,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Weather Ball": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 160,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Aromatherapy": {
+    "flags": {},
+    "bp": 0,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 5
+  },
+  "Fake Tears": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 20
+  },
+  "Air Cutter": {
+    "flags": {
+      "isWind": true,
+      "isSword": true
+    },
+    "bp": 60,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 25,
+    "target": "allAdjacentFoes",
+    "isWind": true,
+    "isSword": true
+  },
+  "Overheat": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 130,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Odor Sleuth": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 4,
+    "pp": 40
+  },
+  "Rock Tomb": {
+    "flags": {},
+    "bp": 60,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Silver Wind": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 60,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 5,
+    "isWind": true,
+    "secondaries": true
+  },
+  "Metal Sound": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Steel",
+    "acc": 85,
+    "pp": 40,
+    "isSound": true
+  },
+  "Grass Whistle": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Grass",
+    "acc": 55,
+    "pp": 15,
+    "isSound": true
+  },
+  "Tickle": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20
+  },
+  "Cosmic Power": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 20
+  },
+  "Water Spout": {
+    "flags": {},
+    "bp": 150,
+    "type": "Water",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacentFoes"
+  },
+  "Signal Beam": {
+    "flags": {},
+    "bp": 75,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Shadow Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 80,
+    "type": "Ghost",
+    "acc": 0,
+    "pp": 20,
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Extrasensory": {
+    "flags": {},
+    "bp": 80,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 6,
+    "secondaries": true
+  },
+  "Sky Uppercut": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 85,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Sand Tomb": {
+    "flags": {},
+    "bp": 35,
+    "type": "Ground",
+    "acc": 85,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Sheer Cold": {
+    "flags": {},
+    "bp": 1,
+    "type": "Ice",
+    "acc": 30,
+    "pp": 5
+  },
+  "Muddy Water": {
+    "flags": {},
+    "bp": 95,
+    "type": "Water",
+    "acc": 85,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Bullet Seed": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 25,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 30,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Aerial Ace": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 60,
+    "type": "Flying",
+    "acc": 0,
+    "pp": 20,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Icicle Spear": {
+    "flags": {},
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 5,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 30
+  },
+  "Iron Defense": {
+    "flags": {},
+    "bp": 0,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 15
+  },
+  "Block": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 5
+  },
+  "Howl": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 40,
+    "isSound": true
+  },
+  "Dragon Claw": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Frenzy Plant": {
+    "flags": {},
+    "bp": 160,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Bulk Up": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 20
+  },
+  "Bounce": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 85,
+    "type": "Flying",
+    "acc": 85,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Mud Shot": {
+    "flags": {},
+    "bp": 55,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Poison Tail": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 25,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Covet": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 5,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 6,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Volt Tackle": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Electric",
+    "acc": 100,
+    "recoil": [
+      33,
+      100
+    ],
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Magical Leaf": {
+    "flags": {},
+    "bp": 60,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 20
+  },
+  "Water Sport": {
+    "flags": {},
+    "bp": 0,
+    "type": "Water",
+    "acc": 100,
+    "pp": 15
+  },
+  "Calm Mind": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 20
+  },
+  "Leaf Blade": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 90,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Dragon Dance": {
+    "flags": {
+      "isDance": true
+    },
+    "bp": 0,
+    "type": "Dragon",
+    "acc": 0,
+    "pp": 20,
+    "isDance": true
+  },
+  "Rock Blast": {
+    "flags": {
+      "isBullet": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 25,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 10,
+    "isBullet": true
+  },
+  "Shock Wave": {
+    "flags": {},
+    "bp": 60,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 20
+  },
+  "Water Pulse": {
+    "flags": {
+      "isPulse": true
+    },
+    "bp": 60,
+    "type": "Water",
+    "acc": 100,
+    "pp": 20,
+    "isPulse": true,
+    "secondaries": true
+  },
+  "Doom Desire": {
+    "flags": {},
+    "bp": 5,
+    "type": "Steel",
+    "acc": 5,
+    "pp": 5
+  },
+  "Psycho Boost": {
+    "flags": {},
+    "bp": 140,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Roost": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Flying",
+    "acc": 0,
+    "pp": 5,
+    "isHealing": true
+  },
+  "Gravity": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 5
+  },
+  "Miracle Eye": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 40
+  },
+  "Wake-Up Slap": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Hammer Arm": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 100,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isPunch": true,
+    "secondaries": true
+  },
+  "Gyro Ball": {
+    "flags": {
+      "makesContact": true,
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 1,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Healing Wish": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10,
+    "isHealing": true
+  },
+  "Brine": {
+    "flags": {},
+    "bp": 65,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10
+  },
+  "Natural Gift": {
+    "flags": {},
+    "bp": 1,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15
+  },
+  "Feint": {
+    "flags": {},
+    "bp": 30,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Pluck": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Tailwind": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 0,
+    "type": "Flying",
+    "acc": 0,
+    "pp": 6,
+    "isWind": true
+  },
+  "Acupressure": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 30
+  },
+  "Metal Burst": {
+    "flags": {},
+    "bp": 1,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 10
+  },
+  "U-turn": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Close Combat": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Payback": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 50,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Assurance": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Embargo": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 15
+  },
+  "Fling": {
+    "flags": {},
+    "bp": 1,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10
+  },
+  "Psycho Shift": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 6,
+    "pp": 10
+  },
+  "Trump Card": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Heal Block": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacentFoes"
+  },
+  "Wring Out": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Power Trick": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Gastro Acid": {
+    "flags": {},
+    "bp": 0,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 10
+  },
+  "Lucky Chant": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 30
+  },
+  "Me First": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 20
+  },
+  "Copycat": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 20
+  },
+  "Power Swap": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Guard Swap": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Punishment": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Last Resort": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 5,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Worry Seed": {
+    "flags": {},
+    "bp": 0,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10
+  },
+  "Sucker Punch": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 7,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Toxic Spikes": {
+    "flags": {},
+    "bp": 0,
+    "type": "Poison",
+    "acc": 0,
+    "pp": 20
+  },
+  "Heart Swap": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Aqua Ring": {
+    "flags": {},
+    "bp": 0,
+    "type": "Water",
+    "acc": 0,
+    "pp": 20
+  },
+  "Magnet Rise": {
+    "flags": {},
+    "bp": 0,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 10
+  },
+  "Flare Blitz": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Fire",
+    "acc": 100,
+    "recoil": [
+      33,
+      100
+    ],
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Force Palm": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Aura Sphere": {
+    "flags": {
+      "isPulse": true,
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 80,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 20,
+    "isPulse": true,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Rock Polish": {
+    "flags": {},
+    "bp": 0,
+    "type": "Rock",
+    "acc": 0,
+    "pp": 20
+  },
+  "Poison Jab": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Dark Pulse": {
+    "flags": {
+      "isPulse": true
+    },
+    "bp": 80,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 15,
+    "isPulse": true,
+    "secondaries": true
+  },
+  "Night Slash": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 70,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Aqua Tail": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Seed Bomb": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 80,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 15,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Air Slash": {
+    "flags": {
+      "isSword": true
+    },
+    "bp": 75,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 6,
+    "isSword": true,
+    "secondaries": true
+  },
+  "X-Scissor": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 80,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Bug Buzz": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 90,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 10,
+    "isSound": true,
+    "secondaries": true
+  },
+  "Dragon Pulse": {
+    "flags": {
+      "isPulse": true
+    },
+    "bp": 85,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 10,
+    "isPulse": true
+  },
+  "Dragon Rush": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Dragon",
+    "acc": 75,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Power Gem": {
+    "flags": {},
+    "bp": 80,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 20
+  },
+  "Drain Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 75,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "drain": [
+      50,
+      100
+    ],
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Vacuum Wave": {
+    "flags": {},
+    "bp": 40,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 30
+  },
+  "Focus Blast": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 120,
+    "type": "Fighting",
+    "acc": 70,
+    "pp": 5,
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true
+  },
+  "Energy Ball": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 90,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10,
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true
+  },
+  "Brave Bird": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Flying",
+    "acc": 100,
+    "recoil": [
+      33,
+      100
+    ],
+    "pp": 15,
+    "makesContact": true
+  },
+  "Earth Power": {
+    "flags": {},
+    "bp": 90,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Switcheroo": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10
+  },
+  "Giga Impact": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 150,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Nasty Plot": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 20
+  },
+  "Bullet Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 40,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 30,
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Avalanche": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Ice Shard": {
+    "flags": {},
+    "bp": 40,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 30
+  },
+  "Shadow Claw": {
+    "flags": {
+      "isSword": true,
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Ghost",
+    "acc": 100,
+    "isSword": true,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Thunder Fang": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 65,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isBite": true,
+    "secondaries": true
+  },
+  "Ice Fang": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 65,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isBite": true,
+    "secondaries": true
+  },
+  "Fire Fang": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 65,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isBite": true,
+    "secondaries": true
+  },
+  "Aqua Fang": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 80,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isBite": true
+  },
+  "Shadow Sneak": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 30,
+    "makesContact": true
+  },
+  "Mud Bomb": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 65,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Psycho Cut": {
+    "flags": {
+      "isSword": true
+    },
+    "bp": 70,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 20,
+    "isSword": true
+  },
+  "Zen Headbutt": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Mirror Shot": {
+    "flags": {},
+    "bp": 65,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Flash Cannon": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 80,
+    "isBullet": true,
+    "isBallistic": true,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Rock Climb": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Normal",
+    "acc": 85,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Defog": {
+    "flags": {},
+    "bp": 0,
+    "type": "Flying",
+    "acc": 0,
+    "pp": 15
+  },
+  "Trick Room": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 5
+  },
+  "Draco Meteor": {
+    "flags": {},
+    "bp": 130,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Discharge": {
+    "flags": {},
+    "bp": 80,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacent",
+    "secondaries": true
+  },
+  "Lava Plume": {
+    "flags": {},
+    "bp": 80,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacent",
+    "secondaries": true
+  },
+  "Leaf Storm": {
+    "flags": {},
+    "bp": 130,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Power Whip": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Grass",
+    "acc": 90,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Rock Wrecker": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 150,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 5,
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true
+  },
+  "Cross Poison": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 70,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "isSword": true,
+    "secondaries": true
+  },
+  "Gunk Shot": {
+    "flags": {},
+    "bp": 120,
+    "type": "Poison",
+    "acc": 80,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Iron Head": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Magnet Bomb": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 60,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 20,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Stone Edge": {
+    "flags": {},
+    "bp": 100,
+    "type": "Rock",
+    "acc": 90,
+    "pp": 5
+  },
+  "Captivate": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "target": "allAdjacentFoes"
+  },
+  "Stealth Rock": {
+    "flags": {},
+    "bp": 0,
+    "type": "Rock",
+    "acc": 0,
+    "pp": 20
+  },
+  "Grass Knot": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Chatter": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 80,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 20,
+    "isSound": true,
+    "secondaries": true
+  },
+  "Judgment": {
+    "flags": {},
+    "bp": 100,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10
+  },
+  "Bug Bite": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Charge Beam": {
+    "flags": {},
+    "bp": 50,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Wood Hammer": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Grass",
+    "acc": 100,
+    "recoil": [
+      33,
+      100
+    ],
+    "pp": 15,
+    "makesContact": true
+  },
+  "Aqua Jet": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Water",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Attack Order": {
+    "flags": {},
+    "bp": 120,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 15
+  },
+  "Defend Order": {
+    "flags": {},
+    "bp": 0,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 10
+  },
+  "Heal Order": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 10,
+    "isHealing": true
+  },
+  "Head Smash": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 150,
+    "type": "Rock",
+    "acc": 85,
+    "recoil": [
+      50,
+      100
+    ],
+    "pp": 5,
+    "makesContact": true
+  },
+  "Double Hit": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 35,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "multihit": [
+      2,
+      2
+    ]
+  },
+  "Roar of Time": {
+    "flags": {},
+    "bp": 80,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 10
+  },
+  "Spacial Rend": {
+    "flags": {},
+    "bp": 100,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 5
+  },
+  "Lunar Dance": {
+    "flags": {
+      "isHealing": true,
+      "isDance": true
+    },
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10,
+    "isHealing": true,
+    "isDance": true
+  },
+  "Crush Grip": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Magma Storm": {
+    "flags": {},
+    "bp": 100,
+    "type": "Fire",
+    "acc": 75,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Dark Void": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 80,
+    "pp": 10,
+    "target": "allAdjacentFoes"
+  },
+  "Dark Hole": {
+    "flags": {},
+    "bp": 100,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Seed Flare": {
+    "flags": {},
+    "bp": 120,
+    "type": "Grass",
+    "acc": 85,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Ominous Wind": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 60,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 5,
+    "isWind": true,
+    "secondaries": true
+  },
+  "Shadow Force": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Hone Claws": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 15
+  },
+  "Wide Guard": {
+    "flags": {},
+    "bp": 0,
+    "type": "Rock",
+    "acc": 0,
+    "pp": 10
+  },
+  "Guard Split": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Power Split": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Wonder Room": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Psyshock": {
+    "flags": {},
+    "bp": 80,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10
+  },
+  "Venoshock": {
+    "flags": {},
+    "bp": 65,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 10
+  },
+  "Autotomize": {
+    "flags": {},
+    "bp": 0,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 15
+  },
+  "Rage Powder": {
+    "flags": {
+      "isPowder": true
+    },
+    "bp": 0,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 20,
+    "isPowder": true
+  },
+  "Telekinesis": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 15
+  },
+  "Magic Room": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Smack Down": {
+    "flags": {},
+    "bp": 50,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Storm Throw": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    ".willCrit": true
+  },
+  "Flame Burst": {
+    "flags": {},
+    "bp": 70,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Sludge Wave": {
+    "flags": {},
+    "bp": 95,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacent",
+    "secondaries": true
+  },
+  "Quiver Dance": {
+    "flags": {
+      "isDance": true
+    },
+    "bp": 0,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 20,
+    "isDance": true
+  },
+  "Heavy Slam": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Synchronoise": {
+    "flags": {},
+    "bp": 120,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacent"
+  },
+  "Electro Ball": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 1,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 10,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Soak": {
+    "flags": {},
+    "bp": 0,
+    "type": "Water",
+    "acc": 100,
+    "pp": 20
+  },
+  "Flame Charge": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 50,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Coil": {
+    "flags": {},
+    "bp": 0,
+    "type": "Poison",
+    "acc": 0,
+    "pp": 20
+  },
+  "Low Sweep": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 60,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true,
+    "isKick": true
+  },
+  "Acid Spray": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 40,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 20,
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true
+  },
+  "Foul Play": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 95,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Simple Beam": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15
+  },
+  "Entrainment": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15
+  },
+  "After You": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 15
+  },
+  "Round": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 60,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15,
+    "isSound": true,
+    "secondaries": true
+  },
+  "Echoed Voice": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 40,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15,
+    "isSound": true
+  },
+  "Chip Away": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Clear Smog": {
+    "flags": {},
+    "bp": 50,
+    "type": "Poison",
+    "acc": 0,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Stored Power": {
+    "flags": {},
+    "bp": 20,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10
+  },
+  "Quick Guard": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 15
+  },
+  "Ally Switch": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 15
+  },
+  "Scald": {
+    "flags": {},
+    "bp": 80,
+    "type": "Water",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Shell Smash": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 15
+  },
+  "Heal Pulse": {
+    "flags": {
+      "isHealing": true,
+      "isPulse": true
+    },
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10,
+    "isHealing": true,
+    "isPulse": true
+  },
+  "Hex": {
+    "flags": {},
+    "bp": 160,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 10
+  },
+  "Sky Drop": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Shift Gear": {
+    "flags": {},
+    "bp": 0,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 10
+  },
+  "Circle Throw": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Incinerate": {
+    "flags": {},
+    "bp": 60,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Quash": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 15
+  },
+  "Acrobatics": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 55,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Reflect Type": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 15
+  },
+  "Retaliate": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Final Gambit": {
+    "flags": {},
+    "bp": 1,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 5
+  },
+  "Bestow": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 15
+  },
+  "Inferno": {
+    "flags": {},
+    "bp": 120,
+    "type": "Fire",
+    "acc": 50,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Water Pledge": {
+    "flags": {},
+    "bp": 80,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10
+  },
+  "Fire Pledge": {
+    "flags": {},
+    "bp": 80,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 10
+  },
+  "Grass Pledge": {
+    "flags": {},
+    "bp": 80,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10
+  },
+  "Volt Switch": {
+    "flags": {},
+    "bp": 70,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 20
+  },
+  "Struggle Bug": {
+    "flags": {},
+    "bp": 50,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 20,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Bulldoze": {
+    "flags": {},
+    "bp": 60,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 20,
+    "target": "allAdjacent",
+    "secondaries": true
+  },
+  "Frost Breath": {
+    "flags": {},
+    "bp": 60,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 10,
+    ".willCrit": true
+  },
+  "Dragon Tail": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Work Up": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 30
+  },
+  "Electroweb": {
+    "flags": {},
+    "bp": 55,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Wild Charge": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Electric",
+    "acc": 100,
+    "recoil": [
+      25,
+      100
+    ],
+    "pp": 15,
+    "makesContact": true
+  },
+  "Drill Run": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Dual Chop": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "multihit": [
+      2,
+      2
+    ]
+  },
+  "Heart Stamp": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 25,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Horn Leech": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 75,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10,
+    "drain": [
+      50,
+      100
+    ],
+    "makesContact": true
+  },
+  "Sacred Sword": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 90,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 6,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Razor Shell": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 75,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Heat Crash": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Leaf Tornado": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 65,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10,
+    "isWind": true
+  },
+  "Steamroller": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 65,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Cotton Guard": {
+    "flags": {},
+    "bp": 0,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 10
+  },
+  "Night Daze": {
+    "flags": {},
+    "bp": 95,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10
+  },
+  "Psystrike": {
+    "flags": {},
+    "bp": 100,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10
+  },
+  "Tail Slap": {
+    "flags": {
+      "makesContact": true
+    },
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 25,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Hurricane": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 110,
+    "type": "Flying",
+    "acc": 70,
+    "pp": 10,
+    "isWind": true,
+    "secondaries": true
+  },
+  "Head Charge": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Normal",
+    "acc": 100,
+    "recoil": [
+      25,
+      100
+    ],
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Gear Grind": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 180,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "multihit": [
+      2,
+      2
+    ]
+  },
+  "Searing Shot": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 100,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacent",
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true
+  },
+  "Techno Blast": {
+    "flags": {},
+    "bp": 120,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5
+  },
+  "Relic Song": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 75,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "isSound": true,
+    "secondaries": true
+  },
+  "Secret Sword": {
+    "flags": {
+      "isSword": true
+    },
+    "bp": 85,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "isSword": true
+  },
+  "Glaciate": {
+    "flags": {},
+    "bp": 65,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Bolt Strike": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 130,
+    "type": "Electric",
+    "acc": 85,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Blue Flare": {
+    "flags": {},
+    "bp": 130,
+    "type": "Fire",
+    "acc": 85,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Fiery Dance": {
+    "flags": {
+      "isDance": true
+    },
+    "bp": 80,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 10,
+    "isDance": true,
+    "secondaries": true
+  },
+  "Freeze Shock": {
+    "flags": {},
+    "bp": 140,
+    "type": "Ice",
+    "acc": 90,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Ice Burn": {
+    "flags": {},
+    "bp": 140,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Snarl": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 55,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacentFoes",
+    "isSound": true,
+    "secondaries": true
+  },
+  "Icicle Crash": {
+    "flags": {},
+    "bp": 85,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "V-create": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 220,
+    "type": "Fire",
+    "acc": 95,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Fusion Flare": {
+    "flags": {},
+    "bp": 100,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 5
+  },
+  "Fusion Bolt": {
+    "flags": {},
+    "bp": 100,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 5
+  },
+  "Flying Press": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 170,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Mat Block": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 5
+  },
+  "Belch": {
+    "flags": {},
+    "bp": 120,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 10
+  },
+  "Rototiller": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ground",
+    "acc": 0,
+    "pp": 10
+  },
+  "Sticky Web": {
+    "flags": {},
+    "bp": 0,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 20
+  },
+  "Fell Stinger": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 50,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 25,
+    "makesContact": true
+  },
+  "Phantom Force": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Trick-or-Treat": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 20
+  },
+  "Noble Roar": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 30,
+    "isSound": true
+  },
+  "Ion Deluge": {
+    "flags": {},
+    "bp": 0,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 5
+  },
+  "Parabolic Charge": {
+    "flags": {},
+    "bp": 75,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 20,
+    "target": "allAdjacent",
+    "drain": [
+      50,
+      100
+    ]
+  },
+  "Forest's Curse": {
+    "flags": {},
+    "bp": 0,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 20
+  },
+  "Petal Blizzard": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 90,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacent",
+    "isWind": true
+  },
+  "Freeze-Dry": {
+    "flags": {},
+    "bp": 70,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Disarming Voice": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 40,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 15,
+    "target": "allAdjacentFoes",
+    "isSound": true
+  },
+  "Parting Shot": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 20,
+    "isSound": true
+  },
+  "Topsy-Turvy": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 7,
+    "pp": 20
+  },
+  "Draining Kiss": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 50,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 10,
+    "drain": [
+      75,
+      100
+    ],
+    "makesContact": true
+  },
+  "Crafty Shield": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 10
+  },
+  "Flower Shield": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 10
+  },
+  "Grassy Terrain": {
+    "flags": {},
+    "bp": 0,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 10
+  },
+  "Misty Terrain": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 10
+  },
+  "Electrify": {
+    "flags": {},
+    "bp": 0,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 20
+  },
+  "Play Rough": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Fairy Wind": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 40,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 30,
+    "isWind": true
+  },
+  "Moonblast": {
+    "flags": {},
+    "bp": 95,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Boomburst": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 140,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacent",
+    "isSound": true
+  },
+  "Fairy Lock": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 10
+  },
+  "King's Shield": {
+    "flags": {},
+    "bp": 0,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 5
+  },
+  "Play Nice": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 20
+  },
+  "Confide": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 20,
+    "isSound": true
+  },
+  "Diamond Storm": {
+    "flags": {},
+    "bp": 100,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Steam Eruption": {
+    "flags": {},
+    "bp": 120,
+    "type": "Water",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Hyperspace Hole": {
+    "flags": {},
+    "bp": 80,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Water Shuriken": {
+    "flags": {},
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 15,
+    "type": "Water",
+    "acc": 100,
+    "pp": 20
+  },
+  "Mystical Fire": {
+    "flags": {},
+    "bp": 75,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Spiky Shield": {
+    "flags": {},
+    "bp": 0,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 5
+  },
+  "Aromatic Mist": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 20
+  },
+  "Eerie Impulse": {
+    "flags": {},
+    "bp": 0,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 15
+  },
+  "Venom Drench": {
+    "flags": {},
+    "bp": 0,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 20,
+    "target": "allAdjacentFoes"
+  },
+  "Powder": {
+    "flags": {
+      "isPowder": true
+    },
+    "bp": 0,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 20,
+    "isPowder": true
+  },
+  "Geomancy": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 10
+  },
+  "Magnetic Flux": {
+    "flags": {},
+    "bp": 0,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 20
+  },
+  "Happy Hour": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 30
+  },
+  "Electric Terrain": {
+    "flags": {},
+    "bp": 0,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 10
+  },
+  "Dazzling Gleam": {
+    "flags": {},
+    "bp": 80,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes"
+  },
+  "Celebrate": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 40
+  },
+  "Hold Hands": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 40
+  },
+  "Baby-Doll Eyes": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 30
+  },
+  "Nuzzle": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 20,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Hold Back": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 40,
+    "makesContact": true
+  },
+  "Infestation": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 20,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Power-Up Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 40,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "isPunch": true,
+    "secondaries": true
+  },
+  "Oblivion Wing": {
+    "flags": {},
+    "bp": 80,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 10,
+    "drain": [
+      75,
+      100
+    ]
+  },
+  "Thousand Arrows": {
+    "flags": {},
+    "bp": 90,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Thousand Waves": {
+    "flags": {},
+    "bp": 90,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Land's Wrath": {
+    "flags": {},
+    "bp": 90,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes"
+  },
+  "Light Of Ruin": {
+    "flags": {},
+    "bp": 140,
+    "type": "Fairy",
+    "acc": 100,
+    "recoil": [
+      50,
+      100
+    ],
+    "pp": 5
+  },
+  "Origin Pulse": {
+    "flags": {
+      "isPulse": true
+    },
+    "bp": 110,
+    "type": "Water",
+    "acc": 85,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "isPulse": true
+  },
+  "Precipice Blades": {
+    "flags": {},
+    "bp": 120,
+    "type": "Ground",
+    "acc": 85,
+    "pp": 10,
+    "target": "allAdjacentFoes"
+  },
+  "Dragon Ascent": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Hyperspace Fury": {
+    "flags": {},
+    "bp": 100,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Shore Up": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Ground",
+    "acc": 0,
+    "pp": 9,
+    "isHealing": true
+  },
+  "First Impression": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Baneful Bunker": {
+    "flags": {},
+    "bp": 0,
+    "type": "Poison",
+    "acc": 0,
+    "pp": 5
+  },
+  "Spirit Shackle": {
+    "flags": {},
+    "bp": 80,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Darkest Lariat": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 85,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Sparkling Aria": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 90,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacent",
+    "isSound": true,
+    "secondaries": true
+  },
+  "Ice Hammer": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 100,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Floral Healing": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 10,
+    "isHealing": true
+  },
+  "High Horsepower": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 95,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isKick": true
+  },
+  "Strength Sap": {
+    "flags": {},
+    "bp": 0,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10
+  },
+  "Solar Blade": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 125,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Leafage": {
+    "flags": {},
+    "bp": 40,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 40
+  },
+  "Spotlight": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 15
+  },
+  "Toxic Thread": {
+    "flags": {},
+    "bp": 0,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 20
+  },
+  "Laser Focus": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 30
+  },
+  "Gear Up": {
+    "flags": {},
+    "bp": 0,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 20
+  },
+  "Throat Chop": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Pollen Puff": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 90,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 15,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Anchor Shot": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Psychic Terrain": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Lunge": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Fire Lash": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Power Trip": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 20,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Burn Up": {
+    "flags": {},
+    "bp": 130,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Speed Swap": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Smart Strike": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Purify": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Poison",
+    "acc": 0,
+    "pp": 20,
+    "isHealing": true
+  },
+  "Revelation Dance": {
+    "flags": {
+      "isDance": true
+    },
+    "bp": 100,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 15,
+    "isDance": true
+  },
+  "Core Enforcer": {
+    "flags": {},
+    "bp": 140,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Trop Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 70,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true,
+    "isKick": true
+  },
+  "Instruct": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 15
+  },
+  "Beak Blast": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 100,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 15,
+    "isBullet": true,
+    "isBallistic": true
+  },
+  "Clanging Scales": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 110,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacentFoes",
+    "isSound": true,
+    "secondaries": true
+  },
+  "Dragon Hammer": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Brutal Swing": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 20,
+    "target": "allAdjacent",
+    "makesContact": true
+  },
+  "Aurora Veil": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ice",
+    "acc": 0,
+    "pp": 20
+  },
+  "Shell Trap": {
+    "flags": {},
+    "bp": 150,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacentFoes"
+  },
+  "Fleur Cannon": {
+    "flags": {},
+    "bp": 130,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Psychic Fangs": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 85,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isBite": true
+  },
+  "Stomping Tantrum": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 75,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Shadow Bone": {
+    "flags": {
+      "isBone": true
+    },
+    "bp": 85,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true,
+    "isBone": true
+  },
+  "Accelerock": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Liquidation": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 85,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Prismatic Laser": {
+    "flags": {},
+    "bp": 160,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Spectral Thief": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Sunsteel Strike": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Moongeist Beam": {
+    "flags": {},
+    "bp": 100,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 5
+  },
+  "Tearful Look": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 20
+  },
+  "Zing Zap": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Nature's Madness": {
+    "flags": {},
+    "bp": 1,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 10
+  },
+  "Multi-Attack": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Mind Blown": {
+    "flags": {},
+    "bp": 150,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacent"
+  },
+  "Plasma Fists": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 100,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isPunch": true,
+    "secondaries": true
+  },
+  "Photon Geyser": {
+    "flags": {},
+    "bp": 100,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 5
+  },
+  "Zippy Zap": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 50,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    ".willCrit": true
+  },
+  "Splishy Splash": {
+    "flags": {},
+    "bp": 90,
+    "type": "Water",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Floaty Fall": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Pika Papow": {
+    "flags": {},
+    "bp": 1,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 20
+  },
+  "Bouncy Bubble": {
+    "flags": {},
+    "bp": 90,
+    "type": "Water",
+    "acc": 100,
+    "pp": 5,
+    "drain": [
+      50,
+      100
+    ]
+  },
+  "Buzzy Buzz": {
+    "flags": {},
+    "bp": 8,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 8,
+    "secondaries": true
+  },
+  "Sizzly Slide": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 8,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 8,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Glitzy Glow": {
+    "flags": {},
+    "bp": 8,
+    "type": "Psychic",
+    "acc": 8,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Baddy Bad": {
+    "flags": {},
+    "bp": 8,
+    "type": "Dark",
+    "acc": 8,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Sappy Seed": {
+    "flags": {},
+    "bp": 95,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Freezy Frost": {
+    "flags": {},
+    "bp": 95,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Sparkly Swirl": {
+    "flags": {},
+    "bp": 95,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 8,
+    "secondaries": true
+  },
+  "Veevee Volley": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Double Iron Bash": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 60,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "isPunch": true,
+    "multihit": [
+      2,
+      2
+    ],
+    "secondaries": true
+  },
+  "Dynamax Cannon": {
+    "flags": {},
+    "bp": 100,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 5
+  },
+  "Snipe Shot": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 70,
+    "isBullet": true,
+    "isBallistic": true,
+    "type": "Water",
+    "acc": 100,
+    "pp": 15
+  },
+  "Jaw Lock": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 90,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isBite": true,
+    "secondaries": true
+  },
+  "Stuff Cheeks": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "No Retreat": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 5
+  },
+  "Tar Shot": {
+    "flags": {},
+    "bp": 0,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 15
+  },
+  "Magic Powder": {
+    "flags": {
+      "isPowder": true
+    },
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 20,
+    "isPowder": true
+  },
+  "Dragon Darts": {
+    "flags": {},
+    "bp": 50,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 10,
+    "multihit": [
+      2,
+      2
+    ]
+  },
+  "Teatime": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Octolock": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 15
+  },
+  "Bolt Beak": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 85,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Fishious Rend": {
+    "flags": {
+      "makesContact": true,
+      "isBite": true
+    },
+    "bp": 85,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isBite": true
+  },
+  "Court Change": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10
+  },
+  "Clangorous Soul": {
+    "flags": {
+      "isSound": true,
+      "isDance": true
+    },
+    "bp": 0,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 5,
+    "isSound": true,
+    "isDance": true
+  },
+  "Body Press": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Decorate": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 15
+  },
+  "Drum Beating": {
+    "flags": {},
+    "bp": 80,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Snap Trap": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Steel",
+    "acc": 85,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Pyro Ball": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true,
+      "isKick": true
+    },
+    "bp": 120,
+    "type": "Fire",
+    "acc": 90,
+    "pp": 5,
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true,
+    "isKick": true
+  },
+  "Behemoth Blade": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 100,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Behemoth Bash": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Aura Wheel": {
+    "flags": {},
+    "bp": 110,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Breaking Swipe": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacentFoes",
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Branch Poke": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 40,
+    "makesContact": true
+  },
+  "Overdrive": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 80,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "isSound": true
+  },
+  "Apple Acid": {
+    "flags": {},
+    "bp": 80,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Grav Apple": {
+    "flags": {},
+    "bp": 80,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Spirit Break": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 75,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Strange Steam": {
+    "flags": {},
+    "bp": 90,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Life Dew": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Water",
+    "acc": 0,
+    "pp": 10,
+    "isHealing": true
+  },
+  "Obstruct": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 5
+  },
+  "False Surrender": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Meteor Assault": {
+    "flags": {},
+    "bp": 160,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Eternabeam": {
+    "flags": {},
+    "bp": 160,
+    "type": "Dragon",
+    "acc": 90,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Steel Beam": {
+    "flags": {},
+    "bp": 140,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 5
+  },
+  "Expanding Force": {
+    "flags": {},
+    "bp": 80,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10
+  },
+  "Steel Roller": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 130,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Scale Shot": {
+    "flags": {},
+    "multihit": [
+      2,
+      5
+    ],
+    "bp": 25,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 20
+  },
+  "Meteor Beam": {
+    "flags": {},
+    "bp": 120,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Shell Side Arm": {
+    "flags": {},
+    "bp": 100,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Draco Barrage": {
+    "flags": {},
+    "bp": 100,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 5,
+    "recoil": [
+      33,
+      100
+    ]
+  },
+  "Misty Explosion": {
+    "flags": {},
+    "bp": 100,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacent"
+  },
+  "Grassy Glide": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Rising Voltage": {
+    "flags": {},
+    "bp": 70,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 20
+  },
+  "Terrain Pulse": {
+    "flags": {
+      "isPulse": true
+    },
+    "bp": 50,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "isPulse": true
+  },
+  "Skitter Smack": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Burning Jealousy": {
+    "flags": {},
+    "bp": 70,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Lash Out": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 75,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Poltergeist": {
+    "flags": {},
+    "bp": 110,
+    "type": "Ghost",
+    "acc": 90,
+    "pp": 5
+  },
+  "Corrosive Gas": {
+    "flags": {},
+    "bp": 0,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 40,
+    "target": "allAdjacent"
+  },
+  "Coaching": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 10
+  },
+  "Flip Turn": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Water",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true
+  },
+  "Triple Axel": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 20,
+    "type": "Ice",
+    "acc": 90,
+    "pp": 10,
+    "makesContact": true,
+    "multihit": [
+      3,
+      3
+    ],
+    "isKick": true
+  },
+  "Dual Wingbeat": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Flying",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "multihit": [
+      2,
+      2
+    ]
+  },
+  "Scorching Sands": {
+    "flags": {},
+    "bp": 70,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Jungle Healing": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 10,
+    "isHealing": true
+  },
+  "Wicked Blow": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 75,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    ".willCrit": true,
+    "isPunch": true
+  },
+  "Surging Strikes": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 25,
+    "type": "Water",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    ".willCrit": true,
+    "isPunch": true,
+    "multihit": [
+      3,
+      3
+    ]
+  },
+  "Thunder Cage": {
+    "flags": {},
+    "bp": 80,
+    "type": "Electric",
+    "acc": 90,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Dragon Energy": {
+    "flags": {},
+    "bp": 150,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacentFoes"
+  },
+  "Freezing Glare": {
+    "flags": {},
+    "bp": 90,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Fiery Wrath": {
+    "flags": {},
+    "bp": 90,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Thunderous Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 90,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true,
+    "isKick": true
+  },
+  "Glacial Lance": {
+    "flags": {},
+    "bp": 120,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacentFoes"
+  },
+  "Astral Barrage": {
+    "flags": {},
+    "bp": 120,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacentFoes"
+  },
+  "Eerie Spell": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 80,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 5,
+    "isSound": true,
+    "secondaries": true
+  },
+  "Dire Claw": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Psyshield Bash": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 70,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Power Shift": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Stone Axe": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 65,
+    "type": "Rock",
+    "acc": 90,
+    "pp": 15,
+    "makesContact": true,
+    "isSword": true,
+    "secondaries": true
+  },
+  "Springtide Storm": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 100,
+    "type": "Fairy",
+    "acc": 90,
+    "pp": 5,
+    "target": "allAdjacentFoes",
+    "isWind": true,
+    "secondaries": true
+  },
+  "Mystical Power": {
+    "flags": {},
+    "bp": 70,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Raging Fury": {
+    "flags": {},
+    "bp": 9,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Wave Crash": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Water",
+    "acc": 100,
+    "recoil": [
+      33,
+      100
+    ],
+    "pp": 10,
+    "makesContact": true
+  },
+  "Chloroblast": {
+    "flags": {},
+    "bp": 120,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 15
+  },
+  "Mountain Gale": {
+    "flags": {},
+    "bp": 120,
+    "type": "Ice",
+    "acc": 90,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Victory Dance": {
+    "flags": {
+      "isDance": true
+    },
+    "bp": 0,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 20,
+    "isDance": true
+  },
+  "Headlong Rush": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 9,
+    "type": "Ground",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "isPunch": true,
+    "secondaries": true
+  },
+  "Barb Barrage": {
+    "flags": {},
+    "bp": 60,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Esper Wing": {
+    "flags": {},
+    "bp": 80,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Bitter Malice": {
+    "flags": {},
+    "bp": 60,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Shelter": {
+    "flags": {},
+    "bp": 0,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 10
+  },
+  "Triple Arrows": {
+    "flags": {
+      "isKick": true
+    },
+    "bp": 90,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true,
+    "isKick": true
+  },
+  "Infernal Parade": {
+    "flags": {},
+    "bp": 60,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Ceaseless Edge": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 65,
+    "type": "Dark",
+    "acc": 90,
+    "pp": 15,
+    "makesContact": true,
+    "isSword": true,
+    "secondaries": true
+  },
+  "Bleakwind Storm": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 100,
+    "type": "Flying",
+    "acc": 90,
+    "pp": 9,
+    "target": "allAdjacentFoes",
+    "isWind": true,
+    "secondaries": true
+  },
+  "Wildbolt Storm": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 100,
+    "type": "Electric",
+    "acc": 90,
+    "pp": 9,
+    "target": "allAdjacentFoes",
+    "isWind": true,
+    "secondaries": true
+  },
+  "Sandsear Storm": {
+    "flags": {
+      "isWind": true
+    },
+    "bp": 100,
+    "type": "Ground",
+    "acc": 90,
+    "pp": 9,
+    "target": "allAdjacentFoes",
+    "isWind": true,
+    "secondaries": true
+  },
+  "Lunar Blessing": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10,
+    "isHealing": true
+  },
+  "Take Heart": {
+    "flags": {},
+    "bp": 0,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Tera Blast": {
+    "flags": {},
+    "bp": 80,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Silk Trap": {
+    "flags": {},
+    "bp": 0,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 5
+  },
+  "Axe Kick": {
+    "flags": {
+      "makesContact": true,
+      "isKick": true
+    },
+    "bp": 120,
+    "type": "Fighting",
+    "acc": 90,
+    "pp": 10,
+    "makesContact": true,
+    "secondaries": true,
+    "isKick": true
+  },
+  "Last Respects": {
+    "flags": {},
+    "bp": 50,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 10
+  },
+  "Lumina Crash": {
+    "flags": {},
+    "bp": 80,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Order Up": {
+    "flags": {},
+    "bp": 80,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Jet Punch": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 60,
+    "type": "Water",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Spicy Extract": {
+    "flags": {},
+    "bp": 0,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 15
+  },
+  "Spin Out": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 110,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Population Bomb": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 20,
+    "type": "Normal",
+    "acc": 90,
+    "pp": 10,
+    "makesContact": true,
+    "isSword": true,
+    "multihit": [
+      10,
+      10
+    ]
+  },
+  "Ice Spinner": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 80,
+    "type": "Ice",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Glaive Rush": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Revival Blessing": {
+    "flags": {
+      "isHealing": true
+    },
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 1,
+    "isHealing": true
+  },
+  "Salt Cure": {
+    "flags": {},
+    "bp": 40,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 15,
+    "secondaries": true
+  },
+  "Triple Dive": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 40,
+    "type": "Water",
+    "acc": 90,
+    "pp": 10,
+    "makesContact": true,
+    "multihit": [
+      3,
+      3
+    ]
+  },
+  "Mortal Spin": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 30,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacentFoes",
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Doodle": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10
+  },
+  "Fillet Away": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Kowtow Cleave": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 85,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 10,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Flower Trick": {
+    "flags": {},
+    "bp": 70,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 10,
+    ".willCrit": true
+  },
+  "Torch Song": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 80,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 10,
+    "isSound": true,
+    "secondaries": true
+  },
+  "Aqua Step": {
+    "flags": {
+      "makesContact": true,
+      "isDance": true,
+      "isKick": true
+    },
+    "bp": 80,
+    "type": "Water",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isDance": true,
+    "secondaries": true,
+    "isKick": true
+  },
+  "Raging Bull": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 90,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Make It Rain": {
+    "flags": {},
+    "bp": 120,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 5,
+    "target": "allAdjacentFoes",
+    "secondaries": true
+  },
+  "Ruination": {
+    "flags": {},
+    "bp": 1,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10
+  },
+  "Collision Course": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Electro Drift": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Shed Tail": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Chilly Reception": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ice",
+    "acc": 0,
+    "pp": 10
+  },
+  "Tidy Up": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Snowscape": {
+    "flags": {},
+    "bp": 0,
+    "type": "Ice",
+    "acc": 0,
+    "pp": 10
+  },
+  "Pounce": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 60,
+    "type": "Bug",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Trailblaze": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 50,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 20,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Chilling Water": {
+    "flags": {},
+    "bp": 50,
+    "type": "Water",
+    "acc": 100,
+    "pp": 20,
+    "secondaries": true
+  },
+  "Hyper Drill": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true
+  },
+  "Twin Beam": {
+    "flags": {},
+    "bp": 50,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "multihit": [
+      2,
+      2
+    ]
+  },
+  "Rage Fist": {
+    "flags": {
+      "makesContact": true,
+      "isPunch": true
+    },
+    "bp": 50,
+    "type": "Ghost",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true,
+    "isPunch": true
+  },
+  "Armor Cannon": {
+    "flags": {
+      "isPulse": true
+    },
+    "bp": 120,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 5,
+    "isPulse": true,
+    "secondaries": true
+  },
+  "Bitter Blade": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true,
+      "isHealing": true
+    },
+    "bp": 90,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 10,
+    "drain": [
+      50,
+      100
+    ],
+    "makesContact": true,
+    "isSword": true,
+    "isHealing": true
+  },
+  "Double Shock": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Gigaton Hammer": {
+    "flags": {},
+    "bp": 160,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 5
+  },
+  "Comeuppance": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 1,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Aqua Cutter": {
+    "flags": {
+      "isSword": true
+    },
+    "bp": 70,
+    "type": "Water",
+    "acc": 100,
+    "pp": 20,
+    "isSword": true
+  },
+  "Blazing Torque": {
+    "flags": {},
+    "bp": 80,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Wicked Torque": {
+    "flags": {},
+    "bp": 80,
+    "type": "Dark",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Noxious Torque": {
+    "flags": {},
+    "bp": 100,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Combat Torque": {
+    "flags": {},
+    "bp": 100,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Magical Torque": {
+    "flags": {},
+    "bp": 100,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Psyblade": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 80,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Hydro Steam": {
+    "flags": {},
+    "bp": 80,
+    "type": "Water",
+    "acc": 100,
+    "pp": 15
+  },
+  "Blood Moon": {
+    "flags": {},
+    "bp": 140,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5
+  },
+  "Matcha Gotcha": {
+    "flags": {},
+    "bp": 80,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 15,
+    "target": "allAdjacentFoes",
+    "drain": [
+      50,
+      100
+    ],
+    "secondaries": true
+  },
+  "Syrup Bomb": {
+    "flags": {
+      "isBullet": true,
+      "isBallistic": true
+    },
+    "bp": 60,
+    "type": "Grass",
+    "acc": 85,
+    "pp": 10,
+    "isBullet": true,
+    "isBallistic": true,
+    "secondaries": true
+  },
+  "Ivy Cudgel": {
+    "flags": {},
+    "bp": 100,
+    "type": "Grass",
+    "acc": 100,
+    "pp": 10
+  },
+  "Electro Shot": {
+    "flags": {},
+    "bp": 130,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 10,
+    "secondaries": true
+  },
+  "Tera Starstorm": {
+    "flags": {},
+    "bp": 120,
+    "type": "Normal",
+    "acc": 100,
+    "pp": 5
+  },
+  "Fickle Beam": {
+    "flags": {},
+    "bp": 80,
+    "type": "Dragon",
+    "acc": 100,
+    "pp": 5
+  },
+  "Burning Bulwark": {
+    "flags": {},
+    "bp": 0,
+    "type": "Fire",
+    "acc": 0,
+    "pp": 5
+  },
+  "Thunderclap": {
+    "flags": {},
+    "bp": 70,
+    "type": "Electric",
+    "acc": 100,
+    "pp": 5
+  },
+  "Mighty Cleave": {
+    "flags": {
+      "makesContact": true,
+      "isSword": true
+    },
+    "bp": 90,
+    "type": "Rock",
+    "acc": 100,
+    "pp": 5,
+    "makesContact": true,
+    "isSword": true
+  },
+  "Tachyon Cutter": {
+    "flags": {
+      "isSword": true
+    },
+    "bp": 50,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 10,
+    "multihit": [
+      2,
+      2
+    ],
+    "isSword": true
+  },
+  "Hard Press": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 100,
+    "type": "Steel",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Dragon Cheer": {
+    "flags": {},
+    "bp": 0,
+    "type": "Dragon",
+    "acc": 0,
+    "pp": 15
+  },
+  "Alluring Voice": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 80,
+    "type": "Fairy",
+    "acc": 100,
+    "pp": 10,
+    "isSound": true,
+    "secondaries": true
+  },
+  "Temper Flare": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 75,
+    "type": "Fire",
+    "acc": 100,
+    "pp": 10,
+    "makesContact": true
+  },
+  "Supercell Slam": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 120,
+    "type": "Electric",
+    "acc": 95,
+    "pp": 15,
+    "makesContact": true
+  },
+  "Psychic Noise": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 75,
+    "type": "Psychic",
+    "acc": 100,
+    "pp": 10,
+    "isSound": true,
+    "secondaries": true
+  },
+  "Upper Hand": {
+    "flags": {
+      "makesContact": true
+    },
+    "bp": 65,
+    "type": "Fighting",
+    "acc": 100,
+    "pp": 15,
+    "makesContact": true,
+    "secondaries": true
+  },
+  "Malignant Chain": {
+    "flags": {},
+    "bp": 100,
+    "type": "Poison",
+    "acc": 100,
+    "pp": 5,
+    "secondaries": true
+  },
+  "Breakneck Blitz": {
+    "flags": {},
+    "bp": 1,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 1
+  },
+  "All Out Pummeling": {
+    "flags": {},
+    "bp": 1,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 1
+  },
+  "Supersonic Skystrike": {
+    "flags": {},
+    "bp": 1,
+    "type": "Flying",
+    "acc": 0,
+    "pp": 1
+  },
+  "Acid Downpour": {
+    "flags": {},
+    "bp": 1,
+    "type": "Poison",
+    "acc": 0,
+    "pp": 1
+  },
+  "Tectonic Rage": {
+    "flags": {},
+    "bp": 1,
+    "type": "Ground",
+    "acc": 0,
+    "pp": 1
+  },
+  "Continental Crush": {
+    "flags": {},
+    "bp": 1,
+    "type": "Rock",
+    "acc": 0,
+    "pp": 1
+  },
+  "Savage Spin Out": {
+    "flags": {},
+    "bp": 1,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 1
+  },
+  "Never Ending Nightmare": {
+    "flags": {},
+    "bp": 1,
+    "type": "Ghost",
+    "acc": 0,
+    "pp": 1
+  },
+  "Corkscrew Crash": {
+    "flags": {},
+    "bp": 1,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 1
+  },
+  "Inferno Overdrive": {
+    "flags": {},
+    "bp": 1,
+    "type": "Fire",
+    "acc": 0,
+    "pp": 1
+  },
+  "Hydro Vortex": {
+    "flags": {},
+    "bp": 1,
+    "type": "Water",
+    "acc": 0,
+    "pp": 1
+  },
+  "Bloom Doom": {
+    "flags": {},
+    "bp": 1,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 1
+  },
+  "Gigavolt Havoc": {
+    "flags": {},
+    "bp": 1,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 1
+  },
+  "Shattered Psyche": {
+    "flags": {},
+    "bp": 1,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 1
+  },
+  "Subzero Slammer": {
+    "flags": {},
+    "bp": 1,
+    "type": "Ice",
+    "acc": 0,
+    "pp": 1
+  },
+  "Devastating Drake": {
+    "flags": {},
+    "bp": 1,
+    "type": "Dragon",
+    "acc": 0,
+    "pp": 1
+  },
+  "Black Hole Eclipse": {
+    "flags": {},
+    "bp": 1,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 1
+  },
+  "Twinkle Tackle": {
+    "flags": {},
+    "bp": 1,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 1
+  },
+  "Catastropika": {
+    "flags": {},
+    "bp": 210,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 1
+  },
+  "10,000,000 Volt Thunderbolt": {
+    "flags": {},
+    "bp": 195,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 1
+  },
+  "Stoked Sparksurfer": {
+    "flags": {},
+    "bp": 175,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 1,
+    "secondaries": true
+  },
+  "Extreme Evoboost": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 1
+  },
+  "Pulverizing Pancake": {
+    "flags": {},
+    "bp": 210,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 1
+  },
+  "Genesis Supernova": {
+    "flags": {},
+    "bp": 185,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 1
+  },
+  "Sinister Arrow Raid": {
+    "flags": {},
+    "bp": 180,
+    "type": "Ghost",
+    "acc": 0,
+    "pp": 1
+  },
+  "Malicious Moonsault": {
+    "flags": {},
+    "bp": 180,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 1
+  },
+  "Oceanic Operetta": {
+    "flags": {},
+    "bp": 195,
+    "type": "Water",
+    "acc": 0,
+    "pp": 1
+  },
+  "Splintered Stormshards": {
+    "flags": {},
+    "bp": 190,
+    "type": "Rock",
+    "acc": 0,
+    "pp": 1
+  },
+  "Let's Snuggle Forever": {
+    "flags": {},
+    "bp": 190,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 1
+  },
+  "Clangorous Soulblaze": {
+    "flags": {
+      "isSound": true
+    },
+    "bp": 185,
+    "type": "Dragon",
+    "acc": 0,
+    "pp": 1,
+    "target": "allAdjacentFoes",
+    "isSound": true,
+    "secondaries": true
+  },
+  "Guardian of Alola": {
+    "flags": {},
+    "bp": 1,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 1
+  },
+  "Searing Sunraze Smash": {
+    "flags": {},
+    "bp": 200,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 1
+  },
+  "Menacing Moonraze Maelstrom": {
+    "flags": {},
+    "bp": 200,
+    "type": "Ghost",
+    "acc": 0,
+    "pp": 1
+  },
+  "Light That Burns The Sky": {
+    "flags": {},
+    "bp": 200,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 1
+  },
+  "Soul Stealing 7 Star Strike": {
+    "flags": {},
+    "bp": 195,
+    "type": "Ghost",
+    "acc": 0,
+    "pp": 1
+  },
+  "Max Guard": {
+    "flags": {},
+    "bp": 0,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Flare": {
+    "flags": {},
+    "bp": 1,
+    "type": "Fire",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Flutterby": {
+    "flags": {},
+    "bp": 1,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Lightning": {
+    "flags": {},
+    "bp": 1,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Strike": {
+    "flags": {},
+    "bp": 1,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Knuckle": {
+    "flags": {},
+    "bp": 1,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Phantasm": {
+    "flags": {},
+    "bp": 1,
+    "type": "Ghost",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Hailstorm": {
+    "flags": {},
+    "bp": 1,
+    "type": "Ice",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Ooze": {
+    "flags": {},
+    "bp": 1,
+    "type": "Poison",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Geyser": {
+    "flags": {},
+    "bp": 1,
+    "type": "Water",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Airstream": {
+    "flags": {},
+    "bp": 1,
+    "type": "Flying",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Starfall": {
+    "flags": {},
+    "bp": 1,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Wyrmwind": {
+    "flags": {},
+    "bp": 1,
+    "type": "Dragon",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Mindstorm": {
+    "flags": {},
+    "bp": 1,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Rockfall": {
+    "flags": {},
+    "bp": 1,
+    "type": "Rock",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Quake": {
+    "flags": {},
+    "bp": 1,
+    "type": "Ground",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Darkness": {
+    "flags": {},
+    "bp": 1,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Overgrowth": {
+    "flags": {},
+    "bp": 10,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 10
+  },
+  "Max Steelspike": {
+    "flags": {},
+    "bp": 10,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Vine Lash": {
+    "flags": {},
+    "bp": 10,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Wildfire": {
+    "flags": {},
+    "bp": 10,
+    "type": "Fire",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Canonade": {
+    "flags": {},
+    "bp": 10,
+    "type": "Water",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Befuddle": {
+    "flags": {},
+    "bp": 10,
+    "type": "Bug",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Volt Crash": {
+    "flags": {},
+    "bp": 10,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Gold Rush": {
+    "flags": {},
+    "bp": 10,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Chi Strike": {
+    "flags": {},
+    "bp": 10,
+    "type": "Fighting",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Terror": {
+    "flags": {},
+    "bp": 10,
+    "type": "Ghost",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Foam Burst": {
+    "flags": {},
+    "bp": 10,
+    "type": "Water",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Resonance": {
+    "flags": {},
+    "bp": 10,
+    "type": "Ice",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Cuddle": {
+    "flags": {},
+    "bp": 10,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Replenish": {
+    "flags": {},
+    "bp": 10,
+    "type": "Normal",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Malodor": {
+    "flags": {},
+    "bp": 10,
+    "type": "Poison",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Meltdown": {
+    "flags": {},
+    "bp": 10,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Drum Solo": {
+    "flags": {},
+    "bp": 10,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Fireball": {
+    "flags": {},
+    "bp": 10,
+    "type": "Fire",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Hydrosnipe": {
+    "flags": {},
+    "bp": 10,
+    "type": "Water",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Wind Rage": {
+    "flags": {},
+    "bp": 10,
+    "type": "Flying",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Gravitas": {
+    "flags": {},
+    "bp": 10,
+    "type": "Psychic",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Stonesurge": {
+    "flags": {},
+    "bp": 10,
+    "type": "Water",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Volcalith": {
+    "flags": {},
+    "bp": 10,
+    "type": "Rock",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Tartness": {
+    "flags": {},
+    "bp": 10,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Sweetness": {
+    "flags": {},
+    "bp": 10,
+    "type": "Grass",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Sandblast": {
+    "flags": {},
+    "bp": 10,
+    "type": "Ground",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Stun Shock": {
+    "flags": {},
+    "bp": 10,
+    "type": "Electric",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Centiferno": {
+    "flags": {},
+    "bp": 10,
+    "type": "Fire",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Smite": {
+    "flags": {},
+    "bp": 10,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Snooze": {
+    "flags": {},
+    "bp": 10,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Finale": {
+    "flags": {},
+    "bp": 10,
+    "type": "Fairy",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Steelsurge": {
+    "flags": {},
+    "bp": 10,
+    "type": "Steel",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Depletion": {
+    "flags": {},
+    "bp": 10,
+    "type": "Dragon",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max One Blow": {
+    "flags": {},
+    "bp": 10,
+    "type": "Dark",
+    "acc": 0,
+    "pp": 10
+  },
+  "G-Max Rapid Flow": {
+    "flags": {},
+    "bp": 10,
+    "type": "Water",
+    "acc": 0,
+    "pp": 10
+  }
+}
