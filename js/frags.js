@@ -197,7 +197,14 @@ function prevoData(speciesName, encounters) {
 }
 
 function shouldHidePrevo(speciesName) {
-	let evos = evoData[speciesName]["evos"]
+	let evos = []
+	
+	try {
+		evos = evoData[speciesName]["evos"]
+	} catch {
+		return false
+	}
+	
 
 	for (evo of evos) {
 		if (evo == speciesName) {
