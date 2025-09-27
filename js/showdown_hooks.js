@@ -46,6 +46,10 @@ $(document).ready(function() {
 
     })
 
+    $('#battle-notes .notes-text').blur(function() {
+        localStorage.notes = $('#battle-notes .notes-text').html()
+    })
+
     $('[aria-labelledby="resultHeaderL"] label').on('contextmenu', function(e) {
         e.preventDefault()
         $(this).click()
