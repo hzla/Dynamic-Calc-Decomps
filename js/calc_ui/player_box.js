@@ -234,6 +234,7 @@ function box_rolls() {
 
     $('.killer').removeClass('killer')
     $('.defender').removeClass('defender')
+    $('.faster').removeClass('faster')
 
     var p1field = createField();
     var p2field = p1field.clone().swap();
