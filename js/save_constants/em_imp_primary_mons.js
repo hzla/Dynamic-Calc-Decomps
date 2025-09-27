@@ -17,6 +17,18 @@ em_imp_primary_mons = {
       "sa": 1,
       "sd": 1
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "100",
+        "target": "NONE"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "MOOMOO_MILK",
+        "target": "NONE"
+      }
+    ],
     "types": [
       "Mystery"
     ],
@@ -121,6 +133,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "IVYSAUR"
+      }
+    ],
     "types": [
       "Grass",
       "Poison"
@@ -234,6 +253,13 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 80
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "VENUSAUR"
+      }
+    ],
     "types": [
       "Grass",
       "Poison"
@@ -372,6 +398,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Grass",
       "Poison"
@@ -488,6 +515,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "CHARMELEON"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -611,6 +645,13 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "CHARIZARD"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -795,6 +836,7 @@ em_imp_primary_mons = {
       "sa": 109,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Fire",
       "Flying"
@@ -910,6 +952,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 64
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "WARTORTLE"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -1036,6 +1085,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 80
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "BLASTOISE"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -1188,6 +1244,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -1227,6 +1284,13 @@ em_imp_primary_mons = {
       "sa": 20,
       "sd": 20
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "7",
+        "target": "METAPOD"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -1267,6 +1331,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "10",
+        "target": "BUTTERFREE"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -1401,6 +1472,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Bug",
       "Flying"
@@ -1441,6 +1513,13 @@ em_imp_primary_mons = {
       "sa": 20,
       "sd": 20
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "7",
+        "target": "KAKUNA"
+      }
+    ],
     "types": [
       "Bug",
       "Poison"
@@ -1482,6 +1561,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "10",
+        "target": "BEEDRILL"
+      }
+    ],
     "types": [
       "Bug",
       "Poison"
@@ -1602,6 +1688,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Bug",
       "Poison"
@@ -1702,6 +1789,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "PIDGEOTTO"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -1806,6 +1900,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "PIDGEOT"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -1925,6 +2026,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -2027,6 +2129,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "RATICATE"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -2147,6 +2256,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -2240,6 +2350,13 @@ em_imp_primary_mons = {
       "sa": 31,
       "sd": 31
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "FEAROW"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -2358,6 +2475,7 @@ em_imp_primary_mons = {
       "sa": 61,
       "sd": 61
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -2473,6 +2591,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 54
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "ARBOK"
+      }
+    ],
     "types": [
       "Poison"
     ],
@@ -2628,6 +2753,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 79
     },
+    "evos": [],
     "types": [
       "Poison",
       "Dark"
@@ -2764,6 +2890,18 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "THUNDER_STONE",
+        "target": "RAICHU"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "RAICHU_ALOLA"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -2909,6 +3047,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric",
       "Ice"
@@ -3051,6 +3190,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric",
       "Fairy"
@@ -3193,6 +3333,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric",
       "Water"
@@ -3336,6 +3477,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric",
       "Flying"
@@ -3479,6 +3621,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric",
       "Psychic"
@@ -3622,6 +3765,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric",
       "Steel"
@@ -3765,6 +3909,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric",
       "Fighting"
@@ -3873,6 +4018,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -3971,6 +4117,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Electric",
       "Normal"
@@ -4097,6 +4244,13 @@ em_imp_primary_mons = {
       "sa": 20,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "SANDSLASH"
+      }
+    ],
     "types": [
       "Ground"
     ],
@@ -4235,6 +4389,7 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Ground"
     ],
@@ -4332,6 +4487,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "NIDORINA"
+      }
+    ],
     "types": [
       "Poison"
     ],
@@ -4430,6 +4592,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "MOON_STONE",
+        "target": "NIDOQUEEN"
+      }
+    ],
     "types": [
       "Poison"
     ],
@@ -4549,6 +4718,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Poison",
       "Ground"
@@ -4642,6 +4812,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "NIDORINO"
+      }
+    ],
     "types": [
       "Poison"
     ],
@@ -4735,6 +4912,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "MOON_STONE",
+        "target": "NIDOKING"
+      }
+    ],
     "types": [
       "Poison"
     ],
@@ -4854,6 +5038,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Poison",
       "Ground"
@@ -5017,6 +5202,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "MOON_STONE",
+        "target": "CLEFABLE"
+      }
+    ],
     "types": [
       "Fairy"
     ],
@@ -5121,6 +5313,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Fairy"
     ],
@@ -5252,6 +5445,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "FIRE_STONE",
+        "target": "NINETALES"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -5333,6 +5533,7 @@ em_imp_primary_mons = {
       "sa": 81,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -5483,6 +5684,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "MOON_STONE",
+        "target": "WIGGLYTUFF"
+      }
+    ],
     "types": [
       "Normal",
       "Fairy"
@@ -5598,6 +5806,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Normal",
       "Fairy"
@@ -5709,6 +5918,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "GOLBAT"
+      }
+    ],
     "types": [
       "Poison",
       "Flying"
@@ -5836,6 +6052,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "CROBAT"
+      }
+    ],
     "types": [
       "Poison",
       "Flying"
@@ -5946,6 +6169,13 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "GLOOM"
+      }
+    ],
     "types": [
       "Grass",
       "Poison"
@@ -6064,6 +6294,18 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "VILEPLUME"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SUN_STONE",
+        "target": "BELLOSSOM"
+      }
+    ],
     "types": [
       "Grass",
       "Poison"
@@ -6152,6 +6394,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Grass",
       "Poison"
@@ -6255,6 +6498,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "PARASECT"
+      }
+    ],
     "types": [
       "Bug",
       "Grass"
@@ -6381,6 +6631,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Bug",
       "Grass"
@@ -6477,6 +6728,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "VENOMOTH"
+      }
+    ],
     "types": [
       "Bug",
       "Poison"
@@ -6609,6 +6867,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Bug",
       "Psychic"
@@ -6703,6 +6962,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "DUGTRIO"
+      }
+    ],
     "types": [
       "Ground"
     ],
@@ -6824,6 +7090,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Ground"
     ],
@@ -6944,6 +7211,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "PERSIAN"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -7092,6 +7366,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -7215,6 +7490,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "GOLDUCK"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -7366,6 +7648,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Water",
       "Psychic"
@@ -7506,6 +7789,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "PRIMEAPE"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -7671,6 +7961,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "MOVE",
+        "parameter": "SHADOW_PUNCH",
+        "target": "ANNIHILAPE"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -7791,6 +8088,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "FIRE_STONE",
+        "target": "ARCANINE"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -7884,6 +8188,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -7977,6 +8282,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "POLIWHIRL"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -8085,6 +8397,23 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "WATER_STONE",
+        "target": "POLIWRATH"
+      },
+      {
+        "method": "TRADE_ITEM",
+        "parameter": "KINGS_ROCK",
+        "target": "POLITOED"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "KINGS_ROCK",
+        "target": "POLITOED"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -8189,6 +8518,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Water",
       "Fighting"
@@ -8254,6 +8584,13 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "KADABRA"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -8367,6 +8704,18 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "ALAKAZAM"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "ALAKAZAM"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -8483,6 +8832,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -8610,6 +8960,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "MACHOKE"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -8746,6 +9103,18 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "MACHAMP"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "MACHAMP"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -8901,6 +9270,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -9002,6 +9372,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "21",
+        "target": "WEEPINBELL"
+      }
+    ],
     "types": [
       "Grass",
       "Poison"
@@ -9114,6 +9491,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "VICTREEBEL"
+      }
+    ],
     "types": [
       "Grass",
       "Poison"
@@ -9225,6 +9609,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Grass",
       "Poison"
@@ -9342,6 +9727,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 100
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "TENTACRUEL"
+      }
+    ],
     "types": [
       "Water",
       "Poison"
@@ -9472,6 +9864,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Water",
       "Poison"
@@ -9594,6 +9987,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "GRAVELER"
+      }
+    ],
     "types": [
       "Rock",
       "Ground"
@@ -9736,6 +10136,18 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "GOLEM"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "GOLEM"
+      }
+    ],
     "types": [
       "Rock",
       "Ground"
@@ -9887,6 +10299,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Rock",
       "Ground"
@@ -9994,6 +10407,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "RAPIDASH"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -10128,6 +10548,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -10260,6 +10681,23 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "37",
+        "target": "SLOWBRO"
+      },
+      {
+        "method": "TRADE_ITEM",
+        "parameter": "KINGS_ROCK",
+        "target": "SLOWKING"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "KINGS_ROCK",
+        "target": "SLOWKING"
+      }
+    ],
     "types": [
       "Water",
       "Psychic"
@@ -10410,6 +10848,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Water",
       "Psychic"
@@ -10528,6 +10967,13 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "MAGNETON"
+      }
+    ],
     "types": [
       "Electric",
       "Steel"
@@ -10671,6 +11117,18 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "MAPSEC",
+        "parameter": "NEW_MAUVILLE",
+        "target": "MAGNEZONE"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "THUNDER_STONE",
+        "target": "MAGNEZONE"
+      }
+    ],
     "types": [
       "Electric",
       "Steel"
@@ -10801,6 +11259,7 @@ em_imp_primary_mons = {
       "sa": 58,
       "sd": 77
     },
+    "evos": [],
     "types": [
       "Flying",
       "Fighting"
@@ -10901,6 +11360,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "31",
+        "target": "DODRIO"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -11023,6 +11489,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -11131,6 +11598,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "DEWGONG"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -11253,6 +11727,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Water",
       "Ice"
@@ -11370,6 +11845,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "40",
+        "target": "MUK"
+      }
+    ],
     "types": [
       "Poison"
     ],
@@ -11505,6 +11987,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Poison"
     ],
@@ -11614,6 +12097,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "WATER_STONE",
+        "target": "CLOYSTER"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -11705,6 +12195,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 45
     },
+    "evos": [],
     "types": [
       "Water",
       "Ice"
@@ -11822,6 +12313,13 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "HAUNTER"
+      }
+    ],
     "types": [
       "Ghost",
       "Poison"
@@ -11948,6 +12446,18 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "GENGAR"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "GENGAR"
+      }
+    ],
     "types": [
       "Ghost",
       "Poison"
@@ -12083,6 +12593,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Poison"
@@ -12235,6 +12746,18 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "TRADE_ITEM",
+        "parameter": "METAL_COAT",
+        "target": "STEELIX"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "METAL_COAT",
+        "target": "STEELIX"
+      }
+    ],
     "types": [
       "Rock",
       "Ground"
@@ -12367,6 +12890,13 @@ em_imp_primary_mons = {
       "sa": 43,
       "sd": 90
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "26",
+        "target": "HYPNO"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -12521,6 +13051,7 @@ em_imp_primary_mons = {
       "sa": 73,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -12629,6 +13160,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "KINGLER"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -12760,6 +13298,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -12875,6 +13414,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "ELECTRODE"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -13007,6 +13553,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -13123,6 +13670,18 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "EXEGGUTOR"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SUN_STONE",
+        "target": "EXEGGUTOR_ALOLA"
+      }
+    ],
     "types": [
       "Grass",
       "Psychic"
@@ -13221,6 +13780,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Grass",
       "Psychic"
@@ -13343,6 +13903,23 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "28",
+        "target": "MAROWAK"
+      },
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "28",
+        "target": "MAROWAK_ALOLA"
+      },
+      {
+        "method": "NONE",
+        "parameter": "0",
+        "target": "MAROWAK_ALOLA_TOTEM"
+      }
+    ],
     "types": [
       "Ground"
     ],
@@ -13478,6 +14055,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Ground"
     ],
@@ -13624,6 +14202,7 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -13778,6 +14357,7 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -13902,6 +14482,18 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "LICKILICKY"
+      },
+      {
+        "method": "MOVE",
+        "parameter": "ROLLOUT",
+        "target": "LICKILICKY"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -14001,6 +14593,18 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "35",
+        "target": "WEEZING"
+      },
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "35",
+        "target": "WEEZING_GALAR"
+      }
+    ],
     "types": [
       "Poison"
     ],
@@ -14115,6 +14719,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Poison"
     ],
@@ -14238,6 +14843,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "42",
+        "target": "RHYDON"
+      }
+    ],
     "types": [
       "Ground",
       "Rock"
@@ -14393,6 +15005,18 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "TRADE_ITEM",
+        "parameter": "PROTECTOR",
+        "target": "RHYPERIOR"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "RHYPERIOR"
+      }
+    ],
     "types": [
       "Ground",
       "Rock"
@@ -14538,6 +15162,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 105
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "BLISSEY"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -14658,6 +15289,13 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "MOVE",
+        "parameter": "ANCIENT_POWER",
+        "target": "TANGROWTH"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -14786,6 +15424,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -14871,6 +15510,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "32",
+        "target": "SEADRA"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -14968,6 +15614,18 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "TRADE_ITEM",
+        "parameter": "DRAGON_SCALE",
+        "target": "KINGDRA"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "PRISM_SCALE",
+        "target": "KINGDRA"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -15059,6 +15717,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "33",
+        "target": "SEAKING"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -15162,6 +15827,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -15284,6 +15950,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "WATER_STONE",
+        "target": "STARMIE"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -15371,6 +16044,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Water",
       "Psychic"
@@ -15548,6 +16222,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Fairy"
@@ -15668,6 +16343,23 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 80
     },
+    "evos": [
+      {
+        "method": "TRADE_ITEM",
+        "parameter": "METAL_COAT",
+        "target": "SCIZOR"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "KINGS_ROCK",
+        "target": "KLEAVOR"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "METAL_COAT",
+        "target": "SCIZOR"
+      }
+    ],
     "types": [
       "Bug",
       "Flying"
@@ -15826,6 +16518,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Ice",
       "Psychic"
@@ -15948,6 +16641,18 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 85
     },
+    "evos": [
+      {
+        "method": "TRADE_ITEM",
+        "parameter": "ELECTIRIZER",
+        "target": "ELECTIVIRE"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "ELECTIVIRE"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -16064,6 +16769,18 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 85
     },
+    "evos": [
+      {
+        "method": "TRADE_ITEM",
+        "parameter": "MAGMARIZER",
+        "target": "MAGMORTAR"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "MAGMORTAR"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -16188,6 +16905,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Bug"
     ],
@@ -16310,6 +17028,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -16348,6 +17067,13 @@ em_imp_primary_mons = {
       "sa": 15,
       "sd": 20
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "GYARADOS"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -16472,6 +17198,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Water",
       "Flying"
@@ -16610,6 +17337,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Water",
       "Dragon"
@@ -16639,6 +17367,7 @@ em_imp_primary_mons = {
       "sa": 48,
       "sd": 48
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -16738,6 +17467,48 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "THUNDER_STONE",
+        "target": "JOLTEON"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "WATER_STONE",
+        "target": "VAPOREON"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "FIRE_STONE",
+        "target": "FLAREON"
+      },
+      {
+        "method": "FRIENDSHIP_DAY",
+        "parameter": "0",
+        "target": "ESPEON"
+      },
+      {
+        "method": "FRIENDSHIP_NIGHT",
+        "parameter": "0",
+        "target": "UMBREON"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "LEAFEON"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "ICE_STONE",
+        "target": "GLACEON"
+      },
+      {
+        "method": "FRIENDSHIP_MOVE_TYPE",
+        "parameter": "FAIRY",
+        "target": "SYLVEON"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -16847,6 +17618,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -16972,6 +17744,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -17095,6 +17868,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -17197,6 +17971,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "PORYGON2"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -17303,6 +18084,13 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "OMASTAR"
+      }
+    ],
     "types": [
       "Rock",
       "Water"
@@ -17435,6 +18223,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Rock",
       "Water"
@@ -17532,6 +18321,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "KABUTOPS"
+      }
+    ],
     "types": [
       "Rock",
       "Water"
@@ -17666,6 +18462,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Rock",
       "Water"
@@ -17788,6 +18585,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Rock",
       "Flying"
@@ -17929,6 +18727,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -18050,6 +18849,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 125
     },
+    "evos": [],
     "types": [
       "Ice",
       "Flying"
@@ -18171,6 +18971,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Electric",
       "Flying"
@@ -18292,6 +19093,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Fire",
       "Flying"
@@ -18395,6 +19197,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "DRAGONAIR"
+      }
+    ],
     "types": [
       "Dragon"
     ],
@@ -18505,6 +19314,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "55",
+        "target": "DRAGONITE"
+      }
+    ],
     "types": [
       "Dragon"
     ],
@@ -18681,6 +19497,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Flying"
@@ -18925,6 +19742,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -19027,6 +19845,13 @@ em_imp_primary_mons = {
       "sa": 49,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "BAYLEEF"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -19143,6 +19968,13 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 80
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "MEGANIUM"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -19276,6 +20108,7 @@ em_imp_primary_mons = {
       "sa": 83,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fairy"
@@ -19386,6 +20219,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "QUILAVA"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -19501,6 +20341,18 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "36",
+        "target": "TYPHLOSION"
+      },
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "36",
+        "target": "TYPHLOSION_HISUI"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -19643,6 +20495,7 @@ em_imp_primary_mons = {
       "sa": 109,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -19767,6 +20620,13 @@ em_imp_primary_mons = {
       "sa": 44,
       "sd": 48
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "CROCONAW"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -19901,6 +20761,13 @@ em_imp_primary_mons = {
       "sa": 59,
       "sd": 63
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "FERALIGATR"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -20064,6 +20931,7 @@ em_imp_primary_mons = {
       "sa": 79,
       "sd": 83
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -20170,6 +21038,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "15",
+        "target": "FURRET"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -20304,6 +21179,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -20424,6 +21300,13 @@ em_imp_primary_mons = {
       "sa": 36,
       "sd": 56
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "NOCTOWL"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -20567,6 +21450,7 @@ em_imp_primary_mons = {
       "sa": 86,
       "sd": 96
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -20667,6 +21551,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 80
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "LEDIAN"
+      }
+    ],
     "types": [
       "Bug",
       "Flying"
@@ -20797,6 +21688,7 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Bug",
       "Fighting"
@@ -20914,6 +21806,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "ARIADOS"
+      }
+    ],
     "types": [
       "Bug",
       "Poison"
@@ -21063,6 +21962,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Bug",
       "Poison"
@@ -21202,6 +22102,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Poison",
       "Flying"
@@ -21312,6 +22213,13 @@ em_imp_primary_mons = {
       "sa": 56,
       "sd": 56
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "LANTURN"
+      }
+    ],
     "types": [
       "Water",
       "Electric"
@@ -21462,6 +22370,7 @@ em_imp_primary_mons = {
       "sa": 76,
       "sd": 76
     },
+    "evos": [],
     "types": [
       "Water",
       "Electric"
@@ -21536,6 +22445,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "PIKACHU"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -21614,6 +22530,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "CLEFAIRY"
+      }
+    ],
     "types": [
       "Fairy"
     ],
@@ -21691,6 +22614,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 20
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "JIGGLYPUFF"
+      }
+    ],
     "types": [
       "Normal",
       "Fairy"
@@ -21799,6 +22729,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "TOGETIC"
+      }
+    ],
     "types": [
       "Togepi Family Type"
     ],
@@ -21945,6 +22882,13 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 105
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "TOGEKISS"
+      }
+    ],
     "types": [
       "Togepi Family Type",
       "Flying"
@@ -22075,6 +23019,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "XATU"
+      }
+    ],
     "types": [
       "Psychic",
       "Flying"
@@ -22224,6 +23175,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Flying"
@@ -22321,6 +23273,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "15",
+        "target": "FLAAFFY"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -22437,6 +23396,13 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "AMPHAROS"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -22594,6 +23560,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -22698,6 +23665,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fairy"
@@ -22823,6 +23791,13 @@ em_imp_primary_mons = {
       "sa": 20,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "18",
+        "target": "AZUMARILL"
+      }
+    ],
     "types": [
       "Water",
       "Fairy"
@@ -22964,6 +23939,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Water",
       "Fairy"
@@ -23113,6 +24089,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Rock"
     ],
@@ -23198,6 +24175,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -23320,6 +24298,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "SKIPLOOM"
+      }
+    ],
     "types": [
       "Grass",
       "Flying"
@@ -23451,6 +24436,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "JUMPLUFF"
+      }
+    ],
     "types": [
       "Grass",
       "Flying"
@@ -23583,6 +24575,7 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Grass",
       "Flying"
@@ -23704,6 +24697,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "MOVE",
+        "parameter": "DOUBLE_HIT",
+        "target": "AMBIPOM"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -23808,6 +24808,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SUN_STONE",
+        "target": "SUNFLORA"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -23947,6 +24954,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -24057,6 +25065,13 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "MOVE",
+        "parameter": "ANCIENT_POWER",
+        "target": "YANMEGA"
+      }
+    ],
     "types": [
       "Bug",
       "Flying"
@@ -24160,6 +25175,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "QUAGSIRE"
+      }
+    ],
     "types": [
       "Water",
       "Ground"
@@ -24278,6 +25300,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Water",
       "Ground"
@@ -24398,6 +25421,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -24509,6 +25533,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Dark"
     ],
@@ -24622,6 +25647,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 42
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "DUSK_STONE",
+        "target": "HONCHKROW"
+      }
+    ],
     "types": [
       "Dark",
       "Flying"
@@ -24781,6 +25813,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Water",
       "Psychic"
@@ -24889,6 +25922,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 85
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "DUSK_STONE",
+        "target": "MISMAGIUS"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -24918,6 +25958,7 @@ em_imp_primary_mons = {
       "tms": []
     },
     "bs": {},
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -24958,6 +25999,7 @@ em_imp_primary_mons = {
       "sa": 33,
       "sd": 58
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -25079,6 +26121,13 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "45",
+        "target": "FARIGIRAF"
+      }
+    ],
     "types": [
       "Normal",
       "Psychic"
@@ -25192,6 +26241,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "FORRETRESS"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -25366,6 +26422,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Bug",
       "Steel"
@@ -25527,6 +26584,18 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "MOVE_TWO_SEGMENT",
+        "parameter": "HYPER_DRILL",
+        "target": "DUDUNSPARCE_TWO_SEGMENT"
+      },
+      {
+        "method": "LEVEL",
+        "parameter": "45",
+        "target": "DUDUNSPARCE_THREE_SEGMENT"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -25643,6 +26712,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "DUSK_STONE",
+        "target": "GLISCOR"
+      }
+    ],
     "types": [
       "Ground",
       "Flying"
@@ -25819,6 +26895,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Steel",
       "Ground"
@@ -25942,6 +27019,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "GRANBULL"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -26106,6 +27190,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Fairy",
       "Fighting"
@@ -26240,6 +27325,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Water",
       "Poison"
@@ -26380,6 +27466,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Bug",
       "Steel"
@@ -26506,6 +27593,7 @@ em_imp_primary_mons = {
       "sa": 10,
       "sd": 230
     },
+    "evos": [],
     "types": [
       "Bug",
       "Rock"
@@ -26646,6 +27734,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Bug",
       "Fighting"
@@ -26771,6 +27860,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "DUSK_STONE",
+        "target": "WEAVILE"
+      }
+    ],
     "types": [
       "Dark",
       "Ice"
@@ -26894,6 +27990,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "URSARING"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -27020,6 +28123,18 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "48",
+        "target": "URSALUNA"
+      },
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "48",
+        "target": "URSALUNA_BLOODMOON"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -27133,6 +28248,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "MAGCARGO"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -27277,6 +28399,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fire",
       "Rock"
@@ -27389,6 +28512,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "PILOSWINE"
+      }
+    ],
     "types": [
       "Ice",
       "Ground"
@@ -27524,6 +28654,18 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "45",
+        "target": "MAMOSWINE"
+      },
+      {
+        "method": "MOVE",
+        "parameter": "ANCIENT_POWER",
+        "target": "MAMOSWINE"
+      }
+    ],
     "types": [
       "Ice",
       "Ground"
@@ -27662,6 +28804,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Water",
       "Rock"
@@ -27761,6 +28904,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "OCTILLERY"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -27895,6 +29045,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -27961,6 +29112,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 45
     },
+    "evos": [],
     "types": [
       "Ice",
       "Flying"
@@ -28102,6 +29254,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 140
     },
+    "evos": [],
     "types": [
       "Water",
       "Flying"
@@ -28215,6 +29368,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Steel",
       "Flying"
@@ -28335,6 +29489,13 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "HOUNDOOM"
+      }
+    ],
     "types": [
       "Dark",
       "Fire"
@@ -28485,6 +29646,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Dark",
       "Fire"
@@ -28592,6 +29754,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Water",
       "Dragon"
@@ -28697,6 +29860,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "DONPHAN"
+      }
+    ],
     "types": [
       "Ground"
     ],
@@ -28838,6 +30008,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Ground"
     ],
@@ -28952,6 +30123,13 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 95
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "DUSK_STONE",
+        "target": "PORYGON_Z"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -29071,6 +30249,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "44",
+        "target": "WYRDEER"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -29135,6 +30320,7 @@ em_imp_primary_mons = {
       "sa": 20,
       "sd": 45
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -29191,6 +30377,23 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL_ATK_LT_DEF",
+        "parameter": "20",
+        "target": "HITMONCHAN"
+      },
+      {
+        "method": "LEVEL_ATK_GT_DEF",
+        "parameter": "20",
+        "target": "HITMONLEE"
+      },
+      {
+        "method": "LEVEL_ATK_EQ_DEF",
+        "parameter": "20",
+        "target": "HITMONTOP"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -29324,6 +30527,7 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -29431,6 +30635,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "JYNX"
+      }
+    ],
     "types": [
       "Ice",
       "Psychic"
@@ -29537,6 +30748,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "ELECTABUZZ"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -29635,6 +30853,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "MAGMAR"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -29748,6 +30973,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -29895,6 +31121,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 135
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -30015,6 +31242,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -30144,6 +31372,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -30265,6 +31494,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -30372,6 +31602,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "PUPITAR"
+      }
+    ],
     "types": [
       "Rock",
       "Ground"
@@ -30488,6 +31725,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "55",
+        "target": "TYRANITAR"
+      }
+    ],
     "types": [
       "Rock",
       "Ground"
@@ -30660,6 +31904,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Rock",
       "Dark"
@@ -30795,6 +32040,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 154
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Flying"
@@ -30926,6 +32172,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 154
     },
+    "evos": [],
     "types": [
       "Fire",
       "Flying"
@@ -31043,6 +32290,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Grass"
@@ -31156,6 +32404,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "GROVYLE"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -31297,6 +32552,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "SCEPTILE"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -31474,6 +32736,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dragon"
@@ -31574,6 +32837,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "COMBUSKEN"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -31706,6 +32976,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "BLAZIKEN"
+      }
+    ],
     "types": [
       "Fire",
       "Fighting"
@@ -31864,6 +33141,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Fire",
       "Fighting"
@@ -31972,6 +33250,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "MARSHTOMP"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -32105,6 +33390,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "SWAMPERT"
+      }
+    ],
     "types": [
       "Water",
       "Ground"
@@ -32246,6 +33538,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Water",
       "Ground"
@@ -32353,6 +33646,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "MIGHTYENA"
+      }
+    ],
     "types": [
       "Dark"
     ],
@@ -32492,6 +33792,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Dark"
     ],
@@ -32601,6 +33902,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 41
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "LINOONE"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -32727,6 +34035,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 61
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -32770,6 +34079,18 @@ em_imp_primary_mons = {
       "sa": 20,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL_SILCOON",
+        "parameter": "7",
+        "target": "SILCOON"
+      },
+      {
+        "method": "LEVEL_CASCOON",
+        "parameter": "7",
+        "target": "CASCOON"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -32810,6 +34131,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "10",
+        "target": "BEAUTIFLY"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -32916,6 +34244,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Bug",
       "Flying"
@@ -32957,6 +34286,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "10",
+        "target": "DUSTOX"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -33060,6 +34396,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Bug",
       "Poison"
@@ -33158,6 +34495,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "14",
+        "target": "LOMBRE"
+      }
+    ],
     "types": [
       "Water",
       "Grass"
@@ -33268,6 +34612,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "WATER_STONE",
+        "target": "LUDICOLO"
+      }
+    ],
     "types": [
       "Water",
       "Grass"
@@ -33350,6 +34701,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Water",
       "Grass"
@@ -33422,6 +34774,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "14",
+        "target": "NUZLEAF"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -33538,6 +34897,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "SHIFTRY"
+      }
+    ],
     "types": [
       "Grass",
       "Dark"
@@ -33656,6 +35022,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dark"
@@ -33736,6 +35103,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL_NINJASK",
+        "parameter": "20",
+        "target": "NINJASK"
+      }
+    ],
     "types": [
       "Bug",
       "Ground"
@@ -33862,6 +35236,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Bug",
       "Flying"
@@ -33966,6 +35341,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [],
     "types": [
       "Bug",
       "Ghost"
@@ -34057,6 +35433,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "SWELLOW"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -34176,6 +35559,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -34269,6 +35653,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "BRELOOM"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -34400,6 +35791,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fighting"
@@ -34512,6 +35904,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -34614,6 +36007,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "PELIPPER"
+      }
+    ],
     "types": [
       "Water",
       "Flying"
@@ -34755,6 +36155,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Water",
       "Flying"
@@ -34839,6 +36240,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 52
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "MASQUERAIN"
+      }
+    ],
     "types": [
       "Bug",
       "Water"
@@ -34964,6 +36372,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 82
     },
+    "evos": [],
     "types": [
       "Bug",
       "Water"
@@ -35077,6 +36486,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "40",
+        "target": "WAILORD"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -35221,6 +36637,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -35347,6 +36764,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "MOON_STONE",
+        "target": "DELCATTY"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -35421,6 +36845,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -35563,6 +36988,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -35693,6 +37119,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "CLAYDOL"
+      }
+    ],
     "types": [
       "Ground",
       "Psychic"
@@ -35845,6 +37278,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Ground",
       "Psychic"
@@ -35973,6 +37407,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 90
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "METAL_COAT",
+        "target": "PROBOPASS"
+      }
+    ],
     "types": [
       "Rock"
     ],
@@ -36097,6 +37538,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -36246,6 +37688,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Dark",
       "Ghost"
@@ -36345,6 +37788,13 @@ em_imp_primary_mons = {
       "sa": 46,
       "sd": 41
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "WHISCASH"
+      }
+    ],
     "types": [
       "Water",
       "Ground"
@@ -36495,6 +37945,7 @@ em_imp_primary_mons = {
       "sa": 76,
       "sd": 71
     },
+    "evos": [],
     "types": [
       "Water",
       "Ground"
@@ -36609,6 +38060,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Water",
       "Fairy"
@@ -36725,6 +38177,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "CRAWDAUNT"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -36871,6 +38330,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Water",
       "Dark"
@@ -36921,6 +38381,23 @@ em_imp_primary_mons = {
       "sa": 10,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "BEAUTY",
+        "parameter": "170",
+        "target": "MILOTIC"
+      },
+      {
+        "method": "TRADE_ITEM",
+        "parameter": "PRISM_SCALE",
+        "target": "MILOTIC"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "PRISM_SCALE",
+        "target": "MILOTIC"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -37045,6 +38522,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 125
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -37145,6 +38623,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 20
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "SHARPEDO"
+      }
+    ],
     "types": [
       "Water",
       "Dark"
@@ -37288,6 +38773,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 40
     },
+    "evos": [],
     "types": [
       "Water",
       "Dark"
@@ -37390,6 +38876,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "VIBRAVA"
+      }
+    ],
     "types": [
       "Ground"
     ],
@@ -37516,6 +39009,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "44",
+        "target": "FLYGON"
+      }
+    ],
     "types": [
       "Ground",
       "Dragon"
@@ -37675,6 +39175,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Ground",
       "Dragon"
@@ -37795,6 +39296,13 @@ em_imp_primary_mons = {
       "sa": 20,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "24",
+        "target": "HARIYAMA"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -37928,6 +39436,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -38029,6 +39538,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "26",
+        "target": "MANECTRIC"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -38149,6 +39665,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -38258,6 +39775,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "33",
+        "target": "CAMERUPT"
+      }
+    ],
     "types": [
       "Fire",
       "Ground"
@@ -38411,6 +39935,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Fire",
       "Ground"
@@ -38519,6 +40044,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "32",
+        "target": "SEALEO"
+      }
+    ],
     "types": [
       "Ice",
       "Water"
@@ -38637,6 +40169,13 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "44",
+        "target": "WALREIN"
+      }
+    ],
     "types": [
       "Ice",
       "Water"
@@ -38767,6 +40306,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Ice",
       "Water"
@@ -38884,6 +40424,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "CACTURNE"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -39036,6 +40583,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dark"
@@ -39125,6 +40673,18 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "42",
+        "target": "GLALIE"
+      },
+      {
+        "method": "ITEM_FEMALE",
+        "parameter": "DAWN_STONE",
+        "target": "FROSLASS"
+      }
+    ],
     "types": [
       "Ice"
     ],
@@ -39246,6 +40806,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -39395,6 +40956,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Rock",
       "Psychic"
@@ -39535,6 +41097,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Rock",
       "Psychic"
@@ -39617,6 +41180,13 @@ em_imp_primary_mons = {
       "sa": 20,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "MARILL"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -39725,6 +41295,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 80
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "32",
+        "target": "GRUMPIG"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -39876,6 +41453,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -40002,6 +41580,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -40135,6 +41714,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 40
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -40274,6 +41854,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Steel",
       "Fairy"
@@ -40404,6 +41985,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "37",
+        "target": "MEDICHAM"
+      }
+    ],
     "types": [
       "Fighting",
       "Psychic"
@@ -40567,6 +42155,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Psychic"
@@ -40689,6 +42278,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "ALTARIA"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -40858,6 +42454,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Flying"
@@ -40911,6 +42508,13 @@ em_imp_primary_mons = {
       "sa": 23,
       "sd": 48
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "15",
+        "target": "WOBBUFFET"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -41018,6 +42622,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 90
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "37",
+        "target": "DUSCLOPS"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -41182,6 +42793,18 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 130
     },
+    "evos": [
+      {
+        "method": "TRADE_ITEM",
+        "parameter": "REAPER_CLOTH",
+        "target": "DUSKNOIR"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "DUSKNOIR"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -41301,6 +42924,13 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 80
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "ROSERADE"
+      }
+    ],
     "types": [
       "Grass",
       "Poison"
@@ -41401,6 +43031,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "18",
+        "target": "VIGOROTH"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -41524,6 +43161,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "SLAKING"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -41676,6 +43320,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -41786,6 +43431,13 @@ em_imp_primary_mons = {
       "sa": 43,
       "sd": 53
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "26",
+        "target": "SWALOT"
+      }
+    ],
     "types": [
       "Poison"
     ],
@@ -41935,6 +43587,7 @@ em_imp_primary_mons = {
       "sa": 93,
       "sd": 88
     },
+    "evos": [],
     "types": [
       "Poison"
     ],
@@ -42067,6 +43720,7 @@ em_imp_primary_mons = {
       "sa": 92,
       "sd": 87
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dragon"
@@ -42162,6 +43816,13 @@ em_imp_primary_mons = {
       "sa": 51,
       "sd": 23
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "LOUDRED"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -42285,6 +43946,13 @@ em_imp_primary_mons = {
       "sa": 71,
       "sd": 43
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "EXPLOUD"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -42438,6 +44106,7 @@ em_imp_primary_mons = {
       "sa": 91,
       "sd": 73
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -42498,6 +44167,18 @@ em_imp_primary_mons = {
       "sa": 74,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "WATER_STONE",
+        "target": "HUNTAIL"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SUN_STONE",
+        "target": "GOREBYSS"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -42615,6 +44296,7 @@ em_imp_primary_mons = {
       "sa": 94,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Water",
       "Dark"
@@ -42729,6 +44411,7 @@ em_imp_primary_mons = {
       "sa": 104,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Water",
       "Fairy"
@@ -42867,6 +44550,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Dark"
     ],
@@ -42985,6 +44669,13 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 33
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "BANETTE"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -43122,6 +44813,7 @@ em_imp_primary_mons = {
       "sa": 83,
       "sd": 63
     },
+    "evos": [],
     "types": [
       "Ghost"
     ],
@@ -43270,6 +44962,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 83
     },
+    "evos": [],
     "types": [
       "Poison"
     ],
@@ -43402,6 +45095,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -43525,6 +45219,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Water",
       "Rock"
@@ -43648,6 +45343,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "32",
+        "target": "LAIRON"
+      }
+    ],
     "types": [
       "Steel",
       "Rock"
@@ -43782,6 +45484,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "42",
+        "target": "AGGRON"
+      }
+    ],
     "types": [
       "Steel",
       "Rock"
@@ -43944,6 +45653,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Steel",
       "Rock"
@@ -44049,6 +45759,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -44166,6 +45877,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Bug",
       "Electric"
@@ -44291,6 +46003,7 @@ em_imp_primary_mons = {
       "sa": 47,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Bug",
       "Fairy"
@@ -44399,6 +46112,13 @@ em_imp_primary_mons = {
       "sa": 61,
       "sd": 87
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "CRADILY"
+      }
+    ],
     "types": [
       "Rock",
       "Grass"
@@ -44531,6 +46251,7 @@ em_imp_primary_mons = {
       "sa": 81,
       "sd": 107
     },
+    "evos": [],
     "types": [
       "Rock",
       "Grass"
@@ -44643,6 +46364,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "ARMALDO"
+      }
+    ],
     "types": [
       "Rock",
       "Bug"
@@ -44786,6 +46514,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Rock",
       "Bug"
@@ -44906,6 +46635,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "KIRLIA"
+      }
+    ],
     "types": [
       "Psychic",
       "Fairy"
@@ -45035,6 +46771,18 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "GARDEVOIR"
+      },
+      {
+        "method": "ITEM_MALE",
+        "parameter": "DAWN_STONE",
+        "target": "GALLADE"
+      }
+    ],
     "types": [
       "Psychic",
       "Fairy"
@@ -45185,6 +46933,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Fairy"
@@ -45287,6 +47036,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "SHELGON"
+      }
+    ],
     "types": [
       "Dragon"
     ],
@@ -45409,6 +47165,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "50",
+        "target": "SALAMENCE"
+      }
+    ],
     "types": [
       "Dragon"
     ],
@@ -45566,6 +47329,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Flying"
@@ -45600,6 +47364,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "METANG"
+      }
+    ],
     "types": [
       "Steel",
       "Psychic"
@@ -45730,6 +47501,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 80
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "45",
+        "target": "METAGROSS"
+      }
+    ],
     "types": [
       "Steel",
       "Psychic"
@@ -45864,6 +47642,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Steel",
       "Psychic"
@@ -45999,6 +47778,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Rock"
     ],
@@ -46132,6 +47912,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 200
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -46270,6 +48051,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 150
     },
+    "evos": [],
     "types": [
       "Steel"
     ],
@@ -46373,6 +48155,7 @@ em_imp_primary_mons = {
       "sa": 150,
       "sd": 140
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -46498,6 +48281,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Ground"
     ],
@@ -46627,6 +48411,7 @@ em_imp_primary_mons = {
       "sa": 150,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Flying"
@@ -46782,6 +48567,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Psychic"
@@ -46938,6 +48724,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Psychic"
@@ -47074,6 +48861,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Steel",
       "Psychic"
@@ -47207,6 +48995,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -47301,6 +49090,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "GROTLE"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -47408,6 +49204,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "TORTERRA"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -47553,6 +49356,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Grass",
       "Ground"
@@ -47666,6 +49470,13 @@ em_imp_primary_mons = {
       "sa": 58,
       "sd": 44
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "MONFERNO"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -47802,6 +49613,13 @@ em_imp_primary_mons = {
       "sa": 78,
       "sd": 52
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "INFERNAPE"
+      }
+    ],
     "types": [
       "Fire",
       "Fighting"
@@ -47955,6 +49773,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 71
     },
+    "evos": [],
     "types": [
       "Fire",
       "Fighting"
@@ -48061,6 +49880,13 @@ em_imp_primary_mons = {
       "sa": 61,
       "sd": 56
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "PRINPLUP"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -48186,6 +50012,13 @@ em_imp_primary_mons = {
       "sa": 81,
       "sd": 76
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "EMPOLEON"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -48352,6 +50185,7 @@ em_imp_primary_mons = {
       "sa": 111,
       "sd": 101
     },
+    "evos": [],
     "types": [
       "Water",
       "Steel"
@@ -48437,6 +50271,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "14",
+        "target": "STARAVIA"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -48526,6 +50367,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "STARAPTOR"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -48633,6 +50481,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -48737,6 +50586,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "15",
+        "target": "BIBAREL"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -48864,6 +50720,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Normal",
       "Water"
@@ -48912,6 +50769,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 41
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "10",
+        "target": "KRICKETUNE"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -49043,6 +50907,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 71
     },
+    "evos": [],
     "types": [
       "Bug"
     ],
@@ -49140,6 +51005,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 34
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "15",
+        "target": "LUXIO"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -49237,6 +51109,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 49
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "LUXRAY"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -49351,6 +51230,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 79
     },
+    "evos": [],
     "types": [
       "Electric",
       "Dark"
@@ -49423,6 +51303,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP_DAY",
+        "parameter": "0",
+        "target": "ROSELIA"
+      }
+    ],
     "types": [
       "Grass",
       "Poison"
@@ -49513,6 +51400,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Grass",
       "Poison"
@@ -49620,6 +51508,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "RAMPARDOS"
+      }
+    ],
     "types": [
       "Rock"
     ],
@@ -49760,6 +51655,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Rock"
     ],
@@ -49869,6 +51765,13 @@ em_imp_primary_mons = {
       "sa": 42,
       "sd": 88
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "BASTIODON"
+      }
+    ],
     "types": [
       "Rock",
       "Steel"
@@ -50001,6 +51904,7 @@ em_imp_primary_mons = {
       "sa": 47,
       "sd": 138
     },
+    "evos": [],
     "types": [
       "Rock",
       "Steel"
@@ -50049,6 +51953,18 @@ em_imp_primary_mons = {
       "sa": 29,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL_FEMALE",
+        "parameter": "16",
+        "target": "WORMADAM_PLANT"
+      },
+      {
+        "method": "LEVEL_MALE",
+        "parameter": "16",
+        "target": "MOTHIM"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -50173,6 +52089,7 @@ em_imp_primary_mons = {
       "sa": 79,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Bug",
       "Grass"
@@ -50274,6 +52191,7 @@ em_imp_primary_mons = {
       ]
     },
     "bs": {},
+    "evos": [],
     "types": [
       "Bug",
       "Flying"
@@ -50320,6 +52238,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 42
     },
+    "evos": [
+      {
+        "method": "LEVEL_FEMALE",
+        "parameter": "21",
+        "target": "VESPIQUEN"
+      }
+    ],
     "types": [
       "Bug",
       "Flying"
@@ -50465,6 +52390,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 102
     },
+    "evos": [],
     "types": [
       "Bug",
       "Flying"
@@ -50577,6 +52503,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -50680,6 +52607,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "26",
+        "target": "FLOATZEL"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -50814,6 +52748,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -50916,6 +52851,13 @@ em_imp_primary_mons = {
       "sa": 62,
       "sd": 53
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "CHERRIM_OVERCAST"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -51033,6 +52975,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 78
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -51110,6 +53053,13 @@ em_imp_primary_mons = {
       "sa": 57,
       "sd": 62
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "32",
+        "target": "GASTRODON_WEST"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -51216,6 +53166,7 @@ em_imp_primary_mons = {
       "sa": 92,
       "sd": 82
     },
+    "evos": [],
     "types": [
       "Water",
       "Ground"
@@ -51349,6 +53300,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 66
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -51456,6 +53408,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 44
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "DRIFBLIM"
+      }
+    ],
     "types": [
       "Ghost",
       "Flying"
@@ -51585,6 +53544,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 54
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Flying"
@@ -51703,6 +53663,13 @@ em_imp_primary_mons = {
       "sa": 44,
       "sd": 56
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "LOPUNNY"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -51858,6 +53825,7 @@ em_imp_primary_mons = {
       "sa": 54,
       "sd": 96
     },
+    "evos": [],
     "types": [
       "Normal",
       "Fighting"
@@ -51954,6 +53922,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Fairy"
@@ -52070,6 +54039,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 52
     },
+    "evos": [],
     "types": [
       "Dark",
       "Flying"
@@ -52177,6 +54147,13 @@ em_imp_primary_mons = {
       "sa": 42,
       "sd": 37
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "PURUGLY"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -52299,6 +54276,7 @@ em_imp_primary_mons = {
       "sa": 54,
       "sd": 74
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -52380,6 +54358,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP_NIGHT",
+        "parameter": "0",
+        "target": "CHIMECHO"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -52497,6 +54482,13 @@ em_imp_primary_mons = {
       "sa": 41,
       "sd": 41
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "SKUNTANK"
+      }
+    ],
     "types": [
       "Poison",
       "Dark"
@@ -52633,6 +54625,7 @@ em_imp_primary_mons = {
       "sa": 91,
       "sd": 61
     },
+    "evos": [],
     "types": [
       "Poison",
       "Dark"
@@ -52759,6 +54752,13 @@ em_imp_primary_mons = {
       "sa": 24,
       "sd": 86
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "33",
+        "target": "BRONZONG"
+      }
+    ],
     "types": [
       "Steel",
       "Psychic"
@@ -52925,6 +54925,7 @@ em_imp_primary_mons = {
       "sa": 79,
       "sd": 116
     },
+    "evos": [],
     "types": [
       "Steel",
       "Psychic"
@@ -53024,6 +55025,13 @@ em_imp_primary_mons = {
       "sa": 10,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "MOVE",
+        "parameter": "MIMIC",
+        "target": "SUDOWOODO"
+      }
+    ],
     "types": [
       "Rock"
     ],
@@ -53148,6 +55156,18 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 90
     },
+    "evos": [
+      {
+        "method": "MOVE",
+        "parameter": "MIMIC",
+        "target": "MR_MIME"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "ICE_STONE",
+        "target": "MR_MIME_GALAR"
+      }
+    ],
     "types": [
       "Psychic",
       "Fairy"
@@ -53213,6 +55233,13 @@ em_imp_primary_mons = {
       "sa": 15,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "CHANSEY"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -53322,6 +55349,7 @@ em_imp_primary_mons = {
       "sa": 92,
       "sd": 42
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -53428,6 +55456,7 @@ em_imp_primary_mons = {
       "sa": 92,
       "sd": 108
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Dark"
@@ -53518,6 +55547,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "24",
+        "target": "GABITE"
+      }
+    ],
     "types": [
       "Dragon",
       "Ground"
@@ -53622,6 +55658,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "48",
+        "target": "GARCHOMP"
+      }
+    ],
     "types": [
       "Dragon",
       "Ground"
@@ -53752,6 +55795,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Ground"
@@ -53894,6 +55938,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 85
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "SNORLAX"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -53995,6 +56046,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "LUCARIO"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -54150,6 +56208,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Steel"
@@ -54231,6 +56290,13 @@ em_imp_primary_mons = {
       "sa": 38,
       "sd": 42
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "HIPPOWDON"
+      }
+    ],
     "types": [
       "Ground"
     ],
@@ -54342,6 +56408,7 @@ em_imp_primary_mons = {
       "sa": 68,
       "sd": 72
     },
+    "evos": [],
     "types": [
       "Ground"
     ],
@@ -54456,6 +56523,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "40",
+        "target": "DRAPION"
+      }
+    ],
     "types": [
       "Poison",
       "Bug"
@@ -54606,6 +56680,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Poison",
       "Dark"
@@ -54735,6 +56810,13 @@ em_imp_primary_mons = {
       "sa": 61,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "37",
+        "target": "TOXICROAK"
+      }
+    ],
     "types": [
       "Poison",
       "Fighting"
@@ -54879,6 +56961,7 @@ em_imp_primary_mons = {
       "sa": 86,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Poison",
       "Fighting"
@@ -54979,6 +57062,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 82
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -55080,6 +57164,13 @@ em_imp_primary_mons = {
       "sa": 49,
       "sd": 61
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "LUMINEON"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -55207,6 +57298,7 @@ em_imp_primary_mons = {
       "sa": 96,
       "sd": 69
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -55310,6 +57402,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 120
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "MANTINE"
+      }
+    ],
     "types": [
       "Water",
       "Flying"
@@ -55413,6 +57512,13 @@ em_imp_primary_mons = {
       "sa": 62,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "ABOMASNOW"
+      }
+    ],
     "types": [
       "Grass",
       "Ice"
@@ -55537,6 +57643,7 @@ em_imp_primary_mons = {
       "sa": 92,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Grass",
       "Ice"
@@ -55681,6 +57788,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Dark",
       "Ice"
@@ -55835,6 +57943,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Electric",
       "Steel"
@@ -55976,6 +58085,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -56141,6 +58251,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Ground",
       "Rock"
@@ -56282,6 +58393,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -56436,6 +58548,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Electric",
       "Fighting"
@@ -56575,6 +58688,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -56671,6 +58785,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Fairy",
       "Flying"
@@ -56798,6 +58913,7 @@ em_imp_primary_mons = {
       "sa": 116,
       "sd": 56
     },
+    "evos": [],
     "types": [
       "Bug",
       "Flying"
@@ -56923,6 +59039,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -57032,6 +59149,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -57189,6 +59307,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Ground",
       "Flying"
@@ -57342,6 +59461,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Ice",
       "Ground"
@@ -57463,6 +59583,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -57649,6 +59770,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Fighting"
@@ -57811,6 +59933,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 150
     },
+    "evos": [],
     "types": [
       "Rock",
       "Steel"
@@ -57979,6 +60102,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 135
     },
+    "evos": [],
     "types": [
       "Ghost"
     ],
@@ -58115,6 +60239,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Ice",
       "Ghost"
@@ -58221,6 +60346,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 77
     },
+    "evos": [],
     "types": [
       "Electric",
       "Ghost"
@@ -58337,6 +60463,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 107
     },
+    "evos": [],
     "types": [
       "Electric",
       "Fire"
@@ -58454,6 +60581,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 107
     },
+    "evos": [],
     "types": [
       "Electric",
       "Water"
@@ -58575,6 +60703,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 107
     },
+    "evos": [],
     "types": [
       "Electric",
       "Ice"
@@ -58695,6 +60824,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 107
     },
+    "evos": [],
     "types": [
       "Electric",
       "Flying"
@@ -58828,6 +60958,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -58959,6 +61090,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -59084,6 +61216,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -59205,6 +61338,7 @@ em_imp_primary_mons = {
       "sa": 150,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Steel",
       "Dragon"
@@ -59326,6 +61460,7 @@ em_imp_primary_mons = {
       "sa": 150,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Water",
       "Dragon"
@@ -59436,6 +61571,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 106
     },
+    "evos": [],
     "types": [
       "Fire",
       "Steel"
@@ -59557,6 +61693,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -59672,6 +61809,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Dragon"
@@ -59791,6 +61929,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -59884,6 +62023,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -59993,6 +62133,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -60099,6 +62240,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Dark"
     ],
@@ -60265,6 +62407,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Type"
     ],
@@ -60413,6 +62556,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Fire"
@@ -60523,6 +62667,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "SERVINE"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -60648,6 +62799,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "SERPERIOR"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -60786,6 +62944,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -60898,6 +63057,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "PIGNITE"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -61044,6 +63210,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "EMBOAR"
+      }
+    ],
     "types": [
       "Fire",
       "Fighting"
@@ -61196,6 +63369,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Fire",
       "Fighting"
@@ -61304,6 +63478,13 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "DEWOTT"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -61378,6 +63559,10 @@ em_imp_primary_mons = {
           "Detect"
         ],
         [
+          35,
+          "Razor Shell"
+        ],
+        [
           37,
           "Encore"
         ],
@@ -61396,10 +63581,6 @@ em_imp_primary_mons = {
         [
           53,
           "Hydro Pump"
-        ],
-        [
-          70,
-          "Razor Shell"
         ]
       ],
       "tms": [
@@ -61437,6 +63618,18 @@ em_imp_primary_mons = {
       "sa": 83,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "36",
+        "target": "SAMUROTT"
+      },
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "36",
+        "target": "SAMUROTT_HISUI"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -61477,6 +63670,10 @@ em_imp_primary_mons = {
         [
           1,
           "Water Sport"
+        ],
+        [
+          1,
+          "Razor Shell"
         ],
         [
           5,
@@ -61589,6 +63786,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Water",
       "Steel"
@@ -61701,6 +63899,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 39
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "WATCHOG"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -61851,6 +64056,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 69
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -61959,6 +64165,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "HERDIER"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -62077,6 +64290,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "32",
+        "target": "STOUTLAND"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -62207,6 +64427,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -62317,6 +64538,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 37
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "LIEPARD"
+      }
+    ],
     "types": [
       "Dark"
     ],
@@ -62437,6 +64665,7 @@ em_imp_primary_mons = {
       "sa": 78,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Dark"
     ],
@@ -62551,6 +64780,13 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 48
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "SIMISAGE"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -62636,6 +64872,7 @@ em_imp_primary_mons = {
       "sa": 98,
       "sd": 63
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -62754,6 +64991,13 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 48
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "FIRE_STONE",
+        "target": "SIMISEAR"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -62838,6 +65082,7 @@ em_imp_primary_mons = {
       "sa": 98,
       "sd": 63
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -62956,6 +65201,13 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 48
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "WATER_STONE",
+        "target": "SIMIPOUR"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -63035,6 +65287,7 @@ em_imp_primary_mons = {
       "sa": 98,
       "sd": 63
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -63147,6 +65400,13 @@ em_imp_primary_mons = {
       "sa": 67,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "MOON_STONE",
+        "target": "MUSHARNA"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -63216,6 +65476,7 @@ em_imp_primary_mons = {
       "sa": 107,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -63316,6 +65577,13 @@ em_imp_primary_mons = {
       "sa": 36,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "TRANQUILL"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -63430,6 +65698,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 42
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "UNFEZANT"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -63549,6 +65824,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -63641,6 +65917,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 32
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "ZEBSTRIKA"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -63759,6 +66042,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 63
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -63852,6 +66136,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "BOLDORE"
+      }
+    ],
     "types": [
       "Rock"
     ],
@@ -63963,6 +66254,18 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "GIGALITH"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "GIGALITH"
+      }
+    ],
     "types": [
       "Rock"
     ],
@@ -64074,6 +66377,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Rock"
     ],
@@ -64198,6 +66502,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 43
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "SWOOBAT"
+      }
+    ],
     "types": [
       "Psychic",
       "Flying"
@@ -64337,6 +66648,7 @@ em_imp_primary_mons = {
       "sa": 77,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Flying"
@@ -64437,6 +66749,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "31",
+        "target": "EXCADRILL"
+      }
+    ],
     "types": [
       "Ground"
     ],
@@ -64552,6 +66871,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Ground",
       "Steel"
@@ -64706,6 +67026,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 86
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -64821,6 +67142,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "GURDURR"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -64950,6 +67278,18 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "CONKELDURR"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "CONKELDURR"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -65079,6 +67419,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -65172,6 +67513,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "PALPITOAD"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -65278,6 +67626,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "SEISMITOAD"
+      }
+    ],
     "types": [
       "Water",
       "Ground"
@@ -65419,6 +67774,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Water",
       "Ground"
@@ -65539,6 +67895,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -65658,6 +68015,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -65736,6 +68094,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "SWADLOON"
+      }
+    ],
     "types": [
       "Bug",
       "Grass"
@@ -65807,6 +68172,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 80
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "LEAVANNY"
+      }
+    ],
     "types": [
       "Bug",
       "Grass"
@@ -65941,6 +68313,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Bug",
       "Grass"
@@ -66043,6 +68416,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 39
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "WHIRLIPEDE"
+      }
+    ],
     "types": [
       "Bug",
       "Poison"
@@ -66161,6 +68541,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 79
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "SCOLIPEDE"
+      }
+    ],
     "types": [
       "Bug",
       "Poison"
@@ -66297,6 +68684,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 69
     },
+    "evos": [],
     "types": [
       "Bug",
       "Poison"
@@ -66404,6 +68792,13 @@ em_imp_primary_mons = {
       "sa": 37,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SUN_STONE",
+        "target": "WHIMSICOTT"
+      }
+    ],
     "types": [
       "Grass",
       "Fairy"
@@ -66485,6 +68880,7 @@ em_imp_primary_mons = {
       "sa": 77,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fairy"
@@ -66593,6 +68989,18 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SUN_STONE",
+        "target": "LILLIGANT"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "LILLIGANT_HISUI"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -66691,6 +69099,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -66809,6 +69218,18 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL_MALE",
+        "parameter": "44",
+        "target": "BASCULEGION_M"
+      },
+      {
+        "method": "LEVEL_FEMALE",
+        "parameter": "44",
+        "target": "BASCULEGION_F"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -66927,6 +69348,18 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL_MALE",
+        "parameter": "44",
+        "target": "BASCULEGION_M"
+      },
+      {
+        "method": "LEVEL_FEMALE",
+        "parameter": "44",
+        "target": "BASCULEGION_F"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -67042,6 +69475,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "KROKOROK"
+      }
+    ],
     "types": [
       "Ground",
       "Dark"
@@ -67168,6 +69608,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "40",
+        "target": "KROOKODILE"
+      }
+    ],
     "types": [
       "Ground",
       "Dark"
@@ -67311,6 +69758,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Ground",
       "Dark"
@@ -67430,6 +69878,13 @@ em_imp_primary_mons = {
       "sa": 15,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "DARMANITAN_STANDARD"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -67583,6 +70038,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -67709,6 +70165,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 67
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -67818,6 +70275,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "CRUSTLE"
+      }
+    ],
     "types": [
       "Bug",
       "Rock"
@@ -67937,6 +70401,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Bug",
       "Rock"
@@ -68066,6 +70531,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "39",
+        "target": "SCRAFTY"
+      }
+    ],
     "types": [
       "Dark",
       "Fighting"
@@ -68200,6 +70672,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Dark",
       "Fighting"
@@ -68334,6 +70807,7 @@ em_imp_primary_mons = {
       "sa": 103,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Flying"
@@ -68437,6 +70911,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "COFAGRIGUS"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -68559,6 +71040,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Ghost"
     ],
@@ -68687,6 +71169,13 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "CARRACOSTA"
+      }
+    ],
     "types": [
       "Water",
       "Rock"
@@ -68837,6 +71326,7 @@ em_imp_primary_mons = {
       "sa": 83,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Water",
       "Rock"
@@ -68961,6 +71451,13 @@ em_imp_primary_mons = {
       "sa": 74,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "ARCHEOPS"
+      }
+    ],
     "types": [
       "Rock",
       "Flying"
@@ -69095,6 +71592,7 @@ em_imp_primary_mons = {
       "sa": 112,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Rock",
       "Flying"
@@ -69204,6 +71702,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 62
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "GARBODOR"
+      }
+    ],
     "types": [
       "Poison"
     ],
@@ -69334,6 +71839,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 82
     },
+    "evos": [],
     "types": [
       "Poison"
     ],
@@ -69444,6 +71950,13 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "ZOROARK"
+      }
+    ],
     "types": [
       "Dark"
     ],
@@ -69590,6 +72103,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Dark"
     ],
@@ -69706,6 +72220,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "CINCCINO"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -69784,6 +72305,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -69900,6 +72422,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "GOTHORITA"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -70032,6 +72561,13 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 85
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "GOTHITELLE"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -70163,6 +72699,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -70276,6 +72813,13 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "DUOSION"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -70401,6 +72945,13 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "41",
+        "target": "REUNICLUS"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -70549,6 +73100,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -70653,6 +73205,13 @@ em_imp_primary_mons = {
       "sa": 44,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "SWANNA"
+      }
+    ],
     "types": [
       "Water",
       "Flying"
@@ -70776,6 +73335,7 @@ em_imp_primary_mons = {
       "sa": 97,
       "sd": 63
     },
+    "evos": [],
     "types": [
       "Water",
       "Flying"
@@ -70875,6 +73435,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "VANILLISH"
+      }
+    ],
     "types": [
       "Ice"
     ],
@@ -70985,6 +73552,13 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "44",
+        "target": "VANILLUXE"
+      }
+    ],
     "types": [
       "Ice"
     ],
@@ -71108,6 +73682,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -71210,6 +73785,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "SAWSBUCK_SPRING"
+      }
+    ],
     "types": [
       "Normal",
       "Grass"
@@ -71333,6 +73915,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Normal",
       "Grass"
@@ -71448,6 +74031,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Electric",
       "Flying"
@@ -71552,6 +74136,18 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "TRADE_SPECIFIC_MON",
+        "parameter": "SHELMET",
+        "target": "ESCAVALIER"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "ESCAVALIER"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -71693,6 +74289,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Bug",
       "Steel"
@@ -71792,6 +74389,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "AMOONGUSS"
+      }
+    ],
     "types": [
       "Grass",
       "Poison"
@@ -71905,6 +74509,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Grass",
       "Poison"
@@ -72011,6 +74616,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 85
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "40",
+        "target": "JELLICENT"
+      }
+    ],
     "types": [
       "Water",
       "Ghost"
@@ -72133,6 +74745,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Water",
       "Ghost"
@@ -72273,6 +74886,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 45
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -72379,6 +74993,13 @@ em_imp_primary_mons = {
       "sa": 57,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "32",
+        "target": "GALVANTULA"
+      }
+    ],
     "types": [
       "Bug",
       "Electric"
@@ -72507,6 +75128,7 @@ em_imp_primary_mons = {
       "sa": 97,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Bug",
       "Electric"
@@ -72616,6 +75238,13 @@ em_imp_primary_mons = {
       "sa": 24,
       "sd": 86
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "40",
+        "target": "FERROTHORN"
+      }
+    ],
     "types": [
       "Grass",
       "Steel"
@@ -72757,6 +75386,7 @@ em_imp_primary_mons = {
       "sa": 54,
       "sd": 116
     },
+    "evos": [],
     "types": [
       "Grass",
       "Steel"
@@ -72856,6 +75486,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "38",
+        "target": "KLANG"
+      }
+    ],
     "types": [
       "Steel"
     ],
@@ -72966,6 +75603,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 85
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "49",
+        "target": "KLINKLANG"
+      }
+    ],
     "types": [
       "Steel"
     ],
@@ -73096,6 +75740,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Steel"
     ],
@@ -73141,6 +75786,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "EELEKTRIK"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -73246,6 +75898,13 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "THUNDER_STONE",
+        "target": "EELEKTROSS"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -73356,6 +76015,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -73479,6 +76139,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "BEHEEYEM"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -73628,6 +76295,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -73739,6 +76407,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "LAMPENT"
+      }
+    ],
     "types": [
       "Ghost",
       "Fire"
@@ -73855,6 +76530,13 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "DUSK_STONE",
+        "target": "CHANDELURE"
+      }
+    ],
     "types": [
       "Ghost",
       "Fire"
@@ -73925,6 +76607,7 @@ em_imp_primary_mons = {
       "sa": 145,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Fire"
@@ -74034,6 +76717,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "FRAXURE"
+      }
+    ],
     "types": [
       "Dragon"
     ],
@@ -74162,6 +76852,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "44",
+        "target": "HAXORUS"
+      }
+    ],
     "types": [
       "Dragon"
     ],
@@ -74312,6 +77009,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Dragon"
     ],
@@ -74432,6 +77130,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "BEARTIC"
+      }
+    ],
     "types": [
       "Ice"
     ],
@@ -74599,6 +77304,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Ice",
       "Fighting"
@@ -74722,6 +77428,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 135
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -74817,6 +77524,18 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "TRADE_SPECIFIC_MON",
+        "parameter": "KARRABLAST",
+        "target": "ACCELGOR"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "ACCELGOR"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -74939,6 +77658,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Bug"
     ],
@@ -75056,6 +77776,7 @@ em_imp_primary_mons = {
       "sa": 81,
       "sd": 99
     },
+    "evos": [],
     "types": [
       "Ground",
       "Electric"
@@ -75184,6 +77905,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "MIENSHAO"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -75323,6 +78051,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -75455,6 +78184,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Dragon"
     ],
@@ -75585,6 +78315,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "GOLURK"
+      }
+    ],
     "types": [
       "Ground",
       "Ghost"
@@ -75756,6 +78493,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Ground",
       "Ghost"
@@ -75871,6 +78609,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "BISHARP"
+      }
+    ],
     "types": [
       "Dark",
       "Steel"
@@ -76009,6 +78754,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "50",
+        "target": "KINGAMBIT"
+      }
+    ],
     "types": [
       "Dark",
       "Steel"
@@ -76131,6 +78883,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -76254,6 +79007,18 @@ em_imp_primary_mons = {
       "sa": 37,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "36",
+        "target": "BRAVIARY"
+      },
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "36",
+        "target": "BRAVIARY_HISUI"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -76404,6 +79169,7 @@ em_imp_primary_mons = {
       "sa": 57,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -76520,6 +79286,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "45",
+        "target": "MANDIBUZZ"
+      }
+    ],
     "types": [
       "Dark",
       "Flying"
@@ -76666,6 +79439,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Dark",
       "Flying"
@@ -76810,6 +79584,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 66
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -76917,6 +79692,7 @@ em_imp_primary_mons = {
       "sa": 48,
       "sd": 48
     },
+    "evos": [],
     "types": [
       "Bug",
       "Steel"
@@ -77030,6 +79806,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "44",
+        "target": "ZWEILOUS"
+      }
+    ],
     "types": [
       "Dark",
       "Dragon"
@@ -77151,6 +79934,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "59",
+        "target": "HYDREIGON"
+      }
+    ],
     "types": [
       "Dark",
       "Dragon"
@@ -77297,6 +80087,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Dark",
       "Dragon"
@@ -77392,6 +80183,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "59",
+        "target": "VOLCARONA"
+      }
+    ],
     "types": [
       "Bug",
       "Fire"
@@ -77549,6 +80347,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Bug",
       "Fire"
@@ -77671,6 +80470,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 72
     },
+    "evos": [],
     "types": [
       "Steel",
       "Fighting"
@@ -77790,6 +80590,7 @@ em_imp_primary_mons = {
       "sa": 72,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Rock",
       "Fighting"
@@ -77913,6 +80714,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 129
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fighting"
@@ -78054,6 +80856,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Flying"
     ],
@@ -78195,6 +80998,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Electric",
       "Flying"
@@ -78321,6 +81125,7 @@ em_imp_primary_mons = {
       "sa": 150,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Fire"
@@ -78449,6 +81254,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Electric"
@@ -78584,6 +81390,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Ground",
       "Flying"
@@ -78713,6 +81520,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Ice"
@@ -78830,6 +81638,7 @@ em_imp_primary_mons = {
       "sa": 129,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Water",
       "Fighting"
@@ -78985,6 +81794,7 @@ em_imp_primary_mons = {
       "sa": 128,
       "sd": 128
     },
+    "evos": [],
     "types": [
       "Normal",
       "Psychic"
@@ -79115,6 +81925,7 @@ em_imp_primary_mons = {
       ]
     },
     "bs": {},
+    "evos": [],
     "types": [
       "Bug",
       "Steel"
@@ -79239,6 +82050,7 @@ em_imp_primary_mons = {
       "sa": 79,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Bug",
       "Ground"
@@ -79366,6 +82178,7 @@ em_imp_primary_mons = {
       "sa": 79,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Bug",
       "Steel"
@@ -79463,6 +82276,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Grass",
       "Flying"
@@ -79551,6 +82365,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Ice"
@@ -79639,6 +82454,7 @@ em_imp_primary_mons = {
       "sa": 170,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Ice"
@@ -79768,6 +82584,13 @@ em_imp_primary_mons = {
       "sa": 48,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "QUILLADIN"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -79904,6 +82727,13 @@ em_imp_primary_mons = {
       "sa": 56,
       "sd": 58
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "CHESNAUGHT"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -80081,6 +82911,7 @@ em_imp_primary_mons = {
       "sa": 74,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fighting"
@@ -80196,6 +83027,13 @@ em_imp_primary_mons = {
       "sa": 62,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "BRAIXEN"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -80321,6 +83159,13 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "DELPHOX"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -80486,6 +83331,7 @@ em_imp_primary_mons = {
       "sa": 114,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Fire",
       "Psychic"
@@ -80594,6 +83440,13 @@ em_imp_primary_mons = {
       "sa": 62,
       "sd": 44
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "FROGADIER"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -80709,6 +83562,13 @@ em_imp_primary_mons = {
       "sa": 83,
       "sd": 56
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "GRENINJA"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -80877,6 +83737,7 @@ em_imp_primary_mons = {
       "sa": 103,
       "sd": 71
     },
+    "evos": [],
     "types": [
       "Water",
       "Dark"
@@ -80992,6 +83853,13 @@ em_imp_primary_mons = {
       "sa": 32,
       "sd": 36
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "DIGGERSBY"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -81139,6 +84007,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 77
     },
+    "evos": [],
     "types": [
       "Normal",
       "Ground"
@@ -81239,6 +84108,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 38
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "17",
+        "target": "FLETCHINDER"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -81355,6 +84231,13 @@ em_imp_primary_mons = {
       "sa": 56,
       "sd": 52
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "TALONFLAME"
+      }
+    ],
     "types": [
       "Fire",
       "Flying"
@@ -81488,6 +84371,7 @@ em_imp_primary_mons = {
       "sa": 74,
       "sd": 69
     },
+    "evos": [],
     "types": [
       "Fire",
       "Flying"
@@ -81531,6 +84415,13 @@ em_imp_primary_mons = {
       "sa": 27,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "9",
+        "target": "SPEWPA_##evolution"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -81571,6 +84462,13 @@ em_imp_primary_mons = {
       "sa": 27,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "12",
+        "target": "VIVILLON_##evolution"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -81694,6 +84592,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Bug",
       "Flying"
@@ -81807,6 +84706,13 @@ em_imp_primary_mons = {
       "sa": 73,
       "sd": 54
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "PYROAR"
+      }
+    ],
     "types": [
       "Fire",
       "Normal"
@@ -81939,6 +84845,7 @@ em_imp_primary_mons = {
       "sa": 109,
       "sd": 66
     },
+    "evos": [],
     "types": [
       "Fire",
       "Normal"
@@ -82036,6 +84943,13 @@ em_imp_primary_mons = {
       "sa": 61,
       "sd": 79
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "FLOETTE_ ##FORM"
+      }
+    ],
     "types": [
       "Fairy"
     ],
@@ -82140,6 +85054,13 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 98
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "FLORGES_ ##FORM"
+      }
+    ],
     "types": [
       "Fairy"
     ],
@@ -82236,6 +85157,7 @@ em_imp_primary_mons = {
       "sa": 112,
       "sd": 154
     },
+    "evos": [],
     "types": [
       "Fairy"
     ],
@@ -82349,6 +85271,13 @@ em_imp_primary_mons = {
       "sa": 62,
       "sd": 57
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "GOGOAT"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -82488,6 +85417,7 @@ em_imp_primary_mons = {
       "sa": 67,
       "sd": 87
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -82613,6 +85543,13 @@ em_imp_primary_mons = {
       "sa": 46,
       "sd": 48
     },
+    "evos": [
+      {
+        "method": "LEVEL_DARK_TYPE_MON_IN_PARTY",
+        "parameter": "32",
+        "target": "PANGORO"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -82792,6 +85729,7 @@ em_imp_primary_mons = {
       "sa": 69,
       "sd": 71
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Dark"
@@ -82890,6 +85828,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -82978,6 +85917,18 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL_MALE",
+        "parameter": "23",
+        "target": "MEOWSTIC_M"
+      },
+      {
+        "method": "LEVEL_FEMALE",
+        "parameter": "23",
+        "target": "MEOWSTIC_F"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -83124,6 +86075,7 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 81
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -83225,6 +86177,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 37
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "DOUBLADE"
+      }
+    ],
     "types": [
       "Steel",
       "Ghost"
@@ -83335,6 +86294,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 49
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "DUSK_STONE",
+        "target": "AEGISLASH_SHIELD"
+      }
+    ],
     "types": [
       "Steel",
       "Ghost"
@@ -83443,6 +86409,13 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "AROMATISSE"
+      }
+    ],
     "types": [
       "Fairy"
     ],
@@ -83581,6 +86554,7 @@ em_imp_primary_mons = {
       "sa": 99,
       "sd": 89
     },
+    "evos": [],
     "types": [
       "Fairy"
     ],
@@ -83685,6 +86659,13 @@ em_imp_primary_mons = {
       "sa": 59,
       "sd": 57
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "SLURPUFF"
+      }
+    ],
     "types": [
       "Fairy"
     ],
@@ -83799,6 +86780,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Fairy"
     ],
@@ -83922,6 +86904,13 @@ em_imp_primary_mons = {
       "sa": 37,
       "sd": 46
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "MALAMAR"
+      }
+    ],
     "types": [
       "Dark",
       "Psychic"
@@ -84060,6 +87049,7 @@ em_imp_primary_mons = {
       "sa": 68,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Dark",
       "Psychic"
@@ -84177,6 +87167,13 @@ em_imp_primary_mons = {
       "sa": 39,
       "sd": 56
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "BARBARACLE"
+      }
+    ],
     "types": [
       "Rock",
       "Water"
@@ -84317,6 +87314,7 @@ em_imp_primary_mons = {
       "sa": 54,
       "sd": 86
     },
+    "evos": [],
     "types": [
       "Rock",
       "Water"
@@ -84414,6 +87412,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "44",
+        "target": "DRAGALGE"
+      }
+    ],
     "types": [
       "Poison",
       "Water"
@@ -84538,6 +87543,7 @@ em_imp_primary_mons = {
       "sa": 97,
       "sd": 123
     },
+    "evos": [],
     "types": [
       "Poison",
       "Dragon"
@@ -84635,6 +87641,13 @@ em_imp_primary_mons = {
       "sa": 58,
       "sd": 63
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "CLAWITZER"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -84768,6 +87781,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 89
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -84870,6 +87884,13 @@ em_imp_primary_mons = {
       "sa": 61,
       "sd": 43
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SUN_STONE",
+        "target": "HELIOLISK"
+      }
+    ],
     "types": [
       "Electric",
       "Normal"
@@ -84962,6 +87983,7 @@ em_imp_primary_mons = {
       "sa": 109,
       "sd": 94
     },
+    "evos": [],
     "types": [
       "Electric",
       "Normal"
@@ -85083,6 +88105,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "39",
+        "target": "TYRANTRUM"
+      }
+    ],
     "types": [
       "Rock",
       "Dragon"
@@ -85244,6 +88273,7 @@ em_imp_primary_mons = {
       "sa": 69,
       "sd": 59
     },
+    "evos": [],
     "types": [
       "Rock",
       "Dragon"
@@ -85378,6 +88408,13 @@ em_imp_primary_mons = {
       "sa": 67,
       "sd": 63
     },
+    "evos": [
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "39",
+        "target": "AURORUS"
+      }
+    ],
     "types": [
       "Rock",
       "Ice"
@@ -85536,6 +88573,7 @@ em_imp_primary_mons = {
       "sa": 99,
       "sd": 92
     },
+    "evos": [],
     "types": [
       "Rock",
       "Ice"
@@ -85650,6 +88688,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Fairy"
     ],
@@ -85785,6 +88824,7 @@ em_imp_primary_mons = {
       "sa": 74,
       "sd": 63
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Flying"
@@ -85894,6 +88934,7 @@ em_imp_primary_mons = {
       "sa": 91,
       "sd": 67
     },
+    "evos": [],
     "types": [
       "Electric",
       "Fairy"
@@ -86017,6 +89058,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 150
     },
+    "evos": [],
     "types": [
       "Rock",
       "Fairy"
@@ -86098,6 +89140,18 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "40",
+        "target": "SLIGGOO"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "METAL_COAT",
+        "target": "SLIGGOO_HISUI"
+      }
+    ],
     "types": [
       "Dragon"
     ],
@@ -86185,6 +89239,18 @@ em_imp_primary_mons = {
       "sa": 83,
       "sd": 113
     },
+    "evos": [
+      {
+        "method": "LEVEL_RAIN",
+        "parameter": "50",
+        "target": "GOODRA"
+      },
+      {
+        "method": "LEVEL_FOG",
+        "parameter": "50",
+        "target": "GOODRA"
+      }
+    ],
     "types": [
       "Dragon"
     ],
@@ -86329,6 +89395,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 150
     },
+    "evos": [],
     "types": [
       "Dragon"
     ],
@@ -86438,6 +89505,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 87
     },
+    "evos": [],
     "types": [
       "Steel",
       "Fairy"
@@ -86552,6 +89620,18 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "TREVENANT"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "TREVENANT"
+      }
+    ],
     "types": [
       "Ghost",
       "Grass"
@@ -86683,6 +89763,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 82
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Grass"
@@ -86798,6 +89879,18 @@ em_imp_primary_mons = {
       "sa": 66,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "GOURGEIST_AVERAGE"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "GOURGEIST_AVERAGE"
+      }
+    ],
     "types": [
       "Ghost",
       "Grass"
@@ -86938,6 +90031,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Grass"
@@ -87044,6 +90138,18 @@ em_imp_primary_mons = {
       "sa": 32,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "37",
+        "target": "AVALUGG"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "ICE_STONE",
+        "target": "AVALUGG_HISUI"
+      }
+    ],
     "types": [
       "Ice"
     ],
@@ -87195,6 +90301,7 @@ em_imp_primary_mons = {
       "sa": 44,
       "sd": 46
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -87314,6 +90421,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "NOIVERN"
+      }
+    ],
     "types": [
       "Flying",
       "Dragon"
@@ -87466,6 +90580,7 @@ em_imp_primary_mons = {
       "sa": 102,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Flying",
       "Dragon"
@@ -87591,6 +90706,7 @@ em_imp_primary_mons = {
       "sa": 131,
       "sd": 98
     },
+    "evos": [],
     "types": [
       "Fairy"
     ],
@@ -87713,6 +90829,7 @@ em_imp_primary_mons = {
       "sa": 131,
       "sd": 98
     },
+    "evos": [],
     "types": [
       "Dark",
       "Flying"
@@ -87837,6 +90954,7 @@ em_imp_primary_mons = {
       "sa": 81,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Ground"
@@ -87967,6 +91085,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 150
     },
+    "evos": [],
     "types": [
       "Rock",
       "Fairy"
@@ -88101,6 +91220,7 @@ em_imp_primary_mons = {
       "sa": 170,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Dark"
@@ -88237,6 +91357,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Fire",
       "Water"
@@ -88381,6 +91502,7 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 81
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -88480,7 +91602,8 @@ em_imp_primary_mons = {
       "sp": 92,
       "sa": 125,
       "sd": 128
-    }
+    },
+    "evos": []
   },
   "Rowlet": {
     "learnset_info": {
@@ -88587,6 +91710,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "DARTRIX"
+      }
+    ],
     "types": [
       "Grass",
       "Flying"
@@ -88712,6 +91842,18 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "36",
+        "target": "DECIDUEYE"
+      },
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "36",
+        "target": "DECIDUEYE_HISUI"
+      }
+    ],
     "types": [
       "Grass",
       "Flying"
@@ -88877,6 +92019,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Grass",
       "Ghost"
@@ -88998,6 +92141,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "TORRACAT"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -89127,6 +92277,13 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "INCINEROAR"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -89299,6 +92456,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Fire",
       "Dark"
@@ -89407,6 +92565,13 @@ em_imp_primary_mons = {
       "sa": 66,
       "sd": 56
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "BRIONNE"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -89522,6 +92687,13 @@ em_imp_primary_mons = {
       "sa": 91,
       "sd": 81
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "PRIMARINA"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -89650,6 +92822,7 @@ em_imp_primary_mons = {
       "sa": 126,
       "sd": 116
     },
+    "evos": [],
     "types": [
       "Water",
       "Fairy"
@@ -89750,6 +92923,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "14",
+        "target": "TRUMBEAK"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -89867,6 +93047,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "TOUCANNON"
+      }
+    ],
     "types": [
       "Normal",
       "Flying"
@@ -89997,6 +93184,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -90101,6 +93289,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "16",
+        "target": "GUMSHOOS"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -90231,6 +93426,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -90309,6 +93505,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "CHARJABUG"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -90417,6 +93620,23 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "MAPSEC",
+        "parameter": "NEW_MAUVILLE",
+        "target": "VIKAVOLT"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "THUNDER_STONE",
+        "target": "VIKAVOLT"
+      },
+      {
+        "method": "NONE",
+        "parameter": "0",
+        "target": "VIKAVOLT_TOTEM"
+      }
+    ],
     "types": [
       "Bug",
       "Electric"
@@ -90558,6 +93778,7 @@ em_imp_primary_mons = {
       "sa": 145,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Bug",
       "Electric"
@@ -90662,6 +93883,13 @@ em_imp_primary_mons = {
       "sa": 42,
       "sd": 47
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "CRABOMINABLE"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -90794,6 +94022,7 @@ em_imp_primary_mons = {
       "sa": 62,
       "sd": 67
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Ice"
@@ -90905,6 +94134,7 @@ em_imp_primary_mons = {
       "sa": 98,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Fire",
       "Flying"
@@ -90998,6 +94228,18 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "RIBOMBEE"
+      },
+      {
+        "method": "NONE",
+        "parameter": "0",
+        "target": "RIBOMBEE_TOTEM"
+      }
+    ],
     "types": [
       "Bug",
       "Fairy"
@@ -91115,6 +94357,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Bug",
       "Fairy"
@@ -91219,6 +94462,23 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "25",
+        "target": "LYCANROC_MIDDAY"
+      },
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "25",
+        "target": "LYCANROC_MIDNIGHT"
+      },
+      {
+        "method": "LEVEL_DUSK",
+        "parameter": "25",
+        "target": "LYCANROC_DUSK"
+      }
+    ],
     "types": [
       "Rock"
     ],
@@ -91316,6 +94576,7 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 25
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -91408,6 +94669,13 @@ em_imp_primary_mons = {
       "sa": 43,
       "sd": 52
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "38",
+        "target": "TOXAPEX"
+      }
+    ],
     "types": [
       "Poison",
       "Water"
@@ -91527,6 +94795,7 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 142
     },
+    "evos": [],
     "types": [
       "Poison",
       "Water"
@@ -91628,6 +94897,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "MUDSDALE"
+      }
+    ],
     "types": [
       "Ground"
     ],
@@ -91746,6 +95022,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Ground"
     ],
@@ -91843,6 +95120,18 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 72
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "ARAQUANID"
+      },
+      {
+        "method": "NONE",
+        "parameter": "0",
+        "target": "ARAQUANID_TOTEM"
+      }
+    ],
     "types": [
       "Water",
       "Bug"
@@ -91963,6 +95252,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 132
     },
+    "evos": [],
     "types": [
       "Water",
       "Bug"
@@ -92053,6 +95343,18 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "34",
+        "target": "LURANTIS"
+      },
+      {
+        "method": "NONE",
+        "parameter": "0",
+        "target": "LURANTIS_TOTEM"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -92180,6 +95482,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fighting"
@@ -92275,6 +95578,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "24",
+        "target": "SHIINOTIC"
+      }
+    ],
     "types": [
       "Grass",
       "Fairy"
@@ -92391,6 +95701,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fairy"
@@ -92496,6 +95807,18 @@ em_imp_primary_mons = {
       "sa": 71,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL_FEMALE",
+        "parameter": "33",
+        "target": "SALAZZLE"
+      },
+      {
+        "method": "NONE",
+        "parameter": "0",
+        "target": "SALAZZLE_TOTEM"
+      }
+    ],
     "types": [
       "Poison",
       "Fire"
@@ -92641,6 +95964,7 @@ em_imp_primary_mons = {
       "sa": 111,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Poison",
       "Fire"
@@ -92743,6 +96067,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "BEWEAR"
+      }
+    ],
     "types": [
       "Normal",
       "Fighting"
@@ -92861,6 +96192,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Normal",
       "Fighting"
@@ -92941,6 +96273,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 38
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "18",
+        "target": "STEENEE"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -93056,6 +96395,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 48
     },
+    "evos": [
+      {
+        "method": "MOVE",
+        "parameter": "STOMP",
+        "target": "TSAREENA"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -93193,6 +96539,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 98
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -93321,6 +96668,7 @@ em_imp_primary_mons = {
       "sa": 82,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Fairy"
     ],
@@ -93435,6 +96783,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Normal",
       "Psychic"
@@ -93564,6 +96913,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -93602,6 +96952,13 @@ em_imp_primary_mons = {
       "sa": 20,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "GOLISOPOD"
+      }
+    ],
     "types": [
       "Bug",
       "Water"
@@ -93736,6 +97093,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Bug",
       "Water"
@@ -93847,6 +97205,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "42",
+        "target": "PALOSSAND"
+      }
+    ],
     "types": [
       "Ghost",
       "Ground"
@@ -93962,6 +97327,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Ground"
@@ -94058,6 +97424,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -94175,6 +97542,13 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 95
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP",
+        "parameter": "0",
+        "target": "SILVALLY_NORMAL"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -94348,6 +97722,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Type"
     ],
@@ -94450,6 +97825,7 @@ em_imp_primary_mons = {
       ]
     },
     "bs": {},
+    "evos": [],
     "types": [
       "Rock",
       "Flying"
@@ -94552,6 +97928,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -94681,6 +98058,7 @@ em_imp_primary_mons = {
       "sa": 91,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Fire",
       "Dragon"
@@ -94793,6 +98171,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 73
     },
+    "evos": [],
     "types": [
       "Electric",
       "Steel"
@@ -94908,6 +98287,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Fairy"
@@ -95015,6 +98395,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Water",
       "Psychic"
@@ -95145,6 +98526,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 91
     },
+    "evos": [],
     "types": [
       "Normal",
       "Dragon"
@@ -95276,6 +98658,7 @@ em_imp_primary_mons = {
       "sa": 86,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Grass"
@@ -95390,6 +98773,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "HAKAMO_O"
+      }
+    ],
     "types": [
       "Dragon"
     ],
@@ -95536,6 +98926,18 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "45",
+        "target": "KOMMO_O"
+      },
+      {
+        "method": "NONE",
+        "parameter": "0",
+        "target": "KOMMO_O_TOTEM"
+      }
+    ],
     "types": [
       "Dragon",
       "Fighting"
@@ -95709,6 +99111,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Fighting"
@@ -95840,6 +99243,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Electric",
       "Fairy"
@@ -95962,6 +99366,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Fairy"
@@ -96098,6 +99503,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fairy"
@@ -96224,6 +99630,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Water",
       "Fairy"
@@ -96259,6 +99666,13 @@ em_imp_primary_mons = {
       "sa": 29,
       "sd": 31
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "43",
+        "target": "COSMOEM"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -96297,6 +99711,18 @@ em_imp_primary_mons = {
       "sa": 29,
       "sd": 131
     },
+    "evos": [
+      {
+        "method": "LEVEL_DAY",
+        "parameter": "64",
+        "target": "SOLGALEO"
+      },
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "64",
+        "target": "LUNALA"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -96437,6 +99863,7 @@ em_imp_primary_mons = {
       "sa": 113,
       "sd": 89
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Steel"
@@ -96572,6 +99999,7 @@ em_imp_primary_mons = {
       "sa": 137,
       "sd": 107
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Ghost"
@@ -96703,6 +100131,7 @@ em_imp_primary_mons = {
       "sa": 127,
       "sd": 131
     },
+    "evos": [],
     "types": [
       "Rock",
       "Poison"
@@ -96842,6 +100271,7 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 53
     },
+    "evos": [],
     "types": [
       "Bug",
       "Fighting"
@@ -96965,6 +100395,7 @@ em_imp_primary_mons = {
       "sa": 137,
       "sd": 37
     },
+    "evos": [],
     "types": [
       "Bug",
       "Fighting"
@@ -97084,6 +100515,7 @@ em_imp_primary_mons = {
       "sa": 173,
       "sd": 71
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -97217,6 +100649,7 @@ em_imp_primary_mons = {
       "sa": 107,
       "sd": 101
     },
+    "evos": [],
     "types": [
       "Steel",
       "Flying"
@@ -97335,6 +100768,7 @@ em_imp_primary_mons = {
       "sa": 59,
       "sd": 31
     },
+    "evos": [],
     "types": [
       "Grass",
       "Steel"
@@ -97487,6 +100921,7 @@ em_imp_primary_mons = {
       "sa": 97,
       "sd": 73
     },
+    "evos": [],
     "types": [
       "Dark",
       "Dragon"
@@ -97634,6 +101069,7 @@ em_imp_primary_mons = {
       "sa": 127,
       "sd": 89
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -97760,6 +101196,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Steel",
       "Fairy"
@@ -97881,6 +101318,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Ghost"
@@ -97977,6 +101415,18 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "16",
+        "target": "RATICATE_ALOLA"
+      },
+      {
+        "method": "NONE",
+        "parameter": "0",
+        "target": "RATICATE_ALOLA_TOTEM"
+      }
+    ],
     "types": [
       "Dark",
       "Normal"
@@ -98104,6 +101554,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Dark",
       "Normal"
@@ -98193,6 +101644,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Electric",
       "Psychic"
@@ -98311,6 +101763,13 @@ em_imp_primary_mons = {
       "sa": 10,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "ICE_STONE",
+        "target": "SANDSLASH_ALOLA"
+      }
+    ],
     "types": [
       "Ice",
       "Steel"
@@ -98397,7 +101856,8 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Spikes",
-        "Steel Beam"
+        "Steel Beam",
+        "Ice Spinner"
       ]
     },
     "bs": {
@@ -98408,6 +101868,7 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Ice",
       "Steel"
@@ -98531,6 +101992,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "ICE_STONE",
+        "target": "NINETALES_ALOLA"
+      }
+    ],
     "types": [
       "Ice"
     ],
@@ -98622,6 +102090,7 @@ em_imp_primary_mons = {
       "sa": 81,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Ice",
       "Fairy"
@@ -98719,6 +102188,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "DUGTRIO_ALOLA"
+      }
+    ],
     "types": [
       "Ground",
       "Steel"
@@ -98844,6 +102320,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Ground",
       "Steel"
@@ -98960,6 +102437,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "PERSIAN_ALOLA"
+      }
+    ],
     "types": [
       "Dark"
     ],
@@ -99108,6 +102592,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Dark"
     ],
@@ -99234,6 +102719,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "GRAVELER_ALOLA"
+      }
+    ],
     "types": [
       "Rock",
       "Electric"
@@ -99372,6 +102864,18 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "GOLEM_ALOLA"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "GOLEM_ALOLA"
+      }
+    ],
     "types": [
       "Rock",
       "Electric"
@@ -99529,6 +103033,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Rock",
       "Electric"
@@ -99650,6 +103155,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "40",
+        "target": "MUK_ALOLA"
+      }
+    ],
     "types": [
       "Poison",
       "Dark"
@@ -99793,6 +103305,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Poison",
       "Dark"
@@ -99901,6 +103414,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dragon"
@@ -100049,6 +103563,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fire",
       "Ghost"
@@ -100185,6 +103700,7 @@ em_imp_primary_mons = {
       "sa": 180,
       "sd": 20
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -100320,6 +103836,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 160
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -100455,6 +103972,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -100610,6 +104128,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Rock"
     ],
@@ -100695,6 +104214,13 @@ em_imp_primary_mons = {
       "sa": 73,
       "sd": 67
     },
+    "evos": [
+      {
+        "method": "MOVE",
+        "parameter": "DRAGON_PULSE",
+        "target": "NAGANADEL"
+      }
+    ],
     "types": [
       "Poison"
     ],
@@ -100817,6 +104343,7 @@ em_imp_primary_mons = {
       "sa": 127,
       "sd": 73
     },
+    "evos": [],
     "types": [
       "Poison",
       "Dragon"
@@ -100922,6 +104449,7 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 101
     },
+    "evos": [],
     "types": [
       "Rock",
       "Steel"
@@ -101023,6 +104551,7 @@ em_imp_primary_mons = {
       "sa": 151,
       "sd": 79
     },
+    "evos": [],
     "types": [
       "Fire",
       "Ghost"
@@ -101149,6 +104678,7 @@ em_imp_primary_mons = {
       "sa": 102,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -101287,6 +104817,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Rock"
     ],
@@ -101346,6 +104877,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "METAL_COAT",
+        "target": "MELMETAL"
+      }
+    ],
     "types": [
       "Steel"
     ],
@@ -101458,6 +104996,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Steel"
     ],
@@ -101548,6 +105087,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "THWACKEY"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -101650,6 +105196,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "RILLABOOM"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -101782,6 +105335,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -101874,6 +105428,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "RABOOT"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -101976,6 +105537,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "CINDERACE"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -102099,6 +105667,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -102183,6 +105752,13 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "DRIZZILE"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -102283,6 +105859,13 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "INTELEON"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -102404,6 +105987,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -102499,6 +106083,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "GREEDENT"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -102615,6 +106206,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -102699,6 +106291,13 @@ em_imp_primary_mons = {
       "sa": 33,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "CORVISQUIRE"
+      }
+    ],
     "types": [
       "Flying"
     ],
@@ -102783,6 +106382,13 @@ em_imp_primary_mons = {
       "sa": 43,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "38",
+        "target": "CORVIKNIGHT"
+      }
+    ],
     "types": [
       "Flying"
     ],
@@ -102895,6 +106501,7 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Flying",
       "Steel"
@@ -102924,6 +106531,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "10",
+        "target": "DOTTLER"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -102998,6 +106612,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 90
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "ORBEETLE"
+      }
+    ],
     "types": [
       "Bug",
       "Psychic"
@@ -103121,6 +106742,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Bug",
       "Psychic"
@@ -103202,6 +106824,13 @@ em_imp_primary_mons = {
       "sa": 47,
       "sd": 52
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "18",
+        "target": "THIEVUL"
+      }
+    ],
     "types": [
       "Dark"
     ],
@@ -103313,6 +106942,7 @@ em_imp_primary_mons = {
       "sa": 97,
       "sd": 92
     },
+    "evos": [],
     "types": [
       "Dark"
     ],
@@ -103391,6 +107021,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "ELDEGOSS"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -103483,6 +107120,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -103559,6 +107197,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "24",
+        "target": "DUBWOOL"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -103643,6 +107288,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -103713,6 +107359,13 @@ em_imp_primary_mons = {
       "sa": 38,
       "sd": 38
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "DREDNAW"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -103839,6 +107492,7 @@ em_imp_primary_mons = {
       "sa": 48,
       "sd": 68
     },
+    "evos": [],
     "types": [
       "Water",
       "Rock"
@@ -103922,6 +107576,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "BOLTUND"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -104026,6 +107687,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -104115,6 +107777,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "CARKOL"
+      }
+    ],
     "types": [
       "Rock"
     ],
@@ -104227,6 +107896,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "COALOSSAL"
+      }
+    ],
     "types": [
       "Rock",
       "Fire"
@@ -104364,6 +108040,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Rock",
       "Fire"
@@ -104407,6 +108084,23 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "FLAPPLE"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SUN_STONE",
+        "target": "APPLETUN"
+      },
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "DIPPLIN"
+      }
+    ],
     "types": [
       "Grass",
       "Dragon"
@@ -104543,6 +108237,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dragon"
@@ -104676,6 +108371,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dragon"
@@ -104764,6 +108460,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "SANDACONDA"
+      }
+    ],
     "types": [
       "Ground"
     ],
@@ -104874,6 +108577,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Ground"
     ],
@@ -104975,6 +108679,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Flying",
       "Water"
@@ -105054,6 +108759,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "26",
+        "target": "BARRASKEWDA"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -105139,6 +108851,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -105191,6 +108904,18 @@ em_imp_primary_mons = {
       "sa": 54,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL_NATURE_AMPED",
+        "parameter": "30",
+        "target": "TOXTRICITY_AMPED"
+      },
+      {
+        "method": "LEVEL_NATURE_LOW_KEY",
+        "parameter": "30",
+        "target": "TOXTRICITY_LOW_KEY"
+      }
+    ],
     "types": [
       "Electric",
       "Poison"
@@ -105344,6 +109069,7 @@ em_imp_primary_mons = {
       "sa": 114,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Electric",
       "Poison"
@@ -105435,6 +109161,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "CENTISKORCH"
+      }
+    ],
     "types": [
       "Fire",
       "Bug"
@@ -105548,6 +109281,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Fire",
       "Bug"
@@ -105639,6 +109373,18 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "MOVE",
+        "parameter": "TAUNT",
+        "target": "GRAPPLOCT"
+      },
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "GRAPPLOCT"
+      }
+    ],
     "types": [
       "Fighting",
       "Water"
@@ -105761,6 +109507,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Water"
@@ -105851,6 +109598,13 @@ em_imp_primary_mons = {
       "sa": 74,
       "sd": 54
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "MOON_STONE",
+        "target": "POLTEAGEIST_PHONY"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -105958,6 +109712,7 @@ em_imp_primary_mons = {
       "sa": 134,
       "sd": 114
     },
+    "evos": [],
     "types": [
       "Ghost"
     ],
@@ -106037,6 +109792,13 @@ em_imp_primary_mons = {
       "sa": 56,
       "sd": 53
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "HATTREM"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -106128,6 +109890,13 @@ em_imp_primary_mons = {
       "sa": 86,
       "sd": 73
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "42",
+        "target": "HATTERENE"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -106241,6 +110010,7 @@ em_imp_primary_mons = {
       "sa": 136,
       "sd": 103
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Fairy"
@@ -106336,6 +110106,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "MORGREM"
+      }
+    ],
     "types": [
       "Dark",
       "Fairy"
@@ -106442,6 +110219,13 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "GRIMMSNARL"
+      }
+    ],
     "types": [
       "Dark",
       "Fairy"
@@ -106589,6 +110373,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Dark",
       "Fairy"
@@ -106749,6 +110534,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 81
     },
+    "evos": [],
     "types": [
       "Dark",
       "Normal"
@@ -106878,6 +110664,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Steel"
     ],
@@ -106999,6 +110786,7 @@ em_imp_primary_mons = {
       "sa": 145,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Ghost"
     ],
@@ -107123,6 +110911,7 @@ em_imp_primary_mons = {
       "sa": 68,
       "sd": 82
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -107311,6 +111100,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Ice",
       "Psychic"
@@ -107448,6 +111238,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Ground",
       "Ghost"
@@ -107525,6 +111316,53 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 61
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "ALCREMIE_STRAWBERRY_VANILLA_CREAM"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "ALCREMIE_STRAWBERRY_RUBY_CREAM"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "ALCREMIE_STRAWBERRY_MATCHA_CREAM"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "ALCREMIE_STRAWBERRY_MINT_CREAM"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "ALCREMIE_STRAWBERRY_LEMON_CREAM"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "ALCREMIE_STRAWBERRY_SALTED_CREAM"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "ALCREMIE_STRAWBERRY_RUBY_SWIRL"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "ALCREMIE_STRAWBERRY_CARAMEL_SWIRL"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "SHINY_STONE",
+        "target": "ALCREMIE_STRAWBERRY_RAINBOW_SWIRL"
+      }
+    ],
     "types": [
       "Fairy"
     ],
@@ -107626,6 +111464,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 121
     },
+    "evos": [],
     "types": [
       "Fairy"
     ],
@@ -107732,6 +111571,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Bug"
@@ -107831,6 +111671,7 @@ em_imp_primary_mons = {
       "sa": 91,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Electric",
       "Water"
@@ -107869,6 +111710,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "FRIENDSHIP_NIGHT",
+        "parameter": "0",
+        "target": "FROSMOTH"
+      }
+    ],
     "types": [
       "Ice",
       "Bug"
@@ -107993,6 +111841,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Ice",
       "Bug"
@@ -108090,13 +111939,14 @@ em_imp_primary_mons = {
       "sa": 20,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Rock"
     ],
     "gr": 5,
     "abilities": [
       "Rocky Payload",
-      "None",
+      "Power Spot",
       "None"
     ]
   },
@@ -108184,6 +112034,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -108279,6 +112130,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Normal"
@@ -108390,6 +112242,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 58
     },
+    "evos": [],
     "types": [
       "Electric",
       "Dark"
@@ -108491,6 +112344,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 49
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "COPPERAJAH"
+      }
+    ],
     "types": [
       "Steel"
     ],
@@ -108611,6 +112471,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 79
     },
+    "evos": [],
     "types": [
       "Steel"
     ],
@@ -108722,6 +112583,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Electric",
       "Dragon"
@@ -108830,6 +112692,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Electric",
       "Ice"
@@ -108934,6 +112797,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Water",
       "Dragon"
@@ -109033,6 +112897,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Water",
       "Ice"
@@ -109142,6 +113007,18 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "METAL_ALLOY",
+        "target": "ARCHALUDON"
+      },
+      {
+        "method": "LEVEL",
+        "parameter": "50",
+        "target": "ARCHALUDON"
+      }
+    ],
     "types": [
       "Steel",
       "Dragon"
@@ -109186,6 +113063,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "50",
+        "target": "DRAKLOAK"
+      }
+    ],
     "types": [
       "Dragon",
       "Ghost"
@@ -109302,6 +113186,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "60",
+        "target": "DRAGAPULT"
+      }
+    ],
     "types": [
       "Dragon",
       "Ghost"
@@ -109438,6 +113329,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Ghost"
@@ -109531,6 +113423,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Fairy"
     ],
@@ -109629,6 +113522,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -109736,6 +113630,7 @@ em_imp_primary_mons = {
       "sa": 145,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Poison",
       "Dragon"
@@ -109846,6 +113741,18 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "DUSK_STONE",
+        "target": "URSHIFU_SINGLE_STRIKE"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "WATER_STONE",
+        "target": "URSHIFU_RAPID_STRIKE"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -109973,6 +113880,7 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Dark"
@@ -110107,6 +114015,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Dark",
       "Grass"
@@ -110213,6 +114122,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Grass"
@@ -110315,6 +114225,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -110415,6 +114326,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Dragon"
     ],
@@ -110567,6 +114479,7 @@ em_imp_primary_mons = {
       "sa": 114,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Electric",
       "Poison"
@@ -110662,6 +114575,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Normal"
@@ -110790,6 +114704,7 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Water"
@@ -110901,6 +114816,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "PERRSERKER"
+      }
+    ],
     "types": [
       "Steel"
     ],
@@ -110999,6 +114921,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "RAPIDASH_GALAR"
+      }
+    ],
     "types": [
       "Fire",
       "Fairy"
@@ -111122,6 +115051,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fire",
       "Fairy"
@@ -111255,6 +115185,18 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "37",
+        "target": "SLOWBRO_GALAR"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "KINGS_ROCK",
+        "target": "SLOWKING_GALAR"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -111395,6 +115337,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Poison",
       "Psychic"
@@ -111498,6 +115441,13 @@ em_imp_primary_mons = {
       "sa": 58,
       "sd": 62
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "SIRFETCHD"
+      }
+    ],
     "types": [
       "Fighting"
     ],
@@ -111644,6 +115594,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Poison",
       "Fairy"
@@ -111817,6 +115768,13 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 90
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "42",
+        "target": "MR_RIME"
+      }
+    ],
     "types": [
       "Ice",
       "Psychic"
@@ -111935,6 +115893,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Flying"
@@ -112052,6 +116011,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Flying"
@@ -112167,6 +116127,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 125
     },
+    "evos": [],
     "types": [
       "Dark",
       "Flying"
@@ -112318,6 +116279,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Poison",
       "Psychic"
@@ -112431,6 +116393,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 100
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "38",
+        "target": "CURSOLA"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -112531,6 +116500,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 41
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "LINOONE_GALAR"
+      }
+    ],
     "types": [
       "Dark",
       "Normal"
@@ -112663,6 +116639,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 61
     },
+    "evos": [
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "35",
+        "target": "OBSTAGOON"
+      }
+    ],
     "types": [
       "Dark",
       "Normal"
@@ -112771,6 +116754,13 @@ em_imp_primary_mons = {
       "sa": 15,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "ICE_STONE",
+        "target": "DARMANITAN_GALAR_STANDARD"
+      }
+    ],
     "types": [
       "Ice"
     ],
@@ -112900,6 +116890,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -113018,6 +117009,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "RUNERIGUS"
+      }
+    ],
     "types": [
       "Ground",
       "Ghost"
@@ -113122,6 +117120,7 @@ em_imp_primary_mons = {
       "sa": 66,
       "sd": 84
     },
+    "evos": [],
     "types": [
       "Ground",
       "Steel"
@@ -113273,6 +117272,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Ice"
@@ -113418,6 +117418,7 @@ em_imp_primary_mons = {
       "sa": 165,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Ghost"
@@ -113520,6 +117521,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -113621,6 +117623,7 @@ em_imp_primary_mons = {
       "sa": 145,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Ghost"
     ],
@@ -113765,6 +117768,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 50
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "FIRE_STONE",
+        "target": "ARCANINE_HISUI"
+      }
+    ],
     "types": [
       "Fire",
       "Rock"
@@ -113886,6 +117896,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fire",
       "Rock"
@@ -114041,6 +118052,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Water",
       "Ghost"
@@ -114194,6 +118206,7 @@ em_imp_primary_mons = {
       "sa": 112,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Flying"
@@ -114333,6 +118346,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Normal",
       "Psychic"
@@ -114475,6 +118489,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Bug",
       "Rock"
@@ -114587,6 +118602,13 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "30",
+        "target": "ZOROARK_HISUI"
+      }
+    ],
     "types": [
       "Normal",
       "Ghost"
@@ -114740,6 +118762,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Normal",
       "Ghost"
@@ -114876,6 +118899,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "ELECTRODE_HISUI"
+      }
+    ],
     "types": [
       "Electric",
       "Grass"
@@ -115017,6 +119047,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Electric",
       "Grass"
@@ -115116,6 +119147,18 @@ em_imp_primary_mons = {
       "sa": 83,
       "sd": 113
     },
+    "evos": [
+      {
+        "method": "LEVEL_RAIN",
+        "parameter": "50",
+        "target": "GOODRA_HISUI"
+      },
+      {
+        "method": "LEVEL_FOG",
+        "parameter": "50",
+        "target": "GOODRA_HISUI"
+      }
+    ],
     "types": [
       "Dragon",
       "Steel"
@@ -115260,6 +119303,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 150
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Steel"
@@ -115417,6 +119461,7 @@ em_imp_primary_mons = {
       "sa": 119,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Fire",
       "Ghost"
@@ -115458,6 +119503,10 @@ em_imp_primary_mons = {
         [
           1,
           "Water Sport"
+        ],
+        [
+          1,
+          "Razor Shell"
         ],
         [
           5,
@@ -115574,6 +119623,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Water",
       "Dark"
@@ -115747,6 +119797,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fighting"
@@ -115905,6 +119956,7 @@ em_imp_primary_mons = {
       "sa": 34,
       "sd": 36
     },
+    "evos": [],
     "types": [
       "Ice",
       "Rock"
@@ -116052,6 +120104,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Ground",
       "Normal"
@@ -116194,6 +120247,7 @@ em_imp_primary_mons = {
       "sa": 140,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Ground",
       "Normal"
@@ -116317,6 +120371,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fighting"
@@ -116459,6 +120514,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 75
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "47",
+        "target": "SNEASLER"
+      }
+    ],
     "types": [
       "Fighting",
       "Poison"
@@ -116612,6 +120674,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Poison"
@@ -116754,6 +120817,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "OVERQWIL"
+      }
+    ],
     "types": [
       "Dark",
       "Poison"
@@ -116897,6 +120967,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Dark",
       "Poison"
@@ -117031,6 +121102,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fairy",
       "Flying"
@@ -117123,6 +121195,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "FLORAGATO"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -117223,6 +121302,13 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 63
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "MEOWSCARADA"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -117356,6 +121442,7 @@ em_imp_primary_mons = {
       "sa": 81,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dark"
@@ -117449,6 +121536,13 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "CROCALOR"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -117546,6 +121640,13 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 58
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "SKELEDIRGE"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -117668,6 +121769,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Fire",
       "Ghost"
@@ -117747,6 +121849,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "QUAXWELL"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -117830,6 +121939,13 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "QUAQUAVAL"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -117953,6 +122069,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Water",
       "Fighting"
@@ -118052,6 +122169,13 @@ em_imp_primary_mons = {
       "sa": 25,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "20",
+        "target": "CLODSIRE"
+      }
+    ],
     "types": [
       "Poison",
       "Ground"
@@ -118155,6 +122279,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Poison",
       "Ground"
@@ -118241,6 +122366,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "22",
+        "target": "WUGTRIO"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -118339,6 +122471,7 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -118428,6 +122561,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "ARCTIBAX"
+      }
+    ],
     "types": [
       "Dragon",
       "Ice"
@@ -118524,6 +122664,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "54",
+        "target": "BAXCALIBUR"
+      }
+    ],
     "types": [
       "Dragon",
       "Ice"
@@ -118650,6 +122797,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 86
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Ice"
@@ -118758,6 +122906,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL_NIGHT",
+        "parameter": "30",
+        "target": "HOUNDSTONE"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -118882,6 +123037,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 97
     },
+    "evos": [],
     "types": [
       "Ghost"
     ],
@@ -118977,6 +123133,13 @@ em_imp_primary_mons = {
       "sa": 59,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "THUNDER_STONE",
+        "target": "BELLIBOLT"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -119083,6 +123246,7 @@ em_imp_primary_mons = {
       "sa": 103,
       "sd": 83
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -119206,6 +123370,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fire",
       "Psychic"
@@ -119345,6 +123510,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Fire",
       "Ghost"
@@ -119493,6 +123659,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Dark",
       "Steel"
@@ -119656,6 +123823,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Ghost"
@@ -119730,6 +123898,18 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "SUN_STONE",
+        "target": "ARMAROUGE"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "MOON_STONE",
+        "target": "CERULEDGE"
+      }
+    ],
     "types": [
       "Fire"
     ],
@@ -119906,6 +124086,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -120016,6 +124197,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Normal"
@@ -120109,6 +124291,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "38",
+        "target": "PALAFIN_ZERO"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -120239,6 +124428,7 @@ em_imp_primary_mons = {
       "sa": 106,
       "sd": 87
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -120346,6 +124536,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "REVAVROOM"
+      }
+    ],
     "types": [
       "Steel",
       "Poison"
@@ -120477,6 +124674,7 @@ em_imp_primary_mons = {
       "sa": 54,
       "sd": 67
     },
+    "evos": [],
     "types": [
       "Steel",
       "Poison"
@@ -120594,6 +124792,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 100
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "28",
+        "target": "TOEDSCRUEL"
+      }
+    ],
     "types": [
       "Ground",
       "Grass"
@@ -120719,6 +124924,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Ground",
       "Grass"
@@ -120850,6 +125056,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Dragon"
@@ -120960,6 +125167,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Electric",
       "Dragon"
@@ -121056,6 +125264,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "PAWMO"
+      }
+    ],
     "types": [
       "Electric"
     ],
@@ -121163,6 +125378,13 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "32",
+        "target": "PAWMOT"
+      }
+    ],
     "types": [
       "Electric",
       "Fighting"
@@ -121291,6 +125513,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Electric",
       "Fighting"
@@ -121397,6 +125620,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 64
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "TINKATUFF"
+      }
+    ],
     "types": [
       "Fairy",
       "Steel"
@@ -121508,6 +125738,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 82
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "36",
+        "target": "TINKATON"
+      }
+    ],
     "types": [
       "Fairy",
       "Steel"
@@ -121630,6 +125867,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Fairy",
       "Steel"
@@ -121741,6 +125979,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -121857,6 +126096,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Fire",
       "Fighting"
@@ -121969,6 +126209,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Water",
       "Fighting"
@@ -122094,6 +126335,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Normal",
       "Psychic"
@@ -122220,6 +126462,7 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 53
     },
+    "evos": [],
     "types": [
       "Ground",
       "Fighting"
@@ -122337,6 +126580,7 @@ em_imp_primary_mons = {
       "sa": 72,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Ground",
       "Steel"
@@ -122465,6 +126709,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 68
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Electric"
@@ -122596,6 +126841,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Bug",
       "Fighting"
@@ -122724,6 +126970,7 @@ em_imp_primary_mons = {
       "sa": 122,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Dark",
       "Flying"
@@ -122865,6 +127112,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 101
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Dark"
@@ -123013,6 +127261,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 84
     },
+    "evos": [],
     "types": [
       "Rock",
       "Electric"
@@ -123117,6 +127366,18 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL_FAMILY_OF_FOUR",
+        "parameter": "25",
+        "target": "MAUSHOLD_FOUR"
+      },
+      {
+        "method": "LEVEL_FAMILY_OF_THREE",
+        "parameter": "25",
+        "target": "MAUSHOLD_THREE"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -123221,6 +127482,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -123327,6 +127589,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "ICE_STONE",
+        "target": "CETITAN"
+      }
+    ],
     "types": [
       "Ice"
     ],
@@ -123436,6 +127705,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -123538,6 +127808,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "GRAFAIAI"
+      }
+    ],
     "types": [
       "Poison",
       "Normal"
@@ -123661,6 +127938,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 72
     },
+    "evos": [],
     "types": [
       "Poison",
       "Normal"
@@ -123763,6 +128041,7 @@ em_imp_primary_mons = {
       "sa": 124,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Ice",
       "Water"
@@ -123901,6 +128180,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Fairy",
       "Fighting"
@@ -124015,6 +128295,7 @@ em_imp_primary_mons = {
       "sa": 79,
       "sd": 99
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dark"
@@ -124156,6 +128437,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Fairy",
       "Psychic"
@@ -124273,6 +128555,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 135
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Fairy"
@@ -124396,6 +128679,7 @@ em_imp_primary_mons = {
       "sa": 121,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Electric",
       "Ground"
@@ -124516,6 +128800,7 @@ em_imp_primary_mons = {
       "sa": 140,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Fire",
       "Poison"
@@ -124628,6 +128913,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 74
     },
+    "evos": [],
     "types": [
       "Flying",
       "Fighting"
@@ -124738,6 +129024,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Dark",
       "Ice"
@@ -124862,6 +129149,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 135
     },
+    "evos": [],
     "types": [
       "Dark",
       "Grass"
@@ -124977,6 +129265,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Dark",
       "Ground"
@@ -125094,6 +129383,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Dark",
       "Fire"
@@ -125187,6 +129477,18 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL_MALE",
+        "parameter": "16",
+        "target": "OINKOLOGNE_M"
+      },
+      {
+        "method": "LEVEL_FEMALE",
+        "parameter": "16",
+        "target": "OINKOLOGNE_F"
+      }
+    ],
     "types": [
       "Normal"
     ],
@@ -125294,6 +129596,7 @@ em_imp_primary_mons = {
       "sa": 59,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -125377,6 +129680,7 @@ em_imp_primary_mons = {
       "sa": 59,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -125417,6 +129721,13 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 70
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "45",
+        "target": "GHOLDENGO"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -125510,6 +129821,7 @@ em_imp_primary_mons = {
       "sa": 133,
       "sd": 91
     },
+    "evos": [],
     "types": [
       "Steel",
       "Ghost"
@@ -125622,6 +129934,7 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Rock"
     ],
@@ -125719,6 +130032,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "NACLSTACK"
+      }
+    ],
     "types": [
       "Rock"
     ],
@@ -125825,6 +130145,13 @@ em_imp_primary_mons = {
       "sa": 35,
       "sd": 65
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "38",
+        "target": "GARGANACL"
+      }
+    ],
     "types": [
       "Rock"
     ],
@@ -125954,6 +130281,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Rock"
     ],
@@ -126051,6 +130379,13 @@ em_imp_primary_mons = {
       "sa": 29,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "15",
+        "target": "SPIDOPS"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -126194,6 +130529,7 @@ em_imp_primary_mons = {
       "sa": 32,
       "sd": 86
     },
+    "evos": [],
     "types": [
       "Bug"
     ],
@@ -126280,6 +130616,13 @@ em_imp_primary_mons = {
       "sa": 21,
       "sd": 25
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "LOKIX"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -126397,6 +130740,7 @@ em_imp_primary_mons = {
       "sa": 52,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Bug",
       "Dark"
@@ -126495,6 +130839,13 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "26",
+        "target": "DACHSBUN"
+      }
+    ],
     "types": [
       "Fairy"
     ],
@@ -126598,6 +130949,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fairy"
     ],
@@ -126698,6 +131050,13 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 51
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "MABOSSTIFF"
+      }
+    ],
     "types": [
       "Dark"
     ],
@@ -126808,6 +131167,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Dark"
     ],
@@ -126888,6 +131248,13 @@ em_imp_primary_mons = {
       "sa": 31,
       "sd": 58
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "16",
+        "target": "RABSCA"
+      }
+    ],
     "types": [
       "Bug"
     ],
@@ -127018,6 +131385,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Bug",
       "Psychic"
@@ -127107,6 +131475,13 @@ em_imp_primary_mons = {
       "sa": 62,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "FIRE_STONE",
+        "target": "SCOVILLAIN"
+      }
+    ],
     "types": [
       "Grass"
     ],
@@ -127224,6 +131599,7 @@ em_imp_primary_mons = {
       "sa": 118,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Grass",
       "Fire"
@@ -127322,6 +131698,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 40
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "25",
+        "target": "KILOWATTREL"
+      }
+    ],
     "types": [
       "Electric",
       "Flying"
@@ -127437,6 +131820,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Electric",
       "Flying"
@@ -127529,6 +131913,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Water"
@@ -127641,6 +132026,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Steel"
     ],
@@ -127736,6 +132122,7 @@ em_imp_primary_mons = {
       "sa": 78,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Water",
       "Psychic"
@@ -127841,6 +132228,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -127959,6 +132347,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Flying",
       "Dark"
@@ -128062,6 +132451,13 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 60
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "GLIMMORA"
+      }
+    ],
     "types": [
       "Rock",
       "Poison"
@@ -128186,6 +132582,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 81
     },
+    "evos": [],
     "types": [
       "Rock",
       "Poison"
@@ -128294,6 +132691,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 51
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -128403,6 +132801,13 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 35
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "27",
+        "target": "BRAMBLEGHAST"
+      }
+    ],
     "types": [
       "Grass",
       "Ghost"
@@ -128524,6 +132929,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Grass",
       "Ghost"
@@ -128613,6 +133019,13 @@ em_imp_primary_mons = {
       "sa": 58,
       "sd": 51
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "23",
+        "target": "DOLLIV"
+      }
+    ],
     "types": [
       "Grass",
       "Normal"
@@ -128708,6 +133121,13 @@ em_imp_primary_mons = {
       "sa": 78,
       "sd": 78
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "35",
+        "target": "ARBOLIVA"
+      }
+    ],
     "types": [
       "Grass",
       "Normal"
@@ -128823,6 +133243,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 109
     },
+    "evos": [],
     "types": [
       "Grass",
       "Normal"
@@ -128950,6 +133371,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 108
     },
+    "evos": [],
     "types": [
       "Grass",
       "Psychic"
@@ -129063,6 +133485,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 83
     },
+    "evos": [],
     "types": [
       "Water",
       "Dragon"
@@ -129150,6 +133573,13 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 30
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "34",
+        "target": "ESPATHRA"
+      }
+    ],
     "types": [
       "Psychic"
     ],
@@ -129278,6 +133708,7 @@ em_imp_primary_mons = {
       "sa": 101,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -129375,6 +133806,13 @@ em_imp_primary_mons = {
       "sa": 74,
       "sd": 54
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "SINISTCHA_UNREMARKABLE"
+      }
+    ],
     "types": [
       "Grass",
       "Ghost"
@@ -129481,6 +133919,7 @@ em_imp_primary_mons = {
       "sa": 121,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Grass",
       "Ghost"
@@ -129597,6 +134036,7 @@ em_imp_primary_mons = {
       "sa": 58,
       "sd": 86
     },
+    "evos": [],
     "types": [
       "Poison",
       "Fighting"
@@ -129701,6 +134141,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Poison",
       "Psychic"
@@ -129818,6 +134259,7 @@ em_imp_primary_mons = {
       "sa": 91,
       "sd": 125
     },
+    "evos": [],
     "types": [
       "Poison",
       "Fairy"
@@ -129946,6 +134388,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 96
     },
+    "evos": [],
     "types": [
       "Grass",
       "Type"
@@ -130052,6 +134495,13 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 80
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "44",
+        "target": "HYDRAPPLE"
+      }
+    ],
     "types": [
       "Grass",
       "Dragon"
@@ -130170,6 +134620,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dragon"
@@ -130292,6 +134743,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Steel",
       "Dragon"
@@ -130435,6 +134887,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 93
     },
+    "evos": [],
     "types": [
       "Fire",
       "Dragon"
@@ -130568,6 +135021,7 @@ em_imp_primary_mons = {
       "sa": 137,
       "sd": 89
     },
+    "evos": [],
     "types": [
       "Electric",
       "Dragon"
@@ -130696,6 +135150,7 @@ em_imp_primary_mons = {
       "sa": 68,
       "sd": 108
     },
+    "evos": [],
     "types": [
       "Rock",
       "Psychic"
@@ -130829,6 +135284,7 @@ em_imp_primary_mons = {
       "sa": 122,
       "sd": 108
     },
+    "evos": [],
     "types": [
       "Steel",
       "Psychic"
@@ -130938,6 +135394,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -131034,6 +135491,7 @@ em_imp_primary_mons = {
       "sa": 88,
       "sd": 88
     },
+    "evos": [],
     "types": [
       "Poison",
       "Ghost"
@@ -131054,6 +135512,7 @@ em_imp_primary_mons = {
       "sa": 122,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Grass",
       "Poison"
@@ -131074,6 +135533,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Grass",
       "Poison"
@@ -131094,6 +135554,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Fire",
       "Dragon"
@@ -131114,6 +135575,7 @@ em_imp_primary_mons = {
       "sa": 159,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Fire",
       "Flying"
@@ -131134,6 +135596,7 @@ em_imp_primary_mons = {
       "sa": 109,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Fire",
       "Flying"
@@ -131154,6 +135617,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -131173,6 +135637,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -131192,6 +135657,7 @@ em_imp_primary_mons = {
       "sa": 140,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Bug",
       "Flying"
@@ -131212,6 +135678,7 @@ em_imp_primary_mons = {
       "sa": 15,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Bug",
       "Poison"
@@ -131232,6 +135699,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -131252,6 +135720,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Dark",
       "Normal"
@@ -131272,6 +135741,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -131291,6 +135761,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -131310,6 +135781,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -131329,6 +135801,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -131348,6 +135821,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -131367,6 +135841,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -131386,6 +135861,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -131405,6 +135881,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -131424,6 +135901,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -131443,6 +135921,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 40
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -131462,6 +135941,7 @@ em_imp_primary_mons = {
       "sa": 175,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -131481,6 +135961,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Fighting"
     ],
@@ -131500,6 +135981,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Water",
       "Psychic"
@@ -131520,6 +136002,7 @@ em_imp_primary_mons = {
       "sa": 170,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Poison"
@@ -131540,6 +136023,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Poison"
@@ -131560,6 +136044,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Steel",
       "Ground"
@@ -131580,6 +136065,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Water",
       "Steel"
@@ -131600,6 +136086,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fire",
       "Ghost"
@@ -131620,6 +136107,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -131639,6 +136127,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Bug",
       "Steel"
@@ -131659,6 +136148,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Bug",
       "Flying"
@@ -131679,6 +136169,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Water",
       "Dark"
@@ -131699,6 +136190,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Water",
       "Dragon"
@@ -131719,6 +136211,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -131738,6 +136231,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Rock",
       "Flying"
@@ -131758,6 +136252,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 125
     },
+    "evos": [],
     "types": [
       "Normal",
       "Grass"
@@ -131778,6 +136273,7 @@ em_imp_primary_mons = {
       "sa": 154,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -131797,6 +136293,7 @@ em_imp_primary_mons = {
       "sa": 154,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Fighting"
@@ -131817,6 +136314,7 @@ em_imp_primary_mons = {
       "sa": 194,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Psychic"
     ],
@@ -131836,6 +136334,7 @@ em_imp_primary_mons = {
       "sa": 165,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Electric",
       "Dragon"
@@ -131856,6 +136355,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Bug",
       "Fighting"
@@ -131876,6 +136376,7 @@ em_imp_primary_mons = {
       "sa": 140,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Dark",
       "Fire"
@@ -131896,6 +136397,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Rock",
       "Dark"
@@ -131916,6 +136418,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dragon"
@@ -131936,6 +136439,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Fire",
       "Fighting"
@@ -131956,6 +136460,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Water",
       "Ground"
@@ -131976,6 +136481,7 @@ em_imp_primary_mons = {
       "sa": 165,
       "sd": 135
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Fairy"
@@ -131996,6 +136502,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Fighting"
@@ -132016,6 +136523,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Dark",
       "Ghost"
@@ -132036,6 +136544,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Steel",
       "Fairy"
@@ -132056,6 +136565,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Steel"
     ],
@@ -132075,6 +136585,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Psychic"
@@ -132095,6 +136606,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Electric"
     ],
@@ -132114,6 +136626,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Water",
       "Dark"
@@ -132134,6 +136647,7 @@ em_imp_primary_mons = {
       "sa": 145,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Fire",
       "Ground"
@@ -132154,6 +136668,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Fairy"
@@ -132174,6 +136689,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -132193,6 +136709,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -132212,6 +136729,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -132231,6 +136749,7 @@ em_imp_primary_mons = {
       "sa": 93,
       "sd": 83
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Normal"
@@ -132251,6 +136770,7 @@ em_imp_primary_mons = {
       "sa": 115,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Dark",
       "Fairy"
@@ -132271,6 +136791,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -132290,6 +136811,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Flying"
@@ -132310,6 +136832,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Steel",
       "Psychic"
@@ -132330,6 +136853,7 @@ em_imp_primary_mons = {
       "sa": 140,
       "sd": 150
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Psychic"
@@ -132350,6 +136874,7 @@ em_imp_primary_mons = {
       "sa": 160,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Psychic"
@@ -132370,6 +136895,7 @@ em_imp_primary_mons = {
       "sa": 180,
       "sd": 160
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -132389,6 +136915,7 @@ em_imp_primary_mons = {
       "sa": 150,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Ground",
       "Fire"
@@ -132409,6 +136936,7 @@ em_imp_primary_mons = {
       "sa": 180,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Flying"
@@ -132429,6 +136957,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 78
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -132448,6 +136977,7 @@ em_imp_primary_mons = {
       "sa": 54,
       "sd": 96
     },
+    "evos": [],
     "types": [
       "Normal",
       "Fighting"
@@ -132468,6 +136998,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Ground"
@@ -132488,6 +137019,7 @@ em_imp_primary_mons = {
       "sa": 140,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Steel"
@@ -132508,6 +137040,7 @@ em_imp_primary_mons = {
       "sa": 132,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Grass",
       "Ice"
@@ -132528,6 +137061,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 107
     },
+    "evos": [],
     "types": [
       "Electric",
       "Grass"
@@ -132548,6 +137082,7 @@ em_imp_primary_mons = {
       "sa": 150,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Steel",
       "Dragon"
@@ -132568,6 +137103,7 @@ em_imp_primary_mons = {
       "sa": 150,
       "sd": 120
     },
+    "evos": [],
     "types": [
       "Water",
       "Dragon"
@@ -132588,6 +137124,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Dragon"
@@ -132600,55 +137137,72 @@ em_imp_primary_mons = {
     ]
   },
   "Arceus-Fighting": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Flying": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Poison": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Ground": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Rock": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Bug": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Ghost": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Steel": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Fire": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Water": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Grass": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Electric": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Psychic": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Ice": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Dragon": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Dark": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Arceus-Fairy": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Audino-Mega": {
     "bs": {
@@ -132659,6 +137213,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 126
     },
+    "evos": [],
     "types": [
       "Normal",
       "Fairy"
@@ -132679,6 +137234,18 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "LEVEL_MALE",
+        "parameter": "44",
+        "target": "BASCULEGION_M"
+      },
+      {
+        "method": "LEVEL_FEMALE",
+        "parameter": "44",
+        "target": "BASCULEGION_F"
+      }
+    ],
     "types": [
       "Water"
     ],
@@ -132698,6 +137265,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Water",
       "Ghost"
@@ -132853,6 +137421,7 @@ em_imp_primary_mons = {
       "sa": 140,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Fire",
       "Psychic"
@@ -132873,6 +137442,7 @@ em_imp_primary_mons = {
       "sa": 30,
       "sd": 55
     },
+    "evos": [],
     "types": [
       "Ice",
       "Fire"
@@ -132893,14 +137463,15 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Poison"
     ],
     "gr": 0,
     "abilities": [
-      "Stench",
-      "Stench",
-      "Stench"
+      "Parasitic Waste",
+      "Parasitic Waste",
+      "Parasitic Waste"
     ]
   },
   "Tornadus-Therian": {
@@ -132912,6 +137483,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Flying"
     ],
@@ -132931,6 +137503,7 @@ em_imp_primary_mons = {
       "sa": 145,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Electric",
       "Flying"
@@ -132951,6 +137524,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Ground",
       "Flying"
@@ -132971,6 +137545,7 @@ em_imp_primary_mons = {
       "sa": 129,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Water",
       "Fighting"
@@ -132991,6 +137566,7 @@ em_imp_primary_mons = {
       "sa": 77,
       "sd": 77
     },
+    "evos": [],
     "types": [
       "Normal",
       "Fighting"
@@ -133003,16 +137579,20 @@ em_imp_primary_mons = {
     ]
   },
   "Genesect-Douse": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Genesect-Shock": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Genesect-Burn": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Genesect-Chill": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Greninja-Ash": {
     "bs": {
@@ -133023,6 +137603,7 @@ em_imp_primary_mons = {
       "sa": 153,
       "sd": 71
     },
+    "evos": [],
     "types": [
       "Water",
       "Dark"
@@ -133035,10 +137616,12 @@ em_imp_primary_mons = {
     ]
   },
   "Vivillon-Fancy": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Vivillon-Pokeball": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Aegislash-Shield": {
     "bs": {
@@ -133049,6 +137632,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 140
     },
+    "evos": [],
     "types": [
       "Steel",
       "Ghost"
@@ -133153,6 +137737,7 @@ em_imp_primary_mons = {
       "sa": 140,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Steel",
       "Ghost"
@@ -133173,6 +137758,18 @@ em_imp_primary_mons = {
       "sa": 66,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "GOURGEIST_SMALL"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "GOURGEIST_SMALL"
+      }
+    ],
     "types": [
       "Ghost",
       "Grass"
@@ -133193,6 +137790,18 @@ em_imp_primary_mons = {
       "sa": 66,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "GOURGEIST_LARGE"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "GOURGEIST_LARGE"
+      }
+    ],
     "types": [
       "Ghost",
       "Grass"
@@ -133213,6 +137822,18 @@ em_imp_primary_mons = {
       "sa": 66,
       "sd": 55
     },
+    "evos": [
+      {
+        "method": "TRADE",
+        "parameter": "0",
+        "target": "GOURGEIST_SUPER"
+      },
+      {
+        "method": "ITEM",
+        "parameter": "LINKING_CORD",
+        "target": "GOURGEIST_SUPER"
+      }
+    ],
     "types": [
       "Ghost",
       "Grass"
@@ -133233,6 +137854,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Grass"
@@ -133253,6 +137875,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Grass"
@@ -133273,6 +137896,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Grass"
@@ -133293,6 +137917,7 @@ em_imp_primary_mons = {
       "sa": 91,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Ground"
@@ -133313,6 +137938,7 @@ em_imp_primary_mons = {
       "sa": 160,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Rock",
       "Fairy"
@@ -133333,6 +137959,7 @@ em_imp_primary_mons = {
       "sa": 55,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -133352,6 +137979,7 @@ em_imp_primary_mons = {
       "sa": 145,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Bug",
       "Electric"
@@ -133372,6 +138000,7 @@ em_imp_primary_mons = {
       "sa": 98,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Electric",
       "Flying"
@@ -133392,6 +138021,7 @@ em_imp_primary_mons = {
       "sa": 98,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Flying"
@@ -133412,6 +138042,7 @@ em_imp_primary_mons = {
       "sa": 98,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Flying"
@@ -133432,6 +138063,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Bug",
       "Fairy"
@@ -133452,6 +138084,7 @@ em_imp_primary_mons = {
       "sa": 140,
       "sd": 135
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -133471,6 +138104,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 132
     },
+    "evos": [],
     "types": [
       "Water",
       "Bug"
@@ -133491,6 +138125,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -133510,6 +138145,7 @@ em_imp_primary_mons = {
       "sa": 111,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Poison",
       "Fire"
@@ -133522,58 +138158,76 @@ em_imp_primary_mons = {
     ]
   },
   "Silvally-Fighting": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Flying": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Poison": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Ground": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Rock": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Bug": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Ghost": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Steel": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Fire": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Water": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Grass": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Electric": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Psychic": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Ice": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Dragon": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Dark": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Silvally-Fairy": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Minior-Meteor": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Togedemaru-Totem": {
     "bs": {
@@ -133584,6 +138238,7 @@ em_imp_primary_mons = {
       "sa": 40,
       "sd": 73
     },
+    "evos": [],
     "types": [
       "Electric",
       "Steel"
@@ -133604,6 +138259,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Fairy"
@@ -133624,6 +138280,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Fairy"
@@ -133644,6 +138301,7 @@ em_imp_primary_mons = {
       "sa": 50,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Fairy"
@@ -133664,6 +138322,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Dragon",
       "Fighting"
@@ -133684,6 +138343,7 @@ em_imp_primary_mons = {
       "sa": 113,
       "sd": 109
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Steel"
@@ -133704,6 +138364,7 @@ em_imp_primary_mons = {
       "sa": 157,
       "sd": 127
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Ghost"
@@ -133724,6 +138385,7 @@ em_imp_primary_mons = {
       "sa": 167,
       "sd": 97
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Dragon"
@@ -133744,6 +138406,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Steel",
       "Fairy"
@@ -133764,6 +138427,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Steel"
     ],
@@ -133783,6 +138447,7 @@ em_imp_primary_mons = {
       "sa": 60,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Grass"
     ],
@@ -133802,6 +138467,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Fire"
     ],
@@ -133821,6 +138487,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 65
     },
+    "evos": [],
     "types": [
       "Water"
     ],
@@ -133840,6 +138507,7 @@ em_imp_primary_mons = {
       "sa": 53,
       "sd": 85
     },
+    "evos": [],
     "types": [
       "Flying",
       "Steel"
@@ -133860,6 +138528,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Bug",
       "Psychic"
@@ -133880,6 +138549,7 @@ em_imp_primary_mons = {
       "sa": 48,
       "sd": 98
     },
+    "evos": [],
     "types": [
       "Water",
       "Fighting"
@@ -133900,6 +138570,7 @@ em_imp_primary_mons = {
       "sa": 125,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Steel",
       "Fire"
@@ -133920,6 +138591,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 70
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dragon"
@@ -133940,6 +138612,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Grass",
       "Dragon"
@@ -133960,6 +138633,7 @@ em_imp_primary_mons = {
       "sa": 85,
       "sd": 90
     },
+    "evos": [],
     "types": [
       "Ground",
       "Flying"
@@ -133980,6 +138654,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Flying",
       "Water"
@@ -134000,6 +138675,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Flying",
       "Water"
@@ -134020,6 +138696,7 @@ em_imp_primary_mons = {
       "sa": 155,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Electric",
       "Poison"
@@ -134040,6 +138717,7 @@ em_imp_primary_mons = {
       "sa": 90,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Fire",
       "Bug"
@@ -134060,6 +138738,13 @@ em_imp_primary_mons = {
       "sa": 74,
       "sd": 54
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "MOON_STONE",
+        "target": "POLTEAGEIST_ANTIQUE"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -134079,6 +138764,7 @@ em_imp_primary_mons = {
       "sa": 134,
       "sd": 114
     },
+    "evos": [],
     "types": [
       "Ghost"
     ],
@@ -134098,6 +138784,7 @@ em_imp_primary_mons = {
       "sa": 136,
       "sd": 103
     },
+    "evos": [],
     "types": [
       "Psychic",
       "Fairy"
@@ -134118,6 +138805,7 @@ em_imp_primary_mons = {
       "sa": 145,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Dark",
       "Fairy"
@@ -134130,7 +138818,8 @@ em_imp_primary_mons = {
     ]
   },
   "Alcremie-Gmax": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Eiscue-Noice": {
     "bs": {
@@ -134141,6 +138830,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Ice"
     ],
@@ -134160,6 +138850,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 58
     },
+    "evos": [],
     "types": [
       "Electric",
       "Dark"
@@ -134180,6 +138871,7 @@ em_imp_primary_mons = {
       "sa": 100,
       "sd": 94
     },
+    "evos": [],
     "types": [
       "Steel",
       "Fighting"
@@ -134200,6 +138892,7 @@ em_imp_primary_mons = {
       "sa": 120,
       "sd": 50
     },
+    "evos": [],
     "types": [
       "Steel",
       "Dragon"
@@ -134220,6 +138913,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 115
     },
+    "evos": [],
     "types": [
       "Fairy",
       "Steel"
@@ -134240,6 +138934,7 @@ em_imp_primary_mons = {
       "sa": 80,
       "sd": 140
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Steel"
@@ -134260,6 +138955,7 @@ em_imp_primary_mons = {
       "sa": 185,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Poison",
       "Dragon"
@@ -134280,6 +138976,7 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Dark"
@@ -134300,6 +138997,7 @@ em_imp_primary_mons = {
       "sa": 63,
       "sd": 60
     },
+    "evos": [],
     "types": [
       "Fighting",
       "Water"
@@ -134320,6 +139018,7 @@ em_imp_primary_mons = {
       "sa": 70,
       "sd": 95
     },
+    "evos": [],
     "types": [
       "Dark",
       "Grass"
@@ -134340,6 +139039,7 @@ em_imp_primary_mons = {
       "sa": 135,
       "sd": 100
     },
+    "evos": [],
     "types": [
       "Fairy",
       "Flying"
@@ -134360,6 +139060,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -134379,6 +139080,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 51
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -134399,6 +139101,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 51
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -134419,6 +139122,7 @@ em_imp_primary_mons = {
       "sa": 45,
       "sd": 51
     },
+    "evos": [],
     "types": [
       "Normal",
       "Flying"
@@ -134439,6 +139143,13 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 45
     },
+    "evos": [
+      {
+        "method": "LEVEL",
+        "parameter": "45",
+        "target": "GHOLDENGO"
+      }
+    ],
     "types": [
       "Ghost"
     ],
@@ -134458,6 +139169,13 @@ em_imp_primary_mons = {
       "sa": 74,
       "sd": 54
     },
+    "evos": [
+      {
+        "method": "ITEM",
+        "parameter": "LEAF_STONE",
+        "target": "SINISTCHA_MASTERPIECE"
+      }
+    ],
     "types": [
       "Grass",
       "Ghost"
@@ -134478,6 +139196,7 @@ em_imp_primary_mons = {
       "sa": 121,
       "sd": 80
     },
+    "evos": [],
     "types": [
       "Grass",
       "Ghost"
@@ -134490,25 +139209,32 @@ em_imp_primary_mons = {
     ]
   },
   "Ogerpon-Wellspring": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Ogerpon-Hearthflame": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Ogerpon-Cornerstone": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Ogerpon-Teal-Tera": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Ogerpon-Wellspring-Tera": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Ogerpon-Hearthflame-Tera": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Ogerpon-Cornerstone-Tera": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Terapagos-Terastal": {
     "bs": {
@@ -134519,6 +139245,7 @@ em_imp_primary_mons = {
       "sa": 105,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -134538,6 +139265,7 @@ em_imp_primary_mons = {
       "sa": 130,
       "sd": 110
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -134549,7 +139277,8 @@ em_imp_primary_mons = {
     ]
   },
   "Egg": {
-    "bs": {}
+    "bs": {},
+    "evos": []
   },
   "Luxray-Mega": {
     "bs": {
@@ -134560,6 +139289,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 79
     },
+    "evos": [],
     "types": [
       "Electric",
       "Dark"
@@ -134580,6 +139310,7 @@ em_imp_primary_mons = {
       "sa": 75,
       "sd": 105
     },
+    "evos": [],
     "types": [
       "Grass",
       "Ground"
@@ -134600,6 +139331,7 @@ em_imp_primary_mons = {
       "sa": 110,
       "sd": 83
     },
+    "evos": [],
     "types": [
       "Water",
       "Steel"
@@ -134620,6 +139352,7 @@ em_imp_primary_mons = {
       "sa": 131,
       "sd": 157
     },
+    "evos": [],
     "types": [
       "Water",
       "Steel"
@@ -134640,6 +139373,7 @@ em_imp_primary_mons = {
       "sa": 137,
       "sd": 82
     },
+    "evos": [],
     "types": [
       "Fire",
       "Fighting"
@@ -134660,6 +139394,7 @@ em_imp_primary_mons = {
       "sa": 95,
       "sd": 75
     },
+    "evos": [],
     "types": [
       "Normal"
     ],
@@ -134679,6 +139414,7 @@ em_imp_primary_mons = {
       "sa": 140,
       "sd": 125
     },
+    "evos": [],
     "types": [
       "Grass",
       "Poison"
@@ -134699,6 +139435,7 @@ em_imp_primary_mons = {
       "sa": 65,
       "sd": 150
     },
+    "evos": [],
     "types": [
       "Ghost",
       "Dark"
@@ -134719,6 +139456,7 @@ em_imp_primary_mons = {
       "sa": 185,
       "sd": 130
     },
+    "evos": [],
     "types": [
       "Steel",
       "Dragon"
@@ -134739,6 +139477,7 @@ em_imp_primary_mons = {
       "sa": 185,
       "sd": 150
     },
+    "evos": [],
     "types": [
       "Water",
       "Dragon"

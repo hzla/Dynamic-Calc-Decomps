@@ -112,6 +112,14 @@ function toTitleCase(str) {
     .join(' ');
 }
 
+function formatString(str) {
+  return str
+    .toLowerCase()
+    .split('_')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
 function padArray(array, length, fill) {   return length > array.length ? array.concat(Array(length - array.length).fill(fill)) : array; }
 
 function construct_type_chart() {

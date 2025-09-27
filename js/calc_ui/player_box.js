@@ -373,5 +373,20 @@ function get_current_learnset() {
     $(".tms").html(tm_html)
     sort_tms()
 
+    let evo_html = ""
+
+    if (em_imp_primary_mons[pok_name] && em_imp_primary_mons[pok_name]["evos"]) {
+        let evos = em_imp_primary_mons[pok_name]["evos"]
+
+    
+        for (evo of evos) {
+            let method = formatString(evo.method)
+            let parameter = formatString(evo.parameter)
+            let target = formatString(evo.target)
+            
+            evo_html += `<div class='ls-row'><div class='ls-level'>${method}: ${parameter}</div><div class='ls-name'>${target}</div></div>`
+        }
+        $(".evos").html(evo_html)   
+    }
     return current_learnset    
 }
