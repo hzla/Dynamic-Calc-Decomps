@@ -528,11 +528,11 @@ function get_next_in() {
         ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis])
     }
 
-    for (i in trainer_poks) {
-        midTurnMatchUp = midTurnMatchupData(player_results_list[i], ai_results_list[i])
+    if (noSwitch != 1) {
+        for (i in trainer_poks) {
+            midTurnMatchUp = midTurnMatchupData(player_results_list[i], ai_results_list[i])
+        }
     }
-
-
 
     ranked_trainer_poks.sort(sort_subindex)
 
