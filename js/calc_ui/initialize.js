@@ -19,6 +19,9 @@ analyze = false
 limitHits = false
 FIELD_EFFECTS = {}
 learnsetClosable = false
+bestDmgAgainstCurrent = 0
+bestMoveAgainstCurrent = ""
+bestMoveAgainstCurrentIndex = 0
 
 genInfo = {
     "num": 8,
