@@ -753,7 +753,7 @@ $(".set-selector").change(function () {
 			let abilities = abilsPrimary[pokemonName]
 			let uniqAbilities = []
 
-			if (TITLE.includes("1.3") && localStorage.randomized != '1') {
+			if (TITLE.includes("1.3") && localStorage.randomized != '1' && localStorage.filterAbilities == '1') {
 				if (abilities) {
 					abilities = abilities.filter(item => item !== "None");
 					uniqAbilities = [...new Set(abilities)]
@@ -770,12 +770,6 @@ $(".set-selector").change(function () {
 				}
 			}
 			
-
-			
-			
-			
-
-
 
 			if (TITLE == "Emerald Kaizo") {
 				caps = [15, 29, 48, 70]

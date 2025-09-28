@@ -198,7 +198,7 @@ function prevoData(speciesName, encounters) {
 
 function shouldHidePrevo(speciesName) {
 	let evos = []
-	
+
 	try {
 		evos = evoData[speciesName]["evos"]
 	} catch {
@@ -211,7 +211,6 @@ function shouldHidePrevo(speciesName) {
 			continue
 		} else {
 			if (customSets[evo] && !evo.includes("-Mega") && Object.keys(customSets[evo]).length != 0) {
-				console.log(customSets[evo])
 				return true
 			}
 		}

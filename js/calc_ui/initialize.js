@@ -20,6 +20,26 @@ limitHits = false
 FIELD_EFFECTS = {}
 learnsetClosable = false
 
+genInfo = {
+    "num": 8,
+    "abilities": {
+        "gen": 8
+    },
+    "items": {
+        "gen": 8
+    },
+    "moves": {
+        "gen": 8
+    },
+    "species": {
+        "gen": 8
+    },
+    "types": {
+        "gen": 8
+    },
+    "natures": {}
+}
+
 if (damageGen <= 3) {
     $('#player-poks-filter').remove()
 }
@@ -159,6 +179,10 @@ function initCalc() {
     localStorage.filterSaveFile = 0
   }
 
+  if (typeof localStorage.filterAbilities === 'undefined') {
+    localStorage.filterAbilities = 1
+  }
+
   if (typeof localStorage.themeIndex === 'undefined') {
     localStorage.themeIndex = 1
   }
@@ -226,6 +250,10 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.randomized == '1') {
         $('#toggle-rand input').prop('checked', true)
     }
+
+    if (localStorage.filterAbilities == '1') {
+        $('#toggle-abil input').prop('checked', true)
+    }
 }
 
 function toggleBoxSpriteStyle() {
@@ -280,6 +308,10 @@ $('#toggle-rand .slider').click(function(){
 
 $('#save-toggle .slider').click(function(){
     localStorage.watchSaveFile = (parseInt(localStorage.watchSaveFile) + 1) % 2;   
+})
+
+$('#toggle-abil .slider').click(function(){
+    localStorage.filterAbilities = (parseInt(localStorage.filterAbilities) + 1) % 2;   
 })
 
 $('#save-filter-toggle .slider').click(function(){

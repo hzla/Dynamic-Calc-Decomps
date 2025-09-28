@@ -173,7 +173,7 @@ function filter_box() {
     let container = $('.trainer-pok-list.player-poks')
 
     // Hide Prevos
-    if (localStorage.hidePrevos == '1') {
+    if (localStorage.hidePrevos == '1' && typeof customSets != 'undefined') {
         container.find('.pokesprite').show()
         for (set in customSets) {
             let set_id = `${set} (My Box)`
