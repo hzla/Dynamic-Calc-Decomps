@@ -44,12 +44,17 @@ function midTurnMatchupData(attackerVDefenderResults, defenderVAttackerResults) 
     let movesFirst = false
 
 
-    let dmgTakenOnSwitch = attackerVDefenderResults[bestMoveAgainstCurrentIndex].damage[8] 
+    dmgTakenOnSwitch = attackerVDefenderResults[bestMoveAgainstCurrentIndex].damage[8] || 0
 
     let newHP = defender.originalCurHP - dmgTakenOnSwitch
     defender.originalCurHP = newHP
     defender.stats.hp = newHP
     defender.rawStats.hp = newHP
+
+    // if (!newHP) {
+    //     console.log(defender.originalCurHP)
+    //     console.log(dmgTakenOnSwitch)
+    // }
 
 
 
