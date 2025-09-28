@@ -247,12 +247,16 @@ $(".ability").bind("keyup change", function () {
 	}
 });
 
-$("#p1 .ability, #p2 .ability").bind("keyup change", function () {
-
-
+function detectAutoWeather() {
 	var is_p1 = $(this).parents("#p1").length > 0
 	var ability = $(this).val()
 	var weather_abilities = ["Drought", "Drizzle", "Sand Stream", "Snow Warning", "Desolate Land", "Primordial Sea", "Delta Stream"]
+
+
+	// dont change weather when filtering ability list
+	if (is_p1 && !weather_abilities.includes(createPokemon($("#p1")).ability)) {
+		return
+	}
 
 	// dont change weather if new mon has no weather ability but other mon does
 	if (!weather_abilities.includes(ability) && is_p1) {
@@ -273,11 +277,10 @@ $("#p1 .ability, #p2 .ability").bind("keyup change", function () {
 	if (weather_abilities.includes(ability)) {
 		autosetWeather($(this).val(), 0);
 	}
-	
 	autosetTerrain($(this).val(), 0);
+}
 
-
-});
+$("#p1 .ability, #p2 .ability").bind("keyup change", detectAutoWeather);
 
 var lastManualWeather = "";
 var lastAutoWeather = ["", ""];
@@ -754,6 +757,8 @@ $(".set-selector").change(function () {
 			let uniqAbilities = []
 
 			if (TITLE.includes("1.3") && localStorage.randomized != '1' && localStorage.filterAbilities == '1') {
+				$('#abilityL1').off('change keyup')
+				
 				if (abilities) {
 					abilities = abilities.filter(item => item !== "None");
 					uniqAbilities = [...new Set(abilities)]
@@ -766,8 +771,9 @@ $(".set-selector").change(function () {
 					}
 					$('#abilityL1').html(abilOptions)
 				} else {
-					$('#abilityL1').html($('#abilityR1').html())
+					$('#abilityL1').empty().append($('#abilityR1').html())
 				}
+				$('#abilityL1').on('change keyup', detectAutoWeather)
 			}
 			
 

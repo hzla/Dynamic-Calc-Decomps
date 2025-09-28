@@ -220,6 +220,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let isOhkod = false
 
     let wins1v1 = false
+    let winsMidTurn1v1 = false
 
 
     let isFaster = defender.rawStats.spe >= p1RawSpeed
@@ -335,12 +336,18 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
                 // compare turns to kill with player fastest kill
                 if (turnsToKill <= attackerFastestKill) {
                     wins1v1 = true
+                } 
+                if (turnsToKill < attackerFastestKill) {
+                    winsMidTurn1v1 = true
                 }       
             // slower and using priority
             } else {
                 // compare turns to kill with player fastest non prio kill and prio kill
                 if (turnsToKill <= attackerFastestKill && turnsToKill < attackerFastestPrioKill) {
                     wins1v1 = true
+                }
+                if (turnsToKill < attackerFastestKill && turnsToKill < attackerFastestPrioKill - 1) {
+                    winsMidTurn1v1 = true
                 }
             }
         } else {
@@ -350,11 +357,17 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
                 if (turnsToKill <= attackerFastestKill && turnsToKill < attackerFastestPrioKill) {
                     wins1v1 = true
                 }
+                if (turnsToKill < attackerFastestKill && turnsToKill < attackerFastestPrioKill - 1) {
+                    winsMidTurn1v1 = true
+                }
             // slower and non priority
             } else {
                 // compare turns to kill with player fastest non prio kill and prio kill
                 if (turnsToKill < attackerFastestKill && turnsToKill < attackerFastestPrioKill) {
                     wins1v1 = true
+                }
+                if (turnsToKill < attackerFastestKill - 1 && turnsToKill < attackerFastestPrioKill - 1) {
+                    winsMidTurn1v1 = true
                 }
             }
         }
@@ -369,14 +382,16 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
 
 
-    let debug = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill, attackerFastestPrioKill: attackerFastestPrioKill, isFaster: isFaster, movesFirst: movesFirst}
+    let debug = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill, attackerFastestPrioKill: attackerFastestPrioKill, isFaster: isFaster, movesFirst: movesFirst, winsMidTurn1v1: winsMidTurn1v1}
     
-    // console.log(debug)
+    console.log(debug)
     
-    // console.log(`${defender.name} using ${bestMove} kills in ${defenderFastestKill}`)
-    // console.log(`${attacker.name} kills in ${attackerFastestKill}`)
+    console.log(`${defender.name} using ${bestMove} kills in ${defenderFastestKill}`)
+    console.log(`${attacker.name} kills in ${attackerFastestKill}`)
 
-    let matchupData = {wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, isTrapper: isTrapper, isOhkod: isOhkod}
+
+
+    let matchupData = {wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1}
 
     disableKOChanceCalcs = false
     return matchupData
@@ -523,16 +538,37 @@ function get_next_in() {
                 switchInScore -= 50000
             }
 
+        
+            let midTurnScore = 0
+
+            if (matchup.winsMidTurn1v1) {
+                // analysis += `<div class='bp-info switch-info'>Can Switch</div>` 
+                if (matchup.isTrapper) {
+                    midTurnScore += 20000
+                } 
+                else if (type_matchup < 2) {
+                    midTurnScore += 4000 * (2 - type_matchup)
+                    midTurnScore -= sub_index
+                } 
+                else if (matchup.attackerFastestKill > 3) {
+                    midTurnScore += 300
+                    midTurnScore += sub_index
+                    analysis += `<div class='bp-info switch-info'>Walls You</div>` 
+                }
+                else {
+                    
+                }
+                analysis += `<div class='bp-info switch-info mt-switch-score'>${Math.round(midTurnScore * 100) / 100 }</div>` 
+            } else {
+                analysis += `<div class='bp-info switch-info mt-switch-score'>-1000</div>`         
+            }
+
             analysis += `<div class='bp-info switch-info switch-score'>${Math.round(switchInScore * 100) / 100 }</div>` 
+
         }
         ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis])
     }
 
-    if (noSwitch != 1) {
-        for (i in trainer_poks) {
-            midTurnMatchUp = midTurnMatchupData(player_results_list[i], ai_results_list[i])
-        }
-    }
 
     ranked_trainer_poks.sort(sort_subindex)
 
@@ -547,14 +583,14 @@ function simplifySwitchScores() {
     let rawScores = []
 
     scores.each(function() {
-        let score = parseInt($(this).text())
+        let score = parseFloat($(this).text())
         rawScores.push(score)
     })
 
     rawScores = rawScores.sort((a,b) => b - a)
 
     scores.each(function() {
-        let score = parseInt($(this).text())
+        let score = parseFloat($(this).text())
         let order = rawScores.indexOf(score)
         
         if (score < -50000) {
@@ -564,6 +600,31 @@ function simplifySwitchScores() {
         } else {
            $(this).text(`Post KO: ${order + 1}`) 
         }        
+    })
+
+    // mid turn
+    scores = $('.mt-switch-score')
+    rawScores = []
+
+    scores.each(function() {
+        let score = parseFloat($(this).text())
+        rawScores.push(score)
+    })
+
+    rawScores = rawScores.sort((a,b) => b - a)
+
+    scores.each(function() {
+        let score = parseFloat($(this).text())
+        let order = rawScores.indexOf(score)
+
+
+        if (score < 10) {
+            $(this).text('No Switch')
+        } else {
+            $(this).text(`Mid Turn: ${order + 1}`)   
+        }
+
+            
     })
 }
 

@@ -1004,11 +1004,15 @@ table td {
     font-size: 14px;
 }
 
-#p2 .bp-info.switch-score {
+#p2 .bp-info.switch-score, {
     color: #bb86fc;
 }
 
-.mu-info, .switch-score {
+.bp-info.mt-switch-score {
+    color:  #ff79c6;
+}
+
+.mu-info, .mt-switch-score  {
     margin: 10px 0px;
 }
 

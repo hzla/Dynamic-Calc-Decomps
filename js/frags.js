@@ -168,6 +168,8 @@ function toggleEncounterStatus(e) {
 function prevoData(speciesName, encounters) {
     
     let ancestor = {}
+
+    console.log(speciesName)
 	try {
 		ancestor = evoData[speciesName]["anc"]
 	} catch {
@@ -181,6 +183,8 @@ function prevoData(speciesName, encounters) {
         console.log("Does not evolve")
         return [0, [], false, false]
     }
+
+
 
     let evos = [ancestor].concat(evoData[ancestor]["evos"])
 

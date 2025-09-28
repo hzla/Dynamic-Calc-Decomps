@@ -2060,7 +2060,7 @@ evoData = {
       "Prinplup",
       "Empoleon",
       "Empoleon-Mega-D",
-      "Empoleon-Meag-O"
+      "Empoleon-Mega-O"
     ],
     "anc": "Piplup"
   },
@@ -2076,7 +2076,7 @@ evoData = {
     "evos": [],
     "anc": "Piplup"
   },
-  "Empoloen-Mega-O": {
+  "Empoleon-Mega-O": {
     "evos": [],
     "anc": "Piplup"
   },
