@@ -328,7 +328,7 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
 
                         
                         // filter for legal moves
-                        if (localStorage.filterSaveFile == '1') {
+                        if (localStorage.filterSaveFile == '1' && localStorage.randomized != '1') {
                             let legalMoves = getFamilyLegalMoves(speciesName)
                             for (move of moves) {
 
@@ -514,10 +514,13 @@ function itemTitleize(item) {
 function getLegalMoves(speciesName) {
     if (speciesName.includes("-Mega")) return [];
 
+
+
     let speciesNameId = speciesName.replace(/[^a-zA-Z0-9é]/g, '').toLowerCase()
+    console.log(speciesNameId)
     let moves = learnsets[speciesNameId]
-    let ls = moves["ls"]
-    let tms = moves["tms"]
+    let ls = moves["ls"] || []
+    let tms = moves["tms"] || []
 
     let legalMoves = []
 
