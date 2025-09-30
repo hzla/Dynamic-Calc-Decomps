@@ -129,42 +129,42 @@ abilsPrimary = {
     "None",
     "Lightning Rod"
   ],
-  "Pikachubelle": [
+  "Pikachu-Belle": [
     "Static",
     "None",
     "Lightning Rod"
   ],
-  "Pikachupopstar": [
+  "Pikachu-Pop-Star": [
     "Static",
     "None",
     "Lightning Rod"
   ],
-  "Pikachusurfing": [
+  "Pikachu-Surfing": [
     "Static",
     "None",
     "Lightning Rod"
   ],
-  "Pikachuflying": [
+  "Pikachu-Flying": [
     "Static",
     "None",
     "Lightning Rod"
   ],
-  "Pikachuphd": [
+  "Pikachu-Phd": [
     "Static",
     "None",
     "Lightning Rod"
   ],
-  "Pikachurockstar": [
+  "Pikachu-Rock-Star": [
     "Static",
     "None",
     "Lightning Rod"
   ],
-  "Pikachulibre": [
+  "Pikachu-Libre": [
     "Static",
     "None",
     "Lightning Rod"
   ],
-  "Pikachucosplay": [
+  "Pikach-Cosplay": [
     "Static",
     "None",
     "Lightning Rod"
