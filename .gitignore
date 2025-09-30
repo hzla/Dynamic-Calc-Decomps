@@ -2,3 +2,4 @@
 *.txt
 *sheet_files/
 *sheet.html
+cypress/screenshots

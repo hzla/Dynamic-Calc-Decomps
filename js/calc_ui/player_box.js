@@ -106,8 +106,13 @@ function displayParty() {
 
         for (i in currentParty) {
 
+
+
             try {
                 species_name = currentParty[i]
+                if (!setdex[species_name]) {
+                    continue;
+                }
                 var sprite_name = species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
                 var set_data = setdex[species_name]["My Box"]
                 var data_id = species_name + " (My Box)"

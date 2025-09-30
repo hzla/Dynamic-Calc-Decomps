@@ -335,6 +335,7 @@ $(document).ready(function() {
             destination.append(pok)
 
             currentParty.push(species_name)
+            currentParty = [...new Set(currentParty)]
             
         } else {
             $(this).parent().remove()
@@ -356,6 +357,7 @@ $(document).ready(function() {
         $('#clear-party').hide()
         $('#edge').hide()
         currentParty = []
+        localStorage.currentParty = ""
    })
 
    $(document).on('click', '.cascade-effects input', function() {

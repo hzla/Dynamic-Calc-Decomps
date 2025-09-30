@@ -11,185 +11,20 @@ function canTrap(trapper, target) {
     return false;
 }
 
-// Attacker is Player, Defender is AI
-function midTurnMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
-    disableKOChanceCalcs = true
-
-    let attacker = defenderVAttackerResults[0].defender
-    let defender = defenderVAttackerResults[0].attacker
-
-    let defenderField = defenderVAttackerResults[0].field
-    let attackerField = attackerVDefenderResults[0].field
-
-    let defenderFastestKill = 100
-    let attackerFastestKill = 100
-
-    let defenderFastestPrioKill = 100
-    let attackerFastestPrioKill = 100
-
-    let attackerBestMoveHasPrio = false
-    let defenderBestMoveHasPrio = false
-
-    let isRevenge = false
-    let isThreaten = false
-    let isTrapper = canTrap(defender, attacker)
-    let highestDmgDealt = 0
-    let bestMove = "(None)"
-    let isOhkod = false
-
-    let wins1v1 = false
-
-
-    let isFaster = defender.rawStats.spe >= p1RawSpeed
-    let movesFirst = false
-
-
-    dmgTakenOnSwitch = attackerVDefenderResults[bestMoveAgainstCurrentIndex].damage[8] || 0
-
-    let newHP = defender.originalCurHP - dmgTakenOnSwitch
-    defender.originalCurHP = newHP
-    defender.stats.hp = newHP
-    defender.rawStats.hp = newHP
-
-    // if (!newHP) {
-    //     console.log(defender.originalCurHP)
-    //     console.log(dmgTakenOnSwitch)
-    // }
-
-
-
-    for (moveIndex in attacker.moves) {
-        let move = attacker.moves[moveIndex]
-        damage = attackerVDefenderResults[moveIndex].damage
-
-        if (damage.length == 16) {
-            damage = damage.map(() => damage[8])
-        }
-
-        // count how many turns to kill including status/hazards and recovery items
-        let koData = getKOChance(genInfo, attacker, defender, move, attackerField, damage, false)
-        let turnsToKill = koData.n
-
-        // 0 means too insignificant to matter
-        if (turnsToKill == 0) {
-            continue;
-        }
-
-        if (turnsToKill == 1) {
-            isOhkod = true
-        }
-
-        if (turnsToKill <= attackerFastestKill) {
-            attackerFastestKill = turnsToKill
-        } 
-
-        if (move.priority) {
-            if (turnsToKill <= attackerFastestPrioKill) {
-                attackerFastestPrioKill = turnsToKill;                 
-                // attacker is marked as having prio since this is the fastest kill the move or tied with fastest
-                if (turnsToKill <= attackerFastestKill) {
-                    attackerBestMoveHasPrio = true;
-                }
-            }
-        }       
+function adjustSpeed(speed, ability, weather) {
+    if (ability == "Chlorophphyll" && weather == "Sun") {
+        return speed * 2
     }
-
-    for (moveIndex in defender.moves) {
-        let move = defender.moves[moveIndex]
-        damage = defenderVAttackerResults[moveIndex].damage
-
-
-        if (damage.length == 16) {
-            damage = damage.map(() => damage[8])
-        }
-
-        if (damage[0] > highestDmgDealt) {
-            highestDmgDealt = damage[0]
-        }
-
-        // TODO: AI doesn't see status on player, or weather damage effects
-        // count how many turns to kill including status/hazards and recovery items
-        let koData = getKOChance(genInfo, defender, attacker, move, defenderField, damage, false)
-        let turnsToKill = koData.n
-
-        // 0 means too insignificant to matter
-        if (turnsToKill == 0) {
-            continue;
-        }
-
-        // OHKO means revenge killer
-        if (turnsToKill == 1) {
-            isRevenge = true
-
-            if (move.priority) {
-                defenderBestMoveHasPrio = true
-            }
-        }
-
-        // 2hko means threatener
-        if (turnsToKill == 2) {
-            isThreaten = true
-            if (move.priority && defenderFastestKill >= 2) {
-                defenderBestMoveHasPrio = true
-            }
-        }
-
-        if (turnsToKill <=  defenderFastestKill) {
-            defenderFastestKill = turnsToKill
-            if (move.priority) {
-                defenderBestMoveHasPrio = true
-            }
-            bestMove = move.name
-        }
-   
-        if (move.priority) {
-            // faster and using priority
-            if (isFaster) {
-                // compare turns to kill with player fastest kill
-                if (turnsToKill <= attackerFastestKill) {
-                    wins1v1 = true
-                }       
-            // slower and using priority
-            } else {
-                // compare turns to kill with player fastest non prio kill and prio kill
-                if (turnsToKill <= attackerFastestKill && turnsToKill < attackerFastestPrioKill) {
-                    wins1v1 = true
-                }
-            }
-        } else {
-            // faster without priority
-            if (isFaster) {
-                // compare turns to kill with player fastest non prio kill and prio kill
-                if (turnsToKill <= attackerFastestKill && turnsToKill < attackerFastestPrioKill) {
-                    wins1v1 = true
-                }
-            // slower and non priority
-            } else {
-                // compare turns to kill with player fastest non prio kill and prio kill
-                if (turnsToKill < attackerFastestKill && turnsToKill < attackerFastestPrioKill) {
-                    wins1v1 = true
-                }
-            }
-        }
+    if (ability == "Slush Rush" && weather == "Snow") {
+        return speed * 2
     }
-
-   
-    if (defenderBestMoveHasPrio && !attackerBestMoveHasPrio) {
-        movesFirst = true
-    } else if ( (defenderBestMoveHasPrio && attackerBestMoveHasPrio) || (!defenderBestMoveHasPrio && !attackerBestMoveHasPrio)) {
-        movesFirst = isFaster
+    if (ability == "Swift Swim" && weather == "Rain") {
+        return speed * 2
     }
-
-    let debug = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill, attackerFastestPrioKill: attackerFastestPrioKill, isFaster: isFaster, movesFirst: movesFirst}
-    
-    let matchupData = {wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, isTrapper: isTrapper, isOhkod: isOhkod}
-
-    disableKOChanceCalcs = false
-
-    // Debug
-    console.log(`${defender.name} ${wins1v1 ? 'wins' : 'loses'} 1v1 after taking ${dmgTakenOnSwitch} from ${bestMoveAgainstCurrent}`)
-    console.log(`${defender.name} kills in ${defenderFastestKill} using ${bestMove}, ${attacker.name} kills in ${attackerFastestKill}`)
-    return matchupData
+    if (ability == "Sand Rush" && weather == "Sand") {
+        return speed * 2
+    }
+    return speed
 }
 
 
@@ -202,6 +37,8 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
     let defenderField = defenderVAttackerResults[0].field
     let attackerField = attackerVDefenderResults[0].field
+
+
 
     let defenderFastestKill = 100
     let attackerFastestKill = 100
@@ -223,7 +60,9 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let winsMidTurn1v1 = false
 
 
-    let isFaster = defender.rawStats.spe >= p1RawSpeed
+    let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather)
+
+    let isFaster = adjustedSpeed >= p1RawSpeed
     let movesFirst = false
 
     let currentTrainerPok = $('.set-selector')[3].value.split(" (")[0]
@@ -353,6 +192,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         } else {
             // faster without priority
             if (isFaster) {
+         
                 // compare turns to kill with player fastest non prio kill and prio kill
                 if (turnsToKill <= attackerFastestKill && turnsToKill < attackerFastestPrioKill) {
                     wins1v1 = true
@@ -384,10 +224,13 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
     let debug = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill, attackerFastestPrioKill: attackerFastestPrioKill, isFaster: isFaster, movesFirst: movesFirst, winsMidTurn1v1: winsMidTurn1v1}
     
-    console.log(debug)
-    
+    // console.log(debug)
     console.log(`${defender.name} using ${bestMove} kills in ${defenderFastestKill}`)
     console.log(`${attacker.name} kills in ${attackerFastestKill}`)
+    console.log(`${defender.name} faster: ${isFaster}, movesFirst: ${movesFirst}, winsMidTurn1v1: ${winsMidTurn1v1}`)       
+
+    
+
 
 
 
@@ -618,7 +461,7 @@ function simplifySwitchScores() {
         let order = rawScores.indexOf(score)
 
 
-        if (score < 10) {
+        if (score < 0) {
             $(this).text('No Switch')
         } else {
             $(this).text(`Mid Turn: ${order + 1}`)   

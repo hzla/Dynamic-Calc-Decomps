@@ -757,13 +757,13 @@ $(".set-selector").change(function () {
 			let uniqAbilities = []
 
 			if (TITLE.includes("1.3") && localStorage.randomized != '1' && localStorage.filterAbilities == '1') {
-				$('#abilityL1').off('change keyup')
+				// $('#abilityL1').off('change keyup')
 				
 				if (abilities) {
 					abilities = abilities.filter(item => item !== "None");
 					uniqAbilities = [...new Set(abilities)]
 
-					console.log(uniqAbilities)
+					// console.log(uniqAbilities)
 
 					let abilOptions = ""
 					for (abil of uniqAbilities) {
@@ -773,7 +773,7 @@ $(".set-selector").change(function () {
 				} else {
 					$('#abilityL1').empty().append($('#abilityR1').html())
 				}
-				$('#abilityL1').on('change keyup', detectAutoWeather)
+				// $('#abilityL1').on('change keyup', detectAutoWeather)
 			}
 			
 
