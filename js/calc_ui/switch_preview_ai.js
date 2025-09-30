@@ -399,7 +399,7 @@ function get_next_in() {
                     analysis += `<div class='bp-info switch-info'>Walls You</div>` 
                 }
                 else {
-                    
+                    midTurnScore += sub_index
                 }
                 analysis += `<div class='bp-info switch-info mt-switch-score'>${Math.round(midTurnScore * 100) / 100 }</div>` 
             } else {
@@ -462,7 +462,7 @@ function simplifySwitchScores() {
 
 
         if (score < 0) {
-            $(this).text('No Switch')
+            $(this).text("Can't switch in")
         } else {
             $(this).text(`Mid Turn: ${order + 1}`)   
         }

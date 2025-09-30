@@ -83913,7 +83913,7 @@ backup_data = {
       "moves": [
         "Body Press",
         "Iron Defense",
-        "Iron Head",
+        "Behemoth Bash",
         "Play Rough"
       ],
       "sub_index": 3,
