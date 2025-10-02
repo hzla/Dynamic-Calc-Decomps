@@ -3604,6 +3604,10 @@ evoData = {
     "evos": [],
     "anc": "Honedge"
   },
+  "Aegislash": {
+    "evos": [],
+    "anc": "Honedge"
+  },
   "Spritzee": {
     "evos": [
       "Aromatisse"
