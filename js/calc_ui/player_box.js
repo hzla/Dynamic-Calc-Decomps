@@ -123,14 +123,20 @@ function displayParty() {
                 $('#edge').hide()
                 break;
             }
+
             
             var pok = `<div class="trainer-pok-container">
-                <img class="trainer-pok left-side" src="./img/${sprite_style}/${sprite_name}.png" data-id="${data_id}">
-                <div class="bp-info">${abv(set_data['moves'][0].replace("Hidden Power", "HP"))}</div>
-                <div class="bp-info">${abv(set_data['moves'][1].replace("Hidden Power", "HP"))}</div>
-                <div class="bp-info">${abv(set_data['moves'][2].replace("Hidden Power", "HP"))}</div>
-                <div class="bp-info">${abv(set_data['moves'][3].replace("Hidden Power", "HP"))}</div>
-            </div>`
+                <img class="trainer-pok left-side" src="./img/${sprite_style}/${sprite_name}.png" data-id="${data_id}">`
+            for (let i in [1,2,3,4]) {
+                if (set_data['moves'][i]) {
+                   pok += `<div class="bp-info">${abv(set_data['moves'][i].replace("Hidden Power", "HP"))}</div>` 
+               } else {
+                   pok += `<div class="bp-info"> - </div>` 
+               }
+                
+            }
+            pok += `</div>`
+            
             destination.append(pok)
         }
     }

@@ -1174,11 +1174,12 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			}	
 		}
 
+
 		return new calc.Pokemon(gen, name, {
 			level: tmpLvl,
 			ability: set.ability,
 			abilityOn: true,
-			item: set.item && typeof set.item !== "undefined" && (set.item === "Eviolite" || set.item.indexOf("ite") < 0) ? set.item : "",
+			item: set.item && typeof set.item !== "undefined" && (set.item === "Eviolite" || set.item.indexOf("ite") < 0 || set.item === "White Herb") ? set.item : "",
 			nature: set.nature,
 			ivs: ivs,
 			evs: evs,

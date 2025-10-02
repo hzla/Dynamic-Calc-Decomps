@@ -59,6 +59,10 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let wins1v1 = false
     let winsMidTurn1v1 = false
 
+    if (defender.name == "Hawlucha") {
+        console.log(defender)
+    }
+
 
     let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather)
 
@@ -286,6 +290,8 @@ function get_next_in() {
             }
         }
 
+        // console.log(p2)
+
         let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false);
         
         player_results = all_results[0]
@@ -329,12 +335,12 @@ function get_next_in() {
                 } else if (matchup.isRevenge && matchup.isFaster) {
                     switchInScore += sub_index
                     switchInScore += 10000 
-                    analysis += "<div class='bp-info switch-info'>Fast Ohko</div>"
+                    analysis += `<div class='bp-info switch-info'>F-Ohko ${matchup.move.slice(0,8)}</div>`
                 // slow ohko
                 } else if (matchup.isRevenge && !matchup.isFaster) {
                     switchInScore += sub_index
                     switchInScore += 9500
-                    analysis += "<div class='bp-info switch-info'>Slow Ohko</div>" 
+                    analysis += `<div class='bp-info switch-info'>S-Ohko ${matchup.move.slice(0,8)}</div>` 
                 // fast 2hko
                 } else if (matchup.isThreaten && matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
                     switchInScore += sub_index
