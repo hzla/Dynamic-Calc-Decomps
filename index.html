@@ -1950,9 +1950,9 @@
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?100191"></script>
     <script type="text/javascript" src="./js/calc_ui/initialize.js?100196"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?100199"></script>
-    <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?100194"></script>
+    <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?100195"></script>
     <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?10019e"></script>
-    <script type="text/javascript" src="./js/showdown_hooks.js?100195"></script>
+    <script type="text/javascript" src="./js/showdown_hooks.js?100196"></script>
     
 
 
@@ -2036,8 +2036,8 @@
 </div>
 
 <script>
-  if (noSwitch != '1' && !localStorage.alerted) {
-    alert("Switch in matchup info is an experimental feature and may be wrong. Use at your own risk!")
+  if (localStorage.switchInfo == '1' && !localStorage.alerted) {
+    alert("READ CAREFULLY!!!!!!!!! Switch in matchup info is an experimental feature and may be wrong. Rely on at your own risk! Make sure that your current HP matches your hp in game. Info assumes ai party pokemon are at full HP for calcing whether or not you win 1v1")
     localStorage.alerted = 1
   }
   

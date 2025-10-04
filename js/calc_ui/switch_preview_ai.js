@@ -56,18 +56,20 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let bestMove = "(None)"
     let attackerBestMove = "(None)"
     let isOhkod = false
-
     let wins1v1 = false
     let winsMidTurn1v1 = false
-
     let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather)
 
     let isFaster = adjustedSpeed >= p1RawSpeed
     let movesFirst = false
 
     let currentTrainerPok = $('.set-selector')[3].value.split(" (")[0]
-
     let isCurrent = currentTrainerPok == defender.name
+
+
+    if (defender.name == "Samurott-Hisui") {
+        console.log(isFaster)
+    }
 
     if (isCurrent) {
         bestDmgAgainstCurrent = 0
@@ -242,7 +244,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 }
 
 function isBadOdds(p1, p2) {
-    
+    return false
 }
 
 function get_next_in() {  

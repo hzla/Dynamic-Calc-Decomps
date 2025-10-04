@@ -157,7 +157,6 @@ $(document).ready(function() {
    })
   
    $(document).on('click', '.trainer-pok.right-side, .sim-trainer, .trainer-pok-container', function() {
-        console.log($(this).hasClass('trainer-pok-container'))
         if ($(this).hasClass('trainer-pok-container')) {
           let trainerPok = $(this).find('.trainer-pok.right-side')
           if (trainerPok.length > 0) {
