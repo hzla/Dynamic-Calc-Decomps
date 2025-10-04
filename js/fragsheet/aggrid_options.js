@@ -497,6 +497,10 @@ function createRowData() {
             setData = encounters["Rotom"].setData
        } 
 
+       if (enc.includes("Greninja-") && typeof encounters["Greninja"].setData != "undefined") {
+            setData = encounters["Greninja"].setData
+       } 
+
 
 
 

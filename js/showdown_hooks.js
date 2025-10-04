@@ -156,8 +156,16 @@ $(document).ready(function() {
 
    })
   
-   $(document).on('click', '.trainer-pok.right-side, .sim-trainer', function() {
-        setOpposing($(this).attr('data-id'))
+   $(document).on('click', '.trainer-pok.right-side, .sim-trainer, .trainer-pok-container', function() {
+        console.log($(this).hasClass('trainer-pok-container'))
+        if ($(this).hasClass('trainer-pok-container')) {
+          let trainerPok = $(this).find('.trainer-pok.right-side')
+          if (trainerPok.length > 0) {
+            setOpposing(trainerPok.attr('data-id'))
+          } 
+        } else {
+          setOpposing($(this).attr('data-id'))
+        } 
    })
 
    $(document).on('click', '.trainer-pok-item', function() {
@@ -274,9 +282,9 @@ $(document).ready(function() {
     }
 
 
-    $(document).on('click', '#switch-preview', function() {
-        toggleParam('noSwitch')
-   })
+   //  $(document).on('click', '#switch-preview', function() {
+   //      toggleParam('noSwitch')
+   // })
 
     $(document).on('contextmenu', '.trainer-pok.right-side', function(e) {
         e.preventDefault()

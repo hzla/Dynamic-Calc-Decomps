@@ -579,7 +579,7 @@ function refresh_next_in() {
 			isFainted = "fainted"
 		}
 
-		var pok = `<div class="trainer-pok-container no-switch-${noSwitch}">
+		var pok = `<div class="trainer-pok-container">
 			<img class="trainer-pok right-side ${highlight} ${isFainted} " src="./img/${sprite_style}/${pok_name.replace(" ", "")}.png" data-id="${dataID}">`
 
 
@@ -593,11 +593,11 @@ function refresh_next_in() {
 		}
 
 		
-		pok +=`
+		pok +=`<div class="bp-infos">
 			<div class="bp-info">${next_poks[i][4][0].replace("Hidden Power", "HP")}</div>
 			<div class="bp-info">${next_poks[i][4][1].replace("Hidden Power", "HP")}</div>
 			<div class="bp-info">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div>`
+			<div class="bp-info">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div></div>`
 		
 		if (TITLE.includes("1.3")) {
 			pok += next_poks[i][5]
@@ -608,7 +608,7 @@ function refresh_next_in() {
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
 
-	if (noSwitch != "1") {
+	if (localStorage.switchInfo == '1') {
 		simplifySwitchScores()
 	}
 }
@@ -844,13 +844,13 @@ $(".set-selector").change(function () {
 		if (regSets || randset) {
 			var set = regSets ? correctHiddenPower(setdex[pokemonName][setName]) : randset;
 			
-			if (parseInt(set.level) == 0) {
-				set.level = parseInt($("#levelL1").val())
-			} else if (parseInt(set.level) == -1) {
-				set.level = parseInt($("#levelL1").val() - 1)
-			} else {
+			// if (parseInt(set.level) == 0) {
+			// 	set.level = parseInt($("#levelL1").val())
+			// } else if (parseInt(set.level) == -1) {
+			// 	set.level = parseInt($("#levelL1").val() - 1)
+			// } else {
 
-			}
+			// }
 
 
 			pokeObj.find(".level").val(set.level);
@@ -1166,12 +1166,14 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 		let tmpLvl = set.level
 
 		if (parseInt(set.level) < 1) {
-			console.log("adjusting to level cap for pokemon creation")
+			
 			if ($('#lvl-cap').val() != "") {
 				tmpLvl = parseInt($('#lvl-cap').val()) + set.sublevel
 			} else {
 				tmpLvl = parseInt($('#levelR1').val()) + set.sublevel
-			}	
+			}
+			set.level = tmpLvl	
+			console.log(`adjusting ${name} to level ${tmpLvl} for pokemon creation`)
 		}
 
 

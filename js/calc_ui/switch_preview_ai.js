@@ -54,15 +54,11 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let isTrapper = canTrap(defender, attacker)
     let highestDmgDealt = 0
     let bestMove = "(None)"
+    let attackerBestMove = "(None)"
     let isOhkod = false
 
     let wins1v1 = false
     let winsMidTurn1v1 = false
-
-    if (defender.name == "Hawlucha") {
-        console.log(defender)
-    }
-
 
     let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather)
 
@@ -110,6 +106,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
         if (turnsToKill <= attackerFastestKill) {
             attackerFastestKill = turnsToKill
+            attackerBestMove = move.name
         } 
 
         if (move.priority) {
@@ -238,10 +235,14 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
 
 
-    let matchupData = {wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1}
+    let matchupData = {wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill}
 
     disableKOChanceCalcs = false
     return matchupData
+}
+
+function isBadOdds(p1, p2) {
+    
 }
 
 function get_next_in() {  
@@ -263,6 +264,12 @@ function get_next_in() {
     var p1info = $("#p1");
     var p2info = $("#p2");
     var p1 = createPokemon(p1info);
+
+    var currentp2 = createPokemon(p2info)
+
+    var badOdds = isBadOdds(p1, currentp2)
+
+
 
     p1RawSpeed = parseInt($('#p1 .totalMod').text())
 
@@ -290,8 +297,6 @@ function get_next_in() {
             }
         }
 
-        // console.log(p2)
-
         let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false);
         
         player_results = all_results[0]
@@ -312,17 +317,18 @@ function get_next_in() {
 
 
         matchup = {}
-
+        if (localStorage.switchInfo == '1') analysis += "<div class='ai-infos'>"   
         analysis += `<div class='bp-info switch-info mu-info'>Type MU: ${type_matchup}</div>` 
 
 
 
 
-        if (noSwitch != '1') {
+        if (localStorage.switchInfo == '1') {
             matchup = postKoMatchupData(player_results, results) 
             matchup["type_matchup"] = type_matchup
 
             
+                     
 
             // Check for trappers, revenge killers, and good matchups
             if (matchup.wins1v1) {
@@ -335,30 +341,31 @@ function get_next_in() {
                 } else if (matchup.isRevenge && matchup.isFaster) {
                     switchInScore += sub_index
                     switchInScore += 10000 
-                    analysis += `<div class='bp-info switch-info'>F-Ohko ${matchup.move.slice(0,8)}</div>`
+                    analysis += `<div class='bp-info switch-info'>Fast Ohko ${matchup.move}</div>`
                 // slow ohko
                 } else if (matchup.isRevenge && !matchup.isFaster) {
                     switchInScore += sub_index
                     switchInScore += 9500
-                    analysis += `<div class='bp-info switch-info'>S-Ohko ${matchup.move.slice(0,8)}</div>` 
+                    analysis += `<div class='bp-info switch-info'>Slow Ohko ${matchup.move}</div>` 
                 // fast 2hko
                 } else if (matchup.isThreaten && matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
                     switchInScore += sub_index
                     switchInScore += 9000 
-                    analysis += "<div class='bp-info switch-info'>Fast 2Hko</div>" 
+                    analysis += `<div class='bp-info switch-info'>Fast 2Hko ${matchup.move}</div>` 
                 // slow 2hko
                 } else if (matchup.isThreaten && matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
                     switchInScore += sub_index
                     switchInScore += 8500
-                    analysis += "<div class='bp-info switch-info'>Slow 2Hko</div>" 
+                    analysis += `<div class='bp-info switch-info'>Slow 2Hko ${matchup.move}</div>` 
                 // good matchup
                 } else if (type_matchup < 2) {
-                    analysis += "<div class='bp-info switch-info'>Good MU</div>" 
+                    // analysis += "<div class='bp-info switch-info'>Good MU</div>" 
+                    analysis += `<div class='bp-info switch-info'>${matchup.isFaster ? "Fast" : "Slow"} ${matchup.defenderFastestKill}Hko ${matchup.move}</div>` 
                     switchInScore += 4000 * (2 - type_matchup)
                 // wins 1v1
                 } else {
                     switchInScore += sub_index
-                    analysis += "<div class='bp-info switch-info'></div>" 
+                    analysis += `<div class='bp-info switch-info'>${matchup.isFaster ? "Fast" : "Slow"} ${matchup.defenderFastestKill}Hko ${matchup.move}</div>` 
                     switchInScore += 300
                 }
             // loses 1v1
@@ -367,11 +374,13 @@ function get_next_in() {
                 if (!matchup.isOhkod) {
                     switchInScore += sub_index / 100
                     switchInScore += Math.min(matchup.maxDmg / 10, currentHp)
-                    analysis += `<div class='bp-info switch-info'>Deals ${Math.min(matchup.maxDmg, currentHp)}</div>` 
+                    analysis += `<div class='bp-info switch-info'>Deals ${Math.min(matchup.maxDmg, currentHp)} ${matchup.move}</div>` 
                 } else {
                     analysis += `<div class='bp-info switch-info'>Is Ohko'd</div>` 
                 }
             }
+
+
 
             if (switchInScore == 0) {
                 switchInScore += sub_index / 100
@@ -407,15 +416,16 @@ function get_next_in() {
                 else {
                     midTurnScore += sub_index
                 }
-                analysis += `<div class='bp-info switch-info mt-switch-score'>${Math.round(midTurnScore * 100) / 100 }</div>` 
+                analysis += `</div><div class="switch-infos"><div class='bp-info switch-info mt-switch-score'>${Math.round(midTurnScore * 100) / 100 }</div>` 
             } else {
-                analysis += `<div class='bp-info switch-info mt-switch-score'>-1000</div>`         
+                analysis += `</div><div class="switch-infos"><div class='bp-info switch-info mt-switch-score loses'>-1000</div>` 
+                analysis += `<div class='bp-info switch-info mt-switch-move loses'>${matchup.attackerBestMove}</div>`         
             }
 
-            analysis += `<div class='bp-info switch-info switch-score'>${Math.round(switchInScore * 100) / 100 }</div>` 
+            analysis += `<div class='bp-info switch-info switch-score'>${Math.round(switchInScore * 100) / 100 }</div></div>` 
 
         }
-        ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis])
+        ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup])
     }
 
 
@@ -447,7 +457,7 @@ function simplifySwitchScores() {
         } else if ((score < 0) ) {
             $(this).text(`Ace`)
         } else {
-           $(this).text(`Post KO: ${order + 1}`) 
+           $(this).text(`Post KO Prio: ${order + 1}`) 
         }        
     })
 
@@ -468,9 +478,9 @@ function simplifySwitchScores() {
 
 
         if (score < 0) {
-            $(this).text("Can't switch in")
+            $(this).text("Loses 1v1 after")
         } else {
-            $(this).text(`Mid Turn: ${order + 1}`)   
+            $(this).text(`Mid Turn Prio: ${order + 1}`)   
         }
 
             

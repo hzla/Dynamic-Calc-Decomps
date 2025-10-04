@@ -694,6 +694,32 @@ table td {
 /*    flex-wrap:  nowrap;*/
 }
 
+.trainer-pok-list.opposing.ai-show {
+    flex-direction: column;
+}
+
+.ai-show .trainer-pok-container{
+    width: calc(100% - 8px);
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 0px;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+
+.ai-show .trainer-pok.right-side {
+    width: auto;
+    height: 80px;
+    margin: 0px;
+}
+
+.ai-show .ai-infos {
+    width: 180px;
+}
+
 
 .filterable {
     background: #383a59;
@@ -1008,12 +1034,21 @@ table td {
     color: #bb86fc;
 }
 
-.bp-info.mt-switch-score {
+.bp-info.mt-switch-score , .mt-switch-move {
     color:  #ff79c6;
 }
 
-.mu-info, .mt-switch-score  {
-    margin: 10px 0px;
+.bp-info.mt-switch-score.loses , .mt-switch-move.loses {
+    color: rgb(255, 85, 85);
+}
+
+
+.switch-score, .mu-info {
+    margin-top: 10px;
+}
+
+.ai-show .mu-info {
+    margin-top: 0px;
 }
 
 #p1 .bp-info {
@@ -1760,6 +1795,10 @@ table.field {
     padding: 2px;
     margin-left: 2px;
     width: calc(33% - 6px);
+  }
+
+  .ai-show .trainer-pok-container, .no-switch-1.trainer-pok-container {
+    width: calc(100% - 8px);
   }
 
 

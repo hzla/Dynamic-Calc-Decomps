@@ -107,6 +107,10 @@ if (SOURCES[params.get('data')]) {
         baseGame = "inc_em"
     } else if (TITLE.includes("Imperium")) {
         baseGame = "imp"
+
+        if (localStorage.switchInfo == '1') {
+          $('.trainer-pok-list.opposing').addClass('ai-show')
+        }
     }
 
     if (!baseGame) {
@@ -164,6 +168,10 @@ function initCalc() {
 
   if (typeof localStorage.boxspriteindex === 'undefined') {
     localStorage.boxspriteindex = 1
+  }
+
+  if (typeof localStorage.switchInfo === 'undefined') {
+    localStorage.switchInfo = 0
   }
 
   if (typeof localStorage.hidePrevos === 'undefined') {
@@ -257,6 +265,10 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.filterAbilities == '1') {
         $('#toggle-abil input').prop('checked', true)
     }
+
+    if (localStorage.switchInfo == '1') {
+        $('#toggle-switch-info input').prop('checked', true)
+    }
 }
 
 function toggleBoxSpriteStyle() {
@@ -306,19 +318,28 @@ $('#toggle-battle-notes .slider').click(function(){
 })
 
 $('#toggle-rand .slider').click(function(){
-    localStorage.randomized = (parseInt(localStorage.randomized) + 1) % 2   
+    localStorage.randomized = (parseInt(localStorage.randomized) + 1) % 2
+    location.reload()   
 })
 
 $('#save-toggle .slider').click(function(){
-    localStorage.watchSaveFile = (parseInt(localStorage.watchSaveFile) + 1) % 2;   
+    localStorage.watchSaveFile = (parseInt(localStorage.watchSaveFile) + 1) % 2;
+    location.reload()   
+})
+
+$('#toggle-switch-info .slider').click(function(){
+    localStorage.switchInfo = (parseInt(localStorage.switchInfo) + 1) % 2;   
+    location.reload()
 })
 
 $('#toggle-abil .slider').click(function(){
-    localStorage.filterAbilities = (parseInt(localStorage.filterAbilities) + 1) % 2;   
+    localStorage.filterAbilities = (parseInt(localStorage.filterAbilities) + 1) % 2;
+    location.reload()   
 })
 
 $('#save-filter-toggle .slider').click(function(){
-    localStorage.filterSaveFile = (parseInt(localStorage.filterSaveFile) + 1) % 2;   
+    localStorage.filterSaveFile = (parseInt(localStorage.filterSaveFile) + 1) % 2;
+    location.reload()   
 })
 
 function adjustStat(speciesName, stat, value) {
