@@ -151,7 +151,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         field.defenderSide.isReflect = false;
         field.defenderSide.isLightScreen = false;
         field.defenderSide.isAuroraVeil = false;
-    } else if (move.named('Ivy Cudgel')) {
+    } else if (move.named('Ivy Cudgel') && !calcingForSwitchIns) {
         if (attacker.name.includes('Ogerpon-Cornerstone')) {
             type = 'Rock';
         }
@@ -162,6 +162,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             type = 'Water';
         }
     }
+    if (move.name.includes("Hidden Power") && calcingForSwitchIns) {
+        type = 'Normal';
+    }
+
     var hasAteAbilityTypeChange = false;
     var isAerilate = false;
     var isPixilate = false;

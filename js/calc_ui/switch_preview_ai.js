@@ -299,7 +299,9 @@ function get_next_in() {
             }
         }
 
+        calcingForSwitchIns = true
         let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false);
+        calcingForSwitchIns = false
         
         player_results = all_results[0]
         results = all_results[1]
@@ -328,6 +330,9 @@ function get_next_in() {
         if (localStorage.switchInfo == '1') {
             matchup = postKoMatchupData(player_results, results) 
             matchup["type_matchup"] = type_matchup
+
+            matchup.move = matchup.move.replace("Hidden Power", "HP")
+            matchup.attackerBestMove = matchup.attackerBestMove.replace("Hidden Power", "HP")
 
             
                      

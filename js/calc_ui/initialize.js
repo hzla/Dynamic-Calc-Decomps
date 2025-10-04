@@ -22,6 +22,7 @@ learnsetClosable = false
 bestDmgAgainstCurrent = 0
 bestMoveAgainstCurrent = ""
 bestMoveAgainstCurrentIndex = 0
+calcingForSwitchIns = false
 
 genInfo = {
     "num": 8,
