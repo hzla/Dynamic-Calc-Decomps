@@ -300,6 +300,7 @@ function get_next_in() {
         }
 
         calcingForSwitchIns = true
+        p1Name = p1.name
         let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false);
         calcingForSwitchIns = false
         

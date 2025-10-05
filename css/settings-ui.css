@@ -88,3 +88,7 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+#field-extras {
+  display: none;
+}
