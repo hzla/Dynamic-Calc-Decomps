@@ -500,12 +500,17 @@ function get_next_in() {
         ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup])
     }
 
-    let badOdds = isBadOdds(p1, currentp2)
+    
     $('.bad-odds').hide()
 
-    if (badOdds[0] && localStorage.switchInfo == '1') {
-        $('.bad-odds').show()
-        $('.bad-odds').text(`Bad Odds: ${badOdds[1]}`)
+    if (localStorage.switchInfo == '1') {
+        let badOdds = isBadOdds(p1, currentp2)
+
+        if (baddOdds[0]) {
+            $('.bad-odds').show()
+            $('.bad-odds').text(`Bad Odds: ${badOdds[1]}`)
+        }
+        
     }
 
 
