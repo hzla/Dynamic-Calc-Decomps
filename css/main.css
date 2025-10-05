@@ -178,6 +178,12 @@ input[type="file"] {
     display: none;
 }
 
+#nav-tags .bad-odds {
+    color: #ff79c6;
+    border: 1px solid #ff79c6;
+    margin-right: 0px;
+}
+
 #ai-tags div {
     display: flex;
     font-size: 10px;

@@ -75,6 +75,9 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         bestDmgAgainstCurrent = 0
         bestMoveAgainstCurrent = ""
         bestMoveAgainstCurrentIndex = 0
+
+        bestAiDmgAgainstCurrent = 0
+        bestAiMoveAgainstCurrent = ""
     }
 
     for (moveIndex in attacker.moves) {
@@ -129,6 +132,12 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
         if (damage.length == 16) {
             damage = damage.map(() => damage[8])
+
+
+            if (isCurrent && damage[0] > bestAiDmgAgainstCurrent) {
+                bestAiDmgAgainstCurrent = damage[0]
+                bestAiMoveAgainstCurrent = move.name
+            }
         }
 
         if (damage[0] > highestDmgDealt) {
@@ -228,9 +237,9 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let debug = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill, attackerFastestPrioKill: attackerFastestPrioKill, isFaster: isFaster, movesFirst: movesFirst, winsMidTurn1v1: winsMidTurn1v1}
     
     // console.log(debug)
-    console.log(`${defender.name} using ${bestMove} kills in ${defenderFastestKill}`)
-    console.log(`${attacker.name} kills in ${attackerFastestKill}`)
-    console.log(`${defender.name} faster: ${isFaster}, movesFirst: ${movesFirst}, winsMidTurn1v1: ${winsMidTurn1v1}`)       
+    // console.log(`${defender.name} using ${bestMove} kills in ${defenderFastestKill}`)
+    // console.log(`${attacker.name} kills in ${attackerFastestKill}`)
+    // console.log(`${defender.name} faster: ${isFaster}, movesFirst: ${movesFirst}, winsMidTurn1v1: ${winsMidTurn1v1}`)       
 
     
 
@@ -244,7 +253,49 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 }
 
 function isBadOdds(p1, p2) {
-    return false
+    let aiHpThreshold =  parseInt(p2.ability == "Regenerator" ? p2.stats.hp / 2 : p2.stats.hp / 4)
+    let playerHpThreshold = Math.min( parseInt(p1.stats.hp / 2), p1.originalCurHP)
+    // TODO: account for player prio
+    let aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe && moves[bestAiMoveAgainstCurrent].priority 
+
+    // AI must have greater than 50% hp or 25% with regenerator
+    if (p2.originalCurHP < aiHpThreshold) {
+        return [false, "low HP"]
+    }
+
+    console.log(p2)
+    console.log(`${aiIsFaster} faster, ${bestDmgAgainstCurrent} dmg vs ${p2.originalCurHP}`)
+
+    // If Player threatens fast ohko
+    if (bestDmgAgainstCurrent >= p2.originalCurHP && !aiIsFaster) {
+        return [true, "F-Ohko"];
+    // If Player threatens slow ohko
+    } else if (bestDmgAgainstCurrent >= p2.originalCurHP && aiIsFaster) {
+        // Check if ai can do more than 50% or ko player
+        if (bestAiDmgAgainstCurrent < playerHpThreshold) {
+            return [true, "S-Ohko"]
+        } else {
+            return [false, "Ai Chunks"]
+        }
+    // If bad type matchup
+    } else if (currentTypeMatchup > 2) {       
+        for (let move of p2.moves) {
+            let cat = move.category
+            if (cat == "status") continue;
+            let effectiveness = typeChart[move.type][p1.types[0]]
+            if (p1.types[1]) {
+                effectiveness = effectiveness * typeChart[move.type][p1.types[1]]
+            }
+
+            // Check for super effective moves
+            if (effectiveness > 1) {
+                return [false, "AI SE"];
+            }
+        }
+        return [true, "Bad MU"]
+    }
+
+    return [false, ""];
 }
 
 function get_next_in() {  
@@ -267,10 +318,11 @@ function get_next_in() {
     var p2info = $("#p2");
     var p1 = createPokemon(p1info);
 
+    if (p1.ability == "Intimidate") {
+        p1.ability = "Run Away"
+    }
+
     var currentp2 = createPokemon(p2info)
-
-    var badOdds = isBadOdds(p1, currentp2)
-
 
 
     p1RawSpeed = parseInt($('#p1 .totalMod').text())
@@ -286,7 +338,15 @@ function get_next_in() {
     for (i in trainer_poks) {
         analysis = ""
 
+
         p2 = createPokemon(trainer_poks[i].slice(0,-3))
+
+        let isCurrent = currentp2.name == p2.name
+
+        // Remove intimidate unless you're calcing against the current in pokemon and intimidate is on
+        if (p2.ability == "Intimidate" && !(isCurrent && $('#p2 .abilityToggle').is(':checked'))) {
+            p2.ability = "Run Away"
+        }
 
         if (!hasEvs) {
             p2.evs = {
@@ -324,6 +384,10 @@ function get_next_in() {
         matchup = {}
         if (localStorage.switchInfo == '1') analysis += "<div class='ai-infos'>"   
         analysis += `<div class='bp-info switch-info mu-info'>Type MU: ${type_matchup}</div>` 
+
+        if (isCurrent) {
+            currentTypeMatchup = type_matchup
+        }
 
 
 
@@ -434,6 +498,14 @@ function get_next_in() {
 
         }
         ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup])
+    }
+
+    let badOdds = isBadOdds(p1, currentp2)
+    $('.bad-odds').hide()
+
+    if (badOdds[0]) {
+        $('.bad-odds').show()
+        $('.bad-odds').text(`Bad Odds: ${badOdds[1]}`)
     }
 
 

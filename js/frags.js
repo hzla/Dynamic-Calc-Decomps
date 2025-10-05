@@ -224,19 +224,26 @@ function shouldHidePrevo(speciesName) {
 
 
 $(document).ready(function(){
+
+	let url = location.href.replace("index.html", "frags.html")
+	if (location.href.includes("Dynamic-Calc-Decomps/?data")){
+	  url = url.split("?data").join("frags.html?data");
+	}
+	$('#fragsheet-link').attr('href', url)
+
 	$(document).on('click', '#p2 .poke-sprite', addFrag)
 	if (localStorage.encounters && localStorage.encounters != "") {
 		$('#fragsheet-howto').show()
 	}
 	// $(document).on('contextmenu', '#p1 .poke-sprite', toggleEncounterStatus)
 
-	$(document).on('click', '#p1 .poke-sprite, #fragsheet-howto', function() {
-		let url = location.href.replace("index.html", "frags.html")
-		if (location.href.includes("Dynamic-Calc-Decomps/?data")){
-		  url = url.split("?data").join("frags.html?data");
-		}
-		window.open(url, '_blank');
-	})
+	// $(document).on('click', '#p1 .poke-sprite, #fragsheet-howto', function() {
+	// 	let url = location.href.replace("index.html", "frags.html")
+	// 	if (location.href.includes("Dynamic-Calc-Decomps/?data")){
+	// 	  url = url.split("?data").join("frags.html?data");
+	// 	}
+	// 	window.open(url, '_blank');
+	// })
 
 	watchLocalStorageProperty('customsets', (data) => {
 	  console.log("Customsets Updated, refreshing table")

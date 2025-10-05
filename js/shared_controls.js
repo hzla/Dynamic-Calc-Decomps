@@ -678,6 +678,7 @@ $(".set-selector").change(function () {
 				$('#ai-tags').html("")
 				if (typeof ai != "undefined") {
 					for (tag of ai) {
+						if (tag == "Check Bad Move" || tag == "Try To Faint") continue;
 						$('#ai-tags').append(`<div>${tag}</div>`)
 					}
 				}
