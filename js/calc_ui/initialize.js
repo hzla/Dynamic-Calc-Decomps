@@ -22,6 +22,8 @@ learnsetClosable = false
 bestDmgAgainstCurrent = 0
 bestMoveAgainstCurrent = ""
 bestMoveAgainstCurrentIndex = 0
+bestAiDmgAgainstCurrent = 0
+bestAiMoveAgainstCurrent = ""
 calcingForSwitchIns = false
 
 genInfo = {
