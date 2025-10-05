@@ -506,7 +506,7 @@ function get_next_in() {
     if (localStorage.switchInfo == '1') {
         let badOdds = isBadOdds(p1, currentp2)
 
-        if (baddOdds[0]) {
+        if (badOdds[0]) {
             $('.bad-odds').show()
             $('.bad-odds').text(`Bad Odds: ${badOdds[1]}`)
         }
