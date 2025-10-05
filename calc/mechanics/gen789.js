@@ -83,6 +83,11 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     var isCritical = !defender.hasAbility('Battle Armor', 'Shell Armor') &&
         (move.isCrit || (attacker.hasAbility('Merciless') && defender.hasStatus('psn', 'tox'))) &&
         move.timesUsed === 1;
+
+    if (move.name == "Snipe Shot" && attacker.item == "Scope Lens") {
+        isCritical = true;
+    }
+    
     var type = move.type;
     if (move.named('Weather Ball')) {
         var holdingUmbrella = attacker.hasItem('Utility Umbrella');

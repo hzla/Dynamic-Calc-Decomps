@@ -670,7 +670,6 @@ $(".set-selector").change(function () {
 
 				if (SETDEX_BW[pokemonName][setName]["partner"]) {
 					$(".nav-tag.partner").show().attr('data-next', SETDEX_BW[pokemonName][setName]["partner"])
-
 				} else {
 					$(".nav-tag.partner").hide()
 				}
