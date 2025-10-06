@@ -385,8 +385,10 @@ function loadDataSource(data) {
     // imperium changes
     if (TITLE.includes("Emerald Imperium")) {
 
-        moves['Chloroblast'].recoil = [50,100];
-        MOVES_BY_ID[g].chloroblast.recoil = [50,100]
+        delete moves['Chloroblast'].recoil 
+        delete MOVES_BY_ID[g].chloroblast.recoil
+        moves['Chloroblast'].mindBlownRecoil = true;
+        MOVES_BY_ID[g].chloroblast.mindBlownRecoil = true;
         
         if (TITLE.includes("1.3")) {
             $('#reasoning').show()
