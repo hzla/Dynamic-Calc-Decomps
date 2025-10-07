@@ -207,6 +207,7 @@ function filter_box() {
         let pokedexInfo = JSON.stringify(pokedex[set]).toLowerCase()
         let set_id = `${set} (My Box)`
 
+
         let learnset = JSON.stringify(learnsets[set.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]).toLowerCase()
 
         

@@ -85,7 +85,10 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         move.timesUsed === 1;
 
     var type = move.type;
-    if (move.named('Weather Ball')) {
+    if (calcingForSwitchIns && attacker.name != p1Name) {
+
+    }
+    else if (move.named('Weather Ball')) {
         var holdingUmbrella = attacker.hasItem('Utility Umbrella');
         type =
             field.hasWeather('Sun', 'Harsh Sunshine') && !holdingUmbrella ? 'Fire'
@@ -152,7 +155,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         field.defenderSide.isReflect = false;
         field.defenderSide.isLightScreen = false;
         field.defenderSide.isAuroraVeil = false;
-    } else if (move.named('Ivy Cudgel') && !calcingForSwitchIns && attacker.name != p1Name) {
+    } else if (move.named('Ivy Cudgel') && attacker.name != p1Name) {
         if (attacker.name.includes('Ogerpon-Cornerstone')) {
             type = 'Rock';
         }

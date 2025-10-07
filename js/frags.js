@@ -16,12 +16,12 @@ function importEncounters() {
 	  if (!currentEncounters[speciesName] && setData["My Box"]) {
 		// console.log(currentEncounters)s
 
-	  	let encounter = {setData: setData, fragCount: 0, frags: [], prevoFragCount: 0, alive: true, hide: false}
+	  	let encounter = {setData: structuredClone(setData), fragCount: 0, frags: [], prevoFragCount: 0, alive: true, hide: false}
 
 	  		  	
-	  	delete setData["My Box"].moves
-	  	delete setData["My Box"].isCustomSet
-	  	delete setData["My Box"].level
+	  	delete encounter.setData["My Box"].moves
+	  	delete encounter.setData["My Box"].isCustomSet
+	  	delete encounter.setData["My Box"].level
 
 	  	currentEncounters[speciesName] = encounter
 
