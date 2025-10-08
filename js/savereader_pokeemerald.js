@@ -23,7 +23,8 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
 
         // Try to get a persistent handle via File System Access API (if supported)
         if ('showOpenFilePicker' in window && localStorage.watchSaveFile == '1') {
-            try {
+           
+           try {
                 [fileHandle] = await window.showOpenFilePicker({
                     types: [{
                         description: 'Save Files',
@@ -262,10 +263,15 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                            gr = 0 
                         }
 
+                        let level;
+                        try {
+                            level = get_level(expTables[gr], exp)
+                        } catch {
+                            offset = lastFoundAt + 2
+                            continue
+                        }
 
-                        
-
-                        let level = get_level(expTables[gr], exp)
+               
 
 
                         let nn11 = gen3TextTable[decrypted[growth_index * 3 + 1] >> 21 & 0xFF] || ""

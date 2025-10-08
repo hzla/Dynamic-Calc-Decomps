@@ -346,7 +346,7 @@ var SV = SS.concat([
     'Hadron Engine',
     'Hospitality',
     'Lingering Aroma',
-    'Mind\'s Eye',
+    "Mind's Eye",
     'Mycelium Might',
     'Opportunist',
     'Orichalcum Pulse',
