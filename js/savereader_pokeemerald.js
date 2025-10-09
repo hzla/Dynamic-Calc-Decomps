@@ -384,15 +384,15 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                             try {
                                 let slotIndex = decrypted[misc_index * 3 + 2] >> 29 & 0b11
 
-                                console.log(`${speciesName}: Ability Slot: ${slotIndex}, abilities: ${abilsPrimary[speciesName]}`)
+                                // console.log(`${speciesName}: Ability Slot: ${slotIndex}, abilities: ${abilsPrimary[speciesName]}`)
 
                                 if (abilsPrimary[speciesName][slotIndex] == "None") {
                                     slotIndex = 0
-                                    console.log(`Setting ability slot to 0`)
+                                    // console.log(`Setting ability slot to 0`)
                                 } 
                                 abilitySlot = sav_abilities[randomizeAbility(speciesId, slotIndex, tid)]
 
-                                console.log(`running randomizeAbility(${speciesId}, ${slotIndex}, ${tid}): returns ${randomizeAbility(speciesId, slotIndex, tid)}, ${sav_abilities[randomizeAbility(speciesId, slotIndex, tid)]}`)
+                                // console.log(`running randomizeAbility(${speciesId}, ${slotIndex}, ${tid}): returns ${randomizeAbility(speciesId, slotIndex, tid)}, ${sav_abilities[randomizeAbility(speciesId, slotIndex, tid)]}`)
 
 
                                 
