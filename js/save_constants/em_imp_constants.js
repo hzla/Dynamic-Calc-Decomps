@@ -1056,7 +1056,7 @@ emImpMons = [
     "Mr. Rime",
     "Runerigus",
     "Milcery",
-    "Alcremie Vanilla Cream",
+    "Alcremie",
     "Falinks",
     "Pincurchin",
     "Snom",

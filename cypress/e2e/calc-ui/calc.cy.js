@@ -18,7 +18,7 @@ for (let calc of calcs) {
       })
       cy.viewport(1920, 1080)
       cy.visit(calc.url)
-      // Visit Renegade Platinum Calc
+      // Visit Calc
       
     })
 
@@ -39,13 +39,13 @@ for (let calc of calcs) {
       // Check to see if it loads Cynthia's Pokemon
       cy.get('.select2-search input:visible').first().type(`${calc.testTrainer}{enter}`)
 
-      // Check to see if 5 pokemon were loaded
-      cy.get('.trainer-pok-list.opposing .trainer-pok-container').should('have.length', 5)
+      // Check to see if 8 pokemon were loaded (spiritomb, heatran, cramorany, zamazenta, xerneas, garchomp, mega garchomp, zamazenta-crowned)
+      cy.get('.trainer-pok-list.opposing .trainer-pok-container').should('have.length', 8)
 
       // Check to see if clicking on Cynthia's pokemon loads moveset info and damage numbers  
       cy.get("label[for='resultMoveR1']").should('have.text', calc.testTrainerMonFirstMove)
 
-      // Check to make sure Thunderbolt is dealing non zero damage
+      // Check to make sure first move is dealing non zero damage
       cy.get('#resultDamageR1').should(($el) => {
         const text = $el.text();
         const numbers = text.match(/(\d+\.?\d*)/g);
@@ -63,15 +63,15 @@ for (let calc of calcs) {
     it('can import and navigate basic imported sets with no met location', () => {
       
       // Check that imports will show sprites in import box
-      cy.fixture('./texts/em_imp_basic_import.txt').then((text) => {
+      cy.fixture(`./texts/${calc.title}_save_paste.txt`).then((text) => {
         cy.get('textarea').invoke('val', text)
       })
       cy.get('#import').click()
-      cy.get('.player-poks .trainer-pok').should('have.length', 17)
+      cy.get('.player-poks .trainer-pok').should('have.length', 33)
 
       // Check that clicking a sprite loads a pokemon
-      cy.get("[data-id='Zoroark (My Box)']").click()
-      cy.get('.select2-chosen').first().should('have.text', "Zoroark (My Box)")
+      cy.get("[data-id='Chikorita (My Box)']").click()
+      cy.get('.select2-chosen').first().should('have.text', "Chikorita (My Box)")
     }) 
 
 
@@ -81,20 +81,19 @@ for (let calc of calcs) {
       cy.get('.player-poks .trainer-pok').should('have.length', 0)
     }) 
 
-    if (calc.save) {
+    if (calc.title) {
       it('can import a save', () => {
-        cy.get('#save-upload-g45').selectFile(`cypress/fixtures/saves/${calc.save}.sav`, {force: true})
-        cy.get('#import').click()
+        cy.get('#save-upload').selectFile(`cypress/fixtures/saves/${calc.title}.sav`, {force: true})
 
-        cy.fixture(`./texts/${calc.save}_save_paste.txt`).then((expectedContent) => {
+        cy.fixture(`./texts/${calc.title}_save_paste.txt`).then((expectedContent) => {
           cy.get('.import-team-text').first().should('have.value', expectedContent);
         });
 
-        cy.get('.player-poks .trainer-pok').should('have.length', 27)
+        cy.get('.player-poks .trainer-pok').should('have.length', 33)
 
         // Check that clicking a sprite loads a pokemon
-        cy.get("[data-id='Starly (My Box)']").click()
-        cy.get('.select2-chosen').first().should('have.text', "Starly (My Box)")
+        cy.get("[data-id='Chikorita (My Box)']").click()
+        cy.get('.select2-chosen').first().should('have.text', "Chikorita (My Box)")
 
 
         // Check that importing a save imports encounter data

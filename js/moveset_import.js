@@ -980,7 +980,7 @@ function checkExeptions(poke) {
 		return poke
 	}
 
-	// try using only first part of name
+	// try using only first part of name when separated by dashes
 	if (typeof pokedex[poke] == 'undefined' && pokedex[poke.split("-")[0]]) {
 		poke = poke.split("-")[0]
 		return poke
