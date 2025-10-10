@@ -67,9 +67,9 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let isCurrent = currentTrainerPok == defender.name
 
 
-    if (defender.name == "Samurott-Hisui") {
-        console.log(isFaster)
-    }
+    
+
+
 
     if (isCurrent) {
         bestDmgAgainstCurrent = 0
@@ -88,6 +88,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
         if (damage.length == 16) {
             damage = damage.map(() => damage[8])
+
 
             if (isCurrent && damage[0] > bestDmgAgainstCurrent) {
                 bestDmgAgainstCurrent = damage[0]
@@ -122,8 +123,11 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
                     attackerBestMoveHasPrio = true;
                 }
             }
-        }       
+        }   
     }
+
+
+
 
     for (moveIndex in defender.moves) {
         let move = defender.moves[moveIndex]
@@ -204,11 +208,11 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         } else {
             // faster without priority
             if (isFaster) {
-         
                 // compare turns to kill with player fastest non prio kill and prio kill
                 if (turnsToKill <= attackerFastestKill && turnsToKill < attackerFastestPrioKill) {
                     wins1v1 = true
                 }
+
                 if (turnsToKill < attackerFastestKill && turnsToKill < attackerFastestPrioKill - 1) {
                     winsMidTurn1v1 = true
                 }

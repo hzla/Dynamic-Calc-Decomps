@@ -195,9 +195,6 @@ function getKOChance(gen, attacker, defender, move, field, damage, err) {
     damage = combine(damage);
 
 
-
-
-
     if (isNaN(damage[0])) {
         (0, util_1.error)(err, 'damage[0] must be a number.');
         return { chance: 0, n: 0, text: '' };

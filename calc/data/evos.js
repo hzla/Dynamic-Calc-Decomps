@@ -5613,9 +5613,9 @@ evoData = {
     "evos": [],
     "anc": "Sandy Shocks"
   },
-  "Screamtail": {
+  "Scream Tail": {
     "evos": [],
-    "anc": "Screamtail"
+    "anc": "Scream Tail"
   },
   "Flutter Mane": {
     "evos": [],
@@ -6176,6 +6176,10 @@ evoData = {
   "Terapagos-Terastal": {
     "evos": [],
     "anc": "Terapagos-Terastal"
+  },
+  "Terapagos": {
+    "evos": [],
+    "anc": "Terapagos"
   },
   "Hydrapple": {
     "evos": [],
