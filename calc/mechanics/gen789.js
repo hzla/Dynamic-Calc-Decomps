@@ -60,6 +60,15 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     if (move.category === 'Status' && !move.named('Nature Power')) {
         return result;
     }
+    if (move.flags.punch && attacker.hasItem('Punching Glove')) {
+        desc.attackerItem = attacker.item;
+        move.flags.contact = 0;
+    }
+    if ( (move.named('Shell Side Arm') || move.named("Draco Barrage")) &&
+        (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical') {
+        move.category = 'Physical';
+        move.flags.contact = 1;
+    }
     var breaksProtect = move.breaksProtect || move.isZ || attacker.isDynamaxed ||
         (attacker.hasAbility('Unseen Fist') && move.flags.contact);
     if (field.defenderSide.isProtected && !breaksProtect) {
