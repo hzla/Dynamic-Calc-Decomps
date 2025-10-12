@@ -260,7 +260,7 @@ function isBadOdds(p1, p2) {
     let aiHpThreshold =  parseInt(p2.ability == "Regenerator" ? p2.stats.hp / 2 : p2.stats.hp / 4)
     let playerHpThreshold = Math.min( parseInt(p1.stats.hp / 2), p1.originalCurHP)
     // TODO: account for player prio
-    let aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe && moves[bestAiMoveAgainstCurrent].priority 
+    let aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || moves[bestAiMoveAgainstCurrent].priority 
 
     // AI must have greater than 50% hp or 25% with regenerator
     if (p2.originalCurHP < aiHpThreshold) {

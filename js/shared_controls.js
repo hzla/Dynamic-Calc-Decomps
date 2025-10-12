@@ -222,7 +222,7 @@ $(".ability").bind("keyup change", function () {
 
 	var ability = $(this).closest(".poke-info").find(".ability").val();
 
-	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Unburden', 'Stakeout', 'Teraform Zero', 'Bull Rush', 'Quill Rush', 'Illusion', 'Dauntless Shield', 'Intrepid Sword'];
+	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Unburden', 'Stakeout', 'Teraform Zero', 'Bull Rush', 'Quill Rush', 'Illusion', 'Dauntless Shield', 'Intrepid Sword', 'Download'];
 
 	if (TOGGLE_ABILITIES.indexOf(ability) >= 0) {
 		$(this).closest(".poke-info").find(".abilityToggle").show();
@@ -677,12 +677,12 @@ $(".set-selector").change(function () {
 				$('#ai-tags').html("")
 				if (typeof ai != "undefined") {
 					for (tag of ai) {
-						if (tag == "Check Bad Move" || tag == "Try To Faint") continue;
-						$('#ai-tags').append(`<div>${tag}</div>`)
+						if (tag == "Ace Pokemon" || tag == "Powerful Status") {
+							$('#ai-tags').append(`<div>${tag}</div>`)
+						}	
 					}
 				}
 				
-
 				if (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation") {
 					$('#singles-format').click()
 				} else {
