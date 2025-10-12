@@ -84255,7 +84255,7 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 0,
-    "pp": 6,
+    "pp": 20,
     "isDance": true
   },
   "Cut": {
@@ -84512,7 +84512,7 @@ backup_moves = {
     "bp": 120,
     "type": "Normal",
     "acc": 100,
-    "pp": 5,
+    "pp": 10,
     "makesContact": true,
     "secondaries": true
   },
@@ -84778,7 +84778,7 @@ backup_moves = {
     "bp": 80,
     "type": "Fighting",
     "acc": 100,
-    "pp": 6,
+    "pp": 20,
     "recoil": [
       25,
       100
@@ -84832,7 +84832,7 @@ backup_moves = {
     "bp": 25,
     "type": "Grass",
     "acc": 100,
-    "pp": 4,
+    "pp": 25,
     "drain": [
       50,
       100
@@ -84843,7 +84843,7 @@ backup_moves = {
     "bp": 120,
     "type": "Grass",
     "acc": 100,
-    "pp": 4,
+    "pp": 15,
     "drain": [
       50,
       100
@@ -84861,7 +84861,7 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 0,
-    "pp": 6
+    "pp": 20
   },
   "Razor Leaf": {
     "flags": {
@@ -84919,7 +84919,7 @@ backup_moves = {
     "bp": 120,
     "type": "Grass",
     "acc": 100,
-    "pp": 5,
+    "pp": 10,
     "makesContact": true,
     "isDance": true,
     "secondaries": true
@@ -85134,7 +85134,7 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 0,
-    "pp": 6
+    "pp": 10
   },
   "Smokescreen": {
     "flags": {},
@@ -85169,7 +85169,7 @@ backup_moves = {
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
-    "pp": 6
+    "pp": 20
   },
   "Light Screen": {
     "flags": {},
@@ -85307,7 +85307,7 @@ backup_moves = {
     "bp": 35,
     "type": "Water",
     "acc": 85,
-    "pp": 5,
+    "pp": 15,
     "makesContact": true,
     "secondaries": true
   },
@@ -85326,7 +85326,7 @@ backup_moves = {
     "bp": 6,
     "type": "Normal",
     "acc": 100,
-    "pp": 6,
+    "pp": 10,
     "makesContact": true,
     "secondaries": true
   },
@@ -85378,7 +85378,7 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 100,
-    "pp": 9,
+    "pp": 5,
     "isHealing": true
   },
   "High Jump Kick": {
@@ -85389,7 +85389,7 @@ backup_moves = {
     "bp": 85,
     "type": "Fighting",
     "acc": 90,
-    "pp": 5,
+    "pp": 10,
     "makesContact": true,
     "isKick": true
   },
@@ -85526,7 +85526,7 @@ backup_moves = {
     "bp": 0,
     "type": "Poison",
     "acc": 0,
-    "pp": 6
+    "pp": 20
   },
   "Crabhammer": {
     "flags": {
@@ -85581,7 +85581,7 @@ backup_moves = {
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
-    "pp": 9,
+    "pp": 5,
     "isHealing": true
   },
   "Rock Slide": {
@@ -85702,7 +85702,7 @@ backup_moves = {
     "bp": 60,
     "type": "Dark",
     "acc": 100,
-    "pp": 6,
+    "pp": 25,
     "makesContact": true,
     "secondaries": true
   },
@@ -85993,7 +85993,7 @@ backup_moves = {
     "bp": 120,
     "type": "Dragon",
     "acc": 100,
-    "pp": 5,
+    "pp": 10,
     "makesContact": true,
     "secondaries": true
   },
@@ -86497,7 +86497,7 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 0,
-    "pp": 4
+    "pp": 20
   },
   "Spit Up": {
     "flags": {},
@@ -86925,7 +86925,7 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 100,
-    "pp": 9,
+    "pp": 5,
     "isHealing": true
   },
   "Hyper Voice": {
@@ -87146,7 +87146,7 @@ backup_moves = {
     "bp": 80,
     "type": "Psychic",
     "acc": 100,
-    "pp": 6,
+    "pp": 20,
     "secondaries": true
   },
   "Sky Uppercut": {
@@ -87310,7 +87310,7 @@ backup_moves = {
     "bp": 5,
     "type": "Fairy",
     "acc": 100,
-    "pp": 6,
+    "pp": 25,
     "makesContact": true,
     "secondaries": true
   },
@@ -87531,7 +87531,7 @@ backup_moves = {
     "bp": 0,
     "type": "Flying",
     "acc": 0,
-    "pp": 6,
+    "pp": 15,
     "isWind": true
   },
   "Acupressure": {
@@ -87862,7 +87862,7 @@ backup_moves = {
     "bp": 75,
     "type": "Flying",
     "acc": 100,
-    "pp": 6,
+    "pp": 15,
     "isSword": true,
     "secondaries": true
   },
@@ -89105,7 +89105,7 @@ backup_moves = {
     "bp": 90,
     "type": "Fighting",
     "acc": 100,
-    "pp": 6,
+    "pp": 15,
     "makesContact": true,
     "isSword": true
   },
@@ -89917,7 +89917,7 @@ backup_moves = {
     "bp": 0,
     "type": "Ground",
     "acc": 0,
-    "pp": 9,
+    "pp": 5,
     "isHealing": true
   },
   "First Impression": {
@@ -90475,7 +90475,7 @@ backup_moves = {
     "bp": 8,
     "type": "Electric",
     "acc": 100,
-    "pp": 8,
+    "pp": 20,
     "secondaries": true
   },
   "Sizzly Slide": {
@@ -90485,7 +90485,7 @@ backup_moves = {
     "bp": 8,
     "type": "Fire",
     "acc": 100,
-    "pp": 8,
+    "pp": 20,
     "makesContact": true,
     "secondaries": true
   },
@@ -90526,7 +90526,7 @@ backup_moves = {
     "bp": 95,
     "type": "Fairy",
     "acc": 100,
-    "pp": 8,
+    "pp": 5,
     "secondaries": true
   },
   "Veevee Volley": {
@@ -91379,7 +91379,7 @@ backup_moves = {
     "bp": 100,
     "type": "Flying",
     "acc": 90,
-    "pp": 9,
+    "pp": 10,
     "target": "allAdjacentFoes",
     "isWind": true,
     "secondaries": true
@@ -91391,7 +91391,7 @@ backup_moves = {
     "bp": 100,
     "type": "Electric",
     "acc": 90,
-    "pp": 9,
+    "pp": 10,
     "target": "allAdjacentFoes",
     "isWind": true,
     "secondaries": true
@@ -91403,7 +91403,7 @@ backup_moves = {
     "bp": 100,
     "type": "Ground",
     "acc": 90,
-    "pp": 9,
+    "pp": 10,
     "target": "allAdjacentFoes",
     "isWind": true,
     "secondaries": true
