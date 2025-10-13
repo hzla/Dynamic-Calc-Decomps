@@ -110,7 +110,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             isOhkod = true
         }
 
-        if (turnsToKill <= attackerFastestKill) {
+        if (turnsToKill < attackerFastestKill) {
             attackerFastestKill = turnsToKill
             attackerBestMove = move.name
             if (!move.priority) {
@@ -179,11 +179,13 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             }
         }
 
-        if (turnsToKill <=  defenderFastestKill) {
+        if (turnsToKill <  defenderFastestKill) {
             defenderFastestKill = turnsToKill
 
             if (move.priority) {
                 defenderBestMoveHasPrio = true
+            } else {
+                defenderBestMoveHasPrio = false;
             }
             bestMove = move.name
         }
