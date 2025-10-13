@@ -113,6 +113,9 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         if (turnsToKill <= attackerFastestKill) {
             attackerFastestKill = turnsToKill
             attackerBestMove = move.name
+            if (!move.priority) {
+                attackerBestMoveHasPrio = false;
+            }
         } 
 
         if (move.priority) {
@@ -250,7 +253,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
 
 
-    let matchupData = {wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill}
+    let matchupData = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill}
 
     disableKOChanceCalcs = false
     return matchupData
