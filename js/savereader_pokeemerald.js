@@ -334,21 +334,27 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
 
                         
                         // filter for legal moves
-                        if (localStorage.filterSaveFile == '1' && localStorage.randomized != '1') {
-                            let legalMoves = getFamilyLegalMoves(speciesName)
-                            for (move of moves) {
 
-                                if (!move) {
-                                    illegalMoveFound = true
-                                    continue
-                                }
+                        try {
+                            if (localStorage.filterSaveFile == '1' && localStorage.randomized != '1') {
+                                let legalMoves = getFamilyLegalMoves(speciesName)
+                                for (move of moves) {
 
-                                if (legalMoves.indexOf(move.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()) == -1 && move != "None" && !move.includes("Hidden Power")) {
-                                    console.log(`Ilegal move found on ${speciesName}: ${move}`)
-                                    illegalMoveFound = true
+                                    if (!move) {
+                                        illegalMoveFound = true
+                                        continue
+                                    }
+
+                                    if (legalMoves.indexOf(move.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()) == -1 && move != "None" && !move.includes("Hidden Power")) {
+                                        console.log(`Ilegal move found on ${speciesName}: ${move}`)
+                                        illegalMoveFound = true
+                                    }
                                 }
                             }
+                        } catch {
+                            console.log(`Unable to filter illegal moves for ${speciesName}`)
                         }
+                        
 
                         // skip if any moves out of bounds or duplicates moves that aren't "None"
                         if (hasInvalidMoves(moves) || illegalMoveFound) {
