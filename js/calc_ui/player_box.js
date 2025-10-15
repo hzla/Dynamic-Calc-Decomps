@@ -202,15 +202,24 @@ function filter_box() {
 
     container.find('.pokesprite').removeClass('active')
     for (set in customSets) {
+
+        // remove megas
+        baseSet = set
+        if (set.includes("-Mega")) {
+            baseSet = set.replace("-Mega-X", "").replace("-Mega-Y", "").replace("-Mega-D", "").replace("-Mega-O", "").replace("-Mega", "")
+        }
         
         let setInfo = JSON.stringify(customSets[set]).toLowerCase()
         let pokedexInfo = JSON.stringify(pokedex[set]).toLowerCase()
         let set_id = `${set} (My Box)`
 
+        let learnset = ""
 
-        let learnset = JSON.stringify(learnsets[set.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]).toLowerCase()
-
-        
+        try {
+            learnset = JSON.stringify(learnsets[baseSet.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]).toLowerCase()
+        } catch {
+            console.log(`ls not found for ${baseSet}`)
+        }        
         if (setInfo.includes(search_string) || set.includes(search_string) || pokedexInfo.includes(search_string)) {
             container.find(`[data-id='${set_id}']`).addClass('active')
         }
