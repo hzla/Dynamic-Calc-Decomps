@@ -178,10 +178,18 @@ input[type="file"] {
     display: none;
 }
 
+#nav-tags .next {
+    margin-right: 0px;
+}
+
+#nav-tags .next:hover , #nav-tags .prev:hover {
+    background: rgba(255,255,255, 0.1);
+}
+
 #nav-tags .bad-odds {
     color: #ff79c6;
     border: 1px solid #ff79c6;
-    margin-right: 0px;
+    margin-right: 10px;
 }
 
 #ai-tags div {

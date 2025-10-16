@@ -655,17 +655,23 @@ $(".set-selector").change(function () {
 				
 				var battle_type = SETDEX_BW[pokemonName][setName]["battle_type"]
 				var ai = SETDEX_BW[pokemonName][setName]["ai_tags"]
-				var next = SETDEX_BW[pokemonName][setName]["next"]
-				var prev = SETDEX_BW[pokemonName][setName]["prev"]
+				
 
 
+				if (CURRENT_TRAINER_POKS && CURRENT_TRAINER_POKS.length > 0 && TITLE.includes("1.3")) {
+					
+					let orderInfo = emImpOrders[CURRENT_TRAINER_POKS.find(str => str.includes("[0]")).split("[")[0]]
 
-				if (SETDEX_BW[pokemonName][setName]["next"]) {
-					$(".nav-tag.next").attr('data-next', next).show()
-				}
-
-				if (SETDEX_BW[pokemonName][setName]["prev"]) {
-					$(".nav-tag.prev").attr('data-next', prev).show()
+					if (orderInfo) {
+						if (orderInfo.next) {
+							$(".nav-tag.next").attr('data-next', orderInfo.next).show()
+						}
+						if (orderInfo.prev) {
+							$(".nav-tag.prev").attr('data-next', orderInfo.prev).show()
+						}
+					} else {
+						$('.nav-tag.next, .nav-tag.prev').hide()
+					}	
 				}
 
 				if (SETDEX_BW[pokemonName][setName]["partner"]) {

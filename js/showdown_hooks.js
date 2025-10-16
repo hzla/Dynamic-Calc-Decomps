@@ -172,7 +172,7 @@ $(document).ready(function() {
    })
    
    $(document).on('click', '.nav-tag', function() {
-        var set = customLeads[$(this).attr('data-next')].split("[")[0]
+        var set = $(this).attr('data-next')
 
         $("#weather-bar label").first().click()
 
