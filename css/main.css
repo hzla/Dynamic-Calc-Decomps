@@ -1917,6 +1917,22 @@ table.field {
         line-height: 40px;
     }
 
+    #nav-tags .prev, #nav-tags .next {
+        position: absolute;
+        top: 433px;
+        width: 120px;
+        right: 0px;
+        text-align: center;
+        height: 93px;
+        line-height: 93px;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    #nav-tags .next {
+        top: 536px;
+    }
+
     .info-group.top, .info-group.top.opp {
         margin-top: 60px;
     }
