@@ -345,7 +345,7 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                                         continue
                                     }
 
-                                    if (legalMoves.indexOf(move.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()) == -1 && move != "None" && !move.includes("Hidden Power")) {
+                                    if (legalMoves.indexOf(move.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()) == -1 && move != "None" && !move.includes("Hidden Power") && !move.includes("Return")) {
                                         console.log(`Ilegal move found on ${speciesName}: ${move}`)
                                         illegalMoveFound = true
                                     }

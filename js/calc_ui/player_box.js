@@ -357,10 +357,14 @@ function get_current_learnset() {
     if (pok_name.includes("-Mega")) {
         pok_name = pok_name.split("-Mega")[0]
     } 
+
+    if (pok_name.includes("Ogerpon")) {
+        pok_name = "Ogerpon"
+    }
     current_learnset = learnsets[pok_name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]
     
-    if (!current_learnset) {
-        $("#learnset-show").hide()
+    if (!current_learnset || !TITLE.includes("1.3")) {
+        // $("#learnset-show").hide()
         return
     } else {
         $("#learnset-show").show()
