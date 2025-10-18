@@ -711,15 +711,15 @@ $(".set-selector").change(function () {
 				// $('#trainer-sprite').attr('src', `./img/${sprite}`)
 				// $('#trainer-sprite').show()
 
-				if ($("#lvl-cap").val() != "" && (typeof (SETDEX_BW[pokemonName][setName]["sublevel"]) !== "undefined")) {
-					var lvl_delta = parseInt(SETDEX_BW[pokemonName][setName]["sublevel"])
-					var current_cap = parseInt($("#lvl-cap").val())
-					setTimeout(function() {
+				// if ($("#lvl-cap").val() != "" && (typeof (SETDEX_BW[pokemonName][setName]["sublevel"]) !== "undefined")) {
+				// 	var lvl_delta = parseInt(SETDEX_BW[pokemonName][setName]["sublevel"])
+				// 	var current_cap = parseInt($("#lvl-cap").val())
+				// 	setTimeout(function() {
 						
-						$("#levelR1").val(lvl_delta + current_cap).change()
-						console.log(`changing to ${lvl_delta + current_cap}`)
-					},20)	
-				}
+				// 		$("#levelR1").val(lvl_delta + current_cap).change()
+				// 		// console.log(`changing to ${lvl_delta + current_cap}`)
+				// 	},20)	
+				// }
 			}
 		} else {
 			$('#trainer-sprite').hide()
@@ -1171,8 +1171,9 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 
 		let tmpLvl = set.level
 
-		if (parseInt(set.level) < 1) {
+		if ((parseInt(set.level) < 1 || typeof set.sublevel != "undefined")) {
 			
+
 			if ($('#lvl-cap').val() != "") {
 				tmpLvl = parseInt($('#lvl-cap').val()) + set.sublevel
 			} else {
