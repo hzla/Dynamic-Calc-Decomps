@@ -45686,7 +45686,7 @@ backup_data = {
         "Ruination"
       ],
       "sub_index": 4,
-      "ability": "Tablets Of Ruin",
+      "ability": "Tablets of Ruin",
       "sublevel": -1
     }
   },
@@ -61479,7 +61479,7 @@ backup_data = {
         "Hidden Power"
       ],
       "sub_index": 3,
-      "ability": "Beads Of Ruin"
+      "ability": "Beads of Ruin"
     },
     "Lvl 44 Magma Leader Maxie Mt Chimney ": {
       "ivs": {
@@ -61509,7 +61509,7 @@ backup_data = {
         "Hidden Power"
       ],
       "sub_index": 4,
-      "ability": "Beads Of Ruin"
+      "ability": "Beads of Ruin"
     }
   },
   "Camerupt-Mega": {
@@ -68168,7 +68168,7 @@ backup_data = {
         "Ice Shard"
       ],
       "sub_index": 4,
-      "ability": "Sword Of Ruin",
+      "ability": "Sword of Ruin",
       "sublevel": 0
     }
   },

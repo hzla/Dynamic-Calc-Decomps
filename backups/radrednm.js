@@ -25205,7 +25205,7 @@ backup_data = {
   "Chien-Pao": {
     "Lvl 83 *Elite Four Agatha ": {
       "nature": "Jolly",
-      "ability": "Sword Of Ruin",
+      "ability": "Sword of Ruin",
       "level": 83,
       "item": "Black Glasses",
       "moves": [

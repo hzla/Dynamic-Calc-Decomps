@@ -54279,7 +54279,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Tablets Of Ruin",
+      "ability": "Tablets of Ruin",
       "sublevel": -1
     }
   },
@@ -72993,7 +72993,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Beads Of Ruin"
+      "ability": "Beads of Ruin"
     },
     "Lvl 44 Magma Leader Maxie Mt Chimney ": {
       "ivs": {
@@ -73030,7 +73030,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Beads Of Ruin"
+      "ability": "Beads of Ruin"
     }
   },
   "Camerupt-Mega": {
@@ -89861,7 +89861,7 @@ backup_moves = {
     "pp": 10,
     "target": "allAdjacentFoes"
   },
-  "Light Of Ruin": {
+  "Light of Ruin": {
     "flags": {},
     "bp": 140,
     "type": "Fairy",

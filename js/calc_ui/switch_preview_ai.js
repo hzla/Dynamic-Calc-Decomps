@@ -132,9 +132,12 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
 
 
+
     for (moveIndex in defender.moves) {
         let move = defender.moves[moveIndex]
         damage = defenderVAttackerResults[moveIndex].damage
+
+
 
 
         if (damage.length == 16) {
@@ -265,15 +268,15 @@ function isBadOdds(p1, p2) {
     let aiHpThreshold =  parseInt(p2.ability == "Regenerator" ? p2.stats.hp / 2 : p2.stats.hp / 4)
     let playerHpThreshold = Math.min( parseInt(p1.stats.hp / 2), p1.originalCurHP)
     // TODO: account for player prio
-    let aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || moves[bestAiMoveAgainstCurrent].priority 
+    let aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || moves[bestAiMoveAgainstCurrent].priority == '1'
 
     // AI must have greater than 50% hp or 25% with regenerator
     if (p2.originalCurHP < aiHpThreshold) {
         return [false, "low HP"]
     }
 
-    console.log(p2)
-    console.log(`${aiIsFaster} faster, ${bestDmgAgainstCurrent} dmg vs ${p2.originalCurHP}`)
+    // console.log(p2)
+    // console.log(`${aiIsFaster} faster, ${bestDmgAgainstCurrent} dmg vs ${p2.originalCurHP}`)
 
     // If Player threatens fast ohko
     if (bestDmgAgainstCurrent >= p2.originalCurHP && !aiIsFaster) {
@@ -371,6 +374,8 @@ function get_next_in() {
         calcingForSwitchIns = true
         p1Name = p1.name
         let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false);
+
+
         calcingForSwitchIns = false
         
         player_results = all_results[0]

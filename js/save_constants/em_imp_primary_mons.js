@@ -91566,7 +91566,7 @@ em_imp_primary_mons = {
         ],
         [
           50,
-          "Light Of Ruin"
+          "Light of Ruin"
         ],
         [
           51,
@@ -129031,7 +129031,7 @@ em_imp_primary_mons = {
     ],
     "gr": 5,
     "abilities": [
-      "Sword Of Ruin",
+      "Sword of Ruin",
       "None",
       "None"
     ]
@@ -129156,7 +129156,7 @@ em_imp_primary_mons = {
     ],
     "gr": 5,
     "abilities": [
-      "Tablets Of Ruin",
+      "Tablets of Ruin",
       "None",
       "None"
     ]
@@ -129272,7 +129272,7 @@ em_imp_primary_mons = {
     ],
     "gr": 5,
     "abilities": [
-      "Vessel Of Ruin",
+      "Vessel of Ruin",
       "None",
       "None"
     ]
@@ -129390,7 +129390,7 @@ em_imp_primary_mons = {
     ],
     "gr": 5,
     "abilities": [
-      "Beads Of Ruin",
+      "Beads of Ruin",
       "None",
       "None"
     ]

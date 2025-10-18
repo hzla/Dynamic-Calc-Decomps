@@ -1145,6 +1145,7 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         !defender.hasAbility('Sword of Ruin');
     var isBeadsOfRuinActive = (attacker.hasAbility('Beads of Ruin') || field.isBeadsOfRuin) &&
         !defender.hasAbility('Beads of Ruin');
+
     if ((isSwordOfRuinActive && hitsPhysical) ||
         (isBeadsOfRuinActive && !hitsPhysical)) {
         if (attacker.hasAbility('Sword of Ruin') || attacker.hasAbility('Beads of Ruin')) {

@@ -5251,22 +5251,22 @@ abilsPrimary = {
     "None"
   ],
   "Chien-Pao": [
-    "Sword Of Ruin",
+    "Sword of Ruin",
     "None",
     "None"
   ],
   "Wo-Chien": [
-    "Tablets Of Ruin",
+    "Tablets of Ruin",
     "None",
     "None"
   ],
   "Ting-Lu": [
-    "Vessel Of Ruin",
+    "Vessel of Ruin",
     "None",
     "None"
   ],
   "Chi-Yu": [
-    "Beads Of Ruin",
+    "Beads of Ruin",
     "None",
     "None"
   ],

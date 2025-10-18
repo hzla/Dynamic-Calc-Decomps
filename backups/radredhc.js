@@ -23376,7 +23376,7 @@ backup_data = {
   "Chien-Pao": {
     "Lvl 85 *Elite Four Lorelei ": {
       "nature": "Jolly",
-      "ability": "Sword Of Ruin",
+      "ability": "Sword of Ruin",
       "level": 85,
       "item": "Focus Sash",
       "moves": [
