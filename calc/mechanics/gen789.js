@@ -1309,7 +1309,7 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
         }
         desc.attackerItem = attacker.item;
     }
-    if (move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
+    if (!calcingForSwitchIns && move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
         (typeEffectiveness > 1 || move.hasType('Normal')) &&
         hitCount === 0 &&
         !attacker.hasAbility('Unnerve', 'As One (Glastrier)', 'As One (Spectrier)')) {
