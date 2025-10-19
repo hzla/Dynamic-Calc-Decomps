@@ -11,11 +11,10 @@ function canTrap(trapper, target) {
     return false;
 }
 
-function adjustSpeed(speed, ability, weather, item) { 
+function adjustSpeed(speed, ability, weather, terrain, item) { 
     if (item == "Choice Scarf") {
         speed = speed * 1.5;
     }
-
     if (ability == "Chlorophphyll" && weather == "Sun") {
         return speed * 2
     }
@@ -27,6 +26,9 @@ function adjustSpeed(speed, ability, weather, item) {
     }
     if (ability == "Sand Rush" && weather == "Sand") {
         return speed * 2
+    }
+    if (ability == "Surge Surfer" && terrain == "Electric") {
+        return speed * 2   
     }
     return speed
 }
@@ -62,7 +64,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let isOhkod = false
     let wins1v1 = false
     let winsMidTurn1v1 = false
-    let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather, defender.item)
+    let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather, defenderField.terrain, defender.item)
 
     let isFaster = adjustedSpeed >= p1RawSpeed
     let movesFirst = false

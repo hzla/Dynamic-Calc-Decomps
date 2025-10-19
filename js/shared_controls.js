@@ -250,7 +250,7 @@ $(".ability").bind("keyup change", function () {
 function detectAutoWeather() {
 	var is_p1 = $(this).parents("#p1").length > 0
 	var ability = $(this).val()
-	var weather_abilities = ["Drought", "Drizzle", "Sand Stream", "Snow Warning", "Desolate Land", "Primordial Sea", "Delta Stream"]
+	var weather_abilities = ["Drought", "Drizzle", "Sand Stream", "Snow Warning", "Desolate Land", "Primordial Sea", "Delta Stream", "Orichalcum Pulse"]
 
 
 	// dont change weather when filtering ability list
@@ -297,6 +297,7 @@ function autosetWeather(ability, i) {
 
 	switch (ability) {
 	case "Drought":
+	case "Orichalcum Pulse":
 		lastAutoWeather[i] = "Sun";
 		$("#sun").prop("checked", true);
 		break;
@@ -348,6 +349,7 @@ function autosetTerrain(ability, i) {
 	$("input:checkbox[name='terrain']:checked").prop("checked", false);
 	switch (ability) {
 	case "Electric Surge":
+	case "Hadron Engine":
 		lastAutoTerrain[i] = "Electric";
 		$("#electric").prop("checked", true);
 		break;
