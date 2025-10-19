@@ -544,6 +544,8 @@ function isQPActive(pokemon, field) {
     }
     var weather = field.weather || '';
     var terrain = field.terrain;
+
+
     return ((pokemon.hasAbility('Protosynthesis') &&
         (weather.includes('Sun') || pokemon.hasItem('Booster Energy'))) ||
         (pokemon.hasAbility('Quark Drive') &&

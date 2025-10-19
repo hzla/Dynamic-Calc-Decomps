@@ -11,7 +11,11 @@ function canTrap(trapper, target) {
     return false;
 }
 
-function adjustSpeed(speed, ability, weather) {
+function adjustSpeed(speed, ability, weather, item) { 
+    if (item == "Choice Scarf") {
+        speed = speed * 1.5;
+    }
+
     if (ability == "Chlorophphyll" && weather == "Sun") {
         return speed * 2
     }
@@ -58,7 +62,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let isOhkod = false
     let wins1v1 = false
     let winsMidTurn1v1 = false
-    let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather)
+    let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather, defender.item)
 
     let isFaster = adjustedSpeed >= p1RawSpeed
     let movesFirst = false
@@ -373,6 +377,17 @@ function get_next_in() {
 
         calcingForSwitchIns = true
         p1Name = p1.name
+
+
+        // console.log(p2field)
+        // console.log(p2)
+
+        if (p2.name == "Walking Wake") {
+            console.log(isQPActive(p2, p2field))   
+        }
+        
+
+
         let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false);
 
 

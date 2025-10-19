@@ -49,6 +49,14 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         isDefenderDynamaxed: defender.isDynamaxed,
         isWonderRoom: field.isWonderRoom
     };
+
+    if (calcingForSwitchIns) {
+        if ((attacker.hasAbility('Protosynthesis') && (field.weather.includes('Sun'))) ||
+        (attacker.hasAbility('Quark Drive') && (field.terrain === 'Electric'))) {
+            attacker.boostedStat = "auto"
+        }
+    }
+
     if (attacker.teraType !== 'Stellar' || move.name === 'Tera Blast' || move.isStellarFirstUse) {
         desc.isStellarFirstUse = attacker.name !== 'Terapagos-Stellar' && move.name === 'Tera Blast' &&
             attacker.teraType === 'Stellar' && move.isStellarFirstUse;
