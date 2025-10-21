@@ -703,6 +703,9 @@ function buildDescription(description, attacker, defender) {
     if (description.isBurned) {
         output += 'burned ';
     }
+    if (description.isFrostbitten) {
+        output += 'frostbitten ';
+    }
     output += description.attackerName + ' ';
     if (description.isHelpingHand) {
         output += 'Helping Hand ';

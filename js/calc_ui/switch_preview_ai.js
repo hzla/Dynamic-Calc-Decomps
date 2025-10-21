@@ -316,6 +316,8 @@ function isBadOdds(p1, p2) {
     return [false, ""];
 }
 
+const unseenAbilities = ["Bull Rush", "Illusion", "Slow Start", "Quill Rush", "Dauntless Shield", "Intrepid Sword", "Download", "Orichalcum Pulse", "Hadron Engine", "Electric Surge", "Grassy Surge", "Psychic Surge", "Seed Sower", "Misty Surge", "Desolate Land", "Primordial Sea", "Delta Stream"]
+
 function get_next_in() {  
     if (typeof CURRENT_TRAINER_POKS === "undefined") {
         return
@@ -362,7 +364,11 @@ function get_next_in() {
         let isCurrent = currentp2.name == p2.name
 
         // Remove intimidate unless you're calcing against the current in pokemon and intimidate is on
+        // TODO: fix so that if current player mon has been intimidated, it needs to apply the dmg reduction to dmg done to all ai trainer pokemon
         if (p2.ability == "Intimidate" && !(isCurrent && $('#p2 .abilityToggle').is(':checked'))) {
+            p2.ability = "Run Away"
+        }
+        else if (unseenAbilities.includes(p2.ability)) {
             p2.ability = "Run Away"
         }
 
@@ -384,13 +390,8 @@ function get_next_in() {
         // console.log(p2field)
         // console.log(p2)
 
-        if (p2.name == "Walking Wake") {
-            console.log(isQPActive(p2, p2field))   
-        }
-        
-
-
         let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false);
+
 
 
         calcingForSwitchIns = false
@@ -420,9 +421,6 @@ function get_next_in() {
             currentTypeMatchup = type_matchup
         }
 
-
-
-
         if (localStorage.switchInfo == '1') {
             matchup = postKoMatchupData(player_results, results) 
             matchup["type_matchup"] = type_matchup
@@ -431,8 +429,7 @@ function get_next_in() {
             matchup.attackerBestMove = matchup.attackerBestMove.replace("Hidden Power", "HP")
 
             
-                     
-
+      
             // Check for trappers, revenge killers, and good matchups
             if (matchup.wins1v1) {
                 analysis += "<div class='bp-info switch-info'>Wins 1v1</div>" 

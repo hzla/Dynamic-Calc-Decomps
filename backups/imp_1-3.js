@@ -74087,7 +74087,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Stench",
+      "ability": "Parasitic Waste",
       "sublevel": -2
     }
   },

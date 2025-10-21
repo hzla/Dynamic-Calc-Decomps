@@ -5984,9 +5984,9 @@ abilsPrimary = {
     "Zen Mode"
   ],
   "Garbodor-Mega": [
-    "Stench",
-    "Stench",
-    "Stench"
+    "Parasitic Waste",
+    "Parasitic Waste",
+    "Parasitic Waste"
   ],
   "Tornadus-Therian": [
     "Regenerator",
