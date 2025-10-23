@@ -2,8 +2,6 @@
 // TO RUN: npx cypress run --spec "cypress/e2e/calc-ui/dataValidation.cy.js"
 
 
-
-
 let skipNextSetup = false;
 
 let calcs = Cypress.env('calcs')

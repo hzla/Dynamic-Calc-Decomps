@@ -123,6 +123,19 @@ input[type="file"] {
     font-size: 22px;
 }
 
+#lvl-cap:focus + #apply-cap {
+  display: inline-block;
+}
+
+#apply-cap {
+    display: none;
+    font-weight: 200;
+    font-size: 16px;
+    cursor: pointer;
+    color: #bb86fc;
+    display: none;
+}
+
 #reasoning {
     padding: 20px;
     font-size: 20px;

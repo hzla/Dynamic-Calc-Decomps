@@ -2,6 +2,14 @@
 
 function cleanString(str) {str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()};
 
+function updateBoxAnim() {
+    // Shake box
+    $('.player-poks').addClass('shake')
+    setTimeout(function(){
+        $('.player-poks').removeClass('shake')
+    }, 500)
+}
+
 function checkAndLoadScript(src, options = {}) {
     const {
         onLoad = null,

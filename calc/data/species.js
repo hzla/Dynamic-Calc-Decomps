@@ -3204,7 +3204,7 @@ var DPP_PATCH = {
         weightkg: 650,
         gender: 'N',
         abilities: { 0: 'Levitate' },
-        baseSpecies: 'Giratina'
+        baseSpecies: 'Palkia'
     },
     'Dialga-Origin': {
         types: ['Steel', 'Dragon'],
@@ -3212,7 +3212,7 @@ var DPP_PATCH = {
         weightkg: 650,
         gender: 'N',
         abilities: { 0: 'Levitate' },
-        baseSpecies: 'Giratina'
+        baseSpecies: 'Dialga'
     },
     Glaceon: {
         types: ['Ice'],

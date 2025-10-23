@@ -27,6 +27,23 @@ function sort_box_by_set(attr) {
     mons.detach().appendTo(box);
 }
 
+function setBoxToLevelCap() {
+    const levelCap = parseInt($('#lvl-cap').val())
+    if (confirm(`Set Box to level ${levelCap}?`)) {
+        for (set in customSets) {
+            customSets[set]["My Box"].level = levelCap
+            setdex[set]['My Box'].level = levelCap
+        }
+        localStorage.customsets = JSON.stringify(customSets)
+        updateBoxAnim()
+    }
+}
+
+$('#lvl-cap').on('contextmenu', function(e) {
+    e.preventDefault()
+    setBoxToLevelCap()
+})
+
 function sort_box_by_dex(attr) {
     var box = $('.player-poks'),
     mons = box.children('.trainer-pok');

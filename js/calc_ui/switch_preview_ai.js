@@ -643,5 +643,5 @@ function getTypeMatchup(playerTypes, defenderTypes) {
         att2_vs_def1 = handleTypeMatchupImmunityEI(typeChart[attType2][defType1]);
         att2_vs_def2 = (defType1 === defType2) ? 1.0 : handleTypeMatchupImmunityEI(typeChart[attType2][defType2]);
     }
-    return (att1_vs_def1 * att1_vs_def2) + (att2_vs_def1 * att2_vs_def2);
+    return parseFloat(((att1_vs_def1 * att1_vs_def2) + (att2_vs_def1 * att2_vs_def2)).toFixed(2));
 }

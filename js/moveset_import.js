@@ -1005,12 +1005,7 @@ $("#clearSets").click(function () {
 	// Remove Icons
 	$('.trainer-pok.left-side').remove()
 	$('#clear-party').click()
-
-	// Shake box
-	$('.player-poks').addClass('shake')
-	setTimeout(function(){
-		$('.player-poks').removeClass('shake')
-	}, 500)
+	updateBoxAnim()
 });
 
 $("#importedSets").click(function () {
