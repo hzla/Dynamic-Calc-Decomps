@@ -933,8 +933,13 @@ table td {
     padding: 0;
 }
 
+.nature-info {
+    margin-top: 10px;
+    color: #1abc9c;
+}
+
 .no-switch-1 .bp-info[data-strong="true"] {
-    color: #f1f1f1;
+    color: rgb(255, 85, 85);
 } 
 
 #p2 .no-switch-1 .bp-info{
