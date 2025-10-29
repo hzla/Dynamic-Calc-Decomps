@@ -102,10 +102,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         move.timesUsed === 1;
 
     var type = move.type;
-    if (calcingForSwitchIns && attacker.name != p1Name) {
-
-    }
-    else if (move.named('Weather Ball')) {
+    if (move.named('Weather Ball')) {
         var holdingUmbrella = attacker.hasItem('Utility Umbrella');
         type =
             field.hasWeather('Sun', 'Harsh Sunshine') && !holdingUmbrella ? 'Fire'

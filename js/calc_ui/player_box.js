@@ -144,6 +144,10 @@ function displayParty() {
             
             var pok = `<div class="trainer-pok-container">
                 <img class="trainer-pok left-side" src="./img/${sprite_style}/${sprite_name}.png" data-id="${data_id}">`
+            if (set_data['item']) {
+                item_name = set_data['item'].toLowerCase().replace(" ", "_").replace("'", "") 
+                pok += `<img class="trainer-pok-item" src="./img/items/${item_name}.png">`
+            }
             for (let i in [1,2,3,4]) {
                 if (set_data['moves'][i]) {
                    pok += `<div class="bp-info">${abv(set_data['moves'][i].replace("Hidden Power", "HP"))}</div>` 

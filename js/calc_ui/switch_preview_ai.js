@@ -15,7 +15,7 @@ function adjustSpeed(speed, ability, weather, terrain, item) {
     if (item == "Choice Scarf") {
         speed = speed * 1.5;
     }
-    if (ability == "Chlorophphyll" && weather == "Sun") {
+    if (ability == "Chlorophyll" && weather == "Sun") {
         return speed * 2
     }
     if (ability == "Slush Rush" && weather == "Snow") {
@@ -65,6 +65,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let wins1v1 = false
     let winsMidTurn1v1 = false
     let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather, defenderField.terrain, defender.item)
+
 
     let isFaster = adjustedSpeed >= p1RawSpeed
     let movesFirst = false
