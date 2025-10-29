@@ -3301,7 +3301,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Oraoraoraora"
+      "ability": "ORAORAORAORA"
     },
     "Lvl 64 Aqua Admin Matt Weather Inst ": {
       "ivs": {
@@ -44813,7 +44813,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Soul Heart"
+      "ability": "Soul-Heart"
     }
   },
   "Archaludon": {
@@ -83884,7 +83884,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": null,
+      "ability": "Primordial Sea",
       "sub_index": 6
     }
   },
@@ -83924,7 +83924,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": null,
+      "ability": "Dauntless Shield",
       "sub_index": 6
     }
   },
@@ -83964,7 +83964,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": null,
+      "ability": "Primal Armor",
       "sub_index": 6
     }
   },
@@ -84004,7 +84004,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": null,
+      "ability": "Primal Armor",
       "sub_index": 6
     }
   },
@@ -84044,7 +84044,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": null,
+      "ability": "Delta Stream",
       "sub_index": 6
     }
   },
@@ -84084,7 +84084,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": null,
+      "ability": "Desolate Land",
       "sub_index": 6
     }
   }
