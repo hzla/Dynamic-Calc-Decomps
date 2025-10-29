@@ -41,13 +41,13 @@ var Pokemon = (function () {
         this.gender = options.gender || this.species.gender || 'M';
         this.ability = options.ability || ((_b = this.species.abilities) === null || _b === void 0 ? void 0 : _b[0]) || undefined;
         this.abilityOn = !!options.abilityOn;
-        this.isDynamaxed = !!options.isDynamaxed;
-        this.dynamaxLevel = this.isDynamaxed
-            ? (options.dynamaxLevel === undefined ? 10 : options.dynamaxLevel) : undefined;
+        // this.isDynamaxed = !!options.isDynamaxed;
+        // this.dynamaxLevel = this.isDynamaxed
+        //     ? (options.dynamaxLevel === undefined ? 10 : options.dynamaxLevel) : undefined;
         this.isSaltCure = !!options.isSaltCure;
         this.alliesFainted = options.alliesFainted;
         this.boostedStat = options.boostedStat;
-        this.teraType = options.teraType;
+        // this.teraType = options.teraType;
         this.item = options.item;
         this.nature = options.nature || 'Serious';
         this.ivs = Pokemon.withDefault(gen, options.ivs, 31);

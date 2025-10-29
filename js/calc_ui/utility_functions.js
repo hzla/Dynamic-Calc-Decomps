@@ -2,6 +2,33 @@
 
 function cleanString(str) {str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()};
 
+
+function stableStringify(obj) {
+  if (obj && typeof obj === 'object') {
+    if (Array.isArray(obj)) {
+      return '[' + obj.map(stableStringify).join(',') + ']';
+    }
+    return '{' + Object.keys(obj).sort().map(k => 
+      JSON.stringify(k) + ':' + stableStringify(obj[k])
+    ).join(',') + '}';
+  }
+  return JSON.stringify(obj);
+}
+
+function fnv1aHash(str) {
+  let hash = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) {
+    hash ^= str.charCodeAt(i);
+    hash += (hash << 1) + (hash << 4) + (hash << 7) + (hash << 8) + (hash << 24);
+  }
+  // Force unsigned and return hex
+  return ('0000000' + (hash >>> 0).toString(16)).slice(-8);
+}
+
+function hashObject(obj) {
+  return fnv1aHash(stableStringify(obj));
+}
+
 function updateBoxAnim() {
     // Shake box
     $('.player-poks').addClass('shake')

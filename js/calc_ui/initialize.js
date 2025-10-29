@@ -141,6 +141,13 @@ if (SOURCES[params.get('data')]) {
 
 
 function initCalc() {
+  
+  initializing = true
+  setTimeout(function() {
+    initializing = false
+  }, 2000)
+
+
   var head= document.getElementsByTagName('head')[0];
   var script= document.createElement('script');
   script.src= './js/shared_controls.js?0b3ea005';
@@ -152,6 +159,9 @@ function initCalc() {
   fainted = []
   lastSetName = ""
   disableKOChanceCalcs = false
+  start = 0
+
+  memoizedCalc = deepMemoize(calculateAllMoves);
 
   pokChanges = {}
   calcing = false

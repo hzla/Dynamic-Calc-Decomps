@@ -136,10 +136,6 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         }   
     }
 
-
-
-
-
     for (moveIndex in defender.moves) {
         let move = defender.moves[moveIndex]
         damage = defenderVAttackerResults[moveIndex].damage
@@ -268,6 +264,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let matchupData = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill}
 
     disableKOChanceCalcs = false
+    matchupCache.set(currentKey, matchupData)
     return matchupData
 }
 
@@ -275,7 +272,13 @@ function isBadOdds(p1, p2) {
     let aiHpThreshold =  parseInt(p2.ability == "Regenerator" ? p2.stats.hp / 2 : p2.stats.hp / 4)
     let playerHpThreshold = Math.min( parseInt(p1.stats.hp / 2), p1.originalCurHP)
     // TODO: account for player prio
-    let aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || moves[bestAiMoveAgainstCurrent].priority == '1'
+    let aiIsFaster = false
+    if (bestMoveAgainstCurrent == "") {
+        aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe
+    } else if (bestMoveAgainstCurrent) {
+        aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || moves[bestAiMoveAgainstCurrent].priority == '1'
+    }
+    
 
     // AI must have greater than 50% hp or 25% with regenerator
     if (p2.originalCurHP < aiHpThreshold) {
@@ -319,10 +322,65 @@ function isBadOdds(p1, p2) {
 
 const unseenAbilities = ["Bull Rush", "Illusion", "Slow Start", "Quill Rush", "Dauntless Shield", "Intrepid Sword", "Download", "Orichalcum Pulse", "Hadron Engine", "Electric Surge", "Grassy Surge", "Psychic Surge", "Seed Sower", "Misty Surge", "Desolate Land", "Primordial Sea", "Delta Stream"]
 
+
+function deepMemoize(fn) {
+  resultsCache = new Map();
+  matchupCache = new Map();
+
+  return function(...args) {
+    currentKey = hashObject([compressPlayerPok(args[1]), compressTrainerPok(args[3])])
+    if (resultsCache.has(currentKey)) {
+      return resultsCache.get(currentKey);
+    }
+    const result = fn(...args);
+    resultsCache.set(currentKey, result);
+    return result;
+  };
+}
+
+function compressPlayerPok(pok) {
+    return {
+        's': pok.name,
+        't': pok.types,
+        'l': pok.level,
+        'a': pok.ability,
+        'ao': pok.abilityOn,
+        'i': pok.item,
+        'n': pok.nature,
+        'iv': pok.ivs,
+        'ev': pok.evs,
+        'b': pok.boosts,
+        's': pok.stats,
+        'h': pok.originalCurHP,
+        'st': pok.status,
+        'm0': pok.moves[0].name,
+        'm1': pok.moves[1].name,
+        'm2': pok.moves[2].name,
+        'm3': pok.moves[3].name
+    }
+}
+
+function compressTrainerPok(pok) {
+    return {
+        's': pok.name,
+        'l': pok.level,
+        'a': pok.ability,
+        's': pok.stats,
+        'm0': pok.moves[0].name,
+        'm1': pok.moves[1].name,
+        'm2': pok.moves[2].name,
+        'm3': pok.moves[3].name
+    }
+}
+
+
+
+
 function get_next_in() {  
     if (typeof CURRENT_TRAINER_POKS === "undefined") {
         return
     }
+    lvlCap = parseInt($('#lvl-cap').val())
 
     var trainer_poks = CURRENT_TRAINER_POKS
     var player_type1 = $('.type1').first().val()
@@ -359,7 +417,6 @@ function get_next_in() {
     for (i in trainer_poks) {
         analysis = ""
 
-
         p2 = createPokemon(trainer_poks[i].slice(0,-3))
 
         let isCurrent = currentp2.name == p2.name
@@ -384,24 +441,30 @@ function get_next_in() {
             }
         }
 
-        calcingForSwitchIns = true
-        p1Name = p1.name
 
+        if (localStorage.switchInfo == '1') {
+            calcingForSwitchIns = true
+            p1Name = p1.name
 
-        // console.log(p2field)
-        // console.log(p2)
+            // const start = performance.now();
+            
+            // for (let i=0; i<10;i++) {
+            //     memoizedCalc(damageGen, p1, p1field, p2, p2field);
+            //     // calculateAllMoves(damageGen, p1, p1field, p2, p2field);
+            // }
+            let all_results = memoizedCalc(damageGen, p1, p1field, p2, p2field);
+            // let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field);
+            // const end = performance.now();
+            // console.log(`Calculate All Moves vs ${p2.name} Execution time: ${end - start} ms`);
+            calcingForSwitchIns = false
+            
+            player_results = all_results[0]
+            results = all_results[1]
 
-        let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false);
-
-
-
-        calcingForSwitchIns = false
-        
-        player_results = all_results[0]
-        results = all_results[1]
-
-        player_results_list.push(player_results)
-        ai_results_list.push(results)
+            player_results_list.push(player_results)
+            ai_results_list.push(results)
+        }
+       
 
         let pok_name = trainer_poks[i].split(" (")[0]
         let tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
@@ -423,7 +486,15 @@ function get_next_in() {
         }
 
         if (localStorage.switchInfo == '1') {
-            matchup = postKoMatchupData(player_results, results) 
+            // const s = performance.now();
+
+            if (matchupCache.has(currentKey)) {
+                matchup = matchupCache.get(currentKey)
+            } else {
+               matchup = postKoMatchupData(player_results, results) 
+            }        
+            // const e = performance.now();
+            // console.log(`PostKoMatchupData vs ${p2.name} Execution time: ${e - s} ms`); 
             matchup["type_matchup"] = type_matchup
 
             matchup.move = matchup.move.replace("Hidden Power", "HP")
@@ -539,7 +610,7 @@ function get_next_in() {
             $('.bad-odds').show()
             $('.bad-odds').text(`Bad Odds: ${badOdds[1]}`)
         }
-        
+       
     }
 
 

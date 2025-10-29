@@ -57,13 +57,15 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         }
     }
 
-    if (attacker.teraType !== 'Stellar' || move.name === 'Tera Blast' || move.isStellarFirstUse) {
-        desc.isStellarFirstUse = attacker.name !== 'Terapagos-Stellar' && move.name === 'Tera Blast' &&
-            attacker.teraType === 'Stellar' && move.isStellarFirstUse;
-        desc.attackerTera = attacker.teraType;
-    }
-    if (defender.teraType !== 'Stellar')
-        desc.defenderTera = defender.teraType;
+    // if (attacker.teraType !== 'Stellar' || move.name === 'Tera Blast' || move.isStellarFirstUse) {
+    //     desc.isStellarFirstUse = attacker.name !== 'Terapagos-Stellar' && move.name === 'Tera Blast' &&
+    //         attacker.teraType === 'Stellar' && move.isStellarFirstUse;
+    //     desc.attackerTera = attacker.teraType;
+    // }
+    // if (defender.teraType !== 'Stellar')
+    //     desc.defenderTera = defender.teraType;
+
+
     var result = new result_1.Result(gen, attacker, defender, move, field, 0, desc);
     if (move.category === 'Status' && !move.named('Nature Power')) {
         return result;
@@ -85,6 +87,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     }
     var defenderIgnoresAbility = defender.hasAbility('Full Metal Body', 'Neutralizing Gas', 'Prism Armor', 'Shadow Shield', 'Primal Armor');
     var attackerIgnoresAbility = attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze');
+    
     var moveIgnoresAbility = move.named('G-Max Drum Solo', 'G-Max Fire Ball', 'G-Max Hydrosnipe', 'Light That Burns the Sky', 'Menacing Moonraze Maelstrom', 'Moongeist Beam', 'Photon Geyser', 'Searing Sunraze Smash', 'Sunsteel Strike', 'Shell Side Arm');
     if (!defenderIgnoresAbility && !defender.hasAbility('Poison Heal') &&
         (attackerIgnoresAbility || moveIgnoresAbility)) {
@@ -706,7 +709,11 @@ function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAb
 exports.calculateBasePowerSMSSSV = calculateBasePowerSMSSSV;
 function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, basePower, hasAteAbilityTypeChange, turnOrder) {
     var bpMods = [];
-    var resistedKnockOffDamage = (!defender.item || (0, util_2.isQPActive)(defender, field)) ||
+    var resistedKnockOffDamage = false;
+
+
+    if (move.named('Knock off')) {
+        var resistedKnockOffDamage = (!defender.item || (0, util_2.isQPActive)(defender, field)) ||
         (defender.named('Dialga-Origin') && defender.hasItem('Adamant Crystal')) ||
         (defender.named('Palkia-Origin') && defender.hasItem('Lustrous Globe')) ||
         (defender.name.includes('Giratina-Origin') && defender.item.includes('Griseous')) ||
@@ -722,10 +729,13 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         (defender.name.includes('Ogerpon-Hearthflame') && defender.hasItem('Hearthflame Mask')) ||
         (defender.name.includes('Ogerpon-Wellspring') && defender.hasItem('Wellspring Mask')) ||
         (defender.named('Venomicon-Epilogue') && defender.hasItem('Vile Vial'));
-    if (!resistedKnockOffDamage && defender.item) {
-        var item = gen.items.get((0, util_1.toID)(defender.item));
-        resistedKnockOffDamage = !!item.megaEvolves && defender.name.includes(item.megaEvolves);
+        if (!resistedKnockOffDamage && defender.item) {
+            var item = gen.items.get((0, util_1.toID)(defender.item));
+            resistedKnockOffDamage = !!item.megaEvolves && defender.name.includes(item.megaEvolves);
+        }
     }
+
+
     if ((move.named('Facade') && attacker.hasStatus('brn', 'par', 'psn', 'tox', 'frz')) ||
         (move.named('Brine') && defender.curHP() <= defender.maxHP() / 2) ||
         (move.named('Venoshock') && defender.hasStatus('psn', 'tox')) ||

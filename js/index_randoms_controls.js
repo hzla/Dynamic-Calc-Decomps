@@ -111,19 +111,6 @@ function performCalculations() {
 
 		var dmgInfo = $(resultLocations[1][i].damage).text()
 
-		
-		if (moveProbabilities[i] != 0 && damageGen >= 8) {
-			
-			if (!is100) {
-				// var probability = `  (${(Math.round(moveProbabilities[i] * 1000) / 10).toString()}% top roll)` 
-				probability = ""
-				if (moveProbabilities[i] == 1) {
-					is100 = true
-				}
-				$(resultLocations[1][i].damage).text(dmgInfo + probability)
-			}	
-		}
-
 		if (["Avalanche", "Payback", "Assurance", "Revenge", "Retaliate", "Stomping Tantrum"].indexOf(p2.moves[i].name) != -1) {
 			$(resultLocations[1][i].damage).text($(resultLocations[1][i].damage).text()+ " (can double power)");
 		}
@@ -288,7 +275,7 @@ function calculate_probabilities(results) {
 			if (m3_roll_count == 0) {
 				continue
 			}
-			probability += (1/16) * (m1_roll_count / 16) * (m2_roll_count / 16) * (m3_roll_count / 16)
+			probability += (0.0625) * (m1_roll_count / 16) * (m2_roll_count / 16) * (m3_roll_count / 16)
 		}
 		probabilities.push(probability)
 	}
@@ -298,8 +285,6 @@ function calculate_probabilities(results) {
 
 
 function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=true) {
-
-	checkStatBoost(p1, p2);
 	var results = [[], []];
 	for (var i = 0; i < 4; i++) {
 		if (p2.moves[i] == "(No Move)" || p2.moves[i].name == "Smokescreen") {
@@ -323,16 +308,8 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=t
 			var p1info = $("#p1");
 			p1 = createPokemon(p1info);
 		}
-		
-
 		results[0][i] = calc.calculate(gen, p1, p2, p1.moves[i], p1field);
 		results[1][i] = calc.calculate(gen, p2, p1, p2.moves[i], p2field);
-
-
-	}
-	if (displayProbabilities) {
-
-		moveProbabilities = calculate_probabilities(results[1])
 	}
 	return results;
 }

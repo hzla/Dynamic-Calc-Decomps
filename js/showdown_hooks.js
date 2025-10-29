@@ -155,8 +155,15 @@ $(document).ready(function() {
         $('#content-container').hide()
 
    })
+
+   $(document).on('change', '.field-info input', function() {
+      console.log("expiring results cache")
+      resultsCache = new Map();
+   })
   
    $(document).on('click', '.trainer-pok.right-side, .sim-trainer, .trainer-pok-container', function() {
+        
+        start = performance.now();
         if ($(this).hasClass('trainer-pok-container')) {
           let trainerPok = $(this).find('.trainer-pok.right-side')
           if (trainerPok.length > 0) {
