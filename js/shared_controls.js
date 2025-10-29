@@ -1185,7 +1185,16 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			console.log(`adjusting ${name} to level ${tmpLvl} for pokemon creation`)
 		}
 
+		let status = ''
 
+		if (set.status == 'Badly Poisoned') {
+			status = 'tox'
+		} else if (set.status == 'Frozen') {
+			status = 'frz'
+		} else if (set.status == 'Burned') {
+			status = 'brn'
+		}
+		
 		return new calc.Pokemon(gen, name, {
 			level: tmpLvl,
 			ability: set.ability,
@@ -1194,7 +1203,8 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			nature: set.nature,
 			ivs: ivs,
 			evs: evs,
-			moves: pokemonMoves
+			moves: pokemonMoves,
+			status: status
 		});
 	} else {
 		var setName = pokeInfo.find("input.set-selector").val();
