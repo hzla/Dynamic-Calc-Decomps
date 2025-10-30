@@ -286,7 +286,7 @@ function detectAutoWeather() {
 	autosetTerrain($(this).val(), 0);
 }
 
-$("#p1 .ability, #p2 .ability").bind("keyup change", detectAutoWeather);
+$("#p1 .ability, #p2 .ability").bind("keyup change recalc", detectAutoWeather);
 
 var lastManualWeather = "";
 var lastAutoWeather = ["", ""];
@@ -868,8 +868,8 @@ $(".set-selector").change(function () {
 		
 		calcHP(pokeObj);
 		calcStats(pokeObj);
-		// showAbilityExtras(abilityObj);
-		abilityObj.change()
+		showAbilityExtras(abilityObj);
+		abilityObj.trigger('recalc')
 		showItemExtras();
 		if (pokemon.gender === "N") {
 			pokeObj.find(".gender").parent().hide();

@@ -321,8 +321,9 @@ function isBadOdds(p1, p2) {
     return [false, ""];
 }
 
-const unseenAbilities = ["Bull Rush", "Illusion", "Slow Start", "Quill Rush", "Dauntless Shield", "Intrepid Sword", "Download", "Orichalcum Pulse", "Hadron Engine", "Electric Surge", "Grassy Surge", "Psychic Surge", "Seed Sower", "Misty Surge", "Desolate Land", "Primordial Sea", "Delta Stream"]
+const unseenAbilities = ["Bull Rush", "Illusion", "Slow Start", "Quill Rush","Bull Rush", "Dauntless Shield", "Intrepid Sword", "Download", "Orichalcum Pulse", "Hadron Engine", "Electric Surge", "Grassy Surge", "Psychic Surge", "Seed Sower", "Misty Surge", "Desolate Land", "Primordial Sea", "Delta Stream"]
 
+const defaultOffAbilities = ['Flash Fire','Minus', 'Plus','Unburden','Stakeout'];
 
 function deepMemoize(fn) {
   resultsCache = new Map();
@@ -429,6 +430,8 @@ function get_next_in() {
         }
         else if (unseenAbilities.includes(p2.ability)) {
             p2.ability = "Run Away"
+        } else if (defaultOffAbilities.includes(p2.ability)) {
+            p2.abilityOn = false;
         }
 
         if (!hasEvs) {
