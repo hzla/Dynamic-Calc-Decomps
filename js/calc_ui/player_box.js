@@ -28,14 +28,16 @@ function sort_box_by_set(attr) {
 }
 
 function setBoxToLevelCap() {
-    const levelCap = parseInt($('#lvl-cap').val())
+    const levelCap = parseInt($('#lvl-cap').val());
     if (confirm(`Set Box to level ${levelCap}?`)) {
         for (set in customSets) {
-            customSets[set]["My Box"].level = levelCap
-            setdex[set]['My Box'].level = levelCap
+            if (customSets[set]["My Box"]){
+                customSets[set]["My Box"].level = levelCap;
+                setdex[set]['My Box'].level = levelCap;
+            }
         }
-        localStorage.customsets = JSON.stringify(customSets)
-        updateBoxAnim()
+        localStorage.customsets = JSON.stringify(customSets);
+        updateBoxAnim();
     }
 }
 
