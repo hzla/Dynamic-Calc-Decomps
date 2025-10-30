@@ -604,7 +604,6 @@ $('#p1 .boost, #statusL1, #p1 .percent-hp').blur(function() {
 
 $(".set-selector").change(function () {
 	// lock this event from firing multiple times from one action
-	console.log($(this))
 	if (changingSets && !initializing) {
 		// console.log("prevented")
 		return;

@@ -113,7 +113,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             continue;
         }
 
-        if (turnsToKill == 1) {
+        if (turnsToKill == 1 && defender.item != 'Focus Sash') {
             isOhkod = true
         }
 
@@ -136,16 +136,17 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         }   
     }
 
+    // AI can see it's own focus sash
+    if (defender.item == 'Focus Sash' && attackerFastestKill > 0) {
+        attackerFastestKill = Math.max(2, attackerFastestKill)
+    }
+
     for (moveIndex in defender.moves) {
         let move = defender.moves[moveIndex]
         damage = defenderVAttackerResults[moveIndex].damage
 
-
-
-
         if (damage.length == 16) {
             damage = damage.map(() => damage[8])
-
 
             if (isCurrent && damage[0] > bestAiDmgAgainstCurrent) {
                 bestAiDmgAgainstCurrent = damage[0]
