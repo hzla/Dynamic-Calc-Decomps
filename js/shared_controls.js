@@ -245,6 +245,7 @@ function showAbilityExtras(abilityObj) {
 		$(abilityObj).closest(".poke-info").find(".alliesFainted").hide();
 
 	}
+	// detectAutoWeather(abilityObj)
 }
 
 $(".ability").bind("keyup change", function () {
@@ -867,7 +868,8 @@ $(".set-selector").change(function () {
 		
 		calcHP(pokeObj);
 		calcStats(pokeObj);
-		showAbilityExtras(abilityObj);
+		// showAbilityExtras(abilityObj);
+		abilityObj.change()
 		showItemExtras();
 		if (pokemon.gender === "N") {
 			pokeObj.find(".gender").parent().hide();
