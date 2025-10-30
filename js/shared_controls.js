@@ -892,8 +892,8 @@ $(".set-selector").change(function () {
 	}
 	lastSetName = fullSetName
 
-	// end = performance.now()
-	// console.log(`Execution time: ${end - start} ms`);
+	end = performance.now()
+	console.log(`Execution time: ${end - start} ms`);
 });
 
 function formatMovePool(moves) {
