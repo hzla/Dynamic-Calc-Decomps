@@ -126,11 +126,13 @@ function setOpposing(id) {
     localStorage["right"] = currentTrainerSet
 
     $('.opposing').val(currentTrainerSet)
-    $('.opposing').change()
+
+    // turn set setting into a function and just call it manually here
+    $($('.opposing')[1]).change()
     $('.opposing .select2-chosen').text(currentTrainerSet)
-    if ($('.info-group.opp > * > .forme').is(':visible')) {
-        $('.info-group.opp > * > .forme').change()
-    }
+    // if ($('.info-group.opp > * > .forme').is(':visible')) {
+    //     $('.info-group.opp > * > .forme').change()
+    // }
     if ($('#player-poks-filter:visible').length > 0) {
        box_rolls() 
     } 

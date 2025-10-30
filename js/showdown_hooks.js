@@ -104,9 +104,9 @@ $(document).ready(function() {
       resultsCache = new Map();
    })
   
-   $(document).on('click', '.trainer-pok.right-side, .sim-trainer, .trainer-pok-container', function() {
+   $(document).on('click', '.opposing .trainer-pok-container', function() {
         
-        start = performance.now();
+        // start = performance.now();
         if ($(this).hasClass('trainer-pok-container')) {
           let trainerPok = $(this).find('.trainer-pok.right-side')
           if (trainerPok.length > 0) {
@@ -473,16 +473,16 @@ $(document).ready(function() {
 
     
         $('.player .select2-chosen').text(set)
-        if ($('.info-group:not(.opp) > * > .forme').is(':visible')) {
-            $('.info-group:not(.opp) > * > .forme').change()
-        }
+        // if ($('.info-group:not(.opp) > * > .forme').is(':visible')) {
+        //     $('.info-group:not(.opp) > * > .forme').change()
+        // }
         get_box()
         box_rolls()
 
         currentLvl = parseInt($('#levelL1').val())
 
         var right_max_hp = $("#p1 .max-hp").text()
-        $("#p1 .current-hp").val(right_max_hp).change()
+        $("#p1 .current-hp").val(right_max_hp)//.change()
     })
 
     $(document).on('blur', '#max-taken, #min-dealt', function() {

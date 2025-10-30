@@ -276,7 +276,7 @@ function isBadOdds(p1, p2) {
     if (bestMoveAgainstCurrent == "") {
         aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe
     } else if (bestMoveAgainstCurrent) {
-        aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || moves[bestAiMoveAgainstCurrent].priority == '1'
+        aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || (bestAiMoveAgainstCurrent != "" && moves[bestAiMoveAgainstCurrent].priority == '1')
     }
     
 
@@ -328,7 +328,7 @@ function deepMemoize(fn) {
   matchupCache = new Map();
 
   return function(...args) {
-    currentKey = hashObject([compressPlayerPok(args[1]), compressTrainerPok(args[3])])
+    currentKey = hashPokemonPair([compressPlayerPok(args[1]), compressTrainerPok(args[3])])
     if (resultsCache.has(currentKey)) {
       return resultsCache.get(currentKey);
     }
@@ -340,17 +340,17 @@ function deepMemoize(fn) {
 
 function compressPlayerPok(pok) {
     return {
-        's': pok.name,
         't': pok.types,
         'l': pok.level,
         'a': pok.ability,
+        's': pok.name,
         'ao': pok.abilityOn,
         'i': pok.item,
         'n': pok.nature,
         'iv': pok.ivs,
         'ev': pok.evs,
         'b': pok.boosts,
-        's': pok.stats,
+        'ss': pok.stats,
         'h': pok.originalCurHP,
         'st': pok.status,
         'm0': pok.moves[0].name,
@@ -360,12 +360,12 @@ function compressPlayerPok(pok) {
     }
 }
 
+// compress to only the fields that can change when a trainer pok is not loaded
 function compressTrainerPok(pok) {
     return {
-        's': pok.name,
         'l': pok.level,
         'a': pok.ability,
-        's': pok.stats,
+        's': pok.name,
         'm0': pok.moves[0].name,
         'm1': pok.moves[1].name,
         'm2': pok.moves[2].name,

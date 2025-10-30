@@ -2,31 +2,133 @@
 
 function cleanString(str) {str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()};
 
+// function hashObjectDirect(obj, hash = 0x811c9dc5) {
+//   if (obj && typeof obj === 'object') {
+//     if (Array.isArray(obj)) {
+//       hash = hashChar(hash, 91); // '['
+//       for (let i = 0; i < obj.length; i++) {
+//         if (i > 0) hash = hashChar(hash, 44); // ','
+//         hash = hashObjectDirect(obj[i], hash);
+//       }
+//       return hashChar(hash, 93); // ']'
+//     }
+//     const keys = Object.keys(obj).sort();
+//     hash = hashChar(hash, 123); // '{'
+//     for (let i = 0; i < keys.length; i++) {
+//       if (i > 0) hash = hashChar(hash, 44);
+//       hash = hashString(hash, keys[i]);
+//       hash = hashChar(hash, 58); // ':'
+//       hash = hashObjectDirect(obj[keys[i]], hash);
+//     }
+//     return hashChar(hash, 125); // '}'
+//   }
+//   return hashString(hash, JSON.stringify(obj));
+// }
 
-function stableStringify(obj) {
-  if (obj && typeof obj === 'object') {
-    if (Array.isArray(obj)) {
-      return '[' + obj.map(stableStringify).join(',') + ']';
-    }
-    return '{' + Object.keys(obj).sort().map(k => 
-      JSON.stringify(k) + ':' + stableStringify(obj[k])
-    ).join(',') + '}';
+// function hashChar(hash, code) {
+//   hash ^= code;
+//   return Math.imul(hash, 0x01000193);
+// }
+
+// function hashString(hash, str) {
+//   for (let i = 0; i < str.length; i++) {
+//     hash ^= str.charCodeAt(i);
+//     hash = Math.imul(hash, 0x01000193);
+//   }
+//   return hash;
+// }
+
+// function hashObject(obj) {
+//   return (hashObjectDirect(obj) >>> 0).toString(16).padStart(8, '0');
+// }
+
+const FNV_OFFSET = 0x811c9dc5;
+const FNV_PRIME  = 0x01000193;
+
+const stats = ["hp","atk","def","spa","spd","spe"];
+
+function hashStr(h, s) {
+  for (let i = 0, n = s.length; i < n; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, FNV_PRIME);
   }
-  return JSON.stringify(obj);
+  return h;
 }
 
-function fnv1aHash(str) {
-  let hash = 0x811c9dc5;
-  for (let i = 0; i < str.length; i++) {
-    hash ^= str.charCodeAt(i);
-    hash += (hash << 1) + (hash << 4) + (hash << 7) + (hash << 8) + (hash << 24);
-  }
-  // Force unsigned and return hex
-  return ('0000000' + (hash >>> 0).toString(16)).slice(-8);
-}
+function hashPokemonPair(arr) {
+  let h = FNV_OFFSET;
 
-function hashObject(obj) {
-  return fnv1aHash(stableStringify(obj));
+  // -------------------------
+  // First full object
+  // -------------------------
+  const o = arr[0];
+
+  // s stats
+  const s = o.ss;
+  h ^= s.hp;  h = Math.imul(h, FNV_PRIME);
+  h ^= s.atk; h = Math.imul(h, FNV_PRIME);
+  h ^= s.def; h = Math.imul(h, FNV_PRIME);
+  h ^= s.spa; h = Math.imul(h, FNV_PRIME);
+  h ^= s.spd; h = Math.imul(h, FNV_PRIME);
+  h ^= s.spe; h = Math.imul(h, FNV_PRIME);
+
+  // types t[0], t[1]
+  const t = o.t;
+  h = hashStr(h, t[0]);
+  h = hashStr(h, t[1]);
+
+  // level
+  h ^= o.l; h = Math.imul(h, FNV_PRIME);
+
+  // ability
+  h = hashStr(h, o.a);
+
+  // species name
+  h = hashStr(h, o.s);
+
+  // ao boolean
+  h ^= o.ao ? 1 : 0;
+  h = Math.imul(h, FNV_PRIME);
+
+  // item, nature
+  h = hashStr(h, o.i);
+  h = hashStr(h, o.n);
+
+  const iv = o.iv, ev = o.ev, b = o.b;
+  for (let i = 0; i < 6; i++) {
+    const k = stats[i];
+    h ^= iv[k]; h = Math.imul(h, FNV_PRIME);
+    h ^= ev[k]; h = Math.imul(h, FNV_PRIME);
+    h ^= b[k];  h = Math.imul(h, FNV_PRIME);
+  }
+
+  // resulting stat hp
+  h ^= o.h; h = Math.imul(h, FNV_PRIME);
+
+  // status string
+  h = hashStr(h, o.st);
+
+  // moves
+  h = hashStr(h, o.m0);
+  h = hashStr(h, o.m1);
+  h = hashStr(h, o.m2);
+  h = hashStr(h, o.m3);
+
+  // -------------------------
+  // Second stripped object
+  // -------------------------
+  const o2 = arr[1];
+
+  h ^= o2.l; h = Math.imul(h, FNV_PRIME);
+  h = hashStr(h, o2.a);
+  h = hashStr(h, o2.s);
+
+  h = hashStr(h, o2.m0);
+  h = hashStr(h, o2.m1);
+  h = hashStr(h, o2.m2);
+  h = hashStr(h, o2.m3);
+
+  return (h >>> 0).toString(16).padStart(8, '0');
 }
 
 function updateBoxAnim() {

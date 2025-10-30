@@ -35,13 +35,6 @@ function performCalculations() {
 	var p1field = createField();
 	var p2field = p1field.clone().swap();
 
-
-
-
-
-
-
-	
 	damageResults = calculateAllMoves(damageGen, p1, p1field, p2, p2field);
 	p1 = damageResults[0][0].attacker;
 	p2 = damageResults[1][0].attacker;
@@ -349,7 +342,7 @@ $(document).ready(function () {
 			}
 		}
 	}
-	$(".calc-trigger").bind("change keyup", function () {
+	$(".calc-trigger").on("change keyup", function () {
 		setTimeout(performCalculations, 0);
 		if (switchIn == 10) {
 			setTimeout(refresh_next_in(), 0);

@@ -325,7 +325,11 @@ function box_rolls() {
         var selected_move_index = $('#filter-move option:selected').index()
 
 
-        var all_results = calculateAllMoves(damageGen, p1, p1field, mon, p2field, false);
+        if (!p1.name) {
+            return {"killers": killers, "defenders": defenders, "faster": faster}  
+        }
+        
+        var all_results = memoizedCalc(damageGen, p1, p1field, mon, p2field, false);
         var opposing_results = all_results[0]
         var player_results = all_results[1]
 

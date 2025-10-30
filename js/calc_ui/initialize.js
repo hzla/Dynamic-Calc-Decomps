@@ -113,19 +113,21 @@ $(document).ready(function() {
                 // });
 
                 
-              if (localStorage["right"]) {
-                  var set = localStorage["right"]
-                  $('.opposing').val(set)
-                  $('.opposing').change()
-                  $('.opposing .select2-chosen').text(set)
-                  if ($('.info-group.opp > * > .forme').is(':visible')) {
-                      $('.info-group.opp > * > .forme').change()
-                  }
-              }
+   
               setTimeout(function() {
-                    if (localStorage["left"]) {
-                        $(`[data-id='${localStorage["left"]}']`).click()
-                    }             
+                if (localStorage["left"]) {
+                    $(`[data-id='${localStorage["left"]}']`).click()
+                }    
+
+              if (localStorage["right"]) {
+                var set = localStorage["right"]
+                $('.opposing').val(set)
+                $('.opposing').change()
+                $('.opposing .select2-chosen').text(set)
+                if ($('.info-group.opp > * > .forme').is(':visible')) {
+                    $('.info-group.opp > * > .forme').change()
+                }
+              }         
                 }, 20)
             },
             onNotFound: (src) => console.log(`Not found: ${src}`)
