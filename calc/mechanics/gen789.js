@@ -712,7 +712,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
     var resistedKnockOffDamage = false;
 
 
-    if (move.named('Knock off')) {
+    if (move.named('Knock Off')) {
         var resistedKnockOffDamage = (!defender.item || (0, util_2.isQPActive)(defender, field)) ||
         (defender.named('Dialga-Origin') && defender.hasItem('Adamant Crystal')) ||
         (defender.named('Palkia-Origin') && defender.hasItem('Lustrous Globe')) ||
