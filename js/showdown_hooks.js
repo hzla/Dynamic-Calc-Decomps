@@ -106,7 +106,7 @@ $(document).ready(function() {
   
    $(document).on('click', '.opposing .trainer-pok-container', function() {
         
-        start = performance.now();
+        // start = performance.now();
         if ($(this).hasClass('trainer-pok-container')) {
           let trainerPok = $(this).find('.trainer-pok.right-side')
           if (trainerPok.length > 0) {

@@ -606,7 +606,7 @@ $(".set-selector").change(function () {
 	// lock this event from firing multiple times from one action
 	console.log($(this))
 	if (changingSets && !initializing) {
-		console.log("prevented")
+		// console.log("prevented")
 		return;
 	}
 
@@ -892,8 +892,8 @@ $(".set-selector").change(function () {
 	}
 	lastSetName = fullSetName
 
-	end = performance.now()
-	console.log(`Execution time: ${end - start} ms`);
+	// end = performance.now()
+	// console.log(`Execution time: ${end - start} ms`);
 });
 
 function formatMovePool(moves) {
