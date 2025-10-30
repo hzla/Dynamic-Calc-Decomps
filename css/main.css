@@ -1736,6 +1736,16 @@ table.field {
     display: none;
 }
 
+.resultDamage {
+    cursor: pointer;
+    padding: 1px 2px;
+}
+
+.resultDamage:hover {
+    
+    border: 1px solid rgb(255, 85, 85);
+}
+
 
 
 @media (width <= 1540px) {
@@ -2090,7 +2100,8 @@ table.field {
 
 
 
->>>>>>> master
+
+
 }
 
 

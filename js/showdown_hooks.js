@@ -81,63 +81,6 @@ $(document).ready(function() {
         location.href = $('.calc-select option:selected').attr('data-source')
     })
 
-    if (!params.get('data')) {return}
-
-   jsonMoves = moves
-
-   var g =  parseInt(params.get('gen'));
-   
-   if (backupFiles[TITLE]) {
-        console.log("now loading local data instead of npoint")
-        checkAndLoadScript(`./backups/${backupFiles[TITLE]}.js`, {
-                onLoad: (src) => {
-                    npoint_data = backup_data
-                    loadDataSource(npoint_data)
-
-                    setTimeout(function() {
-                        if (localStorage["left"]) {
-                            var set = localStorage["right"]
-                            $('.opposing').val(set)
-                            $('.opposing').change()
-                            $('.opposing .select2-chosen').text(set)
-                            if ($('.info-group.opp > * > .forme').is(':visible')) {
-                                $('.info-group.opp > * > .forme').change()
-                            }
-                        }
-
-                        if (localStorage["right"]) {
-                            $(`[data-id='${localStorage["left"]}']`).click()
-                        }             
-                    }, 20)
-                },
-                onNotFound: (src) => console.log(`Not found: ${src}`)
-        });    
-        
-   } else {
-        $.get(npoint, function(data){
-            npoint_data = data
-            loadDataSource(data)
-            final_type_chart = construct_type_chart()
-
-            setTimeout(function() {
-                if (localStorage["left"]) {
-                    var set = localStorage["right"]
-                    $('.opposing').val(set)
-                    $('.opposing').change()
-                    $('.opposing .select2-chosen').text(set)
-                    if ($('.info-group.opp > * > .forme').is(':visible')) {
-                        $('.info-group.opp > * > .forme').change()
-                    }
-                }
-
-                if (localStorage["right"]) {
-                    $(`[data-id='${localStorage["left"]}']`).click()
-                }             
-            }, 100)
-           
-        })
-   }
-
    $(document).on('click', '.trainer-name', function() {
         var tr_id = parseInt($(this).parent().parent().attr('data-index'))
 
@@ -359,6 +302,12 @@ $(document).ready(function() {
         localStorage.currentParty = ""
    })
 
+   $(document).on('click', '.resultDamage', function() {
+       const index = $(this).attr('id').slice(-2)
+       $(`#crit${index}`).click()
+       $(this).toggleClass('crit-text')
+   })
+
    $(document).on('click', '.cascade-effects input', function() {
         var effect = $(this).attr('id')
         FIELD_EFFECTS = {}
@@ -404,7 +353,6 @@ $(document).ready(function() {
                     bedtime()
                 }
             } else if (e.altKey && e.key == "c" || e.key == "ç") {
-                console.log("asdf")
                 e.preventDefault()
                 $("#critR1")[0].checked = !$("#critR1")[0].checked
                 $("#critR2")[0].checked = !$("#critR2")[0].checked

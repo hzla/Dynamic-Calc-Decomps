@@ -626,6 +626,7 @@ $(".set-selector").change(function () {
 	if (changingSets && !initializing) {
 		return;
 	}
+	$('.crit-text').removeClass('crit-text')
 	changingSets = true
 
 	// console.log("set changing")

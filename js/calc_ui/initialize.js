@@ -96,14 +96,71 @@ SOURCES = {
   "ced457ba9aa55731616c": "Radical Red 4.1 Normal"
 }
 
+$(document).ready(function() {
+  if (backupFiles[TITLE]) {
+    console.log("now loading local data instead of npoint")
+    checkAndLoadScript(`./backups/${backupFiles[TITLE]}.js`, {
+            onLoad: (src) => {
+                npoint_data = backup_data
+                loadDataSource(npoint_data)
+
+                // loadDefaultLists();
+                // $(".move-selector").select2({
+                //   dropdownAutoWidth: true,
+                //   matcher: function (term, text) {
+                //     return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
+                //   }
+                // });
+
+                
+              if (localStorage["right"]) {
+                  var set = localStorage["right"]
+                  $('.opposing').val(set)
+                  $('.opposing').change()
+                  $('.opposing .select2-chosen').text(set)
+                  if ($('.info-group.opp > * > .forme').is(':visible')) {
+                      $('.info-group.opp > * > .forme').change()
+                  }
+              }
+              setTimeout(function() {
+                    if (localStorage["left"]) {
+                        $(`[data-id='${localStorage["left"]}']`).click()
+                    }             
+                }, 20)
+            },
+            onNotFound: (src) => console.log(`Not found: ${src}`)
+    });    
+    
+  } else {
+    $.get(npoint, function(data){
+        npoint_data = data
+        loadDataSource(data)
+        final_type_chart = construct_type_chart()
+
+        setTimeout(function() {
+            if (localStorage["left"]) {
+                var set = localStorage["right"]
+                $('.opposing').val(set)
+                $('.opposing').change()
+                $('.opposing .select2-chosen').text(set)
+                if ($('.info-group.opp > * > .forme').is(':visible')) {
+                    $('.info-group.opp > * > .forme').change()
+                }
+            }
+
+            if (localStorage["right"]) {
+                $(`[data-id='${localStorage["left"]}']`).click()
+            }             
+        }, 100)
+       
+    })
+  }
+})
+
+
 INC_EM = false
 if (SOURCES[params.get('data')]) {
     TITLE = SOURCES[params.get('data')] || "NONE"
-
-    // redirect for old ren plat url
-    if (params.get('data') == 'bd7fc78f8fa2500dfcca') {
-        location.href = 'https://hzla.github.io/Dynamic-Calc/?data=26138cc1d500b0cf7334&gen=7&switchIn=4&types=6'
-    }
 
     baseGame = ""
     if (TITLE.includes("Inclement") ) {
@@ -125,10 +182,7 @@ if (SOURCES[params.get('data')]) {
     $('.genSelection').hide()
     $('#rom-title').text(TITLE).show()
     if (TITLE.includes("Radical Red") || TITLE.includes("Emerald Imperium")) {
-        // INC_EM = true
         $("#lvl-cap").show()
-        // $("#harsh-sunshine").next().text("Ability Sun")
-        // $("#heavy-rain").next().text("Ability Rain")
     }
 
     if ( TITLE == "Cascade White 2") {
@@ -376,9 +430,6 @@ function loadDataSource(data) {
     } else {
         CHANGES = {}
     }
-
-    moveChanges["NONE"] = CHANGES
-
     
     jsonMoves = data["moves"]
     customMoves = data["custom_moves"]
@@ -457,5 +508,78 @@ function loadDataSource(data) {
         "category": "Status",
         "type": "Normal"
     }    
+}
+
+function loadDefaultLists() {
+  $(".player.set-selector").select2({
+    formatResult: function (object) {
+      if ($("#randoms").prop("checked")) {
+        return object.pokemon;
+      } else {
+        // return object.text;
+        return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.text) : ("<b>" + object.text + "</b>");
+      }
+    },
+    query: function (query) {
+      var pageSize = 30;
+      var results = [];
+      var options = getSetOptions();
+      for (var i = 0; i < options.length; i++) {
+        var option = options[i];
+        // var pokeName = option.pokemon.toUpperCase();
+        var fullName = option.text.toUpperCase();
+        if (!query.term || query.term.toUpperCase().split(" ").every(function (term) {
+          // return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0;
+          return fullName.indexOf(term) === 0 || fullName.indexOf("-" + term) >= 0 || fullName.indexOf(" " + term) >= 0 || fullName.indexOf("(" + term) >= 0;
+          // return fullName.indexOf(term) === 0 || fullName.indexOf("-" + term) >= 0 || fullName.indexOf("(" + term) >= 0;
+        })) {
+          if ($("#randoms").prop("checked")) {
+            if (option.id) results.push(option);
+          } else {
+            results.push(option);
+          }
+        }
+      }
+      query.callback({
+        results: results.slice((query.page - 1) * pageSize, query.page * pageSize),
+        more: results.length >= query.page * pageSize
+      });
+    }
+  });
+  $(".opposing.set-selector").select2({
+    formatResult: function (object) {
+      if ($("#randoms").prop("checked")) {
+        return object.pokemon;
+      } else {
+        // return object.text;
+        return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.text) : ("<b>" + object.text + "</b>");
+      }
+    },
+    query: function (query) {
+      var pageSize = 30;
+      var results = [];
+      var options = getSetOptions();
+      for (var i = 0; i < options.length; i++) {
+        var option = options[i];
+        // var pokeName = option.pokemon.toUpperCase();
+        var fullName = option.text.toUpperCase();
+        if (!query.term || query.term.toUpperCase().split(" ").every(function (term) {
+          // return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0;
+          return fullName.indexOf(term) === 0 || fullName.indexOf("-" + term) >= 0 || fullName.indexOf(" " + term) >= 0 || fullName.indexOf("(" + term) >= 0;
+          // return fullName.indexOf(term) === 0 || fullName.indexOf("-" + term) >= 0 || fullName.indexOf("(" + term) >= 0;
+        })) {
+          if ($("#randoms").prop("checked")) {
+            if (option.id) results.push(option);
+          } else {
+            results.push(option);
+          }
+        }
+      }
+      query.callback({
+        results: results.slice((query.page - 1) * pageSize, query.page * pageSize),
+        more: results.length >= query.page * pageSize
+      });
+    }
+  });
 }
 
