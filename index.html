@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
     <link type="text/css" rel="stylesheet" href="./css/settings-ui.css?2f51c971" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css?1" />
+    <link type="text/css" rel="stylesheet" href="./css/vendor/jquery.terminal-2.43.0.min.css?1" />
     <script src="
     https://cdn.jsdelivr.net/npm/object-hash@3.0.0/dist/object_hash.min.js
     "></script>
@@ -86,7 +87,10 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal@2.45.2/js/jquery.terminal.min.js"></script>
+
 
 </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PSZYZ0XPP"></script>
@@ -1315,10 +1319,13 @@
 
         <div aria-label="Import team" role="region">
             <fieldset class="poke-import">
-                <legend align="center">Battle Notes</legend>
+                <legend align="center" id="toggle-console">Battle Notes</legend>
                 <div id="battle-notes" class="dataTables_wrapper no-footer">
                     <form class="import-team">
                         <div class="notes-text" contenteditable="true">
+        
+                        </div>
+                        <div class="battle-console" contenteditable="true">
         
                         </div>
                     </form>
@@ -1880,7 +1887,7 @@
     <script type="text/javascript">
         var linkExtension = '.html';
     </script>
-    <script type="text/javascript" src="./js/vendor/jquery-1.9.1.min.js"></script>
+    <!-- <script type="text/javascript" src="./js/vendor/jquery-1.9.1.min.js"></script> -->
     <script type="text/javascript" src="./js/vendor/select2/select2.min.js"></script>
     <script type="text/javascript" src="./js/vendor/url-search-params-0.1.2.min.js"></script>
     <script type="text/javascript">
@@ -1910,13 +1917,16 @@
     <script type="text/javascript" src="./js/data/sets/gen2.js?4cb8be40"></script>
     <script type="text/javascript" src="./js/data/sets/gen1.js?a2f6e086"></script>
 
-
+    <script type="text/javascript" src="./js/calc_ui/battle_console.js?0"></script>
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?100193"></script>
     <script type="text/javascript" src="./js/calc_ui/initialize.js?10019b"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?100205"></script>
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?100195"></script>
     <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?10019f"></script>
     <script type="text/javascript" src="./js/showdown_hooks.js?10019b"></script>
+
+
+
 
     <!-- Uncomment to create orders file -->
     <!-- <script type="text/javascript" src="./js/calc_ui/order_builder.js?10019e"></script> -->
@@ -1965,6 +1975,7 @@
     <script type="text/javascript" src="./js/index_randoms_controls.js?3375d6fe"></script>
     <script type="text/javascript" src="./js/moveset_import.js?a707185"></script>
     <script type="text/javascript" src="./js/frags.js?100013"></script>
+
 </div>
 
 

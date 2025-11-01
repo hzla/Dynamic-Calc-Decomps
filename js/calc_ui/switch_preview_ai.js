@@ -75,6 +75,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
 
     
+    // console.log(`defender name: ${defender.name}, currentTrainerPok: ${currentTrainerPok}, iscurrent ${isCurrent}`)
 
 
 
@@ -82,6 +83,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         bestDmgAgainstCurrent = 0
         bestMoveAgainstCurrent = ""
         bestMoveAgainstCurrentIndex = 0
+        currentAiMoves = get_current_in().moves
 
         bestAiDmgAgainstCurrent = 0
         bestAiMoveAgainstCurrent = ""
@@ -321,7 +323,7 @@ function isBadOdds(p1, p2) {
     return [false, ""];
 }
 
-const unseenAbilities = ["Bull Rush", "Illusion", "Slow Start", "Quill Rush","Bull Rush", "Dauntless Shield", "Intrepid Sword", "Download", "Orichalcum Pulse", "Hadron Engine", "Electric Surge", "Grassy Surge", "Psychic Surge", "Seed Sower", "Misty Surge", "Desolate Land", "Primordial Sea", "Delta Stream"]
+const unseenAbilities = ["Bull Rush", "Illusion", "Slow Start", "Quill Rush","Bull Rush", "Dauntless Shield", "Intrepid Sword", "Download", "Orichalcum Pulse", "Hadron Engine", "Electric Surge", "Grassy Surge", "Psychic Surge", "Seed Sower", "Misty Surge", "Desolate Land", "Primordial Sea", "Delta Stream", "Protean", "Libero"]
 
 const defaultOffAbilities = ['Flash Fire','Minus', 'Plus','Unburden','Stakeout'];
 
@@ -492,11 +494,11 @@ function get_next_in() {
         if (localStorage.switchInfo == '1') {
             // const s = performance.now();
 
-            if (matchupCache.has(currentKey)) {
-                matchup = matchupCache.get(currentKey)
-            } else {
-               matchup = postKoMatchupData(player_results, results) 
-            }        
+            // if (matchupCache.has(currentKey)) {
+            //     matchup = matchupCache.get(currentKey)
+            // } else {
+            matchup = postKoMatchupData(player_results, results) 
+            // }        
             // const e = performance.now();
             // console.log(`PostKoMatchupData vs ${p2.name} Execution time: ${e - s} ms`); 
             matchup["type_matchup"] = type_matchup

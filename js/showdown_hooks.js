@@ -8,12 +8,12 @@ $(document).ready(function() {
 
           const isRelevantElement =
             event.target instanceof Element &&
-              (['input', 'textarea', 'select'].includes(
+              (['input', 'select'].includes(
                 event.target.tagName.toLowerCase()
               ) ||
             event.target.hasAttribute('contenteditable'))
 
-          refresh_next_in()
+          
           if (isRelevantElement) {
             const viewportMeta = document.querySelector('meta[name="viewport"]')
             if (viewportMeta) {
@@ -23,6 +23,7 @@ $(document).ready(function() {
                   defaultViewportContent + ', maximum-scale=1.0'
                 )
               }, 50)
+              refresh_next_in()
 
               setTimeout(() => {
                 viewportMeta.setAttribute('content', defaultViewportContent)
@@ -30,7 +31,7 @@ $(document).ready(function() {
             }
           }
         },
-        true
+        false
     )
 
     // Apply highest damage roll to max HP

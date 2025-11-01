@@ -25,6 +25,8 @@ bestMoveAgainstCurrentIndex = 0
 bestAiDmgAgainstCurrent = 0
 bestAiMoveAgainstCurrent = ""
 calcingForSwitchIns = false
+changingSets = false;
+terminalStarted = false;
 
 genInfo = {
     "num": 8,
@@ -114,21 +116,21 @@ $(document).ready(function() {
 
                 
    
-              setTimeout(function() {
-                if (localStorage["left"]) {
-                    $(`[data-id='${localStorage["left"]}']`).click()
-                }    
+              // setTimeout(function() {
+              //   if (localStorage["left"]) {
+              //       $(`[data-id='${localStorage["left"]}']`).click()
+              //   }    
 
-              if (localStorage["right"]) {
-                var set = localStorage["right"]
-                $('.opposing').val(set)
-                $('.opposing').change()
-                $('.opposing .select2-chosen').text(set)
-                if ($('.info-group.opp > * > .forme').is(':visible')) {
-                    $('.info-group.opp > * > .forme').change()
-                }
-              }         
-                }, 20)
+              //   if (localStorage["right"]) {
+              //     var set = localStorage["right"]
+              //     $('.opposing').val(set)
+              //     $('.opposing').change()
+              //     $('.opposing .select2-chosen').text(set)
+              //     if ($('.info-group.opp > * > .forme').is(':visible')) {
+              //         $('.info-group.opp > * > .forme').change()
+              //     }
+              //   }         
+              // }, 20)
             },
             onNotFound: (src) => console.log(`Not found: ${src}`)
     });    
@@ -509,7 +511,7 @@ function loadDataSource(data) {
         "bp": 0,
         "category": "Status",
         "type": "Normal"
-    }    
+    }  
 }
 
 function loadDefaultLists() {

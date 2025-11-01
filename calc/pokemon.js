@@ -108,6 +108,38 @@ var Pokemon = (function () {
         }
         return !!(this.ability && abilities.includes(this.ability));
     };
+    Pokemon.prototype.getDamagingMovePool = function() {
+        let pool = []
+        let moveObjs = []
+
+        let speciesId = this.species.id
+
+        if (this.name.includes("-Mega")) {
+            speciesId = this.species.id.split("mega")[0]
+        } 
+           
+        if (typeof learnsets[speciesId] === 'undefined' || typeof learnsets[speciesId].ls === 'undefined') {
+            return this.moves
+        }
+
+        for (var tm of learnsets[speciesId].tms) {
+            pool.push(tm)
+        }
+
+        for (var ls of learnsets[speciesId].ls) {
+            pool.push(ls[1])
+        }
+
+        pool = [...new Set(pool)]
+
+        for (var move of pool) {
+            let moveObj = new calc.Move(gen, moves[move] ? move : "(No Move)", {ability: this.ability, item: this.item})
+            if (moveObj.category != "Status") {
+                moveObjs.push(moveObj) 
+            }   
+        }
+        return moveObjs
+    };
     Pokemon.prototype.hasItem = function () {
         var items = [];
         for (var _i = 0; _i < arguments.length; _i++) {

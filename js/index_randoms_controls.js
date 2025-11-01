@@ -307,6 +307,19 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=t
 	return results;
 }
 
+function calculateLeftMoves(gen, p1, p1field, p2, p2field) {
+	var results = [[], []];
+	
+	var movePool = p1.getDamagingMovePool()
+
+	for (var i = 0; i < movePool.length; i++) {
+		results[0][i] = calc.calculate(gen, p1, p2, movePool[i], p1field);
+	}
+	return results;
+}
+
+
+
 $(".mode").change(function () {
 	var params = new URLSearchParams(window.location.search);
 	params.set('mode', $(this).attr("id"));

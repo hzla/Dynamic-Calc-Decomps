@@ -1826,9 +1826,7 @@ $(document).ready(function () {
         // })
    }
 
-   // if (switchIn == 11) {
-   //      $('.trainer-pok-list.opposing').addClass('no-switch')
-   // }
+
     
 
 	if (damageGen <= 5 && switchIn < 10 && TITLE != "Platinum Redux 2.6" || TITLE.includes("Lumi")) {
@@ -1854,8 +1852,20 @@ $(document).ready(function () {
 			return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
 		}
 	});
-	$(".terrain-trigger").bind("change keyup", getTerrainEffects);
-	
 
-	
+    if (localStorage["left"]) {
+        $(`[data-id='${localStorage["left"]}']`).click()
+    }    
+
+    if (localStorage["right"]) {
+      var set = localStorage["right"]
+      $('.opposing').val(set)
+      $('.opposing').change()
+      $('.opposing .select2-chosen').text(set)
+      if ($('.info-group.opp > * > .forme').is(':visible')) {
+          $('.info-group.opp > * > .forme').change()
+      }
+    }         
+
+	$(".terrain-trigger").bind("change keyup", getTerrainEffects);	
 });

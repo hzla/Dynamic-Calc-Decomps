@@ -194,7 +194,24 @@ function get_box() {
                 continue
             }
 
-            var pok = `<img class="trainer-pok left-side ${sprite_style}" src="./img/${sprite_style}/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
+            var set_name = names[i].split("[")[0].trim()
+            var highlights = ""
+
+            if (typeof monHighlights != "undefined") {
+                if (set_name in monHighlights.defenders) {
+                    highlights += ' defender'
+                }
+                if (set_name in monHighlights.killers) {
+                    highlights += ' killer'
+                }
+                if (set_name in monHighlights.faster) {
+                    highlights += ' faster'
+                }
+                if (set_name in monHighlights.baiters) {
+                    highlights += ' baiter'
+                }
+            }
+            var pok = `<img class="trainer-pok left-side ${sprite_style} ${highlights}" src="./img/${sprite_style}/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
 
             box_html += pok
         }   
@@ -209,7 +226,13 @@ function get_box() {
     }
     filter_box()
 
+
+
     return box
+}
+
+function applyHighlights() {
+
 }
 
 function filter_box() {
@@ -265,8 +288,8 @@ function filter_box() {
     }
 }
 
-function box_rolls() {
-    if (!parseInt(localStorage.boxrolls)) {
+function box_rolls(forceActive=false, dealtMinRoll=false, takenMaxRoll=-false) {
+    if (!parseInt(localStorage.boxrolls) && !forceActive) {
         return
     }
     var box = get_box()
@@ -276,15 +299,17 @@ function box_rolls() {
 
 
 
-    if ($("#min-dealt").val() == "") {
+    if (dealt_min_roll == "" && !dealtMinRoll) {
         dealt_min_roll=10000000
-    } 
-
-    if ($("#max-taken").val() == "") {
-        taken_max_roll=-100000
+    } else {
+        dealt_min_roll = dealtMinRoll
     }
 
-    
+    if (taken_max_roll == "" && !takenMaxRoll) {
+        taken_max_roll=-100000
+    } else {
+        taken_max_roll = takeMaxRoll
+    }
 
     $('.killer').removeClass('killer')
     $('.defender').removeClass('defender')
@@ -295,7 +320,7 @@ function box_rolls() {
 
     var p1info = $("#p2");
     var p1 = createPokemon(p1info);
-    var p1hp = $('#p2').find('#currentHpL1').val()
+    var p1hp = p1info.find('#currentHpL1').val()
     var p1speed = parseInt($('.total.totalMod')[1].innerHTML)
 
     if (p1.ability == "Intimidate") {
@@ -322,8 +347,6 @@ function box_rolls() {
         }
 
         var monHp = mon.originalCurHP
-        var selected_move_index = $('#filter-move option:selected').index()
-
 
         if (!p1.name) {
             return {"killers": killers, "defenders": defenders, "faster": faster}  
@@ -387,6 +410,16 @@ function can_topkill(damages, hp) {
         }
     }
     return (kill_count > 0)
+}
+
+function turnsToKill(damages, hp) {
+    if (hp < 0) return 1;
+
+    if (damages.length == 2) {
+        damages = damages[0].map((val, i) => val + damages[1][i])
+    }
+
+    return Math.ceil(hp / damages[damages.length - 1])
 }
 
 function get_current_learnset() {

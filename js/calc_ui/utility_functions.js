@@ -2,49 +2,8 @@
 
 function cleanString(str) {str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()};
 
-// function hashObjectDirect(obj, hash = 0x811c9dc5) {
-//   if (obj && typeof obj === 'object') {
-//     if (Array.isArray(obj)) {
-//       hash = hashChar(hash, 91); // '['
-//       for (let i = 0; i < obj.length; i++) {
-//         if (i > 0) hash = hashChar(hash, 44); // ','
-//         hash = hashObjectDirect(obj[i], hash);
-//       }
-//       return hashChar(hash, 93); // ']'
-//     }
-//     const keys = Object.keys(obj).sort();
-//     hash = hashChar(hash, 123); // '{'
-//     for (let i = 0; i < keys.length; i++) {
-//       if (i > 0) hash = hashChar(hash, 44);
-//       hash = hashString(hash, keys[i]);
-//       hash = hashChar(hash, 58); // ':'
-//       hash = hashObjectDirect(obj[keys[i]], hash);
-//     }
-//     return hashChar(hash, 125); // '}'
-//   }
-//   return hashString(hash, JSON.stringify(obj));
-// }
-
-// function hashChar(hash, code) {
-//   hash ^= code;
-//   return Math.imul(hash, 0x01000193);
-// }
-
-// function hashString(hash, str) {
-//   for (let i = 0; i < str.length; i++) {
-//     hash ^= str.charCodeAt(i);
-//     hash = Math.imul(hash, 0x01000193);
-//   }
-//   return hash;
-// }
-
-// function hashObject(obj) {
-//   return (hashObjectDirect(obj) >>> 0).toString(16).padStart(8, '0');
-// }
-
 const FNV_OFFSET = 0x811c9dc5;
 const FNV_PRIME  = 0x01000193;
-
 const stats = ["hp","atk","def","spa","spd","spe"];
 
 function hashStr(h, s) {
