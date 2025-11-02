@@ -288,8 +288,8 @@ function filter_box() {
     }
 }
 
-function box_rolls(forceActive=false, dealtMinRoll=false, takenMaxRoll=-false) {
-    if (!parseInt(localStorage.boxrolls) && !forceActive) {
+function box_rolls() {
+    if (!parseInt(localStorage.boxrolls)) {
         return
     }
     var box = get_box()
@@ -299,17 +299,15 @@ function box_rolls(forceActive=false, dealtMinRoll=false, takenMaxRoll=-false) {
 
 
 
-    if (dealt_min_roll == "" && !dealtMinRoll) {
+    if (dealt_min_roll == "") {
         dealt_min_roll=10000000
-    } else {
-        dealt_min_roll = dealtMinRoll
     }
 
-    if (taken_max_roll == "" && !takenMaxRoll) {
+    if (taken_max_roll == "" ) {
         taken_max_roll=-100000
-    } else {
-        taken_max_roll = takeMaxRoll
-    }
+    } 
+
+
 
     $('.killer').removeClass('killer')
     $('.defender').removeClass('defender')
