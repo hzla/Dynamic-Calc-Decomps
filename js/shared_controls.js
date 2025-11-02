@@ -549,8 +549,8 @@ function refresh_next_in() {
 	var next_poks = get_next_in()
 
 	var trpok_html = ""
+
 	for (i in next_poks ) {
-		
 		var pok_name = next_poks[i][0].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
 		for (let n = 0; n < 4; n++) {
 			if (!next_poks[i][4][n]) {

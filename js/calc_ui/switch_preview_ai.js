@@ -78,7 +78,9 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         bestDmgAgainstCurrent = 0
         bestMoveAgainstCurrent = ""
         bestMoveAgainstCurrentIndex = 0
+
         currentAiMoves = get_current_in().moves
+
 
         bestAiDmgAgainstCurrent = 0
         bestAiMoveAgainstCurrent = ""
@@ -141,6 +143,8 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             }
         }   
     }
+
+
 
     // AI can see it's own focus sash
     if (defender.item == 'Focus Sash' && attackerFastestKill > 0) {
@@ -248,6 +252,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         }
     }
 
+
    
     if (defenderBestMoveHasPrio && !attackerBestMoveHasPrio) {
         movesFirst = true
@@ -273,6 +278,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
     disableKOChanceCalcs = false
     matchupCache.set(currentKey, matchupData)
+
     return matchupData
 }
 
@@ -391,7 +397,7 @@ function get_next_in() {
     }
     lvlCap = parseInt($('#lvl-cap').val())
 
-    var trainer_poks = CURRENT_TRAINER_POKS
+    var trainer_poks = [...CURRENT_TRAINER_POKS]
     var player_type1 = $('.type1').first().val()
     var player_type2 = $('.type2').first().val() 
     
@@ -423,12 +429,14 @@ function get_next_in() {
     let player_results_list = []
     let ai_results_list = []
 
-    for (i in trainer_poks) {
+    for (let subIndex in trainer_poks) {
         analysis = ""
 
-        p2 = createPokemon(trainer_poks[i].slice(0,-3))
+        p2 = createPokemon(trainer_poks[subIndex].slice(0,-3))
 
         let isCurrent = currentp2.name == p2.name
+
+
 
         // Remove intimidate unless you're calcing against the current in pokemon and intimidate is on
         // TODO: fix so that if current player mon has been intimidated, it needs to apply the dmg reduction to dmg done to all ai trainer pokemon
@@ -477,15 +485,16 @@ function get_next_in() {
         }
        
 
-        let pok_name = trainer_poks[i].split(" (")[0]
-        let tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
+        let pok_name = trainer_poks[subIndex].split(" (")[0]
+        let tr_name = trainer_poks[subIndex].split(" (")[1].replace(")", "").split("[")[0]
         let pok_data = SETDEX_BW[pok_name][tr_name]
 
-        let sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
+        let sub_index = parseInt(trainer_poks[subIndex].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
         let types = pokedex[pok_name].types
         let type_matchup = getTypeMatchup([player_type1, player_type2], types)
 
         let switchInScore = 0
+
 
 
         matchup = {}
@@ -502,7 +511,16 @@ function get_next_in() {
             // if (matchupCache.has(currentKey)) {
             //     matchup = matchupCache.get(currentKey)
             // } else {
-            matchup = postKoMatchupData(player_results, results) 
+            // console.log(i)
+            // console.log(trainer_poks)
+            // console.log(trainer_poks[subIndex]) 
+            matchup = postKoMatchupData(player_results, results)
+            // console.log(trainer_poks) 
+            // console.log(trainer_poks[subIndex]) 
+
+            if (!trainer_poks[subIndex]) {
+                console.log("wtf")
+            }
             // }        
             // const e = performance.now();
             // console.log(`PostKoMatchupData vs ${p2.name} Execution time: ${e - s} ms`); 
@@ -563,6 +581,8 @@ function get_next_in() {
                 }
             }
 
+   
+
 
 
             if (switchInScore == 0) {
@@ -608,7 +628,8 @@ function get_next_in() {
             analysis += `<div class='bp-info switch-info switch-score'>${Math.round(switchInScore * 100) / 100 }</div></div>` 
 
         }
-        ranked_trainer_poks.push([trainer_poks[i], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup])
+
+        ranked_trainer_poks.push([trainer_poks[subIndex], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup])
     }
 
     
@@ -625,11 +646,12 @@ function get_next_in() {
     }
 
 
+
     ranked_trainer_poks.sort(sort_subindex)
 
 
-    
     console.log(ranked_trainer_poks)
+    
     return ranked_trainer_poks
 }
 
