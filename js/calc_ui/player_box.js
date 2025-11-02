@@ -299,15 +299,15 @@ function box_rolls() {
 
 
 
-    if (dealt_min_roll == "") {
+    if ($("#min-dealt").val() == "") {
         dealt_min_roll=10000000
-    }
-
-    if (taken_max_roll == "" ) {
-        taken_max_roll=-100000
     } 
 
+    if ($("#max-taken").val() == "") {
+        taken_max_roll=-100000
+    }
 
+    
 
     $('.killer').removeClass('killer')
     $('.defender').removeClass('defender')
@@ -318,7 +318,7 @@ function box_rolls() {
 
     var p1info = $("#p2");
     var p1 = createPokemon(p1info);
-    var p1hp = p1info.find('#currentHpL1').val()
+    var p1hp = $('#p2').find('#currentHpL1').val()
     var p1speed = parseInt($('.total.totalMod')[1].innerHTML)
 
     if (p1.ability == "Intimidate") {
@@ -345,6 +345,8 @@ function box_rolls() {
         }
 
         var monHp = mon.originalCurHP
+        var selected_move_index = $('#filter-move option:selected').index()
+
 
         if (!p1.name) {
             return {"killers": killers, "defenders": defenders, "faster": faster}  
