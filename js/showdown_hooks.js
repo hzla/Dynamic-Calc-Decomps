@@ -1,38 +1,11 @@
+// Event bindings for calc ui
+
+
 $(document).ready(function() {
-    document.addEventListener(
-        'blur',
-        (event) => {
-          const defaultViewportContent = 'width=device-width, initial-scale=1.0'
-
-          localStorage.lvlCap = $('#lvl-cap').val()
-
-          const isRelevantElement =
-            event.target instanceof Element &&
-              (['input', 'select'].includes(
-                event.target.tagName.toLowerCase()
-              ) ||
-            event.target.hasAttribute('contenteditable'))
-
-          
-          if (isRelevantElement) {
-            const viewportMeta = document.querySelector('meta[name="viewport"]')
-            if (viewportMeta) {
-              setTimeout(() => {
-                viewportMeta.setAttribute(
-                  'content',
-                  defaultViewportContent + ', maximum-scale=1.0'
-                )
-              }, 50)
-              refresh_next_in()
-
-              setTimeout(() => {
-                viewportMeta.setAttribute('content', defaultViewportContent)
-              }, 100)
-            }
-          }
-        },
-        false
-    )
+    $(document).on('blur', 'input, select', function() {
+        refresh_next_in()
+        localStorage.lvlCap = $('#lvl-cap').val()
+    })
 
     // Apply highest damage roll to max HP
     $('.results-right label').on('contextmenu', function(e) {
@@ -154,39 +127,6 @@ $(document).ready(function() {
       $('#learnset-container').hide()
    })
 
-   sort_tms = function () {
-      let rows = $(".tms .ls-row").get();
-
-      rows.sort(function (a, b) {
-        let aText = $(a).find(".ls-level").text();
-        let bText = $(b).find(".ls-level").text();
-
-        // Extract type (TM/HM) and number
-        let aMatch = aText.match(/(TM|HM)(\d+)/);
-        let bMatch = bText.match(/(TM|HM)(\d+)/);
-
-        if (!aMatch || !bMatch) return 0;
-
-        let aType = aMatch[1];
-        let bType = bMatch[1];
-        let aNum = parseInt(aMatch[2], 10);
-        let bNum = parseInt(bMatch[2], 10);
-
-        // Sort by type: TM first, then HM
-        if (aType !== bType) {
-          return aType === "TM" ? -1 : 1;
-        }
-
-        // Sort by number
-        return aNum - bNum;
-      });
-
-      // Append in sorted order
-      $(".tms").append(rows);
-    }
-
-
-
    $(document).on('click', '#box-remove', function() {
         var species = $('.set-selector')[0].value.split(" (")[0]
         var sets = JSON.parse(localStorage.customsets)
@@ -230,11 +170,6 @@ $(document).ready(function() {
       // navigate (reload) to the new URL
       window.location.href = url.toString();
     }
-
-
-   //  $(document).on('click', '#switch-preview', function() {
-   //      toggleParam('noSwitch')
-   // })
 
     $(document).on('contextmenu', '.trainer-pok.right-side', function(e) {
         e.preventDefault()

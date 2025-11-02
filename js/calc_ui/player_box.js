@@ -422,6 +422,37 @@ function turnsToKill(damages, hp) {
     return Math.ceil(hp / damages[damages.length - 1])
 }
 
+function sortTms () {
+      let rows = $(".tms .ls-row").get();
+
+      rows.sort(function (a, b) {
+        let aText = $(a).find(".ls-level").text();
+        let bText = $(b).find(".ls-level").text();
+
+        // Extract type (TM/HM) and number
+        let aMatch = aText.match(/(TM|HM)(\d+)/);
+        let bMatch = bText.match(/(TM|HM)(\d+)/);
+
+        if (!aMatch || !bMatch) return 0;
+
+        let aType = aMatch[1];
+        let bType = bMatch[1];
+        let aNum = parseInt(aMatch[2], 10);
+        let bNum = parseInt(bMatch[2], 10);
+
+        // Sort by type: TM first, then HM
+        if (aType !== bType) {
+          return aType === "TM" ? -1 : 1;
+        }
+
+        // Sort by number
+        return aNum - bNum;
+      });
+
+      // Append in sorted order
+      $(".tms").append(rows);
+    }
+
 function get_current_learnset() {
     var pok_name = createPokemon($("#p1")).name
     if (pok_name.includes("-Mega")) {
@@ -467,7 +498,7 @@ function get_current_learnset() {
     }
     
     $(".tms").html(tm_html)
-    sort_tms()
+    sortTms()
 
     let evo_html = ""
 

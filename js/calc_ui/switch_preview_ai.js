@@ -73,12 +73,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let currentTrainerPok = $('.set-selector')[3].value.split(" (")[0]
     let isCurrent = currentTrainerPok == defender.name
 
-
-    
-    // console.log(`defender name: ${defender.name}, currentTrainerPok: ${currentTrainerPok}, iscurrent ${isCurrent}`)
-
-
-
+    // These variables are also referenced by the battle console
     if (isCurrent) {
         bestDmgAgainstCurrent = 0
         bestMoveAgainstCurrent = ""
@@ -89,6 +84,8 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         bestAiMoveAgainstCurrent = ""
     }
 
+
+    // check player moves against AI pok
     for (moveIndex in attacker.moves) {
         let move = attacker.moves[moveIndex]
         damage = attackerVDefenderResults[moveIndex].damage
@@ -119,6 +116,12 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             isOhkod = true
         }
 
+        // AI sees itself at 90% hp when it has life orb
+        if (turnsToKill == 2 && defender.item == "Life Orb" && damage[8] >= (defender.originalCurHP * 0.9)) {
+            isOhkod = true
+            turnsToKill = 1
+        }
+
         if (turnsToKill < attackerFastestKill) {
             attackerFastestKill = turnsToKill
             attackerBestMove = move.name
@@ -143,6 +146,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         attackerFastestKill = Math.max(2, attackerFastestKill)
     }
 
+    // Check ai moves against player pok
     for (moveIndex in defender.moves) {
         let move = defender.moves[moveIndex]
         damage = defenderVAttackerResults[moveIndex].damage
