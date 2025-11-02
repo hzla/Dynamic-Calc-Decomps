@@ -622,15 +622,15 @@ $(".set-selector").change(function () {
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 
-	if (setName != 'Blank Set' && typeof SETDEX_BW[pokemonName][setName] != undefined) {
-		currentSetLevel = SETDEX_BW[pokemonName][setName]["level"]
+	if (setName != 'Blank Set' && setdex[pokemonName] && typeof setdex[pokemonName][setName] != undefined) {
+		currentSetLevel = setdex[pokemonName][setName]["level"]
 	}
 
 
 	if ($(this).hasClass('opposing')) {
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
 		localStorage["right"] = fullSetName
-		var sprite = SETDEX_BW
+		var sprite = setdex
 		var right_max_hp = $("#p2 .max-hp").text()
 		$("#p2 .current-hp").val(right_max_hp)//.change()
 
@@ -643,12 +643,12 @@ $(".set-selector").change(function () {
 
 
 	if ($(this).hasClass('opposing')) {
-		if (SETDEX_BW && SETDEX_BW[pokemonName]) {
+		if (setdex && setdex[pokemonName]) {
 			if (setName != "Blank Set") {
-				// var sprite = SETDEX_BW[pokemonName][setName]["sprite"]
+				// var sprite = setdex[pokemonName][setName]["sprite"]
 				
-				var battle_type = SETDEX_BW[pokemonName][setName]["battle_type"]
-				var ai = SETDEX_BW[pokemonName][setName]["ai_tags"]
+				var battle_type = setdex[pokemonName][setName]["battle_type"]
+				var ai = setdex[pokemonName][setName]["ai_tags"]
 				
 
 
@@ -668,8 +668,8 @@ $(".set-selector").change(function () {
 					}	
 				}
 
-				if (SETDEX_BW[pokemonName][setName]["partner"]) {
-					$(".nav-tag.partner").show().attr('data-next', SETDEX_BW[pokemonName][setName]["partner"])
+				if (setdex[pokemonName][setName]["partner"]) {
+					$(".nav-tag.partner").show().attr('data-next', setdex[pokemonName][setName]["partner"])
 				} else {
 					$(".nav-tag.partner").hide()
 				}
@@ -689,7 +689,7 @@ $(".set-selector").change(function () {
 					$('#doubles-format').click()
 				}
 
-				let enemy_moves = SETDEX_BW[pokemonName][setName].moves
+				let enemy_moves = setdex[pokemonName][setName].moves
 
 				$('#filter-move').html(`<option value="All Moves">All Moves</option>`)
 				
@@ -720,7 +720,7 @@ $(".set-selector").change(function () {
 	       box_rolls() 
 	    } 
 	} else {
-		if (SETDEX_BW) {
+		if (setdex) {
 			var pokesprite = pokemonName.toLowerCase().replace(" ", "").replace(".","").replace("’","")
 			
 			$('#p1 .poke-sprite').attr('src', `./img/${playerSprites}/${pokesprite}.${suffix}`)
@@ -876,8 +876,8 @@ $(".set-selector").change(function () {
 			pokeObj.find(".gender").val("");
 		} else pokeObj.find(".gender").parent().show();
 
-		if (typeof SETDEX_BW[pokemonName] != "undefined" && typeof SETDEX_BW[pokemonName][setName] != "undefined" && SETDEX_BW[pokemonName][setName]["status"]) {
-			pokeObj.find(".status").val(SETDEX_BW[pokemonName][setName]["status"])//.change();
+		if (typeof setdex[pokemonName] != "undefined" && typeof setdex[pokemonName][setName] != "undefined" && setdex[pokemonName][setName]["status"]) {
+			pokeObj.find(".status").val(setdex[pokemonName][setName]["status"])//.change();
 		} else {
 			pokeObj.find(".status").val("Healthy")//.change();
 		}
@@ -1377,7 +1377,7 @@ var SETDEX = [
 	typeof SETDEX_GSC === 'undefined' ? {} : SETDEX_GSC,
 	typeof SETDEX_ADV === 'undefined' ? {} : SETDEX_ADV,
 	typeof SETDEX_DPP === 'undefined' ? {} : SETDEX_DPP,
-	typeof SETDEX_BW === 'undefined' ? {} : SETDEX_BW,
+	typeof setdex === 'undefined' ? {} : setdex,
 	typeof SETDEX_XY === 'undefined' ? {} : SETDEX_XY,
 	typeof SETDEX_SM === 'undefined' ? {} : SETDEX_SM,
 	typeof SETDEX_SS === 'undefined' ? {} : SETDEX_SS,

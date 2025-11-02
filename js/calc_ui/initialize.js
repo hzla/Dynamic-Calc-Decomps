@@ -27,6 +27,18 @@ bestAiMoveAgainstCurrent = ""
 calcingForSwitchIns = false
 changingSets = false;
 terminalStarted = false;
+partnerName = null 
+
+bestDmgAgainstCurrent = 0
+bestMoveAgainstCurrent = ""
+bestMoveAgainstCurrentIndex = 0
+currentAiMoves = []
+
+bestAiDmgAgainstCurrent = 0
+bestAiMoveAgainstCurrent = ""
+currentTypeMatchup = 2
+// TR_NAMES = get_trainer_names()
+setSettingsDefaults()
 
 genInfo = {
     "num": 8,
@@ -52,10 +64,8 @@ if (damageGen <= 3) {
     $('#player-poks-filter').remove()
 }
 
-SETDEX_BW = null
-TR_NAMES = null
-BACKUP_MODE = params.get('backup')
-params = new URLSearchParams(window.location.search)
+// SETDEX_BW = null
+// TR_NAMES = null
 
 SOURCES = {
   "9aa37533b7c000992d92": "Blaze Black/Volt White",
@@ -210,6 +220,12 @@ function initCalc() {
   var script= document.createElement('script');
   script.src= './js/shared_controls.js?0b3ea005';
   head.appendChild(script);
+
+  memoizedCalc = deepMemoize(calculateAllMoves);
+}
+
+function setSettingsDefaults() {
+
   saveUploaded = false
   boxSprites = ["pokesprite", "pokesprite"]
   themes = ["old", "new"]
@@ -218,9 +234,6 @@ function initCalc() {
   lastSetName = ""
   disableKOChanceCalcs = false
   start = 0
-
-  memoizedCalc = deepMemoize(calculateAllMoves);
-
   pokChanges = {}
   calcing = false
 
@@ -307,8 +320,8 @@ function initCalc() {
   setSettingsTogglesFromLocalStorage()
 }
 
-// Settings toggle
 
+// Settings toggle
 function setSettingsTogglesFromLocalStorage() {
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)

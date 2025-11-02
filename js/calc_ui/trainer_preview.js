@@ -1,7 +1,7 @@
 
 // Default trainer name list
 function get_trainer_names() {
-    var all_poks = SETDEX_BW
+    var all_poks = setdex
     var trainer_names = [] 
 
     for (const [pok_name, poks] of Object.entries(all_poks)) {
@@ -48,7 +48,11 @@ function get_custom_trainer_names() {
 // Gets the trainers list of pokemon
 function get_trainer_poks(trainer_name)
 {
-    var all_poks = SETDEX_BW
+    if (typeof TR_NAMES == 'undefined') {
+        return []
+    }
+
+    var all_poks = setdex
     var matches = []
 
     trainer_name = trainer_name.replace("*", "")
@@ -108,7 +112,7 @@ function get_current_in() {
     var tr_name = setInfo.split(" (")[1].replace(")", "").split("[")[0]
 
     box_rolls()
-    return SETDEX_BW[pok_name][tr_name]
+    return setdex[pok_name][tr_name]
 }
 
 function setOpposing(id) {

@@ -82,6 +82,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
         bestAiDmgAgainstCurrent = 0
         bestAiMoveAgainstCurrent = ""
+        currentTypeMatchup = 2
     }
 
 
