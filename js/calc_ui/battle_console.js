@@ -213,7 +213,7 @@ function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false
             let min_roll = opposing_dmg[0]
 
 
-            let turns = turnsToKill(opposing_dmg, monHp)
+            let turns = getTurnsToKill(opposing_dmg, monHp)
 
             if (turns < fastestKill) {
                 fastestKill = turns

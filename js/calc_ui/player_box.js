@@ -412,7 +412,7 @@ function can_topkill(damages, hp) {
     return (kill_count > 0)
 }
 
-function turnsToKill(damages, hp) {
+function getTurnsToKill(damages, hp) {
     if (hp < 0) return 1;
 
     if (damages.length == 2) {
