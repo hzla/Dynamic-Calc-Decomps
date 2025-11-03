@@ -288,6 +288,11 @@ input[type="file"] {
     width: calc(100% - 40px);
 }
 
+.ls-row.illegal div {
+    color: #FF5555;
+    text-decoration: line-through;
+}
+
 #nav-tags div {
     background: none;   
     color: #bb86fc;
@@ -1682,7 +1687,7 @@ table.field {
     resize: vertical;
     width: calc(100% - 14px);
     padding: 4px;
-    max-height: 80vh;
+/*    max-height: 80vh;*/
     overflow: scroll;
 }
 

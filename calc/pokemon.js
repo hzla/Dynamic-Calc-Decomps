@@ -122,12 +122,23 @@ var Pokemon = (function () {
             return this.moves
         }
 
+        // Legal tms are defined when a user uploads a .sav file
         for (var tm of learnsets[speciesId].tms) {
-            pool.push(tm)
+            if (typeof localStorage.legalTms != 'undefined') {
+                let legalTms = localStorage.legalTms.split(",")
+
+                if (legalTms.includes(tm)) {
+                    pool.push(tm)
+                }
+            } else {
+                pool.push(tm)
+            }       
         }
 
         for (var ls of learnsets[speciesId].ls) {
-            pool.push(ls[1])
+            if (this.level >= ls[0]) {
+                pool.push(ls[1])
+            } 
         }
 
         pool = [...new Set(pool)]

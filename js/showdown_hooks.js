@@ -42,8 +42,6 @@ $(document).ready(function() {
             $('.field-info').attr('class', 'field-info')
             $('.field-info').addClass(weather)
 
-            let terrain = $('#terrain-bar input:checked').first().val().toLowerCase()
-            $('.field-info').addClass(terrain)
         }, 1)  
     })
 

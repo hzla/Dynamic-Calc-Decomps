@@ -51,6 +51,7 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
 
             savExt = saveFileName.slice(-3)
 
+
             reader.onload = function(e) {
                 console.log("reloading new save file")
                 // Convert the binary string to ArrayBuffer for easier access
@@ -63,7 +64,8 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                     if (buffer.byteLength < 100000) {
                       buffer = extractSaveState(buffer)  
                     }
-                    
+
+                   
                     buffer = new Uint8Array(buffer.slice(205168, 397312).slice(0, 157477)).buffer.slice(
                         buffer.byteOffset,
                         buffer.byteOffset + buffer.byteLength
@@ -73,6 +75,7 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
 
 
                 saveFile = new DataView(buffer);
+
                 saveUploaded = true;
 
 
@@ -109,11 +112,49 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                 }
 
                 var save_index = Math.max(save_index_a, save_index_b)
-                if (save_index_b == 65535) {save_index = save_index_a }
-                if (save_index_a == 65535) { save_index = save_index_b }
+                // console.log(save_index_a)
+                // console.log(save_index_b)
+                // if (save_index_b == 65535) {save_index = save_index_a }
+                // if (save_index_a == 65535) { save_index = save_index_b }
 
-                const rotation = (save_index % 14) 
-                const total_offset = rotation * 4096
+                const rotation = (14 - (save_index % 14))
+
+
+                // console.log(`save_index: ${save_index}, rotation: ${rotation}`)
+                
+                if (!savExt.includes("ss")) {
+                    saveFile = rotateDataViewLeft(saveFile, (rotation * 4096))       
+                    tmData = new DataView(
+                      saveFile.buffer,          // same ArrayBuffer
+                      4096 + 2840,  // start offset
+                      1000                     // length in bytes
+                    );
+                    
+                    let tmOffset = 0;
+                    legalTms = []
+
+                    while (tmOffset < tmData.byteLength - 1) {
+                        let itemId = tmData.getUint16(tmOffset, true);
+                        let moveName
+                 
+                        let itemName = emImpItems[itemId].replace("M0","M")
+
+                        // console.log(itemName)
+
+                        if (itemName.includes("TM")) {
+                            moveName = invertedTms[itemName.slice(2)]
+                            legalTms.push(moveName)
+                        } else if (itemName.includes("HM")) {
+                            moveName = invertedHms[itemName.slice(2)]
+                            legalTms.push(moveName)   
+                        }         
+                        tmOffset += 4
+                    }
+
+                    localStorage.legalTms = legalTms
+                }
+                
+
 
                 let offset = 0;
                 const magicValue = 0x0202;
@@ -124,6 +165,8 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                 let lastFoundAt = 0
 
                 let showdownText = ""
+
+                saveFile 
 
                 while (offset < saveFile.byteLength - 1) { 
                     const value = saveFile.getUint16(offset, true); 
@@ -207,7 +250,7 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                         }
 
 
-                        console.log(`${speciesName}: ${tid}`)
+                        // console.log(`${speciesName}: ${tid}`)
 
 
                         // Try Substitute Spaces for Dashes if pokemon name doesn't exist
@@ -537,7 +580,6 @@ function getLegalMoves(speciesName) {
 
 
     let speciesNameId = speciesName.replace(/[^a-zA-Z0-9é]/g, '').toLowerCase()
-    console.log(speciesNameId)
     let moves = learnsets[speciesNameId]
     let ls = moves["ls"] || []
     let tms = moves["tms"] || []
@@ -642,6 +684,19 @@ function decompressZlib(u8arr) {
   return pako.inflate(u8arr);
 }
 
+function rotateDataViewLeft(dv, n) {
+  const bytes = new Uint8Array(dv.buffer, dv.byteOffset, dv.byteLength);
+  const len = bytes.length;
+  n = n % len;
+
+  // Create rotated copy
+  const rotated = new Uint8Array(len);
+  rotated.set(bytes.subarray(n));
+  rotated.set(bytes.subarray(0, n), len - n);
+
+  return new DataView(rotated.buffer);
+}
+
 
 function extractSaveState(file) {
   const ab = file;
@@ -670,7 +725,26 @@ function extractSaveState(file) {
 }
 
 
+function downloadHexDump(dv, filename = "dump.hex") {
+  // Read bytes from DataView
+  const bytes = new Uint8Array(dv.buffer, dv.byteOffset, dv.byteLength);
 
+  // Convert to hex string (two chars per byte)
+  let hex = "";
+  for (let i = 0; i < bytes.length; i++) {
+    if (i % 16 === 0 && i !== 0) hex += "\n"; // optional formatting
+    hex += bytes[i].toString(16).padStart(2, "0") + " ";
+  }
+
+  // Download
+  const blob = new Blob([hex], { type: "text/plain" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
 
 
 

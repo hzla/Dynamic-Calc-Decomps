@@ -493,7 +493,9 @@ function get_current_learnset() {
                 tm_index = `HM${tms["hms"][mv_name]}`
             }
 
-            tm_html += `<div class='ls-row'><div class='ls-level'>${tm_index}</div><div class='ls-name'>${mv_name}</div></div>`
+            let isLegal = (localStorage.legalTms && localStorage.legalTms.includes(mv_name)) || typeof localStorage.legalTms == 'undefined'
+
+            tm_html += `<div class='ls-row ${isLegal ? '' : 'illegal'}'><div class='ls-level'>${tm_index}</div><div class='ls-name'>${mv_name}</div></div>`
         }
     }
     
