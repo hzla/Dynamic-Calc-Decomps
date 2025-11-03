@@ -191,6 +191,10 @@ input[type="file"] {
     display: none;
 }
 
+#tags-left div:hover {
+    background: rgba(255,255,255,0.1);
+}
+
 #nav-tags .next {
     margin-right: 0px;
 }

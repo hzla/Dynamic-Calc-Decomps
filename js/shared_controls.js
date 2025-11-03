@@ -788,7 +788,13 @@ $(".set-selector").change(function () {
 			var set = regSets ? correctHiddenPower(setdex[pokemonName][setName]) : randset;
 			
 
-			pokeObj.find(".level").val(set.level);
+			if (set.level < 1) {
+				let lvlCap = parseInt($('#lvl-cap').text()) || parseInt(localStorage.lvlCap)
+				pokeObj.find(".level").val(lvlCap + parseInt(set.level));
+			} else {
+				pokeObj.find(".level").val(set.level);
+			}
+			
 
 
 			if (hasEvs) {
