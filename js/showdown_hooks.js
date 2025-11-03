@@ -41,6 +41,9 @@ $(document).ready(function() {
             let weather = $('#weather-bar input:checked').first().val().toLowerCase()
             $('.field-info').attr('class', 'field-info')
             $('.field-info').addClass(weather)
+
+            let terrain = $('#terrain-bar input:checked').first().val().toLowerCase()
+            $('.field-info').addClass(terrain)
         }, 1)  
     })
 
@@ -48,6 +51,12 @@ $(document).ready(function() {
         let weather = $('#weather-bar input:checked').first().val().toLowerCase()
         $('.field-info').attr('class', 'field-info')
         $('.field-info').addClass(weather)
+    })
+
+    $(document).on('click', '#terrain-bar input', function() {
+        let terrain = $('#terrain-bar input:checked').first().val().toLowerCase()
+        $('.field-info').attr('class', 'field-info')
+        $('.field-info').addClass(terrain)
     })
 
 

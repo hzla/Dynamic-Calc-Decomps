@@ -958,14 +958,14 @@
                     <input class="visually-hidden calc-trigger" type="radio" name="format" value="Doubles" id="doubles-format" />
                     <label class="btn btn-right" for="doubles-format">Doubles</label>
                 </div>
-                <div aria-labelledby="selectTerrainInstruction" class="gen-specific g6 g7 g8" role="group" title="Select the current terrain.">
-                    <span class="visually-hidden" id="selectTerrainInstruction">Select the current terrain.</span>
-                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Electric" id="electric" /><label class="btn btn-xxxwide" for="electric">Electric Terrain</label>
-                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Grassy" id="grassy" /><label class="btn btn-xxxwide " for="grassy">Grassy Terrain</label>
-                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Misty" id="misty" /><label class="btn btn-xxxwide " for="misty">Misty Terrain</label>
-                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-xxxwide" for="psychic">Psychic Terrain</label>
-                </div>
                 <hr class="gen-specific g6 g7 g8" />
+                <div aria-labelledby="selectTerrainInstruction" class="gen-specific g6 g7 g8" id="terrain-bar" role="group" title="Select the current terrain.">
+                    <span class="visually-hidden" id="selectTerrainInstruction">Select the current terrain.</span>
+                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Electric" id="electric" /><label class="btn btn-small btn-left" for="electric">Electric</label>
+                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Grassy" id="grassy" /><label class="btn btn-small btn-mid" for="grassy">Grassy</label>
+                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Misty" id="misty" /><label class="btn btn-small btn-mid" for="misty">Misty</label>
+                    <input class="visually-hidden terrain-trigger calc-trigger" type="checkbox" name="terrain" value="Psychic" id="psychic" /><label class="btn btn-small btn-right" for="psychic">Psychic</label>
+                </div>          
                 <div aria-labelledby="selectWeatherInstruction" id="weather-bar" role="radiogroup">
                     <span class="visually-hidden" id="selectWeatherInstruction">Select the current weather condition.</span>
                     <div class="gen-specific g3 g4 g5 g6 g7 g8" style="width: 22.2em; margin: 5px auto;" title="Select the current weather condition.">
@@ -980,6 +980,14 @@
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Snow" id="snow" />
                         <label class="btn btn-small btn-right" for="snow">Snow</label>
                     </div>
+                    <div class="gen-specific g6 g7 g8" title="Select the current weather condition.">
+                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Harsh Sunshine" id="harsh-sunshine" />
+                        <label class="btn btn-xxxwide btn-left" for="harsh-sunshine">Harsh Sunshine</label>
+                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Heavy Rain" id="heavy-rain" />
+                        <label class="btn btn-xxxwide btn-mid" for="heavy-rain">Heavy Rain</label>
+                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Strong Winds" id="strong-winds" />
+                        <label class="btn btn-xxxwide btn-right" for="strong-winds">Strong Winds</label>
+                    </div>
                     <div class="gen-specific g5 g6 g7 g8 g9" style="width: 22.2em; margin: 5px auto; display: inline-block;">
                         <span hidden id="magicRoomInstruction">Is Magic Room in effect?</span>
                         <span hidden id="wonderRoomInstruction">Is Wonder Room in effect?</span>
@@ -987,14 +995,14 @@
                         <label class="btn btn-xxxwide btn-left" for="magicroom">Magic Room</label>
                         <input aria-describedby="wonderRoomInstruction" class="visually-hidden calc-trigger" type="checkbox" id="wonderroom" />
                         <label class="btn btn-xxxwide btn-right" for="wonderroom">Wonder Room</label>
-                        <input aria-describedby="inverseInstruction" class="visually-hidden calc-trigger" type="checkbox" id="inverse">
-                        <label class="btn btn-xxxwide" for="inverse">Inverse</label>
+<!--                         <input aria-describedby="inverseInstruction" class="visually-hidden calc-trigger" type="checkbox" id="inverse">
+                        <label class="btn btn-xxxwide btn-right" for="inverse">Inverse</label> -->
                     </div>
-                    <div class="gen-specific g4 g5 g6 g7 g8 g9" style="width: 5.3em; margin: 5px auto;" title="Is gravity in effect?">
+<!--                     <div class="gen-specific g4 g5 g6 g7 g8 g9" style="width: 5.3em; margin: 5px auto;" title="Is gravity in effect?">
                         <span hidden id="gravityInstruction">Is gravity in effect?</span>
                         <input aria-describedby="gravityInstruction" class="visually-hidden calc-trigger" type="checkbox" id="gravity" />
                         <label class="btn" for="gravity">Gravity</label>
-                    </div>
+                    </div> -->
                     <div class="g6 g7 g8 cascade-effects" title="Select the current weather condition.">
                         <input class="visually-hidden calc-trigger" type="radio" name="cascade" value="" id="clear-cascade" checked="checked" />
                         <label class="btn btn-small btn-left" for="clear-cascade">None</label>
@@ -1005,14 +1013,7 @@
                         <input class="visually-hidden calc-trigger" type="radio" name="cascade" value="Celestial" id="celestial" />
                         <label class="btn btn-small btn-right" for="celestial">Celestial</label>
                     </div>
-                    <div class="gen-specific g6 g7 g8" title="Select the current weather condition.">
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Harsh Sunshine" id="harsh-sunshine" />
-                        <label class="btn btn-xxxwide btn-left" for="harsh-sunshine">Harsh Sunshine</label>
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Heavy Rain" id="heavy-rain" />
-                        <label class="btn btn-xxxwide btn-mid" for="heavy-rain">Heavy Rain</label>
-                        <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Strong Winds" id="strong-winds" />
-                        <label class="btn btn-xxxwide btn-right" for="strong-winds">Strong Winds</label>
-                    </div>
+                    
                   </div>
                 <div aria-labelledby="selectGscWeatherInstruction" class="gen-specific g2 hide" role="radiogroup" style="width: 17.8em; margin: 0 auto 5px;" title="Select the current weather condition.">
                     <span class="visually-hidden" id="selectGscWeatherInstruction">Select the current weather condition.</span>
@@ -1025,8 +1026,12 @@
                     <input class="visually-hidden calc-trigger" type="radio" name="gscWeather" value="Sand" id="gscSand" />
                     <label class="btn btn-small btn-right" for="gscSand">Sand</label>
                 </div>
-                <hr class="gen-specific g2 g3 g4 g5 g6 g7 g8" />
-                <table class="field">
+
+                
+                <div id="toggle-additional-field-options">Show More</div>
+                <div id="additional-field-options">
+
+                  <table class="field">
                     <thead>
                         <tr>
                             <th scope="col"><div class="visually-hidden">Pok&eacute;mon 1's side</div></th>
@@ -1314,6 +1319,9 @@
                         </tr>
                     </tbody>
                 </table>
+                  
+              </div>
+                
             </fieldset>
         </div>
 

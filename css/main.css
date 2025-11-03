@@ -1190,6 +1190,24 @@ th {
     width: calc(100% - 5px);
 }
 
+#toggle-additional-field-options {
+    cursor: pointer;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    padding: 4px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+#toggle-additional-field-options:hover {
+    background: rgba(255,255,255, 0.2);
+}
+
+#additional-field-options {
+    display: none;
+}
+
 #similarTrainers {
     width: 450px;
     box-sizing: border-box;
@@ -1249,7 +1267,7 @@ th {
     width: 9em;
 }
 .btn-xxxwide {
-    width: 10em;
+    width: 9em;
 }
 .btn-small {
     width: 4em;
@@ -1516,6 +1534,8 @@ select.toxic-counter {
     background-color: rgba(92, 153, 153, 0.15);
 }
 
+
+
 #fragsheet-howto {
     border: 1px solid #1abc9c;
     color: #1abc9c;
@@ -1654,12 +1674,16 @@ table.field {
     border: 1px solid rgb(118, 118, 118);
     margin-bottom: 10px;
     color: #f1f1f1;
-    min-height: 220px;
+    min-height: 280px;
     resize: vertical;
     width: calc(100% - 14px);
     padding: 4px;
     max-height: 80vh;
     overflow: scroll;
+}
+
+.battle-console {
+    width: calc(100%);
 }
 
 #toggle-console {

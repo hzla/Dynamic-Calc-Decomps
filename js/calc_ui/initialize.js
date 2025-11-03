@@ -254,6 +254,10 @@ function setSettingsDefaults() {
     localStorage.boxspriteindex = 1
   }
 
+  if (typeof localStorage.showAdditionalFieldOptions === 'undefined') {
+    localStorage.boxspriteindex = 0
+  }
+
   if (typeof localStorage.switchInfo === 'undefined') {
     localStorage.switchInfo = 0
   }
@@ -296,6 +300,13 @@ function setSettingsDefaults() {
   } else {
     $('#player-poks-filter').show()
   }
+
+  if (parseInt(localStorage.showAdditionalFieldOptions)) {
+    $('#additional-field-options').show()
+    $('#toggle-additional-field-options').text(`Show ${['More', 'Less'][parseInt(localStorage.showAdditionalFieldOptions)]}`)
+  }
+
+
 
   // if first time
   if (typeof localStorage.battlenotes === 'undefined') {
@@ -383,6 +394,10 @@ function toggle_box_rolls() {
     localStorage.boxrolls = (parseInt(localStorage.boxrolls) + 1) % 2   
 }
 
+function toggle_additional_field_options() {
+    localStorage.showAdditionalFieldOptions = (parseInt(localStorage.showAdditionalFieldOptions) + 1) % 2   
+}
+
 
 // Settings Event Bindings
 
@@ -399,6 +414,12 @@ $('#toggle-boxroll .slider').click(function(){
 $('#toggle-battle-notes .slider').click(function(){
     localStorage.battlenotes = (parseInt(localStorage.battlenotes) + 1) % 2   
     $('.poke-import').first().toggle()
+})
+
+$('#toggle-additional-field-options').click(function(){
+    localStorage.showAdditionalFieldOptions = (parseInt(localStorage.showAdditionalFieldOptions) + 1) % 2   
+    $('#additional-field-options').toggle()
+    $(this).text(`Show ${['More', 'Less'][parseInt(localStorage.showAdditionalFieldOptions)]}`)
 })
 
 $('#toggle-rand .slider').click(function(){
