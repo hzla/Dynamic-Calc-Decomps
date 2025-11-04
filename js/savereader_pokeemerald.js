@@ -64,8 +64,7 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                     if (buffer.byteLength < 100000) {
                       buffer = extractSaveState(buffer)  
                     }
-
-                   
+             
                     buffer = new Uint8Array(buffer.slice(205168, 397312).slice(0, 157477)).buffer.slice(
                         buffer.byteOffset,
                         buffer.byteOffset + buffer.byteLength
@@ -136,8 +135,19 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                     while (tmOffset < tmData.byteLength - 1) {
                         let itemId = tmData.getUint16(tmOffset, true);
                         let moveName
-                 
-                        let itemName = emImpItems[itemId].replace("M0","M")
+
+                        console.log(itemId)
+                        console.log(save_index)
+                        
+
+                        let itemName = emImpItems[itemId]
+
+                        if (typeof itemName == 'undefined') {
+                            tmOffset += 4;
+                            continue
+                        } else {
+                            itemName = itemName.replace("M0", "M")
+                        }
 
                         // console.log(itemName)
 
