@@ -57,7 +57,7 @@ function initConsole() {
           const dmgBoost = args[0] || 1
 
           this.clear();
-          this.echo(`Searching learnsets for OHKO${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}`)
+          this.echo(`Searching learnsets and obtained TMs for OHKO${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}`)
           consoleBoxRolls(chosenMove=null, dealtMinRoll=100, false, false, 1, fast=false, dmgBoost)
       },
       // same as above but also must be faster
@@ -65,7 +65,7 @@ function initConsole() {
           const dmgBoost = args[0] || 1
 
           this.clear();
-          this.echo(`Searching learnsets for fast OHKO${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}`)
+          this.echo(`Searching learnsets and obtained TMs for fast OHKO${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}`)
           consoleBoxRolls(chosenMove=null, dealtMinRoll=100, false, false, 1, fast=true, dmgBoost)
       },
       baits: function(...args) {

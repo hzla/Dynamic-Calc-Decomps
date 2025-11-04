@@ -1670,7 +1670,7 @@ table.field {
 
 .import-team-text {
     width: calc(100% - 14px);
-    min-height: 10em;
+    min-height: 4em;
     resize: vertical;
   
     color: #f1f1f1;
