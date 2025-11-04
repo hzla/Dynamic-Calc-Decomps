@@ -51,6 +51,9 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     };
 
     if (calcingForSwitchIns) {
+        if (typeof field.weather == 'undefined') {
+            field.weather = $("input:radio[name='weather']:checked").val();
+        }
         if ((attacker.hasAbility('Protosynthesis') && (field.weather.includes('Sun'))) ||
         (attacker.hasAbility('Quark Drive') && (field.terrain === 'Electric'))) {
             attacker.boostedStat = "auto"

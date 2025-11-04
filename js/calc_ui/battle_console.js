@@ -68,8 +68,28 @@ function initConsole() {
           this.echo(`Searching learnsets and obtained TMs for fast OHKO${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}`)
           consoleBoxRolls(chosenMove=null, dealtMinRoll=100, false, false, 1, fast=true, dmgBoost)
       },
+      // highlights any mon that does the specified amount of damage ai pok with any move from it's level up and tm learnset, 
+      // first argument is min roll
+      // second argument is an optional dmg boost
+      does: function(...args) {
+          const dmgBoost = args[1] || 1
+          const minRoll = args[0]
+
+          this.clear();
+          this.echo(`Searching learnsets and obtained TMs for mons that do at least ${minRoll}%${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}`)
+          consoleBoxRolls(chosenMove=null, minRoll, false, false, 1, fast=false, dmgBoost)
+      },
+      fdoes: function(...args) {
+          const dmgBoost = args[1] || 1
+          const minRoll = args[0]
+
+          this.clear();
+          this.echo(`Searching learnsets and obtained TMs for faster mons that do at least ${minRoll}%${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}`)
+          consoleBoxRolls(chosenMove=null, minRoll, false, false, 1, fast=true, dmgBoost)
+      },
       baits: function(...args) {
           move = getMoveFromArgs(args)
+          currentAiMoves = get_current_in().moves
 
           this.echo(`Baits ${move} from ${localStorage.right.split("(")[0]}`)
           consoleBoxRolls(move, dealtMinRoll=false, takenMaxRoll=100, crit=false, times=1, fast=false, dmgBoost=1, showBait=true)
@@ -98,9 +118,11 @@ function getMoveFromArgs(args) {
     if (searchStr == "" || args == []) {
         searchStr = bestAiMoveAgainstCurrent
     }
+
 	for (let move of currentAiMoves) {
 		if (move.toLowerCase().includes(searchStr.toLowerCase())) {
-			return move
+			
+            return move
 		}
 	}
 }

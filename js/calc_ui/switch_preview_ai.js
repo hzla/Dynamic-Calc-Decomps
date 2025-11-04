@@ -428,7 +428,10 @@ function get_next_in() {
     p1RawSpeed = parseInt($('#p1 .totalMod').text())
 
     var p1field = createField();
+
+
     var p2field = p1field.clone().swap();
+
 
     ranked_trainer_poks = []
 
