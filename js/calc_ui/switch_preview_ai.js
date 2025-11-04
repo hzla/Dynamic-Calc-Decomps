@@ -416,6 +416,7 @@ function get_next_in() {
     var p1info = $("#p1");
     var p2info = $("#p2");
     var p1 = createPokemon(p1info);
+    p1Name = p1.name
 
     if (p1.ability == "Intimidate") {
         p1.ability = "Run Away"
@@ -487,6 +488,8 @@ function get_next_in() {
 
             player_results_list.push(player_results)
             ai_results_list.push(results)
+        } else {
+            p1name = p1.name
         }
        
 
