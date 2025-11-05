@@ -1005,6 +1005,7 @@ $("#clearSets").click(function () {
 	// Remove Icons
 	$('.trainer-pok.left-side').remove()
 	$('#clear-party').click()
+	localStorage.legalTms = ''
 	updateBoxAnim()
 });
 

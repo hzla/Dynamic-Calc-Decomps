@@ -116,52 +116,14 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
                 // if (save_index_b == 65535) {save_index = save_index_a }
                 // if (save_index_a == 65535) { save_index = save_index_b }
 
-                const rotation = (14 - (save_index % 14))
+                let rotation = save_index % 14
 
 
                 // console.log(`save_index: ${save_index}, rotation: ${rotation}`)
-                
+                let retries = 0
                 if (!savExt.includes("ss")) {
-                    saveFile = rotateDataViewLeft(saveFile, (rotation * 4096))       
-                    tmData = new DataView(
-                      saveFile.buffer,          // same ArrayBuffer
-                      4096 + 2840,  // start offset
-                      1000                     // length in bytes
-                    );
-                    
-                    let tmOffset = 0;
-                    legalTms = []
-
-                    while (tmOffset < tmData.byteLength - 1) {
-                        let itemId = tmData.getUint16(tmOffset, true);
-                        let moveName
-
-                        console.log(itemId)
-                        console.log(save_index)
-                        
-
-                        let itemName = emImpItems[itemId]
-
-                        if (typeof itemName == 'undefined') {
-                            tmOffset += 4;
-                            continue
-                        } else {
-                            itemName = itemName.replace("M0", "M")
-                        }
-
-                        // console.log(itemName)
-
-                        if (itemName.includes("TM")) {
-                            moveName = invertedTms[itemName.slice(2)]
-                            legalTms.push(moveName)
-                        } else if (itemName.includes("HM")) {
-                            moveName = invertedHms[itemName.slice(2)]
-                            legalTms.push(moveName)   
-                        }         
-                        tmOffset += 4
-                    }
-
-                    localStorage.legalTms = legalTms
+                    localStorage.legalTms = ''
+                    getTms(saveFile, 0)
                 }
                 
 
@@ -533,6 +495,48 @@ document.getElementById(saveOpenSelector).addEventListener(saveOpenEvent, functi
         }
     })()
 });
+
+function getTms(tmData, rotation) {   
+    let tmOffset = 0;
+    legalTms = []
+
+    while (tmOffset < tmData.byteLength - 1) {
+        let itemId = tmData.getUint16(tmOffset, true);
+        let tmMagic = tmData.getUint16(tmOffset + 2, true);
+        let moveName
+
+
+        
+
+        let itemName = emImpItems[itemId]
+
+        if (typeof itemName == 'undefined') {
+            tmOffset += 4;
+            continue
+        } else {
+            itemName = itemName.replace("M0", "M")
+        }
+
+        
+
+        // console.log(itemName)
+
+        if (itemName.includes("TM")) {
+            moveName = invertedTms[itemName.slice(2)]
+            console.log(tmMagic)
+            if (tmMagic ) {
+               legalTms.push(moveName)
+            }
+        } else if (itemName.includes("HM")) {
+            moveName = invertedHms[itemName.slice(2)]
+            if (tmMagic) {
+               legalTms.push(moveName)
+            }
+        }         
+        tmOffset += 4
+    }
+    localStorage.legalTms = legalTms
+}
 
 function getIVs(ivValue) {
 
