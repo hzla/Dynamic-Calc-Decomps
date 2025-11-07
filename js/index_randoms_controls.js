@@ -318,6 +318,21 @@ function calculateLeftMoves(gen, p1, p1field, p2, p2field) {
 	return results;
 }
 
+function calculateAllLeftVisibleRight(gen, p1, p1field, p2, p2field) {
+	var results = [[], []];
+	
+	var movePool = p1.getDamagingMovePool()
+
+	for (var i = 0; i < Math.max(movePool.length, 4); i++) {
+
+		results[0][i] = calc.calculate(gen, p1, p2, movePool[i] || movePool[i - 1], p1field);
+		if (i < p2.moves.length) {
+			results[1][i] = calc.calculate(gen, p2, p1, p2.moves[i] || p2.moves[i - 1], p2field);
+		}
+	}
+	return results;
+}
+
 
 
 $(".mode").change(function () {

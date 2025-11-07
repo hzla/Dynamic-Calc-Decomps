@@ -683,11 +683,11 @@ $(".set-selector").change(function () {
 					}
 				}
 				
-				if (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation") {
+				if (!(typeof partnerName != undefined && partnerName != null) && (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation")) {
 					$('#singles-format').click()
 				} else {
 					$('#doubles-format').click()
-				}
+				} 
 
 				let enemy_moves = setdex[pokemonName][setName].moves
 
@@ -889,6 +889,10 @@ $(".set-selector").change(function () {
 		}
 		
 	}
+
+	// if (typeof partnerName != undefined && partnerName != null) {
+	// 	$('#doubles-format').click()	
+	// }
 
 	// don't get new switch ins if set was the same
 	

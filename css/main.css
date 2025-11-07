@@ -30,6 +30,11 @@ input[type="file"] {
     margin: 0;
 }*/
 
+
+.terminal-output span {
+    cursor: pointer;
+}
+
 #download-sav {
   border: 1px solid #bb86fc;
   display: inline-block;
