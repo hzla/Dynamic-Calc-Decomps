@@ -64,6 +64,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let isOhkod = false
     let wins1v1 = false
     let winsMidTurn1v1 = false
+    let aiHasSE = false
     let adjustedSpeed = adjustSpeed(defender.rawStats.spe, defender.ability, defenderField.weather, defenderField.terrain, defender.item)
 
 
@@ -165,6 +166,17 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         let move = defender.moves[moveIndex]
         damage = defenderVAttackerResults[moveIndex].damage
 
+        if (move.category != "Status") {
+           let effectiveness = typeChart[move.type][attacker.types[0]]
+
+           if (attacker.types[1]) {
+               effectiveness = effectiveness * typeChart[move.type][attacker.types[1]]
+           }
+           if (effectiveness > 1) {
+               aiHasSE = true;
+           }
+        }
+
         if (damage.length == 16) {
             damage = damage.map(() => damage[8])
 
@@ -173,6 +185,8 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
                 bestAiMoveAgainstCurrent = move.name
             }
         }
+
+
 
         if (damage[0] > highestDmgDealt) {
             highestDmgDealt = damage[0]
@@ -288,7 +302,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
 
 
-    let matchupData = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill}
+    let matchupData = {aiHasSE: aiHasSE, defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill}
 
     disableKOChanceCalcs = false
     matchupCache.set(currentKey, matchupData)
@@ -647,6 +661,11 @@ function get_next_in() {
                 else if (type_matchup < 2) {
                     midTurnScore += 4000 * (2 - type_matchup)
                     midTurnScore -= sub_index
+
+                    
+                    if (matchup.aiHasSE) {
+                        midTurnScore += 8000
+                    }
                 } 
                 else if (matchup.attackerFastestKill > 3) {
                     midTurnScore += 300
