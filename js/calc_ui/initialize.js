@@ -199,13 +199,13 @@ if (SOURCES[params.get('data')]) {
         if (localStorage.switchInfo == '1') {
           $('.trainer-pok-list.opposing').addClass('ai-show')
         }
+    } else if (TITLE == "Renegade Platinum") {
+      baseGame = "Pt"
     }
 
     if (!baseGame) {
         $('#read-save').hide()
-    } else {
-        $('.save-editor-guide').show()
-    }
+    } 
 
     $('.genSelection').hide()
     $('#rom-title').text(TITLE).show()
@@ -467,16 +467,151 @@ function adjustStat(speciesName, stat, value) {
     SPECIES_BY_ID[gen][speciesId].baseStats[stat] = value
 }
 
+// In platinum, trainer mons with alternate forms all use the base stats of the original
+function initPlatinum() {
+  var rotom_info = [["Heat", "Fire"],["Wash", "Water"],["Mow", "Grass"],["Frost", "Ice"],["Fan", "Flying"]]
+  var deoxys_info = ['Attack', 'Defense','Speed']
+  var wormadam_info = ['Sandy', 'Trash']
+    
+    if (poksData['Rotom']) {
+       for (let i = 0; i < rotom_info.length; i++) {
+            pokedex[`Rotom-${rotom_info[i][0]}-Glitched`] = {
+                "types": [
+                    "Electric",
+                    rotom_info[i][1]
+                ],
+                "bs": poksData['Rotom']['bs'],
+                "weightkg": 0.3,
+                "abilities": {
+                    "0": "Levitate"
+                },
+                "gender": "N"
+            }
+        } 
+    }
+    
+    if (poksData['Deoxys']) {
+        for (let i = 0; i < deoxys_info.length; i++) {
+            pokedex[`Deoxys-${deoxys_info[i]}-Glitched`] = {
+                "types": [
+                    "Psychic"
+                ],
+                "bs": poksData['Deoxys']['bs'],
+                "weightkg": 60.8,
+                "abilities": {
+                    "0": "Pressure"
+                },
+                "gender": "N",
+            }
+        }
+    }
 
+    if (poksData['Shaymin']) {
+        pokedex['Shaymin-Sky-Glitched'] = {
+            "types": [
+                "Grass",
+                "Flying"
+            ],
+            "bs": poksData['Shaymin']['bs'],
+            "weightkg": 2.1,
+            "abilities": {
+                "0": "Natural Cure"
+            },
+            "gender": "N",
+            "otherFormes": [
+                "Shaymin-Sky"
+            ]
+        }
+    }
+
+    if (poksData['Wormadam']) {
+        pokedex['Wormadam-Trash-Glitched'] = {
+            "types": [
+                "Bug",
+                "Steel"
+            ],
+            "bs": poksData['Wormadam']['bs'],
+            "weightkg": 6.5,
+            "abilities": {
+                "0": "Anticipation"
+            },
+            "otherFormes": [
+                "Wormadam-Sandy",
+                "Wormadam-Trash"
+            ]
+        }
+
+        pokedex['Wormadam-Sandy-Glitched'] = {
+            "types": [
+                "Bug",
+                "Ground"
+            ],
+            "bs": poksData['Wormadam']['bs'],
+            "weightkg": 6.5,
+            "abilities": {
+                "0": "Anticipation"
+            },
+            "otherFormes": [
+                "Wormadam-Sandy",
+                "Wormadam-Trash"
+            ]
+        }
+    }  
+}
+
+function loadPoksData() {
+  console.log("patching changed mons...")
+  if (TITLE.includes("Platinum")) {
+      initPlatinum()  
+  }
+  const cleanString = (str) => str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+
+  for (pok in pokedex) {
+    if (pok.includes("Glitched")) {
+        continue
+    }
+    // Allow import of Farfetch'd w/ unicode standard apostrophe
+    if (pok == "Farfetch’d" && poksData["Farfetch'd"]) {
+      jsonPok = poksData["Farfetch'd"];
+    }
+    else if (poksData[pok]) {
+        jsonPok = poksData[pok]
+    } else {           
+       continue //skip weird smogon pokemon and arceus forms
+    }
+    const pok_id = cleanString(pok)
+
+    pokedex[pok]["bs"] = jsonPok["bs"]
+
+    if (jsonPok["types"]) {
+        pokedex[pok]["types"] = jsonPok["types"]
+    }
+    
+    if (jsonPok.hasOwnProperty("abilities"))
+        pokedex[pok]["abilities"] = jsonPok["abilities"]
+    
+    SPECIES_BY_ID[gen][pok_id].types = jsonPok["types"]
+    SPECIES_BY_ID[gen][pok_id].baseStats = {
+        "atk": jsonPok["bs"]["at"],
+        "def": jsonPok["bs"]["df"],
+        "hp": jsonPok["bs"]["hp"],
+        "spa": jsonPok["bs"]["sa"],
+        "spd": jsonPok["bs"]["sd"],
+        "spe": jsonPok["bs"]["sp"],
+    }
+  }
+}
 
 function loadDataSource(data) {
-
     SETDEX_BW = data
     setdex = data
 
     if (TITLE == "Renegade Platinum") {
       SETDEX_BW = data["formatted_sets"]
       setdex = data["formatted_sets"]
+
+      poksData = data["poks"]
+      loadPoksData()
     }
 
     TR_NAMES = get_trainer_names()
