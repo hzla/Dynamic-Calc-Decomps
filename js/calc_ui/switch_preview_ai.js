@@ -76,6 +76,9 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     // These variables are also referenced by the battle console
     if (isCurrent) {
         bestDmgAgainstCurrent = 0
+        bestPrioDmgAgainstCurrent = 0
+
+        bestPrioMoveAgainstCurrent = ""
         bestMoveAgainstCurrent = ""
         bestMoveAgainstCurrentIndex = 0
 
@@ -139,6 +142,12 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
                 // attacker is marked as having prio since this is the fastest kill the move or tied with fastest
                 if (turnsToKill <= attackerFastestKill) {
                     attackerBestMoveHasPrio = true;
+                    if (isCurrent) {
+                        if (damage[0] > bestPrioDmgAgainstCurrent) {
+                            bestPrioDmgAgainstCurrent = damage[0]
+                            bestPrioMoveAgainstCurrent = move.name
+                        }
+                    }
                 }
             }
         }   
@@ -290,28 +299,45 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 function isBadOdds(p1, p2) {
     let aiHpThreshold =  parseInt(p2.ability == "Regenerator" ? p2.stats.hp / 2 : p2.stats.hp / 4)
     let playerHpThreshold = Math.min( parseInt(p1.stats.hp / 2), p1.originalCurHP)
+    
     // TODO: account for player prio
     let aiIsFaster = false
-    if (bestMoveAgainstCurrent == "") {
-        aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe
-    } else if (bestMoveAgainstCurrent) {
-        aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || (bestAiMoveAgainstCurrent != "" && moves[bestAiMoveAgainstCurrent].priority == '1')
+
+    const prioMoveKills = bestPrioMoveAgainstCurrent != "" && bestPrioDmgAgainstCurrent >= p2.originalCurHP
+
+    let badOddsDmg = 0;
+
+    
+    // If prio move kills, check priority speed brackets, and only check against the prio move dmg
+    if (prioMoveKills) {
+        if (moves[bestAiMoveAgainstCurrent].priority == '1') {
+            aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe
+        } else {
+            aiIsFaster = false
+        }
+        badOddsDmg = bestPrioDmgAgainstCurrent
+    } else {
+        if (bestMoveAgainstCurrent == "") {
+            aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe
+        } else if (bestMoveAgainstCurrent) {
+            aiIsFaster = p2.rawStats.spe >= p1.rawStats.spe || (bestAiMoveAgainstCurrent != "" && moves[bestAiMoveAgainstCurrent].priority == '1')
+        }        
+        // AI must have greater than 50% hp or 25% with regenerator
+        if (p2.originalCurHP < aiHpThreshold) {
+            return [false, "low HP"]
+        } 
+        badOddsDmg = bestDmgAgainstCurrent   
     }
     
-
-    // AI must have greater than 50% hp or 25% with regenerator
-    if (p2.originalCurHP < aiHpThreshold) {
-        return [false, "low HP"]
-    }
 
     // console.log(p2)
     // console.log(`${aiIsFaster} faster, ${bestDmgAgainstCurrent} dmg vs ${p2.originalCurHP}`)
 
     // If Player threatens fast ohko
-    if (bestDmgAgainstCurrent >= p2.originalCurHP && !aiIsFaster) {
+    if (badOddsDmg >= p2.originalCurHP && !aiIsFaster) {
         return [true, "F-Ohko"];
     // If Player threatens slow ohko
-    } else if (bestDmgAgainstCurrent >= p2.originalCurHP && aiIsFaster) {
+    } else if (badOddsDmg >= p2.originalCurHP && aiIsFaster) {
         // Check if ai can do more than 50% or ko player
         if (bestAiDmgAgainstCurrent < playerHpThreshold) {
             return [true, "S-Ohko"]

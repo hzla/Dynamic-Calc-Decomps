@@ -19,17 +19,16 @@ analyze = false
 limitHits = false
 FIELD_EFFECTS = {}
 learnsetClosable = false
-bestDmgAgainstCurrent = 0
-bestMoveAgainstCurrent = ""
-bestMoveAgainstCurrentIndex = 0
-bestAiDmgAgainstCurrent = 0
-bestAiMoveAgainstCurrent = ""
+
 calcingForSwitchIns = false
 changingSets = false;
 terminalStarted = false;
 partnerName = null 
 
 bestDmgAgainstCurrent = 0
+bestPrioDmgAgainstCurrent = 0
+
+bestPrioMoveAgainstCurrent = ""
 bestMoveAgainstCurrent = ""
 bestMoveAgainstCurrentIndex = 0
 currentAiMoves = []
@@ -37,7 +36,7 @@ currentAiMoves = []
 bestAiDmgAgainstCurrent = 0
 bestAiMoveAgainstCurrent = ""
 currentTypeMatchup = 2
-// TR_NAMES = get_trainer_names()
+
 setSettingsDefaults()
 
 genInfo = {
