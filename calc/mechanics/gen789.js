@@ -103,8 +103,28 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             defender.ability = '';
         }
     }
+
+    let critStage = 0;
+
+    if (attacker.item == "Scope Lens") {
+        critStage = 1
+    }
+    if (typeof backup_moves != "undefined" && backup_moves[move.name]) {
+        if (backup_moves[move.name].crit_stage) {
+            critStage += backup_moves[move.name].crit_stage
+        }    
+        if (critStage == 3) {
+            move.isCrit = true;
+        // AI sees crit stage 2 as crit damage when calcing for switch ins    
+        } else if (calcingForSwitchIns && attacker.name != p1Name && critStage >= 2) {
+            move.isCrit = true;
+        }
+
+    }
+
+
     var isCritical = !defender.hasAbility('Battle Armor', 'Shell Armor') &&
-        (move.isCrit || (attacker.hasAbility('Merciless') && defender.hasStatus('psn', 'tox')) || (move.name == "Snipe Shot" && attacker.item == "Scope Lens") ) &&
+        (move.isCrit || (attacker.hasAbility('Merciless') && defender.hasStatus('psn', 'tox'))) &&
         move.timesUsed === 1;
 
     var type = move.type;

@@ -2,9 +2,9 @@
 
 params = new URLSearchParams(window.location.search);
 devMode = params.get('dev') == '1'
-g = params.get('gen');
-damageGen = parseInt(params.get('dmgGen'))
-type_chart = parseInt(params.get('types'))
+g = params.get('gen') || 8;
+damageGen = parseInt(params.get('dmgGen')) || 8
+type_chart = parseInt(params.get('types')) || 6
 type_mod = params.get('type_mod')
 switchIn = parseInt(params.get('switchIn'))
 noSwitch = params.get('noSwitch')
@@ -72,7 +72,7 @@ SOURCES = {
   "04770c9a89687b02a9f5": "Blaze Black 2/Volt White 2 Original",
   "945a33720dbd6bc04488": "Blaze Black 2/Volt White 2 Redux 1.4",
   "da1eedc0e39ea07b75bf": "Vintage White",
-  "26138cc1d500b0cf7334": "Renegade Platinum",
+  "renplat": "Renegade Platinum",
   "03e577af7cc9856a1f42": "Sacred Gold/Storm Silver",
   "9e7113f0ee22dad116e1": "Platinum Redux 5.2 TC6",
   "b6e2693147e215f10f4a": "Radical Red 3.02",
@@ -172,9 +172,24 @@ $(document).ready(function() {
 })
 
 
+function setGameSettings(title) {
+  if (title == "Renegade Platinum") {
+    gameGen = 4
+    gameSwitchIn = 4;
+    sourceType = "full"
+  } else {
+    gameGen = 8
+    sourceType = "onlyTrainers"
+  }
+}
+
+
 INC_EM = false
 if (SOURCES[params.get('data')]) {
     TITLE = SOURCES[params.get('data')] || "NONE"
+
+    setGameSettings(TITLE)
+
 
     baseGame = ""
     if (TITLE.includes("Inclement") ) {
@@ -453,14 +468,17 @@ function adjustStat(speciesName, stat, value) {
     SPECIES_BY_ID[gen][speciesId].baseStats[stat] = value
 }
 
+
+
 function loadDataSource(data) {
+
     SETDEX_BW = data
-    SETDEX_ADV = data
-    SETDEX_DPP = data
-    SETDEX_SM = data
-    SETDEX_SS = data
-    SETDEX_XY = data
     setdex = data
+
+    if (TITLE == "Renegade Platinum") {
+      SETDEX_BW = data["formatted_sets"]
+      setdex = data["formatted_sets"]
+    }
 
     TR_NAMES = get_trainer_names()
     if ('move_replacements' in data) {

@@ -84115,6 +84115,7 @@ backup_moves = {
     "bp": 50,
     "type": "Fighting",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 25,
     "makesContact": true
   },
@@ -84244,6 +84245,7 @@ backup_moves = {
     "bp": 80,
     "type": "Normal",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 10,
     "target": "allAdjacentFoes",
     "isWind": true
@@ -84298,6 +84300,7 @@ backup_moves = {
     "type": "Normal",
     "acc": 6,
     "pp": 20,
+    "priority": 6,
     "isWind": true
   },
   "Fly": {
@@ -84609,6 +84612,7 @@ backup_moves = {
     "type": "Normal",
     "acc": 6,
     "pp": 20,
+    "priority": 6,
     "isSound": true
   },
   "Sing": {
@@ -84805,6 +84809,7 @@ backup_moves = {
     "type": "Fighting",
     "acc": 100,
     "pp": 20,
+    "priority": 5,
     "makesContact": true
   },
   "Seismic Toss": {
@@ -84870,6 +84875,7 @@ backup_moves = {
     "bp": 55,
     "type": "Grass",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 25,
     "target": "allAdjacentFoes",
     "isSword": true
@@ -85062,6 +85068,7 @@ backup_moves = {
     "type": "Normal",
     "acc": 100,
     "pp": 30,
+    "priority": 1,
     "makesContact": true
   },
   "Rage": {
@@ -85079,7 +85086,8 @@ backup_moves = {
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
-    "pp": 20
+    "pp": 20,
+    "priority": 6
   },
   "Night Shade": {
     "flags": {},
@@ -85207,6 +85215,7 @@ backup_moves = {
     "type": "Normal",
     "acc": 4,
     "pp": 10,
+    "priority": 4,
     "makesContact": true
   },
   "Metronome": {
@@ -85458,6 +85467,7 @@ backup_moves = {
     "type": "Flying",
     "acc": 90,
     "pp": 5,
+    "crit_stage": 3,
     "secondaries": true
   },
   "Transform": {
@@ -85535,6 +85545,7 @@ backup_moves = {
     "bp": 100,
     "type": "Water",
     "acc": 90,
+    "crit_stage": 1,
     "pp": 10,
     "makesContact": true
   },
@@ -85646,6 +85657,7 @@ backup_moves = {
     "bp": 70,
     "type": "Normal",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 20,
     "makesContact": true,
     "isSword": true
@@ -85780,6 +85792,7 @@ backup_moves = {
     "bp": 100,
     "type": "Flying",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 5,
     "isWind": true
   },
@@ -85825,7 +85838,8 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 0,
-    "pp": 10
+    "pp": 10,
+    "priority": 5
   },
   "Mach Punch": {
     "flags": {
@@ -85836,6 +85850,7 @@ backup_moves = {
     "type": "Fighting",
     "acc": 100,
     "pp": 30,
+    "priority": 1,
     "makesContact": true,
     "isPunch": true
   },
@@ -85963,7 +85978,8 @@ backup_moves = {
     "bp": 0,
     "type": "Fighting",
     "acc": 0,
-    "pp": 5
+    "pp": 5,
+    "priority": 5
   },
   "Bone Rush": {
     "flags": {
@@ -86023,7 +86039,8 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 0,
-    "pp": 10
+    "pp": 10,
+    "priority": 5
   },
   "Charm": {
     "flags": {},
@@ -86297,6 +86314,7 @@ backup_moves = {
     "type": "Fighting",
     "acc": 0,
     "pp": 10,
+    "priority": 1,
     "makesContact": true
   },
   "Morning Sun": {
@@ -86343,6 +86361,7 @@ backup_moves = {
     "bp": 100,
     "type": "Fighting",
     "acc": 80,
+    "crit_stage": 1,
     "pp": 5,
     "makesContact": true
   },
@@ -86390,7 +86409,8 @@ backup_moves = {
     "bp": 1,
     "type": "Psychic",
     "acc": 100,
-    "pp": 20
+    "pp": 20,
+    "priority": 5
   },
   "Psych Up": {
     "flags": {},
@@ -86407,6 +86427,7 @@ backup_moves = {
     "type": "Normal",
     "acc": 100,
     "pp": 5,
+    "priority": 5,
     "makesContact": true
   },
   "Ancient Power": {
@@ -86474,6 +86495,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "priority": 5,
     "makesContact": true,
     "bp": 40,
     "type": "Normal",
@@ -86582,6 +86604,7 @@ backup_moves = {
     "type": "Fighting",
     "acc": 100,
     "pp": 20,
+    "priority": 3,
     "makesContact": true,
     "isPunch": true
   },
@@ -86601,7 +86624,8 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 100,
-    "pp": 20
+    "pp": 20,
+    "priority": 6
   },
   "Nature Power": {
     "flags": {},
@@ -86629,7 +86653,8 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 100,
-    "pp": 20
+    "pp": 20,
+    "priority": 5
   },
   "Trick": {
     "flags": {},
@@ -86685,7 +86710,8 @@ backup_moves = {
     "bp": 0,
     "type": "Psychic",
     "acc": 100,
-    "pp": 15
+    "pp": 15,
+    "priority": 4
   },
   "Recycle": {
     "flags": {},
@@ -86702,6 +86728,7 @@ backup_moves = {
     "type": "Fighting",
     "acc": 100,
     "pp": 10,
+    "priority": 4,
     "makesContact": true
   },
   "Brick Break": {
@@ -86783,7 +86810,8 @@ backup_moves = {
     "bp": 0,
     "type": "Dark",
     "acc": 100,
-    "pp": 10
+    "pp": 10,
+    "priority": 4
   },
   "Secret Power": {
     "flags": {},
@@ -86881,6 +86909,7 @@ backup_moves = {
     "bp": 85,
     "type": "Fire",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 10,
     "makesContact": true,
     "secondaries": true,
@@ -87037,6 +87066,7 @@ backup_moves = {
     "bp": 60,
     "type": "Flying",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 25,
     "target": "allAdjacentFoes",
     "isWind": true,
@@ -87299,6 +87329,7 @@ backup_moves = {
     "bp": 60,
     "type": "Poison",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 25,
     "makesContact": true,
     "secondaries": true
@@ -87358,6 +87389,7 @@ backup_moves = {
     "bp": 90,
     "type": "Grass",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 15,
     "makesContact": true,
     "isSword": true
@@ -87511,6 +87543,7 @@ backup_moves = {
     "type": "Normal",
     "acc": 100,
     "pp": 10,
+    "priority": 2,
     "secondaries": true
   },
   "Pluck": {
@@ -87722,6 +87755,7 @@ backup_moves = {
     "type": "Dark",
     "acc": 100,
     "pp": 5,
+    "priority": 1,
     "makesContact": true
   },
   "Toxic Spikes": {
@@ -87829,6 +87863,7 @@ backup_moves = {
     "bp": 70,
     "type": "Dark",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 15,
     "makesContact": true,
     "isSword": true
@@ -87938,7 +87973,8 @@ backup_moves = {
     "bp": 40,
     "type": "Fighting",
     "acc": 100,
-    "pp": 30
+    "pp": 30,
+    "priority": 1
   },
   "Focus Blast": {
     "flags": {
@@ -88022,6 +88058,7 @@ backup_moves = {
     "type": "Steel",
     "acc": 100,
     "pp": 30,
+    "priority": 1,
     "makesContact": true,
     "isPunch": true
   },
@@ -88033,6 +88070,7 @@ backup_moves = {
     "type": "Ice",
     "acc": 100,
     "pp": 10,
+    "priority": 4,
     "makesContact": true
   },
   "Ice Shard": {
@@ -88040,7 +88078,8 @@ backup_moves = {
     "bp": 40,
     "type": "Ice",
     "acc": 100,
-    "pp": 30
+    "pp": 30,
+    "priority": 1
   },
   "Shadow Claw": {
     "flags": {
@@ -88050,6 +88089,7 @@ backup_moves = {
     "bp": 80,
     "type": "Ghost",
     "acc": 100,
+    "crit_stage": 1,
     "isSword": true,
     "pp": 15,
     "makesContact": true
@@ -88113,6 +88153,7 @@ backup_moves = {
     "type": "Ghost",
     "acc": 100,
     "pp": 30,
+    "priority": 1,
     "makesContact": true
   },
   "Mud Bomb": {
@@ -88134,6 +88175,7 @@ backup_moves = {
     "bp": 70,
     "type": "Psychic",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 20,
     "isSword": true
   },
@@ -88192,7 +88234,8 @@ backup_moves = {
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
-    "pp": 5
+    "pp": 5,
+    "priority": 7
   },
   "Draco Meteor": {
     "flags": {},
@@ -88259,6 +88302,7 @@ backup_moves = {
     "bp": 70,
     "type": "Poison",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 20,
     "makesContact": true,
     "isSword": true,
@@ -88300,6 +88344,7 @@ backup_moves = {
     "bp": 100,
     "type": "Rock",
     "acc": 90,
+    "crit_stage": 1,
     "pp": 5
   },
   "Captivate": {
@@ -88386,6 +88431,7 @@ backup_moves = {
     "type": "Water",
     "acc": 100,
     "pp": 20,
+    "priority": 1,
     "makesContact": true
   },
   "Attack Order": {
@@ -88393,6 +88439,7 @@ backup_moves = {
     "bp": 120,
     "type": "Bug",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 15
   },
   "Defend Order": {
@@ -88445,13 +88492,15 @@ backup_moves = {
     "bp": 80,
     "type": "Dragon",
     "acc": 100,
-    "pp": 10
+    "pp": 10,
+    "priority": 6
   },
   "Spacial Rend": {
     "flags": {},
     "bp": 100,
     "type": "Dragon",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 5
   },
   "Lunar Dance": {
@@ -88542,7 +88591,8 @@ backup_moves = {
     "bp": 0,
     "type": "Rock",
     "acc": 0,
-    "pp": 10
+    "pp": 10,
+    "priority": 3
   },
   "Guard Split": {
     "flags": {},
@@ -88563,7 +88613,8 @@ backup_moves = {
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
-    "pp": 10
+    "pp": 10,
+    "priority": 6
   },
   "Psyshock": {
     "flags": {},
@@ -88594,6 +88645,7 @@ backup_moves = {
     "type": "Bug",
     "acc": 0,
     "pp": 20,
+    "priority": 6,
     "isPowder": true
   },
   "Telekinesis": {
@@ -88608,7 +88660,8 @@ backup_moves = {
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
-    "pp": 10
+    "pp": 10,
+    "priority": 6
   },
   "Smack Down": {
     "flags": {},
@@ -88819,14 +88872,16 @@ backup_moves = {
     "bp": 0,
     "type": "Fighting",
     "acc": 0,
-    "pp": 15
+    "pp": 15,
+    "priority": 3
   },
   "Ally Switch": {
     "flags": {},
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
-    "pp": 15
+    "pp": 15,
+    "priority": 7
   },
   "Scald": {
     "flags": {},
@@ -88887,6 +88942,7 @@ backup_moves = {
     "type": "Fighting",
     "acc": 100,
     "pp": 10,
+    "priority": 6,
     "makesContact": true
   },
   "Incinerate": {
@@ -89016,6 +89072,7 @@ backup_moves = {
     "type": "Dragon",
     "acc": 100,
     "pp": 10,
+    "priority": 6,
     "makesContact": true
   },
   "Work Up": {
@@ -89055,6 +89112,7 @@ backup_moves = {
     "bp": 80,
     "type": "Ground",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 10,
     "makesContact": true
   },
@@ -89115,6 +89173,7 @@ backup_moves = {
       "isSword": true
     },
     "bp": 75,
+    "crit_stage": 1,
     "type": "Water",
     "acc": 100,
     "pp": 10,
@@ -89451,7 +89510,8 @@ backup_moves = {
     "bp": 0,
     "type": "Electric",
     "acc": 0,
-    "pp": 5
+    "pp": 5,
+    "priority": 1
   },
   "Parabolic Charge": {
     "flags": {},
@@ -89538,7 +89598,8 @@ backup_moves = {
     "bp": 0,
     "type": "Fairy",
     "acc": 0,
-    "pp": 10
+    "pp": 10,
+    "priority": 3
   },
   "Flower Shield": {
     "flags": {},
@@ -89620,7 +89681,8 @@ backup_moves = {
     "bp": 0,
     "type": "Steel",
     "acc": 0,
-    "pp": 5
+    "pp": 5,
+    "priority": 4
   },
   "Play Nice": {
     "flags": {},
@@ -89673,7 +89735,8 @@ backup_moves = {
     "bp": 15,
     "type": "Water",
     "acc": 100,
-    "pp": 20
+    "pp": 20,
+    "priority": 1
   },
   "Mystical Fire": {
     "flags": {},
@@ -89688,7 +89751,8 @@ backup_moves = {
     "bp": 0,
     "type": "Grass",
     "acc": 0,
-    "pp": 5
+    "pp": 5,
+    "priority": 4
   },
   "Aromatic Mist": {
     "flags": {},
@@ -89720,6 +89784,7 @@ backup_moves = {
     "type": "Bug",
     "acc": 100,
     "pp": 20,
+    "priority": 1,
     "isPowder": true
   },
   "Geomancy": {
@@ -89777,7 +89842,8 @@ backup_moves = {
     "bp": 0,
     "type": "Fairy",
     "acc": 100,
-    "pp": 30
+    "pp": 30,
+    "priority": 1
   },
   "Nuzzle": {
     "flags": {
@@ -89861,7 +89927,7 @@ backup_moves = {
     "pp": 10,
     "target": "allAdjacentFoes"
   },
-  "Light of Ruin": {
+  "Light Of Ruin": {
     "flags": {},
     "bp": 140,
     "type": "Fairy",
@@ -89928,6 +89994,7 @@ backup_moves = {
     "type": "Bug",
     "acc": 100,
     "pp": 10,
+    "priority": 2,
     "makesContact": true
   },
   "Baneful Bunker": {
@@ -89935,7 +90002,8 @@ backup_moves = {
     "bp": 0,
     "type": "Poison",
     "acc": 0,
-    "pp": 5
+    "pp": 5,
+    "priority": 4
   },
   "Spirit Shackle": {
     "flags": {},
@@ -90032,7 +90100,8 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 0,
-    "pp": 15
+    "pp": 15,
+    "priority": 3
   },
   "Toxic Thread": {
     "flags": {},
@@ -90210,6 +90279,7 @@ backup_moves = {
     "type": "Flying",
     "acc": 100,
     "pp": 15,
+    "priority": 3,
     "isBullet": true,
     "isBallistic": true
   },
@@ -90259,7 +90329,8 @@ backup_moves = {
     "type": "Fire",
     "acc": 100,
     "pp": 5,
-    "target": "allAdjacentFoes"
+    "target": "allAdjacentFoes",
+    "priority": 3
   },
   "Fleur Cannon": {
     "flags": {},
@@ -90310,6 +90381,7 @@ backup_moves = {
     "type": "Rock",
     "acc": 100,
     "pp": 20,
+    "priority": 1,
     "makesContact": true
   },
   "Liquidation": {
@@ -90429,6 +90501,7 @@ backup_moves = {
     "type": "Electric",
     "acc": 100,
     "pp": 5,
+    "priority": 2,
     "makesContact": true,
     ".willCrit": true
   },
@@ -90573,6 +90646,7 @@ backup_moves = {
     "isBallistic": true,
     "type": "Water",
     "acc": 100,
+    "crit_stage": 2,
     "pp": 15
   },
   "Jaw Lock": {
@@ -90849,7 +90923,8 @@ backup_moves = {
     "bp": 0,
     "type": "Dark",
     "acc": 100,
-    "pp": 5
+    "pp": 5,
+    "priority": 4
   },
   "False Surrender": {
     "flags": {
@@ -91322,6 +91397,7 @@ backup_moves = {
     "bp": 80,
     "type": "Psychic",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 10,
     "secondaries": true
   },
@@ -91348,6 +91424,7 @@ backup_moves = {
     "type": "Fighting",
     "acc": 100,
     "pp": 15,
+    "crit_stage": 1,
     "secondaries": true,
     "isKick": true
   },
@@ -91438,7 +91515,8 @@ backup_moves = {
     "bp": 0,
     "type": "Bug",
     "acc": 0,
-    "pp": 5
+    "pp": 5,
+    "priority": 4
   },
   "Axe Kick": {
     "flags": {
@@ -91485,6 +91563,7 @@ backup_moves = {
     "type": "Water",
     "acc": 100,
     "pp": 15,
+    "priority": 1,
     "makesContact": true,
     "isPunch": true
   },
@@ -91847,6 +91926,7 @@ backup_moves = {
     "bp": 70,
     "type": "Water",
     "acc": 100,
+    "crit_stage": 1,
     "pp": 20,
     "isSword": true
   },
@@ -91947,7 +92027,8 @@ backup_moves = {
     "bp": 100,
     "type": "Grass",
     "acc": 100,
-    "pp": 10
+    "pp": 10,
+    "crit_stage": 1
   },
   "Electro Shot": {
     "flags": {},
@@ -91976,14 +92057,16 @@ backup_moves = {
     "bp": 0,
     "type": "Fire",
     "acc": 0,
-    "pp": 5
+    "pp": 5,
+    "priority": 4
   },
   "Thunderclap": {
     "flags": {},
     "bp": 70,
     "type": "Electric",
     "acc": 100,
-    "pp": 5
+    "pp": 5,
+    "priority": 1
   },
   "Mighty Cleave": {
     "flags": {
@@ -92078,6 +92161,7 @@ backup_moves = {
     "type": "Fighting",
     "acc": 100,
     "pp": 15,
+    "priority": 3,
     "makesContact": true,
     "secondaries": true
   },
@@ -92227,6 +92311,7 @@ backup_moves = {
     "bp": 195,
     "type": "Electric",
     "acc": 0,
+    "crit_stage": 2,
     "pp": 1
   },
   "Stoked Sparksurfer": {
@@ -92345,7 +92430,8 @@ backup_moves = {
     "bp": 0,
     "type": "Normal",
     "acc": 0,
-    "pp": 10
+    "pp": 10,
+    "priority": 4
   },
   "Max Flare": {
     "flags": {},

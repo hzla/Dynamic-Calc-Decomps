@@ -1452,8 +1452,8 @@ $(".gen").change(function () {
 
 	clearField();
 	$("#importedSets").prop("checked", false);
-	$(".gen-specific.g" + damageGen).show();
-	$(".gen-specific").not(".g" + damageGen).hide();
+	$(".gen-specific.g" + gameGen).show();
+	$(".gen-specific").not(".g" + gameGen).hide();
 	var typeOptions = getSelectOptions(Object.keys(typeChart));
 	$("select.type1, select.move-type").find("option").remove().end().append(typeOptions);
 	$("select.type2").find("option").remove().end().append("<option value=\"\">(none)</option>" + typeOptions);
@@ -1805,9 +1805,9 @@ function loadCustomList(id) {
 }
 
 var params = new URLSearchParams(window.location.search);
-var g = params.get('gen');
-damageGen = parseInt(params.get('dmgGen'))
-type_chart = parseInt(params.get('types'))
+var g = params.get('gen') || 8;
+damageGen = parseInt(params.get('dmgGen')) || 8
+type_chart = parseInt(params.get('types')) || 6
 switchIn = parseInt(params.get('switchIn'))
 challengeMode = params.get('challengeMode')
 
