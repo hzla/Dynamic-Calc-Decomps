@@ -953,8 +953,7 @@ function showFormes(formeObj, pokemonName, pokemon, baseFormeName) {
 }
 
 function setSelectValueIfValid(select, value, fallback) {
-	
-	select.val(!value ? fallback : select.children("option[value='" + value + "']").length ? value : fallback);
+	select.val(!value ? fallback : select.children(`option[value="${value}"]`).length ? value : fallback);
 }
 
 $(".forme").change(function () {
