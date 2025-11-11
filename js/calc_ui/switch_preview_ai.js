@@ -222,6 +222,8 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
             if (move.priority) {
                 defenderBestMoveHasPrio = true
+                // prio move that kills should always be best move
+                bestMove = move.name
             }
         }
 

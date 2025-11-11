@@ -84091,7 +84091,7 @@ backup_data = {
 }
 
 backup_moves = {
-  "-": {
+  "(No Move)": {
     "flags": {},
     "bp": 0,
     "type": "Normal",

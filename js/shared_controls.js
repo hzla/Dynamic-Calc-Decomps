@@ -423,17 +423,25 @@ $(".status").bind("keyup change", function () {
 });
 
 var lockerMove = "";
-function showMoveExtras(moveObj, ppObj=null, fullSetName="", moveIndex=null) {
-var moveName = $(moveObj).val();
+function showMoveExtras(moveObj, ppObj=null, fullSetName="") {
+	var moveName = $(moveObj).val();
 	var move = moves[moveName] || moves['(No Move)'];
 
 	var moveGroupObj = $(moveObj).parent();
 	moveGroupObj.children(".move-bp").val(moveName === 'Present' ? 40 : move.bp);
+
+	const isPlayer = $(moveObj).parents("#p1").length > 0
+	const moveIndex = $(moveObj).parent().attr('class')[4]
+
+	let resultText = $(`#resultDamage${isPlayer ? 'L' : 'R'}${moveIndex}`)
+	console.log(resultText)
+
+
 	
 
 
 	if (ppObj) {
-		if (fullSetName.includes("My Box")) {
+		if (isPlayer) {
 			ppObj.val(backup_moves[moveName].pp	)
 		} else {
 			movePPs[fullSetName][moveIndex] ||= backup_moves[moveName].pp	
@@ -449,12 +457,12 @@ var moveName = $(moveObj).val();
 	}
 				
 	var m = moveName.match(HIDDEN_POWER_REGEX);
-
+	var pokeObj = $(moveObj).closest(".poke-info");
+	var pokemon = createPokemon(pokeObj);
 
 	if (changingSets) {
 		if (m) {
-			var pokeObj = $(moveObj).closest(".poke-info");
-			var pokemon = createPokemon(pokeObj);
+			
 
 
 			trueHP = true
@@ -502,7 +510,15 @@ var moveName = $(moveObj).val();
 	$(moveObj).attr('data-prev', moveName);
 	moveGroupObj.children(".move-type").val(move.type);
 	moveGroupObj.children(".move-cat").val(move.category);
-	moveGroupObj.children(".move-crit").prop("checked", move.willCrit === true);
+
+	let isCrit = false
+	if (typeof backup_moves != "undefined") {
+		isCrit = (backup_moves[moveName].crit_stage >= 2 && pokemon.item == "Scope Lens") || move.willCrit === true;
+	} else {
+		isCrit = move.willCrit === true;
+	}
+
+	moveGroupObj.children(".move-crit").prop("checked", isCrit);
 
 	var stat = move.category === 'Special' ? 'spa' : 'atk';
 	var dropsStats =
@@ -860,7 +876,7 @@ $(".set-selector").change(function () {
 				if (typeof backup_moves != 'undefined' && typeof backup_moves[moves[i]] != 'undefined') {
 					ppObj = pokeObj.find(".move" + (i + 1) + " .move-pp");
 				}
-				showMoveExtras(moveObj, ppObj, fullSetName, i);
+				showMoveExtras(moveObj, ppObj, fullSetName);
 			}
 		} else {
 			pokeObj.find(".level").val(100);
