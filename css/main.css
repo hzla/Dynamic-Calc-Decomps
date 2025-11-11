@@ -230,6 +230,10 @@ input[type="file"] {
     min-height: 17px;
 }
 
+.bp-info.nopp {
+    text-decoration: line-through;
+}
+
 
 
 #ai-tags div {

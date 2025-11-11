@@ -20,6 +20,8 @@ limitHits = false
 FIELD_EFFECTS = {}
 learnsetClosable = false
 
+movePPs = {}
+
 calcingForSwitchIns = false
 changingSets = false;
 terminalStarted = false;

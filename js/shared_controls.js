@@ -423,16 +423,29 @@ $(".status").bind("keyup change", function () {
 });
 
 var lockerMove = "";
-function showMoveExtras(moveObj) {
+function showMoveExtras(moveObj, ppObj=null, fullSetName="", moveIndex=null) {
 var moveName = $(moveObj).val();
 	var move = moves[moveName] || moves['(No Move)'];
 
 	var moveGroupObj = $(moveObj).parent();
 	moveGroupObj.children(".move-bp").val(moveName === 'Present' ? 40 : move.bp);
-
 	
-	if (typeof backup_moves != 'undefined' && typeof backup_moves[moveName] != 'undefined') {
-		moveGroupObj.children(".move-pp").val(backup_moves[moveName].pp);
+
+
+	if (ppObj) {
+		if (fullSetName.includes("My Box")) {
+			ppObj.val(backup_moves[moveName].pp	)
+		} else {
+			movePPs[fullSetName][moveIndex] ||= backup_moves[moveName].pp	
+			let ppVal = movePPs[fullSetName][moveIndex] 
+			ppObj.val(ppVal)
+		}		
+	} else {
+		try {
+			$(moveObj).parent().find('.move-pp').val(backup_moves[moveName].pp)
+		} catch {
+		}
+		
 	}
 				
 	var m = moveName.match(HIDDEN_POWER_REGEX);
@@ -576,12 +589,20 @@ function refresh_next_in() {
 			item_name = item.toLowerCase().replace(" ", "_").replace("'","") 
             pok += `<img class="trainer-pok-item" src="./img/items/${item_name}.png">`
 		}
+
+		let pps = []
+		// console.log(next_poks[i][0])
+		if (movePPs[dataID]) {
+			pps = movePPs[dataID]
+		} else {
+			pps = [1,1,1,1]
+		}
 		
 		pok +=`<div class="bp-infos">
-			<div class="bp-info">${next_poks[i][4][0].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info">${next_poks[i][4][1].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div></div>`
+			<div class="bp-info ${pps[0] == '0' ? 'nopp' : ''}">${next_poks[i][4][0].replace("Hidden Power", "HP")}</div>
+			<div class="bp-info ${pps[1] == '0' ? 'nopp' : ''}">${next_poks[i][4][1].replace("Hidden Power", "HP")}</div>
+			<div class="bp-info ${pps[2] == '0' ? 'nopp' : ''}">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
+			<div class="bp-info ${pps[3] == '0' ? 'nopp' : ''}">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div></div>`
 		
 		if (TITLE.includes("1.3")) {
 			pok += next_poks[i][5]
@@ -633,6 +654,8 @@ $(".set-selector").change(function () {
 		var sprite = setdex
 		var right_max_hp = $("#p2 .max-hp").text()
 		$("#p2 .current-hp").val(right_max_hp)//.change()
+
+		movePPs[fullSetName] ||= [];
 
 
 	} else {
@@ -830,8 +853,14 @@ $(".set-selector").change(function () {
 				moveObj = pokeObj.find(".move" + (i + 1) + " select.move-selector");
 				moveObj.attr('data-prev', moveObj.val());
 				setSelectValueIfValid(moveObj, moves[i], "(No Move)");
+
 				moveObj.prev().find('.select2-chosen').text(moveObj.val())
-				showMoveExtras(moveObj);
+				ppObj = null
+				
+				if (typeof backup_moves != 'undefined' && typeof backup_moves[moves[i]] != 'undefined') {
+					ppObj = pokeObj.find(".move" + (i + 1) + " .move-pp");
+				}
+				showMoveExtras(moveObj, ppObj, fullSetName, i);
 			}
 		} else {
 			pokeObj.find(".level").val(100);

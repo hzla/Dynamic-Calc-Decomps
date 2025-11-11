@@ -163,6 +163,12 @@ $(document).ready(function() {
         window.location.href = url;
    })
 
+   $(document).on('change', '#p2 .move-pp', function() {
+       let newPP = $(this).val()
+       let moveIndex = parseInt($(this).parent().attr('class')[4]) - 1
+       movePPs[$('.set-selector')[3].value][moveIndex] = newPP
+   })
+
    function toggleParam(name, value = "1") {
       const url = new URL(window.location.href);
 

@@ -95,6 +95,10 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     // check player moves against AI pok
     for (moveIndex in attacker.moves) {
         let move = attacker.moves[moveIndex]
+
+
+
+
         damage = attackerVDefenderResults[moveIndex].damage
 
 
@@ -164,6 +168,11 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     // Check ai moves against player pok
     for (moveIndex in defender.moves) {
         let move = defender.moves[moveIndex]
+
+
+        if (movePPs[currentlyCalcingAgainst] && parseInt(movePPs[currentlyCalcingAgainst][moveIndex]) == 0) {
+            continue;
+        }
         damage = defenderVAttackerResults[moveIndex].damage
 
         if (move.category != "Status") {
@@ -482,6 +491,8 @@ function get_next_in() {
         analysis = ""
 
         p2 = createPokemon(trainer_poks[subIndex].slice(0,-3))
+        
+        currentlyCalcingAgainst = trainer_poks[subIndex].slice(0,-3)
 
         let isCurrent = currentp2.name == p2.name
 
