@@ -1277,6 +1277,11 @@ function getMoveDetails(moveInfo, species, ability, item, useMax, moveName=false
 
 	
 	var isZMove = gen > 6 && moveInfo.find("input.move-z").prop("checked");
+	if (typeof backup_moves != "undefined") {
+		if ((backup_moves[moveName].crit_stage >= 2 && item == "Scope Lens") || backup_moves[moveName].willCrit === true){
+			moveInfo.find(".move-crit").prop("checked", true);
+		}
+	}
 	var isCrit = moveInfo.find(".move-crit").prop("checked");
 
 	if (limitHits) {
