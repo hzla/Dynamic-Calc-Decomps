@@ -8,6 +8,8 @@ function consoleMatchupData(attackerVDefenderResults, defenderVAttackerResults, 
     let attacker = defenderVAttackerResults[0].defender
     let defender = defenderVAttackerResults[0].attacker
 
+
+
     defender.originalCurHP = defender.originalCurHP / dmgBoost
 
     attacker.moves = attacker.getDamagingMovePool()
@@ -104,9 +106,11 @@ function consoleMatchupData(attackerVDefenderResults, defenderVAttackerResults, 
 
         if (defenderVAttackerResults[hitByIndex].damage[15]) {
             attacker.originalCurHP = Math.max(1, attacker.originalCurHP - defenderVAttackerResults[hitByIndex].damage[15])
-            console.log(`${attacker.name} new hp: ${attacker.originalCurHP} after ${hitBy} does ${defenderVAttackerResults[hitByIndex].damage[15]} damage`)
+            // console.log(`${attacker.name} new hp: ${attacker.originalCurHP} after ${hitBy} does ${defenderVAttackerResults[hitByIndex].damage[15]} damage`)
         }    
     }
+
+    let remainingAttackerHP = attacker.originalCurHP
 
     for (moveIndex in defender.moves) {
         let move = defender.moves[moveIndex]
@@ -123,9 +127,9 @@ function consoleMatchupData(attackerVDefenderResults, defenderVAttackerResults, 
             if (aiCrits) {
                 damage = damage.map(() => damage[15] * 1.5)
             }
-        } else if (!damage[15]) {
-            immunities.push([attacker.name, move.name])
-            console.log(immunities)
+        } else if (!damage[15] && move.category != "Status") {
+            immunities[move.name] ||= []
+            immunities[move.name].push(attacker.name)
         }
 
         if (damage[0] > highestDmgDealt) {
@@ -137,9 +141,6 @@ function consoleMatchupData(attackerVDefenderResults, defenderVAttackerResults, 
         let koData = getKOChance(genInfo, defender, attacker, move, defenderField, damage, false)
         let turnsToKill = koData.n
 
-        if (defender.name == "Greninja") {
-            console.log("here")
-        }
 
 
         // 0 means too insignificant to matter
@@ -226,19 +227,26 @@ function consoleMatchupData(attackerVDefenderResults, defenderVAttackerResults, 
         movesFirst = isFaster
     }
 
-    // console.log(`${attacker.name} kills in ${attackerFastestKill} with ${attackerBestMove}`)
-    // console.log(`${defender.name} kill in ${defenderFastestKill} with ${bestMove}`)
+    if (isFaster) {
+        remainingAttackerHP -= highestDmgDealt * (attackerFastestKill)
+    } else {
+        remainingAttackerHP -= highestDmgDealt * (attackerFastestKill - 1)
+    }
 
-    let matchupData = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill}
+    remainingAttackerHP = parseInt(remainingAttackerHP / attacker.rawStats.hp * 100)
+
+    let matchupData = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill, remainingAttackerHP: remainingAttackerHP}
 
     disableKOChanceCalcs = false
 
     return matchupData
 }
 
-function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false, AiCrit=false, times=1, fast=false, dmgBoost=1, showBait=false) {
+function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false, AiCrit=false, times=1, fast=false, dmgBoost=1, showBait=false, appliedMove=false) {
     var box = get_box()
 
+
+    // Set rolls to search for to impossible numbers if not specified
     if (!dealtMinRoll) {
         dealt_min_roll=10000000
     } else {
@@ -249,21 +257,28 @@ function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false
     } else {
         taken_max_roll = takenMaxRoll
     }
+
+    // if accounting for crits against player, reduce search threshold by 2/3rds
     if (AiCrit) {
         taken_max_roll = taken_max_roll * (2/3)
     }
+    // If number of hits is specified, divide threshold by number of hits
     if (times > 1) {
         taken_max_roll = taken_max_roll / times
     }
 
+    // if dmg boost against ai is specified, reduce search threshold
     if (dmgBoost > 1) {
         dealt_min_roll = dealt_min_roll / dmgBoost
     }
 
+    // clear box of filters
     $('.killer').removeClass('killer')
     $('.defender').removeClass('defender')
     $('.faster').removeClass('faster')
     $('.baiter').removeClass('baiter')
+
+    
 
     var p1field = createField();
     var p2field = p1field.clone().swap();
@@ -281,6 +296,8 @@ function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false
     var defenders = {}
     var faster = {}
     var baiters = {}
+
+    var tableOutput = []
 
     for (m = 0; m < box.length; m++) {
         if (p1.level < 1) {
@@ -337,10 +354,16 @@ function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false
         let highestMaxRoll = 0
         let highestMinRoll = 0
 
+
+
         for (j = 0; j < 4; j++) {            
             let opposing_dmg = opposing_results[j].damage
             let move_name = opposing_results[j].move.originalName
             let min_roll = opposing_dmg[0]
+
+
+            let appliedDmg = applyDamageRollToDefender(opposing_results[j].move, p1, mon, p1field).damage[15]
+
 
 
             let turns = getTurnsToKill(opposing_dmg, monHp)
@@ -457,8 +480,75 @@ function applyDamageRollToDefender(move, attacker, defender, p1field) {
     return calc.calculate(gen, attacker, defender, move, p1field)
 }
 
+function printAsciiTable(term, data, headerColors=["teal"], rowColors=["purple"]) {
+  if (!Array.isArray(data) || data.length === 0) {
+    term.echo('Empty table.');
+    return;
+  }
 
+  const colCount = Math.max(...data.map(row => row.length));
 
+  // Normalize rows (fill missing cells with empty strings)
+  const normalized = data.map(row => {
+    const newRow = [];
+    for (let i = 0; i < colCount; i++) {
+      const val = row[i];
+      newRow.push(val == null ? '' : val.toString());
+    }
+    return newRow;
+  });
+
+  // Compute column widths based on all normalized rows
+  const colWidths = [];
+  for (let c = 0; c < colCount; c++) {
+    let maxLen = 0;
+    for (let r = 0; r < normalized.length; r++) {
+      const cell = normalized[r][c];
+      if (cell.length > maxLen) maxLen = cell.length;
+    }
+    colWidths[c] = maxLen + 2; // padding
+  }
+
+  const border = '+' + colWidths.map(w => '-'.repeat(w)).join('+') + '+';
+
+  const formatRow = (row, colors) => {
+    return (
+      '|' +
+      row
+        .map((cell, i) => {
+          const padded = ' ' + cell.padEnd(colWidths[i] - 1, ' ');
+          
+          color = colors[i] || colors[0]
+
+          if (color === 'teal') return teal(padded);
+          if (color === 'purple') return purple(padded);
+          if (color === 'hpColor') return hpColor(padded)
+          return padded;
+        })
+        .join('|') +
+      '|'
+    );
+  };
+
+  const lines = [border];
+  lines.push(formatRow(normalized[0], headerColors)); // header in teal
+  lines.push(border);
+  for (let i = 1; i < normalized.length; i++) {
+    lines.push(formatRow(normalized[i], rowColors)); // rows in purple
+  }
+  lines.push(border);
+
+  term.echo(lines.join('\n'));
+}
+
+function sortByRemainingHP(a, b) {
+    if (a[2] === b[2]) {
+        return (b[0] > a[0]) ? -1 : 1;
+    }
+    else {
+        return (b[2] < a[2]) ? -1 : 1;
+    }
+}
 
 
 

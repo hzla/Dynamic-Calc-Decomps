@@ -1700,8 +1700,25 @@ table.field {
     overflow: scroll;
 }
 
-.battle-console {
-    width: calc(100%);
+.panel .battle-console {
+    /*width: calc(100%);*/
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    right: 0;
+    height: 800px;
+    width: 480px;
+    z-index: 100;
+    max-height: auto;
+    max-width: auto;
+}
+
+/*.cmd,.cmd div,.cmd span,.terminal,.terminal-output>:not(.raw) a,.terminal-output>:not(.raw) div,.terminal-output>:not(.raw) span {
+    font-size: calc(var(--size, 1)*(16px/var(--pixel-density, 1))) !important; 
+}*/
+
+.terminal-output span {
+  /*font-size: 2em !important;*/
 }
 
 #toggle-console {

@@ -4,6 +4,9 @@ $(document).ready(function() {
             
             if (!terminalStarted) {
                $(initConsole) 
+               $('.battle-console').draggable()
+               $('.battle-console').resizable()
+
             }
             
             $('.notes-text').hide()
@@ -16,9 +19,14 @@ $(document).ready(function() {
         }
     })
 
+
+
     $(document).on('click', '.terminal-output span', function() {
-      const spanText = $(this).attr('data-text')
+      let spanText = $(this).attr('data-text') || $(this).text()
+      spanText = spanText.trim()
+
       if (customSets[spanText]) {
+        console.log(spanText)
         $(`img[data-id="${spanText} (My Box)"]`).click()
       }
 
@@ -35,7 +43,7 @@ $(document).ready(function() {
 function initConsole() {
   noEcho = false;
   terminalStarted = true;
-  immunities = []
+  immunities = {}
   term = $('.battle-console').terminal({
       help: function(value) {
           window.open('https://github.com/hzla/Dynamic-Calc/wiki/Battle-Console', '_blank');
@@ -128,7 +136,9 @@ function initConsole() {
           let box = get_box()
 
           this.clear();
-          this.echo(`Searching box for mons that win 1v1 using fully accurate moves${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}${move ? ` after getting hit by ${move}` : ""}${aiCrits ? ` accounting for crits` : ""}\n`, {keepWords: true})
+          this.echo(`Searching for winning matchups${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}${move ? ` after getting hit by ${teal(move)}` : ""}${aiCrits ? ` assuming all crits` : ""}\n`, {keepWords: true})
+          let results = []
+
           for (m = 0; m < box.length; m++) {
 
             let p1 = createPokemon(box[m])
@@ -137,11 +147,16 @@ function initConsole() {
             let matchup = consoleMatchupData(all_results[0], all_results[1], dmgBoost, aiCrits, move)
 
             if (!matchup.wins1v1) {
-              this.echo(`${purple(p1.name)} with ${teal(matchup.attackerBestMove)}${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}`, {
-                keepWords: true
-              });
-            }     
-          }         
+              results.push([p1.name, matchup.attackerBestMove, matchup.remainingAttackerHP])
+            }            
+          }
+          results = results.sort(sortByRemainingHP)
+
+          resultsTable = [["Species", "Move", "%HP"]]
+          for (let result of results) {
+            resultsTable.push(result)
+          } 
+          printAsciiTable(this, resultsTable, [""], ["purple", "teal", "hpColor"])          
       },
       // same as above but assuming AI crits every move
       winscrit: function(...args) {
@@ -166,7 +181,8 @@ function initConsole() {
           let box = get_box()
 
           this.clear();
-          this.echo(`Searching box for mons that win 1v1 using fully accurate moves${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}${move ? ` after getting hit by ${move}` : ""}${aiCrits ? ` accounting for crits` : ""}\n`, {keepWords: true})
+          this.echo(`Searching for winning matchups${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}${move ? ` after getting hit by ${teal(move)}` : ""}${aiCrits ? ` assuming all crits` : ""}\n`, {keepWords: true})
+          let results = []
           for (m = 0; m < box.length; m++) {
 
             let p1 = createPokemon(box[m])
@@ -174,10 +190,19 @@ function initConsole() {
             let all_results = calculateAllLeftVisibleRight(damageGen, p1, p1field, p2, p2field);
             let matchup = consoleMatchupData(all_results[0], all_results[1], dmgBoost, aiCrits, move)
 
+
             if (!matchup.wins1v1) {
-              this.echo(`${purple(p1.name)} with ${teal(matchup.attackerBestMove)}${dmgBoost > 1 ? ` after ${dmgBoost}x boost` : ""}`, {keepWords: true});
+              results.push([p1.name, matchup.attackerBestMove, matchup.remainingAttackerHP])
             }     
-          }         
+          }
+          results = results.sort(sortByRemainingHP)
+
+          resultsTable = [["Species", "Move", "%HP"]]
+          for (let result of results) {
+            resultsTable.push(result)
+          }
+
+          printAsciiTable(this, resultsTable, [""], ["purple", "teal", "hpColor"])     
       },
       immune: function(...args) {
           let p2info = $("#p2");          
@@ -185,6 +210,7 @@ function initConsole() {
           let p1field = createField();
           let p2field = p1field.clone().swap();
           let box = get_box()
+          immunities = {}  
 
           this.clear();
           this.echo(`Searching box for mons with immunities\n`, {keepWords: true});
@@ -193,15 +219,29 @@ function initConsole() {
             let p1 = createPokemon(box[m])
             let all_results = calculateAllLeftVisibleRight(damageGen, p1, p1field, p2, p2field);
             let matchup = consoleMatchupData(all_results[0], all_results[1])   
-          }   
-          for (let im of immunities) {
-            this.echo(`${purple(im[0])} immune to ${teal(im[1])}`, {keepWords: true})
           }
+
+          let immunityTable = [[]] 
+          let blockedMoveCount = 0
+
+          for (let im in immunities) {
+            immunityTable[0].push(im)
+            let pokCount = 1
+            for (let pok of immunities[im]) {
+              immunityTable[pokCount] ||= []
+              immunityTable[pokCount][blockedMoveCount] = pok
+              pokCount += 1
+            }
+            blockedMoveCount += 1   
+          }
+          console.log(immunityTable)
+          printAsciiTable(this, immunityTable)
       }
 
    }, {
         greetings: "Welcome to the battle console!\nType 'help' for available commands.\nType 'clear' to clear console",
-        checkArity: false
+        checkArity: false,
+        scrollOnEcho: false
     });
 }
 
@@ -219,6 +259,15 @@ function purple(message) {
 
 function teal(message) {
     return "[[;#1abc9c;]" + message + "]";
+}
+
+function hpColor(hp) {
+  return parseInt(hp) > 50 ? "[[;#50fa7b;]" + hp + "]" : "[[;#ff5555;]" + hp + "]"
+
+}
+
+function red(message) {
+  return "[[;#ff5555;]" + message + "]";
 }
 
 function getMoveFromArgs(args) {

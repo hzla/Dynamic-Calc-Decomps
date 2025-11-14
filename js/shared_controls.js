@@ -512,7 +512,7 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="") {
 	moveGroupObj.children(".move-cat").val(move.category);
 
 	let isCrit = false
-	if (typeof backup_moves != "undefined") {
+	if (typeof backup_moves != "undefined" && typeof backup_moves[moveName] != 'undefined') {
 		isCrit = (backup_moves[moveName].crit_stage >= 2 && pokemon.item == "Scope Lens") || move.willCrit === true;
 	} else {
 		isCrit = move.willCrit === true;
