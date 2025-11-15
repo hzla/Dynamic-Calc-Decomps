@@ -299,6 +299,16 @@ function calculateLeftMoves(gen, p1, p1field, p2, p2field) {
 	return results;
 }
 
+
+function calculateSingleSidedMoves(gen, attacker, defender, field) {
+	var results = [];
+
+	for (var i = 0; i < 4; i++) {
+		results[i] = calc.calculate(gen, attacker, defender, attacker.moves[i], field);
+	}
+	return results;
+}
+
 function calculateAllLeftVisibleRight(gen, p1, p1field, p2, p2field) {
 	var results = [[], []];
 	

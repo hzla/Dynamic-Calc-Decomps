@@ -434,7 +434,6 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="") {
 	const moveIndex = $(moveObj).parent().attr('class')[4]
 
 	let resultText = $(`#resultDamage${isPlayer ? 'L' : 'R'}${moveIndex}`)
-	console.log(resultText)
 
 
 	
@@ -1288,7 +1287,7 @@ function getMoveDetails(moveInfo, species, ability, item, useMax, moveName=false
 	var timesUsed = +moveInfo.find(".stat-drops").val();
 	var timesUsedWithMetronome = moveInfo.find(".metronome").is(':visible') ? +moveInfo.find(".metronome").val() : 1;
 	
-	if (moveName != moveInfo.find("select.move-selector").val()) {
+	if (moveName != moveInfo.find("select.move-selector").val() || moveName.includes("Hidden Power")) {
 		var overrides = {}
 	} else {
 		var overrides = {

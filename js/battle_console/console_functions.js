@@ -278,7 +278,7 @@ function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false
     $('.faster').removeClass('faster')
     $('.baiter').removeClass('baiter')
 
-    
+
 
     var p1field = createField();
     var p2field = p1field.clone().swap();
@@ -353,6 +353,7 @@ function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false
         let chosenMoveDmg = 0
         let highestMaxRoll = 0
         let highestMinRoll = 0
+        let baitedMoves = []
 
 
 
@@ -368,23 +369,32 @@ function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false
 
             let turns = getTurnsToKill(opposing_dmg, monHp)
 
+            if (mon.name == "Barraskewda") {
+                console.log(move_name)
+            }
+
             if (turns < fastestKill) {
                 fastestKill = turns
                 aiMostDmgMoves = [move_name]
-                highestMinRoll = opposing_dmg[0]
+                highestMinRoll = opposing_dmg[0] 
+                highestMaxRoll = opposing_dmg[opposing_dmg.length - 1] 
                 if (moves[move_name].secondaries) {
                     aiMostDmgMovesWithSecondaries = [move_name]
                 } else {
                     aiMostDmgMovesWithSecondaries = []
                 }
+            // If this moves kills in same number of turns as the current strongest move
             } else if (turns == fastestKill) {
                 if (min_roll > highestMinRoll) {
                     highestMinRoll = min_roll;
                 }
 
-                if (opposing_dmg[opposing_dmg.length - 1] > highestMinRoll) {
+                // set this move as strongest every roll does more than previous highest max roll
+                if (opposing_dmg[0] > highestMaxRoll) {
+                    aiMostDmgMoves = [move_name]       
+                } else {
                     aiMostDmgMoves.push(move_name)
-                } 
+                }
                 if (moves[move_name].secondaries) {
                     aiMostDmgMovesWithSecondaries.push(move_name)
                 }           
@@ -419,25 +429,25 @@ function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false
         if (showBait) {
             if (aiKillingMoves.length == 1 && aiKillingMoves[0] == chosenMove) {
                 isBaiter = true;
-                console.log(`${aiKillingMoves[0]} is only killing move`)
+                console.log(`${aiKillingMoves[0]} is only killing move ${mon.name}`)
             } else if (aiKillingMoves.length > 1 && aiKillingMoves.includes(chosenMove)) {
                 if (aiMinRollKillingMoves.length == 1 && aiMinRollKillingMoves[0] == chosenMove) {
                     isBaiter = true
-                    console.log(`${aiKillingMoves[0]} is only killing move where min roll kills`)
+                    console.log(`${aiKillingMoves[0]} is only killing move where min roll kills ${mon.name}`)
                 }  
                 if (aiKillingMovesWithSecondaries.length == 1 && aiKillingMovesWithSecondaries[0] == chosenMove) {
                     isBaiter = true
-                    console.log(`${aiKillingMoves[0]} is only killing with secondary effect`)
+                    console.log(`${aiKillingMoves[0]} is only killing with secondary effect ${mon.name}`)
                 }   
             }
 
-            if (aiMostDmgMoves.length == 1 && aiMostDmgMoves[0] == chosenMove) {
+            if (aiMostDmgMoves.length == 1 && aiMostDmgMoves[0] == chosenMove && typeof aiMostDmgMoves[0] != "undefined") {
                 isBaiter = true;
-                console.log(`${aiKillingMoves[0]} kills fastest`)
+                console.log(`${aiKillingMoves[0]} kills fastest ${mon.name}`)
             } 
             else if (aiMostDmgMovesWithSecondaries.length == 1 && aiMostDmgMovesWithSecondaries[0] == chosenMove) {
                 isBaiter = true;
-                console.log(`${aiKillingMoves[0]} is only fastest killing move with secondaries`)
+                console.log(`${aiKillingMoves[0]} is only fastest killing move with secondaries ${mon.name}`)
             }
 
             if (isBaiter) {
