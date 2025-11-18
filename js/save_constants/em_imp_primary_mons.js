@@ -7,7 +7,8 @@ em_imp_primary_mons = {
           "Pound"
         ]
       ],
-      "tms": []
+      "tms": [],
+      "egg": []
     },
     "bs": {
       "hp": 1,
@@ -123,6 +124,23 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Power Whip"
+      ],
+      "egg": [
+        "Skull Bash",
+        "Charm",
+        "Petal Dance",
+        "Magical Leaf",
+        "Grass Whistle",
+        "Curse",
+        "Ingrain",
+        "Nature Power",
+        "Amnesia",
+        "Leaf Storm",
+        "Power Whip",
+        "Sludge",
+        "Endure",
+        "Giga Drain",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -447,7 +465,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           28,
@@ -505,6 +523,22 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Belly Drum",
+        "Ancient Power",
+        "Bite",
+        "Outrage",
+        "Fire Lash",
+        "Dragon Dance",
+        "Crunch",
+        "Dragon Rush",
+        "Metal Claw",
+        "Flare Blitz",
+        "Counter",
+        "Dragon Pulse",
+        "Focus Punch",
+        "Air Cutter"
       ]
     },
     "bs": {
@@ -577,7 +611,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           28,
@@ -735,7 +769,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           28,
@@ -942,6 +976,24 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Mirror Coat",
+        "Haze",
+        "Mist",
+        "Flail",
+        "Refresh",
+        "Mud Sport",
+        "Yawn",
+        "Muddy Water",
+        "Fake Out",
+        "Aqua Ring",
+        "Aqua Jet",
+        "Water Spout",
+        "Brine",
+        "Dragon Pulse",
+        "Aura Sphere",
+        "Life Dew"
       ]
     },
     "bs": {
@@ -1779,6 +1831,16 @@ em_imp_primary_mons = {
         "Tailwind",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Pursuit",
+        "Feint Attack",
+        "Foresight",
+        "Steel Wing",
+        "Air Cutter",
+        "Air Slash",
+        "Uproar",
+        "Defog"
       ]
     },
     "bs": {
@@ -2119,6 +2181,18 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Screech",
+        "Flame Wheel",
+        "Fury Swipes",
+        "Bite",
+        "Counter",
+        "Reversal",
+        "Uproar",
+        "Me First",
+        "Revenge",
+        "Final Gambit"
       ]
     },
     "bs": {
@@ -2340,6 +2414,19 @@ em_imp_primary_mons = {
         "Drill Run",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Feint Attack",
+        "Scary Face",
+        "Quick Attack",
+        "Tri Attack",
+        "Astonish",
+        "Sky Attack",
+        "Whirlwind",
+        "Uproar",
+        "Feather Dance",
+        "Steel Wing",
+        "Razor Wind"
       ]
     },
     "bs": {
@@ -2581,6 +2668,20 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Poison Fang"
+      ],
+      "egg": [
+        "Pursuit",
+        "Slam",
+        "Spite",
+        "Beat Up",
+        "Poison Fang",
+        "Scary Face",
+        "Poison Tail",
+        "Disable",
+        "Switcheroo",
+        "Iron Tail",
+        "Sucker Punch",
+        "Snatch"
       ]
     },
     "bs": {
@@ -4234,6 +4335,20 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Focus Punch",
         "Spikes"
+      ],
+      "egg": [
+        "Flail",
+        "Counter",
+        "Rapid Spin",
+        "Metal Claw",
+        "Crush Claw",
+        "Night Slash",
+        "Mud Shot",
+        "Endure",
+        "Chip Away",
+        "Rock Climb",
+        "Rototiller",
+        "Hone Claws"
       ]
     },
     "bs": {
@@ -4477,6 +4592,22 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Poison Fang"
+      ],
+      "egg": [
+        "Supersonic",
+        "Disable",
+        "Take Down",
+        "Focus Energy",
+        "Charm",
+        "Counter",
+        "Beat Up",
+        "Pursuit",
+        "Skull Bash",
+        "Iron Tail",
+        "Poison Tail",
+        "Endure",
+        "Chip Away",
+        "Venom Drench"
       ]
     },
     "bs": {
@@ -4802,6 +4933,22 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Counter",
+        "Disable",
+        "Supersonic",
+        "Take Down",
+        "Amnesia",
+        "Confusion",
+        "Beat Up",
+        "Sucker Punch",
+        "Head Smash",
+        "Iron Tail",
+        "Poison Tail",
+        "Endure",
+        "Chip Away",
+        "Venom Drench"
       ]
     },
     "bs": {
@@ -5435,6 +5582,22 @@ em_imp_primary_mons = {
         "Hex",
         "Mystical Fire",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Feint Attack",
+        "Hypnosis",
+        "Flail",
+        "Spite",
+        "Disable",
+        "Howl",
+        "Heat Wave",
+        "Flare Blitz",
+        "Extrasensory",
+        "Power Swap",
+        "Hex",
+        "Tail Slap",
+        "Captivate",
+        "Memento"
       ]
     },
     "bs": {
@@ -5908,6 +6071,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Poison Fang"
+      ],
+      "egg": [
+        "Quick Attack",
+        "Pursuit",
+        "Feint Attack",
+        "Gust",
+        "Whirlwind",
+        "Curse",
+        "Nasty Plot",
+        "Hypnosis",
+        "Zen Headbutt",
+        "Giga Drain",
+        "Steel Wing",
+        "Defog",
+        "Venom Drench"
       ]
     },
     "bs": {
@@ -6159,6 +6337,18 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Moonblast"
+      ],
+      "egg": [
+        "Razor Leaf",
+        "Flail",
+        "Synthesis",
+        "Charm",
+        "Ingrain",
+        "Tickle",
+        "Teeter Dance",
+        "Nature Power",
+        "After You",
+        "Leech Seed"
       ]
     },
     "bs": {
@@ -6488,6 +6678,25 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Leaf Blade"
+      ],
+      "egg": [
+        "Screech",
+        "Counter",
+        "Psybeam",
+        "Flail",
+        "Sweet Scent",
+        "Pursuit",
+        "Metal Claw",
+        "Bug Bite",
+        "Cross Poison",
+        "Agility",
+        "Endure",
+        "Natural Gift",
+        "Leech Seed",
+        "Wide Guard",
+        "Rototiller",
+        "Fell Stinger",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -6718,6 +6927,17 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Poison Fang"
+      ],
+      "egg": [
+        "Screech",
+        "Giga Drain",
+        "Signal Beam",
+        "Agility",
+        "Morning Sun",
+        "Toxic Spikes",
+        "Bug Bite",
+        "Skill Swap",
+        "Rage Powder"
       ]
     },
     "bs": {
@@ -6952,6 +7172,21 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Sandstorm"
+      ],
+      "egg": [
+        "Feint Attack",
+        "Screech",
+        "Ancient Power",
+        "Pursuit",
+        "Beat Up",
+        "Uproar",
+        "Mud Bomb",
+        "Astonish",
+        "Reversal",
+        "Headbutt",
+        "Endure",
+        "Final Gambit",
+        "Memento"
       ]
     },
     "bs": {
@@ -7201,6 +7436,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Spite",
+        "Charm",
+        "Hypnosis",
+        "Amnesia",
+        "Assist",
+        "Odor Sleuth",
+        "Flail",
+        "Punishment",
+        "Tail Whip",
+        "Snatch",
+        "Iron Tail",
+        "Foul Play",
+        "Covet"
       ]
     },
     "bs": {
@@ -7480,6 +7730,22 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Hypnosis",
+        "Psybeam",
+        "Foresight",
+        "Future Sight",
+        "Cross Chop",
+        "Refresh",
+        "Confuse Ray",
+        "Yawn",
+        "Mud Bomb",
+        "Encore",
+        "Sleep Talk",
+        "Synchronoise",
+        "Simple Beam",
+        "Clear Smog"
       ]
     },
     "bs": {
@@ -7779,6 +8045,20 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Foresight",
+        "Meditate",
+        "Counter",
+        "Reversal",
+        "Beat Up",
+        "Revenge",
+        "Smelling Salts",
+        "Encore",
+        "Focus Punch",
+        "Sleep Talk",
+        "Night Slash",
+        "Power Trip"
       ]
     },
     "bs": {
@@ -8078,6 +8358,22 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Psychic Fangs",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Body Slam",
+        "Crunch",
+        "Thrash",
+        "Fire Spin",
+        "Howl",
+        "Heat Wave",
+        "Double-Edge",
+        "Flare Blitz",
+        "Morning Sun",
+        "Covet",
+        "Iron Tail",
+        "Double Kick",
+        "Close Combat",
+        "Burn Up"
       ]
     },
     "bs": {
@@ -8232,7 +8528,7 @@ em_imp_primary_mons = {
         ],
         [
           25,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           28,
@@ -8271,6 +8567,21 @@ em_imp_primary_mons = {
         "Snowscape",
         "Body Slam",
         "Rain Dance",
+        "Water Pulse"
+      ],
+      "egg": [
+        "Mist",
+        "Splash",
+        "Bubble Beam",
+        "Haze",
+        "Mind Reader",
+        "Water Sport",
+        "Ice Ball",
+        "Mud Shot",
+        "Refresh",
+        "Endeavor",
+        "Encore",
+        "Endure",
         "Water Pulse"
       ]
     },
@@ -8340,7 +8651,7 @@ em_imp_primary_mons = {
         ],
         [
           27,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           32,
@@ -8441,7 +8752,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           1,
@@ -8574,6 +8885,20 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Encore",
+        "Barrier",
+        "Knock Off",
+        "Fire Punch",
+        "Thunder Punch",
+        "Ice Punch",
+        "Power Trick",
+        "Guard Swap",
+        "Skill Swap",
+        "Guard Split",
+        "Psycho Shift",
+        "Psychic Terrain"
       ]
     },
     "bs": {
@@ -8950,6 +9275,22 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Meditate",
+        "Rolling Kick",
+        "Encore",
+        "Smelling Salts",
+        "Counter",
+        "Fire Punch",
+        "Thunder Punch",
+        "Ice Punch",
+        "Bullet Punch",
+        "Power Trick",
+        "Heavy Slam",
+        "Knock Off",
+        "Tickle",
+        "Quick Guard"
       ]
     },
     "bs": {
@@ -9362,6 +9703,24 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Power Whip"
+      ],
+      "egg": [
+        "Encore",
+        "Synthesis",
+        "Leech Life",
+        "Ingrain",
+        "Magical Leaf",
+        "Worry Seed",
+        "Tickle",
+        "Weather Ball",
+        "Bullet Seed",
+        "Natural Gift",
+        "Giga Drain",
+        "Clear Smog",
+        "Power Whip",
+        "Acid Spray",
+        "Belch",
+        "Strength Sap"
       ]
     },
     "bs": {
@@ -9658,7 +10017,7 @@ em_imp_primary_mons = {
         ],
         [
           25,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           28,
@@ -9717,6 +10076,18 @@ em_imp_primary_mons = {
         "Hex",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Aurora Beam",
+        "Mirror Coat",
+        "Rapid Spin",
+        "Haze",
+        "Confuse Ray",
+        "Knock Off",
+        "Muddy Water",
+        "Bubble",
+        "Aqua Ring",
+        "Tickle"
       ]
     },
     "bs": {
@@ -9794,7 +10165,7 @@ em_imp_primary_mons = {
         ],
         [
           25,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           28,
@@ -9921,7 +10292,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           28,
@@ -9977,6 +10348,18 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Focus Punch",
         "Smack Down"
+      ],
+      "egg": [
+        "Mega Punch",
+        "Block",
+        "Hammer Arm",
+        "Flail",
+        "Curse",
+        "Focus Punch",
+        "Rock Climb",
+        "Endure",
+        "Autotomize",
+        "Wide Guard"
       ]
     },
     "bs": {
@@ -10066,7 +10449,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           30,
@@ -10216,7 +10599,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           30,
@@ -10397,6 +10780,18 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Flare Blitz",
         "Solar Blade"
+      ],
+      "egg": [
+        "Flame Wheel",
+        "Thrash",
+        "Double Kick",
+        "Hypnosis",
+        "Charm",
+        "Double-Edge",
+        "Morning Sun",
+        "Low Kick",
+        "Captivate",
+        "High Horsepower"
       ]
     },
     "bs": {
@@ -10671,6 +11066,19 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Belly Drum",
+        "Future Sight",
+        "Stomp",
+        "Mud Sport",
+        "Sleep Talk",
+        "Snore",
+        "Me First",
+        "Block",
+        "Zen Headbutt",
+        "Wonder Room",
+        "Belch"
       ]
     },
     "bs": {
@@ -11249,6 +11657,28 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Leaf Blade",
         "Solar Blade"
+      ],
+      "egg": [
+        "Steel Wing",
+        "Foresight",
+        "Wish",
+        "Mirror Move",
+        "Gust",
+        "Quick Attack",
+        "Flail",
+        "Feather Dance",
+        "Curse",
+        "Covet",
+        "Mud-Slap",
+        "Night Slash",
+        "Leaf Blade",
+        "Revenge",
+        "Roost",
+        "Trump Card",
+        "Simple Beam",
+        "First Impression",
+        "Final Gambit",
+        "Sky Attack"
       ]
     },
     "bs": {
@@ -11350,6 +11780,18 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Body Slam",
         "Sunny Day"
+      ],
+      "egg": [
+        "Quick Attack",
+        "Supersonic",
+        "Haze",
+        "Feint Attack",
+        "Flail",
+        "Endeavor",
+        "Mirror Move",
+        "Brave Bird",
+        "Natural Gift",
+        "Assurance"
       ]
     },
     "bs": {
@@ -11588,6 +12030,24 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Dive"
+      ],
+      "egg": [
+        "Lick",
+        "Perish Song",
+        "Disable",
+        "Slam",
+        "Encore",
+        "Fake Out",
+        "Icicle Spear",
+        "Signal Beam",
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Water Pulse",
+        "Iron Tail",
+        "Sleep Talk",
+        "Belch",
+        "Entrainment"
       ]
     },
     "bs": {
@@ -11835,6 +12295,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Poison Fang"
+      ],
+      "egg": [
+        "Haze",
+        "Mean Look",
+        "Lick",
+        "Imprison",
+        "Curse",
+        "Shadow Punch",
+        "Shadow Sneak",
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Scary Face",
+        "Acid Spray",
+        "Power-Up Punch"
       ]
     },
     "bs": {
@@ -12087,6 +12562,21 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Spikes"
+      ],
+      "egg": [
+        "Bubble Beam",
+        "Take Down",
+        "Barrier",
+        "Rapid Spin",
+        "Screech",
+        "Icicle Spear",
+        "Mud Shot",
+        "Rock Blast",
+        "Water Pulse",
+        "Aqua Ring",
+        "Avalanche",
+        "Twineedle",
+        "Life Dew"
       ]
     },
     "bs": {
@@ -12303,6 +12793,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Rain Dance"
+      ],
+      "egg": [
+        "Psywave",
+        "Perish Song",
+        "Haze",
+        "Astonish",
+        "Grudge",
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Disable",
+        "Scary Face",
+        "Clear Smog",
+        "Smog",
+        "Reflect Type"
       ]
     },
     "bs": {
@@ -12736,6 +13241,19 @@ em_imp_primary_mons = {
         "Smack Down",
         "Supercell Slam",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Flail",
+        "Block",
+        "Defense Curl",
+        "Rollout",
+        "Rock Blast",
+        "Rock Climb",
+        "Heavy Slam",
+        "Stealth Rock",
+        "Rototiller",
+        "Wide Guard",
+        "Head Smash"
       ]
     },
     "bs": {
@@ -12880,6 +13398,21 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Barrier",
+        "Assist",
+        "Role Play",
+        "Fire Punch",
+        "Thunder Punch",
+        "Ice Punch",
+        "Nasty Plot",
+        "Flatter",
+        "Psycho Cut",
+        "Wish",
+        "Skill Swap",
+        "Power Split",
+        "Psychic Terrain"
       ]
     },
     "bs": {
@@ -13087,7 +13620,7 @@ em_imp_primary_mons = {
         ],
         [
           15,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           19,
@@ -13150,6 +13683,22 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Body Slam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Haze",
+        "Amnesia",
+        "Flail",
+        "Slam",
+        "Knock Off",
+        "Tickle",
+        "Ancient Power",
+        "Agility",
+        "Endure",
+        "Chip Away",
+        "Bide",
+        "Hammer Arm",
+        "Slash",
+        "Night Slash"
       ]
     },
     "bs": {
@@ -13214,7 +13763,7 @@ em_imp_primary_mons = {
         ],
         [
           15,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           19,
@@ -13354,7 +13903,7 @@ em_imp_primary_mons = {
         ],
         [
           26,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           29,
@@ -13404,6 +13953,10 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Foul Play",
         "Rain Dance"
+      ],
+      "egg": [
+        "Metal Sound",
+        "Recycle"
       ]
     },
     "bs": {
@@ -13488,7 +14041,7 @@ em_imp_primary_mons = {
         ],
         [
           26,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           29,
@@ -13660,6 +14213,23 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Gravity"
+      ],
+      "egg": [
+        "Synthesis",
+        "Moonlight",
+        "Ancient Power",
+        "Ingrain",
+        "Curse",
+        "Nature Power",
+        "Lucky Chant",
+        "Leaf Storm",
+        "Power Swap",
+        "Giga Drain",
+        "Skill Swap",
+        "Natural Gift",
+        "Block",
+        "Wish",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -13893,6 +14463,19 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Focus Punch",
         "Stomping Tantrum"
+      ],
+      "egg": [
+        "Head Smash",
+        "Belly Drum",
+        "Screech",
+        "Skull Bash",
+        "Perish Song",
+        "Double Kick",
+        "Iron Head",
+        "Detect",
+        "Endure",
+        "Chip Away",
+        "Curse"
       ]
     },
     "bs": {
@@ -14282,7 +14865,7 @@ em_imp_primary_mons = {
         ],
         [
           36,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           36,
@@ -14472,6 +15055,22 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Power Whip"
+      ],
+      "egg": [
+        "Belly Drum",
+        "Wish",
+        "Magnitude",
+        "Body Slam",
+        "Curse",
+        "Smelling Salts",
+        "Sleep Talk",
+        "Snore",
+        "Amnesia",
+        "Hammer Arm",
+        "Muddy Water",
+        "Zen Headbutt",
+        "Belch",
+        "Thrash"
       ]
     },
     "bs": {
@@ -14533,7 +15132,7 @@ em_imp_primary_mons = {
         ],
         [
           23,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           26,
@@ -14583,6 +15182,21 @@ em_imp_primary_mons = {
         "Pain Split",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Screech",
+        "Psywave",
+        "Psybeam",
+        "Destiny Bond",
+        "Pain Split",
+        "Grudge",
+        "Spite",
+        "Curse",
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Toxic Spikes",
+        "Venom Drench"
       ]
     },
     "bs": {
@@ -14656,7 +15270,7 @@ em_imp_primary_mons = {
         ],
         [
           23,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           26,
@@ -14833,6 +15447,24 @@ em_imp_primary_mons = {
         "Smack Down",
         "Supercell Slam",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Crunch",
+        "Reversal",
+        "Counter",
+        "Magnitude",
+        "Curse",
+        "Crush Claw",
+        "Dragon Rush",
+        "Ice Fang",
+        "Fire Fang",
+        "Thunder Fang",
+        "Skull Bash",
+        "Iron Tail",
+        "Rock Climb",
+        "Rototiller",
+        "Metal Burst",
+        "Guard Split"
       ]
     },
     "bs": {
@@ -15152,6 +15784,19 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Present",
+        "Metronome",
+        "Heal Bell",
+        "Aromatherapy",
+        "Counter",
+        "Helping Hand",
+        "Gravity",
+        "Mud Bomb",
+        "Seismic Toss",
+        "Endure",
+        "Wish"
       ]
     },
     "bs": {
@@ -15279,6 +15924,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Power Whip"
+      ],
+      "egg": [
+        "Flail",
+        "Confusion",
+        "Mega Drain",
+        "Amnesia",
+        "Leech Seed",
+        "Nature Power",
+        "Endeavor",
+        "Leaf Storm",
+        "Power Swap",
+        "Giga Drain",
+        "Rage Powder",
+        "Natural Gift",
+        "Wake-Up Slap"
       ]
     },
     "bs": {
@@ -15414,6 +16074,21 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Stomp",
+        "Foresight",
+        "Focus Energy",
+        "Disable",
+        "Counter",
+        "Crush Claw",
+        "Double-Edge",
+        "Endeavor",
+        "Hammer Arm",
+        "Focus Punch",
+        "Trump Card",
+        "Wish",
+        "Circle Throw"
       ]
     },
     "bs": {
@@ -15456,7 +16131,7 @@ em_imp_primary_mons = {
         ],
         [
           21,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           26,
@@ -15500,6 +16175,20 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Flail",
+        "Aurora Beam",
+        "Disable",
+        "Splash",
+        "Dragon Rage",
+        "Dragon Breath",
+        "Signal Beam",
+        "Razor Wind",
+        "Muddy Water",
+        "Water Pulse",
+        "Clear Smog",
+        "Outrage"
       ]
     },
     "bs": {
@@ -15560,7 +16249,7 @@ em_imp_primary_mons = {
         ],
         [
           21,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           26,
@@ -15707,6 +16396,19 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Megahorn"
+      ],
+      "egg": [
+        "Psybeam",
+        "Haze",
+        "Hydro Pump",
+        "Sleep Talk",
+        "Fishious Rend",
+        "Mud-Slap",
+        "Aqua Tail",
+        "Body Slam",
+        "Mud Shot",
+        "Skull Bash",
+        "Signal Beam"
       ]
     },
     "bs": {
@@ -15867,7 +16569,7 @@ em_imp_primary_mons = {
         ],
         [
           18,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           22,
@@ -16212,6 +16914,23 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Moonblast",
         "Misty Explosion"
+      ],
+      "egg": [
+        "Future Sight",
+        "Hypnosis",
+        "Mimic",
+        "Fake Out",
+        "Trick",
+        "Confuse Ray",
+        "Wake-Up Slap",
+        "Teeter Dance",
+        "Healing Wish",
+        "Charm",
+        "Nasty Plot",
+        "Power Split",
+        "Magic Room",
+        "Icy Wind",
+        "Psychic Terrain"
       ]
     },
     "bs": {
@@ -16333,6 +17052,18 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Silver Wind"
+      ],
+      "egg": [
+        "Counter",
+        "Razor Wind",
+        "Reversal",
+        "Endure",
+        "Silver Wind",
+        "Bug Buzz",
+        "Night Slash",
+        "Defog",
+        "Steel Wing",
+        "Quick Guard"
       ]
     },
     "bs": {
@@ -16535,11 +17266,11 @@ em_imp_primary_mons = {
       "learnset": [
         [
           0,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
@@ -16684,7 +17415,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           5,
@@ -16895,6 +17626,17 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Megahorn"
+      ],
+      "egg": [
+        "Fury Attack",
+        "Flail",
+        "Feint Attack",
+        "Quick Attack",
+        "Close Combat",
+        "Feint",
+        "Me First",
+        "Bug Bite",
+        "Superpower"
       ]
     },
     "bs": {
@@ -17327,6 +18069,21 @@ em_imp_primary_mons = {
         "Megahorn",
         "Water Pulse",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Outrage",
+        "Tickle",
+        "Refresh",
+        "Dragon Dance",
+        "Curse",
+        "Sleep Talk",
+        "Ancient Power",
+        "Whirlpool",
+        "Dragon Pulse",
+        "Avalanche",
+        "Future Sight",
+        "Freeze-Dry",
+        "Sparkling Aria"
       ]
     },
     "bs": {
@@ -17457,6 +18214,23 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Charm",
+        "Flail",
+        "Endure",
+        "Curse",
+        "Tickle",
+        "Wish",
+        "Yawn",
+        "Fake Tears",
+        "Covet",
+        "Natural Gift",
+        "Stored Power",
+        "Synchronoise",
+        "Captivate",
+        "Double Kick",
+        "Mud-Slap"
       ]
     },
     "bs": {
@@ -18074,6 +18848,22 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Spikes"
+      ],
+      "egg": [
+        "Bubble Beam",
+        "Aurora Beam",
+        "Slam",
+        "Supersonic",
+        "Haze",
+        "Spikes",
+        "Knock Off",
+        "Wring Out",
+        "Toxic Spikes",
+        "Muddy Water",
+        "Bide",
+        "Water Pulse",
+        "Whirlpool",
+        "Reflect Type"
       ]
     },
     "bs": {
@@ -18311,6 +19101,20 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sandstorm",
         "Rain Dance"
+      ],
+      "egg": [
+        "Bubble Beam",
+        "Aurora Beam",
+        "Rapid Spin",
+        "Flail",
+        "Knock Off",
+        "Confuse Ray",
+        "Mud Shot",
+        "Icy Wind",
+        "Screech",
+        "Giga Drain",
+        "Foresight",
+        "Take Down"
       ]
     },
     "bs": {
@@ -18575,6 +19379,18 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Meteor Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Whirlwind",
+        "Pursuit",
+        "Foresight",
+        "Steel Wing",
+        "Dragon Breath",
+        "Curse",
+        "Assurance",
+        "Roost",
+        "Tailwind",
+        "Wide Guard"
       ]
     },
     "bs": {
@@ -18717,6 +19533,20 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Lick",
+        "Charm",
+        "Double-Edge",
+        "Curse",
+        "Whirlwind",
+        "Pursuit",
+        "Zen Headbutt",
+        "Counter",
+        "Natural Gift",
+        "After You",
+        "Self-Destruct",
+        "Belch"
       ]
     },
     "bs": {
@@ -19187,6 +20017,18 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Mist",
+        "Haze",
+        "Supersonic",
+        "Dragon Breath",
+        "Dragon Rush",
+        "Extreme Speed",
+        "Water Pulse",
+        "Aqua Jet",
+        "Dragon Pulse",
+        "Iron Tail"
       ]
     },
     "bs": {
@@ -19352,7 +20194,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
@@ -19835,6 +20677,22 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Solar Blade"
+      ],
+      "egg": [
+        "Vine Whip",
+        "Leech Seed",
+        "Counter",
+        "Ancient Power",
+        "Flail",
+        "Nature Power",
+        "Ingrain",
+        "Grass Whistle",
+        "Leaf Storm",
+        "Aromatherapy",
+        "Body Slam",
+        "Refresh",
+        "Heal Pulse",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -20209,6 +21067,21 @@ em_imp_primary_mons = {
         "Flame Charge",
         "Sunny Day",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Fury Swipes",
+        "Quick Attack",
+        "Reversal",
+        "Thrash",
+        "Covet",
+        "Howl",
+        "Crush Claw",
+        "Double-Edge",
+        "Double Kick",
+        "Flare Blitz",
+        "Extrasensory",
+        "Nature Power",
+        "Flame Burst"
       ]
     },
     "bs": {
@@ -20610,6 +21483,22 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Roar"
+      ],
+      "egg": [
+        "Crunch",
+        "Thrash",
+        "Hydro Pump",
+        "Ancient Power",
+        "Mud Sport",
+        "Water Sport",
+        "Ice Punch",
+        "Metal Claw",
+        "Dragon Dance",
+        "Aqua Jet",
+        "Fake Tears",
+        "Block",
+        "Water Pulse",
+        "Flatter"
       ]
     },
     "bs": {
@@ -21028,6 +21917,21 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Double-Edge",
+        "Pursuit",
+        "Slash",
+        "Focus Energy",
+        "Reversal",
+        "Trick",
+        "Assist",
+        "Charm",
+        "Covet",
+        "Natural Gift",
+        "Iron Tail",
+        "Captivate",
+        "Baby-Doll Eyes"
       ]
     },
     "bs": {
@@ -21290,6 +22194,20 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Moonblast"
+      ],
+      "egg": [
+        "Mirror Move",
+        "Supersonic",
+        "Feint Attack",
+        "Wing Attack",
+        "Whirlwind",
+        "Sky Attack",
+        "Feather Dance",
+        "Agility",
+        "Night Shade",
+        "Defog",
+        "Mean Look",
+        "Hurricane"
       ]
     },
     "bs": {
@@ -21541,6 +22459,22 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Focus Punch",
         "Silver Wind"
+      ],
+      "egg": [
+        "Psybeam",
+        "Bide",
+        "Silver Wind",
+        "Bug Buzz",
+        "Screech",
+        "Encore",
+        "Knock Off",
+        "Bug Bite",
+        "Focus Punch",
+        "Drain Punch",
+        "Dizzy Punch",
+        "Tailwind",
+        "Endure",
+        "Counter"
       ]
     },
     "bs": {
@@ -21618,7 +22552,7 @@ em_imp_primary_mons = {
         ],
         [
           27,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           33,
@@ -21796,6 +22730,20 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Megahorn"
+      ],
+      "egg": [
+        "Psybeam",
+        "Disable",
+        "Sonic Boom",
+        "Pursuit",
+        "Signal Beam",
+        "Toxic Spikes",
+        "Twineedle",
+        "Electroweb",
+        "Rage Powder",
+        "Night Slash",
+        "Megahorn",
+        "Lunge"
       ]
     },
     "bs": {
@@ -22143,7 +23091,7 @@ em_imp_primary_mons = {
         ],
         [
           20,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           23,
@@ -22203,6 +23151,19 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Flail",
+        "Screech",
+        "Amnesia",
+        "Psybeam",
+        "Whirlpool",
+        "Agility",
+        "Mist",
+        "Shock Wave",
+        "Brine",
+        "Water Pulse",
+        "Soak"
       ]
     },
     "bs": {
@@ -22300,7 +23261,7 @@ em_imp_primary_mons = {
         ],
         [
           20,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           23,
@@ -22435,6 +23396,24 @@ em_imp_primary_mons = {
         "Body Slam",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Reversal",
+        "Bide",
+        "Present",
+        "Encore",
+        "Double Slap",
+        "Wish",
+        "Charge",
+        "Fake Out",
+        "Thunder Punch",
+        "Tickle",
+        "Flail",
+        "Endure",
+        "Lucky Chant",
+        "Bestow",
+        "Disarming Voice",
+        "Electric Terrain"
       ]
     },
     "bs": {
@@ -22520,6 +23499,22 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Present",
+        "Metronome",
+        "Amnesia",
+        "Belly Drum",
+        "Soft-Boiled",
+        "Mimic",
+        "Wish",
+        "Fake Tears",
+        "Covet",
+        "Aromatherapy",
+        "Stored Power",
+        "Tickle",
+        "Misty Terrain",
+        "Heal Pulse"
       ]
     },
     "bs": {
@@ -22604,6 +23599,20 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Perish Song",
+        "Present",
+        "Feint Attack",
+        "Wish",
+        "Fake Tears",
+        "Covet",
+        "Gravity",
+        "Sleep Talk",
+        "Captivate",
+        "Punishment",
+        "Misty Terrain",
+        "Heal Pulse"
       ]
     },
     "bs": {
@@ -22718,6 +23727,20 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Mystical Fire",
         "Rain Dance",
+        "Aerial Ace"
+      ],
+      "egg": [
+        "Present",
+        "Mirror Move",
+        "Peck",
+        "Foresight",
+        "Future Sight",
+        "Nasty Plot",
+        "Psycho Shift",
+        "Lucky Chant",
+        "Extrasensory",
+        "Stored Power",
+        "Morning Sun",
         "Aerial Ace"
       ]
     },
@@ -23009,6 +24032,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Haze",
+        "Drill Peck",
+        "Quick Attack",
+        "Feint Attack",
+        "Steel Wing",
+        "Feather Dance",
+        "Refresh",
+        "Zen Headbutt",
+        "Sucker Punch",
+        "Synchronoise",
+        "Roost",
+        "Skill Swap",
+        "Simple Beam"
       ]
     },
     "bs": {
@@ -23263,6 +24301,20 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Power Gem",
         "Rain Dance"
+      ],
+      "egg": [
+        "Take Down",
+        "Body Slam",
+        "Screech",
+        "Odor Sleuth",
+        "Charge",
+        "Flatter",
+        "Sand Attack",
+        "Iron Tail",
+        "After You",
+        "Agility",
+        "Eerie Impulse",
+        "Electric Terrain"
       ]
     },
     "bs": {
@@ -23422,7 +24474,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
@@ -23781,6 +24833,23 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Misty Explosion"
+      ],
+      "egg": [
+        "Encore",
+        "Sing",
+        "Refresh",
+        "Slam",
+        "Tickle",
+        "Perish Song",
+        "Aqua Jet",
+        "Belly Drum",
+        "Fake Tears",
+        "Body Slam",
+        "Water Sport",
+        "Soak",
+        "Muddy Water",
+        "Copycat",
+        "Camouflage"
       ]
     },
     "bs": {
@@ -24079,6 +25148,17 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Meteor Beam",
         "Spikes"
+      ],
+      "egg": [
+        "Self-Destruct",
+        "Headbutt",
+        "Harden",
+        "Defense Curl",
+        "Rollout",
+        "Sand Tomb",
+        "Stealth Rock",
+        "Curse",
+        "Endure"
       ]
     },
     "bs": {
@@ -24288,6 +25368,20 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Trailblaze"
+      ],
+      "egg": [
+        "Confusion",
+        "Encore",
+        "Double-Edge",
+        "Amnesia",
+        "Helping Hand",
+        "Aromatherapy",
+        "Worry Seed",
+        "Cotton Guard",
+        "Seed Bomb",
+        "Endure",
+        "Grassy Terrain",
+        "Strength Sap"
       ]
     },
     "bs": {
@@ -24687,6 +25781,23 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Counter",
+        "Screech",
+        "Pursuit",
+        "Agility",
+        "Spite",
+        "Slam",
+        "Double Slap",
+        "Beat Up",
+        "Fake Out",
+        "Covet",
+        "Bounce",
+        "Revenge",
+        "Switcheroo",
+        "Quick Guard",
+        "Tail Slap"
       ]
     },
     "bs": {
@@ -24798,6 +25909,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Trailblaze"
+      ],
+      "egg": [
+        "Grass Whistle",
+        "Encore",
+        "Leech Seed",
+        "Nature Power",
+        "Curse",
+        "Helping Hand",
+        "Ingrain",
+        "Sweet Scent",
+        "Endure",
+        "Bide",
+        "Natural Gift",
+        "Morning Sun",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -25055,6 +26181,17 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Silver Wind"
+      ],
+      "egg": [
+        "Whirlwind",
+        "Reversal",
+        "Leech Life",
+        "Signal Beam",
+        "Silver Wind",
+        "Feint",
+        "Feint Attack",
+        "Pursuit",
+        "Double-Edge"
       ]
     },
     "bs": {
@@ -25165,6 +26302,25 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Power-Up Punch",
         "Spikes"
+      ],
+      "egg": [
+        "Body Slam",
+        "Ancient Power",
+        "Curse",
+        "Mud Sport",
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Counter",
+        "Encore",
+        "Double Kick",
+        "Recover",
+        "After You",
+        "Sleep Talk",
+        "Acid Spray",
+        "Guard Swap",
+        "Eerie Impulse",
+        "Power-Up Punch"
       ]
     },
     "bs": {
@@ -25637,6 +26793,24 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Whirlwind",
+        "Drill Peck",
+        "Mirror Move",
+        "Wing Attack",
+        "Sky Attack",
+        "Confuse Ray",
+        "Feather Dance",
+        "Perish Song",
+        "Psycho Shift",
+        "Screech",
+        "Feint Attack",
+        "Brave Bird",
+        "Roost",
+        "Assurance",
+        "Flatter",
+        "Punishment"
       ]
     },
     "bs": {
@@ -25912,6 +27086,21 @@ em_imp_primary_mons = {
         "Hex",
         "Power Gem",
         "Rain Dance"
+      ],
+      "egg": [
+        "Screech",
+        "Destiny Bond",
+        "Imprison",
+        "Memento",
+        "Sucker Punch",
+        "Shadow Sneak",
+        "Curse",
+        "Spite",
+        "Ominous Wind",
+        "Nasty Plot",
+        "Skill Swap",
+        "Wonder Room",
+        "Me First"
       ]
     },
     "bs": {
@@ -26111,6 +27300,22 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Take Down",
+        "Amnesia",
+        "Foresight",
+        "Future Sight",
+        "Beat Up",
+        "Wish",
+        "Magic Coat",
+        "Double Kick",
+        "Mirror Coat",
+        "Razor Wind",
+        "Skill Swap",
+        "Mean Look",
+        "Psychic Terrain",
+        "Psychic Fangs"
       ]
     },
     "bs": {
@@ -26152,7 +27357,7 @@ em_imp_primary_mons = {
         ],
         [
           6,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           9,
@@ -26231,6 +27436,19 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Spikes",
         "Gravity"
+      ],
+      "egg": [
+        "Pin Missile",
+        "Flail",
+        "Swift",
+        "Counter",
+        "Sand Tomb",
+        "Revenge",
+        "Double-Edge",
+        "Toxic Spikes",
+        "Power Trick",
+        "Endure",
+        "Stealth Rock"
       ]
     },
     "bs": {
@@ -26303,7 +27521,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           1,
@@ -26311,7 +27529,7 @@ em_imp_primary_mons = {
         ],
         [
           6,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           9,
@@ -26574,6 +27792,20 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Dragon Dance",
+        "Ancient Power",
+        "Bite",
+        "Headbutt",
+        "Astonish",
+        "Curse",
+        "Trump Card",
+        "Magic Coat",
+        "Snore",
+        "Agility",
+        "Sleep Talk",
+        "Hex"
       ]
     },
     "bs": {
@@ -26702,6 +27934,21 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Power Whip",
         "Spikes"
+      ],
+      "egg": [
+        "Metal Claw",
+        "Wing Attack",
+        "Razor Wind",
+        "Counter",
+        "Sand Tomb",
+        "Agility",
+        "Double-Edge",
+        "Feint",
+        "Night Slash",
+        "Cross Poison",
+        "Power Trick",
+        "Rock Climb",
+        "Poison Tail"
       ]
     },
     "bs": {
@@ -27009,6 +28256,21 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Metronome",
+        "Feint Attack",
+        "Present",
+        "Crunch",
+        "Heal Bell",
+        "Snore",
+        "Smelling Salts",
+        "Ice Fang",
+        "Fire Fang",
+        "Thunder Fang",
+        "Focus Punch",
+        "Mimic",
+        "Fake Tears"
       ]
     },
     "bs": {
@@ -27315,6 +28577,17 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Spikes"
+      ],
+      "egg": [
+        "Flail",
+        "Bubble Beam",
+        "Supersonic",
+        "Astonish",
+        "Signal Beam",
+        "Aqua Jet",
+        "Water Pulse",
+        "Brine",
+        "Acid Spray"
       ]
     },
     "bs": {
@@ -27583,6 +28856,19 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Meteor Beam"
+      ],
+      "egg": [
+        "Sweet Scent",
+        "Infestation",
+        "Knock Off",
+        "Helping Hand",
+        "Sand Tomb",
+        "Mud-Slap",
+        "Acid",
+        "Rock Blast",
+        "Final Gambit",
+        "Defense Curl",
+        "Covet"
       ]
     },
     "bs": {
@@ -27724,6 +29010,18 @@ em_imp_primary_mons = {
         "Megahorn",
         "Arm Thrust",
         "Spikes"
+      ],
+      "egg": [
+        "Harden",
+        "Bide",
+        "Flail",
+        "Revenge",
+        "Pursuit",
+        "Double-Edge",
+        "Seismic Toss",
+        "Focus Punch",
+        "Megahorn",
+        "Rock Blast"
       ]
     },
     "bs": {
@@ -27850,6 +29148,24 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Counter",
+        "Spite",
+        "Foresight",
+        "Bite",
+        "Crush Claw",
+        "Fake Out",
+        "Double Hit",
+        "Punishment",
+        "Pursuit",
+        "Ice Shard",
+        "Ice Punch",
+        "Assist",
+        "Avalanche",
+        "Feint",
+        "Icicle Crash",
+        "Throat Chop"
       ]
     },
     "bs": {
@@ -27980,6 +29296,23 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Crunch",
+        "Take Down",
+        "Seismic Toss",
+        "Counter",
+        "Metal Claw",
+        "Fake Tears",
+        "Yawn",
+        "Sleep Talk",
+        "Cross Chop",
+        "Double-Edge",
+        "Close Combat",
+        "Night Slash",
+        "Belly Drum",
+        "Chip Away",
+        "Play Rough"
       ]
     },
     "bs": {
@@ -28238,6 +29571,20 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Power Gem"
+      ],
+      "egg": [
+        "Acid Armor",
+        "Heat Wave",
+        "Curse",
+        "Smokescreen",
+        "Memento",
+        "Stockpile",
+        "Spit Up",
+        "Swallow",
+        "Rollout",
+        "Inferno",
+        "Earth Power",
+        "Guard Swap"
       ]
     },
     "bs": {
@@ -28502,6 +29849,21 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Ice Fang"
+      ],
+      "egg": [
+        "Take Down",
+        "Bite",
+        "Body Slam",
+        "Ancient Power",
+        "Mud Shot",
+        "Icicle Spear",
+        "Double-Edge",
+        "Curse",
+        "Avalanche",
+        "Stealth Rock",
+        "Icicle Crash",
+        "Rock Tomb",
+        "Freeze-Dry"
       ]
     },
     "bs": {
@@ -28702,7 +30064,7 @@ em_imp_primary_mons = {
         ],
         [
           10,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           13,
@@ -28794,6 +30156,23 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Screech",
+        "Mist",
+        "Amnesia",
+        "Barrier",
+        "Ingrain",
+        "Confuse Ray",
+        "Icicle Spear",
+        "Nature Power",
+        "Aqua Ring",
+        "Curse",
+        "Bide",
+        "Water Pulse",
+        "Head Smash",
+        "Camouflage",
+        "Liquidation"
       ]
     },
     "bs": {
@@ -28837,7 +30216,7 @@ em_imp_primary_mons = {
         ],
         [
           18,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           22,
@@ -28894,6 +30273,22 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Aurora Beam",
+        "Octazooka",
+        "Supersonic",
+        "Haze",
+        "Screech",
+        "Rock Blast",
+        "Snore",
+        "Flail",
+        "Water Spout",
+        "Mud Shot",
+        "Swift",
+        "Acid Spray",
+        "Water Pulse",
+        "Entrainment"
       ]
     },
     "bs": {
@@ -28970,7 +30365,7 @@ em_imp_primary_mons = {
         ],
         [
           18,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           22,
@@ -29102,6 +30497,24 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Spikes"
+      ],
+      "egg": [
+        "Aurora Beam",
+        "Quick Attack",
+        "Future Sight",
+        "Splash",
+        "Rapid Spin",
+        "Ice Ball",
+        "Ice Shard",
+        "Ice Punch",
+        "Fake Out",
+        "Bestow",
+        "Icy Wind",
+        "Freeze-Dry",
+        "Destiny Bond",
+        "Spikes",
+        "Counter",
+        "Memento"
       ]
     },
     "bs": {
@@ -29157,7 +30570,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           3,
@@ -29165,7 +30578,7 @@ em_imp_primary_mons = {
         ],
         [
           7,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           11,
@@ -29244,6 +30657,21 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Twister",
+        "Hydro Pump",
+        "Haze",
+        "Slam",
+        "Mud Sport",
+        "Mirror Coat",
+        "Water Sport",
+        "Splash",
+        "Signal Beam",
+        "Wide Guard",
+        "Amnesia",
+        "Tailwind",
+        "Confuse Ray"
       ]
     },
     "bs": {
@@ -29358,6 +30786,18 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Spikes",
         "Steel Beam"
+      ],
+      "egg": [
+        "Drill Peck",
+        "Pursuit",
+        "Whirlwind",
+        "Sky Attack",
+        "Curse",
+        "Brave Bird",
+        "Assurance",
+        "Guard Swap",
+        "Stealth Rock",
+        "Endure"
       ]
     },
     "bs": {
@@ -29479,6 +30919,22 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Trailblaze"
+      ],
+      "egg": [
+        "Fire Spin",
+        "Rage",
+        "Pursuit",
+        "Counter",
+        "Spite",
+        "Reversal",
+        "Beat Up",
+        "Fire Fang",
+        "Thunder Fang",
+        "Nasty Plot",
+        "Punishment",
+        "Feint",
+        "Sucker Punch",
+        "Destiny Bond"
       ]
     },
     "bs": {
@@ -29691,7 +31147,7 @@ em_imp_primary_mons = {
         ],
         [
           21,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           26,
@@ -29849,6 +31305,17 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Trailblaze",
+        "Heavy Slam"
+      ],
+      "egg": [
+        "Focus Energy",
+        "Body Slam",
+        "Ancient Power",
+        "Snore",
+        "Counter",
+        "Endeavor",
+        "Ice Shard",
+        "Mud-Slap",
         "Heavy Slam"
       ]
     },
@@ -30239,6 +31706,19 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Megahorn",
         "Gravity"
+      ],
+      "egg": [
+        "Spite",
+        "Disable",
+        "Bite",
+        "Extrasensory",
+        "Thrash",
+        "Double Kick",
+        "Zen Headbutt",
+        "Megahorn",
+        "Mud Sport",
+        "Rage",
+        "Me First"
       ]
     },
     "bs": {
@@ -30367,6 +31847,19 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Rapid Spin",
+        "Fake Out",
+        "Mach Punch",
+        "Skull Bash",
+        "Helping Hand",
+        "Counter",
+        "Vacuum Wave",
+        "Bullet Punch",
+        "Endure",
+        "Pursuit",
+        "Feint"
       ]
     },
     "bs": {
@@ -30625,6 +32118,16 @@ em_imp_primary_mons = {
         "Body Slam",
         "Stored Power",
         "Rain Dance"
+      ],
+      "egg": [
+        "Meditate",
+        "Fake Out",
+        "Wish",
+        "Ice Punch",
+        "Miracle Eye",
+        "Nasty Plot",
+        "Wake-Up Slap",
+        "Captivate"
       ]
     },
     "bs": {
@@ -30694,7 +32197,7 @@ em_imp_primary_mons = {
         ],
         [
           29,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           33,
@@ -30738,6 +32241,19 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Supercell Slam"
+      ],
+      "egg": [
+        "Karate Chop",
+        "Barrier",
+        "Rolling Kick",
+        "Meditate",
+        "Cross Chop",
+        "Fire Punch",
+        "Ice Punch",
+        "Dynamic Punch",
+        "Feint",
+        "Hammer Arm",
+        "Focus Punch"
       ]
     },
     "bs": {
@@ -30843,6 +32359,22 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Karate Chop",
+        "Mega Punch",
+        "Barrier",
+        "Screech",
+        "Cross Chop",
+        "Thunder Punch",
+        "Mach Punch",
+        "Dynamic Punch",
+        "Flare Blitz",
+        "Belly Drum",
+        "Iron Tail",
+        "Focus Energy",
+        "Power Swap",
+        "Belch"
       ]
     },
     "bs": {
@@ -30963,6 +32495,22 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Present",
+        "Reversal",
+        "Seismic Toss",
+        "Endure",
+        "Curse",
+        "Helping Hand",
+        "Sleep Talk",
+        "Dizzy Punch",
+        "Hammer Arm",
+        "Double-Edge",
+        "Punishment",
+        "Natural Gift",
+        "Heart Stamp",
+        "Belch"
       ]
     },
     "bs": {
@@ -31400,7 +32948,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           1,
@@ -31408,7 +32956,7 @@ em_imp_primary_mons = {
         ],
         [
           8,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           15,
@@ -31592,6 +33140,19 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Meteor Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Pursuit",
+        "Stomp",
+        "Outrage",
+        "Focus Energy",
+        "Ancient Power",
+        "Curse",
+        "Iron Defense",
+        "Assurance",
+        "Iron Head",
+        "Stealth Rock",
+        "Iron Tail"
       ]
     },
     "bs": {
@@ -32394,6 +33955,24 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Focus Punch"
+      ],
+      "egg": [
+        "Crunch",
+        "Mud Sport",
+        "Endeavor",
+        "Leech Seed",
+        "Dragon Breath",
+        "Crush Claw",
+        "Worry Seed",
+        "Double Kick",
+        "Grass Whistle",
+        "Synthesis",
+        "Magical Leaf",
+        "Leaf Storm",
+        "Razor Wind",
+        "Bullet Seed",
+        "Natural Gift",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -32827,6 +34406,20 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Body Slam",
         "Sunny Day"
+      ],
+      "egg": [
+        "Counter",
+        "Reversal",
+        "Endure",
+        "Smelling Salts",
+        "Crush Claw",
+        "Agility",
+        "Night Slash",
+        "Feint",
+        "Feather Dance",
+        "Curse",
+        "Flame Burst",
+        "Low Kick"
       ]
     },
     "bs": {
@@ -32903,7 +34496,7 @@ em_imp_primary_mons = {
         ],
         [
           25,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           31,
@@ -33055,7 +34648,7 @@ em_imp_primary_mons = {
         ],
         [
           25,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           31,
@@ -33240,6 +34833,25 @@ em_imp_primary_mons = {
         "Snowscape",
         "Body Slam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Refresh",
+        "Uproar",
+        "Curse",
+        "Stomp",
+        "Ice Ball",
+        "Mirror Coat",
+        "Counter",
+        "Ancient Power",
+        "Whirlpool",
+        "Bite",
+        "Double-Edge",
+        "Mud Bomb",
+        "Yawn",
+        "Sludge",
+        "Avalanche",
+        "Wide Guard",
+        "Barrier"
       ]
     },
     "bs": {
@@ -33636,6 +35248,21 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Rain Dance",
         "Poison Fang"
+      ],
+      "egg": [
+        "Astonish",
+        "Poison Fang",
+        "Covet",
+        "Leer",
+        "Yawn",
+        "Sucker Punch",
+        "Ice Fang",
+        "Fire Fang",
+        "Thunder Fang",
+        "Me First",
+        "Snatch",
+        "Sleep Talk",
+        "Play Rough"
       ]
     },
     "bs": {
@@ -33892,6 +35519,18 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Charm",
+        "Pursuit",
+        "Tickle",
+        "Trick",
+        "Helping Hand",
+        "Mud-Slap",
+        "Sleep Talk",
+        "Rock Climb",
+        "Simple Beam",
+        "Extreme Speed"
       ]
     },
     "bs": {
@@ -34441,7 +36080,7 @@ em_imp_primary_mons = {
         ],
         [
           21,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           24,
@@ -34485,6 +36124,18 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Synthesis",
+        "Razor Leaf",
+        "Sweet Scent",
+        "Leech Seed",
+        "Flail",
+        "Water Gun",
+        "Tickle",
+        "Counter",
+        "Giga Drain",
+        "Teeter Dance"
       ]
     },
     "bs": {
@@ -34546,7 +36197,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           28,
@@ -34764,6 +36415,22 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam"
+      ],
+      "egg": [
+        "Leech Seed",
+        "Amnesia",
+        "Quick Attack",
+        "Razor Wind",
+        "Take Down",
+        "Worry Seed",
+        "Nasty Plot",
+        "Power Swap",
+        "Defog",
+        "Foul Play",
+        "Beat Up",
+        "Bullet Seed",
+        "Grassy Terrain",
+        "Night Slash"
       ]
     },
     "bs": {
@@ -35093,6 +36760,17 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Sandstorm",
         "Silver Wind"
+      ],
+      "egg": [
+        "Endure",
+        "Feint Attack",
+        "Gust",
+        "Silver Wind",
+        "Bug Buzz",
+        "Night Slash",
+        "Bug Bite",
+        "Final Gambit",
+        "Flail"
       ]
     },
     "bs": {
@@ -35423,6 +37101,19 @@ em_imp_primary_mons = {
         "Tailwind",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Pursuit",
+        "Supersonic",
+        "Refresh",
+        "Mirror Move",
+        "Rage",
+        "Sky Attack",
+        "Whirlwind",
+        "Roost",
+        "Steel Wing",
+        "Defog",
+        "Hurricane"
       ]
     },
     "bs": {
@@ -35643,6 +37334,17 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Focus Punch"
+      ],
+      "egg": [
+        "Fake Tears",
+        "Charm",
+        "Helping Hand",
+        "Worry Seed",
+        "Wake-Up Slap",
+        "Bullet Seed",
+        "Focus Punch",
+        "Natural Gift",
+        "Drain Punch"
       ]
     },
     "bs": {
@@ -35894,6 +37596,24 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Encore",
+        "Assist",
+        "Disable",
+        "Wish",
+        "Trick",
+        "Smelling Salts",
+        "Fake Out",
+        "Role Play",
+        "Psycho Cut",
+        "Fake Tears",
+        "Rapid Spin",
+        "Icy Wind",
+        "Water Pulse",
+        "Psycho Shift",
+        "Guard Split",
+        "Spotlight"
       ]
     },
     "bs": {
@@ -35997,6 +37717,19 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Mist",
+        "Twister",
+        "Agility",
+        "Gust",
+        "Water Sport",
+        "Aqua Ring",
+        "Knock Off",
+        "Brine",
+        "Roost",
+        "Soak",
+        "Wide Guard"
       ]
     },
     "bs": {
@@ -36230,6 +37963,19 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Foresight",
+        "Mud Shot",
+        "Psybeam",
+        "Mind Reader",
+        "Signal Beam",
+        "Bug Bite",
+        "Aqua Jet",
+        "Endure",
+        "Fell Stinger",
+        "Power Split",
+        "Lunge"
       ]
     },
     "bs": {
@@ -36283,7 +38029,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           6,
@@ -36476,6 +38222,20 @@ em_imp_primary_mons = {
         "Water Pulse",
         "Dive",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Double-Edge",
+        "Thrash",
+        "Snore",
+        "Sleep Talk",
+        "Curse",
+        "Tickle",
+        "Defense Curl",
+        "Body Slam",
+        "Aqua Ring",
+        "Soak",
+        "Zen Headbutt",
+        "Clear Smog"
       ]
     },
     "bs": {
@@ -36754,6 +38514,20 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Helping Hand",
+        "Uproar",
+        "Fake Tears",
+        "Wish",
+        "Tickle",
+        "Fake Out",
+        "Zen Headbutt",
+        "Sucker Punch",
+        "Mud Bomb",
+        "Simple Beam",
+        "Captivate",
+        "Cosmic Power"
       ]
     },
     "bs": {
@@ -36978,6 +38752,20 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Disable",
+        "Magic Coat",
+        "Trick",
+        "Fake Out",
+        "Nasty Plot",
+        "Dizzy Punch",
+        "Recover",
+        "Skill Swap",
+        "Snatch",
+        "Foul Play",
+        "Camouflage",
+        "Power-Up Punch"
       ]
     },
     "bs": {
@@ -37044,7 +38832,7 @@ em_imp_primary_mons = {
         ],
         [
           28,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           31,
@@ -37198,7 +38986,7 @@ em_imp_primary_mons = {
         ],
         [
           28,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           31,
@@ -37397,6 +39185,15 @@ em_imp_primary_mons = {
         "Steel Beam",
         "Heavy Slam",
         "Gravity"
+      ],
+      "egg": [
+        "Magnitude",
+        "Rollout",
+        "Double-Edge",
+        "Block",
+        "Stealth Rock",
+        "Endure",
+        "Wide Guard"
       ]
     },
     "bs": {
@@ -37528,6 +39325,18 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Eruption",
+        "Endure",
+        "Sleep Talk",
+        "Yawn",
+        "Skull Bash",
+        "Flame Burst",
+        "Clear Smog",
+        "Superpower",
+        "Flail",
+        "Ancient Power"
       ]
     },
     "bs": {
@@ -37678,6 +39487,19 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Recover",
+        "Moonlight",
+        "Nasty Plot",
+        "Flatter",
+        "Feint",
+        "Sucker Punch",
+        "Trick",
+        "Captivate",
+        "Mean Look",
+        "Metal Burst",
+        "Imprison"
       ]
     },
     "bs": {
@@ -37778,6 +39600,18 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Thrash",
+        "Whirlpool",
+        "Spark",
+        "Hydro Pump",
+        "Flail",
+        "Take Down",
+        "Dragon Dance",
+        "Earth Power",
+        "Mud Shot",
+        "Muddy Water"
       ]
     },
     "bs": {
@@ -38050,6 +39884,18 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Moonblast"
+      ],
+      "egg": [
+        "Splash",
+        "Supersonic",
+        "Water Sport",
+        "Mud Sport",
+        "Captivate",
+        "Aqua Ring",
+        "Aqua Jet",
+        "Heal Pulse",
+        "Brine",
+        "Entrainment"
       ]
     },
     "bs": {
@@ -38093,7 +39939,7 @@ em_imp_primary_mons = {
         ],
         [
           10,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           14,
@@ -38167,6 +40013,22 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Body Slam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Mud Sport",
+        "Endeavor",
+        "Body Slam",
+        "Ancient Power",
+        "Knock Off",
+        "Superpower",
+        "Metal Claw",
+        "Dragon Dance",
+        "Trump Card",
+        "Chip Away",
+        "Double-Edge",
+        "Aqua Jet",
+        "Switcheroo",
+        "Slash"
       ]
     },
     "bs": {
@@ -38235,7 +40097,7 @@ em_imp_primary_mons = {
         ],
         [
           10,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           14,
@@ -38371,6 +40233,20 @@ em_imp_primary_mons = {
         "Waterfall",
         "Snowscape",
         "Rain Dance"
+      ],
+      "egg": [
+        "Mirror Coat",
+        "Dragon Breath",
+        "Mud Sport",
+        "Hypnosis",
+        "Confuse Ray",
+        "Mist",
+        "Haze",
+        "Tickle",
+        "Brine",
+        "Iron Tail",
+        "Dragon Pulse",
+        "Captivate"
       ]
     },
     "bs": {
@@ -38613,6 +40489,16 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Rain Dance",
         "Poison Fang"
+      ],
+      "egg": [
+        "Hydro Pump",
+        "Double-Edge",
+        "Thrash",
+        "Ancient Power",
+        "Swift",
+        "Brine",
+        "Destiny Bond",
+        "Psychic Fangs"
       ]
     },
     "bs": {
@@ -38866,6 +40752,18 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Sandstorm"
+      ],
+      "egg": [
+        "Focus Energy",
+        "Quick Attack",
+        "Gust",
+        "Flail",
+        "Fury Cutter",
+        "Mud Shot",
+        "Endure",
+        "Earth Power",
+        "Bug Bite",
+        "Signal Beam"
       ]
     },
     "bs": {
@@ -39286,6 +41184,22 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Arm Thrust",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Feint Attack",
+        "Detect",
+        "Foresight",
+        "Helping Hand",
+        "Cross Chop",
+        "Revenge",
+        "Dynamic Punch",
+        "Counter",
+        "Wake-Up Slap",
+        "Bullet Punch",
+        "Feint",
+        "Wide Guard",
+        "Focus Punch",
+        "Chip Away"
       ]
     },
     "bs": {
@@ -39528,6 +41442,22 @@ em_imp_primary_mons = {
         "Body Slam",
         "Psychic Fangs",
         "Rain Dance"
+      ],
+      "egg": [
+        "Crunch",
+        "Headbutt",
+        "Uproar",
+        "Curse",
+        "Swift",
+        "Discharge",
+        "Ice Fang",
+        "Fire Fang",
+        "Thunder Fang",
+        "Switcheroo",
+        "Electro Ball",
+        "Shock Wave",
+        "Flame Burst",
+        "Eerie Impulse"
       ]
     },
     "bs": {
@@ -39764,6 +41694,25 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Trailblaze",
+        "Heavy Slam"
+      ],
+      "egg": [
+        "Howl",
+        "Scary Face",
+        "Body Slam",
+        "Rollout",
+        "Defense Curl",
+        "Stomp",
+        "Yawn",
+        "Ancient Power",
+        "Mud Bomb",
+        "Heat Wave",
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Endure",
+        "Iron Head",
+        "Growth",
         "Heavy Slam"
       ]
     },
@@ -40034,6 +41983,20 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Water Sport",
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Yawn",
+        "Curse",
+        "Signal Beam",
+        "Aqua Ring",
+        "Rollout",
+        "Sleep Talk",
+        "Water Pulse",
+        "Belly Drum"
       ]
     },
     "bs": {
@@ -40414,6 +42377,26 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Spikes"
+      ],
+      "egg": [
+        "Grass Whistle",
+        "Acid",
+        "Teeter Dance",
+        "Dynamic Punch",
+        "Counter",
+        "Low Kick",
+        "Smelling Salts",
+        "Magical Leaf",
+        "Seed Bomb",
+        "Nasty Plot",
+        "Disable",
+        "Block",
+        "Worry Seed",
+        "Switcheroo",
+        "Fell Stinger",
+        "Belch",
+        "Rototiller",
+        "Power-Up Punch"
       ]
     },
     "bs": {
@@ -40663,6 +42646,19 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Spikes"
+      ],
+      "egg": [
+        "Block",
+        "Spikes",
+        "Rollout",
+        "Disable",
+        "Bide",
+        "Weather Ball",
+        "Avalanche",
+        "Hex",
+        "Fake Tears",
+        "Switcheroo",
+        "Icicle Crash"
       ]
     },
     "bs": {
@@ -41170,6 +43166,23 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Body Slam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Encore",
+        "Sing",
+        "Refresh",
+        "Slam",
+        "Tickle",
+        "Perish Song",
+        "Aqua Jet",
+        "Belly Drum",
+        "Fake Tears",
+        "Body Slam",
+        "Water Sport",
+        "Soak",
+        "Muddy Water",
+        "Copycat",
+        "Camouflage"
       ]
     },
     "bs": {
@@ -41285,6 +43298,19 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Power Gem",
         "Rain Dance"
+      ],
+      "egg": [
+        "Future Sight",
+        "Extrasensory",
+        "Trick",
+        "Zen Headbutt",
+        "Amnesia",
+        "Mirror Coat",
+        "Skill Swap",
+        "Whirlwind",
+        "Lucky Chant",
+        "Endure",
+        "Simple Beam"
       ]
     },
     "bs": {
@@ -41570,6 +43596,16 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Body Slam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Wish",
+        "Sing",
+        "Sweet Kiss",
+        "Discharge",
+        "Lucky Chant",
+        "Charm",
+        "Fake Tears",
+        "Tearful Look"
       ]
     },
     "bs": {
@@ -41704,6 +43740,16 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Body Slam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Wish",
+        "Sing",
+        "Sweet Kiss",
+        "Discharge",
+        "Lucky Chant",
+        "Charm",
+        "Fake Tears",
+        "Tearful Look"
       ]
     },
     "bs": {
@@ -41844,6 +43890,23 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Poison Fang",
         "Steel Beam"
+      ],
+      "egg": [
+        "Poison Fang",
+        "Ancient Power",
+        "Tickle",
+        "Sucker Punch",
+        "Ice Fang",
+        "Fire Fang",
+        "Thunder Fang",
+        "Punishment",
+        "Guard Swap",
+        "Captivate",
+        "Slam",
+        "Metal Burst",
+        "Misty Terrain",
+        "Seismic Toss",
+        "Power-Up Punch"
       ]
     },
     "bs": {
@@ -41975,6 +44038,20 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Ice Punch",
+        "Foresight",
+        "Fake Out",
+        "Dynamic Punch",
+        "Power Swap",
+        "Guard Swap",
+        "Psycho Cut",
+        "Bullet Punch",
+        "Drain Punch",
+        "Quick Guard"
       ]
     },
     "bs": {
@@ -42020,7 +44097,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
@@ -42268,6 +44345,19 @@ em_imp_primary_mons = {
         "Icy Wind",
         "Moonblast",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Agility",
+        "Haze",
+        "Pursuit",
+        "Rage",
+        "Feather Dance",
+        "Dragon Rush",
+        "Power Swap",
+        "Roost",
+        "Hyper Voice",
+        "Steel Wing",
+        "Play Rough"
       ]
     },
     "bs": {
@@ -42612,6 +44702,18 @@ em_imp_primary_mons = {
         "Hex",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Imprison",
+        "Destiny Bond",
+        "Pain Split",
+        "Grudge",
+        "Memento",
+        "Feint Attack",
+        "Ominous Wind",
+        "Dark Pulse",
+        "Skill Swap",
+        "Haze"
       ]
     },
     "bs": {
@@ -42668,7 +44770,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
@@ -42914,6 +45016,19 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Power Whip",
         "Spikes"
+      ],
+      "egg": [
+        "Spikes",
+        "Synthesis",
+        "Pin Missile",
+        "Cotton Spore",
+        "Sleep Powder",
+        "Razor Leaf",
+        "Mind Reader",
+        "Extrasensory",
+        "Seed Bomb",
+        "Clear Smog",
+        "Grass Whistle"
       ]
     },
     "bs": {
@@ -43021,6 +45136,19 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Pursuit",
+        "Slash",
+        "Body Slam",
+        "Snore",
+        "Crush Claw",
+        "Curse",
+        "Sleep Talk",
+        "Hammer Arm",
+        "Night Slash",
+        "After You",
+        "Tickle"
       ]
     },
     "bs": {
@@ -43421,6 +45549,16 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Acid Armor",
+        "Smog",
+        "Pain Split",
+        "Curse",
+        "Destiny Bond",
+        "Mud-Slap",
+        "Gunk Shot",
+        "Venom Drench"
       ]
     },
     "bs": {
@@ -43710,6 +45848,21 @@ em_imp_primary_mons = {
         "Leaf Blade",
         "Trailblaze",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Headbutt",
+        "Slam",
+        "Razor Wind",
+        "Leech Seed",
+        "Nature Power",
+        "Leaf Storm",
+        "Synthesis",
+        "Curse",
+        "Leaf Blade",
+        "Dragon Dance",
+        "Bullet Seed",
+        "Natural Gift",
+        "Dragon Hammer"
       ]
     },
     "bs": {
@@ -43806,6 +45959,19 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Take Down",
+        "Snore",
+        "Extrasensory",
+        "Smelling Salts",
+        "Smokescreen",
+        "Endeavor",
+        "Hammer Arm",
+        "Fake Tears",
+        "Circle Throw",
+        "Disarming Voice",
+        "Whirlwind"
       ]
     },
     "bs": {
@@ -44157,6 +46323,19 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Refresh",
+        "Shell Smash",
+        "Body Slam",
+        "Supersonic",
+        "Barrier",
+        "Confuse Ray",
+        "Aqua Ring",
+        "Muddy Water",
+        "Water Pulse",
+        "Brine",
+        "Endure"
       ]
     },
     "bs": {
@@ -44540,6 +46719,23 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Megahorn"
+      ],
+      "egg": [
+        "Feint Attack",
+        "Double-Edge",
+        "Magic Coat",
+        "Curse",
+        "Mean Look",
+        "Zen Headbutt",
+        "Punishment",
+        "Sucker Punch",
+        "Assurance",
+        "Me First",
+        "Megahorn",
+        "Hex",
+        "Perish Song",
+        "Wish",
+        "Play Rough"
       ]
     },
     "bs": {
@@ -44659,6 +46855,19 @@ em_imp_primary_mons = {
         "Hex",
         "Phantom Force",
         "Rain Dance"
+      ],
+      "egg": [
+        "Disable",
+        "Destiny Bond",
+        "Foresight",
+        "Astonish",
+        "Imprison",
+        "Pursuit",
+        "Shadow Sneak",
+        "Confuse Ray",
+        "Ominous Wind",
+        "Gunk Shot",
+        "Phantom Force"
       ]
     },
     "bs": {
@@ -44952,6 +47161,20 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Power Whip",
         "Poison Fang"
+      ],
+      "egg": [
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Body Slam",
+        "Scary Face",
+        "Assurance",
+        "Night Slash",
+        "Switcheroo",
+        "Iron Tail",
+        "Wring Out",
+        "Punishment",
+        "Final Gambit"
       ]
     },
     "bs": {
@@ -45085,6 +47308,23 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Flail",
+        "Double Kick",
+        "Razor Wind",
+        "Counter",
+        "Curse",
+        "Fury Swipes",
+        "Night Slash",
+        "Metal Claw",
+        "Double Hit",
+        "Disable",
+        "Iron Tail",
+        "Final Gambit",
+        "Feint",
+        "Quick Guard",
+        "Belly Drum"
       ]
     },
     "bs": {
@@ -45209,6 +47449,20 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Dive"
+      ],
+      "egg": [
+        "Magnitude",
+        "Skull Bash",
+        "Water Sport",
+        "Amnesia",
+        "Sleep Talk",
+        "Aqua Tail",
+        "Snore",
+        "Mud-Slap",
+        "Muddy Water",
+        "Mud Shot",
+        "Brine",
+        "Zen Headbutt"
       ]
     },
     "bs": {
@@ -45333,6 +47587,20 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Steel Beam",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Endeavor",
+        "Body Slam",
+        "Stomp",
+        "Smelling Salts",
+        "Curse",
+        "Screech",
+        "Iron Head",
+        "Dragon Rush",
+        "Head Smash",
+        "Superpower",
+        "Stealth Rock",
+        "Reversal"
       ]
     },
     "bs": {
@@ -45749,6 +48017,18 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Sandstorm",
         "Rain Dance"
+      ],
+      "egg": [
+        "Future Sight",
+        "Lucky Chant",
+        "Disable",
+        "Amnesia",
+        "Ominous Wind",
+        "Hex",
+        "Clear Smog",
+        "Reflect Type",
+        "Guard Swap",
+        "Cosmic Power"
       ]
     },
     "bs": {
@@ -45867,6 +48147,15 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Silver Wind"
+      ],
+      "egg": [
+        "Silver Wind",
+        "Trick",
+        "Encore",
+        "Bug Buzz",
+        "Dizzy Punch",
+        "Seismic Toss",
+        "Lunge"
       ]
     },
     "bs": {
@@ -45993,6 +48282,16 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Silver Wind"
+      ],
+      "egg": [
+        "Silver Wind",
+        "Growth",
+        "Encore",
+        "Bug Buzz",
+        "Captivate",
+        "Fake Tears",
+        "Confuse Ray",
+        "Aromatherapy"
       ]
     },
     "bs": {
@@ -46102,6 +48401,17 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Power Gem",
         "Meteor Beam"
+      ],
+      "egg": [
+        "Barrier",
+        "Recover",
+        "Mirror Coat",
+        "Wring Out",
+        "Tickle",
+        "Curse",
+        "Mega Drain",
+        "Endure",
+        "Stealth Rock"
       ]
     },
     "bs": {
@@ -46354,6 +48664,17 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Meteor Beam",
         "Water Pulse"
+      ],
+      "egg": [
+        "Rapid Spin",
+        "Knock Off",
+        "Screech",
+        "Sand Attack",
+        "Cross Poison",
+        "Curse",
+        "Iron Defense",
+        "Water Pulse",
+        "Aqua Jet"
       ]
     },
     "bs": {
@@ -46624,6 +48945,20 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance",
+        "Knock Off"
+      ],
+      "egg": [
+        "Disable",
+        "Mean Look",
+        "Memento",
+        "Destiny Bond",
+        "Grudge",
+        "Shadow Sneak",
+        "Confuse Ray",
+        "Encore",
+        "Synchronoise",
+        "Skill Swap",
+        "Misty Terrain",
         "Knock Off"
       ]
     },
@@ -47026,6 +49361,17 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Hydro Pump",
+        "Thrash",
+        "Dragon Rage",
+        "Wish",
+        "Fire Fang",
+        "Dragon Rush",
+        "Dragon Pulse",
+        "Endure",
+        "Defense Curl"
       ]
     },
     "bs": {
@@ -48985,6 +51331,17 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Disable",
+        "Curse",
+        "Hypnosis",
+        "Wish",
+        "Future Sight",
+        "Recover",
+        "Stored Power",
+        "Skill Swap",
+        "Cosmic Power"
       ]
     },
     "bs": {
@@ -49079,6 +51436,25 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Solar Beam",
+        "Heavy Slam"
+      ],
+      "egg": [
+        "Shell Smash",
+        "Growth",
+        "Tickle",
+        "Body Slam",
+        "Double-Edge",
+        "Sand Tomb",
+        "Seed Bomb",
+        "Thrash",
+        "Amnesia",
+        "Superpower",
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Earth Power",
+        "Grav Apple",
+        "Grassy Terrain",
         "Heavy Slam"
       ]
     },
@@ -49460,6 +51836,23 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Blaze Kick",
         "Focus Punch"
+      ],
+      "egg": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Double Kick",
+        "Encore",
+        "Heat Wave",
+        "Focus Energy",
+        "Helping Hand",
+        "Fake Out",
+        "Blaze Kick",
+        "Counter",
+        "Assist",
+        "Quick Guard",
+        "Focus Punch",
+        "Submission",
+        "Power-Up Punch"
       ]
     },
     "bs": {
@@ -49806,7 +52199,7 @@ em_imp_primary_mons = {
         ],
         [
           11,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           13,
@@ -49870,6 +52263,22 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Snowscape",
         "Rain Dance"
+      ],
+      "egg": [
+        "Double Hit",
+        "Supersonic",
+        "Yawn",
+        "Mud Sport",
+        "Mud-Slap",
+        "Snore",
+        "Flail",
+        "Agility",
+        "Aqua Ring",
+        "Hydro Pump",
+        "Feather Dance",
+        "Bide",
+        "Icy Wind",
+        "Power Trip"
       ]
     },
     "bs": {
@@ -49934,7 +52343,7 @@ em_imp_primary_mons = {
         ],
         [
           11,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           13,
@@ -50070,7 +52479,7 @@ em_imp_primary_mons = {
         ],
         [
           8,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           11,
@@ -50261,6 +52670,20 @@ em_imp_primary_mons = {
         "Tailwind",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Feather Dance",
+        "Fury Attack",
+        "Pursuit",
+        "Astonish",
+        "Sand Attack",
+        "Foresight",
+        "Steel Wing",
+        "Uproar",
+        "Roost",
+        "Detect",
+        "Revenge",
+        "Mirror Move"
       ]
     },
     "bs": {
@@ -50576,6 +52999,17 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Quick Attack",
+        "Water Sport",
+        "Fury Swipes",
+        "Defense Curl",
+        "Rollout",
+        "Odor Sleuth",
+        "Sleep Talk",
+        "Endure",
+        "Mud Sport"
       ]
     },
     "bs": {
@@ -50995,6 +53429,22 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Psychic Fangs",
         "Rain Dance"
+      ],
+      "egg": [
+        "Ice Fang",
+        "Fire Fang",
+        "Thunder Fang",
+        "Quick Attack",
+        "Howl",
+        "Take Down",
+        "Night Slash",
+        "Shock Wave",
+        "Swift",
+        "Double Kick",
+        "Signal Beam",
+        "Helping Hand",
+        "Eerie Impulse",
+        "Fake Tears"
       ]
     },
     "bs": {
@@ -51293,6 +53743,19 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Rain Dance",
         "Spikes"
+      ],
+      "egg": [
+        "Spikes",
+        "Synthesis",
+        "Pin Missile",
+        "Cotton Spore",
+        "Sleep Powder",
+        "Razor Leaf",
+        "Mind Reader",
+        "Extrasensory",
+        "Seed Bomb",
+        "Clear Smog",
+        "Grass Whistle"
       ]
     },
     "bs": {
@@ -51498,6 +53961,19 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Meteor Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Crunch",
+        "Thrash",
+        "Double-Edge",
+        "Leer",
+        "Slam",
+        "Stomp",
+        "Whirlwind",
+        "Hammer Arm",
+        "Curse",
+        "Iron Tail",
+        "Iron Head"
       ]
     },
     "bs": {
@@ -51755,6 +54231,20 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Steel Beam",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Headbutt",
+        "Scary Face",
+        "Focus Energy",
+        "Double-Edge",
+        "Rock Blast",
+        "Body Slam",
+        "Screech",
+        "Curse",
+        "Counter",
+        "Stealth Rock",
+        "Wide Guard",
+        "Guard Split"
       ]
     },
     "bs": {
@@ -52493,6 +54983,22 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Covet",
+        "Bite",
+        "Fake Tears",
+        "Defense Curl",
+        "Rollout",
+        "Flatter",
+        "Flail",
+        "Iron Tail",
+        "Tail Whip",
+        "Follow Me",
+        "Charge",
+        "Bestow",
+        "Ion Deluge",
+        "Baby-Doll Eyes"
       ]
     },
     "bs": {
@@ -52597,6 +55103,22 @@ em_imp_primary_mons = {
         "Tail Slap",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Mud-Slap",
+        "Headbutt",
+        "Fury Swipes",
+        "Slash",
+        "Odor Sleuth",
+        "Double Slap",
+        "Fury Cutter",
+        "Aqua Tail",
+        "Aqua Ring",
+        "Me First",
+        "Switcheroo",
+        "Tail Slap",
+        "Soak",
+        "Helping Hand"
       ]
     },
     "bs": {
@@ -52841,6 +55363,23 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Solar Beam"
+      ],
+      "egg": [
+        "Razor Leaf",
+        "Sweet Scent",
+        "Tickle",
+        "Nature Power",
+        "Grass Whistle",
+        "Aromatherapy",
+        "Weather Ball",
+        "Heal Pulse",
+        "Healing Wish",
+        "Seed Bomb",
+        "Natural Gift",
+        "Defense Curl",
+        "Rollout",
+        "Flower Shield",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -53043,6 +55582,23 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Counter",
+        "Mirror Coat",
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Yawn",
+        "Memento",
+        "Curse",
+        "Amnesia",
+        "Trump Card",
+        "Sludge",
+        "Clear Smog",
+        "Brine",
+        "Mist",
+        "Acid Armor"
       ]
     },
     "bs": {
@@ -53398,6 +55954,18 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Rain Dance"
+      ],
+      "egg": [
+        "Memento",
+        "Body Slam",
+        "Destiny Bond",
+        "Disable",
+        "Haze",
+        "Hypnosis",
+        "Weather Ball",
+        "Clear Smog",
+        "Defog",
+        "Tailwind"
       ]
     },
     "bs": {
@@ -53653,6 +56221,27 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Fake Tears",
+        "Fake Out",
+        "Encore",
+        "Sweet Kiss",
+        "Double Hit",
+        "Low Kick",
+        "Sky Uppercut",
+        "Switcheroo",
+        "Thunder Punch",
+        "Ice Punch",
+        "Fire Punch",
+        "Flail",
+        "Focus Punch",
+        "Circle Throw",
+        "Copycat",
+        "Teeter Dance",
+        "Cosmic Power",
+        "Mud Sport",
+        "Power-Up Punch"
       ]
     },
     "bs": {
@@ -54137,6 +56726,17 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Body Slam"
+      ],
+      "egg": [
+        "Bite",
+        "Tail Whip",
+        "Quick Attack",
+        "Sand Attack",
+        "Fake Tears",
+        "Assurance",
+        "Flail",
+        "Snatch",
+        "Wake-Up Slap"
       ]
     },
     "bs": {
@@ -54348,6 +56948,17 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Disable",
+        "Curse",
+        "Hypnosis",
+        "Wish",
+        "Future Sight",
+        "Recover",
+        "Stored Power",
+        "Skill Swap",
+        "Cosmic Power"
       ]
     },
     "bs": {
@@ -54472,6 +57083,21 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Poison Jab"
+      ],
+      "egg": [
+        "Pursuit",
+        "Leer",
+        "Smog",
+        "Double-Edge",
+        "Crunch",
+        "Scary Face",
+        "Astonish",
+        "Punishment",
+        "Haze",
+        "Iron Tail",
+        "Foul Play",
+        "Flame Burst",
+        "Play Rough"
       ]
     },
     "bs": {
@@ -55015,6 +57641,17 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Trailblaze"
+      ],
+      "egg": [
+        "Self-Destruct",
+        "Headbutt",
+        "Harden",
+        "Defense Curl",
+        "Rollout",
+        "Sand Tomb",
+        "Stealth Rock",
+        "Curse",
+        "Endure"
       ]
     },
     "bs": {
@@ -55146,6 +57783,23 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Future Sight",
+        "Hypnosis",
+        "Mimic",
+        "Fake Out",
+        "Trick",
+        "Confuse Ray",
+        "Wake-Up Slap",
+        "Teeter Dance",
+        "Healing Wish",
+        "Charm",
+        "Nasty Plot",
+        "Power Split",
+        "Magic Room",
+        "Icy Wind",
+        "Psychic Terrain"
       ]
     },
     "bs": {
@@ -55223,6 +57877,19 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Present",
+        "Metronome",
+        "Heal Bell",
+        "Aromatherapy",
+        "Counter",
+        "Helping Hand",
+        "Gravity",
+        "Mud Bomb",
+        "Seismic Toss",
+        "Endure",
+        "Wish"
       ]
     },
     "bs": {
@@ -55339,6 +58006,18 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Encore",
+        "Night Shade",
+        "Agility",
+        "Nasty Plot",
+        "Supersonic",
+        "Steel Wing",
+        "Sleep Talk",
+        "Defog",
+        "Air Cutter",
+        "Boomburst"
       ]
     },
     "bs": {
@@ -55446,6 +58125,18 @@ em_imp_primary_mons = {
         "Hex",
         "Phantom Force",
         "Rain Dance"
+      ],
+      "egg": [
+        "Destiny Bond",
+        "Pain Split",
+        "Smokescreen",
+        "Imprison",
+        "Grudge",
+        "Shadow Sneak",
+        "Captivate",
+        "Nightmare",
+        "Foul Play",
+        "Disable"
       ]
     },
     "bs": {
@@ -55537,6 +58228,21 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Dragon Breath",
+        "Outrage",
+        "Twister",
+        "Scary Face",
+        "Double-Edge",
+        "Thrash",
+        "Metal Claw",
+        "Sand Tomb",
+        "Body Slam",
+        "Iron Head",
+        "Mud Shot",
+        "Rock Climb",
+        "Iron Tail"
       ]
     },
     "bs": {
@@ -55928,6 +58634,20 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Supercell Slam"
+      ],
+      "egg": [
+        "Lick",
+        "Charm",
+        "Double-Edge",
+        "Curse",
+        "Whirlwind",
+        "Pursuit",
+        "Zen Headbutt",
+        "Counter",
+        "Natural Gift",
+        "After You",
+        "Self-Destruct",
+        "Belch"
       ]
     },
     "bs": {
@@ -56036,6 +58756,25 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Cross Chop",
+        "Detect",
+        "Bite",
+        "Mind Reader",
+        "Sky Uppercut",
+        "High Jump Kick",
+        "Agility",
+        "Vacuum Wave",
+        "Crunch",
+        "Low Kick",
+        "Iron Defense",
+        "Blaze Kick",
+        "Bullet Punch",
+        "Follow Me",
+        "Circle Throw",
+        "Meteor Mash",
+        "Howl"
       ]
     },
     "bs": {
@@ -56280,6 +59019,18 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Sandstorm"
+      ],
+      "egg": [
+        "Body Slam",
+        "Curse",
+        "Revenge",
+        "Sand Tomb",
+        "Slack Off",
+        "Sleep Talk",
+        "Spit Up",
+        "Stockpile",
+        "Swallow",
+        "Whirlwind"
       ]
     },
     "bs": {
@@ -56513,6 +59264,20 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Rain Dance",
         "Poison Fang"
+      ],
+      "egg": [
+        "Feint Attack",
+        "Screech",
+        "Sand Attack",
+        "Slash",
+        "Confuse Ray",
+        "Whirlwind",
+        "Agility",
+        "Pursuit",
+        "Night Slash",
+        "Iron Tail",
+        "Twineedle",
+        "Poison Tail"
       ]
     },
     "bs": {
@@ -56800,6 +59565,23 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Me First",
+        "Feint",
+        "Dynamic Punch",
+        "Headbutt",
+        "Vacuum Wave",
+        "Meditate",
+        "Fake Out",
+        "Coaching",
+        "Wake-Up Slap",
+        "Smelling Salts",
+        "Cross Chop",
+        "Bullet Punch",
+        "Counter",
+        "Drain Punch",
+        "Quick Guard"
       ]
     },
     "bs": {
@@ -57052,6 +59834,20 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Power Whip"
+      ],
+      "egg": [
+        "Sleep Powder",
+        "Stun Spore",
+        "Razor Leaf",
+        "Slam",
+        "Synthesis",
+        "Magical Leaf",
+        "Leech Seed",
+        "Worry Seed",
+        "Giga Drain",
+        "Rage Powder",
+        "Grass Whistle",
+        "Acid Spray"
       ]
     },
     "bs": {
@@ -57154,6 +59950,20 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Silver Wind"
+      ],
+      "egg": [
+        "Sweet Kiss",
+        "Charm",
+        "Flail",
+        "Aqua Tail",
+        "Splash",
+        "Psybeam",
+        "Tickle",
+        "Agility",
+        "Brine",
+        "Aurora Beam",
+        "Signal Beam",
+        "Confuse Ray"
       ]
     },
     "bs": {
@@ -57326,7 +60136,7 @@ em_imp_primary_mons = {
         ],
         [
           7,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           11,
@@ -57392,6 +60202,21 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Twister",
+        "Hydro Pump",
+        "Haze",
+        "Slam",
+        "Mud Sport",
+        "Mirror Coat",
+        "Water Sport",
+        "Splash",
+        "Signal Beam",
+        "Wide Guard",
+        "Amnesia",
+        "Tailwind",
+        "Confuse Ray"
       ]
     },
     "bs": {
@@ -57502,6 +60327,19 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Leech Seed",
+        "Magical Leaf",
+        "Seed Bomb",
+        "Growth",
+        "Double-Edge",
+        "Mist",
+        "Stomp",
+        "Skull Bash",
+        "Avalanche",
+        "Natural Gift",
+        "Bullet Seed"
       ]
     },
     "bs": {
@@ -58461,7 +61299,7 @@ em_imp_primary_mons = {
         ],
         [
           29,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           36,
@@ -58565,7 +61403,7 @@ em_imp_primary_mons = {
       "learnset": [
         [
           1,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
@@ -59970,7 +62808,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
@@ -61600,7 +64438,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
@@ -61961,7 +64799,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           31,
@@ -62059,7 +64897,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           31,
@@ -62657,6 +65495,19 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Leaf Blade"
+      ],
+      "egg": [
+        "Captivate",
+        "Natural Gift",
+        "Glare",
+        "Iron Tail",
+        "Magical Leaf",
+        "Sweet Scent",
+        "Mirror Coat",
+        "Pursuit",
+        "Mean Look",
+        "Twister",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -63047,6 +65898,20 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Flare Blitz",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Covet",
+        "Body Slam",
+        "Thrash",
+        "Magnitude",
+        "Superpower",
+        "Curse",
+        "Endeavor",
+        "Yawn",
+        "Sleep Talk",
+        "Heavy Slam",
+        "Sucker Punch",
+        "Burn Up"
       ]
     },
     "bs": {
@@ -63468,6 +66333,18 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Copycat",
+        "Detect",
+        "Air Slash",
+        "Assurance",
+        "Brine",
+        "Night Slash",
+        "Trump Card",
+        "Screech",
+        "Sacred Sword",
+        "Aqua Cutter"
       ]
     },
     "bs": {
@@ -63889,6 +66766,16 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Body Slam",
         "Knock Off"
+      ],
+      "egg": [
+        "Foresight",
+        "Screech",
+        "Assurance",
+        "Pursuit",
+        "Revenge",
+        "Flail",
+        "Tearful Look",
+        "Bullet Seed"
       ]
     },
     "bs": {
@@ -64155,6 +67042,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Psychic Fangs",
         "Rain Dance"
+      ],
+      "egg": [
+        "Howl",
+        "Sand Attack",
+        "Mud-Slap",
+        "Lick",
+        "Charm",
+        "Endure",
+        "Yawn",
+        "Pursuit",
+        "Fire Fang",
+        "Thunder Fang",
+        "Ice Fang",
+        "After You",
+        "Psychic Fangs"
       ]
     },
     "bs": {
@@ -64528,6 +67430,18 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Pay Day",
+        "Foul Play",
+        "Feint Attack",
+        "Fake Tears",
+        "Charm",
+        "Encore",
+        "Yawn",
+        "Covet",
+        "Copycat",
+        "Quick Attack"
       ]
     },
     "bs": {
@@ -64770,6 +67684,18 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Focus Punch"
+      ],
+      "egg": [
+        "Covet",
+        "Low Kick",
+        "Tickle",
+        "Role Play",
+        "Astonish",
+        "Grass Whistle",
+        "Magical Leaf",
+        "Bullet Seed",
+        "Disarming Voice",
+        "Spiky Shield"
       ]
     },
     "bs": {
@@ -64981,6 +67907,18 @@ em_imp_primary_mons = {
         "Mystical Fire",
         "Focus Punch",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Covet",
+        "Low Kick",
+        "Tickle",
+        "Role Play",
+        "Astonish",
+        "Sleep Talk",
+        "Fire Spin",
+        "Fire Punch",
+        "Disarming Voice",
+        "Belch"
       ]
     },
     "bs": {
@@ -65191,6 +68129,16 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Covet",
+        "Low Kick",
+        "Tickle",
+        "Role Play",
+        "Astonish",
+        "Aqua Ring",
+        "Mud Sport",
+        "Disarming Voice"
       ]
     },
     "bs": {
@@ -65390,6 +68338,16 @@ em_imp_primary_mons = {
         "Stored Power",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Sleep Talk",
+        "Barrier",
+        "Magic Coat",
+        "Helping Hand",
+        "Swift",
+        "Curse",
+        "Sonic Boom",
+        "Healing Wish"
       ]
     },
     "bs": {
@@ -65567,6 +68525,17 @@ em_imp_primary_mons = {
         "Tailwind",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Steel Wing",
+        "Hypnosis",
+        "Uproar",
+        "Bestow",
+        "Wish",
+        "Morning Sun",
+        "Lucky Chant",
+        "Night Slash",
+        "Defog"
       ]
     },
     "bs": {
@@ -65907,6 +68876,19 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Flare Blitz",
         "Supercell Slam"
+      ],
+      "egg": [
+        "Me First",
+        "Take Down",
+        "Sand Attack",
+        "Double Kick",
+        "Screech",
+        "Rage",
+        "Endure",
+        "Double-Edge",
+        "Shock Wave",
+        "Snatch",
+        "Feint"
       ]
     },
     "bs": {
@@ -66126,6 +69108,17 @@ em_imp_primary_mons = {
         "Smack Down",
         "Heavy Slam",
         "Gravity"
+      ],
+      "egg": [
+        "Magnitude",
+        "Curse",
+        "Autotomize",
+        "Rock Tomb",
+        "Lock-On",
+        "Heavy Slam",
+        "Take Down",
+        "Gravity",
+        "Wide Guard"
       ]
     },
     "bs": {
@@ -66492,6 +69485,20 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Stored Power",
         "Rain Dance"
+      ],
+      "egg": [
+        "Charm",
+        "Knock Off",
+        "Fake Tears",
+        "Supersonic",
+        "Synchronoise",
+        "Stored Power",
+        "Roost",
+        "Flatter",
+        "Helping Hand",
+        "Captivate",
+        "Venom Drench",
+        "Psycho Shift"
       ]
     },
     "bs": {
@@ -66739,6 +69746,16 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Swords Dance",
         "Sandstorm"
+      ],
+      "egg": [
+        "Iron Defense",
+        "Rapid Spin",
+        "Earth Power",
+        "Crush Claw",
+        "Metal Sound",
+        "Submission",
+        "Skull Bash",
+        "Rock Climb"
       ]
     },
     "bs": {
@@ -67016,6 +70033,19 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Moonblast",
         "Gravity"
+      ],
+      "egg": [
+        "Wish",
+        "Heal Bell",
+        "Lucky Chant",
+        "Encore",
+        "Bestow",
+        "Sweet Kiss",
+        "Yawn",
+        "Sleep Talk",
+        "Healing Wish",
+        "Amnesia",
+        "Draining Kiss"
       ]
     },
     "bs": {
@@ -67131,6 +70161,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance",
+        "Defog"
+      ],
+      "egg": [
+        "Drain Punch",
+        "Endure",
+        "Counter",
+        "Comet Punch",
+        "Foresight",
+        "Smelling Salts",
+        "Detect",
+        "Wide Guard",
+        "Force Palm",
+        "Reversal",
+        "Mach Punch",
+        "Power-Up Punch",
         "Defog"
       ]
     },
@@ -67451,7 +70496,7 @@ em_imp_primary_mons = {
         ],
         [
           12,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           16,
@@ -67503,6 +70548,19 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Water Pulse",
+        "Refresh",
+        "Mud Sport",
+        "Mud Bomb",
+        "Sleep Talk",
+        "Snore",
+        "Mist",
+        "Earth Power",
+        "After You",
+        "Venom Drench",
+        "Mud-Slap"
       ]
     },
     "bs": {
@@ -67559,7 +70617,7 @@ em_imp_primary_mons = {
         ],
         [
           12,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           16,
@@ -67685,7 +70743,7 @@ em_imp_primary_mons = {
         ],
         [
           12,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           16,
@@ -68084,6 +71142,17 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Bug Buzz",
         "Silver Wind"
+      ],
+      "egg": [
+        "Silver Wind",
+        "Screech",
+        "Razor Wind",
+        "Mind Reader",
+        "Agility",
+        "Me First",
+        "Camouflage",
+        "Air Slash",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -68406,6 +71475,14 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Spikes"
+      ],
+      "egg": [
+        "Twineedle",
+        "Pin Missile",
+        "Toxic Spikes",
+        "Spikes",
+        "Take Down",
+        "Rock Climb"
       ]
     },
     "bs": {
@@ -68782,6 +71859,20 @@ em_imp_primary_mons = {
         "Tailwind",
         "Sunny Day",
         "Solar Beam"
+      ],
+      "egg": [
+        "Natural Gift",
+        "Encore",
+        "Tickle",
+        "Fake Tears",
+        "Grass Whistle",
+        "Memento",
+        "Beat Up",
+        "Switcheroo",
+        "Worry Seed",
+        "Captivate",
+        "Misty Terrain",
+        "Nature Power"
       ]
     },
     "bs": {
@@ -68979,6 +72070,18 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Trailblaze"
+      ],
+      "egg": [
+        "Natural Gift",
+        "Charm",
+        "Endure",
+        "Ingrain",
+        "Worry Seed",
+        "Grass Whistle",
+        "Sweet Scent",
+        "Bide",
+        "Healing Wish",
+        "Encore"
       ]
     },
     "bs": {
@@ -69208,6 +72311,19 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Psychic Fangs",
         "Rain Dance"
+      ],
+      "egg": [
+        "Swift",
+        "Bubble Beam",
+        "Mud Shot",
+        "Muddy Water",
+        "Agility",
+        "Whirlpool",
+        "Rage",
+        "Brine",
+        "Revenge",
+        "Head Smash",
+        "Endeavor"
       ]
     },
     "bs": {
@@ -69236,136 +72352,6 @@ em_imp_primary_mons = {
     "gr": 0,
     "abilities": [
       "Reckless",
-      "Adaptability",
-      "Mold Breaker"
-    ]
-  },
-  "Basculin-White-Striped": {
-    "learnset_info": {
-      "learnset": [
-        [
-          1,
-          "Tail Whip"
-        ],
-        [
-          1,
-          "Tackle"
-        ],
-        [
-          1,
-          "Water Gun"
-        ],
-        [
-          3,
-          "Uproar"
-        ],
-        [
-          5,
-          "Headbutt"
-        ],
-        [
-          7,
-          "Bite"
-        ],
-        [
-          9,
-          "Aqua Jet"
-        ],
-        [
-          11,
-          "Chip Away"
-        ],
-        [
-          14,
-          "Take Down"
-        ],
-        [
-          17,
-          "Crunch"
-        ],
-        [
-          20,
-          "Aqua Tail"
-        ],
-        [
-          26,
-          "Double-Edge"
-        ],
-        [
-          30,
-          "Scary Face"
-        ],
-        [
-          34,
-          "Flail"
-        ],
-        [
-          38,
-          "Final Gambit"
-        ],
-        [
-          42,
-          "Aqua Fang"
-        ],
-        [
-          46,
-          "Head Smash"
-        ],
-        [
-          49,
-          "Waterfall"
-        ],
-        [
-          55,
-          "Wave Crash"
-        ]
-      ],
-      "tms": [
-        "Flip Turn",
-        "Zen Headbutt",
-        "Taunt",
-        "Ice Beam",
-        "Hydro Pump",
-        "Icy Wind",
-        "Liquidation",
-        "Scald",
-        "Scale Shot",
-        "Superpower",
-        "Cut",
-        "Surf",
-        "Waterfall",
-        "Snowscape",
-        "Ice Fang",
-        "Psychic Fangs",
-        "Rain Dance"
-      ]
-    },
-    "bs": {
-      "hp": 70,
-      "at": 92,
-      "df": 65,
-      "sp": 98,
-      "sa": 80,
-      "sd": 55
-    },
-    "evos": [
-      {
-        "method": "LEVEL_MALE",
-        "parameter": "44",
-        "target": "BASCULEGION_M"
-      },
-      {
-        "method": "LEVEL_FEMALE",
-        "parameter": "44",
-        "target": "BASCULEGION_F"
-      }
-    ],
-    "types": [
-      "Water"
-    ],
-    "gr": 0,
-    "abilities": [
-      "Rock Head",
       "Adaptability",
       "Mold Breaker"
     ]
@@ -69465,6 +72451,20 @@ em_imp_primary_mons = {
         "Thunder Fang",
         "Fire Fang",
         "Sandstorm"
+      ],
+      "egg": [
+        "Double-Edge",
+        "Rock Climb",
+        "Pursuit",
+        "Uproar",
+        "Fire Fang",
+        "Thunder Fang",
+        "Beat Up",
+        "Focus Energy",
+        "Counter",
+        "Mean Look",
+        "Me First",
+        "Power Trip"
       ]
     },
     "bs": {
@@ -69868,6 +72868,19 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Focus Punch",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Sleep Talk",
+        "Focus Punch",
+        "Focus Energy",
+        "Endure",
+        "Hammer Arm",
+        "Take Down",
+        "Flame Wheel",
+        "Encore",
+        "Yawn",
+        "Snatch",
+        "Extrasensory"
       ]
     },
     "bs": {
@@ -70155,6 +73168,17 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Rain Dance",
         "Spikes"
+      ],
+      "egg": [
+        "Bullet Seed",
+        "Bounce",
+        "Worry Seed",
+        "Leech Seed",
+        "Seed Bomb",
+        "Wood Hammer",
+        "Spikes",
+        "Grass Whistle",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -70265,6 +73289,19 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Smack Down",
         "Spikes"
+      ],
+      "egg": [
+        "Endure",
+        "Iron Defense",
+        "Night Slash",
+        "Sand Tomb",
+        "Counter",
+        "Curse",
+        "Spikes",
+        "Block",
+        "Wide Guard",
+        "Rototiller",
+        "Knock Off"
       ]
     },
     "bs": {
@@ -70521,6 +73558,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Drain Punch",
+        "Counter",
+        "Detect",
+        "Fake Out",
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Amnesia",
+        "Feint Attack",
+        "Zen Headbutt",
+        "Quick Guard",
+        "Power-Up Punch",
+        "Acid Spray"
       ]
     },
     "bs": {
@@ -70797,6 +73849,15 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Stored Power",
+        "Psycho Shift",
+        "Ancient Power",
+        "Steel Wing",
+        "Roost",
+        "Skill Swap",
+        "Future Sight"
       ]
     },
     "bs": {
@@ -70901,6 +73962,18 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Hex",
         "Rain Dance"
+      ],
+      "egg": [
+        "Memento",
+        "Fake Tears",
+        "Nasty Plot",
+        "Endure",
+        "Heal Block",
+        "Imprison",
+        "Nightmare",
+        "Disable",
+        "Toxic Spikes",
+        "Crafty Shield"
       ]
     },
     "bs": {
@@ -71159,6 +74232,19 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Smack Down"
+      ],
+      "egg": [
+        "Water Pulse",
+        "Knock Off",
+        "Rock Throw",
+        "Slam",
+        "Iron Defense",
+        "Flail",
+        "Whirlpool",
+        "Body Slam",
+        "Bide",
+        "Guard Swap",
+        "Liquidation"
       ]
     },
     "bs": {
@@ -71441,6 +74527,16 @@ em_imp_primary_mons = {
         "Rock Blast",
         "Sandstorm",
         "Meteor Beam"
+      ],
+      "egg": [
+        "Steel Wing",
+        "Defog",
+        "Dragon Pulse",
+        "Head Smash",
+        "Knock Off",
+        "Earth Power",
+        "Bite",
+        "Switcheroo"
       ]
     },
     "bs": {
@@ -71692,6 +74788,17 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Spikes"
+      ],
+      "egg": [
+        "Spikes",
+        "Rollout",
+        "Haze",
+        "Curse",
+        "Rock Blast",
+        "Sand Attack",
+        "Mud Sport",
+        "Self-Destruct",
+        "Autotomize"
       ]
     },
     "bs": {
@@ -71940,6 +75047,17 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Hex",
         "Rain Dance"
+      ],
+      "egg": [
+        "Detect",
+        "Captivate",
+        "Dark Pulse",
+        "Snatch",
+        "Memento",
+        "Sucker Punch",
+        "Extrasensory",
+        "Counter",
+        "Copycat"
       ]
     },
     "bs": {
@@ -72210,6 +75328,17 @@ em_imp_primary_mons = {
         "Tail Slap",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Iron Tail",
+        "Tail Whip",
+        "Aqua Tail",
+        "Mud-Slap",
+        "Knock Off",
+        "Fake Tears",
+        "Sleep Talk",
+        "Endure",
+        "Flail"
       ]
     },
     "bs": {
@@ -72412,6 +75541,16 @@ em_imp_primary_mons = {
         "Stored Power",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Mirror Coat",
+        "Uproar",
+        "Miracle Eye",
+        "Captivate",
+        "Mean Look",
+        "Dark Pulse",
+        "Heal Pulse",
+        "Fake Out"
       ]
     },
     "bs": {
@@ -72803,6 +75942,16 @@ em_imp_primary_mons = {
         "Stored Power",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Night Shade",
+        "Astonish",
+        "Confuse Ray",
+        "Acid Armor",
+        "Trick",
+        "Imprison",
+        "Astonish",
+        "Helping Hand"
       ]
     },
     "bs": {
@@ -73136,7 +76285,7 @@ em_imp_primary_mons = {
         ],
         [
           19,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           21,
@@ -73195,6 +76344,17 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Steel Wing",
+        "Brine",
+        "Gust",
+        "Air Cutter",
+        "Mirror Move",
+        "Me First",
+        "Lucky Chant",
+        "Mud Sport",
+        "Aqua Jet"
       ]
     },
     "bs": {
@@ -73260,7 +76420,7 @@ em_imp_primary_mons = {
         ],
         [
           19,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           21,
@@ -73425,6 +76585,18 @@ em_imp_primary_mons = {
         "Icicle Spear",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Water Pulse",
+        "Natural Gift",
+        "Imprison",
+        "Autotomize",
+        "Iron Defense",
+        "Magnet Rise",
+        "Ice Shard",
+        "Powder Snow",
+        "Explosion",
+        "Icicle Crash"
       ]
     },
     "bs": {
@@ -73775,6 +76947,17 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Fake Tears",
+        "Natural Gift",
+        "Synthesis",
+        "Worry Seed",
+        "Odor Sleuth",
+        "Agility",
+        "Sleep Talk",
+        "Grass Whistle",
+        "Headbutt"
       ]
     },
     "bs": {
@@ -74021,6 +77204,18 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Tailwind",
         "Rain Dance"
+      ],
+      "egg": [
+        "Roost",
+        "Iron Tail",
+        "Astonish",
+        "Air Slash",
+        "Shock Wave",
+        "Charm",
+        "Covet",
+        "Tickle",
+        "Ion Deluge",
+        "Speed Swap"
       ]
     },
     "bs": {
@@ -74126,6 +77321,18 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Rain Dance",
         "Megahorn"
+      ],
+      "egg": [
+        "Megahorn",
+        "Pursuit",
+        "Counter",
+        "Horn Attack",
+        "Feint Attack",
+        "Bug Bite",
+        "Screech",
+        "Knock Off",
+        "Drill Run",
+        "Night Slash"
       ]
     },
     "bs": {
@@ -74379,6 +77586,16 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Gastro Acid",
+        "Growth",
+        "Poison Powder",
+        "Stun Spore",
+        "Rollout",
+        "Defense Curl",
+        "Endure",
+        "Body Slam"
       ]
     },
     "bs": {
@@ -74542,7 +77759,7 @@ em_imp_primary_mons = {
         ],
         [
           13,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           17,
@@ -74606,6 +77823,16 @@ em_imp_primary_mons = {
         "Hex",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Acid Armor",
+        "Confuse Ray",
+        "Constrict",
+        "Destiny Bond",
+        "Mist",
+        "Pain Split",
+        "Recover",
+        "Strength Sap"
       ]
     },
     "bs": {
@@ -74671,7 +77898,7 @@ em_imp_primary_mons = {
         ],
         [
           13,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           17,
@@ -74876,6 +78103,14 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Pain Split",
+        "Refresh",
+        "Tickle",
+        "Mirror Coat",
+        "Mist",
+        "Endure"
       ]
     },
     "bs": {
@@ -74983,6 +78218,17 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Rain Dance",
         "Silver Wind"
+      ],
+      "egg": [
+        "Pin Missile",
+        "Poison Sting",
+        "Cross Poison",
+        "Rock Climb",
+        "Pursuit",
+        "Disable",
+        "Feint Attack",
+        "Camouflage",
+        "Lunge"
       ]
     },
     "bs": {
@@ -75185,7 +78431,7 @@ em_imp_primary_mons = {
         ],
         [
           38,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           43,
@@ -75228,6 +78474,18 @@ em_imp_primary_mons = {
         "Spikes",
         "Steel Beam",
         "Gravity"
+      ],
+      "egg": [
+        "Bullet Seed",
+        "Leech Seed",
+        "Spikes",
+        "Worry Seed",
+        "Seed Bomb",
+        "Gravity",
+        "Rock Climb",
+        "Stealth Rock",
+        "Acid Spray",
+        "Knock Off"
       ]
     },
     "bs": {
@@ -75321,7 +78579,7 @@ em_imp_primary_mons = {
         ],
         [
           38,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           46,
@@ -76129,6 +79387,18 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Teleport",
+        "Disable",
+        "Astonish",
+        "Power Swap",
+        "Guard Swap",
+        "Barrier",
+        "Nasty Plot",
+        "Skill Swap",
+        "Cosmic Power",
+        "Destiny Bond"
       ]
     },
     "bs": {
@@ -76397,6 +79667,16 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Mystical Fire"
+      ],
+      "egg": [
+        "Acid Armor",
+        "Heat Wave",
+        "Haze",
+        "Endure",
+        "Captivate",
+        "Acid",
+        "Clear Smog",
+        "Power Split"
       ]
     },
     "bs": {
@@ -76707,6 +79987,19 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Counter",
+        "Focus Energy",
+        "Reversal",
+        "Endure",
+        "Razor Wind",
+        "Night Slash",
+        "Endeavor",
+        "Iron Tail",
+        "Dragon Pulse",
+        "Harden",
+        "First Impression"
       ]
     },
     "bs": {
@@ -77120,6 +80413,17 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Yawn",
+        "Avalanche",
+        "Encore",
+        "Ice Punch",
+        "Night Slash",
+        "Assurance",
+        "Sleep Talk",
+        "Focus Punch",
+        "Play Rough"
       ]
     },
     "bs": {
@@ -77514,6 +80818,18 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Rain Dance",
         "Spikes"
+      ],
+      "egg": [
+        "Endure",
+        "Double-Edge",
+        "Encore",
+        "Guard Split",
+        "Mind Reader",
+        "Mud-Slap",
+        "Spikes",
+        "Feint",
+        "Pursuit",
+        "Toxic Spikes"
       ]
     },
     "bs": {
@@ -77766,6 +81082,20 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Sandstorm",
         "Rain Dance"
+      ],
+      "egg": [
+        "Shock Wave",
+        "Earth Power",
+        "Yawn",
+        "Sleep Talk",
+        "Astonish",
+        "Curse",
+        "Spite",
+        "Spark",
+        "Pain Split",
+        "Eerie Impulse",
+        "Reflect Type",
+        "Me First"
       ]
     },
     "bs": {
@@ -77895,6 +81225,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Endure",
+        "Vital Throw",
+        "Smelling Salts",
+        "Low Kick",
+        "Feint",
+        "Me First",
+        "Knock Off"
       ]
     },
     "bs": {
@@ -78174,6 +81513,19 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Fire Fang",
+        "Thunder Fang",
+        "Crush Claw",
+        "Feint Attack",
+        "Pursuit",
+        "Iron Tail",
+        "Poison Tail",
+        "Snatch",
+        "Metal Claw",
+        "Glare",
+        "Sucker Punch"
       ]
     },
     "bs": {
@@ -78599,6 +81951,16 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Steel Beam"
+      ],
+      "egg": [
+        "Revenge",
+        "Sucker Punch",
+        "Pursuit",
+        "Headbutt",
+        "Stealth Rock",
+        "Psycho Cut",
+        "Mean Look",
+        "Quick Guard"
       ]
     },
     "bs": {
@@ -78873,6 +82235,18 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Megahorn"
+      ],
+      "egg": [
+        "Stomp",
+        "Rock Climb",
+        "Headbutt",
+        "Skull Bash",
+        "Mud Shot",
+        "Head Smash",
+        "Iron Head",
+        "Amnesia",
+        "Belch",
+        "Cotton Guard"
       ]
     },
     "bs": {
@@ -79276,6 +82650,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Steel Wing",
+        "Mean Look",
+        "Roost",
+        "Scary Face",
+        "Knock Off",
+        "Fake Tears",
+        "Foul Play"
       ]
     },
     "bs": {
@@ -79574,6 +82957,19 @@ em_imp_primary_mons = {
         "Flare Blitz",
         "Rain Dance",
         "Power Whip"
+      ],
+      "egg": [
+        "Pursuit",
+        "Wrap",
+        "Night Slash",
+        "Curse",
+        "Body Slam",
+        "Heat Wave",
+        "Feint Attack",
+        "Sucker Punch",
+        "Tickle",
+        "Sleep Talk",
+        "Belch"
       ]
     },
     "bs": {
@@ -79682,6 +83078,16 @@ em_imp_primary_mons = {
         "Thunder Fang",
         "Sandstorm",
         "Steel Beam"
+      ],
+      "egg": [
+        "Screech",
+        "Endure",
+        "Rock Climb",
+        "Thunder Fang",
+        "Feint Attack",
+        "First Impression",
+        "Metal Burst",
+        "Flail"
       ]
     },
     "bs": {
@@ -79796,6 +83202,19 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Fire Fang",
+        "Thunder Fang",
+        "Ice Fang",
+        "Double Hit",
+        "Astonish",
+        "Earth Power",
+        "Screech",
+        "Head Smash",
+        "Assurance",
+        "Dark Pulse",
+        "Belch"
       ]
     },
     "bs": {
@@ -80173,6 +83592,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Trailblaze",
         "Flare Blitz"
+      ],
+      "egg": [
+        "String Shot",
+        "Harden",
+        "Foresight",
+        "Endure",
+        "Zen Headbutt",
+        "Morning Sun",
+        "Magnet Rise"
       ]
     },
     "bs": {
@@ -81553,7 +84981,7 @@ em_imp_primary_mons = {
         ],
         [
           13,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           19,
@@ -81879,7 +85307,7 @@ em_imp_primary_mons = {
         ],
         [
           77,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           82,
@@ -82574,6 +86002,16 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Spikes"
+      ],
+      "egg": [
+        "Synthesis",
+        "Belly Drum",
+        "Curse",
+        "Quick Guard",
+        "Spikes",
+        "Defense Curl",
+        "Rollout",
+        "Power-Up Punch"
       ]
     },
     "bs": {
@@ -83017,6 +86455,13 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Wish",
+        "Hypnosis",
+        "Heat Wave",
+        "Magic Coat",
+        "Psychic Terrain"
       ]
     },
     "bs": {
@@ -83430,6 +86875,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Smack Down"
+      ],
+      "egg": [
+        "Bestow",
+        "Mind Reader",
+        "Toxic Spikes",
+        "Mud Sport",
+        "Camouflage",
+        "Water Sport",
+        "Power-Up Punch"
       ]
     },
     "bs": {
@@ -83843,6 +87297,11 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sandstorm",
         "Spikes"
+      ],
+      "egg": [
+        "Spikes",
+        "Defense Curl",
+        "Rollout"
       ]
     },
     "bs": {
@@ -84098,6 +87557,11 @@ em_imp_primary_mons = {
         "Tailwind",
         "Swords Dance",
         "Sunny Day"
+      ],
+      "egg": [
+        "Tailwind",
+        "Snatch",
+        "Quick Guard"
       ]
     },
     "bs": {
@@ -84405,7 +87869,8 @@ em_imp_primary_mons = {
       ],
       "tms": [
         "Bug Bite"
-      ]
+      ],
+      "egg": []
     },
     "bs": {
       "hp": 38,
@@ -84696,6 +88161,12 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Flare Blitz",
         "Rain Dance"
+      ],
+      "egg": [
+        "Entrainment",
+        "Yawn",
+        "Snatch",
+        "Fire Spin"
       ]
     },
     "bs": {
@@ -84933,6 +88404,12 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Moonblast"
+      ],
+      "egg": [
+        "Copycat",
+        "Captivate",
+        "Camouflage",
+        "Tearful Look"
       ]
     },
     "bs": {
@@ -85261,6 +88738,12 @@ em_imp_primary_mons = {
         "Leaf Blade",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Defense Curl",
+        "Rollout",
+        "Milk Drink",
+        "Grassy Terrain"
       ]
     },
     "bs": {
@@ -85533,6 +89016,13 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Arm Thrust"
+      ],
+      "egg": [
+        "Me First",
+        "Quick Guard",
+        "Foul Play",
+        "Storm Throw",
+        "Power Trip"
       ]
     },
     "bs": {
@@ -85818,6 +89308,13 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Psychic Fangs",
         "Rain Dance"
+      ],
+      "egg": [
+        "Role Play",
+        "Work Up",
+        "Mimic",
+        "Captivate",
+        "Refresh"
       ]
     },
     "bs": {
@@ -85907,6 +89404,13 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Trick",
+        "Yawn",
+        "Assist",
+        "Barrier",
+        "Tickle"
       ]
     },
     "bs": {
@@ -86167,6 +89671,13 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Solar Blade",
         "Steel Beam"
+      ],
+      "egg": [
+        "Metal Sound",
+        "Shadow Sneak",
+        "Destiny Bond",
+        "Wide Guard",
+        "Block"
       ]
     },
     "bs": {
@@ -86399,6 +89910,14 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Moonblast",
         "Misty Explosion"
+      ],
+      "egg": [
+        "Disable",
+        "Wish",
+        "Captivate",
+        "Refresh",
+        "Nasty Plot",
+        "After You"
       ]
     },
     "bs": {
@@ -86649,6 +90168,13 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Misty Explosion"
+      ],
+      "egg": [
+        "After You",
+        "Yawn",
+        "Belly Drum",
+        "Copycat",
+        "Sticky Web"
       ]
     },
     "bs": {
@@ -86894,6 +90420,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Simple Beam",
+        "Power Split",
+        "Camouflage",
+        "Flatter",
+        "Destiny Bond",
+        "Guard Swap",
+        "Disable"
       ]
     },
     "bs": {
@@ -87157,6 +90692,13 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Tickle",
+        "Switcheroo",
+        "Helping Hand",
+        "Water Sport",
+        "Night Slash"
       ]
     },
     "bs": {
@@ -87402,6 +90944,13 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Toxic Spikes",
+        "Play Rough",
+        "Haze",
+        "Acid Armor",
+        "Venom Drench"
       ]
     },
     "bs": {
@@ -87584,7 +91133,7 @@ em_imp_primary_mons = {
         ],
         [
           20,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           25,
@@ -87631,6 +91180,13 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Smack Down"
+      ],
+      "egg": [
+        "Aqua Jet",
+        "Entrainment",
+        "Endure",
+        "Crabhammer",
+        "Helping Hand"
       ]
     },
     "bs": {
@@ -87711,7 +91267,7 @@ em_imp_primary_mons = {
         ],
         [
           20,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           25,
@@ -87874,6 +91430,14 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Sandstorm",
         "Rain Dance"
+      ],
+      "egg": [
+        "Agility",
+        "Glare",
+        "Camouflage",
+        "Electric Terrain",
+        "Dragon Rush",
+        "Dragon Tail"
       ]
     },
     "bs": {
@@ -88095,6 +91659,15 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Poison Fang",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Dragon Dance",
+        "Thunder Fang",
+        "Ice Fang",
+        "Poison Fang",
+        "Rock Polish",
+        "Fire Fang",
+        "Curse"
       ]
     },
     "bs": {
@@ -88398,6 +91971,13 @@ em_imp_primary_mons = {
         "Power Gem",
         "Meteor Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Haze",
+        "Barrier",
+        "Mirror Coat",
+        "Magnet Rise",
+        "Discharge"
       ]
     },
     "bs": {
@@ -88814,6 +92394,18 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Agility",
+        "Me First",
+        "Entrainment",
+        "Mud Sport",
+        "Quick Guard",
+        "Lunge",
+        "Feint",
+        "Defog",
+        "Mean Look",
+        "Cross Chop"
       ]
     },
     "bs": {
@@ -88924,6 +92516,13 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Eerie Impulse",
+        "Covet",
+        "Helping Hand",
+        "Natural Gift",
+        "Tearful Look"
       ]
     },
     "bs": {
@@ -89130,6 +92729,15 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Acid Armor",
+        "Curse",
+        "Iron Tail",
+        "Wish",
+        "Counter",
+        "Endure",
+        "Life Dew"
       ]
     },
     "bs": {
@@ -89495,6 +93103,12 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Spikes",
         "Steel Beam"
+      ],
+      "egg": [
+        "Switcheroo",
+        "Thief",
+        "Lock-On",
+        "Iron Defense"
       ]
     },
     "bs": {
@@ -89610,6 +93224,15 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Phantom Force"
+      ],
+      "egg": [
+        "Grudge",
+        "Bestow",
+        "Imprison",
+        "Venom Drench",
+        "Power-Up Punch",
+        "Sucker Punch",
+        "Disable"
       ]
     },
     "bs": {
@@ -89869,6 +93492,12 @@ em_imp_primary_mons = {
         "Hex",
         "Solar Beam",
         "Mystical Fire"
+      ],
+      "egg": [
+        "Disable",
+        "Bestow",
+        "Destiny Bond",
+        "Curse"
       ]
     },
     "bs": {
@@ -90128,6 +93757,12 @@ em_imp_primary_mons = {
         "Icicle Spear",
         "Ice Fang",
         "Rain Dance"
+      ],
+      "egg": [
+        "Recover",
+        "Mist",
+        "Barrier",
+        "Mirror Coat"
       ]
     },
     "bs": {
@@ -90411,6 +94046,14 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Switcheroo",
+        "Snatch",
+        "Outrage",
+        "Tailwind",
+        "Defog",
+        "Dragon Rush"
       ]
     },
     "bs": {
@@ -91566,7 +95209,7 @@ em_imp_primary_mons = {
         ],
         [
           50,
-          "Light of Ruin"
+          "Light Of Ruin"
         ],
         [
           51,
@@ -91699,6 +95342,14 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Leaf Blade",
         "Trailblaze",
+        "Knock Off"
+      ],
+      "egg": [
+        "Curse",
+        "Confuse Ray",
+        "Ominous Wind",
+        "Haze",
+        "Defog",
         "Knock Off"
       ]
     },
@@ -92131,6 +95782,16 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Nasty Plot",
+        "Body Slam",
+        "Crunch",
+        "Fake Out",
+        "Revenge",
+        "Heat Wave",
+        "Power Trip",
+        "Parting Shot"
       ]
     },
     "bs": {
@@ -92505,7 +96166,7 @@ em_imp_primary_mons = {
         ],
         [
           22,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           25,
@@ -92555,6 +96216,15 @@ em_imp_primary_mons = {
         "Snowscape",
         "Rain Dance",
         "Moonblast"
+      ],
+      "egg": [
+        "Charm",
+        "Amnesia",
+        "Aqua Ring",
+        "Aromatic Mist",
+        "Perish Song",
+        "Wonder Room",
+        "Life Dew"
       ]
     },
     "bs": {
@@ -92587,7 +96257,7 @@ em_imp_primary_mons = {
       "learnset": [
         [
           0,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           1,
@@ -92603,7 +96273,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           4,
@@ -92749,7 +96419,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           28,
@@ -92913,6 +96583,13 @@ em_imp_primary_mons = {
         "Tailwind",
         "Swords Dance",
         "Sunny Day"
+      ],
+      "egg": [
+        "Brave Bird",
+        "Boomburst",
+        "Mirror Move",
+        "Tailwind",
+        "Uproar"
       ]
     },
     "bs": {
@@ -93279,6 +96956,12 @@ em_imp_primary_mons = {
         "Fire Fang",
         "Sandstorm",
         "Trailblaze"
+      ],
+      "egg": [
+        "Revenge",
+        "Fire Fang",
+        "Ice Fang",
+        "Thunder Fang"
       ]
     },
     "bs": {
@@ -93495,6 +97178,13 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Bug Bite",
         "Rain Dance"
+      ],
+      "egg": [
+        "Harden",
+        "Electroweb",
+        "Mud Shot",
+        "Endure",
+        "Discharge"
       ]
     },
     "bs": {
@@ -93811,7 +97501,7 @@ em_imp_primary_mons = {
         ],
         [
           17,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           22,
@@ -93873,6 +97563,12 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Wide Guard",
+        "Superpower",
+        "Endeavor",
+        "Amnesia"
       ]
     },
     "bs": {
@@ -93941,7 +97637,7 @@ em_imp_primary_mons = {
         ],
         [
           17,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           22,
@@ -94124,6 +97820,12 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Sandstorm",
         "Trailblaze"
+      ],
+      "egg": [
+        "Pluck",
+        "Tailwind",
+        "Safeguard",
+        "Captivate"
       ]
     },
     "bs": {
@@ -94218,6 +97920,15 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Moonblast",
         "Silver Wind"
+      ],
+      "egg": [
+        "Skill Swap",
+        "Speed Swap",
+        "Bestow",
+        "Moonblast",
+        "Powder",
+        "Sticky Web",
+        "Aromatic Mist"
       ]
     },
     "bs": {
@@ -94452,6 +98163,13 @@ em_imp_primary_mons = {
         "Thunder Fang",
         "Fire Fang",
         "Trailblaze"
+      ],
+      "egg": [
+        "Crush Claw",
+        "Fire Fang",
+        "Thunder Fang",
+        "Sucker Punch",
+        "Thrash"
       ]
     },
     "bs": {
@@ -94566,6 +98284,13 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Dive"
+      ],
+      "egg": [
+        "Muddy Water",
+        "Mist",
+        "Water Pulse",
+        "Water Sport",
+        "Whirlpool"
       ]
     },
     "bs": {
@@ -94659,6 +98384,12 @@ em_imp_primary_mons = {
         "Snowscape",
         "Pin Missile",
         "Rain Dance"
+      ],
+      "egg": [
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Haze"
       ]
     },
     "bs": {
@@ -94887,6 +98618,13 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sandstorm",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Body Slam",
+        "Double-Edge",
+        "Magnitude",
+        "Close Combat",
+        "Mud Bomb"
       ]
     },
     "bs": {
@@ -95058,7 +98796,7 @@ em_imp_primary_mons = {
         ],
         [
           16,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           21,
@@ -95110,6 +98848,13 @@ em_imp_primary_mons = {
         "Iron Defense",
         "Bug Buzz",
         "Rain Dance"
+      ],
+      "egg": [
+        "Power Split",
+        "Aurora Beam",
+        "Stockpile",
+        "Spit Up",
+        "Sticky Web"
       ]
     },
     "bs": {
@@ -95184,7 +98929,7 @@ em_imp_primary_mons = {
         ],
         [
           16,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           21,
@@ -95333,6 +99078,13 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Leaf Blade",
         "Trailblaze"
+      ],
+      "egg": [
+        "Weather Ball",
+        "Giga Drain",
+        "Aromatherapy",
+        "Defog",
+        "Leaf Storm"
       ]
     },
     "bs": {
@@ -95568,6 +99320,13 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Moonblast"
+      ],
+      "egg": [
+        "Amnesia",
+        "Poison Powder",
+        "Stun Spore",
+        "Growth",
+        "Leech Seed"
       ]
     },
     "bs": {
@@ -95797,6 +99556,14 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Trailblaze"
+      ],
+      "egg": [
+        "Belch",
+        "Knock Off",
+        "Sand Attack",
+        "Snatch",
+        "Fake Out",
+        "Mud-Slap"
       ]
     },
     "bs": {
@@ -96057,6 +99824,18 @@ em_imp_primary_mons = {
         "Bulk Up",
         "Swords Dance",
         "Focus Punch"
+      ],
+      "egg": [
+        "Ice Punch",
+        "Thunder Punch",
+        "Force Palm",
+        "Endure",
+        "Wide Guard",
+        "Mega Kick",
+        "Stomping Tantrum",
+        "Rollout",
+        "Defense Curl",
+        "Stomp"
       ]
     },
     "bs": {
@@ -96263,6 +100042,14 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Trailblaze"
+      ],
+      "egg": [
+        "Grass Whistle",
+        "Synthesis",
+        "Play Rough",
+        "Feint",
+        "Charm",
+        "Endeavor"
       ]
     },
     "bs": {
@@ -96658,6 +100445,11 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Solar Beam"
+      ],
+      "egg": [
+        "Endure",
+        "Amnesia",
+        "After You"
       ]
     },
     "bs": {
@@ -96773,6 +100565,14 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Gravity"
+      ],
+      "egg": [
+        "Extrasensory",
+        "Wonder Room",
+        "Psychic Terrain",
+        "Yawn",
+        "Last Resort",
+        "Dream Eater"
       ]
     },
     "bs": {
@@ -96903,6 +100703,17 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Focus Punch",
         "Rain Dance"
+      ],
+      "egg": [
+        "Seismic Toss",
+        "Vital Throw",
+        "Quick Guard",
+        "Coaching",
+        "Iron Head",
+        "Quick Attack",
+        "Feint",
+        "Counter",
+        "Knock Off"
       ]
     },
     "bs": {
@@ -96942,6 +100753,14 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Rain Dance",
         "Spikes"
+      ],
+      "egg": [
+        "Spikes",
+        "Metal Claw",
+        "Wide Guard",
+        "Harden",
+        "Aqua Jet",
+        "Rollout"
       ]
     },
     "bs": {
@@ -97195,6 +101014,15 @@ em_imp_primary_mons = {
         "Hex",
         "Sandstorm",
         "Gravity"
+      ],
+      "egg": [
+        "Amnesia",
+        "Destiny Bond",
+        "Ancient Power",
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Curse"
       ]
     },
     "bs": {
@@ -97414,6 +101242,14 @@ em_imp_primary_mons = {
         "Pain Split",
         "Snowscape",
         "Rain Dance"
+      ],
+      "egg": [
+        "Endure",
+        "Venom Drench",
+        "Bestow",
+        "Tickle",
+        "Spite",
+        "Mirror Coat"
       ]
     },
     "bs": {
@@ -97762,7 +101598,7 @@ em_imp_primary_mons = {
         ],
         [
           22,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           24,
@@ -97918,6 +101754,12 @@ em_imp_primary_mons = {
         "Swords Dance",
         "Sunny Day",
         "Trailblaze"
+      ],
+      "egg": [
+        "Charm",
+        "Wish",
+        "Play Rough",
+        "Sing"
       ]
     },
     "bs": {
@@ -98048,6 +101890,14 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Draco Barrage",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Wide Guard",
+        "Revenge",
+        "Head Smash",
+        "Fire Spin",
+        "Rapid Spin",
+        "Curse"
       ]
     },
     "bs": {
@@ -98161,6 +102011,17 @@ em_imp_primary_mons = {
         "Pin Missile",
         "Steel Beam",
         "Gravity"
+      ],
+      "egg": [
+        "Reversal",
+        "Present",
+        "Encore",
+        "Twineedle",
+        "Wish",
+        "Fake Out",
+        "Tickle",
+        "Flail",
+        "Disarming Voice"
       ]
     },
     "bs": {
@@ -98277,6 +102138,12 @@ em_imp_primary_mons = {
         "Hex",
         "Phantom Force",
         "Trailblaze"
+      ],
+      "egg": [
+        "Grudge",
+        "Destiny Bond",
+        "Curse",
+        "Nightmare"
       ]
     },
     "bs": {
@@ -98385,6 +102252,12 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Poison Fang"
+      ],
+      "egg": [
+        "Water Pulse",
+        "Poison Fang",
+        "Ice Fang",
+        "Rage"
       ]
     },
     "bs": {
@@ -98516,6 +102389,14 @@ em_imp_primary_mons = {
         "Solar Beam",
         "Rain Dance",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Hurricane",
+        "Dragon Rush",
+        "Razor Wind",
+        "Mist",
+        "Play Rough",
+        "Tickle"
       ]
     },
     "bs": {
@@ -98763,6 +102644,11 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Dragon Dance",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Counter",
+        "Reversal",
+        "Dragon Breath"
       ]
     },
     "bs": {
@@ -100156,7 +104042,7 @@ em_imp_primary_mons = {
         ],
         [
           1,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
@@ -100444,7 +104330,7 @@ em_imp_primary_mons = {
         ],
         [
           23,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           29,
@@ -101405,6 +105291,19 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Snatch",
+        "Stockpile",
+        "Fury Swipes",
+        "Switcheroo",
+        "Counter",
+        "Reversal",
+        "Uproar",
+        "Swallow",
+        "Me First",
+        "Revenge",
+        "Final Gambit"
       ]
     },
     "bs": {
@@ -101753,6 +105652,20 @@ em_imp_primary_mons = {
         "Icicle Spear",
         "Spikes",
         "Steel Beam"
+      ],
+      "egg": [
+        "Ice Shard",
+        "Counter",
+        "Icicle Spear",
+        "Metal Claw",
+        "Crush Claw",
+        "Night Slash",
+        "Endure",
+        "Chip Away",
+        "Curse",
+        "Amnesia",
+        "Rapid Spin",
+        "Hone Claws"
       ]
     },
     "bs": {
@@ -101982,6 +105895,21 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Moonblast",
         "Dazzling Gleam"
+      ],
+      "egg": [
+        "Freeze-Dry",
+        "Hypnosis",
+        "Flail",
+        "Spite",
+        "Disable",
+        "Howl",
+        "Agility",
+        "Encore",
+        "Moonblast",
+        "Power Swap",
+        "Charm",
+        "Tail Slap",
+        "Extrasensory"
       ]
     },
     "bs": {
@@ -102178,6 +106106,19 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Steel Beam"
+      ],
+      "egg": [
+        "Feint Attack",
+        "Metal Sound",
+        "Ancient Power",
+        "Pursuit",
+        "Beat Up",
+        "Thrash",
+        "Reversal",
+        "Headbutt",
+        "Endure",
+        "Final Gambit",
+        "Memento"
       ]
     },
     "bs": {
@@ -102427,6 +106368,20 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Hypnosis",
+        "Assist",
+        "Foul Play",
+        "Spite",
+        "Charm",
+        "Amnesia",
+        "Parting Shot",
+        "Flail",
+        "Flatter",
+        "Punishment",
+        "Snatch",
+        "Covet"
       ]
     },
     "bs": {
@@ -102644,11 +106599,11 @@ em_imp_primary_mons = {
         ],
         [
           22,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           24,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           28,
@@ -102709,6 +106664,18 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Smack Down",
         "Supercell Slam"
+      ],
+      "egg": [
+        "Block",
+        "Flail",
+        "Magnet Rise",
+        "Rock Climb",
+        "Endure",
+        "Autotomize",
+        "Wide Guard",
+        "Counter",
+        "Curse",
+        "Screech"
       ]
     },
     "bs": {
@@ -102786,11 +106753,11 @@ em_imp_primary_mons = {
         ],
         [
           22,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           24,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           30,
@@ -102940,11 +106907,11 @@ em_imp_primary_mons = {
         ],
         [
           22,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           24,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           30,
@@ -103145,6 +107112,21 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Poison Fang"
+      ],
+      "egg": [
+        "Clear Smog",
+        "Mean Look",
+        "Pursuit",
+        "Imprison",
+        "Curse",
+        "Assurance",
+        "Shadow Sneak",
+        "Stockpile",
+        "Swallow",
+        "Spit Up",
+        "Scary Face",
+        "Spite",
+        "Power-Up Punch"
       ]
     },
     "bs": {
@@ -104604,7 +108586,7 @@ em_imp_primary_mons = {
         ],
         [
           29,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           33,
@@ -104899,7 +108881,7 @@ em_imp_primary_mons = {
       "learnset": [
         [
           0,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           1,
@@ -105077,6 +109059,15 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Solar Blade",
         "Strength"
+      ],
+      "egg": [
+        "Fake Out",
+        "Growth",
+        "Hammer Arm",
+        "Leech Seed",
+        "Nature Power",
+        "Strength",
+        "Worry Seed"
       ]
     },
     "bs": {
@@ -105418,6 +109409,12 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Blaze Kick",
         "Trailblaze"
+      ],
+      "egg": [
+        "High Jump Kick",
+        "Sand Attack",
+        "Sucker Punch",
+        "Super Fang"
       ]
     },
     "bs": {
@@ -105742,6 +109739,14 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Icy Wind"
+      ],
+      "egg": [
+        "Aqua Jet",
+        "Aqua Ring",
+        "Fell Stinger",
+        "Haze",
+        "Ice Shard",
+        "Mist"
       ]
     },
     "bs": {
@@ -106073,6 +110078,12 @@ em_imp_primary_mons = {
         "Tail Slap",
         "Body Slam",
         "Trailblaze"
+      ],
+      "egg": [
+        "Belly Drum",
+        "Defense Curl",
+        "Last Resort",
+        "Rollout"
       ]
     },
     "bs": {
@@ -106281,6 +110292,15 @@ em_imp_primary_mons = {
         "Nasty Plot",
         "Rock Smash",
         "Pluck"
+      ],
+      "egg": [
+        "Defog",
+        "Rock Smash",
+        "Roost",
+        "Sand Attack",
+        "Sky Attack",
+        "Spite",
+        "Tailwind"
       ]
     },
     "bs": {
@@ -106521,7 +110541,13 @@ em_imp_primary_mons = {
           "Struggle Bug"
         ]
       ],
-      "tms": []
+      "tms": [],
+      "egg": [
+        "Infestation",
+        "Recover",
+        "Sticky Web",
+        "Supersonic"
+      ]
     },
     "bs": {
       "hp": 25,
@@ -106814,6 +110840,12 @@ em_imp_primary_mons = {
         "Tail Slap",
         "Knock Off",
         "Dark Pulse"
+      ],
+      "egg": [
+        "Howl",
+        "Knock Off",
+        "Quick Guard",
+        "Torment"
       ]
     },
     "bs": {
@@ -107011,6 +111043,14 @@ em_imp_primary_mons = {
         "Grass Knot",
         "Sunny Day",
         "Solar Beam"
+      ],
+      "egg": [
+        "Growth",
+        "Leech Seed",
+        "Poison Powder",
+        "Sleep Powder",
+        "Stun Spore",
+        "Worry Seed"
       ]
     },
     "bs": {
@@ -107187,6 +111227,11 @@ em_imp_primary_mons = {
         "Grassy Glide",
         "Thunder Wave",
         "Wild Charge"
+      ],
+      "egg": [
+        "Counter",
+        "Stomp",
+        "Swagger"
       ]
     },
     "bs": {
@@ -107349,6 +111394,11 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Dragon Tail"
+      ],
+      "egg": [
+        "Dragon Tail",
+        "Gastro Acid",
+        "Skull Bash"
       ]
     },
     "bs": {
@@ -107566,6 +111616,13 @@ em_imp_primary_mons = {
         "Charge Beam",
         "Thunder Fang",
         "Fire Fang"
+      ],
+      "egg": [
+        "Discharge",
+        "Double-Edge",
+        "Flame Charge",
+        "Howl",
+        "Sand Attack"
       ]
     },
     "bs": {
@@ -107767,6 +111824,11 @@ em_imp_primary_mons = {
         "Smack Down",
         "Scorching Sands",
         "Spikes"
+      ],
+      "egg": [
+        "Block",
+        "Explosion",
+        "Mud-Slap"
       ]
     },
     "bs": {
@@ -108074,6 +112136,12 @@ em_imp_primary_mons = {
       ],
       "tms": [
         "Grassy Glide"
+      ],
+      "egg": [
+        "Defense Curl",
+        "Recycle",
+        "Rollout",
+        "Sucker Punch"
       ]
     },
     "bs": {
@@ -108450,6 +112518,12 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rock Tomb",
         "Rock Slide"
+      ],
+      "egg": [
+        "Belch",
+        "Dragon Rush",
+        "Mud-Slap",
+        "Poison Tail"
       ]
     },
     "bs": {
@@ -108669,6 +112743,13 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Pluck",
         "Dive"
+      ],
+      "egg": [
+        "Aerial Ace",
+        "Aqua Ring",
+        "Defog",
+        "Feather Dance",
+        "Roost"
       ]
     },
     "bs": {
@@ -108749,6 +112830,11 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Rain Dance",
         "Dive"
+      ],
+      "egg": [
+        "Night Slash",
+        "Slash",
+        "Thrash"
       ]
     },
     "bs": {
@@ -108893,6 +112979,11 @@ em_imp_primary_mons = {
       "tms": [
         "Rising Voltage",
         "Charge Beam",
+        "Power-Up Punch"
+      ],
+      "egg": [
+        "Endeavor",
+        "Metal Sound",
         "Power-Up Punch"
       ]
     },
@@ -109151,6 +113242,12 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Bug Buzz",
         "Power Whip"
+      ],
+      "egg": [
+        "Defense Curl",
+        "Knock Off",
+        "Rollout",
+        "Struggle Bug"
       ]
     },
     "bs": {
@@ -109363,6 +113460,16 @@ em_imp_primary_mons = {
         "Body Slam",
         "Focus Punch",
         "Rock Smash"
+      ],
+      "egg": [
+        "Circle Throw",
+        "Pain Split",
+        "Power-Up Punch",
+        "Aqua Jet",
+        "Mach Punch",
+        "Seismic Toss",
+        "Soak",
+        "Sucker Punch"
       ]
     },
     "bs": {
@@ -109782,6 +113889,12 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Stored Power",
         "Mystical Fire"
+      ],
+      "egg": [
+        "After You",
+        "Aromatic Mist",
+        "Nuzzle",
+        "Quash"
       ]
     },
     "bs": {
@@ -110096,6 +114209,9 @@ em_imp_primary_mons = {
         "Foul Play",
         "Nasty Plot",
         "Trailblaze"
+      ],
+      "egg": [
+        "Parting Shot"
       ]
     },
     "bs": {
@@ -111306,6 +115422,10 @@ em_imp_primary_mons = {
         "Draining Kiss",
         "Dazzling Gleam",
         "Stored Power"
+      ],
+      "egg": [
+        "Baby-Doll Eyes",
+        "Last Resort"
       ]
     },
     "bs": {
@@ -111612,7 +115732,7 @@ em_imp_primary_mons = {
         ],
         [
           25,
-          "Bubblebeam"
+          "Bubble Beam"
         ],
         [
           30,
@@ -111661,6 +115781,10 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Supercell Slam",
         "Spikes"
+      ],
+      "egg": [
+        "Memento",
+        "Sucker Punch"
       ]
     },
     "bs": {
@@ -111700,6 +115824,11 @@ em_imp_primary_mons = {
         "Bug Bite",
         "Icicle Spear",
         "Bug Buzz"
+      ],
+      "egg": [
+        "Bug Bite",
+        "Fairy Wind",
+        "Mirror Coat"
       ]
     },
     "bs": {
@@ -111929,6 +116058,10 @@ em_imp_primary_mons = {
         "Meteor Beam",
         "Heavy Slam",
         "Gravity"
+      ],
+      "egg": [
+        "Ancient Power",
+        "Curse"
       ]
     },
     "bs": {
@@ -112024,6 +116157,14 @@ em_imp_primary_mons = {
         "Iron Defense",
         "Snowscape",
         "Icicle Spear"
+      ],
+      "egg": [
+        "Aqua Ring",
+        "Belly Drum",
+        "Double-Edge",
+        "Head Smash",
+        "Icicle Crash",
+        "Soak"
       ]
     },
     "bs": {
@@ -112120,6 +116261,11 @@ em_imp_primary_mons = {
         "Calm Mind",
         "Stored Power",
         "Mystical Fire"
+      ],
+      "egg": [
+        "Psych Up",
+        "Fake Out",
+        "Extrasensory"
       ]
     },
     "bs": {
@@ -112232,6 +116378,16 @@ em_imp_primary_mons = {
         "Ice Fang",
         "Fire Fang",
         "Psychic Fangs"
+      ],
+      "egg": [
+        "Charge",
+        "Fake Out",
+        "Parting Shot",
+        "Quash",
+        "Rapid Spin",
+        "Super Fang",
+        "Swagger",
+        "Tickle"
       ]
     },
     "bs": {
@@ -112334,6 +116490,14 @@ em_imp_primary_mons = {
         "Strength",
         "Steel Beam",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Belch",
+        "Curse",
+        "Defense Curl",
+        "Slam",
+        "Swagger",
+        "Whirlwind"
       ]
     },
     "bs": {
@@ -112997,6 +117161,11 @@ em_imp_primary_mons = {
         "Draco Barrage",
         "Steel Beam",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Mirror Coat",
+        "Night Slash",
+        "Slash"
       ]
     },
     "bs": {
@@ -113053,6 +117222,14 @@ em_imp_primary_mons = {
       "tms": [
         "Thunder Wave",
         "Dragon Tail"
+      ],
+      "egg": [
+        "Confuse Ray",
+        "Curse",
+        "Disable",
+        "Dragon Tail",
+        "Grudge",
+        "Sucker Punch"
       ]
     },
     "bs": {
@@ -114565,6 +118742,12 @@ em_imp_primary_mons = {
         "Alluring Voice",
         "Stored Power",
         "Mystical Fire"
+      ],
+      "egg": [
+        "Fake Out",
+        "Heal Pulse",
+        "Psych Up",
+        "Psycho Shift"
       ]
     },
     "bs": {
@@ -114806,6 +118989,14 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Steel Beam"
+      ],
+      "egg": [
+        "Covet",
+        "Curse",
+        "Double-Edge",
+        "Bullet Punch",
+        "Night Slash",
+        "Spite"
       ]
     },
     "bs": {
@@ -114911,6 +119102,13 @@ em_imp_primary_mons = {
         "Stored Power",
         "Mystical Fire",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Double Kick",
+        "Double-Edge",
+        "Hypnosis",
+        "Morning Sun",
+        "Thrash"
       ]
     },
     "bs": {
@@ -115175,6 +119373,12 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Belch",
+        "Belly Drum",
+        "Block",
+        "Stomp"
       ]
     },
     "bs": {
@@ -115431,6 +119635,19 @@ em_imp_primary_mons = {
         "Leaf Blade",
         "Solar Blade",
         "Rock Smash"
+      ],
+      "egg": [
+        "Counter",
+        "Covet",
+        "Curse",
+        "Double-Edge",
+        "Feint",
+        "Flail",
+        "Night Slash",
+        "Quick Attack",
+        "Quick Guard",
+        "Simple Beam",
+        "Sky Attack"
       ]
     },
     "bs": {
@@ -115527,7 +119744,7 @@ em_imp_primary_mons = {
         ],
         [
           28,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           32,
@@ -115758,6 +119975,23 @@ em_imp_primary_mons = {
         "Stored Power",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Future Sight",
+        "Hypnosis",
+        "Mimic",
+        "Fake Out",
+        "Trick",
+        "Confuse Ray",
+        "Wake-Up Slap",
+        "Teeter Dance",
+        "Healing Wish",
+        "Charm",
+        "Nasty Plot",
+        "Power Split",
+        "Magic Room",
+        "Icy Wind",
+        "Psychic Terrain"
       ]
     },
     "bs": {
@@ -116383,6 +120617,14 @@ em_imp_primary_mons = {
         "Power Gem",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Confuse Ray",
+        "Destiny Bond",
+        "Haze",
+        "Head Smash",
+        "Nature Power",
+        "Water Pulse"
       ]
     },
     "bs": {
@@ -116490,6 +120732,12 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Rain Dance",
         "Knock Off"
+      ],
+      "egg": [
+        "Knock Off",
+        "Parting Shot",
+        "Quick Guard",
+        "Pursuit"
       ]
     },
     "bs": {
@@ -116744,6 +120992,16 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Flare Blitz",
         "Focus Punch"
+      ],
+      "egg": [
+        "Flame Wheel",
+        "Focus Punch",
+        "Freeze-Dry",
+        "Hammer Arm",
+        "Incinerate",
+        "Power-Up Punch",
+        "Take Down",
+        "Yawn"
       ]
     },
     "bs": {
@@ -116999,6 +121257,9 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Will-O-Wisp"
+      ],
+      "egg": [
+        "Memento"
       ]
     },
     "bs": {
@@ -117110,6 +121371,17 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Steel Beam"
+      ],
+      "egg": [
+        "Astonish",
+        "Bind",
+        "Aqua Tail",
+        "Counter",
+        "Curse",
+        "Pain Split",
+        "Reflect Type",
+        "Spite",
+        "Yawn"
       ]
     },
     "bs": {
@@ -117758,6 +122030,22 @@ em_imp_primary_mons = {
         "Power Gem",
         "Psychic Fangs",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Body Slam",
+        "Burn Up",
+        "Covet",
+        "Crunch",
+        "Double-Edge",
+        "Fire Spin",
+        "Flare Blitz",
+        "Heat Wave",
+        "Howl",
+        "Iron Tail",
+        "Morning Sun",
+        "Rock Blast",
+        "Stone Edge",
+        "Thrash"
       ]
     },
     "bs": {
@@ -118592,6 +122880,17 @@ em_imp_primary_mons = {
         "Hex",
         "Phantom Force",
         "Rain Dance"
+      ],
+      "egg": [
+        "Captivate",
+        "Copycat",
+        "Counter",
+        "Detect",
+        "Memento",
+        "Shadow Ball",
+        "Shadow Sneak",
+        "Snatch",
+        "Will-O-Wisp"
       ]
     },
     "bs": {
@@ -118827,7 +123126,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           27,
@@ -118889,6 +123188,11 @@ em_imp_primary_mons = {
         "Foul Play",
         "Solar Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Leech Seed",
+        "Recycle",
+        "Worry Seed"
       ]
     },
     "bs": {
@@ -118970,7 +123274,7 @@ em_imp_primary_mons = {
         ],
         [
           24,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           27,
@@ -120504,6 +124808,16 @@ em_imp_primary_mons = {
         "Focus Punch",
         "Rain Dance",
         "Ice Punch"
+      ],
+      "egg": [
+        "Counter",
+        "Double Hit",
+        "Fake Out",
+        "Feint",
+        "Ice Punch",
+        "Pursuit",
+        "Quick Guard",
+        "Switcheroo"
       ]
     },
     "bs": {
@@ -120751,7 +125065,7 @@ em_imp_primary_mons = {
         ],
         [
           37,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           41,
@@ -120807,6 +125121,17 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Spikes"
+      ],
+      "egg": [
+        "Acid Spray",
+        "Aqua Jet",
+        "Aqua Tail",
+        "Bubble Beam",
+        "Flail",
+        "Haze",
+        "Self-Destruct",
+        "Supersonic",
+        "Water Pulse"
       ]
     },
     "bs": {
@@ -120900,7 +125225,7 @@ em_imp_primary_mons = {
         ],
         [
           37,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           41,
@@ -121185,6 +125510,12 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Trailblaze"
+      ],
+      "egg": [
+        "Leech Seed",
+        "Copycat",
+        "Sucker Punch",
+        "Petal Blizzard"
       ]
     },
     "bs": {
@@ -121526,6 +125857,12 @@ em_imp_primary_mons = {
         "Body Slam",
         "Sunny Day",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Curse",
+        "Encore",
+        "Slack Off",
+        "Belch"
       ]
     },
     "bs": {
@@ -121839,6 +126176,13 @@ em_imp_primary_mons = {
         "Surf",
         "Work Up",
         "Rain Dance"
+      ],
+      "egg": [
+        "Detect",
+        "Rapid Spin",
+        "Roost",
+        "Last Resort",
+        "Encore"
       ]
     },
     "bs": {
@@ -122159,6 +126503,20 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Spikes"
+      ],
+      "egg": [
+        "Mist",
+        "Counter",
+        "Recover",
+        "Haze",
+        "Curse",
+        "Ancient Power",
+        "Spit Up",
+        "Stockpile",
+        "Swallow",
+        "Double Kick",
+        "Acid Spray",
+        "After You"
       ]
     },
     "bs": {
@@ -122356,6 +126714,10 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Final Gambit",
+        "Memento"
       ]
     },
     "bs": {
@@ -122551,6 +126913,12 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Icicle Spear",
+        "Aqua Tail",
+        "Dragon Rush",
+        "Freeze-Dry"
       ]
     },
     "bs": {
@@ -122896,6 +127264,14 @@ em_imp_primary_mons = {
         "Phantom Force",
         "Psychic Fangs",
         "Rain Dance"
+      ],
+      "egg": [
+        "Disable",
+        "Destiny Bond",
+        "Memento",
+        "Yawn",
+        "Howl",
+        "Shadow Sneak"
       ]
     },
     "bs": {
@@ -123123,6 +127499,10 @@ em_imp_primary_mons = {
         "Wild Charge",
         "Charge Beam",
         "Rain Dance"
+      ],
+      "egg": [
+        "Muddy Water",
+        "Soak"
       ]
     },
     "bs": {
@@ -123888,6 +128268,11 @@ em_imp_primary_mons = {
         "Flame Charge",
         "Sunny Day",
         "Flare Blitz"
+      ],
+      "egg": [
+        "Disable",
+        "Spite",
+        "Destiny Bond"
       ]
     },
     "bs": {
@@ -124187,6 +128572,12 @@ em_imp_primary_mons = {
         "Power Whip",
         "Supercell Slam",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Iron Tail",
+        "Knock Off",
+        "Aqua Tail",
+        "Power Whip"
       ]
     },
     "bs": {
@@ -124281,6 +128672,13 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Dive"
+      ],
+      "egg": [
+        "Counter",
+        "Haze",
+        "Tickle",
+        "Bounce",
+        "Boomburst"
       ]
     },
     "bs": {
@@ -124526,6 +128924,13 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Steel Beam"
+      ],
+      "egg": [
+        "Toxic",
+        "Haze",
+        "Self-Destruct",
+        "Torment",
+        "Parting Shot"
       ]
     },
     "bs": {
@@ -124782,6 +129187,15 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Power Whip",
         "Spikes"
+      ],
+      "egg": [
+        "Leech Seed",
+        "Toxic",
+        "Rapid Spin",
+        "Mirror Coat",
+        "Knock Off",
+        "Tickle",
+        "Rage Powder"
       ]
     },
     "bs": {
@@ -125254,6 +129668,12 @@ em_imp_primary_mons = {
         "Thunder Fang",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "Fake Out",
+        "Mach Punch",
+        "Sweet Kiss",
+        "Wish"
       ]
     },
     "bs": {
@@ -125610,6 +130030,12 @@ em_imp_primary_mons = {
         "Stealth Rock",
         "Swords Dance",
         "Steel Beam"
+      ],
+      "egg": [
+        "Ice Hammer",
+        "Quash",
+        "Encore",
+        "Feint"
       ]
     },
     "bs": {
@@ -125969,6 +130395,10 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Curse",
+        "Endeavor"
       ]
     },
     "bs": {
@@ -126086,6 +130516,10 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Flare Blitz",
         "Rain Dance"
+      ],
+      "egg": [
+        "Curse",
+        "Endeavor"
       ]
     },
     "bs": {
@@ -126199,6 +130633,10 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Curse",
+        "Endeavor"
       ]
     },
     "bs": {
@@ -126625,7 +131063,7 @@ em_imp_primary_mons = {
         ],
         [
           21,
-          "Thunderpunch"
+          "Thunder Punch"
         ],
         [
           28,
@@ -127356,6 +131794,13 @@ em_imp_primary_mons = {
         "Play Rough",
         "Sunny Day",
         "Rain Dance"
+      ],
+      "egg": [
+        "After You",
+        "Bite",
+        "Feint",
+        "Switcheroo",
+        "Tickle"
       ]
     },
     "bs": {
@@ -127579,6 +132024,13 @@ em_imp_primary_mons = {
         "Body Slam",
         "Rain Dance",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Belly Drum",
+        "Entrainment",
+        "Icicle Crash",
+        "Superpower",
+        "Yawn"
       ]
     },
     "bs": {
@@ -127798,6 +132250,14 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Poison Fang"
+      ],
+      "egg": [
+        "Copycat",
+        "Cross Poison",
+        "Super Fang",
+        "Swagger",
+        "Toxic",
+        "Parting Shot"
       ]
     },
     "bs": {
@@ -128903,6 +133363,10 @@ em_imp_primary_mons = {
         "Bulk Up",
         "Swords Dance",
         "Blaze Kick"
+      ],
+      "egg": [
+        "Quick Guard",
+        "Sky Attack"
       ]
     },
     "bs": {
@@ -129031,7 +133495,7 @@ em_imp_primary_mons = {
     ],
     "gr": 5,
     "abilities": [
-      "Sword of Ruin",
+      "Sword Of Ruin",
       "None",
       "None"
     ]
@@ -129156,7 +133620,7 @@ em_imp_primary_mons = {
     ],
     "gr": 5,
     "abilities": [
-      "Tablets of Ruin",
+      "Tablets Of Ruin",
       "None",
       "None"
     ]
@@ -129272,7 +133736,7 @@ em_imp_primary_mons = {
     ],
     "gr": 5,
     "abilities": [
-      "Vessel of Ruin",
+      "Vessel Of Ruin",
       "None",
       "None"
     ]
@@ -129390,7 +133854,7 @@ em_imp_primary_mons = {
     ],
     "gr": 5,
     "abilities": [
-      "Beads of Ruin",
+      "Beads Of Ruin",
       "None",
       "None"
     ]
@@ -129467,6 +133931,13 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Endeavor",
+        "Spit Up",
+        "Stockpile",
+        "Stuff Cheeks",
+        "Swallow"
       ]
     },
     "bs": {
@@ -129924,6 +134395,12 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Power Gem",
         "Rain Dance"
+      ],
+      "egg": [
+        "Ancient Power",
+        "Crabhammer",
+        "Endeavor",
+        "Knock Off"
       ]
     },
     "bs": {
@@ -130022,6 +134499,11 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Smack Down",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Ancient Power",
+        "Curse",
+        "Power Gem"
       ]
     },
     "bs": {
@@ -130369,6 +134851,12 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Rain Dance",
         "Spikes"
+      ],
+      "egg": [
+        "First Impression",
+        "Lunge",
+        "Memento",
+        "Sucker Punch"
       ]
     },
     "bs": {
@@ -130606,6 +135094,10 @@ em_imp_primary_mons = {
         "Bug Buzz",
         "Trailblaze",
         "Rain Dance"
+      ],
+      "egg": [
+        "Skitter Smack",
+        "Counter"
       ]
     },
     "bs": {
@@ -130829,6 +135321,13 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Psychic Fangs",
         "Rain Dance"
+      ],
+      "egg": [
+        "Copycat",
+        "Howl",
+        "Sweet Scent",
+        "Wish",
+        "Yawn"
       ]
     },
     "bs": {
@@ -131040,6 +135539,12 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Psychic Fangs",
         "Rain Dance"
+      ],
+      "egg": [
+        "Destiny Bond",
+        "Endeavor",
+        "Play Rough",
+        "Retaliate"
       ]
     },
     "bs": {
@@ -131238,6 +135743,12 @@ em_imp_primary_mons = {
         "Bug Bite",
         "Iron Defense",
         "Bug Buzz"
+      ],
+      "egg": [
+        "Cosmic Power",
+        "Memento",
+        "Recover",
+        "Weather Ball"
       ]
     },
     "bs": {
@@ -131465,6 +135976,13 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Trailblaze",
         "Solar Blade"
+      ],
+      "egg": [
+        "Ingrain",
+        "Leech Seed",
+        "Rage Powder",
+        "Rollout",
+        "Worry Seed"
       ]
     },
     "bs": {
@@ -131688,6 +136206,14 @@ em_imp_primary_mons = {
         "Flash",
         "Charge Beam",
         "Tailwind"
+      ],
+      "egg": [
+        "Endeavor",
+        "Feather Dance",
+        "Weather Ball",
+        "Spit Up",
+        "Stockpile",
+        "Swallow"
       ]
     },
     "bs": {
@@ -131903,6 +136429,10 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Water Pulse",
         "Draco Barrage"
+      ],
+      "egg": [
+        "Counter",
+        "Rapid Spin"
       ]
     },
     "bs": {
@@ -132016,6 +136546,11 @@ em_imp_primary_mons = {
         "Spikes",
         "Steel Beam",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Coil",
+        "Curse",
+        "Metal Burst"
       ]
     },
     "bs": {
@@ -132112,6 +136647,10 @@ em_imp_primary_mons = {
         "Psychic Fangs",
         "Rain Dance",
         "Water Pulse"
+      ],
+      "egg": [
+        "Recover",
+        "Thrash"
       ]
     },
     "bs": {
@@ -132218,6 +136757,11 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Dive",
         "Heavy Slam"
+      ],
+      "egg": [
+        "Curse",
+        "Thrash",
+        "Yawn"
       ]
     },
     "bs": {
@@ -132337,6 +136881,13 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Sandstorm",
         "Rain Dance"
+      ],
+      "egg": [
+        "Feather Dance",
+        "Power Trip",
+        "Roost",
+        "Sky Attack",
+        "Sucker Punch"
       ]
     },
     "bs": {
@@ -132400,7 +136951,7 @@ em_imp_primary_mons = {
         ],
         [
           29,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           33,
@@ -132441,6 +136992,11 @@ em_imp_primary_mons = {
         "Rain Dance",
         "Smack Down",
         "Spikes"
+      ],
+      "egg": [
+        "Explosion",
+        "Memento",
+        "Toxic"
       ]
     },
     "bs": {
@@ -132526,7 +137082,7 @@ em_imp_primary_mons = {
         ],
         [
           29,
-          "Self Destruct"
+          "Self-Destruct"
         ],
         [
           33,
@@ -132681,6 +137237,12 @@ em_imp_primary_mons = {
         "Tailwind",
         "Foul Play",
         "Sunny Day"
+      ],
+      "egg": [
+        "Double-Edge",
+        "Final Gambit",
+        "Flatter",
+        "Parting Shot"
       ]
     },
     "bs": {
@@ -132791,6 +137353,13 @@ em_imp_primary_mons = {
         "Trailblaze",
         "Power Whip",
         "Spikes"
+      ],
+      "egg": [
+        "Beat Up",
+        "Block",
+        "Leech Seed",
+        "Shadow Sneak",
+        "Strength Sap"
       ]
     },
     "bs": {
@@ -133009,6 +137578,12 @@ em_imp_primary_mons = {
         "Sunny Day",
         "Solar Beam",
         "Trailblaze"
+      ],
+      "egg": [
+        "Memento",
+        "Strength Sap",
+        "Synthesis",
+        "Weather Ball"
       ]
     },
     "bs": {
@@ -133563,6 +138138,10 @@ em_imp_primary_mons = {
         "Sandstorm",
         "Rain Dance",
         "Pluck"
+      ],
+      "egg": [
+        "Roost",
+        "Hypnosis"
       ]
     },
     "bs": {
@@ -135967,9 +140546,9 @@ em_imp_primary_mons = {
     ],
     "gr": 3,
     "abilities": [
-      "Oraoraoraora",
-      "Oraoraoraora",
-      "Oraoraoraora"
+      "ORAORAORAORA",
+      "ORAORAORAORA",
+      "ORAORAORAORA"
     ]
   },
   "Slowbro-Mega": {

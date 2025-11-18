@@ -457,12 +457,15 @@ function get_current_learnset() {
     var pok_name = createPokemon($("#p1")).name
     if (pok_name.includes("-Mega")) {
         pok_name = pok_name.split("-Mega")[0]
-    } 
-
+    } else if (pok_name.includes("-Primal")) {
+         pok_name = pok_name.split("-Primal")[0]
+    }
     if (pok_name.includes("Ogerpon")) {
         pok_name = "Ogerpon"
     }
-    current_learnset = learnsets[pok_name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]
+
+    console.log(pok_name)
+    current_learnset = em_imp_primary_mons[pok_name]
     
     if (!current_learnset || !TITLE.includes("1.3")) {
         // $("#learnset-show").hide()
@@ -471,11 +474,13 @@ function get_current_learnset() {
         $("#learnset-show").show()
     }
 
+    current_learnset = current_learnset["learnset_info"]
+
     var ls_html = ""
 
-    for (let i = 0; i < current_learnset["ls"].length; i++) {
-        var lvl = current_learnset["ls"][i][0]
-        var mv_name = current_learnset["ls"][i][1]
+    for (let i = 0; i < current_learnset["learnset"].length; i++) {
+        var lvl = current_learnset["learnset"][i][0]
+        var mv_name = current_learnset["learnset"][i][1]
         ls_html += `<div class='ls-row'><div class='ls-level'>${lvl}</div><div class='ls-name'>${mv_name}</div></div>`
     }
     $(".lvl-up-moves").html(ls_html)
@@ -497,13 +502,20 @@ function get_current_learnset() {
 
             tm_html += `<div class='ls-row ${isLegal ? '' : 'illegal'}'><div class='ls-level'>${tm_index}</div><div class='ls-name'>${mv_name}</div></div>`
         }
-    }
-    
+    }    
     $(".tms").html(tm_html)
     sortTms()
 
-    let evo_html = ""
+    var egg_html = ""
+    if (current_learnset["egg"]) {
+        for (let i = 0; i < current_learnset["egg"].length; i++) {
+            var mv_name = current_learnset["egg"][i]
+            egg_html += `<div class='ls-row'><div class='ls-name'>${mv_name}</div></div>`
+        }
+    } 
+    $(".egg").html(egg_html)
 
+    let evo_html = ""
     if (em_imp_primary_mons[pok_name] && em_imp_primary_mons[pok_name]["evos"]) {
         let evos = em_imp_primary_mons[pok_name]["evos"]
 

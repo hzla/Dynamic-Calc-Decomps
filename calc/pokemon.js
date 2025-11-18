@@ -112,18 +112,18 @@ var Pokemon = (function () {
         let pool = []
         let moveObjs = []
 
-        let speciesId = this.species.id
+        let speciesId = this.name
 
         if (this.name.includes("-Mega")) {
-            speciesId = this.species.id.split("mega")[0]
+            speciesId = this.name.split("-Mega")[0]
         } 
            
-        if (typeof learnsets[speciesId] === 'undefined' || typeof learnsets[speciesId].ls === 'undefined') {
+        if (typeof em_imp_primary_mons[speciesId] === 'undefined' || typeof em_imp_primary_mons[speciesId].learnset_info === 'undefined') {
             return this.moves
         }
 
         // Legal tms are defined when a user uploads a .sav file
-        for (var tm of learnsets[speciesId].tms) {
+        for (var tm of em_imp_primary_mons[speciesId].learnset_info.tms) {
             if (typeof localStorage.legalTms != 'undefined') {
                 let legalTms = localStorage.legalTms.split(",")
 
@@ -135,10 +135,19 @@ var Pokemon = (function () {
             }       
         }
 
-        for (var ls of learnsets[speciesId].ls) {
+        for (var ls of em_imp_primary_mons[speciesId].learnset_info.learnset) {
+            console.log(ls[1])
             if (this.level >= ls[0]) {
                 pool.push(ls[1])
             } 
+        }
+
+        if (this.level > 71) {
+            if (em_imp_primary_mons[this.name].learnset_info.egg) {
+                for (var eggMove of em_imp_primary_mons[this.name]["learnset_info"]["egg"]) {
+                    pool.push(eggMove)
+                }
+            }
         }
 
         pool = [...new Set(pool)]
