@@ -217,7 +217,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         }
 
         // OHKO means revenge killer
-        if (turnsToKill == 1) {
+        if (damage[0] > attacker.originalCurHP) {
             isRevenge = true
 
             if (move.priority) {
@@ -228,7 +228,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         }
 
         // 2hko means threatener
-        if (turnsToKill == 2) {
+        if (damage[0] > attacker.originalCurHP / 2) {
             isThreaten = true
 
             if (move.priority && defenderFastestKill >= 2) {
@@ -618,7 +618,7 @@ function get_next_in() {
                     switchInScore += 9000 
                     analysis += `<div class='bp-info switch-info'>Fast 2Hko ${matchup.move}</div>` 
                 // slow 2hko
-                } else if (matchup.isThreaten && matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
+                } else if (matchup.isThreaten && !matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
                     switchInScore += sub_index
                     switchInScore += 8500
                     analysis += `<div class='bp-info switch-info'>Slow 2Hko ${matchup.move}</div>` 

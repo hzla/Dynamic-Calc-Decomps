@@ -879,6 +879,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         
         desc.attackerAbility = attacker.ability;
     }
+
     if (field.attackerSide.isBattery && move.category === 'Special') {
         bpMods.push(5325);
         desc.isBattery = true;

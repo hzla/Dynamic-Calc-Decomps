@@ -507,12 +507,18 @@ function get_current_learnset() {
     sortTms()
 
     var egg_html = ""
-    if (current_learnset["egg"]) {
-        for (let i = 0; i < current_learnset["egg"].length; i++) {
-            var mv_name = current_learnset["egg"][i]
-            egg_html += `<div class='ls-row'><div class='ls-name'>${mv_name}</div></div>`
-        }
-    } 
+
+    var eggData = []
+    if (evoData[pok_name] && evoData[pok_name].anc) {
+        eggData = em_imp_primary_mons[evoData[pok_name].anc]["learnset_info"]["egg"]
+    }
+    console.log(evoData[pok_name])
+
+    for (let i = 0; i < eggData.length; i++) {
+        var mv_name = eggData[i]
+        egg_html += `<div class='ls-row'><div class='ls-name'>${mv_name}</div></div>`
+    }
+
     $(".egg").html(egg_html)
 
     let evo_html = ""
