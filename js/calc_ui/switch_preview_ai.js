@@ -645,10 +645,6 @@ function get_next_in() {
                 }
             }
 
-   
-
-
-
             if (switchInScore == 0) {
                 switchInScore += sub_index / 100
             }

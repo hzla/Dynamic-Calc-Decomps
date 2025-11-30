@@ -465,6 +465,7 @@ function get_current_learnset() {
     }
 
     console.log(pok_name)
+    pok_name = pok_name.replaceAll("é", "é")
     current_learnset = em_imp_primary_mons[pok_name]
     
     if (!current_learnset || !TITLE.includes("1.3")) {
@@ -509,11 +510,10 @@ function get_current_learnset() {
     var egg_html = ""
 
     var eggData = []
-    if (evoData[pok_name] && evoData[pok_name].anc) {
+    if (evoData[pok_name] && evoData[pok_name].anc && em_imp_primary_mons[evoData[pok_name].anc]["learnset_info"]["egg"]) {
         eggData = em_imp_primary_mons[evoData[pok_name].anc]["learnset_info"]["egg"]
     }
-    console.log(evoData[pok_name])
-
+    
     for (let i = 0; i < eggData.length; i++) {
         var mv_name = eggData[i]
         egg_html += `<div class='ls-row'><div class='ls-name'>${mv_name}</div></div>`
