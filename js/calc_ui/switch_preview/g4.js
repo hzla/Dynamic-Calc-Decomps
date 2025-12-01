@@ -2,10 +2,7 @@ function get_next_in_g4() {
     if (typeof CURRENT_TRAINER_POKS === "undefined") {
         return
     }
-
     var ranked_trainer_poks = []
-    
-
     var trainer_poks = CURRENT_TRAINER_POKS
     var trainer_poks_copy = JSON.parse(JSON.stringify(trainer_poks))
     var player_type1 = $('.type1').first().val()
@@ -18,7 +15,6 @@ function get_next_in_g4() {
 
     // get type chart
     var type_info = get_type_info([player_type1, player_type2])
-    // console.log(type_info)
 
     // get mons with SE moves and sort by type matchup and trainer order
     var se_mons = []
@@ -46,8 +42,6 @@ function get_next_in_g4() {
         }
         var type1 = pokedex[pok_name]["types"][0]
         var type2 = pokedex[pok_name]["types"][1] || type1
-
-
 
         var pok_data = SETDEX_BW[pok_name][tr_name]
         var sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
@@ -84,14 +78,8 @@ function get_next_in_g4() {
         }
         var full_immune = (effectiveness == 0)
 
-        if (full_immune) {
-            console.log(trainer_poks[i])
-        }
-
         // check moves for SE
         var isSE = false
-
-   
 
         for (j in pok_data["moves"]) {
             var mov_name = pok_data["moves"][j]
@@ -103,18 +91,18 @@ function get_next_in_g4() {
                 mov_data["type"] = plate_type
             }
 
-            // if (!mov_data || mov_name == "Curse") {
-            //     continue
-            // }
-
+            // Curse can't be supereffective against anything
+            if (!mov_data || mov_name == "Curse") {
+                continue
+            }
 
             if (!invert && mov_data) {
 
-                if (damageGen == 4 && mov_data["type"] == "Ground" && "Skarmory,Aerodactyl,Zapdos,Crobat,Moltres".includes(player_pok)){
+                if (mov_data["type"] == "Ground" && "Skarmory,Aerodactyl,Zapdos,Crobat,Moltres".includes(player_pok)){
                     isSE = true
                 }
 
-                if (damageGen == 4 && mov_data["type"] == "Electric" && "Gastrodon,Swampert,Whishcash,Quagsire,Marshtomp".includes(player_pok)){
+                if (mov_data["type"] == "Electric" && "Gastrodon,Swampert,Whishcash,Quagsire,Marshtomp".includes(player_pok)){
                     isSE = true
                 }
 
@@ -126,7 +114,7 @@ function get_next_in_g4() {
                     isSE = true
                 }
 
-                if (damageGen == 4 && player_pok == "Girafarig" && mov_data["type"] == "Ghost") {
+                if (player_pok == "Girafarig" && mov_data["type"] == "Ghost") {
                     isSE = true
                 }
 
@@ -134,7 +122,6 @@ function get_next_in_g4() {
                     isSE = true
                 }           
             }
-
 
             if (p1.ability == 'Levitate' && mov_data["type"] == "Ground") {
                 isSE = false
@@ -148,7 +135,7 @@ function get_next_in_g4() {
         }
     }
 
-    // sort rest of mons by using other mons moves with current mon stats
+    // Phase 2: sort rest of mons by using other mons moves with current mon stats
     var other_mons = []
 
     var currentHp = parseInt($('.max-hp').first().text())
@@ -191,15 +178,10 @@ function get_next_in_g4() {
             if (typeof results[n].damage === 'number') {
                 dmg = results[n].damage % 255
             } else {
-                if (results[n].move.name == "Zen Headbutt" || results[n].move.name == "Meteor Mash") {
-                    console.log(`${results[n].move.name} ${results[n].damage}`)
-                }
-                
-
-
                 dmg = results[n].damage[results[n].damage.length - 1] % 255
             }
 
+            // correct for doubling dmg when slower moves
             if (["Avalanche", "Payback", "Assurance"].includes(results[n].move.name) && results[n].attacker.rawStats.spe < results[n].defender.rawStats.spe) {
                 dmg = dmg / 2
             }

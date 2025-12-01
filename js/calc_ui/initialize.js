@@ -116,32 +116,6 @@ $(document).ready(function() {
             onLoad: (src) => {
                 npoint_data = backup_data
                 loadDataSource(npoint_data)
-
-                // loadDefaultLists();
-                // $(".move-selector").select2({
-                //   dropdownAutoWidth: true,
-                //   matcher: function (term, text) {
-                //     return text.toUpperCase().indexOf(term.toUpperCase()) === 0 || text.toUpperCase().indexOf(" " + term.toUpperCase()) >= 0;
-                //   }
-                // });
-
-                
-   
-              // setTimeout(function() {
-              //   if (localStorage["left"]) {
-              //       $(`[data-id='${localStorage["left"]}']`).click()
-              //   }    
-
-              //   if (localStorage["right"]) {
-              //     var set = localStorage["right"]
-              //     $('.opposing').val(set)
-              //     $('.opposing').change()
-              //     $('.opposing .select2-chosen').text(set)
-              //     if ($('.info-group.opp > * > .forme').is(':visible')) {
-              //         $('.info-group.opp > * > .forme').change()
-              //     }
-              //   }         
-              // }, 20)
             },
             onNotFound: (src) => console.log(`Not found: ${src}`)
     });    
