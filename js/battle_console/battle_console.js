@@ -9,13 +9,9 @@ $(document).ready(function() {
 
             }
             
-            $('.notes-text').hide()
             $('.battle-console').show()
-            $(this).text("Battle Console")
         } else {
-            $('.notes-text').show()
             $('.battle-console').hide()
-            $(this).text("Battle Notes")
         }
     })
 
