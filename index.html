@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?2f51c9698" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?2f51c9699" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
     <link type="text/css" rel="stylesheet" href="./css/settings-ui.css?2f51c971" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css?1" />
@@ -990,16 +990,7 @@
                         <input class="visually-hidden calc-trigger" type="radio" name="weather" value="Strong Winds" id="strong-winds" />
                         <label class="btn btn-xxxwide btn-right" for="strong-winds">Strong Winds</label>
                     </div>
-                    <div class="gen-specific g5 g6 g7 g8 g9" style="width: 22.2em; margin: 5px auto; display: inline-block;">
-                        <span hidden id="magicRoomInstruction">Is Magic Room in effect?</span>
-                        <span hidden id="wonderRoomInstruction">Is Wonder Room in effect?</span>
-                        <input aria-describedby="magicRoomInstruction" class="visually-hidden calc-trigger" type="checkbox" id="magicroom" />
-                        <label class="btn btn-xxxwide btn-left" for="magicroom">Magic Room</label>
-                        <input aria-describedby="wonderRoomInstruction" class="visually-hidden calc-trigger" type="checkbox" id="wonderroom" />
-                        <label class="btn btn-xxxwide btn-right" for="wonderroom">Wonder Room</label>
-<!--                         <input aria-describedby="inverseInstruction" class="visually-hidden calc-trigger" type="checkbox" id="inverse">
-                        <label class="btn btn-xxxwide btn-right" for="inverse">Inverse</label> -->
-                    </div>
+
 <!--                     <div class="gen-specific g4 g5 g6 g7 g8 g9" style="width: 5.3em; margin: 5px auto;" title="Is gravity in effect?">
                         <span hidden id="gravityInstruction">Is gravity in effect?</span>
                         <input aria-describedby="gravityInstruction" class="visually-hidden calc-trigger" type="checkbox" id="gravity" />
@@ -1032,7 +1023,23 @@
                 
                 <div id="toggle-additional-field-options">Show More</div>
                 <div id="additional-field-options">
-
+                    <div class="gen-specific g5 g6 g7 g8 g9" style="width: 22.2em; margin: 5px auto; display: inline-block;">
+                        <span hidden id="magicRoomInstruction">Is Magic Room in effect?</span>
+                        <span hidden id="wonderRoomInstruction">Is Wonder Room in effect?</span>
+                        <input aria-describedby="magicRoomInstruction" class="visually-hidden calc-trigger" type="checkbox" id="magicroom" />
+                        <label class="btn btn-xxxwide btn-left" for="magicroom">Magic Room</label>
+                        <input aria-describedby="wonderRoomInstruction" class="visually-hidden calc-trigger" type="checkbox" id="wonderroom" />
+                        <label class="btn btn-xxxwide btn-right" for="wonderroom">Wonder Room</label>
+<!--                         <input aria-describedby="inverseInstruction" class="visually-hidden calc-trigger" type="checkbox" id="inverse">
+                        <label class="btn btn-xxxwide btn-right" for="inverse">Inverse</label> -->
+                    </div>
+                  <div class="gen-specific g9 g8 ruin-group" style="width: 21em; margin: 5px auto;" title="Select the current active Ruin abilities.">
+                        <input class="btn-input calc-trigger visually-hidden" type="checkbox" name="ruin" value="Tablets of Ruin" id="tablets-of-ruin"><label class="btn btn-xxxxwide btn-left" for="tablets-of-ruin">Tablets of Ruin <u>(-Atk)</u></label>
+                        <input class="btn-input calc-trigger visually-hidden" type="checkbox" name="ruin" value="Vessel of Ruin" id="vessel-of-ruin"><label class="btn btn-xxxxwide btn-right" for="vessel-of-ruin">Vessel of Ruin <u>(-SpA)</u></label>
+                        <br>
+                        <input class="btn-input calc-trigger visually-hidden" type="checkbox" name="ruin" value="Sword of Ruin" id="sword-of-ruin"><label class="btn btn-xxxxwide btn-left" for="sword-of-ruin">Sword of Ruin <u>(-Def)</u></label>
+                        <input class="btn-input calc-trigger visually-hidden" type="checkbox" name="ruin" value="Beads of Ruin" id="beads-of-ruin"><label class="btn btn-xxxxwide btn-right" for="beads-of-ruin">Beads of Ruin <u>(-SpD)</u></label>
+                    </div>
                   <table class="field">
                     <thead>
                         <tr>
@@ -1968,7 +1975,7 @@
     <script type="text/javascript" src="./calc/move.js?de87e36d"></script>
     
     <script type="text/javascript" src="./calc/pokemon.js?59377ee6"></script>
-    <script type="text/javascript" src="./calc/field.js?51ae3fda"></script>
+    <script type="text/javascript" src="./calc/field.js?51ae3fdb"></script>
     <script type="text/javascript" src="./calc/items.js?6c1bfef3"></script>
     <script type="text/javascript" src="./calc/mechanics/util.js?13c1ef48"></script>
     <script type="text/javascript" src="./calc/mechanics/gen789.js?b5cb13ce"></script>
@@ -1981,7 +1988,7 @@
     <script type="text/javascript" src="./calc/result.js?d5c7552c"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?0b3ea09c"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?0b3ea09d"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?3375d6f1"></script>
     <script type="text/javascript" src="./js/moveset_import.js?a707186"></script>
     <script type="text/javascript" src="./js/frags.js?100013"></script>

@@ -1309,6 +1309,10 @@ function createField() {
 	var isMagicRoom = $("#magicroom").prop("checked");
 	var isWonderRoom = $("#wonderroom").prop("checked");
 	var isGravity = $("#gravity").prop("checked");
+	var isTabletsOfRuin = $('#tablets-of-ruin').prop("checked");
+	var isBeadsOfRuin = $('#beads-of-ruin').prop("checked");
+	var isVesselOfRuin = $('#vessel-of-ruin').prop("checked");
+	var isSwordOfRuin = $('#sword-of-ruin').prop("checked");
 	var isSR = [$("#srL").prop("checked"), $("#srR").prop("checked")];
 	var weather;
 	var spikes;
@@ -1365,6 +1369,7 @@ function createField() {
 	// console.log(is10Buff)
 	return new calc.Field({
 		gameType: gameType, weather: weather, terrain: terrain, isMagicRoom: isMagicRoom, isWonderRoom: isWonderRoom, isGravity: isGravity,
+		isTabletsOfRuin: isTabletsOfRuin, isBeadsOfRuin: isBeadsOfRuin, isVesselOfRuin: isVesselOfRuin, isSwordOfRuin: isSwordOfRuin,
 		attackerSide: createSide(0), defenderSide: createSide(1)
 	});
 }

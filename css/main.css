@@ -457,6 +457,12 @@ input {
     font-size: 20px;
     line-height: 30px;
 } 
+
+.btn.btn-xxxxwide {
+    height:  30px;
+    line-height: 30px;
+    width: 180px;
+} 
 #damageValues {
     font-size: 15px;
 }

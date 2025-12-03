@@ -26,6 +26,11 @@ var Field = (function () {
         this.isMagicRoom = !!field.isMagicRoom;
         this.isWonderRoom = !!field.isWonderRoom;
         this.isGravity = !!field.isGravity;
+        this.isTabletsOfRuin = !!field.isTabletsOfRuin;
+        this.isVesselOfRuin = !!field.isVesselOfRuin;
+        this.isBeadsOfRuin = !!field.isBeadsOfRuin;
+        this.isSwordOfRuin = !!field.isSwordOfRuin;
+
         this.isAuraBreak = field.isAuraBreak || false;
         this.isInverseBattle = !!field.isInverseBattle;
         this.isFairyAura = field.isFairyAura || false;
@@ -65,7 +70,11 @@ var Field = (function () {
             defenderSide: this.defenderSide,
             isAuraBreak: this.isAuraBreak,
             isDarkAura: this.isDarkAura,
-            isFairyAura: this.isFairyAura
+            isFairyAura: this.isFairyAura,
+            isTabletsOfRuin: this.isTabletsOfRuin,
+            isBeadsOfRuin: this.isBeadsOfRuin,
+            isVesselOfRuin: this.isVesselOfRuin,
+            isSwordOfRuin: this.isSwordOfRuin,
         });
     };
     return Field;
