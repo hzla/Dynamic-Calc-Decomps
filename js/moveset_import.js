@@ -579,7 +579,7 @@ function statToLegacyStat(stat) {
 	case 'def':
 		return "df";
 	case 'spa':
-		if (damageGen == 1) {
+		if (settings.damageGen == 1) {
 			return "sl";
 		}
 		return "sa";

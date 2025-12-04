@@ -331,12 +331,12 @@ function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false
             return {"killers": killers, "defenders": defenders, "faster": faster, "baiters": baiters}  
         }
         
-        var all_results = memoizedCalc(damageGen, p1, p1field, mon, p2field, false);
+        var all_results = memoizedCalc(settings.damageGen, p1, p1field, mon, p2field, false);
         var opposing_results = all_results[0]
         var player_results = all_results[1]
 
         if (dealtMinRoll) {
-            player_results = calculateLeftMoves(damageGen, mon, p1field, p1, p2field)[0];
+            player_results = calculateLeftMoves(settings.damageGen, mon, p1field, p1, p2field)[0];
         }
 
         var defend_count = 0

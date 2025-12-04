@@ -1,6 +1,6 @@
 // Generic Utility Functoins
 
-function cleanString(str) {str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()};
+function cleanString(str) {return str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()};
 
 const FNV_OFFSET = 0x811c9dc5;
 const FNV_PRIME  = 0x01000193;
@@ -223,7 +223,7 @@ function construct_type_chart() {
              "Fighting", "Poison", "Ground", "Flying", "Psychic",
              "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy","???"]
 
-    var types = TYPES_BY_ID[type_chart]
+    var types = TYPES_BY_ID[settings.type_chart]
     var chart = []
 
     for (i = 0; i < type_names.length; i++) {
@@ -274,7 +274,7 @@ function get_type_info(pok_types, move=false) {
                 [1, 0.5, 1, 1, 1, 1, 2, 0.5, 1, 1, 1, 1, 1, 1, 2, 2, 0.5, 1,1],
                 [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
 
-        if (type_chart < 6) {
+        if (settings.type_chart < 6) {
             types[13][16] = 0.5
             types[15][16] = 0.5
         } else {
@@ -295,27 +295,8 @@ function get_type_info(pok_types, move=false) {
     var type2 = type_name.indexOf(pok_types[1])
 
 
-    for (i in types) {
-        if (invert) {
-            if (type1 == -1) {
-                return result
-            }
-            
-            var matchup1 = types[i][type1]
-            var matchup2 = types[i][type2]
-
-            if (matchup1 == 0) {
-                matchup1 = 0.5
-            }
-
-            if (matchup2 == 0) {
-                matchup2 = 0.5
-            }
-            result[type_name[i]] = (1 / (matchup1 * matchup2))
-        } else {
-          
-          result[type_name[i]] = (types[i][type1] * types[i][type2])  
-        }   
+    for (i in types) {    
+      result[type_name[i]] = (types[i][type1] * types[i][type2])  
     }
     return result
 }

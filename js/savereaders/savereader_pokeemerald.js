@@ -331,7 +331,7 @@ if (TITLE.includes("Imperium")) {
                             evs[5] = ((int2 >> 8) & 0xFF)
 
                             // skip if pokemon has evs and evs are turned off
-                            if (evs[0] +  evs[1] +  evs[2] +  evs[3] +  evs[4] +  evs[5] > 0 && !hasEvs) {
+                            if (evs[0] +  evs[1] +  evs[2] +  evs[3] +  evs[4] +  evs[5] > 0 && !settings.hasEvs) {
                                 offset = lastFoundAt + 2
                                 continue
                             }
@@ -453,7 +453,7 @@ if (TITLE.includes("Imperium")) {
                             showdownText += `Level: ${level}\n`
                             showdownText += `${monNature} Nature\n`
 
-                            if (hasEvs) {
+                            if (settings.hasEvs) {
                                 showdownText += `EVs: ${evs[0]} HP / ${evs[1]} Atk / ${evs[2]} Def / ${evs[3]} Spe / ${evs[4]} SpA / ${evs[5]} SpD\n`
                             }
                             showdownText += `IVs: ${ivs[0]} HP / ${ivs[1]} Atk / ${ivs[2]} Def / ${ivs[3]} Spe / ${ivs[4]} SpA / ${ivs[5]} SpD\n`

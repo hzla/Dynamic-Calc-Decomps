@@ -559,16 +559,7 @@ var parallelEm = (0, util_1.extend)(true, {}, GSC, {
 var SM = XY;
 var SS = SM;
 
-if (type_mod == "plat_redux") {
-    DPP = platRedux
-}
-
-if (type_mod == "par_em") {
-    SS = parallelEm
-}
-
-
-if (type_chart >= 6) {
+if (settings.type_chart >= 6) {
     BW = XY
     DPP = XY
     ADV = XY

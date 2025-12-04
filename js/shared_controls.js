@@ -836,7 +836,7 @@ $(".set-selector").change(function () {
 			
 
 
-			if (hasEvs) {
+			if (settings.hasEvs) {
 				pokeObj.find(".hp .evs").val((set.evs && set.evs.hp !== undefined) ? set.evs.hp : 0);
 			}
 
@@ -846,7 +846,7 @@ $(".set-selector").change(function () {
 			pokeObj.find(".hp .dvs").val((set.dvs && set.dvs.hp !== undefined) ? set.dvs.hp : 15);
 			for (i = 0; i < LEGACY_STATS[gen].length; i++) {
 				
-				if (hasEvs) {
+				if (settings.hasEvs) {
 					pokeObj.find("." + LEGACY_STATS[gen][i] + " .evs").val(
 					(set.evs && set.evs[LEGACY_STATS[gen][i]] !== undefined) ?
 						set.evs[LEGACY_STATS[gen][i]] : ($("#randoms").prop("checked") ? 84 : 0));
@@ -1457,22 +1457,21 @@ $(".gen").change(function () {
 	/*eslint-disable */
 	gen = ~~$(this).val() || 8;
 	GENERATION = calc.Generations.get(gen);
-	var params = new URLSearchParams(window.location.search);
-	if (gen === 8) {
-		// params.delete('gen');
-		// params = '' + params;
-		// if (window.history && window.history.replaceState) {
-		// 	window.history.replaceState({}, document.title, window.location.pathname + (params.length ? '?' + params : ''));
-		// }
-	} else {
-		params.set('gen', gen);
-		if (window.history && window.history.pushState) {
-			params.sort();
-			var path = window.location.pathname + '?' + params;
-			window.history.pushState({}, document.title, path);
-			gtag('config', 'UA-26211653-3', {'page_path': path});
-		}
-	}
+	// if (gen === 8) {
+	// 	// params.delete('gen');
+	// 	// params = '' + params;
+	// 	// if (window.history && window.history.replaceState) {
+	// 	// 	window.history.replaceState({}, document.title, window.location.pathname + (params.length ? '?' + params : ''));
+	// 	// }
+	// } else {
+	// 	params.set('gen', gen);
+	// 	if (window.history && window.history.pushState) {
+	// 		params.sort();
+	// 		var path = window.location.pathname + '?' + params;
+	// 		window.history.pushState({}, document.title, path);
+	// 		gtag('config', 'UA-26211653-3', {'page_path': path});
+	// 	}
+	// }
 	genWasChanged = true;
 	/* eslint-enable */
 	// declaring these variables with var here makes z moves not work; TODO
@@ -1853,42 +1852,17 @@ function loadCustomList(id) {
 	});
 }
 
-var params = new URLSearchParams(window.location.search);
-var g = params.get('gen') || 8;
-damageGen = parseInt(params.get('dmgGen')) || 8
-type_chart = parseInt(params.get('types')) || 6
-switchIn = parseInt(params.get('switchIn'))
-challengeMode = params.get('challengeMode')
+
+var g = settings.gen
 
 $(document).ready(function () {
 	
 
-	if (!damageGen) {
-		damageGen = Math.min(parseInt(g),5)
+	if (!settings.damageGen) {
+		settings.damageGen = Math.min(parseInt(g),5)
 	} 
 
-	if (!type_chart) {
-		type_chart = 6
-	}
-
-	if (!switchIn) {
-		switchIn = 5
-	}
-
-	if (TITLE.includes("1.3")) {
-        // $(document).on('mouseover', '.trainer-pok-container', function() {
-        //     var trpok_index = $(this).index()
-            
-        //     reasoning = ranked_trainer_poks[trpok_index][5]
-
-        //     $('#reasoning').html(reasoning)
-        // })
-   }
-
-
-    
-
-	if (damageGen <= 5 && switchIn < 10 && TITLE != "Platinum Redux 2.6" || TITLE.includes("Lumi")) {
+	if (settings.damageGen <= 5 && settings.switchIn < 10 && TITLE != "Platinum Redux 2.6" || TITLE.includes("Lumi")) {
 		trainerSprites = "front"
 		playerSprites = "back"
 		suffix = "gif"
@@ -1898,7 +1872,7 @@ $(document).ready(function () {
 		$('.poke-sprite').css('background', 'none')
 		suffix = "gif"
 	}
-	console.log(`Initializing Calc with moves from gen ${g} and mechanics from gen ${damageGen}`)
+	console.log(`Initializing Calc with moves from gen ${g} and mechanics from gen ${settings.damageGen}`)
 	$("#gen" + g).prop("checked", true);
 	$("#gen" + g).change();
 	$("#percentage").prop("checked", true);

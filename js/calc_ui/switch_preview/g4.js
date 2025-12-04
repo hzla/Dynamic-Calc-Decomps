@@ -96,7 +96,7 @@ function get_next_in_g4() {
                 continue
             }
 
-            if (!invert && mov_data) {
+            if (mov_data) {
 
                 if (mov_data["type"] == "Ground" && "Skarmory,Aerodactyl,Zapdos,Crobat,Moltres".includes(player_pok)){
                     isSE = true
@@ -168,7 +168,7 @@ function get_next_in_g4() {
 
          // because the game only counts multihits moves as 1 
     
-        var results = calculateAllMoves(damageGen, p1, p1field, p2, p2field, false)[1];
+        var results = calculateAllMoves(settings.damageGen, p1, p1field, p2, p2field, false)[1];
         
 
         var highestDamage = 0
@@ -185,8 +185,6 @@ function get_next_in_g4() {
             if (["Avalanche", "Payback", "Assurance"].includes(results[n].move.name) && results[n].attacker.rawStats.spe < results[n].defender.rawStats.spe) {
                 dmg = dmg / 2
             }
-
-            dmg = Math.min(dmg, currentHp)
 
             if (dmg > highestDamage && results[n].move.name != "Sonic Boom" && results[n].move.name != "Dragon Rage" && results[n].move.name != "Night Shade" && results[n].move.name != "Seismic Toss" ) {
                 if (moves[results[n].move.name]['multihit']) {

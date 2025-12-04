@@ -1,79 +1,85 @@
-// Initializing settings from local storage and setting default global variables
+// --- Initialization ----------------------------------------------------------
 
-params = new URLSearchParams(window.location.search);
-devMode = params.get('dev') == '1'
-g = params.get('gen') || 8;
-damageGen = parseInt(params.get('dmgGen')) || 8
-type_chart = parseInt(params.get('types')) || 6
-type_mod = params.get('type_mod')
-switchIn = parseInt(params.get('switchIn'))
-noSwitch = params.get('noSwitch')
-hasEvs = params.get('evs') != '0'
-challengeMode = params.get('challengeMode')
-FAIRY = params.get('fairy') == '1'
-misc = params.get('misc')
-invert = params.get('invert')
-randomized = params.get('random') == '1'
-DEFAULTS_LOADED = false
-analyze = false
-limitHits = false
-FIELD_EFFECTS = {}
-learnsetClosable = false
+const params = new URLSearchParams(window.location.search);
 
-movePPs = {}
+// Helper for boolean flags
+const getBool = (key, truthy = "1") => params.get(key) === truthy;
 
-calcingForSwitchIns = false
-changingSets = false;
-terminalStarted = false;
-partnerName = null 
+// Helper for numbers with fallback
+const getNum = (key, fallback) => {
+    const v = parseInt(params.get(key), 10);
+    return Number.isFinite(v) ? v : fallback;
+};
 
-bestDmgAgainstCurrent = 0
-bestPrioDmgAgainstCurrent = 0
+// --- Settings ---------------------------------------------------------------
 
-bestPrioMoveAgainstCurrent = ""
-bestMoveAgainstCurrent = ""
-bestMoveAgainstCurrentIndex = 0
-currentAiMoves = []
+const settings = {
+    devMode: getBool('dev'),
+    gen: getNum('gen', 8),
+    damageGen: getNum('dmgGen', 8),
+    typeChart: getNum('types', 6),
+    switchIn: getNum('switchIn', 5),
+    noSwitch: getBool('noSwitch'),
+    hasEvs: !getBool('evs', '0'),
+    challengeMode: params.get('challengeMode')
+};
 
-bestAiDmgAgainstCurrent = 0
-bestAiMoveAgainstCurrent = ""
-currentTypeMatchup = 2
+// --- Global State -----------------------------------------------------------
 
-setSettingsDefaults()
 
-genInfo = {
-    "num": 8,
-    "abilities": {
-        "gen": 8
-    },
-    "items": {
-        "gen": 8
-    },
-    "moves": {
-        "gen": 8
-    },
-    "species": {
-        "gen": 8
-    },
-    "types": {
-        "gen": 8
-    },
-    "natures": {}
-}
+let DEFAULTS_LOADED = false;
+let analyze       = false;
+let limitHits     = false;
 
-if (damageGen <= 3) {
+let FIELD_EFFECTS = {};
+let learnsetClosable = false;
+
+let movePPs = {};
+
+let calcingForSwitchIns = false;
+let changingSets        = false;
+let terminalStarted     = false;
+let partnerName         = null;
+
+let bestDmgAgainstCurrent        = 0;
+let bestPrioDmgAgainstCurrent    = 0;
+
+let bestMoveAgainstCurrent       = "";
+let bestPrioMoveAgainstCurrent   = "";
+let bestMoveAgainstCurrentIndex  = 0;
+let currentAiMoves               = [];
+
+let bestAiDmgAgainstCurrent      = 0;
+let bestAiMoveAgainstCurrent     = "";
+let currentTypeMatchup           = 2;
+
+// --- Defaults ---------------------------------------------------------------
+
+setSettingsDefaults();
+
+// --- Gen Info ---------------------------------------------------------------
+
+const genInfo = {
+    num: 8,
+    abilities: { gen: 8 },
+    items:     { gen: 8 },
+    moves:     { gen: 8 },
+    species:   { gen: 8 },
+    types:     { gen: 8 },
+    natures:   {}
+};
+
+
+if (settings.damageGen <= 3) {
     $('#player-poks-filter').remove()
 }
-
-// SETDEX_BW = null
-// TR_NAMES = null
 
 SOURCES = {
   "9aa37533b7c000992d92": "Blaze Black/Volt White",
   "04770c9a89687b02a9f5": "Blaze Black 2/Volt White 2 Original",
   "945a33720dbd6bc04488": "Blaze Black 2/Volt White 2 Redux 1.4",
   "da1eedc0e39ea07b75bf": "Vintage White",
-  "renplat": "Renegade Platinum",
+  "renegadeplatinum": "Renegade Platinum",
   "03e577af7cc9856a1f42": "Sacred Gold/Storm Silver",
   "9e7113f0ee22dad116e1": "Platinum Redux 5.2 TC6",
   "b6e2693147e215f10f4a": "Radical Red 3.02",
@@ -150,21 +156,19 @@ $(document).ready(function() {
 function setGameSettings(title) {
   if (title == "Renegade Platinum") {
     gameGen = 4
-    gameSwitchIn = 4;
-    sourceType = "full"
+    settings.gameSwitchIn = 4;
+    settings.sourceType = "full"
   } else {
     gameGen = 8
-    sourceType = "onlyTrainers"
+    settings.sourceType = "onlyTrainers"
   }
 }
-
 
 INC_EM = false
 if (SOURCES[params.get('data')]) {
     TITLE = SOURCES[params.get('data')] || "NONE"
 
     setGameSettings(TITLE)
-
 
     baseGame = ""
     if (TITLE.includes("Inclement") ) {
@@ -214,228 +218,6 @@ function initCalc() {
   memoizedCalc = deepMemoize(calculateAllMoves);
 }
 
-function setSettingsDefaults() {
-
-  saveUploaded = false
-  boxSprites = ["pokesprite", "pokesprite"]
-  themes = ["old", "new"]
-  trueHP = true
-  fainted = []
-  lastSetName = ""
-  disableKOChanceCalcs = false
-  start = 0
-  pokChanges = {}
-  calcing = false
-
-  // local storage settings defaults
-  if (typeof localStorage.partnerName === 'undefined') {
-     partnerName = null 
-  } else {
-    partnerName = localStorage.partnerName
-  }
-
-  if (typeof localStorage.currentParty == "undefined" || localStorage.currentParty == "") {
-    currentParty = []
-  } else {
-    currentParty = localStorage.currentParty.split(",")
-  }
-
-  if (typeof localStorage.boxspriteindex === 'undefined') {
-    localStorage.boxspriteindex = 1
-  }
-
-  if (typeof localStorage.showAdditionalFieldOptions === 'undefined') {
-    localStorage.boxspriteindex = 0
-  }
-
-  if (typeof localStorage.switchInfo === 'undefined') {
-    localStorage.switchInfo = 0
-  }
-
-  if (typeof localStorage.hidePrevos === 'undefined') {
-    localStorage.hidePrevos = 1
-  }
-
-  if (typeof localStorage.watchSaveFile === 'undefined') {
-    localStorage.watchSaveFile = 0
-  }
-
-  if (typeof localStorage.randomized === 'undefined') {
-    localStorage.randomized = 0
-  }
-
-  if (typeof localStorage.filterSaveFile === 'undefined') {
-    localStorage.filterSaveFile = 0
-  }
-
-  if (typeof localStorage.filterAbilities === 'undefined') {
-    localStorage.filterAbilities = 1
-  }
-
-  if (typeof localStorage.themeIndex === 'undefined') {
-    localStorage.themeIndex = 1
-  }
-  if (typeof localStorage.lvlCap != 'undefined') {
-    $('#lvl-cap').val(localStorage.lvlCap)
-  }
-  localStorage.toDelete = ""
-
-  if (parseInt(localStorage.themeIndex) == 0) {
-    $('body, html').addClass('old')
-  }
-  sprite_style = boxSprites[parseInt(localStorage.boxspriteindex)]
-  
-  if (!parseInt(localStorage.boxrolls)) {
-    localStorage.boxrolls = 0
-  } else {
-    $('#player-poks-filter').show()
-  }
-
-  if (parseInt(localStorage.showAdditionalFieldOptions)) {
-    $('#additional-field-options').show()
-    $('#toggle-additional-field-options').text(`Show ${['More', 'Less'][parseInt(localStorage.showAdditionalFieldOptions)]}`)
-  }
-
-
-
-  // if first time
-  if (typeof localStorage.battlenotes === 'undefined') {
-    localStorage.battlenotes = '1'
-  } else if (localStorage.battlenotes == '0'){
-    $('.poke-import').first().hide()
-  } 
-
-  if (localStorage.states && isValidJSON(localStorage.states)) {
-    states = JSON.parse(localStorage.states)
-  } else {
-    states = {}
-  }
-
-  calcing = false
-  changingSets = false
-
-  if (localStorage.notes) {
-    $('#battle-notes .notes-text').html(localStorage.notes);
-  }
-
-  setSettingsTogglesFromLocalStorage()
-}
-
-
-// Settings toggle
-function setSettingsTogglesFromLocalStorage() {
-    if (sprite_style == "pokesprite") {
-        $('#sprite-toggle input').prop('checked', true)
-    }
-    if (localStorage.watchSaveFile == "1") {
-        $('#save-toggle input').prop('checked', true)
-    }
-    if (localStorage.filterSaveFile == "1") {
-        $('#save-filter-toggle input').prop('checked', true)
-    }
-    if (localStorage.themeIndex == '1') {
-        $('#theme-toggle input').prop('checked', true)
-    }
-    if (localStorage.boxrolls == '1') {
-        $('#toggle-boxroll input').prop('checked', true)
-    }
-    if (localStorage.battlenotes == '1') {
-        $('#toggle-battle-notes input').prop('checked', true)
-    }
-
-    if (localStorage.randomized == '1') {
-        $('#toggle-rand input').prop('checked', true)
-    }
-
-    if (localStorage.filterAbilities == '1') {
-        $('#toggle-abil input').prop('checked', true)
-    }
-
-    if (localStorage.switchInfo == '1') {
-        $('#toggle-switch-info input').prop('checked', true)
-    }
-}
-
-function toggleBoxSpriteStyle() {
-    var oldStyle = boxSprites[parseInt(localStorage.boxspriteindex)]
-    localStorage.boxspriteindex = (parseInt(localStorage.boxspriteindex) + 1) % 2
-    sprite_style = boxSprites[parseInt(localStorage.boxspriteindex)]
-
-    $('.player-poks').removeClass(oldStyle)
-    $('.player-poks').addClass(sprite_style)
-
-    $('.trainer-pok').each(function() {
-        $(this).removeClass(oldStyle)
-        var newURL = $(this).attr('src').replace(oldStyle, sprite_style)
-        $(this).attr('src', newURL)
-    })
-}
-
-function toggleThemes() {
-    var oldStyle = themes[parseInt(localStorage.themeIndex)]
-    localStorage.themeIndex = (parseInt(localStorage.themeIndex) + 1) % 2
-    themeStyle = themes[parseInt(localStorage.themeIndex)]
-
-    $('html, body').removeClass(oldStyle)
-    $('html, body').addClass(themeStyle)
-}
-
-function toggle_box_rolls() {
-    localStorage.boxrolls = (parseInt(localStorage.boxrolls) + 1) % 2   
-}
-
-function toggle_additional_field_options() {
-    localStorage.showAdditionalFieldOptions = (parseInt(localStorage.showAdditionalFieldOptions) + 1) % 2   
-}
-
-
-// Settings Event Bindings
-
-$('#theme-toggle .slider').click(toggleThemes)
-
-$('#toggle-boxroll .slider').click(function(){
-    toggle_box_rolls()
-    $('#player-poks-filter').toggle()
-    if ($('#player-poks-filter:visible').length > 0) {
-        box_rolls()
-    }
-})
-
-$('#toggle-battle-notes .slider').click(function(){
-    localStorage.battlenotes = (parseInt(localStorage.battlenotes) + 1) % 2   
-    $('.poke-import').first().toggle()
-})
-
-$('#toggle-additional-field-options').click(function(){
-    localStorage.showAdditionalFieldOptions = (parseInt(localStorage.showAdditionalFieldOptions) + 1) % 2   
-    $('#additional-field-options').toggle()
-    $(this).text(`Show ${['More', 'Less'][parseInt(localStorage.showAdditionalFieldOptions)]}`)
-})
-
-$('#toggle-rand .slider').click(function(){
-    localStorage.randomized = (parseInt(localStorage.randomized) + 1) % 2
-    location.reload()   
-})
-
-$('#save-toggle .slider').click(function(){
-    localStorage.watchSaveFile = (parseInt(localStorage.watchSaveFile) + 1) % 2;
-    location.reload()   
-})
-
-$('#toggle-switch-info .slider').click(function(){
-    localStorage.switchInfo = (parseInt(localStorage.switchInfo) + 1) % 2;   
-    location.reload()
-})
-
-$('#toggle-abil .slider').click(function(){
-    localStorage.filterAbilities = (parseInt(localStorage.filterAbilities) + 1) % 2;
-    location.reload()   
-})
-
-$('#save-filter-toggle .slider').click(function(){
-    localStorage.filterSaveFile = (parseInt(localStorage.filterSaveFile) + 1) % 2;
-    location.reload()   
-})
 
 function adjustStat(speciesName, stat, value) {
     pokedex[speciesName].bs[stat] = value
@@ -540,7 +322,6 @@ function loadPoksData() {
   if (TITLE.includes("Platinum")) {
       initPlatinum()  
   }
-  const cleanString = (str) => str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
 
   for (pok in pokedex) {
     if (pok.includes("Glitched")) {
@@ -578,6 +359,86 @@ function loadPoksData() {
   }
 }
 
+function loadMovesData() {
+  for (move in moves) {
+    var moveId = cleanString(move)
+
+    console.log(move)
+
+    if (jsonMoves[move]) {
+        jsonMove = jsonMoves[move]
+    } else {
+        // moves[move] = jsonMoves[move]
+        continue //completely overite if custom move data found
+    }
+
+    if (move == '(No Move)') {
+        continue
+    }
+    moves[move]["bp"] = jsonMove["basePower"]
+
+
+    MOVES_BY_ID[g][moveId].basePower = jsonMove["basePower"]
+
+    var special_case_power_overrides = {
+      "Return": 102,
+      "Magnitude": 70
+    }
+
+    if (move in special_case_power_overrides) {
+      moves[move]["bp"] = special_case_power_overrides[move]
+         MOVES_BY_ID[g][moveId].basePower = special_case_power_overrides[move]
+    }
+        
+    var optional_move_params = ["type", "category", "e_id", "multihit", "target", "recoil", "overrideBP", "secondaries", "drain", "priority", "willCrit"]  
+    for (n in optional_move_params) {
+        var param = optional_move_params[n]
+        if (jsonMove[param]) {
+          moves[move][param] = jsonMove[param]
+          MOVES_BY_ID[g][moveId][param] = jsonMove[param]  
+        }
+    }
+
+    var optional_flag_params = ["makesContact", "isPunch", "isBite", "isBullet", "isSound", "isPulse", "isKick", "isSword", "isBone", "isWind"]  
+    for (n in optional_flag_params) {
+        var param = optional_flag_params[n]
+        if (jsonMove[param]) {
+          moves[move][param] = jsonMove[param]
+          MOVES_BY_ID[g][moveId]["flags"][param] = jsonMove[param]  
+        }
+    }
+
+    if (jsonMove['flags']) {
+      if (jsonMove['flags']['punch']) {
+          moves[move]['isPunch'] = true
+          MOVES_BY_ID[g][moveId]["flags"]["punch"] = 1
+      }
+      if (jsonMove['flags']['sound']) {
+          moves[move]['isSound'] = true
+          MOVES_BY_ID[g][moveId]["flags"]["sound"] = 1
+      }
+    }
+
+    // gen 5 data sources from pokeweb will only include multihit if it's a multihit move
+    if (!jsonMove['multihit'] && (settings.damageGen == 5)) {
+         delete MOVES_BY_ID[g][moveId].multihit 
+    }
+  }
+
+  for (move in jsonMoves) {     
+    // if defined in showdown move list
+    if (moves[move]) {
+    } else {
+        // custom move
+        jsonMoves[move]["flags"] = {}
+
+        moves[move] = jsonMoves[move]
+        moves[move]["bp"] = jsonMoves[move]["basePower"]
+        MOVES_BY_ID[8][move.replace(/-|,|'|’| /g, "").toLowerCase()] = jsonMoves[move]
+    }
+  }
+}
+
 function loadDataSource(data) {
     SETDEX_BW = data
     setdex = data
@@ -585,9 +446,6 @@ function loadDataSource(data) {
     if (TITLE == "Renegade Platinum") {
       SETDEX_BW = data["formatted_sets"]
       setdex = data["formatted_sets"]
-
-      poksData = data["poks"]
-      loadPoksData()
     }
 
     TR_NAMES = get_trainer_names()
@@ -602,10 +460,17 @@ function loadDataSource(data) {
     var jsonMove
 
 
-    $("#show-ai").hide()
+    // $("#show-ai").hide()
+
+    if (settings.sourceType == "full") {
+      poksData = data["poks"]
+      loadPoksData()
+
+      moveData = data["moves"]
+      loadMovesData()
+    }
 
 
-    console.log("loaded custom poks data")
 
     $('#save-pok').show()
 
@@ -675,6 +540,12 @@ function loadDataSource(data) {
         "type": "Normal"
     }  
 }
+
+
+
+
+
+// Initializes set selection list UI
 
 function loadDefaultLists() {
   $(".player.set-selector").select2({

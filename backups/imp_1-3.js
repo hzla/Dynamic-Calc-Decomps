@@ -28363,7 +28363,7 @@ backup_data = {
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forests Curse"
+        "Forest's Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28433,7 +28433,7 @@ backup_data = {
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forests Curse"
+        "Forest's Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28467,7 +28467,7 @@ backup_data = {
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forests Curse"
+        "Forest's Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28501,7 +28501,7 @@ backup_data = {
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forests Curse"
+        "Forest's Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28535,7 +28535,7 @@ backup_data = {
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forests Curse"
+        "Forest's Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -28569,7 +28569,7 @@ backup_data = {
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forests Curse"
+        "Forest's Curse"
       ],
       "sub_index": 0,
       "ai_tags": [
@@ -35793,7 +35793,7 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Trick Or Treat",
+        "Trick-or-Treat",
         "Magical Leaf",
         "Shadow Ball",
         "Hex"
@@ -35825,7 +35825,7 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Trick Or Treat",
+        "Trick-or-Treat",
         "Magical Leaf",
         "Shadow Ball",
         "Hex"
@@ -35857,7 +35857,7 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Trick Or Treat",
+        "Trick-or-Treat",
         "Magical Leaf",
         "Shadow Ball",
         "Hex"
@@ -35889,7 +35889,7 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Trick Or Treat",
+        "Trick-or-Treat",
         "Magical Leaf",
         "Shadow Ball",
         "Hex"
@@ -35921,7 +35921,7 @@ backup_data = {
       "nature": "Calm",
       "battle_type": "Singles",
       "moves": [
-        "Trick Or Treat",
+        "Trick-or-Treat",
         "Magical Leaf",
         "Shadow Ball",
         "Hex"
@@ -58212,7 +58212,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bubble",
-        "Vice Grip",
+        "Vise Grip",
         "Leer",
         "Harden"
       ],
@@ -58244,7 +58244,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bubble",
-        "Vice Grip",
+        "Vise Grip",
         "Leer",
         "Harden"
       ],
@@ -58276,7 +58276,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bubble",
-        "Vice Grip",
+        "Vise Grip",
         "Leer",
         "Harden"
       ],
@@ -58308,7 +58308,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bubble",
-        "Vice Grip",
+        "Vise Grip",
         "Leer",
         "Harden"
       ],
@@ -58340,7 +58340,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Bubble",
-        "Vice Grip",
+        "Vise Grip",
         "Leer",
         "Harden"
       ],
@@ -74390,7 +74390,7 @@ backup_data = {
       "nature": "Gentle",
       "battle_type": "Singles",
       "moves": [
-        "Vice Grip",
+        "Vise Grip",
         "String Shot"
       ],
       "sub_index": 0,
@@ -76984,7 +76984,7 @@ backup_data = {
         "Discharge",
         "Agility",
         "Electro Ball",
-        "Natures Madness"
+        "Nature's Madness"
       ],
       "sub_index": 5,
       "ai_tags": [
@@ -78046,7 +78046,7 @@ backup_data = {
       "battle_type": "Singles",
       "moves": [
         "Pursuit",
-        "Will-o-wisp",
+        "Will-O-Wisp",
         "Confuse Ray",
         "Curse"
       ],

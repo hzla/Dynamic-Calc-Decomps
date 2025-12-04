@@ -352,7 +352,7 @@ function box_rolls() {
             return {"killers": killers, "defenders": defenders, "faster": faster}  
         }
         
-        var all_results = memoizedCalc(damageGen, p1, p1field, mon, p2field, false);
+        var all_results = memoizedCalc(settings.damageGen, p1, p1field, mon, p2field, false);
         var opposing_results = all_results[0]
         var player_results = all_results[1]
 

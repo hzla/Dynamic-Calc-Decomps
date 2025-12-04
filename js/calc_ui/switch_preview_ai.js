@@ -451,6 +451,11 @@ function get_next_in() {
     if (typeof CURRENT_TRAINER_POKS === "undefined") {
         return
     }
+
+    if (settings.gameSwitchIn == 4) {
+        return get_next_in_g4()
+    }
+
     lvlCap = parseInt($('#lvl-cap').val())
 
     var trainer_poks = [...CURRENT_TRAINER_POKS]
@@ -511,7 +516,7 @@ function get_next_in() {
             p2.abilityOn = false;
         }
 
-        if (!hasEvs) {
+        if (!settings.hasEvs) {
             p2.evs = {
                 "hp": 0,
                 "atk": 0,
@@ -527,16 +532,9 @@ function get_next_in() {
             calcingForSwitchIns = true
             p1Name = p1.name
 
-            // const start = performance.now();
-            
-            // for (let i=0; i<10;i++) {
-            //     memoizedCalc(damageGen, p1, p1field, p2, p2field);
-            //     // calculateAllMoves(damageGen, p1, p1field, p2, p2field);
-            // }
-            let all_results = memoizedCalc(damageGen, p1, p1field, p2, p2field);
-            // let all_results = calculateAllMoves(damageGen, p1, p1field, p2, p2field);
-            // const end = performance.now();
-            // console.log(`Calculate All Moves vs ${p2.name} Execution time: ${end - start} ms`);
+
+            let all_results = memoizedCalc(settings.damageGen, p1, p1field, p2, p2field);
+
             calcingForSwitchIns = false
             
             player_results = all_results[0]
@@ -570,24 +568,12 @@ function get_next_in() {
         }
 
         if (localStorage.switchInfo == '1') {
-            // const s = performance.now();
 
-            // if (matchupCache.has(currentKey)) {
-            //     matchup = matchupCache.get(currentKey)
-            // } else {
-            // console.log(i)
-            // console.log(trainer_poks)
-            // console.log(trainer_poks[subIndex]) 
             matchup = postKoMatchupData(player_results, results)
-            // console.log(trainer_poks) 
-            // console.log(trainer_poks[subIndex]) 
 
             if (!trainer_poks[subIndex]) {
                 console.log("wtf")
             }
-            // }        
-            // const e = performance.now();
-            // console.log(`PostKoMatchupData vs ${p2.name} Execution time: ${e - s} ms`); 
             matchup["type_matchup"] = type_matchup
 
             matchup.move = matchup.move.replace("Hidden Power", "HP")

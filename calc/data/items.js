@@ -421,6 +421,7 @@ exports.MEGA_STONES = {
     'Empoleonite O': 'Empoleon',
     'Empoleonite D': 'Empoleon',
     Infernapite: 'Infernape',
+    Torterrite: 'Torterrite',
     Kinglerite: 'Kingler',
     Applite: 'Appletun',
     Grimmite: 'Grimmsnarl',

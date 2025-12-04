@@ -139,7 +139,7 @@ function initConsole() {
 
             let p1 = createPokemon(box[m])
             // Calculate every damaging move from left pokemon's current movepool against right pokemon's moveset
-            let all_results = calculateAllLeftVisibleRight(damageGen, p1, p1field, p2, p2field);
+            let all_results = calculateAllLeftVisibleRight(settings.damageGen, p1, p1field, p2, p2field);
             let matchup = consoleMatchupData(all_results[0], all_results[1], dmgBoost, aiCrits, move)
 
             if (!matchup.wins1v1) {
@@ -183,7 +183,7 @@ function initConsole() {
 
             let p1 = createPokemon(box[m])
             // Calculate every damaging move from left pokemon's current movepool against right pokemon's moveset
-            let all_results = calculateAllLeftVisibleRight(damageGen, p1, p1field, p2, p2field);
+            let all_results = calculateAllLeftVisibleRight(settings.damageGen, p1, p1field, p2, p2field);
             let matchup = consoleMatchupData(all_results[0], all_results[1], dmgBoost, aiCrits, move)
 
 
@@ -213,7 +213,7 @@ function initConsole() {
 
           for (m = 0; m < box.length; m++) {
             let p1 = createPokemon(box[m])
-            let all_results = calculateAllLeftVisibleRight(damageGen, p1, p1field, p2, p2field);
+            let all_results = calculateAllLeftVisibleRight(settings.damageGen, p1, p1field, p2, p2field);
             let matchup = consoleMatchupData(all_results[0], all_results[1])   
           }
 
