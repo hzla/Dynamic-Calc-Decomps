@@ -96,6 +96,11 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     for (moveIndex in attacker.moves) {
         let move = attacker.moves[moveIndex]
 
+        // skip first impression
+        if (move.name == "First Impression") {
+            continue;
+        }
+
 
 
 
