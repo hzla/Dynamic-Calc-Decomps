@@ -84091,8 +84091,9 @@ backup_data = {
 }
 
 backup_moves = {
-  "(No Move)": {
+  "-": {
     "flags": {},
+    "eff": "HIT",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -84102,6 +84103,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Normal",
     "acc": 100,
@@ -84112,6 +84114,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 50,
     "type": "Fighting",
     "acc": 100,
@@ -84123,6 +84126,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -84138,6 +84142,7 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -84154,6 +84159,7 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Normal",
     "acc": 85,
@@ -84163,55 +84169,68 @@ backup_moves = {
   },
   "Pay Day": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Normal",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PAYDAY",
+    "effChance": 100
   },
   "Fire Punch": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 75,
     "type": "Fire",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "isPunch": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 10
   },
   "Ice Punch": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 75,
     "type": "Ice",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "isPunch": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FREEZE_OR_FROSTBITE",
+    "effChance": 10
   },
   "Thunder Punch": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 75,
     "type": "Electric",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "isPunch": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 10
   },
   "Scratch": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Normal",
     "acc": 100,
@@ -84222,6 +84241,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 55,
     "type": "Normal",
     "acc": 100,
@@ -84232,6 +84252,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "OHKO",
     "bp": 1,
     "type": "Normal",
     "acc": 30,
@@ -84242,6 +84263,7 @@ backup_moves = {
     "flags": {
       "isWind": true
     },
+    "eff": "TWO",
     "bp": 80,
     "type": "Normal",
     "acc": 100,
@@ -84254,6 +84276,7 @@ backup_moves = {
     "flags": {
       "isDance": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -84265,6 +84288,7 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 75,
     "type": "Steel",
     "acc": 100,
@@ -84276,6 +84300,7 @@ backup_moves = {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Flying",
     "acc": 100,
@@ -84286,6 +84311,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Flying",
     "acc": 100,
@@ -84296,6 +84322,7 @@ backup_moves = {
     "flags": {
       "isWind": true
     },
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Normal",
     "acc": 6,
@@ -84307,6 +84334,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "SEMI",
     "bp": 90,
     "type": "Flying",
     "acc": 100,
@@ -84317,17 +84345,21 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 15,
     "type": "Normal",
     "acc": 85,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "WRAP",
+    "effChance": 100
   },
   "Slam": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Normal",
     "acc": 100,
@@ -84339,6 +84371,7 @@ backup_moves = {
       "makesContact": true
     },
     "pp": 25,
+    "eff": "HIT",
     "bp": 45,
     "type": "Grass",
     "acc": 100,
@@ -84349,12 +84382,15 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Normal",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
     "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30,
     "isKick": true
   },
   "Double Kick": {
@@ -84362,6 +84398,7 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 30,
     "type": "Fighting",
     "acc": 100,
@@ -84378,6 +84415,7 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Normal",
     "acc": 75,
@@ -84391,6 +84429,7 @@ backup_moves = {
       "isKick": true
     },
     "bp": 100,
+    "eff": "RECOIL",
     "type": "Fighting",
     "acc": 95,
     "pp": 10,
@@ -84402,16 +84441,20 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Fighting",
     "acc": 85,
     "pp": 15,
     "makesContact": true,
     "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30,
     "isKick": true
   },
   "Sand Attack": {
     "flags": {},
+    "eff": "EVSN",
     "bp": 0,
     "type": "Ground",
     "acc": 100,
@@ -84421,17 +84464,21 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Normal",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Horn Attack": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Normal",
     "acc": 100,
@@ -84442,6 +84489,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -84456,6 +84504,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "OHKO",
     "bp": 1,
     "type": "Normal",
     "acc": 30,
@@ -84467,6 +84516,7 @@ backup_moves = {
       "makesContact": true
     },
     "bp": 40,
+    "eff": "HIT",
     "type": "Normal",
     "acc": 100,
     "pp": 35,
@@ -84476,28 +84526,35 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 85,
     "type": "Normal",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Wrap": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 15,
     "type": "Normal",
     "acc": 90,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "WRAP",
+    "effChance": 100
   },
   "Take Down": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Normal",
     "acc": 100,
@@ -84512,17 +84569,22 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Normal",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "THRASH",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Double-Edge": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Normal",
     "acc": 100,
@@ -84535,6 +84597,7 @@ backup_moves = {
   },
   "Tail Whip": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -84543,14 +84606,18 @@ backup_moves = {
   },
   "Poison Sting": {
     "flags": {},
+    "eff": "HIT",
     "bp": 15,
     "type": "Poison",
     "acc": 100,
     "pp": 35,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 30
   },
   "Twineedle": {
     "flags": {},
+    "eff": "HIT",
     "bp": 25,
     "type": "Bug",
     "acc": 100,
@@ -84559,10 +84626,13 @@ backup_moves = {
       2,
       2
     ],
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 20
   },
   "Pin Missile": {
     "flags": {},
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -84574,6 +84644,7 @@ backup_moves = {
   },
   "Leer": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -84585,18 +84656,22 @@ backup_moves = {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Dark",
     "acc": 100,
     "pp": 25,
     "makesContact": true,
     "isBite": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Growl": {
     "flags": {
       "isSound": true
     },
+    "eff": "DEF",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -84608,6 +84683,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "DEF",
     "bp": 0,
     "type": "Normal",
     "acc": 6,
@@ -84619,6 +84695,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 55,
@@ -84629,6 +84706,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 55,
@@ -84637,6 +84715,7 @@ backup_moves = {
   },
   "Sonic Boom": {
     "flags": {},
+    "eff": "FIXED",
     "bp": 1,
     "type": "Normal",
     "acc": 90,
@@ -84645,37 +84724,48 @@ backup_moves = {
   "Disable": {
     "flags": {},
     "acc": 100,
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "pp": 20
   },
   "Acid": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Poison",
     "acc": 100,
     "pp": 30,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_1 ",
+    "effChance": 10
   },
   "Ember": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Fire",
     "acc": 100,
     "pp": 25,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 10
   },
   "Flamethrower": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Fire",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 10
   },
   "Mist": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Ice",
     "acc": 0,
@@ -84683,6 +84773,7 @@ backup_moves = {
   },
   "Water Gun": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Water",
     "acc": 100,
@@ -84690,6 +84781,7 @@ backup_moves = {
   },
   "Hydro Pump": {
     "flags": {},
+    "eff": "HIT",
     "bp": 110,
     "type": "Water",
     "acc": 80,
@@ -84697,6 +84789,7 @@ backup_moves = {
   },
   "Surf": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Water",
     "acc": 100,
@@ -84705,60 +84798,80 @@ backup_moves = {
   },
   "Ice Beam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Ice",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FREEZE_OR_FROSTBITE",
+    "effChance": 10
   },
   "Blizzard": {
     "flags": {
       "isWind": true
     },
+    "eff": "BLIZZARD",
     "bp": 110,
     "type": "Ice",
     "acc": 70,
     "pp": 5,
     "target": "allAdjacentFoes",
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FREEZE_OR_FROSTBITE",
+    "effChance": 10
   },
   "Psybeam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 65,
     "type": "Psychic",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 10
   },
   "Bubble Beam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 65,
     "type": "Water",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 10
   },
   "Aurora Beam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 65,
     "type": "Ice",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_MINUS_1",
+    "effChance": 10
   },
   "Hyper Beam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 150,
     "type": "Normal",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RECHARGE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Peck": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 35,
     "type": "Flying",
     "acc": 100,
@@ -84769,6 +84882,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Flying",
     "acc": 100,
@@ -84779,6 +84893,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Fighting",
     "acc": 100,
@@ -84794,6 +84909,7 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "LOW",
     "bp": 1,
     "type": "Fighting",
     "acc": 100,
@@ -84805,6 +84921,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "COUNTER",
     "bp": 1,
     "type": "Fighting",
     "acc": 100,
@@ -84816,6 +84933,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "LEVEL",
     "bp": 1,
     "type": "Fighting",
     "acc": 100,
@@ -84826,6 +84944,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Normal",
     "acc": 100,
@@ -84834,6 +84953,7 @@ backup_moves = {
   },
   "Absorb": {
     "flags": {},
+    "eff": "ABSORB",
     "bp": 25,
     "type": "Grass",
     "acc": 100,
@@ -84845,6 +84965,7 @@ backup_moves = {
   },
   "Mega Drain": {
     "flags": {},
+    "eff": "ABSORB",
     "bp": 120,
     "type": "Grass",
     "acc": 100,
@@ -84856,6 +84977,7 @@ backup_moves = {
   },
   "Leech Seed": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Grass",
     "acc": 90,
@@ -84863,6 +84985,7 @@ backup_moves = {
   },
   "Growth": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -84872,6 +84995,7 @@ backup_moves = {
     "flags": {
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 55,
     "type": "Grass",
     "acc": 100,
@@ -84882,6 +85006,7 @@ backup_moves = {
   },
   "Solar Beam": {
     "flags": {},
+    "eff": "SOLAR",
     "bp": 120,
     "type": "Grass",
     "acc": 100,
@@ -84891,6 +85016,7 @@ backup_moves = {
     "flags": {
       "isPowder": true
     },
+    "eff": "DEF",
     "bp": 0,
     "type": "Poison",
     "acc": 75,
@@ -84901,6 +85027,7 @@ backup_moves = {
     "flags": {
       "isPowder": true
     },
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Grass",
     "acc": 75,
@@ -84911,6 +85038,7 @@ backup_moves = {
     "flags": {
       "isPowder": true
     },
+    "eff": "SPD",
     "bp": 0,
     "type": "Grass",
     "acc": 75,
@@ -84923,15 +85051,20 @@ backup_moves = {
       "isDance": true
     },
     "bp": 120,
+    "eff": "HIT",
     "type": "Grass",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
     "isDance": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "THRASH",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "String Shot": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Bug",
     "acc": 95,
@@ -84940,6 +85073,7 @@ backup_moves = {
   },
   "Dragon Rage": {
     "flags": {},
+    "eff": "FIXED",
     "bp": 1,
     "type": "Dragon",
     "acc": 100,
@@ -84947,30 +85081,40 @@ backup_moves = {
   },
   "Fire Spin": {
     "flags": {},
+    "eff": "HIT",
     "bp": 35,
     "type": "Fire",
     "acc": 85,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "WRAP",
+    "effChance": 100
   },
   "Thunder Shock": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Electric",
     "acc": 100,
     "pp": 30,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 10
   },
   "Thunderbolt": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Electric",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 10
   },
   "Thunder Wave": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Electric",
     "acc": 90,
@@ -84978,14 +85122,18 @@ backup_moves = {
   },
   "Thunder": {
     "flags": {},
+    "eff": "THUNDER",
     "bp": 110,
     "type": "Electric",
     "acc": 70,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Rock Throw": {
     "flags": {},
+    "eff": "HIT",
     "bp": 50,
     "type": "Rock",
     "acc": 100,
@@ -84993,6 +85141,7 @@ backup_moves = {
   },
   "Earthquake": {
     "flags": {},
+    "eff": "EARTHQUAKE",
     "bp": 100,
     "type": "Ground",
     "acc": 100,
@@ -85001,6 +85150,7 @@ backup_moves = {
   },
   "Fissure": {
     "flags": {},
+    "eff": "OHKO",
     "bp": 1,
     "type": "Ground",
     "acc": 30,
@@ -85010,6 +85160,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "SEMI",
     "bp": 80,
     "type": "Ground",
     "acc": 100,
@@ -85018,6 +85169,7 @@ backup_moves = {
   },
   "Toxic": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Poison",
     "acc": 90,
@@ -85025,22 +85177,29 @@ backup_moves = {
   },
   "Confusion": {
     "flags": {},
+    "eff": "HIT",
     "bp": 50,
     "type": "Psychic",
     "acc": 100,
     "pp": 25,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 10
   },
   "Psychic": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Psychic",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_1",
+    "effChance": 10
   },
   "Hypnosis": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Psychic",
     "acc": 60,
@@ -85048,6 +85207,7 @@ backup_moves = {
   },
   "Meditate": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -85055,6 +85215,7 @@ backup_moves = {
   },
   "Agility": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -85064,6 +85225,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Normal",
     "acc": 100,
@@ -85075,6 +85237,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "RAGE",
     "bp": 20,
     "type": "Normal",
     "acc": 100,
@@ -85083,6 +85246,7 @@ backup_moves = {
   },
   "Teleport": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -85091,6 +85255,7 @@ backup_moves = {
   },
   "Night Shade": {
     "flags": {},
+    "eff": "LEVEL",
     "bp": 1,
     "type": "Ghost",
     "acc": 100,
@@ -85098,6 +85263,7 @@ backup_moves = {
   },
   "Mimic": {
     "flags": {},
+    "eff": "ACC",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85107,6 +85273,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "ATK",
     "bp": 0,
     "type": "Normal",
     "acc": 85,
@@ -85115,6 +85282,7 @@ backup_moves = {
   },
   "Double Team": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85125,6 +85293,7 @@ backup_moves = {
       "isHealing": true
     },
     "pp": 5,
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85132,6 +85301,7 @@ backup_moves = {
   },
   "Harden": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85139,6 +85309,7 @@ backup_moves = {
   },
   "Minimize": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85146,6 +85317,7 @@ backup_moves = {
   },
   "Smokescreen": {
     "flags": {},
+    "eff": "EVSN",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -85153,6 +85325,7 @@ backup_moves = {
   },
   "Confuse Ray": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Ghost",
     "acc": 100,
@@ -85160,6 +85333,7 @@ backup_moves = {
   },
   "Withdraw": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Water",
     "acc": 0,
@@ -85167,6 +85341,7 @@ backup_moves = {
   },
   "Defense Curl": {
     "flags": {},
+    "eff": "ACC",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85174,6 +85349,7 @@ backup_moves = {
   },
   "Barrier": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -85181,6 +85357,7 @@ backup_moves = {
   },
   "Light Screen": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -85188,6 +85365,7 @@ backup_moves = {
   },
   "Haze": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Ice",
     "acc": 0,
@@ -85195,6 +85373,7 @@ backup_moves = {
   },
   "Reflect": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -85202,6 +85381,7 @@ backup_moves = {
   },
   "Focus Energy": {
     "flags": {},
+    "eff": "ACC",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85211,6 +85391,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "BIDE",
     "bp": 1,
     "type": "Normal",
     "acc": 4,
@@ -85220,6 +85401,7 @@ backup_moves = {
   },
   "Metronome": {
     "flags": {},
+    "eff": "METRONOME",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85227,6 +85409,7 @@ backup_moves = {
   },
   "Mirror Move": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Flying",
     "acc": 0,
@@ -85234,6 +85417,7 @@ backup_moves = {
   },
   "Self-Destruct": {
     "flags": {},
+    "eff": "EXPLOSION",
     "bp": 100,
     "type": "Normal",
     "acc": 100,
@@ -85245,6 +85429,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Normal",
     "acc": 75,
@@ -85256,72 +85441,94 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 6,
     "type": "Ghost",
     "acc": 100,
     "pp": 30,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Smog": {
     "flags": {},
+    "eff": "HIT",
     "bp": 6,
     "type": "Poison",
     "acc": 70,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 40
   },
   "Sludge": {
     "flags": {},
+    "eff": "HIT",
     "bp": 65,
     "type": "Poison",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 30
   },
   "Bone Club": {
     "flags": {
       "isBone": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Ground",
     "acc": 85,
     "pp": 20,
     "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 10,
     "isBone": true
   },
   "Fire Blast": {
     "flags": {},
+    "eff": "HIT",
     "bp": 110,
     "type": "Fire",
     "acc": 85,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 10
   },
   "Waterfall": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Water",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 20
   },
   "Clamp": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 35,
     "type": "Water",
     "acc": 85,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "WRAP",
+    "effChance": 100
   },
   "Swift": {
     "flags": {},
+    "eff": "HIT",
     "bp": 60,
     "type": "Normal",
     "acc": 0,
@@ -85332,18 +85539,23 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "TWO",
     "bp": 6,
     "type": "Normal",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Spike Cannon": {
     "flags": {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -85359,15 +85571,19 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 10,
     "type": "Normal",
     "acc": 100,
     "pp": 35,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 10
   },
   "Amnesia": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -85375,6 +85591,7 @@ backup_moves = {
   },
   "Kinesis": {
     "flags": {},
+    "eff": "EVSN",
     "bp": 0,
     "type": "Psychic",
     "acc": 80,
@@ -85384,6 +85601,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -85396,6 +85614,7 @@ backup_moves = {
       "isKick": true
     },
     "bp": 85,
+    "eff": "RECOIL",
     "type": "Fighting",
     "acc": 90,
     "pp": 10,
@@ -85405,12 +85624,14 @@ backup_moves = {
   "Glare": {
     "flags": {},
     "acc": 100,
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Normal",
     "pp": 30
   },
   "Dream Eater": {
     "flags": {},
+    "eff": "DREAM",
     "bp": 100,
     "type": "Psychic",
     "acc": 100,
@@ -85419,6 +85640,7 @@ backup_moves = {
   "Poison Gas": {
     "flags": {},
     "acc": 90,
+    "eff": "DEF",
     "bp": 0,
     "type": "Poison",
     "pp": 40,
@@ -85429,6 +85651,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -85444,6 +85667,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "ABSORB",
     "bp": 80,
     "type": "Bug",
     "acc": 100,
@@ -85456,6 +85680,7 @@ backup_moves = {
   },
   "Lovely Kiss": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 85,
@@ -85463,15 +85688,19 @@ backup_moves = {
   },
   "Sky Attack": {
     "flags": {},
+    "eff": "TWO",
     "bp": 140,
     "type": "Flying",
     "acc": 90,
     "pp": 5,
     "crit_stage": 3,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Transform": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85479,30 +85708,37 @@ backup_moves = {
   },
   "Bubble": {
     "flags": {},
+    "eff": "HIT",
     "bp": 6,
     "type": "Water",
     "acc": 100,
     "pp": 30,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 10
   },
   "Dizzy Punch": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Normal",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
     "isPunch": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 20
   },
   "Spore": {
     "flags": {
       "isPowder": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Grass",
     "acc": 100,
@@ -85511,14 +85747,18 @@ backup_moves = {
   },
   "Flash": {
     "flags": {},
+    "eff": "HIT",
     "bp": 60,
     "type": "Electric",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_MINUS_1",
+    "effChance": 50
   },
   "Psywave": {
     "flags": {},
+    "eff": "PSYWAVE",
     "bp": 1,
     "type": "Psychic",
     "acc": 6,
@@ -85526,6 +85766,7 @@ backup_moves = {
   },
   "Splash": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85533,6 +85774,7 @@ backup_moves = {
   },
   "Acid Armor": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Poison",
     "acc": 0,
@@ -85542,6 +85784,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Water",
     "acc": 90,
@@ -85551,6 +85794,7 @@ backup_moves = {
   },
   "Explosion": {
     "flags": {},
+    "eff": "EXPLOSION",
     "bp": 150,
     "type": "Normal",
     "acc": 100,
@@ -85561,6 +85805,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -85575,6 +85820,7 @@ backup_moves = {
     "flags": {
       "isBone": true
     },
+    "eff": "HIT",
     "bp": 50,
     "type": "Ground",
     "acc": 100,
@@ -85589,6 +85835,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -85597,28 +85844,35 @@ backup_moves = {
   },
   "Rock Slide": {
     "flags": {},
+    "eff": "HIT",
     "bp": 75,
     "type": "Rock",
     "acc": 100,
     "pp": 10,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 20
   },
   "Hyper Fang": {
     "flags": {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Normal",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "isBite": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 10
   },
   "Sharpen": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85626,6 +85880,7 @@ backup_moves = {
   },
   "Conversion": {
     "flags": {},
+    "eff": "ALL",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85633,16 +85888,20 @@ backup_moves = {
   },
   "Tri Attack": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Normal",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "TRI_ATTACK",
+    "effChance": 20
   },
   "Super Fang": {
     "flags": {
       "makesContact": true
     },
+    "eff": "SUPER",
     "bp": 1,
     "type": "Normal",
     "acc": 90,
@@ -85654,6 +85913,7 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Normal",
     "acc": 100,
@@ -85664,6 +85924,7 @@ backup_moves = {
   },
   "Substitute": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85673,8 +85934,12 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "acc": 100,
     "secondaries": true,
+    "addEff": "RECOIL_HP_25",
+    "addEffTarget": "self",
+    "effChance": 100,
     "recoil": [
       25,
       100
@@ -85686,6 +85951,7 @@ backup_moves = {
   },
   "Sketch": {
     "flags": {},
+    "eff": "ALL",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85696,6 +85962,7 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "TRIPLE",
     "bp": 20,
     "type": "Fighting",
     "acc": 90,
@@ -85711,15 +85978,19 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Dark",
     "acc": 100,
     "pp": 25,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "STEAL_ITEM",
+    "effChance": 100
   },
   "Spider Web": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Bug",
     "acc": 0,
@@ -85727,6 +85998,7 @@ backup_moves = {
   },
   "Mind Reader": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Normal",
     "acc": 4,
@@ -85734,6 +86006,7 @@ backup_moves = {
   },
   "Nightmare": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Ghost",
     "acc": 4,
@@ -85743,26 +86016,33 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Fire",
     "acc": 100,
     "pp": 25,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 10
   },
   "Snore": {
     "flags": {
       "isSound": true
     },
+    "eff": "SNORE",
     "bp": 50,
     "type": "Normal",
     "acc": 100,
     "pp": 15,
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Curse": {
     "flags": {},
+    "eff": "CURSE",
     "bp": 0,
     "type": "Ghost",
     "acc": 0,
@@ -85772,6 +86052,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "FLAIL",
     "bp": 1,
     "type": "Normal",
     "acc": 100,
@@ -85780,6 +86061,7 @@ backup_moves = {
   },
   "Conversion 2": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85789,6 +86071,7 @@ backup_moves = {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Flying",
     "acc": 100,
@@ -85800,6 +86083,7 @@ backup_moves = {
     "flags": {
       "isPowder": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Grass",
     "acc": 5,
@@ -85811,6 +86095,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "FLAIL",
     "bp": 1,
     "type": "Fighting",
     "acc": 100,
@@ -85819,6 +86104,7 @@ backup_moves = {
   },
   "Spite": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Ghost",
     "acc": 100,
@@ -85826,15 +86112,19 @@ backup_moves = {
   },
   "Powder Snow": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Ice",
     "acc": 100,
     "pp": 25,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FREEZE_OR_FROSTBITE",
+    "effChance": 10
   },
   "Protect": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85846,6 +86136,7 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Fighting",
     "acc": 100,
@@ -85856,6 +86147,7 @@ backup_moves = {
   },
   "Scary Face": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 5,
@@ -85865,6 +86157,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Dark",
     "acc": 0,
@@ -85873,6 +86166,7 @@ backup_moves = {
   },
   "Sweet Kiss": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Fairy",
     "acc": 75,
@@ -85880,6 +86174,7 @@ backup_moves = {
   },
   "Belly Drum": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85890,16 +86185,20 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Poison",
     "acc": 100,
     "pp": 10,
     "isBullet": true,
     "isBallistic": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 30
   },
   "Mud-Slap": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Ground",
     "acc": 100,
@@ -85910,6 +86209,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Water",
     "acc": 100,
@@ -85919,6 +86219,7 @@ backup_moves = {
   },
   "Spikes": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Ground",
     "acc": 0,
@@ -85929,16 +86230,20 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Electric",
     "acc": 50,
     "pp": 5,
     "isBullet": true,
     "isBallistic": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 100
   },
   "Foresight": {
     "flags": {},
+    "eff": "BOOST",
     "bp": 0,
     "type": "Normal",
     "acc": 5,
@@ -85946,6 +86251,7 @@ backup_moves = {
   },
   "Destiny Bond": {
     "flags": {},
+    "eff": "FOLLOW",
     "bp": 0,
     "type": "Ghost",
     "acc": 0,
@@ -85955,6 +86261,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -85965,16 +86272,20 @@ backup_moves = {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 55,
     "type": "Ice",
     "acc": 100,
     "pp": 15,
     "target": "allAdjacentFoes",
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 100
   },
   "Detect": {
     "flags": {},
+    "eff": "EVSN",
     "bp": 0,
     "type": "Fighting",
     "acc": 0,
@@ -85985,6 +86296,7 @@ backup_moves = {
     "flags": {
       "isBone": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -85997,6 +86309,7 @@ backup_moves = {
   },
   "Lock-On": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 4,
@@ -86006,17 +86319,22 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Dragon",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "THRASH",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Sandstorm": {
     "flags": {
       "isWind": true
     },
+    "eff": "SPD",
     "bp": 0,
     "type": "Rock",
     "acc": 0,
@@ -86025,6 +86343,7 @@ backup_moves = {
   },
   "Giga Drain": {
     "flags": {},
+    "eff": "ABSORB",
     "bp": 75,
     "type": "Grass",
     "acc": 100,
@@ -86036,6 +86355,7 @@ backup_moves = {
   },
   "Endure": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86044,6 +86364,7 @@ backup_moves = {
   },
   "Charm": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Fairy",
     "acc": 100,
@@ -86053,6 +86374,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "ROLLOUT",
     "bp": 30,
     "type": "Rock",
     "acc": 90,
@@ -86064,6 +86386,7 @@ backup_moves = {
       "isSword": true,
       "makesContact": true
     },
+    "eff": "FALSE",
     "isSword": true,
     "bp": 40,
     "type": "Normal",
@@ -86073,6 +86396,7 @@ backup_moves = {
   },
   "Swagger": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 90,
@@ -86082,6 +86406,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86092,12 +86417,15 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Electric",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Fury Cutter": {
     "flags": {
@@ -86105,6 +86433,7 @@ backup_moves = {
       "isSword": true
     },
     "bp": 40,
+    "eff": "FURY",
     "type": "Bug",
     "acc": 95,
     "pp": 20,
@@ -86115,15 +86444,20 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Steel",
     "acc": 100,
     "pp": 25,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 10
   },
   "Mean Look": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86131,6 +86465,7 @@ backup_moves = {
   },
   "Attract": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86138,6 +86473,7 @@ backup_moves = {
   },
   "Sleep Talk": {
     "flags": {},
+    "eff": "BOOST",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86147,6 +86483,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86157,6 +86494,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "RETURN",
     "bp": 1,
     "type": "Normal",
     "acc": 100,
@@ -86165,6 +86503,7 @@ backup_moves = {
   },
   "Present": {
     "flags": {},
+    "eff": "PRESENT",
     "bp": 1,
     "type": "Normal",
     "acc": 90,
@@ -86174,6 +86513,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "FRUSTRATION",
     "bp": 1,
     "type": "Normal",
     "acc": 100,
@@ -86182,6 +86522,7 @@ backup_moves = {
   },
   "Safeguard": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86189,6 +86530,7 @@ backup_moves = {
   },
   "Pain Split": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86196,14 +86538,18 @@ backup_moves = {
   },
   "Sacred Fire": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Fire",
     "acc": 95,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 50
   },
   "Magnitude": {
     "flags": {},
+    "eff": "MAGNITUDE",
     "bp": 1,
     "type": "Ground",
     "acc": 100,
@@ -86215,18 +86561,22 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Fighting",
     "acc": 50,
     "pp": 5,
     "makesContact": true,
     "isPunch": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 100
   },
   "Megahorn": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Bug",
     "acc": 85,
@@ -86235,14 +86585,18 @@ backup_moves = {
   },
   "Dragon Breath": {
     "flags": {},
+    "eff": "HIT",
     "bp": 60,
     "type": "Dragon",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Baton Pass": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86250,6 +86604,7 @@ backup_moves = {
   },
   "Encore": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86259,6 +86614,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "PURSUIT",
     "bp": 40,
     "type": "Dark",
     "acc": 100,
@@ -86269,15 +86625,20 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 50,
     "type": "Normal",
     "acc": 100,
     "pp": 40,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RAPID_SPIN",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Sweet Scent": {
     "flags": {},
+    "eff": "ACC",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86288,28 +86649,36 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Steel",
     "acc": 75,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 30
   },
   "Metal Claw": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 50,
     "type": "Steel",
     "acc": 100,
     "pp": 35,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 10
   },
   "Vital Throw": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Fighting",
     "acc": 0,
@@ -86321,6 +86690,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86331,6 +86701,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Grass",
     "acc": 0,
@@ -86341,6 +86712,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Fairy",
     "acc": 0,
@@ -86350,6 +86722,7 @@ backup_moves = {
   "Hidden Power": {
     "flags": {},
     "bp": 6,
+    "eff": "HIDDEN",
     "type": "Normal",
     "acc": 100,
     "pp": 15
@@ -86358,6 +86731,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Fighting",
     "acc": 80,
@@ -86369,16 +86743,20 @@ backup_moves = {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Dragon",
     "acc": 100,
     "pp": 20,
     "target": "allAdjacentFoes",
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 20
   },
   "Rain Dance": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Water",
     "acc": 0,
@@ -86386,6 +86764,7 @@ backup_moves = {
   },
   "Sunny Day": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Fire",
     "acc": 0,
@@ -86396,16 +86775,20 @@ backup_moves = {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Dark",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "isBite": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 20
   },
   "Mirror Coat": {
     "flags": {},
+    "eff": "MIRROR",
     "bp": 1,
     "type": "Psychic",
     "acc": 100,
@@ -86414,6 +86797,7 @@ backup_moves = {
   },
   "Psych Up": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86423,6 +86807,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Normal",
     "acc": 100,
@@ -86434,29 +86819,37 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Rock",
     "acc": 100,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ALL_STATS_UP",
+    "addEffTarget": "self",
+    "effChance": 10
   },
   "Shadow Ball": {
     "flags": {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Ghost",
     "acc": 100,
     "pp": 15,
     "isBullet": true,
     "isBallistic": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_1",
+    "effChance": 20
   },
   "Future Sight": {
     "flags": {},
     "bp": 120,
+    "eff": "FUTURE",
     "type": "Psychic",
     "acc": 100,
     "pp": 10
@@ -86465,23 +86858,30 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Fighting",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 50
   },
   "Whirlpool": {
     "flags": {},
+    "eff": "HIT",
     "bp": 35,
     "type": "Water",
     "acc": 85,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "WRAP",
+    "effChance": 100
   },
   "Beat Up": {
     "flags": {},
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -86497,25 +86897,33 @@ backup_moves = {
     },
     "priority": 5,
     "makesContact": true,
+    "eff": "FIRST",
     "bp": 40,
     "type": "Normal",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 100
   },
   "Uproar": {
     "flags": {
       "isSound": true
     },
+    "eff": "UPROAR",
     "bp": 90,
     "type": "Normal",
     "acc": 100,
     "pp": 10,
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "UPROAR",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Stockpile": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86523,6 +86931,7 @@ backup_moves = {
   },
   "Spit Up": {
     "flags": {},
+    "eff": "SPIT",
     "bp": 4,
     "type": "Normal",
     "acc": 100,
@@ -86532,6 +86941,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86542,16 +86952,20 @@ backup_moves = {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 95,
     "type": "Fire",
     "acc": 90,
     "pp": 10,
     "target": "allAdjacentFoes",
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 10
   },
   "Hail": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Ice",
     "acc": 0,
@@ -86559,6 +86973,7 @@ backup_moves = {
   },
   "Torment": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -86566,6 +86981,7 @@ backup_moves = {
   },
   "Flatter": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -86573,6 +86989,7 @@ backup_moves = {
   },
   "Will-O-Wisp": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Fire",
     "acc": 6,
@@ -86580,6 +86997,7 @@ backup_moves = {
   },
   "Memento": {
     "flags": {},
+    "eff": "RESTORE",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -86589,6 +87007,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "FACADE",
     "bp": 70,
     "type": "Normal",
     "acc": 100,
@@ -86600,6 +87019,7 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "FOCUS",
     "bp": 150,
     "type": "Fighting",
     "acc": 100,
@@ -86612,15 +87032,19 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "DOUBLE",
     "bp": 6,
     "type": "Normal",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "REMOVE_STATUS",
+    "effChance": 100
   },
   "Follow Me": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86629,6 +87053,7 @@ backup_moves = {
   },
   "Nature Power": {
     "flags": {},
+    "eff": "NATURE",
     "bp": 1,
     "type": "Normal",
     "acc": 0,
@@ -86636,6 +87061,7 @@ backup_moves = {
   },
   "Charge": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Electric",
     "acc": 100,
@@ -86643,6 +87069,7 @@ backup_moves = {
   },
   "Taunt": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -86650,6 +87077,7 @@ backup_moves = {
   },
   "Helping Hand": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86658,6 +87086,7 @@ backup_moves = {
   },
   "Trick": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Psychic",
     "acc": 100,
@@ -86665,6 +87094,7 @@ backup_moves = {
   },
   "Role Play": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -86674,6 +87104,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86682,6 +87113,7 @@ backup_moves = {
   },
   "Assist": {
     "flags": {},
+    "eff": "ASSIST",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86689,6 +87121,7 @@ backup_moves = {
   },
   "Ingrain": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Grass",
     "acc": 100,
@@ -86698,15 +87131,20 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Fighting",
     "acc": 100,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_DEF_DOWN",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Magic Coat": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Psychic",
     "acc": 100,
@@ -86715,6 +87153,7 @@ backup_moves = {
   },
   "Recycle": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86724,6 +87163,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "REVENGE",
     "bp": 60,
     "type": "Fighting",
     "acc": 100,
@@ -86735,6 +87175,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "BRICK",
     "bp": 75,
     "type": "Fighting",
     "acc": 100,
@@ -86743,6 +87184,7 @@ backup_moves = {
   },
   "Yawn": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -86752,17 +87194,21 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "KNOCK",
     "bp": 65,
     "type": "Dark",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "KNOCK_OFF",
+    "effChance": 100
   },
   "Endeavor": {
     "flags": {
       "makesContact": true
     },
+    "eff": "ENDEAVOR",
     "bp": 1,
     "type": "Normal",
     "acc": 100,
@@ -86771,6 +87217,7 @@ backup_moves = {
   },
   "Eruption": {
     "flags": {},
+    "eff": "POWER",
     "bp": 150,
     "type": "Fire",
     "acc": 100,
@@ -86779,6 +87226,7 @@ backup_moves = {
   },
   "Skill Swap": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -86786,6 +87234,7 @@ backup_moves = {
   },
   "Imprison": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Psychic",
     "acc": 100,
@@ -86793,6 +87242,7 @@ backup_moves = {
   },
   "Refresh": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86800,6 +87250,7 @@ backup_moves = {
   },
   "Grudge": {
     "flags": {},
+    "eff": "FOLLOW",
     "bp": 0,
     "type": "Ghost",
     "acc": 100,
@@ -86807,6 +87258,7 @@ backup_moves = {
   },
   "Snatch": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -86815,16 +87267,20 @@ backup_moves = {
   },
   "Secret Power": {
     "flags": {},
+    "eff": "HIT",
     "bp": 70,
     "type": "Normal",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SECRET_POWER",
+    "effChance": 30
   },
   "Dive": {
     "flags": {
       "makesContact": true
     },
+    "eff": "SEMI",
     "bp": 80,
     "type": "Water",
     "acc": 100,
@@ -86835,6 +87291,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -86847,6 +87304,7 @@ backup_moves = {
   },
   "Camouflage": {
     "flags": {},
+    "eff": "EVSN",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86854,6 +87312,7 @@ backup_moves = {
   },
   "Tail Glow": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Bug",
     "acc": 0,
@@ -86861,29 +87320,36 @@ backup_moves = {
   },
   "Luster Purge": {
     "flags": {},
+    "eff": "HIT",
     "bp": 85,
     "type": "Psychic",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_1",
+    "effChance": 50
   },
   "Mist Ball": {
     "flags": {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 85,
     "type": "Psychic",
     "acc": 100,
     "pp": 10,
     "isBullet": true,
     "isBallistic": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_1",
+    "effChance": 50
   },
   "Feather Dance": {
     "flags": {
       "isDance": true
     },
+    "eff": "DEF",
     "bp": 0,
     "type": "Flying",
     "acc": 100,
@@ -86894,6 +87360,7 @@ backup_moves = {
     "flags": {
       "isDance": true
     },
+    "eff": "SPATK",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86906,6 +87373,7 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 85,
     "type": "Fire",
     "acc": 100,
@@ -86913,10 +87381,13 @@ backup_moves = {
     "pp": 10,
     "makesContact": true,
     "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 10,
     "isKick": true
   },
   "Mud Sport": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Ground",
     "acc": 100,
@@ -86928,6 +87399,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "ROLLOUT",
     "bp": 30,
     "type": "Ice",
     "acc": 90,
@@ -86940,17 +87412,21 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 95,
     "type": "Grass",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Slack Off": {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -86961,6 +87437,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Normal",
     "acc": 100,
@@ -86973,70 +87450,92 @@ backup_moves = {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "HIT",
     "bp": 75,
     "type": "Poison",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "isBite": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "TOXIC",
+    "effChance": 0
   },
   "Crush Claw": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 75,
     "type": "Normal",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 50
   },
   "Blast Burn": {
     "flags": {},
+    "eff": "HIT",
     "bp": 160,
     "type": "Fire",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RECHARGE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Hydro Cannon": {
     "flags": {},
+    "eff": "HIT",
     "bp": 160,
     "type": "Water",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RECHARGE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Meteor Mash": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Steel",
     "acc": 90,
     "pp": 10,
     "makesContact": true,
     "isPunch": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 20
   },
   "Astonish": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 30,
     "type": "Ghost",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Weather Ball": {
     "flags": {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "WEATHER",
     "bp": 160,
     "type": "Normal",
     "acc": 100,
@@ -87046,6 +87545,7 @@ backup_moves = {
   },
   "Aromatherapy": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Grass",
     "acc": 0,
@@ -87053,6 +87553,7 @@ backup_moves = {
   },
   "Fake Tears": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -87063,6 +87564,7 @@ backup_moves = {
       "isWind": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Flying",
     "acc": 100,
@@ -87076,15 +87578,20 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 130,
     "type": "Fire",
     "acc": 100,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_2",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Odor Sleuth": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Normal",
     "acc": 4,
@@ -87092,27 +87599,35 @@ backup_moves = {
   },
   "Rock Tomb": {
     "flags": {},
+    "eff": "HIT",
     "bp": 60,
     "type": "Rock",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 100
   },
   "Silver Wind": {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Bug",
     "acc": 100,
     "pp": 5,
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ALL_STATS_UP",
+    "addEffTarget": "self",
+    "effChance": 10
   },
   "Metal Sound": {
     "flags": {
       "isSound": true
     },
+    "eff": "SPATK",
     "bp": 0,
     "type": "Steel",
     "acc": 85,
@@ -87123,6 +87638,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "SPD",
     "bp": 0,
     "type": "Grass",
     "acc": 55,
@@ -87131,6 +87647,7 @@ backup_moves = {
   },
   "Tickle": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -87138,6 +87655,7 @@ backup_moves = {
   },
   "Cosmic Power": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -87145,6 +87663,7 @@ backup_moves = {
   },
   "Water Spout": {
     "flags": {},
+    "eff": "POWER",
     "bp": 150,
     "type": "Water",
     "acc": 100,
@@ -87153,17 +87672,21 @@ backup_moves = {
   },
   "Signal Beam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 75,
     "type": "Bug",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 10
   },
   "Shadow Punch": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Ghost",
     "acc": 0,
@@ -87173,17 +87696,21 @@ backup_moves = {
   },
   "Extrasensory": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Psychic",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 10
   },
   "Sky Uppercut": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 85,
     "type": "Fighting",
     "acc": 100,
@@ -87193,14 +87720,18 @@ backup_moves = {
   },
   "Sand Tomb": {
     "flags": {},
+    "eff": "HIT",
     "bp": 35,
     "type": "Ground",
     "acc": 85,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "WRAP",
+    "effChance": 100
   },
   "Sheer Cold": {
     "flags": {},
+    "eff": "OHKO",
     "bp": 1,
     "type": "Ice",
     "acc": 30,
@@ -87208,18 +87739,22 @@ backup_moves = {
   },
   "Muddy Water": {
     "flags": {},
+    "eff": "HIT",
     "bp": 95,
     "type": "Water",
     "acc": 85,
     "pp": 10,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_MINUS_1",
+    "effChance": 40
   },
   "Bullet Seed": {
     "flags": {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -87236,6 +87771,7 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Flying",
     "acc": 0,
@@ -87245,6 +87781,7 @@ backup_moves = {
   },
   "Icicle Spear": {
     "flags": {},
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -87256,6 +87793,7 @@ backup_moves = {
   },
   "Iron Defense": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Steel",
     "acc": 0,
@@ -87263,6 +87801,7 @@ backup_moves = {
   },
   "Block": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -87273,6 +87812,7 @@ backup_moves = {
       "isSound": true
     },
     "bp": 0,
+    "eff": "ATK",
     "type": "Normal",
     "acc": 0,
     "pp": 40,
@@ -87282,6 +87822,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Dragon",
     "acc": 100,
@@ -87290,14 +87831,19 @@ backup_moves = {
   },
   "Frenzy Plant": {
     "flags": {},
+    "eff": "HIT",
     "bp": 160,
     "type": "Grass",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RECHARGE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Bulk Up": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Fighting",
     "acc": 0,
@@ -87307,48 +87853,61 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "SEMI",
     "bp": 85,
     "type": "Flying",
     "acc": 85,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Mud Shot": {
     "flags": {},
+    "eff": "HIT",
     "bp": 55,
     "type": "Ground",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 100
   },
   "Poison Tail": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Poison",
     "acc": 100,
     "crit_stage": 1,
     "pp": 25,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 10
   },
   "Covet": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 5,
     "type": "Fairy",
     "acc": 100,
     "pp": 25,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "STEAL_ITEM",
+    "effChance": 100
   },
   "Volt Tackle": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Electric",
     "acc": 100,
@@ -87358,10 +87917,13 @@ backup_moves = {
     ],
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 10
   },
   "Magical Leaf": {
     "flags": {},
+    "eff": "HIT",
     "bp": 60,
     "type": "Grass",
     "acc": 0,
@@ -87369,6 +87931,7 @@ backup_moves = {
   },
   "Water Sport": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Water",
     "acc": 100,
@@ -87376,6 +87939,7 @@ backup_moves = {
   },
   "Calm Mind": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -87386,6 +87950,7 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Grass",
     "acc": 100,
@@ -87398,6 +87963,7 @@ backup_moves = {
     "flags": {
       "isDance": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Dragon",
     "acc": 0,
@@ -87408,6 +87974,7 @@ backup_moves = {
     "flags": {
       "isBullet": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -87420,6 +87987,7 @@ backup_moves = {
   },
   "Shock Wave": {
     "flags": {},
+    "eff": "HIT",
     "bp": 60,
     "type": "Electric",
     "acc": 0,
@@ -87429,15 +87997,19 @@ backup_moves = {
     "flags": {
       "isPulse": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Water",
     "acc": 100,
     "pp": 20,
     "isPulse": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 20
   },
   "Doom Desire": {
     "flags": {},
+    "eff": "FUTURE",
     "bp": 5,
     "type": "Steel",
     "acc": 5,
@@ -87445,16 +88017,21 @@ backup_moves = {
   },
   "Psycho Boost": {
     "flags": {},
+    "eff": "HIT",
     "bp": 140,
     "type": "Psychic",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_2",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Roost": {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Flying",
     "acc": 0,
@@ -87463,6 +88040,7 @@ backup_moves = {
   },
   "Gravity": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -87470,6 +88048,7 @@ backup_moves = {
   },
   "Miracle Eye": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -87479,25 +88058,32 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "DOUBLE",
     "bp": 70,
     "type": "Fighting",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "REMOVE_STATUS",
+    "effChance": 100
   },
   "Hammer Arm": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Fighting",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
     "isPunch": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Gyro Ball": {
     "flags": {
@@ -87505,6 +88091,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "GYRO",
     "bp": 1,
     "type": "Steel",
     "acc": 100,
@@ -87517,6 +88104,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "HEALING",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -87525,6 +88113,7 @@ backup_moves = {
   },
   "Brine": {
     "flags": {},
+    "eff": "BRINE",
     "bp": 65,
     "type": "Water",
     "acc": 100,
@@ -87532,6 +88121,7 @@ backup_moves = {
   },
   "Natural Gift": {
     "flags": {},
+    "eff": "NATURAL",
     "bp": 1,
     "type": "Normal",
     "acc": 100,
@@ -87539,28 +88129,35 @@ backup_moves = {
   },
   "Feint": {
     "flags": {},
+    "eff": "HIT",
     "bp": 30,
     "type": "Normal",
     "acc": 100,
     "pp": 10,
     "priority": 2,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FEINT",
+    "effChance": 100
   },
   "Pluck": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Flying",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BUG_BITE",
+    "effChance": 100
   },
   "Tailwind": {
     "flags": {
       "isWind": true
     },
+    "eff": "BOOST",
     "bp": 0,
     "type": "Flying",
     "acc": 0,
@@ -87569,6 +88166,7 @@ backup_moves = {
   },
   "Acupressure": {
     "flags": {},
+    "eff": "BOOST",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -87576,6 +88174,7 @@ backup_moves = {
   },
   "Metal Burst": {
     "flags": {},
+    "eff": "METAL",
     "bp": 1,
     "type": "Steel",
     "acc": 100,
@@ -87585,6 +88184,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Bug",
     "acc": 100,
@@ -87595,17 +88195,22 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Fighting",
     "acc": 100,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_SPDEF_DOWN",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Payback": {
     "flags": {
       "makesContact": true
     },
+    "eff": "PAYBACK",
     "bp": 50,
     "type": "Dark",
     "acc": 100,
@@ -87616,6 +88221,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "ASSURANCE",
     "bp": 60,
     "type": "Dark",
     "acc": 100,
@@ -87624,6 +88230,7 @@ backup_moves = {
   },
   "Embargo": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -87631,6 +88238,7 @@ backup_moves = {
   },
   "Fling": {
     "flags": {},
+    "eff": "FLING",
     "bp": 1,
     "type": "Dark",
     "acc": 100,
@@ -87638,6 +88246,7 @@ backup_moves = {
   },
   "Psycho Shift": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Psychic",
     "acc": 6,
@@ -87647,6 +88256,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "TRUMP",
     "bp": 1,
     "type": "Normal",
     "acc": 0,
@@ -87655,6 +88265,7 @@ backup_moves = {
   },
   "Heal Block": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Psychic",
     "acc": 100,
@@ -87665,6 +88276,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "POWER",
     "bp": 120,
     "type": "Normal",
     "acc": 100,
@@ -87673,6 +88285,7 @@ backup_moves = {
   },
   "Power Trick": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -87680,6 +88293,7 @@ backup_moves = {
   },
   "Gastro Acid": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Poison",
     "acc": 100,
@@ -87687,6 +88301,7 @@ backup_moves = {
   },
   "Lucky Chant": {
     "flags": {},
+    "eff": "EVSN",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -87694,6 +88309,7 @@ backup_moves = {
   },
   "Me First": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -87701,6 +88317,7 @@ backup_moves = {
   },
   "Copycat": {
     "flags": {},
+    "eff": "ACC",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -87708,6 +88325,7 @@ backup_moves = {
   },
   "Power Swap": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -87715,6 +88333,7 @@ backup_moves = {
   },
   "Guard Swap": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -87724,6 +88343,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "PUNISHMENT",
     "bp": 60,
     "type": "Dark",
     "acc": 100,
@@ -87734,6 +88354,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "LAST",
     "bp": 5,
     "type": "Normal",
     "acc": 100,
@@ -87742,6 +88363,7 @@ backup_moves = {
   },
   "Worry Seed": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Grass",
     "acc": 100,
@@ -87751,6 +88373,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "SUCKER",
     "bp": 7,
     "type": "Dark",
     "acc": 100,
@@ -87760,6 +88383,7 @@ backup_moves = {
   },
   "Toxic Spikes": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Poison",
     "acc": 0,
@@ -87767,6 +88391,7 @@ backup_moves = {
   },
   "Heart Swap": {
     "flags": {},
+    "eff": "BOOST",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -87774,6 +88399,7 @@ backup_moves = {
   },
   "Aqua Ring": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Water",
     "acc": 0,
@@ -87781,6 +88407,7 @@ backup_moves = {
   },
   "Magnet Rise": {
     "flags": {},
+    "eff": "EVSN",
     "bp": 0,
     "type": "Electric",
     "acc": 0,
@@ -87790,6 +88417,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Fire",
     "acc": 100,
@@ -87799,18 +88427,23 @@ backup_moves = {
     ],
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 10
   },
   "Force Palm": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Fighting",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Aura Sphere": {
     "flags": {
@@ -87818,6 +88451,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Fighting",
     "acc": 0,
@@ -87828,6 +88462,7 @@ backup_moves = {
   },
   "Rock Polish": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Rock",
     "acc": 0,
@@ -87837,29 +88472,36 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Poison",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 30
   },
   "Dark Pulse": {
     "flags": {
       "isPulse": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Dark",
     "acc": 100,
     "pp": 15,
     "isPulse": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 20
   },
   "Night Slash": {
     "flags": {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Dark",
     "acc": 100,
@@ -87872,6 +88514,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Water",
     "acc": 100,
@@ -87883,6 +88526,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Grass",
     "acc": 100,
@@ -87894,18 +88538,22 @@ backup_moves = {
     "flags": {
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 75,
     "type": "Flying",
     "acc": 100,
     "pp": 15,
     "isSword": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "X-Scissor": {
     "flags": {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Bug",
     "acc": 100,
@@ -87917,17 +88565,21 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Bug",
     "acc": 100,
     "pp": 10,
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_1",
+    "effChance": 10
   },
   "Dragon Pulse": {
     "flags": {
       "isPulse": true
     },
+    "eff": "HIT",
     "bp": 85,
     "type": "Dragon",
     "acc": 100,
@@ -87938,15 +88590,19 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Dragon",
     "acc": 75,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Power Gem": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Rock",
     "acc": 100,
@@ -87957,6 +88613,7 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "ABSORB",
     "bp": 75,
     "type": "Fighting",
     "acc": 100,
@@ -87970,6 +88627,7 @@ backup_moves = {
   },
   "Vacuum Wave": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Fighting",
     "acc": 100,
@@ -87981,31 +88639,38 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Fighting",
     "acc": 70,
     "pp": 5,
     "isBullet": true,
     "isBallistic": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_1",
+    "effChance": 10
   },
   "Energy Ball": {
     "flags": {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Grass",
     "acc": 100,
     "pp": 10,
     "isBullet": true,
     "isBallistic": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_1",
+    "effChance": 10
   },
   "Brave Bird": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Flying",
     "acc": 100,
@@ -88018,14 +88683,18 @@ backup_moves = {
   },
   "Earth Power": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Ground",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_1",
+    "effChance": 10
   },
   "Switcheroo": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -88035,15 +88704,20 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 150,
     "type": "Normal",
     "acc": 100,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RECHARGE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Nasty Plot": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Dark",
     "acc": 0,
@@ -88054,6 +88728,7 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Steel",
     "acc": 100,
@@ -88066,6 +88741,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "REVENGE",
     "bp": 60,
     "type": "Ice",
     "acc": 100,
@@ -88075,6 +88751,7 @@ backup_moves = {
   },
   "Ice Shard": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Ice",
     "acc": 100,
@@ -88086,6 +88763,7 @@ backup_moves = {
       "isSword": true,
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Ghost",
     "acc": 100,
@@ -88099,45 +88777,55 @@ backup_moves = {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Electric",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "isBite": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 10
   },
   "Ice Fang": {
     "flags": {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Ice",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "isBite": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FREEZE_OR_FROSTBITE",
+    "effChance": 10
   },
   "Fire Fang": {
     "flags": {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Fire",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "isBite": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 10
   },
   "Aqua Fang": {
     "flags": {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Water",
     "acc": 100,
@@ -88149,6 +88837,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Ghost",
     "acc": 100,
@@ -88161,6 +88850,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Ground",
     "acc": 100,
@@ -88172,6 +88862,7 @@ backup_moves = {
     "flags": {
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Psychic",
     "acc": 100,
@@ -88183,47 +88874,60 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Psychic",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 20
   },
   "Mirror Shot": {
     "flags": {},
+    "eff": "HIT",
     "bp": 65,
     "type": "Steel",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ACC_MINUS_1",
+    "effChance": 30
   },
   "Flash Cannon": {
     "flags": {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 80,
     "isBullet": true,
     "isBallistic": true,
     "type": "Steel",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_1",
+    "effChance": 10
   },
   "Rock Climb": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Normal",
     "acc": 85,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 20
   },
   "Defog": {
     "flags": {},
+    "eff": "ACC",
     "bp": 0,
     "type": "Flying",
     "acc": 0,
@@ -88231,6 +88935,7 @@ backup_moves = {
   },
   "Trick Room": {
     "flags": {},
+    "eff": "ACC",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -88239,42 +88944,57 @@ backup_moves = {
   },
   "Draco Meteor": {
     "flags": {},
+    "eff": "HIT",
     "bp": 130,
     "type": "Dragon",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_2",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Discharge": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Electric",
     "acc": 100,
     "pp": 15,
     "target": "allAdjacent",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Lava Plume": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Fire",
     "acc": 100,
     "pp": 15,
     "target": "allAdjacent",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 30
   },
   "Leaf Storm": {
     "flags": {},
+    "eff": "HIT",
     "bp": 130,
     "type": "Grass",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_2",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Power Whip": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Grass",
     "acc": 90,
@@ -88286,19 +89006,24 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 150,
     "type": "Rock",
     "acc": 100,
     "pp": 5,
     "isBullet": true,
     "isBallistic": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RECHARGE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Cross Poison": {
     "flags": {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Poison",
     "acc": 100,
@@ -88306,32 +89031,41 @@ backup_moves = {
     "pp": 20,
     "makesContact": true,
     "isSword": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 10
   },
   "Gunk Shot": {
     "flags": {},
+    "eff": "HIT",
     "bp": 120,
     "type": "Poison",
     "acc": 80,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 30
   },
   "Iron Head": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Steel",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Magnet Bomb": {
     "flags": {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Steel",
     "acc": 0,
@@ -88341,6 +89075,7 @@ backup_moves = {
   },
   "Stone Edge": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Rock",
     "acc": 90,
@@ -88349,6 +89084,7 @@ backup_moves = {
   },
   "Captivate": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -88357,6 +89093,7 @@ backup_moves = {
   },
   "Stealth Rock": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Rock",
     "acc": 0,
@@ -88366,6 +89103,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "LOW",
     "bp": 1,
     "type": "Grass",
     "acc": 100,
@@ -88376,15 +89114,19 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Flying",
     "acc": 100,
     "pp": 20,
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 100
   },
   "Judgment": {
     "flags": {},
+    "eff": "CHANGE",
     "bp": 100,
     "type": "Normal",
     "acc": 100,
@@ -88394,25 +89136,33 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Bug",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BUG_BITE",
+    "effChance": 100
   },
   "Charge Beam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 50,
     "type": "Electric",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Wood Hammer": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Grass",
     "acc": 100,
@@ -88427,6 +89177,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Water",
     "acc": 100,
@@ -88436,6 +89187,7 @@ backup_moves = {
   },
   "Attack Order": {
     "flags": {},
+    "eff": "HIT",
     "bp": 120,
     "type": "Bug",
     "acc": 100,
@@ -88444,6 +89196,7 @@ backup_moves = {
   },
   "Defend Order": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Bug",
     "acc": 0,
@@ -88453,6 +89206,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Bug",
     "acc": 0,
@@ -88463,6 +89217,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 150,
     "type": "Rock",
     "acc": 85,
@@ -88477,6 +89232,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 35,
     "type": "Normal",
     "acc": 100,
@@ -88489,6 +89245,7 @@ backup_moves = {
   },
   "Roar of Time": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Dragon",
     "acc": 100,
@@ -88497,6 +89254,7 @@ backup_moves = {
   },
   "Spacial Rend": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Dragon",
     "acc": 100,
@@ -88508,6 +89266,7 @@ backup_moves = {
       "isHealing": true,
       "isDance": true
     },
+    "eff": "HEALING",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -88519,6 +89278,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "POWER",
     "bp": 120,
     "type": "Normal",
     "acc": 100,
@@ -88527,14 +89287,18 @@ backup_moves = {
   },
   "Magma Storm": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Fire",
     "acc": 75,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "WRAP",
+    "effChance": 100
   },
   "Dark Void": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Dark",
     "acc": 80,
@@ -88543,44 +89307,58 @@ backup_moves = {
   },
   "Dark Hole": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Dark",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SLEEP",
+    "effChance": 40
   },
   "Seed Flare": {
     "flags": {},
+    "eff": "HIT",
     "bp": 120,
     "type": "Grass",
     "acc": 85,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_2",
+    "effChance": 40
   },
   "Ominous Wind": {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Ghost",
     "acc": 100,
     "pp": 5,
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ALL_STATS_UP",
+    "addEffTarget": "self",
+    "effChance": 10
   },
   "Shadow Force": {
     "flags": {
       "makesContact": true
     },
+    "eff": "SEMI",
     "bp": 120,
     "type": "Ghost",
     "acc": 100,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FEINT",
+    "effChance": 100
   },
   "Hone Claws": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Dark",
     "acc": 0,
@@ -88588,6 +89366,7 @@ backup_moves = {
   },
   "Wide Guard": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Rock",
     "acc": 0,
@@ -88596,6 +89375,7 @@ backup_moves = {
   },
   "Guard Split": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -88603,6 +89383,7 @@ backup_moves = {
   },
   "Power Split": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -88610,6 +89391,7 @@ backup_moves = {
   },
   "Wonder Room": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -88618,6 +89400,7 @@ backup_moves = {
   },
   "Psyshock": {
     "flags": {},
+    "eff": "PSYSHOCK",
     "bp": 80,
     "type": "Psychic",
     "acc": 100,
@@ -88625,6 +89408,7 @@ backup_moves = {
   },
   "Venoshock": {
     "flags": {},
+    "eff": "DOUBLE",
     "bp": 65,
     "type": "Poison",
     "acc": 100,
@@ -88632,6 +89416,7 @@ backup_moves = {
   },
   "Autotomize": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Steel",
     "acc": 0,
@@ -88641,6 +89426,7 @@ backup_moves = {
     "flags": {
       "isPowder": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Bug",
     "acc": 0,
@@ -88650,6 +89436,7 @@ backup_moves = {
   },
   "Telekinesis": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -88657,6 +89444,7 @@ backup_moves = {
   },
   "Magic Room": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -88665,16 +89453,20 @@ backup_moves = {
   },
   "Smack Down": {
     "flags": {},
+    "eff": "HIT",
     "bp": 50,
     "type": "Rock",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SMACK_DOWN",
+    "effChance": 100
   },
   "Storm Throw": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Fighting",
     "acc": 100,
@@ -88684,25 +89476,33 @@ backup_moves = {
   },
   "Flame Burst": {
     "flags": {},
+    "eff": "HIT",
     "bp": 70,
     "type": "Fire",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLAME_BURST",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Sludge Wave": {
     "flags": {},
+    "eff": "HIT",
     "bp": 95,
     "type": "Poison",
     "acc": 100,
     "pp": 10,
     "target": "allAdjacent",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 10
   },
   "Quiver Dance": {
     "flags": {
       "isDance": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Bug",
     "acc": 0,
@@ -88713,6 +89513,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HEAT",
     "bp": 1,
     "type": "Steel",
     "acc": 100,
@@ -88721,6 +89522,7 @@ backup_moves = {
   },
   "Synchronoise": {
     "flags": {},
+    "eff": "SYNCHRONOISE",
     "bp": 120,
     "type": "Psychic",
     "acc": 100,
@@ -88732,6 +89534,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "ELECTRO",
     "bp": 1,
     "type": "Electric",
     "acc": 100,
@@ -88741,6 +89544,7 @@ backup_moves = {
   },
   "Soak": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Water",
     "acc": 100,
@@ -88750,15 +89554,20 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 50,
     "type": "Fire",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Coil": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Poison",
     "acc": 0,
@@ -88769,12 +89578,15 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Fighting",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
     "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 100,
     "isKick": true
   },
   "Acid Spray": {
@@ -88782,18 +89594,22 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Poison",
     "acc": 100,
     "pp": 20,
     "isBullet": true,
     "isBallistic": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_2",
+    "effChance": 100
   },
   "Foul Play": {
     "flags": {
       "makesContact": true
     },
+    "eff": "FOUL",
     "bp": 95,
     "type": "Dark",
     "acc": 100,
@@ -88802,6 +89618,7 @@ backup_moves = {
   },
   "Simple Beam": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -88809,6 +89626,7 @@ backup_moves = {
   },
   "Entrainment": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -88816,6 +89634,7 @@ backup_moves = {
   },
   "After You": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -88825,17 +89644,21 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "ROUND",
     "bp": 60,
     "type": "Normal",
     "acc": 100,
     "pp": 15,
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ROUND",
+    "effChance": 100
   },
   "Echoed Voice": {
     "flags": {
       "isSound": true
     },
+    "eff": "ECHOED",
     "bp": 40,
     "type": "Normal",
     "acc": 100,
@@ -88846,6 +89669,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Normal",
     "acc": 100,
@@ -88854,14 +89678,18 @@ backup_moves = {
   },
   "Clear Smog": {
     "flags": {},
+    "eff": "HIT",
     "bp": 50,
     "type": "Poison",
     "acc": 0,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CLEAR_SMOG",
+    "effChance": 100
   },
   "Stored Power": {
     "flags": {},
+    "eff": "STORED",
     "bp": 20,
     "type": "Psychic",
     "acc": 100,
@@ -88869,6 +89697,7 @@ backup_moves = {
   },
   "Quick Guard": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Fighting",
     "acc": 0,
@@ -88877,6 +89706,7 @@ backup_moves = {
   },
   "Ally Switch": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -88885,14 +89715,18 @@ backup_moves = {
   },
   "Scald": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Water",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 30
   },
   "Shell Smash": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -88903,6 +89737,7 @@ backup_moves = {
       "isHealing": true,
       "isPulse": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -88912,6 +89747,7 @@ backup_moves = {
   },
   "Hex": {
     "flags": {},
+    "eff": "DOUBLE",
     "bp": 160,
     "type": "Ghost",
     "acc": 100,
@@ -88921,6 +89757,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "SKY",
     "bp": 60,
     "type": "Flying",
     "acc": 100,
@@ -88929,6 +89766,7 @@ backup_moves = {
   },
   "Shift Gear": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Steel",
     "acc": 0,
@@ -88938,6 +89776,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Fighting",
     "acc": 100,
@@ -88947,15 +89786,19 @@ backup_moves = {
   },
   "Incinerate": {
     "flags": {},
+    "eff": "HIT",
     "bp": 60,
     "type": "Fire",
     "acc": 100,
     "pp": 15,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "INCINERATE",
+    "effChance": 100
   },
   "Quash": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -88965,6 +89808,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "ACROBATICS",
     "bp": 55,
     "type": "Flying",
     "acc": 100,
@@ -88973,6 +89817,7 @@ backup_moves = {
   },
   "Reflect Type": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -88982,6 +89827,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "RETALIATE",
     "bp": 70,
     "type": "Normal",
     "acc": 100,
@@ -88990,6 +89836,7 @@ backup_moves = {
   },
   "Final Gambit": {
     "flags": {},
+    "eff": "FINAL",
     "bp": 1,
     "type": "Fighting",
     "acc": 100,
@@ -88997,6 +89844,7 @@ backup_moves = {
   },
   "Bestow": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -89004,14 +89852,18 @@ backup_moves = {
   },
   "Inferno": {
     "flags": {},
+    "eff": "HIT",
     "bp": 120,
     "type": "Fire",
     "acc": 50,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 100
   },
   "Water Pledge": {
     "flags": {},
+    "eff": "PLEDGE",
     "bp": 80,
     "type": "Water",
     "acc": 100,
@@ -89019,6 +89871,7 @@ backup_moves = {
   },
   "Fire Pledge": {
     "flags": {},
+    "eff": "PLEDGE",
     "bp": 80,
     "type": "Fire",
     "acc": 100,
@@ -89026,6 +89879,7 @@ backup_moves = {
   },
   "Grass Pledge": {
     "flags": {},
+    "eff": "PLEDGE",
     "bp": 80,
     "type": "Grass",
     "acc": 100,
@@ -89033,6 +89887,7 @@ backup_moves = {
   },
   "Volt Switch": {
     "flags": {},
+    "eff": "HIT",
     "bp": 70,
     "type": "Electric",
     "acc": 100,
@@ -89040,24 +89895,31 @@ backup_moves = {
   },
   "Struggle Bug": {
     "flags": {},
+    "eff": "HIT",
     "bp": 50,
     "type": "Bug",
     "acc": 100,
     "pp": 20,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_1",
+    "effChance": 100
   },
   "Bulldoze": {
     "flags": {},
+    "eff": "EARTHQUAKE",
     "bp": 60,
     "type": "Ground",
     "acc": 100,
     "pp": 20,
     "target": "allAdjacent",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 100
   },
   "Frost Breath": {
     "flags": {},
+    "eff": "HIT",
     "bp": 60,
     "type": "Ice",
     "acc": 100,
@@ -89068,6 +89930,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Dragon",
     "acc": 100,
@@ -89077,6 +89940,7 @@ backup_moves = {
   },
   "Work Up": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -89084,17 +89948,21 @@ backup_moves = {
   },
   "Electroweb": {
     "flags": {},
+    "eff": "HIT",
     "bp": 55,
     "type": "Electric",
     "acc": 100,
     "pp": 15,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 100
   },
   "Wild Charge": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Electric",
     "acc": 100,
@@ -89109,6 +89977,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Ground",
     "acc": 100,
@@ -89120,6 +89989,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Dragon",
     "acc": 100,
@@ -89134,17 +90004,21 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Psychic",
     "acc": 100,
     "pp": 25,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Horn Leech": {
     "flags": {
       "makesContact": true
     },
+    "eff": "ABSORB",
     "bp": 75,
     "type": "Grass",
     "acc": 100,
@@ -89160,6 +90034,7 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Fighting",
     "acc": 100,
@@ -89172,6 +90047,7 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 75,
     "crit_stage": 1,
     "type": "Water",
@@ -89184,6 +90060,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HEAT",
     "bp": 1,
     "type": "Fire",
     "acc": 100,
@@ -89194,6 +90071,7 @@ backup_moves = {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Grass",
     "acc": 100,
@@ -89204,15 +90082,19 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Bug",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Cotton Guard": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Grass",
     "acc": 0,
@@ -89220,6 +90102,7 @@ backup_moves = {
   },
   "Night Daze": {
     "flags": {},
+    "eff": "HIT",
     "bp": 95,
     "type": "Dark",
     "acc": 100,
@@ -89227,6 +90110,7 @@ backup_moves = {
   },
   "Psystrike": {
     "flags": {},
+    "eff": "PSYSHOCK",
     "bp": 100,
     "type": "Psychic",
     "acc": 100,
@@ -89236,6 +90120,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -89250,17 +90135,21 @@ backup_moves = {
     "flags": {
       "isWind": true
     },
+    "eff": "THUNDER",
     "bp": 110,
     "type": "Flying",
     "acc": 70,
     "pp": 10,
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 30
   },
   "Head Charge": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Normal",
     "acc": 100,
@@ -89270,12 +90159,15 @@ backup_moves = {
     ],
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 10
   },
   "Gear Grind": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 180,
     "type": "Steel",
     "acc": 100,
@@ -89291,6 +90183,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Fire",
     "acc": 100,
@@ -89298,10 +90191,13 @@ backup_moves = {
     "target": "allAdjacent",
     "isBullet": true,
     "isBallistic": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 30
   },
   "Techno Blast": {
     "flags": {},
+    "eff": "CHANGE",
     "bp": 120,
     "type": "Normal",
     "acc": 100,
@@ -89311,18 +90207,22 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "RELIC",
     "bp": 75,
     "type": "Normal",
     "acc": 100,
     "pp": 10,
     "target": "allAdjacentFoes",
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SLEEP",
+    "effChance": 10
   },
   "Secret Sword": {
     "flags": {
       "isSword": true
     },
+    "eff": "PSYSHOCK",
     "bp": 85,
     "type": "Fighting",
     "acc": 100,
@@ -89331,92 +90231,122 @@ backup_moves = {
   },
   "Glaciate": {
     "flags": {},
+    "eff": "HIT",
     "bp": 65,
     "type": "Ice",
     "acc": 100,
     "pp": 10,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 100
   },
   "Bolt Strike": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 130,
     "type": "Electric",
     "acc": 85,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 20
   },
   "Blue Flare": {
     "flags": {},
+    "eff": "HIT",
     "bp": 130,
     "type": "Fire",
     "acc": 85,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 20
   },
   "Fiery Dance": {
     "flags": {
       "isDance": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Fire",
     "acc": 100,
     "pp": 10,
     "isDance": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 50
   },
   "Freeze Shock": {
     "flags": {},
+    "eff": "TWO",
     "bp": 140,
     "type": "Ice",
     "acc": 90,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Ice Burn": {
     "flags": {},
+    "eff": "TWO",
     "bp": 140,
     "type": "Ice",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 30
   },
   "Snarl": {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 55,
     "type": "Dark",
     "acc": 100,
     "pp": 15,
     "target": "allAdjacentFoes",
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_1",
+    "effChance": 100
   },
   "Icicle Crash": {
     "flags": {},
+    "eff": "HIT",
     "bp": 85,
     "type": "Ice",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "V-create": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 220,
     "type": "Fire",
     "acc": 95,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "V_CREATE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Fusion Flare": {
     "flags": {},
+    "eff": "FUSION",
     "bp": 100,
     "type": "Fire",
     "acc": 100,
@@ -89424,6 +90354,7 @@ backup_moves = {
   },
   "Fusion Bolt": {
     "flags": {},
+    "eff": "FUSION",
     "bp": 100,
     "type": "Electric",
     "acc": 100,
@@ -89433,6 +90364,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "TWO",
     "bp": 170,
     "type": "Fighting",
     "acc": 100,
@@ -89441,6 +90373,7 @@ backup_moves = {
   },
   "Mat Block": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Fighting",
     "acc": 0,
@@ -89448,6 +90381,7 @@ backup_moves = {
   },
   "Belch": {
     "flags": {},
+    "eff": "BELCH",
     "bp": 120,
     "type": "Poison",
     "acc": 100,
@@ -89455,6 +90389,7 @@ backup_moves = {
   },
   "Rototiller": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Ground",
     "acc": 0,
@@ -89462,6 +90397,7 @@ backup_moves = {
   },
   "Sticky Web": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Bug",
     "acc": 0,
@@ -89471,6 +90407,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "FELL",
     "bp": 50,
     "type": "Bug",
     "acc": 100,
@@ -89481,15 +90418,19 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "SEMI",
     "bp": 90,
     "type": "Ghost",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FEINT",
+    "effChance": 100
   },
   "Trick-or-Treat": {
     "flags": {},
+    "eff": "ALL",
     "bp": 0,
     "type": "Ghost",
     "acc": 100,
@@ -89499,6 +90440,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "DEF",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -89507,6 +90449,7 @@ backup_moves = {
   },
   "Ion Deluge": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Electric",
     "acc": 0,
@@ -89515,6 +90458,7 @@ backup_moves = {
   },
   "Parabolic Charge": {
     "flags": {},
+    "eff": "ABSORB",
     "bp": 75,
     "type": "Electric",
     "acc": 100,
@@ -89527,6 +90471,7 @@ backup_moves = {
   },
   "Forest's Curse": {
     "flags": {},
+    "eff": "ALL",
     "bp": 0,
     "type": "Grass",
     "acc": 100,
@@ -89536,6 +90481,7 @@ backup_moves = {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Grass",
     "acc": 100,
@@ -89545,16 +90491,20 @@ backup_moves = {
   },
   "Freeze-Dry": {
     "flags": {},
+    "eff": "SUPER",
     "bp": 70,
     "type": "Ice",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FREEZE_OR_FROSTBITE",
+    "effChance": 10
   },
   "Disarming Voice": {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Fairy",
     "acc": 0,
@@ -89566,6 +90516,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "RESTORE",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -89574,6 +90525,7 @@ backup_moves = {
   },
   "Topsy-Turvy": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Dark",
     "acc": 7,
@@ -89583,6 +90535,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "ABSORB",
     "bp": 50,
     "type": "Fairy",
     "acc": 100,
@@ -89595,6 +90548,7 @@ backup_moves = {
   },
   "Crafty Shield": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Fairy",
     "acc": 0,
@@ -89603,6 +90557,7 @@ backup_moves = {
   },
   "Flower Shield": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Fairy",
     "acc": 0,
@@ -89610,6 +90565,7 @@ backup_moves = {
   },
   "Grassy Terrain": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Grass",
     "acc": 0,
@@ -89617,6 +90573,7 @@ backup_moves = {
   },
   "Misty Terrain": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Fairy",
     "acc": 0,
@@ -89624,6 +90581,7 @@ backup_moves = {
   },
   "Electrify": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Electric",
     "acc": 0,
@@ -89633,17 +90591,21 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Fairy",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_MINUS_1",
+    "effChance": 10
   },
   "Fairy Wind": {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Fairy",
     "acc": 100,
@@ -89652,16 +90614,20 @@ backup_moves = {
   },
   "Moonblast": {
     "flags": {},
+    "eff": "HIT",
     "bp": 95,
     "type": "Fairy",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_1",
+    "effChance": 30
   },
   "Boomburst": {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 140,
     "type": "Normal",
     "acc": 100,
@@ -89671,6 +90637,7 @@ backup_moves = {
   },
   "Fairy Lock": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Fairy",
     "acc": 0,
@@ -89678,6 +90645,7 @@ backup_moves = {
   },
   "King's Shield": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Steel",
     "acc": 0,
@@ -89686,6 +90654,7 @@ backup_moves = {
   },
   "Play Nice": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -89695,6 +90664,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -89703,31 +90673,42 @@ backup_moves = {
   },
   "Diamond Storm": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Rock",
     "acc": 100,
     "pp": 5,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_PLUS_2:",
+    "addEffTarget": "self",
+    "effChance": 50
   },
   "Steam Eruption": {
     "flags": {},
+    "eff": "HIT",
     "bp": 120,
     "type": "Water",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 30
   },
   "Hyperspace Hole": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Psychic",
     "acc": 0,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FEINT",
+    "effChance": 100
   },
   "Water Shuriken": {
     "flags": {},
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -89740,14 +90721,18 @@ backup_moves = {
   },
   "Mystical Fire": {
     "flags": {},
+    "eff": "HIT",
     "bp": 75,
     "type": "Fire",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_1",
+    "effChance": 100
   },
   "Spiky Shield": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Grass",
     "acc": 0,
@@ -89756,6 +90741,7 @@ backup_moves = {
   },
   "Aromatic Mist": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Fairy",
     "acc": 0,
@@ -89763,6 +90749,7 @@ backup_moves = {
   },
   "Eerie Impulse": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Electric",
     "acc": 100,
@@ -89770,6 +90757,7 @@ backup_moves = {
   },
   "Venom Drench": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Poison",
     "acc": 100,
@@ -89780,6 +90768,7 @@ backup_moves = {
     "flags": {
       "isPowder": true
     },
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Bug",
     "acc": 100,
@@ -89789,6 +90778,7 @@ backup_moves = {
   },
   "Geomancy": {
     "flags": {},
+    "eff": "ALL",
     "bp": 0,
     "type": "Fairy",
     "acc": 0,
@@ -89796,6 +90786,7 @@ backup_moves = {
   },
   "Magnetic Flux": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Electric",
     "acc": 0,
@@ -89803,6 +90794,7 @@ backup_moves = {
   },
   "Happy Hour": {
     "flags": {},
+    "eff": "ALL",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -89810,6 +90802,7 @@ backup_moves = {
   },
   "Electric Terrain": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Electric",
     "acc": 0,
@@ -89817,6 +90810,7 @@ backup_moves = {
   },
   "Dazzling Gleam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Fairy",
     "acc": 100,
@@ -89825,6 +90819,7 @@ backup_moves = {
   },
   "Celebrate": {
     "flags": {},
+    "eff": "ALL",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -89832,6 +90827,7 @@ backup_moves = {
   },
   "Hold Hands": {
     "flags": {},
+    "eff": "ALL",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -89839,6 +90835,7 @@ backup_moves = {
   },
   "Baby-Doll Eyes": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Fairy",
     "acc": 100,
@@ -89849,17 +90846,21 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 20,
     "type": "Electric",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 100
   },
   "Hold Back": {
     "flags": {
       "makesContact": true
     },
+    "eff": "FALSE",
     "bp": 40,
     "type": "Normal",
     "acc": 100,
@@ -89870,28 +90871,36 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 20,
     "type": "Bug",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "WRAP",
+    "effChance": 100
   },
   "Power-Up Punch": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Fighting",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
     "isPunch": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Oblivion Wing": {
     "flags": {},
+    "eff": "ABSORB",
     "bp": 80,
     "type": "Flying",
     "acc": 100,
@@ -89903,24 +90912,31 @@ backup_moves = {
   },
   "Thousand Arrows": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Ground",
     "acc": 100,
     "pp": 10,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SMACK_DOWN",
+    "effChance": 100
   },
   "Thousand Waves": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Ground",
     "acc": 100,
     "pp": 10,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PREVENT_ESCAPE",
+    "effChance": 100
   },
   "Land's Wrath": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Ground",
     "acc": 100,
@@ -89929,6 +90945,7 @@ backup_moves = {
   },
   "Light Of Ruin": {
     "flags": {},
+    "eff": "HIT",
     "bp": 140,
     "type": "Fairy",
     "acc": 100,
@@ -89942,6 +90959,7 @@ backup_moves = {
     "flags": {
       "isPulse": true
     },
+    "eff": "HIT",
     "bp": 110,
     "type": "Water",
     "acc": 85,
@@ -89951,6 +90969,7 @@ backup_moves = {
   },
   "Precipice Blades": {
     "flags": {},
+    "eff": "HIT",
     "bp": 120,
     "type": "Ground",
     "acc": 85,
@@ -89961,25 +90980,33 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Flying",
     "acc": 100,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_SPDEF_DOWN",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Hyperspace Fury": {
     "flags": {},
+    "eff": "HYPERSPACE",
     "bp": 100,
     "type": "Dark",
     "acc": 0,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 100
   },
   "Shore Up": {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Ground",
     "acc": 0,
@@ -89990,6 +91017,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "FIRST",
     "bp": 90,
     "type": "Bug",
     "acc": 100,
@@ -89999,6 +91027,7 @@ backup_moves = {
   },
   "Baneful Bunker": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Poison",
     "acc": 0,
@@ -90007,16 +91036,20 @@ backup_moves = {
   },
   "Spirit Shackle": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Ghost",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PREVENT_ESCAPE",
+    "effChance": 100
   },
   "Darkest Lariat": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 85,
     "type": "Dark",
     "acc": 100,
@@ -90027,19 +91060,23 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Water",
     "acc": 100,
     "pp": 10,
     "target": "allAdjacent",
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "REMOVE_STATUS",
+    "effChance": 100
   },
   "Ice Hammer": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Ice",
     "acc": 100,
@@ -90051,6 +91088,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "RESET",
     "bp": 0,
     "type": "Fairy",
     "acc": 0,
@@ -90062,6 +91100,7 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 95,
     "type": "Ground",
     "acc": 100,
@@ -90071,6 +91110,7 @@ backup_moves = {
   },
   "Strength Sap": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Grass",
     "acc": 100,
@@ -90081,6 +91121,7 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "SOLAR",
     "bp": 125,
     "type": "Grass",
     "acc": 100,
@@ -90090,6 +91131,7 @@ backup_moves = {
   },
   "Leafage": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Grass",
     "acc": 100,
@@ -90097,6 +91139,7 @@ backup_moves = {
   },
   "Spotlight": {
     "flags": {},
+    "eff": "SPDEF",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -90105,6 +91148,7 @@ backup_moves = {
   },
   "Toxic Thread": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Poison",
     "acc": 100,
@@ -90112,6 +91156,7 @@ backup_moves = {
   },
   "Laser Focus": {
     "flags": {},
+    "eff": "ATK",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -90119,6 +91164,7 @@ backup_moves = {
   },
   "Gear Up": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Steel",
     "acc": 0,
@@ -90128,18 +91174,22 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Dark",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "THROAT_CHOP",
+    "effChance": 100
   },
   "Pollen Puff": {
     "flags": {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Bug",
     "acc": 100,
@@ -90151,15 +91201,19 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Steel",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PREVENT_ESCAPE",
+    "effChance": 100
   },
   "Psychic Terrain": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -90169,28 +91223,35 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Bug",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_MINUS_1",
+    "effChance": 100
   },
   "Fire Lash": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Fire",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 100
   },
   "Power Trip": {
     "flags": {
       "makesContact": true
     },
+    "eff": "STORED",
     "bp": 20,
     "type": "Dark",
     "acc": 100,
@@ -90199,14 +91260,19 @@ backup_moves = {
   },
   "Burn Up": {
     "flags": {},
+    "eff": "FAIL",
     "bp": 130,
     "type": "Fire",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "REMOVE_ARG_TYPE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Speed Swap": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -90216,6 +91282,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Steel",
     "acc": 0,
@@ -90226,6 +91293,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "ALL",
     "bp": 0,
     "type": "Poison",
     "acc": 0,
@@ -90236,6 +91304,7 @@ backup_moves = {
     "flags": {
       "isDance": true
     },
+    "eff": "REVELATION",
     "bp": 100,
     "type": "Normal",
     "acc": 100,
@@ -90244,27 +91313,34 @@ backup_moves = {
   },
   "Core Enforcer": {
     "flags": {},
+    "eff": "HIT",
     "bp": 140,
     "type": "Dragon",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CORE_ENFORCER",
+    "effChance": 100
   },
   "Trop Kick": {
     "flags": {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Grass",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "secondaries": true,
+    "addEff": "ATK_MINUS_1",
+    "effChance": 100,
     "isKick": true
   },
   "Instruct": {
     "flags": {},
+    "eff": "SPATK",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -90275,6 +91351,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "BEAK",
     "bp": 100,
     "type": "Flying",
     "acc": 100,
@@ -90287,18 +91364,23 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 110,
     "type": "Dragon",
     "acc": 100,
     "pp": 5,
     "target": "allAdjacentFoes",
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Dragon Hammer": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Dragon",
     "acc": 100,
@@ -90309,6 +91391,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Dark",
     "acc": 100,
@@ -90318,6 +91401,7 @@ backup_moves = {
   },
   "Aurora Veil": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Ice",
     "acc": 0,
@@ -90325,6 +91409,7 @@ backup_moves = {
   },
   "Shell Trap": {
     "flags": {},
+    "eff": "SHELL",
     "bp": 150,
     "type": "Fire",
     "acc": 100,
@@ -90334,17 +91419,22 @@ backup_moves = {
   },
   "Fleur Cannon": {
     "flags": {},
+    "eff": "HIT",
     "bp": 130,
     "type": "Fairy",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_2",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Psychic Fangs": {
     "flags": {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "BRICK",
     "bp": 85,
     "type": "Psychic",
     "acc": 100,
@@ -90356,6 +91446,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "STOMPING",
     "bp": 75,
     "type": "Ground",
     "acc": 100,
@@ -90366,17 +91457,21 @@ backup_moves = {
     "flags": {
       "isBone": true
     },
+    "eff": "HIT",
     "bp": 85,
     "type": "Ghost",
     "acc": 100,
     "pp": 10,
     "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 20,
     "isBone": true
   },
   "Accelerock": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Rock",
     "acc": 100,
@@ -90388,25 +91483,33 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 85,
     "type": "Water",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 20
   },
   "Prismatic Laser": {
     "flags": {},
+    "eff": "HIT",
     "bp": 160,
     "type": "Psychic",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RECHARGE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Spectral Thief": {
     "flags": {
       "makesContact": true
     },
+    "eff": "SPECTRAL",
     "bp": 90,
     "type": "Ghost",
     "acc": 100,
@@ -90417,6 +91520,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Steel",
     "acc": 100,
@@ -90425,6 +91529,7 @@ backup_moves = {
   },
   "Moongeist Beam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Ghost",
     "acc": 100,
@@ -90432,6 +91537,7 @@ backup_moves = {
   },
   "Tearful Look": {
     "flags": {},
+    "eff": "DEF",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -90441,15 +91547,19 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Electric",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Nature's Madness": {
     "flags": {},
+    "eff": "SUPER",
     "bp": 1,
     "type": "Fairy",
     "acc": 100,
@@ -90459,6 +91569,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "CHANGE",
     "bp": 120,
     "type": "Normal",
     "acc": 100,
@@ -90467,6 +91578,7 @@ backup_moves = {
   },
   "Mind Blown": {
     "flags": {},
+    "eff": "MIND",
     "bp": 150,
     "type": "Fire",
     "acc": 100,
@@ -90478,16 +91590,20 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Electric",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
     "isPunch": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ION_DELUGE",
+    "effChance": 100
   },
   "Photon Geyser": {
     "flags": {},
+    "eff": "PHOTON",
     "bp": 100,
     "type": "Psychic",
     "acc": 100,
@@ -90497,6 +91613,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 50,
     "type": "Electric",
     "acc": 100,
@@ -90507,26 +91624,33 @@ backup_moves = {
   },
   "Splishy Splash": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Water",
     "acc": 100,
     "pp": 15,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Floaty Fall": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Flying",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Pika Papow": {
     "flags": {},
+    "eff": "RETURN",
     "bp": 1,
     "type": "Electric",
     "acc": 0,
@@ -90534,6 +91658,7 @@ backup_moves = {
   },
   "Bouncy Bubble": {
     "flags": {},
+    "eff": "ABSORB",
     "bp": 90,
     "type": "Water",
     "acc": 100,
@@ -90545,67 +91670,89 @@ backup_moves = {
   },
   "Buzzy Buzz": {
     "flags": {},
+    "eff": "HIT",
     "bp": 8,
     "type": "Electric",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 100
   },
   "Sizzly Slide": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 8,
     "type": "Fire",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 100
   },
   "Glitzy Glow": {
     "flags": {},
+    "eff": "HIT",
     "bp": 8,
     "type": "Psychic",
     "acc": 8,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "LIGHT_SCREEN",
+    "effChance": 100
   },
   "Baddy Bad": {
     "flags": {},
+    "eff": "HIT",
     "bp": 8,
     "type": "Dark",
     "acc": 8,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "REFLECT",
+    "effChance": 100
   },
   "Sappy Seed": {
     "flags": {},
+    "eff": "HIT",
     "bp": 95,
     "type": "Grass",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "LEECH_SEED",
+    "effChance": 100
   },
   "Freezy Frost": {
     "flags": {},
+    "eff": "HIT",
     "bp": 95,
     "type": "Ice",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "HAZE",
+    "effChance": 100
   },
   "Sparkly Swirl": {
     "flags": {},
+    "eff": "SPARKLY",
     "bp": 95,
     "type": "Fairy",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "AROMATHERAPY, Added 0 for Sheer Force boos",
+    "effChance": 100
   },
   "Veevee Volley": {
     "flags": {
       "makesContact": true
     },
+    "eff": "RETURN",
     "bp": 1,
     "type": "Normal",
     "acc": 0,
@@ -90617,6 +91764,7 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Steel",
     "acc": 100,
@@ -90627,10 +91775,13 @@ backup_moves = {
       2,
       2
     ],
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Dynamax Cannon": {
     "flags": {},
+    "eff": "DYNAMAX",
     "bp": 100,
     "type": "Dragon",
     "acc": 100,
@@ -90641,6 +91792,7 @@ backup_moves = {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "SNIPE",
     "bp": 70,
     "isBullet": true,
     "isBallistic": true,
@@ -90654,16 +91806,20 @@ backup_moves = {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Fighting",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
     "isBite": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PREVENT_ESCAPE",
+    "effChance": 100
   },
   "Stuff Cheeks": {
     "flags": {},
+    "eff": "STUFF",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -90671,6 +91827,7 @@ backup_moves = {
   },
   "No Retreat": {
     "flags": {},
+    "eff": "NO",
     "bp": 0,
     "type": "Fighting",
     "acc": 0,
@@ -90678,6 +91835,7 @@ backup_moves = {
   },
   "Tar Shot": {
     "flags": {},
+    "eff": "TAR",
     "bp": 0,
     "type": "Rock",
     "acc": 100,
@@ -90687,6 +91845,7 @@ backup_moves = {
     "flags": {
       "isPowder": true
     },
+    "eff": "SOAK",
     "bp": 0,
     "type": "Psychic",
     "acc": 100,
@@ -90695,6 +91854,7 @@ backup_moves = {
   },
   "Dragon Darts": {
     "flags": {},
+    "eff": "DRAGON",
     "bp": 50,
     "type": "Dragon",
     "acc": 100,
@@ -90706,6 +91866,7 @@ backup_moves = {
   },
   "Teatime": {
     "flags": {},
+    "eff": "TEATIME",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -90713,6 +91874,7 @@ backup_moves = {
   },
   "Octolock": {
     "flags": {},
+    "eff": "OCTOLOCK",
     "bp": 0,
     "type": "Fighting",
     "acc": 100,
@@ -90722,6 +91884,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "BOLT",
     "bp": 85,
     "type": "Electric",
     "acc": 100,
@@ -90733,6 +91896,7 @@ backup_moves = {
       "makesContact": true,
       "isBite": true
     },
+    "eff": "BOLT",
     "bp": 85,
     "type": "Water",
     "acc": 100,
@@ -90742,6 +91906,7 @@ backup_moves = {
   },
   "Court Change": {
     "flags": {},
+    "eff": "COURT",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -90752,6 +91917,7 @@ backup_moves = {
       "isSound": true,
       "isDance": true
     },
+    "eff": "CLANGOROUS",
     "bp": 0,
     "type": "Dragon",
     "acc": 100,
@@ -90763,6 +91929,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "BODY",
     "bp": 80,
     "type": "Fighting",
     "acc": 100,
@@ -90771,6 +91938,7 @@ backup_moves = {
   },
   "Decorate": {
     "flags": {},
+    "eff": "DECORATE",
     "bp": 0,
     "type": "Fairy",
     "acc": 0,
@@ -90778,22 +91946,28 @@ backup_moves = {
   },
   "Drum Beating": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Grass",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 100
   },
   "Snap Trap": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Steel",
     "acc": 85,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "WRAP",
+    "effChance": 100
   },
   "Pyro Ball": {
     "flags": {
@@ -90801,6 +91975,7 @@ backup_moves = {
       "isBallistic": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Fire",
     "acc": 90,
@@ -90808,6 +91983,8 @@ backup_moves = {
     "isBullet": true,
     "isBallistic": true,
     "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 10,
     "isKick": true
   },
   "Behemoth Blade": {
@@ -90815,6 +91992,7 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "DYNAMAX",
     "bp": 100,
     "type": "Steel",
     "acc": 100,
@@ -90826,6 +92004,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "DYNAMAX",
     "bp": 100,
     "type": "Steel",
     "acc": 100,
@@ -90834,28 +92013,36 @@ backup_moves = {
   },
   "Aura Wheel": {
     "flags": {},
+    "eff": "AURA",
     "bp": 110,
     "type": "Electric",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Breaking Swipe": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Dragon",
     "acc": 100,
     "pp": 15,
     "target": "allAdjacentFoes",
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_MINUS_1",
+    "effChance": 100
   },
   "Branch Poke": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Grass",
     "acc": 100,
@@ -90866,6 +92053,7 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Electric",
     "acc": 100,
@@ -90875,43 +92063,56 @@ backup_moves = {
   },
   "Apple Acid": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Grass",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_1",
+    "effChance": 100
   },
   "Grav Apple": {
     "flags": {},
+    "eff": "GRAV",
     "bp": 80,
     "type": "Grass",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 100
   },
   "Spirit Break": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 75,
     "type": "Fairy",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_1",
+    "effChance": 100
   },
   "Strange Steam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Fairy",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 20
   },
   "Life Dew": {
     "flags": {
       "isHealing": true
     },
+    "eff": "JUNGLE",
     "bp": 0,
     "type": "Water",
     "acc": 0,
@@ -90920,6 +92121,7 @@ backup_moves = {
   },
   "Obstruct": {
     "flags": {},
+    "eff": "PROTECT",
     "bp": 0,
     "type": "Dark",
     "acc": 100,
@@ -90930,6 +92132,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Dark",
     "acc": 0,
@@ -90938,22 +92141,31 @@ backup_moves = {
   },
   "Meteor Assault": {
     "flags": {},
+    "eff": "HIT",
     "bp": 160,
     "type": "Fighting",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RECHARGE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Eternabeam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 160,
     "type": "Dragon",
     "acc": 90,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RECHARGE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Steel Beam": {
     "flags": {},
+    "eff": "MAX",
     "bp": 140,
     "type": "Steel",
     "acc": 100,
@@ -90961,6 +92173,7 @@ backup_moves = {
   },
   "Expanding Force": {
     "flags": {},
+    "eff": "EXPANDING",
     "bp": 80,
     "type": "Psychic",
     "acc": 100,
@@ -90970,6 +92183,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 130,
     "type": "Steel",
     "acc": 100,
@@ -90978,6 +92192,7 @@ backup_moves = {
   },
   "Scale Shot": {
     "flags": {},
+    "eff": "MULTI",
     "multihit": [
       2,
       5
@@ -90989,22 +92204,30 @@ backup_moves = {
   },
   "Meteor Beam": {
     "flags": {},
+    "eff": "TWO",
     "bp": 120,
     "type": "Rock",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Shell Side Arm": {
     "flags": {},
+    "eff": "SHELL",
     "bp": 100,
     "type": "Poison",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 10
   },
   "Draco Barrage": {
     "flags": {},
+    "eff": "SHELL",
     "bp": 100,
     "type": "Dragon",
     "acc": 100,
@@ -91016,6 +92239,7 @@ backup_moves = {
   },
   "Misty Explosion": {
     "flags": {},
+    "eff": "EXPLOSION",
     "bp": 100,
     "type": "Fairy",
     "acc": 100,
@@ -91026,6 +92250,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "GRASSY",
     "bp": 60,
     "type": "Grass",
     "acc": 100,
@@ -91034,6 +92259,7 @@ backup_moves = {
   },
   "Rising Voltage": {
     "flags": {},
+    "eff": "RISING",
     "bp": 70,
     "type": "Electric",
     "acc": 100,
@@ -91043,6 +92269,7 @@ backup_moves = {
     "flags": {
       "isPulse": true
     },
+    "eff": "TERRAIN",
     "bp": 50,
     "type": "Normal",
     "acc": 100,
@@ -91053,26 +92280,33 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Bug",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_MINUS_1",
+    "effChance": 100
   },
   "Burning Jealousy": {
     "flags": {},
+    "eff": "HIT",
     "bp": 70,
     "type": "Fire",
     "acc": 100,
     "pp": 5,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 100
   },
   "Lash Out": {
     "flags": {
       "makesContact": true
     },
+    "eff": "LASH",
     "bp": 75,
     "type": "Dark",
     "acc": 100,
@@ -91081,6 +92315,7 @@ backup_moves = {
   },
   "Poltergeist": {
     "flags": {},
+    "eff": "POLTERGEIST",
     "bp": 110,
     "type": "Ghost",
     "acc": 90,
@@ -91088,6 +92323,7 @@ backup_moves = {
   },
   "Corrosive Gas": {
     "flags": {},
+    "eff": "CORROSIVE",
     "bp": 0,
     "type": "Poison",
     "acc": 100,
@@ -91096,6 +92332,7 @@ backup_moves = {
   },
   "Coaching": {
     "flags": {},
+    "eff": "COACHING",
     "bp": 0,
     "type": "Fighting",
     "acc": 0,
@@ -91105,6 +92342,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Water",
     "acc": 100,
@@ -91116,6 +92354,7 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "TRIPLE",
     "bp": 20,
     "type": "Ice",
     "acc": 90,
@@ -91131,6 +92370,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Flying",
     "acc": 100,
@@ -91143,16 +92383,20 @@ backup_moves = {
   },
   "Scorching Sands": {
     "flags": {},
+    "eff": "HIT",
     "bp": 70,
     "type": "Ground",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 30
   },
   "Jungle Healing": {
     "flags": {
       "isHealing": true
     },
+    "eff": "JUNGLE",
     "bp": 0,
     "type": "Grass",
     "acc": 0,
@@ -91164,6 +92408,7 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 75,
     "type": "Dark",
     "acc": 100,
@@ -91177,6 +92422,7 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 25,
     "type": "Water",
     "acc": 100,
@@ -91191,14 +92437,18 @@ backup_moves = {
   },
   "Thunder Cage": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Electric",
     "acc": 90,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "WRAP",
+    "effChance": 100
   },
   "Dragon Energy": {
     "flags": {},
+    "eff": "POWER",
     "bp": 150,
     "type": "Dragon",
     "acc": 100,
@@ -91208,35 +92458,45 @@ backup_moves = {
   "Freezing Glare": {
     "flags": {},
     "bp": 90,
+    "eff": "HIT",
     "type": "Psychic",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FREEZE_OR_FROSTBITE",
+    "effChance": 30
   },
   "Fiery Wrath": {
     "flags": {},
+    "eff": "HIT",
     "bp": 90,
     "type": "Dark",
     "acc": 100,
     "pp": 10,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 20
   },
   "Thunderous Kick": {
     "flags": {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Fighting",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
     "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 100,
     "isKick": true
   },
   "Glacial Lance": {
     "flags": {},
+    "eff": "HIT",
     "bp": 120,
     "type": "Ice",
     "acc": 100,
@@ -91245,6 +92505,7 @@ backup_moves = {
   },
   "Astral Barrage": {
     "flags": {},
+    "eff": "HIT",
     "bp": 120,
     "type": "Ghost",
     "acc": 100,
@@ -91255,37 +92516,48 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Psychic",
     "acc": 100,
     "pp": 5,
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "EERIE_SPELL",
+    "effChance": 100
   },
   "Dire Claw": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Poison",
     "acc": 100,
     "pp": 15,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DIRE_CLAW",
+    "effChance": 50
   },
   "Psyshield Bash": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Psychic",
     "acc": 100,
     "pp": 10,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Power Shift": {
     "flags": {},
+    "eff": "POWER",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -91296,46 +92568,61 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Rock",
     "acc": 90,
     "pp": 15,
     "makesContact": true,
     "isSword": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "STEALTH_ROCK",
+    "effChance": 100
   },
   "Springtide Storm": {
     "flags": {
       "isWind": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Fairy",
     "acc": 90,
     "pp": 5,
     "target": "allAdjacentFoes",
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_MINUS_1",
+    "effChance": 30
   },
   "Mystical Power": {
     "flags": {},
+    "eff": "HIT",
     "bp": 70,
     "type": "Psychic",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Raging Fury": {
     "flags": {},
+    "eff": "HIT",
     "bp": 9,
     "type": "Fire",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "THRASH",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Wave Crash": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Water",
     "acc": 100,
@@ -91348,6 +92635,7 @@ backup_moves = {
   },
   "Chloroblast": {
     "flags": {},
+    "eff": "MAX",
     "bp": 120,
     "type": "Grass",
     "acc": 100,
@@ -91355,16 +92643,20 @@ backup_moves = {
   },
   "Mountain Gale": {
     "flags": {},
+    "eff": "HIT",
     "bp": 120,
     "type": "Ice",
     "acc": 90,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 30
   },
   "Victory Dance": {
     "flags": {
       "isDance": true
     },
+    "eff": "VICTORY",
     "bp": 0,
     "type": "Fighting",
     "acc": 0,
@@ -91376,41 +92668,56 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 9,
     "type": "Ground",
     "acc": 100,
     "pp": 5,
     "makesContact": true,
     "isPunch": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_SPDEF_DOWN",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Barb Barrage": {
     "flags": {},
+    "eff": "DOUBLE",
     "bp": 60,
     "type": "Poison",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 50
   },
   "Esper Wing": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Psychic",
     "acc": 100,
     "crit_stage": 1,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Bitter Malice": {
     "flags": {},
+    "eff": "DOUBLE",
     "bp": 60,
     "type": "Ghost",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FREEZE_OR_FROSTBITE",
+    "effChance": 30
   },
   "Shelter": {
     "flags": {},
+    "eff": "DEFENSE",
     "bp": 0,
     "type": "Steel",
     "acc": 0,
@@ -91420,75 +92727,94 @@ backup_moves = {
     "flags": {
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Fighting",
     "acc": 100,
     "pp": 15,
     "crit_stage": 1,
     "secondaries": true,
+    "addEff": "DEF_MINUS_1",
+    "effChance": 50,
     "isKick": true
   },
   "Infernal Parade": {
     "flags": {},
+    "eff": "DOUBLE",
     "bp": 60,
     "type": "Ghost",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 30
   },
   "Ceaseless Edge": {
     "flags": {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 65,
     "type": "Dark",
     "acc": 90,
     "pp": 15,
     "makesContact": true,
     "isSword": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPIKES",
+    "effChance": 100
   },
   "Bleakwind Storm": {
     "flags": {
       "isWind": true
     },
+    "eff": "RAIN",
     "bp": 100,
     "type": "Flying",
     "acc": 90,
     "pp": 10,
     "target": "allAdjacentFoes",
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 30
   },
   "Wildbolt Storm": {
     "flags": {
       "isWind": true
     },
+    "eff": "RAIN",
     "bp": 100,
     "type": "Electric",
     "acc": 90,
     "pp": 10,
     "target": "allAdjacentFoes",
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 20
   },
   "Sandsear Storm": {
     "flags": {
       "isWind": true
     },
+    "eff": "RAIN",
     "bp": 100,
     "type": "Ground",
     "acc": 90,
     "pp": 10,
     "target": "allAdjacentFoes",
     "isWind": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 20
   },
   "Lunar Blessing": {
     "flags": {
       "isHealing": true
     },
+    "eff": "JUNGLE",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -91497,6 +92823,7 @@ backup_moves = {
   },
   "Take Heart": {
     "flags": {},
+    "eff": "TAKE",
     "bp": 0,
     "type": "Psychic",
     "acc": 0,
@@ -91504,14 +92831,19 @@ backup_moves = {
   },
   "Tera Blast": {
     "flags": {},
+    "eff": "TERA",
     "bp": 80,
     "type": "Normal",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "TERA_BLAST",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Silk Trap": {
     "flags": {},
+    "eff": "PROTECT",
     "bp": 0,
     "type": "Bug",
     "acc": 0,
@@ -91523,16 +92855,20 @@ backup_moves = {
       "makesContact": true,
       "isKick": true
     },
+    "eff": "RECOIL",
     "bp": 120,
     "type": "Fighting",
     "acc": 90,
     "pp": 10,
     "makesContact": true,
     "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 30,
     "isKick": true
   },
   "Last Respects": {
     "flags": {},
+    "eff": "LAST",
     "bp": 50,
     "type": "Ghost",
     "acc": 100,
@@ -91540,25 +92876,33 @@ backup_moves = {
   },
   "Lumina Crash": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Psychic",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_DEF_MINUS_2",
+    "effChance": 100
   },
   "Order Up": {
     "flags": {},
+    "eff": "ORDER",
     "bp": 80,
     "type": "Dragon",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ORDER_UP",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Jet Punch": {
     "flags": {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Water",
     "acc": 100,
@@ -91569,6 +92913,7 @@ backup_moves = {
   },
   "Spicy Extract": {
     "flags": {},
+    "eff": "SPICY",
     "bp": 0,
     "type": "Grass",
     "acc": 0,
@@ -91578,18 +92923,23 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 110,
     "type": "Steel",
     "acc": 100,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_2",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Population Bomb": {
     "flags": {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "POPULATION",
     "bp": 20,
     "type": "Normal",
     "acc": 90,
@@ -91605,6 +92955,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Ice",
     "acc": 100,
@@ -91615,6 +92966,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "GLAIVE",
     "bp": 120,
     "type": "Dragon",
     "acc": 100,
@@ -91625,6 +92977,7 @@ backup_moves = {
     "flags": {
       "isHealing": true
     },
+    "eff": "REVIVAL",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -91633,16 +92986,20 @@ backup_moves = {
   },
   "Salt Cure": {
     "flags": {},
+    "eff": "HIT",
     "bp": 40,
     "type": "Rock",
     "acc": 100,
     "pp": 15,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SALT_CURE",
+    "effChance": 100
   },
   "Triple Dive": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 40,
     "type": "Water",
     "acc": 90,
@@ -91657,16 +93014,21 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 30,
     "type": "Poison",
     "acc": 100,
     "pp": 15,
     "target": "allAdjacentFoes",
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "RAPID_SPIN",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Doodle": {
     "flags": {},
+    "eff": "DOODLE",
     "bp": 0,
     "type": "Normal",
     "acc": 100,
@@ -91674,6 +93036,7 @@ backup_moves = {
   },
   "Fillet Away": {
     "flags": {},
+    "eff": "RECOVER",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -91684,6 +93047,7 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 85,
     "type": "Dark",
     "acc": 0,
@@ -91693,6 +93057,7 @@ backup_moves = {
   },
   "Flower Trick": {
     "flags": {},
+    "eff": "HIT",
     "bp": 70,
     "type": "Grass",
     "acc": 0,
@@ -91703,12 +93068,16 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Fire",
     "acc": 100,
     "pp": 10,
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Aqua Step": {
     "flags": {
@@ -91716,6 +93085,7 @@ backup_moves = {
       "isDance": true,
       "isKick": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Water",
     "acc": 100,
@@ -91723,12 +93093,16 @@ backup_moves = {
     "makesContact": true,
     "isDance": true,
     "secondaries": true,
+    "addEff": "SPD_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100,
     "isKick": true
   },
   "Raging Bull": {
     "flags": {
       "makesContact": true
     },
+    "eff": "RAGING",
     "bp": 90,
     "type": "Normal",
     "acc": 100,
@@ -91737,15 +93111,19 @@ backup_moves = {
   },
   "Make It Rain": {
     "flags": {},
+    "eff": "HIT",
     "bp": 120,
     "type": "Steel",
     "acc": 100,
     "pp": 5,
     "target": "allAdjacentFoes",
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PAYDAY",
+    "effChance": 100
   },
   "Ruination": {
     "flags": {},
+    "eff": "SUPER",
     "bp": 1,
     "type": "Dark",
     "acc": 100,
@@ -91755,6 +93133,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "COLLISION",
     "bp": 100,
     "type": "Fighting",
     "acc": 100,
@@ -91765,6 +93144,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "COLLISION",
     "bp": 100,
     "type": "Electric",
     "acc": 100,
@@ -91773,6 +93153,7 @@ backup_moves = {
   },
   "Shed Tail": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -91780,6 +93161,7 @@ backup_moves = {
   },
   "Chilly Reception": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Ice",
     "acc": 0,
@@ -91787,6 +93169,7 @@ backup_moves = {
   },
   "Tidy Up": {
     "flags": {},
+    "eff": "TIDY",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -91794,6 +93177,7 @@ backup_moves = {
   },
   "Snowscape": {
     "flags": {},
+    "eff": "SPD",
     "bp": 0,
     "type": "Ice",
     "acc": 0,
@@ -91803,36 +93187,47 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Bug",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_MINUS_1",
+    "effChance": 100
   },
   "Trailblaze": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 50,
     "type": "Grass",
     "acc": 100,
     "pp": 20,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SPD_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Chilling Water": {
     "flags": {},
+    "eff": "HIT",
     "bp": 50,
     "type": "Water",
     "acc": 100,
     "pp": 20,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ATK_MINUS_1",
+    "effChance": 100
   },
   "Hyper Drill": {
     "flags": {
       "makesContact": true
     },
+    "eff": "HIT",
     "bp": 100,
     "type": "Normal",
     "acc": 100,
@@ -91841,6 +93236,7 @@ backup_moves = {
   },
   "Twin Beam": {
     "flags": {},
+    "eff": "HIT",
     "bp": 50,
     "type": "Psychic",
     "acc": 100,
@@ -91855,6 +93251,7 @@ backup_moves = {
       "makesContact": true,
       "isPunch": true
     },
+    "eff": "RAGE",
     "bp": 50,
     "type": "Ghost",
     "acc": 100,
@@ -91866,12 +93263,16 @@ backup_moves = {
     "flags": {
       "isPulse": true
     },
+    "eff": "HIT",
     "bp": 120,
     "type": "Fire",
     "acc": 100,
     "pp": 5,
     "isPulse": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "DEF_SPDEF_DOWN",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Bitter Blade": {
     "flags": {
@@ -91879,6 +93280,7 @@ backup_moves = {
       "isSword": true,
       "isHealing": true
     },
+    "eff": "ABSORB",
     "bp": 90,
     "type": "Fire",
     "acc": 100,
@@ -91895,15 +93297,20 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "FAIL",
     "bp": 120,
     "type": "Electric",
     "acc": 100,
     "pp": 5,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "REMOVE_ARG_TYPE",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Gigaton Hammer": {
     "flags": {},
+    "eff": "HIT",
     "bp": 160,
     "type": "Steel",
     "acc": 100,
@@ -91913,6 +93320,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "METAL",
     "bp": 1,
     "type": "Dark",
     "acc": 100,
@@ -91923,6 +93331,7 @@ backup_moves = {
     "flags": {
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 70,
     "type": "Water",
     "acc": 100,
@@ -91932,49 +93341,65 @@ backup_moves = {
   },
   "Blazing Torque": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Fire",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 30
   },
   "Wicked Torque": {
     "flags": {},
+    "eff": "HIT",
     "bp": 80,
     "type": "Dark",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SLEEP",
+    "effChance": 10
   },
   "Noxious Torque": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Poison",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "POISON",
+    "effChance": 30
   },
   "Combat Torque": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Fighting",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 30
   },
   "Magical Torque": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Fairy",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 30
   },
   "Psyblade": {
     "flags": {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "PSYBLADE",
     "bp": 80,
     "type": "Psychic",
     "acc": 100,
@@ -91984,6 +93409,7 @@ backup_moves = {
   },
   "Hydro Steam": {
     "flags": {},
+    "eff": "HYDRO",
     "bp": 80,
     "type": "Water",
     "acc": 100,
@@ -91991,6 +93417,7 @@ backup_moves = {
   },
   "Blood Moon": {
     "flags": {},
+    "eff": "HIT",
     "bp": 140,
     "type": "Normal",
     "acc": 100,
@@ -91998,6 +93425,7 @@ backup_moves = {
   },
   "Matcha Gotcha": {
     "flags": {},
+    "eff": "ABSORB",
     "bp": 80,
     "type": "Grass",
     "acc": 100,
@@ -92007,23 +93435,29 @@ backup_moves = {
       50,
       100
     ],
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "BURN",
+    "effChance": 20
   },
   "Syrup Bomb": {
     "flags": {
       "isBullet": true,
       "isBallistic": true
     },
+    "eff": "HIT",
     "bp": 60,
     "type": "Grass",
     "acc": 85,
     "pp": 10,
     "isBullet": true,
     "isBallistic": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SYRUP_BOMB",
+    "effChance": 100
   },
   "Ivy Cudgel": {
     "flags": {},
+    "eff": "IVY",
     "bp": 100,
     "type": "Grass",
     "acc": 100,
@@ -92032,14 +93466,19 @@ backup_moves = {
   },
   "Electro Shot": {
     "flags": {},
+    "eff": "TWO",
     "bp": 130,
     "type": "Electric",
     "acc": 100,
     "pp": 10,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "SP_ATK_PLUS_1",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Tera Starstorm": {
     "flags": {},
+    "eff": "TERA",
     "bp": 120,
     "type": "Normal",
     "acc": 100,
@@ -92047,6 +93486,7 @@ backup_moves = {
   },
   "Fickle Beam": {
     "flags": {},
+    "eff": "FICKLE",
     "bp": 80,
     "type": "Dragon",
     "acc": 100,
@@ -92054,6 +93494,7 @@ backup_moves = {
   },
   "Burning Bulwark": {
     "flags": {},
+    "eff": "RESET",
     "bp": 0,
     "type": "Fire",
     "acc": 0,
@@ -92062,6 +93503,7 @@ backup_moves = {
   },
   "Thunderclap": {
     "flags": {},
+    "eff": "SUCKER",
     "bp": 70,
     "type": "Electric",
     "acc": 100,
@@ -92073,6 +93515,7 @@ backup_moves = {
       "makesContact": true,
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 90,
     "type": "Rock",
     "acc": 100,
@@ -92084,6 +93527,7 @@ backup_moves = {
     "flags": {
       "isSword": true
     },
+    "eff": "HIT",
     "bp": 50,
     "type": "Steel",
     "acc": 0,
@@ -92098,6 +93542,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "POWER",
     "bp": 100,
     "type": "Steel",
     "acc": 100,
@@ -92106,6 +93551,7 @@ backup_moves = {
   },
   "Dragon Cheer": {
     "flags": {},
+    "eff": "DRAGON",
     "bp": 0,
     "type": "Dragon",
     "acc": 0,
@@ -92115,17 +93561,21 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 80,
     "type": "Fairy",
     "acc": 100,
     "pp": 10,
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "CONFUSION",
+    "effChance": 100
   },
   "Temper Flare": {
     "flags": {
       "makesContact": true
     },
+    "eff": "STOMPING",
     "bp": 75,
     "type": "Fire",
     "acc": 100,
@@ -92136,6 +93586,7 @@ backup_moves = {
     "flags": {
       "makesContact": true
     },
+    "eff": "RECOIL",
     "bp": 120,
     "type": "Electric",
     "acc": 95,
@@ -92146,12 +93597,15 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "UPPER",
     "bp": 75,
     "type": "Psychic",
     "acc": 100,
     "pp": 10,
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PSYCHIC_NOISE",
+    "effChance": 100
   },
   "Upper Hand": {
     "flags": {
@@ -92163,18 +93617,24 @@ backup_moves = {
     "pp": 15,
     "priority": 3,
     "makesContact": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "FLINCH",
+    "effChance": 100
   },
   "Malignant Chain": {
     "flags": {},
+    "eff": "HIT",
     "bp": 100,
     "type": "Poison",
     "acc": 100,
     "pp": 5,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "TOXIC",
+    "effChance": 50
   },
   "Breakneck Blitz": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Normal",
     "acc": 0,
@@ -92182,6 +93642,7 @@ backup_moves = {
   },
   "All Out Pummeling": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Fighting",
     "acc": 0,
@@ -92189,6 +93650,7 @@ backup_moves = {
   },
   "Supersonic Skystrike": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Flying",
     "acc": 0,
@@ -92196,6 +93658,7 @@ backup_moves = {
   },
   "Acid Downpour": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Poison",
     "acc": 0,
@@ -92203,6 +93666,7 @@ backup_moves = {
   },
   "Tectonic Rage": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Ground",
     "acc": 0,
@@ -92210,6 +93674,7 @@ backup_moves = {
   },
   "Continental Crush": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Rock",
     "acc": 0,
@@ -92217,6 +93682,7 @@ backup_moves = {
   },
   "Savage Spin Out": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Bug",
     "acc": 0,
@@ -92224,6 +93690,7 @@ backup_moves = {
   },
   "Never Ending Nightmare": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Ghost",
     "acc": 0,
@@ -92231,6 +93698,7 @@ backup_moves = {
   },
   "Corkscrew Crash": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Steel",
     "acc": 0,
@@ -92238,6 +93706,7 @@ backup_moves = {
   },
   "Inferno Overdrive": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Fire",
     "acc": 0,
@@ -92245,6 +93714,7 @@ backup_moves = {
   },
   "Hydro Vortex": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Water",
     "acc": 0,
@@ -92252,6 +93722,7 @@ backup_moves = {
   },
   "Bloom Doom": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Grass",
     "acc": 0,
@@ -92259,6 +93730,7 @@ backup_moves = {
   },
   "Gigavolt Havoc": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Electric",
     "acc": 0,
@@ -92266,6 +93738,7 @@ backup_moves = {
   },
   "Shattered Psyche": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Psychic",
     "acc": 0,
@@ -92273,6 +93746,7 @@ backup_moves = {
   },
   "Subzero Slammer": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Ice",
     "acc": 0,
@@ -92280,6 +93754,7 @@ backup_moves = {
   },
   "Devastating Drake": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Dragon",
     "acc": 0,
@@ -92287,6 +93762,7 @@ backup_moves = {
   },
   "Black Hole Eclipse": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Dark",
     "acc": 0,
@@ -92294,6 +93770,7 @@ backup_moves = {
   },
   "Twinkle Tackle": {
     "flags": {},
+    "eff": "HIT",
     "bp": 1,
     "type": "Fairy",
     "acc": 0,
@@ -92301,6 +93778,7 @@ backup_moves = {
   },
   "Catastropika": {
     "flags": {},
+    "eff": "HIT",
     "bp": 210,
     "type": "Electric",
     "acc": 0,
@@ -92308,6 +93786,7 @@ backup_moves = {
   },
   "10,000,000 Volt Thunderbolt": {
     "flags": {},
+    "eff": "HIT",
     "bp": 195,
     "type": "Electric",
     "acc": 0,
@@ -92316,14 +93795,18 @@ backup_moves = {
   },
   "Stoked Sparksurfer": {
     "flags": {},
+    "eff": "HIT",
     "bp": 175,
     "type": "Electric",
     "acc": 0,
     "pp": 1,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "PARALYSIS",
+    "effChance": 100
   },
   "Extreme Evoboost": {
     "flags": {},
+    "eff": "EXTREME",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -92331,6 +93814,7 @@ backup_moves = {
   },
   "Pulverizing Pancake": {
     "flags": {},
+    "eff": "HIT",
     "bp": 210,
     "type": "Normal",
     "acc": 0,
@@ -92338,6 +93822,7 @@ backup_moves = {
   },
   "Genesis Supernova": {
     "flags": {},
+    "eff": "HIT",
     "bp": 185,
     "type": "Psychic",
     "acc": 0,
@@ -92345,6 +93830,7 @@ backup_moves = {
   },
   "Sinister Arrow Raid": {
     "flags": {},
+    "eff": "HIT",
     "bp": 180,
     "type": "Ghost",
     "acc": 0,
@@ -92352,6 +93838,7 @@ backup_moves = {
   },
   "Malicious Moonsault": {
     "flags": {},
+    "eff": "HIT",
     "bp": 180,
     "type": "Dark",
     "acc": 0,
@@ -92359,6 +93846,7 @@ backup_moves = {
   },
   "Oceanic Operetta": {
     "flags": {},
+    "eff": "HIT",
     "bp": 195,
     "type": "Water",
     "acc": 0,
@@ -92366,6 +93854,7 @@ backup_moves = {
   },
   "Splintered Stormshards": {
     "flags": {},
+    "eff": "HIT",
     "bp": 190,
     "type": "Rock",
     "acc": 0,
@@ -92373,6 +93862,7 @@ backup_moves = {
   },
   "Let's Snuggle Forever": {
     "flags": {},
+    "eff": "HIT",
     "bp": 190,
     "type": "Fairy",
     "acc": 0,
@@ -92382,16 +93872,21 @@ backup_moves = {
     "flags": {
       "isSound": true
     },
+    "eff": "HIT",
     "bp": 185,
     "type": "Dragon",
     "acc": 0,
     "pp": 1,
     "target": "allAdjacentFoes",
     "isSound": true,
-    "secondaries": true
+    "secondaries": true,
+    "addEff": "ALL_STATS_UP",
+    "addEffTarget": "self",
+    "effChance": 100
   },
   "Guardian of Alola": {
     "flags": {},
+    "eff": "GUARDIAN",
     "bp": 1,
     "type": "Fairy",
     "acc": 0,
@@ -92399,6 +93894,7 @@ backup_moves = {
   },
   "Searing Sunraze Smash": {
     "flags": {},
+    "eff": "HIT",
     "bp": 200,
     "type": "Steel",
     "acc": 0,
@@ -92406,6 +93902,7 @@ backup_moves = {
   },
   "Menacing Moonraze Maelstrom": {
     "flags": {},
+    "eff": "HIT",
     "bp": 200,
     "type": "Ghost",
     "acc": 0,
@@ -92413,6 +93910,7 @@ backup_moves = {
   },
   "Light That Burns The Sky": {
     "flags": {},
+    "eff": "PHOTON",
     "bp": 200,
     "type": "Psychic",
     "acc": 0,
@@ -92420,6 +93918,7 @@ backup_moves = {
   },
   "Soul Stealing 7 Star Strike": {
     "flags": {},
+    "eff": "HIT",
     "bp": 195,
     "type": "Ghost",
     "acc": 0,
@@ -92427,6 +93926,7 @@ backup_moves = {
   },
   "Max Guard": {
     "flags": {},
+    "eff": "PROTECT",
     "bp": 0,
     "type": "Normal",
     "acc": 0,
@@ -92435,6 +93935,7 @@ backup_moves = {
   },
   "Max Flare": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Fire",
     "acc": 0,
@@ -92442,6 +93943,7 @@ backup_moves = {
   },
   "Max Flutterby": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Bug",
     "acc": 0,
@@ -92449,6 +93951,7 @@ backup_moves = {
   },
   "Max Lightning": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Electric",
     "acc": 0,
@@ -92456,6 +93959,7 @@ backup_moves = {
   },
   "Max Strike": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Normal",
     "acc": 0,
@@ -92463,6 +93967,7 @@ backup_moves = {
   },
   "Max Knuckle": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Fighting",
     "acc": 0,
@@ -92470,6 +93975,7 @@ backup_moves = {
   },
   "Max Phantasm": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Ghost",
     "acc": 0,
@@ -92477,6 +93983,7 @@ backup_moves = {
   },
   "Max Hailstorm": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Ice",
     "acc": 0,
@@ -92484,6 +93991,7 @@ backup_moves = {
   },
   "Max Ooze": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Poison",
     "acc": 0,
@@ -92491,6 +93999,7 @@ backup_moves = {
   },
   "Max Geyser": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Water",
     "acc": 0,
@@ -92498,6 +94007,7 @@ backup_moves = {
   },
   "Max Airstream": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Flying",
     "acc": 0,
@@ -92505,6 +94015,7 @@ backup_moves = {
   },
   "Max Starfall": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Fairy",
     "acc": 0,
@@ -92512,6 +94023,7 @@ backup_moves = {
   },
   "Max Wyrmwind": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Dragon",
     "acc": 0,
@@ -92519,6 +94031,7 @@ backup_moves = {
   },
   "Max Mindstorm": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Psychic",
     "acc": 0,
@@ -92526,6 +94039,7 @@ backup_moves = {
   },
   "Max Rockfall": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Rock",
     "acc": 0,
@@ -92533,6 +94047,7 @@ backup_moves = {
   },
   "Max Quake": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Ground",
     "acc": 0,
@@ -92540,6 +94055,7 @@ backup_moves = {
   },
   "Max Darkness": {
     "flags": {},
+    "eff": "MAX",
     "bp": 1,
     "type": "Dark",
     "acc": 0,
@@ -92547,6 +94063,7 @@ backup_moves = {
   },
   "Max Overgrowth": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Grass",
     "acc": 0,
@@ -92554,6 +94071,7 @@ backup_moves = {
   },
   "Max Steelspike": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Steel",
     "acc": 0,
@@ -92561,6 +94079,7 @@ backup_moves = {
   },
   "G-Max Vine Lash": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Grass",
     "acc": 0,
@@ -92568,6 +94087,7 @@ backup_moves = {
   },
   "G-Max Wildfire": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Fire",
     "acc": 0,
@@ -92575,6 +94095,7 @@ backup_moves = {
   },
   "G-Max Canonade": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Water",
     "acc": 0,
@@ -92582,6 +94103,7 @@ backup_moves = {
   },
   "G-Max Befuddle": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Bug",
     "acc": 0,
@@ -92589,6 +94111,7 @@ backup_moves = {
   },
   "G-Max Volt Crash": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Electric",
     "acc": 0,
@@ -92596,6 +94119,7 @@ backup_moves = {
   },
   "G-Max Gold Rush": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Normal",
     "acc": 0,
@@ -92603,6 +94127,7 @@ backup_moves = {
   },
   "G-Max Chi Strike": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Fighting",
     "acc": 0,
@@ -92610,6 +94135,7 @@ backup_moves = {
   },
   "G-Max Terror": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Ghost",
     "acc": 0,
@@ -92617,6 +94143,7 @@ backup_moves = {
   },
   "G-Max Foam Burst": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Water",
     "acc": 0,
@@ -92624,6 +94151,7 @@ backup_moves = {
   },
   "G-Max Resonance": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Ice",
     "acc": 0,
@@ -92631,6 +94159,7 @@ backup_moves = {
   },
   "G-Max Cuddle": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Normal",
     "acc": 0,
@@ -92638,6 +94167,7 @@ backup_moves = {
   },
   "G-Max Replenish": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Normal",
     "acc": 0,
@@ -92645,6 +94175,7 @@ backup_moves = {
   },
   "G-Max Malodor": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Poison",
     "acc": 0,
@@ -92652,6 +94183,7 @@ backup_moves = {
   },
   "G-Max Meltdown": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Steel",
     "acc": 0,
@@ -92659,6 +94191,7 @@ backup_moves = {
   },
   "G-Max Drum Solo": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Grass",
     "acc": 0,
@@ -92666,6 +94199,7 @@ backup_moves = {
   },
   "G-Max Fireball": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Fire",
     "acc": 0,
@@ -92673,6 +94207,7 @@ backup_moves = {
   },
   "G-Max Hydrosnipe": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Water",
     "acc": 0,
@@ -92680,6 +94215,7 @@ backup_moves = {
   },
   "G-Max Wind Rage": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Flying",
     "acc": 0,
@@ -92687,6 +94223,7 @@ backup_moves = {
   },
   "G-Max Gravitas": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Psychic",
     "acc": 0,
@@ -92694,6 +94231,7 @@ backup_moves = {
   },
   "G-Max Stonesurge": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Water",
     "acc": 0,
@@ -92701,6 +94239,7 @@ backup_moves = {
   },
   "G-Max Volcalith": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Rock",
     "acc": 0,
@@ -92708,6 +94247,7 @@ backup_moves = {
   },
   "G-Max Tartness": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Grass",
     "acc": 0,
@@ -92715,6 +94255,7 @@ backup_moves = {
   },
   "G-Max Sweetness": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Grass",
     "acc": 0,
@@ -92722,6 +94263,7 @@ backup_moves = {
   },
   "G-Max Sandblast": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Ground",
     "acc": 0,
@@ -92729,6 +94271,7 @@ backup_moves = {
   },
   "G-Max Stun Shock": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Electric",
     "acc": 0,
@@ -92736,6 +94279,7 @@ backup_moves = {
   },
   "G-Max Centiferno": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Fire",
     "acc": 0,
@@ -92743,6 +94287,7 @@ backup_moves = {
   },
   "G-Max Smite": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Fairy",
     "acc": 0,
@@ -92750,6 +94295,7 @@ backup_moves = {
   },
   "G-Max Snooze": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Dark",
     "acc": 0,
@@ -92757,6 +94303,7 @@ backup_moves = {
   },
   "G-Max Finale": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Fairy",
     "acc": 0,
@@ -92764,6 +94311,7 @@ backup_moves = {
   },
   "G-Max Steelsurge": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Steel",
     "acc": 0,
@@ -92771,6 +94319,7 @@ backup_moves = {
   },
   "G-Max Depletion": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Dragon",
     "acc": 0,
@@ -92778,6 +94327,7 @@ backup_moves = {
   },
   "G-Max One Blow": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Dark",
     "acc": 0,
@@ -92785,6 +94335,7 @@ backup_moves = {
   },
   "G-Max Rapid Flow": {
     "flags": {},
+    "eff": "MAX",
     "bp": 10,
     "type": "Water",
     "acc": 0,
