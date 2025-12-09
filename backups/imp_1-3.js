@@ -82648,7 +82648,7 @@ backup_data = {
       "sublevel": 0
     }
   },
-  "Toxtricity Low Key": {
+  "Toxtricity-Low-Key": {
     "Lvl 0 Rival Natn ": {
       "ivs": {
         "hp": 31,
