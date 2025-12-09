@@ -1457,21 +1457,6 @@ $(".gen").change(function () {
 	/*eslint-disable */
 	gen = ~~$(this).val() || 8;
 	GENERATION = calc.Generations.get(gen);
-	// if (gen === 8) {
-	// 	// params.delete('gen');
-	// 	// params = '' + params;
-	// 	// if (window.history && window.history.replaceState) {
-	// 	// 	window.history.replaceState({}, document.title, window.location.pathname + (params.length ? '?' + params : ''));
-	// 	// }
-	// } else {
-	// 	params.set('gen', gen);
-	// 	if (window.history && window.history.pushState) {
-	// 		params.sort();
-	// 		var path = window.location.pathname + '?' + params;
-	// 		window.history.pushState({}, document.title, path);
-	// 		gtag('config', 'UA-26211653-3', {'page_path': path});
-	// 	}
-	// }
 	genWasChanged = true;
 	/* eslint-enable */
 	// declaring these variables with var here makes z moves not work; TODO
@@ -1484,7 +1469,6 @@ $(".gen").change(function () {
 
 	if (!DEFAULTS_LOADED) {
 		pokedex = calc.SPECIES[gen];
-		console.log("loading defaults")
 		setdex = SETDEX[gen];
 		if (TITLE == "Ancestral X")
 			moves = calc.MOVES[6];
@@ -1492,11 +1476,6 @@ $(".gen").change(function () {
 			moves = calc.MOVES[9];
 		DEFAULTS_LOADED = true
 	}
-
-
-
-	
-
 
 	clearField();
 	$("#importedSets").prop("checked", false);
@@ -1511,17 +1490,13 @@ $(".gen").change(function () {
 	$("select.ability").find("option").remove().end().append("<option value=\"\">(other)</option>" + abilityOptions);
 	var itemOptions = getSelectOptions(items, true);
 	$("select.item").find("option").remove().end().append("<option value=\"\">(none)</option>" + itemOptions);
-
-
 });
 
 function getFirstValidSetOption(side="left") {
 	var sets = getSetOptions();
 
-	console.log(side)
 	if (localStorage[side]) {
 		var setData = {}
-		console.log(localStorage[side])
 		setData["pokemon"] = localStorage[side].split(" (")[0]
 		setData["set"] = localStorage[side].split(" (")[1].split(")")[0]
 		setData["nickname"] = ""
@@ -1530,12 +1505,6 @@ function getFirstValidSetOption(side="left") {
 		return setData
 	} 
 
-	
-
-	// NB: The first set is never valid, so we start searching after it.
-	// for (var i = 1; i < sets.length; i++) {
-	// 	if (sets[i].id && sets[i].id.indexOf('(Blank Set)') === -1) return sets[i];
-	// }
 	return undefined;
 }
 
@@ -1737,79 +1706,6 @@ function getTerrainEffects() {
 	}
 }
 
-function loadDefaultLists() {
-	$(".player.set-selector").select2({
-		formatResult: function (object) {
-			if ($("#randoms").prop("checked")) {
-				return object.pokemon;
-			} else {
-				// return object.text;
-				return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.text) : ("<b>" + object.text + "</b>");
-			}
-		},
-		query: function (query) {
-			var pageSize = 30;
-			var results = [];
-			var options = getSetOptions();
-			for (var i = 0; i < options.length; i++) {
-				var option = options[i];
-				// var pokeName = option.pokemon.toUpperCase();
-				var fullName = option.text.toUpperCase();
-				if (!query.term || query.term.toUpperCase().split(" ").every(function (term) {
-					// return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0;
-					return fullName.indexOf(term) === 0 || fullName.indexOf("-" + term) >= 0 || fullName.indexOf(" " + term) >= 0 || fullName.indexOf("(" + term) >= 0;
-					// return fullName.indexOf(term) === 0 || fullName.indexOf("-" + term) >= 0 || fullName.indexOf("(" + term) >= 0;
-				})) {
-					if ($("#randoms").prop("checked")) {
-						if (option.id) results.push(option);
-					} else {
-						results.push(option);
-					}
-				}
-			}
-			query.callback({
-				results: results.slice((query.page - 1) * pageSize, query.page * pageSize),
-				more: results.length >= query.page * pageSize
-			});
-		}
-	});
-	$(".opposing.set-selector").select2({
-		formatResult: function (object) {
-			if ($("#randoms").prop("checked")) {
-				return object.pokemon;
-			} else {
-				// return object.text;
-				return object.set ? ("&nbsp;&nbsp;&nbsp;" + object.text) : ("<b>" + object.text + "</b>");
-			}
-		},
-		query: function (query) {
-			var pageSize = 30;
-			var results = [];
-			var options = getSetOptions();
-			for (var i = 0; i < options.length; i++) {
-				var option = options[i];
-				// var pokeName = option.pokemon.toUpperCase();
-				var fullName = option.text.toUpperCase();
-				if (!query.term || query.term.toUpperCase().split(" ").every(function (term) {
-					// return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0;
-					return fullName.indexOf(term) === 0 || fullName.indexOf("-" + term) >= 0 || fullName.indexOf(" " + term) >= 0 || fullName.indexOf("(" + term) >= 0;
-					// return fullName.indexOf(term) === 0 || fullName.indexOf("-" + term) >= 0 || fullName.indexOf("(" + term) >= 0;
-				})) {
-					if ($("#randoms").prop("checked")) {
-						if (option.id) results.push(option);
-					} else {
-						results.push(option);
-					}
-				}
-			}
-			query.callback({
-				results: results.slice((query.page - 1) * pageSize, query.page * pageSize),
-				more: results.length >= query.page * pageSize
-			});
-		}
-	});
-}
-
 function allPokemon(selector) {
 	var allSelector = "";
 	for (var i = 0; i < $(".poke-info").length; i++) {
@@ -1819,37 +1715,6 @@ function allPokemon(selector) {
 		allSelector += "#p" + (i + 1) + " " + selector;
 	}
 	return allSelector;
-}
-
-function loadCustomList(id) {
-	$("#" + id + " .set-selector").select2({
-		formatResult: function (set) {
-			return (set.nickname ? set.pokemon + " (" + set.nickname + ")" : set.id);
-		},
-		query: function (query) {
-			var pageSize = 30;
-			var results = [];
-			var options = getSetOptions();
-			for (var i = 0; i < options.length; i++) {
-				var option = options[i];
-				var pokeName = option.pokemon.toUpperCase();
-				var setName = option.set ? option.set.toUpperCase() : option.set;
-				if (option.isCustom && option.set && (!query.term || query.term.toUpperCase().split(" ").every(function (term) {
-					return pokeName.indexOf(term) === 0 || pokeName.indexOf("-" + term) >= 0 || pokeName.indexOf(" " + term) >= 0 || setName.indexOf(term) === 0 || setName.indexOf("-" + term) >= 0 || setName.indexOf(" " + term) >= 0;
-				}))) {
-					results.push(option);
-				}
-			}
-			query.callback({
-				results: results.slice((query.page - 1) * pageSize, query.page * pageSize),
-				more: results.length >= query.page * pageSize
-			});
-		},
-		initSelection: function (element, callback) {
-			var data = "";
-			callback(data);
-		}
-	});
 }
 
 
