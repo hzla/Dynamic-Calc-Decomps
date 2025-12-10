@@ -428,7 +428,8 @@ exports.MEGA_STONES = {
     Slakite: 'Slaking',
     Roseradite: 'Roserade',
     Dusknoirite: 'Dusknoir',
-    Luxrite: 'Luxray'
+    Luxrite: 'Luxray',
+    Houndoomnite: "Houndoomnite"
 };
 var XY = BW.concat(__spreadArray(__spreadArray([], __read(Object.keys(exports.MEGA_STONES)), false), [
     'Assault Vest',
