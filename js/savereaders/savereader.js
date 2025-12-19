@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     console.log(TITLE)
-    if (TITLE == "Renegade Platinum") {
+    if (gameGen == 4 || gameGen == 5) {
         $('#save-upload').attr('id', 'save-upload-g45')
          
          $('#read-save').show()

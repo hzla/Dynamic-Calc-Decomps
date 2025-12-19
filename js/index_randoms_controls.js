@@ -134,6 +134,7 @@ function performCalculations() {
 	bestResult.change();
 	$("#resultHeaderL").text(p1.name + "'s Moves (select one to show detailed results)");
 	$("#resultHeaderR").text(p2.name + "'s Moves (select one to show detailed results)");
+
 }
 
 $(".result-move").change(function () {
@@ -146,6 +147,7 @@ $(".result-move").change(function () {
 			$("#damageValues").html("Possible damage amounts: (" + displayDamageHits(result.damage) + ")");
 		}
 	}
+
 
 	var move = $(".results-right .visually-hidden:checked + .btn").text()    
 });

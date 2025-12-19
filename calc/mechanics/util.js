@@ -292,7 +292,6 @@ function checkDownload(source, target, wonderRoomActive) {
 exports.checkDownload = checkDownload;
 function checkIntrepidSword(source, gen) {
     if (source.hasAbility('Intrepid Sword') && gen.num > 7  && source.abilityOn) {
-        console.log(source)
         source.boosts.atk = Math.min(6, source.boosts.atk + 1);
     }
 }
@@ -559,7 +558,6 @@ function getFinalDamage(baseAmount, i, effectiveness, isBurned, stabMod, finalMo
     if (stabMod !== 4096)
         damageAmount = OF32(damageAmount * stabMod) / 4096;
     damageAmount = Math.floor(OF32(pokeRound(damageAmount) * effectiveness));
-
     if (isBurned || isFrostbitten)
         damageAmount = Math.floor(damageAmount / 2);
     if (protect)
