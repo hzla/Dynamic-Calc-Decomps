@@ -7,7 +7,8 @@ function get_next_in_g5() {
     if (TITLE == "Cascade White 2") {
         var weather = $('#weather-bar').find('input:checked')[0].value
         var weathers = {"Sun": "Fire", "Hail": "Ice", "Sand": "Rock", "Rain": "Water"}
-        var immunities = {"Dry Skin": "Water", "Flash Fire": "Fire", "Levitate": "Ground", "Sap Sipper": "Grass", "Motor Drive": "Electric", "Storm Drain": "Water", "Volt Absorb": "Electric", "Water Absorb": "Water"}
+        var immunities = {"Dry Skin": "Water", "Flash Fire": "Fire", "Well-Baked Body": "Fire", "Levitate": "Ground", "Sap Sipper": "Grass", "Motor Drive": "Electric", "Storm Drain": "Water", "Volt Absorb": "Electric", "Water Absorb": "Water", "Lightning Rod": "Electric", "Thunder Armor": "Electric"}
+        var resistances = {"Slush Rush": "Ice", "Swift Swim": "Water", "Sand Rush": "Ground", "Justified": "Dark", "Toxic Boost": "Poison"}
         var player_status = $("#statusL1").val()
         var player_hp = parseInt($("#p1").find(".percent-hp").val())
         var player_ability = $("#abilityL1").val()
@@ -21,6 +22,10 @@ function get_next_in_g5() {
 
     var ranked_trainer_poks = []
 
+    var player = createPokemon($('#p1'))
+    var playerIgnoresAbilities = player.hasAbility("Mold Breaker", "Teravolt", "Turboblaze" ,"Neutralizing Gas")
+
+
     for (i in trainer_poks) {
         var pok_name = trainer_poks[i].split(" (")[0]
         var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
@@ -29,105 +34,199 @@ function get_next_in_g5() {
         var sub_index = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", "")
         var types = pokedex[pok_name].types
 
+        
+
 
 
         var pok_data = SETDEX_BW[pok_name][tr_name]
 
-        for (j in pok_data["moves"]) {
-            var mov_data = moves[pok_data["moves"][j]]
+        var opposing = createPokemon(`${pok_name} (${tr_name})`)
+        var isFaster = opposing.stats.spe >= player.stats.spe
+        var opposingIgnoresAbilities = player.hasAbility("Mold Breaker", "Teravolt", "Turboblaze" ,"Neutralizing Gas")
 
-            if (!mov_data) {
-                continue
-            }
+
+        for (let move of opposing.moves) {
+            var moveName = move.name
+            var movData = moves[moveName]
 
             // for endeavor/grass knot/counter etc
             
-            mov_bp = mov_data["bp"]
-            if (mov_bp == 1) {
-                mov_bp = 60
+            moveBp = move.bp
+            if (moveBp == 1) {
+                moveBp = 60
             }
 
-            
+                       
             if (TITLE == "Cascade White 2") {
+
+                var isAerilate = false;
+                var isPixilate = false;
+                var isRefrigerate = false;
+                var isNormalize = false;
+                var isMoisturize = false;
+                var isGalvanize = false;
+                var hasAteTypeChange = false;
+                var noTypeChange = move.named('Judgment', 'Nature Power', 'Techo Blast', 'Natural Gift', 'Weather Ball');
+
                 
-                if (pok_data["ability"] == "Technician" && mov_bp <= 60) {
-                    mov_bp = mov_bp * 1.5
-                }
-
-                if (types[0] == mov_data["type"] || types[1] == mov_data["type"]) {
-                    mov_bp = mov_bp * 1.5
-                }
-
-                if (pok_data["moves"][j] == "Acrobatics" && (pok_data["item"] == "-" || pok_data["item"] == "Flying Gem")) {
-                    mov_bp = mov_bp * 2
-                }
-
-                else if (player_status != "Healthy" && (pok_data["moves"][j] == "Hex" || pok_data["moves"][j] == "Barb Barrage" || pok_data["moves"][j] == "Infernal Parade" || pok_data["moves"][j] == "Beat Up")) {
-                    mov_bp = mov_bp * 2
-                }
-
-                else if (player_status == "Asleep" && (pok_data["moves"][j] == "Dream Eater" || pok_data["moves"][j] == "Wake-Up Slap")) {
-                    mov_bp = mov_bp * 2
-                }
-
-                else if (pok_data["moves"][j] == "Brine" && player_hp <= 50) {
-                    mov_bp = mov_bp * 2
-                }
-
-                else if ((pok_data["moves"][j] == "Frost Breath" || pok_data["moves"][j] == "Storm Throw" || pok_data["moves"][j] == "Pay Day") && (!player_ability.includes(" Armor"))) {
-                    mov_bp = mov_bp * 2
-                }
-
-                else if (pok_data["moves"][j] == "Weather Ball" && weather != "") {
-                    mov_bp = mov_bp * 2
-                    mov_data["type"] = weathers[weather]
-                }
-                else if (pok_data["moves"][j] == "Explosion" || pok_data["moves"][j] == "Self-Destruct") {
-                    mov_bp = 0
-                }
-
-                if (immunities[player_ability]) {
-                    if (mov_data["type"] == immunities[player_ability]) {
-                        mov_bp = 0
+                if (!noTypeChange) {
+                    var normal = move.hasType('Normal');
+                    if ((isAerilate = attacker.hasAbility('Aerilate') && normal)) {
+                        move.type = 'Flying';
+                    }
+                    else if ((isPixilate = attacker.hasAbility('Pixilate') && normal)) {
+                        move.type = 'Fairy';
+                    }
+                    else if ((isGalvanize = attacker.hasAbility('Galvanize') && normal)) {
+                        move.type = 'Electric';
+                    }
+                    else if ((isMoisturize = attacker.hasAbility('Moisturize') && normal)) {
+                        move.type = 'Water';
+                    }
+                    else if ((isRefrigerate = attacker.hasAbility('Refrigerate') && normal)) {
+                        move.type = 'Ice';
+                    }
+                    else if ((isNormalize = attacker.hasAbility('Normalize'))) {
+                        move.type = 'Normal';
+                    }
+                    if (isPixilate || isRefrigerate || isAerilate || isNormalize || isGalvanize || isMoisturize) {
+                        hasAteTypeChange = true;
                     }
                 }
 
-                if (player_ability == "Soundproof") {
-                    if (mov_data.isSound) {
-                        mov_bp = 0   
-                    }
+                if (hasAteTypeChange) {
+                    moveBp *= 1.2
                 }
 
-                if (mov_data.multihit) {
-                    if (pok_data["ability"] == "Skill Link") {
-                        mov_bp = mov_bp * mov_data.multihit[1]
+                if (opposing.hasAbility("Technician") && moveBp <= 60) {
+                    moveBp *= 1.5
+                }
+  
+                if (types[0] == move.type || types[1] == move.type || opposing.hasAbility("Savant")) {
+                    moveBp *= 1.5
+                }
+
+                // Move specific modifiers
+                if (move.named("Eruption", "Water Spout")) {
+                    moveBp = Math.max(1, Math.floor((150 * opposing.curHP()) / opposing.maxHP()));
+                } else if (move.named("Flail","Reversal")) {
+                    var p = Math.floor((48 * attacker.curHP()) / attacker.maxHP());
+                    moveBp = p <= 1 ? 200 : p <= 4 ? 150 : p <= 9 ? 100 : p <= 16 ? 80 : p <= 32 ? 40 : 20;
+                } else if (move.named("Knock Off") && player.hasItem()) {
+                    moveBp *= 1.5
+                } else if (move.named("Acrobatics") && (pok_data["item"] == "-" || pok_data["item"] == "Flying Gem")) {
+                    moveBp *= 2
+                } else if ((move.named("Gyro Ball", "Avalanche", "Payback", "Revenge") && !isFaster)) {
+                    moveBp *= 2
+                } else if (moveName == "Electro Ball" && isFaster) {
+                    moveBp = (moveName == "Electro Ball" && opposing.stats.spe > player.stats.spe)
+                } else if (move.named("Retaliate")) {
+                    moveBp *= 2
+                } else if (move.named("Solar Blade", "Solar Beam")) {
+                    var canChargeSolar = weather == "Sun" || opposing.hasItem("Power Herb") || opposing.hasAbility("Solar Power", "Flower Gift", "Chlorophyll")
+                    if (!canChargeSolar) {
+                        moveBp = 0
+                    }
+                } else if (move.named("Electro Shot") && !opposing.hasItem("Power Herb") && weather != "Rain") {
+                    moveBp *= 0.5
+                } else if (move.named("Explosion", "Self-Destruct")) {
+                    moveBp = 0
+                }
+                else if (player_status != "Healthy" && (move.named("Hex","Beat Up","Infernal Parade", "Bitter Malice","Barb Barrage"))) {
+                    moveBp *= 2
+                }
+                else if (player_status == "Asleep" && (move.named("Dream Eater", "Wake-Up Slap"))) {
+                    moveBp *= 2
+                }
+                else if (moveName == "Brine" && player_hp <= 50) {
+                    moveBp *= 2
+                }
+                else if (moveName == "Weather Ball" && weather != "") {
+                    moveBp *= 2
+                    move.type = weathers[weather]
+                }
+                else if (moveName == "Explosion" || moveName == "Self-Destruct") {
+                    moveBp = 0
+                }
+
+
+                // Player Ability Modifiers
+                if (!opposingIgnoresAbilities) {
+                    if (immunities[player_ability]) {
+                        if (move.type == immunities[player_ability]) {
+                            moveBp = 0
+                        }
+                    } else if (resistances[player_ability]) {
+                        if (move.type == resistances[player_ability]) {
+                            moveBp *= 0.5
+                        }
+                    } else if (player_ability == "Thick Fat" && move.hasType("Fire", "Ice")) {
+                        moveBp *= 0.5
+                    } else if (player_ability == "Heatproof" && move.hasType("Fire")) {
+                        moveBp *= 0.25
+                    } else if (player_ability == "Soundproof") {
+                        if (move.flags.sound) {
+                            moveBp = 0   
+                        }
+                    } else if (player_ability == "Dry Skin" && move.hasType("Fire")) {
+                        moveBp *= 2
+                    } else if (player_ability == "Bulletproof") {
+                        if (move.flags.bullet) {
+                            moveBp = 0   
+                        }
+                    } else if (player_ability == "Wind Rider") {
+                        if (move.flags.wind) {
+                            moveBp = 0   
+                        }
+                    } 
+                }
+                
+                
+                // Crits
+                if (move.isCrit && (!player.hasAbility("Battle Armor", "Shell Armor") || opposingIgnoresAbilities)) {
+                    if (settings.critGen >= 6) {
+                        moveBp *= 1.5
                     } else {
-                         mov_bp = mov_bp * mov_data.multihit[0]
+                        moveBp *= 2
+                    }
+
+                    if (opposing.hasAbility("Sniper")) {
+                        moveBp *= 1.5
                     }
                 }
-            }
 
-            if (TITLE == "Cascade White 2" && (player_ability == "Corrosion" || player_ability == "Scrappy")) {
-                type_info = get_type_info([player_type1, player_type2], player_ability)
-            }
+                // Multihits
+                if (moveData.multihit) {
+                    if (pok_data["ability"] == "Skill Link") {
+                        moveBp *= moveData.multihit[1]
+                    } else if (pok_data["item"] == "Loaded Dice") {
+                        moveBp *= Math.min(moveData.multihit[1], 4)
+                    }
+                    else {
+                         moveBp *= moveData.multihit[0]
+                    }
+                }
 
-            var bp = mov_bp * type_info[mov_data["type"]]
+                // Type chart modifiers
+                if (opposing.hasAbility("Scrappy", "Corrosion","Normalize","Inner Focus")) {
+                    type_info = get_type_info([player_type1, player_type2], opposing.ability)
+                } else if (move.named("Chip Away","Sacred Sword", "Relic Song","Freeze-Dry","Sky Uppercut")) {
+                    type_info = get_type_info([player_type1, player_type2], moveName)
+                }
 
-            
-            if (TITLE == "Cascade White 2") {
-                if ((pok_data["moves"][j] == "Freeze-Dry") && types.includes("Water") || (pok_data["moves"][j] == "Sky Uppercut") && types.includes("Flying")) {
-                    bp = bp * 4
+                if (type_info < 1 && opposing.hasAbility("Tenacity")) {
+                    moveBp *= 2
                 }
             }
-            
 
+            var bp = moveBp * type_info[move.type]
 
             if (bp > strongest_move_bp) {
                 strongest_move_bp = bp
-                strongest_move = pok_data["moves"][j]
+                strongest_move = moveName
             }
             else if (bp == strongest_move_bp) {
-                strongest_move += (", " + pok_data["moves"][j])
+                strongest_move += (", " + moveName)
             } else {
 
             }

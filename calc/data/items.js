@@ -339,6 +339,7 @@ var BW = DPP.concat([
     'Ground Gem',
     'Ice Gem',
     'Normal Gem',
+    "Fairy Gem",
     'Plume Fossil',
     'Poison Gem',
     'Prism Scale',

@@ -76,7 +76,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                         : field.hasWeather('Hail') ? 'Ice'
                             : 'Normal';
 
-        if (defender.hasAbility("Overcoat") && TITLE == "Cascade White 2") {
+        if ((defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")) && TITLE == "Cascade White 2") {
             move.type = "Normal"
         }
         desc.weather = field.weather;
@@ -117,6 +117,8 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var isRefrigerate = false;
     var isNormalize = false;
     var isMoisturize = false;
+    var isGalvanize = false;
+    var hasAteTypeChange = false;
     var noTypeChange = move.named('Judgment', 'Nature Power', 'Techo Blast', 'Natural Gift', 'Weather Ball') || isAttackerTera;
     if (!move.isZ && !noTypeChange) {
         var normal = move.hasType('Normal');
@@ -125,6 +127,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         }
         else if ((isPixilate = attacker.hasAbility('Pixilate') && normal)) {
             move.type = 'Fairy';
+        }
+        else if ((isGalvanize = attacker.hasAbility('Galvanize') && normal)) {
+            move.type = 'Electric';
         }
         else if ((isMoisturize = attacker.hasAbility('Moisturize') && normal)) {
             move.type = 'Water';
@@ -135,7 +140,8 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         else if ((isNormalize = attacker.hasAbility('Normalize'))) {
             move.type = 'Normal';
         }
-        if (isPixilate || isRefrigerate || isAerilate || isNormalize) {
+        if (isPixilate || isRefrigerate || isAerilate || isNormalize || isGalvanize || isMoisturize) {
+            hasAteTypeChange = true;
             desc.attackerAbility = attacker.ability;
         }
     }
@@ -220,7 +226,8 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     if ((defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
         (move.hasType('Grass') && defender.hasAbility('Sap Sipper')) ||
-        (move.hasType('Fire') && defender.hasAbility('Flash Fire')) ||
+        (move.hasType('Fire') && defender.hasAbility('Flash Fire',  "Well-Baked Body")) ||
+        (move.flags.wind && defender.hasAbility("Wind Rider")) ||
         (move.hasType('Water') && defender.hasAbility('Dry Skin', 'Storm Drain', 'Water Absorb')) ||
         (move.hasType('Electric') &&
             defender.hasAbility('Lightning Rod', 'Motor Drive', 'Volt Absorb', "Thunder Armor")) ||
@@ -355,7 +362,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.moveBP = basePower;
             break;
         case 'Weather Ball':
-            basePower = move.bp * (field.weather && !(field.hasWeather('Strong Winds') && (TITLE == "Cascade White 2" && defender.hasAbility("Overcoat")) ) ? 2 : 1);
+            basePower = move.bp * (field.weather && !(field.hasWeather('Strong Winds') && (TITLE == "Cascade White 2" && (defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella"))) ) ? 2 : 1);
             desc.moveBP = basePower;
             break;
         case 'Fling':
@@ -499,7 +506,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             bpMods.push(2048);
         } else if (defender.hasAbility("Solid Rock", "Filter") && typeEffectiveness > 2) {
             bpMods.push(3072);
-        } else if (attacker.hasAbility("Normalize")) {
+        } else if (attacker.hasAbility("Normalize") || hasAteTypeChange) {
             bpMods.push(4915);
         } else if (attacker.hasAbility("Moisturize") && isMoisturize) {
             bpMods.push(4915)
@@ -887,7 +894,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 2048) / 4096);
     }
 
-    if (!(defender.hasAbility("Overcoat") && TITLE == "Cascade White 2")) {
+    if (!( (defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")) && TITLE == "Cascade White 2")) {
          if ((field.hasWeather('Sun', 'Harsh Sunshine') && move.hasType('Fire')) ||
             (field.hasWeather('Rain', 'Heavy Rain') && move.hasType('Water'))) {
             baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 6144) / 4096);
@@ -925,7 +932,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             stabMod = 6144;
         }
     }
-    else if (attacker.hasAbility('Protean')) {
+    else if (attacker.hasAbility('Protean', "Savant")) {
         stabMod = 6144;
         desc.attackerAbility = attacker.ability;
     }

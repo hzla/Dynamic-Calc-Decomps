@@ -238,10 +238,15 @@ function construct_type_chart() {
     return chart
 }
 
-function get_type_info(pok_types, move=false) {
+function get_type_info(pok_types, modifier=false) {
     if (pok_types[1] == pok_types[0]) {
         pok_types[1] = "None"
     }
+
+    if (modifier == "Chip Away" || modifier == "Normalize") {
+      return 1
+    }
+
 
     var type_name = ["Normal", "Fire", "Water", "Electric", "Grass", "Ice",
                  "Fighting", "Poison", "Ground", "Flying", "Psychic",
@@ -282,13 +287,22 @@ function get_type_info(pok_types, move=false) {
             types[15][16] = 1 
         }
 
-        if (move == "Corrosion") {
+        if (modifier == "Corrosion") {
             types[7][16] = 2
-        }
-        if (move == "Scrappy") {
+        } else if (modifier == "Inner Focus") {
+          types[10][15] = 1
+        } else if (modifier == "Scrappy" || modifier == "Sacred Sword" || modifier == "Relic Song") {
             types[0][13] = 1
             types[6][13] = 1
+        } else if (modifier == "Freeze-Dry") {
+          types[5][[2]] = 2
+        } else if (modifier == "Sky Uppercut") {
+          types[6][9] = 2
         }
+
+        
+
+        
     }
    
     var type1 = type_name.indexOf(pok_types[0])

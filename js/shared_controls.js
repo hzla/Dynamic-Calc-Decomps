@@ -592,8 +592,14 @@ function refresh_next_in() {
 			isFainted = "fainted"
 		}
 
+		var isLead = ""
+
+		if (next_poks[i][0].includes("[0]") && (settings.gameSwitchIn == 4 || settings.gameSwitchIn == 5)) {
+			isLead = "lead"
+		}
+
 		var pok = `<div class="trainer-pok-container">
-			<img class="trainer-pok right-side hl-disabled ${isFainted} " src="./img/${sprite_style}/${pok_name.replace(" ", "")}.png" data-id="${dataID}">`
+			<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "")}.png" data-id="${dataID}">`
 
 
 		var species = next_poks[i][0].split(" (")[0]
