@@ -161,7 +161,7 @@ function setGameSettings(title) {
     settings.sourceType = "full"
   } else if (title == "Cascade White 2") {
     gameGen = 5
-    settings.gameSwitchIn = 11; 
+    settings.gameSwitchIn = 5; 
     settings.sourceType = "full"
   }
   else {
