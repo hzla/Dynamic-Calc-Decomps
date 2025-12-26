@@ -537,7 +537,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             bpMods.push(4915)
         } else if (defender.hasAbility("Colossal")) {
             bpMods.push(3072);
-        } else if (attacker.named("Farfetch'd") && attacker.hasItem("Stick") && hitsPhysical) {
+        } else if (attacker.named("Farfetch’d") && attacker.hasItem("Stick") && hitsPhysical) {
             bpMods.push(8192);
         } else if (attacker.hasItem('Light Ball') && attacker.name.startsWith('Eevee')) {
             bpMods.push(8192);
