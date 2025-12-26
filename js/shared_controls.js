@@ -612,12 +612,24 @@ function refresh_next_in() {
 		} else {
 			pps = [1,1,1,1]
 		}
-		
-		pok +=`<div class="bp-infos">
+
+		if (settings.gameSwitchIn == 5 || settings.gameSwitchIn == 4) { 
+			pok +=`
+			<div class="bp-info${pps[0] == '0' ? 'nopp' : ''}" data-strong="${next_poks[i][2].includes(next_poks[i][4][0])}">${next_poks[i][4][0].replace("Hidden Power", "HP")}</div>
+			<div class="bp-info${pps[1] == '0' ? 'nopp' : ''}" data-strong="${next_poks[i][2].includes(next_poks[i][4][1])}">${next_poks[i][4][1].replace("Hidden Power", "HP")}</div>
+			<div class="bp-info${pps[2] == '0' ? 'nopp' : ''}" data-strong="${next_poks[i][2].includes(next_poks[i][4][2])}">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
+			<div class="bp-info${pps[3] == '0' ? 'nopp' : ''}" data-strong="${next_poks[i][2].includes(next_poks[i][4][3])}">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div>
+			</div>`
+		} else {
+			pok +=`<div class="bp-infos">
 			<div class="bp-info ${pps[0] == '0' ? 'nopp' : ''}">${next_poks[i][4][0].replace("Hidden Power", "HP")}</div>
 			<div class="bp-info ${pps[1] == '0' ? 'nopp' : ''}">${next_poks[i][4][1].replace("Hidden Power", "HP")}</div>
 			<div class="bp-info ${pps[2] == '0' ? 'nopp' : ''}">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
 			<div class="bp-info ${pps[3] == '0' ? 'nopp' : ''}">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div></div>`
+		}
+		
+		
+
 		
 		if (TITLE.includes("1.3")) {
 			pok += next_poks[i][5]
