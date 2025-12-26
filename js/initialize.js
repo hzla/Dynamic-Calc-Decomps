@@ -18,7 +18,7 @@ const settings = {
     gen: getNum('gen', 8),
     damageGen: getNum('dmgGen', 8),
     typeChart: getNum('types', 6),
-    switchIn: getNum('switchIn', 5),
+    switchIn: getNum('switchIn', 9),
     noSwitch: getBool('noSwitch'),
     hasEvs: !getBool('evs', '0'),
     challengeMode: params.get('challengeMode') || false,

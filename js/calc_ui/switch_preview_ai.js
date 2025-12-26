@@ -461,6 +461,10 @@ function get_next_in() {
         return get_next_in_g4()
     }
 
+    if (settings.gameSwitchIn == 5) {
+        return get_next_in_g5()
+    }
+
     lvlCap = parseInt($('#lvl-cap').val())
 
     var trainer_poks = [...CURRENT_TRAINER_POKS]

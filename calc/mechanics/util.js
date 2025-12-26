@@ -133,6 +133,15 @@ function getFinalSpeed(gen, pokemon, field, side) {
     var terrain = field.terrain;
     var speed = getModifiedStat(pokemon.rawStats.spe, pokemon.boosts.spe, gen);
     var speedMods = [];
+    
+    if (TITLE == "Cascade White 2") {
+        if (pokemon.hasAbility("Light Metal")) {
+            speedMods.push(6144);
+        } else if (pokemon.hasAbility("Heavy Metal")) {
+            speedMods.push(2744);
+        }
+    }
+
     if (side.isTailwind)
         speedMods.push(8192);
     if ((pokemon.hasAbility('Unburden') && pokemon.abilityOn) ||
@@ -156,7 +165,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
     else if (isQPActive(pokemon, field) && getQPBoostedStat(pokemon, gen) === 'spe') {
         speedMods.push(6144);
     }
-    if (pokemon.hasItem('Choice Scarf') ||
+    if (pokemon.hasItem('Choice Scarf', 'Tera C-Scarf') ||
         (pokemon.named('Farfetch\u2019d', 'Farfetch\u2019d-Galar') && pokemon.hasItem('Leek')) ||
         (pokemon.named('Porygon-Z') && pokemon.hasItem('Up-Grade'))) {
         speedMods.push(6144);
@@ -176,7 +185,12 @@ function getFinalSpeed(gen, pokemon, field, side) {
 }
 exports.getFinalSpeed = getFinalSpeed;
 function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRingTarget, isBoneZone, isCorrosion) {
+    var isDarkRevealed = (TITLE == "Cascade White 2" && move.type == "Psychic" && type === "Dark")
+
     if ((isRingTarget || isGhostRevealed) && type === 'Ghost' && move.hasType('Normal', 'Fighting')) {
+        return 1;
+    }
+    else if (isDarkRevealed) {
         return 1;
     }
     else if ((isRingTarget || isGravity) && type === 'Flying' && move.hasType('Ground')) {
@@ -265,9 +279,14 @@ function checkWonderRoom(pokemon, wonderRoomActive) {
 }
 exports.checkWonderRoom = checkWonderRoom;
 function checkIntimidate(gen, source, target) {
-    var blocked = target.hasAbility('Clear Body', 'White Smoke', 'Hyper Cutter', 'Full Metal Body') ||
+    var blocked = target.hasAbility('Clear Body', 'White Smoke', 'Hyper Cutter', 'Full Metal Body', "Strong Body") ||
         (gen.num >= 8 && target.hasAbility('Inner Focus', 'Own Tempo', 'Oblivious', 'Scrappy')) ||
         target.hasItem('Clear Amulet');
+
+    if (TITLE == "Cascade White 2" && target.hasAbility("Scrappy")) {
+        blocked = true;
+    } 
+
     if (source.hasAbility('Intimidate') && source.abilityOn && !blocked) {
         if (target.hasAbility('Contrary', 'Defiant', 'Guard Dog')) {
             target.boosts.atk = Math.min(6, target.boosts.atk + 1);
@@ -286,7 +305,7 @@ function checkIntimidate(gen, source, target) {
 exports.checkIntimidate = checkIntimidate;
 function checkDownload(source, target, wonderRoomActive) {
     var _a;
-    if (source.hasAbility('Download') && source.abilityOn) {
+    if (source.hasAbility('Download', "Exploit") && source.abilityOn) {
         var def = target.stats.def;
         var spd = target.stats.spd;
         if (wonderRoomActive)
@@ -300,6 +319,26 @@ function checkDownload(source, target, wonderRoomActive) {
     }
 }
 exports.checkDownload = checkDownload;
+
+function checkCascItems(source) {
+    if (source.hasItem("CLRS Booster", "Proto Booster","Mysterious Device")) {
+        source.boosts.atk = Math.min(6, source.boosts.atk + 1);
+        source.boosts.spa = Math.min(6, source.boosts.spa + 1);
+    } else if (source.hasItem("CLRS Armor", "Proto Armor")) {
+        source.boosts.def = Math.min(6, source.boosts.def + 1);
+        source.boosts.spd = Math.min(6, source.boosts.spd + 1);
+    } else if (source.hasItem("CLRS Accelerator", "Proto Accelerator")) {
+        source.boosts.spe = Math.min(6, source.boosts.def + 2);
+    } else if (source.hasItem("CLRS Invention")) {
+        source.boosts.atk = Math.min(6, source.boosts.atk + 1);
+        source.boosts.spa = Math.min(6, source.boosts.spa + 1);
+        source.boosts.def = Math.min(6, source.boosts.def + 1);
+        source.boosts.spd = Math.min(6, source.boosts.spd + 1);
+        source.boosts.spe = Math.min(6, source.boosts.def + 1);
+    }
+}
+exports.checkCascItems = checkCascItems;
+
 function checkIntrepidSword(source, gen) {
     if (source.hasAbility('Intrepid Sword') && gen.num > 7  && source.abilityOn) {
         source.boosts.atk = Math.min(6, source.boosts.atk + 1);

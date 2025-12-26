@@ -418,7 +418,7 @@ function getEndOfTurn(gen, attacker, defender, move, field) {
         }
     }
     var loseItem = move.named('Knock Off') && !defender.hasAbility('Sticky Hold');
-    if (defender.hasItem('Leftovers') && !loseItem) {
+    if (defender.hasItem('Leftovers', "Tera Leftovers") && !loseItem) {
         damage += Math.floor(defender.maxHP() / 16);
         texts.push('Leftovers recovery');
     }

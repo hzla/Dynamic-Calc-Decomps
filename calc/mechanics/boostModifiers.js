@@ -9,5 +9,4 @@ boostModifiers.default = {
 	toxicBoostDfMod: 2048,
 	heatProofDfMod: 2048,
 	drySkinDfMod: 5120,
-	
 }

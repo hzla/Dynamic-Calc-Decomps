@@ -26,6 +26,12 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     (0, util_2.checkIntimidate)(gen, defender, attacker);
     (0, util_2.checkDownload)(attacker, defender, field.isWonderRoom);
     (0, util_2.checkDownload)(defender, attacker, field.isWonderRoom);
+
+    if (TITLE == "Cascade White 2") {
+        (0, util_2.checkCascItems)(attacker);
+        (0, util_2.checkCascItems)(defender);
+    }
+
     (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'atk', 'spa');
     (0, util_2.checkInfiltrator)(attacker, field.defenderSide);
     (0, util_2.checkInfiltrator)(defender, field.attackerSide);
@@ -35,6 +41,18 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         defenderName: defender.name,
         isWonderRoom: field.isWonderRoom
     };
+
+    var isAttackerTera = attacker.item.startsWith("Tera ")
+    var isDefenderTera = defender.item.startsWith("Tera ")
+    var isSameTypeTera = isAttackerTera && attacker.hasType(attacker.moves[0].type)
+
+    if (isAttackerTera) {
+        attacker.types = [attacker.moves[0].type, ""]
+    }
+    if (isDefenderTera) {
+        defender.types = [defender.moves[0].type, ""]
+    }
+
     
     var result = new result_1.Result(gen, attacker, defender, move, field, 0, desc);
     if (move.category === 'Status' && !move.named('Nature Power')) {
@@ -45,7 +63,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.isProtected = true;
         return result;
     }
-    if (attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze')) {
+    if (attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze') || attacker.hasItem("Ability Drill", "Tera Drill")) {
         defender.ability = '';
         desc.attackerAbility = attacker.ability;
     }
@@ -98,7 +116,8 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var isPixilate = false;
     var isRefrigerate = false;
     var isNormalize = false;
-    var noTypeChange = move.named('Judgment', 'Nature Power', 'Techo Blast', 'Natural Gift', 'Weather Ball');
+    var isMoisturize = false;
+    var noTypeChange = move.named('Judgment', 'Nature Power', 'Techo Blast', 'Natural Gift', 'Weather Ball') || isAttackerTera;
     if (!move.isZ && !noTypeChange) {
         var normal = move.hasType('Normal');
         if ((isAerilate = attacker.hasAbility('Aerilate') && normal)) {
@@ -106,6 +125,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         }
         else if ((isPixilate = attacker.hasAbility('Pixilate') && normal)) {
             move.type = 'Fairy';
+        }
+        else if ((isMoisturize = attacker.hasAbility('Moisturize') && normal)) {
+            move.type = 'Water';
         }
         else if ((isRefrigerate = attacker.hasAbility('Refrigerate') && normal)) {
             move.type = 'Ice';
@@ -123,11 +145,18 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
     var isDarkRevealed = attacker.hasAbility('Inner Focus') && TITLE == "Cascade White 2"
+    var isForceNeutral = (move.named("Chip Away") || attacker.hasAbility("Normalize")) && TITLE == "Cascade White 2"
     var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity);
     var type2Effectiveness = defender.types[1]
         ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
+
+    if (isForceNeutral) {
+        typeEffectiveness = 1
+    }
+
+
     var resistedKnockOffDamage = !defender.item ||
         (defender.named('Giratina-Origin') && defender.hasItem('Griseous Orb')) ||
         (defender.name.includes('Arceus') && defender.item.includes('Plate')) ||
@@ -442,10 +471,6 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         bpMods.push(5325);
         desc.attackerAbility = attacker.ability;
     }
-    if (defender.hasAbility('Toxic Boost') && move.hasType('Poison') && TITLE == "Cascade White 2") {
-        bpMods.push(2048);
-        desc.defenderAbility = defender.ability;
-    }
     if (defender.hasAbility('Heatproof') && move.hasType('Fire')) {
         if (TITLE == "Cascade White 2") {
             bpMods.push(1024);
@@ -457,17 +482,56 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     else if (TITLE == "Cascade White 2") {
         if (defender.hasAbility("Slush Rush") && move.hasType("Ice")) {
-            bpMods.push(2048)
+            bpMods.push(2048);
         } else if (defender.hasAbility("Swift Swim") && move.hasType("Water")) {
-            bpMods.push(2048)
+            bpMods.push(2048);
         } else if (defender.hasAbility("Sand Rush") && move.hasType("Ground")) {
-            bpMods.push(2048)
+            bpMods.push(2048);
         } else if (defender.hasAbility("Toxic Boost") && move.hasType("Poison")) {
-            bpMods.push(2048)
+            bpMods.push(2048);
         } else if (defender.hasAbility("Permafrost") && move.category == "Special") {
-            bpMods.push(2048)
-        }
-
+            bpMods.push(2048);
+        } else if (defender.hasAbility("Justified") && move.hasType("Dark")) {
+            bpMods.push(2048);
+        } else if (defender.hasAbility("Light Metal") && hitsPhysical) {
+            bpMods.push(5448);
+        } else if (defender.hasAbility("Heavy Metal") && hitsPhysical) {
+            bpMods.push(2048);
+        } else if (defender.hasAbility("Solid Rock", "Filter") && typeEffectiveness > 2) {
+            bpMods.push(3072);
+        } else if (attacker.hasAbility("Normalize")) {
+            bpMods.push(4915);
+        } else if (attacker.hasAbility("Moisturize") && isMoisturize) {
+            bpMods.push(4915)
+        } else if (attacker.hasAbility("Reckless") && move.named("Explosion", "Self-Destruct")) {
+            bpMods.push(4915);
+        } else if (attacker.hasAbility("Mold Breaker", "Turboblaze", "Teravolt")) {
+            bpMods.push(4505);
+        } else if (attacker.hasAbility("Infiltrator") && typeEffectiveness > 1) {
+            bpMods.push(4915);
+        } else if (attacker.hasAbility("Merciless") && defender.status) {
+            bpMods.push(5120);
+        } else if (defender.hasAbility("Merciless") && attacker.status) {
+            bpMods.push(4072);
+        } else if (attacker.hasAbility("Hyper Cutter") && (move.flags.slicing || move.flags.claw)) {
+            bpMods.push(5325);
+        } else if ((attacker.hasAbility('Overgrow') && move.hasType('Grass')) ||
+                (attacker.hasAbility('Blaze') && move.hasType('Fire')) ||
+                (attacker.hasAbility('Torrent') && move.hasType('Water')) ||
+                (attacker.hasAbility('Swarm') && move.hasType('Bug'))) {
+            if (attacker.curHP() > attacker.maxHP() / 3) {
+                bpMods.push(5120);
+            }
+        } else if (attacker.hasAbility("Ballistics") && move.flags.bullet) {
+            bpMods.push(4915)
+        } else if (defender.hasAbility("Colossal")) {
+            bpMods.push(3072);
+        } else if (attacker.named("Farfetch'd") && attacker.hasItem("Stick") && hitsPhysical) {
+            bpMods.push(8192);
+        } else if (attacker.hasItem('Light Ball') && attacker.name.startsWith('Eevee')) {
+            bpMods.push(8192);
+        } 
+ 
     }
     else if (defender.hasAbility('Dry Skin') && move.hasType('Fire')) {
         if (TITLE == "Cascade White 2") {
@@ -483,11 +547,19 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N')) {
         if (attacker.gender === defender.gender) {
-            bpMods.push(5120);
+            if (TITLE == "Cascade White 2") {
+                bpMods.push(5448);
+            } else {
+                bpMods.push(5120);
+            }   
             desc.rivalry = 'buffed';
         }
         else {
-            bpMods.push(3072);
+            if (TITLE == "Cascade White 2") {
+                bpMods.push(2744);
+            } else {
+                bpMods.push(3072);
+            }   
             desc.rivalry = 'nerfed';
         }
         desc.attackerAbility = attacker.ability;
@@ -693,11 +765,22 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     else if ((attacker.hasItem('Soul Dew') &&
         attacker.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega') &&
         move.category === 'Special') ||
-        (attacker.hasItem('Choice Band') && move.category === 'Physical') ||
-        (attacker.hasItem('Choice Specs') && move.category === 'Special')) {
+        (attacker.hasItem('Choice Band', 'Tera C-Band') && move.category === 'Physical') ||
+        (attacker.hasItem('Choice Specs', 'Tera Specs') && move.category === 'Special')) {
         atMods.push(6144);
         desc.attackerItem = attacker.item;
     }
+
+    if (TITLE == "Cascade White 2") {
+        if (attacker.hasAbility("Pure Power")) {
+            if (move.category == "Physical") {
+                atMods.push(2048);
+            } else {
+                atMods.push(8192);
+            }
+        }
+    }
+
     attack = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((attack * (0, util_2.chainMods)(atMods, 410, 131072)) / 4096)));
     var defense;
     var defenseStat = move.overrideDefensiveStat || move.category === 'Physical' ? 'def' : 'spd';
@@ -751,7 +834,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     if ((!hitsPhysical && defender.hasItem('Soul Dew') &&
         defender.named('Latios', 'Latias', 'Latios-Mega', 'Latias-Mega')) ||
         (defender.hasItem('Eviolite') && ((_a = gen.species.get((0, util_1.toID)(defender.name))) === null || _a === void 0 ? void 0 : _a.nfe)) ||
-        (!hitsPhysical && defender.hasItem('Assault Vest'))) {
+        (!hitsPhysical && defender.hasItem('Assault Vest', 'Tera Vest'))) {
         dfMods.push(6144);
         desc.defenderItem = defender.item;
     }
@@ -789,8 +872,14 @@ function calculateBWXY(gen, attacker, defender, move, field) {
 
     var baseDamage = (0, util_2.getBaseDamage)(attacker.level + delta, basePower, attack, defense);
 
+
+
     var isSpread = field.gameType !== 'Singles' &&
         ['allAdjacent', 'allAdjacentFoes'].includes(move.target);
+
+    if (TITLE == "Cascade White 2" && attacker.hasAbility("Ballistics") && move.flags.bullet && field.gameType !== 'Singles') {
+        isSpread = true;
+    }
     if (isSpread) {
         baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 3072) / 4096);
     }
@@ -825,8 +914,11 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     var stabMod = 4096;
     if (attacker.hasType(move.type)) {
-        if (attacker.hasAbility('Adaptability')) {
+        if (attacker.hasAbility('Adaptability') || isSameTypeTera) {
             stabMod = 8192;
+            if (attacker.hasAbility('Adaptability') && isSameTypeTera) {
+                stabMod = 9216;
+            }
             desc.attackerAbility = attacker.ability;
         }
         else {
@@ -881,6 +973,8 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         finalMods.push(3072);
         desc.defenderAbility = defender.ability;
     }
+
+
     if (attacker.hasItem('Metronome') && move.timesUsedWithMetronome >= 1) {
         var timesUsedWithMetronome = Math.floor(move.timesUsedWithMetronome);
         if (timesUsedWithMetronome <= 4) {
@@ -895,7 +989,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         finalMods.push(4915);
         desc.attackerItem = attacker.item;
     }
-    else if (attacker.hasItem('Life Orb')) {
+    else if (attacker.hasItem('Life Orb', 'Tera Orb')) {
         finalMods.push(5324);
         desc.attackerItem = attacker.item;
     }

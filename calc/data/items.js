@@ -546,7 +546,33 @@ var SS = SM.concat([
     'Sweet Apple',
     'Tart Apple',
     'Throat Spray',
+    "CLRS Booster",
+    "Proto Booster",
+    "Mysterious Device",
+    "Proto Armor", 
+    "CLRS Armor",
+    "CLRS Accelerator",
+    "Proto Accelerator",
+    "CLRS Invention",
+    "Ability Drill",
+    "Tera Specs",
+    "Tera C-Band",
+    "Tera Scarf",
+    "Tera Orb",
+    "Tera Sash",
+    "Tera F-Band",
+    "Tera Claw",
+    "Tera W-Policy",
+    "Tera B-Policy",
+    "Tera Powder",
+    "Tera Vest",
+    "Tera Insurance",
+    "Tera Drill",
+    "Tera Leftovers",
+    "Tera Dice",
+    "Tera K-Rock"
 ]);
+
 for (var i = 0; i < 100; i++) {
     SS.push("TR".concat(i < 10 ? "0".concat(i) : i));
 }
