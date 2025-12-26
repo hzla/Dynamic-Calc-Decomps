@@ -310,6 +310,18 @@ function calculateDPP(gen, attacker, defender, move, field) {
         basePower = Math.floor(basePower * 1.25);
         desc.defenderAbility = defender.ability;
     }
+    if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N')) {
+        if (attacker.gender === defender.gender) {
+            basePower = Math.floor(basePower * 1.25);
+            desc.rivalry = 'buffed';
+        }
+        else {
+            basePower = Math.floor(basePower * 0.75);
+            desc.rivalry = 'nerfed';
+        }
+        desc.attackerAbility = attacker.ability;
+    }
+
     var attackStat = isPhysical ? 'atk' : 'spa';
     desc.attackEVs = ""
     var attack;

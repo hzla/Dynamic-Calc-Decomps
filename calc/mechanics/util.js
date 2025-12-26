@@ -202,6 +202,16 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
         }
         return effectiveness;
     }
+
+    if (TITLE == "Cascade White 2") {
+        if (move.named("Sky Uppercut") && type === "Flying") {
+            return 2;
+        } else if (move.named("Sacred Sword", "Relic Song") && type == "Ghost") {
+            return 1;
+        } else if (move.named("Chip Away")) {
+            return 1;
+        }
+    }
 }
 exports.getMoveEffectiveness = getMoveEffectiveness;
 function checkAirLock(pokemon, field) {
