@@ -71,22 +71,22 @@ function get_next_in_g5() {
                 
                 if (!noTypeChange) {
                     var normal = move.hasType('Normal');
-                    if ((isAerilate = attacker.hasAbility('Aerilate') && normal)) {
+                    if ((isAerilate = opposing.hasAbility('Aerilate') && normal)) {
                         move.type = 'Flying';
                     }
-                    else if ((isPixilate = attacker.hasAbility('Pixilate') && normal)) {
+                    else if ((isPixilate = opposing.hasAbility('Pixilate') && normal)) {
                         move.type = 'Fairy';
                     }
-                    else if ((isGalvanize = attacker.hasAbility('Galvanize') && normal)) {
+                    else if ((isGalvanize = opposing.hasAbility('Galvanize') && normal)) {
                         move.type = 'Electric';
                     }
-                    else if ((isMoisturize = attacker.hasAbility('Moisturize') && normal)) {
+                    else if ((isMoisturize = opposing.hasAbility('Moisturize') && normal)) {
                         move.type = 'Water';
                     }
-                    else if ((isRefrigerate = attacker.hasAbility('Refrigerate') && normal)) {
+                    else if ((isRefrigerate = opposing.hasAbility('Refrigerate') && normal)) {
                         move.type = 'Ice';
                     }
-                    else if ((isNormalize = attacker.hasAbility('Normalize'))) {
+                    else if ((isNormalize = opposing.hasAbility('Normalize'))) {
                         move.type = 'Normal';
                     }
                     if (isPixilate || isRefrigerate || isAerilate || isNormalize || isGalvanize || isMoisturize) {
@@ -110,7 +110,7 @@ function get_next_in_g5() {
                 if (move.named("Eruption", "Water Spout")) {
                     moveBp = Math.max(1, Math.floor((150 * opposing.curHP()) / opposing.maxHP()));
                 } else if (move.named("Flail","Reversal")) {
-                    var p = Math.floor((48 * attacker.curHP()) / attacker.maxHP());
+                    var p = Math.floor((48 * opposing.curHP()) / opposing.maxHP());
                     moveBp = p <= 1 ? 200 : p <= 4 ? 150 : p <= 9 ? 100 : p <= 16 ? 80 : p <= 32 ? 40 : 20;
                 } else if (move.named("Knock Off") && player.hasItem()) {
                     moveBp *= 1.5

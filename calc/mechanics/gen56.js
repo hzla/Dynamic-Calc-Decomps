@@ -322,6 +322,10 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             basePower = w >= 200 ? 120 : w >= 100 ? 100 : w >= 50 ? 80 : w >= 25 ? 60 : w >= 10 ? 40 : 20;
             desc.moveBP = basePower;
             break;
+        case "Beat Up":
+        case "Infernal Parade":
+        case "Barb Barrage":
+        case "Bitter Malice":
         case 'Hex':
             basePower = move.bp * (defender.status ? 2 : 1);
             desc.moveBP = basePower;
