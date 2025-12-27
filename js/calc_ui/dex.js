@@ -15,7 +15,7 @@ function loadDex() {
 	iframe.style.top = '50%';
 	iframe.style.left = '50%';
 	iframe.style.transform = 'translate(-50%, -50%)';
-	iframe.style.width = '100vw';
+	iframe.style.width = '98vw';
 	iframe.style.height = '90vh';
 	iframe.style.border = '2px solid #333';
 	iframe.style.borderRadius = '8px';
@@ -28,7 +28,7 @@ function loadDex() {
 	closeBtn.textContent = '✕';
 	closeBtn.style.position = 'fixed';
 	closeBtn.style.top = 'calc(5vh - 20px)';
-	closeBtn.style.left = 'calc(100vw - 20px)';
+	closeBtn.style.left = 'calc(99vw - 20px)';
 	closeBtn.style.zIndex = '1000000';
 	closeBtn.style.background = '#ff4444';
 	closeBtn.style.color = 'white';

@@ -23,7 +23,7 @@ function get_next_in_g5() {
     var ranked_trainer_poks = []
 
     var player = createPokemon($('#p1'))
-    var playerIgnoresAbilities = player.hasAbility("Mold Breaker", "Teravolt", "Turboblaze" ,"Neutralizing Gas")
+    var playerIgnoresAbilities = player.hasAbility("Mold Breaker", "Teravolt", "Turboblaze" ,"Neutralizing Gas") || player.hasItem("Tera Drill", "Ability Drill")
 
 
     for (i in trainer_poks) {
@@ -42,7 +42,7 @@ function get_next_in_g5() {
 
         var opposing = createPokemon(`${pok_name} (${tr_name})`)
         var isFaster = opposing.stats.spe >= player.stats.spe
-        var opposingIgnoresAbilities = player.hasAbility("Mold Breaker", "Teravolt", "Turboblaze" ,"Neutralizing Gas")
+        var opposingIgnoresAbilities = opposing.hasAbility("Mold Breaker", "Teravolt", "Turboblaze" ,"Neutralizing Gas") || opposing.hasItem("Tera Drill", "Ability Drill")
 
 
         for (let move of opposing.moves) {

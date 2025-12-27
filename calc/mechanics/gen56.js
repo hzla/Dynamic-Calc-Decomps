@@ -479,7 +479,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     else if ((attacker.hasAbility('Amplifier') && move.flags.sound)) {
-        bpMods.push(5325);
+        bpMods.push(4915);
         desc.attackerAbility = attacker.ability;
     }
     if (defender.hasAbility('Heatproof') && move.hasType('Fire')) {
@@ -782,15 +782,6 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.attackerItem = attacker.item;
     }
 
-    if (TITLE == "Cascade White 2") {
-        if (attacker.hasAbility("Pure Power")) {
-            if (move.category == "Physical") {
-                atMods.push(2048);
-            } else {
-                atMods.push(8192);
-            }
-        }
-    }
 
     attack = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((attack * (0, util_2.chainMods)(atMods, 410, 131072)) / 4096)));
     var defense;
@@ -954,7 +945,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         finalMods.push(field.gameType !== 'Singles' ? (gen.num > 5 ? 2732 : 2703) : 2048);
         desc.isLightScreen = true;
     }
-    if (defender.hasAbility('Multiscale', "Majestic Ward") && defender.curHP() === defender.maxHP() &&
+    if ((defender.hasAbility('Multiscale', "Majestic Ward") || defender.hasItem("Focus Band")) && defender.curHP() === defender.maxHP() &&
         !field.defenderSide.isSR && (!field.defenderSide.spikes || defender.hasType('Flying')) &&
         !attacker.hasAbility('Parental Bond (Child)')) {
         finalMods.push(2048);
