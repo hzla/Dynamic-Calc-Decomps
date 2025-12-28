@@ -1,7 +1,6 @@
 
 $(document).ready(function() {
-    console.log(TITLE)
-    if (gameGen == 4 || gameGen == 5) {
+    if (gameGen == 4 || gameGen == 5 || mechanics == "hge") {
         $('#save-upload').attr('id', 'save-upload-g45')
          
          $('#read-save').show()
@@ -385,7 +384,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
 
     
     // dev functions
-    if (devMode) {
+    if (settings.devMode) {
         decryptedData[move_data_offset + 8] = 65535  
         decryptedData[move_data_offset + 9] = 16383          
     }

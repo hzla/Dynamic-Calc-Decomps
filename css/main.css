@@ -1191,7 +1191,10 @@ th {
     font-size:  18px;
     max-width:  calc(50vw - 20px);
     position: relative;
+}
 
+.panel:first-child() {
+    margin-right: 2px;
 }
 .poke-info {
     width: 100%;

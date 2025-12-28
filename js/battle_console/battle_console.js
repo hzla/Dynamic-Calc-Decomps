@@ -22,7 +22,6 @@ $(document).ready(function() {
       spanText = spanText.trim()
 
       if (customSets[spanText]) {
-        console.log(spanText)
         $(`img[data-id="${spanText} (My Box)"]`).click()
       }
 
@@ -46,10 +45,11 @@ function initConsole() {
       },
       // clear all highlights
       reset: function() {
-          var poks = $('#p1').find(".trainer-pok")
-            poks.removeClass('defender')
-            poks.removeClass('killer')
-            poks.removeClass('faster')
+        var poks = $('#p1').find(".trainer-pok")
+        poks.removeClass('defender')
+        poks.removeClass('killer')
+        poks.removeClass('faster')
+        monHighlights = {"killers": [], "defenders": [], "faster": [], "baiters": []} 
       },
       // show mons that live all rolls of specified move or current most dmg move of current pokemon
       // matches first move that contains search string ignoring capitalization

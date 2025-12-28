@@ -113,7 +113,8 @@ SOURCES = {
   "2ec049ba9513d189a915": "Emerald Imperium",
   "55d895a19083b26c0c53": "Emerald Imperium 1.2",
   "imp13": "Emerald Imperium 1.3",
-  "ced457ba9aa55731616c": "Radical Red 4.1 Normal"
+  "ced457ba9aa55731616c": "Radical Red 4.1 Normal",
+  "hardlove": "Hardlove Gold"
 }
 
 $(document).ready(function() {
@@ -163,6 +164,12 @@ function setGameSettings(title) {
     gameGen = 5
     settings.gameSwitchIn = 5; 
     settings.sourceType = "full"
+  } else if (title == "Hardlove Gold") {
+    gameGen = 8
+    settings.gameSwitchIn = 4; 
+    settings.sourceType = "full"
+    mechanics = "hge"
+    save_expansion = true
   }
   else {
     gameGen = 8
@@ -187,6 +194,13 @@ if (SOURCES[params.get('data')]) {
         }
     } else if (TITLE == "Renegade Platinum") {
       baseGame = "Pt"
+    } else if (TITLE.includes(" Black") || TITLE.includes(" White")) {
+      baseGame = "BW"
+      if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
+        baseVersion = "BW2"
+      } 
+    } else if (TITLE.includes("Gold") || TITLE.includes("Silver")) {
+      baseGame = "HGSS"
     }
 
     if (!baseGame) {
@@ -323,6 +337,7 @@ function initPlatinum() {
     }  
 }
 
+// Allows both explicit pokemon names "Rotom-Heat" or smogon ID style "rotomheat"
 function loadPoksData() {
   console.log("patching changed mons...")
   if (TITLE.includes("Platinum")) {
@@ -333,28 +348,33 @@ function loadPoksData() {
     if (pok.includes("Glitched")) {
         continue
     }
+
+    const pokId = cleanString(pok)
+    const pokName = SPECIES_BY_ID[gen][pokId].name
+
     // Allow import of Farfetch'd w/ unicode standard apostrophe
-    if (pok == "Farfetch’d" && poksData["Farfetch'd"]) {
-      jsonPok = poksData["Farfetch'd"];
+    if (pokName == "Farfetch’d" && !poksData["Farfetch’d"]) {
+      jsonPok = poksData["Farfetch'd"] || poksData["farfetchd"] ;
     }
-    else if (poksData[pok]) {
-        jsonPok = poksData[pok]
+    else if (poksData[pokName]) {
+        jsonPok = poksData[pokId] || poksData[pokName] 
     } else {           
        continue //skip weird smogon pokemon and arceus forms
     }
-    const pok_id = cleanString(pok)
+    
 
-    pokedex[pok]["bs"] = jsonPok["bs"]
+
+    pokedex[pokName]["bs"] = jsonPok["bs"]
 
     if (jsonPok["types"]) {
-        pokedex[pok]["types"] = jsonPok["types"]
+        pokedex[pokName]["types"] = jsonPok["types"]
     }
     
     if (jsonPok.hasOwnProperty("abilities"))
         pokedex[pok]["abilities"] = jsonPok["abilities"]
     
-    SPECIES_BY_ID[gen][pok_id].types = jsonPok["types"]
-    SPECIES_BY_ID[gen][pok_id].baseStats = {
+    SPECIES_BY_ID[gen][pokId].types = jsonPok["types"]
+    SPECIES_BY_ID[gen][pokId].baseStats = {
         "atk": jsonPok["bs"]["at"],
         "def": jsonPok["bs"]["df"],
         "hp": jsonPok["bs"]["hp"],
