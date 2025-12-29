@@ -38,8 +38,7 @@ $(document).ready(function() {
                 smallBlockSize = 0xFFA0
             }
 
-            if (save_expansion || TITLE == "Hardlove Gold") {
-                console.log("hardloveee")
+            if (save_expansion) {
                 boxDataOffset = 0x10000
             }
 
@@ -447,7 +446,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
 
 
     if (nn.toLowerCase() != mon_name.toLowerCase()) {
-        console.log([nn, mon_name])
+        // console.log([nn, mon_name])
         showdownString += `${nn} (${mon_name}) @ ${item_name}\n`
     } else {
         showdownString += `${mon_name} @ ${item_name}\n`

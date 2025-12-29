@@ -497,6 +497,7 @@ function loadDataSource(data) {
       loadPoksData()
 
       moveData = data["moves"]
+      backup_moves = data["moves"]
       loadMovesData()
     }
 
