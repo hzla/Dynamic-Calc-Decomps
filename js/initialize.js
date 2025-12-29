@@ -167,6 +167,7 @@ function setGameSettings(title) {
   } else if (title == "Cascade White 2" || title == "Vintage White Plus") {
     gameGen = 5
     settings.gameSwitchIn = 5; 
+    settings.damageGen = 5;
     settings.sourceType = "full"
     save_expansion = false,
     showDex = true
