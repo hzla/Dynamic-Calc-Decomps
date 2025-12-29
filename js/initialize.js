@@ -164,10 +164,20 @@ function setGameSettings(title) {
     settings.gameSwitchIn = 4;
     settings.sourceType = "full"
     save_expansion = false
-  } else if (title == "Cascade White 2" || title == "Vintage White Plus") {
+  } else if (title == "Cascade White 2") {
     gameGen = 5
     settings.gameSwitchIn = 5; 
     settings.damageGen = 5;
+    settings.sourceType = "full"
+    save_expansion = false,
+    showDex = true
+  } else if (title == "Vintage White Plus") {
+    gameGen = 5
+    settings.gameSwitchIn = 5; 
+    settings.damageGen = 5;
+    settings.gen = 5;
+    settings.critGen = 5;
+    settings.typeChart = 5;
     settings.sourceType = "full"
     save_expansion = false,
     showDex = true
