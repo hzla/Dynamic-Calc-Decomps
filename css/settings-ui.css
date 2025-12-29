@@ -101,6 +101,7 @@ input:checked + .slider:before {
   top: 22px;
   width: 44px;
   transform: scale(1.83);
+  display: none;
 }
 
 #open-dex:hover path {

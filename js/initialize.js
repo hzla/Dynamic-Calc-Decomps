@@ -44,6 +44,7 @@ let partnerName         = null;
 
 let bestDmgAgainstCurrent        = 0;
 let bestPrioDmgAgainstCurrent    = 0;
+let mechanics = "vanilla"
 
 let bestMoveAgainstCurrent       = "";
 let bestPrioMoveAgainstCurrent   = "";
@@ -154,22 +155,27 @@ $(document).ready(function() {
   }
 })
 
-
 function setGameSettings(title) {
   if (title == "Renegade Platinum") {
     gameGen = 4
     settings.gameSwitchIn = 4;
     settings.sourceType = "full"
+    save_expansion = false
   } else if (title == "Cascade White 2") {
     gameGen = 5
     settings.gameSwitchIn = 5; 
     settings.sourceType = "full"
+    save_expansion = false
   } else if (title == "Hardlove Gold") {
     gameGen = 8
     settings.gameSwitchIn = 4; 
     settings.sourceType = "full"
+    settings.readIncludes = true
     mechanics = "hge"
     save_expansion = true
+
+    $('label[for="hail"]').hide()
+    $('label[for="snow"]').show()
   }
   else {
     gameGen = 8
@@ -492,6 +498,15 @@ function loadDataSource(data) {
 
       moveData = data["moves"]
       loadMovesData()
+    }
+
+    if (settings.readIncludes) {
+      includes = data["includes"]
+      sav_pok_names = includes["poks"]
+      sav_move_names = includes["moves"] 
+      sav_item_names = includes["items"]
+      sav_pok_growths = includes["growths"]
+      sav_abilities = includes["abilities"]
     }
 
 

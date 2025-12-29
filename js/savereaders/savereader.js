@@ -9,220 +9,219 @@ $(document).ready(function() {
         $('#read-save').click(function(){
             $('#save-upload-g45')[0].value = null
         })
-        save_expansion = false
     }
 
     document.getElementById('save-upload-g45').addEventListener('change', function(event, forceBlock2=false) {
-        // if ($('#save-upload-g45').length > 0) return;
-        const file = event.target.files[0];
-        if (file) {
-            const reader = new FileReader();
-            saveFileName = $('#save-upload-g45').val().split("\\").pop()
-            savExt = saveFileName.slice(-3)
-            currentParty = []
+    if ($('#save-upload').length > 0) return;
+    const file = event.target.files[0];
+    if (file) {
+        const reader = new FileReader();
+        saveFileName = $('#save-upload-g45').val().split("\\").pop()
+        savExt = saveFileName.slice(-3)
+        currentParty = []
 
-            if (baseGame == "Pt") {
-                partyCountOffset = 0x9C
-                smallBlockSize = 0xCF2C
-                boxDataOffset = 0xCF30
-                bigBlockStart = boxDataOffset - 4
-                bigBlockSize = 0x121E4
-                footerSize = 20
-                partyPokSize = 236
-            } else if (baseGame == "HGSS") {
-                partyCountOffset = 0x94
-                smallBlockSize = 0xF628
-                boxDataOffset = 0x0f700
+        if (baseGame == "Pt") {
+            partyCountOffset = 0x9C
+            smallBlockSize = 0xCF2C
+            boxDataOffset = 0xCF30
+            bigBlockStart = boxDataOffset - 4
+            bigBlockSize = 0x121E4
+            footerSize = 20
+            partyPokSize = 236
+        } else if (baseGame == "HGSS") {
+            partyCountOffset = 0x94
+            smallBlockSize = 0xF628
+            boxDataOffset = 0x0f700
 
-                if (mechanics == "hge") {
-                    smallBlockSize = 0xFFA0
-                }
+            if (mechanics == "hge") {
+                smallBlockSize = 0xFFA0
+            }
 
-                if (save_expansion) {
-                    boxDataOffset = 0x10000
-                }
+            if (save_expansion || TITLE == "Hardlove Gold") {
+                console.log("hardloveee")
+                boxDataOffset = 0x10000
+            }
 
-                bigBlockStart = boxDataOffset
-                bigBlockSize = 0x12310
-                footerSize = 16
-                partyPokSize = 236
-            } else if (baseGame == "BW") {
-                partyCountOffset = 0x18e00 + 4
-                boxDataOffset = 0x400
-                boxSize = 0xFF0
-                partySize = 0x534
-                checksumsOffset = 0x23F00
-                checksumEnd = 0x23F9A
-                partyPokSize = 220
-                checksumTableSize = 0x8C
+            bigBlockStart = boxDataOffset
+            bigBlockSize = 0x12310
+            footerSize = 16
+            partyPokSize = 236
+        } else if (baseGame == "BW") {
+            partyCountOffset = 0x18e00 + 4
+            boxDataOffset = 0x400
+            boxSize = 0xFF0
+            partySize = 0x534
+            checksumsOffset = 0x23F00
+            checksumEnd = 0x23F9A
+            partyPokSize = 220
+            checksumTableSize = 0x8C
 
-                if (baseVersion == "BW2") {
-                    checksumsOffset = 0x25F00
-                    checksumEnd = 0x25FA2
-                    checksumTableSize = 0x94
+            if (baseVersion == "BW2") {
+                checksumsOffset = 0x25F00
+                checksumEnd = 0x25FA2
+                checksumTableSize = 0x94
+            }
+        }
+
+        battleStatSize = (partyPokSize - 136) / 2
+
+        reader.onload = function(e) {
+            // Extract the processing logic into a separate function for retry
+            function processSaveFile(forceBlock2 = false) {
+                try {
+                    // Convert the binary string to ArrayBuffer for easier access
+                    const binaryData = e.target.result;
+                    const buffer = new ArrayBuffer(binaryData.length);
+
+                    view = new Uint8Array(buffer);
+
+                    saveUploaded = true
+                    for (let i = 0; i < binaryData.length; i++) {
+                        view[i] = binaryData.charCodeAt(i);
+                    }
+
+                    changelog = "<h4>Changelog:</h4>"
+                    changelog += `<p>${saveFileName} loaded</p>`
+                    if ($('#changelog').length == 0) {
+                       $('#clearSets').after("<p id='changelog'></p>") 
+                    }
+                    $('#changelog').html(changelog).show()
+                    
+                    partyExpTables = []
+                    partyExpIndexes = []
+                    partyMovesIndexes = []
+
+                    smallBlockStart = 0
+
+                    if (baseGame == "Pt" || baseGame == "HGSS") {
+                        smallBlock1SaveCount = read32BitIntegerFromUint8Array(view,  smallBlockSize - 16)
+                        smallBlock2SaveCount = read32BitIntegerFromUint8Array(view,  smallBlockSize + 0x40000 - 16)
+                        if (smallBlock2SaveCount > smallBlock1SaveCount || forceBlock2) {
+                            partyCountOffset += 0x40000
+                            blockId = read32BitIntegerFromUint8Array(view,  smallBlockSize + 0x40000 - 20)
+                            console.log("now reading party from block 2")
+                            smallBlockStart = 0x40000
+                        } else {
+                            console.log("now reading party from block 1")
+                            blockId = read32BitIntegerFromUint8Array(view,  smallBlockSize - 20)       
+                        }
+                        block1Id = read32BitIntegerFromUint8Array(view,  bigBlockStart + bigBlockSize - 20)
+                        if (block1Id != blockId || forceBlock2) {
+                            boxDataOffset += 0x40000
+                            bigBlockStart += 0x40000
+                            console.log("now reading box from block 2")
+                        } else {
+                            console.log("now reading box from block 1")
+                        }
+                    }
+
+                    // Step 1: Get 'n' from offset 0x9C (single byte)
+                    var n = view[partyCountOffset];
+                    partyCount = n
+
+                    // Initialize an array to store decrypted chunks
+                    decryptedChunks = [];
+                    decryptedBattleStats = []
+                    partyMons = {}
+                    partyPIDs = []
+
+                    console.log(partyCount)
+
+                    // Step 2: Loop 'n' times to read and decrypt each 236-byte chunk       
+                    CHUNK_SIZE = partyPokSize
+                    var offset = partyCountOffset + 4;
+                    
+                    showdownImport = ""
+                    savParty = []
+
+                    for (let i = 0; i < n; i++) {
+                        // Extract the chunk of 236 bytes from the binary data
+                       chunk = view.slice(offset, offset + CHUNK_SIZE);
+                       showdownImport += parsePKM(chunk, true)
+                       offset += CHUNK_SIZE                 
+                    }
+
+                    offset = boxDataOffset
+                    CHUNK_SIZE = 136
+                    n = 510
+
+                    if (save_expansion) {
+                       n = 870 
+                    } 
+
+                    if (baseGame == "BW") {
+                        n = 210
+                    }
+
+                    boxPokOffsets = {}
+                    savBox = []
+
+                    for (let i = 0; i < n; i++) {
+                        // Extract the chunk of 236 bytes from the binary data
+
+                       if (baseGame == "HGSS") {
+                         if (i > 0 && i % 30 == 0) {
+                            offset += 16
+                         } 
+                       } else if (baseGame == "BW") {
+                         if (i > 0 && i % 30 == 0) {
+                            offset += 16
+                         } 
+                       }
+                      
+                       chunk = view.slice(offset, offset + CHUNK_SIZE);
+                       
+                       showdownImport += parsePKM(chunk, false, offset)
+                       offset += CHUNK_SIZE                 
+                    }
+                    $('.import-team-text').val(showdownImport)
+                    
+                    // If we get here, processing was successful
+                    return true;
+                    
+                } catch (error) {
+                    console.log('Processing failed:', error.message);
+                    throw error; // Re-throw to trigger retry
                 }
             }
 
-            battleStatSize = (partyPokSize - 136) / 2
-
-            reader.onload = function(e) {
-                // Extract the processing logic into a separate function for retry
-                function processSaveFile(forceBlock2 = false) {
-                    try {
-                        // Convert the binary string to ArrayBuffer for easier access
-                        const binaryData = e.target.result;
-                        const buffer = new ArrayBuffer(binaryData.length);
-
-                        view = new Uint8Array(buffer);
-
-                        saveUploaded = true
-                        for (let i = 0; i < binaryData.length; i++) {
-                            view[i] = binaryData.charCodeAt(i);
-                        }
-
-                        changelog = "<h4>Changelog:</h4>"
-                        changelog += `<p>${saveFileName} loaded</p>`
-                        if ($('#changelog').length == 0) {
-                           $('#clearSets').after("<p id='changelog'></p>") 
-                        }
-                        $('#changelog').html(changelog).show()
-                        
-                        partyExpTables = []
-                        partyExpIndexes = []
-                        partyMovesIndexes = []
-
-                        smallBlockStart = 0
-
-                        if (baseGame == "Pt" || baseGame == "HGSS") {
-                            smallBlock1SaveCount = read32BitIntegerFromUint8Array(view,  smallBlockSize - 16)
-                            smallBlock2SaveCount = read32BitIntegerFromUint8Array(view,  smallBlockSize + 0x40000 - 16)
-                            if (smallBlock2SaveCount > smallBlock1SaveCount || forceBlock2) {
-                                partyCountOffset += 0x40000
-                                blockId = read32BitIntegerFromUint8Array(view,  smallBlockSize + 0x40000 - 20)
-                                console.log("now reading party from block 2")
-                                smallBlockStart = 0x40000
-                            } else {
-                                console.log("now reading party from block 1")
-                                blockId = read32BitIntegerFromUint8Array(view,  smallBlockSize - 20)       
-                            }
-                            block1Id = read32BitIntegerFromUint8Array(view,  bigBlockStart + bigBlockSize - 20)
-                            if (block1Id != blockId || forceBlock2) {
-                                boxDataOffset += 0x40000
-                                bigBlockStart += 0x40000
-                                console.log("now reading box from block 2")
-                            } else {
-                                console.log("now reading box from block 1")
-                            }
-                        }
-
-                        // Step 1: Get 'n' from offset 0x9C (single byte)
-                        var n = view[partyCountOffset];
-                        partyCount = n
-
-                        // Initialize an array to store decrypted chunks
-                        decryptedChunks = [];
-                        decryptedBattleStats = []
-                        partyMons = {}
-                        partyPIDs = []
-
-                        console.log(partyCount)
-
-                        // Step 2: Loop 'n' times to read and decrypt each 236-byte chunk       
-                        CHUNK_SIZE = partyPokSize
-                        var offset = partyCountOffset + 4;
-                        
-                        showdownImport = ""
-                        savParty = []
-
-                        for (let i = 0; i < n; i++) {
-                            // Extract the chunk of 236 bytes from the binary data
-                           chunk = view.slice(offset, offset + CHUNK_SIZE);
-                           showdownImport += parsePKM(chunk, true)
-                           offset += CHUNK_SIZE                 
-                        }
-
-                        offset = boxDataOffset
-                        CHUNK_SIZE = 136
-                        n = 510
-
-                        if (save_expansion) {
-                           n = 870 
-                        } 
-
-                        if (baseGame == "BW") {
-                            n = 210
-                        }
-
-                        boxPokOffsets = {}
-                        savBox = []
-
-                        for (let i = 0; i < n; i++) {
-                            // Extract the chunk of 236 bytes from the binary data
-
-                           if (baseGame == "HGSS") {
-                             if (i > 0 && i % 30 == 0) {
-                                offset += 16
-                             } 
-                           } else if (baseGame == "BW") {
-                             if (i > 0 && i % 30 == 0) {
-                                offset += 16
-                             } 
-                           }
-                          
-                           chunk = view.slice(offset, offset + CHUNK_SIZE);
-                           
-                           showdownImport += parsePKM(chunk, false, offset)
-                           offset += CHUNK_SIZE                 
-                        }
-                        $('.import-team-text').val(showdownImport)
-                        $('#import').click()   
-                        
-                        // If we get here, processing was successful
-                        return true;
-                        
-                    } catch (error) {
-                        console.log('Processing failed:', error.message);
-                        throw error; // Re-throw to trigger retry
-                    }
+            // Try processing the save file
+            try {
+                processSaveFile(forceBlock2);
+            } catch (error) {
+                console.log('First attempt failed, retrying with forceBlock2=true');
+                
+                // Reset any modified offsets before retry
+                if (baseGame == "Pt") {
+                    partyCountOffset = 0x9C
+                    boxDataOffset = 0xCF30
+                    bigBlockStart = boxDataOffset - 4
+                } else if (baseGame == "HGSS") {
+                    partyCountOffset = 0x94
+                    boxDataOffset = 0x0f700
+                    bigBlockStart = boxDataOffset
+                } else if (baseGame == "BW") {
+                    partyCountOffset = 0x18e00 + 4
+                    boxDataOffset = 0x400
                 }
+                
+                // try {
+                    processSaveFile(true); // Retry with forceBlock2=true
+                    console.log('Retry with forceBlock2=true succeeded');
+                // } catch (retryError) {
+                //     console.error('Both attempts failed:', retryError.message);
+                //     // You might want to show an error message to the user here
+                //     alert('Failed to load save file. The file may be corrupted or incompatible.');
+                // }
+            }
+        };
 
-                // Try processing the save file
-                try {
-                    processSaveFile(forceBlock2);
-                } catch (error) {
-                    console.log('First attempt failed, retrying with forceBlock2=true');
-                    
-                    // Reset any modified offsets before retry
-                    if (baseGame == "Pt") {
-                        partyCountOffset = 0x9C
-                        boxDataOffset = 0xCF30
-                        bigBlockStart = boxDataOffset - 4
-                    } else if (baseGame == "HGSS") {
-                        partyCountOffset = 0x94
-                        boxDataOffset = 0x0f700
-                        bigBlockStart = boxDataOffset
-                    } else if (baseGame == "BW") {
-                        partyCountOffset = 0x18e00 + 4
-                        boxDataOffset = 0x400
-                    }
-                    
-                    try {
-                        processSaveFile(true); // Retry with forceBlock2=true
-                        console.log('Retry with forceBlock2=true succeeded');
-                    } catch (retryError) {
-                        console.error('Both attempts failed:', retryError.message);
-                        // You might want to show an error message to the user here
-                        alert('Failed to load save file. The file may be corrupted or incompatible.');
-                    }
-                }
-            };
-
-            // Read file as binary string
-            reader.readAsBinaryString(file);
-        } else {
-            console.log("No file selected.");
-        }
-    });
+        // Read file as binary string
+        reader.readAsBinaryString(file);
+    } else {
+        console.log("No file selected.");
+    }
+});
 
 })
 
@@ -342,6 +341,12 @@ function parsePKM(chunk, is_party=false, offset=0) {
     var nn_data_offset = shiftOrder.indexOf(2) * 16
 
     var mon_name = sav_pok_names[decryptedData[mon_data_offset]]
+
+    if (mon_name == "meowth") {
+        console.log(decryptedData[mon_data_offset])
+    }
+
+    mon_name = SPECIES_BY_ID[gen][cleanString(mon_name)].name
 
     if (mon_name in mon_forms) {
         var form_index = (decryptedData[move_data_offset + 12] >> 3 & 0x1F) - 1 

@@ -644,7 +644,7 @@ function get_next_in() {
                 switchInScore += sub_index / 100
             }
 
-            if (pok_name.includes("-Mega")) {
+            if (pok_name.includes("-Mega") || pok_name.includes("-Crowned")) {
                 switchInScore -= 100000
             }
 
