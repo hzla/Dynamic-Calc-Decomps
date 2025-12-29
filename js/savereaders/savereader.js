@@ -1,3 +1,4 @@
+// SAVEREADERS FOR GEN 4/5 AND HG-ENGINE
 
 $(document).ready(function() {
     if (gameGen == 4 || gameGen == 5 || mechanics == "hge") {
@@ -364,6 +365,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
     var spe_ev = decryptedData[mon_data_offset + 9] >> 8 & 0xFF
     var spd_ev = decryptedData[mon_data_offset + 10] >> 8 & 0xFF
 
+
     let nn = ""
 
 
@@ -394,6 +396,8 @@ function parsePKM(chunk, is_party=false, offset=0) {
         decryptedData[move_data_offset + 9] = 16383          
     }
 
+
+
     var iv_value = (decryptedData[move_data_offset + 9] << 16) | (decryptedData[move_data_offset + 8]  & 0xFFFF)
     ivs = getIVs(iv_value) 
     let met_location
@@ -405,6 +409,15 @@ function parsePKM(chunk, is_party=false, offset=0) {
     }
     
 
+    if (mechanics == "hge") {
+        var altFormId = (((decryptedData[move_data_offset + 12] & 0xFF) >> 3) & 0x1F) - 1
+        if (altFormId > 0 && pokedex[mon_name] && pokedex[mon_name]["otherFormes"]) {
+            mon_name = pokedex[mon_name]["otherFormes"][altFormId]
+            if (pokedex[nn]) {
+                nn = mon_name
+            }
+        }
+    }
 
 
     if (baseGame != "BW") {

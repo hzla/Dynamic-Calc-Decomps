@@ -644,7 +644,7 @@ function get_next_in() {
                 switchInScore += sub_index / 100
             }
 
-            if (pok_name.includes("-Mega") || pok_name.includes("-Crowned")) {
+            if (pok_name.includes("-Mega") || pok_name.includes("-Crowned") || pok_name.includes("-Primal") ) {
                 switchInScore -= 100000
             }
 
@@ -731,7 +731,7 @@ function simplifySwitchScores() {
         let order = rawScores.indexOf(score)
         
         if (score < -50000) {
-            $(this).text(`Mega Form`)
+            $(this).text(`Alt Form`)
         } else if ((score < 0) ) {
             $(this).text(`Ace`)
         } else {
