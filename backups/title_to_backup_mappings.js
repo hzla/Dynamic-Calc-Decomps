@@ -26,7 +26,8 @@ backupFiles = {
 	"Luminescent Platinum": "lumi",
 	"Radical Red 4.1 Hardcore": "radredhc",
 	"Radical Red 4.1 Normal": "radrednm",
-	"Hardlove Gold": "hardlove"
+	"Hardlove Gold": "hardlove",
+	"Heart Gold Engine Rom": "hgenginerom"
 }
 
 

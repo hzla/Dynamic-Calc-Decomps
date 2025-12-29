@@ -115,7 +115,8 @@ SOURCES = {
   "55d895a19083b26c0c53": "Emerald Imperium 1.2",
   "imp13": "Emerald Imperium 1.3",
   "ced457ba9aa55731616c": "Radical Red 4.1 Normal",
-  "hardlove": "Hardlove Gold"
+  "hardlove": "Hardlove Gold",
+  "hgenginerom": "Heart Gold Engine Rom"
 }
 
 $(document).ready(function() {
@@ -166,7 +167,7 @@ function setGameSettings(title) {
     settings.gameSwitchIn = 5; 
     settings.sourceType = "full"
     save_expansion = false
-  } else if (title == "Hardlove Gold") {
+  } else if (title == "Hardlove Gold" || title == "Heart Gold Engine Rom") {
     gameGen = 8
     settings.gameSwitchIn = 4; 
     settings.sourceType = "full"
