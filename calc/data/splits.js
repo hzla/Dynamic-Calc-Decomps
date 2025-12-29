@@ -74,6 +74,11 @@ splitData = {
 		"titles": ["Cilan/Chili/Cress", "Lenora", "Burgh", "Elesa", "Clay", "Skyla", "Brycen", "Iris", "Elite 4"],
 		"types": ["fire", "normal", "bug", "electric", "ground", "flying", "ice", "dragon"]
 	},
+	"Vintage White Plus": {
+		"lvls": [15, 28, 35, 44, 58, 67, 74, 86, 73],
+		"titles": ["Cilan/Chili/Cress", "Lenora", "Burgh", "Elesa", "Clay", "Skyla", "Brycen", "Iris", "Elite 4"],
+		"types": ["fire", "normal", "bug", "electric", "ground", "flying", "ice", "dragon"]
+	},
 	"Emerald Imperium 1.2": {
 		"lvls": [15, 25, 34,47,59,68,76,82,85],
 		"titles": ["Roxanne", "Brawly", "Wattson", "Flannery", "Norman", "Winona", "Tate&Liza", "Juan", "Elite 4"],

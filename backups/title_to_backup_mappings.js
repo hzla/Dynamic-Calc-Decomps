@@ -27,7 +27,8 @@ backupFiles = {
 	"Radical Red 4.1 Hardcore": "radredhc",
 	"Radical Red 4.1 Normal": "radrednm",
 	"Hardlove Gold": "hardlove",
-	"Heart Gold Engine Rom": "hgenginerom"
+	"Heart Gold Engine Rom": "hgenginerom",
+	"Vintage White Plus": "vwplus"
 }
 
 

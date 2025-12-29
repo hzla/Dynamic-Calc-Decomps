@@ -1,4 +1,4 @@
-function loadDex() {
+function loadDex(url) {
 	// Create iframe element
 
 	if ($('iframe').length > 0) {
@@ -10,12 +10,12 @@ function loadDex() {
 	const iframe = document.createElement('iframe');
 
 	// Set iframe properties
-	iframe.src = 'https://ddex-chi.vercel.app/?game=blazeblack2redux';
+	iframe.src = `https://ddex-chi.vercel.app/${url}`;
 	iframe.style.position = 'fixed';
 	iframe.style.top = '50%';
 	iframe.style.left = '50%';
 	iframe.style.transform = 'translate(-50%, -50%)';
-	iframe.style.width = '98vw';
+	iframe.style.width = '40vw';
 	iframe.style.height = '90vh';
 	iframe.style.border = '2px solid #333';
 	iframe.style.borderRadius = '8px';
@@ -28,7 +28,7 @@ function loadDex() {
 	closeBtn.textContent = '✕';
 	closeBtn.style.position = 'fixed';
 	closeBtn.style.top = 'calc(5vh - 20px)';
-	closeBtn.style.left = 'calc(99vw - 20px)';
+	closeBtn.style.left = 'calc(70vw - 20px)';
 	closeBtn.style.zIndex = '1000000';
 	closeBtn.style.background = '#ff4444';
 	closeBtn.style.color = 'white';
@@ -51,12 +51,21 @@ function loadDex() {
 }
 
 $(document).ready(function() {
-	 $(document).keydown(async function (e) {
-        if ((e.altKey || e.ctrlKey) && (e.key == "d")){ 
-            e.preventDefault()
-            loadDex()
-        } 
-    })
+	 $('#open-dex').click(function() {
+	 	loadDex(`?game=${cleanString(TITLE)}`)
+	 })
+
+	 if ($('#open-dex:visible').length > 0) {
+
+
+	 	$('#p1 .poke-sprite').click(function() {
+	 		var dexPok = $(this).attr('src').split("/")[3].split(".")[0]
+	 		console.log(dexPok)
+	 		$('iframe').remove()
+	 		$('.iframe-close-btn').remove()
+	 		loadDex(`pokemon/${dexPok}`)
+	 	})
+	 }
 })
 
 

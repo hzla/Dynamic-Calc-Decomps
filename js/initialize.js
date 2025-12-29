@@ -22,7 +22,8 @@ const settings = {
     noSwitch: getBool('noSwitch'),
     hasEvs: !getBool('evs', '0'),
     challengeMode: params.get('challengeMode') || false,
-    critGen: getNum('critGen', getNum('dmgGen', 8))
+    critGen: getNum('critGen', getNum('dmgGen', 8)),
+    showDex: false
 };
 
 // --- Global State -----------------------------------------------------------
@@ -116,7 +117,8 @@ SOURCES = {
   "imp13": "Emerald Imperium 1.3",
   "ced457ba9aa55731616c": "Radical Red 4.1 Normal",
   "hardlove": "Hardlove Gold",
-  "hgenginerom": "Heart Gold Engine Rom"
+  "hgenginerom": "Heart Gold Engine Rom",
+  "vwplus": "Vintage White Plus"
 }
 
 $(document).ready(function() {
@@ -162,11 +164,12 @@ function setGameSettings(title) {
     settings.gameSwitchIn = 4;
     settings.sourceType = "full"
     save_expansion = false
-  } else if (title == "Cascade White 2") {
+  } else if (title == "Cascade White 2" || title == "Vintage White Plus") {
     gameGen = 5
     settings.gameSwitchIn = 5; 
     settings.sourceType = "full"
-    save_expansion = false
+    save_expansion = false,
+    showDex = true
   } else if (title == "Hardlove Gold" || title == "Heart Gold Engine Rom") {
     gameGen = 8
     settings.gameSwitchIn = 4; 
@@ -181,6 +184,10 @@ function setGameSettings(title) {
   else {
     gameGen = 8
     settings.sourceType = "onlyTrainers"
+  }
+  if (showDex) {
+    $('#open-dex').show()
+    
   }
 }
 
@@ -205,7 +212,9 @@ if (SOURCES[params.get('data')]) {
       baseGame = "BW"
       if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
         baseVersion = "BW2"
-      } 
+      } else {
+        baseVersion = "BW"
+      }
     } else if (TITLE.includes("Gold") || TITLE.includes("Silver")) {
       baseGame = "HGSS"
     }
