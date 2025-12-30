@@ -42910,43 +42910,43 @@ backup_data = {
     }
   },
   "Zamazenta": {
-    "Lvl 85 Elite Four Cynthia ": {
-      "ivs": {
-        "hp": 31,
-        "at": 31,
-        "df": 31,
-        "sa": 31,
-        "sd": 31,
-        "sp": 31
-      },
-      "evs": {
-        "hp": 6,
-        "at": 252,
-        "df": 0,
-        "sa": 0,
-        "sd": 0,
-        "sp": 252
-      },
-      "item": "Rusted Shield",
-      "level": 85,
-      "nature": "Jolly",
-      "battle_type": "Singles",
-      "moves": [
-        "Body Press",
-        "Iron Defense",
-        "Iron Head",
-        "Play Rough"
-      ],
-      "sub_index": 3,
-      "ai_tags": [
-        "Check Bad Move",
-        "Try To Faint",
-        "Check Viability",
-        "Smart Switching",
-        "Omniscient"
-      ],
-      "ability": "Dauntless Shield"
-    }
+    // "Lvl 85 Elite Four Cynthia ": {
+    //   "ivs": {
+    //     "hp": 31,
+    //     "at": 31,
+    //     "df": 31,
+    //     "sa": 31,
+    //     "sd": 31,
+    //     "sp": 31
+    //   },
+    //   "evs": {
+    //     "hp": 6,
+    //     "at": 252,
+    //     "df": 0,
+    //     "sa": 0,
+    //     "sd": 0,
+    //     "sp": 252
+    //   },
+    //   "item": "Rusted Shield",
+    //   "level": 85,
+    //   "nature": "Jolly",
+    //   "battle_type": "Singles",
+    //   "moves": [
+    //     "Body Press",
+    //     "Iron Defense",
+    //     "Iron Head",
+    //     "Play Rough"
+    //   ],
+    //   "sub_index": 3,
+    //   "ai_tags": [
+    //     "Check Bad Move",
+    //     "Try To Faint",
+    //     "Check Viability",
+    //     "Smart Switching",
+    //     "Omniscient"
+    //   ],
+    //   "ability": "Dauntless Shield"
+    // }
   },
   "Xerneas": {
     "Lvl 85 Elite Four Cynthia ": {
@@ -83916,7 +83916,6 @@ backup_data = {
         "Behemoth Bash",
         "Play Rough"
       ],
-      "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
         "Try To Faint",
@@ -83925,7 +83924,7 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Dauntless Shield",
-      "sub_index": 6
+      "sub_index": 3
     }
   },
   "Palkia-Primal": {
