@@ -475,6 +475,12 @@ function loadMovesData() {
       }
     }
 
+    if (moves[move]["multihit"] && moves[move]["multihit"][0] == moves[move]["multihit"][1]) {
+        MOVES_BY_ID[g][moveId].multihit  = moves[move]["multihit"][0]
+        moves[move]["multihit"] =  moves[move]["multihit"][0]
+
+    }
+
     // gen 5 data sources from pokeweb will only include multihit if it's a multihit move
     if (!jsonMove['multihit'] && (settings.damageGen == 5)) {
          delete MOVES_BY_ID[g][moveId].multihit 
