@@ -42,6 +42,7 @@ let calcingForSwitchIns = false;
 let changingSets        = false;
 let terminalStarted     = false;
 let partnerName         = null;
+let showDex = false;
 
 let bestDmgAgainstCurrent        = 0;
 let bestPrioDmgAgainstCurrent    = 0;
@@ -164,6 +165,7 @@ function setGameSettings(title) {
     settings.gameSwitchIn = 4;
     settings.sourceType = "full"
     save_expansion = false
+    $('label[for="snow"]').hide()
   } else if (title == "Cascade White 2") {
     gameGen = 5
     settings.gameSwitchIn = 5; 
@@ -171,6 +173,7 @@ function setGameSettings(title) {
     settings.sourceType = "full"
     save_expansion = false,
     showDex = true
+    $('label[for="snow"]').hide()
   } else if (title == "Vintage White Plus") {
     gameGen = 5
     settings.gameSwitchIn = 5; 
@@ -181,6 +184,7 @@ function setGameSettings(title) {
     settings.sourceType = "full"
     save_expansion = false,
     showDex = true
+    $('label[for="snow"]').hide()
   } else if (title == "Hardlove Gold" || title == "Heart Gold Engine Rom") {
     gameGen = 8
     settings.gameSwitchIn = 4; 
@@ -194,6 +198,7 @@ function setGameSettings(title) {
   }
   else {
     gameGen = 8
+    $('label[for="hail"]').hide()
     settings.sourceType = "onlyTrainers"
   }
   if (showDex) {
