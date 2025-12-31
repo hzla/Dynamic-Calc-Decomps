@@ -279,7 +279,8 @@ function get_type_info(pok_types, modifier=false) {
                 [1, 0.5, 1, 1, 1, 1, 2, 0.5, 1, 1, 1, 1, 1, 1, 2, 2, 0.5, 1,1],
                 [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
 
-        if (settings.type_chart < 6) {
+        if (settings.typeChart < 6) {
+
             types[13][16] = 0.5
             types[15][16] = 0.5
         } else {
