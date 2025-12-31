@@ -889,18 +889,21 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 2048) / 4096);
     }
 
+    console.log(field.hasWeather('Sun'))
+
     if (!( (defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")) && TITLE == "Cascade White 2")) {
          if ((field.hasWeather('Sun', 'Harsh Sunshine') && move.hasType('Fire')) ||
             (field.hasWeather('Rain', 'Heavy Rain') && move.hasType('Water'))) {
             baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 6144) / 4096);
             desc.weather = field.weather;
+        } else if ((field.hasWeather('Sun') && move.hasType('Water')) ||
+            (field.hasWeather('Rain') && move.hasType('Fire'))) {
+            console.log("halving damage")
+            baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 2048) / 4096);
+            desc.weather = field.weather;
         }
     }
-    else if ((field.hasWeather('Sun') && move.hasType('Water')) ||
-        (field.hasWeather('Rain') && move.hasType('Fire'))) {
-        baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 2048) / 4096);
-        desc.weather = field.weather;
-    }
+    
     if (isCritical) {
         if (settings.critGen >= 6) {
            baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (1.5)));
