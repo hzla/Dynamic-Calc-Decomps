@@ -119,7 +119,8 @@ SOURCES = {
   "ced457ba9aa55731616c": "Radical Red 4.1 Normal",
   "hardlove": "Hardlove Gold",
   "hgenginerom": "Heart Gold Engine Rom",
-  "vwplus": "Vintage White Plus"
+  "vwplus": "Vintage White Plus",
+  "blind": "Blinding White 2"
 }
 
 $(document).ready(function() {
@@ -164,6 +165,7 @@ function setGameSettings(title) {
     gameGen = 4
     settings.gameSwitchIn = 4;
     settings.sourceType = "full"
+    settings.critGen = 5;
     save_expansion = false
     $('label[for="snow"]').hide()
   } else if (title == "Cascade White 2") {
@@ -171,6 +173,16 @@ function setGameSettings(title) {
     settings.gameSwitchIn = 5; 
     settings.damageGen = 5;
     settings.sourceType = "full"
+    save_expansion = false,
+    showDex = true
+    $('label[for="snow"]').hide()
+  } else if (title == "Blinding White 2") {
+    gameGen = 5
+    settings.gameSwitchIn = 5; 
+    settings.damageGen = 5;
+    settings.sourceType = "full"
+    settings.typeChart = 11
+    settings.critGen = 5;
     save_expansion = false,
     showDex = true
     $('label[for="snow"]').hide()

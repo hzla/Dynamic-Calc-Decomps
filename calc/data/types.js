@@ -470,6 +470,48 @@ var XY = (0, util_1.extend)(true, {}, GSC, {
     }
 });
 
+var blinding = (0, util_1.extend)(true, {}, GSC, {
+    '???': { Fairy: 1 },
+    Normal: { Fairy: 1 },
+    Grass: { Fairy: 1, Ice: 0.5 },
+    Fire: { Fairy: 1 },
+    Water: { Fairy: 1 },
+    Electric: { Fairy: 1 },
+    Ice: { Fairy: 1 },
+    Flying: { Fairy: 1 },
+    Bug: { Fairy: 2, Fighting: 1},
+    Poison: { Fairy: 2 },
+    Ground: { Fairy: 1 },
+    Rock: { Fairy: 1, Grass: 0.5 },
+    Fighting: { Fairy: 0.5 },
+    Psychic: { Fairy: 1 },
+    Ghost: { Steel: 1, Fairy: 1 },
+    Dragon: { Fairy: 0, Ice: 0.5 },
+    Dark: { Steel: 1, Fairy: 0.5 },
+    Steel: { Fairy: 2, Grass: 0.5 },
+    Fairy: {
+        '???': 1,
+        Normal: 0.5,
+        Grass: 1,
+        Fire: 0.5,
+        Water: 1,
+        Electric: 1,
+        Ice: 1,
+        Flying: 1,
+        Bug: 1,
+        Poison: 0.5,
+        Ground: 1,
+        Rock: 1,
+        Fighting: 2,
+        Psychic: 1,
+        Ghost: 1,
+        Dragon: 2,
+        Dark: 2,
+        Steel: 0.5,
+        Fairy: 1
+    }
+});
+
 var platRedux = (0, util_1.extend)(true, {}, GSC, {
     '???': { Fairy: 1 },
     Normal: { Fairy: 1, Dark: 2},
@@ -565,7 +607,7 @@ if (settings.type_chart >= 6) {
     ADV = XY
 }
 
-exports.TYPE_CHART = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, platRedux, parallelEm];
+exports.TYPE_CHART = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, platRedux, parallelEm, blinding];
 var Types = (function () {
     function Types(gen) {
         this.gen = gen;

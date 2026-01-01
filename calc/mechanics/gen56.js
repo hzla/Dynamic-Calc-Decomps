@@ -152,6 +152,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
     var isDarkRevealed = attacker.hasAbility('Inner Focus') && TITLE == "Cascade White 2"
     var isForceNeutral = (move.named("Chip Away") || attacker.hasAbility("Normalize")) && TITLE == "Cascade White 2"
+    gen.types.gen = settings.typeChart
     var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity);
     var type2Effectiveness = defender.types[1]
         ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity)
