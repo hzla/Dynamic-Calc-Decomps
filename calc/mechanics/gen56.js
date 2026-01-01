@@ -460,7 +460,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     else if (attacker.hasAbility('Sand Force') &&
         !field.hasWeather('Sand') &&
-        move.hasType('Rock', 'Ground', 'Steel')) {
+        move.hasType('Rock', 'Ground', 'Steel') && TITLE == "Cascade White 2") {
 
         bpMods.push(4915);
         desc.attackerAbility = attacker.ability;
