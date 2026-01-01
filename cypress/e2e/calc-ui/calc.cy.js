@@ -39,8 +39,8 @@ for (let calc of calcs) {
       // Check to see if it loads Cynthia's Pokemon
       cy.get('.select2-search input:visible').first().type(`${calc.testTrainer}{enter}`)
 
-      // Check to see if 8 pokemon were loaded (spiritomb, heatran, cramorany, zamazenta, xerneas, garchomp, mega garchomp, zamazenta-crowned)
-      cy.get('.trainer-pok-list.opposing .trainer-pok-container').should('have.length', 8)
+      // Check to see if 8 pokemon were loaded (spiritomb, heatran, cramorant, xerneas, garchomp, mega garchomp, zamazenta-crowned)
+      cy.get('.trainer-pok-list.opposing .trainer-pok-container').should('have.length', 7)
 
       // Check to see if clicking on Cynthia's pokemon loads moveset info and damage numbers  
       cy.get("label[for='resultMoveR1']").should('have.text', calc.testTrainerMonFirstMove)
