@@ -7,7 +7,6 @@ var result_1 = require("../result");
 var util_2 = require("./util");
 
 
-console.log(boostModifiers)
 
 function calculateBWXY(gen, attacker, defender, move, field) {
     var _a;
@@ -890,7 +889,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 2048) / 4096);
     }
 
-    console.log(field.hasWeather('Sun'))
+
 
     if (!( (defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")) && TITLE == "Cascade White 2")) {
          if ((field.hasWeather('Sun', 'Harsh Sunshine') && move.hasType('Fire')) ||
@@ -899,7 +898,6 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.weather = field.weather;
         } else if ((field.hasWeather('Sun') && move.hasType('Water')) ||
             (field.hasWeather('Rain') && move.hasType('Fire'))) {
-            console.log("halving damage")
             baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 2048) / 4096);
             desc.weather = field.weather;
         }

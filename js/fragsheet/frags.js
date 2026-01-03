@@ -169,7 +169,6 @@ function prevoData(speciesName, encounters) {
     
     let ancestor = {}
 
-    console.log(speciesName)
 	try {
 		ancestor = evoData[speciesName]["anc"]
 	} catch {
@@ -180,7 +179,6 @@ function prevoData(speciesName, encounters) {
     
 
     if (ancestor == speciesName) {
-        console.log("Does not evolve")
         return [0, [], false, false]
     }
 
@@ -196,7 +194,6 @@ function prevoData(speciesName, encounters) {
         }
     }
 
-    console.log("prevo data not found")
     return [0, [], false, false]
 }
 

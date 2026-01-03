@@ -185,7 +185,6 @@ function getFinalSpeed(gen, pokemon, field, side) {
 }
 exports.getFinalSpeed = getFinalSpeed;
 function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRingTarget, isBoneZone, isCorrosion) {
-    console.log(gen)
     var isDarkRevealed = (TITLE == "Cascade White 2" && move.type == "Psychic" && type === "Dark")
 
     if ((isRingTarget || isGhostRevealed) && type === 'Ghost' && move.hasType('Normal', 'Fighting')) {
