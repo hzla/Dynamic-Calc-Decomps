@@ -947,7 +947,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         finalMods.push(field.gameType !== 'Singles' ? (gen.num > 5 ? 2732 : 2703) : 2048);
         desc.isLightScreen = true;
     }
-    if ((defender.hasAbility('Multiscale', "Majestic Ward") || defender.hasItem("Focus Band")) && defender.curHP() === defender.maxHP() &&
+    if ((defender.hasAbility('Multiscale', "Majestic Ward") || (defender.hasItem("Focus Band") && TITLE == "Cascade White 2")) && defender.curHP() === defender.maxHP() &&
         !field.defenderSide.isSR && (!field.defenderSide.spikes || defender.hasType('Flying')) &&
         !attacker.hasAbility('Parental Bond (Child)')) {
         finalMods.push(2048);
