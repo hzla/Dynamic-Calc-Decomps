@@ -671,6 +671,13 @@ function getWeight(pokemon, desc, role) {
     return weightHG / 10;
 }
 exports.getWeight = getWeight;
+
+function getWeightFactor(pokemon) {
+        return pokemon.hasAbility('Heavy Metal') ? 2
+            : (pokemon.hasAbility('Light Metal') || pokemon.hasItem('Float Stone')) ? 0.5 : 1;
+    }
+exports.getWeightFactor = getWeightFactor;
+
 function getStabMod(pokemon, move, desc) {
     var stabMod = 4096;
     if (pokemon.hasOriginalType(move.type)) {

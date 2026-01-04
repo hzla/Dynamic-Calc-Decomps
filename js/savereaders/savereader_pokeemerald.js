@@ -123,6 +123,8 @@ if (TITLE.includes("Imperium")) {
                     let rotation = save_index % 14
 
 
+                    console.log(rotation)
+
                     // console.log(`save_index: ${save_index}, rotation: ${rotation}`)
                     let retries = 0
                     if (!savExt.includes("ss")) {
@@ -155,6 +157,8 @@ if (TITLE.includes("Imperium")) {
                             let pid = saveFile.getUint32(offset, true)
                             offset += 4
                             let tid = saveFile.getUint32(offset, true)
+
+                            securityKey = saveFile.getUint32(offset + 162, true)
                             offset += 4
 
 
@@ -529,7 +533,9 @@ function getTms(tmData, rotation) {
 
         if (itemName.includes("TM")) {
             moveName = invertedTms[itemName.slice(2)]
+            console.log(moveName)
             console.log(tmMagic)
+            console.log(tmMagic ^ (securityKey & 0xFFFF));
             if (tmMagic ) {
                legalTms.push(moveName)
             }

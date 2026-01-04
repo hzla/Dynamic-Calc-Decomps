@@ -32,6 +32,7 @@ const settings = {
 let DEFAULTS_LOADED = false;
 let analyze       = false;
 let limitHits     = false;
+let securityKey = 0;
 
 let FIELD_EFFECTS = {};
 let learnsetClosable = false;
