@@ -123,9 +123,11 @@ if (TITLE.includes("Imperium")) {
                     let rotation = save_index % 14
 
 
+
+
                     console.log(rotation)
 
-                    // console.log(`save_index: ${save_index}, rotation: ${rotation}`)
+                    console.log(`save_index: ${save_index}, rotation: ${rotation}`)
                     let retries = 0
                     if (!savExt.includes("ss")) {
                         localStorage.legalTms = ''
@@ -136,6 +138,8 @@ if (TITLE.includes("Imperium")) {
 
                     let offset = 0;
                     const magicValue = 0x0202;
+
+                    offset = 0
 
                     let pokCount = 0
 
@@ -157,8 +161,9 @@ if (TITLE.includes("Imperium")) {
                             let pid = saveFile.getUint32(offset, true)
                             offset += 4
                             let tid = saveFile.getUint32(offset, true)
+                            console.log(tid)
 
-                            securityKey = saveFile.getUint32(offset + 162, true)
+
                             offset += 4
 
 
@@ -508,15 +513,16 @@ if (TITLE.includes("Imperium")) {
 
 function getTms(tmData, rotation) {   
     let tmOffset = 0;
-    legalTms = []
+
+    pooledTms = {}
+    magicCounts = {}
 
     while (tmOffset < tmData.byteLength - 1) {
         let itemId = tmData.getUint16(tmOffset, true);
         let tmMagic = tmData.getUint16(tmOffset + 2, true);
+
         let moveName
 
-
-        
 
         let itemName = emImpItems[itemId]
 
@@ -527,27 +533,28 @@ function getTms(tmData, rotation) {
             itemName = itemName.replace("M0", "M")
         }
 
-        
-
         // console.log(itemName)
 
         if (itemName.includes("TM")) {
             moveName = invertedTms[itemName.slice(2)]
-            console.log(moveName)
-            console.log(tmMagic)
-            console.log(tmMagic ^ (securityKey & 0xFFFF));
-            if (tmMagic ) {
-               legalTms.push(moveName)
+            magicCounts[tmMagic] ||= 0 
+            magicCounts[tmMagic] += 1
+            if (tmMagic && moveName) {
+               pooledTms[tmMagic] ||= [] 
+               pooledTms[tmMagic].push(moveName) 
             }
         } else if (itemName.includes("HM")) {
             moveName = invertedHms[itemName.slice(2)]
-            if (tmMagic) {
-               legalTms.push(moveName)
+            magicCounts[tmMagic] ||= 0
+            magicCounts[tmMagic] += 1
+            if (tmMagic && moveName) {
+               pooledTms[tmMagic] ||= [] 
+               pooledTms[tmMagic].push(moveName) 
             }
         }         
         tmOffset += 4
     }
-    localStorage.legalTms = legalTms
+    localStorage.legalTms = Object.values(pooledTms).reduce((a, b) => (b.length > a.length ? b : a));
 }
 
 function getIVs(ivValue) {
