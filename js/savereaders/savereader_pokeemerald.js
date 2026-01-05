@@ -554,6 +554,12 @@ function getTms(tmData, rotation) {
         }         
         tmOffset += 4
     }
+
+    if (Object.keys(pooledTms).length === 0) {
+        localStorage.legalTms = [] 
+        return
+    }
+    
     localStorage.legalTms = Object.values(pooledTms).reduce((a, b) => (b.length > a.length ? b : a));
 }
 
