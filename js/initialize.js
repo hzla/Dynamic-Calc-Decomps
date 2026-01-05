@@ -21,7 +21,7 @@ const settings = {
     switchIn: getNum('switchIn', 9),
     noSwitch: getBool('noSwitch'),
     hasEvs: !getBool('evs', '0'),
-    challengeMode: params.get('challengeMode') || false,
+    challengeMode: params.get('challengeMode') == 'true' || false,
     critGen: getNum('critGen', getNum('dmgGen', 8)),
     showDex: false
 };

@@ -854,23 +854,28 @@ function calculateBWXY(gen, attacker, defender, move, field) {
       defense = Math.floor(defense * 0.5);
     }
     
-    var levelCaps = [[20, 1], [36, 2], [52, 3]]
+
+    if (TITLE == "Blinding White 2") {
+        // Roxie, Elesa, Skyla lvlcaps
+        settings.levelCaps = [[19, 1], [36, 2], [50, 3]];
+        settings.challengeExceptionListPresent = false;
+    }
     var delta = 0
 
-
-
     // Check if challenge mode, if calculating trainer pok, and if trainer pok is in challenge mode exception list
-    if (settings.challengeMode && (get_current_in(false) && !get_current_in(false)["noCh"]) && $('.set-selector')[3].value.includes(attacker.name) && $('.set-selector')[3].value.includes(attacker.level) ) {
+    if (settings.challengeMode && (get_current_in(false) && !(settings.challengeExceptionListPresent && get_current_in(false)["noCh"]) ) && $('.set-selector')[3].value.includes(attacker.name) && $('.set-selector')[3].value.includes(attacker.level) ) {
         var delta = 4
-        for (n in levelCaps) {
-            if (attacker.level <= levelCaps[n][0]) {
-                delta = levelCaps[n][1]
+        for (n in settings.levelCaps) {
+            if (attacker.level <= settings.levelCaps[n][0]) {
+                delta = settings.levelCaps[n][1]
                 break
             }
         }
     } else {
 
     }
+    console.log(`${attacker.name}: ${delta}`)
+
 
     var baseDamage = (0, util_2.getBaseDamage)(attacker.level + delta, basePower, attack, defense);
 
