@@ -1,6 +1,7 @@
 // --- Initialization ----------------------------------------------------------
 
 const params = new URLSearchParams(window.location.search);
+const npoint = `https://api.npoint.io/${params.get('data')}`
 
 // Helper for boolean flags
 const getBool = (key, truthy = "1") => params.get(key) === truthy;
@@ -33,6 +34,7 @@ let DEFAULTS_LOADED = false;
 let analyze       = false;
 let limitHits     = false;
 let securityKey = 0;
+gameGen = settings.damageGen
 
 let FIELD_EFFECTS = {};
 let learnsetClosable = false;
@@ -126,7 +128,6 @@ SOURCES = {
 
 $(document).ready(function() {
   if (backupFiles[TITLE]) {
-    console.log("now loading local data instead of npoint")
     checkAndLoadScript(`./backups/${backupFiles[TITLE]}.js`, {
             onLoad: (src) => {
                 npoint_data = backup_data
@@ -134,29 +135,35 @@ $(document).ready(function() {
             },
             onNotFound: (src) => console.log(`Not found: ${src}`)
     });    
-    
   } else {
     $.get(npoint, function(data){
         npoint_data = data
+        gameGen = settings.damageGen
+        settings.gameSwitchIn = gameGen
+        settings.sourceType = "full"
+
         loadDataSource(data)
-        final_type_chart = construct_type_chart()
 
-        setTimeout(function() {
-            if (localStorage["left"]) {
-                var set = localStorage["right"]
-                $('.opposing').val(set)
-                $('.opposing').change()
-                $('.opposing .select2-chosen').text(set)
-                if ($('.info-group.opp > * > .forme').is(':visible')) {
-                    $('.info-group.opp > * > .forme').change()
-                }
-            }
+        if (gameGen < 8) {
+            $('label[for="snow"]').hide()
+        }
 
-            if (localStorage["right"]) {
-                $(`[data-id='${localStorage["left"]}']`).click()
-            }             
-        }, 100)
-       
+        // setTimeout(function() {
+        //     if (localStorage["left"]) {
+        //         var set = localStorage["right"]
+        //         $('.opposing').val(set)
+        //         $('.opposing').change()
+        //         $('.opposing .select2-chosen').text(set)
+        //         if ($('.info-group.opp > * > .forme').is(':visible')) {
+        //             $('.info-group.opp > * > .forme').change()
+        //         }
+        //     }
+
+        //     if (localStorage["right"]) {
+        //         $(`[data-id='${localStorage["left"]}']`).click()
+        //     }             
+        // }, 100)
+
     })
   }
 })
@@ -526,6 +533,7 @@ function loadMovesData() {
 function loadDataSource(data) {
     SETDEX_BW = data
     setdex = data
+
 
     if (settings.sourceType == "full") {
       SETDEX_BW = data["formatted_sets"]
