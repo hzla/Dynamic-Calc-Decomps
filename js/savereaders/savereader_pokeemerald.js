@@ -541,7 +541,7 @@ function getTms(tmData, rotation) {
             magicCounts[tmMagic] += 1
             if (tmMagic && moveName) {
                pooledTms[tmMagic] ||= [] 
-               pooledTms[tmMagic].push(moveName) 
+               pooledTms[tmMagic].push(moveName.replace("U Turn", "U-turn").replace("Will O Wisp", "Will-O-Wisp")) 
             }
         } else if (itemName.includes("HM")) {
             moveName = invertedHms[itemName.slice(2)]

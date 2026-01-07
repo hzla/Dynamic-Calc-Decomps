@@ -186,6 +186,12 @@ function setGameSettings(title) {
     settings.critGen = 5;
     save_expansion = false,
     showDex = true
+    if (settings.challengeMode) {
+      $('#redux-lvl').css('display', 'inline-block');
+      $('#redux-lvl').click(function() {
+        alert("There is a bug in BW2 Challenge mode where the stats of a pokemon do not match it's displayed level. The calc will adjust the level to show it's true stats. However, the damage formula in this game uses Pokemon level as one of the inputs and this formula uses the incorrect displayed level. So the true power level of a pokemon is somewhere between the bugged displayed level, and the non challenge mode level. The challenge mode version of this calc takes into account this bug and adjusts the calculations accordingly.")
+      })
+    }
     $('label[for="snow"]').hide()
   } else if (title == "Vintage White Plus") {
     gameGen = 5

@@ -50,6 +50,13 @@ input[type="file"] {
     color: #1abc9c;
 }
 
+#redux-lvl {
+    color: #bb86fc;
+    font-size: 12px;
+    display: inline-block;
+    cursor: pointer;
+    display: none;
+}
 
 
 .filterable.doc-enc {
