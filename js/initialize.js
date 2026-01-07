@@ -447,6 +447,8 @@ function loadMovesData() {
         continue //completely overite if custom move data found
     }
 
+
+
     if (move == '(No Move)') {
         continue
     }
@@ -512,6 +514,7 @@ function loadMovesData() {
     } else {
         // custom move
         jsonMoves[move]["flags"] = {}
+
 
         moves[move] = jsonMoves[move]
         moves[move]["bp"] = jsonMoves[move]["basePower"]
