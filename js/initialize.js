@@ -521,6 +521,7 @@ function loadMovesData() {
     } else {
         // custom move
         jsonMoves[move]["flags"] = {}
+        jsonMoves[move]["name"] = move
 
 
         moves[move] = jsonMoves[move]

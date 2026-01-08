@@ -769,17 +769,28 @@ function getMoves(currentPoke, rows, offset) {
 				movesFound = true;
 				var move = rows[x].substr(2, rows[x].length - 2).replace("[", "").replace("]", "").replace("  ", "");
 
-
-				if (moveChanges[TITLE]) {
-					if (moveChanges[TITLE][move]) {
-						move = moveChanges[TITLE][move]
+				if (move) {
+					if (moveChanges[TITLE]) {
+						if (moveChanges[TITLE][move]) {
+							move = moveChanges[TITLE][move]
+						}
 					}
+
+					if (backup_data["move_replacements"]) {
+						let moveId = cleanString(move)
+						if (backup_data["move_replacements"][moveId]) {
+							move = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]].name
+						}
+					}
+
+					// ignore hacks with predefined hidden power
+					if (!TITLE.includes("Sterling") && !TITLE.includes("Maximum") && !TITLE.includes("Ancestral")) {
+						move = move.replace("HP ", "Hidden Power")
+					}
+
 				}
 
-				// ignore hacks with predefined hidden power
-				if (!TITLE.includes("Sterling") && !TITLE.includes("Maximum") && !TITLE.includes("Ancestral")) {
-					move = move.replace("HP ", "Hidden Power")
-				}
+				
 
 				if (typeof rows[x + 1] != "undefined" && rows[x + 1][0] == "M") {
 					currentPoke.met = rows[x + 1].substr(5, rows[x + 1].length)
@@ -1061,6 +1072,11 @@ function checkExeptions(poke) {
 	case 'Florges-Yellow':
 		poke = "Florges";
 		break;
+	}
+
+
+	if (poke != "" && backup_data["pok_replacements"] && backup_data["pok_replacements"][cleanString(poke)]) {
+		poke = SPECIES_BY_ID[gen][backup_data["pok_replacements"][cleanString(poke)]].name
 	}
 
 
