@@ -30,7 +30,7 @@ backup_data = {
             "name": "Bulbasaur",
             "bs":
             {
-                "hp": 45,
+                "hp": 145,
                 "at": 49,
                 "df": 49,
                 "sp": 45,
@@ -22858,7 +22858,7 @@ backup_data = {
             "gend": 31,
             "abs":
             [
-                "Overgrow",
+                "Protean",
                 "None"
             ]
         },
@@ -22881,7 +22881,7 @@ backup_data = {
             "gend": 31,
             "abs":
             [
-                "Overgrow",
+                "Protean",
                 "None"
             ]
         },
@@ -22905,7 +22905,7 @@ backup_data = {
             "gend": 31,
             "abs":
             [
-                "Overgrow",
+                "Protean",
                 "None"
             ]
         },
@@ -31660,8 +31660,8 @@ backup_data = {
             "gend": 255,
             "abs":
             [
-                "Aftermath",
-                "Static"
+                "Static",
+                "Aftermath"
             ]
         },
         "electrodehisui":
@@ -31684,8 +31684,8 @@ backup_data = {
             "gend": 255,
             "abs":
             [
-                "Aftermath",
-                "Static"
+                "Static",
+                "Aftermath"
             ]
         },
         "typhlosionhisui":
@@ -34711,9 +34711,9 @@ backup_data = {
         },
         "Pain Split":
         {
-            "category": "Status",
-            "basePower": 0,
-            "type": "Normal",
+            "category": "Physical",
+            "basePower": 1,
+            "type": "Dark",
             "pp": 20
         },
         "Sacred Fire":
@@ -39608,27 +39608,6 @@ backup_data = {
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
-            "Lvl 18 Team Rocket Grunt #3":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 18,
-                "moves":
-                [],
-                "tr_id": 218,
-                "nature": "",
-                "ability": "Infiltrator",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
             "Lvl 36 Team Rocket Mickey4 ":
             {
                 "ivs":
@@ -39646,7 +39625,7 @@ backup_data = {
                 [],
                 "tr_id": 225,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -40682,7 +40661,7 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Cyndaquil":
+        "Tepig":
         {
             "Lvl 5 Rival Silver |Starter 2|":
             {
@@ -41019,7 +40998,7 @@ backup_data = {
                 [],
                 "tr_id": 597,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 2,
                 "battle_type": "Singles"
             },
@@ -41040,7 +41019,7 @@ backup_data = {
                 [],
                 "tr_id": 597,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 3,
                 "battle_type": "Singles"
             }
@@ -41765,9 +41744,87 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Staryu":
+        "Raichu":
         {
-            "Lvl 21 Swimmer F Elaine":
+            "Lvl 41 Swimmer F Elaine":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Sash",
+                "level": 41,
+                "moves":
+                [
+                    "Thunderbolt",
+                    "Grass Knot",
+                    "Fake Out",
+                    "Endeavor"
+                ],
+                "tr_id": 9,
+                "nature": "Timid",
+                "ability": "Lightning Rod",
+                "sub_index": 0,
+                "battle_type": "Doubles"
+            },
+            "Lvl 39 Sailor Eugene":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Sash",
+                "level": 39,
+                "moves":
+                [
+                    "Discharge",
+                    "Surf",
+                    "Psychic",
+                    "Grass Knot"
+                ],
+                "tr_id": 39,
+                "nature": "Modest",
+                "ability": "Surge Surfer",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            },
+            "Lvl 29 Pokefan M William":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 29,
+                "moves":
+                [
+                    "Fake Out",
+                    "Protect",
+                    "Thunder Punch",
+                    "Extreme Speed"
+                ],
+                "tr_id": 181,
+                "nature": "Jolly",
+                "ability": "Lightning Rod",
+                "sub_index": 2,
+                "battle_type": "Doubles"
+            },
+            "Lvl 45 Picnicker Edna":
             {
                 "ivs":
                 {
@@ -41779,16 +41836,42 @@ backup_data = {
                     "sd": null
                 },
                 "item": "",
-                "level": 21,
+                "level": 45,
                 "moves":
                 [],
-                "tr_id": 9,
+                "tr_id": 333,
                 "nature": "",
-                "ability": "Magic Bounce",
-                "sub_index": 0,
+                "ability": "Soundproof",
+                "sub_index": 1,
                 "battle_type": "Singles"
             },
-            "Lvl 19 Swimmer F Paula":
+            "Lvl 57 Team Rocket Grunt #24 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Life Orb",
+                "level": 57,
+                "moves":
+                [
+                    "Discharge",
+                    "Psychic",
+                    "Surf",
+                    "Alluring Voice"
+                ],
+                "tr_id": 566,
+                "nature": "Timid",
+                "ability": "Surge Surfer",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 60 Leader Lt. Surge2 ":
             {
                 "ivs":
                 {
@@ -41799,181 +41882,261 @@ backup_data = {
                     "sa": 0,
                     "sd": 0
                 },
-                "item": "",
-                "level": 19,
+                "item": "None",
+                "level": 60,
                 "moves":
-                [],
-                "tr_id": 85,
+                [
+                    "Thunder Wave",
+                    "Quick Attack",
+                    "Thunderbolt",
+                    "Grass Knot"
+                ],
+                "tr_id": 722,
                 "nature": "Hardy",
+                "ability": "Sand Rush",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Swanna":
+        {
+            "Lvl 41 Swimmer F Elaine":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Life Orb",
+                "level": 41,
+                "moves":
+                [
+                    "Hurricane",
+                    "Hydro Pump",
+                    "Tailwind",
+                    "Rest"
+                ],
+                "tr_id": 9,
+                "nature": "Timid",
+                "ability": "Hydration",
+                "sub_index": 1,
+                "battle_type": "Doubles"
+            },
+            "Lvl 25 Youngster Brandon":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 25,
+                "moves":
+                [
+                    "Scald",
+                    "Icy Wind",
+                    "Air Slash",
+                    "-"
+                ],
+                "tr_id": 409,
+                "nature": "Timid",
+                "ability": "Big Pecks",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            }
+        },
+        "Pelipper":
+        {
+            "Lvl 41 Swimmer F Elaine":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Leftovers",
+                "level": 41,
+                "moves":
+                [
+                    "Hurricane",
+                    "Scald",
+                    "Double Team",
+                    "Stockpile"
+                ],
+                "tr_id": 9,
+                "nature": "Timid",
+                "ability": "Rain Dish",
+                "sub_index": 2,
+                "battle_type": "Doubles"
+            },
+            "Lvl 20 Fisherman  //moved to Ilex Forest":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 20,
+                "moves":
+                [
+                    "Water Pulse",
+                    "Air Slash",
+                    "Quick Attack",
+                    "U-turn"
+                ],
+                "tr_id": 60,
+                "nature": "Naive",
+                "ability": "Keen Eye",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 51 Leader Misty":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Wacan Berry",
+                "level": 51,
+                "moves":
+                [
+                    "Hurricane",
+                    "Scald",
+                    "Ice Beam",
+                    "Roost"
+                ],
+                "tr_id": 254,
+                "nature": "Timid",
+                "ability": "Drizzle",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 48 Leader Falkner2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 48,
+                "moves":
+                [
+                    "Surf",
+                    "Tailwind",
+                    "Ice Beam",
+                    "Hidden Power"
+                ],
+                "tr_id": 712,
+                "nature": "Hardy",
+                "ability": "Sand Rush",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            }
+        },
+        "Gliscor":
+        {
+            "Lvl 41 Swimmer F Elaine":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Ground Gem",
+                "level": 41,
+                "moves":
+                [
+                    "Earthquake",
+                    "Dual Wingbeat",
+                    "Crabhammer",
+                    "Swords Dance"
+                ],
+                "tr_id": 9,
+                "nature": "Jolly",
+                "ability": "Hyper Cutter",
+                "sub_index": 3,
+                "battle_type": "Doubles"
+            },
+            "Lvl 40 Pokefan Ruth":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Toxic Orb",
+                "level": 40,
+                "moves":
+                [
+                    "Earthquake",
+                    "Toxic",
+                    "U-turn",
+                    "Protect"
+                ],
+                "tr_id": 45,
+                "nature": "Jolly",
                 "ability": "Poison Heal",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
-            "Lvl 20 Swimmer F Kara":
+            "Lvl 36 Bird Keeper Gs Toby":
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "",
-                "level": 20,
-                "moves":
-                [],
-                "tr_id": 93,
-                "nature": "Hardy",
-                "ability": "Swift Swim",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 19 Swimmer M George":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 19,
-                "moves":
-                [],
-                "tr_id": 96,
-                "nature": "Hardy",
-                "ability": "Swift Swim",
-                "sub_index": 3,
-                "battle_type": "Singles"
-            },
-            "Lvl 36 Ace Trainer F Reena":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
+                "item": "Toxic Orb",
                 "level": 36,
                 "moves":
-                [],
-                "tr_id": 114,
-                "nature": "",
-                "ability": "Water Absorb",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 13 Swimmer M Mickey5 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 13,
-                "moves":
-                [],
-                "tr_id": 273,
-                "nature": "Hardy",
-                "ability": "Magic Bounce",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 13 Swimmer M Mickey6 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 13,
-                "moves":
-                [],
-                "tr_id": 372,
-                "nature": "Hardy",
-                "ability": "0",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 13 Swimmer M Mickey7 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 13,
-                "moves":
-                [],
-                "tr_id": 375,
-                "nature": "Hardy",
-                "ability": "0",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 13 Swimmer M Mickey8 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 13,
-                "moves":
-                [],
-                "tr_id": 376,
-                "nature": "Hardy",
-                "ability": "0",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 38 Ace Trainer F Reena2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 38,
-                "moves":
-                [],
-                "tr_id": 444,
-                "nature": "",
-                "ability": "Rain Dish",
+                [
+                    "Dual Wingbeat",
+                    "Bulldoze",
+                    "Aqua Tail",
+                    "Roost"
+                ],
+                "tr_id": 82,
+                "nature": "Jolly",
+                "ability": "Poison Heal",
                 "sub_index": 2,
                 "battle_type": "Singles"
             }
@@ -42089,6 +42252,32 @@ backup_data = {
                 "ability": "Adaptability",
                 "sub_index": 2,
                 "battle_type": "Doubles"
+            },
+            "Lvl 41 Swimmer F Kara":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Choice Band",
+                "level": 41,
+                "moves":
+                [
+                    "Crabhammer",
+                    "Aqua Jet",
+                    "-",
+                    "-"
+                ],
+                "tr_id": 93,
+                "nature": "Adamant",
+                "ability": "Adaptability",
+                "sub_index": 2,
+                "battle_type": "Singles"
             }
         },
         "Accelgor":
@@ -42855,7 +43044,7 @@ backup_data = {
                 [],
                 "tr_id": 222,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -43280,7 +43469,7 @@ backup_data = {
                 [],
                 "tr_id": 226,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -43301,7 +43490,7 @@ backup_data = {
                 [],
                 "tr_id": 227,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -43322,7 +43511,7 @@ backup_data = {
                 [],
                 "tr_id": 228,
                 "nature": "Hardy",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -43906,7 +44095,7 @@ backup_data = {
                 [],
                 "tr_id": 573,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -44317,7 +44506,7 @@ backup_data = {
                 [],
                 "tr_id": 575,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 2,
                 "battle_type": "Singles"
             },
@@ -44759,7 +44948,7 @@ backup_data = {
                 [],
                 "tr_id": 100,
                 "nature": "",
-                "ability": "Swift Swim",
+                "ability": "Shield Dust",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -45317,7 +45506,7 @@ backup_data = {
                 ],
                 "tr_id": 230,
                 "nature": "Hardy",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -45574,25 +45763,30 @@ backup_data = {
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
-            "Lvl 20 Swimmer M Ronald":
+            "Lvl 41 Swimmer M Randall":
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "",
-                "level": 20,
+                "item": "Sitrus Berry",
+                "level": 41,
                 "moves":
-                [],
-                "tr_id": 98,
-                "nature": "",
-                "ability": "Swift Swim",
-                "sub_index": 1,
+                [
+                    "Waterfall",
+                    "Crunch",
+                    "Earthquake",
+                    "Dragon Dance"
+                ],
+                "tr_id": 86,
+                "nature": "Jolly",
+                "ability": "Intimidate",
+                "sub_index": 2,
                 "battle_type": "Singles"
             },
             "Lvl 20 Fisherman Marvin":
@@ -46085,7 +46279,7 @@ backup_data = {
                 [],
                 "tr_id": 596,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -46403,7 +46597,7 @@ backup_data = {
                 [],
                 "tr_id": 596,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 2,
                 "battle_type": "Singles"
             }
@@ -47070,7 +47264,7 @@ backup_data = {
                 [],
                 "tr_id": 100,
                 "nature": "Hardy",
-                "ability": "Swift Swim",
+                "ability": "Shield Dust",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -47706,7 +47900,7 @@ backup_data = {
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
-            "Lvl 60 Executive Ariana Ariana3 ":
+            "Lvl 60 Executive Ariana Ariana4 ":
             {
                 "ivs":
                 {
@@ -48644,32 +48838,6 @@ backup_data = {
                 "sub_index": 2,
                 "battle_type": "Singles"
             },
-            "Lvl 20 Swimmer F Susie":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 20,
-                "moves":
-                [
-                    "Scratch",
-                    "Water Gun",
-                    "Disable",
-                    "Confusion"
-                ],
-                "tr_id": 91,
-                "nature": "Hardy",
-                "ability": "Dry Skin",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
             "Lvl 31 Camper Todd2 ":
             {
                 "ivs":
@@ -48868,7 +49036,7 @@ backup_data = {
                 ],
                 "tr_id": 230,
                 "nature": "Rainerclass_gentleman",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -48897,12 +49065,12 @@ backup_data = {
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
                 "item": "None",
                 "level": 52,
@@ -48914,7 +49082,7 @@ backup_data = {
                     "Baton Pass"
                 ],
                 "tr_id": 714,
-                "nature": "Hardy",
+                "nature": " trainer_data_type_items | trainer_data_type_moves",
                 "ability": "Sand Rush",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -49339,7 +49507,7 @@ backup_data = {
                 "sub_index": 2,
                 "battle_type": "Singles"
             },
-            "Lvl 42 Swimmer M Berke":
+            "Lvl 43 Swimmer M Berke":
             {
                 "ivs":
                 {
@@ -49351,7 +49519,7 @@ backup_data = {
                     "sd": 31
                 },
                 "item": "Focus Sash",
-                "level": 42,
+                "level": 43,
                 "moves":
                 [
                     "Seed Bomb",
@@ -49624,7 +49792,7 @@ backup_data = {
                 "sub_index": 2,
                 "battle_type": "Singles"
             },
-            "Lvl 48 Swimmer F Diana":
+            "Lvl 48 Team Rocket Grunt #13 ":
             {
                 "ivs":
                 {
@@ -49645,7 +49813,7 @@ backup_data = {
                     "Disable"
                 ],
                 "tr_id": 297,
-                "nature": "Rainerclass_swimmer_f",
+                "nature": "Rainerclass_executive_ariana",
                 "ability": "Harvest",
                 "sub_index": 0,
                 "battle_type": "Singles"
@@ -49902,7 +50070,7 @@ backup_data = {
                 [],
                 "tr_id": 594,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -50259,32 +50427,6 @@ backup_data = {
                 "ability": "Scrappy",
                 "sub_index": 2,
                 "battle_type": "Doubles"
-            },
-            "Lvl 58 Leader Whitney2 ":
-            {
-                "ivs":
-                {
-                    "hp": 25,
-                    "at": 25,
-                    "df": 25,
-                    "sp": 25,
-                    "sa": 25,
-                    "sd": 25
-                },
-                "item": "Lum Berry",
-                "level": 58,
-                "moves":
-                [
-                    "Body Slam",
-                    "Attract",
-                    "Sleep Talk",
-                    "Rest"
-                ],
-                "tr_id": 714,
-                "nature": " trainer_data_type_items | trainer_data_type_moves",
-                "ability": "Sand Rush",
-                "sub_index": 5,
-                "battle_type": "Singles"
             }
         },
         "Pyroar":
@@ -50667,6 +50809,32 @@ backup_data = {
                 "ability": "Prankster",
                 "sub_index": 0,
                 "battle_type": "Singles"
+            },
+            "Lvl 42 Swimmer M Ronald":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Expert Belt",
+                "level": 42,
+                "moves":
+                [
+                    "Assist",
+                    "-",
+                    "-",
+                    "-"
+                ],
+                "tr_id": 98,
+                "nature": "Hasty",
+                "ability": "Prankster",
+                "sub_index": 2,
+                "battle_type": "Singles"
             }
         },
         "Klefki":
@@ -50868,7 +51036,7 @@ backup_data = {
                 "sub_index": 0,
                 "battle_type": "Doubles"
             },
-            "Lvl 41 Swimmer F Denise":
+            "Lvl 42 Swimmer F Denise":
             {
                 "ivs":
                 {
@@ -50880,7 +51048,7 @@ backup_data = {
                     "sd": 31
                 },
                 "item": "Sitrus Berry",
-                "level": 41,
+                "level": 42,
                 "moves":
                 [
                     "Poison Jab",
@@ -51252,7 +51420,7 @@ backup_data = {
                 "moves":
                 [
                     "Stone Edge",
-                    "Heavy Slam",
+                    "Iron Head",
                     "Body Press",
                     ""
                 ],
@@ -51428,6 +51596,32 @@ backup_data = {
                 "nature": "Hasty",
                 "ability": "Iron Fist",
                 "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 42 Swimmer M Ronald":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Life Orb",
+                "level": 42,
+                "moves":
+                [
+                    "Assist",
+                    "-",
+                    "-",
+                    "-"
+                ],
+                "tr_id": 98,
+                "nature": "Hasty",
+                "ability": "Vital Spirit",
+                "sub_index": 1,
                 "battle_type": "Singles"
             },
             "Lvl 58 Executive Petrel Petrel2 ":
@@ -52433,108 +52627,6 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Raichu":
-        {
-            "Lvl 39 Sailor Eugene":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Focus Sash",
-                "level": 39,
-                "moves":
-                [
-                    "Discharge",
-                    "Surf",
-                    "Psychic",
-                    "Grass Knot"
-                ],
-                "tr_id": 39,
-                "nature": "Modest",
-                "ability": "Surge Surfer",
-                "sub_index": 3,
-                "battle_type": "Singles"
-            },
-            "Lvl 29 Pokefan M William":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Sitrus Berry",
-                "level": 29,
-                "moves":
-                [
-                    "Fake Out",
-                    "Protect",
-                    "Thunder Punch",
-                    "Extreme Speed"
-                ],
-                "tr_id": 181,
-                "nature": "Jolly",
-                "ability": "Lightning Rod",
-                "sub_index": 2,
-                "battle_type": "Doubles"
-            },
-            "Lvl 45 Picnicker Edna":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 45,
-                "moves":
-                [],
-                "tr_id": 333,
-                "nature": "",
-                "ability": "Soundproof",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 60 Leader Lt. Surge2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 60,
-                "moves":
-                [
-                    "Thunder Wave",
-                    "Quick Attack",
-                    "Thunderbolt",
-                    "Grass Knot"
-                ],
-                "tr_id": 722,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            }
-        },
         "Grimer":
         {
             "Lvl 20 Super Nerd Mickey":
@@ -53452,61 +53544,6 @@ backup_data = {
                 "battle_type": "Doubles"
             }
         },
-        "Gliscor":
-        {
-            "Lvl 40 Pokefan Ruth":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Toxic Orb",
-                "level": 40,
-                "moves":
-                [
-                    "Earthquake",
-                    "Toxic",
-                    "U-turn",
-                    "Protect"
-                ],
-                "tr_id": 45,
-                "nature": "Jolly",
-                "ability": "Poison Heal",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 36 Bird Keeper Gs Toby":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Toxic Orb",
-                "level": 36,
-                "moves":
-                [
-                    "Dual Wingbeat",
-                    "Bulldoze",
-                    "Aqua Tail",
-                    "Roost"
-                ],
-                "tr_id": 82,
-                "nature": "Jolly",
-                "ability": "Poison Heal",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            }
-        },
         "Rotom-Heat":
         {
             "Lvl 40 Pokefan Ruth":
@@ -53694,7 +53731,7 @@ backup_data = {
                 [],
                 "tr_id": 180,
                 "nature": "",
-                "ability": "Iron Barbs",
+                "ability": "Sturdy",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -54855,7 +54892,7 @@ backup_data = {
                 [],
                 "tr_id": 584,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -54945,27 +54982,6 @@ backup_data = {
                 "ability": "Guts",
                 "sub_index": 3,
                 "battle_type": "Singles"
-            },
-            "Lvl 41 Gentleman  //moved to Olivine Gym":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 41,
-                "moves":
-                [],
-                "tr_id": 421,
-                "nature": "",
-                "ability": "Guts",
-                "sub_index": 0,
-                "battle_type": "Singles"
             }
         },
         "Combee":
@@ -55047,7 +55063,7 @@ backup_data = {
                 ],
                 "tr_id": 424,
                 "nature": "Rainerclass_twins",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -55696,7 +55712,7 @@ backup_data = {
                 [],
                 "tr_id": 219,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Protean",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -55717,7 +55733,7 @@ backup_data = {
                 [],
                 "tr_id": 229,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -56181,7 +56197,7 @@ backup_data = {
                 ],
                 "tr_id": 569,
                 "nature": "Rainerclass_team_rocket",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Doubles"
             },
@@ -56202,7 +56218,7 @@ backup_data = {
                 [],
                 "tr_id": 586,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -56448,7 +56464,7 @@ backup_data = {
                 [],
                 "tr_id": 585,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -56469,7 +56485,7 @@ backup_data = {
                 [],
                 "tr_id": 594,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -56573,69 +56589,6 @@ backup_data = {
                 "sub_index": 2,
                 "battle_type": "Singles"
             },
-            "Lvl 19 Swimmer M Charlie":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 19,
-                "moves":
-                [],
-                "tr_id": 95,
-                "nature": "Hardy",
-                "ability": "Swift Swim",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 16 Swimmer M George":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 16,
-                "moves":
-                [],
-                "tr_id": 96,
-                "nature": "Hardy",
-                "ability": "Swift Swim",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 17 Swimmer M George":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 17,
-                "moves":
-                [],
-                "tr_id": 96,
-                "nature": "Hardy",
-                "ability": "Swift Swim",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
             "Lvl 38 Swimmer M Jerome":
             {
                 "ivs":
@@ -56678,74 +56631,6 @@ backup_data = {
                 "tr_id": 58,
                 "nature": "",
                 "ability": "Rain Dish",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 19 Swimmer F Paula":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 19,
-                "moves":
-                [],
-                "tr_id": 85,
-                "nature": "",
-                "ability": "Poison Heal",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 18 Swimmer M Randall":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 18,
-                "moves":
-                [
-                    "Supersonic",
-                    "Icicle Spear",
-                    "Withdraw",
-                    "Tackle"
-                ],
-                "tr_id": 86,
-                "nature": "Rainerclass_sage",
-                "ability": "Poison Heal",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 21 Swimmer M Charlie":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 21,
-                "moves":
-                [],
-                "tr_id": 95,
-                "nature": "Hardy",
-                "ability": "Swift Swim",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -56860,32 +56745,6 @@ backup_data = {
                 "nature": "",
                 "ability": "Rain Dish",
                 "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 22 Swimmer F Susie":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 22,
-                "moves":
-                [
-                    "Flail",
-                    "Water Pulse",
-                    "Supersonic",
-                    "Horn Attack"
-                ],
-                "tr_id": 91,
-                "nature": "Rainerclass_swimmer_f",
-                "ability": "Dry Skin",
-                "sub_index": 1,
                 "battle_type": "Singles"
             },
             "Lvl 26 Fisherman Wilton":
@@ -57311,87 +57170,6 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Pelipper":
-        {
-            "Lvl 20 Fisherman  //moved to Ilex Forest":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Sitrus Berry",
-                "level": 20,
-                "moves":
-                [
-                    "Water Pulse",
-                    "Air Slash",
-                    "Quick Attack",
-                    "U-turn"
-                ],
-                "tr_id": 60,
-                "nature": "Naive",
-                "ability": "Keen Eye",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 51 Leader Misty":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Wacan Berry",
-                "level": 51,
-                "moves":
-                [
-                    "Hurricane",
-                    "Scald",
-                    "Ice Beam",
-                    "Roost"
-                ],
-                "tr_id": 254,
-                "nature": "Timid",
-                "ability": "Drizzle",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 48 Leader Falkner2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 48,
-                "moves":
-                [
-                    "Surf",
-                    "Tailwind",
-                    "Ice Beam",
-                    "Hidden Power"
-                ],
-                "tr_id": 712,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            }
-        },
         "Krokorok":
         {
             "Lvl 21 Fisherman  //moved to Ilex Forest":
@@ -57664,7 +57442,7 @@ backup_data = {
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
-            "Lvl 32 Executive Ariana Ariana2 ":
+            "Lvl 32 Executive Ariana Ariana3 ":
             {
                 "ivs":
                 {
@@ -57814,7 +57592,7 @@ backup_data = {
                 [],
                 "tr_id": 588,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -57835,7 +57613,7 @@ backup_data = {
                 [],
                 "tr_id": 588,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -57856,7 +57634,7 @@ backup_data = {
                 [],
                 "tr_id": 588,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 2,
                 "battle_type": "Singles"
             }
@@ -58941,6 +58719,32 @@ backup_data = {
                 "ability": "Intimidate",
                 "sub_index": 1,
                 "battle_type": "Singles"
+            },
+            "Lvl 41 Swimmer M Randall":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Lum Berry",
+                "level": 41,
+                "moves":
+                [
+                    "Hurricane",
+                    "Bug Buzz",
+                    "Weather Ball",
+                    "Aqua Jet"
+                ],
+                "tr_id": 86,
+                "nature": "Timid",
+                "ability": "Intimidate",
+                "sub_index": 3,
+                "battle_type": "Singles"
             }
         },
         "Ledian":
@@ -58988,7 +58792,7 @@ backup_data = {
                 [],
                 "tr_id": 428,
                 "nature": "Hardy",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -59214,6 +59018,32 @@ backup_data = {
                 "ability": "Compound Eyes",
                 "sub_index": 1,
                 "battle_type": "Singles"
+            },
+            "Lvl 42 Swimmer M Matthew":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Sash",
+                "level": 42,
+                "moves":
+                [
+                    "Hurricane",
+                    "Weather Ball",
+                    "Quiver Dance",
+                    "Sleep Powder"
+                ],
+                "tr_id": 99,
+                "nature": "Timid",
+                "ability": "Shield Dust",
+                "sub_index": 2,
+                "battle_type": "Singles"
             }
         },
         "Charjabug":
@@ -59356,6 +59186,32 @@ backup_data = {
                 "ability": "Seed Sower",
                 "sub_index": 1,
                 "battle_type": "Doubles"
+            },
+            "Lvl 56 Team Rocket Grunt #12 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 56,
+                "moves":
+                [
+                    "Energy Ball",
+                    "Hyper Voice",
+                    "Terrain Pulse",
+                    "Synthesis"
+                ],
+                "tr_id": 220,
+                "nature": "Modest",
+                "ability": "Harvest",
+                "sub_index": 3,
+                "battle_type": "Singles"
             }
         },
         "Sawsbuck":
@@ -59443,6 +59299,32 @@ backup_data = {
                 "ability": "Moody",
                 "sub_index": 0,
                 "battle_type": "Singles"
+            },
+            "Lvl 42 Swimmer M Ronald":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Sash",
+                "level": 42,
+                "moves":
+                [
+                    "Liquidation",
+                    "Hurricane",
+                    "Thunder",
+                    "-"
+                ],
+                "tr_id": 98,
+                "nature": "Hasty",
+                "ability": "Moody",
+                "sub_index": 0,
+                "battle_type": "Singles"
             }
         },
         "Purugly":
@@ -59471,6 +59353,32 @@ backup_data = {
                 "nature": "Jolly",
                 "ability": "Defiant",
                 "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 42 Swimmer M Ronald":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Choice Specs",
+                "level": 42,
+                "moves":
+                [
+                    "Assist",
+                    "-",
+                    "-",
+                    "-"
+                ],
+                "tr_id": 98,
+                "nature": "Hasty",
+                "ability": "Defiant",
+                "sub_index": 3,
                 "battle_type": "Singles"
             }
         },
@@ -59581,32 +59489,6 @@ backup_data = {
                 "nature": "Rainerclass_hiker",
                 "ability": "Intimidate",
                 "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 52 Leader Whitney2 ":
-            {
-                "ivs":
-                {
-                    "hp": 5,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "None",
-                "level": 52,
-                "moves":
-                [
-                    "Blizzard",
-                    "Thunder",
-                    "Fire Blast",
-                    "Calm Mind"
-                ],
-                "tr_id": 714,
-                "nature": "",
-                "ability": "Sand Rush",
-                "sub_index": 4,
                 "battle_type": "Singles"
             }
         },
@@ -59880,6 +59762,32 @@ backup_data = {
                 "ability": "Scrappy",
                 "sub_index": 1,
                 "battle_type": "Singles"
+            },
+            "Lvl 56 Team Rocket Grunt #24 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Assault Vest",
+                "level": 56,
+                "moves":
+                [
+                    "Close Combat",
+                    "Brave Bird",
+                    "Grassy Glide",
+                    "First Impression"
+                ],
+                "tr_id": 566,
+                "nature": "Adamant",
+                "ability": "Scrappy",
+                "sub_index": 2,
+                "battle_type": "Singles"
             }
         },
         "Quaquaval":
@@ -60069,7 +59977,7 @@ backup_data = {
                 [],
                 "tr_id": 565,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Sand Rush",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -60090,7 +59998,7 @@ backup_data = {
                 [],
                 "tr_id": 583,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -60111,7 +60019,7 @@ backup_data = {
                 [],
                 "tr_id": 596,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -60553,7 +60461,7 @@ backup_data = {
                 ],
                 "tr_id": 592,
                 "nature": "Rainerclass_swimmer_f",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -61294,6 +61202,32 @@ backup_data = {
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
+            "Lvl 41 Swimmer M Charlie":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 41,
+                "moves":
+                [
+                    "Thunder",
+                    "Bug Buzz",
+                    "Roost",
+                    "Thunder Wave"
+                ],
+                "tr_id": 95,
+                "nature": "Modest",
+                "ability": "Levitate",
+                "sub_index": 3,
+                "battle_type": "Doubles"
+            },
             "Lvl 50 Leader Lt. Surge":
             {
                 "ivs":
@@ -61366,7 +61300,7 @@ backup_data = {
                 [],
                 "tr_id": 87,
                 "nature": "",
-                "ability": "Poison Heal",
+                "ability": "Intimidate",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -63003,104 +62937,9 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Wartortle":
+        "Swampert":
         {
-            "Lvl 20 Swimmer M Randall":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 20,
-                "moves":
-                [
-                    "Rapid Spin",
-                    "Bite",
-                    "Water Gun",
-                    "Tail Whip"
-                ],
-                "tr_id": 86,
-                "nature": "Hardy",
-                "ability": "Poison Heal",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 24 Ace Trainer M Alton":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 24,
-                "moves":
-                [],
-                "tr_id": 109,
-                "nature": "",
-                "ability": "Water Absorb",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 24 Ace Trainer F Kelly":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 24,
-                "moves":
-                [],
-                "tr_id": 121,
-                "nature": "",
-                "ability": "Sturdy",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            }
-        },
-        "Gastly":
-        {
-            "Lvl 16 Sage Mickey2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 16,
-                "moves":
-                [],
-                "tr_id": 88,
-                "nature": "",
-                "ability": "Poison Heal",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            }
-        },
-        "Gothitelle":
-        {
-            "Lvl 36 Medium Grace":
+            "Lvl 41 Swimmer F Paula":
             {
                 "ivs":
                 {
@@ -63111,341 +62950,47 @@ backup_data = {
                     "sa": 31,
                     "sd": 31
                 },
-                "item": "Colbur Berry",
-                "level": 36,
+                "item": "Rindo Berry",
+                "level": 41,
                 "moves":
                 [
-                    "Psychic",
-                    "Shadow Ball",
-                    "Trick Room",
-                    "Thunderbolt"
+                    "Earthquake",
+                    "Liquidation",
+                    "Mirror Coat",
+                    "Stealth Rock"
                 ],
-                "tr_id": 89,
-                "nature": "Quiet",
-                "ability": "Shadow Tag",
+                "tr_id": 85,
+                "nature": "Jolly",
+                "ability": "Torrent",
                 "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 41 Lass Connie":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Sitrus Berry",
-                "level": 41,
-                "moves":
-                [
-                    "Future Sight",
-                    "Thunderbolt",
-                    "Trick Room",
-                    "Dark Pulse"
-                ],
-                "tr_id": 215,
-                "nature": "Bold",
-                "ability": "Shadow Tag",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            }
-        },
-        "Gourgeist":
-        {
-            "Lvl 37 Medium Grace":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Sitrus Berry",
-                "level": 37,
-                "moves":
-                [
-                    "Power Whip",
-                    "Shadow Claw",
-                    "Trick Room",
-                    "Curse"
-                ],
-                "tr_id": 89,
-                "nature": "Brave",
-                "ability": "Insomnia",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            }
-        },
-        "Ludicolo":
-        {
-            "Lvl 41 Swimmer F Kaylee":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Life Orb",
-                "level": 41,
-                "moves":
-                [
-                    "Giga Drain",
-                    "Hydro Pump",
-                    "Ice Beam",
-                    "Focus Blast"
-                ],
-                "tr_id": 90,
-                "nature": "Modest",
-                "ability": "Swift Swim",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            }
-        },
-        "Kabutops":
-        {
-            "Lvl 41 Swimmer F Kaylee":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Focus Sash",
-                "level": 41,
-                "moves":
-                [
-                    "Rock Slide",
-                    "X-Scissor",
-                    "Waterfall",
-                    "Swords Dance"
-                ],
-                "tr_id": 90,
-                "nature": "Jolly",
-                "ability": "Swift Swim",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 52 Leader Brock":
-            {
-                "ivs":
-                {
-                    "hp": 25,
-                    "at": 25,
-                    "df": 25,
-                    "sp": 25,
-                    "sa": 25,
-                    "sd": 25
-                },
-                "item": "None",
-                "level": 52,
-                "moves":
-                [
-                    "Rock Slide",
-                    "Aqua Jet",
-                    "Endure",
-                    "Giga Drain"
-                ],
-                "tr_id": 253,
-                "nature": " trainer_data_type_moves | trainer_data_type_items | trainer_data_type_ability | trainer_data_type_ball | trainer_data_type_iv_ev_set | trainer_data_type_nature_set | trainer_data_type_shiny_lock | trainer_data_type_additional_flags",
-                "ability": "Iron Fist",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 40 Swimmer M Duane":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 40,
-                "moves":
-                [],
-                "tr_id": 595,
-                "nature": "",
-                "ability": "Natural Cure",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 55 Leader Brock2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 55,
-                "moves":
-                [
-                    "Rock Slide",
-                    "Aqua Jet",
-                    "Endure",
-                    "Giga Drain"
-                ],
-                "tr_id": 720,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            }
-        },
-        "Floatzel":
-        {
-            "Lvl 41 Swimmer F Kaylee":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Water Gem",
-                "level": 41,
-                "moves":
-                [
-                    "Waterfall",
-                    "Aqua Jet",
-                    "Ice Fang",
-                    "Crunch"
-                ],
-                "tr_id": 90,
-                "nature": "Jolly",
-                "ability": "Swift Swim",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 54 Leader Misty2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 54,
-                "moves":
-                [
-                    "Agility",
-                    "Ice Fang",
-                    "Waterfall",
-                    "Baton Pass"
-                ],
-                "tr_id": 721,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            }
-        },
-        "Heliolisk":
-        {
-            "Lvl 42 Swimmer F Kaylee":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Air Balloon",
-                "level": 42,
-                "moves":
-                [
-                    "Thunder",
-                    "Hyper Voice",
-                    "Volt Switch",
-                    "Grass Knot"
-                ],
-                "tr_id": 90,
-                "nature": "Jolly",
-                "ability": "Dry Skin",
-                "sub_index": 3,
-                "battle_type": "Singles"
-            }
-        },
-        "Armaldo":
-        {
-            "Lvl 42 Swimmer F Denise":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Life Orb",
-                "level": 42,
-                "moves":
-                [
-                    "Stone Edge",
-                    "Leech Life",
-                    "Knock Off",
-                    "Aqua Jet"
-                ],
-                "tr_id": 92,
-                "nature": "Jolly",
-                "ability": "Swift Swim",
-                "sub_index": 2,
                 "battle_type": "Singles"
             }
         },
         "Starmie":
         {
-            "Lvl 20 Swimmer F Kara":
+            "Lvl 41 Swimmer F Paula":
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "",
-                "level": 20,
+                "item": "Power Herb",
+                "level": 41,
                 "moves":
-                [],
-                "tr_id": 93,
-                "nature": "",
-                "ability": "Swift Swim",
+                [
+                    "Surf",
+                    "Psychic",
+                    "Meteor Beam",
+                    "Ice Beam"
+                ],
+                "tr_id": 85,
+                "nature": "Timid",
+                "ability": "Analytic",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -63732,260 +63277,116 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Horsea":
+        "Clawitzer":
         {
-            "Lvl 21 Swimmer F Wendy":
+            "Lvl 41 Swimmer F Paula":
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": 0,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "",
-                "level": 21,
-                "moves":
-                [
-                    "Focus Energy",
-                    "Smokescreen",
-                    "Leer",
-                    "Bubble Beam"
-                ],
-                "tr_id": 94,
-                "nature": "Rainerclass_swimmer_m",
-                "ability": "Swift Swim",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 35 Ace Trainer M Cody":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 35,
-                "moves":
-                [],
-                "tr_id": 112,
-                "nature": "Hardy",
-                "ability": "Water Absorb",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 15 Swimmer M Mickey4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 15,
-                "moves":
-                [],
-                "tr_id": 171,
-                "nature": "Hardy",
-                "ability": "Inner Focus",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 16 Swimmer M Mickey5 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 16,
-                "moves":
-                [],
-                "tr_id": 273,
-                "nature": "",
-                "ability": "Magic Bounce",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 16 Swimmer M Mickey6 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 16,
-                "moves":
-                [],
-                "tr_id": 372,
-                "nature": "",
-                "ability": "0",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 16 Swimmer M Mickey7 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 16,
-                "moves":
-                [],
-                "tr_id": 375,
-                "nature": "",
-                "ability": "0",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 16 Swimmer M Mickey8 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 16,
-                "moves":
-                [],
-                "tr_id": 376,
-                "nature": "",
-                "ability": "0",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 43 Swimmer M Parker":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 43,
+                "item": "Sitrus Berry",
+                "level": 41,
                 "moves":
                 [
                     "Water Pulse",
-                    "Focus Energy",
-                    "Twister",
-                    "Agility"
+                    "Aqua Jet",
+                    "Dragon Pulse",
+                    "Aura Sphere"
                 ],
-                "tr_id": 377,
-                "nature": "Hardy",
-                "ability": "0",
-                "sub_index": 0,
+                "tr_id": 85,
+                "nature": "Modest",
+                "ability": "Mega Launcher",
+                "sub_index": 2,
                 "battle_type": "Singles"
             },
-            "Lvl 33 Ace Trainer F Piper":
+            "Lvl 57 Team Rocket Grunt #12 ":
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "",
-                "level": 33,
-                "moves":
-                [
-                    "Smokescreen",
-                    "Leer",
-                    "Brine",
-                    "Twister"
-                ],
-                "tr_id": 501,
-                "nature": "Hardy",
-                "ability": "Intimidate",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 43 Sailor Parker":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 43,
+                "item": "Choice Scarf",
+                "level": 57,
                 "moves":
                 [
                     "Water Pulse",
-                    "Focus Energy",
-                    "Twister",
-                    "Agility"
+                    "Terrain Pulse",
+                    "Aura Sphere",
+                    "Dark Pulse"
                 ],
-                "tr_id": 676,
-                "nature": "Hardy",
-                "ability": "Blaze",
-                "sub_index": 0,
+                "tr_id": 220,
+                "nature": "Timid",
+                "ability": "Mega Launcher",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            }
+        },
+        "Flapple":
+        {
+            "Lvl 42 Swimmer F Paula":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 42,
+                "moves":
+                [
+                    "Grav Apple",
+                    "Dragon Rush",
+                    "Pounce",
+                    "Dragon Dance"
+                ],
+                "tr_id": 85,
+                "nature": "Jolly",
+                "ability": "Ripen",
+                "sub_index": 3,
                 "battle_type": "Singles"
             }
         },
         "Tentacruel":
         {
-            "Lvl 19 Swimmer M Charlie":
+            "Lvl 41 Swimmer M Randall":
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "",
-                "level": 19,
+                "item": "Black Sludge",
+                "level": 41,
                 "moves":
-                [],
-                "tr_id": 95,
-                "nature": "",
-                "ability": "Swift Swim",
-                "sub_index": 2,
+                [
+                    "Scald",
+                    "Sludge Bomb",
+                    "Hex",
+                    "Acid Armor"
+                ],
+                "tr_id": 86,
+                "nature": "Timid",
+                "ability": "Clear Body",
+                "sub_index": 0,
                 "battle_type": "Singles"
             },
             "Lvl 38 Fisherman Stephen":
@@ -64047,7 +63448,7 @@ backup_data = {
                 [],
                 "tr_id": 573,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -64068,7 +63469,7 @@ backup_data = {
                 [],
                 "tr_id": 574,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -64089,7 +63490,7 @@ backup_data = {
                 [],
                 "tr_id": 585,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -64178,9 +63579,142 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Remoraid":
+        "Bronzong":
         {
-            "Lvl 19 Swimmer M George":
+            "Lvl 41 Swimmer M Randall":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 41,
+                "moves":
+                [
+                    "Future Sight",
+                    "Flash Cannon",
+                    "Weather Ball",
+                    "Calm Mind"
+                ],
+                "tr_id": 86,
+                "nature": "Modest",
+                "ability": "Levitate",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 28 Pokefan Beverly":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 28,
+                "moves":
+                [
+                    "Extrasensory",
+                    "Hex",
+                    "Flash Cannon",
+                    "Trick Room"
+                ],
+                "tr_id": 182,
+                "nature": "Quiet",
+                "ability": "Levitate",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 39 Psychic M Nelson":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Lum Berry",
+                "level": 39,
+                "moves":
+                [
+                    "Gyro Ball",
+                    "Body Press",
+                    "Earthquake",
+                    "Trick Room"
+                ],
+                "tr_id": 389,
+                "nature": "Relaxed",
+                "ability": "Levitate",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 58 Elite Four Will Will2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 58,
+                "moves":
+                [
+                    "Reflect",
+                    "Payback",
+                    "Gravity",
+                    "Psychic"
+                ],
+                "tr_id": 702,
+                "nature": "Hardy",
+                "ability": "Sand Rush",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 50 Leader Jasmine2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 50,
+                "moves":
+                [
+                    "Gyro Ball",
+                    "Hypnosis",
+                    "Dream Eater",
+                    "Gravity"
+                ],
+                "tr_id": 717,
+                "nature": "Hardy",
+                "ability": "Sand Rush",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            }
+        },
+        "Gastly":
+        {
+            "Lvl 16 Sage Mickey2 ":
             {
                 "ivs":
                 {
@@ -64192,16 +63726,1161 @@ backup_data = {
                     "sd": null
                 },
                 "item": "",
-                "level": 19,
+                "level": 16,
                 "moves":
                 [],
-                "tr_id": 96,
+                "tr_id": 88,
                 "nature": "",
+                "ability": "Intimidate",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            }
+        },
+        "Gothitelle":
+        {
+            "Lvl 36 Medium Grace":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Colbur Berry",
+                "level": 36,
+                "moves":
+                [
+                    "Psychic",
+                    "Shadow Ball",
+                    "Trick Room",
+                    "Thunderbolt"
+                ],
+                "tr_id": 89,
+                "nature": "Quiet",
+                "ability": "Shadow Tag",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 41 Lass Connie":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 41,
+                "moves":
+                [
+                    "Future Sight",
+                    "Thunderbolt",
+                    "Trick Room",
+                    "Dark Pulse"
+                ],
+                "tr_id": 215,
+                "nature": "Bold",
+                "ability": "Shadow Tag",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            }
+        },
+        "Gourgeist":
+        {
+            "Lvl 37 Medium Grace":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 37,
+                "moves":
+                [
+                    "Power Whip",
+                    "Shadow Claw",
+                    "Trick Room",
+                    "Curse"
+                ],
+                "tr_id": 89,
+                "nature": "Brave",
+                "ability": "Insomnia",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            }
+        },
+        "Ludicolo":
+        {
+            "Lvl 42 Swimmer F Kaylee":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Life Orb",
+                "level": 42,
+                "moves":
+                [
+                    "Giga Drain",
+                    "Hydro Pump",
+                    "Ice Beam",
+                    "Focus Blast"
+                ],
+                "tr_id": 90,
+                "nature": "Modest",
                 "ability": "Swift Swim",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Kabutops":
+        {
+            "Lvl 42 Swimmer F Kaylee":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Sash",
+                "level": 42,
+                "moves":
+                [
+                    "Rock Slide",
+                    "X-Scissor",
+                    "Waterfall",
+                    "Swords Dance"
+                ],
+                "tr_id": 90,
+                "nature": "Jolly",
+                "ability": "Swift Swim",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 52 Leader Brock":
+            {
+                "ivs":
+                {
+                    "hp": 25,
+                    "at": 25,
+                    "df": 25,
+                    "sp": 25,
+                    "sa": 25,
+                    "sd": 25
+                },
+                "item": "None",
+                "level": 52,
+                "moves":
+                [
+                    "Rock Slide",
+                    "Aqua Jet",
+                    "Endure",
+                    "Giga Drain"
+                ],
+                "tr_id": 253,
+                "nature": " trainer_data_type_moves | trainer_data_type_items | trainer_data_type_ability | trainer_data_type_ball | trainer_data_type_iv_ev_set | trainer_data_type_nature_set | trainer_data_type_shiny_lock | trainer_data_type_additional_flags",
+                "ability": "Iron Fist",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 40 Swimmer M Duane":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 40,
+                "moves":
+                [],
+                "tr_id": 595,
+                "nature": "",
+                "ability": "Imposter",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 55 Leader Brock2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 55,
+                "moves":
+                [
+                    "Rock Slide",
+                    "Aqua Jet",
+                    "Endure",
+                    "Giga Drain"
+                ],
+                "tr_id": 720,
+                "nature": "Hardy",
+                "ability": "Sand Rush",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            }
+        },
+        "Floatzel":
+        {
+            "Lvl 42 Swimmer F Kaylee":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Water Gem",
+                "level": 42,
+                "moves":
+                [
+                    "Waterfall",
+                    "Aqua Jet",
+                    "Ice Fang",
+                    "Crunch"
+                ],
+                "tr_id": 90,
+                "nature": "Jolly",
+                "ability": "Swift Swim",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 54 Leader Misty2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 54,
+                "moves":
+                [
+                    "Agility",
+                    "Ice Fang",
+                    "Waterfall",
+                    "Baton Pass"
+                ],
+                "tr_id": 721,
+                "nature": "Hardy",
+                "ability": "Sand Rush",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            }
+        },
+        "Heliolisk":
+        {
+            "Lvl 43 Swimmer F Kaylee":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Air Balloon",
+                "level": 43,
+                "moves":
+                [
+                    "Thunder",
+                    "Hyper Voice",
+                    "Volt Switch",
+                    "Grass Knot"
+                ],
+                "tr_id": 90,
+                "nature": "Jolly",
+                "ability": "Dry Skin",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            }
+        },
+        "Araquanid":
+        {
+            "Lvl 41 Swimmer F Susie":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Sash",
+                "level": 41,
+                "moves":
+                [
+                    "Liquidation",
+                    "Leech Life",
+                    "Sticky Web",
+                    "Facade"
+                ],
+                "tr_id": 91,
+                "nature": "Adamant",
+                "ability": "Water Bubble",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 41 Sailor Roberto":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Lum Berry",
+                "level": 41,
+                "moves":
+                [
+                    "Liquidation",
+                    "Leech Life",
+                    "Mirror Coat",
+                    "Sticky Web"
+                ],
+                "tr_id": 214,
+                "nature": "Adamant",
+                "ability": "Water Bubble",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 62 Ace Trainer F Emma":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 62,
+                "moves":
+                [
+                    "Liquidation",
+                    "Leech Life",
+                    "Soak",
+                    "Sticky Web"
+                ],
+                "tr_id": 363,
+                "nature": "Adamant",
+                "ability": "Water Bubble",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Ferrothorn":
+        {
+            "Lvl 42 Swimmer F Susie":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Rocky Helmet",
+                "level": 42,
+                "moves":
+                [
+                    "Seed Bomb",
+                    "Iron Head",
+                    "Explosion",
+                    "Spikes"
+                ],
+                "tr_id": 91,
+                "nature": "Adamant",
+                "ability": "Iron Barbs",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            }
+        },
+        "Scizor":
+        {
+            "Lvl 42 Swimmer F Susie":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 42,
+                "moves":
+                [
+                    "Bullet Punch",
+                    "Bug Bite",
+                    "Dual Wingbeat",
+                    "Roost"
+                ],
+                "tr_id": 91,
+                "nature": "Adamant",
+                "ability": "Technician",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 58 Executive Petrel Petrel2 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Bright Powder",
+                "level": 58,
+                "moves":
+                [
+                    "Bullet Punch",
+                    "Lunge",
+                    "Knock Off",
+                    "Swords Dance"
+                ],
+                "tr_id": 488,
+                "nature": "Adamant",
+                "ability": "Technician",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 56 Leader Bugsy2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "Sitrus Berry",
+                "level": 56,
+                "moves":
+                [
+                    "Bullet Punch",
+                    "X-Scissor",
+                    "Swords Dance",
+                    "Superpower"
+                ],
+                "tr_id": 713,
+                "nature": "Hardy",
+                "ability": "Sand Rush",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Armaldo":
+        {
+            "Lvl 43 Swimmer F Denise":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Life Orb",
+                "level": 43,
+                "moves":
+                [
+                    "Stone Edge",
+                    "Leech Life",
+                    "Knock Off",
+                    "Aqua Jet"
+                ],
+                "tr_id": 92,
+                "nature": "Jolly",
+                "ability": "Swift Swim",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            }
+        },
+        "Mr. Rime":
+        {
+            "Lvl 42 Swimmer F Kara":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Sash",
+                "level": 42,
+                "moves":
+                [
+                    "Psychic",
+                    "Ice Beam",
+                    "Trick Room",
+                    "Reflect"
+                ],
+                "tr_id": 93,
+                "nature": "Bold",
+                "ability": "Tangled Feet",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Rabsca":
+        {
+            "Lvl 42 Swimmer F Kara":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Room Service",
+                "level": 42,
+                "moves":
+                [
+                    "Psychic",
+                    "Bug Buzz",
+                    "Weather Ball",
+                    "Trick Room"
+                ],
+                "tr_id": 93,
+                "nature": "Modest",
+                "ability": "Synchronize",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            }
+        },
+        "Charizard":
+        {
+            "Lvl 42 Swimmer F Wendy":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 42,
+                "moves":
+                [
+                    "Hurricane",
+                    "Fire Spin",
+                    "Will-O-Wisp",
+                    "Tailwind"
+                ],
+                "tr_id": 94,
+                "nature": "Timid",
+                "ability": "Blaze",
+                "sub_index": 0,
+                "battle_type": "Doubles"
+            },
+            "Lvl 48 Champion Lance":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 48,
+                "moves":
+                [
+                    "Shadow Claw",
+                    "Air Slash",
+                    "Dragon Claw",
+                    "Fire Fang"
+                ],
+                "tr_id": 244,
+                "nature": "Hardy",
+                "ability": "No Guard",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 84 Pkmn Trainer Red Red":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 84,
+                "moves":
+                [
+                    "Flare Blitz",
+                    "Air Slash",
+                    "Blast Burn",
+                    "Dragon Pulse"
+                ],
+                "tr_id": 260,
+                "nature": "Hardy",
+                "ability": "Static",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 36 Firebreather Richard":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 36,
+                "moves":
+                [
+                    "Lava Plume",
+                    "Air Slash",
+                    "Dragon Claw",
+                    "Shadow Claw"
+                ],
+                "tr_id": 281,
+                "nature": "Hasty",
+                "ability": "Blaze",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 60 Pkmn Trainer Lance Lance":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Fire Gem",
+                "level": 60,
+                "moves":
+                [
+                    "Heat Wave",
+                    "Hurricane",
+                    "Will-O-Wisp",
+                    "Roost"
+                ],
+                "tr_id": 675,
+                "nature": "Timid",
+                "ability": "Blaze",
                 "sub_index": 5,
                 "battle_type": "Singles"
             },
-            "Lvl 28 Fisherman Edgar":
+            "Lvl 68 Champion Lance2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 68,
+                "moves":
+                [
+                    "Flamethrower",
+                    "Air Slash",
+                    "Dragon Claw",
+                    "Hyper Beam"
+                ],
+                "tr_id": 701,
+                "nature": "Hardy",
+                "ability": "Sand Rush",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 52 Leader Clair2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 52,
+                "moves":
+                [
+                    "Shadow Claw",
+                    "Air Slash",
+                    "Dragon Claw",
+                    "Fire Fang"
+                ],
+                "tr_id": 719,
+                "nature": "Hardy",
+                "ability": "Sand Rush",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 68 Champion Lance3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 68,
+                "moves":
+                [
+                    "Flamethrower",
+                    "Air Slash",
+                    "Dragon Claw",
+                    "Hyper Beam"
+                ],
+                "tr_id": 733,
+                "nature": "Hardy",
+                "ability": "Sand Rush",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            }
+        },
+        "Maractus":
+        {
+            "Lvl 42 Swimmer F Wendy":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Sash",
+                "level": 42,
+                "moves":
+                [
+                    "Energy Ball",
+                    "Weather Ball",
+                    "Spiky Shield",
+                    "Grass Whistle"
+                ],
+                "tr_id": 94,
+                "nature": "Modest",
+                "ability": "Storm Drain",
+                "sub_index": 1,
+                "battle_type": "Doubles"
+            }
+        },
+        "Castform":
+        {
+            "Lvl 42 Swimmer F Wendy":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Life Orb",
+                "level": 42,
+                "moves":
+                [
+                    "Hurricane",
+                    "Thunder",
+                    "Ice Beam",
+                    "Thunder Wave"
+                ],
+                "tr_id": 94,
+                "nature": "Timid",
+                "ability": "Forecast",
+                "sub_index": 2,
+                "battle_type": "Doubles"
+            }
+        },
+        "Drampa":
+        {
+            "Lvl 41 Swimmer M Charlie":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Expert Belt",
+                "level": 41,
+                "moves":
+                [
+                    "Hyper Voice",
+                    "Flamethrower",
+                    "Thunderbolt",
+                    "Ice Beam"
+                ],
+                "tr_id": 95,
+                "nature": "Modest",
+                "ability": "Cloud Nine",
+                "sub_index": 0,
+                "battle_type": "Doubles"
+            }
+        },
+        "Basculegion":
+        {
+            "Lvl 41 Swimmer M Charlie":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 41,
+                "moves":
+                [
+                    "Liquidation",
+                    "Aqua Jet",
+                    "Psychic Fangs",
+                    "Icy Wind"
+                ],
+                "tr_id": 95,
+                "nature": "Adamant",
+                "ability": "Swift Swim",
+                "sub_index": 1,
+                "battle_type": "Doubles"
+            },
+            "Lvl 37 Medium Edith":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Choice Scarf",
+                "level": 37,
+                "moves":
+                [
+                    "Liquidation",
+                    "Flip Turn",
+                    "Crunch",
+                    "Zen Headbutt"
+                ],
+                "tr_id": 493,
+                "nature": "Adamant",
+                "ability": "Adaptability",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            }
+        },
+        "Roserade":
+        {
+            "Lvl 41 Swimmer M Charlie":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Coba Berry",
+                "level": 41,
+                "moves":
+                [
+                    "Giga Drain",
+                    "Sludge Bomb",
+                    "Weather Ball",
+                    "Grass Whistle"
+                ],
+                "tr_id": 95,
+                "nature": "Timid",
+                "ability": "Natural Cure",
+                "sub_index": 2,
+                "battle_type": "Doubles"
+            },
+            "Lvl 37 Rival Silver |Starter 2|3 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 30,
+                    "sp": 30,
+                    "sa": 31,
+                    "sd": 30
+                },
+                "item": "Focus Sash",
+                "level": 37,
+                "moves":
+                [
+                    "Mega Drain",
+                    "Sludge Bomb",
+                    "Sleep Powder",
+                    ""
+                ],
+                "tr_id": 270,
+                "nature": "Timid",
+                "ability": "Technician",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            },
+            "Lvl 55 Leader Erika2 ":
+            {
+                "ivs":
+                {
+                    "hp": 25,
+                    "at": 25,
+                    "df": 25,
+                    "sp": 25,
+                    "sa": 25,
+                    "sd": 25
+                },
+                "item": "None",
+                "level": 55,
+                "moves":
+                [
+                    "Weather Ball",
+                    "Energy Ball",
+                    "Sludge Bomb",
+                    "Stun Spore"
+                ],
+                "tr_id": 723,
+                "nature": " trainer_data_type_items | trainer_data_type_moves",
+                "ability": "Sand Rush",
+                "sub_index": 5,
+                "battle_type": "Singles"
+            }
+        },
+        "Seaking":
+        {
+            "Lvl 41 Swimmer M George":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Choice Band",
+                "level": 41,
+                "moves":
+                [
+                    "Waterfall",
+                    "Megahorn",
+                    "-",
+                    "-"
+                ],
+                "tr_id": 96,
+                "nature": "Adamant",
+                "ability": "Swift Swim",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 28 Fisherman Wilton":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 28,
+                "moves":
+                [],
+                "tr_id": 124,
+                "nature": "",
+                "ability": "Sturdy",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 41 Picnicker Debra":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 41,
+                "moves":
+                [],
+                "tr_id": 139,
+                "nature": "",
+                "ability": "Sturdy",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 20 Swimmer F Mickey3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 20,
+                "moves":
+                [],
+                "tr_id": 167,
+                "nature": "",
+                "ability": "Inner Focus",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 20 Swimmer F Mickey4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 20,
+                "moves":
+                [],
+                "tr_id": 292,
+                "nature": "",
+                "ability": "Harvest",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 20 Swimmer F Mickey5 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 20,
+                "moves":
+                [],
+                "tr_id": 295,
+                "nature": "",
+                "ability": "Harvest",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 46 Executive Ariana Ariana2 ":
             {
                 "ivs":
                 {
@@ -64213,42 +64892,68 @@ backup_data = {
                     "sd": null
                 },
                 "item": "",
-                "level": 28,
+                "level": 46,
                 "moves":
                 [
-                    "Lock-On",
-                    "Psybeam",
-                    "Aurora Beam",
-                    "Bubble Beam"
+                    "Water Pulse",
+                    "Aqua Ring",
+                    "Supersonic",
+                    "Poison Jab"
                 ],
-                "tr_id": 125,
-                "nature": "Rainerclass_fisherman",
-                "ability": "Sturdy",
-                "sub_index": 1,
+                "tr_id": 298,
+                "nature": "Rainerclass_bird_keeper_gs",
+                "ability": "Harvest",
+                "sub_index": 0,
                 "battle_type": "Singles"
             },
-            "Lvl 42 Swimmer M Harold":
+            "Lvl 36 Fisherman Wilton2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 36,
+                "moves":
+                [],
+                "tr_id": 325,
+                "nature": "",
+                "ability": "Soundproof",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 34 Fisherman Scott":
             {
                 "ivs":
                 {
                     "hp": 0,
                     "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
                 },
                 "item": "",
-                "level": 42,
+                "level": 34,
                 "moves":
-                [],
-                "tr_id": 252,
-                "nature": "Hardy",
-                "ability": "Iron Fist",
-                "sub_index": 0,
+                [
+                    "Fury Attack",
+                    "Aqua Ring",
+                    "Flail",
+                    "Water Pulse"
+                ],
+                "tr_id": 413,
+                "nature": "Rainerclass_bird_keeper_gs",
+                "ability": "Sap Sipper",
+                "sub_index": 2,
                 "battle_type": "Singles"
             },
-            "Lvl 36 Fisherman Martin":
+            "Lvl 36 Fisherman Wilton3 ":
             {
                 "ivs":
                 {
@@ -64263,16 +64968,553 @@ backup_data = {
                 "level": 36,
                 "moves":
                 [],
-                "tr_id": 320,
+                "tr_id": 450,
                 "nature": "Hardy",
+                "ability": "Rain Dish",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 40 Fisherman Wilton3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 40,
+                "moves":
+                [],
+                "tr_id": 450,
+                "nature": "",
+                "ability": "Rain Dish",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 40 Fisherman Ralph2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 40,
+                "moves":
+                [],
+                "tr_id": 462,
+                "nature": "",
+                "ability": "Rain Dish",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 42 Fisherman Ralph3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 42,
+                "moves":
+                [],
+                "tr_id": 463,
+                "nature": "",
+                "ability": "Rain Dish",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 56 Fisherman Ralph4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 56,
+                "moves":
+                [],
+                "tr_id": 515,
+                "nature": "",
+                "ability": "Intimidate",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 39 Fisherman Mickey":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 39,
+                "moves":
+                [
+                    "Endure",
+                    "Flail",
+                    "Fury Attack",
+                    "Waterfall"
+                ],
+                "tr_id": 516,
+                "nature": "Rainerclass_fisherman",
+                "ability": "Intimidate",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 41 Fisherman Tully4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 41,
+                "moves":
+                [
+                    "Water Pulse",
+                    "Rain Dance",
+                    "Waterfall",
+                    "Aqua Ring"
+                ],
+                "tr_id": 517,
+                "nature": "Hardy",
+                "ability": "Intimidate",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 50 Fisherman Tully4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 50,
+                "moves":
+                [
+                    "Water Pulse",
+                    "Rain Dance",
+                    "Waterfall",
+                    "Megahorn"
+                ],
+                "tr_id": 517,
+                "nature": "Hardy",
+                "ability": "Intimidate",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 40 Swimmer M Duane":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 40,
+                "moves":
+                [],
+                "tr_id": 595,
+                "nature": "Hardy",
+                "ability": "Imposter",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 42 Fisherman Wilton4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 42,
+                "moves":
+                [],
+                "tr_id": 608,
+                "nature": "Hardy",
+                "ability": "Simple",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 46 Fisherman Wilton4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 46,
+                "moves":
+                [],
+                "tr_id": 608,
+                "nature": "Hardy",
+                "ability": "Simple",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 63 Fisherman Wilton4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 63,
+                "moves":
+                [],
+                "tr_id": 608,
+                "nature": "",
+                "ability": "Simple",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 40 Fisherman Kyle2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 40,
+                "moves":
+                [],
+                "tr_id": 661,
+                "nature": "Hardy",
+                "ability": "Simple",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 43 Fisherman Kyle2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 43,
+                "moves":
+                [],
+                "tr_id": 661,
+                "nature": "",
+                "ability": "Simple",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 43 Fisherman Kyle3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 43,
+                "moves":
+                [],
+                "tr_id": 662,
+                "nature": "Hardy",
+                "ability": "Simple",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 47 Fisherman Kyle3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 47,
+                "moves":
+                [],
+                "tr_id": 662,
+                "nature": "Hardy",
+                "ability": "Simple",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 48 Fisherman Kyle4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 48,
+                "moves":
+                [],
+                "tr_id": 663,
+                "nature": "Hardy",
+                "ability": "Simple",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 52 Fisherman Kyle4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 52,
+                "moves":
+                [],
+                "tr_id": 663,
+                "nature": "Hardy",
+                "ability": "Simple",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            }
+        },
+        "Zebstrika":
+        {
+            "Lvl 42 Swimmer M George":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Electric Gem",
+                "level": 42,
+                "moves":
+                [
+                    "Wild Charge",
+                    "Volt Switch",
+                    "Low Kick",
+                    "High Horsepower"
+                ],
+                "tr_id": 96,
+                "nature": "Hasty",
+                "ability": "Sap Sipper",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            }
+        },
+        "Grumpig":
+        {
+            "Lvl 41 Swimmer M George":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Salac Berry",
+                "level": 41,
+                "moves":
+                [
+                    "Psychic",
+                    "Energy Ball",
+                    "Belch",
+                    "Nasty Plot"
+                ],
+                "tr_id": 96,
+                "nature": "Timid",
+                "ability": "Gluttony",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 48 Executive Ariana   //moved to route 48":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Band",
+                "level": 48,
+                "moves":
+                [
+                    "Psychic",
+                    "Focus Blast",
+                    "Thunder Wave",
+                    "Reflect"
+                ],
+                "tr_id": 562,
+                "nature": "Timid",
+                "ability": "Thick Fat",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 59 Elite Four Will Will2 ":
+            {
+                "ivs":
+                {
+                    "hp": 3,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "None",
+                "level": 59,
+                "moves":
+                [
+                    "Confuse Ray",
+                    "Signal Beam",
+                    "Power Gem",
+                    "Psychic"
+                ],
+                "tr_id": 702,
+                "nature": "",
+                "ability": "Sand Rush",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            }
+        },
+        "Abomasnow":
+        {
+            "Lvl 42 Swimmer M George":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Leftovers",
+                "level": 42,
+                "moves":
+                [
+                    "Energy Ball",
+                    "Ice Beam",
+                    "Leech Seed",
+                    "Substitute"
+                ],
+                "tr_id": 96,
+                "nature": "Timid",
                 "ability": "Soundproof",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            },
+            "Lvl 56 Leader Pryce2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 56,
+                "moves":
+                [
+                    "Ice Shard",
+                    "Wood Hammer",
+                    "Earthquake",
+                    "Blizzard"
+                ],
+                "tr_id": 716,
+                "nature": "Hardy",
+                "ability": "Sand Rush",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
         },
         "Omastar":
         {
-            "Lvl 41 Swimmer M Berke":
+            "Lvl 42 Swimmer M Berke":
             {
                 "ivs":
                 {
@@ -64284,7 +65526,7 @@ backup_data = {
                     "sd": 31
                 },
                 "item": "White Herb",
-                "level": 41,
+                "level": 42,
                 "moves":
                 [
                     "Scald",
@@ -64380,9 +65622,87 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Krabby":
+        "Kingler":
         {
-            "Lvl 23 Swimmer M Matthew":
+            "Lvl 42 Swimmer M Matthew":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Water Gem",
+                "level": 42,
+                "moves":
+                [
+                    "Liquidation",
+                    "Aqua Jet",
+                    "-",
+                    "-"
+                ],
+                "tr_id": 99,
+                "nature": "Adamant",
+                "ability": "Sheer Force",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 32 Ace Trainer M Gaven":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 32,
+                "moves":
+                [
+                    "Bubble Beam",
+                    "Stomp",
+                    "Guillotine",
+                    "Protect"
+                ],
+                "tr_id": 102,
+                "nature": "Hardy",
+                "ability": "Water Absorb",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 40 Sailor Kent":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Assault Vest",
+                "level": 40,
+                "moves":
+                [
+                    "Liquidation",
+                    "Knock Off",
+                    "Hammer Arm",
+                    "X-Scissor"
+                ],
+                "tr_id": 213,
+                "nature": "Adamant",
+                "ability": "Sheer Force",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 42 Sailor Garrett":
             {
                 "ivs":
                 {
@@ -64394,34 +65714,245 @@ backup_data = {
                     "sd": null
                 },
                 "item": "",
-                "level": 23,
+                "level": 42,
                 "moves":
                 [],
-                "tr_id": 99,
+                "tr_id": 240,
                 "nature": "",
-                "ability": "Swift Swim",
+                "ability": "No Guard",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
-            "Lvl 39 Fisherman Kyle3 ":
+            "Lvl 34 Ace Trainer M Gaven2 ":
             {
                 "ivs":
                 {
                     "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 34,
+                "moves":
+                [
+                    "Bubble Beam",
+                    "Stomp",
+                    "Guillotine",
+                    "Protect"
+                ],
+                "tr_id": 456,
+                "nature": "Hardy",
+                "ability": "Rain Dish",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 39 Ace Trainer M Gaven3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
                 },
                 "item": "",
                 "level": 39,
                 "moves":
+                [
+                    "Brine",
+                    "Stomp",
+                    "X-Scissor",
+                    "Protect"
+                ],
+                "tr_id": 457,
+                "nature": "Hardy",
+                "ability": "Rain Dish",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 49 Ace Trainer M Gaven4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 49,
+                "moves":
+                [
+                    "Brine",
+                    "Crabhammer",
+                    "X-Scissor",
+                    "Protect"
+                ],
+                "tr_id": 604,
+                "nature": "Hardy",
+                "ability": "Simple",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 51 Fisherman Kyle4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 51,
+                "moves":
                 [],
-                "tr_id": 662,
+                "tr_id": 663,
                 "nature": "",
                 "ability": "Simple",
                 "sub_index": 3,
+                "battle_type": "Singles"
+            }
+        },
+        "Jolteon":
+        {
+            "Lvl 41 Swimmer M Matthew":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Leftovers",
+                "level": 41,
+                "moves":
+                [
+                    "Thunder",
+                    "Volt Switch",
+                    "Weather Ball",
+                    "Calm Mind"
+                ],
+                "tr_id": 99,
+                "nature": "Timid",
+                "ability": "Volt Absorb",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 38 Kimono Girl Sayo":
+            {
+                "ivs":
+                {
+                    "hp": 18,
+                    "at": 18,
+                    "df": 18,
+                    "sp": 18,
+                    "sa": 18,
+                    "sd": 18
+                },
+                "item": "None",
+                "level": 38,
+                "moves":
+                [
+                    "Last Resort",
+                    "Thunderbolt",
+                    "Double Team",
+                    "Thunder Wave"
+                ],
+                "tr_id": 161,
+                "nature": " trainer_data_type_items | trainer_data_type_moves",
+                "ability": "Inner Focus",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 62 Hiker Phillip":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 30,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Leftovers",
+                "level": 62,
+                "moves":
+                [
+                    "Discharge",
+                    "",
+                    "Calm Mind",
+                    "Substitute"
+                ],
+                "tr_id": 203,
+                "nature": "Timid",
+                "ability": "Volt Absorb",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            },
+            "Lvl 45 Guitarist Vincent":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 45,
+                "moves":
+                [
+                    "Shock Wave",
+                    "Quick Attack",
+                    "Pin Missile",
+                    "Helping Hand"
+                ],
+                "tr_id": 232,
+                "nature": "Hardy",
+                "ability": "Harvest",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 32 Sage Mickey4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 32,
+                "moves":
+                [
+                    "Sand Attack",
+                    "Thunderbolt",
+                    "Quick Attack",
+                    "Double Kick"
+                ],
+                "tr_id": 543,
+                "nature": "Rainerclass_sage",
+                "ability": "Sand Veil",
+                "sub_index": 1,
                 "battle_type": "Singles"
             }
         },
@@ -64733,181 +66264,6 @@ backup_data = {
                 "nature": "Hardy",
                 "ability": "Sand Rush",
                 "sub_index": 2,
-                "battle_type": "Singles"
-            }
-        },
-        "Kingler":
-        {
-            "Lvl 32 Ace Trainer M Gaven":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 32,
-                "moves":
-                [
-                    "Bubble Beam",
-                    "Stomp",
-                    "Guillotine",
-                    "Protect"
-                ],
-                "tr_id": 102,
-                "nature": "Hardy",
-                "ability": "Water Absorb",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 40 Sailor Kent":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Assault Vest",
-                "level": 40,
-                "moves":
-                [
-                    "Liquidation",
-                    "Knock Off",
-                    "Hammer Arm",
-                    "X-Scissor"
-                ],
-                "tr_id": 213,
-                "nature": "Adamant",
-                "ability": "Sheer Force",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 42 Sailor Garrett":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 42,
-                "moves":
-                [],
-                "tr_id": 240,
-                "nature": "",
-                "ability": "No Guard",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 34 Ace Trainer M Gaven2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 34,
-                "moves":
-                [
-                    "Bubble Beam",
-                    "Stomp",
-                    "Guillotine",
-                    "Protect"
-                ],
-                "tr_id": 456,
-                "nature": "Hardy",
-                "ability": "Rain Dish",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 39 Ace Trainer M Gaven3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 39,
-                "moves":
-                [
-                    "Brine",
-                    "Stomp",
-                    "X-Scissor",
-                    "Protect"
-                ],
-                "tr_id": 457,
-                "nature": "Hardy",
-                "ability": "Rain Dish",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 49 Ace Trainer M Gaven4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 49,
-                "moves":
-                [
-                    "Brine",
-                    "Crabhammer",
-                    "X-Scissor",
-                    "Protect"
-                ],
-                "tr_id": 604,
-                "nature": "Hardy",
-                "ability": "Simple",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 51 Fisherman Kyle4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 51,
-                "moves":
-                [],
-                "tr_id": 663,
-                "nature": "",
-                "ability": "Simple",
-                "sub_index": 3,
                 "battle_type": "Singles"
             }
         },
@@ -66148,6 +67504,51 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
+        "Wartortle":
+        {
+            "Lvl 24 Ace Trainer M Alton":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 24,
+                "moves":
+                [],
+                "tr_id": 109,
+                "nature": "",
+                "ability": "Water Absorb",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 24 Ace Trainer F Kelly":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 24,
+                "moves":
+                [],
+                "tr_id": 121,
+                "nature": "",
+                "ability": "Sturdy",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            }
+        },
         "Dratini":
         {
             "Lvl 35 Ace Trainer M Paulo":
@@ -66468,7 +67869,7 @@ backup_data = {
                 [],
                 "tr_id": 586,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -66489,11 +67890,192 @@ backup_data = {
                 [],
                 "tr_id": 590,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Horsea":
+        {
+            "Lvl 35 Ace Trainer M Cody":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 35,
+                "moves":
+                [],
+                "tr_id": 112,
+                "nature": "Hardy",
+                "ability": "Water Absorb",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
-            "Lvl 43 Sailor Parker":
+            "Lvl 15 Swimmer M Mickey4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 15,
+                "moves":
+                [],
+                "tr_id": 171,
+                "nature": "Hardy",
+                "ability": "Inner Focus",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 16 Swimmer M Mickey5 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 16,
+                "moves":
+                [],
+                "tr_id": 273,
+                "nature": "",
+                "ability": "Magic Bounce",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 16 Swimmer M Mickey6 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 16,
+                "moves":
+                [],
+                "tr_id": 372,
+                "nature": "",
+                "ability": "0",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 16 Swimmer M Mickey7 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 16,
+                "moves":
+                [],
+                "tr_id": 375,
+                "nature": "",
+                "ability": "0",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 16 Swimmer M Mickey8 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 16,
+                "moves":
+                [],
+                "tr_id": 376,
+                "nature": "",
+                "ability": "0",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 43 Swimmer M Parker":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 43,
+                "moves":
+                [
+                    "Water Pulse",
+                    "Focus Energy",
+                    "Twister",
+                    "Agility"
+                ],
+                "tr_id": 377,
+                "nature": "Hardy",
+                "ability": "0",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 33 Ace Trainer F Piper":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 33,
+                "moves":
+                [
+                    "Smokescreen",
+                    "Leer",
+                    "Brine",
+                    "Twister"
+                ],
+                "tr_id": 501,
+                "nature": "Hardy",
+                "ability": "Intimidate",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 43 Team Rocket Grunt #25 ":
             {
                 "ivs":
                 {
@@ -66516,7 +68098,136 @@ backup_data = {
                 "tr_id": 676,
                 "nature": "Rainerclass_sailor",
                 "ability": "Blaze",
-                "sub_index": 1,
+                "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Staryu":
+        {
+            "Lvl 36 Ace Trainer F Reena":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 36,
+                "moves":
+                [],
+                "tr_id": 114,
+                "nature": "",
+                "ability": "Water Absorb",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 13 Swimmer M Mickey5 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 13,
+                "moves":
+                [],
+                "tr_id": 273,
+                "nature": "Hardy",
+                "ability": "Magic Bounce",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 13 Swimmer M Mickey6 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 13,
+                "moves":
+                [],
+                "tr_id": 372,
+                "nature": "Hardy",
+                "ability": "0",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 13 Swimmer M Mickey7 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 13,
+                "moves":
+                [],
+                "tr_id": 375,
+                "nature": "Hardy",
+                "ability": "0",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 13 Swimmer M Mickey8 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 13,
+                "moves":
+                [],
+                "tr_id": 376,
+                "nature": "Hardy",
+                "ability": "0",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 38 Ace Trainer F Reena2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 38,
+                "moves":
+                [],
+                "tr_id": 444,
+                "nature": "",
+                "ability": "Rain Dish",
+                "sub_index": 2,
                 "battle_type": "Singles"
             }
         },
@@ -66885,19 +68596,19 @@ backup_data = {
                 [],
                 "tr_id": 579,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             }
         },
-        "Seaking":
+        "Remoraid":
         {
-            "Lvl 28 Fisherman Wilton":
+            "Lvl 28 Fisherman Edgar":
             {
                 "ivs":
                 {
                     "hp": 0,
-                    "at": null,
+                    "at": 0,
                     "df": null,
                     "sp": null,
                     "sa": null,
@@ -66906,375 +68617,19 @@ backup_data = {
                 "item": "",
                 "level": 28,
                 "moves":
-                [],
-                "tr_id": 124,
-                "nature": "",
-                "ability": "Sturdy",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 41 Picnicker Debra":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 41,
-                "moves":
-                [],
-                "tr_id": 139,
-                "nature": "",
-                "ability": "Sturdy",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 20 Swimmer F Mickey3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 20,
-                "moves":
-                [],
-                "tr_id": 167,
-                "nature": "",
-                "ability": "Inner Focus",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 20 Swimmer F Mickey4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 20,
-                "moves":
-                [],
-                "tr_id": 292,
-                "nature": "",
-                "ability": "Harvest",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 20 Swimmer F Mickey5 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 20,
-                "moves":
-                [],
-                "tr_id": 295,
-                "nature": "",
-                "ability": "Harvest",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 46 Swimmer F Briana":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 46,
-                "moves":
                 [
-                    "Water Pulse",
-                    "Aqua Ring",
-                    "Supersonic",
-                    "Poison Jab"
+                    "Lock-On",
+                    "Psybeam",
+                    "Aurora Beam",
+                    "Bubble Beam"
                 ],
-                "tr_id": 298,
-                "nature": "Rainerclass_bird_keeper_gs",
-                "ability": "Harvest",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 36 Fisherman Wilton2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 36,
-                "moves":
-                [],
-                "tr_id": 325,
-                "nature": "",
-                "ability": "Soundproof",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 34 Fisherman Scott":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 34,
-                "moves":
-                [
-                    "Fury Attack",
-                    "Aqua Ring",
-                    "Flail",
-                    "Water Pulse"
-                ],
-                "tr_id": 413,
-                "nature": "Rainerclass_bird_keeper_gs",
-                "ability": "Sap Sipper",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 36 Fisherman Wilton3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 36,
-                "moves":
-                [],
-                "tr_id": 450,
-                "nature": "Hardy",
-                "ability": "Rain Dish",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 40 Fisherman Wilton3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 40,
-                "moves":
-                [],
-                "tr_id": 450,
-                "nature": "",
-                "ability": "Rain Dish",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 40 Fisherman Ralph2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 40,
-                "moves":
-                [],
-                "tr_id": 462,
-                "nature": "",
-                "ability": "Rain Dish",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 42 Fisherman Ralph3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 42,
-                "moves":
-                [],
-                "tr_id": 463,
-                "nature": "",
-                "ability": "Rain Dish",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 56 Fisherman Ralph4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 56,
-                "moves":
-                [],
-                "tr_id": 515,
-                "nature": "",
-                "ability": "Intimidate",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 39 Fisherman Mickey":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 39,
-                "moves":
-                [
-                    "Endure",
-                    "Flail",
-                    "Fury Attack",
-                    "Waterfall"
-                ],
-                "tr_id": 516,
+                "tr_id": 125,
                 "nature": "Rainerclass_fisherman",
-                "ability": "Intimidate",
+                "ability": "Sturdy",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
-            "Lvl 41 Fisherman Tully4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 41,
-                "moves":
-                [
-                    "Water Pulse",
-                    "Rain Dance",
-                    "Waterfall",
-                    "Aqua Ring"
-                ],
-                "tr_id": 517,
-                "nature": "Hardy",
-                "ability": "Intimidate",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 50 Fisherman Tully4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 50,
-                "moves":
-                [
-                    "Water Pulse",
-                    "Rain Dance",
-                    "Waterfall",
-                    "Megahorn"
-                ],
-                "tr_id": 517,
-                "nature": "Hardy",
-                "ability": "Intimidate",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 40 Swimmer M Duane":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 40,
-                "moves":
-                [],
-                "tr_id": 595,
-                "nature": "Hardy",
-                "ability": "Natural Cure",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 42 Fisherman Wilton4 ":
+            "Lvl 42 Swimmer M Harold":
             {
                 "ivs":
                 {
@@ -67289,13 +68644,13 @@ backup_data = {
                 "level": 42,
                 "moves":
                 [],
-                "tr_id": 608,
+                "tr_id": 252,
                 "nature": "Hardy",
-                "ability": "Simple",
+                "ability": "Iron Fist",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
-            "Lvl 46 Fisherman Wilton4 ":
+            "Lvl 36 Fisherman Martin":
             {
                 "ivs":
                 {
@@ -67307,160 +68662,13 @@ backup_data = {
                     "sd": 0
                 },
                 "item": "",
-                "level": 46,
+                "level": 36,
                 "moves":
                 [],
-                "tr_id": 608,
+                "tr_id": 320,
                 "nature": "Hardy",
-                "ability": "Simple",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 63 Fisherman Wilton4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 63,
-                "moves":
-                [],
-                "tr_id": 608,
-                "nature": "",
-                "ability": "Simple",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 40 Fisherman Kyle2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 40,
-                "moves":
-                [],
-                "tr_id": 661,
-                "nature": "Hardy",
-                "ability": "Simple",
+                "ability": "Soundproof",
                 "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 43 Fisherman Kyle2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 43,
-                "moves":
-                [],
-                "tr_id": 661,
-                "nature": "",
-                "ability": "Simple",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 43 Fisherman Kyle3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 43,
-                "moves":
-                [],
-                "tr_id": 662,
-                "nature": "Hardy",
-                "ability": "Simple",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 47 Fisherman Kyle3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 47,
-                "moves":
-                [],
-                "tr_id": 662,
-                "nature": "Hardy",
-                "ability": "Simple",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 48 Fisherman Kyle4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 48,
-                "moves":
-                [],
-                "tr_id": 663,
-                "nature": "Hardy",
-                "ability": "Simple",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 52 Fisherman Kyle4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 52,
-                "moves":
-                [],
-                "tr_id": 663,
-                "nature": "Hardy",
-                "ability": "Simple",
-                "sub_index": 2,
                 "battle_type": "Singles"
             }
         },
@@ -68659,7 +69867,7 @@ backup_data = {
                 [],
                 "tr_id": 567,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -70172,113 +71380,6 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Jolteon":
-        {
-            "Lvl 38 Kimono Girl Sayo":
-            {
-                "ivs":
-                {
-                    "hp": 18,
-                    "at": 18,
-                    "df": 18,
-                    "sp": 18,
-                    "sa": 18,
-                    "sd": 18
-                },
-                "item": "None",
-                "level": 38,
-                "moves":
-                [
-                    "Last Resort",
-                    "Thunderbolt",
-                    "Double Team",
-                    "Thunder Wave"
-                ],
-                "tr_id": 161,
-                "nature": " trainer_data_type_items | trainer_data_type_moves",
-                "ability": "Inner Focus",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 62 Hiker Phillip":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 30,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Leftovers",
-                "level": 62,
-                "moves":
-                [
-                    "Discharge",
-                    "",
-                    "Calm Mind",
-                    "Substitute"
-                ],
-                "tr_id": 203,
-                "nature": "Timid",
-                "ability": "Volt Absorb",
-                "sub_index": 3,
-                "battle_type": "Singles"
-            },
-            "Lvl 45 Guitarist Vincent":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 45,
-                "moves":
-                [
-                    "Shock Wave",
-                    "Quick Attack",
-                    "Pin Missile",
-                    "Helping Hand"
-                ],
-                "tr_id": 232,
-                "nature": "Hardy",
-                "ability": "Infiltrator",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 32 Sage Mickey4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 32,
-                "moves":
-                [
-                    "Sand Attack",
-                    "Thunderbolt",
-                    "Quick Attack",
-                    "Double Kick"
-                ],
-                "tr_id": 543,
-                "nature": "Rainerclass_sage",
-                "ability": "Sand Veil",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            }
-        },
         "Jynx":
         {
             "Lvl 28 Swimmer F Mickey":
@@ -70647,7 +71748,7 @@ backup_data = {
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
-            "Lvl 32 Executive Ariana Ariana2 ":
+            "Lvl 32 Executive Ariana Ariana3 ":
             {
                 "ivs":
                 {
@@ -70747,247 +71848,58 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Voltorb":
+        "Carbink":
         {
-            "Lvl 36 Team Rocket Grunt #1":
+            "Lvl 57 Team Rocket Grunt #1":
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "",
-                "level": 36,
+                "item": "Leftovers",
+                "level": 57,
                 "moves":
-                [],
+                [
+                    "Misty Explosion",
+                    "Body Press",
+                    "Terrain Pulse",
+                    "Stealth Rock"
+                ],
                 "tr_id": 179,
-                "nature": "",
-                "ability": "Iron Barbs",
+                "nature": "Careful",
+                "ability": "Sturdy",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
-            "Lvl 43 Guitarist Vincent":
+            "Lvl 57 Team Rocket Grunt #12 ":
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "",
-                "level": 43,
+                "item": "Leftovers",
+                "level": 57,
                 "moves":
                 [
-                    "Shock Wave",
-                    "Swift",
-                    "Gyro Ball",
-                    "Screech"
+                    "Misty Explosion",
+                    "Body Press",
+                    "Terrain Pulse",
+                    "Stealth Rock"
                 ],
-                "tr_id": 232,
-                "nature": "Hardy",
-                "ability": "Infiltrator",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 17 School Kid M Jack2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 17,
-                "moves":
-                [],
-                "tr_id": 430,
-                "nature": "",
-                "ability": "0",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 22 Juggler Irwin2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 22,
-                "moves":
-                [],
-                "tr_id": 454,
-                "nature": "Hardy",
-                "ability": "Rain Dish",
+                "tr_id": 220,
+                "nature": "Careful",
+                "ability": "Sturdy",
                 "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 26 Juggler Irwin2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 26,
-                "moves":
-                [],
-                "tr_id": 454,
-                "nature": "Hardy",
-                "ability": "Rain Dish",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 28 Juggler Irwin2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 28,
-                "moves":
-                [],
-                "tr_id": 454,
-                "nature": "Hardy",
-                "ability": "Rain Dish",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 34 Juggler Irwin2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 34,
-                "moves":
-                [],
-                "tr_id": 454,
-                "nature": "",
-                "ability": "Rain Dish",
-                "sub_index": 3,
-                "battle_type": "Singles"
-            },
-            "Lvl 34 Juggler Irwin3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 34,
-                "moves":
-                [],
-                "tr_id": 455,
-                "nature": "Hardy",
-                "ability": "Rain Dish",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 36 Juggler Irwin3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 36,
-                "moves":
-                [],
-                "tr_id": 455,
-                "nature": "Hardy",
-                "ability": "Rain Dish",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 38 Juggler Irwin3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 38,
-                "moves":
-                [],
-                "tr_id": 455,
-                "nature": "Hardy",
-                "ability": "Rain Dish",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 40 Juggler Irwin4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 40,
-                "moves":
-                [
-                    "Charge Beam",
-                    "Charge",
-                    "Light Screen",
-                    "Swift"
-                ],
-                "tr_id": 527,
-                "nature": "Hardy",
-                "ability": "Intimidate",
-                "sub_index": 1,
                 "battle_type": "Singles"
             }
         },
@@ -71143,113 +72055,6 @@ backup_data = {
                 "nature": "",
                 "ability": "Simple",
                 "sub_index": 0,
-                "battle_type": "Singles"
-            }
-        },
-        "Bronzong":
-        {
-            "Lvl 28 Pokefan Beverly":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Sitrus Berry",
-                "level": 28,
-                "moves":
-                [
-                    "Extrasensory",
-                    "Hex",
-                    "Flash Cannon",
-                    "Trick Room"
-                ],
-                "tr_id": 182,
-                "nature": "Quiet",
-                "ability": "Levitate",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 39 Psychic M Nelson":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Lum Berry",
-                "level": 39,
-                "moves":
-                [
-                    "Gyro Ball",
-                    "Body Press",
-                    "Earthquake",
-                    "Trick Room"
-                ],
-                "tr_id": 389,
-                "nature": "Relaxed",
-                "ability": "Levitate",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 58 Elite Four Will Will2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 58,
-                "moves":
-                [
-                    "Reflect",
-                    "Payback",
-                    "Gravity",
-                    "Psychic"
-                ],
-                "tr_id": 702,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 50 Leader Jasmine2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 50,
-                "moves":
-                [
-                    "Gyro Ball",
-                    "Hypnosis",
-                    "Dream Eater",
-                    "Gravity"
-                ],
-                "tr_id": 717,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 3,
                 "battle_type": "Singles"
             }
         },
@@ -71800,7 +72605,7 @@ backup_data = {
                 ],
                 "tr_id": 591,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -71989,7 +72794,7 @@ backup_data = {
                 [],
                 "tr_id": 228,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -72170,7 +72975,7 @@ backup_data = {
                 [],
                 "tr_id": 221,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -72191,7 +72996,7 @@ backup_data = {
                 [],
                 "tr_id": 224,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -72346,7 +73151,7 @@ backup_data = {
                 [],
                 "tr_id": 593,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -72400,6 +73205,32 @@ backup_data = {
                     "Agility"
                 ],
                 "tr_id": 201,
+                "nature": "Jolly",
+                "ability": "Toxic Boost",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            },
+            "Lvl 57 Team Rocket Grunt #24 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Toxic Orb",
+                "level": 57,
+                "moves":
+                [
+                    "Secret Power",
+                    "Zen Headbutt",
+                    "Knock Off",
+                    "Swords Dance"
+                ],
+                "tr_id": 566,
                 "nature": "Jolly",
                 "ability": "Toxic Boost",
                 "sub_index": 3,
@@ -72860,7 +73691,7 @@ backup_data = {
                 "sub_index": 4,
                 "battle_type": "Singles"
             },
-            "Lvl 60 Executive Ariana Ariana3 ":
+            "Lvl 60 Executive Ariana Ariana4 ":
             {
                 "ivs":
                 {
@@ -73159,61 +73990,6 @@ backup_data = {
                 "nature": "Bold",
                 "ability": "Regenerator",
                 "sub_index": 2,
-                "battle_type": "Singles"
-            }
-        },
-        "Araquanid":
-        {
-            "Lvl 41 Sailor Roberto":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Lum Berry",
-                "level": 41,
-                "moves":
-                [
-                    "Liquidation",
-                    "Leech Life",
-                    "Mirror Coat",
-                    "Sticky Web"
-                ],
-                "tr_id": 214,
-                "nature": "Adamant",
-                "ability": "Water Bubble",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 62 Ace Trainer F Emma":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Sitrus Berry",
-                "level": 62,
-                "moves":
-                [
-                    "Liquidation",
-                    "Leech Life",
-                    "Soak",
-                    "Sticky Web"
-                ],
-                "tr_id": 363,
-                "nature": "Adamant",
-                "ability": "Water Bubble",
-                "sub_index": 0,
                 "battle_type": "Singles"
             }
         },
@@ -73738,48 +74514,463 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Venonat":
+        "Dudunsparce":
         {
-            "Lvl 18 Team Rocket Grunt #12 ":
+            "Lvl 57 Team Rocket Grunt #3":
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "",
-                "level": 18,
+                "item": "Leftovers",
+                "level": 57,
                 "moves":
-                [],
-                "tr_id": 220,
-                "nature": "",
-                "ability": "Infiltrator",
+                [
+                    "Secret Power",
+                    "Throat Chop",
+                    "Coil",
+                    "Roost"
+                ],
+                "tr_id": 218,
+                "nature": "Adamant",
+                "ability": "Serene Grace",
                 "sub_index": 0,
                 "battle_type": "Singles"
+            }
+        },
+        "Mabosstiff":
+        {
+            "Lvl 57 Team Rocket Grunt #3":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Dark Gem",
+                "level": 57,
+                "moves":
+                [
+                    "Crunch",
+                    "Play Rough",
+                    "Wild Charge",
+                    "Psychic Fangs"
+                ],
+                "tr_id": 218,
+                "nature": "Adamant",
+                "ability": "Stakeout",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            }
+        },
+        "Alakazam":
+        {
+            "Lvl 56 Team Rocket Grunt #3":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Life Orb",
+                "level": 56,
+                "moves":
+                [
+                    "Psychic",
+                    "Energy Ball",
+                    "Dazzling Gleam",
+                    "Calm Mind"
+                ],
+                "tr_id": 218,
+                "nature": "Timid",
+                "ability": "Inner Focus",
+                "sub_index": 2,
+                "battle_type": "Singles"
             },
-            "Lvl 36 Bug Catcher Arnie2 ":
+            "Lvl 55 Leader Sabrina":
+            {
+                "ivs":
+                {
+                    "hp": 25,
+                    "at": 25,
+                    "df": 25,
+                    "sp": 25,
+                    "sa": 25,
+                    "sd": 25
+                },
+                "item": "Sitrus Berry",
+                "level": 55,
+                "moves":
+                [
+                    "Skill Swap",
+                    "Psychic",
+                    "Energy Ball",
+                    "Reflect"
+                ],
+                "tr_id": 258,
+                "nature": " trainer_data_type_items | trainer_data_type_moves",
+                "ability": "Static",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 48 Rival Silver |Starter 2|4 ":
             {
                 "ivs":
                 {
                     "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 48,
+                "moves":
+                [
+                    "Disable",
+                    "Recover",
+                    "Reflect",
+                    "Psychic"
+                ],
+                "tr_id": 285,
+                "nature": "Hardy",
+                "ability": "Chlorophyll",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 48 Rival Silver |Starter 3|4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 48,
+                "moves":
+                [
+                    "Disable",
+                    "Recover",
+                    "Reflect",
+                    "Psychic"
+                ],
+                "tr_id": 286,
+                "nature": "Hardy",
+                "ability": "Chlorophyll",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 48 Rival Silver |Starter 1|4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 48,
+                "moves":
+                [
+                    "Disable",
+                    "Recover",
+                    "Reflect",
+                    "Psychic"
+                ],
+                "tr_id": 287,
+                "nature": "Hardy",
+                "ability": "Chlorophyll",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 56 Rival Silver |Starter 1|5 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 56,
+                "moves":
+                [
+                    "Recover",
+                    "Focus Blast",
+                    "Psychic",
+                    "Reflect"
+                ],
+                "tr_id": 489,
+                "nature": "Hardy",
+                "ability": "Speed Boost",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 56 Rival Silver |Starter 2|6 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 56,
+                "moves":
+                [
+                    "Recover",
+                    "Focus Blast",
+                    "Psychic",
+                    "Reflect"
+                ],
+                "tr_id": 490,
+                "nature": "Hardy",
+                "ability": "Speed Boost",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 56 Rival Silver |Starter 3|6 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "None",
+                "level": 56,
+                "moves":
+                [
+                    "Recover",
+                    "Focus Blast",
+                    "Psychic",
+                    "Reflect"
+                ],
+                "tr_id": 491,
+                "nature": "Hardy",
+                "ability": "Speed Boost",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 47 Ace Trainer M French":
+            {
+                "ivs":
+                {
+                    "hp": 6,
+                    "at": 6,
+                    "df": 6,
+                    "sp": 6,
+                    "sa": 6,
+                    "sd": 6
+                },
+                "item": "None",
+                "level": 47,
+                "moves":
+                [
+                    "Psychic",
+                    "Focus Blast",
+                    "Energy Ball",
+                    "Charge Beam"
+                ],
+                "tr_id": 545,
+                "nature": " trainer_data_type_moves",
+                "ability": "Sand Veil",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 54 Young Couple Tim & Sue4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 54,
+                "moves":
+                [
+                    "Psychic",
+                    "Calm Mind",
+                    "Reflect",
+                    "Recover"
+                ],
+                "tr_id": 654,
+                "nature": "Hardy",
+                "ability": "Simple",
+                "sub_index": 0,
+                "battle_type": "Doubles"
+            },
+            "Lvl 65 Pkmn Trainer Mira Mira":
+            {
+                "ivs":
+                {
+                    "hp": 25,
+                    "at": 25,
+                    "df": 25,
+                    "sp": 25,
+                    "sa": 25,
+                    "sd": 25
+                },
+                "item": "Sitrus Berry",
+                "level": 65,
+                "moves":
+                [
+                    "Psychic",
+                    "Focus Blast",
+                    "Calm Mind",
+                    "Hyper Beam"
+                ],
+                "tr_id": 669,
+                "nature": " trainer_data_type_items | trainer_data_type_moves",
+                "ability": "Simple",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
+            "Lvl 60 Leader Sabrina2 ":
+            {
+                "ivs":
+                {
+                    "hp": 1,
                     "at": null,
                     "df": null,
                     "sp": null,
                     "sa": null,
                     "sd": null
                 },
-                "item": "",
-                "level": 36,
+                "item": "None",
+                "level": 60,
                 "moves":
-                [],
-                "tr_id": 360,
+                [
+                    "Gravity",
+                    "Focus Blast",
+                    "Energy Ball",
+                    "Psychic"
+                ],
+                "tr_id": 725,
                 "nature": "",
-                "ability": "Hyper Cutter",
+                "ability": "Sand Rush",
                 "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Golem-Alola":
+        {
+            "Lvl 57 Team Rocket Grunt #3":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Electric Gem",
+                "level": 57,
+                "moves":
+                [
+                    "Secret Power",
+                    "Stone Edge",
+                    "Body Press",
+                    "Autotomize"
+                ],
+                "tr_id": 218,
+                "nature": "Adamant",
+                "ability": "Galvanize",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            }
+        },
+        "Meowscarada":
+        {
+            "Lvl 57 Team Rocket Grunt #3":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Sash",
+                "level": 57,
+                "moves":
+                [
+                    "Flower Trick",
+                    "Knock Off",
+                    "Play Rough",
+                    "Thunder Punch"
+                ],
+                "tr_id": 218,
+                "nature": "Jolly",
+                "ability": "Protean",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            }
+        },
+        "Armarouge":
+        {
+            "Lvl 56 Team Rocket Grunt #12 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Focus Band",
+                "level": 56,
+                "moves":
+                [
+                    "Expanding Force",
+                    "Armor Cannon",
+                    "Terrain Pulse",
+                    "Substitute"
+                ],
+                "tr_id": 220,
+                "nature": "Timid",
+                "ability": "Weak Armor",
+                "sub_index": 2,
                 "battle_type": "Singles"
             }
         },
@@ -73802,7 +74993,7 @@ backup_data = {
                 [],
                 "tr_id": 223,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -73826,8 +75017,231 @@ backup_data = {
                 [],
                 "tr_id": 231,
                 "nature": "",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Voltorb":
+        {
+            "Lvl 43 Guitarist Vincent":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 43,
+                "moves":
+                [
+                    "Shock Wave",
+                    "Swift",
+                    "Gyro Ball",
+                    "Screech"
+                ],
+                "tr_id": 232,
+                "nature": "Hardy",
+                "ability": "Harvest",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 17 School Kid M Jack2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 17,
+                "moves":
+                [],
+                "tr_id": 430,
+                "nature": "",
+                "ability": "0",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 22 Juggler Irwin2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 22,
+                "moves":
+                [],
+                "tr_id": 454,
+                "nature": "Hardy",
+                "ability": "Rain Dish",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 26 Juggler Irwin2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 26,
+                "moves":
+                [],
+                "tr_id": 454,
+                "nature": "Hardy",
+                "ability": "Rain Dish",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 28 Juggler Irwin2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 28,
+                "moves":
+                [],
+                "tr_id": 454,
+                "nature": "Hardy",
+                "ability": "Rain Dish",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 34 Juggler Irwin2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 34,
+                "moves":
+                [],
+                "tr_id": 454,
+                "nature": "",
+                "ability": "Rain Dish",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            },
+            "Lvl 34 Juggler Irwin3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 34,
+                "moves":
+                [],
+                "tr_id": 455,
+                "nature": "Hardy",
+                "ability": "Rain Dish",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 36 Juggler Irwin3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 36,
+                "moves":
+                [],
+                "tr_id": 455,
+                "nature": "Hardy",
+                "ability": "Rain Dish",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 38 Juggler Irwin3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 38,
+                "moves":
+                [],
+                "tr_id": 455,
+                "nature": "Hardy",
+                "ability": "Rain Dish",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 40 Juggler Irwin4 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": 0,
+                    "sp": 0,
+                    "sa": 0,
+                    "sd": 0
+                },
+                "item": "",
+                "level": 40,
+                "moves":
+                [
+                    "Charge Beam",
+                    "Charge",
+                    "Light Screen",
+                    "Swift"
+                ],
+                "tr_id": 527,
+                "nature": "Hardy",
+                "ability": "Intimidate",
+                "sub_index": 1,
                 "battle_type": "Singles"
             }
         },
@@ -73855,7 +75269,7 @@ backup_data = {
                 ],
                 "tr_id": 232,
                 "nature": "Rainerclass_hiker",
-                "ability": "Infiltrator",
+                "ability": "Harvest",
                 "sub_index": 2,
                 "battle_type": "Singles"
             },
@@ -74216,7 +75630,7 @@ backup_data = {
                 ],
                 "tr_id": 591,
                 "nature": "Rainerclass_swimmer_f",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             }
@@ -74875,191 +76289,6 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Charizard":
-        {
-            "Lvl 48 Champion Lance":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 48,
-                "moves":
-                [
-                    "Shadow Claw",
-                    "Air Slash",
-                    "Dragon Claw",
-                    "Fire Fang"
-                ],
-                "tr_id": 244,
-                "nature": "Hardy",
-                "ability": "No Guard",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 84 Pkmn Trainer Red Red":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 84,
-                "moves":
-                [
-                    "Flare Blitz",
-                    "Air Slash",
-                    "Blast Burn",
-                    "Dragon Pulse"
-                ],
-                "tr_id": 260,
-                "nature": "Hardy",
-                "ability": "Static",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 36 Firebreather Richard":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Sitrus Berry",
-                "level": 36,
-                "moves":
-                [
-                    "Lava Plume",
-                    "Air Slash",
-                    "Dragon Claw",
-                    "Shadow Claw"
-                ],
-                "tr_id": 281,
-                "nature": "Hasty",
-                "ability": "Blaze",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 60 Pkmn Trainer Lance Lance":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Fire Gem",
-                "level": 60,
-                "moves":
-                [
-                    "Heat Wave",
-                    "Hurricane",
-                    "Will-O-Wisp",
-                    "Roost"
-                ],
-                "tr_id": 675,
-                "nature": "Timid",
-                "ability": "Blaze",
-                "sub_index": 5,
-                "battle_type": "Singles"
-            },
-            "Lvl 68 Champion Lance2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 68,
-                "moves":
-                [
-                    "Flamethrower",
-                    "Air Slash",
-                    "Dragon Claw",
-                    "Hyper Beam"
-                ],
-                "tr_id": 701,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 52 Leader Clair2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 52,
-                "moves":
-                [
-                    "Shadow Claw",
-                    "Air Slash",
-                    "Dragon Claw",
-                    "Fire Fang"
-                ],
-                "tr_id": 719,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 68 Champion Lance3 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 68,
-                "moves":
-                [
-                    "Flamethrower",
-                    "Air Slash",
-                    "Dragon Claw",
-                    "Hyper Beam"
-                ],
-                "tr_id": 733,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            }
-        },
         "Xatu":
         {
             "Lvl 40 Elite Four Will Will":
@@ -75405,7 +76634,7 @@ backup_data = {
                 [],
                 "tr_id": 428,
                 "nature": "",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -75805,7 +77034,7 @@ backup_data = {
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
-            "Lvl 32 Executive Ariana Ariana2 ":
+            "Lvl 32 Executive Ariana Ariana3 ":
             {
                 "ivs":
                 {
@@ -76895,295 +78124,6 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Alakazam":
-        {
-            "Lvl 55 Leader Sabrina":
-            {
-                "ivs":
-                {
-                    "hp": 25,
-                    "at": 25,
-                    "df": 25,
-                    "sp": 25,
-                    "sa": 25,
-                    "sd": 25
-                },
-                "item": "Sitrus Berry",
-                "level": 55,
-                "moves":
-                [
-                    "Skill Swap",
-                    "Psychic",
-                    "Energy Ball",
-                    "Reflect"
-                ],
-                "tr_id": 258,
-                "nature": " trainer_data_type_items | trainer_data_type_moves",
-                "ability": "Static",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            },
-            "Lvl 48 Rival Silver |Starter 2|4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 48,
-                "moves":
-                [
-                    "Disable",
-                    "Recover",
-                    "Reflect",
-                    "Psychic"
-                ],
-                "tr_id": 285,
-                "nature": "Hardy",
-                "ability": "Chlorophyll",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 48 Rival Silver |Starter 3|4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 48,
-                "moves":
-                [
-                    "Disable",
-                    "Recover",
-                    "Reflect",
-                    "Psychic"
-                ],
-                "tr_id": 286,
-                "nature": "Hardy",
-                "ability": "Chlorophyll",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 48 Rival Silver |Starter 1|4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 48,
-                "moves":
-                [
-                    "Disable",
-                    "Recover",
-                    "Reflect",
-                    "Psychic"
-                ],
-                "tr_id": 287,
-                "nature": "Hardy",
-                "ability": "Chlorophyll",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 56 Rival Silver |Starter 1|5 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 56,
-                "moves":
-                [
-                    "Recover",
-                    "Focus Blast",
-                    "Psychic",
-                    "Reflect"
-                ],
-                "tr_id": 489,
-                "nature": "Hardy",
-                "ability": "Speed Boost",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 56 Rival Silver |Starter 2|6 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 56,
-                "moves":
-                [
-                    "Recover",
-                    "Focus Blast",
-                    "Psychic",
-                    "Reflect"
-                ],
-                "tr_id": 490,
-                "nature": "Hardy",
-                "ability": "Speed Boost",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 56 Rival Silver |Starter 3|6 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 56,
-                "moves":
-                [
-                    "Recover",
-                    "Focus Blast",
-                    "Psychic",
-                    "Reflect"
-                ],
-                "tr_id": 491,
-                "nature": "Hardy",
-                "ability": "Speed Boost",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 47 Ace Trainer M French":
-            {
-                "ivs":
-                {
-                    "hp": 6,
-                    "at": 6,
-                    "df": 6,
-                    "sp": 6,
-                    "sa": 6,
-                    "sd": 6
-                },
-                "item": "None",
-                "level": 47,
-                "moves":
-                [
-                    "Psychic",
-                    "Focus Blast",
-                    "Energy Ball",
-                    "Charge Beam"
-                ],
-                "tr_id": 545,
-                "nature": " trainer_data_type_moves",
-                "ability": "Sand Veil",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 54 Young Couple Tim & Sue4 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "",
-                "level": 54,
-                "moves":
-                [
-                    "Psychic",
-                    "Calm Mind",
-                    "Reflect",
-                    "Recover"
-                ],
-                "tr_id": 654,
-                "nature": "Hardy",
-                "ability": "Simple",
-                "sub_index": 0,
-                "battle_type": "Doubles"
-            },
-            "Lvl 65 Pkmn Trainer Mira Mira":
-            {
-                "ivs":
-                {
-                    "hp": 25,
-                    "at": 25,
-                    "df": 25,
-                    "sp": 25,
-                    "sa": 25,
-                    "sd": 25
-                },
-                "item": "Sitrus Berry",
-                "level": 65,
-                "moves":
-                [
-                    "Psychic",
-                    "Focus Blast",
-                    "Calm Mind",
-                    "Hyper Beam"
-                ],
-                "tr_id": 669,
-                "nature": " trainer_data_type_items | trainer_data_type_moves",
-                "ability": "Simple",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 60 Leader Sabrina2 ":
-            {
-                "ivs":
-                {
-                    "hp": 1,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "None",
-                "level": 60,
-                "moves":
-                [
-                    "Gravity",
-                    "Focus Blast",
-                    "Energy Ball",
-                    "Psychic"
-                ],
-                "tr_id": 725,
-                "nature": "",
-                "ability": "Sand Rush",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            }
-        },
         "Lapras":
         {
             "Lvl 80 Pkmn Trainer Red Red":
@@ -77645,12 +78585,12 @@ backup_data = {
                 ],
                 "tr_id": 564,
                 "nature": " trainer_data_type_nothing",
-                "ability": "Natural Cure",
+                "ability": "Sand Rush",
                 "sub_index": 1,
                 "battle_type": "Singles"
             }
         },
-        "Quilava":
+        "Pignite":
         {
             "Lvl 24 Rival  //fire":
             {
@@ -77667,45 +78607,19 @@ backup_data = {
                 "level": 24,
                 "moves":
                 [
-                    "Incinerate",
-                    "Quick Attack",
-                    "Smokescreen",
+                    "Flame Wheel",
+                    "Low Sweep",
+                    "Yawn",
                     ""
                 ],
                 "tr_id": 266,
-                "nature": "Timid",
-                "ability": "Flash Fire",
+                "nature": "Hasty",
+                "ability": "Blaze",
                 "sub_index": 5,
-                "battle_type": "Singles"
-            },
-            "Lvl 34 Rival Silver |Starter 3|5 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "",
-                "level": 34,
-                "moves":
-                [
-                    "Smokescreen",
-                    "Swift",
-                    "Quick Attack",
-                    "Flame Wheel"
-                ],
-                "tr_id": 289,
-                "nature": "Rainerclass_elder",
-                "ability": "Chlorophyll",
-                "sub_index": 4,
                 "battle_type": "Singles"
             }
         },
-        "Typhlosion":
+        "Emboar":
         {
             "Lvl 39 Rival  //fire2 ":
             {
@@ -77718,21 +78632,134 @@ backup_data = {
                     "sa": 31,
                     "sd": 31
                 },
-                "item": "Power Herb",
+                "item": "Assault Vest",
                 "level": 39,
                 "moves":
                 [
-                    "Lava Plume",
-                    "Scorching Sands",
-                    "Extrasensory",
-                    "Solar Beam"
+                    "Flare Blitz",
+                    "Wild Charge",
+                    "Double-Edge",
+                    "Sucker Punch"
                 ],
                 "tr_id": 267,
-                "nature": "Timid",
-                "ability": "Blaze",
+                "nature": "Jolly",
+                "ability": "Reckless",
                 "sub_index": 1,
                 "battle_type": "Singles"
+            }
+        },
+        "Leafeon":
+        {
+            "Lvl 37 Rival  //fire2 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Leftovers",
+                "level": 37,
+                "moves":
+                [
+                    "Seed Bomb",
+                    "Knock Off",
+                    "Iron Tail",
+                    "Synthesis"
+                ],
+                "tr_id": 267,
+                "nature": "Jolly",
+                "ability": "Chlorophyll",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            }
+        },
+        "Hitmontop":
+        {
+            "Lvl 37 Rival  //fire2 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "White Herb",
+                "level": 37,
+                "moves":
+                [
+                    "Close Combat",
+                    "Mach Punch",
+                    "Bulldoze",
+                    "Aerial Ace"
+                ],
+                "tr_id": 267,
+                "nature": "Adamant",
+                "ability": "Technician",
+                "sub_index": 4,
+                "battle_type": "Singles"
             },
+            "Lvl 42 Elite Four Bruno Bruno":
+            {
+                "ivs":
+                {
+                    "hp": 1,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "None",
+                "level": 42,
+                "moves":
+                [
+                    "Counter",
+                    "Quick Attack",
+                    "Dig",
+                    "Triple Kick"
+                ],
+                "tr_id": 418,
+                "nature": "",
+                "ability": "Gluttony",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 62 Elite Four Bruno Bruno2 ":
+            {
+                "ivs":
+                {
+                    "hp": 1,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "None",
+                "level": 62,
+                "moves":
+                [
+                    "Counter",
+                    "Quick Attack",
+                    "Close Combat",
+                    "Earthquake"
+                ],
+                "tr_id": 704,
+                "nature": "",
+                "ability": "Sand Rush",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Typhlosion":
+        {
             "Lvl 40 Rival Silver |Starter 3|2 ":
             {
                 "ivs":
@@ -77864,116 +78891,6 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Leafeon":
-        {
-            "Lvl 37 Rival  //fire2 ":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Leftovers",
-                "level": 37,
-                "moves":
-                [
-                    "Seed Bomb",
-                    "Knock Off",
-                    "Iron Tail",
-                    "Synthesis"
-                ],
-                "tr_id": 267,
-                "nature": "Jolly",
-                "ability": "Chlorophyll",
-                "sub_index": 3,
-                "battle_type": "Singles"
-            }
-        },
-        "Hitmontop":
-        {
-            "Lvl 37 Rival  //fire2 ":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "White Herb",
-                "level": 37,
-                "moves":
-                [
-                    "Close Combat",
-                    "Mach Punch",
-                    "Bulldoze",
-                    "Aerial Ace"
-                ],
-                "tr_id": 267,
-                "nature": "Adamant",
-                "ability": "Technician",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            },
-            "Lvl 42 Elite Four Bruno Bruno":
-            {
-                "ivs":
-                {
-                    "hp": 1,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "None",
-                "level": 42,
-                "moves":
-                [
-                    "Counter",
-                    "Quick Attack",
-                    "Dig",
-                    "Triple Kick"
-                ],
-                "tr_id": 418,
-                "nature": "",
-                "ability": "Gluttony",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 62 Elite Four Bruno Bruno2 ":
-            {
-                "ivs":
-                {
-                    "hp": 1,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "None",
-                "level": 62,
-                "moves":
-                [
-                    "Counter",
-                    "Quick Attack",
-                    "Close Combat",
-                    "Earthquake"
-                ],
-                "tr_id": 704,
-                "nature": "",
-                "ability": "Sand Rush",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            }
-        },
         "Croconaw":
         {
             "Lvl 24 Rival Silver |Starter 1|2 ":
@@ -77991,13 +78908,13 @@ backup_data = {
                 "level": 24,
                 "moves":
                 [
-                    "Brine",
+                    "Aqua Jet",
                     "Ice Fang",
-                    "Bite",
+                    "Water Pulse",
                     "Rock Tomb"
                 ],
                 "tr_id": 269,
-                "nature": "Jolly",
+                "nature": "Naive",
                 "ability": "Sheer Force",
                 "sub_index": 5,
                 "battle_type": "Singles"
@@ -78159,61 +79076,6 @@ backup_data = {
                 "nature": "Hardy",
                 "ability": "Sand Rush",
                 "sub_index": 0,
-                "battle_type": "Singles"
-            }
-        },
-        "Roserade":
-        {
-            "Lvl 37 Rival Silver |Starter 2|3 ":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 30,
-                    "sp": 30,
-                    "sa": 31,
-                    "sd": 30
-                },
-                "item": "Focus Sash",
-                "level": 37,
-                "moves":
-                [
-                    "Mega Drain",
-                    "Sludge Bomb",
-                    "Sleep Powder",
-                    ""
-                ],
-                "tr_id": 270,
-                "nature": "Timid",
-                "ability": "Technician",
-                "sub_index": 3,
-                "battle_type": "Singles"
-            },
-            "Lvl 55 Leader Erika2 ":
-            {
-                "ivs":
-                {
-                    "hp": 25,
-                    "at": 25,
-                    "df": 25,
-                    "sp": 25,
-                    "sa": 25,
-                    "sd": 25
-                },
-                "item": "None",
-                "level": 55,
-                "moves":
-                [
-                    "Weather Ball",
-                    "Energy Ball",
-                    "Sludge Bomb",
-                    "Stun Spore"
-                ],
-                "tr_id": 723,
-                "nature": " trainer_data_type_items | trainer_data_type_moves",
-                "ability": "Sand Rush",
-                "sub_index": 5,
                 "battle_type": "Singles"
             }
         },
@@ -78490,6 +79352,35 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
+        "Quilava":
+        {
+            "Lvl 34 Rival Silver |Starter 3|5 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": 0,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 34,
+                "moves":
+                [
+                    "Smokescreen",
+                    "Swift",
+                    "Quick Attack",
+                    "Flame Wheel"
+                ],
+                "tr_id": 289,
+                "nature": "Rainerclass_elder",
+                "ability": "Chlorophyll",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            }
+        },
         "Litwick":
         {
             "Lvl 12 Elder Li":
@@ -78628,7 +79519,7 @@ backup_data = {
                 [],
                 "tr_id": 597,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             }
@@ -79057,6 +79948,32 @@ backup_data = {
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
+            "Lvl 57 Team Rocket Grunt #24 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Choice Scarf",
+                "level": 57,
+                "moves":
+                [
+                    "Transform",
+                    "-",
+                    "-",
+                    "-"
+                ],
+                "tr_id": 566,
+                "nature": "Hasty",
+                "ability": "Imposter",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            },
             "Lvl 40 School Kid M Billy":
             {
                 "ivs":
@@ -79391,6 +80308,30 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
+        "Venonat":
+        {
+            "Lvl 36 Bug Catcher Arnie2 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 36,
+                "moves":
+                [],
+                "tr_id": 360,
+                "nature": "",
+                "ability": "Hyper Cutter",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
         "Tauros":
         {
             "Lvl 62 Ace Trainer F Emma":
@@ -79593,7 +80534,7 @@ backup_data = {
                 [],
                 "tr_id": 422,
                 "nature": "",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -79756,7 +80697,7 @@ backup_data = {
                     "sa": 31,
                     "sd": 31
                 },
-                "item": "Kings Rock",
+                "item": "Loaded Dice",
                 "level": 18,
                 "moves":
                 [
@@ -79824,32 +80765,6 @@ backup_data = {
                 "nature": "Jolly",
                 "ability": "Simple",
                 "sub_index": 5,
-                "battle_type": "Singles"
-            },
-            "Lvl 54 Leader Whitney2 ":
-            {
-                "ivs":
-                {
-                    "hp": 3,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "None",
-                "level": 54,
-                "moves":
-                [
-                    "Double Team",
-                    "Charge Beam",
-                    "Surf",
-                    "Ice Beam"
-                ],
-                "tr_id": 714,
-                "nature": "",
-                "ability": "Sand Rush",
-                "sub_index": 2,
                 "battle_type": "Singles"
             }
         },
@@ -80080,32 +80995,6 @@ backup_data = {
                 "ability": "Normalize",
                 "sub_index": 0,
                 "battle_type": "Singles"
-            },
-            "Lvl 54 Leader Whitney2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 54,
-                "moves":
-                [
-                    "Fake Out",
-                    "Assist",
-                    "Calm Mind",
-                    "Baton Pass"
-                ],
-                "tr_id": 714,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 3,
-                "battle_type": "Singles"
             }
         },
         "Exploud":
@@ -80187,7 +81076,7 @@ backup_data = {
                 ],
                 "tr_id": 580,
                 "nature": " trainer_data_type_nothing",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -80841,35 +81730,6 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Swanna":
-        {
-            "Lvl 25 Youngster Brandon":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Sitrus Berry",
-                "level": 25,
-                "moves":
-                [
-                    "Scald",
-                    "Icy Wind",
-                    "Air Slash",
-                    "-"
-                ],
-                "tr_id": 409,
-                "nature": "Timid",
-                "ability": "Big Pecks",
-                "sub_index": 2,
-                "battle_type": "Singles"
-            }
-        },
         "Clodsire":
         {
             "Lvl 36 Sailor Harry":
@@ -80925,6 +81785,32 @@ backup_data = {
                 "nature": "Jolly",
                 "ability": "Sap Sipper",
                 "sub_index": 2,
+                "battle_type": "Singles"
+            },
+            "Lvl 57 Team Rocket Grunt #24 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Miracle Seed",
+                "level": 57,
+                "moves":
+                [
+                    "Horn Leech",
+                    "Play Rough",
+                    "Wild Charge",
+                    "Zen Headbutt"
+                ],
+                "tr_id": 566,
+                "nature": "Jolly",
+                "ability": "Grass Pelt",
+                "sub_index": 0,
                 "battle_type": "Singles"
             }
         },
@@ -81279,6 +82165,174 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
+        "Glimmora":
+        {
+            "Lvl 51 Gentleman  //moved to Olivine Gym":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Power Herb",
+                "level": 51,
+                "moves":
+                [
+                    "Meteor Beam",
+                    "Sludge Bomb",
+                    "Earth Power",
+                    "Energy Ball"
+                ],
+                "tr_id": 421,
+                "nature": "Timid",
+                "ability": "Toxic Debris",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Orthworm":
+        {
+            "Lvl 51 Gentleman  //moved to Olivine Gym":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Leftovers",
+                "level": 51,
+                "moves":
+                [
+                    "Iron Head",
+                    "Body Press",
+                    "Sand Tomb",
+                    "Protect"
+                ],
+                "tr_id": 421,
+                "nature": "Adamant",
+                "ability": "Earth Eater",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            }
+        },
+        "Doublade":
+        {
+            "Lvl 50 Gentleman  //moved to Olivine Gym":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Eviolite",
+                "level": 50,
+                "moves":
+                [
+                    "Shadow Claw",
+                    "Shadow Sneak",
+                    "Iron Head",
+                    "Sacred Sword"
+                ],
+                "tr_id": 421,
+                "nature": "Adamant",
+                "ability": "No Guard",
+                "sub_index": 2,
+                "battle_type": "Singles"
+            }
+        },
+        "Empoleon":
+        {
+            "Lvl 51 Gentleman  //moved to Olivine Gym":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Water Gem",
+                "level": 51,
+                "moves":
+                [
+                    "Hydro Pump",
+                    "Aqua Jet",
+                    "Flash Cannon",
+                    "Yawn"
+                ],
+                "tr_id": 421,
+                "nature": "Hasty",
+                "ability": "Competitive",
+                "sub_index": 3,
+                "battle_type": "Singles"
+            },
+            "Lvl 60 Executive Ariana Ariana4 ":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Sitrus Berry",
+                "level": 60,
+                "moves":
+                [
+                    "Scald",
+                    "Flash Cannon",
+                    "Ice Beam",
+                    "Agility"
+                ],
+                "tr_id": 479,
+                "nature": "Timid",
+                "ability": "Competitive",
+                "sub_index": 0,
+                "battle_type": "Singles"
+            },
+            "Lvl 52 Leader Jasmine2 ":
+            {
+                "ivs":
+                {
+                    "hp": 5,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "None",
+                "level": 52,
+                "moves":
+                [
+                    "Hydro Pump",
+                    "Blizzard",
+                    "Aqua Jet",
+                    "Roar"
+                ],
+                "tr_id": 717,
+                "nature": "",
+                "ability": "Sand Rush",
+                "sub_index": 4,
+                "battle_type": "Singles"
+            }
+        },
         "Chingling":
         {
             "Lvl 37 Psychic M Rodney":
@@ -81298,7 +82352,7 @@ backup_data = {
                 [],
                 "tr_id": 422,
                 "nature": "Hardy",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -81322,7 +82376,7 @@ backup_data = {
                 [],
                 "tr_id": 423,
                 "nature": "",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -81367,7 +82421,7 @@ backup_data = {
                 [],
                 "tr_id": 425,
                 "nature": "Hardy",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 0,
                 "battle_type": "Doubles"
             },
@@ -81388,7 +82442,7 @@ backup_data = {
                 [],
                 "tr_id": 426,
                 "nature": "",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 1,
                 "battle_type": "Doubles"
             },
@@ -81493,7 +82547,7 @@ backup_data = {
                 [],
                 "tr_id": 579,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -81580,7 +82634,7 @@ backup_data = {
                 [],
                 "tr_id": 425,
                 "nature": "",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 1,
                 "battle_type": "Doubles"
             },
@@ -81601,7 +82655,7 @@ backup_data = {
                 [],
                 "tr_id": 426,
                 "nature": "Hardy",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 0,
                 "battle_type": "Doubles"
             },
@@ -81646,7 +82700,7 @@ backup_data = {
                 [],
                 "tr_id": 427,
                 "nature": "",
-                "ability": "Guts",
+                "ability": "Competitive",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -81841,64 +82895,9 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Empoleon":
-        {
-            "Lvl 60 Executive Ariana Ariana3 ":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Sitrus Berry",
-                "level": 60,
-                "moves":
-                [
-                    "Scald",
-                    "Flash Cannon",
-                    "Ice Beam",
-                    "Agility"
-                ],
-                "tr_id": 479,
-                "nature": "Timid",
-                "ability": "Competitive",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 52 Leader Jasmine2 ":
-            {
-                "ivs":
-                {
-                    "hp": 5,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
-                },
-                "item": "None",
-                "level": 52,
-                "moves":
-                [
-                    "Hydro Pump",
-                    "Blizzard",
-                    "Aqua Jet",
-                    "Roar"
-                ],
-                "tr_id": 717,
-                "nature": "",
-                "ability": "Sand Rush",
-                "sub_index": 4,
-                "battle_type": "Singles"
-            }
-        },
         "Weavile":
         {
-            "Lvl 60 Executive Ariana Ariana3 ":
+            "Lvl 60 Executive Ariana Ariana4 ":
             {
                 "ivs":
                 {
@@ -81947,7 +82946,7 @@ backup_data = {
                 "tr_id": 493,
                 "nature": "Jolly",
                 "ability": "Inner Focus",
-                "sub_index": 3,
+                "sub_index": 4,
                 "battle_type": "Singles"
             },
             "Lvl 48 Executive Ariana   //moved to route 48":
@@ -82031,7 +83030,7 @@ backup_data = {
         },
         "Walrein":
         {
-            "Lvl 60 Executive Ariana Ariana3 ":
+            "Lvl 60 Executive Ariana Ariana4 ":
             {
                 "ivs":
                 {
@@ -82112,7 +83111,7 @@ backup_data = {
         },
         "Sneasler":
         {
-            "Lvl 60 Executive Ariana Ariana3 ":
+            "Lvl 60 Executive Ariana Ariana4 ":
             {
                 "ivs":
                 {
@@ -82218,61 +83217,6 @@ backup_data = {
                 "nature": "Jolly",
                 "ability": "Intimidate",
                 "sub_index": 2,
-                "battle_type": "Singles"
-            }
-        },
-        "Scizor":
-        {
-            "Lvl 58 Executive Petrel Petrel2 ":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Bright Powder",
-                "level": 58,
-                "moves":
-                [
-                    "Bullet Punch",
-                    "Lunge",
-                    "Knock Off",
-                    "Swords Dance"
-                ],
-                "tr_id": 488,
-                "nature": "Adamant",
-                "ability": "Technician",
-                "sub_index": 1,
-                "battle_type": "Singles"
-            },
-            "Lvl 56 Leader Bugsy2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "Sitrus Berry",
-                "level": 56,
-                "moves":
-                [
-                    "Bullet Punch",
-                    "X-Scissor",
-                    "Swords Dance",
-                    "Superpower"
-                ],
-                "tr_id": 713,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 0,
                 "battle_type": "Singles"
             }
         },
@@ -82470,35 +83414,6 @@ backup_data = {
                 "nature": "Timid",
                 "ability": "Illusion",
                 "sub_index": 2,
-                "battle_type": "Singles"
-            }
-        },
-        "Basculegion":
-        {
-            "Lvl 37 Medium Edith":
-            {
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sp": 31,
-                    "sa": 31,
-                    "sd": 31
-                },
-                "item": "Choice Scarf",
-                "level": 37,
-                "moves":
-                [
-                    "Liquidation",
-                    "Flip Turn",
-                    "Crunch",
-                    "Zen Headbutt"
-                ],
-                "tr_id": 493,
-                "nature": "Adamant",
-                "ability": "Adaptability",
-                "sub_index": 4,
                 "battle_type": "Singles"
             }
         },
@@ -83109,7 +84024,7 @@ backup_data = {
                 [],
                 "tr_id": 589,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -83130,7 +84045,7 @@ backup_data = {
                 [],
                 "tr_id": 589,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Singles"
             },
@@ -83151,7 +84066,7 @@ backup_data = {
                 [],
                 "tr_id": 589,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 2,
                 "battle_type": "Singles"
             },
@@ -83172,7 +84087,7 @@ backup_data = {
                 [],
                 "tr_id": 589,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 3,
                 "battle_type": "Singles"
             }
@@ -83446,9 +84361,9 @@ backup_data = {
                 "battle_type": "Doubles"
             }
         },
-        "Grumpig":
+        "Hippowdon":
         {
-            "Lvl 48 Executive Ariana   //moved to route 48":
+            "Lvl 51 Picnicker  //moved to Olivine Gym":
             {
                 "ivs":
                 {
@@ -83459,69 +84374,132 @@ backup_data = {
                     "sa": 31,
                     "sd": 31
                 },
-                "item": "Focus Band",
-                "level": 48,
+                "item": "Sitrus Berry",
+                "level": 51,
                 "moves":
                 [
-                    "Psychic",
-                    "Focus Blast",
-                    "Thunder Wave",
-                    "Reflect"
+                    "Earthquake",
+                    "Stone Edge",
+                    "Stealth Rock",
+                    "Roar"
                 ],
-                "tr_id": 562,
-                "nature": "Timid",
-                "ability": "Thick Fat",
+                "tr_id": 563,
+                "nature": "Adamant",
+                "ability": "Sand Stream",
                 "sub_index": 0,
                 "battle_type": "Singles"
-            },
-            "Lvl 59 Elite Four Will Will2 ":
+            }
+        },
+        "Rampardos":
+        {
+            "Lvl 52 Picnicker  //moved to Olivine Gym":
             {
                 "ivs":
                 {
-                    "hp": 3,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "None",
-                "level": 59,
+                "item": "Lum Berry //todo blunder policy",
+                "level": 52,
                 "moves":
                 [
-                    "Confuse Ray",
-                    "Signal Beam",
-                    "Power Gem",
-                    "Psychic"
+                    "Head Smash",
+                    "Stomping Tantrum",
+                    "Fire Punch",
+                    "Rock Polish"
                 ],
-                "tr_id": 702,
-                "nature": "",
+                "tr_id": 563,
+                "nature": "Adamant",
+                "ability": "Sheer Force",
+                "sub_index": 1,
+                "battle_type": "Singles"
+            },
+            "Lvl 57 Leader Brock2 ":
+            {
+                "ivs":
+                {
+                    "hp": 25,
+                    "at": 25,
+                    "df": 25,
+                    "sp": 25,
+                    "sa": 25,
+                    "sd": 25
+                },
+                "item": "None",
+                "level": 57,
+                "moves":
+                [
+                    "Earthquake",
+                    "Stone Edge",
+                    "Avalanche",
+                    "Rock Polish"
+                ],
+                "tr_id": 720,
+                "nature": " trainer_data_type_items | trainer_data_type_moves",
                 "ability": "Sand Rush",
+                "sub_index": 5,
+                "battle_type": "Singles"
+            }
+        },
+        "Avalugg":
+        {
+            "Lvl 52 Picnicker  //moved to Olivine Gym":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
+                },
+                "item": "Loaded Dice",
+                "level": 52,
+                "moves":
+                [
+                    "Rock Blast",
+                    "Icicle Spear",
+                    "Body Press",
+                    "Mirror Coat"
+                ],
+                "tr_id": 563,
+                "nature": "Adamant",
+                "ability": "Sturdy",
                 "sub_index": 2,
                 "battle_type": "Singles"
             }
         },
-        "Whismur":
+        "Excadrill":
         {
-            "Lvl 41 Picnicker  //moved to Olivine Gym":
+            "Lvl 52 Picnicker  //moved to Olivine Gym":
             {
                 "ivs":
                 {
-                    "hp": 0,
-                    "at": null,
-                    "df": null,
-                    "sp": null,
-                    "sa": null,
-                    "sd": null
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sp": 31,
+                    "sa": 31,
+                    "sd": 31
                 },
-                "item": "",
-                "level": 41,
+                "item": "Life Orb",
+                "level": 52,
                 "moves":
-                [],
+                [
+                    "Earthquake",
+                    "Iron Head",
+                    "X-Scissor",
+                    "Swords Dance"
+                ],
                 "tr_id": 563,
-                "nature": "",
-                "ability": "Natural Cure",
-                "sub_index": 0,
+                "nature": "Adamant",
+                "ability": "Sand Rush",
+                "sub_index": 3,
                 "battle_type": "Singles"
             }
         },
@@ -83549,33 +84527,7 @@ backup_data = {
                 ],
                 "tr_id": 564,
                 "nature": "",
-                "ability": "Natural Cure",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            },
-            "Lvl 42 Team Rocket Grunt #24 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "Chesto Berry",
-                "level": 42,
-                "moves":
-                [
-                    "Belly Drum",
-                    "Rest",
-                    "Flail",
-                    "Secret Power"
-                ],
-                "tr_id": 566,
-                "nature": " trainer_data_type_nothing",
-                "ability": "Natural Cure",
+                "ability": "Sand Rush",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -83604,7 +84556,7 @@ backup_data = {
                 ],
                 "tr_id": 568,
                 "nature": "Rainerclass_twins",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -83628,7 +84580,7 @@ backup_data = {
                 [],
                 "tr_id": 570,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -83649,7 +84601,7 @@ backup_data = {
                 [],
                 "tr_id": 571,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -83725,7 +84677,7 @@ backup_data = {
                 [],
                 "tr_id": 572,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             },
@@ -83746,7 +84698,7 @@ backup_data = {
                 [],
                 "tr_id": 575,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -83770,7 +84722,7 @@ backup_data = {
                 [],
                 "tr_id": 576,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -83794,7 +84746,7 @@ backup_data = {
                 [],
                 "tr_id": 577,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -83818,7 +84770,7 @@ backup_data = {
                 [],
                 "tr_id": 578,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -83842,7 +84794,7 @@ backup_data = {
                 [],
                 "tr_id": 581,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -83866,7 +84818,7 @@ backup_data = {
                 [],
                 "tr_id": 582,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -83890,7 +84842,7 @@ backup_data = {
                 [],
                 "tr_id": 583,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -83914,7 +84866,7 @@ backup_data = {
                 [],
                 "tr_id": 587,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -83938,7 +84890,7 @@ backup_data = {
                 [],
                 "tr_id": 598,
                 "nature": "Hardy",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Doubles"
             }
@@ -83962,7 +84914,7 @@ backup_data = {
                 [],
                 "tr_id": 598,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 1,
                 "battle_type": "Doubles"
             }
@@ -83986,7 +84938,7 @@ backup_data = {
                 [],
                 "tr_id": 599,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -84010,7 +84962,7 @@ backup_data = {
                 [],
                 "tr_id": 600,
                 "nature": "",
-                "ability": "Natural Cure",
+                "ability": "Imposter",
                 "sub_index": 0,
                 "battle_type": "Singles"
             }
@@ -84486,6 +85438,30 @@ backup_data = {
                 "nature": "Hardy",
                 "ability": "Simple",
                 "sub_index": 0,
+                "battle_type": "Singles"
+            }
+        },
+        "Krabby":
+        {
+            "Lvl 39 Fisherman Kyle3 ":
+            {
+                "ivs":
+                {
+                    "hp": 0,
+                    "at": null,
+                    "df": null,
+                    "sp": null,
+                    "sa": null,
+                    "sd": null
+                },
+                "item": "",
+                "level": 39,
+                "moves":
+                [],
+                "tr_id": 662,
+                "nature": "",
+                "ability": "Simple",
+                "sub_index": 3,
                 "battle_type": "Singles"
             }
         },
@@ -85081,32 +86057,6 @@ backup_data = {
                 "ability": "Sand Rush",
                 "sub_index": 1,
                 "battle_type": "Singles"
-            },
-            "Lvl 50 Leader Whitney2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 50,
-                "moves":
-                [
-                    "Wring Out",
-                    "Flamethrower",
-                    "Ice Beam",
-                    "Thunderbolt"
-                ],
-                "tr_id": 714,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 1,
-                "battle_type": "Singles"
             }
         },
         "Numel":
@@ -85307,35 +86257,6 @@ backup_data = {
                 "battle_type": "Singles"
             }
         },
-        "Abomasnow":
-        {
-            "Lvl 56 Leader Pryce2 ":
-            {
-                "ivs":
-                {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sp": 0,
-                    "sa": 0,
-                    "sd": 0
-                },
-                "item": "None",
-                "level": 56,
-                "moves":
-                [
-                    "Ice Shard",
-                    "Wood Hammer",
-                    "Earthquake",
-                    "Blizzard"
-                ],
-                "tr_id": 716,
-                "nature": "Hardy",
-                "ability": "Sand Rush",
-                "sub_index": 0,
-                "battle_type": "Singles"
-            }
-        },
         "Medicham":
         {
             "Lvl 54 Leader Chuck2 ":
@@ -85391,35 +86312,6 @@ backup_data = {
                 "nature": "",
                 "ability": "Sand Rush",
                 "sub_index": 1,
-                "battle_type": "Singles"
-            }
-        },
-        "Rampardos":
-        {
-            "Lvl 57 Leader Brock2 ":
-            {
-                "ivs":
-                {
-                    "hp": 25,
-                    "at": 25,
-                    "df": 25,
-                    "sp": 25,
-                    "sa": 25,
-                    "sd": 25
-                },
-                "item": "None",
-                "level": 57,
-                "moves":
-                [
-                    "Earthquake",
-                    "Stone Edge",
-                    "Avalanche",
-                    "Rock Polish"
-                ],
-                "tr_id": 720,
-                "nature": " trainer_data_type_items | trainer_data_type_moves",
-                "ability": "Sand Rush",
-                "sub_index": 5,
                 "battle_type": "Singles"
             }
         },
@@ -99140,86 +100032,28 @@ backup_data = {
             ],
             "tms":
             [
-                "Acid Spray",
-                "Amnesia",
-                "Attract",
-                "Bide",
-                "Body Slam",
                 "Bullet Seed",
-                "Captivate",
-                "Charm",
-                "Confide",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Double-Edge",
-                "Double Team",
-                "Echoed Voice",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "False Swipe",
-                "Flash",
-                "Frustration",
-                "Fury Cutter",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Headbutt",
-                "Helping Hand",
                 "Hidden Power",
-                "Knock Off",
-                "Leaf Storm",
-                "Light Screen",
-                "Magical Leaf",
-                "Mega Drain",
-                "Mimic",
-                "Mud-Slap",
+                "Flash",
                 "Natural Gift",
-                "Nature Power",
-                "Outrage",
-                "Power Whip",
-                "Protect",
-                "Rage",
-                "Reflect",
-                "Rest",
-                "Return",
                 "Rock Smash",
-                "Round",
-                "Safeguard",
-                "Secret Power",
-                "Seed Bomb",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Snore",
                 "Solar Beam",
                 "Strength",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Sweet Scent",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
-                "Trailblaze",
                 "Venoshock",
-                "Weather Ball",
-                "Work Up"
+                "Weather Ball"
             ],
             "tutors":
             [
                 "Headbutt"
             ],
             "egg":
-            [
-                "Petal Dance",
-                "Toxic",
-                "Curse",
-                "Ingrain"
-            ]
+            []
         },
         "ivysaur":
         {
@@ -99262,7 +100096,7 @@ backup_data = {
                     "Sweet Scent"
                 ],
                 [
-                    31,
+                    30,
                     "Toxic"
                 ],
                 [
@@ -99274,105 +100108,38 @@ backup_data = {
                     "Double-Edge"
                 ],
                 [
-                    46,
+                    48,
                     "Synthesis"
                 ],
                 [
-                    51,
+                    50,
                     "Seed Bomb"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Amnesia",
-                "Attract",
-                "Bide",
-                "Body Slam",
                 "Bullet Seed",
-                "Captivate",
-                "Charm",
-                "Confide",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Double-Edge",
-                "Double Team",
-                "Echoed Voice",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "False Swipe",
-                "Flash",
-                "Frustration",
-                "Fury Cutter",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Headbutt",
-                "Helping Hand",
                 "Hidden Power",
-                "Knock Off",
-                "Leaf Storm",
-                "Light Screen",
-                "Magical Leaf",
-                "Mega Drain",
-                "Mimic",
-                "Mud-Slap",
+                "Flash",
                 "Natural Gift",
-                "Nature Power",
-                "Outrage",
-                "Power Whip",
-                "Protect",
-                "Rage",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Roar",
                 "Rock Smash",
-                "Round",
-                "Safeguard",
-                "Secret Power",
-                "Seed Bomb",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Snore",
                 "Solar Beam",
                 "Strength",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Sweet Scent",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
-                "Trailblaze",
                 "Venoshock",
-                "Weather Ball",
-                "Work Up"
+                "Weather Ball"
             ],
             "tutors":
             [
                 "Headbutt"
             ],
             "egg":
-            [
-                "Amnesia",
-                "Charm",
-                "Curse",
-                "Grassy Terrain",
-                "Ingrain",
-                "Leaf Storm",
-                "Magical Leaf",
-                "Nature Power",
-                "Petal Dance",
-                "Power Whip",
-                "Skull Bash",
-                "Sludge"
-            ]
+            []
         },
         "venusaur":
         {
@@ -99423,7 +100190,7 @@ backup_data = {
                     "Sweet Scent"
                 ],
                 [
-                    31,
+                    30,
                     "Toxic"
                 ],
                 [
@@ -99435,116 +100202,38 @@ backup_data = {
                     "Double-Edge"
                 ],
                 [
-                    49,
+                    48,
                     "Synthesis"
                 ],
                 [
-                    55,
+                    50,
                     "Seed Bomb"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Amnesia",
-                "Attract",
-                "Bide",
-                "Body Slam",
-                "Bulldoze",
                 "Bullet Seed",
-                "Captivate",
-                "Charm",
-                "Confide",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Double-Edge",
-                "Double Team",
-                "Earthquake",
-                "Earth Power",
-                "Echoed Voice",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "False Swipe",
-                "Flash",
-                "Frenzy Plant",
-                "Frustration",
-                "Fury Cutter",
-                "Giga Drain",
-                "Giga Impact",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Headbutt",
-                "Helping Hand",
                 "Hidden Power",
-                "Hyper Beam",
-                "Knock Off",
-                "Leaf Storm",
-                "Light Screen",
-                "Magical Leaf",
-                "Mega Drain",
-                "Mimic",
-                "Mud-Slap",
+                "Flash",
                 "Natural Gift",
-                "Nature Power",
-                "Outrage",
-                "Petal Blizzard",
-                "Poison Jab",
-                "Power Whip",
-                "Protect",
-                "Rage",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Roar",
-                "Rock Climb",
                 "Rock Smash",
-                "Round",
-                "Safeguard",
-                "Scary Face",
-                "Secret Power",
-                "Seed Bomb",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Snore",
                 "Solar Beam",
-                "Stomping Tantrum",
                 "Strength",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Sweet Scent",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
-                "Trailblaze",
                 "Venoshock",
-                "Weather Ball",
-                "Work Up"
+                "Weather Ball"
             ],
             "tutors":
             [
                 "Headbutt"
             ],
             "egg":
-            [
-                "Amnesia",
-                "Charm",
-                "Curse",
-                "Grassy Terrain",
-                "Ingrain",
-                "Leaf Storm",
-                "Magical Leaf",
-                "Nature Power",
-                "Petal Dance",
-                "Power Whip",
-                "Skull Bash",
-                "Sludge"
-            ]
+            []
         },
         "charmander":
         {
@@ -99601,96 +100290,29 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Attract",
-                "Beat Up",
-                "Bide",
-                "Body Slam",
                 "Breaking Swipe",
-                "Brick Break",
-                "Captivate",
-                "Confide",
-                "Counter",
-                "Crunch",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
-                "Dragon Breath",
+                "Defog",
                 "Dragon Claw",
-                "Dragon Dance",
                 "Dragon Pulse",
-                "Dragon Rage",
                 "Dragon Tail",
-                "Dynamic Punch",
-                "Echoed Voice",
-                "Endure",
+                "Earthquake",
                 "Facade",
-                "False Swipe",
-                "Fire Blast",
-                "Fire Fang",
-                "Fire Pledge",
-                "Fire Punch",
-                "Fire Spin",
                 "Flamethrower",
-                "Flame Charge",
-                "Flare Blitz",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
-                "Frustration",
-                "Fury Cutter",
-                "Headbutt",
-                "Heat Wave",
-                "Helping Hand",
                 "Hidden Power",
-                "Hone Claws",
-                "Incinerate",
-                "Iron Tail",
-                "Mega Kick",
-                "Mega Punch",
-                "Metal Claw",
-                "Mimic",
-                "Mud-Slap",
                 "Natural Gift",
-                "Outrage",
-                "Overheat",
-                "Power-Up Punch",
-                "Protect",
-                "Rage",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Roar",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
-                "Round",
-                "Scary Face",
-                "Secret Power",
                 "Seismic Toss",
-                "Shadow Claw",
-                "Skull Bash",
-                "Sleep Talk",
-                "Snore",
+                "Solar Beam",
                 "Strength",
-                "Submission",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
                 "Temper Flare",
-                "Tera Blast",
-                "Thunder Punch",
                 "Toxic",
                 "Weather Ball",
-                "Will-O-Wisp",
-                "Work Up"
+                "Will-O-Wisp"
             ],
             "tutors":
             [
@@ -99698,20 +100320,10 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
-            [
-                "Ancient Power",
-                "Belly Drum",
-                "Bite",
-                "Counter",
-                "Dragon Rush",
-                "Dragon Tail",
-                "Iron Tail",
-                "Metal Claw"
-            ]
+            []
         },
         "charmeleon":
         {
@@ -99746,19 +100358,19 @@ backup_data = {
                     "Incinerate"
                 ],
                 [
-                    31,
+                    30,
                     "Dragon Rage"
                 ],
                 [
                     38,
-                    "Fire Punch"
+                    "Flame Burst"
                 ],
                 [
                     42,
                     "Scary Face"
                 ],
                 [
-                    49,
+                    47,
                     "Flamethrower"
                 ],
                 [
@@ -99768,95 +100380,29 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Attract",
-                "Beat Up",
-                "Bide",
-                "Body Slam",
                 "Breaking Swipe",
-                "Brick Break",
-                "Captivate",
-                "Confide",
-                "Counter",
-                "Crunch",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
-                "Dragon Breath",
+                "Defog",
                 "Dragon Claw",
-                "Dragon Dance",
                 "Dragon Pulse",
-                "Dragon Rage",
                 "Dragon Tail",
-                "Dynamic Punch",
-                "Echoed Voice",
-                "Endure",
+                "Earthquake",
                 "Facade",
-                "False Swipe",
-                "Fire Blast",
-                "Fire Fang",
-                "Fire Pledge",
-                "Fire Punch",
-                "Fire Spin",
                 "Flamethrower",
-                "Flame Charge",
-                "Flare Blitz",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
-                "Frustration",
-                "Fury Cutter",
-                "Headbutt",
-                "Heat Wave",
-                "Helping Hand",
                 "Hidden Power",
-                "Hone Claws",
-                "Incinerate",
-                "Iron Tail",
-                "Mega Kick",
-                "Mega Punch",
-                "Mimic",
-                "Mud-Slap",
                 "Natural Gift",
-                "Outrage",
-                "Overheat",
-                "Power-Up Punch",
-                "Protect",
-                "Rage",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Roar",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
-                "Round",
-                "Scary Face",
-                "Secret Power",
                 "Seismic Toss",
-                "Shadow Claw",
-                "Skull Bash",
-                "Sleep Talk",
-                "Snore",
+                "Solar Beam",
                 "Strength",
-                "Submission",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
                 "Temper Flare",
-                "Tera Blast",
-                "Thunder Punch",
                 "Toxic",
                 "Weather Ball",
-                "Will-O-Wisp",
-                "Work Up"
+                "Will-O-Wisp"
             ],
             "tutors":
             [
@@ -99864,27 +100410,17 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
-            [
-                "Ancient Power",
-                "Belly Drum",
-                "Bite",
-                "Counter",
-                "Dragon Rush",
-                "Dragon Tail",
-                "Iron Tail",
-                "Metal Claw"
-            ]
+            []
         },
         "charizard":
         {
             "ls":
             [
                 [
-                    1,
+                    0,
                     "Air Slash"
                 ],
                 [
@@ -99924,143 +100460,58 @@ backup_data = {
                     "Incinerate"
                 ],
                 [
-                    31,
+                    30,
                     "Dragon Rage"
                 ],
                 [
                     39,
-                    "Fire Punch"
+                    "Flame Burst"
                 ],
                 [
-                    44,
+                    42,
                     "Dual Wingbeat"
                 ],
                 [
-                    52,
+                    47,
                     "Flamethrower"
                 ],
                 [
-                    59,
+                    55,
                     "Dragon Pulse"
                 ],
                 [
-                    65,
+                    61,
                     "Flare Blitz"
                 ]
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Air Cutter",
-                "Air Slash",
-                "Attract",
-                "Beat Up",
-                "Bide",
-                "Blast Burn",
-                "Blaze Kick",
-                "Body Slam",
                 "Breaking Swipe",
-                "Brick Break",
-                "Brutal Swing",
-                "Bulldoze",
-                "Captivate",
-                "Confide",
-                "Counter",
-                "Crunch",
-                "Curse",
                 "Cut",
-                "Defense Curl",
                 "Defog",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
-                "Dragon Breath",
-                "Dragon Cheer",
                 "Dragon Claw",
-                "Dragon Dance",
                 "Dragon Pulse",
-                "Dragon Rage",
                 "Dragon Tail",
-                "Dynamic Punch",
                 "Earthquake",
-                "Echoed Voice",
-                "Endure",
                 "Facade",
-                "False Swipe",
-                "Fire Blast",
-                "Fire Fang",
-                "Fire Pledge",
-                "Fire Punch",
-                "Fire Spin",
-                "Fissure",
                 "Flamethrower",
-                "Flame Charge",
-                "Flare Blitz",
-                "Fling",
                 "Fly",
-                "Focus Blast",
-                "Focus Punch",
-                "Frustration",
-                "Fury Cutter",
-                "Giga Impact",
-                "Headbutt",
-                "Heat Crash",
-                "Heat Wave",
-                "Helping Hand",
                 "Hidden Power",
-                "Hone Claws",
-                "Hurricane",
-                "Hyper Beam",
-                "Incinerate",
-                "Iron Tail",
-                "Mega Kick",
-                "Mega Punch",
-                "Mimic",
-                "Mud-Slap",
-                "Mystical Fire",
                 "Natural Gift",
-                "Outrage",
-                "Overheat",
-                "Power-Up Punch",
-                "Protect",
-                "Rage",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Roar",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
                 "Roost",
-                "Round",
-                "Sandstorm",
-                "Scary Face",
-                "Scorching Sands",
-                "Secret Power",
                 "Seismic Toss",
-                "Shadow Claw",
-                "Skull Bash",
-                "Sky Drop",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Steel Wing",
                 "Strength",
-                "Submission",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
+                "Tailwind",
                 "Temper Flare",
-                "Tera Blast",
-                "Thunder Punch",
                 "Toxic",
                 "Weather Ball",
-                "Will-O-Wisp",
-                "Work Up"
+                "Will-O-Wisp"
             ],
             "tutors":
             [
@@ -100069,20 +100520,10 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Hurricane",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
-            [
-                "Ancient Power",
-                "Belly Drum",
-                "Bite",
-                "Counter",
-                "Dragon Rush",
-                "Dragon Tail",
-                "Iron Tail",
-                "Metal Claw"
-            ]
+            []
         },
         "squirtle":
         {
@@ -100129,7 +100570,7 @@ backup_data = {
                     "Razor Shell"
                 ],
                 [
-                    38,
+                    40,
                     "Skull Bash"
                 ],
                 [
@@ -100147,89 +100588,31 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
                 "Aura Sphere",
-                "Bide",
-                "Blizzard",
-                "Body Slam",
-                "Brick Break",
-                "Brine",
-                "Bubble Beam",
-                "Captivate",
-                "Chilling Water",
-                "Confide",
-                "Counter",
-                "Curse",
-                "Defense Curl",
-                "Dig",
+                "Body Press",
+                "Dark Pulse",
                 "Dive",
-                "Double-Edge",
-                "Double Team",
                 "Dragon Pulse",
-                "Dynamic Punch",
-                "Endure",
+                "Dragon Tail",
+                "Earthquake",
                 "Facade",
-                "False Swipe",
-                "Fling",
-                "Flip Turn",
-                "Focus Punch",
-                "Frustration",
-                "Gyro Ball",
-                "Hail",
-                "Haze",
-                "Headbutt",
-                "Helping Hand",
+                "Flash Cannon",
                 "Hidden Power",
-                "Hydro Pump",
                 "Ice Beam",
-                "Ice Punch",
-                "Ice Spinner",
                 "Icy Wind",
-                "Iron Defense",
-                "Iron Tail",
-                "Liquidation",
-                "Mega Kick",
-                "Mega Punch",
-                "Mimic",
-                "Muddy Water",
-                "Mud Shot",
-                "Mud-Slap",
                 "Natural Gift",
-                "Outrage",
-                "Power-Up Punch",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Return",
+                "Roar",
+                "Rock Climb",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
-                "Rollout",
-                "Round",
-                "Scald",
-                "Secret Power",
                 "Seismic Toss",
-                "Skull Bash",
-                "Sleep Talk",
-                "Snore",
                 "Strength",
-                "Submission",
-                "Substitute",
                 "Surf",
-                "Swagger",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
                 "Waterfall",
-                "Water Gun",
-                "Water Pledge",
-                "Water Pulse",
                 "Weather Ball",
-                "Whirlpool",
-                "Work Up",
-                "Zen Headbutt"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -100240,17 +100623,7 @@ backup_data = {
                 "Ice Punch"
             ],
             "egg":
-            [
-                "Mist",
-                "Flail",
-                "Mirror Coat",
-                "Fake Out",
-                "Yawn",
-                "Water Spout",
-                "Aqua Ring",
-                "Aqua Jet",
-                "Life Dew"
-            ]
+            []
         },
         "wartortle":
         {
@@ -100289,7 +100662,7 @@ backup_data = {
                     "Rapid Spin"
                 ],
                 [
-                    32,
+                    30,
                     "Icy Wind"
                 ],
                 [
@@ -100297,7 +100670,7 @@ backup_data = {
                     "Razor Shell"
                 ],
                 [
-                    41,
+                    40,
                     "Skull Bash"
                 ],
                 [
@@ -100315,89 +100688,31 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
                 "Aura Sphere",
-                "Bide",
-                "Blizzard",
-                "Body Slam",
-                "Brick Break",
-                "Brine",
-                "Bubble Beam",
-                "Captivate",
-                "Chilling Water",
-                "Confide",
-                "Counter",
-                "Curse",
-                "Defense Curl",
-                "Dig",
+                "Body Press",
+                "Dark Pulse",
                 "Dive",
-                "Double-Edge",
-                "Double Team",
                 "Dragon Pulse",
-                "Dynamic Punch",
-                "Endure",
+                "Dragon Tail",
+                "Earthquake",
                 "Facade",
-                "False Swipe",
-                "Fling",
-                "Flip Turn",
-                "Focus Punch",
-                "Frustration",
-                "Gyro Ball",
-                "Hail",
-                "Haze",
-                "Headbutt",
-                "Helping Hand",
+                "Flash Cannon",
                 "Hidden Power",
-                "Hydro Pump",
                 "Ice Beam",
-                "Ice Punch",
-                "Ice Spinner",
                 "Icy Wind",
-                "Iron Defense",
-                "Iron Tail",
-                "Liquidation",
-                "Mega Kick",
-                "Mega Punch",
-                "Mimic",
-                "Muddy Water",
-                "Mud Shot",
-                "Mud-Slap",
                 "Natural Gift",
-                "Outrage",
-                "Power-Up Punch",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Return",
+                "Roar",
+                "Rock Climb",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
-                "Rollout",
-                "Round",
-                "Scald",
-                "Secret Power",
                 "Seismic Toss",
-                "Skull Bash",
-                "Sleep Talk",
-                "Snore",
                 "Strength",
-                "Submission",
-                "Substitute",
                 "Surf",
-                "Swagger",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
                 "Waterfall",
-                "Water Gun",
-                "Water Pledge",
-                "Water Pulse",
                 "Weather Ball",
-                "Whirlpool",
-                "Work Up",
-                "Zen Headbutt"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -100408,20 +100723,7 @@ backup_data = {
                 "Ice Punch"
             ],
             "egg":
-            [
-                "Aqua Jet",
-                "Aqua Ring",
-                "Aura Sphere",
-                "Fake Out",
-                "Flail",
-                "Haze",
-                "Life Dew",
-                "Mirror Coat",
-                "Mist",
-                "Muddy Water",
-                "Water Spout",
-                "Yawn"
-            ]
+            []
         },
         "blastoise":
         {
@@ -100492,7 +100794,7 @@ backup_data = {
                     "Razor Shell"
                 ],
                 [
-                    42,
+                    40,
                     "Skull Bash"
                 ],
                 [
@@ -100504,116 +100806,41 @@ backup_data = {
                     "Surf"
                 ],
                 [
-                    65,
+                    55,
                     "Hydro Pump"
                 ],
                 [
-                    83,
+                    66,
                     "Water Spout"
                 ]
             ],
             "tms":
             [
-                "Attract",
                 "Aura Sphere",
-                "Avalanche",
-                "Bide",
-                "Blizzard",
                 "Body Press",
-                "Body Slam",
-                "Brick Break",
-                "Brine",
-                "Bubble Beam",
-                "Bulldoze",
-                "Captivate",
-                "Chilling Water",
-                "Confide",
-                "Counter",
-                "Crunch",
-                "Curse",
                 "Dark Pulse",
-                "Defense Curl",
-                "Dig",
                 "Dive",
-                "Double-Edge",
-                "Double Team",
                 "Dragon Pulse",
                 "Dragon Tail",
-                "Dynamic Punch",
                 "Earthquake",
-                "Endure",
                 "Facade",
-                "False Swipe",
-                "Fissure",
                 "Flash Cannon",
-                "Fling",
-                "Flip Turn",
-                "Focus Blast",
-                "Focus Punch",
-                "Frustration",
-                "Giga Impact",
-                "Gyro Ball",
-                "Hail",
-                "Haze",
-                "Headbutt",
-                "Helping Hand",
                 "Hidden Power",
-                "Hydro Cannon",
-                "Hydro Pump",
-                "Hyper Beam",
                 "Ice Beam",
-                "Ice Punch",
-                "Ice Spinner",
                 "Icy Wind",
-                "Iron Defense",
-                "Iron Tail",
-                "Liquidation",
-                "Mega Kick",
-                "Mega Punch",
-                "Mimic",
-                "Muddy Water",
-                "Mud Shot",
-                "Mud-Slap",
                 "Natural Gift",
-                "Outrage",
-                "Power-Up Punch",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Return",
                 "Roar",
                 "Rock Climb",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
-                "Rollout",
-                "Round",
-                "Scald",
-                "Scary Face",
-                "Secret Power",
                 "Seismic Toss",
-                "Skull Bash",
-                "Sleep Talk",
-                "Smack Down",
-                "Snore",
                 "Strength",
-                "Submission",
-                "Substitute",
                 "Surf",
-                "Swagger",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
                 "Waterfall",
-                "Water Gun",
-                "Water Pledge",
-                "Water Pulse",
                 "Weather Ball",
-                "Whirlpool",
-                "Work Up",
-                "Zen Headbutt"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -100624,20 +100851,7 @@ backup_data = {
                 "Ice Punch"
             ],
             "egg":
-            [
-                "Aqua Jet",
-                "Aqua Ring",
-                "Aura Sphere",
-                "Fake Out",
-                "Flail",
-                "Haze",
-                "Life Dew",
-                "Mirror Coat",
-                "Mist",
-                "Muddy Water",
-                "Water Spout",
-                "Yawn"
-            ]
+            []
         },
         "caterpie":
         {
@@ -100802,7 +101016,6 @@ backup_data = {
                 "Bug Buzz",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Defog",
                 "Double-Edge",
                 "Double Team",
@@ -101008,62 +101221,21 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Attract",
-                "Bide",
-                "Brick Break",
-                "Brutal Swing",
-                "Captivate",
-                "Confide",
-                "Curse",
                 "Cut",
                 "Defog",
-                "Double-Edge",
-                "Double Team",
-                "Drill Run",
-                "Endure",
+                "Electroweb",
                 "Facade",
-                "False Swipe",
                 "Flash",
-                "Frustration",
-                "Fury Cutter",
-                "Giga Drain",
-                "Giga Impact",
-                "Headbutt",
                 "Hidden Power",
-                "Hyper Beam",
-                "Infestation",
-                "Mega Drain",
-                "Mimic",
                 "Natural Gift",
-                "Outrage",
-                "Payback",
-                "Poison Jab",
-                "Protect",
-                "Rage",
-                "Reflect",
-                "Rest",
-                "Return",
                 "Rock Smash",
                 "Roost",
-                "Round",
-                "Secret Power",
-                "Silver Wind",
-                "Skull Bash",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Snore",
                 "Solar Beam",
                 "Struggle Bug",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Sweet Scent",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Thief",
+                "Tailwind",
                 "Toxic",
                 "U-turn",
                 "Venoshock",
@@ -101124,7 +101296,7 @@ backup_data = {
                 ],
                 [
                     41,
-                    "Air Slash"
+                    "Brave Bird"
                 ],
                 [
                     45,
@@ -101142,61 +101314,26 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Bide",
-                "Captivate",
-                "Confide",
-                "Curse",
                 "Defog",
-                "Detect",
-                "Double-Edge",
-                "Double Team",
-                "Endure",
+                "Dual Wingbeat",
                 "Facade",
+                "Feint Attack",
                 "Fly",
-                "Frustration",
-                "Headbutt",
                 "Hidden Power",
-                "Mimic",
-                "Mud-Slap",
                 "Natural Gift",
                 "Pluck",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Razor Wind",
-                "Reflect",
-                "Rest",
-                "Return",
                 "Roost",
-                "Round",
-                "Secret Power",
-                "Sky Attack",
-                "Sleep Talk",
-                "Snore",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Thief",
+                "Tailwind",
                 "Toxic",
-                "U-turn",
-                "Whirlwind",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [
                 "Hurricane"
             ],
             "egg":
-            [
-                "Air Cutter",
-                "Air Slash",
-                "Brave Bird",
-                "Uproar"
-            ]
+            []
         },
         "pidgeotto":
         {
@@ -101247,11 +101384,11 @@ backup_data = {
                     "Brave Bird"
                 ],
                 [
-                    48,
+                    47,
                     "Mirror Move"
                 ],
                 [
-                    55,
+                    50,
                     "Double-Edge"
                 ],
                 [
@@ -101262,61 +101399,26 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Bide",
-                "Captivate",
-                "Confide",
-                "Curse",
                 "Defog",
-                "Detect",
-                "Double-Edge",
-                "Double Team",
-                "Endure",
+                "Dual Wingbeat",
                 "Facade",
+                "Feint Attack",
                 "Fly",
-                "Frustration",
-                "Headbutt",
                 "Hidden Power",
-                "Mimic",
-                "Mud-Slap",
                 "Natural Gift",
                 "Pluck",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Razor Wind",
-                "Reflect",
-                "Rest",
-                "Return",
                 "Roost",
-                "Round",
-                "Secret Power",
-                "Sky Attack",
-                "Sleep Talk",
-                "Snore",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Thief",
+                "Tailwind",
                 "Toxic",
-                "U-turn",
-                "Whirlwind",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [
                 "Hurricane"
             ],
             "egg":
-            [
-                "Air Cutter",
-                "Air Slash",
-                "Brave Bird",
-                "Uproar"
-            ]
+            []
         },
         "pidgeot":
         {
@@ -101371,78 +101473,41 @@ backup_data = {
                     "Brave Bird"
                 ],
                 [
-                    49,
+                    47,
                     "Mirror Move"
                 ],
                 [
-                    57,
+                    50,
                     "Double-Edge"
                 ],
                 [
-                    65,
+                    60,
                     "Hurricane"
                 ]
             ],
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Bide",
-                "Captivate",
-                "Confide",
-                "Curse",
                 "Defog",
-                "Detect",
-                "Double-Edge",
-                "Double Team",
-                "Endure",
+                "Dual Wingbeat",
                 "Facade",
+                "Feint Attack",
                 "Fly",
-                "Frustration",
-                "Giga Impact",
-                "Headbutt",
                 "Hidden Power",
-                "Hyper Beam",
-                "Mimic",
-                "Mud-Slap",
                 "Natural Gift",
                 "Pluck",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Razor Wind",
-                "Reflect",
-                "Rest",
-                "Return",
                 "Roost",
-                "Round",
-                "Secret Power",
-                "Sky Attack",
-                "Sleep Talk",
-                "Snore",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Thief",
+                "Tailwind",
                 "Toxic",
-                "U-turn",
-                "Whirlwind",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [
                 "Hurricane"
             ],
             "egg":
-            [
-                "Air Cutter",
-                "Air Slash",
-                "Brave Bird",
-                "Uproar"
-            ]
+            []
         },
         "rattata":
         {
@@ -101511,7 +101576,6 @@ backup_data = {
                 "Captivate",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Dig",
@@ -101689,7 +101753,6 @@ backup_data = {
                 "Captivate",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Dig",
@@ -101845,68 +101908,26 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Bide",
-                "Captivate",
-                "Confide",
-                "Curse",
                 "Defog",
-                "Detect",
-                "Double-Edge",
-                "Double Team",
-                "Drill Run",
-                "Echoed Voice",
-                "Endure",
+                "Dual Wingbeat",
                 "Facade",
-                "False Swipe",
+                "Feint Attack",
                 "Fly",
-                "Frustration",
-                "Headbutt",
                 "Hidden Power",
-                "Mimic",
-                "Mud-Slap",
                 "Natural Gift",
                 "Pluck",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Razor Wind",
-                "Rest",
-                "Return",
                 "Roost",
-                "Round",
-                "Secret Power",
-                "Sky Attack",
-                "Sleep Talk",
-                "Snore",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Thief",
+                "Tailwind",
                 "Toxic",
-                "Tri Attack",
-                "U-turn",
-                "Whirlwind",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [
                 "Hurricane"
             ],
             "egg":
-            [
-                "Astonish",
-                "Feather Dance",
-                "Quick Attack",
-                "Scary Face",
-                "Sky Attack",
-                "Tri Attack",
-                "Uproar",
-                "Whirlwind"
-            ]
+            []
         },
         "fearow":
         {
@@ -101961,81 +101982,46 @@ backup_data = {
                     "Roost"
                 ],
                 [
-                    41,
+                    40,
                     "Drill Peck"
                 ],
                 [
                     50,
+                    "Throat Chop"
+                ],
+                [
+                    54,
+                    "Double-Edge"
+                ],
+                [
+                    60,
                     "Sky Attack"
                 ]
             ],
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Bide",
-                "Captivate",
-                "Confide",
-                "Curse",
+                "Assurance",
                 "Defog",
-                "Detect",
-                "Double-Edge",
-                "Double Team",
-                "Drill Run",
-                "Echoed Voice",
-                "Endure",
+                "Dual Wingbeat",
                 "Facade",
-                "False Swipe",
+                "Feint Attack",
                 "Fly",
-                "Frustration",
-                "Giga Impact",
-                "Headbutt",
                 "Hidden Power",
-                "Hyper Beam",
-                "Mimic",
-                "Mud-Slap",
                 "Natural Gift",
                 "Pluck",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Razor Wind",
-                "Rest",
-                "Return",
                 "Roost",
-                "Round",
-                "Secret Power",
-                "Sky Attack",
-                "Sleep Talk",
-                "Snore",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Thief",
+                "Tailwind",
                 "Toxic",
-                "Tri Attack",
-                "U-turn",
-                "Whirlwind",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [
                 "Hurricane"
             ],
             "egg":
-            [
-                "Astonish",
-                "Feather Dance",
-                "Quick Attack",
-                "Scary Face",
-                "Sky Attack",
-                "Tri Attack",
-                "Uproar",
-                "Whirlwind"
-            ]
+            []
         },
         "ekans":
         {
@@ -102104,77 +102090,21 @@ backup_data = {
             ],
             "tms":
             [
-                "Acid Spray",
-                "Attract",
-                "Bide",
-                "Body Slam",
-                "Brutal Swing",
-                "Bulldoze",
-                "Captivate",
-                "Confide",
-                "Crunch",
-                "Curse",
+                "Breaking Swipe",
                 "Dark Pulse",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
+                "Dragon Tail",
                 "Earthquake",
-                "Endure",
                 "Facade",
-                "Fire Fang",
-                "Fissure",
-                "Frustration",
-                "Giga Drain",
-                "Gunk Shot",
-                "Haze",
-                "Headbutt",
                 "Hidden Power",
-                "Infestation",
-                "Iron Tail",
-                "Knock Off",
-                "Lash Out",
                 "Leech Life",
-                "Mega Drain",
-                "Mimic",
-                "Mud Shot",
-                "Mud-Slap",
                 "Natural Gift",
-                "Payback",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
                 "Psychic Fangs",
-                "Rage",
-                "Rain Dance",
-                "Rest",
-                "Return",
                 "Rock Slide",
                 "Rock Tomb",
-                "Round",
-                "Scale Shot",
-                "Scary Face",
-                "Secret Power",
-                "Seed Bomb",
-                "Skitter Smack",
-                "Skull Bash",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Snarl",
-                "Snatch",
-                "Snore",
-                "Spite",
                 "Strength",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Torment",
                 "Toxic",
-                "Toxic Spikes",
-                "Trailblaze",
                 "Venoshock"
             ],
             "tutors":
@@ -102183,14 +102113,7 @@ backup_data = {
                 "Poison Jab"
             ],
             "egg":
-            [
-                "Poison Fang",
-                "Poison Tail",
-                "Scary Face",
-                "Spite",
-                "Sucker Punch",
-                "Switcheroo"
-            ]
+            []
         },
         "arbok":
         {
@@ -102265,96 +102188,31 @@ backup_data = {
                     "Stomping Tantrum"
                 ],
                 [
-                    48,
+                    47,
                     "Sucker Punch"
                 ],
                 [
-                    55,
+                    54,
                     "Gunk Shot"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Attract",
-                "Bide",
-                "Body Slam",
                 "Breaking Swipe",
-                "Brutal Swing",
-                "Bulldoze",
-                "Captivate",
-                "Confide",
-                "Crunch",
-                "Curse",
                 "Dark Pulse",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
                 "Dragon Tail",
                 "Earthquake",
-                "Endure",
                 "Facade",
-                "Fire Fang",
-                "Fissure",
-                "Frustration",
-                "Giga Drain",
-                "Giga Impact",
-                "Gunk Shot",
-                "Haze",
-                "Headbutt",
                 "Hidden Power",
-                "Hyper Beam",
-                "Ice Fang",
-                "Infestation",
-                "Iron Tail",
-                "Knock Off",
-                "Lash Out",
                 "Leech Life",
-                "Mega Drain",
-                "Mimic",
-                "Mud Shot",
-                "Mud-Slap",
                 "Natural Gift",
-                "Pain Split",
-                "Payback",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
                 "Psychic Fangs",
-                "Rage",
-                "Rain Dance",
-                "Rest",
-                "Return",
                 "Rock Slide",
                 "Rock Tomb",
-                "Round",
-                "Scale Shot",
-                "Scary Face",
-                "Secret Power",
-                "Seed Bomb",
-                "Skitter Smack",
-                "Skull Bash",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Snarl",
-                "Snatch",
-                "Snore",
-                "Spite",
-                "Stomping Tantrum",
                 "Strength",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder Fang",
-                "Torment",
                 "Toxic",
-                "Toxic Spikes",
-                "Trailblaze",
                 "Venoshock"
             ],
             "tutors":
@@ -102363,14 +102221,7 @@ backup_data = {
                 "Poison Jab"
             ],
             "egg":
-            [
-                "Poison Fang",
-                "Poison Tail",
-                "Scary Face",
-                "Spite",
-                "Sucker Punch",
-                "Switcheroo"
-            ]
+            []
         },
         "pikachu":
         {
@@ -102398,7 +102249,7 @@ backup_data = {
                 ],
                 [
                     13,
-                    "Electro Ball"
+                    "Spark"
                 ],
                 [
                     18,
@@ -102429,7 +102280,7 @@ backup_data = {
                     "Body Slam"
                 ],
                 [
-                    42,
+                    40,
                     "Thunderbolt"
                 ],
                 [
@@ -102451,92 +102302,23 @@ backup_data = {
             ],
             "tms":
             [
-                "Agility",
-                "Alluring Voice",
-                "Attract",
-                "Bide",
-                "Body Slam",
-                "Brick Break",
-                "Calm Mind",
-                "Captivate",
-                "Charge",
-                "Charge Beam",
-                "Charm",
-                "Confide",
-                "Curse",
-                "Defense Curl",
-                "Detect",
-                "Dig",
-                "Disarming Voice",
-                "Double-Edge",
-                "Double Team",
                 "Draining Kiss",
-                "Dynamic Punch",
-                "Echoed Voice",
-                "Eerie Impulse",
-                "Electric Terrain",
                 "Electroweb",
-                "Electro Ball",
-                "Encore",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Fake Tears",
                 "Flash",
-                "Fling",
-                "Focus Punch",
-                "Frustration",
-                "Grass Knot",
-                "Headbutt",
-                "Helping Hand",
+                "Fly",
                 "Hidden Power",
-                "Iron Tail",
-                "Knock Off",
-                "Light Screen",
-                "Mega Kick",
-                "Mega Punch",
-                "Mimic",
-                "Mud-Slap",
-                "Nasty Plot",
                 "Natural Gift",
                 "Pay Day",
                 "Play Rough",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Reversal",
                 "Rock Smash",
-                "Rollout",
-                "Round",
-                "Secret Power",
                 "Seismic Toss",
                 "Shock Wave",
-                "Skull Bash",
-                "Sleep Talk",
-                "Snore",
                 "Strength",
-                "Submission",
-                "Substitute",
                 "Surf",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
-                "Thunder Punch",
-                "Thunder Wave",
-                "Toxic",
-                "Trailblaze",
-                "Upper Hand",
-                "Uproar",
-                "Volt Switch",
-                "Wild Charge",
-                "Zap Cannon"
+                "Toxic"
             ],
             "tutors":
             [
@@ -102546,15 +102328,7 @@ backup_data = {
                 "Thunder Punch"
             ],
             "egg":
-            [
-                "Charge",
-                "Disarming Voice",
-                "Fake Out",
-                "Flail",
-                "Present",
-                "Tickle",
-                "Wish"
-            ]
+            []
         },
         "raichu":
         {
@@ -102613,120 +102387,45 @@ backup_data = {
                     "Body Slam"
                 ],
                 [
-                    44,
+                    40,
                     "Thunderbolt"
                 ],
                 [
-                    48,
+                    47,
                     "Surf"
                 ],
                 [
-                    54,
+                    50,
                     "Encore"
                 ],
                 [
-                    58,
+                    54,
                     "Extreme Speed"
                 ],
                 [
-                    64,
+                    60,
                     "Volt Tackle"
                 ]
             ],
             "tms":
             [
-                "Agility",
-                "Alluring Voice",
-                "Attract",
-                "Bide",
-                "Body Slam",
-                "Brick Break",
-                "Brutal Swing",
-                "Calm Mind",
-                "Captivate",
-                "Charge",
-                "Charge Beam",
-                "Charm",
-                "Confide",
-                "Curse",
-                "Defense Curl",
-                "Detect",
-                "Dig",
-                "Disarming Voice",
-                "Double-Edge",
-                "Double Team",
                 "Draining Kiss",
-                "Dynamic Punch",
-                "Echoed Voice",
-                "Eerie Impulse",
-                "Electric Terrain",
                 "Electroweb",
-                "Electro Ball",
-                "Encore",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Fake Tears",
                 "Flash",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
-                "Frustration",
-                "Giga Impact",
-                "Grass Knot",
-                "Headbutt",
-                "Helping Hand",
+                "Fly",
                 "Hidden Power",
-                "Hyper Beam",
-                "Iron Tail",
-                "Knock Off",
-                "Light Screen",
-                "Mega Kick",
-                "Mega Punch",
-                "Mimic",
-                "Mud-Slap",
-                "Nasty Plot",
                 "Natural Gift",
                 "Pay Day",
                 "Play Rough",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Reversal",
                 "Rock Smash",
-                "Rollout",
-                "Round",
-                "Safeguard",
-                "Secret Power",
                 "Seismic Toss",
                 "Shock Wave",
-                "Skull Bash",
-                "Sleep Talk",
-                "Snore",
-                "Speed Swap",
                 "Strength",
-                "Submission",
-                "Substitute",
                 "Surf",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
-                "Thunder Punch",
-                "Thunder Wave",
-                "Toxic",
-                "Trailblaze",
-                "Upper Hand",
-                "Uproar",
-                "Volt Switch",
-                "Wild Charge",
-                "Zap Cannon"
+                "Toxic"
             ],
             "tutors":
             [
@@ -102736,15 +102435,7 @@ backup_data = {
                 "Thunder Punch"
             ],
             "egg":
-            [
-                "Charge",
-                "Disarming Voice",
-                "Fake Out",
-                "Flail",
-                "Present",
-                "Tickle",
-                "Wish"
-            ]
+            []
         },
         "sandshrew":
         {
@@ -102818,106 +102509,32 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Agility",
-                "Amnesia",
-                "Attract",
-                "Bide",
-                "Body Slam",
-                "Brick Break",
-                "Bulldoze",
-                "Captivate",
-                "Confide",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Detect",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
-                "Dynamic Punch",
                 "Earthquake",
                 "Earth Power",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "False Swipe",
-                "Fissure",
-                "Fling",
-                "Focus Punch",
-                "Frustration",
-                "Fury Cutter",
-                "Gyro Ball",
-                "Headbutt",
                 "Hidden Power",
-                "High Horsepower",
-                "Hone Claws",
-                "Iron Tail",
-                "Knock Off",
                 "Leech Life",
-                "Low Kick",
-                "Metal Claw",
-                "Mimic",
-                "Mud Shot",
-                "Mud-Slap",
                 "Natural Gift",
                 "Poison Jab",
-                "Protect",
-                "Rage",
-                "Rest",
-                "Return",
                 "Rock Climb",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
-                "Rollout",
-                "Round",
-                "Safeguard",
-                "Sandstorm",
-                "Sand Tomb",
-                "Scorching Sands",
-                "Secret Power",
                 "Seismic Toss",
-                "Shadow Claw",
-                "Skull Bash",
-                "Sleep Talk",
-                "Smack Down",
-                "Snore",
-                "Spikes",
-                "Stealth Rock",
-                "Stomping Tantrum",
-                "Stone Edge",
                 "Strength",
-                "Submission",
-                "Substitute",
-                "Sunny Day",
-                "Super Fang",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
                 "Toxic",
-                "Work Up",
                 "X-Scissor"
             ],
             "tutors":
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
-            [
-                "Counter",
-                "Flail",
-                "Hone Claws",
-                "Metal Claw",
-                "Mud-Slap",
-                "Night Slash"
-            ]
+            []
         },
         "sandslash":
         {
@@ -102988,119 +102605,39 @@ backup_data = {
                     "Gyro Ball"
                 ],
                 [
-                    57,
+                    55,
                     "Earthquake"
                 ]
             ],
             "tms":
             [
                 "Aerial Ace",
-                "Agility",
-                "Amnesia",
-                "Attract",
-                "Bide",
-                "Body Slam",
-                "Brick Break",
-                "Bulldoze",
-                "Captivate",
-                "Confide",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Detect",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
-                "Drill Run",
-                "Dynamic Punch",
                 "Earthquake",
                 "Earth Power",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "False Swipe",
-                "Fissure",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
-                "Frustration",
-                "Fury Cutter",
-                "Giga Impact",
-                "Gunk Shot",
-                "Gyro Ball",
-                "Headbutt",
                 "Hidden Power",
-                "High Horsepower",
-                "Hone Claws",
-                "Hyper Beam",
-                "Iron Tail",
-                "Knock Off",
                 "Leech Life",
-                "Low Kick",
-                "Metal Claw",
-                "Mimic",
-                "Mud Shot",
-                "Mud-Slap",
                 "Natural Gift",
-                "Pin Missile",
                 "Poison Jab",
-                "Protect",
-                "Rage",
-                "Rest",
-                "Return",
                 "Rock Climb",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
-                "Rollout",
-                "Round",
-                "Safeguard",
-                "Sandstorm",
-                "Sand Tomb",
-                "Scorching Sands",
-                "Secret Power",
                 "Seismic Toss",
-                "Shadow Claw",
-                "Skull Bash",
-                "Sleep Talk",
-                "Smack Down",
-                "Snore",
-                "Spikes",
-                "Stealth Rock",
-                "Stomping Tantrum",
-                "Stone Edge",
                 "Strength",
-                "Submission",
-                "Substitute",
-                "Sunny Day",
-                "Super Fang",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
                 "Toxic",
-                "Work Up",
                 "X-Scissor"
             ],
             "tutors":
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
-            [
-                "Counter",
-                "Flail",
-                "Hone Claws",
-                "Metal Claw",
-                "Mud-Slap",
-                "Night Slash"
-            ]
+            []
         },
         "nidoranf":
         {
@@ -103162,66 +102699,20 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Beat Up",
-                "Bide",
-                "Blizzard",
-                "Body Slam",
-                "Captivate",
-                "Charm",
-                "Confide",
-                "Crunch",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Detect",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
                 "Earth Power",
-                "Echoed Voice",
-                "Endure",
                 "Facade",
-                "Focus Energy",
-                "Frustration",
-                "Headbutt",
-                "Helping Hand",
                 "Hidden Power",
-                "Hone Claws",
                 "Ice Beam",
-                "Iron Tail",
-                "Mimic",
-                "Mud-Slap",
                 "Natural Gift",
-                "Poison Jab",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Rock Smash",
-                "Round",
-                "Secret Power",
-                "Shadow Claw",
+                "Roar",
                 "Shock Wave",
-                "Skull Bash",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Snore",
                 "Strength",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Take Down",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
                 "Toxic",
-                "Toxic Spikes",
-                "Venom Drench",
-                "Venoshock",
-                "Water Pulse"
+                "Venoshock"
             ],
             "tutors":
             [
@@ -103231,19 +102722,7 @@ backup_data = {
                 "Thunder"
             ],
             "egg":
-            [
-                "Beat Up",
-                "Charm",
-                "Counter",
-                "Disable",
-                "Focus Energy",
-                "Poison Fang",
-                "Poison Tail",
-                "Skull Bash",
-                "Supersonic",
-                "Take Down",
-                "Venom Drench"
-            ]
+            []
         },
         "nidorina":
         {
@@ -103305,70 +102784,20 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Beat Up",
-                "Bide",
-                "Blizzard",
-                "Body Slam",
-                "Bubble Beam",
-                "Captivate",
-                "Charm",
-                "Confide",
-                "Crunch",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Detect",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
                 "Earth Power",
-                "Echoed Voice",
-                "Endure",
                 "Facade",
-                "Focus Energy",
-                "Frustration",
-                "Headbutt",
-                "Helping Hand",
                 "Hidden Power",
-                "Hone Claws",
-                "Horn Drill",
                 "Ice Beam",
-                "Iron Tail",
-                "Mimic",
-                "Mud-Slap",
                 "Natural Gift",
-                "Poison Jab",
-                "Protect",
-                "Rage",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Rock Smash",
-                "Round",
-                "Secret Power",
-                "Shadow Claw",
+                "Roar",
                 "Shock Wave",
-                "Skull Bash",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Snore",
-                "Stomping Tantrum",
                 "Strength",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Take Down",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
                 "Toxic",
-                "Toxic Spikes",
-                "Venom Drench",
-                "Venoshock",
-                "Water Gun",
-                "Water Pulse"
+                "Venoshock"
             ],
             "tutors":
             [
@@ -103378,19 +102807,7 @@ backup_data = {
                 "Thunder"
             ],
             "egg":
-            [
-                "Beat Up",
-                "Charm",
-                "Counter",
-                "Disable",
-                "Focus Energy",
-                "Poison Fang",
-                "Poison Tail",
-                "Skull Bash",
-                "Supersonic",
-                "Take Down",
-                "Venom Drench"
-            ]
+            []
         },
         "nidoqueen":
         {
@@ -103445,150 +102862,60 @@ backup_data = {
                     "Sludge Bomb"
                 ],
                 [
-                    37,
+                    36,
                     "Earth Power"
                 ],
                 [
-                    43,
+                    42,
                     "Super Fang"
                 ],
                 [
-                    49,
+                    47,
                     "Body Slam"
                 ],
                 [
-                    55,
+                    50,
                     "Crunch"
                 ],
                 [
-                    61,
+                    54,
                     "Sludge Wave"
                 ],
                 [
-                    65,
+                    60,
                     "Earthquake"
                 ]
             ],
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Avalanche",
-                "Beat Up",
-                "Bide",
-                "Blizzard",
                 "Body Press",
-                "Body Slam",
-                "Brick Break",
-                "Bubble Beam",
-                "Bulldoze",
-                "Captivate",
-                "Charm",
-                "Confide",
-                "Counter",
-                "Crunch",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Detect",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
                 "Dragon Pulse",
                 "Dragon Tail",
-                "Drill Run",
-                "Dynamic Punch",
                 "Earthquake",
                 "Earth Power",
-                "Echoed Voice",
-                "Endure",
                 "Facade",
-                "Fire Blast",
-                "Fire Punch",
-                "Fissure",
                 "Flamethrower",
-                "Fling",
-                "Focus Blast",
-                "Focus Energy",
-                "Focus Punch",
-                "Frustration",
-                "Fury Cutter",
-                "Giga Impact",
-                "Headbutt",
-                "Helping Hand",
-                "Hex",
                 "Hidden Power",
-                "High Horsepower",
-                "Hone Claws",
-                "Horn Drill",
-                "Hyper Beam",
                 "Ice Beam",
-                "Ice Punch",
                 "Icy Wind",
-                "Incinerate",
-                "Iron Tail",
-                "Mega Kick",
-                "Mega Punch",
-                "Mimic",
-                "Mud Shot",
-                "Mud-Slap",
                 "Natural Gift",
-                "Outrage",
-                "Pay Day",
-                "Poison Jab",
-                "Power-Up Punch",
-                "Protect",
-                "Quash",
-                "Rage",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Return",
                 "Roar",
                 "Rock Blast",
                 "Rock Climb",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
-                "Round",
-                "Sandstorm",
-                "Sand Tomb",
-                "Secret Power",
                 "Seismic Toss",
-                "Shadow Ball",
-                "Shadow Claw",
                 "Shock Wave",
-                "Skull Bash",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Smack Down",
-                "Snore",
-                "Stealth Rock",
-                "Stomping Tantrum",
-                "Stone Edge",
                 "Strength",
-                "Submission",
-                "Substitute",
-                "Sunny Day",
-                "Superpower",
                 "Surf",
                 "Swagger",
-                "Take Down",
-                "Taunt",
-                "Thief",
-                "Throat Chop",
-                "Thunder",
                 "Thunderbolt",
-                "Thunder Punch",
-                "Torment",
                 "Toxic",
-                "Toxic Spikes",
-                "Uproar",
-                "Venom Drench",
                 "Venoshock",
-                "Water Gun",
-                "Water Pulse",
                 "Whirlpool"
             ],
             "tutors":
@@ -103599,25 +102926,12 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder",
                 "Thunder Punch"
             ],
             "egg":
-            [
-                "Beat Up",
-                "Charm",
-                "Counter",
-                "Disable",
-                "Focus Energy",
-                "Poison Fang",
-                "Poison Tail",
-                "Skull Bash",
-                "Supersonic",
-                "Take Down",
-                "Venom Drench"
-            ]
+            []
         },
         "nidoranm":
         {
@@ -103686,7 +103000,6 @@ backup_data = {
                 "Body Slam",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Detect",
@@ -103833,7 +103146,6 @@ backup_data = {
                 "Bubble Beam",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Detect",
@@ -103963,27 +103275,27 @@ backup_data = {
                     "Poison Jab"
                 ],
                 [
-                    37,
+                    36,
                     "Drill Run"
                 ],
                 [
-                    43,
+                    42,
                     "Super Fang"
                 ],
                 [
-                    49,
+                    47,
                     "Thrash"
                 ],
                 [
-                    55,
+                    50,
                     "Megahorn"
                 ],
                 [
-                    61,
+                    54,
                     "Gunk Shot"
                 ],
                 [
-                    65,
+                    60,
                     "Earthquake"
                 ]
             ],
@@ -104003,7 +103315,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Detect",
@@ -104117,7 +103428,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder",
                 "Thunder Punch"
@@ -104208,11 +103518,11 @@ backup_data = {
                     "Encore"
                 ],
                 [
-                    50,
+                    48,
                     "Healing Wish"
                 ],
                 [
-                    55,
+                    50,
                     "Moonblast"
                 ]
             ],
@@ -104237,7 +103547,6 @@ backup_data = {
                 "Confide",
                 "Cosmic Power",
                 "Counter",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Detect",
@@ -104267,6 +103576,7 @@ backup_data = {
                 "Gravity",
                 "Headbutt",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hyper Voice",
                 "Ice Beam",
@@ -104431,7 +103741,7 @@ backup_data = {
                     "Gravity"
                 ],
                 [
-                    42,
+                    40,
                     "Dazzling Gleam"
                 ],
                 [
@@ -104443,11 +103753,11 @@ backup_data = {
                     "Encore"
                 ],
                 [
-                    55,
+                    52,
                     "Healing Wish"
                 ],
                 [
-                    60,
+                    54,
                     "Moonblast"
                 ]
             ],
@@ -104472,7 +103782,6 @@ backup_data = {
                 "Confide",
                 "Cosmic Power",
                 "Counter",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Detect",
@@ -104503,8 +103812,8 @@ backup_data = {
                 "Giga Impact",
                 "Grass Knot",
                 "Gravity",
-                "Headbutt",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hyper Beam",
                 "Hyper Voice",
@@ -104718,7 +104027,6 @@ backup_data = {
                 "Charm",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dig",
                 "Double-Edge",
@@ -104903,7 +104211,6 @@ backup_data = {
                 "Charm",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dig",
                 "Double-Edge",
@@ -105159,7 +104466,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Dark Pulse",
                 "Dazzling Gleam",
                 "Defense Curl",
@@ -105450,7 +104756,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Dark Pulse",
                 "Dazzling Gleam",
                 "Defense Curl",
@@ -105713,7 +105018,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double-Edge",
@@ -105762,14 +105066,14 @@ backup_data = {
                 "Venom Drench",
                 "Venoshock",
                 "Whirlwind",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Tailwind"
             ],
             "tutors":
             [],
             "egg":
             [
                 "Brave Bird",
-                "Curse",
                 "Gust",
                 "Hypnosis",
                 "Quick Attack",
@@ -105832,15 +105136,15 @@ backup_data = {
                     "Cross Poison"
                 ],
                 [
-                    44,
+                    40,
                     "Leech Life"
                 ],
                 [
-                    48,
+                    45,
                     "Sludge Bomb"
                 ],
                 [
-                    50,
+                    48,
                     "Brave Bird"
                 ]
             ],
@@ -105857,7 +105161,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double-Edge",
@@ -105909,14 +105212,14 @@ backup_data = {
                 "Venom Drench",
                 "Venoshock",
                 "Whirlwind",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Tailwind"
             ],
             "tutors":
             [],
             "egg":
             [
                 "Brave Bird",
-                "Curse",
                 "Gust",
                 "Hypnosis",
                 "Quick Attack",
@@ -105955,7 +105258,7 @@ backup_data = {
                     "Stun Spore"
                 ],
                 [
-                    15,
+                    17,
                     "Sleep Powder"
                 ],
                 [
@@ -105964,7 +105267,7 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Venoshock"
+                    "Sludge"
                 ],
                 [
                     27,
@@ -106004,7 +105307,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dazzling Gleam",
                 "Double-Edge",
@@ -106123,11 +105425,11 @@ backup_data = {
                     "Sludge Bomb"
                 ],
                 [
-                    49,
+                    47,
                     "Moonblast"
                 ],
                 [
-                    54,
+                    50,
                     "Moonlight"
                 ],
                 [
@@ -106144,7 +105446,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dazzling Gleam",
                 "Double-Edge",
@@ -106218,6 +105519,14 @@ backup_data = {
             [
                 [
                     1,
+                    "Solar Beam"
+                ],
+                [
+                    1,
+                    "Weather Ball"
+                ],
+                [
+                    1,
                     "Absorb"
                 ],
                 [
@@ -106241,7 +105550,7 @@ backup_data = {
                     "Stun Spore"
                 ],
                 [
-                    15,
+                    17,
                     "Sleep Powder"
                 ],
                 [
@@ -106265,19 +105574,23 @@ backup_data = {
                     "Toxic"
                 ],
                 [
-                    46,
+                    44,
                     "Sludge Bomb"
                 ],
                 [
-                    52,
+                    48,
                     "Moonblast"
                 ],
                 [
-                    58,
+                    51,
                     "Moonlight"
                 ],
                 [
-                    64,
+                    51,
+                    "Synthesis"
+                ],
+                [
+                    61,
                     "Solar Beam"
                 ]
             ],
@@ -106291,7 +105604,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dazzling Gleam",
                 "Double-Edge",
@@ -106436,7 +105748,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -106581,7 +105892,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -106726,7 +106036,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Endeavor",
@@ -106915,7 +106224,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Defog",
                 "Double-Edge",
                 "Double Team",
@@ -107091,7 +106399,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -107156,7 +106463,6 @@ backup_data = {
                 "Endure",
                 "Mimic",
                 "Mud-Slap",
-                "Rock Slide",
                 "Sleep Talk",
                 "Snore",
                 "Stealth Rock",
@@ -107282,7 +106588,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -107352,7 +106657,6 @@ backup_data = {
                 "Endure",
                 "Mimic",
                 "Mud-Slap",
-                "Rock Slide",
                 "Sleep Talk",
                 "Snore",
                 "Stealth Rock",
@@ -107462,7 +106766,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Defense Curl",
@@ -107711,7 +107014,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Defense Curl",
@@ -107923,7 +107225,6 @@ backup_data = {
                 "Confide",
                 "Confuse Ray",
                 "Counter",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Double-Edge",
@@ -108084,15 +107385,15 @@ backup_data = {
                     "Aqua Tail"
                 ],
                 [
-                    32,
+                    31,
                     "Soak"
                 ],
                 [
-                    38,
+                    36,
                     "Psychic"
                 ],
                 [
-                    42,
+                    40,
                     "Cross Chop"
                 ],
                 [
@@ -108100,7 +107401,7 @@ backup_data = {
                     "Ice Beam"
                 ],
                 [
-                    52,
+                    51,
                     "Hydro Pump"
                 ],
                 [
@@ -108125,7 +107426,6 @@ backup_data = {
                 "Confide",
                 "Confuse Ray",
                 "Counter",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Double-Edge",
@@ -108331,7 +107631,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Defense Curl",
                 "Detect",
                 "Dig",
@@ -108461,7 +107760,6 @@ backup_data = {
             [
                 "Beat Up",
                 "Counter",
-                "Curse",
                 "Encore",
                 "Night Slash",
                 "Spite"
@@ -108574,7 +107872,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Defense Curl",
                 "Detect",
                 "Dig",
@@ -108709,7 +108006,6 @@ backup_data = {
             [
                 "Beat Up",
                 "Counter",
-                "Curse",
                 "Encore",
                 "Night Slash",
                 "Spite"
@@ -108784,7 +108080,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -108910,11 +108205,11 @@ backup_data = {
                     "Flare Blitz"
                 ],
                 [
-                    52,
+                    51,
                     "Close Combat"
                 ],
                 [
-                    58,
+                    55,
                     "Outrage"
                 ],
                 [
@@ -108935,7 +108230,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -109108,7 +108402,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Dive",
@@ -109286,7 +108579,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Defense Curl",
                 "Detect",
                 "Dig",
@@ -109495,7 +108787,6 @@ backup_data = {
                 "Coaching",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Darkest Lariat",
                 "Defense Curl",
                 "Detect",
@@ -109647,7 +108938,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Dazzling Gleam",
                 "Double-Edge",
                 "Double Team",
@@ -109813,7 +109103,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Dazzling Gleam",
                 "Dig",
                 "Double-Edge",
@@ -109982,7 +109271,7 @@ backup_data = {
                     "Skill Swap"
                 ],
                 [
-                    49,
+                    48,
                     "Aura Sphere"
                 ],
                 [
@@ -110005,7 +109294,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Dazzling Gleam",
                 "Dig",
                 "Double-Edge",
@@ -110208,7 +109496,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Detect",
                 "Dig",
                 "Double-Edge",
@@ -110438,7 +109725,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Detect",
                 "Dig",
                 "Double-Edge",
@@ -110684,7 +109970,6 @@ backup_data = {
                 "Confide",
                 "Counter",
                 "Cross Poison",
-                "Curse",
                 "Darkest Lariat",
                 "Detect",
                 "Dig",
@@ -110873,10 +110158,6 @@ backup_data = {
                     "Toxic"
                 ],
                 [
-                    42,
-                    "Poison Jab"
-                ],
-                [
                     46,
                     "Leaf Blade"
                 ],
@@ -110893,7 +110174,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Double-Edge",
                 "Double Team",
@@ -111011,15 +110291,11 @@ backup_data = {
                     "Toxic"
                 ],
                 [
-                    44,
-                    "Poison Jab"
-                ],
-                [
-                    49,
+                    47,
                     "Leaf Blade"
                 ],
                 [
-                    54,
+                    50,
                     "Wring Out"
                 ]
             ],
@@ -111033,7 +110309,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Double-Edge",
                 "Double Team",
@@ -111169,23 +110444,19 @@ backup_data = {
                     "Toxic"
                 ],
                 [
-                    46,
-                    "Poison Jab"
-                ],
-                [
-                    52,
+                    48,
                     "Leaf Blade"
                 ],
                 [
-                    58,
+                    51,
                     "Wring Out"
                 ],
                 [
-                    64,
+                    55,
                     "Leaf Storm"
                 ],
                 [
-                    70,
+                    61,
                     "Gunk Shot"
                 ]
             ],
@@ -111199,7 +110470,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Double-Edge",
                 "Double Team",
@@ -111319,7 +110589,7 @@ backup_data = {
                     "Toxic"
                 ],
                 [
-                    31,
+                    30,
                     "Hex"
                 ],
                 [
@@ -111365,7 +110635,6 @@ backup_data = {
                 "Confide",
                 "Confuse Ray",
                 "Cross Poison",
-                "Curse",
                 "Cut",
                 "Dazzling Gleam",
                 "Dive",
@@ -111493,11 +110762,11 @@ backup_data = {
                     "Toxic"
                 ],
                 [
-                    32,
+                    30,
                     "Hex"
                 ],
                 [
-                    32,
+                    31,
                     "Venoshock"
                 ],
                 [
@@ -111517,11 +110786,11 @@ backup_data = {
                     "Sludge Bomb"
                 ],
                 [
-                    52,
+                    51,
                     "Hydro Pump"
                 ],
                 [
-                    56,
+                    55,
                     "Gunk Shot"
                 ]
             ],
@@ -111539,7 +110808,6 @@ backup_data = {
                 "Confide",
                 "Confuse Ray",
                 "Cross Poison",
-                "Curse",
                 "Cut",
                 "Dazzling Gleam",
                 "Dive",
@@ -111712,7 +110980,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double-Edge",
@@ -111783,13 +111050,11 @@ backup_data = {
                 "Brick Break",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Block",
-                "Curse",
                 "Dynamic Punch",
                 "Flail",
                 "Hammer Arm",
@@ -111854,23 +111119,23 @@ backup_data = {
                     "Rock Slide"
                 ],
                 [
-                    42,
+                    40,
                     "Earthquake"
                 ],
                 [
-                    48,
+                    47,
                     "Explosion"
                 ],
                 [
-                    51,
+                    50,
                     "Double-Edge"
                 ],
                 [
-                    57,
+                    54,
                     "Stone Edge"
                 ],
                 [
-                    61,
+                    60,
                     "Head Smash"
                 ]
             ],
@@ -111885,7 +111150,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double-Edge",
@@ -111960,13 +111224,11 @@ backup_data = {
                 "Brick Break",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Block",
-                "Curse",
                 "Dynamic Punch",
                 "Flail",
                 "Hammer Arm",
@@ -112043,23 +111305,23 @@ backup_data = {
                     "Rock Slide"
                 ],
                 [
-                    45,
+                    48,
                     "Earthquake"
                 ],
                 [
-                    53,
+                    51,
                     "Explosion"
                 ],
                 [
-                    57,
+                    54,
                     "Double-Edge"
                 ],
                 [
-                    65,
+                    61,
                     "Stone Edge"
                 ],
                 [
-                    70,
+                    65,
                     "Head Smash"
                 ]
             ],
@@ -112074,7 +111336,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double-Edge",
@@ -112109,6 +111370,7 @@ backup_data = {
                 "Mega Punch",
                 "Metronome",
                 "Mimic",
+                "Misty Explosion",
                 "Mud Shot",
                 "Mud-Slap",
                 "Natural Gift",
@@ -112154,13 +111416,11 @@ backup_data = {
                 "Brick Break",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Block",
-                "Curse",
                 "Dynamic Punch",
                 "Flail",
                 "Hammer Arm",
@@ -112236,7 +111496,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Echoed Voice",
@@ -112281,7 +111540,8 @@ backup_data = {
                 "Take Down",
                 "Toxic",
                 "Wild Charge",
-                "Will-O-Wisp"
+                "Will-O-Wisp",
+                "Temper Flare"
             ],
             "tutors":
             [
@@ -112360,7 +111620,7 @@ backup_data = {
                     "High Horsepower"
                 ],
                 [
-                    42,
+                    40,
                     "Jump Kick"
                 ],
                 [
@@ -112384,7 +111644,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Drill Run",
@@ -112438,7 +111697,8 @@ backup_data = {
                 "Throat Chop",
                 "Toxic",
                 "Wild Charge",
-                "Will-O-Wisp"
+                "Will-O-Wisp",
+                "Temper Flare"
             ],
             "tutors":
             [
@@ -112513,11 +111773,11 @@ backup_data = {
                     "Surf"
                 ],
                 [
-                    52,
+                    50,
                     "Psychic"
                 ],
                 [
-                    56,
+                    55,
                     "Future Sight"
                 ],
                 [
@@ -112525,7 +111785,7 @@ backup_data = {
                     "Heal Pulse"
                 ],
                 [
-                    65,
+                    66,
                     "Slack Off"
                 ]
             ],
@@ -112544,7 +111804,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Double-Edge",
@@ -112566,6 +111825,7 @@ backup_data = {
                 "Hail",
                 "Headbutt",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hydro Pump",
                 "Ice Beam",
@@ -112710,7 +111970,7 @@ backup_data = {
                     "Heal Pulse"
                 ],
                 [
-                    70,
+                    66,
                     "Slack Off"
                 ]
             ],
@@ -112733,7 +111993,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Double-Edge",
@@ -112762,6 +112021,7 @@ backup_data = {
                 "Hail",
                 "Headbutt",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hydro Pump",
                 "Hyper Beam",
@@ -112939,7 +112199,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Eerie Impulse",
@@ -113063,7 +112322,7 @@ backup_data = {
                     "Mirror Shot"
                 ],
                 [
-                    37,
+                    36,
                     "Electroweb"
                 ],
                 [
@@ -113094,7 +112353,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Eerie Impulse",
@@ -113276,7 +112534,6 @@ backup_data = {
                 "Captivate",
                 "Close Combat",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defog",
                 "Detect",
@@ -113366,7 +112623,6 @@ backup_data = {
             "egg":
             [
                 "Covet",
-                "Curse",
                 "Feather Dance",
                 "Feint",
                 "Final Gambit",
@@ -113462,7 +112718,6 @@ backup_data = {
                 "Brave Bird",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Echoed Voice",
@@ -113635,7 +112890,6 @@ backup_data = {
                 "Brave Bird",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Drill Run",
@@ -113808,7 +113062,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -113949,7 +113202,7 @@ backup_data = {
                     "Encore"
                 ],
                 [
-                    37,
+                    36,
                     "Drill Run"
                 ],
                 [
@@ -113965,7 +113218,7 @@ backup_data = {
                     "Aqua Tail"
                 ],
                 [
-                    49,
+                    48,
                     "Ice Beam"
                 ],
                 [
@@ -113991,7 +113244,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -114172,7 +113424,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dig",
                 "Double Team",
                 "Drain Punch",
@@ -114266,7 +113517,6 @@ backup_data = {
             "egg":
             [
                 "Acid Spray",
-                "Curse",
                 "Haze",
                 "Mean Look",
                 "Shadow Punch",
@@ -114371,7 +113621,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dig",
                 "Double Team",
@@ -114480,7 +113729,6 @@ backup_data = {
             "egg":
             [
                 "Acid Spray",
-                "Curse",
                 "Haze",
                 "Mean Look",
                 "Shadow Punch",
@@ -114574,7 +113822,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -114735,7 +113982,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -114760,6 +114006,7 @@ backup_data = {
                 "Light Screen",
                 "Liquidation",
                 "Mimic",
+                "Misty Explosion",
                 "Mud Shot",
                 "Natural Gift",
                 "Payback",
@@ -114805,7 +114052,6 @@ backup_data = {
                 "Blizzard",
                 "Headbutt",
                 "Hydro Pump",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -114898,7 +114144,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dazzling Gleam",
                 "Double Team",
@@ -115075,7 +114320,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dazzling Gleam",
                 "Double Team",
@@ -115300,6 +114544,7 @@ backup_data = {
                 "Mega Punch",
                 "Metronome",
                 "Mimic",
+                "Misty Explosion",
                 "Nasty Plot",
                 "Natural Gift",
                 "Nightmare",
@@ -115444,7 +114689,7 @@ backup_data = {
                     "Rock Slide"
                 ],
                 [
-                    37,
+                    36,
                     "Self-Destruct"
                 ],
                 [
@@ -115460,11 +114705,11 @@ backup_data = {
                     "Stone Edge"
                 ],
                 [
-                    52,
+                    50,
                     "Explosion"
                 ],
                 [
-                    57,
+                    54,
                     "Earthquake"
                 ]
             ],
@@ -115479,7 +114724,6 @@ backup_data = {
                 "Bulldoze",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -115605,11 +114849,11 @@ backup_data = {
                     "Wish"
                 ],
                 [
-                    37,
+                    36,
                     "Yawn"
                 ],
                 [
-                    41,
+                    40,
                     "Zen Headbutt"
                 ],
                 [
@@ -115617,15 +114861,15 @@ backup_data = {
                     "Swagger"
                 ],
                 [
-                    49,
-                    "Foul Play"
-                ],
-                [
-                    53,
+                    48,
                     "Psychic"
                 ],
                 [
-                    57,
+                    51,
+                    "Foul Play"
+                ],
+                [
+                    55,
                     "Future Sight"
                 ],
                 [
@@ -115643,7 +114887,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Dazzling Gleam",
                 "Double-Edge",
                 "Double Team",
@@ -115808,19 +115051,19 @@ backup_data = {
                     "Swagger"
                 ],
                 [
+                    51,
+                    "Psychic"
+                ],
+                [
                     55,
                     "Foul Play"
                 ],
                 [
-                    60,
-                    "Psychic"
-                ],
-                [
-                    65,
+                    61,
                     "Future Sight"
                 ],
                 [
-                    70,
+                    66,
                     "Dark Void"
                 ]
             ],
@@ -115837,7 +115080,6 @@ backup_data = {
                 "Confide",
                 "Confuse Ray",
                 "Counter",
-                "Curse",
                 "Dazzling Gleam",
                 "Double-Edge",
                 "Double Team",
@@ -116028,7 +115270,6 @@ backup_data = {
                 "Bubble Beam",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Dive",
@@ -116149,11 +115390,11 @@ backup_data = {
                     "Protect"
                 ],
                 [
-                    32,
+                    31,
                     "Razor Shell"
                 ],
                 [
-                    37,
+                    36,
                     "X-Scissor"
                 ],
                 [
@@ -116165,7 +115406,7 @@ backup_data = {
                     "Hammer Arm"
                 ],
                 [
-                    52,
+                    51,
                     "Crabhammer"
                 ]
             ],
@@ -116184,7 +115425,6 @@ backup_data = {
                 "Bubble Beam",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Dive",
@@ -116346,7 +115586,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Eerie Impulse",
@@ -116516,7 +115755,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Eerie Impulse",
@@ -116645,7 +115883,7 @@ backup_data = {
                     "Wood Hammer"
                 ],
                 [
-                    42,
+                    40,
                     "Psychic"
                 ],
                 [
@@ -116668,7 +115906,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Dream Eater",
@@ -116691,6 +115928,7 @@ backup_data = {
                 "Leaf Storm",
                 "Light Screen",
                 "Mega Drain",
+                "Misty Explosion",
                 "Mimic",
                 "Natural Gift",
                 "Nature Power",
@@ -116741,7 +115979,6 @@ backup_data = {
                 "Poison Powder",
                 "Stun Spore",
                 "Sleep Powder",
-                "Curse",
                 "Moonlight",
                 "Ancient Power",
                 "Ingrain",
@@ -116801,11 +116038,11 @@ backup_data = {
                     "Leaf Storm"
                 ],
                 [
-                    58,
+                    55,
                     "Synthesis"
                 ],
                 [
-                    62,
+                    61,
                     "Explosion"
                 ]
             ],
@@ -116819,7 +116056,6 @@ backup_data = {
                 "Calm Mind",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Dream Eater",
@@ -116851,6 +116087,7 @@ backup_data = {
                 "Magical Leaf",
                 "Mega Drain",
                 "Mimic",
+                "Misty Explosion",
                 "Natural Gift",
                 "Nature Power",
                 "Nightmare",
@@ -116902,7 +116139,6 @@ backup_data = {
             [
                 "Ancient Power",
                 "Block",
-                "Curse",
                 "Grassy Terrain",
                 "Ingrain",
                 "Leaf Storm",
@@ -117002,7 +116238,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Detect",
                 "Dig",
                 "Double-Edge",
@@ -117112,7 +116347,6 @@ backup_data = {
             [
                 "Ancient Power",
                 "Belly Drum",
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Iron Head",
@@ -117225,7 +116459,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Detect",
                 "Dig",
                 "Double-Edge",
@@ -117344,7 +116577,6 @@ backup_data = {
             [
                 "Ancient Power",
                 "Belly Drum",
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Iron Head",
@@ -117395,7 +116627,7 @@ backup_data = {
                     "Double-Edge"
                 ],
                 [
-                    41,
+                    40,
                     "Blaze Kick"
                 ],
                 [
@@ -117407,7 +116639,7 @@ backup_data = {
                     "Laser Focus"
                 ],
                 [
-                    56,
+                    55,
                     "Jump Kick"
                 ],
                 [
@@ -117415,11 +116647,11 @@ backup_data = {
                     "Close Combat"
                 ],
                 [
-                    66,
+                    64,
                     "Bounce"
                 ],
                 [
-                    70,
+                    66,
                     "High Jump Kick"
                 ]
             ],
@@ -117440,7 +116672,6 @@ backup_data = {
                 "Coaching",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Detect",
                 "Double-Edge",
                 "Double Team",
@@ -117514,7 +116745,6 @@ backup_data = {
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -117559,15 +116789,15 @@ backup_data = {
                     "Dizzy Punch"
                 ],
                 [
-                    32,
+                    30,
                     "Thunder Punch"
                 ],
                 [
-                    32,
+                    30,
                     "Ice Punch"
                 ],
                 [
-                    32,
+                    30,
                     "Fire Punch"
                 ],
                 [
@@ -117575,7 +116805,7 @@ backup_data = {
                     "Sky Uppercut"
                 ],
                 [
-                    42,
+                    40,
                     "Mega Punch"
                 ],
                 [
@@ -117583,7 +116813,7 @@ backup_data = {
                     "Bullet Punch"
                 ],
                 [
-                    52,
+                    51,
                     "Throat Chop"
                 ],
                 [
@@ -117611,7 +116841,6 @@ backup_data = {
                 "Coaching",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Detect",
                 "Double-Edge",
                 "Double Team",
@@ -117690,7 +116919,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -117794,7 +117022,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Dig",
@@ -117930,7 +117157,6 @@ backup_data = {
                 "Belch",
                 "Belly Drum",
                 "Body Slam",
-                "Curse",
                 "Hammer Arm",
                 "Muddy Water",
                 "Snore",
@@ -117987,7 +117213,7 @@ backup_data = {
                     "Self-Destruct"
                 ],
                 [
-                    37,
+                    36,
                     "Will-O-Wisp"
                 ],
                 [
@@ -118012,7 +117238,6 @@ backup_data = {
                 "Body Slam",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dark Pulse",
                 "Double Team",
                 "Endure",
@@ -118030,6 +117255,7 @@ backup_data = {
                 "Incinerate",
                 "Infestation",
                 "Mimic",
+                "Misty Explosion",
                 "Natural Gift",
                 "Pain Split",
                 "Payback",
@@ -118077,7 +117303,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Pain Split",
                 "Spit Up",
                 "Spite",
@@ -118138,11 +117363,11 @@ backup_data = {
                     "Self-Destruct"
                 ],
                 [
-                    38,
+                    36,
                     "Will-O-Wisp"
                 ],
                 [
-                    42,
+                    40,
                     "Sludge Bomb"
                 ],
                 [
@@ -118167,7 +117392,6 @@ backup_data = {
                 "Body Slam",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dark Pulse",
                 "Double Team",
                 "Endure",
@@ -118188,6 +117412,7 @@ backup_data = {
                 "Incinerate",
                 "Infestation",
                 "Mimic",
+                "Misty Explosion",
                 "Natural Gift",
                 "Pain Split",
                 "Payback",
@@ -118235,7 +117460,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Pain Split",
                 "Spit Up",
                 "Spite",
@@ -118288,27 +117512,27 @@ backup_data = {
                     "Drill Run"
                 ],
                 [
-                    37,
+                    36,
                     "Rock Slide"
                 ],
                 [
-                    41,
+                    39,
                     "Double-Edge"
                 ],
                 [
-                    45,
+                    40,
                     "High Horsepower"
                 ],
                 [
-                    49,
+                    47,
                     "Megahorn"
                 ],
                 [
-                    53,
+                    50,
                     "Stone Edge"
                 ],
                 [
-                    57,
+                    54,
                     "Earthquake"
                 ],
                 [
@@ -118327,7 +117551,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -118410,14 +117633,12 @@ backup_data = {
                 "Blizzard",
                 "Fire Blast",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder"
             ],
             "egg":
             [
                 "Counter",
-                "Curse",
                 "Metal Burst",
                 "Rock Polish",
                 "Dragon Rush",
@@ -118489,7 +117710,7 @@ backup_data = {
                     "Megahorn"
                 ],
                 [
-                    56,
+                    55,
                     "Stone Edge"
                 ],
                 [
@@ -118518,7 +117739,6 @@ backup_data = {
                 "Confide",
                 "Counter",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -118633,7 +117853,6 @@ backup_data = {
                 "Headbutt",
                 "Hydro Pump",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder",
                 "Thunder Punch"
@@ -118643,7 +117862,6 @@ backup_data = {
                 "Counter",
                 "Crunch",
                 "Crush Claw",
-                "Curse",
                 "Dragon Rush",
                 "Fire Fang",
                 "Guard Split",
@@ -118788,7 +118006,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Disarming Voice",
@@ -119070,7 +118287,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Double-Edge",
                 "Double Team",
@@ -119274,7 +118490,6 @@ backup_data = {
                 "Confide",
                 "Counter",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -119284,6 +118499,7 @@ backup_data = {
                 "Earthquake",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Blast",
                 "Fire Punch",
                 "Fissure",
@@ -119366,7 +118582,6 @@ backup_data = {
                 "Headbutt",
                 "Hydro Pump",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -119449,7 +118664,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -119550,7 +118764,7 @@ backup_data = {
                     "Octazooka"
                 ],
                 [
-                    38,
+                    36,
                     "Waterfall"
                 ],
                 [
@@ -119558,7 +118772,7 @@ backup_data = {
                     "Dragon Pulse"
                 ],
                 [
-                    52,
+                    51,
                     "Ice Beam"
                 ],
                 [
@@ -119578,7 +118792,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -119722,7 +118935,6 @@ backup_data = {
                 "Bubble Beam",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -119894,7 +119106,6 @@ backup_data = {
                 "Bubble Beam",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -120037,7 +119248,7 @@ backup_data = {
                     "Spotlight"
                 ],
                 [
-                    37,
+                    38,
                     "Power Gem"
                 ],
                 [
@@ -120053,7 +119264,7 @@ backup_data = {
                     "Recover"
                 ],
                 [
-                    49,
+                    48,
                     "Psychic"
                 ],
                 [
@@ -120070,7 +119281,6 @@ backup_data = {
                 "Bubble Beam",
                 "Confide",
                 "Cosmic Power",
-                "Curse",
                 "Dazzling Gleam",
                 "Dive",
                 "Double-Edge",
@@ -120210,15 +119420,15 @@ backup_data = {
                     "Ice Beam"
                 ],
                 [
-                    52,
+                    51,
                     "Recover"
                 ],
                 [
-                    56,
+                    53,
                     "Psychic"
                 ],
                 [
-                    61,
+                    55,
                     "Hydro Pump"
                 ]
             ],
@@ -120234,7 +119444,6 @@ backup_data = {
                 "Bubble Beam",
                 "Confide",
                 "Cosmic Power",
-                "Curse",
                 "Dazzling Gleam",
                 "Dive",
                 "Double-Edge",
@@ -120465,7 +119674,6 @@ backup_data = {
                 "Charm",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Dazzling Gleam",
                 "Double-Edge",
                 "Double Team",
@@ -120696,11 +119904,11 @@ backup_data = {
                     "X-Scissor"
                 ],
                 [
-                    55,
+                    53,
                     "Night Slash"
                 ],
                 [
-                    60,
+                    55,
                     "Thrash"
                 ]
             ],
@@ -120723,7 +119931,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Cross Poison",
-                "Curse",
                 "Cut",
                 "Defog",
                 "Detect",
@@ -120857,7 +120064,7 @@ backup_data = {
                     "Psychic"
                 ],
                 [
-                    49,
+                    48,
                     "Lovely Kiss"
                 ],
                 [
@@ -120881,7 +120088,6 @@ backup_data = {
                 "Charm",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Draining Kiss",
@@ -121038,7 +120244,7 @@ backup_data = {
                     "Cross Chop"
                 ],
                 [
-                    49,
+                    48,
                     "Wild Charge"
                 ],
                 [
@@ -121058,7 +120264,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Counter",
-                "Curse",
                 "Detect",
                 "Double-Edge",
                 "Double Team",
@@ -121187,11 +120392,11 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Lava Plume"
+                    "Toxic"
                 ],
                 [
-                    26,
-                    "Toxic"
+                    27,
+                    "Lava Plume"
                 ],
                 [
                     29,
@@ -121210,7 +120415,7 @@ backup_data = {
                     "Slack Off"
                 ],
                 [
-                    49,
+                    48,
                     "Will-O-Wisp"
                 ],
                 [
@@ -121230,13 +120435,13 @@ backup_data = {
                 "Confide",
                 "Confuse Ray",
                 "Counter",
-                "Curse",
                 "Detect",
                 "Double-Edge",
                 "Double Team",
                 "Dynamic Punch",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Blast",
                 "Fire Punch",
                 "Fire Spin",
@@ -121310,7 +120515,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -121389,7 +120593,7 @@ backup_data = {
                     "Superpower"
                 ],
                 [
-                    56,
+                    55,
                     "Body Slam"
                 ],
                 [
@@ -121409,7 +120613,6 @@ backup_data = {
                 "Captivate",
                 "Close Combat",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -121418,6 +120621,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Fling",
                 "Focus Blast",
                 "Focus Energy",
@@ -121541,11 +120745,11 @@ backup_data = {
                     "Take Down"
                 ],
                 [
-                    37,
+                    36,
                     "Stomping Tantrum"
                 ],
                 [
-                    41,
+                    40,
                     "Strength"
                 ],
                 [
@@ -121553,15 +120757,15 @@ backup_data = {
                     "Lash Out"
                 ],
                 [
-                    49,
+                    48,
                     "Thrash"
                 ],
                 [
-                    53,
+                    51,
                     "Earthquake"
                 ],
                 [
-                    57,
+                    54,
                     "Head Charge"
                 ]
             ],
@@ -121576,7 +120780,6 @@ backup_data = {
                 "Captivate",
                 "Close Combat",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -121657,12 +120860,10 @@ backup_data = {
                 "Blizzard",
                 "Fire Blast",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder"
             ],
             "egg":
             [
-                "Curse",
                 "Endeavor"
             ]
         },
@@ -121740,11 +120941,11 @@ backup_data = {
                 ],
                 [
                     34,
-                    "Crunch"
+                    "Take Down"
                 ],
                 [
                     38,
-                    "Take Down"
+                    "Crunch"
                 ],
                 [
                     42,
@@ -121755,7 +120956,7 @@ backup_data = {
                     "Hydro Pump"
                 ],
                 [
-                    49,
+                    48,
                     "Waterfall"
                 ],
                 [
@@ -121763,7 +120964,7 @@ backup_data = {
                     "Outrage"
                 ],
                 [
-                    57,
+                    55,
                     "Bounce"
                 ],
                 [
@@ -121771,7 +120972,7 @@ backup_data = {
                     "Thrash"
                 ],
                 [
-                    63,
+                    61,
                     "Aqua Tail"
                 ],
                 [
@@ -121795,7 +120996,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Dive",
                 "Double-Edge",
@@ -121893,15 +121093,23 @@ backup_data = {
             [
                 [
                     1,
+                    "Sparkling Aria"
+                ],
+                [
+                    1,
+                    "Alluring Voice"
+                ],
+                [
+                    1,
+                    "Freeze-Dry"
+                ],
+                [
+                    1,
                     "Growl"
                 ],
                 [
                     1,
                     "Water Gun"
-                ],
-                [
-                    1,
-                    "Sing"
                 ],
                 [
                     5,
@@ -121936,10 +121144,6 @@ backup_data = {
                     "Brine"
                 ],
                 [
-                    36,
-                    "Rain Dance"
-                ],
-                [
                     38,
                     "Ice Beam"
                 ],
@@ -121952,11 +121156,19 @@ backup_data = {
                     "Perish Song"
                 ],
                 [
+                    48,
+                    "Icicle Spear"
+                ],
+                [
                     51,
                     "Hydro Pump"
                 ],
                 [
-                    58,
+                    54,
+                    "Liquidation"
+                ],
+                [
+                    56,
                     "Sheer Cold"
                 ]
             ],
@@ -121977,7 +121189,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Disarming Voice",
                 "Dive",
                 "Double-Edge",
@@ -122070,7 +121281,6 @@ backup_data = {
             [
                 "Horn Drill",
                 "Fissure",
-                "Curse",
                 "Ancient Power",
                 "Tickle",
                 "Freeze-Dry",
@@ -122181,7 +121391,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Detect",
                 "Dig",
                 "Double-Edge",
@@ -122255,7 +121464,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Flail",
@@ -122369,7 +121577,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Detect",
                 "Dig",
                 "Dive",
@@ -122472,7 +121679,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Flail",
@@ -122589,7 +121795,6 @@ backup_data = {
                 "Charge Beam",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Detect",
                 "Dig",
                 "Double-Edge",
@@ -122696,7 +121901,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Flail",
@@ -122811,7 +122015,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Detect",
                 "Dig",
                 "Double-Edge",
@@ -122917,7 +122120,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Flail",
@@ -122976,15 +122178,15 @@ backup_data = {
                     "Tri Attack"
                 ],
                 [
-                    50,
+                    48,
                     "Thunder Wave"
                 ],
                 [
-                    56,
+                    54,
                     "Thunderbolt"
                 ],
                 [
-                    62,
+                    55,
                     "Hyper Beam"
                 ]
             ],
@@ -122998,7 +122200,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Dream Eater",
@@ -123120,7 +122321,7 @@ backup_data = {
                     "Protect"
                 ],
                 [
-                    50,
+                    48,
                     "Power Gem"
                 ],
                 [
@@ -123138,7 +122339,6 @@ backup_data = {
                 "Bubble Beam",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -123268,11 +122468,11 @@ backup_data = {
                     "Protect"
                 ],
                 [
-                    54,
+                    48,
                     "Power Gem"
                 ],
                 [
-                    60,
+                    55,
                     "Hydro Pump"
                 ]
             ],
@@ -123287,7 +122487,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -123442,7 +122641,6 @@ backup_data = {
                 "Bubble Beam",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -123595,7 +122793,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Cross Poison",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Dive",
@@ -123781,7 +122978,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double-Edge",
@@ -123852,7 +123048,8 @@ backup_data = {
                 "Thunder Fang",
                 "Torment",
                 "Toxic",
-                "Whirlwind"
+                "Whirlwind",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -123863,7 +123060,6 @@ backup_data = {
             "egg":
             [
                 "Assurance",
-                "Curse",
                 "Dragon Breath",
                 "Tailwind",
                 "Whirlwind",
@@ -124020,7 +123216,6 @@ backup_data = {
                 "Confide",
                 "Counter",
                 "Crunch",
-                "Curse",
                 "Darkest Lariat",
                 "Defense Curl",
                 "Dig",
@@ -124183,7 +123378,6 @@ backup_data = {
             [
                 "Belch",
                 "Counter",
-                "Curse",
                 "Double-Edge",
                 "Fissure"
             ]
@@ -124278,7 +123472,6 @@ backup_data = {
                 "Brave Bird",
                 "Bubble Beam",
                 "Confide",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double-Edge",
@@ -124458,7 +123651,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double-Edge",
@@ -124653,7 +123845,6 @@ backup_data = {
                 "Brave Bird",
                 "Burning Jealousy",
                 "Confide",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double-Edge",
@@ -124809,7 +124000,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Detect",
                 "Double-Edge",
                 "Double Team",
@@ -124958,7 +124148,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Detect",
                 "Double-Edge",
                 "Double Team",
@@ -125132,7 +124321,7 @@ backup_data = {
                     "Draco Meteor"
                 ],
                 [
-                    70,
+                    66,
                     "Dual Wingbeat"
                 ]
             ],
@@ -125155,7 +124344,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defog",
                 "Detect",
@@ -125261,7 +124449,8 @@ backup_data = {
                 "Water Pulse",
                 "Weather Ball",
                 "Whirlpool",
-                "Zap Cannon"
+                "Zap Cannon",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -125273,7 +124462,6 @@ backup_data = {
                 "Hurricane",
                 "Hydro Pump",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -125410,7 +124598,6 @@ backup_data = {
                 "Confide",
                 "Confuse Ray",
                 "Counter",
-                "Curse",
                 "Dark Pulse",
                 "Detect",
                 "Dive",
@@ -125647,8 +124834,12 @@ backup_data = {
                     "Aura Sphere"
                 ],
                 [
-                    90,
+                    80,
                     "Me First"
+                ],
+                [
+                    82,
+                    "Transform"
                 ]
             ],
             "tms":
@@ -125702,7 +124893,6 @@ backup_data = {
                 "Counter",
                 "Cross Poison",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Darkest Lariat",
                 "Dark Pulse",
@@ -125748,6 +124938,7 @@ backup_data = {
                 "Fake Tears",
                 "False Swipe",
                 "Feather Dance",
+                "Feint Attack",
                 "Fire Blast",
                 "Fire Fang",
                 "Fire Pledge",
@@ -126005,7 +125196,6 @@ backup_data = {
                 "Hurricane",
                 "Hydro Pump",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder",
                 "Thunder Punch"
@@ -126090,7 +125280,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Detect",
                 "Double-Edge",
@@ -126110,6 +125299,7 @@ backup_data = {
                 "Grass Pledge",
                 "Headbutt",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Iron Tail",
                 "Leaf Storm",
@@ -126232,7 +125422,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Detect",
                 "Double-Edge",
@@ -126253,6 +125442,7 @@ backup_data = {
                 "Grass Pledge",
                 "Headbutt",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Iron Tail",
                 "Knock Off",
@@ -126365,11 +125555,11 @@ backup_data = {
                     "Energy Ball"
                 ],
                 [
-                    49,
+                    48,
                     "Aromatherapy"
                 ],
                 [
-                    52,
+                    51,
                     "Grass Whistle"
                 ],
                 [
@@ -126387,7 +125577,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Detect",
                 "Double-Edge",
@@ -126411,8 +125600,8 @@ backup_data = {
                 "Grassy Terrain",
                 "Grass Knot",
                 "Grass Pledge",
-                "Headbutt",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hyper Beam",
                 "Iron Tail",
@@ -126519,23 +125708,23 @@ backup_data = {
                     "Lava Plume"
                 ],
                 [
-                    37,
+                    35,
                     "Nature Power"
                 ],
                 [
-                    40,
+                    37,
                     "Extrasensory"
                 ],
                 [
-                    45,
+                    47,
                     "Wild Charge"
                 ],
                 [
-                    50,
+                    51,
                     "Flamethrower"
                 ],
                 [
-                    56,
+                    54,
                     "Double-Edge"
                 ],
                 [
@@ -126543,7 +125732,7 @@ backup_data = {
                     "Burn Up"
                 ],
                 [
-                    64,
+                    66,
                     "Eruption"
                 ]
             ],
@@ -126555,7 +125744,6 @@ backup_data = {
                 "Burning Jealousy",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Detect",
@@ -126615,7 +125803,6 @@ backup_data = {
             "egg":
             [
                 "Covet",
-                "Curse",
                 "Double Kick",
                 "Extrasensory",
                 "Howl",
@@ -126663,31 +125850,31 @@ backup_data = {
                     "Lava Plume"
                 ],
                 [
-                    39,
+                    36,
                     "Nature Power"
                 ],
                 [
-                    42,
+                    38,
                     "Extrasensory"
                 ],
                 [
-                    48,
+                    47,
                     "Wild Charge"
                 ],
                 [
-                    53,
+                    51,
                     "Flamethrower"
                 ],
                 [
-                    59,
+                    54,
                     "Double-Edge"
                 ],
                 [
-                    65,
+                    61,
                     "Burn Up"
                 ],
                 [
-                    69,
+                    66,
                     "Eruption"
                 ]
             ],
@@ -126700,7 +125887,6 @@ backup_data = {
                 "Burning Jealousy",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Detect",
@@ -126765,7 +125951,6 @@ backup_data = {
             "egg":
             [
                 "Covet",
-                "Curse",
                 "Double Kick",
                 "Extrasensory",
                 "Howl",
@@ -126813,31 +125998,31 @@ backup_data = {
                     "Lava Plume"
                 ],
                 [
-                    40,
+                    38,
                     "Nature Power"
                 ],
                 [
-                    44,
+                    40,
                     "Extrasensory"
                 ],
                 [
-                    51,
+                    47,
                     "Wild Charge"
                 ],
                 [
-                    57,
+                    51,
                     "Flamethrower"
                 ],
                 [
-                    64,
+                    54,
                     "Double-Edge"
                 ],
                 [
-                    71,
+                    61,
                     "Burn Up"
                 ],
                 [
-                    76,
+                    66,
                     "Eruption"
                 ]
             ],
@@ -126852,7 +126037,6 @@ backup_data = {
                 "Burning Jealousy",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Detect",
@@ -126935,13 +126119,11 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Covet",
-                "Curse",
                 "Double Kick",
                 "Extrasensory",
                 "Howl",
@@ -126993,7 +126175,7 @@ backup_data = {
                     "Ice Punch"
                 ],
                 [
-                    36,
+                    35,
                     "Aqua Tail"
                 ],
                 [
@@ -127001,7 +126183,7 @@ backup_data = {
                     "Flail"
                 ],
                 [
-                    44,
+                    46,
                     "Aqua Jet"
                 ],
                 [
@@ -127009,11 +126191,11 @@ backup_data = {
                     "Superpower"
                 ],
                 [
-                    52,
+                    50,
                     "Liquidation"
                 ],
                 [
-                    55,
+                    50,
                     "Hydro Pump"
                 ]
             ],
@@ -127028,7 +126210,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Detect",
                 "Dig",
@@ -127159,7 +126340,7 @@ backup_data = {
                     "Aqua Tail"
                 ],
                 [
-                    42,
+                    40,
                     "Flail"
                 ],
                 [
@@ -127167,15 +126348,15 @@ backup_data = {
                     "Aqua Jet"
                 ],
                 [
-                    50,
+                    48,
                     "Superpower"
                 ],
                 [
-                    55,
+                    54,
                     "Liquidation"
                 ],
                 [
-                    60,
+                    54,
                     "Hydro Pump"
                 ]
             ],
@@ -127190,7 +126371,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Detect",
                 "Dig",
@@ -127344,11 +126524,11 @@ backup_data = {
                     "Superpower"
                 ],
                 [
-                    58,
+                    55,
                     "Liquidation"
                 ],
                 [
-                    62,
+                    55,
                     "Hydro Pump"
                 ]
             ],
@@ -127367,7 +126547,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Detect",
                 "Dig",
@@ -127553,7 +126732,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Detect",
@@ -127691,27 +126869,27 @@ backup_data = {
                     "Double Hit"
                 ],
                 [
-                    32,
+                    31,
                     "Sucker Punch"
                 ],
                 [
-                    36,
+                    35,
                     "Play Rough"
                 ],
                 [
-                    42,
+                    36,
                     "Acrobatics"
                 ],
                 [
-                    46,
+                    40,
                     "Extreme Speed"
                 ],
                 [
-                    50,
+                    45,
                     "Me First"
                 ],
                 [
-                    56,
+                    48,
                     "Last Resort"
                 ]
             ],
@@ -127730,7 +126908,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Detect",
@@ -127904,7 +127081,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double Team",
@@ -128079,7 +127255,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double-Edge",
@@ -128251,7 +127426,6 @@ backup_data = {
                 "Bug Buzz",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double Team",
                 "Drain Punch",
@@ -128293,7 +127467,8 @@ backup_data = {
                 "Thief",
                 "Thunder Punch",
                 "Toxic",
-                "U-turn"
+                "U-turn",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -128367,15 +127542,15 @@ backup_data = {
                     "Encore"
                 ],
                 [
-                    42,
+                    40,
                     "Air Slash"
                 ],
                 [
-                    48,
+                    44,
                     "Bug Buzz"
                 ],
                 [
-                    55,
+                    48,
                     "U-turn"
                 ]
             ],
@@ -128388,7 +127563,7 @@ backup_data = {
                 "Bug Buzz",
                 "Captivate",
                 "Confide",
-                "Curse",
+                "Defog",
                 "Dig",
                 "Double Team",
                 "Drain Punch",
@@ -128435,7 +127610,8 @@ backup_data = {
                 "Thief",
                 "Thunder Punch",
                 "Toxic",
-                "U-turn"
+                "U-turn",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -128531,7 +127707,6 @@ backup_data = {
                 "Bug Buzz",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double Team",
                 "Electroweb",
@@ -128665,16 +127840,20 @@ backup_data = {
                     "Lunge"
                 ],
                 [
-                    37,
+                    36,
                     "Cross Poison"
                 ],
                 [
-                    41,
+                    40,
                     "Leech Life"
                 ],
                 [
                     44,
                     "Toxic Thread"
+                ],
+                [
+                    48,
+                    "Megahorn"
                 ]
             ],
             "tms":
@@ -128687,7 +127866,6 @@ backup_data = {
                 "Bug Buzz",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double Team",
                 "Electroweb",
@@ -128810,15 +127988,15 @@ backup_data = {
                     "Cross Poison"
                 ],
                 [
-                    45,
+                    40,
                     "Leech Life"
                 ],
                 [
-                    50,
+                    45,
                     "Sludge Bomb"
                 ],
                 [
-                    55,
+                    48,
                     "Brave Bird"
                 ]
             ],
@@ -128835,7 +128013,6 @@ backup_data = {
                 "Confide",
                 "Cross Poison",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Defog",
                 "Detect",
@@ -128892,7 +128069,6 @@ backup_data = {
             "egg":
             [
                 "Brave Bird",
-                "Curse",
                 "Gust",
                 "Hypnosis",
                 "Quick Attack",
@@ -128985,7 +128161,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dazzling Gleam",
                 "Dive",
                 "Double-Edge",
@@ -129133,7 +128308,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dazzling Gleam",
                 "Dive",
                 "Double-Edge",
@@ -129233,7 +128407,6 @@ backup_data = {
                 "Charge Beam",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Detect",
                 "Disarming Voice",
@@ -129350,7 +128523,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Detect",
@@ -129544,7 +128716,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Detect",
@@ -129711,23 +128882,23 @@ backup_data = {
                     "Ancient Power"
                 ],
                 [
-                    37,
+                    39,
                     "Draining Kiss"
                 ],
                 [
-                    41,
+                    43,
                     "Safeguard"
                 ],
                 [
-                    45,
+                    46,
                     "After You"
                 ],
                 [
-                    49,
+                    48,
                     "Extreme Speed"
                 ],
                 [
-                    53,
+                    54,
                     "Dazzling Gleam"
                 ]
             ],
@@ -129739,7 +128910,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Detect",
@@ -129862,27 +129032,27 @@ backup_data = {
                     "Follow Me"
                 ],
                 [
-                    39,
+                    36,
                     "Dual Wingbeat"
                 ],
                 [
-                    44,
+                    40,
                     "Draining Kiss"
                 ],
                 [
-                    49,
+                    44,
                     "Safeguard"
                 ],
                 [
-                    54,
+                    47,
                     "After You"
                 ],
                 [
-                    59,
+                    48,
                     "Air Slash"
                 ],
                 [
-                    64,
+                    55,
                     "Dazzling Gleam"
                 ]
             ],
@@ -129896,7 +129066,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Defog",
@@ -129974,7 +129143,8 @@ backup_data = {
                 "Water Pulse",
                 "Work Up",
                 "Zap Cannon",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -130065,13 +129235,13 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Cosmic Power",
-                "Curse",
                 "Dazzling Gleam",
                 "Detect",
                 "Double Team",
                 "Dream Eater",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Frustration",
                 "Future Sight",
@@ -130117,7 +129287,8 @@ backup_data = {
                 "Trick",
                 "Trick Room",
                 "U-turn",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Tailwind"
             ],
             "tutors":
             [],
@@ -130190,7 +129361,7 @@ backup_data = {
                     "Psychic"
                 ],
                 [
-                    42,
+                    40,
                     "Air Slash"
                 ],
                 [
@@ -130198,15 +129369,15 @@ backup_data = {
                     "U-turn"
                 ],
                 [
-                    54,
+                    51,
                     "Defog"
                 ],
                 [
-                    58,
+                    54,
                     "Roost"
                 ],
                 [
-                    63,
+                    61,
                     "Future Sight"
                 ]
             ],
@@ -130221,7 +129392,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Cosmic Power",
-                "Curse",
                 "Dazzling Gleam",
                 "Defog",
                 "Detect",
@@ -130229,6 +129399,7 @@ backup_data = {
                 "Dream Eater",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Fly",
                 "Foul Play",
@@ -130278,7 +129449,8 @@ backup_data = {
                 "Trick",
                 "Trick Room",
                 "U-turn",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Tailwind"
             ],
             "tutors":
             [],
@@ -130369,7 +129541,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Dig",
@@ -130478,23 +129649,23 @@ backup_data = {
                     "Heal Bell"
                 ],
                 [
-                    37,
+                    35,
                     "Discharge"
                 ],
                 [
-                    42,
+                    39,
                     "Hyper Voice"
                 ],
                 [
-                    46,
+                    43,
                     "Signal Beam"
                 ],
                 [
-                    51,
+                    47,
                     "Power Gem"
                 ],
                 [
-                    55,
+                    50,
                     "Thunderbolt"
                 ]
             ],
@@ -130509,7 +129680,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Dig",
@@ -130637,27 +129807,27 @@ backup_data = {
                     "Heal Bell"
                 ],
                 [
-                    38,
+                    36,
                     "Discharge"
                 ],
                 [
-                    44,
+                    40,
                     "Dragon Breath"
                 ],
                 [
-                    48,
+                    44,
                     "Signal Beam"
                 ],
                 [
-                    54,
+                    48,
                     "Power Gem"
                 ],
                 [
-                    60,
+                    51,
                     "Thunderbolt"
                 ],
                 [
-                    66,
+                    55,
                     "Dragon Pulse"
                 ]
             ],
@@ -130675,7 +129845,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Dig",
@@ -130771,6 +129940,14 @@ backup_data = {
             [
                 [
                     1,
+                    "Solar Beam"
+                ],
+                [
+                    1,
+                    "Weather Ball"
+                ],
+                [
+                    1,
                     "Absorb"
                 ],
                 [
@@ -130818,19 +129995,23 @@ backup_data = {
                     "Moonlight"
                 ],
                 [
-                    46,
+                    40,
+                    "Synthesis"
+                ],
+                [
+                    44,
                     "Energy Ball"
                 ],
                 [
-                    52,
+                    50,
                     "Moonblast"
                 ],
                 [
-                    58,
+                    54,
                     "Toxic"
                 ],
                 [
-                    64,
+                    61,
                     "Strength Sap"
                 ]
             ],
@@ -130843,7 +130024,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dazzling Gleam",
                 "Double Team",
@@ -130995,7 +130175,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Disarming Voice",
@@ -131144,11 +130323,11 @@ backup_data = {
                     "Superpower"
                 ],
                 [
-                    50,
-                    "Hydro Pump"
+                    55,
+                    "Liquidation"
                 ],
                 [
-                    54,
+                    55,
                     "Play Rough"
                 ]
             ],
@@ -131167,7 +130346,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Disarming Voice",
@@ -131346,19 +130524,19 @@ backup_data = {
                     "Counter"
                 ],
                 [
-                    43,
+                    40,
                     "Double-Edge"
                 ],
                 [
-                    47,
+                    48,
                     "Stone Edge"
                 ],
                 [
-                    50,
+                    51,
                     "Head Smash"
                 ],
                 [
-                    50,
+                    52,
                     "Hammer Arm"
                 ]
             ],
@@ -131372,7 +130550,6 @@ backup_data = {
                 "Calm Mind",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double-Edge",
@@ -131386,6 +130563,7 @@ backup_data = {
                 "Explosion",
                 "Facade",
                 "Fake Tears",
+                "Feint Attack",
                 "Fire Punch",
                 "Fling",
                 "Focus Punch",
@@ -131453,12 +130631,10 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
             [
-                "Curse",
                 "Defense Curl",
                 "Harden",
                 "Headbutt",
@@ -131563,7 +130739,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Detect",
                 "Dig",
@@ -131768,7 +130943,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Double-Edge",
@@ -131953,7 +131127,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Double-Edge",
@@ -132139,7 +131312,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Double-Edge",
@@ -132273,19 +131445,19 @@ backup_data = {
                     "Fake Out"
                 ],
                 [
-                    54,
+                    51,
                     "Fling"
                 ],
                 [
-                    60,
+                    55,
                     "Dual Chop"
                 ],
                 [
-                    66,
+                    61,
                     "Tail Slap"
                 ],
                 [
-                    70,
+                    65,
                     "Last Resort"
                 ]
             ],
@@ -132300,7 +131472,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defense Curl",
                 "Detect",
@@ -132383,7 +131554,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -132475,7 +131645,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Double-Edge",
                 "Double Team",
@@ -132542,7 +131711,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Encore",
                 "Grassy Terrain",
                 "Ingrain",
@@ -132637,7 +131805,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dazzling Gleam",
                 "Double-Edge",
@@ -132709,7 +131876,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Encore",
                 "Grassy Terrain",
                 "Ingrain",
@@ -132778,7 +131944,7 @@ backup_data = {
                     "Signal Beam"
                 ],
                 [
-                    43,
+                    41,
                     "Giga Drain"
                 ],
                 [
@@ -132786,11 +131952,11 @@ backup_data = {
                     "Air Slash"
                 ],
                 [
-                    52,
+                    48,
                     "Bug Buzz"
                 ],
                 [
-                    60,
+                    51,
                     "Hurricane"
                 ]
             ],
@@ -132804,7 +131970,6 @@ backup_data = {
                 "Bug Buzz",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double-Edge",
@@ -132936,7 +132101,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Dive",
@@ -133034,7 +132198,6 @@ backup_data = {
                 "After You",
                 "Ancient Power",
                 "Counter",
-                "Curse",
                 "Double Kick",
                 "Recover",
                 "Spit Up",
@@ -133121,7 +132284,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Dive",
@@ -133237,7 +132399,6 @@ backup_data = {
                 "After You",
                 "Ancient Power",
                 "Counter",
-                "Curse",
                 "Double Kick",
                 "Recover",
                 "Spit Up",
@@ -133350,7 +132511,6 @@ backup_data = {
                 "Charm",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Cut",
                 "Dazzling Gleam",
                 "Detect",
@@ -133469,7 +132629,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Flail",
@@ -133601,7 +132760,6 @@ backup_data = {
                 "Confide",
                 "Confuse Ray",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Detect",
@@ -133715,7 +132873,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Flail",
@@ -133770,23 +132927,23 @@ backup_data = {
                     "Dark Pulse"
                 ],
                 [
-                    38,
+                    36,
                     "Drill Peck"
                 ],
                 [
-                    42,
+                    40,
                     "Air Slash"
                 ],
                 [
-                    46,
+                    45,
                     "Sucker Punch"
                 ],
                 [
-                    50,
+                    48,
                     "Tailwind"
                 ],
                 [
-                    54,
+                    51,
                     "Brave Bird"
                 ]
             ],
@@ -133802,7 +132959,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Defog",
                 "Detect",
@@ -133814,6 +132970,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "Feather Dance",
+                "Feint Attack",
                 "Fly",
                 "Foul Play",
                 "Frustration",
@@ -133866,7 +133023,8 @@ backup_data = {
                 "Torment",
                 "Toxic",
                 "Uproar",
-                "U-turn"
+                "U-turn",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -133958,7 +133116,7 @@ backup_data = {
                     "Heal Pulse"
                 ],
                 [
-                    70,
+                    66,
                     "Slack Off"
                 ]
             ],
@@ -133976,7 +133134,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Double Team",
@@ -134170,7 +133327,6 @@ backup_data = {
                 "Charm",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dazzling Gleam",
                 "Defense Curl",
@@ -134291,7 +133447,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Destiny Bond",
                 "Imprison",
                 "Memento",
@@ -134472,7 +133627,6 @@ backup_data = {
                 "Confide",
                 "Confuse Ray",
                 "Crunch",
-                "Curse",
                 "Dazzling Gleam",
                 "Double-Edge",
                 "Double Team",
@@ -134606,10 +133760,6 @@ backup_data = {
                     "Tackle"
                 ],
                 [
-                    6,
-                    "Self-Destruct"
-                ],
-                [
                     9,
                     "Bug Bite"
                 ],
@@ -134634,20 +133784,32 @@ backup_data = {
                     "Pounce"
                 ],
                 [
-                    31,
+                    30,
                     "Payback"
                 ],
                 [
-                    34,
-                    "Explosion"
+                    36,
+                    "Self-Destruct"
                 ],
                 [
-                    42,
+                    39,
                     "Gyro Ball"
                 ],
                 [
-                    45,
+                    40,
                     "Double-Edge"
+                ],
+                [
+                    47,
+                    "Lunge"
+                ],
+                [
+                    50,
+                    "Explosion"
+                ],
+                [
+                    54,
+                    "Reversal"
                 ]
             ],
             "tms":
@@ -134659,7 +133821,6 @@ backup_data = {
                 "Bulldoze",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double-Edge",
@@ -134749,7 +133910,7 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Autotomize"
+                    "Volt Switch"
                 ],
                 [
                     1,
@@ -134809,27 +133970,35 @@ backup_data = {
                 ],
                 [
                     36,
-                    "Explosion"
+                    "Self-Destruct"
                 ],
                 [
-                    46,
+                    40,
                     "Gyro Ball"
                 ],
                 [
-                    50,
+                    41,
                     "Double-Edge"
                 ],
                 [
-                    56,
+                    45,
                     "Magnet Rise"
                 ],
                 [
-                    60,
-                    "Zap Cannon"
+                    48,
+                    "Lunge"
                 ],
                 [
-                    64,
+                    51,
                     "Heavy Slam"
+                ],
+                [
+                    55,
+                    "Explosion"
+                ],
+                [
+                    57,
+                    "Reversal"
                 ]
             ],
             "tms":
@@ -134842,7 +134011,6 @@ backup_data = {
                 "Bulldoze",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double-Edge",
@@ -135013,7 +134181,6 @@ backup_data = {
                 "Charge Beam",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double-Edge",
@@ -135142,7 +134309,6 @@ backup_data = {
                 "Aqua Tail",
                 "Astonish",
                 "Bite",
-                "Curse",
                 "Headbutt",
                 "Last Resort"
             ]
@@ -135196,19 +134362,19 @@ backup_data = {
                     "X-Scissor"
                 ],
                 [
-                    39,
+                    40,
                     "Knock Off"
                 ],
                 [
-                    45,
+                    47,
                     "Earthquake"
                 ],
                 [
-                    52,
+                    50,
                     "Acrobatics"
                 ],
                 [
-                    60,
+                    54,
                     "U-turn"
                 ]
             ],
@@ -135225,7 +134391,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Defog",
@@ -135239,6 +134404,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Fire Fang",
                 "Fling",
                 "Frustration",
@@ -135302,14 +134468,14 @@ backup_data = {
                 "Toxic Spikes",
                 "U-turn",
                 "Venoshock",
-                "X-Scissor"
+                "X-Scissor",
+                "Tailwind"
             ],
             "tutors":
             [
                 "Bug Bite",
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -135399,7 +134565,7 @@ backup_data = {
                     "Rock Slide"
                 ],
                 [
-                    37,
+                    36,
                     "Self-Destruct"
                 ],
                 [
@@ -135415,11 +134581,11 @@ backup_data = {
                     "Gyro Ball"
                 ],
                 [
-                    53,
+                    51,
                     "Explosion"
                 ],
                 [
-                    59,
+                    55,
                     "Earthquake"
                 ],
                 [
@@ -135427,7 +134593,7 @@ backup_data = {
                     "Heavy Slam"
                 ],
                 [
-                    70,
+                    65,
                     "Magnet Rise"
                 ]
             ],
@@ -135442,7 +134608,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Defense Curl",
@@ -135473,6 +134638,7 @@ backup_data = {
                 "Iron Head",
                 "Iron Tail",
                 "Mud-Slap",
+                "Misty Explosion",
                 "Natural Gift",
                 "Nature Power",
                 "Payback",
@@ -135578,7 +134744,7 @@ backup_data = {
                     "Play Rough"
                 ],
                 [
-                    48,
+                    47,
                     "Crunch"
                 ]
             ],
@@ -135594,7 +134760,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Detect",
@@ -135608,6 +134773,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "Fake Tears",
+                "Feint Attack",
                 "Fire Blast",
                 "Fire Fang",
                 "Fire Punch",
@@ -135684,7 +134850,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -135766,7 +134931,7 @@ backup_data = {
                     "Play Rough"
                 ],
                 [
-                    56,
+                    51,
                     "Jaw Lock"
                 ]
             ],
@@ -135782,7 +134947,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Detect",
@@ -135796,6 +134960,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "Fake Tears",
+                "Feint Attack",
                 "Fire Blast",
                 "Fire Fang",
                 "Fire Punch",
@@ -135882,7 +135047,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -135979,23 +135143,23 @@ backup_data = {
                     "Aqua Tail"
                 ],
                 [
-                    42,
+                    40,
                     "Aqua Jet"
                 ],
                 [
-                    46,
+                    44,
                     "Payback"
                 ],
                 [
-                    50,
+                    48,
                     "Explosion"
                 ],
                 [
-                    55,
+                    51,
                     "Liquidation"
                 ],
                 [
-                    60,
+                    55,
                     "Gunk Shot"
                 ]
             ],
@@ -136012,7 +135176,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Defense Curl",
                 "Dive",
                 "Double-Edge",
@@ -136169,11 +135332,11 @@ backup_data = {
                     "X-Scissor"
                 ],
                 [
-                    55,
+                    53,
                     "Night Slash"
                 ],
                 [
-                    60,
+                    55,
                     "Bullet Punch"
                 ]
             ],
@@ -136195,7 +135358,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Cross Poison",
-                "Curse",
                 "Cut",
                 "Defog",
                 "Detect",
@@ -136261,7 +135423,8 @@ backup_data = {
                 "U-turn",
                 "Vacuum Wave",
                 "Venoshock",
-                "X-Scissor"
+                "X-Scissor",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -136378,7 +135541,6 @@ backup_data = {
                 "Bulldoze",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double Team",
@@ -136534,19 +135696,19 @@ backup_data = {
                     "X-Scissor"
                 ],
                 [
-                    49,
+                    48,
                     "Throat Chop"
                 ],
                 [
-                    55,
+                    51,
                     "Counter"
                 ],
                 [
-                    62,
+                    55,
                     "Close Combat"
                 ],
                 [
-                    70,
+                    61,
                     "Megahorn"
                 ]
             ],
@@ -136567,7 +135729,6 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Detect",
                 "Dig",
@@ -136700,11 +135861,11 @@ backup_data = {
                     "Iron Tail"
                 ],
                 [
-                    32,
+                    33,
                     "Night Slash"
                 ],
                 [
-                    35,
+                    36,
                     "Low Kick"
                 ],
                 [
@@ -136712,11 +135873,11 @@ backup_data = {
                     "Icicle Crash"
                 ],
                 [
-                    44,
+                    47,
                     "Knock Off"
                 ],
                 [
-                    47,
+                    48,
                     "Ice Shard"
                 ],
                 [
@@ -136736,7 +135897,6 @@ backup_data = {
                 "Calm Mind",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Defense Curl",
@@ -136750,6 +135910,7 @@ backup_data = {
                 "Facade",
                 "Fake Tears",
                 "False Swipe",
+                "Feint Attack",
                 "Fling",
                 "Focus Punch",
                 "Foul Play",
@@ -136880,11 +136041,11 @@ backup_data = {
                     "Play Nice"
                 ],
                 [
-                    36,
+                    35,
                     "Charm"
                 ],
                 [
-                    42,
+                    39,
                     "Body Slam"
                 ],
                 [
@@ -136892,11 +136053,11 @@ backup_data = {
                     "Yawn"
                 ],
                 [
-                    52,
+                    48,
                     "Stomping Tantrum"
                 ],
                 [
-                    55,
+                    51,
                     "Thrash"
                 ],
                 [
@@ -136907,82 +136068,21 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Avalanche",
-                "Body Slam",
-                "Brick Break",
-                "Bulk Up",
-                "Bulldoze",
-                "Captivate",
-                "Charm",
-                "Close Combat",
-                "Confide",
-                "Crunch",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
-                "Dynamic Punch",
                 "Earthquake",
-                "Endure",
+                "Earth Power",
                 "Facade",
-                "Fake Tears",
-                "Fire Punch",
-                "Fling",
-                "Focus Punch",
-                "Frustration",
-                "Fury Cutter",
-                "Gunk Shot",
-                "Headbutt",
-                "Helping Hand",
+                "Feint Attack",
+                "Heavy Slam",
                 "Hidden Power",
-                "Hone Claws",
                 "Hyper Voice",
-                "Ice Punch",
-                "Low Kick",
-                "Metal Claw",
-                "Metronome",
-                "Mud-Slap",
-                "Natural Gift",
-                "Payback",
                 "Play Rough",
-                "Power-Up Punch",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Retaliate",
-                "Return",
                 "Roar",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
-                "Rollout",
-                "Round",
-                "Secret Power",
-                "Seed Bomb",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Smack Down",
-                "Snore",
                 "Strength",
-                "Substitute",
-                "Sunny Day",
-                "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Thunder Punch",
-                "Torment",
-                "Toxic",
-                "Trailblaze",
-                "Uproar",
-                "Work Up",
-                "Zap Cannon"
+                "Swagger"
             ],
             "tutors":
             [
@@ -136990,7 +136090,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -137046,11 +136145,11 @@ backup_data = {
                     "Play Rough"
                 ],
                 [
-                    37,
+                    36,
                     "Scary Face"
                 ],
                 [
-                    44,
+                    40,
                     "Body Slam"
                 ],
                 [
@@ -137058,7 +136157,7 @@ backup_data = {
                     "Yawn"
                 ],
                 [
-                    56,
+                    55,
                     "Double-Edge"
                 ],
                 [
@@ -137066,98 +136165,28 @@ backup_data = {
                     "Earthquake"
                 ],
                 [
-                    66,
+                    65,
                     "Fling"
                 ]
             ],
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Avalanche",
-                "Body Slam",
-                "Brick Break",
-                "Bulk Up",
-                "Bulldoze",
-                "Captivate",
-                "Charm",
-                "Close Combat",
-                "Confide",
-                "Crunch",
-                "Curse",
                 "Cut",
-                "Defense Curl",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
-                "Dynamic Punch",
                 "Earthquake",
-                "Endure",
+                "Earth Power",
                 "Facade",
-                "Fake Tears",
-                "Fire Punch",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
-                "Frustration",
-                "Fury Cutter",
-                "Giga Impact",
-                "Gunk Shot",
-                "Headbutt",
-                "Helping Hand",
+                "Feint Attack",
+                "Heavy Slam",
                 "Hidden Power",
-                "High Horsepower",
-                "Hone Claws",
-                "Hyper Beam",
                 "Hyper Voice",
-                "Ice Punch",
-                "Low Kick",
-                "Metal Claw",
-                "Metronome",
-                "Mud-Slap",
-                "Natural Gift",
-                "Payback",
                 "Play Rough",
-                "Power-Up Punch",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Retaliate",
-                "Return",
                 "Roar",
-                "Rock Climb",
                 "Rock Slide",
                 "Rock Smash",
                 "Rock Tomb",
-                "Rollout",
-                "Round",
-                "Scary Face",
-                "Secret Power",
-                "Seed Bomb",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Smack Down",
-                "Snore",
-                "Stomping Tantrum",
-                "Stone Edge",
                 "Strength",
-                "Substitute",
-                "Sunny Day",
-                "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder Punch",
-                "Torment",
-                "Toxic",
-                "Trailblaze",
-                "Uproar",
-                "Work Up",
-                "Zap Cannon"
+                "Swagger"
             ],
             "tutors":
             [
@@ -137165,7 +136194,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -137217,7 +136245,7 @@ backup_data = {
                     "Ancient Power"
                 ],
                 [
-                    27,
+                    26,
                     "Flame Burst"
                 ],
                 [
@@ -137225,24 +136253,20 @@ backup_data = {
                     "Rock Slide"
                 ],
                 [
-                    34,
+                    30,
                     "Lava Plume"
                 ],
                 [
-                    41,
-                    "Body Slam"
+                    39,
+                    "Gyro Ball"
                 ],
                 [
-                    43,
+                    44,
                     "Recover"
                 ],
                 [
-                    48,
+                    47,
                     "Flamethrower"
-                ],
-                [
-                    50,
-                    "Earth Power"
                 ]
             ],
             "tms":
@@ -137253,7 +136277,6 @@ backup_data = {
                 "Bulldoze",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Double Team",
                 "Earthquake",
@@ -137314,7 +136337,6 @@ backup_data = {
             "egg":
             [
                 "Acid Armor",
-                "Curse",
                 "Guard Swap",
                 "Inferno",
                 "Memento",
@@ -137328,12 +136350,8 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Shell Smash"
-                ],
-                [
                     1,
-                    "Shell Smash"
+                    "Overheat"
                 ],
                 [
                     1,
@@ -137384,23 +136402,27 @@ backup_data = {
                     "Rock Slide"
                 ],
                 [
-                    34,
+                    31,
                     "Lava Plume"
                 ],
                 [
-                    43,
-                    "Body Slam"
+                    40,
+                    "Gyro Ball"
                 ],
                 [
-                    47,
+                    48,
                     "Recover"
                 ],
                 [
-                    54,
+                    51,
                     "Flamethrower"
                 ],
                 [
-                    58,
+                    54,
+                    "Power Gem"
+                ],
+                [
+                    60,
                     "Earth Power"
                 ]
             ],
@@ -137413,7 +136435,6 @@ backup_data = {
                 "Burning Jealousy",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Double Team",
                 "Earthquake",
@@ -137484,7 +136505,6 @@ backup_data = {
             "egg":
             [
                 "Acid Armor",
-                "Curse",
                 "Guard Swap",
                 "Inferno",
                 "Memento",
@@ -137546,15 +136566,15 @@ backup_data = {
                     "Roar"
                 ],
                 [
-                    46,
+                    44,
                     "Superpower"
                 ],
                 [
-                    53,
+                    48,
                     "Earthquake"
                 ],
                 [
-                    61,
+                    51,
                     "Icicle Crash"
                 ]
             ],
@@ -137569,7 +136589,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Detect",
                 "Dig",
@@ -137635,7 +136654,6 @@ backup_data = {
             [
                 "Ancient Power",
                 "Bite",
-                "Curse",
                 "Double-Edge",
                 "Fissure",
                 "Freeze-Dry",
@@ -137687,7 +136705,7 @@ backup_data = {
                     "Stomping Tantrum"
                 ],
                 [
-                    38,
+                    39,
                     "Ancient Power"
                 ],
                 [
@@ -137695,15 +136713,15 @@ backup_data = {
                     "Roar"
                 ],
                 [
-                    48,
+                    47,
                     "Superpower"
                 ],
                 [
-                    55,
+                    50,
                     "Earthquake"
                 ],
                 [
-                    61,
+                    54,
                     "Icicle Crash"
                 ]
             ],
@@ -137718,7 +136736,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Detect",
                 "Dig",
@@ -137787,7 +136804,6 @@ backup_data = {
             [
                 "Ancient Power",
                 "Bite",
-                "Curse",
                 "Double-Edge",
                 "Fissure",
                 "Freeze-Dry",
@@ -137890,7 +136906,6 @@ backup_data = {
                 "Calm Mind",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double Team",
@@ -137984,7 +136999,6 @@ backup_data = {
                 "Amnesia",
                 "Aqua Ring",
                 "Confuse Ray",
-                "Curse",
                 "Head Smash",
                 "Icicle Spear",
                 "Ingrain",
@@ -138035,7 +137049,7 @@ backup_data = {
                     "Ice Beam"
                 ],
                 [
-                    38,
+                    36,
                     "Bullet Seed"
                 ],
                 [
@@ -138043,7 +137057,7 @@ backup_data = {
                     "Hydro Pump"
                 ],
                 [
-                    50,
+                    48,
                     "Soak"
                 ]
             ],
@@ -138058,7 +137072,6 @@ backup_data = {
                 "Captivate",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dive",
                 "Double Team",
@@ -138173,23 +137186,23 @@ backup_data = {
                     "Wring Out"
                 ],
                 [
-                    38,
+                    36,
                     "Signal Beam"
                 ],
                 [
-                    42,
+                    40,
                     "Ice Beam"
                 ],
                 [
-                    46,
+                    44,
                     "Bullet Seed"
                 ],
                 [
-                    50,
+                    48,
                     "Gunk Shot"
                 ],
                 [
-                    60,
+                    55,
                     "Water Spout"
                 ]
             ],
@@ -138204,7 +137217,6 @@ backup_data = {
                 "Captivate",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dive",
                 "Double Team",
@@ -138315,7 +137327,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double Team",
@@ -138541,7 +137552,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Defog",
                 "Dive",
                 "Double Team",
@@ -138736,7 +137746,6 @@ backup_data = {
                 "Brave Bird",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Defog",
@@ -138831,7 +137840,6 @@ backup_data = {
             [
                 "Whirlwind",
                 "Sky Attack",
-                "Curse",
                 "Air Cutter",
                 "Roost",
                 "Feint",
@@ -138871,7 +137879,7 @@ backup_data = {
                     "Roar"
                 ],
                 [
-                    32,
+                    30,
                     "Dark Pulse"
                 ],
                 [
@@ -138899,7 +137907,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Detect",
                 "Double-Edge",
@@ -138908,6 +137915,7 @@ backup_data = {
                 "Embargo",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Blast",
                 "Fire Fang",
                 "Fire Spin",
@@ -139030,7 +138038,7 @@ backup_data = {
                     "Foul Play"
                 ],
                 [
-                    42,
+                    40,
                     "Flamethrower"
                 ],
                 [
@@ -139038,11 +138046,11 @@ backup_data = {
                     "Sucker Punch"
                 ],
                 [
-                    55,
+                    51,
                     "Fire Blast"
                 ],
                 [
-                    60,
+                    55,
                     "Beat Up"
                 ]
             ],
@@ -139054,7 +138062,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Detect",
                 "Double-Edge",
@@ -139064,6 +138071,7 @@ backup_data = {
                 "Endeavor",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Blast",
                 "Fire Fang",
                 "Fire Spin",
@@ -139186,7 +138194,7 @@ backup_data = {
                     "Octazooka"
                 ],
                 [
-                    38,
+                    36,
                     "Waterfall"
                 ],
                 [
@@ -139194,7 +138202,7 @@ backup_data = {
                     "Dragon Pulse"
                 ],
                 [
-                    52,
+                    51,
                     "Hurricane"
                 ],
                 [
@@ -139214,7 +138222,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -139332,15 +138339,15 @@ backup_data = {
                     "Rapid Spin"
                 ],
                 [
-                    33,
+                    30,
                     "Knock Off"
                 ],
                 [
-                    37,
+                    36,
                     "Magnitude"
                 ],
                 [
-                    42,
+                    40,
                     "Rock Slide"
                 ],
                 [
@@ -139356,7 +138363,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double-Edge",
@@ -139495,19 +138501,19 @@ backup_data = {
                     "High Horsepower"
                 ],
                 [
-                    46,
+                    44,
                     "Rock Slide"
                 ],
                 [
-                    50,
+                    47,
                     "Body Slam"
                 ],
                 [
-                    57,
+                    51,
                     "Head Smash"
                 ],
                 [
-                    65,
+                    55,
                     "Earthquake"
                 ]
             ],
@@ -139521,7 +138527,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Dig",
                 "Double-Edge",
@@ -139594,7 +138599,6 @@ backup_data = {
             "tutors":
             [
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -139662,15 +138666,15 @@ backup_data = {
                     "Tri Attack"
                 ],
                 [
-                    50,
+                    48,
                     "Thunder Wave"
                 ],
                 [
-                    56,
+                    54,
                     "Thunderbolt"
                 ],
                 [
-                    62,
+                    55,
                     "Hyper Beam"
                 ]
             ],
@@ -139683,7 +138687,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Double-Edge",
                 "Double Team",
@@ -139798,105 +138801,39 @@ backup_data = {
                     "Zen Headbutt"
                 ],
                 [
-                    38,
+                    36,
                     "Jump Kick"
                 ],
                 [
-                    44,
+                    39,
                     "Body Slam"
                 ],
                 [
-                    50,
+                    43,
                     "Hyper Voice"
                 ],
                 [
-                    55,
+                    47,
                     "Psychic"
                 ],
                 [
-                    60,
+                    50,
                     "Double-Edge"
                 ]
             ],
             "tms":
             [
-                "Agility",
-                "Attract",
-                "Body Slam",
-                "Bulldoze",
-                "Calm Mind",
-                "Captivate",
-                "Charge Beam",
-                "Confide",
-                "Confuse Ray",
-                "Curse",
-                "Detect",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
-                "Dream Eater",
                 "Earthquake",
                 "Earth Power",
-                "Endure",
-                "Energy Ball",
                 "Facade",
-                "Flash",
-                "Frustration",
-                "Future Sight",
-                "Giga Impact",
-                "Gravity",
-                "Headbutt",
-                "Helping Hand",
                 "Hidden Power",
-                "Hyper Beam",
-                "Imprison",
-                "Iron Tail",
-                "Light Screen",
-                "Lunge",
-                "Mud-Slap",
-                "Natural Gift",
-                "Nightmare",
-                "Protect",
-                "Psybeam",
                 "Psychic",
-                "Psych Up",
-                "Psyshock",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Retaliate",
-                "Return",
-                "Roar",
-                "Round",
-                "Scary Face",
-                "Secret Power",
                 "Shadow Ball",
                 "Shock Wave",
                 "Skill Swap",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Spite",
-                "Stored Power",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder",
-                "Thunderbolt",
-                "Thunder Wave",
-                "Toxic",
-                "Trailblaze",
-                "Trick",
-                "Trick Room",
-                "Uproar",
-                "Wild Charge",
-                "Work Up",
-                "Zen Headbutt"
+                "Thunderbolt"
             ],
             "tutors":
             [
@@ -140001,7 +138938,6 @@ backup_data = {
                 "Bulldoze",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Detect",
                 "Double Team",
                 "Earthquake",
@@ -140091,35 +139027,35 @@ backup_data = {
                     "Mach Punch"
                 ],
                 [
-                    33,
+                    31,
                     "Triple Kick"
                 ],
                 [
-                    37,
+                    35,
                     "Brick Break"
                 ],
                 [
-                    42,
+                    36,
                     "Helping Hand"
                 ],
                 [
-                    46,
+                    41,
                     "Wide Guard"
                 ],
                 [
-                    46,
+                    41,
                     "Quick Guard"
                 ],
                 [
-                    50,
+                    48,
                     "Detect"
                 ],
                 [
-                    55,
+                    51,
                     "Triple Axel"
                 ],
                 [
-                    60,
+                    55,
                     "Close Combat"
                 ]
             ],
@@ -140138,7 +139074,6 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
                 "Detect",
                 "Dig",
                 "Double-Edge",
@@ -140288,7 +139223,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Double Team",
                 "Draining Kiss",
                 "Dream Eater",
@@ -140435,7 +139369,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Detect",
                 "Double-Edge",
                 "Double Team",
@@ -140549,11 +139482,11 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Lava Plume"
+                    "Toxic"
                 ],
                 [
-                    26,
-                    "Toxic"
+                    27,
+                    "Lava Plume"
                 ],
                 [
                     29,
@@ -140590,13 +139523,13 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Detect",
                 "Double-Edge",
                 "Double Team",
                 "Dynamic Punch",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Blast",
                 "Fire Punch",
                 "Fire Spin",
@@ -140721,7 +139654,7 @@ backup_data = {
                     "Heavy Slam"
                 ],
                 [
-                    41,
+                    40,
                     "Charm"
                 ],
                 [
@@ -140729,15 +139662,15 @@ backup_data = {
                     "Play Rough"
                 ],
                 [
-                    49,
+                    48,
                     "Return"
                 ],
                 [
-                    53,
+                    51,
                     "High Horsepower"
                 ],
                 [
-                    57,
+                    55,
                     "Milk Drink"
                 ]
             ],
@@ -140752,7 +139685,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Defense Curl",
                 "Double Team",
                 "Dynamic Punch",
@@ -140830,14 +139762,12 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Belch",
-                "Curse",
                 "Double-Edge",
                 "Hammer Arm",
                 "Helping Hand",
@@ -140979,7 +139909,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Defense Curl",
                 "Disarming Voice",
@@ -141258,7 +140187,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Detect",
                 "Dig",
@@ -141356,39 +140284,7 @@ backup_data = {
             [
                 [
                     1,
-                    "Sacred Fire"
-                ],
-                [
-                    1,
                     "Extreme Speed"
-                ],
-                [
-                    1,
-                    "Ember"
-                ],
-                [
-                    1,
-                    "Leer"
-                ],
-                [
-                    1,
-                    "Stomp"
-                ],
-                [
-                    1,
-                    "Smokescreen"
-                ],
-                [
-                    1,
-                    "Eruption"
-                ],
-                [
-                    1,
-                    "Extrasensory"
-                ],
-                [
-                    1,
-                    "Lava Plume"
                 ],
                 [
                     1,
@@ -141423,20 +140319,12 @@ backup_data = {
                     "Scary Face"
                 ],
                 [
-                    36,
-                    "Flamethrower"
-                ],
-                [
                     39,
                     "Fire Fang"
                 ],
                 [
                     42,
                     "Crunch"
-                ],
-                [
-                    46,
-                    "Calm Mind"
                 ],
                 [
                     52,
@@ -141452,109 +140340,41 @@ backup_data = {
                 ],
                 [
                     66,
-                    "Sunny Day"
+                    "Stone Edge"
                 ],
                 [
                     71,
-                    "Fire Blast"
+                    "Flamethrower"
+                ],
+                [
+                    76,
+                    "Eruption"
                 ],
                 [
                     81,
-                    "Eruption"
+                    "Sacred Fire"
                 ]
             ],
             "tms":
             [
-                "Agility",
-                "Body Slam",
-                "Bulldoze",
-                "Calm Mind",
-                "Confide",
-                "Crunch",
-                "Curse",
-                "Cut",
-                "Detect",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
-                "Endure",
-                "Facade",
-                "Fire Blast",
-                "Fire Fang",
-                "Fire Spin",
                 "Flamethrower",
-                "Flame Charge",
-                "Flare Blitz",
-                "Flash",
-                "Frustration",
-                "Giga Impact",
-                "Headbutt",
-                "Heat Wave",
-                "Helping Hand",
                 "Hidden Power",
-                "Hyper Beam",
-                "Incinerate",
-                "Iron Head",
-                "Iron Tail",
-                "Mud-Slap",
                 "Natural Gift",
-                "Overheat",
-                "Protect",
-                "Psych Up",
-                "Quash",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Reversal",
                 "Roar",
                 "Rock Climb",
                 "Rock Smash",
-                "Round",
-                "Sandstorm",
-                "Scary Face",
-                "Scorching Sands",
-                "Secret Power",
                 "Shadow Ball",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
                 "Solar Beam",
-                "Stomping Tantrum",
-                "Stone Edge",
                 "Strength",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
-                "Trailblaze",
                 "Weather Ball",
                 "Will-O-Wisp"
             ],
             "tutors":
             [
-                "Body Slam",
-                "Double-Edge",
-                "Endure",
-                "Flamethrower",
                 "Headbutt",
-                "Heat Wave",
-                "Iron Head",
-                "Iron Tail",
-                "Laser Focus",
-                "Mimic",
-                "Mud-Slap",
-                "Psych Up",
-                "Scorching Sands",
-                "Sleep Talk",
-                "Snore",
-                "Stomping Tantrum",
-                "Substitute",
-                "Swagger",
-                "Swift"
+                "Fire Blast"
             ],
             "egg":
             []
@@ -141681,7 +140501,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Detect",
                 "Dig",
@@ -141839,7 +140658,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Detect",
                 "Dig",
@@ -141910,14 +140728,12 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Ancient Power",
                 "Assurance",
-                "Curse",
                 "Dragon Dance",
                 "Focus Energy",
                 "Iron Defense",
@@ -141998,7 +140814,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Detect",
                 "Dig",
@@ -142073,7 +140888,6 @@ backup_data = {
             [
                 "Ancient Power",
                 "Assurance",
-                "Curse",
                 "Dragon Dance",
                 "Focus Energy",
                 "Iron Defense",
@@ -142171,7 +140985,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Detect",
@@ -142289,7 +141102,6 @@ backup_data = {
                 "Headbutt",
                 "Hydro Pump",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -142297,7 +141109,6 @@ backup_data = {
             [
                 "Ancient Power",
                 "Assurance",
-                "Curse",
                 "Dragon Dance",
                 "Focus Energy",
                 "Iron Defense",
@@ -142407,7 +141218,6 @@ backup_data = {
                 "Charge Beam",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Dive",
@@ -142641,7 +141451,6 @@ backup_data = {
                 "Calm Mind",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Defog",
                 "Detect",
                 "Double-Edge",
@@ -142836,15 +141645,15 @@ backup_data = {
                     "Reflect"
                 ],
                 [
-                    73,
+                    70,
                     "Healing Wish"
                 ],
                 [
-                    82,
+                    75,
                     "Leaf Storm"
                 ],
                 [
-                    91,
+                    80,
                     "Future Sight"
                 ]
             ],
@@ -142857,7 +141666,6 @@ backup_data = {
                 "Calm Mind",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dazzling Gleam",
                 "Defense Curl",
@@ -143073,7 +141881,6 @@ backup_data = {
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -143121,7 +141928,7 @@ backup_data = {
                     "Quick Attack"
                 ],
                 [
-                    28,
+                    30,
                     "Magical Leaf"
                 ],
                 [
@@ -143227,7 +142034,6 @@ backup_data = {
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -143309,11 +142115,11 @@ backup_data = {
                     "Grass Whistle"
                 ],
                 [
-                    52,
+                    51,
                     "Endure"
                 ],
                 [
-                    58,
+                    55,
                     "Energy Ball"
                 ],
                 [
@@ -143426,7 +142232,6 @@ backup_data = {
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -143519,8 +142324,8 @@ backup_data = {
                 "Bounce",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
+                "Defog",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -143644,11 +142449,11 @@ backup_data = {
                     "Overheat"
                 ],
                 [
-                    56,
+                    55,
                     "Close Combat"
                 ],
                 [
-                    64,
+                    61,
                     "Flare Blitz"
                 ]
             ],
@@ -143668,8 +142473,8 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
                 "Cut",
+                "Defog",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -143738,7 +142543,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -143748,7 +142552,6 @@ backup_data = {
                 "Baton Pass",
                 "Counter",
                 "Crush Claw",
-                "Curse",
                 "Feather Dance",
                 "Feint",
                 "Last Resort",
@@ -143819,15 +142622,15 @@ backup_data = {
                     "Brave Bird"
                 ],
                 [
-                    52,
+                    51,
                     "Overheat"
                 ],
                 [
-                    59,
+                    55,
                     "Close Combat"
                 ],
                 [
-                    70,
+                    61,
                     "Flare Blitz"
                 ]
             ],
@@ -143852,8 +142655,8 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
                 "Cut",
+                "Defog",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -143936,7 +142739,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -143946,7 +142748,6 @@ backup_data = {
                 "Baton Pass",
                 "Counter",
                 "Crush Claw",
-                "Curse",
                 "Feather Dance",
                 "Feint",
                 "Last Resort",
@@ -144023,7 +142824,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Double-Edge",
@@ -144089,7 +142889,6 @@ backup_data = {
                 "Bite",
                 "Counter",
                 "Sludge",
-                "Curse",
                 "Mud-Slap",
                 "Mirror Coat",
                 "Ancient Power",
@@ -144166,7 +142965,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Double-Edge",
@@ -144243,7 +143041,6 @@ backup_data = {
                 "Ancient Power",
                 "Bite",
                 "Counter",
-                "Curse",
                 "Double-Edge",
                 "Mirror Coat",
                 "Mud-Slap",
@@ -144320,7 +143117,7 @@ backup_data = {
                     "Earthquake"
                 ],
                 [
-                    56,
+                    55,
                     "Hydro Pump"
                 ]
             ],
@@ -144338,7 +143135,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Darkest Lariat",
                 "Dig",
                 "Dive",
@@ -144432,7 +143228,6 @@ backup_data = {
                 "Ancient Power",
                 "Bite",
                 "Counter",
-                "Curse",
                 "Double-Edge",
                 "Mirror Coat",
                 "Mud-Slap",
@@ -145651,15 +144446,15 @@ backup_data = {
                     "Surf"
                 ],
                 [
-                    48,
+                    47,
                     "Teeter Dance"
                 ],
                 [
-                    52,
+                    50,
                     "Energy Ball"
                 ],
                 [
-                    64,
+                    54,
                     "Hydro Pump"
                 ]
             ],
@@ -145813,15 +144608,15 @@ backup_data = {
                     "Surf"
                 ],
                 [
-                    51,
+                    48,
                     "Teeter Dance"
                 ],
                 [
-                    56,
+                    51,
                     "Energy Ball"
                 ],
                 [
-                    69,
+                    55,
                     "Hydro Pump"
                 ]
             ],
@@ -145961,7 +144756,7 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
+                "Defog",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -146069,7 +144864,7 @@ backup_data = {
                     "Foul Play"
                 ],
                 [
-                    42,
+                    40,
                     "Energy Ball"
                 ],
                 [
@@ -146081,7 +144876,7 @@ backup_data = {
                     "Night Slash"
                 ],
                 [
-                    60,
+                    54,
                     "Solar Blade"
                 ]
             ],
@@ -146098,9 +144893,9 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
+                "Defog",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -146111,6 +144906,7 @@ backup_data = {
                 "Explosion",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Flash",
                 "Fling",
                 "Foul Play",
@@ -146239,15 +145035,15 @@ backup_data = {
                     "Energy Ball"
                 ],
                 [
-                    49,
+                    48,
                     "Sucker Punch"
                 ],
                 [
-                    54,
+                    51,
                     "Night Slash"
                 ],
                 [
-                    65,
+                    55,
                     "Solar Blade"
                 ]
             ],
@@ -146269,7 +145065,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Defog",
@@ -146283,6 +145078,7 @@ backup_data = {
                 "Explosion",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Flash",
                 "Fling",
                 "Focus Blast",
@@ -146308,6 +145104,7 @@ backup_data = {
                 "Low Sweep",
                 "Magical Leaf",
                 "Mega Kick",
+                "Misty Explosion",
                 "Nasty Plot",
                 "Natural Gift",
                 "Nature Power",
@@ -146361,7 +145158,8 @@ backup_data = {
                 "Vacuum Wave",
                 "Weather Ball",
                 "Will-O-Wisp",
-                "X-Scissor"
+                "X-Scissor",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -146428,7 +145226,7 @@ backup_data = {
                     "Double-Edge"
                 ],
                 [
-                    41,
+                    40,
                     "Brave Bird"
                 ],
                 [
@@ -146467,10 +145265,13 @@ backup_data = {
                 "Thief",
                 "Toxic",
                 "U-turn",
-                "Work Up"
+                "Work Up",
+                "Tailwind"
             ],
             "tutors":
-            [],
+            [
+                "Hurricane"
+            ],
             "egg":
             [
                 "Boomburst",
@@ -146538,8 +145339,12 @@ backup_data = {
                     "Double-Edge"
                 ],
                 [
-                    51,
+                    48,
                     "U-turn"
+                ],
+                [
+                    51,
+                    "Facade"
                 ]
             ],
             "tms":
@@ -146575,7 +145380,8 @@ backup_data = {
                 "Thief",
                 "Toxic",
                 "U-turn",
-                "Work Up"
+                "Work Up",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -147068,6 +145874,7 @@ backup_data = {
                 "Future Sight",
                 "Grass Knot",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hyper Voice",
                 "Ice Punch",
@@ -147199,11 +146006,11 @@ backup_data = {
                     "Dream Eater"
                 ],
                 [
-                    49,
+                    48,
                     "Psychic"
                 ],
                 [
-                    55,
+                    51,
                     "Moonblast"
                 ]
             ],
@@ -147236,6 +146043,7 @@ backup_data = {
                 "Future Sight",
                 "Grass Knot",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hyper Beam",
                 "Hyper Voice",
@@ -147361,7 +146169,7 @@ backup_data = {
                     "Future Sight"
                 ],
                 [
-                    41,
+                    40,
                     "Dazzling Gleam"
                 ],
                 [
@@ -147373,11 +146181,11 @@ backup_data = {
                     "Dream Eater"
                 ],
                 [
-                    53,
+                    51,
                     "Psychic"
                 ],
                 [
-                    60,
+                    55,
                     "Moonblast"
                 ]
             ],
@@ -147416,6 +146224,7 @@ backup_data = {
                 "Gravity",
                 "Guard Swap",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hyper Beam",
                 "Hyper Voice",
@@ -147531,7 +146340,7 @@ backup_data = {
                     "Aqua Jet"
                 ],
                 [
-                    49,
+                    48,
                     "Sticky Web"
                 ]
             ],
@@ -147659,7 +146468,7 @@ backup_data = {
                     "Stun Spore"
                 ],
                 [
-                    33,
+                    31,
                     "Air Slash"
                 ],
                 [
@@ -147671,7 +146480,7 @@ backup_data = {
                     "Scald"
                 ],
                 [
-                    46,
+                    48,
                     "Hurricane"
                 ],
                 [
@@ -147951,7 +146760,7 @@ backup_data = {
                     "Giga Drain"
                 ],
                 [
-                    33,
+                    31,
                     "Brick Break"
                 ],
                 [
@@ -148053,7 +146862,6 @@ backup_data = {
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -148126,7 +146934,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Double Team",
                 "Encore",
@@ -148224,7 +147031,6 @@ backup_data = {
                 "After You",
                 "Body Slam",
                 "Crush Claw",
-                "Curse",
                 "Hammer Arm",
                 "Night Slash",
                 "Slash",
@@ -148306,7 +147112,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -148427,7 +147232,6 @@ backup_data = {
                 "After You",
                 "Body Slam",
                 "Crush Claw",
-                "Curse",
                 "Hammer Arm",
                 "Night Slash",
                 "Slash",
@@ -148534,7 +147338,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -148665,7 +147468,6 @@ backup_data = {
                 "After You",
                 "Body Slam",
                 "Crush Claw",
-                "Curse",
                 "Hammer Arm",
                 "Night Slash",
                 "Slash",
@@ -149785,7 +148587,7 @@ backup_data = {
                     "Seismic Toss"
                 ],
                 [
-                    31,
+                    30,
                     "Knock Off"
                 ],
                 [
@@ -149793,7 +148595,7 @@ backup_data = {
                     "Brick Break"
                 ],
                 [
-                    37,
+                    36,
                     "Bullet Punch"
                 ],
                 [
@@ -149829,6 +148631,7 @@ backup_data = {
                 "Earthquake",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Punch",
                 "Fling",
                 "Focus Blast",
@@ -149887,7 +148690,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -149955,15 +148757,15 @@ backup_data = {
                     "Knock Off"
                 ],
                 [
-                    38,
+                    35,
                     "Brick Break"
                 ],
                 [
-                    42,
+                    36,
                     "Bullet Punch"
                 ],
                 [
-                    45,
+                    40,
                     "Throat Chop"
                 ],
                 [
@@ -149971,7 +148773,7 @@ backup_data = {
                     "Heavy Slam"
                 ],
                 [
-                    55,
+                    50,
                     "Close Combat"
                 ]
             ],
@@ -149989,7 +148791,6 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -149997,6 +148798,7 @@ backup_data = {
                 "Earthquake",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Punch",
                 "Fling",
                 "Focus Blast",
@@ -150062,7 +148864,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -150219,7 +149020,7 @@ backup_data = {
                     "Discharge"
                 ],
                 [
-                    37,
+                    36,
                     "Earth Power"
                 ],
                 [
@@ -150243,7 +149044,6 @@ backup_data = {
                 "Bulldoze",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Double-Edge",
                 "Double Team",
@@ -150305,7 +149105,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -150384,6 +149183,7 @@ backup_data = {
                 "Echoed Voice",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Frustration",
                 "Grass Knot",
@@ -150514,6 +149314,7 @@ backup_data = {
                 "Echoed Voice",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Frustration",
                 "Giga Impact",
@@ -150634,15 +149435,15 @@ backup_data = {
                     "Shadow Ball"
                 ],
                 [
-                    57,
+                    51,
                     "Foul Play"
                 ],
                 [
-                    66,
+                    55,
                     "Sucker Punch"
                 ],
                 [
-                    75,
+                    61,
                     "Recover"
                 ]
             ],
@@ -150830,11 +149631,11 @@ backup_data = {
                     "Iron Head"
                 ],
                 [
-                    52,
+                    51,
                     "Knock Off"
                 ],
                 [
-                    60,
+                    55,
                     "Play Rough"
                 ]
             ],
@@ -151079,7 +149880,6 @@ backup_data = {
             "egg":
             [
                 "Body Slam",
-                "Curse",
                 "Dragon Rush",
                 "Endeavor",
                 "Head Smash",
@@ -151144,7 +149944,7 @@ backup_data = {
                     "Bulldoze"
                 ],
                 [
-                    37,
+                    36,
                     "Iron Tail"
                 ],
                 [
@@ -151156,15 +149956,15 @@ backup_data = {
                     "Double-Edge"
                 ],
                 [
-                    49,
+                    48,
                     "Body Press"
                 ],
                 [
-                    53,
+                    51,
                     "Heavy Slam"
                 ],
                 [
-                    57,
+                    55,
                     "Head Smash"
                 ]
             ],
@@ -151232,7 +150032,6 @@ backup_data = {
             "egg":
             [
                 "Body Slam",
-                "Curse",
                 "Dragon Rush",
                 "Endeavor",
                 "Head Smash",
@@ -151317,19 +150116,19 @@ backup_data = {
                     "Double-Edge"
                 ],
                 [
-                    52,
+                    51,
                     "Body Press"
                 ],
                 [
-                    57,
+                    55,
                     "Heavy Slam"
                 ],
                 [
-                    62,
+                    61,
                     "Head Smash"
                 ],
                 [
-                    68,
+                    64,
                     "Earthquake"
                 ]
             ],
@@ -151440,14 +150239,12 @@ backup_data = {
                 "Headbutt",
                 "Hydro Pump",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Body Slam",
-                "Curse",
                 "Dragon Rush",
                 "Endeavor",
                 "Head Smash",
@@ -151617,7 +150414,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -151713,7 +150509,7 @@ backup_data = {
                     "High Jump Kick"
                 ],
                 [
-                    52,
+                    51,
                     "Zen Headbutt"
                 ],
                 [
@@ -151721,7 +150517,7 @@ backup_data = {
                     "Recover"
                 ],
                 [
-                    62,
+                    61,
                     "Close Combat"
                 ]
             ],
@@ -151817,7 +150613,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -151893,7 +150688,7 @@ backup_data = {
                     "Flamethrower"
                 ],
                 [
-                    49,
+                    48,
                     "Thunderbolt"
                 ]
             ],
@@ -151954,7 +150749,6 @@ backup_data = {
             "egg":
             [
                 "Crunch",
-                "Curse",
                 "Discharge",
                 "Eerie Impulse",
                 "Electro Ball",
@@ -152025,7 +150819,7 @@ backup_data = {
                     "Roar"
                 ],
                 [
-                    42,
+                    40,
                     "Crunch"
                 ],
                 [
@@ -152033,7 +150827,7 @@ backup_data = {
                     "Flamethrower"
                 ],
                 [
-                    55,
+                    51,
                     "Thunderbolt"
                 ]
             ],
@@ -152100,7 +150894,6 @@ backup_data = {
             "egg":
             [
                 "Crunch",
-                "Curse",
                 "Discharge",
                 "Eerie Impulse",
                 "Electro Ball",
@@ -152926,7 +151719,7 @@ backup_data = {
                     "Synthesis"
                 ],
                 [
-                    55,
+                    51,
                     "Sludge Bomb"
                 ]
             ],
@@ -153078,7 +151871,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Double Team",
                 "Dream Eater",
                 "Encore",
@@ -153165,7 +151957,6 @@ backup_data = {
             [
                 "Acid Armor",
                 "Clear Smog",
-                "Curse",
                 "Destiny Bond",
                 "Mud-Slap",
                 "Smog",
@@ -153285,7 +152076,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Dream Eater",
@@ -153380,7 +152170,6 @@ backup_data = {
             [
                 "Acid Armor",
                 "Clear Smog",
-                "Curse",
                 "Destiny Bond",
                 "Mud-Slap",
                 "Smog",
@@ -153593,7 +152382,7 @@ backup_data = {
                     "Flip Turn"
                 ],
                 [
-                    56,
+                    55,
                     "Liquidation"
                 ]
             ],
@@ -153734,7 +152523,7 @@ backup_data = {
                     "Water Spout"
                 ],
                 [
-                    41,
+                    40,
                     "Dive"
                 ],
                 [
@@ -153750,7 +152539,7 @@ backup_data = {
                     "Heavy Slam"
                 ],
                 [
-                    57,
+                    55,
                     "Scald"
                 ]
             ],
@@ -153817,7 +152606,6 @@ backup_data = {
                 "Aqua Ring",
                 "Body Slam",
                 "Clear Smog",
-                "Curse",
                 "Defense Curl",
                 "Double-Edge",
                 "Fissure",
@@ -153902,7 +152690,7 @@ backup_data = {
                     "Water Spout"
                 ],
                 [
-                    42,
+                    40,
                     "Dive"
                 ],
                 [
@@ -153910,15 +152698,15 @@ backup_data = {
                     "Bounce"
                 ],
                 [
-                    54,
+                    51,
                     "Hydro Pump"
                 ],
                 [
-                    60,
+                    55,
                     "Heavy Slam"
                 ],
                 [
-                    65,
+                    60,
                     "Scald"
                 ]
             ],
@@ -153989,7 +152777,6 @@ backup_data = {
                 "Aqua Ring",
                 "Body Slam",
                 "Clear Smog",
-                "Curse",
                 "Defense Curl",
                 "Double-Edge",
                 "Fissure",
@@ -154076,7 +152863,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -154210,7 +152996,7 @@ backup_data = {
                     "Yawn"
                 ],
                 [
-                    37,
+                    36,
                     "Rock Slide"
                 ],
                 [
@@ -154240,7 +153026,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -154269,6 +153054,7 @@ backup_data = {
                 "Incinerate",
                 "Iron Head",
                 "Lash Out",
+                "Misty Explosion",
                 "Mud Shot",
                 "Mud-Slap",
                 "Natural Gift",
@@ -154388,12 +153174,12 @@ backup_data = {
                     "Clear Smog"
                 ],
                 [
-                    46,
-                    "Explosion"
-                ],
-                [
                     45,
                     "Heat Wave"
+                ],
+                [
+                    48,
+                    "Explosion"
                 ],
                 [
                     50,
@@ -154410,7 +153196,6 @@ backup_data = {
                 "Burning Jealousy",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Earthquake",
@@ -154435,6 +153220,7 @@ backup_data = {
                 "Incinerate",
                 "Iron Defense",
                 "Iron Tail",
+                "Misty Explosion",
                 "Natural Gift",
                 "Nature Power",
                 "Overheat",
@@ -155137,11 +153923,11 @@ backup_data = {
                     "First Impression"
                 ],
                 [
-                    49,
+                    48,
                     "Superpower"
                 ],
                 [
-                    55,
+                    50,
                     "Earthquake"
                 ]
             ],
@@ -155160,6 +153946,7 @@ backup_data = {
                 "Earth Power",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Focus Energy",
                 "Frustration",
                 "Giga Drain",
@@ -155268,15 +154055,15 @@ backup_data = {
                     "Dragon Claw"
                 ],
                 [
-                    53,
+                    50,
                     "Superpower"
                 ],
                 [
-                    58,
+                    54,
                     "Earthquake"
                 ],
                 [
-                    65,
+                    55,
                     "Boomburst"
                 ]
             ],
@@ -155305,6 +154092,7 @@ backup_data = {
                 "Earth Power",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fly",
                 "Focus Energy",
                 "Frustration",
@@ -155350,7 +154138,8 @@ backup_data = {
                 "Throat Chop",
                 "Toxic",
                 "Uproar",
-                "U-turn"
+                "U-turn",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -155436,23 +154225,23 @@ backup_data = {
                     "Dragon Claw"
                 ],
                 [
-                    55,
+                    51,
                     "Superpower"
                 ],
                 [
-                    60,
+                    55,
                     "Earthquake"
                 ],
                 [
-                    69,
+                    61,
                     "Draco Meteor"
                 ],
                 [
-                    75,
+                    64,
                     "Outrage"
                 ],
                 [
-                    79,
+                    65,
                     "U-turn"
                 ]
             ],
@@ -155488,6 +154277,7 @@ backup_data = {
                 "Earth Power",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Blast",
                 "Fire Punch",
                 "Fire Spin",
@@ -155548,7 +154338,8 @@ backup_data = {
                 "Toxic",
                 "Uproar",
                 "U-turn",
-                "Vacuum Wave"
+                "Vacuum Wave",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -155556,7 +154347,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -155654,7 +154444,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Dig",
@@ -155864,7 +154653,6 @@ backup_data = {
                 "Bullet Seed",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Dig",
@@ -156071,6 +154859,7 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Dazzling Gleam",
+                "Defog",
                 "Disarming Voice",
                 "Double Team",
                 "Dragon Cheer",
@@ -156244,6 +155033,7 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Dazzling Gleam",
+                "Defog",
                 "Disarming Voice",
                 "Double-Edge",
                 "Double Team",
@@ -156412,7 +155202,6 @@ backup_data = {
                 "Captivate",
                 "Close Combat",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -156534,7 +155323,6 @@ backup_data = {
             [
                 "Belly Drum",
                 "Counter",
-                "Curse",
                 "Disable",
                 "Double Hit",
                 "Double Kick",
@@ -156644,7 +155432,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Dig",
                 "Double-Edge",
@@ -157438,7 +156225,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double-Edge",
                 "Double Team",
@@ -157585,7 +156371,7 @@ backup_data = {
                     "Fling"
                 ],
                 [
-                    37,
+                    36,
                     "Aqua Jet"
                 ],
                 [
@@ -157962,6 +156748,7 @@ backup_data = {
                 "Hidden Power",
                 "Ice Beam",
                 "Imprison",
+                "Misty Explosion",
                 "Light Screen",
                 "Natural Gift",
                 "Power Swap",
@@ -158082,15 +156869,15 @@ backup_data = {
                     "Psychic"
                 ],
                 [
-                    50,
+                    48,
                     "Power Gem"
                 ],
                 [
-                    55,
+                    51,
                     "Explosion"
                 ],
                 [
-                    60,
+                    55,
                     "Earthquake"
                 ]
             ],
@@ -158128,6 +156915,7 @@ backup_data = {
                 "Imprison",
                 "Iron Defense",
                 "Light Screen",
+                "Misty Explosion",
                 "Nasty Plot",
                 "Natural Gift",
                 "Power Swap",
@@ -158228,15 +157016,15 @@ backup_data = {
                     "Mirror Coat"
                 ],
                 [
-                    50,
+                    48,
                     "Power Gem"
                 ],
                 [
-                    55,
+                    50,
                     "Energy Ball"
                 ],
                 [
-                    59,
+                    54,
                     "Power Whip"
                 ]
             ],
@@ -158292,7 +157080,6 @@ backup_data = {
             "egg":
             [
                 "Bind",
-                "Curse",
                 "Mega Drain",
                 "Mirror Coat",
                 "Recover",
@@ -158348,15 +157135,15 @@ backup_data = {
                     "Mirror Coat"
                 ],
                 [
-                    52,
+                    48,
                     "Power Gem"
                 ],
                 [
-                    59,
+                    51,
                     "Energy Ball"
                 ],
                 [
-                    65,
+                    55,
                     "Power Whip"
                 ]
             ],
@@ -158424,7 +157211,6 @@ backup_data = {
             "egg":
             [
                 "Bind",
-                "Curse",
                 "Mega Drain",
                 "Mirror Coat",
                 "Recover",
@@ -158484,15 +157270,15 @@ backup_data = {
                     "Rapid Spin"
                 ],
                 [
-                    50,
+                    48,
                     "Leech Life"
                 ],
                 [
-                    55,
+                    51,
                     "Rock Blast"
                 ],
                 [
-                    59,
+                    55,
                     "Stone Edge"
                 ]
             ],
@@ -158555,7 +157341,6 @@ backup_data = {
             [
                 "Aqua Jet",
                 "Cross Poison",
-                "Curse",
                 "Iron Defense",
                 "Knock Off",
                 "Rapid Spin",
@@ -158620,15 +157405,15 @@ backup_data = {
                     "Rapid Spin"
                 ],
                 [
-                    52,
+                    48,
                     "Leech Life"
                 ],
                 [
-                    59,
+                    51,
                     "Rock Blast"
                 ],
                 [
-                    65,
+                    55,
                     "Stone Edge"
                 ]
             ],
@@ -158705,7 +157490,6 @@ backup_data = {
             [
                 "Aqua Jet",
                 "Cross Poison",
-                "Curse",
                 "Iron Defense",
                 "Knock Off",
                 "Rapid Spin",
@@ -158845,7 +157629,7 @@ backup_data = {
                     "Refresh"
                 ],
                 [
-                    50,
+                    48,
                     "Surf"
                 ],
                 [
@@ -158857,11 +157641,11 @@ backup_data = {
                     "Dragon Pulse"
                 ],
                 [
-                    66,
+                    65,
                     "Recover"
                 ],
                 [
-                    70,
+                    66,
                     "Scald"
                 ]
             ],
@@ -159120,35 +157904,35 @@ backup_data = {
                     "Slash"
                 ],
                 [
-                    38,
+                    36,
                     "Fake Out"
                 ],
                 [
-                    44,
+                    40,
                     "Low Kick"
                 ],
                 [
-                    50,
+                    48,
                     "Knock Off"
                 ],
                 [
-                    55,
+                    51,
                     "Body Slam"
                 ],
                 [
-                    60,
+                    55,
                     "Recover"
                 ],
                 [
-                    65,
+                    58,
                     "Drain Punch"
                 ],
                 [
-                    70,
+                    61,
                     "Sucker Punch"
                 ],
                 [
-                    75,
+                    65,
                     "Double-Edge"
                 ]
             ],
@@ -159167,6 +157951,7 @@ backup_data = {
                 "Drain Punch",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Blast",
                 "Flamethrower",
                 "Flash",
@@ -159310,7 +158095,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dazzling Gleam",
                 "Double Team",
@@ -159319,6 +158103,7 @@ backup_data = {
                 "Encore",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Foul Play",
                 "Frustration",
@@ -159480,6 +158265,7 @@ backup_data = {
                 "Encore",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Fling",
                 "Foul Play",
@@ -159639,7 +158425,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Double Team",
                 "Dream Eater",
@@ -159865,7 +158650,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Double Team",
                 "Dream Eater",
@@ -160085,7 +158869,6 @@ backup_data = {
                 "Calm Mind",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defog",
                 "Double-Edge",
@@ -160176,7 +158959,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Dragon Dance",
                 "Headbutt",
                 "Leaf Blade",
@@ -160278,7 +159060,6 @@ backup_data = {
                 "Charge Beam",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Disarming Voice",
                 "Double-Edge",
@@ -160390,7 +159171,6 @@ backup_data = {
             [
                 "Ally Switch",
                 "Cosmic Power",
-                "Curse",
                 "Disable",
                 "Hypnosis",
                 "Recover",
@@ -160511,6 +159291,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Fire Blast",
                 "Flamethrower",
                 "Flash",
@@ -160585,7 +159366,6 @@ backup_data = {
                 "Assurance",
                 "Baton Pass",
                 "Bite",
-                "Curse",
                 "Double-Edge",
                 "Feint",
                 "Hex",
@@ -160841,11 +159621,11 @@ backup_data = {
                     "Avalanche"
                 ],
                 [
-                    52,
+                    51,
                     "Blizzard"
                 ],
                 [
-                    58,
+                    55,
                     "Double-Edge"
                 ]
             ],
@@ -160885,6 +159665,7 @@ backup_data = {
                 "Icy Wind",
                 "Iron Head",
                 "Light Screen",
+                "Misty Explosion",
                 "Natural Gift",
                 "Payback",
                 "Protect",
@@ -161047,7 +159828,6 @@ backup_data = {
             [
                 "Aqua Ring",
                 "Belly Drum",
-                "Curse",
                 "Fissure",
                 "Rollout",
                 "Spit Up",
@@ -161177,7 +159957,6 @@ backup_data = {
             [
                 "Aqua Ring",
                 "Belly Drum",
-                "Curse",
                 "Fissure",
                 "Rollout",
                 "Spit Up",
@@ -161255,7 +160034,7 @@ backup_data = {
                     "Frost Breath"
                 ],
                 [
-                    52,
+                    51,
                     "Surf"
                 ],
                 [
@@ -161331,7 +160110,6 @@ backup_data = {
             [
                 "Aqua Ring",
                 "Belly Drum",
-                "Curse",
                 "Fissure",
                 "Rollout",
                 "Spit Up",
@@ -161478,6 +160256,7 @@ backup_data = {
                 "Double Team",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Frustration",
                 "Giga Impact",
                 "Hail",
@@ -161697,7 +160476,7 @@ backup_data = {
                     "Aqua Tail"
                 ],
                 [
-                    66,
+                    65,
                     "Head Smash"
                 ]
             ],
@@ -161979,7 +160758,7 @@ backup_data = {
                     "Dragon Claw"
                 ],
                 [
-                    49,
+                    50,
                     "Dragon Pulse"
                 ],
                 [
@@ -161987,11 +160766,11 @@ backup_data = {
                     "Fire Blast"
                 ],
                 [
-                    61,
+                    59,
                     "Double-Edge"
                 ],
                 [
-                    67,
+                    60,
                     "Outrage"
                 ]
             ],
@@ -162129,15 +160908,15 @@ backup_data = {
                     "Dragon Pulse"
                 ],
                 [
-                    58,
+                    55,
                     "Fire Blast"
                 ],
                 [
-                    64,
+                    59,
                     "Double-Edge"
                 ],
                 [
-                    71,
+                    60,
                     "Outrage"
                 ]
             ],
@@ -162288,15 +161067,15 @@ backup_data = {
                     "Dragon Pulse"
                 ],
                 [
-                    60,
+                    55,
                     "Fire Blast"
                 ],
                 [
-                    67,
+                    60,
                     "Dual Wingbeat"
                 ],
                 [
-                    75,
+                    65,
                     "Outrage"
                 ]
             ],
@@ -162569,7 +161348,6 @@ backup_data = {
                 "Brick Break",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -162624,19 +161402,19 @@ backup_data = {
                     "Iron Head"
                 ],
                 [
-                    56,
+                    55,
                     "Bullet Punch"
                 ],
                 [
-                    62,
+                    61,
                     "Zen Headbutt"
                 ],
                 [
-                    70,
+                    65,
                     "Psych Up"
                 ],
                 [
-                    75,
+                    66,
                     "Meteor Mash"
                 ]
             ],
@@ -162682,6 +161460,7 @@ backup_data = {
                 "Light Screen",
                 "Metal Claw",
                 "Meteor Beam",
+                "Misty Explosion",
                 "Mud-Slap",
                 "Natural Gift",
                 "Power-Up Punch",
@@ -162733,7 +161512,6 @@ backup_data = {
                 "Brick Break",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -162768,7 +161546,6 @@ backup_data = {
                 "Bulldoze",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -162841,7 +161618,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder",
                 "Thunder Punch"
@@ -162882,7 +161658,6 @@ backup_data = {
                 "Bulldoze",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Double Team",
                 "Earthquake",
                 "Endure",
@@ -162946,7 +161721,6 @@ backup_data = {
                 "Brick Break",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -162984,7 +161758,6 @@ backup_data = {
                 "Bulldoze",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Earthquake",
@@ -163055,7 +161828,6 @@ backup_data = {
                 "Brick Break",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -163139,7 +161911,7 @@ backup_data = {
                     "Psychic"
                 ],
                 [
-                    85,
+                    81,
                     "Protect"
                 ]
             ],
@@ -163188,6 +161960,7 @@ backup_data = {
                 "Giga Impact",
                 "Grass Knot",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hone Claws",
                 "Hyper Beam",
@@ -163330,7 +162103,7 @@ backup_data = {
                     "Psychic"
                 ],
                 [
-                    85,
+                    81,
                     "Draco Meteor"
                 ]
             ],
@@ -163376,6 +162149,7 @@ backup_data = {
                 "Giga Impact",
                 "Grass Knot",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hone Claws",
                 "Hyper Beam",
@@ -164211,7 +162985,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -165088,7 +163861,7 @@ backup_data = {
                     "Nature Power"
                 ],
                 [
-                    32,
+                    30,
                     "Seed Bomb"
                 ],
                 [
@@ -165114,7 +163887,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Double-Edge",
                 "Double Team",
@@ -165254,7 +164026,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Double-Edge",
                 "Double Team",
@@ -165376,23 +164147,23 @@ backup_data = {
                     "Mega Drain"
                 ],
                 [
-                    27,
+                    29,
                     "Nature Power"
                 ],
                 [
-                    30,
+                    32,
                     "Seed Bomb"
                 ],
                 [
-                    46,
+                    40,
                     "Giga Drain"
                 ],
                 [
-                    40,
+                    45,
                     "Crunch"
                 ],
                 [
-                    47,
+                    48,
                     "Earthquake"
                 ],
                 [
@@ -165411,7 +164182,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Double-Edge",
                 "Double Team",
@@ -165644,7 +164414,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -165815,7 +164584,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -165906,7 +164674,7 @@ backup_data = {
                     "Laser Focus"
                 ],
                 [
-                    57,
+                    55,
                     "Close Combat"
                 ]
             ],
@@ -166021,7 +164789,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -166385,7 +165152,7 @@ backup_data = {
                     "Scald"
                 ],
                 [
-                    56,
+                    55,
                     "Hydro Pump"
                 ]
             ],
@@ -166773,19 +165540,19 @@ backup_data = {
                     "Tailwind"
                 ],
                 [
-                    41,
+                    40,
                     "Close Combat"
                 ],
                 [
-                    47,
+                    48,
                     "Brave Bird"
                 ],
                 [
-                    53,
+                    51,
                     "Double-Edge"
                 ],
                 [
-                    60,
+                    55,
                     "Mirror Move"
                 ]
             ],
@@ -167546,7 +166313,7 @@ backup_data = {
                     "Wild Charge"
                 ],
                 [
-                    36,
+                    35,
                     "Crunch"
                 ],
                 [
@@ -167677,11 +166444,11 @@ backup_data = {
                     "Wild Charge"
                 ],
                 [
-                    38,
+                    36,
                     "Crunch"
                 ],
                 [
-                    42,
+                    40,
                     "Thunderbolt"
                 ],
                 [
@@ -167689,7 +166456,7 @@ backup_data = {
                     "Play Rough"
                 ],
                 [
-                    55,
+                    51,
                     "Zing Zap"
                 ]
             ],
@@ -167912,11 +166679,11 @@ backup_data = {
                     "Synthesis"
                 ],
                 [
-                    55,
+                    51,
                     "Sludge Bomb"
                 ],
                 [
-                    65,
+                    55,
                     "Leaf Storm"
                 ]
             ],
@@ -168038,11 +166805,11 @@ backup_data = {
                     "Double-Edge"
                 ],
                 [
-                    50,
+                    48,
                     "Stone Edge"
                 ],
                 [
-                    60,
+                    55,
                     "Head Smash"
                 ]
             ],
@@ -168055,7 +166822,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -168124,7 +166890,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -168189,19 +166954,19 @@ backup_data = {
                     "Zen Headbutt"
                 ],
                 [
-                    48,
+                    47,
                     "Double-Edge"
                 ],
                 [
-                    54,
+                    48,
                     "Stone Edge"
                 ],
                 [
-                    59,
+                    55,
                     "Earthquake"
                 ],
                 [
-                    69,
+                    60,
                     "Head Smash"
                 ]
             ],
@@ -168218,7 +166983,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -168299,14 +167063,12 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Crunch",
-                "Curse",
                 "Double-Edge",
                 "Hammer Arm",
                 "Iron Head",
@@ -168378,7 +167140,6 @@ backup_data = {
                 "Bulldoze",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -168443,7 +167204,6 @@ backup_data = {
                 "Blizzard",
                 "Fire Blast",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder"
             ],
             "egg":
@@ -168519,7 +167279,6 @@ backup_data = {
                 "Bulldoze",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -168591,14 +167350,12 @@ backup_data = {
                 "Blizzard",
                 "Fire Blast",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder"
             ],
             "egg":
             [
                 "Body Slam",
                 "Counter",
-                "Curse",
                 "Double-Edge",
                 "Fissure",
                 "Focus Energy",
@@ -169028,7 +167785,7 @@ backup_data = {
                     "Revenge"
                 ],
                 [
-                    41,
+                    40,
                     "Dual Wingbeat"
                 ],
                 [
@@ -169036,11 +167793,11 @@ backup_data = {
                     "Attack Order"
                 ],
                 [
-                    55,
+                    51,
                     "Defend Order"
                 ],
                 [
-                    65,
+                    55,
                     "Heal Order"
                 ]
             ],
@@ -169117,7 +167874,8 @@ backup_data = {
                 "Uproar",
                 "U-turn",
                 "Venoshock",
-                "X-Scissor"
+                "X-Scissor",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -169956,7 +168714,7 @@ backup_data = {
                     "Muddy Water"
                 ],
                 [
-                    45,
+                    43,
                     "Sludge Bomb"
                 ],
                 [
@@ -169964,11 +168722,11 @@ backup_data = {
                     "Scald"
                 ],
                 [
-                    55,
+                    52,
                     "Toxic"
                 ],
                 [
-                    60,
+                    55,
                     "Recover"
                 ]
             ],
@@ -169983,7 +168741,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dive",
                 "Double Team",
                 "Earth Power",
@@ -170040,7 +168797,6 @@ backup_data = {
                 "Acid Armor",
                 "Clear Smog",
                 "Counter",
-                "Curse",
                 "Mirror Coat",
                 "Mist",
                 "Sludge",
@@ -170091,7 +168847,7 @@ backup_data = {
                     "Whirlpool"
                 ],
                 [
-                    32,
+                    30,
                     "Ancient Power"
                 ],
                 [
@@ -170099,27 +168855,27 @@ backup_data = {
                     "Earth Power"
                 ],
                 [
-                    42,
+                    40,
                     "Muddy Water"
                 ],
                 [
-                    47,
+                    44,
                     "Sludge Bomb"
                 ],
                 [
-                    50,
+                    48,
                     "Scald"
                 ],
                 [
-                    55,
+                    51,
                     "Earthquake"
                 ],
                 [
-                    60,
+                    52,
                     "Toxic"
                 ],
                 [
-                    70,
+                    55,
                     "Recover"
                 ]
             ],
@@ -170134,7 +168890,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Double Team",
@@ -170206,7 +168961,6 @@ backup_data = {
                 "Acid Armor",
                 "Clear Smog",
                 "Counter",
-                "Curse",
                 "Mirror Coat",
                 "Mist",
                 "Sludge",
@@ -170269,27 +169023,27 @@ backup_data = {
                     "Double Hit"
                 ],
                 [
-                    49,
+                    48,
                     "Fake Out"
                 ],
                 [
-                    55,
+                    51,
                     "Fling"
                 ],
                 [
-                    62,
+                    55,
                     "Dual Chop"
                 ],
                 [
-                    66,
+                    60,
                     "U-turn"
                 ],
                 [
-                    70,
+                    61,
                     "Tail Slap"
                 ],
                 [
-                    75,
+                    65,
                     "Last Resort"
                 ]
             ],
@@ -170381,7 +169135,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -170478,7 +169231,6 @@ backup_data = {
                 "Captivate",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defog",
                 "Double Team",
@@ -170499,6 +169251,7 @@ backup_data = {
                 "Icy Wind",
                 "Imprison",
                 "Knock Off",
+                "Misty Explosion",
                 "Natural Gift",
                 "Night Shade",
                 "Pain Split",
@@ -170600,7 +169353,7 @@ backup_data = {
                     "Defog"
                 ],
                 [
-                    43,
+                    40,
                     "Self-Destruct"
                 ],
                 [
@@ -170608,15 +169361,15 @@ backup_data = {
                     "Shadow Ball"
                 ],
                 [
-                    56,
+                    51,
                     "Acrobatics"
                 ],
                 [
-                    61,
+                    55,
                     "Tailwind"
                 ],
                 [
-                    67,
+                    60,
                     "Explosion"
                 ]
             ],
@@ -170636,7 +169389,6 @@ backup_data = {
                 "Captivate",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Defog",
                 "Double Team",
@@ -170757,7 +169509,7 @@ backup_data = {
                     "Charm"
                 ],
                 [
-                    60,
+                    55,
                     "Healing Wish"
                 ]
             ],
@@ -170918,11 +169670,11 @@ backup_data = {
                     "Copycat"
                 ],
                 [
-                    50,
+                    48,
                     "Double-Edge"
                 ],
                 [
-                    60,
+                    55,
                     "High Jump Kick"
                 ]
             ],
@@ -171084,7 +169836,6 @@ backup_data = {
                 "Charm",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dazzling Gleam",
                 "Double Team",
@@ -171198,7 +169949,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Destiny Bond",
                 "Imprison",
                 "Memento",
@@ -171266,27 +170016,27 @@ backup_data = {
                     "Dark Pulse"
                 ],
                 [
-                    38,
+                    36,
                     "Drill Peck"
                 ],
                 [
-                    42,
+                    40,
                     "Air Slash"
                 ],
                 [
-                    46,
+                    45,
                     "Sucker Punch"
                 ],
                 [
-                    51,
+                    48,
                     "Whirlwind"
                 ],
                 [
-                    55,
+                    51,
                     "Brave Bird"
                 ],
                 [
-                    60,
+                    55,
                     "Superpower"
                 ]
             ],
@@ -171314,6 +170064,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "Feather Dance",
+                "Feint Attack",
                 "Fly",
                 "Foul Play",
                 "Frustration",
@@ -171741,7 +170492,6 @@ backup_data = {
                 "Captivate",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Double-Edge",
                 "Double Team",
@@ -171833,7 +170583,6 @@ backup_data = {
             [
                 "Ally Switch",
                 "Cosmic Power",
-                "Curse",
                 "Disable",
                 "Hypnosis",
                 "Recover",
@@ -171898,11 +170647,7 @@ backup_data = {
                     "Clear Smog"
                 ],
                 [
-                    42,
-                    "Poison Jab"
-                ],
-                [
-                    45,
+                    40,
                     "Flamethrower"
                 ],
                 [
@@ -171910,7 +170655,7 @@ backup_data = {
                     "Knock Off"
                 ],
                 [
-                    52,
+                    51,
                     "Explosion"
                 ]
             ],
@@ -172066,19 +170811,15 @@ backup_data = {
                     "Clear Smog"
                 ],
                 [
-                    43,
-                    "Poison Jab"
-                ],
-                [
-                    47,
+                    40,
                     "Flamethrower"
                 ],
                 [
-                    51,
+                    48,
                     "Knock Off"
                 ],
                 [
-                    56,
+                    51,
                     "Explosion"
                 ]
             ],
@@ -172120,6 +170861,7 @@ backup_data = {
                 "Iron Tail",
                 "Knock Off",
                 "Lash Out",
+                "Misty Explosion",
                 "Nasty Plot",
                 "Natural Gift",
                 "Payback",
@@ -172578,7 +171320,6 @@ backup_data = {
                 "Calm Mind",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -172635,12 +171376,10 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
             [
-                "Curse",
                 "Defense Curl",
                 "Harden",
                 "Headbutt",
@@ -173215,11 +171954,11 @@ backup_data = {
                     "Hex"
                 ],
                 [
-                    52,
+                    48,
                     "Sucker Punch"
                 ],
                 [
-                    60,
+                    55,
                     "Shadow Ball"
                 ]
             ],
@@ -173240,6 +171979,7 @@ backup_data = {
                 "Embargo",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Foul Play",
                 "Frustration",
@@ -173355,19 +172095,19 @@ backup_data = {
                     "Sand Tomb"
                 ],
                 [
-                    48,
+                    47,
                     "Iron Tail"
                 ],
                 [
-                    55,
+                    51,
                     "Earthquake"
                 ],
                 [
-                    62,
+                    55,
                     "Dual Chop"
                 ],
                 [
-                    69,
+                    61,
                     "Outrage"
                 ]
             ],
@@ -173498,19 +172238,19 @@ backup_data = {
                     "Sand Tomb"
                 ],
                 [
-                    51,
+                    48,
                     "Iron Tail"
                 ],
                 [
-                    58,
+                    54,
                     "Earthquake"
                 ],
                 [
-                    66,
+                    60,
                     "Dual Chop"
                 ],
                 [
-                    73,
+                    65,
                     "Outrage"
                 ]
             ],
@@ -173644,19 +172384,19 @@ backup_data = {
                     "Sand Tomb"
                 ],
                 [
-                    52,
+                    48,
                     "Iron Tail"
                 ],
                 [
-                    60,
+                    55,
                     "Earthquake"
                 ],
                 [
-                    69,
+                    61,
                     "Dual Chop"
                 ],
                 [
-                    77,
+                    66,
                     "Outrage"
                 ]
             ],
@@ -173747,7 +172487,6 @@ backup_data = {
                 "Brick Break",
                 "Fire Blast",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -173876,7 +172615,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -173991,7 +172729,6 @@ backup_data = {
             [
                 "Belch",
                 "Counter",
-                "Curse",
                 "Double-Edge",
                 "Fissure"
             ]
@@ -174045,7 +172782,7 @@ backup_data = {
                     "Final Gambit"
                 ],
                 [
-                    56,
+                    55,
                     "Reversal"
                 ]
             ],
@@ -174128,7 +172865,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -174201,11 +172937,11 @@ backup_data = {
                     "Extreme Speed"
                 ],
                 [
-                    55,
+                    51,
                     "Final Gambit"
                 ],
                 [
-                    60,
+                    55,
                     "Meteor Mash"
                 ],
                 [
@@ -174246,6 +172982,7 @@ backup_data = {
                 "Frustration",
                 "Giga Impact",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hone Claws",
                 "Hyper Beam",
@@ -174310,7 +173047,6 @@ backup_data = {
                 "Brick Break",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -174400,7 +173136,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -174470,7 +173205,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Spit Up",
                 "Stockpile",
                 "Swallow",
@@ -174572,7 +173306,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -174655,7 +173388,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Spit Up",
                 "Stockpile",
                 "Swallow",
@@ -174719,11 +173451,11 @@ backup_data = {
                     "Poison Jab"
                 ],
                 [
-                    41,
+                    40,
                     "Scary Face"
                 ],
                 [
-                    42,
+                    41,
                     "Crunch"
                 ],
                 [
@@ -174754,6 +173486,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Flash",
                 "Fling",
                 "Frustration",
@@ -174886,7 +173619,7 @@ backup_data = {
                     "Poison Jab"
                 ],
                 [
-                    42,
+                    40,
                     "Scary Face"
                 ],
                 [
@@ -174894,11 +173627,11 @@ backup_data = {
                     "Crunch"
                 ],
                 [
-                    49,
+                    48,
                     "Leech Life"
                 ],
                 [
-                    54,
+                    51,
                     "Cross Poison"
                 ]
             ],
@@ -174924,6 +173657,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Fire Fang",
                 "Flash",
                 "Fling",
@@ -175055,7 +173789,7 @@ backup_data = {
                     "Toxic"
                 ],
                 [
-                    42,
+                    40,
                     "Venoshock"
                 ],
                 [
@@ -175063,11 +173797,11 @@ backup_data = {
                     "Cross Chop"
                 ],
                 [
-                    49,
+                    48,
                     "Gunk Shot"
                 ],
                 [
-                    55,
+                    51,
                     "Belch"
                 ]
             ],
@@ -175095,6 +173829,7 @@ backup_data = {
                 "Encore",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fling",
                 "Focus Blast",
                 "Focus Punch",
@@ -175246,11 +173981,11 @@ backup_data = {
                     "Cross Chop"
                 ],
                 [
-                    54,
+                    51,
                     "Gunk Shot"
                 ],
                 [
-                    60,
+                    55,
                     "Belch"
                 ]
             ],
@@ -175281,6 +174016,7 @@ backup_data = {
                 "Encore",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fling",
                 "Focus Blast",
                 "Focus Punch",
@@ -175356,7 +174092,6 @@ backup_data = {
                 "Brick Break",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -175414,7 +174149,7 @@ backup_data = {
                     "Synthesis"
                 ],
                 [
-                    42,
+                    40,
                     "Leaf Storm"
                 ],
                 [
@@ -175422,15 +174157,15 @@ backup_data = {
                     "Knock Off"
                 ],
                 [
-                    50,
+                    48,
                     "Sleep Powder"
                 ],
                 [
-                    56,
+                    51,
                     "Wring Out"
                 ],
                 [
-                    60,
+                    55,
                     "Power Whip"
                 ]
             ],
@@ -175441,10 +174176,12 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Cut",
+                "Defog",
                 "Double Team",
                 "Endure",
                 "Energy Ball",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Fling",
                 "Frustration",
@@ -175647,7 +174384,7 @@ backup_data = {
                     "Air Slash"
                 ],
                 [
-                    42,
+                    40,
                     "U-turn"
                 ],
                 [
@@ -175655,7 +174392,7 @@ backup_data = {
                     "Hydro Pump"
                 ],
                 [
-                    50,
+                    48,
                     "Hurricane"
                 ]
             ],
@@ -175966,7 +174703,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Endure",
@@ -176094,11 +174830,11 @@ backup_data = {
                     "Synthesis"
                 ],
                 [
-                    53,
+                    51,
                     "Wood Hammer"
                 ],
                 [
-                    61,
+                    55,
                     "Blizzard"
                 ]
             ],
@@ -176115,7 +174851,6 @@ backup_data = {
                 "Captivate",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Earthquake",
@@ -176257,11 +174992,11 @@ backup_data = {
                     "Night Slash"
                 ],
                 [
-                    37,
+                    36,
                     "Low Kick"
                 ],
                 [
-                    43,
+                    40,
                     "Icicle Crash"
                 ],
                 [
@@ -176269,11 +175004,11 @@ backup_data = {
                     "Knock Off"
                 ],
                 [
-                    52,
+                    51,
                     "Ice Shard"
                 ],
                 [
-                    57,
+                    55,
                     "Triple Axel"
                 ]
             ],
@@ -176302,6 +175037,7 @@ backup_data = {
                 "Facade",
                 "Fake Tears",
                 "False Swipe",
+                "Feint Attack",
                 "Fling",
                 "Focus Blast",
                 "Focus Punch",
@@ -176382,7 +175118,6 @@ backup_data = {
                 "Brick Break",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -176454,7 +175189,7 @@ backup_data = {
                     "Mirror Shot"
                 ],
                 [
-                    43,
+                    40,
                     "Electroweb"
                 ],
                 [
@@ -176462,11 +175197,11 @@ backup_data = {
                     "Signal Beam"
                 ],
                 [
-                    52,
+                    51,
                     "Thunderbolt"
                 ],
                 [
-                    56,
+                    54,
                     "Flash Cannon"
                 ],
                 [
@@ -176474,7 +175209,7 @@ backup_data = {
                     "Metal Sound"
                 ],
                 [
-                    67,
+                    65,
                     "Explosion"
                 ]
             ],
@@ -176511,6 +175246,7 @@ backup_data = {
                 "Iron Head",
                 "Light Screen",
                 "Metal Sound",
+                "Misty Explosion",
                 "Natural Gift",
                 "Protect",
                 "Psych Up",
@@ -176769,7 +175505,6 @@ backup_data = {
                 "Belch",
                 "Belly Drum",
                 "Body Slam",
-                "Curse",
                 "Hammer Arm",
                 "Muddy Water",
                 "Snore",
@@ -176862,27 +175597,27 @@ backup_data = {
                     "High Horsepower"
                 ],
                 [
-                    52,
+                    51,
                     "Megahorn"
                 ],
                 [
-                    57,
+                    55,
                     "Stone Edge"
                 ],
                 [
-                    60,
+                    58,
                     "Giga Impact"
                 ],
                 [
-                    64,
+                    60,
                     "Earthquake"
                 ],
                 [
-                    70,
+                    66,
                     "Head Smash"
                 ],
                 [
-                    77,
+                    67,
                     "Rock Wrecker"
                 ]
             ],
@@ -176900,7 +175635,6 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -177006,7 +175740,6 @@ backup_data = {
                 "Headbutt",
                 "Hydro Pump",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder",
                 "Thunder Punch"
@@ -177016,7 +175749,6 @@ backup_data = {
                 "Counter",
                 "Crunch",
                 "Crush Claw",
-                "Curse",
                 "Dragon Rush",
                 "Fire Fang",
                 "Guard Split",
@@ -177311,7 +176043,7 @@ backup_data = {
                     "Wild Charge"
                 ],
                 [
-                    57,
+                    55,
                     "Thunder"
                 ]
             ],
@@ -177464,11 +176196,11 @@ backup_data = {
                 ],
                 [
                     23,
-                    "Lava Plume"
+                    "Toxic"
                 ],
                 [
-                    26,
-                    "Toxic"
+                    27,
+                    "Lava Plume"
                 ],
                 [
                     29,
@@ -177491,7 +176223,7 @@ backup_data = {
                     "Will-O-Wisp"
                 ],
                 [
-                    57,
+                    55,
                     "Fire Blast"
                 ]
             ],
@@ -177506,12 +176238,12 @@ backup_data = {
                 "Captivate",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Earthquake",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Blast",
                 "Fire Punch",
                 "Fire Spin",
@@ -177659,27 +176391,27 @@ backup_data = {
                     "Follow Me"
                 ],
                 [
-                    39,
+                    36,
                     "Dual Wingbeat"
                 ],
                 [
-                    44,
+                    40,
                     "Draining Kiss"
                 ],
                 [
-                    49,
+                    44,
                     "Safeguard"
                 ],
                 [
-                    54,
+                    47,
                     "After You"
                 ],
                 [
-                    59,
+                    48,
                     "Air Slash"
                 ],
                 [
-                    64,
+                    55,
                     "Dazzling Gleam"
                 ]
             ],
@@ -177769,7 +176501,8 @@ backup_data = {
                 "Uproar",
                 "Water Pulse",
                 "Work Up",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -177833,27 +176566,27 @@ backup_data = {
                     "Ancient Power"
                 ],
                 [
-                    38,
+                    36,
                     "Hypnosis"
                 ],
                 [
-                    42,
+                    40,
                     "Signal Beam"
                 ],
                 [
-                    46,
+                    41,
                     "Giga Drain"
                 ],
                 [
-                    49,
+                    48,
                     "Air Slash"
                 ],
                 [
-                    56,
+                    51,
                     "Bug Buzz"
                 ],
                 [
-                    65,
+                    55,
                     "Hurricane"
                 ]
             ],
@@ -178048,7 +176781,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -178144,7 +176876,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Flail",
@@ -178273,7 +177004,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -178361,7 +177091,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Flail",
@@ -178420,7 +177149,7 @@ backup_data = {
                     "X-Scissor"
                 ],
                 [
-                    41,
+                    40,
                     "Knock Off"
                 ],
                 [
@@ -178428,11 +177157,11 @@ backup_data = {
                     "Earthquake"
                 ],
                 [
-                    56,
+                    51,
                     "Acrobatics"
                 ],
                 [
-                    65,
+                    60,
                     "U-turn"
                 ]
             ],
@@ -178462,6 +177191,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Fire Fang",
                 "Fling",
                 "Frustration",
@@ -178531,7 +177261,6 @@ backup_data = {
                 "Bug Bite",
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -178613,7 +177342,7 @@ backup_data = {
                     "Stomping Tantrum"
                 ],
                 [
-                    38,
+                    39,
                     "Ancient Power"
                 ],
                 [
@@ -178621,15 +177350,15 @@ backup_data = {
                     "Roar"
                 ],
                 [
-                    50,
+                    48,
                     "Superpower"
                 ],
                 [
-                    58,
+                    51,
                     "Earthquake"
                 ],
                 [
-                    65,
+                    55,
                     "Icicle Crash"
                 ]
             ],
@@ -178645,7 +177374,6 @@ backup_data = {
                 "Captivate",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -178717,7 +177445,6 @@ backup_data = {
             [
                 "Ancient Power",
                 "Bite",
-                "Curse",
                 "Double-Edge",
                 "Fissure",
                 "Freeze-Dry",
@@ -178777,15 +177504,15 @@ backup_data = {
                     "Tri Attack"
                 ],
                 [
-                    50,
+                    48,
                     "Thunder Wave"
                 ],
                 [
-                    56,
+                    54,
                     "Thunderbolt"
                 ],
                 [
-                    62,
+                    55,
                     "Hyper Beam"
                 ]
             ],
@@ -178913,19 +177640,19 @@ backup_data = {
                     "Helping Hand"
                 ],
                 [
-                    49,
+                    44,
                     "Shadow Sneak"
                 ],
                 [
-                    53,
+                    48,
                     "Drain Punch"
                 ],
                 [
-                    62,
+                    51,
                     "Zen Headbutt"
                 ],
                 [
-                    67,
+                    55,
                     "Close Combat"
                 ]
             ],
@@ -178975,6 +177702,7 @@ backup_data = {
                 "Giga Impact",
                 "Grass Knot",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hex",
                 "Hidden Power",
                 "Hyper Beam",
@@ -179063,7 +177791,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -179136,23 +177863,23 @@ backup_data = {
                     "Discharge"
                 ],
                 [
-                    49,
+                    47,
                     "Earth Power"
                 ],
                 [
-                    53,
+                    48,
                     "Gravity"
                 ],
                 [
-                    57,
+                    51,
                     "Zap Cannon"
                 ],
                 [
-                    61,
+                    53,
                     "Power Gem"
                 ],
                 [
-                    65,
+                    55,
                     "Flash Cannon"
                 ]
             ],
@@ -179164,7 +177891,6 @@ backup_data = {
                 "Bulldoze",
                 "Captivate",
                 "Confide",
-                "Curse",
                 "Dazzling Gleam",
                 "Double-Edge",
                 "Double Team",
@@ -179189,6 +177915,7 @@ backup_data = {
                 "Iron Head",
                 "Metal Sound",
                 "Meteor Beam",
+                "Misty Explosion",
                 "Natural Gift",
                 "Pain Split",
                 "Power Gem",
@@ -179232,7 +177959,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -179370,7 +178096,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Darkest Lariat",
                 "Dark Pulse",
                 "Double Team",
@@ -179551,11 +178276,11 @@ backup_data = {
                     "Hex"
                 ],
                 [
-                    52,
+                    51,
                     "Ice Beam"
                 ],
                 [
-                    58,
+                    55,
                     "Shadow Ball"
                 ]
             ],
@@ -179573,7 +178298,6 @@ backup_data = {
                 "Confide",
                 "Confuse Ray",
                 "Crunch",
-                "Curse",
                 "Double Team",
                 "Draining Kiss",
                 "Dream Eater",
@@ -181366,7 +180090,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Defog",
@@ -181989,7 +180712,6 @@ backup_data = {
                 "Charge Beam",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Double Team",
@@ -183731,11 +182453,11 @@ backup_data = {
                     "Fusion Bolt"
                 ],
                 [
-                    89,
+                    82,
                     "Fusion Flare"
                 ],
                 [
-                    97,
+                    83,
                     "V-create"
                 ]
             ],
@@ -183884,7 +182606,7 @@ backup_data = {
                     "Leaf Blade"
                 ],
                 [
-                    45,
+                    48,
                     "Glare"
                 ],
                 [
@@ -183892,7 +182614,7 @@ backup_data = {
                     "Synthesis"
                 ],
                 [
-                    55,
+                    54,
                     "Leaf Storm"
                 ]
             ],
@@ -183904,6 +182626,7 @@ backup_data = {
                 "Calm Mind",
                 "Confide",
                 "Cut",
+                "Defog",
                 "Double-Edge",
                 "Double Team",
                 "Endure",
@@ -184019,11 +182742,11 @@ backup_data = {
                     "Glare"
                 ],
                 [
-                    52,
+                    50,
                     "Synthesis"
                 ],
                 [
-                    58,
+                    54,
                     "Leaf Storm"
                 ]
             ],
@@ -184035,6 +182758,7 @@ backup_data = {
                 "Calm Mind",
                 "Confide",
                 "Cut",
+                "Defog",
                 "Double-Edge",
                 "Double Team",
                 "Endure",
@@ -184150,7 +182874,7 @@ backup_data = {
                     "Wring Out"
                 ],
                 [
-                    42,
+                    40,
                     "Giga Drain"
                 ],
                 [
@@ -184158,15 +182882,15 @@ backup_data = {
                     "Leaf Blade"
                 ],
                 [
-                    52,
+                    48,
                     "Glare"
                 ],
                 [
-                    57,
+                    51,
                     "Synthesis"
                 ],
                 [
-                    64,
+                    55,
                     "Leaf Storm"
                 ]
             ],
@@ -184181,6 +182905,7 @@ backup_data = {
                 "Calm Mind",
                 "Confide",
                 "Cut",
+                "Defog",
                 "Double-Edge",
                 "Double Team",
                 "Dragon Pulse",
@@ -184266,7 +182991,7 @@ backup_data = {
                     "Tail Whip"
                 ],
                 [
-                    5,
+                    6,
                     "Ember"
                 ],
                 [
@@ -184323,7 +183048,6 @@ backup_data = {
                 "Attract",
                 "Body Slam",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -184402,7 +183126,7 @@ backup_data = {
                     "Tail Whip"
                 ],
                 [
-                    5,
+                    6,
                     "Ember"
                 ],
                 [
@@ -184450,7 +183174,7 @@ backup_data = {
                     "Jump Kick"
                 ],
                 [
-                    48,
+                    50,
                     "Head Smash"
                 ],
                 [
@@ -184468,7 +183192,6 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -184541,7 +183264,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -184550,7 +183272,6 @@ backup_data = {
                 "Body Slam",
                 "Burn Up",
                 "Covet",
-                "Curse",
                 "Endeavor",
                 "Heavy Slam",
                 "Magnitude",
@@ -184574,7 +183295,7 @@ backup_data = {
                     "Tail Whip"
                 ],
                 [
-                    5,
+                    6,
                     "Ember"
                 ],
                 [
@@ -184626,15 +183347,15 @@ backup_data = {
                     "Head Smash"
                 ],
                 [
-                    57,
+                    55,
                     "Flare Blitz"
                 ],
                 [
-                    64,
+                    60,
                     "Burn Up"
                 ],
                 [
-                    72,
+                    65,
                     "Superpower"
                 ]
             ],
@@ -184650,7 +183371,6 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -184730,7 +183450,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -184739,7 +183458,6 @@ backup_data = {
                 "Body Slam",
                 "Burn Up",
                 "Covet",
-                "Curse",
                 "Endeavor",
                 "Heavy Slam",
                 "Magnitude",
@@ -184935,15 +183653,15 @@ backup_data = {
                     "Liquidation"
                 ],
                 [
-                    39,
+                    44,
                     "Sacred Sword"
                 ],
                 [
-                    43,
+                    48,
                     "Aqua Jet"
                 ],
                 [
-                    48,
+                    51,
                     "Encore"
                 ],
                 [
@@ -184951,7 +183669,7 @@ backup_data = {
                     "Aqua Tail"
                 ],
                 [
-                    60,
+                    65,
                     "Hydro Pump"
                 ]
             ],
@@ -185102,15 +183820,15 @@ backup_data = {
                     "Aqua Jet"
                 ],
                 [
-                    53,
+                    51,
                     "Encore"
                 ],
                 [
-                    59,
+                    54,
                     "Aqua Tail"
                 ],
                 [
-                    65,
+                    55,
                     "Hydro Pump"
                 ]
             ],
@@ -187073,7 +185791,7 @@ backup_data = {
                     "Dream Eater"
                 ],
                 [
-                    60,
+                    54,
                     "Dark Void"
                 ]
             ],
@@ -187135,7 +185853,6 @@ backup_data = {
             [],
             "egg":
             [
-                "Curse",
                 "Healing Wish"
             ]
         },
@@ -187212,15 +185929,15 @@ backup_data = {
                     "Moonblast"
                 ],
                 [
-                    52,
+                    51,
                     "Future Sight"
                 ],
                 [
-                    58,
+                    55,
                     "Dream Eater"
                 ],
                 [
-                    69,
+                    61,
                     "Dark Void"
                 ]
             ],
@@ -187285,7 +186002,6 @@ backup_data = {
             [],
             "egg":
             [
-                "Curse",
                 "Healing Wish"
             ]
         },
@@ -188083,7 +186799,6 @@ backup_data = {
             "egg":
             [
                 "Autotomize",
-                "Curse",
                 "Gravity",
                 "Take Down",
                 "Wide Guard"
@@ -188142,7 +186857,7 @@ backup_data = {
                     "Stone Edge"
                 ],
                 [
-                    55,
+                    54,
                     "Explosion"
                 ]
             ],
@@ -188163,6 +186878,7 @@ backup_data = {
                 "Heavy Slam",
                 "Hidden Power",
                 "Iron Defense",
+                "Misty Explosion",
                 "Nature Power",
                 "Power Gem",
                 "Protect",
@@ -188196,7 +186912,6 @@ backup_data = {
             "egg":
             [
                 "Autotomize",
-                "Curse",
                 "Gravity",
                 "Take Down",
                 "Wide Guard"
@@ -188255,7 +186970,7 @@ backup_data = {
                     "Rock Slide"
                 ],
                 [
-                    41,
+                    40,
                     "Sand Tomb"
                 ],
                 [
@@ -188263,11 +186978,11 @@ backup_data = {
                     "Earthquake"
                 ],
                 [
-                    53,
+                    51,
                     "Stone Edge"
                 ],
                 [
-                    61,
+                    55,
                     "Explosion"
                 ]
             ],
@@ -188291,6 +187006,7 @@ backup_data = {
                 "Hyper Beam",
                 "Iron Defense",
                 "Iron Head",
+                "Misty Explosion",
                 "Nature Power",
                 "Power Gem",
                 "Protect",
@@ -188329,7 +187045,6 @@ backup_data = {
             "egg":
             [
                 "Autotomize",
-                "Curse",
                 "Gravity",
                 "Take Down",
                 "Wide Guard"
@@ -188765,15 +187480,15 @@ backup_data = {
                     "Crush Claw"
                 ],
                 [
-                    50,
+                    48,
                     "Stone Edge"
                 ],
                 [
-                    55,
+                    52,
                     "High Horsepower"
                 ],
                 [
-                    60,
+                    54,
                     "Earthquake"
                 ]
             ],
@@ -188784,7 +187499,6 @@ backup_data = {
                 "Brick Break",
                 "Bulldoze",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -188837,7 +187551,6 @@ backup_data = {
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -188899,15 +187612,15 @@ backup_data = {
                     "Iron Head"
                 ],
                 [
-                    52,
+                    51,
                     "Stone Edge"
                 ],
                 [
-                    58,
+                    54,
                     "High Horsepower"
                 ],
                 [
-                    65,
+                    56,
                     "Earthquake"
                 ]
             ],
@@ -188920,7 +187633,6 @@ backup_data = {
                 "Brutal Swing",
                 "Bulldoze",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -188982,7 +187694,6 @@ backup_data = {
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -189037,7 +187748,7 @@ backup_data = {
                     "Follow Me"
                 ],
                 [
-                    41,
+                    40,
                     "Return"
                 ],
                 [
@@ -189045,19 +187756,19 @@ backup_data = {
                     "Wish"
                 ],
                 [
-                    50,
+                    48,
                     "Heal Pulse"
                 ],
                 [
-                    54,
+                    51,
                     "Moonblast"
                 ],
                 [
-                    59,
+                    54,
                     "Hyper Voice"
                 ],
                 [
-                    65,
+                    55,
                     "Last Resort"
                 ]
             ],
@@ -189090,6 +187801,7 @@ backup_data = {
                 "Giga Impact",
                 "Grass Knot",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hyper Beam",
                 "Hyper Voice",
@@ -189235,7 +187947,7 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
+                "Defog",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -189296,7 +188008,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -189354,11 +188065,11 @@ backup_data = {
                     "Rock Slide"
                 ],
                 [
-                    37,
+                    35,
                     "Brick Break"
                 ],
                 [
-                    41,
+                    40,
                     "Scary Face"
                 ],
                 [
@@ -189366,11 +188077,11 @@ backup_data = {
                     "Hammer Arm"
                 ],
                 [
-                    49,
+                    48,
                     "Stone Edge"
                 ],
                 [
-                    53,
+                    51,
                     "Mach Punch"
                 ],
                 [
@@ -189387,7 +188098,7 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
+                "Defog",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -189449,7 +188160,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -189527,7 +188237,7 @@ backup_data = {
                     "Brick Break"
                 ],
                 [
-                    44,
+                    40,
                     "Scary Face"
                 ],
                 [
@@ -189535,15 +188245,15 @@ backup_data = {
                     "Hammer Arm"
                 ],
                 [
-                    55,
+                    50,
                     "Stone Edge"
                 ],
                 [
-                    60,
+                    54,
                     "Mach Punch"
                 ],
                 [
-                    65,
+                    60,
                     "Superpower"
                 ]
             ],
@@ -189558,7 +188268,7 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
+                "Defog",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -189627,7 +188337,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -189786,26 +188495,22 @@ backup_data = {
                 ],
                 [
                     40,
-                    "Poison Jab"
-                ],
-                [
-                    45,
                     "Liquidation"
                 ],
                 [
-                    48,
+                    46,
                     "Hydro Pump"
                 ],
                 [
-                    52,
+                    48,
                     "Boomburst"
                 ],
                 [
-                    55,
+                    50,
                     "Sludge Bomb"
                 ],
                 [
-                    60,
+                    54,
                     "Earthquake"
                 ]
             ],
@@ -189859,7 +188564,6 @@ backup_data = {
                 "Headbutt",
                 "Hydro Pump",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -189915,27 +188619,23 @@ backup_data = {
                     "Earth Power"
                 ],
                 [
-                    42,
-                    "Poison Jab"
-                ],
-                [
-                    48,
+                    41,
                     "Liquidation"
                 ],
                 [
-                    52,
+                    48,
                     "Hydro Pump"
                 ],
                 [
-                    57,
+                    50,
                     "Boomburst"
                 ],
                 [
-                    60,
+                    54,
                     "Sludge Bomb"
                 ],
                 [
-                    65,
+                    55,
                     "Earthquake"
                 ]
             ],
@@ -190012,7 +188712,6 @@ backup_data = {
                 "Headbutt",
                 "Hydro Pump",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -190072,7 +188771,7 @@ backup_data = {
                     "Storm Throw"
                 ],
                 [
-                    42,
+                    40,
                     "Revenge"
                 ],
                 [
@@ -190080,16 +188779,16 @@ backup_data = {
                     "Recover"
                 ],
                 [
-                    54,
+                    50,
                     "Payback"
+                ],
+                [
+                    54,
+                    "Drain Punch"
                 ],
                 [
                     60,
                     "Coaching"
-                ],
-                [
-                    65,
-                    "Drain Punch"
                 ]
             ],
             "tms":
@@ -190156,7 +188855,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -190212,24 +188910,24 @@ backup_data = {
                     "Low Kick"
                 ],
                 [
-                    42,
-                    "Superpower"
-                ],
-                [
-                    48,
+                    40,
                     "Retaliate"
                 ],
                 [
-                    54,
+                    48,
+                    "Superpower"
+                ],
+                [
+                    50,
                     "Knock Off"
+                ],
+                [
+                    55,
+                    "Close Combat"
                 ],
                 [
                     60,
                     "Coaching"
-                ],
-                [
-                    65,
-                    "Close Combat"
                 ]
             ],
             "tms":
@@ -190296,7 +188994,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -190809,7 +189506,7 @@ backup_data = {
                     "Venoshock"
                 ],
                 [
-                    31,
+                    30,
                     "Poison Jab"
                 ],
                 [
@@ -190916,7 +189613,7 @@ backup_data = {
                     "Venoshock"
                 ],
                 [
-                    32,
+                    30,
                     "Poison Jab"
                 ],
                 [
@@ -190924,7 +189621,7 @@ backup_data = {
                     "X-Scissor"
                 ],
                 [
-                    42,
+                    40,
                     "Stomping Tantrum"
                 ],
                 [
@@ -190932,7 +189629,7 @@ backup_data = {
                     "Leech Life"
                 ],
                 [
-                    55,
+                    51,
                     "Megahorn"
                 ]
             ],
@@ -191403,7 +190100,7 @@ backup_data = {
                     "Energy Ball"
                 ],
                 [
-                    37,
+                    36,
                     "Entrainment"
                 ],
                 [
@@ -191511,7 +190208,7 @@ backup_data = {
                     "Energy Ball"
                 ],
                 [
-                    42,
+                    40,
                     "Entrainment"
                 ],
                 [
@@ -191519,11 +190216,11 @@ backup_data = {
                     "After You"
                 ],
                 [
-                    52,
+                    49,
                     "Leaf Storm"
                 ],
                 [
-                    60,
+                    54,
                     "Solar Beam"
                 ]
             ],
@@ -191648,86 +190345,37 @@ backup_data = {
                     "Aqua Tail"
                 ],
                 [
-                    49,
+                    48,
                     "Final Gambit"
                 ],
                 [
-                    52,
+                    50,
                     "Head Charge"
                 ],
                 [
-                    57,
+                    51,
                     "Superpower"
                 ],
                 [
-                    60,
+                    55,
                     "Liquidation"
                 ],
                 [
-                    65,
+                    61,
                     "Head Smash"
                 ]
             ],
             "tms":
             [
-                "Agility",
-                "Assurance",
-                "Attract",
-                "Blizzard",
-                "Bounce",
-                "Brine",
-                "Chilling Water",
-                "Confide",
-                "Crunch",
-                "Cut",
-                "Dive",
-                "Double-Edge",
-                "Double Team",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Flip Turn",
-                "Frustration",
-                "Giga Impact",
-                "Hail",
                 "Hidden Power",
-                "Hydro Pump",
-                "Hyper Beam",
                 "Ice Beam",
-                "Ice Fang",
                 "Icy Wind",
-                "Liquidation",
-                "Muddy Water",
-                "Mud Shot",
-                "Protect",
                 "Psychic Fangs",
-                "Rain Dance",
-                "Rest",
-                "Return",
-                "Revenge",
-                "Reversal",
-                "Round",
-                "Scald",
-                "Scale Shot",
-                "Scary Face",
-                "Secret Power",
-                "Sleep Talk",
-                "Snore",
-                "Snowscape",
-                "Substitute",
-                "Superpower",
                 "Surf",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Toxic",
-                "Uproar",
                 "Waterfall",
-                "Water Pulse",
-                "Whirlpool",
-                "Zen Headbutt"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -191828,7 +190476,6 @@ backup_data = {
                 "Bulldoze",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Dig",
@@ -191951,7 +190598,7 @@ backup_data = {
                     "Crunch"
                 ],
                 [
-                    34,
+                    36,
                     "Rock Slide"
                 ],
                 [
@@ -191971,11 +190618,11 @@ backup_data = {
                     "Knock Off"
                 ],
                 [
-                    54,
+                    51,
                     "Stone Edge"
                 ],
                 [
-                    58,
+                    55,
                     "Earthquake"
                 ]
             ],
@@ -191992,7 +190639,6 @@ backup_data = {
                 "Bulldoze",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Dig",
@@ -192149,11 +190795,11 @@ backup_data = {
                     "Crunch"
                 ],
                 [
-                    34,
+                    36,
                     "Rock Slide"
                 ],
                 [
-                    39,
+                    40,
                     "High Horsepower"
                 ],
                 [
@@ -192161,19 +190807,19 @@ backup_data = {
                     "Swagger"
                 ],
                 [
-                    49,
+                    48,
                     "Foul Play"
                 ],
                 [
-                    54,
+                    50,
                     "Knock Off"
                 ],
                 [
-                    59,
+                    51,
                     "Stone Edge"
                 ],
                 [
-                    64,
+                    55,
                     "Earthquake"
                 ]
             ],
@@ -192192,7 +190838,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Darkest Lariat",
                 "Dark Pulse",
@@ -192696,7 +191341,7 @@ backup_data = {
                     "Spiky Shield"
                 ],
                 [
-                    42,
+                    40,
                     "Sucker Punch"
                 ],
                 [
@@ -192838,6 +191483,7 @@ backup_data = {
                 "Earthquake",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Frustration",
                 "Hidden Power",
                 "Hone Claws",
@@ -192876,14 +191522,12 @@ backup_data = {
             [
                 "Bug Bite",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
             [
                 "Block",
                 "Counter",
-                "Curse",
                 "Knock Off",
                 "Night Slash",
                 "Wide Guard"
@@ -192958,15 +191602,15 @@ backup_data = {
                     "Knock Off"
                 ],
                 [
-                    51,
+                    48,
                     "Leech Life"
                 ],
                 [
-                    56,
+                    54,
                     "Stone Edge"
                 ],
                 [
-                    62,
+                    61,
                     "Rock Wrecker"
                 ]
             ],
@@ -192983,6 +191627,7 @@ backup_data = {
                 "Earthquake",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Frustration",
                 "Giga Impact",
                 "Heavy Slam",
@@ -193026,14 +191671,12 @@ backup_data = {
             [
                 "Bug Bite",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
             [
                 "Block",
                 "Counter",
-                "Curse",
                 "Knock Off",
                 "Night Slash",
                 "Wide Guard"
@@ -193137,7 +191780,6 @@ backup_data = {
                 "Coaching",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Dig",
                 "Double-Edge",
@@ -193219,7 +191861,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -193338,7 +191979,6 @@ backup_data = {
                 "Coaching",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Dig",
                 "Double-Edge",
@@ -193427,7 +192067,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -193506,7 +192145,7 @@ backup_data = {
                     "Air Slash"
                 ],
                 [
-                    46,
+                    48,
                     "Psychic"
                 ],
                 [
@@ -193533,6 +192172,8 @@ backup_data = {
                 "Cosmic Power",
                 "Dark Pulse",
                 "Dazzling Gleam",
+                "Defog",
+                "Dual Wingbeat",
                 "Double Team",
                 "Dream Eater",
                 "Endure",
@@ -193585,7 +192226,8 @@ backup_data = {
                 "Toxic",
                 "Trick",
                 "Trick Room",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Tailwind"
             ],
             "tutors":
             [],
@@ -193988,7 +192630,7 @@ backup_data = {
                     "Power Gem"
                 ],
                 [
-                    41,
+                    40,
                     "Knock Off"
                 ],
                 [
@@ -194287,15 +192929,15 @@ backup_data = {
                     "Endeavor"
                 ],
                 [
-                    49,
+                    46,
                     "Air Slash"
                 ],
                 [
-                    55,
+                    50,
                     "Stone Edge"
                 ],
                 [
-                    60,
+                    55,
                     "Dual Wingbeat"
                 ]
             ],
@@ -194312,6 +192954,7 @@ backup_data = {
                 "Confide",
                 "Crunch",
                 "Cut",
+                "Defog",
                 "Dig",
                 "Double Team",
                 "Dragon Claw",
@@ -194356,7 +192999,8 @@ backup_data = {
                 "Toxic",
                 "Uproar",
                 "U-turn",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -194450,15 +193094,15 @@ backup_data = {
                     "Endeavor"
                 ],
                 [
-                    53,
+                    48,
                     "Air Slash"
                 ],
                 [
-                    60,
+                    55,
                     "Stone Edge"
                 ],
                 [
-                    66,
+                    61,
                     "Dual Wingbeat"
                 ]
             ],
@@ -194476,6 +193120,7 @@ backup_data = {
                 "Confide",
                 "Crunch",
                 "Cut",
+                "Defog",
                 "Dig",
                 "Double Team",
                 "Dragon Claw",
@@ -194526,7 +193171,8 @@ backup_data = {
                 "Toxic",
                 "Uproar",
                 "U-turn",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Tailwind"
             ],
             "tutors":
             [
@@ -194677,7 +193323,6 @@ backup_data = {
             "egg":
             [
                 "Autotomize",
-                "Curse",
                 "Haze",
                 "Rollout",
                 "Sand Attack"
@@ -194852,7 +193497,6 @@ backup_data = {
             "egg":
             [
                 "Autotomize",
-                "Curse",
                 "Haze",
                 "Rollout",
                 "Sand Attack"
@@ -194946,6 +193590,7 @@ backup_data = {
                 "Encore",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fake Tears",
                 "Fling",
                 "Foul Play",
@@ -195108,6 +193753,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "Fake Tears",
+                "Feint Attack",
                 "Flamethrower",
                 "Fling",
                 "Focus Blast",
@@ -196330,6 +194976,7 @@ backup_data = {
                 "Imprison",
                 "Infestation",
                 "Iron Defense",
+                "Misty Explosion",
                 "Light Screen",
                 "Night Shade",
                 "Pain Split",
@@ -196493,6 +195140,7 @@ backup_data = {
                 "Infestation",
                 "Iron Defense",
                 "Knock Off",
+                "Misty Explosion",
                 "Light Screen",
                 "Mega Punch",
                 "Night Shade",
@@ -197383,6 +196031,7 @@ backup_data = {
                 "Energy Ball",
                 "Facade",
                 "Fake Tears",
+                "Feint Attack",
                 "Flash",
                 "Frustration",
                 "Giga Drain",
@@ -197500,7 +196149,7 @@ backup_data = {
                     "Double-Edge"
                 ],
                 [
-                    52,
+                    51,
                     "Solar Blade"
                 ]
             ],
@@ -197514,7 +196163,6 @@ backup_data = {
                 "Bullet Seed",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -197525,6 +196173,7 @@ backup_data = {
                 "Energy Ball",
                 "Facade",
                 "Fake Tears",
+                "Feint Attack",
                 "Flash",
                 "Frustration",
                 "Giga Drain",
@@ -197794,7 +196443,7 @@ backup_data = {
                     "Take Down"
                 ],
                 [
-                    42,
+                    40,
                     "X-Scissor"
                 ],
                 [
@@ -197824,6 +196473,7 @@ backup_data = {
                 "Energy Ball",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Frustration",
                 "Giga Drain",
                 "Hidden Power",
@@ -197918,7 +196568,7 @@ backup_data = {
                     "Struggle Bug"
                 ],
                 [
-                    42,
+                    40,
                     "X-Scissor"
                 ],
                 [
@@ -197926,11 +196576,11 @@ backup_data = {
                     "Night Slash"
                 ],
                 [
-                    52,
+                    51,
                     "Drill Run"
                 ],
                 [
-                    56,
+                    55,
                     "Iron Head"
                 ],
                 [
@@ -197955,6 +196605,7 @@ backup_data = {
                 "Energy Ball",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Focus Blast",
                 "Frustration",
                 "Giga Drain",
@@ -198064,7 +196715,7 @@ backup_data = {
                     "Toxic"
                 ],
                 [
-                    52,
+                    51,
                     "Spore"
                 ]
             ],
@@ -198078,6 +196729,7 @@ backup_data = {
                 "Endure",
                 "Energy Ball",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Foul Play",
                 "Frustration",
@@ -198183,11 +196835,11 @@ backup_data = {
                     "Energy Ball"
                 ],
                 [
-                    52,
+                    51,
                     "Toxic"
                 ],
                 [
-                    58,
+                    55,
                     "Spore"
                 ]
             ],
@@ -198201,6 +196853,7 @@ backup_data = {
                 "Endure",
                 "Energy Ball",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Foul Play",
                 "Frustration",
@@ -198295,7 +196948,7 @@ backup_data = {
                     "Destiny Bond"
                 ],
                 [
-                    49,
+                    48,
                     "Shadow Ball"
                 ],
                 [
@@ -198303,7 +196956,7 @@ backup_data = {
                     "Scald"
                 ],
                 [
-                    62,
+                    61,
                     "Water Spout"
                 ],
                 [
@@ -198433,11 +197086,11 @@ backup_data = {
                     "Destiny Bond"
                 ],
                 [
-                    52,
+                    51,
                     "Shadow Ball"
                 ],
                 [
-                    58,
+                    55,
                     "Scald"
                 ],
                 [
@@ -198445,7 +197098,7 @@ backup_data = {
                     "Water Spout"
                 ],
                 [
-                    75,
+                    70,
                     "Recover"
                 ]
             ],
@@ -198775,6 +197428,7 @@ backup_data = {
                 "Endure",
                 "Energy Ball",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Frustration",
                 "Giga Drain",
@@ -198888,19 +197542,19 @@ backup_data = {
                     "Sucker Punch"
                 ],
                 [
-                    49,
+                    48,
                     "Thunderbolt"
                 ],
                 [
-                    53,
+                    51,
                     "Bug Buzz"
                 ],
                 [
-                    60,
+                    55,
                     "Thunder"
                 ],
                 [
-                    69,
+                    65,
                     "Volt Switch"
                 ]
             ],
@@ -198922,6 +197576,7 @@ backup_data = {
                 "Endure",
                 "Energy Ball",
                 "Facade",
+                "Feint Attack",
                 "Flash",
                 "Frustration",
                 "Giga Drain",
@@ -199062,6 +197717,7 @@ backup_data = {
                 "Hone Claws",
                 "Iron Defense",
                 "Iron Head",
+                "Misty Explosion",
                 "Nature Power",
                 "Payback",
                 "Pin Missile",
@@ -199155,15 +197811,15 @@ backup_data = {
                     "Knock Off"
                 ],
                 [
-                    49,
+                    48,
                     "Seed Bomb"
                 ],
                 [
-                    55,
+                    51,
                     "Iron Head"
                 ],
                 [
-                    59,
+                    55,
                     "Explosion"
                 ],
                 [
@@ -199204,6 +197860,7 @@ backup_data = {
                 "Hyper Beam",
                 "Iron Defense",
                 "Iron Head",
+                "Misty Explosion",
                 "Nature Power",
                 "Payback",
                 "Pin Missile",
@@ -199754,15 +198411,15 @@ backup_data = {
                     "Super Fang"
                 ],
                 [
-                    50,
+                    48,
                     "Wild Charge"
                 ],
                 [
-                    55,
+                    51,
                     "Knock Off"
                 ],
                 [
-                    60,
+                    55,
                     "Thunderbolt"
                 ]
             ],
@@ -199892,7 +198549,7 @@ backup_data = {
                     "Gastro Acid"
                 ],
                 [
-                    42,
+                    40,
                     "Discharge"
                 ],
                 [
@@ -199900,15 +198557,15 @@ backup_data = {
                     "Super Fang"
                 ],
                 [
-                    54,
+                    51,
                     "Wild Charge"
                 ],
                 [
-                    60,
+                    55,
                     "Knock Off"
                 ],
                 [
-                    66,
+                    61,
                     "Thunderbolt"
                 ]
             ],
@@ -200467,7 +199124,6 @@ backup_data = {
                 "Calm Mind",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Double Team",
                 "Dream Eater",
@@ -200590,19 +199246,19 @@ backup_data = {
                     "Mystical Fire"
                 ],
                 [
-                    52,
+                    51,
                     "Pain Split"
                 ],
                 [
-                    59,
+                    55,
                     "Shadow Ball"
                 ],
                 [
-                    66,
+                    65,
                     "Heat Wave"
                 ],
                 [
-                    73,
+                    71,
                     "Overheat"
                 ]
             ],
@@ -200614,7 +199270,6 @@ backup_data = {
                 "Calm Mind",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Double Team",
                 "Dream Eater",
@@ -201672,7 +200327,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Dive",
@@ -201841,6 +200495,7 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Confuse Ray",
+                "Defog",
                 "Double Team",
                 "Endure",
                 "Explosion",
@@ -201858,6 +200513,7 @@ backup_data = {
                 "Icicle Spear",
                 "Icy Wind",
                 "Iron Defense",
+                "Misty Explosion",
                 "Light Screen",
                 "Poison Jab",
                 "Protect",
@@ -201950,7 +200606,7 @@ backup_data = {
                     "Bug Buzz"
                 ],
                 [
-                    52,
+                    51,
                     "Recover"
                 ],
                 [
@@ -202059,15 +200715,15 @@ backup_data = {
                     "Water Shuriken"
                 ],
                 [
-                    52,
+                    48,
                     "Bug Buzz"
                 ],
                 [
-                    58,
+                    55,
                     "Recover"
                 ],
                 [
-                    65,
+                    61,
                     "Final Gambit"
                 ]
             ],
@@ -202183,7 +200839,7 @@ backup_data = {
                     "Earth Power"
                 ],
                 [
-                    41,
+                    40,
                     "Thunderbolt"
                 ],
                 [
@@ -202191,7 +200847,7 @@ backup_data = {
                     "Bounce"
                 ],
                 [
-                    49,
+                    48,
                     "Sucker Punch"
                 ],
                 [
@@ -202256,7 +200912,6 @@ backup_data = {
             "egg":
             [
                 "Astonish",
-                "Curse",
                 "Pain Split",
                 "Reflect Type",
                 "Spark",
@@ -202404,7 +201059,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -202456,7 +201110,7 @@ backup_data = {
                     "Aura Sphere"
                 ],
                 [
-                    41,
+                    40,
                     "Me First"
                 ],
                 [
@@ -202464,15 +201118,15 @@ backup_data = {
                     "Jump Kick"
                 ],
                 [
-                    49,
+                    48,
                     "Dual Chop"
                 ],
                 [
-                    54,
+                    51,
                     "Focus Blast"
                 ],
                 [
-                    59,
+                    55,
                     "Acrobatics"
                 ],
                 [
@@ -202564,7 +201218,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -202640,7 +201293,7 @@ backup_data = {
                     "Superpower"
                 ],
                 [
-                    62,
+                    61,
                     "Outrage"
                 ]
             ],
@@ -202663,6 +201316,7 @@ backup_data = {
                 "Earthquake",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Fire Fang",
                 "Fire Punch",
                 "Flamethrower",
@@ -202831,7 +201485,6 @@ backup_data = {
                 "Bulldoze",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -203043,7 +201696,6 @@ backup_data = {
                 "Close Combat",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Darkest Lariat",
                 "Dig",
                 "Double-Edge",
@@ -203232,6 +201884,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Flash Cannon",
                 "Fling",
                 "Foul Play",
@@ -203376,6 +202029,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Flash Cannon",
                 "Fling",
                 "Focus Blast",
@@ -204461,7 +203115,6 @@ backup_data = {
             "egg":
             [
                 "Belch",
-                "Curse",
                 "Night Slash",
                 "Sucker Punch",
                 "Tickle"
@@ -204516,7 +203169,7 @@ backup_data = {
                     "X-Scissor"
                 ],
                 [
-                    53,
+                    51,
                     "Entrainment"
                 ],
                 [
@@ -204543,6 +203196,7 @@ backup_data = {
                 "Endure",
                 "Energy Ball",
                 "Facade",
+                "Feint Attack",
                 "Flash Cannon",
                 "Frustration",
                 "Giga Impact",
@@ -204787,7 +203441,7 @@ backup_data = {
                     "Dark Pulse"
                 ],
                 [
-                    66,
+                    65,
                     "U-turn"
                 ],
                 [
@@ -204795,7 +203449,7 @@ backup_data = {
                     "Outrage"
                 ],
                 [
-                    77,
+                    76,
                     "Draco Meteor"
                 ]
             ],
@@ -204929,7 +203583,7 @@ backup_data = {
                     "Dark Pulse"
                 ],
                 [
-                    67,
+                    65,
                     "U-turn"
                 ],
                 [
@@ -204937,7 +203591,7 @@ backup_data = {
                     "Outrage"
                 ],
                 [
-                    80,
+                    77,
                     "Draco Meteor"
                 ]
             ],
@@ -204955,6 +203609,7 @@ backup_data = {
                 "Confide",
                 "Crunch",
                 "Dark Pulse",
+                "Defog",
                 "Double Team",
                 "Draco Meteor",
                 "Dragon Cheer",
@@ -205083,23 +203738,23 @@ backup_data = {
                     "Take Down"
                 ],
                 [
-                    60,
-                    "Morning Sun"
-                ],
-                [
-                    70,
+                    64,
                     "Acrobatics"
                 ],
                 [
-                    80,
+                    66,
+                    "Morning Sun"
+                ],
+                [
+                    72,
                     "Double-Edge"
                 ],
                 [
-                    90,
+                    77,
                     "Leech Life"
                 ],
                 [
-                    10,
+                    82,
                     "Flare Blitz"
                 ]
             ],
@@ -205212,35 +203867,31 @@ backup_data = {
                     "Flamethrower"
                 ],
                 [
-                    65,
+                    61,
                     "Bug Buzz"
                 ],
                 [
-                    70,
+                    64,
                     "Whirlwind"
                 ],
                 [
-                    75,
+                    65,
                     "Overheat"
                 ],
                 [
-                    80,
+                    66,
                     "Heat Wave"
                 ],
                 [
-                    85,
+                    72,
                     "Pollen Puff"
                 ],
                 [
-                    90,
-                    "Hurricane"
-                ],
-                [
-                    95,
+                    77,
                     "Roost"
                 ],
                 [
-                    10,
+                    82,
                     "Fiery Dance"
                 ]
             ],
@@ -205257,6 +203908,7 @@ backup_data = {
                 "Bug Buzz",
                 "Calm Mind",
                 "Confide",
+                "Defog",
                 "Double-Edge",
                 "Double Team",
                 "Dual Wingbeat",
@@ -205940,6 +204592,7 @@ backup_data = {
                 "Confide",
                 "Crunch",
                 "Dark Pulse",
+                "Defog",
                 "Double Team",
                 "Embargo",
                 "Endure",
@@ -206087,6 +204740,7 @@ backup_data = {
                 "Confide",
                 "Crunch",
                 "Dark Pulse",
+                "Defog",
                 "Double Team",
                 "Eerie Impulse",
                 "Electric Terrain",
@@ -206619,6 +205273,7 @@ backup_data = {
                 "Calm Mind",
                 "Confide",
                 "Crunch",
+                "Defog",
                 "Dig",
                 "Double Team",
                 "Earthquake",
@@ -206639,6 +205294,7 @@ backup_data = {
                 "Iron Tail",
                 "Mud Shot",
                 "Mud-Slap",
+                "Misty Explosion",
                 "Nasty Plot",
                 "Outrage",
                 "Payback",
@@ -207837,7 +206493,6 @@ backup_data = {
                 "Bulldoze",
                 "Bullet Seed",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double Team",
@@ -207911,14 +206566,12 @@ backup_data = {
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Belly Drum",
-                "Curse",
                 "Quick Guard",
                 "Spikes",
                 "Super Fang",
@@ -207979,7 +206632,7 @@ backup_data = {
                     "Pain Split"
                 ],
                 [
-                    42,
+                    40,
                     "Body Slam"
                 ],
                 [
@@ -208001,7 +206654,6 @@ backup_data = {
                 "Bulldoze",
                 "Bullet Seed",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double Team",
@@ -208077,14 +206729,12 @@ backup_data = {
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Belly Drum",
-                "Curse",
                 "Quick Guard",
                 "Spikes",
                 "Super Fang",
@@ -208149,23 +206799,23 @@ backup_data = {
                     "Pain Split"
                 ],
                 [
-                    44,
+                    40,
                     "Drain Punch"
                 ],
                 [
-                    49,
+                    48,
                     "Super Fang"
                 ],
                 [
-                    55,
+                    51,
                     "Wood Hammer"
                 ],
                 [
-                    62,
+                    65,
                     "Synthesis"
                 ],
                 [
-                    70,
+                    66,
                     "Hammer Arm"
                 ]
             ],
@@ -208183,7 +206833,6 @@ backup_data = {
                 "Coaching",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Cut",
                 "Dig",
                 "Double-Edge",
@@ -208271,14 +206920,12 @@ backup_data = {
             [
                 "Brick Break",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
             "egg":
             [
                 "Belly Drum",
-                "Curse",
                 "Quick Guard",
                 "Spikes",
                 "Super Fang",
@@ -208417,7 +207064,8 @@ backup_data = {
                 "Trick",
                 "Trick Room",
                 "Will-O-Wisp",
-                "Work Up"
+                "Work Up",
+                "Temper Flare"
             ],
             "tutors":
             [
@@ -208567,7 +207215,8 @@ backup_data = {
                 "Trick Room",
                 "Will-O-Wisp",
                 "Work Up",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Temper Flare"
             ],
             "tutors":
             [
@@ -208662,11 +207311,11 @@ backup_data = {
                     "Will-O-Wisp"
                 ],
                 [
-                    52,
+                    51,
                     "Flamethrower"
                 ],
                 [
-                    57,
+                    55,
                     "Psychic"
                 ],
                 [
@@ -208678,7 +207327,7 @@ backup_data = {
                     "Future Sight"
                 ],
                 [
-                    69,
+                    66,
                     "Overheat"
                 ]
             ],
@@ -208765,7 +207414,8 @@ backup_data = {
                 "Trick Room",
                 "Will-O-Wisp",
                 "Work Up",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Temper Flare"
             ],
             "tutors":
             [
@@ -209096,10 +207746,6 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Gunk Shot"
-                ],
-                [
-                    1,
                     "Mat Block"
                 ],
                 [
@@ -209175,11 +207821,15 @@ backup_data = {
                     "Sludge Wave"
                 ],
                 [
-                    54,
+                    51,
+                    "Gunk Shot"
+                ],
+                [
+                    55,
                     "Hydro Pump"
                 ],
                 [
-                    64,
+                    65,
                     "Hydro Cannon"
                 ]
             ],
@@ -209202,6 +207852,7 @@ backup_data = {
                 "Endure",
                 "Facade",
                 "False Swipe",
+                "Feint Attack",
                 "Fling",
                 "Frustration",
                 "Giga Impact",
@@ -209257,7 +207908,8 @@ backup_data = {
                 "Water Pulse",
                 "Weather Ball",
                 "Work Up",
-                "Roar"
+                "Roar",
+                "Smart Strike"
             ],
             "tutors":
             [
@@ -209462,11 +208114,11 @@ backup_data = {
                     "Facade"
                 ],
                 [
-                    52,
+                    51,
                     "Earthquake"
                 ],
                 [
-                    60,
+                    55,
                     "Foul Play"
                 ]
             ],
@@ -209546,7 +208198,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -209610,6 +208261,7 @@ backup_data = {
                 "Attract",
                 "Brave Bird",
                 "Confide",
+                "Defog",
                 "Double-Edge",
                 "Double Team",
                 "Dual Wingbeat",
@@ -209719,6 +208371,7 @@ backup_data = {
                 "Attract",
                 "Brave Bird",
                 "Confide",
+                "Defog",
                 "Double-Edge",
                 "Double Team",
                 "Dual Wingbeat",
@@ -209824,11 +208477,11 @@ backup_data = {
                     "Tailwind"
                 ],
                 [
-                    52,
+                    51,
                     "Flare Blitz"
                 ],
                 [
-                    60,
+                    55,
                     "Brave Bird"
                 ]
             ],
@@ -209843,6 +208496,7 @@ backup_data = {
                 "Brave Bird",
                 "Bulk Up",
                 "Confide",
+                "Defog",
                 "Double-Edge",
                 "Double Team",
                 "Dual Wingbeat",
@@ -210044,6 +208698,7 @@ backup_data = {
                 "Dream Eater",
                 "Endure",
                 "Energy Ball",
+                "Electroweb",
                 "Facade",
                 "Flash",
                 "Frustration",
@@ -210135,11 +208790,11 @@ backup_data = {
                     "Crunch"
                 ],
                 [
-                    34,
+                    36,
                     "Flamethrower"
                 ],
                 [
-                    36,
+                    37,
                     "Will-O-Wisp"
                 ],
                 [
@@ -210277,7 +208932,7 @@ backup_data = {
                     "Crunch"
                 ],
                 [
-                    34,
+                    36,
                     "Flamethrower"
                 ],
                 [
@@ -211141,7 +209796,7 @@ backup_data = {
                     "Body Slam"
                 ],
                 [
-                    34,
+                    36,
                     "Crunch"
                 ],
                 [
@@ -211234,7 +209889,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -211295,7 +209949,7 @@ backup_data = {
                     "Body Slam"
                 ],
                 [
-                    35,
+                    36,
                     "Crunch"
                 ],
                 [
@@ -211415,7 +210069,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -213715,6 +212368,7 @@ backup_data = {
                 "Dragon Tail",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Flip Turn",
                 "Frustration",
                 "Gunk Shot",
@@ -213851,7 +212505,7 @@ backup_data = {
                     "Sludge Wave"
                 ],
                 [
-                    66,
+                    65,
                     "Draco Meteor"
                 ]
             ],
@@ -213869,6 +212523,7 @@ backup_data = {
                 "Dragon Tail",
                 "Endure",
                 "Facade",
+                "Feint Attack",
                 "Flip Turn",
                 "Focus Blast",
                 "Frustration",
@@ -214120,11 +212775,11 @@ backup_data = {
                     "Dark Pulse"
                 ],
                 [
-                    49,
+                    48,
                     "Flip Turn"
                 ],
                 [
-                    57,
+                    55,
                     "Muddy Water"
                 ]
             ],
@@ -214150,6 +212805,7 @@ backup_data = {
                 "Frustration",
                 "Giga Impact",
                 "Helping Hand",
+                "Heal Pulse",
                 "Hidden Power",
                 "Hydro Pump",
                 "Hyper Beam",
@@ -214559,7 +213215,7 @@ backup_data = {
                     "Dragon Claw"
                 ],
                 [
-                    49,
+                    48,
                     "Earthquake"
                 ]
             ],
@@ -214633,7 +213289,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Poison Fang",
                 "Rock Polish",
                 "Rock Throw"
@@ -214724,11 +213379,11 @@ backup_data = {
                     "Earthquake"
                 ],
                 [
-                    59,
+                    55,
                     "Outrage"
                 ],
                 [
-                    70,
+                    66,
                     "Head Smash"
                 ]
             ],
@@ -214807,7 +213462,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Poison Fang",
                 "Rock Polish",
                 "Rock Throw"
@@ -214878,15 +213532,15 @@ backup_data = {
                     "Freeze-Dry"
                 ],
                 [
-                    52,
+                    51,
                     "Power Gem"
                 ],
                 [
-                    58,
+                    55,
                     "Hyper Voice"
                 ],
                 [
-                    63,
+                    61,
                     "Double-Edge"
                 ]
             ],
@@ -214958,7 +213612,6 @@ backup_data = {
             [
                 "Blizzard",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder"
             ],
             "egg":
@@ -215048,7 +213701,7 @@ backup_data = {
                     "Freeze-Dry"
                 ],
                 [
-                    56,
+                    55,
                     "Power Gem"
                 ],
                 [
@@ -215056,7 +213709,7 @@ backup_data = {
                     "Hyper Voice"
                 ],
                 [
-                    69,
+                    66,
                     "Double-Edge"
                 ]
             ],
@@ -215133,7 +213786,6 @@ backup_data = {
             [
                 "Blizzard",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder"
             ],
             "egg":
@@ -215264,7 +213916,6 @@ backup_data = {
                 "Calm Mind",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Cut",
                 "Dazzling Gleam",
                 "Dig",
@@ -215352,7 +214003,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Flail",
@@ -215454,6 +214104,7 @@ backup_data = {
                 "Coaching",
                 "Confide",
                 "Cut",
+                "Defog",
                 "Dig",
                 "Double Team",
                 "Drain Punch",
@@ -215524,14 +214175,14 @@ backup_data = {
                 "U-turn",
                 "Work Up",
                 "X-Scissor",
-                "Zen Headbutt"
+                "Zen Headbutt",
+                "Tailwind"
             ],
             "tutors":
             [
                 "Brick Break",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -215936,7 +214587,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Double Team",
                 "Draco Meteor",
                 "Dragon Pulse",
@@ -216023,7 +214673,7 @@ backup_data = {
                     "Muddy Water"
                 ],
                 [
-                    57,
+                    55,
                     "Dragon Pulse"
                 ]
             ],
@@ -216036,7 +214686,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Double Team",
                 "Draco Meteor",
                 "Dragon Pulse",
@@ -216149,11 +214798,11 @@ backup_data = {
                     "Dragon Pulse"
                 ],
                 [
-                    63,
+                    61,
                     "Power Whip"
                 ],
                 [
-                    70,
+                    66,
                     "Outrage"
                 ]
             ],
@@ -216171,7 +214820,6 @@ backup_data = {
                 "Charm",
                 "Chilling Water",
                 "Confide",
-                "Curse",
                 "Double Team",
                 "Draco Meteor",
                 "Dragon Cheer",
@@ -216472,7 +215120,6 @@ backup_data = {
                 "Bulldoze",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Cut",
                 "Dark Pulse",
                 "Dig",
@@ -216481,6 +215128,7 @@ backup_data = {
                 "Endure",
                 "Energy Ball",
                 "Facade",
+                "Feint Attack",
                 "Foul Play",
                 "Frustration",
                 "Giga Drain",
@@ -216629,6 +215277,7 @@ backup_data = {
                 "Endure",
                 "Energy Ball",
                 "Facade",
+                "Feint Attack",
                 "Focus Blast",
                 "Foul Play",
                 "Frustration",
@@ -216823,7 +215472,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Destiny Bond",
                 "Disable"
             ]
@@ -216901,6 +215549,7 @@ backup_data = {
                 "Bullet Seed",
                 "Charge Beam",
                 "Confide",
+                "Curse",
                 "Dark Pulse",
                 "Double Team",
                 "Dream Eater",
@@ -216925,6 +215574,7 @@ backup_data = {
                 "Imprison",
                 "Incinerate",
                 "Light Screen",
+                "Misty Explosion",
                 "Mystical Fire",
                 "Nasty Plot",
                 "Nature Power",
@@ -216962,7 +215612,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Destiny Bond",
                 "Disable"
             ]
@@ -217042,7 +215691,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Endure",
@@ -217185,7 +215833,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Earthquake",
@@ -217328,6 +215975,7 @@ backup_data = {
                 "Confide",
                 "Cut",
                 "Dark Pulse",
+                "Defog",
                 "Double Team",
                 "Draco Meteor",
                 "Dragon Claw",
@@ -217463,19 +216111,19 @@ backup_data = {
                     "Dragon Pulse"
                 ],
                 [
-                    54,
+                    51,
                     "Roost"
                 ],
                 [
-                    62,
+                    55,
                     "Hurricane"
                 ],
                 [
-                    70,
+                    61,
                     "Boomburst"
                 ],
                 [
-                    76,
+                    65,
                     "Draco Meteor"
                 ]
             ],
@@ -217493,6 +216141,7 @@ backup_data = {
                 "Confide",
                 "Cut",
                 "Dark Pulse",
+                "Defog",
                 "Double-Edge",
                 "Double Team",
                 "Draco Meteor",
@@ -220195,75 +218844,24 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Air Cutter",
-                "Air Slash",
-                "Attract",
-                "Baton Pass",
-                "Brave Bird",
-                "Bullet Seed",
-                "Confide",
-                "Confuse Ray",
-                "Double Team",
+                "Defog",
                 "Dual Wingbeat",
-                "Echoed Voice",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "False Swipe",
-                "Feather Dance",
-                "Frustration",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Haze",
-                "Helping Hand",
                 "Hidden Power",
-                "Knock Off",
-                "Leaf Blade",
-                "Leaf Storm",
-                "Light Screen",
                 "Magical Leaf",
-                "Nasty Plot",
-                "Nature Power",
-                "Night Shade",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Return",
                 "Roost",
-                "Round",
-                "Safeguard",
-                "Seed Bomb",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
-                "Toxic",
-                "Trailblaze",
-                "Work Up"
+                "Tailwind",
+                "Toxic"
             ],
             "tutors":
             [
                 "Headbutt"
             ],
             "egg":
-            [
-                "Confuse Ray",
-                "Defog",
-                "Double Team",
-                "Knock Off",
-                "Roost"
-            ]
+            []
         },
         "dartrix":
         {
@@ -220337,76 +218935,24 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Air Cutter",
-                "Air Slash",
-                "Attract",
-                "Baton Pass",
-                "Brave Bird",
-                "Bullet Seed",
-                "Confide",
-                "Confuse Ray",
-                "Double Team",
+                "Defog",
                 "Dual Wingbeat",
-                "Echoed Voice",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "False Swipe",
-                "Feather Dance",
-                "Frustration",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Haze",
-                "Helping Hand",
                 "Hidden Power",
-                "Knock Off",
-                "Leaf Blade",
-                "Leaf Storm",
-                "Light Screen",
                 "Magical Leaf",
-                "Nasty Plot",
-                "Nature Power",
-                "Night Shade",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Return",
                 "Roost",
-                "Round",
-                "Safeguard",
-                "Seed Bomb",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
                 "Tailwind",
-                "Take Down",
-                "Tera Blast",
-                "Toxic",
-                "Trailblaze",
-                "Work Up"
+                "Toxic"
             ],
             "tutors":
             [
                 "Headbutt"
             ],
             "egg":
-            [
-                "Confuse Ray",
-                "Defog",
-                "Double Team",
-                "Knock Off",
-                "Roost"
-            ]
+            []
         },
         "decidueye":
         {
@@ -220473,7 +219019,7 @@ backup_data = {
                     "Sucker Punch"
                 ],
                 [
-                    45,
+                    48,
                     "Feather Dance"
                 ],
                 [
@@ -220481,97 +219027,35 @@ backup_data = {
                     "Roost"
                 ],
                 [
-                    57,
+                    55,
                     "Leaf Blade"
                 ],
                 [
-                    62,
+                    61,
                     "Poltergeist"
                 ],
                 [
-                    70,
+                    65,
                     "Leaf Storm"
                 ]
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Air Cutter",
-                "Air Slash",
-                "Attract",
-                "Baton Pass",
-                "Brave Bird",
-                "Bullet Seed",
-                "Confide",
-                "Confuse Ray",
-                "Curse",
-                "Double Team",
+                "Defog",
                 "Dual Wingbeat",
-                "Echoed Voice",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "False Swipe",
-                "Feather Dance",
-                "Frenzy Plant",
-                "Frustration",
-                "Giga Drain",
-                "Giga Impact",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Haze",
-                "Helping Hand",
-                "Hex",
                 "Hidden Power",
-                "Hurricane",
-                "Hyper Beam",
-                "Imprison",
-                "Knock Off",
-                "Leaf Blade",
-                "Leaf Storm",
-                "Light Screen",
-                "Low Kick",
-                "Low Sweep",
                 "Magical Leaf",
-                "Nasty Plot",
-                "Nature Power",
-                "Night Shade",
-                "Phantom Force",
-                "Poltergeist",
-                "Protect",
-                "Psycho Cut",
-                "Rain Dance",
-                "Rest",
-                "Return",
+                null,
                 "Roost",
-                "Round",
-                "Safeguard",
-                "Seed Bomb",
                 "Shadow Ball",
-                "Shadow Claw",
-                "Skitter Smack",
-                "Sleep Talk",
-                "Smack Down",
-                "Snore",
                 "Solar Beam",
-                "Solar Blade",
-                "Spite",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
                 "Tailwind",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
-                "Trailblaze",
-                "U-turn",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [
@@ -220579,13 +219063,7 @@ backup_data = {
                 "Hurricane"
             ],
             "egg":
-            [
-                "Confuse Ray",
-                "Defog",
-                "Double Team",
-                "Knock Off",
-                "Roost"
-            ]
+            []
         },
         "litten":
         {
@@ -220650,57 +219128,18 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
-                "Attract",
-                "Body Slam",
-                "Bulk Up",
-                "Confide",
-                "Crunch",
-                "Double-Edge",
-                "Double Team",
-                "Endeavor",
-                "Endure",
+                "Aerial Ace",
+                "Assurance",
+                "Embargo",
                 "Facade",
-                "Fire Blast",
-                "Fire Fang",
-                "Fire Pledge",
-                "Fire Spin",
                 "Flamethrower",
-                "Flame Charge",
-                "Flare Blitz",
-                "Frustration",
-                "Heat Wave",
-                "Helping Hand",
+                "Heat Crash",
                 "Hidden Power",
-                "Leech Life",
-                "Nasty Plot",
-                "Outrage",
-                "Overheat",
-                "Pay Day",
-                "Protect",
-                "Rest",
-                "Return",
-                "Revenge",
                 "Roar",
-                "Round",
-                "Scary Face",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
                 "Temper Flare",
-                "Tera Blast",
                 "Torment",
-                "Toxic",
-                "Trailblaze",
-                "U-turn",
-                "Will-O-Wisp",
-                "Work Up"
+                "Will-O-Wisp"
             ],
             "tutors":
             [
@@ -220780,57 +219219,18 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
-                "Attract",
-                "Body Slam",
-                "Bulk Up",
-                "Confide",
-                "Crunch",
-                "Double-Edge",
-                "Double Team",
-                "Endeavor",
-                "Endure",
+                "Aerial Ace",
+                "Assurance",
+                "Embargo",
                 "Facade",
-                "Fire Blast",
-                "Fire Fang",
-                "Fire Pledge",
-                "Fire Spin",
                 "Flamethrower",
-                "Flame Charge",
-                "Flare Blitz",
-                "Frustration",
-                "Heat Wave",
-                "Helping Hand",
+                "Heat Crash",
                 "Hidden Power",
-                "Leech Life",
-                "Nasty Plot",
-                "Outrage",
-                "Overheat",
-                "Pay Day",
-                "Protect",
-                "Rest",
-                "Return",
-                "Revenge",
                 "Roar",
-                "Round",
-                "Scary Face",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
                 "Temper Flare",
-                "Tera Blast",
                 "Torment",
-                "Toxic",
-                "Trailblaze",
-                "U-turn",
-                "Will-O-Wisp",
-                "Work Up"
+                "Will-O-Wisp"
             ],
             "tutors":
             [
@@ -220851,10 +219251,6 @@ backup_data = {
         {
             "ls":
             [
-                [
-                    0,
-                    "Darkest Lariat"
-                ],
                 [
                     1,
                     "Close Combat"
@@ -220900,6 +219296,10 @@ backup_data = {
                     "Blaze Kick"
                 ],
                 [
+                    36,
+                    "Darkest Lariat"
+                ],
+                [
                     40,
                     "Flamethrower"
                 ],
@@ -220922,95 +219322,23 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
                 "Assurance",
-                "Attract",
-                "Baton Pass",
-                "Blast Burn",
-                "Blaze Kick",
-                "Body Slam",
-                "Brick Break",
-                "Brutal Swing",
-                "Bulk Up",
-                "Bulldoze",
-                "Burning Jealousy",
-                "Close Combat",
-                "Confide",
-                "Crunch",
-                "Darkest Lariat",
                 "Dark Pulse",
-                "Double-Edge",
-                "Double Team",
-                "Drain Punch",
                 "Earthquake",
                 "Embargo",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Fire Blast",
-                "Fire Fang",
-                "Fire Pledge",
-                "Fire Punch",
-                "Fire Spin",
+                "Feint Attack",
                 "Flamethrower",
-                "Flame Charge",
-                "Flare Blitz",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
-                "Frustration",
-                "Giga Impact",
-                "Heat Crash",
-                "Heat Wave",
-                "Helping Hand",
                 "Hidden Power",
-                "Hyper Beam",
-                "Iron Head",
-                "Knock Off",
-                "Lash Out",
                 "Leech Life",
-                "Low Kick",
-                "Low Sweep",
-                "Mega Kick",
-                "Mega Punch",
-                "Nasty Plot",
-                "Outrage",
-                "Overheat",
-                "Pay Day",
-                "Protect",
-                "Quash",
-                "Rest",
-                "Return",
-                "Revenge",
-                "Reversal",
                 "Roar",
-                "Round",
-                "Scary Face",
-                "Scorching Sands",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
-                "Stomping Tantrum",
-                "Substitute",
-                "Sunny Day",
-                "Superpower",
                 "Swagger",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
+                "Smart Strike",
                 "Temper Flare",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder Punch",
-                "Torment",
                 "Toxic",
-                "Trailblaze",
                 "U-turn",
-                "Will-O-Wisp",
-                "Work Up"
+                "Will-O-Wisp"
             ],
             "tutors":
             [
@@ -221021,11 +219349,7 @@ backup_data = {
                 "Thunder Punch"
             ],
             "egg":
-            [
-                "Fake Out",
-                "Parting Shot",
-                "Power Trip"
-            ]
+            []
         },
         "popplio":
         {
@@ -221099,56 +219423,18 @@ backup_data = {
             "tms":
             [
                 "Acrobatics",
-                "Amnesia",
-                "Attract",
-                "Blizzard",
-                "Brine",
-                "Charm",
-                "Chilling Water",
-                "Confide",
-                "Disarming Voice",
-                "Dive",
-                "Double Team",
-                "Draining Kiss",
-                "Echoed Voice",
-                "Encore",
-                "Endure",
                 "Facade",
                 "Flip Turn",
-                "Frustration",
-                "Hail",
-                "Helping Hand",
-                "Hidden Power",
-                "Hydro Pump",
                 "Hyper Voice",
                 "Ice Beam",
-                "Ice Spinner",
                 "Icy Wind",
-                "Iron Tail",
-                "Misty Terrain",
-                "Play Rough",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Return",
-                "Round",
-                "Scald",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
                 "Surf",
                 "Swagger",
-                "Swift",
-                "Tera Blast",
                 "Toxic",
-                "Triple Axel",
-                "Uproar",
                 "Waterfall",
-                "Water Pledge",
-                "Water Pulse",
+                "Weather Ball",
                 "Whirlpool",
-                "Wonder Room",
-                "Work Up"
+                "Wonder Room"
             ],
             "tutors":
             [
@@ -221235,57 +219521,18 @@ backup_data = {
             "tms":
             [
                 "Acrobatics",
-                "Amnesia",
-                "Attract",
-                "Blizzard",
-                "Body Slam",
-                "Brine",
-                "Charm",
-                "Chilling Water",
-                "Confide",
-                "Disarming Voice",
-                "Dive",
-                "Double Team",
-                "Draining Kiss",
-                "Echoed Voice",
-                "Encore",
-                "Endure",
                 "Facade",
                 "Flip Turn",
-                "Frustration",
-                "Hail",
-                "Helping Hand",
-                "Hidden Power",
-                "Hydro Pump",
                 "Hyper Voice",
                 "Ice Beam",
-                "Ice Spinner",
                 "Icy Wind",
-                "Iron Tail",
-                "Misty Terrain",
-                "Play Rough",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Return",
-                "Round",
-                "Scald",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
                 "Surf",
                 "Swagger",
-                "Swift",
-                "Tera Blast",
                 "Toxic",
-                "Triple Axel",
-                "Uproar",
                 "Waterfall",
-                "Water Pledge",
-                "Water Pulse",
+                "Weather Ball",
                 "Whirlpool",
-                "Wonder Room",
-                "Work Up"
+                "Wonder Room"
             ],
             "tutors":
             [
@@ -221341,7 +219588,7 @@ backup_data = {
                     "Sing"
                 ],
                 [
-                    34,
+                    36,
                     "Sparkling Aria"
                 ],
                 [
@@ -221353,11 +219600,11 @@ backup_data = {
                     "Perish Song"
                 ],
                 [
-                    52,
+                    51,
                     "Hyper Voice"
                 ],
                 [
-                    58,
+                    56,
                     "Flip Turn"
                 ],
                 [
@@ -221372,76 +219619,23 @@ backup_data = {
             "tms":
             [
                 "Acrobatics",
-                "Alluring Voice",
-                "Amnesia",
-                "Attract",
-                "Blizzard",
-                "Body Slam",
-                "Brine",
-                "Calm Mind",
-                "Charm",
-                "Chilling Water",
-                "Confide",
-                "Dazzling Gleam",
-                "Disarming Voice",
-                "Dive",
-                "Double Team",
                 "Draining Kiss",
-                "Echoed Voice",
-                "Encore",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "Flip Turn",
-                "Frustration",
-                "Giga Impact",
-                "Hail",
-                "Haze",
-                "Helping Hand",
                 "Hidden Power",
-                "Hydro Cannon",
-                "Hydro Pump",
-                "Hyper Beam",
                 "Hyper Voice",
                 "Ice Beam",
-                "Ice Spinner",
                 "Icy Wind",
-                "Iron Tail",
-                "Light Screen",
-                "Liquidation",
                 "Misty Explosion",
-                "Misty Terrain",
                 "Play Rough",
-                "Protect",
                 "Psychic",
-                "Psychic Noise",
-                "Psych Up",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Round",
-                "Scald",
                 "Shadow Ball",
-                "Sleep Talk",
-                "Snore",
-                "Snowscape",
-                "Stored Power",
-                "Substitute",
                 "Surf",
                 "Swagger",
-                "Swift",
-                "Tera Blast",
                 "Toxic",
-                "Triple Axel",
-                "Uproar",
                 "Waterfall",
-                "Water Pledge",
-                "Water Pulse",
                 "Weather Ball",
-                "Whirlpool",
-                "Wonder Room",
-                "Work Up"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -221450,11 +219644,7 @@ backup_data = {
                 "Hydro Pump"
             ],
             "egg":
-            [
-                "Aqua Ring",
-                "Life Dew",
-                "Perish Song"
-            ]
+            []
         },
         "pikipek":
         {
@@ -222063,7 +220253,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -222382,72 +220571,28 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
+                    1,
+                    "Sticky Web"
+                ],
+                [
+                    1,
                     "Vise Grip"
                 ],
                 [
-                    0,
-                    "Dig"
-                ],
-                [
-                    0,
-                    "Mud-Slap"
-                ],
-                [
-                    0,
-                    "Iron Defense"
-                ],
-                [
-                    0,
+                    1,
                     "X-Scissor"
                 ],
                 [
-                    0,
+                    1,
                     "Bug Bite"
                 ],
                 [
-                    0,
+                    1,
                     "Thunderbolt"
                 ],
                 [
                     1,
-                    "Vise Grip"
-                ],
-                [
-                    1,
-                    "Dig"
-                ],
-                [
-                    1,
-                    "Mud-Slap"
-                ],
-                [
-                    1,
-                    "Iron Defense"
-                ],
-                [
-                    1,
-                    "X-Scissor"
-                ],
-                [
-                    1,
-                    "Bug Bite"
-                ],
-                [
-                    1,
-                    "String Shot"
-                ],
-                [
-                    1,
                     "Crunch"
-                ],
-                [
-                    1,
-                    "Charge"
-                ],
-                [
-                    1,
-                    "Discharge"
                 ],
                 [
                     15,
@@ -222459,105 +220604,53 @@ backup_data = {
                 ],
                 [
                     29,
-                    "Sticky Web"
+                    "Crunch"
                 ],
                 [
                     36,
+                    "Signal Beam"
+                ],
+                [
+                    48,
+                    "Discharge"
+                ],
+                [
+                    55,
                     "Bug Buzz"
                 ],
                 [
-                    43,
-                    "Guillotine"
+                    65,
+                    "Thunderbolt"
                 ],
                 [
-                    50,
-                    "Fly"
-                ],
-                [
-                    57,
-                    "Agility"
-                ],
-                [
-                    64,
+                    66,
                     "Zap Cannon"
                 ]
             ],
             "tms":
             [
                 "Acrobatics",
-                "Agility",
-                "Air Slash",
-                "Attract",
-                "Baton Pass",
-                "Bug Bite",
-                "Bug Buzz",
-                "Bulldoze",
-                "Charge",
-                "Charge Beam",
                 "Confide",
-                "Crunch",
-                "Dig",
-                "Double Team",
-                "Eerie Impulse",
-                "Electric Terrain",
                 "Electroweb",
-                "Electro Ball",
-                "Endure",
                 "Energy Ball",
                 "Facade",
                 "Flash Cannon",
                 "Fly",
-                "Frustration",
-                "Giga Impact",
                 "Hidden Power",
-                "Hyper Beam",
-                "Iron Defense",
-                "Light Screen",
-                "Lunge",
-                "Mud Shot",
-                "Mud-Slap",
-                "Poison Jab",
-                "Pounce",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Return",
                 "Roost",
-                "Round",
-                "Screech",
-                "Skitter Smack",
-                "Sky Drop",
-                "Sleep Talk",
-                "Snore",
-                "Solar Beam",
                 "Struggle Bug",
-                "Substitute",
-                "Supercell Slam",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Thunder",
                 "Thunderbolt",
                 "Thunder Wave",
                 "Toxic",
-                "Volt Switch",
-                "Wild Charge",
-                "X-Scissor"
+                "X-Scissor",
+                "Shock Wave"
             ],
             "tutors":
             [
                 "Bug Bite",
-                "Dual Wingbeat",
-                "Electroweb",
-                "Iron Defense",
-                "Laser Focus",
-                "Magnet Rise",
-                "Rising Voltage",
-                "Shock Wave",
-                "Signal Beam",
-                "Skitter Smack",
-                "Snore"
+                "Poison Jab",
+                "Thunder"
             ],
             "egg":
             [
@@ -223055,75 +221148,32 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Ally Switch",
-                "Attract",
-                "Baton Pass",
-                "Bug Bite",
-                "Bug Buzz",
-                "Calm Mind",
-                "Charm",
-                "Confide",
-                "Dazzling Gleam",
-                "Double Team",
+                "Defog",
                 "Draining Kiss",
-                "Dream Eater",
-                "Endure",
+                "Dual Wingbeat",
                 "Energy Ball",
                 "Facade",
-                "Fake Tears",
-                "Frustration",
-                "Grass Knot",
-                "Helping Hand",
                 "Hidden Power",
-                "Imprison",
-                "Infestation",
                 "Leech Life",
-                "Light Screen",
                 "Magical Leaf",
-                "Magic Room",
                 "Play Rough",
-                "Pollen Puff",
-                "Pounce",
-                "Protect",
                 "Psychic",
-                "Psych Up",
-                "Reflect",
-                "Rest",
-                "Return",
                 "Roost",
-                "Round",
-                "Safeguard",
                 "Skill Swap",
-                "Skitter Smack",
-                "Sleep Talk",
-                "Snore",
-                "Speed Swap",
+                "Solar Beam",
                 "Struggle Bug",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
                 "Tailwind",
-                "Tera Blast",
-                "Thief",
                 "Toxic",
-                "Trailblaze",
-                "Trick",
-                "U-turn",
-                "Wonder Room"
+                "U-turn"
             ],
             "tutors":
             [
                 "Bug Bite"
             ],
             "egg":
-            [
-                "Aromatic Mist",
-                "Moonblast",
-                "Sticky Web"
-            ]
+            []
         },
         "ribombee":
         {
@@ -223170,11 +221220,11 @@ backup_data = {
                     "Aromatherapy"
                 ],
                 [
-                    45,
+                    48,
                     "Moonblast"
                 ],
                 [
-                    50,
+                    51,
                     "Tailwind"
                 ],
                 [
@@ -223184,86 +221234,32 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Agility",
-                "Alluring Voice",
-                "Ally Switch",
-                "Attract",
-                "Baton Pass",
-                "Bug Bite",
-                "Bug Buzz",
-                "Calm Mind",
-                "Charm",
-                "Confide",
-                "Dazzling Gleam",
-                "Double Team",
+                "Defog",
                 "Draining Kiss",
-                "Dream Eater",
                 "Dual Wingbeat",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "Fake Tears",
-                "Frustration",
-                "Giga Impact",
-                "Grass Knot",
-                "Helping Hand",
                 "Hidden Power",
-                "Hyper Beam",
-                "Imprison",
-                "Infestation",
                 "Leech Life",
-                "Light Screen",
-                "Lunge",
                 "Magical Leaf",
-                "Magic Room",
-                "Nature Power",
                 "Play Rough",
-                "Pollen Puff",
-                "Pounce",
-                "Protect",
                 "Psychic",
-                "Psychic Noise",
-                "Psych Up",
-                "Reflect",
-                "Rest",
-                "Return",
                 "Roost",
-                "Round",
-                "Safeguard",
                 "Skill Swap",
-                "Skitter Smack",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Speed Swap",
-                "Stored Power",
                 "Struggle Bug",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
                 "Tailwind",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
                 "Toxic",
-                "Trailblaze",
-                "Trick",
-                "U-turn",
-                "Wonder Room"
+                "U-turn"
             ],
             "tutors":
             [
                 "Bug Bite"
             ],
             "egg":
-            [
-                "Aromatic Mist",
-                "Moonblast",
-                "Sticky Web"
-            ]
+            []
         },
         "rockruff":
         {
@@ -223446,11 +221442,11 @@ backup_data = {
                     "Stomping Tantrum"
                 ],
                 [
-                    35,
+                    36,
                     "Rock Slide"
                 ],
                 [
-                    39,
+                    40,
                     "Accelerock"
                 ],
                 [
@@ -223458,11 +221454,11 @@ backup_data = {
                     "Crunch"
                 ],
                 [
-                    49,
+                    48,
                     "High Horsepower"
                 ],
                 [
-                    53,
+                    54,
                     "Stone Edge"
                 ]
             ],
@@ -224052,7 +222048,6 @@ backup_data = {
                 "Bulldoze",
                 "Close Combat",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Earthquake",
@@ -224177,7 +222172,7 @@ backup_data = {
                     "Superpower"
                 ],
                 [
-                    56,
+                    55,
                     "Earthquake"
                 ]
             ],
@@ -224189,7 +222184,6 @@ backup_data = {
                 "Bulldoze",
                 "Close Combat",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Earthquake",
@@ -224434,15 +222428,15 @@ backup_data = {
                     "Lunge"
                 ],
                 [
-                    46,
+                    48,
                     "Scald"
                 ],
                 [
-                    52,
+                    51,
                     "Hydro Pump"
                 ],
                 [
-                    56,
+                    55,
                     "Liquidation"
                 ],
                 [
@@ -224985,11 +222979,11 @@ backup_data = {
                     "Moonblast"
                 ],
                 [
-                    49,
+                    48,
                     "Grass Knot"
                 ],
                 [
-                    53,
+                    55,
                     "Spotlight"
                 ],
                 [
@@ -224999,43 +222993,14 @@ backup_data = {
             ],
             "tms":
             [
-                "Amnesia",
-                "Attract",
-                "Charge Beam",
-                "Confide",
-                "Dazzling Gleam",
-                "Double Team",
                 "Draining Kiss",
-                "Drain Punch",
-                "Dream Eater",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "Frustration",
                 "Giga Drain",
-                "Giga Impact",
-                "Grass Knot",
                 "Hidden Power",
-                "Hyper Beam",
-                "Light Screen",
-                "Magic Room",
-                "Nature Power",
-                "Pollen Puff",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Return",
-                "Round",
-                "Safeguard",
-                "Seed Bomb",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Snore",
                 "Solar Beam",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Thunder Wave",
                 "Toxic",
                 "Weather Ball",
                 "Wonder Room"
@@ -225105,66 +223070,18 @@ backup_data = {
             ],
             "tms":
             [
-                "Acid Spray",
-                "Agility",
-                "Attract",
-                "Beat Up",
-                "Burning Jealousy",
-                "Confide",
-                "Double Team",
                 "Dragon Claw",
                 "Dragon Pulse",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Fire Blast",
-                "Fire Fang",
                 "Flamethrower",
-                "Flame Charge",
-                "Flare Blitz",
-                "Fling",
-                "Foul Play",
-                "Frustration",
-                "Gunk Shot",
-                "Heat Wave",
-                "Helping Hand",
                 "Hidden Power",
-                "Iron Tail",
-                "Knock Off",
                 "Leech Life",
-                "Mud-Slap",
-                "Nasty Plot",
-                "Overheat",
                 "Payback",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
-                "Rest",
-                "Return",
-                "Round",
-                "Scale Shot",
-                "Scary Face",
-                "Shadow Claw",
-                "Skitter Smack",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Snore",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Taunt",
                 "Temper Flare",
-                "Tera Blast",
-                "Thief",
-                "Thunder Wave",
                 "Torment",
                 "Toxic",
-                "Toxic Spikes",
-                "Trailblaze",
-                "Venom Drench",
                 "Venoshock",
                 "Will-O-Wisp"
             ],
@@ -225231,7 +223148,7 @@ backup_data = {
                     "Venoshock"
                 ],
                 [
-                    35,
+                    36,
                     "Flamethrower"
                 ],
                 [
@@ -225249,78 +223166,20 @@ backup_data = {
             ],
             "tms":
             [
-                "Acid Spray",
-                "Acrobatics",
-                "Agility",
-                "Attract",
-                "Beat Up",
-                "Body Slam",
                 "Breaking Swipe",
-                "Burning Jealousy",
-                "Confide",
-                "Cross Poison",
-                "Double Team",
-                "Dragon Cheer",
-                "Dragon Claw",
-                "Dragon Dance",
-                "Dragon Pulse",
                 "Dragon Tail",
-                "Encore",
-                "Endeavor",
-                "Endure",
+                "Dragon Claw",
+                "Dragon Pulse",
                 "Facade",
-                "Fake Tears",
-                "Fire Blast",
-                "Fire Fang",
                 "Flamethrower",
-                "Flame Charge",
-                "Flare Blitz",
-                "Fling",
-                "Foul Play",
-                "Frustration",
-                "Giga Impact",
-                "Gunk Shot",
-                "Heat Wave",
-                "Helping Hand",
                 "Hidden Power",
-                "Hyper Beam",
-                "Hyper Voice",
-                "Iron Tail",
-                "Knock Off",
                 "Leech Life",
-                "Mud-Slap",
-                "Nasty Plot",
-                "Overheat",
                 "Payback",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
-                "Rest",
-                "Return",
-                "Round",
-                "Scale Shot",
-                "Scary Face",
-                "Shadow Claw",
-                "Skitter Smack",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Snore",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Taunt",
                 "Temper Flare",
-                "Tera Blast",
-                "Thief",
-                "Thunder Wave",
                 "Torment",
                 "Toxic",
-                "Toxic Spikes",
-                "Trailblaze",
-                "Venom Drench",
                 "Venoshock",
                 "Will-O-Wisp"
             ],
@@ -225398,46 +223257,18 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
-                "Brick Break",
-                "Brutal Swing",
-                "Bulk Up",
-                "Bulldoze",
-                "Charm",
-                "Confide",
-                "Double Team",
+                "Body Press",
+                "Body Slam",
+                "Dragon Claw",
                 "Earthquake",
-                "Endure",
-                "Facade",
-                "Fling",
-                "Focus Blast",
-                "Frustration",
                 "Hidden Power",
-                "Ice Punch",
-                "Iron Head",
-                "Low Sweep",
-                "Mega Kick",
-                "Mega Punch",
                 "Payback",
-                "Protect",
-                "Rest",
-                "Return",
                 "Roar",
                 "Rock Slide",
                 "Rock Tomb",
-                "Round",
-                "Sleep Talk",
-                "Snore",
-                "Stomping Tantrum",
-                "Substitute",
-                "Superpower",
+                "Strength",
                 "Swagger",
-                "Swords Dance",
-                "Taunt",
-                "Thunder Punch",
-                "Toxic",
-                "Work Up",
-                "Zen Headbutt"
+                "Toxic"
             ],
             "tutors":
             [
@@ -225507,7 +223338,7 @@ backup_data = {
                     "Hammer Arm"
                 ],
                 [
-                    52,
+                    51,
                     "Double-Edge"
                 ],
                 [
@@ -225518,59 +223349,18 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Attract",
                 "Body Press",
                 "Body Slam",
-                "Brick Break",
-                "Brutal Swing",
-                "Bulk Up",
-                "Bulldoze",
-                "Charm",
-                "Close Combat",
-                "Confide",
-                "Darkest Lariat",
-                "Double Team",
                 "Dragon Claw",
-                "Drain Punch",
                 "Earthquake",
-                "Endure",
-                "Facade",
-                "Fling",
-                "Focus Blast",
-                "Frustration",
-                "Giga Impact",
                 "Hidden Power",
-                "High Horsepower",
-                "Hyper Beam",
-                "Ice Punch",
-                "Iron Head",
-                "Low Kick",
-                "Low Sweep",
-                "Mega Kick",
-                "Mega Punch",
                 "Payback",
-                "Protect",
-                "Rest",
-                "Return",
-                "Revenge",
-                "Reversal",
                 "Roar",
                 "Rock Slide",
                 "Rock Tomb",
-                "Round",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
-                "Stomping Tantrum",
-                "Substitute",
-                "Superpower",
+                "Strength",
                 "Swagger",
-                "Swords Dance",
-                "Taunt",
-                "Thunder Punch",
-                "Toxic",
-                "Work Up",
-                "Zen Headbutt"
+                "Toxic"
             ],
             "tutors":
             [
@@ -225630,49 +223420,20 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Bounce",
+                "Acrobatics",
                 "Bullet Seed",
-                "Charm",
-                "Confide",
-                "Dazzling Gleam",
-                "Double Team",
                 "Draining Kiss",
-                "Endeavor",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "Frustration",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Helping Hand",
                 "Hidden Power",
-                "Leaf Storm",
-                "Light Screen",
                 "Magical Leaf",
-                "Nature Power",
+                "Payback",
                 "Play Rough",
-                "Protect",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Round",
-                "Safeguard",
-                "Seed Bomb",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Substitute",
-                "Sunny Day",
+                "Solar Blade",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
-                "Trailblaze",
-                "Zen Headbutt"
+                "U-turn"
             ],
             "tutors":
             [
@@ -225736,54 +223497,20 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Bounce",
+                "Acrobatics",
                 "Bullet Seed",
-                "Charm",
-                "Confide",
-                "Dazzling Gleam",
-                "Double Team",
                 "Draining Kiss",
-                "Endeavor",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "Fling",
-                "Frustration",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Helping Hand",
                 "Hidden Power",
-                "Leaf Storm",
-                "Light Screen",
-                "Low Sweep",
                 "Magical Leaf",
-                "Nature Power",
                 "Payback",
-                "Petal Blizzard",
                 "Play Rough",
-                "Protect",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Round",
-                "Safeguard",
-                "Seed Bomb",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Substitute",
-                "Sunny Day",
+                "Solar Blade",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
-                "Trailblaze",
-                "Triple Axel",
-                "Zen Headbutt"
+                "U-turn"
             ],
             "tutors":
             [
@@ -225868,63 +223595,19 @@ backup_data = {
             "tms":
             [
                 "Acrobatics",
-                "Attract",
-                "Bounce",
                 "Bullet Seed",
-                "Charm",
-                "Confide",
-                "Dazzling Gleam",
-                "Double Team",
                 "Draining Kiss",
-                "Endeavor",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "Fling",
-                "Frustration",
-                "Giga Drain",
-                "Giga Impact",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Helping Hand",
                 "Hidden Power",
-                "Hyper Beam",
-                "Knock Off",
-                "Leaf Storm",
-                "Light Screen",
-                "Low Kick",
-                "Low Sweep",
                 "Magical Leaf",
-                "Mega Kick",
-                "Nature Power",
                 "Payback",
-                "Petal Blizzard",
                 "Play Rough",
-                "Power Whip",
-                "Protect",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Round",
-                "Safeguard",
-                "Seed Bomb",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
                 "Solar Blade",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
                 "Toxic",
-                "Trailblaze",
-                "Triple Axel",
-                "U-turn",
-                "Zen Headbutt"
+                "U-turn"
             ],
             "tutors":
             [
@@ -226393,7 +224076,6 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Drain Punch",
@@ -226499,33 +224181,11 @@ backup_data = {
             ],
             "tms":
             [
-                "Assurance",
-                "Attract",
-                "Bug Buzz",
-                "Confide",
-                "Double Team",
-                "Endure",
                 "Facade",
-                "Frustration",
-                "Hail",
                 "Hidden Power",
                 "Leech Life",
-                "Mud Shot",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Return",
-                "Round",
-                "Scald",
-                "Screech",
-                "Sleep Talk",
-                "Snore",
-                "Spikes",
-                "Substitute",
                 "Surf",
                 "Swagger",
-                "Swift",
-                "Taunt",
                 "Toxic",
                 "Waterfall"
             ],
@@ -226593,7 +224253,7 @@ backup_data = {
                     "Leech Life"
                 ],
                 [
-                    56,
+                    55,
                     "Sucker Punch"
                 ],
                 [
@@ -226601,7 +224261,7 @@ backup_data = {
                     "First Impression"
                 ],
                 [
-                    68,
+                    65,
                     "Liquidation"
                 ]
             ],
@@ -226609,64 +224269,19 @@ backup_data = {
             [
                 "Aerial Ace",
                 "Assurance",
-                "Attract",
-                "Blizzard",
-                "Brick Break",
-                "Bug Buzz",
-                "Bulk Up",
-                "Close Combat",
-                "Confide",
                 "Dark Pulse",
-                "Dive",
-                "Double Team",
-                "Drill Run",
-                "Endure",
-                "Facade",
-                "False Swipe",
-                "Fling",
-                "Focus Blast",
                 "Frost Breath",
-                "Frustration",
-                "Giga Impact",
-                "Hail",
                 "Hidden Power",
-                "Hyper Beam",
                 "Ice Beam",
                 "Icy Wind",
-                "Iron Defense",
-                "Iron Head",
                 "Leech Life",
-                "Liquidation",
-                "Muddy Water",
-                "Mud Shot",
-                "Payback",
-                "Pin Missile",
-                "Poison Jab",
-                "Protect",
-                "Psych Up",
-                "Rain Dance",
-                "Razor Shell",
-                "Rest",
-                "Return",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Round",
-                "Scald",
-                "Screech",
-                "Shadow Claw",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Snarl",
-                "Snore",
-                "Spikes",
-                "Substitute",
+                "Smart Strike",
                 "Surf",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Taunt",
-                "Throat Chop",
                 "Toxic",
                 "Venoshock",
                 "Waterfall",
@@ -226759,7 +224374,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Double Team",
                 "Earthquake",
                 "Earth Power",
@@ -226831,7 +224445,6 @@ backup_data = {
             "egg":
             [
                 "Ancient Power",
-                "Curse",
                 "Destiny Bond",
                 "Spit Up",
                 "Stockpile",
@@ -226921,7 +224534,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Double Team",
                 "Earthquake",
                 "Earth Power",
@@ -226998,7 +224610,6 @@ backup_data = {
             "egg":
             [
                 "Ancient Power",
-                "Curse",
                 "Destiny Bond",
                 "Spit Up",
                 "Stockpile",
@@ -227681,7 +225292,6 @@ backup_data = {
                 "Calm Mind",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Earthquake",
@@ -227810,11 +225420,11 @@ backup_data = {
                     "Explosion"
                 ],
                 [
-                    60,
+                    61,
                     "Overheat"
                 ],
                 [
-                    70,
+                    66,
                     "Draco Meteor"
                 ]
             ],
@@ -227856,6 +225466,7 @@ backup_data = {
                 "Iron Tail",
                 "Mega Kick",
                 "Mega Punch",
+                "Misty Explosion",
                 "Outrage",
                 "Overheat",
                 "Payback",
@@ -227890,7 +225501,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Head Smash",
                 "Rapid Spin",
                 "Wide Guard"
@@ -227965,60 +225575,21 @@ backup_data = {
                     "Wild Charge"
                 ],
                 [
-                    54,
+                    55,
                     "Spiky Shield"
                 ]
             ],
             "tms":
             [
-                "Agility",
                 "Assurance",
-                "Attract",
-                "Bounce",
-                "Charge Beam",
-                "Confide",
-                "Double Team",
-                "Eerie Impulse",
-                "Electric Terrain",
                 "Electroweb",
-                "Electro Ball",
-                "Encore",
-                "Endure",
                 "Facade",
-                "Fling",
-                "Frustration",
-                "Giga Impact",
-                "Grass Knot",
-                "Gyro Ball",
-                "Helping Hand",
                 "Hidden Power",
-                "Hyper Beam",
-                "Iron Head",
-                "Iron Tail",
                 "Payback",
-                "Pin Missile",
-                "Poison Jab",
-                "Protect",
-                "Reflect",
-                "Rest",
-                "Return",
-                "Reversal",
-                "Round",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
                 "Swagger",
-                "Swift",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
-                "Thunder Wave",
                 "Toxic",
-                "U-turn",
-                "Volt Switch",
-                "Wild Charge",
-                "Work Up",
-                "Zen Headbutt"
+                "U-turn"
             ],
             "tutors":
             [
@@ -228115,7 +225686,6 @@ backup_data = {
                 "Charm",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dazzling Gleam",
                 "Double Team",
@@ -228182,7 +225752,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Destiny Bond"
             ]
         },
@@ -228558,15 +226127,15 @@ backup_data = {
                     "Grassy Glide"
                 ],
                 [
-                    52,
+                    51,
                     "Giga Drain"
                 ],
                 [
-                    58,
+                    55,
                     "Heavy Slam"
                 ],
                 [
-                    64,
+                    65,
                     "Phantom Force"
                 ],
                 [
@@ -228913,7 +226482,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -229111,7 +226679,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -231883,96 +229450,76 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Psychic"
-                ],
-                [
                     1,
-                    "Psychic"
-                ],
-                [
-                    1,
-                    "Play Nice"
-                ],
-                [
-                    1,
-                    "Sweet Kiss"
-                ],
-                [
-                    1,
-                    "Nuzzle"
-                ],
-                [
-                    1,
-                    "Nasty Plot"
-                ],
-                [
-                    1,
-                    "Charm"
-                ],
-                [
-                    1,
-                    "Thunder Wave"
-                ],
-                [
-                    1,
-                    "Double Team"
-                ],
-                [
-                    1,
-                    "Electro Ball"
-                ],
-                [
-                    1,
-                    "Feint"
-                ],
-                [
-                    1,
-                    "Spark"
-                ],
-                [
-                    1,
-                    "Agility"
-                ],
-                [
-                    1,
-                    "Slam"
-                ],
-                [
-                    1,
-                    "Discharge"
-                ],
-                [
-                    1,
-                    "Thunderbolt"
-                ],
-                [
-                    1,
-                    "Light Screen"
-                ],
-                [
-                    1,
-                    "Thunder"
+                    "Tail Whip"
                 ],
                 [
                     1,
                     "Thunder Shock"
                 ],
                 [
-                    1,
-                    "Tail Whip"
-                ],
-                [
-                    1,
+                    5,
                     "Growl"
                 ],
                 [
-                    1,
+                    7,
+                    "Play Nice"
+                ],
+                [
+                    10,
                     "Quick Attack"
                 ],
                 [
-                    1,
-                    "Speed Swap"
+                    13,
+                    "Electro Ball"
+                ],
+                [
+                    18,
+                    "Thunder Wave"
+                ],
+                [
+                    21,
+                    "Psybeam"
+                ],
+                [
+                    23,
+                    "Fake Out"
+                ],
+                [
+                    26,
+                    "Discharge"
+                ],
+                [
+                    29,
+                    "Nuzzle"
+                ],
+                [
+                    34,
+                    "Wild Charge"
+                ],
+                [
+                    38,
+                    "Psychic"
+                ],
+                [
+                    40,
+                    "Thunderbolt"
+                ],
+                [
+                    47,
+                    "Surf"
+                ],
+                [
+                    50,
+                    "Encore"
+                ],
+                [
+                    54,
+                    "Extreme Speed"
+                ],
+                [
+                    60,
+                    "Volt Tackle"
                 ]
             ],
             "tms":
@@ -232157,72 +229704,21 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Amnesia",
-                "Attract",
-                "Aurora Veil",
-                "Avalanche",
-                "Blizzard",
-                "Body Slam",
-                "Brick Break",
-                "Bulldoze",
-                "Confide",
-                "Curse",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
                 "Earthquake",
-                "Endeavor",
-                "Endure",
                 "Facade",
                 "Flash Cannon",
-                "Fling",
-                "Focus Punch",
                 "Frost Breath",
-                "Frustration",
-                "Gyro Ball",
-                "Hail",
-                "Headbutt",
                 "Hidden Power",
                 "Ice Beam",
-                "Ice Punch",
-                "Ice Spinner",
-                "Icicle Spear",
                 "Icy Wind",
-                "Iron Defense",
-                "Iron Head",
-                "Iron Tail",
-                "Knock Off",
                 "Leech Life",
-                "Low Kick",
-                "Metal Claw",
-                "Poison Jab",
-                "Protect",
-                "Rest",
-                "Return",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Round",
-                "Safeguard",
+                "Smart Strike",
                 "Seismic Toss",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
-                "Snowscape",
-                "Stealth Rock",
-                "Steel Beam",
-                "Substitute",
-                "Sunny Day",
-                "Super Fang",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
                 "Toxic",
-                "Triple Axel",
-                "Work Up",
                 "X-Scissor"
             ],
             "tutors":
@@ -232231,14 +229727,12 @@ backup_data = {
                 "Brick Break",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
             [
                 "Counter",
                 "Crush Claw",
-                "Curse",
                 "Flail",
                 "Hone Claws",
                 "Ice Shard",
@@ -232315,91 +229809,32 @@ backup_data = {
                     "Gyro Ball"
                 ],
                 [
-                    52,
+                    51,
                     "Icicle Crash"
                 ],
                 [
-                    57,
+                    55,
                     "Triple Axel"
                 ]
             ],
             "tms":
             [
                 "Aerial Ace",
-                "Agility",
-                "Amnesia",
-                "Attract",
-                "Aurora Veil",
-                "Avalanche",
-                "Blizzard",
-                "Body Slam",
-                "Brick Break",
-                "Bulldoze",
-                "Confide",
-                "Curse",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
-                "Drill Run",
                 "Earthquake",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "False Swipe",
                 "Flash Cannon",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
                 "Frost Breath",
-                "Frustration",
-                "Giga Impact",
-                "Gyro Ball",
-                "Hail",
-                "Headbutt",
                 "Hidden Power",
-                "Hyper Beam",
                 "Ice Beam",
-                "Ice Punch",
-                "Ice Spinner",
-                "Icicle Spear",
                 "Icy Wind",
-                "Iron Defense",
-                "Iron Head",
-                "Iron Tail",
-                "Knock Off",
                 "Leech Life",
-                "Low Kick",
-                "Metal Claw",
-                "Pin Missile",
-                "Poison Jab",
-                "Protect",
-                "Rest",
-                "Return",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Round",
-                "Safeguard",
+                "Smart Strike",
                 "Seismic Toss",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
-                "Snowscape",
-                "Spikes",
-                "Stealth Rock",
-                "Steel Beam",
-                "Substitute",
-                "Sunny Day",
-                "Super Fang",
                 "Swagger",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
                 "Toxic",
-                "Triple Axel",
-                "Work Up",
                 "X-Scissor"
             ],
             "tutors":
@@ -232408,14 +229843,12 @@ backup_data = {
                 "Brick Break",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
             [
                 "Counter",
                 "Crush Claw",
-                "Curse",
                 "Flail",
                 "Hone Claws",
                 "Ice Shard",
@@ -233074,7 +230507,6 @@ backup_data = {
                 "Bulldoze",
                 "Charm",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -233245,7 +230677,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dig",
                 "Double-Edge",
@@ -233469,7 +230900,6 @@ backup_data = {
                 "Chilling Water",
                 "Confide",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dig",
                 "Double-Edge",
@@ -233650,7 +231080,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -233710,7 +231139,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -233718,7 +231146,6 @@ backup_data = {
             [
                 "Block",
                 "Counter",
-                "Curse",
                 "Endure",
                 "Flail",
                 "Screech",
@@ -233783,19 +231210,19 @@ backup_data = {
                     "Rock Slide"
                 ],
                 [
-                    42,
+                    40,
                     "Wild Charge"
                 ],
                 [
-                    48,
+                    47,
                     "Explosion"
                 ],
                 [
-                    51,
+                    50,
                     "Double-Edge"
                 ],
                 [
-                    57,
+                    54,
                     "Stone Edge"
                 ]
             ],
@@ -233809,7 +231236,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -233875,7 +231301,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -233883,7 +231308,6 @@ backup_data = {
             [
                 "Block",
                 "Counter",
-                "Curse",
                 "Endure",
                 "Flail",
                 "Screech",
@@ -233964,19 +231388,19 @@ backup_data = {
                     "Rock Slide"
                 ],
                 [
-                    45,
+                    47,
                     "Wild Charge"
                 ],
                 [
-                    53,
+                    51,
                     "Explosion"
                 ],
                 [
-                    57,
+                    54,
                     "Double-Edge"
                 ],
                 [
-                    65,
+                    61,
                     "Stone Edge"
                 ]
             ],
@@ -233991,7 +231415,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Confide",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Double Team",
@@ -234021,6 +231444,7 @@ backup_data = {
                 "Iron Head",
                 "Meteor Beam",
                 "Metronome",
+                "Misty Explosion",
                 "Mud Shot",
                 "Mud-Slap",
                 "Nature Power",
@@ -234063,7 +231487,6 @@ backup_data = {
                 "Fire Blast",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder",
                 "Thunder Punch"
             ],
@@ -234071,7 +231494,6 @@ backup_data = {
             [
                 "Block",
                 "Counter",
-                "Curse",
                 "Endure",
                 "Flail",
                 "Screech",
@@ -234150,80 +231572,22 @@ backup_data = {
             ],
             "tms":
             [
-                "Acid Spray",
-                "Attract",
-                "Body Slam",
-                "Brick Break",
-                "Brutal Swing",
-                "Confide",
-                "Crunch",
-                "Curse",
                 "Dark Pulse",
-                "Dig",
-                "Double Team",
-                "Drain Punch",
                 "Embargo",
-                "Endure",
                 "Explosion",
                 "Facade",
-                "Fire Blast",
-                "Fire Punch",
                 "Flamethrower",
-                "Fling",
-                "Frustration",
-                "Giga Drain",
-                "Giga Impact",
-                "Gunk Shot",
-                "Headbutt",
-                "Helping Hand",
-                "Hex",
                 "Hidden Power",
-                "Hyper Beam",
-                "Ice Punch",
-                "Imprison",
-                "Infestation",
-                "Knock Off",
-                "Mega Drain",
-                "Metronome",
-                "Mud Shot",
-                "Mud-Slap",
-                "Pain Split",
+                "Misty Explosion",
                 "Payback",
-                "Poison Jab",
-                "Protect",
-                "Quash",
-                "Rain Dance",
-                "Rest",
-                "Return",
-                "Rock Polish",
                 "Rock Slide",
                 "Rock Tomb",
-                "Round",
-                "Sandstorm",
-                "Scary Face",
-                "Self-Destruct",
                 "Shadow Ball",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Snarl",
-                "Spite",
-                "Stone Edge",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
-                "Thunder Punch",
-                "Torment",
                 "Toxic",
-                "Venoshock",
-                "Zen Headbutt"
+                "Venoshock"
             ],
             "tutors":
             [
@@ -234238,7 +231602,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Spite",
                 "Mean Look",
                 "Stockpile",
@@ -234311,99 +231674,36 @@ backup_data = {
                     "Earthquake"
                 ],
                 [
-                    50,
+                    51,
                     "Gunk Shot"
                 ],
                 [
-                    54,
+                    55,
                     "Knock Off"
                 ],
                 [
-                    60,
+                    61,
                     "Explosion"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Attract",
-                "Body Slam",
-                "Brick Break",
-                "Brutal Swing",
-                "Confide",
-                "Crunch",
-                "Curse",
                 "Dark Pulse",
-                "Dig",
-                "Double Team",
-                "Drain Punch",
                 "Embargo",
-                "Endure",
                 "Explosion",
                 "Facade",
-                "Fire Blast",
-                "Fire Punch",
                 "Flamethrower",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
-                "Foul Play",
-                "Frustration",
-                "Giga Drain",
-                "Giga Impact",
-                "Gunk Shot",
-                "Haze",
-                "Headbutt",
-                "Helping Hand",
-                "Hex",
                 "Hidden Power",
-                "Hyper Beam",
-                "Ice Punch",
-                "Imprison",
-                "Infestation",
-                "Knock Off",
-                "Lash Out",
-                "Mega Drain",
-                "Metronome",
-                "Mud Shot",
-                "Mud-Slap",
-                "Pain Split",
+                "Misty Explosion",
                 "Payback",
-                "Poison Jab",
-                "Protect",
-                "Quash",
-                "Rain Dance",
-                "Rest",
-                "Return",
-                "Rock Polish",
                 "Rock Slide",
                 "Rock Tomb",
-                "Round",
-                "Sandstorm",
-                "Scary Face",
-                "Self-Destruct",
                 "Shadow Ball",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Snarl",
-                "Spite",
-                "Stone Edge",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
-                "Swift",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
-                "Thunder Punch",
-                "Torment",
                 "Toxic",
-                "Venoshock",
-                "Zen Headbutt"
+                "Venoshock"
             ],
             "tutors":
             [
@@ -234418,7 +231718,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Spite",
                 "Mean Look",
                 "Stockpile",
@@ -234436,71 +231735,59 @@ backup_data = {
             [
                 [
                     1,
-                    "Heat Wave"
+                    "Bullet Seed"
                 ],
                 [
                     1,
-                    "Smog"
+                    "Dragon Tail"
                 ],
                 [
                     1,
-                    "Tackle"
+                    "Hypnosis"
                 ],
                 [
-                    4,
-                    "Smokescreen"
+                    10,
+                    "Stun Spore"
                 ],
                 [
-                    7,
-                    "Grudge"
+                    10,
+                    "Poison Powder"
                 ],
                 [
-                    12,
-                    "Haze"
+                    17,
+                    "Sleep Powder"
                 ],
                 [
-                    15,
-                    "Clear Smog"
+                    20,
+                    "Breaking Swipe"
                 ],
                 [
-                    18,
-                    "Belch"
+                    25,
+                    "Energy Ball"
                 ],
                 [
-                    23,
-                    "Payback"
-                ],
-                [
-                    26,
-                    "Sludge"
-                ],
-                [
-                    29,
-                    "Toxic"
-                ],
-                [
-                    34,
-                    "Self-Destruct"
+                    30,
+                    "Dragon Pulse"
                 ],
                 [
                     38,
-                    "Will-O-Wisp"
-                ],
-                [
-                    42,
-                    "Sludge Bomb"
+                    "Wood Hammer"
                 ],
                 [
                     45,
-                    "Pain Split"
+                    "Dragon Hammer"
                 ],
                 [
-                    48,
-                    "Strange Steam"
+                    50,
+                    "Leaf Storm"
                 ],
                 [
                     55,
-                    "Explosion"
+                    "Synthesis"
+                ],
+                [
+                    61,
+                    "Draco Meteor"
                 ]
             ],
             "tms":
@@ -234514,7 +231801,6 @@ backup_data = {
                 "Bullet Seed",
                 "Calm Mind",
                 "Confide",
-                "Curse",
                 "Double-Edge",
                 "Double Team",
                 "Draco Meteor",
@@ -234549,6 +231835,7 @@ backup_data = {
                 "Low Kick",
                 "Magical Leaf",
                 "Mega Drain",
+                "Misty Explosion",
                 "Nature Power",
                 "Outrage",
                 "Power Swap",
@@ -234598,7 +231885,6 @@ backup_data = {
             [
                 "Ancient Power",
                 "Block",
-                "Curse",
                 "Ingrain",
                 "Moonlight",
                 "Poison Powder",
@@ -234827,7 +232113,6 @@ backup_data = {
             [
                 "Ancient Power",
                 "Belly Drum",
-                "Curse",
                 "Detect",
                 "Double Kick",
                 "Leer",
@@ -234840,24 +232125,8 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Counter"
-                ],
-                [
-                    1,
-                    "Counter"
-                ],
-                [
-                    1,
-                    "Endure"
-                ],
-                [
                     1,
                     "Reversal"
-                ],
-                [
-                    1,
-                    "Taunt"
                 ],
                 [
                     1,
@@ -234865,157 +232134,83 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Leer"
-                ],
-                [
-                    1,
-                    "Sand Attack"
-                ],
-                [
-                    1,
-                    "Double Team"
-                ],
-                [
-                    1,
-                    "Bite"
+                    "Odor Sleuth"
                 ],
                 [
                     4,
                     "Sand Attack"
                 ],
                 [
-                    13,
+                    7,
                     "Rock Throw"
                 ],
                 [
-                    13,
+                    12,
                     "Bite"
                 ],
                 [
-                    14,
-                    "Howl"
+                    15,
+                    "Roar"
                 ],
                 [
                     18,
-                    "Odor Sleuth"
+                    "Brick Break"
                 ],
                 [
                     23,
                     "Rock Tomb"
                 ],
                 [
-                    28,
-                    "Roar"
+                    26,
+                    "Sucker Punch"
                 ],
                 [
-                    35,
+                    29,
+                    "Stomping Tantrum"
+                ],
+                [
+                    36,
                     "Rock Slide"
                 ],
                 [
-                    41,
+                    40,
+                    "Cross Chop"
+                ],
+                [
+                    43,
                     "Crunch"
                 ],
                 [
-                    42,
-                    "Scary Face"
+                    47,
+                    "High Horsepower"
                 ],
                 [
-                    42,
-                    "Stealth Rock"
-                ],
-                [
-                    45,
-                    "Rock Climb"
-                ],
-                [
-                    54,
+                    65,
                     "Stone Edge"
                 ]
             ],
             "tms":
             [
-                "Attract",
-                "Body Slam",
-                "Brick Break",
-                "Bulk Up",
-                "Bulldoze",
-                "Charm",
-                "Close Combat",
-                "Confide",
-                "Crunch",
-                "Dig",
-                "Double-Edge",
-                "Double Team",
                 "Earth Power",
-                "Echoed Voice",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Fire Fang",
-                "Fire Punch",
-                "Fling",
-                "Focus Punch",
-                "Foul Play",
-                "Frustration",
-                "Giga Impact",
-                "Helping Hand",
                 "Hidden Power",
                 "Hyper Voice",
-                "Iron Defense",
-                "Iron Head",
-                "Iron Tail",
-                "Knock Off",
-                "Lash Out",
-                "Low Sweep",
-                "Mega Kick",
-                "Mega Punch",
-                "Mud-Slap",
-                "Outrage",
                 "Payback",
                 "Play Rough",
-                "Protect",
                 "Psychic Fangs",
-                "Rest",
-                "Return",
-                "Revenge",
-                "Reversal",
                 "Roar",
                 "Rock Blast",
-                "Rock Polish",
                 "Rock Slide",
                 "Rock Tomb",
-                "Round",
-                "Sandstorm",
-                "Scary Face",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
-                "Stealth Rock",
-                "Stomping Tantrum",
-                "Stone Edge",
-                "Substitute",
-                "Sunny Day",
                 "Swagger",
                 "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Throat Chop",
-                "Thunder Fang",
-                "Thunder Punch",
-                "Toxic",
-                "Trailblaze",
-                "Upper Hand",
-                "Uproar",
-                "Zen Headbutt"
+                "Toxic"
             ],
             "tutors":
             [
                 "Brick Break",
                 "Fire Punch",
                 "Headbutt",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -235030,48 +232225,8 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Crush Claw"
-                ],
-                [
-                    0,
-                    "Thrash"
-                ],
-                [
                     1,
-                    "Crush Claw"
-                ],
-                [
-                    1,
-                    "Sucker Punch"
-                ],
-                [
-                    1,
-                    "Accelerock"
-                ],
-                [
-                    1,
-                    "Quick Guard"
-                ],
-                [
-                    1,
-                    "Quick Attack"
-                ],
-                [
-                    1,
-                    "Counter"
-                ],
-                [
-                    1,
-                    "Endure"
-                ],
-                [
-                    1,
-                    "Reversal"
-                ],
-                [
-                    1,
-                    "Taunt"
+                    "Psychic Fangs"
                 ],
                 [
                     1,
@@ -235079,71 +232234,55 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Leer"
-                ],
-                [
-                    1,
-                    "Sand Attack"
-                ],
-                [
-                    1,
-                    "Double Team"
-                ],
-                [
-                    1,
-                    "Thrash"
-                ],
-                [
-                    1,
-                    "Bite"
+                    "Odor Sleuth"
                 ],
                 [
                     4,
                     "Sand Attack"
                 ],
                 [
-                    13,
+                    7,
                     "Rock Throw"
                 ],
                 [
-                    13,
+                    12,
                     "Bite"
                 ],
                 [
-                    14,
-                    "Howl"
+                    15,
+                    "Roar"
                 ],
                 [
                     18,
-                    "Odor Sleuth"
+                    "Crush Claw"
                 ],
                 [
                     23,
                     "Rock Tomb"
                 ],
                 [
-                    28,
-                    "Roar"
+                    26,
+                    "Sucker Punch"
                 ],
                 [
-                    35,
+                    29,
+                    "Stomping Tantrum"
+                ],
+                [
+                    36,
                     "Rock Slide"
                 ],
                 [
-                    41,
+                    40,
+                    "Accelerock"
+                ],
+                [
+                    43,
                     "Crunch"
                 ],
                 [
-                    42,
-                    "Scary Face"
-                ],
-                [
-                    42,
-                    "Stealth Rock"
-                ],
-                [
-                    45,
-                    "Rock Climb"
+                    48,
+                    "High Horsepower"
                 ],
                 [
                     54,
@@ -236184,51 +233323,18 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
                 "Assurance",
-                "Attract",
-                "Body Slam",
+                "Body Press",
                 "Bullet Seed",
-                "Drain Punch",
-                "Endeavor",
-                "Endure",
+                "Earthquake",
+                "Earth Power",
                 "Energy Ball",
                 "Facade",
-                "False Swipe",
-                "Fling",
-                "Focus Energy",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Knock Off",
-                "Leaf Storm",
-                "Low Kick",
+                "Hyper Voice",
                 "Magical Leaf",
-                "Mega Kick",
-                "Mega Punch",
-                "Protect",
-                "Rest",
-                "Round",
-                "Screech",
-                "Seed Bomb",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
                 "Solar Blade",
-                "Substitute",
-                "Sunny Day",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Trailblaze",
-                "Uproar",
-                "U-turn",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [
@@ -236295,53 +233401,18 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
                 "Assurance",
-                "Attract",
-                "Body Slam",
+                "Body Press",
                 "Bullet Seed",
-                "Double-Edge",
-                "Drain Punch",
-                "Endeavor",
-                "Endure",
+                "Earthquake",
+                "Earth Power",
                 "Energy Ball",
                 "Facade",
-                "False Swipe",
-                "Fling",
-                "Focus Energy",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Knock Off",
-                "Leaf Storm",
-                "Low Kick",
+                "Hyper Voice",
                 "Magical Leaf",
-                "Mega Kick",
-                "Mega Punch",
-                "Protect",
-                "Rest",
-                "Round",
-                "Scary Face",
-                "Screech",
-                "Seed Bomb",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
                 "Solar Blade",
-                "Substitute",
-                "Sunny Day",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Trailblaze",
-                "Uproar",
-                "U-turn",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [
@@ -236406,79 +233477,25 @@ backup_data = {
                     "Knock Off"
                 ],
                 [
-                    63,
+                    61,
                     "Wood Hammer"
                 ]
             ],
             "tms":
             [
-                "Acrobatics",
                 "Assurance",
-                "Attract",
                 "Body Press",
-                "Body Slam",
-                "Brick Break",
-                "Brutal Swing",
-                "Bulk Up",
-                "Bulldoze",
                 "Bullet Seed",
-                "Darkest Lariat",
-                "Double-Edge",
-                "Drain Punch",
                 "Earthquake",
                 "Earth Power",
-                "Endeavor",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "False Swipe",
-                "Fling",
-                "Focus Blast",
-                "Focus Energy",
-                "Focus Punch",
-                "Frenzy Plant",
-                "Giga Drain",
-                "Giga Impact",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "High Horsepower",
-                "Hyper Beam",
                 "Hyper Voice",
-                "Knock Off",
-                "Leaf Storm",
-                "Low Kick",
-                "Low Sweep",
                 "Magical Leaf",
-                "Mega Kick",
-                "Mega Punch",
-                "Mud Shot",
-                "Protect",
-                "Rest",
-                "Round",
-                "Scary Face",
-                "Screech",
-                "Seed Bomb",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
                 "Solar Beam",
                 "Solar Blade",
-                "Stomping Tantrum",
-                "Substitute",
-                "Sunny Day",
-                "Superpower",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Trailblaze",
-                "Uproar",
-                "U-turn",
-                "Work Up"
+                "Strength",
+                "U-turn"
             ],
             "tutors":
             [
@@ -236778,11 +233795,11 @@ backup_data = {
                     "Acrobatics"
                 ],
                 [
-                    70,
+                    66,
                     "High Jump Kick"
                 ],
                 [
-                    77,
+                    72,
                     "Pyro Ball"
                 ]
             ],
@@ -236918,39 +233935,18 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Baton Pass",
-                "Bounce",
-                "Chilling Water",
+                "Breaking Swipe",
+                "Dark Pulse",
                 "Dive",
-                "Endure",
                 "Facade",
-                "Haze",
-                "Hydro Pump",
-                "Light Screen",
-                "Liquidation",
-                "Muddy Water",
-                "Mud Shot",
-                "Protect",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Round",
-                "Safeguard",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
+                "Ice Beam",
+                "Icy Wind",
+                "Shadow Ball",
                 "Surf",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
                 "U-turn",
                 "Waterfall",
-                "Water Pledge",
-                "Water Pulse",
                 "Weather Ball",
-                "Whirlpool",
-                "Work Up"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -237019,40 +234015,18 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Baton Pass",
-                "Bounce",
-                "Chilling Water",
+                "Breaking Swipe",
+                "Dark Pulse",
                 "Dive",
-                "Endure",
                 "Facade",
-                "Fling",
-                "Haze",
-                "Hydro Pump",
-                "Light Screen",
-                "Liquidation",
-                "Muddy Water",
-                "Mud Shot",
-                "Protect",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Round",
-                "Safeguard",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
+                "Ice Beam",
+                "Icy Wind",
+                "Shadow Ball",
                 "Surf",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
                 "U-turn",
                 "Waterfall",
-                "Water Pledge",
-                "Water Pulse",
                 "Weather Ball",
-                "Whirlpool",
-                "Work Up"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -237120,79 +234094,32 @@ backup_data = {
                     "U-turn"
                 ],
                 [
-                    58,
+                    55,
                     "Aqua Jet"
                 ],
                 [
-                    62,
+                    61,
                     "Acrobatics"
                 ],
                 [
-                    66,
-                    "Hydro Pump"
+                    65,
+                    "Hydro Cannon"
                 ]
             ],
             "tms":
             [
-                "Acrobatics",
-                "Agility",
-                "Air Cutter",
-                "Air Slash",
-                "Attract",
-                "Baton Pass",
-                "Blizzard",
-                "Bounce",
                 "Breaking Swipe",
-                "Chilling Water",
                 "Dark Pulse",
                 "Dive",
-                "Endure",
                 "Facade",
-                "Fling",
-                "Flip Turn",
-                "Focus Energy",
-                "Giga Impact",
-                "Haze",
-                "Hydro Cannon",
-                "Hydro Pump",
-                "Hyper Beam",
                 "Ice Beam",
-                "Icicle Spear",
                 "Icy Wind",
-                "Light Screen",
-                "Liquidation",
-                "Metronome",
-                "Muddy Water",
-                "Mud Shot",
-                "Protect",
-                "Psych Up",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Round",
-                "Safeguard",
-                "Scald",
                 "Shadow Ball",
-                "Skitter Smack",
-                "Sleep Talk",
-                "Smack Down",
-                "Snore",
-                "Snowscape",
-                "Substitute",
                 "Surf",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
                 "U-turn",
-                "Vacuum Wave",
                 "Waterfall",
-                "Water Pledge",
-                "Water Pulse",
                 "Weather Ball",
-                "Whirlpool",
-                "Work Up"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -237277,7 +234204,6 @@ backup_data = {
                 "Brutal Swing",
                 "Bullet Seed",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Endeavor",
@@ -237387,7 +234313,6 @@ backup_data = {
                 "Bulldoze",
                 "Bullet Seed",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Earthquake",
@@ -237496,39 +234421,16 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Agility",
-                "Air Cutter",
-                "Air Slash",
                 "Assurance",
-                "Attract",
-                "Brave Bird",
+                "Defog",
                 "Dual Wingbeat",
-                "Endure",
                 "Facade",
-                "Fake Tears",
                 "Fly",
-                "Focus Energy",
-                "Nasty Plot",
-                "Payback",
-                "Protect",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Reversal",
-                "Round",
-                "Scary Face",
-                "Sleep Talk",
-                "Snore",
-                "Spite",
-                "Substitute",
-                "Swift",
+                "Hidden Power",
+                "Rock Smash",
+                "Roost",
                 "Tailwind",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "U-turn",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [],
@@ -237599,41 +234501,16 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Agility",
-                "Air Cutter",
-                "Air Slash",
                 "Assurance",
-                "Attract",
-                "Brave Bird",
+                "Defog",
                 "Dual Wingbeat",
-                "Endure",
                 "Facade",
-                "Fake Tears",
                 "Fly",
-                "Focus Energy",
-                "Hurricane",
-                "Nasty Plot",
-                "Payback",
-                "Protect",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Reversal",
-                "Round",
-                "Scary Face",
-                "Sleep Talk",
-                "Snore",
-                "Spite",
-                "Substitute",
-                "Sunny Day",
-                "Swift",
+                "Hidden Power",
+                "Rock Smash",
+                "Roost",
                 "Tailwind",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "U-turn",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [],
@@ -237701,7 +234578,7 @@ backup_data = {
                     "Brave Bird"
                 ],
                 [
-                    58,
+                    55,
                     "Body Press"
                 ],
                 [
@@ -237712,60 +234589,20 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Agility",
-                "Air Cutter",
-                "Air Slash",
                 "Assurance",
-                "Attract",
                 "Body Press",
-                "Body Slam",
-                "Brave Bird",
-                "Bulk Up",
-                "Curse",
-                "Double-Edge",
+                "Defog",
                 "Dual Wingbeat",
-                "Endure",
                 "Facade",
-                "Fake Tears",
                 "Flash Cannon",
                 "Fly",
-                "Focus Energy",
-                "Giga Impact",
+                "Hidden Power",
                 "Heavy Slam",
-                "Hurricane",
-                "Hyper Beam",
-                "Iron Defense",
-                "Iron Head",
-                "Light Screen",
-                "Metal Claw",
-                "Metal Sound",
-                "Nasty Plot",
-                "Payback",
-                "Protect",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Reversal",
-                "Round",
-                "Scary Face",
-                "Screech",
-                "Sleep Talk",
-                "Snore",
-                "Spite",
-                "Steel Beam",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
-                "Swift",
+                "Rock Smash",
+                "Roost",
+                "Smart Strike",
                 "Tailwind",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "U-turn",
-                "Work Up"
+                "U-turn"
             ],
             "tutors":
             [
@@ -237843,43 +234680,17 @@ backup_data = {
             ],
             "tms":
             [
-                "Ally Switch",
-                "Attract",
                 "Body Press",
-                "Bug Buzz",
-                "Calm Mind",
-                "Endure",
-                "Energy Ball",
                 "Facade",
-                "Future Sight",
-                "Guard Swap",
-                "Helping Hand",
-                "Imprison",
-                "Iron Defense",
+                "Hidden Power",
                 "Leech Life",
-                "Light Screen",
-                "Magic Room",
-                "Payback",
-                "Power Swap",
-                "Protect",
                 "Psychic",
-                "Psychic Terrain",
-                "Psyshock",
-                "Reflect",
-                "Rest",
-                "Round",
-                "Safeguard",
                 "Shadow Ball",
                 "Skill Swap",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Stored Power",
-                "Substitute",
-                "Trick",
-                "Trick Room",
-                "Wonder Room",
-                "Zen Headbutt"
+                "Struggle Bug",
+                "U-turn",
+                "Wonder Room"
             ],
             "tutors":
             [],
@@ -237962,50 +234773,17 @@ backup_data = {
             ],
             "tms":
             [
-                "Agility",
-                "Ally Switch",
-                "Attract",
-                "Baton Pass",
                 "Body Press",
-                "Bug Buzz",
-                "Calm Mind",
-                "Endure",
-                "Energy Ball",
                 "Facade",
-                "Future Sight",
-                "Giga Drain",
-                "Giga Impact",
-                "Guard Swap",
-                "Helping Hand",
-                "Hyper Beam",
-                "Imprison",
-                "Iron Defense",
+                "Hidden Power",
                 "Leech Life",
-                "Light Screen",
-                "Magic Room",
-                "Payback",
-                "Power Swap",
-                "Protect",
                 "Psychic",
-                "Psychic Terrain",
-                "Psycho Cut",
-                "Psyshock",
-                "Reflect",
-                "Rest",
-                "Round",
-                "Safeguard",
                 "Shadow Ball",
                 "Skill Swap",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Stored Power",
-                "Substitute",
-                "Trick",
-                "Trick Room",
+                "Struggle Bug",
                 "U-turn",
-                "Wonder Room",
-                "Zen Headbutt"
+                "Wonder Room"
             ],
             "tutors":
             [],
@@ -238276,29 +235054,12 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
                 "Bullet Seed",
-                "Charm",
-                "Endure",
-                "Energy Ball",
-                "Facade",
-                "Giga Drain",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Helping Hand",
+                "Hidden Power",
                 "Hyper Voice",
-                "Leaf Storm",
-                "Light Screen",
                 "Magical Leaf",
-                "Pollen Puff",
-                "Protect",
-                "Rest",
-                "Round",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Substitute",
-                "Sunny Day"
+                "Weather Ball"
             ],
             "tutors":
             [],
@@ -238375,32 +235136,11 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
                 "Bullet Seed",
-                "Charm",
-                "Endure",
-                "Energy Ball",
-                "Facade",
-                "Giga Drain",
-                "Giga Impact",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Helping Hand",
-                "Hyper Beam",
+                "Hidden Power",
                 "Hyper Voice",
-                "Leaf Storm",
-                "Light Screen",
                 "Magical Leaf",
-                "Pollen Puff",
-                "Protect",
-                "Rest",
-                "Round",
-                "Seed Bomb",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Substitute",
-                "Sunny Day",
                 "Weather Ball"
             ],
             "tutors":
@@ -238639,37 +235379,13 @@ backup_data = {
             "tms":
             [
                 "Assurance",
-                "Attract",
-                "Body Slam",
-                "Chilling Water",
-                "Crunch",
-                "Dive",
+                "Body Press",
                 "Dragon Tail",
-                "Endure",
                 "Facade",
-                "False Swipe",
-                "Hydro Pump",
-                "Ice Fang",
-                "Liquidation",
-                "Mud Shot",
-                "Payback",
-                "Poison Jab",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Revenge",
-                "Round",
-                "Scary Face",
-                "Skitter Smack",
-                "Sleep Talk",
-                "Snore",
-                "Stomping Tantrum",
-                "Substitute",
+                "Hidden Power",
+                "Ice Beam",
                 "Surf",
-                "Take Down",
-                "Tera Blast",
                 "Waterfall",
-                "Water Pulse",
                 "Whirlpool"
             ],
             "tutors":
@@ -238745,68 +235461,19 @@ backup_data = {
             "tms":
             [
                 "Assurance",
-                "Attract",
-                "Blizzard",
                 "Body Press",
-                "Body Slam",
-                "Bulldoze",
-                "Chilling Water",
-                "Crunch",
-                "Dig",
-                "Dive",
-                "Double-Edge",
                 "Dragon Tail",
                 "Earthquake",
                 "Earth Power",
-                "Endure",
                 "Facade",
-                "False Swipe",
-                "Giga Impact",
-                "High Horsepower",
-                "Hydro Pump",
-                "Hyper Beam",
+                "Hidden Power",
                 "Ice Beam",
-                "Ice Fang",
-                "Ice Spinner",
-                "Iron Defense",
-                "Iron Tail",
-                "Liquidation",
-                "Megahorn",
-                "Meteor Beam",
-                "Muddy Water",
-                "Mud Shot",
-                "Payback",
-                "Poison Jab",
-                "Protect",
-                "Rain Dance",
-                "Razor Shell",
-                "Rest",
-                "Revenge",
                 "Rock Blast",
                 "Rock Slide",
                 "Rock Tomb",
-                "Round",
-                "Sandstorm",
-                "Sand Tomb",
-                "Scald",
-                "Scary Face",
-                "Skitter Smack",
-                "Sleep Talk",
                 "Smart Strike",
-                "Snore",
-                "Stealth Rock",
-                "Stomping Tantrum",
-                "Stone Edge",
-                "Substitute",
-                "Superpower",
-                "Super Fang",
                 "Surf",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
-                "Throat Chop",
                 "Waterfall",
-                "Water Pulse",
                 "Whirlpool"
             ],
             "tutors":
@@ -238814,7 +235481,6 @@ backup_data = {
                 "Blizzard",
                 "Headbutt",
                 "Hydro Pump",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -238875,31 +235541,12 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Charm",
-                "Crunch",
-                "Dig",
-                "Electro Ball",
-                "Endure",
                 "Facade",
-                "Fire Fang",
-                "Helping Hand",
+                "Hidden Power",
+                "Hyper Voice",
                 "Play Rough",
-                "Protect",
-                "Rest",
-                "Round",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
-                "Substitute",
-                "Swift",
-                "Thunder",
-                "Thunderbolt",
-                "Thunder Fang",
-                "Thunder Wave",
-                "Uproar",
-                "Volt Switch",
-                "Wild Charge"
+                "Psychic Fangs",
+                "Thunderbolt"
             ],
             "tutors":
             [
@@ -238968,7 +235615,7 @@ backup_data = {
                     "Wild Charge"
                 ],
                 [
-                    38,
+                    40,
                     "Crunch"
                 ],
                 [
@@ -238982,40 +235629,12 @@ backup_data = {
             ],
             "tms":
             [
-                "Agility",
-                "Attract",
-                "Bulk Up",
-                "Charm",
-                "Crunch",
-                "Dig",
-                "Eerie Impulse",
-                "Electric Terrain",
-                "Electro Ball",
-                "Endure",
                 "Facade",
-                "Fire Fang",
-                "Focus Energy",
-                "Giga Impact",
-                "Helping Hand",
-                "Hyper Beam",
+                "Hidden Power",
                 "Hyper Voice",
                 "Play Rough",
-                "Protect",
                 "Psychic Fangs",
-                "Rest",
-                "Round",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
-                "Substitute",
-                "Swift",
-                "Thunder",
-                "Thunderbolt",
-                "Thunder Fang",
-                "Thunder Wave",
-                "Uproar",
-                "Volt Switch",
-                "Wild Charge"
+                "Thunderbolt"
             ],
             "tutors":
             [
@@ -239081,7 +235700,6 @@ backup_data = {
                 "Attract",
                 "Body Slam",
                 "Bulldoze",
-                "Curse",
                 "Dig",
                 "Endure",
                 "Facade",
@@ -239184,7 +235802,6 @@ backup_data = {
                 "Body Press",
                 "Body Slam",
                 "Bulldoze",
-                "Curse",
                 "Dig",
                 "Endure",
                 "Facade",
@@ -239304,7 +235921,6 @@ backup_data = {
                 "Body Press",
                 "Body Slam",
                 "Bulldoze",
-                "Curse",
                 "Dig",
                 "Earthquake",
                 "Earth Power",
@@ -239614,7 +236230,6 @@ backup_data = {
                 "Body Slam",
                 "Bulldoze",
                 "Bullet Seed",
-                "Curse",
                 "Draco Meteor",
                 "Dragon Pulse",
                 "Dragon Tail",
@@ -240072,42 +236687,12 @@ backup_data = {
             ],
             "tms":
             [
-                "Agility",
-                "Assurance",
-                "Attract",
-                "Bounce",
-                "Brick Break",
-                "Chilling Water",
-                "Close Combat",
-                "Crunch",
-                "Dive",
-                "Double-Edge",
-                "Drill Run",
-                "Endure",
                 "Facade",
-                "Flip Turn",
-                "Focus Energy",
-                "Hydro Pump",
-                "Ice Fang",
-                "Liquidation",
-                "Poison Jab",
-                "Protect",
+                "Hidden Power",
+                "Ice Beam",
                 "Psychic Fangs",
-                "Rain Dance",
-                "Rest",
-                "Round",
-                "Scald",
-                "Scale Shot",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
                 "Surf",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Throat Chop",
                 "Waterfall",
-                "Water Pulse",
                 "Whirlpool"
             ],
             "tutors":
@@ -240186,61 +236771,26 @@ backup_data = {
                     "Laser Focus"
                 ],
                 [
-                    60,
+                    61,
                     "Liquidation"
                 ],
                 [
-                    68,
+                    65,
                     "Close Combat"
                 ],
                 [
-                    75,
+                    72,
                     "Flip Turn"
                 ]
             ],
             "tms":
             [
-                "Agility",
-                "Assurance",
-                "Attract",
-                "Blizzard",
-                "Bounce",
-                "Brick Break",
-                "Chilling Water",
-                "Close Combat",
-                "Crunch",
-                "Dive",
-                "Double-Edge",
-                "Drill Run",
-                "Endure",
                 "Facade",
-                "Flip Turn",
-                "Focus Energy",
-                "Giga Impact",
-                "Hydro Pump",
-                "Hyper Beam",
+                "Hidden Power",
                 "Ice Beam",
-                "Ice Fang",
-                "Liquidation",
-                "Poison Jab",
-                "Protect",
                 "Psychic Fangs",
-                "Rain Dance",
-                "Rest",
-                "Round",
-                "Scald",
-                "Scale Shot",
-                "Scary Face",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
                 "Surf",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Throat Chop",
                 "Waterfall",
-                "Water Pulse",
                 "Whirlpool"
             ],
             "tutors":
@@ -240282,28 +236832,12 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Charm",
-                "Encore",
-                "Endeavor",
-                "Endure",
-                "Facade",
-                "Metal Sound",
-                "Protect",
-                "Rest",
-                "Round",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
-                "Tera Blast"
+                "Facade"
             ],
             "tutors":
             [],
             "egg":
-            [
-                "Endeavor",
-                "Metal Sound"
-            ]
+            []
         },
         "toxtricity":
         {
@@ -240382,7 +236916,7 @@ backup_data = {
                     "Toxic"
                 ],
                 [
-                    56,
+                    55,
                     "Sludge Wave"
                 ],
                 [
@@ -240390,75 +236924,22 @@ backup_data = {
                     "Overdrive"
                 ],
                 [
-                    66,
+                    65,
                     "Boomburst"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Attract",
-                "Brick Break",
-                "Charge",
-                "Charge Beam",
-                "Charm",
-                "Drain Punch",
-                "Eerie Impulse",
-                "Electric Terrain",
                 "Electroweb",
-                "Electro Ball",
-                "Encore",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Fire Punch",
-                "Fling",
-                "Giga Impact",
-                "Gunk Shot",
-                "Helping Hand",
-                "Hex",
-                "Hyper Beam",
+                "Hidden Power",
                 "Hyper Voice",
-                "Mega Kick",
-                "Mega Punch",
-                "Metal Sound",
-                "Metronome",
-                "Payback",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
-                "Psychic Noise",
-                "Rain Dance",
-                "Rest",
-                "Round",
-                "Scary Face",
-                "Screech",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Snarl",
-                "Snore",
-                "Stored Power",
-                "Substitute",
-                "Sunny Day",
-                "Swift",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder",
+                "Shock Wave",
                 "Thunderbolt",
-                "Thunder Fang",
-                "Thunder Punch",
-                "Thunder Wave",
                 "Toxic",
-                "Toxic Spikes",
-                "Trailblaze",
-                "Uproar",
                 "Venoshock",
-                "Volt Switch",
-                "Wild Charge"
+                "Volt Switch"
             ],
             "tutors":
             [
@@ -240530,26 +237011,16 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Brutal Swing",
-                "Bug Buzz",
-                "Crunch",
-                "Endure",
                 "Facade",
-                "Fire Spin",
-                "Heat Crash",
-                "Heat Wave",
+                "Flamethrower",
+                "Hidden Power",
                 "Leech Life",
-                "Power Whip",
-                "Protect",
-                "Rest",
-                "Round",
-                "Scald",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
-                "Sunny Day",
-                "Venoshock"
+                "Solar Beam",
+                "Struggle Bug",
+                "Temper Flare",
+                "Venoshock",
+                "Will-O-Wisp",
+                "X-Scissor"
             ],
             "tutors":
             [
@@ -240626,35 +237097,13 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Brutal Swing",
-                "Bug Buzz",
-                "Crunch",
-                "Endure",
                 "Facade",
-                "Fire Blast",
-                "Fire Fang",
-                "Fire Spin",
                 "Flamethrower",
-                "Flare Blitz",
-                "Giga Impact",
-                "Heat Crash",
-                "Heat Wave",
-                "Hyper Beam",
+                "Hidden Power",
                 "Leech Life",
-                "Mystical Fire",
-                "Overheat",
-                "Power Whip",
-                "Protect",
-                "Rest",
-                "Round",
-                "Scald",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Substitute",
-                "Sunny Day",
-                "Thunder Fang",
+                "Struggle Bug",
+                "Temper Flare",
                 "Venoshock",
                 "Will-O-Wisp",
                 "X-Scissor"
@@ -240945,7 +237394,6 @@ backup_data = {
                 "Baton Pass",
                 "Calm Mind",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Endure",
                 "Facade",
@@ -241059,7 +237507,6 @@ backup_data = {
                 "Baton Pass",
                 "Calm Mind",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Endure",
                 "Facade",
@@ -241159,47 +237606,16 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Baton Pass",
-                "Calm Mind",
-                "Charm",
                 "Dark Pulse",
-                "Dazzling Gleam",
-                "Disarming Voice",
                 "Draining Kiss",
-                "Endure",
-                "Expanding Force",
                 "Facade",
-                "Future Sight",
-                "Giga Drain",
-                "Helping Hand",
-                "Imprison",
-                "Light Screen",
+                "Hidden Power",
+                "Heal Pulse",
                 "Magical Leaf",
-                "Metronome",
-                "Misty Terrain",
-                "Mystical Fire",
                 "Play Rough",
-                "Protect",
-                "Psybeam",
                 "Psychic",
-                "Psychic Terrain",
-                "Psych Up",
-                "Psyshock",
-                "Reflect",
-                "Rest",
-                "Round",
-                "Safeguard",
-                "Skill Swap",
-                "Sleep Talk",
-                "Snore",
-                "Stored Power",
-                "Substitute",
-                "Swift",
-                "Tera Blast",
-                "Thunder Wave",
-                "Trick",
-                "Trick Room"
+                "Shadow Ball",
+                "Skill Swap"
             ],
             "tutors":
             [],
@@ -241266,48 +237682,16 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Baton Pass",
-                "Brutal Swing",
-                "Calm Mind",
-                "Charm",
                 "Dark Pulse",
-                "Dazzling Gleam",
-                "Disarming Voice",
                 "Draining Kiss",
-                "Endure",
-                "Expanding Force",
                 "Facade",
-                "Future Sight",
-                "Giga Drain",
-                "Helping Hand",
-                "Imprison",
-                "Light Screen",
+                "Hidden Power",
+                "Heal Pulse",
                 "Magical Leaf",
-                "Metronome",
-                "Misty Terrain",
-                "Mystical Fire",
                 "Play Rough",
-                "Protect",
-                "Psybeam",
                 "Psychic",
-                "Psychic Terrain",
-                "Psych Up",
-                "Psyshock",
-                "Reflect",
-                "Rest",
-                "Round",
-                "Safeguard",
-                "Skill Swap",
-                "Sleep Talk",
-                "Snore",
-                "Stored Power",
-                "Substitute",
-                "Swift",
-                "Tera Blast",
-                "Thunder Wave",
-                "Trick",
-                "Trick Room"
+                "Shadow Ball",
+                "Skill Swap"
             ],
             "tutors":
             [],
@@ -241388,74 +237772,27 @@ backup_data = {
                     "Healing Wish"
                 ],
                 [
-                    62,
+                    61,
                     "Psychic"
                 ],
                 [
-                    70,
+                    65,
                     "Future Sight"
                 ]
             ],
             "tms":
             [
-                "Agility",
-                "Attract",
-                "Baton Pass",
-                "Brutal Swing",
-                "Calm Mind",
-                "Charm",
                 "Dark Pulse",
-                "Dazzling Gleam",
-                "Disarming Voice",
                 "Draining Kiss",
-                "Endure",
-                "Expanding Force",
                 "Facade",
-                "Future Sight",
-                "Giga Drain",
-                "Giga Impact",
-                "Gravity",
-                "Guard Swap",
-                "Helping Hand",
-                "Hyper Beam",
-                "Imprison",
-                "Light Screen",
+                "Hidden Power",
+                "Heal Pulse",
                 "Magical Leaf",
-                "Magic Room",
-                "Metronome",
                 "Misty Explosion",
-                "Misty Terrain",
-                "Mystical Fire",
-                "Pain Split",
                 "Play Rough",
-                "Power Swap",
-                "Power Whip",
-                "Protect",
-                "Psybeam",
                 "Psychic",
-                "Psychic Noise",
-                "Psychic Terrain",
-                "Psycho Cut",
-                "Psych Up",
-                "Psyshock",
-                "Reflect",
-                "Rest",
-                "Round",
-                "Safeguard",
                 "Shadow Ball",
-                "Shadow Claw",
-                "Skill Swap",
-                "Sleep Talk",
-                "Snore",
-                "Stored Power",
-                "Substitute",
-                "Swift",
-                "Swords Dance",
-                "Tera Blast",
-                "Thunder Wave",
-                "Trick",
-                "Trick Room",
-                "Wonder Room"
+                "Skill Swap"
             ],
             "tutors":
             [],
@@ -241523,47 +237860,14 @@ backup_data = {
             "tms":
             [
                 "Assurance",
-                "Attract",
-                "Burning Jealousy",
-                "Chilling Water",
+                "Body Press",
                 "Dark Pulse",
-                "Dazzling Gleam",
                 "Draining Kiss",
-                "Drain Punch",
-                "Endure",
+                "Hidden Power",
                 "Facade",
-                "Fake Tears",
-                "Fling",
-                "Foul Play",
-                "Lash Out",
                 "Leech Life",
-                "Light Screen",
-                "Low Kick",
-                "Mega Kick",
-                "Mega Punch",
-                "Metronome",
-                "Misty Terrain",
-                "Nasty Plot",
                 "Play Rough",
-                "Protect",
-                "Reflect",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Round",
-                "Scary Face",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder Wave",
-                "Trailblaze",
-                "Trick",
-                "Uproar"
+                "Swagger"
             ],
             "tutors":
             [
@@ -241634,49 +237938,14 @@ backup_data = {
             "tms":
             [
                 "Assurance",
-                "Attract",
-                "Burning Jealousy",
-                "Chilling Water",
+                "Body Press",
                 "Dark Pulse",
-                "Dazzling Gleam",
                 "Draining Kiss",
-                "Drain Punch",
-                "Endure",
+                "Hidden Power",
                 "Facade",
-                "Fake Tears",
-                "Fling",
-                "Foul Play",
-                "Imprison",
-                "Lash Out",
                 "Leech Life",
-                "Light Screen",
-                "Low Kick",
-                "Mega Kick",
-                "Mega Punch",
-                "Metronome",
-                "Misty Terrain",
-                "Nasty Plot",
                 "Play Rough",
-                "Protect",
-                "Reflect",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Round",
-                "Scary Face",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder Wave",
-                "Trailblaze",
-                "Trick",
-                "Uproar"
+                "Swagger"
             ],
             "tutors":
             [
@@ -241744,7 +238013,7 @@ backup_data = {
                     "Play Rough"
                 ],
                 [
-                    52,
+                    51,
                     "Foul Play"
                 ],
                 [
@@ -241755,69 +238024,14 @@ backup_data = {
             "tms":
             [
                 "Assurance",
-                "Attract",
                 "Body Press",
-                "Body Slam",
-                "Brick Break",
-                "Bulk Up",
-                "Burning Jealousy",
-                "Chilling Water",
-                "Crunch",
-                "Darkest Lariat",
                 "Dark Pulse",
-                "Dazzling Gleam",
                 "Draining Kiss",
-                "Drain Punch",
-                "Endure",
+                "Hidden Power",
                 "Facade",
-                "Fake Tears",
-                "Fire Punch",
-                "Fling",
-                "Focus Blast",
-                "Focus Energy",
-                "Focus Punch",
-                "Foul Play",
-                "Giga Impact",
-                "Hyper Beam",
-                "Ice Punch",
-                "Imprison",
-                "Lash Out",
                 "Leech Life",
-                "Light Screen",
-                "Low Kick",
-                "Low Sweep",
-                "Mega Kick",
-                "Mega Punch",
-                "Metronome",
-                "Misty Terrain",
-                "Nasty Plot",
                 "Play Rough",
-                "Power Swap",
-                "Power Whip",
-                "Protect",
-                "Reflect",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Round",
-                "Scary Face",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
-                "Stomping Tantrum",
-                "Substitute",
-                "Superpower",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder Punch",
-                "Thunder Wave",
-                "Trailblaze",
-                "Trick",
-                "Uproar",
-                "Wonder Room"
+                "Swagger"
             ],
             "tutors":
             [
@@ -241893,83 +238107,31 @@ backup_data = {
                     "Knock Off"
                 ],
                 [
-                    58,
+                    55,
                     "Sucker Punch"
                 ],
                 [
-                    66,
+                    61,
                     "Double-Edge"
                 ],
                 [
-                    75,
+                    65,
                     "Cross Chop"
                 ]
             ],
             "tms":
             [
                 "Assurance",
-                "Attract",
-                "Blizzard",
                 "Body Press",
-                "Body Slam",
-                "Brick Break",
-                "Bulk Up",
-                "Close Combat",
-                "Cross Poison",
-                "Dig",
-                "Endure",
                 "Facade",
-                "Fake Tears",
-                "Fire Punch",
-                "Fling",
-                "Focus Energy",
-                "Giga Impact",
-                "Grass Knot",
-                "Gunk Shot",
-                "Helping Hand",
-                "Hyper Beam",
+                "Hidden Power",
                 "Hyper Voice",
                 "Ice Beam",
-                "Ice Punch",
                 "Icy Wind",
-                "Iron Defense",
-                "Iron Tail",
-                "Low Kick",
-                "Mega Kick",
-                "Mega Punch",
-                "Mud Shot",
-                "Payback",
-                "Pin Missile",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Reversal",
-                "Round",
-                "Scary Face",
-                "Screech",
-                "Seed Bomb",
                 "Shadow Ball",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
-                "Stomping Tantrum",
-                "Substitute",
-                "Sunny Day",
                 "Surf",
-                "Swift",
-                "Taunt",
-                "Thief",
-                "Throat Chop",
-                "Thunder",
                 "Thunderbolt",
-                "Thunder Punch",
-                "Thunder Wave",
-                "Trick",
                 "Whirlpool",
-                "Work Up",
                 "X-Scissor"
             ],
             "tutors":
@@ -242058,86 +238220,29 @@ backup_data = {
                     "Foul Play"
                 ],
                 [
-                    53,
+                    51,
                     "Iron Tail"
                 ],
                 [
-                    58,
+                    55,
                     "Bullet Punch"
                 ]
             ],
             "tms":
             [
                 "Aerial Ace",
-                "Amnesia",
                 "Assurance",
-                "Attract",
-                "Baton Pass",
-                "Body Slam",
-                "Brick Break",
-                "Charm",
-                "Chilling Water",
-                "Close Combat",
-                "Crunch",
-                "Curse",
                 "Dark Pulse",
-                "Dig",
-                "Double-Edge",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Fake Tears",
-                "False Swipe",
                 "Flash Cannon",
-                "Fling",
-                "Foul Play",
-                "Giga Impact",
-                "Gunk Shot",
-                "Gyro Ball",
-                "Heavy Slam",
-                "Helping Hand",
-                "Hyper Beam",
+                "Hidden Power",
                 "Hyper Voice",
-                "Iron Defense",
-                "Iron Head",
-                "Iron Tail",
-                "Knock Off",
-                "Lash Out",
-                "Metal Claw",
-                "Metal Sound",
-                "Metronome",
-                "Nasty Plot",
-                "Payback",
-                "Pay Day",
                 "Play Rough",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Retaliate",
-                "Round",
-                "Screech",
-                "Seed Bomb",
                 "Shadow Ball",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
-                "Spite",
-                "Stealth Rock",
-                "Steel Beam",
-                "Substitute",
-                "Sunny Day",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder",
+                "Smart Strike",
+                "Swagger",
                 "Thunderbolt",
-                "Trailblaze",
-                "Uproar",
                 "U-turn",
-                "Work Up",
                 "X-Scissor"
             ],
             "tutors":
@@ -242149,7 +238254,6 @@ backup_data = {
             "egg":
             [
                 "Covet",
-                "Curse",
                 "Double-Edge",
                 "Flail",
                 "Night Slash",
@@ -242343,7 +238447,7 @@ backup_data = {
                     "Dual Wingbeat"
                 ],
                 [
-                    52,
+                    51,
                     "Leaf Blade"
                 ],
                 [
@@ -242351,11 +238455,11 @@ backup_data = {
                     "Close Combat"
                 ],
                 [
-                    58,
+                    55,
                     "First Impression"
                 ],
                 [
-                    62,
+                    61,
                     "Brave Bird"
                 ],
                 [
@@ -242366,34 +238470,12 @@ backup_data = {
             "tms":
             [
                 "Assurance",
-                "Attract",
-                "Body Slam",
-                "Brave Bird",
-                "Brick Break",
-                "Brutal Swing",
-                "Close Combat",
-                "Endure",
+                "Defog",
+                "Dual Wingbeat",
                 "Facade",
-                "Focus Energy",
-                "Helping Hand",
-                "Iron Defense",
-                "Leaf Blade",
-                "Poison Jab",
-                "Protect",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Round",
-                "Sleep Talk",
-                "Snore",
-                "Solar Blade",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
-                "Superpower",
-                "Swords Dance",
-                "Throat Chop",
-                "Work Up"
+                "Hidden Power",
+                "Rock Smash",
+                "Solar Blade"
             ],
             "tutors":
             [
@@ -242405,7 +238487,6 @@ backup_data = {
             [
                 "Counter",
                 "Covet",
-                "Curse",
                 "Double-Edge",
                 "Feint",
                 "Flail",
@@ -243157,7 +239238,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Chilling Water",
-                "Curse",
                 "Electric Terrain",
                 "Electroweb",
                 "Electro Ball",
@@ -243457,7 +239537,6 @@ backup_data = {
                 "Body Slam",
                 "Brutal Swing",
                 "Bulldoze",
-                "Curse",
                 "Earthquake",
                 "Earth Power",
                 "Endeavor",
@@ -243939,50 +240018,21 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
                 "Body Press",
-                "Body Slam",
-                "Brick Break",
-                "Brutal Swing",
-                "Bulldoze",
-                "Curse",
-                "Dig",
-                "Double-Edge",
                 "Earthquake",
                 "Earth Power",
-                "Endeavor",
-                "Endure",
                 "Facade",
                 "Flash Cannon",
-                "Fling",
                 "Heavy Slam",
-                "High Horsepower",
-                "Iron Defense",
-                "Iron Head",
-                "Mega Kick",
-                "Mud Shot",
+                "Hidden Power",
                 "Play Rough",
-                "Power Whip",
-                "Protect",
-                "Rest",
                 "Rock Blast",
+                "Rock Smash",
                 "Rock Slide",
                 "Rock Tomb",
-                "Round",
-                "Sandstorm",
-                "Screech",
-                "Sleep Talk",
-                "Snore",
-                "Stealth Rock",
-                "Steel Beam",
-                "Stomping Tantrum",
-                "Stone Edge",
-                "Substitute",
-                "Superpower",
-                "Take Down",
-                "Tera Blast",
-                "Work Up",
-                "Zen Headbutt"
+                "Smart Strike",
+                "Strength",
+                "Swagger"
             ],
             "tutors":
             [
@@ -243992,7 +240042,6 @@ backup_data = {
             "egg":
             [
                 "Belch",
-                "Curse",
                 "Defense Curl",
                 "Double-Edge",
                 "Fissure",
@@ -244038,7 +240087,7 @@ backup_data = {
                     "Dig"
                 ],
                 [
-                    35,
+                    36,
                     "Iron Head"
                 ],
                 [
@@ -244064,63 +240113,21 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
                 "Body Press",
-                "Body Slam",
-                "Brick Break",
-                "Brutal Swing",
-                "Bulldoze",
-                "Curse",
-                "Dig",
-                "Double-Edge",
                 "Earthquake",
                 "Earth Power",
-                "Endeavor",
-                "Endure",
                 "Facade",
                 "Flash Cannon",
-                "Fling",
-                "Giga Impact",
-                "Hard Press",
-                "Heat Crash",
                 "Heavy Slam",
-                "High Horsepower",
-                "Hyper Beam",
-                "Iron Defense",
-                "Iron Head",
-                "Knock Off",
-                "Mega Kick",
-                "Mud Shot",
-                "Outrage",
-                "Payback",
+                "Hidden Power",
                 "Play Rough",
-                "Power Whip",
-                "Protect",
-                "Rest",
-                "Revenge",
                 "Rock Blast",
+                "Rock Smash",
                 "Rock Slide",
                 "Rock Tomb",
-                "Round",
-                "Sandstorm",
-                "Scary Face",
-                "Screech",
-                "Sleep Talk",
-                "Smack Down",
-                "Snarl",
-                "Snore",
-                "Stealth Rock",
-                "Steel Beam",
-                "Stomping Tantrum",
-                "Stone Edge",
-                "Substitute",
-                "Supercell Slam",
-                "Superpower",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Work Up",
-                "Zen Headbutt"
+                "Smart Strike",
+                "Strength",
+                "Swagger"
             ],
             "tutors":
             [
@@ -244130,7 +240137,6 @@ backup_data = {
             "egg":
             [
                 "Belch",
-                "Curse",
                 "Defense Curl",
                 "Double-Edge",
                 "Fissure",
@@ -244614,66 +240620,34 @@ backup_data = {
                     "Metal Burst"
                 ],
                 [
-                    62,
+                    61,
                     "Flash Cannon"
                 ],
                 [
-                    69,
+                    66,
                     "Draco Meteor"
                 ]
             ],
             "tms":
             [
-                "Attract",
                 "Body Press",
                 "Body Slam",
                 "Breaking Swipe",
-                "Brick Break",
                 "Dark Pulse",
-                "Double-Edge",
-                "Draco Meteor",
-                "Dragon Cheer",
                 "Dragon Claw",
                 "Dragon Pulse",
                 "Dragon Tail",
-                "Endure",
+                "Earthquake",
                 "Facade",
                 "Flash Cannon",
-                "Foul Play",
-                "Giga Impact",
-                "Gyro Ball",
                 "Heavy Slam",
-                "Hyper Beam",
-                "Iron Defense",
-                "Iron Head",
-                "Light Screen",
-                "Metal Claw",
-                "Metal Sound",
-                "Outrage",
-                "Protect",
-                "Reflect",
-                "Rest",
-                "Roar",
+                "Hidden Power",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Round",
-                "Scary Face",
-                "Screech",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
+                "Smart Strike",
                 "Solar Beam",
-                "Stealth Rock",
-                "Steel Beam",
-                "Stomping Tantrum",
-                "Stone Edge",
-                "Substitute",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
-                "Thunder",
-                "Thunderbolt",
-                "Thunder Wave"
+                "Thunderbolt"
             ],
             "tutors":
             [
@@ -244711,31 +240685,31 @@ backup_data = {
             ],
             "tms":
             [
-                "Attract",
-                "Baton Pass",
-                "Confuse Ray",
-                "Curse",
-                "Draco Meteor",
+                "Assurance",
+                "Breaking Swipe",
+                "Dive",
+                "Dragon Claw",
+                "Dragon Pulse",
                 "Dragon Tail",
-                "Endure",
                 "Facade",
-                "Helping Hand",
-                "Protect",
-                "Rest",
-                "Round",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
-                "Swift",
-                "Tera Blast",
-                "Thunder Wave"
+                "Flamethrower",
+                "Fly",
+                "Hidden Power",
+                "Night Shade",
+                "Psychic Fangs",
+                "Shadow Ball",
+                "Solar Beam",
+                "Surf",
+                "Thunderbolt",
+                "Thunder Wave",
+                "U-turn",
+                "Will-O-Wisp"
             ],
             "tutors":
             [],
             "egg":
             [
                 "Confuse Ray",
-                "Curse",
                 "Disable",
                 "Double Team",
                 "Dragon Tail",
@@ -244787,7 +240761,7 @@ backup_data = {
                     "Disable"
                 ],
                 [
-                    62,
+                    64,
                     "Will-O-Wisp"
                 ],
                 [
@@ -244795,7 +240769,7 @@ backup_data = {
                     "Sucker Punch"
                 ],
                 [
-                    68,
+                    66,
                     "Shadow Ball"
                 ],
                 [
@@ -244803,60 +240777,27 @@ backup_data = {
                     "Phantom Force"
                 ],
                 [
-                    77,
+                    76,
                     "Draco Meteor"
                 ]
             ],
             "tms":
             [
-                "Acrobatics",
-                "Agility",
-                "Ally Switch",
                 "Assurance",
-                "Attract",
-                "Baton Pass",
-                "Beat Up",
                 "Breaking Swipe",
-                "Brine",
-                "Confuse Ray",
-                "Curse",
                 "Dive",
-                "Double-Edge",
-                "Draco Meteor",
-                "Dragon Cheer",
-                "Dragon Dance",
+                "Dragon Claw",
                 "Dragon Pulse",
                 "Dragon Tail",
-                "Endure",
                 "Facade",
-                "Fire Blast",
                 "Flamethrower",
-                "Helping Hand",
-                "Hex",
-                "Hydro Pump",
-                "Light Screen",
+                "Fly",
+                "Hidden Power",
                 "Night Shade",
-                "Outrage",
-                "Phantom Force",
-                "Pounce",
-                "Protect",
                 "Psychic Fangs",
-                "Reflect",
-                "Rest",
-                "Round",
-                "Scald",
                 "Shadow Ball",
-                "Sleep Talk",
-                "Snore",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
+                "Solar Beam",
                 "Surf",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
                 "Thunder Wave",
                 "U-turn",
@@ -244872,7 +240813,6 @@ backup_data = {
             "egg":
             [
                 "Confuse Ray",
-                "Curse",
                 "Disable",
                 "Double Team",
                 "Dragon Tail",
@@ -244924,89 +240864,50 @@ backup_data = {
                     "Disable"
                 ],
                 [
-                    60,
+                    61,
                     "Dragon Darts"
                 ],
                 [
-                    65,
+                    64,
                     "Will-O-Wisp"
                 ],
                 [
-                    69,
+                    65,
                     "Sucker Punch"
                 ],
                 [
-                    73,
+                    66,
                     "Shadow Ball"
                 ],
                 [
-                    79,
+                    72,
                     "Phantom Force"
                 ],
                 [
-                    90,
+                    76,
                     "Draco Meteor"
                 ]
             ],
             "tms":
             [
-                "Acrobatics",
-                "Agility",
-                "Ally Switch",
                 "Assurance",
-                "Attract",
-                "Baton Pass",
-                "Beat Up",
-                "Body Slam",
                 "Breaking Swipe",
-                "Brine",
-                "Confuse Ray",
                 "Curse",
                 "Dive",
-                "Double-Edge",
-                "Draco Meteor",
-                "Dragon Cheer",
                 "Dragon Claw",
-                "Dragon Dance",
                 "Dragon Pulse",
                 "Dragon Tail",
-                "Endure",
                 "Facade",
-                "Fire Blast",
                 "Flamethrower",
                 "Fly",
-                "Giga Impact",
-                "Helping Hand",
-                "Hex",
-                "Hydro Pump",
-                "Hyper Beam",
-                "Light Screen",
+                "Hidden Power",
                 "Night Shade",
-                "Outrage",
-                "Phantom Force",
-                "Pounce",
-                "Protect",
                 "Psychic Fangs",
-                "Reflect",
-                "Rest",
-                "Round",
-                "Scald",
                 "Shadow Ball",
-                "Sleep Talk",
-                "Snore",
                 "Solar Beam",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
                 "Surf",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
                 "Thunder Wave",
-                "Tri Attack",
                 "U-turn",
                 "Will-O-Wisp"
             ],
@@ -245020,7 +240921,6 @@ backup_data = {
             "egg":
             [
                 "Confuse Ray",
-                "Curse",
                 "Disable",
                 "Double Team",
                 "Dragon Tail",
@@ -245449,47 +241349,14 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Attract",
-                "Body Slam",
-                "Brick Break",
-                "Bulk Up",
-                "Close Combat",
-                "Dig",
-                "Double-Edge",
-                "Endure",
+                "Body Press",
                 "Facade",
-                "Fire Punch",
-                "Fling",
-                "Focus Energy",
-                "Focus Punch",
-                "Helping Hand",
-                "Ice Punch",
-                "Iron Head",
-                "Low Kick",
-                "Low Sweep",
-                "Mega Kick",
-                "Mega Punch",
-                "Metal Claw",
-                "Protect",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Reversal",
-                "Round",
-                "Scary Face",
-                "Sleep Talk",
-                "Snore",
-                "Substitute",
-                "Superpower",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
-                "Thunder Punch",
-                "U-turn",
-                "Work Up",
-                "Zen Headbutt"
+                "Hidden Power",
+                "Rock Slide",
+                "Rock Smash",
+                "Rock Tomb",
+                "Smart Strike"
             ],
             "tutors":
             [
@@ -245507,147 +241374,44 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Wicked Blow"
-                ],
-                [
                     1,
-                    "Wicked Blow"
+                    "Drain Punch"
                 ],
                 [
-                    1,
-                    "Sucker Punch"
-                ],
-                [
-                    1,
-                    "Rock Smash"
-                ],
-                [
-                    1,
-                    "Leer"
-                ],
-                [
-                    1,
-                    "Endure"
-                ],
-                [
-                    1,
-                    "Focus Energy"
-                ],
-                [
-                    12,
-                    "Aerial Ace"
-                ],
-                [
-                    16,
-                    "Scary Face"
-                ],
-                [
-                    20,
-                    "Headbutt"
-                ],
-                [
-                    24,
-                    "Brick Break"
-                ],
-                [
-                    28,
-                    "Detect"
-                ],
-                [
-                    32,
-                    "Bulk Up"
-                ],
-                [
-                    36,
-                    "Iron Head"
-                ],
-                [
-                    40,
-                    "Dynamic Punch"
-                ],
-                [
-                    44,
-                    "Counter"
-                ],
-                [
-                    48,
+                    50,
                     "Close Combat"
                 ],
                 [
-                    52,
-                    "Focus Punch"
+                    64,
+                    "Sucker Punch"
+                ],
+                [
+                    66,
+                    "Crunch"
+                ],
+                [
+                    72,
+                    "Coaching"
+                ],
+                [
+                    76,
+                    "Wicked Blow"
                 ]
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
                 "Assurance",
-                "Attract",
                 "Aura Sphere",
-                "Beat Up",
                 "Body Press",
-                "Body Slam",
-                "Brick Break",
-                "Bulk Up",
-                "Close Combat",
-                "Coaching",
-                "Crunch",
-                "Darkest Lariat",
                 "Dark Pulse",
-                "Dig",
-                "Double-Edge",
-                "Drain Punch",
-                "Endure",
                 "Facade",
-                "False Swipe",
-                "Fire Punch",
-                "Fling",
-                "Focus Blast",
-                "Focus Energy",
-                "Focus Punch",
-                "Foul Play",
-                "Giga Impact",
-                "Helping Hand",
-                "Ice Punch",
-                "Iron Defense",
-                "Iron Head",
-                "Lash Out",
-                "Low Kick",
-                "Low Sweep",
-                "Mega Kick",
-                "Mega Punch",
-                "Metal Claw",
-                "Payback",
-                "Poison Jab",
-                "Protect",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Reversal",
-                "Roar",
+                "Hidden Power",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Round",
-                "Scary Face",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
-                "Stone Edge",
-                "Substitute",
-                "Superpower",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Throat Chop",
-                "Thunder Punch",
-                "Trailblaze",
-                "U-turn",
-                "Work Up",
-                "Zen Headbutt"
+                "Smart Strike",
+                "U-turn"
             ],
             "tutors":
             [
@@ -245655,7 +241419,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -246106,7 +241869,6 @@ backup_data = {
                 "Bulldoze",
                 "Close Combat",
                 "Crunch",
-                "Curse",
                 "Double-Edge",
                 "Endure",
                 "Facade",
@@ -246223,7 +241985,6 @@ backup_data = {
                 "Calm Mind",
                 "Confuse Ray",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Double-Edge",
                 "Draining Kiss",
@@ -246472,69 +242233,18 @@ backup_data = {
             "tms":
             [
                 "Aerial Ace",
-                "Amnesia",
                 "Assurance",
-                "Attract",
-                "Body Slam",
-                "Brick Break",
-                "Charm",
-                "Crunch",
-                "Curse",
                 "Dark Pulse",
-                "Dig",
-                "Double-Edge",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Fake Tears",
-                "False Swipe",
                 "Flash Cannon",
-                "Fling",
-                "Foul Play",
-                "Gunk Shot",
-                "Gyro Ball",
-                "Helping Hand",
+                "Hidden Power",
                 "Hyper Voice",
-                "Iron Defense",
-                "Iron Head",
-                "Iron Tail",
-                "Knock Off",
-                "Lash Out",
-                "Metal Claw",
-                "Metal Sound",
-                "Metronome",
-                "Nasty Plot",
-                "Payback",
-                "Pay Day",
                 "Play Rough",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Retaliate",
-                "Round",
-                "Screech",
-                "Seed Bomb",
                 "Shadow Ball",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snore",
-                "Spite",
-                "Stealth Rock",
-                "Steel Beam",
-                "Substitute",
-                "Sunny Day",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder",
+                "Smart Strike",
+                "Swagger",
                 "Thunderbolt",
-                "Trailblaze",
-                "Uproar",
                 "U-turn",
-                "Work Up",
                 "X-Scissor"
             ],
             "tutors":
@@ -246546,7 +242256,6 @@ backup_data = {
             "egg":
             [
                 "Covet",
-                "Curse",
                 "Double-Edge",
                 "Flail",
                 "Night Slash",
@@ -246890,7 +242599,6 @@ backup_data = {
                 "Bulldoze",
                 "Calm Mind",
                 "Chilling Water",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Earthquake",
@@ -247063,7 +242771,6 @@ backup_data = {
                 "Bulldoze",
                 "Calm Mind",
                 "Chilling Water",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Double-Edge",
@@ -247231,33 +242938,12 @@ backup_data = {
             "tms":
             [
                 "Assurance",
-                "Attract",
-                "Body Slam",
-                "Brave Bird",
-                "Brick Break",
-                "Brutal Swing",
-                "Close Combat",
-                "Endure",
+                "Defog",
+                "Dual Wingbeat",
                 "Facade",
-                "Focus Energy",
-                "Helping Hand",
-                "Leaf Blade",
-                "Poison Jab",
-                "Protect",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Round",
-                "Sleep Talk",
-                "Snore",
-                "Solar Blade",
-                "Steel Wing",
-                "Substitute",
-                "Sunny Day",
-                "Superpower",
-                "Swords Dance",
-                "Throat Chop",
-                "Work Up"
+                "Hidden Power",
+                "Rock Smash",
+                "Solar Blade"
             ],
             "tutors":
             [
@@ -247269,7 +242955,6 @@ backup_data = {
             [
                 "Counter",
                 "Covet",
-                "Curse",
                 "Double-Edge",
                 "Feint",
                 "Flail",
@@ -247360,9 +243045,9 @@ backup_data = {
                 "Attract",
                 "Body Slam",
                 "Brutal Swing",
-                "Curse",
                 "Dark Pulse",
                 "Dazzling Gleam",
+                "Defog",
                 "Double-Edge",
                 "Endure",
                 "Facade",
@@ -247417,7 +243102,6 @@ backup_data = {
             ],
             "egg":
             [
-                "Curse",
                 "Pain Split",
                 "Spit Up",
                 "Spite",
@@ -248114,7 +243798,6 @@ backup_data = {
                 "Bulldoze",
                 "Calm Mind",
                 "Chilling Water",
-                "Curse",
                 "Dig",
                 "Dive",
                 "Drain Punch",
@@ -248401,48 +244084,16 @@ backup_data = {
             "tms":
             [
                 "Assurance",
-                "Attract",
-                "Blizzard",
-                "Body Slam",
-                "Dig",
-                "Endure",
+                "Body Press",
                 "Facade",
-                "Fake Tears",
-                "Fling",
-                "Grass Knot",
-                "Gunk Shot",
-                "Helping Hand",
+                "Hidden Power",
                 "Hyper Voice",
                 "Ice Beam",
                 "Icy Wind",
-                "Iron Tail",
-                "Mud Shot",
-                "Payback",
-                "Pin Missile",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Retaliate",
-                "Round",
-                "Scary Face",
-                "Screech",
-                "Seed Bomb",
                 "Shadow Ball",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
-                "Substitute",
-                "Sunny Day",
                 "Surf",
-                "Swift",
-                "Taunt",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
-                "Thunder Wave",
-                "Trick",
-                "Whirlpool",
-                "Work Up"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -248521,54 +244172,16 @@ backup_data = {
             "tms":
             [
                 "Assurance",
-                "Attract",
-                "Blizzard",
                 "Body Press",
-                "Body Slam",
-                "Dig",
-                "Endure",
                 "Facade",
-                "Fake Tears",
-                "Fling",
-                "Giga Impact",
-                "Grass Knot",
-                "Gunk Shot",
-                "Helping Hand",
-                "Hyper Beam",
+                "Hidden Power",
                 "Hyper Voice",
                 "Ice Beam",
                 "Icy Wind",
-                "Iron Tail",
-                "Mud Shot",
-                "Payback",
-                "Pin Missile",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Retaliate",
-                "Round",
-                "Scary Face",
-                "Screech",
-                "Seed Bomb",
                 "Shadow Ball",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Snarl",
-                "Snore",
-                "Stomping Tantrum",
-                "Substitute",
-                "Sunny Day",
                 "Surf",
-                "Swift",
-                "Taunt",
-                "Thief",
-                "Throat Chop",
-                "Thunder",
                 "Thunderbolt",
-                "Thunder Wave",
-                "Trick",
-                "Whirlpool",
-                "Work Up"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -249080,7 +244693,6 @@ backup_data = {
                 "Astonish",
                 "Bind",
                 "Counter",
-                "Curse",
                 "Pain Split",
                 "Reflect Type",
                 "Spite",
@@ -249093,31 +244705,19 @@ backup_data = {
             [
                 [
                     1,
-                    "Spark"
-                ],
-                [
-                    1,
-                    "Eerie Impulse"
-                ],
-                [
-                    1,
                     "Belch"
                 ],
                 [
                     1,
-                    "Tearful Look"
+                    "Poison Jab"
                 ],
                 [
                     1,
-                    "Nuzzle"
+                    "Drain Punch"
                 ],
                 [
                     1,
-                    "Growl"
-                ],
-                [
-                    1,
-                    "Flail"
+                    "Spark"
                 ],
                 [
                     1,
@@ -249125,139 +244725,81 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Thunder Shock"
+                    "Eerie Impulse"
                 ],
                 [
-                    1,
-                    "Acid Spray"
+                    5,
+                    "Nuzzle"
                 ],
                 [
-                    1,
-                    "Leer"
-                ],
-                [
-                    1,
-                    "Noble Roar"
-                ],
-                [
-                    4,
-                    "Charge"
-                ],
-                [
-                    8,
+                    10,
                     "Shock Wave"
                 ],
                 [
-                    12,
-                    "Scary Face"
-                ],
-                [
-                    16,
-                    "Taunt"
+                    15,
+                    "Venoshock"
                 ],
                 [
                     20,
-                    "Venom Drench"
+                    "Noble Roar"
                 ],
                 [
-                    24,
-                    "Screech"
+                    25,
+                    "Scary Face"
                 ],
                 [
-                    28,
-                    "Swagger"
-                ],
-                [
-                    32,
-                    "Toxic"
-                ],
-                [
-                    36,
+                    30,
                     "Discharge"
                 ],
                 [
-                    40,
-                    "Poison Jab"
+                    33,
+                    "Acid Spray"
                 ],
                 [
-                    44,
+                    36,
+                    "Sludge Bomb"
+                ],
+                [
+                    39,
+                    "Snarl"
+                ],
+                [
+                    43,
+                    "Thunderbolt"
+                ],
+                [
+                    47,
+                    "Hyper Voice"
+                ],
+                [
+                    51,
+                    "Toxic"
+                ],
+                [
+                    55,
+                    "Sludge Wave"
+                ],
+                [
+                    61,
                     "Overdrive"
                 ],
                 [
-                    48,
+                    65,
                     "Boomburst"
-                ],
-                [
-                    52,
-                    "Magnetic Flux"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Attract",
-                "Brick Break",
-                "Charge",
-                "Charge Beam",
-                "Charm",
-                "Drain Punch",
-                "Eerie Impulse",
-                "Electric Terrain",
                 "Electroweb",
-                "Electro Ball",
-                "Encore",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Fire Punch",
-                "Fling",
-                "Giga Impact",
-                "Gunk Shot",
-                "Helping Hand",
-                "Hex",
-                "Hyper Beam",
+                "Hidden Power",
                 "Hyper Voice",
-                "Mega Kick",
-                "Mega Punch",
-                "Metal Sound",
-                "Metronome",
-                "Payback",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
-                "Psychic Noise",
-                "Rain Dance",
-                "Rest",
-                "Round",
-                "Scary Face",
-                "Screech",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Snarl",
-                "Snore",
-                "Stored Power",
-                "Substitute",
-                "Sunny Day",
-                "Swift",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder",
+                "Shock Wave",
                 "Thunderbolt",
-                "Thunder Fang",
-                "Thunder Punch",
-                "Thunder Wave",
                 "Toxic",
-                "Toxic Spikes",
-                "Trailblaze",
-                "Uproar",
-                "Venom Drench",
                 "Venoshock",
-                "Volt Switch",
-                "Wild Charge"
+                "Volt Switch"
             ],
             "tutors":
             [
@@ -249394,144 +244936,46 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Surging Strikes"
-                ],
-                [
                     1,
-                    "Surging Strikes"
+                    "Drain Punch"
                 ],
                 [
-                    1,
-                    "Aqua Jet"
-                ],
-                [
-                    1,
-                    "Rock Smash"
-                ],
-                [
-                    1,
-                    "Leer"
-                ],
-                [
-                    1,
-                    "Endure"
-                ],
-                [
-                    1,
-                    "Focus Energy"
-                ],
-                [
-                    12,
-                    "Aerial Ace"
-                ],
-                [
-                    16,
-                    "Scary Face"
-                ],
-                [
-                    20,
-                    "Headbutt"
-                ],
-                [
-                    24,
-                    "Brick Break"
-                ],
-                [
-                    28,
-                    "Detect"
-                ],
-                [
-                    32,
-                    "Bulk Up"
-                ],
-                [
-                    36,
-                    "Iron Head"
-                ],
-                [
-                    40,
-                    "Dynamic Punch"
-                ],
-                [
-                    44,
-                    "Counter"
-                ],
-                [
-                    48,
+                    50,
                     "Close Combat"
                 ],
                 [
-                    52,
-                    "Focus Punch"
+                    64,
+                    "Aqua Jet"
+                ],
+                [
+                    66,
+                    "Liquidation"
+                ],
+                [
+                    72,
+                    "Coaching"
+                ],
+                [
+                    76,
+                    "Surging Strikes"
                 ]
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Attract",
+                "Assurance",
                 "Aura Sphere",
                 "Body Press",
-                "Body Slam",
-                "Brick Break",
-                "Brine",
-                "Bulk Up",
-                "Chilling Water",
-                "Close Combat",
-                "Coaching",
-                "Dig",
-                "Dive",
-                "Double-Edge",
-                "Drain Punch",
-                "Endure",
+                "Dark Pulse",
                 "Facade",
-                "False Swipe",
-                "Fire Punch",
-                "Fling",
-                "Focus Blast",
-                "Focus Energy",
-                "Focus Punch",
-                "Giga Impact",
-                "Helping Hand",
-                "Ice Punch",
-                "Ice Spinner",
-                "Iron Defense",
-                "Iron Head",
-                "Liquidation",
-                "Low Kick",
-                "Low Sweep",
-                "Mega Kick",
-                "Mega Punch",
-                "Poison Jab",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Retaliate",
-                "Revenge",
-                "Reversal",
+                "Hidden Power",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Round",
-                "Scald",
-                "Scary Face",
-                "Sleep Talk",
-                "Snore",
-                "Stone Edge",
-                "Substitute",
-                "Superpower",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thunder Punch",
-                "Trailblaze",
+                "Smart Strike",
                 "U-turn",
-                "Waterfall",
-                "Whirlpool",
-                "Work Up",
-                "Zen Headbutt"
+                null,
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -249539,7 +244983,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab",
                 "Thunder Punch"
             ],
@@ -249690,7 +245133,6 @@ backup_data = {
                 "Calm Mind",
                 "Close Combat",
                 "Crunch",
-                "Curse",
                 "Double-Edge",
                 "Draining Kiss",
                 "Encore",
@@ -249918,7 +245360,6 @@ backup_data = {
                 "Calm Mind",
                 "Confuse Ray",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Double-Edge",
                 "Draining Kiss",
@@ -250049,85 +245490,39 @@ backup_data = {
                     "Zen Headbutt"
                 ],
                 [
-                    39,
+                    36,
                     "Jump Kick"
                 ],
                 [
-                    46,
+                    40,
                     "Body Slam"
                 ],
                 [
-                    53,
+                    44,
                     "Hyper Voice"
                 ],
                 [
-                    59,
+                    48,
                     "Psychic"
                 ],
                 [
-                    65,
+                    51,
                     "Double-Edge"
                 ]
             ],
             "tms":
             [
-                "Agility",
-                "Body Slam",
-                "Bulldoze",
-                "Calm Mind",
-                "Charge Beam",
-                "Confuse Ray",
-                "Curse",
-                "Dig",
-                "Double-Edge",
                 "Earthquake",
                 "Earth Power",
-                "Endure",
-                "Energy Ball",
-                "Expanding Force",
                 "Facade",
-                "Future Sight",
-                "Giga Impact",
-                "Gravity",
-                "Helping Hand",
-                "High Horsepower",
-                "Hyper Beam",
-                "Imprison",
-                "Light Screen",
-                "Lunge",
-                "Protect",
-                "Psybeam",
+                "Hidden Power",
                 "Psychic",
-                "Psychic Noise",
-                "Psych Up",
-                "Psyshock",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Roar",
-                "Scary Face",
                 "Shadow Ball",
+                "Shock Wave",
                 "Skill Swap",
-                "Sleep Talk",
                 "Solar Beam",
-                "Spite",
-                "Stored Power",
-                "Substitute",
-                "Sunny Day",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder",
-                "Thunderbolt",
-                "Thunder Wave",
-                "Trailblaze",
-                "Trick",
-                "Trick Room",
-                "Uproar",
-                "Wild Charge",
-                "Zen Headbutt"
+                "Swagger",
+                "Thunderbolt"
             ],
             "tutors":
             [
@@ -250211,63 +245606,28 @@ backup_data = {
                     "Leech Life"
                 ],
                 [
-                    55,
+                    53,
                     "Close Combat"
                 ],
                 [
-                    60,
+                    55,
                     "Accelerock"
                 ]
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Agility",
-                "Air Cutter",
-                "Air Slash",
-                "Baton Pass",
-                "Brick Break",
-                "Bug Bite",
-                "Bug Buzz",
-                "Close Combat",
-                "Double-Edge",
+                "Cut",
                 "Dual Wingbeat",
-                "Endure",
                 "Facade",
-                "False Swipe",
-                "Giga Impact",
-                "Helping Hand",
-                "Hyper Beam",
-                "Light Screen",
-                "Lunge",
-                "Pounce",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Reversal",
+                "Hidden Power",
                 "Rock Blast",
+                "Rock Smash",
                 "Rock Slide",
                 "Rock Tomb",
-                "Sandstorm",
-                "Scary Face",
-                "Skitter Smack",
-                "Sleep Talk",
-                "Smack Down",
-                "Stealth Rock",
-                "Stone Edge",
                 "Struggle Bug",
-                "Substitute",
-                "Sunny Day",
-                "Swift",
-                "Swords Dance",
                 "Tailwind",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Trailblaze",
                 "U-turn",
-                "Vacuum Wave",
                 "X-Scissor"
             ],
             "tutors":
@@ -250382,7 +245742,7 @@ backup_data = {
                     "Play Rough"
                 ],
                 [
-                    44,
+                    40,
                     "Body Slam"
                 ],
                 [
@@ -250390,85 +245750,40 @@ backup_data = {
                     "High Horsepower"
                 ],
                 [
-                    54,
+                    51,
                     "Yawn"
                 ],
                 [
-                    60,
+                    55,
                     "Double-Edge"
                 ],
                 [
-                    66,
+                    60,
                     "Earthquake"
                 ],
                 [
-                    75,
+                    65,
                     "Fling"
                 ]
             ],
             "tms":
             [
                 "Aerial Ace",
-                "Avalanche",
-                "Body Press",
-                "Body Slam",
-                "Brick Break",
-                "Bulk Up",
-                "Bulldoze",
-                "Charm",
-                "Close Combat",
-                "Crunch",
-                "Curse",
-                "Dig",
-                "Double-Edge",
-                "Drain Punch",
+                "Cut",
                 "Earthquake",
                 "Earth Power",
-                "Endure",
                 "Facade",
-                "Fake Tears",
-                "Fire Punch",
-                "Fling",
-                "Focus Punch",
-                "Giga Impact",
-                "Gunk Shot",
-                "Hard Press",
+                "Feint Attack",
                 "Heavy Slam",
-                "Helping Hand",
-                "High Horsepower",
-                "Hyper Beam",
+                "Hidden Power",
                 "Hyper Voice",
-                "Ice Punch",
-                "Low Kick",
-                "Metal Claw",
-                "Metronome",
                 "Play Rough",
-                "Protect",
-                "Rain Dance",
-                "Rest",
                 "Roar",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Scary Face",
-                "Seed Bomb",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Smack Down",
-                "Stomping Tantrum",
-                "Stone Edge",
-                "Substitute",
-                "Sunny Day",
-                "Supercell Slam",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder Punch",
-                "Trailblaze",
-                "Uproar"
+                "Strength",
+                "Swagger"
             ],
             "tutors":
             [
@@ -250476,7 +245791,6 @@ backup_data = {
                 "Fire Punch",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Thunder Punch"
             ],
             "egg":
@@ -250552,72 +245866,39 @@ backup_data = {
                     "Aqua Tail"
                 ],
                 [
-                    49,
+                    48,
                     "Spirit Shackle"
                 ],
                 [
-                    52,
+                    51,
                     "Final Gambit"
                 ],
                 [
-                    57,
+                    52,
                     "Superpower"
                 ],
                 [
-                    60,
+                    55,
                     "Liquidation"
                 ],
                 [
-                    65,
+                    61,
                     "Poltergeist"
                 ]
             ],
             "tms":
             [
-                "Agility",
-                "Blizzard",
-                "Chilling Water",
-                "Confuse Ray",
-                "Crunch",
-                "Double-Edge",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Flip Turn",
-                "Giga Impact",
-                "Hex",
-                "Hydro Pump",
-                "Hyper Beam",
+                "Hidden Power",
                 "Ice Beam",
-                "Ice Fang",
                 "Icy Wind",
-                "Liquidation",
-                "Muddy Water",
-                "Mud Shot",
                 "Night Shade",
-                "Outrage",
-                "Pain Split",
-                "Phantom Force",
-                "Protect",
                 "Psychic Fangs",
-                "Rain Dance",
-                "Rest",
-                "Scale Shot",
-                "Scary Face",
                 "Shadow Ball",
-                "Sleep Talk",
-                "Snowscape",
-                "Spite",
-                "Substitute",
                 "Surf",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Uproar",
+                "Swagger",
                 "Waterfall",
-                "Water Pulse",
-                "Whirlpool",
-                "Zen Headbutt"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -250679,83 +245960,37 @@ backup_data = {
                     "Low Kick"
                 ],
                 [
-                    42,
-                    "Poison Jab"
-                ],
-                [
-                    45,
+                    40,
                     "Fake Out"
                 ],
                 [
-                    50,
+                    48,
                     "Knock Off"
                 ],
                 [
-                    55,
+                    51,
                     "Close Combat"
                 ],
                 [
-                    60,
+                    55,
                     "Gunk Shot"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Acrobatics",
                 "Aerial Ace",
-                "Agility",
-                "Brick Break",
-                "Bulk Up",
-                "Calm Mind",
-                "Close Combat",
-                "Coaching",
-                "Dig",
-                "Endure",
+                "Cut",
                 "Facade",
-                "False Swipe",
-                "Fire Punch",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
-                "Giga Impact",
-                "Grass Knot",
-                "Gunk Shot",
-                "Hyper Beam",
-                "Lash Out",
-                "Low Kick",
-                "Low Sweep",
-                "Metal Claw",
-                "Nasty Plot",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Reversal",
+                "Hidden Power",
+                "Feint Attack",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Shadow Ball",
-                "Shadow Claw",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Spite",
-                "Substitute",
-                "Sunny Day",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
+                "Strength",
+                "Swagger",
                 "Toxic",
-                "Toxic Spikes",
-                "Trailblaze",
-                "Upper Hand",
                 "U-turn",
-                "Vacuum Wave",
                 "Venoshock",
                 "X-Scissor"
             ],
@@ -250765,7 +246000,6 @@ backup_data = {
                 "Brick Break",
                 "Headbutt",
                 "Ice Punch",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
@@ -250836,7 +246070,7 @@ backup_data = {
                     "Waterfall"
                 ],
                 [
-                    42,
+                    40,
                     "Toxic"
                 ],
                 [
@@ -250844,71 +246078,36 @@ backup_data = {
                     "Throat Chop"
                 ],
                 [
-                    50,
+                    51,
                     "Explosion"
                 ],
                 [
-                    59,
+                    55,
                     "Liquidation"
                 ],
                 [
-                    65,
+                    61,
                     "Gunk Shot"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Agility",
-                "Blizzard",
-                "Chilling Water",
-                "Crunch",
-                "Curse",
                 "Dark Pulse",
-                "Double-Edge",
-                "Endure",
+                "Explosion",
                 "Facade",
-                "Giga Impact",
-                "Gunk Shot",
-                "Gyro Ball",
-                "Haze",
-                "Hex",
-                "Hydro Pump",
-                "Hyper Beam",
+                "Hidden Power",
                 "Ice Beam",
                 "Icy Wind",
-                "Lash Out",
-                "Liquidation",
-                "Mud Shot",
-                "Pain Split",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Reversal",
-                "Scale Shot",
-                "Scary Face",
+                "Misty Explosion",
                 "Shadow Ball",
-                "Sleep Talk",
+                "Shock Wave",
                 "Sludge Bomb",
-                "Sludge Wave",
                 "Smart Strike",
-                "Spikes",
-                "Spite",
-                "Substitute",
                 "Surf",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Throat Chop",
                 "Toxic",
-                "Toxic Spikes",
                 "Venoshock",
-                "Waterfall",
-                "Water Pulse"
+                "Swagger",
+                "Waterfall"
             ],
             "tutors":
             [
@@ -250998,46 +246197,23 @@ backup_data = {
             ],
             "tms":
             [
-                "Agility",
-                "Alluring Voice",
-                "Body Slam",
-                "Calm Mind",
-                "Dazzling Gleam",
-                "Disarming Voice",
+                "Defog",
                 "Draining Kiss",
                 "Earth Power",
-                "Endure",
+                null,
                 "Facade",
                 "Fly",
-                "Focus Blast",
-                "Giga Impact",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Hyper Beam",
-                "Imprison",
-                "Iron Defense",
-                "Iron Head",
+                "Hidden Power",
                 "Misty Explosion",
-                "Misty Terrain",
-                "Outrage",
                 "Play Rough",
                 "Protect",
                 "Psychic",
-                "Psych Up",
-                "Rain Dance",
-                "Rest",
-                "Scary Face",
-                "Sleep Talk",
+                "Rock Smash",
                 "Sludge Bomb",
-                "Substitute",
-                "Sunny Day",
+                "Strength",
+                "Swagger",
                 "Tailwind",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Uproar",
-                "Weather Ball",
-                "Zen Headbutt"
+                "Weather Ball"
             ],
             "tutors":
             [
@@ -251211,27 +246387,27 @@ backup_data = {
                     "Flamethrower"
                 ],
                 [
-                    43,
+                    40,
                     "Crunch"
                 ],
                 [
-                    49,
+                    48,
                     "Stone Edge"
                 ],
                 [
-                    52,
+                    51,
                     "Close Combat"
                 ],
                 [
-                    57,
+                    55,
                     "Heat Wave"
                 ],
                 [
-                    64,
+                    65,
                     "Flare Blitz"
                 ],
                 [
-                    71,
+                    67,
                     "Head Smash"
                 ]
             ],
@@ -251560,11 +246736,11 @@ backup_data = {
                     "Energy Ball"
                 ],
                 [
-                    52,
+                    51,
                     "Thunderbolt"
                 ],
                 [
-                    56,
+                    55,
                     "Volt Switch"
                 ],
                 [
@@ -251574,47 +246750,16 @@ backup_data = {
             ],
             "tms":
             [
-                "Agility",
-                "Bullet Seed",
-                "Charge",
-                "Charge Beam",
-                "Curse",
-                "Double-Edge",
-                "Electric Terrain",
                 "Electroweb",
                 "Electro Ball",
-                "Endure",
+                "Explosion",
                 "Energy Ball",
                 "Facade",
-                "Foul Play",
-                "Giga Drain",
-                "Giga Impact",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Gyro Ball",
-                "Hyper Beam",
-                "Leaf Storm",
-                "Protect",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Scary Face",
-                "Seed Bomb",
-                "Sleep Talk",
+                "Hidden Power",
+                "Misty Explosion",
                 "Solar Beam",
-                "Substitute",
-                "Supercell Slam",
-                "Swift",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Thunder",
                 "Thunderbolt",
-                "Thunder Wave",
-                "Volt Switch",
-                "Wild Charge"
+                "Thunder Wave"
             ],
             "tutors":
             [
@@ -251718,31 +246863,31 @@ backup_data = {
                     "Lava Plume"
                 ],
                 [
-                    40,
+                    38,
                     "Hex"
                 ],
                 [
-                    44,
+                    40,
                     "Aura Sphere"
                 ],
                 [
-                    51,
+                    48,
                     "Shadow Ball"
                 ],
                 [
-                    57,
+                    51,
                     "Flamethrower"
                 ],
                 [
-                    64,
+                    54,
                     "Will-O-Wisp"
                 ],
                 [
-                    71,
+                    61,
                     "Focus Blast"
                 ],
                 [
-                    76,
+                    65,
                     "Burn Up"
                 ]
             ],
@@ -251817,7 +246962,6 @@ backup_data = {
             "egg":
             [
                 "Covet",
-                "Curse",
                 "Double Kick",
                 "Extrasensory",
                 "Howl",
@@ -251881,76 +247025,44 @@ backup_data = {
                     "Waterfall"
                 ],
                 [
-                    42,
+                    40,
                     "Toxic"
                 ],
                 [
-                    46,
+                    44,
                     "Throat Chop"
                 ],
                 [
-                    50,
+                    48,
                     "Explosion"
                 ],
                 [
-                    55,
+                    51,
                     "Liquidation"
                 ],
                 [
-                    60,
+                    55,
                     "Gunk Shot"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Agility",
-                "Blizzard",
-                "Chilling Water",
-                "Crunch",
-                "Curse",
                 "Dark Pulse",
-                "Double-Edge",
-                "Endure",
+                "Explosion",
                 "Facade",
-                "Giga Impact",
-                "Gunk Shot",
-                "Gyro Ball",
-                "Haze",
-                "Hex",
-                "Hydro Pump",
+                "Hidden Power",
                 "Ice Beam",
                 "Icy Wind",
-                "Lash Out",
-                "Liquidation",
-                "Mud Shot",
-                "Pain Split",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Reversal",
-                "Scale Shot",
-                "Scary Face",
+                "Misty Explosion",
                 "Shadow Ball",
-                "Sleep Talk",
+                "Shock Wave",
                 "Sludge Bomb",
-                "Spikes",
-                "Spite",
-                "Substitute",
+                "Smart Strike",
                 "Surf",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Throat Chop",
                 "Toxic",
-                "Toxic Spikes",
                 "Venoshock",
-                "Waterfall",
-                "Water Pulse"
+                "Swagger",
+                "Waterfall"
             ],
             "tutors":
             [
@@ -252022,76 +247134,37 @@ backup_data = {
                     "Low Kick"
                 ],
                 [
-                    42,
-                    "Poison Jab"
-                ],
-                [
-                    45,
+                    40,
                     "Fake Out"
                 ],
                 [
-                    50,
+                    48,
                     "Knock Off"
                 ],
                 [
-                    55,
+                    51,
                     "Close Combat"
                 ],
                 [
-                    60,
+                    55,
                     "Gunk Shot"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
                 "Aerial Ace",
-                "Agility",
-                "Brick Break",
-                "Bulk Up",
-                "Calm Mind",
-                "Close Combat",
-                "Coaching",
-                "Dig",
-                "Endure",
+                "Cut",
                 "Facade",
-                "False Swipe",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
-                "Giga Impact",
-                "Grass Knot",
-                "Gunk Shot",
-                "Lash Out",
-                "Low Kick",
-                "Low Sweep",
-                "Metal Claw",
-                "Nasty Plot",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Reversal",
-                "Shadow Ball",
-                "Shadow Claw",
-                "Sleep Talk",
+                "Hidden Power",
+                "Feint Attack",
+                "Rock Slide",
+                "Rock Smash",
+                "Rock Tomb",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Spite",
-                "Substitute",
-                "Sunny Day",
-                "Swift",
-                "Swords Dance",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
+                "Strength",
+                "Swagger",
                 "Toxic",
-                "Toxic Spikes",
-                "Trailblaze",
-                "Vacuum Wave",
+                "U-turn",
                 "Venoshock",
                 "X-Scissor"
             ],
@@ -252169,15 +247242,15 @@ backup_data = {
                     "Aqua Jet"
                 ],
                 [
-                    53,
+                    51,
                     "Foul Play"
                 ],
                 [
-                    59,
+                    54,
                     "Knock Off"
                 ],
                 [
-                    65,
+                    55,
                     "Hydro Pump"
                 ]
             ],
@@ -252260,100 +247333,56 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Victory Dance"
+                    1,
+                    "Leafage"
                 ],
                 [
-                    1,
-                    "Victory Dance"
-                ],
-                [
-                    1,
-                    "Petal Blizzard"
-                ],
-                [
-                    1,
-                    "Teeter Dance"
-                ],
-                [
-                    1,
-                    "Defog"
-                ],
-                [
-                    1,
-                    "Leaf Blade"
-                ],
-                [
-                    1,
-                    "Mega Kick"
-                ],
-                [
-                    1,
-                    "Solar Blade"
-                ],
-                [
-                    1,
-                    "Mega Drain"
-                ],
-                [
-                    1,
-                    "Magical Leaf"
-                ],
-                [
-                    1,
+                    6,
                     "Sleep Powder"
                 ],
                 [
-                    1,
-                    "Giga Drain"
-                ],
-                [
-                    1,
-                    "Leech Seed"
-                ],
-                [
-                    1,
-                    "After You"
-                ],
-                [
-                    1,
-                    "Energy Ball"
-                ],
-                [
-                    1,
-                    "Synthesis"
-                ],
-                [
-                    1,
-                    "Sunny Day"
-                ],
-                [
-                    1,
-                    "Entrainment"
-                ],
-                [
-                    1,
-                    "Leaf Storm"
-                ],
-                [
-                    1,
-                    "Absorb"
-                ],
-                [
-                    1,
-                    "Growth"
-                ],
-                [
-                    1,
-                    "Helping Hand"
-                ],
-                [
-                    1,
+                    6,
                     "Stun Spore"
                 ],
                 [
-                    5,
-                    "Axe Kick"
+                    13,
+                    "Razor Leaf"
+                ],
+                [
+                    15,
+                    "Synthesis"
+                ],
+                [
+                    22,
+                    "Seed Bomb"
+                ],
+                [
+                    25,
+                    "Aromatherapy"
+                ],
+                [
+                    28,
+                    "Helping Hand"
+                ],
+                [
+                    34,
+                    "Leaf Blade"
+                ],
+                [
+                    40,
+                    "Entrainment"
+                ],
+                [
+                    46,
+                    "After You"
+                ],
+                [
+                    49,
+                    "Leaf Storm"
+                ],
+                [
+                    54,
+                    "Close Combat"
                 ]
             ],
             "tms":
@@ -252366,6 +247395,7 @@ backup_data = {
                 "Charm",
                 "Close Combat",
                 "Coaching",
+                "Defog",
                 "Encore",
                 "Endure",
                 "Energy Ball",
@@ -252426,59 +247456,55 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Rock Smash"
-                ],
-                [
                     1,
-                    "Absorb"
-                ],
-                [
-                    5,
                     "Leafage"
                 ],
                 [
-                    9,
-                    "Stun Spore"
-                ],
-                [
-                    15,
-                    "Poison Powder"
-                ],
-                [
-                    21,
-                    "Energy Ball"
-                ],
-                [
-                    29,
+                    6,
                     "Sleep Powder"
                 ],
                 [
-                    34,
-                    "Drain Punch"
+                    6,
+                    "Stun Spore"
                 ],
                 [
-                    37,
+                    13,
+                    "Razor Leaf"
+                ],
+                [
+                    15,
+                    "Synthesis"
+                ],
+                [
+                    22,
+                    "Seed Bomb"
+                ],
+                [
+                    25,
+                    "Aromatherapy"
+                ],
+                [
+                    28,
+                    "Helping Hand"
+                ],
+                [
+                    34,
                     "Leaf Blade"
                 ],
                 [
-                    37,
-                    "Recover"
+                    40,
+                    "Entrainment"
                 ],
                 [
-                    42,
-                    "Victory Dance"
+                    46,
+                    "After You"
                 ],
                 [
-                    47,
+                    49,
                     "Leaf Storm"
                 ],
                 [
-                    53,
-                    "Petal Dance"
-                ],
-                [
-                    57,
+                    54,
                     "Close Combat"
                 ]
             ],
@@ -252504,101 +247530,84 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Water Gun"
-                ],
-                [
-                    4,
-                    "Tackle"
-                ],
-                [
-                    8,
-                    "Flail"
-                ],
-                [
-                    12,
                     "Aqua Jet"
                 ],
                 [
-                    16,
+                    4,
                     "Bite"
                 ],
                 [
-                    20,
-                    "Scary Face"
-                ],
-                [
-                    24,
-                    "Headbutt"
-                ],
-                [
-                    28,
+                    9,
                     "Soak"
                 ],
                 [
-                    32,
-                    "Crunch"
+                    12,
+                    "Brine"
                 ],
                 [
-                    36,
+                    17,
                     "Take Down"
                 ],
                 [
-                    40,
-                    "Uproar"
+                    20,
+                    "Crunch"
+                ],
+                [
+                    25,
+                    "Submission"
+                ],
+                [
+                    28,
+                    "Waterfall"
+                ],
+                [
+                    33,
+                    "Ice Fang"
+                ],
+                [
+                    36,
+                    "Psychic Fangs"
+                ],
+                [
+                    41,
+                    "Scary Face"
                 ],
                 [
                     44,
-                    "Wave Crash"
+                    "Aqua Tail"
                 ],
                 [
                     48,
-                    "Thrash"
+                    "Final Gambit"
                 ],
                 [
-                    52,
-                    "Double-Edge"
+                    50,
+                    "Head Charge"
                 ],
                 [
-                    56,
+                    51,
+                    "Superpower"
+                ],
+                [
+                    55,
+                    "Liquidation"
+                ],
+                [
+                    61,
                     "Head Smash"
                 ]
             ],
             "tms":
             [
-                "Agility",
-                "Blizzard",
-                "Chilling Water",
-                "Crunch",
-                "Double-Edge",
-                "Endeavor",
-                "Endure",
                 "Facade",
-                "Flip Turn",
-                "Hydro Pump",
+                "Hidden Power",
                 "Ice Beam",
-                "Ice Fang",
                 "Icy Wind",
-                "Liquidation",
-                "Muddy Water",
-                "Mud Shot",
-                "Protect",
                 "Psychic Fangs",
-                "Rain Dance",
-                "Rest",
-                "Scale Shot",
-                "Scary Face",
-                "Sleep Talk",
-                "Snowscape",
-                "Substitute",
                 "Surf",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Uproar",
+                "Swagger",
                 "Waterfall",
-                "Water Pulse",
-                "Whirlpool",
-                "Zen Headbutt"
+                "Whirlpool"
             ],
             "tutors":
             [
@@ -252695,7 +247704,6 @@ backup_data = {
                 "Burning Jealousy",
                 "Calm Mind",
                 "Confuse Ray",
-                "Curse",
                 "Dark Pulse",
                 "Dig",
                 "Endure",
@@ -253136,7 +248144,6 @@ backup_data = {
                 "Body Slam",
                 "Charm",
                 "Chilling Water",
-                "Curse",
                 "Draco Meteor",
                 "Dragon Pulse",
                 "Endure",
@@ -253186,32 +248193,16 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Iron Tail"
+                    1,
+                    "Draco Meteor"
                 ],
                 [
                     1,
-                    "Iron Tail"
+                    "Breaking Swipe"
                 ],
                 [
                     1,
-                    "Absorb"
-                ],
-                [
-                    1,
-                    "Acid Spray"
-                ],
-                [
-                    1,
-                    "Dragon Breath"
-                ],
-                [
-                    1,
-                    "Feint"
-                ],
-                [
-                    1,
-                    "Shelter"
+                    "Weather Ball"
                 ],
                 [
                     1,
@@ -253219,51 +248210,55 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Tearful Look"
+                    "Bubble"
                 ],
                 [
-                    1,
-                    "Water Gun"
+                    5,
+                    "Dragon Breath"
                 ],
                 [
-                    15,
-                    "Protect"
+                    10,
+                    "Life Dew"
                 ],
                 [
-                    20,
-                    "Flail"
+                    16,
+                    "Smart Strike"
                 ],
                 [
-                    25,
+                    23,
                     "Water Pulse"
                 ],
                 [
-                    30,
-                    "Rain Dance"
+                    28,
+                    "Dragon Tail"
                 ],
                 [
-                    35,
-                    "Dragon Pulse"
+                    34,
+                    "Infestation"
                 ],
                 [
-                    43,
-                    "Curse"
+                    42,
+                    "Flash Cannon"
                 ],
                 [
-                    49,
-                    "Body Slam"
-                ],
-                [
-                    49,
-                    "Iron Head"
-                ],
-                [
-                    58,
+                    48,
                     "Muddy Water"
                 ],
                 [
-                    67,
-                    "Heavy Slam"
+                    55,
+                    "Iron Tail"
+                ],
+                [
+                    58,
+                    "Dragon Pulse"
+                ],
+                [
+                    61,
+                    "Power Whip"
+                ],
+                [
+                    66,
+                    "Outrage"
                 ]
             ],
             "tms":
@@ -253276,7 +248271,6 @@ backup_data = {
                 "Bulldoze",
                 "Charm",
                 "Chilling Water",
-                "Curse",
                 "Draco Meteor",
                 "Dragon Cheer",
                 "Dragon Claw",
@@ -253440,7 +248434,6 @@ backup_data = {
                 "Bulldoze",
                 "Chilling Water",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Earthquake",
@@ -253555,16 +248548,12 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Triple Arrows"
+                    1,
+                    "Phantom Force"
                 ],
                 [
                     1,
-                    "Triple Arrows"
-                ],
-                [
-                    1,
-                    "Leaf Storm"
+                    "Mach Punch"
                 ],
                 [
                     1,
@@ -253576,51 +248565,67 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Growl"
-                ],
-                [
-                    1,
                     "Leafage"
                 ],
                 [
-                    9,
+                    4,
+                    "Growl"
+                ],
+                [
+                    8,
                     "Peck"
                 ],
                 [
                     12,
-                    "Shadow Sneak"
+                    "Astonish"
                 ],
                 [
                     15,
                     "Razor Leaf"
                 ],
                 [
-                    20,
-                    "Synthesis"
-                ],
-                [
-                    25,
+                    19,
                     "Pluck"
                 ],
                 [
-                    30,
-                    "Bulk Up"
+                    24,
+                    "Ominous Wind"
                 ],
                 [
-                    37,
+                    28,
+                    "Synthesis"
+                ],
+                [
+                    32,
+                    "Seed Bomb"
+                ],
+                [
+                    34,
+                    "Low Kick"
+                ],
+                [
+                    38,
                     "Sucker Punch"
                 ],
                 [
-                    44,
-                    "Leaf Blade"
-                ],
-                [
-                    51,
+                    48,
                     "Feather Dance"
                 ],
                 [
-                    58,
-                    "Brave Bird"
+                    51,
+                    "Roost"
+                ],
+                [
+                    55,
+                    "Leaf Blade"
+                ],
+                [
+                    61,
+                    "Close Combat"
+                ],
+                [
+                    65,
+                    "Leaf Storm"
                 ]
             ],
             "tms":
@@ -253637,6 +248642,7 @@ backup_data = {
                 "Close Combat",
                 "Coaching",
                 "Confuse Ray",
+                "Defog",
                 "Dual Wingbeat",
                 "Endure",
                 "Energy Ball",
@@ -253706,6 +248712,10 @@ backup_data = {
             [
                 [
                     1,
+                    "Leafage"
+                ],
+                [
+                    1,
                     "Scratch"
                 ],
                 [
@@ -253713,16 +248723,8 @@ backup_data = {
                     "Tail Whip"
                 ],
                 [
-                    1,
-                    "Leafage"
-                ],
-                [
                     7,
                     "Bite"
-                ],
-                [
-                    10,
-                    "Hone Claws"
                 ],
                 [
                     13,
@@ -253733,132 +248735,23 @@ backup_data = {
                     "Quick Attack"
                 ],
                 [
-                    17,
+                    18,
                     "Seed Bomb"
                 ],
                 [
                     21,
-                    "U-turn"
-                ],
-                [
-                    25,
-                    "Worry Seed"
-                ],
-                [
-                    28,
                     "Slash"
                 ],
                 [
-                    32,
-                    "Energy Ball"
-                ],
-                [
-                    36,
-                    "Play Rough"
-                ]
-            ],
-            "tms":
-            [
-                "Acrobatics",
-                "Agility",
-                "Bullet Seed",
-                "Charm",
-                "Disarming Voice",
-                "Endure",
-                "Energy Ball",
-                "Facade",
-                "Fake Tears",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Helping Hand",
-                "Leaf Storm",
-                "Magical Leaf",
-                "Mud-Slap",
-                "Nasty Plot",
-                "Petal Blizzard",
-                "Play Rough",
-                "Protect",
-                "Rest",
-                "Seed Bomb",
-                "Shadow Claw",
-                "Sleep Talk",
-                "Solar Beam",
-                "Substitute",
-                "Swift",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Trailblaze",
-                "U-turn"
-            ],
-            "tutors":
-            [],
-            "egg":
-            [
-                "Ally Switch",
-                "Copycat",
-                "Leech Seed",
-                "Petal Blizzard",
-                "Sucker Punch"
-            ]
-        },
-        "floragato":
-        {
-            "ls":
-            [
-                [
-                    1,
-                    "Scratch"
-                ],
-                [
-                    1,
-                    "Tail Whip"
-                ],
-                [
-                    1,
-                    "Leafage"
-                ],
-                [
-                    7,
-                    "Bite"
-                ],
-                [
-                    10,
-                    "Hone Claws"
-                ],
-                [
-                    13,
-                    "Magical Leaf"
-                ],
-                [
-                    15,
-                    "Quick Attack"
-                ],
-                [
-                    20,
-                    "Seed Bomb"
-                ],
-                [
-                    24,
-                    "U-turn"
-                ],
-                [
-                    28,
+                    26,
                     "Worry Seed"
                 ],
                 [
-                    33,
-                    "Slash"
-                ],
-                [
-                    38,
+                    34,
                     "Energy Ball"
                 ],
                 [
-                    42,
+                    40,
                     "Play Rough"
                 ],
                 [
@@ -253868,80 +248761,114 @@ backup_data = {
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Agility",
                 "Bullet Seed",
-                "Charm",
-                "Disarming Voice",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "Fake Tears",
-                "Fling",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Helping Hand",
-                "Leaf Storm",
-                "Low Kick",
-                "Low Sweep",
+                "Hidden Power",
                 "Magical Leaf",
-                "Mud-Slap",
-                "Nasty Plot",
-                "Petal Blizzard",
+                "Natural Gift",
                 "Play Rough",
-                "Protect",
-                "Rest",
-                "Seed Bomb",
-                "Shadow Claw",
-                "Sleep Talk",
+                "Skill Swap",
                 "Solar Beam",
-                "Substitute",
-                "Swift",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thunder Punch",
-                "Trailblaze",
                 "U-turn"
             ],
             "tutors":
-            [],
-            "egg":
             [
-                "Ally Switch",
-                "Copycat",
-                "Leech Seed",
-                "Petal Blizzard",
-                "Sucker Punch"
-            ]
+                "Headbutt"
+            ],
+            "egg":
+            []
+        },
+        "floragato":
+        {
+            "ls":
+            [
+                [
+                    1,
+                    "Leafage"
+                ],
+                [
+                    1,
+                    "Scratch"
+                ],
+                [
+                    1,
+                    "Tail Whip"
+                ],
+                [
+                    7,
+                    "Bite"
+                ],
+                [
+                    13,
+                    "Magical Leaf"
+                ],
+                [
+                    15,
+                    "Quick Attack"
+                ],
+                [
+                    20,
+                    "Seed Bomb"
+                ],
+                [
+                    23,
+                    "Slash"
+                ],
+                [
+                    28,
+                    "Worry Seed"
+                ],
+                [
+                    36,
+                    "Energy Ball"
+                ],
+                [
+                    42,
+                    "Play Rough"
+                ],
+                [
+                    48,
+                    "Leaf Storm"
+                ]
+            ],
+            "tms":
+            [
+                "Aerial Ace",
+                "Bullet Seed",
+                "Energy Ball",
+                "Facade",
+                "Hidden Power",
+                "Magical Leaf",
+                "Natural Gift",
+                "Play Rough",
+                "Skill Swap",
+                "Solar Beam",
+                "U-turn"
+            ],
+            "tutors":
+            [
+                "Headbutt"
+            ],
+            "egg":
+            []
         },
         "meowscarada":
         {
             "ls":
             [
                 [
-                    0,
-                    "Double Team"
-                ],
-                [
-                    0,
-                    "Trick"
-                ],
-                [
-                    0,
-                    "Flower Trick"
+                    1,
+                    "U-turn"
                 ],
                 [
                     1,
-                    "Double Team"
+                    "Copycat"
                 ],
                 [
                     1,
-                    "Trick"
+                    "Triple Axel"
                 ],
                 [
                     1,
@@ -253960,10 +248887,6 @@ backup_data = {
                     "Bite"
                 ],
                 [
-                    10,
-                    "Hone Claws"
-                ],
-                [
                     13,
                     "Magical Leaf"
                 ],
@@ -253977,7 +248900,7 @@ backup_data = {
                 ],
                 [
                     24,
-                    "U-turn"
+                    "Slash"
                 ],
                 [
                     29,
@@ -253985,11 +248908,11 @@ backup_data = {
                 ],
                 [
                     33,
-                    "Slash"
+                    "Night Slash"
                 ],
                 [
-                    38,
-                    "Night Slash"
+                    36,
+                    "Flower Trick"
                 ],
                 [
                     42,
@@ -254000,92 +248923,46 @@ backup_data = {
                     "Play Rough"
                 ],
                 [
-                    52,
+                    51,
                     "Knock Off"
                 ],
                 [
-                    58,
-                    "Grassy Terrain"
+                    55,
+                    "U-turn"
                 ],
                 [
-                    64,
+                    61,
                     "Leaf Storm"
                 ]
             ],
             "tms":
             [
-                "Acrobatics",
                 "Aerial Ace",
-                "Agility",
+                "Assurance",
                 "Aura Sphere",
-                "Brick Break",
                 "Bullet Seed",
-                "Charm",
-                "Chilling Water",
                 "Dark Pulse",
-                "Disarming Voice",
-                "Endure",
                 "Energy Ball",
                 "Facade",
-                "Fake Tears",
-                "Fling",
-                "Foul Play",
-                "Frenzy Plant",
-                "Giga Drain",
-                "Giga Impact",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Grass Pledge",
-                "Helping Hand",
-                "Hyper Beam",
-                "Knock Off",
-                "Lash Out",
-                "Leaf Storm",
-                "Low Kick",
-                "Low Sweep",
+                "Feint Attack",
+                "Hidden Power",
                 "Magical Leaf",
-                "Mud-Slap",
-                "Nasty Plot",
-                "Petal Blizzard",
+                "Natural Gift",
                 "Play Rough",
-                "Pollen Puff",
-                "Power Gem",
-                "Protect",
-                "Psych Up",
-                "Rest",
-                "Seed Bomb",
                 "Shadow Ball",
-                "Shadow Claw",
                 "Skill Swap",
-                "Sleep Talk",
+                "Smart Strike",
                 "Solar Beam",
-                "Spikes",
-                "Substitute",
-                "Swift",
-                "Take Down",
-                "Taunt",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder Punch",
-                "Toxic Spikes",
-                "Trailblaze",
-                "Trick",
-                "Trick Room",
-                "Triple Axel",
                 "U-turn"
             ],
             "tutors":
-            [],
-            "egg":
             [
-                "Ally Switch",
-                "Copycat",
-                "Leech Seed",
-                "Petal Blizzard",
-                "Sucker Punch"
-            ]
+                "Headbutt",
+                "Thunder Punch",
+                "Brick Break"
+            ],
+            "egg":
+            []
         },
         "fuecoco":
         {
@@ -254144,7 +249021,6 @@ backup_data = {
             [
                 "Body Slam",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Disarming Voice",
                 "Encore",
@@ -254184,7 +249060,6 @@ backup_data = {
             "egg":
             [
                 "Belch",
-                "Curse",
                 "Encore",
                 "Slack Off"
             ]
@@ -254254,7 +249129,6 @@ backup_data = {
             [
                 "Body Slam",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Disarming Voice",
                 "Encore",
@@ -254294,7 +249168,6 @@ backup_data = {
             "egg":
             [
                 "Belch",
-                "Curse",
                 "Encore",
                 "Slack Off"
             ]
@@ -254398,7 +249271,6 @@ backup_data = {
                 "Blast Burn",
                 "Body Slam",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Disarming Voice",
                 "Earthquake",
@@ -254452,7 +249324,6 @@ backup_data = {
             "egg":
             [
                 "Belch",
-                "Curse",
                 "Encore",
                 "Slack Off"
             ]
@@ -254879,7 +249750,6 @@ backup_data = {
                 "Bulldoze",
                 "Bullet Seed",
                 "Chilling Water",
-                "Curse",
                 "Dig",
                 "Disarming Voice",
                 "Double-Edge",
@@ -255491,41 +250361,16 @@ backup_data = {
             ],
             "tms":
             [
-                "Agility",
-                "Baton Pass",
-                "Charge",
-                "Charge Beam",
-                "Charm",
-                "Crunch",
-                "Dig",
-                "Eerie Impulse",
-                "Electric Terrain",
+                "Body Press",
                 "Electroweb",
-                "Electro Ball",
-                "Encore",
-                "Endure",
                 "Facade",
-                "Fling",
-                "Helping Hand",
-                "Metal Claw",
+                "Hidden Power",
                 "Play Rough",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Sleep Talk",
-                "Substitute",
-                "Sunny Day",
-                "Super Fang",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Thunder",
-                "Thunderbolt",
-                "Thunder Fang",
-                "Thunder Wave",
-                "Volt Switch",
-                "Wild Charge"
+                "Rock Smash",
+                "Rock Tomb",
+                "Strength",
+                "Swagger",
+                "Thunderbolt"
             ],
             "tutors":
             [],
@@ -255592,48 +250437,16 @@ backup_data = {
             ],
             "tms":
             [
-                "Agility",
-                "Baton Pass",
-                "Charge",
-                "Charge Beam",
-                "Charm",
-                "Coaching",
-                "Crunch",
-                "Dig",
-                "Eerie Impulse",
-                "Electric Terrain",
+                "Body Press",
                 "Electroweb",
-                "Electro Ball",
-                "Encore",
-                "Endure",
                 "Facade",
-                "Fling",
-                "Focus Punch",
-                "Helping Hand",
-                "Knock Off",
-                "Low Kick",
-                "Low Sweep",
-                "Metal Claw",
+                "Hidden Power",
                 "Play Rough",
-                "Protect",
-                "Rain Dance",
-                "Rest",
-                "Sleep Talk",
-                "Substitute",
-                "Sunny Day",
-                "Super Fang",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Thunder",
-                "Thunderbolt",
-                "Thunder Fang",
-                "Thunder Punch",
-                "Thunder Wave",
-                "Upper Hand",
-                "Volt Switch",
-                "Wild Charge"
+                "Rock Smash",
+                "Rock Tomb",
+                "Strength",
+                "Swagger",
+                "Thunderbolt"
             ],
             "tutors":
             [
@@ -255717,74 +250530,26 @@ backup_data = {
                     "Close Combat"
                 ],
                 [
-                    54,
+                    55,
                     "Mach Punch"
                 ],
                 [
-                    60,
+                    61,
                     "Double Shock"
                 ]
             ],
             "tms":
             [
-                "Agility",
-                "Baton Pass",
                 "Body Press",
-                "Brick Break",
-                "Bulk Up",
-                "Charge",
-                "Charge Beam",
-                "Charm",
-                "Close Combat",
-                "Coaching",
-                "Crunch",
-                "Dig",
-                "Double-Edge",
-                "Eerie Impulse",
-                "Electric Terrain",
                 "Electroweb",
-                "Electro Ball",
-                "Encore",
-                "Endure",
                 "Facade",
-                "Fire Punch",
-                "Fling",
-                "Focus Blast",
-                "Focus Punch",
-                "Giga Impact",
-                "Grass Knot",
-                "Helping Hand",
-                "Hyper Beam",
-                "Ice Punch",
-                "Knock Off",
-                "Low Kick",
-                "Low Sweep",
-                "Metal Claw",
-                "Metronome",
+                "Hidden Power",
                 "Play Rough",
-                "Protect",
-                "Rain Dance",
-                "Rest",
+                "Rock Smash",
                 "Rock Tomb",
-                "Seed Bomb",
-                "Sleep Talk",
-                "Substitute",
-                "Sunny Day",
-                "Supercell Slam",
-                "Super Fang",
-                "Swift",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Throat Chop",
-                "Thunder",
-                "Thunderbolt",
-                "Thunder Fang",
-                "Thunder Punch",
-                "Thunder Wave",
-                "Upper Hand",
-                "Volt Switch",
-                "Wild Charge"
+                "Strength",
+                "Swagger",
+                "Thunderbolt"
             ],
             "tutors":
             [
@@ -256765,7 +251530,6 @@ backup_data = {
             [
                 "Body Slam",
                 "Bulldoze",
-                "Curse",
                 "Dig",
                 "Earthquake",
                 "Earth Power",
@@ -256800,7 +251564,6 @@ backup_data = {
             "egg":
             [
                 "Ancient Power",
-                "Curse",
                 "Fissure",
                 "Power Gem"
             ]
@@ -256875,7 +251638,6 @@ backup_data = {
                 "Body Press",
                 "Body Slam",
                 "Bulldoze",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Earthquake",
@@ -256913,7 +251675,6 @@ backup_data = {
             "egg":
             [
                 "Ancient Power",
-                "Curse",
                 "Fissure",
                 "Power Gem"
             ]
@@ -257006,7 +251767,6 @@ backup_data = {
                 "Body Slam",
                 "Brick Break",
                 "Bulldoze",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Earthquake",
@@ -257053,7 +251813,6 @@ backup_data = {
             "egg":
             [
                 "Ancient Power",
-                "Curse",
                 "Fissure",
                 "Power Gem"
             ]
@@ -257380,7 +252139,6 @@ backup_data = {
                 "Bulk Up",
                 "Close Combat",
                 "Confuse Ray",
-                "Curse",
                 "Dragon Claw",
                 "Endure",
                 "Facade",
@@ -257445,96 +252203,29 @@ backup_data = {
                     "Mud-Slap"
                 ],
                 [
-                    7,
+                    1,
                     "Thunder Shock"
                 ],
                 [
-                    11,
+                    1,
                     "Water Gun"
-                ],
-                [
-                    17,
-                    "Charge"
-                ],
-                [
-                    21,
-                    "Spark"
-                ],
-                [
-                    24,
-                    "Mud Shot"
-                ],
-                [
-                    25,
-                    "Flail"
-                ],
-                [
-                    32,
-                    "Discharge"
-                ],
-                [
-                    36,
-                    "Weather Ball"
-                ],
-                [
-                    40,
-                    "Electric Terrain"
-                ],
-                [
-                    45,
-                    "Sucker Punch"
-                ],
-                [
-                    50,
-                    "Zap Cannon"
                 ]
             ],
             "tms":
-            [
-                "Acid Spray",
-                "Charge",
-                "Charge Beam",
-                "Chilling Water",
-                "Confuse Ray",
-                "Eerie Impulse",
-                "Electric Terrain",
-                "Electroweb",
-                "Electro Ball",
-                "Endure",
-                "Hyper Voice",
-                "Light Screen",
-                "Muddy Water",
-                "Mud Shot",
-                "Mud-Slap",
-                "Protect",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Sleep Talk",
-                "Substitute",
-                "Swift",
-                "Tera Blast",
-                "Thunder",
-                "Thunderbolt",
-                "Thunder Wave",
-                "Volt Switch",
-                "Water Pulse",
-                "Weather Ball",
-                "Wild Charge"
-            ],
+            [],
             "tutors":
             [],
             "egg":
-            [
-                "Muddy Water",
-                "Parabolic Charge",
-                "Soak"
-            ]
+            []
         },
         "bellibolt":
         {
             "ls":
             [
+                [
+                    1,
+                    "Slack Off"
+                ],
                 [
                     1,
                     "Tackle"
@@ -257545,7 +252236,7 @@ backup_data = {
                 ],
                 [
                     1,
-                    "Slack Off"
+                    "Eerie Impulse"
                 ],
                 [
                     7,
@@ -257554,10 +252245,6 @@ backup_data = {
                 [
                     11,
                     "Water Gun"
-                ],
-                [
-                    17,
-                    "Charge"
                 ],
                 [
                     21,
@@ -257573,15 +252260,15 @@ backup_data = {
                 ],
                 [
                     32,
-                    "Discharge"
+                    "Soak"
                 ],
                 [
                     36,
-                    "Weather Ball"
+                    "Discharge"
                 ],
                 [
                     40,
-                    "Electric Terrain"
+                    "Weather Ball"
                 ],
                 [
                     45,
@@ -257589,54 +252276,35 @@ backup_data = {
                 ],
                 [
                     50,
-                    "Zap Cannon"
+                    "Thunder Wave"
+                ],
+                [
+                    61,
+                    "Muddy Water"
+                ],
+                [
+                    65,
+                    "Volt Switch"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Charge",
-                "Charge Beam",
-                "Chilling Water",
-                "Confuse Ray",
-                "Eerie Impulse",
-                "Electric Terrain",
                 "Electroweb",
-                "Electro Ball",
-                "Endure",
-                "Giga Impact",
-                "Hyper Beam",
+                "Facade",
+                "Hidden Power",
                 "Hyper Voice",
-                "Light Screen",
-                "Muddy Water",
-                "Mud Shot",
-                "Mud-Slap",
-                "Protect",
-                "Rain Dance",
-                "Reflect",
-                "Rest",
-                "Sleep Talk",
-                "Substitute",
-                "Supercell Slam",
-                "Swift",
-                "Tera Blast",
-                "Thunder",
+                "Shock Wave",
                 "Thunderbolt",
-                "Thunder Wave",
                 "Toxic",
-                "Volt Switch",
-                "Water Pulse",
-                "Weather Ball",
-                "Wild Charge"
+                "Weather Ball"
             ],
             "tutors":
-            [],
-            "egg":
             [
-                "Muddy Water",
-                "Parabolic Charge",
-                "Soak"
-            ]
+                "Headbutt",
+                "Thunder"
+            ],
+            "egg":
+            []
         },
         "wattrel":
         {
@@ -258044,7 +252712,6 @@ backup_data = {
                 "Body Slam",
                 "Charm",
                 "Crunch",
-                "Curse",
                 "Dark Pulse",
                 "Dig",
                 "Double-Edge",
@@ -258410,7 +253077,6 @@ backup_data = {
             [
                 "Bullet Seed",
                 "Confuse Ray",
-                "Curse",
                 "Endure",
                 "Energy Ball",
                 "Facade",
@@ -258519,7 +253185,6 @@ backup_data = {
             [
                 "Bullet Seed",
                 "Confuse Ray",
-                "Curse",
                 "Endure",
                 "Energy Ball",
                 "Facade",
@@ -258988,6 +253653,10 @@ backup_data = {
                     "Zen Headbutt"
                 ],
                 [
+                    33,
+                    "Worry Seed"
+                ],
+                [
                     38,
                     "Crunch"
                 ],
@@ -258997,39 +253666,15 @@ backup_data = {
                 ],
                 [
                     48,
-                    "Solar Beam"
+                    "Energy Ball"
                 ]
             ],
             "tms":
             [
                 "Bullet Seed",
-                "Crunch",
-                "Endeavor",
-                "Endure",
-                "Energy Ball",
-                "Facade",
-                "Giga Drain",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Helping Hand",
-                "Leaf Storm",
+                "Hidden Power",
                 "Magical Leaf",
-                "Protect",
-                "Rest",
-                "Sandstorm",
-                "Seed Bomb",
-                "Sleep Talk",
-                "Solar Beam",
-                "Stomping Tantrum",
-                "Substitute",
-                "Sunny Day",
-                "Super Fang",
-                "Take Down",
-                "Tera Blast",
-                "Thief",
-                "Trailblaze",
-                "Zen Headbutt"
+                "Solar Beam"
             ],
             "tutors":
             [
@@ -259049,7 +253694,7 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
+                    1,
                     "Flamethrower"
                 ],
                 [
@@ -259098,7 +253743,11 @@ backup_data = {
                 ],
                 [
                     48,
-                    "Overheat"
+                    "Flamethrower"
+                ],
+                [
+                    51,
+                    "Energy Ball"
                 ],
                 [
                     55,
@@ -259107,49 +253756,21 @@ backup_data = {
                 [
                     60,
                     "Solar Beam"
+                ],
+                [
+                    65,
+                    "Overheat"
                 ]
             ],
             "tms":
             [
                 "Bullet Seed",
-                "Burning Jealousy",
-                "Crunch",
-                "Endeavor",
-                "Endure",
-                "Energy Ball",
-                "Facade",
-                "Fire Blast",
-                "Fire Fang",
                 "Flamethrower",
-                "Giga Drain",
-                "Giga Impact",
-                "Grassy Glide",
-                "Grassy Terrain",
-                "Grass Knot",
-                "Helping Hand",
-                "Hyper Beam",
-                "Lash Out",
-                "Leaf Storm",
+                "Hidden Power",
                 "Magical Leaf",
-                "Overheat",
-                "Protect",
-                "Rest",
-                "Sandstorm",
-                "Scary Face",
-                "Seed Bomb",
-                "Sleep Talk",
                 "Solar Beam",
-                "Stomping Tantrum",
-                "Substitute",
-                "Sunny Day",
-                "Super Fang",
-                "Take Down",
                 "Temper Flare",
-                "Tera Blast",
-                "Thief",
-                "Trailblaze",
-                "Will-O-Wisp",
-                "Zen Headbutt"
+                "Will-O-Wisp"
             ],
             "tutors":
             [
@@ -259157,13 +253778,7 @@ backup_data = {
                 "Headbutt"
             ],
             "egg":
-            [
-                "Ingrain",
-                "Leech Seed",
-                "Rage Powder",
-                "Rollout",
-                "Worry Seed"
-            ]
+            []
         },
         "rellor":
         {
@@ -260258,7 +254873,6 @@ backup_data = {
                 "Air Cutter",
                 "Air Slash",
                 "Brave Bird",
-                "Curse",
                 "Dark Pulse",
                 "Drill Run",
                 "Dual Wingbeat",
@@ -260621,7 +255235,6 @@ backup_data = {
                 "Acid Spray",
                 "Body Slam",
                 "Bulldoze",
-                "Curse",
                 "Double-Edge",
                 "Endure",
                 "Facade",
@@ -260743,7 +255356,6 @@ backup_data = {
                 "Acid Spray",
                 "Body Slam",
                 "Bulldoze",
-                "Curse",
                 "Double-Edge",
                 "Endeavor",
                 "Endure",
@@ -260981,7 +255593,6 @@ backup_data = {
                 "Body Press",
                 "Body Slam",
                 "Bulldoze",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Earthquake",
@@ -261021,7 +255632,6 @@ backup_data = {
             "egg":
             [
                 "Coil",
-                "Curse",
                 "Metal Burst"
             ]
         },
@@ -261695,7 +256305,6 @@ backup_data = {
                 "Bulldoze",
                 "Charm",
                 "Chilling Water",
-                "Curse",
                 "Double-Edge",
                 "Earthquake",
                 "Endure",
@@ -261810,7 +256419,6 @@ backup_data = {
                 "Bulldoze",
                 "Charm",
                 "Chilling Water",
-                "Curse",
                 "Double-Edge",
                 "Earthquake",
                 "Endure",
@@ -262038,7 +256646,6 @@ backup_data = {
                 "Bulldoze",
                 "Chilling Water",
                 "Crunch",
-                "Curse",
                 "Double-Edge",
                 "Earthquake",
                 "Endure",
@@ -262069,7 +256676,6 @@ backup_data = {
             [],
             "egg":
             [
-                "Curse",
                 "Fissure",
                 "Thrash",
                 "Yawn"
@@ -262258,7 +256864,6 @@ backup_data = {
                 "Bulldoze",
                 "Close Combat",
                 "Coaching",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Drain Punch",
@@ -262322,7 +256927,6 @@ backup_data = {
             [
                 "Beat Up",
                 "Counter",
-                "Curse",
                 "Encore",
                 "Night Slash",
                 "Spite"
@@ -262333,12 +256937,8 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Amnesia"
-                ],
-                [
                     1,
-                    "Amnesia"
+                    "Spikes"
                 ],
                 [
                     1,
@@ -262347,10 +256947,6 @@ backup_data = {
                 [
                     1,
                     "Tail Whip"
-                ],
-                [
-                    4,
-                    "Toxic Spikes"
                 ],
                 [
                     8,
@@ -262370,11 +256966,11 @@ backup_data = {
                 ],
                 [
                     24,
-                    "Poison Jab"
+                    "Bulldoze"
                 ],
                 [
                     30,
-                    "Sludge Wave"
+                    "Poison Jab"
                 ],
                 [
                     36,
@@ -262387,85 +256983,35 @@ backup_data = {
                 [
                     48,
                     "Earthquake"
+                ],
+                [
+                    55,
+                    "Recover"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Amnesia",
                 "Body Press",
-                "Body Slam",
-                "Bulldoze",
-                "Chilling Water",
-                "Curse",
-                "Dig",
-                "Double-Edge",
                 "Earthquake",
                 "Earth Power",
-                "Endure",
-                "Facade",
-                "Giga Impact",
-                "Gunk Shot",
-                "Haze",
                 "Heavy Slam",
-                "Helping Hand",
-                "High Horsepower",
-                "Hydro Pump",
-                "Hyper Beam",
-                "Iron Head",
-                "Liquidation",
-                "Low Kick",
-                "Muddy Water",
-                "Mud Shot",
-                "Mud-Slap",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
-                "Rain Dance",
-                "Rest",
+                "Hidden Power",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Sandstorm",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Spikes",
-                "Stealth Rock",
-                "Stomping Tantrum",
-                "Stone Edge",
-                "Substitute",
                 "Surf",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
-                "Toxic Spikes",
-                "Trailblaze",
                 "Venoshock",
-                "Waterfall",
-                "Water Pulse",
-                "Zen Headbutt"
+                "Waterfall"
             ],
             "tutors":
             [
                 "Headbutt",
-                "Rock Slide",
                 "Poison Jab"
             ],
             "egg":
-            [
-                "Acid Spray",
-                "After You",
-                "Ancient Power",
-                "Counter",
-                "Curse",
-                "Double Kick",
-                "Haze",
-                "Mist",
-                "Recover",
-                "Spit Up",
-                "Stockpile",
-                "Swallow"
-            ]
+            []
         },
         "farigiraf":
         {
@@ -262547,7 +257093,6 @@ backup_data = {
                 "Charge Beam",
                 "Confuse Ray",
                 "Crunch",
-                "Curse",
                 "Dazzling Gleam",
                 "Double-Edge",
                 "Earthquake",
@@ -262704,7 +257249,6 @@ backup_data = {
                 "Bulldoze",
                 "Calm Mind",
                 "Chilling Water",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Dragon Tail",
@@ -262775,7 +257319,6 @@ backup_data = {
                 "Aqua Tail",
                 "Astonish",
                 "Bite",
-                "Curse",
                 "Headbutt",
                 "Last Resort"
             ]
@@ -263539,7 +258082,6 @@ backup_data = {
                 "Bug Buzz",
                 "Bulk Up",
                 "Close Combat",
-                "Curse",
                 "Double-Edge",
                 "Dual Wingbeat",
                 "Earthquake",
@@ -264445,7 +258987,6 @@ backup_data = {
                 "Charge",
                 "Charge Beam",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Dragon Claw",
@@ -266521,7 +261062,6 @@ backup_data = {
             "tms":
             [
                 "Calm Mind",
-                "Curse",
                 "Endure",
                 "Energy Ball",
                 "Foul Play",
@@ -266620,7 +261160,6 @@ backup_data = {
             "tms":
             [
                 "Calm Mind",
-                "Curse",
                 "Endure",
                 "Energy Ball",
                 "Foul Play",
@@ -266717,7 +261256,6 @@ backup_data = {
                 "Bulk Up",
                 "Close Combat",
                 "Crunch",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Drain Punch",
@@ -267164,114 +261702,82 @@ backup_data = {
             "ls":
             [
                 [
-                    0,
-                    "Electro Shot"
-                ],
-                [
                     1,
-                    "Leer"
+                    "Electro Shot"
                 ],
                 [
                     1,
                     "Metal Claw"
                 ],
                 [
+                    1,
+                    "Leer"
+                ],
+                [
                     6,
                     "Rock Smash"
                 ],
                 [
-                    12,
-                    "Hone Claws"
+                    13,
+                    "Mirror Coat"
                 ],
                 [
-                    18,
-                    "Metal Sound"
-                ],
-                [
-                    24,
+                    20,
                     "Breaking Swipe"
                 ],
                 [
-                    30,
+                    27,
                     "Dragon Tail"
                 ],
                 [
-                    36,
-                    "Iron Defense"
+                    34,
+                    "Iron Head"
                 ],
                 [
-                    42,
-                    "Focus Energy"
+                    41,
+                    "Metal Sound"
                 ],
                 [
                     48,
-                    "Dragon Claw"
+                    "Dragon Pulse"
                 ],
                 [
-                    54,
-                    "Flash Cannon"
-                ],
-                [
-                    60,
+                    55,
                     "Metal Burst"
                 ],
                 [
-                    66,
-                    "Hyper Beam"
+                    65,
+                    "Flash Cannon"
+                ],
+                [
+                    72,
+                    "Draco Meteor"
+                ],
+                [
+                    76,
+                    "Electro Shot"
                 ]
             ],
             "tms":
             [
-                "Aura Sphere",
                 "Body Press",
                 "Body Slam",
                 "Breaking Swipe",
-                "Brick Break",
                 "Dark Pulse",
-                "Double-Edge",
-                "Draco Meteor",
-                "Dragon Cheer",
                 "Dragon Claw",
                 "Dragon Pulse",
                 "Dragon Tail",
                 "Earthquake",
-                "Endure",
                 "Facade",
                 "Flash Cannon",
-                "Foul Play",
-                "Giga Impact",
-                "Gyro Ball",
-                "Hard Press",
                 "Heavy Slam",
-                "Hyper Beam",
-                "Iron Defense",
-                "Iron Head",
-                "Light Screen",
-                "Metal Claw",
-                "Metal Sound",
-                "Meteor Beam",
-                "Outrage",
-                "Protect",
-                "Reflect",
-                "Rest",
-                "Roar",
+                "Hidden Power",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Scary Face",
-                "Sleep Talk",
-                "Smack Down",
-                "Snarl",
+                "Smart Strike",
                 "Solar Beam",
-                "Stealth Rock",
-                "Steel Beam",
-                "Stone Edge",
-                "Substitute",
-                "Swords Dance",
-                "Take Down",
-                "Tera Blast",
-                "Thunder",
-                "Thunderbolt",
-                "Thunder Wave"
+                "Thunderbolt"
             ],
             "tutors":
             [],
@@ -267366,7 +261872,6 @@ backup_data = {
                 "Breaking Swipe",
                 "Bug Bite",
                 "Bullet Seed",
-                "Curse",
                 "Double-Edge",
                 "Draco Meteor",
                 "Dragon Cheer",
@@ -268106,7 +262611,6 @@ backup_data = {
             "tms":
             [
                 "Acid Spray",
-                "Curse",
                 "Endure",
                 "Fake Tears",
                 "Foul Play",
@@ -268202,7 +262706,6 @@ backup_data = {
                 "Bulk Up",
                 "Bulldoze",
                 "Close Combat",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Drill Run",
@@ -268243,7 +262746,6 @@ backup_data = {
             [],
             "egg":
             [
-                "Curse",
                 "Endeavor"
             ]
         },
@@ -268315,7 +262817,6 @@ backup_data = {
                 "Bulk Up",
                 "Bulldoze",
                 "Close Combat",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Drill Run",
@@ -268362,7 +262863,6 @@ backup_data = {
             [],
             "egg":
             [
-                "Curse",
                 "Endeavor"
             ]
         },
@@ -268435,7 +262935,6 @@ backup_data = {
                 "Bulldoze",
                 "Chilling Water",
                 "Close Combat",
-                "Curse",
                 "Dig",
                 "Double-Edge",
                 "Drill Run",
@@ -268478,7 +262977,6 @@ backup_data = {
             [],
             "egg":
             [
-                "Curse",
                 "Endeavor"
             ]
         },
@@ -268488,23 +262986,23 @@ backup_data = {
             [
                 [
                     1,
-                    "Tail Whip"
+                    "Spikes"
                 ],
                 [
                     1,
-                    "Mud Shot"
+                    "Poison Sting"
                 ],
                 [
-                    4,
-                    "Tackle"
+                    1,
+                    "Tail Whip"
                 ],
                 [
                     8,
-                    "Poison Tail"
+                    "Mud Shot"
                 ],
                 [
                     12,
-                    "Toxic Spikes"
+                    "Poison Tail"
                 ],
                 [
                     16,
@@ -268516,83 +263014,56 @@ backup_data = {
                 ],
                 [
                     24,
+                    "Bulldoze"
+                ],
+                [
+                    30,
                     "Poison Jab"
                 ],
                 [
-                    28,
-                    "Sludge Wave"
-                ],
-                [
-                    32,
-                    "Amnesia"
-                ],
-                [
                     36,
-                    "Toxic"
+                    "Megahorn"
                 ],
                 [
                     40,
+                    "Toxic"
+                ],
+                [
+                    48,
                     "Earthquake"
+                ],
+                [
+                    55,
+                    "Recover"
                 ]
             ],
             "tms":
             [
-                "Acid Spray",
-                "Amnesia",
                 "Body Press",
-                "Body Slam",
-                "Bulldoze",
-                "Chilling Water",
-                "Curse",
-                "Dig",
-                "Double-Edge",
                 "Earthquake",
                 "Earth Power",
-                "Endure",
-                "Facade",
-                "Gunk Shot",
-                "Haze",
-                "Helping Hand",
-                "Hydro Pump",
-                "Liquidation",
-                "Low Kick",
-                "Mud Shot",
-                "Mud-Slap",
-                "Poison Jab",
-                "Poison Tail",
-                "Protect",
-                "Rain Dance",
-                "Rest",
+                "Heavy Slam",
+                "Hidden Power",
                 "Rock Slide",
+                "Rock Smash",
                 "Rock Tomb",
-                "Sandstorm",
-                "Sleep Talk",
                 "Sludge Bomb",
-                "Sludge Wave",
-                "Spikes",
-                "Stealth Rock",
-                "Stomping Tantrum",
-                "Stone Edge",
-                "Substitute",
                 "Surf",
-                "Take Down",
-                "Tera Blast",
                 "Toxic",
-                "Toxic Spikes",
-                "Trailblaze",
                 "Venoshock",
-                "Waterfall",
-                "Water Pulse"
+                "Waterfall"
             ],
             "tutors":
-            [],
+            [
+                "Headbutt",
+                "Poison Jab"
+            ],
             "egg":
             [
                 "Acid Spray",
                 "After You",
                 "Ancient Power",
                 "Counter",
-                "Curse",
                 "Double Kick",
                 "Haze",
                 "Mist",

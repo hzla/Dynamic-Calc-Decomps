@@ -414,7 +414,7 @@ function loadPoksData() {
     if (pokName == "Farfetch’d" && !poksData["Farfetch’d"]) {
       jsonPok = poksData["Farfetch'd"] || poksData["farfetchd"] ;
     }
-    else if (poksData[pokName]) {
+    else if (poksData[pokName] || poksData[pokId]) {
         jsonPok = poksData[pokId] || poksData[pokName] 
     } else {           
        continue //skip weird smogon pokemon and arceus forms
