@@ -195,15 +195,15 @@ function buildTrainerSpriteSrc(trainer) {
   // In your trainer objects you have: tr_sprite: "trainer_sprites/teamplasma.png"
   // Your HTML sample used "/img/trainer_sprites/bianca.png"
   const raw = trainer?.tr_sprite ?? "";
-  if (!raw) return `/img/trainer_sprites/unknown.png`;
+  if (!raw) return `./img/trainer_sprites/unknown.png`;
 
   // if already looks like a path fragment
   if (raw.startsWith("/img/")) return raw;
-  if (raw.startsWith("trainer_sprites/")) return `/img/${raw}`;
+  if (raw.startsWith("trainer_sprites/")) return `./img/${raw}`;
   if (raw.startsWith("/")) return raw;
 
   // fallback
-  return `/img/${raw}`;
+  return `./img/${raw}`;
 }
 
 /* ---------------------------- encounter rendering -------------------------- */
