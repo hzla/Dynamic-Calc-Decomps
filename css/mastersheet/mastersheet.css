@@ -14,11 +14,22 @@
 
 .master-sidebar.pokemon-filter {
 	background: rgba(255,255,255,0.05);
-	display: flex;
-    flex-wrap: wrap;
     padding-top: 0px;
     max-height: 100vh;
-    height: auto;
+    padding: 0px;
+    display: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+}
+
+#toc {
+	position: fixed;
+	left: 0;
+	top: 44px;
+	width: 20vw;
+	overflow: scroll;
+	height: calc(100vh - 44px);
 }
 
 #mastersheet .filterable, #mastersheet .expanded-card-content {
@@ -187,6 +198,11 @@
 #mastersheet .trainer-doc-item {
 	width: 160px;
 	margin-bottom: 10px;
+}
+
+.trainer-doc-item .trpok-item-info {
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	width: 100%;
 }
 
 #mastersheet .expanded-field.filterable.ms-trainer {
@@ -360,7 +376,7 @@
 	font-size: 28px;
 	margin: 20px 0px;
 	padding-left: 20px;
-	color: bd93f9;
+	color: #bd93f9;
 }
 
 .toc-item {
@@ -369,17 +385,30 @@
 }
 
 .master-sidebar.pokemon-filter > .filter-title {
-    width: 50%;
-    margin: 0;
-    margin-bottom: 20px;
+    width: 10vw;
     cursor: pointer;
-    height: 70px;
+    height: 44px;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    line-height: 44px;
+    padding: 0;
+}
+
+.master-sidebar.pokemon-filter > .dex-tab {
+	left: 10vw;
 }
 
 .master-sidebar .filter-title.active {
     background: #bd93f9;
     color: #f2f2f2;
 }
+
+.master-sidebar .filter-title:hover {
+    text-decoration: underline;
+}
+
+
 
 
 

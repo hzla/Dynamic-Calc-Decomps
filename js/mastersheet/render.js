@@ -40,6 +40,7 @@ function renderMasterData(masterData, trainersById, encountersById) {
         break;
 
       case "h1":
+      case "h2":
       case "h3":
       case "h4":
       case "p":
@@ -319,13 +320,14 @@ function loadDex(url) {
   // Set iframe properties
   iframe.src = `https://ddex-chi.vercel.app/${url}`;
   iframe.style.position = 'fixed';
-  iframe.style.top = '0%';
+  iframe.style.top = '44px';
   iframe.style.left = '0%';
   iframe.style.width = '20vw';
-  iframe.style.height = '100vh';
+  iframe.style.height = 'calc(100vh - 44px)';
   iframe.style.border = '2px solid #333';
   iframe.style.zIndex = '999999';
   iframe.style.boxShadow = '0 4px 20px rgba(0,0,0,0.3)';
+  iframe.style.display = 'none';
 
   // Add elements to page
   document.body.appendChild(iframe);
@@ -338,7 +340,45 @@ function extractPokemonName(str) {
 
 function loadDexPage(collection, speciesName) {
   $('iframe').remove()
+  $('#toc').hide()
+  $('.filter-title').removeClass('active')
+  $('.dex-tab').addClass('active')
   loadDex(`${collection}/${speciesName}`)
+  $('iframe').show()
+}
+
+function constructToc() {
+
+  var tocCounter = 0
+
+ $('h1, h2').each(function() {
+      // Get the text of the current element
+      if (tocCounter == 0) {
+        tocCounter += 1
+        return 
+      }
+      var text = $(this).text();
+
+      console.log(text)
+
+      // Transform the text
+      var dataLink = text.trim().toLowerCase() // Convert to lowercase
+          .replace(/[^a-z0-9\s-]/g, '') // Remove special punctuation
+          .replace(/\s+/g, '-') // Replace spaces with dashes
+          .trim(); // Remove leading/trailing spaces
+
+      // Set the data-link attribute
+      $(this).attr('data-link', dataLink);
+
+      // add line to table of contents
+      var tocHTML = ""
+      if ($(this).is('h1')) {
+        tocHTML = `<div class='toc-header' data-link='${dataLink}'>${text}</div>`
+      } else {
+        tocHTML = `<div class='toc-item' data-link='${dataLink}'>${text}</div>`
+      }
+      $('#toc').append(tocHTML)
+  });
 }
 
 /* ------------------------------ safety helpers ---------------------------- */
@@ -366,6 +406,8 @@ function sanitizeUrl(url) {
 
 $(document).ready(function() {
     document.querySelector("#mastersheet").innerHTML = renderMasterData(masterData, trainersById, encountersById);
+    constructToc()
+
     loadDex("?game=vintagewhiteplus")
 
     $('.doc-sprite, .doc-species').click(function() {
@@ -400,6 +442,41 @@ $(document).ready(function() {
       let speciesName = cleanString($(this).attr('data-species-name'))
       loadDexPage("pokemon", speciesName)
     })
+
+    $('.dex-tab').click(function() {
+      $('iframe').show()
+      $('#toc').hide()
+      $('.filter-title').removeClass('active')
+      $(this).addClass('active')
+
+    })
+
+    $('.toc-tab').click(function() {
+      $('iframe').hide()
+      $('#toc').show()
+      $('.filter-title').removeClass('active')
+      $(this).addClass('active')
+    })
+
+    $('#toc div').on('click', function(event) {
+        event.preventDefault(); // Prevent default action, like link navigation
+
+        // Get the value of the data-link attribute from the clicked element
+        var targetDataLink = $(this).attr('data-link');
+
+        // Find the target element with the matching data-link attribute
+        
+
+        var targetElement = $('#mastersheet').find('[data-link="' + targetDataLink + '"]').first();
+
+        if (targetElement.length) {
+            // Scroll to the target element
+            $('#content-container').scrollTop(0)
+            $('#content-container').scrollTop( targetElement.offset().top)
+        } else {
+            console.log('Target element with data-link="' + targetDataLink + '" not found.');
+        }
+    });
 
 })
 
