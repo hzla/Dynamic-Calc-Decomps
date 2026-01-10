@@ -390,6 +390,12 @@ $(document).ready(function() {
       loadDexPage("items", itemName)
     })
 
+    $('.doc-enc').click(function() {
+      let encName = cleanString($(this).find('.encounter-locations').text())
+      console.log(encName)
+      loadDexPage("encounters", encName)
+    })
+
     $('.wild').click(function() {
       let speciesName = cleanString($(this).attr('data-species-name'))
       loadDexPage("pokemon", speciesName)
