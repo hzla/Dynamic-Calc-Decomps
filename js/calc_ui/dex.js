@@ -56,8 +56,6 @@ $(document).ready(function() {
 	 })
 
 	 if ($('#open-dex:visible').length > 0) {
-
-
 	 	$('#p1 .poke-sprite').click(function() {
 	 		var dexPok = $(this).attr('src').split("/")[3].split(".")[0]
 	 		console.log(dexPok)
