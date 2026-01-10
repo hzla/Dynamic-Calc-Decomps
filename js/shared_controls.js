@@ -712,6 +712,8 @@ $(".set-selector").change(function () {
 					
 					let orderInfo = emImpOrders[CURRENT_TRAINER_POKS.find(str => str.includes("[0]")).split("[")[0]]
 
+
+
 					if (orderInfo) {
 						if (orderInfo.next) {
 							$(".nav-tag.next").attr('data-next', orderInfo.next).show()
@@ -722,6 +724,24 @@ $(".set-selector").change(function () {
 					} else {
 						$('.nav-tag.next, .nav-tag.prev').hide()
 					}	
+				}
+
+				if (npoint_data.order) {
+					let next = null
+					let prev = null
+
+					if (npoint_data.order[setdex[pokemonName][setName]["tr_id"]]) {
+						next = npoint_data.order[setdex[pokemonName][setName]["tr_id"]].next
+						prev = npoint_data.order[setdex[pokemonName][setName]["tr_id"]].prev
+					}
+
+					if (next) {
+						$(".nav-tag.next").attr('data-next', next).show()
+					}
+
+					if (prev) {
+						$(".nav-tag.prev").attr('data-next', prev).show()
+					}
 				}
 
 				if (setdex[pokemonName][setName]["partner"]) {

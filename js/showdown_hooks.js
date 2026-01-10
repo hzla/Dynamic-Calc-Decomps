@@ -103,7 +103,12 @@ $(document).ready(function() {
    })
    
    $(document).on('click', '.nav-tag', function() {
-        var set = $(this).attr('data-next')
+        var set = ""
+        if (TITLE.includes("Imperium")) {
+            set = $(this).attr('data-next')
+        } else {
+            set = customLeads[$(this).attr('data-next')].split("[")[0]
+        }
 
         $("#weather-bar label").first().click()
 

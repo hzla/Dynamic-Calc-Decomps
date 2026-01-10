@@ -571,7 +571,8 @@ var SS = SM.concat([
     "Tera Drill",
     "Tera Leftovers",
     "Tera Dice",
-    "Tera K-Rock"
+    "Tera K-Rock",
+    "Attack Insurance"
 ]);
 
 for (var i = 0; i < 100; i++) {

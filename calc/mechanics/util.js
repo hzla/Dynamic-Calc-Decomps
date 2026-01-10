@@ -157,7 +157,12 @@ function getFinalSpeed(gen, pokemon, field, side) {
         speedMods.push(6144);
     }
     else if (pokemon.hasAbility('Quick Feet') && pokemon.status) {
-        speedMods.push(8192);
+        if (settings.damageGen <= 5) {
+            speedMods.push(6144);
+        } else {
+            speedMods.push(8192);
+        }
+        
     }
     else if (pokemon.hasAbility('Slow Start') && pokemon.abilityOn) {
         speedMods.push(2048);
@@ -246,18 +251,19 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
                     return 0.5
                 }
             }
-        }
-        return effectiveness;
-    }
+            console.log(move.name)
+            console.log(type)
+            if (move.named("Sky Uppercut") && type === "Flying") {
 
-    if (TITLE == "Cascade White 2") {
-        if (move.named("Sky Uppercut") && type === "Flying") {
-            return 2;
-        } else if (move.named("Sacred Sword", "Relic Song") && type == "Ghost") {
-            return 1;
-        } else if (move.named("Chip Away")) {
-            return 1;
+                return 2;
+            } else if (move.named("Sacred Sword", "Relic Song") && type == "Ghost") {
+                return 1;
+            } else if (move.named("Chip Away")) {
+                return 1;
+            }
         }
+        
+        return effectiveness;
     }
 }
 exports.getMoveEffectiveness = getMoveEffectiveness;

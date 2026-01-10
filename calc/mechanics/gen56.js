@@ -491,7 +491,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         
         desc.defenderAbility = defender.ability;
     }
-    else if (TITLE == "Cascade White 2") {
+    if (TITLE == "Cascade White 2") {
         if (defender.hasAbility("Slush Rush") && move.hasType("Ice")) {
             bpMods.push(2048);
         } else if (defender.hasAbility("Swift Swim") && move.hasType("Water")) {
@@ -510,7 +510,13 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             bpMods.push(2048);
         } else if (defender.hasAbility("Solid Rock", "Filter") && typeEffectiveness > 2) {
             bpMods.push(3072);
-        } else if (attacker.hasAbility("Normalize") || hasAteTypeChange) {
+        } else if (defender.hasAbility("Merciless") && attacker.status) {
+            console.log(`${attacker.name} ${attacker.status}`)
+            console.log(move.name)
+            bpMods.push(3072);
+        }
+
+        if (attacker.hasAbility("Normalize") || hasAteTypeChange) {
             bpMods.push(4915);
         } else if (attacker.hasAbility("Moisturize") && isMoisturize) {
             bpMods.push(4915)
@@ -522,8 +528,6 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             bpMods.push(4915);
         } else if (attacker.hasAbility("Merciless") && defender.status) {
             bpMods.push(5120);
-        } else if (defender.hasAbility("Merciless") && attacker.status) {
-            bpMods.push(4072);
         } else if (attacker.hasAbility("Hyper Cutter") && (move.flags.slicing || move.flags.claw)) {
             bpMods.push(5325);
         } else if ((attacker.hasAbility('Overgrow') && move.hasType('Grass')) ||
@@ -541,10 +545,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             bpMods.push(8192);
         } else if (attacker.hasItem('Light Ball') && attacker.name.startsWith('Eevee')) {
             bpMods.push(8192);
-        } 
- 
+        }  
     }
-    else if (defender.hasAbility('Dry Skin') && move.hasType('Fire')) {
+    if (defender.hasAbility('Dry Skin') && move.hasType('Fire')) {
         if (TITLE == "Cascade White 2") {
             bpMods.push(8192)
         } else {
@@ -556,25 +559,29 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         bpMods.push(5325);
         desc.attackerAbility = attacker.ability;
     }
-    if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N')) {
-        if (attacker.gender === defender.gender) {
-            if (TITLE == "Cascade White 2") {
-                bpMods.push(5448);
-            } else {
+    if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N') && TITLE != "Cascade White 2") {
+    
+            if (attacker.gender === defender.gender) {
                 bpMods.push(5120);
-            }   
-            desc.rivalry = 'buffed';
-        }
-        else {
-            if (TITLE == "Cascade White 2") {
-                bpMods.push(2744);
-            } else {
+                desc.rivalry = 'buffed';
+            }
+            else {
                 bpMods.push(3072);
-            }   
-            desc.rivalry = 'nerfed';
-        }
+                desc.rivalry = 'nerfed';
+            }    
         desc.attackerAbility = attacker.ability;
-     }
+    }
+
+    if (attacker.hasAbility('Rivalry') && TITLE == "Cascade White 2") {
+            var commonTypes = attacker.types.some(element => defender.types.includes(element));
+            console.log(commonTypes)
+            if (commonTypes) {
+                bpMods.push(5448);
+                desc.rivalry = 'buffed';
+            }  
+        desc.attackerAbility = attacker.ability;
+    }
+
     if (attacker.item && (0, items_1.getItemBoostType)(attacker.item) === move.type) {
         if (attacker.item.includes("Plate") && TITLE == "Cascade White 2") {
             bpMods.push(5529);
@@ -621,8 +628,12 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.weather = field.weather;
     }
     if (field.attackerSide.isHelpingHand) {
-        
-        bpMods.push(6144);
+        if (TITLE == "Cascade White 2") {
+            bpMods.push(8192);
+        } else {
+            bpMods.push(6144);            
+        }
+
         desc.isHelpingHand = true;
     }
     if (field.attackerSide.is10Buff) {
@@ -874,7 +885,6 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     } else {
 
     }
-    console.log(`${attacker.name}: ${delta}`)
 
 
     var baseDamage = (0, util_2.getBaseDamage)(attacker.level + delta, basePower, attack, defense);
@@ -961,6 +971,14 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     if (defender.hasAbility('Fluffy') && move.flags.contact && !attacker.hasAbility('Long Reach')) {
         finalMods.push(2048);
         desc.defenderAbility = defender.ability;
+    }
+    if (defender.hasAbility('Rivalry') && TITLE == "Cascade White 2") {
+            var commonTypes = attacker.types.some(element => defender.types.includes(element));
+            if (commonTypes) {
+                finalMods.push(2744);
+                desc.rivalry = 'buffed';
+            }  
+        desc.attackerAbility = attacker.ability;
     }
     if (defender.hasAbility('Fluffy') && move.hasType('Fire')) {
         finalMods.push(8192);

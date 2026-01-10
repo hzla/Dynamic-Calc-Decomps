@@ -83,8 +83,11 @@ function performCalculations() {
 		
 
 		$(resultLocations[0][i].damage).text(result.moveDesc(notation));
-
-		if (["Avalanche", "Payback", "Assurance", "Revenge", "Retaliate", "Stomping Tantrum"].indexOf(p1.moves[i].name) != -1) {
+		var doublePowerMoves = ["Avalanche", "Payback", "Assurance", "Revenge", "Retaliate", "Stomping Tantrum"]
+		if (TITLE == "Cascade White 2") {
+			doublePowerMoves = doublePowerMoves.concat(["Thrash", "Temper Flare", "Seething Cold", "Uproar"])
+		}
+		if (doublePowerMoves.indexOf(p1.moves[i].name) != -1) {
 			$(resultLocations[0][i].damage).text(result.moveDesc(notation) + " (can double power)");
 		}
 
@@ -104,7 +107,7 @@ function performCalculations() {
 
 		var dmgInfo = $(resultLocations[1][i].damage).text()
 
-		if (["Avalanche", "Payback", "Assurance", "Revenge", "Retaliate", "Stomping Tantrum"].indexOf(p2.moves[i].name) != -1) {
+		if (doublePowerMoves.indexOf(p2.moves[i].name) != -1) {
 			$(resultLocations[1][i].damage).text($(resultLocations[1][i].damage).text()+ " (can double power)");
 		}
 
