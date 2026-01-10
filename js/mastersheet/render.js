@@ -188,7 +188,7 @@ function buildTrainerDisplayName(trainer) {
   const cls = trainer?.class ? escapeHtml(String(trainer.class)) : "Trainer";
   // If you have a separate name field, use it. Otherwise, just class.
   const name = trainer?.name ? escapeHtml(String(trainer.name)) : cls;
-  return `PkMn ${escapeHtml("Trainer")} ${name}`;
+  return `${cls} ${name}`;
 }
 
 function buildTrainerSpriteSrc(trainer) {
