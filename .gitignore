@@ -1,5 +1,4 @@
 /node_modules
 *sheet_files/
-*sheet.html
 cypress/screenshots
 tools
