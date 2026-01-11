@@ -436,6 +436,8 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="") {
 	let resultText = $(`#resultDamage${isPlayer ? 'L' : 'R'}${moveIndex}`)
 
 
+
+
 	
 
 
@@ -986,9 +988,35 @@ $(".set-selector").change(function () {
 	}
 	lastSetName = fullSetName
 
+
+
 	// end = performance.now()
 	// console.log(`Execution time: ${end - start} ms`);
 });
+
+function highlightMoves() {
+	if (localStorage.highlightMoves == '1') {
+		let p1Hp = parseInt($('#p1 .percent-hp').val())
+		let critMult = settings.critGen > 5 ? 1.5 : 2
+		if (localStorage.highlightMoves) {
+			for (let idx of [1,2,3,4]) {
+				let resultText = $(`#resultDamageR${idx}`).text()
+				$(`#resultDamageR${idx}`).css('border', '')
+				if (resultText.includes(" - ")) {
+					let highRoll = parseInt(resultText.split(" - ")[1].replace("%", ""))
+
+					if (highRoll * critMult >= p1Hp) {
+						$(`#resultDamageR${idx}`).css('border', '1px solid rgba(241,250,140,0.8)')
+					} 
+					if (highRoll >= p1Hp) {
+						$(`#resultDamageR${idx}`).css('border', '1px solid rgba(255,85,85,0.8)')
+					} 
+				}
+			}
+		}	
+	}
+	
+}
 
 function formatMovePool(moves) {
 	var formatted = [];

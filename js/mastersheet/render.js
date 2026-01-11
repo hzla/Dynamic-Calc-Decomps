@@ -149,6 +149,7 @@ function renderTrainerDocs(trainer) {
     const speciesRaw = trainer[`species_id_${slot}`] ?? ""; // e.g. "CHIMECHO"
     const rawSpeciesId = trainer[`raw_species_id_${slot}`]; // numeric dex id if present
     const level = trainer[`level_${slot}`] ?? "";
+    const item = trainer[`item_id_${slot}`] ?? "";
     const nature = trainer[`nature_${slot}`] ?? "";
     const abilityName = trainer[`ability_name_${slot}`] ?? "";
 
@@ -164,9 +165,9 @@ function renderTrainerDocs(trainer) {
       String(rawSpeciesId ?? "")
     )}">Lv ${escapeHtml(String(level))} ${escapeHtml(displaySpecies)}</div>\n`;
 
-    html += `      <div class="trpok-item-info">-</div>\n`;
+    html += `      <div class="trpok-item-info doc-held-item">${item}</div>\n`;
 
-    html += `      <div class="trpok-item-info doc-held-item">\n        ${escapeHtml(String(nature))} \n      </div>\n`;
+    html += `      <div class="trpok-item-info">\n        ${escapeHtml(String(nature))} \n      </div>\n`;
     html += `      <div class="trpok-item-info doc-ab">\n        ${escapeHtml(String(abilityName))}\n      </div>\n`;
     html += `      <br>\n\n`;
 

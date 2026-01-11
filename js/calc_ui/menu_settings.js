@@ -30,7 +30,11 @@ function setSettingsDefaults() {
   }
 
   if (typeof localStorage.showAdditionalFieldOptions === 'undefined') {
-    localStorage.boxspriteindex = 0
+    localStorage.showAdditionalFieldOptions = 0
+  }
+
+  if (typeof localStorage.highlightMoves === 'undefined') {
+    localStorage.highlightMoves = 0
   }
 
   if (typeof localStorage.switchInfo === 'undefined') {
@@ -139,6 +143,9 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.switchInfo == '1') {
         $('#toggle-switch-info input').prop('checked', true)
     }
+    if (localStorage.highlightMoves == '1') {
+        $('#toggle-hl-moves input').prop('checked', true)
+    }
 }
 
 function toggleBoxSpriteStyle() {
@@ -189,6 +196,10 @@ $('#toggle-boxroll .slider').click(function(){
 $('#toggle-battle-notes .slider').click(function(){
     localStorage.battlenotes = (parseInt(localStorage.battlenotes) + 1) % 2   
     $('.poke-import').first().toggle()
+})
+
+$('#toggle-hl-moves .slider').click(function(){
+    localStorage.highlightMoves = (parseInt(localStorage.highlightMoves) + 1) % 2   
 })
 
 $('#toggle-additional-field-options').click(function(){

@@ -58,6 +58,16 @@ function performCalculations() {
 
 	p2info.find(".sp .totalMod").text(p2.stats.spe);
 
+	if (p1.stats.spe > p2.stats.spe) {
+		p1info.find(".sp .totalMod").css('color', '#8be9fd')
+		p2info.find(".sp .totalMod").css('color', '#ff5555')
+	} else {
+		p2info.find(".sp .totalMod").css('color', '#8be9fd')
+		p1info.find(".sp .totalMod").css('color', '#ff5555')
+	}
+
+
+
 
 
 	var fastestSide = p1.stats.spe > p2.stats.spe ? 0 : p1.stats.spe === p2.stats.spe ? "tie" : 1;
@@ -137,6 +147,7 @@ function performCalculations() {
 	bestResult.change();
 	$("#resultHeaderL").text(p1.name + "'s Moves (select one to show detailed results)");
 	$("#resultHeaderR").text(p2.name + "'s Moves (select one to show detailed results)");
+	highlightMoves()
 
 }
 
