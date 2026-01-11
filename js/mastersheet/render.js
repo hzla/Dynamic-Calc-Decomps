@@ -349,37 +349,108 @@ function loadDexPage(collection, speciesName) {
 }
 
 function constructToc() {
+  let tocCounter = 0;
+  const $toc = $('#toc');
+  $toc.empty(); // important if you ever reconstruct
 
-  var tocCounter = 0
+  $('h1, h2').each(function() {
+    if (tocCounter === 0) {
+      tocCounter += 1;
+      return;
+    }
 
- $('h1, h2').each(function() {
-      // Get the text of the current element
-      if (tocCounter == 0) {
-        tocCounter += 1
-        return 
-      }
-      var text = $(this).text();
+    const text = $(this).text();
 
-      console.log(text)
+    const dataLink = text.trim().toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .trim();
 
-      // Transform the text
-      var dataLink = text.trim().toLowerCase() // Convert to lowercase
-          .replace(/[^a-z0-9\s-]/g, '') // Remove special punctuation
-          .replace(/\s+/g, '-') // Replace spaces with dashes
-          .trim(); // Remove leading/trailing spaces
+    $(this).attr('data-link', dataLink);
 
-      // Set the data-link attribute
-      $(this).attr('data-link', dataLink);
+    let tocHTML = "";
+    if ($(this).is('h1')) {
+      tocHTML = `<div class="toc-header" data-link="${dataLink}">${text}</div>`;
+    } else {
+      tocHTML = `<div class="toc-item" data-link="${dataLink}">${text}</div>`;
+    }
 
-      // add line to table of contents
-      var tocHTML = ""
-      if ($(this).is('h1')) {
-        tocHTML = `<div class='toc-header' data-link='${dataLink}'>${text}</div>`
-      } else {
-        tocHTML = `<div class='toc-item' data-link='${dataLink}'>${text}</div>`
-      }
-      $('#toc').append(tocHTML)
+    $toc.append(tocHTML);
   });
+
+  // init deterministic stacking AFTER the DOM nodes exist
+  const tocEl = document.getElementById("toc");
+  tocStacking = setupStackingToc(tocEl);
+}
+
+// --- deterministic stacking controller (stable thresholds) ---
+let tocStacking = null;
+
+function setupStackingToc(tocEl) {
+  const toc = tocEl;
+  const headers = Array.from(toc.querySelectorAll(".toc-header"));
+
+  let heights = [];
+  let thresholds = [];
+
+  function recompute() {
+    // measure heights (sticky doesn't change flow height)
+    heights = headers.map(h => h.offsetHeight);
+
+    // thresholds[i] = offsetTop(header[i]) - sum(heights before i)
+    thresholds = [];
+    let pileBefore = 0;
+    for (let i = 0; i < headers.length; i++) {
+      thresholds[i] = headers[i].offsetTop - pileBefore;
+      pileBefore += heights[i];
+    }
+
+    layout();
+  }
+
+  function layout() {
+    const s = toc.scrollTop;
+    let stack = 0;
+
+    for (let i = 0; i < headers.length; i++) {
+      if (s >= thresholds[i]) {
+        headers[i].style.top = stack + "px";
+        stack += heights[i];
+      } else {
+        headers[i].style.top = "0px";
+      }
+    }
+  }
+
+  function scrollToHeader(headerEl, { smooth = true } = {}) {
+    const i = headers.indexOf(headerEl);
+    if (i === -1) return;
+
+    // Always the same target for the same header:
+    const target = thresholds[i];
+
+    toc.scrollTo({
+      top: Math.max(0, target),
+      behavior: smooth ? "smooth" : "auto",
+    });
+
+    // keep stacking in sync during smooth scroll
+    requestAnimationFrame(layout);
+  }
+
+  // wire scroll/resize
+  toc.addEventListener("scroll", layout, { passive: true });
+  window.addEventListener("resize", recompute);
+
+  // initial compute
+  recompute();
+
+  return { recompute, layout, scrollToHeader, headers };
+}
+
+function scrollTocToHeader(headerEl) {
+  if (!tocStacking) return;
+  tocStacking.scrollToHeader(headerEl, { smooth: true });
 }
 
 /* ------------------------------ safety helpers ---------------------------- */
@@ -474,10 +545,15 @@ $(document).ready(function() {
             // Scroll to the target element
             $('#content-container').scrollTop(0)
             $('#content-container').scrollTop( targetElement.offset().top)
+
+            scrollTocToHeader($(this)[0])
         } else {
             console.log('Target element with data-link="' + targetDataLink + '" not found.');
         }
     });
+
+    const toc = document.getElementById('toc');
+    window.addEventListener("resize", layoutPile);
 
 })
 

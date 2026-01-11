@@ -383,6 +383,13 @@
 	margin: 20px 0px;
 	padding-left: 20px;
 	color: #bd93f9;
+	position: sticky;
+  	top: 0;
+  	z-index: 10;
+  	/* optional: make the "stick" look nicer */
+  	/*border-bottom: 1px solid rgba(0,0,0,0.08);*/
+  	background: #282a36;
+  	border-bottom: none;
 }
 
 .toc-item {
