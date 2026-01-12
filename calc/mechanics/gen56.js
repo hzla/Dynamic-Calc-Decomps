@@ -26,7 +26,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     (0, util_2.checkDownload)(attacker, defender, field.isWonderRoom);
     (0, util_2.checkDownload)(defender, attacker, field.isWonderRoom);
 
-    if (TITLE == "Cascade White 2") {
+    if (TITLE.includes("Cascade")) {
         (0, util_2.checkCascItems)(attacker);
         (0, util_2.checkCascItems)(defender);
     }
@@ -75,7 +75,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                         : field.hasWeather('Hail') ? 'Ice'
                             : 'Normal';
 
-        if ((defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")) && TITLE == "Cascade White 2") {
+        if ((defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")) && TITLE.includes("Cascade")) {
             move.type = "Normal"
         }
         desc.weather = field.weather;
@@ -149,8 +149,8 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     var isGhostRevealed = attacker.hasAbility('Scrappy') || field.defenderSide.isForesight;
-    var isDarkRevealed = attacker.hasAbility('Inner Focus') && TITLE == "Cascade White 2"
-    var isForceNeutral = (move.named("Chip Away") || attacker.hasAbility("Normalize")) && TITLE == "Cascade White 2"
+    var isDarkRevealed = attacker.hasAbility('Inner Focus') && TITLE.includes("Cascade")
+    var isForceNeutral = (move.named("Chip Away") || attacker.hasAbility("Normalize")) && TITLE.includes("Cascade")
     gen.types.gen = settings.typeChart
     var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity);
     var type2Effectiveness = defender.types[1]
@@ -282,7 +282,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             break;
         case 'Electro Ball':
             
-            if (TITLE == "Cascade White 2") {
+            if (TITLE.includes("Cascade")) {
                 if (defender.stats.spe < attacker.stats.spe) {
                     basePower = move.bp * 2
                 } else {
@@ -297,7 +297,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.moveBP = basePower;
             break;
         case 'Gyro Ball':
-            if (TITLE == "Cascade White 2") {
+            if (TITLE.includes("Cascade")) {
                 if (defender.stats.spe > attacker.stats.spe) {
                     basePower = move.bp * 2
                 } else {
@@ -340,7 +340,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         case 'Stored Power':
         case 'Power Trip':
             var boostMult = 20
-            if (TITLE == "Cascade White 2") {
+            if (TITLE.includes("Cascade")) {
                 boostMult = 25
             }
             basePower = move.bp + boostMult * (0, util_2.countBoosts)(gen, attacker.boosts);
@@ -366,7 +366,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.moveBP = basePower;
             break;
         case 'Weather Ball':
-            basePower = move.bp * (field.weather && !(field.hasWeather('Strong Winds') && (TITLE == "Cascade White 2" && (defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella"))) ) ? 2 : 1);
+            basePower = move.bp * (field.weather && !(field.hasWeather('Strong Winds') && (TITLE.includes("Cascade") && (defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella"))) ) ? 2 : 1);
             desc.moveBP = basePower;
             break;
         case 'Fling':
@@ -449,7 +449,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         field.hasWeather('Sand') &&
         move.hasType('Rock', 'Ground', 'Steel')) {
 
-        if (TITLE == "Cascade White 2") {
+        if (TITLE.includes("Cascade")) {
             bpMods.push(5734);
         } else {
             bpMods.push(5325);
@@ -460,7 +460,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
     else if (attacker.hasAbility('Sand Force') &&
         !field.hasWeather('Sand') &&
-        move.hasType('Rock', 'Ground', 'Steel') && TITLE == "Cascade White 2") {
+        move.hasType('Rock', 'Ground', 'Steel') && TITLE.includes("Cascade")) {
 
         bpMods.push(4915);
         desc.attackerAbility = attacker.ability;
@@ -471,7 +471,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     else if ((attacker.hasAbility('Iron Fist') && move.flags.punch)) {
-        if (TITLE == "Cascade White 2") {
+        if (TITLE.includes("Cascade")) {
             bpMods.push(5325);
         } else {
             bpMods.push(4915);
@@ -483,7 +483,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
     if (defender.hasAbility('Heatproof') && move.hasType('Fire')) {
-        if (TITLE == "Cascade White 2") {
+        if (TITLE.includes("Cascade")) {
             bpMods.push(1024);
         } else {
             bpMods.push(2048);
@@ -491,7 +491,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         
         desc.defenderAbility = defender.ability;
     }
-    if (TITLE == "Cascade White 2") {
+    if (TITLE.includes("Cascade")) {
         if (defender.hasAbility("Slush Rush") && move.hasType("Ice")) {
             bpMods.push(2048);
         } else if (defender.hasAbility("Swift Swim") && move.hasType("Water")) {
@@ -548,7 +548,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         }  
     }
     if (defender.hasAbility('Dry Skin') && move.hasType('Fire')) {
-        if (TITLE == "Cascade White 2") {
+        if (TITLE.includes("Cascade")) {
             bpMods.push(8192)
         } else {
            bpMods.push(5120); 
@@ -572,7 +572,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.attackerAbility = attacker.ability;
     }
 
-    if (attacker.hasAbility('Rivalry') && TITLE == "Cascade White 2") {
+    if (attacker.hasAbility('Rivalry') && TITLE.includes("Cascade")) {
             var commonTypes = attacker.types.some(element => defender.types.includes(element));
             console.log(commonTypes)
             if (commonTypes) {
@@ -583,7 +583,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     }
 
     if (attacker.item && (0, items_1.getItemBoostType)(attacker.item) === move.type) {
-        if (attacker.item.includes("Plate") && TITLE == "Cascade White 2") {
+        if (attacker.item.includes("Plate") && TITLE.includes("Cascade")) {
             bpMods.push(5529);
         } else {
             bpMods.push(4915);
@@ -618,7 +618,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         bpMods.push(8192);
         desc.moveBP = basePower * 2;
     }
-    else if ((gen.num > 5 || TITLE == "Cascade White 2") && move.named('Knock Off') && !resistedKnockOffDamage) {
+    else if ((gen.num > 5 || TITLE.includes("Cascade")) && move.named('Knock Off') && !resistedKnockOffDamage) {
         bpMods.push(6144);
         desc.moveBP = basePower * 1.5;
     }
@@ -628,7 +628,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.weather = field.weather;
     }
     if (field.attackerSide.isHelpingHand) {
-        if (TITLE == "Cascade White 2") {
+        if (TITLE.includes("Cascade")) {
             bpMods.push(8192);
         } else {
             bpMods.push(6144);            
@@ -816,7 +816,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         defense = (0, util_2.pokeRound)((defense * 3) / 2);
         desc.weather = field.weather;
     }
-    if (TITLE == "Cascade White 2" && field.hasWeather('Hail') && defender.hasType('Ice') && hitsPhysical) {
+    if (TITLE.includes("Cascade") && field.hasWeather('Hail') && defender.hasType('Ice') && hitsPhysical) {
         defense = (0, util_2.pokeRound)((defense * 3) / 2);
         desc.weather = field.weather;
     }
@@ -894,7 +894,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var isSpread = field.gameType !== 'Singles' &&
         ['allAdjacent', 'allAdjacentFoes'].includes(move.target);
 
-    if (TITLE == "Cascade White 2" && attacker.hasAbility("Ballistics") && move.flags.bullet && field.gameType !== 'Singles') {
+    if (TITLE.includes("Cascade") && attacker.hasAbility("Ballistics") && move.flags.bullet && field.gameType !== 'Singles') {
         isSpread = true;
     }
     if (isSpread) {
@@ -906,7 +906,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
 
 
 
-    if (!( (defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")) && TITLE == "Cascade White 2")) {
+    if (!( (defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")) && TITLE.includes("Cascade"))) {
          if ((field.hasWeather('Sun', 'Harsh Sunshine') && move.hasType('Fire')) ||
             (field.hasWeather('Rain', 'Heavy Rain') && move.hasType('Water'))) {
             baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 6144) / 4096);
@@ -917,6 +917,12 @@ function calculateBWXY(gen, attacker, defender, move, field) {
             desc.weather = field.weather;
         }
     }
+
+    if (TITLE.includes("Cascade")) {
+        if (move.named("Explosion", "Self-Destruct")) {
+            isCritical = true;
+        }
+    }
     
     if (isCritical) {
         if (settings.critGen >= 6) {
@@ -925,7 +931,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
            baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (gen.num > 5 ? 1.5 : 2)));
         }
 
-        if (TITLE == "Cascade White 2" && defender.hasAbility("Forewarn")) {
+        if (TITLE.includes("Cascade") && defender.hasAbility("Forewarn")) {
             baseDamage = Math.floor((0, util_2.OF32)(baseDamage * (0.75)));
         }
 
@@ -951,7 +957,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var applyBurn = attacker.hasStatus('brn') &&
         move.category === 'Physical' &&
         !attacker.hasAbility('Guts') &&
-        !(move.named('Facade') && (gen.num === 6 || TITLE == "Cascade White 2"));
+        !(move.named('Facade') && (gen.num === 6 || TITLE.includes("Cascade")));
     desc.isBurned = applyBurn;
     var finalMods = [];
     if (field.defenderSide.isReflect && move.category === 'Physical' && !isCritical) {
@@ -962,7 +968,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         finalMods.push(field.gameType !== 'Singles' ? (gen.num > 5 ? 2732 : 2703) : 2048);
         desc.isLightScreen = true;
     }
-    if ((defender.hasAbility('Multiscale', "Majestic Ward") || (defender.hasItem("Focus Band") && TITLE == "Cascade White 2")) && defender.curHP() === defender.maxHP() &&
+    if ((defender.hasAbility('Multiscale', "Majestic Ward") || (defender.hasItem("Focus Band") && TITLE.includes("Cascade"))) && defender.curHP() === defender.maxHP() &&
         !field.defenderSide.isSR && (!field.defenderSide.spikes || defender.hasType('Flying')) &&
         !attacker.hasAbility('Parental Bond (Child)')) {
         finalMods.push(2048);
@@ -972,7 +978,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         finalMods.push(2048);
         desc.defenderAbility = defender.ability;
     }
-    if (defender.hasAbility('Rivalry') && TITLE == "Cascade White 2") {
+    if (defender.hasAbility('Rivalry') && TITLE.includes("Cascade")) {
             var commonTypes = attacker.types.some(element => defender.types.includes(element));
             if (commonTypes) {
                 finalMods.push(2744);

@@ -94,7 +94,7 @@ function performCalculations() {
 
 		$(resultLocations[0][i].damage).text(result.moveDesc(notation));
 		var doublePowerMoves = ["Avalanche", "Payback", "Assurance", "Revenge", "Retaliate", "Stomping Tantrum"]
-		if (TITLE == "Cascade White 2") {
+		if (TITLE.includes("Cascade")) {
 			doublePowerMoves = doublePowerMoves.concat(["Thrash", "Temper Flare", "Seething Cold", "Uproar"])
 		}
 		if (doublePowerMoves.indexOf(p1.moves[i].name) != -1) {

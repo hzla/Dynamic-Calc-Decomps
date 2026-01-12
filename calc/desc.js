@@ -78,7 +78,7 @@ function getRecovery(gen, attacker, defender, move, damage, notation) {
     if (attacker.hasItem('Shell Bell') && !ignoresShellBell) {
         var max = Math.round(defender.maxHP() / 8);
         
-        if (TITLE == "Cascade White 2") {
+        if (TITLE.includes("Cascade")) {
             for (var i = 0; i < minD.length; i++) {
                 recovery[0] += Math.min(Math.round(minD[i] * move.hits / 4), max);
                 recovery[1] += Math.min(Math.round(maxD[i] * move.hits / 4), max);
@@ -104,7 +104,7 @@ function getRecovery(gen, attacker, defender, move, damage, notation) {
             for (var j in recovery) {
                 var drained = Math.round(range[j] * percentHealed);
                 if (attacker.hasItem('Big Root'))
-                    if (TITLE == "Cascade White 2") {
+                    if (TITLE.includes("Cascade")) {
                         drained = Math.trunc(drained * 7168 / 4096);
                         max = Math.trunc(max * 7168 / 4096)
                     } else {

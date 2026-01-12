@@ -127,6 +127,7 @@ SOURCES = {
 }
 
 $(document).ready(function() {
+  $('.genSelection').hide()
   if (backupFiles[TITLE]) {
     checkAndLoadScript(`./backups/${backupFiles[TITLE]}.js`, {
             onLoad: (src) => {
@@ -141,6 +142,13 @@ $(document).ready(function() {
         gameGen = settings.damageGen
         settings.gameSwitchIn = gameGen
         settings.sourceType = "full"
+        TITLE = npoint_data.title
+        document.title = TITLE + " Calculator"
+        $('#rom-title').text(TITLE).show()
+        if ( TITLE.includes("Cascade")) {
+            $('.cascade-effects .btn-small').show()
+        }
+
 
         loadDataSource(data)
 
@@ -176,7 +184,7 @@ function setGameSettings(title) {
     settings.critGen = 5;
     save_expansion = false
     $('label[for="snow"]').hide()
-  } else if (title == "Cascade White 2") {
+  } else if (TITLE.includes("Cascade")) {
     gameGen = 5
     settings.gameSwitchIn = 5; 
     settings.damageGen = 5;
@@ -265,13 +273,12 @@ if (SOURCES[params.get('data')]) {
         $('#read-save').hide()
     } 
 
-    $('.genSelection').hide()
     $('#rom-title').text(TITLE).show()
     if (TITLE.includes("Radical Red") || TITLE.includes("Emerald Imperium")) {
         $("#lvl-cap").show()
     }
 
-    if ( TITLE == "Cascade White 2") {
+    if ( TITLE.includes("Cascade")) {
         $('.cascade-effects .btn-small').show()
     }
 } else {
@@ -459,6 +466,29 @@ function loadMovesData() {
     if (move == '(No Move)') {
         continue
     }
+
+    if (TITLE.includes("Cascade")) {
+        jsonMoves["Hidden Power"].basePower = 70
+        jsonMoves["Hidden Force"].basePower = 70
+        typeNames = []
+        for (type in TYPES_BY_ID[gen]) {
+            typeNames.push(TYPES_BY_ID[gen][type].name)
+        }
+
+        for (type of typeNames) {
+            jsonMoves[`Hidden Power ${type}`] = {}
+            jsonMoves[`Hidden Power ${type}`].basePower = 70 
+            jsonMoves[`Hidden Power ${type}`].category = 'Special'
+
+            jsonMoves[`Hidden Force ${type}`] = {}
+            jsonMoves[`Hidden Force ${type}`].basePower = 70 
+            jsonMoves[`Hidden Force ${type}`].category = 'Physical'
+            jsonMoves[`Hidden Force ${type}`].type = type  
+        }
+
+    }
+
+
     moves[move]["bp"] = jsonMove["basePower"]
 
 
@@ -529,6 +559,8 @@ function loadMovesData() {
         MOVES_BY_ID[8][move.replace(/-|,|'|’| /g, "").toLowerCase()] = jsonMoves[move]
     }
   }
+
+
 }
 
 function loadDataSource(data) {

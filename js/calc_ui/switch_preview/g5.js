@@ -4,7 +4,7 @@ function get_next_in_g5() {
     var player_type1 = $('.type1').first().val()
     var player_type2 = $('.type2').first().val() 
     
-    if (TITLE == "Cascade White 2") {
+    if (TITLE.includes("Cascade")) {
         var weather = $('#weather-bar').find('input:checked')[0].value
         var weathers = {"Sun": "Fire", "Hail": "Ice", "Sand": "Rock", "Rain": "Water"}
         var immunities = {"Dry Skin": "Water", "Flash Fire": "Fire", "Well-Baked Body": "Fire", "Levitate": "Ground", "Sap Sipper": "Grass", "Motor Drive": "Electric", "Storm Drain": "Water", "Volt Absorb": "Electric", "Water Absorb": "Water", "Lightning Rod": "Electric", "Thunder Armor": "Electric"}
@@ -57,7 +57,7 @@ function get_next_in_g5() {
             }
 
                        
-            if (TITLE == "Cascade White 2") {
+            if (TITLE.includes("Cascade")) {
 
                 var isAerilate = false;
                 var isPixilate = false;
@@ -196,16 +196,19 @@ function get_next_in_g5() {
                 }
 
                 // Multihits
-                if (moveData.multihit) {
+                if (movData.multihit && movData.multihit.constructor === Array) {
                     if (pok_data["ability"] == "Skill Link") {
-                        moveBp *= moveData.multihit[1]
+                        moveBp *= movData.multihit[1]
                     } else if (pok_data["item"] == "Loaded Dice") {
-                        moveBp *= Math.min(moveData.multihit[1], 4)
+                        moveBp *= Math.min(movData.multihit[1], 4)
                     }
                     else {
-                         moveBp *= moveData.multihit[0]
+                         moveBp *= movData.multihit[0]
                     }
+                } else if (movData.multihit) {
+                    moveBp *= movData.multihit
                 }
+
 
                 // Type chart modifiers
                 if (opposing.hasAbility("Scrappy", "Corrosion","Normalize","Inner Focus")) {

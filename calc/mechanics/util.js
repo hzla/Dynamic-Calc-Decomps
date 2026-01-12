@@ -134,7 +134,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
     var speed = getModifiedStat(pokemon.rawStats.spe, pokemon.boosts.spe, gen);
     var speedMods = [];
     
-    if (TITLE == "Cascade White 2") {
+    if (TITLE.includes("Cascade")) {
         if (pokemon.hasAbility("Light Metal")) {
             speedMods.push(6144);
         } else if (pokemon.hasAbility("Heavy Metal")) {
@@ -190,7 +190,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
 }
 exports.getFinalSpeed = getFinalSpeed;
 function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRingTarget, isBoneZone, isCorrosion) {
-    var isDarkRevealed = (TITLE == "Cascade White 2" && move.type == "Psychic" && type === "Dark")
+    var isDarkRevealed = (TITLE.includes("Cascade") && move.type == "Psychic" && type === "Dark")
 
     if ((isRingTarget || isGhostRevealed) && type === 'Ghost' && move.hasType('Normal', 'Fighting')) {
         return 1;
@@ -226,13 +226,13 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
         //     }
         //     return inverted_dmg;
         // }
-        if (TITLE == "Cascade White 2") {
+        if (TITLE.includes("Cascade")) {
             if ( ($('#abilityL1') == "Corrosion" || $('#abilityL2') == "Corrosion") && type == "Steel" && move.type == "Poison") {
                 return 2
             }
             if (FIELD_EFFECTS["chargestone"]) {
                 if (type == "Ground" && move.type == "Electric") {
-                    return 1
+                    return 0.5
                 }
             } else if (FIELD_EFFECTS["celestial"]) {
                 if (type == "Normal" && move.type == "Ghost") {
@@ -320,7 +320,7 @@ function checkIntimidate(gen, source, target) {
         (gen.num >= 8 && target.hasAbility('Inner Focus', 'Own Tempo', 'Oblivious', 'Scrappy')) ||
         target.hasItem('Clear Amulet');
 
-    if (TITLE == "Cascade White 2" && target.hasAbility("Scrappy")) {
+    if (TITLE.includes("Cascade") && target.hasAbility("Scrappy")) {
         blocked = true;
     } 
 
