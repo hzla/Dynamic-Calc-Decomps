@@ -251,8 +251,6 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
                     return 0.5
                 }
             }
-            console.log(move.name)
-            console.log(type)
             if (move.named("Sky Uppercut") && type === "Flying") {
 
                 return 2;

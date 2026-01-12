@@ -706,7 +706,7 @@ $(".set-selector").change(function () {
 				// var sprite = setdex[pokemonName][setName]["sprite"]
 				
 				var battle_type = setdex[pokemonName][setName]["battle_type"]
-				var ai = setdex[pokemonName][setName]["ai_tags"]
+				var ai = setdex[pokemonName][setName]["ai_tags"] 
 				
 
 
