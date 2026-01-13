@@ -402,9 +402,13 @@ function getFlingPower(item) {
         return 10;
     return 0;
 }
+
 exports.getFlingPower = getFlingPower;
 function getNaturalGift(gen, item) {
     var _a;
+    if (TITLE.includes("Cascade")) {
+        gen.items.gen = 7;
+    }
     var gift = (_a = gen.items.get((0, util_1.toID)(item))) === null || _a === void 0 ? void 0 : _a.naturalGift;
     return gift ? { t: gift.type, p: gift.basePower } : { t: 'Normal', p: 1 };
 }

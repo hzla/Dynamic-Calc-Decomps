@@ -43,7 +43,16 @@ function calculateBWXY(gen, attacker, defender, move, field) {
 
     var isAttackerTera = attacker.item.startsWith("Tera ")
     var isDefenderTera = defender.item.startsWith("Tera ")
-    var isSameTypeTera = isAttackerTera && attacker.hasType(attacker.moves[0].type)
+
+    var oldTypes = ["",""]
+
+    if (pokedex[attacker.name]) {
+        oldTypes = pokedex[attacker.name].types   
+    }
+
+    
+    var teraType = attacker.moves[0].type
+    var isSameTypeTera = isAttackerTera && teraType == move.type && oldTypes.includes(teraType)
 
     if (isAttackerTera) {
         attacker.types = [attacker.moves[0].type, ""]
@@ -51,6 +60,10 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     if (isDefenderTera) {
         defender.types = [defender.moves[0].type, ""]
     }
+
+    
+
+
 
     
     var result = new result_1.Result(gen, attacker, defender, move, field, 0, desc);
@@ -87,7 +100,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     else if (move.named('Techno Blast') && attacker.item && attacker.item.includes('Drive')) {
         move.type = (0, items_1.getTechnoBlast)(attacker.item);
     }
-    else if (move.named('Natural Gift') && attacker.item && attacker.item.includes('Berry') && TITLE != "Cascade White 2") {
+    else if (move.named('Natural Gift') && attacker.item && attacker.item.includes('Berry')) {
         var gift = (0, items_1.getNaturalGift)(gen, attacker.item);
         move.type = gift.t;
         move.bp = gift.p;
@@ -574,7 +587,6 @@ function calculateBWXY(gen, attacker, defender, move, field) {
 
     if (attacker.hasAbility('Rivalry') && TITLE.includes("Cascade")) {
             var commonTypes = attacker.types.some(element => defender.types.includes(element));
-            console.log(commonTypes)
             if (commonTypes) {
                 bpMods.push(5448);
                 desc.rivalry = 'buffed';
@@ -938,7 +950,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.isCritical = isCritical;
     }
     var stabMod = 4096;
-    if (attacker.hasType(move.type)) {
+    if (attacker.hasType(move.type) || oldTypes.includes(move.type)) {
         if (attacker.hasAbility('Adaptability') || isSameTypeTera) {
             stabMod = 8192;
             if (attacker.hasAbility('Adaptability') && isSameTypeTera) {

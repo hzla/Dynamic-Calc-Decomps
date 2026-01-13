@@ -25,6 +25,11 @@ for (var i = 0; i < 4; i++) {
 }
 
 var damageResults;
+
+function isAirborne(mon) {
+	return (mon.hasItem("Air Balloon") || mon.hasAbility("Levitate") || mon.hasType("Flying")) ? true : false;
+}
+
 function performCalculations() {
 	var p1info = $("#p1");
 	var p2info = $("#p2");
@@ -48,6 +53,15 @@ function performCalculations() {
 		p1info.find(".sp .totalMod").css('color', '#bd93f9')
 	} else {
 		p1info.find(".sp .totalMod").attr('style', '')	
+	}
+
+	if ($('#mistralton').prop('checked')) {
+		if (isAirborne(p1)) {
+			p1.stats.spe = Math.floor(p1.stats.spe * 1.5)
+		}
+		if (isAirborne(p2)) {
+			p2.stats.spe = Math.floor(p2.stats.spe * 1.5)
+		}
 	}
 
 	p1info.find(".sp .totalMod").text(p1.stats.spe);

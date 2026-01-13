@@ -147,6 +147,10 @@ function get_next_in_g5() {
                 }
                 else if (moveName == "Explosion" || moveName == "Self-Destruct") {
                     moveBp = 0
+                } else if (moveName == "Natural Gift" && pok_data.item.includes(" Berry")) {
+                    let naturalGiftInfo = ITEMS_BY_ID[8][cleanString(pok_data.item)].naturalGift
+                    move.type = naturalGiftInfo.type
+                    moveBp = naturalGiftInfo.basePower
                 }
 
 

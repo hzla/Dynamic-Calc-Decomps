@@ -476,7 +476,7 @@ abilityChanges = {
 		"Color Change": "Ballistics",
 		"Immunity": "Fluffy",
 		"Own Tempo": "Quick Draw",
-		"Suction Cups": "Well Baked Body",
+		"Suction Cups": "Well-Baked Body",
 		"Poison Point": "Berserk",
 		"Magma Armor": "Pixilate",
 		"Water Veil": "Merciless",
@@ -495,9 +495,12 @@ abilityChanges = {
 		"Super Luck": "Moisturize",
 		"Frisk": "Stakeout",
 		"Telepathy": "Permafrost",
-		"Big Pecks": "Savant"
+		"Big Pecks": "Savant",
+		"Clear Body": "Strong Body",
+		"Harvest": "Gourmand"
 	}
 }
+
 
 itemChanges = {
 	"Cascade White 2": {

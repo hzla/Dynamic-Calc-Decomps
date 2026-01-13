@@ -423,7 +423,7 @@ $(".status").bind("keyup change", function () {
 });
 
 var lockerMove = "";
-function showMoveExtras(moveObj, ppObj=null, fullSetName="") {
+function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	var moveName = $(moveObj).val();
 	var move = moves[moveName] || moves['(No Move)'];
 
@@ -542,6 +542,29 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="") {
 		moveGroupObj.children(".stat-drops").hide();
 	}
 	moveGroupObj.children(".move-z").prop("checked", false);
+
+
+	if ($(moveObj).parent().hasClass('move1')) {
+		let pokeInfo = $(moveGroupObj).parents('.poke-info')
+		let itemName = pokeInfo.find('.item').val()
+		if (itemName) {
+			if (itemName.includes("Tera ")) {
+				teraType = move.type
+				pokeInfo.find(".type1").val(teraType).css('border', '1px solid #bb86fc')
+				pokeInfo.find('.type2').val("")
+			} else {
+				let pokeName = pokeInfo.find('.select2-chosen').text().split(" (")[0]
+				let oldTypes = pokedex[pokeName].types
+				pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
+				if (oldTypes.length > 1) {
+					pokeInfo.find('.type2').val(oldTypes[1])
+				}
+			}
+		}
+	}
+
+	
+
 }
 
 
@@ -559,6 +582,25 @@ function showItemExtras(itemObj) {
 	} else {
 		$metronomeControl.hide();
 	}
+
+	let pokeInfo = $(itemObj).parents('.poke-info')
+	
+
+	if (itemName) {
+		if (itemName.includes("Tera ")) {
+			teraType = pokeInfo.find('.move1 .move-type').val()
+			pokeInfo.find(".type1").val(teraType).css('border', '1px solid #bb86fc')
+			pokeInfo.find('.type2').val("")
+		} else {
+			let pokeName = pokeInfo.find('.select2-chosen').text().split(" (")[0]
+			let oldTypes = pokedex[pokeName].types
+			pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
+			if (oldTypes.length > 1) {
+				pokeInfo.find('.type2').val(oldTypes[1])
+			}
+		}
+	}
+	
 }
 
 $(".item").change(function () {
@@ -841,6 +883,8 @@ $(".set-selector").change(function () {
 			stickyMoves.clearStickyMove();
 		}
 		pokeObj.find(".analysis").attr("href", smogonAnalysis(pokemonName));
+
+
 		pokeObj.find(".type1").val(pokemon.types[0]);
 		pokeObj.find(".type2").val(pokemon.types[1]);
 		pokeObj.find(".hp .base").val(pokemon.bs.hp);
@@ -858,6 +902,9 @@ $(".set-selector").change(function () {
 		var itemObj = pokeObj.find(".item");
 		var randset = undefined;
 		var regSets = pokemonName in setdex && setName in setdex[pokemonName];
+
+
+
 
 
 		$(this).closest('.poke-info').find(".ability-pool").hide();
@@ -909,6 +956,15 @@ $(".set-selector").change(function () {
 				moveObj = pokeObj.find(".move" + (i + 1) + " select.move-selector");
 				moveObj.attr('data-prev', moveObj.val());
 				setSelectValueIfValid(moveObj, moves[i], "(No Move)");
+
+				if (i == 0) {
+					pokeObj.find(".type1").css('border', '')
+					if (itemObj.val().includes("Tera ")) {
+						pokeObj.find(".type1").css('border', '1px solid #bb86fc')
+						pokeObj.find(".type1").val(MOVES_BY_ID[gen][cleanString(moves[i])].type);	
+						pokeObj.find(".type2").val("");	
+					}
+				}
 
 				moveObj.prev().find('.select2-chosen').text(moveObj.val())
 				ppObj = null
@@ -1178,6 +1234,7 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 		var setName = pokeInfo.substring(pokeInfo.indexOf("(") + 1, pokeInfo.lastIndexOf(")"));
 		var set = setdex[name][setName];
 
+
 		var ivs = {};
 		var evs = {};
 		for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
@@ -1190,6 +1247,7 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 
 		var pokemonMoves = [];
 		for (var i = 0; i < 4; i++) {
+
 			moveName = set.moves[i];
 			var pokmove = new calc.Move(gen, moves[moveName] ? moveName : "(No Move)", {ability: ability, item: item})
 			pokemonMoves.push(pokmove);
@@ -1298,6 +1356,7 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			var move3 = customMoves[2]
 			var move4 = customMoves[3]
 		} 
+
 		return new calc.Pokemon(gen, name, {
 			level: ~~pokeInfo.find(".level").val(),
 			ability: ability,
