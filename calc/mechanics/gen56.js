@@ -20,18 +20,15 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     (0, util_2.checkWonderRoom)(defender, field.isWonderRoom);
     (0, util_2.checkSeedBoost)(attacker, field);
     (0, util_2.checkSeedBoost)(defender, field);
+    if (TITLE.includes("Cascade")) {
+        (0, util_2.checkCascItems)(attacker);
+        (0, util_2.checkCascItems)(defender);
+    }
     (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'def', 'spd', 'spe');
     (0, util_2.checkIntimidate)(gen, attacker, defender);
     (0, util_2.checkIntimidate)(gen, defender, attacker);
     (0, util_2.checkDownload)(attacker, defender, field.isWonderRoom);
     (0, util_2.checkDownload)(defender, attacker, field.isWonderRoom);
-
-
-    if (TITLE.includes("Cascade")) {
-        (0, util_2.checkCascItems)(attacker);
-        (0, util_2.checkCascItems)(defender);
-    }
-
     (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'atk', 'spa');
     (0, util_2.checkInfiltrator)(attacker, field.defenderSide);
     (0, util_2.checkInfiltrator)(defender, field.attackerSide);

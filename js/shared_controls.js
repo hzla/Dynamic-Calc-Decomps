@@ -214,6 +214,7 @@ $(".percent-hp").keyup(function () {
 	calcCurrentHP($(this).parent(), max, percent);
 });
 
+
 function showAbilityExtras(abilityObj) {
 	var moveHits =
 		$(abilityObj).val() === 'Skill Link' ? 5 :
@@ -542,29 +543,29 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 		moveGroupObj.children(".stat-drops").hide();
 	}
 	moveGroupObj.children(".move-z").prop("checked", false);
-
-
-	if ($(moveObj).parent().hasClass('move1')) {
-		let pokeInfo = $(moveGroupObj).parents('.poke-info')
-		let itemName = pokeInfo.find('.item').val()
-		if (itemName) {
-			if (itemName.includes("Tera ")) {
-				teraType = move.type
-				pokeInfo.find(".type1").val(teraType).css('border', '1px solid #bb86fc')
-				pokeInfo.find('.type2').val("")
-			} else {
-				let pokeName = pokeInfo.find('.select2-chosen').text().split(" (")[0]
-				if (pokedex[pokeName]) {
-					let oldTypes = pokedex[pokeName].types
-					pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
-					if (oldTypes.length > 1) {
-						pokeInfo.find('.type2').val(oldTypes[1])
-					}
-				}
+	
+	
+	// if ($(moveObj).parent().hasClass('move1')) {
+	// 	let pokeInfo = $(moveGroupObj).parents('.poke-info')
+	// 	let itemName = pokeInfo.find('.item').val()
+	// 	if (itemName) {
+	// 		if (itemName.includes("Tera ")) {
+	// 			teraType = move.type
+	// 			pokeInfo.find(".type1").val(teraType).css('border', '1px solid #bb86fc')
+	// 			pokeInfo.find('.type2').val("")
+	// 		} else {
+	// 			let pokeName = pokeInfo.find('.select2-chosen').text().split(" (")[0]
+	// 			if (pokedex[pokeName]) {
+	// 				let oldTypes = pokedex[pokeName].types
+	// 				pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
+	// 				if (oldTypes.length > 1) {
+	// 					pokeInfo.find('.type2').val(oldTypes[1])
+	// 				}
+	// 			}
 				
-			}
-		}
-	}
+	// 		}
+	// 	}
+	// }
 
 	
 
@@ -1543,7 +1544,12 @@ function calcStat(poke, StatID) {
 	if (gen > 7 && StatID === "hp" && poke.isDynamaxed && total !== 1) {
 		total *= 2;
 	}
+
 	stat.find(".total").text(total);
+	// if (StatID == "at") {
+	// 	console.log(`${StatID} ${total}`)
+	// }
+	
 	return total;
 }
 

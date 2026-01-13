@@ -35,12 +35,14 @@ function performCalculations() {
 	var p2info = $("#p2");
 
 
+
 	var p1 = createPokemon(p1info);
 	var p2 = createPokemon(p2info);
 	var p1field = createField();
 	var p2field = p1field.clone().swap();
 
 	damageResults = calculateAllMoves(settings.damageGen, p1, p1field, p2, p2field);
+
 	p1 = damageResults[0][0].attacker;
 	p2 = damageResults[1][0].attacker;
 	var battling = [p1, p2];
@@ -55,10 +57,6 @@ function performCalculations() {
 		p1info.find(".sp .totalMod").attr('style', '')	
 	}
 
-	let stats = ['at','df','sa','sd','sp'];
-	for (stat of stats) {
-
-	}
 
 	if ($('#mistralton').prop('checked')) {
 		if (isAirborne(p1)) {
@@ -69,12 +67,29 @@ function performCalculations() {
 		}
 	}
 
-	p1info.find(".sp .totalMod").text(p1.stats.spe);
-	p1info.find(".at .total").text(p1.stats.atk);
-	p1info.find(".df .total").text(p1.stats.def);
-	p1info.find(".sa .total").text(p1.stats.spa);
-	p1info.find(".sd .total").text(p1.stats.spd);
+	for (stat of [["at", "atk"],["df","def"],["sa", "spa"],["sd","spd"]]){
+		let total = p1info.find(`.${stat[0]} .total`)
+		total.text(p1.stats[stat[1]])
+		if (p1.boosts[stat[1]] > 0) {
+			total.css('color', "#bb86fc")
+		} else {
+			total.css('color', "")
+		}
+	}
 
+	for (stat of [["at", "atk"],["df","def"],["sa", "spa"],["sd","spd"]]){
+		let total = p2info.find(`.${stat[0]} .total`)
+		total.text(p2.stats[stat[1]])
+		if (p2.boosts[stat[1]] > 0) {
+			total.css('color', "#bb86fc")
+		} else {
+			total.css('color', "")
+		}
+	}
+
+	
+
+	p1info.find(".sp .totalMod").text(p1.stats.spe);
 	p2info.find(".sp .totalMod").text(p2.stats.spe);
 
 	if (p1.stats.spe > p2.stats.spe) {
@@ -84,6 +99,8 @@ function performCalculations() {
 		p2info.find(".sp .totalMod").css('color', '#8be9fd')
 		p1info.find(".sp .totalMod").css('color', '#ff5555')
 	}
+
+
 
 
 

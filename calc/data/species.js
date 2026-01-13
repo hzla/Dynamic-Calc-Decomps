@@ -3175,6 +3175,12 @@ var DPP_PATCH = {
         weightkg: 29.9,
         abilities: { 0: 'Sticky Hold' }
     },
+    "Gastrodon-East": {
+        types: ['Water', 'Ground'],
+        bs: { hp: 111, at: 83, df: 68, sa: 92, sd: 82, sp: 39 },
+        weightkg: 29.9,
+        abilities: { 0: 'Sticky Hold' }
+    },
     Gible: {
         types: ['Dragon', 'Ground'],
         bs: { hp: 58, at: 70, df: 45, sa: 40, sd: 45, sp: 42 },
@@ -3626,6 +3632,13 @@ var DPP_PATCH = {
         baseSpecies: 'Shaymin'
     },
     Shellos: {
+        types: ['Water'],
+        bs: { hp: 76, at: 48, df: 48, sa: 57, sd: 62, sp: 34 },
+        weightkg: 6.3,
+        nfe: true,
+        abilities: { 0: 'Sticky Hold' }
+    },
+    "Shellos-East": {
         types: ['Water'],
         bs: { hp: 76, at: 48, df: 48, sa: 57, sd: 62, sp: 34 },
         weightkg: 6.3,
@@ -4682,6 +4695,24 @@ var BW_PATCH = {
         abilities: { 0: 'Sturdy' }
     },
     Sawsbuck: {
+        types: ['Normal', 'Grass'],
+        bs: { hp: 80, at: 100, df: 70, sa: 60, sd: 70, sp: 95 },
+        weightkg: 92.5,
+        abilities: { 0: 'Chlorophyll' }
+    },
+    "Sawsbuck-Summer": {
+        types: ['Normal', 'Grass'],
+        bs: { hp: 80, at: 100, df: 70, sa: 60, sd: 70, sp: 95 },
+        weightkg: 92.5,
+        abilities: { 0: 'Chlorophyll' }
+    },
+    "Sawsbuck-Autumn": {
+        types: ['Normal', 'Grass'],
+        bs: { hp: 80, at: 100, df: 70, sa: 60, sd: 70, sp: 95 },
+        weightkg: 92.5,
+        abilities: { 0: 'Chlorophyll' }
+    },
+    "Sawsbuck-Winter": {
         types: ['Normal', 'Grass'],
         bs: { hp: 80, at: 100, df: 70, sa: 60, sd: 70, sp: 95 },
         weightkg: 92.5,

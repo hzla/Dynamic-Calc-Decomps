@@ -12,6 +12,14 @@ $(document).ready(function() {
         })
     }
 
+    if (TITLE.includes("Cascade")) {
+        sav_pok_names[653] = "Sawsbuck-Summer"
+        sav_pok_names[654] = "Sawsbuck-Autumn"
+        sav_pok_names[655] = "Sawsbuck-Winter"
+        sav_pok_names[656] = "Shellos-East"
+        sav_pok_names[657] = "Gastrodon-East"
+    }
+
     document.getElementById('save-upload-g45').addEventListener('change', function(event, forceBlock2=false) {
     if ($('#save-upload').length > 0) return;
     const file = event.target.files[0];

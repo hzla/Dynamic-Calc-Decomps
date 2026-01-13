@@ -103,6 +103,7 @@ exports.Stats = new ((function () {
     };
     class_1.prototype.calcStatADV = function (natures, stat, base, iv, ev, level, nature, manual=null) {
 
+        // console.log(`${stat}: ${base}`)
         if (stat === 'hp') {
             return base === 1
                 ? base

@@ -109,7 +109,7 @@ SOURCES = {
   "b819708dba8f8c0641d5": "Sterling Silver 1.16",
   "5b789b0056c18c5c668b": "Platinum Redux 2.6",
   "de22f896c09fceb0b273": "Maximum Platinum",
-  "casc": "Cascade White 2",
+  "casc": "Cascade White",
   "ee9b421600cd6487e4e3": "Photonic Sun/Prismatic Moon",
   "d3501821feaa976d581a": "Azure Platinum",
   "9abb79df1e356642c229": "Fire Red Omega",
@@ -176,6 +176,8 @@ $(document).ready(function() {
   }
 })
 
+
+// Game specific configs and modifications
 function setGameSettings(title) {
   if (title == "Renegade Platinum") {
     gameGen = 4
