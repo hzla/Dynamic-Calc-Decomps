@@ -26,6 +26,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     (0, util_2.checkDownload)(attacker, defender, field.isWonderRoom);
     (0, util_2.checkDownload)(defender, attacker, field.isWonderRoom);
 
+
     if (TITLE.includes("Cascade")) {
         (0, util_2.checkCascItems)(attacker);
         (0, util_2.checkCascItems)(defender);

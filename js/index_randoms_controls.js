@@ -55,6 +55,11 @@ function performCalculations() {
 		p1info.find(".sp .totalMod").attr('style', '')	
 	}
 
+	let stats = ['at','df','sa','sd','sp'];
+	for (stat of stats) {
+
+	}
+
 	if ($('#mistralton').prop('checked')) {
 		if (isAirborne(p1)) {
 			p1.stats.spe = Math.floor(p1.stats.spe * 1.5)

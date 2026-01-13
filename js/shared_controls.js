@@ -554,11 +554,14 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 				pokeInfo.find('.type2').val("")
 			} else {
 				let pokeName = pokeInfo.find('.select2-chosen').text().split(" (")[0]
-				let oldTypes = pokedex[pokeName].types
-				pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
-				if (oldTypes.length > 1) {
-					pokeInfo.find('.type2').val(oldTypes[1])
+				if (pokedex[pokeName]) {
+					let oldTypes = pokedex[pokeName].types
+					pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
+					if (oldTypes.length > 1) {
+						pokeInfo.find('.type2').val(oldTypes[1])
+					}
 				}
+				
 			}
 		}
 	}
