@@ -653,6 +653,14 @@ function refresh_next_in() {
 		if (next_poks[i][0].includes("[0]") && (settings.gameSwitchIn == 4 || settings.gameSwitchIn == 5)) {
 			isLead = "lead"
 		}
+		if (next_poks[i][0].includes("[1]") && (settings.gameSwitchIn == 4 || settings.gameSwitchIn == 5) && battle_type != "Singles") {
+			isLead = "lead"
+		}
+		if (next_poks[i][0].includes("[2]") && (settings.gameSwitchIn == 4 || settings.gameSwitchIn == 5) && battle_type == "Triples") {
+			isLead = "lead"
+		}
+
+
 
 		var pok = `<div class="trainer-pok-container">
 			<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "")}.png" data-id="${dataID}">`
@@ -759,7 +767,7 @@ $(".set-selector").change(function () {
 			if (setName != "Blank Set") {
 				// var sprite = setdex[pokemonName][setName]["sprite"]
 				
-				var battle_type = setdex[pokemonName][setName]["battle_type"]
+				battle_type = setdex[pokemonName][setName]["battle_type"]
 				var ai = setdex[pokemonName][setName]["ai_tags"] 
 				
 

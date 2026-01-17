@@ -62,7 +62,7 @@ var Move = (function () {
         this.useMax = options.useMax;
         this.overrides = options.overrides;
         this.species = options.species;
-        this.bp = data.basePower;
+        this.bp = options.basePower || data.basePower;
         var typelessDamage = (gen.num >= 2 && data.id === 'struggle') ||
             (gen.num <= 4 && ['futuresight', 'doomdesire'].includes(data.id));
         this.type = typelessDamage ? '???' : data.type;
@@ -114,6 +114,7 @@ var Move = (function () {
     };
     Move.prototype.clone = function () {
         return new Move(this.gen, this.originalName, {
+            basePower: this.bp,
             ability: this.ability,
             item: this.item,
             species: this.species,

@@ -212,7 +212,8 @@ function setGameSettings(title) {
     $('label[for="snow"]').hide()
   } else if (title == "Vintage White Plus") {
     gameGen = 5
-    settings.gameSwitchIn = 5; 
+    settings.gameSwitchIn = 5;
+    settings.switchIn = 5; 
     settings.damageGen = 5;
     settings.gen = 5;
     settings.critGen = 5;

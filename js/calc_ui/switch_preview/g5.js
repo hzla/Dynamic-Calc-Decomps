@@ -241,11 +241,13 @@ function get_next_in_g5() {
         ranked_trainer_poks.push([trainer_poks[i], strongest_move_bp, strongest_move, sub_index, pok_data["moves"]])
     }
 
-    if ((typeof noSwitch != "undefined" && noSwitch == "1") || partnerName) {
-       ranked_trainer_poks.sort(sort_subindex)
+
+   if ((typeof noSwitch != "undefined" && noSwitch == "1") || partnerName) {
+       ranked_trainer_poks = ranked_trainer_poks.sort(sort_subindex)
    } else {
-        ranked_trainer_poks.sort(sort_trpoks)
+        ranked_trainer_poks = ranked_trainer_poks.sort(sort_trpoks)
    }
+
 
     // Auto-sorts Megas to come out last - this should only run on switchIn=5
     var endSwap = null
