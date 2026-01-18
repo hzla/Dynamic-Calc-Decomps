@@ -233,6 +233,233 @@ $(document).ready(function() {
 
 })
 
+// -------- Location helpers --------
+//
+// Supported loc forms:
+//  - { where: "party", index: 0 }
+//  - { where: "box", index: 0 }              // absolute box slot index (0..n-1)
+//  - "party:0", "box:123"                    // string shorthand
+
+function parseLoc(loc) {
+  if (typeof loc === "string") {
+    const [where, idxStr] = loc.split(":");
+    const index = Number(idxStr);
+    if (!Number.isInteger(index) || index < 0) throw new Error(`Bad loc index: ${loc}`);
+    if (where !== "party" && where !== "box") throw new Error(`Bad loc where: ${loc}`);
+    return { where, index };
+  }
+  if (!loc || (loc.where !== "party" && loc.where !== "box") || !Number.isInteger(loc.index) || loc.index < 0) {
+    throw new Error(`Bad loc: ${JSON.stringify(loc)}`);
+  }
+  return loc;
+}
+
+function getPartySlotOffset(partyIndex) {
+  // In your reader: party mons start at partyCountOffset+4, each partyPokSize bytes. :contentReference[oaicite:2]{index=2}
+  return partyCountOffset + 4 + (partyIndex * partyPokSize);
+}
+
+function getBoxSlotOffset(boxIndex) {
+  // Your parsing loop adds +16 padding after every 30 slots for HGSS and BW. :contentReference[oaicite:3]{index=3}
+  // Pt has no such padding in your code.
+  const pad = (baseGame === "HGSS" || baseGame === "BW") ? (Math.floor(boxIndex / 30) * 16) : 0;
+  return boxDataOffset + (boxIndex * 136) + pad; // box chunk size is always 136 in your parser :contentReference[oaicite:4]{index=4}
+}
+
+function getSlotOffset(loc) {
+  loc = parseLoc(loc);
+  return (loc.where === "party") ? getPartySlotOffset(loc.index) : getBoxSlotOffset(loc.index);
+}
+
+function getSlotByteLength(loc) {
+  loc = parseLoc(loc);
+  return (loc.where === "party") ? partyPokSize : 136;
+}
+
+// -------- PKM decode/encode (side-effect free) --------
+
+function readPKMFromViewAtOffset(offset, isParty) {
+  const CHUNK_SIZE = isParty ? partyPokSize : 136;
+  const raw = view.slice(offset, offset + CHUNK_SIZE);
+
+  const pv = read32BitIntegerFromUint8Array(raw, 0);
+  if (pv === 0) {
+    return { empty: true, offset, isParty, pv, raw };
+  }
+
+  // shift order depends on pv (same logic as parsePKM) :contentReference[oaicite:5]{index=5}
+  const shiftValue = ((pv & 0x3E000) >> 0xD) % 24;
+  const shiftOrder = blockOrders[shiftValue];
+
+  // checksum at 0x06 (same logic as parsePKM) :contentReference[oaicite:6]{index=6}
+  const checksum = (raw[0x07] << 8) | raw[0x06];
+
+  // encrypted 128 bytes starts at +8, ends at 136
+  const enc = raw.slice(8, 136);
+
+  // convert to 16-bit words
+  const encryptedWords = [];
+  for (let j = 0; j < 128; j += 2) {
+    encryptedWords.push((enc[j + 1] << 8) | enc[j]);
+  }
+
+  const decryptedData = decryptData(encryptedWords, checksum); // returns 64 words :contentReference[oaicite:7]{index=7}
+
+  // party has extra encrypted battle stats after 136; you already decrypt w/ seed pv :contentReference[oaicite:8]{index=8}
+  let battle = null;
+  if (isParty) {
+    const battleBytes = raw.slice(136);
+    const battleWords = [];
+    for (let j = 0; j < battleBytes.length; j += 2) {
+      battleWords.push((battleBytes[j + 1] << 8) | battleBytes[j]);
+    }
+    battle = {
+      encryptedWords: battleWords,
+      // NOTE: decrypted battle is optional; only decrypt if you need it.
+      // decryptedWords: decryptData(battleWords, pv, battleStatSize),
+    };
+  }
+
+  // Precompute commonly-used block offsets (same as parsePKM) :contentReference[oaicite:9]{index=9}
+  const mon_data_offset  = shiftOrder.indexOf(0) * 16;
+  const move_data_offset = shiftOrder.indexOf(1) * 16;
+  const nn_data_offset   = shiftOrder.indexOf(2) * 16;
+  const met_data_offset  = shiftOrder.indexOf(3) * 16;
+
+  return {
+    empty: false,
+    offset,
+    isParty,
+    pv,
+    checksum,
+    shiftValue,
+    shiftOrder,
+    decryptedData,          // 64 x uint16 (stored in shuffled block order, like your current code)
+    raw,                    // raw bytes snapshot (useful for duplication sanity)
+    battle,
+    idx: {
+      mon: mon_data_offset,
+      moves: move_data_offset,
+      nickname: nn_data_offset,
+      met: met_data_offset,
+      species: mon_data_offset + 0,
+      item: mon_data_offset + 1,
+      expLo: mon_data_offset + 4,
+      expHi: mon_data_offset + 5,
+      abilityFriendship: mon_data_offset + 6, // your code uses high byte for ability :contentReference[oaicite:10]{index=10}
+    }
+  };
+}
+
+function writePKMToView(pkm) {
+  if (pkm.empty) throw new Error("Cannot write: source slot is empty (pv==0).");
+
+  // Recompute and write checksum + encrypted 128 bytes using your existing writer :contentReference[oaicite:11]{index=11}
+  setPKMNCheckSum(pkm.decryptedData, pkm.offset);
+
+  // Update save-block checksums / add download button (matches your update funcs) :contentReference[oaicite:12]{index=12}
+  if (baseGame !== "BW") {
+    if (pkm.isParty) setSmallBlockChecksum();
+    else setBigBlockCheckSum();
+  } else {
+    // BW checksums are handled at download time in your code. :contentReference[oaicite:13]{index=13}
+    // You can still call addSaveBtn() so you can export immediately.
+  }
+  addSaveBtn();
+}
+
+// -------- Public API --------
+
+// Generic "edit any field" by decryptedData word index
+// Example: editPokemonWord("party:0", 0 /* species word */, 25)
+function editPokemonWord(loc, wordIndex, value) {
+  loc = parseLoc(loc);
+  const offset = getSlotOffset(loc);
+  const pkm = readPKMFromViewAtOffset(offset, loc.where === "party");
+
+  if (pkm.empty) throw new Error(`Slot is empty: ${loc.where}:${loc.index}`);
+  if (!Number.isInteger(wordIndex) || wordIndex < 0 || wordIndex >= pkm.decryptedData.length) {
+    throw new Error(`wordIndex out of range (0..${pkm.decryptedData.length - 1})`);
+  }
+  pkm.decryptedData[wordIndex] = value & 0xFFFF;
+
+  writePKMToView(pkm);
+  return pkm; // return metadata so you can inspect indices in console
+}
+
+// Higher-level editor that gives you indices + helpers
+function editPokemon(loc, fn) {
+  loc = parseLoc(loc);
+  const offset = getSlotOffset(loc);
+  const pkm = readPKMFromViewAtOffset(offset, loc.where === "party");
+
+  if (pkm.empty) throw new Error(`Slot is empty: ${loc.where}:${loc.index}`);
+
+  const api = {
+    pkm,
+
+    // common fields
+    getSpecies: () => pkm.decryptedData[pkm.idx.species],
+    setSpecies: (speciesId) => { pkm.decryptedData[pkm.idx.species] = speciesId & 0xFFFF; },
+
+    getMove: (slot0to3) => pkm.decryptedData[pkm.idx.moves + slot0to3],
+    setMove: (slot0to3, moveId) => { pkm.decryptedData[pkm.idx.moves + slot0to3] = moveId & 0xFFFF; },
+
+    setItem: (itemId) => { pkm.decryptedData[pkm.idx.item] = itemId & 0xFFFF; },
+
+    // ability is stored in high byte of mon_data_offset+6 in your code :contentReference[oaicite:14]{index=14}
+    setAbilityIndex: (abilityIndex) => {
+      const i = pkm.idx.abilityFriendship;
+      pkm.decryptedData[i] = (pkm.decryptedData[i] & 0x00FF) | ((abilityIndex & 0xFF) << 8);
+    },
+
+    // raw word editing
+    setWord: (wordIndex, value) => { pkm.decryptedData[wordIndex] = value & 0xFFFF; },
+    getWord: (wordIndex) => pkm.decryptedData[wordIndex],
+
+    // expose offsets so you can script quickly
+    indices: pkm.idx
+  };
+
+  fn(api);
+  writePKMToView(pkm);
+  return pkm;
+}
+
+// Duplicate any slot -> any slot by raw byte copy.
+// This is a true clone of the slot bytes (including party battle stats region).
+function duplicatePokemonSlot(srcLoc, dstLoc) {
+  srcLoc = parseLoc(srcLoc);
+  dstLoc = parseLoc(dstLoc);
+
+  const srcOffset = getSlotOffset(srcLoc);
+  const dstOffset = getSlotOffset(dstLoc);
+
+  const srcLen = getSlotByteLength(srcLoc);
+  const dstLen = getSlotByteLength(dstLoc);
+
+  if (srcLen !== dstLen) {
+    throw new Error(`Slot sizes differ (src ${srcLen}, dst ${dstLen}). party<->box copies are allowed only if same size; yours are not.`);
+  }
+
+  const bytes = view.slice(srcOffset, srcOffset + srcLen);
+  view.set(bytes, dstOffset);
+
+  // Update block checksums like your update funcs :contentReference[oaicite:15]{index=15}
+  if (baseGame !== "BW") {
+    // If either side is party, small block checksum needs update.
+    // If either side is box, big block checksum needs update.
+    if (srcLoc.where === "party" || dstLoc.where === "party") setSmallBlockChecksum();
+    if (srcLoc.where === "box" || dstLoc.where === "box") setBigBlockCheckSum();
+  }
+
+  addSaveBtn();
+  return { srcLoc, dstLoc, srcOffset, dstOffset, len: srcLen };
+}
+
+
+
+
 
 function setBWChecksums() {
     // set box checksums
@@ -349,11 +576,6 @@ function parsePKM(chunk, is_party=false, offset=0) {
     var nn_data_offset = shiftOrder.indexOf(2) * 16
 
     var mon_name = sav_pok_names[decryptedData[mon_data_offset]]
-
-    if (mon_name == "meowth") {
-        console.log(decryptedData[mon_data_offset])
-    }
-
     mon_name = SPECIES_BY_ID[gen][cleanString(mon_name)].name
 
     if (mon_name in mon_forms) {
@@ -390,14 +612,8 @@ function parsePKM(chunk, is_party=false, offset=0) {
     }
 
     nn = nn.replaceAll('\u0000', '');
-
-
-
     
-
-
-    
-    // dev functions
+    // dev functions, ignore
     if (settings.devMode) {
         decryptedData[move_data_offset + 8] = 65535  
         decryptedData[move_data_offset + 9] = 16383          
