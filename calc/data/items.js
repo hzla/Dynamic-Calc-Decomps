@@ -572,7 +572,12 @@ var SS = SM.concat([
     "Tera Leftovers",
     "Tera Dice",
     "Tera K-Rock",
-    "Attack Insurance"
+    "Attack Insurance",
+    "Fairy Dust",
+    "Trickster Herb",
+    "Mascot Badge",
+    "Protective Gear",
+    
 ]);
 
 for (var i = 0; i < 100; i++) {

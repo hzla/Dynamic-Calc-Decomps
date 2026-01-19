@@ -948,7 +948,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         desc.isCritical = isCritical;
     }
     var stabMod = 4096;
-    if (attacker.hasType(move.type) || oldTypes.includes(move.type)) {
+    if (attacker.hasType(move.type) || (oldTypes.includes(move.type) && isAttackerTera)) {
         if (attacker.hasAbility('Adaptability') || isSameTypeTera) {
             stabMod = 8192;
             if (attacker.hasAbility('Adaptability') && isSameTypeTera) {

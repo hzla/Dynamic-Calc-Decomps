@@ -67,8 +67,6 @@ moveChanges = {
 		"Triple Kick": "Triple Axel",
 		"Punishment": "Wave Crash"},
 
-
-
 	"Renegade Platinum": 
 		{
 			"Barrage":     "Draining Kiss",
@@ -99,7 +97,6 @@ moveChanges = {
 			"HP Rock": "Hidden Power Rock",
 			"HP Steel": "Hidden Power Steel",
 			"HP Water": "Hidden Power Water",
-
 		},
 	
 	"Emerald Kaizo": 
@@ -368,88 +365,7 @@ moveChanges = {
         "Fissure": "Sandsear Storm",
         "Guillotine": "Bleakwind Storm",
         "Clamp": "Wildbolt Storm"
-    },
-    "Cascade White 2": {
-    	"Pound": "Concuss",
-		"Vise Grip": "Dual Wingbeat",
-		"Razor Wind": "Razor Winds",
-		"Slam": "Brutal Swing",
-		"Mega Kick": "High Horsepower",
-		"Rolling Kick": "Headlong Rush",
-		"Horn Attack": "Devour",
-		"Fury Attack": "Fire Lash",
-		"Sonicboom": "Scorching Swarm",
-		"Acid": "Parabolic Zap",
-		"Parabolic Charge": "Parabolic Zap",
-		"Mimic": "Psychic Noise",
-		"Withdraw": "Breaking Swipe",
-		"Bide": "Hidden Force",
-		"Constrict": "Infestation",
-		"Kinesis": "Lunge",
-		"Transform": "Phantom Strike",
-		"Bubble": "Chilling Water",
-		"Flash": "Sparkle",
-		"Splash": "Play Rough",
-		"Sharpen": "Nuzzle",
-		"Conversion": "Flip Turn",
-		"Spider Web": "Infernal Parade",
-		"Mind Reader": "Snap Trap",
-		"Conversion 2": "Spin Out",
-		"Spite": "Diamond Storm",
-		"Sweet Kiss": "Draining Kiss",
-		"Foresight": "Electro Shot",
-		"Lock-on": "Parting Shot",
-		"False Swipe": "Body Press",
-		"Frustration": "Temper Flare",
-		"Pain Split": "Seething Cold",
-		"Sacred Fire": "Mystical Fire",
-		"Magnitude": "Sticky Web",
-		"Psych Up": "Bitter Malice",
-		"Memento": "Obstruct",
-		"Smelling Salts": "Psychic Fangs",
-		"Trick": "Weather Crash",
-		"Role Play": "Barb Barrage",
-		"Snatch": "Victory Dance",
-		"Camouflage": "Trop Kick",
-		"Luster Purge": "Dazzling Gleam",
-		"Mist Ball": "Moonblast",
-		"Mud Sport": "Esper Wing",
-		"Ice Ball": "Boomburst",
-		"Odor Sleuth": "Eerie Impulse",
-		"Water Sport": "Wicked Blow",
-		"Miracle Eye": "Freeze Dry",
-		"Feint": "Confide",
-		"Embargo": "First Impression",
-		"1st Impression": "First Impression",
-		"Trump Card": "Spiky Shield",
-		"Heal Block": "Alluring Voice",
-		"Wring Out": "Scale Shot",
-		"Power Trick": "Petal Blizzard",
-		"Power Swap": "Psyblade",
-		"Guard Swap": "Clanging Scales",
-		"Punishment": "Wave Crash",
-		"Judgement": "Spirit Break",
-		"Roar of Time": "Starburst",
-		"Spacial Rend": "Steel Beam ",
-		"Lunar Dance": "Pollen Puff",
-		"Crush Grip": "Silk Trap",
-		"Guard Split": "Triple Axel",
-		"Power Split": "Triple Dive",
-		"Wonder Room": "Liquidation",
-		"Magic Room": "Power Trip",
-		"Smack Down": "Accelerock",
-		"Synchronoise": "Scorching Sands",
-		"Simple Beam": "Stompin Tantrum",
-		"Stomping Tantrum": "Stompin Tantrum",
-		"After You": "Ice Hammer",
-		"Round": "Disarming Voice",
-		"Quash": "Fairy Wind",
-		"Bolt Strike": "Zing Zap",
-		"Freeze Shock": "Meteor Beam",
-		"Ice Burn": "Solar Blade",
-		"Fusion Flare": "Skitter Smack",
-		"Fusion Bolt": "Baneful Bunker"
-	}
+    }
 }
 
 abilityChanges = {
@@ -503,54 +419,6 @@ abilityChanges = {
 
 
 itemChanges = {
-	"Cascade White 2": {
-		"Griseous Orb": "Throat Spray",
-		"Adamant Orb": "Fairy Dust",
-		"Lustrous Orb": "Trickster Herb",
-		"Wiki Berry": "Maranga Berry",
-		"Aguav Berry": "Kee Berry",
-		"Lansat Berry": "Roseli Berry",
-		"Macho Brace": "Tera Badge",
-		"Amulet Coin": "Ability Drill",
-		"Soul Dew": "Mascot Badge",
-		"Smoke Ball": "Protective Gear",
-		"Sea Incense": "Proto Armor",
-		"Lax Incense": "Attack Insurance",
-		"Lucky Punch": "Blunder Policy",
-		"Metal Powder": "Stress Tester ",
-		"Quick Powder": "Mysterious Device",
-		"Destiny Knot": "Clear Amulet",
-		"Grip Claw": "CLRS Armor",
-		"Power Bracer": "Assault Vest",
-		"Power Belt": "Fairy Gem",
-		"Power Lens": "Weakness Policy",
-		"Power Band": "CLRS Booster",
-		"Power Anklet": "Safety Goggles",
-		"Power Weight": "Proto Booster",
-		"Flame Plate": "Tera Specs",
-		"Splash Plate": "Tera C-Band",
-		"Zap Plate": "Tera Scarf",
-		"Meadow Plate": "Tera Orb",
-		"Iclcle Plate": "Tera Sash",
-		"Fist Plate": "Tera F-Band",
-		"Toxic Plate": "Tera Claw",
-		"Earth Plate": "Tera W-Policy",
-		"Sky Plate": "Tera B-Policy",
-		"Mind Plate": "Tera Powder",
-		"Insect Plate": "Tera Vest",
-		"Stone Plate": "Tera Insurance",
-		"Spooky Plate": "Tera Belt",
-		"Draco Plate": "Tera Leftovers",
-		"Dread Plate": "Tera Dice",
-		"Iron Plate": "Tera K-Rock",
-		"Odd Incense": "CLRS Invention",
-		"Rock Incense": "Proto Accelerator",
-		"Wave Incense": "Loaded Dice ",
-		"Rose Incense": "CLRS Accelerator",
-		"Float Stone": "Eject Pack",
-		"Ring Target": "Covert Cloak",
-		"Binding Band": "Utility Umbrella"
-	}
 }
 
 
@@ -559,6 +427,8 @@ if(typeof CHANGES === 'undefined') {
 } else {
 	moveChanges["NONE"] = CHANGES
 }
+
+
 
 
 function placeBsBtn() {
@@ -753,10 +623,12 @@ function isInt(value) {
 function getItem(currentRow, j) {
 	for (;j < currentRow.length; j++) {
 		var item = currentRow[j].trim();
+		let itemId = cleanString(item);
+
 		item = item.replace("’", "'");
 		if (calc.ITEMS[8].indexOf(item) != -1) {
-			if (itemChanges[TITLE] && itemChanges[TITLE][item]) {
-				return itemChanges[TITLE][item]
+			if (itemChanges[TITLE] && itemChanges[TITLE][itemId]) {
+				return ITEMS_BY_ID[gen][itemChanges[TITLE][itemId]].name
 			}
 			return item;
 		}

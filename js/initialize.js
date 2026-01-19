@@ -470,28 +470,6 @@ function loadMovesData() {
         continue
     }
 
-    if (TITLE.includes("Cascade")) {
-        jsonMoves["Hidden Power"].basePower = 70
-        jsonMoves["Hidden Force"].basePower = 70
-        typeNames = []
-        for (type in TYPES_BY_ID[gen]) {
-            typeNames.push(TYPES_BY_ID[gen][type].name)
-        }
-
-        for (type of typeNames) {
-            jsonMoves[`Hidden Power ${type}`] = {}
-            jsonMoves[`Hidden Power ${type}`].basePower = 70 
-            jsonMoves[`Hidden Power ${type}`].category = 'Special'
-
-            jsonMoves[`Hidden Force ${type}`] = {}
-            jsonMoves[`Hidden Force ${type}`].basePower = 70 
-            jsonMoves[`Hidden Force ${type}`].category = 'Physical'
-            jsonMoves[`Hidden Force ${type}`].type = type  
-        }
-
-    }
-
-
     moves[move]["bp"] = jsonMove["basePower"]
 
 
@@ -544,6 +522,7 @@ function loadMovesData() {
 
     // gen 5 data sources from pokeweb will only include multihit if it's a multihit move
     if (!jsonMove['multihit'] && (settings.damageGen == 5)) {
+         delete moves[move].multihit
          delete MOVES_BY_ID[g][moveId].multihit 
     }
   }
@@ -563,7 +542,38 @@ function loadMovesData() {
     }
   }
 
+    if (TITLE.includes("Cascade")) {
+        jsonMoves["Hidden Power"].basePower = 70
+        jsonMoves["Hidden Force"].basePower = 70
+        typeNames = []
+        for (type in TYPES_BY_ID[gen]) {
+            typeNames.push(TYPES_BY_ID[gen][type].name)
+        }
 
+        for (type of typeNames) {
+            jsonMoves[`Hidden Power ${type}`] = {}
+            jsonMoves[`Hidden Power ${type}`].basePower = 70 
+            jsonMoves[`Hidden Power ${type}`].category = 'Special'
+            jsonMoves[`Hidden Force ${type}`] = {}
+            jsonMoves[`Hidden Force ${type}`].basePower = 70 
+            jsonMoves[`Hidden Force ${type}`].category = 'Physical'
+            jsonMoves[`Hidden Force ${type}`].type = type  
+        }
+
+        // Need to be manually added in because these flags are hardcoded into the rom
+        // so they can't be exported by pokeweb
+        moves["Leech Life"].isBite = true
+        MOVES_BY_ID[gen].leechlife.flags.bite = true
+
+        moves["Devour"].isBite = true
+        MOVES_BY_ID[gen].devour.flags.bite = true
+
+        for (let moveID of ["shadowclaw","sacredsword","razorshell","dualchop","drillrun","solarblade","crosspoison","psychocut","xscissor","nightslash","airslash","psyblade","leafblade","dragonclaw","aerialace","aircutter","crushclaw","metalclaw","slash","furyswipes","drillpeck","razorwinds","scratch","furycutter","cut","razorleaf","secretsword"]) {
+            let moveName = MOVES_BY_ID[gen][moveID].name
+            moves[moveName].isSlicing = true;
+            MOVES_BY_ID[gen][moveID].flags.slice = true;
+        }
+    }
 }
 
 function loadDataSource(data) {
@@ -579,9 +589,16 @@ function loadDataSource(data) {
     TR_NAMES = get_trainer_names()
     if ('move_replacements' in data) {
         CHANGES = data['move_replacements']
+        moveChanges[TITLE] = data['move_replacements']
     } else {
         CHANGES = {}
     }
+    if ('ability_replacements' in data) {
+        abilityChanges[TITLE] = data['ability_replacements']
+    } 
+    if ('item_replacements' in data) {
+        itemChanges[TITLE] = data['item_replacements']
+    } 
     
     jsonMoves = data["moves"]
     customMoves = data["custom_moves"]
@@ -607,9 +624,6 @@ function loadDataSource(data) {
       sav_pok_growths = includes["growths"]
       sav_abilities = includes["abilities"]
     }
-
-
-
     $('#save-pok').show()
 
     // imperium changes
