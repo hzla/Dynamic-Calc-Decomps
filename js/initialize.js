@@ -283,6 +283,7 @@ if (SOURCES[params.get('data')]) {
 
     if ( TITLE.includes("Cascade")) {
         $('.cascade-effects .btn-small').show()
+        baseVersion = "BW2"
     }
 } else {
     TITLE = "NONE"
