@@ -7,6 +7,10 @@ function setSettingsDefaults() {
   trueHP = true
   fainted = []
   lastSetName = ""
+  lastAiTrainerName = ""
+  consecutiveSetChangesOnAiTrainer = 0;
+  lastPartyData = {}
+  lastSentSnapshot = {}
   disableKOChanceCalcs = false
   start = 0
   pokChanges = {}

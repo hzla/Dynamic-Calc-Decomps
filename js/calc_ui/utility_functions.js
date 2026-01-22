@@ -216,6 +216,15 @@ function formatString(str) {
     .join(' ');
 }
 
+function deepEqualJSON(a, b) {
+  return JSON.stringify(a) === JSON.stringify(b);
+}
+
+function getTrainerName(str) {
+  const m = str.match(/\(Lvl\s+\d+\s+([^)]+)\)/);
+  return m ? m[1] : null;
+}
+
 function padArray(array, length, fill) {   return length > array.length ? array.concat(Array(length - array.length).fill(fill)) : array; }
 
 function construct_type_chart() {

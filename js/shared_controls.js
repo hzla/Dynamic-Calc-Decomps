@@ -816,7 +816,6 @@ $(".set-selector").change(function () {
 
 				$('#ai-tags').html("")
 				if (typeof ai != "undefined") {
-					console.log(ai)
 					for (tag of ai) {
 						if (tag == "Ace Pokemon" || tag == "Powerful Status" || tag == "Force Setup First Turn") {
 							$('#ai-tags').append(`<div>${tag}</div>`)
@@ -1063,6 +1062,34 @@ $(".set-selector").change(function () {
 		return
 	}
 	lastSetName = fullSetName
+
+
+	// Keep track of how many consecutive set chnages with the same valid party
+	if ($(this).hasClass('opposing')) {
+		let trainerName = getTrainerName(fullSetName)
+		let currentPartyData = getPartyData()
+
+		if (trainerName != lastAiTrainerName || currentPartyData.length < 6) {
+			lastAiTrainerName = getTrainerName(fullSetName)
+			consecutiveSetChangesOnAiTrainer = 0;
+		} else {
+			if (deepEqualJSON(currentPartyData, lastPartyData)) {
+				consecutiveSetChangesOnAiTrainer++;
+			} else {
+				lastPartyData = currentPartyData
+				consecutiveSetChangesOnAiTrainer = 0;
+			}			
+		}
+	}
+
+	if (consecutiveSetChangesOnAiTrainer >= 4) {
+		let newSnapshot = getSnapshot()
+		if (!deepEqualJSON(newSnapshot, lastSentSnapshot)) {
+			lastSentSnapshot = newSnapshot
+			// send snapshot here
+			console.log(`sending new snapshot: ${consecutiveSetChangesOnAiTrainer} consecutive set changes`)
+		} 
+	}
 
 
 

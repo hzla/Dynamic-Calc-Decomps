@@ -1,5 +1,6 @@
 // ==== SUPABASE / TELEMETRY CONFIG ====
 window.SUPABASE_PROJECT_REF = "tmtxxtngxgqsikfahhix";
+window.SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRtdHh4dG5neGdxc2lrZmFoaGl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg5NDcwOTUsImV4cCI6MjA4NDUyMzA5NX0.Dnx73Xp97wikHiiQh8iX-O_o_SSV7znWH8OHLR7sKl8"
 
 
 function supabaseUsageUrl() {
@@ -40,8 +41,10 @@ function getSnapshot() {
 	// tr can be string or int; normalize to string-ish here
 	snapshot.tr =
 		(currentAiPok && currentAiPok.tr_id != null && String(currentAiPok.tr_id)) ||
-		(lastSetName && String(lastSetName).includes("(") ? String(lastSetName).split("(")[1].split(")")[0] : "") ||
+		lastAiTrainerName ||
 		"";
+
+	console.log(snapshot.tr)
 
 	snapshot.party = partyData;
 	snapshot.title = typeof TITLE !== "undefined" ? String(TITLE) : "";
@@ -70,11 +73,6 @@ async function postSnapshotToSupabase(snapshot) {
 		"Content-Type": "application/json",
 	};
 
-	// Only include if you're actually enforcing it in the function
-	if (window.SUPABASE_USAGE_SECRET && window.SUPABASE_USAGE_SECRET !== "<USAGE_SECRET>") {
-		headers["X-Usage-Secret"] = window.SUPABASE_USAGE_SECRET;
-	}
-
 	const res = await fetch(url, {
 		method: "POST",
 		headers,
@@ -101,11 +99,104 @@ async function submitCurrentSnapshot() {
 }
 
 
-// ==== Expose helpers globally (since you're not using modules) ====
+// ==== Expose helpers globally ====
 window.getPartyData = getPartyData;
 window.getSnapshot = getSnapshot;
 window.postSnapshotToSupabase = postSnapshotToSupabase;
 window.submitCurrentSnapshot = submitCurrentSnapshot;
+
+
+// ==== SUPABASE STATS (plain JS, no modules) ====
+
+// Returns: https://<ref>.supabase.co/rest/v1/<view>?...
+function supabaseRestUrl(viewName) {
+	return "https://" + window.SUPABASE_PROJECT_REF + ".supabase.co/rest/v1/" + viewName;
+}
+
+// Encode for PostgREST filters: title=eq.<value>
+function postgrestEq(key, value) {
+	return key + "=eq." + encodeURIComponent(String(value));
+}
+
+async function fetchFromStatsView(viewName, { title, tr, limit }) {
+	if (!window.SUPABASE_PROJECT_REF) {
+		throw new Error("SUPABASE_PROJECT_REF not set");
+	}
+	if (!window.SUPABASE_ANON_KEY || window.SUPABASE_ANON_KEY === "<YOUR_SUPABASE_ANON_KEY>") {
+		throw new Error("SUPABASE_ANON_KEY not set");
+	}
+
+	const q = [];
+	q.push("select=*");
+	if (title != null) q.push(postgrestEq("title", title));
+	if (tr != null) q.push(postgrestEq("tr", tr));
+	q.push("order=uses.desc");
+	q.push("limit=" + (limit || 50));
+
+	const url = supabaseRestUrl(viewName) + "?" + q.join("&");
+
+	const res = await fetch(url, {
+		method: "GET",
+		headers: {
+			apikey: window.SUPABASE_ANON_KEY,
+			Authorization: "Bearer " + window.SUPABASE_ANON_KEY,
+		},
+	});
+
+	const text = await res.text();
+	let data;
+	try { data = JSON.parse(text); } catch { data = { raw: text }; }
+
+	if (!res.ok) {
+		return { ok: false, status: res.status, data };
+	}
+	return { ok: true, data };
+}
+
+// Convenience: infer current title/tr from your existing state
+function getCurrentTitleAndTr() {
+	const snap = (typeof getSnapshot === "function") ? getSnapshot() : null;
+	const title = (snap && snap.title) ? snap.title : (typeof TITLE !== "undefined" ? String(TITLE) : "");
+	const tr = (snap && snap.tr) ? snap.tr : "";
+	return { title, tr };
+}
+
+// --- Public helpers ---
+
+async function fetchTopSpecies(opts) {
+	opts = opts || {};
+	const { title, tr } = getCurrentTitleAndTr();
+	return await fetchFromStatsView("v_stats_species", {
+		title: opts.title != null ? opts.title : title,
+		tr: opts.tr != null ? opts.tr : tr,
+		limit: opts.limit != null ? opts.limit : 50,
+	});
+}
+
+async function fetchTopMoves(opts) {
+	opts = opts || {};
+	const { title, tr } = getCurrentTitleAndTr();
+	return await fetchFromStatsView("v_stats_moves", {
+		title: opts.title != null ? opts.title : title,
+		tr: opts.tr != null ? opts.tr : tr,
+		limit: opts.limit != null ? opts.limit : 50,
+	});
+}
+
+async function fetchTopItems(opts) {
+	opts = opts || {};
+	const { title, tr } = getCurrentTitleAndTr();
+	return await fetchFromStatsView("v_stats_items", {
+		title: opts.title != null ? opts.title : title,
+		tr: opts.tr != null ? opts.tr : tr,
+		limit: opts.limit != null ? opts.limit : 50,
+	});
+}
+
+// Expose globally (no modules)
+window.fetchTopSpecies = fetchTopSpecies;
+window.fetchTopMoves = fetchTopMoves;
+window.fetchTopItems = fetchTopItems;
 
 
 
