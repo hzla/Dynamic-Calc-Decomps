@@ -44,8 +44,6 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
     let defenderField = defenderVAttackerResults[0].field
     let attackerField = attackerVDefenderResults[0].field
 
-
-
     let defenderFastestKill = 100
     let attackerFastestKill = 100
 
@@ -91,7 +89,6 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         currentTypeMatchup = 2
     }
 
-
     // check player moves against AI pok
     for (moveIndex in attacker.moves) {
         let move = attacker.moves[moveIndex]
@@ -101,13 +98,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             continue;
         }
 
-
-
-
         damage = attackerVDefenderResults[moveIndex].damage
-
-
-
         if (damage.length == 16) {
             damage = damage.map(() => damage[8])
 
@@ -211,10 +202,6 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         let koData = getKOChance(genInfo, defender, attacker, move, defenderField, damage, false)
         let turnsToKill = koData.n
 
-        if (defender.name == "Greninja") {
-            console.log("here")
-        }
-
 
         // 0 means too insignificant to matter
         if (turnsToKill == 0) {
@@ -308,15 +295,6 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
     let debug = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill, attackerFastestPrioKill: attackerFastestPrioKill, isFaster: isFaster, movesFirst: movesFirst, winsMidTurn1v1: winsMidTurn1v1}
     
-    // console.log(debug)
-    // console.log(`${defender.name} using ${bestMove} kills in ${defenderFastestKill}`)
-    // console.log(`${attacker.name} kills in ${attackerFastestKill}`)
-    // console.log(`${defender.name} faster: ${isFaster}, movesFirst: ${movesFirst}, winsMidTurn1v1: ${winsMidTurn1v1}`)       
-
-    
-
-
-
 
     let matchupData = {aiHasSE: aiHasSE, defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill}
 
@@ -465,6 +443,7 @@ function get_next_in() {
         return get_next_in_g5()
     }
 
+    isDoubles = $('#doubles-format').is(":checked")
     lvlCap = parseInt($('#lvl-cap').val())
 
     var trainer_poks = [...CURRENT_TRAINER_POKS]
@@ -591,53 +570,70 @@ function get_next_in() {
             
       
             // Check for trappers, revenge killers, and good matchups
-            if (matchup.wins1v1) {
-                analysis += "<div class='bp-info switch-info'>Wins 1v1</div>" 
-                // trapper
-                if (matchup.isTrapper && matchup.wins1v1) {
-                    switchInScore += 20000
-                    analysis += "<div class='bp-info switch-info'>Trapper</div>"
-                // fast ohko
-                } else if (matchup.isRevenge && matchup.isFaster) {
-                    switchInScore += sub_index
-                    switchInScore += 10000 
-                    analysis += `<div class='bp-info switch-info'>Fast Ohko ${matchup.move}</div>`
-                // slow ohko
-                } else if (matchup.isRevenge && !matchup.isFaster) {
-                    switchInScore += sub_index
-                    switchInScore += 9500
-                    analysis += `<div class='bp-info switch-info'>Slow Ohko ${matchup.move}</div>` 
-                // fast 2hko
-                } else if (matchup.isThreaten && matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
-                    switchInScore += sub_index
-                    switchInScore += 9000 
-                    analysis += `<div class='bp-info switch-info'>Fast 2Hko ${matchup.move}</div>` 
-                // slow 2hko
-                } else if (matchup.isThreaten && !matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
-                    switchInScore += sub_index
-                    switchInScore += 8500
-                    analysis += `<div class='bp-info switch-info'>Slow 2Hko ${matchup.move}</div>` 
-                // good matchup
-                } else if (type_matchup < 2) {
-                    // analysis += "<div class='bp-info switch-info'>Good MU</div>" 
-                    analysis += `<div class='bp-info switch-info'>${matchup.isFaster ? "Fast" : "Slow"} ${matchup.defenderFastestKill}Hko ${matchup.move}</div>` 
+            if (isDoubles) {
+                switchInScore = 0
+                // If a pokemon has a good defensive type matchup (<2) AND a super effective damaging move, 
+                // it is considered a good candidate and can be sent out. The candidates are ranked from lowest 
+                // type matchup value to highest (0.5 outranking 1.5). In case of ties, the AI will send a pokemon 
+                // in party order, from the front of the party to the back. 
+                if (type_matchup < 2) {
+                    switchInScore -= sub_index
                     switchInScore += 4000 * (2 - type_matchup)
-                // wins 1v1
+                    analysis += `<div class='bp-info switch-info'>Good MU</div>` 
                 } else {
-                    switchInScore += sub_index
-                    analysis += `<div class='bp-info switch-info'>${matchup.isFaster ? "Fast" : "Slow"} ${matchup.defenderFastestKill}Hko ${matchup.move}</div>` 
-                    switchInScore += 300
-                }
-            // loses 1v1
-            } else {
-                analysis += `<div class='bp-info switch-info'>Loses 1v1</div>` 
-                if (!matchup.isOhkod) {
-                    switchInScore += sub_index / 100
+                    switchInScore -= sub_index / 100
                     switchInScore += Math.min(matchup.maxDmg / 10, currentHp)
                     analysis += `<div class='bp-info switch-info'>Deals ${Math.min(matchup.maxDmg, currentHp)} ${matchup.move}</div>` 
+                }                
+            } else {
+                if (matchup.wins1v1) {
+                    analysis += "<div class='bp-info switch-info'>Wins 1v1</div>" 
+                    // trapper
+                    if (matchup.isTrapper && matchup.wins1v1) {
+                        switchInScore += 20000
+                        analysis += "<div class='bp-info switch-info'>Trapper</div>"
+                    // fast ohko
+                    } else if (matchup.isRevenge && matchup.isFaster) {
+                        switchInScore += sub_index
+                        switchInScore += 10000 
+                        analysis += `<div class='bp-info switch-info'>Fast Ohko ${matchup.move}</div>`
+                    // slow ohko
+                    } else if (matchup.isRevenge && !matchup.isFaster) {
+                        switchInScore += sub_index
+                        switchInScore += 9500
+                        analysis += `<div class='bp-info switch-info'>Slow Ohko ${matchup.move}</div>` 
+                    // fast 2hko
+                    } else if (matchup.isThreaten && matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
+                        switchInScore += sub_index
+                        switchInScore += 9000 
+                        analysis += `<div class='bp-info switch-info'>Fast 2Hko ${matchup.move}</div>` 
+                    // slow 2hko
+                    } else if (matchup.isThreaten && !matchup.isFaster && !matchup.move.includes("Explosion") && !matchup.move != "Self-Destruct") {
+                        switchInScore += sub_index
+                        switchInScore += 8500
+                        analysis += `<div class='bp-info switch-info'>Slow 2Hko ${matchup.move}</div>` 
+                    // good matchup
+                    } else if (type_matchup < 2) {
+                        // analysis += "<div class='bp-info switch-info'>Good MU</div>" 
+                        analysis += `<div class='bp-info switch-info'>Good MU</div>` 
+                        switchInScore += 4000 * (2 - type_matchup)
+                    // wins 1v1
+                    } else {
+                        switchInScore += sub_index
+                        analysis += `<div class='bp-info switch-info'>${matchup.isFaster ? "Fast" : "Slow"} ${matchup.defenderFastestKill}Hko ${matchup.move}</div>` 
+                        switchInScore += 300
+                    }
+                // loses 1v1
                 } else {
-                    analysis += `<div class='bp-info switch-info'>Is Ohko'd</div>` 
-                }
+                    analysis += `<div class='bp-info switch-info'>Loses 1v1</div>` 
+                    if (!matchup.isOhkod) {
+                        switchInScore += sub_index / 100
+                        switchInScore += Math.min(matchup.maxDmg / 10, currentHp)
+                        analysis += `<div class='bp-info switch-info'>Deals ${Math.min(matchup.maxDmg, currentHp)} ${matchup.move}</div>` 
+                    } else {
+                        analysis += `<div class='bp-info switch-info'>Is Ohko'd</div>` 
+                    }
+                }    
             }
 
             if (switchInScore == 0) {
@@ -657,33 +653,39 @@ function get_next_in() {
         
             let midTurnScore = 0
 
-            if (matchup.winsMidTurn1v1) {
-                // analysis += `<div class='bp-info switch-info'>Can Switch</div>` 
-                if (matchup.isTrapper) {
-                    midTurnScore += 20000
-                } 
-                else if (type_matchup < 2) {
-                    midTurnScore += 4000 * (2 - type_matchup)
-                    midTurnScore -= sub_index
-
-                    
-                    if (matchup.aiHasSE) {
-                        midTurnScore += 8000
-                    }
-                } 
-                else if (matchup.attackerFastestKill > 3) {
-                    midTurnScore += 300
-                    midTurnScore += sub_index
-                    analysis += `<div class='bp-info switch-info'>Walls You</div>` 
-                }
-                else {
-                    midTurnScore += sub_index
-                }
-                analysis += `</div><div class="switch-infos"><div class='bp-info switch-info mt-switch-score'>${Math.round(midTurnScore * 100) / 100 }</div>` 
+            
+            if (isDoubles) {
+                analysis += `</div><div class="switch-infos"><div class='bp-info switch-info mt-switch-score'>Can't Switch</div>` 
             } else {
-                analysis += `</div><div class="switch-infos"><div class='bp-info switch-info mt-switch-score loses'>-1000</div>` 
-                analysis += `<div class='bp-info switch-info mt-switch-move loses'>${matchup.attackerBestMove}</div>`         
+                if (matchup.winsMidTurn1v1) {
+                    // analysis += `<div class='bp-info switch-info'>Can Switch</div>` 
+                    if (matchup.isTrapper) {
+                        midTurnScore += 20000
+                    } 
+                    else if (type_matchup < 2) {
+                        midTurnScore += 4000 * (2 - type_matchup)
+                        midTurnScore -= sub_index
+
+                        
+                        if (matchup.aiHasSE) {
+                            midTurnScore += 8000
+                        }
+                    } 
+                    else if (matchup.attackerFastestKill > 3) {
+                        midTurnScore += 300
+                        midTurnScore += sub_index
+                        analysis += `<div class='bp-info switch-info'>Walls You</div>` 
+                    }
+                    else {
+                        midTurnScore += sub_index
+                    }
+                    analysis += `</div><div class="switch-infos"><div class='bp-info switch-info mt-switch-score'>${Math.round(midTurnScore * 100) / 100 }</div>` 
+                } else {
+                    analysis += `</div><div class="switch-infos"><div class='bp-info switch-info mt-switch-score loses'>-1000</div>` 
+                    analysis += `<div class='bp-info switch-info mt-switch-move loses'>${matchup.attackerBestMove}</div>`         
+                }    
             }
+            
 
             analysis += `<div class='bp-info switch-info switch-score'>${Math.round(switchInScore * 100) / 100 }</div></div>` 
 
@@ -758,7 +760,12 @@ function simplifySwitchScores() {
         if (score < 0) {
             $(this).text("Loses 1v1 after")
         } else {
-            $(this).text(`Mid Turn Prio: ${order + 1}`)   
+            if (isDoubles) {
+                $(this).text(`No MT Switch`)  
+            } else {
+                $(this).text(`Mid Turn Prio: ${order + 1}`)   
+            }
+            
         }
 
             
