@@ -88,6 +88,7 @@ async function postSnapshotToSupabase(snapshot) {
 		// Don't throw by default; return structured error for UI to handle
 		return { ok: false, status: res.status, data };
 	}
+	lastSentSnapshot = snapshot
 	return data;
 }
 

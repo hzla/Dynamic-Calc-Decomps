@@ -221,7 +221,7 @@ function deepEqualJSON(a, b) {
 }
 
 function getTrainerName(str) {
-  const m = str.match(/\(Lvl\s+\d+\s+([^)]+)\)/);
+  const m = str.match(/\(Lvl\s+-?\d+\s+([^)]+)\)/);
   return m ? m[1] : null;
 }
 

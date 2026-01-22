@@ -1064,7 +1064,7 @@ $(".set-selector").change(function () {
 	lastSetName = fullSetName
 
 
-	// Keep track of how many consecutive set chnages with the same valid party
+
 	if ($(this).hasClass('opposing')) {
 		let trainerName = getTrainerName(fullSetName)
 		let currentPartyData = getPartyData()
@@ -1081,13 +1081,12 @@ $(".set-selector").change(function () {
 			}			
 		}
 	}
-
 	if (consecutiveSetChangesOnAiTrainer >= 4) {
 		let newSnapshot = getSnapshot()
 		if (!deepEqualJSON(newSnapshot, lastSentSnapshot)) {
-			lastSentSnapshot = newSnapshot
-			// send snapshot here
-			console.log(`sending new snapshot: ${consecutiveSetChangesOnAiTrainer} consecutive set changes`)
+			if (localStorage.enableAnalytics == '1') {	
+				submitCurrentSnapshot().then(console.log);
+			}
 		} 
 	}
 

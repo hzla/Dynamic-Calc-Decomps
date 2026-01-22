@@ -11,6 +11,7 @@ function setSettingsDefaults() {
   consecutiveSetChangesOnAiTrainer = 0;
   lastPartyData = {}
   lastSentSnapshot = {}
+  customSets = {}
   disableKOChanceCalcs = false
   start = 0
   pokChanges = {}
@@ -31,6 +32,10 @@ function setSettingsDefaults() {
 
   if (typeof localStorage.boxspriteindex === 'undefined') {
     localStorage.boxspriteindex = 1
+  }
+
+  if (typeof localStorage.enableAnalytics === 'undefined') {
+    localStorage.enableAnalytics = 1
   }
 
   if (typeof localStorage.showAdditionalFieldOptions === 'undefined') {
@@ -150,6 +155,9 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.highlightMoves == '1') {
         $('#toggle-hl-moves input').prop('checked', true)
     }
+    if (localStorage.enableAnalytics == '1') {
+        $('#toggle-analytics input').prop('checked', true)
+    }
 }
 
 function toggleBoxSpriteStyle() {
@@ -180,6 +188,10 @@ function toggle_box_rolls() {
     localStorage.boxrolls = (parseInt(localStorage.boxrolls) + 1) % 2   
 }
 
+function toggle_analytics() {
+    localStorage.enableAnalytics = (parseInt(localStorage.enableAnalytics) + 1) % 2   
+}
+
 function toggle_additional_field_options() {
     localStorage.showAdditionalFieldOptions = (parseInt(localStorage.showAdditionalFieldOptions) + 1) % 2   
 }
@@ -188,6 +200,8 @@ function toggle_additional_field_options() {
 // Settings Event Bindings
 
 $('#theme-toggle .slider').click(toggleThemes)
+
+$('#toggle-analytics .slider').click(toggle_analytics)
 
 $('#toggle-boxroll .slider').click(function(){
     toggle_box_rolls()
