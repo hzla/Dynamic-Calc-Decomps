@@ -121,6 +121,9 @@ $(document).ready(function() {
                         } else {
                             console.log("now reading box from block 1")
                         }
+                    } else if (baseGame == "BW") {
+                            const tidSid =  read32BitIntegerFromUint8Array(view,  0x19414); // BW2
+                            localStorage.lastTid = tidSid;  
                     }
 
                     // Step 1: Get 'n' from offset 0x9C (single byte)
@@ -133,7 +136,6 @@ $(document).ready(function() {
                     partyMons = {}
                     partyPIDs = []
 
-                    console.log(partyCount)
 
                     // Step 2: Loop 'n' times to read and decrypt each 236-byte chunk       
                     CHUNK_SIZE = partyPokSize
@@ -214,11 +216,10 @@ $(document).ready(function() {
                 }
                 
                 // try {
-                    processSaveFile(true); // Retry with forceBlock2=true
-                    console.log('Retry with forceBlock2=true succeeded');
+                processSaveFile(true); // Retry with forceBlock2=true
+                console.log('Retry with forceBlock2=true succeeded');
                 // } catch (retryError) {
                 //     console.error('Both attempts failed:', retryError.message);
-                //     // You might want to show an error message to the user here
                 //     alert('Failed to load save file. The file may be corrupted or incompatible.');
                 // }
             }

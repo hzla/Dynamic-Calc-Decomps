@@ -1,7 +1,7 @@
 /**
  * Convert mastersheet JSON (masterData + trainers + encounters) into HTML.
  *
- * Assumptions / conventions (adjust in the helpers below if yours differ):
+ * Assumptions / conventions:
  * - masterData elements:
  *   - { tag: "h1"|"h3"|"h4"|"p", content, content_parts? }
  *   - { tag: "li", content, content_parts? }   // auto-grouped into <ul>...</ul>
@@ -11,9 +11,6 @@
  * - trainers and encounters are arrays indexed by id (trainers[id], encounters[id]).
  *   If yours are 1-indexed or use different keys, change getTrainer/getEncounter.
  *
- * Usage:
- *   const html = renderMasterData(masterData, trainers, encounters);
- *   document.querySelector("#content-container").innerHTML = renderMasterData(masterData, trainersById, encountersById);
  */
 
 function renderMasterData(masterData, trainersById, encountersById) {
@@ -68,8 +65,7 @@ function renderMasterData(masterData, trainersById, encountersById) {
       }
 
       default: {
-        // If you have other custom tags, handle them here.
-        // For now, ignore unknown tags.
+        // Custom Tags
         break;
       }
     }

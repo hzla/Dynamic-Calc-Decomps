@@ -161,7 +161,7 @@ if (TITLE.includes("Imperium")) {
                             let pid = saveFile.getUint32(offset, true)
                             offset += 4
                             let tid = saveFile.getUint32(offset, true)
-                            console.log(tid)
+                            localStorage.lastTid = tid
 
 
                             offset += 4
