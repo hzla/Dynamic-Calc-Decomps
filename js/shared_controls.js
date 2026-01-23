@@ -1084,7 +1084,7 @@ $(".set-selector").change(function () {
 	if (consecutiveSetChangesOnAiTrainer >= 4) {
 		let newSnapshot = getSnapshot()
 		if (!deepEqualJSON(newSnapshot, lastSentSnapshot)) {
-			if (localStorage.enableAnalytics == '1') {	
+			if (localStorage.enableAnalytics == '1' && localStorage.randomized != '1') {	
 				submitCurrentSnapshot().then(console.log);
 			}
 		} 

@@ -207,7 +207,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         }
     }
     if (move.name.includes("Hidden Power") && calcingForSwitchIns && attacker.name != p1Name) {
-        type = 'Normal';
+        type = 'Dark';
     }
 
     var hasAteAbilityTypeChange = false;
