@@ -721,6 +721,22 @@ html, body {
     width:  auto;
 }
 
+
+#dynamic-type-bug {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    display: none;
+}
+
+#dynamic-type-bug .menu-label {
+    margin-right: 10px;
+}
+
+#dynamic-type-bug .switch {
+    width: 40px;
+}
+
 table td {
     padding:  0;
 }

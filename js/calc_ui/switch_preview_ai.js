@@ -219,8 +219,8 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             }
         }
 
-        // 2hko means threatener
-        if (damage[0] > attacker.originalCurHP / 2) {
+        // 2hko means threatener, ignore explosion
+        if (damage[0] > attacker.originalCurHP / 2 && move.name != "Explosion") {
             isThreaten = true
 
             if (move.priority && defenderFastestKill >= 2) {
@@ -294,8 +294,6 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
 
 
     let debug = {defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill, attackerFastestPrioKill: attackerFastestPrioKill, isFaster: isFaster, movesFirst: movesFirst, winsMidTurn1v1: winsMidTurn1v1}
-    
-
     let matchupData = {aiHasSE: aiHasSE, defenderBestMoveHasPrio: defenderBestMoveHasPrio, attackerBestMoveHasPrio: attackerBestMoveHasPrio, wins1v1: wins1v1, isFaster: movesFirst, isRevenge: isRevenge, isThreaten: isThreaten, maxDmg: highestDmgDealt, move: bestMove, attackerBestMove: attackerBestMove, isTrapper: isTrapper, isOhkod: isOhkod, winsMidTurn1v1: winsMidTurn1v1, attackerFastestKill: attackerFastestKill, defenderFastestKill: defenderFastestKill}
 
     disableKOChanceCalcs = false

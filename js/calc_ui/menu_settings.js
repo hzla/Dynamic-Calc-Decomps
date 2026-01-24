@@ -70,6 +70,10 @@ function setSettingsDefaults() {
     localStorage.filterAbilities = 1
   }
 
+  if (typeof localStorage.dynamicTypeBug === 'undefined') {
+    localStorage.dynamicTypeBug = 1
+  }
+
   if (typeof localStorage.themeIndex === 'undefined') {
     localStorage.themeIndex = 1
   }
@@ -151,12 +155,17 @@ function setSettingsTogglesFromLocalStorage() {
 
     if (localStorage.switchInfo == '1') {
         $('#toggle-switch-info input').prop('checked', true)
+        $('#dynamic-type-bug').css('display', 'flex')
     }
     if (localStorage.highlightMoves == '1') {
         $('#toggle-hl-moves input').prop('checked', true)
     }
     if (localStorage.enableAnalytics == '1') {
         $('#toggle-analytics input').prop('checked', true)
+    }
+
+    if (localStorage.dynamicTypeBug == '1') {
+        $('#dynamic-type-bug input').prop('checked', true)
     }
 }
 
@@ -188,6 +197,11 @@ function toggle_box_rolls() {
     localStorage.boxrolls = (parseInt(localStorage.boxrolls) + 1) % 2   
 }
 
+function toggle_dynamic_type_bug() {
+    localStorage.dynamicTypeBug = (parseInt(localStorage.dynamicTypeBug) + 1) % 2
+    location.reload()     
+}
+
 function toggle_analytics() {
     localStorage.enableAnalytics = (parseInt(localStorage.enableAnalytics) + 1) % 2   
 }
@@ -200,6 +214,7 @@ function toggle_additional_field_options() {
 // Settings Event Bindings
 
 $('#theme-toggle .slider').click(toggleThemes)
+$('#dynamic-type-bug .slider').click(toggle_dynamic_type_bug)
 
 $('#toggle-analytics .slider').click(toggle_analytics)
 

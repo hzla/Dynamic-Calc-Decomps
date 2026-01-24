@@ -50,6 +50,9 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         isWonderRoom: field.isWonderRoom
     };
 
+    dynamicTypeBugActive = (calcingForSwitchIns && attacker.name != p1Name && localStorage.dynamicTypeBug == '1')
+    console.log(dynamicTypeBugActive)
+
     if (calcingForSwitchIns) {
         if (typeof field.weather == 'undefined') {
             field.weather = $("input:radio[name='weather']:checked").val();
@@ -206,7 +209,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             type = 'Water';
         }
     }
-    if (move.name.includes("Hidden Power") && calcingForSwitchIns && attacker.name != p1Name) {
+    if (move.name.includes("Hidden Power") && dynamicTypeBugActive) {
         type = 'Dark';
     }
 
@@ -218,7 +221,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     var isLiquidVoice = false;
     var isNormalize = false;
     var noTypeChange = move.named('Revelation Dance', 'Judgment', 'Nature Power', 'Techno Blast', 'Multi-Attack', 'Natural Gift', 'Weather Ball', 'Terrain Pulse', 'Raging Bull', 'Struggle') || (move.named('Tera Blast') && attacker.teraType);
-    if (!move.isZ && !noTypeChange) {
+    if (!move.isZ && !noTypeChange && !dynamicTypeBugActive) {
         var normal = move.hasType('Normal');
         if ((isAerilate = attacker.hasAbility('Aerilate') && normal)) {
             type = 'Flying';
@@ -1340,6 +1343,7 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
         }
         desc.attackerItem = attacker.item;
     }
+    // ignore resist berries when calcing for switch ins
     if (!calcingForSwitchIns && move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
         (typeEffectiveness > 1 || move.hasType('Normal')) &&
         hitCount === 0 &&

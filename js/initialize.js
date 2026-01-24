@@ -60,6 +60,8 @@ let bestAiDmgAgainstCurrent      = 0;
 let bestAiMoveAgainstCurrent     = "";
 let currentTypeMatchup           = 2;
 
+let dynamicTypeBugActive = true;
+
 // --- Defaults ---------------------------------------------------------------
 
 setSettingsDefaults();
