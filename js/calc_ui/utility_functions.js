@@ -98,6 +98,72 @@ function updateBoxAnim() {
     }, 500)
 }
 
+function pack12BitInts(values, maxLen = 100) {
+  if (!Array.isArray(values)) throw new TypeError("values must be an array");
+  if (values.length > maxLen) throw new RangeError(`max ${maxLen} values`);
+
+  const n = values.length;
+  const totalBits = n * 12;
+  const out = new Uint8Array((totalBits + 7) >> 3);
+
+  let bitPos = 0;
+
+  for (let i = 0; i < n; i++) {
+    const v = values[i];
+    if (!Number.isInteger(v)) throw new TypeError(`values[${i}] not an integer`);
+    if (v < 0 || v > 2047) throw new RangeError(`values[${i}] out of range: ${v}`);
+
+    let x = v; // already 0..2047
+    for (let b = 0; b < 12; b++) {
+      const byteIndex = bitPos >> 3;
+      const bitIndex = bitPos & 7;
+      if (x & 1) out[byteIndex] |= (1 << bitIndex);
+      x >>= 1;
+      bitPos++;
+    }
+  }
+  return out;
+}
+
+function bytesToBase64(bytes) {
+  let bin = "";
+  for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+  return btoa(bin);
+}
+
+function pack12BitIntsToBase64(values, maxLen = 100) {
+  return bytesToBase64(pack12BitInts(values, maxLen));
+}
+
+/**
+ * Optional decoder (useful for testing roundtrips).
+ */
+function unpack12BitInts(bytes, count) {
+  if (!(bytes instanceof Uint8Array)) throw new TypeError("bytes must be Uint8Array");
+  if (!Number.isInteger(count) || count < 0 || count > 100) throw new RangeError("bad count");
+
+  const neededBits = count * 12;
+  if (bytes.length * 8 < neededBits) throw new RangeError("not enough data");
+
+  const out = new Array(count);
+  let bitPos = 0;
+
+  for (let i = 0; i < count; i++) {
+    let x = 0;
+    for (let b = 0; b < 12; b++) {
+      const byteIndex = bitPos >> 3;
+      const bitIndex = bitPos & 7;
+      const bit = (bytes[byteIndex] >> bitIndex) & 1;
+      x |= (bit << b); // LSB-first
+      bitPos++;
+    }
+    out[i] = x + 1; // back to 1..2048
+  }
+
+  return out;
+}
+
+
 function checkAndLoadScript(src, options = {}) {
     const {
         onLoad = null,

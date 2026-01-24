@@ -31,29 +31,61 @@ function getPartyData() {
 	return partyData;
 }
 
+function getBoxData() {
+  const boxIds = [];
+  const pok_names = TITLE.includes("Imperium") ? emImpMons : sav_pok_names;
+
+  for (const speciesName in (customSets || {})) {
+    const speciesId = pok_names.indexOf(speciesName);
+    if (speciesId !== -1) boxIds.push(speciesId);
+  }
+
+  const boxCount = boxIds.length;
+
+  // already returns base64
+  const boxDataB64 = pack12BitIntsToBase64(boxIds);
+
+  function b64ByteLen(b64) {
+	  // base64 length to byte length (no padding issues if you do it this way)
+	  const bin = atob(b64);
+	  return bin.length;
+	}
+
+	console.log("boxCount:", boxCount);
+	console.log("b64 bytes:", b64ByteLen(boxDataB64));
+	console.log("expected packed bytes:", Math.ceil((boxCount * 12) / 8));
+
+	// also inspect the first few decoded chars; packed data will look non-printable
+	const sample = atob(boxDataB64).slice(0, 40);
+	console.log("decoded sample:", sample);
+
+  return { boxDataB64, boxCount };
+}
+
 function getSnapshot() {
-	const partyData = getPartyData();
-	const currentAiPok = get_current_in?.();
+  const partyData = getPartyData();
+  const currentAiPok = get_current_in?.();
+  const { boxDataB64, boxCount } = getBoxData();
 
-	if (partyData.length < 6) return null;
+  if (partyData.length < 6) return null;
 
-	const snapshot = {};
-	// tr can be string or int; normalize to string-ish here
-	snapshot.tr =
-		(currentAiPok && currentAiPok.tr_id != null && String(currentAiPok.tr_id)) ||
-		lastAiTrainerName ||
-		"";
+  const snapshot = {};
+  snapshot.tr =
+    (currentAiPok && currentAiPok.tr_id != null && String(currentAiPok.tr_id)) ||
+    lastAiTrainerName ||
+    "";
 
-	console.log(snapshot.tr)
+  snapshot.party = partyData;
+  snapshot.title = typeof TITLE !== "undefined" ? String(TITLE) : "";
+  snapshot.tid = (localStorage && localStorage.lastTid) ? String(localStorage.lastTid) : "";
 
-	snapshot.party = partyData;
-	snapshot.title = typeof TITLE !== "undefined" ? String(TITLE) : "";
-	snapshot.tid = (localStorage && localStorage.lastTid) ? String(localStorage.lastTid) : "";
+  // NEW:
+  snapshot.box_count = boxCount;
+  snapshot.box_data_b64 = boxDataB64; // send base64 string; Edge will decode to bytea
 
-	// Basic validity (avoid junk writes)
-	if (!snapshot.title || !snapshot.tid || !snapshot.tr) return null;
+  if (!snapshot.title || !snapshot.tid || !snapshot.tr) return null;
 
-	return snapshot;
+  return snapshot;
 }
 
 

@@ -499,7 +499,7 @@ $('#save-pok').click(function () {
 	$('#import').click()
 	$(this).text("Saved!")
 
-	if (saveUploaded && ["HGSS", "BW", "Plat", "BW2"].includes(baseGame)) {
+	if (saveUploaded && ["HGSS", "BW", "Pt", "BW2"].includes(baseGame)) {
 		updatePartyPKMN()
 	}
 
