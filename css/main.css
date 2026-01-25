@@ -2023,10 +2023,10 @@ table.field {
         max-width: 100%;
     }
 
-    .poke-import:first-child {
+/*    .poke-import:first-child {
         display: none;
     }
-
+*/
     #footer, #met-loc, #frag-count {
         display: none !important;
     }
@@ -2039,6 +2039,17 @@ table.field {
         height: 40px;
         line-height: 40px;
         font-size: 24px;
+    }
+
+    .panel-mid .ruin-group {
+        width: 100% !important;
+    }
+
+    .panel-mid .btn.btn-xxxxwide {
+        height: 40px;
+        line-height: 40px;
+        font-size: 24px;
+        width: 45%;
     }
 
     #player-tags div, #nav-tags div, #mobile-tags div {

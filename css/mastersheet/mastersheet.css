@@ -113,9 +113,19 @@
 
 #mastersheet p {
 	font-size: 20px;
-	margin:  10px 0px;
-	min-height: 20px;
+	/*margin:  10px 0px;*/
 	padding-left: 60px;
+	width: 100%;
+}
+
+#mastersheet ul {
+	width: 100%;
+	padding-left: 80px;
+}
+
+#mastersheet li {
+	width: 100%;
+	padding-left: 80px;
 }
 
 #mastersheet h1, #mastersheet h2 {
@@ -141,8 +151,17 @@
 	width: 100%;
 }
 
-#mastersheet p {
+#mastersheet h4 {
+	margin-top: 20px;
+	margin-bottom:  0px;
+	font-size:  20px;
+	padding-left: 60px;
 	width: 100%;
+}
+
+#mastersheet li {
+	padding-left: 80px;
+	list-style-position: inside;
 }
 
 #mastersheet h2 {
@@ -426,7 +445,3 @@
 
 
 /* Dynamic Calc Stuff */
-
-
-
-

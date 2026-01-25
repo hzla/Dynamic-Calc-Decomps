@@ -16,6 +16,7 @@
 function renderMasterData(masterData, trainersById, encountersById) {
   let html = "";
   let ulOpen = false;
+  let prevEmittedEmptyP = false;
 
   const closeUlIfOpen = () => {
     if (ulOpen) {
@@ -28,11 +29,16 @@ function renderMasterData(masterData, trainersById, encountersById) {
     const el = masterData[i];
     const tag = el?.tag;
 
-    // list grouping
-    if (tag !== "li") closeUlIfOpen();
+    const isEmptyP = tag === "p" && isEmptyParagraphEl(el);
+    const ignoreEmptyPInsideList = ulOpen && isEmptyP;
+
+    // list grouping:
+    // Close the <ul> when we hit a non-li tag, *except* when it's an empty <p> we want to ignore
+    if (tag !== "li" && !ignoreEmptyPInsideList) closeUlIfOpen();
 
     switch (tag) {
       case "br":
+        prevEmittedEmptyP = false;
         html += `<br>\n`;
         break;
 
@@ -40,11 +46,30 @@ function renderMasterData(masterData, trainersById, encountersById) {
       case "h2":
       case "h3":
       case "h4":
-      case "p":
+        prevEmittedEmptyP = false;
         html += `<${tag}>${renderInlineParts(el)}</${tag}>\n`;
         break;
 
+      case "p": {
+        if (isEmptyP) {
+          // Ignore empty <p> while inside a list run
+          if (ulOpen) break;
+
+          // Collapse consecutive empty <p> into one
+          if (prevEmittedEmptyP) break;
+
+          prevEmittedEmptyP = true;
+          html += `<p></p>\n`;
+          break;
+        }
+
+        prevEmittedEmptyP = false;
+        html += `<p>${renderInlineParts(el)}</p>\n`;
+        break;
+      }
+
       case "li":
+        prevEmittedEmptyP = false;
         if (!ulOpen) {
           ulOpen = true;
           html += `<ul>\n`;
@@ -53,18 +78,21 @@ function renderMasterData(masterData, trainersById, encountersById) {
         break;
 
       case "trainer": {
+        prevEmittedEmptyP = false;
         const trainer = getTrainer(trainersById, el.id);
         html += renderTrainerCard(el, trainer, i);
         break;
       }
 
       case "encounter": {
+        prevEmittedEmptyP = false;
         const enc = getEncounter(encountersById, el.id);
         html += renderEncounterCard(el, enc);
         break;
       }
 
       default: {
+        prevEmittedEmptyP = false;
         // Custom Tags
         break;
       }
@@ -203,6 +231,30 @@ function buildTrainerSpriteSrc(trainer) {
   // fallback
   return `./img/${raw}`;
 }
+
+
+/* ---------------------------- empty line rendering -------------------------- */
+
+function getInlinePlainText(el) {
+  const parts = Array.isArray(el?.content_parts) ? el.content_parts : null;
+
+  if (!parts) return String(el?.content ?? "");
+
+  return parts
+    .map((p) => {
+      if (!p) return "";
+      if (p.type === "text") return String(p.text ?? "");
+      if (p.type === "link") return String(p.text ?? p.href ?? "");
+      return String(p.text ?? "");
+    })
+    .join("");
+}
+
+function isEmptyParagraphEl(el) {
+  // "Empty" = only whitespace or empty string
+  return getInlinePlainText(el).trim().length === 0;
+}
+
 
 /* ---------------------------- encounter rendering -------------------------- */
 
