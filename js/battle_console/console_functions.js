@@ -117,7 +117,10 @@ function consoleMatchupData(attackerVDefenderResults, defenderVAttackerResults, 
         if (move.name == "(No Move)") continue;
 
 
-
+        if (!defenderVAttackerResults[moveIndex]) {
+            console.log(defenderVAttackerResults)
+        }
+        
 
         damage = defenderVAttackerResults[moveIndex].damage
 

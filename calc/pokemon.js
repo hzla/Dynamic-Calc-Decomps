@@ -136,7 +136,6 @@ var Pokemon = (function () {
         }
 
         for (var ls of em_imp_primary_mons[speciesId].learnset_info.learnset) {
-            console.log(ls[1])
             if (this.level >= ls[0]) {
                 pool.push(ls[1])
             } 

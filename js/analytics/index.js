@@ -186,6 +186,41 @@ async function fetchFromStatsView(viewName, { title, tr, limit }) {
 	return { ok: true, data };
 }
 
+async function fetchEventsWithParty({ title, tr, limit = 50, offset = 0 }) {
+  const ref = window.SUPABASE_PROJECT_REF;
+  const anon = window.SUPABASE_ANON_KEY;
+
+  const url =
+    `https://${ref}.supabase.co/rest/v1/v_usage_events_with_party` +
+    `?title=eq.${encodeURIComponent(title)}` +
+    `&tr=eq.${encodeURIComponent(String(tr))}` +
+    `&order=created_at.desc` +
+    `&limit=${limit}` +
+    `&offset=${offset}`;
+
+  const res = await fetch(url, {
+    headers: {
+      apikey: anon,
+      Authorization: `Bearer ${anon}`,
+    },
+  });
+
+  if (!res.ok) throw new Error(`fetchEventsWithParty failed: ${res.status} ${await res.text()}`);
+  return res.json(); // array of rows
+}
+
+// To Test
+
+// const rows = await fetchEventsWithParty({
+//   title: TITLE,
+//   tr: lastAiTrainerName.trim(),
+//   limit: 100,
+//   offset: 0
+// });
+
+// console.log("events:", rows.length);
+// console.log(rows[0]);
+
 // Convenience: infer current title/tr from your existing state
 function getCurrentTitleAndTr() {
 	const snap = (typeof getSnapshot === "function") ? getSnapshot() : null;

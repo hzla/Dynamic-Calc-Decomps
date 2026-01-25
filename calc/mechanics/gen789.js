@@ -51,8 +51,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     };
 
     dynamicTypeBugActive = (calcingForSwitchIns && attacker.name != p1Name && localStorage.dynamicTypeBug == '1')
-    console.log(dynamicTypeBugActive)
-
+    
     if (calcingForSwitchIns) {
         if (typeof field.weather == 'undefined') {
             field.weather = $("input:radio[name='weather']:checked").val();
