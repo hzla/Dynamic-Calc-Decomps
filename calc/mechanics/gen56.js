@@ -163,9 +163,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var isDarkRevealed = attacker.hasAbility('Inner Focus') && TITLE.includes("Cascade")
     var isForceNeutral = (move.named("Chip Away") || attacker.hasAbility("Normalize")) && TITLE.includes("Cascade")
     gen.types.gen = settings.typeChart
-    var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity);
+    var type1Effectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.types[0], isGhostRevealed, field.isGravity, false, false, false, isDarkRevealed);
     var type2Effectiveness = defender.types[1]
-        ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity)
+        ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, false, false, false, isDarkRevealed)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
 
@@ -684,6 +684,10 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var isFieldAuraBreak = field.isAuraBreak;
     var isFieldFairyAura = field.isFairyAura && move.type === 'Fairy';
     var isFieldDarkAura = field.isDarkAura && move.type === 'Dark';
+
+    
+
+
     var auraActive = isAttackerAura || isDefenderAura || isFieldFairyAura || isFieldDarkAura;
     var auraBreak = isFieldAuraBreak || isUserAuraBreak;
     if (auraActive) {
