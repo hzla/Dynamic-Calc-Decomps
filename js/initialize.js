@@ -131,10 +131,25 @@ SOURCES = {
 $(document).ready(function() {
   $('.genSelection').hide()
   if (backupFiles[TITLE]) {
+    // Load hardcoded calc data if present
     checkAndLoadScript(`./backups/${backupFiles[TITLE]}.js`, {
             onLoad: (src) => {
                 npoint_data = backup_data
                 loadDataSource(npoint_data)
+
+                // Load hardcoded trainer orders if present
+                checkAndLoadScript(`./backups/trainer_orders/${backupFiles[TITLE]}.js`, {
+                        onLoad: (src) => {
+                            if (typeof backup_data.order === "undefined") {
+                                backup_data.order = trainerOrders
+                                npoint_data = backup_data
+                                console.log("loaded harcoded trainer orders")
+                            } else {
+                                console.log("using preexisting trainer orders in calc data")
+                            }                     
+                        },
+                        onNotFound: (src) => console.log(`Not found: ${src}`)
+                });
             },
             onNotFound: (src) => console.log(`Not found: ${src}`)
     });    
@@ -242,6 +257,7 @@ function setGameSettings(title) {
   }
   if (showDex) {
     $('#open-dex').show()
+    $('#dex-show').show()
     
   }
 }

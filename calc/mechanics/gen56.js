@@ -222,7 +222,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         (defender.hasType('Flying') || defender.weightkg >= 200 || field.isGravity)) ||
         (move.named('Synchronoise') && !defender.hasType(attacker.types[0]) &&
             (!attacker.types[1] || !defender.hasType(attacker.types[1]))) ||
-        (move.named('Dream Eater') && !defender.hasStatus('slp') && TITLE != "Cascade White 2")) {
+        (move.named('Dream Eater') && !defender.hasStatus('slp') && TITLE != "Cascade White")) {
         return result;
     }
     if ((field.hasWeather('Harsh Sunshine') && move.hasType('Water')) ||
@@ -570,7 +570,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         bpMods.push(5325);
         desc.attackerAbility = attacker.ability;
     }
-    if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N') && TITLE != "Cascade White 2") {
+    if (attacker.hasAbility('Rivalry') && ![attacker.gender, defender.gender].includes('N') && TITLE != "Cascade White") {
     
             if (attacker.gender === defender.gender) {
                 bpMods.push(5120);

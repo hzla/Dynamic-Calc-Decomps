@@ -63,6 +63,14 @@ $(document).ready(function() {
 	 		$('.iframe-close-btn').remove()
 	 		loadDex(`pokemon/${dexPok}`)
 	 	})
+
+	 	$('#dex-show').click(function() {
+	 		var dexPok = $(this).parents('.panel').find('.poke-sprite').attr('src').split("/")[3].split(".")[0]
+	 		console.log(dexPok)
+	 		$('iframe').remove()
+	 		$('.iframe-close-btn').remove()
+	 		loadDex(`pokemon/${dexPok}`)
+	 	})
 	 }
 })
 

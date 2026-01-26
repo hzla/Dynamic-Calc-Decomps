@@ -132,6 +132,10 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         if (turnsToKill < attackerFastestKill) {
             attackerFastestKill = turnsToKill
             attackerBestMove = move.name
+
+            if (move.name == "Payback" && defender.name == "Naganadel") {
+                console.log(turnsToKill)
+            }
             if (!move.priority) {
                 attackerBestMoveHasPrio = false;
             }
