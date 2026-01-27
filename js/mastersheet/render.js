@@ -9,7 +9,6 @@
  *   - { tag: "trainer", id, class, notes? }
  *   - { tag: "encounter", id }
  * - trainers and encounters are arrays indexed by id (trainers[id], encounters[id]).
- *   If yours are 1-indexed or use different keys, change getTrainer/getEncounter.
  *
  */
 
@@ -88,6 +87,24 @@ function renderMasterData(masterData, trainersById, encountersById) {
         prevEmittedEmptyP = false;
         const enc = getEncounter(encountersById, el.id);
         html += renderEncounterCard(el, enc);
+        break;
+      }
+
+      case "gifts": {
+        prevEmittedEmptyP = false;
+        html += renderGiftsBlock(el);
+        break;
+      }
+
+      case "items": {
+        prevEmittedEmptyP = false;
+        html += renderItemsBlock(el);
+        break;
+      }
+
+      case "notif": {
+        prevEmittedEmptyP = false;
+        html += renderNotificationBlock(el);
         break;
       }
 
@@ -334,6 +351,140 @@ function normalizeSpriteFileName(name) {
     .replace(/[♂]/g, "m")
     .replace(/[\s-]+/g, "_");
 }
+
+/* -------------------------- gifts / items / notif -------------------------- */
+
+function normalizeViaCleanString(name) {
+  const raw = String(name ?? "").trim();
+  if (!raw) return "";
+  // Prefer your project’s cleanString() if it exists (you said it does)
+  if (typeof cleanString === "function") return cleanString(raw);
+  // Fallback to existing sprite normalization
+  return normalizeSpriteFileName(raw);
+}
+
+function buildGiftPokeSpriteSrc(pokemonName) {
+  const file = normalizeViaCleanString(pokemonName);
+  return `./img/pokesprite/${file}.png`;
+}
+
+function buildItemSpriteSrc(itemName) {
+  const file = normalizeViaCleanString(itemName);
+  return `./img/items/${file}.png`;
+}
+
+// allow only <br> line breaks from user-provided HTML-ish text
+function allowOnlyBr(htmlish) {
+  const escaped = escapeHtml(String(htmlish ?? ""));
+  return escaped
+    .replace(/&lt;br\s*\/?&gt;/gi, "<br>");
+}
+
+/* --------------------------------- GIFTS --------------------------------- */
+
+function renderGiftsBlock(el) {
+  const title = escapeHtml(el.giftsTitle ?? "");
+  const desc = escapeHtml(el.giftsDescription ?? "");
+
+  const mons = Array.isArray(el.giftPokemonList) ? el.giftPokemonList : [];
+  const monDescs = Array.isArray(el.giftPokemonDescriptions) ? el.giftPokemonDescriptions : [];
+
+  // table-like layout using divs (no strict styling assumptions)
+  let html = "";
+  html += `<div class="ms-block ms-gifts">\n`;
+  html += `  <div class="ms-row">\n`;
+  html += `    <div class="ms-left">\n`;
+  html += `      <div class="ms-left-title">${title}</div>\n`;
+  if (desc) html += `      <div class="ms-left-desc">${desc}</div>\n`;
+  html += `    </div>\n`;
+
+  html += `    <div class="ms-cells">\n`;
+  for (let i = 0; i < mons.length; i++) {
+    const mon = String(mons[i] ?? "");
+    const monDesc = String(monDescs[i] ?? "");
+    const sprite = buildGiftPokeSpriteSrc(mon);
+
+    html += `      <div class="ms-cell ms-gift-cell" data-species-name="${escapeAttr(mon)}">\n`;
+    html += `        <div class="ms-cell-top">\n`;
+    html += `          <img src="${escapeAttr(sprite)}" loading="lazy" alt="${escapeAttr(mon)}" />\n`;
+    html += `        </div>\n`;
+    html += `        <div class="ms-cell-bottom">\n`;
+    // If you want the mon name visible, uncomment:
+    // html += `          <div class="ms-gift-name">${escapeHtml(mon)}</div>\n`;
+    if (monDesc) html += `          <div class="ms-gift-desc">${escapeHtml(monDesc)}</div>\n`;
+    html += `        </div>\n`;
+    html += `      </div>\n`;
+  }
+  html += `    </div>\n`;
+
+  html += `  </div>\n`;
+  html += `</div>\n`;
+
+  return html;
+}
+
+/* --------------------------------- ITEMS --------------------------------- */
+
+function renderItemsBlock(el) {
+  const title = escapeHtml(el.itemsTitle ?? "");
+  const desc = escapeHtml(el.itemsDescription ?? "");
+
+  const items = Array.isArray(el.itemList) ? el.itemList : [];
+  const itemDescs = Array.isArray(el.itemDescriptions) ? el.itemDescriptions : [];
+
+  let html = "";
+  html += `<div class="ms-block ms-items">\n`;
+  html += `  <div class="ms-row">\n`;
+  html += `    <div class="ms-left">\n`;
+  html += `      <div class="ms-left-title">${title}</div>\n`;
+  if (desc) html += `      <div class="ms-left-desc">${desc}</div>\n`;
+  html += `    </div>\n`;
+
+  html += `    <div class="ms-item-rows">\n`;
+  for (let i = 0; i < items.length; i++) {
+    const item = String(items[i] ?? "");
+    const itemDesc = String(itemDescs[i] ?? "");
+    const sprite = buildItemSpriteSrc(item);
+
+    html += `      <div class="ms-item-row" data-item-name="${escapeAttr(item)}">\n`;
+    html += `        <div class="ms-item-icon">\n`;
+    html += `          <img src="${escapeAttr(sprite)}" loading="lazy" alt="${escapeAttr(item)}" />\n`;
+    html += `        </div>\n`;
+    html += `        <div class="ms-item-text">\n`;
+    // If you want the item name visible separate from the description, uncomment:
+    // html += `          <div class="ms-item-name">${escapeHtml(item)}</div>\n`;
+    html += `          <div class="ms-item-desc">${escapeHtml(itemDesc || item)}</div>\n`;
+    html += `        </div>\n`;
+    html += `      </div>\n`;
+  }
+  html += `    </div>\n`;
+
+  html += `  </div>\n`;
+  html += `</div>\n`;
+
+  return html;
+}
+
+/* --------------------------------- NOTIF --------------------------------- */
+
+function renderNotificationBlock(el) {
+  const title = escapeHtml(el.notificationTitle ?? "NOTE");
+  // your sample uses "text" and includes <br>
+  const body = allowOnlyBr(el.text ?? "");
+
+  let html = "";
+  html += `<div class="ms-block ms-notif">\n`;
+  html += `  <div class="ms-row">\n`;
+  html += `    <div class="ms-left">\n`;
+  html += `      <div class="ms-left-title">${title}</div>\n`;
+  html += `    </div>\n`;
+  html += `    <div class="ms-notif-body">${body}</div>\n`;
+  html += `  </div>\n`;
+  html += `</div>\n`;
+
+  return html;
+}
+
 
 /* ------------------------------ text utilities ---------------------------- */
 
