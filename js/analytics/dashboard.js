@@ -407,7 +407,7 @@ function renderUsageDash(rows) {
   const top = Array.from(bySpecies.values())
     .filter(st => st.inParty > 0)
     .sort((a,b) => b.inParty - a.inParty || a.species.localeCompare(b.species))
-    .slice(0, 12);
+    .slice(0, 100);
 
   const dashEl = document.getElementById("usageDash");
   if (!dashEl) return;
