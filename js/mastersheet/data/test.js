@@ -21,13 +21,9 @@ masterData =[
   },
   {
     "tag": "gifts",
-    "giftsTitle": "Gift Encounter, this is a description fo the gift encounter",
-    "giftsDescription": "",
-    "giftPokemonList": [
-      "wingull",
-      "shroomish",
-      "numel"
-    ],
+    "giftsTitle": "Starter Gift Encounter",
+    "giftsDescription": "After clearing the first split, the player may choose one of the following Pokémon.",
+    "giftPokemonList": ["wingull", "shroomish", "numel"],
     "giftPokemonDescriptions": [
       "Player chose Snivy",
       "Player chose Tepig",
@@ -36,15 +32,13 @@ masterData =[
   },
   {
     "tag": "items",
-    "itemsTitle": "Pokemart, this is a pokemart",
-    "itemsDescription": "",
-    "itemList": [
-      "pokeball",
-      "full restore"
-    ],
+    "itemsTitle": "Pokémart Inventory",
+    "itemsDescription": "Items available for purchase before challenging the gym.",
+    "itemList": ["pokeball", "super potion", "escape rope"],
     "itemDescriptions": [
-      "Pokeballs (Purchase-able at the Mart for $1)",
-      "Full Restores (Purchase-able at the Mart for $1)"
+      "Poké Balls (Purchase-able for $200)",
+      "Super Potions (Purchase-able for $700)",
+      "Escape Rope"
     ]
   },
   {

@@ -519,11 +519,11 @@
   line-height: 1.2;
 }
 
-/* ---------------- items rows ---------------- */
+/* ---------------- items: 2 per row ---------------- */
 
 #mastersheet .ms-item-rows {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two items per row */
 }
 
 #mastersheet .ms-item-row {
@@ -532,22 +532,22 @@
   gap: 14px;
   padding: 10px 14px;
   box-sizing: border-box;
+
+  /* visual separation like table cells */
   border-top: 1px solid rgba(255,255,255,0.15);
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  border-right: 1px solid rgba(255,255,255,0.15);
 }
 
-#mastersheet .ms-item-row:first-child {
+/* remove top border for first row */
+#mastersheet .ms-item-row:nth-child(1),
+#mastersheet .ms-item-row:nth-child(2) {
   border-top: none;
 }
 
-#mastersheet .ms-item-icon img {
-  width: 32px;      /* override global img width */
-  height: 32px;
-  object-fit: contain;
-}
-
-#mastersheet .ms-item-desc {
-  font-size: 18px;
-  line-height: 1.25;
+.ms-item-icon {
+	height: 32px;
+	width: 32px;
 }
 
 /* ---------------- notif ---------------- */

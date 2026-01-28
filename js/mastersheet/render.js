@@ -370,7 +370,7 @@ function buildGiftPokeSpriteSrc(pokemonName) {
 
 function buildItemSpriteSrc(itemName) {
   const file = normalizeViaCleanString(itemName);
-  return `./img/items/${file}.png`;
+  return `./img/item_sprites/${file}.png`;
 }
 
 // allow only <br> line breaks from user-provided HTML-ish text
