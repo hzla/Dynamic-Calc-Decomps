@@ -474,12 +474,9 @@ function consoleBoxRolls(chosenMove=null, dealtMinRoll=false, takenMaxRoll=false
                     $(`.trainer-pok[data-id='${box[m]}']`).addClass('killer')
                 } 
             }
-
             if (moveList.length > 0) {
                 term.echo(`${purple(mon.name)}: ${moveList.map(m => teal(m)).join(" | ")}`)
             }
-
-
         }
 
 

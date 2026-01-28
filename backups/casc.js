@@ -1,6 +1,5 @@
-backup_data = {
-  "title": "Cascade White",
-
+{
+  "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
   },
@@ -204,7 +203,7 @@ backup_data = {
     "ringtarget": "covertcloak",
     "bindingband": "utilityumbrella"
   },
-   "moves": {
+  "moves": {
     "Concuss": {
       "type": "Psychic",
       "basePower": 55,
@@ -148056,7 +148055,37 @@ backup_data = {
           "df": 0
         }
       },
-      
+      "Lvl 12 School Kid Alberta ": {
+        "level": 12,
+        "ai": 5,
+        "noCh": false,
+        "tr_id": 455,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Hasty",
+        "moves": [
+          "Fake Out",
+          "Fury Swipes",
+          "Covet",
+          "U-turn"
+        ],
+        "sub_index": 0,
+        "ability": "Majestic Ward",
+        "sprite": "trainer_sprites/schoolkid.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
       "Lvl 60 Pokefan Lydia - Route 15": {
         "level": 60,
         "ai": 1,
@@ -163730,7 +163759,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "Lum Berry",
-        "item": "Water Gem",
+        "item": "Damp Rock",
         "nature": "Gentle",
         "moves": [
           "Rock Slide",
@@ -183915,6 +183944,37 @@ backup_data = {
         "evs": {
           "df": 0
         }
+      },
+      "Lvl 12 School Kid Alberta ": {
+        "level": 12,
+        "ai": 5,
+        "noCh": false,
+        "tr_id": 455,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Calm",
+        "moves": [
+          "Confusion",
+          "Disarming Voice",
+          "Magical Leaf",
+          "Relic Song"
+        ],
+        "sub_index": 1,
+        "ability": "Trace",
+        "sprite": "trainer_sprites/schoolkid.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
       }
     },
     "Ledyba": {
@@ -183935,6 +183995,37 @@ backup_data = {
         "reward_item": "None",
         "item": "-",
         "nature": "Rash",
+        "moves": [
+          "Mach Punch",
+          "Bug Bite",
+          "Comet Punch",
+          "Reflect"
+        ],
+        "sub_index": 2,
+        "ability": "Iron Fist",
+        "sprite": "trainer_sprites/schoolkid.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 12 School Kid Alberta ": {
+        "level": 12,
+        "ai": 5,
+        "noCh": false,
+        "tr_id": 455,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Serious",
         "moves": [
           "Mach Punch",
           "Bug Bite",
@@ -183982,7 +184073,37 @@ backup_data = {
           "df": 0
         }
       },
-     
+      "Lvl 12 School Kid Alberta ": {
+        "level": 12,
+        "ai": 5,
+        "noCh": false,
+        "tr_id": 455,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Gentle",
+        "moves": [
+          "Wing Attack",
+          "Rock Smash",
+          "Headbutt",
+          "Roost"
+        ],
+        "sub_index": 3,
+        "ability": "Defiant",
+        "sprite": "trainer_sprites/schoolkid.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
     },
     "Jigglypuff": {
       "Lvl 61 Nursery Aide Autumn - Route 3": {
@@ -188061,7 +188182,7 @@ backup_data = {
         "nature": "Naive",
         "moves": [
           "Venoshock",
-          "Karate Chop",
+          "Low Sweep",
           "Mud Shot",
           "Chilling Water"
         ],
@@ -189911,7 +190032,7 @@ backup_data = {
         "moves": [
           "Air Cutter",
           "Disarming Voice",
-          "Roost",
+          "Protect",
           "Water Pulse"
         ],
         "sub_index": 2,
@@ -190186,7 +190307,7 @@ backup_data = {
       }
     }
   },
-  "order": {
+    "order": {
     "162": {
       "id": 162,
       "next": 163,
