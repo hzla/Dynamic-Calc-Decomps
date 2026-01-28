@@ -1,4 +1,4 @@
-{
+backup_data = {
   "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
