@@ -12,6 +12,12 @@
  *
  */
 
+// POKEWEB MODE
+// IMAGE_FOLDER = "images"
+// CALC MODE
+IMAGE_FOLDER = "img"
+
+
 function renderMasterData(masterData, trainersById, encountersById) {
   let html = "";
   let ulOpen = false;
@@ -236,17 +242,17 @@ function buildTrainerDisplayName(trainer) {
 
 function buildTrainerSpriteSrc(trainer) {
   // In your trainer objects you have: tr_sprite: "trainer_sprites/teamplasma.png"
-  // Your HTML sample used "/img/trainer_sprites/bianca.png"
+  // Your HTML sample used "/${IMAGE_FOLDER}/trainer_sprites/bianca.png"
   const raw = trainer?.tr_sprite ?? "";
-  if (!raw) return `./img/trainer_sprites/unknown.png`;
+  if (!raw) return `./${IMAGE_FOLDER}/trainer_sprites/unknown.png`;
 
   // if already looks like a path fragment
-  if (raw.startsWith("/img/")) return raw;
-  if (raw.startsWith("trainer_sprites/")) return `./img/${raw}`;
+  if (raw.startsWith("/${IMAGE_FOLDER}/")) return raw;
+  if (raw.startsWith("trainer_sprites/")) return `./${IMAGE_FOLDER}/${raw}`;
   if (raw.startsWith("/")) return raw;
 
   // fallback
-  return `./img/${raw}`;
+  return `./${IMAGE_FOLDER}/${raw}`;
 }
 
 
@@ -337,7 +343,7 @@ function buildPokeSpriteSrc(speciesName) {
   // - lowercase
   // - spaces/hyphens normalized if needed
   const file = normalizeSpriteFileName(speciesName);
-  return `./img/pokesprite/${file}.png`;
+  return `./${IMAGE_FOLDER}/pokesprite/${file}.png`;
 }
 
 function normalizeSpriteFileName(name) {
@@ -365,12 +371,12 @@ function normalizeViaCleanString(name) {
 
 function buildGiftPokeSpriteSrc(pokemonName) {
   const file = normalizeViaCleanString(pokemonName);
-  return `./img/pokesprite/${file}.png`;
+  return `./${IMAGE_FOLDER}/pokesprite/${file}.png`;
 }
 
 function buildItemSpriteSrc(itemName) {
   const file = normalizeViaCleanString(itemName);
-  return `./img/item_sprites/${file}.png`;
+  return `./${IMAGE_FOLDER}/item_sprites/${file}.png`;
 }
 
 // allow only <br> line breaks from user-provided HTML-ish text
@@ -391,6 +397,7 @@ function renderGiftsBlock(el) {
 
   // table-like layout using divs (no strict styling assumptions)
   let html = "";
+  html += `<div class="flex-break"></div>\n`
   html += `<div class="ms-block ms-gifts">\n`;
   html += `  <div class="ms-row">\n`;
   html += `    <div class="ms-left">\n`;
@@ -408,22 +415,30 @@ function renderGiftsBlock(el) {
     html += `        <div class="ms-cell-top">\n`;
     html += `          <img src="${escapeAttr(sprite)}" loading="lazy" alt="${escapeAttr(mon)}" />\n`;
     html += `        </div>\n`;
-    html += `        <div class="ms-cell-bottom">\n`;
-    // If you want the mon name visible, uncomment:
-    // html += `          <div class="ms-gift-name">${escapeHtml(mon)}</div>\n`;
-    if (monDesc) html += `          <div class="ms-gift-desc">${escapeHtml(monDesc)}</div>\n`;
-    html += `        </div>\n`;
+
+    if (monDesc) {
+      html += `        <div class="ms-cell-bottom">\n`;
+      html += `          <div class="ms-gift-desc">${escapeHtml(monDesc)}</div>\n`;
+      html += `        </div>\n`;
+    } else {
+      // truly empty element → :empty works, no whitespace nodes
+      html += `        <div class="ms-cell-bottom"></div>\n`;
+    }
+
     html += `      </div>\n`;
   }
   html += `    </div>\n`;
 
   html += `  </div>\n`;
   html += `</div>\n`;
+  html += `<div class="flex-break"></div>\n`
 
   return html;
 }
 
 /* --------------------------------- ITEMS --------------------------------- */
+
+function cleanString(str) {return str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()};
 
 function renderItemsBlock(el) {
   const title = escapeHtml(el.itemsTitle ?? "");
@@ -442,13 +457,13 @@ function renderItemsBlock(el) {
 
   html += `    <div class="ms-item-rows">\n`;
   for (let i = 0; i < items.length; i++) {
-    const item = String(items[i] ?? "");
+    const item = String(items[i] ?? "").replace("é", "e");
     const itemDesc = String(itemDescs[i] ?? "");
     const sprite = buildItemSpriteSrc(item);
 
     html += `      <div class="ms-item-row" data-item-name="${escapeAttr(item)}">\n`;
     html += `        <div class="ms-item-icon">\n`;
-    html += `          <img src="${escapeAttr(sprite)}" loading="lazy" alt="${escapeAttr(item)}" />\n`;
+    html += `          <img src="${escapeAttr(sprite)}" loading="lazy" alt="${escapeAttr(item)}" onerror="this.onerror=null; this.src='${IMAGE_FOLDER}/default.png'"/>\n`;
     html += `        </div>\n`;
     html += `        <div class="ms-item-text">\n`;
     // If you want the item name visible separate from the description, uncomment:
@@ -471,16 +486,19 @@ function renderNotificationBlock(el) {
   const title = escapeHtml(el.notificationTitle ?? "NOTE");
   // your sample uses "text" and includes <br>
   const body = allowOnlyBr(el.text ?? "");
+  const color = el.fontColor ?? ""
 
   let html = "";
+  html += `<div class="flex-break"></div>\n`
   html += `<div class="ms-block ms-notif">\n`;
   html += `  <div class="ms-row">\n`;
-  html += `    <div class="ms-left">\n`;
+  html += `    <div class="ms-left" style="background: ${color}">\n`;
   html += `      <div class="ms-left-title">${title}</div>\n`;
   html += `    </div>\n`;
-  html += `    <div class="ms-notif-body">${body}</div>\n`;
+  html += `    <div class="ms-notif-body">${body.replaceAll(",", ", ")}</div>\n`;
   html += `  </div>\n`;
   html += `</div>\n`;
+  html += `<div class="flex-break"></div>\n`
 
   return html;
 }
@@ -558,7 +576,7 @@ function constructToc() {
       return;
     }
 
-    const text = $(this).text();
+    const text = $(this).text().split(" (")[0];
 
     const dataLink = text.trim().toLowerCase()
       .replace(/[^a-z0-9\s-]/g, '')
@@ -679,14 +697,12 @@ $(document).ready(function() {
     document.querySelector("#mastersheet").innerHTML = renderMasterData(masterData, trainersById, encountersById);
     constructToc()
 
-    loadDex("?game=vintagewhiteplus")
+    loadDex("?game=cascadewhite")
 
     $('.doc-sprite, .doc-species').click(function() {
       let speciesName = cleanString(extractPokemonName($(this).parent().find('.doc-species').text()))
       loadDexPage("pokemon", speciesName)
     })
-
-
 
     $('.doc-move').click(function() {
       let moveName = cleanString($(this).text())
@@ -705,7 +721,6 @@ $(document).ready(function() {
 
     $('.doc-enc').click(function() {
       let encName = cleanString($(this).find('.encounter-locations').text())
-      console.log(encName)
       loadDexPage("encounters", encName)
     })
 
