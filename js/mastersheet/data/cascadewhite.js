@@ -11,6 +11,30 @@ masterData =
     "tag": "h1"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Thank you for playing Cascade White! A brief overview of major changes not immediately obvious in this mastersheet is provided below.",
     "content_parts": [
       {
@@ -18,6 +42,30 @@ masterData =
         "text": "Thank you for playing Cascade White! A brief overview of major changes not immediately obvious in this mastersheet is provided below."
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -31,6 +79,14 @@ masterData =
     "tag": "h3"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Besides the trainer, encounter, and Pokémon changes displayed in this master sheet, there are countless changes to moves, abilities, and items in Cascade White that go beyond simple BP tweaks, including brand new mechanics altogether. Rivalry now increases damage against and reduces damage taken from Pokémon who share a type. Stockpile, Spitup and Swalllow now consume the user's held berry to activate. Gastro Acid now has +1 Priority, Zap Cannon is a recoil move, Run Away now has the effect of Emergency Exit and COUNTLESS other changes.",
     "content_parts": [
       {
@@ -41,6 +97,14 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "These changes are all indicated in in-game text, so make sure to read carefully! But also make sure to use the following resources!",
     "content_parts": [
       {
@@ -48,6 +112,14 @@ masterData =
         "text": "These changes are all indicated in in-game text, so make sure to read carefully! But also make sure to use the following resources!"
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -70,6 +142,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "The [Official Cascade White Mastersheet](https://docs.google.com/spreadsheets/d/1QGKvMsYrywhhnhpLKbTL-kCA0VJZ_zXj-dI2rcTw9ns/edit?usp=sharing) is a version of the mastersheet that includes notation for majorly changed moves, abilities, and items for your convenience.",
     "content_parts": [
       {
@@ -89,6 +169,30 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "AI Changes",
     "content_parts": [
       {
@@ -99,6 +203,14 @@ masterData =
     "tag": "h3"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "The AI in Cascade White has been updated to provide a more engaging gameplay experience. These changes are not as extensive as something like Ancestral X, but there have been substantial changes to switch-in AI and moderate changes to AI Scoring for status, setup, and priority moves.",
     "content_parts": [
       {
@@ -106,6 +218,14 @@ masterData =
         "text": "The AI in Cascade White has been updated to provide a more engaging gameplay experience. These changes are not as extensive as something like Ancestral X, but there have been substantial changes to switch-in AI and moderate changes to AI Scoring for status, setup, and priority moves."
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -119,6 +239,14 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "The AI is not guaranteed to go for priority when it sees kill if it's already faster than all Pokémon on the field.",
     "content_parts": [
       {
@@ -127,6 +255,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "The AI has a very high chance to use a Priority move when it is not the fastest Pokémon on the field and an enemy Pokémon sees kill on it",
@@ -139,6 +275,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "The AI is slightly encouraged to go for setup moves when it sees enemy Pokémon deal negligible (25% or less) damage to it.",
     "content_parts": [
       {
@@ -147,6 +291,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "The AI is heavily discouraged from using setup moves when an enemy Pokémon sees a OHKO on it, or a 2HKO if the enemy mon is faster and the setup move does not increase speed.",
@@ -159,6 +311,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "The AI is discouraged from using stat-lowering moves when the target is dealing negligible (25% or less) damage to it.",
     "content_parts": [
       {
@@ -167,6 +327,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "The AI is heavily discouraged from using status or stat-lowering moves into targets holding the respective curative items.",
@@ -179,6 +347,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "The AI no longer receives a negative score with damaging moves that lower speed when they are faster than the target.",
     "content_parts": [
       {
@@ -187,6 +363,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "When determining BP for Switch AI, the AI is able to account for STAB, move effects that alter BP, moves and abilities that alter type effectiveness (Freeze Dry, Corrosion), abiities that provide resistances and immunities, and abilities that can alter BP such as Technician and Skill Link.",
@@ -199,6 +383,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "When simulating damage for moves, the AI can now see the correct damage for moves with variable BP (Hex, Electro Ball, Flail, etc.)",
     "content_parts": [
       {
@@ -207,6 +399,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "The AI has a very low chance to switch out mid-turn if it is dealing negligible damage to all Pokémon on the field. This chance increases each turn the Pokémon is in battle.",
@@ -219,6 +419,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "The AI now has a high chance to switch out mid-turn if it is locked into a move that deals low damage via Encore or Choice Items.",
     "content_parts": [
       {
@@ -227,6 +435,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "A full list of the AI Changes is outlined in the [AI Changes Overview](https://drive.google.com/file/d/1Z2hoQeMt998p8sx8VA0MbgYViWAQwedM/view?usp=sharing) document.",
@@ -248,6 +464,30 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Quality of Life Improvements",
     "content_parts": [
       {
@@ -258,6 +498,14 @@ masterData =
     "tag": "h3"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Many changes have been made to the game to improve quality of life and provide options for customizing the player's gameplay experience.",
     "content_parts": [
       {
@@ -265,6 +513,30 @@ masterData =
         "text": "Many changes have been made to the game to improve quality of life and provide options for customizing the player's gameplay experience."
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -278,6 +550,14 @@ masterData =
     "tag": "h4"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "The biggest addition is that of the PokéHelper, a new piece of technology available from the start of the game that can be access by pressing the START button on your device. This opens up a menu where you can:",
     "content_parts": [
       {
@@ -285,6 +565,14 @@ masterData =
         "text": "The biggest addition is that of the PokéHelper, a new piece of technology available from the start of the game that can be access by pressing the START button on your device. This opens up a menu where you can:"
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -298,6 +586,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Heal your Party",
     "content_parts": [
       {
@@ -306,6 +602,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Apply Status to your Party",
@@ -318,6 +622,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Edge Party Exp",
     "content_parts": [
       {
@@ -326,6 +638,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Remove Party Held Items",
@@ -338,6 +658,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Toggle Permanent Repel",
     "content_parts": [
       {
@@ -346,6 +674,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Fast Travel (unlocked after defeating Hugh in Virbank Gate)",
@@ -358,6 +694,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Change Settings (see below)",
     "content_parts": [
       {
@@ -368,6 +712,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "The PokéHelper can be utilized anywhere except for when participating in a Trainer Gauntlet, where all functions will be disabled. Make sure to stock up on Healing items!",
     "content_parts": [
       {
@@ -375,6 +727,30 @@ masterData =
         "text": "The PokéHelper can be utilized anywhere except for when participating in a Trainer Gauntlet, where all functions will be disabled. Make sure to stock up on Healing items!"
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -388,6 +764,14 @@ masterData =
     "tag": "h4"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "You are now able to customize your gameplay through the Settings Menu in the PokéHelper",
     "content_parts": [
       {
@@ -395,6 +779,14 @@ masterData =
         "text": "You are now able to customize your gameplay through the Settings Menu in the PokéHelper"
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -408,6 +800,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Animated Backgrounds (Toggle): The game does/doesn't use the new animated backgrounds in battle (default: doesn't) Note that these backgrounds are not fully tested and can cause crashes or visual glitches.",
     "content_parts": [
       {
@@ -416,6 +816,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "IV Randomization: when generating IVs for Wild Pokémon, they have random/improved/boosted/perfect IVs. (default: random) \"improved\" rolls IVs twice and uses the higher total. \"boosted\" sets three random ivs to 31. \"perfect\" sets all ivs to 31.",
@@ -428,6 +836,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "EVs: Defeating Pokémon rewards no/1x/2x/4x/8x EVs. (default: no EVs)",
     "content_parts": [
       {
@@ -436,6 +852,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Advanced Switch AI (Toggle): The AI does/doesn't use the advanced mid-turn switch AI (default: does)",
@@ -448,6 +872,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Trainer Placements (Toggle): The game uses the modified/vanilla placements and movement for trainers (default: modified) This setting reverts Trainers to vanilla-like positions and movement, making the majority of them optional again. Good for casual play!",
     "content_parts": [
       {
@@ -456,6 +888,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Battle Scan Detail (Toggle): The Battle Scan feature reveals partial/complete information about enemy Pokémon. (default: partial) \"partial\" info displays the Pokémon's ability, base stats, typing, and any moves that have been revealed in battle. It hides items, raw stats, and any team members who have not yet entered battle. \"complete\" info displays all the above and also raw stat values, held item, all moves, and all Pokémon on the team.",
@@ -468,6 +908,30 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Battle Scan",
     "content_parts": [
       {
@@ -478,6 +942,14 @@ masterData =
     "tag": "h4"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "The second major quality-of-life improvement is the addition of Battle Scan, which allows you to view detailed information about opponent Pokémon and teams in battle.",
     "content_parts": [
       {
@@ -485,6 +957,14 @@ masterData =
         "text": "The second major quality-of-life improvement is the addition of Battle Scan, which allows you to view detailed information about opponent Pokémon and teams in battle."
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -498,6 +978,14 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Depending on your configured settings (accessed in the PokéHelper), you will be able to view...",
     "content_parts": [
       {
@@ -505,6 +993,14 @@ masterData =
         "text": "Depending on your configured settings (accessed in the PokéHelper), you will be able to view..."
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -518,6 +1014,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Typing",
     "content_parts": [
       {
@@ -526,6 +1030,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Held Item",
@@ -538,6 +1050,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Ability",
     "content_parts": [
       {
@@ -546,6 +1066,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Moves",
@@ -558,6 +1086,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "...for all Pokémon in battle.",
     "content_parts": [
       {
@@ -565,6 +1101,30 @@ masterData =
         "text": "...for all Pokémon in battle."
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -578,6 +1138,14 @@ masterData =
     "tag": "h4"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Other miscellaneous quality-of-life changes include the following:",
     "content_parts": [
       {
@@ -585,6 +1153,14 @@ masterData =
         "text": "Other miscellaneous quality-of-life changes include the following:"
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -598,6 +1174,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Rare Candies are now re-usable.",
     "content_parts": [
       {
@@ -606,6 +1190,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Unusual Candy is a new item that edges your Pokémon to 1 exp of the next level. Reusable.",
@@ -618,6 +1210,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Stress Tester is a new item that reduces the holder's HP to 1 at the start of battle against a Wild Pokémon. It also guarantees escape from battle.",
     "content_parts": [
       {
@@ -626,6 +1226,14 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "+1 Soda and +5 Soda are items found in any PokéMart that heal for 1 and 5 HP respectively. Use this in combination with Stress Tester to predamage.",
@@ -638,6 +1246,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "You can press R in the Pokémon Summary to view IVs and EVs.",
     "content_parts": [
       {
@@ -648,6 +1264,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "A Psychic in each Pokémon Center will tell you your Pokémon's Hidden Power Type",
     "content_parts": [
       {
@@ -656,6 +1280,30 @@ masterData =
       }
     ],
     "tag": "li"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Bug Reports, resources, discussion, and a forum to provide feedback can be found on the [Cascade White Discord](https://discord.gg/DTQmDVUPgu).",
@@ -677,6 +1325,46 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Move Tutors",
     "content_parts": [
       {
@@ -685,6 +1373,22 @@ masterData =
       }
     ],
     "tag": "h3"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "The moves taught have been changed.",
@@ -737,6 +1441,30 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Cheren Split (Level Cap 15)",
     "content_parts": [
       {
@@ -747,6 +1475,14 @@ masterData =
     "tag": "h1"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Aspertia City",
     "content_parts": [
       {
@@ -755,6 +1491,14 @@ masterData =
       }
     ],
     "tag": "h2"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "items",
@@ -774,6 +1518,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Items",
     "itemsDescription": "",
@@ -787,6 +1539,30 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Rival Hugh",
     "content_parts": [
       {
@@ -795,6 +1571,14 @@ masterData =
       }
     ],
     "tag": "h3"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -848,6 +1632,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Rowdy Pokémon Center",
     "content_parts": [
       {
@@ -864,8 +1672,40 @@ masterData =
     "fontColor": "#469e62"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 13,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 19",
@@ -893,8 +1733,40 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 128,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Flocessy Town",
@@ -920,11 +1792,19 @@ masterData =
     ]
   },
   {
-    "content": "MOVE TUTOR: The green shard move tutor stands by the statue in town, and teaches:",
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "MOVE TUTOR, The green shard move tutor stands by the statue in town, and teaches:",
     "content_parts": [
       {
         "type": "text",
-        "text": "MOVE TUTOR: The green shard move tutor stands by the statue in town, and teaches:"
+        "text": "MOVE TUTOR, The green shard move tutor stands by the statue in town, and teaches:"
       }
     ],
     "tag": "h4"
@@ -1080,6 +1960,22 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "gifts",
     "giftsTitle": "Juniper Gift Pokémon",
     "giftsDescription": "Speak to professor Juniper to receive a Pokémon depending on your starter.",
@@ -1095,6 +1991,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "She will also gift you an Exp. Share!",
     "content_parts": [
       {
@@ -1102,6 +2006,30 @@ masterData =
         "text": "She will also gift you an Exp. Share!"
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -1126,8 +2054,24 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 129,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1143,6 +2087,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1161,10 +2113,42 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 392,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Floccesy Ranch",
@@ -1198,8 +2182,24 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 45,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Rival Fight (Rewards 20x Green Shards)",
@@ -1228,6 +2228,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 167,
     "notes": [
@@ -1244,6 +2252,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 168,
     "notes": [
@@ -1258,6 +2274,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "gifts",
@@ -1297,19 +2321,25 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 181,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "content": "</br>",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "</br>"
-      }
-    ],
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -1319,10 +2349,34 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 180,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Benga",
@@ -1352,6 +2406,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Alder's House",
     "content_parts": [
       {
@@ -1377,6 +2455,14 @@ masterData =
     "notificationTitle": "WARNING",
     "text": "Seymour and Cassie are fought back to back.",
     "fontColor": "#f26253"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Player Chose Tepig",
@@ -1421,6 +2507,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Player Chose Oshawott",
     "content_parts": [
       {
@@ -1461,6 +2555,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Player Chose Snivy",
@@ -1505,6 +2607,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "NEW ENCOUNTER",
     "text": "Alder's House is a unique met location for encounters.",
@@ -1513,6 +2623,30 @@ masterData =
   {
     "id": 14,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Pledge Grove",
@@ -1531,6 +2665,14 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Items",
     "itemsDescription": "",
@@ -1542,6 +2684,14 @@ masterData =
       "x10 Berry Juice (Reward for Defeating Brock)",
       "TM94 Rock Smash (Reward for Defeating Brock)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Brock",
@@ -1559,8 +2709,40 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 17,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Aspertia Gym",
@@ -1590,6 +2772,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 633,
     "notes": [
       "Gatekeeps",
@@ -1608,6 +2798,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 394,
     "notes": [
       "Gatekeeps",
@@ -1622,6 +2820,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "notif",
@@ -1663,16 +2869,40 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 171,
     "notes": [],
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 172,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Leader Cheren",
@@ -1708,6 +2938,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Roxie Split (Level Cap 23, Optional Cap 19 for Rival Hugh)",
     "content_parts": [
       {
@@ -1716,6 +2970,14 @@ masterData =
       }
     ],
     "tag": "h1"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "items",
@@ -1727,6 +2989,22 @@ masterData =
     "itemDescriptions": [
       "Oran Berries are now sold at the Pokémart"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Virbank Outskirts",
@@ -1758,6 +3036,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "NEW ENCOUNTER",
     "text": "The doubles grass on the east side of Route 20 produces encounters with a unique met location: \"Virbank Outskirts\"",
@@ -1768,10 +3054,26 @@ masterData =
     "tag": "encounter"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 206,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1780,10 +3082,26 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 174,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 176,
@@ -1804,10 +3122,34 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 175,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Virbank Gate",
@@ -1818,6 +3160,14 @@ masterData =
       }
     ],
     "tag": "h2"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Hugh",
@@ -1840,6 +3190,14 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 557,
     "notes": [
@@ -1854,6 +3212,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1872,6 +3238,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 556,
     "notes": [
@@ -1888,9 +3262,49 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "PokéHelper",
     "text": "After defeating Hugh,you gain the ability to Fast Travel using your PokéHelper."
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Virbank City",
@@ -1915,9 +3329,17 @@ masterData =
     "itemDescriptions": [
       "Lagging Tail",
       "Flame Orb",
-      "Toxic Orb,",
+      "Toxic Orb",
       "Oran Berries"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "items",
@@ -1935,8 +3357,24 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 4,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 555,
@@ -1953,6 +3391,22 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Misty",
@@ -2001,6 +3455,30 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Complex Exterior",
     "content_parts": [
       {
@@ -2024,6 +3502,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "NEW ENCOUNTER",
     "text": "Complex Exterior is a new met location distinct from the Virbank Complex.",
@@ -2032,6 +3518,30 @@ masterData =
   {
     "id": 46,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Virbank Complex",
@@ -2065,8 +3575,24 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 47,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 745,
@@ -2074,9 +3600,25 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 746,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 738,
@@ -2095,6 +3637,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 645,
     "notes": [
       "Rewards",
@@ -2111,6 +3661,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Eviolite Quest",
@@ -2139,9 +3697,25 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 204,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 205,
@@ -2149,9 +3723,41 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 203,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Virbank Gym",
@@ -2177,6 +3783,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 178,
     "notes": [],
@@ -2197,6 +3811,14 @@ masterData =
     "id": 179,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Leader Roxie",
@@ -2231,6 +3853,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Burgh Split (Level Cap 32, Optional Cap 28 for Sewer Grunts)",
     "content_parts": [
       {
@@ -2239,6 +3885,14 @@ masterData =
       }
     ],
     "tag": "h1"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Pokéstar Studios",
@@ -2274,6 +3928,30 @@ masterData =
     "tag": "encounter"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Plasma Grunts",
     "content_parts": [
       {
@@ -2301,6 +3979,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 763,
     "notes": [
@@ -2316,6 +4002,38 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Castelia City",
@@ -2357,6 +4075,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Items",
     "itemsDescription": "",
@@ -2368,6 +4094,22 @@ masterData =
       "Eviolite (given upon entering the Battle Company)",
       "BlackGlasses (found in the dark alley where Flash TM usually is)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 4",
@@ -2397,6 +4139,22 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Norbert (Route 4 Gatekeeper)",
     "content_parts": [
       {
@@ -2422,8 +4180,32 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 104,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 211,
@@ -2444,6 +4226,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 210,
     "notes": [
       "(Choose",
@@ -2460,6 +4250,38 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Castelia Sewers",
@@ -2495,13 +4317,37 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 37,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "notif",
     "notificationTitle": "Each pair of trainers in Castelia Sewers can be fought as either a Back to Back battle or a Tag battle (except for the Sewer Grunts).",
     "text": ""
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Hugh's Team",
@@ -2528,6 +4374,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 590,
     "notes": [
       "Picked",
@@ -2542,6 +4396,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 588,
     "notes": [
       "Picked",
@@ -2554,6 +4416,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Back to Back or Tag",
@@ -2594,6 +4464,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Back to Back or Tag",
     "content_parts": [
       {
@@ -2630,6 +4508,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Back to Back or Tag",
@@ -2670,6 +4556,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Back to Back or Tag",
     "content_parts": [
       {
@@ -2706,6 +4600,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Back to Back or Tag",
@@ -2746,6 +4648,24 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "Optional",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Optional"
+      }
+    ],
+    "tag": "h4"
+  },
+  {
     "id": 100,
     "notes": [
       "(Guards",
@@ -2759,6 +4679,22 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Plasma Grunt Tag Battle",
@@ -2801,6 +4737,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Worker Scott (Relic Passage Gatekeeper)",
     "content_parts": [
       {
@@ -2816,6 +4760,22 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Janiter Brady (Castelia Garden Gatekeeper)",
     "content_parts": [
       {
@@ -2829,6 +4789,46 @@ masterData =
     "id": 462,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Castelia Alleyway",
@@ -2847,6 +4847,14 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Items",
     "itemsDescription": "",
@@ -2858,6 +4866,14 @@ masterData =
       "Ability Capsule (speak to right NPC)",
       "Throat Spray (held by the traded Pokémon)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 329,
@@ -2877,6 +4893,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "gifts",
     "giftsTitle": "Castelia Alleyway Trade",
     "giftsDescription": "Speak with the dancer to acquire one of the following Pokémon. These Pokémon will be holding a throat spray.",
@@ -2890,6 +4914,30 @@ masterData =
       null,
       null
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Relic Passage",
@@ -2917,6 +4965,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Evolution Stone Gift",
     "itemsDescription": "The Worker in the middle of the room will gift you one common evolution stone. Many Pokémon can evolve early with Evolution stones, even those that can't in vanilla like Koffing or Palpitoad.",
@@ -2938,14 +4994,38 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
     "text": "There is Pre-Set Perma Trick Room in Relic Passage",
     "fontColor": "#4e86d4"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 82,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 567,
@@ -2978,6 +5058,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 563,
     "notes": [
       "Rewards",
@@ -2992,6 +5080,30 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Castelia Garden",
@@ -3015,8 +5127,40 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 1,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Castelia Battle Company",
@@ -3050,6 +5194,14 @@ masterData =
       "Thick Club (found on the top floor)",
       "Light Ball (found by Clerk Britney)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "notif",
@@ -3207,6 +5359,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "gifts",
     "giftsTitle": "Battle Company Egg",
     "giftsDescription": "If you defeat all the trainers in the Company before defeating Burgh, you receive a gift encounter.",
@@ -3240,6 +5400,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 501,
     "notes": [
       "Rewards",
@@ -3253,6 +5421,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 691,
@@ -3271,6 +5447,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 692,
     "notes": [
       "Rewards",
@@ -3284,6 +5468,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 502,
@@ -3300,6 +5492,22 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "School Kid Neil",
@@ -3332,6 +5540,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Liberty Garden",
     "content_parts": [
       {
@@ -3362,6 +5594,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Lt. Surge Rewards",
     "itemsDescription": "",
@@ -3375,8 +5615,40 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 19,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Castelia Gym",
@@ -3402,10 +5674,26 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 734,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -3414,16 +5702,40 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 736,
     "notes": [],
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 737,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Leader Burgh",
@@ -3456,6 +5768,30 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Elesa Split (Level Cap 41, Optional Level Cap 37 for Benga)",
@@ -3493,6 +5829,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Route 4",
     "content_parts": [
       {
@@ -3518,6 +5862,14 @@ masterData =
       "10x Figy Berry (found Northeast of Pokéfan Sachiko)",
       "TM27 Return (Found past Benga)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Colress",
@@ -3546,16 +5898,40 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 226,
     "notes": [],
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 221,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 225,
@@ -3575,10 +5951,34 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 214,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -3611,6 +6011,22 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Lady Lina (Desert Resort Gatekeeper)",
     "content_parts": [
       {
@@ -3639,6 +6055,22 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Benga",
     "content_parts": [
       {
@@ -3665,6 +6097,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Desert Resort (Exterior)",
     "content_parts": [
       {
@@ -3686,13 +6142,53 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "WARNING",
     "text": "Desert Resort Exterior and Desert Resort Interior share a met location!"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 10,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Desert Resort (Interior)",
@@ -3726,14 +6222,38 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 11,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
     "text": "There is a Permanent Sandstorm in Desert Resort Interior",
     "fontColor": "#4e86d4"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Ranger Jaden (Desert Resort Interior Gatekeeper)",
@@ -3749,6 +6269,14 @@ masterData =
     "id": 666,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 667,
@@ -3767,6 +6295,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 668,
     "notes": [
       "Guards",
@@ -3783,6 +6319,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 511,
     "notes": [
       "Guards",
@@ -3797,6 +6341,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 664,
@@ -3833,6 +6385,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Psychic Future (Relic Castle Gatekeeper)",
     "content_parts": [
       {
@@ -3846,6 +6406,30 @@ masterData =
     "id": 669,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Relic Castle (Upper Floors)",
@@ -3864,6 +6448,14 @@ masterData =
     "fontColor": "#469e62"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Items",
     "itemsDescription": "",
@@ -3879,14 +6471,38 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
     "text": "There is a Permanent Pre Set Trick Room in Relic Castle",
     "fontColor": "#4e86d4"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 12,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 512,
@@ -3906,6 +6522,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 510,
@@ -3928,6 +6552,22 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Lenora",
     "content_parts": [
       {
@@ -3944,9 +6584,25 @@ masterData =
     "fontColor": "#af74b3"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 790,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "items",
@@ -3962,6 +6618,38 @@ masterData =
       "Claw Fossil",
       "Cover Fossil"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Join Avenue (Gauntlet)",
@@ -3994,14 +6682,38 @@ masterData =
     "tag": "p"
   },
   {
-    "tag": "notif",
-    "notificationTitle": "The office to the left of Join Avenue's south entrance houses boxes of appliances that can change Rotom's form",
-    "text": "if you have it."
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "notif",
-    "notificationTitle": "All Join Avenue shops and vendors have been blocked off by the convention.",
-    "text": ""
+    "notificationTitle": "NOTE",
+    "text": "The office to the left of Join Avenue's south entrance houses boxes of appliances that can change Rotom's form,if you have it."
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "tag": "notif",
+    "notificationTitle": "NOTE",
+    "text": "All Join Avenue shops and vendors have been blocked off by the convention."
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Fight #1",
@@ -4046,6 +6758,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Fight #2",
     "content_parts": [
       {
@@ -4084,6 +6804,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Fight #3",
@@ -4128,6 +6856,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Fight #4",
     "content_parts": [
       {
@@ -4144,6 +6880,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "End of Gauntlet",
     "content_parts": [
       {
@@ -4152,6 +6896,14 @@ masterData =
       }
     ],
     "tag": "h3"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "items",
@@ -4163,6 +6915,38 @@ masterData =
     "itemDescriptions": [
       "10x Sitrus Berries (Acquired after completing the gauntlet)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Nimbasa City",
@@ -4188,6 +6972,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Items",
     "itemsDescription": "",
@@ -4199,6 +6991,22 @@ masterData =
       "NevermeltIce (found by Ferris Wheel)",
       "Ability Capsule (reward for the Eevee gauntlet)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Fossil Reviver",
@@ -4218,6 +7026,22 @@ masterData =
         "text": "If you acquire a Fossil, they can be revived into an encounter here."
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -4263,6 +7087,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Your Partner",
@@ -4323,6 +7155,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 364,
     "notes": [
       "Male",
@@ -4371,6 +7211,22 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Eeveelution Gauntlet",
     "content_parts": [
       {
@@ -4382,8 +7238,8 @@ masterData =
   },
   {
     "tag": "notif",
-    "notificationTitle": "SPLIT LOCKED CONTENT: The Eevee fan club can only be fought prior to defeating Elesa. Afterwards it is locked off.",
-    "text": ""
+    "notificationTitle": "SPLIT LOCKED CONTENT",
+    "text": "The Eevee fan club can only be fought prior to defeating Elesa. Afterwards it is locked off."
   },
   {
     "content": "You can fight this 8 mon gauntlet of trainers to access a unique trade. You can trade any Pokémon and receive a random eeveelution, so long as they are defeated before Elesa.",
@@ -4393,6 +7249,14 @@ masterData =
         "text": "You can fight this 8 mon gauntlet of trainers to access a unique trade. You can trade any Pokémon and receive a random eeveelution, so long as they are defeated before Elesa."
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -4438,6 +7302,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 51,
     "notes": [
       "(Fight",
@@ -4466,6 +7338,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 53,
     "notes": [
       "(Fight",
@@ -4478,6 +7358,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "gifts",
@@ -4505,6 +7393,22 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Anville Town (only accessible by defeating Ingo and Emmet)",
     "content_parts": [
       {
@@ -4524,6 +7428,14 @@ masterData =
     "itemDescriptions": [
       "Dragon Fang"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "items",
@@ -4553,8 +7465,40 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 15,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 5",
@@ -4582,6 +7526,22 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Baker Jenn (Route 5 Gatekeeper)",
     "content_parts": [
       {
@@ -4597,8 +7557,24 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 106,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 254,
@@ -4617,6 +7593,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 293,
     "notes": [
       "Guards",
@@ -4631,6 +7615,30 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 16",
@@ -4660,6 +7668,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Depot Agent Hank (Route 16 gatekeeper)",
     "content_parts": [
       {
@@ -4675,8 +7691,24 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 125,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 260,
@@ -4709,6 +7741,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 257,
     "notes": [
       "Guards",
@@ -4728,6 +7768,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 217,
     "notes": [
       "Guards",
@@ -4742,6 +7790,30 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Lostlorn Forest",
@@ -4767,6 +7839,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Ranger Serenity (Lostlorn Forest Gatekeeper)",
     "content_parts": [
       {
@@ -4782,8 +7862,24 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 126,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 298,
@@ -4800,6 +7896,22 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Erika",
@@ -4839,6 +7951,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Deep Lostlorn Forest (only accessible by defeating Erika)",
     "content_parts": [
       {
@@ -4868,8 +8004,32 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 26,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Old Nimbasa Gym",
@@ -4888,10 +8048,34 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 148,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Nimbasa Gym",
@@ -4917,10 +8101,26 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 207,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -4929,10 +8129,26 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 209,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Leader Elesa",
@@ -4968,6 +8184,38 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Clay Split (Level Cap 46, Optional Level Cap 44 for Rood)",
     "content_parts": [
       {
@@ -4976,6 +8224,14 @@ masterData =
       }
     ],
     "tag": "h1"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Nimbasa City Grunts",
@@ -5033,6 +8289,22 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Charles",
     "content_parts": [
       {
@@ -5047,6 +8319,22 @@ masterData =
     "id": 340,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Driftveil Drawbridge (Gauntlet)",
@@ -5076,6 +8364,14 @@ masterData =
         "text": "There are several crossroads where you can choose one of two trainers to fight to progress. Plan your route accordingly."
       }
     ],
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -5121,6 +8417,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Fight #2",
     "content_parts": [
       {
@@ -5159,6 +8463,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Fight #3",
@@ -5203,6 +8515,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Fight #4",
     "content_parts": [
       {
@@ -5245,6 +8565,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Fight #5",
     "content_parts": [
       {
@@ -5283,6 +8611,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Fight #6",
@@ -5327,6 +8663,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "End of Gauntlet",
     "content_parts": [
       {
@@ -5337,14 +8681,63 @@ masterData =
     "tag": "h4"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Gauntlet Reward",
     "itemsDescription": "",
     "itemList": [
-      "focus sash",
-      "!end",
-      "## Driftveil City",
-      "!items Items",
+      "focus sash"
+    ],
+    "itemDescriptions": [
+      "2x Focus Sash (Received at the end of the gauntlet)"
+    ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "Driftveil City",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Driftveil City"
+      }
+    ],
+    "tag": "h2"
+  },
+  {
+    "tag": "items",
+    "itemsTitle": "Items",
+    "itemsDescription": "",
+    "itemList": [
       "expert belt",
       "tm grass",
       "tm fairy",
@@ -5354,10 +8747,6 @@ masterData =
       "stable mulch"
     ],
     "itemDescriptions": [
-      "2x Focus Sash (Received at the end of the gauntlet)",
-      null,
-      null,
-      null,
       "Expert Belt (found in the market, vanilla location)",
       "TM85 Grass Knot (south of Musician Preston)",
       "TM90 Draining Kiss (Past Backers Ava and Aya)",
@@ -5366,6 +8755,14 @@ masterData =
       "x6 Yellow Shard (past Dancer Brian)",
       "Relaxed Mint (in the Market)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "items",
@@ -5389,6 +8786,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Herb Shop",
     "itemsDescription": "",
@@ -5404,9 +8809,17 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
-    "notificationTitle": "MOVE TUTOR: The Yellow Move Tutor is present",
-    "text": "past Dancer Brian,and teaches:"
+    "notificationTitle": "MOVE TUTOR",
+    "text": "The Yellow Move Tutor is present,past Dancer Brian,and teaches:"
   },
   {
     "content": "Explosion (2 shards)",
@@ -5579,6 +8992,14 @@ masterData =
     "tag": "li"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 255,
     "notes": [
       "Guards",
@@ -5597,6 +9018,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 252,
     "notes": [
       "Guards",
@@ -5611,6 +9040,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 256,
@@ -5629,6 +9066,22 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Rood",
     "content_parts": [
       {
@@ -5645,14 +9098,46 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "NEW ENCOUNTER",
     "text": "There are wild Pokémon that can be caught in the Plasma Sanctuary",
     "fontColor": "#469e62"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 112,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Janine",
@@ -5695,6 +9180,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Clay Tunnel (must defeat Janine to access)",
     "content_parts": [
       {
@@ -5724,6 +9233,30 @@ masterData =
     "tag": "encounter"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Route 6",
     "content_parts": [
       {
@@ -5745,10 +9278,26 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
     "text": "There is a Permanent Rainstorm on Route 6",
     "fontColor": "#4e86d4"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Parasol Lady Nicole (Route 6 Gatekeeper)",
@@ -5766,8 +9315,24 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 107,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -5784,6 +9349,30 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Driftveil Gym",
@@ -5809,10 +9398,26 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 324,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -5845,16 +9450,40 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 321,
     "notes": [],
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 320,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -5885,6 +9514,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Leader Clay",
@@ -5919,6 +9556,38 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Skyla Split (Level Cap 55, Optional Level Cap 51 for Rival)",
     "content_parts": [
       {
@@ -5927,6 +9596,14 @@ masterData =
       }
     ],
     "tag": "h1"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Pokémon World Tournament",
@@ -5954,6 +9631,14 @@ masterData =
     "text": "who in exchange for IV Enhancers will maximize an IV of your choice for one of your Pokémon to 31."
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Items",
     "itemsDescription": "",
@@ -5969,6 +9654,14 @@ masterData =
       "Proto Booster (reward for defeating Colress)",
       "IV Enhancer (reward for defeating Colress)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Colress",
@@ -6007,6 +9700,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Relic Passage (Driftveil Side)",
     "content_parts": [
       {
@@ -6039,14 +9756,38 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
     "text": "There is a Permanent Pre Set Trick Room in Relic Passage",
     "fontColor": "#4e86d4"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 81,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 566,
@@ -6077,6 +9818,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 562,
     "notes": [
       "Rewards",
@@ -6091,6 +9840,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 561,
@@ -6109,6 +9866,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 565,
     "notes": [
       "Rewards",
@@ -6123,6 +9888,30 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Relic Sanctum",
@@ -6150,10 +9939,26 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
     "text": "There is a Permanent Pre Set Trick Room in Relic Sanctum",
     "fontColor": "#4e86d4"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Psychic Tully & Psychic Ena (Relic Castle Gatekeepers)",
@@ -6194,6 +9999,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "NEW ENCOUNTER",
     "text": "This is a unique encounter from the upper Relic Castle Floors in Desert Resort.",
@@ -6202,6 +10015,14 @@ masterData =
   {
     "id": 18,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Strange Statue",
@@ -6235,6 +10056,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Plasma Frigate",
     "content_parts": [
       {
@@ -6243,6 +10088,14 @@ masterData =
       }
     ],
     "tag": "h2"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "notif",
@@ -6299,6 +10152,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Cheren Tag Battle",
     "content_parts": [
       {
@@ -6339,6 +10200,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Cheren's Team",
     "content_parts": [
       {
@@ -6353,6 +10222,14 @@ masterData =
     "id": 371,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "notif",
@@ -6399,6 +10276,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Hugh's Teams",
@@ -6456,6 +10341,22 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Route 6",
     "content_parts": [
       {
@@ -6479,10 +10380,26 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
     "text": "There is a Permanent Rainstorm in Route 6",
     "fontColor": "#4e86d4"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -6491,15 +10408,39 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 268,
     "notes": [],
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "After these two trainers",
     "text": "you can access the Season Research Center. See below for more details."
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -6532,10 +10473,26 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 292,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "School Kids Mara & Alvin (Mistralton Cave Gatekeepers)",
@@ -6576,6 +10533,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Season Research Center",
     "content_parts": [
       {
@@ -6590,6 +10571,14 @@ masterData =
     "notificationTitle": "NEW ENCOUNTER",
     "text": "This is a new encounter location,but you must defeat Ranger Audra to access the tiles with encounters at the back of the room.",
     "fontColor": "#469e62"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Ranger Audra (Research Lab gatekeeper)",
@@ -6607,8 +10596,40 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 88,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Rival Hugh (outside Chargestone Cave)",
@@ -6631,6 +10652,14 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 487,
     "notes": [
@@ -6645,6 +10674,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -6663,6 +10700,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 489,
     "notes": [
@@ -6677,6 +10722,30 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Mistralton Cave",
@@ -6702,8 +10771,24 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 108,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 681,
@@ -6734,6 +10819,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 682,
     "notes": [
       "Guards",
@@ -6747,6 +10840,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 683,
@@ -6767,6 +10868,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Clay Tunnel",
     "content_parts": [
       {
@@ -6782,6 +10907,14 @@ masterData =
     "text": "This shares a met location with Clay Tunnel accessible by beating Janine. If you skipped that fight,you can get an encounter here. rgb(255,55,0)"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Items",
     "itemsDescription": "",
@@ -6795,8 +10928,40 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 85,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Guidance Chamber",
@@ -6819,6 +10984,14 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "items",
     "itemsTitle": "Items",
     "itemsDescription": "",
@@ -6828,6 +11001,14 @@ masterData =
     "itemDescriptions": [
       "Assault Vest (reward for beating Cobalion)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Cobalion",
@@ -6852,6 +11033,14 @@ masterData =
     "fontColor": "#4e86d4"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 491,
     "notes": [
       "Rewards",
@@ -6867,13 +11056,45 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
-    "notificationTitle": "This encounter is not available until you defeat Cobalion.",
-    "text": ""
+    "notificationTitle": "NOTE",
+    "text": "This encounter is not available until you defeat Cobalion."
   },
   {
     "id": 87,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Chargestone Cave Floor 1 (Gauntlet)",
@@ -6906,10 +11127,26 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
     "text": "In Chargestone Cave,Ground types only resist Electric moves.",
     "fontColor": "#4e86d4"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "items",
@@ -6923,8 +11160,24 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 20,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Fight #1",
@@ -6969,6 +11222,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Fight #2",
     "content_parts": [
       {
@@ -7011,6 +11272,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Fight #3",
     "content_parts": [
       {
@@ -7025,6 +11294,14 @@ masterData =
     "id": 544,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Fight #4",
@@ -7069,6 +11346,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "End of Gauntlet",
     "content_parts": [
       {
@@ -7077,6 +11362,22 @@ masterData =
       }
     ],
     "tag": "h4"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Chargestone Cave Floors 2-3 (Gauntlet)",
@@ -7109,8 +11410,16 @@ masterData =
     "tag": "p"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
-    "notificationTitle": ": WARNING",
+    "notificationTitle": "WARNING",
     "text": "Volkner can only be fought within this Gauntlet. You cannot return to him later. rgb(255,55,0)"
   },
   {
@@ -7118,6 +11427,14 @@ masterData =
     "notificationTitle": "FIELD EFFECT",
     "text": "In Chargestone Cave,Ground types only resist Electric moves.",
     "fontColor": "#4e86d4"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "items",
@@ -7135,6 +11452,14 @@ masterData =
       "x5 Electric Gem (reward for beating Volkner)",
       "x5 Wacan Berry (reward for beating Volkner)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Fight #1",
@@ -7179,6 +11504,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Fight #2A (Only Fought if you fought Doctor Kit)",
     "content_parts": [
       {
@@ -7219,6 +11552,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Fight #2B (Only Fought if you fought Ranger Briana)",
@@ -7263,6 +11604,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Fight #3",
     "content_parts": [
       {
@@ -7305,6 +11654,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Optional Miniboss: Volkner (can only be fought within the gauntlet)",
     "content_parts": [
       {
@@ -7335,6 +11692,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Fight #4",
     "content_parts": [
       {
@@ -7351,6 +11716,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "End of Gauntlet",
     "content_parts": [
       {
@@ -7359,6 +11732,14 @@ masterData =
       }
     ],
     "tag": "h3"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "tag": "items",
@@ -7372,6 +11753,14 @@ masterData =
       "TM21 Aurora Beam (past Ace Trainer Lydon)",
       "TM77 Bug Buzz (past Ace Trainer Mary)"
     ]
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 413,
@@ -7390,6 +11779,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 548,
     "notes": [
       "Guards",
@@ -7404,6 +11801,30 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Mistralton City",
@@ -7440,6 +11861,22 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Route 7",
     "content_parts": [
       {
@@ -7454,73 +11891,38 @@ masterData =
     "tag": "encounter"
   },
   {
-    "content": "!item Items",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "!item Items"
-      }
-    ],
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
-    "content": "tm psychic, TM51 Ally Switch",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "tm psychic, TM51 Ally Switch"
-      }
+    "tag": "items",
+    "itemsTitle": "Items",
+    "itemsDescription": "",
+    "itemList": [
+      "tm psychic",
+      "heart scale",
+      "tm fairy",
+      "tm bug",
+      "tm psychic"
     ],
-    "tag": "p"
+    "itemDescriptions": [
+      "TM51 Ally Switch",
+      "Heart Scale (found past Sola & Ana)",
+      "TM32 Dazzling Gleam (found past Sola & Ana)",
+      "TM89 U-Turn (past Harlequins)",
+      "TM03 Psyshock (past Holly)"
+    ]
   },
   {
-    "content": "heart scale, Heart Scale (found past Sola & Ana)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "heart scale, Heart Scale (found past Sola & Ana)"
-      }
-    ],
-    "tag": "p"
-  },
-  {
-    "content": "tm fairy, TM32 Dazzling Gleam (found past Sola & Ana)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "tm fairy, TM32 Dazzling Gleam (found past Sola & Ana)"
-      }
-    ],
-    "tag": "p"
-  },
-  {
-    "content": "tm bug, TM89 U-Turn (past Harlequins)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "tm bug, TM89 U-Turn (past Harlequins)"
-      }
-    ],
-    "tag": "p"
-  },
-  {
-    "content": "tm psychic, TM03 Psyshock (past Holly)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "tm psychic, TM03 Psyshock (past Holly)"
-      }
-    ],
-    "tag": "p"
-  },
-  {
-    "content": "end",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "end"
-      }
-    ],
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
     "tag": "p"
   },
   {
@@ -7552,6 +11954,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 271,
     "notes": [
       "Guards",
@@ -7565,6 +11975,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 275,
@@ -7601,6 +12019,14 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 274,
     "notes": [
       "Guards",
@@ -7618,6 +12044,38 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Celestial Tower",
@@ -7645,6 +12103,14 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
     "text": "In Celestial Tower,Dark types only resist Psychic moves and Normal types only resist Ghost moves.",
@@ -7666,8 +12132,24 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 114,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 551,
@@ -7686,9 +12168,25 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 549,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 550,
@@ -7704,6 +12202,14 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 553,
@@ -7739,6 +12245,22 @@ masterData =
       }
     ],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Sabrina",
@@ -7784,6 +12306,30 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "Celestial Rooftop (only accessible by beating Sabrina)",
     "content_parts": [
       {
@@ -7811,14 +12357,54 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "NEW ENCOUNTER",
     "text": "This is a unique met location for encounters.",
     "fontColor": "#469e62"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 113,
     "tag": "encounter"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Mistralton Gym",
@@ -7844,10 +12430,26 @@ masterData =
     ]
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "tag": "notif",
     "notificationTitle": "FIELD EFFECT",
     "text": "Airborne Pokémon gain 1.5x speed in Skyla's gym,including from Magnet Rise,Air Balloons,and Levitate.",
     "fontColor": "#4e86d4"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -7856,10 +12458,26 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 150,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -7868,16 +12486,40 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 151,
     "notes": [],
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 152,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Leader Skyla",
@@ -7912,6 +12554,22 @@ masterData =
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "content": "End of Current Content",
     "content_parts": [
       {
@@ -7920,6 +12578,46 @@ masterData =
       }
     ],
     "tag": "h1"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   }
 ]
 encountersById =
@@ -10321,18 +15019,18 @@ trainersById =
   },
   {
     "ivs_0": 255,
-    "ability_0": 6,
-    "level_0": 10,
+    "ability_0": 1,
+    "level_0": 50,
     "padding_0": 0,
-    "species_id_0": "ELECTRODE",
+    "species_id_0": "GLISCOR",
     "form_0": 0,
     "item_id_0": "Leftovers",
-    "move_1_0": "ZEN HEADBUTT",
+    "move_1_0": "DIG",
     "move_2_0": "QUICK ATTACK",
     "move_3_0": "-----",
     "move_4_0": "-----",
     "ivs_1": 255,
-    "ability_1": 4,
+    "ability_1": 1,
     "level_1": 50,
     "padding_1": 0,
     "species_id_1": "SLUGMA",
@@ -10346,14 +15044,14 @@ trainersById =
     "gender_0": "Default",
     "gender_1": "Default",
     "template": 3,
-    "nature_0": "Naive",
-    "ability_name_0": "Aftermath",
+    "nature_0": "Calm",
+    "ability_name_0": "Poison Heal",
     "tr_sprite": "trainer_sprites/smasher.png",
     "name": "Elena",
     "nature_1": "Calm",
-    "ability_name_1": "Aftermath",
+    "ability_name_1": "Gooey",
     "raw": null,
-    "raw_species_id_0": 101,
+    "raw_species_id_0": 472,
     "raw_species_id_1": 218,
     "raw_species_id_2": null,
     "raw_species_id_3": null,
@@ -12149,6 +16847,14 @@ trainersById =
     "name": "Cassandra",
     "nature_1": "Adamant",
     "ability_name_1": "Intimidate",
+    "move_1_0": "NASTY PLOT",
+    "move_2_0": "WICKED BLOW",
+    "move_3_0": "PLAY ROUGH",
+    "move_4_0": "ME FIRST",
+    "move_1_1": "WRAP",
+    "move_2_1": "TOXIC",
+    "move_3_1": "DRAGON TAIL",
+    "move_4_1": "POISON JAB",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": 24,
@@ -12700,6 +17406,10 @@ trainersById =
     "ability_name_0": "Rivalry",
     "tr_sprite": "trainer_sprites/richboy.png",
     "name": "Martin",
+    "move_1_0": "FLING",
+    "move_2_0": "DUAL WINGBEAT",
+    "move_3_0": "TAUNT",
+    "move_4_0": "NATURAL GIFT",
     "raw": null,
     "raw_species_id_0": 520,
     "raw_species_id_1": null,
@@ -13444,6 +18154,18 @@ trainersById =
     "ability_name_1": "Skill Link",
     "nature_2": "Impish",
     "ability_name_2": "Pickup",
+    "move_1_0": "FEATHERDANCE",
+    "move_2_0": "REVERSAL",
+    "move_3_0": "STEEL WING",
+    "move_4_0": "BOOMBURST",
+    "move_1_1": "TAUNT",
+    "move_2_1": "RAZOR WINDS",
+    "move_3_1": "FLING",
+    "move_4_1": "SEETHING COLD",
+    "move_1_2": "NASTY PLOT",
+    "move_2_2": "WICKED BLOW",
+    "move_3_2": "PLAY ROUGH",
+    "move_4_2": "ME FIRST",
     "raw": null,
     "raw_species_id_0": 276,
     "raw_species_id_1": 215,
@@ -13534,6 +18256,14 @@ trainersById =
     "name": "Dan",
     "nature_1": "Adamant",
     "ability_name_1": "Guts",
+    "move_1_0": "ROCK SLIDE",
+    "move_2_0": "YAWN",
+    "move_3_0": "THRASH",
+    "move_4_0": "TEMPER FLARE",
+    "move_1_1": "DRAIN PUNCH",
+    "move_2_1": "ROCK TOMB",
+    "move_3_1": "COUNTER",
+    "move_4_1": "BULLET PUNCH",
     "raw": null,
     "raw_species_id_0": 554,
     "raw_species_id_1": 533,
@@ -13633,6 +18363,18 @@ trainersById =
     "ability_name_1": "Sheer Force",
     "nature_2": "Adamant",
     "ability_name_2": "Guts",
+    "move_1_0": "HAMMER ARM",
+    "move_2_0": "TOXIC",
+    "move_3_0": "GYRO BALL",
+    "move_4_0": "BIND",
+    "move_1_1": "SPIRIT BREAK",
+    "move_2_1": "FLARE BLITZ",
+    "move_3_1": "HIGH HORSEPOWER",
+    "move_4_1": "ZEN HEADBUTT",
+    "move_1_2": "HAMMER ARM",
+    "move_2_2": "STONE EDGE",
+    "move_3_2": "METEOR MASH",
+    "move_4_2": "FOCUS PUNCH",
     "raw": null,
     "raw_species_id_0": 108,
     "raw_species_id_1": 555,
@@ -13675,6 +18417,18 @@ trainersById =
     "ability_name_1": "Patient",
     "nature_2": "Lax",
     "ability_name_2": "Thick Fat",
+    "move_1_0": "CLOSE COMBAT",
+    "move_2_0": "HELPING HAND",
+    "move_3_0": "LAST RESORT",
+    "move_4_0": "DOUBLE-EDGE",
+    "move_1_1": "HEADLONG RUSH",
+    "move_2_1": "HELPING HAND",
+    "move_3_1": "REVENGE",
+    "move_4_1": "EARTHQUAKE",
+    "move_1_2": "FACADE",
+    "move_2_2": "BELLY DRUM",
+    "move_3_2": "REVENGE",
+    "move_4_2": "OBSTRUCT",
     "raw": null,
     "raw_species_id_0": 539,
     "raw_species_id_1": 538,
@@ -13742,6 +18496,10 @@ trainersById =
     "ability_name_0": "Speed Boost",
     "tr_sprite": "trainer_sprites/hoopster.png",
     "name": "Bobby",
+    "move_1_0": "POISON JAB",
+    "move_2_0": "DEFENSE CURL",
+    "move_3_0": "DRILL RUN",
+    "move_4_0": "AGILITY",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": null,
@@ -13766,6 +18524,10 @@ trainersById =
     "ability_name_0": "Speed Boost",
     "tr_sprite": "trainer_sprites/hoopster.png",
     "name": "Bobby",
+    "move_1_0": "CROSS POISON",
+    "move_2_0": "TOXIC",
+    "move_3_0": "SPIN OUT",
+    "move_4_0": "TWINEEDLE",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": null,
@@ -13842,6 +18604,14 @@ trainersById =
     "name": "John",
     "nature_1": "Bold",
     "ability_name_1": "Sturdy",
+    "move_1_0": "SUPERPOWER",
+    "move_2_0": "HEADLONG RUSH",
+    "move_3_0": "DOUBLE-EDGE",
+    "move_4_0": "HOWL",
+    "move_1_1": "SUNNY DAY",
+    "move_2_1": "DIAMOND STORM",
+    "move_3_1": "SELFDESTRUCT",
+    "move_4_1": "MORNING SUN",
     "raw": null,
     "raw_species_id_0": 508,
     "raw_species_id_1": 526,
@@ -13875,6 +18645,14 @@ trainersById =
     "name": "Hawk & Dar",
     "nature_1": "Naive",
     "ability_name_1": "Sheer Force",
+    "move_1_0": "AGILITY",
+    "move_2_0": "HAMMER ARM",
+    "move_3_0": "FIRE PUNCH",
+    "move_4_0": "PSYCHIC FANGS",
+    "move_1_1": "AGILITY",
+    "move_2_1": "HAMMER ARM",
+    "move_3_1": "FIRE PUNCH",
+    "move_4_1": "PSYCHIC FANGS",
     "raw": null,
     "raw_species_id_0": 555,
     "raw_species_id_1": 555,
@@ -13908,6 +18686,14 @@ trainersById =
     "name": "Hawk & Dar",
     "nature_1": "Rash",
     "ability_name_1": "Sheer Force",
+    "move_1_0": "SPIRIT BREAK",
+    "move_2_0": "FLARE BLITZ",
+    "move_3_0": "HIGH HORSEPOWER",
+    "move_4_0": "ZEN HEADBUTT",
+    "move_1_1": "SPIRIT BREAK",
+    "move_2_1": "FLARE BLITZ",
+    "move_3_1": "HIGH HORSEPOWER",
+    "move_4_1": "ZEN HEADBUTT",
     "raw": null,
     "raw_species_id_0": 555,
     "raw_species_id_1": 555,
@@ -13941,6 +18727,14 @@ trainersById =
     "name": "Joe & Ross",
     "nature_1": "Timid",
     "ability_name_1": "Sap Sipper",
+    "move_1_0": "CRUNCH",
+    "move_2_0": "BLAZE KICK",
+    "move_3_0": "ZING ZAP",
+    "move_4_0": "AGILITY",
+    "move_1_1": "CRUNCH",
+    "move_2_1": "BLAZE KICK",
+    "move_3_1": "ZING ZAP",
+    "move_4_1": "AGILITY",
     "raw": null,
     "raw_species_id_0": 523,
     "raw_species_id_1": 523,
@@ -13974,6 +18768,14 @@ trainersById =
     "name": "Joe & Ross",
     "nature_1": "Naughty",
     "ability_name_1": "Sap Sipper",
+    "move_1_0": "RECOVER",
+    "move_2_0": "SHADOW BALL",
+    "move_3_0": "DESTINY BOND",
+    "move_4_0": "GIGA DRAIN",
+    "move_1_1": "NIGHT DAZE",
+    "move_2_1": "ME FIRST",
+    "move_3_1": "HIGH HORSEPOWER",
+    "move_4_1": "CRUNCH",
     "raw": null,
     "raw_species_id_0": 593,
     "raw_species_id_1": 523,
@@ -14007,6 +18809,14 @@ trainersById =
     "name": "Masa & Yas",
     "nature_1": "Bold",
     "ability_name_1": "Sturdy",
+    "move_1_0": "TOXIC",
+    "move_2_0": "SPIN OUT",
+    "move_3_0": "TWINEEDLE",
+    "move_4_0": "POISON JAB",
+    "move_1_1": "MUD BOMB",
+    "move_2_1": "ANCIENTPOWER",
+    "move_3_1": "IRON DEFENSE",
+    "move_4_1": "PARABOLIC ZAP",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": 525,
@@ -14040,6 +18850,14 @@ trainersById =
     "name": "Masa & Yas",
     "nature_1": "Brave",
     "ability_name_1": "Sturdy",
+    "move_1_0": "IRON DEFENSE",
+    "move_2_0": "OUTRAGE",
+    "move_3_0": "MEGAHORN",
+    "move_4_0": "BANEFUL BUNKER",
+    "move_1_1": "SUNNY DAY",
+    "move_2_1": "DIAMOND STORM",
+    "move_3_1": "SELFDESTRUCT",
+    "move_4_1": "MORNING SUN",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": 526,
@@ -14073,6 +18891,14 @@ trainersById =
     "name": "Les & Web",
     "nature_1": "Bashful",
     "ability_name_1": "Pickup",
+    "move_1_0": "NASTY PLOT",
+    "move_2_0": "WICKED BLOW",
+    "move_3_0": "PLAY ROUGH",
+    "move_4_0": "ME FIRST",
+    "move_1_1": "NASTY PLOT",
+    "move_2_1": "WICKED BLOW",
+    "move_3_1": "PLAY ROUGH",
+    "move_4_1": "ME FIRST",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": 510,
@@ -14106,6 +18932,14 @@ trainersById =
     "name": "Alf & Fred",
     "nature_1": "Adamant",
     "ability_name_1": "Defiant",
+    "move_1_0": "SWORDS DANCE",
+    "move_2_0": "NASTY PLOT",
+    "move_3_0": "POWER WHIP",
+    "move_4_0": "SLACK OFF",
+    "move_1_1": "METAL BURST",
+    "move_2_1": "PSYBLADE",
+    "move_3_1": "IRON HEAD",
+    "move_4_1": "AUTOTOMIZE",
     "raw": null,
     "raw_species_id_0": 512,
     "raw_species_id_1": 625,
@@ -14139,6 +18973,14 @@ trainersById =
     "name": "Kay & Ali",
     "nature_1": "Hasty",
     "ability_name_1": "Keen Senses",
+    "move_1_0": "MIRROR MOVE",
+    "move_2_0": "ROOST",
+    "move_3_0": "ACROBATICS",
+    "move_4_0": "STEEL WING",
+    "move_1_1": "MIRROR MOVE",
+    "move_2_1": "ROOST",
+    "move_3_1": "ACROBATICS",
+    "move_4_1": "STEEL WING",
     "raw": null,
     "raw_species_id_0": 581,
     "raw_species_id_1": 581,
@@ -14172,6 +19014,14 @@ trainersById =
     "name": "Kay & Ali",
     "nature_1": "Quirky",
     "ability_name_1": "Keen Senses",
+    "move_1_0": "HAIL",
+    "move_2_0": "ICE BEAM",
+    "move_3_0": "AIR SLASH",
+    "move_4_0": "LUCKY CHANT",
+    "move_1_1": "HAIL",
+    "move_2_1": "ICE BEAM",
+    "move_3_1": "AIR SLASH",
+    "move_4_1": "LUCKY CHANT",
     "raw": null,
     "raw_species_id_0": 581,
     "raw_species_id_1": 581,
@@ -14205,6 +19055,14 @@ trainersById =
     "name": "Ami & Eira",
     "nature_1": "Relaxed",
     "ability_name_1": "Blaze",
+    "move_1_0": "SLACK OFF",
+    "move_2_0": "TORMENT",
+    "move_3_0": "AQUA TAIL",
+    "move_4_0": "HYPER VOICE",
+    "move_1_1": "SLACK OFF",
+    "move_2_1": "TORMENT",
+    "move_3_1": "FLAMETHROWER",
+    "move_4_1": "HYPER VOICE",
     "raw": null,
     "raw_species_id_0": 516,
     "raw_species_id_1": 514,
@@ -14238,6 +19096,14 @@ trainersById =
     "name": "Ami & Eira",
     "nature_1": "Calm",
     "ability_name_1": "Blaze",
+    "move_1_0": "SWORDS DANCE",
+    "move_2_0": "NASTY PLOT",
+    "move_3_0": "WAVE CRASH",
+    "move_4_0": "SLACK OFF",
+    "move_1_1": "SWORDS DANCE",
+    "move_2_1": "NASTY PLOT",
+    "move_3_1": "FLARE BLITZ",
+    "move_4_1": "SLACK OFF",
     "raw": null,
     "raw_species_id_0": 516,
     "raw_species_id_1": 514,
@@ -14271,6 +19137,14 @@ trainersById =
     "name": "Cam & Abby",
     "nature_1": "Gentle",
     "ability_name_1": "Patient",
+    "move_1_0": "CLOSE COMBAT",
+    "move_2_0": "HELPING HAND",
+    "move_3_0": "LAST RESORT",
+    "move_4_0": "DOUBLE-EDGE",
+    "move_1_1": "HEADLONG RUSH",
+    "move_2_1": "HELPING HAND",
+    "move_3_1": "REVENGE",
+    "move_4_1": "EARTHQUAKE",
     "raw": null,
     "raw_species_id_0": 539,
     "raw_species_id_1": 538,
@@ -14304,6 +19178,14 @@ trainersById =
     "name": "Ai & Ciel",
     "nature_1": "Sassy",
     "ability_name_1": "Chlorophyll",
+    "move_1_0": "POLLEN PUFF",
+    "move_2_0": "PLAY ROUGH",
+    "move_3_0": "COTTON GUARD",
+    "move_4_0": "ACROBATICS",
+    "move_1_1": "GROWTH",
+    "move_2_1": "PETAL DANCE",
+    "move_3_1": "WEATHER BALL",
+    "move_4_1": "HEALING WISH",
     "raw": null,
     "raw_species_id_0": 547,
     "raw_species_id_1": 549,
@@ -14337,6 +19219,14 @@ trainersById =
     "name": "Kat & Phae",
     "nature_1": "Lonely",
     "ability_name_1": "Reckless",
+    "move_1_0": "SUPERPOWER",
+    "move_2_0": "HEADLONG RUSH",
+    "move_3_0": "DOUBLE-EDGE",
+    "move_4_0": "HOWL",
+    "move_1_1": "DOUBLE-EDGE",
+    "move_2_1": "MEGAHORN",
+    "move_3_1": "HIGH HORSEPOWER",
+    "move_4_1": "COTTON GUARD",
     "raw": null,
     "raw_species_id_0": 508,
     "raw_species_id_1": 626,
@@ -14379,6 +19269,18 @@ trainersById =
     "ability_name_1": "Prankster",
     "nature_2": "Relaxed",
     "ability_name_2": "Normalize",
+    "move_1_0": "INFERNO",
+    "move_2_0": "PERISH SONG",
+    "move_3_0": "SHADOW BALL",
+    "move_4_0": "DAZZLING GLEAM",
+    "move_1_1": "MOONBLAST",
+    "move_2_1": "DISCHARGE",
+    "move_3_1": "FOLLOW ME",
+    "move_4_1": "DAZZLING GLEAM",
+    "move_1_2": "FOUL PLAY",
+    "move_2_2": "WORK UP",
+    "move_3_2": "PLAY ROUGH",
+    "move_4_2": "HELPING HAND",
     "raw": null,
     "raw_species_id_0": 200,
     "raw_species_id_1": 417,
@@ -14421,6 +19323,18 @@ trainersById =
     "ability_name_1": "Shell Armor",
     "nature_2": "Docile",
     "ability_name_2": "Marvel Scale",
+    "move_1_0": "RAIN DANCE",
+    "move_2_0": "OCTAZOOKA",
+    "move_3_0": "DOUBLE-EDGE",
+    "move_4_0": "REST",
+    "move_1_1": "DOUBLE-EDGE",
+    "move_2_1": "IRON DEFENSE",
+    "move_3_1": "DEVOUR",
+    "move_4_1": "FLAMETHROWER",
+    "move_1_2": "SKY DROP",
+    "move_2_2": "DRAGON RUSH",
+    "move_3_2": "GIGA IMPACT",
+    "move_4_2": "SAFEGUARD",
     "raw": null,
     "raw_species_id_0": 117,
     "raw_species_id_1": 372,
@@ -14463,6 +19377,18 @@ trainersById =
     "ability_name_1": "Hyper Cutter",
     "nature_2": "Serious",
     "ability_name_2": "Regenerator",
+    "move_1_0": "WHIRLPOOL",
+    "move_2_0": "HEART SWAP",
+    "move_3_0": "HYDRO PUMP",
+    "move_4_0": "SOAK",
+    "move_1_1": "SACRED SWORD",
+    "move_2_1": "ROOST",
+    "move_3_1": "DRILL PECK",
+    "move_4_1": "AIR SLASH",
+    "move_1_2": "HAMMER ARM",
+    "move_2_2": "TOXIC",
+    "move_3_2": "GYRO BALL",
+    "move_4_2": "BIND",
     "raw": null,
     "raw_species_id_0": 370,
     "raw_species_id_1": 83,
@@ -14505,6 +19431,18 @@ trainersById =
     "ability_name_1": "Storm Drain",
     "nature_2": "Impish",
     "ability_name_2": "Tough Claws",
+    "move_1_0": "FOCUS BLAST",
+    "move_2_0": "BLIZZARD",
+    "move_3_0": "PSYCHIC NOISE",
+    "move_4_0": "PERISH SONG",
+    "move_1_1": "WATER SPOUT",
+    "move_2_1": "ICE BEAM",
+    "move_3_1": "MUDDY WATER",
+    "move_4_1": "WISH",
+    "move_1_2": "GIGA IMPACT",
+    "move_2_2": "TAUNT",
+    "move_3_2": "SKY DROP",
+    "move_4_2": "STONE EDGE",
     "raw": null,
     "raw_species_id_0": 124,
     "raw_species_id_1": 134,
@@ -14547,6 +19485,18 @@ trainersById =
     "ability_name_1": "Overgrow",
     "nature_2": "Gentle",
     "ability_name_2": "Thick Fat",
+    "move_1_0": "SILK TRAP",
+    "move_2_0": "BUG BUZZ",
+    "move_3_0": "SLUDGE BOMB",
+    "move_4_0": "VOLT SWITCH",
+    "move_1_1": "SUNNY DAY",
+    "move_2_1": "SOLARBEAM",
+    "move_3_1": "AIR SLASH",
+    "move_4_1": "ENERGY BALL",
+    "move_1_2": "DOUBLE-EDGE",
+    "move_2_2": "ICICLE CRASH",
+    "move_3_2": "BLIZZARD",
+    "move_4_2": "REST",
     "raw": null,
     "raw_species_id_0": 596,
     "raw_species_id_1": 357,
@@ -14750,6 +19700,30 @@ trainersById =
     "ability_name_4": "Regenerator",
     "nature_5": "Serious",
     "ability_name_5": "Hustle",
+    "move_1_0": "SUCKER PUNCH",
+    "move_2_0": "HAMMER ARM",
+    "move_3_0": "ROCK CLIMB",
+    "move_4_0": "DOUBLE-EDGE",
+    "move_1_1": "EARTHQUAKE",
+    "move_2_1": "YAWN",
+    "move_3_1": "RECOVER",
+    "move_4_1": "WATERFALL",
+    "move_1_2": "BELLY DRUM",
+    "move_2_2": "BODY SLAM",
+    "move_3_2": "DEVOUR",
+    "move_4_2": "GASTRO ACID",
+    "move_1_3": "SPIN OUT",
+    "move_2_3": "EARTHQUAKE",
+    "move_3_3": "BODY PRESS",
+    "move_4_3": "SANDSTORM",
+    "move_1_4": "TELEPORT",
+    "move_2_4": "TICKLE",
+    "move_3_4": "DESTINY BOND",
+    "move_4_4": "SAFEGUARD",
+    "move_1_5": "SKILL SWAP",
+    "move_2_5": "FOUL PLAY",
+    "move_3_5": "DIZZY PUNCH",
+    "move_4_5": "FAINT ATTACK",
     "raw": null,
     "raw_species_id_0": 438,
     "raw_species_id_1": 194,
@@ -14819,6 +19793,30 @@ trainersById =
     "ability_name_4": "Aerilate",
     "nature_5": "Brave",
     "ability_name_5": "Guts",
+    "move_1_0": "REST",
+    "move_2_0": "HIGH HORSEPOWER",
+    "move_3_0": "AVALANCHE",
+    "move_4_0": "CHARM",
+    "move_1_1": "DOUBLESLAP",
+    "move_2_1": "DRAIN PUNCH",
+    "move_3_1": "BUBBLEBEAM",
+    "move_4_1": "MIST",
+    "move_1_2": "PRESENT",
+    "move_2_2": "GRAVITY",
+    "move_3_2": "SAFEGUARD",
+    "move_4_2": "SEISMIC TOSS",
+    "move_1_3": "DIG",
+    "move_2_3": "FIRE FANG",
+    "move_3_3": "CRUNCH",
+    "move_4_3": "DEVOUR",
+    "move_1_4": "PERISH SONG",
+    "move_2_4": "SKY DROP",
+    "move_3_4": "PLAY ROUGH",
+    "move_4_4": "GYRO BALL",
+    "move_1_5": "CRUNCH",
+    "move_2_5": "DRILL RUN",
+    "move_3_5": "ROCK CLIMB",
+    "move_4_5": "SCARY FACE",
     "raw": null,
     "raw_species_id_0": 220,
     "raw_species_id_1": 60,
@@ -14861,6 +19859,18 @@ trainersById =
     "ability_name_1": "Majestic Ward",
     "nature_2": "Brave",
     "ability_name_2": "Rivalry",
+    "move_1_0": "SNORE",
+    "move_2_0": "SLEEP TALK",
+    "move_3_0": "REST",
+    "move_4_0": "PROTECT",
+    "move_1_1": "SUCKER PUNCH",
+    "move_2_1": "SLASH",
+    "move_3_1": "U-TURN",
+    "move_4_1": "HYPNOSIS",
+    "move_1_2": "SKY DROP",
+    "move_2_2": "MORNING SUN",
+    "move_3_2": "FACADE",
+    "move_4_2": "LUCKY CHANT",
     "raw": null,
     "raw_species_id_0": 366,
     "raw_species_id_1": 431,
@@ -14894,6 +19904,14 @@ trainersById =
     "name": "Bonita",
     "nature_1": "Gentle",
     "ability_name_1": "Sap Sipper",
+    "move_1_0": "FLIP TURN",
+    "move_2_0": "RAIN DANCE",
+    "move_3_0": "DOUBLE-EDGE",
+    "move_4_0": "ZEN HEADBUTT",
+    "move_1_1": "WOOD HAMMER",
+    "move_2_1": "SWORDS DANCE",
+    "move_3_1": "SOLAR BLADE",
+    "move_4_1": "SYNTHESIS",
     "raw": null,
     "raw_species_id_0": 54,
     "raw_species_id_1": 470,
@@ -14927,6 +19945,14 @@ trainersById =
     "name": "Simon",
     "nature_1": "Rash",
     "ability_name_1": "Strong Body",
+    "move_1_0": "SPIT UP",
+    "move_2_0": "RECYCLE",
+    "move_3_0": "FLAMETHROWER",
+    "move_4_0": "TORMENT",
+    "move_1_1": "GUNK SHOT",
+    "move_2_1": "WRAP",
+    "move_3_1": "KNOCK OFF",
+    "move_4_1": "TOXIC",
     "raw": null,
     "raw_species_id_0": 434,
     "raw_species_id_1": 89,
@@ -15008,6 +20034,10 @@ trainersById =
     "ability_name_0": "Tenacity",
     "tr_sprite": "trainer_sprites/lady.png",
     "name": "Sophie",
+    "move_1_0": "ATTACK ORDER",
+    "move_2_0": "HELPING HAND",
+    "move_3_0": "ATTRACT",
+    "move_4_0": "PLAY ROUGH",
     "raw": null,
     "raw_species_id_0": 314,
     "raw_species_id_1": null,
@@ -15032,6 +20062,10 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/richboy.png",
     "name": "Anthony",
+    "move_1_0": "INFESTATION",
+    "move_2_0": "HELPING HAND",
+    "move_3_0": "RAGE POWDER",
+    "move_4_0": "ELECTRO BALL",
     "raw": null,
     "raw_species_id_0": 313,
     "raw_species_id_1": null,
@@ -15065,6 +20099,14 @@ trainersById =
     "name": "Emilia",
     "nature_1": "Hasty",
     "ability_name_1": "Pickup",
+    "move_1_0": "KNOCK OFF",
+    "move_2_0": "SHADOW BALL",
+    "move_3_0": "DETECT",
+    "move_4_0": "FOUL PLAY",
+    "move_1_1": "NASTY PLOT",
+    "move_2_1": "WICKED BLOW",
+    "move_3_1": "PLAY ROUGH",
+    "move_4_1": "ME FIRST",
     "raw": null,
     "raw_species_id_0": 302,
     "raw_species_id_1": 510,
@@ -15089,6 +20131,10 @@ trainersById =
     "ability_name_0": "Regenerator",
     "tr_sprite": "trainer_sprites/gentleman.png",
     "name": "Renaud",
+    "move_1_0": "FUTURE SIGHT",
+    "move_2_0": "TELEPORT",
+    "move_3_0": "SLACK OFF",
+    "move_4_0": "DRAGON PULSE",
     "raw": null,
     "raw_species_id_0": 199,
     "raw_species_id_1": null,
@@ -15131,6 +20177,18 @@ trainersById =
     "ability_name_1": "Skill Link",
     "nature_2": "Sassy",
     "ability_name_2": "Guts",
+    "move_1_0": "CLOSE COMBAT",
+    "move_2_0": "SPIN OUT",
+    "move_3_0": "SCREECH",
+    "move_4_0": "RAGE",
+    "move_1_1": "MEGAHORN",
+    "move_2_1": "REVERSAL",
+    "move_3_1": "HEAL ORDER",
+    "move_4_1": "BRICK BREAK",
+    "move_1_2": "HAMMER ARM",
+    "move_2_2": "STONE EDGE",
+    "move_3_2": "METEOR MASH",
+    "move_4_2": "FOCUS PUNCH",
     "raw": null,
     "raw_species_id_0": 56,
     "raw_species_id_1": 214,
@@ -15155,6 +20213,10 @@ trainersById =
     "ability_name_0": "Iron Fist",
     "tr_sprite": "trainer_sprites/battlegirl.png",
     "name": "Janie",
+    "move_1_0": "ENDURE",
+    "move_2_0": "SUCKER PUNCH",
+    "move_3_0": "BLOCK",
+    "move_4_0": "FOCUS PUNCH",
     "raw": null,
     "raw_species_id_0": 107,
     "raw_species_id_1": null,
@@ -15188,6 +20250,14 @@ trainersById =
     "name": "Colin",
     "nature_1": "Sassy",
     "ability_name_1": "Shell Armor",
+    "move_1_0": "AQUA TAIL",
+    "move_2_0": "HEAL PULSE",
+    "move_3_0": "PSYCHIC",
+    "move_4_0": "GRAVITY",
+    "move_1_1": "FUTURE SIGHT",
+    "move_2_1": "TELEPORT",
+    "move_3_1": "SLACK OFF",
+    "move_4_1": "AQUA TAIL",
     "raw": null,
     "raw_species_id_0": 79,
     "raw_species_id_1": 80,
@@ -15248,6 +20318,26 @@ trainersById =
     "ability_name_3": "Huge Power",
     "nature_4": "Serious",
     "ability_name_4": "Illumination",
+    "move_1_0": "FACADE",
+    "move_2_0": "FLAIL",
+    "move_3_0": "DOUBLE-EDGE",
+    "move_4_0": "U-TURN",
+    "move_1_1": "BATON PASS",
+    "move_2_1": "DOUBLE-EDGE",
+    "move_3_1": "PLAY ROUGH",
+    "move_4_1": "FAKE OUT",
+    "move_1_2": "CRUSH CLAW",
+    "move_2_2": "SWITCHEROO",
+    "move_3_2": "CHARM",
+    "move_4_2": "SLASH",
+    "move_1_3": "SLACK OFF",
+    "move_2_3": "FAKE OUT",
+    "move_3_3": "WATERFALL",
+    "move_4_3": "HYPER FANG",
+    "move_1_4": "PSYCHIC FANGS",
+    "move_2_4": "HELPING HAND",
+    "move_3_4": "BIND",
+    "move_4_4": "CRUNCH",
     "raw": null,
     "raw_species_id_0": 19,
     "raw_species_id_1": 161,
@@ -15290,6 +20380,18 @@ trainersById =
     "ability_name_1": "Guts",
     "nature_2": "Quirky",
     "ability_name_2": "Rivalry",
+    "move_1_0": "ESPER WING",
+    "move_2_0": "PSYCHO BOOST",
+    "move_3_0": "FEATHERDANCE",
+    "move_4_0": "AIR SLASH",
+    "move_1_1": "DRILL PECK",
+    "move_2_1": "EXTREMESPEED",
+    "move_3_1": "FEATHERDANCE",
+    "move_4_1": "REVERSAL",
+    "move_1_2": "SKY DROP",
+    "move_2_2": "MORNING SUN",
+    "move_3_2": "FACADE",
+    "move_4_2": "LUCKY CHANT",
     "raw": null,
     "raw_species_id_0": 163,
     "raw_species_id_1": 277,
@@ -15325,6 +20427,14 @@ trainersById =
     "name": "Tyler",
     "nature_1": "Naive",
     "ability_name_1": "Mold Breaker",
+    "move_1_0": "GYRO BALL",
+    "move_2_0": "THUNDER WAVE",
+    "move_3_0": "MAGNET RISE",
+    "move_4_0": "METAL SOUND",
+    "move_1_1": "EARTHQUAKE",
+    "move_2_1": "SPIN OUT",
+    "move_3_1": "IRON DEFENSE",
+    "move_4_1": "IRON HEAD",
     "raw": null,
     "raw_species_id_0": 81,
     "raw_species_id_1": 530,
@@ -15358,6 +20468,14 @@ trainersById =
     "name": "Lilly",
     "nature_1": "Hardy",
     "ability_name_1": "Healer",
+    "move_1_0": "ERUPTION",
+    "move_2_0": "HEAT WAVE",
+    "move_3_0": "PROTECT",
+    "move_4_0": "CURSE",
+    "move_1_1": "HEADLONG RUSH",
+    "move_2_1": "HEAL BELL",
+    "move_3_1": "PLAY ROUGH",
+    "move_4_1": "HIGH HORSEPOWER",
     "raw": null,
     "raw_species_id_0": 324,
     "raw_species_id_1": 241,
@@ -15391,6 +20509,14 @@ trainersById =
     "name": "Leah",
     "nature_1": "Naive",
     "ability_name_1": "Magic Guard",
+    "move_1_0": "COSMIC POWER",
+    "move_2_0": "FOLLOW ME",
+    "move_3_0": "HEALING WISH",
+    "move_4_0": "STORED POWER",
+    "move_1_1": "MOONBLAST",
+    "move_2_1": "COSMIC POWER",
+    "move_3_1": "FOLLOW ME",
+    "move_4_1": "HEALING WISH",
     "raw": null,
     "raw_species_id_0": 35,
     "raw_species_id_1": 36,
@@ -15451,6 +20577,26 @@ trainersById =
     "ability_name_3": "Technician",
     "nature_4": "Docile",
     "ability_name_4": "Speed Boost",
+    "move_1_0": "DETECT",
+    "move_2_0": "AIR SLASH",
+    "move_3_0": "BUG BUZZ",
+    "move_4_0": "U-TURN",
+    "move_1_1": "LUNGE",
+    "move_2_1": "THUNDERPUNCH",
+    "move_3_1": "ICE PUNCH",
+    "move_4_1": "FIRE PUNCH",
+    "move_1_2": "ALLURING VOICE",
+    "move_2_2": "PERISH SONG",
+    "move_3_2": "SLASH",
+    "move_4_2": "1ST IMPRESSION",
+    "move_1_3": "ENDURE",
+    "move_2_3": "DUAL WINGBEAT",
+    "move_3_3": "LUNGE",
+    "move_4_3": "COUNTER",
+    "move_1_4": "OUTRAGE",
+    "move_2_4": "MEGAHORN",
+    "move_3_4": "BANEFUL BUNKER",
+    "move_4_4": "CROSS POISON",
     "raw": null,
     "raw_species_id_0": 193,
     "raw_species_id_1": 166,
@@ -15493,6 +20639,18 @@ trainersById =
     "ability_name_1": "Flash Fire",
     "nature_2": "Hardy",
     "ability_name_2": "Flower Gift",
+    "move_1_0": "SEED BOMB",
+    "move_2_0": "AROMATHERAPY",
+    "move_3_0": "LUCKY CHANT",
+    "move_4_0": "TEMPER FLARE",
+    "move_1_1": "OVERHEAT",
+    "move_2_1": "SUNNY DAY",
+    "move_3_1": "SOLARBEAM",
+    "move_4_1": "FLAMETHROWER",
+    "move_1_2": "HEALING WISH",
+    "move_2_2": "MAGIC COAT",
+    "move_3_2": "PETAL BLIZZARD",
+    "move_4_2": "BLAZE KICK",
     "raw": null,
     "raw_species_id_0": 420,
     "raw_species_id_1": 192,
@@ -15560,6 +20718,10 @@ trainersById =
     "ability_name_0": "Flash Fire",
     "tr_sprite": "trainer_sprites/backpacker_f.png",
     "name": "Patty",
+    "move_1_0": "FLARE BLITZ",
+    "move_2_0": "SUPERPOWER",
+    "move_3_0": "FIRE LASH",
+    "move_4_0": "COTTON GUARD",
     "raw": null,
     "raw_species_id_0": 136,
     "raw_species_id_1": null,
@@ -15584,6 +20746,10 @@ trainersById =
     "ability_name_0": "Toxic Boost",
     "tr_sprite": "trainer_sprites/backpacker.png",
     "name": "Alexander",
+    "move_1_0": "CLOSE COMBAT",
+    "move_2_0": "TOXIC",
+    "move_3_0": "CRUSH CLAW",
+    "move_4_0": "DETECT",
     "raw": null,
     "raw_species_id_0": 335,
     "raw_species_id_1": null,
@@ -15608,6 +20774,10 @@ trainersById =
     "ability_name_0": "Natural Cure",
     "tr_sprite": "trainer_sprites/doctor.png",
     "name": "Jules",
+    "move_1_0": "COUNTER",
+    "move_2_0": "AROMATHERAPY",
+    "move_3_0": "DOUBLE-EDGE",
+    "move_4_0": "SEISMIC TOSS",
     "raw": null,
     "raw_species_id_0": 113,
     "raw_species_id_1": null,
@@ -15693,6 +20863,18 @@ trainersById =
     "ability_name_1": "Tenacity",
     "nature_2": "Serious",
     "ability_name_2": "Levitate",
+    "move_1_0": "WORK UP",
+    "move_2_0": "PLAY ROUGH",
+    "move_3_0": "ALLY SWITCH",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "ANCIENTPOWER",
+    "move_2_1": "ESPER WING",
+    "move_3_1": "GRAVITY",
+    "move_4_1": "AIR SLASH",
+    "move_1_2": "SAND TOMB",
+    "move_2_2": "SANDSTORM",
+    "move_3_2": "EARTH POWER",
+    "move_4_2": "LUCKY CHANT",
     "raw": null,
     "raw_species_id_0": 203,
     "raw_species_id_1": 561,
@@ -15726,6 +20908,14 @@ trainersById =
     "name": "Madhu",
     "nature_1": "Naive",
     "ability_name_1": "Patient",
+    "move_1_0": "INFERNO",
+    "move_2_0": "PERISH SONG",
+    "move_3_0": "SHADOW BALL",
+    "move_4_0": "DAZZLING GLEAM",
+    "move_1_1": "TELEPORT",
+    "move_2_1": "DARK PULSE",
+    "move_3_1": "PSYCHIC NOISE",
+    "move_4_1": "HEAL PULSE",
     "raw": null,
     "raw_species_id_0": 429,
     "raw_species_id_1": 576,
@@ -15759,6 +20949,14 @@ trainersById =
     "name": "Josh",
     "nature_1": "Naughty",
     "ability_name_1": "Sand Force",
+    "move_1_0": "ENDURE",
+    "move_2_0": "EARTHQUAKE",
+    "move_3_0": "SANDSTORM",
+    "move_4_0": "IRON HEAD",
+    "move_1_1": "SUPERPOWER",
+    "move_2_1": "HEAD SMASH",
+    "move_3_1": "ENDURE",
+    "move_4_1": "EARTHQUAKE",
     "raw": null,
     "raw_species_id_0": 50,
     "raw_species_id_1": 51,
@@ -15792,6 +20990,14 @@ trainersById =
     "name": "Davey",
     "nature_1": "Brave",
     "ability_name_1": "Trace",
+    "move_1_0": "SUBSTITUTE",
+    "move_2_0": "ZEN HEADBUTT",
+    "move_3_0": "TEETER DANCE",
+    "move_4_0": "DOUBLESLAP",
+    "move_1_1": "SUBSTITUTE",
+    "move_2_1": "ZEN HEADBUTT",
+    "move_3_1": "TEETER DANCE",
+    "move_4_1": "DOUBLESLAP",
     "raw": null,
     "raw_species_id_0": 122,
     "raw_species_id_1": 122,
@@ -15825,6 +21031,14 @@ trainersById =
     "name": "Boris",
     "nature_1": "Docile",
     "ability_name_1": "Aerilate",
+    "move_1_0": "HURRICANE",
+    "move_2_0": "TAILWIND",
+    "move_3_0": "ALLURING VOICE",
+    "move_4_0": "ME FIRST",
+    "move_1_1": "PERISH SONG",
+    "move_2_1": "SKY DROP",
+    "move_3_1": "PLAY ROUGH",
+    "move_4_1": "GYRO BALL",
     "raw": null,
     "raw_species_id_0": 441,
     "raw_species_id_1": 40,
@@ -15858,6 +21072,14 @@ trainersById =
     "name": "Charley",
     "nature_1": "Naughty",
     "ability_name_1": "Reckless",
+    "move_1_0": "SOLARBEAM",
+    "move_2_0": "PROTECT",
+    "move_3_0": "PSYCHIC NOISE",
+    "move_4_0": "ANCIENTPOWER",
+    "move_1_1": "STEAMROLLER",
+    "move_2_1": "TECHNO BLAST",
+    "move_3_1": "EXPLOSION",
+    "move_4_1": "WILD CHARGE",
     "raw": null,
     "raw_species_id_0": 102,
     "raw_species_id_1": 101,
@@ -15919,6 +21141,14 @@ trainersById =
     "name": "Jeff",
     "nature_1": "Bold",
     "ability_name_1": "Reckless",
+    "move_1_0": "HOWL",
+    "move_2_0": "ROAR",
+    "move_3_0": "EXTREMESPEED",
+    "move_4_0": "HELPING HAND",
+    "move_1_1": "FOCUS BLAST",
+    "move_2_1": "DETECT",
+    "move_3_1": "IRON TAIL",
+    "move_4_1": "FOCUS ENERGY",
     "raw": null,
     "raw_species_id_0": 59,
     "raw_species_id_1": 620,
@@ -15952,6 +21182,14 @@ trainersById =
     "name": "Alica",
     "nature_1": "Timid",
     "ability_name_1": "Skill Link",
+    "move_1_0": "HOWL",
+    "move_2_0": "ROAR",
+    "move_3_0": "EXTREMESPEED",
+    "move_4_0": "HELPING HAND",
+    "move_1_1": "HELPING HAND",
+    "move_2_1": "TAIL SLAP",
+    "move_3_1": "ROCK BLAST",
+    "move_4_1": "BULLET SEED",
     "raw": null,
     "raw_species_id_0": 58,
     "raw_species_id_1": 573,
@@ -16022,6 +21260,18 @@ trainersById =
     "ability_name_1": "Sturdy",
     "nature_2": "Bashful",
     "ability_name_2": "Sturdy",
+    "move_1_0": "BODY PRESS",
+    "move_2_0": "ROLLOUT",
+    "move_3_0": "REST",
+    "move_4_0": "DRILL RUN",
+    "move_1_1": "CURSE",
+    "move_2_1": "HEAD SMASH",
+    "move_3_1": "BODY PRESS",
+    "move_4_1": "ROLLOUT",
+    "move_1_2": "CURSE",
+    "move_2_2": "HEAD SMASH",
+    "move_3_2": "BODY PRESS",
+    "move_4_2": "ROLLOUT",
     "raw": null,
     "raw_species_id_0": 74,
     "raw_species_id_1": 75,
@@ -16046,6 +21296,10 @@ trainersById =
     "ability_name_0": "Majestic Ward",
     "tr_sprite": "trainer_sprites/preschooler_f.png",
     "name": "Mia",
+    "move_1_0": "PSYCHIC NOISE",
+    "move_2_0": "PERISH SONG",
+    "move_3_0": "ICE BEAM",
+    "move_4_0": "FLATTER",
     "raw": null,
     "raw_species_id_0": 238,
     "raw_species_id_1": null,
@@ -16070,6 +21324,10 @@ trainersById =
     "ability_name_0": "Trace",
     "tr_sprite": "trainer_sprites/preschooler.png",
     "name": "Evan",
+    "move_1_0": "TEETER DANCE",
+    "move_2_0": "DOUBLESLAP",
+    "move_3_0": "LIGHT SCREEN",
+    "move_4_0": "REFLECT",
     "raw": null,
     "raw_species_id_0": 439,
     "raw_species_id_1": null,
@@ -16103,6 +21361,14 @@ trainersById =
     "name": "Angi",
     "nature_1": "Calm",
     "ability_name_1": "Flash Fire",
+    "move_1_0": "HEALING WISH",
+    "move_2_0": "PLAY ROUGH",
+    "move_3_0": "RETALIATE",
+    "move_4_0": "JUMP KICK",
+    "move_1_1": "MYSTICAL FIRE",
+    "move_2_1": "CAPTIVATE",
+    "move_3_1": "HEX",
+    "move_4_1": "INFERNAL PARADE",
     "raw": null,
     "raw_species_id_0": 428,
     "raw_species_id_1": 608,
@@ -16136,6 +21402,14 @@ trainersById =
     "name": "Miguel",
     "nature_1": "Gentle",
     "ability_name_1": "Levitate",
+    "move_1_0": "HELPING HAND",
+    "move_2_0": "FACADE",
+    "move_3_0": "PETAL BLIZZARD",
+    "move_4_0": "DOUBLESLAP",
+    "move_1_1": "PARABOLIC ZAP",
+    "move_2_1": "BIND",
+    "move_3_1": "GASTRO ACID",
+    "move_4_1": "SUPER FANG",
     "raw": null,
     "raw_species_id_0": 301,
     "raw_species_id_1": 603,
@@ -16169,6 +21443,14 @@ trainersById =
     "name": "Dudley",
     "nature_1": "Adamant",
     "ability_name_1": "Light Metal",
+    "move_1_0": "RECYCLE",
+    "move_2_0": "IRON HEAD",
+    "move_3_0": "RAPID SPIN",
+    "move_4_0": "ZING ZAP",
+    "move_1_1": "RECYCLE",
+    "move_2_1": "IRON HEAD",
+    "move_3_1": "RAPID SPIN",
+    "move_4_1": "ZING ZAP",
     "raw": null,
     "raw_species_id_0": 599,
     "raw_species_id_1": 600,
@@ -16193,6 +21475,10 @@ trainersById =
     "ability_name_0": "Sturdy",
     "tr_sprite": "trainer_sprites/hiker.png",
     "name": "Andy",
+    "move_1_0": "POWER GEM",
+    "move_2_0": "FLAME BURST",
+    "move_3_0": "SHOCK WAVE",
+    "move_4_0": "MUD SHOT",
     "raw": null,
     "raw_species_id_0": 525,
     "raw_species_id_1": null,
@@ -16217,6 +21503,10 @@ trainersById =
     "ability_name_0": "Gooey",
     "tr_sprite": "trainer_sprites/preschooler_f.png",
     "name": "Winter",
+    "move_1_0": "UPROAR",
+    "move_2_0": "TELEKINESIS",
+    "move_3_0": "TELEPORT",
+    "move_4_0": "REFLECT TYPE",
     "raw": null,
     "raw_species_id_0": 577,
     "raw_species_id_1": null,
@@ -16241,6 +21531,10 @@ trainersById =
     "ability_name_0": "Hustle",
     "tr_sprite": "trainer_sprites/dancer.png",
     "name": "Dirk",
+    "move_1_0": "TEMPER FLARE",
+    "move_2_0": "TAUNT",
+    "move_3_0": "FACADE",
+    "move_4_0": "FLAME CHARGE",
     "raw": null,
     "raw_species_id_0": 554,
     "raw_species_id_1": null,
@@ -16265,6 +21559,10 @@ trainersById =
     "ability_name_0": "Overcoat",
     "tr_sprite": "trainer_sprites/waitress.png",
     "name": "Aurora",
+    "move_1_0": "IRON DEFENSE",
+    "move_2_0": "SYNTHESIS",
+    "move_3_0": "LEAF TORNADO",
+    "move_4_0": "NATURAL GIFT",
     "raw": null,
     "raw_species_id_0": 541,
     "raw_species_id_1": null,
@@ -16397,6 +21695,14 @@ trainersById =
     "name": "Tanya",
     "nature_1": "Impish",
     "ability_name_1": "Teravolt",
+    "move_1_0": "ENCORE",
+    "move_2_0": "ELECTRO BALL",
+    "move_3_0": "VOLT SWITCH",
+    "move_4_0": "DOUBLE TEAM",
+    "move_1_1": "ENTRAINMENT",
+    "move_2_1": "THUNDER",
+    "move_3_1": "HIGH HORSEPOWER",
+    "move_4_1": "FAKE OUT",
     "raw": null,
     "raw_species_id_0": 587,
     "raw_species_id_1": 26,
@@ -17488,7 +22794,7 @@ trainersById =
     "move_3_1": "MEGA DRAIN",
     "move_4_1": "STICKY WEB",
     "ivs_2": 255,
-    "ability_2": 2,
+    "ability_2": 1,
     "level_2": 31,
     "padding_2": 0,
     "species_id_2": "ESCAVALIER",
@@ -17505,7 +22811,7 @@ trainersById =
     "species_id_3": "GLISCOR",
     "form_3": 0,
     "item_id_3": "Bug Gem",
-    "move_1_3": "DIG",
+    "move_1_3": "BONE CLUB",
     "move_2_3": "AERIAL ACE",
     "move_3_3": "SKY UPPERCUT",
     "move_4_3": "LUNGE",
@@ -17546,7 +22852,7 @@ trainersById =
     "nature_1": "Serious",
     "ability_name_1": "Technician",
     "nature_2": "Sassy",
-    "ability_name_2": "Shell Armor",
+    "ability_name_2": "Swarm",
     "nature_3": "Bold",
     "ability_name_3": "Poison Heal",
     "nature_4": "Bashful",
@@ -19013,6 +24319,14 @@ trainersById =
     "name": "Stonewall",
     "nature_1": "Lonely",
     "ability_name_1": "Trace",
+    "move_1_0": "ENTRAINMENT",
+    "move_2_0": "X-SCISSOR",
+    "move_3_0": "THUNDER FANG",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "HELPING HAND",
+    "move_2_1": "EXTREMESPEED",
+    "move_3_1": "BULLET PUNCH",
+    "move_4_1": "COMET PUNCH",
     "raw": null,
     "raw_species_id_0": 632,
     "raw_species_id_1": 448,
@@ -21416,6 +26730,14 @@ trainersById =
     "name": "Joey",
     "nature_1": "Lax",
     "ability_name_1": "Intimidate",
+    "move_1_0": "BARB BARRAGE",
+    "move_2_0": "X-SCISSOR",
+    "move_3_0": "PROTECT",
+    "move_4_0": "POISON TAIL",
+    "move_1_1": "BULLDOZE",
+    "move_2_1": "SCALE SHOT",
+    "move_3_1": "POWER TRIP",
+    "move_4_1": "STOMP",
     "raw": null,
     "raw_species_id_0": 543,
     "raw_species_id_1": 551,
@@ -21503,6 +26825,14 @@ trainersById =
     "name": "Stanley",
     "nature_1": "Calm",
     "ability_name_1": "Guts",
+    "move_1_0": "MEAN LOOK",
+    "move_2_0": "POISON FANG",
+    "move_3_0": "CONFUSE RAY",
+    "move_4_0": "WING ATTACK",
+    "move_1_1": "WAKE-UP SLAP",
+    "move_2_1": "BLOCK",
+    "move_3_1": "MACH PUNCH",
+    "move_4_1": "ROCK BLAST",
     "raw": null,
     "raw_species_id_0": 41,
     "raw_species_id_1": 532,
@@ -21527,6 +26857,10 @@ trainersById =
     "ability_name_0": "Defiant",
     "tr_sprite": "trainer_sprites/biker.png",
     "name": "Zeke",
+    "move_1_0": "KNOCK OFF",
+    "move_2_0": "DUAL CHOP",
+    "move_3_0": "METAL CLAW",
+    "move_4_0": "IRON DEFENSE",
     "raw": null,
     "raw_species_id_0": 624,
     "raw_species_id_1": null,
@@ -21560,6 +26894,14 @@ trainersById =
     "name": "Rob & Sal",
     "nature_1": "Modest",
     "ability_name_1": "Chlorophyll",
+    "move_1_0": "ENCORE",
+    "move_2_0": "DRAINING KISS",
+    "move_3_0": "CHARM",
+    "move_4_0": "LEECH SEED",
+    "move_1_1": "ATTRACT",
+    "move_2_1": "FORCE PALM",
+    "move_3_1": "MEGA DRAIN",
+    "move_4_1": "STUN SPORE",
     "raw": null,
     "raw_species_id_0": 546,
     "raw_species_id_1": 548,
@@ -21942,6 +27284,14 @@ trainersById =
     "name": "Bob",
     "nature_1": "Mild",
     "ability_name_1": "Guts",
+    "move_1_0": "BULLET PUNCH",
+    "move_2_0": "CHIP AWAY",
+    "move_3_0": "WAKE-UP SLAP",
+    "move_4_0": "BLOCK",
+    "move_1_1": "BULLET PUNCH",
+    "move_2_1": "CHIP AWAY",
+    "move_3_1": "WAKE-UP SLAP",
+    "move_4_1": "BLOCK",
     "raw": null,
     "raw_species_id_0": 532,
     "raw_species_id_1": 532,
@@ -21966,6 +27316,10 @@ trainersById =
     "ability_name_0": "Shed Skin",
     "tr_sprite": "trainer_sprites/linebacker.png",
     "name": "Jonah",
+    "move_1_0": "RECYCLE",
+    "move_2_0": "RAZOR SHELL",
+    "move_3_0": "SKITTER SMACK",
+    "move_4_0": "BLOCK",
     "raw": null,
     "raw_species_id_0": 557,
     "raw_species_id_1": null,
@@ -21999,6 +27353,14 @@ trainersById =
     "name": "Bob",
     "nature_1": "Bashful",
     "ability_name_1": "Guts",
+    "move_1_0": "DRAIN PUNCH",
+    "move_2_0": "ROCK TOMB",
+    "move_3_0": "COUNTER",
+    "move_4_0": "BULLET PUNCH",
+    "move_1_1": "DRAIN PUNCH",
+    "move_2_1": "ROCK TOMB",
+    "move_3_1": "COUNTER",
+    "move_4_1": "BULLET PUNCH",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": 533,
@@ -22023,6 +27385,10 @@ trainersById =
     "ability_name_0": "Shed Skin",
     "tr_sprite": "trainer_sprites/linebacker.png",
     "name": "Jonah",
+    "move_1_0": "ROCK SLIDE",
+    "move_2_0": "NIGHT SLASH",
+    "move_3_0": "RECYCLE",
+    "move_4_0": "RAZOR SHELL",
     "raw": null,
     "raw_species_id_0": 557,
     "raw_species_id_1": null,
@@ -22047,6 +27413,10 @@ trainersById =
     "ability_name_0": "Shed Skin",
     "tr_sprite": "trainer_sprites/linebacker.png",
     "name": "Jonah",
+    "move_1_0": "OBSTRUCT",
+    "move_2_0": "HEAVY SLAM",
+    "move_3_0": "COUNTER",
+    "move_4_0": "X-SCISSOR",
     "raw": null,
     "raw_species_id_0": 558,
     "raw_species_id_1": null,
@@ -22080,6 +27450,14 @@ trainersById =
     "name": "Connor",
     "nature_1": "Timid",
     "ability_name_1": "Intimidate",
+    "move_1_0": "DETECT",
+    "move_2_0": "FLING",
+    "move_3_0": "DUAL WINGBEAT",
+    "move_4_0": "TAUNT",
+    "move_1_1": "BEAT UP",
+    "move_2_1": "SCARY FACE",
+    "move_3_1": "BULLDOZE",
+    "move_4_1": "SCALE SHOT",
     "raw": null,
     "raw_species_id_0": 520,
     "raw_species_id_1": 551,
@@ -22104,6 +27482,10 @@ trainersById =
     "ability_name_0": "Guts",
     "tr_sprite": "trainer_sprites/infielder.png",
     "name": "Todd",
+    "move_1_0": "BULLET PUNCH",
+    "move_2_0": "CHIP AWAY",
+    "move_3_0": "WAKE-UP SLAP",
+    "move_4_0": "BLOCK",
     "raw": null,
     "raw_species_id_0": 532,
     "raw_species_id_1": null,
@@ -22137,6 +27519,14 @@ trainersById =
     "name": "Connor",
     "nature_1": "Naive",
     "ability_name_1": "Rivalry",
+    "move_1_0": "DIG",
+    "move_2_0": "COUNTER",
+    "move_3_0": "TAKE DOWN",
+    "move_4_0": "BEAT UP",
+    "move_1_1": "CRUSH CLAW",
+    "move_2_1": "BRICK BREAK",
+    "move_3_1": "WISH",
+    "move_4_1": "DETECT",
     "raw": null,
     "raw_species_id_0": 551,
     "raw_species_id_1": 521,
@@ -22161,6 +27551,10 @@ trainersById =
     "ability_name_0": "Guts",
     "tr_sprite": "trainer_sprites/infielder.png",
     "name": "Todd",
+    "move_1_0": "DRAIN PUNCH",
+    "move_2_0": "ROCK TOMB",
+    "move_3_0": "COUNTER",
+    "move_4_0": "BULLET PUNCH",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": null,
@@ -22194,6 +27588,14 @@ trainersById =
     "name": "Todd",
     "nature_1": "Timid",
     "ability_name_1": "Defiant",
+    "move_1_0": "FOCUS PUNCH",
+    "move_2_0": "SCARY FACE",
+    "move_3_0": "IRON HEAD",
+    "move_4_0": "DRAIN PUNCH",
+    "move_1_1": "IRON HEAD",
+    "move_2_1": "AUTOTOMIZE",
+    "move_3_1": "KNOCK OFF",
+    "move_4_1": "DUAL CHOP",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": 624,
@@ -22218,6 +27620,10 @@ trainersById =
     "ability_name_0": "Pickup",
     "tr_sprite": "trainer_sprites/striker.png",
     "name": "Roberto",
+    "move_1_0": "CAPTIVATE",
+    "move_2_0": "DRAINING KISS",
+    "move_3_0": "NIGHT SLASH",
+    "move_4_0": "SLASH",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": null,
@@ -22242,6 +27648,10 @@ trainersById =
     "ability_name_0": "Sturdy",
     "tr_sprite": "trainer_sprites/striker.png",
     "name": "Marco",
+    "move_1_0": "SCORCHING SANDS",
+    "move_2_0": "POWER GEM",
+    "move_3_0": "FLAME BURST",
+    "move_4_0": "SHOCK WAVE",
     "raw": null,
     "raw_species_id_0": 524,
     "raw_species_id_1": null,
@@ -22266,6 +27676,10 @@ trainersById =
     "ability_name_0": "Pickup",
     "tr_sprite": "trainer_sprites/striker.png",
     "name": "Roberto",
+    "move_1_0": "HONE CLAWS",
+    "move_2_0": "FLING",
+    "move_3_0": "CAPTIVATE",
+    "move_4_0": "DRAINING KISS",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": null,
@@ -22290,6 +27704,10 @@ trainersById =
     "ability_name_0": "Sturdy",
     "tr_sprite": "trainer_sprites/striker.png",
     "name": "Marco",
+    "move_1_0": "PARABOLIC ZAP",
+    "move_2_0": "GRAVITY",
+    "move_3_0": "SCORCHING SANDS",
+    "move_4_0": "POWER GEM",
     "raw": null,
     "raw_species_id_0": 525,
     "raw_species_id_1": null,
@@ -22323,6 +27741,14 @@ trainersById =
     "name": "Marco",
     "nature_1": "Mild",
     "ability_name_1": "Sturdy",
+    "move_1_0": "SOLARBEAM",
+    "move_2_0": "MUD BOMB",
+    "move_3_0": "ANCIENTPOWER",
+    "move_4_0": "IRON DEFENSE",
+    "move_1_1": "SOLARBEAM",
+    "move_2_1": "MUD BOMB",
+    "move_3_1": "ANCIENTPOWER",
+    "move_4_1": "IRON DEFENSE",
     "raw": null,
     "raw_species_id_0": 525,
     "raw_species_id_1": 525,
@@ -22356,6 +27782,14 @@ trainersById =
     "name": "John",
     "nature_1": "Hasty",
     "ability_name_1": "Sturdy",
+    "move_1_0": "CHARM",
+    "move_2_0": "CRUNCH",
+    "move_3_0": "TAKE DOWN",
+    "move_4_0": "HELPING HAND",
+    "move_1_1": "POWER GEM",
+    "move_2_1": "FLAME BURST",
+    "move_3_1": "SHOCK WAVE",
+    "move_4_1": "MUD SHOT",
     "raw": null,
     "raw_species_id_0": 507,
     "raw_species_id_1": 524,
@@ -22389,6 +27823,14 @@ trainersById =
     "name": "Lamarcus",
     "nature_1": "Hardy",
     "ability_name_1": "Intimidate",
+    "move_1_0": "SKITTER SMACK",
+    "move_2_0": "IRON DEFENSE",
+    "move_3_0": "SYNTHESIS",
+    "move_4_0": "LEAF TORNADO",
+    "move_1_1": "CHARM",
+    "move_2_1": "CRUNCH",
+    "move_3_1": "TAKE DOWN",
+    "move_4_1": "HELPING HAND",
     "raw": null,
     "raw_species_id_0": 541,
     "raw_species_id_1": 507,
@@ -22422,6 +27864,14 @@ trainersById =
     "name": "John",
     "nature_1": "Gentle",
     "ability_name_1": "Sturdy",
+    "move_1_0": "SAFEGUARD",
+    "move_2_0": "THUNDER FANG",
+    "move_3_0": "ICE FANG",
+    "move_4_0": "FIRE FANG",
+    "move_1_1": "PARABOLIC ZAP",
+    "move_2_1": "GRAVITY",
+    "move_3_1": "SCORCHING SANDS",
+    "move_4_1": "POWER GEM",
     "raw": null,
     "raw_species_id_0": 508,
     "raw_species_id_1": 525,
@@ -22455,6 +27905,14 @@ trainersById =
     "name": "Lamarcus",
     "nature_1": "Serious",
     "ability_name_1": "Intimidate",
+    "move_1_0": "LEAF STORM",
+    "move_2_0": "SLASH",
+    "move_3_0": "REFLECT TYPE",
+    "move_4_0": "SKITTER SMACK",
+    "move_1_1": "SAFEGUARD",
+    "move_2_1": "THUNDER FANG",
+    "move_3_1": "ICE FANG",
+    "move_4_1": "FIRE FANG",
     "raw": null,
     "raw_species_id_0": 542,
     "raw_species_id_1": 507,
@@ -22488,6 +27946,14 @@ trainersById =
     "name": "Lamarcus",
     "nature_1": "Careful",
     "ability_name_1": "Intimidate",
+    "move_1_0": "ENTRAINMENT",
+    "move_2_0": "LEAF BLADE",
+    "move_3_0": "HELPING HAND",
+    "move_4_0": "X-SCISSOR",
+    "move_1_1": "HOWL",
+    "move_2_1": "REVERSAL",
+    "move_3_1": "PLAY ROUGH",
+    "move_4_1": "SAFEGUARD",
     "raw": null,
     "raw_species_id_0": 542,
     "raw_species_id_1": 508,
@@ -22521,6 +27987,14 @@ trainersById =
     "name": "Aspen",
     "nature_1": "Hasty",
     "ability_name_1": "Chlorophyll",
+    "move_1_0": "TORMENT",
+    "move_2_0": "ENCORE",
+    "move_3_0": "DRAINING KISS",
+    "move_4_0": "CHARM",
+    "move_1_1": "MAGICAL LEAF",
+    "move_2_1": "ATTRACT",
+    "move_3_1": "FORCE PALM",
+    "move_4_1": "MEGA DRAIN",
     "raw": null,
     "raw_species_id_0": 546,
     "raw_species_id_1": 548,
@@ -22659,6 +28133,10 @@ trainersById =
     "ability_name_0": "Water Absorb",
     "tr_sprite": "trainer_sprites/smasher.png",
     "name": "Mari",
+    "move_1_0": "OMINOUS WIND",
+    "move_2_0": "WILL-O-WISP",
+    "move_3_0": "BRINE",
+    "move_4_0": "BITTER MALICE",
     "raw": null,
     "raw_species_id_0": 592,
     "raw_species_id_1": null,
@@ -23159,6 +28637,10 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/backpacker.png",
     "name": "Ivan",
+    "move_1_0": "HYPER FANG",
+    "move_2_0": "DETECT",
+    "move_3_0": "SUPER FANG",
+    "move_4_0": "LOW KICK",
     "raw": null,
     "raw_species_id_0": 505,
     "raw_species_id_1": null,
@@ -23183,6 +28665,10 @@ trainersById =
     "ability_name_0": "Pickup",
     "tr_sprite": "trainer_sprites/backpacker_f.png",
     "name": "Blossom",
+    "move_1_0": "DRAINING KISS",
+    "move_2_0": "NIGHT SLASH",
+    "move_3_0": "SLASH",
+    "move_4_0": "ENCORE",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": null,
@@ -23785,6 +29271,18 @@ trainersById =
     "ability_name_1": "Rivalry",
     "nature_2": "Serious",
     "ability_name_2": "Keen Senses",
+    "move_1_0": "STEEL WING",
+    "move_2_0": "FEATHERDANCE",
+    "move_3_0": "FREEZE-DRY",
+    "move_4_0": "BUBBLEBEAM",
+    "move_1_1": "CRUSH CLAW",
+    "move_2_1": "BRICK BREAK",
+    "move_3_1": "WISH",
+    "move_4_1": "DETECT",
+    "move_1_2": "STEEL WING",
+    "move_2_2": "FEATHERDANCE",
+    "move_3_2": "FREEZE-DRY",
+    "move_4_2": "BUBBLEBEAM",
     "raw": null,
     "raw_species_id_0": 580,
     "raw_species_id_1": 521,
@@ -23827,6 +29325,18 @@ trainersById =
     "ability_name_1": "Sap Sipper",
     "nature_2": "Quirky",
     "ability_name_2": "Sap Sipper",
+    "move_1_0": "SAFEGUARD",
+    "move_2_0": "THUNDER FANG",
+    "move_3_0": "ICE FANG",
+    "move_4_0": "FIRE FANG",
+    "move_1_1": "CHARM",
+    "move_2_1": "HORN LEECH",
+    "move_3_1": "JUMP KICK",
+    "move_4_1": "SYNTHESIS",
+    "move_1_2": "CHARM",
+    "move_2_2": "HORN LEECH",
+    "move_3_2": "JUMP KICK",
+    "move_4_2": "SYNTHESIS",
     "raw": null,
     "raw_species_id_0": 508,
     "raw_species_id_1": 585,
@@ -24202,6 +29712,10 @@ trainersById =
     "ability_name_0": "Normalize",
     "tr_sprite": "trainer_sprites/gentleman.png",
     "name": "Sheldon",
+    "move_1_0": "HELPING HAND",
+    "move_2_0": "FACADE",
+    "move_3_0": "PETAL BLIZZARD",
+    "move_4_0": "DOUBLESLAP",
     "raw": null,
     "raw_species_id_0": 301,
     "raw_species_id_1": null,
@@ -24226,6 +29740,10 @@ trainersById =
     "ability_name_0": "Scrappy",
     "tr_sprite": "trainer_sprites/socialite.png",
     "name": "Marian",
+    "move_1_0": "PLAY ROUGH",
+    "move_2_0": "RETALIATE",
+    "move_3_0": "JUMP KICK",
+    "move_4_0": "CAPTIVATE",
     "raw": null,
     "raw_species_id_0": 428,
     "raw_species_id_1": null,
@@ -24268,6 +29786,18 @@ trainersById =
     "ability_name_1": "Tenacity",
     "nature_2": "Timid",
     "ability_name_2": "Regenerator",
+    "move_1_0": "AGILITY",
+    "move_2_0": "BOUNCE",
+    "move_3_0": "LUNGE",
+    "move_4_0": "ELECTRO BALL",
+    "move_1_1": "DUAL WINGBEAT",
+    "move_2_1": "METAL CLAW",
+    "move_3_1": "NIGHT SLASH",
+    "move_4_1": "IRON DEFENSE",
+    "move_1_2": "MUD BOMB",
+    "move_2_2": "BIND",
+    "move_3_2": "GIGA DRAIN",
+    "move_4_2": "SYNTHESIS",
     "raw": null,
     "raw_species_id_0": 523,
     "raw_species_id_1": 227,
@@ -24310,6 +29840,18 @@ trainersById =
     "ability_name_1": "Chlorophyll",
     "nature_2": "Brave",
     "ability_name_2": "Poison Heal",
+    "move_1_0": "SEETHING COLD",
+    "move_2_0": "MUDDY WATER",
+    "move_3_0": "AGILITY",
+    "move_4_0": "TAKE DOWN",
+    "move_1_1": "GIGA DRAIN",
+    "move_2_1": "TEETER DANCE",
+    "move_3_1": "DRAINING KISS",
+    "move_4_1": "SWEET SCENT",
+    "move_1_2": "ICE FANG",
+    "move_2_2": "THUNDER FANG",
+    "move_3_2": "FIRE FANG",
+    "move_4_2": "TAUNT",
     "raw": null,
     "raw_species_id_0": 550,
     "raw_species_id_1": 549,
@@ -24352,6 +29894,18 @@ trainersById =
     "ability_name_1": "Sturdy",
     "nature_2": "Adamant",
     "ability_name_2": "Guts",
+    "move_1_0": "REVERSAL",
+    "move_2_0": "HEAL ORDER",
+    "move_3_0": "BRICK BREAK",
+    "move_4_0": "PIN MISSILE",
+    "move_1_1": "MORNING SUN",
+    "move_2_1": "SOLARBEAM",
+    "move_3_1": "MUD BOMB",
+    "move_4_1": "ANCIENTPOWER",
+    "move_1_2": "STONE EDGE",
+    "move_2_2": "METEOR MASH",
+    "move_3_2": "FOCUS PUNCH",
+    "move_4_2": "SCARY FACE",
     "raw": null,
     "raw_species_id_0": 214,
     "raw_species_id_1": 526,
@@ -24376,6 +29930,10 @@ trainersById =
     "ability_name_0": "Guts",
     "tr_sprite": "trainer_sprites/battlegirl.png",
     "name": "Glinda",
+    "move_1_0": "IRON HEAD",
+    "move_2_0": "DRAIN PUNCH",
+    "move_3_0": "ROCK TOMB",
+    "move_4_0": "COUNTER",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": null,
@@ -24409,6 +29967,14 @@ trainersById =
     "name": "Sid",
     "nature_1": "Calm",
     "ability_name_1": "Reckless",
+    "move_1_0": "LIGHT SCREEN",
+    "move_2_0": "BUBBLEBEAM",
+    "move_3_0": "DAZZLING GLEAM",
+    "move_4_0": "MINIMIZE",
+    "move_1_1": "AQUA TAIL",
+    "move_2_1": "TAUNT",
+    "move_3_1": "TAKE DOWN",
+    "move_4_1": "ICE FANG",
     "raw": null,
     "raw_species_id_0": 120,
     "raw_species_id_1": 418,
@@ -24433,6 +29999,10 @@ trainersById =
     "ability_name_0": "Rivalry",
     "tr_sprite": "trainer_sprites/youngster.png",
     "name": "Sinclair",
+    "move_1_0": "FLING",
+    "move_2_0": "DUAL WINGBEAT",
+    "move_3_0": "TAUNT",
+    "move_4_0": "NATURAL GIFT",
     "raw": null,
     "raw_species_id_0": 519,
     "raw_species_id_1": null,
@@ -24466,6 +30036,14 @@ trainersById =
     "name": "Reece",
     "nature_1": "Rash",
     "ability_name_1": "Mold Breaker",
+    "move_1_0": "THUNDER FANG",
+    "move_2_0": "ICE FANG",
+    "move_3_0": "FIRE FANG",
+    "move_4_0": "KNOCK OFF",
+    "move_1_1": "RAGE",
+    "move_2_1": "HARDEN",
+    "move_3_1": "DIG",
+    "move_4_1": "THRASH",
     "raw": null,
     "raw_species_id_0": 451,
     "raw_species_id_1": 127,
@@ -24490,6 +30068,10 @@ trainersById =
     "ability_name_0": "Regenerator",
     "tr_sprite": "trainer_sprites/fisherman.png",
     "name": "Jones",
+    "move_1_0": "HELPING HAND",
+    "move_2_0": "HEAL PULSE",
+    "move_3_0": "KNOCK OFF",
+    "move_4_0": "PROTECT",
     "raw": null,
     "raw_species_id_0": 594,
     "raw_species_id_1": null,
@@ -24523,6 +30105,14 @@ trainersById =
     "name": "Damon",
     "nature_1": "Jolly",
     "ability_name_1": "Illumination",
+    "move_1_0": "SEETHING COLD",
+    "move_2_0": "MUDDY WATER",
+    "move_3_0": "AGILITY",
+    "move_4_0": "TAKE DOWN",
+    "move_1_1": "PSYCHIC NOISE",
+    "move_2_1": "LIGHT SCREEN",
+    "move_3_1": "BUBBLEBEAM",
+    "move_4_1": "DAZZLING GLEAM",
     "raw": null,
     "raw_species_id_0": 550,
     "raw_species_id_1": 120,
@@ -24547,6 +30137,10 @@ trainersById =
     "ability_name_0": "Storm Drain",
     "tr_sprite": "trainer_sprites/fisherman.png",
     "name": "Leroy",
+    "move_1_0": "WISH",
+    "move_2_0": "HYPER VOICE",
+    "move_3_0": "SCALD",
+    "move_4_0": "BARRIER",
     "raw": null,
     "raw_species_id_0": 134,
     "raw_species_id_1": null,
@@ -24571,6 +30165,10 @@ trainersById =
     "ability_name_0": "Swift Swim",
     "tr_sprite": "trainer_sprites/fisherman.png",
     "name": "Vince",
+    "move_1_0": "DOUBLE-EDGE",
+    "move_2_0": "ZEN HEADBUTT",
+    "move_3_0": "HEART SWAP",
+    "move_4_0": "AQUA TAIL",
     "raw": null,
     "raw_species_id_0": 55,
     "raw_species_id_1": null,
@@ -24632,6 +30230,14 @@ trainersById =
     "name": "Cleo & Rio",
     "nature_1": "Rash",
     "ability_name_1": "Serene Grace",
+    "move_1_0": "EXTRASENSORY",
+    "move_2_0": "PETAL DANCE",
+    "move_3_0": "TOXIC",
+    "move_4_0": "SLUDGE",
+    "move_1_1": "EXTRASENSORY",
+    "move_2_1": "PETAL DANCE",
+    "move_3_1": "TOXIC",
+    "move_4_1": "SLUDGE",
     "raw": null,
     "raw_species_id_0": 315,
     "raw_species_id_1": 315,
@@ -24811,6 +30417,18 @@ trainersById =
     "ability_name_1": "Keen Senses",
     "nature_2": "Hardy",
     "ability_name_2": "Magnet Pull",
+    "move_1_0": "HYPER VOICE",
+    "move_2_0": "DISCHARGE",
+    "move_3_0": "BATON PASS",
+    "move_4_0": "EXTRASENSORY",
+    "move_1_1": "GIGA DRAIN",
+    "move_2_1": "DISCHARGE",
+    "move_3_1": "DISABLE",
+    "move_4_1": "SUCKER PUNCH",
+    "move_1_2": "TRI ATTACK",
+    "move_2_2": "MAGNET BOMB",
+    "move_3_2": "IRON DEFENSE",
+    "move_4_2": "POWER GEM",
     "raw": null,
     "raw_species_id_0": 135,
     "raw_species_id_1": 596,
@@ -24853,6 +30471,18 @@ trainersById =
     "ability_name_1": "Flash Fire",
     "nature_2": "Quirky",
     "ability_name_2": "Tenacity",
+    "move_1_0": "LEECH LIFE",
+    "move_2_0": "GIGA DRAIN",
+    "move_3_0": "FLAME BURST",
+    "move_4_0": "STRUGGLE BUG",
+    "move_1_1": "FACADE",
+    "move_2_1": "TEMPER FLARE",
+    "move_3_1": "WILL-O-WISP",
+    "move_4_1": "ZEN HEADBUTT",
+    "move_1_2": "LUNGE",
+    "move_2_2": "TWISTER",
+    "move_3_2": "AIR SLASH",
+    "move_4_2": "SUPERSONIC",
     "raw": null,
     "raw_species_id_0": 636,
     "raw_species_id_1": 136,
@@ -24886,6 +30516,14 @@ trainersById =
     "name": "Irene",
     "nature_1": "Lax",
     "ability_name_1": "Huge Power",
+    "move_1_0": "CUT",
+    "move_2_0": "BULLDOZE",
+    "move_3_0": "RAPID SPIN",
+    "move_4_0": "DEFENSE CURL",
+    "move_1_1": "ICY WIND",
+    "move_2_1": "CHILLING WATER",
+    "move_3_1": "HEART STAMP",
+    "move_4_1": "CHARM",
     "raw": null,
     "raw_species_id_0": 529,
     "raw_species_id_1": 183,
@@ -25047,6 +30685,14 @@ trainersById =
     "name": "Galen",
     "nature_1": "Rash",
     "ability_name_1": "Pickup",
+    "move_1_0": "FLING",
+    "move_2_0": "DUAL WINGBEAT",
+    "move_3_0": "TAUNT",
+    "move_4_0": "NATURAL GIFT",
+    "move_1_1": "DRAINING KISS",
+    "move_2_1": "NIGHT SLASH",
+    "move_3_1": "SLASH",
+    "move_4_1": "ENCORE",
     "raw": null,
     "raw_species_id_0": 520,
     "raw_species_id_1": 510,
@@ -25071,6 +30717,10 @@ trainersById =
     "ability_name_0": "Skill Link",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Jeriel",
+    "move_1_0": "BRICK BREAK",
+    "move_2_0": "PIN MISSILE",
+    "move_3_0": "NIGHT SLASH",
+    "move_4_0": "IRON DEFENSE",
     "raw": null,
     "raw_species_id_0": 214,
     "raw_species_id_1": null,
@@ -25104,6 +30754,14 @@ trainersById =
     "name": "Azra",
     "nature_1": "Rash",
     "ability_name_1": "Reckless",
+    "move_1_0": "SCARY FACE",
+    "move_2_0": "IRON HEAD",
+    "move_3_0": "DRAIN PUNCH",
+    "move_4_0": "ROCK TOMB",
+    "move_1_1": "REFRESH",
+    "move_2_1": "JUMP KICK",
+    "move_3_1": "U-TURN",
+    "move_4_1": "AGILITY",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": 619,
@@ -25137,6 +30795,14 @@ trainersById =
     "name": "Marcus",
     "nature_1": "Hasty",
     "ability_name_1": "Rivalry",
+    "move_1_0": "STEEL WING",
+    "move_2_0": "FEATHERDANCE",
+    "move_3_0": "FREEZE-DRY",
+    "move_4_0": "BUBBLEBEAM",
+    "move_1_1": "CRUSH CLAW",
+    "move_2_1": "BRICK BREAK",
+    "move_3_1": "WISH",
+    "move_4_1": "DETECT",
     "raw": null,
     "raw_species_id_0": 580,
     "raw_species_id_1": 520,
@@ -25170,6 +30836,14 @@ trainersById =
     "name": "Magnolia",
     "nature_1": "Gentle",
     "ability_name_1": "Levitate",
+    "move_1_0": "ZING ZAP",
+    "move_2_0": "CHARM",
+    "move_3_0": "LIGHT SCREEN",
+    "move_4_0": "AIR CUTTER",
+    "move_1_1": "COTTON GUARD",
+    "move_2_1": "TWISTER",
+    "move_3_1": "WEATHER BALL",
+    "move_4_1": "FEATHERDANCE",
     "raw": null,
     "raw_species_id_0": 587,
     "raw_species_id_1": 334,
@@ -25212,6 +30886,18 @@ trainersById =
     "ability_name_1": "Blaze",
     "nature_2": "Hasty",
     "ability_name_2": "Torrent",
+    "move_1_0": "POWER WHIP",
+    "move_2_0": "SLACK OFF",
+    "move_3_0": "TORMENT",
+    "move_4_0": "ENERGY BALL",
+    "move_1_1": "FLARE BLITZ",
+    "move_2_1": "SLACK OFF",
+    "move_3_1": "TORMENT",
+    "move_4_1": "FLAMETHROWER",
+    "move_1_2": "WAVE CRASH",
+    "move_2_2": "SLACK OFF",
+    "move_3_2": "TORMENT",
+    "move_4_2": "AQUA TAIL",
     "raw": null,
     "raw_species_id_0": 512,
     "raw_species_id_1": 514,
@@ -25245,6 +30931,14 @@ trainersById =
     "name": "Crofton",
     "nature_1": "Brave",
     "ability_name_1": "Gooey",
+    "move_1_0": "MUDDY WATER",
+    "move_2_0": "POISON JAB",
+    "move_3_0": "GASTRO ACID",
+    "move_4_0": "FLAIL",
+    "move_1_1": "MUDDY WATER",
+    "move_2_1": "POISON JAB",
+    "move_3_1": "GASTRO ACID",
+    "move_4_1": "FLAIL",
     "raw": null,
     "raw_species_id_0": 535,
     "raw_species_id_1": 536,
@@ -25278,6 +30972,14 @@ trainersById =
     "name": "Myra",
     "nature_1": "Bashful",
     "ability_name_1": "Reckless",
+    "move_1_0": "PRESENT",
+    "move_2_0": "HAIL",
+    "move_3_0": "MIST",
+    "move_4_0": "UPROAR",
+    "move_1_1": "WIDE GUARD",
+    "move_2_1": "RAGE",
+    "move_3_1": "DRILL RUN",
+    "move_4_1": "ZEN HEADBUTT",
     "raw": null,
     "raw_species_id_0": 582,
     "raw_species_id_1": 626,
@@ -25311,6 +31013,14 @@ trainersById =
     "name": "Lowell",
     "nature_1": "Naive",
     "ability_name_1": "Sheer Force",
+    "move_1_0": "HIGH HORSEPOWER",
+    "move_2_0": "AVALANCHE",
+    "move_3_0": "CHARM",
+    "move_4_0": "FREEZE-DRY",
+    "move_1_1": "AGILITY",
+    "move_2_1": "HAMMER ARM",
+    "move_3_1": "FIRE PUNCH",
+    "move_4_1": "PSYCHIC FANGS",
     "raw": null,
     "raw_species_id_0": 220,
     "raw_species_id_1": 555,
@@ -25344,6 +31054,14 @@ trainersById =
     "name": "Kyle",
     "nature_1": "Timid",
     "ability_name_1": "Pickup",
+    "move_1_0": "FLING",
+    "move_2_0": "SCALD",
+    "move_3_0": "RECYCLE",
+    "move_4_0": "KNOCK OFF",
+    "move_1_1": "FLING",
+    "move_2_1": "SCALD",
+    "move_3_1": "RECYCLE",
+    "move_4_1": "KNOCK OFF",
     "raw": null,
     "raw_species_id_0": 278,
     "raw_species_id_1": 278,
@@ -25377,6 +31095,14 @@ trainersById =
     "name": "Kaoru",
     "nature_1": "Relaxed",
     "ability_name_1": "Adaptability",
+    "move_1_0": "OCTAZOOKA",
+    "move_2_0": "HEAT CRASH",
+    "move_3_0": "WRAP",
+    "move_4_0": "SEED BOMB",
+    "move_1_1": "OCTAZOOKA",
+    "move_2_1": "HEAT CRASH",
+    "move_3_1": "WRAP",
+    "move_4_1": "SEED BOMB",
     "raw": null,
     "raw_species_id_0": 223,
     "raw_species_id_1": 223,
@@ -25401,6 +31127,10 @@ trainersById =
     "ability_name_0": "Gooey",
     "tr_sprite": "trainer_sprites/swimmerm.png",
     "name": "Harold",
+    "move_1_0": "OCTAZOOKA",
+    "move_2_0": "HEAT CRASH",
+    "move_3_0": "WRAP",
+    "move_4_0": "SEED BOMB",
     "raw": null,
     "raw_species_id_0": 224,
     "raw_species_id_1": null,
@@ -25425,6 +31155,10 @@ trainersById =
     "ability_name_0": "Truant",
     "tr_sprite": "trainer_sprites/swimmerf.png",
     "name": "Desiree",
+    "move_1_0": "ROLLOUT",
+    "move_2_0": "HEAVY SLAM",
+    "move_3_0": "SURF",
+    "move_4_0": "DEFENSE CURL",
     "raw": null,
     "raw_species_id_0": 321,
     "raw_species_id_1": null,
@@ -25467,6 +31201,18 @@ trainersById =
     "ability_name_1": "Water Absorb",
     "nature_2": "Rash",
     "ability_name_2": "Water Absorb",
+    "move_1_0": "SEETHING COLD",
+    "move_2_0": "MUDDY WATER",
+    "move_3_0": "AQUA RING",
+    "move_4_0": "OMINOUS WIND",
+    "move_1_1": "SEETHING COLD",
+    "move_2_1": "MUDDY WATER",
+    "move_3_1": "AQUA RING",
+    "move_4_1": "OMINOUS WIND",
+    "move_1_2": "SEETHING COLD",
+    "move_2_2": "MUDDY WATER",
+    "move_3_2": "AQUA RING",
+    "move_4_2": "OMINOUS WIND",
     "raw": null,
     "raw_species_id_0": 592,
     "raw_species_id_1": 592,
@@ -25500,6 +31246,14 @@ trainersById =
     "name": "Summer",
     "nature_1": "Docile",
     "ability_name_1": "Illumination",
+    "move_1_0": "RECYCLE",
+    "move_2_0": "KNOCK OFF",
+    "move_3_0": "AIR SLASH",
+    "move_4_0": "SPIT UP",
+    "move_1_1": "PSYCHIC NOISE",
+    "move_2_1": "LIGHT SCREEN",
+    "move_3_1": "BUBBLEBEAM",
+    "move_4_1": "DAZZLING GLEAM",
     "raw": null,
     "raw_species_id_0": 279,
     "raw_species_id_1": 121,
@@ -25524,6 +31278,10 @@ trainersById =
     "ability_name_0": "Water Absorb",
     "tr_sprite": "trainer_sprites/matt.png",
     "name": "Matt",
+    "move_1_0": "SURF",
+    "move_2_0": "WIDE GUARD",
+    "move_3_0": "AQUA RING",
+    "move_4_0": "SIGNAL BEAM",
     "raw": null,
     "raw_species_id_0": 458,
     "raw_species_id_1": null,
@@ -25548,6 +31306,10 @@ trainersById =
     "ability_name_0": "Swift Swim",
     "tr_sprite": "trainer_sprites/swimmerm.png",
     "name": "Bart",
+    "move_1_0": "SEETHING COLD",
+    "move_2_0": "MUDDY WATER",
+    "move_3_0": "AGILITY",
+    "move_4_0": "TAKE DOWN",
     "raw": null,
     "raw_species_id_0": 550,
     "raw_species_id_1": null,
@@ -25572,6 +31334,10 @@ trainersById =
     "ability_name_0": "Ice Body",
     "tr_sprite": "trainer_sprites/swimmerm.png",
     "name": "Tim",
+    "move_1_0": "SURF",
+    "move_2_0": "ICE FANG",
+    "move_3_0": "AQUA RING",
+    "move_4_0": "BODY SLAM",
     "raw": null,
     "raw_species_id_0": 364,
     "raw_species_id_1": null,
@@ -25596,6 +31362,10 @@ trainersById =
     "ability_name_0": "Regenerator",
     "tr_sprite": "trainer_sprites/swimmerf.png",
     "name": "Arissa",
+    "move_1_0": "HEAL PULSE",
+    "move_2_0": "KNOCK OFF",
+    "move_3_0": "PROTECT",
+    "move_4_0": "REVENGE",
     "raw": null,
     "raw_species_id_0": 594,
     "raw_species_id_1": null,
@@ -25629,6 +31399,14 @@ trainersById =
     "name": "Mitzi",
     "nature_1": "Jolly",
     "ability_name_1": "Moisturize",
+    "move_1_0": "ICE FANG",
+    "move_2_0": "AQUA RING",
+    "move_3_0": "BODY SLAM",
+    "move_4_0": "AURORA BEAM",
+    "move_1_1": "DEFENSE CURL",
+    "move_2_1": "MIST",
+    "move_3_1": "SNORE",
+    "move_4_1": "AQUA RING",
     "raw": null,
     "raw_species_id_0": 363,
     "raw_species_id_1": 320,
@@ -26094,6 +31872,10 @@ trainersById =
     "ability_name_0": "Shed Skin",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Kenneth",
+    "move_1_0": "OBSTRUCT",
+    "move_2_0": "HEAVY SLAM",
+    "move_3_0": "COUNTER",
+    "move_4_0": "X-SCISSOR",
     "raw": null,
     "raw_species_id_0": 558,
     "raw_species_id_1": null,
@@ -26118,6 +31900,10 @@ trainersById =
     "ability_name_0": "Regenerator",
     "tr_sprite": "trainer_sprites/doctor.png",
     "name": "Braid",
+    "move_1_0": "FLIP TURN",
+    "move_2_0": "SLEEP TALK",
+    "move_3_0": "REST",
+    "move_4_0": "HELPING HAND",
     "raw": null,
     "raw_species_id_0": 594,
     "raw_species_id_1": null,
@@ -26151,6 +31937,14 @@ trainersById =
     "name": "Jim & Cas",
     "nature_1": "Quiet",
     "ability_name_1": "Battle Armor",
+    "move_1_0": "CRUNCH",
+    "move_2_0": "THUNDER FANG",
+    "move_3_0": "FIRE FANG",
+    "move_4_0": "DIG",
+    "move_1_1": "ACUPRESSURE",
+    "move_2_1": "THUNDER FANG",
+    "move_3_1": "ICE FANG",
+    "move_4_1": "FIRE FANG",
     "raw": null,
     "raw_species_id_0": 553,
     "raw_species_id_1": 452,
@@ -26242,6 +32036,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/roughneck.png",
     "name": "Reese",
+    "move_1_0": "GLARE",
+    "move_2_0": "CRUNCH",
+    "move_3_0": "THUNDER FANG",
+    "move_4_0": "FIRE FANG",
     "raw": null,
     "raw_species_id_0": 552,
     "raw_species_id_1": null,
@@ -26266,6 +32064,10 @@ trainersById =
     "ability_name_0": "Battle Armor",
     "tr_sprite": "trainer_sprites/biker.png",
     "name": "Phillip",
+    "move_1_0": "ACUPRESSURE",
+    "move_2_0": "THUNDER FANG",
+    "move_3_0": "ICE FANG",
+    "move_4_0": "FIRE FANG",
     "raw": null,
     "raw_species_id_0": 451,
     "raw_species_id_1": null,
@@ -26384,6 +32186,14 @@ trainersById =
     "name": "Addison",
     "nature_1": "Lonely",
     "ability_name_1": "Hustle",
+    "move_1_0": "CURSE",
+    "move_2_0": "SMOG",
+    "move_3_0": "HEAVY SLAM",
+    "move_4_0": "GROWTH",
+    "move_1_1": "MAGIC COAT",
+    "move_2_1": "FOCUS PUNCH",
+    "move_3_1": "SKILL SWAP",
+    "move_4_1": "FOUL PLAY",
     "raw": null,
     "raw_species_id_0": 323,
     "raw_species_id_1": 326,
@@ -26417,6 +32227,14 @@ trainersById =
     "name": "Justin",
     "nature_1": "Brave",
     "ability_name_1": "Sturdy",
+    "move_1_0": "DISCHARGE",
+    "move_2_0": "WIDE GUARD",
+    "move_3_0": "TRI ATTACK",
+    "move_4_0": "MAGNET BOMB",
+    "move_1_1": "WIDE GUARD",
+    "move_2_1": "DIG",
+    "move_3_1": "BIND",
+    "move_4_1": "BLOCK",
     "raw": null,
     "raw_species_id_0": 299,
     "raw_species_id_1": 208,
@@ -26442,6 +32260,10 @@ trainersById =
     "ability_name_0": "Flash Fire",
     "tr_sprite": "trainer_sprites/baker.png",
     "name": "Chris",
+    "move_1_0": "CROSS CHOP",
+    "move_2_0": "SUCKER PUNCH",
+    "move_3_0": "SPIT UP",
+    "move_4_0": "SWALLOW",
     "raw": null,
     "raw_species_id_0": 631,
     "raw_species_id_1": null,
@@ -26466,6 +32288,10 @@ trainersById =
     "ability_name_0": "Rough Skin",
     "tr_sprite": "trainer_sprites/youngster.png",
     "name": "Karl",
+    "move_1_0": "BODY PRESS",
+    "move_2_0": "SANDSTORM",
+    "move_3_0": "ROCK CLIMB",
+    "move_4_0": "DIG",
     "raw": null,
     "raw_species_id_0": 28,
     "raw_species_id_1": null,
@@ -26499,6 +32325,14 @@ trainersById =
     "name": "Shannon",
     "nature_1": "Quiet",
     "ability_name_1": "Flash Fire",
+    "move_1_0": "WILL-O-WISP",
+    "move_2_0": "FLAMETHROWER",
+    "move_3_0": "IMPRISON",
+    "move_4_0": "DAZZLING GLEAM",
+    "move_1_1": "FLARE BLITZ",
+    "move_2_1": "SUPERPOWER",
+    "move_3_1": "FIRE LASH",
+    "move_4_1": "COTTON GUARD",
     "raw": null,
     "raw_species_id_0": 37,
     "raw_species_id_1": 136,
@@ -26523,6 +32357,10 @@ trainersById =
     "ability_name_0": "Flash Fire",
     "tr_sprite": "trainer_sprites/artist.png",
     "name": "Gough",
+    "move_1_0": "PETAL DANCE",
+    "move_2_0": "SCALD",
+    "move_3_0": "WEATHER BALL",
+    "move_4_0": "NATURE POWER",
     "raw": null,
     "raw_species_id_0": 192,
     "raw_species_id_1": null,
@@ -26565,6 +32403,18 @@ trainersById =
     "ability_name_1": "Solid Rock",
     "nature_2": "Mild",
     "ability_name_2": "Unnerve",
+    "move_1_0": "AIR CUTTER",
+    "move_2_0": "SCORCHING SANDS",
+    "move_3_0": "PSYBEAM",
+    "move_4_0": "MAGIC COAT",
+    "move_1_1": "CRUNCH",
+    "move_2_1": "BRINE",
+    "move_3_1": "WIDE GUARD",
+    "move_4_1": "ROCK TOMB",
+    "move_1_2": "CRUNCH",
+    "move_2_2": "QUICK GUARD",
+    "move_3_2": "AERIAL ACE",
+    "move_4_2": "ROCK TOMB",
     "raw": null,
     "raw_species_id_0": 561,
     "raw_species_id_1": 564,
@@ -26839,6 +32689,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Modest",
     "ability_name_1": "Pickup",
+    "move_1_0": "PARTING SHOT",
+    "move_2_0": "FOCUS PUNCH",
+    "move_3_0": "SWAGGER",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "WICKED BLOW",
+    "move_2_1": "PLAY ROUGH",
+    "move_3_1": "ME FIRST",
+    "move_4_1": "FOUL PLAY",
     "raw": null,
     "raw_species_id_0": 559,
     "raw_species_id_1": 510,
@@ -27240,6 +33098,10 @@ trainersById =
     "ability_name_0": "Swift Swim",
     "tr_sprite": "trainer_sprites/fisherman.png",
     "name": "Dean",
+    "move_1_0": "PHANTOM STRIKE",
+    "move_2_0": "SEETHING COLD",
+    "move_3_0": "MUDDY WATER",
+    "move_4_0": "AGILITY",
     "raw": null,
     "raw_species_id_0": 550,
     "raw_species_id_1": null,
@@ -27273,6 +33135,14 @@ trainersById =
     "name": "Doyle",
     "nature_1": "Brave",
     "ability_name_1": "Water Absorb",
+    "move_1_0": "DUAL CHOP",
+    "move_2_0": "AGILITY",
+    "move_3_0": "AQUA TAIL",
+    "move_4_0": "TAUNT",
+    "move_1_1": "AIR SLASH",
+    "move_2_1": "RAIN DANCE",
+    "move_3_1": "SURF",
+    "move_4_1": "WIDE GUARD",
     "raw": null,
     "raw_species_id_0": 419,
     "raw_species_id_1": 226,
@@ -27297,6 +33167,10 @@ trainersById =
     "ability_name_0": "Regenerator",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Melina",
+    "move_1_0": "FLIP TURN",
+    "move_2_0": "SLEEP TALK",
+    "move_3_0": "REST",
+    "move_4_0": "HELPING HAND",
     "raw": null,
     "raw_species_id_0": 594,
     "raw_species_id_1": null,
@@ -27339,6 +33213,18 @@ trainersById =
     "ability_name_1": "Swift Swim",
     "nature_2": "Gentle",
     "ability_name_2": "Huge Power",
+    "move_1_0": "PSYCHIC FANGS",
+    "move_2_0": "PHANTOM STRIKE",
+    "move_3_0": "SEETHING COLD",
+    "move_4_0": "MUDDY WATER",
+    "move_1_1": "PSYCHIC FANGS",
+    "move_2_1": "PHANTOM STRIKE",
+    "move_3_1": "SEETHING COLD",
+    "move_4_1": "MUDDY WATER",
+    "move_1_2": "AQUA RING",
+    "move_2_2": "AQUA TAIL",
+    "move_3_2": "DOUBLESLAP",
+    "move_4_2": "DEFENSE CURL",
     "raw": null,
     "raw_species_id_0": 550,
     "raw_species_id_1": 550,
@@ -27372,6 +33258,14 @@ trainersById =
     "name": "Jeanne",
     "nature_1": "Naughty",
     "ability_name_1": "Truant",
+    "move_1_0": "PRESENT",
+    "move_2_0": "FLING",
+    "move_3_0": "SCALD",
+    "move_4_0": "RECYCLE",
+    "move_1_1": "ROLLOUT",
+    "move_2_1": "HEAVY SLAM",
+    "move_3_1": "SURF",
+    "move_4_1": "DEFENSE CURL",
     "raw": null,
     "raw_species_id_0": 279,
     "raw_species_id_1": 321,
@@ -27396,6 +33290,10 @@ trainersById =
     "ability_name_0": "Ice Body",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Santino",
+    "move_1_0": "YAWN",
+    "move_2_0": "GLACIATE",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "SURF",
     "raw": null,
     "raw_species_id_0": 365,
     "raw_species_id_1": null,
@@ -27429,6 +33327,14 @@ trainersById =
     "name": "Sable",
     "nature_1": "Calm",
     "ability_name_1": "Illumination",
+    "move_1_0": "FLIP TURN",
+    "move_2_0": "RAIN DANCE",
+    "move_3_0": "DOUBLE-EDGE",
+    "move_4_0": "ZEN HEADBUTT",
+    "move_1_1": "MAGIC COAT",
+    "move_2_1": "WHIRLPOOL",
+    "move_3_1": "PSYCHIC NOISE",
+    "move_4_1": "LIGHT SCREEN",
     "raw": null,
     "raw_species_id_0": 55,
     "raw_species_id_1": 121,
@@ -28056,6 +33962,18 @@ trainersById =
     "ability_name_1": "Solid Rock",
     "nature_2": "Bashful",
     "ability_name_2": "Unnerve",
+    "move_1_0": "AIR CUTTER",
+    "move_2_0": "SCORCHING SANDS",
+    "move_3_0": "PSYBEAM",
+    "move_4_0": "MAGIC COAT",
+    "move_1_1": "CRUNCH",
+    "move_2_1": "BRINE",
+    "move_3_1": "WIDE GUARD",
+    "move_4_1": "ROCK TOMB",
+    "move_1_2": "CRUNCH",
+    "move_2_2": "QUICK GUARD",
+    "move_3_2": "AERIAL ACE",
+    "move_4_2": "ROCK TOMB",
     "raw": null,
     "raw_species_id_0": 561,
     "raw_species_id_1": 564,
@@ -28755,6 +34673,18 @@ trainersById =
     "ability_name_1": "Torrent",
     "nature_2": "Quirky",
     "ability_name_2": "Intimidate",
+    "move_1_0": "ACROBATICS",
+    "move_2_0": "SWAGGER",
+    "move_3_0": "CRUSH CLAW",
+    "move_4_0": "BRICK BREAK",
+    "move_1_1": "TORMENT",
+    "move_2_1": "AQUA TAIL",
+    "move_3_1": "HYPER VOICE",
+    "move_4_1": "ACROBATICS",
+    "move_1_2": "HIGH HORSEPOWER",
+    "move_2_2": "HEAT CRASH",
+    "move_3_2": "CRUNCH",
+    "move_4_2": "FAKE OUT",
     "raw": null,
     "raw_species_id_0": 521,
     "raw_species_id_1": 516,
@@ -28800,6 +34730,18 @@ trainersById =
     "ability_name_1": "Overgrow",
     "nature_2": "Lax",
     "ability_name_2": "Shell Armor",
+    "move_1_0": "ACROBATICS",
+    "move_2_0": "SWAGGER",
+    "move_3_0": "CRUSH CLAW",
+    "move_4_0": "BRICK BREAK",
+    "move_1_1": "TORMENT",
+    "move_2_1": "ENERGY BALL",
+    "move_3_1": "HYPER VOICE",
+    "move_4_1": "ACROBATICS",
+    "move_1_2": "ENCORE",
+    "move_2_2": "SACRED SWORD",
+    "move_3_2": "TRIPLE DIVE",
+    "move_4_2": "DETECT",
     "raw": null,
     "raw_species_id_0": 521,
     "raw_species_id_1": 512,
@@ -28845,6 +34787,18 @@ trainersById =
     "ability_name_1": "Blaze",
     "nature_2": "Hardy",
     "ability_name_2": "Adaptability",
+    "move_1_0": "ACROBATICS",
+    "move_2_0": "SWAGGER",
+    "move_3_0": "CRUSH CLAW",
+    "move_4_0": "BRICK BREAK",
+    "move_1_1": "TORMENT",
+    "move_2_1": "FLAMETHROWER",
+    "move_3_1": "HYPER VOICE",
+    "move_4_1": "ACROBATICS",
+    "move_1_2": "CAPTIVATE",
+    "move_2_2": "PARABOLIC ZAP",
+    "move_3_2": "TWISTER",
+    "move_4_2": "GLARE",
     "raw": null,
     "raw_species_id_0": 521,
     "raw_species_id_1": 514,
@@ -28869,6 +34823,10 @@ trainersById =
     "ability_name_0": "Mold Breaker",
     "tr_sprite": "trainer_sprites/veteran.png",
     "name": "Lucius",
+    "move_1_0": "CROSS CHOP",
+    "move_2_0": "DUAL CHOP",
+    "move_3_0": "COUNTER",
+    "move_4_0": "DOUBLE KICK",
     "raw": null,
     "raw_species_id_0": 611,
     "raw_species_id_1": null,
@@ -28997,6 +34955,18 @@ trainersById =
     "ability_name_1": "Rough Skin",
     "nature_2": "Sassy",
     "ability_name_2": "Rivalry",
+    "move_1_0": "CROSS CHOP",
+    "move_2_0": "DUAL CHOP",
+    "move_3_0": "COUNTER",
+    "move_4_0": "DOUBLE KICK",
+    "move_1_1": "GLARE",
+    "move_2_1": "CRUNCH",
+    "move_3_1": "FIRE FANG",
+    "move_4_1": "THUNDER FANG",
+    "move_1_2": "CROSS CHOP",
+    "move_2_2": "DUAL CHOP",
+    "move_3_2": "COUNTER",
+    "move_4_2": "DOUBLE KICK",
     "raw": null,
     "raw_species_id_0": 611,
     "raw_species_id_1": 621,
@@ -29039,6 +35009,18 @@ trainersById =
     "ability_name_1": "Mold Breaker",
     "nature_2": "Careful",
     "ability_name_2": "Mold Breaker",
+    "move_1_0": "GLARE",
+    "move_2_0": "CRUNCH",
+    "move_3_0": "FIRE FANG",
+    "move_4_0": "THUNDER FANG",
+    "move_1_1": "CROSS CHOP",
+    "move_2_1": "DUAL CHOP",
+    "move_3_1": "COUNTER",
+    "move_4_1": "DOUBLE KICK",
+    "move_1_2": "CROSS CHOP",
+    "move_2_2": "DUAL CHOP",
+    "move_3_2": "COUNTER",
+    "move_4_2": "DOUBLE KICK",
     "raw": null,
     "raw_species_id_0": 621,
     "raw_species_id_1": 611,
@@ -29072,6 +35054,14 @@ trainersById =
     "name": "Leaf",
     "nature_1": "Naughty",
     "ability_name_1": "Speed Boost",
+    "move_1_0": "CHARM",
+    "move_2_0": "HORN LEECH",
+    "move_3_0": "JUMP KICK",
+    "move_4_0": "SYNTHESIS",
+    "move_1_1": "DEFENSE CURL",
+    "move_2_1": "DRILL RUN",
+    "move_3_1": "AGILITY",
+    "move_4_1": "BARB BARRAGE",
     "raw": null,
     "raw_species_id_0": 585,
     "raw_species_id_1": 545,
@@ -29105,6 +35095,14 @@ trainersById =
     "name": "Naoko",
     "nature_1": "Docile",
     "ability_name_1": "Overcoat",
+    "move_1_0": "BODY SLAM",
+    "move_2_0": "NIGHT SHADE",
+    "move_3_0": "SWEET SCENT",
+    "move_4_0": "VENOSHOCK",
+    "move_1_1": "LEAF STORM",
+    "move_2_1": "SLASH",
+    "move_3_1": "REFLECT TYPE",
+    "move_4_1": "SKITTER SMACK",
     "raw": null,
     "raw_species_id_0": 590,
     "raw_species_id_1": 542,
@@ -29129,6 +35127,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/pokemonranger.png",
     "name": "Bret",
+    "move_1_0": "SAFEGUARD",
+    "move_2_0": "THUNDER FANG",
+    "move_3_0": "ICE FANG",
+    "move_4_0": "FIRE FANG",
     "raw": null,
     "raw_species_id_0": 508,
     "raw_species_id_1": null,
@@ -29153,6 +35155,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/pokemonranger.png",
     "name": "Malory",
+    "move_1_0": "CRUNCH",
+    "move_2_0": "ENDURE",
+    "move_3_0": "FIRE FANG",
+    "move_4_0": "REVERSAL",
     "raw": null,
     "raw_species_id_0": 59,
     "raw_species_id_1": null,
@@ -29186,6 +35192,14 @@ trainersById =
     "name": "Boone",
     "nature_1": "Naive",
     "ability_name_1": "Tenacity",
+    "move_1_0": "GROWTH",
+    "move_2_0": "MUD BOMB",
+    "move_3_0": "LAVA PLUME",
+    "move_4_0": "AMNESIA",
+    "move_1_1": "WHIRLWIND",
+    "move_2_1": "DREAM EATER",
+    "move_3_1": "LIGHT SCREEN",
+    "move_4_1": "REFLECT",
     "raw": null,
     "raw_species_id_0": 322,
     "raw_species_id_1": 561,
@@ -29228,6 +35242,18 @@ trainersById =
     "ability_name_1": "Hustle",
     "nature_2": "Bashful",
     "ability_name_2": "Flare Boost",
+    "move_1_0": "SEETHING COLD",
+    "move_2_0": "HYPNOSIS",
+    "move_3_0": "OMINOUS WIND",
+    "move_4_0": "AIR CUTTER",
+    "move_1_1": "FOUL PLAY",
+    "move_2_1": "DIZZY PUNCH",
+    "move_3_1": "FAINT ATTACK",
+    "move_4_1": "PSYCHO CUT",
+    "move_1_2": "SEETHING COLD",
+    "move_2_2": "HYPNOSIS",
+    "move_3_2": "OMINOUS WIND",
+    "move_4_2": "AIR CUTTER",
     "raw": null,
     "raw_species_id_0": 425,
     "raw_species_id_1": 325,
@@ -29337,6 +35363,18 @@ trainersById =
     "ability_name_1": "Forewarn",
     "nature_2": "Jolly",
     "ability_name_2": "Intimidate",
+    "move_1_0": "FUTURE SIGHT",
+    "move_2_0": "COSMIC POWER",
+    "move_3_0": "PSYCHIC",
+    "move_4_0": "AIR SLASH",
+    "move_1_1": "FUTURE SIGHT",
+    "move_2_1": "COSMIC POWER",
+    "move_3_1": "PSYCHIC",
+    "move_4_1": "AIR SLASH",
+    "move_1_2": "TAILWIND",
+    "move_2_2": "BRAVE BIRD",
+    "move_3_2": "DETECT",
+    "move_4_2": "DRILL PECK",
     "raw": null,
     "raw_species_id_0": 177,
     "raw_species_id_1": 178,
@@ -29446,6 +35484,18 @@ trainersById =
     "ability_name_1": "Skill Link",
     "nature_2": "Rash",
     "ability_name_2": "Regenerator",
+    "move_1_0": "PERISH SONG",
+    "move_2_0": "SKY DROP",
+    "move_3_0": "PLAY ROUGH",
+    "move_4_0": "GYRO BALL",
+    "move_1_1": "DOUBLE-EDGE",
+    "move_2_1": "HONE CLAWS",
+    "move_3_1": "WRAP",
+    "move_4_1": "SUCKER PUNCH",
+    "move_1_2": "HAMMER ARM",
+    "move_2_2": "TOXIC",
+    "move_3_2": "GYRO BALL",
+    "move_4_2": "BIND",
     "raw": null,
     "raw_species_id_0": 39,
     "raw_species_id_1": 432,
@@ -29479,6 +35529,14 @@ trainersById =
     "name": "Buster",
     "nature_1": "Calm",
     "ability_name_1": "Iron Fist",
+    "move_1_0": "HELPING HAND",
+    "move_2_0": "EXTREMESPEED",
+    "move_3_0": "BULLET PUNCH",
+    "move_4_0": "COMET PUNCH",
+    "move_1_1": "LUNGE",
+    "move_2_1": "THUNDERPUNCH",
+    "move_3_1": "ICE PUNCH",
+    "move_4_1": "FIRE PUNCH",
     "raw": null,
     "raw_species_id_0": 447,
     "raw_species_id_1": 166,
@@ -29512,6 +35570,14 @@ trainersById =
     "name": "Eva",
     "nature_1": "Quirky",
     "ability_name_1": "Thunder Armor",
+    "move_1_0": "PSYCHIC",
+    "move_2_0": "MYSTICAL FIRE",
+    "move_3_0": "HEALING WISH",
+    "move_4_0": "BARRIER",
+    "move_1_1": "ENTRAINMENT",
+    "move_2_1": "THUNDER",
+    "move_3_1": "PLAY ROUGH",
+    "move_4_1": "FAKE OUT",
     "raw": null,
     "raw_species_id_0": 281,
     "raw_species_id_1": 25,
@@ -29545,6 +35611,14 @@ trainersById =
     "name": "Tyrone",
     "nature_1": "Modest",
     "ability_name_1": "Hustle",
+    "move_1_0": "METAL CLAW",
+    "move_2_0": "AGILITY",
+    "move_3_0": "BULLET PUNCH",
+    "move_4_0": "SCARY FACE",
+    "move_1_1": "HEAD SMASH",
+    "move_2_1": "DRAGON RUSH",
+    "move_3_1": "SCREECH",
+    "move_4_1": "TRI ATTACK",
     "raw": null,
     "raw_species_id_0": 374,
     "raw_species_id_1": 633,
@@ -29587,6 +35661,18 @@ trainersById =
     "ability_name_1": "Motor Drive",
     "nature_2": "Docile",
     "ability_name_2": "Motor Drive",
+    "move_1_0": "AQUA TAIL",
+    "move_2_0": "HEAL PULSE",
+    "move_3_0": "PSYCHIC",
+    "move_4_0": "GRAVITY",
+    "move_1_1": "DOUBLE-EDGE",
+    "move_2_1": "MEGAHORN",
+    "move_3_1": "WAVE CRASH",
+    "move_4_1": "RAIN DANCE",
+    "move_1_2": "DOUBLE-EDGE",
+    "move_2_2": "MEGAHORN",
+    "move_3_2": "WAVE CRASH",
+    "move_4_2": "RAIN DANCE",
     "raw": null,
     "raw_species_id_0": 79,
     "raw_species_id_1": 118,
@@ -29656,6 +35742,30 @@ trainersById =
     "ability_name_4": "Swift Swim",
     "nature_5": "Hasty",
     "ability_name_5": "Swift Swim",
+    "move_1_0": "BOUNCE",
+    "move_2_0": "FLAIL",
+    "move_3_0": "TACKLE",
+    "move_4_0": "TAIL WHIP",
+    "move_1_1": "BOUNCE",
+    "move_2_1": "FLAIL",
+    "move_3_1": "TACKLE",
+    "move_4_1": "TAIL WHIP",
+    "move_1_2": "BOUNCE",
+    "move_2_2": "FLAIL",
+    "move_3_2": "TACKLE",
+    "move_4_2": "TAIL WHIP",
+    "move_1_3": "BOUNCE",
+    "move_2_3": "FLAIL",
+    "move_3_3": "TACKLE",
+    "move_4_3": "TAIL WHIP",
+    "move_1_4": "BOUNCE",
+    "move_2_4": "FLAIL",
+    "move_3_4": "TACKLE",
+    "move_4_4": "TAIL WHIP",
+    "move_1_5": "BOUNCE",
+    "move_2_5": "FLAIL",
+    "move_3_5": "TACKLE",
+    "move_4_5": "TAIL WHIP",
     "raw": null,
     "raw_species_id_0": 129,
     "raw_species_id_1": 129,
@@ -29716,6 +35826,26 @@ trainersById =
     "ability_name_3": "Huge Power",
     "nature_4": "Serious",
     "ability_name_4": "Illumination",
+    "move_1_0": "FACADE",
+    "move_2_0": "FLAIL",
+    "move_3_0": "DOUBLE-EDGE",
+    "move_4_0": "U-TURN",
+    "move_1_1": "BATON PASS",
+    "move_2_1": "DOUBLE-EDGE",
+    "move_3_1": "PLAY ROUGH",
+    "move_4_1": "FAKE OUT",
+    "move_1_2": "CRUSH CLAW",
+    "move_2_2": "SWITCHEROO",
+    "move_3_2": "CHARM",
+    "move_4_2": "SLASH",
+    "move_1_3": "SLACK OFF",
+    "move_2_3": "FAKE OUT",
+    "move_3_3": "WATERFALL",
+    "move_4_3": "HYPER FANG",
+    "move_1_4": "DOUBLE-EDGE",
+    "move_2_4": "AQUA TAIL",
+    "move_3_4": "IRON TAIL",
+    "move_4_4": "GLARE",
     "raw": null,
     "raw_species_id_0": 19,
     "raw_species_id_1": 161,
@@ -29776,6 +35906,26 @@ trainersById =
     "ability_name_3": "Intimidate",
     "nature_4": "Impish",
     "ability_name_4": "Rivalry",
+    "move_1_0": "TAILWIND",
+    "move_2_0": "THUNDERBOLT",
+    "move_3_0": "ICE BEAM",
+    "move_4_0": "EXTREMESPEED",
+    "move_1_1": "ESPER WING",
+    "move_2_1": "PSYCHO BOOST",
+    "move_3_1": "FEATHERDANCE",
+    "move_4_1": "AIR SLASH",
+    "move_1_2": "FEATHERDANCE",
+    "move_2_2": "REVERSAL",
+    "move_3_2": "STEEL WING",
+    "move_4_2": "BOOMBURST",
+    "move_1_3": "FEATHERDANCE",
+    "move_2_3": "DUAL WINGBEAT",
+    "move_3_3": "REVENGE",
+    "move_4_3": "TAKE DOWN",
+    "move_1_4": "SKY DROP",
+    "move_2_4": "MORNING SUN",
+    "move_3_4": "FACADE",
+    "move_4_4": "LUCKY CHANT",
     "raw": null,
     "raw_species_id_0": 16,
     "raw_species_id_1": 163,
@@ -29961,6 +36111,22 @@ trainersById =
     "ability_name_2": "Mold Breaker",
     "nature_3": "Naive",
     "ability_name_3": "Solid Rock",
+    "move_1_0": "AQUA TAIL",
+    "move_2_0": "ROCK POLISH",
+    "move_3_0": "BARRAGE",
+    "move_4_0": "ROCK BLAST",
+    "move_1_1": "SYNTHESIS",
+    "move_2_1": "MIRROR COAT",
+    "move_3_1": "SCORCHING SANDS",
+    "move_4_1": "GASTRO ACID",
+    "move_1_2": "STONE EDGE",
+    "move_2_2": "ACCELEROCK",
+    "move_3_2": "DRAGON RUSH",
+    "move_4_2": "HEAD CHARGE",
+    "move_1_3": "RAIN DANCE",
+    "move_2_3": "DRAGON TAIL",
+    "move_3_3": "SOAK",
+    "move_4_3": "STONE EDGE",
     "raw": null,
     "raw_species_id_0": 140,
     "raw_species_id_1": 345,
@@ -30012,6 +36178,22 @@ trainersById =
     "ability_name_2": "Determined",
     "nature_3": "Gentle",
     "ability_name_3": "Unnerve",
+    "move_1_0": "ROCK POLISH",
+    "move_2_0": "ANCIENTPOWER",
+    "move_3_0": "MUDDY WATER",
+    "move_4_0": "TICKLE",
+    "move_1_1": "PROTECT",
+    "move_2_1": "CRUSH CLAW",
+    "move_3_1": "X-SCISSOR",
+    "move_4_1": "ROCK SLIDE",
+    "move_1_2": "SKULL BASH",
+    "move_2_2": "DRAGON TAIL",
+    "move_3_2": "HEAVY SLAM",
+    "move_4_2": "SCREECH",
+    "move_1_3": "TAILWIND",
+    "move_2_3": "DRILL PECK",
+    "move_3_3": "STONE EDGE",
+    "move_4_3": "WORK UP",
     "raw": null,
     "raw_species_id_0": 138,
     "raw_species_id_1": 347,
@@ -30072,6 +36254,26 @@ trainersById =
     "ability_name_3": "Pickpocket",
     "nature_4": "Modest",
     "ability_name_4": "Speed Boost",
+    "move_1_0": "1ST IMPRESSION",
+    "move_2_0": "HONE CLAWS",
+    "move_3_0": "MEGAHORN",
+    "move_4_0": "NEEDLE ARM",
+    "move_1_1": "INFESTATION",
+    "move_2_1": "HELPING HAND",
+    "move_3_1": "RAGE POWDER",
+    "move_4_1": "ELECTRO BALL",
+    "move_1_2": "HURRICANE",
+    "move_2_2": "SCORCHING SWARM",
+    "move_3_2": "BANEFUL BUNKER",
+    "move_4_2": "BODY PRESS",
+    "move_1_3": "MEGAHORN",
+    "move_2_3": "ACROBATICS",
+    "move_3_3": "RAGE POWDER",
+    "move_4_3": "ZEN HEADBUTT",
+    "move_1_4": "IRON DEFENSE",
+    "move_2_4": "OUTRAGE",
+    "move_3_4": "MEGAHORN",
+    "move_4_4": "BANEFUL BUNKER",
     "raw": null,
     "raw_species_id_0": 15,
     "raw_species_id_1": 313,
@@ -30132,6 +36334,26 @@ trainersById =
     "ability_name_3": "Battle Armor",
     "nature_4": "Gentle",
     "ability_name_4": "Overcoat",
+    "move_1_0": "QUIVER DANCE",
+    "move_2_0": "SCORCHING SWARM",
+    "move_3_0": "TAILWIND",
+    "move_4_0": "HURRICANE",
+    "move_1_1": "ATTACK ORDER",
+    "move_2_1": "HELPING HAND",
+    "move_3_1": "ATTRACT",
+    "move_4_1": "PLAY ROUGH",
+    "move_1_2": "MOONBLAST",
+    "move_2_2": "SCORCHING SWARM",
+    "move_3_2": "SUNNY DAY",
+    "move_4_2": "WEATHER BALL",
+    "move_1_3": "LEAF STORM",
+    "move_2_3": "INFESTATION",
+    "move_3_3": "RAGE POWDER",
+    "move_4_3": "ENERGY BALL",
+    "move_1_4": "FLAIL",
+    "move_2_4": "TWINEEDLE",
+    "move_3_4": "ENTRAINMENT",
+    "move_4_4": "LEAF BLADE",
     "raw": null,
     "raw_species_id_0": 12,
     "raw_species_id_1": 314,
@@ -30174,6 +36396,18 @@ trainersById =
     "ability_name_1": "Unnerve",
     "nature_2": "Gentle",
     "ability_name_2": "Chlorophyll",
+    "move_1_0": "SUCKER PUNCH",
+    "move_2_0": "FLING",
+    "move_3_0": "SLACK OFF",
+    "move_4_0": "HAMMER ARM",
+    "move_1_1": "JUMP KICK",
+    "move_2_1": "HAIL",
+    "move_3_1": "ZEN HEADBUTT",
+    "move_4_1": "SKILL SWAP",
+    "move_1_2": "SUNNY DAY",
+    "move_2_2": "SOLAR BLADE",
+    "move_3_2": "SNAP TRAP",
+    "move_4_2": "CROSS POISON",
     "raw": null,
     "raw_species_id_0": 288,
     "raw_species_id_1": 234,
@@ -30301,6 +36535,18 @@ trainersById =
     "ability_name_1": "Chlorophyll",
     "nature_2": "Naughty",
     "ability_name_2": "Distracting",
+    "move_1_0": "SUPERPOWER",
+    "move_2_0": "SPIN OUT",
+    "move_3_0": "METAL BURST",
+    "move_4_0": "LUNGE",
+    "move_1_1": "HOWL",
+    "move_2_1": "ESPER WING",
+    "move_3_1": "SOLARBEAM",
+    "move_4_1": "PSYCHIC",
+    "move_1_2": "DARK PULSE",
+    "move_2_2": "DRILL PECK",
+    "move_3_2": "TORMENT",
+    "move_4_2": "DUAL WINGBEAT",
     "raw": null,
     "raw_species_id_0": 632,
     "raw_species_id_1": 196,
@@ -30343,6 +36589,18 @@ trainersById =
     "ability_name_1": "Patient",
     "nature_2": "Gentle",
     "ability_name_2": "Levitate",
+    "move_1_0": "HONE CLAWS",
+    "move_2_0": "FIRE LASH",
+    "move_3_0": "IRON TAIL",
+    "move_4_0": "CROSS CHOP",
+    "move_1_1": "HOWL",
+    "move_2_1": "FOUL PLAY",
+    "move_3_1": "SMOG",
+    "move_4_1": "DARK PULSE",
+    "move_1_2": "MOONBLAST",
+    "move_2_2": "INFERNO",
+    "move_3_2": "PERISH SONG",
+    "move_4_2": "SHADOW BALL",
     "raw": null,
     "raw_species_id_0": 631,
     "raw_species_id_1": 197,
@@ -30456,6 +36714,18 @@ trainersById =
     "ability_name_1": "Intimidate",
     "nature_2": "Impish",
     "ability_name_2": "Shell Armor",
+    "move_1_0": "CLAMP",
+    "move_2_0": "LUNGE",
+    "move_3_0": "HAMMER ARM",
+    "move_4_0": "ENDURE",
+    "move_1_1": "SPIKY SHIELD",
+    "move_2_1": "POISON JAB",
+    "move_3_1": "TRIPLE DIVE",
+    "move_4_1": "REVERSAL",
+    "move_1_2": "STEAMROLLER",
+    "move_2_2": "ICE HAMMER",
+    "move_3_2": "PROTECT",
+    "move_4_2": "CLAMP",
     "raw": null,
     "raw_species_id_0": 98,
     "raw_species_id_1": 211,
@@ -30489,6 +36759,14 @@ trainersById =
     "name": "Wright",
     "nature_1": "Naive",
     "ability_name_1": "Speed Boost",
+    "move_1_0": "CRUNCH",
+    "move_2_0": "WATERFALL",
+    "move_3_0": "ENDURE",
+    "move_4_0": "ICE FANG",
+    "move_1_1": "WAVE CRASH",
+    "move_2_1": "CLOSE COMBAT",
+    "move_3_1": "DIVE",
+    "move_4_1": "FOCUS ENERGY",
     "raw": null,
     "raw_species_id_0": 318,
     "raw_species_id_1": 319,
@@ -30522,6 +36800,14 @@ trainersById =
     "name": "Jeffery",
     "nature_1": "Jolly",
     "ability_name_1": "Illumination",
+    "move_1_0": "MIRROR COAT",
+    "move_2_0": "HYDRO PUMP",
+    "move_3_0": "SUPERSONIC",
+    "move_4_0": "SEETHING COLD",
+    "move_1_1": "BULK UP",
+    "move_2_1": "RAIN DANCE",
+    "move_3_1": "WILD CHARGE",
+    "move_4_1": "AQUA TAIL",
     "raw": null,
     "raw_species_id_0": 72,
     "raw_species_id_1": 367,
@@ -30555,6 +36841,14 @@ trainersById =
     "name": "Ruth",
     "nature_1": "Naive",
     "ability_name_1": "Shell Armor",
+    "move_1_0": "SNORE",
+    "move_2_0": "SLEEP TALK",
+    "move_3_0": "REST",
+    "move_4_0": "PROTECT",
+    "move_1_1": "HYDRO PUMP",
+    "move_2_1": "ICICLE SPEAR",
+    "move_3_1": "BARRAGE",
+    "move_4_1": "AQUA RING",
     "raw": null,
     "raw_species_id_0": 366,
     "raw_species_id_1": 90,
@@ -30588,6 +36882,14 @@ trainersById =
     "name": "Dara",
     "nature_1": "Rash",
     "ability_name_1": "Shell Armor",
+    "move_1_0": "SOAK",
+    "move_2_0": "WHIRLPOOL",
+    "move_3_0": "VOLT SWITCH",
+    "move_4_0": "SPIT UP",
+    "move_1_1": "CALM MIND",
+    "move_2_1": "RAIN DANCE",
+    "move_3_1": "SLUDGE BOMB",
+    "move_4_1": "MUDDY WATER",
     "raw": null,
     "raw_species_id_0": 170,
     "raw_species_id_1": 368,
@@ -30630,6 +36932,18 @@ trainersById =
     "ability_name_1": "Shed Skin",
     "nature_2": "Hasty",
     "ability_name_2": "Rough Skin",
+    "move_1_0": "SLACK OFF",
+    "move_2_0": "HEAVY SLAM",
+    "move_3_0": "SANDSTORM",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "ROCK WRECKER",
+    "move_2_1": "SWORDS DANCE",
+    "move_3_1": "CRABHAMMER",
+    "move_4_1": "STONE EDGE",
+    "move_1_2": "EARTHQUAKE",
+    "move_2_2": "AVALANCHE",
+    "move_3_2": "SLACK OFF",
+    "move_4_2": "HEAVY SLAM",
     "raw": null,
     "raw_species_id_0": 449,
     "raw_species_id_1": 558,
@@ -30836,6 +37150,18 @@ trainersById =
     "ability_name_1": "Patient",
     "nature_2": "Quiet",
     "ability_name_2": "Intimidate",
+    "move_1_0": "FACADE",
+    "move_2_0": "BELLY DRUM",
+    "move_3_0": "REVENGE",
+    "move_4_0": "OBSTRUCT",
+    "move_1_1": "SUPERPOWER",
+    "move_2_1": "HEADLONG RUSH",
+    "move_3_1": "HELPING HAND",
+    "move_4_1": "REVENGE",
+    "move_1_2": "HELPING HAND",
+    "move_2_2": "STORM THROW",
+    "move_3_2": "ENDURE",
+    "move_4_2": "SUCKER PUNCH",
     "raw": null,
     "raw_species_id_0": 297,
     "raw_species_id_1": 538,
@@ -30878,6 +37204,18 @@ trainersById =
     "ability_name_1": "Sturdy",
     "nature_2": "Careful",
     "ability_name_2": "Huge Power",
+    "move_1_0": "CIRCLE THROW",
+    "move_2_0": "SPIRIT BREAK",
+    "move_3_0": "SOAK",
+    "move_4_0": "ICE HAMMER",
+    "move_1_1": "FACADE",
+    "move_2_1": "CLOSE COMBAT",
+    "move_3_1": "HELPING HAND",
+    "move_4_1": "LAST RESORT",
+    "move_1_2": "MEDITATE",
+    "move_2_2": "ZEN HEADBUTT",
+    "move_3_2": "ACUPRESSURE",
+    "move_4_2": "PSYCHIC",
     "raw": null,
     "raw_species_id_0": 62,
     "raw_species_id_1": 539,
@@ -30911,6 +37249,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Rash",
     "ability_name_1": "Illumination",
+    "move_1_0": "TOXIC",
+    "move_2_0": "SPIN OUT",
+    "move_3_0": "TWINEEDLE",
+    "move_4_0": "POISON JAB",
+    "move_1_1": "IRON TAIL",
+    "move_2_1": "GLARE",
+    "move_3_1": "PSYCHIC FANGS",
+    "move_4_1": "HELPING HAND",
     "raw": null,
     "raw_species_id_0": 544,
     "raw_species_id_1": 505,
@@ -30935,6 +37281,10 @@ trainersById =
     "ability_name_0": "Rough Skin",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "CROSS POISON",
+    "move_2_0": "HAMMER ARM",
+    "move_3_0": "DOUBLESLAP",
+    "move_4_0": "SPIT UP",
     "raw": null,
     "raw_species_id_0": 569,
     "raw_species_id_1": null,
@@ -30996,6 +37346,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Mild",
     "ability_name_1": "Adaptability",
+    "move_1_0": "CROSS CHOP",
+    "move_2_0": "GLARE",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "THUNDER FANG",
+    "move_1_1": "FLAIL",
+    "move_2_1": "DOUBLE-EDGE",
+    "move_3_1": "U-TURN",
+    "move_4_1": "SCARY FACE",
     "raw": null,
     "raw_species_id_0": 552,
     "raw_species_id_1": 20,
@@ -31038,6 +37396,18 @@ trainersById =
     "ability_name_1": "Regenerator",
     "nature_2": "Hardy",
     "ability_name_2": "Infiltrator",
+    "move_1_0": "ACUPRESSURE",
+    "move_2_0": "THUNDER FANG",
+    "move_3_0": "ICE FANG",
+    "move_4_0": "FIRE FANG",
+    "move_1_1": "INFESTATION",
+    "move_2_1": "SYNTHESIS",
+    "move_3_1": "GIGA DRAIN",
+    "move_4_1": "SMOG",
+    "move_1_2": "SLUDGE BOMB",
+    "move_2_2": "ROOST",
+    "move_3_2": "TOXIC",
+    "move_4_2": "SCREECH",
     "raw": null,
     "raw_species_id_0": 451,
     "raw_species_id_1": 590,
@@ -31062,6 +37432,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "CROSS CHOP",
+    "move_2_0": "GLARE",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "THUNDER FANG",
     "raw": null,
     "raw_species_id_0": 553,
     "raw_species_id_1": null,
@@ -31086,6 +37460,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "PARTING SHOT",
+    "move_2_0": "FOCUS PUNCH",
+    "move_3_0": "SWAGGER",
+    "move_4_0": "CRUNCH",
     "raw": null,
     "raw_species_id_0": 560,
     "raw_species_id_1": null,
@@ -31119,6 +37497,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Hardy",
     "ability_name_1": "Regenerator",
+    "move_1_0": "WILL-O-WISP",
+    "move_2_0": "LAVA PLUME",
+    "move_3_0": "SMOG",
+    "move_4_0": "GYRO BALL",
+    "move_1_1": "INFESTATION",
+    "move_2_1": "SYNTHESIS",
+    "move_3_1": "GIGA DRAIN",
+    "move_4_1": "SMOG",
     "raw": null,
     "raw_species_id_0": 109,
     "raw_species_id_1": 591,
@@ -31152,6 +37538,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Quirky",
     "ability_name_1": "Infiltrator",
+    "move_1_0": "TOXIC",
+    "move_2_0": "HEAVY SLAM",
+    "move_3_0": "FLING",
+    "move_4_0": "SWALLOW",
+    "move_1_1": "SLUDGE BOMB",
+    "move_2_1": "IRON TAIL",
+    "move_3_1": "AQUA TAIL",
+    "move_4_1": "SWAGGER",
     "raw": null,
     "raw_species_id_0": 88,
     "raw_species_id_1": 336,
@@ -31176,6 +37570,10 @@ trainersById =
     "ability_name_0": "Battle Armor",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "NEEDLE ARM",
+    "move_2_0": "ACUPRESSURE",
+    "move_3_0": "THUNDER FANG",
+    "move_4_0": "ICE FANG",
     "raw": null,
     "raw_species_id_0": 452,
     "raw_species_id_1": null,
@@ -31218,6 +37616,18 @@ trainersById =
     "ability_name_1": "Defiant",
     "nature_2": "Bold",
     "ability_name_2": "Defiant",
+    "move_1_0": "AUTOTOMIZE",
+    "move_2_0": "KNOCK OFF",
+    "move_3_0": "DUAL CHOP",
+    "move_4_0": "METAL CLAW",
+    "move_1_1": "AUTOTOMIZE",
+    "move_2_1": "KNOCK OFF",
+    "move_3_1": "DUAL CHOP",
+    "move_4_1": "METAL CLAW",
+    "move_1_2": "AUTOTOMIZE",
+    "move_2_2": "KNOCK OFF",
+    "move_3_2": "DUAL CHOP",
+    "move_4_2": "METAL CLAW",
     "raw": null,
     "raw_species_id_0": 624,
     "raw_species_id_1": 624,
@@ -31260,6 +37670,18 @@ trainersById =
     "ability_name_1": "Hustle",
     "nature_2": "Serious",
     "ability_name_2": "Skill Link",
+    "move_1_0": "SCREECH",
+    "move_2_0": "TRI ATTACK",
+    "move_3_0": "TEMPER FLARE",
+    "move_4_0": "TAUNT",
+    "move_1_1": "SCREECH",
+    "move_2_1": "TRI ATTACK",
+    "move_3_1": "TEMPER FLARE",
+    "move_4_1": "TAUNT",
+    "move_1_2": "RAZOR WINDS",
+    "move_2_2": "FLING",
+    "move_3_2": "SEETHING COLD",
+    "move_4_2": "NIGHT SLASH",
     "raw": null,
     "raw_species_id_0": 633,
     "raw_species_id_1": 633,
@@ -31284,6 +37706,10 @@ trainersById =
     "ability_name_0": "Speed Boost",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "CROSS POISON",
+    "move_2_0": "TOXIC",
+    "move_3_0": "SPIN OUT",
+    "move_4_0": "TWINEEDLE",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": null,
@@ -31317,6 +37743,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Timid",
     "ability_name_1": "Toxic Boost",
+    "move_1_0": "CROSS POISON",
+    "move_2_0": "HAMMER ARM",
+    "move_3_0": "DOUBLESLAP",
+    "move_4_0": "SPIT UP",
+    "move_1_1": "CRUSH CLAW",
+    "move_2_1": "DETECT",
+    "move_3_1": "COUNTER",
+    "move_4_1": "LUNGE",
     "raw": null,
     "raw_species_id_0": 568,
     "raw_species_id_1": 335,
@@ -31350,6 +37784,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Bashful",
     "ability_name_1": "Pickup",
+    "move_1_0": "PARTING SHOT",
+    "move_2_0": "FOCUS PUNCH",
+    "move_3_0": "SWAGGER",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "WICKED BLOW",
+    "move_2_1": "PLAY ROUGH",
+    "move_3_1": "ME FIRST",
+    "move_4_1": "FOUL PLAY",
     "raw": null,
     "raw_species_id_0": 559,
     "raw_species_id_1": 510,
@@ -31383,6 +37825,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Modest",
     "ability_name_1": "Illumination",
+    "move_1_0": "TOXIC",
+    "move_2_0": "SPIN OUT",
+    "move_3_0": "TWINEEDLE",
+    "move_4_0": "POISON JAB",
+    "move_1_1": "IRON TAIL",
+    "move_2_1": "GLARE",
+    "move_3_1": "PSYCHIC FANGS",
+    "move_4_1": "HELPING HAND",
     "raw": null,
     "raw_species_id_0": 544,
     "raw_species_id_1": 505,
@@ -31407,6 +37857,10 @@ trainersById =
     "ability_name_0": "Rough Skin",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "CROSS POISON",
+    "move_2_0": "HAMMER ARM",
+    "move_3_0": "DOUBLESLAP",
+    "move_4_0": "SPIT UP",
     "raw": null,
     "raw_species_id_0": 569,
     "raw_species_id_1": null,
@@ -31468,6 +37922,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Quirky",
     "ability_name_1": "Adaptability",
+    "move_1_0": "CROSS CHOP",
+    "move_2_0": "GLARE",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "THUNDER FANG",
+    "move_1_1": "FLAIL",
+    "move_2_1": "DOUBLE-EDGE",
+    "move_3_1": "U-TURN",
+    "move_4_1": "SCARY FACE",
     "raw": null,
     "raw_species_id_0": 552,
     "raw_species_id_1": 20,
@@ -31510,6 +37972,18 @@ trainersById =
     "ability_name_1": "Regenerator",
     "nature_2": "Relaxed",
     "ability_name_2": "Infiltrator",
+    "move_1_0": "ACUPRESSURE",
+    "move_2_0": "THUNDER FANG",
+    "move_3_0": "ICE FANG",
+    "move_4_0": "FIRE FANG",
+    "move_1_1": "INFESTATION",
+    "move_2_1": "SYNTHESIS",
+    "move_3_1": "GIGA DRAIN",
+    "move_4_1": "SMOG",
+    "move_1_2": "SLUDGE BOMB",
+    "move_2_2": "ROOST",
+    "move_3_2": "TOXIC",
+    "move_4_2": "SCREECH",
     "raw": null,
     "raw_species_id_0": 451,
     "raw_species_id_1": 590,
@@ -31534,6 +38008,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "CROSS CHOP",
+    "move_2_0": "GLARE",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "THUNDER FANG",
     "raw": null,
     "raw_species_id_0": 553,
     "raw_species_id_1": null,
@@ -31558,6 +38036,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "PARTING SHOT",
+    "move_2_0": "FOCUS PUNCH",
+    "move_3_0": "SWAGGER",
+    "move_4_0": "CRUNCH",
     "raw": null,
     "raw_species_id_0": 560,
     "raw_species_id_1": null,
@@ -31591,6 +38073,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Relaxed",
     "ability_name_1": "Regenerator",
+    "move_1_0": "WILL-O-WISP",
+    "move_2_0": "LAVA PLUME",
+    "move_3_0": "SMOG",
+    "move_4_0": "GYRO BALL",
+    "move_1_1": "INFESTATION",
+    "move_2_1": "SYNTHESIS",
+    "move_3_1": "GIGA DRAIN",
+    "move_4_1": "SMOG",
     "raw": null,
     "raw_species_id_0": 109,
     "raw_species_id_1": 591,
@@ -31624,6 +38114,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Calm",
     "ability_name_1": "Infiltrator",
+    "move_1_0": "TOXIC",
+    "move_2_0": "HEAVY SLAM",
+    "move_3_0": "FLING",
+    "move_4_0": "SWALLOW",
+    "move_1_1": "SLUDGE BOMB",
+    "move_2_1": "IRON TAIL",
+    "move_3_1": "AQUA TAIL",
+    "move_4_1": "SWAGGER",
     "raw": null,
     "raw_species_id_0": 88,
     "raw_species_id_1": 336,
@@ -31648,6 +38146,10 @@ trainersById =
     "ability_name_0": "Battle Armor",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "NEEDLE ARM",
+    "move_2_0": "ACUPRESSURE",
+    "move_3_0": "THUNDER FANG",
+    "move_4_0": "ICE FANG",
     "raw": null,
     "raw_species_id_0": 452,
     "raw_species_id_1": null,
@@ -31690,6 +38192,18 @@ trainersById =
     "ability_name_1": "Defiant",
     "nature_2": "Lax",
     "ability_name_2": "Defiant",
+    "move_1_0": "AUTOTOMIZE",
+    "move_2_0": "KNOCK OFF",
+    "move_3_0": "DUAL CHOP",
+    "move_4_0": "METAL CLAW",
+    "move_1_1": "AUTOTOMIZE",
+    "move_2_1": "KNOCK OFF",
+    "move_3_1": "DUAL CHOP",
+    "move_4_1": "METAL CLAW",
+    "move_1_2": "AUTOTOMIZE",
+    "move_2_2": "KNOCK OFF",
+    "move_3_2": "DUAL CHOP",
+    "move_4_2": "METAL CLAW",
     "raw": null,
     "raw_species_id_0": 624,
     "raw_species_id_1": 624,
@@ -31732,6 +38246,18 @@ trainersById =
     "ability_name_1": "Hustle",
     "nature_2": "Brave",
     "ability_name_2": "Skill Link",
+    "move_1_0": "SCREECH",
+    "move_2_0": "TRI ATTACK",
+    "move_3_0": "TEMPER FLARE",
+    "move_4_0": "TAUNT",
+    "move_1_1": "SCREECH",
+    "move_2_1": "TRI ATTACK",
+    "move_3_1": "TEMPER FLARE",
+    "move_4_1": "TAUNT",
+    "move_1_2": "RAZOR WINDS",
+    "move_2_2": "FLING",
+    "move_3_2": "SEETHING COLD",
+    "move_4_2": "NIGHT SLASH",
     "raw": null,
     "raw_species_id_0": 633,
     "raw_species_id_1": 633,
@@ -31756,6 +38282,10 @@ trainersById =
     "ability_name_0": "Speed Boost",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "CROSS POISON",
+    "move_2_0": "TOXIC",
+    "move_3_0": "SPIN OUT",
+    "move_4_0": "TWINEEDLE",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": null,
@@ -31789,6 +38319,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Naive",
     "ability_name_1": "Toxic Boost",
+    "move_1_0": "CROSS POISON",
+    "move_2_0": "HAMMER ARM",
+    "move_3_0": "DOUBLESLAP",
+    "move_4_0": "SPIT UP",
+    "move_1_1": "CRUSH CLAW",
+    "move_2_1": "DETECT",
+    "move_3_1": "COUNTER",
+    "move_4_1": "LUNGE",
     "raw": null,
     "raw_species_id_0": 568,
     "raw_species_id_1": 335,
@@ -32572,6 +39110,10 @@ trainersById =
     "ability_name_0": "Rivalry",
     "tr_sprite": "trainer_sprites/cyclist_f.png",
     "name": "Adelaide",
+    "move_1_0": "SWAGGER",
+    "move_2_0": "CRUSH CLAW",
+    "move_3_0": "BRICK BREAK",
+    "move_4_0": "WISH",
     "raw": null,
     "raw_species_id_0": 521,
     "raw_species_id_1": null,
@@ -32596,6 +39138,10 @@ trainersById =
     "ability_name_0": "Sap Sipper",
     "tr_sprite": "trainer_sprites/cyclist.png",
     "name": "Jeremiah",
+    "move_1_0": "AGILITY",
+    "move_2_0": "BOUNCE",
+    "move_3_0": "LUNGE",
+    "move_4_0": "ELECTRO BALL",
     "raw": null,
     "raw_species_id_0": 523,
     "raw_species_id_1": null,
@@ -32620,6 +39166,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Drago",
+    "move_1_0": "PARTING SHOT",
+    "move_2_0": "FOCUS PUNCH",
+    "move_3_0": "SWAGGER",
+    "move_4_0": "CRUNCH",
     "raw": null,
     "raw_species_id_0": 560,
     "raw_species_id_1": null,
@@ -32644,6 +39194,10 @@ trainersById =
     "ability_name_0": "Skill Link",
     "tr_sprite": "trainer_sprites/battlegirl.png",
     "name": "Tia",
+    "move_1_0": "HEAL ORDER",
+    "move_2_0": "BRICK BREAK",
+    "move_3_0": "PIN MISSILE",
+    "move_4_0": "NIGHT SLASH",
     "raw": null,
     "raw_species_id_0": 214,
     "raw_species_id_1": null,
@@ -32668,6 +39222,10 @@ trainersById =
     "ability_name_0": "Guts",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Rich",
+    "move_1_0": "FOCUS PUNCH",
+    "move_2_0": "SCARY FACE",
+    "move_3_0": "IRON HEAD",
+    "move_4_0": "DRAIN PUNCH",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": null,
@@ -32692,6 +39250,10 @@ trainersById =
     "ability_name_0": "Reckless",
     "tr_sprite": "trainer_sprites/battlegirl.png",
     "name": "Maki",
+    "move_1_0": "FOCUS ENERGY",
+    "move_2_0": "AURA SPHERE",
+    "move_3_0": "REFRESH",
+    "move_4_0": "JUMP KICK",
     "raw": null,
     "raw_species_id_0": 619,
     "raw_species_id_1": null,
@@ -32725,6 +39287,14 @@ trainersById =
     "name": "Johan",
     "nature_1": "Hardy",
     "ability_name_1": "Determined",
+    "move_1_0": "DOUBLE-EDGE",
+    "move_2_0": "WIDE GUARD",
+    "move_3_0": "DIG",
+    "move_4_0": "RAGE",
+    "move_1_1": "DRAGON PULSE",
+    "move_2_1": "FLASH CANNON",
+    "move_3_1": "IRON DEFENSE",
+    "move_4_1": "METAL BURST",
     "raw": null,
     "raw_species_id_0": 95,
     "raw_species_id_1": 305,
@@ -32758,6 +39328,14 @@ trainersById =
     "name": "Mikiko",
     "nature_1": "Calm",
     "ability_name_1": "Poison Heal",
+    "move_1_0": "DRAGON CLAW",
+    "move_2_0": "ENDURE",
+    "move_3_0": "SAND TOMB",
+    "move_4_0": "LUNGE",
+    "move_1_1": "ACROBATICS",
+    "move_2_1": "SCREECH",
+    "move_3_1": "ICE FANG",
+    "move_4_1": "THUNDER FANG",
     "raw": null,
     "raw_species_id_0": 329,
     "raw_species_id_1": 207,
@@ -32791,6 +39369,14 @@ trainersById =
     "name": "Don",
     "nature_1": "Jolly",
     "ability_name_1": "Levitate",
+    "move_1_0": "REST",
+    "move_2_0": "HIGH HORSEPOWER",
+    "move_3_0": "AVALANCHE",
+    "move_4_0": "CHARM",
+    "move_1_1": "GRAVITY",
+    "move_2_1": "FLASH CANNON",
+    "move_3_1": "DISCHARGE",
+    "move_4_1": "WIDE GUARD",
     "raw": null,
     "raw_species_id_0": 221,
     "raw_species_id_1": 476,
@@ -32824,6 +39410,14 @@ trainersById =
     "name": "Doug",
     "nature_1": "Relaxed",
     "ability_name_1": "Determined",
+    "move_1_0": "SELFDESTRUCT",
+    "move_2_0": "MORNING SUN",
+    "move_3_0": "SOLARBEAM",
+    "move_4_0": "MUD BOMB",
+    "move_1_1": "DRAGON RUSH",
+    "move_2_1": "IRON TAIL",
+    "move_3_1": "DRAGON PULSE",
+    "move_4_1": "FLASH CANNON",
     "raw": null,
     "raw_species_id_0": 525,
     "raw_species_id_1": 306,
@@ -32848,6 +39442,10 @@ trainersById =
     "ability_name_0": "Sturdy",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Luke",
+    "move_1_0": "DOUBLE-EDGE",
+    "move_2_0": "BULK UP",
+    "move_3_0": "ENDURE",
+    "move_4_0": "HAMMER ARM",
     "raw": null,
     "raw_species_id_0": 539,
     "raw_species_id_1": null,
@@ -32872,6 +39470,10 @@ trainersById =
     "ability_name_0": "Patient",
     "tr_sprite": "trainer_sprites/battlegirl.png",
     "name": "Brenda",
+    "move_1_0": "EARTHQUAKE",
+    "move_2_0": "CIRCLE THROW",
+    "move_3_0": "ENDURE",
+    "move_4_0": "CROSS CHOP",
     "raw": null,
     "raw_species_id_0": 538,
     "raw_species_id_1": null,
@@ -32905,6 +39507,14 @@ trainersById =
     "name": "Juliet",
     "nature_1": "Calm",
     "ability_name_1": "Keen Senses",
+    "move_1_0": "ICE BEAM",
+    "move_2_0": "AIR SLASH",
+    "move_3_0": "LUCKY CHANT",
+    "move_4_0": "MIRROR MOVE",
+    "move_1_1": "BUG BUZZ",
+    "move_2_1": "SLUDGE BOMB",
+    "move_3_1": "VOLT SWITCH",
+    "move_4_1": "DOUBLE TEAM",
     "raw": null,
     "raw_species_id_0": 581,
     "raw_species_id_1": 596,
@@ -32938,6 +39548,14 @@ trainersById =
     "name": "Grant",
     "nature_1": "Naive",
     "ability_name_1": "Water Absorb",
+    "move_1_0": "VOLT SWITCH",
+    "move_2_0": "DOUBLE TEAM",
+    "move_3_0": "EERIE IMPULSE",
+    "move_4_0": "ACROBATICS",
+    "move_1_1": "DESTINY BOND",
+    "move_2_1": "GIGA DRAIN",
+    "move_3_1": "MIST",
+    "move_4_1": "SEETHING COLD",
     "raw": null,
     "raw_species_id_0": 587,
     "raw_species_id_1": 593,
@@ -32971,6 +39589,14 @@ trainersById =
     "name": "Benjamin",
     "nature_1": "Quirky",
     "ability_name_1": "Intimidate",
+    "move_1_0": "STONE EDGE",
+    "move_2_0": "METEOR MASH",
+    "move_3_0": "FOCUS PUNCH",
+    "move_4_0": "SCARY FACE",
+    "move_1_1": "REST",
+    "move_2_1": "PARTING SHOT",
+    "move_3_1": "FOCUS PUNCH",
+    "move_4_1": "SWAGGER",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": 560,
@@ -33004,6 +39630,14 @@ trainersById =
     "name": "Tiffany",
     "nature_1": "Rash",
     "ability_name_1": "Reckless",
+    "move_1_0": "STONE EDGE",
+    "move_2_0": "METEOR MASH",
+    "move_3_0": "FOCUS PUNCH",
+    "move_4_0": "SCARY FACE",
+    "move_1_1": "DETECT",
+    "move_2_1": "IRON TAIL",
+    "move_3_1": "FOCUS ENERGY",
+    "move_4_1": "AURA SPHERE",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": 620,
@@ -33037,6 +39671,14 @@ trainersById =
     "name": "Lena",
     "nature_1": "Modest",
     "ability_name_1": "Trace",
+    "move_1_0": "DOUBLE HIT",
+    "move_2_0": "LIQUIDATION",
+    "move_3_0": "DUAL CHOP",
+    "move_4_0": "AGILITY",
+    "move_1_1": "AURA SPHERE",
+    "move_2_1": "SPIKE CANNON",
+    "move_3_1": "HELPING HAND",
+    "move_4_1": "EXTREMESPEED",
     "raw": null,
     "raw_species_id_0": 419,
     "raw_species_id_1": 448,
@@ -33070,6 +39712,14 @@ trainersById =
     "name": "Steve",
     "nature_1": "Modest",
     "ability_name_1": "Regenerator",
+    "move_1_0": "REFLECT TYPE",
+    "move_2_0": "EARTHQUAKE",
+    "move_3_0": "MUDDY WATER",
+    "move_4_0": "MUD BOMB",
+    "move_1_1": "RAGE POWDER",
+    "move_2_1": "SUCKER PUNCH",
+    "move_3_1": "INFESTATION",
+    "move_4_1": "SYNTHESIS",
     "raw": null,
     "raw_species_id_0": 618,
     "raw_species_id_1": 591,
@@ -33103,6 +39753,14 @@ trainersById =
     "name": "Tom",
     "nature_1": "Brave",
     "ability_name_1": "Thick Fat",
+    "move_1_0": "FOLLOW ME",
+    "move_2_0": "WILL-O-WISP",
+    "move_3_0": "LAVA PLUME",
+    "move_4_0": "SMOG",
+    "move_1_1": "BLIZZARD",
+    "move_2_1": "REST",
+    "move_3_1": "HIGH HORSEPOWER",
+    "move_4_1": "AVALANCHE",
     "raw": null,
     "raw_species_id_0": 126,
     "raw_species_id_1": 473,
@@ -33136,6 +39794,14 @@ trainersById =
     "name": "Miki",
     "nature_1": "Gentle",
     "ability_name_1": "Intimidate",
+    "move_1_0": "MEGAHORN",
+    "move_2_0": "BANEFUL BUNKER",
+    "move_3_0": "CROSS POISON",
+    "move_4_0": "TOXIC",
+    "move_1_1": "EXTREMESPEED",
+    "move_2_1": "HELPING HAND",
+    "move_3_1": "FLAMETHROWER",
+    "move_4_1": "TAKE DOWN",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": 59,
@@ -33466,6 +40132,14 @@ trainersById =
     "name": "Herman",
     "nature_1": "Serious",
     "ability_name_1": "Guts",
+    "move_1_0": "ENDURE",
+    "move_2_0": "EARTHQUAKE",
+    "move_3_0": "SANDSTORM",
+    "move_4_0": "IRON HEAD",
+    "move_1_1": "MACH PUNCH",
+    "move_2_1": "HELPING HAND",
+    "move_3_1": "DYNAMICPUNCH",
+    "move_4_1": "STONE EDGE",
     "raw": null,
     "raw_species_id_0": 50,
     "raw_species_id_1": 68,
@@ -34059,6 +40733,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Hasty",
     "ability_name_1": "Rough Skin",
+    "move_1_0": "IRON TAIL",
+    "move_2_0": "GLARE",
+    "move_3_0": "PSYCHIC FANGS",
+    "move_4_0": "HELPING HAND",
+    "move_1_1": "CROSS POISON",
+    "move_2_1": "HAMMER ARM",
+    "move_3_1": "DOUBLESLAP",
+    "move_4_1": "SPIT UP",
     "raw": null,
     "raw_species_id_0": 505,
     "raw_species_id_1": 569,
@@ -34442,6 +41124,18 @@ trainersById =
     "ability_name_1": "Determined",
     "nature_2": "Calm",
     "ability_name_2": "Sturdy",
+    "move_1_0": "IRON TAIL",
+    "move_2_0": "STONE EDGE",
+    "move_3_0": "DOUBLE-EDGE",
+    "move_4_0": "WIDE GUARD",
+    "move_1_1": "CURSE",
+    "move_2_1": "HEAD SMASH",
+    "move_3_1": "BODY PRESS",
+    "move_4_1": "ROLLOUT",
+    "move_1_2": "STONE EDGE",
+    "move_2_2": "IRON TAIL",
+    "move_3_2": "DOUBLE-EDGE",
+    "move_4_2": "WIDE GUARD",
     "raw": null,
     "raw_species_id_0": 95,
     "raw_species_id_1": 75,
@@ -34484,6 +41178,18 @@ trainersById =
     "ability_name_1": "Sand Force",
     "nature_2": "Rash",
     "ability_name_2": "Sturdy",
+    "move_1_0": "CURSE",
+    "move_2_0": "HEAD SMASH",
+    "move_3_0": "BODY PRESS",
+    "move_4_0": "ROLLOUT",
+    "move_1_1": "IRON TAIL",
+    "move_2_1": "STONE EDGE",
+    "move_3_1": "DOUBLE-EDGE",
+    "move_4_1": "WIDE GUARD",
+    "move_1_2": "CURSE",
+    "move_2_2": "HEAD SMASH",
+    "move_3_2": "BODY PRESS",
+    "move_4_2": "ROLLOUT",
     "raw": null,
     "raw_species_id_0": 75,
     "raw_species_id_1": 95,
@@ -34526,6 +41232,18 @@ trainersById =
     "ability_name_1": "Shed Skin",
     "nature_2": "Sassy",
     "ability_name_2": "Water Absorb",
+    "move_1_0": "STEAMROLLER",
+    "move_2_0": "HEAVY SLAM",
+    "move_3_0": "GRAVITY",
+    "move_4_0": "PIN MISSILE",
+    "move_1_1": "ROCK WRECKER",
+    "move_2_1": "SWORDS DANCE",
+    "move_3_1": "CRABHAMMER",
+    "move_4_1": "STONE EDGE",
+    "move_1_2": "POWER WHIP",
+    "move_2_2": "STONE EDGE",
+    "move_3_2": "AQUA TAIL",
+    "move_4_2": "PROTECT",
     "raw": null,
     "raw_species_id_0": 205,
     "raw_species_id_1": 558,
@@ -34568,6 +41286,18 @@ trainersById =
     "ability_name_1": "Levitate",
     "nature_2": "Serious",
     "ability_name_2": "Storm Drain",
+    "move_1_0": "KNOCK OFF",
+    "move_2_0": "POWER WHIP",
+    "move_3_0": "FLASH CANNON",
+    "move_4_0": "LEECH SEED",
+    "move_1_1": "IRON TAIL",
+    "move_2_1": "SUCKER PUNCH",
+    "move_3_1": "SNAP TRAP",
+    "move_4_1": "SLEEP POWDER",
+    "move_1_2": "BARRIER",
+    "move_2_2": "RECOVER",
+    "move_3_2": "SPIT UP",
+    "move_4_2": "ENERGY BALL",
     "raw": null,
     "raw_species_id_0": 598,
     "raw_species_id_1": 455,
@@ -34800,6 +41530,14 @@ trainersById =
     "name": "Kiyo",
     "nature_1": "Naive",
     "ability_name_1": "Keen Senses",
+    "move_1_0": "SCREECH",
+    "move_2_0": "DUAL WINGBEAT",
+    "move_3_0": "GIGA DRAIN",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "ACROBATICS",
+    "move_2_1": "STEEL WING",
+    "move_3_1": "FEATHERDANCE",
+    "move_4_1": "FREEZE-DRY",
     "raw": null,
     "raw_species_id_0": 42,
     "raw_species_id_1": 581,
@@ -34833,6 +41571,14 @@ trainersById =
     "name": "Kumiko",
     "nature_1": "Naive",
     "ability_name_1": "Sheer Force",
+    "move_1_0": "SCREECH",
+    "move_2_0": "DUAL WINGBEAT",
+    "move_3_0": "GIGA DRAIN",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "PSYCHIC FANGS",
+    "move_2_1": "ROCK SLIDE",
+    "move_3_1": "YAWN",
+    "move_4_1": "THRASH",
     "raw": null,
     "raw_species_id_0": 42,
     "raw_species_id_1": 555,
@@ -34866,6 +41612,14 @@ trainersById =
     "name": "Lewis",
     "nature_1": "Impish",
     "ability_name_1": "Hustle",
+    "move_1_0": "HELPING HAND",
+    "move_2_0": "BIND",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "HYPER FANG",
+    "move_1_1": "SKILL SWAP",
+    "move_2_1": "FOUL PLAY",
+    "move_3_1": "DIZZY PUNCH",
+    "move_4_1": "FAINT ATTACK",
     "raw": null,
     "raw_species_id_0": 505,
     "raw_species_id_1": 326,
@@ -34899,6 +41653,14 @@ trainersById =
     "name": "Lewis",
     "nature_1": "Careful",
     "ability_name_1": "Sheer Force",
+    "move_1_0": "HELPING HAND",
+    "move_2_0": "BIND",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "HYPER FANG",
+    "move_1_1": "GROWTH",
+    "move_2_1": "MUD BOMB",
+    "move_3_1": "LAVA PLUME",
+    "move_4_1": "AMNESIA",
     "raw": null,
     "raw_species_id_0": 505,
     "raw_species_id_1": 323,
@@ -34932,6 +41694,14 @@ trainersById =
     "name": "Eliza",
     "nature_1": "Impish",
     "ability_name_1": "Swift Swim",
+    "move_1_0": "RETALIATE",
+    "move_2_0": "SHADOW CLAW",
+    "move_3_0": "TEMPER FLARE",
+    "move_4_0": "SHADOW BALL",
+    "move_1_1": "ZEN HEADBUTT",
+    "move_2_1": "HEART SWAP",
+    "move_3_1": "AQUA TAIL",
+    "move_4_1": "DETECT",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 55,
@@ -34965,6 +41735,14 @@ trainersById =
     "name": "Eliza",
     "nature_1": "Mild",
     "ability_name_1": "Intimidate",
+    "move_1_0": "THUNDER FANG",
+    "move_2_0": "FIRE FANG",
+    "move_3_0": "DIG",
+    "move_4_0": "COUNTER",
+    "move_1_1": "TAKE DOWN",
+    "move_2_1": "CRUNCH",
+    "move_3_1": "ENDURE",
+    "move_4_1": "FIRE FANG",
     "raw": null,
     "raw_species_id_0": 552,
     "raw_species_id_1": 59,
@@ -34998,6 +41776,14 @@ trainersById =
     "name": "Ray",
     "nature_1": "Relaxed",
     "ability_name_1": "Sheer Force",
+    "move_1_0": "LUNGE",
+    "move_2_0": "TWISTER",
+    "move_3_0": "AIR SLASH",
+    "move_4_0": "SUPERSONIC",
+    "move_1_1": "HEAVY SLAM",
+    "move_2_1": "GROWTH",
+    "move_3_1": "MUD BOMB",
+    "move_4_1": "LAVA PLUME",
     "raw": null,
     "raw_species_id_0": 329,
     "raw_species_id_1": 323,
@@ -35031,6 +41817,14 @@ trainersById =
     "name": "Cora",
     "nature_1": "Lonely",
     "ability_name_1": "Flare Boost",
+    "move_1_0": "SKILL SWAP",
+    "move_2_0": "FOUL PLAY",
+    "move_3_0": "DIZZY PUNCH",
+    "move_4_0": "FAINT ATTACK",
+    "move_1_1": "DISABLE",
+    "move_2_1": "SEETHING COLD",
+    "move_3_1": "HYPNOSIS",
+    "move_4_1": "OMINOUS WIND",
     "raw": null,
     "raw_species_id_0": 326,
     "raw_species_id_1": 426,
@@ -35064,6 +41858,14 @@ trainersById =
     "name": "Jared",
     "nature_1": "Rash",
     "ability_name_1": "Mold Breaker",
+    "move_1_0": "IRON DEFENSE",
+    "move_2_0": "PARABOLIC ZAP",
+    "move_3_0": "GRAVITY",
+    "move_4_0": "SCORCHING SANDS",
+    "move_1_1": "X-SCISSOR",
+    "move_2_1": "DIG",
+    "move_3_1": "METAL CLAW",
+    "move_4_1": "ENDURE",
     "raw": null,
     "raw_species_id_0": 525,
     "raw_species_id_1": 530,
@@ -35097,6 +41899,14 @@ trainersById =
     "name": "Markus",
     "nature_1": "Bashful",
     "ability_name_1": "Shed Skin",
+    "move_1_0": "IRON HEAD",
+    "move_2_0": "DRAIN PUNCH",
+    "move_3_0": "ROCK TOMB",
+    "move_4_0": "COUNTER",
+    "move_1_1": "X-SCISSOR",
+    "move_2_1": "ROCK SLIDE",
+    "move_3_1": "NIGHT SLASH",
+    "move_4_1": "RECYCLE",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": 558,
@@ -35139,6 +41949,18 @@ trainersById =
     "ability_name_1": "Intimidate",
     "nature_2": "Bashful",
     "ability_name_2": "Intimidate",
+    "move_1_0": "IRON HEAD",
+    "move_2_0": "DRAIN PUNCH",
+    "move_3_0": "ROCK TOMB",
+    "move_4_0": "COUNTER",
+    "move_1_1": "ROCK CLIMB",
+    "move_2_1": "DRAIN PUNCH",
+    "move_3_1": "TOXIC",
+    "move_4_1": "FACADE",
+    "move_1_2": "ROCK CLIMB",
+    "move_2_2": "DRAIN PUNCH",
+    "move_3_2": "TOXIC",
+    "move_4_2": "FACADE",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": 559,
@@ -35181,6 +42003,18 @@ trainersById =
     "ability_name_1": "Guts",
     "nature_2": "Lonely",
     "ability_name_2": "Prankster",
+    "move_1_0": "BULLET PUNCH",
+    "move_2_0": "COMET PUNCH",
+    "move_3_0": "METAL CLAW",
+    "move_4_0": "HEAL PULSE",
+    "move_1_1": "IRON HEAD",
+    "move_2_1": "DRAIN PUNCH",
+    "move_3_1": "ROCK TOMB",
+    "move_4_1": "COUNTER",
+    "move_1_2": "BULLET PUNCH",
+    "move_2_2": "COMET PUNCH",
+    "move_3_2": "METAL CLAW",
+    "move_4_2": "HEAL PULSE",
     "raw": null,
     "raw_species_id_0": 447,
     "raw_species_id_1": 533,
@@ -35223,6 +42057,18 @@ trainersById =
     "ability_name_1": "Sturdy",
     "nature_2": "Hardy",
     "ability_name_2": "Mold Breaker",
+    "move_1_0": "SOLARBEAM",
+    "move_2_0": "MUD BOMB",
+    "move_3_0": "ANCIENTPOWER",
+    "move_4_0": "IRON DEFENSE",
+    "move_1_1": "CURSE",
+    "move_2_1": "HEAD SMASH",
+    "move_3_1": "BODY PRESS",
+    "move_4_1": "ROLLOUT",
+    "move_1_2": "EARTHQUAKE",
+    "move_2_2": "SPIN OUT",
+    "move_3_2": "IRON DEFENSE",
+    "move_4_2": "IRON HEAD",
     "raw": null,
     "raw_species_id_0": 524,
     "raw_species_id_1": 75,
@@ -35265,6 +42111,18 @@ trainersById =
     "ability_name_1": "Sturdy",
     "nature_2": "Mild",
     "ability_name_2": "Sturdy",
+    "move_1_0": "BODY PRESS",
+    "move_2_0": "ROLLOUT",
+    "move_3_0": "REST",
+    "move_4_0": "DRILL RUN",
+    "move_1_1": "SELFDESTRUCT",
+    "move_2_1": "MORNING SUN",
+    "move_3_1": "SOLARBEAM",
+    "move_4_1": "MUD BOMB",
+    "move_1_2": "STONE EDGE",
+    "move_2_2": "IRON TAIL",
+    "move_3_2": "DOUBLE-EDGE",
+    "move_4_2": "WIDE GUARD",
     "raw": null,
     "raw_species_id_0": 74,
     "raw_species_id_1": 525,
@@ -35369,6 +42227,14 @@ trainersById =
     "name": "Patton",
     "nature_1": "Lonely",
     "ability_name_1": "Ice Body",
+    "move_1_0": "MACH PUNCH",
+    "move_2_0": "HELPING HAND",
+    "move_3_0": "DYNAMICPUNCH",
+    "move_4_0": "STONE EDGE",
+    "move_1_1": "ICE HAMMER",
+    "move_2_1": "SWAGGER",
+    "move_3_1": "WOOD HAMMER",
+    "move_4_1": "SPIKY SHIELD",
     "raw": null,
     "raw_species_id_0": 67,
     "raw_species_id_1": 460,
@@ -35411,6 +42277,18 @@ trainersById =
     "ability_name_1": "Magic Guard",
     "nature_2": "Relaxed",
     "ability_name_2": "Levitate",
+    "move_1_0": "PSYCHIC NOISE",
+    "move_2_0": "PERISH SONG",
+    "move_3_0": "ICE BEAM",
+    "move_4_0": "FLATTER",
+    "move_1_1": "AURA SPHERE",
+    "move_2_1": "PSYCHO SHIFT",
+    "move_3_1": "PSYCHIC",
+    "move_4_1": "THUNDERBOLT",
+    "move_1_2": "SAND TOMB",
+    "move_2_2": "SANDSTORM",
+    "move_3_2": "EARTH POWER",
+    "move_4_2": "LUCKY CHANT",
     "raw": null,
     "raw_species_id_0": 238,
     "raw_species_id_1": 64,
@@ -35444,6 +42322,14 @@ trainersById =
     "name": "Hunter",
     "nature_1": "Bold",
     "ability_name_1": "Levitate",
+    "move_1_0": "CRUNCH",
+    "move_2_0": "DRILL RUN",
+    "move_3_0": "ROCK CLIMB",
+    "move_4_0": "SCARY FACE",
+    "move_1_1": "VOLT SWITCH",
+    "move_2_1": "DIAMOND STORM",
+    "move_3_1": "GRAVITY",
+    "move_4_1": "FLASH CANNON",
     "raw": null,
     "raw_species_id_0": 246,
     "raw_species_id_1": 476,
@@ -35477,6 +42363,14 @@ trainersById =
     "name": "Wade",
     "nature_1": "Quiet",
     "ability_name_1": "Thick Fat",
+    "move_1_0": "EARTHQUAKE",
+    "move_2_0": "REST",
+    "move_3_0": "SLEEP TALK",
+    "move_4_0": "STONE EDGE",
+    "move_1_1": "DOUBLE-EDGE",
+    "move_2_1": "ICICLE CRASH",
+    "move_3_1": "BLIZZARD",
+    "move_4_1": "REST",
     "raw": null,
     "raw_species_id_0": 622,
     "raw_species_id_1": 473,
@@ -35913,6 +42807,10 @@ trainersById =
     "ability_name_0": "Sap Sipper",
     "tr_sprite": "trainer_sprites/guitarist.png",
     "name": "Beverly",
+    "move_1_0": "BOUNCE",
+    "move_2_0": "LUNGE",
+    "move_3_0": "ELECTRO BALL",
+    "move_4_0": "THRASH",
     "raw": null,
     "raw_species_id_0": 523,
     "raw_species_id_1": null,
@@ -36017,6 +42915,14 @@ trainersById =
     "name": "Jeremy",
     "nature_1": "Hasty",
     "ability_name_1": "Sturdy",
+    "move_1_0": "ROCK SLIDE",
+    "move_2_0": "ICE FANG",
+    "move_3_0": "FIRE FANG",
+    "move_4_0": "THUNDER FANG",
+    "move_1_1": "PARABOLIC ZAP",
+    "move_2_1": "GRAVITY",
+    "move_3_1": "SCORCHING SANDS",
+    "move_4_1": "POWER GEM",
     "raw": null,
     "raw_species_id_0": 95,
     "raw_species_id_1": 525,
@@ -36414,6 +43320,18 @@ trainersById =
     "ability_name_1": "Rivalry",
     "nature_2": "Relaxed",
     "ability_name_2": "Light Metal",
+    "move_1_0": "DIG",
+    "move_2_0": "IRON DEFENSE",
+    "move_3_0": "CHIP AWAY",
+    "move_4_0": "DEFENSE CURL",
+    "move_1_1": "CRUSH CLAW",
+    "move_2_1": "BRICK BREAK",
+    "move_3_1": "WISH",
+    "move_4_1": "DETECT",
+    "move_1_2": "RECYCLE",
+    "move_2_2": "IRON HEAD",
+    "move_3_2": "RAPID SPIN",
+    "move_4_2": "ZING ZAP",
     "raw": null,
     "raw_species_id_0": 28,
     "raw_species_id_1": 521,
@@ -37283,6 +44201,14 @@ trainersById =
     "name": "Wes",
     "nature_1": "Jolly",
     "ability_name_1": "Infiltrator",
+    "move_1_0": "THUNDER FANG",
+    "move_2_0": "ICE FANG",
+    "move_3_0": "FIRE FANG",
+    "move_4_0": "KNOCK OFF",
+    "move_1_1": "THUNDER FANG",
+    "move_2_1": "ICE FANG",
+    "move_3_1": "FIRE FANG",
+    "move_4_1": "SEETHING COLD",
     "raw": null,
     "raw_species_id_0": 451,
     "raw_species_id_1": 336,
@@ -37316,6 +44242,14 @@ trainersById =
     "name": "Rae & Ula",
     "nature_1": "Rash",
     "ability_name_1": "Natural Cure",
+    "move_1_0": "TWISTER",
+    "move_2_0": "WEATHER BALL",
+    "move_3_0": "FEATHERDANCE",
+    "move_4_0": "DRAINING KISS",
+    "move_1_1": "TWISTER",
+    "move_2_1": "WEATHER BALL",
+    "move_3_1": "FEATHERDANCE",
+    "move_4_1": "DRAINING KISS",
     "raw": null,
     "raw_species_id_0": 333,
     "raw_species_id_1": 333,
@@ -37952,6 +44886,18 @@ trainersById =
     "ability_name_1": "Dry Skin",
     "nature_2": "Naughty",
     "ability_name_2": "Storm Drain",
+    "move_1_0": "SLUDGE WAVE",
+    "move_2_0": "RAIN DANCE",
+    "move_3_0": "POWER WHIP",
+    "move_4_0": "TOXIC",
+    "move_1_1": "CROSS POISON",
+    "move_2_1": "CROSS CHOP",
+    "move_3_1": "KNOCK OFF",
+    "move_4_1": "SWAGGER",
+    "move_1_2": "WATER SPOUT",
+    "move_2_2": "ICE BEAM",
+    "move_3_2": "MUDDY WATER",
+    "move_4_2": "WISH",
     "raw": null,
     "raw_species_id_0": 536,
     "raw_species_id_1": 453,
@@ -37994,6 +44940,18 @@ trainersById =
     "ability_name_1": "Gooey",
     "nature_2": "Gentle",
     "ability_name_2": "Storm Drain",
+    "move_1_0": "DETECT",
+    "move_2_0": "MUD BOMB",
+    "move_3_0": "TAUNT",
+    "move_4_0": "MUDDY WATER",
+    "move_1_1": "DIAMOND STORM",
+    "move_2_1": "POISON GAS",
+    "move_3_1": "RECOVER",
+    "move_4_1": "HEAT WAVE",
+    "move_1_2": "MIRROR COAT",
+    "move_2_2": "COUNTER",
+    "move_3_2": "SCALD",
+    "move_4_2": "RECOVER",
     "raw": null,
     "raw_species_id_0": 616,
     "raw_species_id_1": 218,
@@ -38144,6 +45102,18 @@ trainersById =
     "ability_name_1": "Dry Skin",
     "nature_2": "Adamant",
     "ability_name_2": "Adaptability",
+    "move_1_0": "FUTURE SIGHT",
+    "move_2_0": "WATERFALL",
+    "move_3_0": "BODY SLAM",
+    "move_4_0": "STOCKPILE",
+    "move_1_1": "WILD CHARGE",
+    "move_2_1": "REFLECT TYPE",
+    "move_3_1": "EARTHQUAKE",
+    "move_4_1": "MUDDY WATER",
+    "move_1_2": "AQUA TAIL",
+    "move_2_2": "SLEEP TALK",
+    "move_3_2": "SNORE",
+    "move_4_2": "REST",
     "raw": null,
     "raw_species_id_0": 339,
     "raw_species_id_1": 618,
@@ -38186,6 +45156,18 @@ trainersById =
     "ability_name_1": "Water Absorb",
     "nature_2": "Hardy",
     "ability_name_2": "Dry Skin",
+    "move_1_0": "KNOCK OFF",
+    "move_2_0": "SWITCHEROO",
+    "move_3_0": "LUNGE",
+    "move_4_0": "PROTECT",
+    "move_1_1": "DOUBLESLAP",
+    "move_2_1": "DRAIN PUNCH",
+    "move_3_1": "BUBBLEBEAM",
+    "move_4_1": "MIST",
+    "move_1_2": "WILD CHARGE",
+    "move_2_2": "REFLECT TYPE",
+    "move_3_2": "EARTHQUAKE",
+    "move_4_2": "MUDDY WATER",
     "raw": null,
     "raw_species_id_0": 341,
     "raw_species_id_1": 60,
@@ -38228,6 +45210,18 @@ trainersById =
     "ability_name_1": "Adaptability",
     "nature_2": "Naughty",
     "ability_name_2": "Distracting",
+    "move_1_0": "ICE HAMMER",
+    "move_2_0": "AQUA RING",
+    "move_3_0": "WATERFALL",
+    "move_4_0": "PSYCHO SHIFT",
+    "move_1_1": "AQUA TAIL",
+    "move_2_1": "SLEEP TALK",
+    "move_3_1": "SNORE",
+    "move_4_1": "REST",
+    "move_1_2": "HYDRO PUMP",
+    "move_2_2": "FOCUS BLAST",
+    "move_3_2": "SOAK",
+    "move_4_2": "ICE BEAM",
     "raw": null,
     "raw_species_id_0": 61,
     "raw_species_id_1": 340,
@@ -38270,6 +45264,18 @@ trainersById =
     "ability_name_1": "Levitate",
     "nature_2": "Mild",
     "ability_name_2": "Flare Boost",
+    "move_1_0": "MEGAHORN",
+    "move_2_0": "SWORDS DANCE",
+    "move_3_0": "LUNGE",
+    "move_4_0": "IRON HEAD",
+    "move_1_1": "IRON TAIL",
+    "move_2_1": "SUCKER PUNCH",
+    "move_3_1": "SNAP TRAP",
+    "move_4_1": "SLEEP POWDER",
+    "move_1_2": "DARK PULSE",
+    "move_2_2": "SPIT UP",
+    "move_3_2": "RECYCLE",
+    "move_4_2": "FLAMETHROWER",
     "raw": null,
     "raw_species_id_0": 589,
     "raw_species_id_1": 455,
@@ -38312,6 +45318,18 @@ trainersById =
     "ability_name_1": "Adaptability",
     "nature_2": "Quirky",
     "ability_name_2": "Gooey",
+    "move_1_0": "ME FIRST",
+    "move_2_0": "BUG BUZZ",
+    "move_3_0": "DARK PULSE",
+    "move_4_0": "DETECT",
+    "move_1_1": "RECOVER",
+    "move_2_1": "FAKE OUT",
+    "move_3_1": "DRAGON CLAW",
+    "move_4_1": "FOUL PLAY",
+    "move_1_2": "SPIT UP",
+    "move_2_2": "CURSE",
+    "move_3_2": "BODY PRESS",
+    "move_4_2": "EARTHQUAKE",
     "raw": null,
     "raw_species_id_0": 617,
     "raw_species_id_1": 352,
@@ -38367,6 +45385,22 @@ trainersById =
     "ability_name_2": "Sturdy",
     "nature_3": "Serious",
     "ability_name_3": "Sturdy",
+    "move_1_0": "MUD BOMB",
+    "move_2_0": "ANCIENTPOWER",
+    "move_3_0": "IRON DEFENSE",
+    "move_4_0": "PARABOLIC ZAP",
+    "move_1_1": "MUD BOMB",
+    "move_2_1": "ANCIENTPOWER",
+    "move_3_1": "IRON DEFENSE",
+    "move_4_1": "PARABOLIC ZAP",
+    "move_1_2": "MUD BOMB",
+    "move_2_2": "ANCIENTPOWER",
+    "move_3_2": "IRON DEFENSE",
+    "move_4_2": "PARABOLIC ZAP",
+    "move_1_3": "MUD BOMB",
+    "move_2_3": "ANCIENTPOWER",
+    "move_3_3": "IRON DEFENSE",
+    "move_4_3": "PARABOLIC ZAP",
     "raw": null,
     "raw_species_id_0": 524,
     "raw_species_id_1": 524,
@@ -38391,6 +45425,9 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/colress.png",
     "name": "Colress",
+    "move_1_0": "SAND ATTACK",
+    "move_2_0": "LEER",
+    "move_3_0": "TACKLE",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -38631,6 +45668,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Calm",
     "ability_name_1": "Strong Body",
+    "move_1_0": "GLARE",
+    "move_2_0": "PSYCHIC FANGS",
+    "move_3_0": "HELPING HAND",
+    "move_4_0": "BIND",
+    "move_1_1": "TOXIC",
+    "move_2_1": "HEAVY SLAM",
+    "move_3_1": "FLING",
+    "move_4_1": "SWALLOW",
     "raw": null,
     "raw_species_id_0": 505,
     "raw_species_id_1": 89,
@@ -38664,6 +45709,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Modest",
     "ability_name_1": "Levitate",
+    "move_1_0": "IRON TAIL",
+    "move_2_0": "AQUA TAIL",
+    "move_3_0": "SWAGGER",
+    "move_4_0": "THUNDER FANG",
+    "move_1_1": "LAVA PLUME",
+    "move_2_1": "SMOG",
+    "move_3_1": "GYRO BALL",
+    "move_4_1": "TOXIC",
     "raw": null,
     "raw_species_id_0": 336,
     "raw_species_id_1": 110,
@@ -38697,6 +45750,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Gentle",
     "ability_name_1": "Rough Skin",
+    "move_1_0": "ROOST",
+    "move_2_0": "TOXIC",
+    "move_3_0": "SCREECH",
+    "move_4_0": "DUAL WINGBEAT",
+    "move_1_1": "HAMMER ARM",
+    "move_2_1": "DOUBLESLAP",
+    "move_3_1": "SPIT UP",
+    "move_4_1": "SWALLOW",
     "raw": null,
     "raw_species_id_0": 42,
     "raw_species_id_1": 569,
@@ -39993,6 +47054,10 @@ trainersById =
     "ability_name_0": "Majestic Ward",
     "tr_sprite": "trainer_sprites/backpacker_f.png",
     "name": "Mae",
+    "move_1_0": "SOLAR BLADE",
+    "move_2_0": "SUNNY DAY",
+    "move_3_0": "PETAL BLIZZARD",
+    "move_4_0": "BOUNCE",
     "raw": null,
     "raw_species_id_0": 586,
     "raw_species_id_1": null,
@@ -40099,6 +47164,9 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/nodata.png",
     "name": "    ",
+    "move_1_0": "SAND ATTACK",
+    "move_2_0": "LEER",
+    "move_3_0": "TACKLE",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -40123,6 +47191,9 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/nodata.png",
     "name": "    ",
+    "move_1_0": "SAND ATTACK",
+    "move_2_0": "LEER",
+    "move_3_0": "TACKLE",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -40147,6 +47218,9 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/nodata.png",
     "name": "    ",
+    "move_1_0": "SAND ATTACK",
+    "move_2_0": "LEER",
+    "move_3_0": "TACKLE",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -40171,6 +47245,9 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/nodata.png",
     "name": "    ",
+    "move_1_0": "SAND ATTACK",
+    "move_2_0": "LEER",
+    "move_3_0": "TACKLE",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -40195,6 +47272,9 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/nodata.png",
     "name": "    ",
+    "move_1_0": "SAND ATTACK",
+    "move_2_0": "LEER",
+    "move_3_0": "TACKLE",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -40299,6 +47379,14 @@ trainersById =
     "name": "Abe",
     "nature_1": "Impish",
     "ability_name_1": "Illumination",
+    "move_1_0": "TAUNT",
+    "move_2_0": "NATURAL GIFT",
+    "move_3_0": "PLUCK",
+    "move_4_0": "HYPNOSIS",
+    "move_1_1": "HYPNOSIS",
+    "move_2_1": "SCREECH",
+    "move_3_1": "HEADBUTT",
+    "move_4_1": "BITE",
     "raw": null,
     "raw_species_id_0": 519,
     "raw_species_id_1": 504,
@@ -40332,6 +47420,14 @@ trainersById =
     "name": "Chaz",
     "nature_1": "Mild",
     "ability_name_1": "Swift Swim",
+    "move_1_0": "PROTECT",
+    "move_2_0": "POISON TAIL",
+    "move_3_0": "BUG BITE",
+    "move_4_0": "DEFENSE CURL",
+    "move_1_1": "AQUA JET",
+    "move_2_1": "CHILLING WATER",
+    "move_3_1": "CLEAR SMOG",
+    "move_4_1": "DISABLE",
     "raw": null,
     "raw_species_id_0": 543,
     "raw_species_id_1": 54,
@@ -40365,6 +47461,14 @@ trainersById =
     "name": "Mariana",
     "nature_1": "Bold",
     "ability_name_1": "Adaptability",
+    "move_1_0": "GYRO BALL",
+    "move_2_0": "THUNDER WAVE",
+    "move_3_0": "MAGNET RISE",
+    "move_4_0": "METAL SOUND",
+    "move_1_1": "BITTER MALICE",
+    "move_2_1": "CHILLING WATER",
+    "move_3_1": "AQUA JET",
+    "move_4_1": "BITE",
     "raw": null,
     "raw_species_id_0": 81,
     "raw_species_id_1": 550,
@@ -40398,6 +47502,14 @@ trainersById =
     "name": "Henry",
     "nature_1": "Naughty",
     "ability_name_1": "Huge Power",
+    "move_1_0": "HELPING HAND",
+    "move_2_0": "COVET",
+    "move_3_0": "HEADBUTT",
+    "move_4_0": "SAND ATTACK",
+    "move_1_1": "TICKLE",
+    "move_2_1": "ICY WIND",
+    "move_3_1": "CHILLING WATER",
+    "move_4_1": "HEART STAMP",
     "raw": null,
     "raw_species_id_0": 507,
     "raw_species_id_1": 183,
@@ -40431,6 +47543,14 @@ trainersById =
     "name": "Sibyl",
     "nature_1": "Brave",
     "ability_name_1": "Overcoat",
+    "move_1_0": "VENOSHOCK",
+    "move_2_0": "SYNTHESIS",
+    "move_3_0": "MEGA DRAIN",
+    "move_4_0": "ACID SPRAY",
+    "move_1_1": "NATURAL GIFT",
+    "move_2_1": "ELECTROWEB",
+    "move_3_1": "RAZOR LEAF",
+    "move_4_1": "GRASSWHISTLE",
     "raw": null,
     "raw_species_id_0": 406,
     "raw_species_id_1": 540,
@@ -40464,6 +47584,14 @@ trainersById =
     "name": "Brad",
     "nature_1": "Naive",
     "ability_name_1": "Infiltrator",
+    "move_1_0": "HYPNOSIS",
+    "move_2_0": "SCREECH",
+    "move_3_0": "HEADBUTT",
+    "move_4_0": "BITE",
+    "move_1_1": "POISON FANG",
+    "move_2_1": "CONFUSE RAY",
+    "move_3_1": "WING ATTACK",
+    "move_4_1": "BITE",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": 41,
@@ -40497,6 +47625,14 @@ trainersById =
     "name": "Elizandra",
     "nature_1": "Calm",
     "ability_name_1": "Adaptability",
+    "move_1_0": "DISARMING VOICE",
+    "move_2_0": "PARTING SHOT",
+    "move_3_0": "TORMENT",
+    "move_4_0": "FAKE OUT",
+    "move_1_1": "SWIFT",
+    "move_2_1": "QUICK ATTACK",
+    "move_3_1": "BITE",
+    "move_4_1": "CHARM",
     "raw": null,
     "raw_species_id_0": 509,
     "raw_species_id_1": 133,
@@ -40521,6 +47657,10 @@ trainersById =
     "ability_name_0": "Pickup",
     "tr_sprite": "trainer_sprites/socialite.png",
     "name": "Cassandra",
+    "move_1_0": "DISARMING VOICE",
+    "move_2_0": "PARTING SHOT",
+    "move_3_0": "TORMENT",
+    "move_4_0": "FAKE OUT",
     "raw": null,
     "raw_species_id_0": 509,
     "raw_species_id_1": null,
@@ -40545,6 +47685,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/gentleman.png",
     "name": "Robert",
+    "move_1_0": "COVET",
+    "move_2_0": "HEADBUTT",
+    "move_3_0": "SAND ATTACK",
+    "move_4_0": "BITE",
     "raw": null,
     "raw_species_id_0": 506,
     "raw_species_id_1": null,
@@ -40569,6 +47713,10 @@ trainersById =
     "ability_name_0": "Static",
     "tr_sprite": "trainer_sprites/maid.png",
     "name": "Tanya",
+    "move_1_0": "THUNDER WAVE",
+    "move_2_0": "QUICK ATTACK",
+    "move_3_0": "CHARGE",
+    "move_4_0": "LOW KICK",
     "raw": null,
     "raw_species_id_0": 239,
     "raw_species_id_1": null,
@@ -40821,6 +47969,18 @@ trainersById =
     "ability_name_1": "Hustle",
     "nature_2": "Impish",
     "ability_name_2": "Gooey",
+    "move_1_0": "COIL",
+    "move_2_0": "GIGA IMPACT",
+    "move_3_0": "LAST RESORT",
+    "move_4_0": "REVERSAL",
+    "move_1_1": "SUPERPOWER",
+    "move_2_1": "ROOST",
+    "move_3_1": "SKY DROP",
+    "move_4_1": "CRUSH CLAW",
+    "move_1_2": "SLUDGE WAVE",
+    "move_2_2": "RAIN DANCE",
+    "move_3_2": "POWER WHIP",
+    "move_4_2": "TOXIC",
     "raw": null,
     "raw_species_id_0": 162,
     "raw_species_id_1": 628,
@@ -40863,6 +48023,18 @@ trainersById =
     "ability_name_1": "Overcoat",
     "nature_2": "Adamant",
     "ability_name_2": "Dry Skin",
+    "move_1_0": "FLAIL",
+    "move_2_0": "1ST IMPRESSION",
+    "move_3_0": "EXTREMESPEED",
+    "move_4_0": "CRUSH CLAW",
+    "move_1_1": "SKY DROP",
+    "move_2_1": "TOXIC",
+    "move_3_1": "KNOCK OFF",
+    "move_4_1": "STEEL WING",
+    "move_1_2": "CROSS POISON",
+    "move_2_2": "CROSS CHOP",
+    "move_3_2": "KNOCK OFF",
+    "move_4_2": "SWAGGER",
     "raw": null,
     "raw_species_id_0": 264,
     "raw_species_id_1": 630,
@@ -40905,6 +48077,18 @@ trainersById =
     "ability_name_1": "Thick Fat",
     "nature_2": "Naughty",
     "ability_name_2": "Intimidate",
+    "move_1_0": "MACH PUNCH",
+    "move_2_0": "BULLET PUNCH",
+    "move_3_0": "BRUTAL SWING",
+    "move_4_0": "DETECT",
+    "move_1_1": "KNOCK OFF",
+    "move_2_1": "REVERSAL",
+    "move_3_1": "FOCUS PUNCH",
+    "move_4_1": "LUCKY CHANT",
+    "move_1_2": "HI JUMP KICK",
+    "move_2_2": "PAYBACK",
+    "move_3_2": "REST",
+    "move_4_2": "PARTING SHOT",
     "raw": null,
     "raw_species_id_0": 236,
     "raw_species_id_1": 296,
@@ -40947,6 +48131,18 @@ trainersById =
     "ability_name_1": "Guts",
     "nature_2": "Hasty",
     "ability_name_2": "Water Absorb",
+    "move_1_0": "MACH PUNCH",
+    "move_2_0": "BULLET PUNCH",
+    "move_3_0": "BRUTAL SWING",
+    "move_4_0": "DETECT",
+    "move_1_1": "STONE EDGE",
+    "move_2_1": "TAUNT",
+    "move_3_1": "CROSS CHOP",
+    "move_4_1": "FACADE",
+    "move_1_2": "CIRCLE THROW",
+    "move_2_2": "SPIRIT BREAK",
+    "move_3_2": "SOAK",
+    "move_4_2": "ICE HAMMER",
     "raw": null,
     "raw_species_id_0": 236,
     "raw_species_id_1": 66,
@@ -40989,6 +48185,18 @@ trainersById =
     "ability_name_1": "Hyper Cutter",
     "nature_2": "Bashful",
     "ability_name_2": "Flash Fire",
+    "move_1_0": "ZING ZAP",
+    "move_2_0": "HELPING HAND",
+    "move_3_0": "SWITCHEROO",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "SACRED SWORD",
+    "move_2_1": "ROOST",
+    "move_3_1": "DRILL PECK",
+    "move_4_1": "AIR SLASH",
+    "move_1_2": "PLAY ROUGH",
+    "move_2_2": "HIGH HORSEPOWER",
+    "move_3_2": "DOUBLE-EDGE",
+    "move_4_2": "BLAZE KICK",
     "raw": null,
     "raw_species_id_0": 309,
     "raw_species_id_1": 83,
@@ -41031,6 +48239,18 @@ trainersById =
     "ability_name_1": "Intimidate",
     "nature_2": "Gentle",
     "ability_name_2": "Guts",
+    "move_1_0": "SUNNY DAY",
+    "move_2_0": "SOLAR BLADE",
+    "move_3_0": "SNAP TRAP",
+    "move_4_0": "CROSS POISON",
+    "move_1_1": "HOWL",
+    "move_2_1": "ZING ZAP",
+    "move_3_1": "EERIE IMPULSE",
+    "move_4_1": "PSYCHIC FANGS",
+    "move_1_2": "PLAY ROUGH",
+    "move_2_2": "DOUBLE-EDGE",
+    "move_3_2": "SLEEP TALK",
+    "move_4_2": "REST",
     "raw": null,
     "raw_species_id_0": 70,
     "raw_species_id_1": 405,
@@ -41073,6 +48293,18 @@ trainersById =
     "ability_name_1": "Amplifier",
     "nature_2": "Modest",
     "ability_name_2": "Sap Sipper",
+    "move_1_0": "BELLY DRUM",
+    "move_2_0": "BODY SLAM",
+    "move_3_0": "DEVOUR",
+    "move_4_0": "GASTRO ACID",
+    "move_1_1": "SCORCHING SWARM",
+    "move_2_1": "ALLURING VOICE",
+    "move_3_1": "PERISH SONG",
+    "move_4_1": "SLASH",
+    "move_1_2": "NIGHT DAZE",
+    "move_2_2": "ME FIRST",
+    "move_3_2": "HIGH HORSEPOWER",
+    "move_4_2": "CRUNCH",
     "raw": null,
     "raw_species_id_0": 446,
     "raw_species_id_1": 402,
@@ -41115,6 +48347,18 @@ trainersById =
     "ability_name_1": "Chlorophyll",
     "nature_2": "Naughty",
     "ability_name_2": "Fluffy",
+    "move_1_0": "SUCKER PUNCH",
+    "move_2_0": "HAMMER ARM",
+    "move_3_0": "ROCK CLIMB",
+    "move_4_0": "DOUBLE-EDGE",
+    "move_1_1": "LUCKY CHANT",
+    "move_2_1": "SOLARBEAM",
+    "move_3_1": "DAZZLING GLEAM",
+    "move_4_1": "MOONLIGHT",
+    "move_1_2": "ICE HAMMER",
+    "move_2_2": "LIQUIDATION",
+    "move_3_2": "SLEEP TALK",
+    "move_4_2": "REST",
     "raw": null,
     "raw_species_id_0": 185,
     "raw_species_id_1": 44,
@@ -41332,6 +48576,18 @@ trainersById =
     "ability_name_1": "Run Away",
     "nature_2": "Adamant",
     "ability_name_2": "Intimidate",
+    "move_1_0": "EARTHQUAKE",
+    "move_2_0": "SPIN OUT",
+    "move_3_0": "CHARM",
+    "move_4_0": "PLAY ROUGH",
+    "move_1_1": "HIGH HORSEPOWER",
+    "move_2_1": "ACUPRESSURE",
+    "move_3_1": "DRILL PECK",
+    "move_4_1": "JUMP KICK",
+    "move_1_2": "TAILWIND",
+    "move_2_2": "BRAVE BIRD",
+    "move_3_2": "DETECT",
+    "move_4_2": "DRILL PECK",
     "raw": null,
     "raw_species_id_0": 231,
     "raw_species_id_1": 84,
@@ -41365,6 +48621,14 @@ trainersById =
     "name": "Ethel",
     "nature_1": "Hasty",
     "ability_name_1": "Healer",
+    "move_1_0": "SOLARBEAM",
+    "move_2_0": "PROTECT",
+    "move_3_0": "PSYCHIC NOISE",
+    "move_4_0": "ANCIENTPOWER",
+    "move_1_1": "HEADLONG RUSH",
+    "move_2_1": "HEAL BELL",
+    "move_3_1": "PLAY ROUGH",
+    "move_4_1": "HIGH HORSEPOWER",
     "raw": null,
     "raw_species_id_0": 102,
     "raw_species_id_1": 241,
@@ -41398,6 +48662,14 @@ trainersById =
     "name": "Jojo",
     "nature_1": "Rash",
     "ability_name_1": "Gooey",
+    "move_1_0": "EARTHQUAKE",
+    "move_2_0": "YAWN",
+    "move_3_0": "RECOVER",
+    "move_4_0": "WATERFALL",
+    "move_1_1": "MUD BOMB",
+    "move_2_1": "MUDDY WATER",
+    "move_3_1": "POISON JAB",
+    "move_4_1": "GASTRO ACID",
     "raw": null,
     "raw_species_id_0": 194,
     "raw_species_id_1": 535,
@@ -41440,6 +48712,18 @@ trainersById =
     "ability_name_1": "Dry Skin",
     "nature_2": "Modest",
     "ability_name_2": "Technician",
+    "move_1_0": "HIDDEN POWER",
+    "move_2_0": "FLAIL",
+    "move_3_0": "STRUGGLE BUG",
+    "move_4_0": "ELECTROWEB",
+    "move_1_1": "GASTRO ACID",
+    "move_2_1": "LEECH LIFE",
+    "move_3_1": "AROMATHERAPY",
+    "move_4_1": "SEED BOMB",
+    "move_1_2": "ENDURE",
+    "move_2_2": "DUAL WINGBEAT",
+    "move_3_2": "LUNGE",
+    "move_4_2": "COUNTER",
     "raw": null,
     "raw_species_id_0": 412,
     "raw_species_id_1": 46,
@@ -41482,6 +48766,18 @@ trainersById =
     "ability_name_1": "Sheer Force",
     "nature_2": "Serious",
     "ability_name_2": "Rough Skin",
+    "move_1_0": "DRAGON RUSH",
+    "move_2_0": "GIGA IMPACT",
+    "move_3_0": "SAFEGUARD",
+    "move_4_0": "AQUA TAIL",
+    "move_1_1": "DEVOUR",
+    "move_2_1": "FLAMETHROWER",
+    "move_3_1": "BODY SLAM",
+    "move_4_1": "PROTECT",
+    "move_1_2": "DIG",
+    "move_2_2": "FIRE FANG",
+    "move_3_2": "CRUNCH",
+    "move_4_2": "DEVOUR",
     "raw": null,
     "raw_species_id_0": 147,
     "raw_species_id_1": 371,
@@ -41515,6 +48811,14 @@ trainersById =
     "name": "Ally & Amy",
     "nature_1": "Relaxed",
     "ability_name_1": "Motor Drive",
+    "move_1_0": "THUNDER",
+    "move_2_0": "SEARING SHOT",
+    "move_3_0": "ENCORE",
+    "move_4_0": "LUCKY CHANT",
+    "move_1_1": "THUNDER",
+    "move_2_1": "PRESENT",
+    "move_3_1": "ENCORE",
+    "move_4_1": "LUCKY CHANT",
     "raw": null,
     "raw_species_id_0": 311,
     "raw_species_id_1": 312,
@@ -41557,6 +48861,18 @@ trainersById =
     "ability_name_1": "Berserk",
     "nature_2": "Serious",
     "ability_name_2": "Intimidate",
+    "move_1_0": "HOWL",
+    "move_2_0": "ROAR",
+    "move_3_0": "EXTREMESPEED",
+    "move_4_0": "HELPING HAND",
+    "move_1_1": "SUCKER PUNCH",
+    "move_2_1": "FIRE LASH",
+    "move_3_1": "WILL-O-WISP",
+    "move_4_1": "CRUNCH",
+    "move_1_2": "SUPERPOWER",
+    "move_2_2": "HEADLONG RUSH",
+    "move_3_2": "DOUBLE-EDGE",
+    "move_4_2": "HOWL",
     "raw": null,
     "raw_species_id_0": 58,
     "raw_species_id_1": 228,
@@ -41599,6 +48915,18 @@ trainersById =
     "ability_name_1": "Majestic Ward",
     "nature_2": "Quirky",
     "ability_name_2": "Pickup",
+    "move_1_0": "SLASH",
+    "move_2_0": "CAPTIVATE",
+    "move_3_0": "PLAY ROUGH",
+    "move_4_0": "SCREECH",
+    "move_1_1": "SUCKER PUNCH",
+    "move_2_1": "SLASH",
+    "move_3_1": "U-TURN",
+    "move_4_1": "HYPNOSIS",
+    "move_1_2": "NASTY PLOT",
+    "move_2_2": "WICKED BLOW",
+    "move_3_2": "PLAY ROUGH",
+    "move_4_2": "ME FIRST",
     "raw": null,
     "raw_species_id_0": 52,
     "raw_species_id_1": 431,
@@ -41641,6 +48969,18 @@ trainersById =
     "ability_name_1": "Rough Skin",
     "nature_2": "Lax",
     "ability_name_2": "Patient",
+    "move_1_0": "SPIT UP",
+    "move_2_0": "CURSE",
+    "move_3_0": "BODY PRESS",
+    "move_4_0": "EARTHQUAKE",
+    "move_1_1": "CURSE",
+    "move_2_1": "HEAVY SLAM",
+    "move_3_1": "FLING",
+    "move_4_1": "CROSS POISON",
+    "move_1_2": "METAL BURST",
+    "move_2_2": "FLASH CANNON",
+    "move_3_2": "DISCHARGE",
+    "move_4_2": "TECHNO BLAST",
     "raw": null,
     "raw_species_id_0": 316,
     "raw_species_id_1": 569,
@@ -41683,6 +49023,18 @@ trainersById =
     "ability_name_1": "Water Absorb",
     "nature_2": "Hardy",
     "ability_name_2": "Dry Skin",
+    "move_1_0": "LEAF TORNADO",
+    "move_2_0": "TORMENT",
+    "move_3_0": "FAKE OUT",
+    "move_4_0": "SYNTHESIS",
+    "move_1_1": "PHANTOM STRIKE",
+    "move_2_1": "NEEDLE ARM",
+    "move_3_1": "SUCKER PUNCH",
+    "move_4_1": "SPIKY SHIELD",
+    "move_1_2": "CROSS POISON",
+    "move_2_2": "CROSS CHOP",
+    "move_3_2": "KNOCK OFF",
+    "move_4_2": "SWAGGER",
     "raw": null,
     "raw_species_id_0": 273,
     "raw_species_id_1": 331,
@@ -41725,6 +49077,18 @@ trainersById =
     "ability_name_1": "Battle Armor",
     "nature_2": "Serious",
     "ability_name_2": "Shell Armor",
+    "move_1_0": "HOWL",
+    "move_2_0": "PSYCHIC FANGS",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "SWAGGER",
+    "move_1_1": "PHANTOM STRIKE",
+    "move_2_1": "BONEMERANG",
+    "move_3_1": "DOUBLE-EDGE",
+    "move_4_1": "HEART SWAP",
+    "move_1_2": "ERUPTION",
+    "move_2_2": "HEAT WAVE",
+    "move_3_2": "PROTECT",
+    "move_4_2": "CURSE",
     "raw": null,
     "raw_species_id_0": 261,
     "raw_species_id_1": 104,
@@ -41872,6 +49236,9 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/nurseryaide.png",
     "name": "Naoise",
+    "move_1_0": "SAND ATTACK",
+    "move_2_0": "LEER",
+    "move_3_0": "TACKLE",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -41896,6 +49263,9 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/gentleman.png",
     "name": "Rich",
+    "move_1_0": "SAND ATTACK",
+    "move_2_0": "LEER",
+    "move_3_0": "TACKLE",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -41920,6 +49290,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/backpacker.png",
     "name": "Walt",
+    "move_1_0": "BULLDOZE",
+    "move_2_0": "SCALE SHOT",
+    "move_3_0": "POWER TRIP",
+    "move_4_0": "STOMP",
     "raw": null,
     "raw_species_id_0": 551,
     "raw_species_id_1": null,
@@ -42448,6 +49822,10 @@ trainersById =
     "ability_name_0": "Keen Senses",
     "tr_sprite": "trainer_sprites/doctor.png",
     "name": "Derek",
+    "move_1_0": "BARRIER",
+    "move_2_0": "FAIRY WIND",
+    "move_3_0": "DUAL WINGBEAT",
+    "move_4_0": "ESPER WING",
     "raw": null,
     "raw_species_id_0": 528,
     "raw_species_id_1": null,
@@ -42472,6 +49850,10 @@ trainersById =
     "ability_name_0": "Overcoat",
     "tr_sprite": "trainer_sprites/nurse.png",
     "name": "Dixie",
+    "move_1_0": "LEAF STORM",
+    "move_2_0": "SLASH",
+    "move_3_0": "REFLECT TYPE",
+    "move_4_0": "SKITTER SMACK",
     "raw": null,
     "raw_species_id_0": 542,
     "raw_species_id_1": null,
@@ -42514,6 +49896,18 @@ trainersById =
     "ability_name_1": "Solid Rock",
     "nature_2": "Hardy",
     "ability_name_2": "Battle Armor",
+    "move_1_0": "EARTHQUAKE",
+    "move_2_0": "AVALANCHE",
+    "move_3_0": "SLACK OFF",
+    "move_4_0": "HEAVY SLAM",
+    "move_1_1": "MEGAHORN",
+    "move_2_1": "STONE EDGE",
+    "move_3_1": "DOUBLE-EDGE",
+    "move_4_1": "DRAGON TAIL",
+    "move_1_2": "PERISH SONG",
+    "move_2_2": "PHANTOM STRIKE",
+    "move_3_2": "BONEMERANG",
+    "move_4_2": "DOUBLE-EDGE",
     "raw": null,
     "raw_species_id_0": 450,
     "raw_species_id_1": 112,
@@ -42556,6 +49950,18 @@ trainersById =
     "ability_name_1": "Reckless",
     "nature_2": "Lax",
     "ability_name_2": "Reckless",
+    "move_1_0": "MEDITATE",
+    "move_2_0": "ZEN HEADBUTT",
+    "move_3_0": "ACUPRESSURE",
+    "move_4_0": "PSYCHIC",
+    "move_1_1": "HELPING HAND",
+    "move_2_1": "JUMP KICK",
+    "move_3_1": "ENDURE",
+    "move_4_1": "SUCKER PUNCH",
+    "move_1_2": "SPIRIT BREAK",
+    "move_2_2": "FOCUS BLAST",
+    "move_3_2": "DETECT",
+    "move_4_2": "IRON TAIL",
     "raw": null,
     "raw_species_id_0": 308,
     "raw_species_id_1": 106,
@@ -42598,6 +50004,18 @@ trainersById =
     "ability_name_1": "Iron Fist",
     "nature_2": "Hasty",
     "ability_name_2": "Intimidate",
+    "move_1_0": "REVERSAL",
+    "move_2_0": "HEAD SMASH",
+    "move_3_0": "MEDITATE",
+    "move_4_0": "CLOSE COMBAT",
+    "move_1_1": "ENDURE",
+    "move_2_1": "SUCKER PUNCH",
+    "move_3_1": "BLOCK",
+    "move_4_1": "FOCUS PUNCH",
+    "move_1_2": "HI JUMP KICK",
+    "move_2_2": "PAYBACK",
+    "move_3_2": "REST",
+    "move_4_2": "PARTING SHOT",
     "raw": null,
     "raw_species_id_0": 57,
     "raw_species_id_1": 107,
@@ -42640,6 +50058,18 @@ trainersById =
     "ability_name_1": "Intimidate",
     "nature_2": "Hardy",
     "ability_name_2": "Guts",
+    "move_1_0": "HEADLONG RUSH",
+    "move_2_0": "HELPING HAND",
+    "move_3_0": "REVENGE",
+    "move_4_0": "EARTHQUAKE",
+    "move_1_1": "HELPING HAND",
+    "move_2_1": "STORM THROW",
+    "move_3_1": "ENDURE",
+    "move_4_1": "SUCKER PUNCH",
+    "move_1_2": "MACH PUNCH",
+    "move_2_2": "HELPING HAND",
+    "move_3_2": "DYNAMICPUNCH",
+    "move_4_2": "STONE EDGE",
     "raw": null,
     "raw_species_id_0": 538,
     "raw_species_id_1": 237,
@@ -42682,6 +50112,18 @@ trainersById =
     "ability_name_1": "Technician",
     "nature_2": "Calm",
     "ability_name_2": "Guts",
+    "move_1_0": "CLOSE COMBAT",
+    "move_2_0": "HELPING HAND",
+    "move_3_0": "LAST RESORT",
+    "move_4_0": "DOUBLE-EDGE",
+    "move_1_1": "CHARM",
+    "move_2_1": "TOXIC",
+    "move_3_1": "HAMMER ARM",
+    "move_4_1": "RAGE POWDER",
+    "move_1_2": "HAMMER ARM",
+    "move_2_2": "STONE EDGE",
+    "move_3_2": "METEOR MASH",
+    "move_4_2": "FOCUS PUNCH",
     "raw": null,
     "raw_species_id_0": 539,
     "raw_species_id_1": 286,
@@ -44171,6 +51613,8 @@ trainersById =
     "ability_name_0": "Mold Breaker",
     "tr_sprite": "trainer_sprites/lass.png",
     "name": "Diana",
+    "move_1_0": "DEFENSE CURL",
+    "move_2_0": "HEAD SMASH",
     "raw": null,
     "raw_species_id_0": 530,
     "raw_species_id_1": null,
@@ -44270,6 +51714,18 @@ trainersById =
     "ability_name_1": "Torrent",
     "nature_2": "Calm",
     "ability_name_2": "Rivalry",
+    "move_1_0": "HAMMER ARM",
+    "move_2_0": "HIGH HORSEPOWER",
+    "move_3_0": "HEAT CRASH",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "TORMENT",
+    "move_2_1": "AQUA TAIL",
+    "move_3_1": "HYPER VOICE",
+    "move_4_1": "ACROBATICS",
+    "move_1_2": "ACROBATICS",
+    "move_2_2": "SWAGGER",
+    "move_3_2": "CRUSH CLAW",
+    "move_4_2": "BRICK BREAK",
     "raw": null,
     "raw_species_id_0": 500,
     "raw_species_id_1": 516,
@@ -44315,6 +51771,18 @@ trainersById =
     "ability_name_1": "Overgrow",
     "nature_2": "Rash",
     "ability_name_2": "Rivalry",
+    "move_1_0": "HELPING HAND",
+    "move_2_0": "ENCORE",
+    "move_3_0": "SACRED SWORD",
+    "move_4_0": "TRIPLE DIVE",
+    "move_1_1": "TORMENT",
+    "move_2_1": "ENERGY BALL",
+    "move_3_1": "HYPER VOICE",
+    "move_4_1": "ACROBATICS",
+    "move_1_2": "ACROBATICS",
+    "move_2_2": "SWAGGER",
+    "move_3_2": "CRUSH CLAW",
+    "move_4_2": "BRICK BREAK",
     "raw": null,
     "raw_species_id_0": 503,
     "raw_species_id_1": 512,
@@ -44360,6 +51828,18 @@ trainersById =
     "ability_name_1": "Blaze",
     "nature_2": "Rash",
     "ability_name_2": "Rivalry",
+    "move_1_0": "SEETHING COLD",
+    "move_2_0": "CAPTIVATE",
+    "move_3_0": "PARABOLIC ZAP",
+    "move_4_0": "TWISTER",
+    "move_1_1": "TORMENT",
+    "move_2_1": "FLAMETHROWER",
+    "move_3_1": "HYPER VOICE",
+    "move_4_1": "ACROBATICS",
+    "move_1_2": "ACROBATICS",
+    "move_2_2": "SWAGGER",
+    "move_3_2": "CRUSH CLAW",
+    "move_4_2": "BRICK BREAK",
     "raw": null,
     "raw_species_id_0": 497,
     "raw_species_id_1": 514,
@@ -44393,6 +51873,14 @@ trainersById =
     "name": "Zinzolin",
     "nature_1": "Timid",
     "ability_name_1": "Skill Link",
+    "move_1_0": "FROST BREATH",
+    "move_2_0": "LIGHT SCREEN",
+    "move_3_0": "REFLECT",
+    "move_4_0": "DAZZLING GLEAM",
+    "move_1_1": "FLING",
+    "move_2_1": "SEETHING COLD",
+    "move_3_1": "NIGHT SLASH",
+    "move_4_1": "SWITCHEROO",
     "raw": null,
     "raw_species_id_0": 615,
     "raw_species_id_1": 215,
@@ -44426,6 +51914,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Sassy",
     "ability_name_1": "Rough Skin",
+    "move_1_0": "TOXIC",
+    "move_2_0": "SCREECH",
+    "move_3_0": "DUAL WINGBEAT",
+    "move_4_0": "GIGA DRAIN",
+    "move_1_1": "DOUBLESLAP",
+    "move_2_1": "SPIT UP",
+    "move_3_1": "SWALLOW",
+    "move_4_1": "STOCKPILE",
     "raw": null,
     "raw_species_id_0": 42,
     "raw_species_id_1": 569,
@@ -45026,6 +52522,10 @@ trainersById =
     "ability_name_0": "Prankster",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Rodrigo",
+    "move_1_0": "AGILITY",
+    "move_2_0": "METAL SOUND",
+    "move_3_0": "VACUUM WAVE",
+    "move_4_0": "COPYCAT",
     "raw": null,
     "raw_species_id_0": 447,
     "raw_species_id_1": null,
@@ -45050,6 +52550,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Gordon",
+    "move_1_0": "BEAT UP",
+    "move_2_0": "HEADBUTT",
+    "move_3_0": "SCARY FACE",
+    "move_4_0": "POWER TRIP",
     "raw": null,
     "raw_species_id_0": 559,
     "raw_species_id_1": null,
@@ -45074,6 +52578,10 @@ trainersById =
     "ability_name_0": "Guts",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Andrey",
+    "move_1_0": "MACH PUNCH",
+    "move_2_0": "ROCK BLAST",
+    "move_3_0": "LOW SWEEP",
+    "move_4_0": "LEER",
     "raw": null,
     "raw_species_id_0": 532,
     "raw_species_id_1": null,
@@ -45098,6 +52606,10 @@ trainersById =
     "ability_name_0": "Prankster",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Grigor",
+    "move_1_0": "AGILITY",
+    "move_2_0": "METAL SOUND",
+    "move_3_0": "VACUUM WAVE",
+    "move_4_0": "COPYCAT",
     "raw": null,
     "raw_species_id_0": 447,
     "raw_species_id_1": null,
@@ -45122,6 +52634,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Donny",
+    "move_1_0": "BEAT UP",
+    "move_2_0": "HEADBUTT",
+    "move_3_0": "SCARY FACE",
+    "move_4_0": "POWER TRIP",
     "raw": null,
     "raw_species_id_0": 559,
     "raw_species_id_1": null,
@@ -45146,6 +52662,10 @@ trainersById =
     "ability_name_0": "Guts",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Mathis",
+    "move_1_0": "MACH PUNCH",
+    "move_2_0": "ROCK BLAST",
+    "move_3_0": "LOW SWEEP",
+    "move_4_0": "LEER",
     "raw": null,
     "raw_species_id_0": 532,
     "raw_species_id_1": null,
@@ -45170,6 +52690,10 @@ trainersById =
     "ability_name_0": "Fluffy",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Natasha",
+    "move_1_0": "CROSS CHOP",
+    "move_2_0": "YAWN",
+    "move_3_0": "THRASH",
+    "move_4_0": "FROST BREATH",
     "raw": null,
     "raw_species_id_0": 614,
     "raw_species_id_1": null,
@@ -45194,6 +52718,10 @@ trainersById =
     "ability_name_0": "Keen Senses",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Nina",
+    "move_1_0": "GIGA DRAIN",
+    "move_2_0": "DISCHARGE",
+    "move_3_0": "DISABLE",
+    "move_4_0": "SUCKER PUNCH",
     "raw": null,
     "raw_species_id_0": 596,
     "raw_species_id_1": null,
@@ -45218,6 +52746,10 @@ trainersById =
     "ability_name_0": "Majestic Ward",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Eve",
+    "move_1_0": "BOUNCE",
+    "move_2_0": "RETURN",
+    "move_3_0": "CHARM",
+    "move_4_0": "HORN LEECH",
     "raw": null,
     "raw_species_id_0": 586,
     "raw_species_id_1": null,
@@ -45242,6 +52774,10 @@ trainersById =
     "ability_name_0": "Keen Senses",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Trish",
+    "move_1_0": "ROOST",
+    "move_2_0": "ACROBATICS",
+    "move_3_0": "STEEL WING",
+    "move_4_0": "FEATHERDANCE",
     "raw": null,
     "raw_species_id_0": 581,
     "raw_species_id_1": null,
@@ -45266,6 +52802,10 @@ trainersById =
     "ability_name_0": "Mold Breaker",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Jacqueline",
+    "move_1_0": "X-SCISSOR",
+    "move_2_0": "DIG",
+    "move_3_0": "METAL CLAW",
+    "move_4_0": "ENDURE",
     "raw": null,
     "raw_species_id_0": 530,
     "raw_species_id_1": null,
@@ -45290,6 +52830,10 @@ trainersById =
     "ability_name_0": "Contagious",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Layla",
+    "move_1_0": "BITTER MALICE",
+    "move_2_0": "CURSE",
+    "move_3_0": "GRUDGE",
+    "move_4_0": "SCORCHING SANDS",
     "raw": null,
     "raw_species_id_0": 563,
     "raw_species_id_1": null,
@@ -45355,6 +52899,10 @@ trainersById =
     "ability_name_0": "Natural Cure",
     "tr_sprite": "trainer_sprites/nurse.png",
     "name": "Carol",
+    "move_1_0": "GIGA IMPACT",
+    "move_2_0": "COUNTER",
+    "move_3_0": "AROMATHERAPY",
+    "move_4_0": "DOUBLE-EDGE",
     "raw": null,
     "raw_species_id_0": 242,
     "raw_species_id_1": null,
@@ -45397,6 +52945,18 @@ trainersById =
     "ability_name_1": "Static",
     "nature_2": "Adamant",
     "ability_name_2": "Static",
+    "move_1_0": "SCREECH",
+    "move_2_0": "WIDE GUARD",
+    "move_3_0": "TEMPER FLARE",
+    "move_4_0": "TAKE DOWN",
+    "move_1_1": "SCREECH",
+    "move_2_1": "WIDE GUARD",
+    "move_3_1": "TEMPER FLARE",
+    "move_4_1": "TAKE DOWN",
+    "move_1_2": "SCREECH",
+    "move_2_2": "WIDE GUARD",
+    "move_3_2": "TEMPER FLARE",
+    "move_4_2": "TAKE DOWN",
     "raw": null,
     "raw_species_id_0": 239,
     "raw_species_id_1": 125,
@@ -45421,6 +52981,10 @@ trainersById =
     "ability_name_0": "Prankster",
     "tr_sprite": "trainer_sprites/smasher.png",
     "name": "Lizzy",
+    "move_1_0": "PLAY ROUGH",
+    "move_2_0": "COTTON GUARD",
+    "move_3_0": "ACROBATICS",
+    "move_4_0": "SWITCHEROO",
     "raw": null,
     "raw_species_id_0": 547,
     "raw_species_id_1": null,
@@ -45445,6 +53009,10 @@ trainersById =
     "ability_name_0": "Chlorophyll",
     "tr_sprite": "trainer_sprites/smasher.png",
     "name": "Amy",
+    "move_1_0": "HEALING WISH",
+    "move_2_0": "AURA SPHERE",
+    "move_3_0": "GIGA DRAIN",
+    "move_4_0": "TEETER DANCE",
     "raw": null,
     "raw_species_id_0": 549,
     "raw_species_id_1": null,
@@ -45487,6 +53055,18 @@ trainersById =
     "ability_name_1": "No Guard",
     "nature_2": "Bold",
     "ability_name_2": "Flash Fire",
+    "move_1_0": "SMOG",
+    "move_2_0": "SCORCHING SANDS",
+    "move_3_0": "FLAME BURST",
+    "move_4_0": "SCARY FACE",
+    "move_1_1": "SMOG",
+    "move_2_1": "SCORCHING SANDS",
+    "move_3_1": "FLAME BURST",
+    "move_4_1": "SCARY FACE",
+    "move_1_2": "SMOG",
+    "move_2_2": "SCORCHING SANDS",
+    "move_3_2": "FLAME BURST",
+    "move_4_2": "SCARY FACE",
     "raw": null,
     "raw_species_id_0": 240,
     "raw_species_id_1": 126,
@@ -45511,6 +53091,10 @@ trainersById =
     "ability_name_0": "Guts",
     "tr_sprite": "trainer_sprites/blackbelt.png",
     "name": "Wesley",
+    "move_1_0": "SCARY FACE",
+    "move_2_0": "IRON HEAD",
+    "move_3_0": "DRAIN PUNCH",
+    "move_4_0": "ROCK TOMB",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": null,
@@ -45535,6 +53119,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/battlegirl.png",
     "name": "Alize",
+    "move_1_0": "SWAGGER",
+    "move_2_0": "CRUNCH",
+    "move_3_0": "ROCK CLIMB",
+    "move_4_0": "DRAIN PUNCH",
     "raw": null,
     "raw_species_id_0": 560,
     "raw_species_id_1": null,
@@ -46932,6 +54520,14 @@ trainersById =
     "name": "April",
     "nature_1": "Modest",
     "ability_name_1": "Sap Sipper",
+    "move_1_0": "REFRESH",
+    "move_2_0": "DOUBLE HIT",
+    "move_3_0": "TICKLE",
+    "move_4_0": "ME FIRST",
+    "move_1_1": "JUMP KICK",
+    "move_2_1": "SYNTHESIS",
+    "move_3_1": "SYNTHESIS",
+    "move_4_1": "TAKE DOWN",
     "raw": null,
     "raw_species_id_0": 572,
     "raw_species_id_1": 585,
@@ -46965,6 +54561,14 @@ trainersById =
     "name": "May & Mal",
     "nature_1": "Bold",
     "ability_name_1": "No Guard",
+    "move_1_0": "ENCORE",
+    "move_2_0": "MOONBLAST",
+    "move_3_0": "DISCHARGE",
+    "move_4_0": "FOLLOW ME",
+    "move_1_1": "ENCORE",
+    "move_2_1": "ELECTRO BALL",
+    "move_3_1": "VOLT SWITCH",
+    "move_4_1": "DOUBLE TEAM",
     "raw": null,
     "raw_species_id_0": 417,
     "raw_species_id_1": 587,
@@ -46989,6 +54593,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/roughneck.png",
     "name": "Ricky",
+    "move_1_0": "TOXIC",
+    "move_2_0": "FACADE",
+    "move_3_0": "BLOCK",
+    "move_4_0": "FAKE OUT",
     "raw": null,
     "raw_species_id_0": 559,
     "raw_species_id_1": null,
@@ -47013,6 +54621,10 @@ trainersById =
     "ability_name_0": "Hustle",
     "tr_sprite": "trainer_sprites/dancer.png",
     "name": "Jean-Paul",
+    "move_1_0": "YAWN",
+    "move_2_0": "THRASH",
+    "move_3_0": "TEMPER FLARE",
+    "move_4_0": "TAUNT",
     "raw": null,
     "raw_species_id_0": 554,
     "raw_species_id_1": null,
@@ -47046,6 +54658,14 @@ trainersById =
     "name": "Tina",
     "nature_1": "Rash",
     "ability_name_1": "Pickup",
+    "move_1_0": "DIG",
+    "move_2_0": "COUNTER",
+    "move_3_0": "TAKE DOWN",
+    "move_4_0": "BEAT UP",
+    "move_1_1": "HONE CLAWS",
+    "move_2_1": "FLING",
+    "move_3_1": "CAPTIVATE",
+    "move_4_1": "DRAINING KISS",
     "raw": null,
     "raw_species_id_0": 552,
     "raw_species_id_1": 510,
@@ -49344,6 +56964,14 @@ trainersById =
     "name": "Ray",
     "nature_1": "Mild",
     "ability_name_1": "Sheer Force",
+    "move_1_0": "LUNGE",
+    "move_2_0": "TWISTER",
+    "move_3_0": "AIR SLASH",
+    "move_4_0": "SUPERSONIC",
+    "move_1_1": "HEAVY SLAM",
+    "move_2_1": "GROWTH",
+    "move_3_1": "MUD BOMB",
+    "move_4_1": "LAVA PLUME",
     "raw": null,
     "raw_species_id_0": 329,
     "raw_species_id_1": 323,
@@ -49377,6 +57005,14 @@ trainersById =
     "name": "Cora",
     "nature_1": "Calm",
     "ability_name_1": "Flare Boost",
+    "move_1_0": "SKILL SWAP",
+    "move_2_0": "FOUL PLAY",
+    "move_3_0": "DIZZY PUNCH",
+    "move_4_0": "FAINT ATTACK",
+    "move_1_1": "DISABLE",
+    "move_2_1": "SEETHING COLD",
+    "move_3_1": "HYPNOSIS",
+    "move_4_1": "OMINOUS WIND",
     "raw": null,
     "raw_species_id_0": 326,
     "raw_species_id_1": 426,
@@ -49410,6 +57046,14 @@ trainersById =
     "name": "Kiyo",
     "nature_1": "Careful",
     "ability_name_1": "Keen Senses",
+    "move_1_0": "SCREECH",
+    "move_2_0": "DUAL WINGBEAT",
+    "move_3_0": "GIGA DRAIN",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "ACROBATICS",
+    "move_2_1": "STEEL WING",
+    "move_3_1": "FEATHERDANCE",
+    "move_4_1": "FREEZE-DRY",
     "raw": null,
     "raw_species_id_0": 42,
     "raw_species_id_1": 581,
@@ -49443,6 +57087,14 @@ trainersById =
     "name": "Kumiko",
     "nature_1": "Timid",
     "ability_name_1": "Sheer Force",
+    "move_1_0": "SCREECH",
+    "move_2_0": "DUAL WINGBEAT",
+    "move_3_0": "GIGA DRAIN",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "PSYCHIC FANGS",
+    "move_2_1": "ROCK SLIDE",
+    "move_3_1": "YAWN",
+    "move_4_1": "THRASH",
     "raw": null,
     "raw_species_id_0": 42,
     "raw_species_id_1": 555,
@@ -49547,6 +57199,14 @@ trainersById =
     "name": "Ike",
     "nature_1": "Mild",
     "ability_name_1": "Iron Barbs",
+    "move_1_0": "PIN MISSILE",
+    "move_2_0": "SPIKE CANNON",
+    "move_3_0": "FLASH CANNON",
+    "move_4_0": "THUNDER WAVE",
+    "move_1_1": "KNOCK OFF",
+    "move_2_1": "POWER WHIP",
+    "move_3_1": "FLASH CANNON",
+    "move_4_1": "LEECH SEED",
     "raw": null,
     "raw_species_id_0": 204,
     "raw_species_id_1": 598,
@@ -49589,6 +57249,18 @@ trainersById =
     "ability_name_1": "Battle Armor",
     "nature_2": "Lax",
     "ability_name_2": "Speed Boost",
+    "move_1_0": "PROTECT",
+    "move_2_0": "ELECTROWEB",
+    "move_3_0": "HARDEN",
+    "move_4_0": "VENOSHOCK",
+    "move_1_1": "PROTECT",
+    "move_2_1": "ELECTROWEB",
+    "move_3_1": "HARDEN",
+    "move_4_1": "DISARMING VOICE",
+    "move_1_2": "IRON DEFENSE",
+    "move_2_2": "OUTRAGE",
+    "move_3_2": "MEGAHORN",
+    "move_4_2": "BANEFUL BUNKER",
     "raw": null,
     "raw_species_id_0": 268,
     "raw_species_id_1": 266,
@@ -49631,6 +57303,18 @@ trainersById =
     "ability_name_1": "Rivalry",
     "nature_2": "Modest",
     "ability_name_2": "Battle Armor",
+    "move_1_0": "ROAR",
+    "move_2_0": "POISON JAB",
+    "move_3_0": "TORMENT",
+    "move_4_0": "SCORCHING SANDS",
+    "move_1_1": "ROAR",
+    "move_2_1": "POISON JAB",
+    "move_3_1": "TAUNT",
+    "move_4_1": "DRILL RUN",
+    "move_1_2": "REST",
+    "move_2_2": "EARTH POWER",
+    "move_3_2": "FLATTER",
+    "move_4_2": "ROAR",
     "raw": null,
     "raw_species_id_0": 29,
     "raw_species_id_1": 32,
@@ -49676,6 +57360,18 @@ trainersById =
     "ability_name_1": "Torrent",
     "nature_2": "Relaxed",
     "ability_name_2": "Rivalry",
+    "move_1_0": "SUCKER PUNCH",
+    "move_2_0": "DEFENSE CURL",
+    "move_3_0": "HAMMER ARM",
+    "move_4_0": "HIGH HORSEPOWER",
+    "move_1_1": "WAVE CRASH",
+    "move_2_1": "SLACK OFF",
+    "move_3_1": "TORMENT",
+    "move_4_1": "AQUA TAIL",
+    "move_1_2": "FACADE",
+    "move_2_2": "LUCKY CHANT",
+    "move_3_2": "ACROBATICS",
+    "move_4_2": "SWAGGER",
     "raw": null,
     "raw_species_id_0": 500,
     "raw_species_id_1": 516,
@@ -49721,6 +57417,18 @@ trainersById =
     "ability_name_1": "Overgrow",
     "nature_2": "Calm",
     "ability_name_2": "Rivalry",
+    "move_1_0": "SOAK",
+    "move_2_0": "FLIP TURN",
+    "move_3_0": "HELPING HAND",
+    "move_4_0": "ENCORE",
+    "move_1_1": "POWER WHIP",
+    "move_2_1": "SLACK OFF",
+    "move_3_1": "TORMENT",
+    "move_4_1": "ENERGY BALL",
+    "move_1_2": "FACADE",
+    "move_2_2": "LUCKY CHANT",
+    "move_3_2": "ACROBATICS",
+    "move_4_2": "SWAGGER",
     "raw": null,
     "raw_species_id_0": 503,
     "raw_species_id_1": 512,
@@ -49766,6 +57474,18 @@ trainersById =
     "ability_name_1": "Blaze",
     "nature_2": "Rash",
     "ability_name_2": "Rivalry",
+    "move_1_0": "THUNDERBOLT",
+    "move_2_0": "ENERGY BALL",
+    "move_3_0": "SEETHING COLD",
+    "move_4_0": "CAPTIVATE",
+    "move_1_1": "FLARE BLITZ",
+    "move_2_1": "SLACK OFF",
+    "move_3_1": "TORMENT",
+    "move_4_1": "FLAMETHROWER",
+    "move_1_2": "FACADE",
+    "move_2_2": "LUCKY CHANT",
+    "move_3_2": "ACROBATICS",
+    "move_4_2": "SWAGGER",
     "raw": null,
     "raw_species_id_0": 497,
     "raw_species_id_1": 514,
@@ -49808,6 +57528,18 @@ trainersById =
     "ability_name_1": "Illumination",
     "nature_2": "Naughty",
     "ability_name_2": "Speed Boost",
+    "move_1_0": "PLAY ROUGH",
+    "move_2_0": "ME FIRST",
+    "move_3_0": "FOUL PLAY",
+    "move_4_0": "SUCKER PUNCH",
+    "move_1_1": "IRON TAIL",
+    "move_2_1": "GLARE",
+    "move_3_1": "PSYCHIC FANGS",
+    "move_4_1": "HELPING HAND",
+    "move_1_2": "TOXIC",
+    "move_2_2": "SPIN OUT",
+    "move_3_2": "TWINEEDLE",
+    "move_4_2": "POISON JAB",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": 505,
@@ -49841,6 +57573,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Jolly",
     "ability_name_1": "Battle Armor",
+    "move_1_0": "SLUDGE BOMB",
+    "move_2_0": "ROOST",
+    "move_3_0": "TOXIC",
+    "move_4_0": "SCREECH",
+    "move_1_1": "NEEDLE ARM",
+    "move_2_1": "ACUPRESSURE",
+    "move_3_1": "THUNDER FANG",
+    "move_4_1": "ICE FANG",
     "raw": null,
     "raw_species_id_0": 42,
     "raw_species_id_1": 452,
@@ -49874,6 +57614,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Careful",
     "ability_name_1": "Rough Skin",
+    "move_1_0": "SLUDGE BOMB",
+    "move_2_0": "IRON TAIL",
+    "move_3_0": "AQUA TAIL",
+    "move_4_0": "SWAGGER",
+    "move_1_1": "CROSS POISON",
+    "move_2_1": "HAMMER ARM",
+    "move_3_1": "DOUBLESLAP",
+    "move_4_1": "SPIT UP",
     "raw": null,
     "raw_species_id_0": 336,
     "raw_species_id_1": 569,
@@ -49898,6 +57646,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "CROSS CHOP",
+    "move_2_0": "GLARE",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "THUNDER FANG",
     "raw": null,
     "raw_species_id_0": 553,
     "raw_species_id_1": null,
@@ -49922,6 +57674,10 @@ trainersById =
     "ability_name_0": "Battle Armor",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "NEEDLE ARM",
+    "move_2_0": "ACUPRESSURE",
+    "move_3_0": "THUNDER FANG",
+    "move_4_0": "ICE FANG",
     "raw": null,
     "raw_species_id_0": 452,
     "raw_species_id_1": null,
@@ -49946,6 +57702,10 @@ trainersById =
     "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "move_1_0": "PARTING SHOT",
+    "move_2_0": "FOCUS PUNCH",
+    "move_3_0": "SWAGGER",
+    "move_4_0": "CRUNCH",
     "raw": null,
     "raw_species_id_0": 560,
     "raw_species_id_1": null,
@@ -49970,6 +57730,10 @@ trainersById =
     "ability_name_0": "Overcoat",
     "tr_sprite": "trainer_sprites/nurseryaide.png",
     "name": "June",
+    "move_1_0": "IRON DEFENSE",
+    "move_2_0": "SYNTHESIS",
+    "move_3_0": "LEAF TORNADO",
+    "move_4_0": "NATURAL GIFT",
     "raw": null,
     "raw_species_id_0": 541,
     "raw_species_id_1": null,
@@ -49994,6 +57758,10 @@ trainersById =
     "ability_name_0": "Illumination",
     "tr_sprite": "trainer_sprites/beauty.png",
     "name": "December",
+    "move_1_0": "ELECTRO BALL",
+    "move_2_0": "SIGNAL BEAM",
+    "move_3_0": "CHARGE",
+    "move_4_0": "SPARK",
     "raw": null,
     "raw_species_id_0": 180,
     "raw_species_id_1": null,
@@ -50018,6 +57786,10 @@ trainersById =
     "ability_name_0": "Rivalry",
     "tr_sprite": "trainer_sprites/clerkm.png",
     "name": "Augustin",
+    "move_1_0": "FLING",
+    "move_2_0": "DUAL WINGBEAT",
+    "move_3_0": "TAUNT",
+    "move_4_0": "NATURAL GIFT",
     "raw": null,
     "raw_species_id_0": 520,
     "raw_species_id_1": null,
@@ -50042,6 +57814,10 @@ trainersById =
     "ability_name_0": "Speed Boost",
     "tr_sprite": "trainer_sprites/guitarist.png",
     "name": "January",
+    "move_1_0": "AGILITY",
+    "move_2_0": "BARB BARRAGE",
+    "move_3_0": "X-SCISSOR",
+    "move_4_0": "PROTECT",
     "raw": null,
     "raw_species_id_0": 544,
     "raw_species_id_1": null,
@@ -50084,6 +57860,18 @@ trainersById =
     "ability_name_1": "Infiltrator",
     "nature_2": "Rash",
     "ability_name_2": "Rough Skin",
+    "move_1_0": "CROSS POISON",
+    "move_2_0": "HAMMER ARM",
+    "move_3_0": "DOUBLESLAP",
+    "move_4_0": "SPIT UP",
+    "move_1_1": "SLUDGE BOMB",
+    "move_2_1": "ROOST",
+    "move_3_1": "TOXIC",
+    "move_4_1": "SCREECH",
+    "move_1_2": "CROSS POISON",
+    "move_2_2": "HAMMER ARM",
+    "move_3_2": "DOUBLESLAP",
+    "move_4_2": "SPIT UP",
     "raw": null,
     "raw_species_id_0": 568,
     "raw_species_id_1": 42,
@@ -50117,6 +57905,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Bold",
     "ability_name_1": "Intimidate",
+    "move_1_0": "CROSS CHOP",
+    "move_2_0": "GLARE",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "THUNDER FANG",
+    "move_1_1": "CROSS CHOP",
+    "move_2_1": "GLARE",
+    "move_3_1": "CRUNCH",
+    "move_4_1": "THUNDER FANG",
     "raw": null,
     "raw_species_id_0": 552,
     "raw_species_id_1": 553,
@@ -50159,6 +57955,18 @@ trainersById =
     "ability_name_1": "Speed Boost",
     "nature_2": "Mild",
     "ability_name_2": "Intimidate",
+    "move_1_0": "PARTING SHOT",
+    "move_2_0": "FOCUS PUNCH",
+    "move_3_0": "SWAGGER",
+    "move_4_0": "CRUNCH",
+    "move_1_1": "TOXIC",
+    "move_2_1": "SPIN OUT",
+    "move_3_1": "TWINEEDLE",
+    "move_4_1": "POISON JAB",
+    "move_1_2": "PARTING SHOT",
+    "move_2_2": "FOCUS PUNCH",
+    "move_3_2": "SWAGGER",
+    "move_4_2": "CRUNCH",
     "raw": null,
     "raw_species_id_0": 559,
     "raw_species_id_1": 544,
@@ -50192,6 +58000,14 @@ trainersById =
     "name": "Grunt",
     "nature_1": "Bashful",
     "ability_name_1": "Illumination",
+    "move_1_0": "FLAIL",
+    "move_2_0": "DOUBLE-EDGE",
+    "move_3_0": "U-TURN",
+    "move_4_0": "SCARY FACE",
+    "move_1_1": "IRON TAIL",
+    "move_2_1": "GLARE",
+    "move_3_1": "PSYCHIC FANGS",
+    "move_4_1": "HELPING HAND",
     "raw": null,
     "raw_species_id_0": 20,
     "raw_species_id_1": 505,
@@ -50216,6 +58032,10 @@ trainersById =
     "ability_name_0": "Overcoat",
     "tr_sprite": "trainer_sprites/doctor.png",
     "name": "Julius",
+    "move_1_0": "TWINEEDLE",
+    "move_2_0": "ENTRAINMENT",
+    "move_3_0": "LEAF BLADE",
+    "move_4_0": "HELPING HAND",
     "raw": null,
     "raw_species_id_0": 542,
     "raw_species_id_1": null,
@@ -50258,6 +58078,18 @@ trainersById =
     "ability_name_1": "Intimidate",
     "nature_2": "Impish",
     "ability_name_2": "Infiltrator",
+    "move_1_0": "FOCUS PUNCH",
+    "move_2_0": "SWAGGER",
+    "move_3_0": "CRUNCH",
+    "move_4_0": "ROCK CLIMB",
+    "move_1_1": "CROSS CHOP",
+    "move_2_1": "GLARE",
+    "move_3_1": "CRUNCH",
+    "move_4_1": "THUNDER FANG",
+    "move_1_2": "SLUDGE BOMB",
+    "move_2_2": "ROOST",
+    "move_3_2": "TOXIC",
+    "move_4_2": "SCREECH",
     "raw": null,
     "raw_species_id_0": 559,
     "raw_species_id_1": 552,

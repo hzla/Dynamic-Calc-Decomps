@@ -1498,7 +1498,7 @@ backup_data = {
     },
     "Bone Club": {
       "type": "Ground",
-      "basePower": 65,
+      "basePower": 70,
       "category": "Physical",
       "pp": 20,
       "accuracy": 100,
@@ -6409,7 +6409,7 @@ backup_data = {
         "Thick Fat"
       ],
       "evoType": "level",
-      "evoLevel": 32
+      "evoLevel": 36
     },
     "Charmander": {
       "name": "Charmander",
@@ -31473,7 +31473,7 @@ backup_data = {
         "Natural Cure"
       ],
       "evoType": "level",
-      "evoLevel": 32
+      "evoLevel": 36
     },
     "Cyndaquil": {
       "name": "Cyndaquil",
@@ -32470,7 +32470,7 @@ backup_data = {
         "Sheer Force"
       ],
       "evoType": "level",
-      "evoLevel": 30
+      "evoLevel": 36
     },
     "Sentret": {
       "name": "Sentret",
@@ -40504,7 +40504,7 @@ backup_data = {
           ],
           [
             13,
-            "Lick"
+            "Chip Away"
           ],
           [
             16,
@@ -57875,7 +57875,7 @@ backup_data = {
         "Roserade"
       ],
       "evoType": "level",
-      "evoLevel": 10
+      "evoLevel": 18
     },
     "Gulpin": {
       "name": "Gulpin",
@@ -69930,7 +69930,7 @@ backup_data = {
         "Solid Rock"
       ],
       "evoType": "level",
-      "evoLevel": 32
+      "evoLevel": 36
     },
     "Chimchar": {
       "name": "Chimchar",
@@ -70258,7 +70258,7 @@ backup_data = {
         "Flame Body"
       ],
       "evoType": "level",
-      "evoLevel": 14,
+      "evoLevel": 16,
       "evos": [
         "Infernape"
       ]
@@ -118068,10 +118068,10 @@ backup_data = {
       ]
     }
   },
-  "formatted_sets": {
-    "Electrode": {
-      "Lvl 10 Smasher Elena ": {
-        "level": 10,
+    "formatted_sets": {
+    "Gliscor": {
+      "Lvl 50 Smasher Elena ": {
+        "level": 50,
         "ai": 15,
         "noCh": false,
         "tr_id": 1,
@@ -118086,88 +118086,57 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "Potion",
         "item": "Leftovers",
-        "nature": "Naive",
+        "nature": "Calm",
         "moves": [
-          "Zen Headbutt",
+          "Dig",
           "Quick Attack",
           "-----",
           "-----"
         ],
         "sub_index": 0,
-        "ability": "Aftermath",
+        "ability": "Poison Heal",
         "sprite": "trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 40 Striker Roberto - Driftveil Drawbridge": {
-        "level": 40,
-        "ai": 143,
+      "Lvl 56 Elite Four Shauntal ": {
+        "level": 56,
+        "ai": 15,
         "noCh": false,
-        "tr_id": 14,
+        "tr_id": 38,
         "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
+          "hp": 24,
+          "at": 24,
+          "df": 24,
+          "sa": 24,
+          "sd": 24,
+          "sp": 24
         },
         "battle_type": "Singles",
-        "reward_item": "Full Restore",
-        "item": "Air Balloon",
-        "nature": "Jolly",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Careful",
         "moves": [
-          "Zing Zap",
-          "Flash Cannon",
-          "Double-Edge",
-          "Signal Beam"
+          "Lunge",
+          "-----",
+          "-----",
+          "-----"
         ],
         "sub_index": 1,
-        "ability": "Volt Absorb",
-        "sprite": "trainer_sprites/striker.png",
+        "ability": "Poison Heal",
+        "sprite": "trainer_sprites/shauntal.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 61 Harlequin Charley ": {
-        "level": 61,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 125,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "Ultra Ball",
-        "item": "-",
-        "nature": "Naughty",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 1,
-        "ability": "Reckless",
-        "sprite": "trainer_sprites/harlequin.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 38 Lady Colette ": {
-        "level": 38,
+      "Lvl 51 Pilot Flynn - Mistralton City": {
+        "level": 51,
         "ai": 143,
         "noCh": false,
-        "tr_id": 148,
+        "tr_id": 149,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -118178,89 +118147,27 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Air Balloon",
-        "nature": "Timid",
+        "item": "Life Orb",
+        "nature": "Jolly",
         "moves": [
-          "Discharge",
-          "Flash Cannon",
-          "Bug Buzz",
-          "Light Screen"
-        ],
-        "sub_index": 2,
-        "ability": "Volt Absorb",
-        "sprite": "trainer_sprites/lady.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 44 Leader Clay ": {
-        "level": 44,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 158,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Air Balloon",
-        "nature": "Bashful",
-        "moves": [
-          "Volt Tackle",
-          "Superpower",
-          "Flash Cannon",
-          "Explosion"
+          "Earthquake",
+          "Sky Drop",
+          "Rock Slide",
+          "Protect"
         ],
         "sub_index": 1,
-        "ability": "Aftermath",
-        "sprite": "trainer_sprites/clay.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 51 Pilot Elron - Mistralton City": {
-        "level": 51,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 332,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Triples",
-        "reward_item": "None",
-        "item": "Fighting Gem",
-        "nature": "Bashful",
-        "moves": [
-          "Electro Ball",
-          "Superpower",
-          "Spin Out",
-          "Magnet Rise"
-        ],
-        "sub_index": 1,
-        "ability": "Reckless",
+        "ability": "Poison Heal",
         "sprite": "trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
           "df": 0
         }
       },
-      "Lvl 30 Kanto Leader Lt. Surge - Liberty Garden": {
+      "Lvl 30 Leader Burgh ": {
         "level": 30,
-        "ai": 15,
-        "noCh": true,
-        "tr_id": 766,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 154,
         "ivs": {
           "hp": 31,
           "at": 31,
@@ -118269,19 +118176,19 @@ backup_data = {
           "sd": 31,
           "sp": 31
         },
-        "battle_type": "Singles",
+        "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Normal Gem",
-        "nature": "Relaxed",
+        "item": "Bug Gem",
+        "nature": "Bold",
         "moves": [
-          "Discharge",
-          "Double-Edge",
-          "Magnet Bomb",
-          "Rollout"
+          "Bone Club",
+          "Aerial Ace",
+          "Sky Uppercut",
+          "Lunge"
         ],
-        "sub_index": 2,
-        "ability": "Aftermath",
-        "sprite": "trainer_sprites/kantoleader.png",
+        "sub_index": 3,
+        "ability": "Poison Heal",
+        "sprite": "trainer_sprites/burgh.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -118313,7 +118220,7 @@ backup_data = {
           "-----"
         ],
         "sub_index": 1,
-        "ability": "Aftermath",
+        "ability": "Gooey",
         "sprite": "trainer_sprites/smasher.png",
         "form": 0,
         "evs": {
@@ -122856,6 +122763,194 @@ backup_data = {
         "sub_index": 4,
         "ability": "Determined",
         "sprite": "trainer_sprites/skyla.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Electrode": {
+      "Lvl 40 Striker Roberto - Driftveil Drawbridge": {
+        "level": 40,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 14,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Full Restore",
+        "item": "Air Balloon",
+        "nature": "Jolly",
+        "moves": [
+          "Zing Zap",
+          "Flash Cannon",
+          "Double-Edge",
+          "Signal Beam"
+        ],
+        "sub_index": 1,
+        "ability": "Volt Absorb",
+        "sprite": "trainer_sprites/striker.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 61 Harlequin Charley ": {
+        "level": 61,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 125,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "Ultra Ball",
+        "item": "-",
+        "nature": "Naughty",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 1,
+        "ability": "Reckless",
+        "sprite": "trainer_sprites/harlequin.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 38 Lady Colette ": {
+        "level": 38,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 148,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "None",
+        "item": "Air Balloon",
+        "nature": "Timid",
+        "moves": [
+          "Discharge",
+          "Flash Cannon",
+          "Bug Buzz",
+          "Light Screen"
+        ],
+        "sub_index": 2,
+        "ability": "Volt Absorb",
+        "sprite": "trainer_sprites/lady.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 44 Leader Clay ": {
+        "level": 44,
+        "ai": 15,
+        "noCh": false,
+        "tr_id": 158,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Air Balloon",
+        "nature": "Bashful",
+        "moves": [
+          "Volt Tackle",
+          "Superpower",
+          "Flash Cannon",
+          "Explosion"
+        ],
+        "sub_index": 1,
+        "ability": "Aftermath",
+        "sprite": "trainer_sprites/clay.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 51 Pilot Elron - Mistralton City": {
+        "level": 51,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 332,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Triples",
+        "reward_item": "None",
+        "item": "Fighting Gem",
+        "nature": "Bashful",
+        "moves": [
+          "Electro Ball",
+          "Superpower",
+          "Spin Out",
+          "Magnet Rise"
+        ],
+        "sub_index": 1,
+        "ability": "Reckless",
+        "sprite": "trainer_sprites/pilot.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 30 Kanto Leader Lt. Surge - Liberty Garden": {
+        "level": 30,
+        "ai": 15,
+        "noCh": true,
+        "tr_id": 766,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Normal Gem",
+        "nature": "Relaxed",
+        "moves": [
+          "Discharge",
+          "Double-Edge",
+          "Magnet Bomb",
+          "Rollout"
+        ],
+        "sub_index": 2,
+        "ability": "Aftermath",
+        "sprite": "trainer_sprites/kantoleader.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -131574,101 +131669,6 @@ backup_data = {
         "sub_index": 3,
         "ability": "Sap Sipper",
         "sprite": "trainer_sprites/teamplasma.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Gliscor": {
-      "Lvl 56 Elite Four Shauntal ": {
-        "level": 56,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 38,
-        "ivs": {
-          "hp": 24,
-          "at": 24,
-          "df": 24,
-          "sa": 24,
-          "sd": 24,
-          "sp": 24
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Careful",
-        "moves": [
-          "Lunge",
-          "-----",
-          "-----",
-          "-----"
-        ],
-        "sub_index": 1,
-        "ability": "Poison Heal",
-        "sprite": "trainer_sprites/shauntal.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 51 Pilot Flynn - Mistralton City": {
-        "level": 51,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 149,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Life Orb",
-        "nature": "Jolly",
-        "moves": [
-          "Earthquake",
-          "Sky Drop",
-          "Rock Slide",
-          "Protect"
-        ],
-        "sub_index": 1,
-        "ability": "Poison Heal",
-        "sprite": "trainer_sprites/pilot.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 30 Leader Burgh ": {
-        "level": 30,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 154,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "None",
-        "item": "Bug Gem",
-        "nature": "Bold",
-        "moves": [
-          "Dig",
-          "Aerial Ace",
-          "Sky Uppercut",
-          "Lunge"
-        ],
-        "sub_index": 3,
-        "ability": "Poison Heal",
-        "sprite": "trainer_sprites/burgh.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -161973,7 +161973,7 @@ backup_data = {
           "Natural Gift"
         ],
         "sub_index": 2,
-        "ability": "Shell Armor",
+        "ability": "Swarm",
         "sprite": "trainer_sprites/burgh.png",
         "form": 0,
         "evs": {
