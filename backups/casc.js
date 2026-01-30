@@ -4,7 +4,6 @@ backup_data = {
     "": "badegg"
   },
   "move_replacements": {
-    "watergun" : "Water Gun",
     "pound": "concuss",
     "vicegrip": "dualwingbeat",
     "razorwind": "razorwinds",
