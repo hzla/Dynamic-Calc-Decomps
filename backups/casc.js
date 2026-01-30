@@ -1,9 +1,10 @@
 backup_data = {
-  "title":"Cascade White",
+    "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
   },
   "move_replacements": {
+    "watergun" : "Water Gun",
     "pound": "concuss",
     "vicegrip": "dualwingbeat",
     "razorwind": "razorwinds",
@@ -593,7 +594,7 @@ backup_data = {
       "e_id": 0,
       "target": "allAdjacentFoes",
       "recoil": [
-        25,
+        10,
         100
       ]
     },
@@ -914,14 +915,14 @@ backup_data = {
     },
     "Submission": {
       "type": "Fighting",
-      "basePower": 80,
+      "basePower": 90,
       "category": "Physical",
       "pp": 20,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 198,
+      "e_id": 48,
       "recoil": [
-        25,
+        10,
         100
       ]
     },
@@ -1223,7 +1224,7 @@ backup_data = {
       "category": "Status",
       "pp": 5,
       "accuracy": 101,
-      "priority": 0,
+      "priority": 1,
       "e_id": 52,
       "sf": true
     },
@@ -1337,7 +1338,6 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 63,
-      "target": "allAdjacentFoes",
       "sf": true
     },
     "Confuse Ray": {
@@ -1704,6 +1704,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 18,
+      "target": "allAdjacentFoes",
       "sf": true
     },
     "Dizzy Punch": {
@@ -4694,7 +4695,7 @@ backup_data = {
       "pp": 10,
       "accuracy": 100,
       "priority": 0,
-      "e_id": 209,
+      "e_id": 288,
       "willCrit": true,
       "sf": true
     },
@@ -5206,6 +5207,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 330,
+      "target": "allAdjacentFoes",
       "sf": true
     },
     "Acid Spray": {
@@ -18522,7 +18524,7 @@ backup_data = {
           ],
           [
             17,
-            "Take Down"
+            "Lunge"
           ],
           [
             20,
@@ -18538,7 +18540,7 @@ backup_data = {
           ],
           [
             29,
-            "Temper Flare"
+            "Blaze Kick"
           ],
           [
             31,
@@ -18554,11 +18556,11 @@ backup_data = {
           ],
           [
             42,
-            "Blaze Kick"
+            "Double-Edge"
           ],
           [
             46,
-            "Double-Edge"
+            "Overheat"
           ],
           [
             49,
@@ -18687,7 +18689,7 @@ backup_data = {
           ],
           [
             17,
-            "Take Down"
+            "Lunge"
           ],
           [
             20,
@@ -18703,7 +18705,7 @@ backup_data = {
           ],
           [
             29,
-            "Temper Flare"
+            "Blaze Kick"
           ],
           [
             31,
@@ -18719,11 +18721,11 @@ backup_data = {
           ],
           [
             42,
-            "Blaze Kick"
+            "Double-Edge"
           ],
           [
             46,
-            "Double-Edge"
+            "Overheat"
           ],
           [
             49,
@@ -18734,8 +18736,8 @@ backup_data = {
             "Play Rough"
           ],
           [
-            56,
-            "Overheat"
+            55,
+            "Flare Blitz"
           ],
           [
             60,
@@ -18747,7 +18749,7 @@ backup_data = {
           ],
           [
             70,
-            "Flare Blitz"
+            "Horn Drill"
           ],
           [
             75,
@@ -20008,7 +20010,8 @@ backup_data = {
       "name": "Seel",
       "num": 86,
       "types": [
-        "Water"
+        "Water",
+        "Ice"
       ],
       "items": [
         "None",
@@ -20016,7 +20019,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 45,
+        "hp": 55,
         "at": 45,
         "df": 55,
         "sa": 75,
@@ -20174,7 +20177,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 60,
+        "hp": 70,
         "at": 70,
         "df": 80,
         "sa": 110,
@@ -20692,7 +20695,7 @@ backup_data = {
         "df": 150,
         "sa": 45,
         "sd": 25,
-        "sp": 40
+        "sp": 50
       },
       "learnset_info": {
         "learnset": [
@@ -20702,7 +20705,7 @@ backup_data = {
           ],
           [
             1,
-            "Water Gun"
+            "Chilling Water"
           ],
           [
             1,
@@ -20718,7 +20721,7 @@ backup_data = {
           ],
           [
             11,
-            "Chilling Water"
+            "Icicle Spear"
           ],
           [
             15,
@@ -20738,7 +20741,7 @@ backup_data = {
           ],
           [
             28,
-            "Aurora Beam"
+            "Frost Breath"
           ],
           [
             31,
@@ -20762,7 +20765,7 @@ backup_data = {
           ],
           [
             48,
-            "Icicle Spear"
+            "Triple Axel"
           ],
           [
             51,
@@ -20866,7 +20869,7 @@ backup_data = {
           ],
           [
             11,
-            "Chilling Water"
+            "Icicle Spear"
           ],
           [
             15,
@@ -20886,7 +20889,7 @@ backup_data = {
           ],
           [
             28,
-            "Aurora Beam"
+            "Frost Breath"
           ],
           [
             31,
@@ -20910,7 +20913,7 @@ backup_data = {
           ],
           [
             48,
-            "Icicle Spear"
+            "Triple Axel"
           ],
           [
             51,
@@ -25204,7 +25207,7 @@ backup_data = {
           ],
           [
             30,
-            "Bubble Beam"
+            "Aqua Tail"
           ],
           [
             33,
@@ -25353,7 +25356,7 @@ backup_data = {
           ],
           [
             30,
-            "Bubble Beam"
+            "Aqua Tail"
           ],
           [
             33,
@@ -25775,10 +25778,10 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 30,
+        "hp": 50,
         "at": 45,
         "df": 55,
-        "sa": 90,
+        "sa": 95,
         "sd": 55,
         "sp": 95
       },
@@ -25830,15 +25833,15 @@ backup_data = {
           ],
           [
             29,
-            "Minimize"
+            "Bubble Beam"
           ],
           [
             32,
-            "Dazzling Gleam"
+            "Minimize"
           ],
           [
             34,
-            "Bubble Beam"
+            "Dazzling Gleam"
           ],
           [
             36,
@@ -25971,7 +25974,7 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 60,
+        "hp": 80,
         "at": 75,
         "df": 85,
         "sa": 115,
@@ -26026,15 +26029,15 @@ backup_data = {
           ],
           [
             29,
-            "Minimize"
+            "Bubble Beam"
           ],
           [
             32,
-            "Dazzling Gleam"
+            "Minimize"
           ],
           [
             34,
-            "Bubble Beam"
+            "Dazzling Gleam"
           ],
           [
             36,
@@ -27398,6 +27401,7 @@ backup_data = {
         "Rattled"
       ],
       "evos": [
+        "Gyarados",
         "Gyarados"
       ]
     },
@@ -27570,8 +27574,8 @@ backup_data = {
         "Mold Breaker",
         "Intimidate"
       ],
-      "evoType": "level",
-      "evoLevel": 20
+      "evoType": "useItem",
+      "evoItem": "Dragon Fang"
     },
     "Lapras": {
       "name": "Lapras",
@@ -33964,9 +33968,9 @@ backup_data = {
       "bs": {
         "hp": 75,
         "at": 38,
-        "df": 38,
-        "sa": 56,
-        "sd": 56,
+        "df": 48,
+        "sa": 61,
+        "sd": 76,
         "sp": 67
       },
       "learnset_info": {
@@ -34763,23 +34767,23 @@ backup_data = {
           ],
           [
             1,
-            "Tackle"
+            "Heart Swap"
           ],
           [
             8,
             "Disarming Voice"
           ],
           [
-            11,
-            "Heart Swap"
+            10,
+            "Magical Leaf"
           ],
           [
             14,
             "Refresh"
           ],
           [
-            17,
-            "Magical Leaf"
+            18,
+            "Air Cutter"
           ],
           [
             20,
@@ -34787,19 +34791,19 @@ backup_data = {
           ],
           [
             22,
-            "Charm"
-          ],
-          [
-            25,
             "Draining Kiss"
           ],
           [
+            25,
+            "Charm"
+          ],
+          [
             29,
-            "Air Cutter"
+            "Extrasensory"
           ],
           [
             32,
-            "Extrasensory"
+            "Heal Pulse"
           ],
           [
             35,
@@ -34807,7 +34811,7 @@ backup_data = {
           ],
           [
             38,
-            "Charm"
+            "Ancient Power"
           ],
           [
             41,
@@ -34908,23 +34912,23 @@ backup_data = {
           ],
           [
             1,
-            "Gust"
+            "Heart Swap"
           ],
           [
             8,
             "Disarming Voice"
           ],
           [
-            11,
-            "Heart Swap"
+            10,
+            "Magical Leaf"
           ],
           [
             14,
             "Refresh"
           ],
           [
-            17,
-            "Magical Leaf"
+            18,
+            "Air Cutter"
           ],
           [
             20,
@@ -34932,19 +34936,19 @@ backup_data = {
           ],
           [
             22,
-            "Charm"
-          ],
-          [
-            25,
             "Draining Kiss"
           ],
           [
+            25,
+            "Charm"
+          ],
+          [
             29,
-            "Air Cutter"
+            "Extrasensory"
           ],
           [
             32,
-            "Extrasensory"
+            "Heal Pulse"
           ],
           [
             35,
@@ -34952,7 +34956,7 @@ backup_data = {
           ],
           [
             38,
-            "Charm"
+            "Ancient Power"
           ],
           [
             41,
@@ -35046,7 +35050,7 @@ backup_data = {
         "Natural Cure"
       ],
       "evoType": "level",
-      "evoLevel": 10,
+      "evoLevel": 18,
       "evos": [
         "Togekiss",
         "Togekiss"
@@ -36192,14 +36196,14 @@ backup_data = {
           ],
           [
             22,
-            "Barrage"
-          ],
-          [
-            24,
             "Body Slam"
           ],
           [
-            26,
+            25,
+            "Barrage"
+          ],
+          [
+            27,
             "Draining Kiss"
           ],
           [
@@ -36371,14 +36375,14 @@ backup_data = {
           ],
           [
             22,
-            "Barrage"
-          ],
-          [
-            24,
             "Body Slam"
           ],
           [
-            26,
+            25,
+            "Barrage"
+          ],
+          [
+            27,
             "Draining Kiss"
           ],
           [
@@ -40504,7 +40508,7 @@ backup_data = {
           ],
           [
             13,
-            "Chip Away"
+            "Lick"
           ],
           [
             16,
@@ -44102,7 +44106,7 @@ backup_data = {
           ],
           [
             30,
-            "Bubble Beam"
+            "Aqua Tail"
           ],
           [
             33,
@@ -53929,9 +53933,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 64,
-        "at": 56,
+        "at": 51,
         "df": 53,
-        "sa": 71,
+        "sa": 76,
         "sd": 53,
         "sp": 58
       },
@@ -53947,7 +53951,7 @@ backup_data = {
           ],
           [
             4,
-            "Fake Tears"
+            "Disarming Voice"
           ],
           [
             8,
@@ -53955,15 +53959,15 @@ backup_data = {
           ],
           [
             10,
-            "Uproar"
+            "Rage"
           ],
           [
             12,
-            "Screech"
+            "Fake Tears"
           ],
           [
             14,
-            "Disarming Voice"
+            "Uproar"
           ],
           [
             17,
@@ -53971,11 +53975,11 @@ backup_data = {
           ],
           [
             20,
-            "Crunch"
+            "Stompin Tantrum"
           ],
           [
             22,
-            "Rage"
+            "Torment"
           ],
           [
             24,
@@ -53983,15 +53987,15 @@ backup_data = {
           ],
           [
             27,
-            "Torment"
+            "Bug Buzz"
           ],
           [
             30,
-            "Stompin Tantrum"
+            "Psychic Noise"
           ],
           [
-            33,
-            "Roar"
+            32,
+            "Hyper Voice"
           ],
           [
             37,
@@ -54062,7 +54066,7 @@ backup_data = {
       "abs": [
         "Amplifier",
         "Amplifier",
-        "Berserk"
+        "Amplifier"
       ],
       "evos": [
         "Loudred"
@@ -54081,9 +54085,9 @@ backup_data = {
       ],
       "bs": {
         "hp": 84,
-        "at": 76,
+        "at": 71,
         "df": 63,
-        "sa": 81,
+        "sa": 86,
         "sd": 63,
         "sp": 68
       },
@@ -54099,7 +54103,7 @@ backup_data = {
           ],
           [
             4,
-            "Fake Tears"
+            "Disarming Voice"
           ],
           [
             8,
@@ -54107,15 +54111,15 @@ backup_data = {
           ],
           [
             10,
-            "Uproar"
+            "Rage"
           ],
           [
             12,
-            "Screech"
+            "Fake Tears"
           ],
           [
             14,
-            "Disarming Voice"
+            "Uproar"
           ],
           [
             17,
@@ -54123,11 +54127,11 @@ backup_data = {
           ],
           [
             20,
-            "Crunch"
+            "Stompin Tantrum"
           ],
           [
             22,
-            "Rage"
+            "Torment"
           ],
           [
             24,
@@ -54135,15 +54139,15 @@ backup_data = {
           ],
           [
             27,
-            "Torment"
+            "Bug Buzz"
           ],
           [
             30,
-            "Stompin Tantrum"
+            "Psychic Noise"
           ],
           [
-            33,
-            "Roar"
+            32,
+            "Hyper Voice"
           ],
           [
             37,
@@ -54159,11 +54163,11 @@ backup_data = {
           ],
           [
             45,
-            "Hyper Voice"
+            "Roar"
           ],
           [
             48,
-            "Psychic Noise"
+            "Clanging Scales"
           ],
           [
             52,
@@ -54245,7 +54249,7 @@ backup_data = {
       "abs": [
         "Amplifier",
         "Amplifier",
-        "Berserk"
+        "Amplifier"
       ],
       "evoType": "level",
       "evoLevel": 20,
@@ -54266,10 +54270,10 @@ backup_data = {
       ],
       "bs": {
         "hp": 104,
-        "at": 106,
-        "df": 78,
-        "sa": 111,
-        "sd": 78,
+        "at": 91,
+        "df": 83,
+        "sa": 106,
+        "sd": 83,
         "sp": 88
       },
       "learnset_info": {
@@ -54284,7 +54288,7 @@ backup_data = {
           ],
           [
             4,
-            "Fake Tears"
+            "Disarming Voice"
           ],
           [
             8,
@@ -54292,15 +54296,15 @@ backup_data = {
           ],
           [
             10,
-            "Uproar"
+            "Rage"
           ],
           [
             12,
-            "Screech"
+            "Fake Tears"
           ],
           [
             14,
-            "Disarming Voice"
+            "Uproar"
           ],
           [
             17,
@@ -54308,11 +54312,11 @@ backup_data = {
           ],
           [
             20,
-            "Crunch"
+            "Stompin Tantrum"
           ],
           [
             22,
-            "Rage"
+            "Torment"
           ],
           [
             24,
@@ -54320,15 +54324,15 @@ backup_data = {
           ],
           [
             27,
-            "Torment"
+            "Bug Buzz"
           ],
           [
             30,
-            "Stompin Tantrum"
+            "Psychic Noise"
           ],
           [
-            33,
-            "Roar"
+            32,
+            "Hyper Voice"
           ],
           [
             37,
@@ -54344,11 +54348,11 @@ backup_data = {
           ],
           [
             45,
-            "Hyper Voice"
+            "Roar"
           ],
           [
             48,
-            "Psychic Noise"
+            "Clanging Scales"
           ],
           [
             52,
@@ -54440,7 +54444,7 @@ backup_data = {
       "abs": [
         "Amplifier",
         "Amplifier",
-        "Berserk"
+        "Amplifier"
       ],
       "evoType": "level",
       "evoLevel": 40
@@ -82588,8 +82592,8 @@ backup_data = {
             "Refresh"
           ],
           [
-            17,
-            "Magical Leaf"
+            18,
+            "Air Cutter"
           ],
           [
             20,
@@ -82597,19 +82601,19 @@ backup_data = {
           ],
           [
             22,
-            "Charm"
-          ],
-          [
-            25,
             "Draining Kiss"
           ],
           [
+            25,
+            "Charm"
+          ],
+          [
             29,
-            "Air Cutter"
+            "Extrasensory"
           ],
           [
             32,
-            "Extrasensory"
+            "Heal Pulse"
           ],
           [
             35,
@@ -82617,7 +82621,7 @@ backup_data = {
           ],
           [
             38,
-            "Charm"
+            "Ancient Power"
           ],
           [
             41,
@@ -91441,7 +91445,7 @@ backup_data = {
           ],
           [
             1,
-            "Tail Whip"
+            "Pursuit"
           ],
           [
             1,
@@ -118068,7 +118072,7 @@ backup_data = {
       ]
     }
   },
-    "formatted_sets": {
+  "formatted_sets": {
     "Gliscor": {
       "Lvl 50 Smasher Elena ": {
         "level": 50,
@@ -131950,7 +131954,7 @@ backup_data = {
           "Calm Mind"
         ],
         "sub_index": 1,
-        "ability": "Illusion",
+        "ability": "Shadow Tag",
         "sprite": "trainer_sprites/grace.png",
         "form": 0,
         "evs": {
@@ -133942,7 +133946,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "Ability Patch",
+        "reward_item": "Max Potion",
         "item": "Dark Gem",
         "nature": "Adamant",
         "moves": [
@@ -134316,7 +134320,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "Ability Patch",
+        "reward_item": "Max Potion",
         "item": "Starf Berry",
         "nature": "Hasty",
         "moves": [
@@ -134597,7 +134601,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "Ability Patch",
+        "reward_item": "Max Potion",
         "item": "Charcoal",
         "nature": "Calm",
         "moves": [
@@ -139942,7 +139946,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "Ability Capsule",
+        "reward_item": "Max Potion",
         "item": "Muscle Band",
         "nature": "Lax",
         "moves": [
@@ -140099,7 +140103,7 @@ backup_data = {
           "sp": 31
         },
         "battle_type": "Singles",
-        "reward_item": "Ability Capsule",
+        "reward_item": "Max Potion",
         "item": "Colbur Berry",
         "nature": "Bashful",
         "moves": [
@@ -159273,7 +159277,7 @@ backup_data = {
           "Thunderbolt"
         ],
         "sub_index": 0,
-        "ability": "Minus",
+        "ability": "Levitate",
         "sprite": "trainer_sprites/pilot.png",
         "form": 0,
         "evs": {
