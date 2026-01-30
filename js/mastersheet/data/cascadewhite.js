@@ -14632,7 +14632,7 @@ encountersById =
       "Pansage",
       "Exeggcute",
       "Roselia",
-      "Servine",
+      "Tangela",
       "Snorunt",
       "Cherubi",
       "Tropius",
