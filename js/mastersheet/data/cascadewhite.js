@@ -5863,11 +5863,11 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "Route 4 (Elesa Split)",
+    "content": "Route 4: Elesa Split",
     "content_parts": [
       {
         "type": "text",
-        "text": "Route 4 (Elesa Split)"
+        "text": "Route 4: Elesa Split"
       }
     ],
     "tag": "h2"
@@ -6147,11 +6147,11 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "Desert Resort (Exterior)",
+    "content": "Desert Resort: Exterior",
     "content_parts": [
       {
         "type": "text",
-        "text": "Desert Resort (Exterior)"
+        "text": "Desert Resort: Exterior"
       }
     ],
     "tag": "h2"
@@ -6217,11 +6217,11 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "Desert Resort (Interior)",
+    "content": "Desert Resort: Interior",
     "content_parts": [
       {
         "type": "text",
-        "text": "Desert Resort (Interior)"
+        "text": "Desert Resort: Interior"
       }
     ],
     "tag": "h2"
@@ -9750,11 +9750,11 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "Relic Passage (Driftveil Side)",
+    "content": "Relic Passage: Skyla Split",
     "content_parts": [
       {
         "type": "text",
-        "text": "Relic Passage (Driftveil Side)"
+        "text": "Relic Passage: Skyla Split"
       }
     ],
     "tag": "h2"
@@ -10383,11 +10383,11 @@ masterData =
     "tag": "p"
   },
   {
-    "content": "Route 6",
+    "content": "Route 6: Skyla Split",
     "content_parts": [
       {
         "type": "text",
-        "text": "Route 6"
+        "text": "Route 6: Skyla Split"
       }
     ],
     "tag": "h2"
