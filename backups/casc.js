@@ -5903,6 +5903,7 @@ backup_data = {
       "e_id": 111
     }
   },
+ 
   "poks": {
     "Bulbasaur": {
       "name": "Bulbasaur",
@@ -37655,6 +37656,7 @@ backup_data = {
         "Chlorophyll"
       ],
       "evos": [
+        "Sunflora",
         "Sunflora"
       ]
     },
@@ -37816,8 +37818,9 @@ backup_data = {
         "Solar Power",
         "Chlorophyll"
       ],
-      "evoType": "useItem",
-      "evoItem": "Sun Stone"
+      "evoType": "level",
+      "evoItem": "Sun Stone",
+      "evoLevel": 25
     },
     "Yanma": {
       "name": "Yanma",
@@ -160185,7 +160188,7 @@ backup_data = {
           "Volt Switch"
         ],
         "sub_index": 0,
-        "ability": "Galvanize",
+        "ability": "Refrigerate",
         "sprite": "trainer_sprites/victor.png",
         "form": 3,
         "evs": {
@@ -172565,7 +172568,7 @@ backup_data = {
           "Sunny Day"
         ],
         "sub_index": 0,
-        "ability": "Battle Armor",
+        "ability": "-",
         "sprite": "trainer_sprites/veteran_f.png",
         "form": 1,
         "evs": {
@@ -172759,7 +172762,7 @@ backup_data = {
         "sub_index": 1,
         "ability": "Weak Armor",
         "sprite": "trainer_sprites/fisherman.png",
-        "form": 1,
+        "form": 0,
         "evs": {
           "df": 0
         }
@@ -175570,7 +175573,7 @@ backup_data = {
           "Water Pulse"
         ],
         "sub_index": 1,
-        "ability": "Levitate",
+        "ability": "Motor Drive",
         "sprite": "trainer_sprites/backers.png",
         "form": 4,
         "evs": {
@@ -175601,7 +175604,7 @@ backup_data = {
           "Telekinesis"
         ],
         "sub_index": 1,
-        "ability": "Galvanize",
+        "ability": "Aerilate",
         "sprite": "trainer_sprites/colress.png",
         "form": 4,
         "evs": {
@@ -177350,7 +177353,7 @@ backup_data = {
         }
       }
     },
-    "Sawsbuck": {
+    "Sawsbuck-Winter": {
       "Lvl 48 PkMn Ranger Richard - Route 6": {
         "level": 48,
         "ai": 15,
@@ -177375,102 +177378,9 @@ backup_data = {
           "Bone Rush"
         ],
         "sub_index": 1,
-        "ability": "Chlorophyll",
+        "ability": "Skill Link",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 3,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 50 PkMn Ranger Briana - Chargestone Cave": {
-        "level": 50,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 543,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "Chesto Berry",
-        "item": "Rock Gem",
-        "nature": "Adamant",
-        "moves": [
-          "Body Slam",
-          "Iron Head",
-          "Zen Headbutt",
-          "Rock Slide"
-        ],
-        "sub_index": 3,
-        "ability": "Serene Grace",
-        "sprite": "trainer_sprites/pokemonranger.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 54 Backpacker Mae - Victory Road": {
-        "level": 54,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 613,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Quiet",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Chlorophyll",
-        "sprite": "trainer_sprites/backpacker_f.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 40 Ace Trainer Eve ": {
-        "level": 40,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 720,
-        "ivs": {
-          "hp": 12,
-          "at": 12,
-          "df": 12,
-          "sa": 12,
-          "sd": 12,
-          "sp": 12
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Serious",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 0,
-        "ability": "Majestic Ward",
-        "sprite": "trainer_sprites/acetrainer.png",
-        "form": 0,
         "evs": {
           "df": 0
         }
@@ -177501,7 +177411,7 @@ backup_data = {
           "Substitute"
         ],
         "sub_index": 3,
-        "ability": "Galvanize",
+        "ability": "Speed Boost",
         "sprite": "trainer_sprites/pokemonranger.png",
         "form": 5,
         "evs": {
@@ -179688,7 +179598,7 @@ backup_data = {
           "Aura Sphere"
         ],
         "sub_index": 2,
-        "ability": "Turboblaze",
+        "ability": "Solid Rock",
         "sprite": "trainer_sprites/worker.png",
         "form": 1,
         "evs": {
@@ -182450,7 +182360,7 @@ backup_data = {
           ""
         ],
         "sub_index": 1,
-        "ability": "Swift Swim",
+        "ability": "-",
         "sprite": "trainer_sprites/acetrainer.png",
         "form": 1,
         "evs": {
@@ -182859,7 +182769,7 @@ backup_data = {
           "Substitute"
         ],
         "sub_index": 1,
-        "ability": "Levitate",
+        "ability": "-",
         "sprite": "trainer_sprites/colress.png",
         "form": 2,
         "evs": {
@@ -187362,6 +187272,101 @@ backup_data = {
         }
       }
     },
+    "Sawsbuck": {
+      "Lvl 50 PkMn Ranger Briana - Chargestone Cave": {
+        "level": 50,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 543,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "Chesto Berry",
+        "item": "Rock Gem",
+        "nature": "Adamant",
+        "moves": [
+          "Body Slam",
+          "Iron Head",
+          "Zen Headbutt",
+          "Rock Slide"
+        ],
+        "sub_index": 3,
+        "ability": "Serene Grace",
+        "sprite": "trainer_sprites/pokemonranger.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 54 Backpacker Mae - Victory Road": {
+        "level": 54,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 613,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Quiet",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Chlorophyll",
+        "sprite": "trainer_sprites/backpacker_f.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 40 Ace Trainer Eve ": {
+        "level": 40,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 720,
+        "ivs": {
+          "hp": 12,
+          "at": 12,
+          "df": 12,
+          "sa": 12,
+          "sd": 12,
+          "sp": 12
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Serious",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 0,
+        "ability": "Majestic Ward",
+        "sprite": "trainer_sprites/acetrainer.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
     "Vespiquen": {
       "Lvl 50 PkMn Ranger Louis - Chargestone Cave": {
         "level": 50,
@@ -189917,7 +189922,7 @@ backup_data = {
         }
       }
     },
-    "Shellos": {
+    "Shellos-East": {
       "Lvl 12 School Kid Seymour2 ": {
         "level": 12,
         "ai": 15,
@@ -189942,7 +189947,7 @@ backup_data = {
           "Mirror Coat"
         ],
         "sub_index": 1,
-        "ability": "Storm Drain",
+        "ability": "Sap Sipper",
         "sprite": "trainer_sprites/schoolkid.png",
         "form": 1,
         "evs": {
@@ -189973,7 +189978,7 @@ backup_data = {
           "Mirror Coat"
         ],
         "sub_index": 1,
-        "ability": "Storm Drain",
+        "ability": "Sap Sipper",
         "sprite": "trainer_sprites/schoolkid.png",
         "form": 1,
         "evs": {
@@ -190310,7 +190315,7 @@ backup_data = {
       }
     }
   },
-    "order": {
+  "order": {
     "162": {
       "id": 162,
       "next": 163,

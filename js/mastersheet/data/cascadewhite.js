@@ -15002,7 +15002,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 0,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15045,7 +15046,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 1,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -15074,7 +15076,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 2,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15131,7 +15134,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 3,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15188,7 +15192,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 4,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15217,7 +15222,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 5,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15245,7 +15251,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 6,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15274,7 +15281,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 7,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15303,7 +15311,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 8,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15332,7 +15341,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 9,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15417,7 +15427,8 @@ trainersById =
     "raw_species_id_4": 386,
     "raw_species_id_5": null,
     "index": 10,
-    "class": "Clerk  F"
+    "class": "Clerk  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15484,7 +15495,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 11,
-    "class": "Waiter"
+    "class": "Waiter",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15538,7 +15550,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 12,
-    "class": "Waitress"
+    "class": "Waitress",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15595,7 +15608,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 13,
-    "class": "Cosplayer"
+    "class": "Cosplayer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15638,7 +15652,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 14,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15692,7 +15707,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 15,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15763,7 +15779,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 16,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -15834,7 +15851,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 17,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15901,7 +15919,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 18,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15944,7 +15963,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 19,
-    "class": "Policeman"
+    "class": "Policeman",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -16037,7 +16057,8 @@ trainersById =
     "raw_species_id_4": 452,
     "raw_species_id_5": 435,
     "index": 20,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16091,7 +16112,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 21,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16171,7 +16193,8 @@ trainersById =
     "raw_species_id_4": 448,
     "raw_species_id_5": null,
     "index": 22,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16228,7 +16251,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 23,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16299,7 +16323,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 24,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16342,7 +16367,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 25,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16385,7 +16411,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 26,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16439,7 +16466,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 27,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16493,7 +16521,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 28,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16521,7 +16550,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 29,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16549,7 +16579,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 30,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -16603,7 +16634,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 31,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16660,7 +16692,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 32,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16701,7 +16734,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 33,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16742,7 +16776,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 34,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16809,7 +16844,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 35,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16842,7 +16878,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 36,
-    "class": "Socialite"
+    "class": "Socialite",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16899,7 +16936,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 37,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -16970,7 +17008,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 38,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17027,7 +17066,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 39,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17084,7 +17124,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 40,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17127,7 +17168,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 41,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17220,7 +17262,8 @@ trainersById =
     "raw_species_id_4": 526,
     "raw_species_id_5": 143,
     "index": 42,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -17261,7 +17304,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 43,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -17315,7 +17359,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 44,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17369,7 +17414,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 45,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -17393,7 +17439,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 46,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17434,7 +17481,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 47,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17491,7 +17539,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 48,
-    "class": "Cosplayer"
+    "class": "Cosplayer",
+    "type": "Singles"
   },
   {
     "ivs_0": 254,
@@ -17519,7 +17568,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 49,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17576,7 +17626,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 50,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -17617,7 +17668,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 51,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -17658,7 +17710,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 52,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -17687,7 +17740,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 53,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17741,7 +17795,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 54,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -17795,7 +17850,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 55,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17852,7 +17908,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 56,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 254,
@@ -17909,7 +17966,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 57,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17952,7 +18010,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 58,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18009,7 +18068,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 59,
-    "class": "Cosplayer"
+    "class": "Cosplayer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18052,7 +18112,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 60,
-    "class": "Guy in Suit"
+    "class": "Guy in Suit",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18095,7 +18156,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 61,
-    "class": "Girl in Suit"
+    "class": "Girl in Suit",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -18137,7 +18199,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 62,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18194,7 +18257,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 63,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -18227,7 +18291,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 64,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18284,7 +18349,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 65,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -18326,7 +18392,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 66,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -18368,7 +18435,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 67,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 254,
@@ -18411,7 +18479,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 68,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -18435,7 +18504,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 69,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -18459,7 +18529,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 70,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18502,7 +18573,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 71,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -18535,7 +18607,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 72,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -18568,7 +18641,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 73,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18601,7 +18675,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 74,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18634,7 +18709,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 75,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18667,7 +18743,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 76,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18700,7 +18777,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 77,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18733,7 +18811,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 78,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18766,7 +18845,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 79,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18799,7 +18879,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 80,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18832,7 +18913,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 81,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18865,7 +18947,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 82,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18898,7 +18981,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 83,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18931,7 +19015,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 84,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18964,7 +19049,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 85,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -18997,7 +19083,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 86,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -19030,7 +19117,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 87,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -19072,7 +19160,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 88,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19114,7 +19203,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 89,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19156,7 +19246,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 90,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -19198,7 +19289,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 91,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -19240,7 +19332,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 92,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -19307,7 +19400,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 93,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -19374,7 +19468,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 94,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19443,7 +19538,8 @@ trainersById =
     "raw_species_id_4": 360,
     "raw_species_id_5": 325,
     "index": 95,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19512,7 +19608,8 @@ trainersById =
     "raw_species_id_4": 174,
     "raw_species_id_5": 246,
     "index": 96,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19554,7 +19651,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 97,
-    "class": "Waiter"
+    "class": "Waiter",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19587,7 +19685,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 98,
-    "class": "Waitress"
+    "class": "Waitress",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19620,7 +19719,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 99,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -19677,7 +19777,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 100,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19701,7 +19802,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 101,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19725,7 +19827,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 102,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19758,7 +19861,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 103,
-    "class": "Socialite"
+    "class": "Socialite",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19782,7 +19886,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 104,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -19824,7 +19929,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 105,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -19848,7 +19954,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 106,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19881,7 +19988,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 107,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19941,7 +20049,8 @@ trainersById =
     "raw_species_id_4": 504,
     "raw_species_id_5": null,
     "index": 108,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19983,7 +20092,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 109,
-    "class": "Pilot"
+    "class": "Pilot",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20018,7 +20128,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 110,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20051,7 +20162,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 111,
-    "class": "Baker"
+    "class": "Baker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20084,7 +20196,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 112,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20144,7 +20257,8 @@ trainersById =
     "raw_species_id_4": 545,
     "raw_species_id_5": null,
     "index": 113,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20186,7 +20300,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 114,
-    "class": "Clerk  F"
+    "class": "Clerk  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20229,7 +20344,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 115,
-    "class": "Janitor"
+    "class": "Janitor",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20253,7 +20369,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 116,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20277,7 +20394,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 117,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20301,7 +20419,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 118,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20344,7 +20463,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 119,
-    "class": "Nurse"
+    "class": "Nurse",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -20386,7 +20506,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 120,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -20419,7 +20540,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 121,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20452,7 +20574,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 122,
-    "class": "Depot Agent"
+    "class": "Depot Agent",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20485,7 +20608,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 123,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20518,7 +20642,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 124,
-    "class": "Musician"
+    "class": "Musician",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20551,7 +20676,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 125,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20579,7 +20705,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 126,
-    "class": "Artist"
+    "class": "Artist",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20612,7 +20739,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 127,
-    "class": "Policeman"
+    "class": "Policeman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20645,7 +20773,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 128,
-    "class": "Maid"
+    "class": "Maid",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20673,7 +20802,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 129,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20715,7 +20845,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 130,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20739,7 +20870,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 131,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20763,7 +20895,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 132,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -20796,7 +20929,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 133,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -20829,7 +20963,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 134,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -20862,7 +20997,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 135,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20886,7 +21022,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 136,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20910,7 +21047,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 137,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20934,7 +21072,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 138,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20958,7 +21097,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 139,
-    "class": "Waitress"
+    "class": "Waitress",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -21057,7 +21197,8 @@ trainersById =
     "raw_species_id_4": 528,
     "raw_species_id_5": 523,
     "index": 140,
-    "class": "GAME FREAK"
+    "class": "GAME FREAK",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -21090,7 +21231,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 141,
-    "class": "Maid"
+    "class": "Maid",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -21170,7 +21312,8 @@ trainersById =
     "raw_species_id_4": 545,
     "raw_species_id_5": null,
     "index": 142,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -21269,7 +21412,8 @@ trainersById =
     "raw_species_id_4": 623,
     "raw_species_id_5": 609,
     "index": 143,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -21368,7 +21512,8 @@ trainersById =
     "raw_species_id_4": 620,
     "raw_species_id_5": 534,
     "index": 144,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -21467,7 +21612,8 @@ trainersById =
     "raw_species_id_4": 553,
     "raw_species_id_5": 625,
     "index": 145,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -21566,7 +21712,8 @@ trainersById =
     "raw_species_id_4": 576,
     "raw_species_id_5": 376,
     "index": 146,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21637,7 +21784,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 147,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21708,7 +21856,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 148,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -21793,7 +21942,8 @@ trainersById =
     "raw_species_id_4": 601,
     "raw_species_id_5": null,
     "index": 149,
-    "class": "Pilot"
+    "class": "Pilot",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -21822,7 +21972,7 @@ trainersById =
     "ability_2": 1,
     "level_2": 52,
     "padding_2": 0,
-    "species_id_2": "ROTOM",
+    "species_id_2": "ROTOM-FROST",
     "form_2": 3,
     "item_id_2": "Wise Glasses",
     "move_1_2": "BLIZZARD",
@@ -21878,7 +22028,8 @@ trainersById =
     "raw_species_id_4": 351,
     "raw_species_id_5": null,
     "index": 150,
-    "class": "Pilot"
+    "class": "Pilot",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21963,7 +22114,8 @@ trainersById =
     "raw_species_id_4": 142,
     "raw_species_id_5": null,
     "index": 151,
-    "class": "Pilot"
+    "class": "Pilot",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22048,7 +22200,8 @@ trainersById =
     "raw_species_id_4": 628,
     "raw_species_id_5": null,
     "index": 152,
-    "class": "Pilot"
+    "class": "Pilot",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22147,7 +22300,8 @@ trainersById =
     "raw_species_id_4": 428,
     "raw_species_id_5": 523,
     "index": 153,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -22246,7 +22400,8 @@ trainersById =
     "raw_species_id_4": 139,
     "raw_species_id_5": 542,
     "index": 154,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Doubles"
   },
   {
     "ivs_0": 253,
@@ -22345,7 +22500,8 @@ trainersById =
     "raw_species_id_4": 257,
     "raw_species_id_5": 581,
     "index": 155,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -22430,7 +22586,8 @@ trainersById =
     "raw_species_id_4": 507,
     "raw_species_id_5": null,
     "index": 156,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 254,
@@ -22529,7 +22686,8 @@ trainersById =
     "raw_species_id_4": 262,
     "raw_species_id_5": 544,
     "index": 157,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22628,7 +22786,8 @@ trainersById =
     "raw_species_id_4": 534,
     "raw_species_id_5": 530,
     "index": 158,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -22685,7 +22844,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 159,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -22742,7 +22902,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 160,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 55,
@@ -22770,7 +22931,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 161,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 55,
@@ -22798,7 +22960,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 162,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 55,
@@ -22826,7 +22989,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 163,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22869,7 +23033,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 164,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22923,7 +23088,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 165,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -22990,7 +23156,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 166,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23057,7 +23224,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 167,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23124,7 +23292,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 168,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23181,7 +23350,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 169,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23238,7 +23408,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 170,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23309,7 +23480,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 171,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23380,7 +23552,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 172,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -23451,7 +23624,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 173,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23522,7 +23696,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 174,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 254,
@@ -23593,7 +23768,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 175,
-    "class": "Twins"
+    "class": "Twins",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -23673,7 +23849,8 @@ trainersById =
     "raw_species_id_4": 388,
     "raw_species_id_5": null,
     "index": 176,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -23706,7 +23883,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 177,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23791,7 +23969,8 @@ trainersById =
     "raw_species_id_4": 15,
     "raw_species_id_5": null,
     "index": 178,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23876,7 +24055,8 @@ trainersById =
     "raw_species_id_4": 42,
     "raw_species_id_5": null,
     "index": 179,
-    "class": "Guitarist"
+    "class": "Guitarist",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -23943,7 +24123,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 180,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24010,7 +24191,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 181,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24077,7 +24259,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 182,
-    "class": "Janitor"
+    "class": "Janitor",
+    "type": "Doubles"
   },
   {
     "ivs_0": 32,
@@ -24134,7 +24317,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 183,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 32,
@@ -24191,7 +24375,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 184,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 64,
@@ -24248,7 +24433,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 185,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 64,
@@ -24305,7 +24491,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 186,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 96,
@@ -24362,7 +24549,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 187,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 96,
@@ -24419,7 +24607,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 188,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 128,
@@ -24476,7 +24665,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 189,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 128,
@@ -24533,7 +24723,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 190,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 160,
@@ -24590,7 +24781,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 191,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 160,
@@ -24647,7 +24839,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 192,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 192,
@@ -24704,7 +24897,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 193,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 192,
@@ -24761,7 +24955,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 194,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 192,
@@ -24818,7 +25013,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 195,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 192,
@@ -24875,7 +25071,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 196,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 224,
@@ -24932,7 +25129,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 197,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 224,
@@ -24989,7 +25187,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 198,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 224,
@@ -25046,7 +25245,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 199,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 224,
@@ -25103,7 +25303,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 200,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -25160,7 +25361,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 201,
-    "class": "Rival"
+    "class": "Rival",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -25217,7 +25419,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 202,
-    "class": "Rival"
+    "class": "Rival",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25288,7 +25491,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 203,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -25359,7 +25563,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 204,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -25430,7 +25635,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 205,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Doubles"
   },
   {
     "ivs_0": 254,
@@ -25497,7 +25703,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 206,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25568,7 +25775,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 207,
-    "class": "Beauty"
+    "class": "Beauty",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -25639,7 +25847,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 208,
-    "class": "Beauty"
+    "class": "Beauty",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -25724,7 +25933,8 @@ trainersById =
     "raw_species_id_4": 587,
     "raw_species_id_5": null,
     "index": 209,
-    "class": "Beauty"
+    "class": "Beauty",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25742,7 +25952,7 @@ trainersById =
     "ability_1": 1,
     "level_1": 25,
     "padding_1": 0,
-    "species_id_1": "WORMADAM",
+    "species_id_1": "WORMADAM-SANDY",
     "form_1": 1,
     "item_id_1": "None",
     "move_1_1": "BUG BITE",
@@ -25795,7 +26005,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 210,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25814,7 +26025,7 @@ trainersById =
     "level_1": 25,
     "padding_1": 0,
     "species_id_1": "DWEBBLE",
-    "form_1": 1,
+    "form_1": 0,
     "item_id_1": "Eviolite",
     "move_1_1": "X-SCISSOR",
     "move_2_1": "ROCK SLIDE",
@@ -25866,7 +26077,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 211,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -25907,7 +26119,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 212,
-    "class": "Policeman"
+    "class": "Policeman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -25948,7 +26161,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 213,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -26005,7 +26219,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 214,
-    "class": "Policeman"
+    "class": "Policeman",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -26076,7 +26291,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 215,
-    "class": "Policeman"
+    "class": "Policeman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -26109,7 +26325,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 216,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -26163,7 +26380,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 217,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -26196,7 +26414,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 218,
-    "class": "Biker"
+    "class": "Biker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -26220,7 +26439,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 219,
-    "class": "Biker"
+    "class": "Biker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -26253,7 +26473,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 220,
-    "class": "Hooligans"
+    "class": "Hooligans",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -26310,7 +26531,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 221,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -26351,7 +26573,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 222,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -26392,7 +26615,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 223,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -26477,7 +26701,8 @@ trainersById =
     "raw_species_id_4": 206,
     "raw_species_id_5": null,
     "index": 224,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -26531,7 +26756,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 225,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -26602,7 +26828,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 226,
-    "class": "Twins"
+    "class": "Twins",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -26635,7 +26862,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 227,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26659,7 +26887,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 228,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26692,7 +26921,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 229,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26716,7 +26946,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 230,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26740,7 +26971,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 231,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26773,7 +27005,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 232,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26797,7 +27030,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 233,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26830,7 +27064,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 234,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26854,7 +27089,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 235,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26887,7 +27123,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 236,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26911,7 +27148,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 237,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26935,7 +27173,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 238,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26959,7 +27198,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 239,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26983,7 +27223,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 240,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27016,7 +27257,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 241,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27049,7 +27291,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 242,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27082,7 +27325,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 243,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27115,7 +27359,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 244,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27148,7 +27393,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 245,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27181,7 +27427,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 246,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27214,7 +27461,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 247,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -27271,7 +27519,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 248,
-    "class": "Cosplayer"
+    "class": "Cosplayer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -27328,7 +27577,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 249,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27352,7 +27602,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 250,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -27423,7 +27674,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 251,
-    "class": "Cosplayer"
+    "class": "Cosplayer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -27490,7 +27742,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 252,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -27530,7 +27783,7 @@ trainersById =
     "ability_3": 1,
     "level_3": 37,
     "padding_3": 0,
-    "species_id_3": "ROTOM",
+    "species_id_3": "ROTOM-HEAT",
     "form_3": 1,
     "item_id_3": "Charti Berry",
     "move_1_3": "FLAMETHROWER",
@@ -27561,7 +27814,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 253,
-    "class": "Baker"
+    "class": "Baker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -27615,7 +27869,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 254,
-    "class": "Artist"
+    "class": "Artist",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -27686,7 +27941,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 255,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -27757,7 +28013,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 256,
-    "class": "Musician"
+    "class": "Musician",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -27775,7 +28032,7 @@ trainersById =
     "ability_1": 1,
     "level_1": 36,
     "padding_1": 0,
-    "species_id_1": "ROTOM",
+    "species_id_1": "ROTOM-FAN",
     "form_1": 4,
     "item_id_1": "None",
     "move_1_1": "SHOCK WAVE",
@@ -27815,7 +28072,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/backers.png",
     "name": "Stu & Art",
     "nature_1": "Calm",
-    "ability_name_1": "Levitate",
+    "ability_name_1": "Motor Drive",
     "nature_2": "Brave",
     "ability_name_2": "Weak Armor",
     "nature_3": "Hardy",
@@ -27828,7 +28085,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 257,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -27852,7 +28110,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 258,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -27876,7 +28135,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 259,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -27930,7 +28190,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 260,
-    "class": "Cyclist"
+    "class": "Cyclist",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -27984,7 +28245,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 261,
-    "class": "Cyclist"
+    "class": "Cyclist",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -28055,7 +28317,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 262,
-    "class": "Depot Agent"
+    "class": "Depot Agent",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -28109,7 +28372,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 263,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -28166,7 +28430,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 264,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -28223,7 +28488,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 265,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 253,
@@ -28280,7 +28546,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 266,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -28365,7 +28632,8 @@ trainersById =
     "raw_species_id_4": 457,
     "raw_species_id_5": null,
     "index": 267,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -28436,7 +28704,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 268,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -28478,7 +28747,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 269,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Triples"
   },
   {
     "ivs_0": 0,
@@ -28520,7 +28790,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 270,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -28591,7 +28862,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 271,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -28648,7 +28920,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 272,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -28705,7 +28978,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 273,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -28785,7 +29059,8 @@ trainersById =
     "raw_species_id_4": 184,
     "raw_species_id_5": null,
     "index": 274,
-    "class": "Twins"
+    "class": "Twins",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -28828,7 +29103,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 275,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -28871,7 +29147,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 276,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -28895,7 +29172,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 277,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -28919,7 +29197,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 278,
-    "class": "Socialite"
+    "class": "Socialite",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28961,7 +29240,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 279,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Rotation"
   },
   {
     "ivs_0": 100,
@@ -29003,7 +29283,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 280,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 50,
@@ -29045,7 +29326,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 281,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -29069,7 +29351,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 282,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29102,7 +29385,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 283,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29126,7 +29410,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 284,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29159,7 +29444,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 285,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29183,7 +29469,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 286,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29216,7 +29503,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 287,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29240,7 +29528,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 288,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29264,7 +29553,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 289,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29292,7 +29582,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 290,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29325,7 +29616,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 291,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 253,
@@ -29342,7 +29634,7 @@ trainersById =
     "ability_1": 2,
     "level_1": 48,
     "padding_1": 0,
-    "species_id_1": "SAWSBUCK",
+    "species_id_1": "SAWSBUCK-WINTER",
     "form_1": 3,
     "move_1_1": "ICICLE SPEAR",
     "move_2_1": "BULLET SEED",
@@ -29362,7 +29654,7 @@ trainersById =
     "ability_3": 2,
     "level_3": 48,
     "padding_3": 0,
-    "species_id_3": "ROTOM",
+    "species_id_3": "ROTOM-MOW",
     "form_3": 5,
     "move_1_3": "LEAF STORM",
     "move_2_3": "THUNDER",
@@ -29390,11 +29682,11 @@ trainersById =
     "tr_sprite": "trainer_sprites/pokemonranger.png",
     "name": "Richard",
     "nature_1": "Lax",
-    "ability_name_1": "Chlorophyll",
+    "ability_name_1": "Skill Link",
     "nature_2": "Hasty",
     "ability_name_2": "Corrosion",
     "nature_3": "Mild",
-    "ability_name_3": "Galvanize",
+    "ability_name_3": "Speed Boost",
     "nature_4": "Gentle",
     "ability_name_4": "Swift Swim",
     "raw": null,
@@ -29405,7 +29697,8 @@ trainersById =
     "raw_species_id_4": 272,
     "raw_species_id_5": null,
     "index": 292,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -29462,7 +29755,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 293,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -29504,7 +29798,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 294,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Rotation"
   },
   {
     "ivs_0": 50,
@@ -29546,7 +29841,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 295,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Triples"
   },
   {
     "ivs_0": 0,
@@ -29579,7 +29875,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 296,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -29650,7 +29947,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 297,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -29707,7 +30005,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 298,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Triples"
   },
   {
     "ivs_0": 0,
@@ -29740,7 +30039,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 299,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -29764,7 +30064,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 300,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -29797,7 +30098,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 301,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29830,7 +30132,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 302,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29863,7 +30166,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 303,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -29905,7 +30209,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 304,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -29938,7 +30243,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 305,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -29971,7 +30277,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 306,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30004,7 +30311,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 307,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30037,7 +30345,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 308,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30070,7 +30379,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 309,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30094,7 +30404,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 310,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30118,7 +30429,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 311,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30160,7 +30472,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 312,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -30193,7 +30506,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 313,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30217,7 +30531,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 314,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30241,7 +30556,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 315,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30265,7 +30581,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 316,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30289,7 +30606,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 317,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30322,7 +30640,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 318,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30379,7 +30698,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 319,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30464,7 +30784,8 @@ trainersById =
     "raw_species_id_4": 444,
     "raw_species_id_5": null,
     "index": 320,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30493,7 +30814,7 @@ trainersById =
     "ability_2": 2,
     "level_2": 42,
     "padding_2": 0,
-    "species_id_2": "DARMANITAN",
+    "species_id_2": "DARMANITAN-ZEN",
     "form_2": 1,
     "item_id_2": "Absorb Bulb",
     "move_1_2": "POWER GEM",
@@ -30524,7 +30845,7 @@ trainersById =
     "nature_1": "Relaxed",
     "ability_name_1": "Sand Rush",
     "nature_2": "Calm",
-    "ability_name_2": "Turboblaze",
+    "ability_name_2": "Solid Rock",
     "nature_3": "Brave",
     "ability_name_3": "Sand Force",
     "raw": null,
@@ -30535,7 +30856,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 321,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -30578,7 +30900,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 322,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30621,7 +30944,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 323,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30706,7 +31030,8 @@ trainersById =
     "raw_species_id_4": 142,
     "raw_species_id_5": null,
     "index": 324,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30763,7 +31088,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 325,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -30787,7 +31113,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 326,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30811,7 +31138,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 327,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30844,7 +31172,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 328,
-    "class": "Hooligans"
+    "class": "Hooligans",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -30911,7 +31240,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 329,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -30935,7 +31265,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 330,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -30959,7 +31290,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 331,
-    "class": "Biker"
+    "class": "Biker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -31044,7 +31376,8 @@ trainersById =
     "raw_species_id_4": 279,
     "raw_species_id_5": null,
     "index": 332,
-    "class": "Pilot"
+    "class": "Pilot",
+    "type": "Triples"
   },
   {
     "ivs_0": 0,
@@ -31077,7 +31410,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 333,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -31110,7 +31444,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 334,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -31135,7 +31470,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 335,
-    "class": "Baker"
+    "class": "Baker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -31159,7 +31495,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 336,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -31192,7 +31529,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 337,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -31216,7 +31554,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 338,
-    "class": "Artist"
+    "class": "Artist",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -31258,7 +31597,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 339,
-    "class": "Motorcyclist"
+    "class": "Motorcyclist",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -31343,7 +31683,8 @@ trainersById =
     "raw_species_id_4": 24,
     "raw_species_id_5": null,
     "index": 340,
-    "class": "Motorcyclist"
+    "class": "Motorcyclist",
+    "type": "Triples"
   },
   {
     "ivs_0": 250,
@@ -31442,7 +31783,8 @@ trainersById =
     "raw_species_id_4": 131,
     "raw_species_id_5": 612,
     "index": 341,
-    "class": "Champion"
+    "class": "Champion",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -31499,7 +31841,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 342,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -31532,7 +31875,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 343,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -31617,7 +31961,8 @@ trainersById =
     "raw_species_id_4": 601,
     "raw_species_id_5": null,
     "index": 344,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -31716,7 +32061,8 @@ trainersById =
     "raw_species_id_4": 454,
     "raw_species_id_5": 635,
     "index": 345,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -31801,7 +32147,8 @@ trainersById =
     "raw_species_id_4": 477,
     "raw_species_id_5": null,
     "index": 346,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 150,
@@ -31855,7 +32202,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 347,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -31909,7 +32257,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 348,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -31933,7 +32282,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 349,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -31966,7 +32316,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 350,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -31990,7 +32341,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 351,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -32003,7 +32355,7 @@ trainersById =
     "ability_1": 0,
     "level_1": 46,
     "padding_1": 0,
-    "species_id_1": "BASCULIN",
+    "species_id_1": "BASCULIN-BLUE-STRIPED",
     "form_1": 1,
     "ivs_2": 100,
     "ability_2": 0,
@@ -32021,7 +32373,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Enzio",
     "nature_1": "Gentle",
-    "ability_name_1": "Swift Swim",
+    "ability_name_1": "Determined",
     "nature_2": "Gentle",
     "ability_name_2": "Huge Power",
     "raw": null,
@@ -32032,7 +32384,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 352,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -32065,7 +32418,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 353,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -32089,7 +32443,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 354,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -32122,7 +32477,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 355,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32179,7 +32535,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 356,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -32208,7 +32565,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 357,
-    "class": "GAME FREAK"
+    "class": "GAME FREAK",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32226,7 +32584,7 @@ trainersById =
     "ability_1": 1,
     "level_1": 32,
     "padding_1": 0,
-    "species_id_1": "ROTOM",
+    "species_id_1": "ROTOM-WASH",
     "form_1": 2,
     "item_id_1": "Expert Belt",
     "move_1_1": "BUBBLEBEAM",
@@ -32293,7 +32651,8 @@ trainersById =
     "raw_species_id_4": 233,
     "raw_species_id_5": null,
     "index": 358,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32364,7 +32723,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 359,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -32407,7 +32767,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 360,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32450,7 +32811,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 361,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32493,7 +32855,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 362,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32536,7 +32899,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 363,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32579,7 +32943,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 364,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32622,7 +32987,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 365,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32707,7 +33073,8 @@ trainersById =
     "raw_species_id_4": 24,
     "raw_species_id_5": null,
     "index": 366,
-    "class": "Motorcyclist"
+    "class": "Motorcyclist",
+    "type": "Triples"
   },
   {
     "ivs_0": 0,
@@ -32749,7 +33116,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 367,
-    "class": "Motorcyclist"
+    "class": "Motorcyclist",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -32820,7 +33188,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 368,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32891,7 +33260,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 369,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32962,7 +33332,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 370,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33033,7 +33404,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 371,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33104,7 +33476,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 372,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33175,7 +33548,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 373,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33232,7 +33606,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 374,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33289,7 +33664,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 375,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33346,7 +33722,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 376,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33403,7 +33780,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 377,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -33448,7 +33826,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 378,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -33493,7 +33872,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 379,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -33538,7 +33918,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 380,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -33562,7 +33943,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 381,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -33605,7 +33987,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 382,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -33648,7 +34031,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 383,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -33690,7 +34074,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 384,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Triples"
   },
   {
     "ivs_0": 150,
@@ -33732,7 +34117,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 385,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Rotation"
   },
   {
     "ivs_0": 50,
@@ -33765,7 +34151,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 386,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -33798,7 +34185,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 387,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -33822,7 +34210,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 388,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -33846,7 +34235,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 389,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -33879,7 +34269,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 390,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -33921,7 +34312,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 391,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33988,7 +34380,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 392,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34030,7 +34423,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 393,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -34097,7 +34491,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 394,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34139,7 +34534,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 395,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34172,7 +34568,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 396,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34205,7 +34602,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 397,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34238,7 +34636,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 398,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34280,7 +34679,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 399,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34349,7 +34749,8 @@ trainersById =
     "raw_species_id_4": 129,
     "raw_species_id_5": 129,
     "index": 400,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34409,7 +34810,8 @@ trainersById =
     "raw_species_id_4": 505,
     "raw_species_id_5": null,
     "index": 401,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34469,14 +34871,15 @@ trainersById =
     "raw_species_id_4": 521,
     "raw_species_id_5": null,
     "index": 402,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
     "ability_0": 0,
     "level_0": 66,
     "padding_0": 0,
-    "species_id_0": "WORMADAM",
+    "species_id_0": "WORMADAM-SANDY",
     "form_0": 1,
     "move_1_0": "BUG BITE",
     "move_2_0": "ROCK BLAST",
@@ -34536,7 +34939,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 403,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -34603,7 +35007,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 404,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34654,7 +35059,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 405,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34705,7 +35111,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 406,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34765,7 +35172,8 @@ trainersById =
     "raw_species_id_4": 545,
     "raw_species_id_5": null,
     "index": 407,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34825,7 +35233,8 @@ trainersById =
     "raw_species_id_4": 542,
     "raw_species_id_5": null,
     "index": 408,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -34867,7 +35276,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 409,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34952,7 +35362,8 @@ trainersById =
     "raw_species_id_4": 313,
     "raw_species_id_5": null,
     "index": 410,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -34994,7 +35405,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 411,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -35036,7 +35448,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 412,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -35107,7 +35520,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 413,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -35149,7 +35563,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 414,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35182,7 +35597,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 415,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35215,7 +35631,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 416,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35248,7 +35665,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 417,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35281,7 +35699,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 418,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35323,7 +35742,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 419,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -35351,7 +35771,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 420,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -35405,7 +35826,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 421,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Rotation"
   },
   {
     "ivs_0": 200,
@@ -35433,7 +35855,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 422,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -35487,7 +35910,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 423,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Triples"
   },
   {
     "ivs_0": 50,
@@ -35529,7 +35953,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 424,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -35571,7 +35996,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 425,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35604,7 +36030,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 426,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35628,7 +36055,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 427,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35656,7 +36084,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 428,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35689,7 +36118,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 429,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35731,7 +36161,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 430,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35755,7 +36186,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 431,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35779,7 +36211,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 432,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35812,7 +36245,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 433,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35845,7 +36279,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 434,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35869,7 +36304,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 435,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35911,7 +36347,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 436,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35953,7 +36390,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 437,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35977,7 +36415,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 438,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36010,7 +36449,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 439,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36043,7 +36483,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 440,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36076,7 +36517,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 441,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36100,7 +36542,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 442,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36128,7 +36571,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 443,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36161,7 +36605,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 444,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36203,7 +36648,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 445,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36227,7 +36673,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 446,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36251,7 +36698,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 447,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36284,7 +36732,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 448,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36317,7 +36766,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 449,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36341,7 +36791,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 450,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36383,7 +36834,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 451,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36425,7 +36877,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 452,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36449,7 +36902,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 453,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36482,7 +36936,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 454,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36549,7 +37004,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 455,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -36642,7 +37098,8 @@ trainersById =
     "raw_species_id_4": 471,
     "raw_species_id_5": 445,
     "index": 456,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -36696,7 +37153,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 457,
-    "class": "Waitress"
+    "class": "Waitress",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -36763,7 +37221,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 458,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36806,7 +37265,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 459,
-    "class": "Policeman"
+    "class": "Policeman",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -36899,14 +37359,15 @@ trainersById =
     "raw_species_id_4": 625,
     "raw_species_id_5": 376,
     "index": 460,
-    "class": "Maid"
+    "class": "Maid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
     "ability_0": 1,
     "level_0": 26,
     "padding_0": 0,
-    "species_id_0": "WORMADAM",
+    "species_id_0": "WORMADAM-TRASH",
     "form_0": 2,
     "item_id_0": "None",
     "move_1_0": "PSYCHIC",
@@ -36942,7 +37403,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 461,
-    "class": "Janitor"
+    "class": "Janitor",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36982,7 +37444,7 @@ trainersById =
     "ability_3": 1,
     "level_3": 27,
     "padding_3": 0,
-    "species_id_3": "ROTOM",
+    "species_id_3": "ROTOM-MOW",
     "form_3": 5,
     "item_id_3": "Miracle Seed",
     "move_1_3": "ELECTROWEB",
@@ -37027,7 +37489,8 @@ trainersById =
     "raw_species_id_4": 435,
     "raw_species_id_5": null,
     "index": 462,
-    "class": "Janitor"
+    "class": "Janitor",
+    "type": "Doubles"
   },
   {
     "ivs_0": 254,
@@ -37070,7 +37533,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 463,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37113,7 +37577,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 464,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37156,7 +37621,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 465,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37241,7 +37707,8 @@ trainersById =
     "raw_species_id_4": 112,
     "raw_species_id_5": null,
     "index": 466,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -37265,7 +37732,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 467,
-    "class": "Cyclist"
+    "class": "Cyclist",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37289,7 +37757,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 468,
-    "class": "Cyclist"
+    "class": "Cyclist",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37313,7 +37782,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 469,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37337,7 +37807,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 470,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37361,7 +37832,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 471,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37385,7 +37857,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 472,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37418,7 +37891,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 473,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37451,7 +37925,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 474,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37484,7 +37959,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 475,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37517,7 +37993,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 476,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37541,7 +38018,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 477,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37565,7 +38043,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 478,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -37598,7 +38077,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 479,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -37631,7 +38111,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 480,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37664,7 +38145,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 481,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37697,7 +38179,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 482,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37730,7 +38213,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 483,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -37763,7 +38247,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 484,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -37796,7 +38281,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 485,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -37829,7 +38315,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 486,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37928,7 +38415,8 @@ trainersById =
     "raw_species_id_4": 604,
     "raw_species_id_5": 500,
     "index": 487,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38027,7 +38515,8 @@ trainersById =
     "raw_species_id_4": 604,
     "raw_species_id_5": 503,
     "index": 488,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 254,
@@ -38126,7 +38615,8 @@ trainersById =
     "raw_species_id_4": 604,
     "raw_species_id_5": 497,
     "index": 489,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -38159,7 +38649,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 490,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38258,7 +38749,8 @@ trainersById =
     "raw_species_id_4": 411,
     "raw_species_id_5": 638,
     "index": 491,
-    "class": "Guardian of Unova"
+    "class": "Guardian of Unova",
+    "type": "Singles"
   },
   {
     "ivs_0": 254,
@@ -38301,7 +38793,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 492,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38386,7 +38879,8 @@ trainersById =
     "raw_species_id_4": 466,
     "raw_species_id_5": null,
     "index": 493,
-    "class": "Sinnoh Leader"
+    "class": "Sinnoh Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -38443,7 +38937,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 494,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -38500,7 +38995,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 495,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -38557,7 +39053,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 496,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -38611,7 +39108,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 497,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -38665,7 +39163,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 498,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -38719,7 +39218,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 499,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -38752,7 +39252,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 500,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38823,7 +39324,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 501,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38894,7 +39396,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 502,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38979,7 +39482,8 @@ trainersById =
     "raw_species_id_4": 25,
     "raw_species_id_5": null,
     "index": 503,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Triples"
   },
   {
     "ivs_0": 0,
@@ -39036,7 +39540,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 504,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39093,7 +39598,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 505,
-    "class": "Boss Trainer"
+    "class": "Boss Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39135,7 +39641,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 506,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39177,7 +39684,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 507,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -39219,7 +39727,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 508,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -39261,7 +39770,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 509,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -39332,7 +39842,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 510,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -39389,7 +39900,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 511,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -39460,7 +39972,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 512,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39493,7 +40006,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 513,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39526,7 +40040,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 514,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -39559,7 +40074,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 515,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -39592,7 +40108,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 516,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -39625,7 +40142,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 517,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -39658,7 +40176,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 518,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -39691,7 +40210,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 519,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -39724,7 +40244,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 520,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39757,7 +40278,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 521,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39790,7 +40312,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 522,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -39832,7 +40355,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 523,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Rotation"
   },
   {
     "ivs_0": 50,
@@ -39874,7 +40398,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 524,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Triples"
   },
   {
     "ivs_0": 0,
@@ -39916,7 +40441,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 525,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39958,14 +40484,15 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 526,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
     "ability_0": 2,
     "level_0": 42,
     "padding_0": 0,
-    "species_id_0": "ROTOM",
+    "species_id_0": "ROTOM-FROST",
     "form_0": 3,
     "item_id_0": "None",
     "move_1_0": "GLACIATE",
@@ -40012,7 +40539,7 @@ trainersById =
     "gender_3": "Default",
     "template": 3,
     "nature_0": "Bold",
-    "ability_name_0": "Galvanize",
+    "ability_name_0": "Refrigerate",
     "tr_sprite": "trainer_sprites/victor.png",
     "name": "Victor",
     "nature_1": "Naughty",
@@ -40029,7 +40556,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 527,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -40062,7 +40590,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 528,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -40104,7 +40633,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 529,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -40137,7 +40667,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 530,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -40170,7 +40701,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 531,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -40237,7 +40769,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 532,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -40304,7 +40837,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 533,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -40358,7 +40892,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 534,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Triples"
   },
   {
     "ivs_0": 200,
@@ -40412,7 +40947,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 535,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Rotation"
   },
   {
     "ivs_0": 250,
@@ -40511,7 +41047,8 @@ trainersById =
     "raw_species_id_4": 131,
     "raw_species_id_5": 612,
     "index": 536,
-    "class": "Champion"
+    "class": "Champion",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40582,7 +41119,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 537,
-    "class": "Guitarist"
+    "class": "Guitarist",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -40606,7 +41144,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 538,
-    "class": "Guitarist"
+    "class": "Guitarist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40677,7 +41216,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 539,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -40710,7 +41250,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 540,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40781,7 +41322,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 541,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40852,7 +41394,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 542,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40923,7 +41466,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 543,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40994,7 +41538,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 544,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41065,7 +41610,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 545,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -41107,7 +41653,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 546,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -41178,7 +41725,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 547,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -41249,7 +41797,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 548,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -41316,7 +41865,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 549,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41383,7 +41933,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 550,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41450,7 +42001,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 551,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41535,7 +42087,8 @@ trainersById =
     "raw_species_id_4": 53,
     "raw_species_id_5": null,
     "index": 552,
-    "class": "Socialite"
+    "class": "Socialite",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41576,7 +42129,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 553,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41617,7 +42171,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 554,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41688,7 +42243,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 555,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41773,7 +42329,8 @@ trainersById =
     "raw_species_id_4": 496,
     "raw_species_id_5": null,
     "index": 556,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41858,7 +42415,8 @@ trainersById =
     "raw_species_id_4": 499,
     "raw_species_id_5": null,
     "index": 557,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41943,7 +42501,8 @@ trainersById =
     "raw_species_id_4": 502,
     "raw_species_id_5": null,
     "index": 558,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -41976,7 +42535,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 559,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -42009,7 +42569,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 560,
-    "class": "Twins"
+    "class": "Twins",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -42080,7 +42641,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 561,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42151,7 +42713,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 562,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42222,7 +42785,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 563,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42263,7 +42827,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 564,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42334,7 +42899,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 565,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42375,7 +42941,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 566,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42446,7 +43013,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 567,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42517,7 +43085,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 568,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42560,7 +43129,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 569,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42603,7 +43173,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 570,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -42645,7 +43216,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 571,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -42687,7 +43259,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 572,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -42741,7 +43314,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 573,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Rotation"
   },
   {
     "ivs_0": 0,
@@ -42795,7 +43369,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 574,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Triples"
   },
   {
     "ivs_0": 0,
@@ -42837,7 +43412,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 575,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -42879,7 +43455,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 576,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -42921,7 +43498,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 577,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -42963,7 +43541,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 578,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -43005,7 +43584,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 579,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -43060,7 +43640,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 580,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -43084,7 +43665,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 581,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -43183,7 +43765,8 @@ trainersById =
     "raw_species_id_4": 628,
     "raw_species_id_5": 637,
     "index": 582,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -43237,7 +43820,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 583,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -43291,7 +43875,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 584,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -43324,7 +43909,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 585,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -43357,7 +43943,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 586,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -43390,7 +43977,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 587,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -43461,7 +44049,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 588,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -43532,7 +44121,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 589,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 254,
@@ -43603,7 +44193,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 590,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -43702,7 +44293,8 @@ trainersById =
     "raw_species_id_4": 463,
     "raw_species_id_5": 143,
     "index": 591,
-    "class": "GAME FREAK"
+    "class": "GAME FREAK",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -43759,7 +44351,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 592,
-    "class": "GAME FREAK"
+    "class": "GAME FREAK",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -43844,7 +44437,8 @@ trainersById =
     "raw_species_id_4": 500,
     "raw_species_id_5": null,
     "index": 593,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -43885,7 +44479,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 594,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -43926,7 +44521,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 595,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -43967,7 +44563,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 596,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -44008,7 +44605,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 597,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -44049,7 +44647,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 598,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -44090,7 +44689,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 599,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -44131,7 +44731,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 600,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -44172,7 +44773,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 601,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -44213,7 +44815,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 602,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -44254,7 +44857,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 603,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -44308,7 +44912,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 604,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -44362,7 +44967,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 605,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -44403,7 +45009,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 606,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -44444,7 +45051,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 607,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -44485,7 +45093,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 608,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -44526,7 +45135,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 609,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -44567,7 +45177,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 610,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -44608,7 +45219,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 611,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -44662,7 +45274,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 612,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -44686,7 +45299,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 613,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -44727,7 +45341,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 614,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -44768,7 +45383,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 615,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -44792,7 +45408,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 616,
-    "class": "no data"
+    "class": "no data",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -44816,7 +45433,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 617,
-    "class": "no data"
+    "class": "no data",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -44840,7 +45458,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 618,
-    "class": "no data"
+    "class": "no data",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -44864,7 +45483,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 619,
-    "class": "no data"
+    "class": "no data",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -44888,7 +45508,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 620,
-    "class": "no data"
+    "class": "no data",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -44959,7 +45580,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 621,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -44992,7 +45614,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 622,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -45025,7 +45648,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 623,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -45058,7 +45682,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 624,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -45091,7 +45716,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 625,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -45124,7 +45750,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 626,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -45157,7 +45784,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 627,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -45190,7 +45818,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 628,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -45214,7 +45843,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 629,
-    "class": "Socialite"
+    "class": "Socialite",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -45238,7 +45868,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 630,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -45262,7 +45893,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 631,
-    "class": "Maid"
+    "class": "Maid",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -45316,7 +45948,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 632,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -45387,7 +46020,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 633,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -45438,7 +46072,7 @@ trainersById =
     "ability_4": 1,
     "level_4": 51,
     "padding_4": 0,
-    "species_id_4": "DARMANITAN",
+    "species_id_4": "DARMANITAN-ZEN",
     "form_4": 1,
     "item_id_4": "Wise Glasses",
     "move_1_4": "ANCIENTPOWER",
@@ -45472,7 +46106,8 @@ trainersById =
     "raw_species_id_4": 555,
     "raw_species_id_5": null,
     "index": 634,
-    "class": "Old Statue"
+    "class": "Old Statue",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -45514,7 +46149,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 635,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -45556,7 +46192,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 636,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -45598,7 +46235,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 637,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -45640,7 +46278,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 638,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -45682,7 +46321,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 639,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -45724,7 +46364,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 640,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -45766,7 +46407,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 641,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -45808,7 +46450,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 642,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -45862,7 +46505,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 643,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -45916,7 +46560,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 644,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -45983,7 +46628,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 645,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46025,7 +46671,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 646,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46058,7 +46705,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 647,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46091,7 +46739,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 648,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46133,7 +46782,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 649,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46175,7 +46825,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 650,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46208,7 +46859,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 651,
-    "class": "Twins"
+    "class": "Twins",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -46250,7 +46902,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 652,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46292,7 +46945,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 653,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46334,7 +46988,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 654,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46376,7 +47031,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 655,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46418,7 +47074,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 656,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -46459,7 +47116,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 657,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -46500,7 +47158,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 658,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -46541,7 +47200,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 659,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46565,7 +47225,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 660,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46589,7 +47250,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 661,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -46613,7 +47275,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 662,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -46654,7 +47317,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 663,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -46695,7 +47359,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 664,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -46736,7 +47401,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 665,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 254,
@@ -46807,7 +47473,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 666,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -46861,7 +47528,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 667,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -46918,7 +47586,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 668,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -46989,7 +47658,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 669,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -47046,7 +47716,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 670,
-    "class": "Nurse"
+    "class": "Nurse",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -47117,7 +47788,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 671,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Triples"
   },
   {
     "ivs_0": 0,
@@ -47141,7 +47813,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 672,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -47165,7 +47838,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 673,
-    "class": "Nurse"
+    "class": "Nurse",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -47207,7 +47881,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 674,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -47249,7 +47924,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 675,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -47291,7 +47967,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 676,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -47333,7 +48010,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 677,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -47375,7 +48053,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 678,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -47432,7 +48111,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 679,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -47473,7 +48153,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 680,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -47516,7 +48197,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 681,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 253,
@@ -47587,7 +48269,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 682,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -47658,7 +48341,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 683,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 200,
@@ -47729,7 +48413,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 684,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -47800,7 +48485,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 685,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -47871,7 +48557,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 686,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -47925,7 +48612,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 687,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -47979,7 +48667,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 688,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Triples"
   },
   {
     "ivs_0": 100,
@@ -48033,7 +48722,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 689,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -48104,7 +48794,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 690,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -48175,7 +48866,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 691,
-    "class": "Clerk  F"
+    "class": "Clerk  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -48246,7 +48938,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 692,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -48345,7 +49038,8 @@ trainersById =
     "raw_species_id_4": 604,
     "raw_species_id_5": 500,
     "index": 693,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -48444,7 +49138,8 @@ trainersById =
     "raw_species_id_4": 604,
     "raw_species_id_5": 503,
     "index": 694,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -48543,7 +49238,8 @@ trainersById =
     "raw_species_id_4": 604,
     "raw_species_id_5": 497,
     "index": 695,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -48642,7 +49338,8 @@ trainersById =
     "raw_species_id_4": 604,
     "raw_species_id_5": 500,
     "index": 696,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -48741,7 +49438,8 @@ trainersById =
     "raw_species_id_4": 604,
     "raw_species_id_5": 503,
     "index": 697,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -48840,7 +49538,8 @@ trainersById =
     "raw_species_id_4": 604,
     "raw_species_id_5": 497,
     "index": 698,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -48864,7 +49563,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 699,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -48918,7 +49618,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 700,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -48963,7 +49664,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 701,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -49008,7 +49710,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 702,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -49053,7 +49756,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 703,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -49086,7 +49790,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 704,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -49119,7 +49824,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 705,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -49212,7 +49918,8 @@ trainersById =
     "raw_species_id_4": 514,
     "raw_species_id_5": 503,
     "index": 706,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -49305,7 +50012,8 @@ trainersById =
     "raw_species_id_4": 516,
     "raw_species_id_5": 497,
     "index": 707,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -49398,7 +50106,8 @@ trainersById =
     "raw_species_id_4": 512,
     "raw_species_id_5": 500,
     "index": 708,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -49497,7 +50206,8 @@ trainersById =
     "raw_species_id_4": 516,
     "raw_species_id_5": 500,
     "index": 709,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -49596,7 +50306,8 @@ trainersById =
     "raw_species_id_4": 512,
     "raw_species_id_5": 503,
     "index": 710,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -49695,7 +50406,8 @@ trainersById =
     "raw_species_id_4": 514,
     "raw_species_id_5": 497,
     "index": 711,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -49719,7 +50431,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 712,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -49743,7 +50456,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 713,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -49767,7 +50481,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 714,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -49791,7 +50506,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 715,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -49815,7 +50531,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 716,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -49839,7 +50556,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 717,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -49863,7 +50581,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 718,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -49887,7 +50606,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 719,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -49911,7 +50631,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 720,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -49935,7 +50656,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 721,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -49959,7 +50681,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 722,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -49983,7 +50706,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 723,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -50024,7 +50748,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 724,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -50048,7 +50773,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 725,
-    "class": "Nurse"
+    "class": "Nurse",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -50090,7 +50816,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 726,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Triples"
   },
   {
     "ivs_0": 100,
@@ -50114,7 +50841,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 727,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -50138,7 +50866,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 728,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -50180,7 +50909,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 729,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Triples"
   },
   {
     "ivs_0": 50,
@@ -50204,7 +50934,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 730,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -50228,7 +50959,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 731,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -50271,7 +51003,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 732,
-    "class": "Subway Boss"
+    "class": "Subway Boss",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -50314,7 +51047,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 733,
-    "class": "Subway Boss"
+    "class": "Subway Boss",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -50385,7 +51119,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 734,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -50456,7 +51191,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 735,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -50527,7 +51263,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 736,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Doubles"
   },
   {
     "ivs_0": 254,
@@ -50612,7 +51349,8 @@ trainersById =
     "raw_species_id_4": 632,
     "raw_species_id_5": null,
     "index": 737,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -50697,7 +51435,8 @@ trainersById =
     "raw_species_id_4": 575,
     "raw_species_id_5": null,
     "index": 738,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -50715,7 +51454,7 @@ trainersById =
     "ability_1": 2,
     "level_1": 46,
     "padding_1": 0,
-    "species_id_1": "ROTOM",
+    "species_id_1": "ROTOM-FAN",
     "form_1": 4,
     "item_id_1": "Proto Booster",
     "move_1_1": "SHOCK WAVE",
@@ -50779,7 +51518,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/colress.png",
     "name": "Colress",
     "nature_1": "Careful",
-    "ability_name_1": "Galvanize",
+    "ability_name_1": "Aerilate",
     "nature_2": "Calm",
     "ability_name_2": "Strong Body",
     "nature_3": "Gentle",
@@ -50796,7 +51535,8 @@ trainersById =
     "raw_species_id_4": 462,
     "raw_species_id_5": 474,
     "index": 739,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -50867,7 +51607,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 740,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -50938,7 +51679,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 741,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -51009,7 +51751,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 742,
-    "class": "Beauty"
+    "class": "Beauty",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -51080,7 +51823,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 743,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -51151,7 +51895,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 744,
-    "class": "Beauty"
+    "class": "Beauty",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -51222,7 +51967,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 745,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -51293,7 +52039,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 746,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -51311,7 +52058,7 @@ trainersById =
     "ability_1": 1,
     "level_1": 12,
     "padding_1": 0,
-    "species_id_1": "SHELLOS",
+    "species_id_1": "SHELLOS-EAST",
     "form_1": 1,
     "item_id_1": "Oran Berry",
     "move_1_1": "BULLET SEED",
@@ -51339,7 +52086,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/schoolkid.png",
     "name": "Seymour",
     "nature_1": "Sassy",
-    "ability_name_1": "Storm Drain",
+    "ability_name_1": "Sap Sipper",
     "nature_2": "Rash",
     "ability_name_2": "Gluttony",
     "raw": null,
@@ -51350,7 +52097,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 747,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -51407,7 +52155,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 748,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -51464,7 +52213,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 749,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -51482,7 +52232,7 @@ trainersById =
     "ability_1": 1,
     "level_1": 12,
     "padding_1": 0,
-    "species_id_1": "SHELLOS",
+    "species_id_1": "SHELLOS-EAST",
     "form_1": 1,
     "item_id_1": "Oran Berry",
     "move_1_1": "BULLET SEED",
@@ -51510,7 +52260,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/schoolkid.png",
     "name": "Cassie",
     "nature_1": "Bashful",
-    "ability_name_1": "Storm Drain",
+    "ability_name_1": "Sap Sipper",
     "nature_2": "Calm",
     "ability_name_2": "Gluttony",
     "raw": null,
@@ -51521,7 +52271,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 750,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -51592,7 +52343,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 751,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -51625,7 +52377,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 752,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -51658,7 +52411,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 753,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -51682,7 +52436,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 754,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -51706,7 +52461,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 755,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -51739,7 +52495,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 756,
-    "class": "Guitarist"
+    "class": "Guitarist",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -51768,7 +52525,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 757,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -51797,7 +52555,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 758,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -51826,7 +52585,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 759,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -51855,7 +52615,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 760,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -51884,7 +52645,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 761,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -51913,7 +52675,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 762,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -51984,7 +52747,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 763,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -52069,7 +52833,8 @@ trainersById =
     "raw_species_id_4": 438,
     "raw_species_id_5": null,
     "index": 764,
-    "class": "Kanto Leader"
+    "class": "Kanto Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -52154,7 +52919,8 @@ trainersById =
     "raw_species_id_4": 222,
     "raw_species_id_5": null,
     "index": 765,
-    "class": "Kanto Leader"
+    "class": "Kanto Leader",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -52253,7 +53019,8 @@ trainersById =
     "raw_species_id_4": 224,
     "raw_species_id_5": 26,
     "index": 766,
-    "class": "Kanto Leader"
+    "class": "Kanto Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -52352,7 +53119,8 @@ trainersById =
     "raw_species_id_4": 31,
     "raw_species_id_5": 45,
     "index": 767,
-    "class": "Kanto Leader"
+    "class": "Kanto Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -52451,7 +53219,8 @@ trainersById =
     "raw_species_id_4": 503,
     "raw_species_id_5": 169,
     "index": 768,
-    "class": "Kanto Leader"
+    "class": "Kanto Leader",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -52550,7 +53319,8 @@ trainersById =
     "raw_species_id_4": 105,
     "raw_species_id_5": 65,
     "index": 769,
-    "class": "Kanto Leader"
+    "class": "Kanto Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -52621,7 +53391,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 770,
-    "class": "Kanto Leader"
+    "class": "Kanto Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -52692,7 +53463,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 771,
-    "class": "Kanto Leader"
+    "class": "Kanto Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -52759,7 +53531,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 772,
-    "class": "Rival"
+    "class": "Rival",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -52844,7 +53617,8 @@ trainersById =
     "raw_species_id_4": 626,
     "raw_species_id_5": null,
     "index": 773,
-    "class": "Rival"
+    "class": "Rival",
+    "type": "Doubles"
   },
   {
     "ivs_0": 250,
@@ -52929,7 +53703,8 @@ trainersById =
     "raw_species_id_4": 534,
     "raw_species_id_5": null,
     "index": 774,
-    "class": "Rival"
+    "class": "Rival",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -53014,7 +53789,8 @@ trainersById =
     "raw_species_id_4": 376,
     "raw_species_id_5": null,
     "index": 775,
-    "class": "Rival"
+    "class": "Rival",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -53113,7 +53889,8 @@ trainersById =
     "raw_species_id_4": 131,
     "raw_species_id_5": 612,
     "index": 776,
-    "class": "Rival"
+    "class": "Rival",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -53212,7 +53989,8 @@ trainersById =
     "raw_species_id_4": 623,
     "raw_species_id_5": 609,
     "index": 777,
-    "class": "Red"
+    "class": "Red",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -53311,7 +54089,8 @@ trainersById =
     "raw_species_id_4": 248,
     "raw_species_id_5": 625,
     "index": 778,
-    "class": "Blue"
+    "class": "Blue",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -53410,7 +54189,8 @@ trainersById =
     "raw_species_id_4": 620,
     "raw_species_id_5": 534,
     "index": 779,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -53509,7 +54289,8 @@ trainersById =
     "raw_species_id_4": 576,
     "raw_species_id_5": 376,
     "index": 780,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -53608,7 +54389,8 @@ trainersById =
     "raw_species_id_4": 131,
     "raw_species_id_5": 612,
     "index": 781,
-    "class": "Champion"
+    "class": "Champion",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -53707,7 +54489,8 @@ trainersById =
     "raw_species_id_4": 141,
     "raw_species_id_5": 121,
     "index": 782,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -53806,7 +54589,8 @@ trainersById =
     "raw_species_id_4": 291,
     "raw_species_id_5": 470,
     "index": 783,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -53905,7 +54689,8 @@ trainersById =
     "raw_species_id_4": 212,
     "raw_species_id_5": 464,
     "index": 784,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -54004,7 +54789,8 @@ trainersById =
     "raw_species_id_4": 478,
     "raw_species_id_5": 471,
     "index": 785,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -54037,7 +54823,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 786,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -54070,7 +54857,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 787,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54103,7 +54891,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 788,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54136,7 +54925,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 789,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -54207,7 +54997,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 790,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54240,7 +55031,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 791,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54282,7 +55074,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 792,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54324,7 +55117,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 793,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -54369,7 +55163,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 794,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -54414,7 +55209,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 795,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -54459,7 +55255,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 796,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54501,7 +55298,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 797,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54534,7 +55332,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 798,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54567,7 +55366,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 799,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54591,7 +55391,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 800,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54615,7 +55416,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 801,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54639,7 +55441,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 802,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54663,7 +55466,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 803,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54687,7 +55491,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 804,
-    "class": "Beauty"
+    "class": "Beauty",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54711,7 +55516,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 805,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54735,7 +55541,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 806,
-    "class": "Guitarist"
+    "class": "Guitarist",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54777,7 +55584,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 807,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54810,7 +55618,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 808,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54852,7 +55661,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 809,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54885,7 +55695,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 810,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54909,7 +55720,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 811,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -54951,7 +55763,8 @@ trainersById =
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 812,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -54969,7 +55782,7 @@ trainersById =
     "ability_1": 0,
     "level_1": 72,
     "padding_1": 0,
-    "species_id_1": "ROTOM",
+    "species_id_1": "ROTOM-WASH",
     "form_1": 2,
     "item_id_1": "Life Orb",
     "move_1_1": "DISCHARGE",
@@ -55033,7 +55846,7 @@ trainersById =
     "tr_sprite": "trainer_sprites/colress.png",
     "name": "Colress",
     "nature_1": "Adamant",
-    "ability_name_1": "Galvanize",
+    "ability_name_1": "Levitate",
     "nature_2": "Jolly",
     "ability_name_2": "Strong Body",
     "nature_3": "Sassy",
@@ -55050,6 +55863,7 @@ trainersById =
     "raw_species_id_4": 462,
     "raw_species_id_5": 601,
     "index": 813,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   }
 ]

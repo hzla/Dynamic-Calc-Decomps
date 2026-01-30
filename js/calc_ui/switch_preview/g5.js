@@ -106,6 +106,10 @@ function get_next_in_g5() {
                     moveBp *= 1.5
                 }
 
+                if(opposing.hasAbility("Tenacity") && type_info[move.type] < 1) {
+                    moveBp *= 2
+                }
+
                 // Move specific modifiers
                 if (move.named("Eruption", "Water Spout")) {
                     moveBp = Math.max(1, Math.floor((150 * opposing.curHP()) / opposing.maxHP()));
