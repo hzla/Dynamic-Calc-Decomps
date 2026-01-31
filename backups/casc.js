@@ -1,5 +1,5 @@
 backup_data = {
-    "title":"Cascade White",
+  "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
   },
@@ -5903,7 +5903,6 @@ backup_data = {
       "e_id": 111
     }
   },
- 
   "poks": {
     "Bulbasaur": {
       "name": "Bulbasaur",
@@ -8218,7 +8217,7 @@ backup_data = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Weather Ball",
           "Hurricane",
@@ -8372,7 +8371,7 @@ backup_data = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Weather Ball",
           "Hurricane",
@@ -8544,7 +8543,7 @@ backup_data = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Weather Ball",
           "Hurricane",
@@ -10524,7 +10523,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Shadow Claw",
           "Secret Power",
@@ -10722,7 +10721,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -10895,7 +10894,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Shadow Claw",
           "Secret Power",
@@ -11063,7 +11062,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Shadow Claw",
           "Power Gem",
@@ -11261,7 +11260,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -11455,7 +11454,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -11659,7 +11658,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -12216,7 +12215,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -12429,7 +12428,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -14078,7 +14077,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Shadow Claw",
           "Secret Power",
           "Storm Throw",
@@ -14241,7 +14240,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Shadow Claw",
           "Secret Power",
           "Stone Edge",
@@ -14394,7 +14393,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Breaking Swipe",
           "Brutal Swing",
@@ -14592,7 +14591,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Breaking Swipe",
           "Brutal Swing",
@@ -15507,7 +15506,7 @@ backup_data = {
           "Heat Wave",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Incinerate",
           "Will-O-Wisp",
           "Secret Power",
@@ -15677,7 +15676,7 @@ backup_data = {
           "Heat Wave",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Incinerate",
           "Will-O-Wisp",
           "Secret Power",
@@ -15751,7 +15750,7 @@ backup_data = {
           ],
           [
             5,
-            "Water Gun"
+            "Barrage"
           ],
           [
             7,
@@ -15767,7 +15766,7 @@ backup_data = {
           ],
           [
             14,
-            "Barrage"
+            "Brine"
           ],
           [
             18,
@@ -15886,7 +15885,7 @@ backup_data = {
           ],
           [
             5,
-            "Water Gun"
+            "Barrage"
           ],
           [
             7,
@@ -15902,7 +15901,7 @@ backup_data = {
           ],
           [
             14,
-            "Barrage"
+            "Brine"
           ],
           [
             18,
@@ -16013,7 +16012,7 @@ backup_data = {
         "Torrent"
       ],
       "evoType": "level",
-      "evoLevel": 25,
+      "evoLevel": 18,
       "evos": [
         "Poliwrath",
         "Politoed"
@@ -16051,7 +16050,7 @@ backup_data = {
           ],
           [
             5,
-            "Water Gun"
+            "Barrage"
           ],
           [
             7,
@@ -16067,7 +16066,7 @@ backup_data = {
           ],
           [
             14,
-            "Barrage"
+            "Brine"
           ],
           [
             18,
@@ -18926,7 +18925,7 @@ backup_data = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Incinerate",
@@ -19114,7 +19113,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Scald",
@@ -19277,7 +19276,7 @@ backup_data = {
           "Reflect",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Teleport",
@@ -19443,7 +19442,7 @@ backup_data = {
           "Reflect",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Teleport",
@@ -19798,7 +19797,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Secret Power",
           "Stone Edge",
           "Bulldoze",
@@ -19965,7 +19964,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Secret Power",
           "Stone Edge",
           "Bulldoze",
@@ -20123,7 +20122,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Scald",
@@ -20301,7 +20300,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Scald",
@@ -22475,7 +22474,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -22661,7 +22660,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -24731,7 +24730,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Incinerate",
           "Brutal Swing",
@@ -25902,7 +25901,7 @@ backup_data = {
           "Reflect",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Teleport",
@@ -26099,7 +26098,7 @@ backup_data = {
           "Reflect",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Teleport",
@@ -26651,7 +26650,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -27713,7 +27712,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Breaking Swipe",
           "Hurricane",
@@ -27903,7 +27902,7 @@ backup_data = {
           "Shadow Ball",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Secret Power",
           "Endure",
           "Play Rough",
@@ -28077,7 +28076,7 @@ backup_data = {
           "Shadow Ball",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Secret Power",
@@ -28259,7 +28258,7 @@ backup_data = {
           "Shadow Ball",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -28439,7 +28438,7 @@ backup_data = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Incinerate",
           "Will-O-Wisp",
           "Secret Power",
@@ -28605,7 +28604,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Secret Power",
           "Sparkle",
@@ -30849,7 +30848,7 @@ backup_data = {
           "Aura Sphere",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Ally Switch",
           "Focus Blast",
@@ -31069,7 +31068,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -31239,7 +31238,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -31422,7 +31421,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -32578,7 +32577,7 @@ backup_data = {
           "Flamethrower",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Brutal Swing",
           "Shadow Claw",
@@ -32751,7 +32750,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Brutal Swing",
@@ -32914,7 +32913,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Hurricane",
           "Will-O-Wisp",
@@ -33081,7 +33080,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Hurricane",
           "Will-O-Wisp",
@@ -34488,7 +34487,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -34686,7 +34685,7 @@ backup_data = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -34838,7 +34837,7 @@ backup_data = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -35004,7 +35003,7 @@ backup_data = {
           "Heat Wave",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Hurricane",
@@ -35512,7 +35511,7 @@ backup_data = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Breaking Swipe",
           "Power Gem",
@@ -35680,7 +35679,7 @@ backup_data = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Breaking Swipe",
           "Fling",
@@ -35875,7 +35874,7 @@ backup_data = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Breaking Swipe",
@@ -36811,7 +36810,7 @@ backup_data = {
           "Lunge",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -38424,7 +38423,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Weather Ball",
           "Secret Power",
@@ -38603,7 +38602,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Secret Power",
           "Avalanche",
@@ -38957,7 +38956,7 @@ backup_data = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Scald",
@@ -39140,7 +39139,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Will-O-Wisp",
           "Power Gem",
           "Secret Power",
@@ -39523,7 +39522,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -44649,7 +44648,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Secret Power",
           "Sparkle",
@@ -44846,7 +44845,7 @@ backup_data = {
           "Aura Sphere",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Power Gem",
           "Secret Power",
@@ -45038,7 +45037,7 @@ backup_data = {
           "Aura Sphere",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Ally Switch",
           "Focus Blast",
@@ -45578,7 +45577,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Secret Power",
@@ -46037,7 +46036,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Breaking Swipe",
           "Fling",
@@ -46222,7 +46221,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Incinerate",
@@ -47284,7 +47283,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Weather Ball",
           "Hurricane",
           "Avalanche",
@@ -47446,7 +47445,7 @@ backup_data = {
           "Heat Wave",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Weather Ball",
           "Hurricane",
@@ -47587,7 +47586,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Fling",
           "Weather Ball",
@@ -49552,7 +49551,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Acrobatics",
           "Secret Power",
@@ -49719,7 +49718,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Acrobatics",
           "Shadow Claw",
@@ -50409,7 +50408,7 @@ backup_data = {
           "Return",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -50557,7 +50556,7 @@ backup_data = {
           "Brick Break",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -50730,7 +50729,7 @@ backup_data = {
           "Brick Break",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -51356,7 +51355,7 @@ backup_data = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Hurricane",
           "Secret Power",
           "Endure",
@@ -51508,7 +51507,7 @@ backup_data = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Hurricane",
           "Secret Power",
           "Endure",
@@ -51985,7 +51984,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Ally Switch",
           "Fling",
           "Will-O-Wisp",
@@ -52150,7 +52149,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Ally Switch",
           "Fling",
           "Will-O-Wisp",
@@ -52343,7 +52342,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Ally Switch",
           "Focus Blast",
           "Energy Ball",
@@ -54025,7 +54024,7 @@ backup_data = {
           "Heat Wave",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Incinerate",
           "Secret Power",
@@ -54203,7 +54202,7 @@ backup_data = {
           "Heat Wave",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -54396,7 +54395,7 @@ backup_data = {
           "Heat Wave",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -55153,7 +55152,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Weather Ball",
           "Power Gem",
@@ -55353,7 +55352,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Power Gem",
           "Secret Power",
@@ -57139,7 +57138,7 @@ backup_data = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Fling",
           "Incinerate",
@@ -57315,7 +57314,7 @@ backup_data = {
           "Dazzling Gleam",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -58660,7 +58659,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Weather Ball",
@@ -58834,7 +58833,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Weather Ball",
@@ -59889,7 +59888,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Teleport",
@@ -60925,7 +60924,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Weather Ball",
           "Hurricane",
@@ -61117,7 +61116,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Weather Ball",
           "Hurricane",
@@ -63663,7 +63662,7 @@ backup_data = {
           "Dazzling Gleam",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Wave Crash",
@@ -63819,7 +63818,7 @@ backup_data = {
           "Dazzling Gleam",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Wave Crash",
@@ -64012,7 +64011,7 @@ backup_data = {
           "Facade",
           "Heat Wave",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -64360,7 +64359,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Will-O-Wisp",
           "Brutal Swing",
           "Secret Power",
@@ -64534,7 +64533,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Will-O-Wisp",
           "Brutal Swing",
@@ -65181,7 +65180,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Secret Power",
@@ -69109,7 +69108,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -70560,7 +70559,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Fling",
@@ -70724,7 +70723,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Fling",
@@ -70903,7 +70902,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Fling",
@@ -71040,7 +71039,7 @@ backup_data = {
           "Lunge",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Hurricane",
           "Endure",
@@ -71175,7 +71174,7 @@ backup_data = {
           "Lunge",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Hurricane",
           "Secret Power",
@@ -71325,7 +71324,7 @@ backup_data = {
           "Lunge",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Hurricane",
           "Secret Power",
@@ -71458,7 +71457,7 @@ backup_data = {
           "Shadow Ball",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Wave Crash",
           "Secret Power",
@@ -71627,7 +71626,7 @@ backup_data = {
           "Shadow Ball",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Scald",
           "Fling",
@@ -71753,7 +71752,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Secret Power",
@@ -71918,7 +71917,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Secret Power",
@@ -74243,7 +74242,7 @@ backup_data = {
           "Dazzling Gleam",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Secret Power",
           "Gunk Shot",
@@ -74376,7 +74375,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Breaking Swipe",
           "Scald",
@@ -74550,7 +74549,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Breaking Swipe",
@@ -75851,7 +75850,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Acrobatics",
           "Secret Power",
@@ -76035,7 +76034,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Acrobatics",
@@ -76205,7 +76204,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Will-O-Wisp",
           "Power Gem",
@@ -76532,7 +76531,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Shadow Claw",
@@ -76702,7 +76701,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Shadow Claw",
@@ -76820,7 +76819,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Secret Power",
           "Sparkle",
@@ -77974,7 +77973,7 @@ backup_data = {
           "Fire Blast",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Incinerate",
           "Brutal Swing",
@@ -78146,7 +78145,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Hurricane",
           "Secret Power",
           "Struggle Bug",
@@ -81590,7 +81589,7 @@ backup_data = {
           "Reflect",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Teleport",
@@ -82680,7 +82679,7 @@ backup_data = {
           "Heat Wave",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Hurricane",
@@ -83019,7 +83018,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Sparkle",
@@ -83201,7 +83200,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Aura Sphere",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Power Gem",
           "Secret Power",
@@ -83741,7 +83740,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Secret Power",
           "Sparkle",
@@ -83941,7 +83940,7 @@ backup_data = {
           "Aura Sphere",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Ally Switch",
           "Focus Blast",
           "Breaking Swipe",
@@ -85252,7 +85251,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Incinerate",
           "Shadow Claw",
@@ -85404,7 +85403,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Incinerate",
@@ -85820,7 +85819,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Weather Ball",
           "Will-O-Wisp",
@@ -86624,7 +86623,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Energy Ball",
@@ -87713,7 +87712,7 @@ backup_data = {
       "abs": [
         "Intimidate",
         "Intimidate",
-        "Determined"
+        "Sheer Force"
       ],
       "evoType": "level",
       "evoLevel": 17,
@@ -88588,7 +88587,7 @@ backup_data = {
           "Rest",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Secret Power",
@@ -88753,7 +88752,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Secret Power",
@@ -88897,7 +88896,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Shadow Claw",
           "Secret Power",
           "Avalanche",
@@ -89041,7 +89040,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Shadow Claw",
           "Secret Power",
           "Avalanche",
@@ -89204,7 +89203,7 @@ backup_data = {
           "Aerial Ace",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Shadow Claw",
           "Secret Power",
           "Avalanche",
@@ -89371,7 +89370,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Shadow Claw",
@@ -89545,7 +89544,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Lunge",
-          "Tri Attack",
+          "Snore",
           "Breaking Swipe",
           "Brutal Swing",
           "Shadow Claw",
@@ -89699,7 +89698,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Fling",
           "Acrobatics",
@@ -89873,7 +89872,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Fling",
@@ -90039,7 +90038,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Incinerate",
           "Will-O-Wisp",
@@ -91070,7 +91069,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Acrobatics",
           "Shadow Claw",
           "Secret Power",
@@ -91218,7 +91217,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Acrobatics",
           "Shadow Claw",
           "Secret Power",
@@ -91384,7 +91383,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Acrobatics",
           "Shadow Claw",
           "Secret Power",
@@ -91594,7 +91593,7 @@ backup_data = {
         "hp": 75,
         "at": 113,
         "df": 63,
-        "sa": 80,
+        "sa": 90,
         "sd": 63,
         "sp": 136
       },
@@ -91755,8 +91754,8 @@ backup_data = {
         "Determined"
       ],
       "evoType": "useItem",
-      "evoLevel": 45,
-      "evoItem": "Thunderstone"
+      "evoLevel": 50,
+      "evoItem": "Dusk Stone"
     },
     "Roggenrola": {
       "name": "Roggenrola",
@@ -93055,7 +93054,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Fling",
           "Incinerate",
@@ -94358,7 +94357,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Secret Power",
@@ -95756,7 +95755,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Weather Ball",
@@ -95939,7 +95938,7 @@ backup_data = {
           "Rest",
           "Aura Sphere",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Weather Ball",
@@ -99868,7 +99867,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Fling",
           "Secret Power",
           "Thunder Wave",
@@ -100033,7 +100032,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Secret Power",
@@ -101993,7 +101992,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Thunder Wave",
@@ -102178,7 +102177,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Thunder Wave",
@@ -105123,7 +105122,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Ally Switch",
           "Energy Ball",
@@ -105303,7 +105302,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Ally Switch",
           "Energy Ball",
@@ -106413,7 +106412,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -106606,7 +106605,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -109669,7 +109668,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Breaking Swipe",
           "Incinerate",
@@ -109824,7 +109823,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Breaking Swipe",
           "Incinerate",
@@ -110010,7 +110009,7 @@ backup_data = {
           "Rock Tomb",
           "Facade",
           "Rest",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Breaking Swipe",
           "Hurricane",
@@ -111202,7 +111201,7 @@ backup_data = {
           "Heat Wave",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Focus Blast",
           "Fling",
@@ -111350,7 +111349,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Weather Ball",
@@ -111653,7 +111652,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Shadow Claw",
@@ -111936,7 +111935,7 @@ backup_data = {
           "Rest",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Fling",
@@ -112436,7 +112435,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Brutal Swing",
           "Secret Power",
@@ -112608,7 +112607,7 @@ backup_data = {
           "Lunge",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Will-O-Wisp",
           "Shadow Claw",
@@ -112782,7 +112781,7 @@ backup_data = {
           "Rest",
           "Lunge",
           "Low Sweep",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Secret Power",
           "Avalanche",
@@ -115138,7 +115137,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Energy Ball",
           "Weather Ball",
           "Will-O-Wisp",
@@ -116242,7 +116241,7 @@ backup_data = {
           "Lunge",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -116438,7 +116437,7 @@ backup_data = {
           "Lunge",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -116634,7 +116633,7 @@ backup_data = {
           "Lunge",
           "Aura Sphere",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Water Pulse",
           "Energy Ball",
           "Scald",
@@ -117129,7 +117128,7 @@ backup_data = {
           "Rest",
           "Low Sweep",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Energy Ball",
           "Fling",
@@ -117296,7 +117295,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Shadow Claw",
@@ -117442,7 +117441,7 @@ backup_data = {
           "Facade",
           "Rest",
           "Mystical Fire",
-          "Tri Attack",
+          "Snore",
           "Focus Blast",
           "Fling",
           "Shadow Claw",
@@ -139746,7 +139745,7 @@ backup_data = {
     "Ditto": {
       "Lvl 35 Guy in Suit Larry - Join Avenue": {
         "level": 35,
-        "ai": 15,
+        "ai": 143,
         "noCh": false,
         "tr_id": 60,
         "ivs": {
@@ -139779,7 +139778,7 @@ backup_data = {
     "Mr. Mime": {
       "Lvl 36 Guy in Suit Larry - Join Avenue": {
         "level": 36,
-        "ai": 15,
+        "ai": 143,
         "noCh": false,
         "tr_id": 60,
         "ivs": {
@@ -139936,7 +139935,7 @@ backup_data = {
     "Kecleon": {
       "Lvl 35 Girl in Suit Donna - Join Avenue": {
         "level": 35,
-        "ai": 15,
+        "ai": 143,
         "noCh": false,
         "tr_id": 61,
         "ivs": {
@@ -140093,7 +140092,7 @@ backup_data = {
     "Spinda": {
       "Lvl 36 Girl in Suit Donna - Join Avenue": {
         "level": 36,
-        "ai": 15,
+        "ai": 143,
         "noCh": false,
         "tr_id": 61,
         "ivs": {
@@ -149684,7 +149683,7 @@ backup_data = {
         }
       }
     },
-    "Gastrodon": {
+    "Gastrodon-East": {
       "Lvl 28 Scientist Blythe ": {
         "level": 28,
         "ai": 15,
@@ -149709,71 +149708,9 @@ backup_data = {
           "Yawn"
         ],
         "sub_index": 2,
-        "ability": "Storm Drain",
+        "ability": "Sap Sipper",
         "sprite": "trainer_sprites/scientist_f.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 60 Lass Mai - Route 8": {
-        "level": 60,
-        "ai": 1,
-        "noCh": false,
-        "tr_id": 572,
-        "ivs": {
-          "hp": 0,
-          "at": 0,
-          "df": 0,
-          "sa": 0,
-          "sd": 0,
-          "sp": 0
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "-",
-        "nature": "Gentle",
-        "moves": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "sub_index": 2,
-        "ability": "Storm Drain",
-        "sprite": "trainer_sprites/mai.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 75 PkMn Trainer N3 ": {
-        "level": 75,
-        "ai": 7,
-        "noCh": false,
-        "tr_id": 784,
-        "ivs": {
-          "hp": 30,
-          "at": 30,
-          "df": 30,
-          "sa": 30,
-          "sd": 30,
-          "sp": 30
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Smooth Rock",
-        "nature": "Serious",
-        "moves": [
-          "Earth Power",
-          "Muddy Water",
-          "Ice Beam",
-          "Sandstorm"
-        ],
-        "sub_index": 1,
-        "ability": "Sand Force",
-        "sprite": "trainer_sprites/n.png",
-        "form": 0,
+        "form": 1,
         "evs": {
           "df": 0
         }
@@ -160188,7 +160125,7 @@ backup_data = {
           "Volt Switch"
         ],
         "sub_index": 0,
-        "ability": "Refrigerate",
+        "ability": "Levitate",
         "sprite": "trainer_sprites/victor.png",
         "form": 3,
         "evs": {
@@ -170243,7 +170180,7 @@ backup_data = {
           "Dragon Claw"
         ],
         "sub_index": 0,
-        "ability": "Resilient",
+        "ability": "Mold Breaker",
         "sprite": "trainer_sprites/teamplasma.png",
         "form": 0,
         "evs": {
@@ -179371,7 +179308,7 @@ backup_data = {
         "moves": [
           "Sludge Bomb",
           "Earth Power",
-          "Fire Punch",
+          "Flamethrower",
           "Solar Beam"
         ],
         "sub_index": 4,
@@ -187905,10 +187842,10 @@ backup_data = {
           "Flamethrower",
           "Beat Up",
           "Rock Tomb",
-          "Bulldoze"
+          "Work Up"
         ],
         "sub_index": 4,
-        "ability": "Determined",
+        "ability": "Sheer Force",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -187939,7 +187876,7 @@ backup_data = {
           "Rock Slide"
         ],
         "sub_index": 0,
-        "ability": "Determined",
+        "ability": "Sheer Force",
         "sprite": "trainer_sprites/rival.png",
         "form": 0,
         "evs": {
@@ -188230,6 +188167,70 @@ backup_data = {
         "sub_index": 0,
         "ability": "Shell Armor",
         "sprite": "trainer_sprites/mai.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Gastrodon": {
+      "Lvl 60 Lass Mai - Route 8": {
+        "level": 60,
+        "ai": 1,
+        "noCh": false,
+        "tr_id": 572,
+        "ivs": {
+          "hp": 0,
+          "at": 0,
+          "df": 0,
+          "sa": 0,
+          "sd": 0,
+          "sp": 0
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "-",
+        "nature": "Gentle",
+        "moves": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "sub_index": 2,
+        "ability": "Storm Drain",
+        "sprite": "trainer_sprites/mai.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 75 PkMn Trainer N3 ": {
+        "level": 75,
+        "ai": 7,
+        "noCh": false,
+        "tr_id": 784,
+        "ivs": {
+          "hp": 30,
+          "at": 30,
+          "df": 30,
+          "sa": 30,
+          "sd": 30,
+          "sp": 30
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "Smooth Rock",
+        "nature": "Serious",
+        "moves": [
+          "Earth Power",
+          "Muddy Water",
+          "Ice Beam",
+          "Sandstorm"
+        ],
+        "sub_index": 1,
+        "ability": "Sand Force",
+        "sprite": "trainer_sprites/n.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -190006,7 +190007,7 @@ backup_data = {
         "nature": "Mild",
         "moves": [
           "Headbutt",
-          "Rock Throw",
+          "Brutal Swing",
           "Rock Smash",
           "Rock Tomb"
         ],
@@ -190316,1229 +190317,1229 @@ backup_data = {
     }
   },
   "order": {
-    "162": {
-      "id": 162,
-      "next": 163,
-      "prev": null
-    },
-    "163": {
-      "id": 163,
-      "next": 161,
-      "prev": 162
-    },
-    "161": {
-      "id": 161,
-      "next": 164,
-      "prev": 163
-    },
-    "164": {
-      "id": 164,
-      "next": 165,
-      "prev": 161
-    },
-    "165": {
-      "id": 165,
-      "next": 392,
-      "prev": 164
-    },
-    "392": {
-      "id": 392,
-      "next": 166,
-      "prev": 165
-    },
-    "166": {
-      "id": 166,
-      "next": 167,
-      "prev": 392
-    },
-    "167": {
-      "id": 167,
-      "next": 168,
-      "prev": 166
-    },
-    "168": {
-      "id": 168,
-      "next": 181,
-      "prev": 167
-    },
-    "181": {
-      "id": 181,
-      "next": 182,
-      "prev": 168
-    },
-    "182": {
-      "id": 182,
-      "next": 180,
-      "prev": 181
-    },
-    "180": {
-      "id": 180,
-      "next": 772,
-      "prev": 182
-    },
-    "772": {
-      "id": 772,
-      "next": 747,
-      "prev": 180
-    },
-    "747": {
-      "id": 747,
-      "next": 748,
-      "prev": 772
-    },
-    "748": {
-      "id": 748,
-      "next": 749,
-      "prev": 747
-    },
-    "749": {
-      "id": 749,
-      "next": 750,
-      "prev": 748
-    },
-    "750": {
-      "id": 750,
-      "next": 169,
-      "prev": 749
-    },
-    "169": {
-      "id": 169,
-      "next": 170,
-      "prev": 750
-    },
-    "170": {
-      "id": 170,
-      "next": 764,
-      "prev": 169
-    },
-    "764": {
-      "id": 764,
-      "next": 633,
-      "prev": 170
-    },
+        "162": {
+        "id": 162,
+        "next": 163,
+        "prev": null
+        },
+        "163": {
+        "id": 163,
+        "next": 161,
+        "prev": 162
+        },
+        "161": {
+        "id": 161,
+        "next": 164,
+        "prev": 163
+        },
+        "164": {
+        "id": 164,
+        "next": 165,
+        "prev": 161
+        },
+        "165": {
+        "id": 165,
+        "next": 392,
+        "prev": 164
+        },
+        "392": {
+        "id": 392,
+        "next": 166,
+        "prev": 165
+        },
+        "166": {
+        "id": 166,
+        "next": 167,
+        "prev": 392
+        },
+        "167": {
+        "id": 167,
+        "next": 168,
+        "prev": 166
+        },
+        "168": {
+        "id": 168,
+        "next": 181,
+        "prev": 167
+        },
+        "181": {
+        "id": 181,
+        "next": 182,
+        "prev": 168
+        },
+        "182": {
+        "id": 182,
+        "next": 180,
+        "prev": 181
+        },
+        "180": {
+        "id": 180,
+        "next": 772,
+        "prev": 182
+        },
+        "772": {
+        "id": 772,
+        "next": 747,
+        "prev": 180
+        },
+        "747": {
+        "id": 747,
+        "next": 748,
+        "prev": 772
+        },
+        "748": {
+        "id": 748,
+        "next": 749,
+        "prev": 747
+        },
+        "749": {
+        "id": 749,
+        "next": 750,
+        "prev": 748
+        },
+        "750": {
+        "id": 750,
+        "next": 169,
+        "prev": 749
+        },
+        "169": {
+        "id": 169,
+        "next": 170,
+        "prev": 750
+        },
+        "170": {
+        "id": 170,
+        "next": 764,
+        "prev": 169
+        },
+        "764": {
+        "id": 764,
+        "next": 633,
+        "prev": 170
+        },
 
-    "633": {
-      "id": 633,
-      "next": 394,
-      "prev": 764
-    },
+        "633": {
+        "id": 633,
+        "next": 394,
+        "prev": 764
+        },
 
-    "394": {
-      "id": 394,
-      "next": 171,
-      "prev": 633
-    },
+        "394": {
+        "id": 394,
+        "next": 171,
+        "prev": 633
+        },
 
-    "171": {
-      "id": 171,
-      "next": 172,
-      "prev": 394
-    },
-    "172": {
-      "id": 172,
-      "next": 156,
-      "prev": 171
-    },
-    "156": {
-      "id": 156,
-      "next": 206,
-      "prev": 172
-    },
-    "206": {
-      "id": 206,
-      "next": 173,
-      "prev": 156
-    },
-     "173": {
-      "id": 173,
-      "next": 174,
-      "prev": 206
-    },
-     "174": {
-      "id": 174,
-      "next": 176,
-      "prev": 173
-    },
-     "176": {
-      "id": 176,
-      "next": 175,
-      "prev": 174
-    },
-     "175": {
-      "id": 175,
-      "next": 557,
-      "prev": 176
-    },
-     "557": {
-      "id": 557,
-      "next": 558,
-      "prev": 175
-    },
-     "558": {
-      "id": 558,
-      "next": 556,
-      "prev": 557
-    },
-     "556": {
-      "id": 556,
-      "next": 555,
-      "prev": 558
-    },
-    "555": {
-      "id": 555,
-      "next": 765,
-      "prev": 556
-    },
-     "765": {
-      "id": 765,
-      "next": 746,
-      "prev": 555
-    },
-     "746": {
-      "id": 746,
-      "next": 745,
-      "prev": 765
-    },
-     "745": {
-      "id": 745,
-      "next": 645,
-      "prev": 746
-    },
-    "645": {
-      "id": 645,
-      "next": 738,
-      "prev": 745
-    },
-     "738": {
-      "id": 738,
-      "next": 204,
-      "prev": 645
-    },
-     "204": {
-      "id": 204,
-      "next": 205,
-      "prev": 738
-    },
-     "205": {
-      "id": 205,
-      "next": 203,
-      "prev": 204
-    },
-     "203": {
-      "id": 203,
-      "next": 178,
-      "prev": 205
-    },
-    "178": {
-      "id": 178,
-      "next": 179,
-      "prev": 203
-    },
-     "179": {
-      "id": 179,
-      "next": 157,
-      "prev": 178
-    },
-     "157": {
-      "id": 157,
-      "next": 690,
-      "prev": 179
-    },
-     "690": {
-      "id": 690,
-      "next": 763,
-      "prev": 157
-    },
-     "763": {
-      "id": 763,
-      "next": 224,
-      "prev": 690
-    },
-     "224": {
-      "id": 224,
-      "next": 211,
-      "prev": 763
-    },
-     "211": {
-      "id": 211,
-      "next": 210,
-      "prev": 224
-    },
-     "210": {
-      "id": 210,
-      "next": 589,
-      "prev": 211
-    },
-     
+        "171": {
+        "id": 171,
+        "next": 172,
+        "prev": 394
+        },
+        "172": {
+        "id": 172,
+        "next": 156,
+        "prev": 171
+        },
+        "156": {
+        "id": 156,
+        "next": 206,
+        "prev": 172
+        },
+        "206": {
+        "id": 206,
+        "next": 173,
+        "prev": 156
+        },
+        "173": {
+        "id": 173,
+        "next": 174,
+        "prev": 206
+        },
+        "174": {
+        "id": 174,
+        "next": 176,
+        "prev": 173
+        },
+        "176": {
+        "id": 176,
+        "next": 175,
+        "prev": 174
+        },
+        "175": {
+        "id": 175,
+        "next": 557,
+        "prev": 176
+        },
+        "557": {
+        "id": 557,
+        "next": 558,
+        "prev": 175
+        },
+        "558": {
+        "id": 558,
+        "next": 556,
+        "prev": 557
+        },
+        "556": {
+        "id": 556,
+        "next": 555,
+        "prev": 558
+        },
+        "555": {
+        "id": 555,
+        "next": 765,
+        "prev": 556
+        },
+        "765": {
+        "id": 765,
+        "next": 746,
+        "prev": 555
+        },
+        "746": {
+        "id": 746,
+        "next": 745,
+        "prev": 765
+        },
+        "745": {
+        "id": 745,
+        "next": 645,
+        "prev": 746
+        },
+        "645": {
+        "id": 645,
+        "next": 738,
+        "prev": 745
+        },
+        "738": {
+        "id": 738,
+        "next": 204,
+        "prev": 645
+        },
+        "204": {
+        "id": 204,
+        "next": 205,
+        "prev": 738
+        },
+        "205": {
+        "id": 205,
+        "next": 203,
+        "prev": 204
+        },
+        "203": {
+        "id": 203,
+        "next": 178,
+        "prev": 205
+        },
+        "178": {
+        "id": 178,
+        "next": 179,
+        "prev": 203
+        },
+        "179": {
+        "id": 179,
+        "next": 157,
+        "prev": 178
+        },
+        "157": {
+        "id": 157,
+        "next": 690,
+        "prev": 179
+        },
+        "690": {
+        "id": 690,
+        "next": 763,
+        "prev": 157
+        },
+        "763": {
+        "id": 763,
+        "next": 224,
+        "prev": 690
+        },
+        "224": {
+        "id": 224,
+        "next": 211,
+        "prev": 763
+        },
+        "211": {
+        "id": 211,
+        "next": 210,
+        "prev": 224
+        },
+        "210": {
+        "id": 210,
+        "next": 589,
+        "prev": 211
+        },
+        
 
-     "589": {
-      "id": 589,
-      "next": 590,
-      "prev": 210
-    },
+        "589": {
+        "id": 589,
+        "next": 590,
+        "prev": 210
+        },
 
-     "590": {
-      "id": 590,
-      "next": 588,
-      "prev": 589
-    },
-         "588": {
-      "id": 588,
-      "next": 115,
-      "prev": 590
-    },
+        "590": {
+        "id": 590,
+        "next": 588,
+        "prev": 589
+        },
+            "588": {
+        "id": 588,
+        "next": 115,
+        "prev": 590
+        },
 
-    "115": {
-      "id": 115,
-      "next": 461,
-      "prev": 588
-    },
-         "461": {
-      "id": 461,
-      "next": 492,
-      "prev": 115
-    },
+        "115": {
+        "id": 115,
+        "next": 461,
+        "prev": 588
+        },
+            "461": {
+        "id": 461,
+        "next": 492,
+        "prev": 115
+        },
 
-    "492": {
-      "id": 492,
-      "next": 465,
-      "prev": 461
-    },
-    "465": {
-      "id": 465,
-      "next": 601,
-      "prev": 492
-    },
+        "492": {
+        "id": 492,
+        "next": 465,
+        "prev": 461
+        },
+        "465": {
+        "id": 465,
+        "next": 601,
+        "prev": 492
+        },
 
-    "601": {
-      "id": 601,
-      "next": 119,
-      "prev": 465
-    },
+        "601": {
+        "id": 601,
+        "next": 119,
+        "prev": 465
+        },
 
-    "119": {
-      "id": 119,
-      "next": 459,
-      "prev": 601
-    },
-    "459": {
-      "id": 459,
-      "next": 19,
-      "prev": 119
-    },
+        "119": {
+        "id": 119,
+        "next": 459,
+        "prev": 601
+        },
+        "459": {
+        "id": 459,
+        "next": 19,
+        "prev": 119
+        },
 
-    "19": {
-      "id": 19,
-      "next": 463,
-      "prev": 459
-    },
-    "463": {
-      "id": 463,
-      "next": 464,
-      "prev": 19
-    },
+        "19": {
+        "id": 19,
+        "next": 463,
+        "prev": 459
+        },
+        "463": {
+        "id": 463,
+        "next": 464,
+        "prev": 19
+        },
 
-    "464": {
-      "id": 464,
-      "next": 100,
-      "prev": 463
-    },
-    "100": {
-      "id": 100,
-      "next": 356,
-      "prev": 464
-    },
-    
-     "356": {
-      "id": 356,
-      "next": 342,
-      "prev": 100
-    },
-     "342": {
-      "id": 342,
-      "next": 465,
-      "prev": 356
-    },
-     "465": {
-      "id": 465,
-      "next": 461,
-      "prev": 342
-    },
-     "461": {
-      "id": 461,
-      "next": 567,
-      "prev": 465
-    },
-        "567": {
-      "id": 567,
-      "next": 568,
-      "prev": 461
-    },
-     "568": {
-      "id": 568,
-      "next": 563,
-      "prev": 567
-    },
-     "563": {
-      "id": 563,
-      "next": 501,
-      "prev": 568
-    },
-     "501": {
-      "id": 501,
-      "next": 691,
-      "prev": 563
-    },
-     "691": {
-      "id": 691,
-      "next": 692,
-      "prev": 501
-    },
-     "692": {
-      "id": 692,
-      "next": 502,
-      "prev": 691
-    },
-     "502": {
-      "id": 502,
-      "next": 503,
-      "prev": 692
-    },
-     "503": {
-      "id": 503,
-      "next": 766,
-      "prev": 502
-    },
-    "766": {
-      "id": 766,
-      "next": 734,
-      "prev": 503
-    },
-     "734": {
-      "id": 734,
-      "next": 735,
-      "prev": 766
-    },
-     "735": {
-      "id": 735,
-      "next": 736,
-      "prev": 734
-    },
-     "736": {
-      "id": 736,
-      "next": 737,
-      "prev": 735
-    },
-    "737": {
-      "id": 737,
-      "next": 154,
-      "prev": 736
-    },
-     "154": {
-      "id": 154,
-      "next": 358,
-      "prev": 737
-    },
-     "358": {
-      "id": 358,
-      "next": 226,
-      "prev": 154
-    },
-     "226": {
-      "id": 226,
-      "next": 221,
-      "prev": 358
-    },
-     "221": {
-      "id": 221,
-      "next": 225,
-      "prev": 226
-    },
-     "225": {
-      "id": 225,
-      "next": 214,
-      "prev": 221
-    },
-     "214": {
-      "id": 214,
-      "next": 223,
-      "prev": 225
-    },
-     "223": {
-      "id": 223,
-      "next": 222,
-      "prev": 214
-    },
-        "222": {
-      "id": 222,
-      "next": 147,
-      "prev": 223
-    },
-     "147": {
-      "id": 147,
-      "next": 773,
-      "prev": 222
-    },
-     "773": {
-      "id": 773,
-      "next": 666,
-      "prev": 147
-    },
-     "666": {
-      "id": 666,
-      "next": 667,
-      "prev": 773
-    },
-     "667": {
-      "id": 667,
-      "next": 668,
-      "prev": 666
-    },
-     "668": {
-      "id": 668,
-      "next": 511,
-      "prev": 667
-    },
-     "511": {
-      "id": 511,
-      "next": 664,
-      "prev": 668
-    },
-     "664": {
-      "id": 664,
-      "next": 663,
-      "prev": 511
-    },
+        "464": {
+        "id": 464,
+        "next": 100,
+        "prev": 463
+        },
+        "100": {
+        "id": 100,
+        "next": 356,
+        "prev": 464
+        },
+        
+        "356": {
+        "id": 356,
+        "next": 342,
+        "prev": 100
+        },
+        "342": {
+        "id": 342,
+        "next": 465,
+        "prev": 356
+        },
+        "465": {
+        "id": 465,
+        "next": 461,
+        "prev": 342
+        },
+        "461": {
+        "id": 461,
+        "next": 567,
+        "prev": 465
+        },
+            "567": {
+        "id": 567,
+        "next": 568,
+        "prev": 461
+        },
+        "568": {
+        "id": 568,
+        "next": 563,
+        "prev": 567
+        },
+        "563": {
+        "id": 563,
+        "next": 501,
+        "prev": 568
+        },
+        "501": {
+        "id": 501,
+        "next": 691,
+        "prev": 563
+        },
+        "691": {
+        "id": 691,
+        "next": 692,
+        "prev": 501
+        },
+        "692": {
+        "id": 692,
+        "next": 502,
+        "prev": 691
+        },
+        "502": {
+        "id": 502,
+        "next": 503,
+        "prev": 692
+        },
+        "503": {
+        "id": 503,
+        "next": 766,
+        "prev": 502
+        },
+        "766": {
+        "id": 766,
+        "next": 734,
+        "prev": 503
+        },
+        "734": {
+        "id": 734,
+        "next": 735,
+        "prev": 766
+        },
+        "735": {
+        "id": 735,
+        "next": 736,
+        "prev": 734
+        },
+        "736": {
+        "id": 736,
+        "next": 737,
+        "prev": 735
+        },
+        "737": {
+        "id": 737,
+        "next": 154,
+        "prev": 736
+        },
+        "154": {
+        "id": 154,
+        "next": 358,
+        "prev": 737
+        },
+        "358": {
+        "id": 358,
+        "next": 226,
+        "prev": 154
+        },
+        "226": {
+        "id": 226,
+        "next": 221,
+        "prev": 358
+        },
+        "221": {
+        "id": 221,
+        "next": 225,
+        "prev": 226
+        },
+        "225": {
+        "id": 225,
+        "next": 214,
+        "prev": 221
+        },
+        "214": {
+        "id": 214,
+        "next": 223,
+        "prev": 225
+        },
+        "223": {
+        "id": 223,
+        "next": 222,
+        "prev": 214
+        },
+            "222": {
+        "id": 222,
+        "next": 147,
+        "prev": 223
+        },
+        "147": {
+        "id": 147,
+        "next": 773,
+        "prev": 222
+        },
+        "773": {
+        "id": 773,
+        "next": 666,
+        "prev": 147
+        },
+        "666": {
+        "id": 666,
+        "next": 667,
+        "prev": 773
+        },
+        "667": {
+        "id": 667,
+        "next": 668,
+        "prev": 666
+        },
+        "668": {
+        "id": 668,
+        "next": 511,
+        "prev": 667
+        },
+        "511": {
+        "id": 511,
+        "next": 664,
+        "prev": 668
+        },
+        "664": {
+        "id": 664,
+        "next": 663,
+        "prev": 511
+        },
 
-       "663": {
-      "id": 663,
-      "next": 669,
-      "prev": 664
-    },
-     "669": {
-      "id": 669,
-      "next": 512,
-      "prev": 663
-    },
-     "512": {
-      "id": 512,
-      "next": 510,
-      "prev": 669
-    },
-     "510": {
-      "id": 510,
-      "next": 790,
-      "prev": 512
-    },
-        "790": {
-      "id": 790,
-      "next": 13,
-      "prev": 510
-    },
-     "13": {
-      "id": 13,
-      "next": 59,
-      "prev": 790
-    },
-     "59": {
-      "id": 59,
-      "next": 60,
-      "prev": 13
-    },
-     "60": {
-      "id": 60,
-      "next": 61,
-      "prev": 59
-    },
-     "61": {
-      "id": 61,
-      "next": 248,
-      "prev": 60
-    },
-     "248": {
-      "id": 248,
-      "next": 48,
-      "prev": 61
-    },
-     "48": {
-      "id": 48,
-      "next": 251,
-      "prev": 248
-    },
-     "251": {
-      "id": 251,
-      "next": 732,
-      "prev": 48
-    },
-        "732": {
-      "id": 732,
-      "next": 733,
-      "prev": 251
-    },
-     "733": {
-      "id": 733,
-      "next": 361,
-      "prev": 732
-    },
-     "361": {
-      "id": 361,
-      "next": 362,
-      "prev": 733
-    },
-     "362": {
-      "id": 362,
-      "next": 360,
-      "prev": 361
-    },
-     "360": {
-      "id": 360,
-      "next": 364,
-      "prev": 362
-    },
-     "364": {
-      "id": 364,
-      "next": 365,
-      "prev": 360
-    },
-     "365": {
-      "id": 365,
-      "next": 363,
-      "prev": 364
-    },
-     "363": {
-      "id": 363,
-      "next": 29,
-      "prev": 365
-    },
-    "29": {
-      "id": 29,
-      "next": 30,
-      "prev": 363
-    },
-    "30": {
-      "id": 30,
-      "next": 49,
-      "prev": 29
-    },
-    "49": {
-      "id": 49,
-      "next": 51,
-      "prev": 30
-    },
+        "663": {
+        "id": 663,
+        "next": 669,
+        "prev": 664
+        },
+        "669": {
+        "id": 669,
+        "next": 512,
+        "prev": 663
+        },
+        "512": {
+        "id": 512,
+        "next": 510,
+        "prev": 669
+        },
+        "510": {
+        "id": 510,
+        "next": 790,
+        "prev": 512
+        },
+            "790": {
+        "id": 790,
+        "next": 13,
+        "prev": 510
+        },
+        "13": {
+        "id": 13,
+        "next": 59,
+        "prev": 790
+        },
+        "59": {
+        "id": 59,
+        "next": 60,
+        "prev": 13
+        },
+        "60": {
+        "id": 60,
+        "next": 61,
+        "prev": 59
+        },
+        "61": {
+        "id": 61,
+        "next": 248,
+        "prev": 60
+        },
+        "248": {
+        "id": 248,
+        "next": 48,
+        "prev": 61
+        },
+        "48": {
+        "id": 48,
+        "next": 251,
+        "prev": 248
+        },
+        "251": {
+        "id": 251,
+        "next": 732,
+        "prev": 48
+        },
+            "732": {
+        "id": 732,
+        "next": 733,
+        "prev": 251
+        },
+        "733": {
+        "id": 733,
+        "next": 361,
+        "prev": 732
+        },
+        "361": {
+        "id": 361,
+        "next": 362,
+        "prev": 733
+        },
+        "362": {
+        "id": 362,
+        "next": 360,
+        "prev": 361
+        },
+        "360": {
+        "id": 360,
+        "next": 364,
+        "prev": 362
+        },
+        "364": {
+        "id": 364,
+        "next": 365,
+        "prev": 360
+        },
+        "365": {
+        "id": 365,
+        "next": 363,
+        "prev": 364
+        },
+        "363": {
+        "id": 363,
+        "next": 29,
+        "prev": 365
+        },
+        "29": {
+        "id": 29,
+        "next": 30,
+        "prev": 363
+        },
+        "30": {
+        "id": 30,
+        "next": 49,
+        "prev": 29
+        },
+        "49": {
+        "id": 49,
+        "next": 51,
+        "prev": 30
+        },
 
-    "51": {
-      "id": 51,
-      "next": 52,
-      "prev": 49
-    },
+        "51": {
+        "id": 51,
+        "next": 52,
+        "prev": 49
+        },
 
-    "52": {
-      "id": 52,
-      "next": 53,
-      "prev": 51
-    },
-    "53": {
-      "id": 53,
-      "next": 253,
-      "prev": 52
-    },
-       "253": {
-      "id": 253,
-      "next": 254,
-      "prev": 53
-    },
-     "254": {
-      "id": 254,
-      "next": 293,
-      "prev": 253
-    },
-     "293": {
-      "id": 293,
-      "next": 262,
-      "prev": 254
-    },
-     "262": {
-      "id": 262,
-      "next": 260,
-      "prev": 293
-    },
-        "260": {
-      "id": 260,
-      "next": 261,
-      "prev": 262
-    },
-     "261": {
-      "id": 261,
-      "next": 257,
-      "prev": 260
-    },
-     "257": {
-      "id": 257,
-      "next": 217,
-      "prev": 261
-    },
-     "217": {
-      "id": 217,
-      "next": 297,
-      "prev": 257
-    },
-     "297": {
-      "id": 297,
-      "next": 298,
-      "prev": 217
-    },
-     "298": {
-      "id": 298,
-      "next": 767,
-      "prev": 297
-    },
-     "767": {
-      "id": 767,
-      "next": 621,
-      "prev": 298
-    },
-     "621": {
-      "id": 621,
-      "next": 148,
-      "prev": 767
-    },
-        "148": {
-      "id": 148,
-      "next": 207,
-      "prev": 621
-    },
-     "207": {
-      "id": 207,
-      "next": 208,
-      "prev": 148
-    },
-     "208": {
-      "id": 208,
-      "next": 209,
-      "prev": 207
-    },
-     "209": {
-      "id": 209,
-      "next": 153,
-      "prev": 208
-    },
-     "153": {
-      "id": 153,
-      "next": 359,
-      "prev": 209
-    },
-     "359": {
-      "id": 359,
-      "next": 751,
-      "prev": 153
-    },
-     "751": {
-      "id": 751,
-      "next": 340,
-      "prev": 359
-    },
-     "340": {
-      "id": 340,
-      "next": 63,
-      "prev": 751
-    },
+        "52": {
+        "id": 52,
+        "next": 53,
+        "prev": 51
+        },
+        "53": {
+        "id": 53,
+        "next": 253,
+        "prev": 52
+        },
+        "253": {
+        "id": 253,
+        "next": 254,
+        "prev": 53
+        },
+        "254": {
+        "id": 254,
+        "next": 293,
+        "prev": 253
+        },
+        "293": {
+        "id": 293,
+        "next": 262,
+        "prev": 254
+        },
+        "262": {
+        "id": 262,
+        "next": 260,
+        "prev": 293
+        },
+            "260": {
+        "id": 260,
+        "next": 261,
+        "prev": 262
+        },
+        "261": {
+        "id": 261,
+        "next": 257,
+        "prev": 260
+        },
+        "257": {
+        "id": 257,
+        "next": 217,
+        "prev": 261
+        },
+        "217": {
+        "id": 217,
+        "next": 297,
+        "prev": 257
+        },
+        "297": {
+        "id": 297,
+        "next": 298,
+        "prev": 217
+        },
+        "298": {
+        "id": 298,
+        "next": 767,
+        "prev": 297
+        },
+        "767": {
+        "id": 767,
+        "next": 621,
+        "prev": 298
+        },
+        "621": {
+        "id": 621,
+        "next": 148,
+        "prev": 767
+        },
+            "148": {
+        "id": 148,
+        "next": 207,
+        "prev": 621
+        },
+        "207": {
+        "id": 207,
+        "next": 208,
+        "prev": 148
+        },
+        "208": {
+        "id": 208,
+        "next": 209,
+        "prev": 207
+        },
+        "209": {
+        "id": 209,
+        "next": 153,
+        "prev": 208
+        },
+        "153": {
+        "id": 153,
+        "next": 359,
+        "prev": 209
+        },
+        "359": {
+        "id": 359,
+        "next": 751,
+        "prev": 153
+        },
+        "751": {
+        "id": 751,
+        "next": 340,
+        "prev": 359
+        },
+        "340": {
+        "id": 340,
+        "next": 63,
+        "prev": 751
+        },
 
-       "63": {
-      "id": 63,
-      "next": 65,
-      "prev": 340
-    },
-     "65": {
-      "id": 65,
-      "next": 14,
-      "prev": 63
-    },
-     "14": {
-      "id": 14,
-      "next": 58,
-      "prev": 65
-    },
-     "58": {
-      "id": 58,
-      "next": 50,
-      "prev": 14
-    },
-        "50": {
-      "id": 50,
-      "next": 249,
-      "prev": 58
-    },
-     "249": {
-      "id": 249,
-      "next": 679,
-      "prev": 50
-    },
-     "679": {
-      "id": 679,
-      "next": 670,
-      "prev": 249
-    },
-     "670": {
-      "id": 670,
-      "next": 68,
-      "prev": 679
-    },
-     "68": {
-      "id": 68,
-      "next": 71,
-      "prev": 670
-    },
-     "71": {
-      "id": 71,
-      "next": 56,
-      "prev": 68
-    },
-     "56": {
-      "id": 56,
-      "next": 57,
-      "prev": 71
-    },
-     "57": {
-      "id": 57,
-      "next": 255,
-      "prev": 56
-    },
-        "255": {
-      "id": 255,
-      "next": 252,
-      "prev": 57
-    },
-     "252": {
-      "id": 252,
-      "next": 256,
-      "prev": 255
-    },
-     "256": {
-      "id": 256,
-      "next": 346,
-      "prev": 252
-    },
-     "346": {
-      "id": 346,
-      "next": 768,
-      "prev": 256
-    },
-     "768": {
-      "id": 768,
-      "next": 267,
-      "prev": 346
-    },
-     "267": {
-      "id": 267,
-      "next": 527,
-      "prev": 768
-    },
-     "527": {
-      "id": 527,
-      "next": 324,
-      "prev": 267
-    },
-     "324": {
-      "id": 324,
-      "next": 323,
-      "prev": 527
-    },
+        "63": {
+        "id": 63,
+        "next": 65,
+        "prev": 340
+        },
+        "65": {
+        "id": 65,
+        "next": 14,
+        "prev": 63
+        },
+        "14": {
+        "id": 14,
+        "next": 58,
+        "prev": 65
+        },
+        "58": {
+        "id": 58,
+        "next": 50,
+        "prev": 14
+        },
+            "50": {
+        "id": 50,
+        "next": 249,
+        "prev": 58
+        },
+        "249": {
+        "id": 249,
+        "next": 679,
+        "prev": 50
+        },
+        "679": {
+        "id": 679,
+        "next": 670,
+        "prev": 249
+        },
+        "670": {
+        "id": 670,
+        "next": 68,
+        "prev": 679
+        },
+        "68": {
+        "id": 68,
+        "next": 71,
+        "prev": 670
+        },
+        "71": {
+        "id": 71,
+        "next": 56,
+        "prev": 68
+        },
+        "56": {
+        "id": 56,
+        "next": 57,
+        "prev": 71
+        },
+        "57": {
+        "id": 57,
+        "next": 255,
+        "prev": 56
+        },
+            "255": {
+        "id": 255,
+        "next": 252,
+        "prev": 57
+        },
+        "252": {
+        "id": 252,
+        "next": 256,
+        "prev": 255
+        },
+        "256": {
+        "id": 256,
+        "next": 346,
+        "prev": 252
+        },
+        "346": {
+        "id": 346,
+        "next": 768,
+        "prev": 256
+        },
+        "768": {
+        "id": 768,
+        "next": 267,
+        "prev": 346
+        },
+        "267": {
+        "id": 267,
+        "next": 527,
+        "prev": 768
+        },
+        "527": {
+        "id": 527,
+        "next": 324,
+        "prev": 267
+        },
+        "324": {
+        "id": 324,
+        "next": 323,
+        "prev": 527
+        },
 
-       "323": {
-      "id": 323,
-      "next": 322,
-      "prev": 324
-    },
-     "322": {
-      "id": 322,
-      "next": 321,
-      "prev": 323
-    },
-     "321": {
-      "id": 321,
-      "next": 320,
-      "prev": 322
-    },
-     "320": {
-      "id": 320,
-      "next": 319,
-      "prev": 321
-    },
-        "319": {
-      "id": 319,
-      "next": 325,
-      "prev": 320
-    },
-     "325": {
-      "id": 325,
-      "next": 158,
-      "prev": 319
-    },
-     "158": {
-      "id": 158,
-      "next": 739,
-      "prev": 325
-    },
-     "739": {
-      "id": 739,
-      "next": 566,
-      "prev": 158
-    },
-     "566": {
-      "id": 566,
-      "next": 564,
-      "prev": 739
-    },
-     "564": {
-      "id": 564,
-      "next": 562,
-      "prev": 566
-    },
-     "562": {
-      "id": 562,
-      "next": 561,
-      "prev": 564
-    },
-     "561": {
-      "id": 561,
-      "next": 565,
-      "prev": 562
-    },
-        "565": {
-      "id": 565,
-      "next": 569,
-      "prev": 561
-    },
-     "569": {
-      "id": 569,
-      "next": 570,
-      "prev": 565
-    },
-     "570": {
-      "id": 570,
-      "next": 634,
-      "prev": 569
-    },
-     "634": {
-      "id": 634,
-      "next": 372,
-      "prev": 570
-    },
-     "372": {
-      "id": 372,
-      "next": 374,
-      "prev": 634
-    },
-     "374": {
-      "id": 374,
-      "next": 375,
-      "prev": 372
-    },
-     "375": {
-      "id": 375,
-      "next": 371,
-      "prev": 374
-    },
-     "371": {
-      "id": 371,
-      "next": 376,
-      "prev": 375
-    },
-    "376": {
-      "id": 376,
-      "next": 377,
-      "prev": 371
-    },
-        "377": {
-      "id": 377,
-      "next": 369,
-      "prev": 376
-    },
-        "369": {
-      "id": 369,
-      "next": 370,
-      "prev": 377
-    },
-        "370": {
-      "id": 370,
-      "next": 368,
-      "prev": 369
-    },
-        "368": {
-      "id": 368,
-      "next": 215,
-      "prev": 370
-    },
-        "215": {
-      "id": 215,
-      "next": 268,
-      "prev": 368
-    },
-        "215": {
-      "id": 215,
-      "next": 410,
-      "prev": 368
-    },
-    "410": {
-      "id": 410,
-      "next": 263,
-      "prev": 215
-    },
-        "263": {
-      "id": 263,
-      "next": 264,
-      "prev": 410
-    },
-        "264": {
-      "id": 264,
-      "next": 292,
-      "prev": 263
-    },
-        "292": {
-      "id": 292,
-      "next": 266,
-      "prev": 264
-    },
-        "266": {
-      "id": 266,
-      "next": 265,
-      "prev": 292
-    },
-        "265": {
-      "id": 265,
-      "next": 487,
-      "prev": 266
-    },
-        "487": {
-      "id": 487,
-      "next": 488,
-      "prev": 265
-    },
-        "488": {
-      "id": 488,
-      "next": 489,
-      "prev": 487
-    },
-        "489": {
-      "id": 489,
-      "next": 681,
-      "prev": 488
-    },
-        "681": {
-      "id": 681,
-      "next": 680,
-      "prev": 489
-    },
-        "680": {
-      "id": 680,
-      "next": 682,
-      "prev": 681
-    },
-        "682": {
-      "id": 682,
-      "next": 683,
-      "prev": 680
-    },
-        "683": {
-      "id": 683,
-      "next": 491,
-      "prev": 682
-    },
-        "491": {
-      "id": 491,
-      "next": 537,
-      "prev": 683
-    },
-        "537": {
-      "id": 537,
-      "next": 743,
-      "prev": 491
-    },
-        "743": {
-      "id": 743,
-      "next": 539,
-      "prev": 537
-    },
-        "539": {
-      "id": 539,
-      "next": 741,
-      "prev": 743
-    },
-        "741": {
-      "id": 741,
-      "next": 544,
-      "prev": 539
-    },
-        "544": {
-      "id": 544,
-      "next": 541,
-      "prev": 741
-    },
-        "541": {
-      "id": 541,
-      "next": 542,
-      "prev": 544
-    },
-        "542": {
-      "id": 542,
-      "next": 671,
-      "prev": 541
-    },
-        "671": {
-      "id": 671,
-      "next": 543,
-      "prev": 542
-    },
-        "543": {
-      "id": 543,
-      "next": 742,
-      "prev": 671
-    },
-        "742": {
-      "id": 742,
-      "next": 744,
-      "prev": 543
-    },
-        "744": {
-      "id": 744,
-      "next": 16,
-      "prev": 742
-    },
-        "16": {
-      "id": 16,
-      "next": 740,
-      "prev": 744
-    },
-        "740": {
-      "id": 740,
-      "next": 547,
-      "prev": 16
-    },
-        "547": {
-      "id": 547,
-      "next": 545,
-      "prev": 740
-    },
-        "545": {
-      "id": 545,
-      "next": 493,
-      "prev": 547
-    },
-        "493": {
-      "id": 493,
-      "next": 593,
-      "prev": 545
-    },
-        "593": {
-      "id": 593,
-      "next": 413,
-      "prev": 493
-    },
-        "413": {
-      "id": 413,
-      "next": 548,
-      "prev": 593
-    },
-        "548": {
-      "id": 548,
-      "next": 272,
-      "prev": 413
-    },
-        "272": {
-      "id": 272,
-      "next": 273,
-      "prev": 548
-    },
-        "273": {
-      "id": 273,
-      "next": 271,
-      "prev": 272
-    },
-        "271": {
-      "id": 271,
-      "next": 275,
-      "prev": 273
-    },
-        "275": {
-      "id": 275,
-      "next": 276,
-      "prev": 271
-    },
-        "276": {
-      "id": 276,
-      "next": 274,
-      "prev": 275
-    },
-        "274": {
-      "id": 274,
-      "next": 552,
-      "prev": 276
-    },
-        "552": {
-      "id": 552,
-      "next": 551,
-      "prev": 274
-    },
-        "551": {
-      "id": 551,
-      "next": 549,
-      "prev": 552
-    },
-        "549": {
-      "id": 549,
-      "next": 550,
-      "prev": 551
-    },
-        "550": {
-      "id": 550,
-      "next": 553,
-      "prev": 549
-    },
-        "553": {
-      "id": 553,
-      "next": 554,
-      "prev": 550
-    },
-        "554": {
-      "id": 554,
-      "next": 769,
-      "prev": 553
-    },
-        "769": {
-      "id": 769,
-      "next": 149,
-      "prev": 554
-    },
-        "149": {
-      "id": 149,
-      "next": 150,
-      "prev": 769
-    },
-        "150": {
-      "id": 150,
-      "next": 332,
-      "prev": 149
-    },
-        "332": {
-      "id": 332,
-      "next": 151,
-      "prev": 150
-    },
-        "151": {
-      "id": 151,
-      "next": 152,
-      "prev": 332
-    },
-        "152": {
-      "id": 152,
-      "next": 155,
-      "prev": 151
-    },
-        "155": {
-      "id": 155,
-      "next": null,
-      "prev": 152
+        "323": {
+        "id": 323,
+        "next": 322,
+        "prev": 324
+        },
+        "322": {
+        "id": 322,
+        "next": 321,
+        "prev": 323
+        },
+        "321": {
+        "id": 321,
+        "next": 320,
+        "prev": 322
+        },
+        "320": {
+        "id": 320,
+        "next": 319,
+        "prev": 321
+        },
+            "319": {
+        "id": 319,
+        "next": 325,
+        "prev": 320
+        },
+        "325": {
+        "id": 325,
+        "next": 158,
+        "prev": 319
+        },
+        "158": {
+        "id": 158,
+        "next": 739,
+        "prev": 325
+        },
+        "739": {
+        "id": 739,
+        "next": 566,
+        "prev": 158
+        },
+        "566": {
+        "id": 566,
+        "next": 564,
+        "prev": 739
+        },
+        "564": {
+        "id": 564,
+        "next": 562,
+        "prev": 566
+        },
+        "562": {
+        "id": 562,
+        "next": 561,
+        "prev": 564
+        },
+        "561": {
+        "id": 561,
+        "next": 565,
+        "prev": 562
+        },
+            "565": {
+        "id": 565,
+        "next": 569,
+        "prev": 561
+        },
+        "569": {
+        "id": 569,
+        "next": 570,
+        "prev": 565
+        },
+        "570": {
+        "id": 570,
+        "next": 634,
+        "prev": 569
+        },
+        "634": {
+        "id": 634,
+        "next": 372,
+        "prev": 570
+        },
+        "372": {
+        "id": 372,
+        "next": 374,
+        "prev": 634
+        },
+        "374": {
+        "id": 374,
+        "next": 375,
+        "prev": 372
+        },
+        "375": {
+        "id": 375,
+        "next": 371,
+        "prev": 374
+        },
+        "371": {
+        "id": 371,
+        "next": 376,
+        "prev": 375
+        },
+        "376": {
+        "id": 376,
+        "next": 377,
+        "prev": 371
+        },
+            "377": {
+        "id": 377,
+        "next": 369,
+        "prev": 376
+        },
+            "369": {
+        "id": 369,
+        "next": 370,
+        "prev": 377
+        },
+            "370": {
+        "id": 370,
+        "next": 368,
+        "prev": 369
+        },
+            "368": {
+        "id": 368,
+        "next": 215,
+        "prev": 370
+        },
+            "215": {
+        "id": 215,
+        "next": 268,
+        "prev": 368
+        },
+            "215": {
+        "id": 215,
+        "next": 410,
+        "prev": 368
+        },
+        "410": {
+        "id": 410,
+        "next": 263,
+        "prev": 215
+        },
+            "263": {
+        "id": 263,
+        "next": 264,
+        "prev": 410
+        },
+            "264": {
+        "id": 264,
+        "next": 292,
+        "prev": 263
+        },
+            "292": {
+        "id": 292,
+        "next": 266,
+        "prev": 264
+        },
+            "266": {
+        "id": 266,
+        "next": 265,
+        "prev": 292
+        },
+            "265": {
+        "id": 265,
+        "next": 487,
+        "prev": 266
+        },
+            "487": {
+        "id": 487,
+        "next": 488,
+        "prev": 265
+        },
+            "488": {
+        "id": 488,
+        "next": 489,
+        "prev": 487
+        },
+            "489": {
+        "id": 489,
+        "next": 681,
+        "prev": 488
+        },
+            "681": {
+        "id": 681,
+        "next": 680,
+        "prev": 489
+        },
+            "680": {
+        "id": 680,
+        "next": 682,
+        "prev": 681
+        },
+            "682": {
+        "id": 682,
+        "next": 683,
+        "prev": 680
+        },
+            "683": {
+        "id": 683,
+        "next": 491,
+        "prev": 682
+        },
+            "491": {
+        "id": 491,
+        "next": 537,
+        "prev": 683
+        },
+            "537": {
+        "id": 537,
+        "next": 743,
+        "prev": 491
+        },
+            "743": {
+        "id": 743,
+        "next": 539,
+        "prev": 537
+        },
+            "539": {
+        "id": 539,
+        "next": 741,
+        "prev": 743
+        },
+            "741": {
+        "id": 741,
+        "next": 544,
+        "prev": 539
+        },
+            "544": {
+        "id": 544,
+        "next": 541,
+        "prev": 741
+        },
+            "541": {
+        "id": 541,
+        "next": 542,
+        "prev": 544
+        },
+            "542": {
+        "id": 542,
+        "next": 671,
+        "prev": 541
+        },
+            "671": {
+        "id": 671,
+        "next": 543,
+        "prev": 542
+        },
+            "543": {
+        "id": 543,
+        "next": 742,
+        "prev": 671
+        },
+            "742": {
+        "id": 742,
+        "next": 744,
+        "prev": 543
+        },
+            "744": {
+        "id": 744,
+        "next": 16,
+        "prev": 742
+        },
+            "16": {
+        "id": 16,
+        "next": 740,
+        "prev": 744
+        },
+            "740": {
+        "id": 740,
+        "next": 547,
+        "prev": 16
+        },
+            "547": {
+        "id": 547,
+        "next": 545,
+        "prev": 740
+        },
+            "545": {
+        "id": 545,
+        "next": 493,
+        "prev": 547
+        },
+            "493": {
+        "id": 493,
+        "next": 593,
+        "prev": 545
+        },
+            "593": {
+        "id": 593,
+        "next": 413,
+        "prev": 493
+        },
+            "413": {
+        "id": 413,
+        "next": 548,
+        "prev": 593
+        },
+            "548": {
+        "id": 548,
+        "next": 272,
+        "prev": 413
+        },
+            "272": {
+        "id": 272,
+        "next": 273,
+        "prev": 548
+        },
+            "273": {
+        "id": 273,
+        "next": 271,
+        "prev": 272
+        },
+            "271": {
+        "id": 271,
+        "next": 275,
+        "prev": 273
+        },
+            "275": {
+        "id": 275,
+        "next": 276,
+        "prev": 271
+        },
+            "276": {
+        "id": 276,
+        "next": 274,
+        "prev": 275
+        },
+            "274": {
+        "id": 274,
+        "next": 552,
+        "prev": 276
+        },
+            "552": {
+        "id": 552,
+        "next": 551,
+        "prev": 274
+        },
+            "551": {
+        "id": 551,
+        "next": 549,
+        "prev": 552
+        },
+            "549": {
+        "id": 549,
+        "next": 550,
+        "prev": 551
+        },
+            "550": {
+        "id": 550,
+        "next": 553,
+        "prev": 549
+        },
+            "553": {
+        "id": 553,
+        "next": 554,
+        "prev": 550
+        },
+            "554": {
+        "id": 554,
+        "next": 769,
+        "prev": 553
+        },
+            "769": {
+        "id": 769,
+        "next": 149,
+        "prev": 554
+        },
+            "149": {
+        "id": 149,
+        "next": 150,
+        "prev": 769
+        },
+            "150": {
+        "id": 150,
+        "next": 332,
+        "prev": 149
+        },
+            "332": {
+        "id": 332,
+        "next": 151,
+        "prev": 150
+        },
+            "151": {
+        "id": 151,
+        "next": 152,
+        "prev": 332
+        },
+            "152": {
+        "id": 152,
+        "next": 155,
+        "prev": 151
+        },
+            "155": {
+        "id": 155,
+        "next": null,
+        "prev": 152
+        }
+
     }
-
-  }
 }
