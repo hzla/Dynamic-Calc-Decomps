@@ -257,6 +257,12 @@
 	width:  calc(100% - 180px);
 }
 
+.encounter-locations:hover {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #bd93f9;
+}
+
 .doc-enc {
 	cursor: pointer;
 	border:  2px solid transparent;

@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 // LOCAL CALC MODE
 // IMAGE_FOLDER = "img"
-// DEX_URL = "http://localhost:3001" 
+// DEX_URL = "http://localhost:3000" 
 // CALC_URL = "http://localhost:3002?data=casc"
 
 function renderMasterData(masterData, trainersById, encountersById) {
@@ -722,6 +722,12 @@ $(document).ready(function() {
 
     $('.doc-sprite, .doc-species').click(function() {
       let speciesName = cleanString(extractPokemonName($(this).parent().find('.doc-species').text()))
+      loadDexPage("pokemon", speciesName)
+    })
+
+    $('.wild').click(function(e) {
+      e.stopPropagation()
+      let speciesName = cleanString($(this).attr('data-species-name'))
       loadDexPage("pokemon", speciesName)
     })
 
