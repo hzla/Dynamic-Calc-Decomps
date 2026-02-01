@@ -18,10 +18,12 @@
 // CALC_URL = "http://localhost:3002?data=casc"
 
 // LIVE CALC MODE
-// IMAGE_FOLDER = "img"
-gameDataSlug = "casc" //TODO: make customizable in future
-DEX_URL = `https://https://ddex-chi.vercel.app/?game=${cleanString(TITLE)}`
-CALC_URL = `https://hzla.github.io/Dynamic-Calc-Decomps?data=${gameDataSlug}`
+$(document).ready(function() {
+  IMAGE_FOLDER = "img"
+  gameDataSlug = "casc" //TODO: make customizable in future
+  DEX_URL = `https://https://ddex-chi.vercel.app/?game=cascadewhite`
+  CALC_URL = `https://hzla.github.io/Dynamic-Calc-Decomps?data=${gameDataSlug}`
+})
 
 // LOCAL CALC MODE
 // IMAGE_FOLDER = "img"
