@@ -21,7 +21,7 @@
 $(document).ready(function() {
   IMAGE_FOLDER = "img"
   gameDataSlug = "casc" //TODO: make customizable in future
-  DEX_URL = `https://ddex-chi.vercel.app/?game=cascadewhite`
+  DEX_URL = `https://ddex-chi.vercel.app`
   CALC_URL = `https://hzla.github.io/Dynamic-Calc-Decomps?data=${gameDataSlug}`
 })
 
