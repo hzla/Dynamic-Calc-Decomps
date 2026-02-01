@@ -19,13 +19,14 @@
 
 // LIVE CALC MODE
 // IMAGE_FOLDER = "img"
-// DEX_URL = "https://https://ddex-chi.vercel.app"
-// CALC_URL = "https://hzla.github.io/Dynamic-Calc-Decomps"
+gameDataSlug = "casc" //TODO: make customizable in future
+DEX_URL = `https://https://ddex-chi.vercel.app/?game=${cleanString(TITLE)}`
+CALC_URL = `https://hzla.github.io/Dynamic-Calc-Decomps?data=${gameDataSlug}`
 
 // LOCAL CALC MODE
-IMAGE_FOLDER = "img"
-DEX_URL = "http://localhost:3001" 
-CALC_URL = "http://localhost:3002?data=casc"
+// IMAGE_FOLDER = "img"
+// DEX_URL = "http://localhost:3001" 
+// CALC_URL = "http://localhost:3002?data=casc"
 
 function renderMasterData(masterData, trainersById, encountersById) {
   let html = "";
