@@ -59,6 +59,8 @@ function get_next_in_g5() {
                        
             if (TITLE.includes("Cascade")) {
 
+                
+                // Type change modifiers
                 var isAerilate = false;
                 var isPixilate = false;
                 var isRefrigerate = false;
@@ -68,7 +70,6 @@ function get_next_in_g5() {
                 var hasAteTypeChange = false;
                 var noTypeChange = move.named('Judgment', 'Nature Power', 'Techo Blast', 'Natural Gift', 'Weather Ball');
 
-                
                 if (!noTypeChange) {
                     var normal = move.hasType('Normal');
                     if ((isAerilate = opposing.hasAbility('Aerilate') && normal)) {
@@ -98,6 +99,7 @@ function get_next_in_g5() {
                     moveBp *= 1.2
                 }
 
+                // AI ability Modifiers
                 if (opposing.hasAbility("Technician") && moveBp <= 60) {
                     moveBp *= 1.5
                 }
@@ -109,6 +111,7 @@ function get_next_in_g5() {
                 if(opposing.hasAbility("Tenacity") && type_info[move.type] < 1) {
                     moveBp *= 2
                 }
+
 
                 // Move specific modifiers
                 if (move.named("Eruption", "Water Spout")) {
@@ -225,7 +228,7 @@ function get_next_in_g5() {
                     type_info = get_type_info([player_type1, player_type2], moveName)
                 }
 
-                if (type_info < 1 && opposing.hasAbility("Tenacity")) {
+                if (type_info[move.type] < 1 && opposing.hasAbility("Tenacity")) {
                     moveBp *= 2
                 }
             }

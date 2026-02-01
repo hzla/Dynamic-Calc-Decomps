@@ -1826,6 +1826,7 @@ table.field {
     justify-content: space-between;
     max-width: 1680px;
     margin: 0 auto;
+    padding: 0px 20px;
 }
 
 .footer-title {

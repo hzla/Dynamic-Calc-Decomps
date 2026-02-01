@@ -130,6 +130,7 @@ SOURCES = {
 
 $(document).ready(function() {
   $('.genSelection').hide()
+  console.log(TITLE)
   if (backupFiles[TITLE]) {
     // Load hardcoded calc data if present
     checkAndLoadScript(`./backups/${backupFiles[TITLE]}.js`, {
