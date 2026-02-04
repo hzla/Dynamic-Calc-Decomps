@@ -422,6 +422,7 @@ function compressTrainerPok(pok) {
         'l': pok.level,
         'a': pok.ability,
         's': pok.name,
+        "i": pok.item,
         'm0': pok.moves[0].name,
         'm1': pok.moves[1].name,
         'm2': pok.moves[2].name,

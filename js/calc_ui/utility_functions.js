@@ -82,6 +82,8 @@ function hashPokemonPair(arr) {
   h = hashStr(h, o2.a);
   h = hashStr(h, o2.s);
 
+  h = hashStr(h, o2.i);
+
   h = hashStr(h, o2.m0);
   h = hashStr(h, o2.m1);
   h = hashStr(h, o2.m2);
@@ -89,6 +91,7 @@ function hashPokemonPair(arr) {
 
   return (h >>> 0).toString(16).padStart(8, '0');
 }
+
 
 function updateBoxAnim() {
     // Shake box
