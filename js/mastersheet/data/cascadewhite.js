@@ -1507,8 +1507,8 @@ masterData =
     "itemList": [
       "Pokéball",
       "maxpotion",
-      "+1soda",
-      "+5 Soda"
+      "lemonade",
+      "soda pop"
     ],
     "itemDescriptions": [
       "Pokéball",
@@ -1531,11 +1531,17 @@ masterData =
     "itemsDescription": "",
     "itemList": [
       "superrod",
-      "Pokéball"
+      "Pokéball",
+      "maxpotion",
+      "rare candy",
+      "rare candy"
     ],
     "itemDescriptions": [
       "Super Rod",
-      "Pokéball x 15 (given by Bianca in the Pokémon Center)"
+      "Pokéball x 15 (given by Bianca in the Pokémon Center)",
+      "Max Potions, Full Restores, Max Elixirs and Full Heals (given by Mom)",
+      "Rare Candies (given by Mom). Reusable",
+      "Unusual Candies (given by Mom). Edges your Pokémon within 1 exp of the next level. Reusable"
     ]
   },
   {
@@ -1722,13 +1728,9 @@ masterData =
     "itemsTitle": "Items",
     "itemsDescription": "",
     "itemList": [
-      "rare candy",
-      "unusual candy",
-      "stress tester"
+      "assault vest"
     ],
     "itemDescriptions": [
-      "Rare Candies (given by Bianca). Reusable",
-      "Unusual Candies (given by Bianca). Edges your Pokémon within 1 exp of the next level. Reusable",
       "Stress Tester (East side of route). Reduces the holder's HP to 1 at the start of battle against a wild Pokémon. Very useful for predamaging"
     ]
   },
@@ -4328,7 +4330,8 @@ masterData =
       "mental herb",
       "greed shard",
       "sticky barb",
-      "stable mulch"
+      "stable mulch",
+      "tm ghost"
     ],
     "itemDescriptions": [
       "Black Sludge (found west of the Plasma Grunts after beating them)",
@@ -4337,7 +4340,8 @@ masterData =
       "Mental Herb x5 (found after the healthcare tag)",
       "Green Shards x15 (found after the Clerk tag)",
       "Sticky Barb (found after the Scientist tag)",
-      "1x Hardy Mint, 1x Lax Mint, 1x Gentle Mint (reward for Defeating the Plasma Grunts)"
+      "1x Hardy Mint, 1x Lax Mint, 1x Gentle Mint (reward for Defeating the Plasma Grunts)",
+      "TM37 Hex (encountered behind the Grimers once you beat the grunts)"
     ]
   },
   {
@@ -5880,13 +5884,13 @@ masterData =
       "safety goggles",
       "tm flying",
       "figy berry",
-      "tm normal"
+      "tm fire"
     ],
     "itemDescriptions": [
       "Safety Goggles (reward from Colress)",
       "TM40 Aerial Ace (found past Twins Tara & Val)",
       "10x Figy Berry (found Northeast of Pokéfan Sachiko)",
-      "TM27 Return (Found past Benga)"
+      "TM59 Temper Flare (Found past Benga)"
     ]
   },
   {
@@ -6990,11 +6994,13 @@ masterData =
     "itemsDescription": "If you didn't fight Brock or Misty, this is your opportunity to get some TMs.",
     "itemList": [
       "tm water",
-      "tm fighting"
+      "tm fighting",
+      "tm normal"
     ],
     "itemDescriptions": [
       "TM50 Water Pulse",
-      "TM94 Rock Smash"
+      "TM94 Rock Smash",
+      "TM27 Return"
     ]
   },
   {
@@ -9653,6 +9659,11 @@ masterData =
   },
   {
     "tag": "notif",
+    "notificationTitle": "MOVE TUTOR",
+    "text": "Move Tutors of all 4 types can be found here in one convenient location."
+  },
+  {
+    "tag": "notif",
     "notificationTitle": "IV MASTER",
     "text": "The Top Stall has the IV Master,who in exchange for IV Enhancers will maximize an IV of your choice for one of your Pokémon to 31."
   },
@@ -9954,12 +9965,12 @@ masterData =
     "itemsTitle": "Items",
     "itemsDescription": "",
     "itemList": [
-      "tm ghost",
+      "tm psychic",
       "root fossil",
       "life orb"
     ],
     "itemDescriptions": [
-      "TM37 Hex (Past the Psychics)",
+      "TM01 Psychic Fangs (Past the Psychics)",
       "Root Fossil, Helix Fossil, Cover Fossil (Past Lenora)",
       "Life Orb (reward for defeating the Strange Statue)"
     ]
@@ -11867,10 +11878,12 @@ masterData =
     "itemsTitle": "TM Shop",
     "itemsDescription": "",
     "itemList": [
-      "tm fire"
+      "tm fire",
+      "tm normal"
     ],
     "itemDescriptions": [
-      "TM48 Mystical Fire"
+      "TM48 Mystical Fire",
+      "TM20 Hyper Voice"
     ]
   },
   {
@@ -11929,14 +11942,12 @@ masterData =
     "itemsTitle": "Items",
     "itemsDescription": "",
     "itemList": [
-      "tm psychic",
       "heart scale",
       "tm fairy",
       "tm bug",
       "tm psychic"
     ],
     "itemDescriptions": [
-      "TM51 Ally Switch",
       "Heart Scale (found past Sola & Ana)",
       "TM32 Dazzling Gleam (found past Sola & Ana)",
       "TM89 U-Turn (past Harlequins)",
@@ -12120,12 +12131,14 @@ masterData =
     "itemList": [
       "heart scale",
       "tm ghost",
-      "tm psychic"
+      "tm psychic",
+      "tm fairy"
     ],
     "itemDescriptions": [
       "2x Heart Scale (past the Psychic Tag Battle)",
       "TM30 Shadow Ball (past Gentleman Daniel)",
-      "TM29 Psychic (past Pokéfan Georgia)"
+      "TM29 Psychic (past Pokéfan Georgia)",
+      "TM64 Teleport (past Pokéfan Jude)"
     ]
   },
   {
@@ -22630,7 +22643,7 @@ trainersById =
     "item_id_3": "Eviolite",
     "move_1_3": "INFERNAL PARADE",
     "move_2_3": "SMOG",
-    "move_3_3": "GYRO BALL",
+    "move_3_3": "EXPLOSION",
     "move_4_3": "WILL-O-WISP",
     "ivs_4": 255,
     "ability_4": 1,
@@ -22653,7 +22666,7 @@ trainersById =
     "move_1_5": "TWINEEDLE",
     "move_2_5": "BARB BARRAGE",
     "move_3_5": "ROLLOUT",
-    "move_4_5": "HEAL ORDER",
+    "move_4_5": "TOXIC",
     "count": 6,
     "gender_0": "Default",
     "gender_1": "Default",
@@ -22729,8 +22742,8 @@ trainersById =
     "form_3": 0,
     "item_id_3": "Eviolite",
     "move_1_3": "HORN DRILL",
-    "move_2_3": "DRILL RUN",
-    "move_3_3": "BRICK BREAK",
+    "move_2_3": "EARTHQUAKE",
+    "move_3_3": "ACCELEROCK",
     "move_4_3": "LUNGE",
     "ivs_4": 255,
     "ability_4": 3,
@@ -25428,8 +25441,8 @@ trainersById =
     "species_id_0": "MAGNEMITE",
     "form_0": 0,
     "item_id_0": "Eviolite",
-    "move_1_0": "SHOCK WAVE",
-    "move_2_0": "MIRROR SHOT",
+    "move_1_0": "ELECTROWEB",
+    "move_2_0": "MAGNET BOMB",
     "move_3_0": "LIGHT SCREEN",
     "move_4_0": "VOLT SWITCH",
     "ivs_1": 255,
@@ -29909,7 +29922,7 @@ trainersById =
     "move_1_2": "DISCHARGE",
     "move_2_2": "STOMPIN TANTRUM",
     "move_3_2": "MUDDY WATER",
-    "move_4_2": "SLUDGE WAVE",
+    "move_4_2": "GASTRO ACID",
     "ivs_3": 255,
     "ability_3": 2,
     "level_3": 38,
@@ -39260,7 +39273,7 @@ trainersById =
     "padding_0": 0,
     "species_id_0": "CHARMELEON",
     "form_0": 0,
-    "item_id_0": "Eviolite",
+    "item_id_0": "BrightPowder",
     "move_1_0": "TEMPER FLARE",
     "move_2_0": "DEVOUR",
     "move_3_0": "METAL CLAW",
@@ -39271,7 +39284,7 @@ trainersById =
     "padding_1": 0,
     "species_id_1": "BOLDORE",
     "form_1": 0,
-    "item_id_1": "Rock Gem",
+    "item_id_1": "Eviolite",
     "move_1_1": "POWER GEM",
     "move_2_1": "FLAME BURST",
     "move_3_1": "SHOCK WAVE",
@@ -39335,7 +39348,7 @@ trainersById =
     "item_id_0": "Eviolite",
     "move_1_0": "SCALD",
     "move_2_0": "STOMPIN TANTRUM",
-    "move_3_0": "ICY WIND",
+    "move_3_0": "GASTRO ACID",
     "move_4_0": "ROLLOUT",
     "ivs_1": 255,
     "ability_1": 3,
@@ -39345,9 +39358,9 @@ trainersById =
     "form_1": 0,
     "item_id_1": "Mystic Water",
     "move_1_1": "DRAGONBREATH",
-    "move_2_1": "BUBBLEBEAM",
+    "move_2_1": "WATER PULSE",
     "move_3_1": "POISON JAB",
-    "move_4_1": "BODY SLAM",
+    "move_4_1": "WATERFALL",
     "ivs_2": 255,
     "ability_2": 1,
     "level_2": 27,
@@ -39356,7 +39369,7 @@ trainersById =
     "form_2": 0,
     "item_id_2": "Shell Bell",
     "move_1_2": "WATER PULSE",
-    "move_2_2": "MEGA DRAIN",
+    "move_2_2": "MAGICAL LEAF",
     "move_3_2": "THUNDERPUNCH",
     "move_4_2": "FAKE OUT",
     "ivs_3": 255,
@@ -43035,8 +43048,8 @@ trainersById =
     "item_id_1": "Eviolite",
     "move_1_1": "BODY SLAM",
     "move_2_1": "CRUNCH",
-    "move_3_1": "SLEEP TALK",
-    "move_4_1": "REST",
+    "move_3_1": "FOCUS PUNCH",
+    "move_4_1": "YAWN",
     "ivs_2": 255,
     "ability_2": 2,
     "level_2": 28,
@@ -44895,7 +44908,7 @@ trainersById =
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Naive",
-    "ability_name_0": "Fluffy",
+    "ability_name_0": "Fur Coat",
     "tr_sprite": "trainer_sprites/veteran.png",
     "name": "Sterling",
     "nature_1": "Hasty",
@@ -46439,7 +46452,7 @@ trainersById =
     "nature_1": "Bashful",
     "ability_name_1": "Chlorophyll",
     "nature_2": "Naughty",
-    "ability_name_2": "Fluffy",
+    "ability_name_2": "Fur Coat",
     "raw": null,
     "raw_species_id_0": 185,
     "raw_species_id_1": 44,
@@ -48804,7 +48817,7 @@ trainersById =
     "form_0": 0,
     "item_id_0": "Eviolite",
     "move_1_0": "ICE BEAM",
-    "move_2_0": "DAZZLING GLEAM",
+    "move_2_0": "SPIKES",
     "move_3_0": "EXPLOSION",
     "move_4_0": "SLUDGE",
     "ivs_1": 255,
@@ -50568,7 +50581,7 @@ trainersById =
     "gender_0": "Default",
     "template": 0,
     "nature_0": "Timid",
-    "ability_name_0": "Fluffy",
+    "ability_name_0": "Fur Coat",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Natasha",
     "raw": null,
@@ -51285,7 +51298,7 @@ trainersById =
     "item_id_1": "Leftovers",
     "move_1_1": "POWER GEM",
     "move_2_1": "GIGA DRAIN",
-    "move_3_1": "SLUDGE",
+    "move_3_1": "GASTRO ACID",
     "move_4_1": "RECOVER",
     "ivs_2": 255,
     "ability_2": 1,
@@ -53563,11 +53576,11 @@ trainersById =
     "form_2": 0,
     "item_id_2": "Trickster Herb",
     "move_1_2": "GYRO BALL",
-    "move_2_2": "PSYSHOCK",
+    "move_2_2": "PSYCHIC",
     "move_3_2": "LIGHT SCREEN",
     "move_4_2": "REFLECT",
     "ivs_3": 255,
-    "ability_3": 1,
+    "ability_3": 5,
     "level_3": 36,
     "padding_3": 0,
     "species_id_3": "DRUDDIGON",
@@ -53604,7 +53617,7 @@ trainersById =
     "nature_2": "Bashful",
     "ability_name_2": "Levitate",
     "nature_3": "Modest",
-    "ability_name_3": "Battle Armor",
+    "ability_name_3": "Solid Rock",
     "nature_4": "Hardy",
     "ability_name_4": "Sap Sipper",
     "raw": null,
@@ -54966,7 +54979,7 @@ trainersById =
     "padding_3": 0,
     "species_id_3": "WATCHOG",
     "form_3": 0,
-    "item_id_3": "Chople Berry",
+    "item_id_3": "Normal Gem",
     "move_1_3": "RETALIATE",
     "move_2_3": "THRASH",
     "move_3_3": "BRICK BREAK",
