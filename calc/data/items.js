@@ -100,6 +100,7 @@ var GSC = [
     'Mail',
     'Master Ball',
     'Metal Coat',
+    "Steel Feather",
     'Metal Powder',
     'Mint Berry',
     'Miracle Berry',

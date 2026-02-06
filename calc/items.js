@@ -33,6 +33,7 @@ function getItemBoostType(item) {
             return 'Bug';
         case 'Iron Plate':
         case 'Metal Coat':
+        case 'Steel Feather':
             return 'Steel';
         case 'Meadow Plate':
         case 'Rose Incense':
