@@ -1,26 +1,8 @@
 
-function getTrainerNames() {
-    var allPoks = backup_data
-    var trainer_names = []
+TITLE = document.title.split(" Usage Data")[0]
 
-    window.trainersByName = {}
 
-    for (const [pokName, poks] of Object.entries(allPoks)) {
-        var pok_tr_names = Object.keys(poks)
-
-        for (i in pok_tr_names) {
-           var trainerName = pok_tr_names[i].match(/Lvl\s+-?\d+\s+(.+?)\s*$/)?.[1] ?? null;
-
-           window.trainersByName[trainerName] ||= []
-
-           var pokData = poks[pok_tr_names[i]]
-           pokData.species = pokName
-           window.trainersByName[trainerName].push(pokData)
-           trainer_names.push(trainerName) 
-        }      
-    }
-}
-
+window.allPoks = {}
 getTrainerNames()
 
 const TRAINERS = window.trainersByName 
@@ -55,10 +37,12 @@ function buildSelect2Data(trainersObj) {
 
   for (const [name, team] of Object.entries(trainersObj)) {
     const lvl = leadLevel(team);
+
     const entry = {
       id: name,
       text: name,
-      _leadLevel: lvl
+      _leadLevel: lvl,
+      tr_id: team[0].tr_id || null
     };
     const map = isBossTrainer(name) ? bossesByLvl : othersByLvl;
     if (!map.has(lvl)) map.set(lvl, []);
@@ -192,11 +176,15 @@ $(function () {
 
   $("#trainerSelect")
   .on("select2:select", function (e) {
-    const name = e.params.data.id; 
-    const team = TRAINERS[name] || [];
+    const data = e.params.data;
 
-    renderTeam(name, team);
-    renderTrainerUsageDashboard(name);
+    const displayName = data.id;               // what you render the team with
+    const usageName   = data.tr_id ?? data.id; // what you query usage with
+
+    const team = TRAINERS[displayName] || [];
+
+    renderTeam(displayName, team);
+    renderTrainerUsageDashboard(usageName);
   })
   .on("select2:clear", function () {
     $("#out").html('<div class="emptyState">Select a trainer to render their team.</div>');
@@ -206,7 +194,7 @@ $(function () {
 
 async function getTrainerUsage(trainerName) {
   const rows = await fetchEventsWithParty({
-    title: "Emerald Imperium 1.3",
+    title: TITLE,
     tr: trainerName,
     limit: 1000,
     offset: 0
@@ -230,13 +218,20 @@ async function getTrainerUsage(trainerName) {
 }
 
 function getTrainerNames() {
-    var allPoks = backup_data
+    allPoks = {}
+    if (TITLE == "Emerald Imperium 1.3") {
+      allPoks = backup_data
+    } else {
+      allPoks = backup_data.formatted_sets
+    }
+
     var trainer_names = []
 
     window.trainersByName = {}
 
     for (const [pokName, poks] of Object.entries(allPoks)) {
         var pok_tr_names = Object.keys(poks)
+
 
         for (i in pok_tr_names) {
            var trainerName = pok_tr_names[i].match(/Lvl\s+-?\d+\s+(.+?)\s*$/)?.[1] ?? null;
