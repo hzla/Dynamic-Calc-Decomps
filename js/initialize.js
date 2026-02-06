@@ -46,6 +46,7 @@ let changingSets        = false;
 let terminalStarted     = false;
 let partnerName         = null;
 let showDex = false;
+let showAI = false;
 
 let bestDmgAgainstCurrent        = 0;
 let bestPrioDmgAgainstCurrent    = 0;
@@ -212,6 +213,7 @@ function setGameSettings(title) {
     save_expansion = false
     settings.hasMastersheet = true;
     showDex = true
+    showAI = true
     $('label[for="snow"]').hide()
     $('#ms-link').show()
   } else if (title == "Blinding White 2") {
@@ -221,6 +223,7 @@ function setGameSettings(title) {
     settings.sourceType = "full"
     settings.typeChart = 11
     settings.critGen = 5;
+    showAI = true
     save_expansion = false,
     showDex = true
     if (settings.challengeMode) {
@@ -241,6 +244,7 @@ function setGameSettings(title) {
     settings.sourceType = "full"
     save_expansion = false,
     showDex = true
+    showAI = true
     $('label[for="snow"]').hide()
   } else if (title == "Hardlove Gold" || title == "Heart Gold Engine Rom") {
     gameGen = 8
@@ -261,7 +265,9 @@ function setGameSettings(title) {
   if (showDex) {
     $('#open-dex').show()
     $('#dex-show').show()
-    
+  }
+  if (showAI) {
+    $('#show-ai').show()
   }
 }
 
@@ -625,9 +631,6 @@ function loadDataSource(data) {
     jsonMoves = data["moves"]
     customMoves = data["custom_moves"]
     var jsonMove
-
-
-    // $("#show-ai").hide()
 
     if (settings.sourceType == "full") {
       poksData = data["poks"]

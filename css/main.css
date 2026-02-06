@@ -488,17 +488,15 @@ input {
     line-height: 24px;
     text-align: center;
     cursor: pointer;
-    width:  160px;
+    width:  140px;
     right: 0px;
     border-radius: 5px;
     z-index:  10;
-    top: 237px;
+    top: 247px;
+    display: none;
 }
 
-#show-ai {
-    width: 140px;
-    top: 247px;
-}
+
 
 #ai-container {
     position: fixed;

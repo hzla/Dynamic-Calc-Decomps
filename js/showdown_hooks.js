@@ -152,6 +152,27 @@ $(document).ready(function() {
 
    $(document).on('click', '#show-ai', function() {
         $("#ai-container").toggle()
+
+        if ($('#ai-container:visible').length > 0) {
+             var move = $(".results-right .visually-hidden:checked + .btn").text()
+            if (move == "") {
+                return
+            }
+
+            var effect_code = backup_data.moves[move]["e_id"]
+
+            var ai_content = g5Effects[effect_code]
+
+            ai_html = ""
+            
+            ai_html += `<h2>${move} AI</h2><br>`
+
+            for (n in ai_content) {
+                ai_html += ai_content[n].replace("\t", "&ensp;")
+                ai_html += "<br>"
+            }
+            $("#ai-container").html(ai_html)
+        }
    })
 
    $('body').on('click', function() {
