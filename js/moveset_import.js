@@ -369,7 +369,7 @@ moveChanges = {
 }
 
 abilityChanges = {
-	"Cascade White 2": {
+	"Cascade White": {
 		"Tinted Lens": "Tenacity",
 		"Shieled Dust": "Resilient",
 		"Compoundeyes": "Keen Senses",
@@ -531,10 +531,12 @@ function serialize(array, separator) {
 function getAbility(row, species=false) {
 	var ability = row[1] ? row[1].trim() : '';
 
-	
+	console.log(ability)
 	if (calc.ABILITIES[8].indexOf(ability) !== -1) {
+
 		if (abilityChanges[TITLE] && abilityChanges[TITLE][ability]) {
-			return abilityChanges[TITLE][ability]
+			console.log(abilityChanges[TITLE][ability])
+			return abilityChanges[TITLE][ability] || ABILITIES_BY_ID[gen][abilityChanges[TITLE][ability]].name
 		}
 		return ability;
 	} 
@@ -600,8 +602,9 @@ function getStats(currentPoke, rows, offset) {
 		currentAbility = rows[x] ? rows[x].trim().split(":") : '';
 		if (currentAbility[0] == "Ability") {
 			currentPoke.ability = currentAbility[1].trim();
-			if (abilityChanges[TITLE] && abilityChanges[TITLE][currentPoke.ability]) {
-				currentPoke.ability = abilityChanges[TITLE][currentPoke.ability]
+			
+			if (abilityChanges[TITLE] && (abilityChanges[TITLE][cleanString(currentPoke.ability)] || abilityChanges[TITLE][currentPoke.ability])) {
+				currentPoke.ability = abilityChanges[TITLE][currentPoke.ability] || ABILITIES_BY_ID[gen][abilityChanges[TITLE][cleanString(currentPoke.ability)]].name
 			}
 		}
 
