@@ -1,5 +1,5 @@
 backup_data = {
-  "title":"Cascade White",
+      "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
   },
@@ -137222,7 +137222,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Band",
+        "item": "Chople Berry",
         "nature": "Docile",
         "moves": [
           "Earthquake",
@@ -145323,7 +145323,7 @@ backup_data = {
           "Sacred Sword",
           "Razor Shell",
           "Night Slash",
-          "Swords Dance"
+          "Air Slash"
         ],
         "sub_index": 5,
         "ability": "Hyper Cutter",
@@ -148662,7 +148662,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Tera F Band",
+        "item": "Tera Sash",
         "nature": "Quirky",
         "moves": [
           "Hurricane",
@@ -152911,7 +152911,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Band",
+        "item": "Rindo Berry",
         "nature": "Lax",
         "moves": [
           "Water Pulse",
@@ -182012,7 +182012,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Band",
+        "item": "Occa Berry",
         "nature": "Mild",
         "moves": [
           "Mega Drain",
@@ -185744,7 +185744,7 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "Rawst Berry",
-        "item": "Focus Band",
+        "item": "Weakness Policy",
         "nature": "Hardy",
         "moves": [
           "Knock Off",
@@ -193106,7 +193106,7 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Focus Band",
+        "item": "Passho Berry",
         "nature": "Modest",
         "moves": [
           "Flamethrower",
@@ -195747,8 +195747,7 @@ backup_data = {
       }
     }
   },
-
-   "order": {
+     "order": {
         "162": {
         "id": 162,
         "next": 163,
