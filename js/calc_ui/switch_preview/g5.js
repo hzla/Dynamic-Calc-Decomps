@@ -220,12 +220,13 @@ function get_next_in_g5() {
                     moveBp *= movData.multihit
                 }
 
-
                 // Type chart modifiers
                 if (opposing.hasAbility("Scrappy", "Corrosion","Normalize","Inner Focus")) {
                     type_info = get_type_info([player_type1, player_type2], opposing.ability)
                 } else if (move.named("Chip Away","Sacred Sword", "Relic Song","Freeze-Dry","Sky Uppercut")) {
                     type_info = get_type_info([player_type1, player_type2], moveName)
+                } else {
+                    type_info = get_type_info([player_type1, player_type2])
                 }
 
                 if (type_info[move.type] < 1 && opposing.hasAbility("Tenacity")) {
