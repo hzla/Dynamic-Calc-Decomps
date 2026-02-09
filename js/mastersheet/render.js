@@ -12,7 +12,8 @@
  *
  */
 
-// POKEWEB MODE
+// POKEWEB MODE or Use LIVE CALC MODE if not serving dex and calc locally
+// clicking on trainers will not update calc when testing locally (need same domain)
 // IMAGE_FOLDER = "images"
 // DEX_URL = "http://localhost:3001" 
 // CALC_URL = "http://localhost:3002?data=casc"
@@ -24,10 +25,9 @@ $(document).ready(function() {
   DEX_URL = `https://ddex-chi.vercel.app`
   CALC_URL = `https://hzla.github.io/Dynamic-Calc-Decomps?data=${gameDataSlug}`
 })
-
 // LOCAL CALC MODE
 // IMAGE_FOLDER = "img"
-// DEX_URL = "http://localhost:3000" 
+// DEX_URL = "http://localhost:3001" 
 // CALC_URL = "http://localhost:3002?data=casc"
 
 function renderMasterData(masterData, trainersById, encountersById) {
@@ -211,17 +211,34 @@ function renderTrainerDocs(trainer) {
   const count = Number(trainer.count ?? 0);
   if (!Number.isFinite(count) || count <= 0) return ``;
 
+  // Wrap text in a span that forces bold + italic if highlighted
+  function maybeEmphasize(rawName, displayText) {
+    const key = cleanString(String(rawName ?? ""));
+    const safeText = escapeHtml(String(displayText ?? ""));
+
+    if (!key) return safeText;
+
+    const h = (typeof highlights === "object" && highlights) ? highlights : null;
+    const isHighlighted =
+      (h?.changed && h.changed[key] === 1) ||
+      (h?.new && h.new[key] === 1);
+
+    if (!isHighlighted) return safeText;
+
+    return `<span style="font-style: italic;color: #f1fa8c";>${safeText}</span>`;
+  }
+
   let html = "";
 
   for (let slot = 0; slot < count; slot++) {
-    const speciesRaw = trainer[`species_id_${slot}`] ?? ""; // e.g. "CHIMECHO"
-    const rawSpeciesId = trainer[`raw_species_id_${slot}`]; // numeric dex id if present
+    const speciesRaw = trainer[`species_id_${slot}`] ?? "";
+    const rawSpeciesId = trainer[`raw_species_id_${slot}`];
     const level = trainer[`level_${slot}`] ?? "";
     const item = trainer[`item_id_${slot}`] ?? "";
     const nature = trainer[`nature_${slot}`] ?? "";
     const abilityName = trainer[`ability_name_${slot}`] ?? "";
 
-    const displaySpecies = prettifyEnumName(speciesRaw); // "CHIMECHO" -> "Chimecho"
+    const displaySpecies = prettifyEnumName(speciesRaw);
     const spriteSrc = buildPokeSpriteSrc(displaySpecies);
 
     html += `    <div class="trainer-doc-item">\n`;
@@ -233,17 +250,28 @@ function renderTrainerDocs(trainer) {
       String(rawSpeciesId ?? "")
     )}">Lv ${escapeHtml(String(level))} ${escapeHtml(displaySpecies)}</div>\n`;
 
-    html += `      <div class="trpok-item-info doc-held-item">${item}</div>\n`;
+    html += `      <div class="trpok-item-info doc-held-item">${maybeEmphasize(
+      item,
+      String(item ?? "")
+    )}</div>\n`;
 
-    html += `      <div class="trpok-item-info">\n        ${escapeHtml(String(nature))} \n      </div>\n`;
-    html += `      <div class="trpok-item-info doc-ab">\n        ${escapeHtml(String(abilityName))}\n      </div>\n`;
+    html += `      <div class="trpok-item-info">\n        ${escapeHtml(String(nature))}\n      </div>\n`;
+
+    html += `      <div class="trpok-item-info doc-ab">\n        ${maybeEmphasize(
+      abilityName,
+      String(abilityName ?? "")
+    )}\n      </div>\n`;
+
     html += `      <br>\n\n`;
 
     for (let m = 1; m <= 4; m++) {
       const move = trainer[`move_${m}_${slot}`] ?? "";
-      const moveDisplay = prettifyMoveName(move); // "PERISH SONG" -> "Perish Song"
-      // If you have numeric move ids, swap data-id to that.
-      html += `      <div class="trpok-item-info doc-move" data-id="0">${escapeHtml(moveDisplay)}</div>\n\n`;
+      const moveDisplay = prettifyMoveName(move);
+
+      html += `      <div class="trpok-item-info doc-move" data-id="0">${maybeEmphasize(
+        move,
+        moveDisplay
+      )}</div>\n\n`;
     }
 
     html += `    </div>\n\n`;
@@ -251,6 +279,9 @@ function renderTrainerDocs(trainer) {
 
   return html;
 }
+
+
+
 
 function buildTrainerDisplayName(trainer) {
   // Sample output shows: "PkMn Trainer Bianca"
@@ -722,12 +753,6 @@ $(document).ready(function() {
 
     $('.doc-sprite, .doc-species').click(function() {
       let speciesName = cleanString(extractPokemonName($(this).parent().find('.doc-species').text()))
-      loadDexPage("pokemon", speciesName)
-    })
-
-    $('.wild').click(function(e) {
-      e.stopPropagation()
-      let speciesName = cleanString($(this).attr('data-species-name'))
       loadDexPage("pokemon", speciesName)
     })
 
