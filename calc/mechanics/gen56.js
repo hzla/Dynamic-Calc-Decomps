@@ -345,6 +345,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         case 'Heat Crash':
             if (TITLE.includes("Cascade")) {
                 basePower = move.bp
+                break;
             }
             var wr = (attacker.weightkg * (0, util_2.getWeightFactor)(attacker)) /
                 (defender.weightkg * (0, util_2.getWeightFactor)(defender));
@@ -808,6 +809,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         (attacker.hasItem('Choice Specs', 'Tera Specs') && move.category === 'Special')) {
         atMods.push(6144);
         desc.attackerItem = attacker.item;
+    } else if (attacker.hasItem('Mascot Badge')) {
+        atMods.push(8192);
+        desc.attackerItem = attacker.item;
     }
 
 
@@ -867,6 +871,9 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         (!hitsPhysical && defender.hasItem('Assault Vest', 'Tera Vest'))) {
         dfMods.push(6144);
         desc.defenderItem = defender.item;
+    }
+    if (defender.hasItem('Mascot Badge')) {
+        dfMods.push(8192);
     }
     if ((defender.hasItem('Metal Powder') && defender.named('Ditto') && hitsPhysical) ||
         (defender.hasItem('Deep Sea Scale') && defender.named('Clamperl') && !hitsPhysical)) {

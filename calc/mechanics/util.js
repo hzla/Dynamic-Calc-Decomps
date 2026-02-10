@@ -140,6 +140,9 @@ function getFinalSpeed(gen, pokemon, field, side) {
         } else if (pokemon.hasAbility("Heavy Metal")) {
             speedMods.push(2744);
         }
+        if (pokemon.hasItem('Mascot Badge')) {
+            speedMods.push(8192);
+        }
     }
 
     if (side.isTailwind)
