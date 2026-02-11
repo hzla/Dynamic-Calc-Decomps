@@ -643,6 +643,13 @@ function refresh_next_in() {
 		}
 
 		var dataID = next_poks[i][0].split("[")[0]
+
+		console.log(next_poks[i][0])
+		if (next_poks[i][0].includes($('input.opposing').val()) && settings.noSwitch != "1" && (settings.damageGen == 4 || settings.damageGen == 5)){
+			
+			continue
+		}
+
 		var isFainted = ""
 		if (fainted.includes(dataID)) {
 			isFainted = "fainted"

@@ -200,6 +200,7 @@ $(document).ready(function() {
 function setGameSettings(title) {
   if (title == "Renegade Platinum") {
     gameGen = 4
+    settings.damageGen = 4
     settings.gameSwitchIn = 4;
     settings.sourceType = "full"
     settings.critGen = 5;
