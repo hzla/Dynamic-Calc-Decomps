@@ -952,10 +952,14 @@ function checkExeptions(poke) {
 		break;
 	}
 
-
-	if (poke != "" && backup_data["pok_replacements"] && backup_data["pok_replacements"][cleanString(poke)]) {
-		poke = SPECIES_BY_ID[gen][backup_data["pok_replacements"][cleanString(poke)]].name
+	try {
+		if (poke != "" && backup_data["pok_replacements"] && backup_data["pok_replacements"][cleanString(poke)]) {
+			poke = SPECIES_BY_ID[gen][backup_data["pok_replacements"][cleanString(poke)]].name
+		}
+	} catch {
+		return poke
 	}
+	
 
 
 
