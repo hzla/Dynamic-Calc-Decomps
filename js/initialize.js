@@ -204,6 +204,8 @@ function setGameSettings(title) {
     settings.sourceType = "full"
     settings.critGen = 5;
     save_expansion = false
+    showDex = true;
+    showAI = true;
     $('label[for="snow"]').hide()
   } else if (TITLE.includes("Cascade")) {
     gameGen = 5

@@ -151,6 +151,13 @@ $(document).ready(function() {
    })
 
    $(document).on('click', '#show-ai', function() {
+        if (gameGen == 4) {
+            let moveURLName = $(".results-right .visually-hidden:checked + .btn").text().replaceAll(" ","_")
+            window.open(`https://pokemow.com/Gen4/TrainerAI/#${moveURLName}`, '_blank')
+            return
+        }    
+
+
         $("#ai-container").toggle()
 
         if ($('#ai-container:visible').length > 0) {
