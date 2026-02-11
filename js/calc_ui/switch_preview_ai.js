@@ -119,7 +119,11 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
             continue;
         }
 
-        if (turnsToKill == 1 && defender.item != 'Focus Sash') {
+        if (defender.name == "Skarmory" && turnsToKill == 1) {
+            console.log("here")
+        }
+
+        if (turnsToKill == 1 && (defender.item != 'Focus Sash') && defender.ability != "Sturdy") {
             isOhkod = true
         }
 
