@@ -669,8 +669,10 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         bpMods.push(6144)
     }
     if (isAerilate || isPixilate || isRefrigerate) {
-        bpMods.push(5325);
-        desc.attackerAbility = attacker.ability;
+        if (!TITLE.includes("Cascade")) {
+            bpMods.push(5325);
+            desc.attackerAbility = attacker.ability;
+        }  
     }
     else if ((attacker.hasAbility('Mega Launcher') && move.flags.pulse) ||
         (attacker.hasAbility('Strong Jaw') && move.flags.bite)) {
