@@ -50,7 +50,18 @@ function loadDex(url) {
 	document.body.appendChild(closeBtn);
 }
 
+function silentLoadDex(url) {
+	loadDex(`?game=${cleanString(TITLE)}`)
+	console.log("Dex initialized")
+	$('iframe').hide()
+	$('.iframe-close-btn').hide()
+}
+
 $(document).ready(function() {
+	if (showDex) {
+		silentLoadDex()
+	}
+	
 	 $('#open-dex').click(function() {
 	 	loadDex(`?game=${cleanString(TITLE)}`)
 	 })
@@ -58,7 +69,9 @@ $(document).ready(function() {
 	 if ($('#open-dex:visible').length > 0) {
 	 	$('#p1 .poke-sprite').click(function() {
 	 		var dexPok = $(this).attr('src').split("/")[3].split(".")[0]
-	 		console.log(dexPok)
+	 		
+
+
 	 		$('iframe').remove()
 	 		$('.iframe-close-btn').remove()
 	 		loadDex(`pokemon/${dexPok}`)
