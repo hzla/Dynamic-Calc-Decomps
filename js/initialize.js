@@ -203,6 +203,7 @@ function setGameSettings(title) {
     settings.damageGen = 4
     settings.gameSwitchIn = 4;
     settings.sourceType = "full"
+    settings.typeChart = 6;
     settings.critGen = 5;
     save_expansion = false
     showDex = true;

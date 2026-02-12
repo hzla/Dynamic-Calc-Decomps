@@ -216,7 +216,13 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
         return 1;
     }
     else {
-        var effectiveness = gen.types.get((0, util_1.toID)(move.type)).effectiveness[type];
+        var effectiveness = typeChart[move.type][type]
+
+        // if (settings.damageGen != 4) {
+        //     effectiveness = gen.types.get((0, util_1.toID)(move.type)).effectiveness[type];
+        // }
+        
+
         if (effectiveness === 0 && isBoneZone && move.flags.bone) {
             return 1;
         }
