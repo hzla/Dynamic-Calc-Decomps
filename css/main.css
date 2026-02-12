@@ -474,6 +474,10 @@ input {
     font-size: 15px;
 }
 
+#restDmgValues {
+    display: block;
+}
+
 #dmg-median {
     color: #bb86fc;
     text-decoration: underline;
@@ -2215,6 +2219,5 @@ table.field {
 
 
 }
-
 
 
