@@ -246,9 +246,9 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
                     return 0.5
                 } 
 
-                // if (type == "Dark" && move.type == "Psychic") {
-                //     return 0.5
-                // } 
+                if (type == "Dark" && move.type == "Psychic") {
+                    return 0.5
+                } 
             } else if (FIELD_EFFECTS["opelucid"]) {
                 if (type == "Fairy" && move.type == "Dragon") {
                     return 0.5
