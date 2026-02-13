@@ -309,7 +309,6 @@ function get_next_in_g3() {
         }
 
         var enemy = createPokemon(`${pok_name} (${tr_name})`);
-        console.log(`${pok_name} (${tr_name})`)
         enemyDex = pokedex[pok_name];
 
 
