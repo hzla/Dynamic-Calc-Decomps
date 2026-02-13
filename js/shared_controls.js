@@ -645,7 +645,7 @@ function refresh_next_in() {
 		var dataID = next_poks[i][0].split("[")[0]
 
 		console.log(next_poks[i][0])
-		if (next_poks[i][0].includes($('input.opposing').val()) && settings.noSwitch != "1" && (settings.damageGen == 4 || settings.damageGen == 5)){
+		if (next_poks[i][0].includes($('input.opposing').val()) && settings.noSwitch != "1" && (settings.damageGen >= 3 && settings.damageGen <= 5)){
 			
 			continue
 		}
@@ -721,6 +721,43 @@ function refresh_next_in() {
 		simplifySwitchScores()
 	}
 }
+
+function updateGen3BaitMoves() {
+	if (typeof settings === "undefined" || settings.gameSwitchIn != 3) return;
+	var p1 = createPokemon($('#p1'));
+	var moveNames = [];
+	for (var i in p1.moves) {
+		if (p1.moves[i] && p1.moves[i].name) {
+			moveNames.push(p1.moves[i].name);
+		}
+	}
+	var selector = $('#gen3-switch-guide .last-move-used select.move-selector');
+	if (!selector.length) return;
+
+	var current = selector.val();
+	var options = "";
+	for (var j in moveNames) {
+		var name = moveNames[j];
+		options += `<option value="${name}">${name}</option>`;
+	}
+	selector.html(options);
+	if (current && moveNames.includes(current)) {
+		selector.val(current);
+	}
+}
+
+$('#gen3-switch-guide .last-move-used .bait-trigger').on('change input', function() {
+	if (typeof settings === "undefined" || settings.gameSwitchIn != 3) return;
+	refresh_next_in();
+});
+
+$('#p1 .move-selector, #p1 .set-selector').change(function() {
+	updateGen3BaitMoves();
+});
+
+$('#p1 .move-bp, #p1 .move-type').on('change input', function() {
+	updateGen3BaitMoves();
+});
 
 
 $('#p1 .boost, #statusL1, #p1 .percent-hp').blur(function() {

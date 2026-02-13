@@ -450,6 +450,10 @@ function get_next_in() {
         return get_next_in_g5()
     }
 
+    if (settings.gameSwitchIn == 3) {
+        return get_next_in_g3()
+    }
+
     isDoubles = $('#doubles-format').is(":checked")
     lvlCap = parseInt($('#lvl-cap').val())
 

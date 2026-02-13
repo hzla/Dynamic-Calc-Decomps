@@ -126,7 +126,8 @@ SOURCES = {
   "hardlove": "Hardlove Gold",
   "hgenginerom": "Heart Gold Engine Rom",
   "vwplus": "Vintage White Plus",
-  "blind": "Blinding White 2"
+  "blind": "Blinding White 2",
+  "a6f5b7e55bbd7ebbdd52": "Rigorous Red"
 }
 
 $(document).ready(function() {
@@ -161,7 +162,9 @@ $(document).ready(function() {
         gameGen = settings.damageGen
         settings.gameSwitchIn = gameGen
         settings.sourceType = "full"
-        TITLE = npoint_data.title
+        toggleGen3SwitchGuide();
+        TITLE = ""
+        TITLE = npoint_data.title || SOURCES[params.get("data")]
         document.title = TITLE + " Calculator"
         $('#rom-title').text(TITLE).show()
         if ( TITLE.includes("Cascade")) {
@@ -201,7 +204,8 @@ function setGameSettings(title) {
   if (title == "Renegade Platinum") {
     gameGen = 4
     settings.damageGen = 4
-    settings.gameSwitchIn = 4;
+    settings.gameSwitchIn = 3;
+    settings.switchIn = 3;
     settings.sourceType = "full"
     settings.typeChart = 6;
     settings.critGen = 5;
@@ -272,6 +276,17 @@ function setGameSettings(title) {
   }
   if (showAI) {
     $('#show-ai').show()
+  }
+
+  toggleGen3SwitchGuide();
+}
+
+function toggleGen3SwitchGuide() {
+  if (typeof settings === "undefined") return;
+  if (settings.gameSwitchIn == 3) {
+    $("#gen3-switch-guide").removeClass("hide");
+  } else {
+    $("#gen3-switch-guide").addClass("hide");
   }
 }
 
@@ -800,4 +815,3 @@ function loadDefaultLists() {
     }
   });
 }
-
