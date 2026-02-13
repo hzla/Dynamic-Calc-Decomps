@@ -257,6 +257,14 @@ function toOrdinal(num) {
 	default:
 		return num + "th";
 	}
+
+	setGen3LastMoveFromDamage(p1, damageResults);
+}
+
+function setGen3LastMoveFromDamage(p1, damageResults) {
+	if (typeof settings === "undefined" || settings.gameSwitchIn != 3) return;
+	// Intentionally no-op: do not auto-select a last move from P1 damage.
+	return;
 }
 
 function findDamageResult(resultMoveObj) {

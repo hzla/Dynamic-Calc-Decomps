@@ -724,11 +724,11 @@ function refresh_next_in() {
 
 function updateGen3BaitMoves() {
 	if (typeof settings === "undefined" || settings.gameSwitchIn != 3) return;
-	var p1 = createPokemon($('#p1'));
+	var p2 = createPokemon($('#p2'));
 	var moveNames = [];
-	for (var i in p1.moves) {
-		if (p1.moves[i] && p1.moves[i].name) {
-			moveNames.push(p1.moves[i].name);
+	for (var i in p2.moves) {
+		if (p2.moves[i] && p2.moves[i].name) {
+			moveNames.push(p2.moves[i].name);
 		}
 	}
 	var selector = $('#gen3-switch-guide .last-move-used select.move-selector');
@@ -751,11 +751,11 @@ $('#gen3-switch-guide .last-move-used .bait-trigger').on('change input', functio
 	refresh_next_in();
 });
 
-$('#p1 .move-selector, #p1 .set-selector').change(function() {
+$('#p2 .move-selector, #p2 .set-selector').change(function() {
 	updateGen3BaitMoves();
 });
 
-$('#p1 .move-bp, #p1 .move-type').on('change input', function() {
+$('#p2 .move-bp, #p2 .move-type').on('change input', function() {
 	updateGen3BaitMoves();
 });
 

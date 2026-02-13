@@ -29,7 +29,8 @@ backupFiles = {
 	"Hardlove Gold": "hardlove",
 	"Heart Gold Engine Rom": "hgenginerom",
 	"Vintage White Plus": "vwplus",
-	"Blinding White 2": "blind"
+	"Blinding White 2": "blind",
+	"Emerald Kaizo": "ek"
 }
 
 

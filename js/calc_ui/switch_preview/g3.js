@@ -111,28 +111,48 @@ var GEN3_PHASE1_TYPE_MATCHUPS = {
     "Fighting-Ghost": 0.0
 };
 
-function gen3TypeScore(attackerTypes, defenderTypes) {
+function gen3Phase1Score(attackerTypes, defenderTypes) {
     var p1types = defenderTypes.slice();
     if (!p1types[1]) p1types[1] = p1types[0];
 
     var p2types = attackerTypes.slice();
     if (!p2types[1]) p2types[1] = p2types[0];
 
-    var total = 0;
-    for (var k in p2types) {
-        var type = p2types[k];
-        var typeScore = 1;
+    var score = 10;
+    for (var k in p1types) {
+        var type = p1types[k];
         for (var matchup in GEN3_PHASE1_TYPE_MATCHUPS) {
             var type1 = matchup.split("-")[0];
             var type2 = matchup.split("-")[1];
-            if ((type1 == type) && (type2 == p1types[0] || type2 == p1types[1])) {
-                typeScore *= GEN3_PHASE1_TYPE_MATCHUPS[matchup];
+            if ((type1 == type) && (type2 == p2types[0] || type2 == p2types[1])) {
+                score = Math.floor(score * GEN3_PHASE1_TYPE_MATCHUPS[matchup]);
             }
         }
-        if (typeScore == 1) total += 40;
-        else total += Math.floor(typeScore * 40);
     }
-    return total;
+    return score;
+}
+
+function applyGen3TypeCalcDamage(moveType, attackerTypes, defenderTypes, damage) {
+    var dmg = damage;
+    // Apply STAB first (integer math like TypeCalc)
+    if (attackerTypes.includes(moveType)) {
+        dmg = Math.floor((dmg * 15) / 10);
+    }
+    // Levitate special-case: TypeCalc skips type chart entirely (neutral damage)
+    if (p1.ability == "Levitate" && moveType == "Ground") {
+        return dmg;
+    }
+    for (var matchup in GEN3_PHASE1_TYPE_MATCHUPS) {
+        var type1 = matchup.split("-")[0];
+        var type2 = matchup.split("-")[1];
+        if (type1 == moveType && (type2 == defenderTypes[0] || type2 == defenderTypes[1])) {
+            dmg = Math.floor(dmg * GEN3_PHASE1_TYPE_MATCHUPS[matchup]);
+            if (dmg === 0 && GEN3_PHASE1_TYPE_MATCHUPS[matchup] !== 0) {
+                dmg = 1;
+            }
+        }
+    }
+    return dmg;
 }
 
 function vanillaDamageCalcEmerald(attacker, defender, move, field) {
@@ -142,6 +162,13 @@ function vanillaDamageCalcEmerald(attacker, defender, move, field) {
     var spDefense = defender.stats.spd;
     var movePower = move.bp;
     var damage;
+    function applyStatStage(stat, stage) {
+        if (!stage)
+            return stat;
+        if (stage > 0)
+            return Math.floor(stat * (2 + stage) / 2);
+        return Math.floor(stat * 2 / (2 - stage));
+    }
 
     if (["Huge Power", "Pure Power"].includes(attacker.ability)) attack *= 2;
     if (field.attackerSide.isStoneBadge) attack = Math.floor(attack * 1.1);
@@ -166,11 +193,12 @@ function vanillaDamageCalcEmerald(attacker, defender, move, field) {
     if (attacker.item == "Deep Sea Scale" && attacker.name == "Clamperl") spDefense = Math.floor(spDefense * 2);
     if (attacker.item == "Light Ball" && attacker.name == "Pikachu") spAttack = Math.floor(spAttack * 2);
     if (attacker.item == "Metal Powder" && attacker.name == "Ditto") defense = Math.floor(defense * 2);
-    if (attacker.item == "Thick Club" && ["Cubone", "Marowak"].includes(attacker.name)) attack = Math.floor(attack * 1.5);
+    if (attacker.item == "Thick Club" && ["Cubone", "Marowak"].includes(attacker.name)) attack = Math.floor(attack * 2);
 
     if (defender.ability == "Thick Fat" && ["Fire", "Ice"].includes(move.type)) spAttack = Math.floor(spAttack / 2);
     if (attacker.ability == "Hustle") attack = Math.floor(attack * 1.5);
     if (["Plus", "Minus"].includes(attacker.ability) && field.gameType == "Doubles") spAttack = Math.floor(spAttack * 1.5);
+    if (attacker.ability == "Guts" && attacker.status) attack = Math.floor(attack * 1.5);
     if (defender.ability == "Marvel Scale" && defender.status) defense = Math.floor(defense * 1.5);
     if (move.type == "Grass" && attacker.ability == "Overgrow") movePower = Math.floor(movePower * 1.5);
     if (move.type == "Fire" && attacker.ability == "Blaze") movePower = Math.floor(movePower * 1.5);
@@ -182,17 +210,18 @@ function vanillaDamageCalcEmerald(attacker, defender, move, field) {
     if (move.type == "???") {
         damage = 0;
     } else if (move.category == "Physical") {
-        damage = attack;
+        damage = applyStatStage(attack, attacker.boosts.atk);
         damage = Math.floor(damage * movePower);
         damage = Math.floor(damage * Math.floor(2 * attacker.level / 5 + 2));
 
-        if (defender.boosts.def) {
-            defense = Math.floor(defense * Math.max(10 + defender.boosts.def * 5, 10));
-            defense = Math.floor(defense / Math.max(10 - defender.boosts.def * 5, 10));
-        }
+        defense = applyStatStage(defense, defender.boosts.def);
 
         damage = Math.floor(damage / defense);
         damage = Math.floor(damage / 50);
+
+        if (attacker.status === "brn" && attacker.ability !== "Guts") {
+            damage = Math.floor(damage / 2);
+        }
 
         if (field.defenderSide.isReflect) {
             if (field.gameType == "Doubles") damage = 2 * Math.floor(damage / 3);
@@ -203,14 +232,11 @@ function vanillaDamageCalcEmerald(attacker, defender, move, field) {
 
         if (damage == 0) damage = 1;
     } else {
-        damage = spAttack;
+        damage = applyStatStage(spAttack, attacker.boosts.spa);
         damage = Math.floor(damage * movePower);
         damage = Math.floor(damage * Math.floor(2 * attacker.level / 5 + 2));
 
-        if (defender.boosts.spd) {
-            spDefense = Math.floor(spDefense * Math.max(10 + defender.boosts.spd * 5, 10));
-            spDefense = Math.floor(spDefense / Math.max(10 - defender.boosts.spd * 5, 10));
-        }
+        spDefense = applyStatStage(spDefense, defender.boosts.spd);
 
         damage = Math.floor(damage / spDefense);
         damage = Math.floor(damage / 50);
@@ -224,57 +250,20 @@ function vanillaDamageCalcEmerald(attacker, defender, move, field) {
 
         if (field.weather && ![attacker.ability, defender.ability].includes("Air Lock")) {
             if (field.weather == "Rain") {
-                if (move.type == "Fire") damage = Math.floor(damage * 1.5);
-                else if (move.type == "Water") damage = damage * 2;
-                else if (move.named("Solar Beam")) damage = Math.floor(damage / 2);
+                if (move.type == "Fire") damage = Math.floor(damage / 2);
+                else if (move.type == "Water") damage = Math.floor((15 * damage) / 10);
             }
-            else if (["Sand", "Hail"].includes(field.weather) && move.named("Solar Beam")) damage = Math.floor(damage / 2);
-            else {
-                if (move.type == "Fire") damage = damage * 2;
-                else if (move.type == "Water") damage = Math.floor(damage * 1.5);
+            if (["Rain", "Sand", "Hail"].includes(field.weather) && move.named("Solar Beam")) {
+                damage = Math.floor(damage / 2);
             }
-        }
-
-        if (move.named("Thunder") && field.weather == "Rain") damage = Math.floor(damage * 1.5);
-        else if (move.named("Thunder") && field.weather == "Sun") damage = Math.floor(damage / 2);
-
-        if (move.named("Surf") && field.weather == "Rain" && attacker.ability == "Water Absorb") damage = 0;
-
-        if (move.named("Sky Attack")) damage = Math.floor(damage / 2);
-
-        if (move.named("Solar Beam") && field.weather == "Sun") damage = Math.floor(damage * 1.5);
-
-        if (move.named("Solar Beam") && field.weather == "Rain") damage = Math.floor(damage / 2);
-
-        if (move.named("Solar Beam") && field.weather == "Hail") damage = Math.floor(damage / 2);
-
-        if (move.named("Solar Beam") && field.weather == "Sand") damage = Math.floor(damage / 2);
-
-        if (move.named("Weather Ball") && field.weather != "") damage = damage * 2;
-
-        if (move.named("Weather Ball") && field.weather == "Sun") move.type = "Fire";
-        else if (move.named("Weather Ball") && field.weather == "Rain") move.type = "Water";
-        else if (move.named("Weather Ball") && field.weather == "Hail") move.type = "Ice";
-    }
-
-    damage += 2;
-
-    if (attacker.types.includes(move.type)) damage = Math.floor(damage * 1.5);
-
-    if (attacker.ability == "Levitate" && move.type == "Ground") return 0;
-
-    var effectiveness = 1;
-    for (var i in defender.types) {
-        var type = defender.types[i];
-        if (`${move.type}-${type}` in GEN3_PHASE1_TYPE_MATCHUPS) {
-            effectiveness *= GEN3_PHASE1_TYPE_MATCHUPS[`${move.type}-${type}`];
-            damage = Math.floor(damage * GEN3_PHASE1_TYPE_MATCHUPS[`${move.type}-${type}`]);
+            if (field.weather == "Sun") {
+                if (move.type == "Fire") damage = Math.floor((15 * damage) / 10);
+                else if (move.type == "Water") damage = Math.floor(damage / 2);
+            }
         }
     }
 
-    if (attacker.ability == "Wonder Guard" && effectiveness <= 1) return 0;
-
-    return damage;
+    return damage + 2;
 }
 
 function get_next_in_g3() {
@@ -320,20 +309,23 @@ function get_next_in_g3() {
         }
 
         var enemy = createPokemon(`${pok_name} (${tr_name})`);
-        var enemyDex = pokedex[pok_name];
+        console.log(`${pok_name} (${tr_name})`)
+        enemyDex = pokedex[pok_name];
+
+
         var enemyTypes = enemyDex.types.slice();
         if (!enemyTypes[1]) enemyTypes[1] = enemyTypes[0];
 
-        var typeScore = gen3TypeScore(enemyTypes, defenderTypes);
+        var phase1Score = gen3Phase1Score(enemyTypes, defenderTypes);
 
         var hasSE = false;
         var bestDamage = 0;
         var bestMove = "";
         var seMoves = [];
 
+        var baseLastMoveDamage = 0;
         for (var j in enemy.moves) {
             var move = enemy.moves[j];
-            if (move.category == "Status") continue;
 
             var moveCopy = new calc.Move(GENERATION, move.name);
             if (moveCopy.name == "Weather Ball") {
@@ -361,33 +353,38 @@ function get_next_in_g3() {
                 }
             });
             if (lastMove.category == "Status") {
-                lastMove.bp = 3;
+                lastMove.bp = 0;
             }
             if (!isNaN(lastMoveBp)) {
                 lastMove.bp = lastMoveBp;
             }
-            var dmg = vanillaDamageCalcEmerald(enemy, p1, lastMove, field);
-            if (dmg > bestDamage) {
-                bestDamage = dmg;
-                bestMove = move.name;
-            } else if (dmg == bestDamage && bestMove) {
-                bestMove += (", " + move.name);
+            if (baseLastMoveDamage === 0) {
+                baseLastMoveDamage = vanillaDamageCalcEmerald(enemy, p1, lastMove, field);
+            }
+            if (move.bp != 1) {
+                var dmg = applyGen3TypeCalcDamage(moveCopy.type, enemyTypes, defenderTypes, baseLastMoveDamage);
+                if (dmg > bestDamage) {
+                    bestDamage = dmg % 256;
+                    bestMove = move.name;
+                } else if (dmg == bestDamage && bestMove) {
+                    bestMove += (", " + move.name);
+                }
             }
         }
 
-        var score = typeScore + bestDamage;
-        if (hasSE) score += 100000;
+        var score = phase1Score + bestDamage;
+        if (hasSE) score = 100000 + phase1Score;
 
         var reason;
-        if (hasSE) {
-            reason = `phase1 (SE move: ${seMoves.join(", ")})`;
+        if (hasSE && phase1Score > 0) {
+            reason = `phase1 (SE move: ${seMoves.join(", ")}; typeScore=${phase1Score})`;
         } else {
-            reason = `phase2 (typeScore=${typeScore}, damage=${bestDamage}, bestMove=${bestMove || "None"})`;
+            reason = `phase2 (typeScore=${phase1Score}, damage=${bestDamage}, bestMove=${bestMove || "None"})`;
         }
-        ranked_trainer_poks.push([trainer_poks[i], score, bestMove, sub_index, setdex[pok_name][tr_name]["moves"], reason, typeScore, bestDamage]);
+        ranked_trainer_poks.push([trainer_poks[i], score, bestMove, sub_index, setdex[pok_name][tr_name]["moves"], reason, phase1Score, bestDamage]);
     }
 
-    ranked_trainer_poks = ranked_trainer_poks.sort(sort_trpoks);
+    ranked_trainer_poks = ranked_trainer_poks.sort(sort_trpoks_g3);
     console.log(ranked_trainer_poks.map((entry, idx) => ({
         order: idx + 1,
         pokemon: entry[0],
@@ -398,4 +395,17 @@ function get_next_in_g3() {
         bestMove: entry[2]
     })));
     return ranked_trainer_poks;
+}
+
+// Gen 3: sort by switch-in score, break ties on trainer order (sub_index)
+function sort_trpoks_g3(a, b) {
+    var aPhase1 = a[1] >= 100000;
+    var bPhase1 = b[1] >= 100000;
+    if (aPhase1 !== bPhase1) {
+        return aPhase1 ? -1 : 1;
+    }
+    if (a[1] === b[1]) {
+        return a[3] - b[3];
+    }
+    return b[1] - a[1];
 }

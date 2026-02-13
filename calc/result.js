@@ -78,9 +78,25 @@ function damageRange(damage) {
         return [damage, damage];
     if (damage.length > 2) {
         var d_1 = damage;
-        if (d_1[0] > d_1[d_1.length - 1])
-            return [Math.min.apply(Math, __spreadArray([], __read(d_1), false)), Math.max.apply(Math, __spreadArray([], __read(d_1), false))];
-        return [d_1[0], d_1[d_1.length - 1]];
+        if (typeof d_1[0] === 'number') {
+            if (d_1[0] > d_1[d_1.length - 1])
+                return [Math.min.apply(Math, __spreadArray([], __read(d_1), false)), Math.max.apply(Math, __spreadArray([], __read(d_1), false))];
+            return [d_1[0], d_1[d_1.length - 1]];
+        }
+        if (Array.isArray(d_1[0])) {
+            var minSum = 0;
+            var maxSum = 0;
+            for (var i = 0; i < d_1.length; i++) {
+                var dist = d_1[i];
+                if (!dist || dist.length === 0)
+                    continue;
+                var min = Math.min.apply(Math, __spreadArray([], __read(dist), false));
+                var max = Math.max.apply(Math, __spreadArray([], __read(dist), false));
+                minSum += min;
+                maxSum += max;
+            }
+            return [minSum, maxSum];
+        }
     }
     if (typeof damage[0] === 'number' && typeof damage[1] === 'number') {
         return [[damage[0], damage[1]], [damage[0], damage[1]]];

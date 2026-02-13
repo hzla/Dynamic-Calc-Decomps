@@ -98,7 +98,7 @@ SOURCES = {
   "8c3ca30ba346734d5e4f": "Run & Bun",
   "f109940e5639c3702e6d": "Rising Ruby/Sinking Saphire",
   "00734d33040067eb7e9f": "Grand Colloseum 2.0",
-  "24bbfc0e69ff4a5c006b": "Emerald Kaizo",
+  "ek": "Emerald Kaizo",
   "13fc25a3b19071978dd6": "Platinum",
   "be0a4fedbe0ff31e47b0": "Heart Gold/Soul Silver",
   "78381c312866ee2e6ff9": "Black/White",
@@ -115,7 +115,7 @@ SOURCES = {
   "casc": "Cascade White",
   "ee9b421600cd6487e4e3": "Photonic Sun/Prismatic Moon",
   "d3501821feaa976d581a": "Azure Platinum",
-  "9abb79df1e356642c229": "Fire Red Omega",
+  "fro": "Fire Red Omega",
   "12f82557ed0e08145660": "Fire Red",
   "aeb373b7631d4afd7a53": "Emerald",
   "006ac04e900ccb3110df": "Luminescent Platinum",
@@ -224,7 +224,20 @@ function setGameSettings(title) {
     showAI = true
     $('label[for="snow"]').hide()
     $('#ms-link').show()
-  } else if (title == "Blinding White 2") {
+  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo") {
+    gameGen = 3
+    settings.gameSwitchIn = 3; 
+    settings.switchIn = 3
+    settings.damageGen = 3;
+    settings.typeChart = 3;
+    settings.sourceType = "full"
+    settings.critGen = 5;
+    save_expansion = false
+    settings.hasMastersheet = false;
+    showDex = false
+    showAI = false
+    $('label[for="snow"]').hide()
+  }else if (title == "Blinding White 2") {
     gameGen = 5
     settings.gameSwitchIn = 5; 
     settings.damageGen = 5;
