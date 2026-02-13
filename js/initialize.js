@@ -204,8 +204,8 @@ function setGameSettings(title) {
   if (title == "Renegade Platinum") {
     gameGen = 4
     settings.damageGen = 4
-    settings.gameSwitchIn = 3;
-    settings.switchIn = 3;
+    settings.gameSwitchIn = 4;
+    settings.switchIn = 4;
     settings.sourceType = "full"
     settings.typeChart = 6;
     settings.critGen = 5;
