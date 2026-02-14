@@ -155,7 +155,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
         (pokemon.hasAbility('Surge Surfer') && terrain === 'Electric')) {
         speedMods.push(8192);
     }
-    else if ((pokemon.named('Cherrim') && pokemon.hasAbility('Flower Gift') && weather.includes('Sun')) ||
+    else if ((pokemon.named('Cherrim') && pokemon.hasAbility('Flower Gift') && weather.includes('Sun') && settings.damageGen >= 8) ||
         (pokemon.hasAbility('Bull Rush', 'Quill Rush') && pokemon.abilityOn)) {
         speedMods.push(6144);
     }
