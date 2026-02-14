@@ -20,9 +20,20 @@ exports.__esModule = true;
 var result_1 = require("./result");
 var util_1 = require("./util");
 var util_2 = require("./mechanics/util");
+function normalizeMultihitDamage(gen, move, damage, err) {
+    if (err === void 0) { err = true; }
+    if (gen.num >= 5 && gen.num <= 6 && move.hits > 1 &&
+        Array.isArray(damage) && typeof damage[0] === 'number' && damage.length >= 16) {
+        return squashMultihit(gen, damage, move.hits, err);
+    }
+    return damage;
+}
 function display(gen, attacker, defender, move, field, damage, rawDesc, notation, err) {
+    console.log(move.name)
+    console.log(damage)
     if (notation === void 0) { notation = '%'; }
     if (err === void 0) { err = true; }
+    damage = normalizeMultihitDamage(gen, move, damage, err);
     var _a = __read((0, result_1.damageRange)(damage), 2), min = _a[0], max = _a[1];
     var minDisplay = toDisplay(notation, min, defender.maxHP());
     var maxDisplay = toDisplay(notation, max, defender.maxHP());
@@ -36,6 +47,7 @@ function display(gen, attacker, defender, move, field, damage, rawDesc, notation
 exports.display = display;
 function displayMove(gen, attacker, defender, move, damage, notation) {
     if (notation === void 0) { notation = '%'; }
+    damage = normalizeMultihitDamage(gen, move, damage);
     var _a = __read((0, result_1.damageRange)(damage), 2), min = _a[0], max = _a[1];
     var minDisplay = toDisplay(notation, min, defender.maxHP());
     var maxDisplay = toDisplay(notation, max, defender.maxHP());
@@ -210,6 +222,7 @@ function getRecoil(gen, attacker, defender, move, damage, notation) {
 exports.getRecoil = getRecoil;
 function getKOChance(gen, attacker, defender, move, field, damageObj, err) {
     if (err === void 0) { err = true; }
+    damageObj = normalizeMultihitDamage(gen, move, damageObj, err);
     var _a = __read(combine(damageObj), 2), damage = _a[0], approximate = _a[1];
     if (isNaN(damage[0])) {
         (0, util_1.error)(err, 'damage[0] must be a number.');

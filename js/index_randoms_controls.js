@@ -194,7 +194,7 @@ $(".result-move").change(function () {
 			var desc = result.fullDesc(notation, false);
 			if (desc.indexOf('--') === -1) desc += ' -- possibly the worst move ever';
 			$("#mainResult").text(desc);
-			var summary = displayDamageHits(result.damage);
+			var summary = displayDamageHits(normalizeDamageForDisplay(result));
 			var rest = "";
 			var newLine = summary.indexOf('\n');
 			if (newLine > -1) {
@@ -241,6 +241,66 @@ function displayDamageHits(damage) {
 		if (i % 2 == 1 && i < damage.length) fullText += "\n";
 	}
 	return fullText;
+}
+
+function normalizeDamageForDisplay(result) {
+	var damage = result.damage;
+	if (!result || !result.gen || !result.move) return damage;
+	var genNum = result.gen.num;
+	var hits = result.move.hits || 1;
+	if (genNum >= 5 && genNum <= 6 && hits > 1 &&
+		Array.isArray(damage) && typeof damage[0] === 'number' && damage.length >= 16) {
+		return squashMultihitDisplay(damage, hits);
+	}
+	return damage;
+}
+
+function squashMultihitDisplay(d, hits) {
+	if (hits === 1) return d;
+	if (d.length === 1) return [d[0] * hits];
+	if (d.length === 16) {
+		switch (hits) {
+		case 2:
+			return [
+				2 * d[0], d[2] + d[3], d[4] + d[4], d[4] + d[5], d[5] + d[6], d[6] + d[6],
+				d[6] + d[7], d[7] + d[7], d[8] + d[8], d[8] + d[9], d[9] + d[9], d[9] + d[10],
+				d[10] + d[11], d[11] + d[11], d[12] + d[13], 2 * d[15],
+			];
+		case 3:
+			return [
+				3 * d[0], d[3] + d[3] + d[4], d[4] + d[4] + d[5], d[5] + d[5] + d[6],
+				d[5] + d[6] + d[6], d[6] + d[6] + d[7], d[6] + d[7] + d[7], d[7] + d[7] + d[8],
+				d[7] + d[8] + d[8], d[8] + d[8] + d[9], d[8] + d[9] + d[9], d[9] + d[9] + d[10],
+				d[9] + d[10] + d[10], d[10] + d[11] + d[11], d[11] + d[12] + d[12], 3 * d[15],
+			];
+		case 4:
+			return [
+				4 * d[0], 4 * d[4], d[4] + d[5] + d[5] + d[5], d[5] + d[5] + d[6] + d[6],
+				4 * d[6], d[6] + d[6] + d[7] + d[7], 4 * d[7], d[7] + d[7] + d[7] + d[8],
+				d[7] + d[8] + d[8] + d[8], 4 * d[8], d[8] + d[8] + d[9] + d[9], 4 * d[9],
+				d[9] + d[9] + d[10] + d[10], d[10] + d[10] + d[10] + d[11], 4 * d[11], 4 * d[15],
+			];
+		case 5:
+			return [
+				5 * d[0], d[4] + d[4] + d[4] + d[5] + d[5], d[5] + d[5] + d[5] + d[5] + d[6],
+				d[5] + d[6] + d[6] + d[6] + d[6], d[6] + d[6] + d[6] + d[6] + d[7],
+				d[6] + d[6] + d[7] + d[7] + d[7], 5 * d[7], d[7] + d[7] + d[7] + d[8] + d[8],
+				d[7] + d[7] + d[8] + d[8] + d[8], 5 * d[8], d[8] + d[8] + d[8] + d[9] + d[9],
+				d[8] + d[9] + d[9] + d[9] + d[9], d[9] + d[9] + d[9] + d[9] + d[10],
+				d[9] + d[10] + d[10] + d[10] + d[10], d[10] + d[10] + d[11] + d[11] + d[11], 5 * d[15],
+			];
+		case 10:
+			return [
+				10 * d[0], 10 * d[4], 3 * d[4] + 7 * d[5], 5 * d[5] + 5 * d[6], 10 * d[6],
+				5 * d[6] + 5 * d[7], 10 * d[7], 7 * d[7] + 3 * d[8], 3 * d[7] + 7 * d[8], 10 * d[8],
+				5 * d[8] + 5 * d[9], 4 * d[9], 5 * d[9] + 5 * d[10], 7 * d[10] + 3 * d[11], 10 * d[11],
+				10 * d[15],
+			];
+		default:
+			return d;
+		}
+	}
+	return d;
 }
 
 function toOrdinal(num) {
