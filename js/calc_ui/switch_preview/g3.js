@@ -333,6 +333,10 @@ function get_next_in_g3() {
                 else if (field.weather == "Hail") moveCopy.type = "Ice";
             }
 
+            if (typeof moveCopy.type === "undefined") {
+                continue;
+            }
+
             var typeEffectiveness1 = GENERATION.types.get(toID(moveCopy.type)).effectiveness[defenderTypes[0]];
             var typeEffectiveness2 = GENERATION.types.get(toID(moveCopy.type)).effectiveness[defenderTypes[1]];
             var typeEffectiveness = typeEffectiveness1 * typeEffectiveness2;
