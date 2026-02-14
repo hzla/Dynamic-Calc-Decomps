@@ -29,8 +29,6 @@ function normalizeMultihitDamage(gen, move, damage, err) {
     return damage;
 }
 function display(gen, attacker, defender, move, field, damage, rawDesc, notation, err) {
-    console.log(move.name)
-    console.log(damage)
     if (notation === void 0) { notation = '%'; }
     if (err === void 0) { err = true; }
     damage = normalizeMultihitDamage(gen, move, damage, err);

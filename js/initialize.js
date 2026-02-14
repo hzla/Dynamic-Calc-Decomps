@@ -159,6 +159,7 @@ $(document).ready(function() {
   } else {
     $.get(npoint, function(data){
         npoint_data = data
+        backup_data = data
         gameGen = settings.damageGen
         settings.gameSwitchIn = gameGen
         settings.sourceType = "full"
@@ -491,6 +492,10 @@ function loadPoksData() {
     }
     
 
+    if (!jsonPok) {
+        console.log(`${pokName} not found in data source`)
+        continue
+    }
 
     pokedex[pokName]["bs"] = jsonPok["bs"]
 
