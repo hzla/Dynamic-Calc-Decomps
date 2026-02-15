@@ -299,6 +299,11 @@ function get_next_in_g3() {
     var defenderTypes = p1.types.slice();
     if (!defenderTypes[1]) defenderTypes[1] = defenderTypes[0];
 
+    var dead = createPokemon($("#p2"));
+    if (dead && dead.name && dead.name.includes("Castform")) {
+        dead.types = ["Normal"];
+    }
+
     for (i in trainer_poks) {
         var pok_name = trainer_poks[i].split(" (")[0];
         var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0];
@@ -322,9 +327,9 @@ function get_next_in_g3() {
         var bestMove = "";
         var seMoves = [];
 
-        var baseLastMoveDamage = 0;
         for (var j in enemy.moves) {
             var move = enemy.moves[j];
+            if (move.category == "Status") continue;
 
             var moveCopy = new calc.Move(GENERATION, move.name);
             if (moveCopy.name == "Weather Ball") {
@@ -347,6 +352,14 @@ function get_next_in_g3() {
                 seMoves.push(move.name);
             }
 
+            if (moveCopy.named(
+                "Fissure", "Horn Drill", "Guilotine", "Sheer Cold",
+                "Flail", "Frustration", "Low Kick", "Magnitude", "Present", "Return", "Reversal",
+                "Counter", "Mirror Coat",
+                "Dragon Rage", "Endeavor", "Night Shade", "Psywave", "Seismic Toss", "Sonic Boom", "Sonicboom", "Super Fang",
+                "Bide", "Hidden Power"
+            )) continue;
+
             var lastMove = new calc.Move(GENERATION, lastMoveName || moveCopy.name, {
                 overrides: {
                     type: moveCopy.type,
@@ -356,33 +369,28 @@ function get_next_in_g3() {
                 }
             });
             if (lastMove.category == "Status") {
-                lastMove.bp = 0;
+                lastMove.bp = 3;
             }
             if (!isNaN(lastMoveBp)) {
                 lastMove.bp = lastMoveBp;
             }
-            if (baseLastMoveDamage === 0) {
-                baseLastMoveDamage = vanillaDamageCalcEmerald(enemy, p1, lastMove, field);
-            }
-            if (move.bp != 1) {
-                var dmg = applyGen3TypeCalcDamage(moveCopy.type, enemyTypes, defenderTypes, baseLastMoveDamage);
-                if (dmg > bestDamage) {
-                    bestDamage = dmg % 256;
-                    bestMove = move.name;
-                } else if (dmg == bestDamage && bestMove) {
-                    bestMove += (", " + move.name);
-                }
+            var dmg = vanillaDamageCalcEmerald(dead, p1, lastMove, field);
+            if (dmg > bestDamage) {
+                bestDamage = dmg % 256;
+                bestMove = move.name;
+            } else if (dmg == bestDamage && bestMove) {
+                bestMove += (", " + move.name);
             }
         }
 
-        var score = phase1Score + bestDamage;
-        if (hasSE) score = 100000 + phase1Score;
+        var score = bestDamage;
+        if (hasSE && phase1Score > 0) score = 100000 + phase1Score;
 
         var reason;
         if (hasSE && phase1Score > 0) {
             reason = `phase1 (SE move: ${seMoves.join(", ")}; typeScore=${phase1Score})`;
         } else {
-            reason = `phase2 (typeScore=${phase1Score}, damage=${bestDamage}, bestMove=${bestMove || "None"})`;
+            reason = `phase2 (damage=${bestDamage}, bestMove=${bestMove || "None"})`;
         }
         ranked_trainer_poks.push([trainer_poks[i], score, bestMove, sub_index, setdex[pok_name][tr_name]["moves"], reason, phase1Score, bestDamage]);
     }

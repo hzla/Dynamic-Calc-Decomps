@@ -1680,7 +1680,7 @@ $(".gen").change(function () {
 	// declaring these variables with var here makes z moves not work; TODO
 	
 	randdex = RANDDEX[gen];
-	typeChart = calc.TYPE_CHART[gen];
+	typeChart = calc.TYPE_CHART[settings.typeChart];
 	
 	items = calc.ITEMS[gen];
 	abilities = calc.ABILITIES[gen];
