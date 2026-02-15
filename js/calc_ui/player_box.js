@@ -269,18 +269,23 @@ function filter_box() {
         let pokedexInfo = JSON.stringify(pokedex[set]).toLowerCase()
         let set_id = `${set} (My Box)`
 
-        let learnset = ""
+        let learnset = null
 
         try {
-            learnset = JSON.stringify(learnsets[baseSet.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]).toLowerCase()
+            if (TITLE.includes("Imperium")) {
+                 learnset = JSON.stringify(learnsets[baseSet.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()]).toLowerCase()
+            }
         } catch {
             console.log(`ls not found for ${baseSet}`)
         }        
-        if (setInfo.includes(search_string) || set.includes(search_string) || pokedexInfo.includes(search_string)) {
+
+
+        const lowerCasePokName = set.toLowerCase()
+        if (setInfo.includes(search_string) || lowerCasePokName.includes(search_string) || pokedexInfo.includes(search_string)) {
             container.find(`[data-id='${set_id}']`).addClass('active')
         }
 
-        if (learnsets) {
+        if (learnset) {
             if (learnset.includes(search_string)) {
                 container.find(`[data-id='${set_id}']`).addClass('active')
             }

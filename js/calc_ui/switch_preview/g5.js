@@ -104,7 +104,7 @@ function get_next_in_g5() {
                     moveBp *= 1.5
                 }
   
-                if (types[0] == move.type || types[1] == move.type || opposing.hasAbility("Savant")) {
+                if (types[0] == move.type || types[1] == move.type || opposing.hasAbility("Savant")|| (opposing.item.startsWith("Tera ") && opposing.moves[0].type == move.type)) {
                     // PEACHES: Tried adding this and it caused the team preview to stop working.
                     //  || (attacker.item.startsWith("Tera ") && attacker.moves[0].type == move.type)
                     moveBp *= 1.5
