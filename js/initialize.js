@@ -165,7 +165,7 @@ $(document).ready(function() {
         settings.sourceType = "full"
         toggleGen3SwitchGuide();
         TITLE = ""
-        TITLE = npoint_data.title || SOURCES[params.get("data")]
+        TITLE = npoint_data.title || SOURCES[params.get("data")] || "Untitled"
         document.title = TITLE + " Calculator"
         $('#rom-title').text(TITLE).show()
         if ( TITLE.includes("Cascade")) {
