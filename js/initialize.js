@@ -127,7 +127,8 @@ SOURCES = {
   "hgenginerom": "Heart Gold Engine Rom",
   "vwplus": "Vintage White Plus",
   "blind": "Blinding White 2",
-  "a6f5b7e55bbd7ebbdd52": "Rigorous Red"
+  "a6f5b7e55bbd7ebbdd52": "Rigorous Red",
+  "bb8579a3798fd63b429d": "Royal Saphire"
 }
 
 $(document).ready(function() {
