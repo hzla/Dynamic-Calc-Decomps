@@ -223,7 +223,19 @@ function displayDamageHits(damage) {
 	if (typeof damage === 'number') return damage.toString();
 
 	if (damage.length == 16 && typeof damage[0] === 'number') {
-		return ( damage.slice(0,8).join(', ') + `, <span id='dmg-median' title='AI Simulated Dmg Roll'>${damage[8]}</span>, ` + damage.slice(9).join(', '))
+		var medianIndex = 8;
+		if (settings && settings.damageGen === 4) {
+			medianIndex = 15;
+		} else if (settings && settings.damageGen === 5) {
+			medianIndex = 0;
+		}
+		var formatted = damage.map(function (value, index) {
+			if (index === medianIndex) {
+				return `<span id='dmg-median' title='AI Simulated Dmg Roll'>${value}</span>`;
+			}
+			return value;
+		});
+		return formatted.join(', ');
 	}
 
 	// Standard Damage
