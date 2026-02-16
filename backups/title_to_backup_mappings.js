@@ -30,7 +30,8 @@ backupFiles = {
 	"Heart Gold Engine Rom": "hgenginerom",
 	"Vintage White Plus": "vwplus",
 	"Blinding White 2": "blind",
-	"Emerald Kaizo": "ek"
+	"Emerald Kaizo": "ek",
+	"Royal Saphire": "roysaph"
 }
 
 
