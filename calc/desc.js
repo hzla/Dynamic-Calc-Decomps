@@ -22,15 +22,24 @@ var util_1 = require("./util");
 var util_2 = require("./mechanics/util");
 function normalizeMultihitDamage(gen, move, damage, err) {
     if (err === void 0) { err = true; }
-    if (Array.isArray(damage) && damage.length === 2 &&
-        Array.isArray(damage[0]) && Array.isArray(damage[1]) &&
-        typeof damage[0][0] === 'number' && typeof damage[1][0] === 'number') {
-        var combined = [];
-        var len = Math.min(damage[0].length, damage[1].length);
-        for (var i = 0; i < len; i++) {
-            combined[i] = damage[0][i] + damage[1][i];
+    if (Array.isArray(damage) && damage.length === 2) {
+        var first = damage[0];
+        var second = damage[1];
+        if (Array.isArray(first) && Array.isArray(second) &&
+            typeof first[0] === 'number' && typeof second[0] === 'number') {
+            var combined = [];
+            var len = Math.min(first.length, second.length);
+            for (var i = 0; i < len; i++) {
+                combined[i] = first[i] + second[i];
+            }
+            return combined;
         }
-        return combined;
+        if (Array.isArray(first) && typeof first[0] === 'number' && typeof second === 'number') {
+            return first.map(function (v) { return v + second; });
+        }
+        if (Array.isArray(second) && typeof second[0] === 'number' && typeof first === 'number') {
+            return second.map(function (v) { return v + first; });
+        }
     }
     if (gen.num >= 5 && gen.num <= 6 && move.hits > 1 &&
         Array.isArray(damage) && typeof damage[0] === 'number' && damage.length >= 16) {
