@@ -109,4 +109,34 @@ function damageRange(damage) {
     return [[d[0][0], d[1][0]], [d[0][d[0].length - 1], d[1][d[1].length - 1]]];
 }
 exports.damageRange = damageRange;
+function multiDamageRange(damage) {
+    var e_1, _a;
+    if (typeof damage === 'number')
+        return [damage, damage];
+    if (typeof damage[0] !== 'number') {
+        damage = damage;
+        var ranges = [[], []];
+        try {
+            for (var damage_1 = __values(damage), damage_1_1 = damage_1.next(); !damage_1_1.done; damage_1_1 = damage_1.next()) {
+                var damageList = damage_1_1.value;
+                ranges[0].push(damageList[0]);
+                ranges[1].push(damageList[damageList.length - 1]);
+            }
+        }
+        catch (e_1_1) { e_1 = { error: e_1_1 }; }
+        finally {
+            try {
+                if (damage_1_1 && !damage_1_1.done && (_a = damage_1["return"])) _a.call(damage_1);
+            }
+            finally { if (e_1) throw e_1.error; }
+        }
+        return ranges;
+    }
+    var d = damage;
+    if (d.length < 16) {
+        return [d, d];
+    }
+    return [d[0], d[d.length - 1]];
+}
+exports.multiDamageRange = multiDamageRange;
 //# sourceMappingURL=result.js.map
