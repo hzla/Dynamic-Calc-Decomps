@@ -32,7 +32,7 @@ if (TITLE.includes("Imperium")) {
                     [fileHandle] = await window.showOpenFilePicker({
                         types: [{
                             description: 'Save Files',
-                            accept: { 'application/octet-stream': ['.sav','.ss1','.ss2','.ss3','.ss4','.ss5','.ss6','.ss7','.ss8','.ss9'] }
+                            accept: { 'application/octet-stream': ['.sav','.ss1','.ss2','.ss3','.ss4','.ss5','.ss6','.ss7','.ss8','.ss9', '.srm'] }
                         }]
                     });
                 } catch (err) {
