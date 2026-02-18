@@ -696,7 +696,19 @@ function loadDataSource(data) {
         delete MOVES_BY_ID[g].chloroblast.recoil
         moves['Chloroblast'].mindBlownRecoil = true;
         MOVES_BY_ID[g].chloroblast.mindBlownRecoil = true;
-        
+
+        delete moves['Flash Cannon'].isPulse 
+        delete MOVES_BY_ID[g].flashcannon.flags.pulse
+
+        delete moves['Snipe Shot'].isPulse 
+        delete MOVES_BY_ID[g].snipeshot.flags.pulse
+
+        delete moves['Octazooka'].isPulse 
+        delete MOVES_BY_ID[g].octazooka.flags.pulse
+
+        delete moves['Armor Cannon'].isPulse 
+        delete MOVES_BY_ID[g].armorcannon.flags.pulse
+
         if (TITLE.includes("1.3")) {
             $('#reasoning').show()
             $('.move-pp').show()

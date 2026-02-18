@@ -4999,7 +4999,7 @@ var RR_PATCH = {
     'Shell Side Arm': { bp: 100 },
     'Skitter Smack': { maxPower: 100 },
     'Snap Trap': { bp: 100, type: 'Steel', zp: 180, maxPower: 130 },
-    'Snipe Shot': { bp: 70, isBullet: true},
+    'Snipe Shot': { bp: 70, isBullet: true, isPulse: true},
     'Sparkly Swirl': { bp: 95, zp: 175, maxPower: 130 },
     'Spike Cannon': { isBullet: true, zp: 100 },
     'Spin Out': { bp: 110 },
