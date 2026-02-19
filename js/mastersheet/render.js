@@ -21,14 +21,11 @@
 // LIVE CALC MODE
 $(document).ready(function() {
   IMAGE_FOLDER = "img"
-  gameDataSlug = "casc" //TODO: make customizable in future
   DEX_URL = `https://ddex-chi.vercel.app`
   CALC_URL = `https://hzla.github.io/Dynamic-Calc-Decomps?data=${gameDataSlug}`
+  // CALC_URL = `http://localhost:3001?data=${gameDataSlug}`
 })
-// LOCAL CALC MODE
-// IMAGE_FOLDER = "img"
-// DEX_URL = "http://localhost:3001" 
-// CALC_URL = "http://localhost:3002?data=casc"
+
 
 function renderMasterData(masterData, trainersById, encountersById) {
   let html = "";
@@ -749,7 +746,7 @@ $(document).ready(function() {
     document.querySelector("#mastersheet").innerHTML = renderMasterData(masterData, trainersById, encountersById);
     constructToc()
 
-    loadDex("?game=cascadewhite")
+    loadDex(`?game=${dexDataSlug}`)
 
     $('.doc-sprite, .doc-species').click(function() {
       let speciesName = cleanString(extractPokemonName($(this).parent().find('.doc-species').text()))
@@ -969,6 +966,7 @@ $(document).on("click", ".trainer-name", async function () {
 
   // Now it's safe to send (calc is loaded)
   send("SET_ID", { setId: String(setId) });
+  console.log(setId)
   $('.filter-title').removeClass('active')
   $('.calc-tab').addClass('active')
 });

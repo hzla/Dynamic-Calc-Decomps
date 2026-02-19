@@ -1,4 +1,5 @@
-masterData =[
+masterData =
+[
   {
     "content": "Vintage White",
     "content_parts": [
@@ -10,8 +11,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Chili/Cilan/Cress Split (cap: 15):",
@@ -24,8 +29,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -46,104 +55,20 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "content": "example bullet points",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "example bullet points"
-      }
-    ],
-    "tag": "li"
-  },
-  {
-    "content": "another bullet point",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "another bullet point"
-      }
-    ],
-    "tag": "li"
-  },
-  {
-    "tag": "p",
-    "content": " "
-  },
-  {
-    "content": "h3 header here",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "h3 header here"
-      }
-    ],
-    "tag": "h3"
-  },
-  {
-    "tag": "p",
-    "content": " "
-  },
-  {
-    "content": "h4 header here",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "h4 header here"
-      }
-    ],
-    "tag": "h4"
-  },
-  {
-    "tag": "p",
-    "content": " "
-  },
-  {
-    "tag": "p",
-    "content": "some more text but with a line break",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "some more text but with a line break"
-      }
-    ]
-  },
-  {
-    "tag": "br"
-  },
-  {
-    "tag": "p",
-    "content": "and a [link](https://google.com)",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "and a "
-      },
-      {
-        "type": "link",
-        "text": "link",
-        "href": "https://google.com"
-      }
-    ]
-  },
-  {
-    "tag": "p",
-    "content": " "
-  },
-  {
-    "tag": "p",
-    "content": " "
-  },
-  {
-    "id": 3,
-    "tag": "encounter"
-  },
-  {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -164,8 +89,44 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "Accumula Town",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Accumula Town"
+      }
+    ],
+    "tag": "h2"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "class": "mand",
+    "id": 64,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 1",
@@ -178,26 +139,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 77,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
-  },
-  {
-    "class": "mand",
-    "id": 64,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 2",
@@ -210,16 +169,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 78,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -238,8 +205,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -260,8 +231,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Striaton City",
@@ -274,8 +249,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Trainer School",
@@ -288,8 +267,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -310,8 +293,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Dreamyard",
@@ -324,16 +311,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 3,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -347,8 +342,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Striaton City Gym",
@@ -361,8 +360,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -377,12 +380,52 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -391,10 +434,26 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "class": "mand",
     "id": 12,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -403,12 +462,20 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Lenora Split (cap: 28)",
@@ -421,8 +488,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Dreamyard",
@@ -435,8 +506,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 293,
@@ -449,8 +524,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 3",
@@ -463,16 +542,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 79,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 14,
@@ -500,8 +587,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 20,
@@ -509,8 +600,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -531,12 +626,20 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Wellspring Cave",
@@ -549,16 +652,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 80,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 294,
@@ -566,8 +677,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -598,8 +713,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 3",
@@ -612,8 +731,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 3,
@@ -636,30 +759,42 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "content": "Pinwheel Forest",
+    "content": "Not Pinwheel Forest",
     "content_parts": [
       {
         "type": "text",
-        "text": "Pinwheel Forest"
+        "text": "Not Pinwheel Forest"
       }
     ],
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "id": 6,
+    "id": 5,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 546,
@@ -667,7 +802,7 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 501,
     "notes": [],
     "tag": "trainer"
   },
@@ -677,28 +812,32 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 145,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 144,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 111,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 160,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Nacrene City",
@@ -711,8 +850,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -729,8 +872,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Nacrene City Gym",
@@ -743,8 +890,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -765,18 +916,26 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
-    "id": 0,
+    "id": 21,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Burgh Split (cap: 35)",
@@ -789,8 +948,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Pinwheel Forest",
@@ -803,8 +966,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 30,
@@ -812,9 +979,25 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 34,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 31,
@@ -822,13 +1005,25 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 32,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 295,
@@ -836,13 +1031,25 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 309,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 26,
@@ -850,9 +1057,25 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 33,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 29,
@@ -860,13 +1083,25 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 27,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 296,
@@ -874,9 +1109,25 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 28,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 297,
@@ -884,8 +1135,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Castelia City",
@@ -898,8 +1153,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 600,
@@ -917,8 +1176,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 552,
@@ -926,8 +1189,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Castelia Battle Company",
@@ -940,8 +1207,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 93,
@@ -949,9 +1220,33 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 165,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 94,
@@ -959,9 +1254,25 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 113,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 166,
@@ -969,9 +1280,25 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 167,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 116,
@@ -979,9 +1306,25 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 114,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 170,
@@ -989,13 +1332,25 @@ masterData =[
     "tag": "trainer"
   },
   {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
     "id": 137,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Castelia City Gym",
@@ -1008,8 +1363,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1036,8 +1395,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1046,8 +1409,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Elesa Split (cap: 44)",
@@ -1060,8 +1427,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 4",
@@ -1074,16 +1445,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 82,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1104,8 +1483,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1126,8 +1509,30 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "Route 4 - Pre Castelia Gym",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Route 4 - Pre Castelia Gym"
+      }
+    ],
+    "tag": "h2"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 41,
@@ -1153,6 +1558,32 @@ masterData =[
     "id": 36,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "Route 4 - Post Castelia Gym",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Route 4 - Post Castelia Gym"
+      }
+    ],
+    "tag": "h2"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 290,
@@ -1190,8 +1621,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Desert Resort",
@@ -1204,16 +1639,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 7,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 613,
@@ -1266,8 +1709,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Relic Castle",
@@ -1280,16 +1727,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 9,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 51,
@@ -1302,8 +1757,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Nimbasa City",
@@ -1316,8 +1775,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1326,8 +1789,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1336,8 +1803,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Nimbasa City Gym",
@@ -1350,8 +1821,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1378,8 +1853,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1388,8 +1867,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Clay Split (cap: 58)",
@@ -1402,8 +1885,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 16",
@@ -1416,16 +1903,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 107,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 412,
@@ -1458,8 +1953,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 5",
@@ -1472,16 +1971,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 83,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 50,
@@ -1519,30 +2026,38 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
-    "id": 0,
+    "id": 91,
     "notes": [],
     "tag": "trainer"
   },
   {
     "class": "mand",
-    "id": 0,
+    "id": 92,
     "notes": [],
     "tag": "trainer"
   },
   {
     "class": "mand",
-    "id": 0,
+    "id": 90,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 401,
@@ -1571,8 +2086,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Cold Storage",
@@ -1585,84 +2104,100 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 40,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "id": 0,
+    "id": 141,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 140,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 77,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 72,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 74,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 73,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 76,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 75,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "id": 0,
+    "id": 276,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 610,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 278,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 81,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 6",
@@ -1675,16 +2210,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 84,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 112,
@@ -1722,8 +2265,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Driftveil City Gym",
@@ -1736,8 +2283,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 201,
@@ -1760,8 +2311,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1770,8 +2325,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Skyla Split (cap: 67)",
@@ -1784,8 +2343,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Driftveil City",
@@ -1798,8 +2361,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1820,8 +2387,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Chargestone Cave",
@@ -1834,16 +2405,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 41,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 240,
@@ -1871,8 +2450,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 298,
@@ -1910,8 +2493,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 101,
@@ -1934,8 +2521,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -1944,8 +2535,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 7",
@@ -1958,16 +2553,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 88,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 154,
@@ -2015,8 +2618,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Celestial Tower",
@@ -2029,16 +2636,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 89,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 120,
@@ -2081,8 +2696,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 269,
@@ -2095,8 +2714,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Mistralton City Gym",
@@ -2109,8 +2732,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 125,
@@ -2138,8 +2765,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -2148,8 +2779,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Brycen Split (cap: 74)",
@@ -2162,8 +2797,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 1",
@@ -2176,8 +2815,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 531,
@@ -2195,8 +2838,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 17",
@@ -2209,16 +2856,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 111,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 432,
@@ -2246,8 +2901,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 18",
@@ -2260,16 +2919,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 0,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 460,
@@ -2297,8 +2964,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "P2 Laboratory",
@@ -2311,16 +2982,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 72,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 421,
@@ -2328,8 +3007,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Mistralton Cave",
@@ -2342,16 +3025,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 85,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 255,
@@ -2364,8 +3055,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Twist Mountain",
@@ -2378,16 +3073,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 44,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 243,
@@ -2395,8 +3098,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -2417,8 +3124,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 242,
@@ -2461,8 +3172,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Non-Winter Only",
@@ -2475,8 +3190,12 @@ masterData =[
     "tag": "h3"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 195,
@@ -2494,8 +3213,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Winter Only",
@@ -2508,8 +3231,12 @@ masterData =[
     "tag": "h3"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 519,
@@ -2517,8 +3244,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 8",
@@ -2531,16 +3262,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 93,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 184,
@@ -2568,8 +3307,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Moor of Icirrus",
@@ -2582,16 +3325,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 94,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 584,
@@ -2609,8 +3360,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Non-Winter Only",
@@ -2623,8 +3378,12 @@ masterData =[
     "tag": "h3"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 585,
@@ -2632,8 +3391,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Icirrus City Gym",
@@ -2646,8 +3409,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 215,
@@ -2675,8 +3442,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -2685,8 +3456,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Iris Split (cap: 86)",
@@ -2699,8 +3474,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Dragon Spiral Tower",
@@ -2713,16 +3492,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 48,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 106,
@@ -2735,60 +3522,117 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "id": 0,
+    "id": 303,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 612,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 304,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 312,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "id": 0,
+    "id": 302,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "id": 0,
+    "content": "Start of B2B2B2B",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "Start of B2B2B2B"
+      }
+    ],
+    "tag": "h3"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "id": 305,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 306,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 313,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "id": 307,
+    "notes": [],
+    "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "End of B2B2B2B",
+    "content_parts": [
+      {
+        "type": "text",
+        "text": "End of B2B2B2B"
+      }
+    ],
+    "tag": "h3"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Relic Castle",
@@ -2801,55 +3645,67 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 9,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
-    "id": 0,
+    "id": 221,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 222,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 225,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 223,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 226,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 224,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "id": 0,
+    "id": 227,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 8",
@@ -2862,8 +3718,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -2884,8 +3744,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Tubeline Bridge (Friday Only)",
@@ -2898,8 +3762,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 544,
@@ -2912,8 +3780,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 9",
@@ -2926,16 +3798,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 95,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 180,
@@ -2963,8 +3843,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 9 Mall",
@@ -2977,8 +3861,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 98,
@@ -3001,8 +3889,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Opelucid City",
@@ -3015,8 +3907,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 514,
@@ -3029,8 +3925,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Opelucid City Gym",
@@ -3043,8 +3943,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 270,
@@ -3087,8 +3991,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -3097,8 +4005,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "League Split (Cap: 100)",
@@ -3111,8 +4023,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 10",
@@ -3125,81 +4041,50 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 99,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
-  },
-  {
-    "id": 158,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "id": 103,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "id": 179,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
-    "id": 0,
+    "id": 592,
     "notes": [],
     "tag": "trainer"
   },
   {
     "class": "mand",
-    "id": 0,
+    "id": 593,
     "notes": [],
     "tag": "trainer"
   },
   {
     "class": "mand",
-    "id": 0,
+    "id": 591,
     "notes": [],
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
-  },
-  {
-    "id": 109,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "id": 193,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "id": 99,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "id": 178,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Victory Road",
@@ -3212,8 +4097,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 52,
@@ -3224,8 +4113,12 @@ masterData =[
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 244,
@@ -3268,8 +4161,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Pokemon League",
@@ -3282,8 +4179,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -3292,8 +4193,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -3302,8 +4207,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -3312,8 +4221,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -3322,8 +4235,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "N's Castle",
@@ -3336,8 +4253,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -3346,8 +4267,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "class": "mand",
@@ -3356,8 +4281,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Post-Game",
@@ -3370,8 +4299,12 @@ masterData =[
     "tag": "h1"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Nuvema Town",
@@ -3384,8 +4317,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 594,
@@ -3403,8 +4340,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Chargestone Cave",
@@ -3417,8 +4358,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 597,
@@ -3431,41 +4376,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
-  },
-  {
-    "content": "Victory Road",
-    "content_parts": [
-      {
-        "type": "text",
-        "text": "Victory Road"
-      }
-    ],
-    "tag": "h2"
-  },
-  {
-    "tag": "p",
-    "content": " "
-  },
-  {
-    "id": 592,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "id": 593,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "id": 591,
-    "notes": [],
-    "tag": "trainer"
-  },
-  {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Challenger's Cave",
@@ -3478,8 +4394,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 96,
@@ -3490,8 +4410,12 @@ masterData =[
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 578,
@@ -3514,8 +4438,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 260,
@@ -3523,8 +4451,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 11",
@@ -3537,16 +4469,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 101,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 440,
@@ -3569,8 +4509,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 12",
@@ -3583,16 +4527,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 102,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 448,
@@ -3620,8 +4572,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Lacunosa Town",
@@ -3634,8 +4590,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 80,
@@ -3643,8 +4603,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 13",
@@ -3657,16 +4621,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 0,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 457,
@@ -3729,8 +4701,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Undella Town",
@@ -3743,8 +4719,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "These trainers replaces the trainers known as The Riches in the base game.",
@@ -3777,8 +4757,12 @@ masterData =[
     "tag": "p"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 520,
@@ -3816,8 +4800,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Undella Bay",
@@ -3830,16 +4818,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 73,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 569,
@@ -3872,8 +4868,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 14",
@@ -3886,16 +4886,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 104,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 431,
@@ -3928,8 +4936,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Abundant Shrine",
@@ -3942,16 +4954,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 105,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 575,
@@ -3974,8 +4994,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "White Forest",
@@ -3988,16 +5012,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 0,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 529,
@@ -4010,8 +5042,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Route 15",
@@ -4024,16 +5060,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 106,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 429,
@@ -4061,8 +5105,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Marvelous Bridge",
@@ -4075,16 +5123,24 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 76,
     "tag": "encounter"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 608,
@@ -4092,8 +5148,12 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "content": "Pokemon League",
@@ -4106,8 +5166,12 @@ masterData =[
     "tag": "h2"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 563,
@@ -4130,16 +5194,317 @@ masterData =[
     "tag": "trainer"
   },
   {
-    "tag": "p",
-    "content": " "
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   },
   {
     "id": 407,
     "notes": [],
     "tag": "trainer"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
+  },
+  {
+    "content": "",
+    "content_parts": {
+      "type": "text",
+      "text": ""
+    },
+    "tag": "p"
   }
 ]
-encountersById = [
+encountersById =
+[
   {
     "wilds": [
       "Feebas",
@@ -4203,7 +5568,7 @@ encountersById = [
       "Spoink",
       "Houndour",
       "Ralts",
-      "Staryu",
+      "Chingling",
       "Vulpix",
       "Exeggcute",
       "Drowzee",
@@ -4959,7 +6324,7 @@ encountersById = [
       "Bagon",
       "Dratini",
       "Larvitar",
-      "Ekans",
+      "Beldum",
       "Tropius",
       "Squirtle"
     ],
@@ -6491,7 +7856,8 @@ encountersById = [
     "name": "Route 17"
   }
 ]
-trainersById = [
+trainersById =
+[
   {
     "count": 0,
     "template": 0,
@@ -6503,7 +7869,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 0,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -6532,10 +7899,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "No Guard",
-    "nature_1": "Lonely",
-    "ability_name_1": "Adaptability",
     "tr_sprite": "trainer_sprites/youngster.png",
     "name": "Jimmy",
+    "nature_1": "Lonely",
+    "ability_name_1": "Adaptability",
     "raw": null,
     "raw_species_id_0": 16,
     "raw_species_id_1": 19,
@@ -6544,7 +7911,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 1,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -6584,12 +7952,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Huge Power",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Mali",
     "nature_1": "Bold",
     "ability_name_1": "Multiscale",
     "nature_2": "Adamant",
     "ability_name_2": "Tinted Lens",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Mali",
     "raw": null,
     "raw_species_id_0": 167,
     "raw_species_id_1": 269,
@@ -6598,7 +7966,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 2,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -6638,12 +8007,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Calm",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Al",
     "nature_1": "Quirky",
     "ability_name_1": "Swift Swim",
     "nature_2": "Bashful",
     "ability_name_2": "Sniper",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Al",
     "raw": null,
     "raw_species_id_0": 159,
     "raw_species_id_1": 369,
@@ -6652,7 +8021,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 3,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -6703,14 +8073,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Quiet",
     "ability_name_0": "Cloud Nine",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Marsha",
     "nature_1": "Mild",
     "ability_name_1": "Toxic Boost",
     "nature_2": "Serious",
     "ability_name_2": "Intimidate",
     "nature_3": "Docile",
     "ability_name_3": "Scrappy",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Marsha",
     "raw": null,
     "raw_species_id_0": 333,
     "raw_species_id_1": 335,
@@ -6719,7 +8089,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 4,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -6733,12 +8104,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Calm",
     "ability_name_0": "Lightningrod",
+    "tr_sprite": "trainer_sprites/smasher.png",
+    "name": "Elena",
     "move_1_0": "SPARK",
     "move_2_0": "PURSUIT",
     "move_3_0": "FLAME CHARGE",
     "move_4_0": "THUNDER WAVE",
-    "tr_sprite": "trainer_sprites/smasher.png",
-    "name": "Elena",
     "raw": null,
     "raw_species_id_0": 522,
     "raw_species_id_1": null,
@@ -6747,7 +8118,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 5,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -6768,6 +8140,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Hustle",
+    "tr_sprite": "trainer_sprites/linebacker.png",
+    "name": "Dan",
     "nature_1": "Calm",
     "ability_name_1": "Guts",
     "move_1_0": "FIRE PUNCH",
@@ -6778,8 +8152,6 @@ trainersById = [
     "move_2_1": "WAKE-UP SLAP",
     "move_3_1": "ROCK THROW",
     "move_4_1": "LOW KICK",
-    "tr_sprite": "trainer_sprites/linebacker.png",
-    "name": "Dan",
     "raw": null,
     "raw_species_id_0": 554,
     "raw_species_id_1": 532,
@@ -6788,7 +8160,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 6,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -6817,10 +8190,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Jolly",
     "ability_name_0": "Keen Eye",
-    "nature_1": "Timid",
-    "ability_name_1": "Adaptability",
     "tr_sprite": "trainer_sprites/youngster.png",
     "name": "Joey",
+    "nature_1": "Timid",
+    "ability_name_1": "Adaptability",
     "raw": null,
     "raw_species_id_0": 21,
     "raw_species_id_1": 19,
@@ -6829,7 +8202,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 7,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -6869,12 +8243,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Careful",
     "ability_name_0": "Magic Bounce",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Eri",
     "nature_1": "Calm",
     "ability_name_1": "Cute Charm",
     "nature_2": "Relaxed",
-    "ability_name_2": "Huge Power",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Eri",
+    "ability_name_2": "Sap Sipper",
     "raw": null,
     "raw_species_id_0": 177,
     "raw_species_id_1": 35,
@@ -6883,7 +8257,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 8,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -6923,12 +8298,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/waiter.png",
+    "name": "Maxwell",
     "nature_1": "Lonely",
     "ability_name_1": "Adaptability",
     "nature_2": "Relaxed",
-    "ability_name_2": "Flash Fire",
-    "tr_sprite": "trainer_sprites/waiter.png",
-    "name": "Maxwell",
+    "ability_name_2": "",
     "raw": null,
     "raw_species_id_0": 274,
     "raw_species_id_1": 341,
@@ -6937,7 +8312,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 9,
-    "class": "Waiter"
+    "class": "Waiter",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -6977,12 +8353,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Quiet",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/waitress.png",
+    "name": "Tia",
     "nature_1": "Serious",
     "ability_name_1": "Water Absorb",
     "nature_2": "Adamant",
     "ability_name_2": "Swift Swim",
-    "tr_sprite": "trainer_sprites/waitress.png",
-    "name": "Tia",
     "raw": null,
     "raw_species_id_0": 185,
     "raw_species_id_1": 218,
@@ -6991,7 +8367,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 10,
-    "class": "Waitress"
+    "class": "Waitress",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7014,7 +8391,7 @@ trainersById = [
     "item_id_1": "Oran Berry",
     "move_1_1": "INCINERATE",
     "move_2_1": "SUPERSONIC",
-    "move_3_1": "FIRE SPIN",
+    "move_3_1": "FLAME BURST",
     "move_4_1": "QUICK ATTACK",
     "ivs_2": 255,
     "ability_2": 1,
@@ -7034,12 +8411,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Timid",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/chili.png",
+    "name": "Chili",
     "nature_1": "Mild",
     "ability_name_1": "Intimidate",
     "nature_2": "Careful",
     "ability_name_2": "Speed Boost",
-    "tr_sprite": "trainer_sprites/chili.png",
-    "name": "Chili",
     "raw": null,
     "raw_species_id_0": 58,
     "raw_species_id_1": 228,
@@ -7048,7 +8425,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 11,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7091,12 +8469,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Timid",
     "ability_name_0": "Poison Heal",
+    "tr_sprite": "trainer_sprites/cilan.png",
+    "name": "Cilan",
     "nature_1": "Serious",
     "ability_name_1": "Regenerator",
     "nature_2": "Bashful",
     "ability_name_2": "Technician",
-    "tr_sprite": "trainer_sprites/cilan.png",
-    "name": "Cilan",
     "raw": null,
     "raw_species_id_0": 285,
     "raw_species_id_1": 114,
@@ -7105,7 +8483,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 12,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7118,7 +8497,7 @@ trainersById = [
     "move_1_0": "ACID SPRAY",
     "move_2_0": "SUPERSONIC",
     "move_3_0": "MEGA DRAIN",
-    "move_4_0": "WRAP",
+    "move_4_0": "ICY WIND",
     "ivs_1": 255,
     "ability_1": 1,
     "level_1": 14,
@@ -7148,12 +8527,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Naive",
     "ability_name_0": "Clear Body",
+    "tr_sprite": "trainer_sprites/cress.png",
+    "name": "Cress",
     "nature_1": "Calm",
     "ability_name_1": "Natural Cure",
     "nature_2": "Hardy",
     "ability_name_2": "Swift Swim",
-    "tr_sprite": "trainer_sprites/cress.png",
-    "name": "Cress",
     "raw": null,
     "raw_species_id_0": 72,
     "raw_species_id_1": 120,
@@ -7162,7 +8541,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 13,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7202,12 +8582,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Sassy",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/nurseryaide.png",
+    "name": "Autumn",
     "nature_1": "Mild",
     "ability_name_1": "Intimidate",
     "nature_2": "Brave",
     "ability_name_2": "Levitate",
-    "tr_sprite": "trainer_sprites/nurseryaide.png",
-    "name": "Autumn",
     "raw": null,
     "raw_species_id_0": 104,
     "raw_species_id_1": 262,
@@ -7216,7 +8596,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 14,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7244,7 +8625,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 15,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7272,7 +8654,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 16,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7300,7 +8683,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 17,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7329,10 +8713,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Jolly",
     "ability_name_0": "Prankster",
-    "nature_1": "Naughty",
-    "ability_name_1": "Motor Drive",
     "tr_sprite": "trainer_sprites/twins.png",
     "name": "Kumi & Amy",
+    "nature_1": "Naughty",
+    "ability_name_1": "Motor Drive",
     "raw": null,
     "raw_species_id_0": 311,
     "raw_species_id_1": 312,
@@ -7341,7 +8725,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 18,
-    "class": "Twins"
+    "class": "Twins",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -7380,13 +8765,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Jolly",
-    "ability_name_0": "Motor Drive",
-    "nature_1": "Lonely",
-    "ability_name_1": "Flash Fire",
-    "nature_2": "Sassy",
-    "ability_name_2": "Hydration",
+    "ability_name_0": "Lightningrod",
     "tr_sprite": "trainer_sprites/pokemonbreeder.png",
     "name": "Galen",
+    "nature_1": "Lonely",
+    "ability_name_1": "Solar Power",
+    "nature_2": "Sassy",
+    "ability_name_2": "Hydration",
     "raw": null,
     "raw_species_id_0": 466,
     "raw_species_id_1": 467,
@@ -7395,7 +8780,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 19,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7468,8 +8854,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Hasty",
     "ability_name_0": "Serene Grace",
+    "tr_sprite": "trainer_sprites/pokemonbreeder.png",
+    "name": "Adelaide",
     "nature_1": "Hardy",
-    "ability_name_1": "Volt Absorb",
+    "ability_name_1": "Lightningrod",
     "nature_2": "Lonely",
     "ability_name_2": "Huge Power",
     "nature_3": "Bold",
@@ -7478,8 +8866,6 @@ trainersById = [
     "ability_name_4": "Cute Charm",
     "nature_5": "Docile",
     "ability_name_5": "Natural Cure",
-    "tr_sprite": "trainer_sprites/pokemonbreeder.png",
-    "name": "Adelaide",
     "raw": null,
     "raw_species_id_0": 176,
     "raw_species_id_1": 25,
@@ -7488,7 +8874,8 @@ trainersById = [
     "raw_species_id_4": 35,
     "raw_species_id_5": 113,
     "index": 20,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7567,18 +8954,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Lonely",
     "ability_name_0": "Own Tempo",
+    "tr_sprite": "trainer_sprites/lenora.png",
+    "name": "Lenora",
     "nature_1": "Serious",
-    "ability_name_1": "Early Bird",
+    "ability_name_1": "Scrappy",
     "nature_2": "Bashful",
-    "ability_name_2": "Guts",
+    "ability_name_2": "Quick Feet",
     "nature_3": "Modest",
     "ability_name_3": "Adaptability",
     "nature_4": "Relaxed",
     "ability_name_4": "Sap Sipper",
     "nature_5": "Bashful",
-    "ability_name_5": "Slow Start",
-    "tr_sprite": "trainer_sprites/lenora.png",
-    "name": "Lenora",
+    "ability_name_5": "Truant",
     "raw": null,
     "raw_species_id_0": 108,
     "raw_species_id_1": 115,
@@ -7587,7 +8974,8 @@ trainersById = [
     "raw_species_id_4": 203,
     "raw_species_id_5": 289,
     "index": 21,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7666,18 +9054,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Mild",
     "ability_name_0": "Speed Boost",
+    "tr_sprite": "trainer_sprites/burgh.png",
+    "name": "Burgh",
     "nature_1": "Timid",
     "ability_name_1": "Prankster",
     "nature_2": "Rash",
     "ability_name_2": "Intimidate",
     "nature_3": "Bold",
-    "ability_name_3": "Sturdy",
+    "ability_name_3": "Technician",
     "nature_4": "Hardy",
-    "ability_name_4": "Intimidate",
+    "ability_name_4": "Moxie",
     "nature_5": "Adamant",
-    "ability_name_5": "Skill Link",
-    "tr_sprite": "trainer_sprites/burgh.png",
-    "name": "Burgh",
+    "ability_name_5": "Guts",
     "raw": null,
     "raw_species_id_0": 469,
     "raw_species_id_1": 313,
@@ -7686,7 +9074,8 @@ trainersById = [
     "raw_species_id_4": 127,
     "raw_species_id_5": 214,
     "index": 22,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -7765,18 +9154,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Bold",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/elesa.png",
+    "name": "Elesa",
     "nature_1": "Jolly",
     "ability_name_1": "Motor Drive",
     "nature_2": "Lonely",
     "ability_name_2": "Levitate",
     "nature_3": "Gentle",
-    "ability_name_3": "Volt Absorb",
+    "ability_name_3": "Lightningrod",
     "nature_4": "Quiet",
     "ability_name_4": "Intimidate",
     "nature_5": "Quiet",
     "ability_name_5": "No Guard",
-    "tr_sprite": "trainer_sprites/elesa.png",
-    "name": "Elesa",
     "raw": null,
     "raw_species_id_0": 311,
     "raw_species_id_1": 466,
@@ -7785,7 +9174,8 @@ trainersById = [
     "raw_species_id_4": 310,
     "raw_species_id_5": 18,
     "index": 23,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -7863,9 +9253,11 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Naughty",
-    "ability_name_0": "Battle Armor",
+    "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/clay.png",
+    "name": "Clay",
     "nature_1": "Lonely",
-    "ability_name_1": "Sand Veil",
+    "ability_name_1": "Arena Trap",
     "nature_2": "Serious",
     "ability_name_2": "Rock Head",
     "nature_3": "Jolly",
@@ -7874,8 +9266,6 @@ trainersById = [
     "ability_name_4": "Rock Head",
     "nature_5": "Relaxed",
     "ability_name_5": "Clear Body",
-    "tr_sprite": "trainer_sprites/clay.png",
-    "name": "Clay",
     "raw": null,
     "raw_species_id_0": 248,
     "raw_species_id_1": 51,
@@ -7884,7 +9274,8 @@ trainersById = [
     "raw_species_id_4": 185,
     "raw_species_id_5": 377,
     "index": 24,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -7962,7 +9353,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Impish",
-    "ability_name_0": "Inner Focus",
+    "ability_name_0": "Sniper",
+    "tr_sprite": "trainer_sprites/skyla.png",
+    "name": "Skyla",
     "nature_1": "Calm",
     "ability_name_1": "Intimidate",
     "nature_2": "Impish",
@@ -7973,8 +9366,6 @@ trainersById = [
     "ability_name_4": "Rock Head",
     "nature_5": "Bashful",
     "ability_name_5": "Guts",
-    "tr_sprite": "trainer_sprites/skyla.png",
-    "name": "Skyla",
     "raw": null,
     "raw_species_id_0": 169,
     "raw_species_id_1": 130,
@@ -7983,7 +9374,8 @@ trainersById = [
     "raw_species_id_4": 142,
     "raw_species_id_5": 277,
     "index": 25,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -8023,12 +9415,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Relaxed",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Forrest",
     "nature_1": "Docile",
     "ability_name_1": "Sap Sipper",
     "nature_2": "Serious",
-    "ability_name_2": "Volt Absorb",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Forrest",
+    "ability_name_2": "Lightningrod",
     "raw": null,
     "raw_species_id_0": 264,
     "raw_species_id_1": 234,
@@ -8037,7 +9429,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 26,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8076,13 +9469,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Docile",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Irene",
     "nature_1": "Bold",
     "ability_name_1": "Chlorophyll",
     "nature_2": "Gentle",
     "ability_name_2": "Wonder Skin",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Irene",
     "raw": null,
     "raw_species_id_0": 38,
     "raw_species_id_1": 407,
@@ -8091,7 +9484,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 27,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8131,12 +9525,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Modest",
     "ability_name_0": "Battle Armor",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Miguel",
     "nature_1": "Serious",
     "ability_name_1": "Technician",
     "nature_2": "Impish",
     "ability_name_2": "Justified",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Miguel",
     "raw": null,
     "raw_species_id_0": 232,
     "raw_species_id_1": 53,
@@ -8145,7 +9539,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 28,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8185,12 +9580,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Calm",
     "ability_name_0": "Speed Boost",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Audra",
     "nature_1": "Brave",
     "ability_name_1": "Swift Swim",
     "nature_2": "Naive",
     "ability_name_2": "Technician",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Audra",
     "raw": null,
     "raw_species_id_0": 256,
     "raw_species_id_1": 259,
@@ -8199,7 +9594,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 29,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8228,10 +9624,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Mild",
     "ability_name_0": "Filter",
-    "nature_1": "Relaxed",
-    "ability_name_1": "Magic Guard",
     "tr_sprite": "trainer_sprites/schoolkid.png",
     "name": "Sammy",
+    "nature_1": "Relaxed",
+    "ability_name_1": "Magic Guard",
     "raw": null,
     "raw_species_id_0": 154,
     "raw_species_id_1": 326,
@@ -8240,7 +9636,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 30,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8280,12 +9677,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Volt Absorb",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Millie",
     "nature_1": "Bold",
     "ability_name_1": "Levitate",
     "nature_2": "Docile",
     "ability_name_2": "Motor Drive",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Millie",
     "raw": null,
     "raw_species_id_0": 135,
     "raw_species_id_1": 82,
@@ -8294,7 +9691,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 31,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8323,10 +9721,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Tinted Lens",
-    "nature_1": "Naughty",
-    "ability_name_1": "Multiscale",
     "tr_sprite": "trainer_sprites/twins.png",
     "name": "Mayo & May",
+    "nature_1": "Naughty",
+    "ability_name_1": "Multiscale",
     "raw": null,
     "raw_species_id_0": 267,
     "raw_species_id_1": 269,
@@ -8335,7 +9733,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 32,
-    "class": "Twins"
+    "class": "Twins",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -8375,12 +9774,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Relaxed",
     "ability_name_0": "No Guard",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Nicholas",
     "nature_1": "Lonely",
     "ability_name_1": "Defiant",
     "nature_2": "Bold",
     "ability_name_2": "Levitate",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Nicholas",
     "raw": null,
     "raw_species_id_0": 17,
     "raw_species_id_1": 85,
@@ -8389,7 +9788,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 33,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8440,14 +9840,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Super Luck",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Eva",
     "nature_1": "Brave",
     "ability_name_1": "Guts",
     "nature_2": "Bold",
-    "ability_name_2": "Multiscale",
+    "ability_name_2": "Drizzle",
     "nature_3": "Timid",
     "ability_name_3": "Sturdy",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Eva",
     "raw": null,
     "raw_species_id_0": 83,
     "raw_species_id_1": 277,
@@ -8456,7 +9856,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 34,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8496,12 +9897,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Serious",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/scott.png",
+    "name": "Scott",
     "nature_1": "Lax",
     "ability_name_1": "Sturdy",
     "nature_2": "Lax",
     "ability_name_2": "Battle Armor",
-    "tr_sprite": "trainer_sprites/scott.png",
-    "name": "Scott",
     "raw": null,
     "raw_species_id_0": 212,
     "raw_species_id_1": 205,
@@ -8510,7 +9911,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 35,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8561,14 +9963,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Sheer Force",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Shelby",
     "nature_1": "Naive",
-    "ability_name_1": "Rock Head",
+    "ability_name_1": "Sturdy",
     "nature_2": "Quirky",
     "ability_name_2": "Sand Veil",
     "nature_3": "Jolly",
     "ability_name_3": "Levitate",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Shelby",
     "raw": null,
     "raw_species_id_0": 99,
     "raw_species_id_1": 306,
@@ -8577,7 +9979,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 36,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8617,12 +10020,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Relaxed",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Zack",
     "nature_1": "Docile",
     "ability_name_1": "Sand Veil",
     "nature_2": "Lax",
-    "ability_name_2": "Flash Fire",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Zack",
+    "ability_name_2": "Chlorophyll",
     "raw": null,
     "raw_species_id_0": 185,
     "raw_species_id_1": 332,
@@ -8631,7 +10034,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 37,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8693,16 +10097,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Contrary",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Cairn",
     "nature_1": "Quirky",
     "ability_name_1": "Technician",
     "nature_2": "Naughty",
-    "ability_name_2": "Flash Fire",
+    "ability_name_2": "Solar Power",
     "nature_3": "Adamant",
     "ability_name_3": "Intimidate",
     "nature_4": "Quirky",
     "ability_name_4": "Poison Heal",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Cairn",
     "raw": null,
     "raw_species_id_0": 213,
     "raw_species_id_1": 461,
@@ -8711,7 +10115,8 @@ trainersById = [
     "raw_species_id_4": 472,
     "raw_species_id_5": null,
     "index": 38,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8751,12 +10156,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Bashful",
     "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Waylon",
     "nature_1": "Bold",
     "ability_name_1": "Rock Head",
     "nature_2": "Docile",
     "ability_name_2": "Rock Head",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Waylon",
     "raw": null,
     "raw_species_id_0": 197,
     "raw_species_id_1": 112,
@@ -8765,7 +10170,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 39,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8793,11 +10199,11 @@ trainersById = [
     "gender_1": "Default",
     "template": 1,
     "nature_0": "Relaxed",
-    "ability_name_0": "Swift Swim",
-    "nature_1": "Mild",
-    "ability_name_1": "Sheer Force",
+    "ability_name_0": "Rock Head",
     "tr_sprite": "trainer_sprites/backpacker_f.png",
     "name": "Jill",
+    "nature_1": "Mild",
+    "ability_name_1": "Sheer Force",
     "raw": null,
     "raw_species_id_0": 369,
     "raw_species_id_1": 323,
@@ -8806,7 +10212,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 40,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8857,14 +10264,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Hubert",
     "nature_1": "Careful",
     "ability_name_1": "Marvel Scale",
     "nature_2": "Gentle",
     "ability_name_2": "Speed Boost",
     "nature_3": "Bold",
     "ability_name_3": "Pressure",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Hubert",
     "raw": null,
     "raw_species_id_0": 130,
     "raw_species_id_1": 350,
@@ -8873,7 +10280,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 41,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -8902,10 +10310,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Calm",
     "ability_name_0": "Sheer Force",
-    "nature_1": "Hasty",
-    "ability_name_1": "Intimidate",
     "tr_sprite": "trainer_sprites/fisherman.png",
     "name": "Andrew",
+    "nature_1": "Hasty",
+    "ability_name_1": "Intimidate",
     "raw": null,
     "raw_species_id_0": 99,
     "raw_species_id_1": 130,
@@ -8914,7 +10322,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 42,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -8935,6 +10344,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Hasty",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/smasher.png",
+    "name": "Aspen",
     "nature_1": "Quirky",
     "ability_name_1": "Chlorophyll",
     "move_1_0": "TAILWIND",
@@ -8945,8 +10356,6 @@ trainersById = [
     "move_2_1": "TEETER DANCE",
     "move_3_1": "SLEEP POWDER",
     "move_4_1": "GIGA DRAIN",
-    "tr_sprite": "trainer_sprites/smasher.png",
-    "name": "Aspen",
     "raw": null,
     "raw_species_id_0": 547,
     "raw_species_id_1": 549,
@@ -8955,7 +10364,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 43,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9017,16 +10427,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Quiet",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Michael",
     "nature_1": "Quiet",
-    "ability_name_1": "Moxie",
+    "ability_name_1": "Drizzle",
     "nature_2": "Bashful",
     "ability_name_2": "Swift Swim",
     "nature_3": "Bashful",
     "ability_name_3": "Clear Body",
     "nature_4": "Adamant",
-    "ability_name_4": "Marvel Scale",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Michael",
+    "ability_name_4": "Filter",
     "raw": null,
     "raw_species_id_0": 368,
     "raw_species_id_1": 367,
@@ -9035,7 +10445,8 @@ trainersById = [
     "raw_species_id_4": 350,
     "raw_species_id_5": null,
     "index": 44,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9097,6 +10508,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Calm",
     "ability_name_0": "Magic Bounce",
+    "tr_sprite": "trainer_sprites/backpacker_f.png",
+    "name": "Lois",
     "nature_1": "Naughty",
     "ability_name_1": "Sap Sipper",
     "nature_2": "Naughty",
@@ -9105,8 +10518,6 @@ trainersById = [
     "ability_name_3": "Tinted Lens",
     "nature_4": "Impish",
     "ability_name_4": "Filter",
-    "tr_sprite": "trainer_sprites/backpacker_f.png",
-    "name": "Lois",
     "raw": null,
     "raw_species_id_0": 178,
     "raw_species_id_1": 234,
@@ -9115,7 +10526,8 @@ trainersById = [
     "raw_species_id_4": 154,
     "raw_species_id_5": null,
     "index": 45,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9177,16 +10589,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Gentle",
     "ability_name_0": "No Guard",
+    "tr_sprite": "trainer_sprites/musician.png",
+    "name": "Preston",
     "nature_1": "Serious",
     "ability_name_1": "Adaptability",
     "nature_2": "Adamant",
     "ability_name_2": "Volt Absorb",
     "nature_3": "Modest",
-    "ability_name_3": "Volt Absorb",
+    "ability_name_3": "Lightningrod",
     "nature_4": "Naive",
     "ability_name_4": "Levitate",
-    "tr_sprite": "trainer_sprites/musician.png",
-    "name": "Preston",
     "raw": null,
     "raw_species_id_0": 18,
     "raw_species_id_1": 474,
@@ -9195,7 +10607,8 @@ trainersById = [
     "raw_species_id_4": 462,
     "raw_species_id_5": null,
     "index": 46,
-    "class": "Musician"
+    "class": "Musician",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9257,6 +10670,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Relaxed",
     "ability_name_0": "Justified",
+    "tr_sprite": "trainer_sprites/dancer.png",
+    "name": "Brian",
     "nature_1": "Hardy",
     "ability_name_1": "Thick Fat",
     "nature_2": "Rash",
@@ -9265,8 +10680,6 @@ trainersById = [
     "ability_name_3": "Defiant",
     "nature_4": "Brave",
     "ability_name_4": "Pure Power",
-    "tr_sprite": "trainer_sprites/dancer.png",
-    "name": "Brian",
     "raw": null,
     "raw_species_id_0": 475,
     "raw_species_id_1": 297,
@@ -9275,7 +10688,8 @@ trainersById = [
     "raw_species_id_4": 308,
     "raw_species_id_5": null,
     "index": 47,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9341,17 +10755,17 @@ trainersById = [
     "gender_4": "Default",
     "template": 3,
     "nature_0": "Hardy",
-    "ability_name_0": "Sturdy",
+    "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/harlequin.png",
+    "name": "Paul",
     "nature_1": "Careful",
-    "ability_name_1": "Skill Link",
+    "ability_name_1": "Guts",
     "nature_2": "Hasty",
-    "ability_name_2": "Intimidate",
+    "ability_name_2": "Moxie",
     "nature_3": "Naughty",
     "ability_name_3": "Huge Power",
     "nature_4": "Timid",
     "ability_name_4": "Wonder Guard",
-    "tr_sprite": "trainer_sprites/harlequin.png",
-    "name": "Paul",
     "raw": null,
     "raw_species_id_0": 212,
     "raw_species_id_1": 214,
@@ -9360,7 +10774,8 @@ trainersById = [
     "raw_species_id_4": 292,
     "raw_species_id_5": null,
     "index": 48,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9422,6 +10837,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Bold",
     "ability_name_0": "Sap Sipper",
+    "tr_sprite": "trainer_sprites/artist.png",
+    "name": "Horton",
     "nature_1": "Impish",
     "ability_name_1": "Adaptability",
     "nature_2": "Bold",
@@ -9430,8 +10847,6 @@ trainersById = [
     "ability_name_3": "Intimidate",
     "nature_4": "Modest",
     "ability_name_4": "Scrappy",
-    "tr_sprite": "trainer_sprites/artist.png",
-    "name": "Horton",
     "raw": null,
     "raw_species_id_0": 203,
     "raw_species_id_1": 352,
@@ -9440,7 +10855,8 @@ trainersById = [
     "raw_species_id_4": 295,
     "raw_species_id_5": null,
     "index": 49,
-    "class": "Artist"
+    "class": "Artist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9480,12 +10896,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/baker.png",
+    "name": "Jenn",
     "nature_1": "Rash",
     "ability_name_1": "Sheer Force",
     "nature_2": "Jolly",
     "ability_name_2": "Swift Swim",
-    "tr_sprite": "trainer_sprites/baker.png",
-    "name": "Jenn",
     "raw": null,
     "raw_species_id_0": 254,
     "raw_species_id_1": 257,
@@ -9494,7 +10910,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 50,
-    "class": "Baker"
+    "class": "Baker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9523,10 +10940,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Impish",
     "ability_name_0": "Hydration",
-    "nature_1": "Modest",
-    "ability_name_1": "Bad Dreams",
     "tr_sprite": "trainer_sprites/psychic.png",
     "name": "Perry",
+    "nature_1": "Modest",
+    "ability_name_1": "Bad Dreams",
     "raw": null,
     "raw_species_id_0": 124,
     "raw_species_id_1": 97,
@@ -9535,7 +10952,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 51,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9575,12 +10993,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Shadow Tag",
+    "tr_sprite": "trainer_sprites/psychic_f.png",
+    "name": "Dua",
     "nature_1": "Hardy",
     "ability_name_1": "Shadow Tag",
     "nature_2": "Jolly",
     "ability_name_2": "Imposter",
-    "tr_sprite": "trainer_sprites/psychic_f.png",
-    "name": "Dua",
     "raw": null,
     "raw_species_id_0": 202,
     "raw_species_id_1": 202,
@@ -9589,7 +11007,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 52,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9617,7 +11036,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 53,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9645,7 +11065,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 54,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9673,7 +11094,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 55,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9716,12 +11138,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Naive",
     "ability_name_0": "Speed Boost",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Hasty",
     "ability_name_1": "Adaptability",
     "nature_2": "Serious",
     "ability_name_2": "Inner Focus",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 256,
     "raw_species_id_1": 133,
@@ -9730,7 +11152,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 56,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9773,12 +11196,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Careful",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Relaxed",
     "ability_name_1": "Adaptability",
     "nature_2": "Calm",
     "ability_name_2": "Static",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 259,
     "raw_species_id_1": 133,
@@ -9787,7 +11210,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 57,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9830,12 +11254,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Bashful",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Modest",
     "ability_name_1": "Adaptability",
     "nature_2": "Jolly",
     "ability_name_2": "Intimidate",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 253,
     "raw_species_id_1": 133,
@@ -9844,7 +11268,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 58,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9872,7 +11297,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 59,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9900,7 +11326,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 60,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9928,7 +11355,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 61,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9957,10 +11385,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Rash",
     "ability_name_0": "Bad Dreams",
-    "nature_1": "Hasty",
-    "ability_name_1": "Magic Guard",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "nature_1": "Hasty",
+    "ability_name_1": "Magic Guard",
     "raw": null,
     "raw_species_id_0": 96,
     "raw_species_id_1": 325,
@@ -9969,7 +11397,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 62,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -9998,10 +11427,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Sassy",
     "ability_name_0": "Levitate",
-    "nature_1": "Adamant",
-    "ability_name_1": "Intimidate",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "nature_1": "Adamant",
+    "ability_name_1": "Intimidate",
     "raw": null,
     "raw_species_id_0": 93,
     "raw_species_id_1": 228,
@@ -10010,7 +11439,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 63,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -10041,10 +11471,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Impish",
     "ability_name_0": "Moody",
-    "nature_1": "Lax",
-    "ability_name_1": "Moody",
     "tr_sprite": "trainer_sprites/n.png",
     "name": "N",
+    "nature_1": "Lax",
+    "ability_name_1": "Moody",
     "raw": null,
     "raw_species_id_0": 235,
     "raw_species_id_1": 235,
@@ -10053,7 +11483,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 64,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10104,14 +11535,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/n.png",
+    "name": "N",
     "nature_1": "Brave",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Quirky",
     "ability_name_2": "Chlorophyll",
     "nature_3": "Sassy",
     "ability_name_3": "Intimidate",
-    "tr_sprite": "trainer_sprites/n.png",
-    "name": "N",
     "raw": null,
     "raw_species_id_0": 59,
     "raw_species_id_1": 38,
@@ -10120,7 +11551,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 65,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -10160,12 +11592,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Quirky",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/richboy.png",
+    "name": "Cody",
     "nature_1": "Rash",
     "ability_name_1": "Motor Drive",
     "nature_2": "Impish",
     "ability_name_2": "Volt Absorb",
-    "tr_sprite": "trainer_sprites/richboy.png",
-    "name": "Cody",
     "raw": null,
     "raw_species_id_0": 310,
     "raw_species_id_1": 125,
@@ -10174,7 +11606,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 66,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10214,12 +11647,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Quirky",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/richboy.png",
+    "name": "Rolan",
     "nature_1": "Naive",
     "ability_name_1": "Prankster",
     "nature_2": "Quirky",
     "ability_name_2": "Motor Drive",
-    "tr_sprite": "trainer_sprites/richboy.png",
-    "name": "Rolan",
     "raw": null,
     "raw_species_id_0": 313,
     "raw_species_id_1": 311,
@@ -10228,7 +11661,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 67,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10267,13 +11701,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Calm",
-    "ability_name_0": "Volt Absorb",
+    "ability_name_0": "Lightningrod",
+    "tr_sprite": "trainer_sprites/magnolia.png",
+    "name": "Magnolia",
     "nature_1": "Bashful",
     "ability_name_1": "No Guard",
     "nature_2": "Brave",
-    "ability_name_2": "Volt Absorb",
-    "tr_sprite": "trainer_sprites/magnolia.png",
-    "name": "Magnolia",
+    "ability_name_2": "Lightningrod",
     "raw": null,
     "raw_species_id_0": 101,
     "raw_species_id_1": 18,
@@ -10282,7 +11716,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 68,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10322,12 +11757,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Serious",
     "ability_name_0": "Volt Absorb",
+    "tr_sprite": "trainer_sprites/lady.png",
+    "name": "Colette",
     "nature_1": "Jolly",
     "ability_name_1": "Wonder Skin",
     "nature_2": "Naive",
-    "ability_name_2": "Volt Absorb",
-    "tr_sprite": "trainer_sprites/lady.png",
-    "name": "Colette",
+    "ability_name_2": "Lightningrod",
     "raw": null,
     "raw_species_id_0": 171,
     "raw_species_id_1": 301,
@@ -10336,7 +11771,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 69,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10387,14 +11823,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Sassy",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/pilot.png",
+    "name": "Ted",
     "nature_1": "Naughty",
     "ability_name_1": "Intimidate",
     "nature_2": "Hardy",
     "ability_name_2": "Intimidate",
     "nature_3": "Serious",
     "ability_name_3": "Multiscale",
-    "tr_sprite": "trainer_sprites/pilot.png",
-    "name": "Ted",
     "raw": null,
     "raw_species_id_0": 142,
     "raw_species_id_1": 22,
@@ -10403,7 +11839,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 70,
-    "class": "Pilot"
+    "class": "Pilot",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10454,14 +11891,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Mild",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/chase.png",
+    "name": "Chase",
     "nature_1": "Rash",
     "ability_name_1": "Intimidate",
     "nature_2": "Quiet",
     "ability_name_2": "No Guard",
     "nature_3": "Modest",
     "ability_name_3": "Compoundeyes",
-    "tr_sprite": "trainer_sprites/chase.png",
-    "name": "Chase",
     "raw": null,
     "raw_species_id_0": 373,
     "raw_species_id_1": 284,
@@ -10470,7 +11907,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 71,
-    "class": "Pilot"
+    "class": "Pilot",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10548,7 +11986,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Naive",
-    "ability_name_0": "Snow Cloak",
+    "ability_name_0": "Snow Warning",
+    "tr_sprite": "trainer_sprites/victor.png",
+    "name": "Victor",
     "nature_1": "Naive",
     "ability_name_1": "Thick Fat",
     "nature_2": "Calm",
@@ -10556,11 +11996,9 @@ trainersById = [
     "nature_3": "Modest",
     "ability_name_3": "Thick Fat",
     "nature_4": "Bold",
-    "ability_name_4": "Hydration",
+    "ability_name_4": "Dry Skin",
     "nature_5": "Naive",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/victor.png",
-    "name": "Victor",
     "raw": null,
     "raw_species_id_0": 471,
     "raw_species_id_1": 473,
@@ -10569,7 +12007,8 @@ trainersById = [
     "raw_species_id_4": 124,
     "raw_species_id_5": 478,
     "index": 72,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10647,7 +12086,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Brave",
-    "ability_name_0": "Multiscale",
+    "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Filipe",
     "nature_1": "Lonely",
     "ability_name_1": "Swift Swim",
     "nature_2": "Quirky",
@@ -10655,11 +12096,9 @@ trainersById = [
     "nature_3": "Naive",
     "ability_name_3": "Clear Body",
     "nature_4": "Calm",
-    "ability_name_4": "Swift Swim",
+    "ability_name_4": "Rock Head",
     "nature_5": "Lonely",
     "ability_name_5": "Swift Swim",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Filipe",
     "raw": null,
     "raw_species_id_0": 279,
     "raw_species_id_1": 272,
@@ -10668,7 +12107,8 @@ trainersById = [
     "raw_species_id_4": 369,
     "raw_species_id_5": 260,
     "index": 73,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10746,9 +12186,11 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Modest",
-    "ability_name_0": "Shell Armor",
+    "ability_name_0": "Skill Link",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Glenn",
     "nature_1": "Docile",
-    "ability_name_1": "Ice Body",
+    "ability_name_1": "Shell Armor",
     "nature_2": "Quirky",
     "ability_name_2": "Technician",
     "nature_3": "Calm",
@@ -10757,8 +12199,6 @@ trainersById = [
     "ability_name_4": "Swift Swim",
     "nature_5": "Modest",
     "ability_name_5": "Shadow Tag",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Glenn",
     "raw": null,
     "raw_species_id_0": 91,
     "raw_species_id_1": 131,
@@ -10767,7 +12207,8 @@ trainersById = [
     "raw_species_id_4": 55,
     "raw_species_id_5": 94,
     "index": 74,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10846,18 +12287,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Rash",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Ryan",
     "nature_1": "Naive",
     "ability_name_1": "Levitate",
     "nature_2": "Modest",
     "ability_name_2": "Shadow Tag",
     "nature_3": "Rash",
-    "ability_name_3": "Solid Rock",
+    "ability_name_3": "Levitate",
     "nature_4": "Rash",
     "ability_name_4": "Adaptability",
     "nature_5": "Serious",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Ryan",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 477,
@@ -10866,7 +12307,8 @@ trainersById = [
     "raw_species_id_4": 352,
     "raw_species_id_5": 429,
     "index": 75,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -10944,7 +12386,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Docile",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Patton",
     "nature_1": "Relaxed",
     "ability_name_1": "Adaptability",
     "nature_2": "Naive",
@@ -10954,9 +12398,7 @@ trainersById = [
     "nature_4": "Bashful",
     "ability_name_4": "Sheer Force",
     "nature_5": "Bashful",
-    "ability_name_5": "Shell Armor",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Patton",
+    "ability_name_5": "Drought",
     "raw": null,
     "raw_species_id_0": 136,
     "raw_species_id_1": 157,
@@ -10965,7 +12407,8 @@ trainersById = [
     "raw_species_id_4": 323,
     "raw_species_id_5": 324,
     "index": 76,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -11044,6 +12487,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Lax",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Eddie",
     "nature_1": "Naive",
     "ability_name_1": "Guts",
     "nature_2": "Jolly",
@@ -11054,8 +12499,6 @@ trainersById = [
     "ability_name_4": "Thick Fat",
     "nature_5": "Quiet",
     "ability_name_5": "Pure Power",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Eddie",
     "raw": null,
     "raw_species_id_0": 189,
     "raw_species_id_1": 68,
@@ -11064,7 +12507,8 @@ trainersById = [
     "raw_species_id_4": 297,
     "raw_species_id_5": 308,
     "index": 77,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -11085,6 +12529,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Ice Body",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Matthew",
     "nature_1": "Quirky",
     "ability_name_1": "Rock Head",
     "move_1_0": "SHEER COLD",
@@ -11095,8 +12541,6 @@ trainersById = [
     "move_2_1": "HAIL",
     "move_3_1": "DOUBLE-EDGE",
     "move_4_1": "STONE EDGE",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Matthew",
     "raw": null,
     "raw_species_id_0": 364,
     "raw_species_id_1": 362,
@@ -11105,7 +12549,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 78,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -11119,12 +12564,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -11133,7 +12578,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 79,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -11211,19 +12657,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Lonely",
-    "ability_name_0": "Mummy",
+    "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Wolfey",
     "nature_1": "Naughty",
     "ability_name_1": "Intimidate",
     "nature_2": "Lax",
-    "ability_name_2": "Overcoat",
+    "ability_name_2": "Magic Guard",
     "nature_3": "Impish",
     "ability_name_3": "Guts",
     "nature_4": "Adamant",
     "ability_name_4": "Prankster",
     "nature_5": "Relaxed",
     "ability_name_5": "Rock Head",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Wolfey",
     "raw": null,
     "raw_species_id_0": 563,
     "raw_species_id_1": 560,
@@ -11232,7 +12678,8 @@ trainersById = [
     "raw_species_id_4": 642,
     "raw_species_id_5": 500,
     "index": 80,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -11272,12 +12719,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Gentle",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Careful",
     "ability_name_1": "Intimidate",
     "nature_2": "Sassy",
     "ability_name_2": "Magic Guard",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 262,
     "raw_species_id_1": 336,
@@ -11286,7 +12733,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 81,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -11300,12 +12748,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Bashful",
     "ability_name_0": "Poison Point",
+    "tr_sprite": "trainer_sprites/hoopster.png",
+    "name": "Bobby",
     "move_1_0": "BUG BITE",
     "move_2_0": "IRON DEFENSE",
     "move_3_0": "POISON TAIL",
     "move_4_0": "PROTECT",
-    "tr_sprite": "trainer_sprites/hoopster.png",
-    "name": "Bobby",
     "raw": null,
     "raw_species_id_0": 544,
     "raw_species_id_1": null,
@@ -11314,7 +12762,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 82,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -11335,6 +12784,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/hoopster.png",
+    "name": "John",
     "nature_1": "Jolly",
     "ability_name_1": "Sturdy",
     "move_1_0": "RETALIATE",
@@ -11345,8 +12796,6 @@ trainersById = [
     "move_2_1": "ROCK SLIDE",
     "move_3_1": "POWER GEM",
     "move_4_1": "SMACK DOWN",
-    "tr_sprite": "trainer_sprites/hoopster.png",
-    "name": "John",
     "raw": null,
     "raw_species_id_0": 508,
     "raw_species_id_1": 525,
@@ -11355,7 +12804,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 83,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -11395,12 +12845,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Contrary",
-    "nature_1": "Bold",
-    "ability_name_1": "Swarm",
-    "nature_2": "Lax",
-    "ability_name_2": "Speed Boost",
     "tr_sprite": "trainer_sprites/schoolkid.png",
     "name": "Edgar",
+    "nature_1": "Bold",
+    "ability_name_1": "Technician",
+    "nature_2": "Lax",
+    "ability_name_2": "Speed Boost",
     "raw": null,
     "raw_species_id_0": 213,
     "raw_species_id_1": 123,
@@ -11409,7 +12859,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 84,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -11449,12 +12900,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Naive",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Roland",
     "nature_1": "Quirky",
     "ability_name_1": "Sturdy",
     "nature_2": "Timid",
     "ability_name_2": "Chlorophyll",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Roland",
     "raw": null,
     "raw_species_id_0": 187,
     "raw_species_id_1": 438,
@@ -11463,7 +12914,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 85,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -11503,12 +12955,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Carter",
     "nature_1": "Hardy",
     "ability_name_1": "Compoundeyes",
     "nature_2": "Bold",
     "ability_name_2": "Analytic",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Carter",
     "raw": null,
     "raw_species_id_0": 210,
     "raw_species_id_1": 164,
@@ -11517,7 +12969,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 86,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -11579,16 +13032,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Lax",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Lydia",
     "nature_1": "Bold",
     "ability_name_1": "Magic Guard",
     "nature_2": "Timid",
     "ability_name_2": "Cute Charm",
     "nature_3": "Quiet",
-    "ability_name_3": "Adaptability",
+    "ability_name_3": "Scrappy",
     "nature_4": "Mild",
     "ability_name_4": "Thick Fat",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Lydia",
     "raw": null,
     "raw_species_id_0": 264,
     "raw_species_id_1": 40,
@@ -11597,7 +13050,8 @@ trainersById = [
     "raw_species_id_4": 241,
     "raw_species_id_5": null,
     "index": 87,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -11626,10 +13080,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Rash",
     "ability_name_0": "Intimidate",
-    "nature_1": "Quirky",
-    "ability_name_1": "Sap Sipper",
     "tr_sprite": "trainer_sprites/scientist_f.png",
     "name": "Satomi",
+    "nature_1": "Quirky",
+    "ability_name_1": "Sap Sipper",
     "raw": null,
     "raw_species_id_0": 128,
     "raw_species_id_1": 234,
@@ -11638,7 +13092,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 88,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -11692,15 +13147,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 3,
     "nature_0": "Quiet",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Sand Stream",
+    "tr_sprite": "trainer_sprites/n.png",
+    "name": "N",
     "nature_1": "Lonely",
-    "ability_name_1": "Battle Armor",
+    "ability_name_1": "Intimidate",
     "nature_2": "Timid",
     "ability_name_2": "Sand Force",
     "nature_3": "Gentle",
     "ability_name_3": "Sand Veil",
-    "tr_sprite": "trainer_sprites/n.png",
-    "name": "N",
     "raw": null,
     "raw_species_id_0": 208,
     "raw_species_id_1": 248,
@@ -11709,7 +13164,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 89,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -11776,16 +13232,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Careful",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Modest",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Hasty",
     "ability_name_2": "Thick Fat",
     "nature_3": "Quirky",
     "ability_name_3": "Intimidate",
     "nature_4": "Sassy",
-    "ability_name_4": "Sheer Force",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
+    "ability_name_4": "Speed Boost",
     "raw": null,
     "raw_species_id_0": 362,
     "raw_species_id_1": 136,
@@ -11794,7 +13250,8 @@ trainersById = [
     "raw_species_id_4": 257,
     "raw_species_id_5": null,
     "index": 90,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -11861,16 +13318,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Relaxed",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Rash",
-    "ability_name_1": "Water Absorb",
+    "ability_name_1": "Drizzle",
     "nature_2": "Relaxed",
     "ability_name_2": "Thick Fat",
     "nature_3": "Relaxed",
     "ability_name_3": "Iron Fist",
     "nature_4": "Docile",
     "ability_name_4": "Swift Swim",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 310,
     "raw_species_id_1": 134,
@@ -11879,7 +13336,8 @@ trainersById = [
     "raw_species_id_4": 260,
     "raw_species_id_5": null,
     "index": 91,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -11946,16 +13404,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Quirky",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Careful",
-    "ability_name_1": "Volt Absorb",
+    "ability_name_1": "Speed Boost",
     "nature_2": "Modest",
     "ability_name_2": "Thick Fat",
     "nature_3": "Quiet",
-    "ability_name_3": "Battle Armor",
+    "ability_name_3": "Intimidate",
     "nature_4": "Lonely",
     "ability_name_4": "Technician",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 229,
     "raw_species_id_1": 135,
@@ -11964,7 +13422,8 @@ trainersById = [
     "raw_species_id_4": 254,
     "raw_species_id_5": null,
     "index": 92,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12004,12 +13463,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Sassy",
     "ability_name_0": "Wonder Skin",
+    "tr_sprite": "trainer_sprites/clerkf.png",
+    "name": "Ingrid",
     "nature_1": "Hasty",
     "ability_name_1": "Vital Spirit",
     "nature_2": "Mild",
     "ability_name_2": "Slow Start",
-    "tr_sprite": "trainer_sprites/clerkf.png",
-    "name": "Ingrid",
     "raw": null,
     "raw_species_id_0": 301,
     "raw_species_id_1": 288,
@@ -12018,7 +13477,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 93,
-    "class": "Clerk  F"
+    "class": "Clerk  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12058,12 +13518,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/clerkf.png",
+    "name": "Alberta",
     "nature_1": "Gentle",
     "ability_name_1": "Chlorophyll",
     "nature_2": "Adamant",
     "ability_name_2": "Levitate",
-    "tr_sprite": "trainer_sprites/clerkf.png",
-    "name": "Alberta",
     "raw": null,
     "raw_species_id_0": 45,
     "raw_species_id_1": 407,
@@ -12072,7 +13532,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 94,
-    "class": "Clerk  F"
+    "class": "Clerk  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12123,14 +13584,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Bashful",
     "ability_name_0": "Sheer Force",
+    "tr_sprite": "trainer_sprites/clerkf.png",
+    "name": "Katie",
     "nature_1": "Gentle",
     "ability_name_1": "Sheer Force",
     "nature_2": "Naughty",
     "ability_name_2": "Levitate",
     "nature_3": "Serious",
     "ability_name_3": "Rock Head",
-    "tr_sprite": "trainer_sprites/clerkf.png",
-    "name": "Katie",
     "raw": null,
     "raw_species_id_0": 34,
     "raw_species_id_1": 99,
@@ -12139,7 +13600,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 95,
-    "class": "Clerk  F"
+    "class": "Clerk  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -12153,12 +13615,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Cute Charm",
+    "tr_sprite": "trainer_sprites/clerkf.png",
+    "name": "Trisha",
     "move_1_0": "TAIL SLAP",
     "move_2_0": "SING",
     "move_3_0": "SWIFT",
     "move_4_0": "ENCORE",
-    "tr_sprite": "trainer_sprites/clerkf.png",
-    "name": "Trisha",
     "raw": null,
     "raw_species_id_0": 572,
     "raw_species_id_1": null,
@@ -12167,7 +13629,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 96,
-    "class": "Clerk  F"
+    "class": "Clerk  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12209,13 +13672,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 3,
     "nature_0": "Adamant",
-    "ability_name_0": "Poison Heal",
+    "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/waiter.png",
+    "name": "Bert",
     "nature_1": "Brave",
     "ability_name_1": "Intimidate",
     "nature_2": "Jolly",
-    "ability_name_2": "Guts",
-    "tr_sprite": "trainer_sprites/waiter.png",
-    "name": "Bert",
+    "ability_name_2": "Quick Feet",
     "raw": null,
     "raw_species_id_0": 286,
     "raw_species_id_1": 59,
@@ -12224,7 +13687,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 97,
-    "class": "Waiter"
+    "class": "Waiter",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12264,12 +13728,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Docile",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/waitress.png",
+    "name": "Flo",
     "nature_1": "Gentle",
     "ability_name_1": "Wonder Skin",
     "nature_2": "Lonely",
     "ability_name_2": "Tinted Lens",
-    "tr_sprite": "trainer_sprites/waitress.png",
-    "name": "Flo",
     "raw": null,
     "raw_species_id_0": 162,
     "raw_species_id_1": 301,
@@ -12278,7 +13742,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 98,
-    "class": "Waitress"
+    "class": "Waitress",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12350,7 +13815,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Brave",
-    "ability_name_0": "Snow Cloak",
+    "ability_name_0": "Snow Warning",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Cheyenne",
     "nature_1": "Relaxed",
     "ability_name_1": "Ice Body",
     "nature_2": "Adamant",
@@ -12361,8 +13828,6 @@ trainersById = [
     "ability_name_4": "Thick Fat",
     "nature_5": "Careful",
     "ability_name_5": "Pressure",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Cheyenne",
     "raw": null,
     "raw_species_id_0": 471,
     "raw_species_id_1": 365,
@@ -12371,7 +13836,8 @@ trainersById = [
     "raw_species_id_4": 87,
     "raw_species_id_5": 144,
     "index": 99,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12425,15 +13891,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 3,
     "nature_0": "Sassy",
-    "ability_name_0": "Battle Armor",
+    "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Stella",
     "nature_1": "Jolly",
     "ability_name_1": "Guts",
     "nature_2": "Impish",
     "ability_name_2": "Sheer Force",
     "nature_3": "Relaxed",
-    "ability_name_3": "Volt Absorb",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Stella",
+    "ability_name_3": "Lightningrod",
     "raw": null,
     "raw_species_id_0": 248,
     "raw_species_id_1": 217,
@@ -12442,7 +13908,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 100,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12497,14 +13964,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Careful",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Allison",
     "nature_1": "Quiet",
     "ability_name_1": "Compoundeyes",
     "nature_2": "Calm",
     "ability_name_2": "Super Luck",
     "nature_3": "Lonely",
     "ability_name_3": "Wonder Guard",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Allison",
     "raw": null,
     "raw_species_id_0": 474,
     "raw_species_id_1": 164,
@@ -12513,7 +13980,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 101,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12591,7 +14059,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Impish",
-    "ability_name_0": "Battle Armor",
+    "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Jamie",
     "nature_1": "Quirky",
     "ability_name_1": "Sand Force",
     "nature_2": "Brave",
@@ -12602,8 +14072,6 @@ trainersById = [
     "ability_name_4": "Swift Swim",
     "nature_5": "Gentle",
     "ability_name_5": "Sheer Force",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Jamie",
     "raw": null,
     "raw_species_id_0": 248,
     "raw_species_id_1": 28,
@@ -12612,7 +14080,8 @@ trainersById = [
     "raw_species_id_4": 139,
     "raw_species_id_5": 323,
     "index": 102,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12663,14 +14132,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Static",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Johan",
     "nature_1": "Jolly",
-    "ability_name_1": "Serene Grace",
+    "ability_name_1": "Super Luck",
     "nature_2": "Relaxed",
     "ability_name_2": "Own Tempo",
     "nature_3": "Naughty",
     "ability_name_3": "Sturdy",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Johan",
     "raw": null,
     "raw_species_id_0": 181,
     "raw_species_id_1": 468,
@@ -12679,7 +14148,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 103,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12734,14 +14204,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Bold",
     "ability_name_0": "Pressure",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Corky",
     "nature_1": "Hardy",
-    "ability_name_1": "Multiscale",
+    "ability_name_1": "Drizzle",
     "nature_2": "Lonely",
     "ability_name_2": "Swift Swim",
     "nature_3": "Gentle",
     "ability_name_3": "Forecast",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Corky",
     "raw": null,
     "raw_species_id_0": 321,
     "raw_species_id_1": 279,
@@ -12750,7 +14220,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 104,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12812,6 +14283,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Mild",
     "ability_name_0": "Water Absorb",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Jared",
     "nature_1": "Brave",
     "ability_name_1": "Battle Armor",
     "nature_2": "Quiet",
@@ -12819,9 +14292,7 @@ trainersById = [
     "nature_3": "Jolly",
     "ability_name_3": "Rock Head",
     "nature_4": "Modest",
-    "ability_name_4": "Swift Swim",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Jared",
+    "ability_name_4": "Battle Armor",
     "raw": null,
     "raw_species_id_0": 346,
     "raw_species_id_1": 348,
@@ -12830,7 +14301,8 @@ trainersById = [
     "raw_species_id_4": 141,
     "raw_species_id_5": null,
     "index": 105,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12909,18 +14381,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Quirky",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Jesse",
     "nature_1": "Hardy",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Docile",
     "ability_name_2": "Chlorophyll",
     "nature_3": "Lax",
-    "ability_name_3": "Flash Fire",
+    "ability_name_3": "Drought",
     "nature_4": "Hardy",
     "ability_name_4": "Sheer Force",
     "nature_5": "Relaxed",
-    "ability_name_5": "Flash Fire",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Jesse",
+    "ability_name_5": "Solar Power",
     "raw": null,
     "raw_species_id_0": 373,
     "raw_species_id_1": 6,
@@ -12929,7 +14401,8 @@ trainersById = [
     "raw_species_id_4": 257,
     "raw_species_id_5": 467,
     "index": 106,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -12972,12 +14445,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Calm",
     "ability_name_0": "Poison Heal",
+    "tr_sprite": "trainer_sprites/lady.png",
+    "name": "Isabel",
     "nature_1": "Lonely",
     "ability_name_1": "Magic Bounce",
     "nature_2": "Careful",
     "ability_name_2": "Analytic",
-    "tr_sprite": "trainer_sprites/lady.png",
-    "name": "Isabel",
     "raw": null,
     "raw_species_id_0": 472,
     "raw_species_id_1": 178,
@@ -12986,7 +14459,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 107,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13026,12 +14500,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/richboy.png",
+    "name": "Manuel",
     "nature_1": "Bold",
     "ability_name_1": "Intimidate",
     "nature_2": "Quirky",
     "ability_name_2": "Battle Armor",
-    "tr_sprite": "trainer_sprites/richboy.png",
-    "name": "Manuel",
     "raw": null,
     "raw_species_id_0": 217,
     "raw_species_id_1": 336,
@@ -13040,7 +14514,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 108,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13069,7 +14544,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 109,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13130,17 +14606,17 @@ trainersById = [
     "gender_4": "Default",
     "template": 1,
     "nature_0": "Timid",
-    "ability_name_0": "Iron Fist",
+    "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/blackbelt.png",
+    "name": "Teppei",
     "nature_1": "Sassy",
     "ability_name_1": "Motor Drive",
     "nature_2": "Quirky",
     "ability_name_2": "Sand Force",
     "nature_3": "Timid",
-    "ability_name_3": "Inner Focus",
+    "ability_name_3": "Sniper",
     "nature_4": "Lax",
     "ability_name_4": "Adaptability",
-    "tr_sprite": "trainer_sprites/blackbelt.png",
-    "name": "Teppei",
     "raw": null,
     "raw_species_id_0": 166,
     "raw_species_id_1": 312,
@@ -13149,7 +14625,8 @@ trainersById = [
     "raw_species_id_4": 15,
     "raw_species_id_5": null,
     "index": 110,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13189,12 +14666,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/blackbelt.png",
+    "name": "Kentaro",
     "nature_1": "Lax",
     "ability_name_1": "Pure Power",
     "nature_2": "Timid",
-    "ability_name_2": "Skill Link",
-    "tr_sprite": "trainer_sprites/blackbelt.png",
-    "name": "Kentaro",
+    "ability_name_2": "Guts",
     "raw": null,
     "raw_species_id_0": 210,
     "raw_species_id_1": 307,
@@ -13203,7 +14680,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 111,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13264,17 +14742,17 @@ trainersById = [
     "gender_4": "Default",
     "template": 1,
     "nature_0": "Modest",
-    "ability_name_0": "Volt Absorb",
+    "ability_name_0": "Lightningrod",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "William",
     "nature_1": "Relaxed",
-    "ability_name_1": "Sheer Force",
+    "ability_name_1": "Shell Armor",
     "nature_2": "Naive",
     "ability_name_2": "Rock Head",
     "nature_3": "Bold",
-    "ability_name_3": "Rock Head",
+    "ability_name_3": "Sand Stream",
     "nature_4": "Naive",
     "ability_name_4": "Levitate",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "William",
     "raw": null,
     "raw_species_id_0": 101,
     "raw_species_id_1": 99,
@@ -13283,7 +14761,8 @@ trainersById = [
     "raw_species_id_4": 462,
     "raw_species_id_5": null,
     "index": 112,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13323,12 +14802,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Randall",
     "nature_1": "Lonely",
     "ability_name_1": "Battle Armor",
     "nature_2": "Lonely",
-    "ability_name_2": "Volt Absorb",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Randall",
+    "ability_name_2": "Lightningrod",
     "raw": null,
     "raw_species_id_0": 82,
     "raw_species_id_1": 299,
@@ -13337,7 +14816,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 113,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13376,13 +14856,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Lax",
-    "ability_name_0": "Water Absorb",
+    "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Steve",
     "nature_1": "Naughty",
     "ability_name_1": "Swift Swim",
     "nature_2": "Modest",
-    "ability_name_2": "Ice Body",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Steve",
+    "ability_name_2": "Shell Armor",
     "raw": null,
     "raw_species_id_0": 186,
     "raw_species_id_1": 55,
@@ -13391,7 +14871,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 114,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13446,14 +14927,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Lonely",
     "ability_name_0": "Toxic Boost",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Orville",
     "nature_1": "Serious",
     "ability_name_1": "Sheer Force",
     "nature_2": "Naive",
     "ability_name_2": "Chlorophyll",
     "nature_3": "Calm",
     "ability_name_3": "Flame Body",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Orville",
     "raw": null,
     "raw_species_id_0": 335,
     "raw_species_id_1": 34,
@@ -13462,7 +14943,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 115,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13490,7 +14972,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 116,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13552,16 +15035,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Lax",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/scientist_f.png",
+    "name": "Naoko",
     "nature_1": "Timid",
     "ability_name_1": "Intimidate",
     "nature_2": "Naughty",
     "ability_name_2": "Intimidate",
     "nature_3": "Modest",
-    "ability_name_3": "Sand Veil",
+    "ability_name_3": "Water Absorb",
     "nature_4": "Jolly",
     "ability_name_4": "Magic Guard",
-    "tr_sprite": "trainer_sprites/scientist_f.png",
-    "name": "Naoko",
     "raw": null,
     "raw_species_id_0": 461,
     "raw_species_id_1": 229,
@@ -13570,7 +15053,8 @@ trainersById = [
     "raw_species_id_4": 326,
     "raw_species_id_5": null,
     "index": 117,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13620,15 +15104,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 1,
     "nature_0": "Bashful",
-    "ability_name_0": "Moxie",
+    "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/psychic.png",
+    "name": "Micki",
     "nature_1": "Brave",
     "ability_name_1": "Filter",
     "nature_2": "Quirky",
     "ability_name_2": "Pressure",
     "nature_3": "Bashful",
     "ability_name_3": "Speed Boost",
-    "tr_sprite": "trainer_sprites/psychic.png",
-    "name": "Micki",
     "raw": null,
     "raw_species_id_0": 367,
     "raw_species_id_1": 154,
@@ -13637,7 +15121,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 118,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13688,14 +15173,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Rash",
     "ability_name_0": "Shadow Tag",
+    "tr_sprite": "trainer_sprites/psychic.png",
+    "name": "Bryce",
     "nature_1": "Rash",
     "ability_name_1": "Shadow Tag",
     "nature_2": "Timid",
     "ability_name_2": "Imposter",
     "nature_3": "Timid",
     "ability_name_3": "Imposter",
-    "tr_sprite": "trainer_sprites/psychic.png",
-    "name": "Bryce",
     "raw": null,
     "raw_species_id_0": 202,
     "raw_species_id_1": 202,
@@ -13704,7 +15189,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 119,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13755,14 +15241,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/psychic_f.png",
+    "name": "Doreen",
     "nature_1": "Modest",
     "ability_name_1": "Magic Bounce",
     "nature_2": "Sassy",
     "ability_name_2": "Bad Dreams",
     "nature_3": "Lax",
     "ability_name_3": "Own Tempo",
-    "tr_sprite": "trainer_sprites/psychic_f.png",
-    "name": "Doreen",
     "raw": null,
     "raw_species_id_0": 65,
     "raw_species_id_1": 178,
@@ -13771,7 +15257,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 120,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13822,14 +15309,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Calm",
     "ability_name_0": "Pure Power",
+    "tr_sprite": "trainer_sprites/psychic_f.png",
+    "name": "Lin",
     "nature_1": "Rash",
     "ability_name_1": "Natural Cure",
     "nature_2": "Quirky",
     "ability_name_2": "Iron Fist",
     "nature_3": "Adamant",
     "ability_name_3": "Hydration",
-    "tr_sprite": "trainer_sprites/psychic_f.png",
-    "name": "Lin",
     "raw": null,
     "raw_species_id_0": 308,
     "raw_species_id_1": 121,
@@ -13838,7 +15325,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 121,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13900,16 +15388,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Rob",
     "nature_1": "Bold",
     "ability_name_1": "Thick Fat",
     "nature_2": "Bold",
     "ability_name_2": "Cloud Nine",
     "nature_3": "Timid",
-    "ability_name_3": "Levitate",
+    "ability_name_3": "Speed Boost",
     "nature_4": "Modest",
     "ability_name_4": "Intimidate",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Rob",
     "raw": null,
     "raw_species_id_0": 369,
     "raw_species_id_1": 3,
@@ -13918,7 +15406,8 @@ trainersById = [
     "raw_species_id_4": 229,
     "raw_species_id_5": null,
     "index": 122,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -13980,6 +15469,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Rich",
     "nature_1": "Bashful",
     "ability_name_1": "Adaptability",
     "nature_2": "Relaxed",
@@ -13987,9 +15478,7 @@ trainersById = [
     "nature_3": "Calm",
     "ability_name_3": "Magic Guard",
     "nature_4": "Jolly",
-    "ability_name_4": "Intimidate",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Rich",
+    "ability_name_4": "Guts",
     "raw": null,
     "raw_species_id_0": 326,
     "raw_species_id_1": 340,
@@ -13998,7 +15487,8 @@ trainersById = [
     "raw_species_id_4": 210,
     "raw_species_id_5": null,
     "index": 123,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -14064,17 +15554,17 @@ trainersById = [
     "gender_4": "Default",
     "template": 3,
     "nature_0": "Gentle",
-    "ability_name_0": "Volt Absorb",
+    "ability_name_0": "Lightningrod",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Heath",
     "nature_1": "Gentle",
     "ability_name_1": "Rock Head",
     "nature_2": "Lax",
     "ability_name_2": "Filter",
     "nature_3": "Hasty",
-    "ability_name_3": "Intimidate",
+    "ability_name_3": "Guts",
     "nature_4": "Bashful",
-    "ability_name_4": "Shell Armor",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Heath",
+    "ability_name_4": "Drought",
     "raw": null,
     "raw_species_id_0": 26,
     "raw_species_id_1": 105,
@@ -14083,7 +15573,8 @@ trainersById = [
     "raw_species_id_4": 324,
     "raw_species_id_5": null,
     "index": 124,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -14134,14 +15625,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Gentle",
     "ability_name_0": "Defiant",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Cliff",
     "nature_1": "Lonely",
-    "ability_name_1": "Multiscale",
+    "ability_name_1": "Drizzle",
     "nature_2": "Docile",
     "ability_name_2": "Speed Boost",
     "nature_3": "Hasty",
     "ability_name_3": "Clear Body",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Cliff",
     "raw": null,
     "raw_species_id_0": 85,
     "raw_species_id_1": 279,
@@ -14150,7 +15641,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 125,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -14164,12 +15656,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Quiet",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -14178,7 +15670,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 126,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -14229,14 +15722,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Lax",
     "ability_name_0": "Inner Focus",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Brady",
     "nature_1": "Bold",
     "ability_name_1": "Prankster",
     "nature_2": "Lonely",
-    "ability_name_2": "Guts",
+    "ability_name_2": "Scrappy",
     "nature_3": "Naughty",
     "ability_name_3": "Swift Swim",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Brady",
     "raw": null,
     "raw_species_id_0": 169,
     "raw_species_id_1": 189,
@@ -14245,7 +15738,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 127,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -14296,14 +15790,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Bold",
     "ability_name_0": "Cloud Nine",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Arnold",
     "nature_1": "Relaxed",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Hardy",
     "ability_name_2": "Iron Fist",
     "nature_3": "Naive",
     "ability_name_3": "Super Luck",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Arnold",
     "raw": null,
     "raw_species_id_0": 334,
     "raw_species_id_1": 6,
@@ -14312,7 +15806,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 128,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -14326,12 +15821,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Careful",
     "ability_name_0": "Keen Eye",
+    "tr_sprite": "trainer_sprites/striker.png",
+    "name": "Tony",
     "move_1_0": "AQUA RING",
     "move_2_0": "FEATHERDANCE",
     "move_3_0": "BUBBLEBEAM",
     "move_4_0": "AERIAL ACE",
-    "tr_sprite": "trainer_sprites/striker.png",
-    "name": "Tony",
     "raw": null,
     "raw_species_id_0": 580,
     "raw_species_id_1": null,
@@ -14340,7 +15835,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 129,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -14354,12 +15850,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/striker.png",
+    "name": "Roberto",
     "move_1_0": "TAUNT",
     "move_2_0": "SLASH",
     "move_3_0": "ASSURANCE",
     "move_4_0": "HONE CLAWS",
-    "tr_sprite": "trainer_sprites/striker.png",
-    "name": "Roberto",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": null,
@@ -14368,7 +15864,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 130,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -14446,19 +15943,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Careful",
-    "ability_name_0": "Snow Cloak",
+    "ability_name_0": "Snow Warning",
+    "tr_sprite": "trainer_sprites/brycen.png",
+    "name": "Brycen",
     "nature_1": "Sassy",
-    "ability_name_1": "Levitate",
+    "ability_name_1": "Snow Cloak",
     "nature_2": "Hasty",
     "ability_name_2": "Ice Body",
     "nature_3": "Modest",
     "ability_name_3": "Thick Fat",
     "nature_4": "Brave",
-    "ability_name_4": "Technician",
+    "ability_name_4": "Inner Focus",
     "nature_5": "Docile",
     "ability_name_5": "Pressure",
-    "tr_sprite": "trainer_sprites/brycen.png",
-    "name": "Brycen",
     "raw": null,
     "raw_species_id_0": 471,
     "raw_species_id_1": 478,
@@ -14467,7 +15964,8 @@ trainersById = [
     "raw_species_id_4": 461,
     "raw_species_id_5": 144,
     "index": 131,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -14546,18 +16044,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Quirky",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/iris.png",
+    "name": "Iris",
     "nature_1": "Lonely",
     "ability_name_1": "Iron Fist",
     "nature_2": "Jolly",
     "ability_name_2": "Levitate",
     "nature_3": "Naive",
-    "ability_name_3": "Regenerator",
+    "ability_name_3": "Drizzle",
     "nature_4": "Impish",
     "ability_name_4": "Multiscale",
     "nature_5": "Bold",
-    "ability_name_5": "Sniper",
-    "tr_sprite": "trainer_sprites/iris.png",
-    "name": "Iris",
+    "ability_name_5": "Swift Swim",
     "raw": null,
     "raw_species_id_0": 373,
     "raw_species_id_1": 376,
@@ -14566,7 +16064,8 @@ trainersById = [
     "raw_species_id_4": 149,
     "raw_species_id_5": 230,
     "index": 132,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Triples"
   },
   {
     "ivs_0": 150,
@@ -14606,12 +16105,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Adamant",
     "ability_name_0": "Unnerve",
+    "tr_sprite": "trainer_sprites/drayden.png",
+    "name": "Drayden",
     "nature_1": "Impish",
     "ability_name_1": "Rough Skin",
     "nature_2": "Gentle",
     "ability_name_2": "Unnerve",
-    "tr_sprite": "trainer_sprites/drayden.png",
-    "name": "Drayden",
     "raw": null,
     "raw_species_id_0": 611,
     "raw_species_id_1": 621,
@@ -14620,7 +16119,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 133,
-    "class": "Leader"
+    "class": "Leader",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -14675,14 +16175,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Gentle",
     "ability_name_0": "Filter",
+    "tr_sprite": "trainer_sprites/roughneck.png",
+    "name": "Chance",
     "nature_1": "Hardy",
     "ability_name_1": "Magic Guard",
     "nature_2": "Rash",
     "ability_name_2": "Chlorophyll",
     "nature_3": "Careful",
     "ability_name_3": "Chlorophyll",
-    "tr_sprite": "trainer_sprites/roughneck.png",
-    "name": "Chance",
     "raw": null,
     "raw_species_id_0": 154,
     "raw_species_id_1": 326,
@@ -14691,7 +16191,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 134,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -14746,14 +16247,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Calm",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/roughneck.png",
+    "name": "Reese",
     "nature_1": "Quiet",
     "ability_name_1": "Swift Swim",
     "nature_2": "Impish",
     "ability_name_2": "Swift Swim",
     "nature_3": "Quiet",
-    "ability_name_3": "Swift Swim",
-    "tr_sprite": "trainer_sprites/roughneck.png",
-    "name": "Reese",
+    "ability_name_3": "Battle Armor",
     "raw": null,
     "raw_species_id_0": 260,
     "raw_species_id_1": 369,
@@ -14762,7 +16263,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 135,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Rotation"
   },
   {
     "ivs_0": 100,
@@ -14790,6 +16292,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Careful",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/roughneck.png",
+    "name": "Fletcher",
     "nature_1": "Lax",
     "ability_name_1": "Stench",
     "nature_2": "Sassy",
@@ -14806,8 +16310,6 @@ trainersById = [
     "move_2_2": "HYDRO PUMP",
     "move_3_2": "SUPERPOWER",
     "move_4_2": "KNOCK OFF",
-    "tr_sprite": "trainer_sprites/roughneck.png",
-    "name": "Fletcher",
     "raw": null,
     "raw_species_id_0": 262,
     "raw_species_id_1": 435,
@@ -14816,7 +16318,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 136,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -14856,12 +16359,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Docile",
     "ability_name_0": "Poison Touch",
+    "tr_sprite": "trainer_sprites/janitor.png",
+    "name": "Geoff",
     "nature_1": "Sassy",
     "ability_name_1": "Levitate",
     "nature_2": "Jolly",
     "ability_name_2": "Liquid Ooze",
-    "tr_sprite": "trainer_sprites/janitor.png",
-    "name": "Geoff",
     "raw": null,
     "raw_species_id_0": 89,
     "raw_species_id_1": 110,
@@ -14870,7 +16373,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 137,
-    "class": "Janitor"
+    "class": "Janitor",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -14920,15 +16424,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 1,
     "nature_0": "Bold",
-    "ability_name_0": "Flash Fire",
-    "nature_1": "Docile",
-    "ability_name_1": "Water Absorb",
-    "nature_2": "Bold",
-    "ability_name_2": "Volt Absorb",
-    "nature_3": "Lonely",
-    "ability_name_3": "Forecast",
+    "ability_name_0": "Drought",
     "tr_sprite": "trainer_sprites/pokefan.png",
     "name": "Jude",
+    "nature_1": "Docile",
+    "ability_name_1": "Drizzle",
+    "nature_2": "Bold",
+    "ability_name_2": "Speed Boost",
+    "nature_3": "Lonely",
+    "ability_name_3": "Forecast",
     "raw": null,
     "raw_species_id_0": 136,
     "raw_species_id_1": 134,
@@ -14937,7 +16441,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 138,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -14988,14 +16493,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Naive",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/pokefan.png",
+    "name": "Georgia",
     "nature_1": "Naughty",
     "ability_name_1": "Huge Power",
     "nature_2": "Brave",
     "ability_name_2": "Guts",
     "nature_3": "Hardy",
     "ability_name_3": "Justified",
-    "tr_sprite": "trainer_sprites/pokefan.png",
-    "name": "Georgia",
     "raw": null,
     "raw_species_id_0": 110,
     "raw_species_id_1": 184,
@@ -15004,7 +16509,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 139,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15082,7 +16588,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Lonely",
-    "ability_name_0": "Early Bird",
+    "ability_name_0": "Scrappy",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Albert",
     "nature_1": "Jolly",
     "ability_name_1": "Own Tempo",
     "nature_2": "Hardy",
@@ -15093,8 +16601,6 @@ trainersById = [
     "ability_name_4": "Adaptability",
     "nature_5": "Lax",
     "ability_name_5": "Intimidate",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Albert",
     "raw": null,
     "raw_species_id_0": 115,
     "raw_species_id_1": 108,
@@ -15103,7 +16609,8 @@ trainersById = [
     "raw_species_id_4": 352,
     "raw_species_id_5": 128,
     "index": 140,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15175,7 +16682,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Naughty",
-    "ability_name_0": "Battle Armor",
+    "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Kenneth",
     "nature_1": "Mild",
     "ability_name_1": "Levitate",
     "nature_2": "Sassy",
@@ -15186,8 +16695,6 @@ trainersById = [
     "ability_name_4": "Sturdy",
     "nature_5": "Impish",
     "ability_name_5": "Rock Head",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Kenneth",
     "raw": null,
     "raw_species_id_0": 248,
     "raw_species_id_1": 330,
@@ -15196,7 +16703,8 @@ trainersById = [
     "raw_species_id_4": 212,
     "raw_species_id_5": 142,
     "index": 141,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15263,6 +16771,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Careful",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Mikey",
     "nature_1": "Timid",
     "ability_name_1": "Huge Power",
     "nature_2": "Calm",
@@ -15271,8 +16781,6 @@ trainersById = [
     "ability_name_3": "Multiscale",
     "nature_4": "Careful",
     "ability_name_4": "Rock Head",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Mikey",
     "raw": null,
     "raw_species_id_0": 105,
     "raw_species_id_1": 184,
@@ -15281,7 +16789,8 @@ trainersById = [
     "raw_species_id_4": 362,
     "raw_species_id_5": null,
     "index": 142,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15343,6 +16852,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Careful",
     "ability_name_0": "Ice Body",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Parker",
     "nature_1": "Naive",
     "ability_name_1": "Magic Bounce",
     "nature_2": "Hardy",
@@ -15350,9 +16861,7 @@ trainersById = [
     "nature_3": "Impish",
     "ability_name_3": "Skill Link",
     "nature_4": "Lonely",
-    "ability_name_4": "Serene Grace",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Parker",
+    "ability_name_4": "Super Luck",
     "raw": null,
     "raw_species_id_0": 365,
     "raw_species_id_1": 196,
@@ -15361,7 +16870,8 @@ trainersById = [
     "raw_species_id_4": 468,
     "raw_species_id_5": null,
     "index": 143,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15412,14 +16922,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Gentle",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Zachary",
     "nature_1": "Hasty",
     "ability_name_1": "Swift Swim",
     "nature_2": "Hardy",
     "ability_name_2": "Chlorophyll",
     "nature_3": "Adamant",
     "ability_name_3": "Chlorophyll",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Zachary",
     "raw": null,
     "raw_species_id_0": 2,
     "raw_species_id_1": 272,
@@ -15428,7 +16938,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 144,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15468,12 +16979,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
-    "nature_1": "Adamant",
-    "ability_name_1": "Levitate",
-    "nature_2": "Docile",
-    "ability_name_2": "Wonder Guard",
     "tr_sprite": "trainer_sprites/youngster.png",
     "name": "Keita",
+    "nature_1": "Adamant",
+    "ability_name_1": "Speed Boost",
+    "nature_2": "Docile",
+    "ability_name_2": "Wonder Guard",
     "raw": null,
     "raw_species_id_0": 284,
     "raw_species_id_1": 291,
@@ -15482,7 +16993,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 145,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -15510,6 +17022,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Hardy",
     "ability_name_0": "Keen Eye",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Abe",
     "nature_1": "Lonely",
     "ability_name_1": "Guts",
     "nature_2": "Naughty",
@@ -15526,8 +17040,6 @@ trainersById = [
     "move_2_2": "TAILWIND",
     "move_3_2": "BRAVE BIRD",
     "move_4_2": "AGILITY",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Abe",
     "raw": null,
     "raw_species_id_0": 21,
     "raw_species_id_1": 264,
@@ -15536,7 +17048,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 146,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -15564,6 +17077,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Modest",
     "ability_name_0": "Compoundeyes",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Kevin",
     "nature_1": "Serious",
     "ability_name_1": "Adaptability",
     "nature_2": "Rash",
@@ -15580,8 +17095,6 @@ trainersById = [
     "move_2_2": "GUNK SHOT",
     "move_3_2": "RAGE POWDER",
     "move_4_2": "HURRICANE",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Kevin",
     "raw": null,
     "raw_species_id_0": 48,
     "raw_species_id_1": 20,
@@ -15590,7 +17103,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 147,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15652,6 +17166,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Hasty",
     "ability_name_0": "Unaware",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Bruce",
     "nature_1": "Relaxed",
     "ability_name_1": "Clear Body",
     "nature_2": "Adamant",
@@ -15660,8 +17176,6 @@ trainersById = [
     "ability_name_3": "Swift Swim",
     "nature_4": "Brave",
     "ability_name_4": "Sheer Force",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Bruce",
     "raw": null,
     "raw_species_id_0": 195,
     "raw_species_id_1": 73,
@@ -15670,7 +17184,8 @@ trainersById = [
     "raw_species_id_4": 99,
     "raw_species_id_5": null,
     "index": 148,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -15705,6 +17220,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Devon",
     "nature_1": "Timid",
     "ability_name_1": "Swift Swim",
     "nature_2": "Careful",
@@ -15727,8 +17244,6 @@ trainersById = [
     "move_2_3": "AIR SLASH",
     "move_3_3": "BUG BUZZ",
     "move_4_3": "SURF",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Devon",
     "raw": null,
     "raw_species_id_0": 456,
     "raw_species_id_1": 368,
@@ -15737,7 +17252,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 149,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15765,7 +17281,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 150,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15793,7 +17310,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 151,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15821,7 +17339,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 152,
-    "class": "Nurse"
+    "class": "Nurse",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15860,13 +17379,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Modest",
-    "ability_name_0": "Snow Cloak",
+    "ability_name_0": "Snow Warning",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Jerome",
     "nature_1": "Bold",
     "ability_name_1": "Ice Body",
     "nature_2": "Adamant",
     "ability_name_2": "Levitate",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Jerome",
     "raw": null,
     "raw_species_id_0": 471,
     "raw_species_id_1": 131,
@@ -15875,7 +17394,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 153,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -15937,16 +17457,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Mild",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Terrance",
     "nature_1": "Mild",
     "ability_name_1": "Water Absorb",
     "nature_2": "Quiet",
-    "ability_name_2": "Ice Body",
+    "ability_name_2": "Shell Armor",
     "nature_3": "Naughty",
     "ability_name_3": "Slow Start",
     "nature_4": "Brave",
     "ability_name_4": "Levitate",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Terrance",
     "raw": null,
     "raw_species_id_0": 254,
     "raw_species_id_1": 219,
@@ -15955,7 +17475,8 @@ trainersById = [
     "raw_species_id_4": 462,
     "raw_species_id_5": null,
     "index": 154,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16022,6 +17543,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Lonely",
     "ability_name_0": "Own Tempo",
+    "tr_sprite": "trainer_sprites/backpacker_f.png",
+    "name": "Ruth",
     "nature_1": "Jolly",
     "ability_name_1": "Intimidate",
     "nature_2": "Rash",
@@ -16030,8 +17553,6 @@ trainersById = [
     "ability_name_3": "Clear Body",
     "nature_4": "Naive",
     "ability_name_4": "Adaptability",
-    "tr_sprite": "trainer_sprites/backpacker_f.png",
-    "name": "Ruth",
     "raw": null,
     "raw_species_id_0": 463,
     "raw_species_id_1": 128,
@@ -16040,7 +17561,8 @@ trainersById = [
     "raw_species_id_4": 340,
     "raw_species_id_5": null,
     "index": 155,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16083,12 +17605,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Relaxed",
     "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/backpacker_f.png",
+    "name": "Anna",
     "nature_1": "Bashful",
     "ability_name_1": "Poison Heal",
     "nature_2": "Bold",
     "ability_name_2": "Rock Head",
-    "tr_sprite": "trainer_sprites/backpacker_f.png",
-    "name": "Anna",
     "raw": null,
     "raw_species_id_0": 302,
     "raw_species_id_1": 472,
@@ -16097,7 +17619,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 156,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16176,6 +17699,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/hooligans.png",
+    "name": "Jim & Cas",
     "nature_1": "Timid",
     "ability_name_1": "Toxic Boost",
     "nature_2": "Bold",
@@ -16186,8 +17711,6 @@ trainersById = [
     "ability_name_4": "Sheer Force",
     "nature_5": "Serious",
     "ability_name_5": "Sheer Force",
-    "tr_sprite": "trainer_sprites/hooligans.png",
-    "name": "Jim & Cas",
     "raw": null,
     "raw_species_id_0": 336,
     "raw_species_id_1": 335,
@@ -16196,7 +17719,8 @@ trainersById = [
     "raw_species_id_4": 34,
     "raw_species_id_5": 31,
     "index": 157,
-    "class": "Hooligans"
+    "class": "Hooligans",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -16236,12 +17760,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Pressure",
+    "tr_sprite": "trainer_sprites/battlegirl.png",
+    "name": "Amy",
     "nature_1": "Quiet",
     "ability_name_1": "Pressure",
     "nature_2": "Calm",
     "ability_name_2": "Pressure",
-    "tr_sprite": "trainer_sprites/battlegirl.png",
-    "name": "Amy",
     "raw": null,
     "raw_species_id_0": 243,
     "raw_species_id_1": 244,
@@ -16250,7 +17774,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 158,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16312,6 +17837,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Naughty",
     "ability_name_0": "Pure Power",
+    "tr_sprite": "trainer_sprites/battlegirl.png",
+    "name": "Sharon",
     "nature_1": "Bashful",
     "ability_name_1": "Defiant",
     "nature_2": "Naive",
@@ -16320,8 +17847,6 @@ trainersById = [
     "ability_name_3": "Speed Boost",
     "nature_4": "Quiet",
     "ability_name_4": "Skill Link",
-    "tr_sprite": "trainer_sprites/battlegirl.png",
-    "name": "Sharon",
     "raw": null,
     "raw_species_id_0": 308,
     "raw_species_id_1": 85,
@@ -16330,7 +17855,8 @@ trainersById = [
     "raw_species_id_4": 424,
     "raw_species_id_5": null,
     "index": 159,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16359,10 +17885,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Docile",
     "ability_name_0": "Justified",
-    "nature_1": "Gentle",
-    "ability_name_1": "Swift Swim",
     "tr_sprite": "trainer_sprites/battlegirl.png",
     "name": "Lee",
+    "nature_1": "Gentle",
+    "ability_name_1": "Swift Swim",
     "raw": null,
     "raw_species_id_0": 475,
     "raw_species_id_1": 62,
@@ -16371,7 +17897,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 160,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16443,7 +17970,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Lonely",
-    "ability_name_0": "Water Absorb",
+    "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/parasollady.png",
+    "name": "Nicole",
     "nature_1": "Jolly",
     "ability_name_1": "Speed Boost",
     "nature_2": "Naive",
@@ -16454,8 +17983,6 @@ trainersById = [
     "ability_name_4": "Skill Link",
     "nature_5": "Naughty",
     "ability_name_5": "Swift Swim",
-    "tr_sprite": "trainer_sprites/parasollady.png",
-    "name": "Nicole",
     "raw": null,
     "raw_species_id_0": 186,
     "raw_species_id_1": 319,
@@ -16464,7 +17991,8 @@ trainersById = [
     "raw_species_id_4": 222,
     "raw_species_id_5": 119,
     "index": 161,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16525,7 +18053,9 @@ trainersById = [
     "gender_4": "Default",
     "template": 1,
     "nature_0": "Serious",
-    "ability_name_0": "Regenerator",
+    "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/parasollady.png",
+    "name": "Tihana",
     "nature_1": "Relaxed",
     "ability_name_1": "Own Tempo",
     "nature_2": "Bashful",
@@ -16534,8 +18064,6 @@ trainersById = [
     "ability_name_3": "Sniper",
     "nature_4": "Brave",
     "ability_name_4": "Natural Cure",
-    "tr_sprite": "trainer_sprites/parasollady.png",
-    "name": "Tihana",
     "raw": null,
     "raw_species_id_0": 9,
     "raw_species_id_1": 199,
@@ -16544,7 +18072,8 @@ trainersById = [
     "raw_species_id_4": 121,
     "raw_species_id_5": null,
     "index": 162,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16606,6 +18135,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Gentle",
     "ability_name_0": "Shadow Tag",
+    "tr_sprite": "trainer_sprites/parasollady.png",
+    "name": "Melita",
     "nature_1": "Rash",
     "ability_name_1": "Guts",
     "nature_2": "Hardy",
@@ -16614,8 +18145,6 @@ trainersById = [
     "ability_name_3": "Swift Swim",
     "nature_4": "Lax",
     "ability_name_4": "Technician",
-    "tr_sprite": "trainer_sprites/parasollady.png",
-    "name": "Melita",
     "raw": null,
     "raw_species_id_0": 94,
     "raw_species_id_1": 217,
@@ -16624,7 +18153,8 @@ trainersById = [
     "raw_species_id_4": 53,
     "raw_species_id_5": null,
     "index": 163,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16686,6 +18216,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Tinted Lens",
+    "tr_sprite": "trainer_sprites/parasollady.png",
+    "name": "Lumi",
     "nature_1": "Docile",
     "ability_name_1": "Chlorophyll",
     "nature_2": "Careful",
@@ -16693,9 +18225,7 @@ trainersById = [
     "nature_3": "Relaxed",
     "ability_name_3": "Adaptability",
     "nature_4": "Hasty",
-    "ability_name_4": "Flash Fire",
-    "tr_sprite": "trainer_sprites/parasollady.png",
-    "name": "Lumi",
+    "ability_name_4": "Drought",
     "raw": null,
     "raw_species_id_0": 267,
     "raw_species_id_1": 182,
@@ -16704,7 +18234,8 @@ trainersById = [
     "raw_species_id_4": 38,
     "raw_species_id_5": null,
     "index": 164,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16744,12 +18275,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Modest",
     "ability_name_0": "Iron Fist",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "Clemens",
     "nature_1": "Naughty",
     "ability_name_1": "Huge Power",
     "nature_2": "Lax",
     "ability_name_2": "Effect Spore",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "Clemens",
     "raw": null,
     "raw_species_id_0": 166,
     "raw_species_id_1": 168,
@@ -16758,7 +18289,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 165,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16798,12 +18330,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Relaxed",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "Warren",
     "nature_1": "Hasty",
     "ability_name_1": "Marvel Scale",
     "nature_2": "Gentle",
     "ability_name_2": "Swift Swim",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "Warren",
     "raw": null,
     "raw_species_id_0": 130,
     "raw_species_id_1": 350,
@@ -16812,7 +18344,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 166,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16852,12 +18385,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Modest",
     "ability_name_0": "Water Absorb",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "Ivan",
     "nature_1": "Naughty",
     "ability_name_1": "Battle Armor",
     "nature_2": "Quiet",
     "ability_name_2": "Levitate",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "Ivan",
     "raw": null,
     "raw_species_id_0": 346,
     "raw_species_id_1": 348,
@@ -16866,7 +18399,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 167,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -16921,14 +18455,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Mild",
     "ability_name_0": "Battle Armor",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "Isaac",
     "nature_1": "Jolly",
     "ability_name_1": "Rock Head",
     "nature_2": "Calm",
     "ability_name_2": "Sheer Force",
     "nature_3": "Gentle",
     "ability_name_3": "Poison Heal",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "Isaac",
     "raw": null,
     "raw_species_id_0": 232,
     "raw_species_id_1": 76,
@@ -16937,7 +18471,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 168,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -16958,6 +18493,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Huge Power",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "Chaz",
     "nature_1": "Bold",
     "ability_name_1": "Swift Swim",
     "move_1_0": "GUNK SHOT",
@@ -16968,8 +18505,6 @@ trainersById = [
     "move_2_1": "THUNDERBOLT",
     "move_3_1": "RAZOR WIND",
     "move_4_1": "SURF",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "Chaz",
     "raw": null,
     "raw_species_id_0": 168,
     "raw_species_id_1": 419,
@@ -16978,7 +18513,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 169,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17018,12 +18554,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Rash",
     "ability_name_0": "Iron Fist",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "Wade",
     "nature_1": "Modest",
     "ability_name_1": "Unburden",
     "nature_2": "Relaxed",
-    "ability_name_2": "Intimidate",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "Wade",
+    "ability_name_2": "Technician",
     "raw": null,
     "raw_species_id_0": 107,
     "raw_species_id_1": 106,
@@ -17032,7 +18568,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 170,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -17053,6 +18590,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Hasty",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "Frederic",
     "nature_1": "Bold",
     "ability_name_1": "Super Luck",
     "move_1_0": "DOUBLE-EDGE",
@@ -17063,8 +18602,6 @@ trainersById = [
     "move_2_1": "BRAVE BIRD",
     "move_3_1": "DARK PULSE",
     "move_4_1": "SUCKER PUNCH",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "Frederic",
     "raw": null,
     "raw_species_id_0": 53,
     "raw_species_id_1": 430,
@@ -17073,7 +18610,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 171,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -17094,6 +18632,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Bashful",
     "ability_name_0": "Hustle",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Hawk & Dar",
     "nature_1": "Bashful",
     "ability_name_1": "Hustle",
     "move_1_0": "BELLY DRUM",
@@ -17104,8 +18644,6 @@ trainersById = [
     "move_2_1": "THRASH",
     "move_3_1": "WORK UP",
     "move_4_1": "FIRE PUNCH",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Hawk & Dar",
     "raw": null,
     "raw_species_id_0": 554,
     "raw_species_id_1": 554,
@@ -17114,7 +18652,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 172,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -17135,6 +18674,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Lightningrod",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Joe & Ross",
     "nature_1": "Naive",
     "ability_name_1": "Lightningrod",
     "move_1_0": "STOMP",
@@ -17145,8 +18686,6 @@ trainersById = [
     "move_2_1": "SPARK",
     "move_3_1": "PURSUIT",
     "move_4_1": "FLAME CHARGE",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Joe & Ross",
     "raw": null,
     "raw_species_id_0": 523,
     "raw_species_id_1": 523,
@@ -17155,7 +18694,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 173,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -17176,6 +18716,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Poison Point",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Masa & Yas",
     "nature_1": "Quirky",
     "ability_name_1": "Poison Point",
     "move_1_0": "BATON PASS",
@@ -17186,8 +18728,6 @@ trainersById = [
     "move_2_1": "VENOSHOCK",
     "move_3_1": "BUG BITE",
     "move_4_1": "POISON TAIL",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Masa & Yas",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": 545,
@@ -17196,7 +18736,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 174,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -17217,6 +18758,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Docile",
     "ability_name_0": "Keen Eye",
+    "tr_sprite": "trainer_sprites/backers_f.png",
+    "name": "Kay & Ali",
     "nature_1": "Docile",
     "ability_name_1": "Keen Eye",
     "move_1_0": "ROOST",
@@ -17227,8 +18770,6 @@ trainersById = [
     "move_2_1": "AIR SLASH",
     "move_3_1": "AQUA RING",
     "move_4_1": "FEATHERDANCE",
-    "tr_sprite": "trainer_sprites/backers_f.png",
-    "name": "Kay & Ali",
     "raw": null,
     "raw_species_id_0": 580,
     "raw_species_id_1": 580,
@@ -17237,7 +18778,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 175,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -17258,6 +18800,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Adamant",
     "ability_name_0": "Gluttony",
+    "tr_sprite": "trainer_sprites/backers_f.png",
+    "name": "Ami & Eira",
     "nature_1": "Mild",
     "ability_name_1": "Gluttony",
     "move_1_0": "FURY SWIPES",
@@ -17268,8 +18812,6 @@ trainersById = [
     "move_2_1": "FLING",
     "move_3_1": "AMNESIA",
     "move_4_1": "FLAMETHROWER",
-    "tr_sprite": "trainer_sprites/backers_f.png",
-    "name": "Ami & Eira",
     "raw": null,
     "raw_species_id_0": 515,
     "raw_species_id_1": 513,
@@ -17278,7 +18820,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 176,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -17299,6 +18842,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Bashful",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/linebacker.png",
+    "name": "Bob",
     "nature_1": "Quirky",
     "ability_name_1": "Guts",
     "move_1_0": "RETALIATE",
@@ -17309,8 +18854,6 @@ trainersById = [
     "move_2_1": "BULK UP",
     "move_3_1": "BODY SLAM",
     "move_4_1": "STORM THROW",
-    "tr_sprite": "trainer_sprites/linebacker.png",
-    "name": "Bob",
     "raw": null,
     "raw_species_id_0": 539,
     "raw_species_id_1": 538,
@@ -17319,7 +18862,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 177,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17397,19 +18941,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Brave",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/veteran.png",
+    "name": "Chester",
     "nature_1": "Hardy",
     "ability_name_1": "Chlorophyll",
     "nature_2": "Lax",
-    "ability_name_2": "Shell Armor",
+    "ability_name_2": "Drought",
     "nature_3": "Lax",
     "ability_name_3": "Water Absorb",
     "nature_4": "Impish",
     "ability_name_4": "Intimidate",
     "nature_5": "Docile",
     "ability_name_5": "Pressure",
-    "tr_sprite": "trainer_sprites/veteran.png",
-    "name": "Chester",
     "raw": null,
     "raw_species_id_0": 136,
     "raw_species_id_1": 45,
@@ -17418,7 +18962,8 @@ trainersById = [
     "raw_species_id_4": 59,
     "raw_species_id_5": 146,
     "index": 178,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17469,14 +19014,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Bashful",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/veteran_f.png",
+    "name": "Karla",
     "nature_1": "Impish",
     "ability_name_1": "Intimidate",
     "nature_2": "Lonely",
     "ability_name_2": "Levitate",
     "nature_3": "Relaxed",
     "ability_name_3": "Tinted Lens",
-    "tr_sprite": "trainer_sprites/veteran_f.png",
-    "name": "Karla",
     "raw": null,
     "raw_species_id_0": 128,
     "raw_species_id_1": 130,
@@ -17485,7 +19030,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 179,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17540,14 +19086,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Relaxed",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/biker.png",
+    "name": "Phillip",
     "nature_1": "Impish",
-    "ability_name_1": "Poison Heal",
+    "ability_name_1": "Sand Veil",
     "nature_2": "Bold",
     "ability_name_2": "Levitate",
     "nature_3": "Quiet",
     "ability_name_3": "Prankster",
-    "tr_sprite": "trainer_sprites/biker.png",
-    "name": "Phillip",
     "raw": null,
     "raw_species_id_0": 254,
     "raw_species_id_1": 472,
@@ -17556,7 +19102,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 180,
-    "class": "Biker"
+    "class": "Biker",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -17610,15 +19157,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 3,
     "nature_0": "Hardy",
-    "ability_name_0": "Battle Armor",
-    "nature_1": "Naive",
-    "ability_name_1": "Rock Head",
-    "nature_2": "Quirky",
-    "ability_name_2": "Rock Head",
-    "nature_3": "Careful",
-    "ability_name_3": "Technician",
+    "ability_name_0": "Intimidate",
     "tr_sprite": "trainer_sprites/biker.png",
     "name": "Zeke",
+    "nature_1": "Naive",
+    "ability_name_1": "Sturdy",
+    "nature_2": "Quirky",
+    "ability_name_2": "Levitate",
+    "nature_3": "Careful",
+    "ability_name_3": "Technician",
     "raw": null,
     "raw_species_id_0": 248,
     "raw_species_id_1": 306,
@@ -17627,7 +19174,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 181,
-    "class": "Biker"
+    "class": "Biker",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -17694,6 +19242,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Hasty",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Richard",
     "nature_1": "Hardy",
     "ability_name_1": "Guts",
     "nature_2": "Mild",
@@ -17702,8 +19252,6 @@ trainersById = [
     "ability_name_3": "Own Tempo",
     "nature_4": "Hardy",
     "ability_name_4": "Scrappy",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Richard",
     "raw": null,
     "raw_species_id_0": 53,
     "raw_species_id_1": 264,
@@ -17712,7 +19260,8 @@ trainersById = [
     "raw_species_id_4": 295,
     "raw_species_id_5": null,
     "index": 182,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17774,16 +19323,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Pedro",
     "nature_1": "Relaxed",
     "ability_name_1": "Flame Body",
     "nature_2": "Brave",
     "ability_name_2": "Skill Link",
     "nature_3": "Lax",
-    "ability_name_3": "Rock Head",
+    "ability_name_3": "Sturdy",
     "nature_4": "Rash",
     "ability_name_4": "Swift Swim",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Pedro",
     "raw": null,
     "raw_species_id_0": 357,
     "raw_species_id_1": 78,
@@ -17792,7 +19341,8 @@ trainersById = [
     "raw_species_id_4": 260,
     "raw_species_id_5": null,
     "index": 183,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17854,16 +19404,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Filter",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Lewis",
     "nature_1": "Quiet",
     "ability_name_1": "Shield Dust",
     "nature_2": "Naughty",
-    "ability_name_2": "Regenerator",
+    "ability_name_2": "Drizzle",
     "nature_3": "Modest",
-    "ability_name_3": "Motor Drive",
+    "ability_name_3": "Lightningrod",
     "nature_4": "Impish",
     "ability_name_4": "Own Tempo",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Lewis",
     "raw": null,
     "raw_species_id_0": 154,
     "raw_species_id_1": 49,
@@ -17872,7 +19422,8 @@ trainersById = [
     "raw_species_id_4": 199,
     "raw_species_id_5": null,
     "index": 184,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -17900,6 +19451,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Skill Link",
+    "tr_sprite": "trainer_sprites/alain.png",
+    "name": "Alain",
     "nature_1": "Hardy",
     "ability_name_1": "Levitate",
     "nature_2": "Quiet",
@@ -17916,8 +19469,6 @@ trainersById = [
     "move_2_2": "CURSE",
     "move_3_2": "DOUBLE-EDGE",
     "move_4_2": "OUTRAGE",
-    "tr_sprite": "trainer_sprites/alain.png",
-    "name": "Alain",
     "raw": null,
     "raw_species_id_0": 424,
     "raw_species_id_1": 455,
@@ -17926,7 +19477,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 185,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -17988,6 +19540,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Quirky",
     "ability_name_0": "No Guard",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Shanti",
     "nature_1": "Quirky",
     "ability_name_1": "Intimidate",
     "nature_2": "Docile",
@@ -17996,8 +19550,6 @@ trainersById = [
     "ability_name_3": "Defiant",
     "nature_4": "Hasty",
     "ability_name_4": "Clear Body",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Shanti",
     "raw": null,
     "raw_species_id_0": 18,
     "raw_species_id_1": 22,
@@ -18006,7 +19558,8 @@ trainersById = [
     "raw_species_id_4": 227,
     "raw_species_id_5": null,
     "index": 186,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18068,16 +19621,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Mary",
     "nature_1": "Rash",
     "ability_name_1": "Intimidate",
     "nature_2": "Impish",
     "ability_name_2": "Chlorophyll",
     "nature_3": "Mild",
-    "ability_name_3": "Compoundeyes",
+    "ability_name_3": "Tinted Lens",
     "nature_4": "Quiet",
     "ability_name_4": "Intimidate",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Mary",
     "raw": null,
     "raw_species_id_0": 20,
     "raw_species_id_1": 24,
@@ -18086,7 +19639,8 @@ trainersById = [
     "raw_species_id_4": 336,
     "raw_species_id_5": null,
     "index": 187,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18148,6 +19702,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Annie",
     "nature_1": "Sassy",
     "ability_name_1": "Magic Bounce",
     "nature_2": "Bashful",
@@ -18156,8 +19712,6 @@ trainersById = [
     "ability_name_3": "Magic Guard",
     "nature_4": "Docile",
     "ability_name_4": "Inner Focus",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Annie",
     "raw": null,
     "raw_species_id_0": 212,
     "raw_species_id_1": 196,
@@ -18166,7 +19720,8 @@ trainersById = [
     "raw_species_id_4": 169,
     "raw_species_id_5": null,
     "index": 188,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -18194,6 +19749,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quiet",
     "ability_name_0": "Forewarn",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Heidi",
     "nature_1": "Adamant",
     "ability_name_1": "Flare Boost",
     "nature_2": "Serious",
@@ -18210,8 +19767,6 @@ trainersById = [
     "move_2_2": "FOCUS BLAST",
     "move_3_2": "GUARD SWAP",
     "move_4_2": "KNOCK OFF",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Heidi",
     "raw": null,
     "raw_species_id_0": 518,
     "raw_species_id_1": 426,
@@ -18220,7 +19775,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 189,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18271,14 +19827,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Careful",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Kara",
     "nature_1": "Adamant",
     "ability_name_1": "Magic Bounce",
     "nature_2": "Sassy",
     "ability_name_2": "Tinted Lens",
     "nature_3": "Brave",
     "ability_name_3": "Magic Guard",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Kara",
     "raw": null,
     "raw_species_id_0": 368,
     "raw_species_id_1": 196,
@@ -18287,7 +19843,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 190,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -18315,6 +19872,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Gluttony",
+    "tr_sprite": "trainer_sprites/infielder.png",
+    "name": "Alex",
     "nature_1": "Quiet",
     "ability_name_1": "Gluttony",
     "nature_2": "Relaxed",
@@ -18331,8 +19890,6 @@ trainersById = [
     "move_2_2": "BITE",
     "move_3_2": "LEECH SEED",
     "move_4_2": "ACROBATICS",
-    "tr_sprite": "trainer_sprites/infielder.png",
-    "name": "Alex",
     "raw": null,
     "raw_species_id_0": 513,
     "raw_species_id_1": 515,
@@ -18341,7 +19898,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 191,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -18362,6 +19920,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Jolly",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/infielder.png",
+    "name": "Connor",
     "nature_1": "Quirky",
     "ability_name_1": "Scrappy",
     "move_1_0": "SANDSTORM",
@@ -18372,8 +19932,6 @@ trainersById = [
     "move_2_1": "AIR SLASH",
     "move_3_1": "TAUNT",
     "move_4_1": "DETECT",
-    "tr_sprite": "trainer_sprites/infielder.png",
-    "name": "Connor",
     "raw": null,
     "raw_species_id_0": 551,
     "raw_species_id_1": 521,
@@ -18382,7 +19940,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 192,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18444,6 +20003,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Bret",
     "nature_1": "Bold",
     "ability_name_1": "Battle Armor",
     "nature_2": "Bashful",
@@ -18452,8 +20013,6 @@ trainersById = [
     "ability_name_3": "Swift Swim",
     "nature_4": "Calm",
     "ability_name_4": "Swift Swim",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Bret",
     "raw": null,
     "raw_species_id_0": 142,
     "raw_species_id_1": 348,
@@ -18462,7 +20021,8 @@ trainersById = [
     "raw_species_id_4": 139,
     "raw_species_id_5": null,
     "index": 193,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18524,6 +20084,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Hardy",
     "nature_1": "Bold",
     "ability_name_1": "Solid Rock",
     "nature_2": "Lonely",
@@ -18532,8 +20094,6 @@ trainersById = [
     "ability_name_3": "Levitate",
     "nature_4": "Impish",
     "ability_name_4": "Sturdy",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Hardy",
     "raw": null,
     "raw_species_id_0": 68,
     "raw_species_id_1": 337,
@@ -18542,7 +20102,8 @@ trainersById = [
     "raw_species_id_4": 212,
     "raw_species_id_5": null,
     "index": 194,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18604,6 +20165,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Jolly",
     "ability_name_0": "Scrappy",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Neil",
     "nature_1": "Relaxed",
     "ability_name_1": "Liquid Ooze",
     "nature_2": "Impish",
@@ -18612,8 +20175,6 @@ trainersById = [
     "ability_name_3": "Static",
     "nature_4": "Gentle",
     "ability_name_4": "Natural Cure",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Neil",
     "raw": null,
     "raw_species_id_0": 295,
     "raw_species_id_1": 317,
@@ -18622,7 +20183,8 @@ trainersById = [
     "raw_species_id_4": 121,
     "raw_species_id_5": null,
     "index": 195,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18651,10 +20213,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Speed Boost",
-    "nature_1": "Rash",
-    "ability_name_1": "Swarm",
     "tr_sprite": "trainer_sprites/harlequin.png",
     "name": "Jack",
+    "nature_1": "Rash",
+    "ability_name_1": "Technician",
     "raw": null,
     "raw_species_id_0": 469,
     "raw_species_id_1": 123,
@@ -18663,7 +20225,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 196,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -18677,12 +20240,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/harlequin.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/harlequin.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -18691,7 +20254,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 197,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18741,15 +20305,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 1,
     "nature_0": "Serious",
-    "ability_name_0": "Levitate",
+    "ability_name_0": "Speed Boost",
+    "tr_sprite": "trainer_sprites/harlequin.png",
+    "name": "Louis",
     "nature_1": "Quiet",
     "ability_name_1": "Wonder Guard",
     "nature_2": "Modest",
     "ability_name_2": "Huge Power",
     "nature_3": "Bashful",
     "ability_name_3": "Intimidate",
-    "tr_sprite": "trainer_sprites/harlequin.png",
-    "name": "Louis",
     "raw": null,
     "raw_species_id_0": 291,
     "raw_species_id_1": 292,
@@ -18758,7 +20322,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 198,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18798,12 +20363,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Bold",
     "ability_name_0": "Skill Link",
+    "tr_sprite": "trainer_sprites/harlequin.png",
+    "name": "Kerry",
     "nature_1": "Lonely",
     "ability_name_1": "Battle Armor",
     "nature_2": "Jolly",
     "ability_name_2": "Iron Fist",
-    "tr_sprite": "trainer_sprites/harlequin.png",
-    "name": "Kerry",
     "raw": null,
     "raw_species_id_0": 214,
     "raw_species_id_1": 348,
@@ -18812,7 +20377,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 199,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18841,10 +20407,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Bold",
     "ability_name_0": "Sturdy",
-    "nature_1": "Quiet",
-    "ability_name_1": "Sturdy",
     "tr_sprite": "trainer_sprites/harlequin.png",
     "name": "Rick",
+    "nature_1": "Quiet",
+    "ability_name_1": "Sturdy",
     "raw": null,
     "raw_species_id_0": 212,
     "raw_species_id_1": 205,
@@ -18853,7 +20419,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 200,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18904,14 +20471,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Impish",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Felix",
     "nature_1": "Calm",
     "ability_name_1": "Battle Armor",
     "nature_2": "Brave",
     "ability_name_2": "Water Absorb",
     "nature_3": "Modest",
     "ability_name_3": "Swift Swim",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Felix",
     "raw": null,
     "raw_species_id_0": 141,
     "raw_species_id_1": 348,
@@ -18920,7 +20487,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 201,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -18975,14 +20543,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Naive",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Sterling",
     "nature_1": "Impish",
-    "ability_name_1": "Rock Head",
+    "ability_name_1": "Sand Stream",
     "nature_2": "Naive",
     "ability_name_2": "Sturdy",
     "nature_3": "Sassy",
     "ability_name_3": "Sheer Force",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Sterling",
     "raw": null,
     "raw_species_id_0": 112,
     "raw_species_id_1": 208,
@@ -18991,7 +20559,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 202,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -19042,14 +20611,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Don",
     "nature_1": "Lax",
     "ability_name_1": "Solid Rock",
     "nature_2": "Bashful",
-    "ability_name_2": "Flash Fire",
+    "ability_name_2": "Levitate",
     "nature_3": "Jolly",
     "ability_name_3": "Clear Body",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Don",
     "raw": null,
     "raw_species_id_0": 344,
     "raw_species_id_1": 337,
@@ -19058,7 +20627,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 203,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19079,6 +20649,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Bashful",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/twins.png",
+    "name": "",
     "nature_1": "Bashful",
     "ability_name_1": "Intimidate",
     "move_1_0": "BIDE",
@@ -19089,8 +20661,6 @@ trainersById = [
     "move_2_1": "BITE",
     "move_3_1": "LEER",
     "move_4_1": "TACKLE",
-    "tr_sprite": "trainer_sprites/twins.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": 504,
@@ -19099,7 +20669,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 204,
-    "class": "Twins"
+    "class": "Twins",
+    "type": "Doubles"
   },
   {
     "ivs_0": 150,
@@ -19127,6 +20698,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Lax",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Mariana",
     "nature_1": "Adamant",
     "ability_name_1": "Compoundeyes",
     "nature_2": "Jolly",
@@ -19143,8 +20716,6 @@ trainersById = [
     "move_2_2": "HEALING WISH",
     "move_3_2": "WIDE GUARD",
     "move_4_2": "HELPING HAND",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Mariana",
     "raw": null,
     "raw_species_id_0": 479,
     "raw_species_id_1": 12,
@@ -19153,7 +20724,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 205,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -19174,6 +20746,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Mild",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Henry",
     "nature_1": "Quiet",
     "ability_name_1": "Pressure",
     "move_1_0": "GIGA IMPACT",
@@ -19184,8 +20758,6 @@ trainersById = [
     "move_2_1": "DIVE",
     "move_3_1": "WATER SPOUT",
     "move_4_1": "EXPLOSION",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Henry",
     "raw": null,
     "raw_species_id_0": 128,
     "raw_species_id_1": 321,
@@ -19194,7 +20766,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 206,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19215,6 +20788,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Gentle",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Sibyl",
     "nature_1": "Bashful",
     "ability_name_1": "Filter",
     "move_1_0": "HEALING WISH",
@@ -19225,8 +20800,6 @@ trainersById = [
     "move_2_1": "PSYCHIC",
     "move_3_1": "ATTRACT",
     "move_4_1": "FLAIL",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Sibyl",
     "raw": null,
     "raw_species_id_0": 433,
     "raw_species_id_1": 413,
@@ -19235,7 +20808,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 207,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19256,6 +20830,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Gentle",
     "ability_name_0": "Skill Link",
+    "tr_sprite": "trainer_sprites/richboy.png",
+    "name": "Brad",
     "nature_1": "Sassy",
     "ability_name_1": "Super Luck",
     "move_1_0": "DOUBLE-EDGE",
@@ -19266,8 +20842,6 @@ trainersById = [
     "move_2_1": "BRAVE BIRD",
     "move_3_1": "DARK PULSE",
     "move_4_1": "SUCKER PUNCH",
-    "tr_sprite": "trainer_sprites/richboy.png",
-    "name": "Brad",
     "raw": null,
     "raw_species_id_0": 190,
     "raw_species_id_1": 198,
@@ -19276,7 +20850,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 208,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19304,6 +20879,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Calm",
     "ability_name_0": "Pickup",
+    "tr_sprite": "trainer_sprites/lady.png",
+    "name": "Elizandra",
     "nature_1": "Lonely",
     "ability_name_1": "Flash Fire",
     "nature_2": "Hasty",
@@ -19320,8 +20897,6 @@ trainersById = [
     "move_2_2": "IRON TAIL",
     "move_3_2": "YAWN",
     "move_4_2": "TRUMP CARD",
-    "tr_sprite": "trainer_sprites/lady.png",
-    "name": "Elizandra",
     "raw": null,
     "raw_species_id_0": 52,
     "raw_species_id_1": 37,
@@ -19330,7 +20905,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 209,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19351,6 +20927,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/socialite.png",
+    "name": "Cassandra",
     "nature_1": "Serious",
     "ability_name_1": "Intimidate",
     "move_1_0": "SUCKER PUNCH",
@@ -19361,8 +20939,6 @@ trainersById = [
     "move_2_1": "GUNK SHOT",
     "move_3_1": "HAZE",
     "move_4_1": "EARTHQUAKE",
-    "tr_sprite": "trainer_sprites/socialite.png",
-    "name": "Cassandra",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": 24,
@@ -19371,7 +20947,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 210,
-    "class": "Socialite"
+    "class": "Socialite",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -19399,6 +20976,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/gentleman.png",
+    "name": "Robert",
     "nature_1": "Bashful",
     "ability_name_1": "Compoundeyes",
     "nature_2": "Relaxed",
@@ -19415,8 +20994,6 @@ trainersById = [
     "move_2_2": "INFERNO",
     "move_3_2": "OVERHEAT",
     "move_4_2": "NASTY PLOT",
-    "tr_sprite": "trainer_sprites/gentleman.png",
-    "name": "Robert",
     "raw": null,
     "raw_species_id_0": 228,
     "raw_species_id_1": 164,
@@ -19425,7 +21002,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 211,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -19487,16 +21065,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Naughty",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/miriam.png",
+    "name": "Miriam",
     "nature_1": "Hasty",
-    "ability_name_1": "Ice Body",
+    "ability_name_1": "Shell Armor",
     "nature_2": "Naughty",
     "ability_name_2": "Swift Swim",
     "nature_3": "Careful",
     "ability_name_3": "Levitate",
     "nature_4": "Jolly",
     "ability_name_4": "Thick Fat",
-    "tr_sprite": "trainer_sprites/miriam.png",
-    "name": "Miriam",
     "raw": null,
     "raw_species_id_0": 461,
     "raw_species_id_1": 131,
@@ -19505,7 +21083,8 @@ trainersById = [
     "raw_species_id_4": 87,
     "raw_species_id_5": null,
     "index": 212,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -19567,6 +21146,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/battlegirl.png",
+    "name": "Mikiko",
     "nature_1": "Careful",
     "ability_name_1": "Natural Cure",
     "nature_2": "Adamant",
@@ -19575,8 +21156,6 @@ trainersById = [
     "ability_name_3": "Clear Body",
     "nature_4": "Lax",
     "ability_name_4": "Iron Fist",
-    "tr_sprite": "trainer_sprites/battlegirl.png",
-    "name": "Mikiko",
     "raw": null,
     "raw_species_id_0": 478,
     "raw_species_id_1": 242,
@@ -19585,7 +21164,8 @@ trainersById = [
     "raw_species_id_4": 166,
     "raw_species_id_5": null,
     "index": 213,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -19647,16 +21227,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Relaxed",
     "ability_name_0": "Huge Power",
+    "tr_sprite": "trainer_sprites/battlegirl.png",
+    "name": "Chandra",
     "nature_1": "Lax",
     "ability_name_1": "Technician",
     "nature_2": "Quiet",
-    "ability_name_2": "Ice Body",
+    "ability_name_2": "Thick Fat",
     "nature_3": "Mild",
     "ability_name_3": "Swift Swim",
     "nature_4": "Serious",
     "ability_name_4": "Analytic",
-    "tr_sprite": "trainer_sprites/battlegirl.png",
-    "name": "Chandra",
     "raw": null,
     "raw_species_id_0": 184,
     "raw_species_id_1": 225,
@@ -19665,7 +21245,8 @@ trainersById = [
     "raw_species_id_4": 233,
     "raw_species_id_5": null,
     "index": 214,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -19726,17 +21307,17 @@ trainersById = [
     "gender_4": "Default",
     "template": 1,
     "nature_0": "Mild",
-    "ability_name_0": "Snow Cloak",
+    "ability_name_0": "Snow Warning",
+    "tr_sprite": "trainer_sprites/grant.png",
+    "name": "Grant",
     "nature_1": "Bold",
-    "ability_name_1": "Shell Armor",
+    "ability_name_1": "Skill Link",
     "nature_2": "Jolly",
-    "ability_name_2": "Rock Head",
+    "ability_name_2": "Levitate",
     "nature_3": "Naughty",
     "ability_name_3": "Imposter",
     "nature_4": "Lax",
     "ability_name_4": "Forecast",
-    "tr_sprite": "trainer_sprites/grant.png",
-    "name": "Grant",
     "raw": null,
     "raw_species_id_0": 471,
     "raw_species_id_1": 91,
@@ -19745,7 +21326,8 @@ trainersById = [
     "raw_species_id_4": 351,
     "raw_species_id_5": null,
     "index": 215,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -19807,6 +21389,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Mild",
     "ability_name_0": "Thick Fat",
+    "tr_sprite": "trainer_sprites/blackbelt.png",
+    "name": "Kendrew",
     "nature_1": "Brave",
     "ability_name_1": "Skill Link",
     "nature_2": "Modest",
@@ -19815,8 +21399,6 @@ trainersById = [
     "ability_name_3": "Snow Cloak",
     "nature_4": "Quirky",
     "ability_name_4": "Pressure",
-    "tr_sprite": "trainer_sprites/blackbelt.png",
-    "name": "Kendrew",
     "raw": null,
     "raw_species_id_0": 473,
     "raw_species_id_1": 222,
@@ -19825,7 +21407,8 @@ trainersById = [
     "raw_species_id_4": 356,
     "raw_species_id_5": null,
     "index": 216,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -19886,17 +21469,17 @@ trainersById = [
     "gender_4": "Default",
     "template": 1,
     "nature_0": "Jolly",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/blackbelt.png",
+    "name": "Thomas",
     "nature_1": "Careful",
-    "ability_name_1": "Marvel Scale",
+    "ability_name_1": "Filter",
     "nature_2": "Modest",
     "ability_name_2": "Speed Boost",
     "nature_3": "Mild",
     "ability_name_3": "Thick Fat",
     "nature_4": "Careful",
     "ability_name_4": "Intimidate",
-    "tr_sprite": "trainer_sprites/blackbelt.png",
-    "name": "Thomas",
     "raw": null,
     "raw_species_id_0": 362,
     "raw_species_id_1": 350,
@@ -19905,7 +21488,8 @@ trainersById = [
     "raw_species_id_4": 160,
     "raw_species_id_5": null,
     "index": 217,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -19984,6 +21568,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Bashful",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/n.png",
+    "name": "N",
     "nature_1": "Relaxed",
     "ability_name_1": "Sheer Force",
     "nature_2": "Lonely",
@@ -19993,9 +21579,7 @@ trainersById = [
     "nature_4": "Rash",
     "ability_name_4": "No Guard",
     "nature_5": "Calm",
-    "ability_name_5": "Volt Absorb",
-    "tr_sprite": "trainer_sprites/n.png",
-    "name": "N",
+    "ability_name_5": "Lightningrod",
     "raw": null,
     "raw_species_id_0": 476,
     "raw_species_id_1": 99,
@@ -20004,7 +21588,8 @@ trainersById = [
     "raw_species_id_4": 18,
     "raw_species_id_5": 101,
     "index": 218,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20018,12 +21603,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Impish",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/pokemontrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/pokemontrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -20032,7 +21617,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 219,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -20046,12 +21632,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -20060,7 +21646,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 220,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20127,6 +21714,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Gentle",
     "ability_name_0": "Water Absorb",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Serious",
     "ability_name_1": "Rock Head",
     "nature_2": "Mild",
@@ -20135,8 +21724,6 @@ trainersById = [
     "ability_name_3": "Battle Armor",
     "nature_4": "Bold",
     "ability_name_4": "Sniper",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 219,
     "raw_species_id_1": 105,
@@ -20145,7 +21732,8 @@ trainersById = [
     "raw_species_id_4": 230,
     "raw_species_id_5": null,
     "index": 221,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20212,16 +21800,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Lonely",
     "ability_name_0": "Battle Armor",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Lax",
     "ability_name_1": "Flame Body",
     "nature_2": "Quirky",
-    "ability_name_2": "Inner Focus",
+    "ability_name_2": "Sniper",
     "nature_3": "Jolly",
     "ability_name_3": "Swift Swim",
     "nature_4": "Sassy",
     "ability_name_4": "Toxic Boost",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 232,
     "raw_species_id_1": 78,
@@ -20230,7 +21818,8 @@ trainersById = [
     "raw_species_id_4": 335,
     "raw_species_id_5": null,
     "index": 222,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20297,16 +21886,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Bold",
     "ability_name_0": "Flash Fire",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Quiet",
-    "ability_name_1": "Guts",
+    "ability_name_1": "Quick Feet",
     "nature_2": "Impish",
-    "ability_name_2": "Chlorophyll",
+    "ability_name_2": "Harvest",
     "nature_3": "Lax",
     "ability_name_3": "Rock Head",
     "nature_4": "Lax",
-    "ability_name_4": "Natural Cure",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
+    "ability_name_4": "Analytic",
     "raw": null,
     "raw_species_id_0": 467,
     "raw_species_id_1": 217,
@@ -20315,7 +21904,8 @@ trainersById = [
     "raw_species_id_4": 121,
     "raw_species_id_5": null,
     "index": 223,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20382,16 +21972,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Naughty",
     "ability_name_0": "Pure Power",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Serious",
     "ability_name_1": "Bad Dreams",
     "nature_2": "Mild",
-    "ability_name_2": "Prankster",
+    "ability_name_2": "Insomnia",
     "nature_3": "Gentle",
     "ability_name_3": "Poison Touch",
     "nature_4": "Relaxed",
     "ability_name_4": "Shadow Tag",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 308,
     "raw_species_id_1": 97,
@@ -20400,7 +21990,8 @@ trainersById = [
     "raw_species_id_4": 202,
     "raw_species_id_5": null,
     "index": 224,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20467,16 +22058,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Gentle",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Adamant",
-    "ability_name_1": "Analytic",
+    "ability_name_1": "Download",
     "nature_2": "Hasty",
-    "ability_name_2": "Compoundeyes",
+    "ability_name_2": "Tinted Lens",
     "nature_3": "Relaxed",
     "ability_name_3": "Shadow Tag",
     "nature_4": "Gentle",
-    "ability_name_4": "Intimidate",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
+    "ability_name_4": "Mold Breaker",
     "raw": null,
     "raw_species_id_0": 212,
     "raw_species_id_1": 233,
@@ -20485,7 +22076,8 @@ trainersById = [
     "raw_species_id_4": 127,
     "raw_species_id_5": null,
     "index": 225,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20552,16 +22144,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Mild",
     "ability_name_0": "Shell Armor",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Rash",
     "ability_name_1": "Adaptability",
     "nature_2": "Calm",
-    "ability_name_2": "Volt Absorb",
+    "ability_name_2": "Soundproof",
     "nature_3": "Careful",
     "ability_name_3": "Defiant",
     "nature_4": "Naive",
     "ability_name_4": "Levitate",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 324,
     "raw_species_id_1": 342,
@@ -20570,7 +22162,8 @@ trainersById = [
     "raw_species_id_4": 330,
     "raw_species_id_5": null,
     "index": 226,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20636,17 +22229,17 @@ trainersById = [
     "gender_4": "Default",
     "template": 3,
     "nature_0": "Naughty",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Hardy",
     "ability_name_1": "Levitate",
     "nature_2": "Mild",
     "ability_name_2": "Chlorophyll",
     "nature_3": "Gentle",
-    "ability_name_3": "Sheer Force",
+    "ability_name_3": "Speed Boost",
     "nature_4": "Rash",
-    "ability_name_4": "Flash Fire",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
+    "ability_name_4": "Levitate",
     "raw": null,
     "raw_species_id_0": 38,
     "raw_species_id_1": 344,
@@ -20655,7 +22248,8 @@ trainersById = [
     "raw_species_id_4": 338,
     "raw_species_id_5": null,
     "index": 227,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20733,7 +22327,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Calm",
-    "ability_name_0": "Solid Rock",
+    "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/shauntal.png",
+    "name": "Shauntal",
     "nature_1": "Bold",
     "ability_name_1": "Levitate",
     "nature_2": "Adamant",
@@ -20744,8 +22340,6 @@ trainersById = [
     "ability_name_4": "Levitate",
     "nature_5": "Jolly",
     "ability_name_5": "Shadow Tag",
-    "tr_sprite": "trainer_sprites/shauntal.png",
-    "name": "Shauntal",
     "raw": null,
     "raw_species_id_0": 337,
     "raw_species_id_1": 477,
@@ -20754,7 +22348,8 @@ trainersById = [
     "raw_species_id_4": 429,
     "raw_species_id_5": 94,
     "index": 228,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -20791,7 +22386,7 @@ trainersById = [
     "move_3_2": "EARTH POWER",
     "move_4_2": "ENERGY BALL",
     "ivs_3": 255,
-    "ability_3": 1,
+    "ability_3": 3,
     "level_3": 100,
     "padding_3": 0,
     "species_id_3": "SANDSLASH",
@@ -20832,19 +22427,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Calm",
-    "ability_name_0": "Intimidate",
+    "ability_name_0": "Mold Breaker",
+    "tr_sprite": "trainer_sprites/marshal.png",
+    "name": "Marshal",
     "nature_1": "Docile",
     "ability_name_1": "Rock Head",
     "nature_2": "Naive",
-    "ability_name_2": "Flash Fire",
+    "ability_name_2": "Levitate",
     "nature_3": "Modest",
-    "ability_name_3": "Sand Force",
+    "ability_name_3": "Sand Rush",
     "nature_4": "Lonely",
-    "ability_name_4": "Sand Veil",
+    "ability_name_4": "Arena Trap",
     "nature_5": "Naive",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/marshal.png",
-    "name": "Marshal",
     "raw": null,
     "raw_species_id_0": 127,
     "raw_species_id_1": 142,
@@ -20853,7 +22448,8 @@ trainersById = [
     "raw_species_id_4": 51,
     "raw_species_id_5": 330,
     "index": 229,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -20888,7 +22484,7 @@ trainersById = [
     "move_1_2": "ICICLE CRASH",
     "move_2_2": "NIGHT SLASH",
     "move_3_2": "CLOSE COMBAT",
-    "move_4_2": "IRON TAIL",
+    "move_4_2": "ICE SHARD",
     "ivs_3": 255,
     "ability_3": 1,
     "level_3": 100,
@@ -20904,13 +22500,13 @@ trainersById = [
     "ability_4": 2,
     "level_4": 100,
     "padding_4": 0,
-    "species_id_4": "ABSOL",
+    "species_id_4": "CROBAT",
     "form_4": 0,
     "item_id_4": "Scope Lens",
-    "move_1_4": "CRUNCH",
-    "move_2_4": "MEGAHORN",
-    "move_3_4": "ZEN HEADBUTT",
-    "move_4_4": "SUPERPOWER",
+    "move_1_4": "CROSS POISON",
+    "move_2_4": "AIR SLASH",
+    "move_3_4": "HEAT WAVE",
+    "move_4_4": "FOCUS BLAST",
     "ivs_5": 255,
     "ability_5": 3,
     "level_5": 100,
@@ -20932,27 +22528,28 @@ trainersById = [
     "template": 3,
     "nature_0": "Hardy",
     "ability_name_0": "Super Luck",
+    "tr_sprite": "trainer_sprites/grimsley.png",
+    "name": "Grimsley",
     "nature_1": "Jolly",
     "ability_name_1": "Intimidate",
     "nature_2": "Serious",
-    "ability_name_2": "Technician",
+    "ability_name_2": "Inner Focus",
     "nature_3": "Bashful",
     "ability_name_3": "Speed Boost",
-    "nature_4": "Adamant",
-    "ability_name_4": "Justified",
+    "nature_4": "Bashful",
+    "ability_name_4": "Sniper",
     "nature_5": "Sassy",
-    "ability_name_5": "Battle Armor",
-    "tr_sprite": "trainer_sprites/grimsley.png",
-    "name": "Grimsley",
+    "ability_name_5": "Intimidate",
     "raw": null,
     "raw_species_id_0": 430,
     "raw_species_id_1": 229,
     "raw_species_id_2": 461,
     "raw_species_id_3": 319,
-    "raw_species_id_4": 359,
+    "raw_species_id_4": 169,
     "raw_species_id_5": 248,
     "index": 230,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21030,19 +22627,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Hardy",
-    "ability_name_0": "Own Tempo",
+    "ability_name_0": "Regenerator",
+    "tr_sprite": "trainer_sprites/caitlin.png",
+    "name": "Caitlin",
     "nature_1": "Hardy",
     "ability_name_1": "Magic Guard",
     "nature_2": "Serious",
     "ability_name_2": "Flash Fire",
     "nature_3": "Gentle",
-    "ability_name_3": "Iron Fist",
+    "ability_name_3": "Clear Body",
     "nature_4": "Sassy",
     "ability_name_4": "Pure Power",
     "nature_5": "Quirky",
     "ability_name_5": "Synchronize",
-    "tr_sprite": "trainer_sprites/caitlin.png",
-    "name": "Caitlin",
     "raw": null,
     "raw_species_id_0": 80,
     "raw_species_id_1": 65,
@@ -21051,7 +22648,8 @@ trainersById = [
     "raw_species_id_4": 308,
     "raw_species_id_5": 151,
     "index": 231,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -21130,18 +22728,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Bashful",
     "ability_name_0": "Flash Fire",
+    "tr_sprite": "trainer_sprites/ghetsis.png",
+    "name": "Ghetsis",
     "nature_1": "Lonely",
     "ability_name_1": "Marvel Scale",
     "nature_2": "Adamant",
     "ability_name_2": "Battle Armor",
     "nature_3": "Docile",
-    "ability_name_3": "Volt Absorb",
+    "ability_name_3": "Lightningrod",
     "nature_4": "Jolly",
-    "ability_name_4": "Chlorophyll",
+    "ability_name_4": "Natural Cure",
     "nature_5": "Relaxed",
     "ability_name_5": "Air Lock",
-    "tr_sprite": "trainer_sprites/ghetsis.png",
-    "name": "Ghetsis",
     "raw": null,
     "raw_species_id_0": 467,
     "raw_species_id_1": 350,
@@ -21150,7 +22748,8 @@ trainersById = [
     "raw_species_id_4": 407,
     "raw_species_id_5": 384,
     "index": 232,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21190,12 +22789,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Naughty",
     "ability_name_0": "Iron Fist",
+    "tr_sprite": "trainer_sprites/psychic.png",
+    "name": "Low",
     "nature_1": "Lax",
     "ability_name_1": "Levitate",
     "nature_2": "Impish",
     "ability_name_2": "Magic Guard",
-    "tr_sprite": "trainer_sprites/psychic.png",
-    "name": "Low",
     "raw": null,
     "raw_species_id_0": 375,
     "raw_species_id_1": 358,
@@ -21204,7 +22803,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 233,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21233,10 +22833,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Jolly",
     "ability_name_0": "Solid Rock",
-    "nature_1": "Careful",
-    "ability_name_1": "Levitate",
     "tr_sprite": "trainer_sprites/psychic.png",
     "name": "Gaven",
+    "nature_1": "Careful",
+    "ability_name_1": "Levitate",
     "raw": null,
     "raw_species_id_0": 337,
     "raw_species_id_1": 344,
@@ -21245,7 +22845,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 234,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21274,10 +22875,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Sassy",
     "ability_name_0": "Magic Guard",
-    "nature_1": "Mild",
-    "ability_name_1": "Magic Bounce",
     "tr_sprite": "trainer_sprites/psychic_f.png",
     "name": "Cybil",
+    "nature_1": "Mild",
+    "ability_name_1": "Magic Bounce",
     "raw": null,
     "raw_species_id_0": 65,
     "raw_species_id_1": 178,
@@ -21286,7 +22887,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 235,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21315,10 +22917,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Modest",
     "ability_name_0": "Rock Head",
-    "nature_1": "Quiet",
-    "ability_name_1": "Skill Link",
     "tr_sprite": "trainer_sprites/backpacker.png",
     "name": "Kelsey",
+    "nature_1": "Quiet",
+    "ability_name_1": "Skill Link",
     "raw": null,
     "raw_species_id_0": 362,
     "raw_species_id_1": 222,
@@ -21327,7 +22929,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 236,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21356,10 +22959,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Modest",
     "ability_name_0": "Adaptability",
-    "nature_1": "Adamant",
-    "ability_name_1": "Huge Power",
     "tr_sprite": "trainer_sprites/nate.png",
     "name": "Nate",
+    "nature_1": "Adamant",
+    "ability_name_1": "Huge Power",
     "raw": null,
     "raw_species_id_0": 342,
     "raw_species_id_1": 303,
@@ -21368,7 +22971,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 237,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21397,10 +23001,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Bashful",
     "ability_name_0": "Sheer Force",
-    "nature_1": "Lonely",
-    "ability_name_1": "Sheer Force",
     "tr_sprite": "trainer_sprites/backpacker_f.png",
     "name": "Liz",
+    "nature_1": "Lonely",
+    "ability_name_1": "Sheer Force",
     "raw": null,
     "raw_species_id_0": 31,
     "raw_species_id_1": 34,
@@ -21409,7 +23013,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 238,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21437,11 +23042,11 @@ trainersById = [
     "gender_1": "Default",
     "template": 1,
     "nature_0": "Adamant",
-    "ability_name_0": "Rock Head",
-    "nature_1": "Lonely",
-    "ability_name_1": "Volt Absorb",
+    "ability_name_0": "Sturdy",
     "tr_sprite": "trainer_sprites/elaine.png",
     "name": "Elaine",
+    "nature_1": "Lonely",
+    "ability_name_1": "Lightningrod",
     "raw": null,
     "raw_species_id_0": 306,
     "raw_species_id_1": 101,
@@ -21450,7 +23055,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 239,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21501,14 +23107,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Iron Fist",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Ronald",
     "nature_1": "Calm",
-    "ability_name_1": "Rock Head",
+    "ability_name_1": "Sand Stream",
     "nature_2": "Hardy",
     "ability_name_2": "Levitate",
     "nature_3": "Bold",
     "ability_name_3": "Sheer Force",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Ronald",
     "raw": null,
     "raw_species_id_0": 376,
     "raw_species_id_1": 208,
@@ -21517,7 +23123,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 240,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21578,7 +23185,9 @@ trainersById = [
     "gender_4": "Default",
     "template": 1,
     "nature_0": "Brave",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Sand Stream",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Brand",
     "nature_1": "Adamant",
     "ability_name_1": "Sand Veil",
     "nature_2": "Naive",
@@ -21587,8 +23196,6 @@ trainersById = [
     "ability_name_3": "Swift Swim",
     "nature_4": "Careful",
     "ability_name_4": "Rock Head",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Brand",
     "raw": null,
     "raw_species_id_0": 208,
     "raw_species_id_1": 332,
@@ -21597,7 +23204,8 @@ trainersById = [
     "raw_species_id_4": 306,
     "raw_species_id_5": null,
     "index": 241,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21659,6 +23267,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Serious",
     "ability_name_0": "Defiant",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Darrell",
     "nature_1": "Modest",
     "ability_name_1": "Rock Head",
     "nature_2": "Bold",
@@ -21667,8 +23277,6 @@ trainersById = [
     "ability_name_3": "Guts",
     "nature_4": "Lax",
     "ability_name_4": "Intimidate",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Darrell",
     "raw": null,
     "raw_species_id_0": 57,
     "raw_species_id_1": 76,
@@ -21677,7 +23285,8 @@ trainersById = [
     "raw_species_id_4": 128,
     "raw_species_id_5": null,
     "index": 242,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21739,16 +23348,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Terrell",
     "nature_1": "Quirky",
     "ability_name_1": "Levitate",
     "nature_2": "Serious",
     "ability_name_2": "Sheer Force",
     "nature_3": "Hardy",
-    "ability_name_3": "Poison Heal",
+    "ability_name_3": "Sand Veil",
     "nature_4": "Bashful",
     "ability_name_4": "Thick Fat",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Terrell",
     "raw": null,
     "raw_species_id_0": 76,
     "raw_species_id_1": 476,
@@ -21757,7 +23366,8 @@ trainersById = [
     "raw_species_id_4": 473,
     "raw_species_id_5": null,
     "index": 243,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21835,7 +23445,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Quirky",
-    "ability_name_0": "Water Absorb",
+    "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Shanta",
     "nature_1": "Rash",
     "ability_name_1": "Adaptability",
     "nature_2": "Relaxed",
@@ -21845,9 +23457,7 @@ trainersById = [
     "nature_4": "Brave",
     "ability_name_4": "Swift Swim",
     "nature_5": "Careful",
-    "ability_name_5": "Regenerator",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Shanta",
+    "ability_name_5": "Drizzle",
     "raw": null,
     "raw_species_id_0": 134,
     "raw_species_id_1": 342,
@@ -21856,7 +23466,8 @@ trainersById = [
     "raw_species_id_4": 119,
     "raw_species_id_5": 9,
     "index": 244,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -21935,8 +23546,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Calm",
     "ability_name_0": "Early Bird",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Cathy",
     "nature_1": "Naive",
-    "ability_name_1": "Volt Absorb",
+    "ability_name_1": "Lightningrod",
     "nature_2": "Bold",
     "ability_name_2": "Technician",
     "nature_3": "Jolly",
@@ -21945,8 +23558,6 @@ trainersById = [
     "ability_name_4": "Water Absorb",
     "nature_5": "Bold",
     "ability_name_5": "Clear Body",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Cathy",
     "raw": null,
     "raw_species_id_0": 115,
     "raw_species_id_1": 101,
@@ -21955,7 +23566,8 @@ trainersById = [
     "raw_species_id_4": 219,
     "raw_species_id_5": 227,
     "index": 245,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22034,6 +23646,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Impish",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Dwayne",
     "nature_1": "Careful",
     "ability_name_1": "Intimidate",
     "nature_2": "Careful",
@@ -22044,8 +23658,6 @@ trainersById = [
     "ability_name_4": "Chlorophyll",
     "nature_5": "Jolly",
     "ability_name_5": "Sap Sipper",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Dwayne",
     "raw": null,
     "raw_species_id_0": 310,
     "raw_species_id_1": 229,
@@ -22054,7 +23666,8 @@ trainersById = [
     "raw_species_id_4": 45,
     "raw_species_id_5": 203,
     "index": 246,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22133,6 +23746,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Quiet",
     "ability_name_0": "Compoundeyes",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "David",
     "nature_1": "Adamant",
     "ability_name_1": "Sand Veil",
     "nature_2": "Relaxed",
@@ -22143,8 +23758,6 @@ trainersById = [
     "ability_name_4": "Thick Fat",
     "nature_5": "Naughty",
     "ability_name_5": "Justified",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "David",
     "raw": null,
     "raw_species_id_0": 164,
     "raw_species_id_1": 51,
@@ -22153,7 +23766,8 @@ trainersById = [
     "raw_species_id_4": 3,
     "raw_species_id_5": 359,
     "index": 247,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22232,18 +23846,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Careful",
     "ability_name_0": "Sheer Force",
+    "tr_sprite": "trainer_sprites/blackbelt.png",
+    "name": "Tyrone",
     "nature_1": "Jolly",
     "ability_name_1": "Rock Head",
     "nature_2": "Jolly",
     "ability_name_2": "Adaptability",
     "nature_3": "Lax",
-    "ability_name_3": "Intimidate",
+    "ability_name_3": "Technician",
     "nature_4": "Sassy",
-    "ability_name_4": "Flash Fire",
+    "ability_name_4": "Drought",
     "nature_5": "Relaxed",
     "ability_name_5": "Intimidate",
-    "tr_sprite": "trainer_sprites/blackbelt.png",
-    "name": "Tyrone",
     "raw": null,
     "raw_species_id_0": 99,
     "raw_species_id_1": 105,
@@ -22252,7 +23866,8 @@ trainersById = [
     "raw_species_id_4": 338,
     "raw_species_id_5": 373,
     "index": 248,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22280,7 +23895,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 249,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22311,10 +23927,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Brave",
     "ability_name_0": "Levitate",
-    "nature_1": "Impish",
-    "ability_name_1": "Levitate",
     "tr_sprite": "trainer_sprites/veteran.png",
     "name": "Martell",
+    "nature_1": "Impish",
+    "ability_name_1": "Levitate",
     "raw": null,
     "raw_species_id_0": 380,
     "raw_species_id_1": 381,
@@ -22323,7 +23939,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 250,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22402,8 +24019,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Brave",
     "ability_name_0": "Magic Bounce",
+    "tr_sprite": "trainer_sprites/veteran_f.png",
+    "name": "Tiffany",
     "nature_1": "Docile",
-    "ability_name_1": "Slow Start",
+    "ability_name_1": "Truant",
     "nature_2": "Bashful",
     "ability_name_2": "Levitate",
     "nature_3": "Calm",
@@ -22412,8 +24031,6 @@ trainersById = [
     "ability_name_4": "Pressure",
     "nature_5": "Bashful",
     "ability_name_5": "Defiant",
-    "tr_sprite": "trainer_sprites/veteran_f.png",
-    "name": "Tiffany",
     "raw": null,
     "raw_species_id_0": 196,
     "raw_species_id_1": 289,
@@ -22422,7 +24039,8 @@ trainersById = [
     "raw_species_id_4": 321,
     "raw_species_id_5": 85,
     "index": 251,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -22450,6 +24068,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Careful",
     "ability_name_0": "Shed Skin",
+    "tr_sprite": "trainer_sprites/blackbelt.png",
+    "name": "Edward",
     "nature_1": "Bashful",
     "ability_name_1": "Guts",
     "nature_2": "Bashful",
@@ -22466,8 +24086,6 @@ trainersById = [
     "move_2_2": "BRICK BREAK",
     "move_3_2": "KARATE CHOP",
     "move_4_2": "COUNTER",
-    "tr_sprite": "trainer_sprites/blackbelt.png",
-    "name": "Edward",
     "raw": null,
     "raw_species_id_0": 559,
     "raw_species_id_1": 538,
@@ -22476,7 +24094,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 252,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -22497,6 +24116,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quiet",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/battlegirl.png",
+    "name": "Maggie",
     "nature_1": "Quirky",
     "ability_name_1": "Sturdy",
     "move_1_0": "ROCK SLIDE",
@@ -22507,8 +24128,6 @@ trainersById = [
     "move_2_1": "BRICK BREAK",
     "move_3_1": "KARATE CHOP",
     "move_4_1": "COUNTER",
-    "tr_sprite": "trainer_sprites/battlegirl.png",
-    "name": "Maggie",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": 539,
@@ -22517,7 +24136,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 253,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -22538,6 +24158,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Lax",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/battlegirl.png",
+    "name": "Xiao",
     "nature_1": "Quirky",
     "ability_name_1": "Guts",
     "move_1_0": "ROCK SLIDE",
@@ -22548,8 +24170,6 @@ trainersById = [
     "move_2_1": "BODY SLAM",
     "move_3_1": "STORM THROW",
     "move_4_1": "REVENGE",
-    "tr_sprite": "trainer_sprites/battlegirl.png",
-    "name": "Xiao",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": 538,
@@ -22558,7 +24178,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 254,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 67,
@@ -22620,16 +24241,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Mild",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/hugh.png",
+    "name": "Hugh",
     "nature_1": "Rash",
-    "ability_name_1": "Rock Head",
+    "ability_name_1": "Sand Stream",
     "nature_2": "Hardy",
     "ability_name_2": "Sheer Force",
     "nature_3": "Naive",
     "ability_name_3": "Battle Armor",
     "nature_4": "Jolly",
     "ability_name_4": "Levitate",
-    "tr_sprite": "trainer_sprites/hugh.png",
-    "name": "Hugh",
     "raw": null,
     "raw_species_id_0": 464,
     "raw_species_id_1": 208,
@@ -22638,7 +24259,8 @@ trainersById = [
     "raw_species_id_4": 344,
     "raw_species_id_5": null,
     "index": 255,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22700,16 +24322,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Quiet",
     "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Clarke",
     "nature_1": "Brave",
     "ability_name_1": "Rock Head",
     "nature_2": "Brave",
-    "ability_name_2": "Solid Rock",
+    "ability_name_2": "Levitate",
     "nature_3": "Docile",
     "ability_name_3": "Battle Armor",
     "nature_4": "Gentle",
     "ability_name_4": "Huge Power",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Clarke",
     "raw": null,
     "raw_species_id_0": 302,
     "raw_species_id_1": 306,
@@ -22718,7 +24340,8 @@ trainersById = [
     "raw_species_id_4": 303,
     "raw_species_id_5": null,
     "index": 256,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22780,16 +24403,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Ron",
     "nature_1": "Timid",
     "ability_name_1": "Thick Fat",
     "nature_2": "Naive",
     "ability_name_2": "Liquid Ooze",
     "nature_3": "Quiet",
-    "ability_name_3": "Swift Swim",
+    "ability_name_3": "Intimidate",
     "nature_4": "Naughty",
     "ability_name_4": "Poison Touch",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Ron",
     "raw": null,
     "raw_species_id_0": 15,
     "raw_species_id_1": 3,
@@ -22798,7 +24421,8 @@ trainersById = [
     "raw_species_id_4": 89,
     "raw_species_id_5": null,
     "index": 257,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22860,6 +24484,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Sap Sipper",
+    "tr_sprite": "trainer_sprites/scientist_f.png",
+    "name": "Maria",
     "nature_1": "Serious",
     "ability_name_1": "Own Tempo",
     "nature_2": "Hasty",
@@ -22868,8 +24494,6 @@ trainersById = [
     "ability_name_3": "Swift Swim",
     "nature_4": "Bashful",
     "ability_name_4": "Magic Guard",
-    "tr_sprite": "trainer_sprites/scientist_f.png",
-    "name": "Maria",
     "raw": null,
     "raw_species_id_0": 203,
     "raw_species_id_1": 80,
@@ -22878,7 +24502,8 @@ trainersById = [
     "raw_species_id_4": 326,
     "raw_species_id_5": null,
     "index": 258,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -22956,7 +24581,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Adamant",
-    "ability_name_0": "Iron Barbs",
+    "ability_name_0": "Shell Armor",
+    "tr_sprite": "trainer_sprites/veteran.png",
+    "name": "Shaun",
     "nature_1": "Mild",
     "ability_name_1": "Moxie",
     "nature_2": "Brave",
@@ -22967,8 +24594,6 @@ trainersById = [
     "ability_name_4": "Solid Rock",
     "nature_5": "Naive",
     "ability_name_5": "Water Absorb",
-    "tr_sprite": "trainer_sprites/veteran.png",
-    "name": "Shaun",
     "raw": null,
     "raw_species_id_0": 598,
     "raw_species_id_1": 367,
@@ -22977,7 +24602,8 @@ trainersById = [
     "raw_species_id_4": 565,
     "raw_species_id_5": 186,
     "index": 259,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -23056,8 +24682,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Jolly",
     "ability_name_0": "Sheer Force",
+    "tr_sprite": "trainer_sprites/veteran_f.png",
+    "name": "Julia",
     "nature_1": "Brave",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Adamant",
     "ability_name_2": "Unburden",
     "nature_3": "Bashful",
@@ -23066,8 +24694,6 @@ trainersById = [
     "ability_name_4": "Flash Fire",
     "nature_5": "Mild",
     "ability_name_5": "Water Absorb",
-    "tr_sprite": "trainer_sprites/veteran_f.png",
-    "name": "Julia",
     "raw": null,
     "raw_species_id_0": 555,
     "raw_species_id_1": 136,
@@ -23076,7 +24702,8 @@ trainersById = [
     "raw_species_id_4": 192,
     "raw_species_id_5": 219,
     "index": 260,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -23154,19 +24781,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Calm",
-    "ability_name_0": "Sand Force",
+    "ability_name_0": "Storm Drain",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Beverly",
     "nature_1": "Calm",
     "ability_name_1": "Sand Stream",
     "nature_2": "Modest",
-    "ability_name_2": "Storm Drain",
+    "ability_name_2": "Sand Veil",
     "nature_3": "Brave",
     "ability_name_3": "Sheer Force",
     "nature_4": "Quiet",
     "ability_name_4": "Sand Rush",
     "nature_5": "Gentle",
     "ability_name_5": "Intimidate",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Beverly",
     "raw": null,
     "raw_species_id_0": 423,
     "raw_species_id_1": 450,
@@ -23175,7 +24802,8 @@ trainersById = [
     "raw_species_id_4": 530,
     "raw_species_id_5": 553,
     "index": 261,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -23253,7 +24881,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Adamant",
-    "ability_name_0": "Snow Cloak",
+    "ability_name_0": "Snow Warning",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Terry",
     "nature_1": "Lonely",
     "ability_name_1": "Thick Fat",
     "nature_2": "Quiet",
@@ -23264,8 +24894,6 @@ trainersById = [
     "ability_name_4": "Ice Body",
     "nature_5": "Docile",
     "ability_name_5": "Ice Body",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Terry",
     "raw": null,
     "raw_species_id_0": 471,
     "raw_species_id_1": 473,
@@ -23274,7 +24902,8 @@ trainersById = [
     "raw_species_id_4": 131,
     "raw_species_id_5": 365,
     "index": 262,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -23325,14 +24954,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Serious",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/psychic_f.png",
+    "name": "Belle",
     "nature_1": "Serious",
     "ability_name_1": "Sap Sipper",
     "nature_2": "Lonely",
     "ability_name_2": "Synchronize",
     "nature_3": "Adamant",
     "ability_name_3": "Own Tempo",
-    "tr_sprite": "trainer_sprites/psychic_f.png",
-    "name": "Belle",
     "raw": null,
     "raw_species_id_0": 352,
     "raw_species_id_1": 203,
@@ -23341,7 +24970,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 263,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23419,19 +25049,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Naive",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Sand Stream",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Kassandra",
     "nature_1": "Jolly",
-    "ability_name_1": "Solid Rock",
+    "ability_name_1": "Levitate",
     "nature_2": "Naughty",
     "ability_name_2": "Rock Head",
     "nature_3": "Docile",
     "ability_name_3": "Rock Head",
     "nature_4": "Relaxed",
-    "ability_name_4": "Battle Armor",
+    "ability_name_4": "Intimidate",
     "nature_5": "Jolly",
-    "ability_name_5": "Sand Veil",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Kassandra",
+    "ability_name_5": "Arena Trap",
     "raw": null,
     "raw_species_id_0": 208,
     "raw_species_id_1": 337,
@@ -23440,7 +25070,8 @@ trainersById = [
     "raw_species_id_4": 248,
     "raw_species_id_5": 51,
     "index": 264,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23491,14 +25122,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Rash",
     "ability_name_0": "Cloud Nine",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Olwen",
     "nature_1": "Bold",
     "ability_name_1": "Intimidate",
     "nature_2": "Adamant",
-    "ability_name_2": "Multiscale",
+    "ability_name_2": "Marvel Scale",
     "nature_3": "Quirky",
     "ability_name_3": "Ice Body",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Olwen",
     "raw": null,
     "raw_species_id_0": 334,
     "raw_species_id_1": 160,
@@ -23507,7 +25138,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 265,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23558,14 +25190,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Quirky",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Clara",
     "nature_1": "Relaxed",
     "ability_name_1": "Sniper",
     "nature_2": "Quirky",
     "ability_name_2": "Technician",
     "nature_3": "Serious",
     "ability_name_3": "Rock Head",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Clara",
     "raw": null,
     "raw_species_id_0": 130,
     "raw_species_id_1": 230,
@@ -23574,7 +25206,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 266,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23625,14 +25258,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Naughty",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Dara",
     "nature_1": "Mild",
     "ability_name_1": "Technician",
     "nature_2": "Calm",
     "ability_name_2": "Swift Swim",
     "nature_3": "Adamant",
     "ability_name_3": "Cloud Nine",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Dara",
     "raw": null,
     "raw_species_id_0": 373,
     "raw_species_id_1": 254,
@@ -23641,7 +25274,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 267,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -23655,12 +25289,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -23669,7 +25303,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 268,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23747,7 +25382,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Serious",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Beckett",
     "nature_1": "Mild",
     "ability_name_1": "Chlorophyll",
     "nature_2": "Sassy",
@@ -23757,9 +25394,7 @@ trainersById = [
     "nature_4": "Adamant",
     "ability_name_4": "Chlorophyll",
     "nature_5": "Quiet",
-    "ability_name_5": "Flash Fire",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Beckett",
+    "ability_name_5": "Drought",
     "raw": null,
     "raw_species_id_0": 38,
     "raw_species_id_1": 182,
@@ -23768,7 +25403,8 @@ trainersById = [
     "raw_species_id_4": 103,
     "raw_species_id_5": 192,
     "index": 269,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23823,14 +25459,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Timid",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Webster",
     "nature_1": "Mild",
     "ability_name_1": "Shed Skin",
     "nature_2": "Docile",
     "ability_name_2": "Iron Fist",
     "nature_3": "Sassy",
     "ability_name_3": "Shed Skin",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Webster",
     "raw": null,
     "raw_species_id_0": 372,
     "raw_species_id_1": 148,
@@ -23839,7 +25475,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 270,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23894,14 +25531,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Sassy",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Jose",
     "nature_1": "Quiet",
     "ability_name_1": "Static",
     "nature_2": "Lax",
-    "ability_name_2": "Flash Fire",
+    "ability_name_2": "Drought",
     "nature_3": "Jolly",
-    "ability_name_3": "Levitate",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Jose",
+    "ability_name_3": "Thick Fat",
     "raw": null,
     "raw_species_id_0": 142,
     "raw_species_id_1": 181,
@@ -23910,7 +25547,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 271,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -23961,14 +25599,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Iron Fist",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Tom",
     "nature_1": "Timid",
     "ability_name_1": "Thick Fat",
     "nature_2": "Hasty",
     "ability_name_2": "Sniper",
     "nature_3": "Hardy",
-    "ability_name_3": "Multiscale",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Tom",
+    "ability_name_3": "Marvel Scale",
     "raw": null,
     "raw_species_id_0": 376,
     "raw_species_id_1": 3,
@@ -23977,7 +25615,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 272,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -23991,12 +25630,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Rash",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -24005,7 +25644,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 273,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24055,15 +25695,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 1,
     "nature_0": "Adamant",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Sand Stream",
+    "tr_sprite": "trainer_sprites/veteran.png",
+    "name": "Hugo",
     "nature_1": "Gentle",
     "ability_name_1": "Levitate",
     "nature_2": "Gentle",
-    "ability_name_2": "Battle Armor",
+    "ability_name_2": "Intimidate",
     "nature_3": "Mild",
     "ability_name_3": "Rock Head",
-    "tr_sprite": "trainer_sprites/veteran.png",
-    "name": "Hugo",
     "raw": null,
     "raw_species_id_0": 208,
     "raw_species_id_1": 330,
@@ -24072,7 +25712,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 274,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24122,15 +25763,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 1,
     "nature_0": "Naughty",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/veteran_f.png",
+    "name": "Kim",
     "nature_1": "Calm",
     "ability_name_1": "Levitate",
     "nature_2": "Naughty",
     "ability_name_2": "Rock Head",
     "nature_3": "Sassy",
     "ability_name_3": "Multiscale",
-    "tr_sprite": "trainer_sprites/veteran_f.png",
-    "name": "Kim",
     "raw": null,
     "raw_species_id_0": 6,
     "raw_species_id_1": 330,
@@ -24139,7 +25780,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 275,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24179,12 +25821,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Docile",
     "ability_name_0": "Bad Dreams",
-    "nature_1": "Careful",
-    "ability_name_1": "Technician",
-    "nature_2": "Brave",
-    "ability_name_2": "Shadow Tag",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "nature_1": "Careful",
+    "ability_name_1": "Filter",
+    "nature_2": "Brave",
+    "ability_name_2": "Shadow Tag",
     "raw": null,
     "raw_species_id_0": 97,
     "raw_species_id_1": 122,
@@ -24193,7 +25835,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 276,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24233,12 +25876,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Rash",
     "ability_name_0": "Own Tempo",
-    "nature_1": "Timid",
-    "ability_name_1": "Sand Veil",
-    "nature_2": "Impish",
-    "ability_name_2": "Bad Dreams",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "",
+    "nature_1": "Timid",
+    "ability_name_1": "Arena Trap",
+    "nature_2": "Impish",
+    "ability_name_2": "Bad Dreams",
     "raw": null,
     "raw_species_id_0": 108,
     "raw_species_id_1": 50,
@@ -24247,7 +25890,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 277,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24287,12 +25931,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Naughty",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Rash",
     "ability_name_1": "Liquid Ooze",
     "nature_2": "Brave",
     "ability_name_2": "Poison Touch",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 24,
     "raw_species_id_1": 317,
@@ -24301,7 +25945,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 278,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24356,14 +26001,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Sassy",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Timid",
     "ability_name_1": "Rock Head",
     "nature_2": "Lax",
     "ability_name_2": "Thick Fat",
     "nature_3": "Gentle",
     "ability_name_3": "Flame Body",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 217,
     "raw_species_id_1": 105,
@@ -24372,7 +26017,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 279,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -24386,12 +26032,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Modest",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -24400,7 +26046,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 280,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -24414,12 +26061,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Docile",
     "ability_name_0": "Unaware",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Austin",
     "move_1_0": "ATTRACT",
     "move_2_0": "AIR CUTTER",
     "move_3_0": "IMPRISON",
     "move_4_0": "HEART STAMP",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Austin",
     "raw": null,
     "raw_species_id_0": 528,
     "raw_species_id_1": null,
@@ -24428,7 +26075,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 281,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -24442,12 +26090,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Modest",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -24456,7 +26104,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 282,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -24470,12 +26119,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Gentle",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/waiter.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/waiter.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -24484,7 +26133,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 283,
-    "class": "Waiter"
+    "class": "Waiter",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -24498,12 +26148,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Big Pecks",
+    "tr_sprite": "trainer_sprites/richboy.png",
+    "name": "Martin",
     "move_1_0": "DETECT",
     "move_2_0": "ROOST",
     "move_3_0": "AIR CUTTER",
     "move_4_0": "QUICK ATTACK",
-    "tr_sprite": "trainer_sprites/richboy.png",
-    "name": "Martin",
     "raw": null,
     "raw_species_id_0": 520,
     "raw_species_id_1": null,
@@ -24512,7 +26162,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 284,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -24526,12 +26177,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Modest",
     "ability_name_0": "Frisk",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Maya",
     "move_1_0": "PSYSHOCK",
     "move_2_0": "DARK PULSE",
     "move_3_0": "EMBARGO",
     "move_4_0": "PSYBEAM",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Maya",
     "raw": null,
     "raw_species_id_0": 574,
     "raw_species_id_1": null,
@@ -24540,7 +26191,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 285,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -24554,12 +26206,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/lady.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/lady.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -24568,7 +26220,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 286,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24599,10 +26252,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Sassy",
     "ability_name_0": "Speed Boost",
-    "nature_1": "Modest",
-    "ability_name_1": "Adaptability",
     "tr_sprite": "trainer_sprites/cheren.png",
     "name": "Cheren",
+    "nature_1": "Modest",
+    "ability_name_1": "Adaptability",
     "raw": null,
     "raw_species_id_0": 255,
     "raw_species_id_1": 133,
@@ -24611,7 +26264,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 287,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24642,10 +26296,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Bold",
     "ability_name_0": "Swift Swim",
-    "nature_1": "Serious",
-    "ability_name_1": "Adaptability",
     "tr_sprite": "trainer_sprites/cheren.png",
     "name": "Cheren",
+    "nature_1": "Serious",
+    "ability_name_1": "Adaptability",
     "raw": null,
     "raw_species_id_0": 258,
     "raw_species_id_1": 133,
@@ -24654,7 +26308,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 288,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24685,10 +26340,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Hardy",
     "ability_name_0": "Technician",
-    "nature_1": "Rash",
-    "ability_name_1": "Adaptability",
     "tr_sprite": "trainer_sprites/cheren.png",
     "name": "Cheren",
+    "nature_1": "Rash",
+    "ability_name_1": "Adaptability",
     "raw": null,
     "raw_species_id_0": 252,
     "raw_species_id_1": 133,
@@ -24697,7 +26352,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 289,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24737,12 +26393,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Modest",
     "ability_name_0": "Solid Rock",
-    "nature_1": "Modest",
-    "ability_name_1": "Flash Fire",
-    "nature_2": "Brave",
-    "ability_name_2": "Adaptability",
     "tr_sprite": "trainer_sprites/backpacker.png",
     "name": "Keane",
+    "nature_1": "Modest",
+    "ability_name_1": "Levitate",
+    "nature_2": "Brave",
+    "ability_name_2": "Adaptability",
     "raw": null,
     "raw_species_id_0": 337,
     "raw_species_id_1": 338,
@@ -24751,7 +26407,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 290,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24791,12 +26448,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Relaxed",
     "ability_name_0": "Levitate",
-    "nature_1": "Quiet",
-    "ability_name_1": "Guts",
-    "nature_2": "Hardy",
-    "ability_name_2": "Sand Force",
     "tr_sprite": "trainer_sprites/worker.png",
     "name": "Gus",
+    "nature_1": "Quiet",
+    "ability_name_1": "No Guard",
+    "nature_2": "Hardy",
+    "ability_name_2": "Sand Force",
     "raw": null,
     "raw_species_id_0": 462,
     "raw_species_id_1": 68,
@@ -24805,7 +26462,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 291,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24844,13 +26502,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Timid",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Gina",
     "nature_1": "Lonely",
     "ability_name_1": "Flash Fire",
     "nature_2": "Jolly",
     "ability_name_2": "Liquid Ooze",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Gina",
     "raw": null,
     "raw_species_id_0": 192,
     "raw_species_id_1": 156,
@@ -24859,7 +26517,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 292,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24899,12 +26558,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Quirky",
     "ability_name_0": "Own Tempo",
-    "nature_1": "Modest",
-    "ability_name_1": "Sand Veil",
-    "nature_2": "Modest",
-    "ability_name_2": "Bad Dreams",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "nature_1": "Modest",
+    "ability_name_1": "Arena Trap",
+    "nature_2": "Modest",
+    "ability_name_2": "Bad Dreams",
     "raw": null,
     "raw_species_id_0": 108,
     "raw_species_id_1": 50,
@@ -24913,7 +26572,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 293,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24942,10 +26602,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Naive",
     "ability_name_0": "Swift Swim",
-    "nature_1": "Naive",
-    "ability_name_1": "Levitate",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "nature_1": "Naive",
+    "ability_name_1": "Levitate",
     "raw": null,
     "raw_species_id_0": 211,
     "raw_species_id_1": 109,
@@ -24954,7 +26614,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 294,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -24994,12 +26655,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Brave",
     "ability_name_0": "Inner Focus",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Mild",
     "ability_name_1": "Liquid Ooze",
     "nature_2": "Mild",
     "ability_name_2": "Intimidate",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 42,
     "raw_species_id_1": 317,
@@ -25008,7 +26669,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 295,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25047,13 +26709,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Serious",
-    "ability_name_0": "Solid Rock",
-    "nature_1": "Hasty",
-    "ability_name_1": "Flash Fire",
-    "nature_2": "Modest",
-    "ability_name_2": "Poison Heal",
+    "ability_name_0": "Levitate",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "nature_1": "Hasty",
+    "ability_name_1": "Levitate",
+    "nature_2": "Modest",
+    "ability_name_2": "Technician",
     "raw": null,
     "raw_species_id_0": 337,
     "raw_species_id_1": 338,
@@ -25062,7 +26724,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 296,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25102,12 +26765,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Impish",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Gentle",
     "ability_name_1": "Inner Focus",
     "nature_2": "Quiet",
     "ability_name_2": "Chlorophyll",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 358,
     "raw_species_id_1": 42,
@@ -25116,7 +26779,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 297,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25171,14 +26835,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Bold",
     "ability_name_0": "Hydration",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Jolly",
     "ability_name_1": "Swift Swim",
     "nature_2": "Hasty",
     "ability_name_2": "Sap Sipper",
     "nature_3": "Jolly",
     "ability_name_3": "Levitate",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 124,
     "raw_species_id_1": 368,
@@ -25187,7 +26851,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 298,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25238,14 +26903,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Bold",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Impish",
     "ability_name_1": "Adaptability",
     "nature_2": "Adamant",
     "ability_name_2": "Solid Rock",
     "nature_3": "Rash",
     "ability_name_3": "Shadow Tag",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 352,
@@ -25254,7 +26919,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 299,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25304,15 +26970,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 1,
     "nature_0": "Careful",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Rash",
     "ability_name_1": "Adaptability",
     "nature_2": "Careful",
     "ability_name_2": "Chlorophyll",
     "nature_3": "Gentle",
     "ability_name_3": "Justified",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 192,
     "raw_species_id_1": 157,
@@ -25321,7 +26987,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 300,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25376,14 +27043,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Serious",
     "ability_name_0": "Thick Fat",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Serious",
     "ability_name_1": "Levitate",
     "nature_2": "Adamant",
     "ability_name_2": "Thick Fat",
     "nature_3": "Lonely",
-    "ability_name_3": "Inner Focus",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
+    "ability_name_3": "Sniper",
     "raw": null,
     "raw_species_id_0": 143,
     "raw_species_id_1": 110,
@@ -25392,7 +27059,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 301,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25459,6 +27127,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Brave",
     "ability_name_0": "Poison Touch",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Modest",
     "ability_name_1": "Serene Grace",
     "nature_2": "Jolly",
@@ -25466,9 +27136,7 @@ trainersById = [
     "nature_3": "Hardy",
     "ability_name_3": "Flash Fire",
     "nature_4": "Rash",
-    "ability_name_4": "Swift Swim",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
+    "ability_name_4": "Torrent",
     "raw": null,
     "raw_species_id_0": 89,
     "raw_species_id_1": 468,
@@ -25477,7 +27145,8 @@ trainersById = [
     "raw_species_id_4": 260,
     "raw_species_id_5": null,
     "index": 302,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25543,7 +27212,9 @@ trainersById = [
     "gender_4": "Default",
     "template": 3,
     "nature_0": "Jolly",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Timid",
     "ability_name_1": "Chlorophyll",
     "nature_2": "Quirky",
@@ -25551,9 +27222,7 @@ trainersById = [
     "nature_3": "Quiet",
     "ability_name_3": "Intimidate",
     "nature_4": "Relaxed",
-    "ability_name_4": "Adaptability",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
+    "ability_name_4": "Download",
     "raw": null,
     "raw_species_id_0": 126,
     "raw_species_id_1": 407,
@@ -25562,7 +27231,8 @@ trainersById = [
     "raw_species_id_4": 474,
     "raw_species_id_5": null,
     "index": 303,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25629,16 +27299,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Naughty",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Serious",
     "ability_name_1": "Intimidate",
     "nature_2": "Timid",
     "ability_name_2": "Intimidate",
     "nature_3": "Quiet",
-    "ability_name_3": "Rock Head",
+    "ability_name_3": "Solid Rock",
     "nature_4": "Rash",
     "ability_name_4": "Levitate",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 373,
     "raw_species_id_1": 284,
@@ -25647,7 +27317,8 @@ trainersById = [
     "raw_species_id_4": 462,
     "raw_species_id_5": null,
     "index": 304,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25690,12 +27361,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Lonely",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Relaxed",
     "ability_name_1": "Super Luck",
     "nature_2": "Sassy",
-    "ability_name_2": "Justified",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
+    "ability_name_2": "Super Luck",
     "raw": null,
     "raw_species_id_0": 254,
     "raw_species_id_1": 83,
@@ -25704,7 +27375,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 305,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25746,13 +27418,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 3,
     "nature_0": "Lax",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Sand Stream",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Bold",
     "ability_name_1": "Sand Veil",
     "nature_2": "Adamant",
-    "ability_name_2": "Sand Force",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
+    "ability_name_2": "Sand Veil",
     "raw": null,
     "raw_species_id_0": 208,
     "raw_species_id_1": 332,
@@ -25761,7 +27433,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 306,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25804,12 +27477,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Jolly",
     "ability_name_0": "Clear Body",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Modest",
     "ability_name_1": "Clear Body",
     "nature_2": "Mild",
     "ability_name_2": "Clear Body",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 379,
     "raw_species_id_1": 378,
@@ -25818,7 +27491,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 307,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25858,12 +27532,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Mild",
     "ability_name_0": "Inner Focus",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Relaxed",
     "ability_name_1": "Compoundeyes",
     "nature_2": "Hardy",
     "ability_name_2": "Levitate",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 41,
     "raw_species_id_1": 163,
@@ -25872,7 +27546,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 308,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25912,12 +27587,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Adamant",
     "ability_name_0": "Own Tempo",
-    "nature_1": "Adamant",
-    "ability_name_1": "Super Luck",
-    "nature_2": "Timid",
-    "ability_name_2": "Intimidate",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "nature_1": "Adamant",
+    "ability_name_1": "Prankster",
+    "nature_2": "Timid",
+    "ability_name_2": "Intimidate",
     "raw": null,
     "raw_species_id_0": 199,
     "raw_species_id_1": 198,
@@ -25926,7 +27601,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 309,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -25977,14 +27653,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Bold",
     "ability_name_0": "Huge Power",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Hardy",
     "ability_name_1": "Poison Touch",
     "nature_2": "Serious",
     "ability_name_2": "Prankster",
     "nature_3": "Gentle",
     "ability_name_3": "Intimidate",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 168,
     "raw_species_id_1": 89,
@@ -25993,7 +27669,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 310,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -26043,15 +27720,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 1,
     "nature_0": "Docile",
-    "ability_name_0": "Moxie",
+    "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Relaxed",
     "ability_name_1": "Intimidate",
     "nature_2": "Bold",
     "ability_name_2": "Swift Swim",
     "nature_3": "Hasty",
     "ability_name_3": "Thick Fat",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 367,
     "raw_species_id_1": 160,
@@ -26060,7 +27737,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 311,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -26127,6 +27805,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Relaxed",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Rash",
     "ability_name_1": "Intimidate",
     "nature_2": "Relaxed",
@@ -26135,8 +27815,6 @@ trainersById = [
     "ability_name_3": "Multiscale",
     "nature_4": "Sassy",
     "ability_name_4": "Technician",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 128,
     "raw_species_id_1": 336,
@@ -26145,7 +27823,8 @@ trainersById = [
     "raw_species_id_4": 461,
     "raw_species_id_5": null,
     "index": 312,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -26188,12 +27867,12 @@ trainersById = [
     "template": 3,
     "nature_0": "Mild",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Naive",
     "ability_name_1": "Prankster",
     "nature_2": "Impish",
     "ability_name_2": "Serene Grace",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 157,
     "raw_species_id_1": 189,
@@ -26202,7 +27881,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 313,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26223,6 +27903,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Bashful",
     "ability_name_0": "Volt Absorb",
+    "tr_sprite": "trainer_sprites/smasher.png",
+    "name": "Mari",
     "nature_1": "Quiet",
     "ability_name_1": "Water Absorb",
     "move_1_0": "MIRROR COAT",
@@ -26233,8 +27915,6 @@ trainersById = [
     "move_2_1": "HYDRO PUMP",
     "move_3_1": "HEX",
     "move_4_1": "RAIN DANCE",
-    "tr_sprite": "trainer_sprites/smasher.png",
-    "name": "Mari",
     "raw": null,
     "raw_species_id_0": 100,
     "raw_species_id_1": 593,
@@ -26243,7 +27923,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 314,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26257,12 +27938,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Lax",
     "ability_name_0": "Lightningrod",
+    "tr_sprite": "trainer_sprites/smasher.png",
+    "name": "Elena",
     "move_1_0": "STOMP",
     "move_2_0": "SPARK",
     "move_3_0": "PURSUIT",
     "move_4_0": "FLAME CHARGE",
-    "tr_sprite": "trainer_sprites/smasher.png",
-    "name": "Elena",
     "raw": null,
     "raw_species_id_0": 523,
     "raw_species_id_1": null,
@@ -26271,7 +27952,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 315,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26285,12 +27967,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Lightningrod",
+    "tr_sprite": "trainer_sprites/smasher.png",
+    "name": "Elena",
     "move_1_0": "DISCHARGE",
     "move_2_0": "STOMP",
     "move_3_0": "SPARK",
     "move_4_0": "PURSUIT",
-    "tr_sprite": "trainer_sprites/smasher.png",
-    "name": "Elena",
     "raw": null,
     "raw_species_id_0": 523,
     "raw_species_id_1": null,
@@ -26299,7 +27981,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 316,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26320,6 +28003,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Bold",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/smasher.png",
+    "name": "Elena",
     "nature_1": "Adamant",
     "ability_name_1": "Lightningrod",
     "move_1_0": "PSYCHO BOOST",
@@ -26330,8 +28015,6 @@ trainersById = [
     "move_2_1": "THRASH",
     "move_3_1": "WILD CHARGE",
     "move_4_1": "AGILITY",
-    "tr_sprite": "trainer_sprites/smasher.png",
-    "name": "Elena",
     "raw": null,
     "raw_species_id_0": 343,
     "raw_species_id_1": 523,
@@ -26340,7 +28023,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 317,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26361,6 +28045,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Lax",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/smasher.png",
+    "name": "Aspen",
     "nature_1": "Sassy",
     "ability_name_1": "Chlorophyll",
     "move_1_0": "HURRICANE",
@@ -26371,8 +28057,6 @@ trainersById = [
     "move_2_1": "QUIVER DANCE",
     "move_3_1": "TEETER DANCE",
     "move_4_1": "SLEEP POWDER",
-    "tr_sprite": "trainer_sprites/smasher.png",
-    "name": "Aspen",
     "raw": null,
     "raw_species_id_0": 547,
     "raw_species_id_1": 549,
@@ -26381,7 +28065,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 318,
-    "class": "Smasher"
+    "class": "Smasher",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26402,6 +28087,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Lax",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/infielder.png",
+    "name": "Todd",
     "nature_1": "Serious",
     "ability_name_1": "Defiant",
     "move_1_0": "HEAD SMASH",
@@ -26412,8 +28099,6 @@ trainersById = [
     "move_2_1": "IRON HEAD",
     "move_3_1": "NIGHT SLASH",
     "move_4_1": "IRON DEFENSE",
-    "tr_sprite": "trainer_sprites/infielder.png",
-    "name": "Todd",
     "raw": null,
     "raw_species_id_0": 104,
     "raw_species_id_1": 625,
@@ -26422,7 +28107,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 319,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26450,6 +28136,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quiet",
     "ability_name_0": "Gluttony",
+    "tr_sprite": "trainer_sprites/infielder.png",
+    "name": "Alex",
     "nature_1": "Timid",
     "ability_name_1": "Gluttony",
     "nature_2": "Mild",
@@ -26466,8 +28154,6 @@ trainersById = [
     "move_2_2": "FLING",
     "move_3_2": "TAUNT",
     "move_4_2": "SCALD",
-    "tr_sprite": "trainer_sprites/infielder.png",
-    "name": "Alex",
     "raw": null,
     "raw_species_id_0": 511,
     "raw_species_id_1": 513,
@@ -26476,7 +28162,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 320,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26504,6 +28191,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Calm",
     "ability_name_0": "Unburden",
+    "tr_sprite": "trainer_sprites/infielder.png",
+    "name": "Alex",
     "nature_1": "Lax",
     "ability_name_1": "Unburden",
     "nature_2": "Brave",
@@ -26520,8 +28209,6 @@ trainersById = [
     "move_2_2": "BLAST BURN",
     "move_3_2": "FLAMETHROWER",
     "move_4_2": "FLAME BURST",
-    "tr_sprite": "trainer_sprites/infielder.png",
-    "name": "Alex",
     "raw": null,
     "raw_species_id_0": 516,
     "raw_species_id_1": 512,
@@ -26530,7 +28217,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 321,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26558,6 +28246,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Unburden",
+    "tr_sprite": "trainer_sprites/infielder.png",
+    "name": "Alex",
     "nature_1": "Brave",
     "ability_name_1": "Unburden",
     "nature_2": "Lax",
@@ -26574,8 +28264,6 @@ trainersById = [
     "move_2_2": "BLAST BURN",
     "move_3_2": "FLAMETHROWER",
     "move_4_2": "FLAME BURST",
-    "tr_sprite": "trainer_sprites/infielder.png",
-    "name": "Alex",
     "raw": null,
     "raw_species_id_0": 516,
     "raw_species_id_1": 512,
@@ -26584,7 +28272,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 322,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26605,6 +28294,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Gentle",
     "ability_name_0": "Scrappy",
+    "tr_sprite": "trainer_sprites/infielder.png",
+    "name": "Connor",
     "nature_1": "Adamant",
     "ability_name_1": "Intimidate",
     "move_1_0": "AURA SPHERE",
@@ -26615,8 +28306,6 @@ trainersById = [
     "move_2_1": "EARTHQUAKE",
     "move_3_1": "SANDSTORM",
     "move_4_1": "FOUL PLAY",
-    "tr_sprite": "trainer_sprites/infielder.png",
-    "name": "Connor",
     "raw": null,
     "raw_species_id_0": 521,
     "raw_species_id_1": 553,
@@ -26625,7 +28314,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 323,
-    "class": "Infielder"
+    "class": "Infielder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26646,6 +28336,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Hasty",
     "ability_name_0": "Solid Rock",
+    "tr_sprite": "trainer_sprites/striker.png",
+    "name": "Marco",
     "nature_1": "Quirky",
     "ability_name_1": "Flash Fire",
     "move_1_0": "DARK VOID",
@@ -26656,8 +28348,6 @@ trainersById = [
     "move_2_1": "SOLARBEAM",
     "move_3_1": "EXPLOSION",
     "move_4_1": "FLAMETHROWER",
-    "tr_sprite": "trainer_sprites/striker.png",
-    "name": "Marco",
     "raw": null,
     "raw_species_id_0": 337,
     "raw_species_id_1": 338,
@@ -26666,7 +28356,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 324,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26680,12 +28371,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Keen Eye",
+    "tr_sprite": "trainer_sprites/striker.png",
+    "name": "Tony",
     "move_1_0": "ROOST",
     "move_2_0": "AIR SLASH",
     "move_3_0": "AQUA RING",
     "move_4_0": "FEATHERDANCE",
-    "tr_sprite": "trainer_sprites/striker.png",
-    "name": "Tony",
     "raw": null,
     "raw_species_id_0": 580,
     "raw_species_id_1": null,
@@ -26694,7 +28385,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 325,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26708,12 +28400,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Mild",
     "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/striker.png",
+    "name": "Tony",
     "move_1_0": "TAILWIND",
     "move_2_0": "RAIN DANCE",
     "move_3_0": "ROOST",
     "move_4_0": "AIR SLASH",
-    "tr_sprite": "trainer_sprites/striker.png",
-    "name": "Tony",
     "raw": null,
     "raw_species_id_0": 581,
     "raw_species_id_1": null,
@@ -26722,7 +28414,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 326,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26743,6 +28436,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Jolly",
     "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/striker.png",
+    "name": "Tony",
     "nature_1": "Timid",
     "ability_name_1": "Adaptability",
     "move_1_0": "HURRICANE",
@@ -26753,8 +28448,6 @@ trainersById = [
     "move_2_1": "SHADOW FORCE",
     "move_3_1": "CRUSH CLAW",
     "move_4_1": "SUPERPOWER",
-    "tr_sprite": "trainer_sprites/striker.png",
-    "name": "Tony",
     "raw": null,
     "raw_species_id_0": 581,
     "raw_species_id_1": 352,
@@ -26763,7 +28456,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 327,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26791,6 +28485,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quiet",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/striker.png",
+    "name": "Roberto",
     "nature_1": "Timid",
     "ability_name_1": "Keen Eye",
     "nature_2": "Impish",
@@ -26807,8 +28503,6 @@ trainersById = [
     "move_2_2": "NASTY PLOT",
     "move_3_2": "CHARM",
     "move_4_2": "NIGHT SLASH",
-    "tr_sprite": "trainer_sprites/striker.png",
-    "name": "Roberto",
     "raw": null,
     "raw_species_id_0": 276,
     "raw_species_id_1": 215,
@@ -26817,7 +28511,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 328,
-    "class": "Striker"
+    "class": "Striker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26831,12 +28526,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/linebacker.png",
+    "name": "Jonah",
     "move_1_0": "EXPLOSION",
     "move_2_0": "HEAVY SLAM",
     "move_3_0": "IRON DEFENSE",
     "move_4_0": "DOUBLE-EDGE",
-    "tr_sprite": "trainer_sprites/linebacker.png",
-    "name": "Jonah",
     "raw": null,
     "raw_species_id_0": 205,
     "raw_species_id_1": null,
@@ -26845,7 +28540,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 329,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26866,6 +28562,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Hustle",
+    "tr_sprite": "trainer_sprites/linebacker.png",
+    "name": "Dan",
     "nature_1": "Hardy",
     "ability_name_1": "Guts",
     "move_1_0": "BELLY DRUM",
@@ -26876,8 +28574,6 @@ trainersById = [
     "move_2_1": "CHIP AWAY",
     "move_3_1": "WAKE-UP SLAP",
     "move_4_1": "ROCK THROW",
-    "tr_sprite": "trainer_sprites/linebacker.png",
-    "name": "Dan",
     "raw": null,
     "raw_species_id_0": 554,
     "raw_species_id_1": 533,
@@ -26886,7 +28582,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 330,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26907,6 +28604,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/linebacker.png",
+    "name": "Dan",
     "nature_1": "Calm",
     "ability_name_1": "Sheer Force",
     "move_1_0": "DRAIN PUNCH",
@@ -26917,8 +28616,6 @@ trainersById = [
     "move_2_1": "HAMMER ARM",
     "move_3_1": "FLARE BLITZ",
     "move_4_1": "BELLY DRUM",
-    "tr_sprite": "trainer_sprites/linebacker.png",
-    "name": "Dan",
     "raw": null,
     "raw_species_id_0": 533,
     "raw_species_id_1": 555,
@@ -26927,7 +28624,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 331,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -26955,6 +28653,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Lonely",
     "ability_name_0": "Own Tempo",
+    "tr_sprite": "trainer_sprites/linebacker.png",
+    "name": "Dan",
     "nature_1": "Hasty",
     "ability_name_1": "Sheer Force",
     "nature_2": "Jolly",
@@ -26971,8 +28671,6 @@ trainersById = [
     "move_2_2": "FOCUS PUNCH",
     "move_3_2": "STONE EDGE",
     "move_4_2": "HAMMER ARM",
-    "tr_sprite": "trainer_sprites/linebacker.png",
-    "name": "Dan",
     "raw": null,
     "raw_species_id_0": 108,
     "raw_species_id_1": 555,
@@ -26981,7 +28679,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 332,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27009,6 +28708,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Bold",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/linebacker.png",
+    "name": "Bob",
     "nature_1": "Sassy",
     "ability_name_1": "Guts",
     "nature_2": "Rash",
@@ -27025,8 +28726,6 @@ trainersById = [
     "move_2_2": "REVERSAL",
     "move_3_2": "SUPERPOWER",
     "move_4_2": "HEAVY SLAM",
-    "tr_sprite": "trainer_sprites/linebacker.png",
-    "name": "Bob",
     "raw": null,
     "raw_species_id_0": 539,
     "raw_species_id_1": 538,
@@ -27035,7 +28734,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 333,
-    "class": "Linebacker"
+    "class": "Linebacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27056,6 +28756,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Gentle",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/hoopster.png",
+    "name": "Lamarcus",
     "nature_1": "Brave",
     "ability_name_1": "Reckless",
     "move_1_0": "HURRICANE",
@@ -27066,8 +28768,6 @@ trainersById = [
     "move_2_1": "SWORDS DANCE",
     "move_3_1": "THRASH",
     "move_4_1": "REVERSAL",
-    "tr_sprite": "trainer_sprites/hoopster.png",
-    "name": "Lamarcus",
     "raw": null,
     "raw_species_id_0": 284,
     "raw_species_id_1": 626,
@@ -27076,7 +28776,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 334,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27090,12 +28791,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Sassy",
     "ability_name_0": "Poison Point",
+    "tr_sprite": "trainer_sprites/hoopster.png",
+    "name": "Bobby",
     "move_1_0": "AGILITY",
     "move_2_0": "BATON PASS",
     "move_3_0": "VENOSHOCK",
     "move_4_0": "BUG BITE",
-    "tr_sprite": "trainer_sprites/hoopster.png",
-    "name": "Bobby",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": null,
@@ -27104,7 +28805,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 335,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27118,12 +28820,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Hardy",
     "ability_name_0": "Poison Point",
+    "tr_sprite": "trainer_sprites/hoopster.png",
+    "name": "Bobby",
     "move_1_0": "STEAMROLLER",
     "move_2_0": "AGILITY",
     "move_3_0": "BATON PASS",
     "move_4_0": "VENOSHOCK",
-    "tr_sprite": "trainer_sprites/hoopster.png",
-    "name": "Bobby",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": null,
@@ -27132,7 +28834,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 336,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27153,6 +28856,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Careful",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/hoopster.png",
+    "name": "Bobby",
     "nature_1": "Relaxed",
     "ability_name_1": "Poison Point",
     "move_1_0": "HURRICANE",
@@ -27163,8 +28868,6 @@ trainersById = [
     "move_2_1": "DOUBLE-EDGE",
     "move_3_1": "GUNK SHOT",
     "move_4_1": "TOXIC",
-    "tr_sprite": "trainer_sprites/hoopster.png",
-    "name": "Bobby",
     "raw": null,
     "raw_species_id_0": 458,
     "raw_species_id_1": 545,
@@ -27173,7 +28876,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 337,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27194,6 +28898,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Sassy",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/hoopster.png",
+    "name": "John",
     "nature_1": "Modest",
     "ability_name_1": "Sturdy",
     "move_1_0": "GIGA IMPACT",
@@ -27204,8 +28910,6 @@ trainersById = [
     "move_2_1": "STONE EDGE",
     "move_3_1": "SANDSTORM",
     "move_4_1": "EARTHQUAKE",
-    "tr_sprite": "trainer_sprites/hoopster.png",
-    "name": "John",
     "raw": null,
     "raw_species_id_0": 508,
     "raw_species_id_1": 526,
@@ -27214,7 +28918,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 338,
-    "class": "Hoopster"
+    "class": "Hoopster",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27235,6 +28940,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Hasty",
     "ability_name_0": "Sheer Force",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Hawk & Dar",
     "nature_1": "Hasty",
     "ability_name_1": "Sheer Force",
     "move_1_0": "TAUNT",
@@ -27245,8 +28952,6 @@ trainersById = [
     "move_2_1": "HAMMER ARM",
     "move_3_1": "FLARE BLITZ",
     "move_4_1": "BELLY DRUM",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Hawk & Dar",
     "raw": null,
     "raw_species_id_0": 555,
     "raw_species_id_1": 555,
@@ -27255,7 +28960,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 339,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27276,6 +28982,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Sheer Force",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Hawk & Dar",
     "nature_1": "Serious",
     "ability_name_1": "Sheer Force",
     "move_1_0": "OVERHEAT",
@@ -27286,8 +28994,6 @@ trainersById = [
     "move_2_1": "SUPERPOWER",
     "move_3_1": "TAUNT",
     "move_4_1": "HAMMER ARM",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Hawk & Dar",
     "raw": null,
     "raw_species_id_0": 555,
     "raw_species_id_1": 555,
@@ -27296,7 +29002,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 340,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27317,6 +29024,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Lightningrod",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Joe & Ross",
     "nature_1": "Relaxed",
     "ability_name_1": "Lightningrod",
     "move_1_0": "DISCHARGE",
@@ -27327,8 +29036,6 @@ trainersById = [
     "move_2_1": "STOMP",
     "move_3_1": "SPARK",
     "move_4_1": "PURSUIT",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Joe & Ross",
     "raw": null,
     "raw_species_id_0": 523,
     "raw_species_id_1": 523,
@@ -27337,7 +29044,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 341,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27358,6 +29066,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Jolly",
     "ability_name_0": "Water Absorb",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Joe & Ross",
     "nature_1": "Impish",
     "ability_name_1": "Lightningrod",
     "move_1_0": "WRING OUT",
@@ -27368,8 +29078,6 @@ trainersById = [
     "move_2_1": "THRASH",
     "move_3_1": "WILD CHARGE",
     "move_4_1": "AGILITY",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Joe & Ross",
     "raw": null,
     "raw_species_id_0": 593,
     "raw_species_id_1": 523,
@@ -27378,7 +29086,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 342,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27399,6 +29108,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Calm",
     "ability_name_0": "Poison Point",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Masa & Yas",
     "nature_1": "Jolly",
     "ability_name_1": "Sturdy",
     "move_1_0": "STEAMROLLER",
@@ -27409,8 +29120,6 @@ trainersById = [
     "move_2_1": "ROCK SLIDE",
     "move_3_1": "POWER GEM",
     "move_4_1": "SMACK DOWN",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Masa & Yas",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": 525,
@@ -27419,7 +29128,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 343,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27440,6 +29150,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Gentle",
     "ability_name_0": "Poison Point",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Masa & Yas",
     "nature_1": "Relaxed",
     "ability_name_1": "Sturdy",
     "move_1_0": "MEGAHORN",
@@ -27450,8 +29162,6 @@ trainersById = [
     "move_2_1": "STONE EDGE",
     "move_3_1": "SANDSTORM",
     "move_4_1": "EARTHQUAKE",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Masa & Yas",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": 526,
@@ -27460,7 +29170,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 344,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27481,6 +29192,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Les & Web",
     "nature_1": "Serious",
     "ability_name_1": "Prankster",
     "move_1_0": "SUCKER PUNCH",
@@ -27491,8 +29204,6 @@ trainersById = [
     "move_2_1": "NASTY PLOT",
     "move_3_1": "CHARM",
     "move_4_1": "NIGHT SLASH",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Les & Web",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": 510,
@@ -27501,7 +29212,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 345,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27522,6 +29234,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Hardy",
     "ability_name_0": "Unburden",
+    "tr_sprite": "trainer_sprites/backers.png",
+    "name": "Alf & Fred",
     "nature_1": "Relaxed",
     "ability_name_1": "Defiant",
     "move_1_0": "ACROBATICS",
@@ -27532,8 +29246,6 @@ trainersById = [
     "move_2_1": "IRON HEAD",
     "move_3_1": "NIGHT SLASH",
     "move_4_1": "IRON DEFENSE",
-    "tr_sprite": "trainer_sprites/backers.png",
-    "name": "Alf & Fred",
     "raw": null,
     "raw_species_id_0": 512,
     "raw_species_id_1": 625,
@@ -27542,7 +29254,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 346,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27563,6 +29276,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/backers_f.png",
+    "name": "Kay & Ali",
     "nature_1": "Brave",
     "ability_name_1": "Drizzle",
     "move_1_0": "RAIN DANCE",
@@ -27573,8 +29288,6 @@ trainersById = [
     "move_2_1": "ROOST",
     "move_3_1": "AIR SLASH",
     "move_4_1": "AQUA RING",
-    "tr_sprite": "trainer_sprites/backers_f.png",
-    "name": "Kay & Ali",
     "raw": null,
     "raw_species_id_0": 581,
     "raw_species_id_1": 581,
@@ -27583,7 +29296,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 347,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27604,6 +29318,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Adamant",
     "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/backers_f.png",
+    "name": "Kay & Ali",
     "nature_1": "Adamant",
     "ability_name_1": "Drizzle",
     "move_1_0": "HURRICANE",
@@ -27614,8 +29330,6 @@ trainersById = [
     "move_2_1": "BRAVE BIRD",
     "move_3_1": "TAILWIND",
     "move_4_1": "RAIN DANCE",
-    "tr_sprite": "trainer_sprites/backers_f.png",
-    "name": "Kay & Ali",
     "raw": null,
     "raw_species_id_0": 581,
     "raw_species_id_1": 581,
@@ -27624,7 +29338,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 348,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27645,6 +29360,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Unburden",
+    "tr_sprite": "trainer_sprites/backers_f.png",
+    "name": "Ami & Eira",
     "nature_1": "Serious",
     "ability_name_1": "Unburden",
     "move_1_0": "ACROBATICS",
@@ -27655,8 +29372,6 @@ trainersById = [
     "move_2_1": "BLAST BURN",
     "move_3_1": "FLAMETHROWER",
     "move_4_1": "FLAME BURST",
-    "tr_sprite": "trainer_sprites/backers_f.png",
-    "name": "Ami & Eira",
     "raw": null,
     "raw_species_id_0": 516,
     "raw_species_id_1": 514,
@@ -27665,7 +29380,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 349,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27686,6 +29402,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Hardy",
     "ability_name_0": "Unburden",
+    "tr_sprite": "trainer_sprites/backers_f.png",
+    "name": "Ami & Eira",
     "nature_1": "Hardy",
     "ability_name_1": "Unburden",
     "move_1_0": "ACROBATICS",
@@ -27696,8 +29414,6 @@ trainersById = [
     "move_2_1": "BLAST BURN",
     "move_3_1": "FLAMETHROWER",
     "move_4_1": "FLAME BURST",
-    "tr_sprite": "trainer_sprites/backers_f.png",
-    "name": "Ami & Eira",
     "raw": null,
     "raw_species_id_0": 516,
     "raw_species_id_1": 514,
@@ -27706,7 +29422,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 350,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27727,6 +29444,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Lonely",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/backers_f.png",
+    "name": "Cam & Abby",
     "nature_1": "Lonely",
     "ability_name_1": "Guts",
     "move_1_0": "REVERSAL",
@@ -27737,8 +29456,6 @@ trainersById = [
     "move_2_1": "SUPERPOWER",
     "move_3_1": "WIDE GUARD",
     "move_4_1": "ENDURE",
-    "tr_sprite": "trainer_sprites/backers_f.png",
-    "name": "Cam & Abby",
     "raw": null,
     "raw_species_id_0": 539,
     "raw_species_id_1": 538,
@@ -27747,7 +29464,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 351,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27768,6 +29486,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Modest",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/backers_f.png",
+    "name": "Ai & Ciel",
     "nature_1": "Lonely",
     "ability_name_1": "Chlorophyll",
     "move_1_0": "HURRICANE",
@@ -27778,8 +29498,6 @@ trainersById = [
     "move_2_1": "QUIVER DANCE",
     "move_3_1": "TEETER DANCE",
     "move_4_1": "SLEEP POWDER",
-    "tr_sprite": "trainer_sprites/backers_f.png",
-    "name": "Ai & Ciel",
     "raw": null,
     "raw_species_id_0": 547,
     "raw_species_id_1": 549,
@@ -27788,7 +29506,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 352,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27809,6 +29528,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Jolly",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/backers_f.png",
+    "name": "Kat & Phae",
     "nature_1": "Docile",
     "ability_name_1": "Reckless",
     "move_1_0": "GIGA IMPACT",
@@ -27819,8 +29540,6 @@ trainersById = [
     "move_2_1": "SWORDS DANCE",
     "move_3_1": "THRASH",
     "move_4_1": "REVERSAL",
-    "tr_sprite": "trainer_sprites/backers_f.png",
-    "name": "Kat & Phae",
     "raw": null,
     "raw_species_id_0": 508,
     "raw_species_id_1": 626,
@@ -27829,7 +29548,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 353,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 100,
@@ -27857,6 +29577,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Lonely",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Dana",
     "nature_1": "Hasty",
     "ability_name_1": "Volt Absorb",
     "nature_2": "Impish",
@@ -27873,8 +29595,6 @@ trainersById = [
     "move_2_2": "ZEN HEADBUTT",
     "move_3_2": "DOUBLE-EDGE",
     "move_4_2": "SLACK OFF",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Dana",
     "raw": null,
     "raw_species_id_0": 200,
     "raw_species_id_1": 417,
@@ -27883,7 +29603,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 354,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27911,6 +29632,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Sniper",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Alan",
     "nature_1": "Adamant",
     "ability_name_1": "Shed Skin",
     "nature_2": "Mild",
@@ -27927,8 +29650,6 @@ trainersById = [
     "move_2_2": "DRAGON DANCE",
     "move_3_2": "GIGA IMPACT",
     "move_4_2": "IRON TAIL",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Alan",
     "raw": null,
     "raw_species_id_0": 117,
     "raw_species_id_1": 247,
@@ -27937,7 +29658,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 355,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -27965,6 +29687,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Sassy",
     "ability_name_0": "Contrary",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Sally",
     "nature_1": "Timid",
     "ability_name_1": "Technician",
     "nature_2": "Naughty",
@@ -27981,8 +29705,6 @@ trainersById = [
     "move_2_2": "CALM MIND",
     "move_3_2": "DIVE",
     "move_4_2": "SAFEGUARD",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Sally",
     "raw": null,
     "raw_species_id_0": 206,
     "raw_species_id_1": 225,
@@ -27991,7 +29713,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 356,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -28019,6 +29742,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Hydration",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Lucille",
     "nature_1": "Hardy",
     "ability_name_1": "Water Absorb",
     "nature_2": "Docile",
@@ -28035,8 +29760,6 @@ trainersById = [
     "move_2_2": "SWORDS DANCE",
     "move_3_2": "POISON JAB",
     "move_4_2": "KNOCK OFF",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Lucille",
     "raw": null,
     "raw_species_id_0": 124,
     "raw_species_id_1": 134,
@@ -28045,7 +29768,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 357,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -28073,6 +29797,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Compoundeyes",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Charlie",
     "nature_1": "Jolly",
     "ability_name_1": "Levitate",
     "nature_2": "Careful",
@@ -28089,8 +29815,6 @@ trainersById = [
     "move_2_2": "BLIZZARD",
     "move_3_2": "AMNESIA",
     "move_4_2": "MIST",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Charlie",
     "raw": null,
     "raw_species_id_0": 596,
     "raw_species_id_1": 357,
@@ -28099,7 +29823,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 358,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -28150,14 +29875,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Modest",
     "ability_name_0": "Volt Absorb",
+    "tr_sprite": "trainer_sprites/veteran.png",
+    "name": "Arlen",
     "nature_1": "Brave",
     "ability_name_1": "Sand Force",
     "nature_2": "Serious",
     "ability_name_2": "Clear Body",
     "nature_3": "Docile",
     "ability_name_3": "Battle Armor",
-    "tr_sprite": "trainer_sprites/veteran.png",
-    "name": "Arlen",
     "raw": null,
     "raw_species_id_0": 135,
     "raw_species_id_1": 28,
@@ -28166,7 +29891,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 359,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -28217,14 +29943,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/veteran_f.png",
+    "name": "Sayuri",
     "nature_1": "Hasty",
     "ability_name_1": "Water Absorb",
     "nature_2": "Quirky",
     "ability_name_2": "Snow Cloak",
     "nature_3": "Relaxed",
     "ability_name_3": "Multiscale",
-    "tr_sprite": "trainer_sprites/veteran_f.png",
-    "name": "Sayuri",
     "raw": null,
     "raw_species_id_0": 369,
     "raw_species_id_1": 219,
@@ -28233,7 +29959,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 360,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28282,6 +30009,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Timid",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/pokemonbreeder.png",
+    "name": "Owen",
     "nature_1": "Mild",
     "ability_name_1": "Unaware",
     "nature_2": "Hasty",
@@ -28316,8 +30045,6 @@ trainersById = [
     "move_2_5": "EXPLOSION",
     "move_3_5": "BOUNCE",
     "move_4_5": "PSYCHIC",
-    "tr_sprite": "trainer_sprites/pokemonbreeder.png",
-    "name": "Owen",
     "raw": null,
     "raw_species_id_0": 438,
     "raw_species_id_1": 194,
@@ -28326,7 +30053,8 @@ trainersById = [
     "raw_species_id_4": 360,
     "raw_species_id_5": 325,
     "index": 361,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28375,6 +30103,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Thick Fat",
+    "tr_sprite": "trainer_sprites/pokemonbreeder.png",
+    "name": "Brooke",
     "nature_1": "Adamant",
     "ability_name_1": "Damp",
     "nature_2": "Calm",
@@ -28409,8 +30139,6 @@ trainersById = [
     "move_2_5": "SUPERPOWER",
     "move_3_5": "STONE EDGE",
     "move_4_5": "SANDSTORM",
-    "tr_sprite": "trainer_sprites/pokemonbreeder.png",
-    "name": "Brooke",
     "raw": null,
     "raw_species_id_0": 220,
     "raw_species_id_1": 60,
@@ -28419,7 +30147,8 @@ trainersById = [
     "raw_species_id_4": 174,
     "raw_species_id_5": 246,
     "index": 362,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28447,6 +30176,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Lonely",
     "ability_name_0": "Shell Armor",
+    "tr_sprite": "trainer_sprites/waiter.png",
+    "name": "Clint",
     "nature_1": "Docile",
     "ability_name_1": "Limber",
     "nature_2": "Relaxed",
@@ -28463,8 +30194,6 @@ trainersById = [
     "move_2_2": "HURRICANE",
     "move_3_2": "SWAGGER",
     "move_4_2": "FEATHERDANCE",
-    "tr_sprite": "trainer_sprites/waiter.png",
-    "name": "Clint",
     "raw": null,
     "raw_species_id_0": 366,
     "raw_species_id_1": 431,
@@ -28473,7 +30202,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 363,
-    "class": "Waiter"
+    "class": "Waiter",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28494,6 +30224,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Modest",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/waitress.png",
+    "name": "Bonita",
     "nature_1": "Bashful",
     "ability_name_1": "Chlorophyll",
     "move_1_0": "PSYCHO BOOST",
@@ -28504,8 +30236,6 @@ trainersById = [
     "move_2_1": "IRON TAIL",
     "move_3_1": "SUNNY DAY",
     "move_4_1": "SWORDS DANCE",
-    "tr_sprite": "trainer_sprites/waitress.png",
-    "name": "Bonita",
     "raw": null,
     "raw_species_id_0": 54,
     "raw_species_id_1": 470,
@@ -28514,7 +30244,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 364,
-    "class": "Waitress"
+    "class": "Waitress",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28535,6 +30266,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Stench",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Simon",
     "nature_1": "Quiet",
     "ability_name_1": "Poison Touch",
     "move_1_0": "EXPLOSION",
@@ -28545,8 +30278,6 @@ trainersById = [
     "move_2_1": "GUNK SHOT",
     "move_3_1": "MEMENTO",
     "move_4_1": "SLUDGE WAVE",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Simon",
     "raw": null,
     "raw_species_id_0": 434,
     "raw_species_id_1": 89,
@@ -28555,7 +30286,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 365,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28576,6 +30308,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Bold",
     "ability_name_0": "Battle Armor",
+    "tr_sprite": "trainer_sprites/scientist_f.png",
+    "name": "Blythe",
     "nature_1": "Lax",
     "ability_name_1": "Liquid Ooze",
     "move_1_0": "CROSS POISON",
@@ -28586,8 +30320,6 @@ trainersById = [
     "move_2_1": "EXPLOSION",
     "move_3_1": "FOLLOW ME",
     "move_4_1": "TOXIC",
-    "tr_sprite": "trainer_sprites/scientist_f.png",
-    "name": "Blythe",
     "raw": null,
     "raw_species_id_0": 451,
     "raw_species_id_1": 317,
@@ -28596,7 +30328,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 366,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28610,12 +30343,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Tinted Lens",
+    "tr_sprite": "trainer_sprites/lady.png",
+    "name": "Sophie",
     "move_1_0": "PSYCHO BOOST",
     "move_2_0": "QUIVER DANCE",
     "move_3_0": "SLEEP POWDER",
     "move_4_0": "PSYSHOCK",
-    "tr_sprite": "trainer_sprites/lady.png",
-    "name": "Sophie",
     "raw": null,
     "raw_species_id_0": 314,
     "raw_species_id_1": null,
@@ -28624,7 +30357,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 367,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28638,12 +30372,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/richboy.png",
+    "name": "Anthony",
     "move_1_0": "ZAP CANNON",
     "move_2_0": "TAIL GLOW",
     "move_3_0": "WILD CHARGE",
     "move_4_0": "ATTACK ORDER",
-    "tr_sprite": "trainer_sprites/richboy.png",
-    "name": "Anthony",
     "raw": null,
     "raw_species_id_0": 313,
     "raw_species_id_1": null,
@@ -28652,7 +30386,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 368,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28673,6 +30408,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/socialite.png",
+    "name": "Emilia",
     "nature_1": "Naive",
     "ability_name_1": "Prankster",
     "move_1_0": "QUASH",
@@ -28683,8 +30420,6 @@ trainersById = [
     "move_2_1": "NASTY PLOT",
     "move_3_1": "CHARM",
     "move_4_1": "NIGHT SLASH",
-    "tr_sprite": "trainer_sprites/socialite.png",
-    "name": "Emilia",
     "raw": null,
     "raw_species_id_0": 302,
     "raw_species_id_1": 510,
@@ -28693,7 +30428,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 369,
-    "class": "Socialite"
+    "class": "Socialite",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28707,12 +30443,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Timid",
     "ability_name_0": "Own Tempo",
+    "tr_sprite": "trainer_sprites/gentleman.png",
+    "name": "Renaud",
     "move_1_0": "RAIN DANCE",
     "move_2_0": "AMNESIA",
     "move_3_0": "PSYCH UP",
     "move_4_0": "NASTY PLOT",
-    "tr_sprite": "trainer_sprites/gentleman.png",
-    "name": "Renaud",
     "raw": null,
     "raw_species_id_0": 199,
     "raw_species_id_1": null,
@@ -28721,7 +30457,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 370,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -28749,6 +30486,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Calm",
     "ability_name_0": "Defiant",
+    "tr_sprite": "trainer_sprites/blackbelt.png",
+    "name": "Lao",
     "nature_1": "Hasty",
     "ability_name_1": "Skill Link",
     "nature_2": "Bashful",
@@ -28765,8 +30504,6 @@ trainersById = [
     "move_2_2": "FOCUS PUNCH",
     "move_3_2": "STONE EDGE",
     "move_4_2": "HAMMER ARM",
-    "tr_sprite": "trainer_sprites/blackbelt.png",
-    "name": "Lao",
     "raw": null,
     "raw_species_id_0": 56,
     "raw_species_id_1": 214,
@@ -28775,7 +30512,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 371,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -28789,12 +30527,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Sassy",
     "ability_name_0": "Iron Fist",
+    "tr_sprite": "trainer_sprites/battlegirl.png",
+    "name": "Janie",
     "move_1_0": "DOUBLE-EDGE",
     "move_2_0": "COUNTER",
     "move_3_0": "SUPERPOWER",
     "move_4_0": "MEGA PUNCH",
-    "tr_sprite": "trainer_sprites/battlegirl.png",
-    "name": "Janie",
     "raw": null,
     "raw_species_id_0": 107,
     "raw_species_id_1": null,
@@ -28803,7 +30541,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 372,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28824,6 +30563,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Lax",
     "ability_name_0": "Own Tempo",
+    "tr_sprite": "trainer_sprites/pokefan.png",
+    "name": "Colin",
     "nature_1": "Sassy",
     "ability_name_1": "Own Tempo",
     "move_1_0": "RAIN DANCE",
@@ -28834,8 +30575,6 @@ trainersById = [
     "move_2_1": "AMNESIA",
     "move_3_1": "PSYCH UP",
     "move_4_1": "CURSE",
-    "tr_sprite": "trainer_sprites/pokefan.png",
-    "name": "Colin",
     "raw": null,
     "raw_species_id_0": 79,
     "raw_species_id_1": 80,
@@ -28844,7 +30583,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 373,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28886,10 +30626,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/pokefan.png",
+    "name": "Darcy",
     "nature_1": "Docile",
     "ability_name_1": "Adaptability",
     "nature_2": "Bold",
-    "ability_name_2": "Quick Feet",
+    "ability_name_2": "Gluttony",
     "nature_3": "Naive",
     "ability_name_3": "Torrent",
     "nature_4": "Calm",
@@ -28914,8 +30656,6 @@ trainersById = [
     "move_2_4": "PSYCHO CUT",
     "move_3_4": "MEAN LOOK",
     "move_4_4": "HYPER FANG",
-    "tr_sprite": "trainer_sprites/pokefan.png",
-    "name": "Darcy",
     "raw": null,
     "raw_species_id_0": 19,
     "raw_species_id_1": 161,
@@ -28924,7 +30664,8 @@ trainersById = [
     "raw_species_id_4": 504,
     "raw_species_id_5": null,
     "index": 374,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28952,6 +30693,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Impish",
     "ability_name_0": "Compoundeyes",
+    "tr_sprite": "trainer_sprites/pilot.png",
+    "name": "Leonard",
     "nature_1": "Careful",
     "ability_name_1": "Guts",
     "nature_2": "Impish",
@@ -28968,8 +30711,6 @@ trainersById = [
     "move_2_2": "HURRICANE",
     "move_3_2": "SWAGGER",
     "move_4_2": "FEATHERDANCE",
-    "tr_sprite": "trainer_sprites/pilot.png",
-    "name": "Leonard",
     "raw": null,
     "raw_species_id_0": 163,
     "raw_species_id_1": 277,
@@ -28978,7 +30719,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 375,
-    "class": "Pilot"
+    "class": "Pilot",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -28999,6 +30741,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Huge Power",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Tyler",
     "nature_1": "Serious",
     "ability_name_1": "Sand Rush",
     "move_1_0": "DRAIN PUNCH",
@@ -29009,8 +30753,6 @@ trainersById = [
     "move_2_1": "DRILL RUN",
     "move_3_1": "SANDSTORM",
     "move_4_1": "SWORDS DANCE",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Tyler",
     "raw": null,
     "raw_species_id_0": 303,
     "raw_species_id_1": 530,
@@ -29019,7 +30761,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 376,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29040,6 +30783,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quiet",
     "ability_name_0": "Shell Armor",
+    "tr_sprite": "trainer_sprites/baker.png",
+    "name": "Lilly",
     "nature_1": "Quirky",
     "ability_name_1": "Thick Fat",
     "move_1_0": "OVERHEAT",
@@ -29050,8 +30795,6 @@ trainersById = [
     "move_2_1": "IRON TAIL",
     "move_3_1": "HEAL BELL",
     "move_4_1": "DOUBLE-EDGE",
-    "tr_sprite": "trainer_sprites/baker.png",
-    "name": "Lilly",
     "raw": null,
     "raw_species_id_0": 324,
     "raw_species_id_1": 241,
@@ -29060,7 +30803,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 377,
-    "class": "Baker"
+    "class": "Baker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29081,6 +30825,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Cute Charm",
+    "tr_sprite": "trainer_sprites/nurseryaide.png",
+    "name": "Leah",
     "nature_1": "Jolly",
     "ability_name_1": "Cute Charm",
     "move_1_0": "HYPER BEAM",
@@ -29091,8 +30837,6 @@ trainersById = [
     "move_2_1": "COSMIC POWER",
     "move_3_1": "FIRE BLAST",
     "move_4_1": "HEALING WISH",
-    "tr_sprite": "trainer_sprites/nurseryaide.png",
-    "name": "Leah",
     "raw": null,
     "raw_species_id_0": 35,
     "raw_species_id_1": 36,
@@ -29101,7 +30845,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 378,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29143,6 +30888,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Modest",
     "ability_name_0": "Speed Boost",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "Nelson",
     "nature_1": "Lax",
     "ability_name_1": "Iron Fist",
     "nature_2": "Relaxed",
@@ -29171,8 +30918,6 @@ trainersById = [
     "move_2_4": "DOUBLE-EDGE",
     "move_3_4": "GUNK SHOT",
     "move_4_4": "TOXIC",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "Nelson",
     "raw": null,
     "raw_species_id_0": 469,
     "raw_species_id_1": 166,
@@ -29181,7 +30926,8 @@ trainersById = [
     "raw_species_id_4": 545,
     "raw_species_id_5": null,
     "index": 379,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29209,6 +30955,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/clerkf.png",
+    "name": "Wren",
     "nature_1": "Careful",
     "ability_name_1": "Flash Fire",
     "nature_2": "Gentle",
@@ -29225,8 +30973,6 @@ trainersById = [
     "move_2_2": "SOLARBEAM",
     "move_3_2": "TAKE DOWN",
     "move_4_2": "WORRY SEED",
-    "tr_sprite": "trainer_sprites/clerkf.png",
-    "name": "Wren",
     "raw": null,
     "raw_species_id_0": 420,
     "raw_species_id_1": 192,
@@ -29235,7 +30981,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 380,
-    "class": "Clerk  F"
+    "class": "Clerk  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29256,6 +31003,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Lax",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/janitor.png",
+    "name": "Caleb",
     "nature_1": "Bold",
     "ability_name_1": "Levitate",
     "move_1_0": "EXPLOSION",
@@ -29266,8 +31015,6 @@ trainersById = [
     "move_2_1": "GUNK SHOT",
     "move_3_1": "MEMENTO",
     "move_4_1": "HEAT WAVE",
-    "tr_sprite": "trainer_sprites/janitor.png",
-    "name": "Caleb",
     "raw": null,
     "raw_species_id_0": 109,
     "raw_species_id_1": 110,
@@ -29276,7 +31023,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 381,
-    "class": "Janitor"
+    "class": "Janitor",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29290,12 +31038,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Lonely",
     "ability_name_0": "Flash Fire",
+    "tr_sprite": "trainer_sprites/backpacker_f.png",
+    "name": "Patty",
     "move_1_0": "OVERHEAT",
     "move_2_0": "IRON TAIL",
     "move_3_0": "GUNK SHOT",
     "move_4_0": "FLARE BLITZ",
-    "tr_sprite": "trainer_sprites/backpacker_f.png",
-    "name": "Patty",
     "raw": null,
     "raw_species_id_0": 136,
     "raw_species_id_1": null,
@@ -29304,7 +31052,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 382,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29318,12 +31067,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Modest",
     "ability_name_0": "Toxic Boost",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Alexander",
     "move_1_0": "CLOSE COMBAT",
     "move_2_0": "DOUBLE-EDGE",
     "move_3_0": "SWORDS DANCE",
     "move_4_0": "SUPERPOWER",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Alexander",
     "raw": null,
     "raw_species_id_0": 335,
     "raw_species_id_1": null,
@@ -29332,7 +31081,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 383,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29346,12 +31096,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Timid",
     "ability_name_0": "Healer",
+    "tr_sprite": "trainer_sprites/doctor.png",
+    "name": "Jules",
     "move_1_0": "LAST RESORT",
     "move_2_0": "DOUBLE-EDGE",
     "move_3_0": "SIMPLE BEAM",
     "move_4_0": "AFTER YOU",
-    "tr_sprite": "trainer_sprites/doctor.png",
-    "name": "Jules",
     "raw": null,
     "raw_species_id_0": 531,
     "raw_species_id_1": null,
@@ -29360,7 +31110,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 384,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29374,12 +31125,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Rash",
     "ability_name_0": "Healer",
+    "tr_sprite": "trainer_sprites/nurse.png",
+    "name": "Kirsten",
     "move_1_0": "LAST RESORT",
     "move_2_0": "DOUBLE-EDGE",
     "move_3_0": "SIMPLE BEAM",
     "move_4_0": "AFTER YOU",
-    "tr_sprite": "trainer_sprites/nurse.png",
-    "name": "Kirsten",
     "raw": null,
     "raw_species_id_0": 531,
     "raw_species_id_1": null,
@@ -29388,7 +31139,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 385,
-    "class": "Nurse"
+    "class": "Nurse",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29416,6 +31168,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Bashful",
     "ability_name_0": "Sap Sipper",
+    "tr_sprite": "trainer_sprites/psychic.png",
+    "name": "Gerard",
     "nature_1": "Relaxed",
     "ability_name_1": "Tinted Lens",
     "nature_2": "Impish",
@@ -29432,8 +31186,6 @@ trainersById = [
     "move_2_2": "STONE EDGE",
     "move_3_2": "PSYCHIC",
     "move_4_2": "EXPLOSION",
-    "tr_sprite": "trainer_sprites/psychic.png",
-    "name": "Gerard",
     "raw": null,
     "raw_species_id_0": 203,
     "raw_species_id_1": 561,
@@ -29442,7 +31194,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 386,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29463,6 +31216,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/psychic_f.png",
+    "name": "Madhu",
     "nature_1": "Calm",
     "ability_name_1": "Frisk",
     "move_1_0": "GRUDGE",
@@ -29473,8 +31228,6 @@ trainersById = [
     "move_2_1": "CHARM",
     "move_3_1": "TELEKINESIS",
     "move_4_1": "PSYCHIC",
-    "tr_sprite": "trainer_sprites/psychic_f.png",
-    "name": "Madhu",
     "raw": null,
     "raw_species_id_0": 429,
     "raw_species_id_1": 576,
@@ -29483,7 +31236,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 387,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29504,6 +31258,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Sand Veil",
+    "tr_sprite": "trainer_sprites/depotagent.png",
+    "name": "Josh",
     "nature_1": "Lax",
     "ability_name_1": "Sand Veil",
     "move_1_0": "SUPERPOWER",
@@ -29514,8 +31270,6 @@ trainersById = [
     "move_2_1": "EARTHQUAKE",
     "move_3_1": "IRON HEAD",
     "move_4_1": "DRILL RUN",
-    "tr_sprite": "trainer_sprites/depotagent.png",
-    "name": "Josh",
     "raw": null,
     "raw_species_id_0": 50,
     "raw_species_id_1": 51,
@@ -29524,7 +31278,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 388,
-    "class": "Depot Agent"
+    "class": "Depot Agent",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -29574,15 +31329,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 1,
     "nature_0": "Quirky",
-    "ability_name_0": "Shell Armor",
+    "ability_name_0": "Skill Link",
+    "tr_sprite": "trainer_sprites/swimmerm.png",
+    "name": "Wright",
     "nature_1": "Mild",
     "ability_name_1": "Swift Swim",
     "nature_2": "Lax",
     "ability_name_2": "Swift Swim",
     "nature_3": "Rash",
     "ability_name_3": "Swift Swim",
-    "tr_sprite": "trainer_sprites/swimmerm.png",
-    "name": "Wright",
     "raw": null,
     "raw_species_id_0": 91,
     "raw_species_id_1": 141,
@@ -29591,7 +31346,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 389,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -29642,14 +31398,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Sassy",
     "ability_name_0": "Pressure",
+    "tr_sprite": "trainer_sprites/swimmerf.png",
+    "name": "Joyce",
     "nature_1": "Naive",
     "ability_name_1": "Volt Absorb",
     "nature_2": "Careful",
     "ability_name_2": "Intimidate",
     "nature_3": "Rash",
     "ability_name_3": "Swift Swim",
-    "tr_sprite": "trainer_sprites/swimmerf.png",
-    "name": "Joyce",
     "raw": null,
     "raw_species_id_0": 321,
     "raw_species_id_1": 171,
@@ -29658,7 +31414,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 390,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29679,6 +31436,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/dancer.png",
+    "name": "Davey",
     "nature_1": "Relaxed",
     "ability_name_1": "Technician",
     "move_1_0": "PSYCHO BOOST",
@@ -29689,8 +31448,6 @@ trainersById = [
     "move_2_1": "RECYCLE",
     "move_3_1": "WIDE GUARD",
     "move_4_1": "SAFEGUARD",
-    "tr_sprite": "trainer_sprites/dancer.png",
-    "name": "Davey",
     "raw": null,
     "raw_species_id_0": 122,
     "raw_species_id_1": 122,
@@ -29699,7 +31456,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 391,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29720,6 +31478,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Scrappy",
+    "tr_sprite": "trainer_sprites/musician.png",
+    "name": "Boris",
     "nature_1": "Hardy",
     "ability_name_1": "Magic Guard",
     "move_1_0": "HYPER VOICE",
@@ -29730,8 +31490,6 @@ trainersById = [
     "move_2_1": "MIMIC",
     "move_3_1": "WISH",
     "move_4_1": "PERISH SONG",
-    "tr_sprite": "trainer_sprites/musician.png",
-    "name": "Boris",
     "raw": null,
     "raw_species_id_0": 441,
     "raw_species_id_1": 40,
@@ -29740,7 +31498,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 392,
-    "class": "Musician"
+    "class": "Musician",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29761,6 +31520,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Hasty",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/harlequin.png",
+    "name": "Charley",
     "nature_1": "Relaxed",
     "ability_name_1": "Volt Absorb",
     "move_1_0": "LEAF STORM",
@@ -29771,8 +31532,6 @@ trainersById = [
     "move_2_1": "THUNDER",
     "move_3_1": "METAL BURST",
     "move_4_1": "EXPLOSION",
-    "tr_sprite": "trainer_sprites/harlequin.png",
-    "name": "Charley",
     "raw": null,
     "raw_species_id_0": 102,
     "raw_species_id_1": 101,
@@ -29781,7 +31540,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 393,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29809,7 +31569,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 394,
-    "class": "Artist"
+    "class": "Artist",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29830,6 +31591,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/policeman.png",
+    "name": "Jeff",
     "nature_1": "Lonely",
     "ability_name_1": "Reckless",
     "move_1_0": "FOCUS BLAST",
@@ -29840,8 +31603,6 @@ trainersById = [
     "move_2_1": "HI JUMP KICK",
     "move_3_1": "BOUNCE",
     "move_4_1": "WIDE GUARD",
-    "tr_sprite": "trainer_sprites/policeman.png",
-    "name": "Jeff",
     "raw": null,
     "raw_species_id_0": 59,
     "raw_species_id_1": 620,
@@ -29850,7 +31611,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 395,
-    "class": "Policeman"
+    "class": "Policeman",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29871,6 +31633,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Careful",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/maid.png",
+    "name": "Alicia",
     "nature_1": "Relaxed",
     "ability_name_1": "Skill Link",
     "move_1_0": "CLOSE COMBAT",
@@ -29881,8 +31645,6 @@ trainersById = [
     "move_2_1": "TAIL SLAP",
     "move_3_1": "SING",
     "move_4_1": "TICKLE",
-    "tr_sprite": "trainer_sprites/maid.png",
-    "name": "Alicia",
     "raw": null,
     "raw_species_id_0": 58,
     "raw_species_id_1": 573,
@@ -29891,7 +31653,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 396,
-    "class": "Maid"
+    "class": "Maid",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29919,7 +31682,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 397,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29947,6 +31711,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Adamant",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Russel",
     "nature_1": "Sassy",
     "ability_name_1": "Rock Head",
     "nature_2": "Modest",
@@ -29963,8 +31729,6 @@ trainersById = [
     "move_2_2": "EXPLOSION",
     "move_3_2": "STONE EDGE",
     "move_4_2": "DOUBLE-EDGE",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Russel",
     "raw": null,
     "raw_species_id_0": 74,
     "raw_species_id_1": 75,
@@ -29973,7 +31737,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 398,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -29987,12 +31752,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Hydration",
+    "tr_sprite": "trainer_sprites/preschooler_f.png",
+    "name": "Mia",
     "move_1_0": "PSYCHO BOOST",
     "move_2_0": "WRING OUT",
     "move_3_0": "BLIZZARD",
     "move_4_0": "DREAM EATER",
-    "tr_sprite": "trainer_sprites/preschooler_f.png",
-    "name": "Mia",
     "raw": null,
     "raw_species_id_0": 238,
     "raw_species_id_1": null,
@@ -30001,7 +31766,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 399,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -30015,12 +31781,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Adamant",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/preschooler.png",
+    "name": "Evan",
     "move_1_0": "PSYCHO BOOST",
     "move_2_0": "RECYCLE",
     "move_3_0": "WIDE GUARD",
     "move_4_0": "SAFEGUARD",
-    "tr_sprite": "trainer_sprites/preschooler.png",
-    "name": "Evan",
     "raw": null,
     "raw_species_id_0": 439,
     "raw_species_id_1": null,
@@ -30029,7 +31795,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 400,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30057,7 +31824,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 401,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30085,7 +31853,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 402,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30139,15 +31908,15 @@ trainersById = [
     "gender_3": "Default",
     "template": 3,
     "nature_0": "Naive",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Relaxed",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Brave",
     "ability_name_2": "Thick Fat",
     "nature_3": "Quiet",
-    "ability_name_3": "Sheer Force",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
+    "ability_name_3": "Speed Boost",
     "raw": null,
     "raw_species_id_0": 362,
     "raw_species_id_1": 136,
@@ -30156,7 +31925,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 403,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -30211,14 +31981,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Timid",
-    "ability_name_1": "Water Absorb",
+    "ability_name_1": "Drizzle",
     "nature_2": "Careful",
     "ability_name_2": "Thick Fat",
     "nature_3": "Hardy",
     "ability_name_3": "Swift Swim",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 310,
     "raw_species_id_1": 134,
@@ -30227,7 +31997,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 404,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -30282,14 +32053,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Modest",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Naive",
-    "ability_name_1": "Volt Absorb",
+    "ability_name_1": "Speed Boost",
     "nature_2": "Docile",
     "ability_name_2": "Thick Fat",
     "nature_3": "Lax",
     "ability_name_3": "Technician",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 229,
     "raw_species_id_1": 135,
@@ -30298,7 +32069,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 405,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -30312,12 +32084,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Hardy",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/ingo.png",
+    "name": "Ingo",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/ingo.png",
-    "name": "Ingo",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -30326,7 +32098,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 406,
-    "class": "Creator"
+    "class": "Creator",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30404,19 +32177,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Calm",
-    "ability_name_0": "Flame Body",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/alder.png",
+    "name": "Alder",
     "nature_1": "Timid",
-    "ability_name_1": "Scrappy",
+    "ability_name_1": "Super Luck",
     "nature_2": "Jolly",
     "ability_name_2": "Illusion",
     "nature_3": "Bold",
     "ability_name_3": "Intimidate",
     "nature_4": "Hasty",
-    "ability_name_4": "Mummy",
+    "ability_name_4": "Magic Guard",
     "nature_5": "Jolly",
     "ability_name_5": "Teravolt",
-    "tr_sprite": "trainer_sprites/alder.png",
-    "name": "Alder",
     "raw": null,
     "raw_species_id_0": 637,
     "raw_species_id_1": 521,
@@ -30425,7 +32198,8 @@ trainersById = [
     "raw_species_id_4": 563,
     "raw_species_id_5": 644,
     "index": 407,
-    "class": "Champion"
+    "class": "Champion",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30476,14 +32250,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Mild",
     "ability_name_0": "Defiant",
+    "tr_sprite": "trainer_sprites/cyclist.png",
+    "name": "Hector",
     "nature_1": "Docile",
-    "ability_name_1": "Levitate",
+    "ability_name_1": "Speed Boost",
     "nature_2": "Rash",
     "ability_name_2": "Super Luck",
     "nature_3": "Naive",
     "ability_name_3": "Rock Head",
-    "tr_sprite": "trainer_sprites/cyclist.png",
-    "name": "Hector",
     "raw": null,
     "raw_species_id_0": 85,
     "raw_species_id_1": 291,
@@ -30492,7 +32266,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 408,
-    "class": "Cyclist"
+    "class": "Cyclist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30571,8 +32346,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Docile",
     "ability_name_0": "Cloud Nine",
+    "tr_sprite": "trainer_sprites/cyclist_f.png",
+    "name": "Krissa",
     "nature_1": "Adamant",
-    "ability_name_1": "Multiscale",
+    "ability_name_1": "Drizzle",
     "nature_2": "Naughty",
     "ability_name_2": "Guts",
     "nature_3": "Bold",
@@ -30580,9 +32357,7 @@ trainersById = [
     "nature_4": "Lonely",
     "ability_name_4": "No Guard",
     "nature_5": "Timid",
-    "ability_name_5": "Inner Focus",
-    "tr_sprite": "trainer_sprites/cyclist_f.png",
-    "name": "Krissa",
+    "ability_name_5": "Sniper",
     "raw": null,
     "raw_species_id_0": 334,
     "raw_species_id_1": 279,
@@ -30591,7 +32366,8 @@ trainersById = [
     "raw_species_id_4": 18,
     "raw_species_id_5": 169,
     "index": 409,
-    "class": "Cyclist"
+    "class": "Cyclist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30664,6 +32440,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Hasty",
     "ability_name_0": "Thick Fat",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Junko",
     "nature_1": "Docile",
     "ability_name_1": "Intimidate",
     "nature_2": "Lonely",
@@ -30671,11 +32449,9 @@ trainersById = [
     "nature_3": "Lax",
     "ability_name_3": "Unburden",
     "nature_4": "Naive",
-    "ability_name_4": "Mummy",
+    "ability_name_4": "Magic Guard",
     "nature_5": "Modest",
     "ability_name_5": "Compoundeyes",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Junko",
     "raw": null,
     "raw_species_id_0": 432,
     "raw_species_id_1": 560,
@@ -30684,7 +32460,8 @@ trainersById = [
     "raw_species_id_4": 563,
     "raw_species_id_5": 596,
     "index": 410,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -30756,7 +32533,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Quiet",
-    "ability_name_0": "Prankster",
+    "ability_name_0": "Insomnia",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Kipp",
     "nature_1": "Hasty",
     "ability_name_1": "Defiant",
     "nature_2": "Quirky",
@@ -30764,11 +32543,9 @@ trainersById = [
     "nature_3": "Calm",
     "ability_name_3": "Levitate",
     "nature_4": "Timid",
-    "ability_name_4": "Battle Armor",
+    "ability_name_4": "Sniper",
     "nature_5": "Quirky",
-    "ability_name_5": "Flash Fire",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Kipp",
+    "ability_name_5": "Drought",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 85,
@@ -30777,7 +32554,8 @@ trainersById = [
     "raw_species_id_4": 452,
     "raw_species_id_5": 6,
     "index": 411,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -30844,6 +32622,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Docile",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/policeman.png",
+    "name": "Daniel",
     "nature_1": "Mild",
     "ability_name_1": "Intimidate",
     "nature_2": "Modest",
@@ -30852,8 +32632,6 @@ trainersById = [
     "ability_name_3": "Toxic Boost",
     "nature_4": "Mild",
     "ability_name_4": "Intimidate",
-    "tr_sprite": "trainer_sprites/policeman.png",
-    "name": "Daniel",
     "raw": null,
     "raw_species_id_0": 310,
     "raw_species_id_1": 229,
@@ -30862,7 +32640,8 @@ trainersById = [
     "raw_species_id_4": 59,
     "raw_species_id_5": null,
     "index": 412,
-    "class": "Policeman"
+    "class": "Policeman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -30913,14 +32692,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Quiet",
     "ability_name_0": "Speed Boost",
+    "tr_sprite": "trainer_sprites/swimmerm.png",
+    "name": "Berke",
     "nature_1": "Lax",
     "ability_name_1": "Own Tempo",
     "nature_2": "Naughty",
-    "ability_name_2": "Ice Body",
+    "ability_name_2": "Shell Armor",
     "nature_3": "Docile",
-    "ability_name_3": "Multiscale",
-    "tr_sprite": "trainer_sprites/swimmerm.png",
-    "name": "Berke",
+    "ability_name_3": "Drizzle",
     "raw": null,
     "raw_species_id_0": 319,
     "raw_species_id_1": 80,
@@ -30929,7 +32708,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 413,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -31001,7 +32781,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Bold",
-    "ability_name_0": "Unburden",
+    "ability_name_0": "Reckless",
+    "tr_sprite": "trainer_sprites/blackbelt.png",
+    "name": "Benjamin",
     "nature_1": "Quirky",
     "ability_name_1": "Iron Fist",
     "nature_2": "Relaxed",
@@ -31011,9 +32793,7 @@ trainersById = [
     "nature_4": "Calm",
     "ability_name_4": "Defiant",
     "nature_5": "Careful",
-    "ability_name_5": "Snow Cloak",
-    "tr_sprite": "trainer_sprites/blackbelt.png",
-    "name": "Benjamin",
+    "ability_name_5": "Swift Swim",
     "raw": null,
     "raw_species_id_0": 106,
     "raw_species_id_1": 376,
@@ -31022,7 +32802,8 @@ trainersById = [
     "raw_species_id_4": 503,
     "raw_species_id_5": 614,
     "index": 414,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -31059,7 +32840,7 @@ trainersById = [
     "ability_3": 1,
     "level_3": 100,
     "padding_3": 0,
-    "species_id_3": "SAWSBUCK",
+    "species_id_3": "SAWSBUCK-AUTUMN",
     "form_3": 2,
     "move_1_3": "MEGAHORN",
     "move_2_3": "HORN LEECH",
@@ -31094,7 +32875,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Serious",
-    "ability_name_0": "Justified",
+    "ability_name_0": "Scrappy",
+    "tr_sprite": "trainer_sprites/blackbelt.png",
+    "name": "Jay",
     "nature_1": "Modest",
     "ability_name_1": "Guts",
     "nature_2": "Lonely",
@@ -31102,11 +32885,9 @@ trainersById = [
     "nature_3": "Adamant",
     "ability_name_3": "Chlorophyll",
     "nature_4": "Jolly",
-    "ability_name_4": "Reckless",
+    "ability_name_4": "Regenerator",
     "nature_5": "Docile",
     "ability_name_5": "Sheer Force",
-    "tr_sprite": "trainer_sprites/blackbelt.png",
-    "name": "Jay",
     "raw": null,
     "raw_species_id_0": 428,
     "raw_species_id_1": 534,
@@ -31115,7 +32896,8 @@ trainersById = [
     "raw_species_id_4": 620,
     "raw_species_id_5": 257,
     "index": 415,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -31187,19 +32969,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Naive",
-    "ability_name_0": "Stench",
+    "ability_name_0": "Poison Touch",
+    "tr_sprite": "trainer_sprites/artist.png",
+    "name": "Zach",
     "nature_1": "Timid",
-    "ability_name_1": "Technician",
+    "ability_name_1": "Filter",
     "nature_2": "Docile",
-    "ability_name_2": "Shell Armor",
+    "ability_name_2": "Drought",
     "nature_3": "Careful",
     "ability_name_3": "Adaptability",
     "nature_4": "Quirky",
     "ability_name_4": "Filter",
     "nature_5": "Mild",
     "ability_name_5": "Intimidate",
-    "tr_sprite": "trainer_sprites/artist.png",
-    "name": "Zach",
     "raw": null,
     "raw_species_id_0": 435,
     "raw_species_id_1": 122,
@@ -31208,7 +32990,8 @@ trainersById = [
     "raw_species_id_4": 154,
     "raw_species_id_5": 508,
     "index": 416,
-    "class": "Artist"
+    "class": "Artist",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -31229,6 +33012,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/scientist_f.png",
+    "name": "Kathrine",
     "nature_1": "Naughty",
     "ability_name_1": "Forewarn",
     "move_1_0": "HYPER BEAM",
@@ -31239,8 +33024,6 @@ trainersById = [
     "move_2_1": "MIST BALL",
     "move_3_1": "HYPNOSIS",
     "move_4_1": "PSYBEAM",
-    "tr_sprite": "trainer_sprites/scientist_f.png",
-    "name": "Kathrine",
     "raw": null,
     "raw_species_id_0": 39,
     "raw_species_id_1": 518,
@@ -31249,7 +33032,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 417,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -31277,6 +33061,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Hasty",
     "ability_name_0": "Damp",
+    "tr_sprite": "trainer_sprites/scientist_f.png",
+    "name": "Chan",
     "nature_1": "Naughty",
     "ability_name_1": "Forewarn",
     "nature_2": "Naughty",
@@ -31293,8 +33079,6 @@ trainersById = [
     "move_2_2": "SYNTHESIS",
     "move_3_2": "AROMATHERAPY",
     "move_4_2": "KNOCK OFF",
-    "tr_sprite": "trainer_sprites/scientist_f.png",
-    "name": "Chan",
     "raw": null,
     "raw_species_id_0": 61,
     "raw_species_id_1": 518,
@@ -31303,7 +33087,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 418,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -31331,6 +33116,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Bad Dreams",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Markus",
     "nature_1": "Timid",
     "ability_name_1": "Forewarn",
     "nature_2": "Mild",
@@ -31347,8 +33134,6 @@ trainersById = [
     "move_2_2": "MIST BALL",
     "move_3_2": "NASTY PLOT",
     "move_4_2": "PSYSHOCK",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Markus",
     "raw": null,
     "raw_species_id_0": 96,
     "raw_species_id_1": 518,
@@ -31357,7 +33142,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 419,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -31378,6 +33164,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Forewarn",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Luke",
     "nature_1": "Timid",
     "ability_name_1": "Sap Sipper",
     "move_1_0": "YAWN",
@@ -31388,8 +33176,6 @@ trainersById = [
     "move_2_1": "MEGAHORN",
     "move_3_1": "CAPTIVATE",
     "move_4_1": "DOUBLE-EDGE",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Luke",
     "raw": null,
     "raw_species_id_0": 518,
     "raw_species_id_1": 234,
@@ -31398,7 +33184,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 420,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -31460,6 +33247,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Lax",
     "ability_name_0": "Multiscale",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Nathan",
     "nature_1": "Rash",
     "ability_name_1": "Poison Touch",
     "nature_2": "Lonely",
@@ -31468,8 +33257,6 @@ trainersById = [
     "ability_name_3": "Levitate",
     "nature_4": "Timid",
     "ability_name_4": "Iron Fist",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Nathan",
     "raw": null,
     "raw_species_id_0": 269,
     "raw_species_id_1": 89,
@@ -31478,7 +33265,8 @@ trainersById = [
     "raw_species_id_4": 376,
     "raw_species_id_5": null,
     "index": 421,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -31506,6 +33294,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Calm",
     "ability_name_0": "Magic Bounce",
+    "tr_sprite": "trainer_sprites/psychic_f.png",
+    "name": "Future",
     "nature_1": "Quiet",
     "ability_name_1": "Magic Bounce",
     "nature_2": "Sassy",
@@ -31522,8 +33312,6 @@ trainersById = [
     "move_2_2": "TRICK",
     "move_3_2": "KNOCK OFF",
     "move_4_2": "GRUDGE",
-    "tr_sprite": "trainer_sprites/psychic_f.png",
-    "name": "Future",
     "raw": null,
     "raw_species_id_0": 177,
     "raw_species_id_1": 178,
@@ -31532,7 +33320,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 422,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -31553,6 +33342,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Mild",
     "ability_name_0": "Natural Cure",
+    "tr_sprite": "trainer_sprites/psychic.png",
+    "name": "Rudolf",
     "nature_1": "Calm",
     "ability_name_1": "Shadow Tag",
     "move_1_0": "PSYCHO BOOST",
@@ -31563,8 +33354,6 @@ trainersById = [
     "move_2_1": "SAFEGUARD",
     "move_3_1": "MIRROR COAT",
     "move_4_1": "COUNTER",
-    "tr_sprite": "trainer_sprites/psychic.png",
-    "name": "Rudolf",
     "raw": null,
     "raw_species_id_0": 121,
     "raw_species_id_1": 202,
@@ -31573,7 +33362,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 423,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -31608,6 +33398,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Modest",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/psychic.png",
+    "name": "Tommy",
     "nature_1": "Hasty",
     "ability_name_1": "Iron Fist",
     "nature_2": "Relaxed",
@@ -31629,8 +33421,6 @@ trainersById = [
     "move_2_3": "HEAL BLOCK",
     "move_3_3": "SKILL SWAP",
     "move_4_3": "DIZZY PUNCH",
-    "tr_sprite": "trainer_sprites/psychic.png",
-    "name": "Tommy",
     "raw": null,
     "raw_species_id_0": 374,
     "raw_species_id_1": 375,
@@ -31639,7 +33429,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 424,
-    "class": "Psychic"
+    "class": "Psychic",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -31717,7 +33508,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Naughty",
-    "ability_name_0": "Inner Focus",
+    "ability_name_0": "Sniper",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Jan",
     "nature_1": "Naughty",
     "ability_name_1": "Levitate",
     "nature_2": "Adamant",
@@ -31728,8 +33521,6 @@ trainersById = [
     "ability_name_4": "Flare Boost",
     "nature_5": "Mild",
     "ability_name_5": "Moody",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Jan",
     "raw": null,
     "raw_species_id_0": 169,
     "raw_species_id_1": 330,
@@ -31738,7 +33529,8 @@ trainersById = [
     "raw_species_id_4": 426,
     "raw_species_id_5": 235,
     "index": 425,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -31817,6 +33609,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Relaxed",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Rhy",
     "nature_1": "Jolly",
     "ability_name_1": "Shell Armor",
     "nature_2": "Lax",
@@ -31827,8 +33621,6 @@ trainersById = [
     "ability_name_4": "Rock Head",
     "nature_5": "Adamant",
     "ability_name_5": "Clear Body",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Rhy",
     "raw": null,
     "raw_species_id_0": 212,
     "raw_species_id_1": 389,
@@ -31837,7 +33629,8 @@ trainersById = [
     "raw_species_id_4": 464,
     "raw_species_id_5": 227,
     "index": 426,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -31910,18 +33703,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Naive",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Jem",
     "nature_1": "Quiet",
     "ability_name_1": "Overcoat",
     "nature_2": "Gentle",
-    "ability_name_2": "Iron Fist",
+    "ability_name_2": "No Guard",
     "nature_3": "Lonely",
-    "ability_name_3": "Rough Skin",
+    "ability_name_3": "Sheer Force",
     "nature_4": "Careful",
-    "ability_name_4": "Unburden",
+    "ability_name_4": "Adaptability",
     "nature_5": "Hardy",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Jem",
     "raw": null,
     "raw_species_id_0": 15,
     "raw_species_id_1": 630,
@@ -31930,14 +33723,15 @@ trainersById = [
     "raw_species_id_4": 617,
     "raw_species_id_5": 601,
     "index": 427,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
     "ability_0": 1,
     "level_0": 100,
     "padding_0": 0,
-    "species_id_0": "WORMADAM",
+    "species_id_0": "WORMADAM-SANDY",
     "form_0": 1,
     "move_1_0": "EARTH POWER",
     "move_2_0": "BUG BUZZ",
@@ -31967,7 +33761,7 @@ trainersById = [
     "ability_3": 1,
     "level_3": 100,
     "padding_3": 0,
-    "species_id_3": "SAWSBUCK",
+    "species_id_3": "SAWSBUCK-AUTUMN",
     "form_3": 2,
     "move_1_3": "CLOSE COMBAT",
     "move_2_3": "HORN LEECH",
@@ -32003,6 +33797,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Jolly",
     "ability_name_0": "Filter",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Ann",
     "nature_1": "Brave",
     "ability_name_1": "Intimidate",
     "nature_2": "Brave",
@@ -32013,8 +33809,6 @@ trainersById = [
     "ability_name_4": "Levitate",
     "nature_5": "Adamant",
     "ability_name_5": "Flare Boost",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Ann",
     "raw": null,
     "raw_species_id_0": 413,
     "raw_species_id_1": 505,
@@ -32023,7 +33817,8 @@ trainersById = [
     "raw_species_id_4": 609,
     "raw_species_id_5": 426,
     "index": 428,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32096,18 +33891,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Modest",
     "ability_name_0": "Flare Boost",
+    "tr_sprite": "trainer_sprites/pokefan.png",
+    "name": "Elliot",
     "nature_1": "Quirky",
     "ability_name_1": "Liquid Ooze",
     "nature_2": "Bashful",
     "ability_name_2": "Sturdy",
     "nature_3": "Calm",
-    "ability_name_3": "Healer",
+    "ability_name_3": "Regenerator",
     "nature_4": "Serious",
     "ability_name_4": "Sturdy",
     "nature_5": "Impish",
     "ability_name_5": "Guts",
-    "tr_sprite": "trainer_sprites/pokefan.png",
-    "name": "Elliot",
     "raw": null,
     "raw_species_id_0": 426,
     "raw_species_id_1": 317,
@@ -32116,7 +33911,8 @@ trainersById = [
     "raw_species_id_4": 558,
     "raw_species_id_5": 534,
     "index": 429,
-    "class": "Pokefan"
+    "class": "Pokefan",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32173,7 +33969,7 @@ trainersById = [
     "ability_5": 1,
     "level_5": 100,
     "padding_5": 0,
-    "species_id_5": "ROTOM",
+    "species_id_5": "ROTOM-FAN",
     "form_5": 4,
     "move_1_5": "DISCHARGE",
     "move_2_5": "AIR SLASH",
@@ -32189,18 +33985,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Rash",
     "ability_name_0": "Tinted Lens",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Astor",
     "nature_1": "Quiet",
-    "ability_name_1": "Reckless",
+    "ability_name_1": "Sap Sipper",
     "nature_2": "Bold",
-    "ability_name_2": "Battle Armor",
+    "ability_name_2": "Hustle",
     "nature_3": "Hasty",
-    "ability_name_3": "Frisk",
+    "ability_name_3": "Shadow Tag",
     "nature_4": "Lax",
     "ability_name_4": "Skill Link",
     "nature_5": "Quirky",
-    "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Astor",
+    "ability_name_5": "Speed Boost",
     "raw": null,
     "raw_species_id_0": 414,
     "raw_species_id_1": 626,
@@ -32209,7 +34005,8 @@ trainersById = [
     "raw_species_id_4": 424,
     "raw_species_id_5": 479,
     "index": 430,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32282,18 +34079,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Quirky",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Sid",
     "nature_1": "Hardy",
     "ability_name_1": "Adaptability",
     "nature_2": "Bashful",
-    "ability_name_2": "Water Absorb",
+    "ability_name_2": "Drizzle",
     "nature_3": "Careful",
-    "ability_name_3": "Regenerator",
+    "ability_name_3": "Drizzle",
     "nature_4": "Modest",
     "ability_name_4": "Intimidate",
     "nature_5": "Timid",
     "ability_name_5": "Swift Swim",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Sid",
     "raw": null,
     "raw_species_id_0": 342,
     "raw_species_id_1": 340,
@@ -32302,7 +34099,8 @@ trainersById = [
     "raw_species_id_4": 130,
     "raw_species_id_5": 457,
     "index": 431,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32353,14 +34151,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Naive",
     "ability_name_0": "Clear Body",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Lydon",
     "nature_1": "Bashful",
     "ability_name_1": "Swift Swim",
     "nature_2": "Rash",
     "ability_name_2": "Intimidate",
     "nature_3": "Naughty",
     "ability_name_3": "Water Absorb",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Lydon",
     "raw": null,
     "raw_species_id_0": 73,
     "raw_species_id_1": 369,
@@ -32369,7 +34167,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 432,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32442,18 +34241,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Naive",
     "ability_name_0": "Clear Body",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Jones",
     "nature_1": "Rash",
     "ability_name_1": "Pressure",
     "nature_2": "Careful",
-    "ability_name_2": "Water Absorb",
+    "ability_name_2": "Cursed Body",
     "nature_3": "Relaxed",
     "ability_name_3": "Unburden",
     "nature_4": "Impish",
     "ability_name_4": "Defiant",
     "nature_5": "Timid",
-    "ability_name_5": "Healer",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Jones",
+    "ability_name_5": "Regenerator",
     "raw": null,
     "raw_species_id_0": 73,
     "raw_species_id_1": 321,
@@ -32462,7 +34261,8 @@ trainersById = [
     "raw_species_id_4": 503,
     "raw_species_id_5": 594,
     "index": 433,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32535,6 +34335,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Naive",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Mick",
     "nature_1": "Naive",
     "ability_name_1": "Swift Swim",
     "nature_2": "Naive",
@@ -32545,8 +34347,6 @@ trainersById = [
     "ability_name_4": "Swift Swim",
     "nature_5": "Naive",
     "ability_name_5": "Swift Swim",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Mick",
     "raw": null,
     "raw_species_id_0": 129,
     "raw_species_id_1": 129,
@@ -32555,7 +34355,8 @@ trainersById = [
     "raw_species_id_4": 129,
     "raw_species_id_5": 129,
     "index": 434,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32602,7 +34403,7 @@ trainersById = [
     "ability_4": 2,
     "level_4": 100,
     "padding_4": 0,
-    "species_id_4": "GASTRODON",
+    "species_id_4": "GASTRODON-EAST",
     "form_4": 1,
     "move_1_4": "RECOVER",
     "move_2_4": "EARTH POWER",
@@ -32628,6 +34429,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Rash",
     "ability_name_0": "Speed Boost",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Pete",
     "nature_1": "Sassy",
     "ability_name_1": "Levitate",
     "nature_2": "Mild",
@@ -32635,11 +34438,9 @@ trainersById = [
     "nature_3": "Jolly",
     "ability_name_3": "Marvel Scale",
     "nature_4": "Rash",
-    "ability_name_4": "Sand Force",
+    "ability_name_4": "-",
     "nature_5": "Quiet",
     "ability_name_5": "Intimidate",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Pete",
     "raw": null,
     "raw_species_id_0": 319,
     "raw_species_id_1": 604,
@@ -32648,7 +34449,8 @@ trainersById = [
     "raw_species_id_4": 423,
     "raw_species_id_5": 160,
     "index": 435,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32665,7 +34467,7 @@ trainersById = [
     "ability_1": 1,
     "level_1": 100,
     "padding_1": 0,
-    "species_id_1": "ROTOM",
+    "species_id_1": "ROTOM-WASH",
     "form_1": 2,
     "move_1_1": "HYDRO PUMP",
     "move_2_1": "DISCHARGE",
@@ -32721,6 +34523,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Relaxed",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Vince",
     "nature_1": "Rash",
     "ability_name_1": "Levitate",
     "nature_2": "Brave",
@@ -32728,11 +34532,9 @@ trainersById = [
     "nature_3": "Calm",
     "ability_name_3": "Thick Fat",
     "nature_4": "Docile",
-    "ability_name_4": "Swift Swim",
+    "ability_name_4": "Water Absorb",
     "nature_5": "Quirky",
     "ability_name_5": "Intimidate",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Vince",
     "raw": null,
     "raw_species_id_0": 260,
     "raw_species_id_1": 479,
@@ -32741,7 +34543,8 @@ trainersById = [
     "raw_species_id_4": 226,
     "raw_species_id_5": 130,
     "index": 436,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32814,18 +34617,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Jolly",
     "ability_name_0": "Snow Warning",
+    "tr_sprite": "trainer_sprites/backpacker_f.png",
+    "name": "Corin",
     "nature_1": "Naive",
     "ability_name_1": "Cloud Nine",
     "nature_2": "Relaxed",
-    "ability_name_2": "Guts",
+    "ability_name_2": "Intimidate",
     "nature_3": "Modest",
     "ability_name_3": "Intimidate",
     "nature_4": "Naive",
-    "ability_name_4": "Sniper",
+    "ability_name_4": "Water Absorb",
     "nature_5": "Quiet",
-    "ability_name_5": "Sand Rush",
-    "tr_sprite": "trainer_sprites/backpacker_f.png",
-    "name": "Corin",
+    "ability_name_5": "Mold Breaker",
     "raw": null,
     "raw_species_id_0": 460,
     "raw_species_id_1": 334,
@@ -32834,7 +34637,8 @@ trainersById = [
     "raw_species_id_4": 631,
     "raw_species_id_5": 530,
     "index": 437,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32901,6 +34705,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Rash",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/backpacker_f.png",
+    "name": "Lora",
     "nature_1": "Gentle",
     "ability_name_1": "Chlorophyll",
     "nature_2": "Relaxed",
@@ -32909,8 +34715,6 @@ trainersById = [
     "ability_name_3": "Sap Sipper",
     "nature_4": "Relaxed",
     "ability_name_4": "Swift Swim",
-    "tr_sprite": "trainer_sprites/backpacker_f.png",
-    "name": "Lora",
     "raw": null,
     "raw_species_id_0": 357,
     "raw_species_id_1": 45,
@@ -32919,7 +34723,8 @@ trainersById = [
     "raw_species_id_4": 272,
     "raw_species_id_5": null,
     "index": 438,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -32981,16 +34786,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Relaxed",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/backpacker_f.png",
+    "name": "Kumiko",
     "nature_1": "Naive",
     "ability_name_1": "Magic Bounce",
     "nature_2": "Serious",
-    "ability_name_2": "Multiscale",
+    "ability_name_2": "Drizzle",
     "nature_3": "Bashful",
     "ability_name_3": "Guts",
     "nature_4": "Hasty",
     "ability_name_4": "Multiscale",
-    "tr_sprite": "trainer_sprites/backpacker_f.png",
-    "name": "Kumiko",
     "raw": null,
     "raw_species_id_0": 189,
     "raw_species_id_1": 178,
@@ -32999,7 +34804,8 @@ trainersById = [
     "raw_species_id_4": 149,
     "raw_species_id_5": null,
     "index": 439,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33078,6 +34884,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Hardy",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Talon",
     "nature_1": "Serious",
     "ability_name_1": "Chlorophyll",
     "nature_2": "Quirky",
@@ -33085,11 +34893,9 @@ trainersById = [
     "nature_3": "Hardy",
     "ability_name_3": "Levitate",
     "nature_4": "Hardy",
-    "ability_name_4": "Flare Boost",
+    "ability_name_4": "Unburden",
     "nature_5": "Hardy",
     "ability_name_5": "Sturdy",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Talon",
     "raw": null,
     "raw_species_id_0": 454,
     "raw_species_id_1": 549,
@@ -33098,7 +34904,8 @@ trainersById = [
     "raw_species_id_4": 426,
     "raw_species_id_5": 526,
     "index": 440,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33160,6 +34967,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Mild",
     "ability_name_0": "Thick Fat",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Sam",
     "nature_1": "Lonely",
     "ability_name_1": "Swift Swim",
     "nature_2": "Lonely",
@@ -33168,8 +34977,6 @@ trainersById = [
     "ability_name_3": "Technician",
     "nature_4": "Brave",
     "ability_name_4": "Rock Head",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Sam",
     "raw": null,
     "raw_species_id_0": 3,
     "raw_species_id_1": 272,
@@ -33178,7 +34985,8 @@ trainersById = [
     "raw_species_id_4": 185,
     "raw_species_id_5": null,
     "index": 441,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33240,6 +35048,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Naive",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Peter",
     "nature_1": "Mild",
     "ability_name_1": "Magic Guard",
     "nature_2": "Lonely",
@@ -33248,8 +35058,6 @@ trainersById = [
     "ability_name_3": "Wonder Skin",
     "nature_4": "Adamant",
     "ability_name_4": "Early Bird",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Peter",
     "raw": null,
     "raw_species_id_0": 162,
     "raw_species_id_1": 40,
@@ -33258,7 +35066,8 @@ trainersById = [
     "raw_species_id_4": 115,
     "raw_species_id_5": null,
     "index": 442,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33320,16 +35129,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Stephen",
     "nature_1": "Modest",
     "ability_name_1": "Sand Force",
     "nature_2": "Jolly",
-    "ability_name_2": "Rock Head",
+    "ability_name_2": "Solid Rock",
     "nature_3": "Modest",
-    "ability_name_3": "Rock Head",
+    "ability_name_3": "Sand Stream",
     "nature_4": "Adamant",
     "ability_name_4": "Rock Head",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Stephen",
     "raw": null,
     "raw_species_id_0": 344,
     "raw_species_id_1": 28,
@@ -33338,7 +35147,8 @@ trainersById = [
     "raw_species_id_4": 105,
     "raw_species_id_5": null,
     "index": 443,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33411,6 +35221,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Skill Link",
+    "tr_sprite": "trainer_sprites/battlegirl.png",
+    "name": "Susie",
     "nature_1": "Careful",
     "ability_name_1": "Intimidate",
     "nature_2": "Careful",
@@ -33421,8 +35233,6 @@ trainersById = [
     "ability_name_4": "Steadfast",
     "nature_5": "Gentle",
     "ability_name_5": "Reckless",
-    "tr_sprite": "trainer_sprites/battlegirl.png",
-    "name": "Susie",
     "raw": null,
     "raw_species_id_0": 214,
     "raw_species_id_1": 560,
@@ -33431,7 +35241,8 @@ trainersById = [
     "raw_species_id_4": 448,
     "raw_species_id_5": 619,
     "index": 444,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33493,6 +35304,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Lax",
     "ability_name_0": "Iron Fist",
+    "tr_sprite": "trainer_sprites/battlegirl.png",
+    "name": "Hillary",
     "nature_1": "Docile",
     "ability_name_1": "Unburden",
     "nature_2": "Impish",
@@ -33500,9 +35313,7 @@ trainersById = [
     "nature_3": "Lax",
     "ability_name_3": "Thick Fat",
     "nature_4": "Mild",
-    "ability_name_4": "Guts",
-    "tr_sprite": "trainer_sprites/battlegirl.png",
-    "name": "Hillary",
+    "ability_name_4": "No Guard",
     "raw": null,
     "raw_species_id_0": 107,
     "raw_species_id_1": 106,
@@ -33511,7 +35322,8 @@ trainersById = [
     "raw_species_id_4": 68,
     "raw_species_id_5": null,
     "index": 445,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33583,7 +35395,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Lax",
-    "ability_name_0": "Synchronize",
+    "ability_name_0": "Trace",
+    "tr_sprite": "trainer_sprites/parasollady.png",
+    "name": "Laura",
     "nature_1": "Bashful",
     "ability_name_1": "Unnerve",
     "nature_2": "Jolly",
@@ -33591,11 +35405,9 @@ trainersById = [
     "nature_3": "Quiet",
     "ability_name_3": "Overcoat",
     "nature_4": "Bashful",
-    "ability_name_4": "Unburden",
+    "ability_name_4": "Adaptability",
     "nature_5": "Lonely",
     "ability_name_5": "Static",
-    "tr_sprite": "trainer_sprites/parasollady.png",
-    "name": "Laura",
     "raw": null,
     "raw_species_id_0": 282,
     "raw_species_id_1": 612,
@@ -33604,7 +35416,8 @@ trainersById = [
     "raw_species_id_4": 617,
     "raw_species_id_5": 618,
     "index": 446,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33655,14 +35468,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Naughty",
     "ability_name_0": "Sniper",
+    "tr_sprite": "trainer_sprites/swimmerf.png",
+    "name": "Caroline",
     "nature_1": "Hardy",
-    "ability_name_1": "Swift Swim",
+    "ability_name_1": "Water Absorb",
     "nature_2": "Impish",
     "ability_name_2": "Adaptability",
     "nature_3": "Hardy",
     "ability_name_3": "Swift Swim",
-    "tr_sprite": "trainer_sprites/swimmerf.png",
-    "name": "Caroline",
     "raw": null,
     "raw_species_id_0": 230,
     "raw_species_id_1": 226,
@@ -33671,7 +35484,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 447,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -33744,18 +35558,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Impish",
     "ability_name_0": "Iron Fist",
+    "tr_sprite": "trainer_sprites/backers_f.png",
+    "name": "Fey & Sue",
     "nature_1": "Hasty",
-    "ability_name_1": "Regenerator",
+    "ability_name_1": "Leaf Guard",
     "nature_2": "Bold",
     "ability_name_2": "Static",
     "nature_3": "Rash",
-    "ability_name_3": "Unburden",
+    "ability_name_3": "Adaptability",
     "nature_4": "Mild",
-    "ability_name_4": "Sheer Force",
+    "ability_name_4": "Iron Fist",
     "nature_5": "Adamant",
     "ability_name_5": "Intimidate",
-    "tr_sprite": "trainer_sprites/backers_f.png",
-    "name": "Fey & Sue",
     "raw": null,
     "raw_species_id_0": 392,
     "raw_species_id_1": 465,
@@ -33764,7 +35578,8 @@ trainersById = [
     "raw_species_id_4": 555,
     "raw_species_id_5": 560,
     "index": 448,
-    "class": "Backers"
+    "class": "Backers",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -33837,6 +35652,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Calm",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/twins.png",
+    "name": "Emmy & Lin",
     "nature_1": "Sassy",
     "ability_name_1": "Motor Drive",
     "nature_2": "Jolly",
@@ -33846,9 +35663,7 @@ trainersById = [
     "nature_4": "Hardy",
     "ability_name_4": "Huge Power",
     "nature_5": "Lax",
-    "ability_name_5": "Magic Guard",
-    "tr_sprite": "trainer_sprites/twins.png",
-    "name": "Emmy & Lin",
+    "ability_name_5": "Prankster",
     "raw": null,
     "raw_species_id_0": 311,
     "raw_species_id_1": 312,
@@ -33857,7 +35672,8 @@ trainersById = [
     "raw_species_id_4": 303,
     "raw_species_id_5": 302,
     "index": 449,
-    "class": "Twins"
+    "class": "Twins",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -33935,19 +35751,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Relaxed",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/veteran.png",
+    "name": "Ray",
     "nature_1": "Rash",
     "ability_name_1": "Adaptability",
     "nature_2": "Quirky",
     "ability_name_2": "Forecast",
     "nature_3": "Impish",
-    "ability_name_3": "Flash Fire",
+    "ability_name_3": "Drought",
     "nature_4": "Brave",
     "ability_name_4": "Chlorophyll",
     "nature_5": "Modest",
     "ability_name_5": "Multiscale",
-    "tr_sprite": "trainer_sprites/veteran.png",
-    "name": "Ray",
     "raw": null,
     "raw_species_id_0": 136,
     "raw_species_id_1": 157,
@@ -33956,7 +35772,8 @@ trainersById = [
     "raw_species_id_4": 275,
     "raw_species_id_5": 149,
     "index": 450,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34029,6 +35846,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Bashful",
     "ability_name_0": "Thick Fat",
+    "tr_sprite": "trainer_sprites/pokemonbreeder.png",
+    "name": "Eustace",
     "nature_1": "Sassy",
     "ability_name_1": "Volt Absorb",
     "nature_2": "Careful",
@@ -34038,9 +35857,7 @@ trainersById = [
     "nature_4": "Bold",
     "ability_name_4": "Prankster",
     "nature_5": "Rash",
-    "ability_name_5": "Scrappy",
-    "tr_sprite": "trainer_sprites/pokemonbreeder.png",
-    "name": "Eustace",
+    "ability_name_5": "Super Luck",
     "raw": null,
     "raw_species_id_0": 297,
     "raw_species_id_1": 417,
@@ -34049,7 +35866,8 @@ trainersById = [
     "raw_species_id_4": 510,
     "raw_species_id_5": 521,
     "index": 451,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34122,6 +35940,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Modest",
     "ability_name_0": "Motor Drive",
+    "tr_sprite": "trainer_sprites/pokemonbreeder.png",
+    "name": "Ethel",
     "nature_1": "Lonely",
     "ability_name_1": "Flash Fire",
     "nature_2": "Mild",
@@ -34132,8 +35952,6 @@ trainersById = [
     "ability_name_4": "Natural Cure",
     "nature_5": "Lonely",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/pokemonbreeder.png",
-    "name": "Ethel",
     "raw": null,
     "raw_species_id_0": 466,
     "raw_species_id_1": 467,
@@ -34142,7 +35960,8 @@ trainersById = [
     "raw_species_id_4": 242,
     "raw_species_id_5": 358,
     "index": 452,
-    "class": "PkMn Breeder"
+    "class": "PkMn Breeder",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34214,19 +36033,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Modest",
-    "ability_name_0": "Swift Swim",
+    "ability_name_0": "Water Absorb",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Thalia",
     "nature_1": "Quiet",
-    "ability_name_1": "Stench",
+    "ability_name_1": "Poison Touch",
     "nature_2": "Sassy",
-    "ability_name_2": "Justified",
+    "ability_name_2": "Scrappy",
     "nature_3": "Lonely",
     "ability_name_3": "Rock Head",
     "nature_4": "Quirky",
-    "ability_name_4": "Forewarn",
+    "ability_name_4": "Synchronize",
     "nature_5": "Serious",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Thalia",
     "raw": null,
     "raw_species_id_0": 226,
     "raw_species_id_1": 435,
@@ -34235,7 +36054,8 @@ trainersById = [
     "raw_species_id_4": 518,
     "raw_species_id_5": 604,
     "index": 453,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34308,18 +36128,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Jolly",
     "ability_name_0": "Cloud Nine",
+    "tr_sprite": "trainer_sprites/shelly.png",
+    "name": "Shelly",
     "nature_1": "Impish",
     "ability_name_1": "Snow Warning",
     "nature_2": "Quiet",
-    "ability_name_2": "Prankster",
+    "ability_name_2": "Insomnia",
     "nature_3": "Quirky",
     "ability_name_3": "Levitate",
     "nature_4": "Careful",
     "ability_name_4": "Levitate",
     "nature_5": "Modest",
     "ability_name_5": "Own Tempo",
-    "tr_sprite": "trainer_sprites/shelly.png",
-    "name": "Shelly",
     "raw": null,
     "raw_species_id_0": 334,
     "raw_species_id_1": 460,
@@ -34328,7 +36148,8 @@ trainersById = [
     "raw_species_id_4": 437,
     "raw_species_id_5": 463,
     "index": 454,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34401,18 +36222,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Crofton",
     "nature_1": "Serious",
-    "ability_name_1": "Battle Armor",
+    "ability_name_1": "Hustle",
     "nature_2": "Mild",
     "ability_name_2": "Stench",
     "nature_3": "Sassy",
-    "ability_name_3": "Sturdy",
+    "ability_name_3": "Solid Rock",
     "nature_4": "Lax",
     "ability_name_4": "Pressure",
     "nature_5": "Lax",
-    "ability_name_5": "Lightningrod",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Crofton",
+    "ability_name_5": "Sap Sipper",
     "raw": null,
     "raw_species_id_0": 127,
     "raw_species_id_1": 632,
@@ -34421,7 +36242,8 @@ trainersById = [
     "raw_species_id_4": 321,
     "raw_species_id_5": 523,
     "index": 455,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34458,7 +36280,7 @@ trainersById = [
     "ability_3": 1,
     "level_3": 100,
     "padding_3": 0,
-    "species_id_3": "WORMADAM",
+    "species_id_3": "WORMADAM-TRASH",
     "form_3": 2,
     "move_1_3": "FLASH CANNON",
     "move_2_3": "BUG BUZZ",
@@ -34478,7 +36300,7 @@ trainersById = [
     "ability_5": 1,
     "level_5": 100,
     "padding_5": 0,
-    "species_id_5": "SAWSBUCK",
+    "species_id_5": "SAWSBUCK-AUTUMN",
     "form_5": 2,
     "move_1_5": "CLOSE COMBAT",
     "move_2_5": "HORN LEECH",
@@ -34494,8 +36316,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Jolly",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Keith",
     "nature_1": "Lonely",
-    "ability_name_1": "Thick Fat",
+    "ability_name_1": "Immunity",
     "nature_2": "Modest",
     "ability_name_2": "Intimidate",
     "nature_3": "Docile",
@@ -34504,8 +36328,6 @@ trainersById = [
     "ability_name_4": "Guts",
     "nature_5": "Bold",
     "ability_name_5": "Chlorophyll",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Keith",
     "raw": null,
     "raw_species_id_0": 103,
     "raw_species_id_1": 143,
@@ -34514,7 +36336,8 @@ trainersById = [
     "raw_species_id_4": 277,
     "raw_species_id_5": 586,
     "index": 456,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34593,6 +36416,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Careful",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Fey",
     "nature_1": "Rash",
     "ability_name_1": "Poison Heal",
     "nature_2": "Sassy",
@@ -34603,8 +36428,6 @@ trainersById = [
     "ability_name_4": "Levitate",
     "nature_5": "Modest",
     "ability_name_5": "Thick Fat",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Fey",
     "raw": null,
     "raw_species_id_0": 210,
     "raw_species_id_1": 286,
@@ -34613,7 +36436,8 @@ trainersById = [
     "raw_species_id_4": 429,
     "raw_species_id_5": 432,
     "index": 457,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34686,6 +36510,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Careful",
     "ability_name_0": "Sand Stream",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Jebediah",
     "nature_1": "Mild",
     "ability_name_1": "Levitate",
     "nature_2": "Hasty",
@@ -34693,11 +36519,9 @@ trainersById = [
     "nature_3": "Docile",
     "ability_name_3": "Shell Armor",
     "nature_4": "Modest",
-    "ability_name_4": "Rock Head",
+    "ability_name_4": "Sand Stream",
     "nature_5": "Bold",
-    "ability_name_5": "Sturdy",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Jebediah",
+    "ability_name_5": "Sand Stream",
     "raw": null,
     "raw_species_id_0": 450,
     "raw_species_id_1": 476,
@@ -34706,7 +36530,8 @@ trainersById = [
     "raw_species_id_4": 208,
     "raw_species_id_5": 526,
     "index": 458,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34784,7 +36609,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Lax",
-    "ability_name_0": "Rock Head",
+    "ability_name_0": "Sand Stream",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Kit",
     "nature_1": "Hasty",
     "ability_name_1": "Poison Heal",
     "nature_2": "Quirky",
@@ -34794,9 +36621,7 @@ trainersById = [
     "nature_4": "Quiet",
     "ability_name_4": "Sand Stream",
     "nature_5": "Serious",
-    "ability_name_5": "Rock Head",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Kit",
+    "ability_name_5": "Solid Rock",
     "raw": null,
     "raw_species_id_0": 208,
     "raw_species_id_1": 472,
@@ -34805,7 +36630,8 @@ trainersById = [
     "raw_species_id_4": 450,
     "raw_species_id_5": 464,
     "index": 459,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -34860,14 +36686,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Quirky",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Jeremiah",
     "nature_1": "Hardy",
     "ability_name_1": "Levitate",
     "nature_2": "Rash",
     "ability_name_2": "Rock Head",
     "nature_3": "Quirky",
-    "ability_name_3": "Flash Fire",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Jeremiah",
+    "ability_name_3": "Drought",
     "raw": null,
     "raw_species_id_0": 205,
     "raw_species_id_1": 330,
@@ -34876,7 +36702,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 460,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34890,12 +36717,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Impish",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/clerkf.png",
+    "name": "Britney",
     "move_1_0": "SYNTHESIS",
     "move_2_0": "U-TURN",
     "move_3_0": "GIGA DRAIN",
     "move_4_0": "AIR SLASH",
-    "tr_sprite": "trainer_sprites/clerkf.png",
-    "name": "Britney",
     "raw": null,
     "raw_species_id_0": 189,
     "raw_species_id_1": null,
@@ -34904,7 +36731,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 461,
-    "class": "Clerk  F"
+    "class": "Clerk  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -34918,12 +36746,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Jolly",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/clerkf.png",
+    "name": "Piper",
     "move_1_0": "SUCKER PUNCH",
     "move_2_0": "LEECH LIFE",
     "move_3_0": "LEAF BLADE",
     "move_4_0": "GASTRO ACID",
-    "tr_sprite": "trainer_sprites/clerkf.png",
-    "name": "Piper",
     "raw": null,
     "raw_species_id_0": 71,
     "raw_species_id_1": null,
@@ -34932,7 +36760,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 462,
-    "class": "Clerk  F"
+    "class": "Clerk  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -34953,6 +36782,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Mild",
     "ability_name_0": "Synchronize",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Lena",
     "nature_1": "Hardy",
     "ability_name_1": "Justified",
     "move_1_0": "FOCUS BLAST",
@@ -34963,8 +36794,6 @@ trainersById = [
     "move_2_1": "PROTECT",
     "move_3_1": "SKILL SWAP",
     "move_4_1": "SUPERPOWER",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Lena",
     "raw": null,
     "raw_species_id_0": 282,
     "raw_species_id_1": 475,
@@ -34973,7 +36802,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 463,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -34987,12 +36817,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Quiet",
     "ability_name_0": "Flash Fire",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Vincent",
     "move_1_0": "MAGMA STORM",
     "move_2_0": "SUNNY DAY",
     "move_3_0": "HYPER BEAM",
     "move_4_0": "WEATHER BALL",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Vincent",
     "raw": null,
     "raw_species_id_0": 467,
     "raw_species_id_1": null,
@@ -35001,7 +36831,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 464,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35022,6 +36853,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Sassy",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/lady.png",
+    "name": "Lynette",
     "nature_1": "Timid",
     "ability_name_1": "Chlorophyll",
     "move_1_0": "SLUDGE BOMB",
@@ -35032,8 +36865,6 @@ trainersById = [
     "move_2_1": "LUCKY CHANT",
     "move_3_1": "GIGA DRAIN",
     "move_4_1": "TEETER DANCE",
-    "tr_sprite": "trainer_sprites/lady.png",
-    "name": "Lynette",
     "raw": null,
     "raw_species_id_0": 45,
     "raw_species_id_1": 182,
@@ -35042,7 +36873,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 465,
-    "class": "Lady"
+    "class": "Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35056,12 +36888,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Static",
+    "tr_sprite": "trainer_sprites/richboy.png",
+    "name": "Pierce",
     "move_1_0": "REFLECT",
     "move_2_0": "LIGHT SCREEN",
     "move_3_0": "DISCHARGE",
     "move_4_0": "COTTON GUARD",
-    "tr_sprite": "trainer_sprites/richboy.png",
-    "name": "Pierce",
     "raw": null,
     "raw_species_id_0": 181,
     "raw_species_id_1": null,
@@ -35070,7 +36902,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 466,
-    "class": "Rich Boy"
+    "class": "Rich Boy",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -35084,12 +36917,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Impish",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/blackbelt.png",
+    "name": "Ryder",
     "move_1_0": "DYNAMICPUNCH",
     "move_2_0": "SUPERPOWER",
     "move_3_0": "BULLET PUNCH",
     "move_4_0": "CROSS CHOP",
-    "tr_sprite": "trainer_sprites/blackbelt.png",
-    "name": "Ryder",
     "raw": null,
     "raw_species_id_0": 68,
     "raw_species_id_1": null,
@@ -35098,7 +36931,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 467,
-    "class": "Black Belt"
+    "class": "Black Belt",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -35112,12 +36946,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Docile",
     "ability_name_0": "Sheer Force",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Jacques",
     "move_1_0": "CAPTIVATE",
     "move_2_0": "SLUDGE BOMB",
     "move_3_0": "EARTH POWER",
     "move_4_0": "DARK PULSE",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Jacques",
     "raw": null,
     "raw_species_id_0": 31,
     "raw_species_id_1": null,
@@ -35126,7 +36960,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 468,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -35140,12 +36975,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Impish",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/scientist_f.png",
+    "name": "Marie",
     "move_1_0": "THUNDERBOLT",
     "move_2_0": "MAGNET RISE",
     "move_3_0": "DISCHARGE",
     "move_4_0": "TRI ATTACK",
-    "tr_sprite": "trainer_sprites/scientist_f.png",
-    "name": "Marie",
     "raw": null,
     "raw_species_id_0": 462,
     "raw_species_id_1": null,
@@ -35154,7 +36989,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 469,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35168,12 +37004,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Gentle",
     "ability_name_0": "Guts",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "Doug",
     "move_1_0": "THUNDER FANG",
     "move_2_0": "SWAGGER",
     "move_3_0": "ROAR",
     "move_4_0": "BITE",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "Doug",
     "raw": null,
     "raw_species_id_0": 405,
     "raw_species_id_1": null,
@@ -35182,7 +37018,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 470,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35196,12 +37033,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Timid",
     "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/clerkm.png",
+    "name": "Collin",
     "move_1_0": "FOUL PLAY",
     "move_2_0": "PSYCHIC",
     "move_3_0": "TRICK",
     "move_4_0": "EXTRASENSORY",
-    "tr_sprite": "trainer_sprites/clerkm.png",
-    "name": "Collin",
     "raw": null,
     "raw_species_id_0": 65,
     "raw_species_id_1": null,
@@ -35210,7 +37047,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 471,
-    "class": "Clerk  M"
+    "class": "Clerk  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35224,12 +37062,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/gentleman.png",
+    "name": "Frederic",
     "move_1_0": "PETAL DANCE",
     "move_2_0": "GROWTH",
     "move_3_0": "SLUDGE BOMB",
     "move_4_0": "GIGA DRAIN",
-    "tr_sprite": "trainer_sprites/gentleman.png",
-    "name": "Frederic",
     "raw": null,
     "raw_species_id_0": 407,
     "raw_species_id_1": null,
@@ -35238,7 +37076,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 472,
-    "class": "Gentleman"
+    "class": "Gentleman",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -35252,12 +37091,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Timid",
     "ability_name_0": "No Guard",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Leo",
     "move_1_0": "TAILWIND",
     "move_2_0": "ROOST",
     "move_3_0": "THUNDERBOLT",
     "move_4_0": "AIR SLASH",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Leo",
     "raw": null,
     "raw_species_id_0": 18,
     "raw_species_id_1": null,
@@ -35266,7 +37105,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 473,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -35287,6 +37127,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Tinted Lens",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Silvia",
     "nature_1": "Quiet",
     "ability_name_1": "Multiscale",
     "move_1_0": "QUIVER DANCE",
@@ -35297,8 +37139,6 @@ trainersById = [
     "move_2_1": "TOXIC",
     "move_3_1": "SILVER WIND",
     "move_4_1": "LIGHT SCREEN",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Silvia",
     "raw": null,
     "raw_species_id_0": 267,
     "raw_species_id_1": 269,
@@ -35307,7 +37147,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 474,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35321,12 +37162,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Shadow Tag",
+    "tr_sprite": "trainer_sprites/roughneck.png",
+    "name": "Dave",
     "move_1_0": "SHADOW PUNCH",
     "move_2_0": "SLUDGE",
     "move_3_0": "SUCKER PUNCH",
     "move_4_0": "SPITE",
-    "tr_sprite": "trainer_sprites/roughneck.png",
-    "name": "Dave",
     "raw": null,
     "raw_species_id_0": 94,
     "raw_species_id_1": null,
@@ -35335,7 +37176,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 475,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35349,12 +37191,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Motor Drive",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Robbie",
     "move_1_0": "AURA SPHERE",
     "move_2_0": "UPROAR",
     "move_3_0": "LIGHT SCREEN",
     "move_4_0": "SHOCK WAVE",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Robbie",
     "raw": null,
     "raw_species_id_0": 466,
     "raw_species_id_1": null,
@@ -35363,7 +37205,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 476,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35377,12 +37220,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Huge Power",
+    "tr_sprite": "trainer_sprites/backpacker_f.png",
+    "name": "Molly",
     "move_1_0": "BODY SLAM",
     "move_2_0": "AQUA JET",
     "move_3_0": "BUBBLEBEAM",
     "move_4_0": "ROLLOUT",
-    "tr_sprite": "trainer_sprites/backpacker_f.png",
-    "name": "Molly",
     "raw": null,
     "raw_species_id_0": 184,
     "raw_species_id_1": null,
@@ -35391,7 +37234,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 477,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35405,12 +37249,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Natural Cure",
+    "tr_sprite": "trainer_sprites/backpacker_f.png",
+    "name": "Emi",
     "move_1_0": "MINIMIZE",
     "move_2_0": "BESTOW",
     "move_3_0": "SOFTBOILED",
     "move_4_0": "DOUBLESLAP",
-    "tr_sprite": "trainer_sprites/backpacker_f.png",
-    "name": "Emi",
     "raw": null,
     "raw_species_id_0": 242,
     "raw_species_id_1": null,
@@ -35419,7 +37263,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 478,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35433,12 +37278,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Carlos",
     "move_1_0": "AERIAL ACE",
     "move_2_0": "WHIRLWIND",
     "move_3_0": "ENDEAVOR",
     "move_4_0": "DOUBLE TEAM",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Carlos",
     "raw": null,
     "raw_species_id_0": 398,
     "raw_species_id_1": null,
@@ -35447,7 +37292,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 479,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35461,12 +37307,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Adaptability",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Herman",
     "move_1_0": "DISCHARGE",
     "move_2_0": "RECOVER",
     "move_3_0": "TRI ATTACK",
     "move_4_0": "SIGNAL BEAM",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Herman",
     "raw": null,
     "raw_species_id_0": 474,
     "raw_species_id_1": null,
@@ -35475,7 +37321,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 480,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -35489,12 +37336,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Slow Start",
+    "tr_sprite": "trainer_sprites/battlegirl.png",
+    "name": "Karenna",
     "move_1_0": "SUPERPOWER",
     "move_2_0": "DOUBLE-EDGE",
     "move_3_0": "PUNISHMENT",
     "move_4_0": "CRUSH CLAW",
-    "tr_sprite": "trainer_sprites/battlegirl.png",
-    "name": "Karenna",
     "raw": null,
     "raw_species_id_0": 289,
     "raw_species_id_1": null,
@@ -35503,7 +37350,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 481,
-    "class": "Battle Girl"
+    "class": "Battle Girl",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -35517,12 +37365,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Scrappy",
+    "tr_sprite": "trainer_sprites/rosa.png",
+    "name": "Rosa",
     "move_1_0": "HYPER BEAM",
     "move_2_0": "SYNCHRONOISE",
     "move_3_0": "CALM MIND",
     "move_4_0": "FLAMETHROWER",
-    "tr_sprite": "trainer_sprites/rosa.png",
-    "name": "Rosa",
     "raw": null,
     "raw_species_id_0": 295,
     "raw_species_id_1": null,
@@ -35531,7 +37379,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 482,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 200,
@@ -35545,12 +37394,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Impish",
     "ability_name_0": "Sheer Force",
+    "tr_sprite": "trainer_sprites/veteran.png",
+    "name": "Ken",
     "move_1_0": "GUNK SHOT",
     "move_2_0": "MEGAHORN",
     "move_3_0": "EARTHQUAKE",
     "move_4_0": "HORN DRILL",
-    "tr_sprite": "trainer_sprites/veteran.png",
-    "name": "Ken",
     "raw": null,
     "raw_species_id_0": 34,
     "raw_species_id_1": null,
@@ -35559,7 +37408,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 483,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35573,12 +37423,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Mild",
     "ability_name_0": "Serene Grace",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Miki",
     "move_1_0": "ANCIENTPOWER",
     "move_2_0": "UPROAR",
     "move_3_0": "AIR CUTTER",
     "move_4_0": "MAGICAL LEAF",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Miki",
     "raw": null,
     "raw_species_id_0": 468,
     "raw_species_id_1": null,
@@ -35587,7 +37437,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 484,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35601,12 +37452,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Impish",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Gene",
     "move_1_0": "IRON DEFENSE",
     "move_2_0": "PROTECT",
     "move_3_0": "TAKE DOWN",
     "move_4_0": "IRON HEAD",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Gene",
     "raw": null,
     "raw_species_id_0": 306,
     "raw_species_id_1": null,
@@ -35615,7 +37466,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 485,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -35629,12 +37481,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Lax",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Eliza",
     "move_1_0": "HEAT WAVE",
     "move_2_0": "DRAGON RUSH",
     "move_3_0": "EARTH POWER",
     "move_4_0": "BUG BUZZ",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Eliza",
     "raw": null,
     "raw_species_id_0": 330,
     "raw_species_id_1": null,
@@ -35643,7 +37495,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 486,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 150,
@@ -35657,12 +37510,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Docile",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Ralph",
     "move_1_0": "LEAF STORM",
     "move_2_0": "RAIN DANCE",
     "move_3_0": "HYDRO PUMP",
     "move_4_0": "WEATHER BALL",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Ralph",
     "raw": null,
     "raw_species_id_0": 272,
     "raw_species_id_1": null,
@@ -35671,7 +37524,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 487,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -35685,12 +37539,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Sassy",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/grace.png",
+    "name": "Grace",
     "move_1_0": "CRUNCH",
     "move_2_0": "DRAGON CLAW",
     "move_3_0": "ZEN HEADBUTT",
     "move_4_0": "WING ATTACK",
-    "tr_sprite": "trainer_sprites/grace.png",
-    "name": "Grace",
     "raw": null,
     "raw_species_id_0": 373,
     "raw_species_id_1": null,
@@ -35699,7 +37553,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 488,
-    "class": "Socialite"
+    "class": "Socialite",
+    "type": "Singles"
   },
   {
     "ivs_0": 30,
@@ -35713,12 +37568,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Calm",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/nurseryaide.png",
+    "name": "Miho",
     "move_1_0": "KNOCK OFF",
     "move_2_0": "SEED BOMB",
     "move_3_0": "DARK PULSE",
     "move_4_0": "GIGA DRAIN",
-    "tr_sprite": "trainer_sprites/nurseryaide.png",
-    "name": "Miho",
     "raw": null,
     "raw_species_id_0": 275,
     "raw_species_id_1": null,
@@ -35727,7 +37582,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 489,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 50,
@@ -35741,12 +37597,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Bold",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Shane",
     "move_1_0": "STONE EDGE",
     "move_2_0": "HAMMER ARM",
     "move_3_0": "DRILL RUN",
     "move_4_0": "TAKE DOWN",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Shane",
     "raw": null,
     "raw_species_id_0": 464,
     "raw_species_id_1": null,
@@ -35755,7 +37611,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 490,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -35822,6 +37679,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Mild",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Jolly",
     "ability_name_1": "Adaptability",
     "nature_2": "Calm",
@@ -35830,8 +37689,6 @@ trainersById = [
     "ability_name_3": "Iron Fist",
     "nature_4": "Impish",
     "ability_name_4": "Swift Swim",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 157,
@@ -35840,7 +37697,8 @@ trainersById = [
     "raw_species_id_4": 260,
     "raw_species_id_5": null,
     "index": 491,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -35907,16 +37765,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Sassy",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Hasty",
     "ability_name_1": "Intimidate",
     "nature_2": "Lonely",
     "ability_name_2": "Water Absorb",
     "nature_3": "Jolly",
-    "ability_name_3": "Battle Armor",
+    "ability_name_3": "Intimidate",
     "nature_4": "Naughty",
     "ability_name_4": "Technician",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 160,
@@ -35925,7 +37783,8 @@ trainersById = [
     "raw_species_id_4": 254,
     "raw_species_id_5": null,
     "index": 492,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -35992,6 +37851,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Adamant",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Relaxed",
     "ability_name_1": "Filter",
     "nature_2": "Docile",
@@ -35999,9 +37860,7 @@ trainersById = [
     "nature_3": "Rash",
     "ability_name_3": "Intimidate",
     "nature_4": "Brave",
-    "ability_name_4": "Sheer Force",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
+    "ability_name_4": "Speed Boost",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 154,
@@ -36010,7 +37869,8 @@ trainersById = [
     "raw_species_id_4": 257,
     "raw_species_id_5": null,
     "index": 493,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36089,6 +37949,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Jolly",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Timid",
     "ability_name_1": "Adaptability",
     "nature_2": "Mild",
@@ -36099,8 +37961,6 @@ trainersById = [
     "ability_name_4": "Levitate",
     "nature_5": "Bold",
     "ability_name_5": "Swift Swim",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 157,
@@ -36109,7 +37969,8 @@ trainersById = [
     "raw_species_id_4": 478,
     "raw_species_id_5": 260,
     "index": 494,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -36188,18 +38049,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Rash",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Rash",
     "ability_name_1": "Intimidate",
     "nature_2": "Sassy",
     "ability_name_2": "Water Absorb",
     "nature_3": "Timid",
-    "ability_name_3": "Battle Armor",
+    "ability_name_3": "Intimidate",
     "nature_4": "Hasty",
     "ability_name_4": "Water Absorb",
     "nature_5": "Lonely",
     "ability_name_5": "Technician",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 160,
@@ -36208,7 +38069,8 @@ trainersById = [
     "raw_species_id_4": 219,
     "raw_species_id_5": 254,
     "index": 495,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -36287,6 +38149,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Quirky",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Naughty",
     "ability_name_1": "Filter",
     "nature_2": "Adamant",
@@ -36296,9 +38160,7 @@ trainersById = [
     "nature_4": "Hasty",
     "ability_name_4": "Levitate",
     "nature_5": "Quirky",
-    "ability_name_5": "Sheer Force",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
+    "ability_name_5": "Speed Boost",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 154,
@@ -36307,7 +38169,8 @@ trainersById = [
     "raw_species_id_4": 462,
     "raw_species_id_5": 257,
     "index": 496,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 0,
@@ -36321,12 +38184,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -36335,7 +38198,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 497,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36366,10 +38230,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Careful",
     "ability_name_0": "Prankster",
-    "nature_1": "Adamant",
-    "ability_name_1": "Swift Swim",
     "tr_sprite": "trainer_sprites/bianca.png",
     "name": "Bianca",
+    "nature_1": "Adamant",
+    "ability_name_1": "Swift Swim",
     "raw": null,
     "raw_species_id_0": 353,
     "raw_species_id_1": 258,
@@ -36378,7 +38242,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 498,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36409,10 +38274,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Adamant",
     "ability_name_0": "Prankster",
-    "nature_1": "Quirky",
-    "ability_name_1": "Technician",
     "tr_sprite": "trainer_sprites/bianca.png",
     "name": "Bianca",
+    "nature_1": "Quirky",
+    "ability_name_1": "Technician",
     "raw": null,
     "raw_species_id_0": 353,
     "raw_species_id_1": 252,
@@ -36421,7 +38286,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 499,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36452,10 +38318,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Lax",
     "ability_name_0": "Prankster",
-    "nature_1": "Sassy",
-    "ability_name_1": "Speed Boost",
     "tr_sprite": "trainer_sprites/bianca.png",
     "name": "Bianca",
+    "nature_1": "Sassy",
+    "ability_name_1": "Speed Boost",
     "raw": null,
     "raw_species_id_0": 353,
     "raw_species_id_1": 255,
@@ -36464,7 +38330,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 500,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36492,7 +38359,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 501,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36509,7 +38377,7 @@ trainersById = [
     "gender_0": "Default",
     "template": 1,
     "nature_0": "Relaxed",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
     "tr_sprite": "trainer_sprites/preschooler.png",
     "name": "Homer",
     "raw": null,
@@ -36520,7 +38388,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 502,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36582,16 +38451,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Calm",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/harlequin.png",
+    "name": "Pat",
     "nature_1": "Lax",
-    "ability_name_1": "Shadow Tag",
+    "ability_name_1": "Cursed Body",
     "nature_2": "Docile",
     "ability_name_2": "Shell Armor",
     "nature_3": "Serious",
     "ability_name_3": "Defiant",
     "nature_4": "Hardy",
     "ability_name_4": "Defiant",
-    "tr_sprite": "trainer_sprites/harlequin.png",
-    "name": "Pat",
     "raw": null,
     "raw_species_id_0": 122,
     "raw_species_id_1": 94,
@@ -36600,7 +38469,8 @@ trainersById = [
     "raw_species_id_4": 57,
     "raw_species_id_5": null,
     "index": 503,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36662,6 +38532,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Bashful",
     "ability_name_0": "Huge Power",
+    "tr_sprite": "trainer_sprites/harlequin.png",
+    "name": "Ian",
     "nature_1": "Gentle",
     "ability_name_1": "Rock Head",
     "nature_2": "Hardy",
@@ -36670,8 +38542,6 @@ trainersById = [
     "ability_name_3": "Magic Bounce",
     "nature_4": "Impish",
     "ability_name_4": "Thick Fat",
-    "tr_sprite": "trainer_sprites/harlequin.png",
-    "name": "Ian",
     "raw": null,
     "raw_species_id_0": 168,
     "raw_species_id_1": 185,
@@ -36680,7 +38550,8 @@ trainersById = [
     "raw_species_id_4": 473,
     "raw_species_id_5": null,
     "index": 504,
-    "class": "Harlequin"
+    "class": "Harlequin",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36720,12 +38591,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Naive",
     "ability_name_0": "Swift Swim",
+    "tr_sprite": "trainer_sprites/parasollady.png",
+    "name": "April",
     "nature_1": "Naive",
     "ability_name_1": "Tinted Lens",
     "nature_2": "Impish",
     "ability_name_2": "Justified",
-    "tr_sprite": "trainer_sprites/parasollady.png",
-    "name": "April",
     "raw": null,
     "raw_species_id_0": 55,
     "raw_species_id_1": 267,
@@ -36734,7 +38605,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 505,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36774,12 +38646,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Calm",
     "ability_name_0": "Pressure",
+    "tr_sprite": "trainer_sprites/motorcyclist.png",
+    "name": "Charles",
     "nature_1": "Brave",
     "ability_name_1": "Pressure",
     "nature_2": "Timid",
     "ability_name_2": "Pressure",
-    "tr_sprite": "trainer_sprites/motorcyclist.png",
-    "name": "Charles",
     "raw": null,
     "raw_species_id_0": 144,
     "raw_species_id_1": 145,
@@ -36788,7 +38660,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 506,
-    "class": "Motorcyclist"
+    "class": "Motorcyclist",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -36843,14 +38716,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Naive",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Hasty",
     "ability_name_1": "Adaptability",
     "nature_2": "Bashful",
     "ability_name_2": "Water Absorb",
     "nature_3": "Hardy",
     "ability_name_3": "Swift Swim",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 157,
@@ -36859,7 +38732,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 507,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36914,14 +38788,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Calm",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Lax",
     "ability_name_1": "Intimidate",
     "nature_2": "Careful",
     "ability_name_2": "Water Absorb",
     "nature_3": "Gentle",
     "ability_name_3": "Technician",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 160,
@@ -36930,7 +38804,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 508,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -36985,14 +38860,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Lonely",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Bold",
     "ability_name_1": "Filter",
     "nature_2": "Naughty",
     "ability_name_2": "Water Absorb",
     "nature_3": "Rash",
-    "ability_name_3": "Sheer Force",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
+    "ability_name_3": "Speed Boost",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 154,
@@ -37001,7 +38876,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 509,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37015,12 +38891,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Impish",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/pokemontrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/pokemontrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -37029,7 +38905,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 510,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37043,12 +38920,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Naughty",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/pokemontrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/pokemontrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -37057,7 +38934,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 511,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37071,12 +38949,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/pokemontrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/pokemontrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -37085,7 +38963,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 512,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37124,13 +39003,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Bold",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Eileen",
     "nature_1": "Naughty",
     "ability_name_1": "Adaptability",
     "nature_2": "Sassy",
     "ability_name_2": "Sheer Force",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Eileen",
     "raw": null,
     "raw_species_id_0": 6,
     "raw_species_id_1": 157,
@@ -37139,7 +39018,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 513,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -37179,12 +39059,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Lonely",
     "ability_name_0": "Intimidate",
-    "nature_1": "Quiet",
-    "ability_name_1": "Regenerator",
-    "nature_2": "Quiet",
-    "ability_name_2": "Swift Swim",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Lou",
+    "nature_1": "Quiet",
+    "ability_name_1": "Drizzle",
+    "nature_2": "Quiet",
+    "ability_name_2": "Swift Swim",
     "raw": null,
     "raw_species_id_0": 160,
     "raw_species_id_1": 9,
@@ -37193,7 +39073,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 514,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 0,
@@ -37207,12 +39088,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Modest",
     "ability_name_0": "Skill Link",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Kyle",
     "move_1_0": "ARM THRUST",
     "move_2_0": "TAIL SLAP",
     "move_3_0": "SING",
     "move_4_0": "TICKLE",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Kyle",
     "raw": null,
     "raw_species_id_0": 573,
     "raw_species_id_1": null,
@@ -37221,7 +39102,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 515,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37235,12 +39117,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Hardy",
     "ability_name_0": "Chlorophyll",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Dye",
     "move_1_0": "TEETER DANCE",
     "move_2_0": "SLEEP POWDER",
     "move_3_0": "GIGA DRAIN",
     "move_4_0": "HELPING HAND",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Dye",
     "raw": null,
     "raw_species_id_0": 549,
     "raw_species_id_1": null,
@@ -37249,7 +39131,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 516,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37263,12 +39146,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Hasty",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Dye",
     "move_1_0": "GUST",
     "move_2_0": "HELPING HAND",
     "move_3_0": "LEAF STORM",
     "move_4_0": "GIGA DRAIN",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Dye",
     "raw": null,
     "raw_species_id_0": 547,
     "raw_species_id_1": null,
@@ -37277,7 +39160,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 517,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37356,8 +39240,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Caroll",
     "nature_1": "Docile",
-    "ability_name_1": "Sand Veil",
+    "ability_name_1": "Arena Trap",
     "nature_2": "Rash",
     "ability_name_2": "Slow Start",
     "nature_3": "Hasty",
@@ -37366,8 +39252,6 @@ trainersById = [
     "ability_name_4": "Adaptability",
     "nature_5": "Naughty",
     "ability_name_5": "Swift Swim",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Caroll",
     "raw": null,
     "raw_species_id_0": 130,
     "raw_species_id_1": 51,
@@ -37376,7 +39260,8 @@ trainersById = [
     "raw_species_id_4": 352,
     "raw_species_id_5": 260,
     "index": 518,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37455,6 +39340,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Relaxed",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Jordan",
     "nature_1": "Brave",
     "ability_name_1": "Swift Swim",
     "nature_2": "Rash",
@@ -37464,9 +39351,7 @@ trainersById = [
     "nature_4": "Calm",
     "ability_name_4": "Poison Heal",
     "nature_5": "Naughty",
-    "ability_name_5": "Compoundeyes",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Jordan",
+    "ability_name_5": "Tinted Lens",
     "raw": null,
     "raw_species_id_0": 59,
     "raw_species_id_1": 224,
@@ -37475,7 +39360,8 @@ trainersById = [
     "raw_species_id_4": 286,
     "raw_species_id_5": 164,
     "index": 519,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37554,18 +39440,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Bashful",
     "ability_name_0": "Tinted Lens",
+    "tr_sprite": "trainer_sprites/benefactor.png",
+    "name": "Buhrito",
     "nature_1": "Impish",
-    "ability_name_1": "Rock Head",
+    "ability_name_1": "Sand Stream",
     "nature_2": "Quiet",
     "ability_name_2": "Sand Veil",
     "nature_3": "Timid",
-    "ability_name_3": "Rock Head",
+    "ability_name_3": "Moody",
     "nature_4": "Modest",
     "ability_name_4": "Levitate",
     "nature_5": "Quiet",
     "ability_name_5": "Rock Head",
-    "tr_sprite": "trainer_sprites/benefactor.png",
-    "name": "Buhrito",
     "raw": null,
     "raw_species_id_0": 314,
     "raw_species_id_1": 208,
@@ -37574,7 +39460,8 @@ trainersById = [
     "raw_species_id_4": 330,
     "raw_species_id_5": 142,
     "index": 520,
-    "class": "Benefactor"
+    "class": "Benefactor",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37588,12 +39475,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Hasty",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -37602,7 +39489,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 521,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37616,12 +39504,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Gentle",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -37630,7 +39518,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 522,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37708,7 +39597,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Naughty",
-    "ability_name_0": "Intimidate",
+    "ability_name_0": "Moxie",
+    "tr_sprite": "trainer_sprites/benefactor.png",
+    "name": "Vaugsy",
     "nature_1": "Careful",
     "ability_name_1": "Volt Absorb",
     "nature_2": "Bashful",
@@ -37716,11 +39607,9 @@ trainersById = [
     "nature_3": "Modest",
     "ability_name_3": "Technician",
     "nature_4": "Careful",
-    "ability_name_4": "Water Absorb",
+    "ability_name_4": "Cursed Body",
     "nature_5": "Quiet",
     "ability_name_5": "Sand Veil",
-    "tr_sprite": "trainer_sprites/benefactor.png",
-    "name": "Vaugsy",
     "raw": null,
     "raw_species_id_0": 553,
     "raw_species_id_1": 135,
@@ -37729,7 +39618,8 @@ trainersById = [
     "raw_species_id_4": 593,
     "raw_species_id_5": 445,
     "index": 523,
-    "class": "Benefactor"
+    "class": "Benefactor",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37808,18 +39698,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Modest",
     "ability_name_0": "Clear Body",
+    "tr_sprite": "trainer_sprites/benefactor.png",
+    "name": "Placeholder",
     "nature_1": "Rash",
-    "ability_name_1": "Magic Guard",
+    "ability_name_1": "Prankster",
     "nature_2": "Rash",
-    "ability_name_2": "Iron Barbs",
+    "ability_name_2": "Shell Armor",
     "nature_3": "Naive",
-    "ability_name_3": "Adaptability",
+    "ability_name_3": "Guts",
     "nature_4": "Lonely",
     "ability_name_4": "Magic Guard",
     "nature_5": "Careful",
     "ability_name_5": "Sturdy",
-    "tr_sprite": "trainer_sprites/benefactor.png",
-    "name": "Placeholder",
     "raw": null,
     "raw_species_id_0": 227,
     "raw_species_id_1": 302,
@@ -37828,7 +39718,8 @@ trainersById = [
     "raw_species_id_4": 325,
     "raw_species_id_5": 539,
     "index": 524,
-    "class": "Benefactor"
+    "class": "Benefactor",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -37907,18 +39798,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Mild",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/benefactor.png",
+    "name": "JoFerr",
     "nature_1": "Careful",
-    "ability_name_1": "Iron Fist",
+    "ability_name_1": "Clear Body",
     "nature_2": "Relaxed",
     "ability_name_2": "Intimidate",
     "nature_3": "Calm",
-    "ability_name_3": "Sturdy",
+    "ability_name_3": "Technician",
     "nature_4": "Serious",
     "ability_name_4": "Swift Swim",
     "nature_5": "Hasty",
     "ability_name_5": "Poison Heal",
-    "tr_sprite": "trainer_sprites/benefactor.png",
-    "name": "JoFerr",
     "raw": null,
     "raw_species_id_0": 254,
     "raw_species_id_1": 376,
@@ -37927,7 +39818,8 @@ trainersById = [
     "raw_species_id_4": 260,
     "raw_species_id_5": 286,
     "index": 525,
-    "class": "Benefactor"
+    "class": "Benefactor",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -37948,6 +39840,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/scientist.png",
+    "name": "Dudley",
     "nature_1": "Sassy",
     "ability_name_1": "Levitate",
     "move_1_0": "AUTOTOMIZE",
@@ -37958,8 +39852,6 @@ trainersById = [
     "move_2_1": "CHARGE BEAM",
     "move_3_1": "SPARK",
     "move_4_1": "GEAR GRIND",
-    "tr_sprite": "trainer_sprites/scientist.png",
-    "name": "Dudley",
     "raw": null,
     "raw_species_id_0": 599,
     "raw_species_id_1": 600,
@@ -37968,7 +39860,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 526,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -37982,12 +39875,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Careful",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/biker.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/biker.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -37996,7 +39889,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 527,
-    "class": "Biker"
+    "class": "Biker",
+    "type": "Rotation"
   },
   {
     "ivs_0": 100,
@@ -38024,6 +39918,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Snow Cloak",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Kiyo",
     "nature_1": "Hardy",
     "ability_name_1": "Sand Rush",
     "nature_2": "Serious",
@@ -38040,8 +39936,6 @@ trainersById = [
     "move_2_2": "SWALLOW",
     "move_3_2": "SPIT UP",
     "move_4_2": "STOCKPILE",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Kiyo",
     "raw": null,
     "raw_species_id_0": 614,
     "raw_species_id_1": 530,
@@ -38050,7 +39944,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 528,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -38122,19 +40017,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Relaxed",
-    "ability_name_0": "Mummy",
+    "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/schoolkid.png",
+    "name": "Shaye",
     "nature_1": "Adamant",
     "ability_name_1": "Intimidate",
     "nature_2": "Docile",
-    "ability_name_2": "Overcoat",
+    "ability_name_2": "Magic Guard",
     "nature_3": "Gentle",
     "ability_name_3": "Filter",
     "nature_4": "Timid",
-    "ability_name_4": "Water Absorb",
+    "ability_name_4": "Cursed Body",
     "nature_5": "Quiet",
     "ability_name_5": "Forewarn",
-    "tr_sprite": "trainer_sprites/schoolkid.png",
-    "name": "Shaye",
     "raw": null,
     "raw_species_id_0": 563,
     "raw_species_id_1": 560,
@@ -38143,7 +40038,8 @@ trainersById = [
     "raw_species_id_4": 593,
     "raw_species_id_5": 518,
     "index": 529,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38216,6 +40112,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Calm",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/nurseryaide.png",
+    "name": "Briana",
     "nature_1": "Hardy",
     "ability_name_1": "Skill Link",
     "nature_2": "Calm",
@@ -38226,8 +40124,6 @@ trainersById = [
     "ability_name_4": "Unnerve",
     "nature_5": "Brave",
     "ability_name_5": "Compoundeyes",
-    "tr_sprite": "trainer_sprites/nurseryaide.png",
-    "name": "Briana",
     "raw": null,
     "raw_species_id_0": 609,
     "raw_species_id_1": 573,
@@ -38236,7 +40132,8 @@ trainersById = [
     "raw_species_id_4": 612,
     "raw_species_id_5": 596,
     "index": 530,
-    "class": "Nursery Aide"
+    "class": "Nursery Aide",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38303,16 +40200,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Relaxed",
     "ability_name_0": "Defiant",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Brenda",
     "nature_1": "Bashful",
     "ability_name_1": "Sheer Force",
     "nature_2": "Bold",
     "ability_name_2": "Chlorophyll",
     "nature_3": "Serious",
-    "ability_name_3": "Swarm",
+    "ability_name_3": "Technician",
     "nature_4": "Adamant",
     "ability_name_4": "Huge Power",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Brenda",
     "raw": null,
     "raw_species_id_0": 85,
     "raw_species_id_1": 34,
@@ -38321,7 +40218,8 @@ trainersById = [
     "raw_species_id_4": 303,
     "raw_species_id_5": null,
     "index": 531,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38387,7 +40285,9 @@ trainersById = [
     "gender_4": "Default",
     "template": 3,
     "nature_0": "Impish",
-    "ability_name_0": "Intimidate",
+    "ability_name_0": "Moxie",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Claude",
     "nature_1": "Lonely",
     "ability_name_1": "Sheer Force",
     "nature_2": "Brave",
@@ -38396,8 +40296,6 @@ trainersById = [
     "ability_name_3": "Thick Fat",
     "nature_4": "Careful",
     "ability_name_4": "Unaware",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Claude",
     "raw": null,
     "raw_species_id_0": 127,
     "raw_species_id_1": 31,
@@ -38406,7 +40304,8 @@ trainersById = [
     "raw_species_id_4": 195,
     "raw_species_id_5": null,
     "index": 532,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38467,7 +40366,9 @@ trainersById = [
     "gender_4": "Default",
     "template": 1,
     "nature_0": "Relaxed",
-    "ability_name_0": "Water Absorb",
+    "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Sean",
     "nature_1": "Adamant",
     "ability_name_1": "Marvel Scale",
     "nature_2": "Brave",
@@ -38476,8 +40377,6 @@ trainersById = [
     "ability_name_3": "Regenerator",
     "nature_4": "Lax",
     "ability_name_4": "Huge Power",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Sean",
     "raw": null,
     "raw_species_id_0": 186,
     "raw_species_id_1": 350,
@@ -38486,7 +40385,8 @@ trainersById = [
     "raw_species_id_4": 184,
     "raw_species_id_5": null,
     "index": 533,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -38500,12 +40400,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Gentle",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -38514,7 +40414,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 534,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -38528,12 +40429,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Jolly",
     "ability_name_0": "Sturdy",
+    "tr_sprite": "trainer_sprites/hiker.png",
+    "name": "Andy",
     "move_1_0": "POWER GEM",
     "move_2_0": "SMACK DOWN",
     "move_3_0": "IRON DEFENSE",
     "move_4_0": "MUD-SLAP",
-    "tr_sprite": "trainer_sprites/hiker.png",
-    "name": "Andy",
     "raw": null,
     "raw_species_id_0": 525,
     "raw_species_id_1": null,
@@ -38542,7 +40443,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 535,
-    "class": "Hiker"
+    "class": "Hiker",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -38556,12 +40458,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Overcoat",
+    "tr_sprite": "trainer_sprites/preschooler_f.png",
+    "name": "Winter",
     "move_1_0": "RECOVER",
     "move_2_0": "CHARM",
     "move_3_0": "LIGHT SCREEN",
     "move_4_0": "HIDDEN POWER",
-    "tr_sprite": "trainer_sprites/preschooler_f.png",
-    "name": "Winter",
     "raw": null,
     "raw_species_id_0": 577,
     "raw_species_id_1": null,
@@ -38570,7 +40472,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 536,
-    "class": "Preschooler"
+    "class": "Preschooler",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -38584,12 +40487,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Hustle",
+    "tr_sprite": "trainer_sprites/dancer.png",
+    "name": "Dirk",
     "move_1_0": "WORK UP",
     "move_2_0": "FIRE PUNCH",
     "move_3_0": "FACADE",
     "move_4_0": "UPROAR",
-    "tr_sprite": "trainer_sprites/dancer.png",
-    "name": "Dirk",
     "raw": null,
     "raw_species_id_0": 554,
     "raw_species_id_1": null,
@@ -38598,7 +40501,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 537,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -38612,12 +40516,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Rash",
     "ability_name_0": "Leaf Guard",
+    "tr_sprite": "trainer_sprites/waitress.png",
+    "name": "Aurora",
     "move_1_0": "PROTECT",
     "move_2_0": "RAZOR LEAF",
     "move_3_0": "BUG BITE",
     "move_4_0": "STRING SHOT",
-    "tr_sprite": "trainer_sprites/waitress.png",
-    "name": "Aurora",
     "raw": null,
     "raw_species_id_0": 541,
     "raw_species_id_1": null,
@@ -38626,7 +40530,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 538,
-    "class": "Waitress"
+    "class": "Waitress",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38705,8 +40610,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Hasty",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Adamant",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Serious",
     "ability_name_2": "Thick Fat",
     "nature_3": "Lonely",
@@ -38714,9 +40621,7 @@ trainersById = [
     "nature_4": "Hasty",
     "ability_name_4": "Intimidate",
     "nature_5": "Timid",
-    "ability_name_5": "Sheer Force",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
+    "ability_name_5": "Speed Boost",
     "raw": null,
     "raw_species_id_0": 362,
     "raw_species_id_1": 136,
@@ -38725,7 +40630,8 @@ trainersById = [
     "raw_species_id_4": 373,
     "raw_species_id_5": 257,
     "index": 539,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38804,18 +40710,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Lax",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Docile",
-    "ability_name_1": "Water Absorb",
+    "ability_name_1": "Drizzle",
     "nature_2": "Calm",
     "ability_name_2": "Thick Fat",
     "nature_3": "Naive",
-    "ability_name_3": "Inner Focus",
+    "ability_name_3": "Sniper",
     "nature_4": "Rash",
     "ability_name_4": "Iron Fist",
     "nature_5": "Bashful",
     "ability_name_5": "Swift Swim",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 310,
     "raw_species_id_1": 134,
@@ -38824,7 +40730,8 @@ trainersById = [
     "raw_species_id_4": 376,
     "raw_species_id_5": 260,
     "index": 540,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -38903,18 +40810,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Hasty",
-    "ability_name_1": "Volt Absorb",
+    "ability_name_1": "Speed Boost",
     "nature_2": "Mild",
     "ability_name_2": "Thick Fat",
     "nature_3": "Sassy",
     "ability_name_3": "Super Luck",
     "nature_4": "Bashful",
-    "ability_name_4": "Battle Armor",
+    "ability_name_4": "Intimidate",
     "nature_5": "Jolly",
     "ability_name_5": "Technician",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 229,
     "raw_species_id_1": 135,
@@ -38923,7 +40830,8 @@ trainersById = [
     "raw_species_id_4": 248,
     "raw_species_id_5": 254,
     "index": 541,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 250,
@@ -39002,6 +40910,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Timid",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/gamefreak.png",
+    "name": "Morimoto",
     "nature_1": "Sassy",
     "ability_name_1": "Unburden",
     "nature_2": "Sassy",
@@ -39012,8 +40922,6 @@ trainersById = [
     "ability_name_4": "Unaware",
     "nature_5": "Sassy",
     "ability_name_5": "Lightningrod",
-    "tr_sprite": "trainer_sprites/gamefreak.png",
-    "name": "Morimoto",
     "raw": null,
     "raw_species_id_0": 510,
     "raw_species_id_1": 516,
@@ -39022,7 +40930,8 @@ trainersById = [
     "raw_species_id_4": 528,
     "raw_species_id_5": 523,
     "index": 542,
-    "class": "GAME FREAK"
+    "class": "GAME FREAK",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39036,12 +40945,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Sassy",
     "ability_name_0": "Static",
+    "tr_sprite": "trainer_sprites/maid.png",
+    "name": "Taynya",
     "move_1_0": "DISCHARGE",
     "move_2_0": "AGILITY",
     "move_3_0": "VOLT SWITCH",
     "move_4_0": "ENCORE",
-    "tr_sprite": "trainer_sprites/maid.png",
-    "name": "Taynya",
     "raw": null,
     "raw_species_id_0": 587,
     "raw_species_id_1": null,
@@ -39050,7 +40959,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 543,
-    "class": "Maid"
+    "class": "Maid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -39101,14 +41011,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Magic Bounce",
+    "tr_sprite": "trainer_sprites/biker.png",
+    "name": "Morgann",
     "nature_1": "Naive",
     "ability_name_1": "Magic Guard",
     "nature_2": "Lax",
-    "ability_name_2": "Snow Cloak",
+    "ability_name_2": "Snow Warning",
     "nature_3": "Bold",
     "ability_name_3": "Chlorophyll",
-    "tr_sprite": "trainer_sprites/biker.png",
-    "name": "Morgann",
     "raw": null,
     "raw_species_id_0": 196,
     "raw_species_id_1": 197,
@@ -39117,7 +41027,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 544,
-    "class": "Biker"
+    "class": "Biker",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -39172,14 +41083,14 @@ trainersById = [
     "template": 3,
     "nature_0": "Bold",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/biker.png",
+    "name": "Jeremy",
     "nature_1": "Sassy",
     "ability_name_1": "Intimidate",
     "nature_2": "Brave",
     "ability_name_2": "Solid Rock",
     "nature_3": "Docile",
-    "ability_name_3": "Flash Fire",
-    "tr_sprite": "trainer_sprites/biker.png",
-    "name": "Jeremy",
+    "ability_name_3": "Drought",
     "raw": null,
     "raw_species_id_0": 24,
     "raw_species_id_1": 336,
@@ -39188,7 +41099,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 545,
-    "class": "Biker"
+    "class": "Biker",
+    "type": "Rotation"
   },
   {
     "ivs_0": 0,
@@ -39217,10 +41129,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Impish",
     "ability_name_0": "Natural Cure",
-    "nature_1": "Impish",
-    "ability_name_1": "Natural Cure",
     "tr_sprite": "trainer_sprites/nurse.png",
     "name": "Shery",
+    "nature_1": "Impish",
+    "ability_name_1": "Natural Cure",
     "raw": null,
     "raw_species_id_0": 440,
     "raw_species_id_1": 113,
@@ -39229,7 +41141,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 546,
-    "class": "Nurse"
+    "class": "Nurse",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -39307,7 +41220,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Careful",
-    "ability_name_0": "Battle Armor",
+    "ability_name_0": "Hustle",
+    "tr_sprite": "trainer_sprites/benefactor.png",
+    "name": "Safetyman",
     "nature_1": "Timid",
     "ability_name_1": "Technician",
     "nature_2": "Careful",
@@ -39318,8 +41233,6 @@ trainersById = [
     "ability_name_4": "Sheer Force",
     "nature_5": "Docile",
     "ability_name_5": "Rock Head",
-    "tr_sprite": "trainer_sprites/benefactor.png",
-    "name": "Safetyman",
     "raw": null,
     "raw_species_id_0": 632,
     "raw_species_id_1": 254,
@@ -39328,7 +41241,8 @@ trainersById = [
     "raw_species_id_4": 555,
     "raw_species_id_5": 306,
     "index": 547,
-    "class": "Benefactor"
+    "class": "Benefactor",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -39406,19 +41320,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Quiet",
-    "ability_name_0": "Ice Body",
+    "ability_name_0": "Thick Fat",
+    "tr_sprite": "trainer_sprites/creator.png",
+    "name": "Suicuu",
     "nature_1": "Impish",
     "ability_name_1": "Prankster",
     "nature_2": "Timid",
     "ability_name_2": "Thick Fat",
     "nature_3": "Docile",
-    "ability_name_3": "Overcoat",
+    "ability_name_3": "Magic Guard",
     "nature_4": "Timid",
     "ability_name_4": "Pressure",
     "nature_5": "Brave",
     "ability_name_5": "Rock Head",
-    "tr_sprite": "trainer_sprites/creator.png",
-    "name": "Suicuu",
     "raw": null,
     "raw_species_id_0": 365,
     "raw_species_id_1": 189,
@@ -39427,7 +41341,8 @@ trainersById = [
     "raw_species_id_4": 356,
     "raw_species_id_5": 500,
     "index": 548,
-    "class": "Creator"
+    "class": "Creator",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -39456,10 +41371,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Hasty",
     "ability_name_0": "Unaware",
-    "nature_1": "Modest",
-    "ability_name_1": "Clear Body",
     "tr_sprite": "trainer_sprites/pokemonranger.png",
     "name": "Mylene",
+    "nature_1": "Modest",
+    "ability_name_1": "Clear Body",
     "raw": null,
     "raw_species_id_0": 195,
     "raw_species_id_1": 227,
@@ -39468,7 +41383,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 549,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -39496,11 +41412,11 @@ trainersById = [
     "gender_1": "Default",
     "template": 1,
     "nature_0": "Jolly",
-    "ability_name_0": "Sand Veil",
-    "nature_1": "Naughty",
-    "ability_name_1": "Thick Fat",
+    "ability_name_0": "Arena Trap",
     "tr_sprite": "trainer_sprites/pokemonranger.png",
     "name": "Jaden",
+    "nature_1": "Naughty",
+    "ability_name_1": "Thick Fat",
     "raw": null,
     "raw_species_id_0": 51,
     "raw_species_id_1": 473,
@@ -39509,7 +41425,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 550,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -39582,8 +41499,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Impish",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/baker.png",
+    "name": "Chris",
     "nature_1": "Lax",
-    "ability_name_1": "Scrappy",
+    "ability_name_1": "Tinted Lens",
     "nature_2": "Relaxed",
     "ability_name_2": "Flower Gift",
     "nature_3": "Hasty",
@@ -39592,8 +41511,6 @@ trainersById = [
     "ability_name_4": "Thick Fat",
     "nature_5": "Serious",
     "ability_name_5": "Prankster",
-    "tr_sprite": "trainer_sprites/baker.png",
-    "name": "Chris",
     "raw": null,
     "raw_species_id_0": 416,
     "raw_species_id_1": 441,
@@ -39602,7 +41519,8 @@ trainersById = [
     "raw_species_id_4": 143,
     "raw_species_id_5": 547,
     "index": 551,
-    "class": "Baker"
+    "class": "Baker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -39653,14 +41571,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Timid",
     "ability_name_0": "Sand Veil",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Impish",
     "ability_name_1": "Sand Force",
     "nature_2": "Naive",
     "ability_name_2": "Levitate",
     "nature_3": "Naive",
     "ability_name_3": "Clear Body",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 332,
     "raw_species_id_1": 28,
@@ -39669,7 +41587,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 552,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39683,12 +41602,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "move_1_0": "HYPNOSIS",
     "move_2_0": "CRUNCH",
     "move_3_0": "SAND-ATTACK",
     "move_4_0": "DETECT",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -39697,7 +41616,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 553,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39718,6 +41638,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Naive",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Brave",
     "ability_name_1": "Intimidate",
     "move_1_0": "ASSURANCE",
@@ -39728,8 +41650,6 @@ trainersById = [
     "move_2_1": "SAND-ATTACK",
     "move_3_1": "DETECT",
     "move_4_1": "BIDE",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 551,
     "raw_species_id_1": 504,
@@ -39738,7 +41658,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 554,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39752,12 +41673,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "move_1_0": "ASSURANCE",
     "move_2_0": "SAND TOMB",
     "move_3_0": "TORMENT",
     "move_4_0": "SAND-ATTACK",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 551,
     "raw_species_id_1": null,
@@ -39766,7 +41687,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 555,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39787,6 +41709,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Quirky",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Lonely",
     "ability_name_1": "Shed Skin",
     "move_1_0": "CRUNCH",
@@ -39797,8 +41721,6 @@ trainersById = [
     "move_2_1": "HEADBUTT",
     "move_3_1": "FAINT ATTACK",
     "move_4_1": "SAND-ATTACK",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": 559,
@@ -39807,7 +41729,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 556,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39821,12 +41744,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Bashful",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "move_1_0": "CONFUSE RAY",
     "move_2_0": "HYPNOSIS",
     "move_3_0": "CRUNCH",
     "move_4_0": "SAND-ATTACK",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 505,
     "raw_species_id_1": null,
@@ -39835,7 +41758,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 557,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39849,12 +41773,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/pokemontrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/pokemontrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -39863,7 +41787,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 558,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39877,12 +41802,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Brave",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/pokemontrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/pokemontrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -39891,7 +41816,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 559,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39905,12 +41831,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Quiet",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/pokemontrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/pokemontrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -39919,7 +41845,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 560,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39933,12 +41860,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Relaxed",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/pokemontrainer.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/pokemontrainer.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -39947,7 +41874,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 561,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -39961,12 +41889,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Rash",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/veteran.png",
+    "name": "",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/veteran.png",
-    "name": "",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -39975,7 +41903,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 562,
-    "class": "Veteran"
+    "class": "Veteran",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40054,18 +41983,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Bashful",
     "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/shauntal.png",
+    "name": "Shauntal",
     "nature_1": "Gentle",
     "ability_name_1": "Adaptability",
     "nature_2": "Relaxed",
     "ability_name_2": "Pressure",
     "nature_3": "Careful",
-    "ability_name_3": "Water Absorb",
+    "ability_name_3": "Cursed Body",
     "nature_4": "Hardy",
     "ability_name_4": "Pressure",
     "nature_5": "Modest",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/shauntal.png",
-    "name": "Shauntal",
     "raw": null,
     "raw_species_id_0": 302,
     "raw_species_id_1": 352,
@@ -40074,7 +42003,8 @@ trainersById = [
     "raw_species_id_4": 487,
     "raw_species_id_5": 609,
     "index": 563,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -40152,9 +42082,11 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Careful",
-    "ability_name_0": "Sand Force",
+    "ability_name_0": "Storm Drain",
+    "tr_sprite": "trainer_sprites/marshal.png",
+    "name": "Marshal",
     "nature_1": "Adamant",
-    "ability_name_1": "Reckless",
+    "ability_name_1": "Sap Sipper",
     "nature_2": "Adamant",
     "ability_name_2": "Sand Stream",
     "nature_3": "Sassy",
@@ -40163,8 +42095,6 @@ trainersById = [
     "ability_name_4": "Swift Swim",
     "nature_5": "Brave",
     "ability_name_5": "Sand Rush",
-    "tr_sprite": "trainer_sprites/marshal.png",
-    "name": "Marshal",
     "raw": null,
     "raw_species_id_0": 423,
     "raw_species_id_1": 626,
@@ -40173,7 +42103,8 @@ trainersById = [
     "raw_species_id_4": 260,
     "raw_species_id_5": 530,
     "index": 564,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -40252,8 +42183,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Hasty",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/grimsley.png",
+    "name": "Grimsley",
     "nature_1": "Naughty",
-    "ability_name_1": "Inner Focus",
+    "ability_name_1": "Sniper",
     "nature_2": "Careful",
     "ability_name_2": "Super Luck",
     "nature_3": "Lax",
@@ -40262,8 +42195,6 @@ trainersById = [
     "ability_name_4": "Intimidate",
     "nature_5": "Calm",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/grimsley.png",
-    "name": "Grimsley",
     "raw": null,
     "raw_species_id_0": 229,
     "raw_species_id_1": 169,
@@ -40272,7 +42203,8 @@ trainersById = [
     "raw_species_id_4": 553,
     "raw_species_id_5": 635,
     "index": 565,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -40351,18 +42283,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Calm",
     "ability_name_0": "Magic Guard",
+    "tr_sprite": "trainer_sprites/caitlin.png",
+    "name": "Caitlin",
     "nature_1": "Adamant",
     "ability_name_1": "Justified",
     "nature_2": "Jolly",
-    "ability_name_2": "Tinted Lens",
+    "ability_name_2": "Magic Guard",
     "nature_3": "Jolly",
     "ability_name_3": "Overcoat",
     "nature_4": "Lonely",
     "ability_name_4": "Levitate",
     "nature_5": "Jolly",
-    "ability_name_5": "Frisk",
-    "tr_sprite": "trainer_sprites/caitlin.png",
-    "name": "Caitlin",
+    "ability_name_5": "Shadow Tag",
     "raw": null,
     "raw_species_id_0": 65,
     "raw_species_id_1": 475,
@@ -40371,7 +42303,8 @@ trainersById = [
     "raw_species_id_4": 488,
     "raw_species_id_5": 576,
     "index": 566,
-    "class": "Elite Four"
+    "class": "Elite Four",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -40450,18 +42383,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Adamant",
     "ability_name_0": "Pressure",
+    "tr_sprite": "trainer_sprites/cynthia.png",
+    "name": "Cynthia",
     "nature_1": "Brave",
     "ability_name_1": "Thick Fat",
     "nature_2": "Naughty",
     "ability_name_2": "No Guard",
     "nature_3": "Brave",
-    "ability_name_3": "Marvel Scale",
+    "ability_name_3": "Cute Charm",
     "nature_4": "Impish",
     "ability_name_4": "Iron Fist",
     "nature_5": "Hardy",
     "ability_name_5": "Sand Veil",
-    "tr_sprite": "trainer_sprites/cynthia.png",
-    "name": "Cynthia",
     "raw": null,
     "raw_species_id_0": 442,
     "raw_species_id_1": 3,
@@ -40470,7 +42403,8 @@ trainersById = [
     "raw_species_id_4": 392,
     "raw_species_id_5": 445,
     "index": 567,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40507,7 +42441,7 @@ trainersById = [
     "ability_3": 1,
     "level_3": 100,
     "padding_3": 0,
-    "species_id_3": "BASCULIN",
+    "species_id_3": "BASCULIN-BLUE-STRIPED",
     "form_3": 1,
     "move_1_3": "HEAD SMASH",
     "move_2_3": "AQUA TAIL",
@@ -40543,18 +42477,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/matt.png",
+    "name": "Matt",
     "nature_1": "Timid",
-    "ability_name_1": "Swift Swim",
+    "ability_name_1": "Technician",
     "nature_2": "Gentle",
-    "ability_name_2": "Natural Cure",
+    "ability_name_2": "Analytic",
     "nature_3": "Jolly",
-    "ability_name_3": "Reckless",
+    "ability_name_3": "Rock Head",
     "nature_4": "Timid",
     "ability_name_4": "Overcoat",
     "nature_5": "Rash",
     "ability_name_5": "Storm Drain",
-    "tr_sprite": "trainer_sprites/matt.png",
-    "name": "Matt",
     "raw": null,
     "raw_species_id_0": 284,
     "raw_species_id_1": 419,
@@ -40563,7 +42497,8 @@ trainersById = [
     "raw_species_id_4": 579,
     "raw_species_id_5": 556,
     "index": 568,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40636,18 +42571,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Rash",
     "ability_name_0": "Levitate",
+    "tr_sprite": "trainer_sprites/swimmerm.png",
+    "name": "Bart",
     "nature_1": "Serious",
-    "ability_name_1": "Tinted Lens",
+    "ability_name_1": "Magic Guard",
     "nature_2": "Lonely",
     "ability_name_2": "Swift Swim",
     "nature_3": "Bold",
-    "ability_name_3": "Battle Armor",
+    "ability_name_3": "Swift Swim",
     "nature_4": "Quirky",
     "ability_name_4": "Regenerator",
     "nature_5": "Careful",
     "ability_name_5": "Swift Swim",
-    "tr_sprite": "trainer_sprites/swimmerm.png",
-    "name": "Bart",
     "raw": null,
     "raw_species_id_0": 604,
     "raw_species_id_1": 561,
@@ -40656,7 +42591,8 @@ trainersById = [
     "raw_species_id_4": 465,
     "raw_species_id_5": 226,
     "index": 569,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40734,19 +42670,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Relaxed",
-    "ability_name_0": "Unaware",
+    "ability_name_0": "Water Absorb",
+    "tr_sprite": "trainer_sprites/swimmerm.png",
+    "name": "Tim",
     "nature_1": "Hasty",
     "ability_name_1": "Multiscale",
     "nature_2": "Mild",
-    "ability_name_2": "Water Absorb",
+    "ability_name_2": "Cursed Body",
     "nature_3": "Bold",
-    "ability_name_3": "Iron Barbs",
+    "ability_name_3": "Shell Armor",
     "nature_4": "Quiet",
     "ability_name_4": "Intimidate",
     "nature_5": "Hasty",
-    "ability_name_5": "Snow Cloak",
-    "tr_sprite": "trainer_sprites/swimmerm.png",
-    "name": "Tim",
+    "ability_name_5": "Swift Swim",
     "raw": null,
     "raw_species_id_0": 195,
     "raw_species_id_1": 149,
@@ -40755,7 +42691,8 @@ trainersById = [
     "raw_species_id_4": 160,
     "raw_species_id_5": 614,
     "index": 570,
-    "class": "Swimmer  M"
+    "class": "Swimmer  M",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40827,19 +42764,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Calm",
-    "ability_name_0": "Ice Body",
+    "ability_name_0": "Thick Fat",
+    "tr_sprite": "trainer_sprites/swimmerf.png",
+    "name": "Rebecca",
     "nature_1": "Gentle",
-    "ability_name_1": "Multiscale",
+    "ability_name_1": "Drizzle",
     "nature_2": "Naughty",
     "ability_name_2": "Swift Swim",
     "nature_3": "Hardy",
     "ability_name_3": "Levitate",
     "nature_4": "Docile",
-    "ability_name_4": "Unburden",
+    "ability_name_4": "Adaptability",
     "nature_5": "Mild",
     "ability_name_5": "Water Absorb",
-    "tr_sprite": "trainer_sprites/swimmerf.png",
-    "name": "Rebecca",
     "raw": null,
     "raw_species_id_0": 365,
     "raw_species_id_1": 279,
@@ -40848,7 +42785,8 @@ trainersById = [
     "raw_species_id_4": 617,
     "raw_species_id_5": 346,
     "index": 571,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -40905,7 +42843,7 @@ trainersById = [
     "ability_5": 1,
     "level_5": 100,
     "padding_5": 0,
-    "species_id_5": "ROTOM",
+    "species_id_5": "ROTOM-MOW",
     "form_5": 5,
     "move_1_5": "LEAF STORM",
     "move_2_5": "THUNDERBOLT",
@@ -40920,19 +42858,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Rash",
-    "ability_name_0": "Torrent",
+    "ability_name_0": "Unaware",
+    "tr_sprite": "trainer_sprites/swimmerf.png",
+    "name": "Tyra",
     "nature_1": "Relaxed",
     "ability_name_1": "Levitate",
     "nature_2": "Naive",
-    "ability_name_2": "Water Absorb",
+    "ability_name_2": "Cursed Body",
     "nature_3": "Hasty",
-    "ability_name_3": "Sand Force",
+    "ability_name_3": "Storm Drain",
     "nature_4": "Jolly",
     "ability_name_4": "Adaptability",
     "nature_5": "Docile",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/swimmerf.png",
-    "name": "Tyra",
     "raw": null,
     "raw_species_id_0": 400,
     "raw_species_id_1": 609,
@@ -40941,7 +42879,8 @@ trainersById = [
     "raw_species_id_4": 474,
     "raw_species_id_5": 479,
     "index": 572,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41013,19 +42952,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Calm",
-    "ability_name_0": "Healer",
+    "ability_name_0": "Regenerator",
+    "tr_sprite": "trainer_sprites/swimmerf.png",
+    "name": "Larissa",
     "nature_1": "Quirky",
     "ability_name_1": "Huge Power",
     "nature_2": "Jolly",
-    "ability_name_2": "Defiant",
+    "ability_name_2": "Sheer Force",
     "nature_3": "Adamant",
     "ability_name_3": "Illusion",
     "nature_4": "Naughty",
     "ability_name_4": "Swift Swim",
     "nature_5": "Bashful",
     "ability_name_5": "Adaptability",
-    "tr_sprite": "trainer_sprites/swimmerf.png",
-    "name": "Larissa",
     "raw": null,
     "raw_species_id_0": 594,
     "raw_species_id_1": 184,
@@ -41034,7 +42973,8 @@ trainersById = [
     "raw_species_id_4": 272,
     "raw_species_id_5": 395,
     "index": 573,
-    "class": "Swimmer  F"
+    "class": "Swimmer  F",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41107,6 +43047,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Bold",
     "ability_name_0": "Regenerator",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Maki",
     "nature_1": "Hasty",
     "ability_name_1": "Volt Absorb",
     "nature_2": "Hardy",
@@ -41114,11 +43056,9 @@ trainersById = [
     "nature_3": "Serious",
     "ability_name_3": "Chlorophyll",
     "nature_4": "Relaxed",
-    "ability_name_4": "Unaware",
+    "ability_name_4": "Simple",
     "nature_5": "Naughty",
-    "ability_name_5": "Sniper",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Maki",
+    "ability_name_5": "Water Absorb",
     "raw": null,
     "raw_species_id_0": 465,
     "raw_species_id_1": 417,
@@ -41127,7 +43067,8 @@ trainersById = [
     "raw_species_id_4": 528,
     "raw_species_id_5": 631,
     "index": 574,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41199,7 +43140,9 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Rash",
-    "ability_name_0": "Poison Point",
+    "ability_name_0": "Speed Boost",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Wes",
     "nature_1": "Relaxed",
     "ability_name_1": "Levitate",
     "nature_2": "Naughty",
@@ -41207,11 +43150,9 @@ trainersById = [
     "nature_3": "Naughty",
     "ability_name_3": "Liquid Ooze",
     "nature_4": "Gentle",
-    "ability_name_4": "Rock Head",
+    "ability_name_4": "Sturdy",
     "nature_5": "Hardy",
     "ability_name_5": "Wonder Skin",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Wes",
     "raw": null,
     "raw_species_id_0": 545,
     "raw_species_id_1": 330,
@@ -41220,7 +43161,8 @@ trainersById = [
     "raw_species_id_4": 306,
     "raw_species_id_5": 301,
     "index": 575,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41293,18 +43235,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Lax",
     "ability_name_0": "Speed Boost",
+    "tr_sprite": "trainer_sprites/youngster.png",
+    "name": "Lester",
     "nature_1": "Lax",
     "ability_name_1": "Stench",
     "nature_2": "Relaxed",
     "ability_name_2": "Levitate",
     "nature_3": "Relaxed",
-    "ability_name_3": "Sand Veil",
+    "ability_name_3": "Water Absorb",
     "nature_4": "Lax",
     "ability_name_4": "Pure Power",
     "nature_5": "Naive",
     "ability_name_5": "Technician",
-    "tr_sprite": "trainer_sprites/youngster.png",
-    "name": "Lester",
     "raw": null,
     "raw_species_id_0": 469,
     "raw_species_id_1": 569,
@@ -41313,7 +43255,8 @@ trainersById = [
     "raw_species_id_4": 308,
     "raw_species_id_5": 461,
     "index": 576,
-    "class": "Youngster"
+    "class": "Youngster",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41386,8 +43329,10 @@ trainersById = [
     "template": 1,
     "nature_0": "Hasty",
     "ability_name_0": "Sheer Force",
+    "tr_sprite": "trainer_sprites/backpacker_f.png",
+    "name": "Vicki",
     "nature_1": "Lax",
-    "ability_name_1": "Sturdy",
+    "ability_name_1": "Sand Stream",
     "nature_2": "Sassy",
     "ability_name_2": "Sturdy",
     "nature_3": "Brave",
@@ -41395,9 +43340,7 @@ trainersById = [
     "nature_4": "Jolly",
     "ability_name_4": "Shell Armor",
     "nature_5": "Quirky",
-    "ability_name_5": "Rock Head",
-    "tr_sprite": "trainer_sprites/backpacker_f.png",
-    "name": "Vicki",
+    "ability_name_5": "Sheer Force",
     "raw": null,
     "raw_species_id_0": 323,
     "raw_species_id_1": 526,
@@ -41406,7 +43349,8 @@ trainersById = [
     "raw_species_id_4": 389,
     "raw_species_id_5": 409,
     "index": 577,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41446,7 +43390,7 @@ trainersById = [
     "ability_3": 1,
     "level_3": 100,
     "padding_3": 0,
-    "species_id_3": "ROTOM",
+    "species_id_3": "ROTOM-HEAT",
     "form_3": 1,
     "item_id_3": "Fire Gem",
     "move_1_3": "DISCHARGE",
@@ -41485,18 +43429,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Hasty",
     "ability_name_0": "Shell Armor",
+    "tr_sprite": "trainer_sprites/backpacker.png",
+    "name": "Toru",
     "nature_1": "Serious",
-    "ability_name_1": "Torrent",
+    "ability_name_1": "Unaware",
     "nature_2": "Hasty",
-    "ability_name_2": "Battle Armor",
+    "ability_name_2": "Sniper",
     "nature_3": "Hasty",
     "ability_name_3": "Levitate",
     "nature_4": "Serious",
     "ability_name_4": "Levitate",
     "nature_5": "Careful",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/backpacker.png",
-    "name": "Toru",
     "raw": null,
     "raw_species_id_0": 389,
     "raw_species_id_1": 400,
@@ -41505,7 +43449,8 @@ trainersById = [
     "raw_species_id_4": 437,
     "raw_species_id_5": 429,
     "index": 578,
-    "class": "Backpacker"
+    "class": "Backpacker",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41577,19 +43522,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Mild",
-    "ability_name_0": "Inner Focus",
+    "ability_name_0": "Sniper",
+    "tr_sprite": "trainer_sprites/serena.png",
+    "name": "Serena",
     "nature_1": "Impish",
     "ability_name_1": "Volt Absorb",
     "nature_2": "Careful",
-    "ability_name_2": "Swarm",
+    "ability_name_2": "Chlorophyll",
     "nature_3": "Adamant",
-    "ability_name_3": "Guts",
+    "ability_name_3": "Mold Breaker",
     "nature_4": "Serious",
-    "ability_name_4": "Unaware",
+    "ability_name_4": "Simple",
     "nature_5": "Calm",
-    "ability_name_5": "Healer",
-    "tr_sprite": "trainer_sprites/serena.png",
-    "name": "Serena",
+    "ability_name_5": "Regenerator",
     "raw": null,
     "raw_species_id_0": 169,
     "raw_species_id_1": 171,
@@ -41598,7 +43543,8 @@ trainersById = [
     "raw_species_id_4": 528,
     "raw_species_id_5": 594,
     "index": 579,
-    "class": "School Kid"
+    "class": "School Kid",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41670,19 +43616,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 1,
     "nature_0": "Impish",
-    "ability_name_0": "Effect Spore",
+    "ability_name_0": "Regenerator",
+    "tr_sprite": "trainer_sprites/scientist_f.png",
+    "name": "Shannon",
     "nature_1": "Brave",
     "ability_name_1": "Analytic",
     "nature_2": "Quirky",
-    "ability_name_2": "Reckless",
+    "ability_name_2": "Regenerator",
     "nature_3": "Hasty",
     "ability_name_3": "Swift Swim",
     "nature_4": "Naughty",
     "ability_name_4": "Swift Swim",
     "nature_5": "Sassy",
     "ability_name_5": "Skill Link",
-    "tr_sprite": "trainer_sprites/scientist_f.png",
-    "name": "Shannon",
     "raw": null,
     "raw_species_id_0": 591,
     "raw_species_id_1": 606,
@@ -41691,7 +43637,8 @@ trainersById = [
     "raw_species_id_4": 537,
     "raw_species_id_5": 573,
     "index": 580,
-    "class": "Scientist"
+    "class": "Scientist",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41764,18 +43711,18 @@ trainersById = [
     "template": 1,
     "nature_0": "Hardy",
     "ability_name_0": "Flame Body",
+    "tr_sprite": "trainer_sprites/lass.png",
+    "name": "Lurleen",
     "nature_1": "Docile",
     "ability_name_1": "Prankster",
     "nature_2": "Quiet",
-    "ability_name_2": "Scrappy",
+    "ability_name_2": "Tinted Lens",
     "nature_3": "Mild",
     "ability_name_3": "Forewarn",
     "nature_4": "Relaxed",
-    "ability_name_4": "Scrappy",
+    "ability_name_4": "Super Luck",
     "nature_5": "Hardy",
     "ability_name_5": "Slow Start",
-    "tr_sprite": "trainer_sprites/lass.png",
-    "name": "Lurleen",
     "raw": null,
     "raw_species_id_0": 78,
     "raw_species_id_1": 547,
@@ -41784,7 +43731,8 @@ trainersById = [
     "raw_species_id_4": 521,
     "raw_species_id_5": 289,
     "index": 581,
-    "class": "Lass"
+    "class": "Lass",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41846,16 +43794,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Quiet",
     "ability_name_0": "Technician",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Chloris",
     "nature_1": "Jolly",
     "ability_name_1": "Tinted Lens",
     "nature_2": "Modest",
-    "ability_name_2": "Moxie",
+    "ability_name_2": "Drizzle",
     "nature_3": "Adamant",
     "ability_name_3": "Swift Swim",
     "nature_4": "Sassy",
     "ability_name_4": "Cloud Nine",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Chloris",
     "raw": null,
     "raw_species_id_0": 254,
     "raw_species_id_1": 314,
@@ -41864,7 +43812,8 @@ trainersById = [
     "raw_species_id_4": 334,
     "raw_species_id_5": null,
     "index": 582,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -41926,6 +43875,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Calm",
     "ability_name_0": "Volt Absorb",
+    "tr_sprite": "trainer_sprites/pokemonranger.png",
+    "name": "Harry",
     "nature_1": "Careful",
     "ability_name_1": "Regenerator",
     "nature_2": "Bashful",
@@ -41934,8 +43885,6 @@ trainersById = [
     "ability_name_3": "Sap Sipper",
     "nature_4": "Adamant",
     "ability_name_4": "Cute Charm",
-    "tr_sprite": "trainer_sprites/pokemonranger.png",
-    "name": "Harry",
     "raw": null,
     "raw_species_id_0": 135,
     "raw_species_id_1": 465,
@@ -41944,7 +43893,8 @@ trainersById = [
     "raw_species_id_4": 36,
     "raw_species_id_5": null,
     "index": 583,
-    "class": "PkMn Ranger"
+    "class": "PkMn Ranger",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42006,16 +43956,16 @@ trainersById = [
     "template": 1,
     "nature_0": "Sassy",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/fisherman.png",
+    "name": "Damon",
     "nature_1": "Sassy",
-    "ability_name_1": "Swift Swim",
+    "ability_name_1": "Water Absorb",
     "nature_2": "Brave",
     "ability_name_2": "Volt Absorb",
     "nature_3": "Hardy",
     "ability_name_3": "Water Absorb",
     "nature_4": "Hardy",
     "ability_name_4": "Swift Swim",
-    "tr_sprite": "trainer_sprites/fisherman.png",
-    "name": "Damon",
     "raw": null,
     "raw_species_id_0": 130,
     "raw_species_id_1": 62,
@@ -42024,7 +43974,8 @@ trainersById = [
     "raw_species_id_4": 369,
     "raw_species_id_5": null,
     "index": 584,
-    "class": "Fisherman"
+    "class": "Fisherman",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42085,7 +44036,9 @@ trainersById = [
     "gender_4": "Default",
     "template": 1,
     "nature_0": "Hardy",
-    "ability_name_0": "Water Absorb",
+    "ability_name_0": "Drizzle",
+    "tr_sprite": "trainer_sprites/parasollady.png",
+    "name": "Mariah",
     "nature_1": "Quirky",
     "ability_name_1": "Swift Swim",
     "nature_2": "Timid",
@@ -42093,9 +44046,7 @@ trainersById = [
     "nature_3": "Quiet",
     "ability_name_3": "Water Absorb",
     "nature_4": "Bold",
-    "ability_name_4": "Effect Spore",
-    "tr_sprite": "trainer_sprites/parasollady.png",
-    "name": "Mariah",
+    "ability_name_4": "Dry Skin",
     "raw": null,
     "raw_species_id_0": 186,
     "raw_species_id_1": 260,
@@ -42104,7 +44055,8 @@ trainersById = [
     "raw_species_id_4": 47,
     "raw_species_id_5": null,
     "index": 585,
-    "class": "Parasol Lady"
+    "class": "Parasol Lady",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42117,7 +44069,7 @@ trainersById = [
     "move_1_0": "AQUA TAIL",
     "move_2_0": "BRAVE BIRD",
     "move_3_0": "EARTHQUAKE",
-    "move_4_0": "",
+    "move_4_0": "DRAGON RUSH",
     "ivs_1": 255,
     "ability_1": 1,
     "level_1": 100,
@@ -42125,10 +44077,10 @@ trainersById = [
     "species_id_1": "ENTEI",
     "form_1": 0,
     "item_id_1": "Life Orb",
-    "move_1_1": "BLAZE KICK",
-    "move_2_1": "SUPERPOWER",
-    "move_3_1": "BRAVE BIRD",
-    "move_4_1": "THUNDERPUNCH",
+    "move_1_1": "SACRED FIRE",
+    "move_2_1": "EARTHQUAKE",
+    "move_3_1": "EXTREMESPEED",
+    "move_4_1": "STONE EDGE",
     "ivs_2": 255,
     "ability_2": 1,
     "level_2": 100,
@@ -42183,6 +44135,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Hardy",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/n.png",
+    "name": "N",
     "nature_1": "Bashful",
     "ability_name_1": "Pressure",
     "nature_2": "Mild",
@@ -42190,11 +44144,9 @@ trainersById = [
     "nature_3": "Hasty",
     "ability_name_3": "Multiscale",
     "nature_4": "Impish",
-    "ability_name_4": "Slow Start",
+    "ability_name_4": "Guts",
     "nature_5": "Bold",
     "ability_name_5": "Imposter",
-    "tr_sprite": "trainer_sprites/n.png",
-    "name": "N",
     "raw": null,
     "raw_species_id_0": 130,
     "raw_species_id_1": 244,
@@ -42203,106 +44155,36 @@ trainersById = [
     "raw_species_id_4": 289,
     "raw_species_id_5": 132,
     "index": 586,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
     "ability_0": 1,
-    "level_0": 100,
+    "level_0": 5,
     "padding_0": 0,
-    "species_id_0": "GYARADOS",
+    "species_id_0": "ZORUA",
     "form_0": 0,
-    "item_id_0": "Wacan Berry",
-    "move_1_0": "AQUA TAIL",
-    "move_2_0": "BRAVE BIRD",
-    "move_3_0": "EARTHQUAKE",
-    "move_4_0": "DRAGON RUSH",
-    "ivs_1": 255,
-    "ability_1": 1,
-    "level_1": 100,
-    "padding_1": 0,
-    "species_id_1": "ENTEI",
-    "form_1": 0,
-    "item_id_1": "Life Orb",
-    "move_1_1": "SACRED FIRE",
-    "move_2_1": "EARTHQUAKE",
-    "move_3_1": "EXTREMESPEED",
-    "move_4_1": "STONE EDGE",
-    "ivs_2": 255,
-    "ability_2": 1,
-    "level_2": 100,
-    "padding_2": 0,
-    "species_id_2": "JIRACHI",
-    "form_2": 0,
-    "item_id_2": "Sitrus Berry",
-    "move_1_2": "METEOR MASH",
-    "move_2_2": "ZEN HEADBUTT",
-    "move_3_2": "ANCIENTPOWER",
-    "move_4_2": "THUNDERBOLT",
-    "ivs_3": 255,
-    "ability_3": 1,
-    "level_3": 100,
-    "padding_3": 0,
-    "species_id_3": "DRAGONITE",
-    "form_3": 0,
-    "item_id_3": "Lum Berry",
-    "move_1_3": "DRAGON RUSH",
-    "move_2_3": "HURRICANE",
-    "move_3_3": "EARTHQUAKE",
-    "move_4_3": "FIRE PUNCH",
-    "ivs_4": 255,
-    "ability_4": 3,
-    "level_4": 100,
-    "padding_4": 0,
-    "species_id_4": "SLAKING",
-    "form_4": 0,
-    "item_id_4": "Flame Orb",
-    "move_1_4": "CRUSH CLAW",
-    "move_2_4": "EARTHQUAKE",
-    "move_3_4": "ZEN HEADBUTT",
-    "move_4_4": "HAMMER ARM",
-    "ivs_5": 255,
-    "ability_5": 1,
-    "level_5": 100,
-    "padding_5": 0,
-    "species_id_5": "DITTO",
-    "form_5": 0,
-    "item_id_5": "Focus Sash",
-    "move_1_5": "TRANSFORM",
-    "move_2_5": "EXPLOSION",
-    "move_3_5": "",
-    "move_4_5": "",
-    "count": 6,
+    "count": 1,
     "gender_0": "Default",
-    "gender_1": "Default",
-    "gender_2": "Default",
-    "gender_3": "Default",
-    "gender_4": "Default",
-    "gender_5": "Default",
-    "template": 3,
-    "nature_0": "Modest",
-    "ability_name_0": "Intimidate",
-    "nature_1": "Impish",
-    "ability_name_1": "Pressure",
-    "nature_2": "Docile",
-    "ability_name_2": "Serene Grace",
-    "nature_3": "Lonely",
-    "ability_name_3": "Multiscale",
-    "nature_4": "Careful",
-    "ability_name_4": "Slow Start",
-    "nature_5": "Gentle",
-    "ability_name_5": "Imposter",
+    "template": 0,
+    "nature_0": "Serious",
+    "ability_name_0": "Illusion",
     "tr_sprite": "trainer_sprites/n.png",
     "name": "N",
+    "move_1_0": "PURSUIT",
+    "move_2_0": "LEER",
+    "move_3_0": "SCRATCH",
     "raw": null,
-    "raw_species_id_0": 130,
-    "raw_species_id_1": 244,
-    "raw_species_id_2": 385,
-    "raw_species_id_3": 149,
-    "raw_species_id_4": 289,
-    "raw_species_id_5": 132,
+    "raw_species_id_0": 570,
+    "raw_species_id_1": null,
+    "raw_species_id_2": null,
+    "raw_species_id_3": null,
+    "raw_species_id_4": null,
+    "raw_species_id_5": null,
     "index": 587,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -42381,8 +44263,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Hasty",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Adamant",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Careful",
     "ability_name_2": "Thick Fat",
     "nature_3": "Lonely",
@@ -42390,9 +44274,7 @@ trainersById = [
     "nature_4": "Hasty",
     "ability_name_4": "Intimidate",
     "nature_5": "Timid",
-    "ability_name_5": "Sheer Force",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
+    "ability_name_5": "Speed Boost",
     "raw": null,
     "raw_species_id_0": 362,
     "raw_species_id_1": 136,
@@ -42401,7 +44283,8 @@ trainersById = [
     "raw_species_id_4": 373,
     "raw_species_id_5": 257,
     "index": 588,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -42480,18 +44363,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Lax",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Docile",
-    "ability_name_1": "Water Absorb",
+    "ability_name_1": "Drizzle",
     "nature_2": "Calm",
     "ability_name_2": "Thick Fat",
     "nature_3": "Hardy",
-    "ability_name_3": "Inner Focus",
+    "ability_name_3": "Sniper",
     "nature_4": "Calm",
     "ability_name_4": "Iron Fist",
     "nature_5": "Bashful",
     "ability_name_5": "Swift Swim",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 310,
     "raw_species_id_1": 134,
@@ -42500,7 +44383,8 @@ trainersById = [
     "raw_species_id_4": 376,
     "raw_species_id_5": 260,
     "index": 589,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -42579,18 +44463,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Serious",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Hasty",
-    "ability_name_1": "Volt Absorb",
+    "ability_name_1": "Speed Boost",
     "nature_2": "Quiet",
     "ability_name_2": "Thick Fat",
     "nature_3": "Careful",
     "ability_name_3": "Super Luck",
     "nature_4": "Naughty",
-    "ability_name_4": "Battle Armor",
+    "ability_name_4": "Intimidate",
     "nature_5": "Jolly",
     "ability_name_5": "Technician",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 229,
     "raw_species_id_1": 135,
@@ -42599,7 +44483,8 @@ trainersById = [
     "raw_species_id_4": 248,
     "raw_species_id_5": 254,
     "index": 590,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Doubles"
   },
   {
     "ivs_0": 255,
@@ -42678,8 +44563,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Mild",
     "ability_name_0": "Rock Head",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Rash",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Adamant",
     "ability_name_2": "Thick Fat",
     "nature_3": "Quiet",
@@ -42688,8 +44575,6 @@ trainersById = [
     "ability_name_4": "Intimidate",
     "nature_5": "Timid",
     "ability_name_5": "Rock Head",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 362,
     "raw_species_id_1": 136,
@@ -42698,7 +44583,8 @@ trainersById = [
     "raw_species_id_4": 373,
     "raw_species_id_5": 500,
     "index": 591,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -42777,18 +44663,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Hardy",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Serious",
-    "ability_name_1": "Water Absorb",
+    "ability_name_1": "Drizzle",
     "nature_2": "Hardy",
     "ability_name_2": "Thick Fat",
     "nature_3": "Bold",
-    "ability_name_3": "Inner Focus",
+    "ability_name_3": "Sniper",
     "nature_4": "Adamant",
-    "ability_name_4": "Iron Fist",
+    "ability_name_4": "Clear Body",
     "nature_5": "Bashful",
     "ability_name_5": "Defiant",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 310,
     "raw_species_id_1": 134,
@@ -42797,7 +44683,8 @@ trainersById = [
     "raw_species_id_4": 376,
     "raw_species_id_5": 503,
     "index": 592,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -42876,18 +44763,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Quiet",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/cheren.png",
+    "name": "Cheren",
     "nature_1": "Mild",
-    "ability_name_1": "Volt Absorb",
+    "ability_name_1": "Speed Boost",
     "nature_2": "Impish",
     "ability_name_2": "Thick Fat",
     "nature_3": "Adamant",
-    "ability_name_3": "Scrappy",
+    "ability_name_3": "Super Luck",
     "nature_4": "Brave",
-    "ability_name_4": "Battle Armor",
+    "ability_name_4": "Intimidate",
     "nature_5": "Brave",
     "ability_name_5": "Contrary",
-    "tr_sprite": "trainer_sprites/cheren.png",
-    "name": "Cheren",
     "raw": null,
     "raw_species_id_0": 229,
     "raw_species_id_1": 135,
@@ -42896,7 +44783,8 @@ trainersById = [
     "raw_species_id_4": 248,
     "raw_species_id_5": 497,
     "index": 593,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -42975,18 +44863,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Docile",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Adamant",
     "ability_name_1": "Adaptability",
     "nature_2": "Hardy",
     "ability_name_2": "Rock Head",
     "nature_3": "Impish",
-    "ability_name_3": "Iron Fist",
+    "ability_name_3": "Clear Body",
     "nature_4": "Hasty",
     "ability_name_4": "Levitate",
     "nature_5": "Docile",
     "ability_name_5": "Defiant",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 157,
@@ -42995,7 +44883,8 @@ trainersById = [
     "raw_species_id_4": 478,
     "raw_species_id_5": 503,
     "index": 594,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -43074,18 +44963,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Serious",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Lonely",
     "ability_name_1": "Intimidate",
     "nature_2": "Docile",
     "ability_name_2": "Rock Head",
     "nature_3": "Sassy",
-    "ability_name_3": "Battle Armor",
+    "ability_name_3": "Intimidate",
     "nature_4": "Bashful",
     "ability_name_4": "Water Absorb",
     "nature_5": "Brave",
     "ability_name_5": "Contrary",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 160,
@@ -43094,7 +44983,8 @@ trainersById = [
     "raw_species_id_4": 219,
     "raw_species_id_5": 497,
     "index": 595,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -43173,6 +45063,8 @@ trainersById = [
     "template": 3,
     "nature_0": "Bashful",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/bianca.png",
+    "name": "Bianca",
     "nature_1": "Sassy",
     "ability_name_1": "Filter",
     "nature_2": "Hasty",
@@ -43183,8 +45075,6 @@ trainersById = [
     "ability_name_4": "Levitate",
     "nature_5": "Hardy",
     "ability_name_5": "Rock Head",
-    "tr_sprite": "trainer_sprites/bianca.png",
-    "name": "Bianca",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 154,
@@ -43193,7 +45083,8 @@ trainersById = [
     "raw_species_id_4": 462,
     "raw_species_id_5": 500,
     "index": 596,
-    "class": "PkMn Trainer"
+    "class": "PkMn Trainer",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -43221,7 +45112,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 597,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -43235,12 +45127,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Lonely",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "move_1_0": "OUTRAGE",
     "move_2_0": "EARTHQUAKE",
     "move_3_0": "SANDSTORM",
     "move_4_0": "FOUL PLAY",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 553,
     "raw_species_id_1": null,
@@ -43249,7 +45141,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 598,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -43277,7 +45170,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 599,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -43305,7 +45199,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 600,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -43333,7 +45228,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 601,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -43361,7 +45257,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 602,
-    "class": "Dancer"
+    "class": "Dancer",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -43401,12 +45298,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Quirky",
     "ability_name_0": "Pressure",
+    "tr_sprite": "trainer_sprites/motorcyclist.png",
+    "name": "Charles",
     "nature_1": "Quiet",
     "ability_name_1": "Pressure",
     "nature_2": "Hardy",
     "ability_name_2": "Pressure",
-    "tr_sprite": "trainer_sprites/motorcyclist.png",
-    "name": "Charles",
     "raw": null,
     "raw_species_id_0": 144,
     "raw_species_id_1": 145,
@@ -43415,7 +45312,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 603,
-    "class": "Motorcyclist"
+    "class": "Motorcyclist",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -43454,13 +45352,13 @@ trainersById = [
     "gender_2": "Default",
     "template": 1,
     "nature_0": "Adamant",
-    "ability_name_0": "Flash Fire",
+    "ability_name_0": "Drought",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Eileen",
     "nature_1": "Brave",
     "ability_name_1": "Adaptability",
     "nature_2": "Gentle",
     "ability_name_2": "Sheer Force",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Eileen",
     "raw": null,
     "raw_species_id_0": 6,
     "raw_species_id_1": 157,
@@ -43469,7 +45367,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 604,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -43509,12 +45408,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Adamant",
     "ability_name_0": "Intimidate",
-    "nature_1": "Naughty",
-    "ability_name_1": "Regenerator",
-    "nature_2": "Bashful",
-    "ability_name_2": "Swift Swim",
     "tr_sprite": "trainer_sprites/acetrainer.png",
     "name": "Lou",
+    "nature_1": "Naughty",
+    "ability_name_1": "Drizzle",
+    "nature_2": "Bashful",
+    "ability_name_2": "Swift Swim",
     "raw": null,
     "raw_species_id_0": 160,
     "raw_species_id_1": 9,
@@ -43523,7 +45422,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 605,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -43601,19 +45501,19 @@ trainersById = [
     "gender_5": "Default",
     "template": 3,
     "nature_0": "Hardy",
-    "ability_name_0": "Motor Drive",
+    "ability_name_0": "Lightningrod",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Elmer",
     "nature_1": "Careful",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Brave",
-    "ability_name_2": "Motor Drive",
+    "ability_name_2": "Lightningrod",
     "nature_3": "Lonely",
-    "ability_name_3": "Flash Fire",
+    "ability_name_3": "Solar Power",
     "nature_4": "Careful",
     "ability_name_4": "Chlorophyll",
     "nature_5": "Naughty",
-    "ability_name_5": "Flash Fire",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Elmer",
+    "ability_name_5": "Drought",
     "raw": null,
     "raw_species_id_0": 125,
     "raw_species_id_1": 126,
@@ -43622,7 +45522,8 @@ trainersById = [
     "raw_species_id_4": 103,
     "raw_species_id_5": 6,
     "index": 606,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -43701,8 +45602,10 @@ trainersById = [
     "template": 3,
     "nature_0": "Careful",
     "ability_name_0": "Motor Drive",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Elmer",
     "nature_1": "Sassy",
-    "ability_name_1": "Flash Fire",
+    "ability_name_1": "Drought",
     "nature_2": "Lonely",
     "ability_name_2": "Motor Drive",
     "nature_3": "Quirky",
@@ -43710,9 +45613,7 @@ trainersById = [
     "nature_4": "Sassy",
     "ability_name_4": "Chlorophyll",
     "nature_5": "Quiet",
-    "ability_name_5": "Flash Fire",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Elmer",
+    "ability_name_5": "Drought",
     "raw": null,
     "raw_species_id_0": 125,
     "raw_species_id_1": 126,
@@ -43721,7 +45622,8 @@ trainersById = [
     "raw_species_id_4": 103,
     "raw_species_id_5": 6,
     "index": 607,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 255,
@@ -43778,7 +45680,7 @@ trainersById = [
     "ability_5": 1,
     "level_5": 100,
     "padding_5": 0,
-    "species_id_5": "LANDORUS",
+    "species_id_5": "LANDORUS-THERIAN",
     "form_5": 1,
     "move_1_5": "EARTHQUAKE",
     "move_2_5": "ROCK SLIDE",
@@ -43794,6 +45696,8 @@ trainersById = [
     "template": 1,
     "nature_0": "Hasty",
     "ability_name_0": "Justified",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Glinda",
     "nature_1": "Calm",
     "ability_name_1": "Justified",
     "nature_2": "Serious",
@@ -43803,9 +45707,7 @@ trainersById = [
     "nature_4": "Bold",
     "ability_name_4": "Prankster",
     "nature_5": "Serious",
-    "ability_name_5": "Sand Force",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Glinda",
+    "ability_name_5": "-",
     "raw": null,
     "raw_species_id_0": 639,
     "raw_species_id_1": 638,
@@ -43814,7 +45716,8 @@ trainersById = [
     "raw_species_id_4": 642,
     "raw_species_id_5": 645,
     "index": 608,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Triples"
   },
   {
     "ivs_0": 150,
@@ -43842,6 +45745,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Sassy",
     "ability_name_0": "Healer",
+    "tr_sprite": "trainer_sprites/acetrainer.png",
+    "name": "Glinda",
     "nature_1": "Naive",
     "ability_name_1": "Levitate",
     "nature_2": "Hardy",
@@ -43858,8 +45763,6 @@ trainersById = [
     "move_2_2": "POWER SPLIT",
     "move_3_2": "GUARD SPLIT",
     "move_4_2": "RECOVER",
-    "tr_sprite": "trainer_sprites/acetrainer.png",
-    "name": "Glinda",
     "raw": null,
     "raw_species_id_0": 594,
     "raw_species_id_1": 601,
@@ -43868,7 +45771,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 609,
-    "class": "Ace Trainer"
+    "class": "Ace Trainer",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -43908,12 +45812,12 @@ trainersById = [
     "template": 1,
     "nature_0": "Naughty",
     "ability_name_0": "Adaptability",
-    "nature_1": "Modest",
-    "ability_name_1": "Marvel Scale",
-    "nature_2": "Timid",
-    "ability_name_2": "Volt Absorb",
     "tr_sprite": "trainer_sprites/teamplasma.png",
     "name": "Grunt",
+    "nature_1": "Modest",
+    "ability_name_1": "Filter",
+    "nature_2": "Timid",
+    "ability_name_2": "Volt Absorb",
     "raw": null,
     "raw_species_id_0": 342,
     "raw_species_id_1": 350,
@@ -43922,7 +45826,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 610,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -43973,14 +45878,14 @@ trainersById = [
     "template": 1,
     "nature_0": "Modest",
     "ability_name_0": "Early Bird",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Serious",
     "ability_name_1": "Bad Dreams",
     "nature_2": "Quiet",
     "ability_name_2": "Sap Sipper",
     "nature_3": "Gentle",
     "ability_name_3": "Technician",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
     "raw": null,
     "raw_species_id_0": 115,
     "raw_species_id_1": 97,
@@ -43989,7 +45894,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 611,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 255,
@@ -44056,16 +45962,16 @@ trainersById = [
     "template": 3,
     "nature_0": "Calm",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/teamplasma.png",
+    "name": "Grunt",
     "nature_1": "Quiet",
     "ability_name_1": "Intimidate",
     "nature_2": "Adamant",
-    "ability_name_2": "Sand Veil",
+    "ability_name_2": "Arena Trap",
     "nature_3": "Lax",
-    "ability_name_3": "Solid Rock",
+    "ability_name_3": "Levitate",
     "nature_4": "Jolly",
-    "ability_name_4": "Levitate",
-    "tr_sprite": "trainer_sprites/teamplasma.png",
-    "name": "Grunt",
+    "ability_name_4": "Thick Fat",
     "raw": null,
     "raw_species_id_0": 262,
     "raw_species_id_1": 160,
@@ -44074,7 +45980,8 @@ trainersById = [
     "raw_species_id_4": 357,
     "raw_species_id_5": null,
     "index": 612,
-    "class": "Team Plasma"
+    "class": "Team Plasma",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -44102,7 +46009,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 613,
-    "class": "Doctor"
+    "class": "Doctor",
+    "type": "Singles"
   },
   {
     "ivs_0": 0,
@@ -44116,12 +46024,12 @@ trainersById = [
     "template": 0,
     "nature_0": "Impish",
     "ability_name_0": "Intimidate",
+    "tr_sprite": "trainer_sprites/emmet.png",
+    "name": "Emmet",
     "move_1_0": "BIDE",
     "move_2_0": "BITE",
     "move_3_0": "LEER",
     "move_4_0": "TACKLE",
-    "tr_sprite": "trainer_sprites/emmet.png",
-    "name": "Emmet",
     "raw": null,
     "raw_species_id_0": 504,
     "raw_species_id_1": null,
@@ -44130,7 +46038,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 614,
-    "class": "Subway Boss"
+    "class": "Subway Boss",
+    "type": "Singles"
   },
   {
     "ivs_0": 100,
@@ -44158,6 +46067,8 @@ trainersById = [
     "template": 0,
     "nature_0": "Bashful",
     "ability_name_0": "Frisk",
+    "tr_sprite": "trainer_sprites/roughneck.png",
+    "name": "Jm{ny",
     "nature_1": "Quiet",
     "ability_name_1": "Intimidate",
     "nature_2": "Gentle",
@@ -44174,8 +46085,6 @@ trainersById = [
     "move_2_2": "DISCHARGE",
     "move_3_2": "SUCKER PUNCH",
     "move_4_2": "AGILITY",
-    "tr_sprite": "trainer_sprites/roughneck.png",
-    "name": "Jm{ny",
     "raw": null,
     "raw_species_id_0": 576,
     "raw_species_id_1": 553,
@@ -44184,7 +46093,8 @@ trainersById = [
     "raw_species_id_4": null,
     "raw_species_id_5": null,
     "index": 615,
-    "class": "Roughneck"
+    "class": "Roughneck",
+    "type": "Rotation"
   },
   {
     "ivs_0": 255,
@@ -44263,18 +46173,18 @@ trainersById = [
     "template": 3,
     "nature_0": "Naughty",
     "ability_name_0": "Prankster",
+    "tr_sprite": "trainer_sprites/worker.png",
+    "name": "Trainer",
     "nature_1": "Quirky",
     "ability_name_1": "Levitate",
     "nature_2": "Hardy",
-    "ability_name_2": "Shadow Tag",
+    "ability_name_2": "Cursed Body",
     "nature_3": "Naive",
-    "ability_name_3": "Solid Rock",
+    "ability_name_3": "Levitate",
     "nature_4": "Naughty",
     "ability_name_4": "Adaptability",
     "nature_5": "Impish",
     "ability_name_5": "Levitate",
-    "tr_sprite": "trainer_sprites/worker.png",
-    "name": "Trainer",
     "raw": null,
     "raw_species_id_0": 354,
     "raw_species_id_1": 477,
@@ -44283,6 +46193,7 @@ trainersById = [
     "raw_species_id_4": 352,
     "raw_species_id_5": 429,
     "index": 616,
-    "class": "Worker"
+    "class": "Worker",
+    "type": "Singles"
   }
 ]
