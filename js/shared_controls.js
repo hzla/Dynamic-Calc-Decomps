@@ -431,6 +431,9 @@ $(".status").bind("keyup change", function () {
 
 var lockerMove = "";
 function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
+	if ($(moveObj).hasClass('bait-trigger')) {
+		return
+	}
 	var moveName = $(moveObj).val();
 	var move = moves[moveName] || moves['(No Move)'];
 
@@ -728,13 +731,21 @@ function refresh_next_in() {
 
 function updateGen3BaitMoves() {
 	if (typeof settings === "undefined" || settings.gameSwitchIn != 3) return;
-	var p2 = createPokemon($('#p2'));
+	var p1 = createPokemon($('#p1'));
 	var moveNames = [];
+	for (var i in p1.moves) {
+		if (p1.moves[i] && p1.moves[i].name) {
+			moveNames.push(p1.moves[i].name);
+		}
+	}
+
+	var p2 = createPokemon($('#p2'));
 	for (var i in p2.moves) {
 		if (p2.moves[i] && p2.moves[i].name) {
 			moveNames.push(p2.moves[i].name);
 		}
 	}
+
 	var selector = $('#gen3-switch-guide .last-move-used select.move-selector');
 	if (!selector.length) return;
 

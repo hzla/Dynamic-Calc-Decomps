@@ -262,8 +262,22 @@ function vanillaDamageCalcEmerald(attacker, defender, move, field) {
             }
         }
     }
+    damage += 2;
+    if (attacker.types.includes(move.type)) damage = Math.floor(damage * 1.5);
 
-    return damage + 2;
+    if (attacker.ability == "Levitate" && move.type == "Ground") return 0;
+
+    var effectiveness = 1;
+    for (var i in defender.types) {
+        var type = defender.types[i];
+        if (`${move.type}-${type}` in GEN3_PHASE1_TYPE_MATCHUPS) {
+            effectiveness *= GEN3_PHASE1_TYPE_MATCHUPS[`${move.type}-${type}`];
+            damage = Math.floor(damage * GEN3_PHASE1_TYPE_MATCHUPS[`${move.type}-${type}`]);
+        }
+    }
+    if (attacker.ability == "Wonder Guard" && effectiveness <= 1) return 0;
+
+    return damage
 }
 
 function get_next_in_g3() {
@@ -275,9 +289,10 @@ function get_next_in_g3() {
     var ranked_trainer_poks = [];
 
     var p1 = createPokemon($("#p1"));
-    var field = createField();
+    var field = createField().clone().swap();
     var lastMoveName = $("#gen3-switch-guide .last-move-used > select.move-selector").val();
-    var lastMoveBp = parseInt($("#gen3-switch-guide .last-move-used > .move-bp").val());
+    var lastMoveBp = moves[lastMoveName].bp
+
 
     if (p1.species && p1.species.name === "Castform") {
         switch (field.weather) {
@@ -344,7 +359,7 @@ function get_next_in_g3() {
 
             var typeEffectiveness1 = GENERATION.types.get(toID(moveCopy.type)).effectiveness[defenderTypes[0]];
             var typeEffectiveness2 = GENERATION.types.get(toID(moveCopy.type)).effectiveness[defenderTypes[1]];
-            var typeEffectiveness = typeEffectiveness1 * typeEffectiveness2;
+            var typeEffectiveness = p1.types[1] ? typeEffectiveness1 * typeEffectiveness2 : typeEffectiveness1;
             if (p1.ability == "Levitate" && moveCopy.type == "Ground") typeEffectiveness = 0;
 
             if (typeEffectiveness > 1) {
@@ -374,7 +389,14 @@ function get_next_in_g3() {
             if (!isNaN(lastMoveBp)) {
                 lastMove.bp = lastMoveBp;
             }
+
+
+
             var dmg = vanillaDamageCalcEmerald(dead, p1, lastMove, field);
+            
+            // console.log(`${dead.name} using ${enemy.species.name}'s ${enemy.moves[j].name} -> ${dmg}`);
+            // console.log(lastMove)
+            
             if (dmg > bestDamage) {
                 bestDamage = dmg % 256;
                 bestMove = move.name;

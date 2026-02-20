@@ -28,7 +28,7 @@ function spriteFileFromSpecies(species) {
 }
 
 function spriteSrc(species) {
-  return "./img/pokesprite/" + spriteFileFromSpecies(species) + ".png";
+  return "../img/pokesprite/" + spriteFileFromSpecies(species) + ".png";
 }
 
 function buildSelect2Data(trainersObj) {
