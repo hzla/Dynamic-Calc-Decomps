@@ -1,3 +1,25 @@
+GEN4_PHASE2_IGNORE_LIST = [
+    "Reversal",
+    "Flail",
+    "Frustration",
+    "Return",
+    "Low Kick",
+    "Magnitude",
+    "Present",
+    "Endeavor",
+    "Night Shade",
+    "Seismic Toss",
+    "Psywave",
+    "Sonicboom",
+    "Super Fang",
+    "Fissure",
+    "Horn Drill",
+    "Sheer Cold",
+    "Guillotine",
+    "Grass Knot",
+    "Gyro Ball"
+]
+
 function get_next_in_g4() {
     if (typeof CURRENT_TRAINER_POKS === "undefined") {
         return
@@ -186,7 +208,7 @@ function get_next_in_g4() {
                 dmg = dmg / 2
             }
 
-            if (dmg > highestDamage && results[n].move.name != "Sonic Boom" && results[n].move.name != "Dragon Rage" && results[n].move.name != "Night Shade" && results[n].move.name != "Seismic Toss" ) {
+            if (dmg > highestDamage && !GEN4_PHASE2_IGNORE_LIST.includes(results[n].move.name) ) {
                 if (moves[results[n].move.name]['multihit']) {
                     dmg = Math.floor(dmg / 3)
                 }
