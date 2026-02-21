@@ -1052,6 +1052,11 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         finalMods.push(5324);
         desc.attackerItem = attacker.item;
     }
+
+    if (attacker.hasItem('Tera Plate') && move.type == attacker.moves[0].type) {
+        finalMods.push(5324);
+        desc.attackerItem = attacker.item;
+    }
     if (move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
         (typeEffectiveness > 1 || move.hasType('Normal')) &&
         !attacker.hasAbility('Unnerve')) {
