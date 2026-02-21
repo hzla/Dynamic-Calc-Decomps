@@ -674,7 +674,7 @@ function loadMovesData() {
         for (let moveID of ["shadowclaw","sacredsword","razorshell","dualchop","drillrun","solarblade","crosspoison","psychocut","xscissor","nightslash","airslash","psyblade","leafblade","dragonclaw","aerialace","aircutter","crushclaw","metalclaw","slash","furyswipes","drillpeck","razorwinds","scratch","furycutter","cut","razorleaf","secretsword"]) {
             let moveName = MOVES_BY_ID[gen][moveID].name
             moves[moveName].isSlicing = true;
-            MOVES_BY_ID[gen][moveID].flags.slice = true;
+            MOVES_BY_ID[gen][moveID].flags.slicing = 1;
         }
     }
 }

@@ -49,7 +49,6 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         isDefenderDynamaxed: defender.isDynamaxed,
         isWonderRoom: field.isWonderRoom
     };
-
     dynamicTypeBugActive = (calcingForSwitchIns && attacker.name != p1Name && localStorage.dynamicTypeBug == '1')
     
     if (calcingForSwitchIns) {
@@ -463,11 +462,12 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     }
     desc.attackBoost =
         move.named('Foul Play') ? defender.boosts[attackStat] : attacker.boosts[attackStat];
-    if ((move.dropsStats && move.timesUsed > 1) || move.hits > 1) {
+    result.damage = childDamage ? [damage, childDamage] : damage;
+    if (move.timesUsed > 1 || move.hits > 1) {
         var origDefBoost = desc.defenseBoost;
         var origAtkBoost = desc.attackBoost;
         var numAttacks = 1;
-        if (move.dropsStats && move.timesUsed > 1) {
+        if (move.timesUsed > 1) {
             desc.moveTurns = "over ".concat(move.timesUsed, " turns");
             numAttacks = move.timesUsed;
         }
@@ -475,13 +475,14 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             numAttacks = move.hits;
         }
         var usedItems = [false, false];
-        var _loop_1 = function (times) {
+        var damageMatrix = [damage];
+        for (var times = 1; times < numAttacks; times++) {
             usedItems = (0, util_2.checkMultihitBoost)(gen, attacker, defender, move, field, desc, usedItems[0], usedItems[1]);
             var newAttack = calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
             var newDefense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
             hasAteAbilityTypeChange = hasAteAbilityTypeChange &&
                 attacker.hasAbility('Aerilate', 'Galvanize', 'Pixilate', 'Refrigerate', 'Normalize');
-            if ((move.dropsStats && move.timesUsed > 1)) {
+            if (move.timesUsed > 1) {
                 preStellarStabMod = (0, util_2.getStabMod)(attacker, move, desc);
                 typeEffectiveness = turn2typeEffectiveness;
                 stabMod = (0, util_2.getStellarStabMod)(attacker, move, preStellarStabMod, times);
@@ -490,20 +491,17 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
             var newBaseDamage = calculateBaseDamageSMSSSV(gen, attacker, defender, newBasePower, newAttack, newDefense, move, field, desc, isCritical);
             var newFinalMods = calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical, typeEffectiveness, times);
             var newFinalMod = (0, util_2.chainMods)(newFinalMods, 41, 131072);
-            var damageMultiplier = 0;
-            damage = damage.map(function (affectedAmount) {
-                var newFinalDamage = (0, util_2.getFinalDamage)(newBaseDamage, damageMultiplier, typeEffectiveness, applyBurn, stabMod, newFinalMod, protect);
-                damageMultiplier++;
-                return affectedAmount + newFinalDamage;
-            });
-        };
-        for (var times = 1; times < numAttacks; times++) {
-            _loop_1(times);
+            var damageArray = [];
+            for (var i = 0; i < 16; i++) {
+                var newFinalDamage = (0, util_2.getFinalDamage)(newBaseDamage, i, typeEffectiveness, applyBurn, stabMod, newFinalMod, protect, applyFrostbite);
+                damageArray[i] = newFinalDamage;
+            }
+            damageMatrix[times] = damageArray;
         }
+        result.damage = damageMatrix;
         desc.defenseBoost = origDefBoost;
         desc.attackBoost = origAtkBoost;
     }
-    result.damage = childDamage ? [damage, childDamage] : damage;
     return result;
 }
 exports.calculateSMSSSV = calculateSMSSSV;
@@ -870,9 +868,9 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         (attacker.hasAbility('Iron Fist') && move.flags.punch) ||
         (attacker.hasAbility('Striker') && move.flags.kick) ||
         (attacker.hasAbility('Illusion') && attacker.abilityOn) ||
-         (attacker.hasAbility("Emperor's Prescence") && move.hasType( 'Water', 'Steel'))) {
+        (attacker.hasAbility("Emperor's Prescence") && move.hasType( 'Water', 'Steel'))) {
         
-        if (TITLE == 'Emerald Imperium' && (move.flags.kick || move.flags.punch)) {
+        if (TITLE == 'Emerald Imperium') {
             bpMods.push(4915);
         } else {
             bpMods.push(5325);
@@ -1291,6 +1289,8 @@ function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, is
     if (defender.isDynamaxed && move.named('Dynamax Cannon', 'Behemoth Blade', 'Behemoth Bash')) {
         finalMods.push(8192);
     }
+
+
     if (defender.hasAbility('Multiscale', 'Shadow Shield', 'Blubber Defense') &&
         defender.curHP() === defender.maxHP() &&
         hitCount === 0 &&

@@ -530,8 +530,6 @@ function serialize(array, separator) {
 
 function getAbility(row, species=false) {
 	var ability = row[1] ? row[1].trim() : '';
-
-	console.log(ability)
 	if (calc.ABILITIES[8].indexOf(ability) !== -1) {
 
 		if (abilityChanges[TITLE] && abilityChanges[TITLE][ability]) {

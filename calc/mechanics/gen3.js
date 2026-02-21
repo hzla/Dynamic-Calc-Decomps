@@ -128,23 +128,32 @@ function calculateADV(gen, attacker, defender, move, field) {
     if (move.hits > 1) {
         desc.hits = move.hits;
     }
-    var bp = calculateBasePowerADV(attacker, defender, move, desc);
-    if (bp === 0) {
+    var computeDamageArray = function (hitCount) {
+        if (hitCount === void 0) { hitCount = 0; }
+        var bp = calculateBasePowerADV(attacker, defender, move, desc, hitCount + 1);
+        if (bp === 0) {
+            return null;
+        }
+        bp = calculateBPModsADV(attacker, move, desc, bp);
+        var isCritical = move.isCrit && !defender.hasAbility('Battle Armor', 'Shell Armor');
+        var at = calculateAttackADV(gen, attacker, defender, move, desc, isCritical);
+        var df = calculateDefenseADV(gen, defender, move, desc, isCritical);
+        var lv = attacker.level;
+        var baseDamage = Math.floor(Math.floor((Math.floor((2 * lv) / 5 + 2) * at * bp) / df) / 50);
+        baseDamage = calculateFinalModsADV(baseDamage, attacker, move, field, desc, isCritical);
+        baseDamage = Math.floor(baseDamage * type1Effectiveness);
+        baseDamage = Math.floor(baseDamage * type2Effectiveness);
+        var damage = [];
+        for (var i = 85; i <= 100; i++) {
+            damage[i - 85] = Math.max(1, Math.floor((baseDamage * i) / 100));
+        }
+        return { damage: damage };
+    };
+    var hitResult = computeDamageArray(0);
+    if (!hitResult) {
         return result;
     }
-    bp = calculateBPModsADV(attacker, move, desc, bp);
-    var isCritical = move.isCrit && !defender.hasAbility('Battle Armor', 'Shell Armor');
-    var at = calculateAttackADV(gen, attacker, defender, move, desc, isCritical);
-    var df = calculateDefenseADV(gen, defender, move, desc, isCritical);
-    var lv = attacker.level;
-    var baseDamage = Math.floor(Math.floor((Math.floor((2 * lv) / 5 + 2) * at * bp) / df) / 50);
-    baseDamage = calculateFinalModsADV(baseDamage, attacker, move, field, desc, isCritical);
-    baseDamage = Math.floor(baseDamage * type1Effectiveness);
-    baseDamage = Math.floor(baseDamage * type2Effectiveness);
-    var damage = [];
-    for (var i = 85; i <= 100; i++) {
-        damage[i - 85] = Math.max(1, Math.floor((baseDamage * i) / 100));
-    }
+    var damage = hitResult.damage;
     result.damage = damage;
     if (move.timesUsed > 1 || move.hits > 1) {
         var origDefBoost = desc.defenseBoost;
@@ -161,19 +170,11 @@ function calculateADV(gen, attacker, defender, move, field) {
         var damageMatrix = [damage];
         for (var times = 1; times < numAttacks; times++) {
             usedItems = (0, util_1.checkMultihitBoost)(gen, attacker, defender, move, field, desc, usedItems[0], usedItems[1]);
-            var newAt = calculateAttackADV(gen, attacker, defender, move, desc, isCritical);
-            var newBp = calculateBasePowerADV(attacker, defender, move, desc);
-            newBp = calculateBPModsADV(attacker, move, desc, newBp);
-            var newBaseDmg = Math.floor(Math.floor((Math.floor((2 * lv) / 5 + 2) * newAt * newBp) / df) / 50);
-            newBaseDmg = calculateFinalModsADV(newBaseDmg, attacker, move, field, desc, isCritical);
-            newBaseDmg = Math.floor(newBaseDmg * type1Effectiveness);
-            newBaseDmg = Math.floor(newBaseDmg * type2Effectiveness);
-            var damage_2 = [];
-            for (var i = 85; i <= 100; i++) {
-                var newFinalDamage = Math.max(1, Math.floor((newBaseDmg * i) / 100));
-                damage_2[i - 85] = newFinalDamage;
+            var nextHit = computeDamageArray(times);
+            if (!nextHit) {
+                break;
             }
-            damageMatrix[times] = damage_2;
+            damageMatrix[times] = nextHit.damage;
         }
         result.damage = damageMatrix;
         desc.defenseBoost = origDefBoost;
