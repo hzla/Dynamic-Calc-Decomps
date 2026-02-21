@@ -269,12 +269,8 @@ function filter_box() {
         let pokedexInfo = JSON.stringify(pokedex[set]).toLowerCase()
             
         let backupDataInfo = ""
-        if (backup_data && backup_data.poks[set]) {
+        if (backup_data && backup_data.poks && backup_data.poks[set]) {
             backupDataInfo = JSON.stringify(backup_data.poks[set]).toLowerCase()
-        }
-
-        if (set == "Butterfree") {
-            console.log("butter")
         }
 
         let set_id = `${set} (My Box)`
