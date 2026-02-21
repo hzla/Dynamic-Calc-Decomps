@@ -574,6 +574,7 @@ var SS = SM.concat([
     "Tera Dice",
     "Tera K-Rock",
     "Tera Plate",
+    "Tera Gem",
     "Attack Insurance",
     "Fairy Dust",
     "Trickster Herb",
