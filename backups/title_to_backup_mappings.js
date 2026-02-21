@@ -16,7 +16,7 @@ backupFiles = {
 	"Emerald Imperium 1.3": "imp_1-3",
 	"Inclement Emerald": "inc",
 	"Inclement Emerald No EVs": "inc",
-	"Sterling Silver 1.16": "ster",
+	"Sterling Silver": "ster117",
 	"Cascade White": "casc",
 	"Photonic Sun/Prismatic Moon": "pspm",
 	"Pitch Black 2": "pitch",

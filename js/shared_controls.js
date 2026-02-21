@@ -677,7 +677,7 @@ function refresh_next_in() {
 
 
 		var pok = `<div class="trainer-pok-container">
-			<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "")}.png" data-id="${dataID}">`
+			<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
 
 
 		var species = next_poks[i][0].split(" (")[0]
@@ -899,7 +899,7 @@ $(".set-selector").change(function () {
 		} else {
 			$('#trainer-sprite').hide()
 		}
-		var pokesprite = pokemonName.toLowerCase().replace(" ", "").replace(".","").replace("’","").replace(":","-")
+		var pokesprite = pokemonName.toLowerCase().replace(" ", "").replace(".","").replace("’","").replace(":","-").replace(/-s$/, "")
 
 		if (pokesprite.includes("galarian-")) {
 			pokesprite = pokesprite.split("galarian-")[1] +  "-galar"
@@ -913,7 +913,7 @@ $(".set-selector").change(function () {
 			pokesprite = pokesprite.split("alolan-")[1] +  "-alola"
 		}
 
-		$('#p2 .poke-sprite').attr('src', `./img/${trainerSprites}/${pokesprite.replace("-glitched", "")}.${suffix}`)
+		$('#p2 .poke-sprite').attr('src', `./img/${trainerSprites}/${pokesprite.replace("-glitched", "").replace(/-s$/, "")}.${suffix}`)
 
 		if ($('#player-poks-filter:visible').length > 0) {
 	       box_rolls() 

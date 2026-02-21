@@ -22,6 +22,7 @@ const settings = {
     switchIn: getNum('switchIn', 9),
     noSwitch: getBool('noSwitch'),
     hasEvs: !getBool('evs', '0'),
+    customPoks: !getBool('customPoks', '0'),
     challengeMode: params.get('challengeMode') == 'true' || false,
     critGen: getNum('critGen', getNum('dmgGen', 8)),
     showDex: false
@@ -110,6 +111,7 @@ SOURCES = {
   "8f199f3f40194ecc4b8e": "Sterling Silver 1.14",
   "7ea3ff9a608c1963a0a5": "Sterling Silver 1.15",
   "b819708dba8f8c0641d5": "Sterling Silver 1.16",
+  "sterlingsilver": "Sterling Silver",
   "5b789b0056c18c5c668b": "Platinum Redux 2.6",
   "de22f896c09fceb0b273": "Maximum Platinum",
   "casc": "Cascade White",
@@ -210,6 +212,19 @@ function setGameSettings(title) {
     settings.switchIn = 4;
     settings.sourceType = "full"
     settings.typeChart = 6;
+    settings.critGen = 5;
+    save_expansion = false
+    showDex = true;
+    showAI = true;
+    $('label[for="snow"]').hide()
+  } else if (title == "Sterling Silver") {
+    gameGen = 4
+    settings.damageGen = 4
+    settings.gameSwitchIn = 4;
+    settings.switchIn = 4;
+    settings.sourceType = "full"
+    settings.typeChart = 4;
+    settings.customPoks = 1;
     settings.critGen = 5;
     save_expansion = false
     showDex = true;
@@ -469,54 +484,76 @@ function initPlatinum() {
 
 // Allows both explicit pokemon names "Rotom-Heat" or smogon ID style "rotomheat"
 function loadPoksData() {
-  console.log("patching changed mons...")
-  if (TITLE.includes("Platinum")) {
-      initPlatinum()  
-  }
-
-  for (pok in pokedex) {
-    if (pok.includes("Glitched")) {
-        continue
+    console.log("patching changed mons...")
+    if (TITLE.includes("Platinum")) {
+        initPlatinum()  
     }
 
-    const pokId = cleanString(pok)
-    const pokName = SPECIES_BY_ID[gen][pokId].name
+    for (pok in pokedex) {
+        if (pok.includes("Glitched")) {
+            continue
+        }
 
-    // Allow import of Farfetch'd w/ unicode standard apostrophe
-    if (pokName == "Farfetch’d" && !poksData["Farfetch’d"]) {
-      jsonPok = poksData["Farfetch'd"] || poksData["farfetchd"] ;
-    }
-    else if (poksData[pokName] || poksData[pokId]) {
-        jsonPok = poksData[pokId] || poksData[pokName] 
-    } else {           
-       continue //skip weird smogon pokemon and arceus forms
-    }
-    
+        const pokId = cleanString(pok)
+        const pokName = SPECIES_BY_ID[gen][pokId].name
 
-    if (!jsonPok) {
-        console.log(`${pokName} not found in data source`)
-        continue
+        // Allow import of Farfetch'd w/ unicode standard apostrophe
+        if (pokName == "Farfetch’d" && !poksData["Farfetch’d"]) {
+          jsonPok = poksData["Farfetch'd"] || poksData["farfetchd"] ;
+        }
+        else if (poksData[pokName] || poksData[pokId]) {
+            jsonPok = poksData[pokId] || poksData[pokName] 
+        } else {           
+           continue //skip weird smogon pokemon and arceus forms
+        }
+        
+
+        if (!jsonPok) {
+            console.log(`${pokName} not found in data source`)
+            continue
+        }
+
+        pokedex[pokName]["bs"] = jsonPok["bs"]
+
+        if (jsonPok["types"]) {
+            pokedex[pokName]["types"] = jsonPok["types"]
+        }
+        
+        if (jsonPok.hasOwnProperty("abilities"))
+            pokedex[pok]["abilities"] = jsonPok["abilities"]
+        
+        SPECIES_BY_ID[gen][pokId].types = jsonPok["types"]
+        SPECIES_BY_ID[gen][pokId].baseStats = {
+            "atk": jsonPok["bs"]["at"],
+            "def": jsonPok["bs"]["df"],
+            "hp": jsonPok["bs"]["hp"],
+            "spa": jsonPok["bs"]["sa"],
+            "spd": jsonPok["bs"]["sd"],
+            "spe": jsonPok["bs"]["sp"],
+        }
     }
 
-    pokedex[pokName]["bs"] = jsonPok["bs"]
+    if (settings.customPoks == 1) {
+        for (pok in poksData) {
+            var pok_id = cleanString(pok)
 
-    if (jsonPok["types"]) {
-        pokedex[pokName]["types"] = jsonPok["types"]
+            if (typeof SPECIES_BY_ID[gen][pok_id] === "undefined" || SPECIES_BY_ID[gen][pok_id].name != pok ) {
+
+                if (!poksData[pok]) {
+                    console.log(pok)
+                    continue
+                } 
+
+                console.log(`Creating custom pok: ${pok}`)
+
+                poksData[pok]["baseStats"] = poksData[pok]["bs"]
+                poksData[pok]["id"] = pok_id
+                poksData[pok]["kind"] = "Species"
+                SPECIES_BY_ID[gen][pok_id] = poksData[pok]
+                pokedex[pok] = poksData[pok]
+            }     
+        }
     }
-    
-    if (jsonPok.hasOwnProperty("abilities"))
-        pokedex[pok]["abilities"] = jsonPok["abilities"]
-    
-    SPECIES_BY_ID[gen][pokId].types = jsonPok["types"]
-    SPECIES_BY_ID[gen][pokId].baseStats = {
-        "atk": jsonPok["bs"]["at"],
-        "def": jsonPok["bs"]["df"],
-        "hp": jsonPok["bs"]["hp"],
-        "spa": jsonPok["bs"]["sa"],
-        "spd": jsonPok["bs"]["sd"],
-        "spe": jsonPok["bs"]["sp"],
-    }
-  }
 }
 
 function loadMovesData() {

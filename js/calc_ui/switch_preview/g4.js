@@ -11,6 +11,7 @@ GEN4_PHASE2_IGNORE_LIST = [
     "Seismic Toss",
     "Psywave",
     "Sonicboom",
+    "Dragon Rage",
     "Super Fang",
     "Fissure",
     "Horn Drill",
