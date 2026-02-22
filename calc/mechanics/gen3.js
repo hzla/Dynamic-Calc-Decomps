@@ -136,9 +136,10 @@ function calculateADV(gen, attacker, defender, move, field) {
         }
         bp = calculateBPModsADV(attacker, move, desc, bp);
         var isCritical = move.isCrit && !defender.hasAbility('Battle Armor', 'Shell Armor');
-        var at = calculateAttackADV(gen, attacker, defender, move, desc, isCritical);
-        var df = calculateDefenseADV(gen, defender, move, desc, isCritical);
+        var at = calculateAttackADV(gen, attacker, defender, move, desc, isCritical, field);
+        var df = calculateDefenseADV(gen, defender, move, desc, isCritical, field);
         var lv = attacker.level;
+
         var baseDamage = Math.floor(Math.floor((Math.floor((2 * lv) / 5 + 2) * at * bp) / df) / 50);
         baseDamage = calculateFinalModsADV(baseDamage, attacker, move, field, desc, isCritical);
         baseDamage = Math.floor(baseDamage * type1Effectiveness);
@@ -236,7 +237,7 @@ function calculateBPModsADV(attacker, move, desc, basePower) {
     return basePower;
 }
 exports.calculateBPModsADV = calculateBPModsADV;
-function calculateAttackADV(gen, attacker, defender, move, desc, isCritical) {
+function calculateAttackADV(gen, attacker, defender, move, desc, isCritical, field) {
     if (isCritical === void 0) { isCritical = false; }
     var isPhysical = move.category === 'Physical';
     if (settings.typeChart == 3) {
@@ -255,6 +256,18 @@ function calculateAttackADV(gen, attacker, defender, move, desc, isCritical) {
     var attackStat = isPhysical ? 'atk' : 'spa';
     desc.attackEVs = (0, util_1.getStatDescriptionText)(gen, attacker, attackStat, attacker.nature);
     var at = attacker.rawStats[attackStat];
+    if (field.attackerSide.isBadgeAtk) {
+        if ((move.hasType('Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'))) {
+            at = Math.floor(at * 1.1);
+            desc.isBadgeAtk = true;
+        }
+    }
+    if (field.attackerSide.isBadgeSpec) {
+        if ((move.hasType('Water', 'Grass', 'Fire', 'Ice', 'Electric', 'Psychic', 'Dragon', 'Dark'))) {
+            at = Math.floor(at * 1.1);
+            desc.isBadgeSpec = true;
+        }
+    }
     if (isPhysical && attacker.hasAbility('Huge Power', 'Pure Power')) {
         at *= 2;
         desc.attackerAbility = attacker.ability;
@@ -296,12 +309,22 @@ function calculateAttackADV(gen, attacker, defender, move, desc, isCritical) {
     return at;
 }
 exports.calculateAttackADV = calculateAttackADV;
-function calculateDefenseADV(gen, defender, move, desc, isCritical) {
+function calculateDefenseADV(gen, defender, move, desc, isCritical, field) {
     if (isCritical === void 0) { isCritical = false; }
     var isPhysical = move.category === 'Physical';
     var defenseStat = isPhysical ? 'def' : 'spd';
     desc.defenseEVs = (0, util_1.getStatDescriptionText)(gen, defender, defenseStat, defender.nature);
     var df = defender.rawStats[defenseStat];
+    if (field.defenderSide.isBadgeSpec) {
+        if (!isPhysical) {
+            df = Math.floor(df * 1.1);
+        }
+    }
+    if (field.defenderSide.isBadgeDef) {
+        if (isPhysical) {
+            df = Math.floor(df * 1.1);
+        }
+    }
     if (!isPhysical && defender.hasItem('Soul Dew') && defender.named('Latios', 'Latias')) {
         df = Math.floor(df * 1.5);
         desc.defenderItem = defender.item;
