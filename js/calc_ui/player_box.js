@@ -365,7 +365,8 @@ function box_rolls() {
             return {"killers": killers, "defenders": defenders, "faster": faster}  
         }
         
-        var all_results = memoizedCalc(settings.damageGen, p1, p1field, mon, p2field, false);
+        var all_results = calculateAllMoves(settings.damageGen, p1, p1field, mon, p2field, false);
+
         var opposing_results = all_results[0]
         var player_results = all_results[1]
 
@@ -399,6 +400,7 @@ function box_rolls() {
 
 // check if ai mon has >= 50% chance kills player
 function can_kill(damages, hp) {
+    damages = normalize_damage(damages)
     kill_count = 0
     for (n in damages) {
         if (damages[n] >= hp) {
@@ -412,10 +414,7 @@ function can_kill(damages, hp) {
 function can_topkill(damages, hp) {
     if (hp < 0) return true;
     kill_count = 0
-
-    if (damages.length == 2) {
-        damages = damages[0].map((val, i) => val + damages[1][i])
-    }
+    damages = normalize_damage(damages)
 
     for (n in damages) {
         if (damages[n] > hp) {
@@ -428,11 +427,26 @@ function can_topkill(damages, hp) {
 function getTurnsToKill(damages, hp) {
     if (hp < 0) return 1;
 
-    if (damages.length == 2) {
-        damages = damages[0].map((val, i) => val + damages[1][i])
-    }
+    damages = normalize_damage(damages)
 
     return Math.ceil(hp / damages[damages.length - 1])
+}
+
+function normalize_damage(damages) {
+    if (!Array.isArray(damages)) {
+        return []
+    }
+    if (!Array.isArray(damages[0])) {
+        return damages
+    }
+    var summed = []
+    for (var i = 0; i < damages[0].length; i++) {
+        summed[i] = 0
+        for (var hit = 0; hit < damages.length; hit++) {
+            summed[i] += damages[hit][i] || 0
+        }
+    }
+    return summed
 }
 
 function sortTms () {
