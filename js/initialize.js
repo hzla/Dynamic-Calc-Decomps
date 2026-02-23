@@ -208,8 +208,10 @@ function setGameSettings(title) {
   if (title == "Renegade Platinum") {
     gameGen = 4
     settings.damageGen = 4
-    settings.gameSwitchIn = 4;
-    settings.switchIn = 4;
+    if (!settings.noSwitch) {
+      settings.gameSwitchIn = 4;
+      settings.switchIn = 4;  
+    }
     settings.sourceType = "full"
     settings.typeChart = 6;
     settings.critGen = 5;
@@ -220,8 +222,10 @@ function setGameSettings(title) {
   } else if (title == "Sterling Silver") {
     gameGen = 4
     settings.damageGen = 4
-    settings.gameSwitchIn = 4;
-    settings.switchIn = 4;
+    if (!settings.noSwitch) {
+      settings.gameSwitchIn = 4;
+      settings.switchIn = 4;  
+    }   
     settings.sourceType = "full"
     settings.typeChart = 4;
     settings.customPoks = 1;
@@ -232,7 +236,9 @@ function setGameSettings(title) {
     $('label[for="snow"]').hide()
   } else if (TITLE.includes("Cascade")) {
     gameGen = 5
-    settings.gameSwitchIn = 5; 
+     if (!settings.noSwitch) {
+      settings.gameSwitchIn = 5;
+    }
     settings.damageGen = 5;
     settings.sourceType = "full"
     save_expansion = false
