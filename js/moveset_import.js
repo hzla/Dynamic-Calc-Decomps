@@ -162,7 +162,7 @@ moveChanges = {
         "Rollout": "Accelerock",
         "Fissure": "Headlong Rush"
     },
-    "Sterling Silver 1.16": 
+    "Sterling Silver": 
     {
         "Defend Order": "HP Bug",
         "Dark Void": "HP Dark",

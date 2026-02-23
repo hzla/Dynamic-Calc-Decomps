@@ -17327,17 +17327,7 @@ backup_data = {
                     "Rock Smash",
                     "Rock Climb"
                 ]
-            },
-            "baseStats": {
-                "hp": 78,
-                "at": 74,
-                "df": 78,
-                "sa": 114,
-                "sd": 85,
-                "sp": 111
-            },
-            "id": "typhlosns",
-            "kind": "Species"
+            }
         },
         "Eevee": {
             "types": [
@@ -17934,17 +17924,7 @@ backup_data = {
                     "Trick Room",
                     "Cut"
                 ]
-            },
-            "baseStats": {
-                "hp": 95,
-                "at": 109,
-                "df": 105,
-                "sa": 75,
-                "sd": 100,
-                "sp": 56
-            },
-            "id": "torterras",
-            "kind": "Species"
+            }
         },
         "Omanyte": {
             "types": [
@@ -21916,17 +21896,7 @@ backup_data = {
                     "Rock Smash",
                     "Rock Climb"
                 ]
-            },
-            "baseStats": {
-                "hp": 70,
-                "at": 100,
-                "df": 110,
-                "sa": 60,
-                "sd": 85,
-                "sp": 95
-            },
-            "id": "drapions",
-            "kind": "Species"
+            }
         },
         "Igglybuff": {
             "types": [
@@ -27689,17 +27659,7 @@ backup_data = {
                     "Whirlpool",
                     "Rock Smash"
                 ]
-            },
-            "baseStats": {
-                "hp": 70,
-                "at": 120,
-                "df": 65,
-                "sa": 45,
-                "sd": 85,
-                "sp": 125
-            },
-            "id": "weaviles",
-            "kind": "Species"
+            }
         },
         "Mantine": {
             "types": [
@@ -28927,17 +28887,7 @@ backup_data = {
                     "Rock Smash",
                     "Rock Climb"
                 ]
-            },
-            "baseStats": {
-                "hp": 90,
-                "at": 115,
-                "df": 135,
-                "sa": 65,
-                "sd": 135,
-                "sp": 45
-            },
-            "id": "dusknoirs",
-            "kind": "Species"
+            }
         },
         "Tyrogue": {
             "types": [
@@ -45139,17 +45089,7 @@ backup_data = {
                 "tms": [
                     "Protect"
                 ]
-            },
-            "baseStats": {
-                "hp": 105,
-                "at": 180,
-                "df": 100,
-                "sa": 180,
-                "sd": 100,
-                "sp": 115
-            },
-            "id": "rayquazam",
-            "kind": "Species"
+            }
         },
         "Jirachi": {
             "types": [
@@ -51095,17 +51035,7 @@ backup_data = {
                     "Strength",
                     "Rock Smash"
                 ]
-            },
-            "baseStats": {
-                "hp": 75,
-                "at": 125,
-                "df": 100,
-                "sa": 70,
-                "sd": 80,
-                "sp": 80
-            },
-            "id": "armaldos",
-            "kind": "Species"
+            }
         },
         "Chatot": {
             "types": [
@@ -57163,17 +57093,7 @@ backup_data = {
                     "Rock Smash",
                     "Waterfall"
                 ]
-            },
-            "baseStats": {
-                "hp": 130,
-                "at": 75,
-                "df": 90,
-                "sa": 90,
-                "sd": 95,
-                "sp": 60
-            },
-            "id": "laprass",
-            "kind": "Species"
+            }
         },
         "Hydreigon": {
             "types": [
@@ -57272,17 +57192,7 @@ backup_data = {
                     ]
                 ],
                 "tms": []
-            },
-            "baseStats": {
-                "hp": 10,
-                "at": 10,
-                "df": 10,
-                "sa": 10,
-                "sd": 10,
-                "sp": 10
-            },
-            "id": "egg",
-            "kind": "Species"
+            }
         },
         "Bad Egg": {
             "types": [
@@ -57304,17 +57214,7 @@ backup_data = {
                     ]
                 ],
                 "tms": []
-            },
-            "baseStats": {
-                "hp": 10,
-                "at": 10,
-                "df": 10,
-                "sa": 10,
-                "sd": 10,
-                "sp": 10
-            },
-            "id": "badegg",
-            "kind": "Species"
+            }
         },
         "Deoxys-Attack": {
             "types": [
@@ -58602,9 +58502,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 63,
-                "prev": 269
+                }
             },
             "Lvl 25 Camper Elliot ": {
                 "level": 25,
@@ -58633,9 +58531,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 76,
-                "prev": 74
+                }
             },
             "Lvl 25 Medium Bethany ": {
                 "level": 25,
@@ -58751,9 +58647,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 123,
-                "prev": 270
+                }
             },
             "Lvl 37 Rival Silver5 - Starter 3": {
                 "level": 37,
@@ -58811,9 +58705,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 269,
-                "prev": 21
+                }
             },
             "Lvl 32 Rival Silver8 - Starter 3": {
                 "level": 32,
@@ -58842,9 +58734,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 270,
-                "prev": 601
+                }
             },
             "Lvl 24 Rival Silver10 - Starter 3": {
                 "level": 24,
@@ -58873,9 +58763,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 1,
-                "prev": 266
+                }
             },
             "Lvl 32 Rival Silver11 - Starter 3": {
                 "level": 32,
@@ -58904,9 +58792,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 263,
-                "prev": 267
+                }
             },
             "Lvl 37 Rival Silver13 - Starter 3": {
                 "level": 37,
@@ -58935,9 +58821,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 288,
-                "prev": 289
+                }
             }
         },
         "Golbat": {
@@ -58968,9 +58852,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 63,
-                "prev": 269
+                }
             },
             "Lvl 21 Team Rocket Grunt2 ": {
                 "level": 21,
@@ -58999,9 +58881,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 12,
-                "prev": 101
+                }
             },
             "Lvl 28 Lass Carrie ": {
                 "level": 28,
@@ -59030,9 +58910,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 71,
-                "prev": 5
+                }
             },
             "Lvl 25 Team Rocket Mickey 1": {
                 "level": 25,
@@ -59148,9 +59026,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 269,
-                "prev": 21
+                }
             },
             "Lvl 24 Rival Silver10 - Starter 3": {
                 "level": 24,
@@ -59179,9 +59055,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 1,
-                "prev": 266
+                }
             },
             "Lvl 38 Rival Silver13 - Starter 3": {
                 "level": 38,
@@ -59210,9 +59084,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 288,
-                "prev": 289
+                }
             },
             "Lvl 47 Rival Silver14 - Starter 3": {
                 "level": 47,
@@ -59473,9 +59345,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 74,
-                "prev": 77
+                }
             },
             "Lvl 22 Executive Proton ": {
                 "level": 22,
@@ -59504,9 +59374,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 68,
-                "prev": 12
+                }
             },
             "Lvl 40 Youngster Regis ": {
                 "level": 40,
@@ -59593,9 +59461,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 267,
-                "prev": 105
+                }
             },
             "Lvl 45 School Kid Torin2 ": {
                 "level": 45,
@@ -59713,9 +59579,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 63,
-                "prev": 269
+                }
             },
             "Lvl 25 Picnicker Kim ": {
                 "level": 25,
@@ -59744,9 +59608,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 388,
-                "prev": 66
+                }
             },
             "Lvl 36 School Kid Kipp ": {
                 "level": 36,
@@ -59833,9 +59695,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 269,
-                "prev": 21
+                }
             },
             "Lvl 24 Rival Silver10 - Starter 3": {
                 "level": 24,
@@ -59864,9 +59724,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 1,
-                "prev": 266
+                }
             },
             "Lvl 14 Elder Li ": {
                 "level": 14,
@@ -59895,9 +59753,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 50,
-                "prev": 54
+                }
             },
             "Lvl 14 Swimmer♀ Li ": {
                 "level": 14,
@@ -60421,9 +60277,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 63,
-                "prev": 269
+                }
             },
             "Lvl 10 Sinnoh Leader Candice ": {
                 "level": 10,
@@ -60452,9 +60306,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 51,
-                "prev": 249
+                }
             },
             "Lvl 32 Rival Silver4 - Starter 3": {
                 "level": 32,
@@ -60483,9 +60335,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 123,
-                "prev": 270
+                }
             },
             "Lvl 36 Rival Silver5 - Starter 3": {
                 "level": 36,
@@ -60543,9 +60393,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 269,
-                "prev": 21
+                }
             },
             "Lvl 32 Rival Silver8 - Starter 3": {
                 "level": 32,
@@ -60574,9 +60422,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 270,
-                "prev": 601
+                }
             },
             "Lvl 24 Rival Silver10 - Starter 3": {
                 "level": 24,
@@ -60605,9 +60451,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 1,
-                "prev": 266
+                }
             },
             "Lvl 32 Rival Silver11 - Starter 3": {
                 "level": 32,
@@ -60636,9 +60480,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 263,
-                "prev": 267
+                }
             },
             "Lvl 36 Rival Silver13 - Starter 3": {
                 "level": 36,
@@ -60667,9 +60509,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 288,
-                "prev": 289
+                }
             },
             "Lvl 46 Rival Silver14 - Starter 3": {
                 "level": 46,
@@ -60785,9 +60625,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 32,
-                "prev": 484
+                }
             },
             "Lvl 55 Rival Silver19 - Starter 3": {
                 "level": 55,
@@ -60905,9 +60743,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 63,
-                "prev": 269
+                }
             },
             "Lvl 33 Rival Silver4 - Starter 3": {
                 "level": 33,
@@ -60936,9 +60772,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 123,
-                "prev": 270
+                }
             }
         },
         "Cyndaquil": {
@@ -60969,9 +60803,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 3,
-                "prev": null
+                }
             },
             "Lvl 5 Rival Boy2 - Starter 3": {
                 "level": 5,
@@ -61031,9 +60863,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 265,
-                "prev": 2
+                }
             },
             "Lvl 5 Rival Boy3 - Starter 3": {
                 "level": 5,
@@ -61180,9 +61010,7 @@ backup_data = {
                 "ability": "Run Away",
                 "evs": {
                     "df": 0
-                },
-                "next": 19,
-                "prev": 47
+                }
             }
         },
         "Weedle": {
@@ -61242,9 +61070,7 @@ backup_data = {
                 "ability": "Run Away",
                 "evs": {
                     "df": 0
-                },
-                "next": 19,
-                "prev": 47
+                }
             },
             "Lvl 28 Bug Catcher Ellis ": {
                 "level": 28,
@@ -61304,9 +61130,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 22,
-                "prev": 70
+                }
             },
             "Lvl 56 Executive Ariana ": {
                 "level": 56,
@@ -61335,9 +61159,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 485,
-                "prev": 706
+                }
             },
             "Lvl 48 Executive Ariana2 ": {
                 "level": 48,
@@ -61366,9 +61188,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 499,
-                "prev": 488
+                }
             },
             "Lvl 54 Leader Falkner2 ": {
                 "level": 54,
@@ -61428,9 +61248,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 22,
-                "prev": 70
+                }
             },
             "Lvl 34 Leader Morty ": {
                 "level": 34,
@@ -61459,9 +61277,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 410,
-                "prev": 46
+                }
             },
             "Lvl 52 Team Rocket Grunt18 ": {
                 "level": 52,
@@ -61490,9 +61306,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 187,
-                "prev": 185
+                }
             },
             "Lvl 36 School Kid Alan3 ": {
                 "level": 36,
@@ -61610,9 +61424,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 22,
-                "prev": 70
+                }
             },
             "Lvl 55 Ace Trainer Fran ": {
                 "level": 55,
@@ -61641,9 +61453,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 111,
-                "prev": 112
+                }
             },
             "Lvl 48 Team Rocket Grunt23 ": {
                 "level": 48,
@@ -61672,9 +61482,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 404,
-                "prev": 226
+                }
             },
             "Lvl 56 Executive Petrel ": {
                 "level": 56,
@@ -61703,9 +61511,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 170,
-                "prev": 472
+                }
             },
             "Lvl 100 Champion Red2 ": {
                 "level": 100,
@@ -61941,9 +61747,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 80,
-                "prev": 76
+                }
             },
             "Lvl 26 Sinnoh Leader Gardenia ": {
                 "level": 26,
@@ -61972,9 +61776,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 62,
-                "prev": 1
+                }
             },
             "Lvl 53 Team Rocket Grunt7 ": {
                 "level": 53,
@@ -62003,9 +61805,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 188,
-                "prev": 198
+                }
             },
             "Lvl 100 Unova Leader Elesa ": {
                 "level": 100,
@@ -62094,9 +61894,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 80,
-                "prev": 76
+                }
             },
             "Lvl 38 Bird Keeper Theo ": {
                 "level": 38,
@@ -62125,9 +61923,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 215,
-                "prev": 211
+                }
             },
             "Lvl 39 Bird Keeper Denis ": {
                 "level": 39,
@@ -62156,9 +61952,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 212,
-                "prev": 37
+                }
             },
             "Lvl 52 Leader Falkner2 ": {
                 "level": 52,
@@ -62218,9 +62012,7 @@ backup_data = {
                 "ability": "Pure Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 80,
-                "prev": 76
+                }
             },
             "Lvl 21 Sinnoh Leader Maylene ": {
                 "level": 21,
@@ -62249,9 +62041,7 @@ backup_data = {
                 "ability": "Pure Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 101,
-                "prev": 23
+                }
             },
             "Lvl 42 Black Belt Wai ": {
                 "level": 42,
@@ -62311,9 +62101,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 80,
-                "prev": 76
+                }
             },
             "Lvl 30 Twins Tori & Til ": {
                 "level": 30,
@@ -62342,9 +62130,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 88,
-                "prev": 386
+                }
             },
             "Lvl 24 Ace Trainer Alton ": {
                 "level": 24,
@@ -62433,9 +62219,7 @@ backup_data = {
                 "ability": "Keen Eye",
                 "evs": {
                     "df": 0
-                },
-                "next": 47,
-                "prev": 265
+                }
             },
             "Lvl 48 Bird Keeper Ernie ": {
                 "level": 48,
@@ -62495,9 +62279,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 85,
-                "prev": 16
+                }
             },
             "Lvl 35 Bird Keeper Toby ": {
                 "level": 35,
@@ -62526,9 +62308,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 398,
-                "prev": 400
+                }
             },
             "Lvl 59 Picnicker Erin ": {
                 "level": 59,
@@ -62557,9 +62337,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 154,
-                "prev": 147
+                }
             },
             "Lvl 40 Bird Keeper Denis ": {
                 "level": 40,
@@ -62588,9 +62366,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 212,
-                "prev": 37
+                }
             },
             "Lvl 59 Ace Trainer Emma ": {
                 "level": 59,
@@ -62619,9 +62395,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 115,
-                "prev": 205
+                }
             },
             "Lvl 48 Leader Falkner2 ": {
                 "level": 48,
@@ -62681,9 +62455,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 85,
-                "prev": 16
+                }
             },
             "Lvl 21 Ace Trainer Roland ": {
                 "level": 21,
@@ -62712,9 +62484,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 383,
-                "prev": 56
+                }
             },
             "Lvl 23 Youngster Samuel ": {
                 "level": 23,
@@ -62743,9 +62513,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 409,
-                "prev": 63
+                }
             },
             "Lvl 34 Swimmer♀ Kaylee ": {
                 "level": 34,
@@ -62774,9 +62542,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 93,
-                "prev": 97
+                }
             },
             "Lvl 42 Sinnoh Leader Wake ": {
                 "level": 42,
@@ -62805,9 +62571,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 729,
-                "prev": 730
+                }
             },
             "Lvl 55 Ace Trainer Lola ": {
                 "level": 55,
@@ -62836,9 +62600,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 112,
-                "prev": 110
+                }
             },
             "Lvl 43 Fisherman Marvin ": {
                 "level": 43,
@@ -62867,9 +62629,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 132,
-                "prev": 131
+                }
             },
             "Lvl 32 Fisherman Tully ": {
                 "level": 32,
@@ -62898,9 +62658,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 134,
-                "prev": 263
+                }
             },
             "Lvl 27 Fisherman Andre ": {
                 "level": 27,
@@ -63016,9 +62774,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 181,
-                "prev": 182
+                }
             },
             "Lvl 52 Team Rocket Grunt7 ": {
                 "level": 52,
@@ -63047,9 +62803,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 188,
-                "prev": 198
+                }
             },
             "Lvl 55 Team Rocket Grunt11 ": {
                 "level": 55,
@@ -63078,9 +62832,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 706,
-                "prev": 190
+                }
             },
             "Lvl 100 Mystery Boss Ghetsis ": {
                 "level": 100,
@@ -63138,9 +62890,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 205,
-                "prev": 180
+                }
             },
             "Lvl 69 Elite Four Karen ": {
                 "level": 69,
@@ -63169,9 +62919,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 260,
-                "prev": 418
+                }
             },
             "Lvl 52 Leader Blue ": {
                 "level": 52,
@@ -63433,36 +63181,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Intimidate",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 3,
-                    "at": 13,
-                    "df": 15,
-                    "sa": 5,
-                    "sd": 17,
-                    "sp": 15
-                },
-                "moves": [
-                    "Waterfall",
-                    "Fly",
-                    "Power Whip",
-                    "Aqua Tail"
-                ],
-                "nature": "Modest",
-                "nn": "Chinarp",
-                "isCustomSet": true,
-                "met": "Cherrygrove City"
             }
         },
         "Volbeat": {
@@ -63493,9 +63211,7 @@ backup_data = {
                 "ability": "Tinted Lens",
                 "evs": {
                     "df": 0
-                },
-                "next": 69,
-                "prev": 67
+                }
             },
             "Lvl 41 Pokéfan Boone ": {
                 "level": 41,
@@ -63555,9 +63271,7 @@ backup_data = {
                 "ability": "Tinted Lens",
                 "evs": {
                     "df": 0
-                },
-                "next": 69,
-                "prev": 67
+                }
             },
             "Lvl 42 Camper Spencer ": {
                 "level": 42,
@@ -63586,9 +63300,7 @@ backup_data = {
                 "ability": "Tinted Lens",
                 "evs": {
                     "df": 0
-                },
-                "next": 402,
-                "prev": 129
+                }
             }
         },
         "Dustox": {
@@ -63619,9 +63331,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 69,
-                "prev": 67
+                }
             },
             "Lvl 55 Scientist Trenton ": {
                 "level": 55,
@@ -63650,9 +63360,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 487,
-                "prev": 192
+                }
             }
         },
         "Ledian": {
@@ -63683,9 +63391,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 69,
-                "prev": 67
+                }
             },
             "Lvl 27 Bug Catcher Arnie ": {
                 "level": 27,
@@ -63714,9 +63420,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 72,
-                "prev": 80
+                }
             },
             "Lvl 30 Twins Tori & Til ": {
                 "level": 30,
@@ -63745,9 +63449,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 88,
-                "prev": 386
+                }
             },
             "Lvl 40 School Kid Nate ": {
                 "level": 40,
@@ -63805,9 +63507,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 32,
-                "prev": 484
+                }
             }
         },
         "Kricketune": {
@@ -63838,9 +63538,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 69,
-                "prev": 67
+                }
             }
         },
         "Mesprit": {
@@ -63871,9 +63569,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 165,
-                "prev": 351
+                }
             }
         },
         "Blaziken": {
@@ -63904,9 +63600,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 165,
-                "prev": 351
+                }
             },
             "Lvl 39 Leader Chuck ": {
                 "level": 39,
@@ -63935,9 +63629,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 401,
-                "prev": 157
+                }
             },
             "Lvl 64 Sinnoh Leader Maylene2 ": {
                 "level": 64,
@@ -63966,9 +63658,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 174,
-                "prev": 120
+                }
             },
             "Lvl 100 Arcade Star Dahlia ": {
                 "level": 100,
@@ -63997,9 +63687,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 711,
-                "prev": 709
+                }
             }
         },
         "Castform": {
@@ -64030,9 +63718,7 @@ backup_data = {
                 "ability": "Forecast",
                 "evs": {
                     "df": 0
-                },
-                "next": 165,
-                "prev": 351
+                }
             },
             "Lvl 42 Sinnoh Leader Wake ": {
                 "level": 42,
@@ -64061,9 +63747,7 @@ backup_data = {
                 "ability": "Forecast",
                 "evs": {
                     "df": 0
-                },
-                "next": 729,
-                "prev": 730
+                }
             },
             "Lvl 61 Ace Trainer Reena ": {
                 "level": 61,
@@ -64092,9 +63776,7 @@ backup_data = {
                 "ability": "Forecast",
                 "evs": {
                     "df": 0
-                },
-                "next": 98,
-                "prev": 104
+                }
             },
             "Lvl 52 Team Rocket Grunt5 ": {
                 "level": 52,
@@ -64123,9 +63805,7 @@ backup_data = {
                 "ability": "Forecast",
                 "evs": {
                     "df": 0
-                },
-                "next": 198,
-                "prev": 32
+                }
             },
             "Lvl 47 Boarder Patton ": {
                 "level": 47,
@@ -64154,9 +63834,7 @@ backup_data = {
                 "ability": "Forecast",
                 "evs": {
                     "df": 0
-                },
-                "next": 480,
-                "prev": 675
+                }
             }
         },
         "Dragonite": {
@@ -64187,9 +63865,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 165,
-                "prev": 351
+                }
             },
             "Lvl 55 Ace Trainer Paulo ": {
                 "level": 55,
@@ -64218,9 +63894,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 117,
-                "prev": 154
+                }
             },
             "Lvl 43 Poké Maniac Beckett ": {
                 "level": 43,
@@ -64249,9 +63923,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 502,
-                "prev": 132
+                }
             },
             "Lvl 55 Hall Matron Argenta ": {
                 "level": 55,
@@ -64280,9 +63952,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 195,
-                "prev": 487
+                }
             },
             "Lvl 54 Team Rocket Grunt31 ": {
                 "level": 54,
@@ -64311,9 +63981,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 471,
-                "prev": 197
+                }
             },
             "Lvl 57 Pkmn Trainer Lance ": {
                 "level": 57,
@@ -64342,9 +64010,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 500,
-                "prev": 35
+                }
             },
             "Lvl 63 Ace Trainer Trevor ": {
                 "level": 63,
@@ -64373,9 +64039,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 11,
-                "prev": 28
+                }
             },
             "Lvl 59 Fisherman Ronald ": {
                 "level": 59,
@@ -64433,9 +64097,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 483,
-                "prev": 499
+                }
             },
             "Lvl 100 Tower Tycoon Palmer ": {
                 "level": 100,
@@ -64464,8 +64126,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "prev": 708
+                }
             },
             "Lvl 60 Leader Clair2 ": {
                 "level": 60,
@@ -64583,9 +64244,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 165,
-                "prev": 351
+                }
             }
         },
         "Crobat": {
@@ -64616,9 +64275,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 165,
-                "prev": 351
+                }
             },
             "Lvl 38 Bird Keeper Theo ": {
                 "level": 38,
@@ -64647,9 +64304,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 215,
-                "prev": 211
+                }
             },
             "Lvl 63 Pkmn Trainer Marley ": {
                 "level": 63,
@@ -64678,9 +64333,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 167,
-                "prev": 165
+                }
             },
             "Lvl 54 Team Rocket Grunt15 ": {
                 "level": 54,
@@ -64709,9 +64362,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 289,
-                "prev": 170
+                }
             },
             "Lvl 48 Team Rocket Grunt26 ": {
                 "level": 48,
@@ -64740,9 +64391,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 219,
-                "prev": 469
+                }
             },
             "Lvl 68 Elite Four Koga ": {
                 "level": 68,
@@ -64771,9 +64420,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 418,
-                "prev": 245
+                }
             },
             "Lvl 100 Hoenn Leader Winona ": {
                 "level": 100,
@@ -64860,9 +64507,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 123,
-                "prev": 270
+                }
             },
             "Lvl 32 Rival Silver8 - Starter 3": {
                 "level": 32,
@@ -64891,9 +64536,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 270,
-                "prev": 601
+                }
             },
             "Lvl 65 Rival Silver9 - Starter 3": {
                 "level": 65,
@@ -64922,9 +64565,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 120,
-                "prev": 169
+                }
             },
             "Lvl 32 Rival Silver11 - Starter 3": {
                 "level": 32,
@@ -64953,9 +64594,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 263,
-                "prev": 267
+                }
             },
             "Lvl 55 Rival Silver12 - Starter 3": {
                 "level": 55,
@@ -65013,9 +64652,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 193,
-                "prev": 272
+                }
             },
             "Lvl 55 Rival Silver18 - Starter 3": {
                 "level": 55,
@@ -65044,9 +64681,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 272,
-                "prev": 195
+                }
             },
             "Lvl 42 Youngster Jason ": {
                 "level": 42,
@@ -65191,9 +64826,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 46,
-                "prev": 89
+                }
             },
             "Lvl 62 Pkmn Trainer MVでＥいlみと「い ": {
                 "level": 62,
@@ -65280,9 +64913,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 478,
-                "prev": 191
+                }
             },
             "Lvl 100 Factory Head Thorton ": {
                 "level": 100,
@@ -65311,9 +64942,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 710,
-                "prev": 260
+                }
             },
             "Lvl 52 Leader Janine2 ": {
                 "level": 52,
@@ -65430,36 +65059,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Shadow Tag",
-                "level": 65,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 22,
-                    "at": 0,
-                    "df": 15,
-                    "sa": 24,
-                    "sd": 29,
-                    "sp": 10
-                },
-                "moves": [
-                    "Brave Bird",
-                    "U-turn",
-                    "Cross Poison",
-                    "Fly"
-                ],
-                "nature": "Serious",
-                "nn": "Romania",
-                "isCustomSet": true,
-                "met": "Union Cave"
             }
         },
         "Aipom": {
@@ -65490,9 +65089,7 @@ backup_data = {
                 "ability": "Skill Link",
                 "evs": {
                     "df": 0
-                },
-                "next": 486,
-                "prev": 13
+                }
             },
             "Lvl 28 Pkmn Trainer Dawn ": {
                 "level": 28,
@@ -65521,9 +65118,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 70,
-                "prev": 395
+                }
             },
             "Lvl 31 Teacher Hillary ": {
                 "level": 31,
@@ -65612,9 +65207,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 486,
-                "prev": 13
+                }
             }
         },
         "Ekans": {
@@ -65645,9 +65238,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 12,
-                "prev": 101
+                }
             }
         },
         "Numel": {
@@ -65678,9 +65269,7 @@ backup_data = {
                 "ability": "Own Tempo",
                 "evs": {
                     "df": 0
-                },
-                "next": 12,
-                "prev": 101
+                }
             },
             "Lvl 53 Super Nerd Waldo ": {
                 "level": 53,
@@ -66175,9 +65764,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 23,
-                "prev": 25
+                }
             },
             "Lvl 36 Firebreather Lyle 1": {
                 "level": 36,
@@ -66322,9 +65909,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 68,
-                "prev": 12
+                }
             }
         },
         "Magmar": {
@@ -66879,9 +66464,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 16,
-                "prev": 39
+                }
             },
             "Lvl 58 Ace Trainer Ryan ": {
                 "level": 58,
@@ -66910,9 +66493,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 121,
-                "prev": 145
+                }
             },
             "Lvl 51 Team Rocket Grunt17 ": {
                 "level": 51,
@@ -66941,9 +66522,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 227,
-                "prev": 196
+                }
             },
             "Lvl 44 Leader Janine ": {
                 "level": 44,
@@ -67175,9 +66754,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 267,
-                "prev": 105
+                }
             },
             "Lvl 48 Biker Reese2 ": {
                 "level": 48,
@@ -67353,9 +66930,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 121,
-                "prev": 145
+                }
             },
             "Lvl 56 Hiker Parry ": {
                 "level": 56,
@@ -67384,9 +66959,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 108,
-                "prev": 143
+                }
             },
             "Lvl 36 Black Belt Lung ": {
                 "level": 36,
@@ -67415,9 +66988,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 156,
-                "prev": 498
+                }
             },
             "Lvl 47 Team Rocket Grunt4 ": {
                 "level": 47,
@@ -67446,9 +67017,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 470,
-                "prev": 170
+                }
             },
             "Lvl 48 Executive Ariana2 ": {
                 "level": 48,
@@ -67477,9 +67046,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 499,
-                "prev": 488
+                }
             },
             "Lvl 48 Boarder Deandre ": {
                 "level": 48,
@@ -67508,9 +67075,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 484,
-                "prev": 480
+                }
             },
             "Lvl 57 Leader Blaine2 ": {
                 "level": 57,
@@ -67540,36 +67105,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Solid Rock",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 31,
-                    "at": 7,
-                    "df": 1,
-                    "sa": 12,
-                    "sd": 21,
-                    "sp": 21
-                },
-                "moves": [
-                    "Earthquake",
-                    "Eruption",
-                    "Earth Power",
-                    "Heat Wave"
-                ],
-                "nature": "Relaxed",
-                "nn": "Indonesia",
-                "isCustomSet": true,
-                "met": "Route 30"
             }
         },
         "Sharpedo": {
@@ -67600,9 +67135,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 9,
-                "prev": 45
+                }
             },
             "Lvl 36 Sailor Eugene ": {
                 "level": 36,
@@ -67631,9 +67164,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 45,
-                "prev": 389
+                }
             },
             "Lvl 32 Fisherman Tully ": {
                 "level": 32,
@@ -67662,9 +67193,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 134,
-                "prev": 263
+                }
             },
             "Lvl 33 Sailor Harry ": {
                 "level": 33,
@@ -67693,9 +67222,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 400,
-                "prev": 31
+                }
             }
         },
         "Luvdisc": {
@@ -67726,9 +67253,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 9,
-                "prev": 45
+                }
             },
             "Lvl 12 Sage Jin ": {
                 "level": 12,
@@ -67757,9 +67282,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 55,
-                "prev": 52
+                }
             },
             "Lvl 38 Swimmer♀ Mina ": {
                 "level": 38,
@@ -67877,9 +67400,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 144,
-                "prev": 121
+                }
             },
             "Lvl 35 Swimmer♂ Randall ": {
                 "level": 35,
@@ -67908,9 +67429,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 96,
-                "prev": 85
+                }
             },
             "Lvl 56 Leader Erika ": {
                 "level": 56,
@@ -68115,9 +67634,7 @@ backup_data = {
                 "ability": "Cloud Nine",
                 "evs": {
                     "df": 0
-                },
-                "next": 144,
-                "prev": 121
+                }
             },
             "Lvl 35 Bird Keeper Toby ": {
                 "level": 35,
@@ -68146,9 +67663,7 @@ backup_data = {
                 "ability": "Cloud Nine",
                 "evs": {
                     "df": 0
-                },
-                "next": 398,
-                "prev": 400
+                }
             },
             "Lvl 55 Ace Trainer Paulo ": {
                 "level": 55,
@@ -68177,9 +67692,7 @@ backup_data = {
                 "ability": "Cloud Nine",
                 "evs": {
                     "df": 0
-                },
-                "next": 117,
-                "prev": 154
+                }
             },
             "Lvl 54 Team Rocket Grunt13 ": {
                 "level": 54,
@@ -68208,9 +67721,7 @@ backup_data = {
                 "ability": "Cloud Nine",
                 "evs": {
                     "df": 0
-                },
-                "next": 199,
-                "prev": 288
+                }
             },
             "Lvl 100 Hoenn Leader Winona ": {
                 "level": 100,
@@ -68297,9 +67808,7 @@ backup_data = {
                 "ability": "Cloud Nine",
                 "evs": {
                     "df": 0
-                },
-                "next": 190,
-                "prev": 227
+                }
             }
         },
         "Victreebel": {
@@ -68330,9 +67839,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 144,
-                "prev": 121
+                }
             },
             "Lvl 42 School Kid Johnny ": {
                 "level": 42,
@@ -68390,9 +67897,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 180,
-                "prev": 163
+                }
             },
             "Lvl 56 Leader Erika ": {
                 "level": 56,
@@ -68655,9 +68160,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 144,
-                "prev": 121
+                }
             },
             "Lvl 27 Policeman Dirk ": {
                 "level": 27,
@@ -68686,9 +68189,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 78,
-                "prev": 7
+                }
             },
             "Lvl 51 Team Rocket Grunt17 ": {
                 "level": 51,
@@ -68717,9 +68218,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 227,
-                "prev": 196
+                }
             },
             "Lvl 33 Sailor Harry ": {
                 "level": 33,
@@ -68748,9 +68247,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 400,
-                "prev": 31
+                }
             },
             "Lvl 52 Unova Leader Lt. Surge ": {
                 "level": 52,
@@ -68810,9 +68307,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 60,
-                "prev": 27
+                }
             },
             "Lvl 40 Camper Clark ": {
                 "level": 40,
@@ -68872,9 +68367,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 60,
-                "prev": 27
+                }
             },
             "Lvl 36 Swimmer♂ Berke ": {
                 "level": 36,
@@ -68903,9 +68396,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 90,
-                "prev": 94
+                }
             },
             "Lvl 31 Ace Trainer Blake ": {
                 "level": 31,
@@ -68963,9 +68454,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 186,
-                "prev": 187
+                }
             },
             "Lvl 43 Fisherman Stephen ": {
                 "level": 43,
@@ -69081,9 +68570,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 408,
-                "prev": 124
+                }
             },
             "Lvl 59 Fisherman Ronald ": {
                 "level": 59,
@@ -69520,9 +69007,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 51,
-                "prev": 249
+                }
             }
         },
         "Snover": {
@@ -69553,9 +69038,7 @@ backup_data = {
                 "ability": "Ice Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 51,
-                "prev": 249
+                }
             }
         },
         "Staravia": {
@@ -69586,9 +69069,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 49,
-                "prev": 29
+                }
             },
             "Lvl 27 Beauty Samantha ": {
                 "level": 27,
@@ -69617,9 +69098,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 5,
-                "prev": 87
+                }
             }
         },
         "Gligar": {
@@ -69650,9 +69129,7 @@ backup_data = {
                 "ability": "Poison Heal",
                 "evs": {
                     "df": 0
-                },
-                "next": 49,
-                "prev": 29
+                }
             },
             "Lvl 21 Bug Catcher Al ": {
                 "level": 21,
@@ -69681,9 +69158,7 @@ backup_data = {
                 "ability": "Poison Heal",
                 "evs": {
                     "df": 0
-                },
-                "next": 67,
-                "prev": 486
+                }
             },
             "Lvl 24 Camper Elliot ": {
                 "level": 24,
@@ -69712,9 +69187,7 @@ backup_data = {
                 "ability": "Poison Heal",
                 "evs": {
                     "df": 0
-                },
-                "next": 76,
-                "prev": 74
+                }
             }
         },
         "Prinplup": {
@@ -69745,9 +69218,7 @@ backup_data = {
                 "ability": "Torrent",
                 "evs": {
                     "df": 0
-                },
-                "next": 49,
-                "prev": 29
+                }
             },
             "Lvl 28 Pkmn Trainer Dawn ": {
                 "level": 28,
@@ -69776,9 +69247,7 @@ backup_data = {
                 "ability": "Torrent",
                 "evs": {
                     "df": 0
-                },
-                "next": 70,
-                "prev": 395
+                }
             }
         },
         "Murkrow": {
@@ -69809,9 +69278,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 49,
-                "prev": 29
+                }
             }
         },
         "Pidgeotto": {
@@ -69842,9 +69309,7 @@ backup_data = {
                 "ability": "Quick Feet",
                 "evs": {
                     "df": 0
-                },
-                "next": 49,
-                "prev": 29
+                }
             },
             "Lvl 41 Lass Laura ": {
                 "level": 41,
@@ -69902,9 +69367,7 @@ backup_data = {
                 "ability": "Keen Eye",
                 "evs": {
                     "df": 0
-                },
-                "next": 390,
-                "prev": 26
+                }
             },
             "Lvl 37 Bird Keeper Vance3 ": {
                 "level": 37,
@@ -69993,9 +69456,7 @@ backup_data = {
                 "ability": "Tinted Lens",
                 "evs": {
                     "df": 0
-                },
-                "next": 266,
-                "prev": 69
+                }
             },
             "Lvl 27 Bug Catcher Arnie ": {
                 "level": 27,
@@ -70024,9 +69485,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 72,
-                "prev": 80
+                }
             },
             "Lvl 41 Pokéfan Eleanor ": {
                 "level": 41,
@@ -70086,9 +69545,7 @@ backup_data = {
                 "ability": "Mold Breaker",
                 "evs": {
                     "df": 0
-                },
-                "next": 266,
-                "prev": 69
+                }
             },
             "Lvl 40 Bug Catcher Ken ": {
                 "level": 40,
@@ -70146,9 +69603,7 @@ backup_data = {
                 "ability": "Hyper Cutter",
                 "evs": {
                     "df": 0
-                },
-                "next": 202,
-                "prev": 221
+                }
             },
             "Lvl 55 Leader Bugsy2 ": {
                 "level": 55,
@@ -70208,9 +69663,7 @@ backup_data = {
                 "ability": "Hyper Cutter",
                 "evs": {
                     "df": 0
-                },
-                "next": 266,
-                "prev": 69
+                }
             }
         },
         "Vibrava": {
@@ -70241,9 +69694,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 266,
-                "prev": 69
+                }
             }
         },
         "Heracross": {
@@ -70274,9 +69725,7 @@ backup_data = {
                 "ability": "Skill Link",
                 "evs": {
                     "df": 0
-                },
-                "next": 266,
-                "prev": 69
+                }
             },
             "Lvl 43 Black Belt Kiyo ": {
                 "level": 43,
@@ -70305,9 +69754,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 33,
-                "prev": 106
+                }
             },
             "Lvl 100 Elite Four Koga2 ": {
                 "level": 100,
@@ -70396,9 +69843,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 266,
-                "prev": 69
+                }
             },
             "Lvl 29 Psychic Greg ": {
                 "level": 29,
@@ -70427,9 +69872,7 @@ backup_data = {
                 "ability": "Swarm",
                 "evs": {
                     "df": 0
-                },
-                "next": 81,
-                "prev": 30
+                }
             }
         },
         "Loudred": {
@@ -70460,9 +69903,7 @@ backup_data = {
                 "ability": "Soundproof",
                 "evs": {
                     "df": 0
-                },
-                "next": 71,
-                "prev": 5
+                }
             },
             "Lvl 22 Youngster Gordon ": {
                 "level": 22,
@@ -70491,9 +69932,7 @@ backup_data = {
                 "ability": "Soundproof",
                 "evs": {
                     "df": 0
-                },
-                "next": 26,
-                "prev": 57
+                }
             }
         },
         "Dragonair": {
@@ -70524,9 +69963,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 71,
-                "prev": 5
+                }
             },
             "Lvl 52 Leader Clair2 ": {
                 "level": 52,
@@ -70615,9 +70052,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 71,
-                "prev": 5
+                }
             },
             "Lvl 19 Firebreather Ray ": {
                 "level": 19,
@@ -70646,9 +70081,7 @@ backup_data = {
                 "ability": "Trace",
                 "evs": {
                     "df": 0
-                },
-                "next": 384,
-                "prev": 383
+                }
             }
         },
         "Slowpoke": {
@@ -70679,9 +70112,7 @@ backup_data = {
                 "ability": "Own Tempo",
                 "evs": {
                     "df": 0
-                },
-                "next": 40,
-                "prev": 319
+                }
             },
             "Lvl 44 Medium Darcy ": {
                 "level": 44,
@@ -70828,9 +70259,7 @@ backup_data = {
                 "ability": "Quick Feet",
                 "evs": {
                     "df": 0
-                },
-                "next": 40,
-                "prev": 319
+                }
             },
             "Lvl 33 Medium Martha ": {
                 "level": 33,
@@ -70859,9 +70288,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 31,
-                "prev": 493
+                }
             }
         },
         "Breloom": {
@@ -70892,9 +70319,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 40,
-                "prev": 319
+                }
             },
             "Lvl 54 Leader Chuck2 ": {
                 "level": 54,
@@ -71070,9 +70495,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 66,
-                "prev": 62
+                }
             },
             "Lvl 32 School Kid Alan2 ": {
                 "level": 32,
@@ -71161,9 +70584,7 @@ backup_data = {
                 "ability": "Serene Grace",
                 "evs": {
                     "df": 0
-                },
-                "next": 319,
-                "prev": 384
+                }
             },
             "Lvl 40 Sailor Sweet 1": {
                 "level": 40,
@@ -71281,9 +70702,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 319,
-                "prev": 384
+                }
             },
             "Lvl 13 Bird Keeper Rod ": {
                 "level": 13,
@@ -71312,9 +70731,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 20,
-                "prev": 50
+                }
             },
             "Lvl 25 Picnicker Brooke ": {
                 "level": 25,
@@ -71343,9 +70760,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 7,
-                "prev": 75
+                }
             }
         },
         "Onix": {
@@ -71376,9 +70791,7 @@ backup_data = {
                 "ability": "Lightning Rod",
                 "evs": {
                     "df": 0
-                },
-                "next": 319,
-                "prev": 384
+                }
             },
             "Lvl 27 Black Belt Kenji2 1": {
                 "level": 27,
@@ -71728,9 +71141,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 319,
-                "prev": 384
+                }
             }
         },
         "Linoone": {
@@ -71761,9 +71172,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 383,
-                "prev": 56
+                }
             },
             "Lvl 24 Youngster Samuel ": {
                 "level": 24,
@@ -71792,9 +71201,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 409,
-                "prev": 63
+                }
             },
             "Lvl 45 Camper Pedro ": {
                 "level": 45,
@@ -71854,9 +71261,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 383,
-                "prev": 56
+                }
             },
             "Lvl 26 Youngster Samuel ": {
                 "level": 26,
@@ -71885,9 +71290,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 409,
-                "prev": 63
+                }
             },
             "Lvl 63 Pkmn Trainer Marley ": {
                 "level": 63,
@@ -71916,9 +71319,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 167,
-                "prev": 165
+                }
             },
             "Lvl 67 Elite Four Koga ": {
                 "level": 67,
@@ -71947,9 +71348,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 418,
-                "prev": 245
+                }
             },
             "Lvl 61 Pkmn Trainer MVでＥいlみと「い ": {
                 "level": 61,
@@ -72009,9 +71408,7 @@ backup_data = {
                 "ability": "Unaware",
                 "evs": {
                     "df": 0
-                },
-                "next": 18,
-                "prev": 49
+                }
             },
             "Lvl 36 Swimmer♀ Kara ": {
                 "level": 36,
@@ -72040,9 +71437,7 @@ backup_data = {
                 "ability": "Unaware",
                 "evs": {
                     "df": 0
-                },
-                "next": 98,
-                "prev": 90
+                }
             },
             "Lvl 54 Leader Whitney2 ": {
                 "level": 54,
@@ -72102,9 +71497,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 18,
-                "prev": 49
+                }
             }
         },
         "Hitmontop": {
@@ -72135,9 +71528,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 351,
-                "prev": 102
+                }
             },
             "Lvl 25 Picnicker Kim ": {
                 "level": 25,
@@ -72166,9 +71557,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 388,
-                "prev": 66
+                }
             },
             "Lvl 37 Black Belt Nob ": {
                 "level": 37,
@@ -72197,9 +71586,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 157,
-                "prev": 156
+                }
             },
             "Lvl 64 Sinnoh Leader Maylene2 ": {
                 "level": 64,
@@ -72228,9 +71615,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 174,
-                "prev": 120
+                }
             }
         },
         "Forretress": {
@@ -72261,9 +71646,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 351,
-                "prev": 102
+                }
             },
             "Lvl 27 Bug Catcher Arnie ": {
                 "level": 27,
@@ -72292,9 +71675,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 72,
-                "prev": 80
+                }
             },
             "Lvl 55 Ace Trainer Mike ": {
                 "level": 55,
@@ -72323,9 +71704,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 35,
-                "prev": 119
+                }
             },
             "Lvl 61 Guitarist Zinteny ": {
                 "level": 61,
@@ -72354,9 +71733,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 180,
-                "prev": 163
+                }
             },
             "Lvl 68 Elite Four Koga ": {
                 "level": 68,
@@ -72385,9 +71762,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 418,
-                "prev": 245
+                }
             },
             "Lvl 40 Hiker Devin ": {
                 "level": 40,
@@ -72416,39 +71791,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 732,
-                "prev": 212
-            },
-            "My Box": {
-                "ability": "Shell Armor",
-                "level": 65,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 13,
-                    "at": 12,
-                    "df": 5,
-                    "sa": 12,
-                    "sd": 3,
-                    "sp": 9
-                },
-                "moves": [
-                    "Protect",
-                    "Counter",
-                    "Bug Buzz",
-                    "Flash Cannon"
-                ],
-                "nature": "Bold",
-                "nn": "Jordan",
-                "isCustomSet": true,
-                "met": "Lake of Rage"
+                }
             }
         },
         "Metagross": {
@@ -72479,9 +71822,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 351,
-                "prev": 102
+                }
             },
             "Lvl 55 Ace Trainer Fran ": {
                 "level": 55,
@@ -72510,9 +71851,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 111,
-                "prev": 112
+                }
             },
             "Lvl 65 Hoenn Champion Steven ": {
                 "level": 65,
@@ -72541,9 +71880,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 168,
-                "prev": 167
+                }
             },
             "Lvl 63 Pkmn Trainer Riley ": {
                 "level": 63,
@@ -72572,9 +71909,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 202,
-                "prev": 221
+                }
             },
             "Lvl 58 Poké Maniac Calvin ": {
                 "level": 58,
@@ -72603,9 +71938,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 205,
-                "prev": 180
+                }
             },
             "Lvl 48 Scientist Mitch ": {
                 "level": 48,
@@ -72634,9 +71967,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 222,
-                "prev": 404
+                }
             },
             "Lvl 56 Executive Ariana ": {
                 "level": 56,
@@ -72665,9 +71996,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 485,
-                "prev": 706
+                }
             },
             "Lvl 47 Boarder Gerardo ": {
                 "level": 47,
@@ -72696,9 +72025,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 481,
-                "prev": 482
+                }
             },
             "Lvl 62 Pkmn Trainer RVとハいeVな\\x01F8 ": {
                 "level": 62,
@@ -72816,9 +72143,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 351,
-                "prev": 102
+                }
             },
             "Lvl 55 Ace Trainer Cody ": {
                 "level": 55,
@@ -72847,9 +72172,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 119,
-                "prev": 117
+                }
             },
             "Lvl 55 Team Rocket Grunt11 ": {
                 "level": 55,
@@ -72878,9 +72201,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 706,
-                "prev": 190
+                }
             },
             "Lvl 69 Elite Four Karen ": {
                 "level": 69,
@@ -72909,9 +72230,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 260,
-                "prev": 418
+                }
             },
             "Lvl 56 Executive Archer ": {
                 "level": 56,
@@ -72940,9 +72259,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 125,
-                "prev": 478
+                }
             },
             "Lvl 48 Executive Archer2 ": {
                 "level": 48,
@@ -72971,9 +72288,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 675,
-                "prev": 479
+                }
             },
             "Lvl 100 Passerby Giovanni ": {
                 "level": 100,
@@ -73032,36 +72347,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Battle Armor",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 6,
-                    "at": 11,
-                    "df": 7,
-                    "sa": 12,
-                    "sd": 7,
-                    "sp": 6
-                },
-                "moves": [
-                    "Superpower",
-                    "Head Smash",
-                    "Crunch",
-                    "Earthquake"
-                ],
-                "nature": "Bold",
-                "nn": "Chadar",
-                "isCustomSet": true,
-                "met": "Dragon’s Den"
             }
         },
         "Gengar": {
@@ -73092,9 +72377,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 351,
-                "prev": 102
+                }
             },
             "Lvl 35 Leader Morty ": {
                 "level": 35,
@@ -73123,9 +72406,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 410,
-                "prev": 46
+                }
             },
             "Lvl 33 Medium Grace ": {
                 "level": 33,
@@ -73154,9 +72435,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 493,
-                "prev": 494
+                }
             },
             "Lvl 55 Ace Trainer Mike ": {
                 "level": 55,
@@ -73185,9 +72464,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 35,
-                "prev": 119
+                }
             },
             "Lvl 54 Team Rocket Grunt13 ": {
                 "level": 54,
@@ -73216,9 +72493,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 199,
-                "prev": 288
+                }
             },
             "Lvl 55 Rival Silver12 - Starter 3": {
                 "level": 55,
@@ -73363,9 +72638,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 193,
-                "prev": 272
+                }
             },
             "Lvl 55 Rival Silver18 - Starter 3": {
                 "level": 55,
@@ -73394,9 +72667,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 272,
-                "prev": 195
+                }
             },
             "Lvl 62 Psychic Vernon ": {
                 "level": 62,
@@ -73425,9 +72696,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 102,
-                "prev": 98
+                }
             },
             "Lvl 56 Executive Archer ": {
                 "level": 56,
@@ -73456,9 +72725,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 125,
-                "prev": 478
+                }
             },
             "Lvl 56 Rival Silver19 - Starter 3": {
                 "level": 56,
@@ -73574,9 +72841,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 159,
-                "prev": 92
+                }
             },
             "Lvl 48 Executive Archer2 ": {
                 "level": 48,
@@ -73605,9 +72870,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 675,
-                "prev": 479
+                }
             },
             "Lvl 61 Hoenn Champion MVとＥいa# ": {
                 "level": 61,
@@ -73694,9 +72957,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 707,
-                "prev": 711
+                }
             },
             "Lvl 57 Leader Morty2 1": {
                 "level": 57,
@@ -73842,36 +73103,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Levitate",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 22,
-                    "at": 9,
-                    "df": 3,
-                    "sa": 8,
-                    "sd": 31,
-                    "sp": 5
-                },
-                "moves": [
-                    "Thunderbolt",
-                    "Sludge Bomb",
-                    "Destiny Bond",
-                    "Giga Drain"
-                ],
-                "nature": "Calm",
-                "nn": "Haiti",
-                "isCustomSet": true,
-                "met": "Safari Zone"
             }
         },
         "Pidgey": {
@@ -73902,9 +73133,7 @@ backup_data = {
                 "ability": "Keen Eye",
                 "evs": {
                     "df": 0
-                },
-                "next": 20,
-                "prev": 50
+                }
             },
             "Lvl 10 Youngster Mikey ": {
                 "level": 10,
@@ -73933,9 +73162,7 @@ backup_data = {
                 "ability": "Keen Eye",
                 "evs": {
                     "df": 0
-                },
-                "next": 249,
-                "prev": 8
+                }
             },
             "Lvl 13 Bird Keeper Hank ": {
                 "level": 13,
@@ -73995,9 +73222,7 @@ backup_data = {
                 "ability": "Insomnia",
                 "evs": {
                     "df": 0
-                },
-                "next": 20,
-                "prev": 50
+                }
             },
             "Lvl 14 Elder Li ": {
                 "level": 14,
@@ -74026,9 +73251,7 @@ backup_data = {
                 "ability": "Insomnia",
                 "evs": {
                     "df": 0
-                },
-                "next": 50,
-                "prev": 54
+                }
             },
             "Lvl 14 Swimmer♀ Li ": {
                 "level": 14,
@@ -74088,9 +73311,7 @@ backup_data = {
                 "ability": "Run Away",
                 "evs": {
                     "df": 0
-                },
-                "next": 20,
-                "prev": 50
+                }
             },
             "Lvl 39 Bird Keeper Boris ": {
                 "level": 39,
@@ -74237,9 +73458,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 20,
-                "prev": 50
+                }
             },
             "Lvl 27 Bug Catcher Arnie ": {
                 "level": 27,
@@ -74268,9 +73487,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 72,
-                "prev": 80
+                }
             },
             "Lvl 30 School Kid Alan2 ": {
                 "level": 30,
@@ -74359,9 +73576,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 386,
-                "prev": 71
+                }
             },
             "Lvl 64 Sinnoh Elite Flint ": {
                 "level": 64,
@@ -74390,9 +73605,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 268,
-                "prev": 168
+                }
             },
             "Lvl 42 Camper Spencer ": {
                 "level": 42,
@@ -74421,9 +73634,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 402,
-                "prev": 129
+                }
             }
         },
         "Corsola": {
@@ -74454,9 +73665,7 @@ backup_data = {
                 "ability": "Natural Cure",
                 "evs": {
                     "df": 0
-                },
-                "next": 386,
-                "prev": 71
+                }
             },
             "Lvl 19 Beauty Kimberly ": {
                 "level": 19,
@@ -74632,9 +73841,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 386,
-                "prev": 71
+                }
             },
             "Lvl 26 Psychic Nathan ": {
                 "level": 26,
@@ -74721,9 +73928,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 74,
-                "prev": 77
+                }
             },
             "Lvl 34 Psychic Eli ": {
                 "level": 34,
@@ -74812,9 +74017,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 386,
-                "prev": 71
+                }
             },
             "Lvl 64 Sinnoh Leader Volkner ": {
                 "level": 64,
@@ -74843,9 +74046,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 169,
-                "prev": 138
+                }
             },
             "Lvl 43 Teacher Hillary2 ": {
                 "level": 43,
@@ -74963,9 +74164,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 386,
-                "prev": 71
+                }
             },
             "Lvl 65 Sinnoh Champion Cynthia ": {
                 "level": 65,
@@ -74994,9 +74193,7 @@ backup_data = {
                 "ability": "Serene Grace",
                 "evs": {
                     "df": 0
-                },
-                "next": 245,
-                "prev": 417
+                }
             },
             "Lvl 54 Team Rocket Grunt19 ": {
                 "level": 54,
@@ -75025,9 +74222,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 196,
-                "prev": 193
+                }
             },
             "Lvl 47 Team Rocket Grunt21 ": {
                 "level": 47,
@@ -75056,9 +74251,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 225,
-                "prev": 207
+                }
             },
             "Lvl 40 Lass Connie ": {
                 "level": 40,
@@ -75087,9 +74280,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 37,
-                "prev": 73
+                }
             },
             "Lvl 58 Ace Trainer Kobe ": {
                 "level": 58,
@@ -75118,9 +74309,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 162,
-                "prev": 244
+                }
             },
             "Lvl 63 Hoenn Champion MVとＥいa# ": {
                 "level": 63,
@@ -75178,9 +74367,7 @@ backup_data = {
                 "ability": "Serene Grace",
                 "evs": {
                     "df": 0
-                },
-                "next": 707,
-                "prev": 711
+                }
             }
         },
         "Miltank": {
@@ -75211,9 +74398,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 386,
-                "prev": 71
+                }
             },
             "Lvl 58 Hiker Timothy ": {
                 "level": 58,
@@ -75242,9 +74427,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 147,
-                "prev": 144
+                }
             },
             "Lvl 58 Leader Whitney2 ": {
                 "level": 58,
@@ -75274,26 +74457,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Thick Fat",
-                "level": 26,
-                "ivs": {
-                    "hp": 25,
-                    "at": 25,
-                    "df": 25,
-                    "sa": 25,
-                    "sd": 25,
-                    "sp": 25
-                },
-                "moves": [
-                    "Body Slam",
-                    "Milk Drink",
-                    "Defense Curl",
-                    "Rollout"
-                ],
-                "nature": "Sassy",
-                "isCustomSet": true
             }
         },
         "Drifblim": {
@@ -75324,9 +74487,7 @@ backup_data = {
                 "ability": "Unburden",
                 "evs": {
                     "df": 0
-                },
-                "next": 410,
-                "prev": 46
+                }
             },
             "Lvl 63 Pkmn Trainer Cheryl ": {
                 "level": 63,
@@ -75355,9 +74516,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 166,
-                "prev": 11
+                }
             },
             "Lvl 64 Sinnoh Elite Flint ": {
                 "level": 64,
@@ -75386,9 +74545,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 268,
-                "prev": 168
+                }
             },
             "Lvl 61 Pkmn Trainer C○とょいrVなハい ": {
                 "level": 61,
@@ -75477,9 +74634,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 410,
-                "prev": 46
+                }
             },
             "Lvl 64 Sinnoh Elite Flint ": {
                 "level": 64,
@@ -75508,9 +74663,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 268,
-                "prev": 168
+                }
             },
             "Lvl 54 Team Rocket Grunt31 ": {
                 "level": 54,
@@ -75539,9 +74692,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 471,
-                "prev": 197
+                }
             }
         },
         "Ninetales": {
@@ -75572,9 +74723,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 410,
-                "prev": 46
+                }
             },
             "Lvl 25 Ace Trainer Lois ": {
                 "level": 25,
@@ -75632,9 +74781,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 17,
-                "prev": 108
+                }
             },
             "Lvl 43 Ace Trainer Carol ": {
                 "level": 43,
@@ -75750,9 +74897,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 107,
-                "prev": 732
+                }
             }
         },
         "Hypno": {
@@ -75783,9 +74928,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 410,
-                "prev": 46
+                }
             },
             "Lvl 45 Medium Rebecca ": {
                 "level": 45,
@@ -75872,9 +75015,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 207,
-                "prev": 171
+                }
             },
             "Lvl 50 Biker Aiden2 ": {
                 "level": 50,
@@ -75990,9 +75131,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 478,
-                "prev": 191
+                }
             }
         },
         "Mamoswine": {
@@ -76023,9 +75162,7 @@ backup_data = {
                 "ability": "Snow Cloak",
                 "evs": {
                     "df": 0
-                },
-                "next": 185,
-                "prev": 481
+                }
             },
             "Lvl 59 Ace Trainer Emma ": {
                 "level": 59,
@@ -76054,9 +75191,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 115,
-                "prev": 205
+                }
             },
             "Lvl 53 Ace Trainer Cybil ": {
                 "level": 53,
@@ -76085,9 +75220,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 406,
-                "prev": 407
+                }
             },
             "Lvl 60 Leader Pryce2 ": {
                 "level": 60,
@@ -76117,36 +75250,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Thick Fat",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 7,
-                    "at": 12,
-                    "df": 0,
-                    "sa": 16,
-                    "sd": 8,
-                    "sp": 14
-                },
-                "moves": [
-                    "Knock Off",
-                    "Earthquake",
-                    "Horn Drill",
-                    "Avalanche"
-                ],
-                "nature": "Brave",
-                "nn": "Malaysia",
-                "isCustomSet": true,
-                "met": "Route 44"
             }
         },
         "Starmie": {
@@ -76177,9 +75280,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 185,
-                "prev": 481
+                }
             },
             "Lvl 34 Swimmer♀ Wendy ": {
                 "level": 34,
@@ -76208,9 +75309,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 97,
-                "prev": 95
+                }
             },
             "Lvl 61 Youngster Papaya2 ": {
                 "level": 61,
@@ -76239,9 +75338,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 114,
-                "prev": 303
+                }
             },
             "Lvl 65 Hoenn Champion Steven ": {
                 "level": 65,
@@ -76270,9 +75367,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 168,
-                "prev": 167
+                }
             },
             "Lvl 48 Team Rocket Grunt26 ": {
                 "level": 48,
@@ -76301,9 +75396,7 @@ backup_data = {
                 "ability": "Natural Cure",
                 "evs": {
                     "df": 0
-                },
-                "next": 219,
-                "prev": 469
+                }
             },
             "Lvl 43 Ace Trainer Carol ": {
                 "level": 43,
@@ -76651,9 +75744,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 488,
-                "prev": 219
+                }
             },
             "Lvl 46 Boarder Patton ": {
                 "level": 46,
@@ -76682,9 +75773,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 480,
-                "prev": 675
+                }
             },
             "Lvl 56 Executive Archer ": {
                 "level": 56,
@@ -76713,9 +75802,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 125,
-                "prev": 478
+                }
             },
             "Lvl 56 Ace Trainer Reena4 ": {
                 "level": 56,
@@ -76804,9 +75891,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 185,
-                "prev": 481
+                }
             },
             "Lvl 36 Black Belt Lao ": {
                 "level": 36,
@@ -76835,9 +75920,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 34,
-                "prev": 251
+                }
             },
             "Lvl 63 Pkmn Trainer Marley ": {
                 "level": 63,
@@ -76866,9 +75949,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 167,
-                "prev": 165
+                }
             },
             "Lvl 55 Team Rocket Grunt10 ": {
                 "level": 55,
@@ -76897,9 +75978,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 191,
-                "prev": 471
+                }
             },
             "Lvl 65 Rival Silver9 - Starter 3": {
                 "level": 65,
@@ -76928,9 +76007,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 120,
-                "prev": 169
+                }
             },
             "Lvl 55 Rival Silver12 - Starter 3": {
                 "level": 55,
@@ -76988,9 +76065,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 193,
-                "prev": 272
+                }
             },
             "Lvl 55 Rival Silver18 - Starter 3": {
                 "level": 55,
@@ -77019,9 +76094,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 272,
-                "prev": 195
+                }
             },
             "Lvl 40 Pokéfan Colin ": {
                 "level": 40,
@@ -77168,9 +76241,7 @@ backup_data = {
                 "ability": "Ice Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 185,
-                "prev": 481
+                }
             },
             "Lvl 64 Sinnoh Leader Candice2 ": {
                 "level": 64,
@@ -77199,9 +76270,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 417,
-                "prev": 268
+                }
             },
             "Lvl 48 Skier Jill ": {
                 "level": 48,
@@ -77230,9 +76299,7 @@ backup_data = {
                 "ability": "Ice Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 32,
-                "prev": 484
+                }
             },
             "Lvl 56 Leader Pryce2 ": {
                 "level": 56,
@@ -77262,36 +76329,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Thick Fat",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 15,
-                    "at": 9,
-                    "df": 8,
-                    "sa": 9,
-                    "sd": 27,
-                    "sp": 17
-                },
-                "moves": [
-                    "Giga Drain",
-                    "Earthquake",
-                    "Strength",
-                    "Ice Beam"
-                ],
-                "nature": "Bashful",
-                "nn": "Sweden",
-                "isCustomSet": true,
-                "met": "Mahogany Town"
             }
         },
         "Froslass": {
@@ -77322,9 +76359,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 185,
-                "prev": 481
+                }
             },
             "Lvl 32 Medium Martha ": {
                 "level": 32,
@@ -77353,9 +76388,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 31,
-                "prev": 493
+                }
             },
             "Lvl 54 Team Rocket Grunt9 ": {
                 "level": 54,
@@ -77384,9 +76417,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 192,
-                "prev": 186
+                }
             },
             "Lvl 48 Team Rocket Grunt34 ": {
                 "level": 48,
@@ -77415,9 +76446,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 469,
-                "prev": 218
+                }
             },
             "Lvl 52 Leader Pryce2 ": {
                 "level": 52,
@@ -77447,36 +76476,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Levitate",
-                "level": 66,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 3,
-                    "at": 15,
-                    "df": 24,
-                    "sa": 10,
-                    "sd": 16,
-                    "sp": 4
-                },
-                "moves": [
-                    "Thunderbolt",
-                    "Ice Beam",
-                    "Shadow Ball",
-                    "Icy Wind"
-                ],
-                "nature": "Timid",
-                "nn": "Lithuania",
-                "isCustomSet": true,
-                "met": "Ice Path"
             }
         },
         "Lapras-S": {
@@ -77507,9 +76506,7 @@ backup_data = {
                 "ability": "Ice Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 185,
-                "prev": 481
+                }
             },
             "Lvl 53 Psychic Phil ": {
                 "level": 53,
@@ -77569,9 +76566,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 129,
-                "prev": 158
+                }
             },
             "Lvl 63 Ace Trainer Hugh ": {
                 "level": 63,
@@ -77600,9 +76595,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 28,
-                "prev": 411
+                }
             },
             "Lvl 32 Sinnoh Leader Byron ": {
                 "level": 32,
@@ -77631,9 +76624,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 601,
-                "prev": 88
+                }
             },
             "Lvl 53 Team Rocket Grunt8 ": {
                 "level": 53,
@@ -77662,9 +76653,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 186,
-                "prev": 187
+                }
             },
             "Lvl 46 Team Rocket Grunt22 ": {
                 "level": 46,
@@ -77693,9 +76682,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 170,
-                "prev": 224
+                }
             },
             "Lvl 50 Leader Jasmine2 ": {
                 "level": 50,
@@ -77725,36 +76712,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Levitate",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 15,
-                    "at": 27,
-                    "df": 27,
-                    "sa": 0,
-                    "sd": 8,
-                    "sp": 12
-                },
-                "moves": [
-                    "Heal Block",
-                    "Zen Headbutt",
-                    "Gyro Ball",
-                    "Earthquake"
-                ],
-                "nature": "Calm",
-                "nn": "Turkey",
-                "isCustomSet": true,
-                "met": "Ruins of Alph"
             }
         },
         "Scizor": {
@@ -77785,9 +76742,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 129,
-                "prev": 158
+                }
             },
             "Lvl 42 Sinnoh Leader Wake ": {
                 "level": 42,
@@ -77816,9 +76771,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 729,
-                "prev": 730
+                }
             },
             "Lvl 59 Hiker Bailey ": {
                 "level": 59,
@@ -77847,9 +76800,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 110,
-                "prev": 151
+                }
             },
             "Lvl 53 Ace Trainer Cybil ": {
                 "level": 53,
@@ -77878,9 +76829,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 406,
-                "prev": 407
+                }
             },
             "Lvl 58 Ace Trainer Kobe ": {
                 "level": 58,
@@ -77909,9 +76858,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 162,
-                "prev": 244
+                }
             },
             "Lvl 100 Factory Head Thorton ": {
                 "level": 100,
@@ -77940,9 +76887,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 710,
-                "prev": 260
+                }
             },
             "Lvl 56 Leader Bugsy2 ": {
                 "level": 56,
@@ -78002,9 +76947,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 129,
-                "prev": 158
+                }
             },
             "Lvl 55 Rival Silver12 - Starter 3": {
                 "level": 55,
@@ -78062,9 +77005,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 193,
-                "prev": 272
+                }
             },
             "Lvl 55 Rival Silver18 - Starter 3": {
                 "level": 55,
@@ -78093,9 +77034,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 272,
-                "prev": 195
+                }
             },
             "Lvl 59 Ace Trainer Emma ": {
                 "level": 59,
@@ -78124,9 +77063,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 115,
-                "prev": 205
+                }
             },
             "Lvl 53 Poké Maniac Zach ": {
                 "level": 53,
@@ -78155,9 +77092,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 137,
-                "prev": 408
+                }
             },
             "Lvl 47 Scientist Gregg ": {
                 "level": 47,
@@ -78186,9 +77121,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 207,
-                "prev": 171
+                }
             },
             "Lvl 62 Hoenn Champion MVとＥいa# ": {
                 "level": 62,
@@ -78276,36 +77209,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Magnet Pull",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 10,
-                    "at": 12,
-                    "df": 4,
-                    "sa": 5,
-                    "sd": 13,
-                    "sp": 24
-                },
-                "moves": [
-                    "Magnet Bomb",
-                    "Aurora Beam",
-                    "Thunderbolt",
-                    "Magnet Rise"
-                ],
-                "nature": "Serious",
-                "nn": "UKBri’ish",
-                "isCustomSet": true,
-                "met": "National Park"
             }
         },
         "Empoleon": {
@@ -78336,9 +77239,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 129,
-                "prev": 158
+                }
             },
             "Lvl 54 Bird Keeper Vance ": {
                 "level": 54,
@@ -78367,9 +77268,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 141,
-                "prev": 406
+                }
             },
             "Lvl 55 Team Rocket Grunt10 ": {
                 "level": 55,
@@ -78398,9 +77297,7 @@ backup_data = {
                 "ability": "Torrent",
                 "evs": {
                     "df": 0
-                },
-                "next": 191,
-                "prev": 471
+                }
             },
             "Lvl 53 Team Rocket Grunt18 ": {
                 "level": 53,
@@ -78429,9 +77326,7 @@ backup_data = {
                 "ability": "Torrent",
                 "evs": {
                     "df": 0
-                },
-                "next": 187,
-                "prev": 185
+                }
             },
             "Lvl 48 Team Rocket Grunt29 ": {
                 "level": 48,
@@ -78460,9 +77355,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 226,
-                "prev": 208
+                }
             },
             "Lvl 100 Hoenn Leader Winona ": {
                 "level": 100,
@@ -78520,9 +77413,7 @@ backup_data = {
                 "ability": "Torrent",
                 "evs": {
                     "df": 0
-                },
-                "next": 174,
-                "prev": 120
+                }
             },
             "Lvl 100 Castle Valet Darach ": {
                 "level": 100,
@@ -78551,9 +77442,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 708,
-                "prev": 710
+                }
             },
             "Lvl 52 Leader Jasmine2 ": {
                 "level": 52,
@@ -78613,9 +77502,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 129,
-                "prev": 158
+                }
             },
             "Lvl 41 Gentleman Preston ": {
                 "level": 41,
@@ -78644,9 +77531,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 217,
-                "prev": 215
+                }
             },
             "Lvl 48 Scientist Mitch ": {
                 "level": 48,
@@ -78675,9 +77560,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 222,
-                "prev": 404
+                }
             }
         },
         "Steelix": {
@@ -78708,9 +77591,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 129,
-                "prev": 158
+                }
             },
             "Lvl 35 Swimmer♂ Matthew ": {
                 "level": 35,
@@ -78768,9 +77649,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 117,
-                "prev": 154
+                }
             },
             "Lvl 64 Sinnoh Elite Flint ": {
                 "level": 64,
@@ -78799,9 +77678,7 @@ backup_data = {
                 "ability": "Lightning Rod",
                 "evs": {
                     "df": 0
-                },
-                "next": 268,
-                "prev": 168
+                }
             },
             "Lvl 46 Team Rocket Grunt22 ": {
                 "level": 46,
@@ -78830,9 +77707,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 170,
-                "prev": 224
+                }
             },
             "Lvl 48 Team Rocket Grunt30 ": {
                 "level": 48,
@@ -78861,9 +77736,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 218,
-                "prev": 225
+                }
             },
             "Lvl 41 Hiker Parry3 ": {
                 "level": 41,
@@ -79068,9 +77941,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 401,
-                "prev": 157
+                }
             },
             "Lvl 61 Youngster Papaya2 ": {
                 "level": 61,
@@ -79099,9 +77970,7 @@ backup_data = {
                 "ability": "Reckless",
                 "evs": {
                     "df": 0
-                },
-                "next": 114,
-                "prev": 303
+                }
             },
             "Lvl 54 Team Rocket Grunt9 ": {
                 "level": 54,
@@ -79130,9 +77999,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 192,
-                "prev": 186
+                }
             },
             "Lvl 100 Castle Valet Darach ": {
                 "level": 100,
@@ -79161,9 +78028,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 708,
-                "prev": 710
+                }
             },
             "Lvl 50 Leader Falkner2 ": {
                 "level": 50,
@@ -79223,9 +78088,7 @@ backup_data = {
                 "ability": "Arena Trap",
                 "evs": {
                     "df": 0
-                },
-                "next": 401,
-                "prev": 157
+                }
             },
             "Lvl 43 Camper Sid ": {
                 "level": 43,
@@ -79283,9 +78146,7 @@ backup_data = {
                 "ability": "Arena Trap",
                 "evs": {
                     "df": 0
-                },
-                "next": 188,
-                "prev": 198
+                }
             },
             "Lvl 45 Hiker Clarke ": {
                 "level": 45,
@@ -79490,9 +78351,7 @@ backup_data = {
                 "ability": "Battle Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 401,
-                "prev": 157
+                }
             },
             "Lvl 34 Swimmer♀ Susie ": {
                 "level": 34,
@@ -79550,9 +78409,7 @@ backup_data = {
                 "ability": "Battle Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 168,
-                "prev": 167
+                }
             }
         },
         "Electivire": {
@@ -79583,9 +78440,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 401,
-                "prev": 157
+                }
             },
             "Lvl 61 Youngster Papaya2 ": {
                 "level": 61,
@@ -79614,9 +78469,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 114,
-                "prev": 303
+                }
             },
             "Lvl 64 Sinnoh Leader Volkner ": {
                 "level": 64,
@@ -79645,9 +78498,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 169,
-                "prev": 138
+                }
             },
             "Lvl 55 Team Rocket Grunt10 ": {
                 "level": 55,
@@ -79676,9 +78527,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 191,
-                "prev": 471
+                }
             },
             "Lvl 68 Elite Four Will ": {
                 "level": 68,
@@ -79707,9 +78556,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 247,
-                "prev": 174
+                }
             },
             "Lvl 100 Unova Leader Elesa ": {
                 "level": 100,
@@ -79767,9 +78614,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 485,
-                "prev": 706
+                }
             },
             "Lvl 44 Twins Clea & Gil ": {
                 "level": 44,
@@ -79798,9 +78643,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 229,
-                "prev": 130
+                }
             },
             "Lvl 100 Elite Four Will2 ": {
                 "level": 100,
@@ -79858,9 +78701,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 710,
-                "prev": 260
+                }
             },
             "Lvl 56 Unova Leader Lt. Surge ": {
                 "level": 56,
@@ -79920,9 +78761,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 401,
-                "prev": 157
+                }
             },
             "Lvl 40 Camper Sid ": {
                 "level": 40,
@@ -79980,9 +78819,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 202,
-                "prev": 221
+                }
             },
             "Lvl 55 Team Rocket Grunt31 ": {
                 "level": 55,
@@ -80011,9 +78848,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 471,
-                "prev": 197
+                }
             },
             "Lvl 36 Sailor Kenneth ": {
                 "level": 36,
@@ -80218,9 +79053,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 244,
-                "prev": 111
+                }
             }
         },
         "Ampharos": {
@@ -80251,9 +79084,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 244,
-                "prev": 111
+                }
             },
             "Lvl 42 Poké Maniac Brent ": {
                 "level": 42,
@@ -80282,9 +79113,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 122,
-                "prev": 402
+                }
             },
             "Lvl 36 Black Belt Lao ": {
                 "level": 36,
@@ -80313,9 +79142,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 34,
-                "prev": 251
+                }
             },
             "Lvl 100 Unova Leader Elesa ": {
                 "level": 100,
@@ -80547,39 +79374,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 483,
-                "prev": 499
-            },
-            "My Box": {
-                "ability": "Static",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 19,
-                    "at": 15,
-                    "df": 29,
-                    "sa": 28,
-                    "sd": 6,
-                    "sp": 1
-                },
-                "moves": [
-                    "Thunder",
-                    "Thunderbolt",
-                    "Dragon Pulse",
-                    "Power Gem"
-                ],
-                "nature": "Sassy",
-                "nn": "Ireland",
-                "isCustomSet": true,
-                "met": "Route 32"
+                }
             }
         },
         "Rampardos": {
@@ -80610,9 +79405,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 244,
-                "prev": 111
+                }
             },
             "Lvl 42 Poké Maniac Shane ": {
                 "level": 42,
@@ -80641,9 +79434,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 403,
-                "prev": 33
+                }
             },
             "Lvl 57 Leader Brock ": {
                 "level": 57,
@@ -80703,9 +79494,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 244,
-                "prev": 111
+                }
             },
             "Lvl 35 Swimmer♂ Ronald ": {
                 "level": 35,
@@ -80734,9 +79523,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 411,
-                "prev": 114
+                }
             },
             "Lvl 55 Ace Trainer Cody ": {
                 "level": 55,
@@ -80765,9 +79552,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 119,
-                "prev": 117
+                }
             },
             "Lvl 53 Fisherman Edgar ": {
                 "level": 53,
@@ -80796,9 +79581,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 124,
-                "prev": 485
+                }
             },
             "Lvl 56 Leader Clair2 ": {
                 "level": 56,
@@ -81119,9 +79902,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 66,
-                "prev": 62
+                }
             },
             "Lvl 30 Pokéfan Derek2 ": {
                 "level": 30,
@@ -81297,9 +80078,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 498,
-                "prev": 98
+                }
             },
             "Lvl 55 Ace Trainer Fran ": {
                 "level": 55,
@@ -81328,9 +80107,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 111,
-                "prev": 112
+                }
             },
             "Lvl 43 Black Belt Kiyo ": {
                 "level": 43,
@@ -81359,9 +80136,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 33,
-                "prev": 106
+                }
             },
             "Lvl 48 Pkmn Trainer Lance2 ": {
                 "level": 48,
@@ -81390,9 +80165,7 @@ backup_data = {
                 "ability": "Torrent",
                 "evs": {
                     "df": 0
-                },
-                "next": 483,
-                "prev": 499
+                }
             }
         },
         "Fearow": {
@@ -81423,9 +80196,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 217,
-                "prev": 215
+                }
             },
             "Lvl 25 Camper Todd ": {
                 "level": 25,
@@ -81454,9 +80225,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 77,
-                "prev": 409
+                }
             },
             "Lvl 24 Picnicker Brooke ": {
                 "level": 24,
@@ -81485,9 +80254,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 7,
-                "prev": 75
+                }
             },
             "Lvl 56 Hiker Erik ": {
                 "level": 56,
@@ -81516,9 +80283,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 145,
-                "prev": 141
+                }
             },
             "Lvl 54 Team Rocket Grunt12 ": {
                 "level": 54,
@@ -81547,9 +80312,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 472,
-                "prev": 189
+                }
             },
             "Lvl 46 Team Rocket Grunt22 ": {
                 "level": 46,
@@ -81578,9 +80341,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 170,
-                "prev": 224
+                }
             },
             "Lvl 38 Bird Keeper Roy ": {
                 "level": 38,
@@ -81696,9 +80457,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 390,
-                "prev": 26
+                }
             },
             "Lvl 41 Bird Keeper Bret ": {
                 "level": 41,
@@ -81756,9 +80515,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 89,
-                "prev": 537
+                }
             },
             "Lvl 30 Camper Bertrand ": {
                 "level": 30,
@@ -81991,36 +80748,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Intimidate",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 31,
-                    "at": 3,
-                    "df": 19,
-                    "sa": 10,
-                    "sd": 9,
-                    "sp": 5
-                },
-                "moves": [
-                    "Detect",
-                    "Sucker Punch",
-                    "Horn Drill",
-                    "Brave Bird"
-                ],
-                "nature": "Hardy",
-                "nn": "Kenyaw",
-                "isCustomSet": true,
-                "met": "Azalea Town"
             }
         },
         "Clefairy": {
@@ -82080,9 +80807,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 290,
-                "prev": 55
+                }
             },
             "Lvl 34 Picnicker Tiffany2 ": {
                 "level": 34,
@@ -82171,9 +80896,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 45,
-                "prev": 389
+                }
             },
             "Lvl 36 Black Belt Yoshi ": {
                 "level": 36,
@@ -82202,9 +80925,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 251,
-                "prev": 159
+                }
             },
             "Lvl 48 Sailor Huey4 ": {
                 "level": 48,
@@ -82264,9 +80985,7 @@ backup_data = {
                 "ability": "Water Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 45,
-                "prev": 389
+                }
             },
             "Lvl 34 Swimmer♀ Susie ": {
                 "level": 34,
@@ -82324,9 +81043,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 124,
-                "prev": 485
+                }
             },
             "Lvl 41 Picnicker Debra ": {
                 "level": 41,
@@ -82384,9 +81101,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 157,
-                "prev": 156
+                }
             },
             "Lvl 20 Swimmer♀ Mickey ": {
                 "level": 20,
@@ -83026,9 +81741,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 101,
-                "prev": 23
+                }
             },
             "Lvl 32 Hiker Anthony2 ": {
                 "level": 32,
@@ -83320,9 +82033,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 101,
-                "prev": 23
+                }
             },
             "Lvl 33 Hiker Anthony2 ": {
                 "level": 33,
@@ -83380,9 +82091,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 13,
-                "prev": 40
+                }
             },
             "Lvl 32 Hiker Benjamin ": {
                 "level": 32,
@@ -83411,9 +82120,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 537,
-                "prev": 123
+                }
             },
             "Lvl 37 Hiker Anthony3 ": {
                 "level": 37,
@@ -84285,9 +82992,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 101,
-                "prev": 23
+                }
             },
             "Lvl 65 Sinnoh Champion Cynthia ": {
                 "level": 65,
@@ -84316,9 +83021,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 245,
-                "prev": 417
+                }
             },
             "Lvl 63 Pkmn Trainer Riley ": {
                 "level": 63,
@@ -84347,9 +83050,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 202,
-                "prev": 221
+                }
             },
             "Lvl 54 Team Rocket Grunt12 ": {
                 "level": 54,
@@ -84378,9 +83079,7 @@ backup_data = {
                 "ability": "Download",
                 "evs": {
                     "df": 0
-                },
-                "next": 472,
-                "prev": 189
+                }
             },
             "Lvl 69 Elite Four Karen ": {
                 "level": 69,
@@ -84409,9 +83108,7 @@ backup_data = {
                 "ability": "Download",
                 "evs": {
                     "df": 0
-                },
-                "next": 260,
-                "prev": 418
+                }
             },
             "Lvl 63 Ace Trainer Trevor ": {
                 "level": 63,
@@ -84440,9 +83137,7 @@ backup_data = {
                 "ability": "Download",
                 "evs": {
                     "df": 0
-                },
-                "next": 11,
-                "prev": 28
+                }
             },
             "Lvl 64 Sinnoh Leader Maylene2 ": {
                 "level": 64,
@@ -84471,9 +83166,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 174,
-                "prev": 120
+                }
             },
             "Lvl 47 Boarder Deandre ": {
                 "level": 47,
@@ -84502,9 +83195,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 484,
-                "prev": 480
+                }
             },
             "Lvl 65 Pkmn Trainer RVとハいeVな\\x01F8 ": {
                 "level": 65,
@@ -84622,9 +83313,7 @@ backup_data = {
                 "ability": "Motor Drive",
                 "evs": {
                     "df": 0
-                },
-                "next": 395,
-                "prev": 184
+                }
             },
             "Lvl 43 School Kid Danny ": {
                 "level": 43,
@@ -84713,9 +83402,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 52,
-                "prev": 51
+                }
             }
         },
         "Poochyena": {
@@ -84746,9 +83433,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 52,
-                "prev": 51
+                }
             }
         },
         "Bellsprout": {
@@ -84779,9 +83464,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 52,
-                "prev": 51
+                }
             },
             "Lvl 39 School Kid Johnny ": {
                 "level": 39,
@@ -84841,9 +83524,7 @@ backup_data = {
                 "ability": "Huge Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 16,
-                "prev": 39
+                }
             },
             "Lvl 22 Youngster Gordon ": {
                 "level": 22,
@@ -84872,9 +83553,7 @@ backup_data = {
                 "ability": "Huge Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 26,
-                "prev": 57
+                }
             },
             "Lvl 34 Swimmer♂ Charlie ": {
                 "level": 34,
@@ -84903,9 +83582,7 @@ backup_data = {
                 "ability": "Huge Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 94,
-                "prev": 96
+                }
             },
             "Lvl 53 Fisherman Wilton ": {
                 "level": 53,
@@ -84934,9 +83611,7 @@ backup_data = {
                 "ability": "Huge Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 407,
-                "prev": 125
+                }
             },
             "Lvl 27 Pokéfan William ": {
                 "level": 27,
@@ -84965,9 +83640,7 @@ backup_data = {
                 "ability": "Huge Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 395,
-                "prev": 184
+                }
             },
             "Lvl 53 Fisherman Wilton2 ": {
                 "level": 53,
@@ -85054,9 +83727,7 @@ backup_data = {
                 "ability": "Huge Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 131,
-                "prev": 403
+                }
             },
             "Lvl 40 Swimmer♀ Chelan ": {
                 "level": 40,
@@ -85231,36 +83902,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Huge Power",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 11,
-                    "at": 4,
-                    "df": 0,
-                    "sa": 8,
-                    "sd": 14,
-                    "sp": 16
-                },
-                "moves": [
-                    "Aqua Tail",
-                    "Aqua Jet",
-                    "Fake Out",
-                    "Return"
-                ],
-                "nature": "Quirky",
-                "nn": "Germany",
-                "isCustomSet": true,
-                "met": "Violet City"
             }
         },
         "Ursaring": {
@@ -85291,9 +83932,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 16,
-                "prev": 39
+                }
             },
             "Lvl 61 Ace Trainer Megan ": {
                 "level": 61,
@@ -85322,9 +83961,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 303,
-                "prev": 363
+                }
             },
             "Lvl 43 Black Belt Kiyo ": {
                 "level": 43,
@@ -85353,9 +83990,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 33,
-                "prev": 106
+                }
             },
             "Lvl 54 Team Rocket Grunt6 ": {
                 "level": 54,
@@ -85384,9 +84019,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 189,
-                "prev": 188
+                }
             },
             "Lvl 69 Elite Four Karen ": {
                 "level": 69,
@@ -85415,9 +84048,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 260,
-                "prev": 418
+                }
             },
             "Lvl 59 Bird Keeper Jose ": {
                 "level": 59,
@@ -85446,9 +84077,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 104,
-                "prev": 115
+                }
             },
             "Lvl 47 Pokéfan Derek4 ": {
                 "level": 47,
@@ -85593,39 +84222,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 710,
-                "prev": 260
-            },
-            "My Box": {
-                "ability": "Rock Head",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 27,
-                    "at": 27,
-                    "df": 6,
-                    "sa": 16,
-                    "sd": 22,
-                    "sp": 24
-                },
-                "moves": [
-                    "Earthquake",
-                    "Rest",
-                    "Superpower",
-                    "Double-Edge"
-                ],
-                "nature": "Jolly",
-                "nn": "Belarus",
-                "isCustomSet": true,
-                "met": "Tohjo Falls"
+                }
             }
         },
         "Kecleon": {
@@ -85656,9 +84253,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 16,
-                "prev": 39
+                }
             },
             "Lvl 27 Beauty Samantha ": {
                 "level": 27,
@@ -85687,9 +84282,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 5,
-                "prev": 87
+                }
             },
             "Lvl 33 Medium Grace ": {
                 "level": 33,
@@ -85718,9 +84311,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 493,
-                "prev": 494
+                }
             }
         },
         "Magneton": {
@@ -85751,9 +84342,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 31,
-                "prev": 493
+                }
             },
             "Lvl 33 Ace Trainer Blake ": {
                 "level": 33,
@@ -85840,9 +84429,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 123,
-                "prev": 270
+                }
             },
             "Lvl 37 Rival Silver5 - Starter 3": {
                 "level": 37,
@@ -85900,9 +84487,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 270,
-                "prev": 601
+                }
             },
             "Lvl 32 Rival Silver11 - Starter 3": {
                 "level": 32,
@@ -85931,9 +84516,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 263,
-                "prev": 267
+                }
             },
             "Lvl 37 Rival Silver13 - Starter 3": {
                 "level": 37,
@@ -85962,9 +84545,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 288,
-                "prev": 289
+                }
             },
             "Lvl 46 Rival Silver14 - Starter 3": {
                 "level": 46,
@@ -86109,9 +84690,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 482,
-                "prev": 483
+                }
             },
             "Lvl 55 Rival Silver19 - Starter 3": {
                 "level": 55,
@@ -86316,9 +84895,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 31,
-                "prev": 493
+                }
             },
             "Lvl 32 Sinnoh Leader Byron ": {
                 "level": 32,
@@ -86347,9 +84924,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 601,
-                "prev": 88
+                }
             },
             "Lvl 63 Pkmn Trainer Riley ": {
                 "level": 63,
@@ -86378,9 +84953,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 202,
-                "prev": 221
+                }
             },
             "Lvl 67 Elite Four Will ": {
                 "level": 67,
@@ -86409,9 +84982,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 247,
-                "prev": 174
+                }
             },
             "Lvl 56 Executive Petrel ": {
                 "level": 56,
@@ -86440,9 +85011,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 170,
-                "prev": 472
+                }
             },
             "Lvl 48 Executive Petrel2 ": {
                 "level": 48,
@@ -86471,9 +85040,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 479,
-                "prev": 468
+                }
             },
             "Lvl 47 Ace Trainer French ": {
                 "level": 47,
@@ -86532,36 +85099,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Super Luck",
-                "level": 65,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 27,
-                    "at": 7,
-                    "df": 18,
-                    "sa": 31,
-                    "sd": 2,
-                    "sp": 17
-                },
-                "moves": [
-                    "Superpower",
-                    "Iron Head",
-                    "Crunch",
-                    "Sucker Punch"
-                ],
-                "nature": "Impish",
-                "nn": "Egypt",
-                "isCustomSet": true,
-                "met": "Route 43"
             }
         },
         "Rattata": {
@@ -86592,9 +85129,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 249,
-                "prev": 8
+                }
             }
         },
         "Beedrill": {
@@ -86654,9 +85189,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 10,
-                "prev": 68
+                }
             },
             "Lvl 43 Bug Catcher Ed ": {
                 "level": 43,
@@ -86947,36 +85480,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Sniper",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 22,
-                    "at": 11,
-                    "df": 11,
-                    "sa": 20,
-                    "sd": 0,
-                    "sp": 16
-                },
-                "moves": [
-                    "Cross Poison",
-                    "Knock Off",
-                    "X-Scissor",
-                    "U-turn"
-                ],
-                "nature": "Gentle",
-                "nn": "Nepal",
-                "isCustomSet": true,
-                "met": "Route 46"
             }
         },
         "Butterfree": {
@@ -87036,9 +85539,7 @@ backup_data = {
                 "ability": "Tinted Lens",
                 "evs": {
                     "df": 0
-                },
-                "next": 10,
-                "prev": 68
+                }
             },
             "Lvl 39 Bug Catcher Doug ": {
                 "level": 39,
@@ -87678,9 +86179,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 27,
-                "prev": 20
+                }
             },
             "Lvl 28 Lass Cathy ": {
                 "level": 28,
@@ -87709,9 +86208,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 30,
-                "prev": 22
+                }
             },
             "Lvl 33 Lass Dana ": {
                 "level": 33,
@@ -87740,9 +86237,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 82,
-                "prev": 410
+                }
             },
             "Lvl 43 Teacher Shirley ": {
                 "level": 43,
@@ -87802,9 +86297,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 27,
-                "prev": 20
+                }
             }
         },
         "Togetic": {
@@ -87835,9 +86328,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "evs": {
                     "df": 0
-                },
-                "next": 27,
-                "prev": 20
+                }
             }
         },
         "Spearow": {
@@ -87868,9 +86359,7 @@ backup_data = {
                 "ability": "Keen Eye",
                 "evs": {
                     "df": 0
-                },
-                "next": 29,
-                "prev": 290
+                }
             },
             "Lvl 39 Bird Keeper Gail ": {
                 "level": 39,
@@ -87930,9 +86419,7 @@ backup_data = {
                 "ability": "Tinted Lens",
                 "evs": {
                     "df": 0
-                },
-                "next": 29,
-                "prev": 290
+                }
             },
             "Lvl 50 Leader Janine ": {
                 "level": 50,
@@ -88108,9 +86595,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 29,
-                "prev": 290
+                }
             }
         },
         "Stantler": {
@@ -88141,9 +86626,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 29,
-                "prev": 290
+                }
             },
             "Lvl 53 Ace Trainer Arabella ": {
                 "level": 53,
@@ -88173,36 +86656,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Intimidate",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 5,
-                    "at": 7,
-                    "df": 14,
-                    "sa": 23,
-                    "sd": 7,
-                    "sp": 23
-                },
-                "moves": [
-                    "Role Play",
-                    "Psychic",
-                    "Giga Drain",
-                    "Hyper Voice"
-                ],
-                "nature": "Lax",
-                "nn": "Spainer",
-                "isCustomSet": true,
-                "met": "Route 37"
             }
         },
         "Sentret": {
@@ -88233,9 +86686,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 43,
-                "prev": 19
+                }
             },
             "Lvl 15 Beauty Mickey ": {
                 "level": 15,
@@ -88556,9 +87007,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 43,
-                "prev": 19
+                }
             },
             "Lvl 41 Teacher Hillary ": {
                 "level": 41,
@@ -88618,9 +87067,7 @@ backup_data = {
                 "ability": "Shield Dust",
                 "evs": {
                     "df": 0
-                },
-                "next": 43,
-                "prev": 19
+                }
             }
         },
         "Snubbull": {
@@ -88651,9 +87098,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 53,
-                "prev": 43
+                }
             },
             "Lvl 31 Pokéfan Beverly2 ": {
                 "level": 31,
@@ -88713,9 +87158,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 53,
-                "prev": 43
+                }
             },
             "Lvl 17 Fisherman Henry ": {
                 "level": 17,
@@ -88744,9 +87187,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 57,
-                "prev": 18
+                }
             },
             "Lvl 13 Swimmer♂ Mickey ": {
                 "level": 13,
@@ -88922,9 +87363,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 53,
-                "prev": 43
+                }
             },
             "Lvl 44 Beauty Julia ": {
                 "level": 44,
@@ -89071,9 +87510,7 @@ backup_data = {
                 "ability": "Compound Eyes",
                 "evs": {
                     "df": 0
-                },
-                "next": 55,
-                "prev": 52
+                }
             },
             "Lvl 45 Bug Catcher Arnie4 ": {
                 "level": 45,
@@ -89133,9 +87570,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 290,
-                "prev": 55
+                }
             },
             "Lvl 41 Bird Keeper Bret ": {
                 "level": 41,
@@ -89195,9 +87630,7 @@ backup_data = {
                 "ability": "Water Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 54,
-                "prev": 53
+                }
             }
         },
         "Pichu": {
@@ -89228,9 +87661,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 54,
-                "prev": 53
+                }
             },
             "Lvl 13 Pokéfan Derek3 ": {
                 "level": 13,
@@ -89319,9 +87750,7 @@ backup_data = {
                 "ability": "Insomnia",
                 "evs": {
                     "df": 0
-                },
-                "next": 26,
-                "prev": 57
+                }
             },
             "Lvl 61 Ace Trainer Megan ": {
                 "level": 61,
@@ -89350,9 +87779,7 @@ backup_data = {
                 "ability": "Insomnia",
                 "evs": {
                     "df": 0
-                },
-                "next": 303,
-                "prev": 363
+                }
             },
             "Lvl 48 Bird Keeper Bob ": {
                 "level": 48,
@@ -89672,36 +88099,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Insomnia",
-                "level": 56,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 0,
-                    "at": 29,
-                    "df": 17,
-                    "sa": 18,
-                    "sd": 16,
-                    "sp": 1
-                },
-                "moves": [
-                    "Roost",
-                    "Mist Ball",
-                    "Psycho Boost",
-                    "Gust"
-                ],
-                "nature": "Brave",
-                "nn": "Switzerlnd",
-                "isCustomSet": true,
-                "met": "Safari Zone Gate"
             }
         },
         "Goldeen": {
@@ -89732,9 +88129,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 56,
-                "prev": 60
+                }
             },
             "Lvl 39 Fisherman Kyle 1": {
                 "level": 39,
@@ -89939,9 +88334,7 @@ backup_data = {
                 "ability": "Battle Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 56,
-                "prev": 60
+                }
             },
             "Lvl 34 Poké Maniac Brent2 ": {
                 "level": 34,
@@ -90206,9 +88599,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 86,
-                "prev": 9
+                }
             },
             "Lvl 38 Fisherman Stephen ": {
                 "level": 38,
@@ -90353,9 +88744,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 488,
-                "prev": 219
+                }
             },
             "Lvl 53 Fisherman Ralph4 ": {
                 "level": 53,
@@ -90560,9 +88949,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 57,
-                "prev": 18
+                }
             },
             "Lvl 34 Sailor Stanly ": {
                 "level": 34,
@@ -90709,9 +89096,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 57,
-                "prev": 18
+                }
             },
             "Lvl 18 Sailor Roberto ": {
                 "level": 18,
@@ -91413,9 +89798,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 409,
-                "prev": 63
+                }
             },
             "Lvl 45 Lass Alice ": {
                 "level": 45,
@@ -91531,9 +89914,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 389,
-                "prev": 82
+                }
             },
             "Lvl 48 Executive Ariana2 ": {
                 "level": 48,
@@ -91562,9 +89943,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 499,
-                "prev": 488
+                }
             },
             "Lvl 42 Biker Reese2 ": {
                 "level": 42,
@@ -91682,9 +90061,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 62,
-                "prev": 1
+                }
             },
             "Lvl 42 Sinnoh Leader Wake ": {
                 "level": 42,
@@ -91713,9 +90090,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 729,
-                "prev": 730
+                }
             },
             "Lvl 59 Camper Ted ": {
                 "level": 59,
@@ -91744,9 +90119,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 151,
-                "prev": 146
+                }
             },
             "Lvl 47 Boarder Deandre ": {
                 "level": 47,
@@ -91775,9 +90148,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 484,
-                "prev": 480
+                }
             },
             "Lvl 100 Arcade Star Dahlia ": {
                 "level": 100,
@@ -91806,9 +90177,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 711,
-                "prev": 709
+                }
             }
         },
         "Voltorb": {
@@ -91839,9 +90208,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 62,
-                "prev": 1
+                }
             },
             "Lvl 27 School Kid Jack ": {
                 "level": 27,
@@ -91870,9 +90237,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 182,
-                "prev": 72
+                }
             },
             "Lvl 36 School Kid Kipp ": {
                 "level": 36,
@@ -92249,9 +90614,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 68,
-                "prev": 12
+                }
             },
             "Lvl 40 Juggler Irwin4 1": {
                 "level": 40,
@@ -92340,9 +90703,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 62,
-                "prev": 1
+                }
             }
         },
         "Mothim": {
@@ -92373,9 +90734,7 @@ backup_data = {
                 "ability": "Compound Eyes",
                 "evs": {
                     "df": 0
-                },
-                "next": 62,
-                "prev": 1
+                }
             }
         },
         "Mankey": {
@@ -92435,9 +90794,7 @@ backup_data = {
                 "ability": "Vital Spirit",
                 "evs": {
                     "df": 0
-                },
-                "next": 50,
-                "prev": 54
+                }
             },
             "Lvl 13 Swimmer♀ Li ": {
                 "level": 13,
@@ -92555,9 +90912,7 @@ backup_data = {
                 "ability": "Arena Trap",
                 "evs": {
                     "df": 0
-                },
-                "next": 75,
-                "prev": 388
+                }
             }
         },
         "Hoppip": {
@@ -92853,9 +91208,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 77,
-                "prev": 409
+                }
             },
             "Lvl 41 Twins Day & Dani ": {
                 "level": 41,
@@ -92915,9 +91268,7 @@ backup_data = {
                 "ability": "Battle Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 77,
-                "prev": 409
+                }
             },
             "Lvl 32 Poké Maniac Brent2 ": {
                 "level": 32,
@@ -93093,9 +91444,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 77,
-                "prev": 409
+                }
             },
             "Lvl 19 Firebreather Bill ": {
                 "level": 19,
@@ -93124,9 +91473,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 23,
-                "prev": 25
+                }
             }
         },
         "Ariados": {
@@ -93157,9 +91504,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 10,
-                "prev": 68
+                }
             },
             "Lvl 39 Bug Catcher Ken ": {
                 "level": 39,
@@ -93304,9 +91649,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 389,
-                "prev": 82
+                }
             },
             "Lvl 40 Bug Catcher Doug2 ": {
                 "level": 40,
@@ -93482,9 +91825,7 @@ backup_data = {
                 "ability": "Sand Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 67,
-                "prev": 486
+                }
             },
             "Lvl 63 Pkmn Trainer Buck ": {
                 "level": 63,
@@ -93513,9 +91854,7 @@ backup_data = {
                 "ability": "Sand Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 138,
-                "prev": 166
+                }
             },
             "Lvl 61 Pkmn Trainer Bみなぷいk# ": {
                 "level": 61,
@@ -93575,9 +91914,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 21,
-                "prev": 10
+                }
             },
             "Lvl 39 School Kid Billy ": {
                 "level": 39,
@@ -93811,9 +92148,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 21,
-                "prev": 10
+                }
             },
             "Lvl 38 Bird Keeper Theo ": {
                 "level": 38,
@@ -93842,9 +92177,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 215,
-                "prev": 211
+                }
             },
             "Lvl 52 Leader Bugsy2 ": {
                 "level": 52,
@@ -93904,9 +92237,7 @@ backup_data = {
                 "ability": "Natural Cure",
                 "evs": {
                     "df": 0
-                },
-                "next": 5,
-                "prev": 87
+                }
             },
             "Lvl 34 School Kid Chad ": {
                 "level": 34,
@@ -93966,9 +92297,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 5,
-                "prev": 87
+                }
             },
             "Lvl 55 Hall Matron Argenta ": {
                 "level": 55,
@@ -93997,9 +92326,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 195,
-                "prev": 487
+                }
             },
             "Lvl 48 Executive Archer2 ": {
                 "level": 48,
@@ -94028,9 +92355,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 675,
-                "prev": 479
+                }
             }
         },
         "Clefable": {
@@ -94061,9 +92386,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 30,
-                "prev": 22
+                }
             },
             "Lvl 56 Pkmn Trainer Lucas ": {
                 "level": 56,
@@ -94092,9 +92415,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 143,
-                "prev": 137
+                }
             },
             "Lvl 53 Ace Trainer Cybil ": {
                 "level": 53,
@@ -94123,9 +92444,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 406,
-                "prev": 407
+                }
             },
             "Lvl 41 Picnicker Tiffany3 ": {
                 "level": 41,
@@ -94301,9 +92620,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 30,
-                "prev": 22
+                }
             }
         },
         "Magikarp": {
@@ -94334,9 +92651,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 178,
-                "prev": 78
+                }
             },
             "Lvl 22 Fisherman Raymond 1": {
                 "level": 22,
@@ -94889,9 +93204,7 @@ backup_data = {
                 "ability": "Cloud Nine",
                 "evs": {
                     "df": 0
-                },
-                "next": 178,
-                "prev": 78
+                }
             }
         },
         "Pidgeot": {
@@ -94922,9 +93235,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 215,
-                "prev": 211
+                }
             },
             "Lvl 35 Bird Keeper Toby ": {
                 "level": 35,
@@ -94953,9 +93264,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 398,
-                "prev": 400
+                }
             },
             "Lvl 33 Swimmer♀ Denise ": {
                 "level": 33,
@@ -94984,9 +93293,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 498,
-                "prev": 98
+                }
             },
             "Lvl 62 Ace Trainer Hugh ": {
                 "level": 62,
@@ -95015,9 +93322,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 28,
-                "prev": 411
+                }
             },
             "Lvl 53 Bird Keeper Vance ": {
                 "level": 53,
@@ -95046,9 +93351,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 141,
-                "prev": 406
+                }
             },
             "Lvl 60 Leader Blue ": {
                 "level": 60,
@@ -95193,9 +93496,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 170,
-                "prev": 472
+                }
             },
             "Lvl 48 Executive Petrel2 ": {
                 "level": 48,
@@ -95224,9 +93525,7 @@ backup_data = {
                 "ability": "Huge Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 479,
-                "prev": 468
+                }
             },
             "Lvl 43 School Kid Sherman ": {
                 "level": 43,
@@ -95400,39 +93699,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 730,
-                "prev": 731
-            },
-            "My Box": {
-                "ability": "No Guard",
-                "level": 65,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 11,
-                    "at": 17,
-                    "df": 23,
-                    "sa": 29,
-                    "sd": 27,
-                    "sp": 29
-                },
-                "moves": [
-                    "U-turn",
-                    "Thunderbolt",
-                    "Focus Blast",
-                    "Gust"
-                ],
-                "nature": "Hardy",
-                "nn": "Norwayto",
-                "isCustomSet": true,
-                "met": "Route 35"
+                }
             }
         },
         "Mantine": {
@@ -95463,9 +93730,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 388,
-                "prev": 66
+                }
             },
             "Lvl 35 Swimmer♂ Randall ": {
                 "level": 35,
@@ -95494,9 +93759,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 96,
-                "prev": 85
+                }
             },
             "Lvl 40 Fisherman Gideon ": {
                 "level": 40,
@@ -95556,9 +93819,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 388,
-                "prev": 66
+                }
             },
             "Lvl 35 Swimmer♂ Matthew ": {
                 "level": 35,
@@ -95616,9 +93877,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 158,
-                "prev": 729
+                }
             },
             "Lvl 61 Ace Trainer Reena ": {
                 "level": 61,
@@ -95647,9 +93906,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 98,
-                "prev": 104
+                }
             },
             "Lvl 68 Elite Four Will ": {
                 "level": 68,
@@ -95678,9 +93935,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 247,
-                "prev": 174
+                }
             },
             "Lvl 55 Leader Blue ": {
                 "level": 55,
@@ -95796,9 +94051,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 81,
-                "prev": 30
+                }
             },
             "Lvl 40 School Kid Nate ": {
                 "level": 40,
@@ -95856,9 +94109,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 190,
-                "prev": 227
+                }
             },
             "Lvl 67 Leader Blue2 ": {
                 "level": 67,
@@ -95918,9 +94169,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 72,
-                "prev": 80
+                }
             },
             "Lvl 48 Team Rocket Grunt24 ": {
                 "level": 48,
@@ -95949,9 +94198,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 468,
-                "prev": 222
+                }
             },
             "Lvl 43 Psychic Fidel ": {
                 "level": 43,
@@ -96038,9 +94285,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 102,
-                "prev": 98
+                }
             },
             "Lvl 32 School Kid Alan3 ": {
                 "level": 32,
@@ -96187,9 +94432,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 78,
-                "prev": 7
+                }
             },
             "Lvl 54 Team Rocket Grunt13 ": {
                 "level": 54,
@@ -96218,9 +94461,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 199,
-                "prev": 288
+                }
             },
             "Lvl 100 Hoenn Leader Flannery ": {
                 "level": 100,
@@ -96307,9 +94548,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 125,
-                "prev": 478
+                }
             },
             "Lvl 48 Executive Archer2 ": {
                 "level": 48,
@@ -96338,9 +94577,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 675,
-                "prev": 479
+                }
             },
             "Lvl 54 Leader Blaine2 ": {
                 "level": 54,
@@ -96370,36 +94607,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Flash Fire",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 19,
-                    "at": 13,
-                    "df": 16,
-                    "sa": 3,
-                    "sd": 30,
-                    "sp": 1
-                },
-                "moves": [
-                    "Flamethrower",
-                    "Sucker Punch",
-                    "Vine Whip",
-                    "Dark Pulse"
-                ],
-                "nature": "Timid",
-                "nn": "Vatican",
-                "isCustomSet": true,
-                "met": "Route 48"
             }
         },
         "Zangoose": {
@@ -96430,9 +94637,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 78,
-                "prev": 7
+                }
             },
             "Lvl 62 Ace Trainer Reena ": {
                 "level": 62,
@@ -96461,9 +94666,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 98,
-                "prev": 104
+                }
             },
             "Lvl 55 Scientist Garett ": {
                 "level": 55,
@@ -96492,9 +94695,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 190,
-                "prev": 227
+                }
             },
             "Lvl 33 Medium Georgina ": {
                 "level": 33,
@@ -96523,39 +94724,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 89,
-                "prev": 537
-            },
-            "My Box": {
-                "ability": "Guts",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 5,
-                    "at": 7,
-                    "df": 16,
-                    "sa": 13,
-                    "sd": 8,
-                    "sp": 1
-                },
-                "moves": [
-                    "Facade",
-                    "Shadow Punch",
-                    "Detect",
-                    "Close Combat"
-                ],
-                "nature": "Lonely",
-                "nn": "Senegal",
-                "isCustomSet": true,
-                "met": "Route 39"
+                }
             }
         },
         "Pachirisu": {
@@ -96586,9 +94755,7 @@ backup_data = {
                 "ability": "Huge Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 88,
-                "prev": 386
+                }
             },
             "Lvl 28 Pkmn Trainer Dawn ": {
                 "level": 28,
@@ -96617,9 +94784,7 @@ backup_data = {
                 "ability": "Huge Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 70,
-                "prev": 395
+                }
             },
             "Lvl 58 Unova Leader Lt. Surge ": {
                 "level": 58,
@@ -96649,36 +94814,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Volt Absorb",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 0,
-                    "at": 3,
-                    "df": 20,
-                    "sa": 23,
-                    "sd": 15,
-                    "sp": 15
-                },
-                "moves": [
-                    "Psychic",
-                    "Encore",
-                    "Thunderbolt",
-                    "Charge Beam"
-                ],
-                "nature": "Rash",
-                "nn": "Canadasu",
-                "isCustomSet": true,
-                "met": "Route 38"
             }
         },
         "Sudowoodo": {
@@ -96709,9 +94844,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 88,
-                "prev": 386
+                }
             },
             "Lvl 43 Poké Maniac Ron ": {
                 "level": 43,
@@ -96740,9 +94873,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 130,
-                "prev": 122
+                }
             },
             "Lvl 56 Hiker Erik ": {
                 "level": 56,
@@ -96771,9 +94902,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 145,
-                "prev": 141
+                }
             },
             "Lvl 36 Black Belt Lao ": {
                 "level": 36,
@@ -96802,9 +94931,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 34,
-                "prev": 251
+                }
             },
             "Lvl 38 Camper Tanner ": {
                 "level": 38,
@@ -96980,9 +95107,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 88,
-                "prev": 386
+                }
             },
             "Lvl 37 Gentleman Alfred ": {
                 "level": 37,
@@ -97011,9 +95136,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 211,
-                "prev": 34
+                }
             },
             "Lvl 40 Lass Ellen ": {
                 "level": 40,
@@ -97071,9 +95194,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 482,
-                "prev": 483
+                }
             },
             "Lvl 16 Beauty Callie ": {
                 "level": 16,
@@ -97162,9 +95283,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 398,
-                "prev": 400
+                }
             },
             "Lvl 35 Swimmer♀ Kara ": {
                 "level": 35,
@@ -97193,29 +95312,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 98,
-                "prev": 90
-            },
-            "My Box": {
-                "ability": "Hyper Cutter",
-                "level": 63,
-                "ivs": {
-                    "hp": 5,
-                    "at": 27,
-                    "df": 2,
-                    "sa": 10,
-                    "sd": 2,
-                    "sp": 2
-                },
-                "moves": [
-                    "Dual Chop",
-                    "Sacred Sword",
-                    "Surf",
-                    "Crabhammer"
-                ],
-                "nature": "Careful",
-                "isCustomSet": true
+                }
             }
         },
         "Nidoqueen": {
@@ -97275,9 +95372,7 @@ backup_data = {
                 "ability": "Battle Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 17,
-                "prev": 108
+                }
             },
             "Lvl 48 Team Rocket Grunt30 ": {
                 "level": 48,
@@ -97306,9 +95401,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 218,
-                "prev": 225
+                }
             },
             "Lvl 40 Picnicker Liz3 ": {
                 "level": 40,
@@ -97542,9 +95635,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 158,
-                "prev": 729
+                }
             },
             "Lvl 46 Camper Lloyd ": {
                 "level": 46,
@@ -97602,9 +95693,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 289,
-                "prev": 170
+                }
             },
             "Lvl 36 Black Belt Nob ": {
                 "level": 36,
@@ -97633,9 +95722,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 157,
-                "prev": 156
+                }
             },
             "Lvl 29 Pokéfan Alex ": {
                 "level": 29,
@@ -97782,9 +95869,7 @@ backup_data = {
                 "ability": "Pressure",
                 "evs": {
                     "df": 0
-                },
-                "next": 86,
-                "prev": 9
+                }
             },
             "Lvl 30 Poké Maniac Harrison ": {
                 "level": 30,
@@ -97813,9 +95898,7 @@ backup_data = {
                 "ability": "Pressure",
                 "evs": {
                     "df": 0
-                },
-                "next": 494,
-                "prev": 134
+                }
             }
         },
         "Quilava": {
@@ -97846,9 +95929,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 70,
-                "prev": 395
+                }
             },
             "Lvl 25 Rival Silver7 - Starter 3": {
                 "level": 25,
@@ -97877,9 +95958,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 269,
-                "prev": 21
+                }
             },
             "Lvl 33 Rival Silver8 - Starter 3": {
                 "level": 33,
@@ -97908,9 +95987,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 270,
-                "prev": 601
+                }
             }
         },
         "Piloswine": {
@@ -97941,9 +96018,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 70,
-                "prev": 395
+                }
             }
         },
         "Lunatone": {
@@ -97974,9 +96049,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 105,
-                "prev": 81
+                }
             },
             "Lvl 33 Medium Grace ": {
                 "level": 33,
@@ -98005,9 +96078,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 493,
-                "prev": 494
+                }
             },
             "Lvl 58 Hiker Timothy ": {
                 "level": 58,
@@ -98036,9 +96107,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 147,
-                "prev": 144
+                }
             },
             "Lvl 59 Hiker Bailey ": {
                 "level": 59,
@@ -98067,9 +96136,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 110,
-                "prev": 151
+                }
             },
             "Lvl 34 Psychic Nelson ": {
                 "level": 34,
@@ -98098,9 +96165,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 39,
-                "prev": 398
+                }
             }
         },
         "Slowbro": {
@@ -98131,9 +96196,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 105,
-                "prev": 81
+                }
             },
             "Lvl 55 Team Rocket Grunt11 ": {
                 "level": 55,
@@ -98162,9 +96225,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 706,
-                "prev": 190
+                }
             },
             "Lvl 46 Medium Darcy ": {
                 "level": 46,
@@ -98222,9 +96283,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 81,
-                "prev": 30
+                }
             },
             "Lvl 34 Psychic Nelson ": {
                 "level": 34,
@@ -98253,9 +96312,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 39,
-                "prev": 398
+                }
             },
             "Lvl 53 Psychic Phil ": {
                 "level": 53,
@@ -98313,9 +96370,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 482,
-                "prev": 483
+                }
             }
         },
         "Probopass": {
@@ -98346,9 +96401,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 105,
-                "prev": 81
+                }
             },
             "Lvl 56 Hiker Parry ": {
                 "level": 56,
@@ -98377,9 +96430,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 108,
-                "prev": 143
+                }
             },
             "Lvl 100 Castle Valet Darach ": {
                 "level": 100,
@@ -98408,9 +96459,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 708,
-                "prev": 710
+                }
             }
         },
         "Grumpig": {
@@ -98441,9 +96490,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 493,
-                "prev": 494
+                }
             },
             "Lvl 48 Scientist Ross ": {
                 "level": 48,
@@ -98472,39 +96519,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 488,
-                "prev": 219
-            },
-            "My Box": {
-                "ability": "Magic Guard",
-                "level": 65,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 17,
-                    "at": 6,
-                    "df": 26,
-                    "sa": 28,
-                    "sd": 20,
-                    "sp": 16
-                },
-                "moves": [
-                    "Signal Beam",
-                    "Psycho Boost",
-                    "Psycho Shift",
-                    "Dark Pulse"
-                ],
-                "nature": "Calm",
-                "nn": "Bahamas",
-                "isCustomSet": true,
-                "met": "Route 26"
+                }
             }
         },
         "Jumpluff": {
@@ -98535,9 +96550,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 93,
-                "prev": 97
+                }
             },
             "Lvl 47 Team Rocket Grunt4 ": {
                 "level": 47,
@@ -98566,9 +96579,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 470,
-                "prev": 170
+                }
             },
             "Lvl 51 Leader Erika ": {
                 "level": 51,
@@ -98655,9 +96666,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 159,
-                "prev": 92
+                }
             },
             "Lvl 36 Picnicker Gina4 ": {
                 "level": 36,
@@ -98833,9 +96842,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 93,
-                "prev": 97
+                }
             }
         },
         "Muk": {
@@ -98895,9 +96902,7 @@ backup_data = {
                 "ability": "Poison Point",
                 "evs": {
                     "df": 0
-                },
-                "next": 198,
-                "prev": 32
+                }
             },
             "Lvl 48 Team Rocket Grunt24 ": {
                 "level": 48,
@@ -98926,9 +96931,7 @@ backup_data = {
                 "ability": "Poison Point",
                 "evs": {
                     "df": 0
-                },
-                "next": 468,
-                "prev": 222
+                }
             },
             "Lvl 24 Team Rocket Grunt32 ": {
                 "level": 24,
@@ -99016,36 +97019,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Poison Point",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 26,
-                    "at": 1,
-                    "df": 21,
-                    "sa": 7,
-                    "sd": 13,
-                    "sp": 25
-                },
-                "moves": [
-                    "Shadow Sneak",
-                    "Shadow Punch",
-                    "Knock Off",
-                    "Gunk Shot"
-                ],
-                "nature": "Jolly",
-                "nn": "USAer",
-                "isCustomSet": true,
-                "met": "Route 41"
             }
         },
         "Jolteon": {
@@ -99076,9 +97049,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 98,
-                "prev": 90
+                }
             },
             "Lvl 58 Poké Maniac Calvin ": {
                 "level": 58,
@@ -99107,9 +97078,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 205,
-                "prev": 180
+                }
             },
             "Lvl 22 Ace Trainer Gwen ": {
                 "level": 22,
@@ -99225,9 +97194,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 709,
-                "prev": 246
+                }
             },
             "Lvl 48 Executive Ariana2 ": {
                 "level": 48,
@@ -99256,9 +97223,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 499,
-                "prev": 488
+                }
             },
             "Lvl 32 Sage Mickey2 ": {
                 "level": 32,
@@ -99316,9 +97281,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 106,
-                "prev": 107
+                }
             }
         },
         "Vaporeon": {
@@ -99349,9 +97312,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 97,
-                "prev": 95
+                }
             },
             "Lvl 22 Ace Trainer Gwen ": {
                 "level": 22,
@@ -99438,9 +97399,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 159,
-                "prev": 92
+                }
             },
             "Lvl 32 Sage Mickey3 ": {
                 "level": 32,
@@ -99500,9 +97459,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 97,
-                "prev": 95
+                }
             },
             "Lvl 37 Fisherman Jonah ": {
                 "level": 37,
@@ -99560,9 +97517,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 169,
-                "prev": 138
+                }
             },
             "Lvl 42 Fisherman Martin ": {
                 "level": 42,
@@ -99649,9 +97604,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 211,
-                "prev": 34
+                }
             }
         },
         "Magcargo": {
@@ -99682,9 +97635,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 94,
-                "prev": 96
+                }
             },
             "Lvl 52 Team Rocket Grunt5 ": {
                 "level": 52,
@@ -99713,9 +97664,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 198,
-                "prev": 32
+                }
             },
             "Lvl 54 Leader Blaine ": {
                 "level": 54,
@@ -99802,9 +97751,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 469,
-                "prev": 218
+                }
             },
             "Lvl 54 Camper Todd4 ": {
                 "level": 54,
@@ -99921,36 +97868,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Flash Fire",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 26,
-                    "at": 28,
-                    "df": 22,
-                    "sa": 24,
-                    "sd": 22,
-                    "sp": 13
-                },
-                "moves": [
-                    "Earth Power",
-                    "Heat Wave",
-                    "Recover",
-                    "Surf"
-                ],
-                "nature": "Rash",
-                "nn": "Iceland",
-                "isCustomSet": true,
-                "met": "Route 47"
             }
         },
         "Kingler": {
@@ -99981,9 +97898,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 94,
-                "prev": 96
+                }
             },
             "Lvl 42 Sailor Garrett ": {
                 "level": 42,
@@ -100128,9 +98043,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 222,
-                "prev": 404
+                }
             },
             "Lvl 55 Scientist Trenton ": {
                 "level": 55,
@@ -100159,9 +98072,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 487,
-                "prev": 192
+                }
             },
             "Lvl 49 Ace Trainer Gaven3 ": {
                 "level": 49,
@@ -100220,36 +98131,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Shell Armor",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 14,
-                    "at": 13,
-                    "df": 4,
-                    "sa": 30,
-                    "sd": 4,
-                    "sp": 4
-                },
-                "moves": [
-                    "Strength",
-                    "Protect",
-                    "Crabhammer",
-                    "Iron Head"
-                ],
-                "nature": "Docile",
-                "nn": "Japan",
-                "isCustomSet": true,
-                "met": "Ilex Forest"
             }
         },
         "Gastrodon": {
@@ -100280,9 +98161,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 95,
-                "prev": 86
+                }
             },
             "Lvl 53 Team Rocket Grunt6 ": {
                 "level": 53,
@@ -100311,9 +98190,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 189,
-                "prev": 188
+                }
             },
             "Lvl 68 Elite Four Koga ": {
                 "level": 68,
@@ -100342,9 +98219,7 @@ backup_data = {
                 "ability": "Rain Dish",
                 "evs": {
                     "df": 0
-                },
-                "next": 418,
-                "prev": 245
+                }
             }
         },
         "Tentacruel": {
@@ -100375,9 +98250,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 95,
-                "prev": 86
+                }
             },
             "Lvl 38 Fisherman Stephen ": {
                 "level": 38,
@@ -100493,9 +98366,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 32,
-                "prev": 484
+                }
             },
             "Lvl 43 Biker Jacob ": {
                 "level": 43,
@@ -100727,39 +98598,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 107,
-                "prev": 732
-            },
-            "My Box": {
-                "ability": "Rain Dish",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 24,
-                    "at": 20,
-                    "df": 22,
-                    "sa": 19,
-                    "sd": 1,
-                    "sp": 2
-                },
-                "moves": [
-                    "Surf",
-                    "Toxic",
-                    "Rest",
-                    "Sludge Bomb"
-                ],
-                "nature": "Mild",
-                "nn": "Namibial",
-                "isCustomSet": true,
-                "met": "Cianwood City"
+                }
             }
         },
         "Cacturne": {
@@ -100790,9 +98629,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 95,
-                "prev": 86
+                }
             },
             "Lvl 59 Hiker Bailey ": {
                 "level": 59,
@@ -100821,9 +98658,7 @@ backup_data = {
                 "ability": "Sand Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 110,
-                "prev": 151
+                }
             },
             "Lvl 42 Camper Spencer ": {
                 "level": 42,
@@ -100852,9 +98687,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 402,
-                "prev": 129
+                }
             },
             "Lvl 55 Scientist Garett ": {
                 "level": 55,
@@ -100883,9 +98716,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 190,
-                "prev": 227
+                }
             },
             "Lvl 42 Camper Grant ": {
                 "level": 42,
@@ -100914,39 +98745,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 730,
-                "prev": 731
-            },
-            "My Box": {
-                "ability": "Water Absorb",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 20,
-                    "at": 15,
-                    "df": 28,
-                    "sa": 20,
-                    "sd": 16,
-                    "sp": 1
-                },
-                "moves": [
-                    "Sucker Punch",
-                    "Leaf Blade",
-                    "Leaf Storm",
-                    "Earthquake"
-                ],
-                "nature": "Modest",
-                "nn": "Mexico",
-                "isCustomSet": true,
-                "met": "Sprout Tower"
+                }
             }
         },
         "Golduck": {
@@ -100977,9 +98776,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 90,
-                "prev": 94
+                }
             },
             "Lvl 44 Camper Dean ": {
                 "level": 44,
@@ -101474,9 +99271,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 411,
-                "prev": 114
+                }
             },
             "Lvl 55 Ace Trainer Mike ": {
                 "level": 55,
@@ -101505,9 +99300,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 35,
-                "prev": 119
+                }
             },
             "Lvl 40 Swimmer♂ Duane ": {
                 "level": 40,
@@ -101596,9 +99389,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 411,
-                "prev": 114
+                }
             },
             "Lvl 42 Poké Maniac Brent ": {
                 "level": 42,
@@ -101627,9 +99418,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 122,
-                "prev": 402
+                }
             }
         },
         "Cradily": {
@@ -101660,9 +99449,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 411,
-                "prev": 114
+                }
             },
             "Lvl 43 Poké Maniac Ron ": {
                 "level": 43,
@@ -101691,9 +99478,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 130,
-                "prev": 122
+                }
             },
             "Lvl 47 Team Rocket Grunt21 ": {
                 "level": 47,
@@ -101722,9 +99507,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 225,
-                "prev": 207
+                }
             },
             "Lvl 42 Picnicker Tiffany ": {
                 "level": 42,
@@ -101753,9 +99536,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 131,
-                "prev": 403
+                }
             },
             "Lvl 48 Team Rocket Grunt34 ": {
                 "level": 48,
@@ -101784,9 +99565,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 469,
-                "prev": 218
+                }
             },
             "Lvl 58 Ace Trainer Kobe ": {
                 "level": 58,
@@ -101815,9 +99594,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 162,
-                "prev": 244
+                }
             },
             "Lvl 30 Poké Maniac Harrison ": {
                 "level": 30,
@@ -101846,39 +99623,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 494,
-                "prev": 134
-            },
-            "My Box": {
-                "ability": "Water Absorb",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 5,
-                    "at": 8,
-                    "df": 11,
-                    "sa": 24,
-                    "sd": 29,
-                    "sp": 6
-                },
-                "moves": [
-                    "Power Gem",
-                    "Giga Drain",
-                    "Gastro Acid",
-                    "Mirror Coat"
-                ],
-                "nature": "Sassy",
-                "nn": "Jamaica",
-                "isCustomSet": true,
-                "met": "Dark Cave"
+                }
             }
         },
         "Lanturn": {
@@ -101938,9 +99683,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 363,
-                "prev": 202
+                }
             },
             "Lvl 38 Sailor Huey ": {
                 "level": 38,
@@ -101969,9 +99712,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 73,
-                "prev": 401
+                }
             },
             "Lvl 40 Sailor Terrell ": {
                 "level": 40,
@@ -102000,9 +99741,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 731,
-                "prev": 217
+                }
             },
             "Lvl 45 Sinnoh Leader Fantina ": {
                 "level": 45,
@@ -102031,9 +99770,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 223,
-                "prev": 502
+                }
             },
             "Lvl 59 Fisherman Ronald ": {
                 "level": 59,
@@ -102209,9 +99946,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 13,
-                "prev": 40
+                }
             },
             "Lvl 40 Sailor Jeff ": {
                 "level": 40,
@@ -102445,9 +100180,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 13,
-                "prev": 40
+                }
             }
         },
         "Aerodactyl": {
@@ -102478,9 +100211,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 28,
-                "prev": 411
+                }
             },
             "Lvl 65 Hoenn Champion Steven ": {
                 "level": 65,
@@ -102509,9 +100240,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 168,
-                "prev": 167
+                }
             },
             "Lvl 58 Hiker Michael ": {
                 "level": 58,
@@ -102540,9 +100269,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 146,
-                "prev": 17
+                }
             },
             "Lvl 100 Hoenn Leader Winona ": {
                 "level": 100,
@@ -102600,9 +100327,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 483,
-                "prev": 499
+                }
             },
             "Lvl 100 Passerby Giovanni ": {
                 "level": 100,
@@ -102720,9 +100445,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 28,
-                "prev": 411
+                }
             },
             "Lvl 61 Youngster Papaya2 ": {
                 "level": 61,
@@ -102751,9 +100474,7 @@ backup_data = {
                 "ability": "Blaze",
                 "evs": {
                     "df": 0
-                },
-                "next": 114,
-                "prev": 303
+                }
             },
             "Lvl 56 Pkmn Trainer Lucas ": {
                 "level": 56,
@@ -102782,9 +100503,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 143,
-                "prev": 137
+                }
             },
             "Lvl 58 Poké Maniac Calvin ": {
                 "level": 58,
@@ -102813,9 +100532,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 205,
-                "prev": 180
+                }
             },
             "Lvl 68 Elite Four Bruno ": {
                 "level": 68,
@@ -102844,9 +100561,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 246,
-                "prev": 247
+                }
             },
             "Lvl 56 Executive Proton2 ": {
                 "level": 56,
@@ -102875,39 +100590,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 478,
-                "prev": 191
-            },
-            "My Box": {
-                "ability": "Blaze",
-                "level": 66,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 19,
-                    "at": 19,
-                    "df": 9,
-                    "sa": 22,
-                    "sd": 24,
-                    "sp": 0
-                },
-                "moves": [
-                    "Overheat",
-                    "Close Combat",
-                    "Flare Blitz",
-                    "Ice Punch"
-                ],
-                "nature": "Naive",
-                "nn": "Tanzania",
-                "isCustomSet": true,
-                "met": "Burned Tower"
+                }
             }
         },
         "Flygon": {
@@ -102938,9 +100621,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 28,
-                "prev": 411
+                }
             },
             "Lvl 55 Ace Trainer Cody ": {
                 "level": 55,
@@ -102969,9 +100650,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 119,
-                "prev": 117
+                }
             },
             "Lvl 53 Team Rocket Grunt8 ": {
                 "level": 53,
@@ -103000,9 +100679,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 186,
-                "prev": 187
+                }
             },
             "Lvl 100 Hoenn Leader Winona ": {
                 "level": 100,
@@ -103060,9 +100737,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 104,
-                "prev": 115
+                }
             },
             "Lvl 68 Elite Four Bruno ": {
                 "level": 68,
@@ -103091,9 +100766,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 246,
-                "prev": 247
+                }
             },
             "Lvl 56 Executive Ariana ": {
                 "level": 56,
@@ -103122,9 +100795,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 485,
-                "prev": 706
+                }
             },
             "Lvl 100 Elite Four Bruno2 ": {
                 "level": 100,
@@ -103182,9 +100853,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 711,
-                "prev": 709
+                }
             },
             "Lvl 40 Hiker Devin ": {
                 "level": 40,
@@ -103213,39 +100882,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 732,
-                "prev": 212
-            },
-            "My Box": {
-                "ability": "Levitate",
-                "level": 64,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 9,
-                    "at": 1,
-                    "df": 11,
-                    "sa": 15,
-                    "sd": 4,
-                    "sp": 25
-                },
-                "moves": [
-                    "Earthquake",
-                    "Dragon Pulse",
-                    "Magnitude",
-                    "Earth Power"
-                ],
-                "nature": "Jolly",
-                "nn": "Morocco",
-                "isCustomSet": true,
-                "met": "Victory Road"
+                }
             }
         },
         "Exeggcute": {
@@ -103452,9 +101089,7 @@ backup_data = {
                 "ability": "Sand Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 114,
-                "prev": 303
+                }
             },
             "Lvl 43 Rocket Boss Giovanni ": {
                 "level": 43,
@@ -103483,9 +101118,7 @@ backup_data = {
                 "ability": "Rough Skin",
                 "evs": {
                     "df": 0
-                },
-                "next": 158,
-                "prev": 729
+                }
             },
             "Lvl 65 Sinnoh Champion Cynthia ": {
                 "level": 65,
@@ -103514,9 +101147,7 @@ backup_data = {
                 "ability": "Rough Skin",
                 "evs": {
                     "df": 0
-                },
-                "next": 245,
-                "prev": 417
+                }
             },
             "Lvl 53 Poké Maniac Zach ": {
                 "level": 53,
@@ -103545,9 +101176,7 @@ backup_data = {
                 "ability": "Rough Skin",
                 "evs": {
                     "df": 0
-                },
-                "next": 137,
-                "prev": 408
+                }
             },
             "Lvl 100 Passerby Giovanni ": {
                 "level": 100,
@@ -103607,9 +101236,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 601,
-                "prev": 88
+                }
             },
             "Lvl 40 Sailor Terrell ": {
                 "level": 40,
@@ -103638,9 +101265,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 731,
-                "prev": 217
+                }
             },
             "Lvl 30 Poké Maniac Harrison ": {
                 "level": 30,
@@ -103669,9 +101294,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 494,
-                "prev": 134
+                }
             },
             "Lvl 56 Leader Brock ": {
                 "level": 56,
@@ -103731,9 +101354,7 @@ backup_data = {
                 "ability": "Trace",
                 "evs": {
                     "df": 0
-                },
-                "next": 158,
-                "prev": 729
+                }
             },
             "Lvl 43 Poké Maniac Beckett ": {
                 "level": 43,
@@ -103762,9 +101383,7 @@ backup_data = {
                 "ability": "Trace",
                 "evs": {
                     "df": 0
-                },
-                "next": 502,
-                "prev": 132
+                }
             },
             "Lvl 65 Sinnoh Champion Cynthia ": {
                 "level": 65,
@@ -103793,9 +101412,7 @@ backup_data = {
                 "ability": "Trace",
                 "evs": {
                     "df": 0
-                },
-                "next": 245,
-                "prev": 417
+                }
             },
             "Lvl 40 Ace Trainer Trevor ": {
                 "level": 40,
@@ -103824,9 +101441,7 @@ backup_data = {
                 "ability": "Wonder Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 11,
-                "prev": 28
+                }
             },
             "Lvl 100 Castle Valet Darach ": {
                 "level": 100,
@@ -103855,9 +101470,7 @@ backup_data = {
                 "ability": "Trace",
                 "evs": {
                     "df": 0
-                },
-                "next": 708,
-                "prev": 710
+                }
             }
         },
         "Rhyperior": {
@@ -103888,9 +101501,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 158,
-                "prev": 729
+                }
             },
             "Lvl 55 Ace Trainer Lola ": {
                 "level": 55,
@@ -103919,9 +101530,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 112,
-                "prev": 110
+                }
             },
             "Lvl 56 Hiker Parry ": {
                 "level": 56,
@@ -103950,9 +101559,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 108,
-                "prev": 143
+                }
             },
             "Lvl 54 Team Rocket Grunt19 ": {
                 "level": 54,
@@ -103981,9 +101588,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 196,
-                "prev": 193
+                }
             },
             "Lvl 48 Team Rocket Grunt26 ": {
                 "level": 48,
@@ -104012,9 +101617,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 219,
-                "prev": 469
+                }
             },
             "Lvl 44 Twins Clea & Gil ": {
                 "level": 44,
@@ -104043,9 +101646,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 229,
-                "prev": 130
+                }
             },
             "Lvl 100 Elite Four Koga2 ": {
                 "level": 100,
@@ -104103,8 +101704,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "prev": 708
+                }
             },
             "Lvl 70 Leader Blue2 ": {
                 "level": 70,
@@ -104164,9 +101764,7 @@ backup_data = {
                 "ability": "Pressure",
                 "evs": {
                     "df": 0
-                },
-                "next": 158,
-                "prev": 729
+                }
             }
         },
         "Toxicroak": {
@@ -104197,9 +101795,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 729,
-                "prev": 730
+                }
             },
             "Lvl 54 Team Rocket Grunt15 ": {
                 "level": 54,
@@ -104228,9 +101824,7 @@ backup_data = {
                 "ability": "Hyper Cutter",
                 "evs": {
                     "df": 0
-                },
-                "next": 289,
-                "prev": 170
+                }
             },
             "Lvl 52 Team Rocket Grunt18 ": {
                 "level": 52,
@@ -104259,9 +101853,7 @@ backup_data = {
                 "ability": "Hyper Cutter",
                 "evs": {
                     "df": 0
-                },
-                "next": 187,
-                "prev": 185
+                }
             },
             "Lvl 52 Leader Janine2 ": {
                 "level": 52,
@@ -104321,9 +101913,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 729,
-                "prev": 730
+                }
             },
             "Lvl 43 Fisherman Marvin ": {
                 "level": 43,
@@ -104352,9 +101942,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 132,
-                "prev": 131
+                }
             },
             "Lvl 54 Team Rocket Grunt12 ": {
                 "level": 54,
@@ -104383,9 +101971,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 472,
-                "prev": 189
+                }
             },
             "Lvl 61 Guitarist Zinteny ": {
                 "level": 61,
@@ -104414,9 +102000,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 180,
-                "prev": 163
+                }
             },
             "Lvl 48 Skier Diana ": {
                 "level": 48,
@@ -104445,9 +102029,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 482,
-                "prev": 483
+                }
             },
             "Lvl 54 Leader Misty ": {
                 "level": 54,
@@ -104507,9 +102089,7 @@ backup_data = {
                 "ability": "Soundproof",
                 "evs": {
                     "df": 0
-                },
-                "next": 121,
-                "prev": 145
+                }
             },
             "Lvl 46 Team Rocket Grunt4 ": {
                 "level": 46,
@@ -104538,9 +102118,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 470,
-                "prev": 170
+                }
             }
         },
         "Blissey": {
@@ -104571,9 +102149,7 @@ backup_data = {
                 "ability": "Natural Cure",
                 "evs": {
                     "df": 0
-                },
-                "next": 121,
-                "prev": 145
+                }
             },
             "Lvl 63 Pkmn Trainer Cheryl ": {
                 "level": 63,
@@ -104602,9 +102178,7 @@ backup_data = {
                 "ability": "Natural Cure",
                 "evs": {
                     "df": 0
-                },
-                "next": 166,
-                "prev": 11
+                }
             },
             "Lvl 65 Pkmn Trainer C○とょいrVなハい ": {
                 "level": 65,
@@ -104809,9 +102383,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 68,
-                "prev": 12
+                }
             },
             "Lvl 34 Medium Georgina ": {
                 "level": 34,
@@ -104840,9 +102412,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 89,
-                "prev": 537
+                }
             }
         },
         "Charmeleon": {
@@ -104962,9 +102532,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 117,
-                "prev": 154
+                }
             },
             "Lvl 65 Rival Silver9 - Starter 3": {
                 "level": 65,
@@ -104993,9 +102561,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 120,
-                "prev": 169
+                }
             },
             "Lvl 56 Rival Silver12 - Starter 3": {
                 "level": 56,
@@ -105053,9 +102619,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 288,
-                "prev": 289
+                }
             },
             "Lvl 50 Rival Silver16 - Starter 3": {
                 "level": 50,
@@ -105113,9 +102677,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 469,
-                "prev": 218
+                }
             },
             "Lvl 53 Ace Trainer Cybil ": {
                 "level": 53,
@@ -105144,9 +102706,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 406,
-                "prev": 407
+                }
             },
             "Lvl 60 Rival Silver21 - Starter 3": {
                 "level": 60,
@@ -105205,36 +102765,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Battle Armor",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 22,
-                    "at": 16,
-                    "df": 31,
-                    "sa": 21,
-                    "sd": 21,
-                    "sp": 29
-                },
-                "moves": [
-                    "Sucker Punch",
-                    "Knock Off",
-                    "Aqua Jet",
-                    "Waterfall"
-                ],
-                "nature": "Adamant",
-                "nn": "Australia",
-                "isCustomSet": true,
-                "met": "Pokéwalker"
             }
         },
         "Milotic": {
@@ -105265,9 +102795,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 35,
-                "prev": 119
+                }
             },
             "Lvl 56 Pkmn Trainer Lucas ": {
                 "level": 56,
@@ -105296,9 +102824,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 143,
-                "prev": 137
+                }
             },
             "Lvl 65 Sinnoh Champion Cynthia ": {
                 "level": 65,
@@ -105327,9 +102853,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 245,
-                "prev": 417
+                }
             },
             "Lvl 27 Pokéfan Beverly ": {
                 "level": 27,
@@ -105358,9 +102882,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 184,
-                "prev": 178
+                }
             },
             "Lvl 47 Team Rocket Grunt20 ": {
                 "level": 47,
@@ -105389,9 +102911,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 208,
-                "prev": 207
+                }
             },
             "Lvl 42 Picnicker Tiffany ": {
                 "level": 42,
@@ -105420,9 +102940,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 131,
-                "prev": 403
+                }
             },
             "Lvl 47 Scientist Gregg ": {
                 "level": 47,
@@ -105451,9 +102969,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 207,
-                "prev": 171
+                }
             },
             "Lvl 44 Twins Clea & Gil ": {
                 "level": 44,
@@ -105482,9 +102998,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "next": 229,
-                "prev": 130
+                }
             },
             "Lvl 100 Tower Tycoon Palmer ": {
                 "level": 100,
@@ -105513,8 +103027,7 @@ backup_data = {
                 "ability": "Marvel Scale",
                 "evs": {
                     "df": 0
-                },
-                "prev": 708
+                }
             },
             "Lvl 60 Leader Misty ": {
                 "level": 60,
@@ -105574,9 +103087,7 @@ backup_data = {
                 "ability": "Pure Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 35,
-                "prev": 119
+                }
             },
             "Lvl 36 Black Belt Lung ": {
                 "level": 36,
@@ -105605,9 +103116,7 @@ backup_data = {
                 "ability": "Pure Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 156,
-                "prev": 498
+                }
             },
             "Lvl 47 Boarder Patton ": {
                 "level": 47,
@@ -105636,9 +103145,7 @@ backup_data = {
                 "ability": "Pure Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 480,
-                "prev": 675
+                }
             },
             "Lvl 54 Leader Chuck2 ": {
                 "level": 54,
@@ -105698,9 +103205,7 @@ backup_data = {
                 "ability": "Solar Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 119,
-                "prev": 117
+                }
             },
             "Lvl 59 Camper Ted ": {
                 "level": 59,
@@ -105729,9 +103234,7 @@ backup_data = {
                 "ability": "Solar Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 151,
-                "prev": 146
+                }
             },
             "Lvl 52 Team Rocket Grunt5 ": {
                 "level": 52,
@@ -105760,9 +103263,7 @@ backup_data = {
                 "ability": "Solar Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 198,
-                "prev": 32
+                }
             },
             "Lvl 56 Pkmn Trainer Lance ": {
                 "level": 56,
@@ -105791,9 +103292,7 @@ backup_data = {
                 "ability": "Blaze",
                 "evs": {
                     "df": 0
-                },
-                "next": 500,
-                "prev": 35
+                }
             },
             "Lvl 52 Leader Clair2 ": {
                 "level": 52,
@@ -105911,9 +103410,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 98,
-                "prev": 104
+                }
             },
             "Lvl 43 Picnicker Sharon ": {
                 "level": 43,
@@ -105971,9 +103468,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 268,
-                "prev": 168
+                }
             },
             "Lvl 100 Unova Leader Elesa ": {
                 "level": 100,
@@ -106176,9 +103671,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 487,
-                "prev": 192
+                }
             },
             "Lvl 53 Picnicker Erin4 ": {
                 "level": 53,
@@ -106383,9 +103876,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 74,
-                "prev": 77
+                }
             },
             "Lvl 32 Lass Dana2 ": {
                 "level": 32,
@@ -106445,9 +103936,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 303,
-                "prev": 363
+                }
             },
             "Lvl 63 Pkmn Trainer Marley ": {
                 "level": 63,
@@ -106476,9 +103965,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 167,
-                "prev": 165
+                }
             },
             "Lvl 43 Ace Trainer Carol ": {
                 "level": 43,
@@ -106536,9 +104023,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 104,
-                "prev": 115
+                }
             },
             "Lvl 43 Juggler Horton 1": {
                 "level": 43,
@@ -106712,9 +104197,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 159,
-                "prev": 92
+                }
             },
             "Lvl 43 School Kid Jack4 ": {
                 "level": 43,
@@ -106946,9 +104429,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 478,
-                "prev": 191
+                }
             },
             "Lvl 52 Unova Leader Lt. Surge ": {
                 "level": 52,
@@ -106978,36 +104459,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Static",
-                "level": 64,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 8,
-                    "at": 0,
-                    "df": 29,
-                    "sa": 0,
-                    "sd": 4,
-                    "sp": 21
-                },
-                "moves": [
-                    "Mirror Coat",
-                    "Zap Cannon",
-                    "U-turn",
-                    "Magnet Bomb"
-                ],
-                "nature": "Impish",
-                "nn": "Dominican",
-                "isCustomSet": true,
-                "met": "Cliff Cave"
             }
         },
         "Shedinja": {
@@ -107038,9 +104489,7 @@ backup_data = {
                 "ability": "Wonder Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 303,
-                "prev": 363
+                }
             },
             "Lvl 46 Team Rocket Grunt14 ": {
                 "level": 46,
@@ -107098,9 +104547,7 @@ backup_data = {
                 "ability": "Wonder Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 19,
-                "prev": 47
+                }
             },
             "Lvl 59 Bird Keeper Jose ": {
                 "level": 59,
@@ -107129,9 +104576,7 @@ backup_data = {
                 "ability": "Wonder Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 104,
-                "prev": 115
+                }
             },
             "Lvl 48 Leader Bugsy2 ": {
                 "level": 48,
@@ -107251,9 +104696,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 112,
-                "prev": 110
+                }
             },
             "Lvl 48 Team Rocket Grunt29 ": {
                 "level": 48,
@@ -107282,9 +104725,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 226,
-                "prev": 208
+                }
             },
             "Lvl 100 Hoenn Leader Flannery ": {
                 "level": 100,
@@ -107342,9 +104783,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 469,
-                "prev": 218
+                }
             },
             "Lvl 56 Executive Petrel ": {
                 "level": 56,
@@ -107373,9 +104812,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 170,
-                "prev": 472
+                }
             }
         },
         "Cloyster": {
@@ -107435,9 +104872,7 @@ backup_data = {
                 "ability": "Skill Link",
                 "evs": {
                     "df": 0
-                },
-                "next": 417,
-                "prev": 268
+                }
             },
             "Lvl 37 Fisherman Jonah ": {
                 "level": 37,
@@ -107584,9 +105019,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 111,
-                "prev": 112
+                }
             },
             "Lvl 56 Pkmn Trainer Lucas ": {
                 "level": 56,
@@ -107615,9 +105048,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 143,
-                "prev": 137
+                }
             },
             "Lvl 54 Team Rocket Grunt16 ": {
                 "level": 54,
@@ -107646,9 +105077,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 197,
-                "prev": 199
+                }
             },
             "Lvl 48 Team Rocket Grunt24 ": {
                 "level": 48,
@@ -107677,9 +105106,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 468,
-                "prev": 222
+                }
             },
             "Lvl 47 Super Nerd Pat ": {
                 "level": 47,
@@ -107739,9 +105166,7 @@ backup_data = {
                 "ability": "Ice Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 417,
-                "prev": 268
+                }
             },
             "Lvl 63 Ace Trainer Trevor ": {
                 "level": 63,
@@ -107770,9 +105195,7 @@ backup_data = {
                 "ability": "Snow Cloak",
                 "evs": {
                     "df": 0
-                },
-                "next": 11,
-                "prev": 28
+                }
             }
         },
         "Articuno": {
@@ -107803,9 +105226,7 @@ backup_data = {
                 "ability": "Ice Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 417,
-                "prev": 268
+                }
             },
             "Lvl 100 Hoenn Leader Winona ": {
                 "level": 100,
@@ -107865,9 +105286,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 17,
-                "prev": 108
+                }
             },
             "Lvl 54 Team Rocket Grunt17 ": {
                 "level": 54,
@@ -107896,9 +105315,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 227,
-                "prev": 196
+                }
             },
             "Lvl 34 Psychic Nelson ": {
                 "level": 34,
@@ -107927,9 +105344,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 39,
-                "prev": 398
+                }
             },
             "Lvl 41 Hiker Devin ": {
                 "level": 41,
@@ -107958,9 +105373,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 732,
-                "prev": 212
+                }
             }
         },
         "Dodrio": {
@@ -107991,9 +105404,7 @@ backup_data = {
                 "ability": "Keen Eye",
                 "evs": {
                     "df": 0
-                },
-                "next": 17,
-                "prev": 108
+                }
             },
             "Lvl 41 Bird Keeper Boris ": {
                 "level": 41,
@@ -108111,9 +105522,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 132,
-                "prev": 131
+                }
             },
             "Lvl 45 Lass Linda ": {
                 "level": 45,
@@ -108171,9 +105580,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 709,
-                "prev": 246
+                }
             },
             "Lvl 55 Picnicker Gina4 ": {
                 "level": 55,
@@ -108289,9 +105696,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 478,
-                "prev": 191
+                }
             }
         },
         "Wailord": {
@@ -108322,9 +105727,7 @@ backup_data = {
                 "ability": "Water Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 134,
-                "prev": 263
+                }
             },
             "Lvl 35 Black Belt Lao ": {
                 "level": 35,
@@ -108353,9 +105756,7 @@ backup_data = {
                 "ability": "Water Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 34,
-                "prev": 251
+                }
             },
             "Lvl 63 Pkmn Trainer Cheryl ": {
                 "level": 63,
@@ -108384,9 +105785,7 @@ backup_data = {
                 "ability": "Water Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 166,
-                "prev": 11
+                }
             },
             "Lvl 40 Sailor Terrell ": {
                 "level": 40,
@@ -108415,9 +105814,7 @@ backup_data = {
                 "ability": "Water Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 731,
-                "prev": 217
+                }
             },
             "Lvl 56 Executive Petrel ": {
                 "level": 56,
@@ -108446,9 +105843,7 @@ backup_data = {
                 "ability": "Water Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 170,
-                "prev": 472
+                }
             },
             "Lvl 48 Executive Petrel2 ": {
                 "level": 48,
@@ -108477,9 +105872,7 @@ backup_data = {
                 "ability": "Water Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 479,
-                "prev": 468
+                }
             },
             "Lvl 63 Pkmn Trainer C○とょいrVなハい ": {
                 "level": 63,
@@ -108537,9 +105930,7 @@ backup_data = {
                 "ability": "Water Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 707,
-                "prev": 711
+                }
             }
         },
         "Raichu": {
@@ -108570,9 +105961,7 @@ backup_data = {
                 "ability": "Mold Breaker",
                 "evs": {
                     "df": 0
-                },
-                "next": 407,
-                "prev": 125
+                }
             },
             "Lvl 59 Picnicker Erin ": {
                 "level": 59,
@@ -108601,9 +105990,7 @@ backup_data = {
                 "ability": "Mold Breaker",
                 "evs": {
                     "df": 0
-                },
-                "next": 154,
-                "prev": 147
+                }
             },
             "Lvl 64 Sinnoh Leader Volkner ": {
                 "level": 64,
@@ -108632,9 +106019,7 @@ backup_data = {
                 "ability": "Mold Breaker",
                 "evs": {
                     "df": 0
-                },
-                "next": 169,
-                "prev": 138
+                }
             },
             "Lvl 27 Pokéfan William ": {
                 "level": 27,
@@ -108663,9 +106048,7 @@ backup_data = {
                 "ability": "Mold Breaker",
                 "evs": {
                     "df": 0
-                },
-                "next": 395,
-                "prev": 184
+                }
             },
             "Lvl 100 Unova Leader Elesa ": {
                 "level": 100,
@@ -108781,9 +106164,7 @@ backup_data = {
                 "ability": "Mold Breaker",
                 "evs": {
                     "df": 0
-                },
-                "next": 211,
-                "prev": 34
+                }
             },
             "Lvl 47 Scientist Gregg ": {
                 "level": 47,
@@ -108812,9 +106193,7 @@ backup_data = {
                 "ability": "Mold Breaker",
                 "evs": {
                     "df": 0
-                },
-                "next": 207,
-                "prev": 171
+                }
             },
             "Lvl 100 Champion Red2 ": {
                 "level": 100,
@@ -108992,9 +106371,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 403,
-                "prev": 33
+                }
             },
             "Lvl 27 Lass Krise ": {
                 "level": 27,
@@ -109023,9 +106400,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 181,
-                "prev": 182
+                }
             },
             "Lvl 24 Poké Maniac Andrew 1": {
                 "level": 24,
@@ -109201,9 +106576,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 403,
-                "prev": 33
+                }
             },
             "Lvl 54 Leader Brock ": {
                 "level": 54,
@@ -109263,9 +106636,7 @@ backup_data = {
                 "ability": "Lightning Rod",
                 "evs": {
                     "df": 0
-                },
-                "next": 122,
-                "prev": 402
+                }
             },
             "Lvl 39 Poké Maniac Morgan ": {
                 "level": 39,
@@ -109323,9 +106694,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 537,
-                "prev": 123
+                }
             },
             "Lvl 36 Black Belt Yoshi ": {
                 "level": 36,
@@ -109354,9 +106723,7 @@ backup_data = {
                 "ability": "Lightning Rod",
                 "evs": {
                     "df": 0
-                },
-                "next": 251,
-                "prev": 159
+                }
             },
             "Lvl 58 Leader Blue ": {
                 "level": 58,
@@ -109444,36 +106811,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Rock Head",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 17,
-                    "at": 7,
-                    "df": 3,
-                    "sa": 1,
-                    "sd": 20,
-                    "sp": 13
-                },
-                "moves": [
-                    "Earthquake",
-                    "Stone Edge",
-                    "Hammer Arm",
-                    "Megahorn"
-                ],
-                "nature": "Gentle",
-                "nn": "Sth.Africa",
-                "isCustomSet": true,
-                "met": "Goldenrod City"
             }
         },
         "Arcanine": {
@@ -109504,9 +106841,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 122,
-                "prev": 402
+                }
             },
             "Lvl 58 Hiker Michael ": {
                 "level": 58,
@@ -109535,9 +106870,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 146,
-                "prev": 17
+                }
             },
             "Lvl 63 Pkmn Trainer Marley ": {
                 "level": 63,
@@ -109566,9 +106899,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 167,
-                "prev": 165
+                }
             },
             "Lvl 58 Ace Trainer Nick ": {
                 "level": 58,
@@ -109597,9 +106928,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 363,
-                "prev": 202
+                }
             },
             "Lvl 48 Team Rocket Grunt24 ": {
                 "level": 48,
@@ -109628,9 +106957,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 468,
-                "prev": 222
+                }
             },
             "Lvl 100 Hoenn Leader Flannery ": {
                 "level": 100,
@@ -109833,9 +107160,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 483,
-                "prev": 499
+                }
             },
             "Lvl 50 Scientist Lowell ": {
                 "level": 50,
@@ -109924,9 +107249,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 130,
-                "prev": 122
+                }
             },
             "Lvl 64 Sinnoh Leader Volkner ": {
                 "level": 64,
@@ -109955,9 +107278,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 169,
-                "prev": 138
+                }
             },
             "Lvl 48 Team Rocket Grunt26 ": {
                 "level": 48,
@@ -109986,39 +107307,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 219,
-                "prev": 469
-            },
-            "My Box": {
-                "ability": "Guts",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 2,
-                    "at": 8,
-                    "df": 11,
-                    "sa": 28,
-                    "sd": 19,
-                    "sp": 1
-                },
-                "moves": [
-                    "Volt Tackle",
-                    "Ice Fang",
-                    "Superpower",
-                    "Crunch"
-                ],
-                "nature": "Rash",
-                "nn": "Madagascar",
-                "isCustomSet": true,
-                "met": "Route 29"
+                }
             }
         },
         "Rhyhorn": {
@@ -110078,9 +107367,7 @@ backup_data = {
                 "ability": "Lightning Rod",
                 "evs": {
                     "df": 0
-                },
-                "next": 182,
-                "prev": 72
+                }
             },
             "Lvl 48 Ace Trainer Kevin ": {
                 "level": 48,
@@ -110140,9 +107427,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 537,
-                "prev": 123
+                }
             },
             "Lvl 63 Pkmn Trainer Buck ": {
                 "level": 63,
@@ -110171,9 +107456,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 138,
-                "prev": 166
+                }
             },
             "Lvl 54 Team Rocket Grunt19 ": {
                 "level": 54,
@@ -110202,9 +107485,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 196,
-                "prev": 193
+                }
             },
             "Lvl 46 Team Rocket Grunt28 ": {
                 "level": 46,
@@ -110233,9 +107514,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 216,
-                "prev": 223
+                }
             },
             "Lvl 45 Sinnoh Leader Fantina ": {
                 "level": 45,
@@ -110264,9 +107543,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 223,
-                "prev": 502
+                }
             },
             "Lvl 62 Pkmn Trainer Bみなぷいk# ": {
                 "level": 62,
@@ -110324,9 +107601,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 106,
-                "prev": 107
+                }
             }
         },
         "Weepinbell": {
@@ -110444,9 +107719,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 50,
-                "prev": 54
+                }
             },
             "Lvl 13 Swimmer♀ Li ": {
                 "level": 13,
@@ -110535,9 +107808,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 141,
-                "prev": 406
+                }
             },
             "Lvl 39 Bird Keeper Denis ": {
                 "level": 39,
@@ -110566,9 +107837,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 212,
-                "prev": 37
+                }
             },
             "Lvl 53 Bird Keeper Vance2 ": {
                 "level": 53,
@@ -110714,36 +107983,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Battle Armor",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 22,
-                    "at": 18,
-                    "df": 12,
-                    "sa": 2,
-                    "sd": 1,
-                    "sp": 28
-                },
-                "moves": [
-                    "Wing Attack",
-                    "Iron Head",
-                    "Brave Bird",
-                    "Rock Slide"
-                ],
-                "nature": "Impish",
-                "nn": "Greecey",
-                "isCustomSet": true,
-                "met": "Route 27"
             }
         },
         "Aggron": {
@@ -110774,9 +108013,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 168,
-                "prev": 167
+                }
             },
             "Lvl 51 Team Rocket Grunt17 ": {
                 "level": 51,
@@ -110805,9 +108042,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 227,
-                "prev": 196
+                }
             },
             "Lvl 68 Elite Four Bruno ": {
                 "level": 68,
@@ -110836,9 +108071,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 246,
-                "prev": 247
+                }
             },
             "Lvl 100 Hall Matron Argenta2 ": {
                 "level": 100,
@@ -110867,29 +108100,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 707,
-                "prev": 711
-            },
-            "My Box": {
-                "ability": "Hyper Cutter",
-                "level": 57,
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "moves": [
-                    "Dual Chop",
-                    "Sacred Sword",
-                    "Rock Slide",
-                    "Autotomize"
-                ],
-                "nature": "Hardy",
-                "isCustomSet": true
+                }
             }
         },
         "Deoxys": {
@@ -110920,9 +108131,7 @@ backup_data = {
                 "ability": "Pressure",
                 "evs": {
                     "df": 0
-                },
-                "next": 168,
-                "prev": 167
+                }
             }
         },
         "Yanmega": {
@@ -110953,9 +108162,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "evs": {
                     "df": 0
-                },
-                "next": 143,
-                "prev": 137
+                }
             },
             "Lvl 34 School Kid Alan3 ": {
                 "level": 34,
@@ -111073,9 +108280,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 143,
-                "prev": 137
+                }
             },
             "Lvl 45 Sinnoh Leader Fantina ": {
                 "level": 45,
@@ -111104,9 +108309,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 223,
-                "prev": 502
+                }
             },
             "Lvl 68 Elite Four Bruno ": {
                 "level": 68,
@@ -111135,9 +108338,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 246,
-                "prev": 247
+                }
             },
             "Lvl 100 Elite Four Bruno2 ": {
                 "level": 100,
@@ -111195,9 +108396,7 @@ backup_data = {
                 "ability": "Steadfast",
                 "evs": {
                     "df": 0
-                },
-                "next": 708,
-                "prev": 710
+                }
             },
             "Lvl 53 Leader Sabrina2 ": {
                 "level": 53,
@@ -111257,9 +108456,7 @@ backup_data = {
                 "ability": "Flower Gift",
                 "evs": {
                     "df": 0
-                },
-                "next": 146,
-                "prev": 17
+                }
             },
             "Lvl 42 Picnicker Erin4 ": {
                 "level": 42,
@@ -111319,9 +108516,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 147,
-                "prev": 144
+                }
             },
             "Lvl 59 Hiker Bailey ": {
                 "level": 59,
@@ -111350,9 +108545,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 110,
-                "prev": 151
+                }
             },
             "Lvl 63 Pkmn Trainer Buck ": {
                 "level": 63,
@@ -111381,9 +108574,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 138,
-                "prev": 166
+                }
             },
             "Lvl 27 Pokéfan William ": {
                 "level": 27,
@@ -111412,9 +108603,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 395,
-                "prev": 184
+                }
             },
             "Lvl 34 Psychic Nelson ": {
                 "level": 34,
@@ -111443,9 +108632,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 39,
-                "prev": 398
+                }
             },
             "Lvl 65 Pkmn Trainer Bみなぷいk# ": {
                 "level": 65,
@@ -111503,9 +108690,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 107,
-                "prev": 732
+                }
             }
         },
         "Torkoal": {
@@ -111536,9 +108721,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 147,
-                "prev": 144
+                }
             },
             "Lvl 63 Pkmn Trainer Buck ": {
                 "level": 63,
@@ -111567,9 +108750,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 138,
-                "prev": 166
+                }
             },
             "Lvl 100 Hoenn Leader Flannery ": {
                 "level": 100,
@@ -111656,9 +108837,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 82,
-                "prev": 410
+                }
             },
             "Lvl 61 Pkmn Trainer Bみなぷいk# ": {
                 "level": 61,
@@ -111776,9 +108955,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 151,
-                "prev": 146
+                }
             },
             "Lvl 26 School Kid Jack ": {
                 "level": 26,
@@ -111807,9 +108984,7 @@ backup_data = {
                 "ability": "Insomnia",
                 "evs": {
                     "df": 0
-                },
-                "next": 182,
-                "prev": 72
+                }
             },
             "Lvl 55 Team Rocket Grunt10 ": {
                 "level": 55,
@@ -111838,9 +109013,7 @@ backup_data = {
                 "ability": "Insomnia",
                 "evs": {
                     "df": 0
-                },
-                "next": 191,
-                "prev": 471
+                }
             },
             "Lvl 54 Team Rocket Grunt12 ": {
                 "level": 54,
@@ -111869,9 +109042,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 472,
-                "prev": 189
+                }
             },
             "Lvl 58 Ace Trainer Nick ": {
                 "level": 58,
@@ -111900,9 +109071,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 363,
-                "prev": 202
+                }
             },
             "Lvl 47 Team Rocket Grunt20 ": {
                 "level": 47,
@@ -111931,9 +109100,7 @@ backup_data = {
                 "ability": "Insomnia",
                 "evs": {
                     "df": 0
-                },
-                "next": 208,
-                "prev": 207
+                }
             },
             "Lvl 48 Team Rocket Grunt23 ": {
                 "level": 48,
@@ -111962,9 +109129,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 404,
-                "prev": 226
+                }
             },
             "Lvl 45 Sinnoh Leader Fantina ": {
                 "level": 45,
@@ -111993,9 +109158,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 223,
-                "prev": 502
+                }
             },
             "Lvl 68 Elite Four Koga ": {
                 "level": 68,
@@ -112024,9 +109187,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 418,
-                "prev": 245
+                }
             },
             "Lvl 33 Medium Edith ": {
                 "level": 33,
@@ -112055,9 +109216,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 46,
-                "prev": 89
+                }
             },
             "Lvl 100 Elite Four Koga2 ": {
                 "level": 100,
@@ -112407,9 +109566,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 730,
-                "prev": 731
+                }
             }
         },
         "Primeape": {
@@ -112469,9 +109626,7 @@ backup_data = {
                 "ability": "Vital Spirit",
                 "evs": {
                     "df": 0
-                },
-                "next": 156,
-                "prev": 498
+                }
             },
             "Lvl 30 Camper Bertrand ": {
                 "level": 30,
@@ -112645,9 +109800,7 @@ backup_data = {
                 "ability": "Vital Spirit",
                 "evs": {
                     "df": 0
-                },
-                "next": 107,
-                "prev": 732
+                }
             }
         },
         "Vileplume": {
@@ -112678,9 +109831,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 154,
-                "prev": 147
+                }
             },
             "Lvl 41 Lass Alice ": {
                 "level": 41,
@@ -112738,9 +109889,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 181,
-                "prev": 182
+                }
             },
             "Lvl 36 Beauty Cassie ": {
                 "level": 36,
@@ -112798,9 +109947,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 260,
-                "prev": 418
+                }
             },
             "Lvl 47 Twins Jo & Zoe ": {
                 "level": 47,
@@ -112858,9 +110005,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 82,
-                "prev": 410
+                }
             },
             "Lvl 37 Twins Jo & Zoe2 ": {
                 "level": 37,
@@ -113125,9 +110270,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 110,
-                "prev": 151
+                }
             },
             "Lvl 55 Team Rocket Grunt11 ": {
                 "level": 55,
@@ -113156,9 +110299,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 706,
-                "prev": 190
+                }
             },
             "Lvl 36 Black Belt Nob ": {
                 "level": 36,
@@ -113187,9 +110328,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 157,
-                "prev": 156
+                }
             },
             "Lvl 56 Leader Blue ": {
                 "level": 56,
@@ -113305,9 +110444,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 246,
-                "prev": 247
+                }
             },
             "Lvl 48 Executive Archer2 ": {
                 "level": 48,
@@ -113336,9 +110473,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 675,
-                "prev": 479
+                }
             },
             "Lvl 55 Hiker Anthony4 ": {
                 "level": 55,
@@ -113456,9 +110591,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 251,
-                "prev": 159
+                }
             },
             "Lvl 63 Pkmn Trainer Cheryl ": {
                 "level": 63,
@@ -113487,9 +110620,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 166,
-                "prev": 11
+                }
             },
             "Lvl 53 Ace Trainer Allen ": {
                 "level": 53,
@@ -113518,9 +110649,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 408,
-                "prev": 124
+                }
             },
             "Lvl 62 Pkmn Trainer C○とょいrVなハい ": {
                 "level": 62,
@@ -113550,36 +110679,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Thick Fat",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 4,
-                    "at": 31,
-                    "df": 25,
-                    "sa": 0,
-                    "sd": 30,
-                    "sp": 7
-                },
-                "moves": [
-                    "Superpower",
-                    "Strength",
-                    "Drain Punch",
-                    "Close Combat"
-                ],
-                "nature": "Docile",
-                "nn": "Vietnam",
-                "isCustomSet": true,
-                "met": "Cliff Edge Gate"
             }
         },
         "Hitmonlee": {
@@ -113610,9 +110709,7 @@ backup_data = {
                 "ability": "Unburden",
                 "evs": {
                     "df": 0
-                },
-                "next": 251,
-                "prev": 159
+                }
             },
             "Lvl 44 Black Belt Kiyo ": {
                 "level": 44,
@@ -113641,9 +110738,7 @@ backup_data = {
                 "ability": "Reckless",
                 "evs": {
                     "df": 0
-                },
-                "next": 33,
-                "prev": 106
+                }
             },
             "Lvl 32 Black Belt Kenji2 ": {
                 "level": 32,
@@ -113790,9 +110885,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 34,
-                "prev": 251
+                }
             },
             "Lvl 44 Black Belt Kiyo ": {
                 "level": 44,
@@ -113821,9 +110914,7 @@ backup_data = {
                 "ability": "Inner Focus",
                 "evs": {
                     "df": 0
-                },
-                "next": 33,
-                "prev": 106
+                }
             },
             "Lvl 52 Leader Chuck2 ": {
                 "level": 52,
@@ -113853,36 +110944,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Inner Focus",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 3,
-                    "at": 31,
-                    "df": 29,
-                    "sa": 17,
-                    "sd": 21,
-                    "sp": 22
-                },
-                "moves": [
-                    "Detect",
-                    "Sucker Punch",
-                    "Fake Out",
-                    "Close Combat"
-                ],
-                "nature": "Impish",
-                "nn": "Uzbekistan",
-                "isCustomSet": true,
-                "met": "Goldenrod Tunnel"
             }
         },
         "Vigoroth": {
@@ -113913,9 +110974,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 156,
-                "prev": 498
+                }
             },
             "Lvl 18 Hiker Daniel ": {
                 "level": 18,
@@ -113944,9 +111003,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 25,
-                "prev": 390
+                }
             }
         },
         "Azelf": {
@@ -113977,9 +111034,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 164,
-                "prev": 162
+                }
             }
         },
         "Regice": {
@@ -114010,9 +111065,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 163,
-                "prev": 164
+                }
             }
         },
         "Darkrai": {
@@ -114043,9 +111096,7 @@ backup_data = {
                 "ability": "Bad Dreams",
                 "evs": {
                     "df": 0
-                },
-                "next": 160,
-                "prev": 500
+                }
             },
             "Lvl 100 Elite Four Koga2 ": {
                 "level": 100,
@@ -114105,9 +111156,7 @@ backup_data = {
                 "ability": "Drizzle",
                 "evs": {
                     "df": 0
-                },
-                "next": 221,
-                "prev": 161
+                }
             }
         },
         "Regigigas": {
@@ -114138,9 +111187,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 161,
-                "prev": 160
+                }
             },
             "Lvl 100 Tower Tycoon Palmer ": {
                 "level": 100,
@@ -114169,8 +111216,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "prev": 708
+                }
             }
         },
         "Wobbuffet": {
@@ -114201,9 +111247,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 166,
-                "prev": 11
+                }
             },
             "Lvl 54 Team Rocket Grunt17 ": {
                 "level": 54,
@@ -114232,9 +111276,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 227,
-                "prev": 196
+                }
             },
             "Lvl 47 Team Rocket Grunt20 ": {
                 "level": 47,
@@ -114263,9 +111305,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 208,
-                "prev": 207
+                }
             },
             "Lvl 61 Pkmn Trainer C○とょいrVなハい ": {
                 "level": 61,
@@ -114354,9 +111394,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 138,
-                "prev": 166
+                }
             },
             "Lvl 54 Team Rocket Grunt16 ": {
                 "level": 54,
@@ -114385,9 +111423,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 197,
-                "prev": 199
+                }
             },
             "Lvl 46 Team Rocket Grunt28 ": {
                 "level": 46,
@@ -114416,9 +111452,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 216,
-                "prev": 223
+                }
             },
             "Lvl 53 Poké Maniac Zach ": {
                 "level": 53,
@@ -114447,9 +111481,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 137,
-                "prev": 408
+                }
             },
             "Lvl 63 Pkmn Trainer Bみなぷいk# ": {
                 "level": 63,
@@ -114507,9 +111539,7 @@ backup_data = {
                 "ability": "Iron Fist",
                 "evs": {
                     "df": 0
-                },
-                "next": 711,
-                "prev": 709
+                }
             },
             "Lvl 52 Leader Morty2 ": {
                 "level": 52,
@@ -114569,9 +111599,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 169,
-                "prev": 138
+                }
             }
         },
         "Magmortar": {
@@ -114602,9 +111630,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 268,
-                "prev": 168
+                }
             },
             "Lvl 54 Team Rocket Grunt19 ": {
                 "level": 54,
@@ -114633,9 +111659,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 196,
-                "prev": 193
+                }
             },
             "Lvl 56 Executive Petrel ": {
                 "level": 56,
@@ -114664,9 +111688,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 170,
-                "prev": 472
+                }
             },
             "Lvl 48 Executive Petrel2 ": {
                 "level": 48,
@@ -114695,9 +111717,7 @@ backup_data = {
                 "ability": "No Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 479,
-                "prev": 468
+                }
             },
             "Lvl 44 Twins Clea & Gil ": {
                 "level": 44,
@@ -114726,9 +111746,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 229,
-                "prev": 130
+                }
             },
             "Lvl 58 Firebreather Walt4 ": {
                 "level": 58,
@@ -114817,9 +111835,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 195,
-                "prev": 487
+                }
             },
             "Lvl 100 Hall Matron Argenta2 ": {
                 "level": 100,
@@ -114848,9 +111864,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 707,
-                "prev": 711
+                }
             }
         },
         "Swampert": {
@@ -114881,9 +111895,7 @@ backup_data = {
                 "ability": "Torrent",
                 "evs": {
                     "df": 0
-                },
-                "next": 195,
-                "prev": 487
+                }
             },
             "Lvl 61 Guitarist Zinteny ": {
                 "level": 61,
@@ -114912,9 +111924,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 180,
-                "prev": 163
+                }
             },
             "Lvl 68 Elite Four Bruno ": {
                 "level": 68,
@@ -114943,9 +111953,7 @@ backup_data = {
                 "ability": "Torrent",
                 "evs": {
                     "df": 0
-                },
-                "next": 246,
-                "prev": 247
+                }
             },
             "Lvl 47 Boarder Gerardo ": {
                 "level": 47,
@@ -114974,9 +111982,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 481,
-                "prev": 482
+                }
             },
             "Lvl 100 Elite Four Will2 ": {
                 "level": 100,
@@ -115036,9 +112042,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 195,
-                "prev": 487
+                }
             },
             "Lvl 47 Team Rocket Grunt14 ": {
                 "level": 47,
@@ -115096,9 +112100,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 289,
-                "prev": 170
+                }
             },
             "Lvl 54 Team Rocket Grunt16 ": {
                 "level": 54,
@@ -115127,9 +112129,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 197,
-                "prev": 199
+                }
             },
             "Lvl 67 Elite Four Koga ": {
                 "level": 67,
@@ -115158,9 +112158,7 @@ backup_data = {
                 "ability": "Sniper",
                 "evs": {
                     "df": 0
-                },
-                "next": 418,
-                "prev": 245
+                }
             }
         },
         "Chimecho": {
@@ -115191,9 +112189,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 470,
-                "prev": 170
+                }
             },
             "Lvl 34 Psychic Nelson ": {
                 "level": 34,
@@ -115222,9 +112218,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 39,
-                "prev": 398
+                }
             },
             "Lvl 53 Psychic Phil ": {
                 "level": 53,
@@ -115282,9 +112276,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 487,
-                "prev": 192
+                }
             }
         },
         "Lickitung": {
@@ -115404,9 +112396,7 @@ backup_data = {
                 "ability": "Pressure",
                 "evs": {
                     "df": 0
-                },
-                "next": 245,
-                "prev": 417
+                }
             }
         },
         "Grovyle": {
@@ -115437,9 +112427,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 182,
-                "prev": 72
+                }
             },
             "Lvl 32 Firebreather Richard ": {
                 "level": 32,
@@ -115499,9 +112487,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 202,
-                "prev": 221
+                }
             },
             "Lvl 56 Pkmn Trainer Lance ": {
                 "level": 56,
@@ -115530,9 +112516,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 500,
-                "prev": 35
+                }
             },
             "Lvl 59 Ace Trainer Emma ": {
                 "level": 59,
@@ -115561,9 +112545,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 115,
-                "prev": 205
+                }
             },
             "Lvl 63 Pkmn Trainer RVとハいeVな\\x01F8 ": {
                 "level": 63,
@@ -115621,9 +112603,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 707,
-                "prev": 711
+                }
             }
         },
         "Granbull": {
@@ -115654,9 +112634,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 184,
-                "prev": 178
+                }
             },
             "Lvl 44 Lass Ellen ": {
                 "level": 44,
@@ -115774,9 +112752,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 184,
-                "prev": 178
+                }
             },
             "Lvl 55 Team Rocket Grunt16 ": {
                 "level": 55,
@@ -115805,9 +112781,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 197,
-                "prev": 199
+                }
             },
             "Lvl 38 Sailor Huey ": {
                 "level": 38,
@@ -115836,39 +112810,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 73,
-                "prev": 401
-            },
-            "My Box": {
-                "ability": "Intimidate",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 23,
-                    "at": 23,
-                    "df": 31,
-                    "sa": 22,
-                    "sd": 4,
-                    "sp": 3
-                },
-                "moves": [
-                    "Surf",
-                    "Roost",
-                    "Ice Beam",
-                    "Bug Buzz"
-                ],
-                "nature": "Bashful",
-                "nn": "Italyt",
-                "isCustomSet": true,
-                "met": "New Bark Town"
+                }
             }
         },
         "Gloom": {
@@ -116046,9 +112988,7 @@ backup_data = {
                 "ability": "Aftermath",
                 "evs": {
                     "df": 0
-                },
-                "next": 189,
-                "prev": 188
+                }
             },
             "Lvl 100 Hoenn Leader Flannery ": {
                 "level": 100,
@@ -116108,9 +113048,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 189,
-                "prev": 188
+                }
             },
             "Lvl 48 Executive Petrel2 ": {
                 "level": 48,
@@ -116139,9 +113077,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 479,
-                "prev": 468
+                }
             }
         },
         "Hippowdon": {
@@ -116172,9 +113108,7 @@ backup_data = {
                 "ability": "Sand Veil",
                 "evs": {
                     "df": 0
-                },
-                "next": 186,
-                "prev": 187
+                }
             },
             "Lvl 58 Ace Trainer Nick ": {
                 "level": 58,
@@ -116203,9 +113137,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 363,
-                "prev": 202
+                }
             },
             "Lvl 53 Poké Maniac Zach ": {
                 "level": 53,
@@ -116234,9 +113166,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 137,
-                "prev": 408
+                }
             }
         },
         "Flareon": {
@@ -116267,9 +113197,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 192,
-                "prev": 186
+                }
             },
             "Lvl 22 Ace Trainer Gwen ": {
                 "level": 22,
@@ -116501,9 +113429,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 106,
-                "prev": 107
+                }
             }
         },
         "Porygon2": {
@@ -116534,9 +113460,7 @@ backup_data = {
                 "ability": "Trace",
                 "evs": {
                     "df": 0
-                },
-                "next": 192,
-                "prev": 186
+                }
             },
             "Lvl 52 Double Team Elan & Ida ": {
                 "level": 52,
@@ -116596,9 +113520,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 199,
-                "prev": 288
+                }
             },
             "Lvl 68 Elite Four Will ": {
                 "level": 68,
@@ -116627,9 +113549,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 247,
-                "prev": 174
+                }
             },
             "Lvl 44 Twins Clea & Gil ": {
                 "level": 44,
@@ -116658,9 +113578,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 229,
-                "prev": 130
+                }
             },
             "Lvl 61 Hoenn Champion MVとＥいa# ": {
                 "level": 61,
@@ -116749,9 +113667,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 187,
-                "prev": 185
+                }
             },
             "Lvl 38 Sailor Huey ": {
                 "level": 38,
@@ -116780,9 +113696,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 73,
-                "prev": 401
+                }
             }
         },
         "Jirachi": {
@@ -116999,9 +113913,7 @@ backup_data = {
                 "ability": "Adaptability",
                 "evs": {
                     "df": 0
-                },
-                "next": 225,
-                "prev": 207
+                }
             },
             "Lvl 41 Gentleman Edward ": {
                 "level": 41,
@@ -117355,9 +114267,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 73,
-                "prev": 401
+                }
             },
             "Lvl 54 Leader Whitney2 ": {
                 "level": 54,
@@ -117417,9 +114327,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 37,
-                "prev": 73
+                }
             },
             "Lvl 32 Firebreather Ned ": {
                 "level": 32,
@@ -117653,9 +114561,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 37,
-                "prev": 73
+                }
             },
             "Lvl 46 Team Rocket Grunt22 ": {
                 "level": 46,
@@ -117684,9 +114590,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 170,
-                "prev": 224
+                }
             },
             "Lvl 46 Team Rocket Grunt27 ": {
                 "level": 46,
@@ -117715,9 +114619,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 224,
-                "prev": 229
+                }
             },
             "Lvl 45 Sinnoh Leader Fantina ": {
                 "level": 45,
@@ -117746,9 +114648,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 223,
-                "prev": 502
+                }
             },
             "Lvl 62 Psychic Vernon ": {
                 "level": 62,
@@ -117777,9 +114677,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 102,
-                "prev": 98
+                }
             },
             "Lvl 56 Executive Ariana ": {
                 "level": 56,
@@ -117808,9 +114706,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 485,
-                "prev": 706
+                }
             },
             "Lvl 48 Executive Ariana2 ": {
                 "level": 48,
@@ -117839,9 +114735,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 499,
-                "prev": 488
+                }
             },
             "Lvl 100 Elite Four Will2 ": {
                 "level": 100,
@@ -117930,9 +114824,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 37,
-                "prev": 73
+                }
             },
             "Lvl 42 Swimmer♀ Nicole ": {
                 "level": 42,
@@ -118079,9 +114971,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "evs": {
                     "df": 0
-                },
-                "next": 212,
-                "prev": 37
+                }
             },
             "Lvl 48 Scientist Mitch ": {
                 "level": 48,
@@ -118110,9 +115000,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 222,
-                "prev": 404
+                }
             },
             "Lvl 48 Executive Petrel2 ": {
                 "level": 48,
@@ -118141,9 +115029,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 479,
-                "prev": 468
+                }
             }
         },
         "Gorebyss": {
@@ -118174,9 +115060,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "evs": {
                     "df": 0
-                },
-                "next": 404,
-                "prev": 226
+                }
             }
         },
         "Mawile": {
@@ -118207,9 +115091,7 @@ backup_data = {
                 "ability": "Huge Power",
                 "evs": {
                     "df": 0
-                },
-                "next": 404,
-                "prev": 226
+                }
             }
         },
         "Venonat": {
@@ -118329,39 +115211,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 180,
-                "prev": 163
-            },
-            "My Box": {
-                "ability": "Trace",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 29,
-                    "at": 30,
-                    "df": 1,
-                    "sa": 18,
-                    "sd": 30,
-                    "sp": 16
-                },
-                "moves": [
-                    "Signal Beam",
-                    "Aura Sphere",
-                    "Psychic",
-                    "Psycho Boost"
-                ],
-                "nature": "Bold",
-                "nn": "Poland",
-                "isCustomSet": true,
-                "met": "Mt. Mortar"
+                }
             }
         },
         "Golem": {
@@ -118392,9 +115242,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 219,
-                "prev": 469
+                }
             },
             "Lvl 48 Team Rocket Grunt30 ": {
                 "level": 48,
@@ -118423,9 +115271,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 218,
-                "prev": 225
+                }
             },
             "Lvl 55 Team Rocket Grunt31 ": {
                 "level": 55,
@@ -118454,9 +115300,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 471,
-                "prev": 197
+                }
             },
             "Lvl 42 Hiker Noland ": {
                 "level": 42,
@@ -118777,9 +115621,7 @@ backup_data = {
                 "ability": "Shadow Tag",
                 "evs": {
                     "df": 0
-                },
-                "next": 224,
-                "prev": 229
+                }
             },
             "Lvl 69 Elite Four Karen ": {
                 "level": 69,
@@ -118808,9 +115650,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 260,
-                "prev": 418
+                }
             },
             "Lvl 32 Medium Georgina ": {
                 "level": 32,
@@ -118839,9 +115679,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 89,
-                "prev": 537
+                }
             },
             "Lvl 100 Elite Four Karen2 ": {
                 "level": 100,
@@ -118930,9 +115768,7 @@ backup_data = {
                 "ability": "Liquid Ooze",
                 "evs": {
                     "df": 0
-                },
-                "next": 216,
-                "prev": 223
+                }
             },
             "Lvl 31 Team Rocket Grunt35 ": {
                 "level": 31,
@@ -118961,9 +115797,7 @@ backup_data = {
                 "ability": "Liquid Ooze",
                 "evs": {
                     "df": 0
-                },
-                "next": 267,
-                "prev": 105
+                }
             }
         },
         "Typhlosn-S": {
@@ -118994,9 +115828,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 226,
-                "prev": 208
+                }
             },
             "Lvl 67 Elite Four Will ": {
                 "level": 67,
@@ -119025,9 +115857,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 247,
-                "prev": 174
+                }
             },
             "Lvl 65 Rival Silver9 - Starter 3": {
                 "level": 65,
@@ -119056,9 +115886,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 120,
-                "prev": 169
+                }
             },
             "Lvl 50 Rival Silver15 - Starter 3": {
                 "level": 50,
@@ -119116,9 +115944,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 272,
-                "prev": 195
+                }
             },
             "Lvl 35 School Kid Billy ": {
                 "level": 35,
@@ -119176,9 +116002,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 102,
-                "prev": 98
+                }
             },
             "Lvl 40 School Kid Ricky ": {
                 "level": 40,
@@ -119412,9 +116236,7 @@ backup_data = {
                 "ability": "Poison Heal",
                 "evs": {
                     "df": 0
-                },
-                "next": 218,
-                "prev": 225
+                }
             },
             "Lvl 48 Executive Ariana2 ": {
                 "level": 48,
@@ -119443,39 +116265,7 @@ backup_data = {
                 "ability": "Poison Heal",
                 "evs": {
                     "df": 0
-                },
-                "next": 499,
-                "prev": 488
-            },
-            "My Box": {
-                "ability": "Hyper Cutter",
-                "level": 66,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 11,
-                    "at": 10,
-                    "df": 8,
-                    "sa": 0,
-                    "sd": 10,
-                    "sp": 29
-                },
-                "moves": [
-                    "Earthquake",
-                    "Knock Off",
-                    "Fly",
-                    "U-turn"
-                ],
-                "nature": "Docile",
-                "nn": "India",
-                "isCustomSet": true,
-                "met": "Route 36"
+                }
             }
         },
         "Espeon": {
@@ -119506,9 +116296,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 471,
-                "prev": 197
+                }
             },
             "Lvl 68 Elite Four Will ": {
                 "level": 68,
@@ -119537,9 +116325,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 247,
-                "prev": 174
+                }
             },
             "Lvl 53 Leader Sabrina ": {
                 "level": 53,
@@ -119597,9 +116383,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 211,
-                "prev": 34
+                }
             },
             "Lvl 48 Scientist Ross ": {
                 "level": 48,
@@ -119628,9 +116412,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 488,
-                "prev": 219
+                }
             },
             "Lvl 48 Executive Archer2 ": {
                 "level": 48,
@@ -119659,9 +116441,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 675,
-                "prev": 479
+                }
             },
             "Lvl 58 Leader Sabrina2 ": {
                 "level": 58,
@@ -119719,9 +116499,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 106,
-                "prev": 107
+                }
             }
         },
         "Glalie": {
@@ -119752,9 +116530,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 223,
-                "prev": 502
+                }
             },
             "Lvl 53 Ace Trainer Allen ": {
                 "level": 53,
@@ -119783,9 +116559,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 408,
-                "prev": 124
+                }
             },
             "Lvl 47 Boarder Patton ": {
                 "level": 47,
@@ -119814,9 +116588,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 480,
-                "prev": 675
+                }
             },
             "Lvl 52 Leader Pryce2 ": {
                 "level": 52,
@@ -119905,9 +116677,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 123,
-                "prev": 270
+                }
             },
             "Lvl 37 Rival Silver5 - Starter 3": {
                 "level": 37,
@@ -119965,9 +116735,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 270,
-                "prev": 601
+                }
             },
             "Lvl 32 Rival Silver11 - Starter 3": {
                 "level": 32,
@@ -119996,9 +116764,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 263,
-                "prev": 267
+                }
             },
             "Lvl 37 Rival Silver13 - Starter 3": {
                 "level": 37,
@@ -120027,9 +116793,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 288,
-                "prev": 289
+                }
             },
             "Lvl 27 Psychic Mark ": {
                 "level": 27,
@@ -120058,9 +116822,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 87,
-                "prev": 181
+                }
             },
             "Lvl 41 Young Couple Tim & Sue ": {
                 "level": 41,
@@ -120325,9 +117087,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 87,
-                "prev": 181
+                }
             }
         },
         "Tauros": {
@@ -120387,9 +117147,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 125,
-                "prev": 478
+                }
             },
             "Lvl 30 Camper Bertrand ": {
                 "level": 30,
@@ -120567,9 +117325,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 81,
-                "prev": 30
+                }
             },
             "Lvl 53 Ace Trainer Allen ": {
                 "level": 53,
@@ -120598,9 +117354,7 @@ backup_data = {
                 "ability": "Technician",
                 "evs": {
                     "df": 0
-                },
-                "next": 408,
-                "prev": 124
+                }
             },
             "Lvl 42 Psychic Jared ": {
                 "level": 42,
@@ -120892,9 +117646,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 400,
-                "prev": 31
+                }
             },
             "Lvl 55 Boarder Bryce ": {
                 "level": 55,
@@ -121012,9 +117764,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 500,
-                "prev": 35
+                }
             },
             "Lvl 100 Factory Head Thorton ": {
                 "level": 100,
@@ -121043,9 +117793,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 710,
-                "prev": 260
+                }
             }
         },
         "Burmy": {
@@ -121107,9 +117855,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 19,
-                "prev": 47
+                }
             },
             "Lvl 18 Hiker Daniel ": {
                 "level": 18,
@@ -121138,9 +117884,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 25,
-                "prev": 390
+                }
             }
         },
         "Seadra": {
@@ -121434,9 +118178,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 709,
-                "prev": 246
+                }
             }
         },
         "Zapdos": {
@@ -121496,9 +118238,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 711,
-                "prev": 709
+                }
             }
         },
         "Alakazam": {
@@ -121558,9 +118298,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 120,
-                "prev": 169
+                }
             },
             "Lvl 55 Rival Silver12 - Starter 3": {
                 "level": 55,
@@ -121705,9 +118443,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 193,
-                "prev": 272
+                }
             },
             "Lvl 55 Rival Silver18 - Starter 3": {
                 "level": 55,
@@ -121736,9 +118472,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 272,
-                "prev": 195
+                }
             },
             "Lvl 43 School Kid Tommy ": {
                 "level": 43,
@@ -121883,9 +118617,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 159,
-                "prev": 92
+                }
             },
             "Lvl 47 Ace Trainer French ": {
                 "level": 47,
@@ -122032,9 +118764,7 @@ backup_data = {
                 "ability": "Magic Guard",
                 "evs": {
                     "df": 0
-                },
-                "next": 709,
-                "prev": 246
+                }
             },
             "Lvl 100 Champion Red2 ": {
                 "level": 100,
@@ -122094,9 +118824,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 709,
-                "prev": 246
+                }
             },
             "Lvl 100 Arcade Star Dahlia ": {
                 "level": 100,
@@ -122125,9 +118853,7 @@ backup_data = {
                 "ability": "Guts",
                 "evs": {
                     "df": 0
-                },
-                "next": 711,
-                "prev": 709
+                }
             }
         },
         "Mewtwo": {
@@ -122158,9 +118884,7 @@ backup_data = {
                 "ability": "Synchronize",
                 "evs": {
                     "df": 0
-                },
-                "next": 709,
-                "prev": 246
+                }
             },
             "Lvl 100 Passerby Giovanni ": {
                 "level": 100,
@@ -122249,9 +118973,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 120,
-                "prev": 169
+                }
             },
             "Lvl 50 Rival Silver14 - Starter 3": {
                 "level": 50,
@@ -122309,9 +119031,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 193,
-                "prev": 272
+                }
             },
             "Lvl 60 Rival Silver19 - Starter 3": {
                 "level": 60,
@@ -122400,9 +119120,7 @@ backup_data = {
                 "ability": "Filter",
                 "evs": {
                     "df": 0
-                },
-                "next": 8,
-                "prev": 3
+                }
             },
             "Lvl 5 Rival Boy - Starter 3": {
                 "level": 5,
@@ -122462,9 +119180,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 1,
-                "prev": 266
+                }
             },
             "Lvl 33 Rival Silver11 - Starter 3": {
                 "level": 33,
@@ -122493,9 +119209,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 263,
-                "prev": 267
+                }
             }
         },
         "Horsea": {
@@ -122853,9 +119567,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 50,
-                "prev": 54
+                }
             },
             "Lvl 13 Swimmer♀ Li ": {
                 "level": 13,
@@ -122913,9 +119625,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 66,
-                "prev": 62
+                }
             },
             "Lvl 22 Executive Proton ": {
                 "level": 22,
@@ -122944,9 +119654,7 @@ backup_data = {
                 "ability": "Intimidate",
                 "evs": {
                     "df": 0
-                },
-                "next": 68,
-                "prev": 12
+                }
             }
         },
         "Clamperl": {
@@ -123037,9 +119745,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 481,
-                "prev": 482
+                }
             },
             "Lvl 54 Leader Sabrina2 ": {
                 "level": 54,
@@ -123424,9 +120130,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 74,
-                "prev": 77
+                }
             }
         },
         "Carnivine": {
@@ -123458,36 +120162,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Levitate",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 0,
-                    "at": 3,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 19,
-                    "sp": 21
-                },
-                "moves": [
-                    "Rest",
-                    "Sucker Punch",
-                    "Iron Head",
-                    "Leaf Blade"
-                ],
-                "nature": "Careful",
-                "nn": "Mozambique",
-                "isCustomSet": true,
-                "met": "Blackthorn City"
             }
         },
         "Charmander": {
@@ -123669,9 +120343,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 390,
-                "prev": 26
+                }
             },
             "Lvl 42 Picnicker Tiffany ": {
                 "level": 42,
@@ -123700,9 +120372,7 @@ backup_data = {
                 "ability": "Scrappy",
                 "evs": {
                     "df": 0
-                },
-                "next": 131,
-                "prev": 403
+                }
             },
             "Lvl 40 Bird Keeper Jose2 ": {
                 "level": 40,
@@ -123965,9 +120635,7 @@ backup_data = {
                 "ability": "Arena Trap",
                 "evs": {
                     "df": 0
-                },
-                "next": 25,
-                "prev": 390
+                }
             }
         },
         "Shieldon": {
@@ -123998,9 +120666,7 @@ backup_data = {
                 "ability": "Solid Rock",
                 "evs": {
                     "df": 0
-                },
-                "next": 25,
-                "prev": 390
+                }
             }
         },
         "Ledyba": {
@@ -124122,9 +120788,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 384,
-                "prev": 383
+                }
             },
             "Lvl 41 School Kid Torin2 ": {
                 "level": 41,
@@ -124242,9 +120906,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 384,
-                "prev": 383
+                }
             }
         },
         "Misdreavus": {
@@ -124275,9 +120937,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "next": 87,
-                "prev": 181
+                }
             }
         },
         "Seviper": {
@@ -124308,9 +120968,7 @@ backup_data = {
                 "ability": "Shed Skin",
                 "evs": {
                     "df": 0
-                },
-                "next": 389,
-                "prev": 82
+                }
             },
             "Lvl 46 Biker Teddy ": {
                 "level": 46,
@@ -124368,9 +121026,7 @@ backup_data = {
                 "ability": "Shed Skin",
                 "evs": {
                     "df": 0
-                },
-                "next": 267,
-                "prev": 105
+                }
             }
         },
         "Walrein": {
@@ -124401,9 +121057,7 @@ backup_data = {
                 "ability": "Thick Fat",
                 "evs": {
                     "df": 0
-                },
-                "next": 137,
-                "prev": 408
+                }
             },
             "Lvl 54 Leader Pryce2 ": {
                 "level": 54,
@@ -124433,36 +121087,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Thick Fat",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 13,
-                    "at": 22,
-                    "df": 2,
-                    "sa": 25,
-                    "sd": 28,
-                    "sp": 19
-                },
-                "moves": [
-                    "Perish Song",
-                    "Rest",
-                    "Ice Beam",
-                    "Rock Tomb"
-                ],
-                "nature": "Jolly",
-                "nn": "Finland",
-                "isCustomSet": true,
-                "met": "Route 34"
             }
         },
         "Lairon": {
@@ -124493,9 +121117,7 @@ backup_data = {
                 "ability": "Rock Head",
                 "evs": {
                     "df": 0
-                },
-                "next": 66,
-                "prev": 62
+                }
             }
         },
         "Chingling": {
@@ -125294,9 +121916,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 485,
-                "prev": 706
+                }
             },
             "Lvl 100 Castle Valet Darach ": {
                 "level": 100,
@@ -125325,9 +121945,7 @@ backup_data = {
                 "ability": "Flash Fire",
                 "evs": {
                     "df": 0
-                },
-                "next": 708,
-                "prev": 710
+                }
             }
         },
         "Raikou": {
@@ -125358,9 +121976,7 @@ backup_data = {
                 "ability": "Volt Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 125,
-                "prev": 478
+                }
             }
         },
         "Slowking": {
@@ -125420,9 +122036,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 162,
-                "prev": 244
+                }
             },
             "Lvl 43 Swimmer♀ Kendra ": {
                 "level": 43,
@@ -125511,9 +122125,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 46,
-                "prev": 89
+                }
             }
         },
         "Dratini": {
@@ -126402,39 +123014,7 @@ backup_data = {
                 "ability": "Shell Armor",
                 "evs": {
                     "df": 0
-                },
-                "next": 483,
-                "prev": 499
-            },
-            "My Box": {
-                "ability": "Rock Head",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 21,
-                    "at": 21,
-                    "df": 14,
-                    "sa": 27,
-                    "sd": 18,
-                    "sp": 12
-                },
-                "moves": [
-                    "Giga Drain",
-                    "Earthquake",
-                    "Wood Hammer",
-                    "Synthesis"
-                ],
-                "nature": "Relaxed",
-                "nn": "Ecuador",
-                "isCustomSet": true,
-                "met": "Route 33"
+                }
             }
         },
         "Lickilicky": {
@@ -126495,36 +123075,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            },
-            "My Box": {
-                "ability": "Thick Fat",
-                "level": 57,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 24,
-                    "at": 12,
-                    "df": 11,
-                    "sa": 11,
-                    "sd": 11,
-                    "sp": 1
-                },
-                "moves": [
-                    "Surf",
-                    "Explosion",
-                    "Cut",
-                    "Strength"
-                ],
-                "nature": "Relaxed",
-                "nn": "Franceng",
-                "isCustomSet": true,
-                "met": "Route 42"
             }
         },
         "Lugia": {
@@ -126710,9 +123260,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "next": 478,
-                "prev": 191
+                }
             }
         },
         "Cresselia": {
@@ -126743,8 +123291,7 @@ backup_data = {
                 "ability": "Levitate",
                 "evs": {
                     "df": 0
-                },
-                "prev": 708
+                }
             }
         },
         "Heatran": {
@@ -126775,8 +123322,7 @@ backup_data = {
                 "ability": "Water Absorb",
                 "evs": {
                     "df": 0
-                },
-                "prev": 708
+                }
             }
         },
         "Regirock": {
@@ -126807,9 +123353,7 @@ backup_data = {
                 "ability": "Clear Body",
                 "evs": {
                     "df": 0
-                },
-                "next": 710,
-                "prev": 260
+                }
             }
         },
         "Shiftry": {
@@ -126872,102 +123416,6 @@ backup_data = {
                 "evs": {
                     "df": 0
                 }
-            }
-        },
-        "Dusknoir": {
-            "My Box": {
-                "ability": "Iron Fist",
-                "level": 63,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 24,
-                    "at": 13,
-                    "df": 18,
-                    "sa": 28,
-                    "sd": 14,
-                    "sp": 27
-                },
-                "moves": [
-                    "Drain Punch",
-                    "Shadow Punch",
-                    "Teleport",
-                    "Will-O-Wisp"
-                ],
-                "nature": "Lonely",
-                "nn": "Bulgaria",
-                "isCustomSet": true,
-                "met": "Ecruteak City"
-            }
-        },
-        "Phione": {
-            "My Box": {
-                "ability": "Hydration",
-                "level": 51,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 11,
-                    "at": 5,
-                    "df": 5,
-                    "sa": 26,
-                    "sd": 11,
-                    "sp": 8
-                },
-                "moves": [
-                    "Whirlpool",
-                    "Thunderbolt",
-                    "Skill Swap",
-                    "Surf"
-                ],
-                "nature": "Bashful",
-                "nn": "Bangladesh",
-                "isCustomSet": true,
-                "met": "Route 40"
-            }
-        },
-        "Togepi": {
-            "My Box": {
-                "ability": "Serene Grace",
-                "level": 1,
-                "evs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "ivs": {
-                    "hp": 24,
-                    "at": 16,
-                    "df": 14,
-                    "sa": 13,
-                    "sd": 17,
-                    "sp": 6
-                },
-                "moves": [
-                    "Growl",
-                    "Charm",
-                    "Extrasensory",
-                    "-----"
-                ],
-                "nature": "Bold",
-                "nn": "Eggpi",
-                "isCustomSet": true,
-                "met": "Mystery Zone"
             }
         }
     },
