@@ -130,7 +130,7 @@ SOURCES = {
   "vwplus": "Vintage White Plus",
   "blind": "Blinding White 2",
   "a6f5b7e55bbd7ebbdd52": "Rigorous Red",
-  "bb8579a3798fd63b429d": "Royal Saphire"
+  "bb8579a3798fd63b429d": "Royal Sapphire"
 }
 
 $(document).ready(function() {
@@ -247,7 +247,7 @@ function setGameSettings(title) {
     showAI = true
     $('label[for="snow"]').hide()
     $('#ms-link').show()
-  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Royal Saphire") {
+  } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Royal Sapphire") {
     gameGen = 3
     settings.gameSwitchIn = 3; 
     settings.switchIn = 3
