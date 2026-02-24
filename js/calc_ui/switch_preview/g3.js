@@ -344,7 +344,6 @@ function get_next_in_g3() {
 
         for (var j in enemy.moves) {
             var move = enemy.moves[j];
-            if (move.category == "Status") continue;
 
             var moveCopy = new calc.Move(GENERATION, move.name);
             if (moveCopy.name == "Weather Ball") {

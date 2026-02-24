@@ -495,6 +495,8 @@ function loadPoksData() {
         initPlatinum()  
     }
 
+
+
     for (pok in pokedex) {
         if (pok.includes("Glitched")) {
             continue
@@ -691,8 +693,28 @@ function loadDataSource(data) {
 
 
     if (settings.sourceType == "full") {
-      SETDEX_BW = data["formatted_sets"]
-      setdex = data["formatted_sets"]
+        SETDEX_BW = data["formatted_sets"]
+        setdex = data["formatted_sets"]
+
+        hasPokReplacements = false
+        pok_subs = {}
+
+        if (data.poks_replacements) {
+            hasPokReplacements = true
+            pok_subs = data.poks_replacements
+        }
+
+
+        for (let pok in pok_subs) {
+            if (data["formatted_sets"][pok] && typeof data["formatted_sets"][pok_subs[pok]]  == "undefined" ) {
+                data["formatted_sets"][pok_subs[pok]] = data["formatted_sets"][pok]
+                delete data["formatted_sets"][pok]
+            }
+
+            if (data.poks[pok]) {
+                data.poks[pok_subs[pok]] = data.poks[pok]
+            }
+        }
     }
 
     TR_NAMES = get_trainer_names()
@@ -708,6 +730,8 @@ function loadDataSource(data) {
     if ('item_replacements' in data) {
         itemChanges[TITLE] = data['item_replacements']
     } 
+
+
     
     jsonMoves = data["moves"]
     customMoves = data["custom_moves"]
