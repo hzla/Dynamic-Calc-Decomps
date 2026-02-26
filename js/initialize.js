@@ -625,7 +625,7 @@ function loadMovesData() {
       }
     }
 
-    if (moves[move]["multihit"] && moves[move]["multihit"][0] == moves[move]["multihit"][1]) {
+    if (moves[move]["multihit"] && moves[move]["multihit"][0] && moves[move]["multihit"][0] == moves[move]["multihit"][1] ) {
         MOVES_BY_ID[g][moveId].multihit  = moves[move]["multihit"][0]
         moves[move]["multihit"] =  moves[move]["multihit"][0]
 
