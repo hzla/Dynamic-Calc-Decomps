@@ -188,6 +188,15 @@
                 <span class="slider round"></span>
               </label>
             </div>
+            <div id="toggle-sync-lua" class="menu-item">
+              <div class="menu-label">
+                Sync Lua
+              </div> 
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
             <div id="save-filter-toggle" class="menu-item">
               <div class="menu-label">
                 Import Filters Illegal Moves
@@ -1399,8 +1408,9 @@
                         <!--<button style='position:absolute' class='bs-btn bs-btn-default'>Import</button>-->
                     </form>
                     <label for="save-upload" class="bs-btn" id="read-save">
-                            Read .sav/.ss1-9
+                            Read .sav
                     </label>
+                    <button type="button" class="bs-btn bs-btn-default" id="sync-master" style="display:none;">Sync</button>
                     <input id="save-upload" type="file" />
                 </div>
                 <span class="importedSetsOptions" style="width:auto;">

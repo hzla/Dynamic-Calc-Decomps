@@ -58,6 +58,10 @@ function setSettingsDefaults() {
     localStorage.watchSaveFile = 0
   }
 
+  if (typeof localStorage.syncLua === 'undefined') {
+    localStorage.syncLua = 0
+  }
+
   if (typeof localStorage.randomized === 'undefined') {
     localStorage.randomized = 0
   }
@@ -129,9 +133,12 @@ function setSettingsTogglesFromLocalStorage() {
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
     }
-    if (localStorage.watchSaveFile == "1") {
-        $('#save-toggle input').prop('checked', true)
-    }
+  if (localStorage.watchSaveFile == "1") {
+    $('#save-toggle input').prop('checked', true)
+  }
+  if (localStorage.syncLua == "1") {
+    $('#toggle-sync-lua input').prop('checked', true)
+  }
     if (localStorage.filterSaveFile == "1") {
         $('#save-filter-toggle input').prop('checked', true)
     }
@@ -167,6 +174,8 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.dynamicTypeBug == '1') {
         $('#dynamic-type-bug input').prop('checked', true)
     }
+
+    applySyncLuaVisibility()
 }
 
 function toggleBoxSpriteStyle() {
@@ -210,6 +219,14 @@ function toggle_additional_field_options() {
     localStorage.showAdditionalFieldOptions = (parseInt(localStorage.showAdditionalFieldOptions) + 1) % 2   
 }
 
+function applySyncLuaVisibility() {
+    if (localStorage.syncLua == '1') {
+        $('#sync-master').show()
+    } else {
+        $('#sync-master').hide()
+    }
+}
+
 
 // Settings Event Bindings
 
@@ -249,6 +266,11 @@ $('#toggle-rand .slider').click(function(){
 $('#save-toggle .slider').click(function(){
     localStorage.watchSaveFile = (parseInt(localStorage.watchSaveFile) + 1) % 2;
     location.reload()   
+})
+
+$('#toggle-sync-lua .slider').click(function(){
+    localStorage.syncLua = (parseInt(localStorage.syncLua) + 1) % 2;
+    applySyncLuaVisibility()
 })
 
 $('#toggle-switch-info .slider').click(function(){

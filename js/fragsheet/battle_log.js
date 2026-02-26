@@ -1,0 +1,928 @@
+﻿(function () {
+    const BATTLE_LOG_STORAGE_CANDIDATES = [
+        "battleLogJsonl",
+        "battleLogJSONL",
+        "battleLogData",
+        "battleLog"
+    ];
+    let lastRenderedBattleLogRaw = null;
+    let lastRenderedCustomLeadsRaw = null;
+    let lastRenderedUploadedBattleLogVersion = -1;
+    let uploadedBattleLogOverride = null;
+    let uploadedBattleLogSourceLabel = null;
+    let uploadedBattleLogVersion = 0;
+    let activeBattleLogSplitFilter = "all";
+    const BATTLE_LOG_ID_PLACEHOLDERS = {
+        species: "Unknown",
+        move: "Unknown",
+        item: "None",
+        ability: "Unknown"
+    };
+
+    function escHtml(value) {
+        return String(value ?? "")
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#39;");
+    }
+
+    function safeCleanString(value) {
+        if (typeof window.cleanString === "function") {
+            return window.cleanString(String(value ?? ""));
+        }
+        return String(value ?? "").replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+    }
+
+    function spritePath(species) {
+        return `./img/pokesprite/${safeCleanString(species)}.png`;
+    }
+
+    function getBattleLogMoveDisplayName(moveName) {
+        const baseName = String(moveName ?? "");
+        if (!baseName) return baseName;
+
+        const title = typeof window.TITLE === "string" ? window.TITLE : "";
+        const allMoveChanges = window.moveChanges;
+        if (!title || !allMoveChanges || typeof allMoveChanges !== "object") {
+            return baseName;
+        }
+
+        const titleMoveChanges = allMoveChanges[title];
+        if (!titleMoveChanges || typeof titleMoveChanges !== "object") {
+            return baseName;
+        }
+
+        const substituted = titleMoveChanges[baseName];
+        return (typeof substituted === "string" && substituted) ? substituted : baseName;
+    }
+
+    function readLocalStorageJson(key) {
+        try {
+            const raw = localStorage.getItem(key);
+            if (!raw) return null;
+            return JSON.parse(raw);
+        } catch (e) {
+            return null;
+        }
+    }
+
+    function isSyncLuaEnabled() {
+        return localStorage.getItem("syncLua") === "1";
+    }
+
+    function applyBattleLogTabVisibility() {
+        const $battleLogTab = $('.view-tab[data-view="battle-log"]');
+        if (!$battleLogTab.length) return;
+
+        if (isSyncLuaEnabled()) {
+            $battleLogTab.show();
+            return;
+        }
+
+        $battleLogTab.hide();
+
+        if (document.body.classList.contains("battle-log-mode")) {
+            setViewMode("fragsheet");
+        }
+    }
+
+    function getCustomLeadsMap() {
+        const customLeadsMap = readLocalStorageJson("customLeads");
+        return (customLeadsMap && typeof customLeadsMap === "object") ? customLeadsMap : null;
+    }
+
+    function resolveBattleLogSource() {
+        if (uploadedBattleLogOverride) {
+            return {
+                source: uploadedBattleLogSourceLabel || "uploaded-file",
+                data: uploadedBattleLogOverride
+            };
+        }
+
+        const localBattleLog = readLocalStorageJson("battleLog");
+        if (localBattleLog) {
+            return { source: "localStorage:battleLog", data: localBattleLog };
+        }
+
+        for (const key of BATTLE_LOG_STORAGE_CANDIDATES) {
+            if (key === "battleLog") continue;
+            const value = readLocalStorageJson(key);
+            if (value) {
+                return { source: `localStorage:${key}`, data: value };
+            }
+        }
+
+        return { source: null, data: null };
+    }
+
+    function setBattleLogUploadStatus(message, isError) {
+        const el = document.getElementById("battle-log-upload-status");
+        if (!el) return;
+        el.style.display = message ? "block" : "none";
+        el.textContent = String(message || "");
+        el.style.borderColor = isError ? "#b65b63" : "#68686e";
+        el.style.color = isError ? "#ffb6bd" : "#bdbdbd";
+    }
+
+    function setUploadedBattleLogOverride(data, sourceLabel) {
+        uploadedBattleLogOverride = data;
+        uploadedBattleLogSourceLabel = sourceLabel || "uploaded-file";
+        uploadedBattleLogVersion += 1;
+    }
+
+    async function handleBattleLogFileUpload(file) {
+        if (!file) return;
+
+        try {
+            const text = await file.text();
+            const parsed = JSON.parse(text);
+            setUploadedBattleLogOverride(parsed, `upload:${file.name}`);
+            setBattleLogUploadStatus(`Using uploaded file: ${file.name}`, false);
+
+            // Force immediate refresh after successful parse.
+            renderBattleLogView(true);
+        } catch (err) {
+            console.error("Failed to parse uploaded Master JSON file", err);
+            setBattleLogUploadStatus(`Upload failed: ${err && err.message ? err.message : String(err)}`, true);
+        }
+    }
+
+    function getEnumList(kind) {
+        if (kind === "species" && Array.isArray(window.sav_pok_names)) return window.sav_pok_names;
+        if (kind === "move" && Array.isArray(window.sav_move_names)) return window.sav_move_names;
+        if (kind === "item" && Array.isArray(window.sav_item_names)) return window.sav_item_names;
+        if (kind === "ability" && Array.isArray(window.sav_abilities)) return window.sav_abilities;
+        return null;
+    }
+
+    function decodeEnumId(value, kind) {
+        if (!Number.isInteger(value)) return value;
+
+        const list = getEnumList(kind);
+        if (!list || value < 0 || value >= list.length) return value;
+
+        const decoded = list[value];
+        if (typeof decoded !== "string") return value;
+
+        const trimmed = decoded.trim();
+        if (!trimmed || trimmed === "???" || /^-+$/.test(trimmed)) {
+            return BATTLE_LOG_ID_PLACEHOLDERS[kind] || value;
+        }
+
+        return decoded;
+    }
+
+    function decodeBattleLogRecordIds(record) {
+        if (!record || typeof record !== "object") return record;
+
+        const cloned = JSON.parse(JSON.stringify(record));
+        const type = cloned.type;
+
+        if (type === "session_start" && Array.isArray(cloned.pParty)) {
+            cloned.pParty = cloned.pParty.map((mon) => {
+                if (!mon || typeof mon !== "object") return mon;
+
+                const nextMon = { ...mon };
+                nextMon.species = decodeEnumId(nextMon.species, "species");
+                nextMon.ability = decodeEnumId(nextMon.ability, "ability");
+                nextMon.heldItem = decodeEnumId(nextMon.heldItem, "item");
+
+                if (Array.isArray(nextMon.moves)) {
+                    nextMon.moves = nextMon.moves.map((moveId) => decodeEnumId(moveId, "move"));
+                }
+
+                return nextMon;
+            });
+        } else if (type === "pKo" || type === "aiKo") {
+            cloned.pSpecies = decodeEnumId(cloned.pSpecies, "species");
+            cloned.aiSpecies = decodeEnumId(cloned.aiSpecies, "species");
+            if ("move" in cloned) {
+                cloned.move = decodeEnumId(cloned.move, "move");
+            }
+        }
+
+        return cloned;
+    }
+
+    function decodeBattleLogIds(records) {
+        if (!Array.isArray(records)) return [];
+        return records.map(decodeBattleLogRecordIds);
+    }
+
+    function normalizeRecords(input) {
+        const parseErrors = [];
+        let records = [];
+
+        if (!input) return { records, parseErrors };
+
+        if (Array.isArray(input)) {
+            records = decodeBattleLogIds(input.filter((r) => r && typeof r === "object"));
+            return { records, parseErrors };
+        }
+
+        if (typeof input === "object") {
+            if (Array.isArray(input.events)) {
+                records = decodeBattleLogIds(input.events.filter((r) => r && typeof r === "object"));
+                return { records, parseErrors };
+            }
+            if (input.battlelog && Array.isArray(input.battlelog.events)) {
+                records = decodeBattleLogIds(input.battlelog.events.filter((r) => r && typeof r === "object"));
+                return { records, parseErrors };
+            }
+            records = decodeBattleLogIds([input]);
+            return { records, parseErrors };
+        }
+
+        if (typeof input !== "string") {
+            return { records, parseErrors: ["Unsupported battle log data type"] };
+        }
+
+        const trimmed = input.trim();
+        if (!trimmed) return { records, parseErrors };
+
+        try {
+            const parsed = JSON.parse(trimmed);
+            return normalizeRecords(parsed);
+        } catch (e) {
+            return { records, parseErrors: [`Invalid JSON: ${e.message}`] };
+        }
+    }
+
+    function groupSessions(records) {
+        const sessions = [];
+        let current = null;
+
+        records.forEach((record) => {
+            const type = record && record.type;
+
+            if (type === "session_start") {
+                if (current) {
+                    current.incomplete = true;
+                    sessions.push(current);
+                }
+                current = {
+                    start: record,
+                    events: [],
+                    end: null,
+                    incomplete: false
+                };
+                return;
+            }
+
+            if (!current) return;
+
+            if (type === "session_end") {
+                current.end = record;
+                sessions.push(current);
+                current = null;
+                return;
+            }
+
+            current.events.push(record);
+        });
+
+        if (current) {
+            current.incomplete = true;
+            sessions.push(current);
+        }
+
+        return sessions;
+    }
+
+    function dedupeSessionsByTrainerId(sessions) {
+        const seenTrainerIds = {};
+        return sessions.filter((session) => {
+            const trainerId = session && session.start ? session.start.trainerId : undefined;
+            const key = trainerId == null ? "__missing_trainer_id__" : String(trainerId);
+            if (seenTrainerIds[key]) {
+                return false;
+            }
+            seenTrainerIds[key] = true;
+            return true;
+        });
+    }
+
+    function parseTrainerNamePreserveTrailingSpace(trainerId) {
+        const fallback = `Trainer #${trainerId ?? "?"}`;
+        const customLeadsMap = getCustomLeadsMap();
+
+        if (!customLeadsMap || typeof customLeadsMap !== "object") {
+            return fallback;
+        }
+
+        const raw = customLeadsMap[trainerId];
+        if (!raw) return fallback;
+
+        const lvlMatch = String(raw).match(/Lvl\s+-?\d+\s+(.+?)\)\[\d+\]\s*$/i);
+        if (lvlMatch && lvlMatch[1]) {
+            return lvlMatch[1];
+        }
+
+        const beforeBracket = String(raw).split("[")[0].trim();
+        return beforeBracket || fallback;
+    }
+
+    function parseTrainerLeadLevel(trainerId) {
+        const customLeadsMap = getCustomLeadsMap();
+        if (!customLeadsMap || typeof customLeadsMap !== "object") {
+            return 10;
+        }
+
+        const raw = customLeadsMap[trainerId];
+        if (!raw) return 10;
+
+        const lvlMatch = String(raw).match(/Lvl\s+(-?\d+)/i);
+        if (!lvlMatch || typeof lvlMatch[1] === "undefined") {
+            return 10;
+        }
+
+        const parsed = parseInt(lvlMatch[1], 10);
+        return Number.isFinite(parsed) ? parsed : 10;
+    }
+
+    function tryParseTrainerLeadLevel(trainerId) {
+        const customLeadsMap = getCustomLeadsMap();
+        if (!customLeadsMap || typeof customLeadsMap !== "object") {
+            return null;
+        }
+
+        const raw = customLeadsMap[trainerId];
+        if (!raw) return null;
+
+        const lvlMatch = String(raw).match(/Lvl\s+(-?\d+)/i);
+        if (!lvlMatch || typeof lvlMatch[1] === "undefined") {
+            return null;
+        }
+
+        const parsed = parseInt(lvlMatch[1], 10);
+        return Number.isFinite(parsed) ? parsed : null;
+    }
+
+    function parseTrainerName(trainerId) {
+        return String(parseTrainerNamePreserveTrailingSpace(trainerId)).trim();
+    }
+
+    function buildFragTrainerNamePreserveTrailingSpace(trainerId) {
+        const parsed = parseTrainerNamePreserveTrailingSpace(trainerId);
+        if (String(parsed).startsWith("Trainer #")) {
+            return `${parsed} `;
+        }
+        return parsed;
+    }
+
+    function getBattleLogTrainerSplitIndex(trainerId) {
+        const level = tryParseTrainerLeadLevel(trainerId);
+        if (!Number.isFinite(level)) return null;
+        if (typeof window.TITLE !== "string" || !window.TITLE) return null;
+        if (!window.splitData || !window.splitData[window.TITLE]) return null;
+
+        const splitCfg = window.splitData[window.TITLE];
+        const lvlcaps = Array.isArray(splitCfg.lvls) ? splitCfg.lvls : null;
+        const types = Array.isArray(splitCfg.types) ? splitCfg.types : null;
+        if (!lvlcaps || !types || !lvlcaps.length) return null;
+
+        let splitIndex = null;
+        for (let i = 0; i < lvlcaps.length; i += 1) {
+            const maxCap = Number(lvlcaps[i]);
+            const minCap = i > 0 ? Number(lvlcaps[i - 1]) : 0;
+            if (!Number.isFinite(maxCap)) continue;
+
+            if (level <= maxCap && level > minCap) {
+                splitIndex = i;
+                break;
+            }
+
+            if (i === lvlcaps.length - 1 && level > minCap) {
+                splitIndex = i;
+            }
+        }
+
+        return splitIndex;
+    }
+
+    function getBattleLogTrainerSplitTypeClass(trainerId) {
+        const splitIndex = getBattleLogTrainerSplitIndex(trainerId);
+        if (splitIndex == null) return "";
+        if (typeof window.TITLE !== "string" || !window.TITLE) return "";
+        if (!window.splitData || !window.splitData[window.TITLE]) return "";
+        const splitCfg = window.splitData[window.TITLE];
+        const types = Array.isArray(splitCfg.types) ? splitCfg.types : null;
+        if (!types || typeof types[splitIndex] === "undefined") return "";
+        const typeName = types[splitIndex];
+        return typeName ? `${String(typeName)}-type` : "";
+    }
+
+    function getBattleLogSplitTabsConfig() {
+        if (typeof window.TITLE !== "string" || !window.TITLE) return null;
+        if (!window.splitData || !window.splitData[window.TITLE]) return null;
+
+        const splitCfg = window.splitData[window.TITLE];
+        const titlesRaw = splitCfg && splitCfg.titles;
+        if (!titlesRaw) return null;
+
+        const entries = [];
+        if (Array.isArray(titlesRaw)) {
+            titlesRaw.forEach((label, idx) => {
+                if (typeof label !== "undefined" && label !== null && String(label).trim() !== "") {
+                    entries.push({ index: idx, label: String(label) });
+                }
+            });
+        } else if (typeof titlesRaw === "object") {
+            Object.keys(titlesRaw)
+                .sort((a, b) => Number(a) - Number(b))
+                .forEach((key) => {
+                    const idx = Number(key);
+                    const label = titlesRaw[key];
+                    if (Number.isFinite(idx) && typeof label !== "undefined" && label !== null && String(label).trim() !== "") {
+                        entries.push({ index: idx, label: String(label) });
+                    }
+                });
+        }
+
+        return entries.length ? entries : null;
+    }
+
+    function renderBattleLogSplitTabs() {
+        const container = document.getElementById("battle-log-split-tabs");
+        if (!container) return;
+
+        const splitTabs = getBattleLogSplitTabsConfig();
+        if (!splitTabs) {
+            container.innerHTML = "";
+            return;
+        }
+
+        if (activeBattleLogSplitFilter !== "all") {
+            const activeIndex = Number(activeBattleLogSplitFilter);
+            const exists = splitTabs.some((tab) => tab.index === activeIndex);
+            if (!exists) activeBattleLogSplitFilter = "all";
+        }
+
+        let html = `<div class="battle-log-split-tab${activeBattleLogSplitFilter === "all" ? " active" : ""}" data-battle-log-split="all">All Splits</div>`;
+        html += splitTabs.map((tab) => {
+            const isActive = Number(activeBattleLogSplitFilter) === Number(tab.index);
+            return `<div class="battle-log-split-tab${isActive ? " active" : ""}" data-battle-log-split="${escHtml(tab.index)}">${escHtml(tab.label)}</div>`;
+        }).join("");
+        container.innerHTML = html;
+    }
+
+    function rebuildEncounterFragsFromBattleLog(sessions) {
+        if (!window.encounters || typeof window.encounters !== "object") {
+            return;
+        }
+
+        const speciesPresent = {};
+
+        sessions.forEach((session) => {
+            const party = Array.isArray(session && session.start && session.start.pParty) ? session.start.pParty : [];
+            party.forEach((mon) => {
+                const species = mon && mon.species;
+                if (species && window.encounters[species]) {
+                    speciesPresent[species] = true;
+                }
+            });
+        });
+
+        for (const species of Object.keys(speciesPresent)) {
+            const enc = window.encounters[species];
+            if (!enc) continue;
+            enc.frags = [];
+            enc.fragCount = 0;
+            enc.prevoFragCount = 0;
+        }
+
+        sessions.forEach((session) => {
+            const trainerId = session && session.start ? session.start.trainerId : undefined;
+            const trainerNameWithSpace = buildFragTrainerNamePreserveTrailingSpace(trainerId);
+            const trainerLeadLevel = parseTrainerLeadLevel(trainerId);
+            const events = Array.isArray(session && session.events) ? session.events : [];
+
+            events.forEach((event) => {
+                if (event && event.type === "aiKo") {
+                    const aiKoSpecies = event.pSpecies;
+                    if (aiKoSpecies && window.encounters[aiKoSpecies]) {
+                        window.encounters[aiKoSpecies].alive = false;
+                    }
+                    return;
+                }
+
+                if (!event || event.type !== "pKo") return;
+                const pSpecies = event.pSpecies;
+                const aiSpecies = event.aiSpecies || "Unknown";
+                if (!pSpecies || !window.encounters[pSpecies]) return;
+
+                const fragEntry = `${aiSpecies} (Lvl ${trainerLeadLevel} ${trainerNameWithSpace})`;
+                const fragList = Array.isArray(window.encounters[pSpecies].frags) ? window.encounters[pSpecies].frags : [];
+                if (fragList.indexOf(fragEntry) === -1) {
+                    fragList.push(fragEntry);
+                    window.encounters[pSpecies].frags = fragList;
+                    window.encounters[pSpecies].fragCount = fragList.length;
+                }
+            });
+        });
+
+        for (const species of Object.keys(speciesPresent)) {
+            if (!window.encounters[species]) continue;
+            try {
+                if (typeof window.prevoData === "function") {
+                    const prevo = window.prevoData(species, window.encounters);
+                    window.encounters[species].prevoFragCount = Number(prevo && prevo[0]) || 0;
+                } else {
+                    window.encounters[species].prevoFragCount = 0;
+                }
+            } catch (e) {
+                window.encounters[species].prevoFragCount = 0;
+            }
+        }
+
+        try {
+            localStorage.encounters = JSON.stringify(window.encounters);
+        } catch (e) {
+            console.error("Failed to persist rebuilt encounter frags from battle log", e);
+        }
+
+        if (typeof window.refreshTables === "function") {
+            try {
+                window.refreshTables();
+            } catch (e) {
+                console.error("Failed to refresh fragsheet after battle log rebuild", e);
+            }
+        }
+    }
+
+    function getKoLookup(session) {
+        const team = Array.isArray(session.start && session.start.pParty) ? session.start.pParty : [];
+        const firstSpeciesIndex = {};
+        const koLookup = {};
+
+        team.forEach((mon, idx) => {
+            const key = String(mon && mon.species || "").toLowerCase();
+            if (key && typeof firstSpeciesIndex[key] === "undefined") {
+                firstSpeciesIndex[key] = idx;
+            }
+        });
+
+        session.events.forEach((event) => {
+            if (event.type !== "aiKo") return;
+            const key = String(event.pSpecies || "").toLowerCase();
+            const idx = firstSpeciesIndex[key];
+            if (typeof idx !== "undefined") {
+                koLookup[idx] = true;
+            }
+        });
+
+        return koLookup;
+    }
+
+    function renderTeam(session) {
+        const team = Array.isArray(session.start && session.start.pParty) ? session.start.pParty : [];
+        if (!team.length) {
+            return '<div class="battle-team-empty">No player party snapshot found for this battle.</div>';
+        }
+
+        const koLookup = getKoLookup(session);
+        const cards = team.map((mon, idx) => {
+            const moves = Array.isArray(mon.moves) ? mon.moves : [];
+            const moveList = moves.length
+                ? `<ul class="battle-team-moves">${moves.map((move) => `<li>${escHtml(getBattleLogMoveDisplayName(move))}</li>`).join("")}</ul>`
+                : "";
+
+            return `
+                <div class="battle-team-card${koLookup[idx] ? " ko" : ""}">
+                    <div class="battle-team-head">
+                        <img src="${spritePath(mon.species)}" alt="${escHtml(mon.species)}" onerror="this.style.visibility='hidden'">
+                        <div class="battle-team-species">${escHtml(mon.species || "Unknown")}</div>
+                    </div>
+                    <div class="battle-team-lines"><span class="label">Ability:</span> ${escHtml(mon.ability || "Unknown")}</div>
+                    <div class="battle-team-lines"><span class="label">Nature:</span> ${escHtml(mon.nature || "Unknown")}</div>
+                    <div class="battle-team-lines"><span class="label">Item:</span> ${escHtml(mon.heldItem || "None")}</div>
+                    ${moveList}
+                </div>
+            `;
+        }).join("");
+
+        return `<div class="battle-team">${cards}</div>`;
+    }
+
+    function renderEvents(session) {
+        const pKos = session.events.filter((event) => event.type === "pKo");
+
+        if (!pKos.length) {
+            return `
+                <div class="battle-events">
+                    <div class="battle-events-header">
+                        <div>Player KO</div>
+                        <div>Enemy KO'd</div>
+                    </div>
+                    <div class="battle-events-empty">No player KO events recorded in this session.</div>
+                </div>
+            `;
+        }
+
+        const rows = pKos.map((event) => {
+            const displayMove = getBattleLogMoveDisplayName(event.move);
+            const details = [event.turn ? `Turn ${event.turn}` : null, displayMove || null].filter(Boolean).join(" - ");
+            const aiSlot = typeof event.aiPartySlot === "number" ? event.aiPartySlot + 1 : "?";
+
+            return `
+                <div class="battle-event-row">
+                    <div>
+                        <div class="battle-event-cell">
+                            <img src="${spritePath(event.pSpecies)}" alt="${escHtml(event.pSpecies)}" onerror="this.style.visibility='hidden'">
+                            <div>
+                                <div class="battle-event-main">${escHtml(event.pSpecies || "Unknown")}</div>
+                                <div class="battle-event-sub">${escHtml(details)}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="battle-event-cell">
+                            <img src="${spritePath(event.aiSpecies)}" alt="${escHtml(event.aiSpecies)}" onerror="this.style.visibility='hidden'">
+                            <div>
+                                <div class="battle-event-main">${escHtml(event.aiSpecies || "Unknown")}</div>
+                                <div class="battle-event-sub">AI Slot ${escHtml(aiSlot)}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join("");
+
+        return `
+            <div class="battle-events">
+                <div class="battle-events-header">
+                    <div>Player KO</div>
+                    <div>Enemy KO'd</div>
+                </div>
+                ${rows}
+            </div>
+        `;
+    }
+
+    function renderSession(session, index) {
+        const trainerId = session.start && session.start.trainerId;
+        const trainerName = parseTrainerName(trainerId);
+        const splitTypeClass = getBattleLogTrainerSplitTypeClass(trainerId);
+        const pKoCount = session.events.filter((e) => e.type === "pKo").length;
+        const aiKoCount = session.events.filter((e) => e.type === "aiKo").length;
+
+        return `
+            <div class="battle-session" data-battle-index="${index}">
+                <div class="battle-session-header${splitTypeClass ? ` ${escHtml(splitTypeClass)}` : ""}" role="button" tabindex="0" aria-expanded="false">
+                    <div class="battle-session-title">Vs ${escHtml(trainerName)}</div>
+                    <div class="battle-session-meta">${escHtml(`${pKoCount} pKo${aiKoCount ? ` - ${aiKoCount} aiKo` : ""}`)}</div>
+                </div>
+                <div class="battle-session-body">
+                    ${renderTeam(session)}
+                    ${renderEvents(session)}
+                </div>
+            </div>
+        `;
+    }
+
+    function getEncounterMiniRows() {
+        if (!window.encounters || typeof window.encounters !== "object") {
+            return [];
+        }
+
+        const rows = [];
+        for (const species of Object.keys(window.encounters)) {
+            const enc = window.encounters[species];
+            if (!enc || typeof enc !== "object") continue;
+            if (enc.hide === true) continue;
+
+            const kos = Number(enc.fragCount) || 0;
+            rows.push({
+                species,
+                kos
+            });
+        }
+
+        rows.sort((a, b) => {
+            if (b.kos !== a.kos) return b.kos - a.kos;
+            return String(a.species).localeCompare(String(b.species));
+        });
+
+        rows.forEach((row, idx) => {
+            row.rank = idx + 1;
+        });
+
+        return rows;
+    }
+
+    function renderBattleLogFragsheetPanel() {
+        const panel = document.getElementById("battle-log-fragsheet-panel");
+        if (!panel) return;
+
+        const rows = getEncounterMiniRows();
+        if (!rows.length) {
+            panel.innerHTML = `
+                <div class="battle-log-mini-title">Battle Log Fragsheet</div>
+                <div class="battle-log-empty battle-log-mini-empty">No encounter data available.</div>
+            `;
+            return;
+        }
+
+        const bodyRows = rows.map((row) => {
+            const rankClass = row.rank === 1 ? " rank-1" : row.rank === 2 ? " rank-2" : row.rank === 3 ? " rank-3" : "";
+            return `
+                <div class="battle-log-mini-row">
+                    <div class="battle-log-mini-rank${rankClass}">${escHtml(row.rank)}</div>
+                    <div class="battle-log-mini-species">${escHtml(row.species)}</div>
+                    <div class="battle-log-mini-img-wrap">
+                        <img src="${spritePath(row.species)}" alt="${escHtml(row.species)}" onerror="this.style.visibility='hidden'">
+                    </div>
+                    <div class="battle-log-mini-kos">${escHtml(row.kos)}</div>
+                </div>
+            `;
+        }).join("");
+
+        panel.innerHTML = `
+            <div class="battle-log-mini-title">Battle Log Fragsheet</div>
+            <div class="battle-log-mini-header">
+                <div>#</div>
+                <div>Species</div>
+                <div>Img</div>
+                <div style="text-align:right;">KOs</div>
+            </div>
+            ${bodyRows}
+        `;
+    }
+
+    function renderBattleLogView(force) {
+        const container = document.getElementById("battle-log-container");
+        if (!container) return;
+
+        const currentBattleLogRaw = localStorage.getItem("battleLog");
+        const currentCustomLeadsRaw = localStorage.getItem("customLeads");
+        const hasInputChanged =
+            currentBattleLogRaw !== lastRenderedBattleLogRaw ||
+            currentCustomLeadsRaw !== lastRenderedCustomLeadsRaw ||
+            uploadedBattleLogVersion !== lastRenderedUploadedBattleLogVersion;
+
+        if (!force && !hasInputChanged) {
+            return;
+        }
+
+        const resolved = resolveBattleLogSource();
+        if (!resolved.data) {
+            lastRenderedBattleLogRaw = currentBattleLogRaw;
+            lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
+            lastRenderedUploadedBattleLogVersion = uploadedBattleLogVersion;
+            container.innerHTML = '<div class="battle-log-empty">No battle log data found.</div>';
+            renderBattleLogFragsheetPanel();
+            return;
+        }
+
+        const { records, parseErrors } = normalizeRecords(resolved.data);
+        const sessions = dedupeSessionsByTrainerId(groupSessions(records));
+        rebuildEncounterFragsFromBattleLog(sessions);
+        renderBattleLogFragsheetPanel();
+        renderBattleLogSplitTabs();
+
+        const filteredSessions = sessions.filter((session) => {
+            if (activeBattleLogSplitFilter === "all") return true;
+            const splitIndex = getBattleLogTrainerSplitIndex(session && session.start ? session.start.trainerId : undefined);
+            return splitIndex != null && Number(splitIndex) === Number(activeBattleLogSplitFilter);
+        });
+
+        if (!sessions.length) {
+            lastRenderedBattleLogRaw = currentBattleLogRaw;
+            lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
+            lastRenderedUploadedBattleLogVersion = uploadedBattleLogVersion;
+            container.innerHTML = `
+                <div class="battle-log-empty">No battle sessions found in battle log data.</div>
+                ${parseErrors.length ? `<div class="battle-log-note">${escHtml(parseErrors.length)} parse error(s) ignored.</div>` : ""}
+            `;
+            return;
+        }
+
+        let html = `<div class="battle-log-note">${escHtml(filteredSessions.length)} battle(s)${activeBattleLogSplitFilter === "all" ? "" : ` (filtered)`}</div>`;
+        if (parseErrors.length) {
+            html += `<div class="battle-log-note">${escHtml(parseErrors.length)} parse error(s) encountered while parsing battle log JSON.</div>`;
+        }
+        if (!filteredSessions.length) {
+            html += `<div class="battle-log-empty">No battles found for the selected split filter.</div>`;
+        } else {
+            html += filteredSessions.map(renderSession).join("");
+        }
+        container.innerHTML = html;
+        lastRenderedBattleLogRaw = currentBattleLogRaw;
+        lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
+        lastRenderedUploadedBattleLogVersion = uploadedBattleLogVersion;
+    }
+
+    function setViewMode(mode) {
+        if (mode === "battle-log" && !isSyncLuaEnabled()) {
+            mode = "fragsheet";
+        }
+
+        const isBattleLog = mode === "battle-log";
+        document.body.classList.toggle("battle-log-mode", isBattleLog);
+
+        $(".view-tab").removeClass("active");
+        $(`.view-tab[data-view="${mode}"]`).addClass("active");
+
+        if (isBattleLog) {
+            renderBattleLogSplitTabs();
+            renderBattleLogView(true);
+            return;
+        }
+
+        if (window.gridApi && typeof window.gridApi.sizeColumnsToFit === "function") {
+            try {
+                window.gridApi.sizeColumnsToFit();
+            } catch (e) {
+                // Grid may not be ready yet.
+            }
+        }
+    }
+
+    function bindUi() {
+        $(document).on("click", ".view-tab", function () {
+            setViewMode($(this).attr("data-view"));
+        });
+
+        $(document).on("click", ".battle-session-header", function () {
+            const $session = $(this).closest(".battle-session");
+            const nextExpanded = !$session.hasClass("expanded");
+            $session.toggleClass("expanded", nextExpanded);
+            $(this).attr("aria-expanded", nextExpanded ? "true" : "false");
+        });
+
+        $(document).on("keydown", ".battle-session-header", function (event) {
+            if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                $(this).trigger("click");
+            }
+        });
+
+        window.addEventListener("storage", function (event) {
+            if (!event.key) return;
+            if (BATTLE_LOG_STORAGE_CANDIDATES.indexOf(event.key) === -1 && event.key !== "customLeads") return;
+            if (document.body.classList.contains("battle-log-mode")) {
+                renderBattleLogView(false);
+            }
+        });
+
+        let lastBattleLogRaw = localStorage.getItem("battleLog");
+        let lastCustomLeadsRaw = localStorage.getItem("customLeads");
+        let lastSyncLuaRaw = localStorage.getItem("syncLua");
+        setInterval(function () {
+            const nextBattleLogRaw = localStorage.getItem("battleLog");
+            const nextCustomLeadsRaw = localStorage.getItem("customLeads");
+            const nextSyncLuaRaw = localStorage.getItem("syncLua");
+            const changed =
+                nextBattleLogRaw !== lastBattleLogRaw ||
+                nextCustomLeadsRaw !== lastCustomLeadsRaw ||
+                nextSyncLuaRaw !== lastSyncLuaRaw;
+            if (!changed) return;
+
+            lastBattleLogRaw = nextBattleLogRaw;
+            lastCustomLeadsRaw = nextCustomLeadsRaw;
+            lastSyncLuaRaw = nextSyncLuaRaw;
+            applyBattleLogTabVisibility();
+
+            if (document.body.classList.contains("battle-log-mode")) {
+                renderBattleLogView(false);
+            }
+        }, 2000);
+
+        const uploadBtn = document.getElementById("battle-log-upload-btn");
+        const uploadInput = document.getElementById("battle-log-upload-input");
+
+        if (uploadBtn && uploadInput) {
+            uploadBtn.addEventListener("click", function () {
+                uploadInput.click();
+            });
+
+            uploadInput.addEventListener("change", function (event) {
+                const file = event && event.target && event.target.files ? event.target.files[0] : null;
+                handleBattleLogFileUpload(file);
+                // Allow re-selecting the same file to trigger change again.
+                uploadInput.value = "";
+            });
+        }
+
+        $(document).on("click", ".battle-log-split-tab", function () {
+            const next = $(this).attr("data-battle-log-split");
+            activeBattleLogSplitFilter = next === "all" ? "all" : parseInt(next, 10);
+            renderBattleLogSplitTabs();
+            if (document.body.classList.contains("battle-log-mode")) {
+                renderBattleLogView(true);
+            }
+        });
+
+        window.renderBattleLogView = renderBattleLogView;
+        window.setFragsheetViewMode = setViewMode;
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        bindUi();
+        applyBattleLogTabVisibility();
+        setViewMode("fragsheet");
+    });
+})();
+

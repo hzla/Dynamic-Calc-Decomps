@@ -1617,7 +1617,7 @@ select.toxic-counter {
     margin-top: 2px
 }
 
-.field-info button, #save-state, #read-save, #import, #clearSets, #download-sav, #fragsheet-howto {
+.field-info button, #save-state, #read-save, #sync-master, #import, #clearSets, #download-sav, #fragsheet-howto {
     color: #bb86fc;
     border-radius: 8px;
     background: none;
@@ -2278,4 +2278,3 @@ table.field {
 
 
 }
-

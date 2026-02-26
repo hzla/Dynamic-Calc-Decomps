@@ -27,6 +27,10 @@ if (TITLE.includes("Imperium")) {
 
             // Try to get a persistent handle via File System Access API (if supported)
             if ('showOpenFilePicker' in window && localStorage.watchSaveFile == '1') {
+                // #read-save is a <label for="save-upload">, so stop the label from
+                // opening the native file input picker in addition to showOpenFilePicker().
+                event.preventDefault();
+                event.stopPropagation();
                
                try {
                     [fileHandle] = await window.showOpenFilePicker({
@@ -39,6 +43,7 @@ if (TITLE.includes("Imperium")) {
                     console.warn("User cancelled file handle selection, falling back to input-only mode.");
                     fileHandle = null;
                 }
+                if (!fileHandle) return;
                 file = await fileHandle.getFile();
             } else {
                 file = event.target.files[0];
@@ -760,7 +765,6 @@ function extractSaveState(file) {
     }
   }
 }
-
 
 
 

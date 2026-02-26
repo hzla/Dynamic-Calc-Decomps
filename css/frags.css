@@ -267,8 +267,8 @@ a:visited {
 
 #frag-history {
     position: absolute;
-    top: 132px;
-    right: 40px;
+    top: 124px;
+    right: 30px;
     border: solid 1px #68686e;
     min-width: 300px;
     border-radius: 5px;
@@ -482,5 +482,469 @@ a:visited {
     }
 }
 
+/* Top-level Fragsheet/Battle Log view switch */
+#view-tabs {
+    height: 40px;
+    background: #222628;
+    margin-bottom: 12px;
+    width: 85vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    max-width: 1235px;
+}
 
+.view-tab {
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 28px;
+    height: 28px;
+    padding: 0 10px;
+    color: #f1f1f1;
+}
 
+.view-tab:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.view-tab.active {
+    background: #f1f1f1;
+    color: #000;
+}
+
+#battle-log-split-tabs {
+    display: none;
+    height: 40px;
+    background: #222628;
+    margin-bottom: 12px;
+    width: 85vw;
+    border-radius: 5px;
+    gap: 8px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    max-width: 1235px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    align-items: center;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#battle-log-split-tabs::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.battle-log-split-tab {
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 28px;
+    height: 28px;
+    padding: 0 10px;
+    color: #f1f1f1;
+    white-space: nowrap;
+    flex: 0 0 auto;
+}
+
+.battle-log-split-tab:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.battle-log-split-tab.active {
+    background: #f1f1f1;
+    color: #000;
+}
+
+/* Battle log view */
+#battle-log-view {
+    display: none;
+    width: 85vw;
+    max-width: 1235px;
+    min-height: calc(100vh - 150px);
+    border: 1px solid #68686e;
+    border-radius: 5px;
+    background: #181d1f;
+    overflow: auto;
+}
+
+#battle-log-container {
+    padding: 12px;
+}
+
+#battle-log-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 12px 0;
+    flex-wrap: wrap;
+}
+
+.battle-log-toolbar-btn {
+    border: 1px solid #68686e;
+    border-radius: 5px;
+    background: #222628;
+    color: #ddd;
+    cursor: pointer;
+    padding: 8px 12px;
+    font: inherit;
+}
+
+.battle-log-toolbar-btn:hover {
+    background: #2a2f32;
+}
+
+.battle-log-empty,
+.battle-log-note {
+    border: 1px solid #68686e;
+    border-radius: 5px;
+    background: #222628;
+    color: #ddd;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+
+.battle-log-note {
+    font-size: 12px;
+    color: #bdbdbd;
+}
+
+.battle-session {
+    border: 1px solid #68686e;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    background: #1f2426;
+}
+
+.battle-session-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.battle-session-header:hover {
+    background: #2a2f32;
+}
+
+.battle-session-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.battle-session-meta {
+    font-size: 12px;
+    color: #bbb;
+    text-align: right;
+}
+
+.battle-session-body {
+    display: none;
+    padding: 12px;
+    border-top: 1px solid #68686e;
+}
+
+.battle-session.expanded .battle-session-body {
+    display: block;
+}
+
+.battle-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.battle-team-card {
+    border: 1px solid #5a5a60;
+    border-radius: 6px;
+    background: #202527;
+    padding: 8px;
+}
+
+.battle-team-card.ko {
+    background: rgba(140, 20, 20, 0.35);
+    border-color: #FF5555;
+}
+
+.battle-team-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.battle-team-head img {
+    width: 40px;
+    height: 40px;
+    image-rendering: pixelated;
+}
+
+.battle-team-species {
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.battle-team-lines {
+    font-size: 12px;
+    color: #ddd;
+    line-height: 1.35;
+}
+
+.battle-team-lines .label {
+    color: #aaa;
+}
+
+.battle-team-moves {
+    margin: 6px 0 0 0;
+    padding-left: 16px;
+    font-size: 12px;
+}
+
+.battle-team-empty {
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #bbb;
+}
+
+.battle-events {
+    border: 1px solid #5a5a60;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.battle-events-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #222628;
+    border-bottom: 1px solid #5a5a60;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #cfcfcf;
+}
+
+.battle-events-header > div,
+.battle-event-row > div {
+    padding: 8px 10px;
+}
+
+.battle-event-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid rgba(104,104,110,0.45);
+}
+
+.battle-event-row:last-child {
+    border-bottom: none;
+}
+
+.battle-event-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+.battle-event-cell img {
+    width: 28px;
+    height: 28px;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+}
+
+.battle-event-main {
+    font-size: 13px;
+    color: #f1f1f1;
+}
+
+.battle-event-sub {
+    font-size: 11px;
+    color: #b4b4b4;
+}
+
+.battle-events-empty {
+    padding: 10px;
+    font-size: 12px;
+    color: #bbb;
+    background: #1f2426;
+}
+
+#battle-log-fragsheet-panel {
+    display: none;
+    padding: 0;
+}
+
+.battle-log-mini-header {
+    display: grid;
+    grid-template-columns: 36px minmax(0, 90px) 52px minmax(0, 1fr);
+    gap: 8px;
+    align-items: center;
+    padding: 10px 12px;
+    border-bottom: 1px solid #68686e;
+    background: #222628;
+    font-weight: bold;
+    color: #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.battle-log-mini-row {
+    display: grid;
+    grid-template-columns: 36px minmax(0, 90px) 52px minmax(0, 1fr);
+    gap: 8px;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(104,104,110,0.45);
+    background: #1f2426;
+}
+
+.battle-log-mini-row:nth-child(2n) {
+    background: #202527;
+}
+
+.battle-log-mini-rank {
+    text-align: left;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #f1f1f1;
+    line-height: 24px;
+    min-height: 24px;
+    padding-left: 6px;
+}
+
+.battle-log-mini-img-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.battle-log-mini-img-wrap img {
+    width: auto;
+    height: 60px;
+    image-rendering: pixelated;
+}
+
+.battle-log-mini-species {
+    min-width: 0;
+    color: #eee;
+    font-weight: 600;
+    line-height: 1.15;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.battle-log-mini-kos {
+    text-align: left;
+    font-weight: bold;
+    color: #ddd;
+    justify-self: end;
+    min-width: 0;
+}
+
+.battle-log-mini-empty {
+    margin: 12px;
+}
+
+body.battle-log-mode #tabs,
+body.battle-log-mode #myGrid,
+body.battle-log-mode #delete-btns,
+body.battle-log-mode #sheet-btns,
+body.battle-log-mode #tooltip {
+    display: none;
+}
+
+body.battle-log-mode #battle-log-view {
+    display: block;
+}
+
+body.battle-log-mode #battle-log-split-tabs {
+    display: flex;
+}
+
+body.battle-log-mode #frag-history {
+    display: block;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body.battle-log-mode #frag-history::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+body.battle-log-mode #frag-history > #stat-title,
+body.battle-log-mode #frag-history > .split-container {
+    display: none !important;
+}
+
+body.battle-log-mode #battle-log-fragsheet-panel {
+    display: block;
+}
+
+.battle-log-mini-title {
+    text-align: center;
+    margin: 0;
+    background: #222628;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #68686e;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+@media (min-width: 1921px) {
+    #view-tabs, #battle-log-split-tabs, #battle-log-view {
+        max-width: 1235px;
+    }
+}
+
+@media (max-width: 1630px) {
+    #view-tabs, #battle-log-split-tabs, #battle-log-view {
+        max-width: calc(100vw - 390px);
+    }
+}
+
+@media (max-width: 900px) {
+    #view-tabs,
+    #battle-log-split-tabs,
+    #tabs,
+    #myGrid,
+    #battle-log-view,
+    #frag-history {
+        width: calc(100vw - 80px);
+        max-width: calc(100vw - 80px);
+    }
+
+    body.battle-log-mode #frag-history {
+        position: static;
+        margin-top: 12px;
+        height: auto;
+        max-height: 50vh;
+        min-width: 0;
+    }
+
+    .battle-events-header,
+    .battle-event-row {
+        grid-template-columns: 1fr;
+    }
+
+    .battle-session-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .battle-session-meta {
+        text-align: left;
+    }
+}

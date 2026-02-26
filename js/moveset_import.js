@@ -808,18 +808,20 @@ function isValidJSON(str) {
 
 function addSets(pokes, name) {
 	if (isValidJSON(pokes)) {
-		newSets = JSON.parse(pokes)
-		localStorage.customsets = newSets
-		location.reload()
-		return
-
-		// for (let set in newSets) {
-		// 	SETDEX_BW[set] ||= {}
-		// 	SETDEX_BW[set]["My Box"] = newSets[set]["My Box"]
-		// }
-		// console.log("sets updated")
-		// get_box()
-		// return
+		try {
+			if (typeof loadPokeLuaGen4RawBoxDump !== "function") {
+				throw new Error("Lua box dump importer is unavailable");
+			}
+			const luaDumpResult = loadPokeLuaGen4RawBoxDump(pokes);
+			if (!luaDumpResult || typeof luaDumpResult.showdownImport !== "string") {
+				throw new Error("Lua box dump import did not return showdown text");
+			}
+			pokes = luaDumpResult.showdownImport;
+		} catch (error) {
+			console.error("Failed to import Lua box dump JSON", error);
+			alert("Failed to import Lua box dump JSON. See console for details.");
+			return;
+		}
 	}	
 
 	var rows = pokes.split("\n");

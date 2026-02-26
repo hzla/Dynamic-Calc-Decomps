@@ -41,6 +41,7 @@ function get_custom_trainer_names() {
            }     
         }      
     }
+    localStorage.customLeads = JSON.stringify(trainer_names)
     return trainer_names
 }
     
