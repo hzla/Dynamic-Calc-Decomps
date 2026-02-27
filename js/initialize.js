@@ -170,6 +170,7 @@ $(document).ready(function() {
         TITLE = ""
         TITLE = npoint_data.title || SOURCES[params.get("data")] || "Untitled"
         document.title = TITLE + " Calculator"
+        setBaseGame(TITLE)
         $('#rom-title').text(TITLE).show()
         if ( TITLE.includes("Cascade")) {
             $('.cascade-effects .btn-small').show()
@@ -332,7 +333,7 @@ if (SOURCES[params.get('data')]) {
 
     setGameSettings(TITLE)
 
-    baseGame = ""
+    baseGame ||= ""
     if (TITLE.includes("Inclement") ) {
         baseGame = "inc_em"
     } else if (TITLE.includes("Imperium")) {
@@ -371,8 +372,31 @@ if (SOURCES[params.get('data')]) {
     TITLE = "NONE"
 }
 
+function setBaseGame(title) {
 
+    if (title.includes("Inclement") ) {
+        window.baseGame = "inc_em"
+    } else if (title.includes("Imperium")) {
+        window.baseGame = "imp"
 
+        if (localStorage.switchInfo == '1') {
+          $('.trainer-pok-list.opposing').addClass('ai-show')
+        }
+    } else if (title.includes("Platinum")) {
+      window.baseGame = "Pt"
+      window.save_expansion = false;
+    } else if (title.includes(" Black") || title.includes(" White")) {
+      window.baseGame = "BW"
+      window.save_expansion = false;
+      if (title.includes("Black 2") || title.includes("White 2")) {
+        baseVersion = "BW2"
+      } else {
+        baseVersion = "BW"
+      }
+    } else if (title.includes("Gold") || title.includes("Silver")) {
+      window.baseGame = "HGSS"
+    }
+}
 function initCalc() {
   
   initializing = true
