@@ -333,41 +333,44 @@ if (SOURCES[params.get('data')]) {
 
     setGameSettings(TITLE)
 
-    baseGame ||= ""
-    if (TITLE.includes("Inclement") ) {
-        baseGame = "inc_em"
-    } else if (TITLE.includes("Imperium")) {
-        baseGame = "imp"
 
-        if (localStorage.switchInfo == '1') {
-          $('.trainer-pok-list.opposing').addClass('ai-show')
-        }
-    } else if (TITLE.includes("Platinum")) {
-      baseGame = "Pt"
-    } else if (TITLE.includes(" Black") || TITLE.includes(" White")) {
-      baseGame = "BW"
-      if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
-        baseVersion = "BW2"
-      } else {
-        baseVersion = "BW"
-      }
-    } else if (TITLE.includes("Gold") || TITLE.includes("Silver")) {
-      baseGame = "HGSS"
-    }
+    window.baseGame ||= ""
 
-    if (!baseGame) {
-        $('#read-save').hide()
-    } 
+    setBaseGame(TITLE)
+    // if (TITLE.includes("Inclement") ) {
+    //     baseGame = "inc_em"
+    // } else if (TITLE.includes("Imperium")) {
+    //     baseGame = "imp"
 
-    $('#rom-title').text(TITLE).show()
-    if (TITLE.includes("Radical Red") || TITLE.includes("Emerald Imperium")) {
-        $("#lvl-cap").show()
-    }
+    //     if (localStorage.switchInfo == '1') {
+    //       $('.trainer-pok-list.opposing').addClass('ai-show')
+    //     }
+    // } else if (TITLE.includes("Platinum")) {
+    //   baseGame = "Pt"
+    // } else if (TITLE.includes(" Black") || TITLE.includes(" White")) {
+    //   baseGame = "BW"
+    //   if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
+    //     baseVersion = "BW2"
+    //   } else {
+    //     baseVersion = "BW"
+    //   }
+    // } else if (TITLE.includes("Gold") || TITLE.includes("Silver")) {
+    //   baseGame = "HGSS"
+    // }
 
-    if ( TITLE.includes("Cascade")) {
-        $('.cascade-effects .btn-small').show()
-        baseVersion = "BW2"
-    }
+    // if (!baseGame) {
+    //     $('#read-save').hide()
+    // } 
+
+    // $('#rom-title').text(TITLE).show()
+    // // if (TITLE.includes("Radical Red") || TITLE.includes("Emerald Imperium")) {
+    // //     $("#lvl-cap").show()
+    // // }
+
+    // if ( TITLE.includes("Cascade")) {
+    //     $('.cascade-effects .btn-small').show()
+    //     baseVersion = "BW2"
+    // }
 } else {
     TITLE = "NONE"
 }
@@ -396,6 +399,19 @@ function setBaseGame(title) {
     } else if (title.includes("Gold") || title.includes("Silver")) {
       window.baseGame = "HGSS"
     }
+
+    if (title.includes("Radical Red") || title.includes("Emerald Imperium")) {
+        $("#lvl-cap").show()
+    }
+
+    if ( title.includes("Cascade")) {
+        $('.cascade-effects .btn-small').show()
+        baseVersion = "BW2"
+    }
+
+    if (!baseGame) {
+        $('#read-save').hide()
+    } 
 }
 function initCalc() {
   
