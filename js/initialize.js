@@ -332,10 +332,7 @@ if (SOURCES[params.get('data')]) {
     TITLE = SOURCES[params.get('data')] || "NONE"
 
     setGameSettings(TITLE)
-
-
     window.baseGame ||= ""
-
     setBaseGame(TITLE)
     // if (TITLE.includes("Inclement") ) {
     //     baseGame = "inc_em"
@@ -403,6 +400,7 @@ function setBaseGame(title) {
     if (title.includes("Radical Red") || title.includes("Emerald Imperium")) {
         $("#lvl-cap").show()
     }
+    $('#rom-title').text(TITLE).show()
 
     if ( title.includes("Cascade")) {
         $('.cascade-effects .btn-small').show()
