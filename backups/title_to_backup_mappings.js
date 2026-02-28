@@ -31,7 +31,7 @@ backupFiles = {
 	"Vintage White Plus": "vwplus",
 	"Blinding White 2": "blind",
 	"Emerald Kaizo": "ek",
-	"Royal Saphire": "roysaph"
+	"Royal Sapphire": "roysaph"
 }
 
 

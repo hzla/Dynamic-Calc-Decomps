@@ -2439,6 +2439,16 @@ var SM_PATCH = {
         secondaries: true,
         zp: 180
     },
+    '2x-Ironbash': {
+        bp: 60,
+        type: 'Steel',
+        multihit: 2,
+        makesContact: true,
+        isPunch: true,
+        category: 'Physical',
+        secondaries: true,
+        zp: 180
+    },
     'Dragon Hammer': {
         bp: 90,
         type: 'Dragon',
