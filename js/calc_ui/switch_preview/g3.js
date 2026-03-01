@@ -345,6 +345,8 @@ function get_next_in_g3() {
         for (var j in enemy.moves) {
             var move = enemy.moves[j];
 
+
+
             var moveCopy = new calc.Move(GENERATION, move.name);
             if (moveCopy.name == "Weather Ball") {
                 if (field.weather == "Sun") moveCopy.type = "Fire";
@@ -361,7 +363,7 @@ function get_next_in_g3() {
             var typeEffectiveness = p1.types[1] ? typeEffectiveness1 * typeEffectiveness2 : typeEffectiveness1;
             if (p1.ability == "Levitate" && moveCopy.type == "Ground") typeEffectiveness = 0;
 
-            if (typeEffectiveness > 1) {
+            if (typeEffectiveness > 1 && move.category != "Status") {
                 hasSE = true;
                 seMoves.push(move.name);
             }
