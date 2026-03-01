@@ -681,13 +681,22 @@ function loadMovesData() {
     if (moves[move]) {
     } else {
         // custom move
+        console.log(move)
         jsonMoves[move]["flags"] = {}
         jsonMoves[move]["name"] = move
+
+        if (settings.damageGen == 3) {
+            if (['Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'].includes(jsonMoves[move].type)) {
+                jsonMoves[move]["category"] = "Physical"
+            } else {
+                jsonMoves[move]["category"] = "Special"
+            }
+        }
 
 
         moves[move] = jsonMoves[move]
         moves[move]["bp"] = jsonMoves[move]["basePower"]
-        MOVES_BY_ID[8][move.replace(/-|,|'|’| /g, "").toLowerCase()] = jsonMoves[move]
+        MOVES_BY_ID[8][cleanString(move)] = jsonMoves[move]
     }
   }
 
