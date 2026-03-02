@@ -3,7 +3,7 @@ backup_data = {
     {
         "Haunter":
         {
-            "Lvl 24 Rival Silver |Azalea Town| ":
+            "Lvl 24 Rival Silver ":
             {
                 "level": 24,
                 "tr_id": 1,
@@ -31,7 +31,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -163,7 +163,7 @@ backup_data = {
                 "spriteId": 67,
                 "orientation": 2
             },
-            "Lvl 32 Rival Silver |Burned Tower| ":
+            "Lvl 32 Rival Silver4 ":
             {
                 "level": 32,
                 "tr_id": 263,
@@ -191,11 +191,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 37 Rival Silver |Victory Road| ":
+            "Lvl 37 Rival Silver5 ":
             {
                 "level": 37,
                 "tr_id": 264,
@@ -223,11 +223,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 24 Rival Silver2 |Azalea Town| ":
+            "Lvl 24 Rival Silver7 ":
             {
                 "level": 24,
                 "tr_id": 266,
@@ -255,11 +255,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver2 |Burned Tower| ":
+            "Lvl 32 Rival Silver8 ":
             {
                 "level": 32,
                 "tr_id": 267,
@@ -287,11 +287,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 24 Rival Silver3 |Azalea Town| ":
+            "Lvl 24 Rival Silver10 ":
             {
                 "level": 24,
                 "tr_id": 269,
@@ -319,11 +319,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver3 |Burned Tower| ":
+            "Lvl 32 Rival Silver11 ":
             {
                 "level": 32,
                 "tr_id": 270,
@@ -351,11 +351,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 37 Rival Silver3 |Victory Road| ":
+            "Lvl 37 Rival Silver13 ":
             {
                 "level": 37,
                 "tr_id": 272,
@@ -383,14 +383,14 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Golbat":
         {
-            "Lvl 24 Rival Silver |Azalea Town| ":
+            "Lvl 24 Rival Silver ":
             {
                 "level": 24,
                 "tr_id": 1,
@@ -418,7 +418,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -550,7 +550,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Rival Silver |Victory Road| ":
+            "Lvl 38 Rival Silver5 ":
             {
                 "level": 38,
                 "tr_id": 264,
@@ -578,11 +578,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 24 Rival Silver2 |Azalea Town| ":
+            "Lvl 24 Rival Silver7 ":
             {
                 "level": 24,
                 "tr_id": 266,
@@ -610,11 +610,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 24 Rival Silver3 |Azalea Town| ":
+            "Lvl 24 Rival Silver10 ":
             {
                 "level": 24,
                 "tr_id": 269,
@@ -642,11 +642,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Rival Silver3 |Victory Road| ":
+            "Lvl 38 Rival Silver13 ":
             {
                 "level": 38,
                 "tr_id": 272,
@@ -674,11 +674,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Rival Silver |Mt. Moon| ":
+            "Lvl 47 Rival Silver14 ":
             {
                 "level": 47,
                 "tr_id": 285,
@@ -706,11 +706,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Rival Silver2 |Mt. Moon| ":
+            "Lvl 47 Rival Silver15 ":
             {
                 "level": 47,
                 "tr_id": 286,
@@ -738,11 +738,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Rival Silver3 |Mt. Moon| ":
+            "Lvl 47 Rival Silver16 ":
             {
                 "level": 47,
                 "tr_id": 287,
@@ -770,7 +770,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -966,7 +966,7 @@ backup_data = {
                 "spriteId": 145,
                 "orientation": 1
             },
-            "Lvl 22 Executive Proton |SLOWPOKE Well| ":
+            "Lvl 22 Executive Proton ":
             {
                 "level": 22,
                 "tr_id": 486,
@@ -994,7 +994,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Shadow Tag",
-                "location": "SLOWPOKE Well",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -1062,7 +1062,7 @@ backup_data = {
                 "spriteId": 67,
                 "orientation": 3
             },
-            "Lvl 31 Team Rocket Grunt |Ecruteak City| ":
+            "Lvl 31 Team Rocket Grunt13 ":
             {
                 "level": 31,
                 "tr_id": 601,
@@ -1090,7 +1090,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -1193,7 +1193,7 @@ backup_data = {
         },
         "Magnemite":
         {
-            "Lvl 24 Rival Silver |Azalea Town| ":
+            "Lvl 24 Rival Silver ":
             {
                 "level": 24,
                 "tr_id": 1,
@@ -1221,7 +1221,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -1321,7 +1321,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 24 Rival Silver2 |Azalea Town| ":
+            "Lvl 24 Rival Silver7 ":
             {
                 "level": 24,
                 "tr_id": 266,
@@ -1349,11 +1349,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 24 Rival Silver3 |Azalea Town| ":
+            "Lvl 24 Rival Silver10 ":
             {
                 "level": 24,
                 "tr_id": 269,
@@ -1381,7 +1381,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -1964,7 +1964,7 @@ backup_data = {
         },
         "Sneasel":
         {
-            "Lvl 24 Rival Silver |Azalea Town| ":
+            "Lvl 24 Rival Silver ":
             {
                 "level": 24,
                 "tr_id": 1,
@@ -1992,11 +1992,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Inner Focus",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 10 Sinnoh Leader Candice |Route 31| ":
+            "Lvl 10 Sinnoh Leader Candice ":
             {
                 "level": 10,
                 "tr_id": 19,
@@ -2024,11 +2024,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Route 31",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver |Burned Tower| ":
+            "Lvl 32 Rival Silver4 ":
             {
                 "level": 32,
                 "tr_id": 263,
@@ -2056,11 +2056,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Inner Focus",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 36 Rival Silver |Victory Road| ":
+            "Lvl 36 Rival Silver5 ":
             {
                 "level": 36,
                 "tr_id": 264,
@@ -2088,11 +2088,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 24 Rival Silver2 |Azalea Town| ":
+            "Lvl 24 Rival Silver7 ":
             {
                 "level": 24,
                 "tr_id": 266,
@@ -2120,11 +2120,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Inner Focus",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver2 |Burned Tower| ":
+            "Lvl 32 Rival Silver8 ":
             {
                 "level": 32,
                 "tr_id": 267,
@@ -2152,11 +2152,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Inner Focus",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 24 Rival Silver3 |Azalea Town| ":
+            "Lvl 24 Rival Silver10 ":
             {
                 "level": 24,
                 "tr_id": 269,
@@ -2184,11 +2184,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Inner Focus",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver3 |Burned Tower| ":
+            "Lvl 32 Rival Silver11 ":
             {
                 "level": 32,
                 "tr_id": 270,
@@ -2216,11 +2216,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Inner Focus",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 36 Rival Silver3 |Victory Road| ":
+            "Lvl 36 Rival Silver13 ":
             {
                 "level": 36,
                 "tr_id": 272,
@@ -2248,11 +2248,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Rival Silver |Mt. Moon| ":
+            "Lvl 46 Rival Silver14 ":
             {
                 "level": 46,
                 "tr_id": 285,
@@ -2280,11 +2280,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Rival Silver2 |Mt. Moon| ":
+            "Lvl 46 Rival Silver15 ":
             {
                 "level": 46,
                 "tr_id": 286,
@@ -2312,11 +2312,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Rival Silver3 |Mt. Moon| ":
+            "Lvl 46 Rival Silver16 ":
             {
                 "level": 46,
                 "tr_id": 287,
@@ -2344,7 +2344,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -2380,7 +2380,7 @@ backup_data = {
                 "spriteId": 177,
                 "orientation": 1
             },
-            "Lvl 55 Rival Silver |Pokémon League| ":
+            "Lvl 55 Rival Silver19 ":
             {
                 "level": 55,
                 "tr_id": 489,
@@ -2408,11 +2408,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver2 |Pokémon League| ":
+            "Lvl 55 Rival Silver20 ":
             {
                 "level": 55,
                 "tr_id": 490,
@@ -2440,7 +2440,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -2479,7 +2479,7 @@ backup_data = {
         },
         "Bayleef":
         {
-            "Lvl 25 Rival Silver |Azalea Town| ":
+            "Lvl 25 Rival Silver ":
             {
                 "level": 25,
                 "tr_id": 1,
@@ -2507,11 +2507,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Filter",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 33 Rival Silver |Burned Tower| ":
+            "Lvl 33 Rival Silver4 ":
             {
                 "level": 33,
                 "tr_id": 263,
@@ -2539,14 +2539,14 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Filter",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Cyndaquil":
         {
-            "Lvl 5 Rival Silver ":
+            "Lvl 5 Rival Silver2 ":
             {
                 "level": 5,
                 "tr_id": 2,
@@ -2578,7 +2578,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 5 Rival ???2 |Cherrygrove City| ":
+            "Lvl 5 Rival ???2 ":
             {
                 "level": 5,
                 "tr_id": 496,
@@ -2606,14 +2606,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Flash Fire",
-                "location": "Cherrygrove City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Totodile":
         {
-            "Lvl 5 Rival Silver2 ":
+            "Lvl 5 Rival Silver3 ":
             {
                 "level": 5,
                 "tr_id": 3,
@@ -2645,7 +2645,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 5 Rival ???3 |Cherrygrove City| ":
+            "Lvl 5 Rival ???3 ":
             {
                 "level": 5,
                 "tr_id": 497,
@@ -2673,7 +2673,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
-                "location": "Cherrygrove City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -3006,7 +3006,7 @@ backup_data = {
                 "spriteId": 22,
                 "orientation": 3
             },
-            "Lvl 54 Leader Falkner |Saffron City| ":
+            "Lvl 54 Leader Falkner2 ":
             {
                 "level": 54,
                 "tr_id": 712,
@@ -3034,7 +3034,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Super Luck",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -3073,7 +3073,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 34 Leader Morty |Ecruteak City| ":
+            "Lvl 34 Leader Morty ":
             {
                 "level": 34,
                 "tr_id": 31,
@@ -3101,7 +3101,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Chlorophyll",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -3201,7 +3201,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Leader Erika |Saffron City| ":
+            "Lvl 60 Leader Erika2 ":
             {
                 "level": 60,
                 "tr_id": 723,
@@ -3229,7 +3229,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Thick Fat",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -3300,7 +3300,7 @@ backup_data = {
                 "spriteId": 220,
                 "orientation": 3
             },
-            "Lvl 48 Team Rocket Grunt3 |Team Rocket HQ| ":
+            "Lvl 48 Team Rocket Grunt |Team Rocket HQ| ":
             {
                 "level": 48,
                 "tr_id": 218,
@@ -3332,7 +3332,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 1
             },
-            "Lvl 56 Executive Petrel |Radio Tower| ":
+            "Lvl 56 Executive Petrel ":
             {
                 "level": 56,
                 "tr_id": 487,
@@ -3360,11 +3360,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Scrappy",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Champion Red2 |Pokémon League| ":
+            "Lvl 100 Champion Red2 ":
             {
                 "level": 100,
                 "tr_id": 701,
@@ -3392,7 +3392,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Scrappy",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -3626,7 +3626,7 @@ backup_data = {
                 "spriteId": 115,
                 "orientation": 2
             },
-            "Lvl 26 Sinnoh Leader Gardenia |Ilex Forest| ":
+            "Lvl 26 Sinnoh Leader Gardenia ":
             {
                 "level": 26,
                 "tr_id": 63,
@@ -3654,7 +3654,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Technician",
-                "location": "Ilex Forest",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -3690,7 +3690,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 0
             },
-            "Lvl 100 Unova Leader Elesa |Vermilion City| ":
+            "Lvl 100 Unova Leader Elesa ":
             {
                 "level": 100,
                 "tr_id": 255,
@@ -3718,11 +3718,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Natural Cure",
-                "location": "Vermilion City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Leader Erika |Saffron City| ":
+            "Lvl 55 Leader Erika2 ":
             {
                 "level": 55,
                 "tr_id": 723,
@@ -3750,7 +3750,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Technician",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -3853,7 +3853,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 1
             },
-            "Lvl 52 Leader Falkner |Saffron City| ":
+            "Lvl 52 Leader Falkner2 ":
             {
                 "level": 52,
                 "tr_id": 712,
@@ -3881,7 +3881,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Guts",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -4345,7 +4345,7 @@ backup_data = {
                 "spriteId": 136,
                 "orientation": 2
             },
-            "Lvl 48 Leader Falkner |Saffron City| ":
+            "Lvl 48 Leader Falkner2 ":
             {
                 "level": 48,
                 "tr_id": 712,
@@ -4373,7 +4373,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Marvel Scale",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -4828,7 +4828,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 1
             },
-            "Lvl 100 Mystery Boss Ghetsis |Mt. Silver| ":
+            "Lvl 100 Mystery Boss Ghetsis ":
             {
                 "level": 100,
                 "tr_id": 200,
@@ -4856,7 +4856,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
-                "location": "Mt. Silver",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -4892,7 +4892,7 @@ backup_data = {
                 "spriteId": 131,
                 "orientation": 3
             },
-            "Lvl 69 Elite Four Karen |Pokémon League| ":
+            "Lvl 69 Elite Four Karen ":
             {
                 "level": 69,
                 "tr_id": 246,
@@ -4920,11 +4920,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Intimidate",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Leader Blue |Viridian City| ":
+            "Lvl 52 Leader Blue ":
             {
                 "level": 52,
                 "tr_id": 261,
@@ -4952,7 +4952,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Intimidate",
-                "location": "Viridian City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -5148,7 +5148,7 @@ backup_data = {
                 "spriteId": 245,
                 "orientation": 0
             },
-            "Lvl 56 Leader Clair |Saffron City| ":
+            "Lvl 56 Leader Clair2 ":
             {
                 "level": 56,
                 "tr_id": 719,
@@ -5176,7 +5176,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -5681,7 +5681,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 1
             },
-            "Lvl 39 Leader Chuck |Cianwood City| ":
+            "Lvl 39 Leader Chuck ":
             {
                 "level": 39,
                 "tr_id": 34,
@@ -5709,11 +5709,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Speed Boost",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 64 Sinnoh Leader Maylene |Route 34| ":
+            "Lvl 64 Sinnoh Leader Maylene ":
             {
                 "level": 64,
                 "tr_id": 417,
@@ -5741,7 +5741,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Speed Boost",
-                "location": "Route 34",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -6039,7 +6039,7 @@ backup_data = {
                 "spriteId": 184,
                 "orientation": 3
             },
-            "Lvl 55 Hall Matron Argenta |Goldenrod Tunnel| ":
+            "Lvl 55 Hall Matron Argenta ":
             {
                 "level": 55,
                 "tr_id": 170,
@@ -6067,11 +6067,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Thick Fat",
-                "location": "Goldenrod Tunnel",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Team Rocket Grunt6 ":
+            "Lvl 54 Team Rocket Grunt11 ":
             {
                 "level": 54,
                 "tr_id": 227,
@@ -6263,7 +6263,7 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 1
             },
-            "Lvl 60 Leader Clair |Saffron City| ":
+            "Lvl 60 Leader Clair2 ":
             {
                 "level": 60,
                 "tr_id": 719,
@@ -6291,7 +6291,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Thick Fat",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -6327,7 +6327,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Leader Clair ":
+            "Lvl 60 Leader Clair3 ":
             {
                 "level": 60,
                 "tr_id": 734,
@@ -6360,7 +6360,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Rotom":
+        "Rotom-Wash":
         {
             "Lvl 62 Leader AJ |SLOWPOKE Well| ":
             {
@@ -6393,134 +6393,6 @@ backup_data = {
                 "location": "SLOWPOKE Well",
                 "spriteId": 174,
                 "orientation": 1
-            },
-            "Lvl 34 Leader Morty |Ecruteak City| ":
-            {
-                "level": 34,
-                "tr_id": 31,
-                "ai": 15,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "1",
-                "item": "Lum Berry",
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "nature": "Docile",
-                "moves":
-                [
-                    "Ominous Wind",
-                    "Flamethrower",
-                    "Signal Beam",
-                    "Volt Switch"
-                ],
-                "sub_index": 1,
-                "ability": "Levitate",
-                "location": "Ecruteak City",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 64 Sinnoh Leader Volkner ":
-            {
-                "level": 64,
-                "tr_id": 168,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "5",
-                "item": "Rose Incense",
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "nature": "Quiet",
-                "moves":
-                [
-                    "Volt Switch",
-                    "HP Water",
-                    "Shadow Ball",
-                    "Leaf Storm"
-                ],
-                "sub_index": 1,
-                "ability": "Levitate",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 64 Sinnoh Elite Flint ":
-            {
-                "level": 64,
-                "tr_id": 169,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "1",
-                "item": "Wise Glasses",
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "nature": "Careful",
-                "moves":
-                [
-                    "Volt Switch",
-                    "Overheat",
-                    "Shadow Ball",
-                    "HP Grass"
-                ],
-                "sub_index": 1,
-                "ability": "Levitate",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 54 Team Rocket Grunt6 ":
-            {
-                "level": 54,
-                "tr_id": 227,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "1",
-                "item": "Lum Berry",
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "nature": "Mild",
-                "moves":
-                [
-                    "Thunderbolt",
-                    "Ominous Wind",
-                    "Overheat",
-                    "HP Grass"
-                ],
-                "sub_index": 0,
-                "ability": "Levitate",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
             }
         },
         "Crobat":
@@ -6589,7 +6461,7 @@ backup_data = {
                 "spriteId": 141,
                 "orientation": 3
             },
-            "Lvl 63 Pkmn Trainer Marley |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Marley ":
             {
                 "level": 63,
                 "tr_id": 166,
@@ -6617,7 +6489,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Inner Focus",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -6653,7 +6525,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 2
             },
-            "Lvl 48 Team Rocket Grunt5 ":
+            "Lvl 48 Team Rocket Grunt7 ":
             {
                 "level": 48,
                 "tr_id": 222,
@@ -6749,7 +6621,7 @@ backup_data = {
                 "spriteId": 116,
                 "orientation": 2
             },
-            "Lvl 47 Leader Janine |Fuchsia City| ":
+            "Lvl 47 Leader Janine ":
             {
                 "level": 47,
                 "tr_id": 257,
@@ -6777,11 +6649,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Fuchsia City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver |Burned Tower| ":
+            "Lvl 32 Rival Silver4 ":
             {
                 "level": 32,
                 "tr_id": 263,
@@ -6809,11 +6681,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Inner Focus",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver2 |Burned Tower| ":
+            "Lvl 32 Rival Silver8 ":
             {
                 "level": 32,
                 "tr_id": 267,
@@ -6841,11 +6713,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Inner Focus",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Rival Silver2 |Victory Road| ":
+            "Lvl 65 Rival Silver9 ":
             {
                 "level": 65,
                 "tr_id": 268,
@@ -6873,11 +6745,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Shadow Tag",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver3 |Burned Tower| ":
+            "Lvl 32 Rival Silver11 ":
             {
                 "level": 32,
                 "tr_id": 270,
@@ -6905,11 +6777,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Inner Focus",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver |Goldenrod City| ":
+            "Lvl 55 Rival Silver12 ":
             {
                 "level": 55,
                 "tr_id": 271,
@@ -6937,11 +6809,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Inner Focus",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver2 |Goldenrod City| ":
+            "Lvl 55 Rival Silver17 ":
             {
                 "level": 55,
                 "tr_id": 288,
@@ -6969,11 +6841,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Inner Focus",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver3 |Goldenrod City| ":
+            "Lvl 55 Rival Silver18 ":
             {
                 "level": 55,
                 "tr_id": 289,
@@ -7001,7 +6873,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Inner Focus",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -7037,7 +6909,7 @@ backup_data = {
                 "spriteId": 127,
                 "orientation": 1
             },
-            "Lvl 58 Rival Silver |Pokémon League| ":
+            "Lvl 58 Rival Silver19 ":
             {
                 "level": 58,
                 "tr_id": 489,
@@ -7065,11 +6937,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 58 Rival Silver2 |Pokémon League| ":
+            "Lvl 58 Rival Silver20 ":
             {
                 "level": 58,
                 "tr_id": 490,
@@ -7097,7 +6969,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -7197,7 +7069,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Koga |Pokémon League| ":
+            "Lvl 100 Elite Four Koga ":
             {
                 "level": 100,
                 "tr_id": 703,
@@ -7225,11 +7097,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Inner Focus",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Executive Proton ":
+            "Lvl 56 Executive Proton2 ":
             {
                 "level": 56,
                 "tr_id": 706,
@@ -7293,7 +7165,7 @@ backup_data = {
                 "spriteId": 106,
                 "orientation": 2
             },
-            "Lvl 52 Leader Janine |Saffron City| ":
+            "Lvl 52 Leader Janine2 ":
             {
                 "level": 52,
                 "tr_id": 724,
@@ -7321,11 +7193,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Inner Focus",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 58 Rival Silver4 ":
+            "Lvl 58 Rival Silver21 ":
             {
                 "level": 58,
                 "tr_id": 735,
@@ -7357,7 +7229,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 58 Rival Silver5 ":
+            "Lvl 58 Rival Silver22 ":
             {
                 "level": 58,
                 "tr_id": 736,
@@ -7389,7 +7261,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 58 Rival Silver6 ":
+            "Lvl 58 Rival Silver23 ":
             {
                 "level": 58,
                 "tr_id": 737,
@@ -7657,7 +7529,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Super Nerd Waldo |Seafoam Islands| ":
+            "Lvl 53 Super Nerd Waldo ":
             {
                 "level": 53,
                 "tr_id": 690,
@@ -7685,7 +7557,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Solid Rock",
-                "location": "Seafoam Islands",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -7756,7 +7628,7 @@ backup_data = {
                 "spriteId": 178,
                 "orientation": 0
             },
-            "Lvl 24 Team Rocket Grunt7 ":
+            "Lvl 24 Team Rocket Grunt12 ":
             {
                 "level": 24,
                 "tr_id": 228,
@@ -8332,7 +8204,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 22 Executive Proton |SLOWPOKE Well| ":
+            "Lvl 22 Executive Proton ":
             {
                 "level": 22,
                 "tr_id": 486,
@@ -8360,7 +8232,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "location": "SLOWPOKE Well",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -8463,7 +8335,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Leader Blaine |Seafoam Islands| ":
+            "Lvl 54 Leader Blaine ":
             {
                 "level": 54,
                 "tr_id": 259,
@@ -8491,7 +8363,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Flame Body",
-                "location": "Seafoam Islands",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -8879,7 +8751,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Scientist Linden |Seafoam Islands| ":
+            "Lvl 50 Scientist Linden ":
             {
                 "level": 50,
                 "tr_id": 693,
@@ -8907,7 +8779,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Flame Body",
-                "location": "Seafoam Islands",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -9042,7 +8914,7 @@ backup_data = {
                 "spriteId": 173,
                 "orientation": 0
             },
-            "Lvl 44 Leader Janine |Fuchsia City| ":
+            "Lvl 44 Leader Janine ":
             {
                 "level": 44,
                 "tr_id": 257,
@@ -9070,7 +8942,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "location": "Fuchsia City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -9266,7 +9138,7 @@ backup_data = {
                 "spriteId": 179,
                 "orientation": 2
             },
-            "Lvl 31 Team Rocket Grunt |Ecruteak City| ":
+            "Lvl 31 Team Rocket Grunt13 ":
             {
                 "level": 31,
                 "tr_id": 601,
@@ -9294,7 +9166,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -9394,7 +9266,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Janine |Saffron City| ":
+            "Lvl 56 Leader Janine2 ":
             {
                 "level": 56,
                 "tr_id": 724,
@@ -9422,7 +9294,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -9557,7 +9429,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Team Rocket Grunt |Team Rocket HQ| ":
+            "Lvl 47 Team Rocket Grunt2 ":
             {
                 "level": 47,
                 "tr_id": 171,
@@ -9585,7 +9457,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Shell Armor",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -9653,7 +9525,7 @@ backup_data = {
                 "spriteId": 177,
                 "orientation": 2
             },
-            "Lvl 57 Leader Blaine |Saffron City| ":
+            "Lvl 57 Leader Blaine2 ":
             {
                 "level": 57,
                 "tr_id": 726,
@@ -9681,7 +9553,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Solid Rock",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -10046,7 +9918,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Erika |Celadon City| ":
+            "Lvl 56 Leader Erika ":
             {
                 "level": 56,
                 "tr_id": 256,
@@ -10074,7 +9946,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Chlorophyll",
-                "location": "Celadon City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -10174,7 +10046,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Erika |Saffron City| ":
+            "Lvl 56 Leader Erika2 ":
             {
                 "level": 56,
                 "tr_id": 723,
@@ -10202,7 +10074,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Chlorophyll",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -10337,7 +10209,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 3
             },
-            "Lvl 54 Team Rocket Grunt2 ":
+            "Lvl 54 Team Rocket Grunt3 ":
             {
                 "level": 54,
                 "tr_id": 193,
@@ -10564,7 +10436,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 3
             },
-            "Lvl 56 Leader Erika |Celadon City| ":
+            "Lvl 56 Leader Erika ":
             {
                 "level": 56,
                 "tr_id": 256,
@@ -10592,7 +10464,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Chlorophyll",
-                "location": "Celadon City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -10788,7 +10660,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Erika |Saffron City| ":
+            "Lvl 56 Leader Erika2 ":
             {
                 "level": 56,
                 "tr_id": 723,
@@ -10816,7 +10688,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Chlorophyll",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -10951,7 +10823,7 @@ backup_data = {
                 "spriteId": 145,
                 "orientation": 2
             },
-            "Lvl 52 Unova Leader Lt. Surge |Saffron City| ":
+            "Lvl 52 Unova Leader Lt. Surge ":
             {
                 "level": 52,
                 "tr_id": 722,
@@ -10979,7 +10851,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Intimidate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -11725,7 +11597,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Misty |Saffron City| ":
+            "Lvl 56 Leader Misty ":
             {
                 "level": 56,
                 "tr_id": 721,
@@ -11753,14 +11625,14 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Unaware",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Swinub":
         {
-            "Lvl 10 Sinnoh Leader Candice |Route 31| ":
+            "Lvl 10 Sinnoh Leader Candice ":
             {
                 "level": 10,
                 "tr_id": 19,
@@ -11788,14 +11660,14 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Thick Fat",
-                "location": "Route 31",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Snover":
         {
-            "Lvl 10 Sinnoh Leader Candice |Route 31| ":
+            "Lvl 10 Sinnoh Leader Candice ":
             {
                 "level": 10,
                 "tr_id": 19,
@@ -11823,14 +11695,14 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Ice Body",
-                "location": "Route 31",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Staravia":
         {
-            "Lvl 16 Leader Falkner |Violet City| ":
+            "Lvl 16 Leader Falkner ":
             {
                 "level": 16,
                 "tr_id": 20,
@@ -11858,7 +11730,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
-                "location": "Violet City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -11897,7 +11769,7 @@ backup_data = {
         },
         "Gligar":
         {
-            "Lvl 16 Leader Falkner |Violet City| ":
+            "Lvl 16 Leader Falkner ":
             {
                 "level": 16,
                 "tr_id": 20,
@@ -11925,7 +11797,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Poison Heal",
-                "location": "Violet City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -11996,7 +11868,7 @@ backup_data = {
         },
         "Prinplup":
         {
-            "Lvl 16 Leader Falkner |Violet City| ":
+            "Lvl 16 Leader Falkner ":
             {
                 "level": 16,
                 "tr_id": 20,
@@ -12024,7 +11896,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Torrent",
-                "location": "Violet City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -12063,7 +11935,7 @@ backup_data = {
         },
         "Murkrow":
         {
-            "Lvl 16 Leader Falkner |Violet City| ":
+            "Lvl 16 Leader Falkner ":
             {
                 "level": 16,
                 "tr_id": 20,
@@ -12091,14 +11963,14 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Super Luck",
-                "location": "Violet City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Pidgeotto":
         {
-            "Lvl 17 Leader Falkner |Violet City| ":
+            "Lvl 17 Leader Falkner ":
             {
                 "level": 17,
                 "tr_id": 20,
@@ -12126,7 +11998,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Quick Feet",
-                "location": "Violet City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -12456,7 +12328,7 @@ backup_data = {
                 "spriteId": 126,
                 "orientation": 0
             },
-            "Lvl 55 Leader Bugsy |Saffron City| ":
+            "Lvl 55 Leader Bugsy ":
             {
                 "level": 55,
                 "tr_id": 713,
@@ -12484,7 +12356,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Hyper Cutter",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -12625,7 +12497,7 @@ backup_data = {
                 "spriteId": 140,
                 "orientation": 3
             },
-            "Lvl 100 Elite Four Koga |Pokémon League| ":
+            "Lvl 100 Elite Four Koga ":
             {
                 "level": 100,
                 "tr_id": 703,
@@ -12653,11 +12525,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Guts",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Leader Bugsy |Saffron City| ":
+            "Lvl 54 Leader Bugsy ":
             {
                 "level": 54,
                 "tr_id": 713,
@@ -12685,7 +12557,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Skill Link",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -12858,7 +12730,7 @@ backup_data = {
                 "spriteId": 184,
                 "orientation": 0
             },
-            "Lvl 52 Leader Clair |Saffron City| ":
+            "Lvl 52 Leader Clair2 ":
             {
                 "level": 52,
                 "tr_id": 719,
@@ -12886,11 +12758,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Thick Fat",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Leader Clair ":
+            "Lvl 52 Leader Clair3 ":
             {
                 "level": 52,
                 "tr_id": 734,
@@ -13254,7 +13126,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Leader Chuck |Saffron City| ":
+            "Lvl 54 Leader Chuck2 ":
             {
                 "level": 54,
                 "tr_id": 718,
@@ -13282,7 +13154,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Poison Heal",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -13353,7 +13225,7 @@ backup_data = {
                 "spriteId": 125,
                 "orientation": 0
             },
-            "Lvl 52 Leader Erika |Celadon City| ":
+            "Lvl 52 Leader Erika ":
             {
                 "level": 52,
                 "tr_id": 256,
@@ -13381,7 +13253,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Thick Fat",
-                "location": "Celadon City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -14098,7 +13970,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Leader Brock |Saffron City| ":
+            "Lvl 61 Leader Brock ":
             {
                 "level": 61,
                 "tr_id": 720,
@@ -14126,7 +13998,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Rock Head",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -14331,7 +14203,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer Marley |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Marley ":
             {
                 "level": 63,
                 "tr_id": 166,
@@ -14359,7 +14231,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Speed Boost",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -14494,7 +14366,7 @@ backup_data = {
                 "spriteId": 139,
                 "orientation": 3
             },
-            "Lvl 54 Leader Whitney |Saffron City| ":
+            "Lvl 54 Leader Whitney2 ":
             {
                 "level": 54,
                 "tr_id": 714,
@@ -14522,7 +14394,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Unaware",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -14660,7 +14532,7 @@ backup_data = {
                 "spriteId": 138,
                 "orientation": 1
             },
-            "Lvl 64 Sinnoh Leader Maylene |Route 34| ":
+            "Lvl 64 Sinnoh Leader Maylene ":
             {
                 "level": 64,
                 "tr_id": 417,
@@ -14688,7 +14560,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
-                "location": "Route 34",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -15178,7 +15050,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Will2 |Pokémon League| ":
+            "Lvl 100 Elite Four Will2 ":
             {
                 "level": 100,
                 "tr_id": 702,
@@ -15206,11 +15078,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Clear Body",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Leader Jasmine |Saffron City| ":
+            "Lvl 52 Leader Jasmine2 ":
             {
                 "level": 52,
                 "tr_id": 717,
@@ -15238,7 +15110,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Clear Body",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -15341,7 +15213,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 1
             },
-            "Lvl 69 Elite Four Karen |Pokémon League| ":
+            "Lvl 69 Elite Four Karen ":
             {
                 "level": 69,
                 "tr_id": 246,
@@ -15369,11 +15241,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Intimidate",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Executive Archer |Radio Tower| ":
+            "Lvl 56 Executive Archer ":
             {
                 "level": 56,
                 "tr_id": 485,
@@ -15401,7 +15273,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Intimidate",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -15437,7 +15309,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 2
             },
-            "Lvl 100 Rocket Boss Giovanni |Tohjo Falls| ":
+            "Lvl 100 Rocket Boss Giovanni2 ":
             {
                 "level": 100,
                 "tr_id": 700,
@@ -15465,11 +15337,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
-                "location": "Tohjo Falls",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 70 Leader Blue |Saffron City| ":
+            "Lvl 70 Leader Blue2 ":
             {
                 "level": 70,
                 "tr_id": 727,
@@ -15497,7 +15369,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Battle Armor",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -15536,7 +15408,7 @@ backup_data = {
                 "spriteId": 121,
                 "orientation": 3
             },
-            "Lvl 35 Leader Morty |Ecruteak City| ":
+            "Lvl 35 Leader Morty ":
             {
                 "level": 35,
                 "tr_id": 31,
@@ -15564,7 +15436,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Levitate",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -15632,7 +15504,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 1
             },
-            "Lvl 54 Team Rocket Grunt2 ":
+            "Lvl 54 Team Rocket Grunt3 ":
             {
                 "level": 54,
                 "tr_id": 193,
@@ -15664,7 +15536,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver |Goldenrod City| ":
+            "Lvl 55 Rival Silver12 ":
             {
                 "level": 55,
                 "tr_id": 271,
@@ -15692,11 +15564,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Rival Silver |Mt. Moon| ":
+            "Lvl 48 Rival Silver14 ":
             {
                 "level": 48,
                 "tr_id": 285,
@@ -15724,11 +15596,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Rival Silver2 |Mt. Moon| ":
+            "Lvl 48 Rival Silver15 ":
             {
                 "level": 48,
                 "tr_id": 286,
@@ -15756,11 +15628,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Rival Silver3 |Mt. Moon| ":
+            "Lvl 48 Rival Silver16 ":
             {
                 "level": 48,
                 "tr_id": 287,
@@ -15788,11 +15660,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver2 |Goldenrod City| ":
+            "Lvl 55 Rival Silver17 ":
             {
                 "level": 55,
                 "tr_id": 288,
@@ -15820,11 +15692,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver3 |Goldenrod City| ":
+            "Lvl 55 Rival Silver18 ":
             {
                 "level": 55,
                 "tr_id": 289,
@@ -15852,7 +15724,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -15888,7 +15760,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Executive Archer |Radio Tower| ":
+            "Lvl 56 Executive Archer ":
             {
                 "level": 56,
                 "tr_id": 485,
@@ -15916,11 +15788,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Rival Silver |Pokémon League| ":
+            "Lvl 56 Rival Silver19 ":
             {
                 "level": 56,
                 "tr_id": 489,
@@ -15948,11 +15820,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Rival Silver2 |Pokémon League| ":
+            "Lvl 56 Rival Silver20 ":
             {
                 "level": 56,
                 "tr_id": 490,
@@ -15980,7 +15852,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -16016,7 +15888,7 @@ backup_data = {
                 "spriteId": 126,
                 "orientation": 2
             },
-            "Lvl 38 Mystery Man Eusine |Cianwood City| ":
+            "Lvl 38 Mystery Man Eusine ":
             {
                 "level": 38,
                 "tr_id": 498,
@@ -16044,7 +15916,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -16112,7 +15984,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Rocket Boss Giovanni |Tohjo Falls| ":
+            "Lvl 100 Rocket Boss Giovanni2 ":
             {
                 "level": 100,
                 "tr_id": 700,
@@ -16140,7 +16012,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "location": "Tohjo Falls",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -16176,7 +16048,7 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 2
             },
-            "Lvl 57 Leader Morty |Saffron City| ":
+            "Lvl 57 Leader Morty2 ":
             {
                 "level": 57,
                 "tr_id": 715,
@@ -16204,11 +16076,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Levitate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 57* Leader Morty |Saffron City| ":
+            "Lvl 57* Leader Morty2 ":
             {
                 "level": 57,
                 "tr_id": 715,
@@ -16236,11 +16108,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Levitate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Rival Silver4 ":
+            "Lvl 56 Rival Silver21 ":
             {
                 "level": 56,
                 "tr_id": 735,
@@ -16272,7 +16144,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Rival Silver5 ":
+            "Lvl 56 Rival Silver22 ":
             {
                 "level": 56,
                 "tr_id": 736,
@@ -16304,7 +16176,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Rival Silver6 ":
+            "Lvl 56 Rival Silver23 ":
             {
                 "level": 56,
                 "tr_id": 737,
@@ -16831,7 +16703,7 @@ backup_data = {
         },
         "Lopunny":
         {
-            "Lvl 28 Leader Whitney |Goldenrod City| ":
+            "Lvl 28 Leader Whitney ":
             {
                 "level": 28,
                 "tr_id": 30,
@@ -16859,7 +16731,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Scrappy",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -16930,7 +16802,7 @@ backup_data = {
         },
         "Corsola":
         {
-            "Lvl 28 Leader Whitney |Goldenrod City| ":
+            "Lvl 28 Leader Whitney ":
             {
                 "level": 28,
                 "tr_id": 30,
@@ -16958,7 +16830,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Water Absorb",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -17125,7 +16997,7 @@ backup_data = {
         },
         "Girafarig":
         {
-            "Lvl 28 Leader Whitney |Goldenrod City| ":
+            "Lvl 28 Leader Whitney ":
             {
                 "level": 28,
                 "tr_id": 30,
@@ -17153,7 +17025,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Synchronize",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -17285,7 +17157,7 @@ backup_data = {
                 "spriteId": 143,
                 "orientation": 2
             },
-            "Lvl 52 Leader Whitney |Saffron City| ":
+            "Lvl 52 Leader Whitney2 ":
             {
                 "level": 52,
                 "tr_id": 714,
@@ -17313,14 +17185,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Synchronize",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Ambipom":
         {
-            "Lvl 28 Leader Whitney |Goldenrod City| ":
+            "Lvl 28 Leader Whitney ":
             {
                 "level": 28,
                 "tr_id": 30,
@@ -17348,7 +17220,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Technician",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -17483,7 +17355,7 @@ backup_data = {
         },
         "Togekiss":
         {
-            "Lvl 28 Leader Whitney |Goldenrod City| ":
+            "Lvl 28 Leader Whitney ":
             {
                 "level": 28,
                 "tr_id": 30,
@@ -17511,11 +17383,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Super Luck",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Sinnoh Champion Cynthia |Mystery Zone| ":
+            "Lvl 65 Sinnoh Champion Cynthia ":
             {
                 "level": 65,
                 "tr_id": 174,
@@ -17543,11 +17415,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Serene Grace",
-                "location": "Mystery Zone",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Team Rocket Grunt3 ":
+            "Lvl 54 Team Rocket Grunt4 ":
             {
                 "level": 54,
                 "tr_id": 199,
@@ -17742,7 +17614,7 @@ backup_data = {
         },
         "Miltank":
         {
-            "Lvl 29 Leader Whitney |Goldenrod City| ":
+            "Lvl 29 Leader Whitney ":
             {
                 "level": 29,
                 "tr_id": 30,
@@ -17770,7 +17642,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Scrappy",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -17806,7 +17678,7 @@ backup_data = {
                 "spriteId": 141,
                 "orientation": 1
             },
-            "Lvl 58 Leader Whitney |Saffron City| ":
+            "Lvl 58 Leader Whitney2 ":
             {
                 "level": 58,
                 "tr_id": 714,
@@ -17834,14 +17706,14 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Scrappy",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Drifblim":
         {
-            "Lvl 34 Leader Morty |Ecruteak City| ":
+            "Lvl 34 Leader Morty ":
             {
                 "level": 34,
                 "tr_id": 31,
@@ -17869,11 +17741,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Unburden",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer Cheryl |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Cheryl ":
             {
                 "level": 63,
                 "tr_id": 165,
@@ -17901,7 +17773,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Marvel Scale",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -17969,7 +17841,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Leader Morty |Saffron City| ":
+            "Lvl 52 Leader Morty2 ":
             {
                 "level": 52,
                 "tr_id": 715,
@@ -17997,14 +17869,113 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Unburden",
-                "location": "Saffron City",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Rotom-Heat":
+        {
+            "Lvl 34 Leader Morty ":
+            {
+                "level": 34,
+                "tr_id": 31,
+                "ai": 15,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "1",
+                "item": "Lum Berry",
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Docile",
+                "moves":
+                [
+                    "Ominous Wind",
+                    "Flamethrower",
+                    "Signal Beam",
+                    "Volt Switch"
+                ],
+                "sub_index": 1,
+                "ability": "Levitate",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 64 Sinnoh Elite Flint ":
+            {
+                "level": 64,
+                "tr_id": 169,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "1",
+                "item": "Wise Glasses",
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Careful",
+                "moves":
+                [
+                    "Volt Switch",
+                    "Overheat",
+                    "Shadow Ball",
+                    "HP Grass"
+                ],
+                "sub_index": 1,
+                "ability": "Levitate",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 54 Team Rocket Grunt11 ":
+            {
+                "level": 54,
+                "tr_id": 227,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "1",
+                "item": "Lum Berry",
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Mild",
+                "moves":
+                [
+                    "Thunderbolt",
+                    "Ominous Wind",
+                    "Overheat",
+                    "HP Grass"
+                ],
+                "sub_index": 0,
+                "ability": "Levitate",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Ninetales":
         {
-            "Lvl 34 Leader Morty |Ecruteak City| ":
+            "Lvl 34 Leader Morty ":
             {
                 "level": 34,
                 "tr_id": 31,
@@ -18032,7 +18003,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Flash Fire",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -18164,7 +18135,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Scientist Daniel |Seafoam Islands| ":
+            "Lvl 50 Scientist Daniel ":
             {
                 "level": 50,
                 "tr_id": 694,
@@ -18192,7 +18163,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Flash Fire",
-                "location": "Seafoam Islands",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -18231,7 +18202,7 @@ backup_data = {
         },
         "Hypno":
         {
-            "Lvl 34 Leader Morty |Ecruteak City| ":
+            "Lvl 34 Leader Morty ":
             {
                 "level": 34,
                 "tr_id": 31,
@@ -18259,7 +18230,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -18455,7 +18426,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Executive Proton ":
+            "Lvl 56 Executive Proton2 ":
             {
                 "level": 56,
                 "tr_id": 706,
@@ -18490,7 +18461,7 @@ backup_data = {
         },
         "Mamoswine":
         {
-            "Lvl 50 Leader Pryce |Mahogany Town| ":
+            "Lvl 50 Leader Pryce ":
             {
                 "level": 50,
                 "tr_id": 32,
@@ -18518,7 +18489,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Snow Cloak",
-                "location": "Mahogany Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -18586,7 +18557,7 @@ backup_data = {
                 "spriteId": 126,
                 "orientation": 2
             },
-            "Lvl 60 Leader Pryce |Saffron City| ":
+            "Lvl 60 Leader Pryce2 ":
             {
                 "level": 60,
                 "tr_id": 716,
@@ -18614,14 +18585,14 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Snow Cloak",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Starmie":
         {
-            "Lvl 49 Leader Pryce |Mahogany Town| ":
+            "Lvl 49 Leader Pryce ":
             {
                 "level": 49,
                 "tr_id": 32,
@@ -18649,7 +18620,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Rain Dish",
-                "location": "Mahogany Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -18749,7 +18720,7 @@ backup_data = {
                 "spriteId": 142,
                 "orientation": 3
             },
-            "Lvl 48 Team Rocket Grunt5 ":
+            "Lvl 48 Team Rocket Grunt7 ":
             {
                 "level": 48,
                 "tr_id": 222,
@@ -19197,7 +19168,7 @@ backup_data = {
                 "spriteId": 177,
                 "orientation": 1
             },
-            "Lvl 56 Executive Archer |Radio Tower| ":
+            "Lvl 56 Executive Archer ":
             {
                 "level": 56,
                 "tr_id": 485,
@@ -19225,7 +19196,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Rain Dish",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -19261,7 +19232,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Leader Misty |Saffron City| ":
+            "Lvl 60 Leader Misty ":
             {
                 "level": 60,
                 "tr_id": 721,
@@ -19289,14 +19260,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Natural Cure",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Weavile-S":
         {
-            "Lvl 49 Leader Pryce |Mahogany Town| ":
+            "Lvl 49 Leader Pryce ":
             {
                 "level": 49,
                 "tr_id": 32,
@@ -19324,7 +19295,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Adaptability",
-                "location": "Mahogany Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -19360,7 +19331,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer Marley |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Marley ":
             {
                 "level": 63,
                 "tr_id": 166,
@@ -19388,7 +19359,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Technician",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -19424,7 +19395,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 0
             },
-            "Lvl 65 Rival Silver2 |Victory Road| ":
+            "Lvl 65 Rival Silver9 ":
             {
                 "level": 65,
                 "tr_id": 268,
@@ -19452,11 +19423,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Adaptability",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver |Goldenrod City| ":
+            "Lvl 55 Rival Silver12 ":
             {
                 "level": 55,
                 "tr_id": 271,
@@ -19484,11 +19455,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Technician",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver2 |Goldenrod City| ":
+            "Lvl 55 Rival Silver17 ":
             {
                 "level": 55,
                 "tr_id": 288,
@@ -19516,11 +19487,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Technician",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver3 |Goldenrod City| ":
+            "Lvl 55 Rival Silver18 ":
             {
                 "level": 55,
                 "tr_id": 289,
@@ -19548,7 +19519,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Technician",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -19683,7 +19654,7 @@ backup_data = {
         },
         "Abomasnow":
         {
-            "Lvl 49 Leader Pryce |Mahogany Town| ":
+            "Lvl 49 Leader Pryce ":
             {
                 "level": 49,
                 "tr_id": 32,
@@ -19711,7 +19682,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Ice Body",
-                "location": "Mahogany Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -19779,7 +19750,7 @@ backup_data = {
                 "spriteId": 177,
                 "orientation": 1
             },
-            "Lvl 56 Leader Pryce |Saffron City| ":
+            "Lvl 56 Leader Pryce2 ":
             {
                 "level": 56,
                 "tr_id": 716,
@@ -19807,14 +19778,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Ice Body",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Froslass":
         {
-            "Lvl 49 Leader Pryce |Mahogany Town| ":
+            "Lvl 49 Leader Pryce ":
             {
                 "level": 49,
                 "tr_id": 32,
@@ -19842,7 +19813,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Levitate",
-                "location": "Mahogany Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -19942,7 +19913,7 @@ backup_data = {
                 "spriteId": 145,
                 "orientation": 0
             },
-            "Lvl 52 Leader Pryce |Saffron City| ":
+            "Lvl 52 Leader Pryce2 ":
             {
                 "level": 52,
                 "tr_id": 716,
@@ -19970,14 +19941,14 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Lapras-S":
         {
-            "Lvl 49 Leader Pryce |Mahogany Town| ":
+            "Lvl 49 Leader Pryce ":
             {
                 "level": 49,
                 "tr_id": 32,
@@ -20005,7 +19976,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Ice Body",
-                "location": "Mahogany Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -20044,7 +20015,7 @@ backup_data = {
         },
         "Bronzong":
         {
-            "Lvl 43 Leader Jasmine |Olivine City| ":
+            "Lvl 43 Leader Jasmine ":
             {
                 "level": 43,
                 "tr_id": 33,
@@ -20072,7 +20043,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Olivine City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -20204,7 +20175,7 @@ backup_data = {
                 "spriteId": 121,
                 "orientation": 3
             },
-            "Lvl 50 Leader Jasmine |Saffron City| ":
+            "Lvl 50 Leader Jasmine2 ":
             {
                 "level": 50,
                 "tr_id": 717,
@@ -20232,14 +20203,14 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Scizor":
         {
-            "Lvl 43 Leader Jasmine |Olivine City| ":
+            "Lvl 43 Leader Jasmine ":
             {
                 "level": 43,
                 "tr_id": 33,
@@ -20267,7 +20238,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Filter",
-                "location": "Olivine City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -20431,7 +20402,7 @@ backup_data = {
                 "spriteId": 106,
                 "orientation": 2
             },
-            "Lvl 56 Leader Bugsy |Saffron City| ":
+            "Lvl 56 Leader Bugsy ":
             {
                 "level": 56,
                 "tr_id": 713,
@@ -20459,14 +20430,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Technician",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Magnezone":
         {
-            "Lvl 43 Leader Jasmine |Olivine City| ":
+            "Lvl 43 Leader Jasmine ":
             {
                 "level": 43,
                 "tr_id": 33,
@@ -20494,11 +20465,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Olivine City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver |Goldenrod City| ":
+            "Lvl 55 Rival Silver12 ":
             {
                 "level": 55,
                 "tr_id": 271,
@@ -20526,11 +20497,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver2 |Goldenrod City| ":
+            "Lvl 55 Rival Silver17 ":
             {
                 "level": 55,
                 "tr_id": 288,
@@ -20558,11 +20529,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver3 |Goldenrod City| ":
+            "Lvl 55 Rival Silver18 ":
             {
                 "level": 55,
                 "tr_id": 289,
@@ -20590,7 +20561,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -20722,7 +20693,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Jasmine |Saffron City| ":
+            "Lvl 56 Leader Jasmine2 ":
             {
                 "level": 56,
                 "tr_id": 717,
@@ -20750,11 +20721,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Magnet Pull",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Unova Leader Lt. Surge |Saffron City| ":
+            "Lvl 52 Unova Leader Lt. Surge ":
             {
                 "level": 52,
                 "tr_id": 722,
@@ -20782,14 +20753,14 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Empoleon":
         {
-            "Lvl 43 Leader Jasmine |Olivine City| ":
+            "Lvl 43 Leader Jasmine ":
             {
                 "level": 43,
                 "tr_id": 33,
@@ -20817,7 +20788,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Motor Drive",
-                "location": "Olivine City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -20917,7 +20888,7 @@ backup_data = {
                 "spriteId": 173,
                 "orientation": 1
             },
-            "Lvl 48 Team Rocket Grunt6 |Team Rocket HQ| ":
+            "Lvl 48 Team Rocket Grunt10 ":
             {
                 "level": 48,
                 "tr_id": 225,
@@ -20945,7 +20916,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Motor Drive",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -20981,7 +20952,7 @@ backup_data = {
                 "spriteId": 116,
                 "orientation": 2
             },
-            "Lvl 64 Sinnoh Leader Maylene |Route 34| ":
+            "Lvl 64 Sinnoh Leader Maylene ":
             {
                 "level": 64,
                 "tr_id": 417,
@@ -21009,7 +20980,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Torrent",
-                "location": "Route 34",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -21045,7 +21016,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Leader Jasmine |Saffron City| ":
+            "Lvl 52 Leader Jasmine2 ":
             {
                 "level": 52,
                 "tr_id": 717,
@@ -21073,14 +21044,14 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Motor Drive",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Bastiodon":
         {
-            "Lvl 43 Leader Jasmine |Olivine City| ":
+            "Lvl 43 Leader Jasmine ":
             {
                 "level": 43,
                 "tr_id": 33,
@@ -21108,7 +21079,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Solid Rock",
-                "location": "Olivine City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -21179,7 +21150,7 @@ backup_data = {
         },
         "Steelix":
         {
-            "Lvl 44 Leader Jasmine |Olivine City| ":
+            "Lvl 44 Leader Jasmine ":
             {
                 "level": 44,
                 "tr_id": 33,
@@ -21207,7 +21178,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Rock Head",
-                "location": "Olivine City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -21499,7 +21470,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Bruno |Pokémon League| ":
+            "Lvl 100 Elite Four Bruno ":
             {
                 "level": 100,
                 "tr_id": 704,
@@ -21527,11 +21498,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Lightningrod",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 62 Leader Jasmine |Saffron City| ":
+            "Lvl 62 Leader Jasmine2 ":
             {
                 "level": 62,
                 "tr_id": 717,
@@ -21559,14 +21530,14 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Lightningrod",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Staraptor":
         {
-            "Lvl 39 Leader Chuck |Cianwood City| ":
+            "Lvl 39 Leader Chuck ":
             {
                 "level": 39,
                 "tr_id": 34,
@@ -21594,7 +21565,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -21694,7 +21665,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Leader Falkner |Saffron City| ":
+            "Lvl 50 Leader Falkner2 ":
             {
                 "level": 50,
                 "tr_id": 712,
@@ -21722,14 +21693,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Dugtrio":
         {
-            "Lvl 39 Leader Chuck |Cianwood City| ":
+            "Lvl 39 Leader Chuck ":
             {
                 "level": 39,
                 "tr_id": 34,
@@ -21757,7 +21728,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Arena Trap",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -21985,7 +21956,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Rocket Boss Giovanni |Tohjo Falls| ":
+            "Lvl 100 Rocket Boss Giovanni2 ":
             {
                 "level": 100,
                 "tr_id": 700,
@@ -22013,14 +21984,14 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Sand Veil",
-                "location": "Tohjo Falls",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Armaldo":
         {
-            "Lvl 39 Leader Chuck |Cianwood City| ":
+            "Lvl 39 Leader Chuck ":
             {
                 "level": 39,
                 "tr_id": 34,
@@ -22048,7 +22019,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Battle Armor",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -22119,7 +22090,7 @@ backup_data = {
         },
         "Electivire":
         {
-            "Lvl 39 Leader Chuck |Cianwood City| ":
+            "Lvl 39 Leader Chuck ":
             {
                 "level": 39,
                 "tr_id": 34,
@@ -22147,7 +22118,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Motor Drive",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -22247,7 +22218,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 0
             },
-            "Lvl 68 Elite Four Will |Pokémon League| ":
+            "Lvl 68 Elite Four Will ":
             {
                 "level": 68,
                 "tr_id": 245,
@@ -22275,11 +22246,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Motor Drive",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Unova Leader Elesa |Vermilion City| ":
+            "Lvl 100 Unova Leader Elesa ":
             {
                 "level": 100,
                 "tr_id": 255,
@@ -22307,7 +22278,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "No Guard",
-                "location": "Vermilion City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -22375,7 +22346,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Will2 |Pokémon League| ":
+            "Lvl 100 Elite Four Will2 ":
             {
                 "level": 100,
                 "tr_id": 702,
@@ -22403,7 +22374,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "No Guard",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -22439,7 +22410,7 @@ backup_data = {
                 "spriteId": 106,
                 "orientation": 2
             },
-            "Lvl 56 Unova Leader Lt. Surge |Saffron City| ":
+            "Lvl 56 Unova Leader Lt. Surge ":
             {
                 "level": 56,
                 "tr_id": 722,
@@ -22467,14 +22438,14 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Motor Drive",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Poliwrath":
         {
-            "Lvl 39 Leader Chuck |Cianwood City| ":
+            "Lvl 39 Leader Chuck ":
             {
                 "level": 39,
                 "tr_id": 34,
@@ -22502,7 +22473,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Water Absorb",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -22570,7 +22541,7 @@ backup_data = {
                 "spriteId": 126,
                 "orientation": 0
             },
-            "Lvl 55 Team Rocket Grunt6 ":
+            "Lvl 55 Team Rocket Grunt11 ":
             {
                 "level": 55,
                 "tr_id": 227,
@@ -22762,7 +22733,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Leader Chuck |Saffron City| ":
+            "Lvl 60 Leader Chuck2 ":
             {
                 "level": 60,
                 "tr_id": 718,
@@ -22790,14 +22761,14 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Water Absorb",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Latios":
         {
-            "Lvl 56 Leader Clair |Blackthorn City| ":
+            "Lvl 56 Leader Clair ":
             {
                 "level": 56,
                 "tr_id": 35,
@@ -22825,14 +22796,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Blackthorn City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Ampharos":
         {
-            "Lvl 56 Leader Clair |Blackthorn City| ":
+            "Lvl 56 Leader Clair ":
             {
                 "level": 56,
                 "tr_id": 35,
@@ -22860,7 +22831,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Volt Absorb",
-                "location": "Blackthorn City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -22928,7 +22899,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Unova Leader Elesa |Vermilion City| ":
+            "Lvl 100 Unova Leader Elesa ":
             {
                 "level": 100,
                 "tr_id": 255,
@@ -22956,7 +22927,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Static",
-                "location": "Vermilion City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -23187,7 +23158,7 @@ backup_data = {
         },
         "Rampardos":
         {
-            "Lvl 56 Leader Clair |Blackthorn City| ":
+            "Lvl 56 Leader Clair ":
             {
                 "level": 56,
                 "tr_id": 35,
@@ -23215,7 +23186,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Rock Head",
-                "location": "Blackthorn City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -23251,7 +23222,7 @@ backup_data = {
                 "spriteId": 184,
                 "orientation": 2
             },
-            "Lvl 57 Leader Brock |Saffron City| ":
+            "Lvl 57 Leader Brock ":
             {
                 "level": 57,
                 "tr_id": 720,
@@ -23279,14 +23250,14 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Rock Head",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Kingdra":
         {
-            "Lvl 57 Leader Clair |Blackthorn City| ":
+            "Lvl 57 Leader Clair ":
             {
                 "level": 57,
                 "tr_id": 35,
@@ -23314,7 +23285,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Sniper",
-                "location": "Blackthorn City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -23414,7 +23385,7 @@ backup_data = {
                 "spriteId": 143,
                 "orientation": 0
             },
-            "Lvl 56 Leader Clair |Saffron City| ":
+            "Lvl 56 Leader Clair2 ":
             {
                 "level": 56,
                 "tr_id": 719,
@@ -23442,11 +23413,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Sniper",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Clair ":
+            "Lvl 56 Leader Clair3 ":
             {
                 "level": 56,
                 "tr_id": 734,
@@ -27249,7 +27220,7 @@ backup_data = {
                 "spriteId": 121,
                 "orientation": 1
             },
-            "Lvl 65 Sinnoh Champion Cynthia |Mystery Zone| ":
+            "Lvl 65 Sinnoh Champion Cynthia ":
             {
                 "level": 65,
                 "tr_id": 174,
@@ -27277,7 +27248,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Adaptability",
-                "location": "Mystery Zone",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -27345,7 +27316,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 1
             },
-            "Lvl 69 Elite Four Karen |Pokémon League| ":
+            "Lvl 69 Elite Four Karen ":
             {
                 "level": 69,
                 "tr_id": 246,
@@ -27373,7 +27344,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Download",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -27409,7 +27380,7 @@ backup_data = {
                 "spriteId": 127,
                 "orientation": 3
             },
-            "Lvl 64 Sinnoh Leader Maylene |Route 34| ":
+            "Lvl 64 Sinnoh Leader Maylene ":
             {
                 "level": 64,
                 "tr_id": 417,
@@ -27437,7 +27408,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Adaptability",
-                "location": "Route 34",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -28387,7 +28358,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 1
             },
-            "Lvl 69 Elite Four Karen |Pokémon League| ":
+            "Lvl 69 Elite Four Karen ":
             {
                 "level": 69,
                 "tr_id": 246,
@@ -28415,7 +28386,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Guts",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -28809,7 +28780,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver |Burned Tower| ":
+            "Lvl 32 Rival Silver4 ":
             {
                 "level": 32,
                 "tr_id": 263,
@@ -28837,11 +28808,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 37 Rival Silver |Victory Road| ":
+            "Lvl 37 Rival Silver5 ":
             {
                 "level": 37,
                 "tr_id": 264,
@@ -28869,11 +28840,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver2 |Burned Tower| ":
+            "Lvl 32 Rival Silver8 ":
             {
                 "level": 32,
                 "tr_id": 267,
@@ -28901,11 +28872,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver3 |Burned Tower| ":
+            "Lvl 32 Rival Silver11 ":
             {
                 "level": 32,
                 "tr_id": 270,
@@ -28933,11 +28904,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 37 Rival Silver3 |Victory Road| ":
+            "Lvl 37 Rival Silver13 ":
             {
                 "level": 37,
                 "tr_id": 272,
@@ -28965,11 +28936,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Rival Silver |Mt. Moon| ":
+            "Lvl 46 Rival Silver14 ":
             {
                 "level": 46,
                 "tr_id": 285,
@@ -28997,11 +28968,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Rival Silver2 |Mt. Moon| ":
+            "Lvl 46 Rival Silver15 ":
             {
                 "level": 46,
                 "tr_id": 286,
@@ -29029,11 +29000,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Rival Silver3 |Mt. Moon| ":
+            "Lvl 46 Rival Silver16 ":
             {
                 "level": 46,
                 "tr_id": 287,
@@ -29061,7 +29032,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -29129,7 +29100,7 @@ backup_data = {
                 "spriteId": 22,
                 "orientation": 3
             },
-            "Lvl 55 Rival Silver |Pokémon League| ":
+            "Lvl 55 Rival Silver19 ":
             {
                 "level": 55,
                 "tr_id": 489,
@@ -29157,11 +29128,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver2 |Pokémon League| ":
+            "Lvl 55 Rival Silver20 ":
             {
                 "level": 55,
                 "tr_id": 490,
@@ -29189,7 +29160,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -29420,7 +29391,7 @@ backup_data = {
                 "spriteId": 126,
                 "orientation": 0
             },
-            "Lvl 67 Elite Four Will |Pokémon League| ":
+            "Lvl 67 Elite Four Will ":
             {
                 "level": 67,
                 "tr_id": 245,
@@ -29448,11 +29419,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Super Luck",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Executive Petrel |Radio Tower| ":
+            "Lvl 56 Executive Petrel ":
             {
                 "level": 56,
                 "tr_id": 487,
@@ -29480,11 +29451,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Super Luck",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Executive Petrel |Team Rocket HQ| ":
+            "Lvl 48 Executive Petrel2 ":
             {
                 "level": 48,
                 "tr_id": 488,
@@ -29512,7 +29483,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Super Luck",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -31044,7 +31015,7 @@ backup_data = {
                 "spriteId": 172,
                 "orientation": 1
             },
-            "Lvl 50 Leader Janine |Fuchsia City| ":
+            "Lvl 50 Leader Janine ":
             {
                 "level": 50,
                 "tr_id": 257,
@@ -31072,7 +31043,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Tinted Lens",
-                "location": "Fuchsia City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -31172,7 +31143,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Leader Janine |Saffron City| ":
+            "Lvl 59 Leader Janine2 ":
             {
                 "level": 59,
                 "tr_id": 724,
@@ -31200,7 +31171,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Tinted Lens",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -32907,7 +32878,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Leader Falkner |Saffron City| ":
+            "Lvl 52 Leader Falkner2 ":
             {
                 "level": 52,
                 "tr_id": 712,
@@ -32935,7 +32906,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Insomnia",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -35081,7 +35052,7 @@ backup_data = {
         },
         "Ludicolo":
         {
-            "Lvl 26 Sinnoh Leader Gardenia |Ilex Forest| ":
+            "Lvl 26 Sinnoh Leader Gardenia ":
             {
                 "level": 26,
                 "tr_id": 63,
@@ -35109,7 +35080,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Swift Swim",
-                "location": "Ilex Forest",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -35244,7 +35215,7 @@ backup_data = {
         },
         "Voltorb":
         {
-            "Lvl 26 Sinnoh Leader Gardenia |Ilex Forest| ":
+            "Lvl 26 Sinnoh Leader Gardenia ":
             {
                 "level": 26,
                 "tr_id": 63,
@@ -35272,7 +35243,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Volt Absorb",
-                "location": "Ilex Forest",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -35692,7 +35663,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 22 Executive Proton |SLOWPOKE Well| ":
+            "Lvl 22 Executive Proton ":
             {
                 "level": 22,
                 "tr_id": 486,
@@ -35720,7 +35691,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Volt Absorb",
-                "location": "SLOWPOKE Well",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -35791,7 +35762,7 @@ backup_data = {
         },
         "Lileep":
         {
-            "Lvl 26 Sinnoh Leader Gardenia |Ilex Forest| ":
+            "Lvl 26 Sinnoh Leader Gardenia ":
             {
                 "level": 26,
                 "tr_id": 63,
@@ -35819,14 +35790,14 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Water Absorb",
-                "location": "Ilex Forest",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Mothim":
         {
-            "Lvl 26 Sinnoh Leader Gardenia |Ilex Forest| ":
+            "Lvl 26 Sinnoh Leader Gardenia ":
             {
                 "level": 26,
                 "tr_id": 63,
@@ -35854,7 +35825,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Compoundeyes",
-                "location": "Ilex Forest",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -36778,7 +36749,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Leader Janine |Fuchsia City| ":
+            "Lvl 47 Leader Janine ":
             {
                 "level": 47,
                 "tr_id": 257,
@@ -36806,11 +36777,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Insomnia",
-                "location": "Fuchsia City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47* Leader Janine |Fuchsia City| ":
+            "Lvl 47* Leader Janine ":
             {
                 "level": 47,
                 "tr_id": 257,
@@ -36838,7 +36809,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Sniper",
-                "location": "Fuchsia City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -37002,7 +36973,7 @@ backup_data = {
                 "spriteId": 116,
                 "orientation": 3
             },
-            "Lvl 58 Leader Janine |Saffron City| ":
+            "Lvl 58 Leader Janine2 ":
             {
                 "level": 58,
                 "tr_id": 724,
@@ -37030,7 +37001,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Sniper",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -37069,7 +37040,7 @@ backup_data = {
                 "spriteId": 116,
                 "orientation": 2
             },
-            "Lvl 63 Pkmn Trainer Buck |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Buck ":
             {
                 "level": 63,
                 "tr_id": 167,
@@ -37097,7 +37068,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Sand Veil",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -37459,7 +37430,7 @@ backup_data = {
                 "spriteId": 141,
                 "orientation": 3
             },
-            "Lvl 52 Leader Bugsy |Saffron City| ":
+            "Lvl 52 Leader Bugsy ":
             {
                 "level": 52,
                 "tr_id": 713,
@@ -37487,7 +37458,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Intimidate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -37593,7 +37564,7 @@ backup_data = {
                 "spriteId": 117,
                 "orientation": 2
             },
-            "Lvl 55 Hall Matron Argenta |Goldenrod Tunnel| ":
+            "Lvl 55 Hall Matron Argenta ":
             {
                 "level": 55,
                 "tr_id": 170,
@@ -37621,7 +37592,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Thick Fat",
-                "location": "Goldenrod Tunnel",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -37692,7 +37663,7 @@ backup_data = {
                 "spriteId": 121,
                 "orientation": 1
             },
-            "Lvl 56 Pkmn Trainer Lucas |Route 45| ":
+            "Lvl 56 Pkmn Trainer Lucas ":
             {
                 "level": 56,
                 "tr_id": 141,
@@ -37720,7 +37691,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Route 45",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -37884,7 +37855,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 1
             },
-            "Lvl 52 Leader Whitney |Saffron City| ":
+            "Lvl 52 Leader Whitney2 ":
             {
                 "level": 52,
                 "tr_id": 714,
@@ -37912,7 +37883,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -38920,7 +38891,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Leader Blue |Viridian City| ":
+            "Lvl 60 Leader Blue ":
             {
                 "level": 60,
                 "tr_id": 261,
@@ -38948,7 +38919,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "No Guard",
-                "location": "Viridian City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -39048,7 +39019,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Executive Petrel |Radio Tower| ":
+            "Lvl 56 Executive Petrel ":
             {
                 "level": 56,
                 "tr_id": 487,
@@ -39076,11 +39047,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "No Guard",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Executive Petrel |Team Rocket HQ| ":
+            "Lvl 48 Executive Petrel2 ":
             {
                 "level": 48,
                 "tr_id": 488,
@@ -39108,7 +39079,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Huge Power",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -39208,7 +39179,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Falkner |Saffron City| ":
+            "Lvl 56 Leader Falkner2 ":
             {
                 "level": 56,
                 "tr_id": 712,
@@ -39236,11 +39207,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "No Guard",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 72 Leader Blue |Saffron City| ":
+            "Lvl 72 Leader Blue2 ":
             {
                 "level": 72,
                 "tr_id": 727,
@@ -39268,7 +39239,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "No Guard",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -39470,7 +39441,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 43 Rocket Boss Giovanni |Route 48| ":
+            "Lvl 43 Rocket Boss Giovanni ":
             {
                 "level": 43,
                 "tr_id": 106,
@@ -39498,7 +39469,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Chlorophyll",
-                "location": "Route 48",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -39534,7 +39505,7 @@ backup_data = {
                 "spriteId": 125,
                 "orientation": 2
             },
-            "Lvl 68 Elite Four Will |Pokémon League| ":
+            "Lvl 68 Elite Four Will ":
             {
                 "level": 68,
                 "tr_id": 245,
@@ -39562,11 +39533,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Chlorophyll",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Leader Blue |Viridian City| ":
+            "Lvl 55 Leader Blue ":
             {
                 "level": 55,
                 "tr_id": 261,
@@ -39594,7 +39565,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Chlorophyll",
-                "location": "Viridian City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -39758,7 +39729,7 @@ backup_data = {
                 "spriteId": 25,
                 "orientation": 0
             },
-            "Lvl 67 Leader Blue |Saffron City| ":
+            "Lvl 67 Leader Blue2 ":
             {
                 "level": 67,
                 "tr_id": 727,
@@ -39786,7 +39757,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Chlorophyll",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -39825,7 +39796,7 @@ backup_data = {
                 "spriteId": 116,
                 "orientation": 3
             },
-            "Lvl 48 Team Rocket Grunt4 ":
+            "Lvl 48 Team Rocket Grunt6 ":
             {
                 "level": 48,
                 "tr_id": 219,
@@ -40116,7 +40087,7 @@ backup_data = {
                 "spriteId": 114,
                 "orientation": 3
             },
-            "Lvl 54 Team Rocket Grunt2 ":
+            "Lvl 54 Team Rocket Grunt3 ":
             {
                 "level": 54,
                 "tr_id": 193,
@@ -40148,7 +40119,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Hoenn Leader Flannery |Restaurant| ":
+            "Lvl 100 Hoenn Leader Flannery ":
             {
                 "level": 100,
                 "tr_id": 254,
@@ -40176,7 +40147,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Intimidate",
-                "location": "Restaurant",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -40212,7 +40183,7 @@ backup_data = {
                 "spriteId": 124,
                 "orientation": 0
             },
-            "Lvl 56 Executive Archer |Radio Tower| ":
+            "Lvl 56 Executive Archer ":
             {
                 "level": 56,
                 "tr_id": 485,
@@ -40240,7 +40211,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Flash Fire",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -40276,7 +40247,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 2
             },
-            "Lvl 54 Leader Blaine |Saffron City| ":
+            "Lvl 54 Leader Blaine2 ":
             {
                 "level": 54,
                 "tr_id": 726,
@@ -40304,7 +40275,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Flash Fire",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -40506,7 +40477,7 @@ backup_data = {
                 "spriteId": 215,
                 "orientation": 3
             },
-            "Lvl 58 Unova Leader Lt. Surge |Saffron City| ":
+            "Lvl 58 Unova Leader Lt. Surge ":
             {
                 "level": 58,
                 "tr_id": 722,
@@ -40534,7 +40505,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Huge Power",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -41094,7 +41065,7 @@ backup_data = {
         },
         "Nidoqueen":
         {
-            "Lvl 48 Picnicker Cindy |Fuchsia City| ":
+            "Lvl 48 Picnicker Cindy ":
             {
                 "level": 48,
                 "tr_id": 83,
@@ -41122,7 +41093,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Adaptability",
-                "location": "Fuchsia City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -41417,7 +41388,7 @@ backup_data = {
                 "spriteId": 139,
                 "orientation": 3
             },
-            "Lvl 43 Rocket Boss Giovanni |Route 48| ":
+            "Lvl 43 Rocket Boss Giovanni ":
             {
                 "level": 43,
                 "tr_id": 106,
@@ -41445,7 +41416,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Adaptability",
-                "location": "Route 48",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -41775,7 +41746,7 @@ backup_data = {
                 "spriteId": 215,
                 "orientation": 3
             },
-            "Lvl 25 Rival Silver2 |Azalea Town| ":
+            "Lvl 25 Rival Silver7 ":
             {
                 "level": 25,
                 "tr_id": 266,
@@ -41803,11 +41774,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Flash Fire",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 33 Rival Silver2 |Burned Tower| ":
+            "Lvl 33 Rival Silver8 ":
             {
                 "level": 33,
                 "tr_id": 267,
@@ -41835,7 +41806,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Flash Fire",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -42465,7 +42436,7 @@ backup_data = {
                 "spriteId": 139,
                 "orientation": 1
             },
-            "Lvl 47 Team Rocket Grunt |Team Rocket HQ| ":
+            "Lvl 47 Team Rocket Grunt2 ":
             {
                 "level": 47,
                 "tr_id": 171,
@@ -42493,11 +42464,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Chlorophyll",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 51 Leader Erika |Celadon City| ":
+            "Lvl 51 Leader Erika ":
             {
                 "level": 51,
                 "tr_id": 256,
@@ -42525,7 +42496,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Chlorophyll",
-                "location": "Celadon City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -42561,7 +42532,7 @@ backup_data = {
                 "spriteId": 131,
                 "orientation": 1
             },
-            "Lvl 38 Mystery Man Eusine |Cianwood City| ":
+            "Lvl 38 Mystery Man Eusine ":
             {
                 "level": 38,
                 "tr_id": 498,
@@ -42589,7 +42560,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Chlorophyll",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -42721,7 +42692,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Leader Erika |Saffron City| ":
+            "Lvl 53 Leader Erika2 ":
             {
                 "level": 53,
                 "tr_id": 723,
@@ -42749,7 +42720,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Chlorophyll",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -42855,7 +42826,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 0
             },
-            "Lvl 48 Team Rocket Grunt4 ":
+            "Lvl 48 Team Rocket Grunt6 ":
             {
                 "level": 48,
                 "tr_id": 219,
@@ -42887,7 +42858,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 24 Team Rocket Grunt7 ":
+            "Lvl 24 Team Rocket Grunt12 ":
             {
                 "level": 24,
                 "tr_id": 228,
@@ -43146,7 +43117,7 @@ backup_data = {
                 "spriteId": 125,
                 "orientation": 0
             },
-            "Lvl 71 Champion Red |Pokémon League| ":
+            "Lvl 71 Champion Red ":
             {
                 "level": 71,
                 "tr_id": 260,
@@ -43174,7 +43145,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Volt Absorb",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -43373,7 +43344,7 @@ backup_data = {
                 "spriteId": 67,
                 "orientation": 3
             },
-            "Lvl 38 Mystery Man Eusine |Cianwood City| ":
+            "Lvl 38 Mystery Man Eusine ":
             {
                 "level": 38,
                 "tr_id": 498,
@@ -43401,7 +43372,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Water Absorb",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -43699,7 +43670,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 0
             },
-            "Lvl 54 Leader Blaine |Seafoam Islands| ":
+            "Lvl 54 Leader Blaine ":
             {
                 "level": 54,
                 "tr_id": 259,
@@ -43727,7 +43698,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Water Absorb",
-                "location": "Seafoam Islands",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -43859,7 +43830,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Super Nerd Merle |Seafoam Islands| ":
+            "Lvl 53 Super Nerd Merle ":
             {
                 "level": 53,
                 "tr_id": 691,
@@ -43887,11 +43858,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Water Absorb",
-                "location": "Seafoam Islands",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 58 Leader Blaine |Saffron City| ":
+            "Lvl 58 Leader Blaine2 ":
             {
                 "level": 58,
                 "tr_id": 726,
@@ -43919,7 +43890,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Flash Fire",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -45541,7 +45512,7 @@ backup_data = {
                 "spriteId": 121,
                 "orientation": 3
             },
-            "Lvl 55 Leader Brock |Saffron City| ":
+            "Lvl 55 Leader Brock ":
             {
                 "level": 55,
                 "tr_id": 720,
@@ -45569,7 +45540,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Battle Armor",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -46158,7 +46129,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Leader Misty |Saffron City| ":
+            "Lvl 54 Leader Misty ":
             {
                 "level": 54,
                 "tr_id": 721,
@@ -46186,7 +46157,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Volt Absorb",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -46647,7 +46618,7 @@ backup_data = {
                 "spriteId": 144,
                 "orientation": 3
             },
-            "Lvl 100 Rocket Boss Giovanni |Tohjo Falls| ":
+            "Lvl 100 Rocket Boss Giovanni2 ":
             {
                 "level": 100,
                 "tr_id": 700,
@@ -46675,11 +46646,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Rock Head",
-                "location": "Tohjo Falls",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Bruno |Pokémon League| ":
+            "Lvl 100 Elite Four Bruno ":
             {
                 "level": 100,
                 "tr_id": 704,
@@ -46707,11 +46678,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Sand Veil",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Leader Clair |Saffron City| ":
+            "Lvl 52 Leader Clair2 ":
             {
                 "level": 52,
                 "tr_id": 719,
@@ -46739,7 +46710,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Rock Head",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -46810,7 +46781,7 @@ backup_data = {
                 "spriteId": 221,
                 "orientation": 2
             },
-            "Lvl 56 Pkmn Trainer Lucas |Route 45| ":
+            "Lvl 56 Pkmn Trainer Lucas ":
             {
                 "level": 56,
                 "tr_id": 141,
@@ -46838,7 +46809,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Iron Fist",
-                "location": "Route 45",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -46906,7 +46877,7 @@ backup_data = {
                 "spriteId": 117,
                 "orientation": 0
             },
-            "Lvl 56 Executive Proton ":
+            "Lvl 56 Executive Proton2 ":
             {
                 "level": 56,
                 "tr_id": 706,
@@ -47165,7 +47136,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Bruno |Pokémon League| ":
+            "Lvl 100 Elite Four Bruno ":
             {
                 "level": 100,
                 "tr_id": 704,
@@ -47193,7 +47164,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Levitate",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -47491,7 +47462,7 @@ backup_data = {
                 "spriteId": 221,
                 "orientation": 2
             },
-            "Lvl 43 Rocket Boss Giovanni |Route 48| ":
+            "Lvl 43 Rocket Boss Giovanni ":
             {
                 "level": 43,
                 "tr_id": 106,
@@ -47519,11 +47490,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Rough Skin",
-                "location": "Route 48",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Sinnoh Champion Cynthia |Mystery Zone| ":
+            "Lvl 65 Sinnoh Champion Cynthia ":
             {
                 "level": 65,
                 "tr_id": 174,
@@ -47551,7 +47522,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Rough Skin",
-                "location": "Mystery Zone",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -47587,7 +47558,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 1
             },
-            "Lvl 100 Rocket Boss Giovanni |Tohjo Falls| ":
+            "Lvl 100 Rocket Boss Giovanni2 ":
             {
                 "level": 100,
                 "tr_id": 700,
@@ -47615,7 +47586,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Rough Skin",
-                "location": "Tohjo Falls",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -47718,7 +47689,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Brock |Saffron City| ":
+            "Lvl 56 Leader Brock ":
             {
                 "level": 56,
                 "tr_id": 720,
@@ -47746,14 +47717,14 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Shell Armor",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Spiritomb":
         {
-            "Lvl 43 Rocket Boss Giovanni |Route 48| ":
+            "Lvl 43 Rocket Boss Giovanni ":
             {
                 "level": 43,
                 "tr_id": 106,
@@ -47781,7 +47752,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Trace",
-                "location": "Route 48",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -47817,7 +47788,7 @@ backup_data = {
                 "spriteId": 184,
                 "orientation": 3
             },
-            "Lvl 65 Sinnoh Champion Cynthia |Mystery Zone| ":
+            "Lvl 65 Sinnoh Champion Cynthia ":
             {
                 "level": 65,
                 "tr_id": 174,
@@ -47845,7 +47816,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Trace",
-                "location": "Mystery Zone",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -47916,7 +47887,7 @@ backup_data = {
         },
         "Rhyperior":
         {
-            "Lvl 43 Rocket Boss Giovanni |Route 48| ":
+            "Lvl 43 Rocket Boss Giovanni ":
             {
                 "level": 43,
                 "tr_id": 106,
@@ -47944,7 +47915,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Solid Rock",
-                "location": "Route 48",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -48012,7 +47983,7 @@ backup_data = {
                 "spriteId": 131,
                 "orientation": 2
             },
-            "Lvl 54 Team Rocket Grunt3 ":
+            "Lvl 54 Team Rocket Grunt4 ":
             {
                 "level": 54,
                 "tr_id": 199,
@@ -48044,7 +48015,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Team Rocket Grunt5 ":
+            "Lvl 48 Team Rocket Grunt7 ":
             {
                 "level": 48,
                 "tr_id": 222,
@@ -48108,7 +48079,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Koga |Pokémon League| ":
+            "Lvl 100 Elite Four Koga ":
             {
                 "level": 100,
                 "tr_id": 703,
@@ -48136,7 +48107,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Solid Rock",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -48172,7 +48143,7 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 1
             },
-            "Lvl 70 Leader Blue |Saffron City| ":
+            "Lvl 70 Leader Blue2 ":
             {
                 "level": 70,
                 "tr_id": 727,
@@ -48200,14 +48171,14 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Rock Head",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
-        "Deoxys":
+        "Deoxys-Speed":
         {
-            "Lvl 43 Rocket Boss Giovanni |Route 48| ":
+            "Lvl 43 Rocket Boss Giovanni ":
             {
                 "level": 43,
                 "tr_id": 106,
@@ -48235,41 +48206,9 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Pressure",
-                "location": "Route 48",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
-            },
-            "Lvl 65 Hoenn Champion Steven |S.S. Aqua| ":
-            {
-                "level": 65,
-                "tr_id": 138,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "",
-                "item": "Liechi Berry",
-                "ivs":
-                {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "nature": "Calm",
-                "moves":
-                [
-                    "Psycho Boost",
-                    "Ice Beam",
-                    "Superpower",
-                    "Shadow Force"
-                ],
-                "sub_index": 5,
-                "ability": "Pressure",
-                "location": "S.S. Aqua",
-                "spriteId": 142,
-                "orientation": 3
             }
         },
         "Toxicroak":
@@ -48370,7 +48309,7 @@ backup_data = {
                 "spriteId": 173,
                 "orientation": 1
             },
-            "Lvl 52 Leader Janine |Saffron City| ":
+            "Lvl 52 Leader Janine2 ":
             {
                 "level": 52,
                 "tr_id": 724,
@@ -48398,7 +48337,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Water Absorb",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -48565,7 +48504,7 @@ backup_data = {
                 "spriteId": 22,
                 "orientation": 3
             },
-            "Lvl 54 Leader Misty |Saffron City| ":
+            "Lvl 54 Leader Misty ":
             {
                 "level": 54,
                 "tr_id": 721,
@@ -48593,7 +48532,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Swift Swim",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -48632,7 +48571,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 3
             },
-            "Lvl 46 Team Rocket Grunt |Team Rocket HQ| ":
+            "Lvl 46 Team Rocket Grunt2 ":
             {
                 "level": 46,
                 "tr_id": 171,
@@ -48660,7 +48599,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Scrappy",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -48699,7 +48638,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 3
             },
-            "Lvl 63 Pkmn Trainer Cheryl |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Cheryl ":
             {
                 "level": 63,
                 "tr_id": 165,
@@ -48727,7 +48666,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Natural Cure",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -48926,7 +48865,7 @@ backup_data = {
                 "spriteId": 125,
                 "orientation": 1
             },
-            "Lvl 22 Executive Proton |SLOWPOKE Well| ":
+            "Lvl 22 Executive Proton ":
             {
                 "level": 22,
                 "tr_id": 486,
@@ -48954,7 +48893,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Thick Fat",
-                "location": "SLOWPOKE Well",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -49124,7 +49063,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 3
             },
-            "Lvl 65 Rival Silver2 |Victory Road| ":
+            "Lvl 65 Rival Silver9 ":
             {
                 "level": 65,
                 "tr_id": 268,
@@ -49152,11 +49091,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Intimidate",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Rival Silver |Goldenrod City| ":
+            "Lvl 56 Rival Silver12 ":
             {
                 "level": 56,
                 "tr_id": 271,
@@ -49184,11 +49123,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Intimidate",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 40 Rival Silver3 |Victory Road| ":
+            "Lvl 40 Rival Silver13 ":
             {
                 "level": 40,
                 "tr_id": 272,
@@ -49216,11 +49155,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Intimidate",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Rival Silver3 |Mt. Moon| ":
+            "Lvl 50 Rival Silver16 ":
             {
                 "level": 50,
                 "tr_id": 287,
@@ -49248,7 +49187,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Intimidate",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -49348,7 +49287,7 @@ backup_data = {
                 "spriteId": 126,
                 "orientation": 2
             },
-            "Lvl 60 Rival Silver6 ":
+            "Lvl 60 Rival Silver23 ":
             {
                 "level": 60,
                 "tr_id": 737,
@@ -49415,7 +49354,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 1
             },
-            "Lvl 56 Pkmn Trainer Lucas |Route 45| ":
+            "Lvl 56 Pkmn Trainer Lucas ":
             {
                 "level": 56,
                 "tr_id": 141,
@@ -49443,11 +49382,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Marvel Scale",
-                "location": "Route 45",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Sinnoh Champion Cynthia |Mystery Zone| ":
+            "Lvl 65 Sinnoh Champion Cynthia ":
             {
                 "level": 65,
                 "tr_id": 174,
@@ -49475,7 +49414,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Marvel Scale",
-                "location": "Mystery Zone",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -49511,7 +49450,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Team Rocket Grunt2 |Team Rocket HQ| ":
+            "Lvl 47 Team Rocket Grunt5 ":
             {
                 "level": 47,
                 "tr_id": 207,
@@ -49539,7 +49478,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Marvel Scale",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -49671,7 +49610,7 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 1
             },
-            "Lvl 60 Leader Misty |Saffron City| ":
+            "Lvl 60 Leader Misty ":
             {
                 "level": 60,
                 "tr_id": 721,
@@ -49699,7 +49638,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Marvel Scale",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -49802,7 +49741,7 @@ backup_data = {
                 "spriteId": 177,
                 "orientation": 1
             },
-            "Lvl 54 Leader Chuck |Saffron City| ":
+            "Lvl 54 Leader Chuck2 ":
             {
                 "level": 54,
                 "tr_id": 718,
@@ -49830,7 +49769,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Pure Power",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -49965,7 +49904,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Leader Clair |Saffron City| ":
+            "Lvl 52 Leader Clair2 ":
             {
                 "level": 52,
                 "tr_id": 719,
@@ -49993,7 +49932,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Solar Power",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -50160,7 +50099,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Unova Leader Elesa |Vermilion City| ":
+            "Lvl 100 Unova Leader Elesa ":
             {
                 "level": 100,
                 "tr_id": 255,
@@ -50188,11 +50127,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Reckless",
-                "location": "Vermilion City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Leader Blaine |Seafoam Islands| ":
+            "Lvl 59 Leader Blaine ":
             {
                 "level": 59,
                 "tr_id": 259,
@@ -50220,7 +50159,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Reckless",
-                "location": "Seafoam Islands",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -50448,7 +50387,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Leader Blaine |Saffron City| ":
+            "Lvl 60 Leader Blaine2 ":
             {
                 "level": 60,
                 "tr_id": 726,
@@ -50476,7 +50415,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Reckless",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -50678,7 +50617,7 @@ backup_data = {
                 "spriteId": 125,
                 "orientation": 2
             },
-            "Lvl 63 Pkmn Trainer Marley |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Marley ":
             {
                 "level": 63,
                 "tr_id": 166,
@@ -50706,7 +50645,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Volt Absorb",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -50934,7 +50873,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Mystery Man Eusine |Cianwood City| ":
+            "Lvl 38 Mystery Man Eusine ":
             {
                 "level": 38,
                 "tr_id": 498,
@@ -50962,7 +50901,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Volt Absorb",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -51190,7 +51129,7 @@ backup_data = {
                 "spriteId": 245,
                 "orientation": 0
             },
-            "Lvl 56 Executive Proton ":
+            "Lvl 56 Executive Proton2 ":
             {
                 "level": 56,
                 "tr_id": 706,
@@ -51222,7 +51161,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Unova Leader Lt. Surge |Saffron City| ":
+            "Lvl 52 Unova Leader Lt. Surge ":
             {
                 "level": 52,
                 "tr_id": 722,
@@ -51250,7 +51189,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Static",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -51385,7 +51324,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Leader Bugsy |Saffron City| ":
+            "Lvl 48 Leader Bugsy ":
             {
                 "level": 48,
                 "tr_id": 713,
@@ -51413,7 +51352,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Wonder Guard",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -51519,7 +51458,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Team Rocket Grunt6 |Team Rocket HQ| ":
+            "Lvl 48 Team Rocket Grunt10 ":
             {
                 "level": 48,
                 "tr_id": 225,
@@ -51547,11 +51486,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Technician",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Hoenn Leader Flannery |Restaurant| ":
+            "Lvl 100 Hoenn Leader Flannery ":
             {
                 "level": 100,
                 "tr_id": 254,
@@ -51579,7 +51518,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Overgrow",
-                "location": "Restaurant",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -51615,7 +51554,7 @@ backup_data = {
                 "spriteId": 145,
                 "orientation": 0
             },
-            "Lvl 56 Executive Petrel |Radio Tower| ":
+            "Lvl 56 Executive Petrel ":
             {
                 "level": 56,
                 "tr_id": 487,
@@ -51643,7 +51582,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Technician",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -51877,7 +51816,7 @@ backup_data = {
                 "spriteId": 220,
                 "orientation": 3
             },
-            "Lvl 56 Pkmn Trainer Lucas |Route 45| ":
+            "Lvl 56 Pkmn Trainer Lucas ":
             {
                 "level": 56,
                 "tr_id": 141,
@@ -51905,7 +51844,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Rock Head",
-                "location": "Route 45",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -51941,7 +51880,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 3
             },
-            "Lvl 48 Team Rocket Grunt4 ":
+            "Lvl 48 Team Rocket Grunt6 ":
             {
                 "level": 48,
                 "tr_id": 219,
@@ -52468,7 +52407,7 @@ backup_data = {
                 "spriteId": 121,
                 "orientation": 2
             },
-            "Lvl 71 Champion Red |Pokémon League| ":
+            "Lvl 71 Champion Red ":
             {
                 "level": 71,
                 "tr_id": 260,
@@ -52496,7 +52435,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Thick Fat",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -52564,7 +52503,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Champion Red2 |Pokémon League| ":
+            "Lvl 100 Champion Red2 ":
             {
                 "level": 100,
                 "tr_id": 701,
@@ -52592,11 +52531,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Thick Fat",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Executive Proton ":
+            "Lvl 56 Executive Proton2 ":
             {
                 "level": 56,
                 "tr_id": 706,
@@ -52695,7 +52634,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer Cheryl |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Cheryl ":
             {
                 "level": 63,
                 "tr_id": 165,
@@ -52723,7 +52662,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Water Veil",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -52759,7 +52698,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Executive Petrel |Radio Tower| ":
+            "Lvl 56 Executive Petrel ":
             {
                 "level": 56,
                 "tr_id": 487,
@@ -52787,11 +52726,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Water Veil",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Executive Petrel |Team Rocket HQ| ":
+            "Lvl 48 Executive Petrel2 ":
             {
                 "level": 48,
                 "tr_id": 488,
@@ -52819,7 +52758,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Water Veil",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -53018,7 +52957,7 @@ backup_data = {
                 "spriteId": 127,
                 "orientation": 3
             },
-            "Lvl 100 Unova Leader Elesa |Vermilion City| ":
+            "Lvl 100 Unova Leader Elesa ":
             {
                 "level": 100,
                 "tr_id": 255,
@@ -53046,7 +52985,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Lightningrod",
-                "location": "Vermilion City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -53178,7 +53117,7 @@ backup_data = {
                 "spriteId": 25,
                 "orientation": 0
             },
-            "Lvl 100 Champion Red2 |Pokémon League| ":
+            "Lvl 100 Champion Red2 ":
             {
                 "level": 100,
                 "tr_id": 701,
@@ -53206,11 +53145,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Lightningrod",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Unova Leader Lt. Surge |Saffron City| ":
+            "Lvl 60 Unova Leader Lt. Surge ":
             {
                 "level": 60,
                 "tr_id": 722,
@@ -53238,7 +53177,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Mold Breaker",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -53536,7 +53475,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Bruno |Pokémon League| ":
+            "Lvl 100 Elite Four Bruno ":
             {
                 "level": 100,
                 "tr_id": 704,
@@ -53564,7 +53503,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Rock Head",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -53603,7 +53542,7 @@ backup_data = {
                 "spriteId": 184,
                 "orientation": 2
             },
-            "Lvl 54 Leader Brock |Saffron City| ":
+            "Lvl 54 Leader Brock ":
             {
                 "level": 54,
                 "tr_id": 720,
@@ -53631,7 +53570,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Rock Head",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -53766,7 +53705,7 @@ backup_data = {
                 "spriteId": 140,
                 "orientation": 3
             },
-            "Lvl 58 Leader Blue |Viridian City| ":
+            "Lvl 58 Leader Blue ":
             {
                 "level": 58,
                 "tr_id": 261,
@@ -53794,7 +53733,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Rock Head",
-                "location": "Viridian City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -53929,7 +53868,7 @@ backup_data = {
                 "spriteId": 131,
                 "orientation": 2
             },
-            "Lvl 63 Pkmn Trainer Marley |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Marley ":
             {
                 "level": 63,
                 "tr_id": 166,
@@ -53957,7 +53896,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Rock Head",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -53993,7 +53932,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Team Rocket Grunt4 ":
+            "Lvl 48 Team Rocket Grunt6 ":
             {
                 "level": 48,
                 "tr_id": 219,
@@ -54025,7 +53964,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Hoenn Leader Flannery |Restaurant| ":
+            "Lvl 100 Hoenn Leader Flannery ":
             {
                 "level": 100,
                 "tr_id": 254,
@@ -54053,11 +53992,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Rock Head",
-                "location": "Restaurant",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 58 Leader Blue |Viridian City| ":
+            "Lvl 58 Leader Blue ":
             {
                 "level": 58,
                 "tr_id": 261,
@@ -54085,7 +54024,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Rock Head",
-                "location": "Viridian City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -54249,7 +54188,7 @@ backup_data = {
                 "spriteId": 144,
                 "orientation": 3
             },
-            "Lvl 50 Scientist Lowell |Seafoam Islands| ":
+            "Lvl 50 Scientist Lowell ":
             {
                 "level": 50,
                 "tr_id": 692,
@@ -54277,11 +54216,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Rock Head",
-                "location": "Seafoam Islands",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 68 Leader Blue |Saffron City| ":
+            "Lvl 68 Leader Blue2 ":
             {
                 "level": 68,
                 "tr_id": 727,
@@ -54309,7 +54248,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Rock Head",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -54380,7 +54319,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Team Rocket Grunt5 ":
+            "Lvl 48 Team Rocket Grunt7 ":
             {
                 "level": 48,
                 "tr_id": 222,
@@ -54546,7 +54485,7 @@ backup_data = {
                 "spriteId": 67,
                 "orientation": 2
             },
-            "Lvl 63 Pkmn Trainer Buck |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Buck ":
             {
                 "level": 63,
                 "tr_id": 167,
@@ -54574,11 +54513,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Magic Guard",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Team Rocket Grunt3 ":
+            "Lvl 54 Team Rocket Grunt4 ":
             {
                 "level": 54,
                 "tr_id": 199,
@@ -54610,7 +54549,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Team Rocket Grunt5 |Team Rocket HQ| ":
+            "Lvl 46 Team Rocket Grunt9 ":
             {
                 "level": 46,
                 "tr_id": 224,
@@ -54638,7 +54577,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Magic Guard",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -55128,7 +55067,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Leader Jasmine |Saffron City| ":
+            "Lvl 52 Leader Jasmine2 ":
             {
                 "level": 52,
                 "tr_id": 717,
@@ -55156,7 +55095,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Clear Body",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -55292,9 +55231,44 @@ backup_data = {
                 "orientation": 2
             }
         },
+        "Deoxys":
+        {
+            "Lvl 65 Hoenn Champion Steven |S.S. Aqua| ":
+            {
+                "level": 65,
+                "tr_id": 138,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "Liechi Berry",
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Calm",
+                "moves":
+                [
+                    "Psycho Boost",
+                    "Ice Beam",
+                    "Superpower",
+                    "Shadow Force"
+                ],
+                "sub_index": 5,
+                "ability": "Pressure",
+                "location": "S.S. Aqua",
+                "spriteId": 142,
+                "orientation": 3
+            }
+        },
         "Yanmega":
         {
-            "Lvl 56 Pkmn Trainer Lucas |Route 45| ":
+            "Lvl 56 Pkmn Trainer Lucas ":
             {
                 "level": 56,
                 "tr_id": 141,
@@ -55322,7 +55296,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Speed Boost",
-                "location": "Route 45",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -55390,7 +55364,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Leader Bugsy |Saffron City| ":
+            "Lvl 52 Leader Bugsy ":
             {
                 "level": 52,
                 "tr_id": 713,
@@ -55418,14 +55392,14 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Tinted Lens",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Gallade":
         {
-            "Lvl 56 Pkmn Trainer Lucas |Route 45| ":
+            "Lvl 56 Pkmn Trainer Lucas ":
             {
                 "level": 56,
                 "tr_id": 141,
@@ -55453,7 +55427,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Synchronize",
-                "location": "Route 45",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -55521,7 +55495,7 @@ backup_data = {
                 "spriteId": 117,
                 "orientation": 0
             },
-            "Lvl 100 Elite Four Bruno |Pokémon League| ":
+            "Lvl 100 Elite Four Bruno ":
             {
                 "level": 100,
                 "tr_id": 704,
@@ -55549,7 +55523,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Steadfast",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -55585,7 +55559,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Leader Sabrina2 |Saffron City| ":
+            "Lvl 53 Leader Sabrina2 ":
             {
                 "level": 53,
                 "tr_id": 725,
@@ -55613,7 +55587,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Synchronize",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -55751,7 +55725,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer Buck |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Buck ":
             {
                 "level": 63,
                 "tr_id": 167,
@@ -55779,7 +55753,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Levitate",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -55946,7 +55920,7 @@ backup_data = {
                 "spriteId": 141,
                 "orientation": 1
             },
-            "Lvl 63 Pkmn Trainer Buck |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Buck ":
             {
                 "level": 63,
                 "tr_id": 167,
@@ -55974,11 +55948,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Shell Armor",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Hoenn Leader Flannery |Restaurant| ":
+            "Lvl 100 Hoenn Leader Flannery ":
             {
                 "level": 100,
                 "tr_id": 254,
@@ -56006,7 +55980,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Shell Armor",
-                "location": "Restaurant",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -56106,7 +56080,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Super Nerd Cary |Seafoam Islands| ":
+            "Lvl 53 Super Nerd Cary ":
             {
                 "level": 53,
                 "tr_id": 689,
@@ -56134,11 +56108,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Shell Armor",
-                "location": "Seafoam Islands",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Leader Blaine |Saffron City| ":
+            "Lvl 54 Leader Blaine2 ":
             {
                 "level": 54,
                 "tr_id": 726,
@@ -56166,7 +56140,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Shell Armor",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -56333,7 +56307,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Team Rocket Grunt2 |Team Rocket HQ| ":
+            "Lvl 47 Team Rocket Grunt5 ":
             {
                 "level": 47,
                 "tr_id": 207,
@@ -56361,11 +56335,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Insomnia",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Team Rocket Grunt3 |Team Rocket HQ| ":
+            "Lvl 48 Team Rocket Grunt |Team Rocket HQ| ":
             {
                 "level": 48,
                 "tr_id": 218,
@@ -56493,7 +56467,7 @@ backup_data = {
                 "spriteId": 83,
                 "orientation": 2
             },
-            "Lvl 100 Elite Four Koga |Pokémon League| ":
+            "Lvl 100 Elite Four Koga ":
             {
                 "level": 100,
                 "tr_id": 703,
@@ -56521,7 +56495,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Shadow Tag",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -57075,7 +57049,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Chuck |Saffron City| ":
+            "Lvl 56 Leader Chuck2 ":
             {
                 "level": 56,
                 "tr_id": 718,
@@ -57103,7 +57077,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Vital Spirit",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -57270,7 +57244,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Elite Four Karen |Pokémon League| ":
+            "Lvl 69 Elite Four Karen ":
             {
                 "level": 69,
                 "tr_id": 246,
@@ -57298,7 +57272,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Chlorophyll",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -57724,7 +57698,7 @@ backup_data = {
                 "spriteId": 138,
                 "orientation": 1
             },
-            "Lvl 56 Leader Blue |Viridian City| ":
+            "Lvl 56 Leader Blue ":
             {
                 "level": 56,
                 "tr_id": 261,
@@ -57752,7 +57726,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Guts",
-                "location": "Viridian City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -57948,7 +57922,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Leader Blue |Saffron City| ":
+            "Lvl 69 Leader Blue2 ":
             {
                 "level": 69,
                 "tr_id": 727,
@@ -57976,7 +57950,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Guts",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -58015,7 +57989,7 @@ backup_data = {
                 "spriteId": 140,
                 "orientation": 3
             },
-            "Lvl 63 Pkmn Trainer Cheryl |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Cheryl ":
             {
                 "level": 63,
                 "tr_id": 165,
@@ -58043,7 +58017,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Guts",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -58274,7 +58248,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Leader Chuck |Saffron City| ":
+            "Lvl 55 Leader Chuck2 ":
             {
                 "level": 55,
                 "tr_id": 718,
@@ -58302,7 +58276,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Reckless",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -58373,7 +58347,7 @@ backup_data = {
                 "spriteId": 140,
                 "orientation": 3
             },
-            "Lvl 52 Leader Chuck |Saffron City| ":
+            "Lvl 52 Leader Chuck2 ":
             {
                 "level": 52,
                 "tr_id": 718,
@@ -58401,7 +58375,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Inner Focus",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -58475,7 +58449,7 @@ backup_data = {
         },
         "Azelf":
         {
-            "Lvl 60 Kimono Girl Naoko |Ecruteak City| ":
+            "Lvl 60 Kimono Girl Naoko ":
             {
                 "level": 60,
                 "tr_id": 160,
@@ -58503,14 +58477,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Regice":
         {
-            "Lvl 60 Kimono Girl Sayo |Ecruteak City| ":
+            "Lvl 60 Kimono Girl Sayo ":
             {
                 "level": 60,
                 "tr_id": 161,
@@ -58538,14 +58512,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Clear Body",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Darkrai":
         {
-            "Lvl 60 Kimono Girl Zuki |Ecruteak City| ":
+            "Lvl 60 Kimono Girl Zuki ":
             {
                 "level": 60,
                 "tr_id": 162,
@@ -58573,11 +58547,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Bad Dreams",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Koga |Pokémon League| ":
+            "Lvl 100 Elite Four Koga ":
             {
                 "level": 100,
                 "tr_id": 703,
@@ -58605,14 +58579,14 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Bad Dreams",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Kyogre":
         {
-            "Lvl 60 Kimono Girl Kuni |Ecruteak City| ":
+            "Lvl 60 Kimono Girl Kuni ":
             {
                 "level": 60,
                 "tr_id": 163,
@@ -58640,14 +58614,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Drizzle",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Regigigas":
         {
-            "Lvl 60 Kimono Girl Miki |Ecruteak City| ":
+            "Lvl 60 Kimono Girl Miki ":
             {
                 "level": 60,
                 "tr_id": 164,
@@ -58675,7 +58649,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Filter",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -58714,7 +58688,7 @@ backup_data = {
         },
         "Wobbuffet":
         {
-            "Lvl 63 Pkmn Trainer Cheryl |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Cheryl ":
             {
                 "level": 63,
                 "tr_id": 165,
@@ -58742,7 +58716,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Shadow Tag",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -58778,7 +58752,7 @@ backup_data = {
                 "spriteId": 173,
                 "orientation": 0
             },
-            "Lvl 47 Team Rocket Grunt2 |Team Rocket HQ| ":
+            "Lvl 47 Team Rocket Grunt5 ":
             {
                 "level": 47,
                 "tr_id": 207,
@@ -58806,7 +58780,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Shadow Tag",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -58842,7 +58816,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Leader Sabrina2 |Saffron City| ":
+            "Lvl 53 Leader Sabrina2 ":
             {
                 "level": 53,
                 "tr_id": 725,
@@ -58870,14 +58844,14 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Shadow Tag",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Dusknoir-S":
         {
-            "Lvl 63 Pkmn Trainer Buck |Victory Road| ":
+            "Lvl 63 Pkmn Trainer Buck ":
             {
                 "level": 63,
                 "tr_id": 167,
@@ -58905,7 +58879,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -58941,7 +58915,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 3
             },
-            "Lvl 46 Team Rocket Grunt5 |Team Rocket HQ| ":
+            "Lvl 46 Team Rocket Grunt9 ":
             {
                 "level": 46,
                 "tr_id": 224,
@@ -58969,7 +58943,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -59069,7 +59043,7 @@ backup_data = {
                 "spriteId": 105,
                 "orientation": 2
             },
-            "Lvl 52 Leader Morty |Saffron City| ":
+            "Lvl 52 Leader Morty2 ":
             {
                 "level": 52,
                 "tr_id": 715,
@@ -59097,7 +59071,42 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "location": "Saffron City",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
+        "Rotom-Mow":
+        {
+            "Lvl 64 Sinnoh Leader Volkner ":
+            {
+                "level": 64,
+                "tr_id": 168,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "5",
+                "item": "Rose Incense",
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Quiet",
+                "moves":
+                [
+                    "Volt Switch",
+                    "HP Water",
+                    "Shadow Ball",
+                    "Leaf Storm"
+                ],
+                "sub_index": 1,
+                "ability": "Levitate",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -59136,7 +59145,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Team Rocket Grunt3 ":
+            "Lvl 54 Team Rocket Grunt4 ":
             {
                 "level": 54,
                 "tr_id": 199,
@@ -59168,7 +59177,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Executive Petrel |Radio Tower| ":
+            "Lvl 56 Executive Petrel ":
             {
                 "level": 56,
                 "tr_id": 487,
@@ -59196,11 +59205,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "No Guard",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Executive Petrel |Team Rocket HQ| ":
+            "Lvl 48 Executive Petrel2 ":
             {
                 "level": 48,
                 "tr_id": 488,
@@ -59228,7 +59237,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "No Guard",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -59296,7 +59305,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 62 Leader Blaine |Saffron City| ":
+            "Lvl 62 Leader Blaine2 ":
             {
                 "level": 62,
                 "tr_id": 726,
@@ -59324,14 +59333,14 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Flash Fire",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Uxie":
         {
-            "Lvl 55 Hall Matron Argenta |Goldenrod Tunnel| ":
+            "Lvl 55 Hall Matron Argenta ":
             {
                 "level": 55,
                 "tr_id": 170,
@@ -59359,7 +59368,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Goldenrod Tunnel",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -59398,7 +59407,7 @@ backup_data = {
         },
         "Swampert":
         {
-            "Lvl 55 Hall Matron Argenta |Goldenrod Tunnel| ":
+            "Lvl 55 Hall Matron Argenta ":
             {
                 "level": 55,
                 "tr_id": 170,
@@ -59426,7 +59435,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Torrent",
-                "location": "Goldenrod Tunnel",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -59526,7 +59535,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Will2 |Pokémon League| ":
+            "Lvl 100 Elite Four Will2 ":
             {
                 "level": 100,
                 "tr_id": 702,
@@ -59554,14 +59563,14 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Swift Swim",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Drapion-S":
         {
-            "Lvl 55 Hall Matron Argenta |Goldenrod Tunnel| ":
+            "Lvl 55 Hall Matron Argenta ":
             {
                 "level": 55,
                 "tr_id": 170,
@@ -59589,7 +59598,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Sniper",
-                "location": "Goldenrod Tunnel",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -59724,7 +59733,7 @@ backup_data = {
         },
         "Chimecho":
         {
-            "Lvl 47 Team Rocket Grunt |Team Rocket HQ| ":
+            "Lvl 47 Team Rocket Grunt2 ":
             {
                 "level": 47,
                 "tr_id": 171,
@@ -59752,7 +59761,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -59952,9 +59961,9 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Giratina":
+        "Giratina-Origin":
         {
-            "Lvl 65 Sinnoh Champion Cynthia |Mystery Zone| ":
+            "Lvl 65 Sinnoh Champion Cynthia ":
             {
                 "level": 65,
                 "tr_id": 174,
@@ -59982,7 +59991,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Pressure",
-                "location": "Mystery Zone",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -60644,7 +60653,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 1
             },
-            "Lvl 100 Hoenn Leader Flannery |Restaurant| ":
+            "Lvl 100 Hoenn Leader Flannery ":
             {
                 "level": 100,
                 "tr_id": 254,
@@ -60672,7 +60681,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Aftermath",
-                "location": "Restaurant",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -60711,7 +60720,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 1
             },
-            "Lvl 48 Executive Petrel |Team Rocket HQ| ":
+            "Lvl 48 Executive Petrel2 ":
             {
                 "level": 48,
                 "tr_id": 488,
@@ -60739,7 +60748,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Thick Fat",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -61203,7 +61212,7 @@ backup_data = {
         },
         "Porygon-Z":
         {
-            "Lvl 54 Team Rocket Grunt2 ":
+            "Lvl 54 Team Rocket Grunt3 ":
             {
                 "level": 54,
                 "tr_id": 193,
@@ -61235,7 +61244,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 68 Elite Four Will |Pokémon League| ":
+            "Lvl 68 Elite Four Will ":
             {
                 "level": 68,
                 "tr_id": 245,
@@ -61263,7 +61272,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Adaptability",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -61331,7 +61340,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Elite Four Will2 |Pokémon League| ":
+            "Lvl 100 Elite Four Will2 ":
             {
                 "level": 100,
                 "tr_id": 702,
@@ -61359,7 +61368,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Adaptability",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -61433,7 +61442,7 @@ backup_data = {
         },
         "Jirachi":
         {
-            "Lvl 100 Mystery Boss Ghetsis |Mt. Silver| ":
+            "Lvl 100 Mystery Boss Ghetsis ":
             {
                 "level": 100,
                 "tr_id": 200,
@@ -61461,14 +61470,14 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Serene Grace",
-                "location": "Mt. Silver",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Beartic":
         {
-            "Lvl 100 Mystery Boss Ghetsis |Mt. Silver| ":
+            "Lvl 100 Mystery Boss Ghetsis ":
             {
                 "level": 100,
                 "tr_id": 200,
@@ -61496,14 +61505,14 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Thick Fat",
-                "location": "Mt. Silver",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Cofagrigus":
         {
-            "Lvl 100 Mystery Boss Ghetsis |Mt. Silver| ":
+            "Lvl 100 Mystery Boss Ghetsis ":
             {
                 "level": 100,
                 "tr_id": 200,
@@ -61531,14 +61540,14 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Magic Guard",
-                "location": "Mt. Silver",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Volcarona":
         {
-            "Lvl 100 Mystery Boss Ghetsis |Mt. Silver| ":
+            "Lvl 100 Mystery Boss Ghetsis ":
             {
                 "level": 100,
                 "tr_id": 200,
@@ -61566,14 +61575,14 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Flash Fire",
-                "location": "Mt. Silver",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Hydreigon":
         {
-            "Lvl 100 Mystery Boss Ghetsis |Mt. Silver| ":
+            "Lvl 100 Mystery Boss Ghetsis ":
             {
                 "level": 100,
                 "tr_id": 200,
@@ -61601,7 +61610,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Levitate",
-                "location": "Mt. Silver",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -62068,7 +62077,7 @@ backup_data = {
                 "spriteId": 144,
                 "orientation": 2
             },
-            "Lvl 54 Leader Whitney |Saffron City| ":
+            "Lvl 54 Leader Whitney2 ":
             {
                 "level": 54,
                 "tr_id": 714,
@@ -62096,7 +62105,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Magic Guard",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -62426,7 +62435,7 @@ backup_data = {
                 "spriteId": 121,
                 "orientation": 3
             },
-            "Lvl 46 Team Rocket Grunt4 |Team Rocket HQ| ":
+            "Lvl 46 Team Rocket Grunt8 ":
             {
                 "level": 46,
                 "tr_id": 223,
@@ -62454,7 +62463,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -62586,7 +62595,7 @@ backup_data = {
                 "spriteId": 22,
                 "orientation": 3
             },
-            "Lvl 100 Elite Four Will2 |Pokémon League| ":
+            "Lvl 100 Elite Four Will2 ":
             {
                 "level": 100,
                 "tr_id": 702,
@@ -62614,11 +62623,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Levitate",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Leader Morty |Saffron City| ":
+            "Lvl 54 Leader Morty2 ":
             {
                 "level": 54,
                 "tr_id": 715,
@@ -62646,7 +62655,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Levitate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -62749,7 +62758,7 @@ backup_data = {
                 "spriteId": 177,
                 "orientation": 2
             },
-            "Lvl 100 Champion Red2 |Pokémon League| ":
+            "Lvl 100 Champion Red2 ":
             {
                 "level": 100,
                 "tr_id": 701,
@@ -62777,11 +62786,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Shell Armor",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Misty |Saffron City| ":
+            "Lvl 56 Leader Misty ":
             {
                 "level": 56,
                 "tr_id": 721,
@@ -62809,7 +62818,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Shell Armor",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -62880,7 +62889,7 @@ backup_data = {
                 "spriteId": 25,
                 "orientation": 2
             },
-            "Lvl 48 Executive Petrel |Team Rocket HQ| ":
+            "Lvl 48 Executive Petrel2 ":
             {
                 "level": 48,
                 "tr_id": 488,
@@ -62908,14 +62917,14 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Gorebyss":
         {
-            "Lvl 48 Team Rocket Grunt3 |Team Rocket HQ| ":
+            "Lvl 48 Team Rocket Grunt |Team Rocket HQ| ":
             {
                 "level": 48,
                 "tr_id": 218,
@@ -62950,7 +62959,7 @@ backup_data = {
         },
         "Mawile":
         {
-            "Lvl 48 Team Rocket Grunt3 |Team Rocket HQ| ":
+            "Lvl 48 Team Rocket Grunt |Team Rocket HQ| ":
             {
                 "level": 48,
                 "tr_id": 218,
@@ -63119,7 +63128,7 @@ backup_data = {
         },
         "Golem":
         {
-            "Lvl 48 Team Rocket Grunt5 ":
+            "Lvl 48 Team Rocket Grunt7 ":
             {
                 "level": 48,
                 "tr_id": 222,
@@ -63183,7 +63192,7 @@ backup_data = {
                 "spriteId": 174,
                 "orientation": 3
             },
-            "Lvl 55 Team Rocket Grunt6 ":
+            "Lvl 55 Team Rocket Grunt11 ":
             {
                 "level": 55,
                 "tr_id": 227,
@@ -63503,7 +63512,7 @@ backup_data = {
                 "spriteId": 177,
                 "orientation": 0
             },
-            "Lvl 55 Leader Brock |Saffron City| ":
+            "Lvl 55 Leader Brock ":
             {
                 "level": 55,
                 "tr_id": 720,
@@ -63531,14 +63540,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Adaptability",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Sableye":
         {
-            "Lvl 46 Team Rocket Grunt4 |Team Rocket HQ| ":
+            "Lvl 46 Team Rocket Grunt8 ":
             {
                 "level": 46,
                 "tr_id": 223,
@@ -63566,11 +63575,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Shadow Tag",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Elite Four Karen |Pokémon League| ":
+            "Lvl 69 Elite Four Karen ":
             {
                 "level": 69,
                 "tr_id": 246,
@@ -63598,7 +63607,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Magic Guard",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -63666,7 +63675,7 @@ backup_data = {
                 "spriteId": 245,
                 "orientation": 0
             },
-            "Lvl 52 Leader Morty |Saffron City| ":
+            "Lvl 52 Leader Morty2 ":
             {
                 "level": 52,
                 "tr_id": 715,
@@ -63694,14 +63703,14 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Magic Guard",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Swalot":
         {
-            "Lvl 46 Team Rocket Grunt5 |Team Rocket HQ| ":
+            "Lvl 46 Team Rocket Grunt9 ":
             {
                 "level": 46,
                 "tr_id": 224,
@@ -63729,11 +63738,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Liquid Ooze",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 31 Team Rocket Grunt |Ecruteak City| ":
+            "Lvl 31 Team Rocket Grunt13 ":
             {
                 "level": 31,
                 "tr_id": 601,
@@ -63761,14 +63770,14 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Liquid Ooze",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Typhlosn-S":
         {
-            "Lvl 48 Team Rocket Grunt6 |Team Rocket HQ| ":
+            "Lvl 48 Team Rocket Grunt10 ":
             {
                 "level": 48,
                 "tr_id": 225,
@@ -63796,11 +63805,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Flash Fire",
-                "location": "Team Rocket HQ",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 67 Elite Four Will |Pokémon League| ":
+            "Lvl 67 Elite Four Will ":
             {
                 "level": 67,
                 "tr_id": 245,
@@ -63828,11 +63837,11 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Flash Fire",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Rival Silver2 |Victory Road| ":
+            "Lvl 65 Rival Silver9 ":
             {
                 "level": 65,
                 "tr_id": 268,
@@ -63860,11 +63869,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Flash Fire",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Rival Silver2 |Mt. Moon| ":
+            "Lvl 50 Rival Silver15 ":
             {
                 "level": 50,
                 "tr_id": 286,
@@ -63892,11 +63901,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Flash Fire",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Rival Silver3 |Goldenrod City| ":
+            "Lvl 56 Rival Silver18 ":
             {
                 "level": 56,
                 "tr_id": 289,
@@ -63924,7 +63933,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Flash Fire",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -64056,7 +64065,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Rival Silver2 |Pokémon League| ":
+            "Lvl 60 Rival Silver20 ":
             {
                 "level": 60,
                 "tr_id": 490,
@@ -64084,7 +64093,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Flash Fire",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -64184,7 +64193,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Rival Silver5 ":
+            "Lvl 60 Rival Silver22 ":
             {
                 "level": 60,
                 "tr_id": 736,
@@ -64286,7 +64295,7 @@ backup_data = {
         },
         "Espeon":
         {
-            "Lvl 54 Team Rocket Grunt6 ":
+            "Lvl 54 Team Rocket Grunt11 ":
             {
                 "level": 54,
                 "tr_id": 227,
@@ -64318,7 +64327,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 68 Elite Four Will |Pokémon League| ":
+            "Lvl 68 Elite Four Will ":
             {
                 "level": 68,
                 "tr_id": 245,
@@ -64346,11 +64355,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Synchronize",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Leader Sabrina |Saffron City| ":
+            "Lvl 53 Leader Sabrina ":
             {
                 "level": 53,
                 "tr_id": 258,
@@ -64378,7 +64387,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Synchronize",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -64478,7 +64487,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 2
             },
-            "Lvl 58 Leader Sabrina2 |Saffron City| ":
+            "Lvl 58 Leader Sabrina2 ":
             {
                 "level": 58,
                 "tr_id": 725,
@@ -64506,7 +64515,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Magic Guard",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -64641,7 +64650,7 @@ backup_data = {
                 "spriteId": 177,
                 "orientation": 1
             },
-            "Lvl 52 Leader Pryce |Saffron City| ":
+            "Lvl 52 Leader Pryce2 ":
             {
                 "level": 52,
                 "tr_id": 716,
@@ -64669,7 +64678,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Levitate",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -64708,7 +64717,7 @@ backup_data = {
                 "spriteId": 137,
                 "orientation": 3
             },
-            "Lvl 32 Rival Silver |Burned Tower| ":
+            "Lvl 32 Rival Silver4 ":
             {
                 "level": 32,
                 "tr_id": 263,
@@ -64736,11 +64745,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Magic Guard",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 37 Rival Silver |Victory Road| ":
+            "Lvl 37 Rival Silver5 ":
             {
                 "level": 37,
                 "tr_id": 264,
@@ -64768,11 +64777,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver2 |Burned Tower| ":
+            "Lvl 32 Rival Silver8 ":
             {
                 "level": 32,
                 "tr_id": 267,
@@ -64800,11 +64809,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Magic Guard",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 32 Rival Silver3 |Burned Tower| ":
+            "Lvl 32 Rival Silver11 ":
             {
                 "level": 32,
                 "tr_id": 270,
@@ -64832,11 +64841,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Magic Guard",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 37 Rival Silver3 |Victory Road| ":
+            "Lvl 37 Rival Silver13 ":
             {
                 "level": 37,
                 "tr_id": 272,
@@ -64864,7 +64873,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -65229,7 +65238,7 @@ backup_data = {
                 "spriteId": 125,
                 "orientation": 0
             },
-            "Lvl 56 Executive Archer |Radio Tower| ":
+            "Lvl 56 Executive Archer ":
             {
                 "level": 56,
                 "tr_id": 485,
@@ -65257,7 +65266,7 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -65395,7 +65404,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Leader Sabrina |Saffron City| ":
+            "Lvl 53 Leader Sabrina ":
             {
                 "level": 53,
                 "tr_id": 258,
@@ -65423,7 +65432,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Filter",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -65683,7 +65692,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Leader Sabrina2 |Saffron City| ":
+            "Lvl 56 Leader Sabrina2 ":
             {
                 "level": 56,
                 "tr_id": 725,
@@ -65711,7 +65720,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Technician",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -65878,7 +65887,7 @@ backup_data = {
                 "spriteId": 22,
                 "orientation": 2
             },
-            "Lvl 58 Leader Pryce |Saffron City| ":
+            "Lvl 58 Leader Pryce2 ":
             {
                 "level": 58,
                 "tr_id": 716,
@@ -65906,7 +65915,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Thick Fat",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -66341,7 +66350,7 @@ backup_data = {
         },
         "Moltres":
         {
-            "Lvl 100 Hoenn Leader Flannery |Restaurant| ":
+            "Lvl 100 Hoenn Leader Flannery ":
             {
                 "level": 100,
                 "tr_id": 254,
@@ -66369,11 +66378,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Drought",
-                "location": "Restaurant",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Champion Red |Pokémon League| ":
+            "Lvl 71 Champion Red ":
             {
                 "level": 71,
                 "tr_id": 260,
@@ -66401,14 +66410,14 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Flash Fire",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Zapdos":
         {
-            "Lvl 100 Unova Leader Elesa |Vermilion City| ":
+            "Lvl 100 Unova Leader Elesa ":
             {
                 "level": 100,
                 "tr_id": 255,
@@ -66436,7 +66445,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Volt Absorb",
-                "location": "Vermilion City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -66475,7 +66484,7 @@ backup_data = {
         },
         "Alakazam":
         {
-            "Lvl 55 Leader Sabrina |Saffron City| ":
+            "Lvl 55 Leader Sabrina ":
             {
                 "level": 55,
                 "tr_id": 258,
@@ -66503,11 +66512,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Magic Guard",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Rival Silver2 |Victory Road| ":
+            "Lvl 65 Rival Silver9 ":
             {
                 "level": 65,
                 "tr_id": 268,
@@ -66535,11 +66544,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Magic Guard",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver |Goldenrod City| ":
+            "Lvl 55 Rival Silver12 ":
             {
                 "level": 55,
                 "tr_id": 271,
@@ -66567,11 +66576,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Magic Guard",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Rival Silver |Mt. Moon| ":
+            "Lvl 48 Rival Silver14 ":
             {
                 "level": 48,
                 "tr_id": 285,
@@ -66599,11 +66608,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Rival Silver2 |Mt. Moon| ":
+            "Lvl 48 Rival Silver15 ":
             {
                 "level": 48,
                 "tr_id": 286,
@@ -66631,11 +66640,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 48 Rival Silver3 |Mt. Moon| ":
+            "Lvl 48 Rival Silver16 ":
             {
                 "level": 48,
                 "tr_id": 287,
@@ -66663,11 +66672,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver2 |Goldenrod City| ":
+            "Lvl 55 Rival Silver17 ":
             {
                 "level": 55,
                 "tr_id": 288,
@@ -66695,11 +66704,11 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Magic Guard",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Rival Silver3 |Goldenrod City| ":
+            "Lvl 55 Rival Silver18 ":
             {
                 "level": 55,
                 "tr_id": 289,
@@ -66727,7 +66736,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Magic Guard",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -66763,7 +66772,7 @@ backup_data = {
                 "spriteId": 67,
                 "orientation": 1
             },
-            "Lvl 56 Rival Silver |Pokémon League| ":
+            "Lvl 56 Rival Silver19 ":
             {
                 "level": 56,
                 "tr_id": 489,
@@ -66791,11 +66800,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Rival Silver2 |Pokémon League| ":
+            "Lvl 56 Rival Silver20 ":
             {
                 "level": 56,
                 "tr_id": 490,
@@ -66823,7 +66832,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -66859,7 +66868,7 @@ backup_data = {
                 "spriteId": 126,
                 "orientation": 2
             },
-            "Lvl 38 Mystery Man Eusine |Cianwood City| ":
+            "Lvl 38 Mystery Man Eusine ":
             {
                 "level": 38,
                 "tr_id": 498,
@@ -66887,7 +66896,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
-                "location": "Cianwood City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -66987,7 +66996,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Leader Sabrina2 |Saffron City| ":
+            "Lvl 60 Leader Sabrina2 ":
             {
                 "level": 60,
                 "tr_id": 725,
@@ -67015,14 +67024,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Magic Guard",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Dialga":
         {
-            "Lvl 71 Champion Red |Pokémon League| ":
+            "Lvl 71 Champion Red ":
             {
                 "level": 71,
                 "tr_id": 260,
@@ -67050,11 +67059,11 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Magic Guard",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Champion Red2 |Pokémon League| ":
+            "Lvl 100 Champion Red2 ":
             {
                 "level": 100,
                 "tr_id": 701,
@@ -67082,14 +67091,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Magic Guard",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Slaking":
         {
-            "Lvl 71 Champion Red |Pokémon League| ":
+            "Lvl 71 Champion Red ":
             {
                 "level": 71,
                 "tr_id": 260,
@@ -67117,7 +67126,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Guts",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
@@ -67156,7 +67165,7 @@ backup_data = {
         },
         "Mewtwo":
         {
-            "Lvl 71 Champion Red |Pokémon League| ":
+            "Lvl 71 Champion Red ":
             {
                 "level": 71,
                 "tr_id": 260,
@@ -67184,11 +67193,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Synchronize",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Rocket Boss Giovanni |Tohjo Falls| ":
+            "Lvl 100 Rocket Boss Giovanni2 ":
             {
                 "level": 100,
                 "tr_id": 700,
@@ -67216,14 +67225,14 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Magic Guard",
-                "location": "Tohjo Falls",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Meganium":
         {
-            "Lvl 40 Rival Silver |Victory Road| ":
+            "Lvl 40 Rival Silver5 ":
             {
                 "level": 40,
                 "tr_id": 264,
@@ -67251,11 +67260,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Filter",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Rival Silver2 |Victory Road| ":
+            "Lvl 65 Rival Silver9 ":
             {
                 "level": 65,
                 "tr_id": 268,
@@ -67283,11 +67292,11 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Filter",
-                "location": "Victory Road",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Rival Silver |Mt. Moon| ":
+            "Lvl 50 Rival Silver14 ":
             {
                 "level": 50,
                 "tr_id": 285,
@@ -67315,11 +67324,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Filter",
-                "location": "Mt. Moon",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Rival Silver2 |Goldenrod City| ":
+            "Lvl 56 Rival Silver17 ":
             {
                 "level": 56,
                 "tr_id": 288,
@@ -67347,11 +67356,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Filter",
-                "location": "Goldenrod City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Rival Silver |Pokémon League| ":
+            "Lvl 60 Rival Silver19 ":
             {
                 "level": 60,
                 "tr_id": 489,
@@ -67379,11 +67388,11 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Filter",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 60 Rival Silver4 ":
+            "Lvl 60 Rival Silver21 ":
             {
                 "level": 60,
                 "tr_id": 735,
@@ -67418,7 +67427,7 @@ backup_data = {
         },
         "Chikorita":
         {
-            "Lvl 5 Rival Silver3 ":
+            "Lvl 5 Rival Silver6 ":
             {
                 "level": 5,
                 "tr_id": 265,
@@ -67450,7 +67459,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 5 Rival ??? |Cherrygrove City| ":
+            "Lvl 5 Rival ??? ":
             {
                 "level": 5,
                 "tr_id": 495,
@@ -67478,14 +67487,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Filter",
-                "location": "Cherrygrove City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Croconaw":
         {
-            "Lvl 25 Rival Silver3 |Azalea Town| ":
+            "Lvl 25 Rival Silver10 ":
             {
                 "level": 25,
                 "tr_id": 269,
@@ -67513,11 +67522,11 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Intimidate",
-                "location": "Azalea Town",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 33 Rival Silver3 |Burned Tower| ":
+            "Lvl 33 Rival Silver11 ":
             {
                 "level": 33,
                 "tr_id": 270,
@@ -67545,7 +67554,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Intimidate",
-                "location": "Burned Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -68012,7 +68021,7 @@ backup_data = {
                 "spriteId": 144,
                 "orientation": 3
             },
-            "Lvl 22 Executive Proton |SLOWPOKE Well| ":
+            "Lvl 22 Executive Proton ":
             {
                 "level": 22,
                 "tr_id": 486,
@@ -68040,7 +68049,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Intimidate",
-                "location": "SLOWPOKE Well",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -68146,7 +68155,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Leader Sabrina2 |Saffron City| ":
+            "Lvl 54 Leader Sabrina2 ":
             {
                 "level": 54,
                 "tr_id": 725,
@@ -68174,7 +68183,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Water Absorb",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -69541,7 +69550,7 @@ backup_data = {
                 "spriteId": 179,
                 "orientation": 3
             },
-            "Lvl 31 Team Rocket Grunt |Ecruteak City| ":
+            "Lvl 31 Team Rocket Grunt13 ":
             {
                 "level": 31,
                 "tr_id": 601,
@@ -69569,7 +69578,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Shed Skin",
-                "location": "Ecruteak City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -69608,7 +69617,7 @@ backup_data = {
                 "spriteId": 122,
                 "orientation": 1
             },
-            "Lvl 54 Leader Pryce |Saffron City| ":
+            "Lvl 54 Leader Pryce2 ":
             {
                 "level": 54,
                 "tr_id": 716,
@@ -69636,7 +69645,7 @@ backup_data = {
                 ],
                 "sub_index": 4,
                 "ability": "Ice Body",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -70598,7 +70607,7 @@ backup_data = {
         },
         "Raikou":
         {
-            "Lvl 56 Executive Archer |Radio Tower| ":
+            "Lvl 56 Executive Archer ":
             {
                 "level": 56,
                 "tr_id": 485,
@@ -70626,7 +70635,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Volt Absorb",
-                "location": "Radio Tower",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -71831,7 +71840,7 @@ backup_data = {
                 "spriteId": 125,
                 "orientation": 1
             },
-            "Lvl 50 Leader Whitney |Saffron City| ":
+            "Lvl 50 Leader Whitney2 ":
             {
                 "level": 50,
                 "tr_id": 714,
@@ -71859,14 +71868,14 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Thick Fat",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Lugia":
         {
-            "Lvl 100 Champion Red2 |Pokémon League| ":
+            "Lvl 100 Champion Red2 ":
             {
                 "level": 100,
                 "tr_id": 701,
@@ -71894,14 +71903,14 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Marvel Scale",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Celebi":
         {
-            "Lvl 100 Elite Four Will2 |Pokémon League| ":
+            "Lvl 100 Elite Four Will2 ":
             {
                 "level": 100,
                 "tr_id": 702,
@@ -71929,14 +71938,14 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Natural Cure",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Manaphy":
         {
-            "Lvl 100 Elite Four Koga |Pokémon League| ":
+            "Lvl 100 Elite Four Koga ":
             {
                 "level": 100,
                 "tr_id": 703,
@@ -71964,14 +71973,14 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Damp",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Registeel":
         {
-            "Lvl 100 Elite Four Bruno |Pokémon League| ":
+            "Lvl 100 Elite Four Bruno ":
             {
                 "level": 100,
                 "tr_id": 704,
@@ -71999,7 +72008,7 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Flash Fire",
-                "location": "Pokémon League",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -72041,7 +72050,7 @@ backup_data = {
         },
         "Suicune":
         {
-            "Lvl 56 Executive Proton ":
+            "Lvl 56 Executive Proton2 ":
             {
                 "level": 56,
                 "tr_id": 706,
@@ -72181,7 +72190,7 @@ backup_data = {
         },
         "Shiftry":
         {
-            "Lvl 54 Leader Erika |Saffron City| ":
+            "Lvl 54 Leader Erika2 ":
             {
                 "level": 54,
                 "tr_id": 723,
@@ -72209,14 +72218,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Chlorophyll",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
         },
         "Drapion":
         {
-            "Lvl 55 Leader Janine |Saffron City| ":
+            "Lvl 55 Leader Janine2 ":
             {
                 "level": 55,
                 "tr_id": 724,
@@ -72244,7 +72253,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Battle Armor",
-                "location": "Saffron City",
+                "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
             }
@@ -134382,7 +134391,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Double Slap":
         {
@@ -134391,7 +134400,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "Comet Punch":
         {
@@ -134400,7 +134409,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "Mega Punch":
         {
@@ -134418,7 +134427,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 34
         },
         "Fire Punch":
         {
@@ -134427,7 +134436,7 @@ backup_data = {
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 4
         },
         "Ice Punch":
         {
@@ -134436,7 +134445,7 @@ backup_data = {
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 5
         },
         "Thunder Punch":
         {
@@ -134445,7 +134454,7 @@ backup_data = {
             "type": "Electric",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 6
         },
         "Scratch":
         {
@@ -134472,7 +134481,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 38
         },
         "Razor Wind":
         {
@@ -134481,7 +134490,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 39
         },
         "Swords Dance":
         {
@@ -134490,7 +134499,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 50
         },
         "Cut":
         {
@@ -134508,7 +134517,7 @@ backup_data = {
             "type": "Flying",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 152
         },
         "Wing Attack":
         {
@@ -134526,7 +134535,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": -6,
-            "e_id": 0
+            "e_id": 28
         },
         "Fly":
         {
@@ -134535,7 +134544,7 @@ backup_data = {
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 155
         },
         "Bind":
         {
@@ -134544,7 +134553,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 42
         },
         "Night Daze":
         {
@@ -134553,7 +134562,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "HP Grass":
         {
@@ -134571,7 +134580,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 150
         },
         "Double Kick":
         {
@@ -134580,7 +134589,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 44
         },
         "Mega Kick":
         {
@@ -134598,7 +134607,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 45
         },
         "Rolling Kick":
         {
@@ -134607,7 +134616,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Sand Attack":
         {
@@ -134616,7 +134625,7 @@ backup_data = {
             "type": "Ground",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 23
         },
         "Headbutt":
         {
@@ -134625,7 +134634,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Horn Attack":
         {
@@ -134643,7 +134652,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "Drill Run":
         {
@@ -134652,7 +134661,7 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Tackle":
         {
@@ -134670,7 +134679,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 6
         },
         "Wrap":
         {
@@ -134679,7 +134688,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 42
         },
         "Take Down":
         {
@@ -134688,7 +134697,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 48
         },
         "Thrash":
         {
@@ -134697,7 +134706,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 27
         },
         "Double-Edge":
         {
@@ -134706,7 +134715,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Tail Whip":
         {
@@ -134715,7 +134724,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 19
         },
         "Poison Sting":
         {
@@ -134724,7 +134733,7 @@ backup_data = {
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 2
         },
         "Twineedle":
         {
@@ -134733,7 +134742,7 @@ backup_data = {
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 77
         },
         "Pin Missile":
         {
@@ -134742,7 +134751,7 @@ backup_data = {
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "Leer":
         {
@@ -134751,7 +134760,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 19
         },
         "Bite":
         {
@@ -134760,7 +134769,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Growl":
         {
@@ -134769,7 +134778,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 18
         },
         "Roar":
         {
@@ -134778,7 +134787,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": -6,
-            "e_id": 0
+            "e_id": 28
         },
         "Sing":
         {
@@ -134787,7 +134796,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 1
         },
         "Supersonic":
         {
@@ -134796,7 +134805,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 49
         },
         "Sonic Boom":
         {
@@ -134805,7 +134814,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 130
         },
         "Disable":
         {
@@ -134814,7 +134823,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 86
         },
         "Acid":
         {
@@ -134823,7 +134832,7 @@ backup_data = {
             "type": "Poison",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 72
         },
         "HP Fire":
         {
@@ -134841,7 +134850,7 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 4
         },
         "Mist":
         {
@@ -134850,7 +134859,7 @@ backup_data = {
             "type": "Ice",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 46
         },
         "Water Gun":
         {
@@ -134877,7 +134886,7 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 257
         },
         "Ice Beam":
         {
@@ -134886,7 +134895,7 @@ backup_data = {
             "type": "Ice",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 5
         },
         "Blizzard":
         {
@@ -134895,7 +134904,7 @@ backup_data = {
             "type": "Ice",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 260
         },
         "Psybeam":
         {
@@ -134904,7 +134913,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 76
         },
         "Bubble Beam":
         {
@@ -134913,7 +134922,7 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 70
         },
         "Aurora Beam":
         {
@@ -134922,7 +134931,7 @@ backup_data = {
             "type": "Ice",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 68
         },
         "Hyper Beam":
         {
@@ -134931,7 +134940,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Peck":
         {
@@ -134949,7 +134958,7 @@ backup_data = {
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "HP Fighting":
         {
@@ -134967,7 +134976,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 196
         },
         "Counter":
         {
@@ -134976,7 +134985,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": -5,
-            "e_id": 0
+            "e_id": 89
         },
         "Seismic Toss":
         {
@@ -134985,7 +134994,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 87
         },
         "Strength":
         {
@@ -134994,7 +135003,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 139
         },
         "Absorb":
         {
@@ -135003,7 +135012,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 3
         },
         "Mega Drain":
         {
@@ -135012,7 +135021,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 3
         },
         "Leech Seed":
         {
@@ -135021,7 +135030,7 @@ backup_data = {
             "type": "Grass",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 84
         },
         "Growth":
         {
@@ -135030,7 +135039,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 13
         },
         "Razor Leaf":
         {
@@ -135039,7 +135048,7 @@ backup_data = {
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Solar Beam":
         {
@@ -135048,7 +135057,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 151
         },
         "Poison Powder":
         {
@@ -135057,7 +135066,7 @@ backup_data = {
             "type": "Poison",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 66
         },
         "Stun Spore":
         {
@@ -135066,7 +135075,7 @@ backup_data = {
             "type": "Grass",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 67
         },
         "Sleep Powder":
         {
@@ -135075,7 +135084,7 @@ backup_data = {
             "type": "Grass",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 1
         },
         "Petal Dance":
         {
@@ -135084,7 +135093,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 76
         },
         "String Shot":
         {
@@ -135093,7 +135102,7 @@ backup_data = {
             "type": "Bug",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 20
         },
         "Dragon Rage":
         {
@@ -135102,7 +135111,7 @@ backup_data = {
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 41
         },
         "Fire Spin":
         {
@@ -135111,7 +135120,7 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 42
         },
         "HP Electric":
         {
@@ -135129,7 +135138,7 @@ backup_data = {
             "type": "Electric",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 6
         },
         "Thunder Wave":
         {
@@ -135138,7 +135147,7 @@ backup_data = {
             "type": "Electric",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 67
         },
         "Thunder":
         {
@@ -135147,7 +135156,7 @@ backup_data = {
             "type": "Electric",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 152
         },
         "HP Rock":
         {
@@ -135165,7 +135174,7 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 147
         },
         "HeadlongRush":
         {
@@ -135174,7 +135183,7 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 229
         },
         "Dig":
         {
@@ -135183,7 +135192,7 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 256
         },
         "Toxic":
         {
@@ -135192,7 +135201,7 @@ backup_data = {
             "type": "Poison",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 33
         },
         "Confusion":
         {
@@ -135201,7 +135210,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 76
         },
         "Psychic":
         {
@@ -135210,7 +135219,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 72
         },
         "Hypnosis":
         {
@@ -135219,7 +135228,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 1
         },
         "Meditate":
         {
@@ -135228,7 +135237,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 10
         },
         "Agility":
         {
@@ -135237,7 +135246,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 52
         },
         "Quick Attack":
         {
@@ -135246,7 +135255,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 1,
-            "e_id": 0
+            "e_id": 103
         },
         "Rage":
         {
@@ -135255,7 +135264,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 81
         },
         "Teleport":
         {
@@ -135264,7 +135273,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": -6,
-            "e_id": 0
+            "e_id": 228
         },
         "Night Shade":
         {
@@ -135273,7 +135282,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 87
         },
         "Mimic":
         {
@@ -135282,7 +135291,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 82
         },
         "Screech":
         {
@@ -135291,7 +135300,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 59
         },
         "Double Team":
         {
@@ -135300,7 +135309,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 16
         },
         "Recover":
         {
@@ -135309,7 +135318,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 32
         },
         "Harden":
         {
@@ -135318,7 +135327,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 11
         },
         "Minimize":
         {
@@ -135327,7 +135336,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 108
         },
         "SmokeScreen":
         {
@@ -135336,7 +135345,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 23
         },
         "Confuse Ray":
         {
@@ -135345,7 +135354,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 49
         },
         "Withdraw":
         {
@@ -135354,7 +135363,7 @@ backup_data = {
             "type": "Water",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 11
         },
         "Defense Curl":
         {
@@ -135363,7 +135372,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 156
         },
         "Barrier":
         {
@@ -135372,7 +135381,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 51
         },
         "Light Screen":
         {
@@ -135381,7 +135390,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 35
         },
         "Haze":
         {
@@ -135390,7 +135399,7 @@ backup_data = {
             "type": "Ice",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 25
         },
         "Reflect":
         {
@@ -135399,7 +135408,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 65
         },
         "Focus Energy":
         {
@@ -135408,7 +135417,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 47
         },
         "Bide":
         {
@@ -135417,7 +135426,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 1,
-            "e_id": 0
+            "e_id": 26
         },
         "Metronome":
         {
@@ -135426,7 +135435,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 83
         },
         "Mirror Move":
         {
@@ -135435,7 +135444,7 @@ backup_data = {
             "type": "Flying",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 9
         },
         "Self-Destruct":
         {
@@ -135444,7 +135453,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 7
         },
         "Egg Bomb":
         {
@@ -135453,7 +135462,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Lick":
         {
@@ -135462,7 +135471,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 6
         },
         "Smog":
         {
@@ -135471,7 +135480,7 @@ backup_data = {
             "type": "Poison",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 2
         },
         "HP Poison":
         {
@@ -135489,7 +135498,7 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Fire Blast":
         {
@@ -135498,7 +135507,7 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 4
         },
         "Waterfall":
         {
@@ -135507,7 +135516,7 @@ backup_data = {
             "type": "Water",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Clamp":
         {
@@ -135516,7 +135525,7 @@ backup_data = {
             "type": "Water",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "Swift":
         {
@@ -135525,7 +135534,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 17
         },
         "Skull Bash":
         {
@@ -135534,7 +135543,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 145
         },
         "Spike Cannon":
         {
@@ -135543,7 +135552,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "Constrict":
         {
@@ -135552,7 +135561,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 70
         },
         "Amnesia":
         {
@@ -135561,7 +135570,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 54
         },
         "Kinesis":
         {
@@ -135570,7 +135579,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 23
         },
         "Soft-Boiled":
         {
@@ -135579,7 +135588,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 32
         },
         "High Jump Kick":
         {
@@ -135588,7 +135597,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 45
         },
         "Glare":
         {
@@ -135597,7 +135606,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 67
         },
         "Dream Eater":
         {
@@ -135606,7 +135615,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 8
         },
         "Poison Gas":
         {
@@ -135615,7 +135624,7 @@ backup_data = {
             "type": "Poison",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 66
         },
         "Barrage":
         {
@@ -135624,7 +135633,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 17
         },
         "Leech Life":
         {
@@ -135633,7 +135642,7 @@ backup_data = {
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 3
         },
         "Lovely Kiss":
         {
@@ -135642,7 +135651,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 1
         },
         "Sky Attack":
         {
@@ -135651,7 +135660,7 @@ backup_data = {
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 75
         },
         "Transform":
         {
@@ -135660,7 +135669,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 57
         },
         "Bubble":
         {
@@ -135669,7 +135678,7 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 70
         },
         "Dizzy Punch":
         {
@@ -135678,7 +135687,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 76
         },
         "Spore":
         {
@@ -135687,7 +135696,7 @@ backup_data = {
             "type": "Grass",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 1
         },
         "Flash":
         {
@@ -135696,7 +135705,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 23
         },
         "HP Psychic":
         {
@@ -135714,7 +135723,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 85
         },
         "Acid Armor":
         {
@@ -135723,7 +135732,7 @@ backup_data = {
             "type": "Poison",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 51
         },
         "Crabhammer":
         {
@@ -135732,7 +135741,7 @@ backup_data = {
             "type": "Water",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Explosion":
         {
@@ -135741,7 +135750,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 7
         },
         "Dual Chop":
         {
@@ -135750,7 +135759,7 @@ backup_data = {
             "type": "Dragon",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 44
         },
         "Bonemerang":
         {
@@ -135759,7 +135768,7 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 44
         },
         "Rest":
         {
@@ -135768,7 +135777,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 37
         },
         "Rock Slide":
         {
@@ -135777,7 +135786,7 @@ backup_data = {
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Hyper Fang":
         {
@@ -135786,7 +135795,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Sharpen":
         {
@@ -135795,7 +135804,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 10
         },
         "Conversion":
         {
@@ -135804,7 +135813,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 30
         },
         "Tri Attack":
         {
@@ -135813,7 +135822,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 36
         },
         "Super Fang":
         {
@@ -135822,7 +135831,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 40
         },
         "Slash":
         {
@@ -135831,7 +135840,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Substitute":
         {
@@ -135840,7 +135849,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 79
         },
         "Struggle":
         {
@@ -135849,7 +135858,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 254
         },
         "Sketch":
         {
@@ -135858,7 +135867,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 95
         },
         "Triple Kick":
         {
@@ -135867,7 +135876,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 104
         },
         "Thief":
         {
@@ -135876,7 +135885,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 105
         },
         "Electroweb":
         {
@@ -135885,7 +135894,7 @@ backup_data = {
             "type": "Electric",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 70
         },
         "Mind Reader":
         {
@@ -135894,7 +135903,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 94
         },
         "Nightmare":
         {
@@ -135903,7 +135912,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 107
         },
         "Flame Wheel":
         {
@@ -135912,7 +135921,7 @@ backup_data = {
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 125
         },
         "Snore":
         {
@@ -135921,7 +135930,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 92
         },
         "Curse":
         {
@@ -135930,7 +135939,7 @@ backup_data = {
             "type": "Fairy",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 109
         },
         "Flail":
         {
@@ -135939,7 +135948,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 99
         },
         "Conversion 2":
         {
@@ -135948,7 +135957,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 93
         },
         "Aeroblast":
         {
@@ -135957,7 +135966,7 @@ backup_data = {
             "type": "Flying",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Cotton Spore":
         {
@@ -135966,7 +135975,7 @@ backup_data = {
             "type": "Grass",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 60
         },
         "Reversal":
         {
@@ -135975,7 +135984,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 99
         },
         "Spite":
         {
@@ -135984,7 +135993,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 100
         },
         "HP Ice":
         {
@@ -136002,7 +136011,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 4,
-            "e_id": 0
+            "e_id": 111
         },
         "Mach Punch":
         {
@@ -136011,7 +136020,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 1,
-            "e_id": 0
+            "e_id": 103
         },
         "Scary Face":
         {
@@ -136020,7 +136029,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 60
         },
         "Feint Attack":
         {
@@ -136029,7 +136038,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 17
         },
         "Sweet Kiss":
         {
@@ -136038,7 +136047,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 49
         },
         "Belly Drum":
         {
@@ -136047,7 +136056,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 142
         },
         "Sludge Bomb":
         {
@@ -136056,7 +136065,7 @@ backup_data = {
             "type": "Poison",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 2
         },
         "Mud-Slap":
         {
@@ -136065,7 +136074,7 @@ backup_data = {
             "type": "Ground",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 73
         },
         "Octazooka":
         {
@@ -136074,7 +136083,7 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 73
         },
         "Spikes":
         {
@@ -136083,7 +136092,7 @@ backup_data = {
             "type": "Ground",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 112
         },
         "Zap Cannon":
         {
@@ -136092,7 +136101,7 @@ backup_data = {
             "type": "Electric",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 262
         },
         "Foresight":
         {
@@ -136101,7 +136110,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 113
         },
         "Destiny Bond":
         {
@@ -136110,7 +136119,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 98
         },
         "Perish Song":
         {
@@ -136119,7 +136128,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 114
         },
         "Icy Wind":
         {
@@ -136128,7 +136137,7 @@ backup_data = {
             "type": "Ice",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 70
         },
         "Detect":
         {
@@ -136137,7 +136146,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Status",
             "priority": 4,
-            "e_id": 0
+            "e_id": 111
         },
         "Bone Rush":
         {
@@ -136146,7 +136155,7 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "Lock-On":
         {
@@ -136155,7 +136164,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 94
         },
         "Outrage":
         {
@@ -136164,7 +136173,7 @@ backup_data = {
             "type": "Dragon",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 27
         },
         "Sandstorm":
         {
@@ -136173,7 +136182,7 @@ backup_data = {
             "type": "Rock",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 115
         },
         "Giga Drain":
         {
@@ -136182,7 +136191,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 3
         },
         "Endure":
         {
@@ -136191,7 +136200,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 4,
-            "e_id": 0
+            "e_id": 116
         },
         "Charm":
         {
@@ -136200,7 +136209,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 58
         },
         "Accelerock":
         {
@@ -136209,7 +136218,7 @@ backup_data = {
             "type": "Rock",
             "category": "Physical",
             "priority": 1,
-            "e_id": 0
+            "e_id": 103
         },
         "False Swipe":
         {
@@ -136218,7 +136227,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 101
         },
         "Swagger":
         {
@@ -136227,7 +136236,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 118
         },
         "Milk Drink":
         {
@@ -136236,7 +136245,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 32
         },
         "Spark":
         {
@@ -136245,7 +136254,7 @@ backup_data = {
             "type": "Electric",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 6
         },
         "Fury Cutter":
         {
@@ -136254,7 +136263,7 @@ backup_data = {
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 119
         },
         "Steel Wing":
         {
@@ -136263,7 +136272,7 @@ backup_data = {
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 138
         },
         "Mean Look":
         {
@@ -136272,7 +136281,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 106
         },
         "Attract":
         {
@@ -136281,7 +136290,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 120
         },
         "Sleep Talk":
         {
@@ -136290,7 +136299,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 97
         },
         "Heal Bell":
         {
@@ -136299,7 +136308,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 102
         },
         "Return":
         {
@@ -136308,7 +136317,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 121
         },
         "Present":
         {
@@ -136317,7 +136326,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 122
         },
         "Frustration":
         {
@@ -136326,7 +136335,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 121
         },
         "Safeguard":
         {
@@ -136335,7 +136344,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 124
         },
         "Pain Split":
         {
@@ -136344,7 +136353,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 91
         },
         "Sacred Fire":
         {
@@ -136353,7 +136362,7 @@ backup_data = {
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 253
         },
         "Bulldoze":
         {
@@ -136362,7 +136371,7 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 70
         },
         "Dynamic Punch":
         {
@@ -136371,7 +136380,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 76
         },
         "Megahorn":
         {
@@ -136389,7 +136398,7 @@ backup_data = {
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 6
         },
         "Baton Pass":
         {
@@ -136398,7 +136407,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 127
         },
         "Encore":
         {
@@ -136407,7 +136416,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 90
         },
         "Pursuit":
         {
@@ -136416,7 +136425,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 128
         },
         "Rapid Spin":
         {
@@ -136425,7 +136434,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 129
         },
         "Sweet Scent":
         {
@@ -136434,7 +136443,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 24
         },
         "Iron Tail":
         {
@@ -136443,7 +136452,7 @@ backup_data = {
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 69
         },
         "Metal Claw":
         {
@@ -136452,7 +136461,7 @@ backup_data = {
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 139
         },
         "Vital Throw":
         {
@@ -136461,7 +136470,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": -1,
-            "e_id": 0
+            "e_id": 78
         },
         "Morning Sun":
         {
@@ -136470,7 +136479,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 132
         },
         "Synthesis":
         {
@@ -136479,7 +136488,7 @@ backup_data = {
             "type": "Grass",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 132
         },
         "Moonlight":
         {
@@ -136488,7 +136497,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 132
         },
         "Hidden Power":
         {
@@ -136497,7 +136506,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 135
         },
         "Cross Chop":
         {
@@ -136506,7 +136515,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "HP Dragon":
         {
@@ -136524,7 +136533,7 @@ backup_data = {
             "type": "Water",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 136
         },
         "Sunny Day":
         {
@@ -136533,7 +136542,7 @@ backup_data = {
             "type": "Fire",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 137
         },
         "Crunch":
         {
@@ -136542,7 +136551,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 69
         },
         "Mirror Coat":
         {
@@ -136551,7 +136560,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": -5,
-            "e_id": 0
+            "e_id": 144
         },
         "Psych Up":
         {
@@ -136560,7 +136569,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 143
         },
         "Extreme Speed":
         {
@@ -136569,7 +136578,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 2,
-            "e_id": 0
+            "e_id": 103
         },
         "Ancient Power":
         {
@@ -136578,7 +136587,7 @@ backup_data = {
             "type": "Rock",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 140
         },
         "Shadow Ball":
         {
@@ -136587,7 +136596,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 72
         },
         "Future Sight":
         {
@@ -136596,7 +136605,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 148
         },
         "Rock Smash":
         {
@@ -136605,7 +136614,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 69
         },
         "Whirlpool":
         {
@@ -136614,7 +136623,7 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 261
         },
         "Beat Up":
         {
@@ -136623,7 +136632,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 154
         },
         "Fake Out":
         {
@@ -136632,7 +136641,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 1,
-            "e_id": 0
+            "e_id": 158
         },
         "Uproar":
         {
@@ -136641,7 +136650,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 159
         },
         "Stockpile":
         {
@@ -136650,7 +136659,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 160
         },
         "Spit Up":
         {
@@ -136659,7 +136668,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 161
         },
         "Swallow":
         {
@@ -136668,7 +136677,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 162
         },
         "Heat Wave":
         {
@@ -136677,7 +136686,7 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 4
         },
         "Hail":
         {
@@ -136686,7 +136695,7 @@ backup_data = {
             "type": "Ice",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 164
         },
         "Torment":
         {
@@ -136695,7 +136704,7 @@ backup_data = {
             "type": "Dark",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 165
         },
         "Flatter":
         {
@@ -136704,7 +136713,7 @@ backup_data = {
             "type": "Dark",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 166
         },
         "Will-O-Wisp":
         {
@@ -136713,7 +136722,7 @@ backup_data = {
             "type": "Fire",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 167
         },
         "Memento":
         {
@@ -136722,7 +136731,7 @@ backup_data = {
             "type": "Dark",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 168
         },
         "Facade":
         {
@@ -136731,7 +136740,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 169
         },
         "Focus Punch":
         {
@@ -136740,7 +136749,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": -3,
-            "e_id": 0
+            "e_id": 170
         },
         "Smelling Salts":
         {
@@ -136749,7 +136758,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 171
         },
         "Follow Me":
         {
@@ -136758,7 +136767,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 3,
-            "e_id": 0
+            "e_id": 172
         },
         "Nature Power":
         {
@@ -136767,7 +136776,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 173
         },
         "Charge":
         {
@@ -136776,7 +136785,7 @@ backup_data = {
             "type": "Electric",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 174
         },
         "Taunt":
         {
@@ -136785,7 +136794,7 @@ backup_data = {
             "type": "Dark",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 175
         },
         "Helping Hand":
         {
@@ -136794,7 +136803,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 5,
-            "e_id": 0
+            "e_id": 176
         },
         "Trick":
         {
@@ -136803,7 +136812,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 85
         },
         "Role Play":
         {
@@ -136812,7 +136821,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 178
         },
         "Wish":
         {
@@ -136821,7 +136830,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 179
         },
         "Assist":
         {
@@ -136830,7 +136839,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 180
         },
         "Ingrain":
         {
@@ -136839,7 +136848,7 @@ backup_data = {
             "type": "Grass",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 181
         },
         "Superpower":
         {
@@ -136848,7 +136857,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Magic Coat":
         {
@@ -136857,7 +136866,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 4,
-            "e_id": 0
+            "e_id": 183
         },
         "Recycle":
         {
@@ -136866,7 +136875,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 184
         },
         "Revenge":
         {
@@ -136875,7 +136884,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": -4,
-            "e_id": 0
+            "e_id": 185
         },
         "Brick Break":
         {
@@ -136884,7 +136893,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 186
         },
         "Yawn":
         {
@@ -136893,7 +136902,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 1
         },
         "Knock Off":
         {
@@ -136902,7 +136911,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 188
         },
         "Endeavor":
         {
@@ -136911,7 +136920,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 189
         },
         "Eruption":
         {
@@ -136920,7 +136929,7 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 190
         },
         "Skill Swap":
         {
@@ -136929,7 +136938,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 191
         },
         "Imprison":
         {
@@ -136938,7 +136947,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 192
         },
         "Refresh":
         {
@@ -136947,7 +136956,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 193
         },
         "Grudge":
         {
@@ -136956,7 +136965,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 194
         },
         "Snatch":
         {
@@ -136965,7 +136974,7 @@ backup_data = {
             "type": "Dark",
             "category": "Status",
             "priority": 4,
-            "e_id": 0
+            "e_id": 195
         },
         "Secret Power":
         {
@@ -136974,7 +136983,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 197
         },
         "Dive":
         {
@@ -136983,7 +136992,7 @@ backup_data = {
             "type": "Water",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 255
         },
         "Arm Thrust":
         {
@@ -136992,7 +137001,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "Camouflage":
         {
@@ -137001,7 +137010,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 213
         },
         "Tail Glow":
         {
@@ -137010,7 +137019,7 @@ backup_data = {
             "type": "Bug",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 53
         },
         "Luster Purge":
         {
@@ -137019,7 +137028,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 72
         },
         "Mist Ball":
         {
@@ -137028,7 +137037,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 71
         },
         "HP Flying":
         {
@@ -137046,7 +137055,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 199
         },
         "Blaze Kick":
         {
@@ -137055,7 +137064,7 @@ backup_data = {
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 200
         },
         "HP Ground":
         {
@@ -137073,7 +137082,7 @@ backup_data = {
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 117
         },
         "Needle Arm":
         {
@@ -137082,7 +137091,7 @@ backup_data = {
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Slack Off":
         {
@@ -137091,7 +137100,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 32
         },
         "Hyper Voice":
         {
@@ -137100,7 +137109,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 72
         },
         "Poison Fang":
         {
@@ -137109,7 +137118,7 @@ backup_data = {
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 202
         },
         "Crush Claw":
         {
@@ -137118,7 +137127,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 69
         },
         "Blast Burn":
         {
@@ -137127,7 +137136,7 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Hydro Cannon":
         {
@@ -137136,7 +137145,7 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Meteor Mash":
         {
@@ -137145,7 +137154,7 @@ backup_data = {
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 139
         },
         "HP Ghost":
         {
@@ -137163,7 +137172,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 203
         },
         "Aromatherapy":
         {
@@ -137172,7 +137181,7 @@ backup_data = {
             "type": "Grass",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 102
         },
         "Fake Tears":
         {
@@ -137181,7 +137190,7 @@ backup_data = {
             "type": "Dark",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 62
         },
         "Air Cutter":
         {
@@ -137190,7 +137199,7 @@ backup_data = {
             "type": "Flying",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Overheat":
         {
@@ -137199,7 +137208,7 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Odor Sleuth":
         {
@@ -137208,7 +137217,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 113
         },
         "Rock Tomb":
         {
@@ -137217,7 +137226,7 @@ backup_data = {
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 70
         },
         "Silver Wind":
         {
@@ -137226,7 +137235,7 @@ backup_data = {
             "type": "Bug",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 140
         },
         "Metal Sound":
         {
@@ -137235,7 +137244,7 @@ backup_data = {
             "type": "Steel",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 62
         },
         "Grass Whistle":
         {
@@ -137244,7 +137253,7 @@ backup_data = {
             "type": "Grass",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 1
         },
         "Tickle":
         {
@@ -137253,7 +137262,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 205
         },
         "Cosmic Power":
         {
@@ -137262,7 +137271,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 206
         },
         "Water Spout":
         {
@@ -137271,7 +137280,7 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 190
         },
         "Signal Beam":
         {
@@ -137280,7 +137289,7 @@ backup_data = {
             "type": "Bug",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 76
         },
         "Shadow Punch":
         {
@@ -137289,7 +137298,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 17
         },
         "Extrasensory":
         {
@@ -137298,7 +137307,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Sky Uppercut":
         {
@@ -137307,7 +137316,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 207
         },
         "Sand Tomb":
         {
@@ -137316,7 +137325,7 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 42
         },
         "Sheer Cold":
         {
@@ -137325,7 +137334,7 @@ backup_data = {
             "type": "Ice",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 38
         },
         "Muddy Water":
         {
@@ -137334,7 +137343,7 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 73
         },
         "Bullet Seed":
         {
@@ -137343,7 +137352,7 @@ backup_data = {
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "Aerial Ace":
         {
@@ -137352,7 +137361,7 @@ backup_data = {
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 17
         },
         "Icicle Spear":
         {
@@ -137361,7 +137370,7 @@ backup_data = {
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "HP Steel":
         {
@@ -137379,7 +137388,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 106
         },
         "Howl":
         {
@@ -137388,7 +137397,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 10
         },
         "Dragon Claw":
         {
@@ -137406,7 +137415,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Bulk Up":
         {
@@ -137415,7 +137424,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 208
         },
         "Bounce":
         {
@@ -137424,7 +137433,7 @@ backup_data = {
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 263
         },
         "Mud Shot":
         {
@@ -137433,7 +137442,7 @@ backup_data = {
             "type": "Ground",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 70
         },
         "Poison Tail":
         {
@@ -137442,7 +137451,7 @@ backup_data = {
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 209
         },
         "Covet":
         {
@@ -137451,7 +137460,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 105
         },
         "Volt Tackle":
         {
@@ -137460,7 +137469,7 @@ backup_data = {
             "type": "Electric",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 262
         },
         "Magical Leaf":
         {
@@ -137469,7 +137478,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 17
         },
         "HP Water":
         {
@@ -137487,7 +137496,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 211
         },
         "Leaf Blade":
         {
@@ -137496,7 +137505,7 @@ backup_data = {
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Dragon Dance":
         {
@@ -137505,7 +137514,7 @@ backup_data = {
             "type": "Dragon",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 212
         },
         "Rock Blast":
         {
@@ -137514,7 +137523,7 @@ backup_data = {
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 29
         },
         "Shock Wave":
         {
@@ -137523,7 +137532,7 @@ backup_data = {
             "type": "Electric",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 17
         },
         "Water Pulse":
         {
@@ -137532,7 +137541,7 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 76
         },
         "Doom Desire":
         {
@@ -137541,7 +137550,7 @@ backup_data = {
             "type": "Steel",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 148
         },
         "Psycho Boost":
         {
@@ -137550,7 +137559,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Roost":
         {
@@ -137559,7 +137568,7 @@ backup_data = {
             "type": "Flying",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 214
         },
         "Gravity":
         {
@@ -137568,7 +137577,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 215
         },
         "Miracle Eye":
         {
@@ -137577,7 +137586,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 216
         },
         "Wake-Up Slap":
         {
@@ -137586,7 +137595,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 217
         },
         "Hammer Arm":
         {
@@ -137595,7 +137604,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 218
         },
         "Gyro Ball":
         {
@@ -137604,7 +137613,7 @@ backup_data = {
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 219
         },
         "Healing Wish":
         {
@@ -137613,7 +137622,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 220
         },
         "Brine":
         {
@@ -137622,7 +137631,7 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 221
         },
         "Natural Gift":
         {
@@ -137631,7 +137640,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 222
         },
         "Feint":
         {
@@ -137640,7 +137649,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 2,
-            "e_id": 0
+            "e_id": 223
         },
         "Pluck":
         {
@@ -137649,7 +137658,7 @@ backup_data = {
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 224
         },
         "Tailwind":
         {
@@ -137658,7 +137667,7 @@ backup_data = {
             "type": "Flying",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 225
         },
         "Acupressure":
         {
@@ -137667,7 +137676,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 226
         },
         "Metal Burst":
         {
@@ -137676,7 +137685,7 @@ backup_data = {
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 227
         },
         "U-turn":
         {
@@ -137685,7 +137694,7 @@ backup_data = {
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 228
         },
         "Close Combat":
         {
@@ -137694,7 +137703,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 229
         },
         "Payback":
         {
@@ -137703,7 +137712,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 230
         },
         "Assurance":
         {
@@ -137712,7 +137721,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 231
         },
         "Embargo":
         {
@@ -137721,7 +137730,7 @@ backup_data = {
             "type": "Dark",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 232
         },
         "Fling":
         {
@@ -137730,7 +137739,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 233
         },
         "Psycho Shift":
         {
@@ -137739,7 +137748,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 234
         },
         "Trump Card":
         {
@@ -137748,7 +137757,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 235
         },
         "Heal Block":
         {
@@ -137757,7 +137766,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 236
         },
         "Wring Out":
         {
@@ -137766,7 +137775,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 237
         },
         "Power Trick":
         {
@@ -137775,7 +137784,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 238
         },
         "Gastro Acid":
         {
@@ -137784,7 +137793,7 @@ backup_data = {
             "type": "Poison",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 239
         },
         "Lucky Chant":
         {
@@ -137793,7 +137802,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 240
         },
         "Me First":
         {
@@ -137802,7 +137811,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 241
         },
         "Copycat":
         {
@@ -137811,7 +137820,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 242
         },
         "Power Swap":
         {
@@ -137820,7 +137829,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 243
         },
         "Guard Swap":
         {
@@ -137829,7 +137838,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 244
         },
         "Punishment":
         {
@@ -137838,7 +137847,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 245
         },
         "Last Resort":
         {
@@ -137847,7 +137856,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 246
         },
         "Worry Seed":
         {
@@ -137856,7 +137865,7 @@ backup_data = {
             "type": "Grass",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 247
         },
         "Sucker Punch":
         {
@@ -137865,7 +137874,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 1,
-            "e_id": 0
+            "e_id": 248
         },
         "Toxic Spikes":
         {
@@ -137874,7 +137883,7 @@ backup_data = {
             "type": "Poison",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 249
         },
         "Heart Swap":
         {
@@ -137883,7 +137892,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 250
         },
         "Aqua Ring":
         {
@@ -137892,7 +137901,7 @@ backup_data = {
             "type": "Water",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 251
         },
         "Magnet Rise":
         {
@@ -137901,7 +137910,7 @@ backup_data = {
             "type": "Electric",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 252
         },
         "Flare Blitz":
         {
@@ -137910,7 +137919,7 @@ backup_data = {
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 253
         },
         "Force Palm":
         {
@@ -137919,7 +137928,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 6
         },
         "Aura Sphere":
         {
@@ -137928,7 +137937,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 17
         },
         "Rock Polish":
         {
@@ -137937,7 +137946,7 @@ backup_data = {
             "type": "Rock",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 52
         },
         "Poison Jab":
         {
@@ -137946,7 +137955,7 @@ backup_data = {
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 2
         },
         "Dark Pulse":
         {
@@ -137955,7 +137964,7 @@ backup_data = {
             "type": "Dark",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Night Slash":
         {
@@ -137964,7 +137973,7 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Aqua Tail":
         {
@@ -137991,7 +138000,7 @@ backup_data = {
             "type": "Flying",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "X-Scissor":
         {
@@ -138009,7 +138018,7 @@ backup_data = {
             "type": "Bug",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 72
         },
         "Dragon Pulse":
         {
@@ -138027,7 +138036,7 @@ backup_data = {
             "type": "Dragon",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Power Gem":
         {
@@ -138045,7 +138054,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 3
         },
         "Vacuum Wave":
         {
@@ -138054,7 +138063,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Special",
             "priority": 1,
-            "e_id": 0
+            "e_id": 103
         },
         "Focus Blast":
         {
@@ -138063,7 +138072,7 @@ backup_data = {
             "type": "Fighting",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 72
         },
         "Energy Ball":
         {
@@ -138072,7 +138081,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 72
         },
         "Brave Bird":
         {
@@ -138081,7 +138090,7 @@ backup_data = {
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Earth Power":
         {
@@ -138090,7 +138099,7 @@ backup_data = {
             "type": "Ground",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 72
         },
         "Switcheroo":
         {
@@ -138099,7 +138108,7 @@ backup_data = {
             "type": "Dark",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 177
         },
         "Giga Impact":
         {
@@ -138108,7 +138117,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Nasty Plot":
         {
@@ -138117,7 +138126,7 @@ backup_data = {
             "type": "Dark",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 53
         },
         "Bullet Punch":
         {
@@ -138126,7 +138135,7 @@ backup_data = {
             "type": "Steel",
             "category": "Physical",
             "priority": 1,
-            "e_id": 0
+            "e_id": 103
         },
         "Avalanche":
         {
@@ -138135,7 +138144,7 @@ backup_data = {
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Ice Shard":
         {
@@ -138144,7 +138153,7 @@ backup_data = {
             "type": "Ice",
             "category": "Physical",
             "priority": 1,
-            "e_id": 0
+            "e_id": 103
         },
         "Shadow Claw":
         {
@@ -138153,7 +138162,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Thunder Fang":
         {
@@ -138162,7 +138171,7 @@ backup_data = {
             "type": "Electric",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 275
         },
         "Ice Fang":
         {
@@ -138171,7 +138180,7 @@ backup_data = {
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 274
         },
         "Fire Fang":
         {
@@ -138180,7 +138189,7 @@ backup_data = {
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 273
         },
         "Shadow Sneak":
         {
@@ -138189,7 +138198,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Physical",
             "priority": 1,
-            "e_id": 0
+            "e_id": 103
         },
         "Mud Bomb":
         {
@@ -138198,7 +138207,7 @@ backup_data = {
             "type": "Ground",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 73
         },
         "Psycho Cut":
         {
@@ -138207,7 +138216,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Zen Headbutt":
         {
@@ -138216,7 +138225,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Mirror Shot":
         {
@@ -138225,7 +138234,7 @@ backup_data = {
             "type": "Steel",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 73
         },
         "Flash Cannon":
         {
@@ -138234,7 +138243,7 @@ backup_data = {
             "type": "Steel",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 72
         },
         "Rock Climb":
         {
@@ -138243,7 +138252,7 @@ backup_data = {
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 76
         },
         "Defog":
         {
@@ -138252,7 +138261,7 @@ backup_data = {
             "type": "Flying",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 258
         },
         "Trick Room":
         {
@@ -138261,7 +138270,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": -7,
-            "e_id": 0
+            "e_id": 259
         },
         "Draco Meteor":
         {
@@ -138270,7 +138279,7 @@ backup_data = {
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Discharge":
         {
@@ -138279,7 +138288,7 @@ backup_data = {
             "type": "Electric",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 6
         },
         "Lava Plume":
         {
@@ -138288,7 +138297,7 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 4
         },
         "Leaf Storm":
         {
@@ -138297,7 +138306,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Power Whip":
         {
@@ -138315,7 +138324,7 @@ backup_data = {
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Cross Poison":
         {
@@ -138324,7 +138333,7 @@ backup_data = {
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 209
         },
         "Gunk Shot":
         {
@@ -138333,7 +138342,7 @@ backup_data = {
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 2
         },
         "Iron Head":
         {
@@ -138342,7 +138351,7 @@ backup_data = {
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 31
         },
         "Magnet Bomb":
         {
@@ -138351,7 +138360,7 @@ backup_data = {
             "type": "Steel",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 17
         },
         "Stone Edge":
         {
@@ -138360,7 +138369,7 @@ backup_data = {
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Captivate":
         {
@@ -138369,7 +138378,7 @@ backup_data = {
             "type": "Normal",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 61
         },
         "Stealth Rock":
         {
@@ -138378,7 +138387,7 @@ backup_data = {
             "type": "Rock",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 266
         },
         "Grass Knot":
         {
@@ -138387,7 +138396,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 196
         },
         "Chatter":
         {
@@ -138396,7 +138405,7 @@ backup_data = {
             "type": "Flying",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 267
         },
         "Judgment":
         {
@@ -138405,7 +138414,7 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 268
         },
         "Bug Bite":
         {
@@ -138414,7 +138423,7 @@ backup_data = {
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 224
         },
         "Volt Switch":
         {
@@ -138423,7 +138432,7 @@ backup_data = {
             "type": "Electric",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 228
         },
         "Wood Hammer":
         {
@@ -138432,7 +138441,7 @@ backup_data = {
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Aqua Jet":
         {
@@ -138441,7 +138450,7 @@ backup_data = {
             "type": "Water",
             "category": "Physical",
             "priority": 1,
-            "e_id": 0
+            "e_id": 103
         },
         "Attack Order":
         {
@@ -138450,7 +138459,7 @@ backup_data = {
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "HP Bug":
         {
@@ -138468,7 +138477,7 @@ backup_data = {
             "type": "Bug",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 32
         },
         "Head Smash":
         {
@@ -138477,7 +138486,7 @@ backup_data = {
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Double Hit":
         {
@@ -138486,7 +138495,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 44
         },
         "Roar of Time":
         {
@@ -138495,7 +138504,7 @@ backup_data = {
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 198
         },
         "Spacial Rend":
         {
@@ -138504,7 +138513,7 @@ backup_data = {
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 43
         },
         "Lunar Dance":
         {
@@ -138513,7 +138522,7 @@ backup_data = {
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
-            "e_id": 0
+            "e_id": 270
         },
         "Crush Grip":
         {
@@ -138522,7 +138531,7 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 237
         },
         "Magma Storm":
         {
@@ -138531,7 +138540,7 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 42
         },
         "HP Dark":
         {
@@ -138549,7 +138558,7 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 271
         },
         "Ominous Wind":
         {
@@ -138558,7 +138567,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 140
         },
         "Shadow Force":
         {
@@ -138567,7 +138576,7 @@ backup_data = {
             "type": "Ghost",
             "category": "Physical",
             "priority": 0,
-            "e_id": 0
+            "e_id": 272
         },
         "MOVE_468":
         {

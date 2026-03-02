@@ -165,6 +165,10 @@ input[type="file"] {
     z-index: 12;
 }
 
+.ai-tag {
+    display: none;
+}
+
 #player-tags {
     justify-content: space-between;
     width: calc(100% - 12px);

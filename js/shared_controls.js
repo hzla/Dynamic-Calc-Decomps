@@ -873,14 +873,32 @@ $(".set-selector").change(function () {
 					$(".nav-tag.partner").hide()
 				}
 
-				$('#ai-tags').html("")
-				if (typeof ai != "undefined") {
-					for (tag of ai) {
-						if (tag == "Ace Pokemon" || tag == "Powerful Status" || tag == "Force Setup First Turn") {
-							$('#ai-tags').append(`<div>${tag}</div>`)
-						}	
+				
+				
+
+				if (settings.damageGen == 4 || settings.damageGen == 5) {
+					ai = setdex[pokemonName][setName]["ai"]
+					for (n in [1,2,3,4,5,6]) {
+						n = parseInt(n)
+						if (ai & (1 << n)) {
+							$(`#ai${n + 1}`).show()
+						} else {
+							$(`#ai${n + 1}`).hide()
+						}
+					}
+				} else {
+					$('#ai-tags').html("")
+					if (typeof ai != "undefined") {
+						for (tag of ai) {
+							if (tag == "Ace Pokemon" || tag == "Powerful Status" || tag == "Force Setup First Turn") {
+								$('#ai-tags').append(`<div>${tag}</div>`)
+							}	
+						}
 					}
 				}
+
+				
+				
 				
 				if (!(typeof partnerName != undefined && partnerName != null) && (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation")) {
 					$('#singles-format').click()
