@@ -130,7 +130,8 @@ SOURCES = {
   "vwplus": "Vintage White Plus",
   "blind": "Blinding White 2",
   "a6f5b7e55bbd7ebbdd52": "Rigorous Red",
-  "bb8579a3798fd63b429d": "Royal Saphire"
+  "bb8579a3798fd63b429d": "Royal Saphire",
+  "null": "Pokemon Null"
 }
 
 $(document).ready(function() {
@@ -219,6 +220,18 @@ function setGameSettings(title) {
     showDex = true;
     showAI = true;
     $('label[for="snow"]').hide()
+  } else if (title == "Pokemon Null") {
+    gameGen = 8
+    settings.damageGen = 8
+    settings.noSwitch = 1
+    settings.sourceType = "full"
+    settings.typeChart = 6;
+    settings.critGen = 6;
+    showDex = false;
+    showAI = false;
+    $('#sync-lua').show()
+    $('label[for="snow"]').show()
+    $('label[for="hail"]').hide()
   } else if (title == "Sterling Silver") {
     gameGen = 4
     settings.damageGen = 4
@@ -341,6 +354,7 @@ if (SOURCES[params.get('data')]) {
         if (localStorage.switchInfo == '1') {
           $('.trainer-pok-list.opposing').addClass('ai-show')
         }
+        $('#sync-lua').show()
     } else if (TITLE == "Renegade Platinum") {
       baseGame = "Pt"
     } else if (TITLE.includes(" Black") || TITLE.includes(" White")) {

@@ -27,10 +27,6 @@ if (TITLE.includes("Imperium")) {
 
             // Try to get a persistent handle via File System Access API (if supported)
             if ('showOpenFilePicker' in window && localStorage.watchSaveFile == '1') {
-                // #read-save is a <label for="save-upload">, so stop the label from
-                // opening the native file input picker in addition to showOpenFilePicker().
-                event.preventDefault();
-                event.stopPropagation();
                
                try {
                     [fileHandle] = await window.showOpenFilePicker({
@@ -43,7 +39,6 @@ if (TITLE.includes("Imperium")) {
                     console.warn("User cancelled file handle selection, falling back to input-only mode.");
                     fileHandle = null;
                 }
-                if (!fileHandle) return;
                 file = await fileHandle.getFile();
             } else {
                 file = event.target.files[0];
@@ -74,10 +69,8 @@ if (TITLE.includes("Imperium")) {
                           buffer = extractSaveState(buffer)  
                         }
                  
-                        buffer = new Uint8Array(buffer.slice(205168, 397312).slice(0, 157477)).buffer.slice(
-                            buffer.byteOffset,
-                            buffer.byteOffset + buffer.byteLength
-                        );
+                        buffer = new Uint8Array(buffer).buffer;
+                        // buffer = new Uint8Array(buffer)
 
                     }
 
@@ -227,6 +220,10 @@ if (TITLE.includes("Imperium")) {
                                 speciesId += 7
                             }
                             let speciesName = emImpMons[speciesId]
+
+                            if (speciesName == "Hitmonchan") {
+                                console.log(`${pid}, ${tid}`)
+                            }
 
 
                             
@@ -766,5 +763,341 @@ function extractSaveState(file) {
   }
 }
 
+function gen3Uint8ArrayFromHexString(hex) {
+    if (typeof hex !== "string") {
+        throw new Error("Expected hex string");
+    }
+    if ((hex.length % 2) !== 0) {
+        throw new Error("Hex string length must be even");
+    }
+    const out = new Uint8Array(hex.length / 2);
+    for (let i = 0; i < out.length; i++) {
+        const byteText = hex.slice(i * 2, i * 2 + 2);
+        const value = parseInt(byteText, 16);
+        if (Number.isNaN(value)) {
+            throw new Error(`Invalid hex byte at index ${i}: ${byteText}`);
+        }
+        out[i] = value & 0xFF;
+    }
+    return out;
+}
+
+function gen3ReadU16LE(bytes, offset) {
+    if (!bytes || offset < 0 || offset + 1 >= bytes.length) {
+        return 0;
+    }
+    return ((bytes[offset] | (bytes[offset + 1] << 8)) >>> 0) & 0xFFFF;
+}
+
+function gen3ReadU32LE(bytes, offset) {
+    if (!bytes || offset < 0 || offset + 3 >= bytes.length) {
+        return 0;
+    }
+    return (((bytes[offset]) |
+        (bytes[offset + 1] << 8) |
+        (bytes[offset + 2] << 16) |
+        (bytes[offset + 3] << 24)) >>> 0);
+}
+
+function gen3DecodeNickname(bytes) {
+    if (!bytes || typeof gen3TextTable === "undefined") {
+        return "";
+    }
+    let out = "";
+    for (let i = 0; i < bytes.length; i++) {
+        const v = bytes[i] & 0xFF;
+        if (v === 0xFF || v === 0x00) {
+            break;
+        }
+        out += gen3TextTable[v] || "";
+    }
+    return out.trim();
+}
+
+function gen3ResolveGrowthRate(speciesName) {
+    let gr = 0;
+    if (typeof em_imp_primary_mons !== "undefined" && em_imp_primary_mons[speciesName] && em_imp_primary_mons[speciesName].gr !== undefined) {
+        return em_imp_primary_mons[speciesName].gr;
+    }
+
+    if (typeof learnsets === "undefined") {
+        return gr;
+    }
+
+    let speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    if (typeof learnsets[speciesNameId] === "undefined") {
+        speciesName = speciesName.split("-").slice(0, 2).join("-");
+        speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    }
+    if (typeof learnsets[speciesNameId] === "undefined") {
+        speciesName = speciesName.split("-")[0];
+        speciesNameId = speciesName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    }
+    if (typeof learnsets[speciesNameId] !== "undefined") {
+        gr = learnsets[speciesNameId].gr;
+    }
+    return gr;
+}
+
+function gen3ResolveLevel(speciesName, exp) {
+    try {
+        const gr = gen3ResolveGrowthRate(speciesName);
+        if (typeof expTables !== "undefined" && expTables[gr] && typeof get_level === "function") {
+            return get_level(expTables[gr], exp);
+        }
+    } catch (_err) {
+    }
+    return null;
+}
+
+function gen3ParseRawMonChunk(chunk, isParty = false, slot = 0) {
+    if (!chunk || chunk.length < 80) {
+        return null;
+    }
+
+    const personality = gen3ReadU32LE(chunk, 0x00);
+    const trainerIdSecret = gen3ReadU32LE(chunk, 0x04);
+    if (personality === 0) {
+        return null;
+    }
+
+    const flags = chunk[0x13] || 0;
+    const hasSpecies = ((flags >> 1) & 0x1) === 1;
+    if (!hasSpecies) {
+        return null;
+    }
+
+    const suborder = orderFormats[personality % 24];
+    if (!suborder) {
+        return null;
+    }
+
+    const key = (personality ^ trainerIdSecret) >>> 0;
+    const decrypted = [];
+    for (let i = 0; i < 12; i++) {
+        const enc = gen3ReadU32LE(chunk, 0x20 + (i * 4));
+        decrypted.push((enc ^ key) >>> 0);
+    }
+
+    const growthIndex = suborder.indexOf(1);
+    const movesIndex = suborder.indexOf(2);
+    const evsIndex = suborder.indexOf(3);
+    const miscIndex = suborder.indexOf(4);
+    if (growthIndex < 0 || movesIndex < 0 || evsIndex < 0 || miscIndex < 0) {
+        return null;
+    }
+
+    let speciesId = (decrypted[growthIndex * 3] & 0x07FF) >>> 0;
+    if (TITLE.includes("Inclement") && speciesId > 899) {
+        speciesId += 7;
+    }
+
+    let speciesName = (typeof emImpMons !== "undefined") ? emImpMons[speciesId] : null;
+    if (!speciesName || speciesName === "None") {
+        return null;
+    }
+    if (typeof pokedex !== "undefined" && !pokedex[speciesName]) {
+        speciesName = speciesName.replaceAll(" ", "-");
+    }
+
+    const itemId = ((decrypted[growthIndex * 3] >>> 16) & 0x07FF) >>> 0;
+    const exp = (decrypted[growthIndex * 3 + 1] & 0x1FFFFF) >>> 0;
+    const levelFromExp = gen3ResolveLevel(speciesName, exp);
+    const level = (isParty && chunk.length >= 0x55) ? (chunk[0x54] & 0xFF) : levelFromExp;
+
+    const moveIds = [
+        (decrypted[movesIndex * 3] & 0x07FF) >>> 0,
+        ((decrypted[movesIndex * 3] >>> 16) & 0x07FF) >>> 0,
+        (decrypted[movesIndex * 3 + 1] & 0x07FF) >>> 0,
+        ((decrypted[movesIndex * 3 + 1] >>> 16) & 0x07FF) >>> 0,
+    ];
+    const moveNames = moveIds.map((id) => {
+        if (typeof pokeemeraldMoves !== "undefined" && pokeemeraldMoves[id]) {
+            return pokeemeraldMoves[id];
+        }
+        if (id === 0) {
+            return "None";
+        }
+        return `Move ${id}`;
+    });
+
+    const evWord0 = decrypted[evsIndex * 3] >>> 0;
+    const evWord1 = decrypted[evsIndex * 3 + 1] >>> 0;
+    const evs = [
+        (evWord0 & 0xFF),
+        ((evWord0 >> 8) & 0xFF),
+        ((evWord0 >> 16) & 0xFF),
+        ((evWord0 >> 24) & 0xFF),
+        (evWord1 & 0xFF),
+        ((evWord1 >> 8) & 0xFF),
+    ];
+
+    const ivWord = decrypted[miscIndex * 3 + 1] >>> 0;
+    const ivs = (typeof getIVs === "function") ? getIVs(ivWord) : [0, 0, 0, 0, 0, 0];
+
+    const abilityIndex = ((decrypted[miscIndex * 3 + 2] >>> 29) & 0x3) >>> 0;
+
+    const natureId = personality % 25;
+    const natureName = (typeof natures !== "undefined" && natures[natureId]) ? natures[natureId] : null;
+    const itemName = (typeof emImpItems !== "undefined") ? emImpItems[itemId] : null;
+    const nickname = gen3DecodeNickname(chunk.slice(0x08, 0x12));
+    const metId = ((decrypted[miscIndex * 3] >> 8) & 0xFF) >>> 0;
+    const metLocation = (typeof locations !== "undefined" && locations["EM"]) ? locations["EM"][metId] : null;
+
+    const hp = isParty ? gen3ReadU16LE(chunk, 0x56) : null;
+    const maxHP = isParty ? gen3ReadU16LE(chunk, 0x58) : null;
+    const isEgg = ((flags >> 2) & 0x1) === 1;
+
+    return {
+        slot,
+        isParty,
+        personality,
+        trainerIdSecret,
+        speciesId,
+        speciesName,
+        nickname,
+        level,
+        itemId,
+        itemName,
+        moveIds,
+        moveNames,
+        evs,
+        ivs,
+        natureId,
+        natureName,
+        abilityIndex,
+        hp,
+        maxHP,
+        isEgg,
+        metLocation,
+    };
+}
+
+function gen3MonToShowdown(mon) {
+    if (!mon) {
+        return "";
+    }
+
+    const out = [];
+    const species = mon.speciesName || `Species-${mon.speciesId}`;
+    const nick = (mon.nickname || "").trim();
+    let lead = species;
+    if (nick && nick.toLowerCase() !== species.toLowerCase() && !(species.toLowerCase().includes(nick.toLowerCase()))) {
+        if (nick.toLowerCase().includes(species.toLowerCase())) {
+            lead = species;
+        } else {
+            lead = `${nick} (${species})`;
+        }
+    }
+
+    if (mon.itemId && mon.itemName && mon.itemName !== "None") {
+        lead += ` @ ${itemTitleize(mon.itemName)}`;
+    }
+    out.push(lead);
+
+    if (Number.isFinite(mon.level) && mon.level > 0) {
+        out.push(`Level: ${mon.level}`);
+    }
+    if (mon.natureName) {
+        out.push(`${mon.natureName} Nature`);
+    }
+
+    if (typeof settings !== "undefined" && settings && settings.hasEvs) {
+        out.push(`EVs: ${mon.evs[0]} HP / ${mon.evs[1]} Atk / ${mon.evs[2]} Def / ${mon.evs[3]} Spe / ${mon.evs[4]} SpA / ${mon.evs[5]} SpD`);
+    }
+    out.push(`IVs: ${mon.ivs[0]} HP / ${mon.ivs[1]} Atk / ${mon.ivs[2]} Def / ${mon.ivs[3]} Spe / ${mon.ivs[4]} SpA / ${mon.ivs[5]} SpD`);
+    out.push(`Ability: ${Number(mon.abilityIndex) || 0}`);
+
+    let moveLines = 0;
+    for (let i = 0; i < mon.moveNames.length; i++) {
+        const moveName = mon.moveNames[i];
+        if (moveName && moveName !== "None") {
+            out.push(`- ${moveName}`);
+            moveLines++;
+        }
+    }
+    if (moveLines === 0) {
+        out.push("- Tackle");
+    }
+
+    if (mon.metLocation) {
+        out.push(`Met: ${mon.metLocation}`);
+    }
+
+    return `${out.join("\n")}\n\n`;
+}
+
+function parsePokeLuaGen3RawBoxDump(boxDumpInput) {
+    const dump = (typeof boxDumpInput === "string") ? JSON.parse(boxDumpInput) : boxDumpInput;
+    if (!dump || typeof dump.party !== "string" || typeof dump.boxes !== "string") {
+        throw new Error("Invalid Gen 3 PokeLua box dump JSON (expected hex strings in party/boxes)");
+    }
+    if (dump.partyEncoding !== "hex" || dump.boxesEncoding !== "hex") {
+        throw new Error("Gen 3 PokeLua box dump must use hex encoding for party/boxes");
+    }
+
+    const partyStruct = Number(dump.partyStructSize || 100);
+    const boxStruct = Number(dump.boxStructSize || 80);
+    if (partyStruct !== 100 || boxStruct !== 80) {
+        throw new Error(`Unexpected struct sizes for Gen 3 dump (party=${partyStruct}, box=${boxStruct})`);
+    }
+
+    const partyBytes = gen3Uint8ArrayFromHexString(dump.party);
+    const boxBytes = gen3Uint8ArrayFromHexString(dump.boxes);
+
+    const partyCountFromBytes = Math.floor(partyBytes.length / partyStruct);
+    const rawPartyCount = Number(dump.partyCount);
+    const partyCountHint = Number.isFinite(rawPartyCount) ? rawPartyCount : partyCountFromBytes;
+    const partyCountParsed = Math.max(0, Math.min(partyCountHint, partyCountFromBytes));
+
+    const boxSlotsFromBytes = Math.floor(boxBytes.length / boxStruct);
+    const rawBoxSlots = Number(dump.boxSlotsDumped);
+    const boxSlotsHint = Number.isFinite(rawBoxSlots) ? rawBoxSlots : boxSlotsFromBytes;
+    const boxSlotsParsed = Math.max(0, Math.min(boxSlotsHint, boxSlotsFromBytes));
+
+    const parsedParty = [];
+    const parsedBoxes = [];
+    let showdownImport = "";
+
+    for (let i = 0; i < partyCountParsed; i++) {
+        const start = i * partyStruct;
+        const chunk = partyBytes.slice(start, start + partyStruct);
+        const mon = gen3ParseRawMonChunk(chunk, true, i + 1);
+        if (mon) {
+            parsedParty.push(mon);
+            showdownImport += gen3MonToShowdown(mon);
+        }
+    }
+
+    for (let i = 0; i < boxSlotsParsed; i++) {
+        const start = i * boxStruct;
+        const chunk = boxBytes.slice(start, start + boxStruct);
+        const mon = gen3ParseRawMonChunk(chunk, false, i + 1);
+        if (mon) {
+            parsedBoxes.push(mon);
+            showdownImport += gen3MonToShowdown(mon);
+        }
+    }
+
+    return {
+        trainerId: dump.trainerId,
+        secretId: dump.secretId,
+        partyCount: partyCountParsed,
+        boxedPokemonCount: parsedBoxes.length,
+        boxSlotsDumped: boxSlotsParsed,
+        showdownImport,
+        parsedParty,
+        parsedBoxes,
+        rawDump: dump,
+    };
+}
+
+function loadPokeLuaGen3RawBoxDump(boxDumpInput) {
+    const result = parsePokeLuaGen3RawBoxDump(boxDumpInput);
+    if ($('.import-team-text').length) {
+        $('.import-team-text').val(result.showdownImport);
+    }
+    return result;
+}
 
 

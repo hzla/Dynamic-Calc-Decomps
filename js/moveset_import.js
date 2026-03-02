@@ -727,8 +727,10 @@ function addToDex(poke) {
 
 
 	if (isInt(poke.ability)) {
-		console.log(`cannot find ability for ${poke.name}`)
-		// dexObject.ability = pokedex[poke.name]['abilities'][parseInt(poke.ability)]
+		// console.log(`cannot find ability for ${poke.name}`)
+		if (TITLE.includes("Imperium")) {
+			dexObject.ability = em_imp_primary_mons[poke.name]['abilities'][parseInt(poke.ability)]
+		}
 	}
 	
 
@@ -812,7 +814,7 @@ function addSets(pokes, name) {
 			if (typeof loadPokeLuaGen4RawBoxDump !== "function") {
 				throw new Error("Lua box dump importer is unavailable");
 			}
-			const luaDumpResult = loadPokeLuaGen4RawBoxDump(pokes);
+			const luaDumpResult = loadPokeLuaGen3RawBoxDump(pokes);
 			if (!luaDumpResult || typeof luaDumpResult.showdownImport !== "string") {
 				throw new Error("Lua box dump import did not return showdown text");
 			}
@@ -1002,6 +1004,17 @@ $("#clearSets").click(function () {
 	$('#clear-party').click()
 	localStorage.legalTms = ''
 	updateBoxAnim()
+});
+
+$("#sync-lua").click(() => {
+	if (TITLE.includes("Imperium")) {
+		console.log("Fetching Box")
+		fetch("http://localhost:31124/update").then(x => x.text()).then(function (x) {
+			loadPokeLuaGen3RawBoxDump(x)
+			$('#import').click()
+			$('#import').val("")
+		}).catch(() => alert("Please make sure the Lua script is running and MGBA is not paused."));
+	}
 });
 
 $("#importedSets").click(function () {

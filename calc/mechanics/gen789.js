@@ -123,7 +123,6 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
 
     }
 
-
     var isCritical = !defender.hasAbility('Battle Armor', 'Shell Armor') &&
         (move.isCrit || (attacker.hasAbility('Merciless') && defender.hasStatus('psn', 'tox'))) &&
         move.timesUsed === 1;
