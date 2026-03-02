@@ -1015,6 +1015,14 @@ $("#sync-lua").click(() => {
 			$('#import').val("")
 		}).catch(() => alert("Please make sure the Lua script is running and MGBA is not paused."));
 	}
+	if (TITLE == "Pokemon Null") {
+		console.log("Fetching Box")
+		fetch("http://localhost:31124/update").then(x => x.text()).then(function (x) {
+			$('.import-team-text').val(x)
+			$('#import').click()
+			$('.import-team-text').val("")
+		}).catch(() => alert("Please make sure the Lua script is running and MGBA is not paused."));
+	}
 });
 
 $("#importedSets").click(function () {

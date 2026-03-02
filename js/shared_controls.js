@@ -674,10 +674,16 @@ function refresh_next_in() {
 			isLead = "lead"
 		}
 
-
-
-		var pok = `<div class="trainer-pok-container">
+		var pok = ""
+		if (TITLE == "Pokemon Null") {
+			pok = `<div class="trainer-pok-container">
+			<img data-index='${next_poks[i][3]}' class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
+		} else {
+			pok = `<div class="trainer-pok-container">
 			<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
+		}
+
+		
 
 
 		var species = next_poks[i][0].split(" (")[0]
@@ -871,6 +877,15 @@ $(".set-selector").change(function () {
 					$(".nav-tag.partner").show().attr('data-next', setdex[pokemonName][setName]["partner"])
 				} else {
 					$(".nav-tag.partner").hide()
+				}
+
+
+				if (TITLE == "Pokemon Null") {
+					setTimeout(function() {
+						$('.nav-tag.next').attr('data-goto', parseInt($('.trainer-pok.right-side').last().attr('data-index')) + 1 )
+						$('.nav-tag.prev').attr('data-goto', parseInt($('.trainer-pok.right-side').first().attr('data-index')) - 1 )
+					}, 50)
+					$('.nav-tag.next, .nav-tag.prev').show()
 				}
 
 				

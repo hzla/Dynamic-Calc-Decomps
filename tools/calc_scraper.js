@@ -6,6 +6,8 @@
 newSets = {}
 trNameCounts = {}
 
+idToSet = {}
+
 function isLastCharNumber(str) {
   const lastChar = str.charAt(str.length - 1);
   return !isNaN(lastChar) && lastChar !== ' ';
@@ -23,12 +25,18 @@ for (let pok in setdex) {
 		setData.ability = setData.ability.replace("Rks", "RKS")
 		setData.sub_index = setData.index
 
+
+
+
+
 		var trName = set.replace("[", "|").replace("]", "|").replace("(", "|").replace(")", "|")
 		if (isLastCharNumber(trName)) {
 			trName = replaceSpaceBeforeNumber(trName) + " "
 		}
 		newProp = `Lvl ${setData.level} ${trName}`
 		newSets[pok][newProp] = setData
+
+		idToSet[setData.index] = `${pok} (${newProp})`
 	}
 }
 
@@ -52,6 +60,6 @@ for (move in moves) {
 	npoint_moves[move]["category"] = moves[move]["category"]
 }
 
-npoint_data = {"poks": npoint_poks, "moves": npoint_moves, "formatted_sets": newSets}
+npoint_data = {"poks": npoint_poks, "moves": npoint_moves, "formatted_sets": newSets, "idToSet": idToSet}
 
 
