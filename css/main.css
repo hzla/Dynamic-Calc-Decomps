@@ -1314,6 +1314,10 @@ th {
     font-size: 12px;
 }
 
+#toggle-sync-lua {
+    display: none;
+}
+
 #toggle-additional-field-options:hover {
     background: rgba(255,255,255, 0.2);
 }
@@ -1621,7 +1625,7 @@ select.toxic-counter {
     margin-top: 2px
 }
 
-.field-info button, #save-state, #read-save, #import, #clearSets, #download-sav, #fragsheet-howto {
+.field-info button, #save-state, #read-save, #sync-master, #import, #clearSets, #download-sav, #fragsheet-howto, #sync-lua {
     color: #bb86fc;
     border-radius: 8px;
     background: none;
@@ -2282,4 +2286,3 @@ table.field {
 
 
 }
-

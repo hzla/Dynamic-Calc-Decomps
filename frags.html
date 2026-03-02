@@ -27,6 +27,13 @@
             <div class="sheet-btn" id="export-sheet"><span class="btn-icon">↓</span> Export</div>
         </div>
 
+        <div id="view-tabs">
+            <div class="view-tab active" data-view="fragsheet">Fragsheet</div>
+            <div class="view-tab" data-view="battle-log">Battle Log</div>
+        </div>
+
+        <div id="battle-log-split-tabs" aria-label="Battle log split filters"></div>
+
         <div id="tabs">
             <div class="tab active" id="all-simple-tab" data-split="all-simple">All Splits Consolidated</div>
             <div class="tab" id="all-tab" data-split="all">All Splits Detailed</div>
@@ -44,6 +51,15 @@
 
         <div id="myGrid" class="ag-theme-alpine-dark"></div>
 
+        <div id="battle-log-view">
+            <div id="battle-log-toolbar">
+                <button type="button" id="battle-log-upload-btn" class="battle-log-toolbar-btn">Upload JSON</button>
+                <input type="file" id="battle-log-upload-input" accept=".json,application/json" hidden>
+                <div id="battle-log-upload-status" class="battle-log-note" style="display:none; margin: 0;">No file selected.</div>
+            </div>
+            <div id="battle-log-container"></div>
+        </div>
+
         <div id="tooltip">
             
         </div>
@@ -54,6 +70,8 @@
             <div class="split-container" id="split-1-container">
 
             </div>
+
+            <div id="battle-log-fragsheet-panel" aria-live="polite"></div>
         </div>
 
         <div id="delete-btns">
@@ -68,7 +86,10 @@
 
     <script type="text/javascript" src="./calc/data/evos.js?100001"></script>
     <script type="text/javascript" src="./calc/data/splits.js?100003"></script>
+    <script type="text/javascript" src="./js/savereaders/enums.js?100000"></script>
     <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?100008"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?100000"></script>
+    <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
+    <script type="text/javascript" src="./js/fragsheet/battle_log.js?100000"></script>
 </body>
 </html>

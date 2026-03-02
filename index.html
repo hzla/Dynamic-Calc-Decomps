@@ -66,7 +66,8 @@
        "2ec049ba9513d189a915": "Emerald Imperium",
        "ced457ba9aa55731616c": "Radical Red 4.1 Normal",
        "hardlove": "Hardlove Gold",
-       "blind": "Blinding White 2"
+       "blind": "Blinding White 2",
+       "null": "Pokemon Null"
       }
        
         if (SOURCES[params.get('data')]) {
@@ -182,6 +183,15 @@
             <div id="save-toggle" class="menu-item">
               <div class="menu-label">
                 Auto Update Save
+              </div> 
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div id="toggle-sync-lua" class="menu-item">
+              <div class="menu-label">
+                Sync Lua
               </div> 
               <label class="switch">
                 <input type="checkbox">
@@ -1399,8 +1409,10 @@
                         <!--<button style='position:absolute' class='bs-btn bs-btn-default'>Import</button>-->
                     </form>
                     <label for="save-upload" class="bs-btn" id="read-save">
-                            Read .sav/.ss1-9
+                            Read .sav
                     </label>
+                    <button type="button" class="bs-btn bs-btn-default" id="sync-master" style="display:none;">Sync</button>
+                    <button type="button" class="bs-btn bs-btn-default" id="sync-lua" style="display:none;">Sync</button>
                     <input id="save-upload" type="file" />
                 </div>
                 <span class="importedSetsOptions" style="width:auto;">
@@ -2053,6 +2065,10 @@
     <script type="text/javascript" src="./calc/mechanics/boostModifiers.js?13c1ef48"></script>
 
     <script type="text/javascript" src="./calc/mechanics/gen789.js?cb688d57"></script>
+
+
+    <script type="text/javascript" src="./calc/mechanics/vanilla/gen789.js?cb688d57"></script>
+
     <script type="text/javascript" src="./calc/mechanics/gen56.js?f9c77b5b"></script>
     <script type="text/javascript" src="./calc/mechanics/gen4.js?02955ebe"></script>
     <script type="text/javascript" src="./calc/mechanics/gen3.js?6534702c"></script>

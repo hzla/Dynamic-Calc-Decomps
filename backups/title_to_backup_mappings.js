@@ -31,7 +31,8 @@ backupFiles = {
 	"Vintage White Plus": "vwplus",
 	"Blinding White 2": "blind",
 	"Emerald Kaizo": "ek",
-	"Royal Sapphire": "roysaph"
+	"Royal Sapphire": "roysaph",
+	"Pokemon Null": "null"
 }
 
 

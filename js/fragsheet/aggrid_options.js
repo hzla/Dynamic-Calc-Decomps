@@ -603,8 +603,9 @@ function refreshTables() {
     gridApi.setGridOption('columnDefs', columnDefs);
     gridApi.setGridOption('rowData', rowData);
 
-    // Filter frag history if visible
-    if (typeof currentDisplayedSpecies != 'undefined') {
+    // Filter frag history if visible, but avoid mutating the right panel while the
+    // battle-log tab is active (that panel is repurposed there).
+    if (typeof currentDisplayedSpecies != 'undefined' && !document.body.classList.contains('battle-log-mode')) {
         displayFragHistory(findRowDataBySpecies(currentDisplayedSpecies));
     }
 }
@@ -709,4 +710,3 @@ document.addEventListener('DOMContentLoaded', () => {
     gridDiv = document.querySelector('#myGrid');
     gridApi = agGrid.createGrid(gridDiv, gridOptions);
 });
-

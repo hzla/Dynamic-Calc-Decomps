@@ -19,6 +19,10 @@ for (let pok in setdex) {
 	newSets[pok] ||= {}
 	for (let set in setdex[pok]) {
 		var setData = setdex[pok][set]
+
+		setData.ability = setData.ability.replace("Rks", "RKS")
+		setData.sub_index = setData.index
+
 		var trName = set.replace("[", "|").replace("]", "|").replace("(", "|").replace(")", "|")
 		if (isLastCharNumber(trName)) {
 			trName = replaceSpaceBeforeNumber(trName) + " "

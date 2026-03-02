@@ -130,7 +130,8 @@ SOURCES = {
   "vwplus": "Vintage White Plus",
   "blind": "Blinding White 2",
   "a6f5b7e55bbd7ebbdd52": "Rigorous Red",
-  "bb8579a3798fd63b429d": "Royal Sapphire"
+  "bb8579a3798fd63b429d": "Royal Sapphire",
+  "null": "Pokemon Null"
 }
 
 $(document).ready(function() {
@@ -220,6 +221,18 @@ function setGameSettings(title) {
     showDex = true;
     showAI = true;
     $('label[for="snow"]').hide()
+  } else if (title == "Pokemon Null") {
+    gameGen = 8
+    settings.damageGen = 8
+    settings.noSwitch = 1
+    settings.sourceType = "full"
+    settings.typeChart = 6;
+    settings.critGen = 6;
+    showDex = false;
+    showAI = false;
+    $('#sync-lua').show()
+    $('label[for="snow"]').show()
+    $('label[for="hail"]').hide()
   } else if (title == "Sterling Silver") {
     gameGen = 4
     settings.damageGen = 4
@@ -382,13 +395,12 @@ function setBaseGame(title) {
         if (localStorage.switchInfo == '1') {
           $('.trainer-pok-list.opposing').addClass('ai-show')
         }
-    } else if (title.includes("Platinum")) {
-      window.baseGame = "Pt"
-      window.save_expansion = false;
-    } else if (title.includes(" Black") || title.includes(" White")) {
-      window.baseGame = "BW"
-      window.save_expansion = false;
-      if (title.includes("Black 2") || title.includes("White 2")) {
+        $('#sync-lua').show()
+    } else if (TITLE == "Renegade Platinum") {
+      baseGame = "Pt"
+    } else if (TITLE.includes(" Black") || TITLE.includes(" White")) {
+      baseGame = "BW"
+      if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
         baseVersion = "BW2"
       } else {
         baseVersion = "BW"

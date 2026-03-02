@@ -234,6 +234,172 @@ $(document).ready(function() {
 
 })
 
+function uint8ArrayFromNumberArray(values) {
+    if (!Array.isArray(values)) {
+        throw new Error("Expected an array of byte values");
+    }
+    const out = new Uint8Array(values.length);
+    for (let i = 0; i < values.length; i++) {
+        out[i] = Number(values[i]) & 0xFF;
+    }
+    return out;
+}
+
+function uint8ArrayFromHexString(hex) {
+    if (typeof hex !== "string") {
+        throw new Error("Expected hex string");
+    }
+    if ((hex.length % 2) !== 0) {
+        throw new Error("Hex string length must be even");
+    }
+    const out = new Uint8Array(hex.length / 2);
+    for (let i = 0; i < out.length; i++) {
+        const byteText = hex.slice(i * 2, i * 2 + 2);
+        const value = parseInt(byteText, 16);
+        if (Number.isNaN(value)) {
+            throw new Error(`Invalid hex byte at index ${i}: ${byteText}`);
+        }
+        out[i] = value & 0xFF;
+    }
+    return out;
+}
+
+function resetParsedPokemonGlobalsForGen4Import() {
+    decryptedChunks = [];
+    decryptedBattleStats = [];
+    partyMons = {};
+    partyPIDs = [];
+    currentParty = [];
+    partyExpTables = [];
+    partyExpIndexes = [];
+    partyMovesIndexes = [];
+    savParty = [];
+    boxPokOffsets = {};
+    savBox = [];
+}
+
+function wordsFromUint8LE(byteArray, byteOffset, byteLength) {
+    const words = [];
+    for (let i = 0; i < byteLength; i += 2) {
+        const lo = byteArray[byteOffset + i] || 0;
+        const hi = byteArray[byteOffset + i + 1] || 0;
+        words.push((hi << 8) | lo);
+    }
+    return words;
+}
+
+function rewriteUint8FromWordsLE(targetBytes, byteOffset, words) {
+    const bytes = convert16BitWordsToUint8Array(words);
+    targetBytes.set(bytes, byteOffset);
+}
+
+function buildParsePKMChunkFromPossiblyDecryptedLuaChunk(chunk, is_party=false) {
+    const normalized = new Uint8Array(chunk); // clone
+    const pv = read32BitIntegerFromUint8Array(normalized, 0);
+    const checksum = (normalized[0x07] << 8) | normalized[0x06];
+
+    const coreWords = wordsFromUint8LE(normalized, 0x08, 128);
+    const encryptedCore = encryptData(coreWords, checksum, 64);
+    rewriteUint8FromWordsLE(normalized, 0x08, encryptedCore);
+
+    if (is_party && normalized.length >= 236) {
+        const battleWordCount = (236 - 136) / 2;
+        const battleWords = wordsFromUint8LE(normalized, 136, 100);
+        const encryptedBattle = encryptData(battleWords, pv, battleWordCount);
+        rewriteUint8FromWordsLE(normalized, 136, encryptedBattle);
+    }
+
+    return normalized;
+}
+
+function tryParseLuaRawPartySlot0WithFallback(chunk, offset=0) {
+    try {
+        const out = parsePKM(chunk, true, offset);
+        if (typeof out === "string" && out.length > 0) {
+            return out;
+        }
+    } catch (err) {
+        console.warn("Lua raw party slot0 parsePKM failed (normal path), retrying as pre-decrypted chunk", err);
+    }
+
+    // Slot 0 is parsed first in this import path, so a reset is safe before retry.
+    resetParsedPokemonGlobalsForGen4Import();
+    const normalizedChunk = buildParsePKMChunkFromPossiblyDecryptedLuaChunk(chunk, true);
+    return parsePKM(normalizedChunk, true, offset);
+}
+
+// Parse a PokeLua Gen 4 Box-<tid>.json dump where `party` and `boxes` contain raw bytes.
+// Reuses parsePKM() so offsets/decryption stay aligned with the main Gen 4 save parser.
+function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
+    if (!(baseGame == "Pt" || baseGame == "HGSS")) {
+        throw new Error("parsePokeLuaGen4RawBoxDump only supports Gen 4 Pt/HGSS");
+    }
+
+    const dump = (typeof boxDumpInput === "string") ? JSON.parse(boxDumpInput) : boxDumpInput;
+    if (!dump || typeof dump.party !== "string" || typeof dump.boxes !== "string") {
+        throw new Error("Invalid PokeLua box dump JSON (expected hex strings in party/boxes)");
+    }
+    if (dump.partyEncoding !== "hex" || dump.boxesEncoding !== "hex") {
+        throw new Error("PokeLua box dump must use hex encoding for party/boxes");
+    }
+
+    const partyStruct = Number(dump.partyStructSize || 236);
+    const boxStruct = Number(dump.boxStructSize || 136);
+    const partyCountRaw = Number(dump.partyCount || 0);
+    const partyCountFromBytes = Math.floor((dump.party.length / 2) / partyStruct);
+    const partyCountParsed = Math.min(partyCountRaw, partyCountFromBytes);
+    const boxSlotsDumped = Number(dump.boxSlotsDumped || Math.floor((dump.boxes.length / 2) / boxStruct));
+    const boxSlotsFromBytes = Math.floor((dump.boxes.length / 2) / boxStruct);
+    const boxSlotsParsed = Math.min(boxSlotsDumped, boxSlotsFromBytes);
+
+    if (partyStruct !== 236 || boxStruct !== 136) {
+        throw new Error(`Unexpected struct sizes for Gen 4 dump (party=${partyStruct}, box=${boxStruct})`);
+    }
+
+    partyPokSize = 236;
+    battleStatSize = (partyPokSize - 136) / 2;
+    resetParsedPokemonGlobalsForGen4Import();
+
+    const partyBytes = uint8ArrayFromHexString(dump.party);
+    const boxBytes = uint8ArrayFromHexString(dump.boxes);
+
+    let showdownImport = "";
+
+    for (let i = 0; i < partyCountParsed; i++) {
+        const start = i * partyStruct;
+        const chunk = partyBytes.slice(start, start + partyStruct);
+        if (i === 0) {
+            showdownImport += tryParseLuaRawPartySlot0WithFallback(chunk, start);
+        } else {
+            showdownImport += parsePKM(chunk, true, start);
+        }
+    }
+
+    for (let i = 0; i < boxSlotsParsed; i++) {
+        const start = i * boxStruct;
+        const chunk = boxBytes.slice(start, start + boxStruct);
+        showdownImport += parsePKM(chunk, false, start);
+    }
+
+    return {
+        trainerId: dump.trainerId,
+        secretId: dump.secretId,
+        partyCount: partyCountParsed,
+        boxedPokemonCount: dump.boxedPokemonCount || 0,
+        boxSlotsDumped: boxSlotsParsed,
+        showdownImport,
+        rawDump: dump,
+    };
+}
+
+function loadPokeLuaGen4RawBoxDump(boxDumpInput) {
+    const result = parsePokeLuaGen4RawBoxDump(boxDumpInput);
+    if ($('.import-team-text').length) {
+        $('.import-team-text').val(result.showdownImport);
+    }
+    return result;
+}
+
 // -------- Location helpers --------
 //
 // Supported loc forms:
@@ -577,7 +743,10 @@ function parsePKM(chunk, is_party=false, offset=0) {
     var nn_data_offset = shiftOrder.indexOf(2) * 16
 
     var mon_name = sav_pok_names[decryptedData[mon_data_offset]]
+
     mon_name = SPECIES_BY_ID[gen][cleanString(mon_name)].name
+
+    
 
     if (mon_name in mon_forms) {
         var form_index = (decryptedData[move_data_offset + 12] >> 3 & 0x1F) - 1 
