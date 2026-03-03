@@ -347,6 +347,30 @@ function checkIntimidate(gen, source, target) {
     }
 }
 exports.checkIntimidate = checkIntimidate;
+
+function checkKeenEye(gen, source, target) {
+    var blocked = target.hasAbility('Clear Body', 'White Smoke', 'Hyper Cutter', 'Full Metal Body', "Strong Body") ||
+        (gen.num >= 8 && target.hasAbility('Inner Focus', 'Own Tempo', 'Oblivious', 'Scrappy')) ||
+        target.hasItem('Clear Amulet');
+
+    console.log(source)
+    if (source.hasAbility('Keen Eye') && source.abilityOn && !blocked) {
+        if (target.hasAbility('Contrary', 'Defiant', 'Guard Dog')) {
+            target.boosts.spa = Math.min(6, target.boosts.spa + 1);
+        }
+        else if (target.hasAbility('Simple')) {
+            target.boosts.spa = Math.max(-6, target.boosts.spa - 2);
+        }
+        else {
+            target.boosts.spa = Math.max(-6, target.boosts.spa - 1);
+        }
+        if (target.hasAbility('Competitive')) {
+            target.boosts.spa = Math.min(6, target.boosts.spa + 2);
+        }
+    }
+}
+
+exports.checkKeenEye = checkKeenEye;
 function checkDownload(source, target, wonderRoomActive) {
     var _a;
     if (source.hasAbility('Download', "Exploit") && source.abilityOn) {

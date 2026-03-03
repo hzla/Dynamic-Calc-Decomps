@@ -27,6 +27,10 @@ if (["Pokemon Null"].includes(TITLE)) {
         (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'def', 'spd', 'spe');
         (0, util_2.checkIntimidate)(gen, attacker, defender);
         (0, util_2.checkIntimidate)(gen, defender, attacker);
+        if (TITLE == "Pokemon Null") {
+            (0, util_2.checkKeenEye)(gen, attacker, defender);
+            (0, util_2.checkKeenEye)(gen, defender, attacker);            
+        }
         (0, util_2.checkDownload)(attacker, defender, field.isWonderRoom);
         (0, util_2.checkDownload)(defender, attacker, field.isWonderRoom);
         (0, util_2.checkIntrepidSword)(attacker, gen);
@@ -1167,9 +1171,12 @@ if (["Pokemon Null"].includes(TITLE)) {
             }
             dfMods.push(3072);
         }
-        if (move.named('Explosion', 'Self-Destruct', 'Misty Explosion')) {
-            dfMods.push(2048);
+        if (TITLE == "Pokemon Null") {
+            if (move.named('Explosion', 'Self-Destruct', 'Misty Explosion')) {
+                dfMods.push(2048);
+            }
         }
+        
         if (((0, util_2.isQPActive)(defender, field))) {
             if ((hitsPhysical && (0, util_2.getQPBoostedStat)(defender) === 'def') ||
                 (!hitsPhysical && (0, util_2.getQPBoostedStat)(defender) === 'spd')) {

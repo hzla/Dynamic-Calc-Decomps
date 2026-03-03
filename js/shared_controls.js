@@ -225,6 +225,10 @@ function showAbilityExtras(abilityObj) {
 
 	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Unburden', 'Stakeout', 'Teraform Zero', 'Bull Rush', 'Quill Rush', 'Illusion', 'Dauntless Shield', 'Intrepid Sword', 'Download'];
 
+	if (TITLE == "Pokemon Null") {
+		TOGGLE_ABILITIES.push("Keen Eye")
+	}
+
 	if (TOGGLE_ABILITIES.indexOf(ability) >= 0) {
 		$(abilityObj).closest(".poke-info").find(".abilityToggle").show();
 	} else {
