@@ -233,6 +233,8 @@ function setGameSettings(title) {
     $('#sync-lua').show()
     $('label[for="snow"]').show()
     $('label[for="hail"]').hide()
+    $('#maxL').next().remove()
+    $('#maxR').next().remove()
   } else if (title == "Sterling Silver") {
     gameGen = 4
     settings.damageGen = 4

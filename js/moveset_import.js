@@ -1021,7 +1021,7 @@ $("#sync-lua").click(() => {
 			$('.import-team-text').val(x)
 			$('#import').click()
 			$('.import-team-text').val("")
-		}).catch(() => alert("Please make sure the Lua script is running and MGBA is not paused."));
+		}).catch(() => alert("Please make sure the Lua script is running and MGBA is not paused.  Download Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnull.lua"));
 	}
 });
 
