@@ -228,7 +228,7 @@ function setGameSettings(title) {
     settings.sourceType = "full"
     settings.typeChart = 6;
     settings.critGen = 6;
-    showDex = false;
+    showDex = true;
     showAI = false;
     $('#sync-lua').show()
     $('label[for="snow"]').show()
