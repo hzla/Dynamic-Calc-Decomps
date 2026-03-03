@@ -36760,6 +36760,21 @@ backup_data = {
                 "sub_index": 575,
                 "tr_id": 186
             },
+             "Lvl 44 Fisherman Elliot & Fisherman Ned": {
+                "level": 44,
+                "ability": "Volt Absorb",
+                "moves": [
+                    "Surf",
+                    "Thunderbolt",
+                    "Volt Switch",
+                    "Ice Beam"
+                ],
+                "nature": "Modest",
+                "item": "Luminous Moss",
+                "index": 575,
+                "sub_index": 575,
+                "tr_id": 186
+            },
             "Lvl 95 Ex Leader Juan": {
                 "level": 95,
                 "ability": "Volt Absorb",
