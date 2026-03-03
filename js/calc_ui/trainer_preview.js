@@ -20,11 +20,20 @@ function get_custom_trainer_names() {
     var all_poks = setdex
     var trainer_names = {} 
 
+    var lowestSubIndexes = {}
+
+    
+
     for (const [pok_name, poks] of Object.entries(all_poks)) {
-        var pok_tr_names = Object.keys(poks)
+        var pok_tr_names = Object.keys(poks)        
         for (i in pok_tr_names) {
            var trainer_name = pok_tr_names[i]
            var sub_index = poks[trainer_name]["sub_index"]
+
+           var stripped_trainer_name = (trainer_name.match(/^Lvl\s+-?\d+\s+(.+)$/u) || [])[1]
+
+           lowestSubIndexes[stripped_trainer_name] ||= sub_index
+
 
            // If there's a mastersheet
            if (npoint_data["order"]) {
@@ -36,9 +45,10 @@ function get_custom_trainer_names() {
                     setdex[pok_name][trainer_name]["prev"] = prev
                 }      
            }
-           if (sub_index == 0) {
+
+           if (sub_index <= lowestSubIndexes[stripped_trainer_name]) {
                 trainer_names[poks[trainer_name]["tr_id"] || 0] = `${pok_name} (${trainer_name})[${sub_index}]`
-           }     
+           }    
         }      
     }
     localStorage.customLeads = JSON.stringify(trainer_names)

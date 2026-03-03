@@ -1006,10 +1006,62 @@ $("#clearSets").click(function () {
 	updateBoxAnim()
 });
 
+function delayMs(ms) {
+	return new Promise(function (resolve) {
+		setTimeout(resolve, ms);
+	});
+}
+
+function isRetryableLuaFetchError(err) {
+	if (!err) return false;
+	var msg = String(err.message || err || "");
+	var cause = String((err.cause && err.cause.message) || err.cause || "");
+	var blob = (msg + " " + cause).toLowerCase();
+	return (
+		blob.indexOf("err_empty_response") !== -1 ||
+		blob.indexOf("empty response") !== -1 ||
+		blob.indexOf("failed to fetch") !== -1 ||
+		blob.indexOf("networkerror") !== -1 ||
+		blob.indexOf("load failed") !== -1
+	);
+}
+
+function fetchLuaUpdateWithRetry(attempt, maxAttempts, retryDelayMs) {
+	return fetch("http://localhost:31124/update", { cache: "no-store" })
+		.then(function (response) {
+			if (!response.ok) {
+				throw new Error("HTTP " + response.status);
+			}
+			return response.text();
+		})
+		.then(function (text) {
+			if (text && text.trim().length > 0) {
+				return text;
+			}
+			if (attempt >= maxAttempts) {
+				throw new Error("Empty response");
+			}
+			return delayMs(retryDelayMs).then(function () {
+				return fetchLuaUpdateWithRetry(attempt + 1, maxAttempts, retryDelayMs);
+			});
+			})
+			.catch(function (err) {
+				if (!isRetryableLuaFetchError(err)) {
+					throw err;
+				}
+				if (attempt >= maxAttempts) {
+					throw err;
+				}
+				return delayMs(retryDelayMs).then(function () {
+				return fetchLuaUpdateWithRetry(attempt + 1, maxAttempts, retryDelayMs);
+			});
+		});
+}
+
 $("#sync-lua").click(() => {
 	if (TITLE.includes("Imperium")) {
 		console.log("Fetching Box")
-		fetch("http://localhost:31124/update").then(x => x.text()).then(function (x) {
+		fetchLuaUpdateWithRetry(1, 4, 200).then(function (x) {
 			loadPokeLuaGen3RawBoxDump(x)
 			$('#import').click()
 			$('#import').val("")
@@ -1017,11 +1069,11 @@ $("#sync-lua").click(() => {
 	}
 	if (TITLE == "Pokemon Null") {
 		console.log("Fetching Box")
-		fetch("http://localhost:31124/update").then(x => x.text()).then(function (x) {
+		fetchLuaUpdateWithRetry(1, 4, 200).then(function (x) {
 			$('.import-team-text').val(x)
 			$('#import').click()
 			$('.import-team-text').val("")
-		}).catch(() => alert("Please make sure the Lua script is running and MGBA is not paused.  Download Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnull.lua"));
+		}).catch(() => alert("Please make sure the Lua script is running and MGBA is not paused. Download Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnull.lua"));
 	}
 });
 

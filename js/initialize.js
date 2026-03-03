@@ -714,6 +714,8 @@ function loadMovesData() {
     }
   }
 
+    // Post move data loading, game specific adjustments
+  
     if (TITLE.includes("Cascade")) {
         jsonMoves["Hidden Power"].basePower = 70
         jsonMoves["Hidden Force"].basePower = 70
@@ -745,6 +747,18 @@ function loadMovesData() {
             moves[moveName].isSlicing = true;
             MOVES_BY_ID[gen][moveID].flags.slicing = 1;
         }
+    }
+
+    if (TITLE.includes("Sterling")) {
+        delete moves.Barrage["multihit"]
+        delete MOVES_BY_ID[g].barrage["multihit"]
+
+        moves.Clamp["multihit"] = [2,5]
+        MOVES_BY_ID[g].clamp["multihit"] = [2,5]
+
+        MOVES_BY_ID[g].avalanche.target = 'allAdjacentFoes'
+        moves.Avalanche.target = 'allAdjacentFoes'
+
     }
 }
 

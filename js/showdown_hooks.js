@@ -106,8 +106,6 @@ $(document).ready(function() {
         var set = ""
         if (TITLE.includes("Imperium")) {
             set = $(this).attr('data-next')
-        } else if (TITLE.includes("Null")) {
-            set = backup_data.idToSet[$(this).attr('data-goto')]
         } 
         else {
             set = customLeads[$(this).attr('data-next')].split("[")[0]

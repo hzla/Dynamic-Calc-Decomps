@@ -880,17 +880,6 @@ $(".set-selector").change(function () {
 				}
 
 
-				if (TITLE == "Pokemon Null") {
-					setTimeout(function() {
-						$('.nav-tag.next').attr('data-goto', parseInt($('.trainer-pok.right-side').last().attr('data-index')) + 1 )
-						$('.nav-tag.prev').attr('data-goto', parseInt($('.trainer-pok.right-side').first().attr('data-index')) - 1 )
-					}, 50)
-					$('.nav-tag.next, .nav-tag.prev').show()
-				}
-
-				
-				
-
 				if (settings.damageGen == 4 || settings.damageGen == 5) {
 					ai = setdex[pokemonName][setName]["ai"]
 					for (n in [1,2,3,4,5,6]) {

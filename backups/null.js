@@ -19617,7 +19617,7 @@ backup_data = {
             "category": "Physical"
         },
         "Fury Swipes": {
-            "basePower": 20,
+            "basePower": 18,
             "type": "Normal",
             "category": "Physical"
         },
@@ -24105,7 +24105,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Heat Rock",
                 "index": 0,
-                "sub_index": 0
+                "sub_index": 0,
+                "tr_id": 0
             }
         },
         "Blipbug": {
@@ -24121,7 +24122,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Grip Claw",
                 "index": 1,
-                "sub_index": 1
+                "sub_index": 1,
+                "tr_id": 1
             }
         },
         "Snom": {
@@ -24137,7 +24139,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Occa Berry",
                 "index": 2,
-                "sub_index": 2
+                "sub_index": 2,
+                "tr_id": 1
             }
         },
         "Azurill": {
@@ -24153,7 +24156,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Water Gem",
                 "index": 3,
-                "sub_index": 3
+                "sub_index": 3,
+                "tr_id": 1
             }
         },
         "Kricketot": {
@@ -24166,7 +24170,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Metronome",
                 "index": 4,
-                "sub_index": 4
+                "sub_index": 4,
+                "tr_id": 1
             }
         },
         "Caterpie": {
@@ -24180,7 +24185,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Life Orb",
                 "index": 5,
-                "sub_index": 5
+                "sub_index": 5,
+                "tr_id": 1
             }
         },
         "Weedle": {
@@ -24195,7 +24201,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 6,
-                "sub_index": 6
+                "sub_index": 6,
+                "tr_id": 1
             }
         },
         "Wurmple": {
@@ -24210,7 +24217,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Life Orb",
                 "index": 7,
-                "sub_index": 7
+                "sub_index": 7,
+                "tr_id": 1
             }
         },
         "Ralts": {
@@ -24226,7 +24234,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Adrenaline Orb",
                 "index": 8,
-                "sub_index": 8
+                "sub_index": 8,
+                "tr_id": 1
             },
             "Lvl 60 Trainer Wally": {
                 "level": 60,
@@ -24240,7 +24249,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Everstone",
                 "index": 700,
-                "sub_index": 700
+                "sub_index": 700,
+                "tr_id": 2
             }
         },
         "Magikarp": {
@@ -24254,7 +24264,8 @@ backup_data = {
                 "nature": "Lax",
                 "item": "Focus Sash",
                 "index": 9,
-                "sub_index": 9
+                "sub_index": 9,
+                "tr_id": 1
             }
         },
         "Feebas": {
@@ -24270,7 +24281,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Lum Berry",
                 "index": 10,
-                "sub_index": 10
+                "sub_index": 10,
+                "tr_id": 1
             }
         },
         "Scatterbug": {
@@ -24285,7 +24297,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 11,
-                "sub_index": 11
+                "sub_index": 11,
+                "tr_id": 1
             }
         },
         "Cosmog": {
@@ -24300,7 +24313,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 12,
-                "sub_index": 12
+                "sub_index": 12,
+                "tr_id": 1
             }
         },
         "Metapod": {
@@ -24314,7 +24328,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 13,
-                "sub_index": 13
+                "sub_index": 13,
+                "tr_id": 1
             }
         },
         "Kakuna": {
@@ -24329,7 +24344,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 14,
-                "sub_index": 14
+                "sub_index": 14,
+                "tr_id": 1
             }
         },
         "Pichu": {
@@ -24345,7 +24361,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Electric Gem",
                 "index": 15,
-                "sub_index": 15
+                "sub_index": 15,
+                "tr_id": 1
             }
         },
         "Silcoon": {
@@ -24360,7 +24377,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 16,
-                "sub_index": 16
+                "sub_index": 16,
+                "tr_id": 1
             }
         },
         "Cascoon": {
@@ -24375,7 +24393,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 17,
-                "sub_index": 17
+                "sub_index": 17,
+                "tr_id": 1
             }
         },
         "Igglybuff": {
@@ -24391,7 +24410,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Lum Berry",
                 "index": 18,
-                "sub_index": 18
+                "sub_index": 18,
+                "tr_id": 1
             }
         },
         "Wooper": {
@@ -24407,7 +24427,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 19,
-                "sub_index": 19
+                "sub_index": 19,
+                "tr_id": 1
             }
         },
         "Wooper-Paldea": {
@@ -24423,7 +24444,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 20,
-                "sub_index": 20
+                "sub_index": 20,
+                "tr_id": 1
             }
         },
         "Tyrogue": {
@@ -24439,7 +24461,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flame Orb",
                 "index": 21,
-                "sub_index": 21
+                "sub_index": 21,
+                "tr_id": 1
             }
         },
         "Bounsweet": {
@@ -24453,7 +24476,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eject Pack",
                 "index": 22,
-                "sub_index": 22
+                "sub_index": 22,
+                "tr_id": 1
             }
         },
         "Tarountula": {
@@ -24469,7 +24493,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Charti Berry",
                 "index": 23,
-                "sub_index": 23
+                "sub_index": 23,
+                "tr_id": 1
             }
         },
         "Nymble": {
@@ -24485,7 +24510,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Oran Berry",
                 "index": 24,
-                "sub_index": 24
+                "sub_index": 24,
+                "tr_id": 1
             }
         },
         "Sentret": {
@@ -24501,7 +24527,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Bug Gem",
                 "index": 25,
-                "sub_index": 25
+                "sub_index": 25,
+                "tr_id": 1
             },
             "Lvl 11 Root Academy Trainer #1 Slot2 ": {
                 "level": 11,
@@ -24512,7 +24539,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Oran Berry",
                 "index": 27,
-                "sub_index": 27
+                "sub_index": 27,
+                "tr_id": 3
             }
         },
         "Spewpa": {
@@ -24526,7 +24554,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Eviolite",
                 "index": 26,
-                "sub_index": 26
+                "sub_index": 26,
+                "tr_id": 3
             }
         },
         "Cleffa": {
@@ -24542,7 +24571,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Life Orb",
                 "index": 28,
-                "sub_index": 28
+                "sub_index": 28,
+                "tr_id": 3
             }
         },
         "Poochyena": {
@@ -24558,7 +24588,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Liechi Berry",
                 "index": 29,
-                "sub_index": 29
+                "sub_index": 29,
+                "tr_id": 3
             }
         },
         "Lotad": {
@@ -24574,7 +24605,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Damp Rock",
                 "index": 30,
-                "sub_index": 30
+                "sub_index": 30,
+                "tr_id": 3
             }
         },
         "Seedot": {
@@ -24590,7 +24622,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Heat Rock",
                 "index": 31,
-                "sub_index": 31
+                "sub_index": 31,
+                "tr_id": 3
             }
         },
         "Happiny": {
@@ -24606,7 +24639,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Punching Glove",
                 "index": 32,
-                "sub_index": 32
+                "sub_index": 32,
+                "tr_id": 3
             }
         },
         "Burmy": {
@@ -24620,7 +24654,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Eviolite",
                 "index": 33,
-                "sub_index": 33
+                "sub_index": 33,
+                "tr_id": 3
             }
         },
         "Wimpod": {
@@ -24636,7 +24671,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 34,
-                "sub_index": 34
+                "sub_index": 34,
+                "tr_id": 3
             }
         },
         "Makuhita": {
@@ -24652,7 +24688,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flame Orb",
                 "index": 35,
-                "sub_index": 35
+                "sub_index": 35,
+                "tr_id": 3
             }
         },
         "Bunnelby": {
@@ -24668,7 +24705,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ability Shield",
                 "index": 36,
-                "sub_index": 36
+                "sub_index": 36,
+                "tr_id": 3
             }
         },
         "Zigzagoon": {
@@ -24682,7 +24720,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 37,
-                "sub_index": 37
+                "sub_index": 37,
+                "tr_id": 3
             }
         },
         "Zigzagoon-Galar": {
@@ -24697,7 +24736,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Sitrus Berry",
                 "index": 38,
-                "sub_index": 38
+                "sub_index": 38,
+                "tr_id": 3
             }
         },
         "Whismur": {
@@ -24710,7 +24750,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Choice Specs",
                 "index": 39,
-                "sub_index": 39
+                "sub_index": 39,
+                "tr_id": 3
             }
         },
         "Rolycoly": {
@@ -24726,7 +24767,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Passho Berry",
                 "index": 40,
-                "sub_index": 40
+                "sub_index": 40,
+                "tr_id": 3
             }
         },
         "Pawmi": {
@@ -24742,7 +24784,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Punching Glove",
                 "index": 41,
-                "sub_index": 41
+                "sub_index": 41,
+                "tr_id": 3
             }
         },
         "Toxel": {
@@ -24757,7 +24800,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Sitrus Berry",
                 "index": 42,
-                "sub_index": 42
+                "sub_index": 42,
+                "tr_id": 3
             }
         },
         "Combee": {
@@ -24773,7 +24817,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Charti Berry",
                 "index": 43,
-                "sub_index": 43
+                "sub_index": 43,
+                "tr_id": 3
             }
         },
         "Zubat": {
@@ -24788,7 +24833,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flying Gem",
                 "index": 44,
-                "sub_index": 44
+                "sub_index": 44,
+                "tr_id": 3
             }
         },
         "Togepi": {
@@ -24803,7 +24849,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 45,
-                "sub_index": 45
+                "sub_index": 45,
+                "tr_id": 3
             }
         },
         "Starly": {
@@ -24817,7 +24864,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Adrenaline Orb",
                 "index": 46,
-                "sub_index": 46
+                "sub_index": 46,
+                "tr_id": 3
             }
         },
         "Noibat": {
@@ -24830,7 +24878,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "White Herb",
                 "index": 47,
-                "sub_index": 47
+                "sub_index": 47,
+                "tr_id": 3
             }
         },
         "Rookidee": {
@@ -24846,7 +24895,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Sitrus Berry",
                 "index": 48,
-                "sub_index": 48
+                "sub_index": 48,
+                "tr_id": 3
             }
         },
         "Nickit": {
@@ -24860,7 +24910,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Red Card",
                 "index": 49,
-                "sub_index": 49
+                "sub_index": 49,
+                "tr_id": 3
             }
         },
         "Wiglett": {
@@ -24876,7 +24927,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Chilan Berry",
                 "index": 50,
-                "sub_index": 50
+                "sub_index": 50,
+                "tr_id": 3
             }
         },
         "Spinarak": {
@@ -24892,7 +24944,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Occa Berry",
                 "index": 51,
-                "sub_index": 51
+                "sub_index": 51,
+                "tr_id": 3
             }
         },
         "Marill": {
@@ -24908,7 +24961,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Ability Shield",
                 "index": 52,
-                "sub_index": 52
+                "sub_index": 52,
+                "tr_id": 3
             }
         },
         "Hoppip": {
@@ -24923,7 +24977,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Flying Gem",
                 "index": 53,
-                "sub_index": 53
+                "sub_index": 53,
+                "tr_id": 3
             }
         },
         "Slugma": {
@@ -24938,7 +24993,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 54,
-                "sub_index": 54
+                "sub_index": 54,
+                "tr_id": 3
             }
         },
         "Swinub": {
@@ -24954,7 +25010,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 55,
-                "sub_index": 55
+                "sub_index": 55,
+                "tr_id": 3
             }
         },
         "Bidoof": {
@@ -24970,7 +25027,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Adrenaline Orb",
                 "index": 56,
-                "sub_index": 56
+                "sub_index": 56,
+                "tr_id": 3
             }
         },
         "Fomantis": {
@@ -24983,7 +25041,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Grass Gem",
                 "index": 57,
-                "sub_index": 57
+                "sub_index": 57,
+                "tr_id": 3
             }
         },
         "Gossifleur": {
@@ -24999,7 +25058,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Eviolite",
                 "index": 58,
-                "sub_index": 58
+                "sub_index": 58,
+                "tr_id": 3
             }
         },
         "Pidgey": {
@@ -25013,7 +25073,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Flying Gem",
                 "index": 59,
-                "sub_index": 59
+                "sub_index": 59,
+                "tr_id": 4
             }
         },
         "Rattata": {
@@ -25027,7 +25088,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flame Orb",
                 "index": 60,
-                "sub_index": 60
+                "sub_index": 60,
+                "tr_id": 4
             }
         },
         "Rattata-Alola": {
@@ -25041,7 +25103,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Silk Scarf",
                 "index": 61,
-                "sub_index": 61
+                "sub_index": 61,
+                "tr_id": 4
             }
         },
         "Yungoos": {
@@ -25054,7 +25117,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Silk Scarf",
                 "index": 62,
-                "sub_index": 62
+                "sub_index": 62,
+                "tr_id": 4
             }
         },
         "Lechonk": {
@@ -25068,7 +25132,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Liechi Berry",
                 "index": 63,
-                "sub_index": 63
+                "sub_index": 63,
+                "tr_id": 4
             }
         },
         "Patrat": {
@@ -25081,7 +25146,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Silk Scarf",
                 "index": 64,
-                "sub_index": 64
+                "sub_index": 64,
+                "tr_id": 4
             }
         },
         "Charcadet": {
@@ -25097,7 +25163,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Charcoal",
                 "index": 65,
-                "sub_index": 65
+                "sub_index": 65,
+                "tr_id": 4
             }
         },
         "Flittle": {
@@ -25113,7 +25180,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Clear Amulet",
                 "index": 66,
-                "sub_index": 66
+                "sub_index": 66,
+                "tr_id": 4
             }
         },
         "Skitty": {
@@ -25129,7 +25197,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Silk Scarf",
                 "index": 67,
-                "sub_index": 67
+                "sub_index": 67,
+                "tr_id": 4
             }
         },
         "Wynaut": {
@@ -25143,7 +25212,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Iapapa Berry",
                 "index": 68,
-                "sub_index": 68
+                "sub_index": 68,
+                "tr_id": 4
             }
         },
         "Venipede": {
@@ -25159,7 +25229,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Black Sludge",
                 "index": 69,
-                "sub_index": 69
+                "sub_index": 69,
+                "tr_id": 4
             }
         },
         "Applin": {
@@ -25175,7 +25246,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Starf Berry",
                 "index": 70,
-                "sub_index": 70
+                "sub_index": 70,
+                "tr_id": 4
             }
         },
         "Smoliv": {
@@ -25191,7 +25263,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Sitrus Berry",
                 "index": 71,
-                "sub_index": 71
+                "sub_index": 71,
+                "tr_id": 4
             }
         },
         "Spearow": {
@@ -25207,7 +25280,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Scope Lens",
                 "index": 72,
-                "sub_index": 72
+                "sub_index": 72,
+                "tr_id": 4
             }
         },
         "Hoothoot": {
@@ -25223,7 +25297,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 73,
-                "sub_index": 73
+                "sub_index": 73,
+                "tr_id": 4
             }
         },
         "Shinx": {
@@ -25239,7 +25314,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Electric Gem",
                 "index": 74,
-                "sub_index": 74
+                "sub_index": 74,
+                "tr_id": 4
             }
         },
         "Pidove": {
@@ -25255,7 +25331,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Scope Lens",
                 "index": 75,
-                "sub_index": 75
+                "sub_index": 75,
+                "tr_id": 4
             }
         },
         "Diglett": {
@@ -25271,7 +25348,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Passho Berry",
                 "index": 76,
-                "sub_index": 76
+                "sub_index": 76,
+                "tr_id": 4
             }
         },
         "Diglett-Alola": {
@@ -25287,7 +25365,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Passho Berry",
                 "index": 77,
-                "sub_index": 77
+                "sub_index": 77,
+                "tr_id": 4
             }
         },
         "Ledyba": {
@@ -25303,7 +25382,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Muscle Band",
                 "index": 78,
-                "sub_index": 78
+                "sub_index": 78,
+                "tr_id": 4
             }
         },
         "Pikipek": {
@@ -25319,7 +25399,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 79,
-                "sub_index": 79
+                "sub_index": 79,
+                "tr_id": 4
             }
         },
         "Hatenna": {
@@ -25343,7 +25424,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 80,
-                "sub_index": 80
+                "sub_index": 80,
+                "tr_id": 4
             }
         },
         "Impidimp": {
@@ -25359,7 +25441,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 81,
-                "sub_index": 81
+                "sub_index": 81,
+                "tr_id": 4
             }
         },
         "Nincada": {
@@ -25375,7 +25458,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Scope Lens",
                 "index": 82,
-                "sub_index": 82
+                "sub_index": 82,
+                "tr_id": 4
             }
         },
         "Surskit": {
@@ -25391,7 +25475,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Damp Rock",
                 "index": 83,
-                "sub_index": 83
+                "sub_index": 83,
+                "tr_id": 4
             }
         },
         "Dewpider": {
@@ -25405,7 +25490,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 84,
-                "sub_index": 84
+                "sub_index": 84,
+                "tr_id": 4
             }
         },
         "Jigglypuff": {
@@ -25421,7 +25507,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 85,
-                "sub_index": 85
+                "sub_index": 85,
+                "tr_id": 4
             }
         },
         "Taillow": {
@@ -25435,7 +25522,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flame Orb",
                 "index": 86,
-                "sub_index": 86
+                "sub_index": 86,
+                "tr_id": 4
             }
         },
         "Wingull": {
@@ -25451,7 +25539,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Wacan Berry",
                 "index": 87,
-                "sub_index": 87
+                "sub_index": 87,
+                "tr_id": 4
             }
         },
         "Wooloo": {
@@ -25467,7 +25556,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 88,
-                "sub_index": 88
+                "sub_index": 88,
+                "tr_id": 4
             }
         },
         "Yamper": {
@@ -25483,7 +25573,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Fire Gem",
                 "index": 89,
-                "sub_index": 89
+                "sub_index": 89,
+                "tr_id": 4
             }
         },
         "Milcery": {
@@ -25499,7 +25590,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 90,
-                "sub_index": 90
+                "sub_index": 90,
+                "tr_id": 4
             }
         },
         "Dreepy": {
@@ -25515,7 +25607,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Clear Amulet",
                 "index": 91,
-                "sub_index": 91
+                "sub_index": 91,
+                "tr_id": 4
             }
         },
         "Rellor": {
@@ -25531,7 +25624,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Occa Berry",
                 "index": 92,
-                "sub_index": 92
+                "sub_index": 92,
+                "tr_id": 4
             }
         },
         "Tadbulb": {
@@ -25547,7 +25641,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Lum Berry",
                 "index": 93,
-                "sub_index": 93
+                "sub_index": 93,
+                "tr_id": 5
             }
         },
         "Nidoran-M": {
@@ -25562,7 +25657,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Black Sludge",
                 "index": 94,
-                "sub_index": 94
+                "sub_index": 94,
+                "tr_id": 5
             }
         },
         "Nidoran-F": {
@@ -25577,7 +25673,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Black Sludge",
                 "index": 95,
-                "sub_index": 95
+                "sub_index": 95,
+                "tr_id": 5
             }
         },
         "Cherubi": {
@@ -25593,7 +25690,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Heat Rock",
                 "index": 96,
-                "sub_index": 96
+                "sub_index": 96,
+                "tr_id": 5
             }
         },
         "Lillipup": {
@@ -25609,7 +25707,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Expert Belt",
                 "index": 97,
-                "sub_index": 97
+                "sub_index": 97,
+                "tr_id": 5
             }
         },
         "Tynamo": {
@@ -25625,7 +25724,8 @@ backup_data = {
                 "nature": "Lonely",
                 "item": "Air Balloon",
                 "index": 98,
-                "sub_index": 98
+                "sub_index": 98,
+                "tr_id": 5
             }
         },
         "Litwick": {
@@ -25641,7 +25741,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Luminous Moss",
                 "index": 99,
-                "sub_index": 99
+                "sub_index": 99,
+                "tr_id": 5
             }
         },
         "Skwovet": {
@@ -25657,7 +25758,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Liechi Berry",
                 "index": 100,
-                "sub_index": 100
+                "sub_index": 100,
+                "tr_id": 5
             }
         },
         "Bramblin": {
@@ -25673,7 +25775,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 101,
-                "sub_index": 101
+                "sub_index": 101,
+                "tr_id": 5
             }
         },
         "Kirlia": {
@@ -25689,7 +25792,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Fairy Gem",
                 "index": 102,
-                "sub_index": 102
+                "sub_index": 102,
+                "tr_id": 5
             }
         },
         "Fletchling": {
@@ -25703,7 +25807,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flying Gem",
                 "index": 103,
-                "sub_index": 103
+                "sub_index": 103,
+                "tr_id": 5
             }
         },
         "Mareep": {
@@ -25719,7 +25824,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Rock Gem",
                 "index": 104,
-                "sub_index": 104
+                "sub_index": 104,
+                "tr_id": 5
             }
         },
         "Slakoth": {
@@ -25735,7 +25841,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 105,
-                "sub_index": 105
+                "sub_index": 105,
+                "tr_id": 5
             }
         },
         "Meditite": {
@@ -25751,7 +25858,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 106,
-                "sub_index": 106
+                "sub_index": 106,
+                "tr_id": 5
             }
         },
         "Budew": {
@@ -25767,7 +25875,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Black Sludge",
                 "index": 107,
-                "sub_index": 107
+                "sub_index": 107,
+                "tr_id": 5
             }
         },
         "Roggenrola": {
@@ -25783,7 +25892,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 108,
-                "sub_index": 108
+                "sub_index": 108,
+                "tr_id": 5
             }
         },
         "Cottonee": {
@@ -25799,7 +25909,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 109,
-                "sub_index": 109
+                "sub_index": 109,
+                "tr_id": 5
             }
         },
         "Petilil": {
@@ -25815,7 +25926,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Focus Sash",
                 "index": 110,
-                "sub_index": 110
+                "sub_index": 110,
+                "tr_id": 5
             }
         },
         "Rockruff": {
@@ -25831,7 +25943,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Clear Amulet",
                 "index": 111,
-                "sub_index": 111
+                "sub_index": 111,
+                "tr_id": 5
             }
         },
         "Arrokuda": {
@@ -25847,7 +25960,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Damp Rock",
                 "index": 112,
-                "sub_index": 112
+                "sub_index": 112,
+                "tr_id": 5
             }
         },
         "Nacli": {
@@ -25863,7 +25977,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 113,
-                "sub_index": 113
+                "sub_index": 113,
+                "tr_id": 5
             }
         },
         "Wattrel": {
@@ -25879,7 +25994,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Wise Glasses",
                 "index": 114,
-                "sub_index": 114
+                "sub_index": 114,
+                "tr_id": 5
             }
         },
         "Purrloin": {
@@ -25892,7 +26008,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Focus Band",
                 "index": 115,
-                "sub_index": 115
+                "sub_index": 115,
+                "tr_id": 5
             }
         },
         "Chewtle": {
@@ -25908,7 +26025,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Muscle Band",
                 "index": 116,
-                "sub_index": 116
+                "sub_index": 116,
+                "tr_id": 5
             }
         },
         "Paras": {
@@ -25924,7 +26042,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Occa Berry",
                 "index": 117,
-                "sub_index": 117
+                "sub_index": 117,
+                "tr_id": 5
             }
         },
         "Chingling": {
@@ -25940,7 +26059,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Shell Bell",
                 "index": 118,
-                "sub_index": 118
+                "sub_index": 118,
+                "tr_id": 5
             }
         },
         "Riolu": {
@@ -25956,7 +26076,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Expert Belt",
                 "index": 119,
-                "sub_index": 119
+                "sub_index": 119,
+                "tr_id": 5
             },
             "Lvl 11 Route 103 Rival": {
                 "level": 11,
@@ -25969,7 +26090,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Berry Juice",
                 "index": 452,
-                "sub_index": 452
+                "sub_index": 452,
+                "tr_id": 6
             }
         },
         "Morelull": {
@@ -25985,7 +26107,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Kebia Berry",
                 "index": 120,
-                "sub_index": 120
+                "sub_index": 120,
+                "tr_id": 5
             }
         },
         "Ekans": {
@@ -26001,7 +26124,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Black Sludge",
                 "index": 121,
-                "sub_index": 121
+                "sub_index": 121,
+                "tr_id": 5
             }
         },
         "Ditto": {
@@ -26014,7 +26138,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Lagging Tail",
                 "index": 122,
-                "sub_index": 122
+                "sub_index": 122,
+                "tr_id": 5
             },
             "Lvl 64 Cooltrainer Alexia |Confusion Room|": {
                 "level": 64,
@@ -26026,7 +26151,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Metal Powder",
                 "index": 883,
-                "sub_index": 883
+                "sub_index": 883,
+                "tr_id": 7
             },
             "Lvl 96 Lady Daphne": {
                 "level": 96,
@@ -26038,7 +26164,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Eject Button",
                 "index": 1912,
-                "sub_index": 1912
+                "sub_index": 1912,
+                "tr_id": 8
             }
         },
         "Barboach": {
@@ -26054,7 +26181,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Ground Gem",
                 "index": 123,
-                "sub_index": 123
+                "sub_index": 123,
+                "tr_id": 5
             }
         },
         "Inkay": {
@@ -26070,7 +26198,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Ability Shield",
                 "index": 124,
-                "sub_index": 124
+                "sub_index": 124,
+                "tr_id": 5
             }
         },
         "Helioptile": {
@@ -26086,7 +26215,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Shuca Berry",
                 "index": 125,
-                "sub_index": 125
+                "sub_index": 125,
+                "tr_id": 5
             }
         },
         "Meowth": {
@@ -26102,7 +26232,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Muscle Band",
                 "index": 126,
-                "sub_index": 126
+                "sub_index": 126,
+                "tr_id": 5
             }
         },
         "Meowth-Alola": {
@@ -26118,7 +26249,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Muscle Band",
                 "index": 127,
-                "sub_index": 127
+                "sub_index": 127,
+                "tr_id": 5
             }
         },
         "Meowth-Galar": {
@@ -26134,7 +26266,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 128,
-                "sub_index": 128
+                "sub_index": 128,
+                "tr_id": 5
             }
         },
         "Pineco": {
@@ -26150,7 +26283,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Berry Juice",
                 "index": 129,
-                "sub_index": 129
+                "sub_index": 129,
+                "tr_id": 9
             }
         },
         "Trapinch": {
@@ -26166,7 +26300,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Bug Gem",
                 "index": 130,
-                "sub_index": 130
+                "sub_index": 130,
+                "tr_id": 9
             }
         },
         "Spheal": {
@@ -26182,7 +26317,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Leftovers",
                 "index": 131,
-                "sub_index": 131
+                "sub_index": 131,
+                "tr_id": 9
             }
         },
         "Bonsly": {
@@ -26198,7 +26334,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Red Card",
                 "index": 132,
-                "sub_index": 132
+                "sub_index": 132,
+                "tr_id": 9
             }
         },
         "Gothita": {
@@ -26214,7 +26351,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Petaya Berry",
                 "index": 133,
-                "sub_index": 133
+                "sub_index": 133,
+                "tr_id": 9
             }
         },
         "Solosis": {
@@ -26238,7 +26376,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 134,
-                "sub_index": 134
+                "sub_index": 134,
+                "tr_id": 9
             }
         },
         "Steenee": {
@@ -26254,7 +26393,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Expert Belt",
                 "index": 135,
-                "sub_index": 135
+                "sub_index": 135,
+                "tr_id": 9
             }
         },
         "Shroodle": {
@@ -26270,7 +26410,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Mental Herb",
                 "index": 136,
-                "sub_index": 136
+                "sub_index": 136,
+                "tr_id": 9
             }
         },
         "Greavard": {
@@ -26286,7 +26427,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Spell Tag",
                 "index": 137,
-                "sub_index": 137
+                "sub_index": 137,
+                "tr_id": 9
             }
         },
         "Munna": {
@@ -26310,7 +26452,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 138,
-                "sub_index": 138
+                "sub_index": 138,
+                "tr_id": 9
             }
         },
         "Sandile": {
@@ -26326,7 +26469,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 139,
-                "sub_index": 139
+                "sub_index": 139,
+                "tr_id": 9
             }
         },
         "Tympole": {
@@ -26341,7 +26485,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Blunder Policy",
                 "index": 140,
-                "sub_index": 140
+                "sub_index": 140,
+                "tr_id": 9
             }
         },
         "Foongus": {
@@ -26357,7 +26502,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Black Sludge",
                 "index": 141,
-                "sub_index": 141
+                "sub_index": 141,
+                "tr_id": 9
             }
         },
         "Horsea": {
@@ -26373,7 +26519,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Scope Lens",
                 "index": 142,
-                "sub_index": 142
+                "sub_index": 142,
+                "tr_id": 9
             }
         },
         "Shroomish": {
@@ -26389,7 +26536,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 143,
-                "sub_index": 143
+                "sub_index": 143,
+                "tr_id": 9
             }
         },
         "Electrike": {
@@ -26402,7 +26550,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Specs",
                 "index": 144,
-                "sub_index": 144
+                "sub_index": 144,
+                "tr_id": 9
             }
         },
         "Shuppet": {
@@ -26418,7 +26567,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Wide Lens",
                 "index": 145,
-                "sub_index": 145
+                "sub_index": 145,
+                "tr_id": 9
             }
         },
         "Duskull": {
@@ -26434,7 +26584,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Oran Berry",
                 "index": 146,
-                "sub_index": 146
+                "sub_index": 146,
+                "tr_id": 9
             }
         },
         "Blitzle": {
@@ -26450,7 +26601,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Expert Belt",
                 "index": 147,
-                "sub_index": 147
+                "sub_index": 147,
+                "tr_id": 9
             }
         },
         "Tinkatink": {
@@ -26466,7 +26618,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 148,
-                "sub_index": 148
+                "sub_index": 148,
+                "tr_id": 9
             }
         },
         "Vulpix": {
@@ -26480,7 +26633,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heat Rock",
                 "index": 149,
-                "sub_index": 149
+                "sub_index": 149,
+                "tr_id": 9
             }
         },
         "Vulpix-Alola": {
@@ -26494,7 +26648,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Icy Rock",
                 "index": 150,
-                "sub_index": 150
+                "sub_index": 150,
+                "tr_id": 9
             }
         },
         "Sandshrew": {
@@ -26510,7 +26665,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Oran Berry",
                 "index": 151,
-                "sub_index": 151
+                "sub_index": 151,
+                "tr_id": 9
             }
         },
         "Sandshrew-Alola": {
@@ -26526,7 +26682,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Oran Berry",
                 "index": 152,
-                "sub_index": 152
+                "sub_index": 152,
+                "tr_id": 9
             }
         },
         "Poliwag": {
@@ -26542,7 +26699,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Damp Rock",
                 "index": 153,
-                "sub_index": 153
+                "sub_index": 153,
+                "tr_id": 9
             }
         },
         "Bellsprout": {
@@ -26557,7 +26715,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Heat Rock",
                 "index": 154,
-                "sub_index": 154
+                "sub_index": 154,
+                "tr_id": 9
             }
         },
         "Geodude": {
@@ -26573,7 +26732,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Oran Berry",
                 "index": 155,
-                "sub_index": 155
+                "sub_index": 155,
+                "tr_id": 9
             }
         },
         "Geodude-Alola": {
@@ -26589,7 +26749,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Oran Berry",
                 "index": 156,
-                "sub_index": 156
+                "sub_index": 156,
+                "tr_id": 9
             }
         },
         "Dratini": {
@@ -26605,7 +26766,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Clear Amulet",
                 "index": 157,
-                "sub_index": 157
+                "sub_index": 157,
+                "tr_id": 9
             }
         },
         "Snubbull": {
@@ -26621,7 +26783,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Clear Amulet",
                 "index": 158,
-                "sub_index": 158
+                "sub_index": 158,
+                "tr_id": 9
             }
         },
         "Remoraid": {
@@ -26637,7 +26800,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Scope Lens",
                 "index": 159,
-                "sub_index": 159
+                "sub_index": 159,
+                "tr_id": 9
             }
         },
         "Larvitar": {
@@ -26653,7 +26817,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flame Orb",
                 "index": 160,
-                "sub_index": 160
+                "sub_index": 160,
+                "tr_id": 9
             }
         },
         "Baltoy": {
@@ -26669,7 +26834,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Berry Juice",
                 "index": 161,
-                "sub_index": 161
+                "sub_index": 161,
+                "tr_id": 9
             }
         },
         "Snorunt": {
@@ -26685,7 +26851,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 162,
-                "sub_index": 162
+                "sub_index": 162,
+                "tr_id": 9
             }
         },
         "Bagon": {
@@ -26701,7 +26868,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 163,
-                "sub_index": 163
+                "sub_index": 163,
+                "tr_id": 10
             }
         },
         "Beldum": {
@@ -26717,7 +26885,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 164,
-                "sub_index": 164
+                "sub_index": 164,
+                "tr_id": 10
             }
         },
         "Bronzor": {
@@ -26733,7 +26902,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Chesto Berry",
                 "index": 165,
-                "sub_index": 165
+                "sub_index": 165,
+                "tr_id": 10
             }
         },
         "Gible": {
@@ -26749,7 +26919,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rocky Helmet",
                 "index": 166,
-                "sub_index": 166
+                "sub_index": 166,
+                "tr_id": 10
             }
         },
         "Croagunk": {
@@ -26765,7 +26936,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 167,
-                "sub_index": 167
+                "sub_index": 167,
+                "tr_id": 10
             }
         },
         "Minccino": {
@@ -26780,7 +26952,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Silk Scarf",
                 "index": 168,
-                "sub_index": 168
+                "sub_index": 168,
+                "tr_id": 10
             }
         },
         "Klink": {
@@ -26795,7 +26968,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 169,
-                "sub_index": 169
+                "sub_index": 169,
+                "tr_id": 10
             }
         },
         "Deino": {
@@ -26811,7 +26985,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Wide Lens",
                 "index": 170,
-                "sub_index": 170
+                "sub_index": 170,
+                "tr_id": 10
             }
         },
         "Goomy": {
@@ -26824,7 +26999,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Ability Shield",
                 "index": 171,
-                "sub_index": 171
+                "sub_index": 171,
+                "tr_id": 10
             }
         },
         "Grubbin": {
@@ -26840,7 +27016,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Adrenaline Orb",
                 "index": 172,
-                "sub_index": 172
+                "sub_index": 172,
+                "tr_id": 10
             }
         },
         "Jangmo-o": {
@@ -26856,7 +27033,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Assault Vest",
                 "index": 173,
-                "sub_index": 173
+                "sub_index": 173,
+                "tr_id": 10
             }
         },
         "Meltan": {
@@ -26872,7 +27050,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Chesto Berry",
                 "index": 174,
-                "sub_index": 174
+                "sub_index": 174,
+                "tr_id": 10
             }
         },
         "Varoom": {
@@ -26888,7 +27067,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Black Sludge",
                 "index": 175,
-                "sub_index": 175
+                "sub_index": 175,
+                "tr_id": 10
             }
         },
         "Gimmighoul": {
@@ -26904,7 +27084,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Light Clay",
                 "index": 176,
-                "sub_index": 176
+                "sub_index": 176,
+                "tr_id": 10
             }
         },
         "Gimmighoul-Roaming": {
@@ -26920,7 +27101,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Light Clay",
                 "index": 177,
-                "sub_index": 177
+                "sub_index": 177,
+                "tr_id": 10
             }
         },
         "Gulpin": {
@@ -26936,7 +27118,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Black Sludge",
                 "index": 178,
-                "sub_index": 178
+                "sub_index": 178,
+                "tr_id": 10
             }
         },
         "Yamask": {
@@ -26952,7 +27135,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Berry Juice",
                 "index": 179,
-                "sub_index": 179
+                "sub_index": 179,
+                "tr_id": 10
             }
         },
         "Yamask-Galar": {
@@ -26968,7 +27152,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Berry Juice",
                 "index": 180,
-                "sub_index": 180
+                "sub_index": 180,
+                "tr_id": 10
             }
         },
         "Golett": {
@@ -26984,7 +27169,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Salac Berry",
                 "index": 181,
-                "sub_index": 181
+                "sub_index": 181,
+                "tr_id": 10
             }
         },
         "Flabébé": {
@@ -27000,7 +27186,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 182,
-                "sub_index": 182
+                "sub_index": 182,
+                "tr_id": 10
             }
         },
         "Bergmite": {
@@ -27016,7 +27203,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Icy Rock",
                 "index": 183,
-                "sub_index": 183
+                "sub_index": 183,
+                "tr_id": 10
             }
         },
         "Cutiefly": {
@@ -27032,7 +27220,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Jaboca Berry",
                 "index": 184,
-                "sub_index": 184
+                "sub_index": 184,
+                "tr_id": 10
             }
         },
         "Capsakid": {
@@ -27048,7 +27237,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 185,
-                "sub_index": 185
+                "sub_index": 185,
+                "tr_id": 10
             }
         },
         "Venonat": {
@@ -27064,7 +27254,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Berry Juice",
                 "index": 186,
-                "sub_index": 186
+                "sub_index": 186,
+                "tr_id": 10
             }
         },
         "Mankey": {
@@ -27079,7 +27270,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Adrenaline Orb",
                 "index": 187,
-                "sub_index": 187
+                "sub_index": 187,
+                "tr_id": 10
             }
         },
         "Machop": {
@@ -27094,7 +27286,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Expert Belt",
                 "index": 188,
-                "sub_index": 188
+                "sub_index": 188,
+                "tr_id": 10
             }
         },
         "Shellder": {
@@ -27110,7 +27303,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Metronome",
                 "index": 189,
-                "sub_index": 189
+                "sub_index": 189,
+                "tr_id": 10
             }
         },
         "Smoochum": {
@@ -27126,7 +27320,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 190,
-                "sub_index": 190
+                "sub_index": 190,
+                "tr_id": 10
             }
         },
         "Carvanha": {
@@ -27142,7 +27337,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Rocky Helmet",
                 "index": 191,
-                "sub_index": 191
+                "sub_index": 191,
+                "tr_id": 10
             }
         },
         "Numel": {
@@ -27158,7 +27354,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 192,
-                "sub_index": 192
+                "sub_index": 192,
+                "tr_id": 10
             }
         },
         "Timburr": {
@@ -27174,7 +27371,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Punching Glove",
                 "index": 193,
-                "sub_index": 193
+                "sub_index": 193,
+                "tr_id": 10
             }
         },
         "Ducklett": {
@@ -27189,7 +27387,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lum Berry",
                 "index": 194,
-                "sub_index": 194
+                "sub_index": 194,
+                "tr_id": 10
             }
         },
         "Vanillite": {
@@ -27205,7 +27404,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Icy Rock",
                 "index": 195,
-                "sub_index": 195
+                "sub_index": 195,
+                "tr_id": 10
             }
         },
         "Ferroseed": {
@@ -27221,7 +27421,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Berry Juice",
                 "index": 196,
-                "sub_index": 196
+                "sub_index": 196,
+                "tr_id": 10
             }
         },
         "Cubchoo": {
@@ -27237,7 +27438,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Icy Rock",
                 "index": 197,
-                "sub_index": 197
+                "sub_index": 197,
+                "tr_id": 10
             }
         },
         "Shelmet": {
@@ -27253,7 +27455,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Berry Juice",
                 "index": 198,
-                "sub_index": 198
+                "sub_index": 198,
+                "tr_id": 10
             }
         },
         "Mareanie": {
@@ -27269,7 +27472,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Black Sludge",
                 "index": 199,
-                "sub_index": 199
+                "sub_index": 199,
+                "tr_id": 10
             },
             "Lvl 37 Hiker Marcster": {
                 "level": 37,
@@ -27283,7 +27487,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Black Sludge",
                 "index": 523,
-                "sub_index": 523
+                "sub_index": 523,
+                "tr_id": 11
             }
         },
         "Sizzlipede": {
@@ -27299,7 +27504,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 200,
-                "sub_index": 200
+                "sub_index": 200,
+                "tr_id": 10
             }
         },
         "Tandemaus": {
@@ -27315,7 +27521,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Berry Juice",
                 "index": 201,
-                "sub_index": 201
+                "sub_index": 201,
+                "tr_id": 10
             }
         },
         "Binacle": {
@@ -27331,7 +27538,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Binding Band",
                 "index": 202,
-                "sub_index": 202
+                "sub_index": 202,
+                "tr_id": 12
             }
         },
         "Fennekin": {
@@ -27347,7 +27555,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Berry Juice",
                 "index": 203,
-                "sub_index": 203
+                "sub_index": 203,
+                "tr_id": 12
             }
         },
         "Corphish": {
@@ -27363,7 +27572,8 @@ backup_data = {
                 "nature": "Lonely",
                 "item": "Berry Juice",
                 "index": 204,
-                "sub_index": 204
+                "sub_index": 204,
+                "tr_id": 12
             }
         },
         "Snivy": {
@@ -27376,7 +27586,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Adrenaline Orb",
                 "index": 205,
-                "sub_index": 205
+                "sub_index": 205,
+                "tr_id": 12
             }
         },
         "Tepig": {
@@ -27392,7 +27603,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Iron Ball",
                 "index": 206,
-                "sub_index": 206
+                "sub_index": 206,
+                "tr_id": 12
             }
         },
         "Oshawott": {
@@ -27408,7 +27620,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Scope Lens",
                 "index": 207,
-                "sub_index": 207
+                "sub_index": 207,
+                "tr_id": 12
             },
             "Lvl 10 Route 103 Rival": {
                 "level": 10,
@@ -27422,7 +27635,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Oran Berry",
                 "index": 450,
-                "sub_index": 450
+                "sub_index": 450,
+                "tr_id": 6
             }
         },
         "Sinistea": {
@@ -27438,7 +27652,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Kee Berry",
                 "index": 208,
-                "sub_index": 208
+                "sub_index": 208,
+                "tr_id": 12
             }
         },
         "Charmander": {
@@ -27454,7 +27669,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Ring Target",
                 "index": 209,
-                "sub_index": 209
+                "sub_index": 209,
+                "tr_id": 12
             }
         },
         "Cyndaquil": {
@@ -27470,7 +27686,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Charcoal",
                 "index": 210,
-                "sub_index": 210
+                "sub_index": 210,
+                "tr_id": 12
             }
         },
         "Chimchar": {
@@ -27486,7 +27703,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 211,
-                "sub_index": 211
+                "sub_index": 211,
+                "tr_id": 12
             }
         },
         "Phantump": {
@@ -27502,7 +27720,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 212,
-                "sub_index": 212
+                "sub_index": 212,
+                "tr_id": 12
             }
         },
         "Abra": {
@@ -27518,7 +27737,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 213,
-                "sub_index": 213
+                "sub_index": 213,
+                "tr_id": 12
             }
         },
         "Doduo": {
@@ -27531,7 +27751,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Silk Scarf",
                 "index": 214,
-                "sub_index": 214
+                "sub_index": 214,
+                "tr_id": 12
             }
         },
         "Gastly": {
@@ -27547,7 +27768,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wise Glasses",
                 "index": 215,
-                "sub_index": 215
+                "sub_index": 215,
+                "tr_id": 12
             }
         },
         "Treecko": {
@@ -27563,7 +27785,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "White Herb",
                 "index": 216,
-                "sub_index": 216
+                "sub_index": 216,
+                "tr_id": 12
             }
         },
         "Torchic": {
@@ -27579,7 +27802,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 217,
-                "sub_index": 217
+                "sub_index": 217,
+                "tr_id": 12
             }
         },
         "Mudkip": {
@@ -27595,7 +27819,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 218,
-                "sub_index": 218
+                "sub_index": 218,
+                "tr_id": 12
             }
         },
         "Swablu": {
@@ -27611,7 +27836,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Berry Juice",
                 "index": 219,
-                "sub_index": 219
+                "sub_index": 219,
+                "tr_id": 12
             }
         },
         "Glameow": {
@@ -27626,7 +27852,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Silk Scarf",
                 "index": 220,
-                "sub_index": 220
+                "sub_index": 220,
+                "tr_id": 12
             }
         },
         "Mime Jr.": {
@@ -27650,7 +27877,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 221,
-                "sub_index": 221
+                "sub_index": 221,
+                "tr_id": 12
             }
         },
         "Sewaddle": {
@@ -27666,7 +27894,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Occa Berry",
                 "index": 222,
-                "sub_index": 222
+                "sub_index": 222,
+                "tr_id": 12
             }
         },
         "Grookey": {
@@ -27682,7 +27911,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Terrain Extender",
                 "index": 223,
-                "sub_index": 223
+                "sub_index": 223,
+                "tr_id": 12
             },
             "Lvl 35 Twins Gina&Mia": {
                 "level": 35,
@@ -27696,7 +27926,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Grass Gem",
                 "index": 506,
-                "sub_index": 506
+                "sub_index": 506,
+                "tr_id": 13
             }
         },
         "Scorbunny": {
@@ -27712,7 +27943,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Expert Belt",
                 "index": 224,
-                "sub_index": 224
+                "sub_index": 224,
+                "tr_id": 12
             }
         },
         "Sobble": {
@@ -27728,7 +27960,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Scope Lens",
                 "index": 225,
-                "sub_index": 225
+                "sub_index": 225,
+                "tr_id": 12
             }
         },
         "Clobbopus": {
@@ -27744,7 +27977,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Red Card",
                 "index": 226,
-                "sub_index": 226
+                "sub_index": 226,
+                "tr_id": 12
             }
         },
         "Sprigatito": {
@@ -27760,7 +27994,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Expert Belt",
                 "index": 227,
-                "sub_index": 227
+                "sub_index": 227,
+                "tr_id": 12
             }
         },
         "Fuecoco": {
@@ -27776,7 +28011,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Sitrus Berry",
                 "index": 228,
-                "sub_index": 228
+                "sub_index": 228,
+                "tr_id": 12
             }
         },
         "Quaxly": {
@@ -27792,7 +28028,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 229,
-                "sub_index": 229
+                "sub_index": 229,
+                "tr_id": 12
             }
         },
         "Fidough": {
@@ -27808,7 +28045,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Expert Belt",
                 "index": 230,
-                "sub_index": 230
+                "sub_index": 230,
+                "tr_id": 12
             }
         },
         "Chespin": {
@@ -27824,7 +28062,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 231,
-                "sub_index": 231
+                "sub_index": 231,
+                "tr_id": 12
             }
         },
         "Squirtle": {
@@ -27840,7 +28079,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 232,
-                "sub_index": 232
+                "sub_index": 232,
+                "tr_id": 12
             }
         },
         "Totodile": {
@@ -27856,7 +28096,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Expert Belt",
                 "index": 233,
-                "sub_index": 233
+                "sub_index": 233,
+                "tr_id": 12
             }
         },
         "Piplup": {
@@ -27872,7 +28113,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Starf Berry",
                 "index": 234,
-                "sub_index": 234
+                "sub_index": 234,
+                "tr_id": 12
             }
         },
         "Froakie": {
@@ -27888,7 +28130,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Expert Belt",
                 "index": 235,
-                "sub_index": 235
+                "sub_index": 235,
+                "tr_id": 12
             }
         },
         "Slowpoke": {
@@ -27904,7 +28147,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 236,
-                "sub_index": 236
+                "sub_index": 236,
+                "tr_id": 12
             }
         },
         "Slowpoke-Galar": {
@@ -27920,7 +28164,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Wiki Berry",
                 "index": 237,
-                "sub_index": 237
+                "sub_index": 237,
+                "tr_id": 12
             }
         },
         "Darumaka": {
@@ -27936,7 +28181,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Air Balloon",
                 "index": 238,
-                "sub_index": 238
+                "sub_index": 238,
+                "tr_id": 12
             }
         },
         "Darumaka-Galar": {
@@ -27952,7 +28198,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Chople Berry",
                 "index": 239,
-                "sub_index": 239
+                "sub_index": 239,
+                "tr_id": 12
             }
         },
         "Karrablast": {
@@ -27968,7 +28215,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 240,
-                "sub_index": 240
+                "sub_index": 240,
+                "tr_id": 14
             }
         },
         "Silicobra": {
@@ -27984,7 +28232,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Smooth Rock",
                 "index": 241,
-                "sub_index": 241
+                "sub_index": 241,
+                "tr_id": 14
             }
         },
         "Finizen": {
@@ -28000,7 +28249,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Rindo Berry",
                 "index": 242,
-                "sub_index": 242
+                "sub_index": 242,
+                "tr_id": 14
             }
         },
         "Pansage": {
@@ -28016,7 +28266,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Petaya Berry",
                 "index": 243,
-                "sub_index": 243
+                "sub_index": 243,
+                "tr_id": 14
             }
         },
         "Pansear": {
@@ -28032,7 +28283,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Petaya Berry",
                 "index": 244,
-                "sub_index": 244
+                "sub_index": 244,
+                "tr_id": 14
             }
         },
         "Panpour": {
@@ -28048,7 +28300,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Petaya Berry",
                 "index": 245,
-                "sub_index": 245
+                "sub_index": 245,
+                "tr_id": 14
             }
         },
         "Bulbasaur": {
@@ -28064,7 +28317,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 246,
-                "sub_index": 246
+                "sub_index": 246,
+                "tr_id": 14
             }
         },
         "Chikorita": {
@@ -28080,7 +28334,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 247,
-                "sub_index": 247
+                "sub_index": 247,
+                "tr_id": 14
             }
         },
         "Turtwig": {
@@ -28096,7 +28351,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 248,
-                "sub_index": 248
+                "sub_index": 248,
+                "tr_id": 14
             }
         },
         "Joltik": {
@@ -28112,7 +28368,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lum Berry",
                 "index": 249,
-                "sub_index": 249
+                "sub_index": 249,
+                "tr_id": 14
             }
         },
         "Pikachu": {
@@ -28128,7 +28385,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Power Herb",
                 "index": 250,
-                "sub_index": 250
+                "sub_index": 250,
+                "tr_id": 14
             }
         },
         "Oddish": {
@@ -28144,7 +28402,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Zoom Lens",
                 "index": 251,
-                "sub_index": 251
+                "sub_index": 251,
+                "tr_id": 14
             }
         },
         "Psyduck": {
@@ -28160,7 +28419,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Blunder Policy",
                 "index": 252,
-                "sub_index": 252
+                "sub_index": 252,
+                "tr_id": 14
             }
         },
         "Cubone": {
@@ -28176,7 +28436,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Thick Club",
                 "index": 253,
-                "sub_index": 253
+                "sub_index": 253,
+                "tr_id": 14
             }
         },
         "Goldeen": {
@@ -28192,7 +28453,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 254,
-                "sub_index": 254
+                "sub_index": 254,
+                "tr_id": 14
             }
         },
         "Natu": {
@@ -28216,7 +28478,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 255,
-                "sub_index": 255
+                "sub_index": 255,
+                "tr_id": 14
             }
         },
         "Axew": {
@@ -28232,7 +28495,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 256,
-                "sub_index": 256
+                "sub_index": 256,
+                "tr_id": 14
             }
         },
         "Skrelp": {
@@ -28248,7 +28512,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Leftovers",
                 "index": 257,
-                "sub_index": 257
+                "sub_index": 257,
+                "tr_id": 14
             }
         },
         "Litten": {
@@ -28264,7 +28529,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Rocky Helmet",
                 "index": 258,
-                "sub_index": 258
+                "sub_index": 258,
+                "tr_id": 14
             },
             "Lvl 10 Route 103 Rival": {
                 "level": 10,
@@ -28278,7 +28544,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Oran Berry",
                 "index": 451,
-                "sub_index": 451
+                "sub_index": 451,
+                "tr_id": 6
             }
         },
         "Popplio": {
@@ -28294,7 +28561,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 259,
-                "sub_index": 259
+                "sub_index": 259,
+                "tr_id": 14
             }
         },
         "Salandit": {
@@ -28310,7 +28578,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Shuca Berry",
                 "index": 260,
-                "sub_index": 260
+                "sub_index": 260,
+                "tr_id": 14
             }
         },
         "Sandygast": {
@@ -28326,7 +28595,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 261,
-                "sub_index": 261
+                "sub_index": 261,
+                "tr_id": 14
             }
         },
         "Frigibax": {
@@ -28342,7 +28612,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 262,
-                "sub_index": 262
+                "sub_index": 262,
+                "tr_id": 14
             }
         },
         "Clefairy": {
@@ -28358,7 +28629,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Life Orb",
                 "index": 263,
-                "sub_index": 263
+                "sub_index": 263,
+                "tr_id": 14
             },
             "Lvl 44 Picnicker Emi": {
                 "level": 44,
@@ -28372,7 +28644,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Eviolite",
                 "index": 576,
-                "sub_index": 576
+                "sub_index": 576,
+                "tr_id": 15
             }
         },
         "Woobat": {
@@ -28388,7 +28661,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Starf Berry",
                 "index": 264,
-                "sub_index": 264
+                "sub_index": 264,
+                "tr_id": 14
             }
         },
         "Magnemite": {
@@ -28404,7 +28678,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Terrain Extender",
                 "index": 265,
-                "sub_index": 265
+                "sub_index": 265,
+                "tr_id": 14
             }
         },
         "Seel": {
@@ -28420,7 +28695,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Grip Claw",
                 "index": 266,
-                "sub_index": 266
+                "sub_index": 266,
+                "tr_id": 14
             }
         },
         "Grimer": {
@@ -28436,7 +28712,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 267,
-                "sub_index": 267
+                "sub_index": 267,
+                "tr_id": 14
             }
         },
         "Grimer-Alola": {
@@ -28452,7 +28729,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 268,
-                "sub_index": 268
+                "sub_index": 268,
+                "tr_id": 14
             }
         },
         "Krabby": {
@@ -28465,7 +28743,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 269,
-                "sub_index": 269
+                "sub_index": 269,
+                "tr_id": 14
             }
         },
         "Exeggcute": {
@@ -28481,7 +28760,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Blunder Policy",
                 "index": 270,
-                "sub_index": 270
+                "sub_index": 270,
+                "tr_id": 14
             }
         },
         "Eevee": {
@@ -28494,7 +28774,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 271,
-                "sub_index": 271
+                "sub_index": 271,
+                "tr_id": 14
             }
         },
         "Shellos": {
@@ -28510,7 +28791,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Lum Berry",
                 "index": 272,
-                "sub_index": 272
+                "sub_index": 272,
+                "tr_id": 14
             }
         },
         "Dwebble": {
@@ -28526,7 +28808,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Binding Band",
                 "index": 273,
-                "sub_index": 273
+                "sub_index": 273,
+                "tr_id": 14
             }
         },
         "Honedge": {
@@ -28542,7 +28825,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eviolite",
                 "index": 274,
-                "sub_index": 274
+                "sub_index": 274,
+                "tr_id": 14
             }
         },
         "Drowzee": {
@@ -28558,7 +28842,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 275,
-                "sub_index": 275
+                "sub_index": 275,
+                "tr_id": 14
             }
         },
         "Drilbur": {
@@ -28574,7 +28859,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Soft Sand",
                 "index": 276,
-                "sub_index": 276
+                "sub_index": 276,
+                "tr_id": 14
             }
         },
         "Stunky": {
@@ -28590,7 +28876,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Black Glasses",
                 "index": 277,
-                "sub_index": 277
+                "sub_index": 277,
+                "tr_id": 14
             }
         },
         "Trubbish": {
@@ -28606,7 +28893,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Rocky Helmet",
                 "index": 278,
-                "sub_index": 278
+                "sub_index": 278,
+                "tr_id": 14
             }
         },
         "Voltorb": {
@@ -28622,7 +28910,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Terrain Extender",
                 "index": 279,
-                "sub_index": 279
+                "sub_index": 279,
+                "tr_id": 14
             }
         },
         "Voltorb-Hisui": {
@@ -28638,7 +28927,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Terrain Extender",
                 "index": 280,
-                "sub_index": 280
+                "sub_index": 280,
+                "tr_id": 14
             }
         },
         "Chinchou": {
@@ -28654,7 +28944,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 281,
-                "sub_index": 281
+                "sub_index": 281,
+                "tr_id": 16
             }
         },
         "Teddiursa": {
@@ -28670,7 +28961,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Toxic Orb",
                 "index": 282,
-                "sub_index": 282
+                "sub_index": 282,
+                "tr_id": 16
             }
         },
         "Delibird": {
@@ -28686,7 +28978,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 283,
-                "sub_index": 283
+                "sub_index": 283,
+                "tr_id": 16
             },
             "Lvl 62 Triathlete Benjamin & Triathlete Alyssa": {
                 "level": 62,
@@ -28700,7 +28993,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Light Clay",
                 "index": 762,
-                "sub_index": 762
+                "sub_index": 762,
+                "tr_id": 17
             }
         },
         "Houndour": {
@@ -28716,7 +29010,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 284,
-                "sub_index": 284
+                "sub_index": 284,
+                "tr_id": 16
             }
         },
         "Phanpy": {
@@ -28732,7 +29027,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 285,
-                "sub_index": 285
+                "sub_index": 285,
+                "tr_id": 16
             }
         },
         "Aron": {
@@ -28746,7 +29042,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 286,
-                "sub_index": 286
+                "sub_index": 286,
+                "tr_id": 16
             }
         },
         "Spoink": {
@@ -28762,7 +29059,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Colbur Berry",
                 "index": 287,
-                "sub_index": 287
+                "sub_index": 287,
+                "tr_id": 16
             }
         },
         "Luvdisc": {
@@ -28778,7 +29076,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Ice Gem",
                 "index": 288,
-                "sub_index": 288
+                "sub_index": 288,
+                "tr_id": 16
             },
             "Lvl 38 Fisherman Darian": {
                 "level": 38,
@@ -28792,7 +29091,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Sitrus Berry",
                 "index": 484,
-                "sub_index": 484
+                "sub_index": 484,
+                "tr_id": 18
             },
             "Lvl 91 Seafloor Team Aqua Grunt #2 ": {
                 "level": 91,
@@ -28806,7 +29106,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 1780,
-                "sub_index": 1780
+                "sub_index": 1780,
+                "tr_id": 19
             }
         },
         "Buizel": {
@@ -28822,7 +29123,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Absorb Bulb",
                 "index": 289,
-                "sub_index": 289
+                "sub_index": 289,
+                "tr_id": 16
             }
         },
         "Hippopotas": {
@@ -28838,7 +29140,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Smooth Rock",
                 "index": 290,
-                "sub_index": 290
+                "sub_index": 290,
+                "tr_id": 16
             }
         },
         "Skorupi": {
@@ -28854,7 +29157,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Scope Lens",
                 "index": 291,
-                "sub_index": 291
+                "sub_index": 291,
+                "tr_id": 16
             }
         },
         "Finneon": {
@@ -28870,7 +29174,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Berry Juice",
                 "index": 292,
-                "sub_index": 292
+                "sub_index": 292,
+                "tr_id": 16
             }
         },
         "Zorua": {
@@ -28886,7 +29191,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Life Orb",
                 "index": 293,
-                "sub_index": 293
+                "sub_index": 293,
+                "tr_id": 16
             }
         },
         "Zorua-Hisui": {
@@ -28902,7 +29208,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Life Orb",
                 "index": 294,
-                "sub_index": 294
+                "sub_index": 294,
+                "tr_id": 16
             }
         },
         "Clauncher": {
@@ -28918,7 +29225,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Wise Glasses",
                 "index": 295,
-                "sub_index": 295
+                "sub_index": 295,
+                "tr_id": 16
             }
         },
         "Cufant": {
@@ -28934,7 +29242,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Expert Belt",
                 "index": 296,
-                "sub_index": 296
+                "sub_index": 296,
+                "tr_id": 16
             }
         },
         "Snover": {
@@ -28950,7 +29259,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Icy Rock",
                 "index": 297,
-                "sub_index": 297
+                "sub_index": 297,
+                "tr_id": 16
             }
         },
         "Cetoddle": {
@@ -28966,7 +29276,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 298,
-                "sub_index": 298
+                "sub_index": 298,
+                "tr_id": 16
             }
         },
         "Tentacool": {
@@ -28982,7 +29293,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Berry Juice",
                 "index": 299,
-                "sub_index": 299
+                "sub_index": 299,
+                "tr_id": 16
             }
         },
         "Cacnea": {
@@ -28998,7 +29310,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Focus Sash",
                 "index": 300,
-                "sub_index": 300
+                "sub_index": 300,
+                "tr_id": 16
             }
         },
         "Deerling": {
@@ -29014,7 +29327,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 301,
-                "sub_index": 301
+                "sub_index": 301,
+                "tr_id": 16
             }
         },
         "Frillish": {
@@ -29030,7 +29344,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Lum Berry",
                 "index": 302,
-                "sub_index": 302
+                "sub_index": 302,
+                "tr_id": 16
             }
         },
         "Elgyem": {
@@ -29046,7 +29361,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 303,
-                "sub_index": 303
+                "sub_index": 303,
+                "tr_id": 16
             }
         },
         "Pumpkaboo-Super": {
@@ -29062,7 +29378,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 304,
-                "sub_index": 304
+                "sub_index": 304,
+                "tr_id": 16
             }
         },
         "Dottler": {
@@ -29077,7 +29394,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Occa Berry",
                 "index": 305,
-                "sub_index": 305
+                "sub_index": 305,
+                "tr_id": 16
             }
         },
         "Toedscool": {
@@ -29093,7 +29411,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Berry Juice",
                 "index": 306,
-                "sub_index": 306
+                "sub_index": 306,
+                "tr_id": 16
             }
         },
         "Unown": {
@@ -29114,7 +29433,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 307,
-                "sub_index": 307
+                "sub_index": 307,
+                "tr_id": 16
             },
             "Lvl 72 Collector Tully": {
                 "level": 72,
@@ -29125,7 +29445,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Choice Specs",
                 "index": 1034,
-                "sub_index": 1034
+                "sub_index": 1034,
+                "tr_id": 20
             }
         },
         "Crabrawler": {
@@ -29141,7 +29462,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Life Orb",
                 "index": 308,
-                "sub_index": 308
+                "sub_index": 308,
+                "tr_id": 16
             }
         },
         "Koffing": {
@@ -29157,7 +29479,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Leftovers",
                 "index": 309,
-                "sub_index": 309
+                "sub_index": 309,
+                "tr_id": 16
             }
         },
         "Staryu": {
@@ -29173,7 +29496,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 310,
-                "sub_index": 310
+                "sub_index": 310,
+                "tr_id": 16
             }
         },
         "Skiploom": {
@@ -29189,7 +29513,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 311,
-                "sub_index": 311
+                "sub_index": 311,
+                "tr_id": 16
             }
         },
         "Lombre": {
@@ -29205,7 +29530,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Berry Juice",
                 "index": 312,
-                "sub_index": 312
+                "sub_index": 312,
+                "tr_id": 16
             }
         },
         "Nuzleaf": {
@@ -29221,7 +29547,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Life Orb",
                 "index": 313,
-                "sub_index": 313
+                "sub_index": 313,
+                "tr_id": 16
             }
         },
         "Vibrava": {
@@ -29237,7 +29564,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Yache Berry",
                 "index": 314,
-                "sub_index": 314
+                "sub_index": 314,
+                "tr_id": 16
             }
         },
         "Staravia": {
@@ -29253,7 +29581,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Charti Berry",
                 "index": 315,
-                "sub_index": 315
+                "sub_index": 315,
+                "tr_id": 16
             }
         },
         "Pawniard": {
@@ -29269,7 +29598,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Chople Berry",
                 "index": 316,
-                "sub_index": 316
+                "sub_index": 316,
+                "tr_id": 16
             }
         },
         "Stufful": {
@@ -29285,7 +29615,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 317,
-                "sub_index": 317
+                "sub_index": 317,
+                "tr_id": 16
             }
         },
         "Maschiff": {
@@ -29301,7 +29632,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 318,
-                "sub_index": 318
+                "sub_index": 318,
+                "tr_id": 16
             }
         },
         "Spritzee": {
@@ -29317,7 +29649,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 319,
-                "sub_index": 319
+                "sub_index": 319,
+                "tr_id": 16
             }
         },
         "Swirlix": {
@@ -29333,7 +29666,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 320,
-                "sub_index": 320
+                "sub_index": 320,
+                "tr_id": 16
             }
         },
         "Rhyhorn": {
@@ -29349,7 +29683,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Passho Berry",
                 "index": 321,
-                "sub_index": 321
+                "sub_index": 321,
+                "tr_id": 16
             }
         },
         "Linoone-Galar": {
@@ -29365,7 +29700,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Toxic Orb",
                 "index": 322,
-                "sub_index": 322
+                "sub_index": 322,
+                "tr_id": 21
             }
         },
         "Clamperl": {
@@ -29381,7 +29717,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Deep Sea Tooth",
                 "index": 323,
-                "sub_index": 323
+                "sub_index": 323,
+                "tr_id": 21
             }
         },
         "Mantyke": {
@@ -29397,7 +29734,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Leftovers",
                 "index": 324,
-                "sub_index": 324
+                "sub_index": 324,
+                "tr_id": 21
             }
         },
         "Drifloon": {
@@ -29413,7 +29751,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Flame Orb",
                 "index": 325,
-                "sub_index": 325
+                "sub_index": 325,
+                "tr_id": 21
             }
         },
         "Scraggy": {
@@ -29429,7 +29768,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 326,
-                "sub_index": 326
+                "sub_index": 326,
+                "tr_id": 21
             }
         },
         "Pancham": {
@@ -29445,7 +29785,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 327,
-                "sub_index": 327
+                "sub_index": 327,
+                "tr_id": 21
             }
         },
         "Pidgeotto": {
@@ -29461,7 +29802,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "White Herb",
                 "index": 328,
-                "sub_index": 328
+                "sub_index": 328,
+                "tr_id": 21
             }
         },
         "Growlithe": {
@@ -29477,7 +29819,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Hard Stone",
                 "index": 330,
-                "sub_index": 330
+                "sub_index": 330,
+                "tr_id": 21
             }
         },
         "Cranidos": {
@@ -29493,7 +29836,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Life Orb",
                 "index": 331,
-                "sub_index": 331
+                "sub_index": 331,
+                "tr_id": 21
             }
         },
         "Shieldon": {
@@ -29509,7 +29853,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Leftovers",
                 "index": 332,
-                "sub_index": 332
+                "sub_index": 332,
+                "tr_id": 21
             }
         },
         "Buneary": {
@@ -29525,7 +29870,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 333,
-                "sub_index": 333
+                "sub_index": 333,
+                "tr_id": 21
             }
         },
         "Mienfoo": {
@@ -29541,7 +29887,8 @@ backup_data = {
                 "nature": "Lonely",
                 "item": "Expert Belt",
                 "index": 334,
-                "sub_index": 334
+                "sub_index": 334,
+                "tr_id": 21
             }
         },
         "Rufflet": {
@@ -29557,7 +29904,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 335,
-                "sub_index": 335
+                "sub_index": 335,
+                "tr_id": 21
             }
         },
         "Skiddo": {
@@ -29573,7 +29921,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 336,
-                "sub_index": 336
+                "sub_index": 336,
+                "tr_id": 21
             }
         },
         "Krokorok": {
@@ -29589,7 +29938,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 337,
-                "sub_index": 337
+                "sub_index": 337,
+                "tr_id": 21
             }
         },
         "Omanyte": {
@@ -29605,7 +29955,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Damp Rock",
                 "index": 338,
-                "sub_index": 338
+                "sub_index": 338,
+                "tr_id": 21
             }
         },
         "Kabuto": {
@@ -29621,7 +29972,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Damp Rock",
                 "index": 339,
-                "sub_index": 339
+                "sub_index": 339,
+                "tr_id": 21
             }
         },
         "Lileep": {
@@ -29637,7 +29989,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 340,
-                "sub_index": 340
+                "sub_index": 340,
+                "tr_id": 21
             }
         },
         "Anorith": {
@@ -29653,7 +30006,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Damp Rock",
                 "index": 341,
-                "sub_index": 341
+                "sub_index": 341,
+                "tr_id": 21
             }
         },
         "Tirtouga": {
@@ -29669,7 +30023,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Damp Rock",
                 "index": 342,
-                "sub_index": 342
+                "sub_index": 342,
+                "tr_id": 21
             }
         },
         "Espurr": {
@@ -29685,7 +30040,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Light Clay",
                 "index": 343,
-                "sub_index": 343
+                "sub_index": 343,
+                "tr_id": 21
             }
         },
         "Trumbeak": {
@@ -29701,7 +30057,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Power Herb",
                 "index": 344,
-                "sub_index": 344
+                "sub_index": 344,
+                "tr_id": 21
             }
         },
         "Tranquill": {
@@ -29717,7 +30074,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Scope Lens",
                 "index": 345,
-                "sub_index": 345
+                "sub_index": 345,
+                "tr_id": 21
             }
         },
         "Aipom": {
@@ -29733,7 +30091,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 346,
-                "sub_index": 346
+                "sub_index": 346,
+                "tr_id": 21
             }
         },
         "Elekid": {
@@ -29749,7 +30108,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Berry Juice",
                 "index": 347,
-                "sub_index": 347
+                "sub_index": 347,
+                "tr_id": 21
             }
         },
         "Spinda": {
@@ -29765,7 +30125,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 348,
-                "sub_index": 348
+                "sub_index": 348,
+                "tr_id": 21
             },
             "Lvl 64 Cooltrainer Alexia |Confusion Room|": {
                 "level": 64,
@@ -29779,7 +30140,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Chople Berry",
                 "index": 879,
-                "sub_index": 879
+                "sub_index": 879,
+                "tr_id": 7
             }
         },
         "Whirlipede": {
@@ -29795,7 +30157,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Rocky Helmet",
                 "index": 349,
-                "sub_index": 349
+                "sub_index": 349,
+                "tr_id": 21
             }
         },
         "Larvesta": {
@@ -29811,7 +30174,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 350,
-                "sub_index": 350
+                "sub_index": 350,
+                "tr_id": 21
             }
         },
         "Tyrunt": {
@@ -29827,7 +30191,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 351,
-                "sub_index": 351
+                "sub_index": 351,
+                "tr_id": 21
             }
         },
         "Amaura": {
@@ -29840,7 +30205,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Berry Juice",
                 "index": 352,
-                "sub_index": 352
+                "sub_index": 352,
+                "tr_id": 21
             }
         },
         "Luxio": {
@@ -29856,7 +30222,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 353,
-                "sub_index": 353
+                "sub_index": 353,
+                "tr_id": 21
             }
         },
         "Nidorina": {
@@ -29872,7 +30239,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Berry Juice",
                 "index": 354,
-                "sub_index": 354
+                "sub_index": 354,
+                "tr_id": 21
             }
         },
         "Nidorino": {
@@ -29888,7 +30256,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Berry Juice",
                 "index": 355,
-                "sub_index": 355
+                "sub_index": 355,
+                "tr_id": 21
             }
         },
         "Flaaffy": {
@@ -29904,7 +30273,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Light Ball",
                 "index": 356,
-                "sub_index": 356
+                "sub_index": 356,
+                "tr_id": 21
             }
         },
         "Magby": {
@@ -29920,7 +30290,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Sitrus Berry",
                 "index": 357,
-                "sub_index": 357
+                "sub_index": 357,
+                "tr_id": 21
             }
         },
         "Litleo": {
@@ -29936,7 +30307,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Berry Juice",
                 "index": 358,
-                "sub_index": 358
+                "sub_index": 358,
+                "tr_id": 21
             }
         },
         "Herdier": {
@@ -29952,7 +30324,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Choice Specs",
                 "index": 359,
-                "sub_index": 359
+                "sub_index": 359,
+                "tr_id": 21
             }
         },
         "Duosion": {
@@ -29976,7 +30349,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 360,
-                "sub_index": 360
+                "sub_index": 360,
+                "tr_id": 21
             }
         },
         "Lampent": {
@@ -29991,7 +30365,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Berry Juice",
                 "index": 361,
-                "sub_index": 361
+                "sub_index": 361,
+                "tr_id": 21
             }
         },
         "Vullaby": {
@@ -30007,7 +30382,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Berry Juice",
                 "index": 362,
-                "sub_index": 362
+                "sub_index": 362,
+                "tr_id": 21
             }
         },
         "Floette": {
@@ -30023,7 +30399,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Big Root",
                 "index": 363,
-                "sub_index": 363
+                "sub_index": 363,
+                "tr_id": 21
             }
         },
         "Farfetch’d-Galar": {
@@ -30039,7 +30416,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leek",
                 "index": 364,
-                "sub_index": 364
+                "sub_index": 364,
+                "tr_id": 22
             }
         },
         "Tinkatuff": {
@@ -30055,7 +30433,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Berserk Gene",
                 "index": 365,
-                "sub_index": 365
+                "sub_index": 365,
+                "tr_id": 22
             }
         },
         "Pawmo": {
@@ -30071,7 +30450,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leppa Berry",
                 "index": 366,
-                "sub_index": 366
+                "sub_index": 366,
+                "tr_id": 22
             }
         },
         "Dolliv": {
@@ -30087,7 +30467,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Sitrus Berry",
                 "index": 367,
-                "sub_index": 367
+                "sub_index": 367,
+                "tr_id": 22
             }
         },
         "Naclstack": {
@@ -30103,7 +30484,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Sitrus Berry",
                 "index": 368,
-                "sub_index": 368
+                "sub_index": 368,
+                "tr_id": 22
             }
         },
         "Corvisquire": {
@@ -30119,7 +30501,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mirror Herb",
                 "index": 369,
-                "sub_index": 369
+                "sub_index": 369,
+                "tr_id": 22
             }
         },
         "Hattrem": {
@@ -30135,7 +30518,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Life Orb",
                 "index": 370,
-                "sub_index": 370
+                "sub_index": 370,
+                "tr_id": 22
             }
         },
         "Morgrem": {
@@ -30151,7 +30535,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Light Clay",
                 "index": 371,
-                "sub_index": 371
+                "sub_index": 371,
+                "tr_id": 22
             }
         },
         "Nosepass": {
@@ -30167,7 +30552,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Berry Juice",
                 "index": 372,
-                "sub_index": 372
+                "sub_index": 372,
+                "tr_id": 22
             }
         },
         "Swadloon": {
@@ -30183,7 +30569,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Occa Berry",
                 "index": 373,
-                "sub_index": 373
+                "sub_index": 373,
+                "tr_id": 22
             }
         },
         "Fletchinder": {
@@ -30199,7 +30586,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 374,
-                "sub_index": 374
+                "sub_index": 374,
+                "tr_id": 22
             }
         },
         "Palpitoad": {
@@ -30215,7 +30603,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Berry Juice",
                 "index": 375,
-                "sub_index": 375
+                "sub_index": 375,
+                "tr_id": 22
             }
         },
         "Poliwhirl": {
@@ -30231,7 +30620,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 376,
-                "sub_index": 376
+                "sub_index": 376,
+                "tr_id": 22
             }
         },
         "Onix": {
@@ -30246,7 +30636,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Grip Claw",
                 "index": 377,
-                "sub_index": 377
+                "sub_index": 377,
+                "tr_id": 22
             }
         },
         "Lickitung": {
@@ -30262,7 +30653,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Berry Juice",
                 "index": 378,
-                "sub_index": 378
+                "sub_index": 378,
+                "tr_id": 22
             }
         },
         "Mudbray": {
@@ -30278,7 +30670,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Berry Juice",
                 "index": 379,
-                "sub_index": 379
+                "sub_index": 379,
+                "tr_id": 22
             }
         },
         "Weepinbell": {
@@ -30294,7 +30687,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Power Herb",
                 "index": 380,
-                "sub_index": 380
+                "sub_index": 380,
+                "tr_id": 22
             }
         },
         "Graveler": {
@@ -30310,7 +30704,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Loaded Dice",
                 "index": 381,
-                "sub_index": 381
+                "sub_index": 381,
+                "tr_id": 22
             }
         },
         "Graveler-Alola": {
@@ -30326,7 +30721,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Loaded Dice",
                 "index": 382,
-                "sub_index": 382
+                "sub_index": 382,
+                "tr_id": 22
             }
         },
         "Yanma": {
@@ -30342,7 +30738,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Berry Juice",
                 "index": 383,
-                "sub_index": 383
+                "sub_index": 383,
+                "tr_id": 22
             }
         },
         "Munchlax": {
@@ -30358,7 +30755,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Salac Berry",
                 "index": 384,
-                "sub_index": 384
+                "sub_index": 384,
+                "tr_id": 22
             }
         },
         "Gothorita": {
@@ -30382,7 +30780,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 385,
-                "sub_index": 385
+                "sub_index": 385,
+                "tr_id": 22
             },
             "Lvl 43 Blackbelt Bryant": {
                 "level": 43,
@@ -30404,7 +30803,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 587,
-                "sub_index": 587
+                "sub_index": 587,
+                "tr_id": 23
             }
         },
         "Gloom": {
@@ -30420,7 +30820,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Berry Juice",
                 "index": 386,
-                "sub_index": 386
+                "sub_index": 386,
+                "tr_id": 22
             }
         },
         "Porygon": {
@@ -30436,7 +30837,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Berry Juice",
                 "index": 387,
-                "sub_index": 387
+                "sub_index": 387,
+                "tr_id": 22
             }
         },
         "Vanillish": {
@@ -30452,7 +30854,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Berry Juice",
                 "index": 388,
-                "sub_index": 388
+                "sub_index": 388,
+                "tr_id": 22
             }
         },
         "Kadabra": {
@@ -30475,7 +30878,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 389,
-                "sub_index": 389
+                "sub_index": 389,
+                "tr_id": 22
             }
         },
         "Gligar": {
@@ -30491,7 +30895,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Berry Juice",
                 "index": 390,
-                "sub_index": 390
+                "sub_index": 390,
+                "tr_id": 22
             }
         },
         "Lairon": {
@@ -30507,7 +30912,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Luminous Moss",
                 "index": 391,
-                "sub_index": 391
+                "sub_index": 391,
+                "tr_id": 22
             }
         },
         "Sneasel": {
@@ -30523,7 +30929,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Lum Berry",
                 "index": 392,
-                "sub_index": 392
+                "sub_index": 392,
+                "tr_id": 22
             },
             "Lvl 51 Guitarist Marcos": {
                 "level": 51,
@@ -30537,7 +30944,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 652,
-                "sub_index": 652
+                "sub_index": 652,
+                "tr_id": 24
             }
         },
         "Tangela": {
@@ -30551,7 +30959,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Assault Vest",
                 "index": 393,
-                "sub_index": 393
+                "sub_index": 393,
+                "tr_id": 22
             }
         },
         "Murkrow": {
@@ -30567,7 +30976,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 394,
-                "sub_index": 394
+                "sub_index": 394,
+                "tr_id": 22
             }
         },
         "Vigoroth": {
@@ -30583,7 +30993,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flame Orb",
                 "index": 395,
-                "sub_index": 395
+                "sub_index": 395,
+                "tr_id": 22
             },
             "Lvl 67 Winstrate Vicky": {
                 "level": 67,
@@ -30594,7 +31005,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Band",
                 "index": 920,
-                "sub_index": 920
+                "sub_index": 920,
+                "tr_id": 25
             }
         },
         "Klang": {
@@ -30610,7 +31022,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Sitrus Berry",
                 "index": 396,
-                "sub_index": 396
+                "sub_index": 396,
+                "tr_id": 22
             }
         },
         "Archen": {
@@ -30626,7 +31039,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Berry Juice",
                 "index": 397,
-                "sub_index": 397
+                "sub_index": 397,
+                "tr_id": 22
             }
         },
         "Roselia": {
@@ -30642,7 +31056,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lum Berry",
                 "index": 398,
-                "sub_index": 398
+                "sub_index": 398,
+                "tr_id": 22
             }
         },
         "Wailmer": {
@@ -30658,7 +31073,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 399,
-                "sub_index": 399
+                "sub_index": 399,
+                "tr_id": 22
             }
         },
         "Charjabug": {
@@ -30674,7 +31090,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eviolite",
                 "index": 400,
-                "sub_index": 400
+                "sub_index": 400,
+                "tr_id": 22
             },
             "Lvl 44 Picnicker Emi": {
                 "level": 44,
@@ -30688,7 +31105,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Enigma Berry",
                 "index": 578,
-                "sub_index": 578
+                "sub_index": 578,
+                "tr_id": 15
             }
         },
         "Machoke": {
@@ -30704,7 +31122,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flame Orb",
                 "index": 401,
-                "sub_index": 401
+                "sub_index": 401,
+                "tr_id": 22
             }
         },
         "Haunter": {
@@ -30720,7 +31139,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lum Berry",
                 "index": 402,
-                "sub_index": 402
+                "sub_index": 402,
+                "tr_id": 22
             }
         },
         "Carkol": {
@@ -30736,7 +31156,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Passho Berry",
                 "index": 403,
-                "sub_index": 403
+                "sub_index": 403,
+                "tr_id": 22
             }
         },
         "Sealeo": {
@@ -30752,7 +31173,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 404,
-                "sub_index": 404
+                "sub_index": 404,
+                "tr_id": 22
             }
         },
         "Gurdurr": {
@@ -30768,7 +31190,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flame Orb",
                 "index": 405,
-                "sub_index": 405
+                "sub_index": 405,
+                "tr_id": 22
             }
         },
         "Eelektrik": {
@@ -30784,7 +31207,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Air Balloon",
                 "index": 406,
-                "sub_index": 406
+                "sub_index": 406,
+                "tr_id": 22
             }
         },
         "Ponyta": {
@@ -30800,7 +31224,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Lum Berry",
                 "index": 407,
-                "sub_index": 407
+                "sub_index": 407,
+                "tr_id": 26
             }
         },
         "Ponyta-Galar": {
@@ -30816,7 +31241,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Lum Berry",
                 "index": 408,
-                "sub_index": 408
+                "sub_index": 408,
+                "tr_id": 26
             }
         },
         "Sliggoo": {
@@ -30832,7 +31258,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 409,
-                "sub_index": 409
+                "sub_index": 409,
+                "tr_id": 26
             }
         },
         "Sliggoo-Hisui": {
@@ -30848,7 +31275,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 410,
-                "sub_index": 410
+                "sub_index": 410,
+                "tr_id": 26
             }
         },
         "Drakloak": {
@@ -30864,7 +31292,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Chesto Berry",
                 "index": 411,
-                "sub_index": 411
+                "sub_index": 411,
+                "tr_id": 26
             }
         },
         "Hakamo-o": {
@@ -30880,7 +31309,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 412,
-                "sub_index": 412
+                "sub_index": 412,
+                "tr_id": 26
             }
         },
         "Shelgon": {
@@ -30896,7 +31326,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Adrenaline Orb",
                 "index": 413,
-                "sub_index": 413
+                "sub_index": 413,
+                "tr_id": 26
             }
         },
         "Metang": {
@@ -30912,7 +31343,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Berry Juice",
                 "index": 414,
-                "sub_index": 414
+                "sub_index": 414,
+                "tr_id": 26
             }
         },
         "Zweilous": {
@@ -30928,7 +31360,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Wide Lens",
                 "index": 415,
-                "sub_index": 415
+                "sub_index": 415,
+                "tr_id": 26
             }
         },
         "Dragonair": {
@@ -30944,7 +31377,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 416,
-                "sub_index": 416
+                "sub_index": 416,
+                "tr_id": 26
             },
             "Lvl 80 Pokemaniac Mark": {
                 "level": 80,
@@ -30958,7 +31392,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Eviolite",
                 "index": 1477,
-                "sub_index": 1477
+                "sub_index": 1477,
+                "tr_id": 27
             }
         },
         "Pupitar": {
@@ -30974,7 +31409,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 417,
-                "sub_index": 417
+                "sub_index": 417,
+                "tr_id": 26
             }
         },
         "Gabite": {
@@ -30990,7 +31426,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Jaboca Berry",
                 "index": 418,
-                "sub_index": 418
+                "sub_index": 418,
+                "tr_id": 26
             }
         },
         "Fraxure": {
@@ -31006,7 +31443,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "White Herb",
                 "index": 419,
-                "sub_index": 419
+                "sub_index": 419,
+                "tr_id": 26
             }
         },
         "Cosmoem": {
@@ -31022,7 +31460,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Berry Juice",
                 "index": 420,
-                "sub_index": 420
+                "sub_index": 420,
+                "tr_id": 26
             }
         },
         "Poipole": {
@@ -31038,7 +31477,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Poison Barb",
                 "index": 421,
-                "sub_index": 421
+                "sub_index": 421,
+                "tr_id": 26
             },
             "Lvl 38 Twins Gina&Mia": {
                 "level": 38,
@@ -31052,7 +31492,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Covert Cloak",
                 "index": 505,
-                "sub_index": 505
+                "sub_index": 505,
+                "tr_id": 13
             }
         },
         "Ivysaur": {
@@ -31065,7 +31506,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Berry Juice",
                 "index": 422,
-                "sub_index": 422
+                "sub_index": 422,
+                "tr_id": 26
             }
         },
         "Charmeleon": {
@@ -31078,7 +31520,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Berry Juice",
                 "index": 423,
-                "sub_index": 423
+                "sub_index": 423,
+                "tr_id": 26
             }
         },
         "Wartortle": {
@@ -31091,7 +31534,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Berry Juice",
                 "index": 424,
-                "sub_index": 424
+                "sub_index": 424,
+                "tr_id": 26
             }
         },
         "Quilladin": {
@@ -31107,7 +31551,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 425,
-                "sub_index": 425
+                "sub_index": 425,
+                "tr_id": 26
             }
         },
         "Frogadier": {
@@ -31123,7 +31568,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Power Herb",
                 "index": 426,
-                "sub_index": 426
+                "sub_index": 426,
+                "tr_id": 26
             }
         },
         "Braixen": {
@@ -31139,7 +31585,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "White Herb",
                 "index": 427,
-                "sub_index": 427
+                "sub_index": 427,
+                "tr_id": 26
             }
         },
         "Grotle": {
@@ -31155,7 +31602,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 428,
-                "sub_index": 428
+                "sub_index": 428,
+                "tr_id": 26
             }
         },
         "Monferno": {
@@ -31171,7 +31619,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 429,
-                "sub_index": 429
+                "sub_index": 429,
+                "tr_id": 26
             }
         },
         "Prinplup": {
@@ -31187,7 +31636,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 430,
-                "sub_index": 430
+                "sub_index": 430,
+                "tr_id": 26
             }
         },
         "Servine": {
@@ -31200,7 +31650,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Expert Belt",
                 "index": 431,
-                "sub_index": 431
+                "sub_index": 431,
+                "tr_id": 26
             }
         },
         "Dewott": {
@@ -31216,7 +31667,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Berry Juice",
                 "index": 432,
-                "sub_index": 432
+                "sub_index": 432,
+                "tr_id": 26
             }
         },
         "Pignite": {
@@ -31231,7 +31683,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 433,
-                "sub_index": 433
+                "sub_index": 433,
+                "tr_id": 26
             }
         },
         "Dartrix": {
@@ -31247,7 +31700,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "White Herb",
                 "index": 434,
-                "sub_index": 434
+                "sub_index": 434,
+                "tr_id": 26
             }
         },
         "Torracat": {
@@ -31263,7 +31717,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Berry Juice",
                 "index": 435,
-                "sub_index": 435
+                "sub_index": 435,
+                "tr_id": 26
             }
         },
         "Brionne": {
@@ -31276,7 +31731,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Metronome",
                 "index": 436,
-                "sub_index": 436
+                "sub_index": 436,
+                "tr_id": 26
             }
         },
         "Grovyle": {
@@ -31292,7 +31748,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lum Berry",
                 "index": 437,
-                "sub_index": 437
+                "sub_index": 437,
+                "tr_id": 26
             }
         },
         "Combusken": {
@@ -31308,7 +31765,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 438,
-                "sub_index": 438
+                "sub_index": 438,
+                "tr_id": 26
             }
         },
         "Marshtomp": {
@@ -31324,7 +31782,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Grip Claw",
                 "index": 439,
-                "sub_index": 439
+                "sub_index": 439,
+                "tr_id": 26
             }
         },
         "Bayleef": {
@@ -31340,7 +31799,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 440,
-                "sub_index": 440
+                "sub_index": 440,
+                "tr_id": 26
             }
         },
         "Quilava": {
@@ -31356,7 +31816,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Luminous Moss",
                 "index": 441,
-                "sub_index": 441
+                "sub_index": 441,
+                "tr_id": 26
             }
         },
         "Croconaw": {
@@ -31372,7 +31833,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Lum Berry",
                 "index": 442,
-                "sub_index": 442
+                "sub_index": 442,
+                "tr_id": 26
             }
         },
         "Floragato": {
@@ -31388,7 +31850,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Expert Belt",
                 "index": 443,
-                "sub_index": 443
+                "sub_index": 443,
+                "tr_id": 26
             }
         },
         "Quaxwell": {
@@ -31404,7 +31867,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Salac Berry",
                 "index": 444,
-                "sub_index": 444
+                "sub_index": 444,
+                "tr_id": 26
             }
         },
         "Crocalor": {
@@ -31420,7 +31884,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Throat Spray",
                 "index": 445,
-                "sub_index": 445
+                "sub_index": 445,
+                "tr_id": 26
             }
         },
         "Thwackey": {
@@ -31436,7 +31901,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Eject Pack",
                 "index": 446,
-                "sub_index": 446
+                "sub_index": 446,
+                "tr_id": 26
             }
         },
         "Raboot": {
@@ -31452,7 +31918,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Sport Ball",
                 "index": 447,
-                "sub_index": 447
+                "sub_index": 447,
+                "tr_id": 26
             }
         },
         "Drizzile": {
@@ -31468,7 +31935,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Life Orb",
                 "index": 448,
-                "sub_index": 448
+                "sub_index": 448,
+                "tr_id": 26
             }
         },
         "Arctibax": {
@@ -31484,7 +31952,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 449,
-                "sub_index": 449
+                "sub_index": 449,
+                "tr_id": 26
             }
         },
         "None": {
@@ -31497,7 +31966,8 @@ backup_data = {
                 "nature": "Hardy",
                 "item": "None",
                 "index": 453,
-                "sub_index": 453
+                "sub_index": 453,
+                "tr_id": 28
             },
             "Lvl 0 Youngster Levi": {
                 "level": 0,
@@ -31508,7 +31978,8 @@ backup_data = {
                 "nature": "Hardy",
                 "item": "None",
                 "index": 454,
-                "sub_index": 454
+                "sub_index": 454,
+                "tr_id": 29
             },
             "Lvl 0 Lass Videl": {
                 "level": 0,
@@ -31519,7 +31990,8 @@ backup_data = {
                 "nature": "Hardy",
                 "item": "None",
                 "index": 455,
-                "sub_index": 455
+                "sub_index": 455,
+                "tr_id": 30
             },
             "Lvl 0 Youngster Itachi": {
                 "level": 0,
@@ -31530,7 +32002,8 @@ backup_data = {
                 "nature": "Hardy",
                 "item": "None",
                 "index": 456,
-                "sub_index": 456
+                "sub_index": 456,
+                "tr_id": 31
             },
             "Lvl 0 Wandering Spirit": {
                 "level": 0,
@@ -31541,7 +32014,8 @@ backup_data = {
                 "nature": "Hardy",
                 "item": "None",
                 "index": 1488,
-                "sub_index": 1488
+                "sub_index": 1488,
+                "tr_id": 32
             }
         },
         "Bibarel": {
@@ -31557,7 +32031,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Water Gem",
                 "index": 457,
-                "sub_index": 457
+                "sub_index": 457,
+                "tr_id": 33
             },
             "Lvl 75 Institute Team Aqua Grunt #3 ": {
                 "level": 75,
@@ -31571,7 +32046,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Quick Claw",
                 "index": 1253,
-                "sub_index": 1253
+                "sub_index": 1253,
+                "tr_id": 34
             },
             "Lvl 80 Pyre Team Aqua Grunt #3 ": {
                 "level": 80,
@@ -31585,7 +32061,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Starf Berry",
                 "index": 1501,
-                "sub_index": 1501
+                "sub_index": 1501,
+                "tr_id": 35
             },
             "Lvl 95 Expert Makayla": {
                 "level": 95,
@@ -31599,7 +32076,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 1883,
-                "sub_index": 1883
+                "sub_index": 1883,
+                "tr_id": 36
             }
         },
         "Sableye": {
@@ -31615,7 +32093,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Berry Juice",
                 "index": 458,
-                "sub_index": 458
+                "sub_index": 458,
+                "tr_id": 33
             },
             "Lvl 73 Cooltrainer Geena": {
                 "level": 73,
@@ -31629,7 +32108,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Sablenite",
                 "index": 1158,
-                "sub_index": 1158
+                "sub_index": 1158,
+                "tr_id": 37
             }
         },
         "Dustox": {
@@ -31645,7 +32125,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Berry Juice",
                 "index": 459,
-                "sub_index": 459
+                "sub_index": 459,
+                "tr_id": 33
             },
             "Lvl 95 Team Rocket Grunt #3 ": {
                 "level": 95,
@@ -31659,7 +32140,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Coba Berry",
                 "index": 1969,
-                "sub_index": 1969
+                "sub_index": 1969,
+                "tr_id": 38
             }
         },
         "Quagsire": {
@@ -31675,7 +32157,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Rindo Berry",
                 "index": 460,
-                "sub_index": 460
+                "sub_index": 460,
+                "tr_id": 33
             }
         },
         "Oinkologne": {
@@ -31690,7 +32173,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Liechi Berry",
                 "index": 461,
-                "sub_index": 461
+                "sub_index": 461,
+                "tr_id": 39
             },
             "Lvl 80 Blackbelt Tyrone": {
                 "level": 80,
@@ -31704,7 +32188,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Starf Berry",
                 "index": 1453,
-                "sub_index": 1453
+                "sub_index": 1453,
+                "tr_id": 40
             }
         },
         "Gumshoos": {
@@ -31719,7 +32204,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Red Card",
                 "index": 462,
-                "sub_index": 462
+                "sub_index": 462,
+                "tr_id": 39
             },
             "Lvl 64 Rich Boy Dawson": {
                 "level": 64,
@@ -31733,7 +32219,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Silk Scarf",
                 "index": 824,
-                "sub_index": 824
+                "sub_index": 824,
+                "tr_id": 41
             }
         },
         "Talonflame": {
@@ -31749,7 +32236,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Berry Juice",
                 "index": 463,
-                "sub_index": 463
+                "sub_index": 463,
+                "tr_id": 39
             },
             "Lvl 70 Mt.Chimney Team Magma Elite Grunt": {
                 "level": 70,
@@ -31763,7 +32251,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Silver Powder",
                 "index": 1055,
-                "sub_index": 1055
+                "sub_index": 1055,
+                "tr_id": 42
             },
             "Lvl 77 Bird Keeper Specter": {
                 "level": 77,
@@ -31777,7 +32266,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Life Orb",
                 "index": 1322,
-                "sub_index": 1322
+                "sub_index": 1322,
+                "tr_id": 43
             }
         },
         "Lumineon": {
@@ -31801,7 +32291,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 464,
-                "sub_index": 464
+                "sub_index": 464,
+                "tr_id": 44
             },
             "Lvl 76 Team Aqua Grunt & Team Aqua Steve": {
                 "level": 76,
@@ -31823,7 +32314,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1293,
-                "sub_index": 1293
+                "sub_index": 1293,
+                "tr_id": 45
             },
             "Lvl 83 Hideout Team Aqua Grunt #2 ": {
                 "level": 83,
@@ -31837,7 +32329,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 1589,
-                "sub_index": 1589
+                "sub_index": 1589,
+                "tr_id": 46
             }
         },
         "Butterfree": {
@@ -31853,7 +32346,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flying Gem",
                 "index": 465,
-                "sub_index": 465
+                "sub_index": 465,
+                "tr_id": 44
             },
             "Lvl 95 Team Rocket Grunt #1 ": {
                 "level": 95,
@@ -31867,7 +32361,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Mental Herb",
                 "index": 1955,
-                "sub_index": 1955
+                "sub_index": 1955,
+                "tr_id": 47
             }
         },
         "Spidops": {
@@ -31883,7 +32378,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Coba Berry",
                 "index": 466,
-                "sub_index": 466
+                "sub_index": 466,
+                "tr_id": 44
             },
             "Lvl 73 Bug Maniac Taylor": {
                 "level": 73,
@@ -31897,7 +32393,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Red Card",
                 "index": 1188,
-                "sub_index": 1188
+                "sub_index": 1188,
+                "tr_id": 48
             }
         },
         "Ledian": {
@@ -31913,7 +32410,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Punching Glove",
                 "index": 467,
-                "sub_index": 467
+                "sub_index": 467,
+                "tr_id": 44
             },
             "Lvl 64 Blackbelt Rhett": {
                 "level": 64,
@@ -31927,7 +32425,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 798,
-                "sub_index": 798
+                "sub_index": 798,
+                "tr_id": 49
             }
         },
         "Arboliva": {
@@ -31943,7 +32442,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 468,
-                "sub_index": 468
+                "sub_index": 468,
+                "tr_id": 50
             },
             "Lvl 63 Cycling Road Rival Fennekin": {
                 "level": 63,
@@ -31957,7 +32457,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Miracle Seed",
                 "index": 783,
-                "sub_index": 783
+                "sub_index": 783,
+                "tr_id": 51
             },
             "Lvl 64 Cooltrainer Dan |Grassy Room|": {
                 "level": 64,
@@ -31971,7 +32472,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Big Root",
                 "index": 892,
-                "sub_index": 892
+                "sub_index": 892,
+                "tr_id": 52
             },
             "Lvl 83 Hideout Team Aqua Grunt #5 ": {
                 "level": 83,
@@ -31985,7 +32487,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Focus Band",
                 "index": 1605,
-                "sub_index": 1605
+                "sub_index": 1605,
+                "tr_id": 53
             }
         },
         "Heliolisk": {
@@ -32001,7 +32504,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Electric Gem",
                 "index": 469,
-                "sub_index": 469
+                "sub_index": 469,
+                "tr_id": 50
             },
             "Lvl 66 Cooltrainer Kya |Psychic Room|": {
                 "level": 66,
@@ -32015,7 +32519,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Psychic Gem",
                 "index": 898,
-                "sub_index": 898
+                "sub_index": 898,
+                "tr_id": 54
             },
             "Lvl 67 Ruin Maniac Dusty": {
                 "level": 67,
@@ -32029,7 +32534,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Bright Powder",
                 "index": 935,
-                "sub_index": 935
+                "sub_index": 935,
+                "tr_id": 55
             },
             "Lvl 71 Dragon Tamer Jace": {
                 "level": 71,
@@ -32043,7 +32549,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1104,
-                "sub_index": 1104
+                "sub_index": 1104,
+                "tr_id": 56
             }
         },
         "Clodsire": {
@@ -32059,7 +32566,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Clear Amulet",
                 "index": 470,
-                "sub_index": 470
+                "sub_index": 470,
+                "tr_id": 50
             },
             "Lvl 95 Pokéfan Bobertclef": {
                 "level": 95,
@@ -32073,7 +32581,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Shuca Berry",
                 "index": 1930,
-                "sub_index": 1930
+                "sub_index": 1930,
+                "tr_id": 57
             }
         },
         "Comfey": {
@@ -32089,7 +32598,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 471,
-                "sub_index": 471
+                "sub_index": 471,
+                "tr_id": 50
             },
             "Lvl 48 Sailor MSPaint": {
                 "level": 48,
@@ -32103,7 +32613,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mental Herb",
                 "index": 633,
-                "sub_index": 633
+                "sub_index": 633,
+                "tr_id": 58
             },
             "Lvl 92 Triathlete Allison": {
                 "level": 92,
@@ -32117,7 +32628,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Big Root",
                 "index": 1830,
-                "sub_index": 1830
+                "sub_index": 1830,
+                "tr_id": 59
             }
         },
         "Bombirdier": {
@@ -32133,7 +32645,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rocky Helmet",
                 "index": 472,
-                "sub_index": 472
+                "sub_index": 472,
+                "tr_id": 60
             },
             "Lvl 72 Bird Keeper Perry": {
                 "level": 72,
@@ -32147,7 +32660,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mental Herb",
                 "index": 1180,
-                "sub_index": 1180
+                "sub_index": 1180,
+                "tr_id": 61
             },
             "Lvl 77 Bird Keeper Jared": {
                 "level": 77,
@@ -32161,7 +32675,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 1344,
-                "sub_index": 1344
+                "sub_index": 1344,
+                "tr_id": 62
             }
         },
         "Orthworm": {
@@ -32177,7 +32692,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Steel Gem",
                 "index": 473,
-                "sub_index": 473
+                "sub_index": 473,
+                "tr_id": 60
             },
             "Lvl 57 Youngster Ben": {
                 "level": 57,
@@ -32191,7 +32707,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Sitrus Berry",
                 "index": 711,
-                "sub_index": 711
+                "sub_index": 711,
+                "tr_id": 63
             },
             "Lvl 63 Youngster Timmy": {
                 "level": 63,
@@ -32205,7 +32722,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Sitrus Berry",
                 "index": 830,
-                "sub_index": 830
+                "sub_index": 830,
+                "tr_id": 64
             },
             "Lvl 80 Hideout Team Magma Grunt #8 ": {
                 "level": 80,
@@ -32219,7 +32737,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 1548,
-                "sub_index": 1548
+                "sub_index": 1548,
+                "tr_id": 65
             },
             "Lvl 91 Swimmer Reed": {
                 "level": 91,
@@ -32233,7 +32752,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Sitrus Berry",
                 "index": 1822,
-                "sub_index": 1822
+                "sub_index": 1822,
+                "tr_id": 66
             }
         },
         "Ariados": {
@@ -32249,7 +32769,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Scope Lens",
                 "index": 474,
-                "sub_index": 474
+                "sub_index": 474,
+                "tr_id": 60
             },
             "Lvl 81 Hideout Team Magma Grunt #10 ": {
                 "level": 81,
@@ -32263,7 +32784,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Quick Claw",
                 "index": 1557,
-                "sub_index": 1557
+                "sub_index": 1557,
+                "tr_id": 67
             }
         },
         "Beautifly": {
@@ -32279,7 +32801,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lansat Berry",
                 "index": 475,
-                "sub_index": 475
+                "sub_index": 475,
+                "tr_id": 60
             },
             "Lvl 95 Team Rocket Grunt #2 ": {
                 "level": 95,
@@ -32293,7 +32816,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Petaya Berry",
                 "index": 1962,
-                "sub_index": 1962
+                "sub_index": 1962,
+                "tr_id": 68
             }
         },
         "Hypno": {
@@ -32309,7 +32833,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Big Root",
                 "index": 476,
-                "sub_index": 476
+                "sub_index": 476,
+                "tr_id": 60
             }
         },
         "Raticate-Alola": {
@@ -32323,7 +32848,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Dark Gem",
                 "index": 477,
-                "sub_index": 477
+                "sub_index": 477,
+                "tr_id": 69
             },
             "Lvl 64 Lady Sarah": {
                 "level": 64,
@@ -32337,7 +32863,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Wide Lens",
                 "index": 828,
-                "sub_index": 828
+                "sub_index": 828,
+                "tr_id": 70
             }
         },
         "Raticate": {
@@ -32351,7 +32878,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Chople Berry",
                 "index": 478,
-                "sub_index": 478
+                "sub_index": 478,
+                "tr_id": 69
             },
             "Lvl 94 Expert Ronald": {
                 "level": 94,
@@ -32365,7 +32893,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flame Orb",
                 "index": 1879,
-                "sub_index": 1879
+                "sub_index": 1879,
+                "tr_id": 71
             }
         },
         "Furret": {
@@ -32381,7 +32910,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Salac Berry",
                 "index": 479,
-                "sub_index": 479
+                "sub_index": 479,
+                "tr_id": 69
             },
             "Lvl 95 Cooltrainer Bazzo": {
                 "level": 95,
@@ -32395,7 +32925,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Normal Gem",
                 "index": 1893,
-                "sub_index": 1893
+                "sub_index": 1893,
+                "tr_id": 72
             }
         },
         "Pyukumuku": {
@@ -32411,7 +32942,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Leftovers",
                 "index": 480,
-                "sub_index": 480
+                "sub_index": 480,
+                "tr_id": 18
             },
             "Lvl 95 Lass Andrea": {
                 "level": 95,
@@ -32425,7 +32957,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Mental Herb",
                 "index": 1896,
-                "sub_index": 1896
+                "sub_index": 1896,
+                "tr_id": 73
             }
         },
         "Azumarill": {
@@ -32441,7 +32974,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Wacan Berry",
                 "index": 481,
-                "sub_index": 481
+                "sub_index": 481,
+                "tr_id": 18
             },
             "Lvl 66 Winstrate Vivi": {
                 "level": 66,
@@ -32455,7 +32989,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Shell Bell",
                 "index": 917,
-                "sub_index": 917
+                "sub_index": 917,
+                "tr_id": 74
             },
             "Lvl 85 Pokémaniac Symes & Bug Maniac Connor": {
                 "level": 85,
@@ -32469,7 +33004,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 1654,
-                "sub_index": 1654
+                "sub_index": 1654,
+                "tr_id": 75
             },
             "Lvl 90 Seafloor Team Aqua Grunt #3 ": {
                 "level": 90,
@@ -32483,7 +33019,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mental Herb",
                 "index": 1781,
-                "sub_index": 1781
+                "sub_index": 1781,
+                "tr_id": 76
             }
         },
         "Pincurchin": {
@@ -32499,7 +33036,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Air Balloon",
                 "index": 482,
-                "sub_index": 482
+                "sub_index": 482,
+                "tr_id": 18
             },
             "Lvl 47 Tuber Ricky": {
                 "level": 47,
@@ -32513,7 +33051,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Mental Herb",
                 "index": 615,
-                "sub_index": 615
+                "sub_index": 615,
+                "tr_id": 77
             },
             "Lvl 76 Ninja Boy Hideo": {
                 "level": 76,
@@ -32535,7 +33074,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1316,
-                "sub_index": 1316
+                "sub_index": 1316,
+                "tr_id": 78
             },
             "Lvl 82 Hideout Team Aqua Grunt #4 ": {
                 "level": 82,
@@ -32549,7 +33089,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Terrain Extender",
                 "index": 1598,
-                "sub_index": 1598
+                "sub_index": 1598,
+                "tr_id": 79
             },
             "Lvl 94 Ex Leader Juan": {
                 "level": 94,
@@ -32563,7 +33104,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Terrain Extender",
                 "index": 1935,
-                "sub_index": 1935
+                "sub_index": 1935,
+                "tr_id": 80
             }
         },
         "Gyarados": {
@@ -32577,7 +33119,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Adrenaline Orb",
                 "index": 483,
-                "sub_index": 483
+                "sub_index": 483,
+                "tr_id": 18
             },
             "Lvl 69 Kindler Bakugo": {
                 "level": 69,
@@ -32591,7 +33134,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Choice Specs",
                 "index": 1023,
-                "sub_index": 1023
+                "sub_index": 1023,
+                "tr_id": 81
             },
             "Lvl 76 Dragon Tamer Sora": {
                 "level": 76,
@@ -32605,7 +33149,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 1349,
-                "sub_index": 1349
+                "sub_index": 1349,
+                "tr_id": 82
             },
             "Lvl 80 Hideout Team Magma Grunt #10 ": {
                 "level": 80,
@@ -32619,7 +33164,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Bright Powder",
                 "index": 1555,
-                "sub_index": 1555
+                "sub_index": 1555,
+                "tr_id": 67
             },
             "Lvl 85 Team Aqua Admin Matt": {
                 "level": 85,
@@ -32633,7 +33179,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Gyaradosite",
                 "index": 1620,
-                "sub_index": 1620
+                "sub_index": 1620,
+                "tr_id": 83
             },
             "Lvl 92 Triathlete Allison": {
                 "level": 92,
@@ -32647,7 +33194,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 1831,
-                "sub_index": 1831
+                "sub_index": 1831,
+                "tr_id": 59
             },
             "Lvl 95 Lorekeeper Zinnia": {
                 "level": 95,
@@ -32661,7 +33209,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Wacan Berry",
                 "index": 1950,
-                "sub_index": 1950
+                "sub_index": 1950,
+                "tr_id": 84
             },
             "Lvl 100 Elite Four Sidney Doubles": {
                 "level": 100,
@@ -32683,7 +33232,8 @@ backup_data = {
                     "sp": "21"
                 },
                 "index": 2157,
-                "sub_index": 2157
+                "sub_index": 2157,
+                "tr_id": 85
             }
         },
         "Delcatty": {
@@ -32697,7 +33247,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lum Berry",
                 "index": 485,
-                "sub_index": 485
+                "sub_index": 485,
+                "tr_id": 86
             },
             "Lvl 82 Team Magma Grunt Grintoul": {
                 "level": 82,
@@ -32711,7 +33262,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Band",
                 "index": 1539,
-                "sub_index": 1539
+                "sub_index": 1539,
+                "tr_id": 87
             }
         },
         "Togetic": {
@@ -32727,7 +33279,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Metronome",
                 "index": 486,
-                "sub_index": 486
+                "sub_index": 486,
+                "tr_id": 86
             }
         },
         "Kricketune": {
@@ -32743,7 +33296,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Clear Amulet",
                 "index": 487,
-                "sub_index": 487
+                "sub_index": 487,
+                "tr_id": 86
             },
             "Lvl 89 Sis And Bro Reli&Ian": {
                 "level": 89,
@@ -32757,7 +33311,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 1767,
-                "sub_index": 1767
+                "sub_index": 1767,
+                "tr_id": 88
             }
         },
         "Clefable": {
@@ -32773,7 +33328,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 488,
-                "sub_index": 488
+                "sub_index": 488,
+                "tr_id": 86
             },
             "Lvl 65 Camper Charlie": {
                 "level": 65,
@@ -32787,7 +33343,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 849,
-                "sub_index": 849
+                "sub_index": 849,
+                "tr_id": 89
             },
             "Lvl 78 Hex Maniac Leah": {
                 "level": 78,
@@ -32801,7 +33358,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Clefablite",
                 "index": 1443,
-                "sub_index": 1443
+                "sub_index": 1443,
+                "tr_id": 90
             }
         },
         "Vivillon": {
@@ -32817,7 +33375,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Charti Berry",
                 "index": 489,
-                "sub_index": 489
+                "sub_index": 489,
+                "tr_id": 91
             },
             "Lvl 67 Winstrate Vivi": {
                 "level": 67,
@@ -32831,7 +33390,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wacan Berry",
                 "index": 916,
-                "sub_index": 916
+                "sub_index": 916,
+                "tr_id": 74
             },
             "Lvl 92 Triathlete Barron & Stephin": {
                 "level": 92,
@@ -32845,7 +33405,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1835,
-                "sub_index": 1835
+                "sub_index": 1835,
+                "tr_id": 92
             }
         },
         "Dipplin": {
@@ -32869,7 +33430,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 490,
-                "sub_index": 490
+                "sub_index": 490,
+                "tr_id": 91
             }
         },
         "Dunsparce": {
@@ -32885,7 +33447,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Leftovers",
                 "index": 491,
-                "sub_index": 491
+                "sub_index": 491,
+                "tr_id": 91
             }
         },
         "Watchog": {
@@ -32901,7 +33464,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Chople Berry",
                 "index": 492,
-                "sub_index": 492
+                "sub_index": 492,
+                "tr_id": 91
             },
             "Lvl 87 Space Center Team Magma Elite Grunt": {
                 "level": 87,
@@ -32915,7 +33479,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Band",
                 "index": 1712,
-                "sub_index": 1712
+                "sub_index": 1712,
+                "tr_id": 93
             }
         },
         "Parasect": {
@@ -32931,7 +33496,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Rocky Helmet",
                 "index": 493,
-                "sub_index": 493
+                "sub_index": 493,
+                "tr_id": 94
             },
             "Lvl 80 Hex Maniac Valerie": {
                 "level": 80,
@@ -32945,7 +33511,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Iapapa Berry",
                 "index": 1472,
-                "sub_index": 1472
+                "sub_index": 1472,
+                "tr_id": 95
             }
         },
         "Beedrill": {
@@ -32961,7 +33528,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Scope Lens",
                 "index": 494,
-                "sub_index": 494
+                "sub_index": 494,
+                "tr_id": 94
             },
             "Lvl 74 Bug Maniac Brent": {
                 "level": 74,
@@ -32975,7 +33543,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Beedrillite",
                 "index": 1196,
-                "sub_index": 1196
+                "sub_index": 1196,
+                "tr_id": 96
             }
         },
         "Farfetch’d": {
@@ -32991,7 +33560,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leek",
                 "index": 495,
-                "sub_index": 495
+                "sub_index": 495,
+                "tr_id": 94
             },
             "Lvl 83 Team Aqua Grunt Gian": {
                 "level": 83,
@@ -33005,7 +33575,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Bright Powder",
                 "index": 1597,
-                "sub_index": 1597
+                "sub_index": 1597,
+                "tr_id": 97
             }
         },
         "Chansey": {
@@ -33021,7 +33592,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lucky Punch",
                 "index": 496,
-                "sub_index": 496
+                "sub_index": 496,
+                "tr_id": 94
             },
             "Lvl 89 Seafloor Team Aqua Grunt #3 ": {
                 "level": 89,
@@ -33035,7 +33607,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Eviolite",
                 "index": 1783,
-                "sub_index": 1783
+                "sub_index": 1783,
+                "tr_id": 76
             }
         },
         "Wishiwashi": {
@@ -33051,7 +33624,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Lum Berry",
                 "index": 497,
-                "sub_index": 497
+                "sub_index": 497,
+                "tr_id": 98
             },
             "Lvl 76 Ninja Boy Hideo": {
                 "level": 76,
@@ -33073,7 +33647,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1319,
-                "sub_index": 1319
+                "sub_index": 1319,
+                "tr_id": 78
             }
         },
         "Chatot": {
@@ -33089,7 +33664,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Clear Amulet",
                 "index": 498,
-                "sub_index": 498
+                "sub_index": 498,
+                "tr_id": 98
             }
         },
         "Toedscruel": {
@@ -33105,7 +33681,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Coba Berry",
                 "index": 499,
-                "sub_index": 499
+                "sub_index": 499,
+                "tr_id": 98
             },
             "Lvl 82 Team Aqua Grunt Soph": {
                 "level": 82,
@@ -33119,7 +33696,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eject Pack",
                 "index": 1583,
-                "sub_index": 1583
+                "sub_index": 1583,
+                "tr_id": 99
             },
             "Lvl 99 Adventurer Brandon1 ": {
                 "level": 99,
@@ -33133,7 +33711,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 2055,
-                "sub_index": 2055
+                "sub_index": 2055,
+                "tr_id": 100
             },
             "Lvl 99 Adventurer Brandon2 ": {
                 "level": 99,
@@ -33147,7 +33726,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 2062,
-                "sub_index": 2062
+                "sub_index": 2062,
+                "tr_id": 101
             }
         },
         "Girafarig": {
@@ -33163,7 +33743,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Sitrus Berry",
                 "index": 500,
-                "sub_index": 500
+                "sub_index": 500,
+                "tr_id": 98
             }
         },
         "Magcargo": {
@@ -33179,7 +33760,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 501,
-                "sub_index": 501
+                "sub_index": 501,
+                "tr_id": 102
             },
             "Lvl 71 Jagged Pass Team Magma Grunt": {
                 "level": 71,
@@ -33193,7 +33775,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Quick Claw",
                 "index": 1074,
-                "sub_index": 1074
+                "sub_index": 1074,
+                "tr_id": 103
             },
             "Lvl 80 Hideout Team Magma Grunt #8 ": {
                 "level": 80,
@@ -33207,7 +33790,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 1547,
-                "sub_index": 1547
+                "sub_index": 1547,
+                "tr_id": 65
             }
         },
         "Sunflora": {
@@ -33223,7 +33807,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wise Glasses",
                 "index": 502,
-                "sub_index": 502
+                "sub_index": 502,
+                "tr_id": 102
             },
             "Lvl 72 Dragon Tamer Jace": {
                 "level": 72,
@@ -33237,7 +33822,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1102,
-                "sub_index": 1102
+                "sub_index": 1102,
+                "tr_id": 56
             }
         },
         "Diggersby": {
@@ -33253,7 +33839,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 503,
-                "sub_index": 503
+                "sub_index": 503,
+                "tr_id": 102
             },
             "Lvl 85 Pokémaniac Symes & Bug Maniac Connor": {
                 "level": 85,
@@ -33267,7 +33854,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rindo Berry",
                 "index": 1655,
-                "sub_index": 1655
+                "sub_index": 1655,
+                "tr_id": 75
             }
         },
         "Sawsbuck": {
@@ -33291,7 +33879,8 @@ backup_data = {
                     "sp": "15"
                 },
                 "index": 504,
-                "sub_index": 504
+                "sub_index": 504,
+                "tr_id": 102
             },
             "Lvl 48 Tuber Chandler": {
                 "level": 48,
@@ -33305,7 +33894,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Protective Pads",
                 "index": 629,
-                "sub_index": 629
+                "sub_index": 629,
+                "tr_id": 104
             }
         },
         "Shiinotic": {
@@ -33321,7 +33911,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Ring Target",
                 "index": 507,
-                "sub_index": 507
+                "sub_index": 507,
+                "tr_id": 13
             },
             "Lvl 92 Team Aqua Leader Archie2 ": {
                 "level": 92,
@@ -33335,7 +33926,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 1817,
-                "sub_index": 1817
+                "sub_index": 1817,
+                "tr_id": 105
             }
         },
         "Leafeon": {
@@ -33348,7 +33940,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 508,
-                "sub_index": 508
+                "sub_index": 508,
+                "tr_id": 13
             },
             "Lvl 75 Pokémaniac Truhcaz": {
                 "level": 75,
@@ -33362,7 +33955,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1225,
-                "sub_index": 1225
+                "sub_index": 1225,
+                "tr_id": 106
             }
         },
         "Pelipper": {
@@ -33378,7 +33972,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Lum Berry",
                 "index": 509,
-                "sub_index": 509
+                "sub_index": 509,
+                "tr_id": 107
             }
         },
         "Castform": {
@@ -33394,7 +33989,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Wacan Berry",
                 "index": 510,
-                "sub_index": 510
+                "sub_index": 510,
+                "tr_id": 107
             },
             "Lvl 77 Institute Team Aqua Grunt #4 ": {
                 "level": 77,
@@ -33408,7 +34004,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Focus Band",
                 "index": 1261,
-                "sub_index": 1261
+                "sub_index": 1261,
+                "tr_id": 108
             }
         },
         "Qwilfish": {
@@ -33424,7 +34021,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Black Sludge",
                 "index": 511,
-                "sub_index": 511
+                "sub_index": 511,
+                "tr_id": 107
             }
         },
         "Seadra": {
@@ -33448,7 +34046,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 512,
-                "sub_index": 512
+                "sub_index": 512,
+                "tr_id": 107
             }
         },
         "Klawf": {
@@ -33464,7 +34063,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Salac Berry",
                 "index": 513,
-                "sub_index": 513
+                "sub_index": 513,
+                "tr_id": 109
             },
             "Lvl 82 Hideout Team Aqua Grunt #2 ": {
                 "level": 82,
@@ -33478,7 +34078,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Scope Lens",
                 "index": 1587,
-                "sub_index": 1587
+                "sub_index": 1587,
+                "tr_id": 46
             }
         },
         "Mawile": {
@@ -33494,7 +34095,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 514,
-                "sub_index": 514
+                "sub_index": 514,
+                "tr_id": 109
             },
             "Lvl 76 Pokémaniac Truhcaz": {
                 "level": 76,
@@ -33508,7 +34110,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 1227,
-                "sub_index": 1227
+                "sub_index": 1227,
+                "tr_id": 106
             },
             "Lvl 79 Cooltrainer Perseid": {
                 "level": 79,
@@ -33522,7 +34125,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mawilite",
                 "index": 1394,
-                "sub_index": 1394
+                "sub_index": 1394,
+                "tr_id": 110
             },
             "Lvl 100 Superstar Tucker2 ": {
                 "level": 100,
@@ -33536,7 +34140,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mawilite",
                 "index": 2118,
-                "sub_index": 2118
+                "sub_index": 2118,
+                "tr_id": 111
             },
             "Lvl 100 Frontier Head Noland": {
                 "level": 100,
@@ -33550,7 +34155,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Eject Button",
                 "index": 2142,
-                "sub_index": 2142
+                "sub_index": 2142,
+                "tr_id": 112
             }
         },
         "Corsola": {
@@ -33566,7 +34172,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Rindo Berry",
                 "index": 515,
-                "sub_index": 515
+                "sub_index": 515,
+                "tr_id": 109
             },
             "Lvl 76 Team Aqua Grunt & Team Aqua Steve": {
                 "level": 76,
@@ -33580,7 +34187,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 1295,
-                "sub_index": 1295
+                "sub_index": 1295,
+                "tr_id": 45
             }
         },
         "Armaldo": {
@@ -33596,7 +34204,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 516,
-                "sub_index": 516
+                "sub_index": 516,
+                "tr_id": 109
             },
             "Lvl 70 Cooltrainer June": {
                 "level": 70,
@@ -33610,7 +34219,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heavy-Duty Boots",
                 "index": 1008,
-                "sub_index": 1008
+                "sub_index": 1008,
+                "tr_id": 113
             },
             "Lvl 73 Bug Maniac Taylor": {
                 "level": 73,
@@ -33624,7 +34234,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heavy-Duty Boots",
                 "index": 1187,
-                "sub_index": 1187
+                "sub_index": 1187,
+                "tr_id": 48
             }
         },
         "Carbink": {
@@ -33638,7 +34249,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Covert Cloak",
                 "index": 517,
-                "sub_index": 517
+                "sub_index": 517,
+                "tr_id": 114
             },
             "Lvl 66 Pokéfan Miguel": {
                 "level": 66,
@@ -33652,7 +34264,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 861,
-                "sub_index": 861
+                "sub_index": 861,
+                "tr_id": 115
             },
             "Lvl 84 Swimmer Byonemil": {
                 "level": 84,
@@ -33674,7 +34287,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1628,
-                "sub_index": 1628
+                "sub_index": 1628,
+                "tr_id": 116
             },
             "Lvl 99 Superstar Tucker1 ": {
                 "level": 99,
@@ -33688,7 +34302,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Covert Cloak",
                 "index": 2108,
-                "sub_index": 2108
+                "sub_index": 2108,
+                "tr_id": 117
             },
             "Lvl 99 Superstar Tucker2 ": {
                 "level": 99,
@@ -33702,7 +34317,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Covert Cloak",
                 "index": 2115,
-                "sub_index": 2115
+                "sub_index": 2115,
+                "tr_id": 111
             }
         },
         "Shuckle": {
@@ -33718,7 +34334,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Liechi Berry",
                 "index": 518,
-                "sub_index": 518
+                "sub_index": 518,
+                "tr_id": 114
             },
             "Lvl 70 Mt.Chimney Team Magma Grunt": {
                 "level": 70,
@@ -33732,7 +34349,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Quick Claw",
                 "index": 1050,
-                "sub_index": 1050
+                "sub_index": 1050,
+                "tr_id": 118
             },
             "Lvl 78 Cooltrainer Perseid": {
                 "level": 78,
@@ -33746,7 +34364,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Custap Berry",
                 "index": 1393,
-                "sub_index": 1393
+                "sub_index": 1393,
+                "tr_id": 110
             }
         },
         "Golem-Alola": {
@@ -33762,7 +34381,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Assault Vest",
                 "index": 519,
-                "sub_index": 519
+                "sub_index": 519,
+                "tr_id": 114
             },
             "Lvl 57 Bug Maniac Angelo": {
                 "level": 57,
@@ -33776,7 +34396,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Custap Berry",
                 "index": 708,
-                "sub_index": 708
+                "sub_index": 708,
+                "tr_id": 119
             }
         },
         "Sudowoodo": {
@@ -33800,7 +34421,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 520,
-                "sub_index": 520
+                "sub_index": 520,
+                "tr_id": 114
             },
             "Lvl 93 Triathlete Rydia": {
                 "level": 93,
@@ -33814,7 +34436,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 1854,
-                "sub_index": 1854
+                "sub_index": 1854,
+                "tr_id": 120
             }
         },
         "Glimmet": {
@@ -33830,7 +34453,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Sticky Barb",
                 "index": 521,
-                "sub_index": 521
+                "sub_index": 521,
+                "tr_id": 11
             }
         },
         "Minior": {
@@ -33854,7 +34478,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 522,
-                "sub_index": 522
+                "sub_index": 522,
+                "tr_id": 11
             },
             "Lvl 65 Camper Charlie": {
                 "level": 65,
@@ -33868,7 +34493,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Power Herb",
                 "index": 852,
-                "sub_index": 852
+                "sub_index": 852,
+                "tr_id": 89
             },
             "Lvl 77 Leader Winona2 ": {
                 "level": 77,
@@ -33882,7 +34508,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Yache Berry",
                 "index": 1366,
-                "sub_index": 1366
+                "sub_index": 1366,
+                "tr_id": 121
             }
         },
         "Corsola-Galar": {
@@ -33898,7 +34525,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Eviolite",
                 "index": 524,
-                "sub_index": 524
+                "sub_index": 524,
+                "tr_id": 11
             }
         },
         "Lunatone": {
@@ -33914,7 +34542,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Absorb Bulb",
                 "index": 525,
-                "sub_index": 525
+                "sub_index": 525,
+                "tr_id": 11
             },
             "Lvl 79 Hex Maniac Leah": {
                 "level": 79,
@@ -33928,7 +34557,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Babiri Berry",
                 "index": 1445,
-                "sub_index": 1445
+                "sub_index": 1445,
+                "tr_id": 90
             }
         },
         "Tyranitar": {
@@ -33952,7 +34582,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 526,
-                "sub_index": 526
+                "sub_index": 526,
+                "tr_id": 122
             },
             "Lvl 68 Camper Johny & Camper Tarian": {
                 "level": 68,
@@ -33966,7 +34597,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Chople Berry",
                 "index": 954,
-                "sub_index": 954
+                "sub_index": 954,
+                "tr_id": 123
             },
             "Lvl 69 Hiker Trent": {
                 "level": 69,
@@ -33979,7 +34611,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 1042,
-                "sub_index": 1042
+                "sub_index": 1042,
+                "tr_id": 124
             },
             "Lvl 73 Cooltrainer Garrison": {
                 "level": 73,
@@ -33993,7 +34626,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 1166,
-                "sub_index": 1166
+                "sub_index": 1166,
+                "tr_id": 125
             },
             "Lvl 77 Team Aqua Grunt & Team Aqua Steve": {
                 "level": 77,
@@ -34007,7 +34641,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Tyranitarite",
                 "index": 1296,
-                "sub_index": 1296
+                "sub_index": 1296,
+                "tr_id": 45
             },
             "Lvl 80 Hideout Team Magma Grunt #9 ": {
                 "level": 80,
@@ -34021,7 +34656,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Quick Claw",
                 "index": 1550,
-                "sub_index": 1550
+                "sub_index": 1550,
+                "tr_id": 126
             },
             "Lvl 83 Team Aqua Grunt Steve2 ": {
                 "level": 83,
@@ -34035,7 +34671,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Smooth Rock",
                 "index": 1608,
-                "sub_index": 1608
+                "sub_index": 1608,
+                "tr_id": 127
             },
             "Lvl 100 Elite Four Drake Doubles": {
                 "level": 100,
@@ -34049,7 +34686,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Iapapa Berry",
                 "index": 2197,
-                "sub_index": 2197
+                "sub_index": 2197,
+                "tr_id": 128
             }
         },
         "Solrock": {
@@ -34065,7 +34703,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Weakness Policy",
                 "index": 527,
-                "sub_index": 527
+                "sub_index": 527,
+                "tr_id": 122
             },
             "Lvl 69 Camper Derek": {
                 "level": 69,
@@ -34079,7 +34718,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rindo Berry",
                 "index": 961,
-                "sub_index": 961
+                "sub_index": 961,
+                "tr_id": 129
             },
             "Lvl 87 Space Center Team Magma Grunt #5 ": {
                 "level": 87,
@@ -34093,7 +34733,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Covert Cloak",
                 "index": 1726,
-                "sub_index": 1726
+                "sub_index": 1726,
+                "tr_id": 130
             }
         },
         "Zygarde": {
@@ -34117,7 +34758,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 528,
-                "sub_index": 528
+                "sub_index": 528,
+                "tr_id": 122
             },
             "Lvl 99 Adventurer Brandon1 ": {
                 "level": 99,
@@ -34131,7 +34773,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Zygardite",
                 "index": 2057,
-                "sub_index": 2057
+                "sub_index": 2057,
+                "tr_id": 100
             },
             "Lvl 99 Adventurer Brandon2 ": {
                 "level": 99,
@@ -34145,7 +34788,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Zygardite",
                 "index": 2064,
-                "sub_index": 2064
+                "sub_index": 2064,
+                "tr_id": 101
             }
         },
         "Cradily": {
@@ -34161,7 +34805,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 529,
-                "sub_index": 529
+                "sub_index": 529,
+                "tr_id": 122
             },
             "Lvl 75 Institute Team Aqua Grunt #1 ": {
                 "level": 75,
@@ -34175,7 +34820,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 1247,
-                "sub_index": 1247
+                "sub_index": 1247,
+                "tr_id": 131
             },
             "Lvl 78 Parasol Lady Angelica": {
                 "level": 78,
@@ -34189,7 +34835,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Grip Claw",
                 "index": 1377,
-                "sub_index": 1377
+                "sub_index": 1377,
+                "tr_id": 132
             }
         },
         "Omastar": {
@@ -34213,7 +34860,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 530,
-                "sub_index": 530
+                "sub_index": 530,
+                "tr_id": 122
             },
             "Lvl 81 Pyre Team Aqua Grunt #5 ": {
                 "level": 81,
@@ -34227,7 +34875,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Bright Powder",
                 "index": 1511,
-                "sub_index": 1511
+                "sub_index": 1511,
+                "tr_id": 133
             }
         },
         "Aerodactyl": {
@@ -34243,7 +34892,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Aerodactylite",
                 "index": 531,
-                "sub_index": 531
+                "sub_index": 531,
+                "tr_id": 122
             },
             "Lvl 63 Youngster Timmy": {
                 "level": 63,
@@ -34257,7 +34907,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Power Herb",
                 "index": 832,
-                "sub_index": 832
+                "sub_index": 832,
+                "tr_id": 64
             },
             "Lvl 77 Leader Winona1 ": {
                 "level": 77,
@@ -34271,7 +34922,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Yache Berry",
                 "index": 1359,
-                "sub_index": 1359
+                "sub_index": 1359,
+                "tr_id": 134
             },
             "Lvl 80 Team Magma Grunt Grintoul": {
                 "level": 80,
@@ -34285,7 +34937,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mirror Herb",
                 "index": 1535,
-                "sub_index": 1535
+                "sub_index": 1535,
+                "tr_id": 87
             },
             "Lvl 96 Kindler Kos": {
                 "level": 96,
@@ -34299,7 +34952,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Aerodactylite",
                 "index": 2000,
-                "sub_index": 2000
+                "sub_index": 2000,
+                "tr_id": 135
             },
             "Lvl 100 Elite Four Drake Singles": {
                 "level": 100,
@@ -34313,7 +34967,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 2188,
-                "sub_index": 2188
+                "sub_index": 2188,
+                "tr_id": 136
             }
         },
         "Aerodactyl-Mega": {
@@ -34329,7 +34984,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Aerodactylite",
                 "index": 532,
-                "sub_index": 532
+                "sub_index": 532,
+                "tr_id": 122
             },
             "Lvl 96 Kindler Kos": {
                 "level": 96,
@@ -34343,7 +34999,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Aerodactylite",
                 "index": 2001,
-                "sub_index": 2001
+                "sub_index": 2001,
+                "tr_id": 135
             }
         },
         "Pidgeot": {
@@ -34359,7 +35016,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Wacan Berry",
                 "index": 533,
-                "sub_index": 533
+                "sub_index": 533,
+                "tr_id": 137
             },
             "Lvl 62 Land Cave Team Magma Elite Grunt": {
                 "level": 62,
@@ -34381,7 +35039,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 744,
-                "sub_index": 744
+                "sub_index": 744,
+                "tr_id": 138
             },
             "Lvl 82 Hideout Team Magma Elite Grunt": {
                 "level": 82,
@@ -34403,7 +35062,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1564,
-                "sub_index": 1564
+                "sub_index": 1564,
+                "tr_id": 139
             }
         },
         "Linoone": {
@@ -34419,7 +35079,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Iapapa Berry",
                 "index": 534,
-                "sub_index": 534
+                "sub_index": 534,
+                "tr_id": 137
             },
             "Lvl 66 Winstrate Victor": {
                 "level": 66,
@@ -34433,7 +35094,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Toxic Orb",
                 "index": 911,
-                "sub_index": 911
+                "sub_index": 911,
+                "tr_id": 140
             }
         },
         "Wigglytuff": {
@@ -34449,7 +35111,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Life Orb",
                 "index": 535,
-                "sub_index": 535
+                "sub_index": 535,
+                "tr_id": 137
             },
             "Lvl 95 Pokéfan Bethany": {
                 "level": 95,
@@ -34463,7 +35126,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Throat Spray",
                 "index": 1924,
-                "sub_index": 1924
+                "sub_index": 1924,
+                "tr_id": 141
             }
         },
         "Venomoth": {
@@ -34479,7 +35143,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Lum Berry",
                 "index": 536,
-                "sub_index": 536
+                "sub_index": 536,
+                "tr_id": 142
             },
             "Lvl 79 Psychic Kayla": {
                 "level": 79,
@@ -34493,7 +35158,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Bug Gem",
                 "index": 1459,
-                "sub_index": 1459
+                "sub_index": 1459,
+                "tr_id": 143
             }
         },
         "Wormadam-Sandy": {
@@ -34509,7 +35175,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Occa Berry",
                 "index": 537,
-                "sub_index": 537
+                "sub_index": 537,
+                "tr_id": 142
             }
         },
         "Gastrodon": {
@@ -34525,7 +35192,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Rindo Berry",
                 "index": 538,
-                "sub_index": 538
+                "sub_index": 538,
+                "tr_id": 142
             },
             "Lvl 67 Picnicker Irene": {
                 "level": 67,
@@ -34539,7 +35207,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Rindo Berry",
                 "index": 928,
-                "sub_index": 928
+                "sub_index": 928,
+                "tr_id": 144
             },
             "Lvl 82 Hideout Team Aqua Grunt #2 ": {
                 "level": 82,
@@ -34553,7 +35222,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Focus Band",
                 "index": 1590,
-                "sub_index": 1590
+                "sub_index": 1590,
+                "tr_id": 46
             }
         },
         "Kleavor": {
@@ -34569,7 +35239,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rock Gem",
                 "index": 539,
-                "sub_index": 539
+                "sub_index": 539,
+                "tr_id": 142
             },
             "Lvl 77 Bird Keeper Narth": {
                 "level": 77,
@@ -34583,7 +35254,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Assault Vest",
                 "index": 1334,
-                "sub_index": 1334
+                "sub_index": 1334,
+                "tr_id": 145
             },
             "Lvl 99 Naturalist Greta1 ": {
                 "level": 99,
@@ -34597,7 +35269,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heavy-Duty Boots",
                 "index": 2070,
-                "sub_index": 2070
+                "sub_index": 2070,
+                "tr_id": 146
             },
             "Lvl 99 Naturalist Greta2 ": {
                 "level": 99,
@@ -34611,7 +35284,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rock Gem",
                 "index": 2076,
-                "sub_index": 2076
+                "sub_index": 2076,
+                "tr_id": 147
             }
         },
         "Primeape": {
@@ -34627,7 +35301,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eviolite",
                 "index": 540,
-                "sub_index": 540
+                "sub_index": 540,
+                "tr_id": 148
             }
         },
         "Ursaring": {
@@ -34651,7 +35326,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 541,
-                "sub_index": 541
+                "sub_index": 541,
+                "tr_id": 148
             }
         },
         "Throh": {
@@ -34675,7 +35351,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 542,
-                "sub_index": 542
+                "sub_index": 542,
+                "tr_id": 148
             }
         },
         "Magneton": {
@@ -34699,7 +35376,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 543,
-                "sub_index": 543
+                "sub_index": 543,
+                "tr_id": 148
             }
         },
         "Golem": {
@@ -34715,7 +35393,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Lum Berry",
                 "index": 544,
-                "sub_index": 544
+                "sub_index": 544,
+                "tr_id": 149
             }
         },
         "Sandslash": {
@@ -34731,7 +35410,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 545,
-                "sub_index": 545
+                "sub_index": 545,
+                "tr_id": 149
             },
             "Lvl 68 Ruin Maniac Dusty": {
                 "level": 68,
@@ -34745,7 +35425,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Soft Sand",
                 "index": 936,
-                "sub_index": 936
+                "sub_index": 936,
+                "tr_id": 55
             }
         },
         "Persian": {
@@ -34761,7 +35442,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Loaded Dice",
                 "index": 546,
-                "sub_index": 546
+                "sub_index": 546,
+                "tr_id": 149
             },
             "Lvl 64 Cooltrainer Alexia |Confusion Room|": {
                 "level": 64,
@@ -34775,7 +35457,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mirror Herb",
                 "index": 880,
-                "sub_index": 880
+                "sub_index": 880,
+                "tr_id": 7
             }
         },
         "Chimecho": {
@@ -34791,7 +35474,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Blunder Policy",
                 "index": 547,
-                "sub_index": 547
+                "sub_index": 547,
+                "tr_id": 149
             },
             "Lvl 55 Psychic Brandi": {
                 "level": 55,
@@ -34805,7 +35489,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Chimechite",
                 "index": 673,
-                "sub_index": 673
+                "sub_index": 673,
+                "tr_id": 150
             }
         },
         "Dugtrio-Alola": {
@@ -34821,7 +35506,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rocky Helmet",
                 "index": 548,
-                "sub_index": 548
+                "sub_index": 548,
+                "tr_id": 151
             },
             "Lvl 95 Cooltrainer Reyna": {
                 "level": 95,
@@ -34835,7 +35521,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 1976,
-                "sub_index": 1976
+                "sub_index": 1976,
+                "tr_id": 152
             }
         },
         "Stunfisk": {
@@ -34851,7 +35538,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 549,
-                "sub_index": 549
+                "sub_index": 549,
+                "tr_id": 151
             },
             "Lvl 75 Institute Team Aqua Grunt #3 ": {
                 "level": 75,
@@ -34865,7 +35553,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Bright Powder",
                 "index": 1255,
-                "sub_index": 1255
+                "sub_index": 1255,
+                "tr_id": 34
             }
         },
         "Mightyena": {
@@ -34881,7 +35570,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Expert Belt",
                 "index": 550,
-                "sub_index": 550
+                "sub_index": 550,
+                "tr_id": 153
             },
             "Lvl 80 Pyre Team Aqua Grunt #3 ": {
                 "level": 80,
@@ -34895,7 +35585,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 1500,
-                "sub_index": 1500
+                "sub_index": 1500,
+                "tr_id": 35
             }
         },
         "Slowbro-Galar": {
@@ -34911,7 +35602,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Quick Claw",
                 "index": 551,
-                "sub_index": 551
+                "sub_index": 551,
+                "tr_id": 153
             },
             "Lvl 80 Pyre Team Aqua Grunt #3 ": {
                 "level": 80,
@@ -34925,7 +35617,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Quick Claw",
                 "index": 1502,
-                "sub_index": 1502
+                "sub_index": 1502,
+                "tr_id": 35
             },
             "Lvl 85 Psychic Preston & Psychic Maura": {
                 "level": 85,
@@ -34939,7 +35632,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Psychic Seed",
                 "index": 1653,
-                "sub_index": 1653
+                "sub_index": 1653,
+                "tr_id": 154
             },
             "Lvl 89 Seafloor Team Aqua Grunt #3 ": {
                 "level": 89,
@@ -34953,7 +35647,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Quick Claw",
                 "index": 1782,
-                "sub_index": 1782
+                "sub_index": 1782,
+                "tr_id": 76
             }
         },
         "Wormadam": {
@@ -34969,7 +35664,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Bright Powder",
                 "index": 552,
-                "sub_index": 552
+                "sub_index": 552,
+                "tr_id": 153
             },
             "Lvl 67 Camper Travis": {
                 "level": 67,
@@ -34983,7 +35679,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Grass Gem",
                 "index": 933,
-                "sub_index": 933
+                "sub_index": 933,
+                "tr_id": 155
             }
         },
         "Phione": {
@@ -34999,7 +35696,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 553,
-                "sub_index": 553
+                "sub_index": 553,
+                "tr_id": 153
             },
             "Lvl 81 Pyre Team Aqua Grunt #3 ": {
                 "level": 81,
@@ -35013,7 +35711,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 1503,
-                "sub_index": 1503
+                "sub_index": 1503,
+                "tr_id": 35
             }
         },
         "Bellibolt": {
@@ -35029,7 +35728,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Magnet",
                 "index": 554,
-                "sub_index": 554
+                "sub_index": 554,
+                "tr_id": 156
             },
             "Lvl 97 Youngster Des": {
                 "level": 97,
@@ -35043,7 +35743,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Shuca Berry",
                 "index": 2008,
-                "sub_index": 2008
+                "sub_index": 2008,
+                "tr_id": 157
             }
         },
         "Cinderace": {
@@ -35059,7 +35760,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 555,
-                "sub_index": 555
+                "sub_index": 555,
+                "tr_id": 156
             },
             "Lvl 64 Cycling Road Rival Chespin": {
                 "level": 64,
@@ -35073,7 +35775,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Expert Belt",
                 "index": 776,
-                "sub_index": 776
+                "sub_index": 776,
+                "tr_id": 158
             },
             "Lvl 71 Battle Girl Danielle & Kindler Cole": {
                 "level": 71,
@@ -35087,7 +35790,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "King's Rock",
                 "index": 1099,
-                "sub_index": 1099
+                "sub_index": 1099,
+                "tr_id": 159
             },
             "Lvl 77 Bridge Rival Chespin": {
                 "level": 77,
@@ -35101,7 +35805,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1275,
-                "sub_index": 1275
+                "sub_index": 1275,
+                "tr_id": 160
             },
             "Lvl 79 Lilycove Rival Chespin": {
                 "level": 79,
@@ -35115,7 +35820,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1424,
-                "sub_index": 1424
+                "sub_index": 1424,
+                "tr_id": 161
             },
             "Lvl 81 Hideout Team Magma Grunt Zeldest": {
                 "level": 81,
@@ -35129,7 +35835,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Band",
                 "index": 1518,
-                "sub_index": 1518
+                "sub_index": 1518,
+                "tr_id": 162
             },
             "Lvl 87 Space Center Team Magma Elite Grunt": {
                 "level": 87,
@@ -35143,7 +35850,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "King's Rock",
                 "index": 1715,
-                "sub_index": 1715
+                "sub_index": 1715,
+                "tr_id": 93
             }
         },
         "Lucario": {
@@ -35159,7 +35867,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Ability Shield",
                 "index": 556,
-                "sub_index": 556
+                "sub_index": 556,
+                "tr_id": 156
             },
             "Lvl 44 Rustboro Rival Fennekin": {
                 "level": 44,
@@ -35173,7 +35882,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ability Shield",
                 "index": 562,
-                "sub_index": 562
+                "sub_index": 562,
+                "tr_id": 163
             },
             "Lvl 44 Rustboro Rival Froakie": {
                 "level": 44,
@@ -35187,7 +35897,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Ability Shield",
                 "index": 568,
-                "sub_index": 568
+                "sub_index": 568,
+                "tr_id": 164
             },
             "Lvl 64 Cycling Road Rival Chespin": {
                 "level": 64,
@@ -35201,7 +35912,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Lum Berry",
                 "index": 775,
-                "sub_index": 775
+                "sub_index": 775,
+                "tr_id": 158
             },
             "Lvl 64 Cycling Road Rival Fennekin": {
                 "level": 64,
@@ -35215,7 +35927,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Lum Berry",
                 "index": 781,
-                "sub_index": 781
+                "sub_index": 781,
+                "tr_id": 51
             },
             "Lvl 64 Cycling Road Rival Froakie": {
                 "level": 64,
@@ -35229,7 +35942,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Lum Berry",
                 "index": 787,
-                "sub_index": 787
+                "sub_index": 787,
+                "tr_id": 165
             },
             "Lvl 78 Partner Rival": {
                 "level": 78,
@@ -35243,7 +35957,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Lucarionite",
                 "index": 1302,
-                "sub_index": 1302
+                "sub_index": 1302,
+                "tr_id": 166
             },
             "Lvl 77 Ninja Boy Alex": {
                 "level": 77,
@@ -35257,7 +35972,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1384,
-                "sub_index": 1384
+                "sub_index": 1384,
+                "tr_id": 167
             },
             "Lvl 80 Lilycove Rival Chespin": {
                 "level": 80,
@@ -35271,7 +35987,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lucarionite",
                 "index": 1427,
-                "sub_index": 1427
+                "sub_index": 1427,
+                "tr_id": 161
             },
             "Lvl 80 Lilycove Rival Fennekin": {
                 "level": 80,
@@ -35285,7 +36002,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lucarionite",
                 "index": 1434,
-                "sub_index": 1434
+                "sub_index": 1434,
+                "tr_id": 168
             },
             "Lvl 80 Lilycove Rival Froakie": {
                 "level": 80,
@@ -35299,7 +36017,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lucarionite",
                 "index": 1441,
-                "sub_index": 1441
+                "sub_index": 1441,
+                "tr_id": 169
             },
             "Lvl 98 Expert Niklas": {
                 "level": 98,
@@ -35313,7 +36032,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lucarionite Z",
                 "index": 1994,
-                "sub_index": 1994
+                "sub_index": 1994,
+                "tr_id": 170
             },
             "Lvl 100 Elite Four Rival Singles": {
                 "level": 100,
@@ -35327,7 +36047,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Lucarionite",
                 "index": 2179,
-                "sub_index": 2179
+                "sub_index": 2179,
+                "tr_id": 171
             },
             "Lvl 100 Elite Four Rival Doubles": {
                 "level": 100,
@@ -35341,7 +36062,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Lucarionite",
                 "index": 2186,
-                "sub_index": 2186
+                "sub_index": 2186,
+                "tr_id": 172
             }
         },
         "Alomomola": {
@@ -35357,7 +36079,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 557,
-                "sub_index": 557
+                "sub_index": 557,
+                "tr_id": 156
             },
             "Lvl 43 Rustboro Rival Froakie": {
                 "level": 43,
@@ -35371,7 +36094,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 569,
-                "sub_index": 569
+                "sub_index": 569,
+                "tr_id": 164
             },
             "Lvl 75 Institute Team Aqua Elite Grunt": {
                 "level": 75,
@@ -35385,7 +36109,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Focus Band",
                 "index": 1263,
-                "sub_index": 1263
+                "sub_index": 1263,
+                "tr_id": 173
             },
             "Lvl 83 Hideout Team Aqua Grunt #5 ": {
                 "level": 83,
@@ -35399,7 +36124,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 1606,
-                "sub_index": 1606
+                "sub_index": 1606,
+                "tr_id": 53
             }
         },
         "Cacturne": {
@@ -35415,7 +36141,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Tanga Berry",
                 "index": 558,
-                "sub_index": 558
+                "sub_index": 558,
+                "tr_id": 156
             },
             "Lvl 43 Rustboro Rival Fennekin": {
                 "level": 43,
@@ -35429,7 +36156,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Tanga Berry",
                 "index": 563,
-                "sub_index": 563
+                "sub_index": 563,
+                "tr_id": 163
             },
             "Lvl 67 Picnicker Irene": {
                 "level": 67,
@@ -35443,7 +36171,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Bright Powder",
                 "index": 926,
-                "sub_index": 926
+                "sub_index": 926,
+                "tr_id": 144
             }
         },
         "Type: Null": {
@@ -35459,7 +36188,8 @@ backup_data = {
                 "nature": "Lonely",
                 "item": "Soothe Bell",
                 "index": 559,
-                "sub_index": 559
+                "sub_index": 559,
+                "tr_id": 156
             },
             "Lvl 43 Rustboro Rival Fennekin": {
                 "level": 43,
@@ -35473,7 +36203,8 @@ backup_data = {
                 "nature": "Lonely",
                 "item": "Soothe Bell",
                 "index": 565,
-                "sub_index": 565
+                "sub_index": 565,
+                "tr_id": 163
             },
             "Lvl 43 Rustboro Rival Froakie": {
                 "level": 43,
@@ -35487,7 +36218,8 @@ backup_data = {
                 "nature": "Lonely",
                 "item": "Soothe Bell",
                 "index": 571,
-                "sub_index": 571
+                "sub_index": 571,
+                "tr_id": 164
             },
             "Lvl 64 Cycling Road Rival Chespin": {
                 "level": 64,
@@ -35501,7 +36233,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eviolite",
                 "index": 779,
-                "sub_index": 779
+                "sub_index": 779,
+                "tr_id": 158
             },
             "Lvl 64 Cycling Road Rival Fennekin": {
                 "level": 64,
@@ -35515,7 +36248,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eviolite",
                 "index": 785,
-                "sub_index": 785
+                "sub_index": 785,
+                "tr_id": 51
             },
             "Lvl 64 Cycling Road Rival Froakie": {
                 "level": 64,
@@ -35529,7 +36263,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eviolite",
                 "index": 791,
-                "sub_index": 791
+                "sub_index": 791,
+                "tr_id": 165
             }
         },
         "Electrode-Hisui": {
@@ -35545,7 +36280,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Magnet",
                 "index": 560,
-                "sub_index": 560
+                "sub_index": 560,
+                "tr_id": 163
             },
             "Lvl 75 Pokémaniac Truhcaz": {
                 "level": 75,
@@ -35559,7 +36295,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Expert Belt",
                 "index": 1226,
-                "sub_index": 1226
+                "sub_index": 1226,
+                "tr_id": 106
             }
         },
         "Greninja": {
@@ -35575,7 +36312,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wise Glasses",
                 "index": 561,
-                "sub_index": 561
+                "sub_index": 561,
+                "tr_id": 163
             },
             "Lvl 64 Cycling Road Rival Fennekin": {
                 "level": 64,
@@ -35589,7 +36327,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Expert Belt",
                 "index": 782,
-                "sub_index": 782
+                "sub_index": 782,
+                "tr_id": 51
             },
             "Lvl 63 Fisherman Andrew": {
                 "level": 63,
@@ -35603,7 +36342,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Mystic Water",
                 "index": 807,
-                "sub_index": 807
+                "sub_index": 807,
+                "tr_id": 174
             },
             "Lvl 69 Ninja Boy Lao": {
                 "level": 69,
@@ -35617,7 +36357,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Flying Gem",
                 "index": 979,
-                "sub_index": 979
+                "sub_index": 979,
+                "tr_id": 175
             },
             "Lvl 72 Kindler Nathan": {
                 "level": 72,
@@ -35639,7 +36380,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1094,
-                "sub_index": 1094
+                "sub_index": 1094,
+                "tr_id": 176
             },
             "Lvl 77 Bridge Rival Fennekin": {
                 "level": 77,
@@ -35653,7 +36395,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1281,
-                "sub_index": 1281
+                "sub_index": 1281,
+                "tr_id": 177
             },
             "Lvl 77 Parasol Lady Angelica": {
                 "level": 77,
@@ -35667,7 +36410,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Greninjite",
                 "index": 1380,
-                "sub_index": 1380
+                "sub_index": 1380,
+                "tr_id": 132
             },
             "Lvl 79 Lilycove Rival Fennekin": {
                 "level": 79,
@@ -35681,7 +36425,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1431,
-                "sub_index": 1431
+                "sub_index": 1431,
+                "tr_id": 168
             },
             "Lvl 81 Pyre Team Aqua Grunt #2 ": {
                 "level": 81,
@@ -35695,7 +36440,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1494,
-                "sub_index": 1494
+                "sub_index": 1494,
+                "tr_id": 178
             },
             "Lvl 91 Team Aqua Grunt Gren": {
                 "level": 91,
@@ -35709,7 +36455,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Bright Powder",
                 "index": 1794,
-                "sub_index": 1794
+                "sub_index": 1794,
+                "tr_id": 179
             },
             "Lvl 100 Elite Four Sidney Singles": {
                 "level": 100,
@@ -35723,7 +36470,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Greninjite",
                 "index": 2146,
-                "sub_index": 2146
+                "sub_index": 2146,
+                "tr_id": 180
             }
         },
         "Salazzle": {
@@ -35739,7 +36487,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Shuca Berry",
                 "index": 564,
-                "sub_index": 564
+                "sub_index": 564,
+                "tr_id": 163
             },
             "Lvl 43 Rustboro Rival Froakie": {
                 "level": 43,
@@ -35753,7 +36502,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Shuca Berry",
                 "index": 570,
-                "sub_index": 570
+                "sub_index": 570,
+                "tr_id": 164
             },
             "Lvl 63 Pokéfan Isabel": {
                 "level": 63,
@@ -35775,7 +36525,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 794,
-                "sub_index": 794
+                "sub_index": 794,
+                "tr_id": 181
             },
             "Lvl 71 Leader Flannery": {
                 "level": 71,
@@ -35789,7 +36540,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Passho Berry",
                 "index": 1115,
-                "sub_index": 1115
+                "sub_index": 1115,
+                "tr_id": 182
             },
             "Lvl 81 Hideout Team Magma Grunt #8 ": {
                 "level": 81,
@@ -35803,7 +36555,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Bright Powder",
                 "index": 1546,
-                "sub_index": 1546
+                "sub_index": 1546,
+                "tr_id": 65
             }
         },
         "Raichu": {
@@ -35819,7 +36572,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Magnet",
                 "index": 566,
-                "sub_index": 566
+                "sub_index": 566,
+                "tr_id": 164
             },
             "Lvl 63 Triathlete Benjamin & Triathlete Alyssa": {
                 "level": 63,
@@ -35833,7 +36587,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Raichunite Y",
                 "index": 766,
-                "sub_index": 766
+                "sub_index": 766,
+                "tr_id": 17
             }
         },
         "Meowscarada": {
@@ -35849,7 +36604,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 567,
-                "sub_index": 567
+                "sub_index": 567,
+                "tr_id": 164
             },
             "Lvl 64 Cycling Road Rival Froakie": {
                 "level": 64,
@@ -35863,7 +36619,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Expert Belt",
                 "index": 788,
-                "sub_index": 788
+                "sub_index": 788,
+                "tr_id": 165
             },
             "Lvl 65 Triathlete Cutie": {
                 "level": 65,
@@ -35876,7 +36633,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Band",
                 "index": 847,
-                "sub_index": 847
+                "sub_index": 847,
+                "tr_id": 183
             },
             "Lvl 77 Bridge Rival Froakie": {
                 "level": 77,
@@ -35890,7 +36648,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1287,
-                "sub_index": 1287
+                "sub_index": 1287,
+                "tr_id": 184
             },
             "Lvl 79 Lilycove Rival Froakie": {
                 "level": 79,
@@ -35904,7 +36663,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1438,
-                "sub_index": 1438
+                "sub_index": 1438,
+                "tr_id": 169
             },
             "Lvl 95 Pokéfan Bethany": {
                 "level": 95,
@@ -35918,7 +36678,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1922,
-                "sub_index": 1922
+                "sub_index": 1922,
+                "tr_id": 141
             },
             "Lvl 99 Natural Guru Spenser2 ": {
                 "level": 99,
@@ -35932,7 +36693,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 2089,
-                "sub_index": 2089
+                "sub_index": 2089,
+                "tr_id": 185
             }
         },
         "Seaking": {
@@ -35948,7 +36710,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Rindo Berry",
                 "index": 572,
-                "sub_index": 572
+                "sub_index": 572,
+                "tr_id": 186
             },
             "Lvl 82 Pyre Team Aqua Grunt #1 ": {
                 "level": 82,
@@ -35962,7 +36725,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Quick Claw",
                 "index": 1490,
-                "sub_index": 1490
+                "sub_index": 1490,
+                "tr_id": 187
             },
             "Lvl 95 Swimmer Puppy": {
                 "level": 95,
@@ -35976,7 +36740,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Water Gem",
                 "index": 1841,
-                "sub_index": 1841
+                "sub_index": 1841,
+                "tr_id": 188
             }
         },
         "Lanturn": {
@@ -35992,7 +36757,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wiki Berry",
                 "index": 575,
-                "sub_index": 575
+                "sub_index": 575,
+                "tr_id": 186
             },
             "Lvl 95 Ex Leader Juan": {
                 "level": 95,
@@ -36006,7 +36772,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Blunder Policy",
                 "index": 1938,
-                "sub_index": 1938
+                "sub_index": 1938,
+                "tr_id": 80
             }
         },
         "Lapras": {
@@ -36019,7 +36786,8 @@ backup_data = {
                 "nature": "Serious",
                 "item": "Choice Scarf",
                 "index": 574,
-                "sub_index": 574
+                "sub_index": 574,
+                "tr_id": 186
             },
             "Lvl 73 Cooltrainer Irie": {
                 "level": 73,
@@ -36033,7 +36801,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Expert Belt",
                 "index": 1150,
-                "sub_index": 1150
+                "sub_index": 1150,
+                "tr_id": 189
             },
             "Lvl 93 Triathlete Rydia": {
                 "level": 93,
@@ -36047,7 +36816,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Assault Vest",
                 "index": 1857,
-                "sub_index": 1857
+                "sub_index": 1857,
+                "tr_id": 120
             }
         },
         "Mr. Mime-Galar": {
@@ -36063,7 +36833,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Petaya Berry",
                 "index": 577,
-                "sub_index": 577
+                "sub_index": 577,
+                "tr_id": 15
             },
             "Lvl 86 Gentleman Clifford & Psychic Macey": {
                 "level": 86,
@@ -36085,7 +36856,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1682,
-                "sub_index": 1682
+                "sub_index": 1682,
+                "tr_id": 190
             }
         },
         "Misdreavus": {
@@ -36101,7 +36873,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wise Glasses",
                 "index": 579,
-                "sub_index": 579
+                "sub_index": 579,
+                "tr_id": 15
             }
         },
         "Polteageist": {
@@ -36117,7 +36890,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 580,
-                "sub_index": 580
+                "sub_index": 580,
+                "tr_id": 191
             },
             "Lvl 63 Aroma Lady Daisy": {
                 "level": 63,
@@ -36131,7 +36905,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "White Herb",
                 "index": 815,
-                "sub_index": 815
+                "sub_index": 815,
+                "tr_id": 192
             },
             "Lvl 73 Aroma Lady Rose": {
                 "level": 73,
@@ -36145,7 +36920,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "White Herb",
                 "index": 1173,
-                "sub_index": 1173
+                "sub_index": 1173,
+                "tr_id": 193
             }
         },
         "Tauros-Paldea-Combat": {
@@ -36169,7 +36945,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 581,
-                "sub_index": 581
+                "sub_index": 581,
+                "tr_id": 191
             },
             "Lvl 54 Hiker Mike": {
                 "level": 54,
@@ -36183,7 +36960,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Kee Berry",
                 "index": 664,
-                "sub_index": 664
+                "sub_index": 664,
+                "tr_id": 194
             }
         },
         "Flapple": {
@@ -36199,7 +36977,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Starf Berry",
                 "index": 582,
-                "sub_index": 582
+                "sub_index": 582,
+                "tr_id": 191
             },
             "Lvl 69 Hiker Jotaro": {
                 "level": 69,
@@ -36213,7 +36992,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Salac Berry",
                 "index": 1029,
-                "sub_index": 1029
+                "sub_index": 1029,
+                "tr_id": 195
             },
             "Lvl 86 Gentleman Andreas & Hex Maniac Tina": {
                 "level": 86,
@@ -36227,7 +37007,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 1676,
-                "sub_index": 1676
+                "sub_index": 1676,
+                "tr_id": 196
             }
         },
         "Tropius": {
@@ -36243,7 +37024,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Ganlon Berry",
                 "index": 583,
-                "sub_index": 583
+                "sub_index": 583,
+                "tr_id": 191
             },
             "Lvl 60 Land Cave Team Magma Grunt #1 ": {
                 "level": 60,
@@ -36257,7 +37039,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Bright Powder",
                 "index": 728,
-                "sub_index": 728
+                "sub_index": 728,
+                "tr_id": 197
             }
         },
         "Magmar": {
@@ -36273,7 +37056,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Lum Berry",
                 "index": 584,
-                "sub_index": 584
+                "sub_index": 584,
+                "tr_id": 23
             }
         },
         "Electabuzz": {
@@ -36289,7 +37073,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Punching Glove",
                 "index": 585,
-                "sub_index": 585
+                "sub_index": 585,
+                "tr_id": 23
             }
         },
         "Kubfu": {
@@ -36305,7 +37090,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 586,
-                "sub_index": 586
+                "sub_index": 586,
+                "tr_id": 23
             }
         },
         "Hitmonlee": {
@@ -36321,7 +37107,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Normal Gem",
                 "index": 588,
-                "sub_index": 588
+                "sub_index": 588,
+                "tr_id": 198
             },
             "Lvl 95 Cooltrainer Reyna": {
                 "level": 95,
@@ -36343,7 +37130,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1978,
-                "sub_index": 1978
+                "sub_index": 1978,
+                "tr_id": 152
             }
         },
         "Togedemaru": {
@@ -36359,7 +37147,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rocky Helmet",
                 "index": 589,
-                "sub_index": 589
+                "sub_index": 589,
+                "tr_id": 198
             },
             "Lvl 80 Breeder Gabrielle": {
                 "level": 80,
@@ -36373,7 +37162,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Steel Gem",
                 "index": 1479,
-                "sub_index": 1479
+                "sub_index": 1479,
+                "tr_id": 199
             }
         },
         "Breloom": {
@@ -36389,7 +37179,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lum Berry",
                 "index": 590,
-                "sub_index": 590
+                "sub_index": 590,
+                "tr_id": 198
             },
             "Lvl 66 Winstrate Vivi": {
                 "level": 66,
@@ -36403,7 +37194,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Toxic Orb",
                 "index": 918,
-                "sub_index": 918
+                "sub_index": 918,
+                "tr_id": 74
             },
             "Lvl 75 Ranger Nak": {
                 "level": 75,
@@ -36417,7 +37209,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Loaded Dice",
                 "index": 1217,
-                "sub_index": 1217
+                "sub_index": 1217,
+                "tr_id": 200
             }
         },
         "Hitmonchan": {
@@ -36433,7 +37226,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Punching Glove",
                 "index": 591,
-                "sub_index": 591
+                "sub_index": 591,
+                "tr_id": 201
             }
         },
         "Sneasel-Hisui": {
@@ -36457,7 +37251,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 592,
-                "sub_index": 592
+                "sub_index": 592,
+                "tr_id": 201
             }
         },
         "Sawk": {
@@ -36473,7 +37268,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Black Belt",
                 "index": 593,
-                "sub_index": 593
+                "sub_index": 593,
+                "tr_id": 201
             }
         },
         "Dedenne": {
@@ -36489,7 +37285,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Petaya Berry",
                 "index": 594,
-                "sub_index": 594
+                "sub_index": 594,
+                "tr_id": 201
             }
         },
         "Passimian": {
@@ -36505,7 +37302,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Adrenaline Orb",
                 "index": 595,
-                "sub_index": 595
+                "sub_index": 595,
+                "tr_id": 202
             }
         },
         "Mimikyu": {
@@ -36529,7 +37327,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 596,
-                "sub_index": 596
+                "sub_index": 596,
+                "tr_id": 202
             },
             "Lvl 69 Bug Maniac Wyatt": {
                 "level": 69,
@@ -36543,7 +37342,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Binding Band",
                 "index": 966,
-                "sub_index": 966
+                "sub_index": 966,
+                "tr_id": 203
             },
             "Lvl 78 Parasol Lady Angelica": {
                 "level": 78,
@@ -36557,7 +37357,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Spell Tag",
                 "index": 1376,
-                "sub_index": 1376
+                "sub_index": 1376,
+                "tr_id": 132
             },
             "Lvl 100 Superstar Tucker1 ": {
                 "level": 100,
@@ -36571,7 +37372,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 2113,
-                "sub_index": 2113
+                "sub_index": 2113,
+                "tr_id": 117
             },
             "Lvl 100 Superstar Tucker2 ": {
                 "level": 100,
@@ -36585,7 +37387,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 2120,
-                "sub_index": 2120
+                "sub_index": 2120,
+                "tr_id": 111
             }
         },
         "Toxicroak": {
@@ -36601,7 +37404,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Dark Gem",
                 "index": 597,
-                "sub_index": 597
+                "sub_index": 597,
+                "tr_id": 202
             },
             "Lvl 75 Cooltrainer Chape": {
                 "level": 75,
@@ -36615,7 +37419,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1242,
-                "sub_index": 1242
+                "sub_index": 1242,
+                "tr_id": 204
             },
             "Lvl 92 Swimmer Puppy": {
                 "level": 92,
@@ -36629,7 +37434,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1844,
-                "sub_index": 1844
+                "sub_index": 1844,
+                "tr_id": 188
             }
         },
         "Scrafty": {
@@ -36645,7 +37451,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 598,
-                "sub_index": 598
+                "sub_index": 598,
+                "tr_id": 202
             },
             "Lvl 63 Triathlete Jasmine & Triathlete Jacob": {
                 "level": 63,
@@ -36659,7 +37466,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Scraftinite",
                 "index": 772,
-                "sub_index": 772
+                "sub_index": 772,
+                "tr_id": 205
             },
             "Lvl 100 Elite Four Sidney Doubles": {
                 "level": 100,
@@ -36681,7 +37489,8 @@ backup_data = {
                     "sp": "15"
                 },
                 "index": 2153,
-                "sub_index": 2153
+                "sub_index": 2153,
+                "tr_id": 85
             }
         },
         "Poliwrath": {
@@ -36697,7 +37506,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Blunder Policy",
                 "index": 599,
-                "sub_index": 599
+                "sub_index": 599,
+                "tr_id": 206
             },
             "Lvl 63 Cycling Road Rival Chespin": {
                 "level": 63,
@@ -36711,7 +37521,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mystic Water",
                 "index": 777,
-                "sub_index": 777
+                "sub_index": 777,
+                "tr_id": 158
             },
             "Lvl 74 Ranger Catherine": {
                 "level": 74,
@@ -36725,7 +37536,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rindo Berry",
                 "index": 1211,
-                "sub_index": 1211
+                "sub_index": 1211,
+                "tr_id": 207
             },
             "Lvl 80 Pyre Team Aqua Grunt #4 ": {
                 "level": 80,
@@ -36739,7 +37551,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 1504,
-                "sub_index": 1504
+                "sub_index": 1504,
+                "tr_id": 208
             },
             "Lvl 95 Pokéfan Bobertclef": {
                 "level": 95,
@@ -36753,7 +37566,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 1932,
-                "sub_index": 1932
+                "sub_index": 1932,
+                "tr_id": 57
             }
         },
         "Lopunny": {
@@ -36769,7 +37583,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Eject Button",
                 "index": 600,
-                "sub_index": 600
+                "sub_index": 600,
+                "tr_id": 206
             },
             "Lvl 87 Space Center Team Magma Grunt #4 ": {
                 "level": 87,
@@ -36783,7 +37598,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lopunnite",
                 "index": 1719,
-                "sub_index": 1719
+                "sub_index": 1719,
+                "tr_id": 209
             }
         },
         "Morpeko": {
@@ -36799,7 +37615,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 601,
-                "sub_index": 601
+                "sub_index": 601,
+                "tr_id": 206
             },
             "Lvl 86 Space Center Team Magma Grunt #2 ": {
                 "level": 86,
@@ -36813,7 +37630,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Air Balloon",
                 "index": 1705,
-                "sub_index": 1705
+                "sub_index": 1705,
+                "tr_id": 210
             }
         },
         "Tauros-Paldea-Blaze": {
@@ -36829,7 +37647,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Liechi Berry",
                 "index": 602,
-                "sub_index": 602
+                "sub_index": 602,
+                "tr_id": 206
             },
             "Lvl 71 Team Magma Admin Tabitha1 ": {
                 "level": 71,
@@ -36843,7 +37662,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Passho Berry",
                 "index": 1060,
-                "sub_index": 1060
+                "sub_index": 1060,
+                "tr_id": 211
             },
             "Lvl 87 Cooltrainer Puffy": {
                 "level": 87,
@@ -36857,7 +37677,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 1752,
-                "sub_index": 1752
+                "sub_index": 1752,
+                "tr_id": 212
             }
         },
         "Medicham": {
@@ -36881,7 +37702,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 603,
-                "sub_index": 603
+                "sub_index": 603,
+                "tr_id": 206
             },
             "Lvl 68 Winstrate Vicky": {
                 "level": 68,
@@ -36903,7 +37725,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 924,
-                "sub_index": 924
+                "sub_index": 924,
+                "tr_id": 25
             }
         },
         "Hariyama": {
@@ -36927,7 +37750,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 604,
-                "sub_index": 604
+                "sub_index": 604,
+                "tr_id": 213
             },
             "Lvl 90 Seafloor Team Aqua Grunt #3 ": {
                 "level": 90,
@@ -36941,7 +37765,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "White Herb",
                 "index": 1785,
-                "sub_index": 1785
+                "sub_index": 1785,
+                "tr_id": 76
             }
         },
         "Hitmontop": {
@@ -36957,7 +37782,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Eject Button",
                 "index": 605,
-                "sub_index": 605
+                "sub_index": 605,
+                "tr_id": 213
             },
             "Lvl 80 Cooltrainer Marcel": {
                 "level": 80,
@@ -36971,7 +37797,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Muscle Band",
                 "index": 1416,
-                "sub_index": 1416
+                "sub_index": 1416,
+                "tr_id": 214
             },
             "Lvl 95 Pokéfan Annika": {
                 "level": 95,
@@ -36985,7 +37812,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eject Button",
                 "index": 1902,
-                "sub_index": 1902
+                "sub_index": 1902,
+                "tr_id": 215
             }
         },
         "Doublade": {
@@ -37001,7 +37829,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eviolite",
                 "index": 606,
-                "sub_index": 606
+                "sub_index": 606,
+                "tr_id": 213
             }
         },
         "Pawmot": {
@@ -37017,7 +37846,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Punching Glove",
                 "index": 607,
-                "sub_index": 607
+                "sub_index": 607,
+                "tr_id": 213
             },
             "Lvl 56 Bug Maniac Angelo": {
                 "level": 56,
@@ -37031,7 +37861,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leppa Berry",
                 "index": 707,
-                "sub_index": 707
+                "sub_index": 707,
+                "tr_id": 119
             },
             "Lvl 81 Hideout Team Magma Grunt #9 ": {
                 "level": 81,
@@ -37045,7 +37876,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leppa Berry",
                 "index": 1554,
-                "sub_index": 1554
+                "sub_index": 1554,
+                "tr_id": 126
             },
             "Lvl 91 Seafloor Team Aqua Grunt #4 ": {
                 "level": 91,
@@ -37059,7 +37891,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leppa Berry",
                 "index": 1792,
-                "sub_index": 1792
+                "sub_index": 1792,
+                "tr_id": 216
             }
         },
         "Zamazenta-Crowned": {
@@ -37075,7 +37908,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Rusted Shield",
                 "index": 608,
-                "sub_index": 608
+                "sub_index": 608,
+                "tr_id": 213
             },
             "Lvl 90 Magma Leader Maxie & Tabitha": {
                 "level": 90,
@@ -37097,7 +37931,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1736,
-                "sub_index": 1736
+                "sub_index": 1736,
+                "tr_id": 217
             }
         },
         "Heracross": {
@@ -37121,7 +37956,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 609,
-                "sub_index": 609
+                "sub_index": 609,
+                "tr_id": 213
             },
             "Lvl 64 Cooltrainer Emmie |Offense Room|": {
                 "level": 64,
@@ -37135,7 +37971,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Liechi Berry",
                 "index": 867,
-                "sub_index": 867
+                "sub_index": 867,
+                "tr_id": 218
             },
             "Lvl 75 Institute Team Aqua Grunt #2 ": {
                 "level": 75,
@@ -37149,7 +37986,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Bright Powder",
                 "index": 1250,
-                "sub_index": 1250
+                "sub_index": 1250,
+                "tr_id": 219
             },
             "Lvl 77 Team Aqua Admin Shelly1 ": {
                 "level": 77,
@@ -37163,7 +38001,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Heracronite",
                 "index": 1273,
-                "sub_index": 1273
+                "sub_index": 1273,
+                "tr_id": 220
             }
         },
         "Heracross-Mega": {
@@ -37187,7 +38026,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 610,
-                "sub_index": 610
+                "sub_index": 610,
+                "tr_id": 213
             },
             "Lvl 77 Team Aqua Admin Shelly1 ": {
                 "level": 77,
@@ -37201,7 +38041,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Heracronite",
                 "index": 1274,
-                "sub_index": 1274
+                "sub_index": 1274,
+                "tr_id": 220
             }
         },
         "Stunfisk-Galar": {
@@ -37217,7 +38058,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Chople Berry",
                 "index": 611,
-                "sub_index": 611
+                "sub_index": 611,
+                "tr_id": 221
             },
             "Lvl 79 Pokemaniac Mark": {
                 "level": 79,
@@ -37231,7 +38073,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Misty Seed",
                 "index": 1476,
-                "sub_index": 1476
+                "sub_index": 1476,
+                "tr_id": 27
             }
         },
         "Carnivine": {
@@ -37247,7 +38090,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Binding Band",
                 "index": 612,
-                "sub_index": 612
+                "sub_index": 612,
+                "tr_id": 221
             },
             "Lvl 80 Hideout Team Magma Elite Grunt": {
                 "level": 80,
@@ -37261,7 +38105,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Band",
                 "index": 1561,
-                "sub_index": 1561
+                "sub_index": 1561,
+                "tr_id": 139
             }
         },
         "Mothim": {
@@ -37277,7 +38122,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 613,
-                "sub_index": 613
+                "sub_index": 613,
+                "tr_id": 221
             },
             "Lvl 93 Triathlete Talia": {
                 "level": 93,
@@ -37291,7 +38137,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Expert Belt",
                 "index": 1865,
-                "sub_index": 1865
+                "sub_index": 1865,
+                "tr_id": 222
             }
         },
         "Wugtrio": {
@@ -37307,7 +38154,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Muscle Band",
                 "index": 614,
-                "sub_index": 614
+                "sub_index": 614,
+                "tr_id": 221
             },
             "Lvl 70 Hiker Trent": {
                 "level": 70,
@@ -37321,7 +38169,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mystic Water",
                 "index": 1041,
-                "sub_index": 1041
+                "sub_index": 1041,
+                "tr_id": 124
             },
             "Lvl 75 Institute Team Aqua Grunt #4 ": {
                 "level": 75,
@@ -37333,7 +38182,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Band",
                 "index": 1259,
-                "sub_index": 1259
+                "sub_index": 1259,
+                "tr_id": 108
             },
             "Lvl 90 Team Aqua Grunt Steve3 ": {
                 "level": 90,
@@ -37347,7 +38197,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Bright Powder",
                 "index": 1810,
-                "sub_index": 1810
+                "sub_index": 1810,
+                "tr_id": 223
             }
         },
         "Simisage": {
@@ -37363,7 +38214,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eject Pack",
                 "index": 616,
-                "sub_index": 616
+                "sub_index": 616,
+                "tr_id": 77
             }
         },
         "Raichu-Alola": {
@@ -37379,7 +38231,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Water Gem",
                 "index": 617,
-                "sub_index": 617
+                "sub_index": 617,
+                "tr_id": 77
             }
         },
         "Clawitzer": {
@@ -37395,7 +38248,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Electric Seed",
                 "index": 618,
-                "sub_index": 618
+                "sub_index": 618,
+                "tr_id": 77
             },
             "Lvl 84 Pokémon Trainer Leaf1 ": {
                 "level": 84,
@@ -37409,7 +38263,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Wacan Berry",
                 "index": 1640,
-                "sub_index": 1640
+                "sub_index": 1640,
+                "tr_id": 224
             }
         },
         "Aromatisse": {
@@ -37425,7 +38280,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Iapapa Berry",
                 "index": 619,
-                "sub_index": 619
+                "sub_index": 619,
+                "tr_id": 225
             },
             "Lvl 80 Pokemaniac Mark": {
                 "level": 80,
@@ -37439,7 +38295,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Custap Berry",
                 "index": 1473,
-                "sub_index": 1473
+                "sub_index": 1473,
+                "tr_id": 27
             },
             "Lvl 89 Seafloor Team Aqua Grunt #4 ": {
                 "level": 89,
@@ -37450,7 +38307,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Choice Specs",
                 "index": 1788,
-                "sub_index": 1788
+                "sub_index": 1788,
+                "tr_id": 216
             }
         },
         "Marowak": {
@@ -37466,7 +38324,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Thick Club",
                 "index": 620,
-                "sub_index": 620
+                "sub_index": 620,
+                "tr_id": 225
             },
             "Lvl 79 Psychic William": {
                 "level": 79,
@@ -37480,7 +38339,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Thick Club",
                 "index": 1463,
-                "sub_index": 1463
+                "sub_index": 1463,
+                "tr_id": 226
             },
             "Lvl 100 Elite Four Phoebe Singles": {
                 "level": 100,
@@ -37494,7 +38354,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Thick Club",
                 "index": 2165,
-                "sub_index": 2165
+                "sub_index": 2165,
+                "tr_id": 227
             },
             "Lvl 100 Elite Four Phoebe Doubles": {
                 "level": 100,
@@ -37508,7 +38369,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Thick Club",
                 "index": 2172,
-                "sub_index": 2172
+                "sub_index": 2172,
+                "tr_id": 228
             }
         },
         "Veluza": {
@@ -37524,7 +38386,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Sitrus Berry",
                 "index": 621,
-                "sub_index": 621
+                "sub_index": 621,
+                "tr_id": 225
             },
             "Lvl 73 Cooltrainer Geena": {
                 "level": 73,
@@ -37538,7 +38401,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 1161,
-                "sub_index": 1161
+                "sub_index": 1161,
+                "tr_id": 37
             }
         },
         "Machamp": {
@@ -37554,7 +38418,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Ability Shield",
                 "index": 622,
-                "sub_index": 622
+                "sub_index": 622,
+                "tr_id": 225
             }
         },
         "Masquerain": {
@@ -37570,7 +38435,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Silver Powder",
                 "index": 623,
-                "sub_index": 623
+                "sub_index": 623,
+                "tr_id": 229
             },
             "Lvl 95 Lass Andrea": {
                 "level": 95,
@@ -37584,7 +38450,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Focus Sash",
                 "index": 1899,
-                "sub_index": 1899
+                "sub_index": 1899,
+                "tr_id": 73
             }
         },
         "Dachsbun": {
@@ -37600,7 +38467,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 624,
-                "sub_index": 624
+                "sub_index": 624,
+                "tr_id": 229
             },
             "Lvl 80 Hideout Team Magma Grunt #3 ": {
                 "level": 80,
@@ -37614,7 +38482,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Scope Lens",
                 "index": 1528,
-                "sub_index": 1528
+                "sub_index": 1528,
+                "tr_id": 230
             }
         },
         "Purugly": {
@@ -37630,7 +38499,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Adrenaline Orb",
                 "index": 625,
-                "sub_index": 625
+                "sub_index": 625,
+                "tr_id": 229
             }
         },
         "Druddigon": {
@@ -37646,7 +38516,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Life Orb",
                 "index": 626,
-                "sub_index": 626
+                "sub_index": 626,
+                "tr_id": 229
             },
             "Lvl 77 Dragon Tamer Sora": {
                 "level": 77,
@@ -37660,7 +38531,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Rocky Helmet",
                 "index": 1350,
-                "sub_index": 1350
+                "sub_index": 1350,
+                "tr_id": 82
             }
         },
         "Kingler": {
@@ -37676,7 +38548,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Mystic Water",
                 "index": 627,
-                "sub_index": 627
+                "sub_index": 627,
+                "tr_id": 104
             },
             "Lvl 73 Tuber Jani": {
                 "level": 73,
@@ -37690,7 +38563,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1147,
-                "sub_index": 1147
+                "sub_index": 1147,
+                "tr_id": 231
             }
         },
         "Palossand": {
@@ -37706,7 +38580,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Rindo Berry",
                 "index": 628,
-                "sub_index": 628
+                "sub_index": 628,
+                "tr_id": 104
             },
             "Lvl 83 Hideout Team Aqua Grunt #4 ": {
                 "level": 83,
@@ -37720,7 +38595,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Bright Powder",
                 "index": 1601,
-                "sub_index": 1601
+                "sub_index": 1601,
+                "tr_id": 79
             }
         },
         "Meganium": {
@@ -37736,7 +38612,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Custap Berry",
                 "index": 630,
-                "sub_index": 630
+                "sub_index": 630,
+                "tr_id": 58
             },
             "Lvl 72 Aroma Lady Rose": {
                 "level": 72,
@@ -37750,7 +38627,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Meganiumite",
                 "index": 1171,
-                "sub_index": 1171
+                "sub_index": 1171,
+                "tr_id": 193
             }
         },
         "Wyrdeer": {
@@ -37766,7 +38644,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Tanga Berry",
                 "index": 631,
-                "sub_index": 631
+                "sub_index": 631,
+                "tr_id": 58
             },
             "Lvl 70 Sr.And Jr.Tyra&Ivy": {
                 "level": 70,
@@ -37780,7 +38659,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Throat Spray",
                 "index": 1016,
-                "sub_index": 1016
+                "sub_index": 1016,
+                "tr_id": 232
             },
             "Lvl 78 Lilycove Rival Chespin": {
                 "level": 78,
@@ -37794,7 +38674,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 1426,
-                "sub_index": 1426
+                "sub_index": 1426,
+                "tr_id": 161
             },
             "Lvl 86 Pokémaniac Symes & Bug Maniac Connor": {
                 "level": 86,
@@ -37808,7 +38689,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Covert Cloak",
                 "index": 1658,
-                "sub_index": 1658
+                "sub_index": 1658,
+                "tr_id": 75
             }
         },
         "Zebstrika": {
@@ -37824,7 +38706,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Electric Gem",
                 "index": 632,
-                "sub_index": 632
+                "sub_index": 632,
+                "tr_id": 58
             }
         },
         "Basculin": {
@@ -37840,7 +38723,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Band",
                 "index": 634,
-                "sub_index": 634
+                "sub_index": 634,
+                "tr_id": 233
             }
         },
         "Seviper": {
@@ -37856,7 +38740,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Expert Belt",
                 "index": 635,
-                "sub_index": 635
+                "sub_index": 635,
+                "tr_id": 233
             },
             "Lvl 99 Battle Queen Lucy1 ": {
                 "level": 99,
@@ -37870,7 +38755,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Shuca Berry",
                 "index": 2094,
-                "sub_index": 2094
+                "sub_index": 2094,
+                "tr_id": 234
             },
             "Lvl 99 Battle Queen Lucy2 ": {
                 "level": 99,
@@ -37884,7 +38770,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Payapa Berry",
                 "index": 2101,
-                "sub_index": 2101
+                "sub_index": 2101,
+                "tr_id": 235
             }
         },
         "Liepard": {
@@ -37900,7 +38787,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lum Berry",
                 "index": 636,
-                "sub_index": 636
+                "sub_index": 636,
+                "tr_id": 233
             }
         },
         "Uxie": {
@@ -37916,7 +38804,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 637,
-                "sub_index": 637
+                "sub_index": 637,
+                "tr_id": 236
             }
         },
         "Pangoro": {
@@ -37932,7 +38821,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Quick Claw",
                 "index": 638,
-                "sub_index": 638
+                "sub_index": 638,
+                "tr_id": 236
             },
             "Lvl 76 Bridge Rival Chespin": {
                 "level": 76,
@@ -37946,7 +38836,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Enigma Berry",
                 "index": 1279,
-                "sub_index": 1279
+                "sub_index": 1279,
+                "tr_id": 160
             }
         },
         "Tentacruel": {
@@ -37962,7 +38853,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "White Herb",
                 "index": 639,
-                "sub_index": 639
+                "sub_index": 639,
+                "tr_id": 236
             },
             "Lvl 73 Ranger Nak": {
                 "level": 73,
@@ -37976,7 +38868,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Black Sludge",
                 "index": 1218,
-                "sub_index": 1218
+                "sub_index": 1218,
+                "tr_id": 200
             },
             "Lvl 82 Team Aqua Grunt Soph": {
                 "level": 82,
@@ -37990,7 +38883,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 1581,
-                "sub_index": 1581
+                "sub_index": 1581,
+                "tr_id": 99
             },
             "Lvl 91 Seafloor Team Aqua Grunt #3 ": {
                 "level": 91,
@@ -38004,7 +38898,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Metronome",
                 "index": 1786,
-                "sub_index": 1786
+                "sub_index": 1786,
+                "tr_id": 76
             }
         },
         "Banette": {
@@ -38020,7 +38915,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Banettite",
                 "index": 640,
-                "sub_index": 640
+                "sub_index": 640,
+                "tr_id": 236
             },
             "Lvl 80 Hex Maniac Valerie": {
                 "level": 80,
@@ -38034,7 +38930,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Ghost Gem",
                 "index": 1469,
-                "sub_index": 1469
+                "sub_index": 1469,
+                "tr_id": 95
             }
         },
         "Banette-Mega": {
@@ -38050,7 +38947,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Banettite",
                 "index": 641,
-                "sub_index": 641
+                "sub_index": 641,
+                "tr_id": 236
             }
         },
         "Cryogonal": {
@@ -38066,7 +38964,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Light Clay",
                 "index": 642,
-                "sub_index": 642
+                "sub_index": 642,
+                "tr_id": 237
             }
         },
         "Slowking": {
@@ -38082,7 +38981,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 643,
-                "sub_index": 643
+                "sub_index": 643,
+                "tr_id": 237
             },
             "Lvl 71 Cooltrainer Axle": {
                 "level": 71,
@@ -38096,7 +38996,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Charcoal",
                 "index": 1106,
-                "sub_index": 1106
+                "sub_index": 1106,
+                "tr_id": 238
             }
         },
         "Avalugg-Hisui": {
@@ -38112,7 +39013,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Red Card",
                 "index": 644,
-                "sub_index": 644
+                "sub_index": 644,
+                "tr_id": 237
             }
         },
         "Crabominable": {
@@ -38126,7 +39028,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 645,
-                "sub_index": 645
+                "sub_index": 645,
+                "tr_id": 237
             },
             "Lvl 70 Ninja Boy Lung": {
                 "level": 70,
@@ -38140,7 +39043,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Crabominite",
                 "index": 972,
-                "sub_index": 972
+                "sub_index": 972,
+                "tr_id": 239
             },
             "Lvl 73 Sailor Duncan": {
                 "level": 73,
@@ -38162,7 +39066,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1139,
-                "sub_index": 1139
+                "sub_index": 1139,
+                "tr_id": 240
             }
         },
         "Abomasnow": {
@@ -38178,7 +39083,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Occa Berry",
                 "index": 646,
-                "sub_index": 646
+                "sub_index": 646,
+                "tr_id": 241
             },
             "Lvl 71 Picnicker Frieren": {
                 "level": 71,
@@ -38192,7 +39098,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Abomasite",
                 "index": 1013,
-                "sub_index": 1013
+                "sub_index": 1013,
+                "tr_id": 242
             }
         },
         "Sandslash-Alola": {
@@ -38208,7 +39115,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Loaded Dice",
                 "index": 647,
-                "sub_index": 647
+                "sub_index": 647,
+                "tr_id": 241
             },
             "Lvl 87 Bird Keeper Halo & Ranger Jmash": {
                 "level": 87,
@@ -38222,7 +39130,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Jaboca Berry",
                 "index": 1747,
-                "sub_index": 1747
+                "sub_index": 1747,
+                "tr_id": 243
             }
         },
         "Reuniclus": {
@@ -38238,7 +39147,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Psychic Gem",
                 "index": 648,
-                "sub_index": 648
+                "sub_index": 648,
+                "tr_id": 241
             },
             "Lvl 73 Sailor Duncan": {
                 "level": 73,
@@ -38260,7 +39170,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1140,
-                "sub_index": 1140
+                "sub_index": 1140,
+                "tr_id": 240
             }
         },
         "Dewgong": {
@@ -38276,7 +39187,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 649,
-                "sub_index": 649
+                "sub_index": 649,
+                "tr_id": 241
             },
             "Lvl 75 Institute Team Aqua Grunt #4 ": {
                 "level": 75,
@@ -38290,7 +39202,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1257,
-                "sub_index": 1257
+                "sub_index": 1257,
+                "tr_id": 108
             }
         },
         "Altaria": {
@@ -38306,7 +39219,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 650,
-                "sub_index": 650
+                "sub_index": 650,
+                "tr_id": 241
             },
             "Lvl 78 Leader Winona1 ": {
                 "level": 78,
@@ -38320,7 +39234,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Altarianite",
                 "index": 1361,
-                "sub_index": 1361
+                "sub_index": 1361,
+                "tr_id": 134
             },
             "Lvl 78 Leader Winona2 ": {
                 "level": 78,
@@ -38334,7 +39249,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Altarianite",
                 "index": 1368,
-                "sub_index": 1368
+                "sub_index": 1368,
+                "tr_id": 121
             }
         },
         "Froslass": {
@@ -38350,7 +39266,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Salac Berry",
                 "index": 651,
-                "sub_index": 651
+                "sub_index": 651,
+                "tr_id": 24
             },
             "Lvl 79 Pokemaniac Mark": {
                 "level": 79,
@@ -38364,7 +39281,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Froslassite",
                 "index": 1474,
-                "sub_index": 1474
+                "sub_index": 1474,
+                "tr_id": 27
             },
             "Lvl 86 Space Center Team Magma Grunt #4 ": {
                 "level": 86,
@@ -38378,7 +39296,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eject Button",
                 "index": 1717,
-                "sub_index": 1717
+                "sub_index": 1717,
+                "tr_id": 209
             }
         },
         "Alcremie": {
@@ -38394,7 +39313,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Safety Goggles",
                 "index": 653,
-                "sub_index": 653
+                "sub_index": 653,
+                "tr_id": 24
             },
             "Lvl 86 Space Center Team Magma Grunt #1 ": {
                 "level": 86,
@@ -38408,7 +39328,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Focus Band",
                 "index": 1701,
-                "sub_index": 1701
+                "sub_index": 1701,
+                "tr_id": 244
             }
         },
         "Walrein": {
@@ -38424,7 +39345,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 654,
-                "sub_index": 654
+                "sub_index": 654,
+                "tr_id": 24
             }
         },
         "Beartic": {
@@ -38440,7 +39362,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Assault Vest",
                 "index": 655,
-                "sub_index": 655
+                "sub_index": 655,
+                "tr_id": 24
             }
         },
         "Articuno": {
@@ -38456,7 +39379,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Light Clay",
                 "index": 656,
-                "sub_index": 656
+                "sub_index": 656,
+                "tr_id": 245
             },
             "Lvl 100 Frontier Head Noland": {
                 "level": 100,
@@ -38470,7 +39394,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Heavy-Duty Boots",
                 "index": 2141,
-                "sub_index": 2141
+                "sub_index": 2141,
+                "tr_id": 112
             }
         },
         "Arctovish": {
@@ -38486,7 +39411,8 @@ backup_data = {
                 "nature": "Rash",
                 "item": "Heavy-Duty Boots",
                 "index": 657,
-                "sub_index": 657
+                "sub_index": 657,
+                "tr_id": 245
             },
             "Lvl 84 Swimmer Webe & Swimmer D.K": {
                 "level": 84,
@@ -38500,7 +39426,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Light Clay",
                 "index": 1626,
-                "sub_index": 1626
+                "sub_index": 1626,
+                "tr_id": 246
             },
             "Lvl 99 Ex Elite Four Glacia2 ": {
                 "level": 99,
@@ -38514,7 +39441,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mystic Water",
                 "index": 2028,
-                "sub_index": 2028
+                "sub_index": 2028,
+                "tr_id": 247
             }
         },
         "Piloswine": {
@@ -38530,7 +39458,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eviolite",
                 "index": 658,
-                "sub_index": 658
+                "sub_index": 658,
+                "tr_id": 245
             }
         },
         "Calyrex": {
@@ -38546,7 +39475,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Safety Goggles",
                 "index": 659,
-                "sub_index": 659
+                "sub_index": 659,
+                "tr_id": 245
             }
         },
         "Kommo-o": {
@@ -38562,7 +39492,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Lum Berry",
                 "index": 660,
-                "sub_index": 660
+                "sub_index": 660,
+                "tr_id": 245
             },
             "Lvl 70 Hiker Berni": {
                 "level": 70,
@@ -38576,7 +39507,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Throat Spray",
                 "index": 1070,
-                "sub_index": 1070
+                "sub_index": 1070,
+                "tr_id": 248
             },
             "Lvl 99 Ex Elite Four Glacia2 ": {
                 "level": 99,
@@ -38590,7 +39522,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Sitrus Berry",
                 "index": 2029,
-                "sub_index": 2029
+                "sub_index": 2029,
+                "tr_id": 247
             }
         },
         "Glalie": {
@@ -38606,7 +39539,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Glalitite",
                 "index": 661,
-                "sub_index": 661
+                "sub_index": 661,
+                "tr_id": 245
             },
             "Lvl 89 Seafloor Team Aqua Grunt #4 ": {
                 "level": 89,
@@ -38620,7 +39554,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 1789,
-                "sub_index": 1789
+                "sub_index": 1789,
+                "tr_id": 216
             },
             "Lvl 99 Ex Elite Four Glacia2 ": {
                 "level": 99,
@@ -38634,7 +39569,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Glalitite",
                 "index": 2024,
-                "sub_index": 2024
+                "sub_index": 2024,
+                "tr_id": 247
             }
         },
         "Glalie-Mega": {
@@ -38650,7 +39586,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Glalitite",
                 "index": 662,
-                "sub_index": 662
+                "sub_index": 662,
+                "tr_id": 245
             },
             "Lvl 99 Ex Elite Four Glacia2 ": {
                 "level": 99,
@@ -38664,7 +39601,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Glalitite",
                 "index": 2025,
-                "sub_index": 2025
+                "sub_index": 2025,
+                "tr_id": 247
             }
         },
         "Lycanroc-Midnight": {
@@ -38680,7 +39618,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 663,
-                "sub_index": 663
+                "sub_index": 663,
+                "tr_id": 194
             },
             "Lvl 79 Breeder Gabrielle": {
                 "level": 79,
@@ -38694,7 +39633,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mental Herb",
                 "index": 1478,
-                "sub_index": 1478
+                "sub_index": 1478,
+                "tr_id": 199
             }
         },
         "Marowak-Alola": {
@@ -38710,7 +39650,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Thick Club",
                 "index": 665,
-                "sub_index": 665
+                "sub_index": 665,
+                "tr_id": 194
             },
             "Lvl 71 Cooltrainer Axle": {
                 "level": 71,
@@ -38724,7 +39665,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Thick Club",
                 "index": 1105,
-                "sub_index": 1105
+                "sub_index": 1105,
+                "tr_id": 238
             },
             "Lvl 80 Hideout Team Magma Grunt #10 ": {
                 "level": 80,
@@ -38738,7 +39680,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Thick Club",
                 "index": 1556,
-                "sub_index": 1556
+                "sub_index": 1556,
+                "tr_id": 67
             },
             "Lvl 86 Psychic Virgil & Psychic Nate": {
                 "level": 86,
@@ -38760,7 +39703,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1666,
-                "sub_index": 1666
+                "sub_index": 1666,
+                "tr_id": 249
             }
         },
         "Ampharos": {
@@ -38776,7 +39720,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Blunder Policy",
                 "index": 666,
-                "sub_index": 666
+                "sub_index": 666,
+                "tr_id": 194
             },
             "Lvl 65 Pokéfan Miguel": {
                 "level": 65,
@@ -38790,7 +39735,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Ampharosite",
                 "index": 864,
-                "sub_index": 864
+                "sub_index": 864,
+                "tr_id": 115
             },
             "Lvl 95 Expert Makayla": {
                 "level": 95,
@@ -38804,7 +39750,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Ampharosite",
                 "index": 1886,
-                "sub_index": 1886
+                "sub_index": 1886,
+                "tr_id": 36
             }
         },
         "Gourgeist-Small": {
@@ -38820,7 +39767,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 667,
-                "sub_index": 667
+                "sub_index": 667,
+                "tr_id": 250
             },
             "Lvl 79 Hex Maniac Tasha": {
                 "level": 79,
@@ -38834,7 +39782,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Colbur Berry",
                 "index": 1464,
-                "sub_index": 1464
+                "sub_index": 1464,
+                "tr_id": 251
             }
         },
         "Krookodile": {
@@ -38850,7 +39799,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Dark Gem",
                 "index": 668,
-                "sub_index": 668
+                "sub_index": 668,
+                "tr_id": 250
             },
             "Lvl 71 Hiker Berni": {
                 "level": 71,
@@ -38864,7 +39814,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rocky Helmet",
                 "index": 1067,
-                "sub_index": 1067
+                "sub_index": 1067,
+                "tr_id": 248
             },
             "Lvl 94 Triathlete Talia": {
                 "level": 94,
@@ -38878,7 +39829,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 1863,
-                "sub_index": 1863
+                "sub_index": 1863,
+                "tr_id": 222
             }
         },
         "Hatterene": {
@@ -38894,7 +39846,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Custap Berry",
                 "index": 669,
-                "sub_index": 669
+                "sub_index": 669,
+                "tr_id": 250
             },
             "Lvl 76 Ninja Boy Hideo": {
                 "level": 76,
@@ -38916,7 +39869,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1317,
-                "sub_index": 1317
+                "sub_index": 1317,
+                "tr_id": 78
             },
             "Lvl 80 Pyre Team Aqua Grunt #2 ": {
                 "level": 80,
@@ -38930,7 +39884,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Quick Claw",
                 "index": 1495,
-                "sub_index": 1495
+                "sub_index": 1495,
+                "tr_id": 178
             },
             "Lvl 85 Psychic Virgil & Psychic Nate": {
                 "level": 85,
@@ -38952,7 +39907,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1661,
-                "sub_index": 1661
+                "sub_index": 1661,
+                "tr_id": 249
             }
         },
         "Fearow": {
@@ -38966,7 +39922,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Scope Lens",
                 "index": 670,
-                "sub_index": 670
+                "sub_index": 670,
+                "tr_id": 250
             }
         },
         "Kecleon": {
@@ -38982,7 +39939,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Focus Sash",
                 "index": 671,
-                "sub_index": 671
+                "sub_index": 671,
+                "tr_id": 150
             },
             "Lvl 80 Rogue Kecleon": {
                 "level": 80,
@@ -38996,7 +39954,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "None",
                 "index": 1370,
-                "sub_index": 1370
+                "sub_index": 1370,
+                "tr_id": 252
             },
             "Lvl 78 Ninja Boy Alex": {
                 "level": 78,
@@ -39010,7 +39969,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Rocky Helmet",
                 "index": 1382,
-                "sub_index": 1382
+                "sub_index": 1382,
+                "tr_id": 167
             },
             "Lvl 80 Pyre Team Aqua Grunt #5 ": {
                 "level": 80,
@@ -39024,7 +39984,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Rocky Helmet",
                 "index": 1509,
-                "sub_index": 1509
+                "sub_index": 1509,
+                "tr_id": 133
             }
         },
         "Jynx": {
@@ -39040,7 +40001,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Clear Amulet",
                 "index": 672,
-                "sub_index": 672
+                "sub_index": 672,
+                "tr_id": 150
             },
             "Lvl 95 Beauty Bridget & Lady Brianna": {
                 "level": 95,
@@ -39054,7 +40016,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1917,
-                "sub_index": 1917
+                "sub_index": 1917,
+                "tr_id": 253
             }
         },
         "Chimecho-Mega": {
@@ -39070,7 +40033,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Chimechite",
                 "index": 674,
-                "sub_index": 674
+                "sub_index": 674,
+                "tr_id": 150
             }
         },
         "Grumpig": {
@@ -39086,7 +40050,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Colbur Berry",
                 "index": 675,
-                "sub_index": 675
+                "sub_index": 675,
+                "tr_id": 150
             },
             "Lvl 79 Psychic William": {
                 "level": 79,
@@ -39100,7 +40065,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Starf Berry",
                 "index": 1461,
-                "sub_index": 1461
+                "sub_index": 1461,
+                "tr_id": 226
             }
         },
         "Beheeyem": {
@@ -39116,7 +40082,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Power Herb",
                 "index": 676,
-                "sub_index": 676
+                "sub_index": 676,
+                "tr_id": 150
             },
             "Lvl 64 Camper Charlie": {
                 "level": 64,
@@ -39130,7 +40097,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Life Orb",
                 "index": 851,
-                "sub_index": 851
+                "sub_index": 851,
+                "tr_id": 89
             },
             "Lvl 79 Hex Maniac Valerie": {
                 "level": 79,
@@ -39144,7 +40112,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Life Orb",
                 "index": 1471,
-                "sub_index": 1471
+                "sub_index": 1471,
+                "tr_id": 95
             }
         },
         "Araquanid": {
@@ -39160,7 +40129,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Coba Berry",
                 "index": 677,
-                "sub_index": 677
+                "sub_index": 677,
+                "tr_id": 254
             },
             "Lvl 73 Bug Maniac Brent": {
                 "level": 73,
@@ -39174,7 +40144,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Coba Berry",
                 "index": 1191,
-                "sub_index": 1191
+                "sub_index": 1191,
+                "tr_id": 96
             },
             "Lvl 93 Swimmer Kara": {
                 "level": 93,
@@ -39188,7 +40159,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 1868,
-                "sub_index": 1868
+                "sub_index": 1868,
+                "tr_id": 255
             }
         },
         "Lurantis": {
@@ -39204,7 +40176,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Iapapa Berry",
                 "index": 678,
-                "sub_index": 678
+                "sub_index": 678,
+                "tr_id": 254
             }
         },
         "Scyther": {
@@ -39220,7 +40193,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Eviolite",
                 "index": 679,
-                "sub_index": 679
+                "sub_index": 679,
+                "tr_id": 254
             }
         },
         "Crustle": {
@@ -39236,7 +40210,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "White Herb",
                 "index": 680,
-                "sub_index": 680
+                "sub_index": 680,
+                "tr_id": 254
             },
             "Lvl 96 Team Rocket Grunt #3 ": {
                 "level": 96,
@@ -39250,7 +40225,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Quick Claw",
                 "index": 1973,
-                "sub_index": 1973
+                "sub_index": 1973,
+                "tr_id": 38
             }
         },
         "Volbeat": {
@@ -39266,7 +40242,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 681,
-                "sub_index": 681
+                "sub_index": 681,
+                "tr_id": 256
             }
         },
         "Swoobat": {
@@ -39282,7 +40259,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wise Glasses",
                 "index": 682,
-                "sub_index": 682
+                "sub_index": 682,
+                "tr_id": 256
             },
             "Lvl 86 Space Center Team Magma Grunt #2 ": {
                 "level": 86,
@@ -39296,7 +40274,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Kee Berry",
                 "index": 1706,
-                "sub_index": 1706
+                "sub_index": 1706,
+                "tr_id": 210
             }
         },
         "Illumise": {
@@ -39312,7 +40291,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Light Clay",
                 "index": 683,
-                "sub_index": 683
+                "sub_index": 683,
+                "tr_id": 256
             }
         },
         "Persian-Alola": {
@@ -39328,7 +40308,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Dark Gem",
                 "index": 684,
-                "sub_index": 684
+                "sub_index": 684,
+                "tr_id": 256
             },
             "Lvl 80 Psychic William": {
                 "level": 80,
@@ -39342,7 +40323,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Misty Seed",
                 "index": 1462,
-                "sub_index": 1462
+                "sub_index": 1462,
+                "tr_id": 226
             }
         },
         "Boltund": {
@@ -39358,7 +40340,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lum Berry",
                 "index": 685,
-                "sub_index": 685
+                "sub_index": 685,
+                "tr_id": 257
             }
         },
         "Zangoose": {
@@ -39374,7 +40357,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Toxic Orb",
                 "index": 686,
-                "sub_index": 686
+                "sub_index": 686,
+                "tr_id": 257
             },
             "Lvl 96 Team Rocket Grunt #3 ": {
                 "level": 96,
@@ -39388,7 +40372,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Bright Powder",
                 "index": 1971,
-                "sub_index": 1971
+                "sub_index": 1971,
+                "tr_id": 38
             }
         },
         "Furfrou": {
@@ -39404,7 +40389,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 687,
-                "sub_index": 687
+                "sub_index": 687,
+                "tr_id": 257
             }
         },
         "Arbok": {
@@ -39420,7 +40406,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Black Sludge",
                 "index": 688,
-                "sub_index": 688
+                "sub_index": 688,
+                "tr_id": 257
             },
             "Lvl 93 Triathlete Barron & Stephin": {
                 "level": 93,
@@ -39434,7 +40421,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 1839,
-                "sub_index": 1839
+                "sub_index": 1839,
+                "tr_id": 92
             }
         },
         "Houndstone": {
@@ -39450,7 +40438,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Eject Button",
                 "index": 689,
-                "sub_index": 689
+                "sub_index": 689,
+                "tr_id": 257
             },
             "Lvl 84 Team Aqua Grunt Steve2 ": {
                 "level": 84,
@@ -39464,7 +40453,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ability Shield",
                 "index": 1614,
-                "sub_index": 1614
+                "sub_index": 1614,
+                "tr_id": 127
             },
             "Lvl 92 Team Aqua Grunt Steve3 ": {
                 "level": 92,
@@ -39478,7 +40468,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 1812,
-                "sub_index": 1812
+                "sub_index": 1812,
+                "tr_id": 223
             }
         },
         "Oricorio-Sensu": {
@@ -39494,7 +40485,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Charti Berry",
                 "index": 690,
-                "sub_index": 690
+                "sub_index": 690,
+                "tr_id": 258
             }
         },
         "Oricorio-Pom-Pom": {
@@ -39510,7 +40502,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Covert Cloak",
                 "index": 691,
-                "sub_index": 691
+                "sub_index": 691,
+                "tr_id": 258
             }
         },
         "Bellossom": {
@@ -39534,7 +40527,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 692,
-                "sub_index": 692
+                "sub_index": 692,
+                "tr_id": 258
             },
             "Lvl 87 Bird Keeper Halo & Ranger Jmash": {
                 "level": 87,
@@ -39548,7 +40542,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "White Herb",
                 "index": 1746,
-                "sub_index": 1746
+                "sub_index": 1746,
+                "tr_id": 243
             }
         },
         "Oricorio": {
@@ -39564,7 +40559,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 693,
-                "sub_index": 693
+                "sub_index": 693,
+                "tr_id": 258
             }
         },
         "Oricorio-Pa'u": {
@@ -39580,7 +40576,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Psychic Gem",
                 "index": 694,
-                "sub_index": 694
+                "sub_index": 694,
+                "tr_id": 258
             }
         },
         "Kangaskhan": {
@@ -39596,7 +40593,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Chople Berry",
                 "index": 695,
-                "sub_index": 695
+                "sub_index": 695,
+                "tr_id": 259
             },
             "Lvl 66 Leader Norman": {
                 "level": 66,
@@ -39610,7 +40608,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Kangaskhanite",
                 "index": 909,
-                "sub_index": 909
+                "sub_index": 909,
+                "tr_id": 260
             }
         },
         "Grapploct": {
@@ -39626,7 +40625,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Black Belt",
                 "index": 696,
-                "sub_index": 696
+                "sub_index": 696,
+                "tr_id": 259
             },
             "Lvl 66 Pokémaniac Shinji |Inverse Room|": {
                 "level": 66,
@@ -39640,7 +40640,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Adrenaline Orb",
                 "index": 901,
-                "sub_index": 901
+                "sub_index": 901,
+                "tr_id": 261
             },
             "Lvl 73 Fisherman Noxie": {
                 "level": 73,
@@ -39654,7 +40655,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 1201,
-                "sub_index": 1201
+                "sub_index": 1201,
+                "tr_id": 262
             },
             "Lvl 95 Cooltrainer Bazzo": {
                 "level": 95,
@@ -39668,7 +40670,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Loaded Dice",
                 "index": 1890,
-                "sub_index": 1890
+                "sub_index": 1890,
+                "tr_id": 72
             }
         },
         "Granbull": {
@@ -39684,7 +40687,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Toxic Orb",
                 "index": 697,
-                "sub_index": 697
+                "sub_index": 697,
+                "tr_id": 259
             },
             "Lvl 90 Team Aqua Grunt Gren": {
                 "level": 90,
@@ -39698,7 +40702,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Quick Claw",
                 "index": 1797,
-                "sub_index": 1797
+                "sub_index": 1797,
+                "tr_id": 179
             }
         },
         "Blaziken": {
@@ -39714,7 +40719,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "White Herb",
                 "index": 698,
-                "sub_index": 698
+                "sub_index": 698,
+                "tr_id": 259
             },
             "Lvl 78 Parasol Lady Angelica": {
                 "level": 78,
@@ -39728,7 +40734,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "White Herb",
                 "index": 1379,
-                "sub_index": 1379
+                "sub_index": 1379,
+                "tr_id": 132
             },
             "Lvl 87 Space Center Team Magma Grunt #1 ": {
                 "level": 87,
@@ -39742,7 +40749,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Scope Lens",
                 "index": 1699,
-                "sub_index": 1699
+                "sub_index": 1699,
+                "tr_id": 244
             },
             "Lvl 94 Triathlete Rydia": {
                 "level": 94,
@@ -39756,7 +40764,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Blazikenite",
                 "index": 1859,
-                "sub_index": 1859
+                "sub_index": 1859,
+                "tr_id": 120
             },
             "Lvl 98 Youngster Des": {
                 "level": 98,
@@ -39770,7 +40779,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Blazikenite",
                 "index": 2005,
-                "sub_index": 2005
+                "sub_index": 2005,
+                "tr_id": 157
             }
         },
         "Perrserker": {
@@ -39786,7 +40796,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Fighting Gem",
                 "index": 699,
-                "sub_index": 699
+                "sub_index": 699,
+                "tr_id": 259
             },
             "Lvl 86 Swimmer Byonemil": {
                 "level": 86,
@@ -39808,7 +40819,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1632,
-                "sub_index": 1632
+                "sub_index": 1632,
+                "tr_id": 116
             }
         },
         "Electivire": {
@@ -39824,7 +40836,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 701,
-                "sub_index": 701
+                "sub_index": 701,
+                "tr_id": 263
             },
             "Lvl 80 Hideout Magma Grunt #6 & #7 ": {
                 "level": 80,
@@ -39838,7 +40851,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Air Balloon",
                 "index": 1544,
-                "sub_index": 1544
+                "sub_index": 1544,
+                "tr_id": 264
             }
         },
         "Octillery": {
@@ -39854,7 +40868,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "White Herb",
                 "index": 702,
-                "sub_index": 702
+                "sub_index": 702,
+                "tr_id": 263
             },
             "Lvl 72 Kindler Nathan": {
                 "level": 72,
@@ -39868,7 +40883,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Focus Sash",
                 "index": 1091,
-                "sub_index": 1091
+                "sub_index": 1091,
+                "tr_id": 176
             },
             "Lvl 80 Hideout Team Magma Grunt Zeldest": {
                 "level": 80,
@@ -39882,7 +40898,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Quick Claw",
                 "index": 1517,
-                "sub_index": 1517
+                "sub_index": 1517,
+                "tr_id": 162
             },
             "Lvl 94 Swimmer Susie": {
                 "level": 94,
@@ -39896,7 +40913,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Water Gem",
                 "index": 1872,
-                "sub_index": 1872
+                "sub_index": 1872,
+                "tr_id": 265
             }
         },
         "Iron Hands": {
@@ -39912,7 +40930,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Punching Glove",
                 "index": 703,
-                "sub_index": 703
+                "sub_index": 703,
+                "tr_id": 263
             },
             "Lvl 75 Cooltrainer Greg": {
                 "level": 75,
@@ -39926,7 +40945,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 1308,
-                "sub_index": 1308
+                "sub_index": 1308,
+                "tr_id": 266
             },
             "Lvl 100 Elite Four Rival Doubles": {
                 "level": 100,
@@ -39940,7 +40960,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 2181,
-                "sub_index": 2181
+                "sub_index": 2181,
+                "tr_id": 172
             }
         },
         "Rotom": {
@@ -39956,7 +40977,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Expert Belt",
                 "index": 704,
-                "sub_index": 704
+                "sub_index": 704,
+                "tr_id": 263
             }
         },
         "Electrode": {
@@ -39969,7 +40991,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 705,
-                "sub_index": 705
+                "sub_index": 705,
+                "tr_id": 119
             },
             "Lvl 69 Sr.And Jr.Tyra&Ivy": {
                 "level": 69,
@@ -39983,7 +41006,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wise Glasses",
                 "index": 1018,
-                "sub_index": 1018
+                "sub_index": 1018,
+                "tr_id": 232
             }
         },
         "Rabsca": {
@@ -39999,7 +41023,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leppa Berry",
                 "index": 706,
-                "sub_index": 706
+                "sub_index": 706,
+                "tr_id": 119
             },
             "Lvl 73 Bug Maniac Brent": {
                 "level": 73,
@@ -40013,7 +41038,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Heavy-Duty Boots",
                 "index": 1194,
-                "sub_index": 1194
+                "sub_index": 1194,
+                "tr_id": 96
             },
             "Lvl 77 Cooltrainer Cristin": {
                 "level": 77,
@@ -40027,7 +41053,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leppa Berry",
                 "index": 1419,
-                "sub_index": 1419
+                "sub_index": 1419,
+                "tr_id": 267
             },
             "Lvl 81 Hideout Team Magma Grunt #9 ": {
                 "level": 81,
@@ -40041,7 +41068,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Quick Claw",
                 "index": 1552,
-                "sub_index": 1552
+                "sub_index": 1552,
+                "tr_id": 126
             }
         },
         "Galvantula": {
@@ -40057,7 +41085,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 709,
-                "sub_index": 709
+                "sub_index": 709,
+                "tr_id": 63
             }
         },
         "Rotom-Frost": {
@@ -40073,7 +41102,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Blunder Policy",
                 "index": 710,
-                "sub_index": 710
+                "sub_index": 710,
+                "tr_id": 63
             }
         },
         "Kilowattrel": {
@@ -40089,7 +41119,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Cell Battery",
                 "index": 712,
-                "sub_index": 712
+                "sub_index": 712,
+                "tr_id": 63
             },
             "Lvl 74 Bird Keeper Phil & Parasol Lady Rachel": {
                 "level": 74,
@@ -40103,7 +41134,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1220,
-                "sub_index": 1220
+                "sub_index": 1220,
+                "tr_id": 268
             },
             "Lvl 77 Camper Flint & Bird Keeper Edwardo": {
                 "level": 77,
@@ -40117,7 +41149,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Covert Cloak",
                 "index": 1329,
-                "sub_index": 1329
+                "sub_index": 1329,
+                "tr_id": 269
             },
             "Lvl 95 Pokéfan Bobertclef": {
                 "level": 95,
@@ -40131,7 +41164,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1931,
-                "sub_index": 1931
+                "sub_index": 1931,
+                "tr_id": 57
             }
         },
         "Eelektross": {
@@ -40147,7 +41181,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 713,
-                "sub_index": 713
+                "sub_index": 713,
+                "tr_id": 63
             },
             "Lvl 64 Fisherman Andrew": {
                 "level": 64,
@@ -40161,7 +41196,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eelektrossite",
                 "index": 810,
-                "sub_index": 810
+                "sub_index": 810,
+                "tr_id": 174
             }
         },
         "Plusle": {
@@ -40177,7 +41213,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Terrain Extender",
                 "index": 714,
-                "sub_index": 714
+                "sub_index": 714,
+                "tr_id": 270
             }
         },
         "Klinklang": {
@@ -40193,7 +41230,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Shuca Berry",
                 "index": 715,
-                "sub_index": 715
+                "sub_index": 715,
+                "tr_id": 270
             },
             "Lvl 96 Team Rocket Grunt #2 ": {
                 "level": 96,
@@ -40207,7 +41245,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Iapapa Berry",
                 "index": 1966,
-                "sub_index": 1966
+                "sub_index": 1966,
+                "tr_id": 68
             }
         },
         "Toxtricity": {
@@ -40231,7 +41270,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 716,
-                "sub_index": 716
+                "sub_index": 716,
+                "tr_id": 270
             }
         },
         "Minun": {
@@ -40247,7 +41287,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Air Balloon",
                 "index": 717,
-                "sub_index": 717
+                "sub_index": 717,
+                "tr_id": 270
             }
         },
         "Toxtricity-Low-Key": {
@@ -40263,7 +41304,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Throat Spray",
                 "index": 718,
-                "sub_index": 718
+                "sub_index": 718,
+                "tr_id": 270
             }
         },
         "Tapu Koko": {
@@ -40279,7 +41321,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Terrain Extender",
                 "index": 719,
-                "sub_index": 719
+                "sub_index": 719,
+                "tr_id": 271
             },
             "Lvl 99 Twins Ame&Yuki": {
                 "level": 99,
@@ -40293,7 +41336,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Absorb Bulb",
                 "index": 2017,
-                "sub_index": 2017
+                "sub_index": 2017,
+                "tr_id": 272
             }
         },
         "Sceptile": {
@@ -40309,7 +41353,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Sceptilite",
                 "index": 720,
-                "sub_index": 720
+                "sub_index": 720,
+                "tr_id": 271
             },
             "Lvl 74 Bug Catcher Kent": {
                 "level": 74,
@@ -40331,7 +41376,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1209,
-                "sub_index": 1209
+                "sub_index": 1209,
+                "tr_id": 273
             },
             "Lvl 78 Cooltrainer Melodic": {
                 "level": 78,
@@ -40345,7 +41391,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Sitrus Berry",
                 "index": 1387,
-                "sub_index": 1387
+                "sub_index": 1387,
+                "tr_id": 274
             },
             "Lvl 85 Psychic Preston & Psychic Maura": {
                 "level": 85,
@@ -40359,7 +41406,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eject Pack",
                 "index": 1651,
-                "sub_index": 1651
+                "sub_index": 1651,
+                "tr_id": 154
             },
             "Lvl 99 Pokémon Trainer Leaf2 ": {
                 "level": 99,
@@ -40373,7 +41421,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Sceptilite",
                 "index": 2013,
-                "sub_index": 2013
+                "sub_index": 2013,
+                "tr_id": 275
             },
             "Lvl 100 Elite Four Drake Doubles": {
                 "level": 100,
@@ -40387,7 +41436,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eject Pack",
                 "index": 2195,
-                "sub_index": 2195
+                "sub_index": 2195,
+                "tr_id": 128
             }
         },
         "Sceptile-Mega": {
@@ -40403,7 +41453,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Sceptilite",
                 "index": 721,
-                "sub_index": 721
+                "sub_index": 721,
+                "tr_id": 271
             },
             "Lvl 99 Pokémon Trainer Leaf2 ": {
                 "level": 99,
@@ -40417,7 +41468,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Sceptilite",
                 "index": 2014,
-                "sub_index": 2014
+                "sub_index": 2014,
+                "tr_id": 275
             }
         },
         "Emolga": {
@@ -40433,7 +41485,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Electric Seed",
                 "index": 722,
-                "sub_index": 722
+                "sub_index": 722,
+                "tr_id": 271
             },
             "Lvl 73 Cooltrainer Irie": {
                 "level": 73,
@@ -40447,7 +41500,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Focus Sash",
                 "index": 1152,
-                "sub_index": 1152
+                "sub_index": 1152,
+                "tr_id": 189
             }
         },
         "Arctozolt": {
@@ -40463,7 +41517,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Loaded Dice",
                 "index": 723,
-                "sub_index": 723
+                "sub_index": 723,
+                "tr_id": 271
             },
             "Lvl 75 Institute Team Aqua Grunt #2 ": {
                 "level": 75,
@@ -40477,7 +41532,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Quick Claw",
                 "index": 1251,
-                "sub_index": 1251
+                "sub_index": 1251,
+                "tr_id": 219
             },
             "Lvl 84 Swimmer Webe & Swimmer D.K": {
                 "level": 84,
@@ -40491,7 +41547,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Chople Berry",
                 "index": 1625,
-                "sub_index": 1625
+                "sub_index": 1625,
+                "tr_id": 246
             }
         },
         "Iron Thorns": {
@@ -40507,7 +41564,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 724,
-                "sub_index": 724
+                "sub_index": 724,
+                "tr_id": 271
             },
             "Lvl 76 Ninja Boy Hideo": {
                 "level": 76,
@@ -40529,7 +41587,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1318,
-                "sub_index": 1318
+                "sub_index": 1318,
+                "tr_id": 78
             }
         },
         "Manectric": {
@@ -40553,7 +41612,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 725,
-                "sub_index": 725
+                "sub_index": 725,
+                "tr_id": 271
             },
             "Lvl 72 Mt.Chimney Team Magma Elite Grunt": {
                 "level": 72,
@@ -40575,7 +41635,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1052,
-                "sub_index": 1052
+                "sub_index": 1052,
+                "tr_id": 42
             },
             "Lvl 81 Hideout Team Magma Grunt #10 ": {
                 "level": 81,
@@ -40597,7 +41658,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1558,
-                "sub_index": 1558
+                "sub_index": 1558,
+                "tr_id": 67
             },
             "Lvl 95 Beauty Bridget & Lady Brianna": {
                 "level": 95,
@@ -40619,7 +41681,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1913,
-                "sub_index": 1913
+                "sub_index": 1913,
+                "tr_id": 253
             }
         },
         "Rapidash": {
@@ -40635,7 +41698,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heat Rock",
                 "index": 726,
-                "sub_index": 726
+                "sub_index": 726,
+                "tr_id": 197
             },
             "Lvl 71 Dragon Tamer Jace": {
                 "level": 71,
@@ -40649,7 +41713,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heat Rock",
                 "index": 1100,
-                "sub_index": 1100
+                "sub_index": 1100,
+                "tr_id": 56
             },
             "Lvl 81 Hideout Team Magma Grunt #3 ": {
                 "level": 81,
@@ -40663,7 +41728,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "King's Rock",
                 "index": 1529,
-                "sub_index": 1529
+                "sub_index": 1529,
+                "tr_id": 230
             }
         },
         "Lilligant": {
@@ -40679,7 +41745,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Grass Gem",
                 "index": 727,
-                "sub_index": 727
+                "sub_index": 727,
+                "tr_id": 197
             }
         },
         "Torkoal": {
@@ -40695,7 +41762,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Heat Rock",
                 "index": 729,
-                "sub_index": 729
+                "sub_index": 729,
+                "tr_id": 276
             },
             "Lvl 72 Battle Girl Danielle & Kindler Cole": {
                 "level": 72,
@@ -40717,7 +41785,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1098,
-                "sub_index": 1098
+                "sub_index": 1098,
+                "tr_id": 159
             },
             "Lvl 73 Leader Flannery": {
                 "level": 73,
@@ -40731,7 +41800,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Heat Rock",
                 "index": 1116,
-                "sub_index": 1116
+                "sub_index": 1116,
+                "tr_id": 182
             },
             "Lvl 74 Cooltrainer Chape": {
                 "level": 74,
@@ -40745,7 +41815,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Mental Herb",
                 "index": 1239,
-                "sub_index": 1239
+                "sub_index": 1239,
+                "tr_id": 204
             },
             "Lvl 80 Hideout Team Magma Grunt #3 ": {
                 "level": 80,
@@ -40759,7 +41830,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Quick Claw",
                 "index": 1525,
-                "sub_index": 1525
+                "sub_index": 1525,
+                "tr_id": 230
             },
             "Lvl 96 Kindler Kos": {
                 "level": 96,
@@ -40773,7 +41845,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Air Balloon",
                 "index": 1996,
-                "sub_index": 1996
+                "sub_index": 1996,
+                "tr_id": 135
             }
         },
         "Exeggutor": {
@@ -40789,7 +41862,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 730,
-                "sub_index": 730
+                "sub_index": 730,
+                "tr_id": 276
             },
             "Lvl 92 Triathlete Allison": {
                 "level": 92,
@@ -40803,7 +41877,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Tanga Berry",
                 "index": 1829,
-                "sub_index": 1829
+                "sub_index": 1829,
+                "tr_id": 59
             }
         },
         "Centiskorch": {
@@ -40819,7 +41894,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 731,
-                "sub_index": 731
+                "sub_index": 731,
+                "tr_id": 276
             },
             "Lvl 81 Team Magma Admin Tabitha2 ": {
                 "level": 81,
@@ -40833,7 +41909,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Heavy-Duty Boots",
                 "index": 1570,
-                "sub_index": 1570
+                "sub_index": 1570,
+                "tr_id": 277
             }
         },
         "Togekiss": {
@@ -40849,7 +41926,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Scope Lens",
                 "index": 732,
-                "sub_index": 732
+                "sub_index": 732,
+                "tr_id": 276
             },
             "Lvl 64 Cooltrainer Parker |Crit Room|": {
                 "level": 64,
@@ -40863,7 +41941,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Scope Lens",
                 "index": 876,
-                "sub_index": 876
+                "sub_index": 876,
+                "tr_id": 278
             },
             "Lvl 77 Leader Winona2 ": {
                 "level": 77,
@@ -40877,7 +41956,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Kee Berry",
                 "index": 1365,
-                "sub_index": 1365
+                "sub_index": 1365,
+                "tr_id": 121
             },
             "Lvl 80 Team Magma Grunt Coffee": {
                 "level": 80,
@@ -40891,7 +41971,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Bug Gem",
                 "index": 1521,
-                "sub_index": 1521
+                "sub_index": 1521,
+                "tr_id": 279
             },
             "Lvl 83 Team Aqua Grunt Gian": {
                 "level": 83,
@@ -40905,7 +41986,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Bright Powder",
                 "index": 1591,
-                "sub_index": 1591
+                "sub_index": 1591,
+                "tr_id": 97
             },
             "Lvl 96 Expert Niklas": {
                 "level": 96,
@@ -40919,7 +42001,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Clear Amulet",
                 "index": 1992,
-                "sub_index": 1992
+                "sub_index": 1992,
+                "tr_id": 170
             }
         },
         "Nidoking": {
@@ -40935,7 +42018,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "King's Rock",
                 "index": 733,
-                "sub_index": 733
+                "sub_index": 733,
+                "tr_id": 280
             },
             "Lvl 71 Team Magma Admin Tabitha1 ": {
                 "level": 71,
@@ -40949,7 +42033,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Life Orb",
                 "index": 1061,
-                "sub_index": 1061
+                "sub_index": 1061,
+                "tr_id": 211
             },
             "Lvl 97 Kindler Kos": {
                 "level": 97,
@@ -40963,7 +42048,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 2002,
-                "sub_index": 2002
+                "sub_index": 2002,
+                "tr_id": 135
             }
         },
         "Rhydon": {
@@ -40979,7 +42065,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Bright Powder",
                 "index": 734,
-                "sub_index": 734
+                "sub_index": 734,
+                "tr_id": 280
             }
         },
         "Simisear": {
@@ -40995,7 +42082,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 735,
-                "sub_index": 735
+                "sub_index": 735,
+                "tr_id": 280
             },
             "Lvl 78 Cooltrainer Cristin": {
                 "level": 78,
@@ -41009,7 +42097,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Starf Berry",
                 "index": 1421,
-                "sub_index": 1421
+                "sub_index": 1421,
+                "tr_id": 267
             }
         },
         "Skuntank": {
@@ -41025,7 +42114,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Rowap Berry",
                 "index": 736,
-                "sub_index": 736
+                "sub_index": 736,
+                "tr_id": 281
             },
             "Lvl 80 Team Magma Grunt Grintoul": {
                 "level": 80,
@@ -41039,7 +42129,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Black Sludge",
                 "index": 1536,
-                "sub_index": 1536
+                "sub_index": 1536,
+                "tr_id": 87
             }
         },
         "Falinks": {
@@ -41055,7 +42146,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 737,
-                "sub_index": 737
+                "sub_index": 737,
+                "tr_id": 281
             },
             "Lvl 73 Rich Boy Milky": {
                 "level": 73,
@@ -41069,7 +42161,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Falinksite",
                 "index": 1136,
-                "sub_index": 1136
+                "sub_index": 1136,
+                "tr_id": 282
             }
         },
         "Charizard": {
@@ -41085,7 +42178,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 738,
-                "sub_index": 738
+                "sub_index": 738,
+                "tr_id": 281
             },
             "Lvl 76 Dragon Tamer Sora": {
                 "level": 76,
@@ -41099,7 +42193,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Charizardite Y",
                 "index": 1351,
-                "sub_index": 1351
+                "sub_index": 1351,
+                "tr_id": 82
             },
             "Lvl 81 Psychic Cedric": {
                 "level": 81,
@@ -41113,7 +42208,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Charizardite X",
                 "index": 1486,
-                "sub_index": 1486
+                "sub_index": 1486,
+                "tr_id": 283
             },
             "Lvl 82 Team Magma Leader Maxie2 ": {
                 "level": 82,
@@ -41127,7 +42223,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Charizardite Y",
                 "index": 1579,
-                "sub_index": 1579
+                "sub_index": 1579,
+                "tr_id": 284
             },
             "Lvl 91 Triathlete Allison": {
                 "level": 91,
@@ -41141,7 +42238,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Charizardite X",
                 "index": 1832,
-                "sub_index": 1832
+                "sub_index": 1832,
+                "tr_id": 59
             }
         },
         "Emboar": {
@@ -41157,7 +42255,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Quick Claw",
                 "index": 739,
-                "sub_index": 739
+                "sub_index": 739,
+                "tr_id": 281
             },
             "Lvl 63 Team Magma Grunt & Team Aqua Grunt": {
                 "level": 63,
@@ -41171,7 +42270,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Emboarite",
                 "index": 836,
-                "sub_index": 836
+                "sub_index": 836,
+                "tr_id": 285
             },
             "Lvl 86 Space Center Team Magma Grunt #2 ": {
                 "level": 86,
@@ -41185,7 +42285,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Quick Claw",
                 "index": 1707,
-                "sub_index": 1707
+                "sub_index": 1707,
+                "tr_id": 210
             }
         },
         "Heatmor": {
@@ -41201,7 +42302,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Salac Berry",
                 "index": 740,
-                "sub_index": 740
+                "sub_index": 740,
+                "tr_id": 138
             },
             "Lvl 95 Team Rocket Grunt #1 ": {
                 "level": 95,
@@ -41215,7 +42317,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Power Herb",
                 "index": 1957,
-                "sub_index": 1957
+                "sub_index": 1957,
+                "tr_id": 47
             }
         },
         "Nidoqueen": {
@@ -41231,7 +42334,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Ground Gem",
                 "index": 741,
-                "sub_index": 741
+                "sub_index": 741,
+                "tr_id": 138
             },
             "Lvl 75 Team Aqua Admin Shelly1 ": {
                 "level": 75,
@@ -41245,7 +42349,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1271,
-                "sub_index": 1271
+                "sub_index": 1271,
+                "tr_id": 220
             },
             "Lvl 78 Beauty Jessica": {
                 "level": 78,
@@ -41259,7 +42364,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1400,
-                "sub_index": 1400
+                "sub_index": 1400,
+                "tr_id": 286
             },
             "Lvl 95 Expert Ronald": {
                 "level": 95,
@@ -41273,7 +42379,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1881,
-                "sub_index": 1881
+                "sub_index": 1881,
+                "tr_id": 71
             }
         },
         "Mabosstiff": {
@@ -41289,7 +42396,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Red Card",
                 "index": 742,
-                "sub_index": 742
+                "sub_index": 742,
+                "tr_id": 138
             }
         },
         "Rapidash-Galar": {
@@ -41305,7 +42413,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 743,
-                "sub_index": 743
+                "sub_index": 743,
+                "tr_id": 138
             },
             "Lvl 81 Hideout Team Magma Elite Grunt": {
                 "level": 81,
@@ -41319,7 +42428,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Kebia Berry",
                 "index": 1563,
-                "sub_index": 1563
+                "sub_index": 1563,
+                "tr_id": 139
             }
         },
         "Pidgeot-Mega": {
@@ -41343,7 +42453,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 745,
-                "sub_index": 745
+                "sub_index": 745,
+                "tr_id": 138
             },
             "Lvl 82 Hideout Team Magma Elite Grunt": {
                 "level": 82,
@@ -41365,7 +42476,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1565,
-                "sub_index": 1565
+                "sub_index": 1565,
+                "tr_id": 139
             }
         },
         "Camerupt": {
@@ -41381,7 +42493,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Cameruptite",
                 "index": 746,
-                "sub_index": 746
+                "sub_index": 746,
+                "tr_id": 287
             },
             "Lvl 67 Winstrate Vicky": {
                 "level": 67,
@@ -41395,7 +42508,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Sitrus Berry",
                 "index": 919,
-                "sub_index": 919
+                "sub_index": 919,
+                "tr_id": 25
             },
             "Lvl 71 Team Magma Admin Courtney2 ": {
                 "level": 71,
@@ -41409,7 +42523,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Cameruptite",
                 "index": 997,
-                "sub_index": 997
+                "sub_index": 997,
+                "tr_id": 288
             },
             "Lvl 85 Team Magma Leader Maxie2 ": {
                 "level": 85,
@@ -41431,7 +42546,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1575,
-                "sub_index": 1575
+                "sub_index": 1575,
+                "tr_id": 284
             },
             "Lvl 90 Magma Leader Maxie & Tabitha": {
                 "level": 90,
@@ -41445,7 +42561,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Cameruptite",
                 "index": 1732,
-                "sub_index": 1732
+                "sub_index": 1732,
+                "tr_id": 217
             },
             "Lvl 100 Trainer Maxie": {
                 "level": 100,
@@ -41459,7 +42576,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Cameruptite",
                 "index": 2125,
-                "sub_index": 2125
+                "sub_index": 2125,
+                "tr_id": 289
             }
         },
         "Camerupt-Mega": {
@@ -41475,7 +42593,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Cameruptite",
                 "index": 747,
-                "sub_index": 747
+                "sub_index": 747,
+                "tr_id": 287
             },
             "Lvl 71 Team Magma Admin Courtney2 ": {
                 "level": 71,
@@ -41489,7 +42608,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Cameruptite",
                 "index": 998,
-                "sub_index": 998
+                "sub_index": 998,
+                "tr_id": 288
             },
             "Lvl 90 Magma Leader Maxie & Tabitha": {
                 "level": 90,
@@ -41503,7 +42623,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Cameruptite",
                 "index": 1733,
-                "sub_index": 1733
+                "sub_index": 1733,
+                "tr_id": 217
             },
             "Lvl 100 Trainer Maxie": {
                 "level": 100,
@@ -41517,7 +42638,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Cameruptite",
                 "index": 2126,
-                "sub_index": 2126
+                "sub_index": 2126,
+                "tr_id": 289
             }
         },
         "Exeggutor-Alola": {
@@ -41533,7 +42655,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Sitrus Berry",
                 "index": 748,
-                "sub_index": 748
+                "sub_index": 748,
+                "tr_id": 287
             },
             "Lvl 70 Team Magma Admin Courtney2 ": {
                 "level": 70,
@@ -41547,7 +42670,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Sitrus Berry",
                 "index": 993,
-                "sub_index": 993
+                "sub_index": 993,
+                "tr_id": 288
             },
             "Lvl 71 Kindler Nathan": {
                 "level": 71,
@@ -41561,7 +42685,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Sitrus Berry",
                 "index": 1093,
-                "sub_index": 1093
+                "sub_index": 1093,
+                "tr_id": 176
             },
             "Lvl 77 Dragon Tamer Sora": {
                 "level": 77,
@@ -41575,7 +42700,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "White Herb",
                 "index": 1353,
-                "sub_index": 1353
+                "sub_index": 1353,
+                "tr_id": 82
             }
         },
         "Muk": {
@@ -41591,7 +42717,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Shuca Berry",
                 "index": 749,
-                "sub_index": 749
+                "sub_index": 749,
+                "tr_id": 287
             },
             "Lvl 95 Team Rocket Grunt #1 ": {
                 "level": 95,
@@ -41605,7 +42732,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Rocky Helmet",
                 "index": 1956,
-                "sub_index": 1956
+                "sub_index": 1956,
+                "tr_id": 47
             }
         },
         "Moltres": {
@@ -41621,7 +42749,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Power Herb",
                 "index": 750,
-                "sub_index": 750
+                "sub_index": 750,
+                "tr_id": 287
             },
             "Lvl 69 Team Magma Admin Courtney2 ": {
                 "level": 69,
@@ -41635,7 +42764,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Rock Gem",
                 "index": 992,
-                "sub_index": 992
+                "sub_index": 992,
+                "tr_id": 288
             }
         },
         "Dusclops": {
@@ -41651,7 +42781,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Eviolite",
                 "index": 751,
-                "sub_index": 751
+                "sub_index": 751,
+                "tr_id": 287
             },
             "Lvl 79 Psychic William": {
                 "level": 79,
@@ -41665,7 +42796,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Eviolite",
                 "index": 1460,
-                "sub_index": 1460
+                "sub_index": 1460,
+                "tr_id": 226
             }
         },
         "Slither Wing": {
@@ -41681,7 +42813,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 752,
-                "sub_index": 752
+                "sub_index": 752,
+                "tr_id": 287
             },
             "Lvl 70 Team Magma Admin Courtney2 ": {
                 "level": 70,
@@ -41695,7 +42828,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 996,
-                "sub_index": 996
+                "sub_index": 996,
+                "tr_id": 288
             }
         },
         "Claydol": {
@@ -41711,7 +42845,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Mental Herb",
                 "index": 753,
-                "sub_index": 753
+                "sub_index": 753,
+                "tr_id": 290
             },
             "Lvl 69 Ninja Boy Lung": {
                 "level": 69,
@@ -41725,7 +42860,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Colbur Berry",
                 "index": 969,
-                "sub_index": 969
+                "sub_index": 969,
+                "tr_id": 239
             }
         },
         "Noctowl": {
@@ -41738,7 +42874,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Specs",
                 "index": 754,
-                "sub_index": 754
+                "sub_index": 754,
+                "tr_id": 290
             }
         },
         "Espathra": {
@@ -41754,7 +42891,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Psychic Gem",
                 "index": 755,
-                "sub_index": 755
+                "sub_index": 755,
+                "tr_id": 290
             },
             "Lvl 65 Cooltrainer George |Pass Room|": {
                 "level": 65,
@@ -41768,7 +42906,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Petaya Berry",
                 "index": 887,
-                "sub_index": 887
+                "sub_index": 887,
+                "tr_id": 291
             },
             "Lvl 73 Rich Boy Milky": {
                 "level": 73,
@@ -41782,7 +42921,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Light Clay",
                 "index": 1133,
-                "sub_index": 1133
+                "sub_index": 1133,
+                "tr_id": 282
             },
             "Lvl 86 Gentleman Clifford & Psychic Macey": {
                 "level": 86,
@@ -41796,7 +42936,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Weakness Policy",
                 "index": 1688,
-                "sub_index": 1688
+                "sub_index": 1688,
+                "tr_id": 190
             }
         },
         "Gallade": {
@@ -41812,7 +42953,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 756,
-                "sub_index": 756
+                "sub_index": 756,
+                "tr_id": 290
             },
             "Lvl 86 Gentleman Andreas & Hex Maniac Tina": {
                 "level": 86,
@@ -41826,7 +42968,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Galladite",
                 "index": 1677,
-                "sub_index": 1677
+                "sub_index": 1677,
+                "tr_id": 196
             },
             "Lvl 100 Rival Wally2 ": {
                 "level": 100,
@@ -41840,7 +42983,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Galladite",
                 "index": 2043,
-                "sub_index": 2043
+                "sub_index": 2043,
+                "tr_id": 292
             }
         },
         "Sandaconda": {
@@ -41856,7 +43000,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Yache Berry",
                 "index": 757,
-                "sub_index": 757
+                "sub_index": 757,
+                "tr_id": 293
             },
             "Lvl 95 Team Rocket Grunt #2 ": {
                 "level": 95,
@@ -41870,7 +43015,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Chesto Berry",
                 "index": 1964,
-                "sub_index": 1964
+                "sub_index": 1964,
+                "tr_id": 68
             }
         },
         "Vileplume": {
@@ -41886,7 +43032,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Black Sludge",
                 "index": 758,
-                "sub_index": 758
+                "sub_index": 758,
+                "tr_id": 293
             },
             "Lvl 84 Team Aqua Admin Matt": {
                 "level": 84,
@@ -41900,7 +43047,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Black Sludge",
                 "index": 1617,
-                "sub_index": 1617
+                "sub_index": 1617,
+                "tr_id": 83
             }
         },
         "Dodrio": {
@@ -41916,7 +43064,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 759,
-                "sub_index": 759
+                "sub_index": 759,
+                "tr_id": 293
             },
             "Lvl 80 Hideout Team Magma Grunt #4 ": {
                 "level": 80,
@@ -41927,7 +43076,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Band",
                 "index": 1530,
-                "sub_index": 1530
+                "sub_index": 1530,
+                "tr_id": 294
             }
         },
         "Stantler": {
@@ -41943,7 +43093,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eviolite",
                 "index": 760,
-                "sub_index": 760
+                "sub_index": 760,
+                "tr_id": 293
             }
         },
         "Eiscue": {
@@ -41959,7 +43110,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Jaboca Berry",
                 "index": 761,
-                "sub_index": 761
+                "sub_index": 761,
+                "tr_id": 17
             },
             "Lvl 70 Picnicker Frieren": {
                 "level": 70,
@@ -41973,7 +43125,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 1012,
-                "sub_index": 1012
+                "sub_index": 1012,
+                "tr_id": 242
             }
         },
         "Raichu-Mega-X": {
@@ -41989,7 +43142,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Raichunite X",
                 "index": 764,
-                "sub_index": 764
+                "sub_index": 764,
+                "tr_id": 17
             }
         },
         "Ninetales-Alola": {
@@ -42005,7 +43159,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Icy Rock",
                 "index": 765,
-                "sub_index": 765
+                "sub_index": 765,
+                "tr_id": 17
             },
             "Lvl 84 Swimmer Webe & Swimmer D.K": {
                 "level": 84,
@@ -42019,7 +43174,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Icy Rock",
                 "index": 1622,
-                "sub_index": 1622
+                "sub_index": 1622,
+                "tr_id": 246
             }
         },
         "Raichu-Mega-Y": {
@@ -42035,7 +43191,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Raichunite Y",
                 "index": 767,
-                "sub_index": 767
+                "sub_index": 767,
+                "tr_id": 17
             }
         },
         "Whimsicott": {
@@ -42059,7 +43216,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 768,
-                "sub_index": 768
+                "sub_index": 768,
+                "tr_id": 205
             },
             "Lvl 87 Expert Cash": {
                 "level": 87,
@@ -42073,7 +43231,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Leftovers",
                 "index": 1639,
-                "sub_index": 1639
+                "sub_index": 1639,
+                "tr_id": 295
             }
         },
         "Flamigo": {
@@ -42089,7 +43248,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flying Gem",
                 "index": 769,
-                "sub_index": 769
+                "sub_index": 769,
+                "tr_id": 205
             },
             "Lvl 76 Camper Flint & Bird Keeper Edwardo": {
                 "level": 76,
@@ -42103,7 +43263,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 1330,
-                "sub_index": 1330
+                "sub_index": 1330,
+                "tr_id": 269
             },
             "Lvl 88 Sis And Bro Reli&Ian": {
                 "level": 88,
@@ -42117,7 +43278,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flying Gem",
                 "index": 1765,
-                "sub_index": 1765
+                "sub_index": 1765,
+                "tr_id": 88
             }
         },
         "Absol": {
@@ -42133,7 +43295,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Covert Cloak",
                 "index": 770,
-                "sub_index": 770
+                "sub_index": 770,
+                "tr_id": 205
             },
             "Lvl 80 Beauty Jessica": {
                 "level": 80,
@@ -42147,7 +43310,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Absolite",
                 "index": 1403,
-                "sub_index": 1403
+                "sub_index": 1403,
+                "tr_id": 286
             },
             "Lvl 80 Psychic Kayla": {
                 "level": 80,
@@ -42161,7 +43325,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Scope Lens",
                 "index": 1456,
-                "sub_index": 1456
+                "sub_index": 1456,
+                "tr_id": 143
             },
             "Lvl 85 Pokémon Trainer Leaf1 ": {
                 "level": 85,
@@ -42175,7 +43340,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Absolite Z",
                 "index": 1643,
-                "sub_index": 1643
+                "sub_index": 1643,
+                "tr_id": 224
             }
         },
         "Arcanine": {
@@ -42191,7 +43357,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 771,
-                "sub_index": 771
+                "sub_index": 771,
+                "tr_id": 205
             },
             "Lvl 73 Cooltrainer Garrison": {
                 "level": 73,
@@ -42205,7 +43372,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Covert Cloak",
                 "index": 1164,
-                "sub_index": 1164
+                "sub_index": 1164,
+                "tr_id": 125
             },
             "Lvl 100 Elite Four Drake Doubles": {
                 "level": 100,
@@ -42219,7 +43387,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 2199,
-                "sub_index": 2199
+                "sub_index": 2199,
+                "tr_id": 128
             }
         },
         "Scrafty-Mega": {
@@ -42235,7 +43404,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Scraftinite",
                 "index": 773,
-                "sub_index": 773
+                "sub_index": 773,
+                "tr_id": 205
             }
         },
         "Mew": {
@@ -42251,7 +43421,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Rocky Helmet",
                 "index": 774,
-                "sub_index": 774
+                "sub_index": 774,
+                "tr_id": 158
             },
             "Lvl 63 Cycling Road Rival Fennekin": {
                 "level": 63,
@@ -42265,7 +43436,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Rocky Helmet",
                 "index": 780,
-                "sub_index": 780
+                "sub_index": 780,
+                "tr_id": 51
             },
             "Lvl 63 Cycling Road Rival Froakie": {
                 "level": 63,
@@ -42279,7 +43451,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Rocky Helmet",
                 "index": 786,
-                "sub_index": 786
+                "sub_index": 786,
+                "tr_id": 165
             },
             "Lvl 76 Bridge Rival Chespin": {
                 "level": 76,
@@ -42293,7 +43466,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1278,
-                "sub_index": 1278
+                "sub_index": 1278,
+                "tr_id": 160
             },
             "Lvl 76 Bridge Rival Fennekin": {
                 "level": 76,
@@ -42307,7 +43481,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1284,
-                "sub_index": 1284
+                "sub_index": 1284,
+                "tr_id": 177
             },
             "Lvl 76 Bridge Rival Froakie": {
                 "level": 76,
@@ -42321,7 +43496,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1290,
-                "sub_index": 1290
+                "sub_index": 1290,
+                "tr_id": 184
             }
         },
         "Rotom-Mow": {
@@ -42337,7 +43513,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Sitrus Berry",
                 "index": 778,
-                "sub_index": 778
+                "sub_index": 778,
+                "tr_id": 158
             },
             "Lvl 73 Ranger Nak": {
                 "level": 73,
@@ -42351,7 +43528,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "White Herb",
                 "index": 1215,
-                "sub_index": 1215
+                "sub_index": 1215,
+                "tr_id": 200
             }
         },
         "Rotom-Heat": {
@@ -42367,7 +43545,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Sitrus Berry",
                 "index": 784,
-                "sub_index": 784
+                "sub_index": 784,
+                "tr_id": 51
             },
             "Lvl 71 Team Magma Admin Tabitha1 ": {
                 "level": 71,
@@ -42381,7 +43560,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1062,
-                "sub_index": 1062
+                "sub_index": 1062,
+                "tr_id": 211
             },
             "Lvl 100 Trainer Maxie": {
                 "level": 100,
@@ -42395,7 +43575,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Covert Cloak",
                 "index": 2123,
-                "sub_index": 2123
+                "sub_index": 2123,
+                "tr_id": 289
             }
         },
         "Pyroar": {
@@ -42411,7 +43592,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Power Herb",
                 "index": 789,
-                "sub_index": 789
+                "sub_index": 789,
+                "tr_id": 165
             },
             "Lvl 65 Cooltrainer Alexia |Confusion Room|": {
                 "level": 65,
@@ -42425,7 +43607,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 882,
-                "sub_index": 882
+                "sub_index": 882,
+                "tr_id": 7
             },
             "Lvl 73 Tuber Jani": {
                 "level": 73,
@@ -42439,7 +43622,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Pyroarite",
                 "index": 1148,
-                "sub_index": 1148
+                "sub_index": 1148,
+                "tr_id": 231
             }
         },
         "Rotom-Wash": {
@@ -42455,7 +43639,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Sitrus Berry",
                 "index": 790,
-                "sub_index": 790
+                "sub_index": 790,
+                "tr_id": 165
             },
             "Lvl 70 Cooltrainer June": {
                 "level": 70,
@@ -42477,7 +43662,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1007,
-                "sub_index": 1007
+                "sub_index": 1007,
+                "tr_id": 113
             },
             "Lvl 75 Team Aqua Admin Shelly1 ": {
                 "level": 75,
@@ -42491,7 +43677,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Chesto Berry",
                 "index": 1272,
-                "sub_index": 1272
+                "sub_index": 1272,
+                "tr_id": 220
             }
         },
         "Leavanny": {
@@ -42507,7 +43694,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 792,
-                "sub_index": 792
+                "sub_index": 792,
+                "tr_id": 181
             },
             "Lvl 73 Bug Maniac Brent": {
                 "level": 73,
@@ -42521,7 +43709,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1193,
-                "sub_index": 1193
+                "sub_index": 1193,
+                "tr_id": 96
             },
             "Lvl 99 Naturalist Greta2 ": {
                 "level": 99,
@@ -42535,7 +43724,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Charti Berry",
                 "index": 2073,
-                "sub_index": 2073
+                "sub_index": 2073,
+                "tr_id": 147
             }
         },
         "Gorebyss": {
@@ -42551,7 +43741,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wacan Berry",
                 "index": 793,
-                "sub_index": 793
+                "sub_index": 793,
+                "tr_id": 181
             },
             "Lvl 75 Institute Team Aqua Elite Grunt": {
                 "level": 75,
@@ -42565,7 +43756,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "White Herb",
                 "index": 1266,
-                "sub_index": 1266
+                "sub_index": 1266,
+                "tr_id": 173
             },
             "Lvl 92 Swimmer Reed": {
                 "level": 92,
@@ -42579,7 +43771,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Throat Spray",
                 "index": 1826,
-                "sub_index": 1826
+                "sub_index": 1826,
+                "tr_id": 66
             }
         },
         "Donphan": {
@@ -42595,7 +43788,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Iapapa Berry",
                 "index": 795,
-                "sub_index": 795
+                "sub_index": 795,
+                "tr_id": 296
             },
             "Lvl 94 Expert Ronald": {
                 "level": 94,
@@ -42609,7 +43803,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Red Card",
                 "index": 1877,
-                "sub_index": 1877
+                "sub_index": 1877,
+                "tr_id": 71
             }
         },
         "Huntail": {
@@ -42625,7 +43820,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rindo Berry",
                 "index": 796,
-                "sub_index": 796
+                "sub_index": 796,
+                "tr_id": 296
             }
         },
         "Mr. Mime": {
@@ -42641,7 +43837,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Enigma Berry",
                 "index": 797,
-                "sub_index": 797
+                "sub_index": 797,
+                "tr_id": 296
             }
         },
         "Chesnaught": {
@@ -42657,7 +43854,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 799,
-                "sub_index": 799
+                "sub_index": 799,
+                "tr_id": 49
             },
             "Lvl 80 Cooltrainer Marcel": {
                 "level": 80,
@@ -42671,7 +43869,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Chesnaughtite",
                 "index": 1412,
-                "sub_index": 1412
+                "sub_index": 1412,
+                "tr_id": 214
             },
             "Lvl 98 Twins Ame&Yuki": {
                 "level": 98,
@@ -42685,7 +43884,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Iapapa Berry",
                 "index": 2022,
-                "sub_index": 2022
+                "sub_index": 2022,
+                "tr_id": 272
             }
         },
         "Duraludon": {
@@ -42701,7 +43901,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eviolite",
                 "index": 800,
-                "sub_index": 800
+                "sub_index": 800,
+                "tr_id": 49
             },
             "Lvl 84 Team Aqua Grunt Gian": {
                 "level": 84,
@@ -42715,7 +43916,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Eviolite",
                 "index": 1596,
-                "sub_index": 1596
+                "sub_index": 1596,
+                "tr_id": 97
             }
         },
         "Sirfetch’d": {
@@ -42731,7 +43933,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Fighting Gem",
                 "index": 801,
-                "sub_index": 801
+                "sub_index": 801,
+                "tr_id": 49
             },
             "Lvl 77 Bird Keeper Jared": {
                 "level": 77,
@@ -42745,7 +43948,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Fighting Gem",
                 "index": 1345,
-                "sub_index": 1345
+                "sub_index": 1345,
+                "tr_id": 62
             }
         },
         "Regigigas": {
@@ -42761,7 +43965,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 802,
-                "sub_index": 802
+                "sub_index": 802,
+                "tr_id": 297
             }
         },
         "Smeargle": {
@@ -42777,7 +43982,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 803,
-                "sub_index": 803
+                "sub_index": 803,
+                "tr_id": 297
             }
         },
         "Ambipom": {
@@ -42793,7 +43999,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "King's Rock",
                 "index": 804,
-                "sub_index": 804
+                "sub_index": 804,
+                "tr_id": 297
             },
             "Lvl 85 Pokémon Trainer Leaf1 ": {
                 "level": 85,
@@ -42807,7 +44014,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Salac Berry",
                 "index": 1641,
-                "sub_index": 1641
+                "sub_index": 1641,
+                "tr_id": 224
             }
         },
         "Audino": {
@@ -42823,7 +44031,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Audinite",
                 "index": 805,
-                "sub_index": 805
+                "sub_index": 805,
+                "tr_id": 297
             }
         },
         "Audino-Mega": {
@@ -42839,7 +44048,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Audinite",
                 "index": 806,
-                "sub_index": 806
+                "sub_index": 806,
+                "tr_id": 297
             }
         },
         "Toxapex": {
@@ -42855,7 +44065,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Life Orb",
                 "index": 808,
-                "sub_index": 808
+                "sub_index": 808,
+                "tr_id": 174
             }
         },
         "Simipour": {
@@ -42871,7 +44082,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Starf Berry",
                 "index": 809,
-                "sub_index": 809
+                "sub_index": 809,
+                "tr_id": 174
             }
         },
         "Eelektross-Mega": {
@@ -42887,7 +44099,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eelektrossite",
                 "index": 811,
-                "sub_index": 811
+                "sub_index": 811,
+                "tr_id": 174
             }
         },
         "Eldegoss": {
@@ -42903,7 +44116,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Eject Button",
                 "index": 812,
-                "sub_index": 812
+                "sub_index": 812,
+                "tr_id": 192
             }
         },
         "Tsareena": {
@@ -42919,7 +44133,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 813,
-                "sub_index": 813
+                "sub_index": 813,
+                "tr_id": 192
             },
             "Lvl 100 Teacher Anabel": {
                 "level": 100,
@@ -42933,7 +44148,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Heavy-Duty Boots",
                 "index": 2134,
-                "sub_index": 2134
+                "sub_index": 2134,
+                "tr_id": 298
             }
         },
         "Florges": {
@@ -42949,7 +44165,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 814,
-                "sub_index": 814
+                "sub_index": 814,
+                "tr_id": 192
             },
             "Lvl 76 Cooltrainer Greg": {
                 "level": 76,
@@ -42963,7 +44180,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 1306,
-                "sub_index": 1306
+                "sub_index": 1306,
+                "tr_id": 266
             },
             "Lvl 86 Psychic Hannah & Hex Maniac Sylvia": {
                 "level": 86,
@@ -42977,7 +44195,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Assault Vest",
                 "index": 1669,
-                "sub_index": 1669
+                "sub_index": 1669,
+                "tr_id": 299
             }
         },
         "Pachirisu": {
@@ -42993,7 +44212,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Light Clay",
                 "index": 816,
-                "sub_index": 816
+                "sub_index": 816,
+                "tr_id": 300
             }
         },
         "Shaymin": {
@@ -43009,7 +44229,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 817,
-                "sub_index": 817
+                "sub_index": 817,
+                "tr_id": 300
             }
         },
         "Tatsugiri": {
@@ -43025,7 +44246,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Salac Berry",
                 "index": 818,
-                "sub_index": 818
+                "sub_index": 818,
+                "tr_id": 300
             },
             "Lvl 72 Fisherman Ordeaux": {
                 "level": 72,
@@ -43039,7 +44261,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Tatsugirinite",
                 "index": 1125,
-                "sub_index": 1125
+                "sub_index": 1125,
+                "tr_id": 301
             },
             "Lvl 72 Cooltrainer Carolina & Sailor Cory": {
                 "level": 72,
@@ -43053,7 +44276,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Sitrus Berry",
                 "index": 1127,
-                "sub_index": 1127
+                "sub_index": 1127,
+                "tr_id": 302
             }
         },
         "Accelgor": {
@@ -43069,7 +44293,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lum Berry",
                 "index": 819,
-                "sub_index": 819
+                "sub_index": 819,
+                "tr_id": 303
             },
             "Lvl 68 Ninja Boy Lao": {
                 "level": 68,
@@ -43083,7 +44308,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Starf Berry",
                 "index": 980,
-                "sub_index": 980
+                "sub_index": 980,
+                "tr_id": 175
             },
             "Lvl 69 Sr.And Jr.Tyra&Ivy": {
                 "level": 69,
@@ -43097,7 +44323,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1015,
-                "sub_index": 1015
+                "sub_index": 1015,
+                "tr_id": 232
             }
         },
         "Meowstic-F": {
@@ -43113,7 +44340,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Specs",
                 "index": 820,
-                "sub_index": 820
+                "sub_index": 820,
+                "tr_id": 303
             }
         },
         "Goodra": {
@@ -43129,7 +44357,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 821,
-                "sub_index": 821
+                "sub_index": 821,
+                "tr_id": 303
             },
             "Lvl 83 Hideout Team Aqua Grunt #2 ": {
                 "level": 83,
@@ -43143,7 +44372,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 1588,
-                "sub_index": 1588
+                "sub_index": 1588,
+                "tr_id": 46
             }
         },
         "Ninetales": {
@@ -43159,7 +44389,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Sitrus Berry",
                 "index": 822,
-                "sub_index": 822
+                "sub_index": 822,
+                "tr_id": 41
             },
             "Lvl 68 Camper Derek": {
                 "level": 68,
@@ -43173,7 +44404,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heat Rock",
                 "index": 958,
-                "sub_index": 958
+                "sub_index": 958,
+                "tr_id": 129
             },
             "Lvl 70 Hiker Eli": {
                 "level": 70,
@@ -43187,7 +44419,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heat Rock",
                 "index": 1084,
-                "sub_index": 1084
+                "sub_index": 1084,
+                "tr_id": 304
             }
         },
         "Gogoat": {
@@ -43203,7 +44436,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 823,
-                "sub_index": 823
+                "sub_index": 823,
+                "tr_id": 41
             },
             "Lvl 75 Cooltrainer Chape": {
                 "level": 75,
@@ -43217,7 +44451,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Grassy Seed",
                 "index": 1241,
-                "sub_index": 1241
+                "sub_index": 1241,
+                "tr_id": 204
             },
             "Lvl 95 Team Rocket Grunt #1 ": {
                 "level": 95,
@@ -43231,7 +44466,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 1958,
-                "sub_index": 1958
+                "sub_index": 1958,
+                "tr_id": 47
             }
         },
         "Umbreon": {
@@ -43247,7 +44483,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 825,
-                "sub_index": 825
+                "sub_index": 825,
+                "tr_id": 41
             },
             "Lvl 80 Hex Maniac Leah": {
                 "level": 80,
@@ -43261,7 +44498,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Misty Seed",
                 "index": 1448,
-                "sub_index": 1448
+                "sub_index": 1448,
+                "tr_id": 90
             }
         },
         "Orbeetle": {
@@ -43277,7 +44515,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Colbur Berry",
                 "index": 826,
-                "sub_index": 826
+                "sub_index": 826,
+                "tr_id": 70
             },
             "Lvl 85 Psychic Preston & Psychic Maura": {
                 "level": 85,
@@ -43291,7 +44530,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Iapapa Berry",
                 "index": 1648,
-                "sub_index": 1648
+                "sub_index": 1648,
+                "tr_id": 154
             }
         },
         "Samurott": {
@@ -43307,7 +44547,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Starf Berry",
                 "index": 827,
-                "sub_index": 827
+                "sub_index": 827,
+                "tr_id": 70
             },
             "Lvl 87 Bird Keeper Halo & Ranger Jmash": {
                 "level": 87,
@@ -43321,7 +44562,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Covert Cloak",
                 "index": 1748,
-                "sub_index": 1748
+                "sub_index": 1748,
+                "tr_id": 243
             }
         },
         "Espeon": {
@@ -43337,7 +44579,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Flame Orb",
                 "index": 829,
-                "sub_index": 829
+                "sub_index": 829,
+                "tr_id": 70
             },
             "Lvl 87 Pokémon Trainer Leaf1 ": {
                 "level": 87,
@@ -43351,7 +44594,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1646,
-                "sub_index": 1646
+                "sub_index": 1646,
+                "tr_id": 224
             }
         },
         "Barbaracle": {
@@ -43367,7 +44611,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "White Herb",
                 "index": 831,
-                "sub_index": 831
+                "sub_index": 831,
+                "tr_id": 64
             },
             "Lvl 80 Pyre Team Aqua Grunt #4 ": {
                 "level": 80,
@@ -43381,7 +44626,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Barbaracite",
                 "index": 1506,
-                "sub_index": 1506
+                "sub_index": 1506,
+                "tr_id": 208
             }
         },
         "Garganacl": {
@@ -43397,7 +44643,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 833,
-                "sub_index": 833
+                "sub_index": 833,
+                "tr_id": 64
             },
             "Lvl 73 Ranger Nak": {
                 "level": 73,
@@ -43411,7 +44658,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Utility Umbrella",
                 "index": 1216,
-                "sub_index": 1216
+                "sub_index": 1216,
+                "tr_id": 200
             }
         },
         "Typhlosion-Hisui": {
@@ -43427,7 +44675,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Power Herb",
                 "index": 834,
-                "sub_index": 834
+                "sub_index": 834,
+                "tr_id": 285
             },
             "Lvl 89 Expert Qspec": {
                 "level": 89,
@@ -43441,7 +44690,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1760,
-                "sub_index": 1760
+                "sub_index": 1760,
+                "tr_id": 305
             }
         },
         "Decidueye": {
@@ -43457,7 +44707,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mental Herb",
                 "index": 835,
-                "sub_index": 835
+                "sub_index": 835,
+                "tr_id": 285
             },
             "Lvl 75 Bird Keeper Dayton": {
                 "level": 75,
@@ -43471,7 +44722,8 @@ backup_data = {
                 "nature": "Naughty",
                 "item": "Leftovers",
                 "index": 1232,
-                "sub_index": 1232
+                "sub_index": 1232,
+                "tr_id": 306
             }
         },
         "Emboar-Mega": {
@@ -43487,7 +44739,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Emboarite",
                 "index": 837,
-                "sub_index": 837
+                "sub_index": 837,
+                "tr_id": 285
             }
         },
         "Primarina": {
@@ -43502,7 +44755,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Metronome",
                 "index": 838,
-                "sub_index": 838
+                "sub_index": 838,
+                "tr_id": 285
             },
             "Lvl 70 Sr.And Jr.Tyra&Ivy": {
                 "level": 70,
@@ -43516,7 +44770,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Throat Spray",
                 "index": 1017,
-                "sub_index": 1017
+                "sub_index": 1017,
+                "tr_id": 232
             },
             "Lvl 90 Seafloor Team Aqua Grunt #4 ": {
                 "level": 90,
@@ -43530,7 +44785,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Fairy Gem",
                 "index": 1791,
-                "sub_index": 1791
+                "sub_index": 1791,
+                "tr_id": 216
             },
             "Lvl 100 Superstar Tucker1 ": {
                 "level": 100,
@@ -43544,7 +44800,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Throat Spray",
                 "index": 2110,
-                "sub_index": 2110
+                "sub_index": 2110,
+                "tr_id": 117
             },
             "Lvl 100 Superstar Tucker2 ": {
                 "level": 100,
@@ -43558,7 +44815,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Kebia Berry",
                 "index": 2117,
-                "sub_index": 2117
+                "sub_index": 2117,
+                "tr_id": 111
             },
             "Lvl 100 Elite Four Drake Singles": {
                 "level": 100,
@@ -43572,7 +44830,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Throat Spray",
                 "index": 2191,
-                "sub_index": 2191
+                "sub_index": 2191,
+                "tr_id": 136
             }
         },
         "Quaquaval": {
@@ -43588,7 +44847,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flying Gem",
                 "index": 839,
-                "sub_index": 839
+                "sub_index": 839,
+                "tr_id": 285
             },
             "Lvl 80 Cooltrainer Cristin": {
                 "level": 80,
@@ -43602,7 +44862,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Salac Berry",
                 "index": 1420,
-                "sub_index": 1420
+                "sub_index": 1420,
+                "tr_id": 267
             }
         },
         "Xatu": {
@@ -43618,7 +44879,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Covert Cloak",
                 "index": 840,
-                "sub_index": 840
+                "sub_index": 840,
+                "tr_id": 307
             },
             "Lvl 77 Bird Keeper Narth": {
                 "level": 77,
@@ -43632,7 +44894,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Psychic Gem",
                 "index": 1331,
-                "sub_index": 1331
+                "sub_index": 1331,
+                "tr_id": 145
             }
         },
         "Slowking-Galar": {
@@ -43648,7 +44911,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Twisted Spoon",
                 "index": 841,
-                "sub_index": 841
+                "sub_index": 841,
+                "tr_id": 307
             },
             "Lvl 80 Pyre Team Aqua Grunt #5 ": {
                 "level": 80,
@@ -43662,7 +44926,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Black Sludge",
                 "index": 1512,
-                "sub_index": 1512
+                "sub_index": 1512,
+                "tr_id": 133
             }
         },
         "Palafin": {
@@ -43678,7 +44943,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Assault Vest",
                 "index": 842,
-                "sub_index": 842
+                "sub_index": 842,
+                "tr_id": 307
             },
             "Lvl 74 Ninja Boy Terror": {
                 "level": 74,
@@ -43692,7 +44958,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 1234,
-                "sub_index": 1234
+                "sub_index": 1234,
+                "tr_id": 308
             },
             "Lvl 95 Pokéfan Annika": {
                 "level": 95,
@@ -43706,7 +44973,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mystic Water",
                 "index": 1906,
-                "sub_index": 1906
+                "sub_index": 1906,
+                "tr_id": 215
             }
         },
         "Whiscash": {
@@ -43722,7 +44990,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Ground Gem",
                 "index": 843,
-                "sub_index": 843
+                "sub_index": 843,
+                "tr_id": 307
             },
             "Lvl 74 Cooltrainer Chape": {
                 "level": 74,
@@ -43736,7 +45005,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ability Shield",
                 "index": 1240,
-                "sub_index": 1240
+                "sub_index": 1240,
+                "tr_id": 204
             },
             "Lvl 91 Seafloor Team Aqua Grunt #1 ": {
                 "level": 91,
@@ -43750,7 +45020,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Iapapa Berry",
                 "index": 1769,
-                "sub_index": 1769
+                "sub_index": 1769,
+                "tr_id": 309
             }
         },
         "Slowbro": {
@@ -43766,7 +45037,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Wacan Berry",
                 "index": 844,
-                "sub_index": 844
+                "sub_index": 844,
+                "tr_id": 307
             },
             "Lvl 86 Psychic Virgil & Psychic Nate": {
                 "level": 86,
@@ -43788,7 +45060,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1663,
-                "sub_index": 1663
+                "sub_index": 1663,
+                "tr_id": 249
             },
             "Lvl 93 Triathlete Rydia": {
                 "level": 93,
@@ -43802,7 +45075,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Leftovers",
                 "index": 1858,
-                "sub_index": 1858
+                "sub_index": 1858,
+                "tr_id": 120
             }
         },
         "Jumpluff": {
@@ -43818,7 +45092,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 845,
-                "sub_index": 845
+                "sub_index": 845,
+                "tr_id": 183
             },
             "Lvl 78 Cooltrainer Melodic": {
                 "level": 78,
@@ -43832,7 +45107,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eject Pack",
                 "index": 1391,
-                "sub_index": 1391
+                "sub_index": 1391,
+                "tr_id": 274
             }
         },
         "Hawlucha": {
@@ -43848,7 +45124,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Fighting Gem",
                 "index": 846,
-                "sub_index": 846
+                "sub_index": 846,
+                "tr_id": 183
             },
             "Lvl 76 Bird Keeper Specter": {
                 "level": 76,
@@ -43862,7 +45139,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Hawluchanite",
                 "index": 1320,
-                "sub_index": 1320
+                "sub_index": 1320,
+                "tr_id": 43
             },
             "Lvl 79 Psychic Kayla": {
                 "level": 79,
@@ -43876,7 +45154,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Misty Seed",
                 "index": 1457,
-                "sub_index": 1457
+                "sub_index": 1457,
+                "tr_id": 143
             },
             "Lvl 83 Hideout Team Aqua Grunt #4 ": {
                 "level": 83,
@@ -43890,7 +45169,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Electric Seed",
                 "index": 1599,
-                "sub_index": 1599
+                "sub_index": 1599,
+                "tr_id": 79
             },
             "Lvl 85 Pokémon Trainer Leaf1 ": {
                 "level": 85,
@@ -43904,7 +45184,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Psychic Seed",
                 "index": 1645,
-                "sub_index": 1645
+                "sub_index": 1645,
+                "tr_id": 224
             }
         },
         "Sylveon": {
@@ -43920,7 +45201,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 848,
-                "sub_index": 848
+                "sub_index": 848,
+                "tr_id": 183
             },
             "Lvl 78 Beauty Jessica": {
                 "level": 78,
@@ -43934,7 +45216,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Wiki Berry",
                 "index": 1399,
-                "sub_index": 1399
+                "sub_index": 1399,
+                "tr_id": 286
             }
         },
         "Floette-Eternal": {
@@ -43950,7 +45233,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Iapapa Berry",
                 "index": 850,
-                "sub_index": 850
+                "sub_index": 850,
+                "tr_id": 89
             },
             "Lvl 96 Cooltrainer Yoru": {
                 "level": 96,
@@ -43964,7 +45248,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Floettite",
                 "index": 1985,
-                "sub_index": 1985
+                "sub_index": 1985,
+                "tr_id": 310
             }
         },
         "Weezing": {
@@ -43980,7 +45265,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Black Sludge",
                 "index": 853,
-                "sub_index": 853
+                "sub_index": 853,
+                "tr_id": 311
             },
             "Lvl 95 Team Rocket Grunt #2 ": {
                 "level": 95,
@@ -43994,7 +45280,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Black Sludge",
                 "index": 1963,
-                "sub_index": 1963
+                "sub_index": 1963,
+                "tr_id": 68
             }
         },
         "Runerigus": {
@@ -44010,7 +45297,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Colbur Berry",
                 "index": 854,
-                "sub_index": 854
+                "sub_index": 854,
+                "tr_id": 311
             },
             "Lvl 80 Blackbelt Tyrone": {
                 "level": 80,
@@ -44024,7 +45312,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Assault Vest",
                 "index": 1449,
-                "sub_index": 1449
+                "sub_index": 1449,
+                "tr_id": 40
             }
         },
         "Grafaiai": {
@@ -44040,7 +45329,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Mental Herb",
                 "index": 855,
-                "sub_index": 855
+                "sub_index": 855,
+                "tr_id": 311
             },
             "Lvl 86 Expert Cash": {
                 "level": 86,
@@ -44054,7 +45344,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Eject Button",
                 "index": 1635,
-                "sub_index": 1635
+                "sub_index": 1635,
+                "tr_id": 295
             }
         },
         "Golisopod": {
@@ -44070,7 +45361,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Red Card",
                 "index": 856,
-                "sub_index": 856
+                "sub_index": 856,
+                "tr_id": 311
             },
             "Lvl 75 Team Aqua Grunt & Team Aqua Steve": {
                 "level": 75,
@@ -44084,7 +45376,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flying Gem",
                 "index": 1294,
-                "sub_index": 1294
+                "sub_index": 1294,
+                "tr_id": 45
             },
             "Lvl 96 Team Rocket Grunt #1 ": {
                 "level": 96,
@@ -44098,7 +45391,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Golisopite",
                 "index": 1960,
-                "sub_index": 1960
+                "sub_index": 1960,
+                "tr_id": 47
             },
             "Lvl 100 Naturalist Greta1 ": {
                 "level": 100,
@@ -44112,7 +45406,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Red Card",
                 "index": 2071,
-                "sub_index": 2071
+                "sub_index": 2071,
+                "tr_id": 146
             },
             "Lvl 100 Naturalist Greta2 ": {
                 "level": 100,
@@ -44126,7 +45421,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Golisopite",
                 "index": 2077,
-                "sub_index": 2077
+                "sub_index": 2077,
+                "tr_id": 147
             }
         },
         "Archeops": {
@@ -44142,7 +45438,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 857,
-                "sub_index": 857
+                "sub_index": 857,
+                "tr_id": 311
             },
             "Lvl 73 Cooltrainer Irie": {
                 "level": 73,
@@ -44156,7 +45453,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flying Gem",
                 "index": 1151,
-                "sub_index": 1151
+                "sub_index": 1151,
+                "tr_id": 189
             },
             "Lvl 78 Blackbelt Tyrone": {
                 "level": 78,
@@ -44170,7 +45468,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flying Gem",
                 "index": 1452,
-                "sub_index": 1452
+                "sub_index": 1452,
+                "tr_id": 40
             },
             "Lvl 95 Leader Steven": {
                 "level": 95,
@@ -44184,7 +45483,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Power Herb",
                 "index": 1942,
-                "sub_index": 1942
+                "sub_index": 1942,
+                "tr_id": 312
             }
         },
         "Durant": {
@@ -44200,7 +45500,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 858,
-                "sub_index": 858
+                "sub_index": 858,
+                "tr_id": 313
             },
             "Lvl 74 Rich Boy Milky": {
                 "level": 74,
@@ -44214,7 +45515,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Muscle Band",
                 "index": 1135,
-                "sub_index": 1135
+                "sub_index": 1135,
+                "tr_id": 282
             }
         },
         "Rampardos": {
@@ -44230,7 +45532,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Liechi Berry",
                 "index": 859,
-                "sub_index": 859
+                "sub_index": 859,
+                "tr_id": 313
             },
             "Lvl 94 Swimmer Kara": {
                 "level": 94,
@@ -44244,7 +45547,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rock Gem",
                 "index": 1867,
-                "sub_index": 1867
+                "sub_index": 1867,
+                "tr_id": 255
             }
         },
         "Diancie": {
@@ -44260,7 +45564,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Babiri Berry",
                 "index": 860,
-                "sub_index": 860
+                "sub_index": 860,
+                "tr_id": 115
             },
             "Lvl 95 Pokéfan Bobertclef": {
                 "level": 95,
@@ -44274,7 +45579,8 @@ backup_data = {
                 "nature": "Naughty",
                 "item": "Diancite",
                 "index": 1933,
-                "sub_index": 1933
+                "sub_index": 1933,
+                "tr_id": 57
             },
             "Lvl 100 Champion Wallace": {
                 "level": 100,
@@ -44288,7 +45594,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Diancite",
                 "index": 2205,
-                "sub_index": 2205
+                "sub_index": 2205,
+                "tr_id": 314
             }
         },
         "Armarouge": {
@@ -44304,7 +45611,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "White Herb",
                 "index": 862,
-                "sub_index": 862
+                "sub_index": 862,
+                "tr_id": 115
             },
             "Lvl 71 Team Magma Admin Tabitha1 ": {
                 "level": 71,
@@ -44318,7 +45626,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eject Pack",
                 "index": 1059,
-                "sub_index": 1059
+                "sub_index": 1059,
+                "tr_id": 211
             },
             "Lvl 82 Team Magma Admin Tabitha2 ": {
                 "level": 82,
@@ -44332,7 +45641,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "White Herb",
                 "index": 1571,
-                "sub_index": 1571
+                "sub_index": 1571,
+                "tr_id": 277
             },
             "Lvl 89 Magma Leader Maxie & Tabitha": {
                 "level": 89,
@@ -44354,7 +45664,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1737,
-                "sub_index": 1737
+                "sub_index": 1737,
+                "tr_id": 217
             }
         },
         "Jellicent": {
@@ -44370,7 +45681,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Water Gem",
                 "index": 863,
-                "sub_index": 863
+                "sub_index": 863,
+                "tr_id": 115
             },
             "Lvl 73 Sailor Duncan": {
                 "level": 73,
@@ -44392,7 +45704,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1138,
-                "sub_index": 1138
+                "sub_index": 1138,
+                "tr_id": 240
             },
             "Lvl 75 Bird Keeper Phil & Parasol Lady Rachel": {
                 "level": 75,
@@ -44406,7 +45719,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Sitrus Berry",
                 "index": 1224,
-                "sub_index": 1224
+                "sub_index": 1224,
+                "tr_id": 268
             },
             "Lvl 82 Team Aqua Grunt Soph": {
                 "level": 82,
@@ -44420,7 +45734,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Quick Claw",
                 "index": 1582,
-                "sub_index": 1582
+                "sub_index": 1582,
+                "tr_id": 99
             }
         },
         "Ampharos-Mega": {
@@ -44436,7 +45751,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Ampharosite",
                 "index": 865,
-                "sub_index": 865
+                "sub_index": 865,
+                "tr_id": 115
             },
             "Lvl 95 Expert Makayla": {
                 "level": 95,
@@ -44450,7 +45766,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Ampharosite",
                 "index": 1887,
-                "sub_index": 1887
+                "sub_index": 1887,
+                "tr_id": 36
             }
         },
         "Cyclizar": {
@@ -44464,7 +45781,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Dragon Gem",
                 "index": 866,
-                "sub_index": 866
+                "sub_index": 866,
+                "tr_id": 218
             },
             "Lvl 97 Cooltrainer Reyna": {
                 "level": 97,
@@ -44478,7 +45796,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 1977,
-                "sub_index": 1977
+                "sub_index": 1977,
+                "tr_id": 152
             }
         },
         "Bewear": {
@@ -44494,7 +45813,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Expert Belt",
                 "index": 868,
-                "sub_index": 868
+                "sub_index": 868,
+                "tr_id": 218
             },
             "Lvl 79 Hex Maniac Valerie": {
                 "level": 79,
@@ -44508,7 +45828,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Expert Belt",
                 "index": 1470,
-                "sub_index": 1470
+                "sub_index": 1470,
+                "tr_id": 95
             }
         },
         "Staraptor": {
@@ -44524,7 +45845,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 869,
-                "sub_index": 869
+                "sub_index": 869,
+                "tr_id": 218
             },
             "Lvl 76 Bird Keeper Narth": {
                 "level": 76,
@@ -44538,7 +45860,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Staraptite",
                 "index": 1332,
-                "sub_index": 1332
+                "sub_index": 1332,
+                "tr_id": 145
             }
         },
         "Greedent": {
@@ -44554,7 +45877,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Starf Berry",
                 "index": 870,
-                "sub_index": 870
+                "sub_index": 870,
+                "tr_id": 315
             }
         },
         "Mudsdale": {
@@ -44570,7 +45894,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Maranga Berry",
                 "index": 871,
-                "sub_index": 871
+                "sub_index": 871,
+                "tr_id": 315
             },
             "Lvl 75 Team Aqua Grunt & Team Aqua Steve": {
                 "level": 75,
@@ -44584,7 +45909,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 1299,
-                "sub_index": 1299
+                "sub_index": 1299,
+                "tr_id": 45
             },
             "Lvl 83 Team Aqua Grunt Steve2 ": {
                 "level": 83,
@@ -44598,7 +45924,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 1610,
-                "sub_index": 1610
+                "sub_index": 1610,
+                "tr_id": 127
             }
         },
         "Dubwool": {
@@ -44614,7 +45941,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Sitrus Berry",
                 "index": 872,
-                "sub_index": 872
+                "sub_index": 872,
+                "tr_id": 315
             }
         },
         "Braviary": {
@@ -44630,7 +45958,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 873,
-                "sub_index": 873
+                "sub_index": 873,
+                "tr_id": 315
             },
             "Lvl 99 Rival Wally2 ": {
                 "level": 99,
@@ -44644,7 +45973,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 2039,
-                "sub_index": 2039
+                "sub_index": 2039,
+                "tr_id": 292
             }
         },
         "Unfezant": {
@@ -44660,7 +45990,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 874,
-                "sub_index": 874
+                "sub_index": 874,
+                "tr_id": 278
             }
         },
         "Snorlax": {
@@ -44676,7 +46007,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Lansat Berry",
                 "index": 875,
-                "sub_index": 875
+                "sub_index": 875,
+                "tr_id": 278
             },
             "Lvl 100 Teacher Anabel": {
                 "level": 100,
@@ -44690,7 +46022,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Custap Berry",
                 "index": 2136,
-                "sub_index": 2136
+                "sub_index": 2136,
+                "tr_id": 298
             }
         },
         "Decidueye-Hisui": {
@@ -44706,7 +46039,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Razor Claw",
                 "index": 877,
-                "sub_index": 877
+                "sub_index": 877,
+                "tr_id": 278
             },
             "Lvl 79 Psychic Cedric": {
                 "level": 79,
@@ -44720,7 +46054,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Leftovers",
                 "index": 1483,
-                "sub_index": 1483
+                "sub_index": 1483,
+                "tr_id": 283
             }
         },
         "Drapion": {
@@ -44736,7 +46071,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 878,
-                "sub_index": 878
+                "sub_index": 878,
+                "tr_id": 278
             },
             "Lvl 73 Bug Maniac Taylor": {
                 "level": 73,
@@ -44750,7 +46086,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Black Sludge",
                 "index": 1186,
-                "sub_index": 1186
+                "sub_index": 1186,
+                "tr_id": 48
             }
         },
         "Pecharunt": {
@@ -44766,7 +46103,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 881,
-                "sub_index": 881
+                "sub_index": 881,
+                "tr_id": 7
             }
         },
         "Ninjask": {
@@ -44782,7 +46120,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 884,
-                "sub_index": 884
+                "sub_index": 884,
+                "tr_id": 291
             },
             "Lvl 69 Ninja Boy Lao": {
                 "level": 69,
@@ -44796,7 +46135,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Liechi Berry",
                 "index": 978,
-                "sub_index": 978
+                "sub_index": 978,
+                "tr_id": 175
             }
         },
         "Exploud": {
@@ -44812,7 +46152,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Normal Gem",
                 "index": 885,
-                "sub_index": 885
+                "sub_index": 885,
+                "tr_id": 291
             },
             "Lvl 70 Hiker Jotaro": {
                 "level": 70,
@@ -44826,7 +46167,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Choice Specs",
                 "index": 1030,
-                "sub_index": 1030
+                "sub_index": 1030,
+                "tr_id": 195
             },
             "Lvl 98 Lorekeeper Zinnia": {
                 "level": 98,
@@ -44840,7 +46182,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Life Orb",
                 "index": 1949,
-                "sub_index": 1949
+                "sub_index": 1949,
+                "tr_id": 84
             }
         },
         "Bouffalant": {
@@ -44856,7 +46199,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 886,
-                "sub_index": 886
+                "sub_index": 886,
+                "tr_id": 291
             },
             "Lvl 73 Sailor Duncan": {
                 "level": 73,
@@ -44878,7 +46222,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1141,
-                "sub_index": 1141
+                "sub_index": 1141,
+                "tr_id": 240
             }
         },
         "Drampa": {
@@ -44894,7 +46239,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Yache Berry",
                 "index": 888,
-                "sub_index": 888
+                "sub_index": 888,
+                "tr_id": 291
             },
             "Lvl 76 Camper Flint & Bird Keeper Edwardo": {
                 "level": 76,
@@ -44908,7 +46254,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Drampanite",
                 "index": 1327,
-                "sub_index": 1327
+                "sub_index": 1327,
+                "tr_id": 269
             },
             "Lvl 95 Lorekeeper Zinnia": {
                 "level": 95,
@@ -44922,7 +46269,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Quick Claw",
                 "index": 1948,
-                "sub_index": 1948
+                "sub_index": 1948,
+                "tr_id": 84
             }
         },
         "Rillaboom": {
@@ -44938,7 +46286,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Terrain Extender",
                 "index": 889,
-                "sub_index": 889
+                "sub_index": 889,
+                "tr_id": 52
             },
             "Lvl 99 Natural Guru Spenser1 ": {
                 "level": 99,
@@ -44952,7 +46301,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Terrain Extender",
                 "index": 2080,
-                "sub_index": 2080
+                "sub_index": 2080,
+                "tr_id": 316
             },
             "Lvl 99 Natural Guru Spenser2 ": {
                 "level": 99,
@@ -44966,7 +46316,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Terrain Extender",
                 "index": 2087,
-                "sub_index": 2087
+                "sub_index": 2087,
+                "tr_id": 185
             }
         },
         "Miltank": {
@@ -44982,7 +46333,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Chople Berry",
                 "index": 890,
-                "sub_index": 890
+                "sub_index": 890,
+                "tr_id": 52
             }
         },
         "Meloetta": {
@@ -44998,7 +46350,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 891,
-                "sub_index": 891
+                "sub_index": 891,
+                "tr_id": 52
             },
             "Lvl 64 Cooltrainer Kya |Psychic Room|": {
                 "level": 64,
@@ -45012,7 +46365,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Metronome",
                 "index": 896,
-                "sub_index": 896
+                "sub_index": 896,
+                "tr_id": 54
             },
             "Lvl 97 Rival Wally3 ": {
                 "level": 97,
@@ -45026,7 +46380,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Expert Belt",
                 "index": 2049,
-                "sub_index": 2049
+                "sub_index": 2049,
+                "tr_id": 317
             }
         },
         "Toucannon": {
@@ -45042,7 +46397,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Grass Gem",
                 "index": 893,
-                "sub_index": 893
+                "sub_index": 893,
+                "tr_id": 52
             },
             "Lvl 73 Bird Keeper Perry": {
                 "level": 73,
@@ -45056,7 +46412,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Power Herb",
                 "index": 1181,
-                "sub_index": 1181
+                "sub_index": 1181,
+                "tr_id": 61
             },
             "Lvl 88 Bird Keeper Halo & Ranger Jmash": {
                 "level": 88,
@@ -45070,7 +46427,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flying Gem",
                 "index": 1744,
-                "sub_index": 1744
+                "sub_index": 1744,
+                "tr_id": 243
             }
         },
         "Indeedee": {
@@ -45086,7 +46444,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Terrain Extender",
                 "index": 894,
-                "sub_index": 894
+                "sub_index": 894,
+                "tr_id": 54
             }
         },
         "Bisharp": {
@@ -45102,7 +46461,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Eviolite",
                 "index": 895,
-                "sub_index": 895
+                "sub_index": 895,
+                "tr_id": 54
             }
         },
         "Delphox": {
@@ -45118,7 +46478,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Colbur Berry",
                 "index": 897,
-                "sub_index": 897
+                "sub_index": 897,
+                "tr_id": 54
             },
             "Lvl 72 Expert Keegan": {
                 "level": 72,
@@ -45132,7 +46493,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Charcoal",
                 "index": 1111,
-                "sub_index": 1111
+                "sub_index": 1111,
+                "tr_id": 318
             },
             "Lvl 79 Cooltrainer Melodic": {
                 "level": 79,
@@ -45146,7 +46508,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Delphoxite",
                 "index": 1388,
-                "sub_index": 1388
+                "sub_index": 1388,
+                "tr_id": 274
             },
             "Lvl 80 Hideout Team Magma Elite Grunt": {
                 "level": 80,
@@ -45160,7 +46523,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1560,
-                "sub_index": 1560
+                "sub_index": 1560,
+                "tr_id": 139
             },
             "Lvl 86 Gentleman Clifford & Psychic Macey": {
                 "level": 86,
@@ -45174,7 +46538,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Delphoxite",
                 "index": 1684,
-                "sub_index": 1684
+                "sub_index": 1684,
+                "tr_id": 190
             }
         },
         "Terapagos": {
@@ -45190,7 +46555,8 @@ backup_data = {
                 "nature": "Lonely",
                 "item": "Leftovers",
                 "index": 899,
-                "sub_index": 899
+                "sub_index": 899,
+                "tr_id": 261
             },
             "Lvl 96 Cooltrainer Reyna": {
                 "level": 96,
@@ -45204,7 +46570,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 1981,
-                "sub_index": 1981
+                "sub_index": 1981,
+                "tr_id": 152
             }
         },
         "Porygon-Z": {
@@ -45228,7 +46595,8 @@ backup_data = {
                     "sp": "17"
                 },
                 "index": 900,
-                "sub_index": 900
+                "sub_index": 900,
+                "tr_id": 261
             },
             "Lvl 78 Sr.And Jr.Kate&Joy": {
                 "level": 78,
@@ -45242,7 +46610,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1407,
-                "sub_index": 1407
+                "sub_index": 1407,
+                "tr_id": 319
             }
         },
         "Squawkabilly": {
@@ -45258,7 +46627,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flame Orb",
                 "index": 902,
-                "sub_index": 902
+                "sub_index": 902,
+                "tr_id": 261
             }
         },
         "Malamar": {
@@ -45274,7 +46644,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Heavy-Duty Boots",
                 "index": 903,
-                "sub_index": 903
+                "sub_index": 903,
+                "tr_id": 261
             },
             "Lvl 73 Fisherman Noxie": {
                 "level": 73,
@@ -45288,7 +46659,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 1199,
-                "sub_index": 1199
+                "sub_index": 1199,
+                "tr_id": 262
             },
             "Lvl 80 Pyre Team Aqua Grunt #2 ": {
                 "level": 80,
@@ -45302,7 +46674,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Malamarite",
                 "index": 1497,
-                "sub_index": 1497
+                "sub_index": 1497,
+                "tr_id": 178
             },
             "Lvl 90 Seafloor Team Aqua Grunt #2 ": {
                 "level": 90,
@@ -45316,7 +46689,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Quick Claw",
                 "index": 1778,
-                "sub_index": 1778
+                "sub_index": 1778,
+                "tr_id": 19
             }
         },
         "Silvally-Fighting": {
@@ -45332,7 +46706,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Fighting Memory",
                 "index": 904,
-                "sub_index": 904
+                "sub_index": 904,
+                "tr_id": 260
             }
         },
         "Slaking": {
@@ -45348,7 +46723,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Eject Button",
                 "index": 905,
-                "sub_index": 905
+                "sub_index": 905,
+                "tr_id": 260
             },
             "Lvl 79 Blackbelt Tyrone": {
                 "level": 79,
@@ -45362,7 +46738,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Chople Berry",
                 "index": 1450,
-                "sub_index": 1450
+                "sub_index": 1450,
+                "tr_id": 40
             },
             "Lvl 100 Frontier Head Noland": {
                 "level": 100,
@@ -45376,7 +46753,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Normal Gem",
                 "index": 2143,
-                "sub_index": 2143
+                "sub_index": 2143,
+                "tr_id": 112
             }
         },
         "Maushold": {
@@ -45392,7 +46770,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "King's Rock",
                 "index": 906,
-                "sub_index": 906
+                "sub_index": 906,
+                "tr_id": 260
             }
         },
         "Farigiraf": {
@@ -45408,7 +46787,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Life Orb",
                 "index": 907,
-                "sub_index": 907
+                "sub_index": 907,
+                "tr_id": 260
             },
             "Lvl 79 Sr.And Jr.Kate&Joy": {
                 "level": 79,
@@ -45422,7 +46802,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Colbur Berry",
                 "index": 1408,
-                "sub_index": 1408
+                "sub_index": 1408,
+                "tr_id": 319
             },
             "Lvl 94 Expert Makayla": {
                 "level": 94,
@@ -45436,7 +46817,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Starf Berry",
                 "index": 1882,
-                "sub_index": 1882
+                "sub_index": 1882,
+                "tr_id": 36
             }
         },
         "Zoroark-Hisui": {
@@ -45452,7 +46834,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Expert Belt",
                 "index": 908,
-                "sub_index": 908
+                "sub_index": 908,
+                "tr_id": 260
             },
             "Lvl 95 Pokéfan Annika": {
                 "level": 95,
@@ -45466,7 +46849,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Spell Tag",
                 "index": 1901,
-                "sub_index": 1901
+                "sub_index": 1901,
+                "tr_id": 215
             },
             "Lvl 100 Elite Four Phoebe Singles": {
                 "level": 100,
@@ -45480,7 +46864,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 2160,
-                "sub_index": 2160
+                "sub_index": 2160,
+                "tr_id": 227
             }
         },
         "Kangaskhan-Mega": {
@@ -45496,7 +46881,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Kangaskhanite",
                 "index": 910,
-                "sub_index": 910
+                "sub_index": 910,
+                "tr_id": 260
             }
         },
         "Obstagoon": {
@@ -45512,7 +46898,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flame Orb",
                 "index": 912,
-                "sub_index": 912
+                "sub_index": 912,
+                "tr_id": 140
             },
             "Lvl 100 Rival Wally1 ": {
                 "level": 100,
@@ -45526,7 +46913,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Band",
                 "index": 2031,
-                "sub_index": 2031
+                "sub_index": 2031,
+                "tr_id": 320
             },
             "Lvl 100 Rival Wally2 ": {
                 "level": 100,
@@ -45540,7 +46928,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Scarf",
                 "index": 2038,
-                "sub_index": 2038
+                "sub_index": 2038,
+                "tr_id": 292
             },
             "Lvl 100 Rival Wally3 ": {
                 "level": 100,
@@ -45554,7 +46943,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Assault Vest",
                 "index": 2045,
-                "sub_index": 2045
+                "sub_index": 2045,
+                "tr_id": 317
             }
         },
         "Roserade": {
@@ -45570,7 +46960,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Grass Gem",
                 "index": 913,
-                "sub_index": 913
+                "sub_index": 913,
+                "tr_id": 321
             },
             "Lvl 72 Aroma Lady Rose": {
                 "level": 72,
@@ -45592,7 +46983,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1174,
-                "sub_index": 1174
+                "sub_index": 1174,
+                "tr_id": 193
             },
             "Lvl 98 Rival Wally1 ": {
                 "level": 98,
@@ -45614,7 +47006,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 2035,
-                "sub_index": 2035
+                "sub_index": 2035,
+                "tr_id": 320
             },
             "Lvl 98 Rival Wally2 ": {
                 "level": 98,
@@ -45636,7 +47029,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 2042,
-                "sub_index": 2042
+                "sub_index": 2042,
+                "tr_id": 292
             },
             "Lvl 98 Rival Wally3 ": {
                 "level": 98,
@@ -45658,7 +47052,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 2050,
-                "sub_index": 2050
+                "sub_index": 2050,
+                "tr_id": 317
             }
         },
         "Blissey": {
@@ -45674,7 +47069,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 914,
-                "sub_index": 914
+                "sub_index": 914,
+                "tr_id": 321
             }
         },
         "Vespiquen": {
@@ -45690,7 +47086,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 915,
-                "sub_index": 915
+                "sub_index": 915,
+                "tr_id": 321
             }
         },
         "Lilligant-Hisui": {
@@ -45706,7 +47103,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Wide Lens",
                 "index": 921,
-                "sub_index": 921
+                "sub_index": 921,
+                "tr_id": 25
             },
             "Lvl 72 Battle Girl Danielle & Kindler Cole": {
                 "level": 72,
@@ -45720,7 +47118,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 1096,
-                "sub_index": 1096
+                "sub_index": 1096,
+                "tr_id": 159
             },
             "Lvl 87 Cooltrainer Puffy": {
                 "level": 87,
@@ -45734,7 +47133,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Blunder Policy",
                 "index": 1753,
-                "sub_index": 1753
+                "sub_index": 1753,
+                "tr_id": 212
             },
             "Lvl 94 Triathlete Rydia": {
                 "level": 94,
@@ -45748,7 +47148,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "White Herb",
                 "index": 1856,
-                "sub_index": 1856
+                "sub_index": 1856,
+                "tr_id": 120
             }
         },
         "Vaporeon": {
@@ -45764,7 +47165,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 922,
-                "sub_index": 922
+                "sub_index": 922,
+                "tr_id": 25
             }
         },
         "Victini": {
@@ -45780,7 +47182,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Bug Gem",
                 "index": 923,
-                "sub_index": 923
+                "sub_index": 923,
+                "tr_id": 25
             },
             "Lvl 80 Hideout Magma Grunt #6 & #7 ": {
                 "level": 80,
@@ -45794,7 +47197,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Shuca Berry",
                 "index": 1541,
-                "sub_index": 1541
+                "sub_index": 1541,
+                "tr_id": 264
             },
             "Lvl 87 Space Center Team Magma Grunt #2 ": {
                 "level": 87,
@@ -45808,7 +47212,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "White Herb",
                 "index": 1709,
-                "sub_index": 1709
+                "sub_index": 1709,
+                "tr_id": 210
             }
         },
         "Medicham-Mega": {
@@ -45832,7 +47237,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 925,
-                "sub_index": 925
+                "sub_index": 925,
+                "tr_id": 25
             }
         },
         "Dracozolt": {
@@ -45848,7 +47254,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Heavy-Duty Boots",
                 "index": 927,
-                "sub_index": 927
+                "sub_index": 927,
+                "tr_id": 144
             },
             "Lvl 79 Cooltrainer Marcel": {
                 "level": 79,
@@ -45862,7 +47269,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Blunder Policy",
                 "index": 1414,
-                "sub_index": 1414
+                "sub_index": 1414,
+                "tr_id": 214
             },
             "Lvl 81 Hideout Team Magma Grunt #8 ": {
                 "level": 81,
@@ -45876,7 +47284,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Quick Claw",
                 "index": 1549,
-                "sub_index": 1549
+                "sub_index": 1549,
+                "tr_id": 65
             }
         },
         "Sigilyph": {
@@ -45892,7 +47301,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 929,
-                "sub_index": 929
+                "sub_index": 929,
+                "tr_id": 144
             },
             "Lvl 75 Bird Keeper Dayton": {
                 "level": 75,
@@ -45906,7 +47316,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Specs",
                 "index": 1230,
-                "sub_index": 1230
+                "sub_index": 1230,
+                "tr_id": 306
             }
         },
         "Excadrill": {
@@ -45922,7 +47333,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Clear Amulet",
                 "index": 930,
-                "sub_index": 930
+                "sub_index": 930,
+                "tr_id": 155
             },
             "Lvl 76 Team Aqua Grunt & Team Aqua Steve": {
                 "level": 76,
@@ -45936,7 +47348,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 1298,
-                "sub_index": 1298
+                "sub_index": 1298,
+                "tr_id": 45
             },
             "Lvl 84 Team Aqua Grunt Steve2 ": {
                 "level": 84,
@@ -45950,7 +47363,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Chople Berry",
                 "index": 1611,
-                "sub_index": 1611
+                "sub_index": 1611,
+                "tr_id": 127
             },
             "Lvl 89 Expert Qspec": {
                 "level": 89,
@@ -45964,7 +47378,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Excadrite",
                 "index": 1761,
-                "sub_index": 1761
+                "sub_index": 1761,
+                "tr_id": 305
             }
         },
         "Mandibuzz": {
@@ -45980,7 +47395,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 931,
-                "sub_index": 931
+                "sub_index": 931,
+                "tr_id": 155
             },
             "Lvl 99 Rival Wally1 ": {
                 "level": 99,
@@ -45994,7 +47410,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 2032,
-                "sub_index": 2032
+                "sub_index": 2032,
+                "tr_id": 320
             }
         },
         "Lycanroc": {
@@ -46007,7 +47424,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 932,
-                "sub_index": 932
+                "sub_index": 932,
+                "tr_id": 155
             }
         },
         "Bastiodon": {
@@ -46023,7 +47441,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Red Card",
                 "index": 934,
-                "sub_index": 934
+                "sub_index": 934,
+                "tr_id": 55
             }
         },
         "Torterra": {
@@ -46039,7 +47458,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Yache Berry",
                 "index": 937,
-                "sub_index": 937
+                "sub_index": 937,
+                "tr_id": 55
             },
             "Lvl 94 Swimmer Susie": {
                 "level": 94,
@@ -46053,7 +47473,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1873,
-                "sub_index": 1873
+                "sub_index": 1873,
+                "tr_id": 265
             }
         },
         "Steelix": {
@@ -46077,7 +47498,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 938,
-                "sub_index": 938
+                "sub_index": 938,
+                "tr_id": 55
             },
             "Lvl 77 Dragon Tamer Sora": {
                 "level": 77,
@@ -46091,7 +47513,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Weakness Policy",
                 "index": 1354,
-                "sub_index": 1354
+                "sub_index": 1354,
+                "tr_id": 82
             }
         },
         "Steelix-Mega": {
@@ -46115,7 +47538,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 939,
-                "sub_index": 939
+                "sub_index": 939,
+                "tr_id": 55
             },
             "Lvl 90 Team Aqua Grunt Steve3 ": {
                 "level": 90,
@@ -46137,7 +47561,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1809,
-                "sub_index": 1809
+                "sub_index": 1809,
+                "tr_id": 223
             }
         },
         "Dracovish": {
@@ -46153,7 +47578,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Water Gem",
                 "index": 940,
-                "sub_index": 940
+                "sub_index": 940,
+                "tr_id": 322
             },
             "Lvl 72 Cooltrainer Carolina & Sailor Cory": {
                 "level": 72,
@@ -46167,7 +47593,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mystic Water",
                 "index": 1128,
-                "sub_index": 1128
+                "sub_index": 1128,
+                "tr_id": 302
             },
             "Lvl 77 Parasol Lady Angelica": {
                 "level": 77,
@@ -46181,7 +47608,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Scarf",
                 "index": 1378,
-                "sub_index": 1378
+                "sub_index": 1378,
+                "tr_id": 132
             },
             "Lvl 83 Team Aqua Grunt Steve2 ": {
                 "level": 83,
@@ -46195,7 +47623,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mystic Water",
                 "index": 1609,
-                "sub_index": 1609
+                "sub_index": 1609,
+                "tr_id": 127
             }
         },
         "Carracosta": {
@@ -46211,7 +47640,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 941,
-                "sub_index": 941
+                "sub_index": 941,
+                "tr_id": 322
             },
             "Lvl 89 Seafloor Team Aqua Grunt #2 ": {
                 "level": 89,
@@ -46225,7 +47655,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Red Card",
                 "index": 1775,
-                "sub_index": 1775
+                "sub_index": 1775,
+                "tr_id": 19
             }
         },
         "Tyrantrum": {
@@ -46241,7 +47672,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Razor Fang",
                 "index": 942,
-                "sub_index": 942
+                "sub_index": 942,
+                "tr_id": 322
             },
             "Lvl 81 Team Magma Admin Tabitha2 ": {
                 "level": 81,
@@ -46255,7 +47687,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sitrus Berry",
                 "index": 1572,
-                "sub_index": 1572
+                "sub_index": 1572,
+                "tr_id": 277
             }
         },
         "Aurorus": {
@@ -46271,7 +47704,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Ice Gem",
                 "index": 943,
-                "sub_index": 943
+                "sub_index": 943,
+                "tr_id": 322
             },
             "Lvl 74 Cooltrainer Chape": {
                 "level": 74,
@@ -46285,7 +47719,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Rock Gem",
                 "index": 1243,
-                "sub_index": 1243
+                "sub_index": 1243,
+                "tr_id": 204
             },
             "Lvl 79 Breeder Gabrielle": {
                 "level": 79,
@@ -46299,7 +47734,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Choice Specs",
                 "index": 1480,
-                "sub_index": 1480
+                "sub_index": 1480,
+                "tr_id": 199
             },
             "Lvl 90 Team Aqua Admin Shelly2 ": {
                 "level": 90,
@@ -46313,7 +47749,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Heavy-Duty Boots",
                 "index": 1805,
-                "sub_index": 1805
+                "sub_index": 1805,
+                "tr_id": 323
             }
         },
         "Stonjourner": {
@@ -46329,7 +47766,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 944,
-                "sub_index": 944
+                "sub_index": 944,
+                "tr_id": 324
             }
         },
         "Flygon": {
@@ -46345,7 +47783,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Sitrus Berry",
                 "index": 945,
-                "sub_index": 945
+                "sub_index": 945,
+                "tr_id": 324
             },
             "Lvl 97 Rival Wally1 ": {
                 "level": 97,
@@ -46359,7 +47798,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 2033,
-                "sub_index": 2033
+                "sub_index": 2033,
+                "tr_id": 320
             },
             "Lvl 97 Rival Wally2 ": {
                 "level": 97,
@@ -46373,7 +47813,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 2040,
-                "sub_index": 2040
+                "sub_index": 2040,
+                "tr_id": 292
             }
         },
         "Stoutland": {
@@ -46389,7 +47830,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Normal Gem",
                 "index": 946,
-                "sub_index": 946
+                "sub_index": 946,
+                "tr_id": 324
             },
             "Lvl 95 Team Rocket Grunt #2 ": {
                 "level": 95,
@@ -46401,7 +47843,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 1965,
-                "sub_index": 1965
+                "sub_index": 1965,
+                "tr_id": 68
             }
         },
         "Arcanine-Hisui": {
@@ -46417,7 +47860,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 947,
-                "sub_index": 947
+                "sub_index": 947,
+                "tr_id": 324
             },
             "Lvl 86 Space Center Team Magma Grunt #6 ": {
                 "level": 86,
@@ -46431,7 +47875,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Scarf",
                 "index": 1727,
-                "sub_index": 1727
+                "sub_index": 1727,
+                "tr_id": 325
             },
             "Lvl 92 Triathlete Barron & Stephin": {
                 "level": 92,
@@ -46445,7 +47890,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1838,
-                "sub_index": 1838
+                "sub_index": 1838,
+                "tr_id": 92
             }
         },
         "Zygarde-10%": {
@@ -46461,7 +47907,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Soft Sand",
                 "index": 948,
-                "sub_index": 948
+                "sub_index": 948,
+                "tr_id": 324
             }
         },
         "Probopass": {
@@ -46477,7 +47924,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Chople Berry",
                 "index": 949,
-                "sub_index": 949
+                "sub_index": 949,
+                "tr_id": 326
             }
         },
         "Brambleghast": {
@@ -46493,7 +47941,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Safety Goggles",
                 "index": 950,
-                "sub_index": 950
+                "sub_index": 950,
+                "tr_id": 326
             },
             "Lvl 76 Camper Flint & Bird Keeper Edwardo": {
                 "level": 76,
@@ -46507,7 +47956,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Yache Berry",
                 "index": 1326,
-                "sub_index": 1326
+                "sub_index": 1326,
+                "tr_id": 269
             },
             "Lvl 94 Swimmer Kara": {
                 "level": 94,
@@ -46521,7 +47971,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Clear Amulet",
                 "index": 1869,
-                "sub_index": 1869
+                "sub_index": 1869,
+                "tr_id": 255
             }
         },
         "Golurk": {
@@ -46537,7 +47988,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Punching Glove",
                 "index": 951,
-                "sub_index": 951
+                "sub_index": 951,
+                "tr_id": 326
             },
             "Lvl 77 Ranger Frank Josh": {
                 "level": 77,
@@ -46551,7 +48003,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Golurkite",
                 "index": 1338,
-                "sub_index": 1338
+                "sub_index": 1338,
+                "tr_id": 327
             },
             "Lvl 88 Bird Keeper Halo & Ranger Jmash": {
                 "level": 88,
@@ -46565,7 +48018,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Yache Berry",
                 "index": 1745,
-                "sub_index": 1745
+                "sub_index": 1745,
+                "tr_id": 243
             }
         },
         "Hippowdon": {
@@ -46589,7 +48043,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 952,
-                "sub_index": 952
+                "sub_index": 952,
+                "tr_id": 123
             },
             "Lvl 97 Expert Niklas": {
                 "level": 97,
@@ -46603,7 +48058,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "White Herb",
                 "index": 1993,
-                "sub_index": 1993
+                "sub_index": 1993,
+                "tr_id": 170
             }
         },
         "Gigalith": {
@@ -46627,7 +48083,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 953,
-                "sub_index": 953
+                "sub_index": 953,
+                "tr_id": 123
             }
         },
         "Musharna": {
@@ -46651,7 +48108,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 955,
-                "sub_index": 955
+                "sub_index": 955,
+                "tr_id": 123
             }
         },
         "Braviary-Hisui": {
@@ -46667,7 +48125,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Safety Goggles",
                 "index": 956,
-                "sub_index": 956
+                "sub_index": 956,
+                "tr_id": 123
             },
             "Lvl 84 Swimmer Byonemil": {
                 "level": 84,
@@ -46689,7 +48148,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1630,
-                "sub_index": 1630
+                "sub_index": 1630,
+                "tr_id": 116
             }
         },
         "Dusknoir": {
@@ -46713,7 +48173,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 957,
-                "sub_index": 957
+                "sub_index": 957,
+                "tr_id": 123
             },
             "Lvl 78 Lilycove Rival Froakie": {
                 "level": 78,
@@ -46727,7 +48188,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 1440,
-                "sub_index": 1440
+                "sub_index": 1440,
+                "tr_id": 169
             }
         },
         "Maractus": {
@@ -46743,7 +48205,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 959,
-                "sub_index": 959
+                "sub_index": 959,
+                "tr_id": 129
             }
         },
         "Great Tusk": {
@@ -46759,7 +48222,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Clear Amulet",
                 "index": 960,
-                "sub_index": 960
+                "sub_index": 960,
+                "tr_id": 129
             },
             "Lvl 88 Expert Qspec": {
                 "level": 88,
@@ -46773,7 +48237,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Booster Energy",
                 "index": 1758,
-                "sub_index": 1758
+                "sub_index": 1758,
+                "tr_id": 305
             },
             "Lvl 99 Adventurer Brandon2 ": {
                 "level": 99,
@@ -46787,7 +48252,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Booster Energy",
                 "index": 2060,
-                "sub_index": 2060
+                "sub_index": 2060,
+                "tr_id": 101
             },
             "Lvl 100 Elite Four Rival Singles": {
                 "level": 100,
@@ -46801,7 +48267,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 2176,
-                "sub_index": 2176
+                "sub_index": 2176,
+                "tr_id": 171
             }
         },
         "Solgaleo": {
@@ -46817,7 +48284,8 @@ backup_data = {
                 "nature": "Naughty",
                 "item": "Utility Umbrella",
                 "index": 962,
-                "sub_index": 962
+                "sub_index": 962,
+                "tr_id": 129
             }
         },
         "Pinsir": {
@@ -46833,7 +48301,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Bug Gem",
                 "index": 963,
-                "sub_index": 963
+                "sub_index": 963,
+                "tr_id": 203
             },
             "Lvl 74 Bug Maniac Taylor": {
                 "level": 74,
@@ -46847,7 +48316,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Pinsirite",
                 "index": 1189,
-                "sub_index": 1189
+                "sub_index": 1189,
+                "tr_id": 48
             }
         },
         "Wormadam-Trash": {
@@ -46863,7 +48333,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Sitrus Berry",
                 "index": 964,
-                "sub_index": 964
+                "sub_index": 964,
+                "tr_id": 203
             }
         },
         "Lokix": {
@@ -46879,7 +48350,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Muscle Band",
                 "index": 965,
-                "sub_index": 965
+                "sub_index": 965,
+                "tr_id": 203
             },
             "Lvl 95 Cooltrainer Reyna": {
                 "level": 95,
@@ -46893,7 +48365,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1979,
-                "sub_index": 1979
+                "sub_index": 1979,
+                "tr_id": 152
             }
         },
         "Kabutops": {
@@ -46909,7 +48382,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Band",
                 "index": 967,
-                "sub_index": 967
+                "sub_index": 967,
+                "tr_id": 203
             },
             "Lvl 73 Bug Maniac Brent": {
                 "level": 73,
@@ -46923,7 +48397,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 1192,
-                "sub_index": 1192
+                "sub_index": 1192,
+                "tr_id": 96
             },
             "Lvl 87 Cooltrainer Puffy": {
                 "level": 87,
@@ -46937,7 +48412,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "White Herb",
                 "index": 1754,
-                "sub_index": 1754
+                "sub_index": 1754,
+                "tr_id": 212
             }
         },
         "Tauros-Paldea-Aqua": {
@@ -46953,7 +48429,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Black Belt",
                 "index": 968,
-                "sub_index": 968
+                "sub_index": 968,
+                "tr_id": 239
             },
             "Lvl 75 Team Aqua Admin Shelly1 ": {
                 "level": 75,
@@ -46967,7 +48444,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Salac Berry",
                 "index": 1270,
-                "sub_index": 1270
+                "sub_index": 1270,
+                "tr_id": 220
             },
             "Lvl 82 Hideout Team Aqua Grunt #2 ": {
                 "level": 82,
@@ -46981,7 +48459,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Bright Powder",
                 "index": 1586,
-                "sub_index": 1586
+                "sub_index": 1586,
+                "tr_id": 46
             }
         },
         "Gothitelle": {
@@ -46997,7 +48476,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Heavy-Duty Boots",
                 "index": 970,
-                "sub_index": 970
+                "sub_index": 970,
+                "tr_id": 239
             }
         },
         "Honchkrow": {
@@ -47013,7 +48493,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Dark Gem",
                 "index": 971,
-                "sub_index": 971
+                "sub_index": 971,
+                "tr_id": 239
             },
             "Lvl 77 Leader Winona2 ": {
                 "level": 77,
@@ -47027,7 +48508,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 1367,
-                "sub_index": 1367
+                "sub_index": 1367,
+                "tr_id": 121
             },
             "Lvl 80 Hideout Team Magma Grunt #4 ": {
                 "level": 80,
@@ -47041,7 +48523,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Quick Claw",
                 "index": 1532,
-                "sub_index": 1532
+                "sub_index": 1532,
+                "tr_id": 294
             }
         },
         "Crabominable-Mega": {
@@ -47057,7 +48540,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Crabominite",
                 "index": 973,
-                "sub_index": 973
+                "sub_index": 973,
+                "tr_id": 239
             }
         },
         "Grimmsnarl": {
@@ -47073,7 +48557,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mirror Herb",
                 "index": 974,
-                "sub_index": 974
+                "sub_index": 974,
+                "tr_id": 328
             },
             "Lvl 77 Sr.And Jr.Kate&Joy": {
                 "level": 77,
@@ -47087,7 +48572,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Iapapa Berry",
                 "index": 1405,
-                "sub_index": 1405
+                "sub_index": 1405,
+                "tr_id": 319
             },
             "Lvl 86 Leader Tate": {
                 "level": 86,
@@ -47101,7 +48587,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Covert Cloak",
                 "index": 1695,
-                "sub_index": 1695
+                "sub_index": 1695,
+                "tr_id": 329
             },
             "Lvl 100 Elite Four Sidney Singles": {
                 "level": 100,
@@ -47115,7 +48602,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Light Clay",
                 "index": 2149,
-                "sub_index": 2149
+                "sub_index": 2149,
+                "tr_id": 180
             }
         },
         "Luxray": {
@@ -47131,7 +48619,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 975,
-                "sub_index": 975
+                "sub_index": 975,
+                "tr_id": 328
             },
             "Lvl 80 Cooltrainer Perseid": {
                 "level": 80,
@@ -47145,7 +48634,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Air Balloon",
                 "index": 1396,
-                "sub_index": 1396
+                "sub_index": 1396,
+                "tr_id": 110
             },
             "Lvl 78 Lilycove Rival Fennekin": {
                 "level": 78,
@@ -47159,7 +48649,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 1433,
-                "sub_index": 1433
+                "sub_index": 1433,
+                "tr_id": 168
             }
         },
         "Ceruledge": {
@@ -47175,7 +48666,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Lum Berry",
                 "index": 976,
-                "sub_index": 976
+                "sub_index": 976,
+                "tr_id": 328
             },
             "Lvl 75 Team Aqua Admin Shelly1 ": {
                 "level": 75,
@@ -47189,7 +48681,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "White Herb",
                 "index": 1269,
-                "sub_index": 1269
+                "sub_index": 1269,
+                "tr_id": 220
             },
             "Lvl 79 Hex Maniac Valerie": {
                 "level": 79,
@@ -47203,7 +48696,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Colbur Berry",
                 "index": 1468,
-                "sub_index": 1468
+                "sub_index": 1468,
+                "tr_id": 95
             },
             "Lvl 86 Leader Liza": {
                 "level": 86,
@@ -47217,7 +48711,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Colbur Berry",
                 "index": 1690,
-                "sub_index": 1690
+                "sub_index": 1690,
+                "tr_id": 330
             },
             "Lvl 91 Team Aqua Admin Shelly2 ": {
                 "level": 91,
@@ -47231,7 +48726,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heavy-Duty Boots",
                 "index": 1803,
-                "sub_index": 1803
+                "sub_index": 1803,
+                "tr_id": 323
             }
         },
         "Houndoom": {
@@ -47247,7 +48743,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Lum Berry",
                 "index": 977,
-                "sub_index": 977
+                "sub_index": 977,
+                "tr_id": 328
             },
             "Lvl 72 Leader Flannery": {
                 "level": 72,
@@ -47261,7 +48758,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Houndoominite",
                 "index": 1120,
-                "sub_index": 1120
+                "sub_index": 1120,
+                "tr_id": 182
             },
             "Lvl 80 Hideout Team Magma Grunt #4 ": {
                 "level": 80,
@@ -47275,7 +48773,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Expert Belt",
                 "index": 1533,
-                "sub_index": 1533
+                "sub_index": 1533,
+                "tr_id": 294
             }
         },
         "Vikavolt": {
@@ -47291,7 +48790,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Salac Berry",
                 "index": 981,
-                "sub_index": 981
+                "sub_index": 981,
+                "tr_id": 175
             },
             "Lvl 73 Bug Maniac Taylor": {
                 "level": 73,
@@ -47305,7 +48805,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Electric Gem",
                 "index": 1184,
-                "sub_index": 1184
+                "sub_index": 1184,
+                "tr_id": 48
             },
             "Lvl 76 Bird Keeper Narth": {
                 "level": 76,
@@ -47319,7 +48820,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Covert Cloak",
                 "index": 1335,
-                "sub_index": 1335
+                "sub_index": 1335,
+                "tr_id": 145
             },
             "Lvl 99 Naturalist Greta1 ": {
                 "level": 99,
@@ -47333,7 +48835,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Occa Berry",
                 "index": 2066,
-                "sub_index": 2066
+                "sub_index": 2066,
+                "tr_id": 146
             }
         },
         "Trevenant": {
@@ -47349,7 +48852,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Occa Berry",
                 "index": 982,
-                "sub_index": 982
+                "sub_index": 982,
+                "tr_id": 331
             },
             "Lvl 93 Triathlete Talia": {
                 "level": 93,
@@ -47363,7 +48867,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Starf Berry",
                 "index": 1862,
-                "sub_index": 1862
+                "sub_index": 1862,
+                "tr_id": 222
             }
         },
         "Chandelure": {
@@ -47379,7 +48884,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Scarf",
                 "index": 983,
-                "sub_index": 983
+                "sub_index": 983,
+                "tr_id": 331
             },
             "Lvl 81 Team Magma Grunt Coffee": {
                 "level": 81,
@@ -47393,7 +48899,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Chandelurite",
                 "index": 1523,
-                "sub_index": 1523
+                "sub_index": 1523,
+                "tr_id": 279
             },
             "Lvl 95 Cooltrainer Reyna": {
                 "level": 95,
@@ -47407,7 +48914,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Ghost Gem",
                 "index": 1980,
-                "sub_index": 1980
+                "sub_index": 1980,
+                "tr_id": 152
             },
             "Lvl 100 Elite Four Phoebe Singles": {
                 "level": 100,
@@ -47429,7 +48937,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 2161,
-                "sub_index": 2161
+                "sub_index": 2161,
+                "tr_id": 227
             }
         },
         "Revavroom": {
@@ -47445,7 +48954,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Black Sludge",
                 "index": 984,
-                "sub_index": 984
+                "sub_index": 984,
+                "tr_id": 331
             },
             "Lvl 78 Cooltrainer Melodic": {
                 "level": 78,
@@ -47459,7 +48969,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Air Balloon",
                 "index": 1390,
-                "sub_index": 1390
+                "sub_index": 1390,
+                "tr_id": 274
             },
             "Lvl 95 Lady Daphne": {
                 "level": 95,
@@ -47473,7 +48984,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Metal Coat",
                 "index": 1910,
-                "sub_index": 1910
+                "sub_index": 1910,
+                "tr_id": 8
             }
         },
         "Gengar": {
@@ -47489,7 +49001,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Focus Sash",
                 "index": 985,
-                "sub_index": 985
+                "sub_index": 985,
+                "tr_id": 331
             },
             "Lvl 79 Blackbelt Tyrone": {
                 "level": 79,
@@ -47503,7 +49016,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Gengarite",
                 "index": 1454,
-                "sub_index": 1454
+                "sub_index": 1454,
+                "tr_id": 40
             },
             "Lvl 95 Expert Ronald": {
                 "level": 95,
@@ -47517,7 +49031,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Colbur Berry",
                 "index": 1880,
-                "sub_index": 1880
+                "sub_index": 1880,
+                "tr_id": 71
             },
             "Lvl 100 Battle Queen Lucy1 ": {
                 "level": 100,
@@ -47531,7 +49046,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Gengarite",
                 "index": 2098,
-                "sub_index": 2098
+                "sub_index": 2098,
+                "tr_id": 234
             },
             "Lvl 100 Battle Queen Lucy2 ": {
                 "level": 100,
@@ -47545,7 +49061,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Gengarite",
                 "index": 2105,
-                "sub_index": 2105
+                "sub_index": 2105,
+                "tr_id": 235
             },
             "Lvl 100 Elite Four Phoebe Doubles": {
                 "level": 100,
@@ -47559,7 +49076,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Gengarite",
                 "index": 2168,
-                "sub_index": 2168
+                "sub_index": 2168,
+                "tr_id": 228
             }
         },
         "Gliscor": {
@@ -47575,7 +49093,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Toxic Orb",
                 "index": 986,
-                "sub_index": 986
+                "sub_index": 986,
+                "tr_id": 331
             },
             "Lvl 78 Ninja Boy Alex": {
                 "level": 78,
@@ -47589,7 +49108,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Yache Berry",
                 "index": 1385,
-                "sub_index": 1385
+                "sub_index": 1385,
+                "tr_id": 167
             }
         },
         "Overqwil": {
@@ -47605,7 +49125,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Adrenaline Orb",
                 "index": 987,
-                "sub_index": 987
+                "sub_index": 987,
+                "tr_id": 332
             },
             "Lvl 75 Bridge Rival Fennekin": {
                 "level": 75,
@@ -47619,7 +49140,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Electric Seed",
                 "index": 1282,
-                "sub_index": 1282
+                "sub_index": 1282,
+                "tr_id": 177
             },
             "Lvl 83 Hideout Team Aqua Grunt #5 ": {
                 "level": 83,
@@ -47633,7 +49155,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 1604,
-                "sub_index": 1604
+                "sub_index": 1604,
+                "tr_id": 53
             },
             "Lvl 92 Swimmer Katie & Swimmer Santiago": {
                 "level": 92,
@@ -47647,7 +49170,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Covert Cloak",
                 "index": 1850,
-                "sub_index": 1850
+                "sub_index": 1850,
+                "tr_id": 333
             },
             "Lvl 100 Elite Four Sidney Singles": {
                 "level": 100,
@@ -47661,7 +49185,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 2148,
-                "sub_index": 2148
+                "sub_index": 2148,
+                "tr_id": 180
             },
             "Lvl 100 Elite Four Sidney Doubles": {
                 "level": 100,
@@ -47675,7 +49200,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 2155,
-                "sub_index": 2155
+                "sub_index": 2155,
+                "tr_id": 85
             }
         },
         "Crobat": {
@@ -47691,7 +49217,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Poison Gem",
                 "index": 988,
-                "sub_index": 988
+                "sub_index": 988,
+                "tr_id": 332
             },
             "Lvl 77 Ranger Frank Josh": {
                 "level": 77,
@@ -47705,7 +49232,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 1340,
-                "sub_index": 1340
+                "sub_index": 1340,
+                "tr_id": 327
             },
             "Lvl 100 Battle Queen Lucy1 ": {
                 "level": 100,
@@ -47719,7 +49247,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Life Orb",
                 "index": 2096,
-                "sub_index": 2096
+                "sub_index": 2096,
+                "tr_id": 234
             },
             "Lvl 100 Battle Queen Lucy2 ": {
                 "level": 100,
@@ -47733,7 +49262,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 2103,
-                "sub_index": 2103
+                "sub_index": 2103,
+                "tr_id": 235
             }
         },
         "Samurott-Hisui": {
@@ -47749,7 +49279,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Salac Berry",
                 "index": 989,
-                "sub_index": 989
+                "sub_index": 989,
+                "tr_id": 332
             },
             "Lvl 95 Pokéfan Annika": {
                 "level": 95,
@@ -47763,7 +49294,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Assault Vest",
                 "index": 1904,
-                "sub_index": 1904
+                "sub_index": 1904,
+                "tr_id": 215
             },
             "Lvl 100 Elite Four Rival Singles": {
                 "level": 100,
@@ -47777,7 +49309,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 2174,
-                "sub_index": 2174
+                "sub_index": 2174,
+                "tr_id": 171
             }
         },
         "Necrozma": {
@@ -47793,7 +49326,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Leftovers",
                 "index": 990,
-                "sub_index": 990
+                "sub_index": 990,
+                "tr_id": 332
             }
         },
         "Hydreigon": {
@@ -47809,7 +49343,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 991,
-                "sub_index": 991
+                "sub_index": 991,
+                "tr_id": 332
             },
             "Lvl 73 Cooltrainer Irie": {
                 "level": 73,
@@ -47823,7 +49358,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Roseli Berry",
                 "index": 1153,
-                "sub_index": 1153
+                "sub_index": 1153,
+                "tr_id": 189
             },
             "Lvl 76 Leader Winona1 ": {
                 "level": 76,
@@ -47837,7 +49373,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lum Berry",
                 "index": 1357,
-                "sub_index": 1357
+                "sub_index": 1357,
+                "tr_id": 134
             },
             "Lvl 78 Lilycove Rival Chespin": {
                 "level": 78,
@@ -47851,7 +49388,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Dragon Gem",
                 "index": 1425,
-                "sub_index": 1425
+                "sub_index": 1425,
+                "tr_id": 161
             },
             "Lvl 99 Twins Ame&Yuki": {
                 "level": 99,
@@ -47865,7 +49403,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Pecha Berry",
                 "index": 2021,
-                "sub_index": 2021
+                "sub_index": 2021,
+                "tr_id": 272
             }
         },
         "Rhyperior": {
@@ -47881,7 +49420,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Enigma Berry",
                 "index": 994,
-                "sub_index": 994
+                "sub_index": 994,
+                "tr_id": 288
             },
             "Lvl 94 Cooltrainer Bazzo": {
                 "level": 94,
@@ -47895,7 +49435,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 1892,
-                "sub_index": 1892
+                "sub_index": 1892,
+                "tr_id": 72
             }
         },
         "Iron Moth": {
@@ -47911,7 +49452,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 995,
-                "sub_index": 995
+                "sub_index": 995,
+                "tr_id": 288
             },
             "Lvl 75 Bridge Rival Froakie": {
                 "level": 75,
@@ -47925,7 +49467,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Booster Energy",
                 "index": 1289,
-                "sub_index": 1289
+                "sub_index": 1289,
+                "tr_id": 184
             },
             "Lvl 96 Cooltrainer Yoru": {
                 "level": 96,
@@ -47939,7 +49482,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Air Balloon",
                 "index": 1987,
-                "sub_index": 1987
+                "sub_index": 1987,
+                "tr_id": 310
             }
         },
         "Blastoise": {
@@ -47963,7 +49507,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 999,
-                "sub_index": 999
+                "sub_index": 999,
+                "tr_id": 334
             },
             "Lvl 74 Cooltrainer Garrison": {
                 "level": 74,
@@ -47977,7 +49522,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Sitrus Berry",
                 "index": 1168,
-                "sub_index": 1168
+                "sub_index": 1168,
+                "tr_id": 125
             },
             "Lvl 74 Fisherman Noxie": {
                 "level": 74,
@@ -47991,7 +49537,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Blastoisinite",
                 "index": 1203,
-                "sub_index": 1203
+                "sub_index": 1203,
+                "tr_id": 262
             },
             "Lvl 83 Hideout Team Aqua Grunt #4 ": {
                 "level": 83,
@@ -48005,7 +49552,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "White Herb",
                 "index": 1600,
-                "sub_index": 1600
+                "sub_index": 1600,
+                "tr_id": 79
             },
             "Lvl 92 Swimmer Puppy": {
                 "level": 92,
@@ -48019,7 +49567,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Blastoisinite",
                 "index": 1845,
-                "sub_index": 1845
+                "sub_index": 1845,
+                "tr_id": 188
             }
         },
         "Feraligatr": {
@@ -48035,7 +49584,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1000,
-                "sub_index": 1000
+                "sub_index": 1000,
+                "tr_id": 334
             },
             "Lvl 72 Cooltrainer Carolina & Sailor Cory": {
                 "level": 72,
@@ -48049,7 +49599,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Feraligite",
                 "index": 1130,
-                "sub_index": 1130
+                "sub_index": 1130,
+                "tr_id": 302
             }
         },
         "Dragalge": {
@@ -48065,7 +49616,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Expert Belt",
                 "index": 1001,
-                "sub_index": 1001
+                "sub_index": 1001,
+                "tr_id": 334
             },
             "Lvl 73 Bug Catcher Kent": {
                 "level": 73,
@@ -48079,7 +49631,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Dragalgite",
                 "index": 1207,
-                "sub_index": 1207
+                "sub_index": 1207,
+                "tr_id": 273
             }
         },
         "Golduck": {
@@ -48095,7 +49648,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Damp Rock",
                 "index": 1002,
-                "sub_index": 1002
+                "sub_index": 1002,
+                "tr_id": 334
             },
             "Lvl 90 Seafloor Team Aqua Grunt #3 ": {
                 "level": 90,
@@ -48109,7 +49663,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Water Gem",
                 "index": 1784,
-                "sub_index": 1784
+                "sub_index": 1784,
+                "tr_id": 76
             }
         },
         "Seismitoad": {
@@ -48125,7 +49680,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Rindo Berry",
                 "index": 1003,
-                "sub_index": 1003
+                "sub_index": 1003,
+                "tr_id": 334
             },
             "Lvl 89 Sis And Bro Reli&Ian": {
                 "level": 89,
@@ -48139,7 +49695,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Salac Berry",
                 "index": 1768,
-                "sub_index": 1768
+                "sub_index": 1768,
+                "tr_id": 88
             }
         },
         "Politoed": {
@@ -48155,7 +49712,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Eject Button",
                 "index": 1004,
-                "sub_index": 1004
+                "sub_index": 1004,
+                "tr_id": 113
             },
             "Lvl 75 Institute Team Aqua Grunt #1 ": {
                 "level": 75,
@@ -48169,7 +49727,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 1245,
-                "sub_index": 1245
+                "sub_index": 1245,
+                "tr_id": 131
             },
             "Lvl 83 Hideout Team Aqua Grunt #5 ": {
                 "level": 83,
@@ -48183,7 +49742,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Damp Rock",
                 "index": 1603,
-                "sub_index": 1603
+                "sub_index": 1603,
+                "tr_id": 53
             },
             "Lvl 95 Team Rocket Grunt #1 ": {
                 "level": 95,
@@ -48197,7 +49757,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Rowap Berry",
                 "index": 1959,
-                "sub_index": 1959
+                "sub_index": 1959,
+                "tr_id": 47
             }
         },
         "Ludicolo": {
@@ -48213,7 +49774,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Eject Pack",
                 "index": 1005,
-                "sub_index": 1005
+                "sub_index": 1005,
+                "tr_id": 113
             },
             "Lvl 74 Bird Keeper Phil & Parasol Lady Rachel": {
                 "level": 74,
@@ -48227,7 +49789,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Life Orb",
                 "index": 1223,
-                "sub_index": 1223
+                "sub_index": 1223,
+                "tr_id": 268
             }
         },
         "Kingdra": {
@@ -48243,7 +49806,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Grip Claw",
                 "index": 1006,
-                "sub_index": 1006
+                "sub_index": 1006,
+                "tr_id": 113
             },
             "Lvl 80 Pyre Team Aqua Grunt #2 ": {
                 "level": 80,
@@ -48257,7 +49821,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Scope Lens",
                 "index": 1496,
-                "sub_index": 1496
+                "sub_index": 1496,
+                "tr_id": 178
             },
             "Lvl 90 Seafloor Team Aqua Grunt #1 ": {
                 "level": 90,
@@ -48271,7 +49836,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Yache Berry",
                 "index": 1771,
-                "sub_index": 1771
+                "sub_index": 1771,
+                "tr_id": 309
             },
             "Lvl 96 Ex Leader Juan": {
                 "level": 96,
@@ -48285,7 +49851,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Chesto Berry",
                 "index": 1940,
-                "sub_index": 1940
+                "sub_index": 1940,
+                "tr_id": 80
             },
             "Lvl 100 Elite Four Drake Doubles": {
                 "level": 100,
@@ -48299,7 +49866,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Scope Lens",
                 "index": 2196,
-                "sub_index": 2196
+                "sub_index": 2196,
+                "tr_id": 128
             }
         },
         "Vanilluxe": {
@@ -48315,7 +49883,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Icy Rock",
                 "index": 1009,
-                "sub_index": 1009
+                "sub_index": 1009,
+                "tr_id": 242
             }
         },
         "Cetitan": {
@@ -48331,7 +49900,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "White Herb",
                 "index": 1010,
-                "sub_index": 1010
+                "sub_index": 1010,
+                "tr_id": 242
             }
         },
         "Cloyster": {
@@ -48347,7 +49917,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 1011,
-                "sub_index": 1011
+                "sub_index": 1011,
+                "tr_id": 242
             },
             "Lvl 76 Cooltrainer Greg": {
                 "level": 76,
@@ -48361,7 +49932,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Wacan Berry",
                 "index": 1305,
-                "sub_index": 1305
+                "sub_index": 1305,
+                "tr_id": 266
             },
             "Lvl 95 Lass Andrea": {
                 "level": 95,
@@ -48375,7 +49947,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "White Herb",
                 "index": 1897,
-                "sub_index": 1897
+                "sub_index": 1897,
+                "tr_id": 73
             }
         },
         "Abomasnow-Mega": {
@@ -48391,7 +49964,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Abomasite",
                 "index": 1014,
-                "sub_index": 1014
+                "sub_index": 1014,
+                "tr_id": 242
             }
         },
         "Mismagius": {
@@ -48407,7 +49981,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lum Berry",
                 "index": 1019,
-                "sub_index": 1019
+                "sub_index": 1019,
+                "tr_id": 335
             },
             "Lvl 79 Psychic Kayla": {
                 "level": 79,
@@ -48421,7 +49996,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Expert Belt",
                 "index": 1458,
-                "sub_index": 1458
+                "sub_index": 1458,
+                "tr_id": 143
             },
             "Lvl 97 Pokémon Trainer Leaf2 ": {
                 "level": 97,
@@ -48435,7 +50011,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 2012,
-                "sub_index": 2012
+                "sub_index": 2012,
+                "tr_id": 275
             },
             "Lvl 100 Teacher Anabel": {
                 "level": 100,
@@ -48449,7 +50026,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 2135,
-                "sub_index": 2135
+                "sub_index": 2135,
+                "tr_id": 298
             }
         },
         "Komala": {
@@ -48465,7 +50043,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 1020,
-                "sub_index": 1020
+                "sub_index": 1020,
+                "tr_id": 335
             }
         },
         "Appletun": {
@@ -48481,7 +50060,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Petaya Berry",
                 "index": 1021,
-                "sub_index": 1021
+                "sub_index": 1021,
+                "tr_id": 335
             }
         },
         "Typhlosion": {
@@ -48497,7 +50077,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lum Berry",
                 "index": 1022,
-                "sub_index": 1022
+                "sub_index": 1022,
+                "tr_id": 81
             }
         },
         "Scovillain": {
@@ -48513,7 +50094,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 1024,
-                "sub_index": 1024
+                "sub_index": 1024,
+                "tr_id": 81
             },
             "Lvl 71 Hiker Eli": {
                 "level": 71,
@@ -48527,7 +50109,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Scovillainite",
                 "index": 1087,
-                "sub_index": 1087
+                "sub_index": 1087,
+                "tr_id": 304
             },
             "Lvl 80 Team Magma Grunt Grintoul": {
                 "level": 80,
@@ -48541,7 +50124,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1537,
-                "sub_index": 1537
+                "sub_index": 1537,
+                "tr_id": 87
             },
             "Lvl 82 Team Magma Leader Maxie2 ": {
                 "level": 82,
@@ -48555,7 +50139,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Focus Sash",
                 "index": 1576,
-                "sub_index": 1576
+                "sub_index": 1576,
+                "tr_id": 284
             },
             "Lvl 89 Magma Leader Maxie & Tabitha": {
                 "level": 89,
@@ -48569,7 +50154,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "White Herb",
                 "index": 1735,
-                "sub_index": 1735
+                "sub_index": 1735,
+                "tr_id": 217
             },
             "Lvl 94 Swimmer Susie": {
                 "level": 94,
@@ -48591,7 +50177,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1875,
-                "sub_index": 1875
+                "sub_index": 1875,
+                "tr_id": 265
             }
         },
         "Skarmory": {
@@ -48607,7 +50194,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Mental Herb",
                 "index": 1025,
-                "sub_index": 1025
+                "sub_index": 1025,
+                "tr_id": 336
             },
             "Lvl 76 Bird Keeper Jared": {
                 "level": 76,
@@ -48621,7 +50209,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Skarmorite",
                 "index": 1346,
-                "sub_index": 1346
+                "sub_index": 1346,
+                "tr_id": 62
             }
         },
         "Bruxish": {
@@ -48637,7 +50226,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Water Gem",
                 "index": 1026,
-                "sub_index": 1026
+                "sub_index": 1026,
+                "tr_id": 336
             },
             "Lvl 75 Institute Team Aqua Elite Grunt": {
                 "level": 75,
@@ -48651,7 +50241,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Bright Powder",
                 "index": 1262,
-                "sub_index": 1262
+                "sub_index": 1262,
+                "tr_id": 173
             },
             "Lvl 95 Beauty Bridget & Lady Brianna": {
                 "level": 95,
@@ -48665,7 +50256,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Kasib Berry",
                 "index": 1915,
-                "sub_index": 1915
+                "sub_index": 1915,
+                "tr_id": 253
             }
         },
         "Gardevoir": {
@@ -48681,7 +50273,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lum Berry",
                 "index": 1027,
-                "sub_index": 1027
+                "sub_index": 1027,
+                "tr_id": 336
             },
             "Lvl 86 Psychic Hannah & Hex Maniac Sylvia": {
                 "level": 86,
@@ -48695,7 +50288,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Gardevoirite",
                 "index": 1670,
-                "sub_index": 1670
+                "sub_index": 1670,
+                "tr_id": 299
             },
             "Lvl 100 Rival Wally1 ": {
                 "level": 100,
@@ -48717,7 +50311,8 @@ backup_data = {
                     "sp": "29"
                 },
                 "index": 2036,
-                "sub_index": 2036
+                "sub_index": 2036,
+                "tr_id": 320
             }
         },
         "Milotic": {
@@ -48733,7 +50328,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Flame Orb",
                 "index": 1028,
-                "sub_index": 1028
+                "sub_index": 1028,
+                "tr_id": 336
             },
             "Lvl 78 Beauty Jessica": {
                 "level": 78,
@@ -48747,7 +50343,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Leftovers",
                 "index": 1402,
-                "sub_index": 1402
+                "sub_index": 1402,
+                "tr_id": 286
             },
             "Lvl 100 Champion Wallace": {
                 "level": 100,
@@ -48761,7 +50358,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Power Herb",
                 "index": 2208,
-                "sub_index": 2208
+                "sub_index": 2208,
+                "tr_id": 314
             }
         },
         "Mienshao": {
@@ -48777,7 +50375,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Eject Button",
                 "index": 1031,
-                "sub_index": 1031
+                "sub_index": 1031,
+                "tr_id": 337
             },
             "Lvl 77 Partner Rival": {
                 "level": 77,
@@ -48799,7 +50398,8 @@ backup_data = {
                     "sp": "1"
                 },
                 "index": 1300,
-                "sub_index": 1300
+                "sub_index": 1300,
+                "tr_id": 166
             }
         },
         "Conkeldurr": {
@@ -48815,7 +50415,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Flame Orb",
                 "index": 1032,
-                "sub_index": 1032
+                "sub_index": 1032,
+                "tr_id": 337
             }
         },
         "Floatzel": {
@@ -48831,7 +50432,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Black Belt",
                 "index": 1033,
-                "sub_index": 1033
+                "sub_index": 1033,
+                "tr_id": 337
             },
             "Lvl 75 Institute Team Aqua Grunt #3 ": {
                 "level": 75,
@@ -48845,7 +50447,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Band",
                 "index": 1254,
-                "sub_index": 1254
+                "sub_index": 1254,
+                "tr_id": 34
             },
             "Lvl 92 Team Aqua Leader Archie2 ": {
                 "level": 92,
@@ -48859,7 +50462,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1814,
-                "sub_index": 1814
+                "sub_index": 1814,
+                "tr_id": 105
             }
         },
         "Meowstic": {
@@ -48875,7 +50479,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Meowsticite",
                 "index": 1035,
-                "sub_index": 1035
+                "sub_index": 1035,
+                "tr_id": 338
             },
             "Lvl 75 Ninja Boy Hideo": {
                 "level": 75,
@@ -48897,7 +50502,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1314,
-                "sub_index": 1314
+                "sub_index": 1314,
+                "tr_id": 78
             },
             "Lvl 86 Gentleman Andreas & Hex Maniac Tina": {
                 "level": 86,
@@ -48911,7 +50517,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Jaboca Berry",
                 "index": 1679,
-                "sub_index": 1679
+                "sub_index": 1679,
+                "tr_id": 196
             }
         },
         "Meowstic-Mega": {
@@ -48927,7 +50534,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Meowsticite",
                 "index": 1036,
-                "sub_index": 1036
+                "sub_index": 1036,
+                "tr_id": 338
             }
         },
         "Mr. Rime": {
@@ -48943,7 +50551,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Sitrus Berry",
                 "index": 1037,
-                "sub_index": 1037
+                "sub_index": 1037,
+                "tr_id": 338
             },
             "Lvl 81 Hideout Team Magma Grunt #4 ": {
                 "level": 81,
@@ -48957,7 +50566,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Berserk Gene",
                 "index": 1534,
-                "sub_index": 1534
+                "sub_index": 1534,
+                "tr_id": 294
             }
         },
         "Starmie": {
@@ -48973,7 +50583,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Petaya Berry",
                 "index": 1038,
-                "sub_index": 1038
+                "sub_index": 1038,
+                "tr_id": 338
             },
             "Lvl 79 Pyre Team Aqua Grunt #1 ": {
                 "level": 79,
@@ -48987,7 +50598,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Expert Belt",
                 "index": 1492,
-                "sub_index": 1492
+                "sub_index": 1492,
+                "tr_id": 187
             },
             "Lvl 86 Pokémaniac Symes & Bug Maniac Connor": {
                 "level": 86,
@@ -49001,7 +50613,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Starminite",
                 "index": 1656,
-                "sub_index": 1656
+                "sub_index": 1656,
+                "tr_id": 75
             },
             "Lvl 86 Gentleman Andreas & Hex Maniac Tina": {
                 "level": 86,
@@ -49015,7 +50628,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1680,
-                "sub_index": 1680
+                "sub_index": 1680,
+                "tr_id": 196
             },
             "Lvl 89 Seafloor Team Aqua Grunt #2 ": {
                 "level": 89,
@@ -49029,7 +50643,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1777,
-                "sub_index": 1777
+                "sub_index": 1777,
+                "tr_id": 19
             },
             "Lvl 95 Leader Steven": {
                 "level": 95,
@@ -49043,7 +50658,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 1944,
-                "sub_index": 1944
+                "sub_index": 1944,
+                "tr_id": 312
             }
         },
         "Alakazam": {
@@ -49059,7 +50675,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Flame Orb",
                 "index": 1039,
-                "sub_index": 1039
+                "sub_index": 1039,
+                "tr_id": 338
             },
             "Lvl 73 Cooltrainer Garrison": {
                 "level": 73,
@@ -49073,7 +50690,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Alakazite",
                 "index": 1169,
-                "sub_index": 1169
+                "sub_index": 1169,
+                "tr_id": 125
             },
             "Lvl 77 Cooltrainer Abobo": {
                 "level": 77,
@@ -49087,7 +50705,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1371,
-                "sub_index": 1371
+                "sub_index": 1371,
+                "tr_id": 339
             }
         },
         "Forretress": {
@@ -49103,7 +50722,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Mental Herb",
                 "index": 1040,
-                "sub_index": 1040
+                "sub_index": 1040,
+                "tr_id": 124
             }
         },
         "Dugtrio": {
@@ -49119,7 +50739,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ground Gem",
                 "index": 1043,
-                "sub_index": 1043
+                "sub_index": 1043,
+                "tr_id": 124
             },
             "Lvl 78 Cooltrainer Abobo": {
                 "level": 78,
@@ -49133,7 +50754,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ground Gem",
                 "index": 1374,
-                "sub_index": 1374
+                "sub_index": 1374,
+                "tr_id": 339
             }
         },
         "Bronzong": {
@@ -49157,7 +50779,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1044,
-                "sub_index": 1044
+                "sub_index": 1044,
+                "tr_id": 340
             }
         },
         "Aggron": {
@@ -49181,7 +50804,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1045,
-                "sub_index": 1045
+                "sub_index": 1045,
+                "tr_id": 340
             },
             "Lvl 73 Cooltrainer Irie": {
                 "level": 73,
@@ -49195,7 +50819,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Aggronite",
                 "index": 1154,
-                "sub_index": 1154
+                "sub_index": 1154,
+                "tr_id": 189
             },
             "Lvl 93 Triathlete Barron & Stephin": {
                 "level": 93,
@@ -49209,7 +50834,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Custap Berry",
                 "index": 1836,
-                "sub_index": 1836
+                "sub_index": 1836,
+                "tr_id": 92
             }
         },
         "Copperajah": {
@@ -49233,7 +50859,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1046,
-                "sub_index": 1046
+                "sub_index": 1046,
+                "tr_id": 340
             },
             "Lvl 88 Cooltrainer Puffy": {
                 "level": 88,
@@ -49247,7 +50874,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 1755,
-                "sub_index": 1755
+                "sub_index": 1755,
+                "tr_id": 212
             }
         },
         "Celesteela": {
@@ -49263,7 +50891,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 1047,
-                "sub_index": 1047
+                "sub_index": 1047,
+                "tr_id": 340
             }
         },
         "Thievul": {
@@ -49279,7 +50908,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Expert Belt",
                 "index": 1048,
-                "sub_index": 1048
+                "sub_index": 1048,
+                "tr_id": 118
             },
             "Lvl 80 Hideout Team Magma Grunt Zeldest": {
                 "level": 80,
@@ -49293,7 +50923,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Rawst Berry",
                 "index": 1515,
-                "sub_index": 1515
+                "sub_index": 1515,
+                "tr_id": 162
             }
         },
         "Cofagrigus": {
@@ -49309,7 +50940,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Focus Band",
                 "index": 1049,
-                "sub_index": 1049
+                "sub_index": 1049,
+                "tr_id": 118
             },
             "Lvl 79 Blackbelt Tyrone": {
                 "level": 79,
@@ -49323,7 +50955,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Sitrus Berry",
                 "index": 1451,
-                "sub_index": 1451
+                "sub_index": 1451,
+                "tr_id": 40
             }
         },
         "Swalot": {
@@ -49339,7 +50972,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Starf Berry",
                 "index": 1051,
-                "sub_index": 1051
+                "sub_index": 1051,
+                "tr_id": 118
             },
             "Lvl 95 Team Rocket Grunt #3 ": {
                 "level": 95,
@@ -49353,7 +50987,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Starf Berry",
                 "index": 1970,
-                "sub_index": 1970
+                "sub_index": 1970,
+                "tr_id": 38
             }
         },
         "Manectric-Mega": {
@@ -49377,7 +51012,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1053,
-                "sub_index": 1053
+                "sub_index": 1053,
+                "tr_id": 42
             },
             "Lvl 95 Beauty Bridget & Lady Brianna": {
                 "level": 95,
@@ -49399,7 +51035,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1914,
-                "sub_index": 1914
+                "sub_index": 1914,
+                "tr_id": 253
             }
         },
         "Noivern": {
@@ -49415,7 +51052,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Bug Gem",
                 "index": 1054,
-                "sub_index": 1054
+                "sub_index": 1054,
+                "tr_id": 42
             },
             "Lvl 80 Pyre Team Aqua Grunt #5 ": {
                 "level": 80,
@@ -49429,7 +51067,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Specs",
                 "index": 1510,
-                "sub_index": 1510
+                "sub_index": 1510,
+                "tr_id": 133
             },
             "Lvl 93 Swimmer Katie & Swimmer Santiago": {
                 "level": 93,
@@ -49443,7 +51082,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1848,
-                "sub_index": 1848
+                "sub_index": 1848,
+                "tr_id": 333
             }
         },
         "Incineroar": {
@@ -49459,7 +51099,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Muscle Band",
                 "index": 1056,
-                "sub_index": 1056
+                "sub_index": 1056,
+                "tr_id": 42
             },
             "Lvl 71 Hiker Eli": {
                 "level": 71,
@@ -49473,7 +51114,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 1086,
-                "sub_index": 1086
+                "sub_index": 1086,
+                "tr_id": 304
             },
             "Lvl 86 Space Center Team Magma Elite Grunt": {
                 "level": 86,
@@ -49487,7 +51129,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mental Herb",
                 "index": 1710,
-                "sub_index": 1710
+                "sub_index": 1710,
+                "tr_id": 93
             },
             "Lvl 100 Elite Four Rival Doubles": {
                 "level": 100,
@@ -49501,7 +51144,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Mental Herb",
                 "index": 2183,
-                "sub_index": 2183
+                "sub_index": 2183,
+                "tr_id": 172
             }
         },
         "Lickilicky": {
@@ -49517,7 +51161,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Assault Vest",
                 "index": 1057,
-                "sub_index": 1057
+                "sub_index": 1057,
+                "tr_id": 42
             }
         },
         "Latias": {
@@ -49533,7 +51178,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Fire Gem",
                 "index": 1058,
-                "sub_index": 1058
+                "sub_index": 1058,
+                "tr_id": 211
             },
             "Lvl 82 Team Magma Admin Tabitha2 ": {
                 "level": 82,
@@ -49547,7 +51193,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Latiasite",
                 "index": 1567,
-                "sub_index": 1567
+                "sub_index": 1567,
+                "tr_id": 277
             }
         },
         "Scizor": {
@@ -49563,7 +51210,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Scizorite",
                 "index": 1063,
-                "sub_index": 1063
+                "sub_index": 1063,
+                "tr_id": 211
             },
             "Lvl 76 Ranger Frank Josh": {
                 "level": 76,
@@ -49577,7 +51225,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Muscle Band",
                 "index": 1337,
-                "sub_index": 1337
+                "sub_index": 1337,
+                "tr_id": 327
             },
             "Lvl 82 Team Magma Admin Tabitha2 ": {
                 "level": 82,
@@ -49591,7 +51240,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 1569,
-                "sub_index": 1569
+                "sub_index": 1569,
+                "tr_id": 277
             },
             "Lvl 90 Magma Leader Maxie & Tabitha": {
                 "level": 90,
@@ -49605,7 +51255,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Scizorite",
                 "index": 1738,
-                "sub_index": 1738
+                "sub_index": 1738,
+                "tr_id": 217
             },
             "Lvl 89 Seafloor Team Aqua Grunt #1 ": {
                 "level": 89,
@@ -49619,7 +51270,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Choice Band",
                 "index": 1770,
-                "sub_index": 1770
+                "sub_index": 1770,
+                "tr_id": 309
             },
             "Lvl 99 Naturalist Greta1 ": {
                 "level": 99,
@@ -49633,7 +51285,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Scizorite",
                 "index": 2068,
-                "sub_index": 2068
+                "sub_index": 2068,
+                "tr_id": 146
             },
             "Lvl 99 Naturalist Greta2 ": {
                 "level": 99,
@@ -49647,7 +51300,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Silver Powder",
                 "index": 2075,
-                "sub_index": 2075
+                "sub_index": 2075,
+                "tr_id": 147
             }
         },
         "Scizor-Mega": {
@@ -49663,7 +51317,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Scizorite",
                 "index": 1064,
-                "sub_index": 1064
+                "sub_index": 1064,
+                "tr_id": 211
             },
             "Lvl 90 Magma Leader Maxie & Tabitha": {
                 "level": 90,
@@ -49677,7 +51332,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Scizorite",
                 "index": 1739,
-                "sub_index": 1739
+                "sub_index": 1739,
+                "tr_id": 217
             },
             "Lvl 99 Naturalist Greta1 ": {
                 "level": 99,
@@ -49691,7 +51347,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Scizorite",
                 "index": 2069,
-                "sub_index": 2069
+                "sub_index": 2069,
+                "tr_id": 146
             }
         },
         "Koraidon": {
@@ -49707,7 +51364,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Fire Gem",
                 "index": 1065,
-                "sub_index": 1065
+                "sub_index": 1065,
+                "tr_id": 341
             },
             "Lvl 82 Team Magma Leader Maxie2 ": {
                 "level": 82,
@@ -49721,7 +51379,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Eject Button",
                 "index": 1577,
-                "sub_index": 1577
+                "sub_index": 1577,
+                "tr_id": 284
             },
             "Lvl 90 Magma Leader Maxie & Tabitha": {
                 "level": 90,
@@ -49735,7 +51394,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1734,
-                "sub_index": 1734
+                "sub_index": 1734,
+                "tr_id": 217
             }
         },
         "Garbodor": {
@@ -49751,7 +51411,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Shuca Berry",
                 "index": 1066,
-                "sub_index": 1066
+                "sub_index": 1066,
+                "tr_id": 248
             }
         },
         "Escavalier": {
@@ -49767,7 +51428,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 1068,
-                "sub_index": 1068
+                "sub_index": 1068,
+                "tr_id": 248
             },
             "Lvl 76 Bridge Rival Froakie": {
                 "level": 76,
@@ -49781,7 +51443,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Enigma Berry",
                 "index": 1291,
-                "sub_index": 1291
+                "sub_index": 1291,
+                "tr_id": 184
             }
         },
         "Avalugg": {
@@ -49797,7 +51460,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Iapapa Berry",
                 "index": 1069,
-                "sub_index": 1069
+                "sub_index": 1069,
+                "tr_id": 248
             }
         },
         "Victreebel": {
@@ -49813,7 +51477,8 @@ backup_data = {
                 "nature": "Naughty",
                 "item": "Victreebelite",
                 "index": 1071,
-                "sub_index": 1071
+                "sub_index": 1071,
+                "tr_id": 103
             },
             "Lvl 75 Bridge Rival Chespin": {
                 "level": 75,
@@ -49827,7 +51492,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Grassy Seed",
                 "index": 1276,
-                "sub_index": 1276
+                "sub_index": 1276,
+                "tr_id": 160
             }
         },
         "Victreebel-Mega": {
@@ -49843,7 +51509,8 @@ backup_data = {
                 "nature": "Naughty",
                 "item": "Victreebelite",
                 "index": 1072,
-                "sub_index": 1072
+                "sub_index": 1072,
+                "tr_id": 103
             }
         },
         "Gourgeist": {
@@ -49859,7 +51526,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Occa Berry",
                 "index": 1073,
-                "sub_index": 1073
+                "sub_index": 1073,
+                "tr_id": 103
             },
             "Lvl 79 Hex Maniac Tasha": {
                 "level": 79,
@@ -49873,7 +51541,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Kasib Berry",
                 "index": 1466,
-                "sub_index": 1466
+                "sub_index": 1466,
+                "tr_id": 251
             }
         },
         "Shiftry": {
@@ -49889,7 +51558,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Band",
                 "index": 1075,
-                "sub_index": 1075
+                "sub_index": 1075,
+                "tr_id": 103
             },
             "Lvl 77 Camper Flint & Bird Keeper Edwardo": {
                 "level": 77,
@@ -49903,7 +51573,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 1325,
-                "sub_index": 1325
+                "sub_index": 1325,
+                "tr_id": 269
             },
             "Lvl 80 Hideout Team Magma Grunt #3 ": {
                 "level": 80,
@@ -49917,7 +51588,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Bright Powder",
                 "index": 1526,
-                "sub_index": 1526
+                "sub_index": 1526,
+                "tr_id": 230
             },
             "Lvl 99 Natural Guru Spenser1 ": {
                 "level": 99,
@@ -49931,7 +51603,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 2082,
-                "sub_index": 2082
+                "sub_index": 2082,
+                "tr_id": 316
             }
         },
         "Cinccino": {
@@ -49947,7 +51620,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Loaded Dice",
                 "index": 1076,
-                "sub_index": 1076
+                "sub_index": 1076,
+                "tr_id": 342
             },
             "Lvl 73 Rich Boy Milky": {
                 "level": 73,
@@ -49961,7 +51635,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 1134,
-                "sub_index": 1134
+                "sub_index": 1134,
+                "tr_id": 282
             }
         },
         "Tinkaton": {
@@ -49977,7 +51652,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Sitrus Berry",
                 "index": 1077,
-                "sub_index": 1077
+                "sub_index": 1077,
+                "tr_id": 342
             },
             "Lvl 80 Team Magma Grunt Grintoul": {
                 "level": 80,
@@ -49991,7 +51667,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Berserk Gene",
                 "index": 1538,
-                "sub_index": 1538
+                "sub_index": 1538,
+                "tr_id": 87
             }
         },
         "Rotom-Fan": {
@@ -50007,7 +51684,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1078,
-                "sub_index": 1078
+                "sub_index": 1078,
+                "tr_id": 342
             },
             "Lvl 75 Bird Keeper Dayton": {
                 "level": 75,
@@ -50021,7 +51699,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Iapapa Berry",
                 "index": 1229,
-                "sub_index": 1229
+                "sub_index": 1229,
+                "tr_id": 306
             }
         },
         "Ribombee": {
@@ -50037,7 +51716,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 1079,
-                "sub_index": 1079
+                "sub_index": 1079,
+                "tr_id": 342
             },
             "Lvl 78 Cooltrainer Abobo": {
                 "level": 78,
@@ -50051,7 +51731,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Coba Berry",
                 "index": 1375,
-                "sub_index": 1375
+                "sub_index": 1375,
+                "tr_id": 339
             }
         },
         "Relicanth": {
@@ -50066,7 +51747,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Custap Berry",
                 "index": 1080,
-                "sub_index": 1080
+                "sub_index": 1080,
+                "tr_id": 343
             },
             "Lvl 92 Triathlete Allison": {
                 "level": 92,
@@ -50080,7 +51762,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Rindo Berry",
                 "index": 1827,
-                "sub_index": 1827
+                "sub_index": 1827,
+                "tr_id": 59
             }
         },
         "Amoonguss": {
@@ -50096,7 +51779,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Black Sludge",
                 "index": 1081,
-                "sub_index": 1081
+                "sub_index": 1081,
+                "tr_id": 343
             }
         },
         "Tauros": {
@@ -50112,7 +51796,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Chople Berry",
                 "index": 1082,
-                "sub_index": 1082
+                "sub_index": 1082,
+                "tr_id": 343
             },
             "Lvl 95 Team Rocket Grunt #3 ": {
                 "level": 95,
@@ -50126,7 +51811,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Normal Gem",
                 "index": 1972,
-                "sub_index": 1972
+                "sub_index": 1972,
+                "tr_id": 38
             }
         },
         "Lycanroc-Dusk": {
@@ -50142,7 +51828,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Expert Belt",
                 "index": 1083,
-                "sub_index": 1083
+                "sub_index": 1083,
+                "tr_id": 343
             }
         },
         "Sandy Shocks": {
@@ -50158,7 +51845,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 1085,
-                "sub_index": 1085
+                "sub_index": 1085,
+                "tr_id": 304
             },
             "Lvl 81 Team Magma Leader Maxie2 ": {
                 "level": 81,
@@ -50172,7 +51860,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Fire Gem",
                 "index": 1578,
-                "sub_index": 1578
+                "sub_index": 1578,
+                "tr_id": 284
             }
         },
         "Scovillain-Mega": {
@@ -50188,7 +51877,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Scovillainite",
                 "index": 1088,
-                "sub_index": 1088
+                "sub_index": 1088,
+                "tr_id": 304
             },
             "Lvl 94 Swimmer Susie": {
                 "level": 94,
@@ -50210,7 +51900,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1876,
-                "sub_index": 1876
+                "sub_index": 1876,
+                "tr_id": 265
             }
         },
         "Haxorus": {
@@ -50226,7 +51917,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Fire Gem",
                 "index": 1089,
-                "sub_index": 1089
+                "sub_index": 1089,
+                "tr_id": 304
             },
             "Lvl 74 Cooltrainer Irie": {
                 "level": 74,
@@ -50240,7 +51932,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Blunder Policy",
                 "index": 1156,
-                "sub_index": 1156
+                "sub_index": 1156,
+                "tr_id": 189
             }
         },
         "Infernape": {
@@ -50256,7 +51949,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Punching Glove",
                 "index": 1090,
-                "sub_index": 1090
+                "sub_index": 1090,
+                "tr_id": 176
             },
             "Lvl 81 Hideout Magma Grunt #6 & #7 ": {
                 "level": 81,
@@ -50270,7 +51964,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Covert Cloak",
                 "index": 1542,
-                "sub_index": 1542
+                "sub_index": 1542,
+                "tr_id": 264
             },
             "Lvl 100 Elite Four Phoebe Doubles": {
                 "level": 100,
@@ -50284,7 +51979,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Eject Pack",
                 "index": 2167,
-                "sub_index": 2167
+                "sub_index": 2167,
+                "tr_id": 228
             }
         },
         "Magmortar": {
@@ -50300,7 +51996,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Assault Vest",
                 "index": 1092,
-                "sub_index": 1092
+                "sub_index": 1092,
+                "tr_id": 176
             },
             "Lvl 80 Hideout Magma Grunt #6 & #7 ": {
                 "level": 80,
@@ -50314,7 +52011,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Specs",
                 "index": 1540,
-                "sub_index": 1540
+                "sub_index": 1540,
+                "tr_id": 264
             }
         },
         "Cherrim": {
@@ -50330,7 +52028,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1095,
-                "sub_index": 1095
+                "sub_index": 1095,
+                "tr_id": 159
             },
             "Lvl 92 Triathlete Barron & Stephin": {
                 "level": 92,
@@ -50344,7 +52043,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Covert Cloak",
                 "index": 1834,
-                "sub_index": 1834
+                "sub_index": 1834,
+                "tr_id": 92
             }
         },
         "Tangrowth": {
@@ -50360,7 +52060,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Occa Berry",
                 "index": 1097,
-                "sub_index": 1097
+                "sub_index": 1097,
+                "tr_id": 159
             },
             "Lvl 75 Ninja Boy Terror": {
                 "level": 75,
@@ -50374,7 +52075,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Assault Vest",
                 "index": 1237,
-                "sub_index": 1237
+                "sub_index": 1237,
+                "tr_id": 308
             }
         },
         "Dragapult": {
@@ -50390,7 +52092,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wise Glasses",
                 "index": 1101,
-                "sub_index": 1101
+                "sub_index": 1101,
+                "tr_id": 56
             },
             "Lvl 80 Psychic Cedric": {
                 "level": 80,
@@ -50404,7 +52107,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1485,
-                "sub_index": 1485
+                "sub_index": 1485,
+                "tr_id": 283
             },
             "Lvl 90 Seafloor Team Aqua Grunt #2 ": {
                 "level": 90,
@@ -50418,7 +52122,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Binding Band",
                 "index": 1779,
-                "sub_index": 1779
+                "sub_index": 1779,
+                "tr_id": 19
             },
             "Lvl 94 Expert Makayla": {
                 "level": 94,
@@ -50432,7 +52137,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Spell Tag",
                 "index": 1884,
-                "sub_index": 1884
+                "sub_index": 1884,
+                "tr_id": 36
             }
         },
         "Volcarona": {
@@ -50448,7 +52154,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 1103,
-                "sub_index": 1103
+                "sub_index": 1103,
+                "tr_id": 56
             },
             "Lvl 74 Ranger Nak": {
                 "level": 74,
@@ -50470,7 +52177,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1219,
-                "sub_index": 1219
+                "sub_index": 1219,
+                "tr_id": 200
             },
             "Lvl 81 Hideout Team Magma Grunt #9 ": {
                 "level": 81,
@@ -50484,7 +52192,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Bright Powder",
                 "index": 1553,
-                "sub_index": 1553
+                "sub_index": 1553,
+                "tr_id": 126
             },
             "Lvl 98 Kindler Kos": {
                 "level": 98,
@@ -50498,7 +52207,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 1998,
-                "sub_index": 1998
+                "sub_index": 1998,
+                "tr_id": 135
             }
         },
         "Darmanitan-Galar": {
@@ -50514,7 +52224,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1107,
-                "sub_index": 1107
+                "sub_index": 1107,
+                "tr_id": 238
             },
             "Lvl 80 Hideout Team Magma Grunt #3 ": {
                 "level": 80,
@@ -50528,7 +52239,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Band",
                 "index": 1527,
-                "sub_index": 1527
+                "sub_index": 1527,
+                "tr_id": 230
             },
             "Lvl 95 Pokéfan Annika": {
                 "level": 95,
@@ -50542,7 +52254,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Scarf",
                 "index": 1905,
-                "sub_index": 1905
+                "sub_index": 1905,
+                "tr_id": 215
             }
         },
         "Silvally-Ice": {
@@ -50558,7 +52271,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Ice Memory",
                 "index": 1108,
-                "sub_index": 1108
+                "sub_index": 1108,
+                "tr_id": 238
             }
         },
         "Flareon": {
@@ -50574,7 +52288,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Ice Gem",
                 "index": 1109,
-                "sub_index": 1109
+                "sub_index": 1109,
+                "tr_id": 238
             },
             "Lvl 80 Hideout Team Magma Elite Grunt": {
                 "level": 80,
@@ -50588,7 +52303,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Fire Gem",
                 "index": 1562,
-                "sub_index": 1562
+                "sub_index": 1562,
+                "tr_id": 139
             },
             "Lvl 94 Triathlete Talia": {
                 "level": 94,
@@ -50600,7 +52316,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Band",
                 "index": 1864,
-                "sub_index": 1864
+                "sub_index": 1864,
+                "tr_id": 222
             }
         },
         "Weezing-Galar": {
@@ -50616,7 +52333,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Terrain Extender",
                 "index": 1110,
-                "sub_index": 1110
+                "sub_index": 1110,
+                "tr_id": 318
             }
         },
         "Turtonator": {
@@ -50632,7 +52350,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Misty Seed",
                 "index": 1112,
-                "sub_index": 1112
+                "sub_index": 1112,
+                "tr_id": 318
             },
             "Lvl 86 Space Center Team Magma Grunt #5 ": {
                 "level": 86,
@@ -50643,7 +52362,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Quick Claw",
                 "index": 1723,
-                "sub_index": 1723
+                "sub_index": 1723,
+                "tr_id": 130
             }
         },
         "Drifblim": {
@@ -50659,7 +52379,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Flame Orb",
                 "index": 1113,
-                "sub_index": 1113
+                "sub_index": 1113,
+                "tr_id": 318
             },
             "Lvl 86 Gentleman Clifford & Psychic Macey": {
                 "level": 86,
@@ -50673,7 +52394,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Weakness Policy",
                 "index": 1687,
-                "sub_index": 1687
+                "sub_index": 1687,
+                "tr_id": 190
             }
         },
         "Volcanion": {
@@ -50689,7 +52411,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Heavy-Duty Boots",
                 "index": 1114,
-                "sub_index": 1114
+                "sub_index": 1114,
+                "tr_id": 318
             },
             "Lvl 100 Champion Wallace": {
                 "level": 100,
@@ -50703,7 +52426,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Assault Vest",
                 "index": 2207,
-                "sub_index": 2207
+                "sub_index": 2207,
+                "tr_id": 314
             }
         },
         "Ho-Oh": {
@@ -50719,7 +52443,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heavy-Duty Boots",
                 "index": 1117,
-                "sub_index": 1117
+                "sub_index": 1117,
+                "tr_id": 182
             },
             "Lvl 86 Space Center Team Magma Grunt #1 ": {
                 "level": 86,
@@ -50733,7 +52458,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Bright Powder",
                 "index": 1703,
-                "sub_index": 1703
+                "sub_index": 1703,
+                "tr_id": 244
             }
         },
         "Brute Bonnet": {
@@ -50749,7 +52475,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Utility Umbrella",
                 "index": 1118,
-                "sub_index": 1118
+                "sub_index": 1118,
+                "tr_id": 182
             },
             "Lvl 100 Trainer Archie": {
                 "level": 100,
@@ -50763,7 +52490,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Power Herb",
                 "index": 2129,
-                "sub_index": 2129
+                "sub_index": 2129,
+                "tr_id": 344
             }
         },
         "Skeledirge": {
@@ -50779,7 +52507,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Weakness Policy",
                 "index": 1119,
-                "sub_index": 1119
+                "sub_index": 1119,
+                "tr_id": 182
             },
             "Lvl 85 Swimmer Byonemil": {
                 "level": 85,
@@ -50801,7 +52530,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1629,
-                "sub_index": 1629
+                "sub_index": 1629,
+                "tr_id": 116
             }
         },
         "Houndoom-Mega": {
@@ -50817,7 +52547,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Houndoominite",
                 "index": 1121,
-                "sub_index": 1121
+                "sub_index": 1121,
+                "tr_id": 182
             }
         },
         "Empoleon": {
@@ -50833,7 +52564,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Custap Berry",
                 "index": 1122,
-                "sub_index": 1122
+                "sub_index": 1122,
+                "tr_id": 301
             },
             "Lvl 95 Pokéfan Bobertclef": {
                 "level": 95,
@@ -50847,7 +52579,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Binding Band",
                 "index": 1929,
-                "sub_index": 1929
+                "sub_index": 1929,
+                "tr_id": 57
             }
         },
         "Dragonite": {
@@ -50863,7 +52596,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Binding Band",
                 "index": 1123,
-                "sub_index": 1123
+                "sub_index": 1123,
+                "tr_id": 301
             },
             "Lvl 80 Cooltrainer Melodic": {
                 "level": 80,
@@ -50877,7 +52611,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Weakness Policy",
                 "index": 1392,
-                "sub_index": 1392
+                "sub_index": 1392,
+                "tr_id": 274
             },
             "Lvl 78 Lilycove Rival Fennekin": {
                 "level": 78,
@@ -50891,7 +52626,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Dragon Gem",
                 "index": 1432,
-                "sub_index": 1432
+                "sub_index": 1432,
+                "tr_id": 168
             },
             "Lvl 86 Space Center Team Magma Grunt #4 ": {
                 "level": 86,
@@ -50905,7 +52641,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Heavy-Duty Boots",
                 "index": 1718,
-                "sub_index": 1718
+                "sub_index": 1718,
+                "tr_id": 209
             },
             "Lvl 91 Swimmer Reed": {
                 "level": 91,
@@ -50919,7 +52656,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Dragoninite",
                 "index": 1824,
-                "sub_index": 1824
+                "sub_index": 1824,
+                "tr_id": 66
             },
             "Lvl 100 Elite Four Drake Singles": {
                 "level": 100,
@@ -50933,7 +52671,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Dragoninite",
                 "index": 2193,
-                "sub_index": 2193
+                "sub_index": 2193,
+                "tr_id": 136
             }
         },
         "Dhelmise": {
@@ -50949,7 +52688,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Grip Claw",
                 "index": 1124,
-                "sub_index": 1124
+                "sub_index": 1124,
+                "tr_id": 301
             },
             "Lvl 79 Psychic Cedric": {
                 "level": 79,
@@ -50963,7 +52703,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Steel Gem",
                 "index": 1484,
-                "sub_index": 1484
+                "sub_index": 1484,
+                "tr_id": 283
             },
             "Lvl 100 Champion Wallace": {
                 "level": 100,
@@ -50977,7 +52718,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Binding Band",
                 "index": 2203,
-                "sub_index": 2203
+                "sub_index": 2203,
+                "tr_id": 314
             }
         },
         "Tatsugiri-Mega": {
@@ -50993,7 +52735,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Tatsugirinite",
                 "index": 1126,
-                "sub_index": 1126
+                "sub_index": 1126,
+                "tr_id": 301
             }
         },
         "Dondozo": {
@@ -51009,7 +52752,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Covert Cloak",
                 "index": 1129,
-                "sub_index": 1129
+                "sub_index": 1129,
+                "tr_id": 302
             },
             "Lvl 73 Fisherman Noxie": {
                 "level": 73,
@@ -51023,7 +52767,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 1200,
-                "sub_index": 1200
+                "sub_index": 1200,
+                "tr_id": 262
             },
             "Lvl 90 Sis And Bro Reli&Ian": {
                 "level": 90,
@@ -51037,7 +52782,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Covert Cloak",
                 "index": 1763,
-                "sub_index": 1763
+                "sub_index": 1763,
+                "tr_id": 88
             }
         },
         "Feraligatr-Mega": {
@@ -51053,7 +52799,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Feraligite",
                 "index": 1131,
-                "sub_index": 1131
+                "sub_index": 1131,
+                "tr_id": 302
             }
         },
         "Porygon2": {
@@ -51069,7 +52816,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Eviolite",
                 "index": 1132,
-                "sub_index": 1132
+                "sub_index": 1132,
+                "tr_id": 282
             }
         },
         "Falinks-Mega": {
@@ -51085,7 +52833,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Falinksite",
                 "index": 1137,
-                "sub_index": 1137
+                "sub_index": 1137,
+                "tr_id": 282
             }
         },
         "Scolipede": {
@@ -51109,7 +52858,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1142,
-                "sub_index": 1142
+                "sub_index": 1142,
+                "tr_id": 240
             },
             "Lvl 73 Bug Maniac Taylor": {
                 "level": 73,
@@ -51123,7 +52873,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Rocky Helmet",
                 "index": 1185,
-                "sub_index": 1185
+                "sub_index": 1185,
+                "tr_id": 48
             },
             "Lvl 95 Cooltrainer Yoru": {
                 "level": 95,
@@ -51137,7 +52888,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Starf Berry",
                 "index": 1983,
-                "sub_index": 1983
+                "sub_index": 1983,
+                "tr_id": 310
             }
         },
         "Scolipede-Mega": {
@@ -51161,7 +52913,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1143,
-                "sub_index": 1143
+                "sub_index": 1143,
+                "tr_id": 240
             }
         },
         "Spiritomb": {
@@ -51177,7 +52930,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 1144,
-                "sub_index": 1144
+                "sub_index": 1144,
+                "tr_id": 231
             }
         },
         "Aegislash-Shield": {
@@ -51193,7 +52947,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 1145,
-                "sub_index": 1145
+                "sub_index": 1145,
+                "tr_id": 231
             },
             "Lvl 95 Beauty Bridget & Lady Brianna": {
                 "level": 95,
@@ -51207,7 +52962,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Leftovers",
                 "index": 1916,
-                "sub_index": 1916
+                "sub_index": 1916,
+                "tr_id": 253
             }
         },
         "Okidogi": {
@@ -51223,7 +52979,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 1146,
-                "sub_index": 1146
+                "sub_index": 1146,
+                "tr_id": 231
             }
         },
         "Pyroar-Mega": {
@@ -51239,7 +52996,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Pyroarite",
                 "index": 1149,
-                "sub_index": 1149
+                "sub_index": 1149,
+                "tr_id": 231
             }
         },
         "Aggron-Mega": {
@@ -51255,7 +53013,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Aggronite",
                 "index": 1155,
-                "sub_index": 1155
+                "sub_index": 1155,
+                "tr_id": 189
             }
         },
         "Glimmora": {
@@ -51271,7 +53030,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Air Balloon",
                 "index": 1157,
-                "sub_index": 1157
+                "sub_index": 1157,
+                "tr_id": 37
             },
             "Lvl 87 Expert Cash": {
                 "level": 87,
@@ -51285,7 +53045,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Glimmoranite",
                 "index": 1637,
-                "sub_index": 1637
+                "sub_index": 1637,
+                "tr_id": 295
             },
             "Lvl 86 Space Center Team Magma Grunt #1 ": {
                 "level": 86,
@@ -51299,7 +53060,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Quick Claw",
                 "index": 1698,
-                "sub_index": 1698
+                "sub_index": 1698,
+                "tr_id": 244
             },
             "Lvl 88 Expert Qspec": {
                 "level": 88,
@@ -51313,7 +53075,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Air Balloon",
                 "index": 1756,
-                "sub_index": 1756
+                "sub_index": 1756,
+                "tr_id": 305
             }
         },
         "Sableye-Mega": {
@@ -51329,7 +53092,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Sablenite",
                 "index": 1159,
-                "sub_index": 1159
+                "sub_index": 1159,
+                "tr_id": 37
             }
         },
         "Hydrapple": {
@@ -51345,7 +53109,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Maranga Berry",
                 "index": 1160,
-                "sub_index": 1160
+                "sub_index": 1160,
+                "tr_id": 37
             },
             "Lvl 78 Cooltrainer Marcel": {
                 "level": 78,
@@ -51359,7 +53124,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Roseli Berry",
                 "index": 1415,
-                "sub_index": 1415
+                "sub_index": 1415,
+                "tr_id": 214
             },
             "Lvl 96 Expert Niklas": {
                 "level": 96,
@@ -51373,7 +53139,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Binding Band",
                 "index": 1990,
-                "sub_index": 1990
+                "sub_index": 1990,
+                "tr_id": 170
             }
         },
         "Annihilape": {
@@ -51389,7 +53156,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Salac Berry",
                 "index": 1162,
-                "sub_index": 1162
+                "sub_index": 1162,
+                "tr_id": 37
             },
             "Lvl 87 Leader Tate": {
                 "level": 87,
@@ -51403,7 +53171,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Leftovers",
                 "index": 1697,
-                "sub_index": 1697
+                "sub_index": 1697,
+                "tr_id": 329
             },
             "Lvl 94 Expert Ronald": {
                 "level": 94,
@@ -51417,7 +53186,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Iapapa Berry",
                 "index": 1878,
-                "sub_index": 1878
+                "sub_index": 1878,
+                "tr_id": 71
             }
         },
         "Kingambit": {
@@ -51433,7 +53203,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Dark Gem",
                 "index": 1163,
-                "sub_index": 1163
+                "sub_index": 1163,
+                "tr_id": 37
             },
             "Lvl 80 Hideout Team Magma Grunt #4 ": {
                 "level": 80,
@@ -51447,7 +53218,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Dark Gem",
                 "index": 1531,
-                "sub_index": 1531
+                "sub_index": 1531,
+                "tr_id": 294
             },
             "Lvl 96 Youngster Des": {
                 "level": 96,
@@ -51461,7 +53233,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Life Orb",
                 "index": 2004,
-                "sub_index": 2004
+                "sub_index": 2004,
+                "tr_id": 157
             },
             "Lvl 100 Elite Four Sidney Singles": {
                 "level": 100,
@@ -51475,7 +53248,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Chople Berry",
                 "index": 2152,
-                "sub_index": 2152
+                "sub_index": 2152,
+                "tr_id": 180
             },
             "Lvl 100 Elite Four Sidney Doubles": {
                 "level": 100,
@@ -51489,7 +53263,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Chople Berry",
                 "index": 2159,
-                "sub_index": 2159
+                "sub_index": 2159,
+                "tr_id": 85
             }
         },
         "Oranguru": {
@@ -51505,7 +53280,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Light Clay",
                 "index": 1165,
-                "sub_index": 1165
+                "sub_index": 1165,
+                "tr_id": 125
             },
             "Lvl 86 Leader Tate": {
                 "level": 86,
@@ -51519,7 +53295,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Focus Sash",
                 "index": 1694,
-                "sub_index": 1694
+                "sub_index": 1694,
+                "tr_id": 329
             }
         },
         "Mamoswine": {
@@ -51535,7 +53312,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rock Gem",
                 "index": 1167,
-                "sub_index": 1167
+                "sub_index": 1167,
+                "tr_id": 125
             },
             "Lvl 95 Lady Daphne": {
                 "level": 95,
@@ -51549,7 +53327,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 1907,
-                "sub_index": 1907
+                "sub_index": 1907,
+                "tr_id": 8
             },
             "Lvl 99 Ex Elite Four Glacia2 ": {
                 "level": 99,
@@ -51563,7 +53342,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 2026,
-                "sub_index": 2026
+                "sub_index": 2026,
+                "tr_id": 247
             }
         },
         "Alakazam-Mega": {
@@ -51579,7 +53359,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Alakazite",
                 "index": 1170,
-                "sub_index": 1170
+                "sub_index": 1170,
+                "tr_id": 125
             }
         },
         "Meganium-Mega": {
@@ -51595,7 +53376,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Meganiumite",
                 "index": 1172,
-                "sub_index": 1172
+                "sub_index": 1172,
+                "tr_id": 193
             }
         },
         "Inteleon": {
@@ -51611,7 +53393,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1175,
-                "sub_index": 1175
+                "sub_index": 1175,
+                "tr_id": 193
             },
             "Lvl 90 Seafloor Team Aqua Grunt #1 ": {
                 "level": 90,
@@ -51625,7 +53408,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Scope Lens",
                 "index": 1774,
-                "sub_index": 1774
+                "sub_index": 1774,
+                "tr_id": 309
             },
             "Lvl 95 Pokéfan Bethany": {
                 "level": 95,
@@ -51639,7 +53423,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Light Clay",
                 "index": 1921,
-                "sub_index": 1921
+                "sub_index": 1921,
+                "tr_id": 141
             },
             "Lvl 96 Expert Niklas": {
                 "level": 96,
@@ -51653,7 +53438,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Water Gem",
                 "index": 1989,
-                "sub_index": 1989
+                "sub_index": 1989,
+                "tr_id": 170
             }
         },
         "Swanna": {
@@ -51669,7 +53455,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Iapapa Berry",
                 "index": 1176,
-                "sub_index": 1176
+                "sub_index": 1176,
+                "tr_id": 345
             },
             "Lvl 99 Rival Wally3 ": {
                 "level": 99,
@@ -51683,7 +53470,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Ice Gem",
                 "index": 2046,
-                "sub_index": 2046
+                "sub_index": 2046,
+                "tr_id": 317
             }
         },
         "Frosmoth": {
@@ -51699,7 +53487,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Wise Glasses",
                 "index": 1177,
-                "sub_index": 1177
+                "sub_index": 1177,
+                "tr_id": 345
             },
             "Lvl 76 Bridge Rival Fennekin": {
                 "level": 76,
@@ -51713,7 +53502,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Enigma Berry",
                 "index": 1285,
-                "sub_index": 1285
+                "sub_index": 1285,
+                "tr_id": 177
             },
             "Lvl 92 Swimmer Puppy": {
                 "level": 92,
@@ -51727,7 +53517,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Babiri Berry",
                 "index": 1842,
-                "sub_index": 1842
+                "sub_index": 1842,
+                "tr_id": 188
             }
         },
         "Venusaur": {
@@ -51743,7 +53534,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Luminous Moss",
                 "index": 1178,
-                "sub_index": 1178
+                "sub_index": 1178,
+                "tr_id": 345
             },
             "Lvl 91 Team Aqua Grunt Gren": {
                 "level": 91,
@@ -51757,7 +53549,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Venusaurite",
                 "index": 1798,
-                "sub_index": 1798
+                "sub_index": 1798,
+                "tr_id": 179
             },
             "Lvl 97 Kindler Kos": {
                 "level": 97,
@@ -51771,7 +53564,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Coba Berry",
                 "index": 1999,
-                "sub_index": 1999
+                "sub_index": 1999,
+                "tr_id": 135
             },
             "Lvl 100 Natural Guru Spenser1 ": {
                 "level": 100,
@@ -51785,7 +53579,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Venusaurite",
                 "index": 2084,
-                "sub_index": 2084
+                "sub_index": 2084,
+                "tr_id": 316
             },
             "Lvl 100 Natural Guru Spenser2 ": {
                 "level": 100,
@@ -51799,7 +53594,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Venusaurite",
                 "index": 2091,
-                "sub_index": 2091
+                "sub_index": 2091,
+                "tr_id": 185
             }
         },
         "Basculegion-F": {
@@ -51815,7 +53611,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Mystic Water",
                 "index": 1179,
-                "sub_index": 1179
+                "sub_index": 1179,
+                "tr_id": 345
             },
             "Lvl 91 Team Aqua Admin Shelly2 ": {
                 "level": 91,
@@ -51829,7 +53626,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Blunder Policy",
                 "index": 1802,
-                "sub_index": 1802
+                "sub_index": 1802,
+                "tr_id": 323
             },
             "Lvl 98 Twins Ame&Yuki": {
                 "level": 98,
@@ -51843,7 +53641,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 2020,
-                "sub_index": 2020
+                "sub_index": 2020,
+                "tr_id": 272
             }
         },
         "Salamence": {
@@ -51859,7 +53658,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "White Herb",
                 "index": 1182,
-                "sub_index": 1182
+                "sub_index": 1182,
+                "tr_id": 61
             },
             "Lvl 78 Lilycove Rival Froakie": {
                 "level": 78,
@@ -51873,7 +53673,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Dragon Gem",
                 "index": 1439,
-                "sub_index": 1439
+                "sub_index": 1439,
+                "tr_id": 169
             },
             "Lvl 100 Teacher Anabel": {
                 "level": 100,
@@ -51887,7 +53688,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heavy-Duty Boots",
                 "index": 2133,
-                "sub_index": 2133
+                "sub_index": 2133,
+                "tr_id": 298
             },
             "Lvl 100 Elite Four Drake Doubles": {
                 "level": 100,
@@ -51901,7 +53703,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Salamencite",
                 "index": 2200,
-                "sub_index": 2200
+                "sub_index": 2200,
+                "tr_id": 128
             }
         },
         "Corviknight": {
@@ -51917,7 +53720,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mirror Herb",
                 "index": 1183,
-                "sub_index": 1183
+                "sub_index": 1183,
+                "tr_id": 61
             },
             "Lvl 77 Leader Winona1 ": {
                 "level": 77,
@@ -51931,7 +53735,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 1358,
-                "sub_index": 1358
+                "sub_index": 1358,
+                "tr_id": 134
             }
         },
         "Pinsir-Mega": {
@@ -51947,7 +53752,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Pinsirite",
                 "index": 1190,
-                "sub_index": 1190
+                "sub_index": 1190,
+                "tr_id": 48
             }
         },
         "Genesect-Shock": {
@@ -51963,7 +53769,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Shock Drive",
                 "index": 1195,
-                "sub_index": 1195
+                "sub_index": 1195,
+                "tr_id": 96
             }
         },
         "Beedrill-Mega": {
@@ -51979,7 +53786,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Beedrillite",
                 "index": 1197,
-                "sub_index": 1197
+                "sub_index": 1197,
+                "tr_id": 96
             }
         },
         "Mantine": {
@@ -51995,7 +53803,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 1198,
-                "sub_index": 1198
+                "sub_index": 1198,
+                "tr_id": 262
             },
             "Lvl 91 Swimmer Reed": {
                 "level": 91,
@@ -52009,7 +53818,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Flying Gem",
                 "index": 1821,
-                "sub_index": 1821
+                "sub_index": 1821,
+                "tr_id": 66
             }
         },
         "Zeraora": {
@@ -52025,7 +53835,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Flying Gem",
                 "index": 1202,
-                "sub_index": 1202
+                "sub_index": 1202,
+                "tr_id": 262
             },
             "Lvl 95 Beauty Bridget & Lady Brianna": {
                 "level": 95,
@@ -52039,7 +53850,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Zeraorite",
                 "index": 1918,
-                "sub_index": 1918
+                "sub_index": 1918,
+                "tr_id": 253
             }
         },
         "Blastoise-Mega": {
@@ -52055,7 +53867,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Blastoisinite",
                 "index": 1204,
-                "sub_index": 1204
+                "sub_index": 1204,
+                "tr_id": 262
             },
             "Lvl 92 Swimmer Puppy": {
                 "level": 92,
@@ -52069,7 +53882,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Blastoisinite",
                 "index": 1846,
-                "sub_index": 1846
+                "sub_index": 1846,
+                "tr_id": 188
             }
         },
         "Tapu Bulu": {
@@ -52085,7 +53899,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Big Root",
                 "index": 1205,
-                "sub_index": 1205
+                "sub_index": 1205,
+                "tr_id": 273
             }
         },
         "Crawdaunt": {
@@ -52101,7 +53916,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Heavy-Duty Boots",
                 "index": 1206,
-                "sub_index": 1206
+                "sub_index": 1206,
+                "tr_id": 273
             },
             "Lvl 85 Swimmer Byonemil": {
                 "level": 85,
@@ -52123,7 +53939,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1631,
-                "sub_index": 1631
+                "sub_index": 1631,
+                "tr_id": 116
             }
         },
         "Dragalge-Mega": {
@@ -52139,7 +53956,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Dragalgite",
                 "index": 1208,
-                "sub_index": 1208
+                "sub_index": 1208,
+                "tr_id": 273
             }
         },
         "Wailord": {
@@ -52155,7 +53973,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Water Gem",
                 "index": 1210,
-                "sub_index": 1210
+                "sub_index": 1210,
+                "tr_id": 207
             }
         },
         "Jolteon": {
@@ -52171,7 +53990,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1212,
-                "sub_index": 1212
+                "sub_index": 1212,
+                "tr_id": 207
             }
         },
         "Slurpuff": {
@@ -52187,7 +54007,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Grassy Seed",
                 "index": 1213,
-                "sub_index": 1213
+                "sub_index": 1213,
+                "tr_id": 207
             },
             "Lvl 93 Swimmer Kara": {
                 "level": 93,
@@ -52201,7 +54022,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Wise Glasses",
                 "index": 1866,
-                "sub_index": 1866
+                "sub_index": 1866,
+                "tr_id": 255
             }
         },
         "Serperior": {
@@ -52217,7 +54039,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ability Shield",
                 "index": 1214,
-                "sub_index": 1214
+                "sub_index": 1214,
+                "tr_id": 207
             },
             "Lvl 95 Lady Daphne": {
                 "level": 95,
@@ -52239,7 +54062,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1909,
-                "sub_index": 1909
+                "sub_index": 1909,
+                "tr_id": 8
             }
         },
         "Sinistcha": {
@@ -52255,7 +54079,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Grass Gem",
                 "index": 1221,
-                "sub_index": 1221
+                "sub_index": 1221,
+                "tr_id": 268
             },
             "Lvl 80 Breeder Gabrielle": {
                 "level": 80,
@@ -52269,7 +54094,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "White Herb",
                 "index": 1481,
-                "sub_index": 1481
+                "sub_index": 1481,
+                "tr_id": 199
             },
             "Lvl 86 Psychic Virgil & Psychic Nate": {
                 "level": 86,
@@ -52291,7 +54117,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1662,
-                "sub_index": 1662
+                "sub_index": 1662,
+                "tr_id": 249
             },
             "Lvl 100 Elite Four Phoebe Doubles": {
                 "level": 100,
@@ -52305,7 +54132,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Iapapa Berry",
                 "index": 2170,
-                "sub_index": 2170
+                "sub_index": 2170,
+                "tr_id": 228
             }
         },
         "Wo-Chien": {
@@ -52321,7 +54149,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 1222,
-                "sub_index": 1222
+                "sub_index": 1222,
+                "tr_id": 268
             }
         },
         "Ogerpon": {
@@ -52337,7 +54166,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Kebia Berry",
                 "index": 1228,
-                "sub_index": 1228
+                "sub_index": 1228,
+                "tr_id": 106
             }
         },
         "Silvally-Flying": {
@@ -52353,7 +54183,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flying Memory",
                 "index": 1231,
-                "sub_index": 1231
+                "sub_index": 1231,
+                "tr_id": 306
             },
             "Lvl 100 Elite Four Rival Singles": {
                 "level": 100,
@@ -52367,7 +54198,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flying Memory",
                 "index": 2177,
-                "sub_index": 2177
+                "sub_index": 2177,
+                "tr_id": 171
             }
         },
         "Shedinja": {
@@ -52383,7 +54215,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 1233,
-                "sub_index": 1233
+                "sub_index": 1233,
+                "tr_id": 306
             },
             "Lvl 80 Pyre Team Aqua Grunt #1 ": {
                 "level": 80,
@@ -52397,7 +54230,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Band",
                 "index": 1491,
-                "sub_index": 1491
+                "sub_index": 1491,
+                "tr_id": 187
             }
         },
         "Wobbuffet": {
@@ -52413,7 +54247,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Mental Herb",
                 "index": 1235,
-                "sub_index": 1235
+                "sub_index": 1235,
+                "tr_id": 308
             },
             "Lvl 80 Pyre Team Aqua Grunt #2 ": {
                 "level": 80,
@@ -52427,7 +54262,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Iapapa Berry",
                 "index": 1499,
-                "sub_index": 1499
+                "sub_index": 1499,
+                "tr_id": 178
             }
         },
         "Sharpedo": {
@@ -52443,7 +54279,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Life Orb",
                 "index": 1236,
-                "sub_index": 1236
+                "sub_index": 1236,
+                "tr_id": 308
             },
             "Lvl 75 Institute Team Aqua Elite Grunt": {
                 "level": 75,
@@ -52457,7 +54294,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sharpedonite",
                 "index": 1264,
-                "sub_index": 1264
+                "sub_index": 1264,
+                "tr_id": 173
             },
             "Lvl 95 Team Aqua Leader Archie2 ": {
                 "level": 95,
@@ -52471,7 +54309,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sharpedonite",
                 "index": 1818,
-                "sub_index": 1818
+                "sub_index": 1818,
+                "tr_id": 105
             },
             "Lvl 100 Trainer Archie": {
                 "level": 100,
@@ -52485,7 +54324,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sharpedonite",
                 "index": 2130,
-                "sub_index": 2130
+                "sub_index": 2130,
+                "tr_id": 344
             }
         },
         "Weavile": {
@@ -52501,7 +54341,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Never Melt Ice",
                 "index": 1238,
-                "sub_index": 1238
+                "sub_index": 1238,
+                "tr_id": 308
             },
             "Lvl 80 Pyre Team Aqua Grunt #4 ": {
                 "level": 80,
@@ -52515,7 +54356,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Bright Powder",
                 "index": 1505,
-                "sub_index": 1505
+                "sub_index": 1505,
+                "tr_id": 208
             },
             "Lvl 80 Hideout Magma Grunt #6 & #7 ": {
                 "level": 80,
@@ -52529,7 +54371,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Band",
                 "index": 1545,
-                "sub_index": 1545
+                "sub_index": 1545,
+                "tr_id": 264
             },
             "Lvl 89 Expert Qspec": {
                 "level": 89,
@@ -52543,7 +54386,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1757,
-                "sub_index": 1757
+                "sub_index": 1757,
+                "tr_id": 305
             },
             "Lvl 94 Cooltrainer Bazzo": {
                 "level": 94,
@@ -52557,7 +54401,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 1888,
-                "sub_index": 1888
+                "sub_index": 1888,
+                "tr_id": 72
             },
             "Lvl 98 Pokémon Trainer Leaf2 ": {
                 "level": 98,
@@ -52571,7 +54416,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ice Gem",
                 "index": 2011,
-                "sub_index": 2011
+                "sub_index": 2011,
+                "tr_id": 275
             }
         },
         "Basculegion": {
@@ -52587,7 +54433,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Eject Button",
                 "index": 1244,
-                "sub_index": 1244
+                "sub_index": 1244,
+                "tr_id": 204
             },
             "Lvl 84 Team Aqua Admin Matt": {
                 "level": 84,
@@ -52601,7 +54448,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 1618,
-                "sub_index": 1618
+                "sub_index": 1618,
+                "tr_id": 83
             },
             "Lvl 94 Lady Daphne": {
                 "level": 94,
@@ -52615,7 +54463,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1908,
-                "sub_index": 1908
+                "sub_index": 1908,
+                "tr_id": 8
             }
         },
         "Drednaw": {
@@ -52631,7 +54480,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Bright Powder",
                 "index": 1246,
-                "sub_index": 1246
+                "sub_index": 1246,
+                "tr_id": 131
             },
             "Lvl 78 Cooltrainer Perseid": {
                 "level": 78,
@@ -52645,7 +54495,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 1398,
-                "sub_index": 1398
+                "sub_index": 1398,
+                "tr_id": 110
             },
             "Lvl 93 Swimmer Katie & Swimmer Santiago": {
                 "level": 93,
@@ -52657,7 +54508,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Band",
                 "index": 1851,
-                "sub_index": 1851
+                "sub_index": 1851,
+                "tr_id": 333
             }
         },
         "Tornadus": {
@@ -52673,7 +54525,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Scope Lens",
                 "index": 1248,
-                "sub_index": 1248
+                "sub_index": 1248,
+                "tr_id": 131
             }
         },
         "Cramorant": {
@@ -52689,7 +54542,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Bright Powder",
                 "index": 1249,
-                "sub_index": 1249
+                "sub_index": 1249,
+                "tr_id": 219
             },
             "Lvl 83 Team Aqua Grunt Gian": {
                 "level": 83,
@@ -52703,7 +54557,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 1592,
-                "sub_index": 1592
+                "sub_index": 1592,
+                "tr_id": 97
             },
             "Lvl 90 Team Aqua Grunt Gren": {
                 "level": 90,
@@ -52717,7 +54572,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 1795,
-                "sub_index": 1795
+                "sub_index": 1795,
+                "tr_id": 179
             }
         },
         "Thundurus": {
@@ -52733,7 +54589,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Flying Gem",
                 "index": 1252,
-                "sub_index": 1252
+                "sub_index": 1252,
+                "tr_id": 219
             }
         },
         "Landorus": {
@@ -52757,7 +54614,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1256,
-                "sub_index": 1256
+                "sub_index": 1256,
+                "tr_id": 34
             },
             "Lvl 86 Expert Cash": {
                 "level": 86,
@@ -52771,7 +54629,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Life Orb",
                 "index": 1636,
-                "sub_index": 1636
+                "sub_index": 1636,
+                "tr_id": 295
             },
             "Lvl 95 Cooltrainer Bazzo": {
                 "level": 95,
@@ -52785,7 +54644,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1889,
-                "sub_index": 1889
+                "sub_index": 1889,
+                "tr_id": 72
             }
         },
         "Ferrothorn": {
@@ -52801,7 +54661,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Quick Claw",
                 "index": 1258,
-                "sub_index": 1258
+                "sub_index": 1258,
+                "tr_id": 108
             },
             "Lvl 90 Seafloor Team Aqua Grunt #4 ": {
                 "level": 90,
@@ -52815,7 +54676,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Quick Claw",
                 "index": 1790,
-                "sub_index": 1790
+                "sub_index": 1790,
+                "tr_id": 216
             },
             "Lvl 92 Swimmer Puppy": {
                 "level": 92,
@@ -52829,7 +54691,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Leftovers",
                 "index": 1840,
-                "sub_index": 1840
+                "sub_index": 1840,
+                "tr_id": 188
             }
         },
         "Cursola": {
@@ -52845,7 +54708,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Quick Claw",
                 "index": 1260,
-                "sub_index": 1260
+                "sub_index": 1260,
+                "tr_id": 108
             },
             "Lvl 80 Pyre Team Aqua Grunt #1 ": {
                 "level": 80,
@@ -52859,7 +54723,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Kasib Berry",
                 "index": 1493,
-                "sub_index": 1493
+                "sub_index": 1493,
+                "tr_id": 187
             },
             "Lvl 94 Cooltrainer Bazzo": {
                 "level": 94,
@@ -52873,7 +54738,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Focus Sash",
                 "index": 1891,
-                "sub_index": 1891
+                "sub_index": 1891,
+                "tr_id": 72
             }
         },
         "Sharpedo-Mega": {
@@ -52889,7 +54755,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sharpedonite",
                 "index": 1265,
-                "sub_index": 1265
+                "sub_index": 1265,
+                "tr_id": 173
             },
             "Lvl 95 Team Aqua Leader Archie2 ": {
                 "level": 95,
@@ -52903,7 +54770,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sharpedonite",
                 "index": 1819,
-                "sub_index": 1819
+                "sub_index": 1819,
+                "tr_id": 105
             },
             "Lvl 100 Trainer Archie": {
                 "level": 100,
@@ -52917,7 +54785,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Sharpedonite",
                 "index": 2131,
-                "sub_index": 2131
+                "sub_index": 2131,
+                "tr_id": 344
             }
         },
         "Enamorus": {
@@ -52933,7 +54802,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Power Herb",
                 "index": 1267,
-                "sub_index": 1267
+                "sub_index": 1267,
+                "tr_id": 173
             }
         },
         "Latios": {
@@ -52949,7 +54819,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mystic Water",
                 "index": 1268,
-                "sub_index": 1268
+                "sub_index": 1268,
+                "tr_id": 220
             },
             "Lvl 91 Team Aqua Admin Shelly2 ": {
                 "level": 91,
@@ -52963,7 +54834,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Latiosite",
                 "index": 1800,
-                "sub_index": 1800
+                "sub_index": 1800,
+                "tr_id": 323
             }
         },
         "Walking Wake": {
@@ -52979,7 +54851,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lum Berry",
                 "index": 1277,
-                "sub_index": 1277
+                "sub_index": 1277,
+                "tr_id": 160
             },
             "Lvl 100 Trainer Archie": {
                 "level": 100,
@@ -52993,7 +54866,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 2127,
-                "sub_index": 2127
+                "sub_index": 2127,
+                "tr_id": 344
             }
         },
         "Silvally": {
@@ -53009,7 +54883,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Silk Scarf",
                 "index": 1280,
-                "sub_index": 1280
+                "sub_index": 1280,
+                "tr_id": 160
             }
         },
         "Iron Leaves": {
@@ -53025,7 +54900,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lum Berry",
                 "index": 1283,
-                "sub_index": 1283
+                "sub_index": 1283,
+                "tr_id": 177
             },
             "Lvl 94 Swimmer Katie & Swimmer Santiago": {
                 "level": 94,
@@ -53039,7 +54915,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Booster Energy",
                 "index": 1849,
-                "sub_index": 1849
+                "sub_index": 1849,
+                "tr_id": 333
             }
         },
         "Silvally-Fire": {
@@ -53055,7 +54932,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Fire Memory",
                 "index": 1286,
-                "sub_index": 1286
+                "sub_index": 1286,
+                "tr_id": 177
             },
             "Lvl 79 Lilycove Rival Froakie": {
                 "level": 79,
@@ -53069,7 +54947,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Fire Memory",
                 "index": 1436,
-                "sub_index": 1436
+                "sub_index": 1436,
+                "tr_id": 169
             }
         },
         "Sneasler": {
@@ -53085,7 +54964,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Grassy Seed",
                 "index": 1288,
-                "sub_index": 1288
+                "sub_index": 1288,
+                "tr_id": 184
             },
             "Lvl 78 Sr.And Jr.Kate&Joy": {
                 "level": 78,
@@ -53099,7 +54979,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Covert Cloak",
                 "index": 1406,
-                "sub_index": 1406
+                "sub_index": 1406,
+                "tr_id": 319
             },
             "Lvl 84 Swimmer Webe & Swimmer D.K": {
                 "level": 84,
@@ -53113,7 +54994,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 1623,
-                "sub_index": 1623
+                "sub_index": 1623,
+                "tr_id": 246
             },
             "Lvl 98 Pokémon Trainer Leaf2 ": {
                 "level": 98,
@@ -53127,7 +55009,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Psychic Seed",
                 "index": 2016,
-                "sub_index": 2016
+                "sub_index": 2016,
+                "tr_id": 275
             },
             "Lvl 100 Elite Four Phoebe Singles": {
                 "level": 100,
@@ -53141,7 +55024,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Fighting Gem",
                 "index": 2163,
-                "sub_index": 2163
+                "sub_index": 2163,
+                "tr_id": 227
             }
         },
         "Silvally-Water": {
@@ -53157,7 +55041,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Water Memory",
                 "index": 1292,
-                "sub_index": 1292
+                "sub_index": 1292,
+                "tr_id": 184
             },
             "Lvl 77 Partner Rival": {
                 "level": 77,
@@ -53171,7 +55056,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Water Memory",
                 "index": 1301,
-                "sub_index": 1301
+                "sub_index": 1301,
+                "tr_id": 166
             },
             "Lvl 79 Lilycove Rival Chespin": {
                 "level": 79,
@@ -53185,7 +55071,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Water Memory",
                 "index": 1422,
-                "sub_index": 1422
+                "sub_index": 1422,
+                "tr_id": 161
             },
             "Lvl 90 Seafloor Team Aqua Grunt #4 ": {
                 "level": 90,
@@ -53199,7 +55086,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Water Memory",
                 "index": 1787,
-                "sub_index": 1787
+                "sub_index": 1787,
+                "tr_id": 216
             }
         },
         "Tyranitar-Mega": {
@@ -53215,7 +55103,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Tyranitarite",
                 "index": 1297,
-                "sub_index": 1297
+                "sub_index": 1297,
+                "tr_id": 45
             },
             "Lvl 92 Team Aqua Grunt Steve3 ": {
                 "level": 92,
@@ -53229,7 +55118,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Chople Berry",
                 "index": 1807,
-                "sub_index": 1807
+                "sub_index": 1807,
+                "tr_id": 223
             }
         },
         "Lucario-Mega": {
@@ -53245,7 +55135,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Lucarionite",
                 "index": 1303,
-                "sub_index": 1303
+                "sub_index": 1303,
+                "tr_id": 166
             },
             "Lvl 80 Lilycove Rival Chespin": {
                 "level": 80,
@@ -53259,7 +55150,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lucarionite",
                 "index": 1428,
-                "sub_index": 1428
+                "sub_index": 1428,
+                "tr_id": 161
             },
             "Lvl 80 Lilycove Rival Fennekin": {
                 "level": 80,
@@ -53273,7 +55165,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lucarionite",
                 "index": 1435,
-                "sub_index": 1435
+                "sub_index": 1435,
+                "tr_id": 168
             },
             "Lvl 80 Lilycove Rival Froakie": {
                 "level": 80,
@@ -53287,7 +55180,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lucarionite",
                 "index": 1442,
-                "sub_index": 1442
+                "sub_index": 1442,
+                "tr_id": 169
             },
             "Lvl 100 Elite Four Rival Singles": {
                 "level": 100,
@@ -53301,7 +55195,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Lucarionite",
                 "index": 2180,
-                "sub_index": 2180
+                "sub_index": 2180,
+                "tr_id": 171
             },
             "Lvl 100 Elite Four Rival Doubles": {
                 "level": 100,
@@ -53315,7 +55210,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Lucarionite",
                 "index": 2187,
-                "sub_index": 2187
+                "sub_index": 2187,
+                "tr_id": 172
             }
         },
         "Klefki": {
@@ -53331,7 +55227,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Mental Herb",
                 "index": 1304,
-                "sub_index": 1304
+                "sub_index": 1304,
+                "tr_id": 266
             },
             "Lvl 83 Team Aqua Grunt Soph": {
                 "level": 83,
@@ -53345,7 +55242,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Leftovers",
                 "index": 1584,
-                "sub_index": 1584
+                "sub_index": 1584,
+                "tr_id": 99
             },
             "Lvl 97 Pokémon Trainer Leaf2 ": {
                 "level": 97,
@@ -53359,7 +55257,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Mental Herb",
                 "index": 2010,
-                "sub_index": 2010
+                "sub_index": 2010,
+                "tr_id": 275
             }
         },
         "Muk-Alola": {
@@ -53375,7 +55274,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Assault Vest",
                 "index": 1307,
-                "sub_index": 1307
+                "sub_index": 1307,
+                "tr_id": 266
             },
             "Lvl 85 Pokémaniac Symes & Bug Maniac Connor": {
                 "level": 85,
@@ -53389,7 +55289,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Air Balloon",
                 "index": 1659,
-                "sub_index": 1659
+                "sub_index": 1659,
+                "tr_id": 75
             },
             "Lvl 99 Battle Queen Lucy1 ": {
                 "level": 99,
@@ -53403,7 +55304,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Custap Berry",
                 "index": 2095,
-                "sub_index": 2095
+                "sub_index": 2095,
+                "tr_id": 234
             },
             "Lvl 99 Battle Queen Lucy2 ": {
                 "level": 99,
@@ -53417,7 +55319,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Custap Berry",
                 "index": 2102,
-                "sub_index": 2102
+                "sub_index": 2102,
+                "tr_id": 235
             }
         },
         "Swampert": {
@@ -53433,7 +55336,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mystic Water",
                 "index": 1309,
-                "sub_index": 1309
+                "sub_index": 1309,
+                "tr_id": 346
             },
             "Lvl 78 Cooltrainer Cristin": {
                 "level": 78,
@@ -53447,7 +55351,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Rindo Berry",
                 "index": 1417,
-                "sub_index": 1417
+                "sub_index": 1417,
+                "tr_id": 267
             },
             "Lvl 83 Team Aqua Grunt Gian": {
                 "level": 83,
@@ -53461,7 +55366,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Swampertite",
                 "index": 1594,
-                "sub_index": 1594
+                "sub_index": 1594,
+                "tr_id": 97
             },
             "Lvl 94 Swimmer Katie & Swimmer Santiago": {
                 "level": 94,
@@ -53475,7 +55381,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Swampertite",
                 "index": 1852,
-                "sub_index": 1852
+                "sub_index": 1852,
+                "tr_id": 333
             },
             "Lvl 98 Twins Ame&Yuki": {
                 "level": 98,
@@ -53489,7 +55396,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Swampertite",
                 "index": 2018,
-                "sub_index": 2018
+                "sub_index": 2018,
+                "tr_id": 272
             },
             "Lvl 99 Adventurer Brandon1 ": {
                 "level": 99,
@@ -53503,7 +55411,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Rocky Helmet",
                 "index": 2056,
-                "sub_index": 2056
+                "sub_index": 2056,
+                "tr_id": 100
             },
             "Lvl 99 Adventurer Brandon2 ": {
                 "level": 99,
@@ -53517,7 +55426,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Rocky Helmet",
                 "index": 2063,
-                "sub_index": 2063
+                "sub_index": 2063,
+                "tr_id": 101
             }
         },
         "Gholdengo": {
@@ -53533,7 +55443,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Steel Gem",
                 "index": 1310,
-                "sub_index": 1310
+                "sub_index": 1310,
+                "tr_id": 346
             },
             "Lvl 95 Pokéfan Bethany": {
                 "level": 95,
@@ -53547,7 +55458,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Iapapa Berry",
                 "index": 1925,
-                "sub_index": 1925
+                "sub_index": 1925,
+                "tr_id": 141
             },
             "Lvl 96 Youngster Des": {
                 "level": 96,
@@ -53561,7 +55473,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Air Balloon",
                 "index": 2007,
-                "sub_index": 2007
+                "sub_index": 2007,
+                "tr_id": 157
             }
         },
         "Magnezone": {
@@ -53585,7 +55498,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1311,
-                "sub_index": 1311
+                "sub_index": 1311,
+                "tr_id": 346
             },
             "Lvl 77 Cooltrainer Abobo": {
                 "level": 77,
@@ -53599,7 +55513,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Expert Belt",
                 "index": 1373,
-                "sub_index": 1373
+                "sub_index": 1373,
+                "tr_id": 339
             },
             "Lvl 86 Space Center Team Magma Grunt #1 ": {
                 "level": 86,
@@ -53621,7 +55536,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1700,
-                "sub_index": 1700
+                "sub_index": 1700,
+                "tr_id": 244
             }
         },
         "Barraskewda": {
@@ -53637,7 +55553,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 1312,
-                "sub_index": 1312
+                "sub_index": 1312,
+                "tr_id": 346
             },
             "Lvl 89 Seafloor Team Aqua Grunt #1 ": {
                 "level": 89,
@@ -53651,7 +55568,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Water Gem",
                 "index": 1772,
-                "sub_index": 1772
+                "sub_index": 1772,
+                "tr_id": 309
             }
         },
         "Goodra-Hisui": {
@@ -53667,7 +55585,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 1313,
-                "sub_index": 1313
+                "sub_index": 1313,
+                "tr_id": 346
             },
             "Lvl 90 Team Aqua Grunt Gren": {
                 "level": 90,
@@ -53681,7 +55600,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Leftovers",
                 "index": 1796,
-                "sub_index": 1796
+                "sub_index": 1796,
+                "tr_id": 179
             }
         },
         "Iron Valiant": {
@@ -53705,7 +55625,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1315,
-                "sub_index": 1315
+                "sub_index": 1315,
+                "tr_id": 78
             },
             "Lvl 86 Gentleman Clifford & Psychic Macey": {
                 "level": 86,
@@ -53727,7 +55648,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1683,
-                "sub_index": 1683
+                "sub_index": 1683,
+                "tr_id": 190
             },
             "Lvl 100 Rival Wally3 ": {
                 "level": 100,
@@ -53741,7 +55663,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Booster Energy",
                 "index": 2051,
-                "sub_index": 2051
+                "sub_index": 2051,
+                "tr_id": 317
             },
             "Lvl 100 Superstar Tucker1 ": {
                 "level": 100,
@@ -53763,7 +55686,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 2109,
-                "sub_index": 2109
+                "sub_index": 2109,
+                "tr_id": 117
             },
             "Lvl 100 Superstar Tucker2 ": {
                 "level": 100,
@@ -53777,7 +55701,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Booster Energy",
                 "index": 2116,
-                "sub_index": 2116
+                "sub_index": 2116,
+                "tr_id": 111
             }
         },
         "Hawlucha-Mega": {
@@ -53793,7 +55718,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Hawluchanite",
                 "index": 1321,
-                "sub_index": 1321
+                "sub_index": 1321,
+                "tr_id": 43
             }
         },
         "Yanmega": {
@@ -53809,7 +55735,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Rock Gem",
                 "index": 1323,
-                "sub_index": 1323
+                "sub_index": 1323,
+                "tr_id": 43
             },
             "Lvl 78 Ninja Boy Alex": {
                 "level": 78,
@@ -53822,7 +55749,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Specs",
                 "index": 1383,
-                "sub_index": 1383
+                "sub_index": 1383,
+                "tr_id": 167
             }
         },
         "Metagross": {
@@ -53838,7 +55766,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Dark Gem",
                 "index": 1324,
-                "sub_index": 1324
+                "sub_index": 1324,
+                "tr_id": 43
             },
             "Lvl 85 Psychic Preston & Psychic Maura": {
                 "level": 85,
@@ -53852,7 +55781,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Metagrossite",
                 "index": 1649,
-                "sub_index": 1649
+                "sub_index": 1649,
+                "tr_id": 154
             },
             "Lvl 100 Partner Steven": {
                 "level": 100,
@@ -53866,7 +55796,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Metagrossite",
                 "index": 1742,
-                "sub_index": 1742
+                "sub_index": 1742,
+                "tr_id": 347
             },
             "Lvl 100 Leader Steven": {
                 "level": 100,
@@ -53880,7 +55811,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Metagrossite",
                 "index": 1946,
-                "sub_index": 1946
+                "sub_index": 1946,
+                "tr_id": 312
             },
             "Lvl 100 Frontier Head Noland": {
                 "level": 100,
@@ -53894,7 +55826,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Leftovers",
                 "index": 2140,
-                "sub_index": 2140
+                "sub_index": 2140,
+                "tr_id": 112
             }
         },
         "Drampa-Mega": {
@@ -53910,7 +55843,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Drampanite",
                 "index": 1328,
-                "sub_index": 1328
+                "sub_index": 1328,
+                "tr_id": 269
             }
         },
         "Staraptor-Mega": {
@@ -53926,7 +55860,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Staraptite",
                 "index": 1333,
-                "sub_index": 1333
+                "sub_index": 1333,
+                "tr_id": 145
             }
         },
         "Moltres-Galar": {
@@ -53942,7 +55877,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 1336,
-                "sub_index": 1336
+                "sub_index": 1336,
+                "tr_id": 145
             }
         },
         "Golurk-Mega": {
@@ -53958,7 +55894,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Golurkite",
                 "index": 1339,
-                "sub_index": 1339
+                "sub_index": 1339,
+                "tr_id": 327
             }
         },
         "Fezandipiti": {
@@ -53974,7 +55911,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Black Sludge",
                 "index": 1341,
-                "sub_index": 1341
+                "sub_index": 1341,
+                "tr_id": 327
             }
         },
         "Zapdos-Galar": {
@@ -53990,7 +55928,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Flying Gem",
                 "index": 1342,
-                "sub_index": 1342
+                "sub_index": 1342,
+                "tr_id": 327
             }
         },
         "Dudunsparce-Three-Segment": {
@@ -54006,7 +55945,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Iapapa Berry",
                 "index": 1343,
-                "sub_index": 1343
+                "sub_index": 1343,
+                "tr_id": 62
             }
         },
         "Skarmory-Mega": {
@@ -54022,7 +55962,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Skarmorite",
                 "index": 1347,
-                "sub_index": 1347
+                "sub_index": 1347,
+                "tr_id": 62
             }
         },
         "Articuno-Galar": {
@@ -54038,7 +55979,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Colbur Berry",
                 "index": 1348,
-                "sub_index": 1348
+                "sub_index": 1348,
+                "tr_id": 62
             }
         },
         "Charizard-Mega-Y": {
@@ -54054,7 +55996,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Charizardite Y",
                 "index": 1352,
-                "sub_index": 1352
+                "sub_index": 1352,
+                "tr_id": 82
             },
             "Lvl 82 Team Magma Leader Maxie2 ": {
                 "level": 82,
@@ -54068,7 +56011,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Charizardite Y",
                 "index": 1580,
-                "sub_index": 1580
+                "sub_index": 1580,
+                "tr_id": 284
             }
         },
         "Baxcalibur": {
@@ -54084,7 +56028,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Loaded Dice",
                 "index": 1355,
-                "sub_index": 1355
+                "sub_index": 1355,
+                "tr_id": 82
             },
             "Lvl 95 Pokéfan Bethany": {
                 "level": 95,
@@ -54098,7 +56043,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Baxcalibrite",
                 "index": 1926,
-                "sub_index": 1926
+                "sub_index": 1926,
+                "tr_id": 141
             }
         },
         "Lugia": {
@@ -54114,7 +56060,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Light Clay",
                 "index": 1356,
-                "sub_index": 1356
+                "sub_index": 1356,
+                "tr_id": 134
             },
             "Lvl 77 Leader Winona2 ": {
                 "level": 77,
@@ -54128,7 +56075,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1363,
-                "sub_index": 1363
+                "sub_index": 1363,
+                "tr_id": 121
             }
         },
         "Landorus-Therian": {
@@ -54144,7 +56092,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Assault Vest",
                 "index": 1360,
-                "sub_index": 1360
+                "sub_index": 1360,
+                "tr_id": 134
             },
             "Lvl 86 Space Center Team Magma Elite Grunt": {
                 "level": 86,
@@ -54158,7 +56107,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Covert Cloak",
                 "index": 1713,
-                "sub_index": 1713
+                "sub_index": 1713,
+                "tr_id": 93
             }
         },
         "Altaria-Mega": {
@@ -54174,7 +56124,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Altarianite",
                 "index": 1362,
-                "sub_index": 1362
+                "sub_index": 1362,
+                "tr_id": 134
             },
             "Lvl 78 Leader Winona2 ": {
                 "level": 78,
@@ -54188,7 +56139,8 @@ backup_data = {
                 "nature": "Quiet",
                 "item": "Altarianite",
                 "index": 1369,
-                "sub_index": 1369
+                "sub_index": 1369,
+                "tr_id": 121
             }
         },
         "Garchomp": {
@@ -54204,7 +56156,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lum Berry",
                 "index": 1364,
-                "sub_index": 1364
+                "sub_index": 1364,
+                "tr_id": 121
             },
             "Lvl 84 Team Aqua Grunt Steve2 ": {
                 "level": 84,
@@ -54218,7 +56171,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Garchompite",
                 "index": 1612,
-                "sub_index": 1612
+                "sub_index": 1612,
+                "tr_id": 127
             },
             "Lvl 96 Team Rocket Grunt #2 ": {
                 "level": 96,
@@ -54232,7 +56186,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Garchompite Z",
                 "index": 1967,
-                "sub_index": 1967
+                "sub_index": 1967,
+                "tr_id": 68
             },
             "Lvl 99 Youngster Des": {
                 "level": 99,
@@ -54246,7 +56201,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rocky Helmet",
                 "index": 2009,
-                "sub_index": 2009
+                "sub_index": 2009,
+                "tr_id": 157
             },
             "Lvl 97 Rival Wally3 ": {
                 "level": 97,
@@ -54268,7 +56224,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 2047,
-                "sub_index": 2047
+                "sub_index": 2047,
+                "tr_id": 317
             }
         },
         "Swellow": {
@@ -54284,7 +56241,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1372,
-                "sub_index": 1372
+                "sub_index": 1372,
+                "tr_id": 339
             }
         },
         "Greninja-Mega": {
@@ -54300,7 +56258,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Greninjite",
                 "index": 1381,
-                "sub_index": 1381
+                "sub_index": 1381,
+                "tr_id": 132
             },
             "Lvl 100 Elite Four Sidney Singles": {
                 "level": 100,
@@ -54314,7 +56273,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Greninjite",
                 "index": 2147,
-                "sub_index": 2147
+                "sub_index": 2147,
+                "tr_id": 180
             }
         },
         "Zarude-Dada": {
@@ -54330,7 +56290,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Snowball",
                 "index": 1386,
-                "sub_index": 1386
+                "sub_index": 1386,
+                "tr_id": 167
             }
         },
         "Delphox-Mega": {
@@ -54346,7 +56307,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Delphoxite",
                 "index": 1389,
-                "sub_index": 1389
+                "sub_index": 1389,
+                "tr_id": 274
             },
             "Lvl 86 Gentleman Clifford & Psychic Macey": {
                 "level": 86,
@@ -54360,7 +56322,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Delphoxite",
                 "index": 1685,
-                "sub_index": 1685
+                "sub_index": 1685,
+                "tr_id": 190
             }
         },
         "Mawile-Mega": {
@@ -54376,7 +56339,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mawilite",
                 "index": 1395,
-                "sub_index": 1395
+                "sub_index": 1395,
+                "tr_id": 110
             },
             "Lvl 100 Superstar Tucker2 ": {
                 "level": 100,
@@ -54390,7 +56354,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Mawilite",
                 "index": 2119,
-                "sub_index": 2119
+                "sub_index": 2119,
+                "tr_id": 111
             }
         },
         "Regidrago": {
@@ -54406,7 +56371,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Dragon Gem",
                 "index": 1397,
-                "sub_index": 1397
+                "sub_index": 1397,
+                "tr_id": 110
             }
         },
         "Celebi": {
@@ -54422,7 +56388,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Rocky Helmet",
                 "index": 1401,
-                "sub_index": 1401
+                "sub_index": 1401,
+                "tr_id": 286
             }
         },
         "Absol-Mega": {
@@ -54438,7 +56405,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Absolite",
                 "index": 1404,
-                "sub_index": 1404
+                "sub_index": 1404,
+                "tr_id": 286
             }
         },
         "Cresselia": {
@@ -54454,7 +56422,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Flame Orb",
                 "index": 1409,
-                "sub_index": 1409
+                "sub_index": 1409,
+                "tr_id": 319
             }
         },
         "Darkrai": {
@@ -54470,7 +56439,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Expert Belt",
                 "index": 1410,
-                "sub_index": 1410
+                "sub_index": 1410,
+                "tr_id": 319
             },
             "Lvl 86 Space Center Team Magma Grunt #6 ": {
                 "level": 86,
@@ -54484,7 +56454,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Darkranite",
                 "index": 1728,
-                "sub_index": 1728
+                "sub_index": 1728,
+                "tr_id": 325
             }
         },
         "Regirock": {
@@ -54500,7 +56471,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 1411,
-                "sub_index": 1411
+                "sub_index": 1411,
+                "tr_id": 214
             }
         },
         "Chesnaught-Mega": {
@@ -54516,7 +56488,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Chesnaughtite",
                 "index": 1413,
-                "sub_index": 1413
+                "sub_index": 1413,
+                "tr_id": 214
             }
         },
         "Tapu Lele": {
@@ -54532,7 +56505,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Terrain Extender",
                 "index": 1418,
-                "sub_index": 1418
+                "sub_index": 1418,
+                "tr_id": 267
             }
         },
         "Mewtwo": {
@@ -54548,7 +56522,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Mental Herb",
                 "index": 1423,
-                "sub_index": 1423
+                "sub_index": 1423,
+                "tr_id": 161
             },
             "Lvl 78 Lilycove Rival Fennekin": {
                 "level": 78,
@@ -54562,7 +56537,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Mental Herb",
                 "index": 1430,
-                "sub_index": 1430
+                "sub_index": 1430,
+                "tr_id": 168
             },
             "Lvl 78 Lilycove Rival Froakie": {
                 "level": 78,
@@ -54576,7 +56552,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Mental Herb",
                 "index": 1437,
-                "sub_index": 1437
+                "sub_index": 1437,
+                "tr_id": 169
             },
             "Lvl 100 Teacher Anabel": {
                 "level": 100,
@@ -54590,7 +56567,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Mewtwonite Y",
                 "index": 2137,
-                "sub_index": 2137
+                "sub_index": 2137,
+                "tr_id": 298
             },
             "Lvl 100 Frontier Head Noland": {
                 "level": 100,
@@ -54604,7 +56582,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mewtwonite X",
                 "index": 2144,
-                "sub_index": 2144
+                "sub_index": 2144,
+                "tr_id": 112
             },
             "Lvl 100 Elite Four Rival Singles": {
                 "level": 100,
@@ -54618,7 +56597,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 2178,
-                "sub_index": 2178
+                "sub_index": 2178,
+                "tr_id": 171
             },
             "Lvl 100 Elite Four Rival Doubles": {
                 "level": 100,
@@ -54632,7 +56612,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Twisted Spoon",
                 "index": 2185,
-                "sub_index": 2185
+                "sub_index": 2185,
+                "tr_id": 172
             }
         },
         "Silvally-Grass": {
@@ -54648,7 +56629,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Grass Memory",
                 "index": 1429,
-                "sub_index": 1429
+                "sub_index": 1429,
+                "tr_id": 168
             }
         },
         "Clefable-Mega": {
@@ -54664,7 +56646,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Clefablite",
                 "index": 1444,
-                "sub_index": 1444
+                "sub_index": 1444,
+                "tr_id": 90
             }
         },
         "Lunala": {
@@ -54680,7 +56663,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 1446,
-                "sub_index": 1446
+                "sub_index": 1446,
+                "tr_id": 90
             }
         },
         "Ursaluna-Bloodmoon": {
@@ -54696,7 +56680,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Shell Bell",
                 "index": 1447,
-                "sub_index": 1447
+                "sub_index": 1447,
+                "tr_id": 90
             },
             "Lvl 86 Gentleman Andreas & Hex Maniac Tina": {
                 "level": 86,
@@ -54710,7 +56695,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Ground Gem",
                 "index": 1675,
-                "sub_index": 1675
+                "sub_index": 1675,
+                "tr_id": 196
             },
             "Lvl 99 Adventurer Brandon1 ": {
                 "level": 99,
@@ -54724,7 +56710,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Yache Berry",
                 "index": 2054,
-                "sub_index": 2054
+                "sub_index": 2054,
+                "tr_id": 100
             },
             "Lvl 99 Adventurer Brandon2 ": {
                 "level": 99,
@@ -54738,7 +56725,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Yache Berry",
                 "index": 2061,
-                "sub_index": 2061
+                "sub_index": 2061,
+                "tr_id": 101
             }
         },
         "Gengar-Mega": {
@@ -54754,7 +56742,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Gengarite",
                 "index": 1455,
-                "sub_index": 1455
+                "sub_index": 1455,
+                "tr_id": 40
             },
             "Lvl 100 Battle Queen Lucy1 ": {
                 "level": 100,
@@ -54768,7 +56757,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Gengarite",
                 "index": 2099,
-                "sub_index": 2099
+                "sub_index": 2099,
+                "tr_id": 234
             },
             "Lvl 100 Battle Queen Lucy2 ": {
                 "level": 100,
@@ -54782,7 +56772,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Gengarite",
                 "index": 2106,
-                "sub_index": 2106
+                "sub_index": 2106,
+                "tr_id": 235
             },
             "Lvl 100 Elite Four Phoebe Doubles": {
                 "level": 100,
@@ -54796,7 +56787,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Gengarite",
                 "index": 2169,
-                "sub_index": 2169
+                "sub_index": 2169,
+                "tr_id": 228
             }
         },
         "Gourgeist-Large": {
@@ -54812,7 +56804,8 @@ backup_data = {
                 "nature": "Brave",
                 "item": "Occa Berry",
                 "index": 1465,
-                "sub_index": 1465
+                "sub_index": 1465,
+                "tr_id": 251
             }
         },
         "Gourgeist-Super": {
@@ -54828,7 +56821,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Coba Berry",
                 "index": 1467,
-                "sub_index": 1467
+                "sub_index": 1467,
+                "tr_id": 251
             }
         },
         "Froslass-Mega": {
@@ -54844,7 +56838,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Froslassite",
                 "index": 1475,
-                "sub_index": 1475
+                "sub_index": 1475,
+                "tr_id": 27
             }
         },
         "Spectrier": {
@@ -54860,7 +56855,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Ability Shield",
                 "index": 1482,
-                "sub_index": 1482
+                "sub_index": 1482,
+                "tr_id": 283
             }
         },
         "Charizard-Mega-X": {
@@ -54876,7 +56872,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Charizardite X",
                 "index": 1487,
-                "sub_index": 1487
+                "sub_index": 1487,
+                "tr_id": 283
             },
             "Lvl 91 Triathlete Allison": {
                 "level": 91,
@@ -54890,7 +56887,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Charizardite X",
                 "index": 1833,
-                "sub_index": 1833
+                "sub_index": 1833,
+                "tr_id": 59
             }
         },
         "Scream Tail": {
@@ -54906,7 +56904,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Booster Energy",
                 "index": 1489,
-                "sub_index": 1489
+                "sub_index": 1489,
+                "tr_id": 187
             },
             "Lvl 86 Psychic Hannah & Hex Maniac Sylvia": {
                 "level": 86,
@@ -54928,7 +56927,8 @@ backup_data = {
                     "sp": "29"
                 },
                 "index": 1673,
-                "sub_index": 1673
+                "sub_index": 1673,
+                "tr_id": 299
             }
         },
         "Malamar-Mega": {
@@ -54944,7 +56944,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Malamarite",
                 "index": 1498,
-                "sub_index": 1498
+                "sub_index": 1498,
+                "tr_id": 178
             }
         },
         "Barbaracle-Mega": {
@@ -54960,7 +56961,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Barbaracite",
                 "index": 1507,
-                "sub_index": 1507
+                "sub_index": 1507,
+                "tr_id": 208
             }
         },
         "Hoopa": {
@@ -54976,7 +56978,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Expert Belt",
                 "index": 1508,
-                "sub_index": 1508
+                "sub_index": 1508,
+                "tr_id": 208
             }
         },
         "Keldeo": {
@@ -54992,7 +56995,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Jaboca Berry",
                 "index": 1513,
-                "sub_index": 1513
+                "sub_index": 1513,
+                "tr_id": 133
             }
         },
         "Miraidon": {
@@ -55008,7 +57012,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lansat Berry",
                 "index": 1514,
-                "sub_index": 1514
+                "sub_index": 1514,
+                "tr_id": 348
             },
             "Lvl 92 Team Aqua Leader Archie2 ": {
                 "level": 92,
@@ -55030,7 +57035,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1815,
-                "sub_index": 1815
+                "sub_index": 1815,
+                "tr_id": 105
             },
             "Lvl 100 Elite Four Drake Doubles": {
                 "level": 100,
@@ -55044,7 +57050,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Roseli Berry",
                 "index": 2198,
-                "sub_index": 2198
+                "sub_index": 2198,
+                "tr_id": 128
             }
         },
         "Darmanitan": {
@@ -55060,7 +57067,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1516,
-                "sub_index": 1516
+                "sub_index": 1516,
+                "tr_id": 162
             },
             "Lvl 86 Leader Liza": {
                 "level": 86,
@@ -55074,7 +57082,8 @@ backup_data = {
                 "nature": "Mild",
                 "item": "Fire Gem",
                 "index": 1689,
-                "sub_index": 1689
+                "sub_index": 1689,
+                "tr_id": 330
             }
         },
         "Shaymin-Sky": {
@@ -55090,7 +57099,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Ghost Gem",
                 "index": 1519,
-                "sub_index": 1519
+                "sub_index": 1519,
+                "tr_id": 279
             }
         },
         "Dudunsparce": {
@@ -55106,7 +57116,8 @@ backup_data = {
                 "nature": "Sassy",
                 "item": "Rock Gem",
                 "index": 1520,
-                "sub_index": 1520
+                "sub_index": 1520,
+                "tr_id": 279
             },
             "Lvl 93 Swimmer Susie": {
                 "level": 93,
@@ -55120,7 +57131,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 1871,
-                "sub_index": 1871
+                "sub_index": 1871,
+                "tr_id": 265
             }
         },
         "Jirachi": {
@@ -55136,7 +57148,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Rock Gem",
                 "index": 1522,
-                "sub_index": 1522
+                "sub_index": 1522,
+                "tr_id": 279
             },
             "Lvl 100 Trainer Maxie": {
                 "level": 100,
@@ -55150,7 +57163,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Air Balloon",
                 "index": 2124,
-                "sub_index": 2124
+                "sub_index": 2124,
+                "tr_id": 289
             }
         },
         "Chandelure-Mega": {
@@ -55166,7 +57180,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Chandelurite",
                 "index": 1524,
-                "sub_index": 1524
+                "sub_index": 1524,
+                "tr_id": 279
             },
             "Lvl 100 Elite Four Phoebe Singles": {
                 "level": 100,
@@ -55188,7 +57203,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 2162,
-                "sub_index": 2162
+                "sub_index": 2162,
+                "tr_id": 227
             }
         },
         "Zekrom": {
@@ -55204,7 +57220,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Electric Gem",
                 "index": 1543,
-                "sub_index": 1543
+                "sub_index": 1543,
+                "tr_id": 264
             }
         },
         "Ursaluna": {
@@ -55220,7 +57237,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "White Herb",
                 "index": 1551,
-                "sub_index": 1551
+                "sub_index": 1551,
+                "tr_id": 126
             },
             "Lvl 85 Psychic Virgil & Psychic Nate": {
                 "level": 85,
@@ -55242,7 +57260,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1665,
-                "sub_index": 1665
+                "sub_index": 1665,
+                "tr_id": 249
             },
             "Lvl 86 Space Center Team Magma Elite Grunt": {
                 "level": 86,
@@ -55256,7 +57275,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Quick Claw",
                 "index": 1711,
-                "sub_index": 1711
+                "sub_index": 1711,
+                "tr_id": 93
             }
         },
         "Heatran": {
@@ -55272,7 +57292,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Air Balloon",
                 "index": 1559,
-                "sub_index": 1559
+                "sub_index": 1559,
+                "tr_id": 67
             },
             "Lvl 86 Space Center Team Magma Grunt #5 ": {
                 "level": 86,
@@ -55286,7 +57307,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Heatranite",
                 "index": 1721,
-                "sub_index": 1721
+                "sub_index": 1721,
+                "tr_id": 130
             },
             "Lvl 94 Partner Steven": {
                 "level": 94,
@@ -55308,7 +57330,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1740,
-                "sub_index": 1740
+                "sub_index": 1740,
+                "tr_id": 347
             }
         },
         "Reshiram": {
@@ -55324,7 +57347,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Specs",
                 "index": 1566,
-                "sub_index": 1566
+                "sub_index": 1566,
+                "tr_id": 139
             }
         },
         "Latias-Mega": {
@@ -55340,7 +57364,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Latiasite",
                 "index": 1568,
-                "sub_index": 1568
+                "sub_index": 1568,
+                "tr_id": 277
             }
         },
         "Zamazenta": {
@@ -55356,7 +57381,8 @@ backup_data = {
                 "nature": "Impish",
                 "item": "Kee Berry",
                 "index": 1573,
-                "sub_index": 1573
+                "sub_index": 1573,
+                "tr_id": 277
             }
         },
         "Groudon": {
@@ -55372,7 +57398,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Red Card",
                 "index": 1574,
-                "sub_index": 1574
+                "sub_index": 1574,
+                "tr_id": 284
             },
             "Lvl 100 Trainer Maxie": {
                 "level": 100,
@@ -55386,7 +57413,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Red Orb",
                 "index": 2122,
-                "sub_index": 2122
+                "sub_index": 2122,
+                "tr_id": 289
             }
         },
         "Nihilego": {
@@ -55410,7 +57438,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1585,
-                "sub_index": 1585
+                "sub_index": 1585,
+                "tr_id": 99
             },
             "Lvl 100 Teacher Anabel": {
                 "level": 100,
@@ -55424,7 +57453,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Air Balloon",
                 "index": 2132,
-                "sub_index": 2132
+                "sub_index": 2132,
+                "tr_id": 298
             }
         },
         "Mesprit": {
@@ -55440,7 +57470,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Weakness Policy",
                 "index": 1593,
-                "sub_index": 1593
+                "sub_index": 1593,
+                "tr_id": 97
             }
         },
         "Swampert-Mega": {
@@ -55456,7 +57487,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Swampertite",
                 "index": 1595,
-                "sub_index": 1595
+                "sub_index": 1595,
+                "tr_id": 97
             },
             "Lvl 94 Swimmer Katie & Swimmer Santiago": {
                 "level": 94,
@@ -55470,7 +57502,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Swampertite",
                 "index": 1853,
-                "sub_index": 1853
+                "sub_index": 1853,
+                "tr_id": 333
             },
             "Lvl 98 Twins Ame&Yuki": {
                 "level": 98,
@@ -55484,7 +57517,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Swampertite",
                 "index": 2019,
-                "sub_index": 2019
+                "sub_index": 2019,
+                "tr_id": 272
             }
         },
         "Thundurus-Therian": {
@@ -55508,7 +57542,8 @@ backup_data = {
                     "sp": "30"
                 },
                 "index": 1602,
-                "sub_index": 1602
+                "sub_index": 1602,
+                "tr_id": 79
             }
         },
         "Tornadus-Therian": {
@@ -55524,7 +57559,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Bright Powder",
                 "index": 1607,
-                "sub_index": 1607
+                "sub_index": 1607,
+                "tr_id": 53
             }
         },
         "Garchomp-Mega": {
@@ -55540,7 +57576,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Garchompite",
                 "index": 1613,
-                "sub_index": 1613
+                "sub_index": 1613,
+                "tr_id": 127
             },
             "Lvl 91 Team Aqua Grunt Steve3 ": {
                 "level": 91,
@@ -55554,7 +57591,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Choice Scarf",
                 "index": 1811,
-                "sub_index": 1811
+                "sub_index": 1811,
+                "tr_id": 223
             }
         },
         "Archaludon": {
@@ -55570,7 +57608,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Iapapa Berry",
                 "index": 1615,
-                "sub_index": 1615
+                "sub_index": 1615,
+                "tr_id": 83
             },
             "Lvl 95 Lorekeeper Zinnia": {
                 "level": 95,
@@ -55584,7 +57623,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Assault Vest",
                 "index": 1951,
-                "sub_index": 1951
+                "sub_index": 1951,
+                "tr_id": 84
             }
         },
         "Palkia": {
@@ -55600,7 +57640,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lustrous Orb",
                 "index": 1616,
-                "sub_index": 1616
+                "sub_index": 1616,
+                "tr_id": 83
             }
         },
         "Buzzwole": {
@@ -55616,7 +57657,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Big Root",
                 "index": 1619,
-                "sub_index": 1619
+                "sub_index": 1619,
+                "tr_id": 83
             }
         },
         "Gyarados-Mega": {
@@ -55632,7 +57674,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Gyaradosite",
                 "index": 1621,
-                "sub_index": 1621
+                "sub_index": 1621,
+                "tr_id": 83
             },
             "Lvl 100 Elite Four Sidney Doubles": {
                 "level": 100,
@@ -55654,7 +57697,8 @@ backup_data = {
                     "sp": "21"
                 },
                 "index": 2158,
-                "sub_index": 2158
+                "sub_index": 2158,
+                "tr_id": 85
             }
         },
         "Glaceon": {
@@ -55670,7 +57714,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Assault Vest",
                 "index": 1624,
-                "sub_index": 1624
+                "sub_index": 1624,
+                "tr_id": 246
             }
         },
         "Kyurem-Black": {
@@ -55686,7 +57731,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Power Herb",
                 "index": 1627,
-                "sub_index": 1627
+                "sub_index": 1627,
+                "tr_id": 246
             }
         },
         "Eternatus": {
@@ -55702,7 +57748,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Black Sludge",
                 "index": 1633,
-                "sub_index": 1633
+                "sub_index": 1633,
+                "tr_id": 295
             },
             "Lvl 86 Gentleman Clifford & Psychic Macey": {
                 "level": 86,
@@ -55716,7 +57763,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Weakness Policy",
                 "index": 1686,
-                "sub_index": 1686
+                "sub_index": 1686,
+                "tr_id": 190
             }
         },
         "Iron Bundle": {
@@ -55732,7 +57780,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Blunder Policy",
                 "index": 1634,
-                "sub_index": 1634
+                "sub_index": 1634,
+                "tr_id": 295
             },
             "Lvl 95 Ex Leader Juan": {
                 "level": 95,
@@ -55754,7 +57803,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1936,
-                "sub_index": 1936
+                "sub_index": 1936,
+                "tr_id": 80
             }
         },
         "Glimmora-Mega": {
@@ -55770,7 +57820,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Glimmoranite",
                 "index": 1638,
-                "sub_index": 1638
+                "sub_index": 1638,
+                "tr_id": 295
             }
         },
         "Silvally-Psychic": {
@@ -55786,7 +57837,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Psychic Memory",
                 "index": 1642,
-                "sub_index": 1642
+                "sub_index": 1642,
+                "tr_id": 224
             }
         },
         "Absol-Mega-Z": {
@@ -55802,7 +57854,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Absolite Z",
                 "index": 1644,
-                "sub_index": 1644
+                "sub_index": 1644,
+                "tr_id": 224
             }
         },
         "Indeedee-F": {
@@ -55818,7 +57871,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Adrenaline Orb",
                 "index": 1647,
-                "sub_index": 1647
+                "sub_index": 1647,
+                "tr_id": 154
             }
         },
         "Metagross-Mega": {
@@ -55834,7 +57888,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Metagrossite",
                 "index": 1650,
-                "sub_index": 1650
+                "sub_index": 1650,
+                "tr_id": 154
             },
             "Lvl 100 Partner Steven": {
                 "level": 100,
@@ -55848,7 +57903,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Metagrossite",
                 "index": 1743,
-                "sub_index": 1743
+                "sub_index": 1743,
+                "tr_id": 347
             },
             "Lvl 100 Leader Steven": {
                 "level": 100,
@@ -55862,7 +57918,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Metagrossite",
                 "index": 1947,
-                "sub_index": 1947
+                "sub_index": 1947,
+                "tr_id": 312
             }
         },
         "Munkidori": {
@@ -55878,7 +57935,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Sash",
                 "index": 1652,
-                "sub_index": 1652
+                "sub_index": 1652,
+                "tr_id": 154
             },
             "Lvl 100 Battle Queen Lucy1 ": {
                 "level": 100,
@@ -55892,7 +57950,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Specs",
                 "index": 2097,
-                "sub_index": 2097
+                "sub_index": 2097,
+                "tr_id": 234
             },
             "Lvl 100 Battle Queen Lucy2 ": {
                 "level": 100,
@@ -55906,7 +57965,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Choice Scarf",
                 "index": 2104,
-                "sub_index": 2104
+                "sub_index": 2104,
+                "tr_id": 235
             }
         },
         "Starmie-Mega": {
@@ -55922,7 +57982,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Starminite",
                 "index": 1657,
-                "sub_index": 1657
+                "sub_index": 1657,
+                "tr_id": 75
             }
         },
         "Marshadow": {
@@ -55938,7 +57999,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ghost Gem",
                 "index": 1660,
-                "sub_index": 1660
+                "sub_index": 1660,
+                "tr_id": 75
             },
             "Lvl 94 Expert Makayla": {
                 "level": 94,
@@ -55952,7 +58014,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Eject Pack",
                 "index": 1885,
-                "sub_index": 1885
+                "sub_index": 1885,
+                "tr_id": 36
             },
             "Lvl 97 Rival Wally1 ": {
                 "level": 97,
@@ -55966,7 +58029,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Expert Belt",
                 "index": 2034,
-                "sub_index": 2034
+                "sub_index": 2034,
+                "tr_id": 320
             }
         },
         "Slowbro-Mega": {
@@ -55990,7 +58054,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1664,
-                "sub_index": 1664
+                "sub_index": 1664,
+                "tr_id": 249
             }
         },
         "Melmetal": {
@@ -56014,7 +58079,8 @@ backup_data = {
                     "sp": "0"
                 },
                 "index": 1667,
-                "sub_index": 1667
+                "sub_index": 1667,
+                "tr_id": 249
             }
         },
         "Stakataka": {
@@ -56030,7 +58096,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Life Orb",
                 "index": 1668,
-                "sub_index": 1668
+                "sub_index": 1668,
+                "tr_id": 299
             }
         },
         "Gardevoir-Mega": {
@@ -56046,7 +58113,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Gardevoirite",
                 "index": 1671,
-                "sub_index": 1671
+                "sub_index": 1671,
+                "tr_id": 299
             },
             "Lvl 100 Rival Wally1 ": {
                 "level": 100,
@@ -56068,7 +58136,8 @@ backup_data = {
                     "sp": "29"
                 },
                 "index": 2037,
-                "sub_index": 2037
+                "sub_index": 2037,
+                "tr_id": 320
             }
         },
         "Iron Boulder": {
@@ -56084,7 +58153,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Booster Energy",
                 "index": 1672,
-                "sub_index": 1672
+                "sub_index": 1672,
+                "tr_id": 299
             }
         },
         "Xerneas": {
@@ -56100,7 +58170,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Fairy Gem",
                 "index": 1674,
-                "sub_index": 1674
+                "sub_index": 1674,
+                "tr_id": 299
             },
             "Lvl 100 Superstar Tucker1 ": {
                 "level": 100,
@@ -56114,7 +58185,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Power Herb",
                 "index": 2114,
-                "sub_index": 2114
+                "sub_index": 2114,
+                "tr_id": 117
             },
             "Lvl 100 Superstar Tucker2 ": {
                 "level": 100,
@@ -56128,7 +58200,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Power Herb",
                 "index": 2121,
-                "sub_index": 2121
+                "sub_index": 2121,
+                "tr_id": 111
             }
         },
         "Gallade-Mega": {
@@ -56144,7 +58217,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Galladite",
                 "index": 1678,
-                "sub_index": 1678
+                "sub_index": 1678,
+                "tr_id": 196
             },
             "Lvl 100 Rival Wally2 ": {
                 "level": 100,
@@ -56158,7 +58232,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Galladite",
                 "index": 2044,
-                "sub_index": 2044
+                "sub_index": 2044,
+                "tr_id": 292
             }
         },
         "Giratina": {
@@ -56174,7 +58249,8 @@ backup_data = {
                 "nature": "Naughty",
                 "item": "Colbur Berry",
                 "index": 1681,
-                "sub_index": 1681
+                "sub_index": 1681,
+                "tr_id": 196
             }
         },
         "Deoxys": {
@@ -56190,7 +58266,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Eject Pack",
                 "index": 1691,
-                "sub_index": 1691
+                "sub_index": 1691,
+                "tr_id": 330
             }
         },
         "Necrozma-Dusk-Mane": {
@@ -56206,7 +58283,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ultranecrozium Z",
                 "index": 1692,
-                "sub_index": 1692
+                "sub_index": 1692,
+                "tr_id": 330
             }
         },
         "Necrozma-Ultra": {
@@ -56222,7 +58300,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Ultranecrozium Z",
                 "index": 1693,
-                "sub_index": 1693
+                "sub_index": 1693,
+                "tr_id": 330
             }
         },
         "Deoxys-Defense": {
@@ -56238,7 +58317,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Light Clay",
                 "index": 1696,
-                "sub_index": 1696
+                "sub_index": 1696,
+                "tr_id": 329
             }
         },
         "Blacephalon": {
@@ -56254,7 +58334,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Starf Berry",
                 "index": 1702,
-                "sub_index": 1702
+                "sub_index": 1702,
+                "tr_id": 244
             }
         },
         "Flutter Mane": {
@@ -56270,7 +58351,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Focus Band",
                 "index": 1704,
-                "sub_index": 1704
+                "sub_index": 1704,
+                "tr_id": 210
             },
             "Lvl 96 Kindler Kos": {
                 "level": 96,
@@ -56284,7 +58366,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Spell Tag",
                 "index": 1997,
-                "sub_index": 1997
+                "sub_index": 1997,
+                "tr_id": 135
             },
             "Lvl 100 Elite Four Phoebe Singles": {
                 "level": 100,
@@ -56298,7 +58381,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Booster Energy",
                 "index": 2164,
-                "sub_index": 2164
+                "sub_index": 2164,
+                "tr_id": 227
             },
             "Lvl 100 Elite Four Phoebe Doubles": {
                 "level": 100,
@@ -56312,7 +58396,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Booster Energy",
                 "index": 2173,
-                "sub_index": 2173
+                "sub_index": 2173,
+                "tr_id": 228
             }
         },
         "Guzzlord": {
@@ -56328,7 +58413,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Roseli Berry",
                 "index": 1708,
-                "sub_index": 1708
+                "sub_index": 1708,
+                "tr_id": 210
             }
         },
         "Raging Bolt": {
@@ -56344,7 +58430,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Electric Gem",
                 "index": 1714,
-                "sub_index": 1714
+                "sub_index": 1714,
+                "tr_id": 93
             },
             "Lvl 91 Swimmer Puppy": {
                 "level": 91,
@@ -56358,7 +58445,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Booster Energy",
                 "index": 1843,
-                "sub_index": 1843
+                "sub_index": 1843,
+                "tr_id": 188
             }
         },
         "Cobalion": {
@@ -56374,7 +58462,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Leftovers",
                 "index": 1716,
-                "sub_index": 1716
+                "sub_index": 1716,
+                "tr_id": 209
             }
         },
         "Lopunny-Mega": {
@@ -56390,7 +58479,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Lopunnite",
                 "index": 1720,
-                "sub_index": 1720
+                "sub_index": 1720,
+                "tr_id": 209
             }
         },
         "Heatran-Mega": {
@@ -56406,7 +58496,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Heatranite",
                 "index": 1722,
-                "sub_index": 1722
+                "sub_index": 1722,
+                "tr_id": 130
             }
         },
         "Xurkitree": {
@@ -56422,7 +58513,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Electric Gem",
                 "index": 1724,
-                "sub_index": 1724
+                "sub_index": 1724,
+                "tr_id": 130
             }
         },
         "Virizion": {
@@ -56438,7 +58530,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Eject Pack",
                 "index": 1725,
-                "sub_index": 1725
+                "sub_index": 1725,
+                "tr_id": 130
             }
         },
         "Darkrai-Mega": {
@@ -56454,7 +58547,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Darkranite",
                 "index": 1729,
-                "sub_index": 1729
+                "sub_index": 1729,
+                "tr_id": 325
             }
         },
         "Terrakion": {
@@ -56470,7 +58564,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Black Belt",
                 "index": 1730,
-                "sub_index": 1730
+                "sub_index": 1730,
+                "tr_id": 325
             }
         },
         "Naganadel": {
@@ -56486,7 +58581,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Life Orb",
                 "index": 1731,
-                "sub_index": 1731
+                "sub_index": 1731,
+                "tr_id": 325
             }
         },
         "Zacian-Crowned": {
@@ -56502,7 +58598,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rusted Sword",
                 "index": 1741,
-                "sub_index": 1741
+                "sub_index": 1741,
+                "tr_id": 347
             },
             "Lvl 95 Leader Steven": {
                 "level": 95,
@@ -56516,7 +58613,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Rusted Sword",
                 "index": 1943,
-                "sub_index": 1943
+                "sub_index": 1943,
+                "tr_id": 312
             }
         },
         "Regice": {
@@ -56532,7 +58630,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Blunder Policy",
                 "index": 1749,
-                "sub_index": 1749
+                "sub_index": 1749,
+                "tr_id": 243
             }
         },
         "Oinkologne-F": {
@@ -56548,7 +58647,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Salac Berry",
                 "index": 1750,
-                "sub_index": 1750
+                "sub_index": 1750,
+                "tr_id": 212
             }
         },
         "Ting-Lu": {
@@ -56564,7 +58664,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Leftovers",
                 "index": 1751,
-                "sub_index": 1751
+                "sub_index": 1751,
+                "tr_id": 212
             },
             "Lvl 100 Adventurer Brandon1 ": {
                 "level": 100,
@@ -56578,7 +58679,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Red Card",
                 "index": 2052,
-                "sub_index": 2052
+                "sub_index": 2052,
+                "tr_id": 100
             },
             "Lvl 100 Adventurer Brandon2 ": {
                 "level": 100,
@@ -56592,7 +58694,8 @@ backup_data = {
                 "nature": "Relaxed",
                 "item": "Red Card",
                 "index": 2059,
-                "sub_index": 2059
+                "sub_index": 2059,
+                "tr_id": 101
             }
         },
         "Ogerpon-Wellspring": {
@@ -56608,7 +58711,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Wellspring Mask",
                 "index": 1759,
-                "sub_index": 1759
+                "sub_index": 1759,
+                "tr_id": 305
             },
             "Lvl 100 Elite Four Rival Doubles": {
                 "level": 100,
@@ -56622,7 +58726,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Wellspring Mask",
                 "index": 2182,
-                "sub_index": 2182
+                "sub_index": 2182,
+                "tr_id": 172
             }
         },
         "Excadrill-Mega": {
@@ -56638,7 +58743,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Excadrite",
                 "index": 1762,
-                "sub_index": 1762
+                "sub_index": 1762,
+                "tr_id": 305
             }
         },
         "Tatsugiri-Stretchy": {
@@ -56654,7 +58760,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Toxic Orb",
                 "index": 1764,
-                "sub_index": 1764
+                "sub_index": 1764,
+                "tr_id": 88
             }
         },
         "Roaring Moon": {
@@ -56678,7 +58785,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1766,
-                "sub_index": 1766
+                "sub_index": 1766,
+                "tr_id": 88
             },
             "Lvl 100 Elite Four Drake Singles": {
                 "level": 100,
@@ -56692,7 +58800,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Chople Berry",
                 "index": 2192,
-                "sub_index": 2192
+                "sub_index": 2192,
+                "tr_id": 136
             }
         },
         "Kartana": {
@@ -56708,7 +58817,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Razor Claw",
                 "index": 1773,
-                "sub_index": 1773
+                "sub_index": 1773,
+                "tr_id": 309
             },
             "Lvl 99 Natural Guru Spenser1 ": {
                 "level": 99,
@@ -56722,7 +58832,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 2081,
-                "sub_index": 2081
+                "sub_index": 2081,
+                "tr_id": 316
             },
             "Lvl 99 Natural Guru Spenser2 ": {
                 "level": 99,
@@ -56736,7 +58847,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Assault Vest",
                 "index": 2088,
-                "sub_index": 2088
+                "sub_index": 2088,
+                "tr_id": 185
             }
         },
         "Chien-Pao": {
@@ -56752,7 +58864,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heavy-Duty Boots",
                 "index": 1776,
-                "sub_index": 1776
+                "sub_index": 1776,
+                "tr_id": 19
             },
             "Lvl 100 Elite Four Sidney Doubles": {
                 "level": 100,
@@ -56766,7 +58879,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 2154,
-                "sub_index": 2154
+                "sub_index": 2154,
+                "tr_id": 85
             }
         },
         "Azelf": {
@@ -56782,7 +58896,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Focus Sash",
                 "index": 1793,
-                "sub_index": 1793
+                "sub_index": 1793,
+                "tr_id": 179
             }
         },
         "Venusaur-Mega": {
@@ -56798,7 +58913,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Venusaurite",
                 "index": 1799,
-                "sub_index": 1799
+                "sub_index": 1799,
+                "tr_id": 179
             },
             "Lvl 100 Natural Guru Spenser1 ": {
                 "level": 100,
@@ -56812,7 +58928,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Venusaurite",
                 "index": 2085,
-                "sub_index": 2085
+                "sub_index": 2085,
+                "tr_id": 316
             },
             "Lvl 100 Natural Guru Spenser2 ": {
                 "level": 100,
@@ -56826,7 +58943,8 @@ backup_data = {
                 "nature": "Calm",
                 "item": "Venusaurite",
                 "index": 2092,
-                "sub_index": 2092
+                "sub_index": 2092,
+                "tr_id": 185
             }
         },
         "Latios-Mega": {
@@ -56842,7 +58960,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Latiosite",
                 "index": 1801,
-                "sub_index": 1801
+                "sub_index": 1801,
+                "tr_id": 323
             }
         },
         "Zacian": {
@@ -56858,7 +58977,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Clear Amulet",
                 "index": 1804,
-                "sub_index": 1804
+                "sub_index": 1804,
+                "tr_id": 323
             }
         },
         "Pheromosa": {
@@ -56874,7 +58994,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Focus Band",
                 "index": 1806,
-                "sub_index": 1806
+                "sub_index": 1806,
+                "tr_id": 323
             },
             "Lvl 100 Naturalist Greta1 ": {
                 "level": 100,
@@ -56888,7 +59009,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Focus Sash",
                 "index": 2067,
-                "sub_index": 2067
+                "sub_index": 2067,
+                "tr_id": 146
             },
             "Lvl 100 Naturalist Greta2 ": {
                 "level": 100,
@@ -56902,7 +59024,8 @@ backup_data = {
                 "nature": "Rash",
                 "item": "Focus Sash",
                 "index": 2074,
-                "sub_index": 2074
+                "sub_index": 2074,
+                "tr_id": 147
             }
         },
         "Enamorus-Therian": {
@@ -56918,7 +59041,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Heavy-Duty Boots",
                 "index": 1808,
-                "sub_index": 1808
+                "sub_index": 1808,
+                "tr_id": 223
             }
         },
         "Kyogre": {
@@ -56934,7 +59058,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Wiki Berry",
                 "index": 1813,
-                "sub_index": 1813
+                "sub_index": 1813,
+                "tr_id": 105
             },
             "Lvl 100 Trainer Archie": {
                 "level": 100,
@@ -56948,7 +59073,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Blue Orb",
                 "index": 2128,
-                "sub_index": 2128
+                "sub_index": 2128,
+                "tr_id": 344
             }
         },
         "Iron Jugulis": {
@@ -56964,7 +59090,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Yache Berry",
                 "index": 1816,
-                "sub_index": 1816
+                "sub_index": 1816,
+                "tr_id": 105
             }
         },
         "Coalossal": {
@@ -56980,7 +59107,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 1820,
-                "sub_index": 1820
+                "sub_index": 1820,
+                "tr_id": 66
             }
         },
         "Raikou": {
@@ -57004,7 +59132,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1823,
-                "sub_index": 1823
+                "sub_index": 1823,
+                "tr_id": 66
             }
         },
         "Dragonite-Mega": {
@@ -57020,7 +59149,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Dragoninite",
                 "index": 1825,
-                "sub_index": 1825
+                "sub_index": 1825,
+                "tr_id": 66
             },
             "Lvl 100 Elite Four Drake Singles": {
                 "level": 100,
@@ -57034,7 +59164,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Dragoninite",
                 "index": 2194,
-                "sub_index": 2194
+                "sub_index": 2194,
+                "tr_id": 136
             }
         },
         "Entei": {
@@ -57050,7 +59181,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heavy-Duty Boots",
                 "index": 1828,
-                "sub_index": 1828
+                "sub_index": 1828,
+                "tr_id": 59
             }
         },
         "Ogerpon-Hearthflame": {
@@ -57066,7 +59198,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Hearthflame Mask",
                 "index": 1837,
-                "sub_index": 1837
+                "sub_index": 1837,
+                "tr_id": 92
             },
             "Lvl 100 Elite Four Rival Singles": {
                 "level": 100,
@@ -57080,7 +59213,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Hearthflame Mask",
                 "index": 2175,
-                "sub_index": 2175
+                "sub_index": 2175,
+                "tr_id": 171
             }
         },
         "Tapu Fini": {
@@ -57096,7 +59230,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Weakness Policy",
                 "index": 1847,
-                "sub_index": 1847
+                "sub_index": 1847,
+                "tr_id": 333
             }
         },
         "Gouging Fire": {
@@ -57120,7 +59255,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 1855,
-                "sub_index": 1855
+                "sub_index": 1855,
+                "tr_id": 120
             },
             "Lvl 100 Elite Four Drake Singles": {
                 "level": 100,
@@ -57134,7 +59270,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Heavy-Duty Boots",
                 "index": 2189,
-                "sub_index": 2189
+                "sub_index": 2189,
+                "tr_id": 136
             }
         },
         "Blaziken-Mega": {
@@ -57150,7 +59287,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Blazikenite",
                 "index": 1860,
-                "sub_index": 1860
+                "sub_index": 1860,
+                "tr_id": 120
             },
             "Lvl 98 Youngster Des": {
                 "level": 98,
@@ -57164,7 +59302,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Blazikenite",
                 "index": 2006,
-                "sub_index": 2006
+                "sub_index": 2006,
+                "tr_id": 157
             }
         },
         "Regieleki": {
@@ -57180,7 +59319,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Magnet",
                 "index": 1861,
-                "sub_index": 1861
+                "sub_index": 1861,
+                "tr_id": 222
             }
         },
         "Glastrier": {
@@ -57196,7 +59336,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Salac Berry",
                 "index": 1870,
-                "sub_index": 1870
+                "sub_index": 1870,
+                "tr_id": 255
             }
         },
         "Hoopa-Unbound": {
@@ -57212,7 +59353,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Leftovers",
                 "index": 1874,
-                "sub_index": 1874
+                "sub_index": 1874,
+                "tr_id": 265
             }
         },
         "Rayquaza": {
@@ -57228,7 +59370,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "None",
                 "index": 1894,
-                "sub_index": 1894
+                "sub_index": 1894,
+                "tr_id": 349
             },
             "Lvl 95 Lorekeeper Zinnia": {
                 "level": 95,
@@ -57242,7 +59385,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Enigma Berry",
                 "index": 1953,
-                "sub_index": 1953
+                "sub_index": 1953,
+                "tr_id": 84
             }
         },
         "Zoroark": {
@@ -57258,7 +59402,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Covert Cloak",
                 "index": 1895,
-                "sub_index": 1895
+                "sub_index": 1895,
+                "tr_id": 73
             }
         },
         "Iron Treads": {
@@ -57274,7 +59419,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Muscle Band",
                 "index": 1898,
-                "sub_index": 1898
+                "sub_index": 1898,
+                "tr_id": 73
             },
             "Lvl 99 Adventurer Brandon1 ": {
                 "level": 99,
@@ -57296,7 +59442,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 2053,
-                "sub_index": 2053
+                "sub_index": 2053,
+                "tr_id": 100
             }
         },
         "Manaphy": {
@@ -57312,7 +59459,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 1900,
-                "sub_index": 1900
+                "sub_index": 1900,
+                "tr_id": 73
             }
         },
         "Magearna": {
@@ -57328,7 +59476,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Weakness Policy",
                 "index": 1903,
-                "sub_index": 1903
+                "sub_index": 1903,
+                "tr_id": 215
             },
             "Lvl 96 Team Rocket Grunt #3 ": {
                 "level": 96,
@@ -57342,7 +59491,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Magearnite",
                 "index": 1974,
-                "sub_index": 1974
+                "sub_index": 1974,
+                "tr_id": 38
             },
             "Lvl 97 Rival Wally2 ": {
                 "level": 97,
@@ -57356,7 +59506,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Expert Belt",
                 "index": 2041,
-                "sub_index": 2041
+                "sub_index": 2041,
+                "tr_id": 292
             },
             "Lvl 100 Superstar Tucker1 ": {
                 "level": 100,
@@ -57370,7 +59521,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Magearnite",
                 "index": 2111,
-                "sub_index": 2111
+                "sub_index": 2111,
+                "tr_id": 117
             }
         },
         "Pikachu-Partner": {
@@ -57386,7 +59538,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Light Ball",
                 "index": 1911,
-                "sub_index": 1911
+                "sub_index": 1911,
+                "tr_id": 8
             }
         },
         "Zeraora-Mega": {
@@ -57402,7 +59555,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Zeraorite",
                 "index": 1919,
-                "sub_index": 1919
+                "sub_index": 1919,
+                "tr_id": 253
             }
         },
         "Squawkabilly-Blue": {
@@ -57418,7 +59572,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Life Orb",
                 "index": 1920,
-                "sub_index": 1920
+                "sub_index": 1920,
+                "tr_id": 253
             }
         },
         "Chi-Yu": {
@@ -57434,7 +59589,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Eject Pack",
                 "index": 1923,
-                "sub_index": 1923
+                "sub_index": 1923,
+                "tr_id": 141
             },
             "Lvl 100 Elite Four Sidney Singles": {
                 "level": 100,
@@ -57448,7 +59604,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 2150,
-                "sub_index": 2150
+                "sub_index": 2150,
+                "tr_id": 180
             }
         },
         "Baxcalibur-Mega": {
@@ -57464,7 +59621,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Baxcalibrite",
                 "index": 1927,
-                "sub_index": 1927
+                "sub_index": 1927,
+                "tr_id": 141
             }
         },
         "Kyurem": {
@@ -57480,7 +59638,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 1928,
-                "sub_index": 1928
+                "sub_index": 1928,
+                "tr_id": 57
             }
         },
         "Diancie-Mega": {
@@ -57496,7 +59655,8 @@ backup_data = {
                 "nature": "Naughty",
                 "item": "Diancite",
                 "index": 1934,
-                "sub_index": 1934
+                "sub_index": 1934,
+                "tr_id": 57
             },
             "Lvl 100 Champion Wallace": {
                 "level": 100,
@@ -57510,7 +59670,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Diancite",
                 "index": 2206,
-                "sub_index": 2206
+                "sub_index": 2206,
+                "tr_id": 314
             }
         },
         "Urshifu-Rapid-Strike": {
@@ -57526,7 +59687,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 1937,
-                "sub_index": 1937
+                "sub_index": 1937,
+                "tr_id": 80
             }
         },
         "Iron Crown": {
@@ -57542,7 +59704,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Weakness Policy",
                 "index": 1939,
-                "sub_index": 1939
+                "sub_index": 1939,
+                "tr_id": 80
             }
         },
         "Dialga-Origin": {
@@ -57558,7 +59721,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Adamant Crystal",
                 "index": 1941,
-                "sub_index": 1941
+                "sub_index": 1941,
+                "tr_id": 312
             }
         },
         "Genesect": {
@@ -57574,7 +59738,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Focus Sash",
                 "index": 1945,
-                "sub_index": 1945
+                "sub_index": 1945,
+                "tr_id": 312
             }
         },
         "Salamence-Mega": {
@@ -57590,7 +59755,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Iron Ball",
                 "index": 1952,
-                "sub_index": 1952
+                "sub_index": 1952,
+                "tr_id": 84
             },
             "Lvl 100 Elite Four Drake Doubles": {
                 "level": 100,
@@ -57604,7 +59770,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Salamencite",
                 "index": 2201,
-                "sub_index": 2201
+                "sub_index": 2201,
+                "tr_id": 128
             }
         },
         "Rayquaza-Mega": {
@@ -57620,7 +59787,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Enigma Berry",
                 "index": 1954,
-                "sub_index": 1954
+                "sub_index": 1954,
+                "tr_id": 84
             }
         },
         "Golisopod-Mega": {
@@ -57636,7 +59804,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Golisopite",
                 "index": 1961,
-                "sub_index": 1961
+                "sub_index": 1961,
+                "tr_id": 47
             },
             "Lvl 100 Naturalist Greta2 ": {
                 "level": 100,
@@ -57650,7 +59819,8 @@ backup_data = {
                 "nature": "Adamant",
                 "item": "Golisopite",
                 "index": 2078,
-                "sub_index": 2078
+                "sub_index": 2078,
+                "tr_id": 147
             }
         },
         "Garchomp-Mega-Z": {
@@ -57666,7 +59836,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Garchompite Z",
                 "index": 1968,
-                "sub_index": 1968
+                "sub_index": 1968,
+                "tr_id": 68
             },
             "Lvl 97 Rival Wally3 ": {
                 "level": 97,
@@ -57688,7 +59859,8 @@ backup_data = {
                     "sp": "31"
                 },
                 "index": 2048,
-                "sub_index": 2048
+                "sub_index": 2048,
+                "tr_id": 317
             }
         },
         "Magearna-Mega": {
@@ -57704,7 +59876,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Magearnite",
                 "index": 1975,
-                "sub_index": 1975
+                "sub_index": 1975,
+                "tr_id": 38
             },
             "Lvl 100 Superstar Tucker1 ": {
                 "level": 100,
@@ -57718,7 +59891,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Magearnite",
                 "index": 2112,
-                "sub_index": 2112
+                "sub_index": 2112,
+                "tr_id": 117
             }
         },
         "Registeel": {
@@ -57734,7 +59908,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Mental Herb",
                 "index": 1982,
-                "sub_index": 1982
+                "sub_index": 1982,
+                "tr_id": 310
             }
         },
         "Suicune": {
@@ -57750,7 +59925,8 @@ backup_data = {
                 "nature": "Bold",
                 "item": "Leftovers",
                 "index": 1984,
-                "sub_index": 1984
+                "sub_index": 1984,
+                "tr_id": 310
             }
         },
         "Floette-Eternal-Mega": {
@@ -57766,7 +59942,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Floettite",
                 "index": 1986,
-                "sub_index": 1986
+                "sub_index": 1986,
+                "tr_id": 310
             }
         },
         "Arceus-Psychic": {
@@ -57782,7 +59959,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Mind Plate",
                 "index": 1988,
-                "sub_index": 1988
+                "sub_index": 1988,
+                "tr_id": 310
             }
         },
         "Urshifu": {
@@ -57798,7 +59976,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Life Orb",
                 "index": 1991,
-                "sub_index": 1991
+                "sub_index": 1991,
+                "tr_id": 170
             }
         },
         "Lucario-Mega-Z": {
@@ -57814,7 +59993,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lucarionite Z",
                 "index": 1995,
-                "sub_index": 1995
+                "sub_index": 1995,
+                "tr_id": 170
             }
         },
         "Deoxys-Speed": {
@@ -57830,7 +60010,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Focus Sash",
                 "index": 2003,
-                "sub_index": 2003
+                "sub_index": 2003,
+                "tr_id": 157
             }
         },
         "Deoxys-Attack": {
@@ -57846,7 +60027,8 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Life Orb",
                 "index": 2015,
-                "sub_index": 2015
+                "sub_index": 2015,
+                "tr_id": 275
             }
         },
         "Zapdos": {
@@ -57862,7 +60044,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Heavy-Duty Boots",
                 "index": 2023,
-                "sub_index": 2023
+                "sub_index": 2023,
+                "tr_id": 272
             }
         },
         "Kyurem-White": {
@@ -57878,7 +60061,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Power Herb",
                 "index": 2027,
-                "sub_index": 2027
+                "sub_index": 2027,
+                "tr_id": 247
             }
         },
         "Calyrex-Ice": {
@@ -57894,7 +60078,8 @@ backup_data = {
                 "nature": "Careful",
                 "item": "Assault Vest",
                 "index": 2030,
-                "sub_index": 2030
+                "sub_index": 2030,
+                "tr_id": 247
             }
         },
         "Zygarde-Mega": {
@@ -57910,7 +60095,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Zygardite",
                 "index": 2058,
-                "sub_index": 2058
+                "sub_index": 2058,
+                "tr_id": 100
             },
             "Lvl 99 Adventurer Brandon2 ": {
                 "level": 99,
@@ -57924,7 +60110,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Zygardite",
                 "index": 2065,
-                "sub_index": 2065
+                "sub_index": 2065,
+                "tr_id": 101
             }
         },
         "Arceus-Bug": {
@@ -57940,7 +60127,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Insect Plate",
                 "index": 2072,
-                "sub_index": 2072
+                "sub_index": 2072,
+                "tr_id": 146
             }
         },
         "Arceus-Ground": {
@@ -57956,7 +60144,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Earth Plate",
                 "index": 2079,
-                "sub_index": 2079
+                "sub_index": 2079,
+                "tr_id": 147
             }
         },
         "Ogerpon-Cornerstone": {
@@ -57972,7 +60161,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Cornerstone Mask",
                 "index": 2083,
-                "sub_index": 2083
+                "sub_index": 2083,
+                "tr_id": 316
             },
             "Lvl 100 Natural Guru Spenser2 ": {
                 "level": 100,
@@ -57986,7 +60176,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Cornerstone Mask",
                 "index": 2090,
-                "sub_index": 2090
+                "sub_index": 2090,
+                "tr_id": 185
             }
         },
         "Arceus-Grass": {
@@ -58002,7 +60193,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Meadow Plate",
                 "index": 2086,
-                "sub_index": 2086
+                "sub_index": 2086,
+                "tr_id": 316
             }
         },
         "Arceus-Water": {
@@ -58018,7 +60210,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Splash Plate",
                 "index": 2093,
-                "sub_index": 2093
+                "sub_index": 2093,
+                "tr_id": 185
             }
         },
         "Eternatus-Eternamax": {
@@ -58034,7 +60227,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Black Sludge",
                 "index": 2100,
-                "sub_index": 2100
+                "sub_index": 2100,
+                "tr_id": 234
             },
             "Lvl 100 Battle Queen Lucy2 ": {
                 "level": 100,
@@ -58048,7 +60242,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Black Sludge",
                 "index": 2107,
-                "sub_index": 2107
+                "sub_index": 2107,
+                "tr_id": 235
             }
         },
         "Mewtwo-Mega-Y": {
@@ -58064,7 +60259,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Mewtwonite Y",
                 "index": 2138,
-                "sub_index": 2138
+                "sub_index": 2138,
+                "tr_id": 298
             }
         },
         "Necrozma-Dawn-Wings": {
@@ -58080,7 +60276,8 @@ backup_data = {
                 "nature": "Modest",
                 "item": "Enigma Berry",
                 "index": 2139,
-                "sub_index": 2139
+                "sub_index": 2139,
+                "tr_id": 112
             }
         },
         "Mewtwo-Mega-X": {
@@ -58096,7 +60293,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Mewtwonite X",
                 "index": 2145,
-                "sub_index": 2145
+                "sub_index": 2145,
+                "tr_id": 112
             }
         },
         "Yveltal": {
@@ -58112,7 +60310,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Black Glasses",
                 "index": 2151,
-                "sub_index": 2151
+                "sub_index": 2151,
+                "tr_id": 180
             },
             "Lvl 100 Elite Four Sidney Doubles": {
                 "level": 100,
@@ -58126,7 +60325,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Black Glasses",
                 "index": 2156,
-                "sub_index": 2156
+                "sub_index": 2156,
+                "tr_id": 85
             }
         },
         "Giratina-Origin": {
@@ -58142,7 +60342,8 @@ backup_data = {
                 "nature": "Jolly",
                 "item": "Griseous Core",
                 "index": 2166,
-                "sub_index": 2166
+                "sub_index": 2166,
+                "tr_id": 227
             }
         },
         "Calyrex-Shadow": {
@@ -58158,7 +60359,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Ghost Gem",
                 "index": 2171,
-                "sub_index": 2171
+                "sub_index": 2171,
+                "tr_id": 228
             }
         },
         "Silvally-Fairy": {
@@ -58174,7 +60376,8 @@ backup_data = {
                 "nature": "Hasty",
                 "item": "Fairy Memory",
                 "index": 2184,
-                "sub_index": 2184
+                "sub_index": 2184,
+                "tr_id": 172
             }
         },
         "Dialga": {
@@ -58190,7 +60393,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Adamant Orb",
                 "index": 2190,
-                "sub_index": 2190
+                "sub_index": 2190,
+                "tr_id": 136
             }
         },
         "Palkia-Origin": {
@@ -58206,7 +60410,8 @@ backup_data = {
                 "nature": "Timid",
                 "item": "Lustrous Globe",
                 "index": 2202,
-                "sub_index": 2202
+                "sub_index": 2202,
+                "tr_id": 314
             }
         },
         "Genesect-Douse": {
@@ -58222,2216 +60427,9 @@ backup_data = {
                 "nature": "Naive",
                 "item": "Douse Drive",
                 "index": 2204,
-                "sub_index": 2204
+                "sub_index": 2204,
+                "tr_id": 314
             }
         }
-    },
-    "idToSet": {
-        "0": "Sunkern (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "1": "Blipbug (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "2": "Snom (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "3": "Azurill (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "4": "Kricketot (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "5": "Caterpie (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "6": "Weedle (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "7": "Wurmple (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "8": "Ralts (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "9": "Magikarp (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "10": "Feebas (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "11": "Scatterbug (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "12": "Cosmog (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "13": "Metapod (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "14": "Kakuna (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "15": "Pichu (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "16": "Silcoon (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "17": "Cascoon (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "18": "Igglybuff (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "19": "Wooper (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "20": "Wooper-Paldea (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "21": "Tyrogue (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "22": "Bounsweet (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "23": "Tarountula (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "24": "Nymble (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "25": "Sentret (Lvl 10 Root Academy Trainer #1 Slot1 )",
-        "26": "Spewpa (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "27": "Sentret (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "28": "Cleffa (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "29": "Poochyena (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "30": "Lotad (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "31": "Seedot (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "32": "Happiny (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "33": "Burmy (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "34": "Wimpod (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "35": "Makuhita (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "36": "Bunnelby (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "37": "Zigzagoon (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "38": "Zigzagoon-Galar (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "39": "Whismur (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "40": "Rolycoly (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "41": "Pawmi (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "42": "Toxel (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "43": "Combee (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "44": "Zubat (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "45": "Togepi (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "46": "Starly (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "47": "Noibat (Lvl 10 Root Academy Trainer #1 Slot2 )",
-        "48": "Rookidee (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "49": "Nickit (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "50": "Wiglett (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "51": "Spinarak (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "52": "Marill (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "53": "Hoppip (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "54": "Slugma (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "55": "Swinub (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "56": "Bidoof (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "57": "Fomantis (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "58": "Gossifleur (Lvl 11 Root Academy Trainer #1 Slot2 )",
-        "59": "Pidgey (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "60": "Rattata (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "61": "Rattata-Alola (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "62": "Yungoos (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "63": "Lechonk (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "64": "Patrat (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "65": "Charcadet (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "66": "Flittle (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "67": "Skitty (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "68": "Wynaut (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "69": "Venipede (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "70": "Applin (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "71": "Smoliv (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "72": "Spearow (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "73": "Hoothoot (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "74": "Shinx (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "75": "Pidove (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "76": "Diglett (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "77": "Diglett-Alola (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "78": "Ledyba (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "79": "Pikipek (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "80": "Hatenna (Lvl 11 Root Academy Trainer #1 Slot3 )",
-        "81": "Impidimp (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "82": "Nincada (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "83": "Surskit (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "84": "Dewpider (Lvl 11 Root Academy Trainer #1 Slot3 )",
-        "85": "Jigglypuff (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "86": "Taillow (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "87": "Wingull (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "88": "Wooloo (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "89": "Yamper (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "90": "Milcery (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "91": "Dreepy (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "92": "Rellor (Lvl 12 Root Academy Trainer #1 Slot3 )",
-        "93": "Tadbulb (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "94": "Nidoran-M (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "95": "Nidoran-F (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "96": "Cherubi (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "97": "Lillipup (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "98": "Tynamo (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "99": "Litwick (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "100": "Skwovet (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "101": "Bramblin (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "102": "Kirlia (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "103": "Fletchling (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "104": "Mareep (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "105": "Slakoth (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "106": "Meditite (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "107": "Budew (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "108": "Roggenrola (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "109": "Cottonee (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "110": "Petilil (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "111": "Rockruff (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "112": "Arrokuda (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "113": "Nacli (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "114": "Wattrel (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "115": "Purrloin (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "116": "Chewtle (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "117": "Paras (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "118": "Chingling (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "119": "Riolu (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "120": "Morelull (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "121": "Ekans (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "122": "Ditto (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "123": "Barboach (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "124": "Inkay (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "125": "Helioptile (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "126": "Meowth (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "127": "Meowth-Alola (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "128": "Meowth-Galar (Lvl 17 Root Academy Trainer #2 Slot1 )",
-        "129": "Pineco (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "130": "Trapinch (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "131": "Spheal (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "132": "Bonsly (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "133": "Gothita (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "134": "Solosis (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "135": "Steenee (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "136": "Shroodle (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "137": "Greavard (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "138": "Munna (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "139": "Sandile (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "140": "Tympole (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "141": "Foongus (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "142": "Horsea (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "143": "Shroomish (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "144": "Electrike (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "145": "Shuppet (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "146": "Duskull (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "147": "Blitzle (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "148": "Tinkatink (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "149": "Vulpix (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "150": "Vulpix-Alola (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "151": "Sandshrew (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "152": "Sandshrew-Alola (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "153": "Poliwag (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "154": "Bellsprout (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "155": "Geodude (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "156": "Geodude-Alola (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "157": "Dratini (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "158": "Snubbull (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "159": "Remoraid (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "160": "Larvitar (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "161": "Baltoy (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "162": "Snorunt (Lvl 17 Root Academy Trainer #2 Slot2 )",
-        "163": "Bagon (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "164": "Beldum (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "165": "Bronzor (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "166": "Gible (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "167": "Croagunk (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "168": "Minccino (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "169": "Klink (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "170": "Deino (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "171": "Goomy (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "172": "Grubbin (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "173": "Jangmo-o (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "174": "Meltan (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "175": "Varoom (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "176": "Gimmighoul (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "177": "Gimmighoul-Roaming (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "178": "Gulpin (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "179": "Yamask (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "180": "Yamask-Galar (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "181": "Golett (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "182": "Flabébé (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "183": "Bergmite (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "184": "Cutiefly (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "185": "Capsakid (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "186": "Venonat (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "187": "Mankey (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "188": "Machop (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "189": "Shellder (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "190": "Smoochum (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "191": "Carvanha (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "192": "Numel (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "193": "Timburr (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "194": "Ducklett (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "195": "Vanillite (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "196": "Ferroseed (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "197": "Cubchoo (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "198": "Shelmet (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "199": "Mareanie (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "200": "Sizzlipede (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "201": "Tandemaus (Lvl 17 Root Academy Trainer #2 Slot3 )",
-        "202": "Binacle (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "203": "Fennekin (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "204": "Corphish (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "205": "Snivy (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "206": "Tepig (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "207": "Oshawott (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "208": "Sinistea (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "209": "Charmander (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "210": "Cyndaquil (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "211": "Chimchar (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "212": "Phantump (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "213": "Abra (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "214": "Doduo (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "215": "Gastly (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "216": "Treecko (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "217": "Torchic (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "218": "Mudkip (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "219": "Swablu (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "220": "Glameow (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "221": "Mime Jr. (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "222": "Sewaddle (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "223": "Grookey (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "224": "Scorbunny (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "225": "Sobble (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "226": "Clobbopus (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "227": "Sprigatito (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "228": "Fuecoco (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "229": "Quaxly (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "230": "Fidough (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "231": "Chespin (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "232": "Squirtle (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "233": "Totodile (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "234": "Piplup (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "235": "Froakie (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "236": "Slowpoke (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "237": "Slowpoke-Galar (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "238": "Darumaka (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "239": "Darumaka-Galar (Lvl 22 Root Academy Trainer #3 Slot1 )",
-        "240": "Karrablast (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "241": "Silicobra (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "242": "Finizen (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "243": "Pansage (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "244": "Pansear (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "245": "Panpour (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "246": "Bulbasaur (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "247": "Chikorita (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "248": "Turtwig (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "249": "Joltik (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "250": "Pikachu (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "251": "Oddish (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "252": "Psyduck (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "253": "Cubone (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "254": "Goldeen (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "255": "Natu (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "256": "Axew (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "257": "Skrelp (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "258": "Litten (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "259": "Popplio (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "260": "Salandit (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "261": "Sandygast (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "262": "Frigibax (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "263": "Clefairy (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "264": "Woobat (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "265": "Magnemite (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "266": "Seel (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "267": "Grimer (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "268": "Grimer-Alola (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "269": "Krabby (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "270": "Exeggcute (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "271": "Eevee (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "272": "Shellos (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "273": "Dwebble (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "274": "Honedge (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "275": "Drowzee (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "276": "Drilbur (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "277": "Stunky (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "278": "Trubbish (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "279": "Voltorb (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "280": "Voltorb-Hisui (Lvl 23 Root Academy Trainer #3 Slot2 )",
-        "281": "Chinchou (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "282": "Teddiursa (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "283": "Delibird (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "284": "Houndour (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "285": "Phanpy (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "286": "Aron (Lvl 1 Root Academy Trainer #3 Slot3 )",
-        "287": "Spoink (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "288": "Luvdisc (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "289": "Buizel (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "290": "Hippopotas (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "291": "Skorupi (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "292": "Finneon (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "293": "Zorua (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "294": "Zorua-Hisui (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "295": "Clauncher (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "296": "Cufant (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "297": "Snover (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "298": "Cetoddle (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "299": "Tentacool (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "300": "Cacnea (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "301": "Deerling (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "302": "Frillish (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "303": "Elgyem (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "304": "Pumpkaboo-Super (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "305": "Dottler (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "306": "Toedscool (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "307": "Unown (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "308": "Crabrawler (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "309": "Koffing (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "310": "Staryu (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "311": "Skiploom (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "312": "Lombre (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "313": "Nuzleaf (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "314": "Vibrava (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "315": "Staravia (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "316": "Pawniard (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "317": "Stufful (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "318": "Maschiff (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "319": "Spritzee (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "320": "Swirlix (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "321": "Rhyhorn (Lvl 24 Root Academy Trainer #3 Slot3 )",
-        "322": "Linoone-Galar (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "323": "Clamperl (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "324": "Mantyke (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "325": "Drifloon (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "326": "Scraggy (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "327": "Pancham (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "328": "Pidgeotto (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "330": "Growlithe (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "331": "Cranidos (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "332": "Shieldon (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "333": "Buneary (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "334": "Mienfoo (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "335": "Rufflet (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "336": "Skiddo (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "337": "Krokorok (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "338": "Omanyte (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "339": "Kabuto (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "340": "Lileep (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "341": "Anorith (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "342": "Tirtouga (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "343": "Espurr (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "344": "Trumbeak (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "345": "Tranquill (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "346": "Aipom (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "347": "Elekid (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "348": "Spinda (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "349": "Whirlipede (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "350": "Larvesta (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "351": "Tyrunt (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "352": "Amaura (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "353": "Luxio (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "354": "Nidorina (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "355": "Nidorino (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "356": "Flaaffy (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "357": "Magby (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "358": "Litleo (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "359": "Herdier (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "360": "Duosion (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "361": "Lampent (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "362": "Vullaby (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "363": "Floette (Lvl 27 Root Academy Trainer #4 Slot1 )",
-        "364": "Farfetch’d-Galar (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "365": "Tinkatuff (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "366": "Pawmo (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "367": "Dolliv (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "368": "Naclstack (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "369": "Corvisquire (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "370": "Hattrem (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "371": "Morgrem (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "372": "Nosepass (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "373": "Swadloon (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "374": "Fletchinder (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "375": "Palpitoad (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "376": "Poliwhirl (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "377": "Onix (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "378": "Lickitung (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "379": "Mudbray (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "380": "Weepinbell (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "381": "Graveler (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "382": "Graveler-Alola (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "383": "Yanma (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "384": "Munchlax (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "385": "Gothorita (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "386": "Gloom (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "387": "Porygon (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "388": "Vanillish (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "389": "Kadabra (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "390": "Gligar (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "391": "Lairon (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "392": "Sneasel (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "393": "Tangela (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "394": "Murkrow (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "395": "Vigoroth (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "396": "Klang (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "397": "Archen (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "398": "Roselia (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "399": "Wailmer (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "400": "Charjabug (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "401": "Machoke (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "402": "Haunter (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "403": "Carkol (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "404": "Sealeo (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "405": "Gurdurr (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "406": "Eelektrik (Lvl 28 Root Academy Trainer #4 Slot2 )",
-        "407": "Ponyta (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "408": "Ponyta-Galar (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "409": "Sliggoo (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "410": "Sliggoo-Hisui (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "411": "Drakloak (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "412": "Hakamo-o (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "413": "Shelgon (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "414": "Metang (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "415": "Zweilous (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "416": "Dragonair (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "417": "Pupitar (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "418": "Gabite (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "419": "Fraxure (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "420": "Cosmoem (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "421": "Poipole (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "422": "Ivysaur (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "423": "Charmeleon (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "424": "Wartortle (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "425": "Quilladin (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "426": "Frogadier (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "427": "Braixen (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "428": "Grotle (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "429": "Monferno (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "430": "Prinplup (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "431": "Servine (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "432": "Dewott (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "433": "Pignite (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "434": "Dartrix (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "435": "Torracat (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "436": "Brionne (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "437": "Grovyle (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "438": "Combusken (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "439": "Marshtomp (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "440": "Bayleef (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "441": "Quilava (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "442": "Croconaw (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "443": "Floragato (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "444": "Quaxwell (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "445": "Crocalor (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "446": "Thwackey (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "447": "Raboot (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "448": "Drizzile (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "449": "Arctibax (Lvl 28 Root Academy Trainer #4 Slot3 )",
-        "450": "Oshawott (Lvl 10 Route 103 Rival)",
-        "451": "Litten (Lvl 10 Route 103 Rival)",
-        "452": "Riolu (Lvl 11 Route 103 Rival)",
-        "453": "None (Lvl 0 Youngster Ren)",
-        "454": "None (Lvl 0 Youngster Levi)",
-        "455": "None (Lvl 0 Lass Videl)",
-        "456": "None (Lvl 0 Youngster Itachi)",
-        "457": "Bibarel (Lvl 34 Oldale Team Aqua Grunt)",
-        "458": "Sableye (Lvl 33 Oldale Team Aqua Grunt)",
-        "459": "Dustox (Lvl 33 Oldale Team Aqua Grunt)",
-        "460": "Quagsire (Lvl 33 Oldale Team Aqua Grunt)",
-        "461": "Oinkologne (Lvl 33 Youngster Calvin)",
-        "462": "Gumshoos (Lvl 34 Youngster Calvin)",
-        "463": "Talonflame (Lvl 34 Youngster Calvin)",
-        "464": "Lumineon (Lvl 33 Bug Catcher Beni)",
-        "465": "Butterfree (Lvl 33 Bug Catcher Beni)",
-        "466": "Spidops (Lvl 33 Bug Catcher Beni)",
-        "467": "Ledian (Lvl 34 Bug Catcher Beni)",
-        "468": "Arboliva (Lvl 33 Youngster Joey)",
-        "469": "Heliolisk (Lvl 33 Youngster Joey)",
-        "470": "Clodsire (Lvl 33 Youngster Joey)",
-        "471": "Comfey (Lvl 34 Youngster Joey)",
-        "472": "Bombirdier (Lvl 34 Lass Tiana)",
-        "473": "Orthworm (Lvl 34 Lass Tiana)",
-        "474": "Ariados (Lvl 34 Lass Tiana)",
-        "475": "Beautifly (Lvl 34 Lass Tiana)",
-        "476": "Hypno (Lvl 35 Lass Tiana)",
-        "477": "Raticate-Alola (Lvl 34 Youngster Swede)",
-        "478": "Raticate (Lvl 34 Youngster Swede)",
-        "479": "Furret (Lvl 35 Youngster Swede)",
-        "480": "Pyukumuku (Lvl 36 Fisherman Darian)",
-        "481": "Azumarill (Lvl 34 Fisherman Darian)",
-        "482": "Pincurchin (Lvl 34 Fisherman Darian)",
-        "483": "Gyarados (Lvl 34 Fisherman Darian)",
-        "484": "Luvdisc (Lvl 38 Fisherman Darian)",
-        "485": "Delcatty (Lvl 34 Lady Cindy)",
-        "486": "Togetic (Lvl 35 Lady Cindy)",
-        "487": "Kricketune (Lvl 35 Lady Cindy)",
-        "488": "Clefable (Lvl 34 Lady Cindy)",
-        "489": "Vivillon (Lvl 35 Bug Catcher Kenobi)",
-        "490": "Dipplin (Lvl 35 Bug Catcher Kenobi)",
-        "491": "Dunsparce (Lvl 35 Bug Catcher Kenobi)",
-        "492": "Watchog (Lvl 35 Bug Catcher Kenobi)",
-        "493": "Parasect (Lvl 35 Bug Catcher James)",
-        "494": "Beedrill (Lvl 35 Bug Catcher James)",
-        "495": "Farfetch’d (Lvl 36 Bug Catcher James)",
-        "496": "Chansey (Lvl 35 Bug Catcher James)",
-        "497": "Wishiwashi (Lvl 36 Woods Team Aqua Grunt)",
-        "498": "Chatot (Lvl 35 Woods Team Aqua Grunt)",
-        "499": "Toedscruel (Lvl 35 Woods Team Aqua Grunt)",
-        "500": "Girafarig (Lvl 35 Woods Team Aqua Grunt)",
-        "501": "Magcargo (Lvl 36 Rich Boy Winston)",
-        "502": "Sunflora (Lvl 37 Rich Boy Winston)",
-        "503": "Diggersby (Lvl 35 Rich Boy Winston)",
-        "504": "Sawsbuck (Lvl 36 Rich Boy Winston)",
-        "505": "Poipole (Lvl 38 Twins Gina&Mia)",
-        "506": "Grookey (Lvl 35 Twins Gina&Mia)",
-        "507": "Shiinotic (Lvl 35 Twins Gina&Mia)",
-        "508": "Leafeon (Lvl 35 Twins Gina&Mia)",
-        "509": "Pelipper (Lvl 36 Fisherman Ivan)",
-        "510": "Castform (Lvl 37 Fisherman Ivan)",
-        "511": "Qwilfish (Lvl 35 Fisherman Ivan)",
-        "512": "Seadra (Lvl 35 Fisherman Ivan)",
-        "513": "Klawf (Lvl 36 Youngster Josh)",
-        "514": "Mawile (Lvl 36 Youngster Josh)",
-        "515": "Corsola (Lvl 36 Youngster Josh)",
-        "516": "Armaldo (Lvl 36 Youngster Josh)",
-        "517": "Carbink (Lvl 35 Youngster Tommy)",
-        "518": "Shuckle (Lvl 36 Youngster Tommy)",
-        "519": "Golem-Alola (Lvl 37 Youngster Tommy)",
-        "520": "Sudowoodo (Lvl 37 Youngster Tommy)",
-        "521": "Glimmet (Lvl 36 Hiker Marcster)",
-        "522": "Minior (Lvl 37 Hiker Marcster)",
-        "523": "Mareanie (Lvl 37 Hiker Marcster)",
-        "524": "Corsola-Galar (Lvl 36 Hiker Marcster)",
-        "525": "Lunatone (Lvl 37 Hiker Marcster)",
-        "526": "Tyranitar (Lvl 37 Leader Roxanne)",
-        "527": "Solrock (Lvl 38 Leader Roxanne)",
-        "528": "Zygarde (Lvl 37 Leader Roxanne)",
-        "529": "Cradily (Lvl 37 Leader Roxanne)",
-        "530": "Omastar (Lvl 37 Leader Roxanne)",
-        "531": "Aerodactyl (Lvl 38 Leader Roxanne)",
-        "532": "Aerodactyl-Mega (Lvl 38 Leader Roxanne)",
-        "533": "Pidgeot (Lvl 39 Youngster Schmo)",
-        "534": "Linoone (Lvl 40 Youngster Schmo)",
-        "535": "Wigglytuff (Lvl 40 Youngster Schmo)",
-        "536": "Venomoth (Lvl 40 Bug Catcher Jose)",
-        "537": "Wormadam-Sandy (Lvl 40 Bug Catcher Jose)",
-        "538": "Gastrodon (Lvl 41 Bug Catcher Jose)",
-        "539": "Kleavor (Lvl 42 Bug Catcher Jose)",
-        "540": "Primeape (Lvl 40 School Kid Karen)",
-        "541": "Ursaring (Lvl 41 School Kid Karen)",
-        "542": "Throh (Lvl 41 School Kid Karen)",
-        "543": "Magneton (Lvl 41 School Kid Karen)",
-        "544": "Golem (Lvl 42 Hiker Clark & Youngster Johnson)",
-        "545": "Sandslash (Lvl 41 Hiker Clark & Youngster Johnson)",
-        "546": "Persian (Lvl 41 Hiker Clark & Youngster Johnson)",
-        "547": "Chimecho (Lvl 41 Hiker Clark & Youngster Johnson)",
-        "548": "Dugtrio-Alola (Lvl 42 Hiker Devan)",
-        "549": "Stunfisk (Lvl 42 Hiker Devan)",
-        "550": "Mightyena (Lvl 42 Rusturf Team Aqua Grunt)",
-        "551": "Slowbro-Galar (Lvl 42 Rusturf Team Aqua Grunt)",
-        "552": "Wormadam (Lvl 43 Rusturf Team Aqua Grunt)",
-        "553": "Phione (Lvl 45 Rusturf Team Aqua Grunt)",
-        "554": "Bellibolt (Lvl 43 Rustboro Rival Chespin)",
-        "555": "Cinderace (Lvl 44 Rustboro Rival Chespin)",
-        "556": "Lucario (Lvl 44 Rustboro Rival Chespin)",
-        "557": "Alomomola (Lvl 43 Rustboro Rival Chespin)",
-        "558": "Cacturne (Lvl 43 Rustboro Rival Chespin)",
-        "559": "Type: Null (Lvl 43 Rustboro Rival Chespin)",
-        "560": "Electrode-Hisui (Lvl 43 Rustboro Rival Fennekin)",
-        "561": "Greninja (Lvl 44 Rustboro Rival Fennekin)",
-        "562": "Lucario (Lvl 44 Rustboro Rival Fennekin)",
-        "563": "Cacturne (Lvl 43 Rustboro Rival Fennekin)",
-        "564": "Salazzle (Lvl 43 Rustboro Rival Fennekin)",
-        "565": "Type: Null (Lvl 43 Rustboro Rival Fennekin)",
-        "566": "Raichu (Lvl 43 Rustboro Rival Froakie)",
-        "567": "Meowscarada (Lvl 44 Rustboro Rival Froakie)",
-        "568": "Lucario (Lvl 44 Rustboro Rival Froakie)",
-        "569": "Alomomola (Lvl 43 Rustboro Rival Froakie)",
-        "570": "Salazzle (Lvl 43 Rustboro Rival Froakie)",
-        "571": "Type: Null (Lvl 43 Rustboro Rival Froakie)",
-        "572": "Seaking (Lvl 43 Fisherman Elliot & Fisherman Ned)",
-        "574": "Lapras (Lvl 44 Fisherman Elliot & Fisherman Ned)",
-        "575": "Lanturn (Lvl 43 Fisherman Elliot & Fisherman Ned)",
-        "576": "Clefairy (Lvl 44 Picnicker Emi)",
-        "577": "Mr. Mime-Galar (Lvl 44 Picnicker Emi)",
-        "578": "Charjabug (Lvl 44 Picnicker Emi)",
-        "579": "Misdreavus (Lvl 44 Picnicker Emi)",
-        "580": "Polteageist (Lvl 44 Ranger Zoe)",
-        "581": "Tauros-Paldea-Combat (Lvl 44 Ranger Zoe)",
-        "582": "Flapple (Lvl 44 Ranger Zoe)",
-        "583": "Tropius (Lvl 45 Ranger Zoe)",
-        "584": "Magmar (Lvl 44 Blackbelt Bryant)",
-        "585": "Electabuzz (Lvl 44 Blackbelt Bryant)",
-        "586": "Kubfu (Lvl 45 Blackbelt Bryant)",
-        "587": "Gothorita (Lvl 43 Blackbelt Bryant)",
-        "588": "Hitmonlee (Lvl 45 Blackbelt Takao)",
-        "589": "Togedemaru (Lvl 44 Blackbelt Takao)",
-        "590": "Breloom (Lvl 44 Blackbelt Takao)",
-        "591": "Hitmonchan (Lvl 45 Battle Girl Laura)",
-        "592": "Sneasel-Hisui (Lvl 44 Battle Girl Laura)",
-        "593": "Sawk (Lvl 43 Battle Girl Laura)",
-        "594": "Dedenne (Lvl 44 Battle Girl Laura)",
-        "595": "Passimian (Lvl 44 Blackbelt Cristian)",
-        "596": "Mimikyu (Lvl 44 Blackbelt Cristian)",
-        "597": "Toxicroak (Lvl 43 Blackbelt Cristian)",
-        "598": "Scrafty (Lvl 45 Blackbelt Cristian)",
-        "599": "Poliwrath (Lvl 44 Battle Girl Jocelyn)",
-        "600": "Lopunny (Lvl 44 Battle Girl Jocelyn)",
-        "601": "Morpeko (Lvl 44 Battle Girl Jocelyn)",
-        "602": "Tauros-Paldea-Blaze (Lvl 44 Battle Girl Jocelyn)",
-        "603": "Medicham (Lvl 45 Battle Girl Jocelyn)",
-        "604": "Hariyama (Lvl 45 Leader Brawly)",
-        "605": "Hitmontop (Lvl 44 Leader Brawly)",
-        "606": "Doublade (Lvl 45 Leader Brawly)",
-        "607": "Pawmot (Lvl 44 Leader Brawly)",
-        "608": "Zamazenta-Crowned (Lvl 43 Leader Brawly)",
-        "609": "Heracross (Lvl 44 Leader Brawly)",
-        "610": "Heracross-Mega (Lvl 44 Leader Brawly)",
-        "611": "Stunfisk-Galar (Lvl 46 Tuber Hailey)",
-        "612": "Carnivine (Lvl 47 Tuber Hailey)",
-        "613": "Mothim (Lvl 47 Tuber Hailey)",
-        "614": "Wugtrio (Lvl 47 Tuber Hailey)",
-        "615": "Pincurchin (Lvl 47 Tuber Ricky)",
-        "616": "Simisage (Lvl 47 Tuber Ricky)",
-        "617": "Raichu-Alola (Lvl 47 Tuber Ricky)",
-        "618": "Clawitzer (Lvl 47 Tuber Ricky)",
-        "619": "Aromatisse (Lvl 48 Tuber Lola)",
-        "620": "Marowak (Lvl 47 Tuber Lola)",
-        "621": "Veluza (Lvl 47 Tuber Lola)",
-        "622": "Machamp (Lvl 48 Tuber Lola)",
-        "623": "Masquerain (Lvl 47 Sailor Edmond)",
-        "624": "Dachsbun (Lvl 47 Sailor Edmond)",
-        "625": "Purugly (Lvl 47 Sailor Edmond)",
-        "626": "Druddigon (Lvl 48 Sailor Edmond)",
-        "627": "Kingler (Lvl 48 Tuber Chandler)",
-        "628": "Palossand (Lvl 47 Tuber Chandler)",
-        "629": "Sawsbuck (Lvl 48 Tuber Chandler)",
-        "630": "Meganium (Lvl 48 Sailor MSPaint)",
-        "631": "Wyrdeer (Lvl 48 Sailor MSPaint)",
-        "632": "Zebstrika (Lvl 48 Sailor MSPaint)",
-        "633": "Comfey (Lvl 48 Sailor MSPaint)",
-        "634": "Basculin (Lvl 48 Museum Team Aqua Grunt)",
-        "635": "Seviper (Lvl 48 Museum Team Aqua Grunt)",
-        "636": "Liepard (Lvl 48 Museum Team Aqua Grunt)",
-        "637": "Uxie (Lvl 49 Museum Team Aqua Elite Grunt)",
-        "638": "Pangoro (Lvl 49 Museum Team Aqua Elite Grunt)",
-        "639": "Tentacruel (Lvl 49 Museum Team Aqua Elite Grunt)",
-        "640": "Banette (Lvl 50 Museum Team Aqua Elite Grunt)",
-        "641": "Banette-Mega (Lvl 50 Museum Team Aqua Elite Grunt)",
-        "642": "Cryogonal (Lvl 50 Lass Haley)",
-        "643": "Slowking (Lvl 50 Lass Haley)",
-        "644": "Avalugg-Hisui (Lvl 50 Lass Haley)",
-        "645": "Crabominable (Lvl 51 Lass Haley)",
-        "646": "Abomasnow (Lvl 51 Parasol Lady Saara)",
-        "647": "Sandslash-Alola (Lvl 51 Parasol Lady Saara)",
-        "648": "Reuniclus (Lvl 50 Parasol Lady Saara)",
-        "649": "Dewgong (Lvl 51 Parasol Lady Saara)",
-        "650": "Altaria (Lvl 52 Parasol Lady Saara)",
-        "651": "Froslass (Lvl 51 Guitarist Marcos)",
-        "652": "Sneasel (Lvl 51 Guitarist Marcos)",
-        "653": "Alcremie (Lvl 52 Guitarist Marcos)",
-        "654": "Walrein (Lvl 51 Guitarist Marcos)",
-        "655": "Beartic (Lvl 52 Guitarist Marcos)",
-        "656": "Articuno (Lvl 51 Ex Elite Four Glacia1 )",
-        "657": "Arctovish (Lvl 51 Ex Elite Four Glacia1 )",
-        "658": "Piloswine (Lvl 51 Ex Elite Four Glacia1 )",
-        "659": "Calyrex (Lvl 52 Ex Elite Four Glacia1 )",
-        "660": "Kommo-o (Lvl 51 Ex Elite Four Glacia1 )",
-        "661": "Glalie (Lvl 53 Ex Elite Four Glacia1 )",
-        "662": "Glalie-Mega (Lvl 53 Ex Elite Four Glacia1 )",
-        "663": "Lycanroc-Midnight (Lvl 54 Hiker Mike)",
-        "664": "Tauros-Paldea-Combat (Lvl 54 Hiker Mike)",
-        "665": "Marowak-Alola (Lvl 54 Hiker Mike)",
-        "666": "Ampharos (Lvl 54 Hiker Mike)",
-        "667": "Gourgeist-Small (Lvl 54 Rich Boy Techno)",
-        "668": "Krookodile (Lvl 54 Rich Boy Techno)",
-        "669": "Hatterene (Lvl 54 Rich Boy Techno)",
-        "670": "Fearow (Lvl 55 Rich Boy Techno)",
-        "671": "Kecleon (Lvl 54 Psychic Brandi)",
-        "672": "Jynx (Lvl 55 Psychic Brandi)",
-        "673": "Chimecho (Lvl 55 Psychic Brandi)",
-        "674": "Chimecho-Mega (Lvl 55 Psychic Brandi)",
-        "675": "Grumpig (Lvl 54 Psychic Brandi)",
-        "676": "Beheeyem (Lvl 55 Psychic Brandi)",
-        "677": "Araquanid (Lvl 55 Bug Maniac Derek)",
-        "678": "Lurantis (Lvl 55 Bug Maniac Derek)",
-        "679": "Scyther (Lvl 56 Bug Maniac Derek)",
-        "680": "Crustle (Lvl 55 Bug Maniac Derek)",
-        "681": "Volbeat (Lvl 55 Triathlete Maria & Triathlete Dylan)",
-        "682": "Swoobat (Lvl 56 Triathlete Maria & Triathlete Dylan)",
-        "683": "Illumise (Lvl 55 Triathlete Maria & Triathlete Dylan)",
-        "684": "Persian-Alola (Lvl 56 Triathlete Maria & Triathlete Dylan)",
-        "685": "Boltund (Lvl 55 Breeder Tommy)",
-        "686": "Zangoose (Lvl 56 Breeder Tommy)",
-        "687": "Furfrou (Lvl 55 Breeder Tommy)",
-        "688": "Arbok (Lvl 55 Breeder Tommy)",
-        "689": "Houndstone (Lvl 56 Breeder Tommy)",
-        "690": "Oricorio-Sensu (Lvl 55 Twins Anna&Meg)",
-        "691": "Oricorio-Pom-Pom (Lvl 55 Twins Anna&Meg)",
-        "692": "Bellossom (Lvl 56 Twins Anna&Meg)",
-        "693": "Oricorio (Lvl 55 Twins Anna&Meg)",
-        "694": "Oricorio-Pa'u (Lvl 55 Twins Anna&Meg)",
-        "695": "Kangaskhan (Lvl 55 Blackbelt Iageezus)",
-        "696": "Grapploct (Lvl 56 Blackbelt Iageezus)",
-        "697": "Granbull (Lvl 55 Blackbelt Iageezus)",
-        "698": "Blaziken (Lvl 56 Blackbelt Iageezus)",
-        "699": "Perrserker (Lvl 56 Blackbelt Iageezus)",
-        "700": "Ralts (Lvl 60 Trainer Wally)",
-        "701": "Electivire (Lvl 56 Battle Girl Vivian)",
-        "702": "Octillery (Lvl 56 Battle Girl Vivian)",
-        "703": "Iron Hands (Lvl 56 Battle Girl Vivian)",
-        "704": "Rotom (Lvl 56 Battle Girl Vivian)",
-        "705": "Electrode (Lvl 58 Bug Maniac Angelo)",
-        "706": "Rabsca (Lvl 56 Bug Maniac Angelo)",
-        "707": "Pawmot (Lvl 56 Bug Maniac Angelo)",
-        "708": "Golem-Alola (Lvl 57 Bug Maniac Angelo)",
-        "709": "Galvantula (Lvl 56 Youngster Ben)",
-        "710": "Rotom-Frost (Lvl 57 Youngster Ben)",
-        "711": "Orthworm (Lvl 57 Youngster Ben)",
-        "712": "Kilowattrel (Lvl 56 Youngster Ben)",
-        "713": "Eelektross (Lvl 58 Youngster Ben)",
-        "714": "Plusle (Lvl 57 Guitarist Shawn & Guitarist Kirk)",
-        "715": "Klinklang (Lvl 58 Guitarist Shawn & Guitarist Kirk)",
-        "716": "Toxtricity (Lvl 58 Guitarist Shawn & Guitarist Kirk)",
-        "717": "Minun (Lvl 57 Guitarist Shawn & Guitarist Kirk)",
-        "718": "Toxtricity-Low-Key (Lvl 58 Guitarist Shawn & Guitarist Kirk)",
-        "719": "Tapu Koko (Lvl 59 Leader Wattson)",
-        "720": "Sceptile (Lvl 58 Leader Wattson)",
-        "721": "Sceptile-Mega (Lvl 58 Leader Wattson)",
-        "722": "Emolga (Lvl 59 Leader Wattson)",
-        "723": "Arctozolt (Lvl 58 Leader Wattson)",
-        "724": "Iron Thorns (Lvl 58 Leader Wattson)",
-        "725": "Manectric (Lvl 60 Leader Wattson)",
-        "726": "Rapidash (Lvl 59 Land Cave Team Magma Grunt #1 )",
-        "727": "Lilligant (Lvl 60 Land Cave Team Magma Grunt #1 )",
-        "728": "Tropius (Lvl 60 Land Cave Team Magma Grunt #1 )",
-        "729": "Torkoal (Lvl 60 Team Magma Grunt Croven)",
-        "730": "Exeggutor (Lvl 60 Team Magma Grunt Croven)",
-        "731": "Centiskorch (Lvl 61 Team Magma Grunt Croven)",
-        "732": "Togekiss (Lvl 61 Team Magma Grunt Croven)",
-        "733": "Nidoking (Lvl 60 Land Cave Team Magma Grunt #3 )",
-        "734": "Rhydon (Lvl 61 Land Cave Team Magma Grunt #3 )",
-        "735": "Simisear (Lvl 60 Land Cave Team Magma Grunt #3 )",
-        "736": "Skuntank (Lvl 60 Land Cave Team Magma Grunt #4 )",
-        "737": "Falinks (Lvl 60 Land Cave Team Magma Grunt #4 )",
-        "738": "Charizard (Lvl 61 Land Cave Team Magma Grunt #4 )",
-        "739": "Emboar (Lvl 61 Land Cave Team Magma Grunt #4 )",
-        "740": "Heatmor (Lvl 61 Land Cave Team Magma Elite Grunt)",
-        "741": "Nidoqueen (Lvl 61 Land Cave Team Magma Elite Grunt)",
-        "742": "Mabosstiff (Lvl 62 Land Cave Team Magma Elite Grunt)",
-        "743": "Rapidash-Galar (Lvl 61 Land Cave Team Magma Elite Grunt)",
-        "744": "Pidgeot (Lvl 62 Land Cave Team Magma Elite Grunt)",
-        "745": "Pidgeot-Mega (Lvl 62 Land Cave Team Magma Elite Grunt)",
-        "746": "Camerupt (Lvl 61 Team Magma Admin Courtney1 )",
-        "747": "Camerupt-Mega (Lvl 61 Team Magma Admin Courtney1 )",
-        "748": "Exeggutor-Alola (Lvl 61 Team Magma Admin Courtney1 )",
-        "749": "Muk (Lvl 61 Team Magma Admin Courtney1 )",
-        "750": "Moltres (Lvl 62 Team Magma Admin Courtney1 )",
-        "751": "Dusclops (Lvl 62 Team Magma Admin Courtney1 )",
-        "752": "Slither Wing (Lvl 65 Team Magma Admin Courtney1 )",
-        "753": "Claydol (Lvl 61 Psychic Jaclyn)",
-        "754": "Noctowl (Lvl 62 Psychic Jaclyn)",
-        "755": "Espathra (Lvl 61 Psychic Jaclyn)",
-        "756": "Gallade (Lvl 61 Psychic Jaclyn)",
-        "757": "Sandaconda (Lvl 61 Triathlete Abigail)",
-        "758": "Vileplume (Lvl 61 Triathlete Abigail)",
-        "759": "Dodrio (Lvl 62 Triathlete Abigail)",
-        "760": "Stantler (Lvl 62 Triathlete Abigail)",
-        "761": "Eiscue (Lvl 62 Triathlete Benjamin & Triathlete Alyssa)",
-        "762": "Delibird (Lvl 62 Triathlete Benjamin & Triathlete Alyssa)",
-        "764": "Raichu-Mega-X (Lvl 63 Triathlete Benjamin & Triathlete Alyssa)",
-        "765": "Ninetales-Alola (Lvl 62 Triathlete Benjamin & Triathlete Alyssa)",
-        "766": "Raichu (Lvl 63 Triathlete Benjamin & Triathlete Alyssa)",
-        "767": "Raichu-Mega-Y (Lvl 63 Triathlete Benjamin & Triathlete Alyssa)",
-        "768": "Whimsicott (Lvl 62 Triathlete Jasmine & Triathlete Jacob)",
-        "769": "Flamigo (Lvl 63 Triathlete Jasmine & Triathlete Jacob)",
-        "770": "Absol (Lvl 63 Triathlete Jasmine & Triathlete Jacob)",
-        "771": "Arcanine (Lvl 62 Triathlete Jasmine & Triathlete Jacob)",
-        "772": "Scrafty (Lvl 63 Triathlete Jasmine & Triathlete Jacob)",
-        "773": "Scrafty-Mega (Lvl 63 Triathlete Jasmine & Triathlete Jacob)",
-        "774": "Mew (Lvl 63 Cycling Road Rival Chespin)",
-        "775": "Lucario (Lvl 64 Cycling Road Rival Chespin)",
-        "776": "Cinderace (Lvl 64 Cycling Road Rival Chespin)",
-        "777": "Poliwrath (Lvl 63 Cycling Road Rival Chespin)",
-        "778": "Rotom-Mow (Lvl 63 Cycling Road Rival Chespin)",
-        "779": "Type: Null (Lvl 64 Cycling Road Rival Chespin)",
-        "780": "Mew (Lvl 63 Cycling Road Rival Fennekin)",
-        "781": "Lucario (Lvl 64 Cycling Road Rival Fennekin)",
-        "782": "Greninja (Lvl 64 Cycling Road Rival Fennekin)",
-        "783": "Arboliva (Lvl 63 Cycling Road Rival Fennekin)",
-        "784": "Rotom-Heat (Lvl 63 Cycling Road Rival Fennekin)",
-        "785": "Type: Null (Lvl 64 Cycling Road Rival Fennekin)",
-        "786": "Mew (Lvl 63 Cycling Road Rival Froakie)",
-        "787": "Lucario (Lvl 64 Cycling Road Rival Froakie)",
-        "788": "Meowscarada (Lvl 64 Cycling Road Rival Froakie)",
-        "789": "Pyroar (Lvl 63 Cycling Road Rival Froakie)",
-        "790": "Rotom-Wash (Lvl 63 Cycling Road Rival Froakie)",
-        "791": "Type: Null (Lvl 64 Cycling Road Rival Froakie)",
-        "792": "Leavanny (Lvl 63 Pokéfan Isabel)",
-        "793": "Gorebyss (Lvl 64 Pokéfan Isabel)",
-        "794": "Salazzle (Lvl 63 Pokéfan Isabel)",
-        "795": "Donphan (Lvl 63 Pokéfan Kaleb)",
-        "796": "Huntail (Lvl 64 Pokéfan Kaleb)",
-        "797": "Mr. Mime (Lvl 63 Pokéfan Kaleb)",
-        "798": "Ledian (Lvl 64 Blackbelt Rhett)",
-        "799": "Chesnaught (Lvl 63 Blackbelt Rhett)",
-        "800": "Duraludon (Lvl 63 Blackbelt Rhett)",
-        "801": "Sirfetch’d (Lvl 64 Blackbelt Rhett)",
-        "802": "Regigigas (Lvl 64 Twins Amy&Liv)",
-        "803": "Smeargle (Lvl 63 Twins Amy&Liv)",
-        "804": "Ambipom (Lvl 63 Twins Amy&Liv)",
-        "805": "Audino (Lvl 63 Twins Amy&Liv)",
-        "806": "Audino-Mega (Lvl 63 Twins Amy&Liv)",
-        "807": "Greninja (Lvl 63 Fisherman Andrew)",
-        "808": "Toxapex (Lvl 63 Fisherman Andrew)",
-        "809": "Simipour (Lvl 63 Fisherman Andrew)",
-        "810": "Eelektross (Lvl 64 Fisherman Andrew)",
-        "811": "Eelektross-Mega (Lvl 64 Fisherman Andrew)",
-        "812": "Eldegoss (Lvl 63 Aroma Lady Daisy)",
-        "813": "Tsareena (Lvl 64 Aroma Lady Daisy)",
-        "814": "Florges (Lvl 63 Aroma Lady Daisy)",
-        "815": "Polteageist (Lvl 63 Aroma Lady Daisy)",
-        "816": "Pachirisu (Lvl 63 Lass Janice)",
-        "817": "Shaymin (Lvl 63 Lass Janice)",
-        "818": "Tatsugiri (Lvl 63 Lass Janice)",
-        "819": "Accelgor (Lvl 63 School Kid Mewttins)",
-        "820": "Meowstic-F (Lvl 64 School Kid Mewttins)",
-        "821": "Goodra (Lvl 63 School Kid Mewttins)",
-        "822": "Ninetales (Lvl 63 Rich Boy Dawson)",
-        "823": "Gogoat (Lvl 64 Rich Boy Dawson)",
-        "824": "Gumshoos (Lvl 64 Rich Boy Dawson)",
-        "825": "Umbreon (Lvl 64 Rich Boy Dawson)",
-        "826": "Orbeetle (Lvl 63 Lady Sarah)",
-        "827": "Samurott (Lvl 64 Lady Sarah)",
-        "828": "Raticate-Alola (Lvl 64 Lady Sarah)",
-        "829": "Espeon (Lvl 64 Lady Sarah)",
-        "830": "Orthworm (Lvl 63 Youngster Timmy)",
-        "831": "Barbaracle (Lvl 64 Youngster Timmy)",
-        "832": "Aerodactyl (Lvl 63 Youngster Timmy)",
-        "833": "Garganacl (Lvl 64 Youngster Timmy)",
-        "834": "Typhlosion-Hisui (Lvl 64 Team Magma Grunt & Team Aqua Grunt)",
-        "835": "Decidueye (Lvl 64 Team Magma Grunt & Team Aqua Grunt)",
-        "836": "Emboar (Lvl 63 Team Magma Grunt & Team Aqua Grunt)",
-        "837": "Emboar-Mega (Lvl 63 Team Magma Grunt & Team Aqua Grunt)",
-        "838": "Primarina (Lvl 64 Team Magma Grunt & Team Aqua Grunt)",
-        "839": "Quaquaval (Lvl 64 Team Magma Grunt & Team Aqua Grunt)",
-        "840": "Xatu (Lvl 64 Psychic Edward & Fisherman Dale)",
-        "841": "Slowking-Galar (Lvl 64 Psychic Edward & Fisherman Dale)",
-        "842": "Palafin (Lvl 63 Psychic Edward & Fisherman Dale)",
-        "843": "Whiscash (Lvl 64 Psychic Edward & Fisherman Dale)",
-        "844": "Slowbro (Lvl 64 Psychic Edward & Fisherman Dale)",
-        "845": "Jumpluff (Lvl 65 Triathlete Cutie)",
-        "846": "Hawlucha (Lvl 64 Triathlete Cutie)",
-        "847": "Meowscarada (Lvl 65 Triathlete Cutie)",
-        "848": "Sylveon (Lvl 64 Triathlete Cutie)",
-        "849": "Clefable (Lvl 65 Camper Charlie)",
-        "850": "Floette-Eternal (Lvl 64 Camper Charlie)",
-        "851": "Beheeyem (Lvl 64 Camper Charlie)",
-        "852": "Minior (Lvl 65 Camper Charlie)",
-        "853": "Weezing (Lvl 64 Parasol Lady Madeline & Youngster Jaylen)",
-        "854": "Runerigus (Lvl 64 Parasol Lady Madeline & Youngster Jaylen)",
-        "855": "Grafaiai (Lvl 64 Parasol Lady Madeline & Youngster Jaylen)",
-        "856": "Golisopod (Lvl 65 Parasol Lady Madeline & Youngster Jaylen)",
-        "857": "Archeops (Lvl 64 Parasol Lady Madeline & Youngster Jaylen)",
-        "858": "Durant (Lvl 64 Battle Girl Lilith)",
-        "859": "Rampardos (Lvl 65 Battle Girl Lilith)",
-        "860": "Diancie (Lvl 64 Pokéfan Miguel)",
-        "861": "Carbink (Lvl 66 Pokéfan Miguel)",
-        "862": "Armarouge (Lvl 64 Pokéfan Miguel)",
-        "863": "Jellicent (Lvl 65 Pokéfan Miguel)",
-        "864": "Ampharos (Lvl 65 Pokéfan Miguel)",
-        "865": "Ampharos-Mega (Lvl 65 Pokéfan Miguel)",
-        "866": "Cyclizar (Lvl 64 Cooltrainer Emmie |Offense Room|)",
-        "867": "Heracross (Lvl 64 Cooltrainer Emmie |Offense Room|)",
-        "868": "Bewear (Lvl 64 Cooltrainer Emmie |Offense Room|)",
-        "869": "Staraptor (Lvl 65 Cooltrainer Emmie |Offense Room|)",
-        "870": "Greedent (Lvl 64 Cooltrainer Lauren |Defense Room|)",
-        "871": "Mudsdale (Lvl 64 Cooltrainer Lauren |Defense Room|)",
-        "872": "Dubwool (Lvl 64 Cooltrainer Lauren |Defense Room|)",
-        "873": "Braviary (Lvl 65 Cooltrainer Lauren |Defense Room|)",
-        "874": "Unfezant (Lvl 64 Cooltrainer Parker |Crit Room|)",
-        "875": "Snorlax (Lvl 64 Cooltrainer Parker |Crit Room|)",
-        "876": "Togekiss (Lvl 64 Cooltrainer Parker |Crit Room|)",
-        "877": "Decidueye-Hisui (Lvl 65 Cooltrainer Parker |Crit Room|)",
-        "878": "Drapion (Lvl 64 Cooltrainer Parker |Crit Room|)",
-        "879": "Spinda (Lvl 64 Cooltrainer Alexia |Confusion Room|)",
-        "880": "Persian (Lvl 64 Cooltrainer Alexia |Confusion Room|)",
-        "881": "Pecharunt (Lvl 64 Cooltrainer Alexia |Confusion Room|)",
-        "882": "Pyroar (Lvl 65 Cooltrainer Alexia |Confusion Room|)",
-        "883": "Ditto (Lvl 64 Cooltrainer Alexia |Confusion Room|)",
-        "884": "Ninjask (Lvl 64 Cooltrainer George |Pass Room|)",
-        "885": "Exploud (Lvl 64 Cooltrainer George |Pass Room|)",
-        "886": "Bouffalant (Lvl 64 Cooltrainer George |Pass Room|)",
-        "887": "Espathra (Lvl 65 Cooltrainer George |Pass Room|)",
-        "888": "Drampa (Lvl 64 Cooltrainer George |Pass Room|)",
-        "889": "Rillaboom (Lvl 65 Cooltrainer Dan |Grassy Room|)",
-        "890": "Miltank (Lvl 64 Cooltrainer Dan |Grassy Room|)",
-        "891": "Meloetta (Lvl 65 Cooltrainer Dan |Grassy Room|)",
-        "892": "Arboliva (Lvl 64 Cooltrainer Dan |Grassy Room|)",
-        "893": "Toucannon (Lvl 66 Cooltrainer Dan |Grassy Room|)",
-        "894": "Indeedee (Lvl 65 Cooltrainer Kya |Psychic Room|)",
-        "895": "Bisharp (Lvl 65 Cooltrainer Kya |Psychic Room|)",
-        "896": "Meloetta (Lvl 64 Cooltrainer Kya |Psychic Room|)",
-        "897": "Delphox (Lvl 64 Cooltrainer Kya |Psychic Room|)",
-        "898": "Heliolisk (Lvl 66 Cooltrainer Kya |Psychic Room|)",
-        "899": "Terapagos (Lvl 64 Pokémaniac Shinji |Inverse Room|)",
-        "900": "Porygon-Z (Lvl 64 Pokémaniac Shinji |Inverse Room|)",
-        "901": "Grapploct (Lvl 66 Pokémaniac Shinji |Inverse Room|)",
-        "902": "Squawkabilly (Lvl 66 Pokémaniac Shinji |Inverse Room|)",
-        "903": "Malamar (Lvl 65 Pokémaniac Shinji |Inverse Room|)",
-        "904": "Silvally-Fighting (Lvl 66 Leader Norman)",
-        "905": "Slaking (Lvl 67 Leader Norman)",
-        "906": "Maushold (Lvl 65 Leader Norman)",
-        "907": "Farigiraf (Lvl 65 Leader Norman)",
-        "908": "Zoroark-Hisui (Lvl 66 Leader Norman)",
-        "909": "Kangaskhan (Lvl 66 Leader Norman)",
-        "910": "Kangaskhan-Mega (Lvl 66 Leader Norman)",
-        "911": "Linoone (Lvl 66 Winstrate Victor)",
-        "912": "Obstagoon (Lvl 66 Winstrate Victor)",
-        "913": "Roserade (Lvl 66 Winstrate Victoria)",
-        "914": "Blissey (Lvl 66 Winstrate Victoria)",
-        "915": "Vespiquen (Lvl 67 Winstrate Victoria)",
-        "916": "Vivillon (Lvl 67 Winstrate Vivi)",
-        "917": "Azumarill (Lvl 66 Winstrate Vivi)",
-        "918": "Breloom (Lvl 66 Winstrate Vivi)",
-        "919": "Camerupt (Lvl 67 Winstrate Vicky)",
-        "920": "Vigoroth (Lvl 67 Winstrate Vicky)",
-        "921": "Lilligant-Hisui (Lvl 67 Winstrate Vicky)",
-        "922": "Vaporeon (Lvl 67 Winstrate Vicky)",
-        "923": "Victini (Lvl 68 Winstrate Vicky)",
-        "924": "Medicham (Lvl 68 Winstrate Vicky)",
-        "925": "Medicham-Mega (Lvl 68 Winstrate Vicky)",
-        "926": "Cacturne (Lvl 67 Picnicker Irene)",
-        "927": "Dracozolt (Lvl 68 Picnicker Irene)",
-        "928": "Gastrodon (Lvl 67 Picnicker Irene)",
-        "929": "Sigilyph (Lvl 67 Picnicker Irene)",
-        "930": "Excadrill (Lvl 68 Camper Travis)",
-        "931": "Mandibuzz (Lvl 67 Camper Travis)",
-        "932": "Lycanroc (Lvl 67 Camper Travis)",
-        "933": "Wormadam (Lvl 67 Camper Travis)",
-        "934": "Bastiodon (Lvl 67 Ruin Maniac Dusty)",
-        "935": "Heliolisk (Lvl 67 Ruin Maniac Dusty)",
-        "936": "Sandslash (Lvl 68 Ruin Maniac Dusty)",
-        "937": "Torterra (Lvl 68 Ruin Maniac Dusty)",
-        "938": "Steelix (Lvl 67 Ruin Maniac Dusty)",
-        "939": "Steelix-Mega (Lvl 67 Ruin Maniac Dusty)",
-        "940": "Dracovish (Lvl 68 Picnicker Becky)",
-        "941": "Carracosta (Lvl 68 Picnicker Becky)",
-        "942": "Tyrantrum (Lvl 68 Picnicker Becky)",
-        "943": "Aurorus (Lvl 67 Picnicker Becky)",
-        "944": "Stonjourner (Lvl 68 Picnicker Heidi & Ruin Maniac Bryan)",
-        "945": "Flygon (Lvl 67 Picnicker Heidi & Ruin Maniac Bryan)",
-        "946": "Stoutland (Lvl 68 Picnicker Heidi & Ruin Maniac Bryan)",
-        "947": "Arcanine-Hisui (Lvl 68 Picnicker Heidi & Ruin Maniac Bryan)",
-        "948": "Zygarde-10% (Lvl 69 Picnicker Heidi & Ruin Maniac Bryan)",
-        "949": "Probopass (Lvl 68 Picnicker Celia)",
-        "950": "Brambleghast (Lvl 68 Picnicker Celia)",
-        "951": "Golurk (Lvl 68 Picnicker Celia)",
-        "952": "Hippowdon (Lvl 68 Camper Johny & Camper Tarian)",
-        "953": "Gigalith (Lvl 68 Camper Johny & Camper Tarian)",
-        "954": "Tyranitar (Lvl 68 Camper Johny & Camper Tarian)",
-        "955": "Musharna (Lvl 68 Camper Johny & Camper Tarian)",
-        "956": "Braviary-Hisui (Lvl 68 Camper Johny & Camper Tarian)",
-        "957": "Dusknoir (Lvl 68 Camper Johny & Camper Tarian)",
-        "958": "Ninetales (Lvl 68 Camper Derek)",
-        "959": "Maractus (Lvl 68 Camper Derek)",
-        "960": "Great Tusk (Lvl 68 Camper Derek)",
-        "961": "Solrock (Lvl 69 Camper Derek)",
-        "962": "Solgaleo (Lvl 69 Camper Derek)",
-        "963": "Pinsir (Lvl 69 Bug Maniac Wyatt)",
-        "964": "Wormadam-Trash (Lvl 68 Bug Maniac Wyatt)",
-        "965": "Lokix (Lvl 69 Bug Maniac Wyatt)",
-        "966": "Mimikyu (Lvl 69 Bug Maniac Wyatt)",
-        "967": "Kabutops (Lvl 69 Bug Maniac Wyatt)",
-        "968": "Tauros-Paldea-Aqua (Lvl 69 Ninja Boy Lung)",
-        "969": "Claydol (Lvl 69 Ninja Boy Lung)",
-        "970": "Gothitelle (Lvl 69 Ninja Boy Lung)",
-        "971": "Honchkrow (Lvl 69 Ninja Boy Lung)",
-        "972": "Crabominable (Lvl 70 Ninja Boy Lung)",
-        "973": "Crabominable-Mega (Lvl 70 Ninja Boy Lung)",
-        "974": "Grimmsnarl (Lvl 69 Twins Tori&Tia)",
-        "975": "Luxray (Lvl 69 Twins Tori&Tia)",
-        "976": "Ceruledge (Lvl 70 Twins Tori&Tia)",
-        "977": "Houndoom (Lvl 69 Twins Tori&Tia)",
-        "978": "Ninjask (Lvl 69 Ninja Boy Lao)",
-        "979": "Greninja (Lvl 69 Ninja Boy Lao)",
-        "980": "Accelgor (Lvl 68 Ninja Boy Lao)",
-        "981": "Vikavolt (Lvl 69 Ninja Boy Lao)",
-        "982": "Trevenant (Lvl 70 Ranger Moxi)",
-        "983": "Chandelure (Lvl 69 Ranger Moxi)",
-        "984": "Revavroom (Lvl 69 Ranger Moxi)",
-        "985": "Gengar (Lvl 70 Ranger Moxi)",
-        "986": "Gliscor (Lvl 69 Ranger Moxi)",
-        "987": "Overqwil (Lvl 70 Expert Necro)",
-        "988": "Crobat (Lvl 70 Expert Necro)",
-        "989": "Samurott-Hisui (Lvl 69 Expert Necro)",
-        "990": "Necrozma (Lvl 70 Expert Necro)",
-        "991": "Hydreigon (Lvl 69 Expert Necro)",
-        "992": "Moltres (Lvl 69 Team Magma Admin Courtney2 )",
-        "993": "Exeggutor-Alola (Lvl 70 Team Magma Admin Courtney2 )",
-        "994": "Rhyperior (Lvl 69 Team Magma Admin Courtney2 )",
-        "995": "Iron Moth (Lvl 69 Team Magma Admin Courtney2 )",
-        "996": "Slither Wing (Lvl 70 Team Magma Admin Courtney2 )",
-        "997": "Camerupt (Lvl 71 Team Magma Admin Courtney2 )",
-        "998": "Camerupt-Mega (Lvl 71 Team Magma Admin Courtney2 )",
-        "999": "Blastoise (Lvl 69 Fisherman Nolan & Fisherman Kai)",
-        "1000": "Feraligatr (Lvl 70 Fisherman Nolan & Fisherman Kai)",
-        "1001": "Dragalge (Lvl 70 Fisherman Nolan & Fisherman Kai)",
-        "1002": "Golduck (Lvl 69 Fisherman Nolan & Fisherman Kai)",
-        "1003": "Seismitoad (Lvl 69 Fisherman Nolan & Fisherman Kai)",
-        "1004": "Politoed (Lvl 69 Cooltrainer June)",
-        "1005": "Ludicolo (Lvl 70 Cooltrainer June)",
-        "1006": "Kingdra (Lvl 69 Cooltrainer June)",
-        "1007": "Rotom-Wash (Lvl 70 Cooltrainer June)",
-        "1008": "Armaldo (Lvl 70 Cooltrainer June)",
-        "1009": "Vanilluxe (Lvl 70 Picnicker Frieren)",
-        "1010": "Cetitan (Lvl 69 Picnicker Frieren)",
-        "1011": "Cloyster (Lvl 70 Picnicker Frieren)",
-        "1012": "Eiscue (Lvl 70 Picnicker Frieren)",
-        "1013": "Abomasnow (Lvl 71 Picnicker Frieren)",
-        "1014": "Abomasnow-Mega (Lvl 71 Picnicker Frieren)",
-        "1015": "Accelgor (Lvl 69 Sr.And Jr.Tyra&Ivy)",
-        "1016": "Wyrdeer (Lvl 70 Sr.And Jr.Tyra&Ivy)",
-        "1017": "Primarina (Lvl 70 Sr.And Jr.Tyra&Ivy)",
-        "1018": "Electrode (Lvl 69 Sr.And Jr.Tyra&Ivy)",
-        "1019": "Mismagius (Lvl 69 Pokémaniac Shikamaru)",
-        "1020": "Komala (Lvl 70 Pokémaniac Shikamaru)",
-        "1021": "Appletun (Lvl 69 Pokémaniac Shikamaru)",
-        "1022": "Typhlosion (Lvl 68 Kindler Bakugo)",
-        "1023": "Gyarados (Lvl 69 Kindler Bakugo)",
-        "1024": "Scovillain (Lvl 70 Kindler Bakugo)",
-        "1025": "Skarmory (Lvl 71 Hiker Alphonse & Picnicker Winry)",
-        "1026": "Bruxish (Lvl 69 Hiker Alphonse & Picnicker Winry)",
-        "1027": "Gardevoir (Lvl 69 Hiker Alphonse & Picnicker Winry)",
-        "1028": "Milotic (Lvl 69 Hiker Alphonse & Picnicker Winry)",
-        "1029": "Flapple (Lvl 69 Hiker Jotaro)",
-        "1030": "Exploud (Lvl 70 Hiker Jotaro)",
-        "1031": "Mienshao (Lvl 69 Blackbelt Nob)",
-        "1032": "Conkeldurr (Lvl 70 Blackbelt Nob)",
-        "1033": "Floatzel (Lvl 71 Blackbelt Nob)",
-        "1034": "Unown (Lvl 72 Collector Tully)",
-        "1035": "Meowstic (Lvl 69 Psychic Marlene)",
-        "1036": "Meowstic-Mega (Lvl 69 Psychic Marlene)",
-        "1037": "Mr. Rime (Lvl 69 Psychic Marlene)",
-        "1038": "Starmie (Lvl 70 Psychic Marlene)",
-        "1039": "Alakazam (Lvl 71 Psychic Marlene)",
-        "1040": "Forretress (Lvl 70 Hiker Trent)",
-        "1041": "Wugtrio (Lvl 70 Hiker Trent)",
-        "1042": "Tyranitar (Lvl 69 Hiker Trent)",
-        "1043": "Dugtrio (Lvl 70 Hiker Trent)",
-        "1044": "Bronzong (Lvl 70 Hiker Brice)",
-        "1045": "Aggron (Lvl 70 Hiker Brice)",
-        "1046": "Copperajah (Lvl 70 Hiker Brice)",
-        "1047": "Celesteela (Lvl 70 Hiker Brice)",
-        "1048": "Thievul (Lvl 70 Mt.Chimney Team Magma Grunt)",
-        "1049": "Cofagrigus (Lvl 70 Mt.Chimney Team Magma Grunt)",
-        "1050": "Shuckle (Lvl 70 Mt.Chimney Team Magma Grunt)",
-        "1051": "Swalot (Lvl 70 Mt.Chimney Team Magma Grunt)",
-        "1052": "Manectric (Lvl 72 Mt.Chimney Team Magma Elite Grunt)",
-        "1053": "Manectric-Mega (Lvl 72 Mt.Chimney Team Magma Elite Grunt)",
-        "1054": "Noivern (Lvl 71 Mt.Chimney Team Magma Elite Grunt)",
-        "1055": "Talonflame (Lvl 70 Mt.Chimney Team Magma Elite Grunt)",
-        "1056": "Incineroar (Lvl 70 Mt.Chimney Team Magma Elite Grunt)",
-        "1057": "Lickilicky (Lvl 71 Mt.Chimney Team Magma Elite Grunt)",
-        "1058": "Latias (Lvl 72 Team Magma Admin Tabitha1 )",
-        "1059": "Armarouge (Lvl 71 Team Magma Admin Tabitha1 )",
-        "1060": "Tauros-Paldea-Blaze (Lvl 71 Team Magma Admin Tabitha1 )",
-        "1061": "Nidoking (Lvl 71 Team Magma Admin Tabitha1 )",
-        "1062": "Rotom-Heat (Lvl 71 Team Magma Admin Tabitha1 )",
-        "1063": "Scizor (Lvl 72 Team Magma Admin Tabitha1 )",
-        "1064": "Scizor-Mega (Lvl 72 Team Magma Admin Tabitha1 )",
-        "1065": "Koraidon (Lvl 72 Team Magma Leader Maxie1 )",
-        "1066": "Garbodor (Lvl 71 Hiker Berni)",
-        "1067": "Krookodile (Lvl 71 Hiker Berni)",
-        "1068": "Escavalier (Lvl 71 Hiker Berni)",
-        "1069": "Avalugg (Lvl 70 Hiker Berni)",
-        "1070": "Kommo-o (Lvl 70 Hiker Berni)",
-        "1071": "Victreebel (Lvl 71 Jagged Pass Team Magma Grunt)",
-        "1072": "Victreebel-Mega (Lvl 71 Jagged Pass Team Magma Grunt)",
-        "1073": "Gourgeist (Lvl 71 Jagged Pass Team Magma Grunt)",
-        "1074": "Magcargo (Lvl 71 Jagged Pass Team Magma Grunt)",
-        "1075": "Shiftry (Lvl 70 Jagged Pass Team Magma Grunt)",
-        "1076": "Cinccino (Lvl 71 Picnicker Diana)",
-        "1077": "Tinkaton (Lvl 70 Picnicker Diana)",
-        "1078": "Rotom-Fan (Lvl 71 Picnicker Diana)",
-        "1079": "Ribombee (Lvl 71 Picnicker Diana)",
-        "1080": "Relicanth (Lvl 71 Triathlete Julio)",
-        "1081": "Amoonguss (Lvl 70 Triathlete Julio)",
-        "1082": "Tauros (Lvl 70 Triathlete Julio)",
-        "1083": "Lycanroc-Dusk (Lvl 71 Triathlete Julio)",
-        "1084": "Ninetales (Lvl 70 Hiker Eli)",
-        "1085": "Sandy Shocks (Lvl 71 Hiker Eli)",
-        "1086": "Incineroar (Lvl 71 Hiker Eli)",
-        "1087": "Scovillain (Lvl 71 Hiker Eli)",
-        "1088": "Scovillain-Mega (Lvl 71 Hiker Eli)",
-        "1089": "Haxorus (Lvl 72 Hiker Eli)",
-        "1090": "Infernape (Lvl 72 Kindler Nathan)",
-        "1091": "Octillery (Lvl 72 Kindler Nathan)",
-        "1092": "Magmortar (Lvl 71 Kindler Nathan)",
-        "1093": "Exeggutor-Alola (Lvl 71 Kindler Nathan)",
-        "1094": "Greninja (Lvl 72 Kindler Nathan)",
-        "1095": "Cherrim (Lvl 71 Battle Girl Danielle & Kindler Cole)",
-        "1096": "Lilligant-Hisui (Lvl 72 Battle Girl Danielle & Kindler Cole)",
-        "1097": "Tangrowth (Lvl 72 Battle Girl Danielle & Kindler Cole)",
-        "1098": "Torkoal (Lvl 72 Battle Girl Danielle & Kindler Cole)",
-        "1099": "Cinderace (Lvl 71 Battle Girl Danielle & Kindler Cole)",
-        "1100": "Rapidash (Lvl 71 Dragon Tamer Jace)",
-        "1101": "Dragapult (Lvl 72 Dragon Tamer Jace)",
-        "1102": "Sunflora (Lvl 72 Dragon Tamer Jace)",
-        "1103": "Volcarona (Lvl 72 Dragon Tamer Jace)",
-        "1104": "Heliolisk (Lvl 71 Dragon Tamer Jace)",
-        "1105": "Marowak-Alola (Lvl 71 Cooltrainer Axle)",
-        "1106": "Slowking (Lvl 71 Cooltrainer Axle)",
-        "1107": "Darmanitan-Galar (Lvl 71 Cooltrainer Axle)",
-        "1108": "Silvally-Ice (Lvl 72 Cooltrainer Axle)",
-        "1109": "Flareon (Lvl 72 Cooltrainer Axle)",
-        "1110": "Weezing-Galar (Lvl 71 Expert Keegan)",
-        "1111": "Delphox (Lvl 72 Expert Keegan)",
-        "1112": "Turtonator (Lvl 72 Expert Keegan)",
-        "1113": "Drifblim (Lvl 72 Expert Keegan)",
-        "1114": "Volcanion (Lvl 72 Expert Keegan)",
-        "1115": "Salazzle (Lvl 71 Leader Flannery)",
-        "1116": "Torkoal (Lvl 73 Leader Flannery)",
-        "1117": "Ho-Oh (Lvl 72 Leader Flannery)",
-        "1118": "Brute Bonnet (Lvl 72 Leader Flannery)",
-        "1119": "Skeledirge (Lvl 72 Leader Flannery)",
-        "1120": "Houndoom (Lvl 72 Leader Flannery)",
-        "1121": "Houndoom-Mega (Lvl 72 Leader Flannery)",
-        "1122": "Empoleon (Lvl 72 Fisherman Ordeaux)",
-        "1123": "Dragonite (Lvl 73 Fisherman Ordeaux)",
-        "1124": "Dhelmise (Lvl 72 Fisherman Ordeaux)",
-        "1125": "Tatsugiri (Lvl 72 Fisherman Ordeaux)",
-        "1126": "Tatsugiri-Mega (Lvl 72 Fisherman Ordeaux)",
-        "1127": "Tatsugiri (Lvl 72 Cooltrainer Carolina & Sailor Cory)",
-        "1128": "Dracovish (Lvl 72 Cooltrainer Carolina & Sailor Cory)",
-        "1129": "Dondozo (Lvl 73 Cooltrainer Carolina & Sailor Cory)",
-        "1130": "Feraligatr (Lvl 72 Cooltrainer Carolina & Sailor Cory)",
-        "1131": "Feraligatr-Mega (Lvl 72 Cooltrainer Carolina & Sailor Cory)",
-        "1132": "Porygon2 (Lvl 73 Rich Boy Milky)",
-        "1133": "Espathra (Lvl 73 Rich Boy Milky)",
-        "1134": "Cinccino (Lvl 73 Rich Boy Milky)",
-        "1135": "Durant (Lvl 74 Rich Boy Milky)",
-        "1136": "Falinks (Lvl 73 Rich Boy Milky)",
-        "1137": "Falinks-Mega (Lvl 73 Rich Boy Milky)",
-        "1138": "Jellicent (Lvl 73 Sailor Duncan)",
-        "1139": "Crabominable (Lvl 73 Sailor Duncan)",
-        "1140": "Reuniclus (Lvl 73 Sailor Duncan)",
-        "1141": "Bouffalant (Lvl 73 Sailor Duncan)",
-        "1142": "Scolipede (Lvl 74 Sailor Duncan)",
-        "1143": "Scolipede-Mega (Lvl 74 Sailor Duncan)",
-        "1144": "Spiritomb (Lvl 73 Tuber Jani)",
-        "1145": "Aegislash-Shield (Lvl 74 Tuber Jani)",
-        "1146": "Okidogi (Lvl 73 Tuber Jani)",
-        "1147": "Kingler (Lvl 73 Tuber Jani)",
-        "1148": "Pyroar (Lvl 73 Tuber Jani)",
-        "1149": "Pyroar-Mega (Lvl 73 Tuber Jani)",
-        "1150": "Lapras (Lvl 73 Cooltrainer Irie)",
-        "1151": "Archeops (Lvl 73 Cooltrainer Irie)",
-        "1152": "Emolga (Lvl 73 Cooltrainer Irie)",
-        "1153": "Hydreigon (Lvl 73 Cooltrainer Irie)",
-        "1154": "Aggron (Lvl 73 Cooltrainer Irie)",
-        "1155": "Aggron-Mega (Lvl 73 Cooltrainer Irie)",
-        "1156": "Haxorus (Lvl 74 Cooltrainer Irie)",
-        "1157": "Glimmora (Lvl 74 Cooltrainer Geena)",
-        "1158": "Sableye (Lvl 73 Cooltrainer Geena)",
-        "1159": "Sableye-Mega (Lvl 73 Cooltrainer Geena)",
-        "1160": "Hydrapple (Lvl 73 Cooltrainer Geena)",
-        "1161": "Veluza (Lvl 73 Cooltrainer Geena)",
-        "1162": "Annihilape (Lvl 73 Cooltrainer Geena)",
-        "1163": "Kingambit (Lvl 73 Cooltrainer Geena)",
-        "1164": "Arcanine (Lvl 73 Cooltrainer Garrison)",
-        "1165": "Oranguru (Lvl 73 Cooltrainer Garrison)",
-        "1166": "Tyranitar (Lvl 73 Cooltrainer Garrison)",
-        "1167": "Mamoswine (Lvl 73 Cooltrainer Garrison)",
-        "1168": "Blastoise (Lvl 74 Cooltrainer Garrison)",
-        "1169": "Alakazam (Lvl 73 Cooltrainer Garrison)",
-        "1170": "Alakazam-Mega (Lvl 73 Cooltrainer Garrison)",
-        "1171": "Meganium (Lvl 72 Aroma Lady Rose)",
-        "1172": "Meganium-Mega (Lvl 72 Aroma Lady Rose)",
-        "1173": "Polteageist (Lvl 73 Aroma Lady Rose)",
-        "1174": "Roserade (Lvl 72 Aroma Lady Rose)",
-        "1175": "Inteleon (Lvl 73 Aroma Lady Rose)",
-        "1176": "Swanna (Lvl 73 Bird Keeper Chester & Youngster Deandre)",
-        "1177": "Frosmoth (Lvl 73 Bird Keeper Chester & Youngster Deandre)",
-        "1178": "Venusaur (Lvl 73 Bird Keeper Chester & Youngster Deandre)",
-        "1179": "Basculegion-F (Lvl 73 Bird Keeper Chester & Youngster Deandre)",
-        "1180": "Bombirdier (Lvl 72 Bird Keeper Perry)",
-        "1181": "Toucannon (Lvl 73 Bird Keeper Perry)",
-        "1182": "Salamence (Lvl 72 Bird Keeper Perry)",
-        "1183": "Corviknight (Lvl 74 Bird Keeper Perry)",
-        "1184": "Vikavolt (Lvl 73 Bug Maniac Taylor)",
-        "1185": "Scolipede (Lvl 73 Bug Maniac Taylor)",
-        "1186": "Drapion (Lvl 73 Bug Maniac Taylor)",
-        "1187": "Armaldo (Lvl 73 Bug Maniac Taylor)",
-        "1188": "Spidops (Lvl 73 Bug Maniac Taylor)",
-        "1189": "Pinsir (Lvl 74 Bug Maniac Taylor)",
-        "1190": "Pinsir-Mega (Lvl 74 Bug Maniac Taylor)",
-        "1191": "Araquanid (Lvl 73 Bug Maniac Brent)",
-        "1192": "Kabutops (Lvl 73 Bug Maniac Brent)",
-        "1193": "Leavanny (Lvl 73 Bug Maniac Brent)",
-        "1194": "Rabsca (Lvl 73 Bug Maniac Brent)",
-        "1195": "Genesect-Shock (Lvl 73 Bug Maniac Brent)",
-        "1196": "Beedrill (Lvl 74 Bug Maniac Brent)",
-        "1197": "Beedrill-Mega (Lvl 74 Bug Maniac Brent)",
-        "1198": "Mantine (Lvl 73 Fisherman Noxie)",
-        "1199": "Malamar (Lvl 73 Fisherman Noxie)",
-        "1200": "Dondozo (Lvl 73 Fisherman Noxie)",
-        "1201": "Grapploct (Lvl 73 Fisherman Noxie)",
-        "1202": "Zeraora (Lvl 73 Fisherman Noxie)",
-        "1203": "Blastoise (Lvl 74 Fisherman Noxie)",
-        "1204": "Blastoise-Mega (Lvl 74 Fisherman Noxie)",
-        "1205": "Tapu Bulu (Lvl 74 Bug Catcher Kent)",
-        "1206": "Crawdaunt (Lvl 73 Bug Catcher Kent)",
-        "1207": "Dragalge (Lvl 73 Bug Catcher Kent)",
-        "1208": "Dragalge-Mega (Lvl 73 Bug Catcher Kent)",
-        "1209": "Sceptile (Lvl 74 Bug Catcher Kent)",
-        "1210": "Wailord (Lvl 73 Ranger Catherine)",
-        "1211": "Poliwrath (Lvl 74 Ranger Catherine)",
-        "1212": "Jolteon (Lvl 73 Ranger Catherine)",
-        "1213": "Slurpuff (Lvl 73 Ranger Catherine)",
-        "1214": "Serperior (Lvl 74 Ranger Catherine)",
-        "1215": "Rotom-Mow (Lvl 73 Ranger Nak)",
-        "1216": "Garganacl (Lvl 73 Ranger Nak)",
-        "1217": "Breloom (Lvl 75 Ranger Nak)",
-        "1218": "Tentacruel (Lvl 73 Ranger Nak)",
-        "1219": "Volcarona (Lvl 74 Ranger Nak)",
-        "1220": "Kilowattrel (Lvl 74 Bird Keeper Phil & Parasol Lady Rachel)",
-        "1221": "Sinistcha (Lvl 74 Bird Keeper Phil & Parasol Lady Rachel)",
-        "1222": "Wo-Chien (Lvl 74 Bird Keeper Phil & Parasol Lady Rachel)",
-        "1223": "Ludicolo (Lvl 74 Bird Keeper Phil & Parasol Lady Rachel)",
-        "1224": "Jellicent (Lvl 75 Bird Keeper Phil & Parasol Lady Rachel)",
-        "1225": "Leafeon (Lvl 75 Pokémaniac Truhcaz)",
-        "1226": "Electrode-Hisui (Lvl 75 Pokémaniac Truhcaz)",
-        "1227": "Mawile (Lvl 76 Pokémaniac Truhcaz)",
-        "1228": "Ogerpon (Lvl 75 Pokémaniac Truhcaz)",
-        "1229": "Rotom-Fan (Lvl 75 Bird Keeper Dayton)",
-        "1230": "Sigilyph (Lvl 75 Bird Keeper Dayton)",
-        "1231": "Silvally-Flying (Lvl 75 Bird Keeper Dayton)",
-        "1232": "Decidueye (Lvl 75 Bird Keeper Dayton)",
-        "1233": "Shedinja (Lvl 77 Bird Keeper Dayton)",
-        "1234": "Palafin (Lvl 74 Ninja Boy Terror)",
-        "1235": "Wobbuffet (Lvl 75 Ninja Boy Terror)",
-        "1236": "Sharpedo (Lvl 74 Ninja Boy Terror)",
-        "1237": "Tangrowth (Lvl 75 Ninja Boy Terror)",
-        "1238": "Weavile (Lvl 75 Ninja Boy Terror)",
-        "1239": "Torkoal (Lvl 74 Cooltrainer Chape)",
-        "1240": "Whiscash (Lvl 74 Cooltrainer Chape)",
-        "1241": "Gogoat (Lvl 75 Cooltrainer Chape)",
-        "1242": "Toxicroak (Lvl 75 Cooltrainer Chape)",
-        "1243": "Aurorus (Lvl 74 Cooltrainer Chape)",
-        "1244": "Basculegion (Lvl 75 Cooltrainer Chape)",
-        "1245": "Politoed (Lvl 75 Institute Team Aqua Grunt #1 )",
-        "1246": "Drednaw (Lvl 75 Institute Team Aqua Grunt #1 )",
-        "1247": "Cradily (Lvl 75 Institute Team Aqua Grunt #1 )",
-        "1248": "Tornadus (Lvl 75 Institute Team Aqua Grunt #1 )",
-        "1249": "Cramorant (Lvl 75 Institute Team Aqua Grunt #2 )",
-        "1250": "Heracross (Lvl 75 Institute Team Aqua Grunt #2 )",
-        "1251": "Arctozolt (Lvl 75 Institute Team Aqua Grunt #2 )",
-        "1252": "Thundurus (Lvl 75 Institute Team Aqua Grunt #2 )",
-        "1253": "Bibarel (Lvl 75 Institute Team Aqua Grunt #3 )",
-        "1254": "Floatzel (Lvl 75 Institute Team Aqua Grunt #3 )",
-        "1255": "Stunfisk (Lvl 75 Institute Team Aqua Grunt #3 )",
-        "1256": "Landorus (Lvl 75 Institute Team Aqua Grunt #3 )",
-        "1257": "Dewgong (Lvl 75 Institute Team Aqua Grunt #4 )",
-        "1258": "Ferrothorn (Lvl 75 Institute Team Aqua Grunt #4 )",
-        "1259": "Wugtrio (Lvl 75 Institute Team Aqua Grunt #4 )",
-        "1260": "Cursola (Lvl 75 Institute Team Aqua Grunt #4 )",
-        "1261": "Castform (Lvl 77 Institute Team Aqua Grunt #4 )",
-        "1262": "Bruxish (Lvl 75 Institute Team Aqua Elite Grunt)",
-        "1263": "Alomomola (Lvl 75 Institute Team Aqua Elite Grunt)",
-        "1264": "Sharpedo (Lvl 75 Institute Team Aqua Elite Grunt)",
-        "1265": "Sharpedo-Mega (Lvl 75 Institute Team Aqua Elite Grunt)",
-        "1266": "Gorebyss (Lvl 75 Institute Team Aqua Elite Grunt)",
-        "1267": "Enamorus (Lvl 75 Institute Team Aqua Elite Grunt)",
-        "1268": "Latios (Lvl 76 Team Aqua Admin Shelly1 )",
-        "1269": "Ceruledge (Lvl 75 Team Aqua Admin Shelly1 )",
-        "1270": "Tauros-Paldea-Aqua (Lvl 75 Team Aqua Admin Shelly1 )",
-        "1271": "Nidoqueen (Lvl 75 Team Aqua Admin Shelly1 )",
-        "1272": "Rotom-Wash (Lvl 75 Team Aqua Admin Shelly1 )",
-        "1273": "Heracross (Lvl 77 Team Aqua Admin Shelly1 )",
-        "1274": "Heracross-Mega (Lvl 77 Team Aqua Admin Shelly1 )",
-        "1275": "Cinderace (Lvl 77 Bridge Rival Chespin)",
-        "1276": "Victreebel (Lvl 75 Bridge Rival Chespin)",
-        "1277": "Walking Wake (Lvl 75 Bridge Rival Chespin)",
-        "1278": "Mew (Lvl 76 Bridge Rival Chespin)",
-        "1279": "Pangoro (Lvl 76 Bridge Rival Chespin)",
-        "1280": "Silvally (Lvl 77 Bridge Rival Chespin)",
-        "1281": "Greninja (Lvl 77 Bridge Rival Fennekin)",
-        "1282": "Overqwil (Lvl 75 Bridge Rival Fennekin)",
-        "1283": "Iron Leaves (Lvl 75 Bridge Rival Fennekin)",
-        "1284": "Mew (Lvl 76 Bridge Rival Fennekin)",
-        "1285": "Frosmoth (Lvl 76 Bridge Rival Fennekin)",
-        "1286": "Silvally-Fire (Lvl 77 Bridge Rival Fennekin)",
-        "1287": "Meowscarada (Lvl 77 Bridge Rival Froakie)",
-        "1288": "Sneasler (Lvl 75 Bridge Rival Froakie)",
-        "1289": "Iron Moth (Lvl 75 Bridge Rival Froakie)",
-        "1290": "Mew (Lvl 76 Bridge Rival Froakie)",
-        "1291": "Escavalier (Lvl 76 Bridge Rival Froakie)",
-        "1292": "Silvally-Water (Lvl 77 Bridge Rival Froakie)",
-        "1293": "Lumineon (Lvl 76 Team Aqua Grunt & Team Aqua Steve)",
-        "1294": "Golisopod (Lvl 75 Team Aqua Grunt & Team Aqua Steve)",
-        "1295": "Corsola (Lvl 76 Team Aqua Grunt & Team Aqua Steve)",
-        "1296": "Tyranitar (Lvl 77 Team Aqua Grunt & Team Aqua Steve)",
-        "1297": "Tyranitar-Mega (Lvl 77 Team Aqua Grunt & Team Aqua Steve)",
-        "1298": "Excadrill (Lvl 76 Team Aqua Grunt & Team Aqua Steve)",
-        "1299": "Mudsdale (Lvl 75 Team Aqua Grunt & Team Aqua Steve)",
-        "1300": "Mienshao (Lvl 77 Partner Rival)",
-        "1301": "Silvally-Water (Lvl 77 Partner Rival)",
-        "1302": "Lucario (Lvl 78 Partner Rival)",
-        "1303": "Lucario-Mega (Lvl 78 Partner Rival)",
-        "1304": "Klefki (Lvl 75 Cooltrainer Greg)",
-        "1305": "Cloyster (Lvl 76 Cooltrainer Greg)",
-        "1306": "Florges (Lvl 76 Cooltrainer Greg)",
-        "1307": "Muk-Alola (Lvl 76 Cooltrainer Greg)",
-        "1308": "Iron Hands (Lvl 75 Cooltrainer Greg)",
-        "1309": "Swampert (Lvl 76 Ninja Boy Yasu & Guitarist Fabian)",
-        "1310": "Gholdengo (Lvl 77 Ninja Boy Yasu & Guitarist Fabian)",
-        "1311": "Magnezone (Lvl 76 Ninja Boy Yasu & Guitarist Fabian)",
-        "1312": "Barraskewda (Lvl 76 Ninja Boy Yasu & Guitarist Fabian)",
-        "1313": "Goodra-Hisui (Lvl 75 Ninja Boy Yasu & Guitarist Fabian)",
-        "1314": "Meowstic (Lvl 75 Ninja Boy Hideo)",
-        "1315": "Iron Valiant (Lvl 75 Ninja Boy Hideo)",
-        "1316": "Pincurchin (Lvl 76 Ninja Boy Hideo)",
-        "1317": "Hatterene (Lvl 76 Ninja Boy Hideo)",
-        "1318": "Iron Thorns (Lvl 76 Ninja Boy Hideo)",
-        "1319": "Wishiwashi (Lvl 76 Ninja Boy Hideo)",
-        "1320": "Hawlucha (Lvl 76 Bird Keeper Specter)",
-        "1321": "Hawlucha-Mega (Lvl 76 Bird Keeper Specter)",
-        "1322": "Talonflame (Lvl 77 Bird Keeper Specter)",
-        "1323": "Yanmega (Lvl 76 Bird Keeper Specter)",
-        "1324": "Metagross (Lvl 76 Bird Keeper Specter)",
-        "1325": "Shiftry (Lvl 77 Camper Flint & Bird Keeper Edwardo)",
-        "1326": "Brambleghast (Lvl 76 Camper Flint & Bird Keeper Edwardo)",
-        "1327": "Drampa (Lvl 76 Camper Flint & Bird Keeper Edwardo)",
-        "1328": "Drampa-Mega (Lvl 76 Camper Flint & Bird Keeper Edwardo)",
-        "1329": "Kilowattrel (Lvl 77 Camper Flint & Bird Keeper Edwardo)",
-        "1330": "Flamigo (Lvl 76 Camper Flint & Bird Keeper Edwardo)",
-        "1331": "Xatu (Lvl 77 Bird Keeper Narth)",
-        "1332": "Staraptor (Lvl 76 Bird Keeper Narth)",
-        "1333": "Staraptor-Mega (Lvl 76 Bird Keeper Narth)",
-        "1334": "Kleavor (Lvl 77 Bird Keeper Narth)",
-        "1335": "Vikavolt (Lvl 76 Bird Keeper Narth)",
-        "1336": "Moltres-Galar (Lvl 76 Bird Keeper Narth)",
-        "1337": "Scizor (Lvl 76 Ranger Frank Josh)",
-        "1338": "Golurk (Lvl 77 Ranger Frank Josh)",
-        "1339": "Golurk-Mega (Lvl 77 Ranger Frank Josh)",
-        "1340": "Crobat (Lvl 77 Ranger Frank Josh)",
-        "1341": "Fezandipiti (Lvl 76 Ranger Frank Josh)",
-        "1342": "Zapdos-Galar (Lvl 76 Ranger Frank Josh)",
-        "1343": "Dudunsparce-Three-Segment (Lvl 76 Bird Keeper Jared)",
-        "1344": "Bombirdier (Lvl 77 Bird Keeper Jared)",
-        "1345": "Sirfetch’d (Lvl 77 Bird Keeper Jared)",
-        "1346": "Skarmory (Lvl 76 Bird Keeper Jared)",
-        "1347": "Skarmory-Mega (Lvl 76 Bird Keeper Jared)",
-        "1348": "Articuno-Galar (Lvl 76 Bird Keeper Jared)",
-        "1349": "Gyarados (Lvl 76 Dragon Tamer Sora)",
-        "1350": "Druddigon (Lvl 77 Dragon Tamer Sora)",
-        "1351": "Charizard (Lvl 76 Dragon Tamer Sora)",
-        "1352": "Charizard-Mega-Y (Lvl 76 Dragon Tamer Sora)",
-        "1353": "Exeggutor-Alola (Lvl 77 Dragon Tamer Sora)",
-        "1354": "Steelix (Lvl 77 Dragon Tamer Sora)",
-        "1355": "Baxcalibur (Lvl 76 Dragon Tamer Sora)",
-        "1356": "Lugia (Lvl 77 Leader Winona1 )",
-        "1357": "Hydreigon (Lvl 76 Leader Winona1 )",
-        "1358": "Corviknight (Lvl 77 Leader Winona1 )",
-        "1359": "Aerodactyl (Lvl 77 Leader Winona1 )",
-        "1360": "Landorus-Therian (Lvl 77 Leader Winona1 )",
-        "1361": "Altaria (Lvl 78 Leader Winona1 )",
-        "1362": "Altaria-Mega (Lvl 78 Leader Winona1 )",
-        "1363": "Lugia (Lvl 77 Leader Winona2 )",
-        "1364": "Garchomp (Lvl 76 Leader Winona2 )",
-        "1365": "Togekiss (Lvl 77 Leader Winona2 )",
-        "1366": "Minior (Lvl 77 Leader Winona2 )",
-        "1367": "Honchkrow (Lvl 77 Leader Winona2 )",
-        "1368": "Altaria (Lvl 78 Leader Winona2 )",
-        "1369": "Altaria-Mega (Lvl 78 Leader Winona2 )",
-        "1370": "Kecleon (Lvl 80 Rogue Kecleon)",
-        "1371": "Alakazam (Lvl 77 Cooltrainer Abobo)",
-        "1372": "Swellow (Lvl 78 Cooltrainer Abobo)",
-        "1373": "Magnezone (Lvl 77 Cooltrainer Abobo)",
-        "1374": "Dugtrio (Lvl 78 Cooltrainer Abobo)",
-        "1375": "Ribombee (Lvl 78 Cooltrainer Abobo)",
-        "1376": "Mimikyu (Lvl 78 Parasol Lady Angelica)",
-        "1377": "Cradily (Lvl 78 Parasol Lady Angelica)",
-        "1378": "Dracovish (Lvl 77 Parasol Lady Angelica)",
-        "1379": "Blaziken (Lvl 78 Parasol Lady Angelica)",
-        "1380": "Greninja (Lvl 77 Parasol Lady Angelica)",
-        "1381": "Greninja-Mega (Lvl 77 Parasol Lady Angelica)",
-        "1382": "Kecleon (Lvl 78 Ninja Boy Alex)",
-        "1383": "Yanmega (Lvl 78 Ninja Boy Alex)",
-        "1384": "Lucario (Lvl 77 Ninja Boy Alex)",
-        "1385": "Gliscor (Lvl 78 Ninja Boy Alex)",
-        "1386": "Zarude-Dada (Lvl 79 Ninja Boy Alex)",
-        "1387": "Sceptile (Lvl 78 Cooltrainer Melodic)",
-        "1388": "Delphox (Lvl 79 Cooltrainer Melodic)",
-        "1389": "Delphox-Mega (Lvl 79 Cooltrainer Melodic)",
-        "1390": "Revavroom (Lvl 78 Cooltrainer Melodic)",
-        "1391": "Jumpluff (Lvl 78 Cooltrainer Melodic)",
-        "1392": "Dragonite (Lvl 80 Cooltrainer Melodic)",
-        "1393": "Shuckle (Lvl 78 Cooltrainer Perseid)",
-        "1394": "Mawile (Lvl 79 Cooltrainer Perseid)",
-        "1395": "Mawile-Mega (Lvl 79 Cooltrainer Perseid)",
-        "1396": "Luxray (Lvl 80 Cooltrainer Perseid)",
-        "1397": "Regidrago (Lvl 78 Cooltrainer Perseid)",
-        "1398": "Drednaw (Lvl 78 Cooltrainer Perseid)",
-        "1399": "Sylveon (Lvl 78 Beauty Jessica)",
-        "1400": "Nidoqueen (Lvl 78 Beauty Jessica)",
-        "1401": "Celebi (Lvl 79 Beauty Jessica)",
-        "1402": "Milotic (Lvl 78 Beauty Jessica)",
-        "1403": "Absol (Lvl 80 Beauty Jessica)",
-        "1404": "Absol-Mega (Lvl 80 Beauty Jessica)",
-        "1405": "Grimmsnarl (Lvl 77 Sr.And Jr.Kate&Joy)",
-        "1406": "Sneasler (Lvl 78 Sr.And Jr.Kate&Joy)",
-        "1407": "Porygon-Z (Lvl 78 Sr.And Jr.Kate&Joy)",
-        "1408": "Farigiraf (Lvl 79 Sr.And Jr.Kate&Joy)",
-        "1409": "Cresselia (Lvl 78 Sr.And Jr.Kate&Joy)",
-        "1410": "Darkrai (Lvl 80 Sr.And Jr.Kate&Joy)",
-        "1411": "Regirock (Lvl 78 Cooltrainer Marcel)",
-        "1412": "Chesnaught (Lvl 80 Cooltrainer Marcel)",
-        "1413": "Chesnaught-Mega (Lvl 80 Cooltrainer Marcel)",
-        "1414": "Dracozolt (Lvl 79 Cooltrainer Marcel)",
-        "1415": "Hydrapple (Lvl 78 Cooltrainer Marcel)",
-        "1416": "Hitmontop (Lvl 80 Cooltrainer Marcel)",
-        "1417": "Swampert (Lvl 78 Cooltrainer Cristin)",
-        "1418": "Tapu Lele (Lvl 80 Cooltrainer Cristin)",
-        "1419": "Rabsca (Lvl 77 Cooltrainer Cristin)",
-        "1420": "Quaquaval (Lvl 80 Cooltrainer Cristin)",
-        "1421": "Simisear (Lvl 78 Cooltrainer Cristin)",
-        "1422": "Silvally-Water (Lvl 79 Lilycove Rival Chespin)",
-        "1423": "Mewtwo (Lvl 78 Lilycove Rival Chespin)",
-        "1424": "Cinderace (Lvl 79 Lilycove Rival Chespin)",
-        "1425": "Hydreigon (Lvl 78 Lilycove Rival Chespin)",
-        "1426": "Wyrdeer (Lvl 78 Lilycove Rival Chespin)",
-        "1427": "Lucario (Lvl 80 Lilycove Rival Chespin)",
-        "1428": "Lucario-Mega (Lvl 80 Lilycove Rival Chespin)",
-        "1429": "Silvally-Grass (Lvl 79 Lilycove Rival Fennekin)",
-        "1430": "Mewtwo (Lvl 78 Lilycove Rival Fennekin)",
-        "1431": "Greninja (Lvl 79 Lilycove Rival Fennekin)",
-        "1432": "Dragonite (Lvl 78 Lilycove Rival Fennekin)",
-        "1433": "Luxray (Lvl 78 Lilycove Rival Fennekin)",
-        "1434": "Lucario (Lvl 80 Lilycove Rival Fennekin)",
-        "1435": "Lucario-Mega (Lvl 80 Lilycove Rival Fennekin)",
-        "1436": "Silvally-Fire (Lvl 79 Lilycove Rival Froakie)",
-        "1437": "Mewtwo (Lvl 78 Lilycove Rival Froakie)",
-        "1438": "Meowscarada (Lvl 79 Lilycove Rival Froakie)",
-        "1439": "Salamence (Lvl 78 Lilycove Rival Froakie)",
-        "1440": "Dusknoir (Lvl 78 Lilycove Rival Froakie)",
-        "1441": "Lucario (Lvl 80 Lilycove Rival Froakie)",
-        "1442": "Lucario-Mega (Lvl 80 Lilycove Rival Froakie)",
-        "1443": "Clefable (Lvl 78 Hex Maniac Leah)",
-        "1444": "Clefable-Mega (Lvl 78 Hex Maniac Leah)",
-        "1445": "Lunatone (Lvl 79 Hex Maniac Leah)",
-        "1446": "Lunala (Lvl 78 Hex Maniac Leah)",
-        "1447": "Ursaluna-Bloodmoon (Lvl 79 Hex Maniac Leah)",
-        "1448": "Umbreon (Lvl 80 Hex Maniac Leah)",
-        "1449": "Runerigus (Lvl 80 Blackbelt Tyrone)",
-        "1450": "Slaking (Lvl 79 Blackbelt Tyrone)",
-        "1451": "Cofagrigus (Lvl 79 Blackbelt Tyrone)",
-        "1452": "Archeops (Lvl 78 Blackbelt Tyrone)",
-        "1453": "Oinkologne (Lvl 80 Blackbelt Tyrone)",
-        "1454": "Gengar (Lvl 79 Blackbelt Tyrone)",
-        "1455": "Gengar-Mega (Lvl 79 Blackbelt Tyrone)",
-        "1456": "Absol (Lvl 80 Psychic Kayla)",
-        "1457": "Hawlucha (Lvl 79 Psychic Kayla)",
-        "1458": "Mismagius (Lvl 79 Psychic Kayla)",
-        "1459": "Venomoth (Lvl 79 Psychic Kayla)",
-        "1460": "Dusclops (Lvl 79 Psychic William)",
-        "1461": "Grumpig (Lvl 79 Psychic William)",
-        "1462": "Persian-Alola (Lvl 80 Psychic William)",
-        "1463": "Marowak (Lvl 79 Psychic William)",
-        "1464": "Gourgeist-Small (Lvl 79 Hex Maniac Tasha)",
-        "1465": "Gourgeist-Large (Lvl 79 Hex Maniac Tasha)",
-        "1466": "Gourgeist (Lvl 79 Hex Maniac Tasha)",
-        "1467": "Gourgeist-Super (Lvl 80 Hex Maniac Tasha)",
-        "1468": "Ceruledge (Lvl 79 Hex Maniac Valerie)",
-        "1469": "Banette (Lvl 80 Hex Maniac Valerie)",
-        "1470": "Bewear (Lvl 79 Hex Maniac Valerie)",
-        "1471": "Beheeyem (Lvl 79 Hex Maniac Valerie)",
-        "1472": "Parasect (Lvl 80 Hex Maniac Valerie)",
-        "1473": "Aromatisse (Lvl 80 Pokemaniac Mark)",
-        "1474": "Froslass (Lvl 79 Pokemaniac Mark)",
-        "1475": "Froslass-Mega (Lvl 79 Pokemaniac Mark)",
-        "1476": "Stunfisk-Galar (Lvl 79 Pokemaniac Mark)",
-        "1477": "Dragonair (Lvl 80 Pokemaniac Mark)",
-        "1478": "Lycanroc-Midnight (Lvl 79 Breeder Gabrielle)",
-        "1479": "Togedemaru (Lvl 80 Breeder Gabrielle)",
-        "1480": "Aurorus (Lvl 79 Breeder Gabrielle)",
-        "1481": "Sinistcha (Lvl 80 Breeder Gabrielle)",
-        "1482": "Spectrier (Lvl 80 Psychic Cedric)",
-        "1483": "Decidueye-Hisui (Lvl 79 Psychic Cedric)",
-        "1484": "Dhelmise (Lvl 79 Psychic Cedric)",
-        "1485": "Dragapult (Lvl 80 Psychic Cedric)",
-        "1486": "Charizard (Lvl 81 Psychic Cedric)",
-        "1487": "Charizard-Mega-X (Lvl 81 Psychic Cedric)",
-        "1488": "None (Lvl 0 Wandering Spirit)",
-        "1489": "Scream Tail (Lvl 79 Pyre Team Aqua Grunt #1 )",
-        "1490": "Seaking (Lvl 82 Pyre Team Aqua Grunt #1 )",
-        "1491": "Shedinja (Lvl 80 Pyre Team Aqua Grunt #1 )",
-        "1492": "Starmie (Lvl 79 Pyre Team Aqua Grunt #1 )",
-        "1493": "Cursola (Lvl 80 Pyre Team Aqua Grunt #1 )",
-        "1494": "Greninja (Lvl 81 Pyre Team Aqua Grunt #2 )",
-        "1495": "Hatterene (Lvl 80 Pyre Team Aqua Grunt #2 )",
-        "1496": "Kingdra (Lvl 80 Pyre Team Aqua Grunt #2 )",
-        "1497": "Malamar (Lvl 80 Pyre Team Aqua Grunt #2 )",
-        "1498": "Malamar-Mega (Lvl 80 Pyre Team Aqua Grunt #2 )",
-        "1499": "Wobbuffet (Lvl 80 Pyre Team Aqua Grunt #2 )",
-        "1500": "Mightyena (Lvl 80 Pyre Team Aqua Grunt #3 )",
-        "1501": "Bibarel (Lvl 80 Pyre Team Aqua Grunt #3 )",
-        "1502": "Slowbro-Galar (Lvl 80 Pyre Team Aqua Grunt #3 )",
-        "1503": "Phione (Lvl 81 Pyre Team Aqua Grunt #3 )",
-        "1504": "Poliwrath (Lvl 80 Pyre Team Aqua Grunt #4 )",
-        "1505": "Weavile (Lvl 80 Pyre Team Aqua Grunt #4 )",
-        "1506": "Barbaracle (Lvl 80 Pyre Team Aqua Grunt #4 )",
-        "1507": "Barbaracle-Mega (Lvl 80 Pyre Team Aqua Grunt #4 )",
-        "1508": "Hoopa (Lvl 81 Pyre Team Aqua Grunt #4 )",
-        "1509": "Kecleon (Lvl 80 Pyre Team Aqua Grunt #5 )",
-        "1510": "Noivern (Lvl 80 Pyre Team Aqua Grunt #5 )",
-        "1511": "Omastar (Lvl 81 Pyre Team Aqua Grunt #5 )",
-        "1512": "Slowking-Galar (Lvl 80 Pyre Team Aqua Grunt #5 )",
-        "1513": "Keldeo (Lvl 81 Pyre Team Aqua Grunt #5 )",
-        "1514": "Miraidon (Lvl 82 Team Aqua Leader Archie1 )",
-        "1515": "Thievul (Lvl 80 Hideout Team Magma Grunt Zeldest)",
-        "1516": "Darmanitan (Lvl 80 Hideout Team Magma Grunt Zeldest)",
-        "1517": "Octillery (Lvl 80 Hideout Team Magma Grunt Zeldest)",
-        "1518": "Cinderace (Lvl 81 Hideout Team Magma Grunt Zeldest)",
-        "1519": "Shaymin-Sky (Lvl 80 Team Magma Grunt Coffee)",
-        "1520": "Dudunsparce (Lvl 80 Team Magma Grunt Coffee)",
-        "1521": "Togekiss (Lvl 80 Team Magma Grunt Coffee)",
-        "1522": "Jirachi (Lvl 80 Team Magma Grunt Coffee)",
-        "1523": "Chandelure (Lvl 81 Team Magma Grunt Coffee)",
-        "1524": "Chandelure-Mega (Lvl 81 Team Magma Grunt Coffee)",
-        "1525": "Torkoal (Lvl 80 Hideout Team Magma Grunt #3 )",
-        "1526": "Shiftry (Lvl 80 Hideout Team Magma Grunt #3 )",
-        "1527": "Darmanitan-Galar (Lvl 80 Hideout Team Magma Grunt #3 )",
-        "1528": "Dachsbun (Lvl 80 Hideout Team Magma Grunt #3 )",
-        "1529": "Rapidash (Lvl 81 Hideout Team Magma Grunt #3 )",
-        "1530": "Dodrio (Lvl 80 Hideout Team Magma Grunt #4 )",
-        "1531": "Kingambit (Lvl 80 Hideout Team Magma Grunt #4 )",
-        "1532": "Honchkrow (Lvl 80 Hideout Team Magma Grunt #4 )",
-        "1533": "Houndoom (Lvl 80 Hideout Team Magma Grunt #4 )",
-        "1534": "Mr. Rime (Lvl 81 Hideout Team Magma Grunt #4 )",
-        "1535": "Aerodactyl (Lvl 80 Team Magma Grunt Grintoul)",
-        "1536": "Skuntank (Lvl 80 Team Magma Grunt Grintoul)",
-        "1537": "Scovillain (Lvl 80 Team Magma Grunt Grintoul)",
-        "1538": "Tinkaton (Lvl 80 Team Magma Grunt Grintoul)",
-        "1539": "Delcatty (Lvl 82 Team Magma Grunt Grintoul)",
-        "1540": "Magmortar (Lvl 80 Hideout Magma Grunt #6 & #7 )",
-        "1541": "Victini (Lvl 80 Hideout Magma Grunt #6 & #7 )",
-        "1542": "Infernape (Lvl 81 Hideout Magma Grunt #6 & #7 )",
-        "1543": "Zekrom (Lvl 81 Hideout Magma Grunt #6 & #7 )",
-        "1544": "Electivire (Lvl 80 Hideout Magma Grunt #6 & #7 )",
-        "1545": "Weavile (Lvl 80 Hideout Magma Grunt #6 & #7 )",
-        "1546": "Salazzle (Lvl 81 Hideout Team Magma Grunt #8 )",
-        "1547": "Magcargo (Lvl 80 Hideout Team Magma Grunt #8 )",
-        "1548": "Orthworm (Lvl 80 Hideout Team Magma Grunt #8 )",
-        "1549": "Dracozolt (Lvl 81 Hideout Team Magma Grunt #8 )",
-        "1550": "Tyranitar (Lvl 80 Hideout Team Magma Grunt #9 )",
-        "1551": "Ursaluna (Lvl 80 Hideout Team Magma Grunt #9 )",
-        "1552": "Rabsca (Lvl 81 Hideout Team Magma Grunt #9 )",
-        "1553": "Volcarona (Lvl 81 Hideout Team Magma Grunt #9 )",
-        "1554": "Pawmot (Lvl 81 Hideout Team Magma Grunt #9 )",
-        "1555": "Gyarados (Lvl 80 Hideout Team Magma Grunt #10 )",
-        "1556": "Marowak-Alola (Lvl 80 Hideout Team Magma Grunt #10 )",
-        "1557": "Ariados (Lvl 81 Hideout Team Magma Grunt #10 )",
-        "1558": "Manectric (Lvl 81 Hideout Team Magma Grunt #10 )",
-        "1559": "Heatran (Lvl 82 Hideout Team Magma Grunt #10 )",
-        "1560": "Delphox (Lvl 80 Hideout Team Magma Elite Grunt)",
-        "1561": "Carnivine (Lvl 80 Hideout Team Magma Elite Grunt)",
-        "1562": "Flareon (Lvl 80 Hideout Team Magma Elite Grunt)",
-        "1563": "Rapidash-Galar (Lvl 81 Hideout Team Magma Elite Grunt)",
-        "1564": "Pidgeot (Lvl 82 Hideout Team Magma Elite Grunt)",
-        "1565": "Pidgeot-Mega (Lvl 82 Hideout Team Magma Elite Grunt)",
-        "1566": "Reshiram (Lvl 81 Hideout Team Magma Elite Grunt)",
-        "1567": "Latias (Lvl 82 Team Magma Admin Tabitha2 )",
-        "1568": "Latias-Mega (Lvl 82 Team Magma Admin Tabitha2 )",
-        "1569": "Scizor (Lvl 82 Team Magma Admin Tabitha2 )",
-        "1570": "Centiskorch (Lvl 81 Team Magma Admin Tabitha2 )",
-        "1571": "Armarouge (Lvl 82 Team Magma Admin Tabitha2 )",
-        "1572": "Tyrantrum (Lvl 81 Team Magma Admin Tabitha2 )",
-        "1573": "Zamazenta (Lvl 81 Team Magma Admin Tabitha2 )",
-        "1574": "Groudon (Lvl 81 Team Magma Leader Maxie2 )",
-        "1575": "Camerupt (Lvl 85 Team Magma Leader Maxie2 )",
-        "1576": "Scovillain (Lvl 82 Team Magma Leader Maxie2 )",
-        "1577": "Koraidon (Lvl 82 Team Magma Leader Maxie2 )",
-        "1578": "Sandy Shocks (Lvl 81 Team Magma Leader Maxie2 )",
-        "1579": "Charizard (Lvl 82 Team Magma Leader Maxie2 )",
-        "1580": "Charizard-Mega-Y (Lvl 82 Team Magma Leader Maxie2 )",
-        "1581": "Tentacruel (Lvl 82 Team Aqua Grunt Soph)",
-        "1582": "Jellicent (Lvl 82 Team Aqua Grunt Soph)",
-        "1583": "Toedscruel (Lvl 82 Team Aqua Grunt Soph)",
-        "1584": "Klefki (Lvl 83 Team Aqua Grunt Soph)",
-        "1585": "Nihilego (Lvl 83 Team Aqua Grunt Soph)",
-        "1586": "Tauros-Paldea-Aqua (Lvl 82 Hideout Team Aqua Grunt #2 )",
-        "1587": "Klawf (Lvl 82 Hideout Team Aqua Grunt #2 )",
-        "1588": "Goodra (Lvl 83 Hideout Team Aqua Grunt #2 )",
-        "1589": "Lumineon (Lvl 83 Hideout Team Aqua Grunt #2 )",
-        "1590": "Gastrodon (Lvl 82 Hideout Team Aqua Grunt #2 )",
-        "1591": "Togekiss (Lvl 83 Team Aqua Grunt Gian)",
-        "1592": "Cramorant (Lvl 83 Team Aqua Grunt Gian)",
-        "1593": "Mesprit (Lvl 83 Team Aqua Grunt Gian)",
-        "1594": "Swampert (Lvl 83 Team Aqua Grunt Gian)",
-        "1595": "Swampert-Mega (Lvl 83 Team Aqua Grunt Gian)",
-        "1596": "Duraludon (Lvl 84 Team Aqua Grunt Gian)",
-        "1597": "Farfetch’d (Lvl 83 Team Aqua Grunt Gian)",
-        "1598": "Pincurchin (Lvl 82 Hideout Team Aqua Grunt #4 )",
-        "1599": "Hawlucha (Lvl 83 Hideout Team Aqua Grunt #4 )",
-        "1600": "Blastoise (Lvl 83 Hideout Team Aqua Grunt #4 )",
-        "1601": "Palossand (Lvl 83 Hideout Team Aqua Grunt #4 )",
-        "1602": "Thundurus-Therian (Lvl 84 Hideout Team Aqua Grunt #4 )",
-        "1603": "Politoed (Lvl 83 Hideout Team Aqua Grunt #5 )",
-        "1604": "Overqwil (Lvl 83 Hideout Team Aqua Grunt #5 )",
-        "1605": "Arboliva (Lvl 83 Hideout Team Aqua Grunt #5 )",
-        "1606": "Alomomola (Lvl 83 Hideout Team Aqua Grunt #5 )",
-        "1607": "Tornadus-Therian (Lvl 84 Hideout Team Aqua Grunt #5 )",
-        "1608": "Tyranitar (Lvl 83 Team Aqua Grunt Steve2 )",
-        "1609": "Dracovish (Lvl 83 Team Aqua Grunt Steve2 )",
-        "1610": "Mudsdale (Lvl 83 Team Aqua Grunt Steve2 )",
-        "1611": "Excadrill (Lvl 84 Team Aqua Grunt Steve2 )",
-        "1612": "Garchomp (Lvl 84 Team Aqua Grunt Steve2 )",
-        "1613": "Garchomp-Mega (Lvl 84 Team Aqua Grunt Steve2 )",
-        "1614": "Houndstone (Lvl 84 Team Aqua Grunt Steve2 )",
-        "1615": "Archaludon (Lvl 83 Team Aqua Admin Matt)",
-        "1616": "Palkia (Lvl 84 Team Aqua Admin Matt)",
-        "1617": "Vileplume (Lvl 84 Team Aqua Admin Matt)",
-        "1618": "Basculegion (Lvl 84 Team Aqua Admin Matt)",
-        "1619": "Buzzwole (Lvl 84 Team Aqua Admin Matt)",
-        "1620": "Gyarados (Lvl 85 Team Aqua Admin Matt)",
-        "1621": "Gyarados-Mega (Lvl 85 Team Aqua Admin Matt)",
-        "1622": "Ninetales-Alola (Lvl 84 Swimmer Webe & Swimmer D.K)",
-        "1623": "Sneasler (Lvl 84 Swimmer Webe & Swimmer D.K)",
-        "1624": "Glaceon (Lvl 85 Swimmer Webe & Swimmer D.K)",
-        "1625": "Arctozolt (Lvl 84 Swimmer Webe & Swimmer D.K)",
-        "1626": "Arctovish (Lvl 84 Swimmer Webe & Swimmer D.K)",
-        "1627": "Kyurem-Black (Lvl 84 Swimmer Webe & Swimmer D.K)",
-        "1628": "Carbink (Lvl 84 Swimmer Byonemil)",
-        "1629": "Skeledirge (Lvl 85 Swimmer Byonemil)",
-        "1630": "Braviary-Hisui (Lvl 84 Swimmer Byonemil)",
-        "1631": "Crawdaunt (Lvl 85 Swimmer Byonemil)",
-        "1632": "Perrserker (Lvl 86 Swimmer Byonemil)",
-        "1633": "Eternatus (Lvl 86 Expert Cash)",
-        "1634": "Iron Bundle (Lvl 86 Expert Cash)",
-        "1635": "Grafaiai (Lvl 86 Expert Cash)",
-        "1636": "Landorus (Lvl 86 Expert Cash)",
-        "1637": "Glimmora (Lvl 87 Expert Cash)",
-        "1638": "Glimmora-Mega (Lvl 87 Expert Cash)",
-        "1639": "Whimsicott (Lvl 87 Expert Cash)",
-        "1640": "Clawitzer (Lvl 84 Pokémon Trainer Leaf1 )",
-        "1641": "Ambipom (Lvl 85 Pokémon Trainer Leaf1 )",
-        "1642": "Silvally-Psychic (Lvl 86 Pokémon Trainer Leaf1 )",
-        "1643": "Absol (Lvl 85 Pokémon Trainer Leaf1 )",
-        "1644": "Absol-Mega-Z (Lvl 85 Pokémon Trainer Leaf1 )",
-        "1645": "Hawlucha (Lvl 85 Pokémon Trainer Leaf1 )",
-        "1646": "Espeon (Lvl 87 Pokémon Trainer Leaf1 )",
-        "1647": "Indeedee-F (Lvl 85 Psychic Preston & Psychic Maura)",
-        "1648": "Orbeetle (Lvl 85 Psychic Preston & Psychic Maura)",
-        "1649": "Metagross (Lvl 85 Psychic Preston & Psychic Maura)",
-        "1650": "Metagross-Mega (Lvl 85 Psychic Preston & Psychic Maura)",
-        "1651": "Sceptile (Lvl 85 Psychic Preston & Psychic Maura)",
-        "1652": "Munkidori (Lvl 85 Psychic Preston & Psychic Maura)",
-        "1653": "Slowbro-Galar (Lvl 85 Psychic Preston & Psychic Maura)",
-        "1654": "Azumarill (Lvl 85 Pokémaniac Symes & Bug Maniac Connor)",
-        "1655": "Diggersby (Lvl 85 Pokémaniac Symes & Bug Maniac Connor)",
-        "1656": "Starmie (Lvl 86 Pokémaniac Symes & Bug Maniac Connor)",
-        "1657": "Starmie-Mega (Lvl 86 Pokémaniac Symes & Bug Maniac Connor)",
-        "1658": "Wyrdeer (Lvl 86 Pokémaniac Symes & Bug Maniac Connor)",
-        "1659": "Muk-Alola (Lvl 85 Pokémaniac Symes & Bug Maniac Connor)",
-        "1660": "Marshadow (Lvl 85 Pokémaniac Symes & Bug Maniac Connor)",
-        "1661": "Hatterene (Lvl 85 Psychic Virgil & Psychic Nate)",
-        "1662": "Sinistcha (Lvl 86 Psychic Virgil & Psychic Nate)",
-        "1663": "Slowbro (Lvl 86 Psychic Virgil & Psychic Nate)",
-        "1664": "Slowbro-Mega (Lvl 86 Psychic Virgil & Psychic Nate)",
-        "1665": "Ursaluna (Lvl 85 Psychic Virgil & Psychic Nate)",
-        "1666": "Marowak-Alola (Lvl 86 Psychic Virgil & Psychic Nate)",
-        "1667": "Melmetal (Lvl 86 Psychic Virgil & Psychic Nate)",
-        "1668": "Stakataka (Lvl 86 Psychic Hannah & Hex Maniac Sylvia)",
-        "1669": "Florges (Lvl 86 Psychic Hannah & Hex Maniac Sylvia)",
-        "1670": "Gardevoir (Lvl 86 Psychic Hannah & Hex Maniac Sylvia)",
-        "1671": "Gardevoir-Mega (Lvl 86 Psychic Hannah & Hex Maniac Sylvia)",
-        "1672": "Iron Boulder (Lvl 86 Psychic Hannah & Hex Maniac Sylvia)",
-        "1673": "Scream Tail (Lvl 86 Psychic Hannah & Hex Maniac Sylvia)",
-        "1674": "Xerneas (Lvl 86 Psychic Hannah & Hex Maniac Sylvia)",
-        "1675": "Ursaluna-Bloodmoon (Lvl 86 Gentleman Andreas & Hex Maniac Tina)",
-        "1676": "Flapple (Lvl 86 Gentleman Andreas & Hex Maniac Tina)",
-        "1677": "Gallade (Lvl 86 Gentleman Andreas & Hex Maniac Tina)",
-        "1678": "Gallade-Mega (Lvl 86 Gentleman Andreas & Hex Maniac Tina)",
-        "1679": "Meowstic (Lvl 86 Gentleman Andreas & Hex Maniac Tina)",
-        "1680": "Starmie (Lvl 86 Gentleman Andreas & Hex Maniac Tina)",
-        "1681": "Giratina (Lvl 86 Gentleman Andreas & Hex Maniac Tina)",
-        "1682": "Mr. Mime-Galar (Lvl 86 Gentleman Clifford & Psychic Macey)",
-        "1683": "Iron Valiant (Lvl 86 Gentleman Clifford & Psychic Macey)",
-        "1684": "Delphox (Lvl 86 Gentleman Clifford & Psychic Macey)",
-        "1685": "Delphox-Mega (Lvl 86 Gentleman Clifford & Psychic Macey)",
-        "1686": "Eternatus (Lvl 86 Gentleman Clifford & Psychic Macey)",
-        "1687": "Drifblim (Lvl 86 Gentleman Clifford & Psychic Macey)",
-        "1688": "Espathra (Lvl 86 Gentleman Clifford & Psychic Macey)",
-        "1689": "Darmanitan (Lvl 86 Leader Liza)",
-        "1690": "Ceruledge (Lvl 86 Leader Liza)",
-        "1691": "Deoxys (Lvl 86 Leader Liza)",
-        "1692": "Necrozma-Dusk-Mane (Lvl 88 Leader Liza)",
-        "1693": "Necrozma-Ultra (Lvl 88 Leader Liza)",
-        "1694": "Oranguru (Lvl 86 Leader Tate)",
-        "1695": "Grimmsnarl (Lvl 86 Leader Tate)",
-        "1696": "Deoxys-Defense (Lvl 86 Leader Tate)",
-        "1697": "Annihilape (Lvl 87 Leader Tate)",
-        "1698": "Glimmora (Lvl 86 Space Center Team Magma Grunt #1 )",
-        "1699": "Blaziken (Lvl 87 Space Center Team Magma Grunt #1 )",
-        "1700": "Magnezone (Lvl 86 Space Center Team Magma Grunt #1 )",
-        "1701": "Alcremie (Lvl 86 Space Center Team Magma Grunt #1 )",
-        "1702": "Blacephalon (Lvl 86 Space Center Team Magma Grunt #1 )",
-        "1703": "Ho-Oh (Lvl 86 Space Center Team Magma Grunt #1 )",
-        "1704": "Flutter Mane (Lvl 86 Space Center Team Magma Grunt #2 )",
-        "1705": "Morpeko (Lvl 86 Space Center Team Magma Grunt #2 )",
-        "1706": "Swoobat (Lvl 86 Space Center Team Magma Grunt #2 )",
-        "1707": "Emboar (Lvl 86 Space Center Team Magma Grunt #2 )",
-        "1708": "Guzzlord (Lvl 86 Space Center Team Magma Grunt #2 )",
-        "1709": "Victini (Lvl 87 Space Center Team Magma Grunt #2 )",
-        "1710": "Incineroar (Lvl 86 Space Center Team Magma Elite Grunt)",
-        "1711": "Ursaluna (Lvl 86 Space Center Team Magma Elite Grunt)",
-        "1712": "Watchog (Lvl 87 Space Center Team Magma Elite Grunt)",
-        "1713": "Landorus-Therian (Lvl 86 Space Center Team Magma Elite Grunt)",
-        "1714": "Raging Bolt (Lvl 86 Space Center Team Magma Elite Grunt)",
-        "1715": "Cinderace (Lvl 87 Space Center Team Magma Elite Grunt)",
-        "1716": "Cobalion (Lvl 86 Space Center Team Magma Grunt #4 )",
-        "1717": "Froslass (Lvl 86 Space Center Team Magma Grunt #4 )",
-        "1718": "Dragonite (Lvl 86 Space Center Team Magma Grunt #4 )",
-        "1719": "Lopunny (Lvl 87 Space Center Team Magma Grunt #4 )",
-        "1720": "Lopunny-Mega (Lvl 87 Space Center Team Magma Grunt #4 )",
-        "1721": "Heatran (Lvl 86 Space Center Team Magma Grunt #5 )",
-        "1722": "Heatran-Mega (Lvl 86 Space Center Team Magma Grunt #5 )",
-        "1723": "Turtonator (Lvl 86 Space Center Team Magma Grunt #5 )",
-        "1724": "Xurkitree (Lvl 86 Space Center Team Magma Grunt #5 )",
-        "1725": "Virizion (Lvl 86 Space Center Team Magma Grunt #5 )",
-        "1726": "Solrock (Lvl 87 Space Center Team Magma Grunt #5 )",
-        "1727": "Arcanine-Hisui (Lvl 86 Space Center Team Magma Grunt #6 )",
-        "1728": "Darkrai (Lvl 86 Space Center Team Magma Grunt #6 )",
-        "1729": "Darkrai-Mega (Lvl 86 Space Center Team Magma Grunt #6 )",
-        "1730": "Terrakion (Lvl 86 Space Center Team Magma Grunt #6 )",
-        "1731": "Naganadel (Lvl 87 Space Center Team Magma Grunt #6 )",
-        "1732": "Camerupt (Lvl 90 Magma Leader Maxie & Tabitha)",
-        "1733": "Camerupt-Mega (Lvl 90 Magma Leader Maxie & Tabitha)",
-        "1734": "Koraidon (Lvl 90 Magma Leader Maxie & Tabitha)",
-        "1735": "Scovillain (Lvl 89 Magma Leader Maxie & Tabitha)",
-        "1736": "Zamazenta-Crowned (Lvl 90 Magma Leader Maxie & Tabitha)",
-        "1737": "Armarouge (Lvl 89 Magma Leader Maxie & Tabitha)",
-        "1738": "Scizor (Lvl 90 Magma Leader Maxie & Tabitha)",
-        "1739": "Scizor-Mega (Lvl 90 Magma Leader Maxie & Tabitha)",
-        "1740": "Heatran (Lvl 94 Partner Steven)",
-        "1741": "Zacian-Crowned (Lvl 95 Partner Steven)",
-        "1742": "Metagross (Lvl 100 Partner Steven)",
-        "1743": "Metagross-Mega (Lvl 100 Partner Steven)",
-        "1744": "Toucannon (Lvl 88 Bird Keeper Halo & Ranger Jmash)",
-        "1745": "Golurk (Lvl 88 Bird Keeper Halo & Ranger Jmash)",
-        "1746": "Bellossom (Lvl 87 Bird Keeper Halo & Ranger Jmash)",
-        "1747": "Sandslash-Alola (Lvl 87 Bird Keeper Halo & Ranger Jmash)",
-        "1748": "Samurott (Lvl 87 Bird Keeper Halo & Ranger Jmash)",
-        "1749": "Regice (Lvl 88 Bird Keeper Halo & Ranger Jmash)",
-        "1750": "Oinkologne-F (Lvl 88 Cooltrainer Puffy)",
-        "1751": "Ting-Lu (Lvl 87 Cooltrainer Puffy)",
-        "1752": "Tauros-Paldea-Blaze (Lvl 87 Cooltrainer Puffy)",
-        "1753": "Lilligant-Hisui (Lvl 87 Cooltrainer Puffy)",
-        "1754": "Kabutops (Lvl 87 Cooltrainer Puffy)",
-        "1755": "Copperajah (Lvl 88 Cooltrainer Puffy)",
-        "1756": "Glimmora (Lvl 88 Expert Qspec)",
-        "1757": "Weavile (Lvl 89 Expert Qspec)",
-        "1758": "Great Tusk (Lvl 88 Expert Qspec)",
-        "1759": "Ogerpon-Wellspring (Lvl 88 Expert Qspec)",
-        "1760": "Typhlosion-Hisui (Lvl 89 Expert Qspec)",
-        "1761": "Excadrill (Lvl 89 Expert Qspec)",
-        "1762": "Excadrill-Mega (Lvl 89 Expert Qspec)",
-        "1763": "Dondozo (Lvl 90 Sis And Bro Reli&Ian)",
-        "1764": "Tatsugiri-Stretchy (Lvl 85 Sis And Bro Reli&Ian)",
-        "1765": "Flamigo (Lvl 88 Sis And Bro Reli&Ian)",
-        "1766": "Roaring Moon (Lvl 89 Sis And Bro Reli&Ian)",
-        "1767": "Kricketune (Lvl 89 Sis And Bro Reli&Ian)",
-        "1768": "Seismitoad (Lvl 89 Sis And Bro Reli&Ian)",
-        "1769": "Whiscash (Lvl 91 Seafloor Team Aqua Grunt #1 )",
-        "1770": "Scizor (Lvl 89 Seafloor Team Aqua Grunt #1 )",
-        "1771": "Kingdra (Lvl 90 Seafloor Team Aqua Grunt #1 )",
-        "1772": "Barraskewda (Lvl 89 Seafloor Team Aqua Grunt #1 )",
-        "1773": "Kartana (Lvl 89 Seafloor Team Aqua Grunt #1 )",
-        "1774": "Inteleon (Lvl 90 Seafloor Team Aqua Grunt #1 )",
-        "1775": "Carracosta (Lvl 89 Seafloor Team Aqua Grunt #2 )",
-        "1776": "Chien-Pao (Lvl 89 Seafloor Team Aqua Grunt #2 )",
-        "1777": "Starmie (Lvl 89 Seafloor Team Aqua Grunt #2 )",
-        "1778": "Malamar (Lvl 90 Seafloor Team Aqua Grunt #2 )",
-        "1779": "Dragapult (Lvl 90 Seafloor Team Aqua Grunt #2 )",
-        "1780": "Luvdisc (Lvl 91 Seafloor Team Aqua Grunt #2 )",
-        "1781": "Azumarill (Lvl 90 Seafloor Team Aqua Grunt #3 )",
-        "1782": "Slowbro-Galar (Lvl 89 Seafloor Team Aqua Grunt #3 )",
-        "1783": "Chansey (Lvl 89 Seafloor Team Aqua Grunt #3 )",
-        "1784": "Golduck (Lvl 90 Seafloor Team Aqua Grunt #3 )",
-        "1785": "Hariyama (Lvl 90 Seafloor Team Aqua Grunt #3 )",
-        "1786": "Tentacruel (Lvl 91 Seafloor Team Aqua Grunt #3 )",
-        "1787": "Silvally-Water (Lvl 90 Seafloor Team Aqua Grunt #4 )",
-        "1788": "Aromatisse (Lvl 89 Seafloor Team Aqua Grunt #4 )",
-        "1789": "Glalie (Lvl 89 Seafloor Team Aqua Grunt #4 )",
-        "1790": "Ferrothorn (Lvl 90 Seafloor Team Aqua Grunt #4 )",
-        "1791": "Primarina (Lvl 90 Seafloor Team Aqua Grunt #4 )",
-        "1792": "Pawmot (Lvl 91 Seafloor Team Aqua Grunt #4 )",
-        "1793": "Azelf (Lvl 90 Team Aqua Grunt Gren)",
-        "1794": "Greninja (Lvl 91 Team Aqua Grunt Gren)",
-        "1795": "Cramorant (Lvl 90 Team Aqua Grunt Gren)",
-        "1796": "Goodra-Hisui (Lvl 90 Team Aqua Grunt Gren)",
-        "1797": "Granbull (Lvl 90 Team Aqua Grunt Gren)",
-        "1798": "Venusaur (Lvl 91 Team Aqua Grunt Gren)",
-        "1799": "Venusaur-Mega (Lvl 91 Team Aqua Grunt Gren)",
-        "1800": "Latios (Lvl 91 Team Aqua Admin Shelly2 )",
-        "1801": "Latios-Mega (Lvl 91 Team Aqua Admin Shelly2 )",
-        "1802": "Basculegion-F (Lvl 91 Team Aqua Admin Shelly2 )",
-        "1803": "Ceruledge (Lvl 91 Team Aqua Admin Shelly2 )",
-        "1804": "Zacian (Lvl 90 Team Aqua Admin Shelly2 )",
-        "1805": "Aurorus (Lvl 90 Team Aqua Admin Shelly2 )",
-        "1806": "Pheromosa (Lvl 90 Team Aqua Admin Shelly2 )",
-        "1807": "Tyranitar-Mega (Lvl 92 Team Aqua Grunt Steve3 )",
-        "1808": "Enamorus-Therian (Lvl 90 Team Aqua Grunt Steve3 )",
-        "1809": "Steelix-Mega (Lvl 90 Team Aqua Grunt Steve3 )",
-        "1810": "Wugtrio (Lvl 90 Team Aqua Grunt Steve3 )",
-        "1811": "Garchomp-Mega (Lvl 91 Team Aqua Grunt Steve3 )",
-        "1812": "Houndstone (Lvl 92 Team Aqua Grunt Steve3 )",
-        "1813": "Kyogre (Lvl 90 Team Aqua Leader Archie2 )",
-        "1814": "Floatzel (Lvl 92 Team Aqua Leader Archie2 )",
-        "1815": "Miraidon (Lvl 92 Team Aqua Leader Archie2 )",
-        "1816": "Iron Jugulis (Lvl 93 Team Aqua Leader Archie2 )",
-        "1817": "Shiinotic (Lvl 92 Team Aqua Leader Archie2 )",
-        "1818": "Sharpedo (Lvl 95 Team Aqua Leader Archie2 )",
-        "1819": "Sharpedo-Mega (Lvl 95 Team Aqua Leader Archie2 )",
-        "1820": "Coalossal (Lvl 91 Swimmer Reed)",
-        "1821": "Mantine (Lvl 91 Swimmer Reed)",
-        "1822": "Orthworm (Lvl 91 Swimmer Reed)",
-        "1823": "Raikou (Lvl 91 Swimmer Reed)",
-        "1824": "Dragonite (Lvl 91 Swimmer Reed)",
-        "1825": "Dragonite-Mega (Lvl 91 Swimmer Reed)",
-        "1826": "Gorebyss (Lvl 92 Swimmer Reed)",
-        "1827": "Relicanth (Lvl 92 Triathlete Allison)",
-        "1828": "Entei (Lvl 91 Triathlete Allison)",
-        "1829": "Exeggutor (Lvl 92 Triathlete Allison)",
-        "1830": "Comfey (Lvl 92 Triathlete Allison)",
-        "1831": "Gyarados (Lvl 92 Triathlete Allison)",
-        "1832": "Charizard (Lvl 91 Triathlete Allison)",
-        "1833": "Charizard-Mega-X (Lvl 91 Triathlete Allison)",
-        "1834": "Cherrim (Lvl 92 Triathlete Barron & Stephin)",
-        "1835": "Vivillon (Lvl 92 Triathlete Barron & Stephin)",
-        "1836": "Aggron (Lvl 93 Triathlete Barron & Stephin)",
-        "1837": "Ogerpon-Hearthflame (Lvl 92 Triathlete Barron & Stephin)",
-        "1838": "Arcanine-Hisui (Lvl 92 Triathlete Barron & Stephin)",
-        "1839": "Arbok (Lvl 93 Triathlete Barron & Stephin)",
-        "1840": "Ferrothorn (Lvl 92 Swimmer Puppy)",
-        "1841": "Seaking (Lvl 95 Swimmer Puppy)",
-        "1842": "Frosmoth (Lvl 92 Swimmer Puppy)",
-        "1843": "Raging Bolt (Lvl 91 Swimmer Puppy)",
-        "1844": "Toxicroak (Lvl 92 Swimmer Puppy)",
-        "1845": "Blastoise (Lvl 92 Swimmer Puppy)",
-        "1846": "Blastoise-Mega (Lvl 92 Swimmer Puppy)",
-        "1847": "Tapu Fini (Lvl 92 Swimmer Katie & Swimmer Santiago)",
-        "1848": "Noivern (Lvl 93 Swimmer Katie & Swimmer Santiago)",
-        "1849": "Iron Leaves (Lvl 94 Swimmer Katie & Swimmer Santiago)",
-        "1850": "Overqwil (Lvl 92 Swimmer Katie & Swimmer Santiago)",
-        "1851": "Drednaw (Lvl 93 Swimmer Katie & Swimmer Santiago)",
-        "1852": "Swampert (Lvl 94 Swimmer Katie & Swimmer Santiago)",
-        "1853": "Swampert-Mega (Lvl 94 Swimmer Katie & Swimmer Santiago)",
-        "1854": "Sudowoodo (Lvl 93 Triathlete Rydia)",
-        "1855": "Gouging Fire (Lvl 92 Triathlete Rydia)",
-        "1856": "Lilligant-Hisui (Lvl 94 Triathlete Rydia)",
-        "1857": "Lapras (Lvl 93 Triathlete Rydia)",
-        "1858": "Slowbro (Lvl 93 Triathlete Rydia)",
-        "1859": "Blaziken (Lvl 94 Triathlete Rydia)",
-        "1860": "Blaziken-Mega (Lvl 94 Triathlete Rydia)",
-        "1861": "Regieleki (Lvl 93 Triathlete Talia)",
-        "1862": "Trevenant (Lvl 93 Triathlete Talia)",
-        "1863": "Krookodile (Lvl 94 Triathlete Talia)",
-        "1864": "Flareon (Lvl 94 Triathlete Talia)",
-        "1865": "Mothim (Lvl 93 Triathlete Talia)",
-        "1866": "Slurpuff (Lvl 93 Swimmer Kara)",
-        "1867": "Rampardos (Lvl 94 Swimmer Kara)",
-        "1868": "Araquanid (Lvl 93 Swimmer Kara)",
-        "1869": "Brambleghast (Lvl 94 Swimmer Kara)",
-        "1870": "Glastrier (Lvl 94 Swimmer Kara)",
-        "1871": "Dudunsparce (Lvl 93 Swimmer Susie)",
-        "1872": "Octillery (Lvl 94 Swimmer Susie)",
-        "1873": "Torterra (Lvl 94 Swimmer Susie)",
-        "1874": "Hoopa-Unbound (Lvl 93 Swimmer Susie)",
-        "1875": "Scovillain (Lvl 94 Swimmer Susie)",
-        "1876": "Scovillain-Mega (Lvl 94 Swimmer Susie)",
-        "1877": "Donphan (Lvl 94 Expert Ronald)",
-        "1878": "Annihilape (Lvl 94 Expert Ronald)",
-        "1879": "Raticate (Lvl 94 Expert Ronald)",
-        "1880": "Gengar (Lvl 95 Expert Ronald)",
-        "1881": "Nidoqueen (Lvl 95 Expert Ronald)",
-        "1882": "Farigiraf (Lvl 94 Expert Makayla)",
-        "1883": "Bibarel (Lvl 95 Expert Makayla)",
-        "1884": "Dragapult (Lvl 94 Expert Makayla)",
-        "1885": "Marshadow (Lvl 94 Expert Makayla)",
-        "1886": "Ampharos (Lvl 95 Expert Makayla)",
-        "1887": "Ampharos-Mega (Lvl 95 Expert Makayla)",
-        "1888": "Weavile (Lvl 94 Cooltrainer Bazzo)",
-        "1889": "Landorus (Lvl 95 Cooltrainer Bazzo)",
-        "1890": "Grapploct (Lvl 95 Cooltrainer Bazzo)",
-        "1891": "Cursola (Lvl 94 Cooltrainer Bazzo)",
-        "1892": "Rhyperior (Lvl 94 Cooltrainer Bazzo)",
-        "1893": "Furret (Lvl 95 Cooltrainer Bazzo)",
-        "1894": "Rayquaza (Lvl 95 Sky Pillar Rayquaza)",
-        "1895": "Zoroark (Lvl 95 Lass Andrea)",
-        "1896": "Pyukumuku (Lvl 95 Lass Andrea)",
-        "1897": "Cloyster (Lvl 95 Lass Andrea)",
-        "1898": "Iron Treads (Lvl 95 Lass Andrea)",
-        "1899": "Masquerain (Lvl 95 Lass Andrea)",
-        "1900": "Manaphy (Lvl 95 Lass Andrea)",
-        "1901": "Zoroark-Hisui (Lvl 95 Pokéfan Annika)",
-        "1902": "Hitmontop (Lvl 95 Pokéfan Annika)",
-        "1903": "Magearna (Lvl 95 Pokéfan Annika)",
-        "1904": "Samurott-Hisui (Lvl 95 Pokéfan Annika)",
-        "1905": "Darmanitan-Galar (Lvl 95 Pokéfan Annika)",
-        "1906": "Palafin (Lvl 95 Pokéfan Annika)",
-        "1907": "Mamoswine (Lvl 95 Lady Daphne)",
-        "1908": "Basculegion (Lvl 94 Lady Daphne)",
-        "1909": "Serperior (Lvl 95 Lady Daphne)",
-        "1910": "Revavroom (Lvl 95 Lady Daphne)",
-        "1911": "Pikachu-Partner (Lvl 95 Lady Daphne)",
-        "1912": "Ditto (Lvl 96 Lady Daphne)",
-        "1913": "Manectric (Lvl 95 Beauty Bridget & Lady Brianna)",
-        "1914": "Manectric-Mega (Lvl 95 Beauty Bridget & Lady Brianna)",
-        "1915": "Bruxish (Lvl 95 Beauty Bridget & Lady Brianna)",
-        "1916": "Aegislash-Shield (Lvl 95 Beauty Bridget & Lady Brianna)",
-        "1917": "Jynx (Lvl 95 Beauty Bridget & Lady Brianna)",
-        "1918": "Zeraora (Lvl 95 Beauty Bridget & Lady Brianna)",
-        "1919": "Zeraora-Mega (Lvl 95 Beauty Bridget & Lady Brianna)",
-        "1920": "Squawkabilly-Blue (Lvl 95 Beauty Bridget & Lady Brianna)",
-        "1921": "Inteleon (Lvl 95 Pokéfan Bethany)",
-        "1922": "Meowscarada (Lvl 95 Pokéfan Bethany)",
-        "1923": "Chi-Yu (Lvl 95 Pokéfan Bethany)",
-        "1924": "Wigglytuff (Lvl 95 Pokéfan Bethany)",
-        "1925": "Gholdengo (Lvl 95 Pokéfan Bethany)",
-        "1926": "Baxcalibur (Lvl 95 Pokéfan Bethany)",
-        "1927": "Baxcalibur-Mega (Lvl 95 Pokéfan Bethany)",
-        "1928": "Kyurem (Lvl 95 Pokéfan Bobertclef)",
-        "1929": "Empoleon (Lvl 95 Pokéfan Bobertclef)",
-        "1930": "Clodsire (Lvl 95 Pokéfan Bobertclef)",
-        "1931": "Kilowattrel (Lvl 95 Pokéfan Bobertclef)",
-        "1932": "Poliwrath (Lvl 95 Pokéfan Bobertclef)",
-        "1933": "Diancie (Lvl 95 Pokéfan Bobertclef)",
-        "1934": "Diancie-Mega (Lvl 95 Pokéfan Bobertclef)",
-        "1935": "Pincurchin (Lvl 94 Ex Leader Juan)",
-        "1936": "Iron Bundle (Lvl 95 Ex Leader Juan)",
-        "1937": "Urshifu-Rapid-Strike (Lvl 95 Ex Leader Juan)",
-        "1938": "Lanturn (Lvl 95 Ex Leader Juan)",
-        "1939": "Iron Crown (Lvl 96 Ex Leader Juan)",
-        "1940": "Kingdra (Lvl 96 Ex Leader Juan)",
-        "1941": "Dialga-Origin (Lvl 96 Leader Steven)",
-        "1942": "Archeops (Lvl 95 Leader Steven)",
-        "1943": "Zacian-Crowned (Lvl 95 Leader Steven)",
-        "1944": "Starmie (Lvl 95 Leader Steven)",
-        "1945": "Genesect (Lvl 95 Leader Steven)",
-        "1946": "Metagross (Lvl 100 Leader Steven)",
-        "1947": "Metagross-Mega (Lvl 100 Leader Steven)",
-        "1948": "Drampa (Lvl 95 Lorekeeper Zinnia)",
-        "1949": "Exploud (Lvl 98 Lorekeeper Zinnia)",
-        "1950": "Gyarados (Lvl 95 Lorekeeper Zinnia)",
-        "1951": "Archaludon (Lvl 95 Lorekeeper Zinnia)",
-        "1952": "Salamence-Mega (Lvl 96 Lorekeeper Zinnia)",
-        "1953": "Rayquaza (Lvl 95 Lorekeeper Zinnia)",
-        "1954": "Rayquaza-Mega (Lvl 95 Lorekeeper Zinnia)",
-        "1955": "Butterfree (Lvl 95 Team Rocket Grunt #1 )",
-        "1956": "Muk (Lvl 95 Team Rocket Grunt #1 )",
-        "1957": "Heatmor (Lvl 95 Team Rocket Grunt #1 )",
-        "1958": "Gogoat (Lvl 95 Team Rocket Grunt #1 )",
-        "1959": "Politoed (Lvl 95 Team Rocket Grunt #1 )",
-        "1960": "Golisopod (Lvl 96 Team Rocket Grunt #1 )",
-        "1961": "Golisopod-Mega (Lvl 96 Team Rocket Grunt #1 )",
-        "1962": "Beautifly (Lvl 95 Team Rocket Grunt #2 )",
-        "1963": "Weezing (Lvl 95 Team Rocket Grunt #2 )",
-        "1964": "Sandaconda (Lvl 95 Team Rocket Grunt #2 )",
-        "1965": "Stoutland (Lvl 95 Team Rocket Grunt #2 )",
-        "1966": "Klinklang (Lvl 96 Team Rocket Grunt #2 )",
-        "1967": "Garchomp (Lvl 96 Team Rocket Grunt #2 )",
-        "1968": "Garchomp-Mega-Z (Lvl 96 Team Rocket Grunt #2 )",
-        "1969": "Dustox (Lvl 95 Team Rocket Grunt #3 )",
-        "1970": "Swalot (Lvl 95 Team Rocket Grunt #3 )",
-        "1971": "Zangoose (Lvl 96 Team Rocket Grunt #3 )",
-        "1972": "Tauros (Lvl 95 Team Rocket Grunt #3 )",
-        "1973": "Crustle (Lvl 96 Team Rocket Grunt #3 )",
-        "1974": "Magearna (Lvl 96 Team Rocket Grunt #3 )",
-        "1975": "Magearna-Mega (Lvl 96 Team Rocket Grunt #3 )",
-        "1976": "Dugtrio-Alola (Lvl 95 Cooltrainer Reyna)",
-        "1977": "Cyclizar (Lvl 97 Cooltrainer Reyna)",
-        "1978": "Hitmonlee (Lvl 95 Cooltrainer Reyna)",
-        "1979": "Lokix (Lvl 95 Cooltrainer Reyna)",
-        "1980": "Chandelure (Lvl 95 Cooltrainer Reyna)",
-        "1981": "Terapagos (Lvl 96 Cooltrainer Reyna)",
-        "1982": "Registeel (Lvl 96 Cooltrainer Yoru)",
-        "1983": "Scolipede (Lvl 95 Cooltrainer Yoru)",
-        "1984": "Suicune (Lvl 96 Cooltrainer Yoru)",
-        "1985": "Floette-Eternal (Lvl 96 Cooltrainer Yoru)",
-        "1986": "Floette-Eternal-Mega (Lvl 96 Cooltrainer Yoru)",
-        "1987": "Iron Moth (Lvl 96 Cooltrainer Yoru)",
-        "1988": "Arceus-Psychic (Lvl 97 Cooltrainer Yoru)",
-        "1989": "Inteleon (Lvl 96 Expert Niklas)",
-        "1990": "Hydrapple (Lvl 96 Expert Niklas)",
-        "1991": "Urshifu (Lvl 97 Expert Niklas)",
-        "1992": "Togekiss (Lvl 96 Expert Niklas)",
-        "1993": "Hippowdon (Lvl 97 Expert Niklas)",
-        "1994": "Lucario (Lvl 98 Expert Niklas)",
-        "1995": "Lucario-Mega-Z (Lvl 98 Expert Niklas)",
-        "1996": "Torkoal (Lvl 96 Kindler Kos)",
-        "1997": "Flutter Mane (Lvl 96 Kindler Kos)",
-        "1998": "Volcarona (Lvl 98 Kindler Kos)",
-        "1999": "Venusaur (Lvl 97 Kindler Kos)",
-        "2000": "Aerodactyl (Lvl 96 Kindler Kos)",
-        "2001": "Aerodactyl-Mega (Lvl 96 Kindler Kos)",
-        "2002": "Nidoking (Lvl 97 Kindler Kos)",
-        "2003": "Deoxys-Speed (Lvl 97 Youngster Des)",
-        "2004": "Kingambit (Lvl 96 Youngster Des)",
-        "2005": "Blaziken (Lvl 98 Youngster Des)",
-        "2006": "Blaziken-Mega (Lvl 98 Youngster Des)",
-        "2007": "Gholdengo (Lvl 96 Youngster Des)",
-        "2008": "Bellibolt (Lvl 97 Youngster Des)",
-        "2009": "Garchomp (Lvl 99 Youngster Des)",
-        "2010": "Klefki (Lvl 97 Pokémon Trainer Leaf2 )",
-        "2011": "Weavile (Lvl 98 Pokémon Trainer Leaf2 )",
-        "2012": "Mismagius (Lvl 97 Pokémon Trainer Leaf2 )",
-        "2013": "Sceptile (Lvl 99 Pokémon Trainer Leaf2 )",
-        "2014": "Sceptile-Mega (Lvl 99 Pokémon Trainer Leaf2 )",
-        "2015": "Deoxys-Attack (Lvl 99 Pokémon Trainer Leaf2 )",
-        "2016": "Sneasler (Lvl 98 Pokémon Trainer Leaf2 )",
-        "2017": "Tapu Koko (Lvl 99 Twins Ame&Yuki)",
-        "2018": "Swampert (Lvl 98 Twins Ame&Yuki)",
-        "2019": "Swampert-Mega (Lvl 98 Twins Ame&Yuki)",
-        "2020": "Basculegion-F (Lvl 98 Twins Ame&Yuki)",
-        "2021": "Hydreigon (Lvl 99 Twins Ame&Yuki)",
-        "2022": "Chesnaught (Lvl 98 Twins Ame&Yuki)",
-        "2023": "Zapdos (Lvl 99 Twins Ame&Yuki)",
-        "2024": "Glalie (Lvl 99 Ex Elite Four Glacia2 )",
-        "2025": "Glalie-Mega (Lvl 99 Ex Elite Four Glacia2 )",
-        "2026": "Mamoswine (Lvl 99 Ex Elite Four Glacia2 )",
-        "2027": "Kyurem-White (Lvl 98 Ex Elite Four Glacia2 )",
-        "2028": "Arctovish (Lvl 99 Ex Elite Four Glacia2 )",
-        "2029": "Kommo-o (Lvl 99 Ex Elite Four Glacia2 )",
-        "2030": "Calyrex-Ice (Lvl 100 Ex Elite Four Glacia2 )",
-        "2031": "Obstagoon (Lvl 100 Rival Wally1 )",
-        "2032": "Mandibuzz (Lvl 99 Rival Wally1 )",
-        "2033": "Flygon (Lvl 97 Rival Wally1 )",
-        "2034": "Marshadow (Lvl 97 Rival Wally1 )",
-        "2035": "Roserade (Lvl 98 Rival Wally1 )",
-        "2036": "Gardevoir (Lvl 100 Rival Wally1 )",
-        "2037": "Gardevoir-Mega (Lvl 100 Rival Wally1 )",
-        "2038": "Obstagoon (Lvl 100 Rival Wally2 )",
-        "2039": "Braviary (Lvl 99 Rival Wally2 )",
-        "2040": "Flygon (Lvl 97 Rival Wally2 )",
-        "2041": "Magearna (Lvl 97 Rival Wally2 )",
-        "2042": "Roserade (Lvl 98 Rival Wally2 )",
-        "2043": "Gallade (Lvl 100 Rival Wally2 )",
-        "2044": "Gallade-Mega (Lvl 100 Rival Wally2 )",
-        "2045": "Obstagoon (Lvl 100 Rival Wally3 )",
-        "2046": "Swanna (Lvl 99 Rival Wally3 )",
-        "2047": "Garchomp (Lvl 97 Rival Wally3 )",
-        "2048": "Garchomp-Mega-Z (Lvl 97 Rival Wally3 )",
-        "2049": "Meloetta (Lvl 97 Rival Wally3 )",
-        "2050": "Roserade (Lvl 98 Rival Wally3 )",
-        "2051": "Iron Valiant (Lvl 100 Rival Wally3 )",
-        "2052": "Ting-Lu (Lvl 100 Adventurer Brandon1 )",
-        "2053": "Iron Treads (Lvl 99 Adventurer Brandon1 )",
-        "2054": "Ursaluna-Bloodmoon (Lvl 99 Adventurer Brandon1 )",
-        "2055": "Toedscruel (Lvl 99 Adventurer Brandon1 )",
-        "2056": "Swampert (Lvl 99 Adventurer Brandon1 )",
-        "2057": "Zygarde (Lvl 99 Adventurer Brandon1 )",
-        "2058": "Zygarde-Mega (Lvl 99 Adventurer Brandon1 )",
-        "2059": "Ting-Lu (Lvl 100 Adventurer Brandon2 )",
-        "2060": "Great Tusk (Lvl 99 Adventurer Brandon2 )",
-        "2061": "Ursaluna-Bloodmoon (Lvl 99 Adventurer Brandon2 )",
-        "2062": "Toedscruel (Lvl 99 Adventurer Brandon2 )",
-        "2063": "Swampert (Lvl 99 Adventurer Brandon2 )",
-        "2064": "Zygarde (Lvl 99 Adventurer Brandon2 )",
-        "2065": "Zygarde-Mega (Lvl 99 Adventurer Brandon2 )",
-        "2066": "Vikavolt (Lvl 99 Naturalist Greta1 )",
-        "2067": "Pheromosa (Lvl 100 Naturalist Greta1 )",
-        "2068": "Scizor (Lvl 99 Naturalist Greta1 )",
-        "2069": "Scizor-Mega (Lvl 99 Naturalist Greta1 )",
-        "2070": "Kleavor (Lvl 99 Naturalist Greta1 )",
-        "2071": "Golisopod (Lvl 100 Naturalist Greta1 )",
-        "2072": "Arceus-Bug (Lvl 99 Naturalist Greta1 )",
-        "2073": "Leavanny (Lvl 99 Naturalist Greta2 )",
-        "2074": "Pheromosa (Lvl 100 Naturalist Greta2 )",
-        "2075": "Scizor (Lvl 99 Naturalist Greta2 )",
-        "2076": "Kleavor (Lvl 99 Naturalist Greta2 )",
-        "2077": "Golisopod (Lvl 100 Naturalist Greta2 )",
-        "2078": "Golisopod-Mega (Lvl 100 Naturalist Greta2 )",
-        "2079": "Arceus-Ground (Lvl 99 Naturalist Greta2 )",
-        "2080": "Rillaboom (Lvl 99 Natural Guru Spenser1 )",
-        "2081": "Kartana (Lvl 99 Natural Guru Spenser1 )",
-        "2082": "Shiftry (Lvl 99 Natural Guru Spenser1 )",
-        "2083": "Ogerpon-Cornerstone (Lvl 100 Natural Guru Spenser1 )",
-        "2084": "Venusaur (Lvl 100 Natural Guru Spenser1 )",
-        "2085": "Venusaur-Mega (Lvl 100 Natural Guru Spenser1 )",
-        "2086": "Arceus-Grass (Lvl 100 Natural Guru Spenser1 )",
-        "2087": "Rillaboom (Lvl 99 Natural Guru Spenser2 )",
-        "2088": "Kartana (Lvl 99 Natural Guru Spenser2 )",
-        "2089": "Meowscarada (Lvl 99 Natural Guru Spenser2 )",
-        "2090": "Ogerpon-Cornerstone (Lvl 100 Natural Guru Spenser2 )",
-        "2091": "Venusaur (Lvl 100 Natural Guru Spenser2 )",
-        "2092": "Venusaur-Mega (Lvl 100 Natural Guru Spenser2 )",
-        "2093": "Arceus-Water (Lvl 100 Natural Guru Spenser2 )",
-        "2094": "Seviper (Lvl 99 Battle Queen Lucy1 )",
-        "2095": "Muk-Alola (Lvl 99 Battle Queen Lucy1 )",
-        "2096": "Crobat (Lvl 100 Battle Queen Lucy1 )",
-        "2097": "Munkidori (Lvl 100 Battle Queen Lucy1 )",
-        "2098": "Gengar (Lvl 100 Battle Queen Lucy1 )",
-        "2099": "Gengar-Mega (Lvl 100 Battle Queen Lucy1 )",
-        "2100": "Eternatus-Eternamax (Lvl 100 Battle Queen Lucy1 )",
-        "2101": "Seviper (Lvl 99 Battle Queen Lucy2 )",
-        "2102": "Muk-Alola (Lvl 99 Battle Queen Lucy2 )",
-        "2103": "Crobat (Lvl 100 Battle Queen Lucy2 )",
-        "2104": "Munkidori (Lvl 100 Battle Queen Lucy2 )",
-        "2105": "Gengar (Lvl 100 Battle Queen Lucy2 )",
-        "2106": "Gengar-Mega (Lvl 100 Battle Queen Lucy2 )",
-        "2107": "Eternatus-Eternamax (Lvl 100 Battle Queen Lucy2 )",
-        "2108": "Carbink (Lvl 99 Superstar Tucker1 )",
-        "2109": "Iron Valiant (Lvl 100 Superstar Tucker1 )",
-        "2110": "Primarina (Lvl 100 Superstar Tucker1 )",
-        "2111": "Magearna (Lvl 100 Superstar Tucker1 )",
-        "2112": "Magearna-Mega (Lvl 100 Superstar Tucker1 )",
-        "2113": "Mimikyu (Lvl 100 Superstar Tucker1 )",
-        "2114": "Xerneas (Lvl 100 Superstar Tucker1 )",
-        "2115": "Carbink (Lvl 99 Superstar Tucker2 )",
-        "2116": "Iron Valiant (Lvl 100 Superstar Tucker2 )",
-        "2117": "Primarina (Lvl 100 Superstar Tucker2 )",
-        "2118": "Mawile (Lvl 100 Superstar Tucker2 )",
-        "2119": "Mawile-Mega (Lvl 100 Superstar Tucker2 )",
-        "2120": "Mimikyu (Lvl 100 Superstar Tucker2 )",
-        "2121": "Xerneas (Lvl 100 Superstar Tucker2 )",
-        "2122": "Groudon (Lvl 100 Trainer Maxie)",
-        "2123": "Rotom-Heat (Lvl 100 Trainer Maxie)",
-        "2124": "Jirachi (Lvl 100 Trainer Maxie)",
-        "2125": "Camerupt (Lvl 100 Trainer Maxie)",
-        "2126": "Camerupt-Mega (Lvl 100 Trainer Maxie)",
-        "2127": "Walking Wake (Lvl 100 Trainer Archie)",
-        "2128": "Kyogre (Lvl 100 Trainer Archie)",
-        "2129": "Brute Bonnet (Lvl 100 Trainer Archie)",
-        "2130": "Sharpedo (Lvl 100 Trainer Archie)",
-        "2131": "Sharpedo-Mega (Lvl 100 Trainer Archie)",
-        "2132": "Nihilego (Lvl 100 Teacher Anabel)",
-        "2133": "Salamence (Lvl 100 Teacher Anabel)",
-        "2134": "Tsareena (Lvl 100 Teacher Anabel)",
-        "2135": "Mismagius (Lvl 100 Teacher Anabel)",
-        "2136": "Snorlax (Lvl 100 Teacher Anabel)",
-        "2137": "Mewtwo (Lvl 100 Teacher Anabel)",
-        "2138": "Mewtwo-Mega-Y (Lvl 100 Teacher Anabel)",
-        "2139": "Necrozma-Dawn-Wings (Lvl 100 Frontier Head Noland)",
-        "2140": "Metagross (Lvl 100 Frontier Head Noland)",
-        "2141": "Articuno (Lvl 100 Frontier Head Noland)",
-        "2142": "Mawile (Lvl 100 Frontier Head Noland)",
-        "2143": "Slaking (Lvl 100 Frontier Head Noland)",
-        "2144": "Mewtwo (Lvl 100 Frontier Head Noland)",
-        "2145": "Mewtwo-Mega-X (Lvl 100 Frontier Head Noland)",
-        "2146": "Greninja (Lvl 100 Elite Four Sidney Singles)",
-        "2147": "Greninja-Mega (Lvl 100 Elite Four Sidney Singles)",
-        "2148": "Overqwil (Lvl 100 Elite Four Sidney Singles)",
-        "2149": "Grimmsnarl (Lvl 100 Elite Four Sidney Singles)",
-        "2150": "Chi-Yu (Lvl 100 Elite Four Sidney Singles)",
-        "2151": "Yveltal (Lvl 100 Elite Four Sidney Singles)",
-        "2152": "Kingambit (Lvl 100 Elite Four Sidney Singles)",
-        "2153": "Scrafty (Lvl 100 Elite Four Sidney Doubles)",
-        "2154": "Chien-Pao (Lvl 100 Elite Four Sidney Doubles)",
-        "2155": "Overqwil (Lvl 100 Elite Four Sidney Doubles)",
-        "2156": "Yveltal (Lvl 100 Elite Four Sidney Doubles)",
-        "2157": "Gyarados (Lvl 100 Elite Four Sidney Doubles)",
-        "2158": "Gyarados-Mega (Lvl 100 Elite Four Sidney Doubles)",
-        "2159": "Kingambit (Lvl 100 Elite Four Sidney Doubles)",
-        "2160": "Zoroark-Hisui (Lvl 100 Elite Four Phoebe Singles)",
-        "2161": "Chandelure (Lvl 100 Elite Four Phoebe Singles)",
-        "2162": "Chandelure-Mega (Lvl 100 Elite Four Phoebe Singles)",
-        "2163": "Sneasler (Lvl 100 Elite Four Phoebe Singles)",
-        "2164": "Flutter Mane (Lvl 100 Elite Four Phoebe Singles)",
-        "2165": "Marowak (Lvl 100 Elite Four Phoebe Singles)",
-        "2166": "Giratina-Origin (Lvl 100 Elite Four Phoebe Singles)",
-        "2167": "Infernape (Lvl 100 Elite Four Phoebe Doubles)",
-        "2168": "Gengar (Lvl 100 Elite Four Phoebe Doubles)",
-        "2169": "Gengar-Mega (Lvl 100 Elite Four Phoebe Doubles)",
-        "2170": "Sinistcha (Lvl 100 Elite Four Phoebe Doubles)",
-        "2171": "Calyrex-Shadow (Lvl 100 Elite Four Phoebe Doubles)",
-        "2172": "Marowak (Lvl 100 Elite Four Phoebe Doubles)",
-        "2173": "Flutter Mane (Lvl 100 Elite Four Phoebe Doubles)",
-        "2174": "Samurott-Hisui (Lvl 100 Elite Four Rival Singles)",
-        "2175": "Ogerpon-Hearthflame (Lvl 100 Elite Four Rival Singles)",
-        "2176": "Great Tusk (Lvl 100 Elite Four Rival Singles)",
-        "2177": "Silvally-Flying (Lvl 100 Elite Four Rival Singles)",
-        "2178": "Mewtwo (Lvl 100 Elite Four Rival Singles)",
-        "2179": "Lucario (Lvl 100 Elite Four Rival Singles)",
-        "2180": "Lucario-Mega (Lvl 100 Elite Four Rival Singles)",
-        "2181": "Iron Hands (Lvl 100 Elite Four Rival Doubles)",
-        "2182": "Ogerpon-Wellspring (Lvl 100 Elite Four Rival Doubles)",
-        "2183": "Incineroar (Lvl 100 Elite Four Rival Doubles)",
-        "2184": "Silvally-Fairy (Lvl 100 Elite Four Rival Doubles)",
-        "2185": "Mewtwo (Lvl 100 Elite Four Rival Doubles)",
-        "2186": "Lucario (Lvl 100 Elite Four Rival Doubles)",
-        "2187": "Lucario-Mega (Lvl 100 Elite Four Rival Doubles)",
-        "2188": "Aerodactyl (Lvl 100 Elite Four Drake Singles)",
-        "2189": "Gouging Fire (Lvl 100 Elite Four Drake Singles)",
-        "2190": "Dialga (Lvl 100 Elite Four Drake Singles)",
-        "2191": "Primarina (Lvl 100 Elite Four Drake Singles)",
-        "2192": "Roaring Moon (Lvl 100 Elite Four Drake Singles)",
-        "2193": "Dragonite (Lvl 100 Elite Four Drake Singles)",
-        "2194": "Dragonite-Mega (Lvl 100 Elite Four Drake Singles)",
-        "2195": "Sceptile (Lvl 100 Elite Four Drake Doubles)",
-        "2196": "Kingdra (Lvl 100 Elite Four Drake Doubles)",
-        "2197": "Tyranitar (Lvl 100 Elite Four Drake Doubles)",
-        "2198": "Miraidon (Lvl 100 Elite Four Drake Doubles)",
-        "2199": "Arcanine (Lvl 100 Elite Four Drake Doubles)",
-        "2200": "Salamence (Lvl 100 Elite Four Drake Doubles)",
-        "2201": "Salamence-Mega (Lvl 100 Elite Four Drake Doubles)",
-        "2202": "Palkia-Origin (Lvl 100 Champion Wallace)",
-        "2203": "Dhelmise (Lvl 100 Champion Wallace)",
-        "2204": "Genesect-Douse (Lvl 100 Champion Wallace)",
-        "2205": "Diancie (Lvl 100 Champion Wallace)",
-        "2206": "Diancie-Mega (Lvl 100 Champion Wallace)",
-        "2207": "Volcanion (Lvl 100 Champion Wallace)",
-        "2208": "Milotic (Lvl 100 Champion Wallace)"
     }
 }
