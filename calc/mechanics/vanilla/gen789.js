@@ -3,10 +3,10 @@ exports.__esModule = true;
 
 if (["Pokemon Null"].includes(TITLE)) {
     console.log("Loading Baseline Gen 789 mechanics")
-    var util_1 = require("../util");
-    var items_1 = require("../items");
-    var result_1 = require("../result");
-    var util_2 = require("./util");
+    var util_1 = require("../../util");
+    var items_1 = require("../../items");
+    var result_1 = require("../../result");
+    var util_2 = require("../util");
     function calculateSMSSSV(gen, attacker, defender, move, field) {
         (0, util_2.checkAirLock)(attacker, field);
         (0, util_2.checkAirLock)(defender, field);
@@ -477,11 +477,57 @@ if (["Pokemon Null"].includes(TITLE)) {
         desc.attackBoost =
             move.named('Foul Play') ? defender.boosts[attackStat] : attacker.boosts[attackStat];
         result.damage = childDamage ? [damage, childDamage] : damage;
+        if (move.hits > 1) {
+            var origDefBoost = desc.defenseBoost;
+            var origAtkBoost = desc.attackBoost;
+            var usedItems = [false, false];
+            var damageMatrix = [damage];
+            for (var times = 1; times < move.hits; times++) {
+                usedItems = (0, util_2.checkMultihitBoost)(gen, attacker, defender, move, field, desc, usedItems[0], usedItems[1]);
+                var newAttack = calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
+                var newDefense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
+                hasAteAbilityTypeChange = hasAteAbilityTypeChange &&
+                    attacker.hasAbility('Aerilate', 'Galvanize', 'Pixilate', 'Refrigerate', 'Normalize');
+                var newBasePower = calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc, times + 1);
+                var newBaseDamage = (0, util_2.getBaseDamage)(attacker.level, newBasePower, newAttack, newDefense);
+                if (isSpread) {
+                    newBaseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(newBaseDamage * 3072) / 4096);
+                }
+                if (attacker.hasAbility('Parental Bond (Child)')) {
+                    newBaseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(newBaseDamage * 1024) / 4096);
+                }
+                if (!noWeatherBoost &&
+                    ((field.hasWeather('Sun', 'Harsh Sunshine') && move.hasType('Fire')) ||
+                        (field.hasWeather('Rain', 'Heavy Rain') && move.hasType('Water')))) {
+                    newBaseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(newBaseDamage * 6144) / 4096);
+                }
+                else if (!noWeatherBoost &&
+                    ((field.hasWeather('Sun') && move.hasType('Water')) ||
+                        (field.hasWeather('Rain') && move.hasType('Fire')))) {
+                    newBaseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(newBaseDamage * 2048) / 4096);
+                }
+                if (isCritical) {
+                    newBaseDamage = Math.floor((0, util_2.OF32)(newBaseDamage * 1.5));
+                }
+                var newFinalMods = calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical, typeEffectiveness, times);
+                var newFinalMod = (0, util_2.chainMods)(newFinalMods, 41, 131072);
+                var damageArray = [];
+                for (var i = 0; i < 16; i++) {
+                    var newFinalDamage = (0, util_2.getFinalDamage)(newBaseDamage, i, typeEffectiveness, applyBurn, stabMod, newFinalMod, protect);
+                    damageArray[i] = newFinalDamage;
+                }
+                damageMatrix[times] = damageArray;
+            }
+            result.damage = damageMatrix;
+            desc.defenseBoost = origDefBoost;
+            desc.attackBoost = origAtkBoost;
+        }
         return result;
     }
     exports.calculateSMSSSV = calculateSMSSSV;
-    function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc) {
+    function calculateBasePowerSMSSSV(gen, attacker, defender, move, field, hasAteAbilityTypeChange, desc, hit) {
         var _a;
+        if (hit === void 0) { hit = 1; }
         var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
         var basePower;
         switch (move.name) {
@@ -633,12 +679,12 @@ if (["Pokemon Null"].includes(TITLE)) {
                 desc.moveBP = basePower;
                 break;
             case 'Triple Axel':
-                basePower = move.hits === 2 ? 30 : move.hits === 3 ? 40 : 20;
-                desc.moveBP = basePower;
+                basePower = hit * 20;
+                desc.moveBP = move.hits === 2 ? 60 : move.hits === 3 ? 120 : 20;
                 break;
             case 'Triple Kick':
-                basePower = move.hits === 2 ? 30 : move.hits === 3 ? 40 : 20;
-                desc.moveBP = basePower;
+                basePower = hit * 20;
+                desc.moveBP = move.hits === 2 ? 60 : move.hits === 3 ? 120 : 20;
                 break;
             case 'Crush Grip':
             case 'Wring Out':
@@ -1149,8 +1195,9 @@ if (["Pokemon Null"].includes(TITLE)) {
         return dfMods;
     }
     exports.calculateDfModsSMSSSV = calculateDfModsSMSSSV;
-    function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical, typeEffectiveness) {
+    function calculateFinalModsSMSSSV(gen, attacker, defender, move, field, desc, isCritical, typeEffectiveness, hitCount) {
         if (isCritical === void 0) { isCritical = false; }
+        if (hitCount === void 0) { hitCount = 0; }
         var finalMods = [];
         if (field.defenderSide.isReflect && move.category === 'Physical' &&
             !isCritical && !field.defenderSide.isAuroraVeil) {
@@ -1183,6 +1230,7 @@ if (["Pokemon Null"].includes(TITLE)) {
         }
         if (defender.hasAbility('Multiscale', 'Shadow Shield') &&
             defender.curHP() === defender.maxHP() &&
+            hitCount === 0 &&
             !field.defenderSide.isSR && (!field.defenderSide.spikes || defender.hasType('Flying')) &&
             !attacker.hasAbility('Parental Bond (Child)')) {
             finalMods.push(2048);
@@ -1229,6 +1277,7 @@ if (["Pokemon Null"].includes(TITLE)) {
         }
         if (move.hasType((0, items_1.getBerryResistType)(defender.item)) &&
             (typeEffectiveness > 1 || move.hasType('Normal')) &&
+            hitCount === 0 &&
             !attacker.hasAbility('Unnerve', 'As One (Glastrier)', 'As One (Spectrier)')) {
             if (defender.hasAbility('Ripen')) {
                 finalMods.push(1024);
