@@ -1,5 +1,3 @@
-
-
 if (TITLE.includes("Imperium")) {
     let fileHandle = null;
     let lastContents = null;

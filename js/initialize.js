@@ -409,6 +409,8 @@ function setBaseGame(title) {
       }
     } else if (title.includes("Gold") || title.includes("Silver")) {
       window.baseGame = "HGSS"
+    } else if (title.includes("Null")) {
+        window.baseGame = "null"
     }
 
     if (title.includes("Radical Red") || title.includes("Emerald Imperium")) {
