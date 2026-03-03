@@ -398,7 +398,7 @@ function setBaseGame(title) {
           $('.trainer-pok-list.opposing').addClass('ai-show')
         }
         $('#sync-lua').show()
-    } else if (TITLE == "Renegade Platinum") {
+    } else if (TITLE.includes("Platinum") ) {
       baseGame = "Pt"
     } else if (TITLE.includes(" Black") || TITLE.includes(" White")) {
       baseGame = "BW"
