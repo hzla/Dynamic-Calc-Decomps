@@ -31299,7 +31299,7 @@ backup_data = {
         "Hakamo-o": {
             "Lvl 28 Root Academy Trainer #4 Slot3 ": {
                 "level": 28,
-                "ability": "Skill Link",
+                "ability": "Bulletproof",
                 "moves": [
                     "Scale Shot",
                     "Focus Punch",

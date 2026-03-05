@@ -202,7 +202,13 @@ function getMoveEffectiveness(gen, move, type, isGhostRevealed, isGravity, isRin
     else if ((isRingTarget || isGravity) && type === 'Flying' && move.hasType('Ground')) {
         return 1;
     }
-    else if (isCorrosion && type === 'Steel' && move.hasType('Poison')) {
+    else if ((isRingTarget) && type === 'Fairy' && move.hasType('Dragon')) {
+        return 1;
+    }
+    else if ((isRingTarget) && type === 'Ground' && move.hasType('Electric')) {
+        return 1;
+    }
+    else if ((isCorrosion || isRingTarget) && type === 'Steel' && move.hasType('Poison')) {
         return 1;
     }
     else if (move.named('Freeze-Dry') && type === 'Water') {
