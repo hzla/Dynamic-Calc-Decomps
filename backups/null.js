@@ -19617,7 +19617,7 @@ backup_data = {
             "category": "Physical"
         },
         "Fury Swipes": {
-            "basePower": 18,
+            "basePower": 20,
             "type": "Normal",
             "category": "Physical"
         },
@@ -23536,7 +23536,7 @@ backup_data = {
             "category": "Special"
         },
         "Snap Trap": {
-            "basePower": 80,
+            "basePower": 90,
             "type": "Grass",
             "category": "Physical"
         },
@@ -26892,7 +26892,7 @@ backup_data = {
         "Bronzor": {
             "Lvl 17 Root Academy Trainer #2 Slot3 ": {
                 "level": 17,
-                "ability": "Levitate",
+                "ability": "Aftermath",
                 "moves": [
                     "Psywave",
                     "Gyro Ball",
@@ -28035,7 +28035,7 @@ backup_data = {
         "Fidough": {
             "Lvl 22 Root Academy Trainer #3 Slot1 ": {
                 "level": 22,
-                "ability": "Own Tempo",
+                "ability": "Thick Fat",
                 "moves": [
                     "Fire Fang",
                     "Ice Fang",
@@ -35291,7 +35291,7 @@ backup_data = {
         "Primeape": {
             "Lvl 40 School Kid Karen": {
                 "level": 40,
-                "ability": "Defiant",
+                "ability": "Inner Focus",
                 "moves": [
                     "Drain Punch",
                     "Substitute",
@@ -36878,7 +36878,7 @@ backup_data = {
         "Misdreavus": {
             "Lvl 44 Picnicker Emi": {
                 "level": 44,
-                "ability": "Insomnia",
+                "ability": "Levitate",
                 "moves": [
                     "Ominous Wind",
                     "Inferno",

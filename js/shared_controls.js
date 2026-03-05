@@ -226,7 +226,7 @@ function showAbilityExtras(abilityObj) {
 	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Unburden', 'Stakeout', 'Teraform Zero', 'Bull Rush', 'Quill Rush', 'Illusion', 'Dauntless Shield', 'Intrepid Sword', 'Download'];
 
 	if (TITLE == "Pokemon Null") {
-		TOGGLE_ABILITIES.push("Keen Eye")
+		TOGGLE_ABILITIES.push("Illuminate")
 	}
 
 	if (TOGGLE_ABILITIES.indexOf(ability) >= 0) {
@@ -725,9 +725,10 @@ function refresh_next_in() {
 		
 
 		
-		if (TITLE.includes("1.3")) {
+		if (TITLE.includes("1.3") || TITLE == "Pokemon Null") {
 			pok += next_poks[i][5]
 		}
+
 		pok += `</div>`
 		
 		trpok_html += pok

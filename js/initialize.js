@@ -224,7 +224,7 @@ function setGameSettings(title) {
   } else if (title == "Pokemon Null") {
     gameGen = 8
     settings.damageGen = 8
-    settings.noSwitch = 1
+    // settings.noSwitch = 1
     settings.sourceType = "full"
     settings.typeChart = 6;
     settings.critGen = 6;
@@ -411,6 +411,12 @@ function setBaseGame(title) {
       window.baseGame = "HGSS"
     } else if (title.includes("Null")) {
         window.baseGame = "null"
+
+        $('#p2').addClass('poke-null')
+
+        if (localStorage.switchInfo == '1') {
+          $('.trainer-pok-list.opposing').addClass('ai-show')
+        }
     }
 
     if (title.includes("Radical Red") || title.includes("Emerald Imperium")) {

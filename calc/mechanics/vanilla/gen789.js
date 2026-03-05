@@ -28,8 +28,8 @@ if (["Pokemon Null"].includes(TITLE)) {
         (0, util_2.checkIntimidate)(gen, attacker, defender);
         (0, util_2.checkIntimidate)(gen, defender, attacker);
         if (TITLE == "Pokemon Null") {
-            (0, util_2.checkKeenEye)(gen, attacker, defender);
-            (0, util_2.checkKeenEye)(gen, defender, attacker);            
+            (0, util_2.checkIlluminate)(gen, attacker, defender);
+            (0, util_2.checkIlluminate)(gen, defender, attacker);            
         }
         (0, util_2.checkDownload)(attacker, defender, field.isWonderRoom);
         (0, util_2.checkDownload)(defender, attacker, field.isWonderRoom);

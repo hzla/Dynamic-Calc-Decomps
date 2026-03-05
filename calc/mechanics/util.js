@@ -348,13 +348,12 @@ function checkIntimidate(gen, source, target) {
 }
 exports.checkIntimidate = checkIntimidate;
 
-function checkKeenEye(gen, source, target) {
+function checkIlluminate(gen, source, target) {
     var blocked = target.hasAbility('Clear Body', 'White Smoke', 'Hyper Cutter', 'Full Metal Body', "Strong Body") ||
         (gen.num >= 8 && target.hasAbility('Inner Focus', 'Own Tempo', 'Oblivious', 'Scrappy')) ||
         target.hasItem('Clear Amulet');
 
-    console.log(source)
-    if (source.hasAbility('Keen Eye') && source.abilityOn && !blocked) {
+    if (source.hasAbility('Illuminate') && source.abilityOn && !blocked) {
         if (target.hasAbility('Contrary', 'Defiant', 'Guard Dog')) {
             target.boosts.spa = Math.min(6, target.boosts.spa + 1);
         }
@@ -370,7 +369,7 @@ function checkKeenEye(gen, source, target) {
     }
 }
 
-exports.checkKeenEye = checkKeenEye;
+exports.checkIlluminate = checkIlluminate;
 function checkDownload(source, target, wonderRoomActive) {
     var _a;
     if (source.hasAbility('Download', "Exploit") && source.abilityOn) {

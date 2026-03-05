@@ -241,6 +241,10 @@ input[type="file"] {
     min-height: 17px;
 }
 
+.poke-null .switch-infos, .poke-null .mu-info {
+    display: none !important;
+}
+
 .bp-info.nopp {
     text-decoration: line-through;
 }
