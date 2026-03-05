@@ -15,6 +15,8 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     (0, util_2.checkForecast)(defender, field.weather);
     (0, util_2.checkItem)(attacker, field.isMagicRoom);
     (0, util_2.checkItem)(defender, field.isMagicRoom);
+    (0, util_2.checkRawStatChanges)(attacker, field.attackerSide.isPowerTrick, field.isWonderRoom);
+    (0, util_2.checkRawStatChanges)(defender, field.defenderSide.isPowerTrick, field.isWonderRoom);
     (0, util_2.checkWonderRoom)(attacker, field.isWonderRoom);
     (0, util_2.checkWonderRoom)(defender, field.isWonderRoom);
     (0, util_2.checkSeedBoost)(attacker, field);

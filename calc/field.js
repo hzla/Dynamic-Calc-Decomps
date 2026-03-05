@@ -102,6 +102,7 @@ var Side = (function () {
         this.isBadgeSpeed = !!side.isBadgeSpeed;
         this.isBadgeSpec = !!side.isBadgeSpec;
         this.isFlowerGift = !!side.isFlowerGift;
+        this.isPowerTrick = !!side.isPowerTrick;
         this.isFriendGuard = !!side.isFriendGuard;
         this.isAuroraVeil = !!side.isAuroraVeil;
         this.isBattery = !!side.isBattery;

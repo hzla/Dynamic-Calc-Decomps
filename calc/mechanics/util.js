@@ -88,6 +88,17 @@ function getModifiedStat(stat, mod, gen) {
     stat = Math.floor(stat / modernGenBoostTable[6 + mod][denominator]);
     return stat;
 }
+function checkRawStatChanges(pokemon, powerTrickActive, wonderRoomActive) {
+    var _a, _b;
+    if (powerTrickActive) {
+        _a = __read([pokemon.rawStats.def, pokemon.rawStats.atk], 2), pokemon.rawStats.atk = _a[0], pokemon.rawStats.def = _a[1];
+    }
+    if (wonderRoomActive) {
+        _b = __read([pokemon.rawStats.spd, pokemon.rawStats.def], 2), pokemon.rawStats.def = _b[0], pokemon.rawStats.spd = _b[1];
+    }
+}
+exports.checkRawStatChanges = checkRawStatChanges;
+
 exports.getModifiedStat = getModifiedStat;
 function computeFinalStats(gen, attacker, defender, field) {
     var e_1, _a, e_2, _b;
@@ -779,20 +790,41 @@ function countBoosts(gen, boosts) {
     return sum;
 }
 exports.countBoosts = countBoosts;
-function getStatDescriptionText(gen, pokemon, stat, natureName) {
-    var nature = gen.natures.get((0, util_1.toID)(natureName));
+function getStatDescriptionText(gen, pokemon, stat, powerTrickActive, wonderRoomActive) {
+    var initialStat = stat;
+    if (wonderRoomActive) {
+        if (stat === 'def') {
+            stat = 'spd';
+        }
+        else if (stat === 'spd') {
+            stat = 'def';
+        }
+    }
+    if (powerTrickActive) {
+        if (stat === 'atk') {
+            stat = 'def';
+        }
+        else if (stat === 'def') {
+            stat = 'atk';
+        }
+    }
+    var nature = gen.natures.get((0, util_1.toID)(pokemon.nature));
     var desc = pokemon.evs[stat] +
         (stat === 'hp' || nature.plus === nature.minus ? ''
             : nature.plus === stat ? '+'
                 : nature.minus === stat ? '-'
                     : '') + ' ' +
-        stats_1.Stats.displayStat(stat);
+        stats_1.Stats.displayStat(initialStat);
+    if (stat !== initialStat) {
+        desc = desc + ' (' + stats_1.Stats.displayStat(stat) + ')';
+    }
     var iv = pokemon.ivs[stat];
     if (iv !== 31)
         desc += " ".concat(iv, " IVs");
     return desc;
 }
 exports.getStatDescriptionText = getStatDescriptionText;
+
 function handleFixedDamageMoves(attacker, move) {
     if (move.named('Seismic Toss', 'Night Shade')) {
         return attacker.level;

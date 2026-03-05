@@ -1598,7 +1598,7 @@ function createField() {
 	var isBattery = [$("#batteryL").prop("checked"), $("#batteryR").prop("checked")];
 	var isPowerSpot = [$("#powerSpotL").prop("checked"), $("#powerSpotR").prop("checked")];
 	var isFlowerGift = [$("#flowerGiftL").prop("checked"), $("#flowerGiftR").prop("checked")];
-	
+	var isPowerTrick = [$("#powerTrickL").prop("checked"), $("#powerTrickR").prop("checked")];
 	var is10Buff = [$("#is10BuffL").prop("checked"), $("#is10BuffR").prop("checked")];
 	var is15Buff = [$("#is15BuffL").prop("checked"), $("#is15BuffR").prop("checked")];
 	var is20Buff = [$("#is20BuffL").prop("checked"), $("#is20BuffR").prop("checked")];
@@ -1615,7 +1615,7 @@ function createField() {
 
 	var createSide = function (i) {
 		return new calc.Side({
-			spikes: spikes[i], isSR: isSR[i], steelsurge: steelsurge[i],
+			spikes: spikes[i], isSR: isSR[i], steelsurge: steelsurge[i], isPowerTrick: isPowerTrick[i],
 			vinelash: vinelash[i], wildfire: wildfire[i], cannonade: cannonade[i], volcalith: volcalith[i],
 			isReflect: isReflect[i], isLightScreen: isLightScreen[i],
 			isProtected: isProtected[i], isSeeded: isSeeded[i], isForesight: isForesight[i], isFlowerGift: isFlowerGift[i],
@@ -1780,13 +1780,13 @@ function clearField() {
 	$("#clear").prop("checked", true);
 	$("#clear-cascade").prop("checked", true);
 	$("#gscClear").prop("checked", true);
+	$("#magicroom").prop("checked", false);
+	$("#wonderroom").prop("checked", false);
 	$("#gravity").prop("checked", false);
 	$("#srL").prop("checked", false);
 	$("#srR").prop("checked", false);
 	$("#spikesL0").prop("checked", true);
 	$("#spikesR0").prop("checked", true);
-	$("#is0BuffL").prop("checked", true);
-	$("#is0BuffR").prop("checked", true);
 	$("#gscSpikesL").prop("checked", false);
 	$("#gscSpikesR").prop("checked", false);
 	$("#steelsurgeL").prop("checked", false);
@@ -1807,6 +1807,14 @@ function clearField() {
 	$("#protectR").prop("checked", false);
 	$("#leechSeedL").prop("checked", false);
 	$("#leechSeedR").prop("checked", false);
+	$("#flowerGiftL").prop("checked", false);
+	$("#flowerGiftR").prop("checked", false);
+	$("#powerTrickL").prop("checked", false);
+	$("#powerTrickR").prop("checked", false);
+	$("#steelySpiritL").prop("checked", false);
+	$("#steelySpiritR").prop("checked", false);
+	$("#saltCureL").prop("checked", false);
+	$("#saltCureR").prop("checked", false);
 	$("#foresightL").prop("checked", false);
 	$("#foresightR").prop("checked", false);
 	$("#helpingHandL").prop("checked", false);
@@ -1819,6 +1827,8 @@ function clearField() {
 	$("#auroraVeilR").prop("checked", false);
 	$("#batteryL").prop("checked", false);
 	$("#batteryR").prop("checked", false);
+	$("#powerSpotL").prop("checked", false);
+	$("#powerSpotR").prop("checked", false);
 	$("#switchingL").prop("checked", false);
 	$("#switchingR").prop("checked", false);
 	$("input:checkbox[name='terrain']").prop("checked", false);

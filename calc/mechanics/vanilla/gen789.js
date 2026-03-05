@@ -16,8 +16,8 @@ if (["Pokemon Null"].includes(TITLE)) {
         (0, util_2.checkForecast)(defender, field.weather);
         (0, util_2.checkItem)(attacker, field.isMagicRoom);
         (0, util_2.checkItem)(defender, field.isMagicRoom);
-        (0, util_2.checkWonderRoom)(attacker, field.isWonderRoom);
-        (0, util_2.checkWonderRoom)(defender, field.isWonderRoom);
+        (0, util_2.checkRawStatChanges)(attacker, field.attackerSide.isPowerTrick, field.isWonderRoom);
+        (0, util_2.checkRawStatChanges)(defender, field.defenderSide.isPowerTrick, field.isWonderRoom);
         (0, util_2.checkSeedBoost)(attacker, field);
         (0, util_2.checkSeedBoost)(defender, field);
         (0, util_2.checkDauntlessShield)(attacker, gen);
@@ -953,12 +953,6 @@ if (["Pokemon Null"].includes(TITLE)) {
                     ? 'spa'
                     : 'atk';
         desc.attackEVs = ""
-        if (field.attackerSide.isPowerTrick && !move.named('Foul Play') &&
-            move.category === 'Physical') {
-            desc.isPowerTrickAttacker = true;
-            attackSource.rawStats[attackStat] = move.named('Body Press')
-                ? attacker.rawStats.atk : attacker.rawStats.def;
-        }
         if (attackSource.boosts[attackStat] === 0 ||
             (isCritical && attackSource.boosts[attackStat] < 0)) {
             attack = attackSource.rawStats[attackStat];

@@ -41,6 +41,8 @@ function calculateDPP(gen, attacker, defender, move, field) {
     (0, util_1.checkForecast)(defender, field.weather);
     (0, util_1.checkItem)(attacker);
     (0, util_1.checkItem)(defender);
+    (0, util_2.checkRawStatChanges)(attacker, field.attackerSide.isPowerTrick, field.isWonderRoom);
+    (0, util_2.checkRawStatChanges)(defender, field.defenderSide.isPowerTrick, field.isWonderRoom);
     (0, util_1.checkIntimidate)(gen, attacker, defender);
     (0, util_1.checkIntimidate)(gen, defender, attacker);
     (0, util_1.checkDownload)(attacker, defender);
