@@ -4174,7 +4174,6 @@ var SV_PATCH = {
         category: 'Special',
         zp: 160,
         maxPower: 130,
-        secondaries: true,
         isSound: true
     },
     'Aqua Step': {

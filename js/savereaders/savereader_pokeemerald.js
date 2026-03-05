@@ -67,7 +67,10 @@ if (TITLE.includes("Imperium")) {
                           buffer = extractSaveState(buffer)  
                         }
                  
-                        buffer = new Uint8Array(buffer).buffer;
+                        buffer = new Uint8Array(buffer.slice(205168, 397312).slice(0, 157477)).buffer.slice(
+                            buffer.byteOffset,
+                            buffer.byteOffset + buffer.byteLength
+                        );
                         // buffer = new Uint8Array(buffer)
 
                     }
