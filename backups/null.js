@@ -27921,7 +27921,7 @@ backup_data = {
                     "Fake Out",
                     "Wood Hammer",
                     "Helping Hand",
-                    "Baby Doll Eyes"
+                    "Baby-Doll Eyes"
                 ],
                 "nature": "Brave",
                 "item": "Grass Gem",
@@ -30428,7 +30428,7 @@ backup_data = {
                     "Metal Claw",
                     "Covet",
                     "Ice Hammer",
-                    "Baby Doll Eyes"
+                    "Baby-Doll Eyes"
                 ],
                 "nature": "Jolly",
                 "item": "Berserk Gene",
@@ -31265,7 +31265,7 @@ backup_data = {
         "Sliggoo-Hisui": {
             "Lvl 28 Root Academy Trainer #4 Slot3 ": {
                 "level": 28,
-                "ability": "Shell Armor",
+                "ability": "Sap Sipper",
                 "moves": [
                     "Dragon Pulse",
                     "Acid Spray",

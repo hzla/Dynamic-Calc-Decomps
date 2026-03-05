@@ -4175,8 +4175,7 @@ var SV_PATCH = {
         zp: 160,
         maxPower: 130,
         secondaries: true,
-        isSound: true,
-        makesContact: true
+        isSound: true
     },
     'Aqua Step': {
         bp: 80,
