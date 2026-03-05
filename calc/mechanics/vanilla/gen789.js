@@ -57,6 +57,11 @@ if (["Pokemon Null"].includes(TITLE)) {
         if (move.category === 'Status' && !move.named('Nature Power')) {
             return result;
         }
+        if ((move.named('Shell Side Arm') || move.named('Draco Barrage')) &&
+            (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom) === 'Physical') {
+            move.category = 'Physical';
+            move.flags.contact = 1;
+        }
         var breaksProtect = move.breaksProtect || move.isZ || attacker.isDynamaxed ||
             (attacker.hasAbility('Unseen Fist') && move.flags.contact);
         if (field.defenderSide.isProtected && !breaksProtect) {
@@ -346,16 +351,16 @@ if (["Pokemon Null"].includes(TITLE)) {
             move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
         }
         var attackStat = move.named('Shell Side Arm') &&
-            (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical'
+            (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom) === 'Physical'
             ? 'atk'
             : move.named('Body Press')
-                ? 'def'
+                ? (field.isWonderRoom ? 'spd' : 'def')
                 : move.category === 'Special'
                     ? 'spa'
                     : 'atk';
         var defense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
         var hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical' ||
-            (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical');
+            (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom) === 'Physical');
         var defenseStat = hitsPhysical ? 'def' : 'spd';
         var baseDamage = (0, util_2.getBaseDamage)(attacker.level, basePower, attack, defense);
         var isSpread = field.gameType !== 'Singles' &&
@@ -478,8 +483,6 @@ if (["Pokemon Null"].includes(TITLE)) {
                 _loop_1(times);
             }
         }
-        desc.attackBoost =
-            move.named('Foul Play') ? defender.boosts[attackStat] : attacker.boosts[attackStat];
         result.damage = childDamage ? [damage, childDamage] : damage;
         if (move.hits > 1) {
             var origDefBoost = desc.defenseBoost;
@@ -945,16 +948,17 @@ if (["Pokemon Null"].includes(TITLE)) {
             move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
         }
         var attackStat = move.named('Shell Side Arm') &&
-            (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical'
+            (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom) === 'Physical'
             ? 'atk'
             : move.named('Body Press')
-                ? 'def'
+                ? (field.isWonderRoom ? 'spd' : 'def')
                 : move.category === 'Special'
                     ? 'spa'
                     : 'atk';
         desc.attackEVs = ""
-        if (attackSource.boosts[attackStat] === 0 ||
-            (isCritical && attackSource.boosts[attackStat] < 0)) {
+        var boosts = attackSource.boosts[attackStat];
+        if (boosts === 0 ||
+            (isCritical && boosts < 0)) {
             attack = attackSource.rawStats[attackStat];
         }
         else if (defender.hasAbility('Unaware')) {
@@ -962,8 +966,8 @@ if (["Pokemon Null"].includes(TITLE)) {
             desc.defenderAbility = defender.ability;
         }
         else {
-            attack = attackSource.stats[attackStat];
-            desc.attackBoost = attackSource.boosts[attackStat];
+            attack = (0, util_2.getModifiedStat)(attackSource.rawStats[attackStat], boosts);
+            desc.attackBoost = boosts;
         }
         if (attacker.hasAbility('Hustle') && move.category === 'Physical') {
             attack = (0, util_2.pokeRound)((attack * 3) / 2);
@@ -1087,15 +1091,16 @@ if (["Pokemon Null"].includes(TITLE)) {
         if (isCritical === void 0) { isCritical = false; }
         var defense;
         var hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical' ||
-            (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical');
+            (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom) === 'Physical');
         var defenseStat = hitsPhysical ? 'def' : 'spd';
         desc.defenseEVs = "";
-        if (field.defenderSide.isPowerTrick && hitsPhysical) {
+        if (field.defenderSide.isPowerTrick && (field.isWonderRoom !== hitsPhysical)) {
             desc.isPowerTrickDefender = true;
             defender.rawStats[defenseStat] = defender.rawStats.atk;
         }
-        if (defender.boosts[defenseStat] === 0 ||
-            (isCritical && defender.boosts[defenseStat] > 0) ||
+        var boosts = defender.boosts[defenseStat];
+        if (boosts === 0 ||
+            (isCritical && boosts > 0) ||
             move.ignoreDefensive) {
             defense = defender.rawStats[defenseStat];
         }
@@ -1104,8 +1109,8 @@ if (["Pokemon Null"].includes(TITLE)) {
             desc.attackerAbility = attacker.ability;
         }
         else {
-            defense = defender.stats[defenseStat];
-            desc.defenseBoost = defender.boosts[defenseStat];
+            defense = (0, util_2.getModifiedStat)(defender.rawStats[defenseStat], boosts);
+            desc.defenseBoost = boosts;
         }
         if (field.hasWeather('Sand') && defender.hasType('Rock') && !hitsPhysical) {
             defense = (0, util_2.pokeRound)((defense * 3) / 2);

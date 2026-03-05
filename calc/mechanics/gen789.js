@@ -81,7 +81,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         move.flags.contact = 0;
     }
     if ( (move.named('Shell Side Arm') || move.named("Draco Barrage")) &&
-        (0, util_2.getShellSideArmCategory)(attacker, defender) === 'Physical') {
+        (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom) === 'Physical') {
         move.category = 'Physical';
         move.flags.contact = 1;
     }
@@ -410,7 +410,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         (move.named('Tera Blast') && attackSource.teraType)) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
-    var attackStat = move.named('Body Press') ? 'def' : move.category === 'Special' ? 'spa' : 'atk';
+    // var attackStat = move.named('Body Press') ? 'def' : move.category === 'Special' ? 'spa' : 'atk';
     var defense = calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCritical);
     var hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical';
     var defenseStat = hitsPhysical ? 'def' : 'spd';
@@ -461,8 +461,6 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         damage[i] =
             (0, util_2.getFinalDamage)(baseDamage, i, typeEffectiveness, applyBurn, stabMod, finalMod, protect, applyFrostbite);
     }
-    desc.attackBoost =
-        move.named('Foul Play') ? defender.boosts[attackStat] : attacker.boosts[attackStat];
     result.damage = childDamage ? [damage, childDamage] : damage;
     if (move.timesUsed > 1 || move.hits > 1) {
         var origDefBoost = desc.defenseBoost;
@@ -968,18 +966,23 @@ exports.calculateBPModsSMSSSV = calculateBPModsSMSSSV;
 function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCritical) {
     if (isCritical === void 0) { isCritical = false; }
     var attack;
+
     var attackSource = move.named('Foul Play') ? defender : attacker;
+    var attackStat = move.named('Body Press')
+        ? (field.isWonderRoom ? 'spd' : 'def')
+        : (move.category === 'Special' ? 'spa' : 'atk');
+
     if (move.named('Photon Geyser', 'Light That Burns the Sky') ||
         (move.named('Tera Blast') && attackSource.teraType)) {
         move.category = attackSource.stats.atk > attackSource.stats.spa ? 'Physical' : 'Special';
     }
-    var attackStat = move.named('Body Press') ? 'def' : move.category === 'Special' ? 'spa' : 'atk';
+    // var attackStat = move.named('Body Press') ? 'def' : move.category === 'Special' ? 'spa' : 'atk';
     desc.attackEVs =
         move.named('Foul Play')
             ? (0, util_2.getStatDescriptionText)(gen, defender, attackStat, defender.nature)
             : (0, util_2.getStatDescriptionText)(gen, attacker, attackStat, attacker.nature);
-    if (attackSource.boosts[attackStat] === 0 ||
-        (isCritical && attackSource.boosts[attackStat] < 0)) {
+    var boosts = attackSource.boosts[attackStat];
+    if (boosts === 0 || (isCritical && boosts < 0)) {
         attack = attackSource.rawStats[attackStat];
     }
     else if (defender.hasAbility('Unaware')) {
@@ -987,8 +990,8 @@ function calculateAttackSMSSSV(gen, attacker, defender, move, field, desc, isCri
         desc.defenderAbility = defender.ability;
     }
     else {
-        attack = (0, util_2.getModifiedStat)(attackSource.rawStats[attackStat], attackSource.boosts[attackStat]);
-        desc.attackBoost = attackSource.boosts[attackStat];
+        attack = (0, util_2.getModifiedStat)(attackSource.rawStats[attackStat], boosts);
+        desc.attackBoost = boosts;
     }
     if (attacker.hasAbility('Hustle') && move.category === 'Physical') {
         attack = (0, util_2.pokeRound)((attack * 3) / 2);
@@ -1133,19 +1136,23 @@ function calculateDefenseSMSSSV(gen, attacker, defender, move, field, desc, isCr
     var defense;
     var hitsPhysical = move.overrideDefensiveStat === 'def' || move.category === 'Physical';
     var defenseStat = hitsPhysical ? 'def' : 'spd';
-    desc.defenseEVs = (0, util_2.getStatDescriptionText)(gen, defender, defenseStat, defender.nature);
-    if (defender.boosts[defenseStat] === 0 ||
-        (isCritical && defender.boosts[defenseStat] > 0) ||
+    desc.defenseEVs = (0, util_2.getStatDescriptionText)(gen, defender, defenseStat, field.defenderSide.isPowerTrick, field.isWonderRoom);
+    if (field.defenderSide.isPowerTrick && (field.isWonderRoom !== hitsPhysical)) {
+        desc.isPowerTrickDefender = true;
+    }
+    var boosts = defender.boosts[defenseStat];
+    if (boosts === 0 ||
+        (isCritical && boosts > 0) ||
         move.ignoreDefensive) {
         defense = defender.rawStats[defenseStat];
     }
-    else if (attacker.hasAbility('Unaware')) {
+    else if (attacker.hasAbility('Unaware') || move.name === 'Nihil Light') {
         defense = defender.rawStats[defenseStat];
         desc.attackerAbility = attacker.ability;
     }
     else {
-        defense = (0, util_2.getModifiedStat)(defender.rawStats[defenseStat], defender.boosts[defenseStat]);
-        desc.defenseBoost = defender.boosts[defenseStat];
+        defense = (0, util_2.getModifiedStat)(defender.rawStats[defenseStat], boosts);
+        desc.defenseBoost = boosts;
     }
     if (field.hasWeather('Sand') && defender.hasType('Rock') && !hitsPhysical) {
         defense = (0, util_2.pokeRound)((defense * 3) / 2);

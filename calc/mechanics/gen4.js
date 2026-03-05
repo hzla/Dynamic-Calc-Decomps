@@ -41,8 +41,8 @@ function calculateDPP(gen, attacker, defender, move, field) {
     (0, util_1.checkForecast)(defender, field.weather);
     (0, util_1.checkItem)(attacker);
     (0, util_1.checkItem)(defender);
-    (0, util_2.checkRawStatChanges)(attacker, field.attackerSide.isPowerTrick, field.isWonderRoom);
-    (0, util_2.checkRawStatChanges)(defender, field.defenderSide.isPowerTrick, field.isWonderRoom);
+    (0, util_1.checkRawStatChanges)(attacker, field.attackerSide.isPowerTrick);
+    (0, util_1.checkRawStatChanges)(defender, field.defenderSide.isPowerTrick);
     (0, util_1.checkIntimidate)(gen, attacker, defender);
     (0, util_1.checkIntimidate)(gen, defender, attacker);
     (0, util_1.checkDownload)(attacker, defender);
@@ -324,23 +324,21 @@ function calculateDPP(gen, attacker, defender, move, field) {
         }
         var attackStat = isPhysical ? 'atk' : 'spa';
         desc.attackEVs = "";
-        var attack;
+        var attack = attacker.rawStats[attackStat];
         var attackBoost = attacker.boosts[attackStat];
-        var rawAttack = attacker.rawStats[attackStat];
-        if (attackBoost === 0 || (isCritical && attackBoost < 0)) {
-            attack = rawAttack;
+        if (field.attackerSide.isPowerTrick && isPhysical) {
+            desc.isPowerTrickAttacker = true;
         }
-        else if (defender.hasAbility('Unaware')) {
-            attack = rawAttack;
+        if (defender.hasAbility('Unaware')) {
             desc.defenderAbility = defender.ability;
         }
         else if (attacker.hasAbility('Simple')) {
-            attack = getSimpleModifiedStat(rawAttack, attackBoost);
+            attack = getSimpleModifiedStat(attack, attackBoost);
             desc.attackerAbility = attacker.ability;
             desc.attackBoost = attackBoost;
         }
-        else {
-            attack = (0, util_1.getModifiedStat)(rawAttack, attackBoost);
+        else if (attackBoost > 0 || (!isCritical && attackBoost < 0)) {
+            attack = (0, util_1.getModifiedStat)(attack, attackBoost);
             desc.attackBoost = attackBoost;
         }
         if (isPhysical && attacker.hasAbility('Pure Power', 'Huge Power')) {
@@ -386,23 +384,21 @@ function calculateDPP(gen, attacker, defender, move, field) {
         }
         var defenseStat = isPhysical ? 'def' : 'spd';
         desc.defenseEVs = "";
-        var defense;
+        var defense = defender.rawStats[defenseStat];
         var defenseBoost = defender.boosts[defenseStat];
-        var rawDefense = defender.rawStats[defenseStat];
-        if (defenseBoost === 0 || (isCritical && defenseBoost > 0)) {
-            defense = rawDefense;
+        if (field.defenderSide.isPowerTrick && isPhysical) {
+            desc.isPowerTrickDefender = true;
         }
-        else if (attacker.hasAbility('Unaware')) {
-            defense = rawDefense;
+        if (attacker.hasAbility('Unaware')) {
             desc.attackerAbility = attacker.ability;
         }
         else if (defender.hasAbility('Simple')) {
-            defense = getSimpleModifiedStat(rawDefense, defenseBoost);
+            defense = getSimpleModifiedStat(defense, defenseBoost);
             desc.defenderAbility = defender.ability;
             desc.defenseBoost = defenseBoost;
         }
-        else {
-            defense = (0, util_1.getModifiedStat)(rawDefense, defenseBoost);
+        else if (defenseBoost < 0 || (!isCritical && defenseBoost > 0)) {
+            defense = (0, util_1.getModifiedStat)(defense, defenseBoost);
             desc.defenseBoost = defenseBoost;
         }
         if (defender.hasAbility('Marvel Scale') && defender.status && isPhysical) {

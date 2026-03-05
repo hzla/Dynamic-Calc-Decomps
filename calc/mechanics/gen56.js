@@ -774,8 +774,11 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         var attackStat = move.named('Body Press') ? 'def' : move.category === 'Special' ? 'spa' : 'atk';
         desc.attackEVs =
             move.named('Foul Play')
-                ? (0, util_2.getStatDescriptionText)(gen, defender, attackStat, defender.nature)
-                : (0, util_2.getStatDescriptionText)(gen, attacker, attackStat, attacker.nature);
+                ? (0, util_2.getStatDescriptionText)(gen, attackSource, attackStat, field.defenderSide.isPowerTrick, field.isWonderRoom)
+                : (0, util_2.getStatDescriptionText)(gen, attackSource, attackStat, field.attackerSide.isPowerTrick, field.isWonderRoom);
+        if (field.attackerSide.isPowerTrick && move.category === 'Physical' && !move.named('Foul Play')) {
+            desc.isPowerTrickAttacker = true;
+        }
         if (attackSource.boosts[attackStat] === 0 ||
             (isCritical && attackSource.boosts[attackStat] < 0)) {
             attack = attackSource.rawStats[attackStat];
@@ -864,9 +867,13 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         var defense;
         var defenseStat = move.overrideDefensiveStat || move.category === 'Physical' ? 'def' : 'spd';
         var hitsPhysical = defenseStat === 'def';
-        desc.defenseEVs = (0, util_2.getStatDescriptionText)(gen, defender, defenseStat, defender.nature);
-        if (defender.boosts[defenseStat] === 0 ||
-            (isCritical && defender.boosts[defenseStat] > 0) ||
+        desc.defenseEVs = (0, util_2.getStatDescriptionText)(gen, defender, defenseStat, field.defenderSide.isPowerTrick, field.isWonderRoom);
+        if (field.defenderSide.isPowerTrick && (field.isWonderRoom !== hitsPhysical)) {
+            desc.isPowerTrickDefender = true;
+        }
+        var boosts = defender.boosts[defenseStat];
+        if (boosts === 0 ||
+            (isCritical && boosts > 0) ||
             move.ignoreDefensive) {
             defense = defender.rawStats[defenseStat];
         }
@@ -876,7 +883,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
         }
         else {
             defense = defender.stats[defenseStat];
-            desc.defenseBoost = defender.boosts[defenseStat];
+            desc.defenseBoost = boosts;
         }
         if (field.hasWeather('Sand') && defender.hasType('Rock') && !hitsPhysical) {
             defense = (0, util_2.pokeRound)((defense * 3) / 2);

@@ -700,9 +700,13 @@ function getFinalDamage(baseAmount, i, effectiveness, isBurned, stabMod, finalMo
     return OF16(pokeRound(Math.max(1, OF32(damageAmount * finalMod) / 4096)));
 }
 exports.getFinalDamage = getFinalDamage;
-function getShellSideArmCategory(source, target) {
+function getShellSideArmCategory(source, target, wonderRoomActive) {
     var physicalDamage = source.stats.atk / target.stats.def;
     var specialDamage = source.stats.spa / target.stats.spd;
+    if (wonderRoomActive) {
+        physicalDamage = source.stats.atk / target.stats.spd;
+        specialDamage = source.stats.spa / target.stats.def;
+    }
     return physicalDamage > specialDamage ? 'Physical' : 'Special';
 }
 exports.getShellSideArmCategory = getShellSideArmCategory;
