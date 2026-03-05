@@ -3415,7 +3415,7 @@ local terminator=0xFF
 local monNameLength=12
 local speciesNameLength=13
 local playerNameLength=10
-local boxMonSize=80
+local boxMonSize=84
 local partyMonSize=104
 local partyloc=0x2005370 --gPlayerParty
 local partyCount=0x200536d --gPlayerPartyCount
@@ -3515,7 +3515,8 @@ function readBoxMon(address)
 	mon.hasSpecies = (flags >> 1) & 1
 	mon.isEgg = (flags >> 2) & 1
 	mon.otName = toString(emu:readRange(address + 20, playerNameLength))
-	mon.markings = emu:read8(address + 27)
+	mon.markings = emu:read8(address + 29)
+	mon.checksum = emu:read16(address + 30)
 
 	local key = mon.otId ~ mon.personality
 	local substructSelector = {
@@ -3919,6 +3920,61 @@ local nextTrainerMovesetState = {
 	moveNameToId = nil,
 	defaultPp = 35,
 }
+
+local BOX_CREATE = {
+	slotCount = 120,
+	slotsPerBox = 30,
+	slotStride = 84,
+	secureOffset = 0x24, -- 36
+	flagsOffset = 0x13, -- 19
+	otNameOffset = 0x14, -- 20
+	markingsOffset = 0x1D, -- 29
+	checksumOffset = 0x1E, -- 30
+	boxUnknownOffset = 0x20, -- 32
+	substructSize = 12,
+	defaultLanguage = 2,
+	defaultFriendship = 70,
+	defaultPp = 35,
+	defaultLevel = 5,
+	defaultPokeball = 4,
+	defaultMetGame = 0,
+	defaultMetLocation = 0,
+	defaultOtGender = 0,
+	defaultIv = 31,
+}
+
+local BOX_SUBSTRUCT_SELECTOR = {
+	[ 0] = {0, 1, 2, 3},
+	[ 1] = {0, 1, 3, 2},
+	[ 2] = {0, 2, 1, 3},
+	[ 3] = {0, 3, 1, 2},
+	[ 4] = {0, 2, 3, 1},
+	[ 5] = {0, 3, 2, 1},
+	[ 6] = {1, 0, 2, 3},
+	[ 7] = {1, 0, 3, 2},
+	[ 8] = {2, 0, 1, 3},
+	[ 9] = {3, 0, 1, 2},
+	[10] = {2, 0, 3, 1},
+	[11] = {3, 0, 2, 1},
+	[12] = {1, 2, 0, 3},
+	[13] = {1, 3, 0, 2},
+	[14] = {2, 1, 0, 3},
+	[15] = {3, 1, 0, 2},
+	[16] = {2, 3, 0, 1},
+	[17] = {3, 2, 0, 1},
+	[18] = {1, 2, 3, 0},
+	[19] = {1, 3, 2, 0},
+	[20] = {2, 1, 3, 0},
+	[21] = {3, 1, 2, 0},
+	[22] = {2, 3, 1, 0},
+	[23] = {3, 2, 1, 0},
+}
+
+local BOX_NULL = rawget(_G, "BOX_NULL")
+if BOX_NULL == nil or type(BOX_NULL) ~= "table" then
+	BOX_NULL = {}
+	_G.BOX_NULL = BOX_NULL
+end
 
 local NULL_EXPORT = {
 	baseDir = "/Users/andylee/Repos/vsrecorder/PokemonNullBattleLogs",
@@ -4696,6 +4752,41 @@ local function writeU16LE(addr, value)
 	emu:write8(addr + 1, (v >> 8) & 0xFF)
 end
 
+local function writeU32LE(addr, value)
+	local v = (math.floor(tonumber(value) or 0)) & 0xFFFFFFFF
+	emu:write8(addr, v & 0xFF)
+	emu:write8(addr + 1, (v >> 8) & 0xFF)
+	emu:write8(addr + 2, (v >> 16) & 0xFF)
+	emu:write8(addr + 3, (v >> 24) & 0xFF)
+end
+
+local function writeByteArray(addr, bytes)
+	for i = 1, #bytes do
+		emu:write8(addr + (i - 1), bytes[i] & 0xFF)
+	end
+end
+
+local randomSeededForBoxCreate = false
+local function ensureRandomSeededForBoxCreate()
+	if randomSeededForBoxCreate then
+		return
+	end
+	local seed = (os.time() or 0) ~ ((os.clock() * 1000000) or 0) ~ (partyloc or 0)
+	math.randomseed(seed & 0x7FFFFFFF)
+	-- Burn a few values to avoid weak first outputs from some Lua RNGs.
+	math.random()
+	math.random()
+	math.random()
+	randomSeededForBoxCreate = true
+end
+
+local function randomU32()
+	ensureRandomSeededForBoxCreate()
+	local hi = math.random(0, 0xFFFF)
+	local lo = math.random(0, 0xFFFF)
+	return (((hi << 16) | lo) & 0xFFFFFFFF)
+end
+
 local function getFirstEnemySnapshot(runtime)
 	if not runtime or not runtime.snapshots then
 		return nil
@@ -4972,6 +5063,16 @@ local function normalizeMoveNameKey(text)
 	return s
 end
 
+local function isBoxNullSentinel(value)
+	if value == BOX_NULL then
+		return true
+	end
+	if type(value) == "string" then
+		return normalizeMoveNameKey(value) == "null"
+	end
+	return false
+end
+
 local function getMoveNameToIdMap()
 	if nextTrainerMovesetState.moveNameToId then
 		return nextTrainerMovesetState.moveNameToId
@@ -5035,6 +5136,1095 @@ local function parseMoveOverrideEntry(entry, slot)
 		return id, nil
 	end
 	return nil, string.format("slot %d invalid value type: %s", slot, entryType)
+end
+
+local itemNameToId = nil
+local natureNameToId = nil
+local speciesNameToId = nil
+local gameCharEncodeMap = nil
+
+local function getItemNameToIdMap()
+	if itemNameToId ~= nil then
+		return itemNameToId
+	end
+	local map = {}
+	for k, v in pairs(item) do
+		if type(k) == "number" and type(v) == "string" and v ~= "" then
+			local key = normalizeMoveNameKey(v)
+			if key ~= "" and map[key] == nil then
+				map[key] = k
+			end
+		end
+	end
+	itemNameToId = map
+	return map
+end
+
+local function getNatureNameToIdMap()
+	if natureNameToId ~= nil then
+		return natureNameToId
+	end
+	local map = {}
+	for i = 1, #nature do
+		local n = nature[i]
+		if type(n) == "string" and n ~= "" then
+			local key = normalizeMoveNameKey(n)
+			if key ~= "" and map[key] == nil then
+				map[key] = i - 1
+			end
+		end
+	end
+	natureNameToId = map
+	return map
+end
+
+local function getSpeciesNameToIdMap()
+	if speciesNameToId ~= nil then
+		return speciesNameToId
+	end
+	local map = {}
+	if type(mons) == "table" then
+		for k, v in pairs(mons) do
+			if type(k) == "number" and k > 0 and type(v) == "string" and v ~= "" then
+				local key = normalizeMoveNameKey(v)
+				if key ~= "" and map[key] == nil then
+					map[key] = k
+				end
+			end
+		end
+	end
+	speciesNameToId = map
+	return map
+end
+
+local function getGameCharEncodeMap()
+	if gameCharEncodeMap ~= nil then
+		return gameCharEncodeMap
+	end
+	local map = {}
+	for k, v in pairs(charmap) do
+		if type(k) == "number" and type(v) == "string" and v ~= "" and map[v] == nil then
+			map[v] = k
+		end
+	end
+	if map[" "] == nil then
+		map[" "] = 0
+	end
+	gameCharEncodeMap = map
+	return map
+end
+
+local function encodeGameText(text, maxLen)
+	local out = {}
+	for i = 1, maxLen do
+		out[i] = terminator
+	end
+	local str = tostring(text or "")
+	if str == "" then
+		return out
+	end
+	local enc = getGameCharEncodeMap()
+	local pos = 1
+	for i = 1, #str do
+		if pos > maxLen then
+			break
+		end
+		local ch = str:sub(i, i)
+		local code = enc[ch]
+		if code == nil then
+			code = enc[" "] or 0
+		end
+		out[pos] = code & 0xFF
+		pos = pos + 1
+	end
+	return out
+end
+
+local function parseIntegerInRange(value, minValue, maxValue, label)
+	local n = tonumber(value)
+	if n == nil then
+		return nil, string.format("%s must be a number", label)
+	end
+	n = math.floor(n)
+	if n < minValue or n > maxValue then
+		return nil, string.format("%s out of range (%d..%d): %s", label, minValue, maxValue, tostring(value))
+	end
+	return n, nil
+end
+
+local function parseBoxSlotSelector(slotValue)
+	if type(slotValue) == "string" then
+		local trimmed = slotValue:gsub("^%s+", ""):gsub("%s+$", "")
+		local boxText, slotText = trimmed:match("^[Bb][Oo][Xx]%s*(%d+)%s*:%s*(%d+)$")
+		if boxText and slotText then
+			local boxNum = tonumber(boxText)
+			local boxSlot = tonumber(slotText)
+			if boxNum == nil or boxSlot == nil then
+				return nil, "slotIndex box format parse failed"
+			end
+			local maxBoxes = math.floor(BOX_CREATE.slotCount / BOX_CREATE.slotsPerBox)
+			if boxNum < 1 or boxNum > maxBoxes then
+				return nil, string.format("box number out of range (1..%d): %s", maxBoxes, tostring(boxNum))
+			end
+			if boxSlot < 1 or boxSlot > BOX_CREATE.slotsPerBox then
+				return nil, string.format("box slot out of range (1..%d): %s", BOX_CREATE.slotsPerBox, tostring(boxSlot))
+			end
+			local globalSlot = ((boxNum - 1) * BOX_CREATE.slotsPerBox) + boxSlot
+			return globalSlot, nil
+		end
+	end
+	return parseIntegerInRange(slotValue, 1, BOX_CREATE.slotCount, "slotIndex")
+end
+
+local function resolveIvsForCreate(ivsValue)
+	local defaults = {
+		hp = BOX_CREATE.defaultIv,
+		atk = BOX_CREATE.defaultIv,
+		def = BOX_CREATE.defaultIv,
+		spa = BOX_CREATE.defaultIv,
+		spd = BOX_CREATE.defaultIv,
+		spe = BOX_CREATE.defaultIv,
+	}
+	if ivsValue == nil then
+		return defaults, nil
+	end
+	if type(ivsValue) ~= "table" then
+		return nil, "ivs must be a table (keys: hp/atk/def/spa/spd/spe or indices 1..6)"
+	end
+
+	local function ivFrom(value, label)
+		local n, err = parseIntegerInRange(value, 0, 31, label)
+		if n == nil then
+			return nil, err
+		end
+		return n, nil
+	end
+
+	local aliases = {
+		hp = "hp",
+		atk = "atk",
+		attack = "atk",
+		def = "def",
+		defense = "def",
+		spa = "spa",
+		spatk = "spa",
+		spattack = "spa",
+		spd = "spd",
+		spdef = "spd",
+		spdefense = "spd",
+		spe = "spe",
+		speed = "spe",
+	}
+
+	for k, v in pairs(ivsValue) do
+		if type(k) == "number" then
+			if k >= 1 and k <= 6 and k % 1 == 0 then
+				local order = { "hp", "atk", "def", "spa", "spd", "spe" }
+				local statKey = order[k]
+				local parsed, err = ivFrom(v, "ivs[" .. tostring(k) .. "]")
+				if parsed == nil then
+					return nil, err
+				end
+				defaults[statKey] = parsed
+			else
+				return nil, "ivs numeric indexes must be 1..6"
+			end
+		elseif type(k) == "string" then
+			local key = normalizeMoveNameKey(k)
+			local statKey = aliases[key]
+			if statKey == nil then
+				return nil, "unknown iv key: " .. tostring(k)
+			end
+			local parsed, err = ivFrom(v, "ivs." .. tostring(k))
+			if parsed == nil then
+				return nil, err
+			end
+			defaults[statKey] = parsed
+		else
+			return nil, "ivs keys must be strings or indexes 1..6"
+		end
+	end
+
+	return defaults, nil
+end
+
+local function resolveIvsPatchForEdit(ivsValue)
+	if isBoxNullSentinel(ivsValue) then
+		return {
+			hp = BOX_CREATE.defaultIv,
+			atk = BOX_CREATE.defaultIv,
+			def = BOX_CREATE.defaultIv,
+			spa = BOX_CREATE.defaultIv,
+			spd = BOX_CREATE.defaultIv,
+			spe = BOX_CREATE.defaultIv,
+		}, nil
+	end
+	if type(ivsValue) ~= "table" then
+		return nil, "ivs must be a table (keys: hp/atk/def/spa/spd/spe or indices 1..6)"
+	end
+
+	local patch = {}
+	local function ivFrom(value, label)
+		local n, err = parseIntegerInRange(value, 0, 31, label)
+		if n == nil then
+			return nil, err
+		end
+		return n, nil
+	end
+
+	local aliases = {
+		hp = "hp",
+		atk = "atk",
+		attack = "atk",
+		def = "def",
+		defense = "def",
+		spa = "spa",
+		spatk = "spa",
+		spattack = "spa",
+		spd = "spd",
+		spdef = "spd",
+		spdefense = "spd",
+		spe = "spe",
+		speed = "spe",
+	}
+	local any = false
+	for k, v in pairs(ivsValue) do
+		if type(k) == "number" then
+			if k >= 1 and k <= 6 and k % 1 == 0 then
+				local order = { "hp", "atk", "def", "spa", "spd", "spe" }
+				local statKey = order[k]
+				local parsed, err = ivFrom(v, "ivs[" .. tostring(k) .. "]")
+				if parsed == nil then
+					return nil, err
+				end
+				patch[statKey] = parsed
+				any = true
+			else
+				return nil, "ivs numeric indexes must be 1..6"
+			end
+		elseif type(k) == "string" then
+			local key = normalizeMoveNameKey(k)
+			local statKey = aliases[key]
+			if statKey == nil then
+				return nil, "unknown iv key: " .. tostring(k)
+			end
+			local parsed, err = ivFrom(v, "ivs." .. tostring(k))
+			if parsed == nil then
+				return nil, err
+			end
+			patch[statKey] = parsed
+			any = true
+		else
+			return nil, "ivs keys must be strings or indexes 1..6"
+		end
+	end
+	if not any then
+		return nil, "ivs patch is empty"
+	end
+	return patch, nil
+end
+
+local function resolveSpeciesForCreate(speciesValue)
+	local speciesId = nil
+	if type(speciesValue) == "number" then
+		local err
+		speciesId, err = parseIntegerInRange(speciesValue, 1, 0xFFFF, "speciesId")
+		if speciesId == nil then
+			return nil, nil, err
+		end
+	elseif type(speciesValue) == "string" then
+		local trimmed = speciesValue:gsub("^%s+", ""):gsub("%s+$", "")
+		if trimmed == "" then
+			return nil, nil, "speciesId/speciesName is required"
+		end
+		local asNum = tonumber(trimmed)
+		if asNum ~= nil then
+			local err
+			speciesId, err = parseIntegerInRange(asNum, 1, 0xFFFF, "speciesId")
+			if speciesId == nil then
+				return nil, nil, err
+			end
+		else
+			local key = normalizeMoveNameKey(trimmed)
+			speciesId = getSpeciesNameToIdMap()[key]
+			if speciesId == nil then
+				return nil, nil, string.format("unknown species name: %s", trimmed)
+			end
+		end
+	else
+		return nil, nil, "speciesId/speciesName must be a number or string"
+	end
+	local speciesName = mons and mons[speciesId] or nil
+	if type(speciesName) ~= "string" or speciesName == "" then
+		return nil, nil, string.format("unknown species id: %d", speciesId)
+	end
+	return speciesId, speciesName, nil
+end
+
+local function resolveSpeciesForEdit(speciesValue)
+	if isBoxNullSentinel(speciesValue) then
+		return nil, nil, "species cannot be cleared in edit mode"
+	end
+	return resolveSpeciesForCreate(speciesValue)
+end
+
+local function resolveCreateMoves(movesValue)
+	local out = { 0, 0, 0, 0 }
+	if movesValue == nil then
+		return out, nil
+	end
+	if type(movesValue) ~= "table" then
+		return nil, "moves must be an array of up to 4 move names/ids"
+	end
+
+	local maxIndex = 0
+	for k, _ in pairs(movesValue) do
+		if type(k) ~= "number" or k < 1 or k % 1 ~= 0 then
+			return nil, "moves must use numeric array indexes"
+		end
+		if k > maxIndex then
+			maxIndex = k
+		end
+	end
+	if maxIndex > 4 then
+		return nil, "moves can contain at most 4 entries"
+	end
+
+	for i = 1, 4 do
+		local moveId, moveErr = parseMoveOverrideEntry(movesValue[i], i)
+		if moveId == nil then
+			return nil, "moves " .. moveErr
+		end
+		out[i] = moveId
+	end
+	return out, nil
+end
+
+local function resolveMovesPatchForEdit(movesValue)
+	if isBoxNullSentinel(movesValue) then
+		return { clearAll = true, patch = nil }, nil
+	end
+	if type(movesValue) ~= "table" then
+		return nil, "moves must be an array/object with indexes 1..4"
+	end
+	local patch = {}
+	local any = false
+	for k, v in pairs(movesValue) do
+		if type(k) ~= "number" or k < 1 or k > 4 or k % 1 ~= 0 then
+			return nil, "moves patch indexes must be 1..4"
+		end
+		local moveId
+		local err
+		if isBoxNullSentinel(v) then
+			moveId = 0
+		else
+			moveId, err = parseMoveOverrideEntry(v, k)
+			if moveId == nil then
+				return nil, "moves " .. tostring(err)
+			end
+		end
+		patch[k] = moveId
+		any = true
+	end
+	if not any then
+		return nil, "moves patch is empty"
+	end
+	return { clearAll = false, patch = patch }, nil
+end
+
+local function resolveHeldItemForCreate(itemValue)
+	if itemValue == nil then
+		return 0, nil
+	end
+	if type(itemValue) == "number" then
+		return parseIntegerInRange(itemValue, 0, 0xFFFF, "heldItem")
+	end
+	if type(itemValue) ~= "string" then
+		return nil, "heldItem must be item id or item name"
+	end
+	local trimmed = itemValue:gsub("^%s+", ""):gsub("%s+$", "")
+	if trimmed == "" then
+		return 0, nil
+	end
+	local asNumber = tonumber(trimmed)
+	if asNumber ~= nil then
+		return parseIntegerInRange(asNumber, 0, 0xFFFF, "heldItem")
+	end
+	local key = normalizeMoveNameKey(trimmed)
+	local resolved = getItemNameToIdMap()[key]
+	if resolved == nil then
+		return nil, string.format("unknown held item: %s", trimmed)
+	end
+	return resolved, nil
+end
+
+local function resolveHeldItemForEdit(itemValue)
+	if isBoxNullSentinel(itemValue) then
+		return 0, nil
+	end
+	return resolveHeldItemForCreate(itemValue)
+end
+
+local function resolveNatureForCreate(natureValue)
+	if natureValue == nil then
+		return 26, "PID", nil
+	end
+	if type(natureValue) == "number" then
+		local n, err = parseIntegerInRange(natureValue, 0, 24, "nature")
+		if n == nil then
+			return nil, nil, err
+		end
+		return n, nature[n + 1] or tostring(n), nil
+	end
+	if type(natureValue) ~= "string" then
+		return nil, nil, "nature must be id or nature name"
+	end
+	local trimmed = natureValue:gsub("^%s+", ""):gsub("%s+$", "")
+	if trimmed == "" then
+		return 26, "PID", nil
+	end
+	local asNumber = tonumber(trimmed)
+	if asNumber ~= nil then
+		return resolveNatureForCreate(asNumber)
+	end
+	local key = normalizeMoveNameKey(trimmed)
+	local n = getNatureNameToIdMap()[key]
+	if n == nil then
+		return nil, nil, string.format("unknown nature: %s", trimmed)
+	end
+	return n, nature[n + 1] or tostring(n), nil
+end
+
+local function resolveNatureForEdit(natureValue)
+	if isBoxNullSentinel(natureValue) then
+		return 26, "PID", nil
+	end
+	return resolveNatureForCreate(natureValue)
+end
+
+local function resolveCurrentPlayerOtId()
+	local mode = resolvePlayerIdentityFromParty()
+	if mode and mode.topKey then
+		local tid, sid = splitTrainerKey(mode.topKey)
+		if tid ~= nil and sid ~= nil then
+			local otId = ((sid << 16) | tid) & 0xFFFFFFFF
+			return otId, tid, sid, nil
+		end
+	end
+
+	local party = getParty() or {}
+	for i = 1, #party do
+		local mon = party[i]
+		if mon and mon.otId and mon.otId > 0 then
+			local tid = mon.otId & 0xFFFF
+			local sid = (mon.otId >> 16) & 0xFFFF
+			return mon.otId & 0xFFFFFFFF, tid, sid, nil
+		end
+	end
+	return nil, nil, nil, "could not resolve current player OT id from party"
+end
+
+local function getCreateBoxDefaults(speciesName, level)
+	local defaults = {
+		language = BOX_CREATE.defaultLanguage,
+		otName = "TRAINER",
+		nickname = speciesName or "Pokemon",
+		pokeball = BOX_CREATE.defaultPokeball,
+		metGame = BOX_CREATE.defaultMetGame,
+		metLocation = BOX_CREATE.defaultMetLocation,
+		otGender = BOX_CREATE.defaultOtGender,
+		metLevel = level or BOX_CREATE.defaultLevel,
+	}
+	local party = getParty() or {}
+	for i = 1, #party do
+		local mon = party[i]
+		if mon and mon.species and mon.species > 0 then
+			if mon.language ~= nil then
+				defaults.language = mon.language & 0xFF
+			end
+			if type(mon.otName) == "string" and mon.otName ~= "" then
+				defaults.otName = mon.otName
+			end
+			if mon.pokeball ~= nil then
+				defaults.pokeball = mon.pokeball & 0x1F
+			end
+			if mon.metGame ~= nil then
+				defaults.metGame = mon.metGame & 0xF
+			end
+			if mon.metLocation ~= nil then
+				defaults.metLocation = mon.metLocation & 0xFF
+			end
+			if mon.otGender ~= nil then
+				defaults.otGender = mon.otGender & 0x1
+			end
+			break
+		end
+	end
+	return defaults
+end
+
+local function computeBoxSecureChecksum(logicalBlocks)
+	local sum = 0
+	for i = 1, 4 do
+		local block = logicalBlocks[i]
+		for j = 1, 3 do
+			local w = (block[j] or 0) & 0xFFFFFFFF
+			sum = (sum + (w & 0xFFFF) + ((w >> 16) & 0xFFFF)) & 0xFFFF
+		end
+	end
+	return sum
+end
+
+local function writeEncryptedBoxSubstructs(slotAddr, personality, otId, logicalBlocks)
+	local selector = BOX_SUBSTRUCT_SELECTOR[personality % 24]
+	if selector == nil then
+		return false, "substruct selector unavailable"
+	end
+	local key = (personality ~ otId) & 0xFFFFFFFF
+	for logicalIndex = 1, 4 do
+		local physicalIndex = selector[logicalIndex]
+		local base = slotAddr + BOX_CREATE.secureOffset + physicalIndex * BOX_CREATE.substructSize
+		local words = logicalBlocks[logicalIndex]
+		for w = 1, 3 do
+			local encrypted = ((words[w] or 0) ~ key) & 0xFFFFFFFF
+			writeU32LE(base + (w - 1) * 4, encrypted)
+		end
+	end
+	return true, nil
+end
+
+local function getMoveDisplayNameForCreate(moveId)
+	if moveId == nil or moveId <= 0 then
+		return "None"
+	end
+	local name = move[moveId + 1]
+	if type(name) == "string" and name ~= "" then
+		return name
+	end
+	return tostring(moveId)
+end
+
+local function getItemDisplayNameForCreate(itemId)
+	if itemId == nil or itemId == 0 then
+		return "None"
+	end
+	local name = item[itemId]
+	if type(name) == "string" and name ~= "" then
+		return name
+	end
+	return tostring(itemId)
+end
+
+local function extractMovesFromAttackWords(attacks0, attacks1)
+	return {
+		attacks0 & 0xFFFF,
+		(attacks0 >> 16) & 0xFFFF,
+		attacks1 & 0xFFFF,
+		(attacks1 >> 16) & 0xFFFF,
+	}
+end
+
+local function extractPpsFromAttackWord(attacks2)
+	return {
+		attacks2 & 0xFF,
+		(attacks2 >> 8) & 0xFF,
+		(attacks2 >> 16) & 0xFF,
+		(attacks2 >> 24) & 0xFF,
+	}
+end
+
+local function packMoveWords(moves)
+	return (
+		((moves[1] or 0) & 0xFFFF)
+		| (((moves[2] or 0) & 0xFFFF) << 16)
+	) & 0xFFFFFFFF, (
+		((moves[3] or 0) & 0xFFFF)
+		| (((moves[4] or 0) & 0xFFFF) << 16)
+	) & 0xFFFFFFFF
+end
+
+local function packPpWord(pps)
+	return (
+		((pps[1] or 0) & 0xFF)
+		| (((pps[2] or 0) & 0xFF) << 8)
+		| (((pps[3] or 0) & 0xFF) << 16)
+		| (((pps[4] or 0) & 0xFF) << 24)
+	) & 0xFFFFFFFF
+end
+
+local function extractIvsFromMiscWord(misc1)
+	return {
+		hp = (misc1 >> 0) & 0x1F,
+		atk = (misc1 >> 5) & 0x1F,
+		def = (misc1 >> 10) & 0x1F,
+		spe = (misc1 >> 15) & 0x1F,
+		spa = (misc1 >> 20) & 0x1F,
+		spd = (misc1 >> 25) & 0x1F,
+	}
+end
+
+local function packIvsPreserveUpper(misc1, ivs)
+	local encoded = (
+		((ivs.hp or BOX_CREATE.defaultIv) & 0x1F)
+		| (((ivs.atk or BOX_CREATE.defaultIv) & 0x1F) << 5)
+		| (((ivs.def or BOX_CREATE.defaultIv) & 0x1F) << 10)
+		| (((ivs.spe or BOX_CREATE.defaultIv) & 0x1F) << 15)
+		| (((ivs.spa or BOX_CREATE.defaultIv) & 0x1F) << 20)
+		| (((ivs.spd or BOX_CREATE.defaultIv) & 0x1F) << 25)
+	) & 0x3FFFFFFF
+	return ((misc1 & 0xC0000000) | encoded) & 0xFFFFFFFF
+end
+
+local function decodeBoxSlotForEdit(slot)
+	local slotAddr = storageLoc + 4 + (slot - 1) * BOX_CREATE.slotStride
+	local personality = readU32LE(slotAddr + 0)
+	local otId = readU32LE(slotAddr + 4)
+	local flags = emu:read8(slotAddr + BOX_CREATE.flagsOffset)
+	local storedChecksum = readU16LE(slotAddr + BOX_CREATE.checksumOffset)
+	if personality == nil or otId == nil or flags == nil then
+		return nil, "slot header unreadable"
+	end
+	if ((flags >> 1) & 0x1) ~= 1 then
+		return nil, "slot is empty (hasSpecies=0)"
+	end
+
+	local selector = BOX_SUBSTRUCT_SELECTOR[personality % 24]
+	if selector == nil then
+		return nil, "substruct selector unavailable"
+	end
+	local key = (personality ~ otId) & 0xFFFFFFFF
+	local blocks = {}
+	for logicalIndex = 1, 4 do
+		local physicalIndex = selector[logicalIndex]
+		local base = slotAddr + BOX_CREATE.secureOffset + physicalIndex * BOX_CREATE.substructSize
+		local ew0 = readU32LE(base + 0)
+		local ew1 = readU32LE(base + 4)
+		local ew2 = readU32LE(base + 8)
+		if ew0 == nil or ew1 == nil or ew2 == nil then
+			return nil, "slot secure data unreadable"
+		end
+		blocks[logicalIndex] = {
+			(ew0 ~ key) & 0xFFFFFFFF,
+			(ew1 ~ key) & 0xFFFFFFFF,
+			(ew2 ~ key) & 0xFFFFFFFF,
+		}
+	end
+	local species = blocks[1][1] & 0xFFFF
+	if species == 0 then
+		return nil, "slot species is 0 (empty)"
+	end
+	local computedChecksum = computeBoxSecureChecksum(blocks)
+	if storedChecksum == nil or storedChecksum ~= computedChecksum then
+		return nil, string.format(
+			"slot checksum mismatch (stored=0x%04X computed=0x%04X)",
+			tonumber(storedChecksum) or 0,
+			tonumber(computedChecksum) or 0
+		)
+	end
+	return {
+		slotAddr = slotAddr,
+		personality = personality,
+		otId = otId,
+		flags = flags,
+		storedChecksum = storedChecksum,
+		logicalBlocks = blocks,
+	}, nil
+end
+
+function createPokemonInBoxSlot(slotIndex, speciesIdOrName, opts)
+	local slot, slotErr = parseBoxSlotSelector(slotIndex)
+	if slot == nil then
+		logNullBattle("BOX_CREATE failed: " .. tostring(slotErr))
+		return false
+	end
+
+	local species, speciesName, speciesErr = resolveSpeciesForCreate(speciesIdOrName)
+	if species == nil then
+		logNullBattle("BOX_CREATE failed: " .. tostring(speciesErr))
+		return false
+	end
+
+	if opts ~= nil and type(opts) ~= "table" then
+		logNullBattle("BOX_CREATE failed: opts must be a table when provided")
+		return false
+	end
+	local options = opts or {}
+
+	local level, levelErr = parseIntegerInRange(
+		options.level ~= nil and options.level or BOX_CREATE.defaultLevel,
+		1,
+		100,
+		"level"
+	)
+	if level == nil then
+		logNullBattle("BOX_CREATE failed: " .. tostring(levelErr))
+		return false
+	end
+
+	local abilitySlot, abilityErr = parseIntegerInRange(
+		options.abilitySlot ~= nil and options.abilitySlot or 1,
+		1,
+		3,
+		"abilitySlot"
+	)
+	if abilitySlot == nil then
+		logNullBattle("BOX_CREATE failed: " .. tostring(abilityErr))
+		return false
+	end
+
+	local moves, movesErr = resolveCreateMoves(options.moves)
+	if moves == nil then
+		logNullBattle("BOX_CREATE failed: " .. tostring(movesErr))
+		return false
+	end
+
+	local heldItem, itemErr = resolveHeldItemForCreate(options.heldItem)
+	if heldItem == nil then
+		logNullBattle("BOX_CREATE failed: " .. tostring(itemErr))
+		return false
+	end
+
+	local hiddenNature, natureText, natureErr = resolveNatureForCreate(options.nature)
+	if hiddenNature == nil then
+		logNullBattle("BOX_CREATE failed: " .. tostring(natureErr))
+		return false
+	end
+
+	local ivs, ivsErr = resolveIvsForCreate(options.ivs)
+	if ivs == nil then
+		logNullBattle("BOX_CREATE failed: " .. tostring(ivsErr))
+		return false
+	end
+
+	local otId, trainerId, secretId, otErr = resolveCurrentPlayerOtId()
+	if otId == nil then
+		logNullBattle("BOX_CREATE failed: " .. tostring(otErr))
+		return false
+	end
+
+	local exp = expRequired(species, level)
+	if type(exp) ~= "number" or exp < 0 then
+		logNullBattle(string.format("BOX_CREATE failed: could not compute exp for species=%d level=%d", species, level))
+		return false
+	end
+	exp = math.floor(exp) & 0xFFFFFFFF
+
+	local defaults = getCreateBoxDefaults(speciesName, level)
+	local personality = randomU32()
+	local altAbility = (abilitySlot - 1) & 0x3
+	local pp1 = (moves[1] > 0) and BOX_CREATE.defaultPp or 0
+	local pp2 = (moves[2] > 0) and BOX_CREATE.defaultPp or 0
+	local pp3 = (moves[3] > 0) and BOX_CREATE.defaultPp or 0
+	local pp4 = (moves[4] > 0) and BOX_CREATE.defaultPp or 0
+
+	local growth0 = ((species & 0xFFFF) | ((heldItem & 0xFFFF) << 16)) & 0xFFFFFFFF
+	local growth1 = exp
+	local growth2 =
+		((0 & 0xFF)
+		| ((BOX_CREATE.defaultFriendship & 0xFF) << 8)
+		| ((defaults.pokeball & 0x1F) << 16)
+		| ((hiddenNature & 0x1F) << 21)) & 0xFFFFFFFF
+
+	local attacks0 = ((moves[1] & 0xFFFF) | ((moves[2] & 0xFFFF) << 16)) & 0xFFFFFFFF
+	local attacks1 = ((moves[3] & 0xFFFF) | ((moves[4] & 0xFFFF) << 16)) & 0xFFFFFFFF
+	local attacks2 = ((pp1 & 0xFF) | ((pp2 & 0xFF) << 8) | ((pp3 & 0xFF) << 16) | ((pp4 & 0xFF) << 24)) & 0xFFFFFFFF
+
+	local ivFlags = (
+		((ivs.hp & 0x1F) << 0)
+		| ((ivs.atk & 0x1F) << 5)
+		| ((ivs.def & 0x1F) << 10)
+		| ((ivs.spe & 0x1F) << 15)
+		| ((ivs.spa & 0x1F) << 20)
+		| ((ivs.spd & 0x1F) << 25)
+	) & 0xFFFFFFFF
+	local metFlags = (
+		((defaults.metLevel or level) & 0x7F)
+		| ((defaults.metGame & 0xF) << 7)
+		| ((defaults.pokeball & 0xF) << 11)
+		| ((defaults.otGender & 0x1) << 15)
+	) & 0xFFFF
+	local misc0 = ((0 & 0xFF) | ((defaults.metLocation & 0xFF) << 8) | (metFlags << 16)) & 0xFFFFFFFF
+	local misc1 = ivFlags
+	local misc2 = ((altAbility & 0x3) << 29) & 0xFFFFFFFF
+
+	local logicalBlocks = {
+		{ growth0, growth1, growth2 },
+		{ attacks0, attacks1, attacks2 },
+		{ 0, 0, 0 },
+		{ misc0, misc1, misc2 },
+	}
+	local checksum = computeBoxSecureChecksum(logicalBlocks)
+	local slotAddr = storageLoc + 4 + (slot - 1) * BOX_CREATE.slotStride
+
+	for i = 0, BOX_CREATE.slotStride - 1 do
+		emu:write8(slotAddr + i, 0)
+	end
+
+	writeU32LE(slotAddr + 0, personality)
+	writeU32LE(slotAddr + 4, otId)
+	writeByteArray(slotAddr + 8, encodeGameText(defaults.nickname, monNameLength))
+	emu:write8(slotAddr + 18, defaults.language & 0xFF)
+	emu:write8(slotAddr + BOX_CREATE.flagsOffset, 0x02) -- hasSpecies=1, isEgg=0, isBadEgg=0
+	local otNameLen = BOX_CREATE.markingsOffset - BOX_CREATE.otNameOffset
+	if otNameLen < 1 then
+		otNameLen = playerNameLength
+	end
+	writeByteArray(slotAddr + BOX_CREATE.otNameOffset, encodeGameText(defaults.otName, otNameLen))
+	emu:write8(slotAddr + BOX_CREATE.markingsOffset, 0)
+	writeU16LE(slotAddr + BOX_CREATE.checksumOffset, checksum)
+	writeU32LE(slotAddr + BOX_CREATE.boxUnknownOffset, 0)
+
+	local ok, writeErr = writeEncryptedBoxSubstructs(slotAddr, personality, otId, logicalBlocks)
+	if not ok then
+		logNullBattle("BOX_CREATE failed: " .. tostring(writeErr))
+		return false
+	end
+	local verifyCreate, verifyCreateErr = decodeBoxSlotForEdit(slot)
+	if not verifyCreate then
+		logNullBattle("BOX_CREATE failed: post-write validation failed: " .. tostring(verifyCreateErr))
+		return false
+	end
+
+	logNullBattle(string.format(
+		"BOX_CREATE ok slot=%d species=%s(%d) level=%d moves=[%s,%s,%s,%s] abilitySlot=%d nature=%s heldItem=%s(%d) ivs=%d/%d/%d/%d/%d/%d ot=%d:%d",
+		slot,
+		speciesName,
+		species,
+		level,
+		getMoveDisplayNameForCreate(moves[1]),
+		getMoveDisplayNameForCreate(moves[2]),
+		getMoveDisplayNameForCreate(moves[3]),
+		getMoveDisplayNameForCreate(moves[4]),
+		abilitySlot,
+		tostring(natureText),
+		getItemDisplayNameForCreate(heldItem),
+		heldItem,
+		ivs.hp,
+		ivs.atk,
+		ivs.def,
+		ivs.spa,
+		ivs.spd,
+		ivs.spe,
+		trainerId,
+		secretId
+	))
+	return true
+end
+
+function editPokemonInBoxSlot(slotIndex, opts)
+	local slot, slotErr = parseBoxSlotSelector(slotIndex)
+	if slot == nil then
+		logNullBattle("BOX_EDIT failed: " .. tostring(slotErr))
+		return false
+	end
+	if type(opts) ~= "table" then
+		logNullBattle("BOX_EDIT failed: opts must be a table")
+		return false
+	end
+	if rawget(opts, "pid") ~= nil or rawget(opts, "personality") ~= nil then
+		logNullBattle("BOX_EDIT failed: PID/personality edits are not supported")
+		return false
+	end
+
+	local allowedKeys = {
+		species = true,
+		moves = true,
+		abilitySlot = true,
+		nature = true,
+		level = true,
+		heldItem = true,
+		ivs = true,
+	}
+	for k, _ in pairs(opts) do
+		if not allowedKeys[k] then
+			logNullBattle("BOX_EDIT failed: unknown opts key: " .. tostring(k))
+			return false
+		end
+	end
+
+	local decoded, decodeErr = decodeBoxSlotForEdit(slot)
+	if not decoded then
+		logNullBattle("BOX_EDIT failed: " .. tostring(decodeErr))
+		return false
+	end
+
+	local blocks = decoded.logicalBlocks
+	local growth = blocks[1]
+	local attacks = blocks[2]
+	local misc = blocks[4]
+
+	local changed = {}
+	local hasChanges = false
+	local function markChanged(label)
+		hasChanges = true
+		changed[#changed + 1] = label
+	end
+
+	local finalSpecies = growth[1] & 0xFFFF
+	local finalSpeciesName = (mons and mons[finalSpecies]) or tostring(finalSpecies)
+
+	if rawget(opts, "species") ~= nil then
+		local newSpecies, newSpeciesName, speciesErr = resolveSpeciesForEdit(opts.species)
+		if newSpecies == nil then
+			logNullBattle("BOX_EDIT failed: " .. tostring(speciesErr))
+			return false
+		end
+		growth[1] = ((growth[1] & 0xFFFF0000) | (newSpecies & 0xFFFF)) & 0xFFFFFFFF
+		finalSpecies = newSpecies
+		finalSpeciesName = newSpeciesName
+		markChanged("species")
+	end
+
+	if rawget(opts, "heldItem") ~= nil then
+		local heldItem, itemErr = resolveHeldItemForEdit(opts.heldItem)
+		if heldItem == nil then
+			logNullBattle("BOX_EDIT failed: " .. tostring(itemErr))
+			return false
+		end
+		growth[1] = ((growth[1] & 0xFFFF) | ((heldItem & 0xFFFF) << 16)) & 0xFFFFFFFF
+		markChanged("heldItem")
+	end
+
+	if rawget(opts, "nature") ~= nil then
+		local hiddenNature, _natureText, natureErr = resolveNatureForEdit(opts.nature)
+		if hiddenNature == nil then
+			logNullBattle("BOX_EDIT failed: " .. tostring(natureErr))
+			return false
+		end
+		growth[3] = ((growth[3] & (~(0x1F << 21) & 0xFFFFFFFF)) | ((hiddenNature & 0x1F) << 21)) & 0xFFFFFFFF
+		markChanged("nature")
+	end
+
+	if rawget(opts, "abilitySlot") ~= nil then
+		local abilitySlot
+		if isBoxNullSentinel(opts.abilitySlot) then
+			abilitySlot = 1
+		else
+			local abilityErr
+			abilitySlot, abilityErr = parseIntegerInRange(opts.abilitySlot, 1, 3, "abilitySlot")
+			if abilitySlot == nil then
+				logNullBattle("BOX_EDIT failed: " .. tostring(abilityErr))
+				return false
+			end
+		end
+		misc[3] = ((misc[3] & (~(0x3 << 29) & 0xFFFFFFFF)) | (((abilitySlot - 1) & 0x3) << 29)) & 0xFFFFFFFF
+		markChanged("abilitySlot")
+	end
+
+	if rawget(opts, "ivs") ~= nil then
+		local ivPatch, ivErr = resolveIvsPatchForEdit(opts.ivs)
+		if ivPatch == nil then
+			logNullBattle("BOX_EDIT failed: " .. tostring(ivErr))
+			return false
+		end
+		local currIvs = extractIvsFromMiscWord(misc[2])
+		for k, v in pairs(ivPatch) do
+			currIvs[k] = v
+		end
+		misc[2] = packIvsPreserveUpper(misc[2], currIvs)
+		markChanged("ivs")
+	end
+
+	if rawget(opts, "moves") ~= nil then
+		local movesPatch, moveErr = resolveMovesPatchForEdit(opts.moves)
+		if movesPatch == nil then
+			logNullBattle("BOX_EDIT failed: " .. tostring(moveErr))
+			return false
+		end
+		local currMoves = extractMovesFromAttackWords(attacks[1], attacks[2])
+		local currPps = extractPpsFromAttackWord(attacks[3])
+		if movesPatch.clearAll then
+			for i = 1, 4 do
+				currMoves[i] = 0
+				currPps[i] = 0
+			end
+		else
+			for i, moveId in pairs(movesPatch.patch) do
+				currMoves[i] = moveId
+				if moveId == 0 then
+					currPps[i] = 0
+				else
+					currPps[i] = BOX_CREATE.defaultPp
+				end
+			end
+		end
+		attacks[1], attacks[2] = packMoveWords(currMoves)
+		attacks[3] = packPpWord(currPps)
+		markChanged("moves")
+	end
+
+	if rawget(opts, "level") ~= nil then
+		local newLevel
+		if isBoxNullSentinel(opts.level) then
+			newLevel = BOX_CREATE.defaultLevel
+		else
+			local levelErr
+			newLevel, levelErr = parseIntegerInRange(opts.level, 1, 100, "level")
+			if newLevel == nil then
+				logNullBattle("BOX_EDIT failed: " .. tostring(levelErr))
+				return false
+			end
+		end
+		local newExp = expRequired(finalSpecies, newLevel)
+		if type(newExp) ~= "number" or newExp < 0 then
+			logNullBattle(string.format("BOX_EDIT failed: could not compute exp for species=%d level=%d", finalSpecies, newLevel))
+			return false
+		end
+		growth[2] = math.floor(newExp) & 0xFFFFFFFF
+		markChanged("level")
+	end
+
+	if not hasChanges then
+		logNullBattle("BOX_EDIT failed: no editable fields provided")
+		return false
+	end
+
+	local checksum = computeBoxSecureChecksum(blocks)
+	writeU16LE(decoded.slotAddr + BOX_CREATE.checksumOffset, checksum)
+	local ok, writeErr = writeEncryptedBoxSubstructs(decoded.slotAddr, decoded.personality, decoded.otId, blocks)
+	if not ok then
+		logNullBattle("BOX_EDIT failed: " .. tostring(writeErr))
+		return false
+	end
+	local verifyEdit, verifyEditErr = decodeBoxSlotForEdit(slot)
+	if not verifyEdit then
+		logNullBattle("BOX_EDIT failed: post-write validation failed: " .. tostring(verifyEditErr))
+		return false
+	end
+
+	local finalSpeciesId = growth[1] & 0xFFFF
+	local finalExp = growth[2]
+	local finalLevel = calcLevel(finalExp, finalSpeciesId)
+	local finalHeldItem = (growth[1] >> 16) & 0xFFFF
+	local finalNatureId = (growth[3] >> 21) & 0x1F
+	local finalNatureText = (finalNatureId == 26) and "PID" or (nature[finalNatureId + 1] or tostring(finalNatureId))
+	local finalAbilitySlot = ((misc[3] >> 29) & 0x3) + 1
+	local finalIvs = extractIvsFromMiscWord(misc[2])
+	local finalMoves = extractMovesFromAttackWords(attacks[1], attacks[2])
+
+	logNullBattle(string.format(
+		"BOX_EDIT ok slot=%d changed=[%s] species=%s(%d) level=%d moves=[%s,%s,%s,%s] abilitySlot=%d nature=%s heldItem=%s(%d) ivs=%d/%d/%d/%d/%d/%d pidPreserved=yes",
+		slot,
+		table.concat(changed, ","),
+		tostring((mons and mons[finalSpeciesId]) or finalSpeciesId),
+		finalSpeciesId,
+		finalLevel,
+		getMoveDisplayNameForCreate(finalMoves[1]),
+		getMoveDisplayNameForCreate(finalMoves[2]),
+		getMoveDisplayNameForCreate(finalMoves[3]),
+		getMoveDisplayNameForCreate(finalMoves[4]),
+		finalAbilitySlot,
+		tostring(finalNatureText),
+		getItemDisplayNameForCreate(finalHeldItem),
+		finalHeldItem,
+		finalIvs.hp,
+		finalIvs.atk,
+		finalIvs.def,
+		finalIvs.spa,
+		finalIvs.spd,
+		finalIvs.spe
+	))
+	return true
 end
 
 formatMoveOverrideList = function(moves)
@@ -6463,8 +7653,8 @@ local function renderHowToUseBuffer(ctx)
 
 	howToUseBuffer:clear()
 	howToUseBuffer:print("How to Use This Script\n\n")
-	howToUseBuffer:print("Web tools:\n")
-	howToUseBuffer:print("- Damage calculator: https://hzla.github.io/Dynamic-Calc-Decomps/?data=null\n")
+	howToUseBuffer:print("Damage Calc:\n")
+	howToUseBuffer:print("- https://hzla.github.io/Dynamic-Calc-Decomps/?data=null\n")
 	howToUseBuffer:print("  Click Sync under the Import Team box to automatically import your Party/Box\n")
 	howToUseBuffer:print("\nBattle Log files location: (Battle Log Viewer Coming Soon)\n")
 	howToUseBuffer:print(string.format("- Root: %s\n", tostring(NULL_EXPORT.baseDir)))
@@ -6478,6 +7668,7 @@ local function renderHowToUseBuffer(ctx)
 	howToUseBuffer:print("Battle logging behavior:\n")
 	howToUseBuffer:print("- Battles are automatically detected while you play\n")
 	howToUseBuffer:print("- KOs are automatically recorded into the battle logs\n\n")
+	howToUseBuffer:print("DEBUGGING FUNCTIONS:\n\n")
 	howToUseBuffer:print("Next trainer override (moves + HP):\n")
 	howToUseBuffer:print("- setNextTrainerMoveset sets the enemy lead's 4 moves (IDs or names)\n")
 	howToUseBuffer:print("- setNextTrainerPokemonHp(hp, maxHp?) sets next trainer enemy HP (maxHp optional)\n")
@@ -6493,8 +7684,38 @@ local function renderHowToUseBuffer(ctx)
 	howToUseBuffer:print("- setNextTrainerMoveset({\"Spore\", \"Sheer Cold\", \"Recover\", \"Protect\"})\n")
 	howToUseBuffer:print("- setNextTrainerPokemonHp(1)\n")
 	howToUseBuffer:print("- setNextTrainerPokemonHp(50, 200)\n\n")
+	howToUseBuffer:print("PC box creation (new mon in slot):\n")
+	howToUseBuffer:print("- createPokemonInBoxSlot(slotIndex, speciesIdOrName, opts)\n")
+	howToUseBuffer:print("- slotIndex accepts global 1..120 OR \"BoxN:S\" (example: \"Box1:15\")\n")
+	howToUseBuffer:print("- Required: species id or species name string\n")
+	howToUseBuffer:print("- Optional opts fields: moves, abilitySlot, nature, level, heldItem, ivs\n")
+	howToUseBuffer:print("- Defaults: level=5, empty moves, abilitySlot=1, no held item\n")
+	howToUseBuffer:print("- heldItem accepts item ID or item name string\n")
+	howToUseBuffer:print("- ivs accepts keys {hp,atk,def,spa,spd,spe} or indexes {1..6}, each 0..31\n")
+	howToUseBuffer:print("- OT is always your current trainer TID/SID and PID is randomized\n\n")
+	howToUseBuffer:print("PC box creation examples:\n")
+	howToUseBuffer:print("- createPokemonInBoxSlot(1, 25)\n")
+	howToUseBuffer:print("- createPokemonInBoxSlot(1, \"Pikachu\")\n")
+	howToUseBuffer:print("- createPokemonInBoxSlot(2, 6, { level=50, moves={\"Flamethrower\",\"Fly\"}, nature=\"Timid\", abilitySlot=2, heldItem=299 })\n\n")
+	howToUseBuffer:print("- createPokemonInBoxSlot(\"Box1:15\", 150, { heldItem=\"Leftovers\", ivs={hp=31,atk=0,def=31,spa=31,spd=31,spe=31} })\n\n")
+	howToUseBuffer:print("PC box edit (patch existing slot, PID unchanged):\n")
+	howToUseBuffer:print("- editPokemonInBoxSlot(slotIndex, opts)\n")
+	howToUseBuffer:print("- Edits only fields in opts; omitted fields stay unchanged\n")
+	howToUseBuffer:print("- Works only if slot currently has a Pokemon\n")
+	howToUseBuffer:print("- PID/personality edits are not allowed in edit mode\n")
+	howToUseBuffer:print("- Null sentinel for clear/reset: BOX_NULL (preferred) or \"null\"\n\n")
+	howToUseBuffer:print("PC box edit examples:\n")
+	howToUseBuffer:print("- editPokemonInBoxSlot(\"Box1:15\", { moves={[2]=\"Surf\"} })\n")
+	howToUseBuffer:print("- editPokemonInBoxSlot(1, { species=\"Charizard\" })\n")
+	howToUseBuffer:print("- editPokemonInBoxSlot(1, { heldItem=\"Leftovers\", ivs={atk=0,spe=31} })\n")
+	howToUseBuffer:print("- editPokemonInBoxSlot(1, { heldItem=BOX_NULL })\n")
+	howToUseBuffer:print("- editPokemonInBoxSlot(1, { moves=BOX_NULL })\n")
+	howToUseBuffer:print("- editPokemonInBoxSlot(1, { nature=BOX_NULL })\n\n")
 	howToUseBuffer:print("Available commands:\n")
 	howToUseBuffer:print("- export()\n")
+	howToUseBuffer:print("- createPokemonInBoxSlot(slotIndex, speciesIdOrName[, opts])\n")
+	howToUseBuffer:print("- editPokemonInBoxSlot(slotIndex, opts)\n")
+	howToUseBuffer:print("- BOX_NULL (global sentinel table for edit clears)\n")
 	howToUseBuffer:print("- setNextTrainerMoveset(m1, m2, m3, m4)\n")
 	howToUseBuffer:print("- setNextTrainerMoveset({m1, m2, m3, m4})\n")
 	howToUseBuffer:print("- setNextTrainerPokemonHp(hp[, maxHp])\n")
