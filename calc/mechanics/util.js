@@ -385,8 +385,8 @@ function checkIlluminate(gen, source, target) {
         }
     }
 }
-
 exports.checkIlluminate = checkIlluminate;
+
 function checkDownload(source, target, wonderRoomActive) {
     var _a;
     if (source.hasAbility('Download', "Exploit") && source.abilityOn) {

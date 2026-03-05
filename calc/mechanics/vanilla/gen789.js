@@ -29,7 +29,7 @@ if (["Pokemon Null"].includes(TITLE)) {
         (0, util_2.checkIntimidate)(gen, defender, attacker);
         if (TITLE == "Pokemon Null") {
             (0, util_2.checkIlluminate)(gen, attacker, defender);
-            (0, util_2.checkIlluminate)(gen, defender, attacker);            
+            (0, util_2.checkIlluminate)(gen, defender, attacker);           
         }
         (0, util_2.checkDownload)(attacker, defender, field.isWonderRoom);
         (0, util_2.checkDownload)(defender, attacker, field.isWonderRoom);
@@ -397,10 +397,23 @@ if (["Pokemon Null"].includes(TITLE)) {
         if (attacker.hasOriginalType(move.type)) {
             stabMod += 2048;
         }
-        else if (attacker.hasAbility('Protean', 'Libero') && !attacker.teraType) {
+        else if (attacker.hasAbility('Libero') && !attacker.teraType) {
             stabMod += 2048;
             desc.attackerAbility = attacker.ability;
         }
+
+        if (attacker.hasAbility('Protean') && !attacker.teraType) {
+            if (TITLE == "Pokemon Null" && attacker.abilityOn) {
+                stabMod += 2048;
+            } else if (TITLE == "Pokemon Null") {
+            } else {
+                stabMod += 2048;
+            }
+            desc.attackerAbility = attacker.ability;
+        }
+
+
+
         var teraType = attacker.teraType;
         if (teraType === move.type && teraType !== 'Stellar') {
             stabMod += 2048;

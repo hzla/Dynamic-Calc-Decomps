@@ -227,6 +227,7 @@ function showAbilityExtras(abilityObj) {
 
 	if (TITLE == "Pokemon Null") {
 		TOGGLE_ABILITIES.push("Illuminate")
+		TOGGLE_ABILITIES.push("Protean")
 	}
 
 	if (TOGGLE_ABILITIES.indexOf(ability) >= 0) {
