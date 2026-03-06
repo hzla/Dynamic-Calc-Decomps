@@ -46557,7 +46557,7 @@ backup_data = {
                 "tr_id": 190
             }
         },
-        "Terapagos": {
+        "Terapagos-Terastal": {
             "Lvl 64 Pokémaniac Shinji |Inverse Room|": {
                 "level": 64,
                 "ability": "Tera Shift",
