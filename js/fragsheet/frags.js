@@ -84,56 +84,53 @@ function extractLevel(str) {
 }
 
 function addFrag(e) {
-	e.preventDefault()
-	let speciesName = $('.select2-chosen')[0].innerHTML.split(" (")[0]
-	let fragged =  $('.select2-chosen')[5].innerHTML
+	if (TITLE != "Pokemon Null") {
+		e.preventDefault()
+		let speciesName = $('.select2-chosen')[0].innerHTML.split(" (")[0]
+		let fragged =  $('.select2-chosen')[5].innerHTML
 
-	const internalLevel = extractLevel(fragged)
-	let actualLevel = $('#levelR1').val()
+		const internalLevel = extractLevel(fragged)
+		let actualLevel = $('#levelR1').val()
 
-	if (parseInt(actualLevel) <= 0) {
-		actualLevel = $('#levelL1').val() || "1"
+		if (parseInt(actualLevel) <= 0) {
+			actualLevel = $('#levelL1').val() || "1"
+		}
+		fragged = fragged.replace(internalLevel, actualLevel);
+		let currentEncounters = JSON.parse(localStorage.encounters)
+
+		if (currentEncounters[speciesName] && currentEncounters[speciesName].frags.indexOf(fragged) == -1 ) {
+			currentEncounters[speciesName].fragCount += 1
+			currentEncounters[speciesName].frags.push(fragged) 
+			localStorage.encounters = JSON.stringify(currentEncounters)
+
+			$('#p2 .frag-text').show()
+
+			$('#frag-count').text(`Frags: ${currentEncounters[speciesName].fragCount}`)
+
+			setTimeout(function() {
+				$('#p2 .frag-text').hide()
+			},300)
+
+			console.log(`${speciesName} fragged ${fragged}, frag count now at ${currentEncounters[speciesName].fragCount}`)
+		} else if (currentEncounters[speciesName].frags.indexOf(fragged) != -1) {
+			currentEncounters[speciesName].frags = currentEncounters[speciesName].frags.filter(item => item !== fragged)
+			currentEncounters[speciesName].fragCount -= 1
+			localStorage.encounters = JSON.stringify(currentEncounters)
+
+			$('#p2 .unfrag-text').show()
+
+			setTimeout(function() {
+				$('#p2 .unfrag-text').hide()
+			},300)
+			$('#frag-count').text(`Frags: ${currentEncounters[speciesName].fragCount}`)
+
+			console.log(`${speciesName} unfragged ${fragged}, frag count now at ${currentEncounters[speciesName].fragCount}`)
+		} else {
+			alert(`${speciesName} not found in encounter list`)
+		}
+		return currentEncounters
 	}
-
-	fragged = fragged.replace(internalLevel, actualLevel);
-
-
-
-
-
-	let currentEncounters = JSON.parse(localStorage.encounters)
-
-	if (currentEncounters[speciesName] && currentEncounters[speciesName].frags.indexOf(fragged) == -1 ) {
-		currentEncounters[speciesName].fragCount += 1
-		currentEncounters[speciesName].frags.push(fragged) 
-		localStorage.encounters = JSON.stringify(currentEncounters)
-
-		$('#p2 .frag-text').show()
-
-		$('#frag-count').text(`Frags: ${currentEncounters[speciesName].fragCount}`)
-
-		setTimeout(function() {
-			$('#p2 .frag-text').hide()
-		},300)
-
-		console.log(`${speciesName} fragged ${fragged}, frag count now at ${currentEncounters[speciesName].fragCount}`)
-	} else if (currentEncounters[speciesName].frags.indexOf(fragged) != -1) {
-		currentEncounters[speciesName].frags = currentEncounters[speciesName].frags.filter(item => item !== fragged)
-		currentEncounters[speciesName].fragCount -= 1
-		localStorage.encounters = JSON.stringify(currentEncounters)
-
-		$('#p2 .unfrag-text').show()
-
-		setTimeout(function() {
-			$('#p2 .unfrag-text').hide()
-		},300)
-		$('#frag-count').text(`Frags: ${currentEncounters[speciesName].fragCount}`)
-
-		console.log(`${speciesName} unfragged ${fragged}, frag count now at ${currentEncounters[speciesName].fragCount}`)
-	} else {
-		alert(`${speciesName} not found in encounter list`)
-	}
-	return currentEncounters
+	
 }
 
 function toggleEncounterStatus(e) {
