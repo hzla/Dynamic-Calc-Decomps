@@ -45240,7 +45240,7 @@ backup_data = {
                 "level": 64,
                 "ability": "Flower Veil",
                 "moves": [
-                    "Light Of Ruin",
+                    "Light of Ruin",
                     "Toxic",
                     "Synthesis",
                     "Charm"
@@ -45255,7 +45255,7 @@ backup_data = {
                 "level": 96,
                 "ability": "Symbiosis",
                 "moves": [
-                    "Light Of Ruin",
+                    "Light of Ruin",
                     "Mystical Fire",
                     "Calm Mind",
                     "Baton Pass"
@@ -59949,7 +59949,7 @@ backup_data = {
                 "level": 96,
                 "ability": "Fairy Aura",
                 "moves": [
-                    "Light Of Ruin",
+                    "Light of Ruin",
                     "Mystical Fire",
                     "Calm Mind",
                     "Baton Pass"

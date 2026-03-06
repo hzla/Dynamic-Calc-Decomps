@@ -908,13 +908,15 @@ $(".set-selector").change(function () {
 				}
 
 				
+				if (TITLE != "Pokemon Null") {
+					if (!(typeof partnerName != undefined && partnerName != null) && (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation")) {
+						$('#singles-format').click()
+					} else {
+						$('#doubles-format').click()
+					} 
+				}
 				
 				
-				if (!(typeof partnerName != undefined && partnerName != null) && (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation")) {
-					$('#singles-format').click()
-				} else {
-					$('#doubles-format').click()
-				} 
 
 				let enemy_moves = setdex[pokemonName][setName].moves
 
