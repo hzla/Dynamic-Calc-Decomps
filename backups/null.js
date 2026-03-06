@@ -40692,7 +40692,7 @@ backup_data = {
         "Granbull": {
             "Lvl 55 Blackbelt Iageezus": {
                 "level": 55,
-                "ability": "Quick Feet",
+                "ability": "Intimidate",
                 "moves": [
                     "Play Rough",
                     "Thunder Fang",

@@ -70,10 +70,19 @@ function getSnapshot() {
   if (partyData.length < 6) return null;
 
   const snapshot = {};
-  snapshot.tr =
+
+
+  if (TITLE == "Pokemon Null") { //trainer name over id for pokemon null
+  	snapshot.tr =
+    (currentAiPok && currentAiPok.tr_id != null && lastAiTrainerName || String(currentAiPok.tr_id))
+     || "";
+  } else {
+  	snapshot.tr =
     (currentAiPok && currentAiPok.tr_id != null && String(currentAiPok.tr_id)) ||
     lastAiTrainerName ||
     "";
+  }
+  
 
   snapshot.party = partyData;
   snapshot.title = typeof TITLE !== "undefined" ? String(TITLE) : "";

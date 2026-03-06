@@ -1058,6 +1058,30 @@ function fetchLuaUpdateWithRetry(attempt, maxAttempts, retryDelayMs) {
 		});
 }
 
+function parseNullShowdownTextWithTidHeader(rawText) {
+	var text = String(rawText || "");
+	var firstLineMatch = text.match(/^([^\r\n]*)(?:\r?\n|$)/);
+	var firstLine = firstLineMatch ? firstLineMatch[1] : "";
+	var tidMatch = firstLine.match(/^TID:\s*([0-9]+:[0-9]+)\s*$/i);
+	if (!tidMatch) {
+		return {
+			showdownText: text,
+			tidSid: null,
+		};
+	}
+	var headerLength = firstLine.length;
+	var bodyStart = headerLength;
+	if (text.charAt(bodyStart) === "\r" && text.charAt(bodyStart + 1) === "\n") {
+		bodyStart += 2;
+	} else if (text.charAt(bodyStart) === "\n" || text.charAt(bodyStart) === "\r") {
+		bodyStart += 1;
+	}
+	return {
+		showdownText: text.slice(bodyStart),
+		tidSid: tidMatch[1],
+	};
+}
+
 $("#sync-lua").click(() => {
 	if (TITLE.includes("Imperium")) {
 		console.log("Fetching Box")
@@ -1070,7 +1094,11 @@ $("#sync-lua").click(() => {
 	if (TITLE == "Pokemon Null") {
 		console.log("Fetching Box")
 		fetchLuaUpdateWithRetry(1, 4, 200).then(function (x) {
-			$('.import-team-text').val(x)
+			var parsed = parseNullShowdownTextWithTidHeader(x);
+			if (parsed.tidSid) {
+				localStorage.lastTid = parsed.tidSid;
+			}
+			$('.import-team-text').val(parsed.showdownText)
 			$('#import').click()
 			$('.import-team-text').val("")
 		}).catch(() => alert("Please make sure the Lua script is running and MGBA is not paused. Download Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnull.lua"));
