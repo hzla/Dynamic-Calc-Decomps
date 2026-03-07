@@ -1,3 +1,11 @@
+-- AUTO-GENERATED. Edit files in null/src and run null/build_bundle.py
+
+NULL_BUILD_PLATFORM = "windows"
+
+-- >>> BEGIN 00_data_showdown.lua
+-- Module Index: 00_data_showdown
+-- Owns: static game data tables, Gen3 decode/export helpers, showdown/hidden-power output helpers.
+
 -- you do not need this lua script, though it will allow you to with mgba 0.10 to export your pokemon to the calc
 -- to use download this file on mgba select tools->scripting then file->open and open this file
 
@@ -3386,6 +3394,130 @@ abilities = {
 "Supersweet Syrup"
 }
 
+local metLocations = {
+	[0x00] = "Littleroot Town",
+	[0x01] = "Oldale Town",
+	[0x02] = "Dewford Town",
+	[0x03] = "Lavaridge Town",
+	[0x04] = "Fallarbor Town",
+	[0x05] = "Verdanturf Town",
+	[0x06] = "Pacifidlog Town",
+	[0x07] = "Petalburg City",
+	[0x08] = "Slateport City",
+	[0x09] = "Mauville City",
+	[0x0A] = "Rustboro City",
+	[0x0B] = "Fortree City",
+	[0x0C] = "Lilycove City",
+	[0x0D] = "Mossdeep City",
+	[0x0E] = "Sootopolis City",
+	[0x0F] = "Ever Grande City",
+	[0x10] = "Route 101",
+	[0x11] = "Route 102",
+	[0x12] = "Route 103",
+	[0x13] = "Route 104",
+	[0x14] = "Route 105",
+	[0x15] = "Route 106",
+	[0x16] = "Route 107",
+	[0x17] = "Route 108",
+	[0x18] = "Route 109",
+	[0x19] = "Route 110",
+	[0x1A] = "Route 111",
+	[0x1B] = "Route 112",
+	[0x1C] = "Route 113",
+	[0x1D] = "Route 114",
+	[0x1E] = "Route 115",
+	[0x1F] = "Route 116",
+	[0x20] = "Route 117",
+	[0x21] = "Route 118",
+	[0x22] = "Route 119",
+	[0x23] = "Route 120",
+	[0x24] = "Route 121",
+	[0x25] = "Route 122",
+	[0x26] = "Route 123",
+	[0x27] = "Route 124",
+	[0x28] = "Route 125",
+	[0x29] = "Route 126",
+	[0x2A] = "Route 127",
+	[0x2B] = "Route 128",
+	[0x2C] = "Route 129",
+	[0x2D] = "Route 130",
+	[0x2E] = "Route 131",
+	[0x2F] = "Route 132",
+	[0x30] = "Route 133",
+	[0x31] = "Route 134",
+	[0x32] = "Underwater (Route 124)",
+	[0x33] = "Underwater (Route 126)",
+	[0x34] = "Underwater (Route 127)",
+	[0x35] = "Underwater (Route 128)",
+	[0x36] = "Underwater (Sootopolis City)",
+	[0x37] = "Granite Cave",
+	[0x38] = "Mt. Chimney",
+	[0x39] = "Safari Zone",
+	[0x3A] = "Battle Frontier",
+	[0x3B] = "Petalburg Woods",
+	[0x3C] = "Rusturf Tunnel",
+	[0x3D] = "Abandoned Ship",
+	[0x3E] = "New Mauville",
+	[0x3F] = "Meteor Falls",
+	[0x40] = "Meteor Falls (unused)",
+	[0x41] = "Mt. Pyre",
+	[0x42] = "Magma/Aqua Hideout",
+	[0x43] = "Shoal Cave",
+	[0x44] = "Seafloor Cavern",
+	[0x45] = "Underwater (Seafloor Cavern)",
+	[0x46] = "Victory Road",
+	[0x47] = "Mirage Island",
+	[0x48] = "Cave of Origin",
+	[0x49] = "Southern Island",
+	[0x4A] = "Fiery Path",
+	[0x4B] = "Fiery Path (unused)",
+	[0x4C] = "Jagged Pass",
+	[0x4D] = "Jagged Pass (unused)",
+	[0x4E] = "Sealed Chamber",
+	[0x4F] = "Underwater (Route 134)",
+	[0x50] = "Scorched Slab",
+	[0x51] = "Island Cave",
+	[0x52] = "Desert Ruins",
+	[0x53] = "Ancient Tomb",
+	[0x54] = "Inside of Truck",
+	[0x55] = "Sky Pillar",
+	[0x56] = "Secret Base",
+	[0x57] = "Ferry",
+	[0xC5] = "Aqua Hideout",
+	[0xC6] = "Magma Hideout",
+	[0xC7] = "Mirage Tower",
+	[0xC8] = "Birth Island",
+	[0xC9] = "Faraway Island",
+	[0xCA] = "Artisan Cave",
+	[0xCB] = "Marine Cave",
+	[0xCC] = "Underwater (Marine Cave)",
+	[0xCD] = "Terra Cave",
+	[0xCE] = "Underwater (Route 105)",
+	[0xCF] = "Underwater (Route 125)",
+	[0xD0] = "Underwater (Route 129)",
+	[0xD1] = "Desert Underpass",
+	[0xD2] = "Altering Cave",
+	[0xD3] = "Navel Rock",
+	[0xD4] = "Trainer Hill",
+	[0xD5] = "Littleroot Grove",
+	[0xD6] = "Oldale Grove",
+	[0xD7] = "Petalburg Grove",
+	[0xD8] = "Verdanturf Tunnel",
+	[0xD9] = "Silent Grove",
+	[0xDA] = "Moonlit Grove",
+	[0xDB] = "Route 102 Grove",
+	[0xDC] = "Rustboro Grove",
+	[0xDD] = "Rustboro Grove",
+	[0xDE] = "Trainer Hill",
+	[0xDF] = "Land Cave",
+	[0xE0] = "Altering Grove",
+	[0xE1] = "Navel Rock",
+	[0xE2] = "Battle Frontier",
+	[0xE3] = "Artisan Cave",
+	[0xE4] = "Southern Island",
+	[0xFF] = "Starter",
+}
+
 nature = {"Hardy","Lonely","Brave","Adamant","Naughty",
 			"Bold","Docile","Relaxed","Impish","Lax",
 			"Timid","Hasty","Serious","Jolly","Naive",
@@ -3664,6 +3796,11 @@ function getNature(mon)
 	return nature[(mon.personality % 25)+1]
 end
 
+local function getMetLocationName(id)
+	local locationId = tonumber(id) or 0
+	return metLocations[locationId] or string.format("Unknown Location (0x%02X)", locationId & 0xFF)
+end
+
 function getPartyPrint(mon)
 	str = ""
 	if (mons[mon.species] == null) then
@@ -3688,6 +3825,7 @@ function getPartyPrint(mon)
 			end
 		end
 	end
+	str = str .. string.format("Met: %s\n", getMetLocationName(mon.metLocation))
 	str = str .. string.format("\n")
 	return str
 end
@@ -3716,6 +3854,7 @@ function getPCPrint(mon)
 			end
 		end
 	end
+	str = str .. string.format("Met: %s\n", getMetLocationName(mon.metLocation))
 	str = str .. string.format("\n")
 	return str
 end
@@ -3817,13 +3956,29 @@ function hiddens()
 	getHiddens(hiddenBuffer)
 end
 
+local function getShowdownTrainerIdLine(party)
+	local trainerId = 0
+	local secretId = 0
+	for _, mon in ipairs(party or {}) do
+		if mon and mon.species and mon.species > 0 and mon.otId then
+			trainerId = mon.otId & 0xFFFF
+			secretId = (mon.otId >> 16) & 0xFFFF
+			break
+		end
+	end
+	return string.format("TID: %d:%d\n", trainerId, secretId)
+end
+
 -- Build showdown export text without requiring a console buffer.
 function buildShowdownText()
 	local out = {}
+	local party = getParty() or {}
 	local address = storageLoc + 4
 	local i = 0
 
-	for _, mon in ipairs(getParty()) do
+	out[#out + 1] = getShowdownTrainerIdLine(party)
+
+	for _, mon in ipairs(party) do
 		if mon and mon.species and mon.species ~= 0 then
 			out[#out + 1] = getPartyPrint(mon)
 		end
@@ -3842,6 +3997,11 @@ function buildShowdownText()
 
 	return table.concat(out, "")
 end
+-- <<< END 00_data_showdown.lua
+
+-- >>> BEGIN 01_battle_config_state.lua
+-- Module Index: 01_battle_config_state
+-- Owns: null battle/export constants and shared runtime state tables.
 
 -- Null game battle logger (pinned runtime offsets).
 local NULL_BATTLE = {
@@ -3855,13 +4015,18 @@ local NULL_BATTLE = {
 		battleMonSize = 0x60,
 		speciesOffset = 0x00, -- best-effort; fallback to player-party decode for player side
 		movesOffset = 0x0C,
-		ppOffset = 0x28,
+		statStagesOffset = 0x18,
+		statStagesCount = 8, -- hp/atk/def/spe/spa/spd/acc/evasion
+		ppOffset = 0x25,
 		hpOffset = 0x2A,
 		levelOffset = 0x2C,
 		maxHpOffset = 0x2E,
 		otIdOffset = 0x55, -- BattlePokemon otId (unaligned); read bytewise
 	},
 	sessionResetFrames = 300,
+	sessionStartPollFrames = 60,
+	sessionActivePollFrames = 6,
+	writeFullBattleLog = false,
 	classifyWildByEnemyCount = true,
 	consoleStartEndOnly = true,
 }
@@ -3880,33 +4045,9 @@ local nullBattleState = {
 	lastSeenEnemyTrainerKey = nil,
 	actionIndex = 0,
 	prevSnapshots = {},
-	lastMoveByBattler = {},
 	koHistory = {},
 	fullEvents = {},
-}
-
-local AI_SCORE_SCAN = {
-	ewramStart = 0x02000000,
-	ewramEndExclusive = 0x02040000,
-	primaryMin = 80,
-	primaryMax = 110,
-	softMin = -256,
-	softMax = 256,
-}
-
-local aiScoreState = {
-	captures = {
-		A = nil,
-		B = nil,
-	},
-	calibrated = false,
-	rowBaseAddr = nil,
-	enemyBattler = nil,
-	targetBattler = nil,
-	inferred = {
-		battleStructPtr = nil,
-		aiFinalScoreOffset = nil,
-	},
+	lastRuntimePollFrame = 0,
 }
 
 -- Optional hardcoded preset; set to nil to disable.
@@ -3976,10 +4117,32 @@ if BOX_NULL == nil or type(BOX_NULL) ~= "table" then
 	_G.BOX_NULL = BOX_NULL
 end
 
+local JSON_NULL = rawget(_G, "JSON_NULL")
+if JSON_NULL == nil or type(JSON_NULL) ~= "table" then
+	JSON_NULL = {}
+	_G.JSON_NULL = JSON_NULL
+end
+
+local function getScriptDirectory()
+	local info = debug and debug.getinfo and debug.getinfo(1, "S") or nil
+	local source = info and info.source or nil
+	if type(source) ~= "string" or source == "" then
+		return "."
+	end
+	if source:sub(1, 1) == "@" then
+		source = source:sub(2)
+	end
+	source = source:gsub("\\", "/")
+	local dir = source:match("^(.*)/[^/]+$")
+	if type(dir) == "string" and dir ~= "" then
+		return dir
+	end
+	return "."
+end
+
 local NULL_EXPORT = {
-	baseDir = "/Users/USERNAME/Repos/vsrecorder/PokemonNullBattleLogs",
+	baseDir = getScriptDirectory(),
 	mapFile = "attempt_map.json",
-	boxFile = "Box.json",
 	fullBattleLogsDir = "full_battle_logs",
 	version = "pokeemerald-expansion",
 	defaultTrainerKey = "unknown:unknown",
@@ -3996,15 +4159,20 @@ local nullExportState = {
 		attempt = nil,
 		attemptDir = nil,
 		masterPath = nil,
-		boxPath = nil,
 	},
 	eventsByAttempt = {},
 	sessionCounterByAttempt = {},
 	lastBoxMetaByAttempt = {},
+	cachedBoxPayloadByAttempt = {},
 }
 
 -- Forward declaration for helpers defined later but used by early export writers.
 local logNullBattle
+-- <<< END 01_battle_config_state.lua
+
+-- >>> BEGIN 02_json_fs_export.lua
+-- Module Index: 02_json_fs_export
+-- Owns: JSON encoding, filesystem helpers, attempt context, and battle log/master file writers.
 
 local function battleHex8(v)
 	if v == nil then
@@ -4038,7 +4206,7 @@ end
 
 local function jsonEncode(value)
 	local valueType = type(value)
-	if value == nil then
+	if value == nil or value == JSON_NULL then
 		return "null"
 	elseif valueType == "boolean" then
 		return value and "true" or "false"
@@ -4072,23 +4240,106 @@ local function jsonEncode(value)
 	return "null"
 end
 
-local function shellQuote(path)
-	return "\"" .. tostring(path or ""):gsub("\"", "\\\"") .. "\""
+local ensuredDirCache = {}
+
+local function pathExists(path)
+	if not path or path == "" then
+		return false
+	end
+	local ok, _err, code = os.rename(path, path)
+	if ok then
+		return true
+	end
+	-- Lua commonly returns code=13 when the path exists but permissions differ.
+	return tonumber(code) == 13
+end
+
+local function quoteForCmd(path)
+	return "\"" .. tostring(path or ""):gsub("\"", "\"\"") .. "\""
+end
+
+local function quoteForSh(path)
+	return "'" .. tostring(path or ""):gsub("'", "'\\''") .. "'"
+end
+
+local function isLikelyWindowsPath(path)
+	local text = tostring(path or "")
+	if text:match("^%a:[/\\]") then
+		return true
+	end
+	if text:find("\\", 1, true) then
+		return true
+	end
+	if os and os.getenv then
+		if os.getenv("ComSpec") or os.getenv("WINDIR") then
+			return true
+		end
+	end
+	return false
+end
+
+local function getBundlePlatformMode()
+	local raw = rawget(_G, "NULL_BUILD_PLATFORM")
+	if raw == nil then
+		return "auto"
+	end
+	local mode = tostring(raw):lower()
+	if mode == "windows" or mode == "nonwindows" then
+		return mode
+	end
+	return "auto"
 end
 
 local function ensureDir(path)
 	if not path or path == "" then
 		return false
 	end
-	local ok = os.execute("mkdir -p " .. shellQuote(path))
-	return ok == true or ok == 0
+	if ensuredDirCache[path] ~= nil then
+		return ensuredDirCache[path]
+	end
+	if pathExists(path) then
+		ensuredDirCache[path] = true
+		return true
+	end
+
+	local normalizedWinPath = tostring(path):gsub("/", "\\")
+	local windowsCmd = "mkdir " .. quoteForCmd(normalizedWinPath)
+	local unixCmd = "mkdir -p " .. quoteForSh(path)
+	local mode = getBundlePlatformMode()
+	local likelyWindows = (mode == "windows") or (mode == "auto" and isLikelyWindowsPath(path))
+	local commands
+	if mode == "windows" then
+		commands = { windowsCmd }
+	elseif mode == "nonwindows" then
+		commands = { unixCmd }
+	elseif likelyWindows then
+		commands = { windowsCmd, unixCmd }
+	else
+		commands = { unixCmd, windowsCmd }
+	end
+
+	for i = 1, #commands do
+		local ok = os.execute(commands[i])
+		if ok == true or ok == 0 then
+			ensuredDirCache[path] = true
+			return true
+		end
+		if pathExists(path) then
+			ensuredDirCache[path] = true
+			return true
+		end
+	end
+
+	ensuredDirCache[path] = false
+	return false
 end
 
 local function ensureDirForFile(path)
 	if not path then
 		return false
 	end
-	local dir = path:match("^(.*)/[^/]+$")
+	local norm = tostring(path):gsub("\\", "/")
+	local dir = norm:match("^(.*)/[^/]+$")
 	if not dir or dir == "" then
 		return false
 	end
@@ -4287,10 +4538,6 @@ local function getMasterPath(attempt)
 	return string.format("%s/attempt_%d.json", dir, attempt)
 end
 
-local function getBoxPath(attempt)
-	return string.format("%s/%s", getAttemptDir(attempt), NULL_EXPORT.boxFile)
-end
-
 local function getFullBattleLogsDir(attempt)
 	return string.format("%s/%s", getAttemptDir(attempt), NULL_EXPORT.fullBattleLogsDir)
 end
@@ -4331,7 +4578,6 @@ local function ensureExportContext()
 	nullExportState.current.attempt = attempt
 	nullExportState.current.attemptDir = attemptDir
 	nullExportState.current.masterPath = getMasterPath(attempt)
-	nullExportState.current.boxPath = getBoxPath(attempt)
 
 	if not nullExportState.eventsByAttempt[attempt] then
 		nullExportState.eventsByAttempt[attempt] = {}
@@ -4406,6 +4652,46 @@ local function getPartyStartSlotsForSession()
 	return slots
 end
 
+local function buildPartyMetLocationsPayload(partySlots)
+	local list = {}
+	local monStart = partyloc
+	for i = 1, partySlots do
+		local mon = readPartyMon(monStart)
+		monStart = monStart + partyMonSize
+		if mon and mon.species and mon.species > 0 then
+			list[#list + 1] = {
+				slot = i - 1,
+				species = mon.species,
+				speciesName = mons[mon.species] or tostring(mon.species),
+				metLocationId = mon.metLocation or 0,
+				metLocation = getMetLocationName(mon.metLocation),
+			}
+		end
+	end
+	return list
+end
+
+local function buildBoxMetLocationsPayload(boxSlotsDumped)
+	local list = {}
+	local slotsPerBox = 30
+	local address = storageLoc + 4
+	for i = 0, boxSlotsDumped - 1 do
+		local mon = readBoxMon(address + (i * boxMonSize))
+		if mon and mon.species and mon.species > 0 then
+			list[#list + 1] = {
+				slot = i,
+				box = math.floor(i / slotsPerBox) + 1,
+				boxSlot = (i % slotsPerBox) + 1,
+				species = mon.species,
+				speciesName = mons[mon.species] or tostring(mon.species),
+				metLocationId = mon.metLocation or 0,
+				metLocation = getMetLocationName(mon.metLocation),
+			}
+		end
+	end
+	return list
+end
+
 local function buildPartyBoxPayloadForAttempt(ctx)
 	local pCount = emu:read8(partyCount) or 0
 	if pCount < 0 then pCount = 0 end
@@ -4424,31 +4710,30 @@ local function buildPartyBoxPayloadForAttempt(ctx)
 		boxesEncoding = "hex",
 		party = bytesToHex(partyloc, pCount * partyMonSize),
 		boxes = bytesToHex(storageLoc + 4, slots * boxMonSize),
+		partyMetLocations = buildPartyMetLocationsPayload(pCount),
+		boxMetLocations = buildBoxMetLocationsPayload(slots),
 	}
 end
 
-local function writeCurrentAttemptBox()
-	local ctx = ensureExportContext()
+local function cacheCurrentAttemptBoxPayload(ctx)
 	local payload = buildPartyBoxPayloadForAttempt(ctx)
-	ensureDirForFile(ctx.boxPath)
-	local f = io.open(ctx.boxPath, "w")
-	if not f then
-		logNullBattle(string.format("WARN: could not write box payload to %s", tostring(ctx.boxPath)))
-		return nil
-	end
-	f:write(jsonEncode(payload))
-	f:write("\n")
-	f:close()
 	nullExportState.lastBoxMetaByAttempt[ctx.attempt] = {
 		updatedAt = os.date("%Y-%m-%dT%H:%M:%S"),
 		partyCount = payload.partyCount,
 		boxSlotsDumped = payload.boxSlotsDumped,
 	}
+	nullExportState.cachedBoxPayloadByAttempt[ctx.attempt] = payload
 	return payload
 end
 
-local function writeCurrentAttemptMaster(boxPayload)
+local function writeCurrentAttemptMaster(refreshBoxPayload)
 	local events, ctx = getCurrentAttemptEvents()
+	local boxPayload = nil
+	if refreshBoxPayload then
+		boxPayload = cacheCurrentAttemptBoxPayload(ctx)
+	else
+		boxPayload = nullExportState.cachedBoxPayloadByAttempt[ctx.attempt]
+	end
 	local boxMeta = nullExportState.lastBoxMetaByAttempt[ctx.attempt] or {}
 	if boxPayload then
 		boxMeta = {
@@ -4470,10 +4755,10 @@ local function writeCurrentAttemptMaster(boxPayload)
 			eventCount = #events,
 		},
 		box = {
-			file = NULL_EXPORT.boxFile,
 			updatedAt = boxMeta.updatedAt,
 			partyCount = boxMeta.partyCount,
 			boxSlotsDumped = boxMeta.boxSlotsDumped,
+			payload = boxPayload or JSON_NULL,
 		},
 	}
 
@@ -4498,6 +4783,9 @@ local function appendBattleLogEvent(record)
 end
 
 local function appendFullBattleEvent(record)
+	if not NULL_BATTLE.writeFullBattleLog then
+		return
+	end
 	if not record or type(record) ~= "table" then
 		return
 	end
@@ -4596,6 +4884,11 @@ local function nextSyntheticSessionTrainerId()
 	nullExportState.sessionCounterByAttempt[attempt] = nextCount
 	return attempt * 1000000 + nextCount
 end
+-- <<< END 02_json_fs_export.lua
+
+-- >>> BEGIN 03_battle_runtime_decode.lua
+-- Module Index: 03_battle_runtime_decode
+-- Owns: battle runtime reads/decoding and low-level write helpers for live battle state.
 
 local function readU16LE(addr)
 	local b0 = emu:read8(addr)
@@ -4615,6 +4908,18 @@ local function readU32LE(addr)
 		return nil
 	end
 	return ((b0 | (b1 << 8) | (b2 << 16) | (b3 << 24)) & 0xFFFFFFFF)
+end
+
+local function readS8(addr)
+	local b = emu:read8(addr)
+	if b == nil then
+		return nil
+	end
+	b = b & 0xFF
+	if b >= 0x80 then
+		return b - 0x100
+	end
+	return b
 end
 
 local function getEnemyPartyCountFallback()
@@ -4651,6 +4956,30 @@ local function readPlayerSpeciesByPartyIndex(partyIndex)
 	return nil
 end
 
+function readPlayerPartyMonByPartyIndex(partyIndex)
+	if partyIndex == nil then
+		return nil, nil
+	end
+	local idx = tonumber(partyIndex)
+	if idx == nil then
+		return nil, nil
+	end
+	idx = math.floor(idx)
+	if idx < 0 then
+		return nil, nil
+	end
+	local count = emu:read8(partyCount)
+	if count == nil or idx >= count then
+		return nil, nil
+	end
+	local monAddr = partyloc + idx * partyMonSize
+	local mon = readPartyMon(monAddr)
+	if not mon or not mon.species or mon.species <= 0 then
+		return nil, nil
+	end
+	return mon, monAddr
+end
+
 local function readBattleSnapshot(battler)
 	local posAddr = NULL_BATTLE.addresses.gBattlerPositions + battler
 	local idxAddr = NULL_BATTLE.addresses.gBattlerPartyIndexes + battler * 2
@@ -4677,6 +5006,10 @@ local function readBattleSnapshot(battler)
 		moves[i + 1] = readU16LE(monAddr + NULL_BATTLE.struct.movesOffset + i * 2)
 		pps[i + 1] = emu:read8(monAddr + NULL_BATTLE.struct.ppOffset + i)
 	end
+	local statStages = {}
+	for i = 0, (NULL_BATTLE.struct.statStagesCount or 0) - 1 do
+		statStages[i + 1] = readS8(monAddr + NULL_BATTLE.struct.statStagesOffset + i)
+	end
 
 	return {
 		battler = battler,
@@ -4689,10 +5022,11 @@ local function readBattleSnapshot(battler)
 		level = level,
 		moves = moves,
 		pp = pps,
+		statStages = statStages,
 	}
 end
 
-local function gatherBattleRuntime()
+function gatherBattleRuntime()
 	local battlersCount = emu:read8(NULL_BATTLE.addresses.gBattlersCount)
 	if battlersCount ~= 2 and battlersCount ~= 4 then
 		return nil
@@ -5003,12 +5337,18 @@ local BATTLE_CONSOLE_EVENT_PREFIXES = {
 	HP = true,
 	KO = true,
 	KO_UPDATE = true,
+	STAT_STAGE = true,
 	BOUNDARY_PENDING = true,
 	BOUNDARY_TIMEOUT = true,
 	BOUNDARY_KEY_CHANGE = true,
 	OWNER_TRAINER_KEY = true,
 	FULL_BATTLE_LOG = true,
 }
+-- <<< END 03_battle_runtime_decode.lua
+
+-- >>> BEGIN 04_shared_helpers.lua
+-- Module Index: 04_shared_helpers
+-- Owns: shared formatting/lookup/parse helpers and trainer key utilities.
 
 local function shouldPrintNullBattleMessage(msg)
 	if not NULL_BATTLE.consoleStartEndOnly then
@@ -5623,6 +5963,285 @@ local function resolveCurrentPlayerOtId()
 	end
 	return nil, nil, nil, "could not resolve current player OT id from party"
 end
+
+STATUS1_SLEEP = 0x00000007
+STATUS1_POISON = 0x00000008
+STATUS1_BURN = 0x00000010
+STATUS1_FREEZE = 0x00000020
+STATUS1_PARALYSIS = 0x00000040
+STATUS1_TOXIC_COUNTER = 0x00000F00
+-- <<< END 04_shared_helpers.lua
+
+-- >>> BEGIN 05_battle_state_payload.lua
+-- Module Index: 05_battle_state_payload
+-- Owns: /battle_state payload builders and battle-state view-model formatting.
+
+function jsonOrNull(value)
+	if value == nil then
+		return JSON_NULL
+	end
+	return value
+end
+
+function decodeStatusNameFromRaw(statusRaw)
+	local raw = tonumber(statusRaw)
+	if raw == nil then
+		return nil
+	end
+	raw = math.floor(raw) & 0xFFFFFFFF
+	if (raw & STATUS1_SLEEP) ~= 0 then
+		return "SLP"
+	end
+	if (raw & STATUS1_POISON) ~= 0 then
+		if (raw & STATUS1_TOXIC_COUNTER) ~= 0 then
+			return "TOX"
+		end
+		return "PSN"
+	end
+	if (raw & STATUS1_BURN) ~= 0 then
+		return "BRN"
+	end
+	if (raw & STATUS1_FREEZE) ~= 0 then
+		return "FRZ"
+	end
+	if (raw & STATUS1_PARALYSIS) ~= 0 then
+		return "PAR"
+	end
+	return nil
+end
+
+function resolveCurrentTrainerIdsForHttp()
+	local _otId, trainerId, secretId, _err = resolveCurrentPlayerOtId()
+	if trainerId == nil or secretId == nil then
+		return nil, nil
+	end
+	return trainerId, secretId
+end
+
+function getSpeciesNameForBattleState(speciesId)
+	local species = tonumber(speciesId)
+	if species == nil or species <= 0 then
+		return "Unknown"
+	end
+	if type(mons) == "table" then
+		local name = mons[species]
+		if type(name) == "string" and name ~= "" then
+			return name
+		end
+	end
+	return tostring(species)
+end
+
+function getHeldItemNameForBattleState(heldItemId)
+	local itemId = tonumber(heldItemId) or 0
+	itemId = math.floor(itemId)
+	if itemId <= 0 then
+		return nil
+	end
+	if type(item) == "table" then
+		local name = item[itemId]
+		if type(name) == "string" and name ~= "" then
+			return name
+		end
+	end
+	return tostring(itemId)
+end
+
+BATTLE_STATE_STAT_NAMES = {
+	"hp",
+	"atk",
+	"def",
+	"speed",
+	"spAtk",
+	"spDef",
+	"accuracy",
+	"evasion",
+}
+
+function decodeBattleStateStageValue(raw)
+	if raw == nil then
+		return nil
+	end
+	local n = math.floor(tonumber(raw) or 0)
+	if n >= 0 and n <= 12 then
+		return n - 6
+	end
+	if n >= 128 then
+		return n - 256
+	end
+	return n
+end
+
+function buildBattleStateStatStages(snap)
+	local out = {}
+	for i = 1, #BATTLE_STATE_STAT_NAMES do
+		local name = BATTLE_STATE_STAT_NAMES[i]
+		local raw = snap and snap.statStages and snap.statStages[i] or nil
+		out[name] = jsonOrNull(decodeBattleStateStageValue(raw))
+	end
+	return out
+end
+
+function buildBattleStateStatStageChanges(prevSnap, currSnap)
+	local changes = {}
+	if type(prevSnap) ~= "table" or type(currSnap) ~= "table" then
+		return changes
+	end
+	if type(prevSnap.statStages) ~= "table" or type(currSnap.statStages) ~= "table" then
+		return changes
+	end
+	for i = 1, #BATTLE_STATE_STAT_NAMES do
+		local beforeRaw = prevSnap.statStages[i]
+		local afterRaw = currSnap.statStages[i]
+		if beforeRaw ~= nil and afterRaw ~= nil and beforeRaw ~= afterRaw then
+			local before = decodeBattleStateStageValue(beforeRaw)
+			local after = decodeBattleStateStageValue(afterRaw)
+			changes[#changes + 1] = {
+				stat = BATTLE_STATE_STAT_NAMES[i],
+				before = jsonOrNull(before),
+				after = jsonOrNull(after),
+				delta = (before ~= nil and after ~= nil) and (after - before) or JSON_NULL,
+				beforeRaw = beforeRaw,
+				afterRaw = afterRaw,
+			}
+		end
+	end
+	return changes
+end
+
+function buildBattleStateBattlerObject(snap, prevSnap)
+	local battler = tonumber(snap and snap.battler) or 0
+	local partyIndex = tonumber(snap and snap.partyIndex)
+	if partyIndex ~= nil then
+		partyIndex = math.floor(partyIndex)
+	end
+	local sideText = ((snap and snap.side) == 1) and "enemy" or "player"
+	local battleMonAddr = NULL_BATTLE.addresses.gBattleMons + battler * NULL_BATTLE.struct.battleMonSize
+	local moves = {}
+	local movePps = {}
+	for i = 1, 4 do
+		local moveId = tonumber(snap and snap.moves and snap.moves[i]) or 0
+		moveId = math.floor(moveId)
+		if moveId < 0 then
+			moveId = 0
+		end
+		moves[i] = getMoveNameById(moveId)
+		movePps[i] = tonumber(snap and snap.pp and snap.pp[i]) or 0
+	end
+
+	local out = {
+		battler = battler,
+		side = sideText,
+		activePartySlot = (partyIndex ~= nil and partyIndex >= 0) and (partyIndex + 1) or 0,
+		battleMonAddr = battleMonAddr,
+		partyMonAddr = JSON_NULL,
+		pid = JSON_NULL,
+		species = getSpeciesNameForBattleState(snap and snap.species),
+		currentHp = tonumber(snap and snap.hp) or 0,
+		moves = moves,
+		ability = JSON_NULL,
+		nature = JSON_NULL,
+		heldItem = JSON_NULL,
+		status = JSON_NULL,
+		statusRaw = JSON_NULL,
+		movePPs = movePps,
+		statStages = buildBattleStateStatStages(snap),
+		statStageChanges = buildBattleStateStatStageChanges(prevSnap, snap),
+		rawBattleStats = {
+			attack = JSON_NULL,
+			defense = JSON_NULL,
+			speed = JSON_NULL,
+			spAttack = JSON_NULL,
+			spDefense = JSON_NULL,
+		},
+	}
+
+	if sideText ~= "player" then
+		return out
+	end
+
+	local partyMon, partyMonAddr = readPlayerPartyMonByPartyIndex(partyIndex)
+	if not partyMon then
+		return out
+	end
+	out.partyMonAddr = jsonOrNull(partyMonAddr)
+	out.pid = jsonOrNull(tonumber(partyMon.personality))
+	out.heldItem = jsonOrNull(getHeldItemNameForBattleState(partyMon.heldItem))
+
+	local okAbility, abilityName = pcall(getAbility, partyMon)
+	if okAbility and type(abilityName) == "string" and abilityName ~= "" then
+		out.ability = abilityName
+	end
+
+	local okNature, natureName = pcall(getNature, partyMon)
+	if okNature and type(natureName) == "string" and natureName ~= "" then
+		out.nature = natureName
+	end
+
+	local statusRaw = tonumber(partyMon.status)
+	if statusRaw ~= nil then
+		statusRaw = math.floor(statusRaw) & 0xFFFFFFFF
+	end
+	out.statusRaw = jsonOrNull(statusRaw)
+	out.status = jsonOrNull(decodeStatusNameFromRaw(statusRaw))
+
+	out.rawBattleStats = {
+		attack = jsonOrNull(tonumber(partyMon.attack)),
+		defense = jsonOrNull(tonumber(partyMon.defense)),
+		speed = jsonOrNull(tonumber(partyMon.speed)),
+		spAttack = jsonOrNull(tonumber(partyMon.spAttack)),
+		spDefense = jsonOrNull(tonumber(partyMon.spDefense)),
+	}
+	return out
+end
+
+function buildBattleStatePayload()
+	local trainerId, secretId = resolveCurrentTrainerIdsForHttp()
+	local payload = {
+		trainerId = jsonOrNull(trainerId),
+		secretId = jsonOrNull(secretId),
+		playerActive = {},
+		trainerActive = {},
+	}
+	local baselineSnapshots = type(nullBattleState.prevSnapshots) == "table" and nullBattleState.prevSnapshots or nil
+	local runtime = gatherBattleRuntime()
+	if runtime == nil and nullBattleState.sessionActive and baselineSnapshots ~= nil then
+		local trackedCount = 0
+		for b = 0, 3 do
+			if type(baselineSnapshots[b]) == "table" then
+				trackedCount = trackedCount + 1
+			end
+		end
+		if trackedCount > 0 then
+			runtime = {
+				battlersCount = 4,
+				snapshots = baselineSnapshots,
+			}
+		end
+	end
+	if not runtime or type(runtime.snapshots) ~= "table" then
+		return payload
+	end
+	for b = 0, runtime.battlersCount - 1 do
+		local snap = runtime.snapshots[b]
+		local speciesId = tonumber(snap and snap.species) or 0
+		if speciesId > 0 then
+			local prevSnap = baselineSnapshots and baselineSnapshots[b] or nil
+			local monData = buildBattleStateBattlerObject(snap, prevSnap)
+			if snap.side == 1 then
+				payload.trainerActive[#payload.trainerActive + 1] = monData
+			else
+				payload.playerActive[#payload.playerActive + 1] = monData
+			end
+		end
+	end
+	return payload
+end
+-- <<< END 05_battle_state_payload.lua
+
+-- >>> BEGIN 06_box_create_edit.lua
+-- Module Index: 06_box_create_edit
+-- Owns: box slot create/edit decode/encode logic and encrypted write helpers.
 
 local function getCreateBoxDefaults(speciesName, level)
 	local defaults = {
@@ -6260,6 +6879,11 @@ formatPendingTrainerOverride = function(pending)
 	end
 	return table.concat(parts, " ")
 end
+-- <<< END 06_box_create_edit.lua
+
+-- >>> BEGIN 07_trainer_override_session.lua
+-- Module Index: 07_trainer_override_session
+-- Owns: next-trainer overrides, session lifecycle logging, and battle event emission.
 
 local function buildPendingMoveOverrideFromArgs(...)
 	local args = { ... }
@@ -6439,7 +7063,6 @@ local function emitSessionStart(rt, initialEnemyTrainerKey)
 	nullBattleState.sessionFirstEnemyLevel = nil
 	nullBattleState.actionIndex = 0
 	nullBattleState.prevSnapshots = {}
-	nullBattleState.lastMoveByBattler = {}
 	nullBattleState.koHistory = {}
 	nullBattleState.fullEvents = {}
 
@@ -6479,16 +7102,18 @@ local function emitSessionStart(rt, initialEnemyTrainerKey)
 		trainerId = nullBattleState.sessionTrainerDisplayId,
 		pParty = buildPartySnapshotForBattleLog(),
 	})
-	appendFullBattleEvent({
-		type = "session_start",
-		actionIndex = 0,
-		signature = sig,
-		syntheticTrainerId = nullBattleState.sessionTrainerDisplayId,
-		battlers = rt.battlersCount,
-		enemyPartyCount = rt.enemyPartyCount,
-		ownerTrainerKey = nullBattleState.sessionOwnerTrainerKey,
-		partyStart = partyStartSlots,
-	})
+	if NULL_BATTLE.writeFullBattleLog then
+		appendFullBattleEvent({
+			type = "session_start",
+			actionIndex = 0,
+			signature = sig,
+			syntheticTrainerId = nullBattleState.sessionTrainerDisplayId,
+			battlers = rt.battlersCount,
+			enemyPartyCount = rt.enemyPartyCount,
+			ownerTrainerKey = nullBattleState.sessionOwnerTrainerKey,
+			partyStart = partyStartSlots,
+		})
+	end
 
 	for b = 0, rt.battlersCount - 1 do
 		local snap = rt.snapshots[b]
@@ -6506,16 +7131,18 @@ local function emitSessionStart(rt, initialEnemyTrainerKey)
 			snap.maxHP,
 			snap.level
 		))
-		appendFullBattleEvent({
-			type = "session_active_hp",
-			actionIndex = 0,
-			battler = b,
-			side = snap.side,
-			species = snap.species,
-			hp = snap.hp,
-			maxHP = snap.maxHP,
-			level = snap.level,
-		})
+		if NULL_BATTLE.writeFullBattleLog then
+			appendFullBattleEvent({
+				type = "session_active_hp",
+				actionIndex = 0,
+				battler = b,
+				side = snap.side,
+				species = snap.species,
+				hp = snap.hp,
+				maxHP = snap.maxHP,
+				level = snap.level,
+			})
+		end
 	end
 end
 
@@ -6531,15 +7158,16 @@ local function emitSessionEnd()
 	appendBattleLogEvent({
 		type = "session_end",
 	})
-	appendFullBattleEvent({
-		type = "session_end",
-		actionIndex = nullBattleState.actionIndex,
-		signature = nullBattleState.sessionSignature,
-		koList = formatKoHistory(nullBattleState.koHistory),
-	})
-	writeSessionFullBattleLog()
-	local payload = writeCurrentAttemptBox()
-	writeCurrentAttemptMaster(payload)
+	if NULL_BATTLE.writeFullBattleLog then
+		appendFullBattleEvent({
+			type = "session_end",
+			actionIndex = nullBattleState.actionIndex,
+			signature = nullBattleState.sessionSignature,
+			koList = formatKoHistory(nullBattleState.koHistory),
+		})
+		writeSessionFullBattleLog()
+	end
+	writeCurrentAttemptMaster(true)
 	logNullBattle(string.format(
 		"BATTLE_END actionIndex=%d koList=[%s]",
 		nullBattleState.actionIndex,
@@ -6552,7 +7180,6 @@ local function emitSessionEnd()
 	nullBattleState.sessionFirstEnemySpecies = nil
 	nullBattleState.sessionFirstEnemyLevel = nil
 	nullBattleState.prevSnapshots = {}
-	nullBattleState.lastMoveByBattler = {}
 	nullBattleState.koHistory = {}
 	nullBattleState.fullEvents = {}
 	nullBattleState.actionIndex = 0
@@ -6581,89 +7208,22 @@ local function startBoundary(reason)
 	))
 end
 
-local function detectMoveFromPpDrop(prevSnap, currSnap)
-	local bestSlot = nil
-	local bestDrop = 0
-	for i = 1, 4 do
-		local before = prevSnap.pp[i] or 0
-		local after = currSnap.pp[i] or 0
-		if before > after then
-			local drop = before - after
-			if drop > bestDrop then
-				bestDrop = drop
-				bestSlot = i
-			end
-		end
-	end
-	if not bestSlot then
-		return nil
-	end
-	return {
-		slot = bestSlot,
-		ppBefore = prevSnap.pp[bestSlot],
-		ppAfter = currSnap.pp[bestSlot],
-		moveId = currSnap.moves[bestSlot],
-	}
-end
-
-local function emitMoveEvent(snap, move)
-	nullBattleState.actionIndex = nullBattleState.actionIndex + 1
-	local moveId = move.moveId
-	if moveId == nil or moveId == 0 then
-		moveId = nil
-	end
-	nullBattleState.lastMoveByBattler[snap.battler] = {
-		moveId = moveId,
-		actionIndex = nullBattleState.actionIndex,
-		species = snap.species,
-		side = snap.side,
-	}
-	logNullBattle(string.format(
-		"MOVE actionIndex=%d battler=%d side=%d species=%s moveId=%s moveSlot=%d ppBefore=%s ppAfter=%s",
-		nullBattleState.actionIndex,
-		snap.battler,
-		snap.side,
-		tostring(snap.species),
-		tostring(moveId),
-		move.slot,
-		tostring(move.ppBefore),
-		tostring(move.ppAfter)
-	))
-	appendFullBattleEvent({
-		type = "move",
-		actionIndex = nullBattleState.actionIndex,
-		battler = snap.battler,
-		side = snap.side,
-		species = snap.species,
-		moveId = moveId,
-		moveSlot = move.slot,
-		ppBefore = move.ppBefore,
-		ppAfter = move.ppAfter,
-	})
-end
-
 local function pickKoAttribution(koSnap, runtime)
 	local oppSide = koSnap.side ~ 1
 	local bestSnap = nil
-	local bestMove = nil
 	for b = 0, runtime.battlersCount - 1 do
 		local snap = runtime.snapshots[b]
 		if snap and snap.side == oppSide and snap.hp > 0 then
-			local lm = nullBattleState.lastMoveByBattler[b]
 			if not bestSnap then
 				bestSnap = snap
-				bestMove = lm
 			else
-				local bestIdx = bestMove and bestMove.actionIndex or -1
-				local candIdx = lm and lm.actionIndex or -1
-				if candIdx > bestIdx or (candIdx == bestIdx and snap.battler < bestSnap.battler) then
+				if snap.battler < bestSnap.battler then
 					bestSnap = snap
-					bestMove = lm
 				end
 			end
 		end
 	end
-	return bestSnap, bestMove
+	return bestSnap
 end
 
 local function emitHpAndKoEvent(currSnap, prevSnap, runtime)
@@ -6672,54 +7232,32 @@ local function emitHpAndKoEvent(currSnap, prevSnap, runtime)
 	if hpBefore == hpAfter then
 		return
 	end
-	logNullBattle(string.format(
-		"HP actionIndex=%d battler=%d side=%d species=%s hpBefore=%d hpAfter=%d maxHP=%d",
-		nullBattleState.actionIndex,
-		currSnap.battler,
-		currSnap.side,
-		tostring(currSnap.species),
-		hpBefore,
-		hpAfter,
-		currSnap.maxHP
-	))
-	appendFullBattleEvent({
-		type = "hp",
-		actionIndex = nullBattleState.actionIndex,
-		battler = currSnap.battler,
-		side = currSnap.side,
-		species = currSnap.species,
-		hpBefore = hpBefore,
-		hpAfter = hpAfter,
-		maxHP = currSnap.maxHP,
-	})
-
 	if hpBefore > 0 and hpAfter == 0 then
-		local nonKoSnap, lastMove = pickKoAttribution(currSnap, runtime)
+		nullBattleState.actionIndex = nullBattleState.actionIndex + 1
+		local nonKoSnap = pickKoAttribution(currSnap, runtime)
 		nullBattleState.koHistory[#nullBattleState.koHistory + 1] = currSnap.species
 		logNullBattle(string.format(
-			"KO actionIndex=%d koBattler=%d koSide=%d koSpecies=%s nonKoBattler=%s nonKoSide=%s nonKoSpecies=%s lastMoveId=%s lastMoveActionIndex=%s",
+			"KO actionIndex=%d koBattler=%d koSide=%d koSpecies=%s nonKoBattler=%s nonKoSide=%s nonKoSpecies=%s",
 			nullBattleState.actionIndex,
 			currSnap.battler,
 			currSnap.side,
 			tostring(currSnap.species),
 			nonKoSnap and tostring(nonKoSnap.battler) or "null",
 			nonKoSnap and tostring(nonKoSnap.side) or "null",
-			nonKoSnap and tostring(nonKoSnap.species) or "null",
-			lastMove and tostring(lastMove.moveId) or "null",
-			lastMove and tostring(lastMove.actionIndex) or "null"
+			nonKoSnap and tostring(nonKoSnap.species) or "null"
 		))
-		appendFullBattleEvent({
-			type = "ko",
-			actionIndex = nullBattleState.actionIndex,
-			koBattler = currSnap.battler,
-			koSide = currSnap.side,
-			koSpecies = currSnap.species,
-			nonKoBattler = nonKoSnap and nonKoSnap.battler or nil,
-			nonKoSide = nonKoSnap and nonKoSnap.side or nil,
-			nonKoSpecies = nonKoSnap and nonKoSnap.species or nil,
-			lastMoveId = lastMove and lastMove.moveId or nil,
-			lastMoveActionIndex = lastMove and lastMove.actionIndex or nil,
-		})
+		if NULL_BATTLE.writeFullBattleLog then
+			appendFullBattleEvent({
+				type = "ko",
+				actionIndex = nullBattleState.actionIndex,
+				koBattler = currSnap.battler,
+				koSide = currSnap.side,
+				koSpecies = currSnap.species,
+				nonKoBattler = nonKoSnap and nonKoSnap.battler or nil,
+				nonKoSide = nonKoSnap and nonKoSnap.side or nil,
+				nonKoSpecies = nonKoSnap and nonKoSnap.species or nil,
+			})
+		end
 		logNullBattle(string.format(
 			"KO_UPDATE latest=%s koList=[%s]",
 			formatSpeciesDisplay(currSnap.species),
@@ -6733,7 +7271,6 @@ local function emitHpAndKoEvent(currSnap, prevSnap, runtime)
 				turn = nullBattleState.actionIndex,
 				pSpecies = killerSpecies,
 				aiSpecies = currSnap.species,
-				move = lastMove and lastMove.moveId or nil,
 				aiPartySlot = currSnap.partyIndex,
 			})
 		else
@@ -6747,8 +7284,38 @@ local function emitHpAndKoEvent(currSnap, prevSnap, runtime)
 	end
 end
 
+local function getConfiguredPollFrames(sessionActive)
+	local raw = sessionActive and NULL_BATTLE.sessionActivePollFrames or NULL_BATTLE.sessionStartPollFrames
+	local n = math.floor(tonumber(raw) or 1)
+	if n < 1 then
+		return 1
+	end
+	return n
+end
+
+local function shouldPollOnThisFrame(frameNow)
+	local pollEvery = getConfiguredPollFrames(nullBattleState.sessionActive)
+	local elapsed = frameNow - (tonumber(nullBattleState.lastRuntimePollFrame) or 0)
+	if elapsed < 1 then
+		elapsed = 1
+	end
+	local hasPendingOverride = (not nullBattleState.sessionActive) and type(nextTrainerMovesetState.pending) == "table"
+	if hasPendingOverride then
+		return true, elapsed
+	end
+	if elapsed < pollEvery then
+		return false, elapsed
+	end
+	return true, elapsed
+end
+
 function updateNullBattleLogger()
 	nullBattleState.frame = nullBattleState.frame + 1
+	local shouldPoll, elapsedFrames = shouldPollOnThisFrame(nullBattleState.frame)
+	if not shouldPoll then
+		return
+	end
+	nullBattleState.lastRuntimePollFrame = nullBattleState.frame
 	local runtime = gatherBattleRuntime()
 	if runtime and tryApplyPendingNextTrainerMovesetOverride(runtime, nullBattleState.sessionActive and "session_active" or "session_start") then
 		runtime = gatherBattleRuntime() or runtime
@@ -6768,7 +7335,7 @@ function updateNullBattleLogger()
 			-- In-battle decode drops are expected during transitions; do not age timeout.
 			return
 		end
-		nullBattleState.pendingBoundaryFrames = nullBattleState.pendingBoundaryFrames + 1
+		nullBattleState.pendingBoundaryFrames = nullBattleState.pendingBoundaryFrames + elapsedFrames
 		if nullBattleState.pendingBoundaryFrames >= NULL_BATTLE.sessionResetFrames then
 			logNullBattle(string.format(
 				"BOUNDARY_TIMEOUT frames=%d ownerTrainerKey=%s",
@@ -6813,413 +7380,16 @@ function updateNullBattleLogger()
 		local curr = runtime.snapshots[b]
 		local prev = nullBattleState.prevSnapshots[b]
 		if prev then
-			local move = detectMoveFromPpDrop(prev, curr)
-			if move then
-				emitMoveEvent(curr, move)
-			end
 			emitHpAndKoEvent(curr, prev, runtime)
 		end
 		nullBattleState.prevSnapshots[b] = curr
 	end
 end
+-- <<< END 07_trainer_override_session.lua
 
-local function toSigned32(raw)
-	if raw == nil then
-		return nil
-	end
-	raw = raw & 0xFFFFFFFF
-	if raw >= 0x80000000 then
-		return raw - 0x100000000
-	end
-	return raw
-end
-
-local function readS32(addr)
-	local raw = emu:read32(addr)
-	if raw == nil then
-		return nil
-	end
-	return toSigned32(raw)
-end
-
-local function getAiScoreSinglesContext()
-	local runtime = gatherBattleRuntime()
-	if not runtime then
-		return nil, "battle runtime unresolved"
-	end
-	if runtime.battlersCount ~= 2 then
-		return nil, string.format("singles-only helper; battlers=%d", runtime.battlersCount)
-	end
-
-	local enemySnap = nil
-	local playerSnap = nil
-	for b = 0, runtime.battlersCount - 1 do
-		local snap = runtime.snapshots[b]
-		if snap then
-			if snap.side == 1 and enemySnap == nil then
-				enemySnap = snap
-			elseif snap.side == 0 and playerSnap == nil then
-				playerSnap = snap
-			end
-		end
-	end
-	if not enemySnap or not playerSnap then
-		return nil, "could not identify enemy/player active battlers"
-	end
-
-	return {
-		runtime = runtime,
-		enemySnap = enemySnap,
-		playerSnap = playerSnap,
-	}, nil
-end
-
-local function scoreRowShape(values)
-	local primary = 0
-	local soft = 0
-	local nonZero = 0
-	local dev = 0
-	for i = 1, 4 do
-		local v = values[i]
-		if v == nil then
-			return nil
-		end
-		if v ~= 0 then
-			nonZero = nonZero + 1
-		end
-		if v >= AI_SCORE_SCAN.primaryMin and v <= AI_SCORE_SCAN.primaryMax then
-			primary = primary + 1
-		end
-		if v >= AI_SCORE_SCAN.softMin and v <= AI_SCORE_SCAN.softMax then
-			soft = soft + 1
-		end
-		dev = dev + math.abs(v - 95)
-	end
-
-	local keep = false
-	if primary >= 3 and soft == 4 then
-		keep = true
-	elseif primary >= 1 and soft == 4 and nonZero >= 2 then
-		keep = true
-	end
-	if not keep then
-		return nil
-	end
-
-	return {
-		primary = primary,
-		soft = soft,
-		nonZero = nonZero,
-		dev = dev,
-	}
-end
-
-local function extractAiScoreCandidates()
-	local candidates = {}
-	local count = 0
-	local startAddr = AI_SCORE_SCAN.ewramStart
-	local endAddr = AI_SCORE_SCAN.ewramEndExclusive - 16
-	for addr = startAddr, endAddr, 4 do
-		local v1 = readS32(addr + 0)
-		local v2 = readS32(addr + 4)
-		local v3 = readS32(addr + 8)
-		local v4 = readS32(addr + 12)
-		if v1 ~= nil and v2 ~= nil and v3 ~= nil and v4 ~= nil then
-			local values = { v1, v2, v3, v4 }
-			local shape = scoreRowShape(values)
-			if shape then
-				candidates[addr] = {
-					values = values,
-					shape = shape,
-				}
-				count = count + 1
-			end
-		end
-	end
-	return candidates, count
-end
-
-local function cloneMoveRow(moves)
-	local out = {}
-	for i = 1, 4 do
-		out[i] = moves and moves[i] or nil
-	end
-	return out
-end
-
-function captureAiScores(label)
-	local slot = tostring(label or ""):upper()
-	if slot ~= "A" and slot ~= "B" then
-		logNullBattle("AI_SCORE capture: label must be 'A' or 'B'.")
-		return
-	end
-
-	local ctx, err = getAiScoreSinglesContext()
-	if not ctx then
-		logNullBattle("AI_SCORE capture: " .. tostring(err))
-		return
-	end
-
-	local t0 = os.clock()
-	local candidates, candidateCount = extractAiScoreCandidates()
-	local elapsed = os.clock() - t0
-	aiScoreState.captures[slot] = {
-		capturedAt = os.time(),
-		enemyBattler = ctx.enemySnap.battler,
-		targetBattler = ctx.playerSnap.battler,
-		enemySpecies = ctx.enemySnap.species,
-		targetSpecies = ctx.playerSnap.species,
-		enemyMoves = cloneMoveRow(ctx.enemySnap.moves),
-		candidates = candidates,
-		candidateCount = candidateCount,
-	}
-
-	-- New capture invalidates previous lock until recalibrated.
-	aiScoreState.calibrated = false
-	aiScoreState.rowBaseAddr = nil
-	aiScoreState.enemyBattler = nil
-	aiScoreState.targetBattler = nil
-	aiScoreState.inferred.battleStructPtr = nil
-	aiScoreState.inferred.aiFinalScoreOffset = nil
-
-	logNullBattle(string.format(
-		"AI_SCORE capture[%s] candidates=%d elapsed=%.2fs enemyBattler=%d target=%d enemySpecies=%s targetSpecies=%s moves=[%s,%s,%s,%s]",
-		slot,
-		candidateCount,
-		elapsed,
-		ctx.enemySnap.battler,
-		ctx.playerSnap.battler,
-		tostring(ctx.enemySnap.species),
-		tostring(ctx.playerSnap.species),
-		tostring(ctx.enemySnap.moves[1]),
-		tostring(ctx.enemySnap.moves[2]),
-		tostring(ctx.enemySnap.moves[3]),
-		tostring(ctx.enemySnap.moves[4])
-	))
-end
-
-local function scoreDifferentialCandidate(aRec, bRec)
-	local totalDelta = 0
-	local maxDelta = 0
-	local changedSlots = 0
-	local sameSignSlots = 0
-	for i = 1, 4 do
-		local a = aRec.values[i]
-		local b = bRec.values[i]
-		local d = math.abs(a - b)
-		totalDelta = totalDelta + d
-		if d > maxDelta then
-			maxDelta = d
-		end
-		if d >= 2 then
-			changedSlots = changedSlots + 1
-		end
-		if (a >= 0 and b >= 0) or (a < 0 and b < 0) then
-			sameSignSlots = sameSignSlots + 1
-		end
-	end
-
-	local score = 0
-	score = score + (aRec.shape.primary + bRec.shape.primary) * 5
-	score = score + (aRec.shape.nonZero + bRec.shape.nonZero) * 2
-	score = score + changedSlots * 8
-	score = score + math.min(maxDelta, 80)
-	score = score + math.min(totalDelta, 160) / 2
-	score = score + sameSignSlots
-	score = score - math.floor((aRec.shape.dev + bRec.shape.dev) / 20)
-	if changedSlots == 0 then
-		score = score - 120
-	end
-	if totalDelta == 0 then
-		score = score - 120
-	end
-
-	return {
-		score = score,
-		totalDelta = totalDelta,
-		maxDelta = maxDelta,
-		changedSlots = changedSlots,
-	}
-end
-
-local function inferBattleStructFromRow(rowBaseAddr, enemyBattler, targetBattler)
-	if rowBaseAddr == nil or enemyBattler == nil or targetBattler == nil then
-		return nil, nil
-	end
-	local baseIndex = ((enemyBattler * 4) + targetBattler) * 4
-	local offsets = { 0x2A0, 0x29C, 0x2A4, 0x248 }
-	for i = 1, #offsets do
-		local off = offsets[i]
-		local ptr = rowBaseAddr - off - (baseIndex * 4)
-		if ptr >= AI_SCORE_SCAN.ewramStart and ptr < AI_SCORE_SCAN.ewramEndExclusive and (ptr % 4) == 0 then
-			return ptr, off
-		end
-	end
-	return nil, nil
-end
-
-function calibrateAiScores()
-	local capA = aiScoreState.captures.A
-	local capB = aiScoreState.captures.B
-	if not capA or not capB then
-		logNullBattle("AI_SCORE calibration missing captures. Run captureAiScores(\"A\") and captureAiScores(\"B\").")
-		return
-	end
-
-	if capA.enemyBattler ~= capB.enemyBattler or capA.targetBattler ~= capB.targetBattler then
-		logNullBattle(string.format(
-			"AI_SCORE calibration warning: battler mapping changed A(e=%s,t=%s) vs B(e=%s,t=%s). Continuing.",
-			tostring(capA.enemyBattler),
-			tostring(capA.targetBattler),
-			tostring(capB.enemyBattler),
-			tostring(capB.targetBattler)
-		))
-	end
-
-	local ranked = {}
-	for addr, aRec in pairs(capA.candidates) do
-		local bRec = capB.candidates[addr]
-		if bRec then
-			local diff = scoreDifferentialCandidate(aRec, bRec)
-			if diff.changedSlots > 0 then
-				ranked[#ranked + 1] = {
-					addr = addr,
-					a = aRec,
-					b = bRec,
-					score = diff.score,
-					totalDelta = diff.totalDelta,
-					maxDelta = diff.maxDelta,
-					changedSlots = diff.changedSlots,
-				}
-			end
-		end
-	end
-
-	table.sort(ranked, function(x, y)
-		if x.score ~= y.score then
-			return x.score > y.score
-		end
-		if x.changedSlots ~= y.changedSlots then
-			return x.changedSlots > y.changedSlots
-		end
-		if x.maxDelta ~= y.maxDelta then
-			return x.maxDelta > y.maxDelta
-		end
-		if x.totalDelta ~= y.totalDelta then
-			return x.totalDelta > y.totalDelta
-		end
-		return x.addr < y.addr
-	end)
-
-	local best = ranked[1]
-	if not best then
-		logNullBattle("AI_SCORE calibration failed: no intersecting A/B candidates with meaningful deltas.")
-		return
-	end
-
-	aiScoreState.calibrated = true
-	aiScoreState.rowBaseAddr = best.addr
-	aiScoreState.enemyBattler = capB.enemyBattler
-	aiScoreState.targetBattler = capB.targetBattler
-	aiScoreState.inferred.battleStructPtr, aiScoreState.inferred.aiFinalScoreOffset =
-		inferBattleStructFromRow(best.addr, capB.enemyBattler, capB.targetBattler)
-
-	logNullBattle(string.format(
-		"AI_SCORE calibrated row=%s changedSlots=%d maxDelta=%d totalDelta=%d A=[%d,%d,%d,%d] B=[%d,%d,%d,%d]",
-		battleHex8(best.addr),
-		best.changedSlots,
-		best.maxDelta,
-		best.totalDelta,
-		best.a.values[1], best.a.values[2], best.a.values[3], best.a.values[4],
-		best.b.values[1], best.b.values[2], best.b.values[3], best.b.values[4]
-	))
-	if aiScoreState.inferred.battleStructPtr and aiScoreState.inferred.aiFinalScoreOffset then
-		logNullBattle(string.format(
-			"AI_SCORE inferred battleStructPtr=%s aiFinalScoreOffset=0x%X",
-			battleHex8(aiScoreState.inferred.battleStructPtr),
-			aiScoreState.inferred.aiFinalScoreOffset
-		))
-	end
-end
-
-function resetMoveScoresCalibration()
-	aiScoreState.captures.A = nil
-	aiScoreState.captures.B = nil
-	aiScoreState.calibrated = false
-	aiScoreState.rowBaseAddr = nil
-	aiScoreState.enemyBattler = nil
-	aiScoreState.targetBattler = nil
-	aiScoreState.inferred.battleStructPtr = nil
-	aiScoreState.inferred.aiFinalScoreOffset = nil
-	logNullBattle("AI_SCORE calibration reset.")
-end
-
-function moveScores()
-	local ctx, err = getAiScoreSinglesContext()
-	if not ctx then
-		logNullBattle("AI_SCORE: " .. tostring(err))
-		return
-	end
-
-	if not aiScoreState.calibrated or not aiScoreState.rowBaseAddr then
-		logNullBattle("AI_SCORE unresolved. Run captureAiScores(\"A\"), captureAiScores(\"B\"), calibrateAiScores().")
-		return
-	end
-
-	local scores = {}
-	local nonZero = 0
-	for i = 1, 4 do
-		local s = readS32(aiScoreState.rowBaseAddr + (i - 1) * 4)
-		if s == nil then
-			logNullBattle("AI_SCORE read failed; recalibrate with captureAiScores + calibrateAiScores.")
-			return
-		end
-		scores[i] = s
-		if s ~= 0 then
-			nonZero = nonZero + 1
-		end
-	end
-	if nonZero == 0 then
-		return
-	end
-
-	local rowText = {}
-	local bestScore = nil
-	local bestSlots = {}
-	for i = 1, 4 do
-		local moveId = ctx.enemySnap.moves[i]
-		local moveText = (moveId and moveId > 0) and tostring(moveId) or "null"
-		rowText[#rowText + 1] = string.format(
-			"%s:%d@%s",
-			moveText,
-			scores[i],
-			battleHex8(aiScoreState.rowBaseAddr + (i - 1) * 4)
-		)
-		if moveId and moveId > 0 then
-			if bestScore == nil or scores[i] > bestScore then
-				bestScore = scores[i]
-				bestSlots = { i }
-			elseif scores[i] == bestScore then
-				bestSlots[#bestSlots + 1] = i
-			end
-		end
-	end
-
-	logNullBattle(string.format(
-		"AI_SCORE_ROW aiBattler=%d target=%d values=[%s]",
-		ctx.enemySnap.battler,
-		ctx.playerSnap.battler,
-		table.concat(rowText, " | ")
-	))
-	if bestScore ~= nil then
-		logNullBattle(string.format(
-			"AI_BEST target=%d score=%d slots=%s",
-			ctx.playerSnap.battler,
-			bestScore,
-			table.concat(bestSlots, ",")
-		))
-	end
-end
+-- >>> BEGIN 08_http_server.lua
+-- Module Index: 08_http_server
+-- Owns: HTTP transport/server lifecycle, singleton teardown, and request routing.
 
 local HTTP_STATUS_TEXT = {
 	[200] = "OK",
@@ -7241,9 +7411,11 @@ local nullHttpState = {
 	port = 31124,
 	updatePath = "/update",
 	pingPath = "/ping",
+	battleStatePath = "/battle_state",
 	clientBuffers = {},
 	pendingSends = {},
 	updateRequestCount = 0,
+	battleStateRequestCount = 0,
 }
 local nullScriptStarted = false
 
@@ -7526,6 +7698,19 @@ local function handleHttpRequest(method, path)
 		return 200, text or "", "text/plain; charset=utf-8"
 	end
 
+	if normalizedPath == nullHttpState.battleStatePath then
+		nullHttpState.battleStateRequestCount = (nullHttpState.battleStateRequestCount or 0) + 1
+		local okPayload, payloadOrErr = pcall(buildBattleStatePayload)
+		if not okPayload then
+			return 500, tostring(payloadOrErr), "text/plain; charset=utf-8"
+		end
+		local okJson, encodedOrErr = pcall(jsonEncode, payloadOrErr)
+		if not okJson then
+			return 500, tostring(encodedOrErr), "text/plain; charset=utf-8"
+		end
+		return 200, encodedOrErr or "{}", "application/json; charset=utf-8"
+	end
+
 	return 404, "Not Found", "text/plain; charset=utf-8"
 end
 
@@ -7636,6 +7821,11 @@ function setupNullHttpServer()
 	server:add("received", acceptHttpConnection)
 	console:log("Now connected to https://hzla.github.io/Dynamic-Calc-Decomps/?data=null")
 end
+-- <<< END 08_http_server.lua
+
+-- >>> BEGIN 09_ui_main.lua
+-- Module Index: 09_ui_main
+-- Owns: help buffer rendering, startup wiring, and frame callback registration.
 
 local function renderHowToUseBuffer(ctx)
 	if not howToUseBuffer then
@@ -7646,28 +7836,22 @@ local function renderHowToUseBuffer(ctx)
 	local attempt = (ctx and ctx.attempt) or "n/a"
 	local trainerKey = (ctx and ctx.trainerKey) or "n/a"
 	local attemptDir = (ctx and ctx.attemptDir) or "n/a"
-	local fullBattleLogsDir = "n/a"
-	if ctx and ctx.attempt then
-		fullBattleLogsDir = getFullBattleLogsDir(ctx.attempt)
-	end
 
 	howToUseBuffer:clear()
 	howToUseBuffer:print("How to Use This Script\n\n")
-	howToUseBuffer:print("Damage Calc:\n")
+	howToUseBuffer:print("Web tools/endpoints:\n")
 	howToUseBuffer:print("- https://hzla.github.io/Dynamic-Calc-Decomps/?data=null\n")
-	howToUseBuffer:print("  Click Sync under the Import Team box to automatically import your Party/Box\n")
-	howToUseBuffer:print("\nBattle Log files location: (Battle Log Viewer Coming Soon)\n")
-	howToUseBuffer:print(string.format("- Root: %s\n", tostring(NULL_EXPORT.baseDir)))
-	howToUseBuffer:print(string.format("- Attempt #%s directory: %s\n", tostring(attempt), tostring(attemptDir)))
-	howToUseBuffer:print(string.format("- Full battle logs dir: %s\n", tostring(fullBattleLogsDir)))
-	howToUseBuffer:print("- Detailed turn-by-turn logs are written as JSON files in this directory\n")
-	howToUseBuffer:print("- Filename pattern: <trainerId>_lv<enemyLevel>_<enemySpecies>.json\n\n")
+	howToUseBuffer:print("  Click Sync under the Import Team box to automatically import your Party/Box\n\n")
+	howToUseBuffer:print("Output files location:\n")
+	howToUseBuffer:print(string.format("- Script/output directory: %s\n", tostring(NULL_EXPORT.baseDir)))
+	howToUseBuffer:print(string.format("- Current attempt #%s directory: %s\n\n", tostring(attempt), tostring(attemptDir)))
 	howToUseBuffer:print("Attempts are tracked by trainer ID key:\n")
 	howToUseBuffer:print(string.format("- Current key: %s\n", tostring(trainerKey)))
 	howToUseBuffer:print("- Key format: <trainerId>:<secretId>\n\n")
 	howToUseBuffer:print("Battle logging behavior:\n")
 	howToUseBuffer:print("- Battles are automatically detected while you play\n")
-	howToUseBuffer:print("- KOs are automatically recorded into the battle logs\n\n")
+	howToUseBuffer:print("- KOs are automatically recorded into the battle logs\n")
+	howToUseBuffer:print("- Stat stage changes are recorded in full battle log events (type=\"stat_stage\")\n\n")
 	howToUseBuffer:print("DEBUGGING FUNCTIONS:\n\n")
 	howToUseBuffer:print("Next trainer override (moves + HP):\n")
 	howToUseBuffer:print("- setNextTrainerMoveset sets the enemy lead's 4 moves (IDs or names)\n")
@@ -7736,8 +7920,7 @@ function startScript()
 	nullScriptStarted = true
 	armHardcodedNextTrainerMovesetIfConfigured()
 	local ctx = ensureExportContext()
-	local startupBox = writeCurrentAttemptBox()
-	writeCurrentAttemptMaster(startupBox)
+	writeCurrentAttemptMaster(false)
 	renderHowToUseBuffer(ctx)
 	setupNullHttpServer()
 	if not partyBuffer then
@@ -7784,3 +7967,5 @@ nullSingleton.callbackOwnerToken = THIS_SCRIPT_TOKEN
 if emu then
 	startScript()
 end
+-- <<< END 09_ui_main.lua
+
