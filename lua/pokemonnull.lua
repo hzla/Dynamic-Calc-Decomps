@@ -3977,7 +3977,7 @@ if BOX_NULL == nil or type(BOX_NULL) ~= "table" then
 end
 
 local NULL_EXPORT = {
-	baseDir = "/Users/andylee/Repos/vsrecorder/PokemonNullBattleLogs",
+	baseDir = "/Users/USERNAME/Repos/vsrecorder/PokemonNullBattleLogs",
 	mapFile = "attempt_map.json",
 	boxFile = "Box.json",
 	fullBattleLogsDir = "full_battle_logs",
