@@ -455,7 +455,8 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 		backup_move = backup_moves[moveName] || backup_moves[cleanString(moveName)]
 	}
 
-	if (ppObj && moveName != "(No Move)") {
+
+	if (ppObj && moveName != "(No Move)" && typeof backup_move != "undefined") {
 		if (isPlayer) {
 			ppObj.val(backup_move.pp	)
 		} else {
