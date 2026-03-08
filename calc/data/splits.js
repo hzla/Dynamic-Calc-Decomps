@@ -89,5 +89,10 @@ splitData = {
 		"lvls": [15, 25, 34,47,59,68,76,82,85],
 		"titles": ["Roxanne", "Brawly", "Wattson", "Flannery", "Norman", "Winona", "Tate&Liza", "Juan", "Elite 4"],
 		"types": ["rock", "fighting", "electric", "fire", "normal", "flying", "psychic", "water"]
+	},
+	"Pokemon Null": {
+		"lvls": [38,45,59,66,72,77,86,95,100],
+		"titles": ["Roxanne", "Brawly", "Wattson", "Norman", "Flannery", "Winona", "Tate&Liza", "Steven", "Elite 4"],
+		"types": ["rock", "fighting", "electric", "fire", "normal", "flying", "psychic", "water"]
 	}
 }

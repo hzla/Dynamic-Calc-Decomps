@@ -104,11 +104,28 @@ $(document).ready(function() {
    
    $(document).on('click', '.nav-tag', function() {
         var set = ""
-        if (TITLE.includes("Imperium")) {
-            set = $(this).attr('data-next')
-        } 
+        const nextIdRaw = $(this).attr('data-next')
+        const nextId = parseInt(nextIdRaw, 10)
+        const pokemonNullOrderReroutes = {
+            5000: "Spewpa (Lvl 11 Root Academy Trainer #1 Slot2 |Root Academy|)",
+            5001: "Pidgey (Lvl 12 Root Academy Trainer #1 Slot3 |Root Academy|)",
+            5002: "Pineco (Lvl 17 Root Academy Trainer #2 Slot2 |Root Academy|)",
+            5003: "Bagon (Lvl 17 Root Academy Trainer #2 Slot3 |Root Academy|)",
+            5004: "Karrablast (Lvl 23 Root Academy Trainer #3 Slot2 |Root Academy|)",
+            5005: "Chinchou (Lvl 24 Root Academy Trainer #3 Slot3 |Root Academy|)",
+            5006: "Farfetch’d-Galar (Lvl 28 Root Academy Trainer #4 Slot2 |Root Academy|)",
+            5007: "Ponyta (Lvl 28 Root Academy Trainer #4 Slot3 |Root Academy|)"
+        }
+
+        console.log(nextId)
+        if (TITLE === "Pokemon Null" && !Number.isNaN(nextId) && pokemonNullOrderReroutes[nextId]) {
+            set = pokemonNullOrderReroutes[nextId]
+        }
+        else if (TITLE.includes("Imperium")) {
+            set = nextIdRaw
+        }
         else {
-            set = customLeads[$(this).attr('data-next')].split("[")[0]
+            set = customLeads[nextIdRaw].split("[")[0]
         }
 
         $("#weather-bar label").first().click()

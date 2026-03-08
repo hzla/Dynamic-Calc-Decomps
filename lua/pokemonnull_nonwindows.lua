@@ -4010,6 +4010,9 @@ local NULL_BATTLE = {
 		gBattlerPositions = 0x02004D3B,
 		gBattlerPartyIndexes = 0x02004D42,
 		gBattleMons = 0x02004D58,
+		-- Pinned from PokemonNull/pokeemerald.map (src/battle_setup.o)
+		gTrainerBattleOpponent_A = 0x0201962E,
+		gTrainerBattleOpponent_B = 0x02019630,
 	},
 	struct = {
 		battleMonSize = 0x60,
@@ -4238,6 +4241,258 @@ local function jsonEncode(value)
 		return "{" .. table.concat(parts, ",") .. "}"
 	end
 	return "null"
+end
+
+local JSON_DECODE_NULL = rawget(_G, "JSON_NULL")
+if JSON_DECODE_NULL == nil then
+	JSON_DECODE_NULL = {}
+end
+
+local function jsonDecode(raw)
+	if type(raw) ~= "string" then
+		return nil, "json decode input must be string"
+	end
+
+	local len = #raw
+	local idx = 1
+
+	local function skipWs()
+		while idx <= len do
+			local c = raw:sub(idx, idx)
+			if c == " " or c == "\t" or c == "\n" or c == "\r" then
+				idx = idx + 1
+			else
+				break
+			end
+		end
+	end
+
+	local parseValue
+
+	local function parseString()
+		if raw:sub(idx, idx) ~= "\"" then
+			return nil, string.format("expected '\"' at %d", idx)
+		end
+		idx = idx + 1
+		local out = {}
+		while idx <= len do
+			local c = raw:sub(idx, idx)
+			if c == "\"" then
+				idx = idx + 1
+				return table.concat(out), nil
+			end
+			if c == "\\" then
+				idx = idx + 1
+				if idx > len then
+					return nil, "unterminated escape"
+				end
+				local esc = raw:sub(idx, idx)
+				if esc == "\"" then
+					out[#out + 1] = "\""
+				elseif esc == "\\" then
+					out[#out + 1] = "\\"
+				elseif esc == "/" then
+					out[#out + 1] = "/"
+				elseif esc == "b" then
+					out[#out + 1] = "\b"
+				elseif esc == "f" then
+					out[#out + 1] = "\f"
+				elseif esc == "n" then
+					out[#out + 1] = "\n"
+				elseif esc == "r" then
+					out[#out + 1] = "\r"
+				elseif esc == "t" then
+					out[#out + 1] = "\t"
+				elseif esc == "u" then
+					local hex = raw:sub(idx + 1, idx + 4)
+					if #hex < 4 or not hex:match("^[0-9A-Fa-f]+$") then
+						return nil, string.format("invalid unicode escape at %d", idx)
+					end
+					local code = tonumber(hex, 16) or 0
+					if code >= 32 and code <= 126 then
+						out[#out + 1] = string.char(code)
+					else
+						out[#out + 1] = "?"
+					end
+					idx = idx + 4
+				else
+					return nil, string.format("invalid escape '%s' at %d", esc, idx)
+				end
+				idx = idx + 1
+			else
+				out[#out + 1] = c
+				idx = idx + 1
+			end
+		end
+		return nil, "unterminated string"
+	end
+
+	local function parseNumber()
+		local start = idx
+		local c = raw:sub(idx, idx)
+		if c == "-" then
+			idx = idx + 1
+		end
+		if idx > len then
+			return nil, "unexpected end in number"
+		end
+		c = raw:sub(idx, idx)
+		if c == "0" then
+			idx = idx + 1
+		elseif c:match("%d") then
+			while idx <= len and raw:sub(idx, idx):match("%d") do
+				idx = idx + 1
+			end
+		else
+			return nil, string.format("invalid number at %d", start)
+		end
+		if idx <= len and raw:sub(idx, idx) == "." then
+			idx = idx + 1
+			if idx > len or not raw:sub(idx, idx):match("%d") then
+				return nil, string.format("invalid decimal number at %d", start)
+			end
+			while idx <= len and raw:sub(idx, idx):match("%d") do
+				idx = idx + 1
+			end
+		end
+		if idx <= len then
+			local e = raw:sub(idx, idx)
+			if e == "e" or e == "E" then
+				idx = idx + 1
+				if idx <= len then
+					local sign = raw:sub(idx, idx)
+					if sign == "+" or sign == "-" then
+						idx = idx + 1
+					end
+				end
+				if idx > len or not raw:sub(idx, idx):match("%d") then
+					return nil, string.format("invalid exponent at %d", start)
+				end
+				while idx <= len and raw:sub(idx, idx):match("%d") do
+					idx = idx + 1
+				end
+			end
+		end
+		local text = raw:sub(start, idx - 1)
+		local n = tonumber(text)
+		if n == nil then
+			return nil, string.format("invalid number token '%s'", text)
+		end
+		return n, nil
+	end
+
+	local function parseArray()
+		if raw:sub(idx, idx) ~= "[" then
+			return nil, string.format("expected '[' at %d", idx)
+		end
+		idx = idx + 1
+		skipWs()
+		local out = {}
+		if raw:sub(idx, idx) == "]" then
+			idx = idx + 1
+			return out, nil
+		end
+		local n = 1
+		while idx <= len do
+			local v, err = parseValue()
+			if err then
+				return nil, err
+			end
+			out[n] = v
+			n = n + 1
+			skipWs()
+			local c = raw:sub(idx, idx)
+			if c == "," then
+				idx = idx + 1
+				skipWs()
+			elseif c == "]" then
+				idx = idx + 1
+				return out, nil
+			else
+				return nil, string.format("expected ',' or ']' at %d", idx)
+			end
+		end
+		return nil, "unterminated array"
+	end
+
+	local function parseObject()
+		if raw:sub(idx, idx) ~= "{" then
+			return nil, string.format("expected '{' at %d", idx)
+		end
+		idx = idx + 1
+		skipWs()
+		local out = {}
+		if raw:sub(idx, idx) == "}" then
+			idx = idx + 1
+			return out, nil
+		end
+		while idx <= len do
+			local key, keyErr = parseString()
+			if keyErr then
+				return nil, keyErr
+			end
+			skipWs()
+			if raw:sub(idx, idx) ~= ":" then
+				return nil, string.format("expected ':' at %d", idx)
+			end
+			idx = idx + 1
+			skipWs()
+			local value, valueErr = parseValue()
+			if valueErr then
+				return nil, valueErr
+			end
+			out[key] = value
+			skipWs()
+			local c = raw:sub(idx, idx)
+			if c == "," then
+				idx = idx + 1
+				skipWs()
+			elseif c == "}" then
+				idx = idx + 1
+				return out, nil
+			else
+				return nil, string.format("expected ',' or '}' at %d", idx)
+			end
+		end
+		return nil, "unterminated object"
+	end
+
+	parseValue = function()
+		skipWs()
+		if idx > len then
+			return nil, "unexpected end of input"
+		end
+		local c = raw:sub(idx, idx)
+		if c == "\"" then
+			return parseString()
+		elseif c == "{" then
+			return parseObject()
+		elseif c == "[" then
+			return parseArray()
+		elseif c == "-" or c:match("%d") then
+			return parseNumber()
+		elseif raw:sub(idx, idx + 3) == "true" then
+			idx = idx + 4
+			return true, nil
+		elseif raw:sub(idx, idx + 4) == "false" then
+			idx = idx + 5
+			return false, nil
+		elseif raw:sub(idx, idx + 3) == "null" then
+			idx = idx + 4
+			return JSON_DECODE_NULL, nil
+		end
+		return nil, string.format("unexpected token at %d", idx)
+	end
+
+	local value, err = parseValue()
+	if err then
+		return nil, err
+	end
+	skipWs()
+	if idx <= len then
+		return nil, string.format("trailing tokens at %d", idx)
+	end
+	return value, nil
 end
 
 local ensuredDirCache = {}
@@ -4566,6 +4821,126 @@ local function sanitizeFilenameComponent(value, fallback)
 	return s
 end
 
+local function logExportInfo(msg)
+	if type(logNullBattle) == "function" then
+		logNullBattle(msg)
+	elseif console and console.log then
+		console:log("[Null Battle] " .. tostring(msg))
+	end
+end
+
+local function trimIncompleteBattleEvents(events)
+	if type(events) ~= "table" then
+		return {}, false
+	end
+
+	local out = {}
+	local currentSessionStart = nil
+	local dropped = false
+
+	for i = 1, #events do
+		local ev = events[i]
+		local evType = type(ev) == "table" and ev.type or nil
+
+		if evType == "session_start" then
+			if currentSessionStart ~= nil then
+				while #out >= currentSessionStart do
+					out[#out] = nil
+				end
+				dropped = true
+			end
+			currentSessionStart = #out + 1
+			out[#out + 1] = ev
+		elseif evType == "session_end" then
+			if currentSessionStart ~= nil then
+				out[#out + 1] = ev
+				currentSessionStart = nil
+			else
+				out[#out + 1] = ev
+			end
+		else
+			out[#out + 1] = ev
+		end
+	end
+
+	if currentSessionStart ~= nil then
+		while #out >= currentSessionStart do
+			out[#out] = nil
+		end
+		dropped = true
+	end
+	return out, dropped
+end
+
+local function loadMasterTable(path)
+	if not fileExists(path) then
+		return nil, nil
+	end
+	local f = io.open(path, "r")
+	if not f then
+		return nil, "open_failed"
+	end
+	local raw = f:read("*a")
+	f:close()
+	if type(raw) ~= "string" or raw == "" then
+		return nil, "empty_file"
+	end
+	local parsed, err = jsonDecode(raw)
+	if not parsed or err then
+		return nil, err or "decode_failed"
+	end
+	if type(parsed) ~= "table" then
+		return nil, "decoded_master_not_object"
+	end
+	return parsed, nil
+end
+
+local function hydrateAttemptStateFromMaster(attempt, masterPath)
+	local events = {}
+	local droppedIncomplete = false
+	local parsed, parseErr = loadMasterTable(masterPath)
+	if parsed then
+		local battlelog = parsed.battlelog
+		if type(battlelog) == "table" and type(battlelog.events) == "table" then
+			events = battlelog.events
+		end
+
+		local box = parsed.box
+		if type(box) == "table" then
+			local payload = box.payload
+			if payload == JSON_DECODE_NULL then
+				payload = nil
+			end
+			if payload ~= nil then
+				nullExportState.cachedBoxPayloadByAttempt[attempt] = payload
+			end
+
+			local updatedAt = box.updatedAt
+			local partyCount = box.partyCount
+			local boxSlotsDumped = box.boxSlotsDumped
+			if updatedAt == JSON_DECODE_NULL then updatedAt = nil end
+			if partyCount == JSON_DECODE_NULL then partyCount = nil end
+			if boxSlotsDumped == JSON_DECODE_NULL then boxSlotsDumped = nil end
+			if updatedAt ~= nil or partyCount ~= nil or boxSlotsDumped ~= nil then
+				nullExportState.lastBoxMetaByAttempt[attempt] = {
+					updatedAt = updatedAt,
+					partyCount = partyCount,
+					boxSlotsDumped = boxSlotsDumped,
+				}
+			end
+		end
+	elseif parseErr and parseErr ~= "open_failed" and parseErr ~= "empty_file" then
+		logExportInfo(string.format("WARN: could not parse existing master file %s (%s)", tostring(masterPath), tostring(parseErr)))
+	end
+
+	local normalizedEvents
+	normalizedEvents, droppedIncomplete = trimIncompleteBattleEvents(events)
+	nullExportState.eventsByAttempt[attempt] = normalizedEvents
+	if droppedIncomplete then
+		logExportInfo("BATTLELOG trimmed trailing incomplete session and resumed append from last complete battle.")
+	end
+end
+
 local function ensureExportContext()
 	local identity = resolveExportIdentity(nullExportState.current.trainerKey)
 	local attempt = getOrCreateAttemptForKey(identity.trainerKey)
@@ -4579,8 +4954,8 @@ local function ensureExportContext()
 	nullExportState.current.attemptDir = attemptDir
 	nullExportState.current.masterPath = getMasterPath(attempt)
 
-	if not nullExportState.eventsByAttempt[attempt] then
-		nullExportState.eventsByAttempt[attempt] = {}
+	if nullExportState.eventsByAttempt[attempt] == nil then
+		hydrateAttemptStateFromMaster(attempt, nullExportState.current.masterPath)
 	end
 	return nullExportState.current
 end
@@ -4588,8 +4963,8 @@ end
 local function getCurrentAttemptEvents()
 	local ctx = ensureExportContext()
 	local attempt = ctx.attempt
-	if not nullExportState.eventsByAttempt[attempt] then
-		nullExportState.eventsByAttempt[attempt] = {}
+	if nullExportState.eventsByAttempt[attempt] == nil then
+		hydrateAttemptStateFromMaster(attempt, ctx.masterPath)
 	end
 	return nullExportState.eventsByAttempt[attempt], ctx
 end
@@ -4671,17 +5046,22 @@ local function buildPartyMetLocationsPayload(partySlots)
 	return list
 end
 
-local function buildBoxMetLocationsPayload(boxSlotsDumped)
+local function buildBoxMetLocationsPayload(sourceSlots)
 	local list = {}
 	local slotsPerBox = 30
 	local address = storageLoc + 4
-	for i = 0, boxSlotsDumped - 1 do
-		local mon = readBoxMon(address + (i * boxMonSize))
+	if type(sourceSlots) ~= "table" then
+		return list
+	end
+	for i = 1, #sourceSlots do
+		local sourceSlot = tonumber(sourceSlots[i]) or 0
+		local mon = readBoxMon(address + (sourceSlot * boxMonSize))
 		if mon and mon.species and mon.species > 0 then
 			list[#list + 1] = {
-				slot = i,
-				box = math.floor(i / slotsPerBox) + 1,
-				boxSlot = (i % slotsPerBox) + 1,
+				slot = sourceSlot,
+				packedSlot = i - 1,
+				box = math.floor(sourceSlot / slotsPerBox) + 1,
+				boxSlot = (sourceSlot % slotsPerBox) + 1,
 				species = mon.species,
 				speciesName = mons[mon.species] or tostring(mon.species),
 				metLocationId = mon.metLocation or 0,
@@ -4692,12 +5072,42 @@ local function buildBoxMetLocationsPayload(boxSlotsDumped)
 	return list
 end
 
+local function buildPackedBoxHex(slotsToScan)
+	local out = {}
+	local sourceSlots = {}
+	local slots = math.floor(tonumber(slotsToScan) or 0)
+	if slots < 0 then
+		slots = 0
+	end
+	local base = storageLoc + 4
+	for slot = 0, slots - 1 do
+		local slotAddress = base + (slot * boxMonSize)
+		local hasAnyData = false
+		for j = 0, boxMonSize - 1 do
+			local b = emu:read8(slotAddress + j) or 0
+			if (b & 0xFF) ~= 0 then
+				hasAnyData = true
+				break
+			end
+		end
+		if hasAnyData then
+			sourceSlots[#sourceSlots + 1] = slot
+			for j = 0, boxMonSize - 1 do
+				local b = emu:read8(slotAddress + j) or 0
+				out[#out + 1] = string.format("%02X", b & 0xFF)
+			end
+		end
+	end
+	return table.concat(out, ""), #sourceSlots, sourceSlots
+end
+
 local function buildPartyBoxPayloadForAttempt(ctx)
 	local pCount = emu:read8(partyCount) or 0
 	if pCount < 0 then pCount = 0 end
 	if pCount > 6 then pCount = 6 end
 	local slots = NULL_EXPORT.defaultBoxSlots
 	if slots < 0 then slots = 0 end
+	local packedBoxesHex, packedSlotsCount, packedSourceSlots = buildPackedBoxHex(slots)
 
 	return {
 		trainerId = ctx.trainerId,
@@ -4705,13 +5115,13 @@ local function buildPartyBoxPayloadForAttempt(ctx)
 		partyCount = pCount,
 		partyStructSize = partyMonSize,
 		boxStructSize = boxMonSize,
-		boxSlotsDumped = slots,
+		boxSlotsDumped = packedSlotsCount,
 		partyEncoding = "hex",
 		boxesEncoding = "hex",
 		party = bytesToHex(partyloc, pCount * partyMonSize),
-		boxes = bytesToHex(storageLoc + 4, slots * boxMonSize),
+		boxes = packedBoxesHex,
 		partyMetLocations = buildPartyMetLocationsPayload(pCount),
-		boxMetLocations = buildBoxMetLocationsPayload(slots),
+		boxMetLocations = buildBoxMetLocationsPayload(packedSourceSlots),
 	}
 end
 
@@ -4777,7 +5187,17 @@ local function appendBattleLogEvent(record)
 	if not record or type(record) ~= "table" then
 		return
 	end
-	local events, _ctx = getCurrentAttemptEvents()
+	local events, ctx = getCurrentAttemptEvents()
+	if record.type == "session_start" then
+		local normalizedEvents, droppedIncomplete = trimIncompleteBattleEvents(events)
+		if droppedIncomplete or normalizedEvents ~= events then
+			events = normalizedEvents
+			nullExportState.eventsByAttempt[ctx.attempt] = events
+			if droppedIncomplete then
+				logExportInfo("BATTLELOG removed incomplete trailing session before appending new session.")
+			end
+		end
+	end
 	events[#events + 1] = record
 	writeCurrentAttemptMaster(nil)
 end
@@ -5323,6 +5743,20 @@ local function readEnemyTrainerKeyFromRuntime(runtime)
 		return readEnemyTrainerKeyFromBattleMon(fallbackEnemyBattler)
 	end
 	return nil
+end
+
+local function readEnemyTrainerOpponentIds()
+	local addrA = NULL_BATTLE.addresses.gTrainerBattleOpponent_A
+	local addrB = NULL_BATTLE.addresses.gTrainerBattleOpponent_B
+	local trainerIdA = nil
+	local trainerIdB = nil
+	if type(addrA) == "number" then
+		trainerIdA = readU16LE(addrA)
+	end
+	if type(addrB) == "number" then
+		trainerIdB = readU16LE(addrB)
+	end
+	return trainerIdA, trainerIdB
 end
 
 local BATTLE_CONSOLE_EVENT_PREFIXES = {
@@ -6403,8 +6837,8 @@ local function decodeBoxSlotForEdit(slot)
 	if personality == nil or otId == nil or flags == nil then
 		return nil, "slot header unreadable"
 	end
-	if ((flags >> 1) & 0x1) ~= 1 then
-		return nil, "slot is empty (hasSpecies=0)"
+	if ((flags >> 1)) == 0 then
+	    return nil, "slot is empty (hasSpecies=0)"
 	end
 
 	local selector = BOX_SUBSTRUCT_SELECTOR[personality % 24]
@@ -7048,7 +7482,7 @@ local function armHardcodedNextTrainerMovesetIfConfigured()
 	end
 end
 
-local function emitSessionStart(rt, initialEnemyTrainerKey)
+local function emitSessionStart(rt, initialEnemyTrainerKey, enemyTrainerIdA, enemyTrainerIdB)
 	local ctx = ensureExportContext()
 	local sig = makeSessionSignature(rt)
 	nullBattleState.sessionSignature = sig
@@ -7073,10 +7507,9 @@ local function emitSessionStart(rt, initialEnemyTrainerKey)
 		sig
 	))
 	logNullBattle(string.format(
-		"BATTLE_START attempt=%s trainerKey=%s syntheticTrainerId=%s",
-		tostring(ctx and ctx.attempt or "n/a"),
-		tostring(ctx and ctx.trainerKey or "n/a"),
-		tostring(nullBattleState.sessionTrainerDisplayId or "n/a")
+		"BATTLE_START enemyTrainerIdA=%s enemyTrainerIdB=%s",
+		tostring(enemyTrainerIdA or "n/a"),
+		tostring(enemyTrainerIdB or "n/a")
 	))
 
 	local partyStartSlots = getPartyStartSlotsForSession()
@@ -7087,9 +7520,8 @@ local function emitSessionStart(rt, initialEnemyTrainerKey)
 	for i = 1, #partyStartSlots do
 		local s = partyStartSlots[i]
 		logNullBattle(string.format(
-			"PARTY_START_SLOT slot=%s hasSpecies=%s species=%s level=%s hp=%s maxHP=%s",
+			"PARTY_START_SLOT slot=%s species=%s level=%s hp=%s maxHP=%s",
 			tostring(s.slot),
-			tostring(s.hasSpecies),
 			tostring(s.species),
 			tostring(s.level),
 			tostring(s.hp),
@@ -7100,6 +7532,8 @@ local function emitSessionStart(rt, initialEnemyTrainerKey)
 	appendBattleLogEvent({
 		type = "session_start",
 		trainerId = nullBattleState.sessionTrainerDisplayId,
+		enemyTrainerIdA = jsonOrNull(enemyTrainerIdA),
+		enemyTrainerIdB = jsonOrNull(enemyTrainerIdB),
 		pParty = buildPartySnapshotForBattleLog(),
 	})
 	if NULL_BATTLE.writeFullBattleLog then
@@ -7110,6 +7544,8 @@ local function emitSessionStart(rt, initialEnemyTrainerKey)
 			syntheticTrainerId = nullBattleState.sessionTrainerDisplayId,
 			battlers = rt.battlersCount,
 			enemyPartyCount = rt.enemyPartyCount,
+			enemyTrainerIdA = jsonOrNull(enemyTrainerIdA),
+			enemyTrainerIdB = jsonOrNull(enemyTrainerIdB),
 			ownerTrainerKey = nullBattleState.sessionOwnerTrainerKey,
 			partyStart = partyStartSlots,
 		})
@@ -7167,7 +7603,7 @@ local function emitSessionEnd()
 		})
 		writeSessionFullBattleLog()
 	end
-	writeCurrentAttemptMaster(true)
+	writeCurrentAttemptMaster(nil)
 	logNullBattle(string.format(
 		"BATTLE_END actionIndex=%d koList=[%s]",
 		nullBattleState.actionIndex,
@@ -7323,7 +7759,8 @@ function updateNullBattleLogger()
 	if not nullBattleState.sessionActive then
 		if runtime then
 			local initialEnemyTrainerKey = readEnemyTrainerKeyFromRuntime(runtime)
-			emitSessionStart(runtime, initialEnemyTrainerKey)
+			local enemyTrainerIdA, enemyTrainerIdB = readEnemyTrainerOpponentIds()
+			emitSessionStart(runtime, initialEnemyTrainerKey, enemyTrainerIdA, enemyTrainerIdB)
 		end
 		return
 	end
@@ -7369,7 +7806,8 @@ function updateNullBattleLogger()
 				enemyTrainerKey
 			))
 			emitSessionEnd()
-			emitSessionStart(runtime, enemyTrainerKey)
+			local enemyTrainerIdA, enemyTrainerIdB = readEnemyTrainerOpponentIds()
+			emitSessionStart(runtime, enemyTrainerKey, enemyTrainerIdA, enemyTrainerIdB)
 			return
 		end
 		nullBattleState.pendingBoundary = false
@@ -7402,12 +7840,14 @@ local HTTP_SEND_CHUNK_BYTES = 1024
 local HTTP_SEND_MAX_AGAIN_RETRIES = 240
 local HTTP_LISTEN_BACKLOG = 16
 local HTTP_MAX_REQUEST_HEAD_BYTES = 32768
+local HTTP_HEALTHCHECK_EVERY_FRAMES = 60
+local HTTP_SERVER_ERROR_RESTART_COOLDOWN_FRAMES = 30
 
 local nullHttpState = {
 	started = false,
 	server = nil,
 	socketModule = nil,
-	host = nil, -- all interfaces
+	host = "127.0.0.1",
 	port = 31124,
 	updatePath = "/update",
 	pingPath = "/ping",
@@ -7416,8 +7856,26 @@ local nullHttpState = {
 	pendingSends = {},
 	updateRequestCount = 0,
 	battleStateRequestCount = 0,
+	lastUpdateResponseBody = nil,
+	frameCounter = 0,
+	lastHealthCheckFrame = 0,
+	serverDropCount = 0,
+	serverRestartCount = 0,
+	lastServerDropReason = nil,
+	bindAttemptCount = 0,
+	lastBindError = nil,
+	listenErrorCount = 0,
+	lastListenError = nil,
+	acceptFatalCount = 0,
+	lastAcceptFatal = nil,
+	serverErrorEventCount = 0,
+	lastServerErrorEvent = nil,
+	lastServerErrorRestartFrame = -1000000,
+	clientCloseReasons = {},
+	lastClientCloseReason = nil,
 }
 local nullScriptStarted = false
+local unpackArgs = table.unpack or unpack
 
 local NULL_SINGLETON_KEY = "__VSRECORDER_NULL_HTTP_UPDATE_SINGLETON__"
 local nullSingleton = rawget(_G, NULL_SINGLETON_KEY)
@@ -7438,6 +7896,60 @@ _G[NULL_SINGLETON_KEY] = nullSingleton
 local function isActiveScriptInstance()
 	local g = rawget(_G, NULL_SINGLETON_KEY)
 	return type(g) == "table" and g.activeToken == THIS_SCRIPT_TOKEN
+end
+
+local function logHttp(msg)
+	if console and console.log then
+		console:log(msg)
+	else
+		print(msg)
+	end
+end
+
+local function noteClientCloseReason(reason)
+	local key = tostring(reason or "unknown")
+	local counts = nullHttpState.clientCloseReasons
+	if type(counts) ~= "table" then
+		counts = {}
+		nullHttpState.clientCloseReasons = counts
+	end
+	counts[key] = (tonumber(counts[key]) or 0) + 1
+	nullHttpState.lastClientCloseReason = key
+end
+
+local function formatUncaughtLuaError(err)
+	local msg = tostring(err)
+	if debug and debug.traceback then
+		local ok, traced = pcall(debug.traceback, msg, 2)
+		if ok and type(traced) == "string" and traced ~= "" then
+			return traced
+		end
+	end
+	return msg
+end
+
+local function runWithErrorLogging(context, fn, ...)
+	if type(fn) ~= "function" then
+		return nil
+	end
+	local args = { ... }
+	local function onError(err)
+		return formatUncaughtLuaError(err)
+	end
+	local ok, a, b, c, d = xpcall(function()
+		return fn(unpackArgs(args, 1, #args))
+	end, onError)
+	if not ok then
+		logHttp(string.format("[null-http] UNCAUGHT %s: %s", tostring(context or "lua"), tostring(a)))
+		return nil
+	end
+	return a, b, c, d
+end
+
+local function makeSafeCallback(context, fn)
+	return function(...)
+		runWithErrorLogging(context, fn, ...)
+	end
 end
 
 local function closeHttpSocketQuiet(sock)
@@ -7462,13 +7974,62 @@ local function clearPendingHttpSend(sock)
 	nullHttpState.pendingSends[sock] = nil
 end
 
-local function closeHttpClient(sock)
+local function closeHttpClient(sock, reason)
 	if not sock then
 		return
 	end
+	noteClientCloseReason(reason)
 	nullHttpState.clientBuffers[sock] = nil
 	clearPendingHttpSend(sock)
 	closeHttpSocketQuiet(sock)
+	if reason and reason ~= "response_complete" and reason ~= "client_closed" then
+		logHttp(string.format("[null-http] client closed reason=%s", tostring(reason)))
+	end
+end
+
+local forceCloseHttpState
+
+local function markHttpServerDropped(reason)
+	local why = tostring(reason or "unknown")
+	nullHttpState.serverDropCount = (tonumber(nullHttpState.serverDropCount) or 0) + 1
+	nullHttpState.lastServerDropReason = why
+	forceCloseHttpState(nullHttpState)
+	nullHttpState.socketModule = nil
+	nullHttpState.server = nil
+	nullHttpState.started = false
+end
+
+local function describeHttpErrorPayload(err)
+	local errType = type(err)
+	if errType == "string" or errType == "number" or errType == "boolean" or err == nil then
+		return tostring(err)
+	end
+	if errType == "table" then
+		local direct = rawget(err, "error") or rawget(err, "err") or rawget(err, "message") or rawget(err, "reason")
+		if direct ~= nil then
+			return tostring(direct)
+		end
+		local code = rawget(err, "code")
+		if code ~= nil then
+			return "code=" .. tostring(code)
+		end
+	end
+	return tostring(err)
+end
+
+local function maybeRestartServerOnServerError(serverRef, summary)
+	if serverRef ~= nullHttpState.server then
+		return
+	end
+	local frameNow = tonumber(nullHttpState.frameCounter) or 0
+	local lastRestart = tonumber(nullHttpState.lastServerErrorRestartFrame) or -1000000
+	if (frameNow - lastRestart) < HTTP_SERVER_ERROR_RESTART_COOLDOWN_FRAMES then
+		return
+	end
+	nullHttpState.lastServerErrorRestartFrame = frameNow
+	markHttpServerDropped("server_error_event:" .. tostring(summary))
+	-- Force healthcheck to run restart path on the next frame.
+	nullHttpState.lastHealthCheckFrame = 0
 end
 
 local function removeCallbackQuiet(cbid)
@@ -7480,7 +8041,7 @@ local function removeCallbackQuiet(cbid)
 	end)
 end
 
-local function forceCloseHttpState(state)
+forceCloseHttpState = function(state)
 	if type(state) ~= "table" then
 		return
 	end
@@ -7508,7 +8069,6 @@ local function forceCloseHttpState(state)
 			queueSocket(sock)
 		end
 	end
-
 	for i = 1, #sockets do
 		closeHttpSocketQuiet(sockets[i])
 	end
@@ -7591,6 +8151,64 @@ end
 
 local flushHttpResponse
 
+local function trimAsciiWhitespace(text)
+	if type(text) ~= "string" then
+		return ""
+	end
+	return text:match("^%s*(.-)%s*$") or ""
+end
+
+local function readCurrentAttemptMasterRawJson()
+	local okCtx, ctxOrErr = pcall(ensureExportContext)
+	if not okCtx then
+		logHttp(string.format("[null-http] WARN failed to resolve export context: %s", tostring(ctxOrErr)))
+		return nil
+	end
+	local ctx = ctxOrErr
+	local path = ctx and ctx.masterPath or nil
+	if type(path) ~= "string" or path == "" then
+		return nil
+	end
+	local f = io.open(path, "r")
+	if not f then
+		return nil
+	end
+	local raw = f:read("*a")
+	f:close()
+	raw = trimAsciiWhitespace(raw)
+	if raw == "" then
+		return nil
+	end
+	if raw:sub(1, 1) ~= "{" then
+		logHttp(string.format("[null-http] WARN ignoring non-object master JSON at %s", tostring(path)))
+		return nil
+	end
+	return raw
+end
+
+local function buildUpdateJsonResponseBody()
+	local okShowdown, textOrErr = pcall(buildShowdownText)
+	if not okShowdown then
+		return nil, tostring(textOrErr)
+	end
+
+	local okWrite, writeErr = pcall(writeCurrentAttemptMaster, true)
+	if not okWrite then
+		logHttp(string.format("[null-http] WARN could not refresh current attempt master: %s", tostring(writeErr)))
+	end
+
+	local battleLogsRaw = readCurrentAttemptMasterRawJson()
+	local okJson, outOrErr = pcall(string.format,
+		"{\"box\":%s,\"battleLogs\":%s}",
+		jsonEncode(textOrErr or ""),
+		battleLogsRaw or "null"
+	)
+	if not okJson then
+		return nil, tostring(outOrErr)
+	end
+	return outOrErr, nil
+end
+
 local function sendHttpResponse(sock, statusCode, body, contentType)
 	if not sock then
 		return
@@ -7636,8 +8254,8 @@ flushHttpResponse = function(sock)
 			return sock:send(pending.response, pending.offset, chunkEnd)
 		end)
 		if not sendOk then
-			console:log(string.format("[null-http] WARN HTTP send panic: %s", tostring(lastByteOrErr)))
-			closeHttpClient(sock)
+			logHttp(string.format("[null-http] WARN HTTP send panic: %s", tostring(lastByteOrErr)))
+			closeHttpClient(sock, "send_panic")
 			return
 		end
 		if lastByteOrErr then
@@ -7650,27 +8268,27 @@ flushHttpResponse = function(sock)
 		elseif sendErr == again or sendErr == timeout then
 			pending.againRetries = pending.againRetries + 1
 		else
-			console:log(string.format("[null-http] WARN HTTP send failed: %s", tostring(sendErr)))
-			closeHttpClient(sock)
+			logHttp(string.format("[null-http] WARN HTTP send failed: %s", tostring(sendErr)))
+			closeHttpClient(sock, "send_failed")
 			return
 		end
 
 		if pending.againRetries > HTTP_SEND_MAX_AGAIN_RETRIES then
-			console:log(string.format("[null-http] WARN HTTP send retry limit hit (%s)", tostring(sendErr)))
-			closeHttpClient(sock)
+			logHttp(string.format("[null-http] WARN HTTP send retry limit hit (%s)", tostring(sendErr)))
+			closeHttpClient(sock, "send_retry_limit")
 			return
 		end
 		if pending.offset <= #pending.response and pending.againRetries > 0 then
 			if not pending.frameCallbackId then
-				pending.frameCallbackId = callbacks:add("frame", function()
+				pending.frameCallbackId = callbacks:add("frame", makeSafeCallback("http.flush", function()
 					flushHttpResponse(sock)
-				end)
+				end))
 			end
 			return
 		end
 	end
 
-	closeHttpClient(sock)
+	closeHttpClient(sock, "response_complete")
 end
 
 local function handleHttpRequest(method, path)
@@ -7691,11 +8309,26 @@ local function handleHttpRequest(method, path)
 			nullHttpState.updateRequestCount,
 			os.date("%H:%M:%S")
 		))
-		local ok, text = pcall(buildShowdownText)
-		if not ok then
-			return 500, tostring(text), "text/plain; charset=utf-8"
+		local okBuild, bodyOrErr, maybeErr = pcall(buildUpdateJsonResponseBody)
+		if not okBuild then
+			logHttp(string.format("[null-http] ERROR /update build panic: %s", tostring(bodyOrErr)))
+			local fallback = nullHttpState.lastUpdateResponseBody
+			if type(fallback) == "string" and fallback ~= "" then
+				return 200, fallback, "application/json; charset=utf-8"
+			end
+			return 500, tostring(bodyOrErr), "text/plain; charset=utf-8"
 		end
-		return 200, text or "", "text/plain; charset=utf-8"
+
+		if bodyOrErr == nil then
+			logHttp(string.format("[null-http] ERROR /update build failed: %s", tostring(maybeErr)))
+			local fallback = nullHttpState.lastUpdateResponseBody
+			if type(fallback) == "string" and fallback ~= "" then
+				return 200, fallback, "application/json; charset=utf-8"
+			end
+			return 500, tostring(maybeErr), "text/plain; charset=utf-8"
+		end
+		nullHttpState.lastUpdateResponseBody = bodyOrErr
+		return 200, bodyOrErr, "application/json; charset=utf-8"
 	end
 
 	if normalizedPath == nullHttpState.battleStatePath then
@@ -7718,6 +8351,7 @@ local function handleHttpClientReceive(sock)
 	local data = nullHttpState.clientBuffers[sock] or ""
 	local socketModule = nullHttpState.socketModule or rawget(_G, "socket")
 	local again = socketModule and socketModule.ERRORS and socketModule.ERRORS.AGAIN
+	local timeout = socketModule and socketModule.ERRORS and socketModule.ERRORS.TIMEOUT
 	local function finishRequestFromBuffer()
 		local req = parseHttpRequestHead(data)
 		nullHttpState.clientBuffers[sock] = nil
@@ -7725,7 +8359,11 @@ local function handleHttpClientReceive(sock)
 			sendHttpResponse(sock, 400, "Bad Request", "text/plain; charset=utf-8")
 			return true
 		end
-		local statusCode, body, contentType = handleHttpRequest(req.method, req.path)
+		local statusCode, body, contentType = runWithErrorLogging("http.request", handleHttpRequest, req.method, req.path)
+		if statusCode == nil then
+			sendHttpResponse(sock, 500, "Internal Server Error", "text/plain; charset=utf-8")
+			return true
+		end
 		sendHttpResponse(sock, statusCode, body, contentType)
 		return true
 	end
@@ -7743,7 +8381,7 @@ local function handleHttpClientReceive(sock)
 				return
 			end
 		else
-			if err == again then
+			if err == again or err == timeout then
 				nullHttpState.clientBuffers[sock] = data
 				return
 			end
@@ -7751,7 +8389,7 @@ local function handleHttpClientReceive(sock)
 				finishRequestFromBuffer()
 				return
 			end
-			closeHttpClient(sock)
+			closeHttpClient(sock, err or "receive_closed")
 			return
 		end
 	end
@@ -7764,20 +8402,74 @@ local function acceptHttpConnection()
 	end
 	local socketModule = nullHttpState.socketModule or rawget(_G, "socket")
 	local again = socketModule and socketModule.ERRORS and socketModule.ERRORS.AGAIN
+	local timeout = socketModule and socketModule.ERRORS and socketModule.ERRORS.TIMEOUT
 	while true do
 		local sock, err = server:accept()
 		if not sock then
-			if err ~= again then
+			if err ~= again and err ~= timeout then
+				logHttp(string.format("[null-http] WARN accept failed: %s", tostring(err)))
+				nullHttpState.acceptFatalCount = (tonumber(nullHttpState.acceptFatalCount) or 0) + 1
+				nullHttpState.lastAcceptFatal = tostring(err)
+				markHttpServerDropped("accept:" .. tostring(err))
 				return
 			end
 			return
 		end
-		sock:add("received", function()
+		sock:add("received", makeSafeCallback("http.client.received", function()
 			handleHttpClientReceive(sock)
-		end)
-		sock:add("error", function()
-			closeHttpClient(sock)
-		end)
+		end))
+		sock:add("error", makeSafeCallback("http.client.error", function()
+			closeHttpClient(sock, "client_error_event")
+		end))
+	end
+end
+
+local function probeHttpServerSocketAlive()
+	local server = nullHttpState.server
+	if not server then
+		return false, "server_nil"
+	end
+	local probeFn = server.getsockname
+	if type(probeFn) ~= "function" then
+		-- Some socket implementations do not expose getsockname.
+		-- In that case, do not declare dead based on probe absence.
+		return true, "no_probe_method"
+	end
+	local ok, ip, port = pcall(probeFn, server)
+	if not ok then
+		return false, tostring(ip)
+	end
+	if ip == nil or port == nil then
+		return false, "getsockname_nil"
+	end
+	return true, nil
+end
+
+function ensureNullHttpServerHealthy()
+	nullHttpState.frameCounter = (nullHttpState.frameCounter or 0) + 1
+	local last = tonumber(nullHttpState.lastHealthCheckFrame) or 0
+	if (nullHttpState.frameCounter - last) < HTTP_HEALTHCHECK_EVERY_FRAMES then
+		return
+	end
+	nullHttpState.lastHealthCheckFrame = nullHttpState.frameCounter
+
+	if nullHttpState.started and nullHttpState.server then
+		local alive, reason = probeHttpServerSocketAlive()
+		if not alive then
+			markHttpServerDropped("probe:" .. tostring(reason or "unknown"))
+		else
+			return
+		end
+	end
+
+	if nullHttpState.started and not nullHttpState.server then
+		logHttp("[null-http] WARN HTTP state inconsistent (started=true, server=nil); attempting recovery.")
+		nullHttpState.started = false
+	end
+
+	if not nullHttpState.started then
+		nullHttpState.serverRestartCount = (tonumber(nullHttpState.serverRestartCount) or 0) + 1
+		setupNullHttpServer()
 	end
 end
 
@@ -7797,29 +8489,71 @@ function setupNullHttpServer()
 		end
 	end
 	if not socketModule or not socketModule.bind then
-		console:log("[null-http] WARN socket module unavailable; HTTP disabled.")
+		logHttp("[null-http] WARN socket module unavailable; HTTP disabled.")
 		return
 	end
 
 	local server, bindErr = socketModule.bind(nullHttpState.host, nullHttpState.port)
+	nullHttpState.bindAttemptCount = (tonumber(nullHttpState.bindAttemptCount) or 0) + 1
 	if bindErr or not server then
-		console:log(string.format("[null-http] WARN HTTP bind failed on port %s: %s", tostring(nullHttpState.port), tostring(bindErr)))
+		nullHttpState.lastBindError = tostring(bindErr or "bind_failed")
+		logHttp(string.format("[null-http] WARN HTTP bind failed on port %s: %s", tostring(nullHttpState.port), tostring(bindErr)))
 		return
 	end
+	nullHttpState.lastBindError = nil
 
 	local _ok, listenErr = server:listen(HTTP_LISTEN_BACKLOG)
 	if listenErr then
 		closeHttpSocketQuiet(server)
-		console:log(string.format("[null-http] WARN HTTP listen failed: %s", tostring(listenErr)))
+		nullHttpState.listenErrorCount = (tonumber(nullHttpState.listenErrorCount) or 0) + 1
+		nullHttpState.lastListenError = tostring(listenErr)
+		logHttp(string.format("[null-http] WARN HTTP listen failed: %s", tostring(listenErr)))
 		return
 	end
+	nullHttpState.lastListenError = nil
 
 	nullHttpState.socketModule = socketModule
 	nullHttpState.server = server
 	nullHttpState.started = true
 	nullSingleton.httpState = nullHttpState
-	server:add("received", acceptHttpConnection)
-	console:log("Now connected to https://hzla.github.io/Dynamic-Calc-Decomps/?data=null")
+	server:add("received", makeSafeCallback("http.accept", acceptHttpConnection))
+	server:add("error", makeSafeCallback("http.server.error", function(err)
+		nullHttpState.serverErrorEventCount = (tonumber(nullHttpState.serverErrorEventCount) or 0) + 1
+		local summary = describeHttpErrorPayload(err)
+		nullHttpState.lastServerErrorEvent = summary
+		maybeRestartServerOnServerError(server, summary)
+	end))
+end
+
+function printNullHttpDiagnostics()
+	local counts = nullHttpState.clientCloseReasons or {}
+	local reasonParts = {}
+	for reason, n in pairs(counts) do
+		reasonParts[#reasonParts + 1] = string.format("%s=%s", tostring(reason), tostring(n))
+	end
+	table.sort(reasonParts)
+	logHttp(string.format(
+		"[null-http] DIAG started=%s server=%s updateRequests=%s battleStateRequests=%s dropCount=%s restartAttempts=%s bindAttempts=%s acceptFatals=%s",
+		tostring(nullHttpState.started),
+		tostring(nullHttpState.server ~= nil),
+		tostring(nullHttpState.updateRequestCount),
+		tostring(nullHttpState.battleStateRequestCount),
+		tostring(nullHttpState.serverDropCount),
+		tostring(nullHttpState.serverRestartCount),
+		tostring(nullHttpState.bindAttemptCount),
+		tostring(nullHttpState.acceptFatalCount)
+	))
+	logHttp(string.format(
+		"[null-http] DIAG lastDrop=%s lastAcceptFatal=%s lastBindError=%s lastListenError=%s serverErrorEvents=%s lastServerError=%s lastClientClose=%s",
+		tostring(nullHttpState.lastServerDropReason),
+		tostring(nullHttpState.lastAcceptFatal),
+		tostring(nullHttpState.lastBindError),
+		tostring(nullHttpState.lastListenError),
+		tostring(nullHttpState.serverErrorEventCount),
+		tostring(nullHttpState.lastServerErrorEvent),
+		tostring(nullHttpState.lastClientCloseReason)
+	))
+	logHttp(string.format("[null-http] DIAG clientCloseReasons=%s", (#reasonParts > 0) and table.concat(reasonParts, ", ") or "none"))
 end
 -- <<< END 08_http_server.lua
 
@@ -7918,15 +8652,15 @@ function startScript()
 		return
 	end
 	nullScriptStarted = true
+	console:log("Lua Script Loaded")
 	armHardcodedNextTrainerMovesetIfConfigured()
 	local ctx = ensureExportContext()
-	writeCurrentAttemptMaster(false)
 	renderHowToUseBuffer(ctx)
 	setupNullHttpServer()
 	if not partyBuffer then
 		partyBuffer = console:createBuffer("Showdown Export")
 		partyBuffer:setSize(200,1000)
-		export()
+		printPartyStatus(partyBuffer)
 	end
 	if not hiddenBuffer then
 		hiddenBuffer = console:createBuffer("Hidden Powers")
@@ -7946,26 +8680,28 @@ function export()
 		return
 	end
 	hiddens()
+	writeCurrentAttemptMaster(true)
 end
 
 teardownPreviousSingletonInstance()
 nullSingleton.teardown = teardownThisScriptInstance
 nullSingleton.httpState = nullHttpState
-nullSingleton.startCallbackId = callbacks:add("start", function()
+nullSingleton.startCallbackId = callbacks:add("start", makeSafeCallback("script.start", function()
 	if not isActiveScriptInstance() then
 		return
 	end
 	startScript()
-end)
-nullSingleton.frameCallbackId = callbacks:add("frame", function()
+end))
+nullSingleton.frameCallbackId = callbacks:add("frame", makeSafeCallback("script.frame", function()
 	if not isActiveScriptInstance() then
 		return
 	end
+	ensureNullHttpServerHealthy()
 	updateNullBattleLogger()
-end)
+end))
 nullSingleton.callbackOwnerToken = THIS_SCRIPT_TOKEN
 if emu then
-	startScript()
+	runWithErrorLogging("script.start.immediate", startScript)
 end
 -- <<< END 09_ui_main.lua
 

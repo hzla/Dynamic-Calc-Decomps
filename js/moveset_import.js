@@ -1012,6 +1012,19 @@ function delayMs(ms) {
 	});
 }
 
+let syncLuaInFlight = false;
+const LUA_UPDATE_MAX_ATTEMPTS = 6;
+const LUA_UPDATE_BASE_RETRY_MS = 400;
+const LUA_UPDATE_URL = "http://127.0.0.1:31124/update";
+
+function computeLuaRetryDelayMs(attempt, baseDelayMs) {
+	var base = Number(baseDelayMs) || 200;
+	if (base < 50) base = 50;
+	var step = Math.max(0, (Number(attempt) || 1) - 1);
+	var next = Math.min(1800, base * Math.pow(2, step));
+	return Math.floor(next);
+}
+
 function isRetryableLuaFetchError(err) {
 	if (!err) return false;
 	var msg = String(err.message || err || "");
@@ -1019,6 +1032,7 @@ function isRetryableLuaFetchError(err) {
 	var blob = (msg + " " + cause).toLowerCase();
 	return (
 		blob.indexOf("err_empty_response") !== -1 ||
+		blob.indexOf("connection refused") !== -1 ||
 		blob.indexOf("empty response") !== -1 ||
 		blob.indexOf("failed to fetch") !== -1 ||
 		blob.indexOf("networkerror") !== -1 ||
@@ -1027,10 +1041,10 @@ function isRetryableLuaFetchError(err) {
 }
 
 function fetchLuaUpdateWithRetry(attempt, maxAttempts, retryDelayMs) {
-	return fetch("http://localhost:31124/update", { cache: "no-store" })
+	return fetch(LUA_UPDATE_URL, { cache: "no-store" })
 		.then(function (response) {
 			if (!response.ok) {
-				throw new Error("HTTP " + response.status);
+				throw new Error("HTTP " + response.status + " from " + LUA_UPDATE_URL);
 			}
 			return response.text();
 		})
@@ -1041,7 +1055,7 @@ function fetchLuaUpdateWithRetry(attempt, maxAttempts, retryDelayMs) {
 			if (attempt >= maxAttempts) {
 				throw new Error("Empty response");
 			}
-			return delayMs(retryDelayMs).then(function () {
+			return delayMs(computeLuaRetryDelayMs(attempt, retryDelayMs)).then(function () {
 				return fetchLuaUpdateWithRetry(attempt + 1, maxAttempts, retryDelayMs);
 			});
 			})
@@ -1052,7 +1066,7 @@ function fetchLuaUpdateWithRetry(attempt, maxAttempts, retryDelayMs) {
 				if (attempt >= maxAttempts) {
 					throw err;
 				}
-				return delayMs(retryDelayMs).then(function () {
+				return delayMs(computeLuaRetryDelayMs(attempt, retryDelayMs)).then(function () {
 				return fetchLuaUpdateWithRetry(attempt + 1, maxAttempts, retryDelayMs);
 			});
 		});
@@ -1082,27 +1096,71 @@ function parseNullShowdownTextWithTidHeader(rawText) {
 	};
 }
 
+function parseNullUpdatePayload(rawText) {
+	var text = String(rawText || "");
+	var parsedJson = null;
+	try {
+		parsedJson = JSON.parse(text);
+	} catch (_err) {
+		parsedJson = null;
+	}
+	if (!parsedJson || typeof parsedJson !== "object" || typeof parsedJson.box !== "string") {
+		var fallback = parseNullShowdownTextWithTidHeader(text);
+		fallback.battleLogs = null;
+		return fallback;
+	}
+	var parsedBox = parseNullShowdownTextWithTidHeader(parsedJson.box);
+	return {
+		showdownText: parsedBox.showdownText,
+		tidSid: parsedBox.tidSid,
+		battleLogs: typeof parsedJson.battleLogs === "undefined" ? null : parsedJson.battleLogs,
+	};
+}
+
 $("#sync-lua").click(() => {
+	if (syncLuaInFlight) {
+		console.warn("Sync already in progress; ignoring duplicate click.");
+		return;
+	}
+	syncLuaInFlight = true;
+	const resetSyncState = function () {
+		syncLuaInFlight = false;
+	};
+
 	if (TITLE.includes("Imperium")) {
 		console.log("Fetching Box")
-		fetchLuaUpdateWithRetry(1, 4, 200).then(function (x) {
+		fetchLuaUpdateWithRetry(1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (x) {
 			loadPokeLuaGen3RawBoxDump(x)
 			$('#import').click()
 			$('#import').val("")
-		}).catch(() => alert("Please make sure the Lua script is running and MGBA is not paused."));
+		}).catch(function (err) {
+			console.error("Lua sync failed", err);
+			alert("Please make sure the Lua script is running and MGBA is not paused.");
+		}).finally(resetSyncState);
+		return;
 	}
 	if (TITLE == "Pokemon Null") {
 		console.log("Fetching Box")
-		fetchLuaUpdateWithRetry(1, 4, 200).then(function (x) {
-			var parsed = parseNullShowdownTextWithTidHeader(x);
+		fetchLuaUpdateWithRetry(1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (x) {
+			var parsed = parseNullUpdatePayload(x);
 			if (parsed.tidSid) {
 				localStorage.lastTid = parsed.tidSid;
+			}
+			try {
+				localStorage.battleLogs = JSON.stringify(parsed.battleLogs);
+			} catch (storageErr) {
+				console.warn("Failed to persist localStorage.battleLogs", storageErr);
 			}
 			$('.import-team-text').val(parsed.showdownText)
 			$('#import').click()
 			$('.import-team-text').val("")
-		}).catch(() => alert("Please make sure the Lua script is running and MGBA is not paused. Download Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnull.lua"));
+		}).catch(function (err) {
+			console.error("Lua sync failed", err);
+			alert("Please make sure the Lua script is running and MGBA is not paused. Download Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnull.lua");
+		}).finally(resetSyncState);
+		return;
 	}
+	resetSyncState();
 });
 
 $("#importedSets").click(function () {

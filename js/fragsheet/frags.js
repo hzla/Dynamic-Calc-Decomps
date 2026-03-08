@@ -220,7 +220,7 @@ function shouldHidePrevo(speciesName) {
 $(document).ready(function(){
 
 	let url = location.href.replace("index.html", "frags.html")
-	if (location.href.includes("Dynamic-Calc-Decomps/?data")){
+	if (location.href.includes("Dynamic-Calc-Decomps/?data") || location.href.includes("localhost:3001/?data")){
 	  url = url.split("?data").join("frags.html?data");
 	}
 	$('#fragsheet-link').attr('href', url)

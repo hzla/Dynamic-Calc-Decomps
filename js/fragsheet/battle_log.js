@@ -1,16 +1,11 @@
 ﻿(function () {
-    const BATTLE_LOG_STORAGE_CANDIDATES = [
-        "battleLogJsonl",
-        "battleLogJSONL",
-        "battleLogData",
-        "battleLog"
-    ];
+    const BATTLE_LOG_STORAGE_KEY = "battleLogs";
+    const BATTLE_LOG_SYNC_URL = "http://127.0.0.1:31124/update";
+    const BATTLE_LOG_SYNC_MAX_ATTEMPTS = 6;
+    const BATTLE_LOG_SYNC_BASE_RETRY_MS = 400;
     let lastRenderedBattleLogRaw = null;
     let lastRenderedCustomLeadsRaw = null;
-    let lastRenderedUploadedBattleLogVersion = -1;
-    let uploadedBattleLogOverride = null;
-    let uploadedBattleLogSourceLabel = null;
-    let uploadedBattleLogVersion = 0;
+    let syncBattleLogsInFlight = false;
     let activeBattleLogSplitFilter = "all";
     const BATTLE_LOG_ID_PLACEHOLDERS = {
         species: "Unknown",
@@ -69,7 +64,7 @@
     }
 
     function isSyncLuaEnabled() {
-        return localStorage.getItem("syncLua") === "1";
+        return localStorage.getItem("syncLua") === "1" || TITLE == "Pokemon Null";
     }
 
     function applyBattleLogTabVisibility() {
@@ -94,27 +89,16 @@
     }
 
     function resolveBattleLogSource() {
-        if (uploadedBattleLogOverride) {
-            return {
-                source: uploadedBattleLogSourceLabel || "uploaded-file",
-                data: uploadedBattleLogOverride
-            };
+        const data = readLocalStorageJson(BATTLE_LOG_STORAGE_KEY);
+        if (data == null) {
+            return { source: null, data: null };
         }
+        return { source: `localStorage:${BATTLE_LOG_STORAGE_KEY}`, data };
+    }
 
-        const localBattleLog = readLocalStorageJson("battleLog");
-        if (localBattleLog) {
-            return { source: "localStorage:battleLog", data: localBattleLog };
-        }
-
-        for (const key of BATTLE_LOG_STORAGE_CANDIDATES) {
-            if (key === "battleLog") continue;
-            const value = readLocalStorageJson(key);
-            if (value) {
-                return { source: `localStorage:${key}`, data: value };
-            }
-        }
-
-        return { source: null, data: null };
+    function getBattleLogStorageFingerprint() {
+        const raw = localStorage.getItem(BATTLE_LOG_STORAGE_KEY);
+        return raw == null ? "" : raw;
     }
 
     function setBattleLogUploadStatus(message, isError) {
@@ -126,30 +110,105 @@
         el.style.color = isError ? "#ffb6bd" : "#bdbdbd";
     }
 
-    function setUploadedBattleLogOverride(data, sourceLabel) {
-        uploadedBattleLogOverride = data;
-        uploadedBattleLogSourceLabel = sourceLabel || "uploaded-file";
-        uploadedBattleLogVersion += 1;
+    function delayMs(ms) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
     }
 
-    async function handleBattleLogFileUpload(file) {
-        if (!file) return;
+    function computeBattleLogRetryDelayMs(attempt, baseDelayMs) {
+        let base = Number(baseDelayMs) || 200;
+        if (base < 50) base = 50;
+        const step = Math.max(0, (Number(attempt) || 1) - 1);
+        return Math.floor(Math.min(1800, base * Math.pow(2, step)));
+    }
 
+    function isRetryableBattleLogSyncError(err) {
+        if (!err) return false;
+        const msg = String(err.message || err || "").toLowerCase();
+        return (
+            msg.includes("err_empty_response") ||
+            msg.includes("connection refused") ||
+            msg.includes("empty /update response") ||
+            msg.includes("empty response") ||
+            msg.includes("failed to fetch") ||
+            msg.includes("networkerror") ||
+            msg.includes("load failed")
+        );
+    }
+
+    async function syncBattleLogsFromLuaUpdate() {
+        if (syncBattleLogsInFlight) {
+            return;
+        }
+        syncBattleLogsInFlight = true;
+        setBattleLogUploadStatus("Syncing...", false);
         try {
-            const text = await file.text();
-            const parsed = JSON.parse(text);
-            setUploadedBattleLogOverride(parsed, `upload:${file.name}`);
-            setBattleLogUploadStatus(`Using uploaded file: ${file.name}`, false);
+            let payload = null;
+            let lastErr = null;
 
-            // Force immediate refresh after successful parse.
+            for (let attempt = 1; attempt <= BATTLE_LOG_SYNC_MAX_ATTEMPTS; attempt += 1) {
+                try {
+                    const response = await fetch(BATTLE_LOG_SYNC_URL, { cache: "no-store" });
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+                    const raw = await response.text();
+                    if (!raw || !raw.trim()) {
+                        throw new Error("Empty /update response");
+                    }
+                    payload = JSON.parse(raw);
+                    if (!payload || typeof payload !== "object") {
+                        throw new Error("Invalid /update JSON payload");
+                    }
+                    lastErr = null;
+                    break;
+                } catch (err) {
+                    lastErr = err;
+                    if (attempt >= BATTLE_LOG_SYNC_MAX_ATTEMPTS || !isRetryableBattleLogSyncError(err)) {
+                        throw err;
+                    }
+                    await delayMs(computeBattleLogRetryDelayMs(attempt, BATTLE_LOG_SYNC_BASE_RETRY_MS));
+                }
+            }
+
+            if (!payload) {
+                throw (lastErr || new Error("Failed to sync from /update"));
+            }
+
+            localStorage.setItem(BATTLE_LOG_STORAGE_KEY, JSON.stringify(payload.battleLogs ?? null));
+            setBattleLogUploadStatus(`Synced @ ${new Date().toLocaleTimeString()}`, false);
             renderBattleLogView(true);
         } catch (err) {
-            console.error("Failed to parse uploaded Master JSON file", err);
-            setBattleLogUploadStatus(`Upload failed: ${err && err.message ? err.message : String(err)}`, true);
+            console.error("Failed to sync battle logs from /update", err);
+            setBattleLogUploadStatus(`Sync failed: ${err && err.message ? err.message : String(err)}`, true);
+        } finally {
+            syncBattleLogsInFlight = false;
         }
     }
 
+    function getNullEnumList(kind) {
+        if (typeof window.TITLE !== "string" || window.TITLE !== "Pokemon Null") {
+            return null;
+        }
+
+        if (kind === "species" && Array.isArray(window.nullMons)) {
+            // Null species IDs are 1-based in nullMons, so pad index 0.
+            return ["", ...window.nullMons];
+        }
+        if (kind === "move" && Array.isArray(window.nullMoves)) {
+            return window.nullMoves;
+        }
+        if (kind === "item" && Array.isArray(window.nullItems)) {
+            // Null item IDs are 1-based in nullItems, so pad index 0.
+            return ["None", ...window.nullItems];
+        }
+
+        return null;
+    }
+
     function getEnumList(kind) {
+        const nullEnumList = getNullEnumList(kind);
+        if (nullEnumList) return nullEnumList;
+
         if (kind === "species" && Array.isArray(window.sav_pok_names)) return window.sav_pok_names;
         if (kind === "move" && Array.isArray(window.sav_move_names)) return window.sav_move_names;
         if (kind === "item" && Array.isArray(window.sav_item_names)) return window.sav_item_names;
@@ -291,10 +350,27 @@
         return sessions;
     }
 
+    function getSessionTrainerId(session) {
+        const start = session && session.start ? session.start : null;
+        if (!start || typeof start !== "object") return undefined;
+
+        const enemyTrainerIdA = Number(start.enemyTrainerIdA);
+        if (Number.isFinite(enemyTrainerIdA) && enemyTrainerIdA > 0) {
+            return enemyTrainerIdA;
+        }
+
+        const legacyTrainerId = Number(start.trainerId);
+        if (Number.isFinite(legacyTrainerId) && legacyTrainerId > 0) {
+            return legacyTrainerId;
+        }
+
+        return undefined;
+    }
+
     function dedupeSessionsByTrainerId(sessions) {
         const seenTrainerIds = {};
         return sessions.filter((session) => {
-            const trainerId = session && session.start ? session.start.trainerId : undefined;
+            const trainerId = getSessionTrainerId(session);
             const key = trainerId == null ? "__missing_trainer_id__" : String(trainerId);
             if (seenTrainerIds[key]) {
                 return false;
@@ -494,7 +570,7 @@
         }
 
         sessions.forEach((session) => {
-            const trainerId = session && session.start ? session.start.trainerId : undefined;
+            const trainerId = getSessionTrainerId(session);
             const trainerNameWithSpace = buildFragTrainerNamePreserveTrailingSpace(trainerId);
             const trainerLeadLevel = parseTrainerLeadLevel(trainerId);
             const events = Array.isArray(session && session.events) ? session.events : [];
@@ -622,8 +698,7 @@
         }
 
         const rows = pKos.map((event) => {
-            const displayMove = getBattleLogMoveDisplayName(event.move);
-            const details = [event.turn ? `Turn ${event.turn}` : null, displayMove || null].filter(Boolean).join(" - ");
+            const details = [event.turn ? `Turn ${event.turn}` : null].filter(Boolean).join(" - ");
             const aiSlot = typeof event.aiPartySlot === "number" ? event.aiPartySlot + 1 : "?";
 
             return `
@@ -662,7 +737,7 @@
     }
 
     function renderSession(session, index) {
-        const trainerId = session.start && session.start.trainerId;
+        const trainerId = getSessionTrainerId(session);
         const trainerName = parseTrainerName(trainerId);
         const splitTypeClass = getBattleLogTrainerSplitTypeClass(trainerId);
         const pKoCount = session.events.filter((e) => e.type === "pKo").length;
@@ -755,12 +830,11 @@
         const container = document.getElementById("battle-log-container");
         if (!container) return;
 
-        const currentBattleLogRaw = localStorage.getItem("battleLog");
+        const currentBattleLogRaw = getBattleLogStorageFingerprint();
         const currentCustomLeadsRaw = localStorage.getItem("customLeads");
         const hasInputChanged =
             currentBattleLogRaw !== lastRenderedBattleLogRaw ||
-            currentCustomLeadsRaw !== lastRenderedCustomLeadsRaw ||
-            uploadedBattleLogVersion !== lastRenderedUploadedBattleLogVersion;
+            currentCustomLeadsRaw !== lastRenderedCustomLeadsRaw;
 
         if (!force && !hasInputChanged) {
             return;
@@ -770,7 +844,6 @@
         if (!resolved.data) {
             lastRenderedBattleLogRaw = currentBattleLogRaw;
             lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
-            lastRenderedUploadedBattleLogVersion = uploadedBattleLogVersion;
             container.innerHTML = '<div class="battle-log-empty">No battle log data found.</div>';
             renderBattleLogFragsheetPanel();
             return;
@@ -784,14 +857,13 @@
 
         const filteredSessions = sessions.filter((session) => {
             if (activeBattleLogSplitFilter === "all") return true;
-            const splitIndex = getBattleLogTrainerSplitIndex(session && session.start ? session.start.trainerId : undefined);
+            const splitIndex = getBattleLogTrainerSplitIndex(getSessionTrainerId(session));
             return splitIndex != null && Number(splitIndex) === Number(activeBattleLogSplitFilter);
         });
 
         if (!sessions.length) {
             lastRenderedBattleLogRaw = currentBattleLogRaw;
             lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
-            lastRenderedUploadedBattleLogVersion = uploadedBattleLogVersion;
             container.innerHTML = `
                 <div class="battle-log-empty">No battle sessions found in battle log data.</div>
                 ${parseErrors.length ? `<div class="battle-log-note">${escHtml(parseErrors.length)} parse error(s) ignored.</div>` : ""}
@@ -811,7 +883,6 @@
         container.innerHTML = html;
         lastRenderedBattleLogRaw = currentBattleLogRaw;
         lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
-        lastRenderedUploadedBattleLogVersion = uploadedBattleLogVersion;
     }
 
     function setViewMode(mode) {
@@ -861,17 +932,17 @@
 
         window.addEventListener("storage", function (event) {
             if (!event.key) return;
-            if (BATTLE_LOG_STORAGE_CANDIDATES.indexOf(event.key) === -1 && event.key !== "customLeads") return;
+            if (event.key !== BATTLE_LOG_STORAGE_KEY && event.key !== "customLeads") return;
             if (document.body.classList.contains("battle-log-mode")) {
                 renderBattleLogView(false);
             }
         });
 
-        let lastBattleLogRaw = localStorage.getItem("battleLog");
+        let lastBattleLogRaw = getBattleLogStorageFingerprint();
         let lastCustomLeadsRaw = localStorage.getItem("customLeads");
         let lastSyncLuaRaw = localStorage.getItem("syncLua");
         setInterval(function () {
-            const nextBattleLogRaw = localStorage.getItem("battleLog");
+            const nextBattleLogRaw = getBattleLogStorageFingerprint();
             const nextCustomLeadsRaw = localStorage.getItem("customLeads");
             const nextSyncLuaRaw = localStorage.getItem("syncLua");
             const changed =
@@ -891,18 +962,10 @@
         }, 2000);
 
         const uploadBtn = document.getElementById("battle-log-upload-btn");
-        const uploadInput = document.getElementById("battle-log-upload-input");
-
-        if (uploadBtn && uploadInput) {
+        if (uploadBtn) {
+            uploadBtn.textContent = "Sync";
             uploadBtn.addEventListener("click", function () {
-                uploadInput.click();
-            });
-
-            uploadInput.addEventListener("change", function (event) {
-                const file = event && event.target && event.target.files ? event.target.files[0] : null;
-                handleBattleLogFileUpload(file);
-                // Allow re-selecting the same file to trigger change again.
-                uploadInput.value = "";
+                syncBattleLogsFromLuaUpdate();
             });
         }
 
@@ -925,4 +988,3 @@
         setViewMode("fragsheet");
     });
 })();
-

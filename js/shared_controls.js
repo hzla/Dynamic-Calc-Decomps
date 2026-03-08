@@ -679,14 +679,8 @@ function refresh_next_in() {
 			isLead = "lead"
 		}
 
-		var pok = ""
-		if (TITLE == "Pokemon Null") {
-			pok = `<div class="trainer-pok-container">
-			<img data-index='${next_poks[i][3]}' class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
-		} else {
-			pok = `<div class="trainer-pok-container">
-			<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
-		}
+		var pok = `<div class="trainer-pok-container">
+		<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
 
 		
 
@@ -869,6 +863,13 @@ $(".set-selector").change(function () {
 						next = npoint_data.order[setdex[pokemonName][setName]["tr_id"]].next
 						prev = npoint_data.order[setdex[pokemonName][setName]["tr_id"]].prev
 					}
+
+					if (npoint_data.order[setdex[pokemonName][setName]["synthId"]]) {
+						next = npoint_data.order[setdex[pokemonName][setName]["synthId"]].next
+						prev = npoint_data.order[setdex[pokemonName][setName]["synthId"]].prev
+					}
+
+
 
 					if (next) {
 						$(".nav-tag.next").attr('data-next', next).show()

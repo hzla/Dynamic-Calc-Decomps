@@ -591,6 +591,7 @@ function loadPoksData() {
         if (jsonPok.hasOwnProperty("abilities"))
             pokedex[pok]["abilities"] = jsonPok["abilities"]
         
+
         SPECIES_BY_ID[gen][pokId].types = jsonPok["types"]
         SPECIES_BY_ID[gen][pokId].baseStats = {
             "atk": jsonPok["bs"]["at"],
@@ -628,6 +629,15 @@ function loadPoksData() {
 function loadMovesData() {
   for (move in moves) {
     var moveId = cleanString(move)
+    var moveName = moveId
+
+    if (MOVES_BY_ID[gen][moveId]) {
+        var moveName = MOVES_BY_ID[gen][moveId].name
+    } else {
+        console.log(`${moveId} not found`)
+        continue
+    }
+    
 
     if (jsonMoves[move]) {
         jsonMove = jsonMoves[move]
@@ -638,11 +648,11 @@ function loadMovesData() {
 
 
 
-    if (move == '(No Move)') {
+    if (moveName == '(No Move)') {
         continue
     }
 
-    moves[move]["bp"] = jsonMove["basePower"]
+    moves[moveName]["bp"] = jsonMove["basePower"]
 
 
     MOVES_BY_ID[g][moveId].basePower = jsonMove["basePower"]
@@ -653,15 +663,15 @@ function loadMovesData() {
     }
 
     if (move in special_case_power_overrides) {
-      moves[move]["bp"] = special_case_power_overrides[move]
-         MOVES_BY_ID[g][moveId].basePower = special_case_power_overrides[move]
+      moves[moveName]["bp"] = special_case_power_overrides[moveName]
+         MOVES_BY_ID[g][moveId].basePower = special_case_power_overrides[moveName]
     }
         
     var optional_move_params = ["type", "category", "e_id", "multihit", "target", "recoil", "overrideBP", "secondaries", "drain", "priority", "willCrit"]  
     for (n in optional_move_params) {
         var param = optional_move_params[n]
         if (jsonMove[param]) {
-          moves[move][param] = jsonMove[param]
+          moves[moveName][param] = jsonMove[param]
           MOVES_BY_ID[g][moveId][param] = jsonMove[param]  
         }
     }
@@ -670,56 +680,66 @@ function loadMovesData() {
     for (n in optional_flag_params) {
         var param = optional_flag_params[n]
         if (jsonMove[param]) {
-          moves[move][param] = jsonMove[param]
+          moves[moveName][param] = jsonMove[param]
           MOVES_BY_ID[g][moveId]["flags"][param] = jsonMove[param]  
         }
     }
 
     if (jsonMove['flags']) {
       if (jsonMove['flags']['punch']) {
-          moves[move]['isPunch'] = true
+          moves[moveName]['isPunch'] = true
           MOVES_BY_ID[g][moveId]["flags"]["punch"] = 1
       }
       if (jsonMove['flags']['sound']) {
-          moves[move]['isSound'] = true
+          moves[moveName]['isSound'] = true
           MOVES_BY_ID[g][moveId]["flags"]["sound"] = 1
       }
     }
 
-    if (moves[move]["multihit"] && moves[move]["multihit"][0] && moves[move]["multihit"][0] == moves[move]["multihit"][1] ) {
-        MOVES_BY_ID[g][moveId].multihit  = moves[move]["multihit"][0]
-        moves[move]["multihit"] =  moves[move]["multihit"][0]
+    if (moves[moveName]["multihit"] && moves[moveName]["multihit"][0] && moves[moveName]["multihit"][0] == moves[moveName]["multihit"][1] ) {
+        MOVES_BY_ID[g][moveId].multihit  = moves[moveName]["multihit"][0]
+        moves[moveName]["multihit"] =  moves[moveName]["multihit"][0]
 
     }
 
     // gen 5 data sources from pokeweb will only include multihit if it's a multihit move
     if (!jsonMove['multihit'] && (settings.damageGen == 5)) {
-         delete moves[move].multihit
+         delete moves[moveName].multihit
          delete MOVES_BY_ID[g][moveId].multihit 
     }
   }
 
-  for (move in jsonMoves) {     
+  for (move in jsonMoves) {
+    var moveId = cleanString(move)
+    var moveName = moveId
+
+    if (MOVES_BY_ID[gen][moveId]) {
+        var moveName = MOVES_BY_ID[gen][moveId].name
+    } else {
+        console.log(`${moveId} not found`)
+        continue
+    }
+
     // if defined in showdown move list
-    if (moves[move]) {
+    if (moves[moveName]) {
     } else {
         // custom move
         console.log(move)
-        jsonMoves[move]["flags"] = {}
-        jsonMoves[move]["name"] = move
+        jsonMoves[moveName]["flags"] = {}
+        jsonMoves[moveName]["name"] = move
 
         if (settings.damageGen == 3) {
-            if (['Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'].includes(jsonMoves[move].type)) {
-                jsonMoves[move]["category"] = "Physical"
+            if (['Normal', 'Fighting', 'Flying', 'Ground', 'Rock', 'Bug', 'Ghost', 'Poison', 'Steel'].includes(jsonMoves[moveName].type)) {
+                jsonMoves[moveName]["category"] = "Physical"
             } else {
-                jsonMoves[move]["category"] = "Special"
+                jsonMoves[moveName]["category"] = "Special"
             }
         }
 
 
-        moves[move] = jsonMoves[move]
-        moves[move]["bp"] = jsonMoves[move]["basePower"]
-        MOVES_BY_ID[8][cleanString(move)] = jsonMoves[move]
+        moves[moveName] = jsonMoves[moveName]
+        moves[moveName]["bp"] = jsonMoves[moveName]["basePower"]
+        MOVES_BY_ID[8][cleanString(move)] = jsonMoves[moveName]
     }
   }
 
