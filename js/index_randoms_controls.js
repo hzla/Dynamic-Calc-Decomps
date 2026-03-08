@@ -41,6 +41,7 @@ function performCalculations() {
 	var p1field = createField();
 	var p2field = p1field.clone().swap();
 
+
 	damageResults = calculateAllMoves(settings.damageGen, p1, p1field, p2, p2field);
 
 	p1 = damageResults[0][0].attacker;
@@ -441,7 +442,7 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=t
 			p2.moves[i].category = moves[p2.moves[i].originalName]["category"]
 		}
 		
-		p2.moves[i].overrides = {}
+		// p2.moves[i].overrides = {}
 
 		// In case p2 comes up as empty
 		if (!p2.name) {
@@ -455,6 +456,9 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=t
 			var p1info = $("#p1");
 			p1 = createPokemon(p1info);
 		}
+
+
+		
 
 
 		results[0][i] = calc.calculate(gen, p1, p2, p1.moves[i], p1field);

@@ -53,6 +53,7 @@ if (["Pokemon Null"].includes(TITLE)) {
         if (!defender.name) {
             defender.name = "Placeholder";
         }
+        
         var result = new result_1.Result(gen, attacker, defender, move, field, 0, desc);
         if (move.category === 'Status' && !move.named('Nature Power')) {
             return result;
