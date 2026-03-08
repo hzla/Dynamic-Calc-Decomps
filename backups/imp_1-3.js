@@ -3338,7 +3338,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Oraoraoraora"
+      "ability": "ORAORAORAORA"
     }
   },
   "Carracosta": {

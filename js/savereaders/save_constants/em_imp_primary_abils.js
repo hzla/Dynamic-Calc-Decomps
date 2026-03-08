@@ -5657,9 +5657,9 @@ abilsPrimary = {
     "Trace"
   ],
   "Machamp-Mega": [
-    "Oraoraoraora",
-    "Oraoraoraora",
-    "Oraoraoraora"
+    "ORAORAORAORA",
+    "ORAORAORAORA",
+    "ORAORAORAORA"
   ],
   "Slowbro-Mega": [
     "Regenerator",
