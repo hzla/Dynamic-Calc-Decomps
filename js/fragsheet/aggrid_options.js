@@ -43,7 +43,10 @@ SOURCES = {
     "55d895a19083b26c0c53": "Emerald Imperium 1.2",
     "imp13": "Emerald Imperium 1.3",
     "vwplus": "Vintage White Plus",
-    "null": "Pokemon Null"
+    "null": "Pokemon Null",
+    "sterlingsilver": "Sterling Silver",
+    "fro": "Fire Red Omega",
+    "casc": "Cascade White"
 }
 
 function initializeSplits() {

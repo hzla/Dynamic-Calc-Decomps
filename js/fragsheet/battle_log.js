@@ -65,15 +65,15 @@
         }
     }
 
-    function isSyncLuaEnabled() {
-        return localStorage.getItem("syncLua") === "1" || TITLE == "Pokemon Null";
+    function isBattleLogEnabledForTitle() {
+        return typeof window.TITLE === "string" && window.TITLE === "Pokemon Null";
     }
 
     function applyBattleLogTabVisibility() {
         const $battleLogTab = $('.view-tab[data-view="battle-log"]');
         if (!$battleLogTab.length) return;
 
-        if (isSyncLuaEnabled()) {
+        if (isBattleLogEnabledForTitle()) {
             $battleLogTab.show();
             return;
         }
@@ -1039,7 +1039,7 @@
     }
 
     function setViewMode(mode) {
-        if (mode === "battle-log" && !isSyncLuaEnabled()) {
+        if (mode === "battle-log" && !isBattleLogEnabledForTitle()) {
             mode = "fragsheet";
         }
 
