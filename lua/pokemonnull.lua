@@ -4184,6 +4184,8 @@ local BOX_CREATE = {
 	slotCount = 120,
 	slotsPerBox = 30,
 	slotStride = 84,
+	-- Pinned from PokemonNull/pokeemerald.map (gSaveBlock2Ptr)
+	gSaveBlock2Ptr = 0x03005E50,
 	secureOffset = 0x24, -- 36
 	flagsOffset = 0x13, -- 19
 	otNameOffset = 0x14, -- 20
@@ -6820,15 +6822,35 @@ local function getCreateBoxDefaults(speciesName, level)
 		otGender = BOX_CREATE.defaultOtGender,
 		metLevel = level or BOX_CREATE.defaultLevel,
 	}
+	local function readCurrentPlayerName()
+		local ptrAddr = tonumber(BOX_CREATE and BOX_CREATE.gSaveBlock2Ptr) or 0
+		if ptrAddr <= 0 then
+			return nil
+		end
+		local saveBlock2 = readU32LE(ptrAddr)
+		if saveBlock2 == nil or saveBlock2 == 0 then
+			return nil
+		end
+		local raw = emu:readRange(saveBlock2 + 0x00, playerNameLength + 1)
+		if type(raw) ~= "string" or raw == "" then
+			return nil
+		end
+		local name = toString(raw)
+		if type(name) == "string" and name ~= "" then
+			return name
+		end
+		return nil
+	end
+	local currentPlayerName = readCurrentPlayerName()
+	if type(currentPlayerName) == "string" and currentPlayerName ~= "" then
+		defaults.otName = currentPlayerName
+	end
 	local party = getParty() or {}
 	for i = 1, #party do
 		local mon = party[i]
 		if mon and mon.species and mon.species > 0 then
 			if mon.language ~= nil then
 				defaults.language = mon.language & 0xFF
-			end
-			if type(mon.otName) == "string" and mon.otName ~= "" then
-				defaults.otName = mon.otName
 			end
 			if mon.pokeball ~= nil then
 				defaults.pokeball = mon.pokeball & 0x1F
@@ -6968,9 +6990,6 @@ local function decodeBoxSlotForEdit(slot)
 	local storedChecksum = readU16LE(slotAddr + BOX_CREATE.checksumOffset)
 	if personality == nil or otId == nil or flags == nil then
 		return nil, "slot header unreadable"
-	end
-	if ((flags >> 1)) == 0 then
-	    return nil, "slot is empty (hasSpecies=0)"
 	end
 
 	local selector = BOX_SUBSTRUCT_SELECTOR[personality % 24]
