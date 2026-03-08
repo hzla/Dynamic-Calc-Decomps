@@ -68,9 +68,15 @@ $(document).ready(function() {
 
 	 if ($('#open-dex:visible').length > 0) {
 	 	$('.poke-sprite').click(function() {
+	 		
+	 		if ($(this).parent().attr('id') == "p2") {
+	 			if (TITLE != "Pokemon Null") {
+	 				return
+	 			}
+	 		}
+
 	 		var dexPok = $(this).attr('src').split("/")[3].split(".")[0]
 	 		
-
 
 	 		$('iframe').remove()
 	 		$('.iframe-close-btn').remove()
