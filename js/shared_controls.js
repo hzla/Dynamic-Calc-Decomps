@@ -450,10 +450,12 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 
 	let resultText = $(`#resultDamage${isPlayer ? 'L' : 'R'}${moveIndex}`)
 
+	backup_move = move
+	if (typeof backup_moves != "undefined") {
+		backup_move = backup_moves[moveName] || backup_moves[cleanString(moveName)]
+	}
 
-	let backup_move = backup_moves[moveName] || backup_moves[cleanString(moveName)]
-
-	if (ppObj) {
+	if (ppObj && moveName != "(No Move)") {
 		if (isPlayer) {
 			ppObj.val(backup_move.pp	)
 		} else {
@@ -1074,8 +1076,10 @@ $(".set-selector").change(function () {
 
 				moveObj.prev().find('.select2-chosen').text(moveObj.val())
 				ppObj = null
+
+
 				
-				if (typeof backup_moves != 'undefined' && (typeof backup_moves[moves[i]] != 'undefined' || backup_moves[cleanString(moves[i])] != 'undefined') ) {
+				if (typeof backup_moves != 'undefined' && typeof moves[i] != "undefined" && (typeof backup_moves[moves[i]] != 'undefined' || backup_moves[cleanString(moves[i])] != 'undefined') ) {
 					ppObj = pokeObj.find(".move" + (i + 1) + " .move-pp");
 				}
 				showMoveExtras(moveObj, ppObj, fullSetName);

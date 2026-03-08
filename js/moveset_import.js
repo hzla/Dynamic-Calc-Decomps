@@ -1016,6 +1016,7 @@ let syncLuaInFlight = false;
 const LUA_UPDATE_MAX_ATTEMPTS = 6;
 const LUA_UPDATE_BASE_RETRY_MS = 400;
 const LUA_UPDATE_URL = "http://127.0.0.1:31124/update";
+const LUA_BOX_URL = "http://127.0.0.1:31124/box";
 
 function computeLuaRetryDelayMs(attempt, baseDelayMs) {
 	var base = Number(baseDelayMs) || 200;
@@ -1040,11 +1041,11 @@ function isRetryableLuaFetchError(err) {
 	);
 }
 
-function fetchLuaUpdateWithRetry(attempt, maxAttempts, retryDelayMs) {
-	return fetch(LUA_UPDATE_URL, { cache: "no-store" })
+function fetchLuaTextWithRetry(url, attempt, maxAttempts, retryDelayMs) {
+	return fetch(url, { cache: "no-store" })
 		.then(function (response) {
 			if (!response.ok) {
-				throw new Error("HTTP " + response.status + " from " + LUA_UPDATE_URL);
+				throw new Error("HTTP " + response.status + " from " + url);
 			}
 			return response.text();
 		})
@@ -1053,10 +1054,10 @@ function fetchLuaUpdateWithRetry(attempt, maxAttempts, retryDelayMs) {
 				return text;
 			}
 			if (attempt >= maxAttempts) {
-				throw new Error("Empty response");
+				throw new Error("Empty response from " + url);
 			}
 			return delayMs(computeLuaRetryDelayMs(attempt, retryDelayMs)).then(function () {
-				return fetchLuaUpdateWithRetry(attempt + 1, maxAttempts, retryDelayMs);
+				return fetchLuaTextWithRetry(url, attempt + 1, maxAttempts, retryDelayMs);
 			});
 			})
 			.catch(function (err) {
@@ -1067,54 +1068,183 @@ function fetchLuaUpdateWithRetry(attempt, maxAttempts, retryDelayMs) {
 					throw err;
 				}
 				return delayMs(computeLuaRetryDelayMs(attempt, retryDelayMs)).then(function () {
-				return fetchLuaUpdateWithRetry(attempt + 1, maxAttempts, retryDelayMs);
+				return fetchLuaTextWithRetry(url, attempt + 1, maxAttempts, retryDelayMs);
+			});
+			});
+}
+
+function fetchLuaBytesWithRetry(url, attempt, maxAttempts, retryDelayMs) {
+	return fetch(url, { cache: "no-store" })
+		.then(function (response) {
+			if (!response.ok) {
+				throw new Error("HTTP " + response.status + " from " + url);
+			}
+			return response.arrayBuffer();
+		})
+		.then(function (buffer) {
+			var bytes = new Uint8Array(buffer || new ArrayBuffer(0));
+			if (bytes.length > 0) {
+				return bytes;
+			}
+			if (attempt >= maxAttempts) {
+				throw new Error("Empty response from " + url);
+			}
+			return delayMs(computeLuaRetryDelayMs(attempt, retryDelayMs)).then(function () {
+				return fetchLuaBytesWithRetry(url, attempt + 1, maxAttempts, retryDelayMs);
+			});
+		})
+		.catch(function (err) {
+			if (!isRetryableLuaFetchError(err)) {
+				throw err;
+			}
+			if (attempt >= maxAttempts) {
+				throw err;
+			}
+			return delayMs(computeLuaRetryDelayMs(attempt, retryDelayMs)).then(function () {
+				return fetchLuaBytesWithRetry(url, attempt + 1, maxAttempts, retryDelayMs);
 			});
 		});
 }
 
-function parseNullShowdownTextWithTidHeader(rawText) {
-	var text = String(rawText || "");
-	var firstLineMatch = text.match(/^([^\r\n]*)(?:\r?\n|$)/);
-	var firstLine = firstLineMatch ? firstLineMatch[1] : "";
-	var tidMatch = firstLine.match(/^TID:\s*([0-9]+:[0-9]+)\s*$/i);
-	if (!tidMatch) {
-		return {
-			showdownText: text,
-			tidSid: null,
-		};
+function decodeNullPackedBoxToShowdownText(payloadBytes) {
+	var bytes = payloadBytes instanceof Uint8Array
+		? payloadBytes
+		: new Uint8Array(payloadBytes || new ArrayBuffer(0));
+	if (bytes.length === 0) {
+		return "";
 	}
-	var headerLength = firstLine.length;
-	var bodyStart = headerLength;
-	if (text.charAt(bodyStart) === "\r" && text.charAt(bodyStart + 1) === "\n") {
-		bodyStart += 2;
-	} else if (text.charAt(bodyStart) === "\n" || text.charAt(bodyStart) === "\r") {
-		bodyStart += 1;
-	}
-	return {
-		showdownText: text.slice(bodyStart),
-		tidSid: tidMatch[1],
-	};
-}
 
-function parseNullUpdatePayload(rawText) {
-	var text = String(rawText || "");
-	var parsedJson = null;
-	try {
-		parsedJson = JSON.parse(text);
-	} catch (_err) {
-		parsedJson = null;
+	var MON_BITS = 112;
+	var totalBits = bytes.length * 8;
+	var monCount = Math.floor(totalBits / MON_BITS);
+	if (monCount <= 0) {
+		return "";
 	}
-	if (!parsedJson || typeof parsedJson !== "object" || typeof parsedJson.box !== "string") {
-		var fallback = parseNullShowdownTextWithTidHeader(text);
-		fallback.battleLogs = null;
-		return fallback;
+
+	var mons = Array.isArray(window.nullMons) ? window.nullMons : [];
+	var moves = Array.isArray(window.nullMoves) ? window.nullMoves : [];
+	var items = Array.isArray(window.nullItems) ? window.nullItems : [];
+	var natures = Array.isArray(window.nullNatures) ? window.nullNatures : [];
+	var locations = Array.isArray(window.nullLocations) ? window.nullLocations : [];
+	var abilitiesBySpecies = (window.nullAbilities && typeof window.nullAbilities === "object") ? window.nullAbilities : {};
+
+	function readBits(startBit, width) {
+		var value = 0;
+		for (var i = 0; i < width; i += 1) {
+			var bitIndex = startBit + i;
+			var byteIndex = bitIndex >> 3;
+			if (byteIndex >= bytes.length) break;
+			var bitOffset = bitIndex & 7;
+			if (((bytes[byteIndex] >> bitOffset) & 1) !== 0) {
+				value |= (1 << i);
+			}
+		}
+		return value >>> 0;
 	}
-	var parsedBox = parseNullShowdownTextWithTidHeader(parsedJson.box);
-	return {
-		showdownText: parsedBox.showdownText,
-		tidSid: parsedBox.tidSid,
-		battleLogs: typeof parsedJson.battleLogs === "undefined" ? null : parsedJson.battleLogs,
-	};
+
+	function cleanSpeciesKey(speciesName) {
+		return String(speciesName || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+	}
+
+	function resolveAbilityName(speciesName, abilitySlot) {
+		if (typeof nullResolveAbilityName === "function") {
+			try {
+				var direct = nullResolveAbilityName(speciesName, abilitySlot);
+				if (direct) return direct;
+			} catch (_err) {
+			}
+		}
+		var speciesKey = cleanSpeciesKey(speciesName);
+		var abilities = abilitiesBySpecies[speciesKey];
+		if (!abilities || typeof abilities !== "object") {
+			return "Unknown";
+		}
+		var preferredKeys = (abilitySlot === 0)
+			? ["0", "1", "H"]
+			: (abilitySlot === 1)
+				? ["1", "0", "H"]
+				: ["H", "0", "1"];
+		for (var i = 0; i < preferredKeys.length; i += 1) {
+			var ability = abilities[preferredKeys[i]];
+			if (ability && ability !== "-" && ability !== "None") {
+				return ability;
+			}
+		}
+		return "Unknown";
+	}
+
+	var sections = [];
+	for (var monIndex = 0; monIndex < monCount; monIndex += 1) {
+		var bitPos = monIndex * MON_BITS;
+
+		var speciesId = readBits(bitPos, 11); bitPos += 11;
+		var level = readBits(bitPos, 7); bitPos += 7;
+		var hpIV = readBits(bitPos, 5); bitPos += 5;
+		var atkIV = readBits(bitPos, 5); bitPos += 5;
+		var defIV = readBits(bitPos, 5); bitPos += 5;
+		var spaIV = readBits(bitPos, 5); bitPos += 5;
+		var spdIV = readBits(bitPos, 5); bitPos += 5;
+		var speIV = readBits(bitPos, 5); bitPos += 5;
+		var move1 = readBits(bitPos, 10); bitPos += 10;
+		var move2 = readBits(bitPos, 10); bitPos += 10;
+		var move3 = readBits(bitPos, 10); bitPos += 10;
+		var move4 = readBits(bitPos, 10); bitPos += 10;
+		var natureId = readBits(bitPos, 5); bitPos += 5;
+		var itemId = readBits(bitPos, 10); bitPos += 10;
+		var abilitySlot = readBits(bitPos, 2); bitPos += 2;
+		var metLocationId = readBits(bitPos, 7); bitPos += 7;
+
+		if (!speciesId) {
+			continue;
+		}
+
+		if (level < 1) level = 1;
+		if (level > 127) level = 127;
+
+		var speciesName = (speciesId > 0 && speciesId <= mons.length && mons[speciesId - 1])
+			? mons[speciesId - 1]
+			: ("Species-" + String(speciesId));
+		var natureName = (natureId >= 0 && natureId < natures.length && natures[natureId])
+			? natures[natureId]
+			: "Hardy";
+		var itemName = (itemId > 0 && itemId <= items.length && items[itemId - 1])
+			? items[itemId - 1]
+			: "";
+		var abilityName = resolveAbilityName(speciesName, abilitySlot);
+		var metLocationName = (metLocationId >= 0 && metLocationId < locations.length && locations[metLocationId])
+			? locations[metLocationId]
+			: ("Unknown Location (0x" + metLocationId.toString(16).toUpperCase().padStart(2, "0") + ")");
+		var moveIds = [move1, move2, move3, move4];
+		var moveLines = [];
+		for (var moveIdx = 0; moveIdx < moveIds.length; moveIdx += 1) {
+			var moveId = moveIds[moveIdx];
+			if (!moveId) continue;
+			var moveName = (moveId >= 0 && moveId < moves.length && moves[moveId])
+				? moves[moveId]
+				: ("Move " + String(moveId));
+			moveLines.push("- " + moveName);
+		}
+
+		var lead = speciesName;
+		if (itemName) {
+			lead += " @ " + itemName;
+		}
+
+			var monLines = [
+				lead,
+				"Ability: " + abilityName,
+				"Level: " + String(level),
+				natureName + " Nature",
+				"IVs: " + String(hpIV) + " HP / " + String(atkIV) + " Atk / " + String(defIV) + " Def / " + String(spaIV) + " SpA / " + String(spdIV) + " SpD / " + String(speIV) + " Spe",
+				"Met: " + metLocationName,
+			];
+		for (var lineIdx = 0; lineIdx < moveLines.length; lineIdx += 1) {
+			monLines.push(moveLines[lineIdx]);
+		}
+		sections.push(monLines.join("\n"));
+	}
+
+	return sections.join("\n\n") + (sections.length ? "\n\n" : "");
 }
 
 $("#sync-lua").click(() => {
@@ -1129,7 +1259,7 @@ $("#sync-lua").click(() => {
 
 	if (TITLE.includes("Imperium")) {
 		console.log("Fetching Box")
-		fetchLuaUpdateWithRetry(1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (x) {
+		fetchLuaTextWithRetry(LUA_UPDATE_URL, 1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (x) {
 			loadPokeLuaGen3RawBoxDump(x)
 			$('#import').click()
 			$('#import').val("")
@@ -1141,22 +1271,17 @@ $("#sync-lua").click(() => {
 	}
 	if (TITLE == "Pokemon Null") {
 		console.log("Fetching Box")
-		fetchLuaUpdateWithRetry(1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (x) {
-			var parsed = parseNullUpdatePayload(x);
-			if (parsed.tidSid) {
-				localStorage.lastTid = parsed.tidSid;
+		fetchLuaBytesWithRetry(LUA_BOX_URL, 1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (bytes) {
+			var showdownText = decodeNullPackedBoxToShowdownText(bytes);
+			if (!showdownText || !showdownText.trim()) {
+				throw new Error("Empty decoded /box payload");
 			}
-			try {
-				localStorage.battleLogs = JSON.stringify(parsed.battleLogs);
-			} catch (storageErr) {
-				console.warn("Failed to persist localStorage.battleLogs", storageErr);
-			}
-			$('.import-team-text').val(parsed.showdownText)
+			$('.import-team-text').val(showdownText)
 			$('#import').click()
 			$('.import-team-text').val("")
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
-			alert("Please make sure the Lua script is running and MGBA is not paused. Download Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnull.lua");
+			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the Latest Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnull.lua\n\n Last Updated 3/8/2026\nYou can now view logs/frags for any battles played while using the latest Lua script on the Battle Logs tab of the Fragsheet page");
 		}).finally(resetSyncState);
 		return;
 	}

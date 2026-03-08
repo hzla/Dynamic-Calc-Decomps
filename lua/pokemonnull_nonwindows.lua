@@ -3997,6 +3997,121 @@ function buildShowdownText()
 
 	return table.concat(out, "")
 end
+
+-- Build compact bit-packed player party + first 120 box slots payload.
+-- Per-mon layout (LSB-first bitstream):
+-- species(11), level(7), ivs[hp/atk/def/spa/spd/spe](6x5), moves(4x10), nature(5), item(10), abilitySlot(2), metLocation(7)
+function buildPackedBoxBytes()
+	local mons = {}
+	local party = getParty() or {}
+	local address = storageLoc + 4
+	local i = 0
+
+	local function normalizeNatureId(mon)
+		local hiddenNature = tonumber(mon and mon.hiddenNature)
+		if hiddenNature ~= nil and hiddenNature ~= 26 and hiddenNature >= 0 and hiddenNature <= 24 then
+			return hiddenNature
+		end
+		local personality = tonumber(mon and mon.personality) or 0
+		return personality % 25
+	end
+
+	local function normalizeLevel(mon, isParty)
+		local level = tonumber(mon and mon.level)
+		if (not isParty) or level == nil or level <= 0 then
+			level = calcLevel(tonumber(mon and mon.experience) or 0, tonumber(mon and mon.species) or 1)
+		end
+		level = math.floor(level or 1)
+		if level < 1 then level = 1 end
+		if level > 127 then level = 127 end
+		return level
+	end
+
+	local function appendMon(mon, isParty)
+		if not mon or not mon.species or mon.species <= 0 then
+			return
+		end
+		mons[#mons + 1] = {
+			species = (tonumber(mon.species) or 0) & 0x7FF,
+			level = normalizeLevel(mon, isParty) & 0x7F,
+			hpIV = (tonumber(mon.hpIV) or 0) & 0x1F,
+			atkIV = (tonumber(mon.attackIV) or 0) & 0x1F,
+			defIV = (tonumber(mon.defenseIV) or 0) & 0x1F,
+			spaIV = (tonumber(mon.spAttackIV) or 0) & 0x1F,
+			spdIV = (tonumber(mon.spDefenseIV) or 0) & 0x1F,
+			speIV = (tonumber(mon.speedIV) or 0) & 0x1F,
+			move1 = (tonumber(mon.moves and mon.moves[1]) or 0) & 0x3FF,
+			move2 = (tonumber(mon.moves and mon.moves[2]) or 0) & 0x3FF,
+			move3 = (tonumber(mon.moves and mon.moves[3]) or 0) & 0x3FF,
+			move4 = (tonumber(mon.moves and mon.moves[4]) or 0) & 0x3FF,
+			nature = normalizeNatureId(mon) & 0x1F,
+			item = (tonumber(mon.heldItem) or 0) & 0x3FF,
+			abilitySlot = (tonumber(mon.altAbility) or 0) & 0x3,
+			metLocation = (tonumber(mon.metLocation) or 0) & 0x7F,
+		}
+	end
+
+	for _, mon in ipairs(party) do
+		appendMon(mon, true)
+	end
+	while i < 120 do
+		if emu:read32(address) ~= 0 then
+			appendMon(readBoxMon(address), false)
+		end
+		i = i + 1
+		address = address + 84
+	end
+
+	local totalBits = #mons * 112
+	local totalBytes = math.floor((totalBits + 7) / 8)
+	if totalBytes <= 0 then
+		return ""
+	end
+
+	local bytes = {}
+	for idx = 1, totalBytes do
+		bytes[idx] = 0
+	end
+
+	local bitPos = 0
+	local function writeBits(value, width)
+		local v = tonumber(value) or 0
+		for b = 0, width - 1 do
+			local byteIndex = math.floor(bitPos / 8) + 1
+			local bitIndex = bitPos % 8
+			if ((v >> b) & 1) ~= 0 then
+				bytes[byteIndex] = bytes[byteIndex] | (1 << bitIndex)
+			end
+			bitPos = bitPos + 1
+		end
+	end
+
+	for idx = 1, #mons do
+		local mon = mons[idx]
+		writeBits(mon.species, 11)
+		writeBits(mon.level, 7)
+		writeBits(mon.hpIV, 5)
+		writeBits(mon.atkIV, 5)
+		writeBits(mon.defIV, 5)
+		writeBits(mon.spaIV, 5)
+		writeBits(mon.spdIV, 5)
+		writeBits(mon.speIV, 5)
+		writeBits(mon.move1, 10)
+		writeBits(mon.move2, 10)
+		writeBits(mon.move3, 10)
+		writeBits(mon.move4, 10)
+		writeBits(mon.nature, 5)
+		writeBits(mon.item, 10)
+		writeBits(mon.abilitySlot, 2)
+		writeBits(mon.metLocation, 7)
+	end
+
+	local out = {}
+	for idx = 1, totalBytes do
+		out[idx] = string.char(bytes[idx])
+	end
+	return table.concat(out)
+end
 -- <<< END 00_data_showdown.lua
 
 -- >>> BEGIN 01_battle_config_state.lua
@@ -4969,6 +5084,14 @@ local function getCurrentAttemptEvents()
 	return nullExportState.eventsByAttempt[attempt], ctx
 end
 
+function getCurrentAttemptBattleLogEvents()
+	local events = getCurrentAttemptEvents()
+	if type(events) ~= "table" then
+		return {}
+	end
+	return events
+end
+
 local function bytesToHex(startAddr, size)
 	local out = {}
 	for i = 0, size - 1 do
@@ -4988,10 +5111,19 @@ local function buildPartySnapshotForBattleLog()
 		local mon = readPartyMon(monStart)
 		monStart = monStart + partyMonSize
 		if mon and mon.species and mon.species > 0 then
+			local natureId = tonumber(mon.hiddenNature)
+			if natureId == nil or natureId == 26 or natureId < 0 or natureId > 24 then
+				natureId = (tonumber(mon.personality) or 0) % 25
+			end
+			local abilitySlot = tonumber(mon.altAbility) or 0
+			if abilitySlot < 0 then abilitySlot = 0 end
+			if abilitySlot > 3 then abilitySlot = 3 end
 			list[#list + 1] = {
 				species = mon.species,
+				abilitySlot = abilitySlot,
 				ability = getAbility(mon),
 				heldItem = mon.heldItem or 0,
+				natureId = natureId,
 				nature = getNature(mon),
 				slot = i - 1,
 				moves = {
@@ -7701,22 +7833,24 @@ local function emitHpAndKoEvent(currSnap, prevSnap, runtime)
 		))
 
 		local killerSpecies = nonKoSnap and nonKoSnap.species or nil
-		if currSnap.side == 1 then
-			appendBattleLogEvent({
-				type = "pKo",
-				turn = nullBattleState.actionIndex,
-				pSpecies = killerSpecies,
-				aiSpecies = currSnap.species,
-				aiPartySlot = currSnap.partyIndex,
-			})
-		else
-			appendBattleLogEvent({
-				type = "aiKo",
-				turn = nullBattleState.actionIndex,
-				pSpecies = currSnap.species,
-				aiSpecies = killerSpecies,
-			})
-		end
+			if currSnap.side == 1 then
+				appendBattleLogEvent({
+					type = "pKo",
+					turn = nullBattleState.actionIndex,
+					pSlot = nonKoSnap and nonKoSnap.partyIndex or nil,
+					pSpecies = killerSpecies,
+					aiSpecies = currSnap.species,
+					aiPartySlot = currSnap.partyIndex,
+				})
+			else
+				appendBattleLogEvent({
+					type = "aiKo",
+					turn = nullBattleState.actionIndex,
+					pSlot = currSnap.partyIndex,
+					pSpecies = currSnap.species,
+					aiSpecies = killerSpecies,
+				})
+			end
 	end
 end
 
@@ -7838,6 +7972,7 @@ local HTTP_STATUS_TEXT = {
 }
 local HTTP_SEND_CHUNK_BYTES = 1024
 local HTTP_SEND_MAX_AGAIN_RETRIES = 240
+local HTTP_TRACE_FLUSH_PROGRESS_BYTES = 512
 local HTTP_LISTEN_BACKLOG = 16
 local HTTP_MAX_REQUEST_HEAD_BYTES = 32768
 local HTTP_HEALTHCHECK_EVERY_FRAMES = 60
@@ -7849,7 +7984,8 @@ local nullHttpState = {
 	socketModule = nil,
 	host = "127.0.0.1",
 	port = 31124,
-	updatePath = "/update",
+	updatePath = "/box",
+	battleLogPath = "/battle_log",
 	pingPath = "/ping",
 	battleStatePath = "/battle_state",
 	clientBuffers = {},
@@ -7873,6 +8009,18 @@ local nullHttpState = {
 	lastServerErrorRestartFrame = -1000000,
 	clientCloseReasons = {},
 	lastClientCloseReason = nil,
+	updateTraceEnabled = false,
+	updateTraceSeq = 0,
+	socketSeq = 0,
+	socketDebugIds = {},
+	requestTraceBySocket = {},
+	traceRequests = 0,
+	traceEmptyBodies = 0,
+	traceBuildFailures = 0,
+	traceFallbackHits = 0,
+	traceSendFailures = 0,
+	traceSendPanics = 0,
+	traceRetryLimitHits = 0,
 }
 local nullScriptStarted = false
 local unpackArgs = table.unpack or unpack
@@ -7915,6 +8063,146 @@ local function noteClientCloseReason(reason)
 	end
 	counts[key] = (tonumber(counts[key]) or 0) + 1
 	nullHttpState.lastClientCloseReason = key
+end
+
+function getOrAssignSocketDebugId(sock)
+	if not sock then
+		return "c0"
+	end
+	local ids = nullHttpState.socketDebugIds
+	local current = ids[sock]
+	if current then
+		return current
+	end
+	nullHttpState.socketSeq = (tonumber(nullHttpState.socketSeq) or 0) + 1
+	current = "c" .. tostring(nullHttpState.socketSeq)
+	ids[sock] = current
+	return current
+end
+
+function getSocketTrace(sock)
+	if not sock then
+		return nil
+	end
+	return nullHttpState.requestTraceBySocket[sock]
+end
+
+function clearSocketTrace(sock)
+	if not sock then
+		return
+	end
+	nullHttpState.requestTraceBySocket[sock] = nil
+	nullHttpState.socketDebugIds[sock] = nil
+end
+
+function formatUpdateTraceFields(fields)
+	if fields == nil then
+		return ""
+	end
+	if type(fields) == "string" then
+		local text = fields:gsub("^%s+", ""):gsub("%s+$", "")
+		return text
+	end
+	if type(fields) ~= "table" then
+		return tostring(fields)
+	end
+	local keys = {}
+	for k, _ in pairs(fields) do
+		keys[#keys + 1] = tostring(k)
+	end
+	table.sort(keys)
+	local parts = {}
+	for i = 1, #keys do
+		local key = keys[i]
+		local value = fields[key]
+		parts[#parts + 1] = string.format("%s=%s", key, tostring(value))
+	end
+	return table.concat(parts, " ")
+end
+
+function logUpdateTrace(trace, stage, fields)
+	if not trace or not trace.active then
+		return
+	end
+	local fieldsText = formatUpdateTraceFields(fields)
+	if fieldsText ~= "" then
+		logHttp(string.format(
+			"[null-http][upd-trace#%s][sock=%s] %s %s",
+			tostring(trace.id or "?"),
+			tostring(trace.socketId or "?"),
+			tostring(stage or "stage"),
+			fieldsText
+		))
+		return
+	end
+	logHttp(string.format(
+		"[null-http][upd-trace#%s][sock=%s] %s",
+		tostring(trace.id or "?"),
+		tostring(trace.socketId or "?"),
+		tostring(stage or "stage")
+	))
+end
+
+function queueOrLogUpdateTrace(trace, stage, fields)
+	if not trace then
+		return
+	end
+	if trace.active then
+		logUpdateTrace(trace, stage, fields)
+		return
+	end
+	local pending = trace.pendingStages
+	if type(pending) ~= "table" then
+		pending = {}
+		trace.pendingStages = pending
+	end
+	pending[#pending + 1] = { stage = stage, fields = fields }
+end
+
+function ensureSocketTraceContext(sock)
+	if not nullHttpState.updateTraceEnabled then
+		return nil
+	end
+	local trace = getSocketTrace(sock)
+	if trace then
+		return trace
+	end
+	nullHttpState.updateTraceSeq = (tonumber(nullHttpState.updateTraceSeq) or 0) + 1
+	trace = {
+		id = nullHttpState.updateTraceSeq,
+		socketId = getOrAssignSocketDebugId(sock),
+		method = nil,
+		path = nil,
+		version = nil,
+		frameStart = tonumber(nullHttpState.frameCounter) or 0,
+		tStart = os.clock(),
+		isUpdate = false,
+		active = false,
+		pendingStages = {},
+	}
+	nullHttpState.requestTraceBySocket[sock] = trace
+	return trace
+end
+
+function activateUpdateTrace(trace, method, path, version)
+	if not trace then
+		return nil
+	end
+	trace.method = method
+	trace.path = path
+	trace.version = version
+	trace.isUpdate = true
+	trace.active = true
+	nullHttpState.traceRequests = (tonumber(nullHttpState.traceRequests) or 0) + 1
+	local pending = trace.pendingStages
+	if type(pending) == "table" then
+		for i = 1, #pending do
+			local item = pending[i]
+			logUpdateTrace(trace, item and item.stage, item and item.fields)
+		end
+	end
+	trace.pendingStages = nil
+	return trace
 end
 
 local function formatUncaughtLuaError(err)
@@ -7978,10 +8266,26 @@ local function closeHttpClient(sock, reason)
 	if not sock then
 		return
 	end
+	local trace = getSocketTrace(sock)
+	if trace then
+		queueOrLogUpdateTrace(trace, "client_close", {
+			reason = tostring(reason or "unknown"),
+		})
+		if trace.active then
+			if reason == "send_failed" then
+				nullHttpState.traceSendFailures = (tonumber(nullHttpState.traceSendFailures) or 0) + 1
+			elseif reason == "send_panic" then
+				nullHttpState.traceSendPanics = (tonumber(nullHttpState.traceSendPanics) or 0) + 1
+			elseif reason == "send_retry_limit" then
+				nullHttpState.traceRetryLimitHits = (tonumber(nullHttpState.traceRetryLimitHits) or 0) + 1
+			end
+		end
+	end
 	noteClientCloseReason(reason)
 	nullHttpState.clientBuffers[sock] = nil
 	clearPendingHttpSend(sock)
 	closeHttpSocketQuiet(sock)
+	clearSocketTrace(sock)
 	if reason and reason ~= "response_complete" and reason ~= "client_closed" then
 		logHttp(string.format("[null-http] client closed reason=%s", tostring(reason)))
 	end
@@ -8078,6 +8382,8 @@ forceCloseHttpState = function(state)
 	state.started = false
 	state.clientBuffers = {}
 	state.pendingSends = {}
+	state.socketDebugIds = {}
+	state.requestTraceBySocket = {}
 end
 
 local function teardownThisScriptInstance(_)
@@ -8158,64 +8464,316 @@ local function trimAsciiWhitespace(text)
 	return text:match("^%s*(.-)%s*$") or ""
 end
 
-local function readCurrentAttemptMasterRawJson()
+local function readCurrentAttemptMasterRawJson(trace)
+	queueOrLogUpdateTrace(trace, "master_read_start")
 	local okCtx, ctxOrErr = pcall(ensureExportContext)
 	if not okCtx then
+		queueOrLogUpdateTrace(trace, "master_context_error", {
+			error = tostring(ctxOrErr),
+		})
 		logHttp(string.format("[null-http] WARN failed to resolve export context: %s", tostring(ctxOrErr)))
 		return nil
 	end
 	local ctx = ctxOrErr
 	local path = ctx and ctx.masterPath or nil
+	queueOrLogUpdateTrace(trace, "master_context_ok", {
+		path = tostring(path),
+	})
 	if type(path) ~= "string" or path == "" then
+		queueOrLogUpdateTrace(trace, "master_path_missing")
 		return nil
 	end
 	local f = io.open(path, "r")
 	if not f then
+		queueOrLogUpdateTrace(trace, "master_open_failed", {
+			path = tostring(path),
+		})
 		return nil
 	end
 	local raw = f:read("*a")
 	f:close()
+	queueOrLogUpdateTrace(trace, "master_read_raw", {
+		rawLen = type(raw) == "string" and #raw or 0,
+	})
 	raw = trimAsciiWhitespace(raw)
+	queueOrLogUpdateTrace(trace, "master_trimmed", {
+		trimLen = #raw,
+	})
 	if raw == "" then
+		queueOrLogUpdateTrace(trace, "master_empty")
 		return nil
 	end
 	if raw:sub(1, 1) ~= "{" then
+		queueOrLogUpdateTrace(trace, "master_non_object", {
+			path = tostring(path),
+		})
 		logHttp(string.format("[null-http] WARN ignoring non-object master JSON at %s", tostring(path)))
 		return nil
 	end
+	queueOrLogUpdateTrace(trace, "master_read_ok", {
+		len = #raw,
+	})
 	return raw
 end
 
-local function buildUpdateJsonResponseBody()
-	local okShowdown, textOrErr = pcall(buildShowdownText)
-	if not okShowdown then
-		return nil, tostring(textOrErr)
+local function buildUpdateJsonResponseBody(trace)
+	queueOrLogUpdateTrace(trace, "build_start")
+	local okPacked, packedOrErr = pcall(buildPackedBoxBytes)
+	if not okPacked then
+		queueOrLogUpdateTrace(trace, "boxpack_error", {
+			error = tostring(packedOrErr),
+		})
+		return nil, tostring(packedOrErr)
+	end
+	queueOrLogUpdateTrace(trace, "boxpack_ok", {
+		len = type(packedOrErr) == "string" and #packedOrErr or 0,
+	})
+	queueOrLogUpdateTrace(trace, "build_done", {
+		bodyLen = type(packedOrErr) == "string" and #packedOrErr or 0,
+	})
+	return packedOrErr or "", nil
+end
+
+function buildPackedBattleLogResponseBody(trace)
+	queueOrLogUpdateTrace(trace, "battle_pack_start")
+	if type(getCurrentAttemptBattleLogEvents) ~= "function" then
+		return nil, "getCurrentAttemptBattleLogEvents unavailable"
+	end
+	local okEvents, eventsOrErr = pcall(getCurrentAttemptBattleLogEvents)
+	if not okEvents then
+		return nil, tostring(eventsOrErr)
+	end
+	local events = type(eventsOrErr) == "table" and eventsOrErr or {}
+	local m1, m2, m3, m4 = string.byte("NBL1", 1, 4)
+	local bytes = { m1 or 78, m2 or 66, m3 or 76, m4 or 49, 1 }
+	local bitPos = #bytes * 8
+
+	local function toInt(raw, fallback)
+		local n = tonumber(raw)
+		if n == nil then
+			return fallback
+		end
+		return math.floor(n)
 	end
 
-	local okWrite, writeErr = pcall(writeCurrentAttemptMaster, true)
-	if not okWrite then
-		logHttp(string.format("[null-http] WARN could not refresh current attempt master: %s", tostring(writeErr)))
+	local function writeBits(value, width)
+		local v = toInt(value, 0) or 0
+		if v < 0 then
+			v = 0
+		end
+		for b = 0, width - 1 do
+			local byteIndex = math.floor(bitPos / 8) + 1
+			local bitIndex = bitPos % 8
+			local cur = bytes[byteIndex] or 0
+			if ((v >> b) & 1) ~= 0 then
+				cur = cur | (1 << bitIndex)
+			end
+			bytes[byteIndex] = cur
+			bitPos = bitPos + 1
+		end
 	end
 
-	local battleLogsRaw = readCurrentAttemptMasterRawJson()
-	local okJson, outOrErr = pcall(string.format,
-		"{\"box\":%s,\"battleLogs\":%s}",
-		jsonEncode(textOrErr or ""),
-		battleLogsRaw or "null"
-	)
-	if not okJson then
-		return nil, tostring(outOrErr)
+	local function resolveTrainerId(raw)
+		local n = toInt(raw, nil)
+		if n == nil or raw == JSON_NULL then
+			return 0xFFFF
+		end
+		if n < 0 then
+			n = 0
+		end
+		if n >= 0xFFFF then
+			n = 0xFFFE
+		end
+		return n
 	end
-	return outOrErr, nil
+
+	local function resolveNatureId(mon)
+		if type(mon) ~= "table" then
+			return 0
+		end
+		local n = toInt(mon.natureId, nil)
+		if n ~= nil and n >= 0 and n <= 31 then
+			return n
+		end
+		n = toInt(mon.hiddenNature, nil)
+		if n ~= nil and n >= 0 and n <= 24 then
+			return n
+		end
+		if type(mon.nature) == "string" and type(nature) == "table" then
+			for i = 1, #nature do
+				if nature[i] == mon.nature then
+					return i - 1
+				end
+			end
+		end
+		return 0
+	end
+
+	local function resolveAbilitySlot(mon, speciesId)
+		if type(mon) ~= "table" then
+			return 0
+		end
+		local n = toInt(mon.abilitySlot, nil)
+		if n ~= nil and n >= 0 and n <= 3 then
+			return n
+		end
+		n = toInt(mon.altAbility, nil)
+		if n ~= nil and n >= 0 and n <= 3 then
+			return n
+		end
+		local abilityName = mon.ability
+		if type(abilityName) == "string" and abilityName ~= "" and type(getAbility) == "function" then
+			local sid = toInt(speciesId, 0) or 0
+			if sid > 0 then
+				for slot = 0, 2 do
+					local okAbility, resolved = pcall(getAbility, { species = sid, altAbility = slot })
+					if okAbility and tostring(resolved) == abilityName then
+						return slot
+					end
+				end
+			end
+		end
+		return 0
+	end
+
+	local function resolvePartySlot(ev, currentPartySpecies)
+		local slot = toInt(ev and ev.pSlot, nil)
+		if slot ~= nil and slot >= 0 and slot <= 5 then
+			return slot
+		end
+		local species = toInt(ev and ev.pSpecies, nil)
+		if species ~= nil and species > 0 and type(currentPartySpecies) == "table" then
+			for i = 1, #currentPartySpecies do
+				if currentPartySpecies[i] == species then
+					return i - 1
+				end
+			end
+		end
+		return 7
+	end
+
+	local currentPartySpecies = {}
+	local encodedEvents = 0
+	for i = 1, #events do
+		local ev = events[i]
+		local evType = type(ev) == "table" and ev.type or nil
+		if evType == "session_start" then
+			local party = type(ev.pParty) == "table" and ev.pParty or {}
+			local packedParty = {}
+			local partySpecies = {}
+			for p = 1, #party do
+				local mon = party[p]
+				if type(mon) == "table" then
+					local species = toInt(mon.species, 0) or 0
+					if species > 0 then
+						local heldItem = toInt(mon.heldItem, 0) or 0
+						local m1 = toInt(mon.moves and mon.moves[1], 0) or 0
+						local m2 = toInt(mon.moves and mon.moves[2], 0) or 0
+						local m3 = toInt(mon.moves and mon.moves[3], 0) or 0
+						local m4 = toInt(mon.moves and mon.moves[4], 0) or 0
+						packedParty[#packedParty + 1] = {
+							species = species & 0x7FF,
+							heldItem = heldItem & 0x3FF,
+							natureId = resolveNatureId(mon) & 0x1F,
+							abilitySlot = resolveAbilitySlot(mon, species) & 0x3,
+							move1 = m1 & 0x3FF,
+							move2 = m2 & 0x3FF,
+							move3 = m3 & 0x3FF,
+							move4 = m4 & 0x3FF,
+						}
+						partySpecies[#partySpecies + 1] = species
+						if #packedParty >= 6 then
+							break
+						end
+					end
+				end
+			end
+
+			writeBits(0, 2)
+			writeBits(resolveTrainerId(ev.enemyTrainerIdA), 16)
+			writeBits(resolveTrainerId(ev.enemyTrainerIdB), 16)
+			writeBits(#packedParty, 3)
+			for p = 1, #packedParty do
+				local mon = packedParty[p]
+				writeBits(mon.species, 11)
+				writeBits(mon.heldItem, 10)
+				writeBits(mon.natureId, 5)
+				writeBits(mon.abilitySlot, 2)
+				writeBits(mon.move1, 10)
+				writeBits(mon.move2, 10)
+				writeBits(mon.move3, 10)
+				writeBits(mon.move4, 10)
+			end
+			currentPartySpecies = partySpecies
+			encodedEvents = encodedEvents + 1
+		elseif evType == "session_end" then
+			writeBits(1, 2)
+			encodedEvents = encodedEvents + 1
+		elseif evType == "pKo" then
+			local turn = toInt(ev.turn, 0) or 0
+			local aiSpecies = toInt(ev.aiSpecies, 0) or 0
+			writeBits(2, 2)
+			writeBits(turn & 0xFFFF, 16)
+			writeBits(resolvePartySlot(ev, currentPartySpecies), 3)
+			writeBits(aiSpecies & 0x7FF, 11)
+			encodedEvents = encodedEvents + 1
+		elseif evType == "aiKo" then
+			local turn = toInt(ev.turn, 0) or 0
+			writeBits(3, 2)
+			writeBits(turn & 0xFFFF, 16)
+			writeBits(resolvePartySlot(ev, currentPartySpecies), 3)
+			encodedEvents = encodedEvents + 1
+		end
+	end
+
+	local out = {}
+	for i = 1, #bytes do
+		out[i] = string.char(bytes[i] or 0)
+	end
+	local payload = table.concat(out)
+	queueOrLogUpdateTrace(trace, "battle_pack_done", {
+		events = encodedEvents,
+		bodyLen = #payload,
+	})
+	return payload, nil
+end
+
+local function shouldLogFlushProgressSample(trace, pending, previousOffset, nextOffset, totalLen)
+	if not trace or not trace.active or not pending then
+		return false
+	end
+	pending.traceProgressSamples = (tonumber(pending.traceProgressSamples) or 0)
+	local samples = pending.traceProgressSamples
+	if samples < 4 then
+		pending.traceProgressSamples = samples + 1
+		return true
+	end
+	if nextOffset > totalLen then
+		return true
+	end
+	local milestone = tonumber(pending.traceNextProgressOffset) or (previousOffset + HTTP_TRACE_FLUSH_PROGRESS_BYTES)
+	if nextOffset >= milestone then
+		while nextOffset >= milestone do
+			milestone = milestone + HTTP_TRACE_FLUSH_PROGRESS_BYTES
+		end
+		pending.traceNextProgressOffset = milestone
+		pending.traceProgressSamples = samples + 1
+		return true
+	end
+	return false
 end
 
 local function sendHttpResponse(sock, statusCode, body, contentType)
 	if not sock then
 		return
 	end
+	local trace = getSocketTrace(sock)
 	local statusText = HTTP_STATUS_TEXT[statusCode] or "OK"
 	body = body or ""
 	contentType = contentType or "text/plain; charset=utf-8"
+	if trace and trace.active and #body == 0 then
+		nullHttpState.traceEmptyBodies = (tonumber(nullHttpState.traceEmptyBodies) or 0) + 1
+	end
 	local response = string.format(
 		"HTTP/1.1 %d %s\r\n" ..
 		"Access-Control-Allow-Origin: *\r\n" ..
@@ -8229,12 +8787,25 @@ local function sendHttpResponse(sock, statusCode, body, contentType)
 		contentType,
 		body
 	)
+	queueOrLogUpdateTrace(trace, "send_prepare", {
+		status = statusCode,
+		contentType = contentType,
+		bodyLen = #body,
+		responseLen = #response,
+	})
 	clearPendingHttpSend(sock)
 	nullHttpState.pendingSends[sock] = {
 		response = response,
 		offset = 1,
 		againRetries = 0,
 		frameCallbackId = nil,
+		fullBufferAttempted = false,
+		traceProgressSamples = 0,
+		traceNextProgressOffset = HTTP_TRACE_FLUSH_PROGRESS_BYTES,
+		writeIterations = 0,
+		writeBytes = 0,
+		writeOneByteCount = 0,
+		startClock = os.clock(),
 	}
 	flushHttpResponse(sock)
 end
@@ -8244,41 +8815,117 @@ flushHttpResponse = function(sock)
 	if not pending then
 		return
 	end
+	local trace = getSocketTrace(sock)
+	queueOrLogUpdateTrace(trace, "flush_enter", {
+		offset = pending.offset,
+		total = #pending.response,
+	})
 	local socketModule = nullHttpState.socketModule or rawget(_G, "socket")
 	local again = socketModule and socketModule.ERRORS and socketModule.ERRORS.AGAIN
 	local timeout = socketModule and socketModule.ERRORS and socketModule.ERRORS.TIMEOUT
 
 	while pending.offset <= #pending.response do
-		local chunkEnd = math.min(pending.offset + HTTP_SEND_CHUNK_BYTES - 1, #pending.response)
-		local sendOk, lastByteOrErr, sendErr = pcall(function()
-			return sock:send(pending.response, pending.offset, chunkEnd)
+		local chunkEnd
+		if not pending.fullBufferAttempted then
+			chunkEnd = #pending.response
+			pending.fullBufferAttempted = true
+			queueOrLogUpdateTrace(trace, "flush_full_buffer_try", {
+				offset = pending.offset,
+				total = #pending.response,
+			})
+		else
+			chunkEnd = math.min(pending.offset + HTTP_SEND_CHUNK_BYTES - 1, #pending.response)
+		end
+		local chunk = pending.response:sub(pending.offset, chunkEnd)
+		local chunkLen = #chunk
+		local attemptOffset = pending.offset
+		local sendOk, sentOrNil, sendErr, partialOrNil = pcall(function()
+			return sock:send(chunk)
 		end)
 		if not sendOk then
-			logHttp(string.format("[null-http] WARN HTTP send panic: %s", tostring(lastByteOrErr)))
+			queueOrLogUpdateTrace(trace, "flush_send_panic", {
+				error = tostring(sentOrNil),
+			})
+			logHttp(string.format("[null-http] WARN HTTP send panic: %s", tostring(sentOrNil)))
 			closeHttpClient(sock, "send_panic")
 			return
 		end
-		if lastByteOrErr then
-			if lastByteOrErr < pending.offset then
+		if sentOrNil then
+			local sent = tonumber(sentOrNil) or 0
+			sent = math.floor(sent)
+			if sent < 0 then
+				sent = 0
+			end
+			if sent > chunkLen then
+				sent = chunkLen
+			end
+			pending.writeIterations = (tonumber(pending.writeIterations) or 0) + 1
+			if sent == 1 then
+				pending.writeOneByteCount = (tonumber(pending.writeOneByteCount) or 0) + 1
+			end
+			if sent <= 0 then
 				pending.againRetries = pending.againRetries + 1
 			else
-				pending.offset = lastByteOrErr + 1
+				pending.offset = pending.offset + sent
+				pending.writeBytes = (tonumber(pending.writeBytes) or 0) + sent
 				pending.againRetries = 0
+				if shouldLogFlushProgressSample(trace, pending, attemptOffset, pending.offset, #pending.response) then
+					local pct = math.floor(((pending.offset - 1) * 100) / math.max(1, #pending.response))
+					queueOrLogUpdateTrace(trace, "flush_send_progress", {
+						offset = pending.offset,
+						pct = pct,
+						sent = sent,
+						total = #pending.response,
+						iterations = pending.writeIterations,
+					})
+				end
 			end
 		elseif sendErr == again or sendErr == timeout then
-			pending.againRetries = pending.againRetries + 1
+			local partial = tonumber(partialOrNil) or 0
+			partial = math.floor(partial)
+			if partial < 0 then
+				partial = 0
+			end
+			if partial > chunkLen then
+				partial = chunkLen
+			end
+			if partial > 0 then
+				pending.offset = pending.offset + partial
+				pending.againRetries = 0
+				queueOrLogUpdateTrace(trace, "flush_send_partial", {
+					error = tostring(sendErr),
+					partial = partial,
+				})
+			else
+				pending.againRetries = pending.againRetries + 1
+				queueOrLogUpdateTrace(trace, "flush_send_again", {
+					error = tostring(sendErr),
+					againRetries = pending.againRetries,
+				})
+			end
 		else
+			queueOrLogUpdateTrace(trace, "flush_send_failed", {
+				error = tostring(sendErr),
+			})
 			logHttp(string.format("[null-http] WARN HTTP send failed: %s", tostring(sendErr)))
 			closeHttpClient(sock, "send_failed")
 			return
 		end
 
 		if pending.againRetries > HTTP_SEND_MAX_AGAIN_RETRIES then
+			queueOrLogUpdateTrace(trace, "flush_retry_limit", {
+				error = tostring(sendErr),
+				againRetries = pending.againRetries,
+			})
 			logHttp(string.format("[null-http] WARN HTTP send retry limit hit (%s)", tostring(sendErr)))
 			closeHttpClient(sock, "send_retry_limit")
 			return
 		end
 		if pending.offset <= #pending.response and pending.againRetries > 0 then
+			queueOrLogUpdateTrace(trace, "flush_defer", {
+				offset = pending.offset,
+				againRetries = pending.againRetries,
+			})
 			if not pending.frameCallbackId then
 				pending.frameCallbackId = callbacks:add("frame", makeSafeCallback("http.flush", function()
 					flushHttpResponse(sock)
@@ -8288,47 +8935,168 @@ flushHttpResponse = function(sock)
 		end
 	end
 
+	local elapsedMs = nil
+	if pending.startClock then
+		elapsedMs = math.floor((os.clock() - pending.startClock) * 1000)
+	end
+	queueOrLogUpdateTrace(trace, "flush_complete", {
+		iterations = tostring(pending.writeIterations or 0),
+		bytes = tostring(pending.writeBytes or 0),
+		oneByteWrites = tostring(pending.writeOneByteCount or 0),
+		elapsedMs = tostring(elapsedMs),
+	})
+	if (tonumber(pending.writeOneByteCount) or 0) > 0 then
+		queueOrLogUpdateTrace(trace, "flush_close_deferred", {
+			delayFrames = 120,
+			reason = "one_byte_writes",
+		})
+		pending.response = ""
+		pending.offset = 1
+		pending.closeDelayFrames = 120
+		if not pending.frameCallbackId then
+			pending.frameCallbackId = callbacks:add("frame", makeSafeCallback("http.flush.close_defer", function()
+				local livePending = nullHttpState.pendingSends[sock]
+				if not livePending then
+					return
+				end
+				local remaining = tonumber(livePending.closeDelayFrames) or 0
+				remaining = remaining - 1
+				livePending.closeDelayFrames = remaining
+				if remaining > 0 then
+					return
+				end
+				livePending.frameCallbackId = nil
+				closeHttpClient(sock, "response_complete")
+			end))
+		end
+		return
+	end
 	closeHttpClient(sock, "response_complete")
 end
 
-local function handleHttpRequest(method, path)
+local function handleHttpRequest(method, path, trace)
 	local normalizedPath = (path and path:match("^[^?]+")) or path
+	queueOrLogUpdateTrace(trace, "handler_enter", {
+		method = tostring(method),
+		path = tostring(path),
+		normalizedPath = tostring(normalizedPath),
+	})
 
 	if method ~= "GET" then
+		queueOrLogUpdateTrace(trace, "handler_return", {
+			status = 405,
+			reason = "method_not_allowed",
+		})
 		return 405, "Method Not Allowed", "text/plain; charset=utf-8"
 	end
 
 	if normalizedPath == nullHttpState.pingPath then
+		queueOrLogUpdateTrace(trace, "handler_return", {
+			status = 200,
+			reason = "ping",
+		})
 		return 200, "Pong", "text/plain; charset=utf-8"
 	end
 
-	if normalizedPath == nullHttpState.updatePath then
+	if normalizedPath == nullHttpState.updatePath or normalizedPath == "/update" then
 		nullHttpState.updateRequestCount = (nullHttpState.updateRequestCount or 0) + 1
+		queueOrLogUpdateTrace(trace, "update_hit", {
+			hit = nullHttpState.updateRequestCount,
+		})
 		console:log(string.format(
-			"[null-http] /update hit #%d @ %s",
+			"[null-http] %s hit #%d @ %s",
+			tostring(normalizedPath),
 			nullHttpState.updateRequestCount,
 			os.date("%H:%M:%S")
 		))
-		local okBuild, bodyOrErr, maybeErr = pcall(buildUpdateJsonResponseBody)
+		queueOrLogUpdateTrace(trace, "update_build_enter")
+		local okBuild, bodyOrErr, maybeErr = pcall(buildUpdateJsonResponseBody, trace)
 		if not okBuild then
+			if trace and trace.active then
+				nullHttpState.traceBuildFailures = (tonumber(nullHttpState.traceBuildFailures) or 0) + 1
+			end
+			queueOrLogUpdateTrace(trace, "update_build_panic", {
+				error = tostring(bodyOrErr),
+			})
 			logHttp(string.format("[null-http] ERROR /update build panic: %s", tostring(bodyOrErr)))
 			local fallback = nullHttpState.lastUpdateResponseBody
 			if type(fallback) == "string" and fallback ~= "" then
-				return 200, fallback, "application/json; charset=utf-8"
+				if trace and trace.active then
+					nullHttpState.traceFallbackHits = (tonumber(nullHttpState.traceFallbackHits) or 0) + 1
+				end
+				queueOrLogUpdateTrace(trace, "handler_return", {
+					status = 200,
+					reason = "fallback_after_panic",
+					bodyLen = #fallback,
+				})
+				return 200, fallback, "application/octet-stream"
 			end
+			queueOrLogUpdateTrace(trace, "handler_return", {
+				status = 500,
+				reason = "panic_no_fallback",
+			})
 			return 500, tostring(bodyOrErr), "text/plain; charset=utf-8"
 		end
 
 		if bodyOrErr == nil then
+			if trace and trace.active then
+				nullHttpState.traceBuildFailures = (tonumber(nullHttpState.traceBuildFailures) or 0) + 1
+			end
+			queueOrLogUpdateTrace(trace, "update_build_nil", {
+				error = tostring(maybeErr),
+			})
 			logHttp(string.format("[null-http] ERROR /update build failed: %s", tostring(maybeErr)))
 			local fallback = nullHttpState.lastUpdateResponseBody
 			if type(fallback) == "string" and fallback ~= "" then
-				return 200, fallback, "application/json; charset=utf-8"
+				if trace and trace.active then
+					nullHttpState.traceFallbackHits = (tonumber(nullHttpState.traceFallbackHits) or 0) + 1
+				end
+				queueOrLogUpdateTrace(trace, "handler_return", {
+					status = 200,
+					reason = "fallback_after_build_error",
+					bodyLen = #fallback,
+				})
+				return 200, fallback, "application/octet-stream"
 			end
+			queueOrLogUpdateTrace(trace, "handler_return", {
+				status = 500,
+				reason = "build_error_no_fallback",
+			})
 			return 500, tostring(maybeErr), "text/plain; charset=utf-8"
 		end
+		queueOrLogUpdateTrace(trace, "update_build_success", {
+			bodyLen = #bodyOrErr,
+		})
 		nullHttpState.lastUpdateResponseBody = bodyOrErr
-		return 200, bodyOrErr, "application/json; charset=utf-8"
+		queueOrLogUpdateTrace(trace, "handler_return", {
+			status = 200,
+			reason = "update_success",
+			bodyLen = #bodyOrErr,
+		})
+		return 200, bodyOrErr, "application/octet-stream"
+	end
+
+	if normalizedPath == nullHttpState.battleLogPath then
+		queueOrLogUpdateTrace(trace, "battle_log_enter")
+		local okBuild, packedOrErr, maybeErr = pcall(buildPackedBattleLogResponseBody, trace)
+		if not okBuild then
+			queueOrLogUpdateTrace(trace, "battle_pack_panic", {
+				error = tostring(packedOrErr),
+			})
+			return 500, tostring(packedOrErr), "text/plain; charset=utf-8"
+		end
+		if packedOrErr == nil then
+			queueOrLogUpdateTrace(trace, "battle_pack_failed", {
+				error = tostring(maybeErr),
+			})
+			return 500, tostring(maybeErr), "text/plain; charset=utf-8"
+		end
+		queueOrLogUpdateTrace(trace, "handler_return", {
+			status = 200,
+			reason = "battle_log_packed_ok",
+			bodyLen = #packedOrErr,
+		})
+		return 200, packedOrErr, "application/octet-stream"
 	end
 
 	if normalizedPath == nullHttpState.battleStatePath then
@@ -8344,6 +9112,10 @@ local function handleHttpRequest(method, path)
 		return 200, encodedOrErr or "{}", "application/json; charset=utf-8"
 	end
 
+	queueOrLogUpdateTrace(trace, "handler_return", {
+		status = 404,
+		reason = "not_found",
+	})
 	return 404, "Not Found", "text/plain; charset=utf-8"
 end
 
@@ -8352,18 +9124,45 @@ local function handleHttpClientReceive(sock)
 	local socketModule = nullHttpState.socketModule or rawget(_G, "socket")
 	local again = socketModule and socketModule.ERRORS and socketModule.ERRORS.AGAIN
 	local timeout = socketModule and socketModule.ERRORS and socketModule.ERRORS.TIMEOUT
+	local trace = ensureSocketTraceContext(sock)
+	queueOrLogUpdateTrace(trace, "recv_enter", {
+		bufferLen = #data,
+	})
 	local function finishRequestFromBuffer()
 		local req = parseHttpRequestHead(data)
 		nullHttpState.clientBuffers[sock] = nil
 		if not req then
+			queueOrLogUpdateTrace(trace, "req_parse_failed", {
+				bufferLen = #data,
+			})
+			clearSocketTrace(sock)
 			sendHttpResponse(sock, 400, "Bad Request", "text/plain; charset=utf-8")
 			return true
 		end
-		local statusCode, body, contentType = runWithErrorLogging("http.request", handleHttpRequest, req.method, req.path)
+		local normalizedPath = (req.path and req.path:match("^[^?]+")) or req.path
+		if trace and (normalizedPath == nullHttpState.updatePath or normalizedPath == "/update" or normalizedPath == nullHttpState.battleLogPath) then
+			activateUpdateTrace(trace, req.method, normalizedPath, req.version)
+			queueOrLogUpdateTrace(trace, "req_parsed", {
+				method = tostring(req.method),
+				path = tostring(req.path),
+				version = tostring(req.version),
+				bufferLen = #data,
+			})
+		elseif trace then
+			clearSocketTrace(sock)
+			trace = nil
+		end
+		local statusCode, body, contentType = runWithErrorLogging("http.request", handleHttpRequest, req.method, req.path, trace)
 		if statusCode == nil then
+			queueOrLogUpdateTrace(trace, "request_dispatch_nil")
 			sendHttpResponse(sock, 500, "Internal Server Error", "text/plain; charset=utf-8")
 			return true
 		end
+		queueOrLogUpdateTrace(trace, "request_dispatch_ok", {
+			status = statusCode,
+			bodyLen = type(body) == "string" and #body or 0,
+			contentType = tostring(contentType),
+		})
 		sendHttpResponse(sock, statusCode, body, contentType)
 		return true
 	end
@@ -8371,20 +9170,40 @@ local function handleHttpClientReceive(sock)
 		local chunk, err = sock:receive(1024)
 		if chunk then
 			data = data .. chunk
+			queueOrLogUpdateTrace(trace, "recv_chunk", {
+				chunkLen = #chunk,
+				bufferLen = #data,
+			})
 			if #data > HTTP_MAX_REQUEST_HEAD_BYTES then
+				queueOrLogUpdateTrace(trace, "recv_head_too_large", {
+					bufferLen = #data,
+					limit = HTTP_MAX_REQUEST_HEAD_BYTES,
+				})
+				clearSocketTrace(sock)
 				nullHttpState.clientBuffers[sock] = nil
 				sendHttpResponse(sock, 400, "Bad Request", "text/plain; charset=utf-8")
 				return
 			end
 			if data:find("\r\n\r\n", 1, true) then
+				queueOrLogUpdateTrace(trace, "recv_head_complete", {
+					bufferLen = #data,
+				})
 				finishRequestFromBuffer()
 				return
 			end
 		else
 			if err == again or err == timeout then
+				queueOrLogUpdateTrace(trace, "recv_wait", {
+					error = tostring(err),
+					bufferLen = #data,
+				})
 				nullHttpState.clientBuffers[sock] = data
 				return
 			end
+			queueOrLogUpdateTrace(trace, "recv_closed", {
+				error = tostring(err),
+				bufferLen = #data,
+			})
 			if data:find("\r\n\r\n", 1, true) then
 				finishRequestFromBuffer()
 				return
@@ -8415,6 +9234,10 @@ local function acceptHttpConnection()
 			end
 			return
 		end
+		local trace = ensureSocketTraceContext(sock)
+		queueOrLogUpdateTrace(trace, "accept", {
+			socket = getOrAssignSocketDebugId(sock),
+		})
 		sock:add("received", makeSafeCallback("http.client.received", function()
 			handleHttpClientReceive(sock)
 		end))
@@ -8554,6 +9377,35 @@ function printNullHttpDiagnostics()
 		tostring(nullHttpState.lastClientCloseReason)
 	))
 	logHttp(string.format("[null-http] DIAG clientCloseReasons=%s", (#reasonParts > 0) and table.concat(reasonParts, ", ") or "none"))
+	logHttp(string.format(
+		"[null-http] DIAG updateTrace enabled=%s tracedRequests=%s emptyBodies=%s buildFailures=%s fallbackHits=%s sendFailures=%s sendPanics=%s retryLimitHits=%s",
+		tostring(nullHttpState.updateTraceEnabled),
+		tostring(nullHttpState.traceRequests),
+		tostring(nullHttpState.traceEmptyBodies),
+		tostring(nullHttpState.traceBuildFailures),
+		tostring(nullHttpState.traceFallbackHits),
+		tostring(nullHttpState.traceSendFailures),
+		tostring(nullHttpState.traceSendPanics),
+		tostring(nullHttpState.traceRetryLimitHits)
+	))
+end
+
+function setNullHttpUpdateTrace(enabled)
+	local nextValue = false
+	local valueType = type(enabled)
+	if valueType == "boolean" then
+		nextValue = enabled
+	elseif valueType == "number" then
+		nextValue = enabled ~= 0
+	elseif valueType == "string" then
+		local lowered = enabled:lower()
+		nextValue = (lowered == "1" or lowered == "true" or lowered == "on" or lowered == "yes")
+	else
+		nextValue = not not enabled
+	end
+	nullHttpState.updateTraceEnabled = nextValue
+	logHttp(string.format("[null-http] update trace %s", nextValue and "enabled" or "disabled"))
+	return nextValue
 end
 -- <<< END 08_http_server.lua
 
@@ -8579,13 +9431,13 @@ local function renderHowToUseBuffer(ctx)
 	howToUseBuffer:print("Output files location:\n")
 	howToUseBuffer:print(string.format("- Script/output directory: %s\n", tostring(NULL_EXPORT.baseDir)))
 	howToUseBuffer:print(string.format("- Current attempt #%s directory: %s\n\n", tostring(attempt), tostring(attemptDir)))
-	howToUseBuffer:print("Attempts are tracked by trainer ID key:\n")
-	howToUseBuffer:print(string.format("- Current key: %s\n", tostring(trainerKey)))
-	howToUseBuffer:print("- Key format: <trainerId>:<secretId>\n\n")
 	howToUseBuffer:print("Battle logging behavior:\n")
 	howToUseBuffer:print("- Battles are automatically detected while you play\n")
 	howToUseBuffer:print("- KOs are automatically recorded into the battle logs\n")
-	howToUseBuffer:print("- Stat stage changes are recorded in full battle log events (type=\"stat_stage\")\n\n")
+	howToUseBuffer:print("- Stat stage changes are recorded in full battle log events (type=\"stat_stage\")\n\n\n")
+
+
+	
 	howToUseBuffer:print("DEBUGGING FUNCTIONS:\n\n")
 	howToUseBuffer:print("Next trainer override (moves + HP):\n")
 	howToUseBuffer:print("- setNextTrainerMoveset sets the enemy lead's 4 moves (IDs or names)\n")

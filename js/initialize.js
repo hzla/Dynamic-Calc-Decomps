@@ -938,6 +938,7 @@ function loadDataSource(data) {
     }
     
     customLeads = get_custom_trainer_names()
+    localStorage.customLeads = JSON.stringify(customLeads)
 
     moves['(No Move)'] = moves['-'] = {
         "bp": 0,

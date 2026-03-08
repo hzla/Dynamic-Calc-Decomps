@@ -1,8 +1,10 @@
 ﻿(function () {
     const BATTLE_LOG_STORAGE_KEY = "battleLogs";
-    const BATTLE_LOG_SYNC_URL = "http://127.0.0.1:31124/update";
+    const BATTLE_LOG_SYNC_URL = "http://127.0.0.1:31124/battle_log";
     const BATTLE_LOG_SYNC_MAX_ATTEMPTS = 6;
     const BATTLE_LOG_SYNC_BASE_RETRY_MS = 400;
+    const BATTLE_LOG_PACKED_MAGIC = "NBL1";
+    const BATTLE_LOG_PACKED_VERSION = 1;
     let lastRenderedBattleLogRaw = null;
     let lastRenderedCustomLeadsRaw = null;
     let syncBattleLogsInFlight = false;
@@ -127,12 +129,165 @@
         return (
             msg.includes("err_empty_response") ||
             msg.includes("connection refused") ||
-            msg.includes("empty /update response") ||
+            msg.includes("empty /battle_log response") ||
             msg.includes("empty response") ||
             msg.includes("failed to fetch") ||
             msg.includes("networkerror") ||
             msg.includes("load failed")
         );
+    }
+
+    function resolveNullAbilityNameForBattleLog(speciesId, abilitySlot) {
+        const speciesList = Array.isArray(window.nullMons) ? window.nullMons : [];
+        const abilitiesBySpecies = (window.nullAbilities && typeof window.nullAbilities === "object") ? window.nullAbilities : null;
+        const speciesName = (speciesId > 0 && speciesId <= speciesList.length) ? speciesList[speciesId - 1] : null;
+        if (!speciesName || !abilitiesBySpecies) return "Unknown";
+
+        const speciesKey = String(speciesName).toLowerCase().replace(/[^a-z0-9]/g, "");
+        const abilities = abilitiesBySpecies[speciesKey];
+        if (!abilities || typeof abilities !== "object") return "Unknown";
+
+        const normalizedSlot = (Number.isInteger(abilitySlot) && abilitySlot >= 0 && abilitySlot <= 3) ? abilitySlot : 0;
+        const preferredKeys = (normalizedSlot === 0)
+            ? ["0", "1", "H"]
+            : (normalizedSlot === 1)
+                ? ["1", "0", "H"]
+                : ["H", "0", "1"];
+
+        for (let i = 0; i < preferredKeys.length; i += 1) {
+            const ability = abilities[preferredKeys[i]];
+            if (ability && ability !== "-" && ability !== "None") {
+                return ability;
+            }
+        }
+        return "Unknown";
+    }
+
+    function decodePackedBattleLogPayload(payloadBytes) {
+        const bytes = payloadBytes instanceof Uint8Array
+            ? payloadBytes
+            : new Uint8Array(payloadBytes || new ArrayBuffer(0));
+
+        if (bytes.length < 5) {
+            throw new Error("Packed /battle_log payload too short");
+        }
+
+        const magic = String.fromCharCode(bytes[0], bytes[1], bytes[2], bytes[3]);
+        if (magic !== BATTLE_LOG_PACKED_MAGIC) {
+            throw new Error(`Invalid /battle_log magic: ${magic}`);
+        }
+        const version = bytes[4];
+        if (version !== BATTLE_LOG_PACKED_VERSION) {
+            throw new Error(`Unsupported /battle_log packed version: ${version}`);
+        }
+
+        const natureList = Array.isArray(window.nullNatures) ? window.nullNatures : [];
+        const totalBits = bytes.length * 8;
+        let bitPos = 40;
+        const events = [];
+        let currentPartySpecies = [];
+
+        function bitsRemaining() {
+            return totalBits - bitPos;
+        }
+
+        function readBits(width) {
+            if (bitPos + width > totalBits) {
+                throw new Error(`Truncated packed /battle_log payload (need ${width} bits)`);
+            }
+            let value = 0;
+            for (let i = 0; i < width; i += 1) {
+                const absoluteBit = bitPos + i;
+                const byteIndex = absoluteBit >> 3;
+                const bitIndex = absoluteBit & 7;
+                if (((bytes[byteIndex] >> bitIndex) & 1) !== 0) {
+                    value |= (1 << i);
+                }
+            }
+            bitPos += width;
+            return value >>> 0;
+        }
+
+        while (bitsRemaining() >= 2) {
+            const eventType = readBits(2);
+            if (eventType === 0) {
+                if (bitsRemaining() < (16 + 16 + 3)) {
+                    break;
+                }
+                const enemyTrainerIdA = readBits(16);
+                const enemyTrainerIdB = readBits(16);
+                let partyCount = readBits(3);
+                if (partyCount > 6) {
+                    partyCount = 6;
+                }
+                if (bitsRemaining() < (partyCount * (11 + 10 + 5 + 2 + 10 + 10 + 10 + 10))) {
+                    break;
+                }
+
+                const party = [];
+                currentPartySpecies = [];
+                for (let i = 0; i < partyCount; i += 1) {
+                    const species = readBits(11);
+                    const heldItem = readBits(10);
+                    const natureId = readBits(5);
+                    const abilitySlot = readBits(2);
+                    const move1 = readBits(10);
+                    const move2 = readBits(10);
+                    const move3 = readBits(10);
+                    const move4 = readBits(10);
+                    const natureName = (natureId >= 0 && natureId < natureList.length && natureList[natureId])
+                        ? natureList[natureId]
+                        : "Hardy";
+                    const abilityName = resolveNullAbilityNameForBattleLog(species, abilitySlot);
+                    party.push({
+                        species,
+                        ability: abilityName,
+                        abilitySlot,
+                        heldItem,
+                        nature: natureName,
+                        natureId,
+                        slot: i,
+                        moves: [move1, move2, move3, move4],
+                    });
+                    currentPartySpecies.push(species);
+                }
+
+                events.push({
+                    type: "session_start",
+                    enemyTrainerIdA: enemyTrainerIdA === 0xFFFF ? null : enemyTrainerIdA,
+                    enemyTrainerIdB: enemyTrainerIdB === 0xFFFF ? null : enemyTrainerIdB,
+                    pParty: party,
+                });
+            } else if (eventType === 1) {
+                events.push({ type: "session_end" });
+            } else if (eventType === 2) {
+                if (bitsRemaining() < (16 + 3 + 11)) {
+                    break;
+                }
+                const turn = readBits(16);
+                const pSlot = readBits(3);
+                const aiSpecies = readBits(11);
+                const pSpecies = (pSlot >= 0 && pSlot < currentPartySpecies.length) ? currentPartySpecies[pSlot] : null;
+                const ev = { type: "pKo", turn, pSlot };
+                if (pSpecies != null) ev.pSpecies = pSpecies;
+                if (aiSpecies > 0) ev.aiSpecies = aiSpecies;
+                events.push(ev);
+            } else if (eventType === 3) {
+                if (bitsRemaining() < (16 + 3)) {
+                    break;
+                }
+                const turn = readBits(16);
+                const pSlot = readBits(3);
+                const pSpecies = (pSlot >= 0 && pSlot < currentPartySpecies.length) ? currentPartySpecies[pSlot] : null;
+                const ev = { type: "aiKo", turn, pSlot };
+                if (pSpecies != null) ev.pSpecies = pSpecies;
+                events.push(ev);
+            } else {
+                throw new Error(`Unknown packed event type ${eventType}`);
+            }
+        }
+
+        return { events };
     }
 
     async function syncBattleLogsFromLuaUpdate() {
@@ -151,13 +306,13 @@
                     if (!response.ok) {
                         throw new Error(`HTTP ${response.status}`);
                     }
-                    const raw = await response.text();
-                    if (!raw || !raw.trim()) {
-                        throw new Error("Empty /update response");
+                    const bytes = new Uint8Array(await response.arrayBuffer());
+                    if (!bytes || bytes.length === 0) {
+                        throw new Error("Empty /battle_log response");
                     }
-                    payload = JSON.parse(raw);
-                    if (!payload || typeof payload !== "object") {
-                        throw new Error("Invalid /update JSON payload");
+                    payload = decodePackedBattleLogPayload(bytes);
+                    if (typeof payload === "undefined") {
+                        throw new Error("Invalid packed /battle_log payload");
                     }
                     lastErr = null;
                     break;
@@ -170,15 +325,15 @@
                 }
             }
 
-            if (!payload) {
-                throw (lastErr || new Error("Failed to sync from /update"));
+            if (typeof payload === "undefined") {
+                throw (lastErr || new Error("Failed to sync from /battle_log"));
             }
 
-            localStorage.setItem(BATTLE_LOG_STORAGE_KEY, JSON.stringify(payload.battleLogs ?? null));
+            localStorage.setItem(BATTLE_LOG_STORAGE_KEY, JSON.stringify(payload ?? null));
             setBattleLogUploadStatus(`Synced @ ${new Date().toLocaleTimeString()}`, false);
             renderBattleLogView(true);
         } catch (err) {
-            console.error("Failed to sync battle logs from /update", err);
+            console.error("Failed to sync battle logs from /battle_log", err);
             setBattleLogUploadStatus(`Sync failed: ${err && err.message ? err.message : String(err)}`, true);
         } finally {
             syncBattleLogsInFlight = false;
@@ -381,7 +536,10 @@
     }
 
     function parseTrainerNamePreserveTrailingSpace(trainerId) {
-        const fallback = `Trainer #${trainerId ?? "?"}`;
+        const trainerIdNum = Number(trainerId);
+        const fallback = (Number.isFinite(trainerIdNum) && trainerIdNum >= 520 && trainerIdNum <= 537)
+            ? "Rival"
+            : `Trainer #${trainerId ?? "?"}`;
         const customLeadsMap = getCustomLeadsMap();
 
         if (!customLeadsMap || typeof customLeadsMap !== "object") {
@@ -689,7 +847,7 @@
             return `
                 <div class="battle-events">
                     <div class="battle-events-header">
-                        <div>Player KO</div>
+                        <div>You</div>
                         <div>Enemy KO'd</div>
                     </div>
                     <div class="battle-events-empty">No player KO events recorded in this session.</div>
@@ -698,9 +856,6 @@
         }
 
         const rows = pKos.map((event) => {
-            const details = [event.turn ? `Turn ${event.turn}` : null].filter(Boolean).join(" - ");
-            const aiSlot = typeof event.aiPartySlot === "number" ? event.aiPartySlot + 1 : "?";
-
             return `
                 <div class="battle-event-row">
                     <div>
@@ -708,7 +863,6 @@
                             <img src="${spritePath(event.pSpecies)}" alt="${escHtml(event.pSpecies)}" onerror="this.style.visibility='hidden'">
                             <div>
                                 <div class="battle-event-main">${escHtml(event.pSpecies || "Unknown")}</div>
-                                <div class="battle-event-sub">${escHtml(details)}</div>
                             </div>
                         </div>
                     </div>
@@ -717,7 +871,6 @@
                             <img src="${spritePath(event.aiSpecies)}" alt="${escHtml(event.aiSpecies)}" onerror="this.style.visibility='hidden'">
                             <div>
                                 <div class="battle-event-main">${escHtml(event.aiSpecies || "Unknown")}</div>
-                                <div class="battle-event-sub">AI Slot ${escHtml(aiSlot)}</div>
                             </div>
                         </div>
                     </div>
@@ -728,7 +881,7 @@
         return `
             <div class="battle-events">
                 <div class="battle-events-header">
-                    <div>Player KO</div>
+                    <div>You</div>
                     <div>Enemy KO'd</div>
                 </div>
                 ${rows}
@@ -961,10 +1114,10 @@
             }
         }, 2000);
 
-        const uploadBtn = document.getElementById("battle-log-upload-btn");
-        if (uploadBtn) {
-            uploadBtn.textContent = "Sync";
-            uploadBtn.addEventListener("click", function () {
+        const syncBattleLogBtn = document.getElementById("sync-battle-log");
+        if (syncBattleLogBtn) {
+            syncBattleLogBtn.textContent = "Sync";
+            syncBattleLogBtn.addEventListener("click", function () {
                 syncBattleLogsFromLuaUpdate();
             });
         }
@@ -985,6 +1138,10 @@
     document.addEventListener("DOMContentLoaded", function () {
         bindUi();
         applyBattleLogTabVisibility();
-        setViewMode("fragsheet");
+        if (typeof window.TITLE === "string" && window.TITLE === "Pokemon Null") {
+            setViewMode("battle-log");
+        } else {
+            setViewMode("fragsheet");
+        }
     });
 })();
