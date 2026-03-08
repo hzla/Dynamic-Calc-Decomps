@@ -632,19 +632,26 @@ function loadMovesData() {
     var moveName = moveId
 
     if (MOVES_BY_ID[gen][moveId]) {
-        var moveName = MOVES_BY_ID[gen][moveId].name
+        moveName = MOVES_BY_ID[gen][moveId].name
+
     } else {
         console.log(`${moveId} not found`)
         continue
     }
-    
 
-    if (jsonMoves[move]) {
-        jsonMove = jsonMoves[move]
+    if (jsonMoves[moveName]) {
+        jsonMove = jsonMoves[moveName]
+    } else if (jsonMoves[moveId]){
+        jsonMove = jsonMoves[moveId]
     } else {
-        // moves[move] = jsonMoves[move]
         continue //completely overite if custom move data found
     }
+
+    if (moveName == "Snap Trap") {
+        console.log("snap")
+    }
+
+
 
 
 
@@ -652,10 +659,10 @@ function loadMovesData() {
         continue
     }
 
-    moves[moveName]["bp"] = jsonMove["basePower"]
+    moves[moveName]["bp"] = jsonMove["basePower"] || jsonMove["bp"]
 
 
-    MOVES_BY_ID[g][moveId].basePower = jsonMove["basePower"]
+    MOVES_BY_ID[g][moveId].basePower = jsonMove["basePower"] || jsonMove["bp"]
 
     var special_case_power_overrides = {
       "Return": 102,
