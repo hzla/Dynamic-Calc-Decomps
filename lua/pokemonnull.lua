@@ -3546,7 +3546,7 @@ charmap = { [0]=
 local terminator=0xFF
 local monNameLength=12
 local speciesNameLength=13
-local playerNameLength=10
+local playerNameLength=7
 local boxMonSize=84
 local partyMonSize=104
 local partyloc=0x2005370 --gPlayerParty
@@ -3641,12 +3641,12 @@ function readBoxMon(address)
 	mon.personality = emu:read32(address + 0)
 	mon.otId = emu:read32(address + 4)
 	mon.nickname = toString(emu:readRange(address + 8, monNameLength))
-	mon.language = emu:read8(address + 18)
-	local flags = emu:read8(address + 19)
+	mon.language = emu:read8(address + 20)
+	local flags = emu:read8(address + 21)
 	mon.isBadEgg = flags & 1
 	mon.hasSpecies = (flags >> 1) & 1
 	mon.isEgg = (flags >> 2) & 1
-	mon.otName = toString(emu:readRange(address + 20, playerNameLength))
+	mon.otName = toString(emu:readRange(address + 22, playerNameLength))
 	mon.markings = emu:read8(address + 29)
 	mon.checksum = emu:read16(address + 30)
 
@@ -4187,8 +4187,9 @@ local BOX_CREATE = {
 	-- Pinned from PokemonNull/pokeemerald.map (gSaveBlock2Ptr)
 	gSaveBlock2Ptr = 0x03005E50,
 	secureOffset = 0x24, -- 36
-	flagsOffset = 0x13, -- 19
-	otNameOffset = 0x14, -- 20
+	-- Pinned from PokemonNull/include/pokemon.h (struct BoxPokemon with POKEMON_NAME_LENGTH=12, PLAYER_NAME_LENGTH=7)
+	flagsOffset = 0x15, -- 21
+	otNameOffset = 0x16, -- 22
 	markingsOffset = 0x1D, -- 29
 	checksumOffset = 0x1E, -- 30
 	boxUnknownOffset = 0x20, -- 32
@@ -6511,6 +6512,23 @@ local function resolveNatureForEdit(natureValue)
 end
 
 local function resolveCurrentPlayerOtId()
+	local ptrAddr = tonumber(BOX_CREATE and BOX_CREATE.gSaveBlock2Ptr) or 0
+	if ptrAddr > 0 then
+		local saveBlock2 = readU32LE(ptrAddr)
+		if saveBlock2 ~= nil and saveBlock2 ~= 0 then
+			local t0 = emu:read8(saveBlock2 + 0x0A)
+			local t1 = emu:read8(saveBlock2 + 0x0B)
+			local t2 = emu:read8(saveBlock2 + 0x0C)
+			local t3 = emu:read8(saveBlock2 + 0x0D)
+			if t0 ~= nil and t1 ~= nil and t2 ~= nil and t3 ~= nil then
+				local tid = ((t1 << 8) | t0) & 0xFFFF
+				local sid = ((t3 << 8) | t2) & 0xFFFF
+				local otId = ((sid << 16) | tid) & 0xFFFFFFFF
+				return otId, tid, sid, nil
+			end
+		end
+	end
+
 	local mode = resolvePlayerIdentityFromParty()
 	if mode and mode.topKey then
 		local tid, sid = splitTrainerKey(mode.topKey)
@@ -6811,7 +6829,7 @@ end
 -- Module Index: 06_box_create_edit
 -- Owns: box slot create/edit decode/encode logic and encrypted write helpers.
 
-local function getCreateBoxDefaults(speciesName, level)
+local function getCreateBoxDefaults(speciesName, level, currentOtId)
 	local defaults = {
 		language = BOX_CREATE.defaultLanguage,
 		otName = "TRAINER",
@@ -6822,7 +6840,7 @@ local function getCreateBoxDefaults(speciesName, level)
 		otGender = BOX_CREATE.defaultOtGender,
 		metLevel = level or BOX_CREATE.defaultLevel,
 	}
-	local function readCurrentPlayerName()
+	local function readCurrentPlayerNameFromSaveBlock2()
 		local ptrAddr = tonumber(BOX_CREATE and BOX_CREATE.gSaveBlock2Ptr) or 0
 		if ptrAddr <= 0 then
 			return nil
@@ -6831,7 +6849,7 @@ local function getCreateBoxDefaults(speciesName, level)
 		if saveBlock2 == nil or saveBlock2 == 0 then
 			return nil
 		end
-		local raw = emu:readRange(saveBlock2 + 0x00, playerNameLength + 1)
+		local raw = emu:readRange(saveBlock2 + 0x00, 8) -- SaveBlock2.playerName[PLAYER_NAME_LENGTH + 1] where PLAYER_NAME_LENGTH=7
 		if type(raw) ~= "string" or raw == "" then
 			return nil
 		end
@@ -6841,31 +6859,46 @@ local function getCreateBoxDefaults(speciesName, level)
 		end
 		return nil
 	end
-	local currentPlayerName = readCurrentPlayerName()
-	if type(currentPlayerName) == "string" and currentPlayerName ~= "" then
-		defaults.otName = currentPlayerName
-	end
+
+	local saveBlockName = readCurrentPlayerNameFromSaveBlock2()
+	local ownPartyName = nil
 	local party = getParty() or {}
+	local copiedPartyDefaults = false
 	for i = 1, #party do
 		local mon = party[i]
 		if mon and mon.species and mon.species > 0 then
-			if mon.language ~= nil then
-				defaults.language = mon.language & 0xFF
+			if currentOtId ~= nil and mon.otId == currentOtId and type(mon.otName) == "string" and mon.otName ~= "" then
+				if ownPartyName == nil or #mon.otName > #ownPartyName then
+					ownPartyName = mon.otName
+				end
 			end
-			if mon.pokeball ~= nil then
-				defaults.pokeball = mon.pokeball & 0x1F
+			if not copiedPartyDefaults then
+				if mon.language ~= nil then
+					defaults.language = mon.language & 0xFF
+				end
+				if mon.pokeball ~= nil then
+					defaults.pokeball = mon.pokeball & 0x1F
+				end
+				if mon.metGame ~= nil then
+					defaults.metGame = mon.metGame & 0xF
+				end
+				if mon.metLocation ~= nil then
+					defaults.metLocation = mon.metLocation & 0xFF
+				end
+				if mon.otGender ~= nil then
+					defaults.otGender = mon.otGender & 0x1
+				end
+				copiedPartyDefaults = true
 			end
-			if mon.metGame ~= nil then
-				defaults.metGame = mon.metGame & 0xF
-			end
-			if mon.metLocation ~= nil then
-				defaults.metLocation = mon.metLocation & 0xFF
-			end
-			if mon.otGender ~= nil then
-				defaults.otGender = mon.otGender & 0x1
-			end
-			break
 		end
+	end
+	if type(saveBlockName) == "string" and saveBlockName ~= "" then
+		defaults.otName = saveBlockName
+	elseif type(party[1]) == "table" and type(party[1].otName) == "string" and party[1].otName ~= "" then
+		defaults.otName = party[1].otName
+	end
+	if type(ownPartyName) == "string" and ownPartyName ~= "" and #ownPartyName > #(defaults.otName or "") then
+		defaults.otName = ownPartyName
 	end
 	return defaults
 end
@@ -7113,7 +7146,7 @@ function createPokemonInBoxSlot(slotIndex, speciesIdOrName, opts)
 	end
 	exp = math.floor(exp) & 0xFFFFFFFF
 
-	local defaults = getCreateBoxDefaults(speciesName, level)
+	local defaults = getCreateBoxDefaults(speciesName, level, otId)
 	local personality = randomU32()
 	local altAbility = (abilitySlot - 1) & 0x3
 	local pp1 = (moves[1] > 0) and BOX_CREATE.defaultPp or 0
