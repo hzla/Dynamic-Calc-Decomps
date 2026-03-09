@@ -587,7 +587,9 @@ function get_next_in() {
                 // it is considered a good candidate and can be sent out. The candidates are ranked from lowest 
                 // type matchup value to highest (0.5 outranking 1.5). In case of ties, the AI will send a pokemon 
                 // in party order, from the front of the party to the back. 
-                if (type_matchup < 2) {
+
+                if (type_matchup < 2 && matchup.aiHasSE) {
+                    console.log(pok_name)
                     switchInScore -= sub_index
                     switchInScore += 4000 * (2 - type_matchup)
                     analysis += `<div class='bp-info switch-info'>Good MU</div>` 
