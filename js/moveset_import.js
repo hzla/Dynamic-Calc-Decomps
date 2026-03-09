@@ -655,7 +655,12 @@ function getMoves(currentPoke, rows, offset) {
 					if (backup_data["move_replacements"]) {
 						let moveId = cleanString(move)
 						if (backup_data["move_replacements"][moveId]) {
-							move = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]].name
+							let defaultMoveData = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]]
+							if (defaultMoveData) {
+								move = MOVES_BY_ID[gen][backup_data["move_replacements"][moveId]].name
+							} else {
+							}
+							
 						}
 					}
 

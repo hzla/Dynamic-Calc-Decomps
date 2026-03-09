@@ -724,14 +724,20 @@ function loadMovesData() {
         var moveName = MOVES_BY_ID[gen][moveId].name
     } else {
         console.log(`${moveId} not found`)
-        continue
+
+
+        if (moveId == move) {
+            continue //skip this move if importing using normalized move names    
+        }
+        moveName = move
+        
     }
 
     // if defined in showdown move list
     if (moves[moveName]) {
     } else {
         // custom move
-        console.log(move)
+        console.log(`Creating custom move ${moveName}`)
         jsonMoves[moveName]["flags"] = {}
         jsonMoves[moveName]["name"] = move
 
