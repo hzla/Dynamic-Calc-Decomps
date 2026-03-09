@@ -3956,7 +3956,7 @@ function hiddens()
 	getHiddens(hiddenBuffer)
 end
 
-local function getShowdownTrainerIdLine(party)
+local function getShowdownTrainerIds(party)
 	local trainerId = 0
 	local secretId = 0
 	for _, mon in ipairs(party or {}) do
@@ -3966,6 +3966,11 @@ local function getShowdownTrainerIdLine(party)
 			break
 		end
 	end
+	return trainerId, secretId
+end
+
+local function getShowdownTrainerIdLine(party)
+	local trainerId, secretId = getShowdownTrainerIds(party)
 	return string.format("TID: %d:%d\n", trainerId, secretId)
 end
 
@@ -4004,6 +4009,7 @@ end
 function buildPackedBoxBytes()
 	local mons = {}
 	local party = getParty() or {}
+	local trainerId, secretId = getShowdownTrainerIds(party)
 	local address = storageLoc + 4
 	local i = 0
 
@@ -4064,10 +4070,6 @@ function buildPackedBoxBytes()
 
 	local totalBits = #mons * 112
 	local totalBytes = math.floor((totalBits + 7) / 8)
-	if totalBytes <= 0 then
-		return ""
-	end
-
 	local bytes = {}
 	for idx = 1, totalBytes do
 		bytes[idx] = 0
@@ -4106,9 +4108,17 @@ function buildPackedBoxBytes()
 		writeBits(mon.metLocation, 7)
 	end
 
-	local out = {}
+	local out = {
+		"NBX1",
+		string.char(
+			trainerId & 0xFF,
+			(trainerId >> 8) & 0xFF,
+			secretId & 0xFF,
+			(secretId >> 8) & 0xFF
+		),
+	}
 	for idx = 1, totalBytes do
-		out[idx] = string.char(bytes[idx])
+		out[#out + 1] = string.char(bytes[idx])
 	end
 	return table.concat(out)
 end

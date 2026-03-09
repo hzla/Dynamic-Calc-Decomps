@@ -66,7 +66,7 @@
     }
 
     function isBattleLogEnabledForTitle() {
-        return typeof window.TITLE === "string" && window.TITLE === "Pokemon Null";
+        return typeof window.TITLE === "string" && ["Pokemon Null", "Emerald Imperium 1.3"].includes(window.TITLE);
     }
 
     function applyBattleLogTabVisibility() {

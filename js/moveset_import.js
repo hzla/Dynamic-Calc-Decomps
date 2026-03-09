@@ -1120,11 +1120,32 @@ function decodeNullPackedBoxToShowdownText(payloadBytes) {
 	}
 
 	var MON_BITS = 112;
-	var totalBits = bytes.length * 8;
-	var monCount = Math.floor(totalBits / MON_BITS);
-	if (monCount <= 0) {
-		return "";
+	var bitStart = 0;
+	var trainerId = null;
+	var secretId = null;
+	if (
+		bytes.length >= 8 &&
+		bytes[0] === 78 && // N
+		bytes[1] === 66 && // B
+		bytes[2] === 88 && // X
+		bytes[3] === 49    // 1
+	) {
+		trainerId = (bytes[4] | (bytes[5] << 8)) >>> 0;
+		secretId = (bytes[6] | (bytes[7] << 8)) >>> 0;
+		bitStart = 64;
+		try {
+			if (typeof localStorage !== "undefined") {
+				var combinedTrainerKey = (bytes[4] | (bytes[5] << 8) | (bytes[6] << 16) | (bytes[7] << 24)) >>> 0;
+				localStorage.lastTid = String(combinedTrainerKey);
+			}
+		} catch (_err) {
+		}
 	}
+	var totalBits = (bytes.length * 8) - bitStart;
+	if (totalBits < 0) {
+		totalBits = 0;
+	}
+	var monCount = Math.floor(totalBits / MON_BITS);
 
 	var mons = Array.isArray(window.nullMons) ? window.nullMons : [];
 	var moves = Array.isArray(window.nullMoves) ? window.nullMoves : [];
@@ -1180,7 +1201,7 @@ function decodeNullPackedBoxToShowdownText(payloadBytes) {
 
 	var sections = [];
 	for (var monIndex = 0; monIndex < monCount; monIndex += 1) {
-		var bitPos = monIndex * MON_BITS;
+		var bitPos = bitStart + (monIndex * MON_BITS);
 
 		var speciesId = readBits(bitPos, 11); bitPos += 11;
 		var level = readBits(bitPos, 7); bitPos += 7;
@@ -1249,7 +1270,226 @@ function decodeNullPackedBoxToShowdownText(payloadBytes) {
 		sections.push(monLines.join("\n"));
 	}
 
-	return sections.join("\n\n") + (sections.length ? "\n\n" : "");
+	var tidLine = "";
+	if (trainerId != null && secretId != null) {
+		tidLine = "TID: " + String(trainerId) + ":" + String(secretId) + "\n";
+	}
+	if (sections.length <= 0) {
+		return tidLine;
+	}
+	return tidLine + sections.join("\n\n") + "\n\n";
+}
+
+function decodeImperiumPackedBoxToShowdownText(payloadBytes) {
+	var bytes = payloadBytes instanceof Uint8Array
+		? payloadBytes
+		: new Uint8Array(payloadBytes || new ArrayBuffer(0));
+	if (bytes.length === 0) {
+		return "";
+	}
+
+	var MON_BITS = 113;
+	var bitStart = 0;
+	var trainerId = null;
+	var secretId = null;
+	if (
+		bytes.length >= 8 &&
+		bytes[0] === 78 && // N
+		bytes[1] === 66 && // B
+		bytes[2] === 88 && // X
+		bytes[3] === 49    // 1
+	) {
+		trainerId = (bytes[4] | (bytes[5] << 8)) >>> 0;
+		secretId = (bytes[6] | (bytes[7] << 8)) >>> 0;
+		bitStart = 64;
+		try {
+			if (typeof localStorage !== "undefined") {
+				var combinedTrainerKey = (bytes[4] | (bytes[5] << 8) | (bytes[6] << 16) | (bytes[7] << 24)) >>> 0;
+				localStorage.lastTid = String(combinedTrainerKey);
+			}
+		} catch (_err) {
+		}
+	}
+
+	var totalBits = (bytes.length * 8) - bitStart;
+	if (totalBits < 0) {
+		totalBits = 0;
+	}
+	var monCount = Math.floor(totalBits / MON_BITS);
+
+	var mons = (typeof emImpMons !== "undefined" && Array.isArray(emImpMons)) ? emImpMons : [];
+	var moves = (typeof pokeemeraldMoves !== "undefined" && Array.isArray(pokeemeraldMoves)) ? pokeemeraldMoves : [];
+	var items = (typeof emImpItems !== "undefined" && Array.isArray(emImpItems)) ? emImpItems : [];
+	var natureNames = (typeof natures !== "undefined" && Array.isArray(natures)) ? natures : [];
+	var emLocations = (typeof locations !== "undefined" && locations && Array.isArray(locations["EM"])) ? locations["EM"] : [];
+	var abilitiesBySpecies = (typeof abils === "object" && abils) ? abils : {};
+	var abilityKeyLookup = {};
+	for (var abilitySpecies in abilitiesBySpecies) {
+		if (!Object.prototype.hasOwnProperty.call(abilitiesBySpecies, abilitySpecies)) {
+			continue;
+		}
+		var cleaned = String(abilitySpecies || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+		if (cleaned && !abilityKeyLookup[cleaned]) {
+			abilityKeyLookup[cleaned] = abilitiesBySpecies[abilitySpecies];
+		}
+	}
+
+	function readBits(startBit, width) {
+		var value = 0;
+		for (var i = 0; i < width; i += 1) {
+			var bitIndex = startBit + i;
+			var byteIndex = bitIndex >> 3;
+			if (byteIndex >= bytes.length) break;
+			var bitOffset = bitIndex & 7;
+			if (((bytes[byteIndex] >> bitOffset) & 1) !== 0) {
+				value |= (1 << i);
+			}
+		}
+		return value >>> 0;
+	}
+
+	function formatItemName(itemName) {
+		if (!itemName) {
+			return "";
+		}
+		var raw = String(itemName);
+		if (raw === "NONE") {
+			return "";
+		}
+		if (typeof itemTitleize === "function") {
+			try {
+				var titleized = itemTitleize(raw);
+				if (titleized) {
+					return titleized;
+				}
+			} catch (_err) {
+			}
+		}
+		return raw
+			.toLowerCase()
+			.split(/[_\s-]+/)
+			.map(function (part) { return part ? (part.charAt(0).toUpperCase() + part.slice(1)) : ""; })
+			.join(" ")
+			.trim();
+	}
+
+	function resolveAbilityName(speciesName, abilitySlot) {
+		var list = abilitiesBySpecies[speciesName];
+		if (!Array.isArray(list)) {
+			var speciesKey = String(speciesName || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+			list = abilityKeyLookup[speciesKey];
+		}
+		if (!Array.isArray(list)) {
+			return "Unknown";
+		}
+
+		var preferredIndexes;
+		if (abilitySlot === 0) {
+			preferredIndexes = [0, 1, 2];
+		} else if (abilitySlot === 1) {
+			preferredIndexes = [1, 0, 2];
+		} else {
+			preferredIndexes = [2, 0, 1];
+		}
+
+		for (var i = 0; i < preferredIndexes.length; i += 1) {
+			var abilityName = list[preferredIndexes[i]];
+			if (abilityName && abilityName !== "None" && abilityName !== "-") {
+				return abilityName;
+			}
+		}
+		for (var j = 0; j < list.length; j += 1) {
+			var fallbackAbility = list[j];
+			if (fallbackAbility && fallbackAbility !== "None" && fallbackAbility !== "-") {
+				return fallbackAbility;
+			}
+		}
+		return "Unknown";
+	}
+
+	var sections = [];
+	for (var monIndex = 0; monIndex < monCount; monIndex += 1) {
+		var bitPos = bitStart + (monIndex * MON_BITS);
+
+		var speciesId = readBits(bitPos, 11); bitPos += 11;
+		var level = readBits(bitPos, 7); bitPos += 7;
+		var hpIV = readBits(bitPos, 5); bitPos += 5;
+		var atkIV = readBits(bitPos, 5); bitPos += 5;
+		var defIV = readBits(bitPos, 5); bitPos += 5;
+		var spaIV = readBits(bitPos, 5); bitPos += 5;
+		var spdIV = readBits(bitPos, 5); bitPos += 5;
+		var speIV = readBits(bitPos, 5); bitPos += 5;
+		var move1 = readBits(bitPos, 10); bitPos += 10;
+		var move2 = readBits(bitPos, 10); bitPos += 10;
+		var move3 = readBits(bitPos, 10); bitPos += 10;
+		var move4 = readBits(bitPos, 10); bitPos += 10;
+		var natureId = readBits(bitPos, 5); bitPos += 5;
+		var itemId = readBits(bitPos, 10); bitPos += 10;
+		var abilitySlot = readBits(bitPos, 2); bitPos += 2;
+		var metLocationId = readBits(bitPos, 8); bitPos += 8;
+
+		if (!speciesId) {
+			continue;
+		}
+
+		if (level < 1) level = 1;
+		if (level > 127) level = 127;
+
+		var speciesName = (speciesId >= 0 && speciesId < mons.length && mons[speciesId])
+			? mons[speciesId]
+			: ("Species-" + String(speciesId));
+		if (typeof pokedex !== "undefined" && speciesName && speciesName !== "Species-" + String(speciesId) && !pokedex[speciesName]) {
+			speciesName = speciesName.replaceAll(" ", "-");
+		}
+
+		var natureName = (natureId >= 0 && natureId < natureNames.length && natureNames[natureId])
+			? natureNames[natureId]
+			: "Hardy";
+		var itemName = (itemId > 0 && itemId < items.length && items[itemId])
+			? formatItemName(items[itemId])
+			: "";
+		var abilityName = resolveAbilityName(speciesName, abilitySlot);
+		var metLocationName = (metLocationId >= 0 && metLocationId < emLocations.length && emLocations[metLocationId])
+			? emLocations[metLocationId]
+			: ("Unknown Location (0x" + metLocationId.toString(16).toUpperCase().padStart(2, "0") + ")");
+		var moveIds = [move1, move2, move3, move4];
+		var moveLines = [];
+		for (var moveIdx = 0; moveIdx < moveIds.length; moveIdx += 1) {
+			var moveId = moveIds[moveIdx];
+			if (!moveId) continue;
+			var moveName = (moveId >= 0 && moveId < moves.length && moves[moveId])
+				? moves[moveId]
+				: ("Move " + String(moveId));
+			moveLines.push("- " + moveName);
+		}
+
+		var lead = speciesName;
+		if (itemName) {
+			lead += " @ " + itemName;
+		}
+
+		var monLines = [
+			lead,
+			"Ability: " + abilityName,
+			"Level: " + String(level),
+			natureName + " Nature",
+			"IVs: " + String(hpIV) + " HP / " + String(atkIV) + " Atk / " + String(defIV) + " Def / " + String(spaIV) + " SpA / " + String(spdIV) + " SpD / " + String(speIV) + " Spe",
+			"Met: " + metLocationName,
+		];
+		for (var lineIdx = 0; lineIdx < moveLines.length; lineIdx += 1) {
+			monLines.push(moveLines[lineIdx]);
+		}
+		sections.push(monLines.join("\n"));
+	}
+
+	var tidLine = "";
+	if (trainerId != null && secretId != null) {
+		tidLine = "TID: " + String(trainerId) + ":" + String(secretId) + "\n";
+	}
+	if (sections.length <= 0) {
+		return tidLine;
+	}
+	return tidLine + sections.join("\n\n") + "\n\n";
 }
 
 $("#sync-lua").click(() => {
@@ -1264,13 +1504,19 @@ $("#sync-lua").click(() => {
 
 	if (TITLE.includes("Imperium")) {
 		console.log("Fetching Box")
-		fetchLuaTextWithRetry(LUA_UPDATE_URL, 1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (x) {
-			loadPokeLuaGen3RawBoxDump(x)
+		fetchLuaBytesWithRetry(LUA_BOX_URL, 1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (bytes) {
+			
+			var showdownText = decodeImperiumPackedBoxToShowdownText(bytes);
+			
+			if (!showdownText || !showdownText.trim()) {
+				throw new Error("Empty decoded /box payload");
+			}
+			$('.import-team-text').val(showdownText)
 			$('#import').click()
-			$('#import').val("")
+			$('.import-team-text').val("")
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
-			alert("Please make sure the Lua script is running and MGBA is not paused.");
+			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the Latest Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/imperium.lua\n\n Last Updated 3/8/2026\nYou can now view logs/frags for any battles played while using the latest Lua script on the Battle Logs tab of the Fragsheet page");
 		}).finally(resetSyncState);
 		return;
 	}
