@@ -1,6 +1,6 @@
 -- AUTO-GENERATED. Edit files in null/src and run null/build_bundle.py
 
-NULL_BUILD_PLATFORM = "windows"
+NULL_BUILD_PLATFORM = "nonwindows"
 
 -- >>> BEGIN 00_data_showdown.lua
 -- Module Index: 00_data_showdown
@@ -3552,7 +3552,7 @@ local partyMonSize=104
 local partyloc=0x2005370 --gPlayerParty
 local partyCount=0x200536d --gPlayerPartyCount
 local storageLoc=0x200a154 -- gPokemonStorage
-local speciesInfo=0x83db1f4 -- gSpeciesInfo
+local speciesInfo=0x83db3fc -- gSpeciesInfo
 
 local speciesNameTable=0x83b4db8
 function getCurve(n)
@@ -4131,8 +4131,8 @@ end
 -- Null game battle logger (pinned runtime offsets).
 local NULL_BATTLE = {
 	addresses = {
-		gBattlersCount = 0x02004D37,
-		gBattlerPositions = 0x02004D3B,
+		gBattlersCount = 0x02004D40,
+		gBattlerPositions = 0x02004D4A,
 		gBattlerPartyIndexes = 0x02004D42,
 		gBattleMons = 0x02004D58,
 		-- Pinned from PokemonNull/pokeemerald.map (src/battle_setup.o)
