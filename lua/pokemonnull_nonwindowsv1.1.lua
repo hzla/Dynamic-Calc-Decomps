@@ -3859,16 +3859,23 @@ function getPCPrint(mon)
 	return str
 end
 
-function printPartyStatus(buffer)
-    address = storageLoc + 4
-    i = 0
+function printPartyStatus(buffer, boxStartSlot, boxEndSlot)
+	local maxBoxSlot = 420
+	local startSlot = math.floor(tonumber(boxStartSlot) or 1)
+	local endSlot = math.floor(tonumber(boxEndSlot) or 120)
+	if startSlot < 1 then startSlot = 1 end
+	if startSlot > maxBoxSlot then startSlot = maxBoxSlot end
+	if endSlot < startSlot then endSlot = startSlot end
+	if endSlot > maxBoxSlot then endSlot = maxBoxSlot end
+    address = storageLoc + 4 + ((startSlot - 1) * boxMonSize)
+    i = startSlot
 	buffer:clear()
 	for _, mon in ipairs(getParty()) do
 		if (mon.species ~= 0) then
 			buffer:print(getPartyPrint(mon))
 		end
 	end
-    while i<120 do
+    while i<=endSlot do
 		if (emu:read32(address) ~=0) then 
 			buffer:print(getPCPrint(readBoxMon(address)))
 		end
@@ -3975,11 +3982,18 @@ local function getShowdownTrainerIdLine(party)
 end
 
 -- Build showdown export text without requiring a console buffer.
-function buildShowdownText()
+function buildShowdownText(boxStartSlot, boxEndSlot)
 	local out = {}
 	local party = getParty() or {}
-	local address = storageLoc + 4
-	local i = 0
+	local maxBoxSlot = 420
+	local startSlot = math.floor(tonumber(boxStartSlot) or 1)
+	local endSlot = math.floor(tonumber(boxEndSlot) or 120)
+	if startSlot < 1 then startSlot = 1 end
+	if startSlot > maxBoxSlot then startSlot = maxBoxSlot end
+	if endSlot < startSlot then endSlot = startSlot end
+	if endSlot > maxBoxSlot then endSlot = maxBoxSlot end
+	local address = storageLoc + 4 + ((startSlot - 1) * boxMonSize)
+	local i = startSlot
 
 	out[#out + 1] = getShowdownTrainerIdLine(party)
 
@@ -3989,7 +4003,7 @@ function buildShowdownText()
 		end
 	end
 
-	while i < 120 do
+	while i <= endSlot do
 		if emu:read32(address) ~= 0 then
 			local mon = readBoxMon(address)
 			if mon and mon.species and mon.species ~= 0 then
@@ -5217,15 +5231,20 @@ local function buildBoxMetLocationsPayload(sourceSlots)
 	return list
 end
 
-local function buildPackedBoxHex(slotsToScan)
+local function buildPackedBoxHex(boxStartSlot, boxEndSlot)
 	local out = {}
 	local sourceSlots = {}
-	local slots = math.floor(tonumber(slotsToScan) or 0)
-	if slots < 0 then
-		slots = 0
-	end
+	local maxBoxSlot = 420
+	local startSlot = math.floor(tonumber(boxStartSlot) or 1)
+	local endSlot = math.floor(tonumber(boxEndSlot) or NULL_EXPORT.defaultBoxSlots)
+	if startSlot < 1 then startSlot = 1 end
+	if startSlot > maxBoxSlot then startSlot = maxBoxSlot end
+	if endSlot < startSlot then endSlot = startSlot end
+	if endSlot > maxBoxSlot then endSlot = maxBoxSlot end
+	local startIndex = startSlot - 1
+	local endIndex = endSlot - 1
 	local base = storageLoc + 4
-	for slot = 0, slots - 1 do
+	for slot = startIndex, endIndex do
 		local slotAddress = base + (slot * boxMonSize)
 		local hasAnyData = false
 		for j = 0, boxMonSize - 1 do
@@ -5246,13 +5265,11 @@ local function buildPackedBoxHex(slotsToScan)
 	return table.concat(out, ""), #sourceSlots, sourceSlots
 end
 
-local function buildPartyBoxPayloadForAttempt(ctx)
+local function buildPartyBoxPayloadForAttempt(ctx, boxStartSlot, boxEndSlot)
 	local pCount = emu:read8(partyCount) or 0
 	if pCount < 0 then pCount = 0 end
 	if pCount > 6 then pCount = 6 end
-	local slots = NULL_EXPORT.defaultBoxSlots
-	if slots < 0 then slots = 0 end
-	local packedBoxesHex, packedSlotsCount, packedSourceSlots = buildPackedBoxHex(slots)
+	local packedBoxesHex, packedSlotsCount, packedSourceSlots = buildPackedBoxHex(boxStartSlot, boxEndSlot)
 
 	return {
 		trainerId = ctx.trainerId,
@@ -5270,8 +5287,8 @@ local function buildPartyBoxPayloadForAttempt(ctx)
 	}
 end
 
-local function cacheCurrentAttemptBoxPayload(ctx)
-	local payload = buildPartyBoxPayloadForAttempt(ctx)
+local function cacheCurrentAttemptBoxPayload(ctx, boxStartSlot, boxEndSlot)
+	local payload = buildPartyBoxPayloadForAttempt(ctx, boxStartSlot, boxEndSlot)
 	nullExportState.lastBoxMetaByAttempt[ctx.attempt] = {
 		updatedAt = os.date("%Y-%m-%dT%H:%M:%S"),
 		partyCount = payload.partyCount,
@@ -5281,11 +5298,11 @@ local function cacheCurrentAttemptBoxPayload(ctx)
 	return payload
 end
 
-local function writeCurrentAttemptMaster(refreshBoxPayload)
+local function writeCurrentAttemptMaster(refreshBoxPayload, boxStartSlot, boxEndSlot)
 	local events, ctx = getCurrentAttemptEvents()
 	local boxPayload = nil
 	if refreshBoxPayload then
-		boxPayload = cacheCurrentAttemptBoxPayload(ctx)
+		boxPayload = cacheCurrentAttemptBoxPayload(ctx, boxStartSlot, boxEndSlot)
 	else
 		boxPayload = nullExportState.cachedBoxPayloadByAttempt[ctx.attempt]
 	end
@@ -9544,7 +9561,7 @@ function renderHowToUseBuffer(ctx)
 	howToUseBuffer:print("- editPokemonInBoxSlot(1, { moves=BOX_NULL })\n")
 	howToUseBuffer:print("- editPokemonInBoxSlot(1, { nature=BOX_NULL })\n\n")
 	howToUseBuffer:print("Available commands:\n")
-	howToUseBuffer:print("- export()\n")
+	howToUseBuffer:print("- export([startSlot[, endSlot]])\n")
 	howToUseBuffer:print("- createPokemonInBoxSlot(slotIndex, speciesIdOrName[, opts])\n")
 	howToUseBuffer:print("- editPokemonInBoxSlot(slotIndex, opts)\n")
 	howToUseBuffer:print("- BOX_NULL (global sentinel table for edit clears)\n")
@@ -9583,18 +9600,49 @@ function startScript()
 	end
 end
 
-function export()
+function export(startSlot, endSlot)
+	local exportStart = nil
+	local exportEnd = nil
+	local maxBoxSlot = 420
+	if startSlot ~= nil then
+		exportStart = tonumber(startSlot)
+		if exportStart == nil then
+			console:log("error: export startSlot must be numeric")
+			return
+		end
+		exportStart = math.floor(exportStart)
+		if exportStart < 1 then exportStart = 1 end
+		if exportStart > maxBoxSlot then exportStart = maxBoxSlot end
+		if endSlot ~= nil then
+			exportEnd = tonumber(endSlot)
+			if exportEnd == nil then
+				console:log("error: export endSlot must be numeric")
+				return
+			end
+			exportEnd = math.floor(exportEnd)
+		else
+			exportEnd = exportStart + 120
+		end
+		if exportEnd < exportStart then
+			console:log("error: export endSlot must be >= startSlot")
+			return
+		end
+		if exportEnd > maxBoxSlot then exportEnd = maxBoxSlot end
+	elseif endSlot ~= nil then
+		console:log("error: export endSlot requires startSlot")
+		return
+	end
 	if not partyBuffer then
 		console:log("error")
 		return
 	end
-	printPartyStatus(partyBuffer)
+	printPartyStatus(partyBuffer, exportStart, exportEnd)
 	if not hiddenBuffer then
 		console:log("error")
 		return
 	end
 	hiddens()
-	writeCurrentAttemptMaster(true)
+	writeCurrentAttemptMaster(true, exportStart, exportEnd)
 end
 
 teardownPreviousSingletonInstance()
