@@ -9475,7 +9475,7 @@ end
 -- Module Index: 09_ui_main
 -- Owns: help buffer rendering, startup wiring, and frame callback registration.
 
-local function renderHowToUseBuffer(ctx)
+function renderHowToUseBuffer(ctx)
 	if not howToUseBuffer then
 		howToUseBuffer = console:createBuffer("How to Use This Script")
 		howToUseBuffer:setSize(220, 320)

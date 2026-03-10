@@ -1532,7 +1532,7 @@ $("#sync-lua").click(() => {
 			$('.import-team-text').val("")
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
-			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the Latest Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnull.lua\n\n Last Updated 3/8/2026\nYou can now view logs/frags for any battles played while using the latest Lua script on the Battle Logs tab of the Fragsheet page");
+			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the Latest Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnullv1.1.lua\n\n Last Updated 3/8/2026\nYou can now view logs/frags for any battles played while using the latest Lua script on the Battle Logs tab of the Fragsheet page");
 		}).finally(resetSyncState);
 		return;
 	}
