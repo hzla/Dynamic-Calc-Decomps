@@ -919,7 +919,8 @@
         sessions.forEach((session) => {
             const trainerId = getSessionTrainerId(session);
             const trainerNameWithSpace = buildFragTrainerNamePreserveTrailingSpace(trainerId);
-            const trainerLeadLevel = parseTrainerLeadLevel(trainerId);
+            const sessionLevel = getBattleLogSessionLevel(session);
+            const trainerLeadLevel = Number.isFinite(sessionLevel) ? sessionLevel : 10;
             const events = Array.isArray(session && session.events) ? session.events : [];
 
             events.forEach((event) => {

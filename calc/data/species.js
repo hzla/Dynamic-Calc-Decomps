@@ -9277,6 +9277,36 @@ var RR_PATCH = {
         weightkg: 32.5,
         abilities: { 0: 'Refriegerate' }
     },
+    'Nymble-Sevii': {
+        types: ['Bug', 'Dragon'],
+        bs: { hp: 33, at: 46, df: 40, sa: 21, sd: 25, sp: 45 },
+        weightkg: 8.3,
+        abilities: { 0: 'Swarm', 1: 'Tinted Lens' },
+        nfe: true,
+        baseSpecies: 'Nymble'
+    },
+    'Lokix-Sevii': {
+        types: ['Bug', 'Dragon'],
+        bs: { hp: 71, at: 102, df: 78, sa: 52, sd: 55, sp: 92 },
+        weightkg: 8.3,
+        abilities: { 0: 'Swarm', 1: 'Tinted Lens' },
+        baseSpecies: 'Lokix'
+    },
+    'Noibat-Sevii': {
+        types: ['Rock', 'Ghost'],
+        bs: { hp: 40, at: 45, df: 35, sa: 30, sd: 40, sp: 55 },
+        weightkg: 8.3,
+        abilities: { 0: 'Rock Head' },
+        nfe: true,
+        baseSpecies: 'Noibat'
+    },
+    'Noivern-Sevii': {
+        types: ['Rock', 'Ghost'],
+        bs: { hp: 85, at: 102, df: 80, sa: 70, sd: 80, sp: 123},
+        weightkg: 8.3,
+        abilities: { 0: 'Rock Head' },
+        baseSpecies: 'Noivern'
+    },
     'Clauncher-Sevii': {
         types: ['Bug', 'Dark'],
         bs: { hp: 50, at: 38, df: 62, sa: 58, sd: 63, sp: 59 },
@@ -10125,7 +10155,8 @@ var SV_PATCH = {
         types: ['Bug', 'Dark'],
         bs: { hp: 71, at: 102, df: 78, sa: 52, sd: 55, sp: 92 },
         weightkg: 17.5,
-        abilities: { 0: 'Swarm' }
+        abilities: { 0: 'Swarm' },
+        otherFormes: ["Lokix-Sevii"]
     },
     Mabosstiff: {
         types: ['Dark'],
@@ -10194,6 +10225,7 @@ var SV_PATCH = {
         bs: { hp: 33, at: 46, df: 40, sa: 21, sd: 25, sp: 45 },
         weightkg: 1,
         abilities: { 0: 'Swarm' },
+        otherFormes: ['Nymble-Sevii'],
         nfe: true
     },
     Ogerpon: {
