@@ -5165,6 +5165,28 @@ local function buildPartySnapshotForBattleLog()
 	return list
 end
 
+function getCurrentPartyHighestLevelForBattleLog()
+	local highest = 0
+	local count = emu:read8(partyCount) or 0
+	if count < 0 then count = 0 end
+	if count > 6 then count = 6 end
+	local monStart = partyloc
+	for i = 1, count do
+		local mon = readPartyMon(monStart)
+		monStart = monStart + partyMonSize
+		if mon and mon.species and mon.species > 0 then
+			local level = tonumber(mon.level) or 0
+			level = math.floor(level)
+			if level > highest then
+				highest = level
+			end
+		end
+	end
+	if highest < 0 then highest = 0 end
+	if highest > 127 then highest = 127 end
+	return highest
+end
+
 local function getPartyStartSlotsForSession()
 	local slots = {}
 	local count = emu:read8(partyCount) or 0
@@ -7745,6 +7767,7 @@ local function emitSessionStart(rt, initialEnemyTrainerKey, enemyTrainerIdA, ene
 		trainerId = nullBattleState.sessionTrainerDisplayId,
 		enemyTrainerIdA = jsonOrNull(enemyTrainerIdA),
 		enemyTrainerIdB = jsonOrNull(enemyTrainerIdB),
+		pPartyHighestLevel = getCurrentPartyHighestLevelForBattleLog(),
 		pParty = buildPartySnapshotForBattleLog(),
 	})
 	if NULL_BATTLE.writeFullBattleLog then
@@ -8624,7 +8647,7 @@ function buildPackedBattleLogResponseBody(trace)
 	end
 	local events = type(eventsOrErr) == "table" and eventsOrErr or {}
 	local m1, m2, m3, m4 = string.byte("NBL1", 1, 4)
-	local bytes = { m1 or 78, m2 or 66, m3 or 76, m4 or 49, 1 }
+	local bytes = { m1 or 78, m2 or 66, m3 or 76, m4 or 49, 2 }
 	local bitPos = #bytes * 8
 
 	local function toInt(raw, fallback)
@@ -8731,6 +8754,30 @@ function buildPackedBattleLogResponseBody(trace)
 		return 7
 	end
 
+	local function resolvePartyHighestLevel(ev, party)
+		local direct = toInt(ev and ev.pPartyHighestLevel, nil)
+		if direct ~= nil then
+			if direct < 0 then direct = 0 end
+			if direct > 127 then direct = 127 end
+			return direct
+		end
+		local highest = 0
+		if type(party) == "table" then
+			for i = 1, #party do
+				local mon = party[i]
+				if type(mon) == "table" then
+					local level = toInt(mon.level, nil)
+					if level ~= nil and level > highest then
+						highest = level
+					end
+				end
+			end
+		end
+		if highest < 0 then highest = 0 end
+		if highest > 127 then highest = 127 end
+		return highest
+	end
+
 	local currentPartySpecies = {}
 	local encodedEvents = 0
 	for i = 1, #events do
@@ -8772,6 +8819,7 @@ function buildPackedBattleLogResponseBody(trace)
 			writeBits(resolveTrainerId(ev.enemyTrainerIdA), 16)
 			writeBits(resolveTrainerId(ev.enemyTrainerIdB), 16)
 			writeBits(#packedParty, 3)
+			writeBits(resolvePartyHighestLevel(ev, party), 7)
 			for p = 1, #packedParty do
 				local mon = packedParty[p]
 				writeBits(mon.species, 11)

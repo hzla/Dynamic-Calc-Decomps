@@ -11185,6 +11185,12 @@ abils = {
         "Bulletproof",
         "Unnerve"
     ],
+    "Ursaluna-Bloodmoon":
+    [
+        "Mind's Eye",
+        "Mind's Eye",
+        "Mind's Eye"
+    ],
     "Basculegion":
     [
         "Swift Swim",

@@ -645,6 +645,16 @@ a:visited {
     text-align: right;
 }
 
+.battle-session-meta.deathless {
+    color: #72e08f;
+    font-weight: 700;
+}
+
+.battle-session-meta.deaths {
+    color: #ff6b6b;
+    font-weight: 700;
+}
+
 .battle-session-body {
     display: none;
     padding: 12px;

@@ -19,14 +19,15 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Self-Destruct",
+        "Self-destruct",
         "Stealth Rock",
         "Rock Blast",
         "Discharge"
       ],
+      "tr_id": 1,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -53,14 +54,15 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Throw",
         "Smack Down",
         "Thunder Punch",
-        "Self-Destruct"
+        "Self-destruct"
       ],
+      "tr_id": 756,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -87,7 +89,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -95,6 +97,7 @@ backup_data = {
         "Skull Bash",
         "Taunt"
       ],
+      "tr_id": 2,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -119,7 +122,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -127,6 +130,7 @@ backup_data = {
         "Skull Bash",
         "Taunt"
       ],
+      "tr_id": 26,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -159,6 +163,7 @@ backup_data = {
         "Aqua Jet",
         "Aqua Fang"
       ],
+      "tr_id": 30,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -196,6 +201,7 @@ backup_data = {
         "Aqua Fang",
         "Aqua Jet"
       ],
+      "tr_id": 34,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -225,7 +231,7 @@ backup_data = {
       },
       "item": null,
       "level": 44,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swagger",
@@ -233,6 +239,7 @@ backup_data = {
         "Poison Fang",
         "Crunch"
       ],
+      "tr_id": 76,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -259,7 +266,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Fang",
@@ -267,6 +274,7 @@ backup_data = {
         "Agility",
         "Skull Bash"
       ],
+      "tr_id": 151,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -291,7 +299,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -299,6 +307,7 @@ backup_data = {
         "Skull Bash",
         "Taunt"
       ],
+      "tr_id": 157,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -325,7 +334,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Haze",
@@ -333,6 +342,7 @@ backup_data = {
         "Air Slash",
         "Quick Guard"
       ],
+      "tr_id": 3,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -357,7 +367,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Haze",
@@ -365,6 +375,7 @@ backup_data = {
         "Air Slash",
         "Quick Guard"
       ],
+      "tr_id": 8,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -389,7 +400,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Haze",
@@ -397,6 +408,7 @@ backup_data = {
         "Air Slash",
         "Quick Guard"
       ],
+      "tr_id": 19,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -421,7 +433,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Haze",
@@ -429,6 +441,7 @@ backup_data = {
         "Air Slash",
         "Quick Guard"
       ],
+      "tr_id": 448,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -461,6 +474,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 521,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -499,6 +513,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 522,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -536,6 +551,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 524,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -574,6 +590,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 525,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -611,6 +628,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 527,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -649,6 +667,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 528,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -686,6 +705,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 530,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -724,6 +744,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 531,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -760,6 +781,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 533,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -798,6 +820,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 534,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -835,6 +858,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 536,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -873,6 +897,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 537,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -910,6 +935,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 661,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -947,6 +973,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 662,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -984,6 +1011,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 663,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -1021,6 +1049,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 664,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -1058,6 +1087,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 665,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -1095,6 +1125,7 @@ backup_data = {
         "Leech Life",
         "U-turn"
       ],
+      "tr_id": 666,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -1124,7 +1155,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Haze",
@@ -1132,6 +1163,7 @@ backup_data = {
         "Air Slash",
         "Quick Guard"
       ],
+      "tr_id": 716,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -1156,7 +1188,7 @@ backup_data = {
       },
       "item": null,
       "level": 43,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Leech Life",
@@ -1164,6 +1196,7 @@ backup_data = {
         "Haze",
         "Venoshock"
       ],
+      "tr_id": 734,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -1192,7 +1225,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hydro Pump",
@@ -1200,6 +1233,7 @@ backup_data = {
         "Parabolic Charge",
         "Charge"
       ],
+      "tr_id": 3,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -1232,6 +1266,7 @@ backup_data = {
         "Dazzling Gleam",
         "Ice Beam"
       ],
+      "tr_id": 73,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -1262,7 +1297,7 @@ backup_data = {
       },
       "item": null,
       "level": 68,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hydro Pump",
@@ -1270,6 +1305,7 @@ backup_data = {
         "Parabolic Charge",
         "Charge"
       ],
+      "tr_id": 378,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -1294,7 +1330,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble Beam",
@@ -1302,6 +1338,7 @@ backup_data = {
         "Signal Beam",
         "Scald"
       ],
+      "tr_id": 462,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -1326,7 +1363,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hydro Pump",
@@ -1334,6 +1371,7 @@ backup_data = {
         "Parabolic Charge",
         "Charge"
       ],
+      "tr_id": 511,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -1366,6 +1404,7 @@ backup_data = {
         "Icy Wind",
         "Signal Beam"
       ],
+      "tr_id": 700,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -1404,6 +1443,7 @@ backup_data = {
         "Confuse Ray",
         "Thunderbolt"
       ],
+      "tr_id": 857,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -1436,7 +1476,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Blizzard",
@@ -1444,6 +1484,7 @@ backup_data = {
         "Thrash",
         "Ice Hammer"
       ],
+      "tr_id": 4,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -1476,6 +1517,7 @@ backup_data = {
         "Night Slash",
         "Earthquake"
       ],
+      "tr_id": 338,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -1508,7 +1550,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Shadow Ball",
@@ -1516,6 +1558,7 @@ backup_data = {
         "Shore Up",
         "Sandstorm"
       ],
+      "tr_id": 5,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -1548,6 +1591,7 @@ backup_data = {
         "Shore Up",
         "Psychic"
       ],
+      "tr_id": 434,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -1586,6 +1630,7 @@ backup_data = {
         "Shore Up",
         "Toxic"
       ],
+      "tr_id": 437,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -1620,6 +1665,7 @@ backup_data = {
         "Shore Up",
         "Toxic"
       ],
+      "tr_id": 438,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -1654,6 +1700,7 @@ backup_data = {
         "Shore Up",
         "Toxic"
       ],
+      "tr_id": 439,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -1688,6 +1735,7 @@ backup_data = {
         "Shore Up",
         "Toxic"
       ],
+      "tr_id": 440,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -1716,7 +1764,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Embargo",
@@ -1724,6 +1772,7 @@ backup_data = {
         "Jaw Lock",
         "Play Rough"
       ],
+      "tr_id": 6,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -1756,6 +1805,7 @@ backup_data = {
         "Fire Fang",
         "Thunder Fang"
       ],
+      "tr_id": 16,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -1786,7 +1836,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Embargo",
@@ -1794,6 +1844,7 @@ backup_data = {
         "Jaw Lock",
         "Play Rough"
       ],
+      "tr_id": 19,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -1818,7 +1869,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Odor Sleuth",
@@ -1826,6 +1877,7 @@ backup_data = {
         "Poison Fang",
         "Assurance"
       ],
+      "tr_id": 116,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -1850,7 +1902,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roar",
@@ -1858,6 +1910,7 @@ backup_data = {
         "Assurance",
         "Scary Face"
       ],
+      "tr_id": 116,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -1882,7 +1935,7 @@ backup_data = {
       },
       "item": null,
       "level": 38,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Assurance",
@@ -1890,6 +1943,7 @@ backup_data = {
         "Crunch",
         "Taunt"
       ],
+      "tr_id": 514,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -1914,7 +1968,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scary Face",
@@ -1922,6 +1976,7 @@ backup_data = {
         "Taunt",
         "Embargo"
       ],
+      "tr_id": 570,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -1946,7 +2001,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Embargo",
@@ -1954,6 +2009,7 @@ backup_data = {
         "Jaw Lock",
         "Play Rough"
       ],
+      "tr_id": 721,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -1978,7 +2034,7 @@ backup_data = {
       },
       "item": null,
       "level": 42,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scary Face",
@@ -1986,6 +2042,7 @@ backup_data = {
         "Taunt",
         "Embargo"
       ],
+      "tr_id": 734,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -2014,7 +2071,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Assurance",
@@ -2022,6 +2079,7 @@ backup_data = {
         "Night Slash",
         "Feint"
       ],
+      "tr_id": 6,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -2056,6 +2114,7 @@ backup_data = {
         "Feint",
         "Dark Pulse"
       ],
+      "tr_id": 6,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -2080,7 +2139,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slash",
@@ -2088,6 +2147,7 @@ backup_data = {
         "Assurance",
         "Captivate"
       ],
+      "tr_id": 17,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -2112,7 +2172,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
@@ -2120,6 +2180,7 @@ backup_data = {
         "Power Gem",
         "Slash"
       ],
+      "tr_id": 216,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -2144,7 +2205,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
@@ -2152,6 +2213,7 @@ backup_data = {
         "Power Gem",
         "Slash"
       ],
+      "tr_id": 219,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -2176,7 +2238,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
@@ -2184,6 +2246,7 @@ backup_data = {
         "Power Gem",
         "Slash"
       ],
+      "tr_id": 220,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -2208,7 +2271,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
@@ -2216,6 +2279,7 @@ backup_data = {
         "Power Gem",
         "Slash"
       ],
+      "tr_id": 221,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -2240,7 +2304,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
@@ -2248,6 +2312,7 @@ backup_data = {
         "Power Gem",
         "Slash"
       ],
+      "tr_id": 222,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -2282,6 +2347,7 @@ backup_data = {
         "Wake-Up Slap",
         "Ice Shard"
       ],
+      "tr_id": 7,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -2319,6 +2385,7 @@ backup_data = {
         "Thunderbolt",
         "Destiny Bond"
       ],
+      "tr_id": 714,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -2359,6 +2426,7 @@ backup_data = {
         "Ice Beam",
         "Grass Knot"
       ],
+      "tr_id": 7,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -2396,6 +2464,7 @@ backup_data = {
         "Ice Beam",
         "Grass Knot"
       ],
+      "tr_id": 18,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -2425,7 +2494,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
@@ -2433,6 +2502,7 @@ backup_data = {
         "Bounce",
         "Extrasensory"
       ],
+      "tr_id": 377,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -2457,7 +2527,7 @@ backup_data = {
       },
       "item": null,
       "level": 68,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Substitute",
@@ -2465,6 +2535,7 @@ backup_data = {
         "Extrasensory",
         "Hydro Pump"
       ],
+      "tr_id": 378,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -2489,7 +2560,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
@@ -2497,6 +2568,7 @@ backup_data = {
         "Bounce",
         "Extrasensory"
       ],
+      "tr_id": 820,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -2521,7 +2593,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
@@ -2529,6 +2601,7 @@ backup_data = {
         "Bounce",
         "Extrasensory"
       ],
+      "tr_id": 821,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -2553,7 +2626,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
@@ -2561,6 +2634,7 @@ backup_data = {
         "Bounce",
         "Extrasensory"
       ],
+      "tr_id": 822,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -2585,7 +2659,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
@@ -2593,6 +2667,7 @@ backup_data = {
         "Bounce",
         "Extrasensory"
       ],
+      "tr_id": 823,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -2625,6 +2700,7 @@ backup_data = {
         "Dark Pulse",
         "Surf"
       ],
+      "tr_id": 755,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -2663,6 +2739,7 @@ backup_data = {
         "Extrasensory",
         "Water Pulse"
       ],
+      "tr_id": 72,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -2703,6 +2780,7 @@ backup_data = {
         "Earthquake",
         "Dragon Claw"
       ],
+      "tr_id": 7,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -2732,7 +2810,7 @@ backup_data = {
       },
       "item": null,
       "level": 72,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aqua Tail",
@@ -2740,6 +2818,7 @@ backup_data = {
         "Safeguard",
         "Outrage"
       ],
+      "tr_id": 508,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -2774,6 +2853,7 @@ backup_data = {
         "Iron Head",
         "Dragon Dance"
       ],
+      "tr_id": 522,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -2811,6 +2891,7 @@ backup_data = {
         "Iron Head",
         "Dragon Dance"
       ],
+      "tr_id": 531,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -2847,6 +2928,7 @@ backup_data = {
         "Iron Head",
         "Dragon Dance"
       ],
+      "tr_id": 661,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -2884,6 +2966,7 @@ backup_data = {
         "Iron Head",
         "Dragon Dance"
       ],
+      "tr_id": 664,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -2921,6 +3004,7 @@ backup_data = {
         "Aqua Tail",
         "Outrage"
       ],
+      "tr_id": 726,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -2961,6 +3045,7 @@ backup_data = {
         "Thunder Punch",
         "Fire Punch"
       ],
+      "tr_id": 7,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -2998,6 +3083,7 @@ backup_data = {
         "Thunder Punch",
         "Fire Punch"
       ],
+      "tr_id": 18,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -3027,14 +3113,15 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vital Throw",
-        "Wake-Up Slap",
+        "Wake-up Slap",
         "Dual Chop",
         "Submission"
       ],
+      "tr_id": 183,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3059,14 +3146,15 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vital Throw",
-        "Wake-Up Slap",
+        "Wake-up Slap",
         "Dual Chop",
         "Submission"
       ],
+      "tr_id": 184,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3091,14 +3179,15 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vital Throw",
-        "Wake-Up Slap",
+        "Wake-up Slap",
         "Dual Chop",
         "Submission"
       ],
+      "tr_id": 185,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3123,14 +3212,15 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vital Throw",
-        "Wake-Up Slap",
+        "Wake-up Slap",
         "Dual Chop",
         "Submission"
       ],
+      "tr_id": 186,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3155,14 +3245,15 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vital Throw",
-        "Wake-Up Slap",
+        "Wake-up Slap",
         "Dual Chop",
         "Submission"
       ],
+      "tr_id": 187,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3187,7 +3278,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Submission",
@@ -3195,6 +3286,7 @@ backup_data = {
         "Cross Chop",
         "Scary Face"
       ],
+      "tr_id": 496,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -3219,7 +3311,7 @@ backup_data = {
       },
       "item": null,
       "level": 74,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Cross Chop",
@@ -3227,6 +3319,7 @@ backup_data = {
         "Dynamic Punch",
         "Close Combat"
       ],
+      "tr_id": 507,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3251,7 +3344,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bulk Up",
@@ -3259,6 +3352,7 @@ backup_data = {
         "Scary Face",
         "Dynamic Punch"
       ],
+      "tr_id": 669,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3293,6 +3387,7 @@ backup_data = {
         "Thunder Punch",
         "Fire Punch"
       ],
+      "tr_id": 7,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -3330,6 +3425,7 @@ backup_data = {
         "Thunder Punch",
         "Fire Punch"
       ],
+      "tr_id": 18,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -3361,7 +3457,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Slide",
@@ -3369,6 +3465,7 @@ backup_data = {
         "Rain Dance",
         "Hydro Pump"
       ],
+      "tr_id": 8,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -3393,7 +3490,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Slide",
@@ -3401,6 +3498,7 @@ backup_data = {
         "Rain Dance",
         "Hydro Pump"
       ],
+      "tr_id": 11,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -3427,7 +3525,7 @@ backup_data = {
       },
       "item": null,
       "level": 61,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Slide",
@@ -3435,6 +3533,7 @@ backup_data = {
         "Rain Dance",
         "Hydro Pump"
       ],
+      "tr_id": 163,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -3461,7 +3560,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomping Tantrum",
@@ -3469,6 +3568,7 @@ backup_data = {
         "Double-Edge",
         "Retaliate"
       ],
+      "tr_id": 9,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3493,7 +3593,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomping Tantrum",
@@ -3501,6 +3601,7 @@ backup_data = {
         "Double-Edge",
         "Retaliate"
       ],
+      "tr_id": 840,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3525,7 +3626,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomping Tantrum",
@@ -3533,6 +3634,7 @@ backup_data = {
         "Double-Edge",
         "Retaliate"
       ],
+      "tr_id": 841,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3557,7 +3659,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomping Tantrum",
@@ -3565,6 +3667,7 @@ backup_data = {
         "Double-Edge",
         "Retaliate"
       ],
+      "tr_id": 842,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3589,7 +3692,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomping Tantrum",
@@ -3597,6 +3700,7 @@ backup_data = {
         "Double-Edge",
         "Retaliate"
       ],
+      "tr_id": 843,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -3623,7 +3727,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomping Tantrum",
@@ -3631,6 +3735,7 @@ backup_data = {
         "Flare Blitz",
         "Retaliate"
       ],
+      "tr_id": 9,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -3663,6 +3768,7 @@ backup_data = {
         "Bonemerang",
         "Icy Wind"
       ],
+      "tr_id": 73,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -3701,6 +3807,7 @@ backup_data = {
         "Bonemerang",
         "Thunder Punch"
       ],
+      "tr_id": 96,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -3738,6 +3845,7 @@ backup_data = {
         "Bonemerang",
         "Thunder Punch"
       ],
+      "tr_id": 268,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -3775,6 +3883,7 @@ backup_data = {
         "Bonemerang",
         "Thunder Punch"
       ],
+      "tr_id": 782,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -3810,6 +3919,7 @@ backup_data = {
         "Bonemerang",
         "Thunder Punch"
       ],
+      "tr_id": 783,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -3845,6 +3955,7 @@ backup_data = {
         "Bonemerang",
         "Thunder Punch"
       ],
+      "tr_id": 784,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -3880,6 +3991,7 @@ backup_data = {
         "Bonemerang",
         "Thunder Punch"
       ],
+      "tr_id": 785,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -3907,7 +4019,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomping Tantrum",
@@ -3915,6 +4027,7 @@ backup_data = {
         "Flare Blitz",
         "Retaliate"
       ],
+      "tr_id": 840,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -3939,7 +4052,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomping Tantrum",
@@ -3947,6 +4060,7 @@ backup_data = {
         "Flare Blitz",
         "Retaliate"
       ],
+      "tr_id": 841,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -3971,7 +4085,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomping Tantrum",
@@ -3979,6 +4093,7 @@ backup_data = {
         "Flare Blitz",
         "Retaliate"
       ],
+      "tr_id": 842,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -4003,7 +4118,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomping Tantrum",
@@ -4011,6 +4126,7 @@ backup_data = {
         "Flare Blitz",
         "Retaliate"
       ],
+      "tr_id": 843,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -4043,6 +4159,7 @@ backup_data = {
         "Bite",
         "Tackle"
       ],
+      "tr_id": 10,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -4073,12 +4190,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Howl"
       ],
+      "tr_id": 318,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -4103,12 +4221,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Howl"
       ],
+      "tr_id": 328,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -4133,12 +4252,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Howl"
       ],
+      "tr_id": 329,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -4163,12 +4283,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Howl"
       ],
+      "tr_id": 330,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -4193,12 +4314,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Howl"
       ],
+      "tr_id": 331,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -4231,6 +4353,7 @@ backup_data = {
         "Aqua Jet",
         "Bite"
       ],
+      "tr_id": 10,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -4263,7 +4386,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Spike Cannon",
@@ -4271,6 +4394,7 @@ backup_data = {
         "Spikes",
         "Icicle Crash"
       ],
+      "tr_id": 11,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -4305,6 +4429,7 @@ backup_data = {
         "Rock Blast",
         "Hydro Pump"
       ],
+      "tr_id": 338,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -4337,7 +4462,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Claw",
@@ -4345,6 +4470,7 @@ backup_data = {
         "Scary Face",
         "Flamethrower"
       ],
+      "tr_id": 12,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -4377,6 +4503,7 @@ backup_data = {
         "Fire Blast",
         "Hydro Pump"
       ],
+      "tr_id": 264,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -4414,6 +4541,7 @@ backup_data = {
         "Earthquake",
         "Dragon Dance"
       ],
+      "tr_id": 660,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -4452,6 +4580,7 @@ backup_data = {
         "Dragon Claw",
         "Dragon Dance"
       ],
+      "tr_id": 493,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -4484,7 +4613,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wing Attack",
@@ -4492,6 +4621,7 @@ backup_data = {
         "Dragon Rush",
         "Sandsear Storm"
       ],
+      "tr_id": 12,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -4524,6 +4654,7 @@ backup_data = {
         "Dual Wingbeat",
         "Rock Slide"
       ],
+      "tr_id": 270,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -4561,6 +4692,7 @@ backup_data = {
         "Dual Wingbeat",
         "Rock Slide"
       ],
+      "tr_id": 790,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -4596,6 +4728,7 @@ backup_data = {
         "Dual Wingbeat",
         "Rock Slide"
       ],
+      "tr_id": 791,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -4631,6 +4764,7 @@ backup_data = {
         "Dual Wingbeat",
         "Rock Slide"
       ],
+      "tr_id": 792,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -4666,6 +4800,7 @@ backup_data = {
         "Dual Wingbeat",
         "Rock Slide"
       ],
+      "tr_id": 793,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -4695,7 +4830,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sweet Scent",
@@ -4703,6 +4838,7 @@ backup_data = {
         "Body Slam",
         "Safeguard"
       ],
+      "tr_id": 13,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -4727,7 +4863,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Safeguard",
@@ -4735,6 +4871,7 @@ backup_data = {
         "Solar Beam",
         "Petal Blizzard"
       ],
+      "tr_id": 301,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -4767,6 +4904,7 @@ backup_data = {
         "Ancient Power",
         "Synthesis"
       ],
+      "tr_id": 65,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -4799,7 +4937,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Discharge",
@@ -4807,6 +4945,7 @@ backup_data = {
         "Tri Attack",
         "Magic Coat"
       ],
+      "tr_id": 13,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -4833,7 +4972,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sucker Punch",
@@ -4841,6 +4980,7 @@ backup_data = {
         "Pin Missile",
         "Liquidation"
       ],
+      "tr_id": 14,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -4873,6 +5013,7 @@ backup_data = {
         "Aqua Jet",
         "Leech Life"
       ],
+      "tr_id": 21,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -4904,7 +5045,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sucker Punch",
@@ -4912,6 +5053,7 @@ backup_data = {
         "Bounce",
         "Axe Kick"
       ],
+      "tr_id": 14,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -4944,6 +5086,7 @@ backup_data = {
         "Assurance",
         "Double Kick"
       ],
+      "tr_id": 20,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -4973,7 +5116,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sucker Punch",
@@ -4981,6 +5124,7 @@ backup_data = {
         "Bounce",
         "Axe Kick"
       ],
+      "tr_id": 540,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -5007,7 +5151,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sucker Punch",
@@ -5015,6 +5159,7 @@ backup_data = {
         "Bounce",
         "Axe Kick"
       ],
+      "tr_id": 619,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -5049,6 +5194,7 @@ backup_data = {
         "Thunderbolt",
         "Trick Room"
       ],
+      "tr_id": 15,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -5088,6 +5234,7 @@ backup_data = {
         "Psychic",
         "Dazzling Gleam"
       ],
+      "tr_id": 569,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -5127,6 +5274,7 @@ backup_data = {
         "Leech Life",
         "Stomping Tantrum"
       ],
+      "tr_id": 15,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -5168,6 +5316,7 @@ backup_data = {
         "High Jump Kick",
         "Gunk Shot"
       ],
+      "tr_id": 15,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -5207,6 +5356,7 @@ backup_data = {
         "Sucker Punch",
         "U-turn"
       ],
+      "tr_id": 25,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -5247,6 +5397,7 @@ backup_data = {
         "U-turn",
         "Facade"
       ],
+      "tr_id": 16,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -5287,6 +5438,7 @@ backup_data = {
         "Icy Wind",
         "Grass Knot"
       ],
+      "tr_id": 16,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -5319,7 +5471,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Screech",
@@ -5327,6 +5479,7 @@ backup_data = {
         "Metal Sound",
         "Thrash"
       ],
+      "tr_id": 17,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -5351,7 +5504,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bullet Punch",
@@ -5359,6 +5512,7 @@ backup_data = {
         "Fury Swipes",
         "Screech"
       ],
+      "tr_id": 217,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -5393,6 +5547,7 @@ backup_data = {
         "Throat Chop",
         "Play Rough"
       ],
+      "tr_id": 18,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -5432,6 +5587,7 @@ backup_data = {
         "Aqua Jet",
         "Revenge"
       ],
+      "tr_id": 20,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -5469,6 +5625,7 @@ backup_data = {
         "Taunt",
         "Explosion"
       ],
+      "tr_id": 332,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -5510,6 +5667,7 @@ backup_data = {
         "Mud Bomb",
         "Uproar"
       ],
+      "tr_id": 21,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -5539,7 +5697,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Flail",
@@ -5547,6 +5705,7 @@ backup_data = {
         "Hydro Pump",
         "Hyper Voice"
       ],
+      "tr_id": 167,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -5581,6 +5740,7 @@ backup_data = {
         "Fell Stinger",
         "Flip Turn"
       ],
+      "tr_id": 21,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -5612,7 +5772,7 @@ backup_data = {
       },
       "item": null,
       "level": 32,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Lava Plume",
@@ -5620,6 +5780,7 @@ backup_data = {
         "Curse",
         "Take Down"
       ],
+      "tr_id": 22,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -5644,7 +5805,7 @@ backup_data = {
       },
       "item": null,
       "level": 30,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Amnesia",
@@ -5652,6 +5813,7 @@ backup_data = {
         "Earth Power",
         "Curse"
       ],
+      "tr_id": 116,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -5678,7 +5840,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Embargo",
@@ -5686,6 +5848,7 @@ backup_data = {
         "Night Slash",
         "Sucker Punch"
       ],
+      "tr_id": 27,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -5712,7 +5875,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Superpower",
@@ -5720,6 +5883,7 @@ backup_data = {
         "Brutal Swing",
         "Arm Thrust"
       ],
+      "tr_id": 28,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -5744,7 +5908,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Reversal",
@@ -5752,6 +5916,7 @@ backup_data = {
         "Topsy-Turvy",
         "Brutal Swing"
       ],
+      "tr_id": 153,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -5776,7 +5941,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Low Sweep",
@@ -5784,6 +5949,7 @@ backup_data = {
         "Submission",
         "Taunt"
       ],
+      "tr_id": 326,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -5808,7 +5974,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Reversal",
@@ -5816,6 +5982,7 @@ backup_data = {
         "Topsy-Turvy",
         "Brutal Swing"
       ],
+      "tr_id": 669,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -5842,7 +6009,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Moonblast",
@@ -5850,6 +6017,7 @@ backup_data = {
         "Aromatherapy",
         "Pollen Puff"
       ],
+      "tr_id": 29,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -5884,6 +6052,7 @@ backup_data = {
         "Wish",
         "Hidden Power"
       ],
+      "tr_id": 227,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -5916,7 +6085,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Night Shade",
@@ -5924,6 +6093,7 @@ backup_data = {
         "Earthquake",
         "Hammer Arm"
       ],
+      "tr_id": 29,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -5958,6 +6128,7 @@ backup_data = {
         "Stone Edge",
         "Headlong Rush"
       ],
+      "tr_id": 34,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -5997,6 +6168,7 @@ backup_data = {
         "Barb Barrage",
         "Throat Chop"
       ],
+      "tr_id": 30,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -6034,6 +6206,7 @@ backup_data = {
         "Aqua Tail",
         "Facade"
       ],
+      "tr_id": 262,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -6071,6 +6244,7 @@ backup_data = {
         "Barb Barrage",
         "Throat Chop"
       ],
+      "tr_id": 647,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -6111,6 +6285,7 @@ backup_data = {
         "Superpower",
         "Shadow Sneak"
       ],
+      "tr_id": 30,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -6140,7 +6315,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
@@ -6148,6 +6323,7 @@ backup_data = {
         "Shadow Ball",
         "Spirit Shackle"
       ],
+      "tr_id": 164,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -6172,7 +6348,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Shadow Ball",
@@ -6180,6 +6356,7 @@ backup_data = {
         "Wave Crash",
         "Hydro Pump"
       ],
+      "tr_id": 387,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -6214,6 +6391,7 @@ backup_data = {
         "Flamethrower",
         "Thunderclap"
       ],
+      "tr_id": 30,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -6251,6 +6429,7 @@ backup_data = {
         "Flamethrower",
         "Thunderclap"
       ],
+      "tr_id": 34,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -6280,7 +6459,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Headbutt",
@@ -6288,6 +6467,7 @@ backup_data = {
         "Discharge",
         "Thunderclap"
       ],
+      "tr_id": 165,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -6322,6 +6502,7 @@ backup_data = {
         "Poison Jab",
         "Jet Punch"
       ],
+      "tr_id": 30,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -6351,7 +6532,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -6359,6 +6540,7 @@ backup_data = {
         "Circle Throw",
         "Jet Punch"
       ],
+      "tr_id": 154,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -6383,7 +6565,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dynamic Punch",
@@ -6391,6 +6573,7 @@ backup_data = {
         "Jet Punch",
         "Surging Strikes"
       ],
+      "tr_id": 160,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -6425,6 +6608,7 @@ backup_data = {
         "Freeze-Dry",
         "Hidden Power"
       ],
+      "tr_id": 30,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -6462,6 +6646,7 @@ backup_data = {
         "Freeze-Dry",
         "Hidden Power"
       ],
+      "tr_id": 34,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -6499,6 +6684,7 @@ backup_data = {
         "Ice Beam",
         "Drill Peck"
       ],
+      "tr_id": 45,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -6539,6 +6725,7 @@ backup_data = {
         "Aqua Jet",
         "Aqua Fang"
       ],
+      "tr_id": 30,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -6576,6 +6763,7 @@ backup_data = {
         "Aqua Fang",
         "Aqua Jet"
       ],
+      "tr_id": 34,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -6607,7 +6795,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Cross Chop",
@@ -6615,6 +6803,7 @@ backup_data = {
         "Close Combat",
         "Rage Fist"
       ],
+      "tr_id": 31,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -6647,6 +6836,7 @@ backup_data = {
         "Rock Slide",
         "Bulk Up"
       ],
+      "tr_id": 262,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -6684,6 +6874,7 @@ backup_data = {
         "Rock Slide",
         "Bulk Up"
       ],
+      "tr_id": 587,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -6723,6 +6914,7 @@ backup_data = {
         "Crunch",
         "Wave Crash"
       ],
+      "tr_id": 32,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -6752,7 +6944,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -6760,6 +6952,7 @@ backup_data = {
         "Shell Smash",
         "Wave Crash"
       ],
+      "tr_id": 130,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -6784,7 +6977,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Coil",
@@ -6792,6 +6985,7 @@ backup_data = {
         "Aqua Fang",
         "Shell Smash"
       ],
+      "tr_id": 692,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -6826,6 +7020,7 @@ backup_data = {
         "Hydro Pump",
         "Hidden Power"
       ],
+      "tr_id": 32,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -6863,6 +7058,7 @@ backup_data = {
         "Hydro Pump",
         "Hidden Power"
       ],
+      "tr_id": 33,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -6902,6 +7098,7 @@ backup_data = {
         "Poison Jab",
         "Dragon Dance"
       ],
+      "tr_id": 32,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -6931,7 +7128,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Claw",
@@ -6939,6 +7136,7 @@ backup_data = {
         "Dragon Pulse",
         "Swords Dance"
       ],
+      "tr_id": 307,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -6965,7 +7163,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Claw",
@@ -6973,6 +7171,7 @@ backup_data = {
         "Dragon Pulse",
         "Swords Dance"
       ],
+      "tr_id": 308,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -6999,7 +7198,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Claw",
@@ -7007,6 +7206,7 @@ backup_data = {
         "Dragon Pulse",
         "Swords Dance"
       ],
+      "tr_id": 309,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -7033,7 +7233,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Claw",
@@ -7041,6 +7241,7 @@ backup_data = {
         "Dragon Pulse",
         "Swords Dance"
       ],
+      "tr_id": 310,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -7067,7 +7268,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Claw",
@@ -7075,6 +7276,7 @@ backup_data = {
         "Dragon Pulse",
         "Swords Dance"
       ],
+      "tr_id": 311,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -7111,6 +7313,7 @@ backup_data = {
         "Thousand Arrows",
         "Shadow Sneak"
       ],
+      "tr_id": 32,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -7148,6 +7351,7 @@ backup_data = {
         "Thousand Arrows",
         "Shadow Sneak"
       ],
+      "tr_id": 33,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -7177,7 +7381,7 @@ backup_data = {
       },
       "item": null,
       "level": 68,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feather Dance",
@@ -7185,6 +7389,7 @@ backup_data = {
         "Nasty Plot",
         "Thousand Arrows"
       ],
+      "tr_id": 676,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -7219,6 +7424,7 @@ backup_data = {
         "Heat Wave",
         "Roost"
       ],
+      "tr_id": 32,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -7258,6 +7464,7 @@ backup_data = {
         "Aqua Tail",
         "Crunch"
       ],
+      "tr_id": 32,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -7295,6 +7502,7 @@ backup_data = {
         "Aqua Tail",
         "Crunch"
       ],
+      "tr_id": 33,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -7324,7 +7532,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hurricane",
@@ -7332,6 +7540,7 @@ backup_data = {
         "Hyper Beam",
         "Bounce"
       ],
+      "tr_id": 165,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -7356,7 +7565,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Dance",
@@ -7364,6 +7573,7 @@ backup_data = {
         "Hyper Beam",
         "Surf"
       ],
+      "tr_id": 335,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -7392,7 +7602,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aqua Tail",
@@ -7400,6 +7610,7 @@ backup_data = {
         "Rain Dance",
         "Hyper Beam"
       ],
+      "tr_id": 345,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -7424,7 +7635,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hurricane",
@@ -7432,6 +7643,7 @@ backup_data = {
         "Hyper Beam",
         "Bounce"
       ],
+      "tr_id": 350,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -7456,7 +7668,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hurricane",
@@ -7464,6 +7676,7 @@ backup_data = {
         "Hyper Beam",
         "Bounce"
       ],
+      "tr_id": 350,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -7496,6 +7709,7 @@ backup_data = {
         "Ice Fang",
         "Dragon Dance"
       ],
+      "tr_id": 626,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -7534,6 +7748,7 @@ backup_data = {
         "Crunch",
         "Ice Fang"
       ],
+      "tr_id": 727,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -7573,6 +7788,7 @@ backup_data = {
         "Crunch",
         "Twister"
       ],
+      "tr_id": 72,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -7611,6 +7827,7 @@ backup_data = {
         "Earthquake",
         "Crunch"
       ],
+      "tr_id": 74,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -7651,6 +7868,7 @@ backup_data = {
         "Aqua Tail",
         "Crunch"
       ],
+      "tr_id": 32,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -7688,6 +7906,7 @@ backup_data = {
         "Aqua Tail",
         "Crunch"
       ],
+      "tr_id": 33,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -7725,6 +7944,7 @@ backup_data = {
         "Crunch",
         "Ice Fang"
       ],
+      "tr_id": 727,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -7766,6 +7986,7 @@ backup_data = {
         "Thunderbolt",
         "Ice Beam"
       ],
+      "tr_id": 33,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -7795,7 +8016,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -7803,6 +8024,7 @@ backup_data = {
         "Power Whip",
         "Outrage"
       ],
+      "tr_id": 392,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -7827,7 +8049,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -7835,6 +8057,7 @@ backup_data = {
         "Power Whip",
         "Outrage"
       ],
+      "tr_id": 393,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -7859,7 +8082,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -7867,6 +8090,7 @@ backup_data = {
         "Power Whip",
         "Outrage"
       ],
+      "tr_id": 394,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -7891,7 +8115,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -7899,6 +8123,7 @@ backup_data = {
         "Power Whip",
         "Outrage"
       ],
+      "tr_id": 395,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -7923,7 +8148,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -7931,6 +8156,7 @@ backup_data = {
         "Power Whip",
         "Outrage"
       ],
+      "tr_id": 396,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -7963,6 +8189,7 @@ backup_data = {
         "Wish",
         "Toxic"
       ],
+      "tr_id": 528,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -8000,6 +8227,7 @@ backup_data = {
         "Wish",
         "Toxic"
       ],
+      "tr_id": 537,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -8037,6 +8265,7 @@ backup_data = {
         "Wish",
         "Toxic"
       ],
+      "tr_id": 663,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -8074,6 +8303,7 @@ backup_data = {
         "Wish",
         "Toxic"
       ],
+      "tr_id": 666,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -8113,6 +8343,7 @@ backup_data = {
         "Ice Spinner",
         "Brave Bird"
       ],
+      "tr_id": 34,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -8142,7 +8373,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Liquidation",
@@ -8150,6 +8381,7 @@ backup_data = {
         "Close Combat",
         "Wave Crash"
       ],
+      "tr_id": 448,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -8174,7 +8406,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Liquidation",
@@ -8182,6 +8414,7 @@ backup_data = {
         "Close Combat",
         "Wave Crash"
       ],
+      "tr_id": 673,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -8216,6 +8449,7 @@ backup_data = {
         "Ice Beam",
         "Water Spout"
       ],
+      "tr_id": 34,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -8245,13 +8479,14 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aqua Ring",
         "Rest",
         "Scary Face"
       ],
+      "tr_id": 854,
       "sub_index": 0,
       "ai_tags": []
     }
@@ -8276,7 +8511,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Payback",
@@ -8284,6 +8519,7 @@ backup_data = {
         "Bounce",
         "Slack Off"
       ],
+      "tr_id": 35,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8308,7 +8544,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Payback",
@@ -8316,6 +8552,7 @@ backup_data = {
         "Bounce",
         "Slack Off"
       ],
+      "tr_id": 582,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8342,7 +8579,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Drain",
@@ -8350,6 +8587,7 @@ backup_data = {
         "Feint",
         "Counter"
       ],
+      "tr_id": 36,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8374,7 +8612,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Counter",
@@ -8382,6 +8620,7 @@ backup_data = {
         "Mind Reader",
         "Sky Uppercut"
       ],
+      "tr_id": 125,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8406,7 +8645,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Drain",
@@ -8414,6 +8653,7 @@ backup_data = {
         "Feint",
         "Counter"
       ],
+      "tr_id": 429,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8438,7 +8678,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mind Reader",
@@ -8446,6 +8686,7 @@ backup_data = {
         "Seed Bomb",
         "Dynamic Punch"
       ],
+      "tr_id": 552,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -8472,7 +8713,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mind Reader",
@@ -8480,6 +8721,7 @@ backup_data = {
         "Seed Bomb",
         "Dynamic Punch"
       ],
+      "tr_id": 553,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -8506,7 +8748,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mind Reader",
@@ -8514,6 +8756,7 @@ backup_data = {
         "Seed Bomb",
         "Dynamic Punch"
       ],
+      "tr_id": 555,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -8540,7 +8783,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mind Reader",
@@ -8548,6 +8791,7 @@ backup_data = {
         "Seed Bomb",
         "Dynamic Punch"
       ],
+      "tr_id": 556,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -8574,7 +8818,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mind Reader",
@@ -8582,6 +8826,7 @@ backup_data = {
         "Seed Bomb",
         "Dynamic Punch"
       ],
+      "tr_id": 557,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -8608,7 +8853,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mind Reader",
@@ -8616,6 +8861,7 @@ backup_data = {
         "Seed Bomb",
         "Dynamic Punch"
       ],
+      "tr_id": 558,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -8642,7 +8888,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint",
@@ -8650,6 +8896,7 @@ backup_data = {
         "Force Palm",
         "Mind Reader"
       ],
+      "tr_id": 747,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8682,6 +8929,7 @@ backup_data = {
         "Focus Punch",
         "Rock Slide"
       ],
+      "tr_id": 65,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -8715,7 +8963,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aerial Ace",
@@ -8723,6 +8971,7 @@ backup_data = {
         "Taunt",
         "Uproar"
       ],
+      "tr_id": 36,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -8747,7 +8996,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swagger",
@@ -8755,6 +9004,7 @@ backup_data = {
         "Roost",
         "Reversal"
       ],
+      "tr_id": 398,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8779,7 +9029,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swagger",
@@ -8787,6 +9037,7 @@ backup_data = {
         "Roost",
         "Reversal"
       ],
+      "tr_id": 742,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -8813,7 +9064,7 @@ backup_data = {
       },
       "item": null,
       "level": 29,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
@@ -8821,6 +9072,7 @@ backup_data = {
         "Sleep Powder",
         "Quiver Dance"
       ],
+      "tr_id": 37,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8845,7 +9097,7 @@ backup_data = {
       },
       "item": null,
       "level": 29,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
@@ -8853,6 +9105,7 @@ backup_data = {
         "Sleep Powder",
         "Quiver Dance"
       ],
+      "tr_id": 40,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8877,7 +9130,7 @@ backup_data = {
       },
       "item": null,
       "level": 29,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
@@ -8885,6 +9138,7 @@ backup_data = {
         "Sleep Powder",
         "Quiver Dance"
       ],
+      "tr_id": 41,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8909,7 +9163,7 @@ backup_data = {
       },
       "item": null,
       "level": 29,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
@@ -8917,6 +9171,7 @@ backup_data = {
         "Sleep Powder",
         "Quiver Dance"
       ],
+      "tr_id": 42,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8941,7 +9196,7 @@ backup_data = {
       },
       "item": null,
       "level": 29,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
@@ -8949,6 +9204,7 @@ backup_data = {
         "Sleep Powder",
         "Quiver Dance"
       ],
+      "tr_id": 43,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -8973,7 +9229,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -8981,6 +9237,7 @@ backup_data = {
         "Petal Blizzard",
         "Chloroblast"
       ],
+      "tr_id": 553,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -9009,7 +9266,7 @@ backup_data = {
       },
       "item": null,
       "level": 29,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stockpile",
@@ -9017,6 +9274,7 @@ backup_data = {
         "Body Slam",
         "Sludge Bomb"
       ],
+      "tr_id": 37,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9041,7 +9299,7 @@ backup_data = {
       },
       "item": null,
       "level": 29,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stockpile",
@@ -9049,6 +9307,7 @@ backup_data = {
         "Body Slam",
         "Sludge Bomb"
       ],
+      "tr_id": 40,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9073,7 +9332,7 @@ backup_data = {
       },
       "item": null,
       "level": 29,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stockpile",
@@ -9081,6 +9340,7 @@ backup_data = {
         "Body Slam",
         "Sludge Bomb"
       ],
+      "tr_id": 41,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9105,7 +9365,7 @@ backup_data = {
       },
       "item": null,
       "level": 29,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stockpile",
@@ -9113,6 +9373,7 @@ backup_data = {
         "Body Slam",
         "Sludge Bomb"
       ],
+      "tr_id": 42,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9137,7 +9398,7 @@ backup_data = {
       },
       "item": null,
       "level": 29,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stockpile",
@@ -9145,6 +9406,7 @@ backup_data = {
         "Body Slam",
         "Sludge Bomb"
       ],
+      "tr_id": 43,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9169,7 +9431,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Amnesia",
@@ -9177,6 +9439,7 @@ backup_data = {
         "Gunk Shot",
         "Explosion"
       ],
+      "tr_id": 100,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -9211,6 +9474,7 @@ backup_data = {
         "Drain Punch",
         "Earthquake"
       ],
+      "tr_id": 612,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -9251,6 +9515,7 @@ backup_data = {
         "Focus Blast",
         "Energy Ball"
       ],
+      "tr_id": 38,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -9280,7 +9545,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -9288,6 +9553,7 @@ backup_data = {
         "Heal Block",
         "Wonder Room"
       ],
+      "tr_id": 585,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -9322,6 +9588,7 @@ backup_data = {
         "Jaw Lock",
         "Crunch"
       ],
+      "tr_id": 38,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -9351,7 +9618,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jaw Lock",
@@ -9359,6 +9626,7 @@ backup_data = {
         "Payback",
         "Hammer Arm"
       ],
+      "tr_id": 144,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9391,6 +9659,7 @@ backup_data = {
         "Jaw Lock",
         "Roar"
       ],
+      "tr_id": 189,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -9421,7 +9690,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Payback",
@@ -9429,6 +9698,7 @@ backup_data = {
         "Crunch",
         "Outrage"
       ],
+      "tr_id": 730,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -9453,7 +9723,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jaw Lock",
@@ -9461,6 +9731,7 @@ backup_data = {
         "Payback",
         "Hammer Arm"
       ],
+      "tr_id": 844,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9485,7 +9756,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jaw Lock",
@@ -9493,6 +9764,7 @@ backup_data = {
         "Payback",
         "Hammer Arm"
       ],
+      "tr_id": 845,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9517,7 +9789,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jaw Lock",
@@ -9525,6 +9797,7 @@ backup_data = {
         "Payback",
         "Hammer Arm"
       ],
+      "tr_id": 846,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9549,7 +9822,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jaw Lock",
@@ -9557,6 +9830,7 @@ backup_data = {
         "Payback",
         "Hammer Arm"
       ],
+      "tr_id": 847,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9591,6 +9865,7 @@ backup_data = {
         "Body Slam",
         "Dragon Dance"
       ],
+      "tr_id": 38,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -9630,6 +9905,7 @@ backup_data = {
         "Shadow Ball",
         "King's Shield"
       ],
+      "tr_id": 38,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -9667,6 +9943,7 @@ backup_data = {
         "Toxic",
         "King's Shield"
       ],
+      "tr_id": 493,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -9707,6 +9984,7 @@ backup_data = {
         "Charge Beam",
         "Hidden Power"
       ],
+      "tr_id": 38,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -9736,7 +10014,7 @@ backup_data = {
       },
       "item": null,
       "level": 45,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bite",
@@ -9744,6 +10022,7 @@ backup_data = {
         "Roar",
         "Wild Charge"
       ],
+      "tr_id": 93,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -9770,7 +10049,7 @@ backup_data = {
       },
       "item": null,
       "level": 44,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bite",
@@ -9778,6 +10057,7 @@ backup_data = {
         "Roar",
         "Wild Charge"
       ],
+      "tr_id": 255,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -9802,7 +10082,7 @@ backup_data = {
       },
       "item": null,
       "level": 44,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bite",
@@ -9810,6 +10090,7 @@ backup_data = {
         "Roar",
         "Wild Charge"
       ],
+      "tr_id": 255,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9834,7 +10115,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Spark",
@@ -9842,6 +10123,7 @@ backup_data = {
         "Thunder Fang",
         "Bite"
       ],
+      "tr_id": 334,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9866,7 +10148,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roar",
@@ -9874,6 +10156,7 @@ backup_data = {
         "Charge",
         "Thunder"
       ],
+      "tr_id": 375,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -9898,7 +10181,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wild Charge",
@@ -9906,6 +10189,7 @@ backup_data = {
         "Thunder",
         "Electric Terrain"
       ],
+      "tr_id": 577,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -9932,7 +10216,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roar",
@@ -9940,6 +10224,7 @@ backup_data = {
         "Charge",
         "Thunder"
       ],
+      "tr_id": 741,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -9966,7 +10251,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wild Charge",
@@ -9974,6 +10259,7 @@ backup_data = {
         "Thunder",
         "Electric Terrain"
       ],
+      "tr_id": 762,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -10010,6 +10296,7 @@ backup_data = {
         "Charge Beam",
         "Hidden Power"
       ],
+      "tr_id": 38,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -10041,7 +10328,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -10049,6 +10336,7 @@ backup_data = {
         "Stun Spore",
         "Petal Blizzard"
       ],
+      "tr_id": 39,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -10073,7 +10361,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Petal Dance",
@@ -10081,6 +10369,7 @@ backup_data = {
         "Solar Beam",
         "Apple Acid"
       ],
+      "tr_id": 325,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -10107,7 +10396,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -10115,6 +10404,7 @@ backup_data = {
         "Stun Spore",
         "Petal Blizzard"
       ],
+      "tr_id": 559,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -10141,7 +10431,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -10149,6 +10439,7 @@ backup_data = {
         "Stun Spore",
         "Petal Blizzard"
       ],
+      "tr_id": 562,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -10175,7 +10466,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -10183,6 +10474,7 @@ backup_data = {
         "Stun Spore",
         "Petal Blizzard"
       ],
+      "tr_id": 563,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -10209,7 +10501,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -10217,6 +10509,7 @@ backup_data = {
         "Stun Spore",
         "Petal Blizzard"
       ],
+      "tr_id": 564,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -10243,7 +10536,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -10251,6 +10544,7 @@ backup_data = {
         "Stun Spore",
         "Petal Blizzard"
       ],
+      "tr_id": 565,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -10285,6 +10579,7 @@ backup_data = {
         "Sludge Bomb",
         "Synthesis"
       ],
+      "tr_id": 23,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -10317,7 +10612,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stun Spore",
@@ -10325,6 +10620,7 @@ backup_data = {
         "Petal Blizzard",
         "Petal Dance"
       ],
+      "tr_id": 39,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -10349,7 +10645,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sweet Scent",
@@ -10357,6 +10653,7 @@ backup_data = {
         "Sunny Day",
         "Petal Blizzard"
       ],
+      "tr_id": 474,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -10381,7 +10678,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sweet Scent",
@@ -10389,6 +10686,7 @@ backup_data = {
         "Sunny Day",
         "Petal Blizzard"
       ],
+      "tr_id": 477,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -10413,7 +10711,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sweet Scent",
@@ -10421,6 +10719,7 @@ backup_data = {
         "Sunny Day",
         "Petal Blizzard"
       ],
+      "tr_id": 478,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -10445,7 +10744,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sweet Scent",
@@ -10453,6 +10752,7 @@ backup_data = {
         "Sunny Day",
         "Petal Blizzard"
       ],
+      "tr_id": 479,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -10477,7 +10777,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sweet Scent",
@@ -10485,6 +10785,7 @@ backup_data = {
         "Sunny Day",
         "Petal Blizzard"
       ],
+      "tr_id": 480,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -10509,7 +10810,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stun Spore",
@@ -10517,6 +10818,7 @@ backup_data = {
         "Petal Blizzard",
         "Petal Dance"
       ],
+      "tr_id": 559,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -10543,7 +10845,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stun Spore",
@@ -10551,6 +10853,7 @@ backup_data = {
         "Petal Blizzard",
         "Petal Dance"
       ],
+      "tr_id": 562,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -10577,7 +10880,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stun Spore",
@@ -10585,6 +10888,7 @@ backup_data = {
         "Petal Blizzard",
         "Petal Dance"
       ],
+      "tr_id": 563,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -10611,7 +10915,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stun Spore",
@@ -10619,6 +10923,7 @@ backup_data = {
         "Petal Blizzard",
         "Petal Dance"
       ],
+      "tr_id": 564,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -10645,7 +10950,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stun Spore",
@@ -10653,6 +10958,7 @@ backup_data = {
         "Petal Blizzard",
         "Petal Dance"
       ],
+      "tr_id": 565,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -10679,7 +10985,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Petal Blizzard",
@@ -10687,6 +10993,7 @@ backup_data = {
         "Quiver Dance",
         "Fiery Dance"
       ],
+      "tr_id": 595,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -10719,6 +11026,7 @@ backup_data = {
         "Moonblast",
         "Quiver Dance"
       ],
+      "tr_id": 627,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -10757,6 +11065,7 @@ backup_data = {
         "Moonblast",
         "Quiver Dance"
       ],
+      "tr_id": 636,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -10791,6 +11100,7 @@ backup_data = {
         "Moonblast",
         "Quiver Dance"
       ],
+      "tr_id": 637,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -10825,6 +11135,7 @@ backup_data = {
         "Moonblast",
         "Quiver Dance"
       ],
+      "tr_id": 638,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -10859,6 +11170,7 @@ backup_data = {
         "Moonblast",
         "Quiver Dance"
       ],
+      "tr_id": 639,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -10893,6 +11205,7 @@ backup_data = {
         "Dazzling Gleam",
         "Synthesis"
       ],
+      "tr_id": 23,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -10933,6 +11246,7 @@ backup_data = {
         "Stone Edge",
         "Sucker Punch"
       ],
+      "tr_id": 44,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -10971,6 +11285,7 @@ backup_data = {
         "Stone Edge",
         "Sucker Punch"
       ],
+      "tr_id": 47,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -11005,6 +11320,7 @@ backup_data = {
         "Stone Edge",
         "Sucker Punch"
       ],
+      "tr_id": 48,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -11039,6 +11355,7 @@ backup_data = {
         "Stone Edge",
         "Sucker Punch"
       ],
+      "tr_id": 49,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -11073,6 +11390,7 @@ backup_data = {
         "Stone Edge",
         "Sucker Punch"
       ],
+      "tr_id": 50,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -11109,6 +11427,7 @@ backup_data = {
         "Earthquake",
         "Acrobatics"
       ],
+      "tr_id": 44,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -11147,6 +11466,7 @@ backup_data = {
         "Earthquake",
         "Acrobatics"
       ],
+      "tr_id": 47,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -11181,6 +11501,7 @@ backup_data = {
         "Earthquake",
         "Acrobatics"
       ],
+      "tr_id": 48,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -11215,6 +11536,7 @@ backup_data = {
         "Earthquake",
         "Acrobatics"
       ],
+      "tr_id": 49,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -11249,6 +11571,7 @@ backup_data = {
         "Earthquake",
         "Acrobatics"
       ],
+      "tr_id": 50,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -11275,14 +11598,15 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swift",
         "Ancient Power",
-        "Self-Destruct",
+        "Self-destruct",
         "Stealth Rock"
       ],
+      "tr_id": 703,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -11317,6 +11641,7 @@ backup_data = {
         "Ice Fang",
         "Psychic Fangs"
       ],
+      "tr_id": 44,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -11355,6 +11680,7 @@ backup_data = {
         "Ice Fang",
         "Psychic Fangs"
       ],
+      "tr_id": 47,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -11389,6 +11715,7 @@ backup_data = {
         "Ice Fang",
         "Psychic Fangs"
       ],
+      "tr_id": 48,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -11423,6 +11750,7 @@ backup_data = {
         "Ice Fang",
         "Psychic Fangs"
       ],
+      "tr_id": 49,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -11457,6 +11785,7 @@ backup_data = {
         "Ice Fang",
         "Psychic Fangs"
       ],
+      "tr_id": 50,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -11483,7 +11812,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Breath",
@@ -11491,6 +11820,7 @@ backup_data = {
         "Super Fang",
         "Crunch"
       ],
+      "tr_id": 384,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -11523,6 +11853,7 @@ backup_data = {
         "Fishious Rend",
         "Ancient Power"
       ],
+      "tr_id": 726,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -11563,6 +11894,7 @@ backup_data = {
         "Earthquake",
         "Dual Wingbeat"
       ],
+      "tr_id": 44,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -11601,6 +11933,7 @@ backup_data = {
         "Earthquake",
         "Dual Wingbeat"
       ],
+      "tr_id": 47,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -11635,6 +11968,7 @@ backup_data = {
         "Earthquake",
         "Dual Wingbeat"
       ],
+      "tr_id": 48,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -11669,6 +12003,7 @@ backup_data = {
         "Earthquake",
         "Dual Wingbeat"
       ],
+      "tr_id": 49,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -11703,6 +12038,7 @@ backup_data = {
         "Earthquake",
         "Dual Wingbeat"
       ],
+      "tr_id": 50,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -11729,7 +12065,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roar",
@@ -11737,6 +12073,7 @@ backup_data = {
         "Wing Attack",
         "Ancient Power"
       ],
+      "tr_id": 194,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -11771,6 +12108,7 @@ backup_data = {
         "Earthquake",
         "Dual Wingbeat"
       ],
+      "tr_id": 44,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -11809,6 +12147,7 @@ backup_data = {
         "Earthquake",
         "Dual Wingbeat"
       ],
+      "tr_id": 47,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -11843,6 +12182,7 @@ backup_data = {
         "Earthquake",
         "Dual Wingbeat"
       ],
+      "tr_id": 48,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -11877,6 +12217,7 @@ backup_data = {
         "Earthquake",
         "Dual Wingbeat"
       ],
+      "tr_id": 49,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -11911,6 +12252,7 @@ backup_data = {
         "Earthquake",
         "Dual Wingbeat"
       ],
+      "tr_id": 50,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -11939,7 +12281,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Flail",
@@ -11947,6 +12289,7 @@ backup_data = {
         "Echoed Voice",
         "Hydro Pump"
       ],
+      "tr_id": 46,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -11971,7 +12314,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Drain Punch",
@@ -11979,6 +12322,7 @@ backup_data = {
         "Hydro Pump",
         "Wave Crash"
       ],
+      "tr_id": 765,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12005,7 +12349,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gyro Ball",
@@ -12013,6 +12357,7 @@ backup_data = {
         "Sandstorm",
         "Earthquake"
       ],
+      "tr_id": 46,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12037,7 +12382,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gyro Ball",
@@ -12045,6 +12390,7 @@ backup_data = {
         "Sandstorm",
         "Earthquake"
       ],
+      "tr_id": 212,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12069,7 +12415,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Swipes",
@@ -12077,6 +12423,7 @@ backup_data = {
         "Slash",
         "Dig"
       ],
+      "tr_id": 218,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12101,7 +12448,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gyro Ball",
@@ -12109,6 +12456,7 @@ backup_data = {
         "Sandstorm",
         "Earthquake"
       ],
+      "tr_id": 547,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12135,7 +12483,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Stockpile",
@@ -12143,6 +12491,7 @@ backup_data = {
         "Swallow",
         "Sludge Bomb"
       ],
+      "tr_id": 51,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12167,7 +12516,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Gastro Acid",
@@ -12175,6 +12524,7 @@ backup_data = {
         "Wring Out",
         "Gunk Shot"
       ],
+      "tr_id": 52,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12199,7 +12549,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Gastro Acid",
@@ -12207,6 +12557,7 @@ backup_data = {
         "Wring Out",
         "Gunk Shot"
       ],
+      "tr_id": 53,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12231,7 +12582,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Gastro Acid",
@@ -12239,6 +12590,7 @@ backup_data = {
         "Wring Out",
         "Gunk Shot"
       ],
+      "tr_id": 54,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12263,7 +12615,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Gastro Acid",
@@ -12271,6 +12623,7 @@ backup_data = {
         "Wring Out",
         "Gunk Shot"
       ],
+      "tr_id": 55,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12295,7 +12648,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Gastro Acid",
@@ -12303,6 +12656,7 @@ backup_data = {
         "Wring Out",
         "Gunk Shot"
       ],
+      "tr_id": 56,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12327,7 +12681,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gastro Acid",
@@ -12335,6 +12689,7 @@ backup_data = {
         "Wring Out",
         "Gunk Shot"
       ],
+      "tr_id": 100,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -12361,7 +12716,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gastro Acid",
@@ -12369,6 +12724,7 @@ backup_data = {
         "Wring Out",
         "Gunk Shot"
       ],
+      "tr_id": 749,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12395,7 +12751,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Revenge",
@@ -12403,6 +12759,7 @@ backup_data = {
         "False Swipe",
         "Embargo"
       ],
+      "tr_id": 51,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12427,7 +12784,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Taunt",
@@ -12435,6 +12792,7 @@ backup_data = {
         "Swords Dance",
         "Close Combat"
       ],
+      "tr_id": 52,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12459,7 +12817,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Taunt",
@@ -12467,6 +12825,7 @@ backup_data = {
         "Swords Dance",
         "Close Combat"
       ],
+      "tr_id": 53,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12491,7 +12850,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Taunt",
@@ -12499,6 +12858,7 @@ backup_data = {
         "Swords Dance",
         "Close Combat"
       ],
+      "tr_id": 54,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12523,7 +12883,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Taunt",
@@ -12531,6 +12891,7 @@ backup_data = {
         "Swords Dance",
         "Close Combat"
       ],
+      "tr_id": 55,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12555,7 +12916,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Taunt",
@@ -12563,6 +12924,7 @@ backup_data = {
         "Swords Dance",
         "Close Combat"
       ],
+      "tr_id": 56,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12587,12 +12949,13 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swords Dance",
         "Slash"
       ],
+      "tr_id": 91,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -12619,7 +12982,7 @@ backup_data = {
       },
       "item": null,
       "level": 45,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Detect",
@@ -12627,6 +12990,7 @@ backup_data = {
         "Taunt",
         "Agility"
       ],
+      "tr_id": 256,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12651,7 +13015,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "False Swipe",
@@ -12659,6 +13023,7 @@ backup_data = {
         "Detect",
         "Fake Out"
       ],
+      "tr_id": 513,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12685,7 +13050,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble",
@@ -12693,6 +13058,7 @@ backup_data = {
         "Iron Defense",
         "Aurora Beam"
       ],
+      "tr_id": 57,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12717,7 +13083,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble",
@@ -12725,6 +13091,7 @@ backup_data = {
         "Iron Defense",
         "Aurora Beam"
       ],
+      "tr_id": 60,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12749,7 +13116,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble",
@@ -12757,6 +13124,7 @@ backup_data = {
         "Iron Defense",
         "Aurora Beam"
       ],
+      "tr_id": 61,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12781,7 +13149,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble",
@@ -12789,6 +13157,7 @@ backup_data = {
         "Iron Defense",
         "Aurora Beam"
       ],
+      "tr_id": 62,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12813,7 +13182,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble",
@@ -12821,6 +13190,7 @@ backup_data = {
         "Iron Defense",
         "Aurora Beam"
       ],
+      "tr_id": 63,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -12847,7 +13217,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Water Gun",
@@ -12855,6 +13225,7 @@ backup_data = {
         "Water Gun",
         "Twister"
       ],
+      "tr_id": 57,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12879,7 +13250,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Water Gun",
@@ -12887,6 +13258,7 @@ backup_data = {
         "Water Gun",
         "Twister"
       ],
+      "tr_id": 60,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12911,7 +13283,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Water Gun",
@@ -12919,6 +13291,7 @@ backup_data = {
         "Water Gun",
         "Twister"
       ],
+      "tr_id": 61,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12943,7 +13316,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Water Gun",
@@ -12951,6 +13324,7 @@ backup_data = {
         "Water Gun",
         "Twister"
       ],
+      "tr_id": 62,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -12975,7 +13349,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Water Gun",
@@ -12983,6 +13357,7 @@ backup_data = {
         "Water Gun",
         "Twister"
       ],
+      "tr_id": 63,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -13007,7 +13382,7 @@ backup_data = {
       },
       "item": null,
       "level": 33,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Twister",
@@ -13015,6 +13390,7 @@ backup_data = {
         "Focus Energy",
         "Brine"
       ],
+      "tr_id": 461,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -13041,7 +13417,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Counter",
@@ -13049,6 +13425,7 @@ backup_data = {
         "Fling",
         "Punishment"
       ],
+      "tr_id": 58,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13073,7 +13450,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Counter",
@@ -13081,6 +13458,7 @@ backup_data = {
         "Fling",
         "Punishment"
       ],
+      "tr_id": 59,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13113,6 +13491,7 @@ backup_data = {
         "Power-Up Punch",
         "Earthquake"
       ],
+      "tr_id": 269,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -13150,6 +13529,7 @@ backup_data = {
         "Power-Up Punch",
         "Earthquake"
       ],
+      "tr_id": 786,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -13185,6 +13565,7 @@ backup_data = {
         "Power-Up Punch",
         "Earthquake"
       ],
+      "tr_id": 787,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -13220,6 +13601,7 @@ backup_data = {
         "Power-Up Punch",
         "Earthquake"
       ],
+      "tr_id": 788,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -13255,6 +13637,7 @@ backup_data = {
         "Power-Up Punch",
         "Earthquake"
       ],
+      "tr_id": 789,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -13284,11 +13667,12 @@ backup_data = {
       },
       "item": null,
       "level": 22,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scald"
       ],
+      "tr_id": 64,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13321,6 +13705,7 @@ backup_data = {
         "Icy Wind",
         "Hidden Power"
       ],
+      "tr_id": 65,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -13351,11 +13736,12 @@ backup_data = {
       },
       "item": null,
       "level": 22,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scald"
       ],
+      "tr_id": 67,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13380,11 +13766,12 @@ backup_data = {
       },
       "item": null,
       "level": 22,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scald"
       ],
+      "tr_id": 68,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13409,11 +13796,12 @@ backup_data = {
       },
       "item": null,
       "level": 22,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scald"
       ],
+      "tr_id": 69,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13438,11 +13826,12 @@ backup_data = {
       },
       "item": null,
       "level": 22,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scald"
       ],
+      "tr_id": 70,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13467,7 +13856,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scald",
@@ -13475,6 +13864,7 @@ backup_data = {
         "Lick",
         "Fury Swipes"
       ],
+      "tr_id": 168,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13507,6 +13897,7 @@ backup_data = {
         "Icy Wind",
         "Hidden Power"
       ],
+      "tr_id": 65,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -13547,6 +13938,7 @@ backup_data = {
         "Aerial Ace",
         "Thief"
       ],
+      "tr_id": 65,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -13585,6 +13977,7 @@ backup_data = {
         "Sucker Punch",
         "Facade"
       ],
+      "tr_id": 189,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -13615,7 +14008,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wide Guard",
@@ -13623,6 +14016,7 @@ backup_data = {
         "Detect",
         "Triple Kick"
       ],
+      "tr_id": 567,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13647,7 +14041,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mach Punch",
@@ -13655,6 +14049,7 @@ backup_data = {
         "Pursuit",
         "Quick Attack"
       ],
+      "tr_id": 573,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13679,7 +14074,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Quick Attack",
@@ -13687,6 +14082,7 @@ backup_data = {
         "Feint",
         "Sucker Punch"
       ],
+      "tr_id": 634,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13711,7 +14107,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Quick Attack",
@@ -13719,6 +14115,7 @@ backup_data = {
         "Feint",
         "Sucker Punch"
       ],
+      "tr_id": 635,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -13751,6 +14148,7 @@ backup_data = {
         "Aerial Ace",
         "Thief"
       ],
+      "tr_id": 65,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -13790,6 +14188,7 @@ backup_data = {
         "Parabolic Charge",
         "Substitute"
       ],
+      "tr_id": 73,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -13828,6 +14227,7 @@ backup_data = {
         "Flash Cannon",
         "Thunderbolt"
       ],
+      "tr_id": 211,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -13868,6 +14268,7 @@ backup_data = {
         "Drill Run",
         "Dragon Tail"
       ],
+      "tr_id": 73,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -13906,6 +14307,7 @@ backup_data = {
         "Thunder Punch",
         "Megahorn"
       ],
+      "tr_id": 80,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -13945,6 +14347,7 @@ backup_data = {
         "Shadow Ball",
         "Will-O-Wisp"
       ],
+      "tr_id": 73,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -13985,6 +14388,7 @@ backup_data = {
         "Stomping Tantrum",
         "Coil"
       ],
+      "tr_id": 73,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -14023,6 +14427,7 @@ backup_data = {
         "Iron Head",
         "Earthquake"
       ],
+      "tr_id": 711,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -14056,7 +14461,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rain Dance",
@@ -14064,6 +14469,7 @@ backup_data = {
         "Superpower",
         "Hydro Pump"
       ],
+      "tr_id": 66,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14088,7 +14494,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rain Dance",
@@ -14096,6 +14502,7 @@ backup_data = {
         "Superpower",
         "Hydro Pump"
       ],
+      "tr_id": 129,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14120,7 +14527,7 @@ backup_data = {
       },
       "item": null,
       "level": 45,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Play Rough",
@@ -14128,6 +14535,7 @@ backup_data = {
         "Rain Dance",
         "Double-Edge"
       ],
+      "tr_id": 138,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14152,7 +14560,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rain Dance",
@@ -14160,6 +14568,7 @@ backup_data = {
         "Superpower",
         "Hydro Pump"
       ],
+      "tr_id": 442,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14184,7 +14593,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rain Dance",
@@ -14192,6 +14601,7 @@ backup_data = {
         "Superpower",
         "Hydro Pump"
       ],
+      "tr_id": 458,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14216,7 +14626,7 @@ backup_data = {
       },
       "item": null,
       "level": 22,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Covet",
@@ -14224,6 +14634,7 @@ backup_data = {
         "Helping Hand",
         "Aqua Tail"
       ],
+      "tr_id": 697,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14248,7 +14659,7 @@ backup_data = {
       },
       "item": null,
       "level": 50,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aqua Ring",
@@ -14256,6 +14667,7 @@ backup_data = {
         "Double-Edge",
         "Superpower"
       ],
+      "tr_id": 736,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14288,6 +14700,7 @@ backup_data = {
         "Aqua Jet",
         "Ice Punch"
       ],
+      "tr_id": 65,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -14320,7 +14733,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Air Slash",
@@ -14328,6 +14741,7 @@ backup_data = {
         "Endure",
         "Crush Claw"
       ],
+      "tr_id": 66,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -14352,7 +14766,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Coil",
@@ -14360,6 +14774,7 @@ backup_data = {
         "Glare",
         "Double-Edge"
       ],
+      "tr_id": 427,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14384,7 +14799,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Coil",
@@ -14392,6 +14807,7 @@ backup_data = {
         "Glare",
         "Double-Edge"
       ],
+      "tr_id": 430,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14416,7 +14832,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Coil",
@@ -14424,6 +14840,7 @@ backup_data = {
         "Glare",
         "Double-Edge"
       ],
+      "tr_id": 431,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14448,7 +14865,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Coil",
@@ -14456,6 +14873,7 @@ backup_data = {
         "Glare",
         "Double-Edge"
       ],
+      "tr_id": 432,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14480,7 +14898,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Coil",
@@ -14488,6 +14906,7 @@ backup_data = {
         "Glare",
         "Double-Edge"
       ],
+      "tr_id": 433,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14514,7 +14933,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Screech",
@@ -14522,6 +14941,7 @@ backup_data = {
         "Outrage",
         "Cross Chop"
       ],
+      "tr_id": 75,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -14550,7 +14970,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Screech",
@@ -14558,6 +14978,7 @@ backup_data = {
         "Lock-On",
         "Magnet Rise"
       ],
+      "tr_id": 75,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -14592,6 +15013,7 @@ backup_data = {
         "Thunder",
         "Body Press"
       ],
+      "tr_id": 127,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -14631,6 +15053,7 @@ backup_data = {
         "Thunder",
         "Stealth Rock"
       ],
+      "tr_id": 132,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14665,6 +15088,7 @@ backup_data = {
         "Thunder",
         "Stealth Rock"
       ],
+      "tr_id": 133,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14699,6 +15123,7 @@ backup_data = {
         "Thunder",
         "Stealth Rock"
       ],
+      "tr_id": 134,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14733,6 +15158,7 @@ backup_data = {
         "Thunder",
         "Stealth Rock"
       ],
+      "tr_id": 135,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -14767,6 +15193,7 @@ backup_data = {
         "Tri Attack",
         "Volt Switch"
       ],
+      "tr_id": 630,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -14805,6 +15232,7 @@ backup_data = {
         "Flash Cannon",
         "Body Press"
       ],
+      "tr_id": 647,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -14837,7 +15265,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hurricane",
@@ -14845,6 +15273,7 @@ backup_data = {
         "Leaf Storm",
         "Toxic Spikes"
       ],
+      "tr_id": 75,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -14879,6 +15308,7 @@ backup_data = {
         "Heat Wave",
         "Hidden Power"
       ],
+      "tr_id": 450,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -14909,7 +15339,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hurricane",
@@ -14917,6 +15347,7 @@ backup_data = {
         "Leaf Storm",
         "Toxic Spikes"
       ],
+      "tr_id": 560,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -14951,6 +15382,7 @@ backup_data = {
         "Razor Leaf",
         "Sucker Punch"
       ],
+      "tr_id": 700,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -14983,7 +15415,7 @@ backup_data = {
       },
       "item": null,
       "level": 44,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Power Gem",
@@ -14991,6 +15423,7 @@ backup_data = {
         "Foul Play",
         "Quash"
       ],
+      "tr_id": 76,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -15019,7 +15452,7 @@ backup_data = {
       },
       "item": null,
       "level": 44,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "High Jump Kick",
@@ -15027,6 +15460,7 @@ backup_data = {
         "Power Trick",
         "Reversal"
       ],
+      "tr_id": 76,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -15061,6 +15495,7 @@ backup_data = {
         "Zen Headbutt",
         "Bullet Punch"
       ],
+      "tr_id": 159,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -15099,6 +15534,7 @@ backup_data = {
         "Zen Headbutt",
         "Ice Punch"
       ],
+      "tr_id": 312,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -15129,7 +15565,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mind Reader",
@@ -15137,6 +15573,7 @@ backup_data = {
         "Psych Up",
         "Power Trick"
       ],
+      "tr_id": 650,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -15163,7 +15600,7 @@ backup_data = {
       },
       "item": null,
       "level": 46,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stockpile",
@@ -15171,6 +15608,7 @@ backup_data = {
         "Spit Up",
         "Iron Head"
       ],
+      "tr_id": 77,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -15205,6 +15643,7 @@ backup_data = {
         "Iron Head",
         "Play Rough"
       ],
+      "tr_id": 470,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -15237,6 +15676,7 @@ backup_data = {
         "Play Rough",
         "Swords Dance"
       ],
+      "tr_id": 743,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -15269,7 +15709,7 @@ backup_data = {
       },
       "item": null,
       "level": 46,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rapid Spin",
@@ -15277,6 +15717,7 @@ backup_data = {
         "Recover",
         "Confuse Ray"
       ],
+      "tr_id": 77,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -15303,7 +15744,7 @@ backup_data = {
       },
       "item": null,
       "level": 68,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
@@ -15311,6 +15752,7 @@ backup_data = {
         "Confuse Ray",
         "Meteor Beam"
       ],
+      "tr_id": 385,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -15335,7 +15777,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
@@ -15343,6 +15785,7 @@ backup_data = {
         "Confuse Ray",
         "Meteor Beam"
       ],
+      "tr_id": 453,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -15375,6 +15818,7 @@ backup_data = {
         "Ice Beam",
         "Thunder"
       ],
+      "tr_id": 596,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -15406,7 +15850,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psycho Shift",
@@ -15414,6 +15858,7 @@ backup_data = {
         "Air Slash",
         "Reflect"
       ],
+      "tr_id": 78,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -15440,7 +15885,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psycho Shift",
@@ -15448,6 +15893,7 @@ backup_data = {
         "Air Slash",
         "Reflect"
       ],
+      "tr_id": 84,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -15474,7 +15920,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psycho Shift",
@@ -15482,6 +15928,7 @@ backup_data = {
         "Air Slash",
         "Reflect"
       ],
+      "tr_id": 85,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -15508,7 +15955,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psycho Shift",
@@ -15516,6 +15963,7 @@ backup_data = {
         "Air Slash",
         "Reflect"
       ],
+      "tr_id": 86,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -15542,7 +15990,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psycho Shift",
@@ -15550,6 +15998,7 @@ backup_data = {
         "Air Slash",
         "Reflect"
       ],
+      "tr_id": 87,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -15576,7 +16025,7 @@ backup_data = {
       },
       "item": null,
       "level": 74,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roost",
@@ -15584,6 +16033,7 @@ backup_data = {
         "Synchronoise",
         "Oblivion Wing"
       ],
+      "tr_id": 172,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -15610,7 +16060,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Return",
@@ -15618,6 +16068,7 @@ backup_data = {
         "Aromatherapy",
         "Energy Ball"
       ],
+      "tr_id": 78,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -15644,7 +16095,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Return",
@@ -15652,6 +16103,7 @@ backup_data = {
         "Aromatherapy",
         "Energy Ball"
       ],
+      "tr_id": 84,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -15678,7 +16130,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Return",
@@ -15686,6 +16138,7 @@ backup_data = {
         "Aromatherapy",
         "Energy Ball"
       ],
+      "tr_id": 85,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -15712,7 +16165,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Return",
@@ -15720,6 +16173,7 @@ backup_data = {
         "Aromatherapy",
         "Energy Ball"
       ],
+      "tr_id": 86,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -15746,7 +16200,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Return",
@@ -15754,6 +16208,7 @@ backup_data = {
         "Aromatherapy",
         "Energy Ball"
       ],
+      "tr_id": 87,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -15782,7 +16237,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hidden Power",
@@ -15790,6 +16245,7 @@ backup_data = {
         "Simple Beam",
         "Zen Headbutt"
       ],
+      "tr_id": 78,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -15816,7 +16272,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hidden Power",
@@ -15824,6 +16280,7 @@ backup_data = {
         "Simple Beam",
         "Zen Headbutt"
       ],
+      "tr_id": 84,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -15850,7 +16307,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hidden Power",
@@ -15858,6 +16315,7 @@ backup_data = {
         "Simple Beam",
         "Zen Headbutt"
       ],
+      "tr_id": 85,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -15884,7 +16342,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hidden Power",
@@ -15892,6 +16350,7 @@ backup_data = {
         "Simple Beam",
         "Zen Headbutt"
       ],
+      "tr_id": 86,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -15918,7 +16377,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hidden Power",
@@ -15926,6 +16385,7 @@ backup_data = {
         "Simple Beam",
         "Zen Headbutt"
       ],
+      "tr_id": 87,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -15952,7 +16412,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -15960,6 +16420,7 @@ backup_data = {
         "Power Split",
         "Synchronoise"
       ],
+      "tr_id": 235,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -15986,7 +16447,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Counter",
@@ -15994,6 +16455,7 @@ backup_data = {
         "Belch",
         "Recycle"
       ],
+      "tr_id": 79,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -16020,7 +16482,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Body Slam",
@@ -16028,6 +16490,7 @@ backup_data = {
         "Rest",
         "Counter"
       ],
+      "tr_id": 94,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16054,7 +16517,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Body Slam",
@@ -16062,6 +16525,7 @@ backup_data = {
         "Rest",
         "Counter"
       ],
+      "tr_id": 101,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16088,7 +16552,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Body Slam",
@@ -16096,6 +16560,7 @@ backup_data = {
         "Rest",
         "Counter"
       ],
+      "tr_id": 102,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16122,7 +16587,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Body Slam",
@@ -16130,6 +16595,7 @@ backup_data = {
         "Rest",
         "Counter"
       ],
+      "tr_id": 103,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16156,7 +16622,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Body Slam",
@@ -16164,6 +16630,7 @@ backup_data = {
         "Rest",
         "Counter"
       ],
+      "tr_id": 104,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16190,7 +16657,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Counter",
@@ -16198,6 +16665,7 @@ backup_data = {
         "Belch",
         "Recycle"
       ],
+      "tr_id": 651,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16223,7 +16691,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Counter",
@@ -16231,6 +16699,7 @@ backup_data = {
         "Belch",
         "Recycle"
       ],
+      "tr_id": 733,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -16259,7 +16728,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fire Fang",
@@ -16267,6 +16736,7 @@ backup_data = {
         "Helping Hand",
         "Retaliate"
       ],
+      "tr_id": 79,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16293,7 +16763,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Fire Fang",
@@ -16301,6 +16771,7 @@ backup_data = {
         "Helping Hand",
         "Retaliate"
       ],
+      "tr_id": 681,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16327,7 +16798,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Fire Fang",
@@ -16335,6 +16806,7 @@ backup_data = {
         "Helping Hand",
         "Retaliate"
       ],
+      "tr_id": 682,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16361,7 +16833,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Fire Fang",
@@ -16369,6 +16841,7 @@ backup_data = {
         "Helping Hand",
         "Retaliate"
       ],
+      "tr_id": 683,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16395,7 +16868,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Fire Fang",
@@ -16403,6 +16876,7 @@ backup_data = {
         "Helping Hand",
         "Retaliate"
       ],
+      "tr_id": 684,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16429,7 +16903,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Fire Fang",
@@ -16437,6 +16911,7 @@ backup_data = {
         "Helping Hand",
         "Retaliate"
       ],
+      "tr_id": 685,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16471,6 +16946,7 @@ backup_data = {
         "Thunder Fang",
         "Crunch"
       ],
+      "tr_id": 647,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -16511,6 +16987,7 @@ backup_data = {
         "Liquidation",
         "Poison Jab"
       ],
+      "tr_id": 80,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -16540,7 +17017,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Jab",
@@ -16548,6 +17025,7 @@ backup_data = {
         "Pin Missile",
         "Liquidation"
       ],
+      "tr_id": 192,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -16582,6 +17060,7 @@ backup_data = {
         "Play Rough",
         "Ice Fang"
       ],
+      "tr_id": 80,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16611,7 +17090,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roar",
@@ -16619,6 +17098,7 @@ backup_data = {
         "Payback",
         "Crunch"
       ],
+      "tr_id": 420,
       "sub_index": 1,
       "ai_tags": []
     },
@@ -16641,7 +17121,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swagger",
@@ -16649,6 +17129,7 @@ backup_data = {
         "Jaw Lock",
         "Double-Edge"
       ],
+      "tr_id": 760,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -16683,6 +17164,7 @@ backup_data = {
         "Stored Power",
         "Cosmic Power"
       ],
+      "tr_id": 80,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -16720,6 +17202,7 @@ backup_data = {
         "Cosmic Power",
         "Sky Attack"
       ],
+      "tr_id": 83,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -16754,6 +17237,7 @@ backup_data = {
         "Air Cutter",
         "Light Screen"
       ],
+      "tr_id": 352,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -16778,7 +17262,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Air Slash",
@@ -16786,6 +17270,7 @@ backup_data = {
         "Cosmic Power",
         "Sky Attack"
       ],
+      "tr_id": 803,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -16822,6 +17307,7 @@ backup_data = {
         "Earth Power",
         "Hidden Power"
       ],
+      "tr_id": 80,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -16851,7 +17337,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge Bomb",
@@ -16859,6 +17345,7 @@ backup_data = {
         "Petal Blizzard",
         "Solar Beam"
       ],
+      "tr_id": 553,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -16895,6 +17382,7 @@ backup_data = {
         "Earth Power",
         "Hidden Power"
       ],
+      "tr_id": 80,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -16934,6 +17422,7 @@ backup_data = {
         "U-turn",
         "Poison Jab"
       ],
+      "tr_id": 81,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -16963,7 +17452,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jump Kick",
@@ -16971,6 +17460,7 @@ backup_data = {
         "Wide Guard",
         "Bounce"
       ],
+      "tr_id": 182,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -16995,7 +17485,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swift",
@@ -17003,6 +17493,7 @@ backup_data = {
         "Drain Punch",
         "Jump Kick"
       ],
+      "tr_id": 313,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -17029,7 +17520,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swift",
@@ -17037,6 +17528,7 @@ backup_data = {
         "Drain Punch",
         "Jump Kick"
       ],
+      "tr_id": 314,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -17063,7 +17555,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swift",
@@ -17071,6 +17563,7 @@ backup_data = {
         "Drain Punch",
         "Jump Kick"
       ],
+      "tr_id": 315,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -17097,7 +17590,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swift",
@@ -17105,6 +17598,7 @@ backup_data = {
         "Drain Punch",
         "Jump Kick"
       ],
+      "tr_id": 316,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -17131,7 +17625,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swift",
@@ -17139,6 +17633,7 @@ backup_data = {
         "Drain Punch",
         "Jump Kick"
       ],
+      "tr_id": 317,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -17165,7 +17660,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -17173,6 +17668,7 @@ backup_data = {
         "Calm Mind",
         "Drain Punch"
       ],
+      "tr_id": 419,
       "sub_index": 0,
       "ai_tags": []
     },
@@ -17195,7 +17691,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -17203,6 +17699,7 @@ backup_data = {
         "Calm Mind",
         "Drain Punch"
       ],
+      "tr_id": 421,
       "sub_index": 0,
       "ai_tags": []
     },
@@ -17225,7 +17722,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -17233,6 +17730,7 @@ backup_data = {
         "Calm Mind",
         "Drain Punch"
       ],
+      "tr_id": 422,
       "sub_index": 0,
       "ai_tags": []
     },
@@ -17255,7 +17753,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -17263,6 +17761,7 @@ backup_data = {
         "Calm Mind",
         "Drain Punch"
       ],
+      "tr_id": 423,
       "sub_index": 0,
       "ai_tags": []
     },
@@ -17285,7 +17784,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -17293,6 +17792,7 @@ backup_data = {
         "Calm Mind",
         "Drain Punch"
       ],
+      "tr_id": 424,
       "sub_index": 0,
       "ai_tags": []
     },
@@ -17323,6 +17823,7 @@ backup_data = {
         "Knock Off",
         "U-turn"
       ],
+      "tr_id": 493,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -17363,6 +17864,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 81,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -17400,6 +17902,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 449,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -17438,6 +17941,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 465,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -17472,6 +17976,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 466,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -17506,6 +18011,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 467,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -17540,6 +18046,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 468,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -17576,6 +18083,7 @@ backup_data = {
         "Dazzling Gleam",
         "Shadow Ball"
       ],
+      "tr_id": 81,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -17605,7 +18113,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -17613,6 +18121,7 @@ backup_data = {
         "Frost Breath",
         "Freezy Frost"
       ],
+      "tr_id": 118,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -17637,7 +18146,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Freeze-Dry",
@@ -17645,6 +18154,7 @@ backup_data = {
         "Teeter Dance",
         "Frost Breath"
       ],
+      "tr_id": 415,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -17678,6 +18188,7 @@ backup_data = {
         "Focus Blast",
         "Teeter Dance"
       ],
+      "tr_id": 745,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -17718,6 +18229,7 @@ backup_data = {
         "Ice Beam",
         "Hydro Pump"
       ],
+      "tr_id": 81,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -17747,7 +18259,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "U-turn",
@@ -17755,6 +18267,7 @@ backup_data = {
         "Soak",
         "Rain Dance"
       ],
+      "tr_id": 152,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -17779,7 +18292,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Liquidation",
@@ -17787,6 +18300,7 @@ backup_data = {
         "Rain Dance",
         "Hydro Pump"
       ],
+      "tr_id": 374,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -17821,6 +18335,7 @@ backup_data = {
         "Close Combat",
         "Swords Dance"
       ],
+      "tr_id": 81,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -17850,7 +18365,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Thrash",
@@ -17858,6 +18373,7 @@ backup_data = {
         "Slash",
         "Swords Dance"
       ],
+      "tr_id": 539,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -17882,7 +18398,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Superpower",
@@ -17890,6 +18406,7 @@ backup_data = {
         "Swords Dance",
         "Megahorn"
       ],
+      "tr_id": 620,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -17922,6 +18439,7 @@ backup_data = {
         "Rock Slide",
         "Cut"
       ],
+      "tr_id": 493,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -17962,6 +18480,7 @@ backup_data = {
         "Close Combat",
         "Swords Dance"
       ],
+      "tr_id": 81,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -17993,7 +18512,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Pulse",
@@ -18001,6 +18520,7 @@ backup_data = {
         "Outrage",
         "Dragon Hammer"
       ],
+      "tr_id": 82,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -18027,7 +18547,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -18035,6 +18555,7 @@ backup_data = {
         "Power Whip",
         "Outrage"
       ],
+      "tr_id": 392,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18059,7 +18580,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -18067,6 +18588,7 @@ backup_data = {
         "Power Whip",
         "Outrage"
       ],
+      "tr_id": 393,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18091,7 +18613,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -18099,6 +18621,7 @@ backup_data = {
         "Power Whip",
         "Outrage"
       ],
+      "tr_id": 394,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18123,7 +18646,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -18131,6 +18654,7 @@ backup_data = {
         "Power Whip",
         "Outrage"
       ],
+      "tr_id": 395,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18155,7 +18679,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -18163,6 +18687,7 @@ backup_data = {
         "Power Whip",
         "Outrage"
       ],
+      "tr_id": 396,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18189,7 +18714,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -18197,6 +18722,7 @@ backup_data = {
         "Calm Mind",
         "Focus Blast"
       ],
+      "tr_id": 82,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -18223,7 +18749,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -18231,6 +18757,7 @@ backup_data = {
         "Future Sight",
         "Calm Mind"
       ],
+      "tr_id": 144,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18263,6 +18790,7 @@ backup_data = {
         "Focus Blast",
         "Shadow Ball"
       ],
+      "tr_id": 569,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -18292,7 +18820,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -18300,6 +18828,7 @@ backup_data = {
         "Future Sight",
         "Calm Mind"
       ],
+      "tr_id": 844,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18324,7 +18853,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -18332,6 +18861,7 @@ backup_data = {
         "Future Sight",
         "Calm Mind"
       ],
+      "tr_id": 845,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18356,7 +18886,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -18364,6 +18894,7 @@ backup_data = {
         "Future Sight",
         "Calm Mind"
       ],
+      "tr_id": 846,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18388,7 +18919,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -18396,6 +18927,7 @@ backup_data = {
         "Future Sight",
         "Calm Mind"
       ],
+      "tr_id": 847,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18428,6 +18960,7 @@ backup_data = {
         "Grass Knot",
         "Focus Blast"
       ],
+      "tr_id": 227,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -18466,6 +18999,7 @@ backup_data = {
         "Psychic",
         "Energy Ball"
       ],
+      "tr_id": 45,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -18498,7 +19032,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sucker Punch",
@@ -18506,6 +19040,7 @@ backup_data = {
         "Thunder Cage",
         "Bug Buzz"
       ],
+      "tr_id": 82,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -18540,6 +19075,7 @@ backup_data = {
         "Bug Buzz",
         "Giga Drain"
       ],
+      "tr_id": 658,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -18578,6 +19114,7 @@ backup_data = {
         "Bug Buzz",
         "Giga Drain"
       ],
+      "tr_id": 755,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -18616,6 +19153,7 @@ backup_data = {
         "Bug Buzz",
         "Giga Drain"
       ],
+      "tr_id": 647,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -18648,7 +19186,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -18656,6 +19194,7 @@ backup_data = {
         "Endeavor",
         "Heat Wave"
       ],
+      "tr_id": 83,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -18682,7 +19221,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -18690,6 +19229,7 @@ backup_data = {
         "Endeavor",
         "Heat Wave"
       ],
+      "tr_id": 233,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18716,7 +19256,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Future Sight",
@@ -18724,6 +19264,7 @@ backup_data = {
         "Guard Swap",
         "Me First"
       ],
+      "tr_id": 83,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -18750,7 +19291,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Future Sight",
@@ -18758,6 +19299,7 @@ backup_data = {
         "Guard Swap",
         "Me First"
       ],
+      "tr_id": 246,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -18782,7 +19324,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Confuse Ray",
@@ -18790,6 +19332,7 @@ backup_data = {
         "Psychic",
         "Esper Wing"
       ],
+      "tr_id": 248,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -18814,7 +19357,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Confusion",
@@ -18822,6 +19365,7 @@ backup_data = {
         "Ominous Wind",
         "Confuse Ray"
       ],
+      "tr_id": 287,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -18846,7 +19390,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Confusion",
@@ -18854,6 +19398,7 @@ backup_data = {
         "Ominous Wind",
         "Confuse Ray"
       ],
+      "tr_id": 288,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -18878,7 +19423,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Confusion",
@@ -18886,6 +19431,7 @@ backup_data = {
         "Ominous Wind",
         "Confuse Ray"
       ],
+      "tr_id": 289,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -18910,7 +19456,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Confusion",
@@ -18918,6 +19464,7 @@ backup_data = {
         "Ominous Wind",
         "Confuse Ray"
       ],
+      "tr_id": 290,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -18942,7 +19489,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Confusion",
@@ -18950,6 +19497,7 @@ backup_data = {
         "Ominous Wind",
         "Confuse Ray"
       ],
+      "tr_id": 291,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -18974,7 +19522,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Future Sight",
@@ -18982,6 +19530,7 @@ backup_data = {
         "Guard Swap",
         "Me First"
       ],
+      "tr_id": 376,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19006,7 +19555,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Future Sight",
@@ -19014,6 +19563,7 @@ backup_data = {
         "Guard Swap",
         "Me First"
       ],
+      "tr_id": 379,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19038,7 +19588,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Future Sight",
@@ -19046,6 +19596,7 @@ backup_data = {
         "Guard Swap",
         "Me First"
       ],
+      "tr_id": 380,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19070,7 +19621,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Future Sight",
@@ -19078,6 +19629,7 @@ backup_data = {
         "Guard Swap",
         "Me First"
       ],
+      "tr_id": 381,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19102,7 +19654,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Future Sight",
@@ -19110,6 +19662,7 @@ backup_data = {
         "Guard Swap",
         "Me First"
       ],
+      "tr_id": 382,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19134,7 +19687,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Future Sight",
@@ -19142,6 +19695,7 @@ backup_data = {
         "Guard Swap",
         "Me First"
       ],
+      "tr_id": 403,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -19166,7 +19720,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Future Sight",
@@ -19174,6 +19728,7 @@ backup_data = {
         "Guard Swap",
         "Me First"
       ],
+      "tr_id": 405,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19198,7 +19753,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ominous Wind",
@@ -19206,6 +19761,7 @@ backup_data = {
         "Wish",
         "Psychic"
       ],
+      "tr_id": 407,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -19230,7 +19786,7 @@ backup_data = {
       },
       "item": null,
       "level": 49,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Psychic",
@@ -19238,6 +19794,7 @@ backup_data = {
         "Confuse Ray",
         "Calm Mind"
       ],
+      "tr_id": 794,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -19264,7 +19821,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Psychic",
@@ -19272,6 +19829,7 @@ backup_data = {
         "Confuse Ray",
         "Calm Mind"
       ],
+      "tr_id": 795,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -19298,7 +19856,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Psychic",
@@ -19306,6 +19864,7 @@ backup_data = {
         "Confuse Ray",
         "Calm Mind"
       ],
+      "tr_id": 796,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -19332,7 +19891,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Psychic",
@@ -19340,6 +19899,7 @@ backup_data = {
         "Confuse Ray",
         "Calm Mind"
       ],
+      "tr_id": 797,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -19368,7 +19928,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Headlong Rush",
@@ -19376,6 +19936,7 @@ backup_data = {
         "Stone Edge",
         "Head Smash"
       ],
+      "tr_id": 88,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -19410,6 +19971,7 @@ backup_data = {
         "Rock Slide",
         "Explosion"
       ],
+      "tr_id": 714,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -19442,7 +20004,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double-Edge",
@@ -19450,6 +20012,7 @@ backup_data = {
         "Head Smash",
         "Volt Tackle"
       ],
+      "tr_id": 88,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -19476,14 +20039,15 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Thunder Punch",
-        "Self-Destruct",
+        "Self-destruct",
         "Stealth Rock",
         "Rock Blast"
       ],
+      "tr_id": 632,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -19510,12 +20074,13 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint Attack",
         "Shock Wave"
       ],
+      "tr_id": 89,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -19542,7 +20107,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fake Out",
@@ -19550,6 +20115,7 @@ backup_data = {
         "Attract",
         "Round"
       ],
+      "tr_id": 293,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19574,7 +20140,7 @@ backup_data = {
       },
       "item": null,
       "level": 42,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Assist",
@@ -19582,6 +20148,7 @@ backup_data = {
         "Feint Attack",
         "Heal Bell"
       ],
+      "tr_id": 294,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move"
@@ -19606,7 +20173,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fake Out",
@@ -19614,6 +20181,7 @@ backup_data = {
         "Attract",
         "Round"
       ],
+      "tr_id": 295,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19638,7 +20206,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fake Out",
@@ -19646,6 +20214,7 @@ backup_data = {
         "Attract",
         "Round"
       ],
+      "tr_id": 296,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19670,7 +20239,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fake Out",
@@ -19678,6 +20247,7 @@ backup_data = {
         "Attract",
         "Round"
       ],
+      "tr_id": 297,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19702,7 +20272,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fake Out",
@@ -19710,6 +20280,7 @@ backup_data = {
         "Attract",
         "Round"
       ],
+      "tr_id": 298,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -19736,13 +20307,14 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Defense Curl",
         "Double-Edge",
         "Shadow Ball"
       ],
+      "tr_id": 90,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -19769,7 +20341,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Covet",
@@ -19777,6 +20349,7 @@ backup_data = {
         "Moonblast",
         "Lovely Kiss"
       ],
+      "tr_id": 168,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -19801,7 +20374,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Covet",
@@ -19809,6 +20382,7 @@ backup_data = {
         "Moonblast",
         "Lovely Kiss"
       ],
+      "tr_id": 502,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -19835,7 +20409,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Encore",
@@ -19843,6 +20417,7 @@ backup_data = {
         "Agility",
         "Discharge"
       ],
+      "tr_id": 92,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -19869,7 +20444,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Pursuit",
@@ -19877,6 +20452,7 @@ backup_data = {
         "Shock Wave",
         "Electro Ball"
       ],
+      "tr_id": 649,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -19903,7 +20479,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Drain",
@@ -19911,6 +20487,7 @@ backup_data = {
         "Sweet Scent",
         "Ancient Power"
       ],
+      "tr_id": 92,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -19945,6 +20522,7 @@ backup_data = {
         "Ancient Power",
         "Hidden Power"
       ],
+      "tr_id": 275,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -19975,7 +20553,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Drain",
@@ -19983,6 +20561,7 @@ backup_data = {
         "Sweet Scent",
         "Ancient Power"
       ],
+      "tr_id": 387,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -20015,6 +20594,7 @@ backup_data = {
         "Sleep Powder",
         "Hidden Power"
       ],
+      "tr_id": 852,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -20053,6 +20633,7 @@ backup_data = {
         "Sleep Powder",
         "Hidden Power"
       ],
+      "tr_id": 23,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -20085,7 +20666,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Smack Down",
@@ -20093,6 +20674,7 @@ backup_data = {
         "Muddy Water",
         "Snipe Shot"
       ],
+      "tr_id": 92,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -20127,6 +20709,7 @@ backup_data = {
         "Dark Pulse",
         "Aura Sphere"
       ],
+      "tr_id": 764,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -20159,7 +20742,7 @@ backup_data = {
       },
       "item": null,
       "level": 45,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Metal Sound",
@@ -20167,6 +20750,7 @@ backup_data = {
         "Iron Defense",
         "Double-Edge"
       ],
+      "tr_id": 93,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -20193,7 +20777,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Slide",
@@ -20201,6 +20785,7 @@ backup_data = {
         "Metal Sound",
         "Iron Tail"
       ],
+      "tr_id": 327,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -20227,7 +20812,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -20235,6 +20820,7 @@ backup_data = {
         "Seed Bomb",
         "Bulk Up"
       ],
+      "tr_id": 94,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -20261,7 +20847,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -20269,6 +20855,7 @@ backup_data = {
         "Seed Bomb",
         "Bulk Up"
       ],
+      "tr_id": 101,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -20295,7 +20882,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -20303,6 +20890,7 @@ backup_data = {
         "Seed Bomb",
         "Bulk Up"
       ],
+      "tr_id": 102,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -20329,7 +20917,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -20337,6 +20925,7 @@ backup_data = {
         "Seed Bomb",
         "Bulk Up"
       ],
+      "tr_id": 103,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -20363,7 +20952,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -20371,6 +20960,7 @@ backup_data = {
         "Seed Bomb",
         "Bulk Up"
       ],
+      "tr_id": 104,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -20397,7 +20987,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double-Edge",
@@ -20405,6 +20995,7 @@ backup_data = {
         "Leaf Blade",
         "Milk Drink"
       ],
+      "tr_id": 225,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -20431,7 +21022,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sucker Punch",
@@ -20439,6 +21030,7 @@ backup_data = {
         "Attract",
         "Hone Claws"
       ],
+      "tr_id": 95,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -20475,6 +21067,7 @@ backup_data = {
         "Bullet Seed",
         "Tidy Up"
       ],
+      "tr_id": 96,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -20504,7 +21097,7 @@ backup_data = {
       },
       "item": null,
       "level": 30,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Hit",
@@ -20512,6 +21105,7 @@ backup_data = {
         "Encore",
         "Play Rough"
       ],
+      "tr_id": 705,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -20546,6 +21140,7 @@ backup_data = {
         "Moonblast",
         "Roost"
       ],
+      "tr_id": 96,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -20583,6 +21178,7 @@ backup_data = {
         "Extrasensory",
         "Flamethrower"
       ],
+      "tr_id": 65,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -20623,6 +21219,7 @@ backup_data = {
         "Energy Ball",
         "Tail Glow"
       ],
+      "tr_id": 96,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -20662,6 +21259,7 @@ backup_data = {
         "Energy Ball",
         "Calm Mind"
       ],
+      "tr_id": 96,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -20699,6 +21297,7 @@ backup_data = {
         "Confuse Ray",
         "Giga Drain"
       ],
+      "tr_id": 538,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -20737,6 +21336,7 @@ backup_data = {
         "Confuse Ray",
         "Giga Drain"
       ],
+      "tr_id": 541,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -20771,6 +21371,7 @@ backup_data = {
         "Confuse Ray",
         "Giga Drain"
       ],
+      "tr_id": 542,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -20805,6 +21406,7 @@ backup_data = {
         "Confuse Ray",
         "Giga Drain"
       ],
+      "tr_id": 543,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -20839,6 +21441,7 @@ backup_data = {
         "Confuse Ray",
         "Giga Drain"
       ],
+      "tr_id": 544,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -20865,7 +21468,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -20873,6 +21476,7 @@ backup_data = {
         "Calm Mind",
         "Psychic Terrain"
       ],
+      "tr_id": 751,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -20907,6 +21511,7 @@ backup_data = {
         "Energy Ball",
         "Calm Mind"
       ],
+      "tr_id": 96,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -20938,7 +21543,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Reversal",
@@ -20946,6 +21551,7 @@ backup_data = {
         "Hammer Arm",
         "Close Combat"
       ],
+      "tr_id": 97,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -20972,7 +21578,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Reversal",
@@ -20980,6 +21586,7 @@ backup_data = {
         "Hammer Arm",
         "Close Combat"
       ],
+      "tr_id": 190,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21004,7 +21611,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Low Sweep",
@@ -21012,6 +21619,7 @@ backup_data = {
         "Karate Chop",
         "Brick Break"
       ],
+      "tr_id": 364,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21036,7 +21644,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Low Sweep",
@@ -21044,6 +21652,7 @@ backup_data = {
         "Karate Chop",
         "Brick Break"
       ],
+      "tr_id": 365,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21068,7 +21677,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Low Sweep",
@@ -21076,6 +21685,7 @@ backup_data = {
         "Karate Chop",
         "Brick Break"
       ],
+      "tr_id": 366,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21100,7 +21710,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Low Sweep",
@@ -21108,6 +21718,7 @@ backup_data = {
         "Karate Chop",
         "Brick Break"
       ],
+      "tr_id": 367,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21132,7 +21743,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Low Sweep",
@@ -21140,6 +21751,7 @@ backup_data = {
         "Karate Chop",
         "Brick Break"
       ],
+      "tr_id": 368,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21164,7 +21776,7 @@ backup_data = {
       },
       "item": null,
       "level": 18,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Kick",
@@ -21172,6 +21784,7 @@ backup_data = {
         "Counter",
         "Karate Chop"
       ],
+      "tr_id": 574,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -21198,7 +21811,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wide Guard",
@@ -21206,6 +21819,7 @@ backup_data = {
         "Reversal",
         "Bulk Up"
       ],
+      "tr_id": 97,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -21232,7 +21846,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wide Guard",
@@ -21240,6 +21854,7 @@ backup_data = {
         "Reversal",
         "Bulk Up"
       ],
+      "tr_id": 190,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -21264,7 +21879,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vital Throw",
@@ -21272,6 +21887,7 @@ backup_data = {
         "Storm Throw",
         "Body Slam"
       ],
+      "tr_id": 369,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21296,7 +21912,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vital Throw",
@@ -21304,6 +21920,7 @@ backup_data = {
         "Storm Throw",
         "Body Slam"
       ],
+      "tr_id": 370,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21328,7 +21945,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vital Throw",
@@ -21336,6 +21953,7 @@ backup_data = {
         "Storm Throw",
         "Body Slam"
       ],
+      "tr_id": 371,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21360,7 +21978,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vital Throw",
@@ -21368,6 +21986,7 @@ backup_data = {
         "Storm Throw",
         "Body Slam"
       ],
+      "tr_id": 372,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21392,7 +22011,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vital Throw",
@@ -21400,6 +22019,7 @@ backup_data = {
         "Storm Throw",
         "Body Slam"
       ],
+      "tr_id": 373,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21426,7 +22046,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "X-Scissor",
@@ -21434,6 +22054,7 @@ backup_data = {
         "Hone Claws",
         "Metal Sound"
       ],
+      "tr_id": 97,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -21468,6 +22089,7 @@ backup_data = {
         "X-Scissor",
         "Superpower"
       ],
+      "tr_id": 473,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -21508,6 +22130,7 @@ backup_data = {
         "Power Gem",
         "Explosion"
       ],
+      "tr_id": 98,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -21537,7 +22160,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Skill Swap",
@@ -21545,6 +22168,7 @@ backup_data = {
         "Stone Edge",
         "Moonblast"
       ],
+      "tr_id": 195,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -21569,7 +22193,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Moonblast",
@@ -21577,6 +22201,7 @@ backup_data = {
         "Recover",
         "Safeguard"
       ],
+      "tr_id": 301,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -21601,7 +22226,7 @@ backup_data = {
       },
       "item": null,
       "level": 30,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Smack Down",
@@ -21609,6 +22234,7 @@ backup_data = {
         "Stealth Rock",
         "Guard Split"
       ],
+      "tr_id": 704,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -21633,7 +22259,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Skill Swap",
@@ -21641,6 +22267,7 @@ backup_data = {
         "Stone Edge",
         "Moonblast"
       ],
+      "tr_id": 832,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -21665,7 +22292,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Skill Swap",
@@ -21673,6 +22300,7 @@ backup_data = {
         "Stone Edge",
         "Moonblast"
       ],
+      "tr_id": 833,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -21697,7 +22325,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Skill Swap",
@@ -21705,6 +22333,7 @@ backup_data = {
         "Stone Edge",
         "Moonblast"
       ],
+      "tr_id": 834,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -21729,7 +22358,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Skill Swap",
@@ -21737,6 +22366,7 @@ backup_data = {
         "Stone Edge",
         "Moonblast"
       ],
+      "tr_id": 835,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -21769,6 +22399,7 @@ backup_data = {
         "Iron Defense",
         "Rest"
       ],
+      "tr_id": 647,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -21809,6 +22440,7 @@ backup_data = {
         "Stored Power",
         "Shell Smash"
       ],
+      "tr_id": 98,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -21838,7 +22470,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Giga Drain",
@@ -21846,6 +22478,7 @@ backup_data = {
         "Shadow Ball",
         "Memento"
       ],
+      "tr_id": 750,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -21878,6 +22511,7 @@ backup_data = {
         "Giga Drain",
         "Stored Power"
       ],
+      "tr_id": 711,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -21919,6 +22553,7 @@ backup_data = {
         "Synchronoise",
         "Hidden Power"
       ],
+      "tr_id": 98,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -21948,7 +22583,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sing",
@@ -21956,6 +22591,7 @@ backup_data = {
         "Round",
         "Taunt"
       ],
+      "tr_id": 334,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -21990,6 +22626,7 @@ backup_data = {
         "Crunch",
         "Synthesis"
       ],
+      "tr_id": 98,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -22027,6 +22664,7 @@ backup_data = {
         "Rock Slide",
         "Heavy Slam"
       ],
+      "tr_id": 755,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -22067,6 +22705,7 @@ backup_data = {
         "Earthquake",
         "Body Press"
       ],
+      "tr_id": 98,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -22104,6 +22743,7 @@ backup_data = {
         "Fire Punch",
         "Body Press"
       ],
+      "tr_id": 270,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -22133,7 +22773,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double-Edge",
@@ -22141,6 +22781,7 @@ backup_data = {
         "Heavy Slam",
         "Metal Burst"
       ],
+      "tr_id": 598,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -22175,6 +22816,7 @@ backup_data = {
         "Fire Punch",
         "Body Press"
       ],
+      "tr_id": 790,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -22210,6 +22852,7 @@ backup_data = {
         "Fire Punch",
         "Body Press"
       ],
+      "tr_id": 791,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -22245,6 +22888,7 @@ backup_data = {
         "Fire Punch",
         "Body Press"
       ],
+      "tr_id": 792,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -22280,6 +22924,7 @@ backup_data = {
         "Fire Punch",
         "Body Press"
       ],
+      "tr_id": 793,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -22307,7 +22952,7 @@ backup_data = {
       },
       "item": null,
       "level": 76,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Thunder",
@@ -22315,6 +22960,7 @@ backup_data = {
         "Solar Beam",
         "Dragon Claw"
       ],
+      "tr_id": 804,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -22351,6 +22997,7 @@ backup_data = {
         "Earthquake",
         "Body Press"
       ],
+      "tr_id": 98,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -22390,6 +23037,7 @@ backup_data = {
         "Knock Off",
         "Low Kick"
       ],
+      "tr_id": 99,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -22427,6 +23075,7 @@ backup_data = {
         "Knock Off",
         "Ice Shard"
       ],
+      "tr_id": 713,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -22457,7 +23106,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Night Slash",
@@ -22465,6 +23114,7 @@ backup_data = {
         "Punishment",
         "Dark Pulse"
       ],
+      "tr_id": 731,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -22497,6 +23147,7 @@ backup_data = {
         "Low Kick",
         "Ice Shard"
       ],
+      "tr_id": 647,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -22537,6 +23188,7 @@ backup_data = {
         "Power Gem",
         "Earth Power"
       ],
+      "tr_id": 99,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -22566,7 +23218,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Flame Burst",
@@ -22574,6 +23226,7 @@ backup_data = {
         "Lava Plume",
         "Amnesia"
       ],
+      "tr_id": 201,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -22598,7 +23251,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Body Slam",
@@ -22606,6 +23259,7 @@ backup_data = {
         "Flamethrower",
         "Earth Power"
       ],
+      "tr_id": 760,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -22640,6 +23294,7 @@ backup_data = {
         "Close Combat",
         "Poison Jab"
       ],
+      "tr_id": 99,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -22669,7 +23324,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Laser Focus",
@@ -22677,6 +23332,7 @@ backup_data = {
         "Liquidation",
         "Double-Edge"
       ],
+      "tr_id": 651,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -22702,7 +23358,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Laser Focus",
@@ -22710,6 +23366,7 @@ backup_data = {
         "Liquidation",
         "Double-Edge"
       ],
+      "tr_id": 668,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -22744,6 +23401,7 @@ backup_data = {
         "Will-O-Wisp",
         "Energy Ball"
       ],
+      "tr_id": 99,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -22781,6 +23439,7 @@ backup_data = {
         "Dazzling Gleam",
         "Thunderbolt"
       ],
+      "tr_id": 336,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -22820,6 +23479,7 @@ backup_data = {
         "Psychic",
         "Energy Ball"
       ],
+      "tr_id": 493,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -22860,6 +23520,7 @@ backup_data = {
         "Power-Up Punch",
         "Play Rough"
       ],
+      "tr_id": 99,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -22889,7 +23550,7 @@ backup_data = {
       },
       "item": null,
       "level": 18,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Foresight",
@@ -22897,6 +23558,7 @@ backup_data = {
         "Baby-Doll Eyes",
         "Quick Attack"
       ],
+      "tr_id": 426,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -22921,7 +23583,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Charm",
@@ -22929,6 +23591,7 @@ backup_data = {
         "Bounce",
         "Healing Wish"
       ],
+      "tr_id": 653,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -22962,6 +23625,7 @@ backup_data = {
         "Thunder Punch",
         "Drain Punch"
       ],
+      "tr_id": 744,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -23000,6 +23664,7 @@ backup_data = {
         "Thunder Punch",
         "Close Combat"
       ],
+      "tr_id": 858,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -23039,6 +23704,7 @@ backup_data = {
         "Power-Up Punch",
         "Play Rough"
       ],
+      "tr_id": 99,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -23070,7 +23736,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gunk Shot",
@@ -23078,6 +23744,7 @@ backup_data = {
         "Belch",
         "Memento"
       ],
+      "tr_id": 100,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -23104,7 +23771,7 @@ backup_data = {
       },
       "item": null,
       "level": 68,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gunk Shot",
@@ -23112,6 +23779,7 @@ backup_data = {
         "Belch",
         "Memento"
       ],
+      "tr_id": 385,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -23136,7 +23804,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Screech",
@@ -23144,6 +23812,7 @@ backup_data = {
         "Acid Armor",
         "Belch"
       ],
+      "tr_id": 445,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -23170,7 +23839,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Curse",
@@ -23178,6 +23847,7 @@ backup_data = {
         "Embargo",
         "Sucker Punch"
       ],
+      "tr_id": 105,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -23202,7 +23872,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Curse",
@@ -23210,6 +23880,7 @@ backup_data = {
         "Embargo",
         "Sucker Punch"
       ],
+      "tr_id": 849,
       "sub_index": 0,
       "ai_tags": []
     },
@@ -23240,6 +23911,7 @@ backup_data = {
         "Shadow Sneak",
         "Return"
       ],
+      "tr_id": 336,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -23273,7 +23945,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Lumina Crash",
@@ -23281,6 +23953,7 @@ backup_data = {
         "Stone Edge",
         "Photon Geyser"
       ],
+      "tr_id": 105,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -23305,7 +23978,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Photon Geyser",
@@ -23313,6 +23986,7 @@ backup_data = {
         "Magic Room",
         "Meteor Beam"
       ],
+      "tr_id": 238,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -23337,7 +24011,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Photon Geyser",
@@ -23345,6 +24019,7 @@ backup_data = {
         "Magic Room",
         "Meteor Beam"
       ],
+      "tr_id": 239,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -23369,7 +24044,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Photon Geyser",
@@ -23377,6 +24052,7 @@ backup_data = {
         "Magic Room",
         "Meteor Beam"
       ],
+      "tr_id": 240,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -23401,7 +24077,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Photon Geyser",
@@ -23409,6 +24085,7 @@ backup_data = {
         "Magic Room",
         "Meteor Beam"
       ],
+      "tr_id": 241,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -23433,7 +24110,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Photon Geyser",
@@ -23441,6 +24118,7 @@ backup_data = {
         "Magic Room",
         "Meteor Beam"
       ],
+      "tr_id": 242,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -23473,6 +24151,7 @@ backup_data = {
         "Hypnosis",
         "Blizzard"
       ],
+      "tr_id": 629,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -23511,6 +24190,7 @@ backup_data = {
         "Hypnosis",
         "Blizzard"
       ],
+      "tr_id": 633,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -23537,7 +24217,7 @@ backup_data = {
       },
       "item": null,
       "level": 50,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Earthquake",
@@ -23545,6 +24225,7 @@ backup_data = {
         "Rest",
         "Calm Mind"
       ],
+      "tr_id": 794,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -23571,7 +24252,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Earthquake",
@@ -23579,6 +24260,7 @@ backup_data = {
         "Rest",
         "Calm Mind"
       ],
+      "tr_id": 795,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -23605,7 +24287,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Earthquake",
@@ -23613,6 +24295,7 @@ backup_data = {
         "Rest",
         "Calm Mind"
       ],
+      "tr_id": 796,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -23639,7 +24322,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Earthquake",
@@ -23647,6 +24330,7 @@ backup_data = {
         "Rest",
         "Calm Mind"
       ],
+      "tr_id": 797,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -23675,7 +24359,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Curse",
@@ -23683,6 +24367,7 @@ backup_data = {
         "Shadow Ball",
         "Mean Look"
       ],
+      "tr_id": 106,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -23707,7 +24392,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Shadow Ball",
@@ -23715,6 +24400,7 @@ backup_data = {
         "Payback",
         "Hammer Arm"
       ],
+      "tr_id": 109,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -23747,6 +24433,7 @@ backup_data = {
         "Thunder Punch",
         "Ice Punch"
       ],
+      "tr_id": 262,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -23778,7 +24465,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Future Sight",
@@ -23786,6 +24473,7 @@ backup_data = {
         "Psychic",
         "Charm"
       ],
+      "tr_id": 106,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -23810,7 +24498,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Shadow Ball",
@@ -23818,6 +24506,7 @@ backup_data = {
         "Charm",
         "Magic Room"
       ],
+      "tr_id": 575,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -23850,6 +24539,7 @@ backup_data = {
         "Shadow Ball",
         "Hidden Power"
       ],
+      "tr_id": 65,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -23890,6 +24580,7 @@ backup_data = {
         "Freeze-Dry",
         "Lovely Kiss"
       ],
+      "tr_id": 107,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -23925,9 +24616,10 @@ backup_data = {
       "moves": [
         "Mean Look",
         "Fake Tears",
-        "Wake-Up Slap",
+        "Wake-up Slap",
         "Freeze-Dry"
       ],
+      "tr_id": 214,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -23962,6 +24654,7 @@ backup_data = {
         "Close Combat",
         "Sucker Punch"
       ],
+      "tr_id": 107,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -24000,6 +24693,7 @@ backup_data = {
         "Drain Punch",
         "Sucker Punch"
       ],
+      "tr_id": 611,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -24038,6 +24732,7 @@ backup_data = {
         "Drain Punch",
         "Sucker Punch"
       ],
+      "tr_id": 629,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -24076,6 +24771,7 @@ backup_data = {
         "Drain Punch",
         "Sucker Punch"
       ],
+      "tr_id": 633,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -24102,7 +24798,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Jab",
@@ -24110,6 +24806,7 @@ backup_data = {
         "Belch",
         "Close Combat"
       ],
+      "tr_id": 652,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -24145,6 +24842,7 @@ backup_data = {
         "Thunder",
         "Dragon Pulse"
       ],
+      "tr_id": 107,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -24175,7 +24873,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Quick Attack",
@@ -24183,6 +24881,7 @@ backup_data = {
         "Charge",
         "Parabolic Charge"
       ],
+      "tr_id": 196,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -24207,7 +24906,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Quick Attack",
@@ -24215,6 +24914,7 @@ backup_data = {
         "Charge",
         "Parabolic Charge"
       ],
+      "tr_id": 197,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -24239,7 +24939,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Quick Attack",
@@ -24247,6 +24947,7 @@ backup_data = {
         "Charge",
         "Parabolic Charge"
       ],
+      "tr_id": 198,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -24271,7 +24972,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Quick Attack",
@@ -24279,6 +24980,7 @@ backup_data = {
         "Charge",
         "Parabolic Charge"
       ],
+      "tr_id": 199,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -24303,7 +25005,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Quick Attack",
@@ -24311,6 +25013,7 @@ backup_data = {
         "Charge",
         "Parabolic Charge"
       ],
+      "tr_id": 200,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -24343,6 +25046,7 @@ backup_data = {
         "Weather Ball",
         "Hidden Power"
       ],
+      "tr_id": 449,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -24381,6 +25085,7 @@ backup_data = {
         "Weather Ball",
         "Hidden Power"
       ],
+      "tr_id": 465,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -24415,6 +25120,7 @@ backup_data = {
         "Weather Ball",
         "Hidden Power"
       ],
+      "tr_id": 466,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -24449,6 +25155,7 @@ backup_data = {
         "Weather Ball",
         "Hidden Power"
       ],
+      "tr_id": 467,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -24483,6 +25190,7 @@ backup_data = {
         "Weather Ball",
         "Hidden Power"
       ],
+      "tr_id": 468,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -24519,6 +25227,7 @@ backup_data = {
         "Giga Drain",
         "Sleep Powder"
       ],
+      "tr_id": 107,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -24549,7 +25258,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
@@ -24557,6 +25266,7 @@ backup_data = {
         "Draining Kiss",
         "Signal Beam"
       ],
+      "tr_id": 196,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -24581,7 +25291,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
@@ -24589,6 +25299,7 @@ backup_data = {
         "Draining Kiss",
         "Signal Beam"
       ],
+      "tr_id": 197,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -24613,7 +25324,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
@@ -24621,6 +25332,7 @@ backup_data = {
         "Draining Kiss",
         "Signal Beam"
       ],
+      "tr_id": 198,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -24645,7 +25357,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
@@ -24653,6 +25365,7 @@ backup_data = {
         "Draining Kiss",
         "Signal Beam"
       ],
+      "tr_id": 199,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -24677,7 +25390,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
@@ -24685,6 +25398,7 @@ backup_data = {
         "Draining Kiss",
         "Signal Beam"
       ],
+      "tr_id": 200,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -24709,7 +25423,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Safeguard",
@@ -24717,6 +25431,7 @@ backup_data = {
         "Hurricane",
         "Powder"
       ],
+      "tr_id": 444,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -24743,7 +25458,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Destiny Bond",
@@ -24751,6 +25466,7 @@ backup_data = {
         "Counter",
         "Mirror Coat"
       ],
+      "tr_id": 108,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -24775,7 +25491,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Destiny Bond",
@@ -24783,6 +25499,7 @@ backup_data = {
         "Counter",
         "Mirror Coat"
       ],
+      "tr_id": 110,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -24807,7 +25524,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Destiny Bond",
@@ -24815,6 +25532,7 @@ backup_data = {
         "Counter",
         "Mirror Coat"
       ],
+      "tr_id": 111,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -24839,7 +25557,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Destiny Bond",
@@ -24847,6 +25565,7 @@ backup_data = {
         "Counter",
         "Mirror Coat"
       ],
+      "tr_id": 112,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -24871,7 +25590,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Destiny Bond",
@@ -24879,6 +25598,7 @@ backup_data = {
         "Counter",
         "Mirror Coat"
       ],
+      "tr_id": 113,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -24903,7 +25623,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Destiny Bond",
@@ -24911,6 +25631,7 @@ backup_data = {
         "Counter",
         "Mirror Coat"
       ],
+      "tr_id": 475,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -24935,7 +25656,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Counter",
@@ -24943,6 +25664,7 @@ backup_data = {
         "Safeguard",
         "Destiny Bond"
       ],
+      "tr_id": 850,
       "sub_index": 0,
       "ai_tags": []
     },
@@ -24973,6 +25695,7 @@ backup_data = {
         "Mirror Coat",
         "Destiny Bond"
       ],
+      "tr_id": 493,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -25005,13 +25728,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Drain",
         "Fairy Wind",
         "Stun Spore"
       ],
+      "tr_id": 114,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25036,13 +25760,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Drain",
         "Fairy Wind",
         "Stun Spore"
       ],
+      "tr_id": 117,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25067,13 +25792,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Drain",
         "Fairy Wind",
         "Stun Spore"
       ],
+      "tr_id": 120,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25098,13 +25824,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Drain",
         "Fairy Wind",
         "Stun Spore"
       ],
+      "tr_id": 121,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25129,13 +25856,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Drain",
         "Fairy Wind",
         "Stun Spore"
       ],
+      "tr_id": 122,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25160,13 +25888,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Drain",
         "Fairy Wind",
         "Stun Spore"
       ],
+      "tr_id": 123,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25193,7 +25922,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -25201,6 +25930,7 @@ backup_data = {
         "Teleport",
         "Moonblast"
       ],
+      "tr_id": 115,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25225,7 +25955,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -25233,6 +25963,7 @@ backup_data = {
         "Teleport",
         "Moonblast"
       ],
+      "tr_id": 156,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -25257,7 +25988,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sing",
@@ -25265,6 +25996,7 @@ backup_data = {
         "Metronome",
         "Teleport"
       ],
+      "tr_id": 327,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -25289,7 +26021,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -25297,6 +26029,7 @@ backup_data = {
         "Teleport",
         "Moonblast"
       ],
+      "tr_id": 455,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -25323,7 +26056,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gust",
@@ -25331,6 +26064,7 @@ backup_data = {
         "Hurricane",
         "Moonblast"
       ],
+      "tr_id": 115,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -25355,7 +26089,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gust",
@@ -25363,6 +26097,7 @@ backup_data = {
         "Hurricane",
         "Moonblast"
       ],
+      "tr_id": 325,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -25397,6 +26132,7 @@ backup_data = {
         "Leech Seed",
         "Dazzling Gleam"
       ],
+      "tr_id": 524,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -25435,6 +26171,7 @@ backup_data = {
         "Leech Seed",
         "Moonblast"
       ],
+      "tr_id": 525,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -25472,6 +26209,7 @@ backup_data = {
         "Leech Seed",
         "Dazzling Gleam"
       ],
+      "tr_id": 533,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -25510,6 +26248,7 @@ backup_data = {
         "Leech Seed",
         "Moonblast"
       ],
+      "tr_id": 534,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -25541,7 +26280,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Safeguard",
@@ -25549,6 +26288,7 @@ backup_data = {
         "Sparkly Swirl",
         "Psycho Boost"
       ],
+      "tr_id": 118,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25573,7 +26313,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Taunt",
@@ -25581,6 +26321,7 @@ backup_data = {
         "Role Play",
         "Safeguard"
       ],
+      "tr_id": 249,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25605,7 +26346,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Taunt",
@@ -25613,6 +26354,7 @@ backup_data = {
         "Role Play",
         "Safeguard"
       ],
+      "tr_id": 250,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25637,7 +26379,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Taunt",
@@ -25645,6 +26387,7 @@ backup_data = {
         "Role Play",
         "Safeguard"
       ],
+      "tr_id": 251,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25669,7 +26412,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Taunt",
@@ -25677,6 +26420,7 @@ backup_data = {
         "Role Play",
         "Safeguard"
       ],
+      "tr_id": 252,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25701,7 +26445,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Taunt",
@@ -25709,6 +26453,7 @@ backup_data = {
         "Role Play",
         "Safeguard"
       ],
+      "tr_id": 253,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25735,7 +26480,7 @@ backup_data = {
       },
       "item": null,
       "level": 45,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ingrain",
@@ -25743,6 +26488,7 @@ backup_data = {
         "Toxic",
         "Aromatherapy"
       ],
+      "tr_id": 119,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25767,7 +26513,7 @@ backup_data = {
       },
       "item": null,
       "level": 38,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Toxic Spikes",
@@ -25775,6 +26521,7 @@ backup_data = {
         "Ingrain",
         "Petal Blizzard"
       ],
+      "tr_id": 561,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -25803,7 +26550,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slash",
@@ -25811,6 +26558,7 @@ backup_data = {
         "Counter",
         "Focus Punch"
       ],
+      "tr_id": 124,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25835,7 +26583,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Uproar",
@@ -25843,6 +26591,7 @@ backup_data = {
         "Endure",
         "Slash"
       ],
+      "tr_id": 352,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -25877,6 +26626,7 @@ backup_data = {
         "Flame Burst",
         "Bug Bite"
       ],
+      "tr_id": 126,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25909,6 +26659,7 @@ backup_data = {
         "Scorching Sands",
         "Will-O-Wisp"
       ],
+      "tr_id": 701,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -25939,7 +26690,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Spit Up",
@@ -25947,6 +26698,7 @@ backup_data = {
         "Flare Blitz",
         "Inferno"
       ],
+      "tr_id": 729,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -25981,6 +26733,7 @@ backup_data = {
         "Dual Wingbeat",
         "Knock Off"
       ],
+      "tr_id": 127,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -26020,6 +26773,7 @@ backup_data = {
         "Dual Wingbeat",
         "Knock Off"
       ],
+      "tr_id": 132,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26054,6 +26808,7 @@ backup_data = {
         "Dual Wingbeat",
         "Knock Off"
       ],
+      "tr_id": 133,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26088,6 +26843,7 @@ backup_data = {
         "Dual Wingbeat",
         "Knock Off"
       ],
+      "tr_id": 134,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26122,6 +26878,7 @@ backup_data = {
         "Dual Wingbeat",
         "Knock Off"
       ],
+      "tr_id": 135,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26158,6 +26915,7 @@ backup_data = {
         "X-Scissor",
         "Aqua Jet"
       ],
+      "tr_id": 127,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -26197,6 +26955,7 @@ backup_data = {
         "X-Scissor",
         "Aqua Jet"
       ],
+      "tr_id": 132,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -26231,6 +26990,7 @@ backup_data = {
         "X-Scissor",
         "Aqua Jet"
       ],
+      "tr_id": 133,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -26265,6 +27025,7 @@ backup_data = {
         "X-Scissor",
         "Aqua Jet"
       ],
+      "tr_id": 134,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -26299,6 +27060,7 @@ backup_data = {
         "X-Scissor",
         "Aqua Jet"
       ],
+      "tr_id": 135,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -26325,7 +27087,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -26333,6 +27095,7 @@ backup_data = {
         "Slash",
         "Dragon Dance"
       ],
+      "tr_id": 171,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -26367,6 +27130,7 @@ backup_data = {
         "Ice Beam",
         "Aura Sphere"
       ],
+      "tr_id": 127,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -26406,6 +27170,7 @@ backup_data = {
         "Ice Beam",
         "Aura Sphere"
       ],
+      "tr_id": 132,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -26440,6 +27205,7 @@ backup_data = {
         "Ice Beam",
         "Aura Sphere"
       ],
+      "tr_id": 133,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -26474,6 +27240,7 @@ backup_data = {
         "Ice Beam",
         "Aura Sphere"
       ],
+      "tr_id": 134,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -26508,6 +27275,7 @@ backup_data = {
         "Ice Beam",
         "Aura Sphere"
       ],
+      "tr_id": 135,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -26534,7 +27302,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ice Beam",
@@ -26542,6 +27310,7 @@ backup_data = {
         "Rain Dance",
         "Hydro Pump"
       ],
+      "tr_id": 667,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26576,6 +27345,7 @@ backup_data = {
         "Ice Beam",
         "Aura Sphere"
       ],
+      "tr_id": 127,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -26615,6 +27385,7 @@ backup_data = {
         "Ice Beam",
         "Aura Sphere"
       ],
+      "tr_id": 132,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -26649,6 +27420,7 @@ backup_data = {
         "Ice Beam",
         "Aura Sphere"
       ],
+      "tr_id": 133,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -26683,6 +27455,7 @@ backup_data = {
         "Ice Beam",
         "Aura Sphere"
       ],
+      "tr_id": 134,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -26717,6 +27490,7 @@ backup_data = {
         "Ice Beam",
         "Aura Sphere"
       ],
+      "tr_id": 135,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -26753,6 +27527,7 @@ backup_data = {
         "Entrainment",
         "Moonblast"
       ],
+      "tr_id": 128,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -26777,7 +27552,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sweet Scent",
@@ -26785,6 +27560,7 @@ backup_data = {
         "Aromatherapy",
         "Attract"
       ],
+      "tr_id": 191,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26809,7 +27585,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -26817,6 +27593,7 @@ backup_data = {
         "Acid Armor",
         "Dazzling Gleam"
       ],
+      "tr_id": 427,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26841,7 +27618,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -26849,6 +27626,7 @@ backup_data = {
         "Acid Armor",
         "Dazzling Gleam"
       ],
+      "tr_id": 430,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26873,7 +27651,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -26881,6 +27659,7 @@ backup_data = {
         "Acid Armor",
         "Dazzling Gleam"
       ],
+      "tr_id": 431,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26905,7 +27684,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -26913,6 +27692,7 @@ backup_data = {
         "Acid Armor",
         "Dazzling Gleam"
       ],
+      "tr_id": 432,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26937,7 +27717,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -26945,6 +27725,7 @@ backup_data = {
         "Acid Armor",
         "Dazzling Gleam"
       ],
+      "tr_id": 433,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -26969,7 +27750,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -26977,6 +27758,7 @@ backup_data = {
         "Entrainment",
         "Moonblast"
       ],
+      "tr_id": 456,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27001,7 +27783,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -27009,6 +27791,7 @@ backup_data = {
         "Entrainment",
         "Moonblast"
       ],
+      "tr_id": 759,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27035,7 +27818,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Coil",
@@ -27043,6 +27826,7 @@ backup_data = {
         "Hydro Pump",
         "Shell Smash"
       ],
+      "tr_id": 130,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27075,6 +27859,7 @@ backup_data = {
         "Draining Kiss",
         "Psychic"
       ],
+      "tr_id": 521,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -27113,6 +27898,7 @@ backup_data = {
         "Moonblast",
         "Shell Smash"
       ],
+      "tr_id": 522,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -27150,6 +27936,7 @@ backup_data = {
         "Draining Kiss",
         "Psychic"
       ],
+      "tr_id": 530,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -27188,6 +27975,7 @@ backup_data = {
         "Moonblast",
         "Shell Smash"
       ],
+      "tr_id": 531,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -27216,7 +28004,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Coil",
@@ -27224,6 +28012,7 @@ backup_data = {
         "Hydro Pump",
         "Shell Smash"
       ],
+      "tr_id": 692,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -27250,7 +28039,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wish",
@@ -27258,6 +28047,7 @@ backup_data = {
         "Crunch",
         "Last Resort"
       ],
+      "tr_id": 131,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27290,6 +28080,7 @@ backup_data = {
         "Body Slam",
         "Dig"
       ],
+      "tr_id": 232,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -27322,7 +28113,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -27330,6 +28121,7 @@ backup_data = {
         "Magic Powder",
         "Moonblast"
       ],
+      "tr_id": 131,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -27356,13 +28148,14 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Leer",
         "Pursuit"
       ],
+      "tr_id": 136,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27387,13 +28180,14 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Leer",
         "Pursuit"
       ],
+      "tr_id": 139,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27418,13 +28212,14 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Leer",
         "Pursuit"
       ],
+      "tr_id": 140,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27449,13 +28244,14 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Leer",
         "Pursuit"
       ],
+      "tr_id": 141,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27480,13 +28276,14 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Leer",
         "Pursuit"
       ],
+      "tr_id": 142,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27513,7 +28310,7 @@ backup_data = {
       },
       "item": null,
       "level": 33,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Magnitude",
@@ -27521,6 +28318,7 @@ backup_data = {
         "Snore",
         "Water Pulse"
       ],
+      "tr_id": 137,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27545,7 +28343,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Earthquake",
@@ -27553,6 +28351,7 @@ backup_data = {
         "Future Sight",
         "Dragon Dance"
       ],
+      "tr_id": 154,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -27577,7 +28376,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Earthquake",
@@ -27585,6 +28384,7 @@ backup_data = {
         "Amnesia",
         "Hyper Beam"
       ],
+      "tr_id": 335,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -27613,7 +28413,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rest",
@@ -27621,6 +28421,7 @@ backup_data = {
         "Water Pulse",
         "Earthquake"
       ],
+      "tr_id": 342,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27645,7 +28446,7 @@ backup_data = {
       },
       "item": null,
       "level": 21,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mud Bomb",
@@ -27653,6 +28454,7 @@ backup_data = {
         "Water Pulse",
         "Magnitude"
       ],
+      "tr_id": 490,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -27679,7 +28481,7 @@ backup_data = {
       },
       "item": null,
       "level": 33,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Calm Mind",
@@ -27687,6 +28489,7 @@ backup_data = {
         "High Jump Kick",
         "Psych Up"
       ],
+      "tr_id": 137,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -27711,7 +28514,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Tomb",
@@ -27719,6 +28522,7 @@ backup_data = {
         "Force Palm",
         "Feint"
       ],
+      "tr_id": 425,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27743,7 +28547,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feint",
@@ -27751,6 +28555,7 @@ backup_data = {
         "Calm Mind",
         "Mind Reader"
       ],
+      "tr_id": 428,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27777,7 +28582,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Miracle Eye",
@@ -27785,6 +28590,7 @@ backup_data = {
         "Energy Ball",
         "Recover"
       ],
+      "tr_id": 143,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27809,7 +28615,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Miracle Eye",
@@ -27817,6 +28623,7 @@ backup_data = {
         "Energy Ball",
         "Recover"
       ],
+      "tr_id": 147,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27841,7 +28648,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Miracle Eye",
@@ -27849,6 +28656,7 @@ backup_data = {
         "Energy Ball",
         "Recover"
       ],
+      "tr_id": 148,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27873,7 +28681,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Miracle Eye",
@@ -27881,6 +28689,7 @@ backup_data = {
         "Energy Ball",
         "Recover"
       ],
+      "tr_id": 149,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27905,7 +28714,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Miracle Eye",
@@ -27913,6 +28722,7 @@ backup_data = {
         "Energy Ball",
         "Recover"
       ],
+      "tr_id": 150,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27937,7 +28747,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Energy Ball",
@@ -27945,6 +28755,7 @@ backup_data = {
         "Psychic",
         "Role Play"
       ],
+      "tr_id": 237,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -27969,7 +28780,7 @@ backup_data = {
       },
       "item": null,
       "level": 16,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Confusion",
@@ -27977,6 +28788,7 @@ backup_data = {
         "Confusion",
         "Hidden Power"
       ],
+      "tr_id": 694,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -28001,7 +28813,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Energy Ball",
@@ -28009,6 +28821,7 @@ backup_data = {
         "Psychic",
         "Role Play"
       ],
+      "tr_id": 849,
       "sub_index": 1,
       "ai_tags": []
     }
@@ -28033,7 +28846,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Natural Gift",
@@ -28041,6 +28854,7 @@ backup_data = {
         "Payback",
         "Explosion"
       ],
+      "tr_id": 143,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -28065,7 +28879,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Natural Gift",
@@ -28073,6 +28887,7 @@ backup_data = {
         "Payback",
         "Explosion"
       ],
+      "tr_id": 147,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -28097,7 +28912,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Natural Gift",
@@ -28105,6 +28920,7 @@ backup_data = {
         "Payback",
         "Explosion"
       ],
+      "tr_id": 148,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -28129,7 +28945,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Natural Gift",
@@ -28137,6 +28953,7 @@ backup_data = {
         "Payback",
         "Explosion"
       ],
+      "tr_id": 149,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -28161,7 +28978,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Natural Gift",
@@ -28169,6 +28986,7 @@ backup_data = {
         "Payback",
         "Explosion"
       ],
+      "tr_id": 150,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -28195,7 +29013,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomp",
@@ -28203,6 +29021,7 @@ backup_data = {
         "Slam",
         "Rollout"
       ],
+      "tr_id": 143,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -28227,7 +29046,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomp",
@@ -28235,6 +29054,7 @@ backup_data = {
         "Slam",
         "Rollout"
       ],
+      "tr_id": 147,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -28259,7 +29079,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomp",
@@ -28267,6 +29087,7 @@ backup_data = {
         "Slam",
         "Rollout"
       ],
+      "tr_id": 148,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -28291,7 +29112,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomp",
@@ -28299,6 +29120,7 @@ backup_data = {
         "Slam",
         "Rollout"
       ],
+      "tr_id": 149,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -28323,7 +29145,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stomp",
@@ -28331,6 +29153,7 @@ backup_data = {
         "Slam",
         "Rollout"
       ],
+      "tr_id": 150,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -28357,14 +29180,15 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forest's Curse"
+        "Forests Curse"
       ],
+      "tr_id": 145,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -28397,6 +29221,7 @@ backup_data = {
         "Horn Leech",
         "Poltergeist"
       ],
+      "tr_id": 281,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -28427,14 +29252,15 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forest's Curse"
+        "Forests Curse"
       ],
+      "tr_id": 681,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -28461,14 +29287,15 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forest's Curse"
+        "Forests Curse"
       ],
+      "tr_id": 682,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -28495,14 +29322,15 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forest's Curse"
+        "Forests Curse"
       ],
+      "tr_id": 683,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -28529,14 +29357,15 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forest's Curse"
+        "Forests Curse"
       ],
+      "tr_id": 684,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -28563,14 +29392,15 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Ingrain",
         "Wood Hammer",
         "Destiny Bond",
-        "Forest's Curse"
+        "Forests Curse"
       ],
+      "tr_id": 685,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -28607,6 +29437,7 @@ backup_data = {
         "Crunch",
         "Power Whip"
       ],
+      "tr_id": 146,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -28644,6 +29475,7 @@ backup_data = {
         "Knock Off",
         "Power Whip"
       ],
+      "tr_id": 728,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -28684,6 +29516,7 @@ backup_data = {
         "Crunch",
         "Power Whip"
       ],
+      "tr_id": 146,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -28721,6 +29554,7 @@ backup_data = {
         "Knock Off",
         "Power Whip"
       ],
+      "tr_id": 728,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -28761,6 +29595,7 @@ backup_data = {
         "Hidden Power",
         "Glare"
       ],
+      "tr_id": 146,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -28798,6 +29633,7 @@ backup_data = {
         "Hidden Power",
         "Glare"
       ],
+      "tr_id": 728,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -28838,6 +29674,7 @@ backup_data = {
         "Close Combat",
         "Zen Headbutt"
       ],
+      "tr_id": 146,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -28869,7 +29706,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Screech",
@@ -28877,6 +29714,7 @@ backup_data = {
         "Wave Crash",
         "Aqua Fang"
       ],
+      "tr_id": 151,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -28901,7 +29739,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Screech",
@@ -28909,6 +29747,7 @@ backup_data = {
         "Wave Crash",
         "Aqua Fang"
       ],
+      "tr_id": 668,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -28935,7 +29774,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roost",
@@ -28943,6 +29782,7 @@ backup_data = {
         "Hydro Pump",
         "Hurricane"
       ],
+      "tr_id": 153,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -28967,7 +29807,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mist",
@@ -28975,6 +29815,7 @@ backup_data = {
         "Payback",
         "Brine"
       ],
+      "tr_id": 341,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -28999,7 +29840,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roost",
@@ -29007,6 +29848,7 @@ backup_data = {
         "Hydro Pump",
         "Hurricane"
       ],
+      "tr_id": 401,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29031,7 +29873,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fling",
@@ -29039,6 +29881,7 @@ backup_data = {
         "Swallow",
         "Spit Up"
       ],
+      "tr_id": 407,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -29063,7 +29906,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fling",
@@ -29071,6 +29914,7 @@ backup_data = {
         "Swallow",
         "Spit Up"
       ],
+      "tr_id": 462,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -29095,7 +29939,7 @@ backup_data = {
       },
       "item": null,
       "level": 43,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stockpile",
@@ -29103,6 +29947,7 @@ backup_data = {
         "Spit Up",
         "Roost"
       ],
+      "tr_id": 495,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -29135,6 +29980,7 @@ backup_data = {
         "Roost",
         "Ice Beam"
       ],
+      "tr_id": 606,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -29167,7 +30013,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Perish Song",
@@ -29175,6 +30021,7 @@ backup_data = {
         "Bounce",
         "Hyper Voice"
       ],
+      "tr_id": 154,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -29207,6 +30054,7 @@ backup_data = {
         "Haze",
         "Psychic"
       ],
+      "tr_id": 626,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -29239,7 +30087,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -29247,6 +30095,7 @@ backup_data = {
         "Earthquake",
         "Megahorn"
       ],
+      "tr_id": 155,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29271,7 +30120,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -29279,6 +30128,7 @@ backup_data = {
         "Earthquake",
         "Megahorn"
       ],
+      "tr_id": 175,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29303,7 +30153,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -29311,6 +30161,7 @@ backup_data = {
         "Earthquake",
         "Megahorn"
       ],
+      "tr_id": 176,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29335,7 +30186,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -29343,6 +30194,7 @@ backup_data = {
         "Earthquake",
         "Megahorn"
       ],
+      "tr_id": 177,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29367,7 +30219,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -29375,6 +30227,7 @@ backup_data = {
         "Earthquake",
         "Megahorn"
       ],
+      "tr_id": 178,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29407,6 +30260,7 @@ backup_data = {
         "Brick Break",
         "Cut"
       ],
+      "tr_id": 699,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -29439,7 +30293,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psych Up",
@@ -29447,6 +30301,7 @@ backup_data = {
         "Hydro Pump",
         "Wonder Room"
       ],
+      "tr_id": 156,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29479,6 +30334,7 @@ backup_data = {
         "Hydro Pump",
         "Wonder Room"
       ],
+      "tr_id": 374,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -29511,6 +30367,7 @@ backup_data = {
         "Ice Beam",
         "Aqua Jet"
       ],
+      "tr_id": 764,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -29543,7 +30400,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Brick Break",
@@ -29551,6 +30408,7 @@ backup_data = {
         "Slam",
         "Leaf Blade"
       ],
+      "tr_id": 157,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -29575,7 +30433,7 @@ backup_data = {
       },
       "item": null,
       "level": 23,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Leer",
@@ -29583,6 +30441,7 @@ backup_data = {
         "Rock Smash",
         "Brutal Swing"
       ],
+      "tr_id": 351,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -29609,7 +30468,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hex",
@@ -29617,6 +30476,7 @@ backup_data = {
         "Hydro Pump",
         "Wring Out"
       ],
+      "tr_id": 158,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29649,6 +30509,7 @@ backup_data = {
         "Hydro Pump",
         "Wring Out"
       ],
+      "tr_id": 161,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29681,6 +30542,7 @@ backup_data = {
         "Barrier",
         "Poison Jab"
       ],
+      "tr_id": 173,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -29705,7 +30567,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hex",
@@ -29713,6 +30575,7 @@ backup_data = {
         "Hydro Pump",
         "Wring Out"
       ],
+      "tr_id": 174,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29737,7 +30600,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Toxic",
@@ -29745,6 +30608,7 @@ backup_data = {
         "Sludge Bomb",
         "Ice Beam"
       ],
+      "tr_id": 335,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -29773,7 +30637,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Screech",
@@ -29781,6 +30645,7 @@ backup_data = {
         "Sludge Wave",
         "Hydro Pump"
       ],
+      "tr_id": 344,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29805,7 +30670,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hex",
@@ -29813,6 +30678,7 @@ backup_data = {
         "Hydro Pump",
         "Wring Out"
       ],
+      "tr_id": 457,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29837,7 +30703,7 @@ backup_data = {
       },
       "item": null,
       "level": 44,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Jab",
@@ -29845,6 +30711,7 @@ backup_data = {
         "Screech",
         "Hex"
       ],
+      "tr_id": 494,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29877,6 +30744,7 @@ backup_data = {
         "Hex",
         "Toxic"
       ],
+      "tr_id": 612,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -29907,7 +30775,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hex",
@@ -29915,6 +30783,7 @@ backup_data = {
         "Hydro Pump",
         "Wring Out"
       ],
+      "tr_id": 673,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -29941,7 +30810,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge Wave",
@@ -29949,6 +30818,7 @@ backup_data = {
         "Toxic",
         "Earthquake"
       ],
+      "tr_id": 158,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -29981,6 +30851,7 @@ backup_data = {
         "Rock Tomb",
         "Recover"
       ],
+      "tr_id": 512,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -30019,6 +30890,7 @@ backup_data = {
         "Rock Tomb",
         "Recover"
       ],
+      "tr_id": 515,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -30053,6 +30925,7 @@ backup_data = {
         "Rock Tomb",
         "Recover"
       ],
+      "tr_id": 516,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -30087,6 +30960,7 @@ backup_data = {
         "Rock Tomb",
         "Recover"
       ],
+      "tr_id": 517,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -30121,6 +30995,7 @@ backup_data = {
         "Rock Tomb",
         "Recover"
       ],
+      "tr_id": 518,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -30157,6 +31032,7 @@ backup_data = {
         "Flip Turn",
         "Stealth Rock"
       ],
+      "tr_id": 159,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -30195,6 +31071,7 @@ backup_data = {
         "Power-Up Punch",
         "Avalanche"
       ],
+      "tr_id": 528,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -30232,6 +31109,7 @@ backup_data = {
         "Power-Up Punch",
         "Avalanche"
       ],
+      "tr_id": 537,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -30269,6 +31147,7 @@ backup_data = {
         "Power-Up Punch",
         "Avalanche"
       ],
+      "tr_id": 663,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -30306,6 +31185,7 @@ backup_data = {
         "Power-Up Punch",
         "Avalanche"
       ],
+      "tr_id": 666,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -30343,6 +31223,7 @@ backup_data = {
         "Earthquake",
         "Stealth Rock"
       ],
+      "tr_id": 24,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -30381,6 +31262,7 @@ backup_data = {
         "Power-Up Punch",
         "Avalanche"
       ],
+      "tr_id": 647,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -30421,6 +31303,7 @@ backup_data = {
         "Earth Power",
         "Sludge Bomb"
       ],
+      "tr_id": 159,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -30451,7 +31334,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Natural Gift",
@@ -30459,6 +31342,7 @@ backup_data = {
         "Double-Edge",
         "Sunny Day"
       ],
+      "tr_id": 202,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -30483,7 +31367,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sunny Day",
@@ -30491,6 +31375,7 @@ backup_data = {
         "Seed Flare",
         "Fiery Dance"
       ],
+      "tr_id": 594,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -30527,6 +31412,7 @@ backup_data = {
         "Energy Ball",
         "Scorching Sands"
       ],
+      "tr_id": 159,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -30565,6 +31451,7 @@ backup_data = {
         "Psychic",
         "Will-O-Wisp"
       ],
+      "tr_id": 744,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -30603,6 +31490,7 @@ backup_data = {
         "Psychic",
         "Will-O-Wisp"
       ],
+      "tr_id": 858,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -30642,6 +31530,7 @@ backup_data = {
         "Icicle Crash",
         "Dragon Dance"
       ],
+      "tr_id": 159,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -30680,6 +31569,7 @@ backup_data = {
         "Earthquake",
         "Dragon Dance"
       ],
+      "tr_id": 727,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -30721,6 +31611,7 @@ backup_data = {
         "Zen Headbutt",
         "Bullet Punch"
       ],
+      "tr_id": 159,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -30759,6 +31650,7 @@ backup_data = {
         "Zen Headbutt",
         "Ice Punch"
       ],
+      "tr_id": 312,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -30791,7 +31683,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sleep Talk",
@@ -30799,6 +31691,7 @@ backup_data = {
         "Double-Edge",
         "Wave Crash"
       ],
+      "tr_id": 162,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -30823,7 +31716,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sleep Talk",
@@ -30831,6 +31724,7 @@ backup_data = {
         "Double-Edge",
         "Wave Crash"
       ],
+      "tr_id": 580,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -30857,7 +31751,7 @@ backup_data = {
       },
       "item": null,
       "level": 61,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Whirlpool",
@@ -30865,6 +31759,7 @@ backup_data = {
         "Hydro Pump",
         "Wave Crash"
       ],
+      "tr_id": 163,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -30897,6 +31792,7 @@ backup_data = {
         "Fake Out",
         "Aqua Jet"
       ],
+      "tr_id": 677,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -30927,7 +31823,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Hit",
@@ -30935,6 +31831,7 @@ backup_data = {
         "Aqua Tail",
         "Hydro Pump"
       ],
+      "tr_id": 739,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -30961,7 +31858,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
@@ -30969,6 +31866,7 @@ backup_data = {
         "Shadow Ball",
         "Spirit Shackle"
       ],
+      "tr_id": 164,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31001,6 +31899,7 @@ backup_data = {
         "Psychic",
         "Shadow Ball"
       ],
+      "tr_id": 525,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -31038,6 +31937,7 @@ backup_data = {
         "Psychic",
         "Shadow Ball"
       ],
+      "tr_id": 534,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -31049,7 +31949,7 @@ backup_data = {
       "ability": "Adaptability"
     }
   },
-  "Basculin": {
+  "Basculin-White-Striped": {
     "Lvl 59 Swimmer M Dean ": {
       "ivs": {
         "hp": 0,
@@ -31069,7 +31969,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aqua Fang",
@@ -31077,6 +31977,7 @@ backup_data = {
         "Waterfall",
         "Wave Crash"
       ],
+      "tr_id": 164,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -31103,7 +32004,7 @@ backup_data = {
       },
       "item": null,
       "level": 68,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rain Dance",
@@ -31111,6 +32012,7 @@ backup_data = {
         "Hydro Pump",
         "Wring Out"
       ],
+      "tr_id": 166,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -31135,7 +32037,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rain Dance",
@@ -31143,6 +32045,7 @@ backup_data = {
         "Hydro Pump",
         "Wring Out"
       ],
+      "tr_id": 435,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31169,7 +32072,7 @@ backup_data = {
       },
       "item": null,
       "level": 68,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swagger",
@@ -31177,6 +32080,7 @@ backup_data = {
         "Wave Crash",
         "Close Combat"
       ],
+      "tr_id": 166,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31209,6 +32113,7 @@ backup_data = {
         "Zen Headbutt",
         "Rock Slide"
       ],
+      "tr_id": 264,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -31240,7 +32145,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Power Gem",
@@ -31248,6 +32153,7 @@ backup_data = {
         "Grudge",
         "Mirror Coat"
       ],
+      "tr_id": 167,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31280,6 +32186,7 @@ backup_data = {
         "Strength Sap",
         "Earth Power"
       ],
+      "tr_id": 336,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -31313,7 +32220,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Dance",
@@ -31321,6 +32228,7 @@ backup_data = {
         "Boomburst",
         "Dragon Hammer"
       ],
+      "tr_id": 169,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -31345,7 +32253,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hydro Pump",
@@ -31353,6 +32261,7 @@ backup_data = {
         "Dragon Dance",
         "Wish"
       ],
+      "tr_id": 576,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -31385,6 +32294,7 @@ backup_data = {
         "Ice Beam",
         "Thunderbolt"
       ],
+      "tr_id": 626,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -31417,7 +32327,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "High Jump Kick",
@@ -31425,6 +32335,7 @@ backup_data = {
         "Dual Wingbeat",
         "Acrobatics"
       ],
+      "tr_id": 169,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31457,6 +32368,7 @@ backup_data = {
         "Swords Dance",
         "Poison Jab"
       ],
+      "tr_id": 601,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -31494,6 +32406,7 @@ backup_data = {
         "Swords Dance",
         "Poison Jab"
       ],
+      "tr_id": 602,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -31523,7 +32436,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feather Dance",
@@ -31531,6 +32444,7 @@ backup_data = {
         "Sky Attack",
         "Dual Wingbeat"
       ],
+      "tr_id": 763,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -31557,7 +32471,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Snore",
@@ -31565,6 +32479,7 @@ backup_data = {
         "Blizzard",
         "Ice Beam"
       ],
+      "tr_id": 170,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -31589,7 +32504,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Snore",
@@ -31597,6 +32512,7 @@ backup_data = {
         "Blizzard",
         "Ice Beam"
       ],
+      "tr_id": 453,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31621,7 +32537,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rest",
@@ -31629,6 +32545,7 @@ backup_data = {
         "Snowscape",
         "Blizzard"
       ],
+      "tr_id": 496,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -31653,7 +32570,7 @@ backup_data = {
       },
       "item": null,
       "level": 68,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Snore",
@@ -31661,6 +32578,7 @@ backup_data = {
         "Blizzard",
         "Ice Beam"
       ],
+      "tr_id": 675,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -31687,7 +32605,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dive",
@@ -31695,6 +32613,7 @@ backup_data = {
         "Safeguard",
         "Snowscape"
       ],
+      "tr_id": 170,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31719,7 +32638,7 @@ backup_data = {
       },
       "item": null,
       "level": 68,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dive",
@@ -31727,6 +32646,7 @@ backup_data = {
         "Safeguard",
         "Snowscape"
       ],
+      "tr_id": 675,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31759,6 +32679,7 @@ backup_data = {
         "Rest",
         "Sleep Talk"
       ],
+      "tr_id": 713,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -31791,7 +32712,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Acid Armor",
@@ -31799,6 +32720,7 @@ backup_data = {
         "Memento",
         "Sucker Punch"
       ],
+      "tr_id": 171,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31823,7 +32745,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Screech",
@@ -31831,6 +32753,7 @@ backup_data = {
         "Acid Armor",
         "Belch"
       ],
+      "tr_id": 445,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31863,6 +32786,7 @@ backup_data = {
         "Ice Punch",
         "Toxic"
       ],
+      "tr_id": 857,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -31895,7 +32819,7 @@ backup_data = {
       },
       "item": null,
       "level": 33,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge",
@@ -31903,6 +32827,7 @@ backup_data = {
         "Barrier",
         "Poison Jab"
       ],
+      "tr_id": 173,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -31927,7 +32852,7 @@ backup_data = {
       },
       "item": null,
       "level": 15,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Water Gun",
@@ -31935,6 +32860,7 @@ backup_data = {
         "Acid",
         "Toxic Spikes"
       ],
+      "tr_id": 340,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -31961,7 +32887,7 @@ backup_data = {
       },
       "item": null,
       "level": 33,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Air Cutter",
@@ -31969,6 +32895,7 @@ backup_data = {
         "Aerial Ace",
         "Roost"
       ],
+      "tr_id": 173,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -31993,7 +32920,7 @@ backup_data = {
       },
       "item": null,
       "level": 21,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wing Attack",
@@ -32001,6 +32928,7 @@ backup_data = {
         "Water Pulse",
         "Quick Attack"
       ],
+      "tr_id": 490,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32027,7 +32955,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Leer",
@@ -32035,6 +32963,7 @@ backup_data = {
         "Baby-Doll Eyes",
         "Brutal Swing"
       ],
+      "tr_id": 179,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32061,7 +32990,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Smash",
@@ -32069,6 +32998,7 @@ backup_data = {
         "Pursuit",
         "Bubble Beam"
       ],
+      "tr_id": 179,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -32095,7 +33025,7 @@ backup_data = {
       },
       "item": null,
       "level": 72,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Kick",
@@ -32103,6 +33033,7 @@ backup_data = {
         "Throat Chop",
         "Brave Bird"
       ],
+      "tr_id": 180,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32127,7 +33058,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mega Kick",
@@ -32135,6 +33066,7 @@ backup_data = {
         "Throat Chop",
         "Brave Bird"
       ],
+      "tr_id": 408,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32167,6 +33099,7 @@ backup_data = {
         "Roost",
         "Facade"
       ],
+      "tr_id": 538,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -32205,6 +33138,7 @@ backup_data = {
         "Roost",
         "Facade"
       ],
+      "tr_id": 541,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -32239,6 +33173,7 @@ backup_data = {
         "Roost",
         "Facade"
       ],
+      "tr_id": 542,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -32273,6 +33208,7 @@ backup_data = {
         "Roost",
         "Facade"
       ],
+      "tr_id": 543,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -32307,6 +33243,7 @@ backup_data = {
         "Roost",
         "Facade"
       ],
+      "tr_id": 544,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -32343,6 +33280,7 @@ backup_data = {
         "Megahorn",
         "Counter"
       ],
+      "tr_id": 180,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -32369,7 +33307,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Endure",
@@ -32377,6 +33315,7 @@ backup_data = {
         "Reversal",
         "Heavy Slam"
       ],
+      "tr_id": 181,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32409,6 +33348,7 @@ backup_data = {
         "Knock Off",
         "Fake Out"
       ],
+      "tr_id": 266,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -32446,6 +33386,7 @@ backup_data = {
         "Knock Off",
         "Fake Out"
       ],
+      "tr_id": 774,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -32481,6 +33422,7 @@ backup_data = {
         "Knock Off",
         "Fake Out"
       ],
+      "tr_id": 775,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -32516,6 +33458,7 @@ backup_data = {
         "Knock Off",
         "Fake Out"
       ],
+      "tr_id": 776,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -32551,6 +33494,7 @@ backup_data = {
         "Knock Off",
         "Fake Out"
       ],
+      "tr_id": 777,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -32580,7 +33524,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32588,6 +33532,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 181,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -32612,7 +33557,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32620,6 +33565,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 492,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32644,7 +33590,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32652,6 +33598,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 497,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32676,7 +33623,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32684,6 +33631,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 498,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32708,7 +33656,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32716,6 +33664,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 499,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32740,7 +33689,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32748,6 +33697,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 500,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32780,6 +33730,7 @@ backup_data = {
         "Ice Punch",
         "Bulk Up"
       ],
+      "tr_id": 597,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -32809,7 +33760,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32817,6 +33768,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 672,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32841,7 +33793,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32849,6 +33801,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 824,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32873,7 +33826,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32881,6 +33834,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 825,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32905,7 +33859,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32913,6 +33867,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 826,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32937,7 +33892,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hammer Arm",
@@ -32945,6 +33900,7 @@ backup_data = {
         "Focus Punch",
         "Superpower"
       ],
+      "tr_id": 827,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -32977,6 +33933,7 @@ backup_data = {
         "Thunder Punch",
         "Fire Punch"
       ],
+      "tr_id": 857,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -33009,7 +33966,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stealth Rock",
@@ -33017,6 +33974,7 @@ backup_data = {
         "Stone Edge",
         "Explosion"
       ],
+      "tr_id": 182,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -33049,6 +34007,7 @@ backup_data = {
         "Explosion",
         "Body Press"
       ],
+      "tr_id": 602,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -33078,7 +34037,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stealth Rock",
@@ -33086,6 +34045,7 @@ backup_data = {
         "Stone Edge",
         "Explosion"
       ],
+      "tr_id": 737,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33110,7 +34070,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stealth Rock",
@@ -33118,6 +34078,7 @@ backup_data = {
         "Stone Edge",
         "Explosion"
       ],
+      "tr_id": 812,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33142,7 +34103,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stealth Rock",
@@ -33150,6 +34111,7 @@ backup_data = {
         "Stone Edge",
         "Explosion"
       ],
+      "tr_id": 813,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33174,7 +34136,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stealth Rock",
@@ -33182,6 +34144,7 @@ backup_data = {
         "Stone Edge",
         "Explosion"
       ],
+      "tr_id": 814,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33206,7 +34169,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stealth Rock",
@@ -33214,6 +34177,7 @@ backup_data = {
         "Stone Edge",
         "Explosion"
       ],
+      "tr_id": 815,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33240,7 +34204,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Whirlwind",
@@ -33248,6 +34212,7 @@ backup_data = {
         "Vital Throw",
         "Belly Drum"
       ],
+      "tr_id": 188,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33274,7 +34239,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Seismic Toss",
@@ -33282,6 +34247,7 @@ backup_data = {
         "Knock Off",
         "Vital Throw"
       ],
+      "tr_id": 188,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -33306,14 +34272,15 @@ backup_data = {
       },
       "item": null,
       "level": 44,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Wake-Up Slap",
+        "Wake-up Slap",
         "Dual Chop",
         "Submission",
         "Bulk Up"
       ],
+      "tr_id": 494,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -33338,14 +34305,15 @@ backup_data = {
       },
       "item": null,
       "level": 43,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Wake-Up Slap",
+        "Wake-up Slap",
         "Dual Chop",
         "Submission",
         "Bulk Up"
       ],
+      "tr_id": 495,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -33378,6 +34346,7 @@ backup_data = {
         "Bulk Up",
         "Rock Slide"
       ],
+      "tr_id": 701,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -33418,6 +34387,7 @@ backup_data = {
         "Stone Edge",
         "Cut"
       ],
+      "tr_id": 189,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -33458,6 +34428,7 @@ backup_data = {
         "Thunder Punch",
         "Mach Punch"
       ],
+      "tr_id": 189,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -33488,7 +34459,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mach Punch",
@@ -33496,6 +34467,7 @@ backup_data = {
         "Feint",
         "Brick Break"
       ],
+      "tr_id": 364,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33520,7 +34492,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mach Punch",
@@ -33528,6 +34500,7 @@ backup_data = {
         "Feint",
         "Brick Break"
       ],
+      "tr_id": 365,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33552,7 +34525,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mach Punch",
@@ -33560,6 +34533,7 @@ backup_data = {
         "Feint",
         "Brick Break"
       ],
+      "tr_id": 366,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33584,7 +34558,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mach Punch",
@@ -33592,6 +34566,7 @@ backup_data = {
         "Feint",
         "Brick Break"
       ],
+      "tr_id": 367,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33616,7 +34591,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mach Punch",
@@ -33624,6 +34599,7 @@ backup_data = {
         "Feint",
         "Brick Break"
       ],
+      "tr_id": 368,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33656,6 +34632,7 @@ backup_data = {
         "Ice Punch",
         "Thunder Punch"
       ],
+      "tr_id": 647,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -33696,6 +34673,7 @@ backup_data = {
         "Blaze Kick",
         "Aqua Step"
       ],
+      "tr_id": 189,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -33726,7 +34704,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jump Kick",
@@ -33734,6 +34712,7 @@ backup_data = {
         "Focus Energy",
         "Feint"
       ],
+      "tr_id": 369,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33758,7 +34737,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jump Kick",
@@ -33766,6 +34745,7 @@ backup_data = {
         "Focus Energy",
         "Feint"
       ],
+      "tr_id": 370,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33790,7 +34770,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jump Kick",
@@ -33798,6 +34778,7 @@ backup_data = {
         "Focus Energy",
         "Feint"
       ],
+      "tr_id": 371,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33822,7 +34803,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jump Kick",
@@ -33830,6 +34811,7 @@ backup_data = {
         "Focus Energy",
         "Feint"
       ],
+      "tr_id": 372,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33854,7 +34836,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Jump Kick",
@@ -33862,6 +34844,7 @@ backup_data = {
         "Focus Energy",
         "Feint"
       ],
+      "tr_id": 373,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33894,6 +34877,7 @@ backup_data = {
         "Triple Axel",
         "Aqua Step"
       ],
+      "tr_id": 493,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -33926,7 +34910,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psywave",
@@ -33934,6 +34918,7 @@ backup_data = {
         "Extrasensory",
         "Heal Bell"
       ],
+      "tr_id": 191,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -33958,7 +34943,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Extrasensory",
@@ -33966,6 +34951,7 @@ backup_data = {
         "Uproar",
         "Safeguard"
       ],
+      "tr_id": 848,
       "sub_index": 0,
       "ai_tags": []
     }
@@ -33990,7 +34976,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Extrasensory",
@@ -33998,6 +34984,7 @@ backup_data = {
         "Memento",
         "Dark Pulse"
       ],
+      "tr_id": 192,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -34030,6 +35017,7 @@ backup_data = {
         "Dream Eater",
         "Poltergeist"
       ],
+      "tr_id": 860,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -34067,6 +35055,7 @@ backup_data = {
         "Shadow Sneak",
         "Will-O-Wisp"
       ],
+      "tr_id": 538,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -34105,6 +35094,7 @@ backup_data = {
         "Shadow Sneak",
         "Will-O-Wisp"
       ],
+      "tr_id": 541,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -34139,6 +35129,7 @@ backup_data = {
         "Shadow Sneak",
         "Will-O-Wisp"
       ],
+      "tr_id": 542,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -34173,6 +35164,7 @@ backup_data = {
         "Shadow Sneak",
         "Will-O-Wisp"
       ],
+      "tr_id": 543,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -34207,6 +35199,7 @@ backup_data = {
         "Shadow Sneak",
         "Will-O-Wisp"
       ],
+      "tr_id": 544,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -34235,7 +35228,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Night Slash",
@@ -34243,6 +35236,7 @@ backup_data = {
         "Nasty Plot",
         "Play Rough"
       ],
+      "tr_id": 193,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34267,7 +35261,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Night Slash",
@@ -34275,6 +35269,7 @@ backup_data = {
         "Nasty Plot",
         "Play Rough"
       ],
+      "tr_id": 286,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -34299,7 +35294,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Night Slash",
@@ -34307,6 +35302,7 @@ backup_data = {
         "Nasty Plot",
         "Play Rough"
       ],
+      "tr_id": 640,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34331,7 +35327,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Night Slash",
@@ -34339,6 +35335,7 @@ backup_data = {
         "Nasty Plot",
         "Play Rough"
       ],
+      "tr_id": 733,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -34365,7 +35362,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Pursuit",
@@ -34373,6 +35370,7 @@ backup_data = {
         "Fake Out",
         "Hone Claws"
       ],
+      "tr_id": 757,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34399,7 +35397,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scary Face",
@@ -34407,6 +35405,7 @@ backup_data = {
         "Dragon Rage",
         "Crunch"
       ],
+      "tr_id": 194,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -34431,7 +35430,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Climb",
@@ -34439,6 +35438,7 @@ backup_data = {
         "Outrage",
         "Dragon Hammer"
       ],
+      "tr_id": 540,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -34467,7 +35467,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge Bomb",
@@ -34475,6 +35475,7 @@ backup_data = {
         "Detect",
         "Quiver Dance"
       ],
+      "tr_id": 195,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -34499,7 +35500,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge Bomb",
@@ -34507,6 +35508,7 @@ backup_data = {
         "Detect",
         "Quiver Dance"
       ],
+      "tr_id": 224,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34531,7 +35533,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Sludge Bomb",
@@ -34539,6 +35541,7 @@ backup_data = {
         "Detect",
         "Quiver Dance"
       ],
+      "tr_id": 680,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34563,7 +35566,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Sludge Bomb",
@@ -34571,6 +35574,7 @@ backup_data = {
         "Detect",
         "Quiver Dance"
       ],
+      "tr_id": 680,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -34595,7 +35599,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge Bomb",
@@ -34603,6 +35607,7 @@ backup_data = {
         "Detect",
         "Quiver Dance"
       ],
+      "tr_id": 832,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -34627,7 +35632,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge Bomb",
@@ -34635,6 +35640,7 @@ backup_data = {
         "Detect",
         "Quiver Dance"
       ],
+      "tr_id": 833,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -34659,7 +35665,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge Bomb",
@@ -34667,6 +35673,7 @@ backup_data = {
         "Detect",
         "Quiver Dance"
       ],
+      "tr_id": 834,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -34691,7 +35698,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge Bomb",
@@ -34699,6 +35706,7 @@ backup_data = {
         "Detect",
         "Quiver Dance"
       ],
+      "tr_id": 835,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -34725,7 +35733,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feather Dance",
@@ -34733,6 +35741,7 @@ backup_data = {
         "Aqua Ring",
         "Air Slash"
       ],
+      "tr_id": 196,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34757,7 +35766,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feather Dance",
@@ -34765,6 +35774,7 @@ backup_data = {
         "Aqua Ring",
         "Air Slash"
       ],
+      "tr_id": 197,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34789,7 +35799,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feather Dance",
@@ -34797,6 +35807,7 @@ backup_data = {
         "Aqua Ring",
         "Air Slash"
       ],
+      "tr_id": 198,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34821,7 +35832,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feather Dance",
@@ -34829,6 +35840,7 @@ backup_data = {
         "Aqua Ring",
         "Air Slash"
       ],
+      "tr_id": 199,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34853,7 +35865,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Feather Dance",
@@ -34861,6 +35873,7 @@ backup_data = {
         "Aqua Ring",
         "Air Slash"
       ],
+      "tr_id": 200,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34885,7 +35898,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rain Dance",
@@ -34893,6 +35906,7 @@ backup_data = {
         "Hydro Pump",
         "Hurricane"
       ],
+      "tr_id": 451,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -34917,7 +35931,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rain Dance",
@@ -34925,6 +35939,7 @@ backup_data = {
         "Hydro Pump",
         "Hurricane"
       ],
+      "tr_id": 738,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -34951,7 +35966,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dig",
@@ -34959,6 +35974,7 @@ backup_data = {
         "Yawn",
         "Take Down"
       ],
+      "tr_id": 196,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -34983,7 +35999,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dig",
@@ -34991,6 +36007,7 @@ backup_data = {
         "Yawn",
         "Take Down"
       ],
+      "tr_id": 197,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -35015,7 +36032,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dig",
@@ -35023,6 +36040,7 @@ backup_data = {
         "Yawn",
         "Take Down"
       ],
+      "tr_id": 198,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -35047,7 +36065,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dig",
@@ -35055,6 +36073,7 @@ backup_data = {
         "Yawn",
         "Take Down"
       ],
+      "tr_id": 199,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -35079,7 +36098,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dig",
@@ -35087,6 +36106,7 @@ backup_data = {
         "Yawn",
         "Take Down"
       ],
+      "tr_id": 200,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -35111,7 +36131,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Uproar",
@@ -35119,6 +36139,7 @@ backup_data = {
         "Earthquake",
         "Belch"
       ],
+      "tr_id": 416,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -35146,7 +36167,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roost",
@@ -35154,6 +36175,7 @@ backup_data = {
         "Flame Charge",
         "Acrobatics"
       ],
+      "tr_id": 202,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -35178,7 +36200,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dual Wingbeat",
@@ -35186,6 +36208,7 @@ backup_data = {
         "Tailwind",
         "Steel Wing"
       ],
+      "tr_id": 674,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -35218,6 +36241,7 @@ backup_data = {
         "Flare Blitz",
         "U-turn"
       ],
+      "tr_id": 728,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -35250,7 +36274,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scary Face",
@@ -35258,6 +36282,7 @@ backup_data = {
         "Lava Plume",
         "Last Resort"
       ],
+      "tr_id": 203,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -35282,7 +36307,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Quick Attack",
@@ -35290,6 +36315,7 @@ backup_data = {
         "Fire Fang",
         "Fire Spin"
       ],
+      "tr_id": 715,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -35322,6 +36348,7 @@ backup_data = {
         "Facade",
         "Flame Charge"
       ],
+      "tr_id": 493,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -35354,7 +36381,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -35362,6 +36389,7 @@ backup_data = {
         "Agility",
         "Fire Blast"
       ],
+      "tr_id": 204,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -35388,7 +36416,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Flamethrower",
@@ -35396,6 +36424,7 @@ backup_data = {
         "Shell Smash",
         "Dragon Pulse"
       ],
+      "tr_id": 205,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -35428,6 +36457,7 @@ backup_data = {
         "Dragon Pulse",
         "Shell Smash"
       ],
+      "tr_id": 627,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -35466,6 +36496,7 @@ backup_data = {
         "Dragon Pulse",
         "Shell Smash"
       ],
+      "tr_id": 636,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -35500,6 +36531,7 @@ backup_data = {
         "Dragon Pulse",
         "Shell Smash"
       ],
+      "tr_id": 637,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -35534,6 +36566,7 @@ backup_data = {
         "Dragon Pulse",
         "Shell Smash"
       ],
+      "tr_id": 638,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -35568,6 +36601,7 @@ backup_data = {
         "Dragon Pulse",
         "Shell Smash"
       ],
+      "tr_id": 639,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -35594,7 +36628,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Shell Trap",
@@ -35602,6 +36636,7 @@ backup_data = {
         "Explosion",
         "Burning Bulwark"
       ],
+      "tr_id": 678,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -35628,7 +36663,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Thunder Wave",
@@ -35636,6 +36671,7 @@ backup_data = {
         "Light Screen",
         "Discharge"
       ],
+      "tr_id": 206,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -35660,7 +36696,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Thunder Wave",
@@ -35668,6 +36704,7 @@ backup_data = {
         "Light Screen",
         "Discharge"
       ],
+      "tr_id": 207,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -35692,7 +36729,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Thunder Wave",
@@ -35700,6 +36737,7 @@ backup_data = {
         "Light Screen",
         "Discharge"
       ],
+      "tr_id": 208,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -35724,7 +36762,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Thunder Wave",
@@ -35732,6 +36770,7 @@ backup_data = {
         "Light Screen",
         "Discharge"
       ],
+      "tr_id": 209,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -35756,7 +36795,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Thunder Wave",
@@ -35764,6 +36803,7 @@ backup_data = {
         "Light Screen",
         "Discharge"
       ],
+      "tr_id": 210,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -35790,14 +36830,15 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Trick-or-Treat",
+        "Trick-or-treat",
         "Magical Leaf",
         "Shadow Ball",
         "Hex"
       ],
+      "tr_id": 206,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -35822,14 +36863,15 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Trick-or-Treat",
+        "Trick-or-treat",
         "Magical Leaf",
         "Shadow Ball",
         "Hex"
       ],
+      "tr_id": 207,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -35854,14 +36896,15 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Trick-or-Treat",
+        "Trick-or-treat",
         "Magical Leaf",
         "Shadow Ball",
         "Hex"
       ],
+      "tr_id": 208,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -35886,14 +36929,15 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Trick-or-Treat",
+        "Trick-or-treat",
         "Magical Leaf",
         "Shadow Ball",
         "Hex"
       ],
+      "tr_id": 209,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -35918,14 +36962,15 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Trick-or-Treat",
+        "Trick-or-treat",
         "Magical Leaf",
         "Shadow Ball",
         "Hex"
       ],
+      "tr_id": 210,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -35960,6 +37005,7 @@ backup_data = {
         "Rock Slide",
         "Brick Break"
       ],
+      "tr_id": 211,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -35990,7 +37036,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Slide",
@@ -35998,6 +37044,7 @@ backup_data = {
         "Sandstorm",
         "Drill Run"
       ],
+      "tr_id": 737,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -36022,7 +37069,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Slide",
@@ -36030,6 +37077,7 @@ backup_data = {
         "Sandstorm",
         "Drill Run"
       ],
+      "tr_id": 812,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -36054,7 +37102,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Slide",
@@ -36062,6 +37110,7 @@ backup_data = {
         "Sandstorm",
         "Drill Run"
       ],
+      "tr_id": 813,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -36086,7 +37135,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Slide",
@@ -36094,6 +37143,7 @@ backup_data = {
         "Sandstorm",
         "Drill Run"
       ],
+      "tr_id": 814,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -36118,7 +37168,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Slide",
@@ -36126,6 +37176,7 @@ backup_data = {
         "Sandstorm",
         "Drill Run"
       ],
+      "tr_id": 815,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -36160,6 +37211,7 @@ backup_data = {
         "High Horsepower",
         "Scale Shot"
       ],
+      "tr_id": 211,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -36190,7 +37242,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Headbutt",
@@ -36198,6 +37250,7 @@ backup_data = {
         "Dig",
         "Sandstorm"
       ],
+      "tr_id": 472,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -36222,7 +37275,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sand Tomb",
@@ -36230,6 +37283,7 @@ backup_data = {
         "Double-Edge",
         "Last Resort"
       ],
+      "tr_id": 722,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -36264,6 +37318,7 @@ backup_data = {
         "High Horsepower",
         "Scale Shot"
       ],
+      "tr_id": 211,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -36296,7 +37351,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Guard Split",
@@ -36304,6 +37359,7 @@ backup_data = {
         "Earth Power",
         "Sandstorm"
       ],
+      "tr_id": 212,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -36328,14 +37384,15 @@ backup_data = {
       },
       "item": null,
       "level": 38,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Self-Destruct",
+        "Self-destruct",
         "Extrasensory",
         "Guard Split",
         "Power Split"
       ],
+      "tr_id": 628,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -36368,6 +37425,7 @@ backup_data = {
         "Ice Beam",
         "Explosion"
       ],
+      "tr_id": 630,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -36398,7 +37456,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Power Split",
@@ -36406,6 +37464,7 @@ backup_data = {
         "Sandstorm",
         "Explosion"
       ],
+      "tr_id": 719,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -36430,7 +37489,7 @@ backup_data = {
       },
       "item": null,
       "level": 49,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Earthquake",
@@ -36438,6 +37497,7 @@ backup_data = {
         "Psychic",
         "Light Screen"
       ],
+      "tr_id": 794,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -36464,7 +37524,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Earthquake",
@@ -36472,6 +37532,7 @@ backup_data = {
         "Psychic",
         "Light Screen"
       ],
+      "tr_id": 795,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -36498,7 +37559,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Earthquake",
@@ -36506,6 +37567,7 @@ backup_data = {
         "Psychic",
         "Light Screen"
       ],
+      "tr_id": 796,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -36532,7 +37594,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Earthquake",
@@ -36540,6 +37602,7 @@ backup_data = {
         "Psychic",
         "Light Screen"
       ],
+      "tr_id": 797,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -36566,7 +37629,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Reflect",
@@ -36574,6 +37637,7 @@ backup_data = {
         "Ancient Power",
         "Earthquake"
       ],
+      "tr_id": 804,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -36602,7 +37666,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roost",
@@ -36610,6 +37674,7 @@ backup_data = {
         "Taunt",
         "Dual Wingbeat"
       ],
+      "tr_id": 213,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -36634,7 +37699,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dual Wingbeat",
@@ -36642,6 +37707,7 @@ backup_data = {
         "Swagger",
         "Facade"
       ],
+      "tr_id": 403,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -36666,7 +37732,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dual Wingbeat",
@@ -36674,6 +37740,7 @@ backup_data = {
         "Swagger",
         "Facade"
       ],
+      "tr_id": 408,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -36700,7 +37767,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Tail",
@@ -36708,6 +37775,7 @@ backup_data = {
         "Venoshock",
         "Agility"
       ],
+      "tr_id": 213,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -36732,7 +37800,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Venom Drench",
@@ -36740,6 +37808,7 @@ backup_data = {
         "Double-Edge",
         "Megahorn"
       ],
+      "tr_id": 717,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -36766,7 +37835,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Kick",
@@ -36774,6 +37843,7 @@ backup_data = {
         "Take Down",
         "Guard Swap"
       ],
+      "tr_id": 214,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -36808,6 +37878,7 @@ backup_data = {
         "Body Press",
         "Dragon Tail"
       ],
+      "tr_id": 215,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -36846,6 +37917,7 @@ backup_data = {
         "Body Press",
         "Thunderbolt"
       ],
+      "tr_id": 312,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -36886,6 +37958,7 @@ backup_data = {
         "Body Press",
         "Earthquake"
       ],
+      "tr_id": 215,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -36926,6 +37999,7 @@ backup_data = {
         "Make It Rain",
         "Focus Blast"
       ],
+      "tr_id": 215,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -36966,6 +38040,7 @@ backup_data = {
         "Razor Shell",
         "Sacred Sword"
       ],
+      "tr_id": 215,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -36996,7 +38071,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swords Dance",
@@ -37004,6 +38079,7 @@ backup_data = {
         "Sacred Sword",
         "Razor Shell"
       ],
+      "tr_id": 464,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37038,6 +38114,7 @@ backup_data = {
         "Secret Sword",
         "Air Slash"
       ],
+      "tr_id": 215,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -37070,7 +38147,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bug Bite",
@@ -37078,6 +38155,7 @@ backup_data = {
         "Spore",
         "Leech Life"
       ],
+      "tr_id": 218,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -37110,6 +38188,7 @@ backup_data = {
         "Leech Life",
         "Crabhammer"
       ],
+      "tr_id": 274,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -37142,7 +38221,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Roost",
@@ -37150,6 +38229,7 @@ backup_data = {
         "Screech",
         "Drill Peck"
       ],
+      "tr_id": 218,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -37174,7 +38254,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Drill Peck",
@@ -37182,6 +38262,7 @@ backup_data = {
         "Feather Dance",
         "Hyper Voice"
       ],
+      "tr_id": 401,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -37206,7 +38287,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Drill Peck",
@@ -37214,6 +38295,7 @@ backup_data = {
         "Feather Dance",
         "Hyper Voice"
       ],
+      "tr_id": 414,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -37240,7 +38322,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hydro Pump",
@@ -37248,6 +38330,7 @@ backup_data = {
         "Whirlwind",
         "Quiver Dance"
       ],
+      "tr_id": 223,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37280,6 +38363,7 @@ backup_data = {
         "Ice Beam",
         "Bug Buzz"
       ],
+      "tr_id": 281,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -37312,7 +38396,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bug Buzz",
@@ -37320,6 +38404,7 @@ backup_data = {
         "Aromatherapy",
         "Quiver Dance"
       ],
+      "tr_id": 224,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -37352,6 +38437,7 @@ backup_data = {
         "Bug Buzz",
         "Giga Drain"
       ],
+      "tr_id": 677,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -37384,7 +38470,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Giga Drain",
@@ -37392,6 +38478,7 @@ backup_data = {
         "Rage",
         "Quiver Dance"
       ],
+      "tr_id": 224,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -37416,7 +38503,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Giga Drain",
@@ -37424,6 +38511,7 @@ backup_data = {
         "Rage",
         "Quiver Dance"
       ],
+      "tr_id": 680,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -37450,7 +38538,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Slide",
@@ -37458,6 +38546,7 @@ backup_data = {
         "Wide Guard",
         "Heavy Slam"
       ],
+      "tr_id": 225,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37482,7 +38571,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wide Guard",
@@ -37490,6 +38579,7 @@ backup_data = {
         "Stone Edge",
         "Mega Kick"
       ],
+      "tr_id": 758,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -37518,7 +38608,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Camouflage",
@@ -37526,6 +38616,7 @@ backup_data = {
         "Psychic",
         "Hurricane"
       ],
+      "tr_id": 226,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37550,7 +38641,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Camouflage",
@@ -37558,6 +38649,7 @@ backup_data = {
         "Psychic",
         "Hurricane"
       ],
+      "tr_id": 228,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37582,7 +38674,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Camouflage",
@@ -37590,6 +38682,7 @@ backup_data = {
         "Psychic",
         "Hurricane"
       ],
+      "tr_id": 229,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37614,7 +38707,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Camouflage",
@@ -37622,6 +38715,7 @@ backup_data = {
         "Psychic",
         "Hurricane"
       ],
+      "tr_id": 230,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37646,7 +38740,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Camouflage",
@@ -37654,6 +38748,7 @@ backup_data = {
         "Psychic",
         "Hurricane"
       ],
+      "tr_id": 231,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37688,6 +38783,7 @@ backup_data = {
         "Rock Tomb",
         "Heavy Slam"
       ],
+      "tr_id": 232,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -37718,7 +38814,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Earthquake",
@@ -37726,6 +38822,7 @@ backup_data = {
         "Superpower",
         "Slack Off"
       ],
+      "tr_id": 671,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -37752,7 +38849,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Earthquake",
@@ -37760,6 +38857,7 @@ backup_data = {
         "Superpower",
         "Slack Off"
       ],
+      "tr_id": 723,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37794,6 +38892,7 @@ backup_data = {
         "Ancient Power",
         "Recover"
       ],
+      "tr_id": 232,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -37826,7 +38925,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Speed Swap",
@@ -37834,6 +38933,7 @@ backup_data = {
         "Quick Attack",
         "Thunderbolt"
       ],
+      "tr_id": 234,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37866,6 +38966,7 @@ backup_data = {
         "Thunderbolt",
         "Surf"
       ],
+      "tr_id": 712,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -37898,7 +38999,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -37906,6 +39007,7 @@ backup_data = {
         "Future Sight",
         "Dark Void"
       ],
+      "tr_id": 236,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37930,7 +39032,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Headbutt",
@@ -37938,6 +39040,7 @@ backup_data = {
         "Meditate",
         "Psybeam"
       ],
+      "tr_id": 243,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -37962,7 +39065,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -37970,6 +39073,7 @@ backup_data = {
         "Future Sight",
         "Dark Void"
       ],
+      "tr_id": 416,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -37995,7 +39099,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Hypnosis",
@@ -38003,6 +39107,7 @@ backup_data = {
         "Headbutt",
         "Protect"
       ],
+      "tr_id": 796,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -38029,7 +39134,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Hypnosis",
@@ -38037,6 +39142,7 @@ backup_data = {
         "Headbutt",
         "Protect"
       ],
+      "tr_id": 797,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -38065,7 +39171,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Uproar",
@@ -38073,6 +39179,7 @@ backup_data = {
         "Psychic",
         "Last Resort"
       ],
+      "tr_id": 236,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -38105,6 +39212,7 @@ backup_data = {
         "Flash Cannon",
         "Hidden Power"
       ],
+      "tr_id": 568,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -38136,7 +39244,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -38144,6 +39252,7 @@ backup_data = {
         "Stone Edge",
         "Photon Geyser"
       ],
+      "tr_id": 237,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -38168,7 +39277,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stone Edge",
@@ -38176,6 +39285,7 @@ backup_data = {
         "Explosion",
         "Wonder Room"
       ],
+      "tr_id": 238,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -38200,7 +39310,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stone Edge",
@@ -38208,6 +39318,7 @@ backup_data = {
         "Explosion",
         "Wonder Room"
       ],
+      "tr_id": 239,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -38232,7 +39343,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stone Edge",
@@ -38240,6 +39351,7 @@ backup_data = {
         "Explosion",
         "Wonder Room"
       ],
+      "tr_id": 240,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -38264,7 +39376,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stone Edge",
@@ -38272,6 +39384,7 @@ backup_data = {
         "Explosion",
         "Wonder Room"
       ],
+      "tr_id": 241,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -38296,7 +39409,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stone Edge",
@@ -38304,6 +39417,7 @@ backup_data = {
         "Explosion",
         "Wonder Room"
       ],
+      "tr_id": 242,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -38328,7 +39442,7 @@ backup_data = {
       },
       "item": null,
       "level": 50,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Sunny Day",
@@ -38336,6 +39450,7 @@ backup_data = {
         "Psychic",
         "Flamethrower"
       ],
+      "tr_id": 794,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -38362,7 +39477,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Sunny Day",
@@ -38370,6 +39485,7 @@ backup_data = {
         "Psychic",
         "Flamethrower"
       ],
+      "tr_id": 795,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -38396,7 +39512,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Sunny Day",
@@ -38404,6 +39520,7 @@ backup_data = {
         "Psychic",
         "Flamethrower"
       ],
+      "tr_id": 796,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -38430,7 +39547,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Sunny Day",
@@ -38438,6 +39555,7 @@ backup_data = {
         "Psychic",
         "Flamethrower"
       ],
+      "tr_id": 797,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -38466,7 +39584,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hypnosis",
@@ -38474,6 +39592,7 @@ backup_data = {
         "Calm Mind",
         "Moonblast"
       ],
+      "tr_id": 244,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -38506,6 +39625,7 @@ backup_data = {
         "Focus Blast",
         "Calm Mind"
       ],
+      "tr_id": 519,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -38543,6 +39663,7 @@ backup_data = {
         "Magical Leaf",
         "Shadow Ball"
       ],
+      "tr_id": 656,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -38580,6 +39701,7 @@ backup_data = {
         "Focus Blast",
         "Calm Mind"
       ],
+      "tr_id": 657,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -38617,6 +39739,7 @@ backup_data = {
         "Focus Blast",
         "Thunderbolt"
       ],
+      "tr_id": 658,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -38649,7 +39772,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "False Swipe",
@@ -38657,6 +39780,7 @@ backup_data = {
         "Close Combat",
         "Psycho Cut"
       ],
+      "tr_id": 245,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -38689,6 +39813,7 @@ backup_data = {
         "Bulk Up",
         "Shadow Sneak"
       ],
+      "tr_id": 336,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -38728,6 +39853,7 @@ backup_data = {
         "X-Scissor",
         "Swords Dance"
       ],
+      "tr_id": 660,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -38760,7 +39886,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Shadow Ball",
@@ -38768,6 +39894,7 @@ backup_data = {
         "Mean Look",
         "Destiny Bond"
       ],
+      "tr_id": 247,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -38792,7 +39919,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Shadow Ball",
@@ -38800,6 +39927,7 @@ backup_data = {
         "Mean Look",
         "Destiny Bond"
       ],
+      "tr_id": 417,
       "sub_index": 1,
       "ai_tags": []
     },
@@ -38822,7 +39950,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Shadow Ball",
@@ -38830,6 +39958,7 @@ backup_data = {
         "Mean Look",
         "Destiny Bond"
       ],
+      "tr_id": 670,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -38858,7 +39987,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Earthquake",
@@ -38866,6 +39995,7 @@ backup_data = {
         "Power Split",
         "Destiny Bond"
       ],
+      "tr_id": 247,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -38890,7 +40020,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hex",
@@ -38898,6 +40028,7 @@ backup_data = {
         "Slam",
         "Curse"
       ],
+      "tr_id": 313,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -38924,7 +40055,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hex",
@@ -38932,6 +40063,7 @@ backup_data = {
         "Slam",
         "Curse"
       ],
+      "tr_id": 314,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -38958,7 +40090,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hex",
@@ -38966,6 +40098,7 @@ backup_data = {
         "Slam",
         "Curse"
       ],
+      "tr_id": 315,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -38992,7 +40125,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hex",
@@ -39000,6 +40133,7 @@ backup_data = {
         "Slam",
         "Curse"
       ],
+      "tr_id": 316,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -39026,7 +40160,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hex",
@@ -39034,6 +40168,7 @@ backup_data = {
         "Slam",
         "Curse"
       ],
+      "tr_id": 317,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -39068,6 +40203,7 @@ backup_data = {
         "Shadow Sneak",
         "Stone Edge"
       ],
+      "tr_id": 627,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -39106,6 +40242,7 @@ backup_data = {
         "Shadow Sneak",
         "Will-O-Wisp"
       ],
+      "tr_id": 636,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39140,6 +40277,7 @@ backup_data = {
         "Shadow Sneak",
         "Will-O-Wisp"
       ],
+      "tr_id": 637,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39174,6 +40312,7 @@ backup_data = {
         "Shadow Sneak",
         "Will-O-Wisp"
       ],
+      "tr_id": 638,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39208,6 +40347,7 @@ backup_data = {
         "Shadow Sneak",
         "Will-O-Wisp"
       ],
+      "tr_id": 639,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39236,7 +40376,7 @@ backup_data = {
       },
       "item": null,
       "level": 41,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psychic",
@@ -39244,6 +40384,7 @@ backup_data = {
         "Future Sight",
         "Charm"
       ],
+      "tr_id": 248,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -39270,7 +40411,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -39278,6 +40419,7 @@ backup_data = {
         "Parting Shot",
         "Sky Uppercut"
       ],
+      "tr_id": 249,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39302,7 +40444,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -39310,6 +40452,7 @@ backup_data = {
         "Parting Shot",
         "Sky Uppercut"
       ],
+      "tr_id": 250,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39334,7 +40477,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -39342,6 +40485,7 @@ backup_data = {
         "Parting Shot",
         "Sky Uppercut"
       ],
+      "tr_id": 251,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39366,7 +40510,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -39374,6 +40518,7 @@ backup_data = {
         "Parting Shot",
         "Sky Uppercut"
       ],
+      "tr_id": 252,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39398,7 +40543,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -39406,6 +40551,7 @@ backup_data = {
         "Parting Shot",
         "Sky Uppercut"
       ],
+      "tr_id": 253,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39438,6 +40584,7 @@ backup_data = {
         "Fire Punch",
         "Thunder Punch"
       ],
+      "tr_id": 566,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -39479,6 +40626,7 @@ backup_data = {
         "Megahorn",
         "Scale Shot"
       ],
+      "tr_id": 254,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -39517,6 +40665,7 @@ backup_data = {
         "Megahorn",
         "Scale Shot"
       ],
+      "tr_id": 257,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -39551,6 +40700,7 @@ backup_data = {
         "Megahorn",
         "Scale Shot"
       ],
+      "tr_id": 258,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -39585,6 +40735,7 @@ backup_data = {
         "Megahorn",
         "Scale Shot"
       ],
+      "tr_id": 259,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -39619,6 +40770,7 @@ backup_data = {
         "Megahorn",
         "Scale Shot"
       ],
+      "tr_id": 260,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -39645,7 +40797,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Agility",
@@ -39653,6 +40805,7 @@ backup_data = {
         "Soak",
         "Megahorn"
       ],
+      "tr_id": 441,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -39677,7 +40830,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Agility",
@@ -39685,6 +40838,7 @@ backup_data = {
         "Soak",
         "Megahorn"
       ],
+      "tr_id": 448,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -39709,7 +40863,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
@@ -39717,6 +40871,7 @@ backup_data = {
         "Megahorn",
         "Fishious Rend"
       ],
+      "tr_id": 454,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -39741,7 +40896,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
@@ -39749,6 +40904,7 @@ backup_data = {
         "Megahorn",
         "Fishious Rend"
       ],
+      "tr_id": 460,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -39773,7 +40929,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
@@ -39781,6 +40937,7 @@ backup_data = {
         "Megahorn",
         "Fishious Rend"
       ],
+      "tr_id": 761,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -39815,6 +40972,7 @@ backup_data = {
         "Iron Head",
         "Tailwind"
       ],
+      "tr_id": 254,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -39853,6 +41011,7 @@ backup_data = {
         "Iron Head",
         "Tailwind"
       ],
+      "tr_id": 257,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39887,6 +41046,7 @@ backup_data = {
         "Iron Head",
         "Tailwind"
       ],
+      "tr_id": 258,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39921,6 +41081,7 @@ backup_data = {
         "Iron Head",
         "Tailwind"
       ],
+      "tr_id": 259,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39955,6 +41116,7 @@ backup_data = {
         "Iron Head",
         "Tailwind"
       ],
+      "tr_id": 260,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -39981,7 +41143,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Drill Peck",
@@ -39989,6 +41151,7 @@ backup_data = {
         "Brave Bird",
         "Iron Defense"
       ],
+      "tr_id": 404,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -40021,6 +41184,7 @@ backup_data = {
         "Iron Head",
         "Roost"
       ],
+      "tr_id": 658,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -40051,7 +41215,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scary Face",
@@ -40059,6 +41223,7 @@ backup_data = {
         "Swagger",
         "Brave Bird"
       ],
+      "tr_id": 741,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -40095,6 +41260,7 @@ backup_data = {
         "Earth Power",
         "Ice Beam"
       ],
+      "tr_id": 254,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -40133,6 +41299,7 @@ backup_data = {
         "Earth Power",
         "Ice Beam"
       ],
+      "tr_id": 257,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -40167,6 +41334,7 @@ backup_data = {
         "Earth Power",
         "Ice Beam"
       ],
+      "tr_id": 258,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -40201,6 +41369,7 @@ backup_data = {
         "Earth Power",
         "Ice Beam"
       ],
+      "tr_id": 259,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -40235,6 +41404,7 @@ backup_data = {
         "Earth Power",
         "Ice Beam"
       ],
+      "tr_id": 260,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -40271,6 +41441,7 @@ backup_data = {
         "Air Slash",
         "Sucker Punch"
       ],
+      "tr_id": 261,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -40309,6 +41480,7 @@ backup_data = {
         "Air Slash",
         "Sucker Punch"
       ],
+      "tr_id": 586,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -40349,6 +41521,7 @@ backup_data = {
         "Hammer Arm",
         "Parting Shot"
       ],
+      "tr_id": 261,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -40387,6 +41560,7 @@ backup_data = {
         "Aura Sphere",
         "Nasty Plot"
       ],
+      "tr_id": 586,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -40427,6 +41601,7 @@ backup_data = {
         "Grass Knot",
         "Psychic"
       ],
+      "tr_id": 261,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -40465,6 +41640,7 @@ backup_data = {
         "Grass Knot",
         "Psychic"
       ],
+      "tr_id": 586,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -40505,6 +41681,7 @@ backup_data = {
         "Shadow Ball",
         "Scorching Sands"
       ],
+      "tr_id": 261,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -40545,6 +41722,7 @@ backup_data = {
         "Dragon Claw",
         "Knock Off"
       ],
+      "tr_id": 261,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -40583,6 +41761,7 @@ backup_data = {
         "Zen Headbutt",
         "Headbutt"
       ],
+      "tr_id": 72,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -40623,6 +41802,7 @@ backup_data = {
         "Play Rough",
         "Swords Dance"
       ],
+      "tr_id": 261,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -40661,6 +41841,7 @@ backup_data = {
         "Sucker Punch",
         "Close Combat"
       ],
+      "tr_id": 586,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -40691,7 +41872,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sucker Punch",
@@ -40699,6 +41880,7 @@ backup_data = {
         "Future Sight",
         "Perish Song"
       ],
+      "tr_id": 503,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -40725,7 +41907,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Razor Wind",
@@ -40733,6 +41915,7 @@ backup_data = {
         "Perish Song",
         "Swords Dance"
       ],
+      "tr_id": 546,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -40769,6 +41952,7 @@ backup_data = {
         "Play Rough",
         "Swords Dance"
       ],
+      "tr_id": 261,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -40809,6 +41993,7 @@ backup_data = {
         "Bolt Strike",
         "V-create"
       ],
+      "tr_id": 586,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -40849,6 +42034,7 @@ backup_data = {
         "Dragon Claw",
         "Knock Off"
       ],
+      "tr_id": 586,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -40889,6 +42075,7 @@ backup_data = {
         "Aura Sphere",
         "Nasty Plot"
       ],
+      "tr_id": 586,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -40929,6 +42116,7 @@ backup_data = {
         "Crunch",
         "Mach Punch"
       ],
+      "tr_id": 262,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -40968,6 +42156,7 @@ backup_data = {
         "Fire Blast",
         "Nasty Plot"
       ],
+      "tr_id": 262,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -41005,6 +42194,7 @@ backup_data = {
         "Fire Blast",
         "Nasty Plot"
       ],
+      "tr_id": 332,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -41046,6 +42236,7 @@ backup_data = {
         "Psyshock",
         "Draining Kiss"
       ],
+      "tr_id": 262,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -41083,6 +42274,7 @@ backup_data = {
         "Psyshock",
         "Draining Kiss"
       ],
+      "tr_id": 587,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -41122,6 +42314,7 @@ backup_data = {
         "Thunder Punch",
         "Ice Punch"
       ],
+      "tr_id": 262,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -41161,6 +42354,7 @@ backup_data = {
         "Steel Wing",
         "U-turn"
       ],
+      "tr_id": 587,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41198,6 +42392,7 @@ backup_data = {
         "Will-O-Wisp",
         "U-turn"
       ],
+      "tr_id": 727,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41237,6 +42432,7 @@ backup_data = {
         "Flamethrower",
         "Thunderbolt"
       ],
+      "tr_id": 25,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -41275,6 +42471,7 @@ backup_data = {
         "Shadow Claw",
         "Dragon Dance"
       ],
+      "tr_id": 71,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41315,6 +42512,7 @@ backup_data = {
         "Earthquake",
         "Ice Fang"
       ],
+      "tr_id": 587,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -41352,6 +42550,7 @@ backup_data = {
         "Ice Fang",
         "Brick Break"
       ],
+      "tr_id": 332,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -41393,6 +42592,7 @@ backup_data = {
         "Hidden Power",
         "Recover"
       ],
+      "tr_id": 587,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -41432,6 +42632,7 @@ backup_data = {
         "Focus Blast",
         "Nasty Plot"
       ],
+      "tr_id": 587,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -41461,7 +42662,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dark Pulse",
@@ -41469,6 +42670,7 @@ backup_data = {
         "Hex",
         "Nightmare"
       ],
+      "tr_id": 417,
       "sub_index": 0,
       "ai_tags": []
     },
@@ -41499,6 +42701,7 @@ backup_data = {
         "Focus Blast",
         "Sludge Bomb"
       ],
+      "tr_id": 611,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -41537,6 +42740,7 @@ backup_data = {
         "Shadow Ball",
         "Nasty Plot"
       ],
+      "tr_id": 24,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41575,6 +42779,7 @@ backup_data = {
         "Hex",
         "Sludge"
       ],
+      "tr_id": 659,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41615,6 +42820,7 @@ backup_data = {
         "Focus Blast",
         "Nasty Plot"
       ],
+      "tr_id": 587,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -41652,6 +42858,7 @@ backup_data = {
         "Shadow Ball",
         "Nasty Plot"
       ],
+      "tr_id": 24,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -41690,6 +42897,7 @@ backup_data = {
         "Hex",
         "Sludge"
       ],
+      "tr_id": 659,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -41730,6 +42938,7 @@ backup_data = {
         "Psyshock",
         "Scorching Sands"
       ],
+      "tr_id": 263,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41767,6 +42976,7 @@ backup_data = {
         "Psyshock",
         "Dark Pulse"
       ],
+      "tr_id": 268,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41804,6 +43014,7 @@ backup_data = {
         "Psyshock",
         "Dark Pulse"
       ],
+      "tr_id": 782,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41839,6 +43050,7 @@ backup_data = {
         "Psyshock",
         "Dark Pulse"
       ],
+      "tr_id": 783,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41874,6 +43086,7 @@ backup_data = {
         "Psyshock",
         "Dark Pulse"
       ],
+      "tr_id": 784,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41909,6 +43122,7 @@ backup_data = {
         "Psyshock",
         "Dark Pulse"
       ],
+      "tr_id": 785,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -41946,6 +43160,7 @@ backup_data = {
         "Sucker Punch",
         "Stone Edge"
       ],
+      "tr_id": 263,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -41975,7 +43190,7 @@ backup_data = {
       },
       "item": null,
       "level": 68,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Leaf Storm",
@@ -41983,6 +43198,7 @@ backup_data = {
         "Swords Dance",
         "Thousand Arrows"
       ],
+      "tr_id": 676,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -42017,6 +43233,7 @@ backup_data = {
         "Zen Headbutt",
         "Earthquake"
       ],
+      "tr_id": 263,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -42054,6 +43271,7 @@ backup_data = {
         "Zen Headbutt",
         "Earthquake"
       ],
+      "tr_id": 588,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -42093,6 +43311,7 @@ backup_data = {
         "Sludge Wave",
         "Defog"
       ],
+      "tr_id": 263,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -42130,6 +43349,7 @@ backup_data = {
         "Sludge Wave",
         "Defog"
       ],
+      "tr_id": 588,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -42169,6 +43389,7 @@ backup_data = {
         "Aura Sphere",
         "Flame Charge"
       ],
+      "tr_id": 263,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -42208,6 +43429,7 @@ backup_data = {
         "Solar Beam",
         "Dragon Pulse"
       ],
+      "tr_id": 263,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -42245,6 +43467,7 @@ backup_data = {
         "Flare Blitz",
         "Earthquake"
       ],
+      "tr_id": 857,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -42285,6 +43508,7 @@ backup_data = {
         "Solar Beam",
         "Dragon Pulse"
       ],
+      "tr_id": 263,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -42324,6 +43548,7 @@ backup_data = {
         "Energy Ball",
         "Ice Beam"
       ],
+      "tr_id": 588,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -42361,6 +43586,7 @@ backup_data = {
         "Energy Ball",
         "Blizzard"
       ],
+      "tr_id": 629,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -42399,6 +43625,7 @@ backup_data = {
         "Energy Ball",
         "Blizzard"
       ],
+      "tr_id": 633,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -42433,6 +43660,7 @@ backup_data = {
         "Dazzling Gleam",
         "Freeze-Dry"
       ],
+      "tr_id": 24,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -42473,6 +43701,7 @@ backup_data = {
         "Mach Punch",
         "Earthquake"
       ],
+      "tr_id": 588,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -42512,6 +43741,7 @@ backup_data = {
         "Icicle Spear",
         "Dragon Dance"
       ],
+      "tr_id": 588,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -42551,6 +43781,7 @@ backup_data = {
         "Wood Hammer",
         "Earthquake"
       ],
+      "tr_id": 588,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -42590,6 +43821,7 @@ backup_data = {
         "Wood Hammer",
         "Earthquake"
       ],
+      "tr_id": 588,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -42629,6 +43861,7 @@ backup_data = {
         "Power Gem",
         "Will-O-Wisp"
       ],
+      "tr_id": 860,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -42668,6 +43901,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 860,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -42697,7 +43931,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dive",
@@ -42705,6 +43939,7 @@ backup_data = {
         "Amnesia",
         "Surf"
       ],
+      "tr_id": 345,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -42729,7 +43964,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Drill Peck",
@@ -42737,6 +43972,7 @@ backup_data = {
         "Surf",
         "Hydro Pump"
       ],
+      "tr_id": 406,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -42761,7 +43997,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Drill Peck",
@@ -42769,6 +44005,7 @@ backup_data = {
         "Surf",
         "Hydro Pump"
       ],
+      "tr_id": 409,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -42793,7 +44030,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Drill Peck",
@@ -42801,6 +44038,7 @@ backup_data = {
         "Surf",
         "Hydro Pump"
       ],
+      "tr_id": 410,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -42825,7 +44063,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Drill Peck",
@@ -42833,6 +44071,7 @@ backup_data = {
         "Surf",
         "Hydro Pump"
       ],
+      "tr_id": 411,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -42857,7 +44096,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Drill Peck",
@@ -42865,6 +44104,7 @@ backup_data = {
         "Surf",
         "Hydro Pump"
       ],
+      "tr_id": 412,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -42897,6 +44137,7 @@ backup_data = {
         "Icy Wind",
         "Air Slash"
       ],
+      "tr_id": 493,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -42910,43 +44151,44 @@ backup_data = {
     }
   },
   "Zamazenta": {
-    // "Lvl 85 Elite Four Cynthia ": {
-    //   "ivs": {
-    //     "hp": 31,
-    //     "at": 31,
-    //     "df": 31,
-    //     "sa": 31,
-    //     "sd": 31,
-    //     "sp": 31
-    //   },
-    //   "evs": {
-    //     "hp": 6,
-    //     "at": 252,
-    //     "df": 0,
-    //     "sa": 0,
-    //     "sd": 0,
-    //     "sp": 252
-    //   },
-    //   "item": "Rusted Shield",
-    //   "level": 85,
-    //   "nature": "Jolly",
-    //   "battle_type": "Singles",
-    //   "moves": [
-    //     "Body Press",
-    //     "Iron Defense",
-    //     "Iron Head",
-    //     "Play Rough"
-    //   ],
-    //   "sub_index": 3,
-    //   "ai_tags": [
-    //     "Check Bad Move",
-    //     "Try To Faint",
-    //     "Check Viability",
-    //     "Smart Switching",
-    //     "Omniscient"
-    //   ],
-    //   "ability": "Dauntless Shield"
-    // }
+    "Lvl 85 Elite Four Cynthia ": {
+      "ivs": {
+        "hp": 31,
+        "at": 31,
+        "df": 31,
+        "sa": 31,
+        "sd": 31,
+        "sp": 31
+      },
+      "evs": {
+        "hp": 6,
+        "at": 252,
+        "df": 0,
+        "sa": 0,
+        "sd": 0,
+        "sp": 252
+      },
+      "item": "Rusted Shield",
+      "level": 85,
+      "nature": "Jolly",
+      "battle_type": "Singles",
+      "moves": [
+        "Body Press",
+        "Iron Defense",
+        "Iron Head",
+        "Play Rough"
+      ],
+      "tr_id": 860,
+      "sub_index": 3,
+      "ai_tags": [
+        "Check Bad Move",
+        "Try To Faint",
+        "Check Viability",
+        "Smart Switching",
+        "Omniscient"
+      ],
+      "ability": "Dauntless Shield"
+    }
   },
   "Xerneas": {
     "Lvl 85 Elite Four Cynthia ": {
@@ -42976,6 +44218,7 @@ backup_data = {
         "Hidden Power",
         "Geomancy"
       ],
+      "tr_id": 860,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -43015,6 +44258,7 @@ backup_data = {
         "Stone Edge",
         "Swords Dance"
       ],
+      "tr_id": 860,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -43054,6 +44298,7 @@ backup_data = {
         "Stone Edge",
         "Swords Dance"
       ],
+      "tr_id": 860,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -43085,7 +44330,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rain Dance",
@@ -43093,6 +44338,7 @@ backup_data = {
         "Double-Edge",
         "Blizzard"
       ],
+      "tr_id": 335,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -43121,7 +44367,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Amnesia",
@@ -43129,6 +44375,7 @@ backup_data = {
         "Bounce",
         "Bouncy Bubble"
       ],
+      "tr_id": 343,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -43153,7 +44400,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Amnesia",
@@ -43161,6 +44408,7 @@ backup_data = {
         "Bounce",
         "Bouncy Bubble"
       ],
+      "tr_id": 441,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -43185,7 +44433,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Amnesia",
@@ -43193,6 +44441,7 @@ backup_data = {
         "Bounce",
         "Bouncy Bubble"
       ],
+      "tr_id": 443,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -43217,7 +44466,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mist",
@@ -43225,6 +44474,7 @@ backup_data = {
         "Rest",
         "Water Spout"
       ],
+      "tr_id": 476,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -43249,7 +44499,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dive",
@@ -43257,6 +44507,7 @@ backup_data = {
         "Bouncy Bubble",
         "Hydro Pump"
       ],
+      "tr_id": 667,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -43291,6 +44542,7 @@ backup_data = {
         "Leech Seed",
         "Double Team"
       ],
+      "tr_id": 335,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -43319,7 +44571,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growl",
@@ -43327,6 +44579,7 @@ backup_data = {
         "Nature Power",
         "Aqua Step"
       ],
+      "tr_id": 456,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -43359,6 +44612,7 @@ backup_data = {
         "Aurora Beam",
         "Fake Out"
       ],
+      "tr_id": 512,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -43397,6 +44651,7 @@ backup_data = {
         "Aurora Beam",
         "Fake Out"
       ],
+      "tr_id": 515,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -43431,6 +44686,7 @@ backup_data = {
         "Aurora Beam",
         "Fake Out"
       ],
+      "tr_id": 516,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -43465,6 +44721,7 @@ backup_data = {
         "Aurora Beam",
         "Fake Out"
       ],
+      "tr_id": 517,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -43499,6 +44756,7 @@ backup_data = {
         "Aurora Beam",
         "Fake Out"
       ],
+      "tr_id": 518,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -43525,7 +44783,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growl",
@@ -43533,6 +44791,7 @@ backup_data = {
         "Nature Power",
         "Aqua Step"
       ],
+      "tr_id": 560,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -43559,7 +44818,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Growl",
@@ -43567,6 +44826,7 @@ backup_data = {
         "Nature Power",
         "Aqua Step"
       ],
+      "tr_id": 687,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -43591,7 +44851,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Growl",
@@ -43599,6 +44859,7 @@ backup_data = {
         "Nature Power",
         "Aqua Step"
       ],
+      "tr_id": 688,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -43623,7 +44884,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Growl",
@@ -43631,6 +44892,7 @@ backup_data = {
         "Nature Power",
         "Aqua Step"
       ],
+      "tr_id": 689,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -43655,7 +44917,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Growl",
@@ -43663,6 +44925,7 @@ backup_data = {
         "Nature Power",
         "Aqua Step"
       ],
+      "tr_id": 690,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -43687,7 +44950,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Growl",
@@ -43695,6 +44958,7 @@ backup_data = {
         "Nature Power",
         "Aqua Step"
       ],
+      "tr_id": 691,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -43721,7 +44985,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -43729,6 +44993,7 @@ backup_data = {
         "Ice Beam",
         "Toxic"
       ],
+      "tr_id": 335,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -43757,7 +45022,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Safeguard",
@@ -43765,6 +45030,7 @@ backup_data = {
         "Hydro Pump",
         "Rain Dance"
       ],
+      "tr_id": 459,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -43789,7 +45055,7 @@ backup_data = {
       },
       "item": null,
       "level": 72,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Coil",
@@ -43797,6 +45063,7 @@ backup_data = {
         "Rain Dance",
         "Bouncy Bubble"
       ],
+      "tr_id": 463,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -43829,6 +45096,7 @@ backup_data = {
         "Recover",
         "Toxic"
       ],
+      "tr_id": 662,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -43866,6 +45134,7 @@ backup_data = {
         "Recover",
         "Toxic"
       ],
+      "tr_id": 665,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -43895,7 +45164,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Safeguard",
@@ -43903,6 +45172,7 @@ backup_data = {
         "Hydro Pump",
         "Rain Dance"
       ],
+      "tr_id": 693,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -43937,6 +45207,7 @@ backup_data = {
         "Drill Peck",
         "Protect"
       ],
+      "tr_id": 589,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -43974,6 +45245,7 @@ backup_data = {
         "Flip Turn",
         "Roost"
       ],
+      "tr_id": 590,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -44011,6 +45283,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 744,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -44049,6 +45322,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 858,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -44086,6 +45360,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 859,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -44123,6 +45398,7 @@ backup_data = {
         "Drill Peck",
         "Brick Break"
       ],
+      "tr_id": 227,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -44161,6 +45437,7 @@ backup_data = {
         "Iron Head",
         "Liquidation"
       ],
+      "tr_id": 71,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -44201,6 +45478,7 @@ backup_data = {
         "Drill Peck",
         "Protect"
       ],
+      "tr_id": 589,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -44238,6 +45516,7 @@ backup_data = {
         "Drill Peck",
         "Brick Break"
       ],
+      "tr_id": 227,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -44276,6 +45555,7 @@ backup_data = {
         "Iron Head",
         "Liquidation"
       ],
+      "tr_id": 71,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -44316,6 +45596,7 @@ backup_data = {
         "Aura Sphere",
         "Hydro Pump"
       ],
+      "tr_id": 589,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -44355,6 +45636,7 @@ backup_data = {
         "Calm Mind",
         "Air Slash"
       ],
+      "tr_id": 589,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -44394,6 +45676,7 @@ backup_data = {
         "Flip Turn",
         "Roost"
       ],
+      "tr_id": 590,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -44431,6 +45714,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 744,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -44469,6 +45753,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 858,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -44506,6 +45791,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 859,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -44545,6 +45831,7 @@ backup_data = {
         "Fire Blast",
         "Ice Beam"
       ],
+      "tr_id": 590,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -44584,6 +45871,7 @@ backup_data = {
         "Ice Punch",
         "Hammer Arm"
       ],
+      "tr_id": 590,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -44621,6 +45909,7 @@ backup_data = {
         "Zen Headbutt",
         "Earthquake"
       ],
+      "tr_id": 525,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -44658,6 +45947,7 @@ backup_data = {
         "Zen Headbutt",
         "Earthquake"
       ],
+      "tr_id": 534,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -44695,6 +45985,7 @@ backup_data = {
         "Zen Headbutt",
         "Earthquake"
       ],
+      "tr_id": 662,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -44732,6 +46023,7 @@ backup_data = {
         "Zen Headbutt",
         "Earthquake"
       ],
+      "tr_id": 665,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -44761,7 +46053,7 @@ backup_data = {
       },
       "item": null,
       "level": 78,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Earthquake",
@@ -44769,6 +46061,7 @@ backup_data = {
         "Meteor Mash",
         "Shadow Ball"
       ],
+      "tr_id": 804,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -44805,6 +46098,7 @@ backup_data = {
         "Energy Ball",
         "Aura Sphere"
       ],
+      "tr_id": 264,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -44813,7 +46107,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "Soul-Heart"
+      "ability": "Soul Heart"
     }
   },
   "Archaludon": {
@@ -44844,6 +46138,7 @@ backup_data = {
         "Electro Shot",
         "Dark Pulse"
       ],
+      "tr_id": 264,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -44883,6 +46178,7 @@ backup_data = {
         "Stomping Tantrum",
         "Dragon Dance"
       ],
+      "tr_id": 264,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -44920,6 +46216,7 @@ backup_data = {
         "Burning Bulwark",
         "Morning Sun"
       ],
+      "tr_id": 74,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -44960,6 +46257,7 @@ backup_data = {
         "Earth Power",
         "Extreme Speed"
       ],
+      "tr_id": 264,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -44999,6 +46297,7 @@ backup_data = {
         "Bulldoze",
         "Rock Smash"
       ],
+      "tr_id": 265,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -45036,6 +46335,7 @@ backup_data = {
         "Bulldoze",
         "Rock Smash"
       ],
+      "tr_id": 770,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -45071,6 +46371,7 @@ backup_data = {
         "Bulldoze",
         "Rock Smash"
       ],
+      "tr_id": 771,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -45106,6 +46407,7 @@ backup_data = {
         "Bulldoze",
         "Rock Smash"
       ],
+      "tr_id": 772,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -45141,6 +46443,7 @@ backup_data = {
         "Bulldoze",
         "Rock Smash"
       ],
+      "tr_id": 773,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -45178,6 +46481,7 @@ backup_data = {
         "Yawn",
         "Sandstorm"
       ],
+      "tr_id": 265,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -45215,6 +46519,7 @@ backup_data = {
         "Yawn",
         "Sandstorm"
       ],
+      "tr_id": 770,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -45250,6 +46555,7 @@ backup_data = {
         "Yawn",
         "Sandstorm"
       ],
+      "tr_id": 771,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -45285,6 +46591,7 @@ backup_data = {
         "Yawn",
         "Sandstorm"
       ],
+      "tr_id": 772,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -45320,6 +46627,7 @@ backup_data = {
         "Yawn",
         "Sandstorm"
       ],
+      "tr_id": 773,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -45356,6 +46664,7 @@ backup_data = {
         "Quick Attack",
         "Bulldoze"
       ],
+      "tr_id": 265,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -45392,6 +46701,7 @@ backup_data = {
         "Quick Attack",
         "Bulldoze"
       ],
+      "tr_id": 770,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -45426,6 +46736,7 @@ backup_data = {
         "Quick Attack",
         "Bulldoze"
       ],
+      "tr_id": 771,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -45460,6 +46771,7 @@ backup_data = {
         "Quick Attack",
         "Bulldoze"
       ],
+      "tr_id": 772,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -45494,6 +46806,7 @@ backup_data = {
         "Quick Attack",
         "Bulldoze"
       ],
+      "tr_id": 773,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -45531,6 +46844,7 @@ backup_data = {
         "Bulldoze",
         "Thunder Wave"
       ],
+      "tr_id": 265,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -45568,6 +46882,7 @@ backup_data = {
         "Bulldoze",
         "Thunder Wave"
       ],
+      "tr_id": 770,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -45603,6 +46918,7 @@ backup_data = {
         "Bulldoze",
         "Thunder Wave"
       ],
+      "tr_id": 771,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -45638,6 +46954,7 @@ backup_data = {
         "Bulldoze",
         "Thunder Wave"
       ],
+      "tr_id": 772,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -45673,6 +46990,7 @@ backup_data = {
         "Bulldoze",
         "Thunder Wave"
       ],
+      "tr_id": 773,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -45710,6 +47028,7 @@ backup_data = {
         "Hidden Power",
         "Draining Kiss"
       ],
+      "tr_id": 266,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -45747,6 +47066,7 @@ backup_data = {
         "Hidden Power",
         "Draining Kiss"
       ],
+      "tr_id": 774,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -45782,6 +47102,7 @@ backup_data = {
         "Hidden Power",
         "Draining Kiss"
       ],
+      "tr_id": 775,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -45817,6 +47138,7 @@ backup_data = {
         "Hidden Power",
         "Draining Kiss"
       ],
+      "tr_id": 776,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -45852,6 +47174,7 @@ backup_data = {
         "Hidden Power",
         "Draining Kiss"
       ],
+      "tr_id": 777,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -45889,6 +47212,7 @@ backup_data = {
         "Bulldoze",
         "Cut"
       ],
+      "tr_id": 266,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -45918,7 +47242,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slash",
@@ -45926,6 +47250,7 @@ backup_data = {
         "Ice Ball",
         "Spiky Shield"
       ],
+      "tr_id": 547,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -45958,6 +47283,7 @@ backup_data = {
         "Ice Ball",
         "Spiky Shield"
       ],
+      "tr_id": 715,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -45990,6 +47316,7 @@ backup_data = {
         "Bulldoze",
         "Cut"
       ],
+      "tr_id": 774,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -46025,6 +47352,7 @@ backup_data = {
         "Bulldoze",
         "Cut"
       ],
+      "tr_id": 775,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -46060,6 +47388,7 @@ backup_data = {
         "Bulldoze",
         "Cut"
       ],
+      "tr_id": 776,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -46095,6 +47424,7 @@ backup_data = {
         "Bulldoze",
         "Cut"
       ],
+      "tr_id": 777,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -46132,6 +47462,7 @@ backup_data = {
         "Bulldoze",
         "Rock Tomb"
       ],
+      "tr_id": 266,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -46169,6 +47500,7 @@ backup_data = {
         "Bulldoze",
         "Rock Tomb"
       ],
+      "tr_id": 774,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -46204,6 +47536,7 @@ backup_data = {
         "Bulldoze",
         "Rock Tomb"
       ],
+      "tr_id": 775,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -46239,6 +47572,7 @@ backup_data = {
         "Bulldoze",
         "Rock Tomb"
       ],
+      "tr_id": 776,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -46274,6 +47608,7 @@ backup_data = {
         "Bulldoze",
         "Rock Tomb"
       ],
+      "tr_id": 777,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -46311,6 +47646,7 @@ backup_data = {
         "Low Sweep",
         "Thunder Punch"
       ],
+      "tr_id": 266,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -46348,6 +47684,7 @@ backup_data = {
         "Low Sweep",
         "Thunder Punch"
       ],
+      "tr_id": 774,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -46383,6 +47720,7 @@ backup_data = {
         "Low Sweep",
         "Thunder Punch"
       ],
+      "tr_id": 775,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -46418,6 +47756,7 @@ backup_data = {
         "Low Sweep",
         "Thunder Punch"
       ],
+      "tr_id": 776,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -46453,6 +47792,7 @@ backup_data = {
         "Low Sweep",
         "Thunder Punch"
       ],
+      "tr_id": 777,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -46490,6 +47830,7 @@ backup_data = {
         "Draining Kiss",
         "Hidden Power"
       ],
+      "tr_id": 267,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -46519,7 +47860,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Thunder Shock",
@@ -46527,6 +47868,7 @@ backup_data = {
         "Charm",
         "Shock Wave"
       ],
+      "tr_id": 605,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -46559,6 +47901,7 @@ backup_data = {
         "Draining Kiss",
         "Hidden Power"
       ],
+      "tr_id": 778,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -46594,6 +47937,7 @@ backup_data = {
         "Draining Kiss",
         "Hidden Power"
       ],
+      "tr_id": 779,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -46629,6 +47973,7 @@ backup_data = {
         "Draining Kiss",
         "Hidden Power"
       ],
+      "tr_id": 780,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -46664,6 +48009,7 @@ backup_data = {
         "Draining Kiss",
         "Hidden Power"
       ],
+      "tr_id": 781,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -46701,6 +48047,7 @@ backup_data = {
         "Volt Switch",
         "Roost"
       ],
+      "tr_id": 267,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -46738,6 +48085,7 @@ backup_data = {
         "Discharge",
         "Weather Ball"
       ],
+      "tr_id": 300,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -46776,6 +48124,7 @@ backup_data = {
         "Discharge",
         "Hurricane"
       ],
+      "tr_id": 674,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -46800,7 +48149,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Agility",
@@ -46808,6 +48157,7 @@ backup_data = {
         "Discharge",
         "Hurricane"
       ],
+      "tr_id": 758,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -46842,6 +48192,7 @@ backup_data = {
         "Volt Switch",
         "Roost"
       ],
+      "tr_id": 778,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -46877,6 +48228,7 @@ backup_data = {
         "Volt Switch",
         "Roost"
       ],
+      "tr_id": 779,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -46912,6 +48264,7 @@ backup_data = {
         "Volt Switch",
         "Roost"
       ],
+      "tr_id": 780,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -46947,6 +48300,7 @@ backup_data = {
         "Volt Switch",
         "Roost"
       ],
+      "tr_id": 781,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -46984,6 +48338,7 @@ backup_data = {
         "Volt Switch",
         "Tri Attack"
       ],
+      "tr_id": 267,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -47013,7 +48368,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sonic Boom",
@@ -47021,6 +48376,7 @@ backup_data = {
         "Mirror Shot",
         "Metal Sound"
       ],
+      "tr_id": 352,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -47053,6 +48409,7 @@ backup_data = {
         "Volt Switch",
         "Tri Attack"
       ],
+      "tr_id": 778,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -47088,6 +48445,7 @@ backup_data = {
         "Volt Switch",
         "Tri Attack"
       ],
+      "tr_id": 779,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -47123,6 +48481,7 @@ backup_data = {
         "Volt Switch",
         "Tri Attack"
       ],
+      "tr_id": 780,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -47158,6 +48517,7 @@ backup_data = {
         "Volt Switch",
         "Tri Attack"
       ],
+      "tr_id": 781,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -47195,6 +48555,7 @@ backup_data = {
         "Energy Ball",
         "Charge Beam"
       ],
+      "tr_id": 267,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -47232,6 +48593,7 @@ backup_data = {
         "Energy Ball",
         "Charge Beam"
       ],
+      "tr_id": 778,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -47267,6 +48629,7 @@ backup_data = {
         "Energy Ball",
         "Charge Beam"
       ],
+      "tr_id": 779,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -47302,6 +48665,7 @@ backup_data = {
         "Energy Ball",
         "Charge Beam"
       ],
+      "tr_id": 780,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -47337,6 +48701,7 @@ backup_data = {
         "Energy Ball",
         "Charge Beam"
       ],
+      "tr_id": 781,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -47374,6 +48739,7 @@ backup_data = {
         "Psychic Fangs",
         "Ice Fang"
       ],
+      "tr_id": 267,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -47403,7 +48769,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -47411,6 +48777,7 @@ backup_data = {
         "Zing Zap",
         "Volt Tackle"
       ],
+      "tr_id": 436,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -47443,6 +48810,7 @@ backup_data = {
         "Psychic Fangs",
         "Ice Fang"
       ],
+      "tr_id": 778,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -47478,6 +48846,7 @@ backup_data = {
         "Psychic Fangs",
         "Ice Fang"
       ],
+      "tr_id": 779,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -47513,6 +48882,7 @@ backup_data = {
         "Psychic Fangs",
         "Ice Fang"
       ],
+      "tr_id": 780,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -47548,6 +48918,7 @@ backup_data = {
         "Psychic Fangs",
         "Ice Fang"
       ],
+      "tr_id": 781,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -47583,6 +48954,7 @@ backup_data = {
         "Thunder Fang",
         "Baby-Doll Eyes"
       ],
+      "tr_id": 72,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -47623,6 +48995,7 @@ backup_data = {
         "Psychic Fangs",
         "Ice Fang"
       ],
+      "tr_id": 267,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -47660,6 +49033,7 @@ backup_data = {
         "Psychic Fangs",
         "Ice Fang"
       ],
+      "tr_id": 778,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -47695,6 +49069,7 @@ backup_data = {
         "Psychic Fangs",
         "Ice Fang"
       ],
+      "tr_id": 779,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -47730,6 +49105,7 @@ backup_data = {
         "Psychic Fangs",
         "Ice Fang"
       ],
+      "tr_id": 780,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -47765,6 +49141,7 @@ backup_data = {
         "Psychic Fangs",
         "Ice Fang"
       ],
+      "tr_id": 781,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -47800,6 +49177,7 @@ backup_data = {
         "Thunder Fang",
         "Baby-Doll Eyes"
       ],
+      "tr_id": 72,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -47840,6 +49218,7 @@ backup_data = {
         "Dragon Pulse",
         "Hidden Power"
       ],
+      "tr_id": 268,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -47877,6 +49256,7 @@ backup_data = {
         "Dragon Pulse",
         "Hidden Power"
       ],
+      "tr_id": 782,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -47912,6 +49292,7 @@ backup_data = {
         "Dragon Pulse",
         "Hidden Power"
       ],
+      "tr_id": 783,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -47947,6 +49328,7 @@ backup_data = {
         "Dragon Pulse",
         "Hidden Power"
       ],
+      "tr_id": 784,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -47982,6 +49364,7 @@ backup_data = {
         "Dragon Pulse",
         "Hidden Power"
       ],
+      "tr_id": 785,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -48019,6 +49402,7 @@ backup_data = {
         "Scorching Sands",
         "Sunny Day"
       ],
+      "tr_id": 268,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -48048,7 +49432,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -48056,6 +49440,7 @@ backup_data = {
         "Solar Beam",
         "Overheat"
       ],
+      "tr_id": 670,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -48090,6 +49475,7 @@ backup_data = {
         "Scorching Sands",
         "Sunny Day"
       ],
+      "tr_id": 782,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -48125,6 +49511,7 @@ backup_data = {
         "Scorching Sands",
         "Sunny Day"
       ],
+      "tr_id": 783,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -48160,6 +49547,7 @@ backup_data = {
         "Scorching Sands",
         "Sunny Day"
       ],
+      "tr_id": 784,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -48195,6 +49583,7 @@ backup_data = {
         "Scorching Sands",
         "Sunny Day"
       ],
+      "tr_id": 785,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -48232,6 +49621,7 @@ backup_data = {
         "Hidden Power",
         "Thunder Wave"
       ],
+      "tr_id": 268,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -48269,6 +49659,7 @@ backup_data = {
         "Hidden Power",
         "Thunder Wave"
       ],
+      "tr_id": 782,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -48304,6 +49695,7 @@ backup_data = {
         "Hidden Power",
         "Thunder Wave"
       ],
+      "tr_id": 783,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -48339,6 +49731,7 @@ backup_data = {
         "Hidden Power",
         "Thunder Wave"
       ],
+      "tr_id": 784,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -48374,6 +49767,7 @@ backup_data = {
         "Hidden Power",
         "Thunder Wave"
       ],
+      "tr_id": 785,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -48411,6 +49805,7 @@ backup_data = {
         "Knock Off",
         "Thunder Punch"
       ],
+      "tr_id": 268,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -48448,6 +49843,7 @@ backup_data = {
         "Knock Off",
         "Rock Slide"
       ],
+      "tr_id": 782,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -48483,6 +49879,7 @@ backup_data = {
         "Knock Off",
         "Rock Slide"
       ],
+      "tr_id": 783,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -48518,6 +49915,7 @@ backup_data = {
         "Knock Off",
         "Rock Slide"
       ],
+      "tr_id": 784,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -48553,6 +49951,7 @@ backup_data = {
         "Knock Off",
         "Rock Slide"
       ],
+      "tr_id": 785,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -48588,6 +49987,7 @@ backup_data = {
         "Pyro Ball",
         "Acrobatics"
       ],
+      "tr_id": 45,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -48626,6 +50026,7 @@ backup_data = {
         "Close Combat",
         "Knock Off"
       ],
+      "tr_id": 74,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -48666,6 +50067,7 @@ backup_data = {
         "Knock Off",
         "Thunder Punch"
       ],
+      "tr_id": 268,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -48703,6 +50105,7 @@ backup_data = {
         "Knock Off",
         "Rock Slide"
       ],
+      "tr_id": 782,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -48738,6 +50141,7 @@ backup_data = {
         "Knock Off",
         "Rock Slide"
       ],
+      "tr_id": 783,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -48773,6 +50177,7 @@ backup_data = {
         "Knock Off",
         "Rock Slide"
       ],
+      "tr_id": 784,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -48808,6 +50213,7 @@ backup_data = {
         "Knock Off",
         "Rock Slide"
       ],
+      "tr_id": 785,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -48843,6 +50249,7 @@ backup_data = {
         "Pyro Ball",
         "Acrobatics"
       ],
+      "tr_id": 45,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -48881,6 +50288,7 @@ backup_data = {
         "Close Combat",
         "Knock Off"
       ],
+      "tr_id": 74,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -48921,6 +50329,7 @@ backup_data = {
         "Hyper Voice",
         "Sludge Bomb"
       ],
+      "tr_id": 269,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -48958,6 +50367,7 @@ backup_data = {
         "Hyper Voice",
         "Sludge Bomb"
       ],
+      "tr_id": 786,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -48993,6 +50403,7 @@ backup_data = {
         "Hyper Voice",
         "Sludge Bomb"
       ],
+      "tr_id": 787,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -49028,6 +50439,7 @@ backup_data = {
         "Hyper Voice",
         "Sludge Bomb"
       ],
+      "tr_id": 788,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -49063,6 +50475,7 @@ backup_data = {
         "Hyper Voice",
         "Sludge Bomb"
       ],
+      "tr_id": 789,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -49100,6 +50513,7 @@ backup_data = {
         "Bulk Up",
         "Knock Off"
       ],
+      "tr_id": 269,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -49137,6 +50551,7 @@ backup_data = {
         "Bulk Up",
         "Knock Off"
       ],
+      "tr_id": 786,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -49172,6 +50587,7 @@ backup_data = {
         "Bulk Up",
         "Knock Off"
       ],
+      "tr_id": 787,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -49207,6 +50623,7 @@ backup_data = {
         "Bulk Up",
         "Knock Off"
       ],
+      "tr_id": 788,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -49242,6 +50659,7 @@ backup_data = {
         "Bulk Up",
         "Knock Off"
       ],
+      "tr_id": 789,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -49279,6 +50697,7 @@ backup_data = {
         "Hyper Voice",
         "Hidden Power"
       ],
+      "tr_id": 269,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -49316,6 +50735,7 @@ backup_data = {
         "Hyper Voice",
         "Hidden Power"
       ],
+      "tr_id": 786,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -49351,6 +50771,7 @@ backup_data = {
         "Hyper Voice",
         "Hidden Power"
       ],
+      "tr_id": 787,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -49386,6 +50807,7 @@ backup_data = {
         "Hyper Voice",
         "Hidden Power"
       ],
+      "tr_id": 788,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -49421,6 +50843,7 @@ backup_data = {
         "Hyper Voice",
         "Hidden Power"
       ],
+      "tr_id": 789,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -49458,6 +50881,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 269,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -49495,6 +50919,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 786,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -49530,6 +50955,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 787,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -49565,6 +50991,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 788,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -49600,6 +51027,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 789,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -49637,6 +51065,7 @@ backup_data = {
         "Power-Up Punch",
         "Earthquake"
       ],
+      "tr_id": 269,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -49674,6 +51103,7 @@ backup_data = {
         "Power-Up Punch",
         "Earthquake"
       ],
+      "tr_id": 786,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -49709,6 +51139,7 @@ backup_data = {
         "Power-Up Punch",
         "Earthquake"
       ],
+      "tr_id": 787,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -49744,6 +51175,7 @@ backup_data = {
         "Power-Up Punch",
         "Earthquake"
       ],
+      "tr_id": 788,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -49779,6 +51211,7 @@ backup_data = {
         "Power-Up Punch",
         "Earthquake"
       ],
+      "tr_id": 789,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -49816,6 +51249,7 @@ backup_data = {
         "Close Combat",
         "Sucker Punch"
       ],
+      "tr_id": 269,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -49846,7 +51280,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scary Face",
@@ -49854,6 +51288,7 @@ backup_data = {
         "Taunt",
         "Double-Edge"
       ],
+      "tr_id": 375,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -49878,7 +51313,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Counter",
@@ -49886,6 +51321,7 @@ backup_data = {
         "Double-Edge",
         "Sucker Punch"
       ],
+      "tr_id": 567,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -49910,7 +51346,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scary Face",
@@ -49918,6 +51354,7 @@ backup_data = {
         "Taunt",
         "Double-Edge"
       ],
+      "tr_id": 577,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -49952,6 +51389,7 @@ backup_data = {
         "Close Combat",
         "Sucker Punch"
       ],
+      "tr_id": 786,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -49988,6 +51426,7 @@ backup_data = {
         "Close Combat",
         "Sucker Punch"
       ],
+      "tr_id": 787,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -50024,6 +51463,7 @@ backup_data = {
         "Close Combat",
         "Sucker Punch"
       ],
+      "tr_id": 788,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -50060,6 +51500,7 @@ backup_data = {
         "Close Combat",
         "Sucker Punch"
       ],
+      "tr_id": 789,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -50098,6 +51539,7 @@ backup_data = {
         "Close Combat",
         "U-turn"
       ],
+      "tr_id": 270,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -50127,7 +51569,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Agility",
@@ -50135,6 +51577,7 @@ backup_data = {
         "Final Gambit",
         "Double-Edge"
       ],
+      "tr_id": 594,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -50161,7 +51604,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Agility",
@@ -50169,6 +51612,7 @@ backup_data = {
         "Final Gambit",
         "Double-Edge"
       ],
+      "tr_id": 687,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -50193,7 +51637,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Agility",
@@ -50201,6 +51645,7 @@ backup_data = {
         "Final Gambit",
         "Double-Edge"
       ],
+      "tr_id": 688,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -50225,7 +51670,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Agility",
@@ -50233,6 +51678,7 @@ backup_data = {
         "Final Gambit",
         "Double-Edge"
       ],
+      "tr_id": 689,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -50257,7 +51703,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Agility",
@@ -50265,6 +51711,7 @@ backup_data = {
         "Final Gambit",
         "Double-Edge"
       ],
+      "tr_id": 690,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -50289,7 +51736,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Agility",
@@ -50297,6 +51744,7 @@ backup_data = {
         "Final Gambit",
         "Double-Edge"
       ],
+      "tr_id": 691,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -50321,7 +51769,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dual Wingbeat",
@@ -50329,6 +51777,7 @@ backup_data = {
         "Agility",
         "Brave Bird"
       ],
+      "tr_id": 742,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -50361,6 +51810,7 @@ backup_data = {
         "Close Combat",
         "U-turn"
       ],
+      "tr_id": 790,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -50396,6 +51846,7 @@ backup_data = {
         "Close Combat",
         "U-turn"
       ],
+      "tr_id": 791,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -50431,6 +51882,7 @@ backup_data = {
         "Close Combat",
         "U-turn"
       ],
+      "tr_id": 792,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -50466,6 +51918,7 @@ backup_data = {
         "Close Combat",
         "U-turn"
       ],
+      "tr_id": 793,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -50503,6 +51956,7 @@ backup_data = {
         "Giga Drain",
         "Ice Beam"
       ],
+      "tr_id": 270,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -50540,6 +51994,7 @@ backup_data = {
         "Giga Drain",
         "Ice Beam"
       ],
+      "tr_id": 790,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -50575,6 +52030,7 @@ backup_data = {
         "Giga Drain",
         "Ice Beam"
       ],
+      "tr_id": 791,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -50610,6 +52066,7 @@ backup_data = {
         "Giga Drain",
         "Ice Beam"
       ],
+      "tr_id": 792,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -50645,6 +52102,7 @@ backup_data = {
         "Giga Drain",
         "Ice Beam"
       ],
+      "tr_id": 793,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -50682,6 +52140,7 @@ backup_data = {
         "Sludge Wave",
         "Hidden Power"
       ],
+      "tr_id": 270,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -50719,6 +52178,7 @@ backup_data = {
         "Sludge Wave",
         "Hidden Power"
       ],
+      "tr_id": 790,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -50754,6 +52214,7 @@ backup_data = {
         "Sludge Wave",
         "Hidden Power"
       ],
+      "tr_id": 791,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -50789,6 +52250,7 @@ backup_data = {
         "Sludge Wave",
         "Hidden Power"
       ],
+      "tr_id": 792,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -50824,6 +52286,7 @@ backup_data = {
         "Sludge Wave",
         "Hidden Power"
       ],
+      "tr_id": 793,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -50861,6 +52324,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 270,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -50890,7 +52354,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Dragon Claw",
@@ -50898,6 +52362,7 @@ backup_data = {
         "Moonblast",
         "Sky Attack"
       ],
+      "tr_id": 678,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -50930,6 +52395,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 790,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -50965,6 +52431,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 791,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -51000,6 +52467,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 792,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -51035,6 +52503,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 793,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -51072,6 +52541,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 270,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -51109,6 +52579,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 790,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -51144,6 +52615,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 791,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -51179,6 +52651,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 792,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -51214,6 +52687,7 @@ backup_data = {
         "Dragon Claw",
         "Return"
       ],
+      "tr_id": 793,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -51251,6 +52725,7 @@ backup_data = {
         "Psychic",
         "Thunderbolt"
       ],
+      "tr_id": 568,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -51290,6 +52765,7 @@ backup_data = {
         "Crunch",
         "Brick Break"
       ],
+      "tr_id": 568,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -51319,7 +52795,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Endure",
@@ -51327,6 +52803,7 @@ backup_data = {
         "Sucker Punch",
         "Reversal"
       ],
+      "tr_id": 506,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -51361,6 +52838,7 @@ backup_data = {
         "Crunch",
         "Brick Break"
       ],
+      "tr_id": 568,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -51400,6 +52878,7 @@ backup_data = {
         "Sacred Sword",
         "Night Slash"
       ],
+      "tr_id": 569,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -51439,6 +52918,7 @@ backup_data = {
         "Focus Blast",
         "Shadow Ball"
       ],
+      "tr_id": 569,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -51478,6 +52958,7 @@ backup_data = {
         "Surf",
         "Flip Turn"
       ],
+      "tr_id": 272,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -51515,6 +52996,7 @@ backup_data = {
         "Moonblast",
         "Grass Knot"
       ],
+      "tr_id": 661,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -51552,6 +53034,7 @@ backup_data = {
         "Moonblast",
         "Grass Knot"
       ],
+      "tr_id": 664,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -51589,6 +53072,7 @@ backup_data = {
         "Surf",
         "Flip Turn"
       ],
+      "tr_id": 798,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -51624,6 +53108,7 @@ backup_data = {
         "Surf",
         "Flip Turn"
       ],
+      "tr_id": 799,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -51659,6 +53144,7 @@ backup_data = {
         "Surf",
         "Flip Turn"
       ],
+      "tr_id": 800,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -51694,6 +53180,7 @@ backup_data = {
         "Surf",
         "Flip Turn"
       ],
+      "tr_id": 801,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -51731,6 +53218,7 @@ backup_data = {
         "Stone Edge",
         "Brick Break"
       ],
+      "tr_id": 272,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -51768,6 +53256,7 @@ backup_data = {
         "Stone Edge",
         "Brick Break"
       ],
+      "tr_id": 798,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -51803,6 +53292,7 @@ backup_data = {
         "Stone Edge",
         "Brick Break"
       ],
+      "tr_id": 799,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -51838,6 +53328,7 @@ backup_data = {
         "Stone Edge",
         "Brick Break"
       ],
+      "tr_id": 800,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -51873,6 +53364,7 @@ backup_data = {
         "Stone Edge",
         "Brick Break"
       ],
+      "tr_id": 801,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -51910,6 +53402,7 @@ backup_data = {
         "Wild Charge",
         "Swords Dance"
       ],
+      "tr_id": 272,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -51947,6 +53440,7 @@ backup_data = {
         "Covet",
         "Quick Attack"
       ],
+      "tr_id": 527,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -51985,6 +53479,7 @@ backup_data = {
         "Play Rough",
         "Wild Charge"
       ],
+      "tr_id": 528,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -52022,6 +53517,7 @@ backup_data = {
         "Covet",
         "Quick Attack"
       ],
+      "tr_id": 536,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -52060,6 +53556,7 @@ backup_data = {
         "Play Rough",
         "Wild Charge"
       ],
+      "tr_id": 537,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -52097,6 +53594,7 @@ backup_data = {
         "Wild Charge",
         "Swords Dance"
       ],
+      "tr_id": 798,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -52132,6 +53630,7 @@ backup_data = {
         "Wild Charge",
         "Swords Dance"
       ],
+      "tr_id": 799,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -52167,6 +53666,7 @@ backup_data = {
         "Wild Charge",
         "Swords Dance"
       ],
+      "tr_id": 800,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -52202,6 +53702,7 @@ backup_data = {
         "Wild Charge",
         "Swords Dance"
       ],
+      "tr_id": 801,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -52237,6 +53738,7 @@ backup_data = {
         "Play Rough",
         "Wild Charge"
       ],
+      "tr_id": 71,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -52277,6 +53779,7 @@ backup_data = {
         "Close Combat",
         "Play Rough"
       ],
+      "tr_id": 272,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -52315,6 +53818,7 @@ backup_data = {
         "Close Combat",
         "Play Rough"
       ],
+      "tr_id": 798,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -52351,6 +53855,7 @@ backup_data = {
         "Close Combat",
         "Play Rough"
       ],
+      "tr_id": 799,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -52387,6 +53892,7 @@ backup_data = {
         "Close Combat",
         "Play Rough"
       ],
+      "tr_id": 800,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -52423,6 +53929,7 @@ backup_data = {
         "Close Combat",
         "Play Rough"
       ],
+      "tr_id": 801,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -52461,6 +53968,7 @@ backup_data = {
         "Moonblast",
         "Psyshock"
       ],
+      "tr_id": 272,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -52498,6 +54006,7 @@ backup_data = {
         "Moonblast",
         "Psyshock"
       ],
+      "tr_id": 798,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -52533,6 +54042,7 @@ backup_data = {
         "Moonblast",
         "Psyshock"
       ],
+      "tr_id": 799,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -52568,6 +54078,7 @@ backup_data = {
         "Moonblast",
         "Psyshock"
       ],
+      "tr_id": 800,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -52603,6 +54114,7 @@ backup_data = {
         "Moonblast",
         "Psyshock"
       ],
+      "tr_id": 801,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -52638,6 +54150,7 @@ backup_data = {
         "Mystical Fire",
         "Power Gem"
       ],
+      "tr_id": 25,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -52678,6 +54191,7 @@ backup_data = {
         "Calm Mind",
         "Earth Power"
       ],
+      "tr_id": 272,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -52715,6 +54229,7 @@ backup_data = {
         "Calm Mind",
         "Earth Power"
       ],
+      "tr_id": 798,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -52750,6 +54265,7 @@ backup_data = {
         "Calm Mind",
         "Earth Power"
       ],
+      "tr_id": 799,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -52785,6 +54301,7 @@ backup_data = {
         "Calm Mind",
         "Earth Power"
       ],
+      "tr_id": 800,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -52820,6 +54337,7 @@ backup_data = {
         "Calm Mind",
         "Earth Power"
       ],
+      "tr_id": 801,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -52857,6 +54375,7 @@ backup_data = {
         "Calm Mind",
         "Earth Power"
       ],
+      "tr_id": 272,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -52894,6 +54413,7 @@ backup_data = {
         "Calm Mind",
         "Earth Power"
       ],
+      "tr_id": 798,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -52929,6 +54449,7 @@ backup_data = {
         "Calm Mind",
         "Earth Power"
       ],
+      "tr_id": 799,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -52964,6 +54485,7 @@ backup_data = {
         "Calm Mind",
         "Earth Power"
       ],
+      "tr_id": 800,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -52999,6 +54521,7 @@ backup_data = {
         "Calm Mind",
         "Earth Power"
       ],
+      "tr_id": 801,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -53028,7 +54551,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growth",
@@ -53036,6 +54559,7 @@ backup_data = {
         "Mega Drain",
         "Synthesis"
       ],
+      "tr_id": 273,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -53060,7 +54584,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growth",
@@ -53068,6 +54592,7 @@ backup_data = {
         "Mega Drain",
         "Synthesis"
       ],
+      "tr_id": 276,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -53092,7 +54617,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growth",
@@ -53100,6 +54625,7 @@ backup_data = {
         "Mega Drain",
         "Synthesis"
       ],
+      "tr_id": 277,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -53124,7 +54650,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growth",
@@ -53132,6 +54658,7 @@ backup_data = {
         "Mega Drain",
         "Synthesis"
       ],
+      "tr_id": 278,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -53156,7 +54683,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growth",
@@ -53164,6 +54691,7 @@ backup_data = {
         "Mega Drain",
         "Synthesis"
       ],
+      "tr_id": 279,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -53188,7 +54716,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Solar Beam",
@@ -53196,6 +54724,7 @@ backup_data = {
         "Cotton Guard",
         "After You"
       ],
+      "tr_id": 763,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -53230,6 +54759,7 @@ backup_data = {
         "Accelerock",
         "Night Slash"
       ],
+      "tr_id": 274,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -53270,6 +54800,7 @@ backup_data = {
         "Leaf Blade",
         "Strength Sap"
       ],
+      "tr_id": 274,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -53310,6 +54841,7 @@ backup_data = {
         "Earthquake",
         "Heavy Slam"
       ],
+      "tr_id": 274,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -53340,7 +54872,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crunch",
@@ -53348,6 +54880,7 @@ backup_data = {
         "High Horsepower",
         "Wood Hammer"
       ],
+      "tr_id": 546,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -53380,6 +54913,7 @@ backup_data = {
         "Crunch",
         "Last Resort"
       ],
+      "tr_id": 65,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -53420,6 +54954,7 @@ backup_data = {
         "Earthquake",
         "Heavy Slam"
       ],
+      "tr_id": 274,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -53460,6 +54995,7 @@ backup_data = {
         "Ice Beam",
         "Close Combat"
       ],
+      "tr_id": 274,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -53498,6 +55034,7 @@ backup_data = {
         "Poison Jab",
         "Triple Axel"
       ],
+      "tr_id": 859,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -53537,6 +55074,7 @@ backup_data = {
         "Sacred Sword",
         "Swords Dance"
       ],
+      "tr_id": 275,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -53577,6 +55115,7 @@ backup_data = {
         "Volt Switch",
         "Flash Cannon"
       ],
+      "tr_id": 275,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -53615,6 +55154,7 @@ backup_data = {
         "Volt Switch",
         "Flash Cannon"
       ],
+      "tr_id": 528,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -53652,6 +55192,7 @@ backup_data = {
         "Volt Switch",
         "Flash Cannon"
       ],
+      "tr_id": 537,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -53691,6 +55232,7 @@ backup_data = {
         "Stone Edge",
         "Knock Off"
       ],
+      "tr_id": 275,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -53731,6 +55273,7 @@ backup_data = {
         "Ancient Power",
         "Hidden Power"
       ],
+      "tr_id": 275,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -53769,6 +55312,7 @@ backup_data = {
         "Sleep Powder",
         "Hidden Power"
       ],
+      "tr_id": 23,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -53809,6 +55353,7 @@ backup_data = {
         "Sacred Sword",
         "Night Slash"
       ],
+      "tr_id": 275,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -53847,6 +55392,7 @@ backup_data = {
         "Leaf Blade",
         "X-Scissor"
       ],
+      "tr_id": 659,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -53879,7 +55425,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growl",
@@ -53887,6 +55433,7 @@ backup_data = {
         "Tail Whip",
         "Double Kick"
       ],
+      "tr_id": 280,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -53911,7 +55458,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growl",
@@ -53919,6 +55466,7 @@ backup_data = {
         "Tail Whip",
         "Double Kick"
       ],
+      "tr_id": 282,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -53943,7 +55491,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growl",
@@ -53951,6 +55499,7 @@ backup_data = {
         "Tail Whip",
         "Double Kick"
       ],
+      "tr_id": 283,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -53975,7 +55524,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growl",
@@ -53983,6 +55532,7 @@ backup_data = {
         "Tail Whip",
         "Double Kick"
       ],
+      "tr_id": 284,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -54007,7 +55557,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growl",
@@ -54015,6 +55565,7 @@ backup_data = {
         "Tail Whip",
         "Double Kick"
       ],
+      "tr_id": 285,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -54049,6 +55600,7 @@ backup_data = {
         "Earth Power",
         "Giga Drain"
       ],
+      "tr_id": 281,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -54087,6 +55639,7 @@ backup_data = {
         "Earth Power",
         "Energy Ball"
       ],
+      "tr_id": 626,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -54127,6 +55680,7 @@ backup_data = {
         "Bug Buzz",
         "Giga Drain"
       ],
+      "tr_id": 281,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -54157,7 +55711,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rage Powder",
@@ -54165,6 +55719,7 @@ backup_data = {
         "Tailwind",
         "Air Slash"
       ],
+      "tr_id": 444,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -54189,7 +55744,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Rage Powder",
@@ -54197,6 +55752,7 @@ backup_data = {
         "Tailwind",
         "Air Slash"
       ],
+      "tr_id": 680,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -54231,6 +55787,7 @@ backup_data = {
         "Bug Buzz",
         "Giga Drain"
       ],
+      "tr_id": 281,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -54271,6 +55828,7 @@ backup_data = {
         "Giga Drain",
         "Ruination"
       ],
+      "tr_id": 281,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -54303,7 +55861,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Psych Up",
@@ -54311,6 +55869,7 @@ backup_data = {
         "Flail",
         "Thrash"
       ],
+      "tr_id": 286,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -54337,7 +55896,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Odor Sleuth",
@@ -54345,6 +55904,7 @@ backup_data = {
         "Fury Swipes",
         "Covet"
       ],
+      "tr_id": 287,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -54369,7 +55929,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Odor Sleuth",
@@ -54377,6 +55937,7 @@ backup_data = {
         "Fury Swipes",
         "Covet"
       ],
+      "tr_id": 288,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -54401,7 +55962,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Odor Sleuth",
@@ -54409,6 +55970,7 @@ backup_data = {
         "Fury Swipes",
         "Covet"
       ],
+      "tr_id": 289,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -54433,7 +55995,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Odor Sleuth",
@@ -54441,6 +56003,7 @@ backup_data = {
         "Fury Swipes",
         "Covet"
       ],
+      "tr_id": 290,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -54465,7 +56028,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Odor Sleuth",
@@ -54473,6 +56036,7 @@ backup_data = {
         "Fury Swipes",
         "Covet"
       ],
+      "tr_id": 291,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -54497,7 +56061,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double-Edge",
@@ -54505,6 +56069,7 @@ backup_data = {
         "Belly Drum",
         "Fling"
       ],
+      "tr_id": 492,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -54529,7 +56094,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double-Edge",
@@ -54537,6 +56102,7 @@ backup_data = {
         "Belly Drum",
         "Fling"
       ],
+      "tr_id": 497,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -54561,7 +56127,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double-Edge",
@@ -54569,6 +56135,7 @@ backup_data = {
         "Belly Drum",
         "Fling"
       ],
+      "tr_id": 498,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -54593,7 +56160,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double-Edge",
@@ -54601,6 +56168,7 @@ backup_data = {
         "Belly Drum",
         "Fling"
       ],
+      "tr_id": 499,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -54625,7 +56193,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double-Edge",
@@ -54633,6 +56201,7 @@ backup_data = {
         "Belly Drum",
         "Fling"
       ],
+      "tr_id": 500,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -54659,7 +56228,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Flash",
@@ -54667,6 +56236,7 @@ backup_data = {
         "Charge",
         "Take Down"
       ],
+      "tr_id": 287,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -54691,7 +56261,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Flash",
@@ -54699,6 +56269,7 @@ backup_data = {
         "Charge",
         "Take Down"
       ],
+      "tr_id": 288,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -54723,7 +56294,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Flash",
@@ -54731,6 +56302,7 @@ backup_data = {
         "Charge",
         "Take Down"
       ],
+      "tr_id": 289,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -54755,7 +56327,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Flash",
@@ -54763,6 +56335,7 @@ backup_data = {
         "Charge",
         "Take Down"
       ],
+      "tr_id": 290,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -54787,7 +56360,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Flash",
@@ -54795,6 +56368,7 @@ backup_data = {
         "Charge",
         "Take Down"
       ],
+      "tr_id": 291,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -54821,7 +56395,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Lucky Chant",
@@ -54829,6 +56403,7 @@ backup_data = {
         "Attract",
         "Heart Stamp"
       ],
+      "tr_id": 287,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -54853,7 +56428,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Lucky Chant",
@@ -54861,6 +56436,7 @@ backup_data = {
         "Attract",
         "Heart Stamp"
       ],
+      "tr_id": 288,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -54885,7 +56461,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Lucky Chant",
@@ -54893,6 +56469,7 @@ backup_data = {
         "Attract",
         "Heart Stamp"
       ],
+      "tr_id": 289,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -54917,7 +56494,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Lucky Chant",
@@ -54925,6 +56502,7 @@ backup_data = {
         "Attract",
         "Heart Stamp"
       ],
+      "tr_id": 290,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -54949,7 +56527,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Lucky Chant",
@@ -54957,6 +56535,7 @@ backup_data = {
         "Attract",
         "Heart Stamp"
       ],
+      "tr_id": 291,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -54981,7 +56560,7 @@ backup_data = {
       },
       "item": null,
       "level": 73,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Soak",
@@ -54989,6 +56568,7 @@ backup_data = {
         "Safeguard",
         "Moonblast"
       ],
+      "tr_id": 463,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -55013,7 +56593,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Soak",
@@ -55021,6 +56601,7 @@ backup_data = {
         "Safeguard",
         "Moonblast"
       ],
+      "tr_id": 502,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -55045,7 +56626,7 @@ backup_data = {
       },
       "item": null,
       "level": 45,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Take Down",
@@ -55053,6 +56634,7 @@ backup_data = {
         "Lovely Kiss",
         "Soak"
       ],
+      "tr_id": 641,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -55077,7 +56659,7 @@ backup_data = {
       },
       "item": null,
       "level": 45,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Take Down",
@@ -55085,6 +56667,7 @@ backup_data = {
         "Lovely Kiss",
         "Soak"
       ],
+      "tr_id": 641,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -55119,6 +56702,7 @@ backup_data = {
         "Psychic Fangs",
         "Crunch"
       ],
+      "tr_id": 292,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -55149,7 +56733,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Charge",
@@ -55157,6 +56741,7 @@ backup_data = {
         "Play Rough",
         "Electric Terrain"
       ],
+      "tr_id": 670,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -55183,7 +56768,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Spark",
@@ -55191,6 +56776,7 @@ backup_data = {
         "Crunch",
         "Charge"
       ],
+      "tr_id": 752,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -55225,6 +56811,7 @@ backup_data = {
         "Roost",
         "Heat Wave"
       ],
+      "tr_id": 292,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -55255,7 +56842,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Agility",
@@ -55263,6 +56850,7 @@ backup_data = {
         "Mirror Move",
         "Tailwind"
       ],
+      "tr_id": 655,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -55295,6 +56883,7 @@ backup_data = {
         "Hyper Voice",
         "Focus Blast"
       ],
+      "tr_id": 647,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -55335,6 +56924,7 @@ backup_data = {
         "Roost",
         "Heat Wave"
       ],
+      "tr_id": 292,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -55373,6 +56963,7 @@ backup_data = {
         "Hyper Voice",
         "Focus Blast"
       ],
+      "tr_id": 647,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -55405,7 +56996,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Attack",
@@ -55413,6 +57004,7 @@ backup_data = {
         "Mirror Move",
         "Assurance"
       ],
+      "tr_id": 293,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -55437,7 +57029,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Attack",
@@ -55445,6 +57037,7 @@ backup_data = {
         "Mirror Move",
         "Assurance"
       ],
+      "tr_id": 295,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -55469,7 +57062,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Attack",
@@ -55477,6 +57070,7 @@ backup_data = {
         "Mirror Move",
         "Assurance"
       ],
+      "tr_id": 296,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -55501,7 +57095,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Attack",
@@ -55509,6 +57103,7 @@ backup_data = {
         "Mirror Move",
         "Assurance"
       ],
+      "tr_id": 297,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -55533,7 +57128,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Attack",
@@ -55541,6 +57136,7 @@ backup_data = {
         "Mirror Move",
         "Assurance"
       ],
+      "tr_id": 298,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -55567,7 +57163,7 @@ backup_data = {
       },
       "item": null,
       "level": 22,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Assist",
@@ -55575,6 +57171,7 @@ backup_data = {
         "Feint Attack",
         "Heal Bell"
       ],
+      "tr_id": 294,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -55599,7 +57196,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Assist",
@@ -55607,6 +57204,7 @@ backup_data = {
         "Feint Attack",
         "Heal Bell"
       ],
+      "tr_id": 294,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -55631,7 +57229,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Assist",
@@ -55639,6 +57237,7 @@ backup_data = {
         "Feint Attack",
         "Heal Bell"
       ],
+      "tr_id": 294,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -55663,7 +57262,7 @@ backup_data = {
       },
       "item": null,
       "level": 12,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Assist",
@@ -55671,6 +57270,7 @@ backup_data = {
         "Feint Attack",
         "Heal Bell"
       ],
+      "tr_id": 294,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -55695,7 +57295,7 @@ backup_data = {
       },
       "item": null,
       "level": 30,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Assist",
@@ -55703,6 +57303,7 @@ backup_data = {
         "Feint Attack",
         "Heal Bell"
       ],
+      "tr_id": 294,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -55737,6 +57338,7 @@ backup_data = {
         "Bulldoze",
         "Ice Shard"
       ],
+      "tr_id": 299,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -55777,6 +57379,7 @@ backup_data = {
         "Yawn",
         "Slack Off"
       ],
+      "tr_id": 299,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -55817,6 +57420,7 @@ backup_data = {
         "Yawn",
         "Slack Off"
       ],
+      "tr_id": 299,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -55857,6 +57461,7 @@ backup_data = {
         "Liquidation",
         "X-Scissor"
       ],
+      "tr_id": 300,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -55897,6 +57502,7 @@ backup_data = {
         "Crunch",
         "Aqua Fang"
       ],
+      "tr_id": 300,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -55927,7 +57533,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Headbutt",
@@ -55935,6 +57541,7 @@ backup_data = {
         "Jaw Lock",
         "Liquidation"
       ],
+      "tr_id": 343,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -55967,6 +57574,7 @@ backup_data = {
         "Rock Tomb",
         "Brick Break"
       ],
+      "tr_id": 656,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -56006,6 +57614,7 @@ backup_data = {
         "Crunch",
         "Aqua Fang"
       ],
+      "tr_id": 300,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -56038,7 +57647,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aromatherapy",
@@ -56046,6 +57655,7 @@ backup_data = {
         "Play Rough",
         "Sparkly Swirl"
       ],
+      "tr_id": 301,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -56070,7 +57680,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wrap",
@@ -56078,6 +57688,7 @@ backup_data = {
         "Natural Gift",
         "Petal Blizzard"
       ],
+      "tr_id": 353,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56102,7 +57713,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wrap",
@@ -56110,6 +57721,7 @@ backup_data = {
         "Natural Gift",
         "Petal Blizzard"
       ],
+      "tr_id": 354,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56134,7 +57746,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wrap",
@@ -56142,6 +57754,7 @@ backup_data = {
         "Natural Gift",
         "Petal Blizzard"
       ],
+      "tr_id": 355,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56166,7 +57779,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wrap",
@@ -56174,6 +57787,7 @@ backup_data = {
         "Natural Gift",
         "Petal Blizzard"
       ],
+      "tr_id": 356,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56198,7 +57812,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wrap",
@@ -56206,6 +57820,7 @@ backup_data = {
         "Natural Gift",
         "Petal Blizzard"
       ],
+      "tr_id": 357,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56240,6 +57855,7 @@ backup_data = {
         "Electroweb",
         "Charge Beam"
       ],
+      "tr_id": 302,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -56278,6 +57894,7 @@ backup_data = {
         "Electroweb",
         "Charge Beam"
       ],
+      "tr_id": 303,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -56312,6 +57929,7 @@ backup_data = {
         "Electroweb",
         "Charge Beam"
       ],
+      "tr_id": 304,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -56346,6 +57964,7 @@ backup_data = {
         "Electroweb",
         "Charge Beam"
       ],
+      "tr_id": 305,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -56380,6 +57999,7 @@ backup_data = {
         "Electroweb",
         "Charge Beam"
       ],
+      "tr_id": 306,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -56416,6 +58036,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 302,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -56454,6 +58075,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 303,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56488,6 +58110,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 304,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56522,6 +58145,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 305,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56556,6 +58180,7 @@ backup_data = {
         "Air Slash",
         "Roost"
       ],
+      "tr_id": 306,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56582,7 +58207,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Air Slash",
@@ -56590,6 +58215,7 @@ backup_data = {
         "Bounce",
         "Hydro Pump"
       ],
+      "tr_id": 376,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56614,7 +58240,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Air Slash",
@@ -56622,6 +58248,7 @@ backup_data = {
         "Bounce",
         "Hydro Pump"
       ],
+      "tr_id": 379,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56646,7 +58273,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Air Slash",
@@ -56654,6 +58281,7 @@ backup_data = {
         "Bounce",
         "Hydro Pump"
       ],
+      "tr_id": 380,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56678,7 +58306,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Air Slash",
@@ -56686,6 +58314,7 @@ backup_data = {
         "Bounce",
         "Hydro Pump"
       ],
+      "tr_id": 381,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56710,7 +58339,7 @@ backup_data = {
       },
       "item": null,
       "level": 67,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Air Slash",
@@ -56718,6 +58347,7 @@ backup_data = {
         "Bounce",
         "Hydro Pump"
       ],
+      "tr_id": 382,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56744,13 +58374,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Growl",
         "Tackle",
         "Defense Curl"
       ],
+      "tr_id": 319,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -56777,12 +58408,13 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bide",
         "Harden"
       ],
+      "tr_id": 319,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56809,7 +58441,7 @@ backup_data = {
       },
       "item": null,
       "level": 12,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ember",
@@ -56817,6 +58449,7 @@ backup_data = {
         "Odor Sleuth",
         "Helping Hand"
       ],
+      "tr_id": 320,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -56843,7 +58476,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Leer",
@@ -56851,6 +58484,7 @@ backup_data = {
         "Headbutt",
         "Feint Attack"
       ],
+      "tr_id": 321,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -56877,7 +58511,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Metal Claw",
@@ -56885,6 +58519,7 @@ backup_data = {
         "Rock Blast",
         "Mud-Slap"
       ],
+      "tr_id": 321,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -56911,7 +58546,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Pound",
@@ -56919,6 +58554,7 @@ backup_data = {
         "Focus Energy",
         "Bide"
       ],
+      "tr_id": 322,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -56953,6 +58589,7 @@ backup_data = {
         "U-turn",
         "Poison Jab"
       ],
+      "tr_id": 323,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -56985,6 +58622,7 @@ backup_data = {
         "Knock Off",
         "Parting Shot"
       ],
+      "tr_id": 611,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -57017,7 +58655,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Pluck",
@@ -57025,6 +58663,7 @@ backup_data = {
         "Flatter",
         "Feint Attack"
       ],
+      "tr_id": 323,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -57051,7 +58690,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Calm Mind",
@@ -57059,6 +58698,7 @@ backup_data = {
         "Expanding Force",
         "Armor Cannon"
       ],
+      "tr_id": 324,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -57093,6 +58733,7 @@ backup_data = {
         "Psychic",
         "Shadow Ball"
       ],
+      "tr_id": 522,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -57130,6 +58771,7 @@ backup_data = {
         "Psychic",
         "Shadow Ball"
       ],
+      "tr_id": 531,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -57166,6 +58808,7 @@ backup_data = {
         "Dragon Pulse",
         "Psyshock"
       ],
+      "tr_id": 647,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -57198,7 +58841,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Flare Blitz",
@@ -57206,6 +58849,7 @@ backup_data = {
         "Bitter Blade",
         "Swords Dance"
       ],
+      "tr_id": 324,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -57240,6 +58884,7 @@ backup_data = {
         "Shadow Claw",
         "Flame Charge"
       ],
+      "tr_id": 659,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -57278,6 +58923,7 @@ backup_data = {
         "Will-O-Wisp",
         "Swords Dance"
       ],
+      "tr_id": 660,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -57316,6 +58962,7 @@ backup_data = {
         "Close Combat",
         "Shadow Sneak"
       ],
+      "tr_id": 493,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -57348,7 +58995,7 @@ backup_data = {
       },
       "item": null,
       "level": 75,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hyper Voice",
@@ -57356,6 +59003,7 @@ backup_data = {
         "Leaf Storm",
         "Cotton Guard"
       ],
+      "tr_id": 325,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -57382,7 +59030,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sweet Scent",
@@ -57390,6 +59038,7 @@ backup_data = {
         "Round",
         "Mega Drain"
       ],
+      "tr_id": 334,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -57416,7 +59065,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Earth Power",
@@ -57424,6 +59073,7 @@ backup_data = {
         "Earthquake",
         "Sandstorm"
       ],
+      "tr_id": 326,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -57458,6 +59108,7 @@ backup_data = {
         "Shift Gear",
         "High Horsepower"
       ],
+      "tr_id": 332,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -57499,6 +59150,7 @@ backup_data = {
         "Poison Jab",
         "Drill Run"
       ],
+      "tr_id": 332,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -57530,7 +59182,7 @@ backup_data = {
       },
       "item": null,
       "level": 72,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Jab",
@@ -57538,6 +59190,7 @@ backup_data = {
         "Endeavor",
         "Fell Stinger"
       ],
+      "tr_id": 509,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -57572,6 +59225,7 @@ backup_data = {
         "Poison Jab",
         "Drill Run"
       ],
+      "tr_id": 332,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -57605,12 +59259,13 @@ backup_data = {
       },
       "item": null,
       "level": 4,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Growl"
       ],
+      "tr_id": 333,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -57637,12 +59292,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Leer"
       ],
+      "tr_id": 333,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -57669,11 +59325,12 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Splash"
       ],
+      "tr_id": 337,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -57698,11 +59355,12 @@ backup_data = {
       },
       "item": null,
       "level": 6,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Splash"
       ],
+      "tr_id": 337,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -57727,11 +59385,12 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Splash"
       ],
+      "tr_id": 337,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -57756,11 +59415,12 @@ backup_data = {
       },
       "item": null,
       "level": 13,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Splash"
       ],
+      "tr_id": 339,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -57785,11 +59445,12 @@ backup_data = {
       },
       "item": null,
       "level": 13,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Splash"
       ],
+      "tr_id": 346,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -57814,11 +59475,12 @@ backup_data = {
       },
       "item": null,
       "level": 13,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Splash"
       ],
+      "tr_id": 347,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -57843,11 +59505,12 @@ backup_data = {
       },
       "item": null,
       "level": 13,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Splash"
       ],
+      "tr_id": 348,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -57872,11 +59535,12 @@ backup_data = {
       },
       "item": null,
       "level": 13,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Splash"
       ],
+      "tr_id": 349,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -57902,11 +59566,12 @@ backup_data = {
       },
       "item": null,
       "level": 9,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Splash"
       ],
+      "tr_id": 696,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -57941,6 +59606,7 @@ backup_data = {
         "Crunch",
         "Facade"
       ],
+      "tr_id": 338,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -57971,7 +59637,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Aurora Veil",
@@ -57979,6 +59645,7 @@ backup_data = {
         "Super Fang",
         "Crunch"
       ],
+      "tr_id": 384,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -58013,6 +59680,7 @@ backup_data = {
         "Mirror Coat",
         "Crunch"
       ],
+      "tr_id": 338,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -58045,7 +59713,7 @@ backup_data = {
       },
       "item": null,
       "level": 15,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Sting",
@@ -58053,6 +59721,7 @@ backup_data = {
         "Bite",
         "Toxic Spikes"
       ],
+      "tr_id": 339,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -58077,7 +59746,7 @@ backup_data = {
       },
       "item": null,
       "level": 15,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Sting",
@@ -58085,6 +59754,7 @@ backup_data = {
         "Bite",
         "Toxic Spikes"
       ],
+      "tr_id": 346,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -58109,7 +59779,7 @@ backup_data = {
       },
       "item": null,
       "level": 15,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Sting",
@@ -58117,6 +59787,7 @@ backup_data = {
         "Bite",
         "Toxic Spikes"
       ],
+      "tr_id": 347,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -58141,7 +59812,7 @@ backup_data = {
       },
       "item": null,
       "level": 15,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Sting",
@@ -58149,6 +59820,7 @@ backup_data = {
         "Bite",
         "Toxic Spikes"
       ],
+      "tr_id": 348,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -58173,7 +59845,7 @@ backup_data = {
       },
       "item": null,
       "level": 15,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Sting",
@@ -58181,6 +59853,7 @@ backup_data = {
         "Bite",
         "Toxic Spikes"
       ],
+      "tr_id": 349,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -58208,7 +59881,7 @@ backup_data = {
       },
       "item": null,
       "level": 14,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble",
@@ -58216,6 +59889,7 @@ backup_data = {
         "Leer",
         "Harden"
       ],
+      "tr_id": 339,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -58240,7 +59914,7 @@ backup_data = {
       },
       "item": null,
       "level": 14,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble",
@@ -58248,6 +59922,7 @@ backup_data = {
         "Leer",
         "Harden"
       ],
+      "tr_id": 346,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -58272,7 +59947,7 @@ backup_data = {
       },
       "item": null,
       "level": 14,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble",
@@ -58280,6 +59955,7 @@ backup_data = {
         "Leer",
         "Harden"
       ],
+      "tr_id": 347,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -58304,7 +59980,7 @@ backup_data = {
       },
       "item": null,
       "level": 14,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble",
@@ -58312,6 +59988,7 @@ backup_data = {
         "Leer",
         "Harden"
       ],
+      "tr_id": 348,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -58336,7 +60013,7 @@ backup_data = {
       },
       "item": null,
       "level": 14,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bubble",
@@ -58344,6 +60021,7 @@ backup_data = {
         "Leer",
         "Harden"
       ],
+      "tr_id": 349,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -58371,12 +60049,13 @@ backup_data = {
       },
       "item": null,
       "level": 16,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Water Pulse",
         "Air Cutter"
       ],
+      "tr_id": 340,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -58403,7 +60082,7 @@ backup_data = {
       },
       "item": null,
       "level": 23,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Taunt",
@@ -58411,6 +60090,7 @@ backup_data = {
         "Counter",
         "Purify"
       ],
+      "tr_id": 341,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -58435,7 +60115,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recover",
@@ -58443,6 +60123,7 @@ backup_data = {
         "Toxic",
         "Memento"
       ],
+      "tr_id": 739,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -58469,7 +60150,7 @@ backup_data = {
       },
       "item": null,
       "level": 23,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Chip Away",
@@ -58477,6 +60158,7 @@ backup_data = {
         "Crunch",
         "Aqua Tail"
       ],
+      "tr_id": 341,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -58501,7 +60183,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Chip Away",
@@ -58509,6 +60191,7 @@ backup_data = {
         "Crunch",
         "Aqua Tail"
       ],
+      "tr_id": 698,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -58535,7 +60218,7 @@ backup_data = {
       },
       "item": null,
       "level": 22,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mud Sport",
@@ -58543,6 +60226,7 @@ backup_data = {
         "Slam",
         "Mud Bomb"
       ],
+      "tr_id": 341,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -58567,7 +60251,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mud Bomb",
@@ -58575,6 +60259,7 @@ backup_data = {
         "Yawn",
         "Earthquake"
       ],
+      "tr_id": 342,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -58601,7 +60286,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mud Bomb",
@@ -58609,6 +60294,7 @@ backup_data = {
         "Rain Dance",
         "Body Slam"
       ],
+      "tr_id": 342,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -58641,6 +60327,7 @@ backup_data = {
         "Clear Smog",
         "Recover"
       ],
+      "tr_id": 743,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -58673,7 +60360,7 @@ backup_data = {
       },
       "item": null,
       "level": 23,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Quick Attack",
@@ -58681,6 +60368,7 @@ backup_data = {
         "Endeavor",
         "Whirlwind"
       ],
+      "tr_id": 351,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -58707,7 +60395,7 @@ backup_data = {
       },
       "item": null,
       "level": 23,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rock Blast",
@@ -58715,6 +60403,7 @@ backup_data = {
         "Iron Defense",
         "Smack Down"
       ],
+      "tr_id": 351,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -58741,7 +60430,7 @@ backup_data = {
       },
       "item": null,
       "level": 23,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Helping Hand",
@@ -58749,6 +60438,7 @@ backup_data = {
         "Sing",
         "Tail Slap"
       ],
+      "tr_id": 351,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -58773,7 +60463,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tickle",
@@ -58781,6 +60471,7 @@ backup_data = {
         "Tail Slap",
         "Tidy Up"
       ],
+      "tr_id": 767,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -58807,7 +60498,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tickle",
@@ -58815,6 +60506,7 @@ backup_data = {
         "Tail Slap",
         "Tidy Up"
       ],
+      "tr_id": 828,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -58841,7 +60533,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tickle",
@@ -58849,6 +60541,7 @@ backup_data = {
         "Tail Slap",
         "Tidy Up"
       ],
+      "tr_id": 829,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -58875,7 +60568,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tickle",
@@ -58883,6 +60576,7 @@ backup_data = {
         "Tail Slap",
         "Tidy Up"
       ],
+      "tr_id": 830,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -58909,7 +60603,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tickle",
@@ -58917,6 +60611,7 @@ backup_data = {
         "Tail Slap",
         "Tidy Up"
       ],
+      "tr_id": 831,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -58945,7 +60640,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mud-Slap",
@@ -58953,6 +60648,7 @@ backup_data = {
         "Mud Shot",
         "Double Kick"
       ],
+      "tr_id": 353,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -58977,7 +60673,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mud-Slap",
@@ -58985,6 +60681,7 @@ backup_data = {
         "Mud Shot",
         "Double Kick"
       ],
+      "tr_id": 354,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59009,7 +60706,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mud-Slap",
@@ -59017,6 +60714,7 @@ backup_data = {
         "Mud Shot",
         "Double Kick"
       ],
+      "tr_id": 355,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59041,7 +60739,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mud-Slap",
@@ -59049,6 +60747,7 @@ backup_data = {
         "Mud Shot",
         "Double Kick"
       ],
+      "tr_id": 356,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59073,7 +60772,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Mud-Slap",
@@ -59081,6 +60780,7 @@ backup_data = {
         "Mud Shot",
         "Double Kick"
       ],
+      "tr_id": 357,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59107,7 +60807,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Swipes",
@@ -59115,6 +60815,7 @@ backup_data = {
         "Metal Claw",
         "Hone Claws"
       ],
+      "tr_id": 353,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -59139,7 +60840,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Swipes",
@@ -59147,6 +60848,7 @@ backup_data = {
         "Metal Claw",
         "Hone Claws"
       ],
+      "tr_id": 354,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -59171,7 +60873,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Swipes",
@@ -59179,6 +60881,7 @@ backup_data = {
         "Metal Claw",
         "Hone Claws"
       ],
+      "tr_id": 355,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -59203,7 +60906,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Swipes",
@@ -59211,6 +60914,7 @@ backup_data = {
         "Metal Claw",
         "Hone Claws"
       ],
+      "tr_id": 356,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -59235,7 +60939,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Swipes",
@@ -59243,6 +60947,7 @@ backup_data = {
         "Metal Claw",
         "Hone Claws"
       ],
+      "tr_id": 357,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -59269,7 +60974,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Power Trip",
@@ -59277,6 +60982,7 @@ backup_data = {
         "Flatter",
         "Bite"
       ],
+      "tr_id": 358,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59301,7 +61007,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Power Trip",
@@ -59309,6 +61015,7 @@ backup_data = {
         "Flatter",
         "Bite"
       ],
+      "tr_id": 360,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59333,7 +61040,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Power Trip",
@@ -59341,6 +61048,7 @@ backup_data = {
         "Flatter",
         "Bite"
       ],
+      "tr_id": 361,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59365,7 +61073,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Power Trip",
@@ -59373,6 +61081,7 @@ backup_data = {
         "Flatter",
         "Bite"
       ],
+      "tr_id": 362,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59397,7 +61106,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Power Trip",
@@ -59405,6 +61114,7 @@ backup_data = {
         "Flatter",
         "Bite"
       ],
+      "tr_id": 363,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59431,7 +61141,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Refresh",
@@ -59439,6 +61149,7 @@ backup_data = {
         "Spike Cannon",
         "Lucky Chant"
       ],
+      "tr_id": 358,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -59463,7 +61174,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Refresh",
@@ -59471,6 +61182,7 @@ backup_data = {
         "Spike Cannon",
         "Lucky Chant"
       ],
+      "tr_id": 360,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -59495,7 +61207,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Refresh",
@@ -59503,6 +61215,7 @@ backup_data = {
         "Spike Cannon",
         "Lucky Chant"
       ],
+      "tr_id": 361,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -59527,7 +61240,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Refresh",
@@ -59535,6 +61248,7 @@ backup_data = {
         "Spike Cannon",
         "Lucky Chant"
       ],
+      "tr_id": 362,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -59559,7 +61273,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Refresh",
@@ -59567,6 +61281,7 @@ backup_data = {
         "Spike Cannon",
         "Lucky Chant"
       ],
+      "tr_id": 363,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -59593,7 +61308,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Absorb",
@@ -59601,6 +61316,7 @@ backup_data = {
         "Agility",
         "Slash"
       ],
+      "tr_id": 359,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59625,7 +61341,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Pounce",
@@ -59633,6 +61349,7 @@ backup_data = {
         "Swords Dance",
         "X-Scissor"
       ],
+      "tr_id": 749,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59665,6 +61382,7 @@ backup_data = {
         "Dual Wingbeat",
         "First Impression"
       ],
+      "tr_id": 45,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -59697,7 +61415,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bite",
@@ -59705,6 +61423,7 @@ backup_data = {
         "Odor Sleuth",
         "Flame Burst"
       ],
+      "tr_id": 359,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -59737,6 +61456,7 @@ backup_data = {
         "Sludge Bomb",
         "Scorching Sands"
       ],
+      "tr_id": 597,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -59774,6 +61494,7 @@ backup_data = {
         "Sludge Bomb",
         "Scorching Sands"
       ],
+      "tr_id": 732,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -59805,14 +61526,15 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Charge Beam",
         "Swift",
         "Electro Ball",
-        "Self-Destruct"
+        "Self-destruct"
       ],
+      "tr_id": 359,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -59847,6 +61569,7 @@ backup_data = {
         "Hydro Pump",
         "Snipe Shot"
       ],
+      "tr_id": 377,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59871,7 +61594,7 @@ backup_data = {
       },
       "item": null,
       "level": 22,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psybeam",
@@ -59879,6 +61602,7 @@ backup_data = {
         "Bubble Beam",
         "Focus Energy"
       ],
+      "tr_id": 491,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59903,7 +61627,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Signal Beam",
@@ -59911,6 +61635,7 @@ backup_data = {
         "Bullet Seed",
         "Hydro Pump"
       ],
+      "tr_id": 740,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59935,7 +61660,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Signal Beam",
@@ -59943,6 +61668,7 @@ backup_data = {
         "Bullet Seed",
         "Hydro Pump"
       ],
+      "tr_id": 816,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59967,7 +61693,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Signal Beam",
@@ -59975,6 +61701,7 @@ backup_data = {
         "Bullet Seed",
         "Hydro Pump"
       ],
+      "tr_id": 817,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -59999,7 +61726,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Signal Beam",
@@ -60007,6 +61734,7 @@ backup_data = {
         "Bullet Seed",
         "Hydro Pump"
       ],
+      "tr_id": 818,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60031,7 +61759,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Signal Beam",
@@ -60039,6 +61767,7 @@ backup_data = {
         "Bullet Seed",
         "Hydro Pump"
       ],
+      "tr_id": 819,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60071,6 +61800,7 @@ backup_data = {
         "Hydro Pump",
         "Snipe Shot"
       ],
+      "tr_id": 820,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60103,6 +61833,7 @@ backup_data = {
         "Hydro Pump",
         "Snipe Shot"
       ],
+      "tr_id": 821,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60135,6 +61866,7 @@ backup_data = {
         "Hydro Pump",
         "Snipe Shot"
       ],
+      "tr_id": 822,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60167,6 +61899,7 @@ backup_data = {
         "Hydro Pump",
         "Snipe Shot"
       ],
+      "tr_id": 823,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60193,7 +61926,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Muddy Water",
@@ -60201,6 +61934,7 @@ backup_data = {
         "Mirror Coat",
         "Dragon Pulse"
       ],
+      "tr_id": 383,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60233,6 +61967,7 @@ backup_data = {
         "Icy Wind",
         "Nasty Plot"
       ],
+      "tr_id": 714,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -60265,7 +62000,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gyro Ball",
@@ -60273,6 +62008,7 @@ backup_data = {
         "Brine",
         "Reflect Type"
       ],
+      "tr_id": 386,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60297,7 +62033,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gyro Ball",
@@ -60305,6 +62041,7 @@ backup_data = {
         "Brine",
         "Reflect Type"
       ],
+      "tr_id": 388,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60329,7 +62066,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gyro Ball",
@@ -60337,6 +62074,7 @@ backup_data = {
         "Brine",
         "Reflect Type"
       ],
+      "tr_id": 389,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60361,7 +62099,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gyro Ball",
@@ -60369,6 +62107,7 @@ backup_data = {
         "Brine",
         "Reflect Type"
       ],
+      "tr_id": 390,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60393,7 +62132,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gyro Ball",
@@ -60401,6 +62140,7 @@ backup_data = {
         "Brine",
         "Reflect Type"
       ],
+      "tr_id": 391,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60427,7 +62167,7 @@ backup_data = {
       },
       "item": null,
       "level": 72,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Noble Roar",
@@ -60435,6 +62175,7 @@ backup_data = {
         "Outrage",
         "Clangorous Soul"
       ],
+      "tr_id": 397,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60467,6 +62208,7 @@ backup_data = {
         "Aura Sphere",
         "Flash Cannon"
       ],
+      "tr_id": 728,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -60499,7 +62241,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
@@ -60507,6 +62249,7 @@ backup_data = {
         "Solar Beam",
         "Leaf Storm"
       ],
+      "tr_id": 399,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60531,7 +62274,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synthesis",
@@ -60539,6 +62282,7 @@ backup_data = {
         "Solar Beam",
         "Leaf Storm"
       ],
+      "tr_id": 414,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60563,7 +62307,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Leaf Tornado",
@@ -60571,6 +62315,7 @@ backup_data = {
         "Air Slash",
         "Body Slam"
       ],
+      "tr_id": 709,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60597,7 +62342,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sucker Punch",
@@ -60605,6 +62350,7 @@ backup_data = {
         "Wood Hammer",
         "Thrash"
       ],
+      "tr_id": 400,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60631,7 +62377,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Metal Sound",
@@ -60639,6 +62385,7 @@ backup_data = {
         "Autotomize",
         "Night Slash"
       ],
+      "tr_id": 402,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60671,6 +62418,7 @@ backup_data = {
         "Fly",
         "Iron Head"
       ],
+      "tr_id": 473,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -60709,6 +62457,7 @@ backup_data = {
         "Roost",
         "Toxic"
       ],
+      "tr_id": 656,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -60738,7 +62487,7 @@ backup_data = {
       },
       "item": null,
       "level": 77,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Toxic",
@@ -60746,6 +62495,7 @@ backup_data = {
         "Spikes",
         "Steel Wing"
       ],
+      "tr_id": 804,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -60780,6 +62530,7 @@ backup_data = {
         "Drill Peck",
         "Iron Head"
       ],
+      "tr_id": 711,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -60813,7 +62564,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double-Edge",
@@ -60821,6 +62572,7 @@ backup_data = {
         "Thrash",
         "Brave Bird"
       ],
+      "tr_id": 404,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -60845,7 +62597,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Hit",
@@ -60853,6 +62605,7 @@ backup_data = {
         "Uproar",
         "Swords Dance"
       ],
+      "tr_id": 474,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -60877,7 +62630,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Hit",
@@ -60885,6 +62638,7 @@ backup_data = {
         "Uproar",
         "Swords Dance"
       ],
+      "tr_id": 477,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -60909,7 +62663,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Hit",
@@ -60917,6 +62671,7 @@ backup_data = {
         "Uproar",
         "Swords Dance"
       ],
+      "tr_id": 478,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -60941,7 +62696,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Hit",
@@ -60949,6 +62704,7 @@ backup_data = {
         "Uproar",
         "Swords Dance"
       ],
+      "tr_id": 479,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -60973,7 +62729,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Hit",
@@ -60981,6 +62737,7 @@ backup_data = {
         "Uproar",
         "Swords Dance"
       ],
+      "tr_id": 480,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -61013,6 +62770,7 @@ backup_data = {
         "Double-Edge",
         "Endeavor"
       ],
+      "tr_id": 748,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -61045,6 +62803,7 @@ backup_data = {
         "Quick Attack",
         "Jump Kick"
       ],
+      "tr_id": 712,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -61077,7 +62836,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Nasty Plot",
@@ -61085,6 +62844,7 @@ backup_data = {
         "Comeuppance",
         "Drill Peck"
       ],
+      "tr_id": 405,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -61117,6 +62877,7 @@ backup_data = {
         "Sucker Punch",
         "Roost"
       ],
+      "tr_id": 434,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -61155,6 +62916,7 @@ backup_data = {
         "Sucker Punch",
         "Roost"
       ],
+      "tr_id": 437,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -61189,6 +62951,7 @@ backup_data = {
         "Sucker Punch",
         "Roost"
       ],
+      "tr_id": 438,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -61223,6 +62986,7 @@ backup_data = {
         "Sucker Punch",
         "Roost"
       ],
+      "tr_id": 439,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -61257,6 +63021,7 @@ backup_data = {
         "Sucker Punch",
         "Roost"
       ],
+      "tr_id": 440,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -61285,7 +63050,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wing Attack",
@@ -61293,6 +63058,7 @@ backup_data = {
         "Quick Guard",
         "Agility"
       ],
+      "tr_id": 407,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -61317,7 +63083,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wing Attack",
@@ -61325,6 +63091,7 @@ backup_data = {
         "Quick Guard",
         "Agility"
       ],
+      "tr_id": 471,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -61349,7 +63116,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dual Wingbeat",
@@ -61357,6 +63124,7 @@ backup_data = {
         "Brave Bird",
         "Reversal"
       ],
+      "tr_id": 654,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -61381,7 +63149,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Agility",
@@ -61389,6 +63157,7 @@ backup_data = {
         "Endeavor",
         "Brave Bird"
       ],
+      "tr_id": 748,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -61421,6 +63190,7 @@ backup_data = {
         "Dual Wingbeat",
         "U-turn"
       ],
+      "tr_id": 493,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -61454,7 +63224,7 @@ backup_data = {
       },
       "item": null,
       "level": 74,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dual Wingbeat",
@@ -61462,6 +63232,7 @@ backup_data = {
         "Knock Off",
         "Parting Shot"
       ],
+      "tr_id": 413,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -61486,7 +63257,7 @@ backup_data = {
       },
       "item": null,
       "level": 59,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dual Wingbeat",
@@ -61494,6 +63265,7 @@ backup_data = {
         "Knock Off",
         "Parting Shot"
       ],
+      "tr_id": 506,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -61526,6 +63298,7 @@ backup_data = {
         "Sucker Punch",
         "Rock Slide"
       ],
+      "tr_id": 579,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -61557,7 +63330,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psyshock",
@@ -61565,6 +63338,7 @@ backup_data = {
         "Wood Hammer",
         "Leaf Storm"
       ],
+      "tr_id": 418,
       "sub_index": 0,
       "ai_tags": []
     }
@@ -61589,7 +63363,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Egg Bomb",
@@ -61597,6 +63371,7 @@ backup_data = {
         "Leaf Storm",
         "Fickle Beam"
       ],
+      "tr_id": 418,
       "sub_index": 1,
       "ai_tags": []
     },
@@ -61627,6 +63402,7 @@ backup_data = {
         "Egg Bomb",
         "Brick Break"
       ],
+      "tr_id": 701,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -61665,6 +63441,7 @@ backup_data = {
         "Facade",
         "Iron Head"
       ],
+      "tr_id": 647,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -61697,7 +63474,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Razor Leaf",
@@ -61705,6 +63482,7 @@ backup_data = {
         "Knock Off",
         "Slam"
       ],
+      "tr_id": 419,
       "sub_index": 1,
       "ai_tags": []
     },
@@ -61727,7 +63505,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Razor Leaf",
@@ -61735,6 +63513,7 @@ backup_data = {
         "Knock Off",
         "Slam"
       ],
+      "tr_id": 421,
       "sub_index": 1,
       "ai_tags": []
     },
@@ -61757,7 +63536,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Razor Leaf",
@@ -61765,6 +63544,7 @@ backup_data = {
         "Knock Off",
         "Slam"
       ],
+      "tr_id": 422,
       "sub_index": 1,
       "ai_tags": []
     },
@@ -61787,7 +63567,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Razor Leaf",
@@ -61795,6 +63575,7 @@ backup_data = {
         "Knock Off",
         "Slam"
       ],
+      "tr_id": 423,
       "sub_index": 1,
       "ai_tags": []
     },
@@ -61817,7 +63598,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Razor Leaf",
@@ -61825,6 +63606,7 @@ backup_data = {
         "Knock Off",
         "Slam"
       ],
+      "tr_id": 424,
       "sub_index": 1,
       "ai_tags": []
     }
@@ -61849,7 +63631,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sticky Web",
@@ -61857,6 +63639,7 @@ backup_data = {
         "Throat Chop",
         "Skitter Smack"
       ],
+      "tr_id": 419,
       "sub_index": 2,
       "ai_tags": []
     },
@@ -61879,7 +63662,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sticky Web",
@@ -61887,6 +63670,7 @@ backup_data = {
         "Throat Chop",
         "Skitter Smack"
       ],
+      "tr_id": 421,
       "sub_index": 2,
       "ai_tags": []
     },
@@ -61909,7 +63693,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sticky Web",
@@ -61917,6 +63701,7 @@ backup_data = {
         "Throat Chop",
         "Skitter Smack"
       ],
+      "tr_id": 422,
       "sub_index": 2,
       "ai_tags": []
     },
@@ -61939,7 +63724,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sticky Web",
@@ -61947,6 +63732,7 @@ backup_data = {
         "Throat Chop",
         "Skitter Smack"
       ],
+      "tr_id": 423,
       "sub_index": 2,
       "ai_tags": []
     },
@@ -61969,7 +63755,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sticky Web",
@@ -61977,6 +63763,7 @@ backup_data = {
         "Throat Chop",
         "Skitter Smack"
       ],
+      "tr_id": 424,
       "sub_index": 2,
       "ai_tags": []
     },
@@ -62007,6 +63794,7 @@ backup_data = {
         "Facade",
         "Rock Tomb"
       ],
+      "tr_id": 74,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -62039,7 +63827,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Icy Wind",
@@ -62047,6 +63835,7 @@ backup_data = {
         "Fling",
         "Smack Down"
       ],
+      "tr_id": 420,
       "sub_index": 0,
       "ai_tags": []
     }
@@ -62071,14 +63860,15 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
-        "Self-Destruct",
+        "Self-destruct",
         "Haze",
         "Gyro Ball",
         "Sludge Bomb"
       ],
+      "tr_id": 420,
       "sub_index": 2,
       "ai_tags": []
     },
@@ -62101,7 +63891,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge Bomb",
@@ -62109,6 +63899,7 @@ backup_data = {
         "Destiny Bond",
         "Belch"
       ],
+      "tr_id": 504,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -62137,7 +63928,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ember",
@@ -62145,6 +63936,7 @@ backup_data = {
         "Defense Curl",
         "Flame Charge"
       ],
+      "tr_id": 425,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -62177,6 +63969,7 @@ backup_data = {
         "Sucker Punch",
         "Flame Charge"
       ],
+      "tr_id": 538,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -62215,6 +64008,7 @@ backup_data = {
         "Sucker Punch",
         "Flame Charge"
       ],
+      "tr_id": 541,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -62249,6 +64043,7 @@ backup_data = {
         "Sucker Punch",
         "Flame Charge"
       ],
+      "tr_id": 542,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -62283,6 +64078,7 @@ backup_data = {
         "Sucker Punch",
         "Flame Charge"
       ],
+      "tr_id": 543,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -62317,6 +64113,7 @@ backup_data = {
         "Sucker Punch",
         "Flame Charge"
       ],
+      "tr_id": 544,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -62353,6 +64150,7 @@ backup_data = {
         "Brick Break",
         "Rock Slide"
       ],
+      "tr_id": 434,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -62391,6 +64189,7 @@ backup_data = {
         "Brick Break",
         "Rock Slide"
       ],
+      "tr_id": 437,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -62425,6 +64224,7 @@ backup_data = {
         "Brick Break",
         "Rock Slide"
       ],
+      "tr_id": 438,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -62459,6 +64259,7 @@ backup_data = {
         "Brick Break",
         "Rock Slide"
       ],
+      "tr_id": 439,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -62493,6 +64294,7 @@ backup_data = {
         "Brick Break",
         "Rock Slide"
       ],
+      "tr_id": 440,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -62527,6 +64329,7 @@ backup_data = {
         "Close Combat",
         "Rock Slide"
       ],
+      "tr_id": 519,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -62564,6 +64367,7 @@ backup_data = {
         "Close Combat",
         "Rock Slide"
       ],
+      "tr_id": 657,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -62601,6 +64405,7 @@ backup_data = {
         "Close Combat",
         "Knock Off"
       ],
+      "tr_id": 658,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -62639,6 +64444,7 @@ backup_data = {
         "U-turn",
         "Rock Slide"
       ],
+      "tr_id": 727,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -62678,6 +64484,7 @@ backup_data = {
         "Dire Claw",
         "Mach Punch"
       ],
+      "tr_id": 71,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -62718,6 +64525,7 @@ backup_data = {
         "Bullet Seed",
         "Pin Missile"
       ],
+      "tr_id": 434,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -62756,6 +64564,7 @@ backup_data = {
         "Bullet Seed",
         "Pin Missile"
       ],
+      "tr_id": 437,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -62790,6 +64599,7 @@ backup_data = {
         "Bullet Seed",
         "Pin Missile"
       ],
+      "tr_id": 438,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -62824,6 +64634,7 @@ backup_data = {
         "Bullet Seed",
         "Pin Missile"
       ],
+      "tr_id": 439,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -62858,6 +64669,7 @@ backup_data = {
         "Bullet Seed",
         "Pin Missile"
       ],
+      "tr_id": 440,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -62892,6 +64704,7 @@ backup_data = {
         "Brick Break",
         "Pounce"
       ],
+      "tr_id": 65,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -62932,6 +64745,7 @@ backup_data = {
         "Bullet Seed",
         "Pin Missile"
       ],
+      "tr_id": 434,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -62970,6 +64784,7 @@ backup_data = {
         "Bullet Seed",
         "Pin Missile"
       ],
+      "tr_id": 437,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -63004,6 +64819,7 @@ backup_data = {
         "Bullet Seed",
         "Pin Missile"
       ],
+      "tr_id": 438,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -63038,6 +64854,7 @@ backup_data = {
         "Bullet Seed",
         "Pin Missile"
       ],
+      "tr_id": 439,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -63072,6 +64889,7 @@ backup_data = {
         "Bullet Seed",
         "Pin Missile"
       ],
+      "tr_id": 440,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -63100,7 +64918,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Leaf Storm",
@@ -63108,6 +64926,7 @@ backup_data = {
         "Leaf Blade",
         "Sludge Bomb"
       ],
+      "tr_id": 435,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -63140,6 +64959,7 @@ backup_data = {
         "Gunk Shot",
         "Leech Life"
       ],
+      "tr_id": 449,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -63178,6 +64998,7 @@ backup_data = {
         "Gunk Shot",
         "Leech Life"
       ],
+      "tr_id": 465,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -63212,6 +65033,7 @@ backup_data = {
         "Gunk Shot",
         "Leech Life"
       ],
+      "tr_id": 466,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -63246,6 +65068,7 @@ backup_data = {
         "Gunk Shot",
         "Leech Life"
       ],
+      "tr_id": 467,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -63280,6 +65103,7 @@ backup_data = {
         "Gunk Shot",
         "Leech Life"
       ],
+      "tr_id": 468,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -63308,7 +65132,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Solar Blade",
@@ -63316,6 +65140,7 @@ backup_data = {
         "Petal Blizzard",
         "Grav Apple"
       ],
+      "tr_id": 446,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -63342,7 +65167,7 @@ backup_data = {
       },
       "item": null,
       "level": 57,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slash",
@@ -63350,6 +65175,7 @@ backup_data = {
         "Brine",
         "Crabhammer"
       ],
+      "tr_id": 446,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -63382,6 +65208,7 @@ backup_data = {
         "Ice Hammer",
         "Iron Head"
       ],
+      "tr_id": 473,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -63412,7 +65239,7 @@ backup_data = {
       },
       "item": null,
       "level": 72,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Brine",
@@ -63420,6 +65247,7 @@ backup_data = {
         "Flail",
         "Meteor Mash"
       ],
+      "tr_id": 510,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -63454,6 +65282,7 @@ backup_data = {
         "Triple Dive",
         "Earthquake"
       ],
+      "tr_id": 447,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -63478,7 +65307,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
@@ -63486,6 +65315,7 @@ backup_data = {
         "Triple Dive",
         "Earthquake"
       ],
+      "tr_id": 447,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -63510,7 +65340,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Waterfall",
@@ -63518,6 +65348,7 @@ backup_data = {
         "Triple Dive",
         "Earthquake"
       ],
+      "tr_id": 447,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -63552,6 +65383,7 @@ backup_data = {
         "Solar Beam",
         "Explosion"
       ],
+      "tr_id": 449,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -63590,6 +65422,7 @@ backup_data = {
         "Solar Beam",
         "Explosion"
       ],
+      "tr_id": 465,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -63624,6 +65457,7 @@ backup_data = {
         "Solar Beam",
         "Explosion"
       ],
+      "tr_id": 466,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -63658,6 +65492,7 @@ backup_data = {
         "Solar Beam",
         "Explosion"
       ],
+      "tr_id": 467,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -63692,6 +65527,7 @@ backup_data = {
         "Solar Beam",
         "Explosion"
       ],
+      "tr_id": 468,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -63718,7 +65554,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Flail",
@@ -63726,6 +65562,7 @@ backup_data = {
         "Shell Smash",
         "Inferno"
       ],
+      "tr_id": 720,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -63760,6 +65597,7 @@ backup_data = {
         "Earthquake",
         "Roost"
       ],
+      "tr_id": 449,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -63798,6 +65636,7 @@ backup_data = {
         "Earthquake",
         "Roost"
       ],
+      "tr_id": 465,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -63832,6 +65671,7 @@ backup_data = {
         "Earthquake",
         "Roost"
       ],
+      "tr_id": 466,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -63866,6 +65706,7 @@ backup_data = {
         "Earthquake",
         "Roost"
       ],
+      "tr_id": 467,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -63900,6 +65741,7 @@ backup_data = {
         "Earthquake",
         "Roost"
       ],
+      "tr_id": 468,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -63936,6 +65778,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 449,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -63974,6 +65817,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 465,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -64008,6 +65852,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 466,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -64042,6 +65887,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 467,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -64076,6 +65922,7 @@ backup_data = {
         "Sucker Punch",
         "Dragon Dance"
       ],
+      "tr_id": 468,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move"
@@ -64112,6 +65959,7 @@ backup_data = {
         "Solar Beam",
         "Focus Blast"
       ],
+      "tr_id": 450,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -64152,6 +66000,7 @@ backup_data = {
         "Hydro Steam",
         "Power Gem"
       ],
+      "tr_id": 450,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -64190,6 +66039,7 @@ backup_data = {
         "Will-O-Wisp",
         "Scald"
       ],
+      "tr_id": 602,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -64219,7 +66069,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Burning Bulwark",
@@ -64227,6 +66077,7 @@ backup_data = {
         "Power Gem",
         "Burn Up"
       ],
+      "tr_id": 725,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -64261,6 +66112,7 @@ backup_data = {
         "Hydro Steam",
         "Power Gem"
       ],
+      "tr_id": 450,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -64293,7 +66145,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Agility",
@@ -64301,6 +66153,7 @@ backup_data = {
         "Dragon Dance",
         "Hydro Pump"
       ],
+      "tr_id": 452,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -64325,7 +66178,7 @@ backup_data = {
       },
       "item": null,
       "level": 72,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dragon Pulse",
@@ -64333,6 +66186,7 @@ backup_data = {
         "Hydro Pump",
         "Snipe Shot"
       ],
+      "tr_id": 510,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -64365,6 +66219,7 @@ backup_data = {
         "Surf",
         "Ice Beam"
       ],
+      "tr_id": 626,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -64397,7 +66252,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Lick",
@@ -64405,6 +66260,7 @@ backup_data = {
         "Seed Bomb",
         "Leaf Storm"
       ],
+      "tr_id": 455,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -64437,6 +66293,7 @@ backup_data = {
         "Synthesis",
         "Hidden Power"
       ],
+      "tr_id": 647,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -64469,7 +66326,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Agility",
@@ -64477,6 +66334,7 @@ backup_data = {
         "Close Combat",
         "Double Shock"
       ],
+      "tr_id": 457,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -64509,6 +66367,7 @@ backup_data = {
         "Fire Punch",
         "Ice Punch"
       ],
+      "tr_id": 732,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -64540,7 +66399,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Moonblast",
@@ -64548,6 +66407,7 @@ backup_data = {
         "Hydro Pump",
         "Misty Terrain"
       ],
+      "tr_id": 458,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -64572,7 +66432,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Moonblast",
@@ -64580,6 +66440,7 @@ backup_data = {
         "Hydro Pump",
         "Misty Terrain"
       ],
+      "tr_id": 459,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -64612,6 +66473,7 @@ backup_data = {
         "Flip Turn",
         "Icy Wind"
       ],
+      "tr_id": 660,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -64650,6 +66512,7 @@ backup_data = {
         "Ice Beam",
         "Hyper Voice"
       ],
+      "tr_id": 74,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -64688,6 +66551,7 @@ backup_data = {
         "Energy Ball",
         "Psychic"
       ],
+      "tr_id": 493,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -64720,7 +66584,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swords Dance",
@@ -64728,6 +66592,7 @@ backup_data = {
         "Sacred Sword",
         "Razor Shell"
       ],
+      "tr_id": 460,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -64752,7 +66617,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swords Dance",
@@ -64760,6 +66625,7 @@ backup_data = {
         "Sacred Sword",
         "Razor Shell"
       ],
+      "tr_id": 578,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -64792,6 +66658,7 @@ backup_data = {
         "Sacred Sword",
         "Shell Smash"
       ],
+      "tr_id": 493,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -64824,7 +66691,7 @@ backup_data = {
       },
       "item": null,
       "level": 33,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Twister",
@@ -64832,6 +66699,7 @@ backup_data = {
         "Focus Energy",
         "Brine"
       ],
+      "tr_id": 461,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -64858,7 +66726,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Power Split",
@@ -64866,6 +66734,7 @@ backup_data = {
         "Stone Edge",
         "Sticky Web"
       ],
+      "tr_id": 469,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -64892,7 +66761,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Iron Head",
@@ -64900,6 +66769,7 @@ backup_data = {
         "Swords Dance",
         "Snowscape"
       ],
+      "tr_id": 469,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -64926,7 +66796,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Attract",
@@ -64934,6 +66804,7 @@ backup_data = {
         "Power Gem",
         "Bug Buzz"
       ],
+      "tr_id": 470,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -64958,7 +66829,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Harden",
@@ -64966,6 +66837,7 @@ backup_data = {
         "Captivate",
         "Flail"
       ],
+      "tr_id": 632,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -64992,7 +66864,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Embargo",
@@ -65000,6 +66872,7 @@ backup_data = {
         "Crunch",
         "Dig"
       ],
+      "tr_id": 471,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65034,6 +66907,7 @@ backup_data = {
         "Mirror Shot",
         "Acid Armor"
       ],
+      "tr_id": 471,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -65060,7 +66934,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stockpile",
@@ -65068,6 +66942,7 @@ backup_data = {
         "Spit Up",
         "Poison Fang"
       ],
+      "tr_id": 472,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -65100,6 +66975,7 @@ backup_data = {
         "Sucker Punch",
         "Earthquake"
       ],
+      "tr_id": 611,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -65130,7 +67006,7 @@ backup_data = {
       },
       "item": null,
       "level": 32,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stockpile",
@@ -65138,6 +67014,7 @@ backup_data = {
         "Spit Up",
         "Poison Fang"
       ],
+      "tr_id": 707,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65164,7 +67041,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gastro Acid",
@@ -65172,6 +67049,7 @@ backup_data = {
         "Haze",
         "Swords Dance"
       ],
+      "tr_id": 472,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65196,7 +67074,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Jab",
@@ -65204,6 +67082,7 @@ backup_data = {
         "Swords Dance",
         "Crunch"
       ],
+      "tr_id": 513,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65236,6 +67115,7 @@ backup_data = {
         "Bulldoze",
         "Toxic"
       ],
+      "tr_id": 545,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -65274,6 +67154,7 @@ backup_data = {
         "Bulldoze",
         "Toxic"
       ],
+      "tr_id": 548,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -65308,6 +67189,7 @@ backup_data = {
         "Bulldoze",
         "Toxic"
       ],
+      "tr_id": 549,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -65342,6 +67224,7 @@ backup_data = {
         "Bulldoze",
         "Toxic"
       ],
+      "tr_id": 550,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -65376,6 +67259,7 @@ backup_data = {
         "Bulldoze",
         "Toxic"
       ],
+      "tr_id": 551,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -65412,6 +67296,7 @@ backup_data = {
         "Rock Slide",
         "Iron Head"
       ],
+      "tr_id": 473,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -65452,6 +67337,7 @@ backup_data = {
         "Ice Hammer",
         "Iron Head"
       ],
+      "tr_id": 473,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -65492,6 +67378,7 @@ backup_data = {
         "Earthquake",
         "Knock Off"
       ],
+      "tr_id": 473,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -65524,7 +67411,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Horn Attack",
@@ -65532,6 +67419,7 @@ backup_data = {
         "Revenge",
         "Head Charge"
       ],
+      "tr_id": 476,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65558,7 +67446,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Focus Energy",
@@ -65566,6 +67454,7 @@ backup_data = {
         "Poison Sting",
         "Chip Away"
       ],
+      "tr_id": 481,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -65590,7 +67479,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Focus Energy",
@@ -65598,6 +67487,7 @@ backup_data = {
         "Poison Sting",
         "Chip Away"
       ],
+      "tr_id": 482,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -65622,7 +67512,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Focus Energy",
@@ -65630,6 +67520,7 @@ backup_data = {
         "Poison Sting",
         "Chip Away"
       ],
+      "tr_id": 485,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -65654,7 +67545,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Focus Energy",
@@ -65662,6 +67553,7 @@ backup_data = {
         "Poison Sting",
         "Chip Away"
       ],
+      "tr_id": 487,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -65686,7 +67578,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Focus Energy",
@@ -65694,6 +67586,7 @@ backup_data = {
         "Poison Sting",
         "Chip Away"
       ],
+      "tr_id": 488,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -65718,7 +67611,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Focus Energy",
@@ -65726,6 +67619,7 @@ backup_data = {
         "Poison Sting",
         "Chip Away"
       ],
+      "tr_id": 489,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -65752,7 +67646,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Double Kick",
@@ -65760,6 +67654,7 @@ backup_data = {
         "Sludge",
         "Chip Away"
       ],
+      "tr_id": 481,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65784,7 +67679,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Double Kick",
@@ -65792,6 +67687,7 @@ backup_data = {
         "Sludge",
         "Chip Away"
       ],
+      "tr_id": 482,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65816,7 +67712,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Double Kick",
@@ -65824,6 +67720,7 @@ backup_data = {
         "Sludge",
         "Chip Away"
       ],
+      "tr_id": 485,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65848,7 +67745,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Double Kick",
@@ -65856,6 +67753,7 @@ backup_data = {
         "Sludge",
         "Chip Away"
       ],
+      "tr_id": 487,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65880,7 +67778,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Double Kick",
@@ -65888,6 +67786,7 @@ backup_data = {
         "Sludge",
         "Chip Away"
       ],
+      "tr_id": 488,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65912,7 +67811,7 @@ backup_data = {
       },
       "item": null,
       "level": 25,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Double Kick",
@@ -65920,6 +67819,7 @@ backup_data = {
         "Sludge",
         "Chip Away"
       ],
+      "tr_id": 489,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -65946,7 +67846,7 @@ backup_data = {
       },
       "item": null,
       "level": 9,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Wrap",
@@ -65954,6 +67854,7 @@ backup_data = {
         "Poison Sting",
         "Bite"
       ],
+      "tr_id": 483,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -65978,7 +67879,7 @@ backup_data = {
       },
       "item": null,
       "level": 9,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Wrap",
@@ -65986,6 +67887,7 @@ backup_data = {
         "Poison Sting",
         "Bite"
       ],
+      "tr_id": 486,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -66012,7 +67914,7 @@ backup_data = {
       },
       "item": null,
       "level": 9,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Leafage",
@@ -66020,6 +67922,7 @@ backup_data = {
         "Rapid Spin",
         "Sweet Scent"
       ],
+      "tr_id": 483,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -66044,7 +67947,7 @@ backup_data = {
       },
       "item": null,
       "level": 9,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Leafage",
@@ -66052,6 +67955,7 @@ backup_data = {
         "Rapid Spin",
         "Sweet Scent"
       ],
+      "tr_id": 486,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -66078,7 +67982,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Morning Sun",
@@ -66086,6 +67990,7 @@ backup_data = {
         "Last Resort",
         "Power Swap"
       ],
+      "tr_id": 484,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -66112,7 +68017,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Moonlight",
@@ -66120,6 +68025,7 @@ backup_data = {
         "Last Resort",
         "Guard Swap"
       ],
+      "tr_id": 484,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -66144,7 +68050,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Moonlight",
@@ -66152,6 +68058,7 @@ backup_data = {
         "Last Resort",
         "Guard Swap"
       ],
+      "tr_id": 640,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -66186,6 +68093,7 @@ backup_data = {
         "Grass Knot",
         "Hidden Power"
       ],
+      "tr_id": 493,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -66218,7 +68126,7 @@ backup_data = {
       },
       "item": null,
       "level": 43,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Submission",
@@ -66226,6 +68134,7 @@ backup_data = {
         "Cross Chop",
         "Scary Face"
       ],
+      "tr_id": 495,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -66260,6 +68169,7 @@ backup_data = {
         "Take Down",
         "Yawn"
       ],
+      "tr_id": 501,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -66284,7 +68194,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Lava Plume",
@@ -66292,6 +68202,7 @@ backup_data = {
         "Curse",
         "Take Down"
       ],
+      "tr_id": 514,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -66324,6 +68235,7 @@ backup_data = {
         "Earth Power",
         "Eruption"
       ],
+      "tr_id": 601,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -66361,6 +68273,7 @@ backup_data = {
         "Earth Power",
         "Slack Off"
       ],
+      "tr_id": 602,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -66390,7 +68303,7 @@ backup_data = {
       },
       "item": null,
       "level": 44,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Earth Power",
@@ -66398,6 +68311,7 @@ backup_data = {
         "Take Down",
         "Yawn"
       ],
+      "tr_id": 734,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -66426,7 +68340,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sludge Bomb",
@@ -66434,6 +68348,7 @@ backup_data = {
         "Belch",
         "Explosion"
       ],
+      "tr_id": 504,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -66468,6 +68383,7 @@ backup_data = {
         "Heat Wave",
         "Sludge Bomb"
       ],
+      "tr_id": 612,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -66508,6 +68424,7 @@ backup_data = {
         "Swagger",
         "Thrash"
       ],
+      "tr_id": 505,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -66534,7 +68451,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rest",
@@ -66542,6 +68459,7 @@ backup_data = {
         "Thrash",
         "Double-Edge"
       ],
+      "tr_id": 505,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -66568,7 +68486,7 @@ backup_data = {
       },
       "item": null,
       "level": 72,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Close Combat",
@@ -66576,6 +68494,7 @@ backup_data = {
         "Dragon Pulse",
         "Final Gambit"
       ],
+      "tr_id": 509,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -66608,6 +68527,7 @@ backup_data = {
         "Vacuum Wave",
         "Dragon Pulse"
       ],
+      "tr_id": 566,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -66641,7 +68561,7 @@ backup_data = {
       },
       "item": null,
       "level": 71,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Reversal",
@@ -66649,6 +68569,7 @@ backup_data = {
         "Giga Impact",
         "Play Rough"
       ],
+      "tr_id": 511,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -66681,6 +68602,7 @@ backup_data = {
         "Thunder Fang",
         "Psychic Fangs"
       ],
+      "tr_id": 512,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -66719,6 +68641,7 @@ backup_data = {
         "Thunder Fang",
         "Psychic Fangs"
       ],
+      "tr_id": 515,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -66753,6 +68676,7 @@ backup_data = {
         "Thunder Fang",
         "Psychic Fangs"
       ],
+      "tr_id": 516,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -66787,6 +68711,7 @@ backup_data = {
         "Thunder Fang",
         "Psychic Fangs"
       ],
+      "tr_id": 517,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -66821,6 +68746,7 @@ backup_data = {
         "Thunder Fang",
         "Psychic Fangs"
       ],
+      "tr_id": 518,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -66849,7 +68775,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Fang",
@@ -66857,6 +68783,7 @@ backup_data = {
         "Dual Wingbeat",
         "Haze"
       ],
+      "tr_id": 514,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -66889,6 +68816,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 592,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -66927,6 +68855,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 593,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -66965,6 +68894,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 599,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -67003,6 +68933,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 600,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -67041,6 +68972,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 768,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -67079,6 +69011,7 @@ backup_data = {
         "Bite",
         "U-turn"
       ],
+      "tr_id": 769,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -67119,6 +69052,7 @@ backup_data = {
         "Earth Power",
         "Psychic"
       ],
+      "tr_id": 519,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -67156,6 +69090,7 @@ backup_data = {
         "Earth Power",
         "Psychic"
       ],
+      "tr_id": 657,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -67195,6 +69130,7 @@ backup_data = {
         "Meteor Beam",
         "Flamethrower"
       ],
+      "tr_id": 519,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -67232,6 +69168,7 @@ backup_data = {
         "Meteor Beam",
         "Flamethrower"
       ],
+      "tr_id": 657,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -67269,6 +69206,7 @@ backup_data = {
         "Giga Drain",
         "Flamethrower"
       ],
+      "tr_id": 857,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -67309,6 +69247,7 @@ backup_data = {
         "Earthquake",
         "Superpower"
       ],
+      "tr_id": 519,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -67346,6 +69285,7 @@ backup_data = {
         "Earthquake",
         "Superpower"
       ],
+      "tr_id": 657,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -67383,6 +69323,7 @@ backup_data = {
         "Earthquake",
         "Superpower"
       ],
+      "tr_id": 658,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -67421,6 +69362,7 @@ backup_data = {
         "Earthquake",
         "Brick Break"
       ],
+      "tr_id": 755,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -67461,6 +69403,7 @@ backup_data = {
         "Thunderbolt",
         "Hyper Voice"
       ],
+      "tr_id": 519,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -67498,6 +69441,7 @@ backup_data = {
         "Thunderbolt",
         "Hyper Voice"
       ],
+      "tr_id": 657,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -67537,6 +69481,7 @@ backup_data = {
         "Focus Blast",
         "Calm Mind"
       ],
+      "tr_id": 519,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -67574,6 +69519,7 @@ backup_data = {
         "Focus Blast",
         "Calm Mind"
       ],
+      "tr_id": 657,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -67611,6 +69557,7 @@ backup_data = {
         "Focus Blast",
         "Thunderbolt"
       ],
+      "tr_id": 658,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -67643,12 +69590,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Pound",
         "Leer"
       ],
+      "tr_id": 520,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -67675,12 +69623,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Pound",
         "Leer"
       ],
+      "tr_id": 529,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -67717,6 +69666,7 @@ backup_data = {
         "Body Slam",
         "Thunder Wave"
       ],
+      "tr_id": 521,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -67755,6 +69705,7 @@ backup_data = {
         "Body Slam",
         "Thunder Wave"
       ],
+      "tr_id": 530,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -67795,6 +69746,7 @@ backup_data = {
         "Thunder Punch",
         "Ice Punch"
       ],
+      "tr_id": 521,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -67833,6 +69785,7 @@ backup_data = {
         "Thunder Punch",
         "Ice Punch"
       ],
+      "tr_id": 524,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -67871,6 +69824,7 @@ backup_data = {
         "Thunder Punch",
         "Ice Punch"
       ],
+      "tr_id": 527,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -67909,6 +69863,7 @@ backup_data = {
         "Thunder Punch",
         "Ice Punch"
       ],
+      "tr_id": 530,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -67947,6 +69902,7 @@ backup_data = {
         "Thunder Punch",
         "Ice Punch"
       ],
+      "tr_id": 533,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -67985,6 +69941,7 @@ backup_data = {
         "Thunder Punch",
         "Ice Punch"
       ],
+      "tr_id": 536,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68023,6 +69980,7 @@ backup_data = {
         "Headbutt",
         "Thunder Punch"
       ],
+      "tr_id": 592,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -68061,6 +70019,7 @@ backup_data = {
         "Headbutt",
         "Rock Tomb"
       ],
+      "tr_id": 593,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -68099,6 +70058,7 @@ backup_data = {
         "Headbutt",
         "Fire Punch"
       ],
+      "tr_id": 599,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -68137,6 +70097,7 @@ backup_data = {
         "Headbutt",
         "Rock Tomb"
       ],
+      "tr_id": 600,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -68175,6 +70136,7 @@ backup_data = {
         "Headbutt",
         "Thunder Punch"
       ],
+      "tr_id": 768,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -68213,6 +70175,7 @@ backup_data = {
         "Headbutt",
         "Fire Punch"
       ],
+      "tr_id": 769,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -68253,6 +70216,7 @@ backup_data = {
         "Power-Up Punch",
         "Low Sweep"
       ],
+      "tr_id": 521,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -68291,6 +70255,7 @@ backup_data = {
         "Power-Up Punch",
         "Low Sweep"
       ],
+      "tr_id": 530,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -68329,6 +70294,7 @@ backup_data = {
         "Fury Cutter",
         "Assurance"
       ],
+      "tr_id": 593,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68367,6 +70333,7 @@ backup_data = {
         "Fury Cutter",
         "Assurance"
       ],
+      "tr_id": 600,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68407,6 +70374,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 522,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68444,6 +70412,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 525,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68481,6 +70450,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 528,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68518,6 +70488,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 531,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68554,6 +70525,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 534,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68591,6 +70563,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 537,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68628,6 +70601,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 661,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68665,6 +70639,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 662,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68702,6 +70677,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 663,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68739,6 +70715,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 664,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68776,6 +70753,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 665,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68813,6 +70791,7 @@ backup_data = {
         "Sucker Punch",
         "Ice Punch"
       ],
+      "tr_id": 666,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -68850,6 +70829,7 @@ backup_data = {
         "Sucker Punch",
         "Swords Dance"
       ],
+      "tr_id": 71,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -68888,6 +70868,7 @@ backup_data = {
         "Iron Head",
         "Detect"
       ],
+      "tr_id": 72,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -68928,6 +70909,7 @@ backup_data = {
         "Earthquake",
         "Swords Dance"
       ],
+      "tr_id": 522,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -68965,6 +70947,7 @@ backup_data = {
         "Earthquake",
         "Swords Dance"
       ],
+      "tr_id": 531,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -69001,6 +70984,7 @@ backup_data = {
         "Earthquake",
         "Swords Dance"
       ],
+      "tr_id": 661,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -69038,6 +71022,7 @@ backup_data = {
         "Earthquake",
         "Swords Dance"
       ],
+      "tr_id": 664,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -69075,6 +71060,7 @@ backup_data = {
         "Rock Tomb",
         "Power-Up Punch"
       ],
+      "tr_id": 493,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -69115,6 +71101,7 @@ backup_data = {
         "Earthquake",
         "Swords Dance"
       ],
+      "tr_id": 522,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -69152,6 +71139,7 @@ backup_data = {
         "Earthquake",
         "Swords Dance"
       ],
+      "tr_id": 531,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -69188,6 +71176,7 @@ backup_data = {
         "Earthquake",
         "Swords Dance"
       ],
+      "tr_id": 661,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -69225,6 +71214,7 @@ backup_data = {
         "Earthquake",
         "Swords Dance"
       ],
+      "tr_id": 664,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -69262,6 +71252,7 @@ backup_data = {
         "Rock Tomb",
         "Power-Up Punch"
       ],
+      "tr_id": 493,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -69294,12 +71285,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
         "Growl"
       ],
+      "tr_id": 523,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -69326,12 +71318,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
         "Growl"
       ],
+      "tr_id": 532,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -69368,6 +71361,7 @@ backup_data = {
         "Zen Headbutt",
         "Bulldoze"
       ],
+      "tr_id": 524,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -69406,6 +71400,7 @@ backup_data = {
         "Zen Headbutt",
         "Bulldoze"
       ],
+      "tr_id": 533,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -69446,6 +71441,7 @@ backup_data = {
         "Quick Attack",
         "Counter"
       ],
+      "tr_id": 524,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -69484,6 +71480,7 @@ backup_data = {
         "Quick Attack",
         "Counter"
       ],
+      "tr_id": 533,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -69522,6 +71519,7 @@ backup_data = {
         "Flame Charge",
         "Thunder Punch"
       ],
+      "tr_id": 592,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -69560,6 +71558,7 @@ backup_data = {
         "Flame Charge",
         "Thunder Punch"
       ],
+      "tr_id": 768,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -69600,6 +71599,7 @@ backup_data = {
         "Thunder Punch",
         "Bulk Up"
       ],
+      "tr_id": 525,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -69637,6 +71637,7 @@ backup_data = {
         "Thunder Punch",
         "Bulk Up"
       ],
+      "tr_id": 534,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -69674,6 +71675,7 @@ backup_data = {
         "Thunder Punch",
         "Bulk Up"
       ],
+      "tr_id": 662,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -69711,6 +71713,7 @@ backup_data = {
         "Thunder Punch",
         "Bulk Up"
       ],
+      "tr_id": 665,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -69748,6 +71751,7 @@ backup_data = {
         "Close Combat",
         "Swords Dance"
       ],
+      "tr_id": 727,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -69787,6 +71791,7 @@ backup_data = {
         "Swords Dance",
         "Blaze Kick"
       ],
+      "tr_id": 24,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -69825,6 +71830,7 @@ backup_data = {
         "Blaze Kick",
         "Quick Attack"
       ],
+      "tr_id": 72,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -69863,6 +71869,7 @@ backup_data = {
         "Knock Off",
         "Power-Up Punch"
       ],
+      "tr_id": 65,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -69903,6 +71910,7 @@ backup_data = {
         "Thunder Punch",
         "Bulk Up"
       ],
+      "tr_id": 525,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -69940,6 +71948,7 @@ backup_data = {
         "Thunder Punch",
         "Bulk Up"
       ],
+      "tr_id": 534,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -69977,6 +71986,7 @@ backup_data = {
         "Thunder Punch",
         "Bulk Up"
       ],
+      "tr_id": 662,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -70014,6 +72024,7 @@ backup_data = {
         "Thunder Punch",
         "Bulk Up"
       ],
+      "tr_id": 665,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -70051,6 +72062,7 @@ backup_data = {
         "Knock Off",
         "Power-Up Punch"
       ],
+      "tr_id": 65,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -70083,12 +72095,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Growl"
       ],
+      "tr_id": 526,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -70115,12 +72128,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Growl"
       ],
+      "tr_id": 535,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -70157,6 +72171,7 @@ backup_data = {
         "Water Pulse",
         "Life Dew"
       ],
+      "tr_id": 527,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -70195,6 +72210,7 @@ backup_data = {
         "Water Pulse",
         "Life Dew"
       ],
+      "tr_id": 536,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -70235,6 +72251,7 @@ backup_data = {
         "Liquidation",
         "Flip Turn"
       ],
+      "tr_id": 527,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -70273,6 +72290,7 @@ backup_data = {
         "Liquidation",
         "Flip Turn"
       ],
+      "tr_id": 536,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -70311,6 +72329,7 @@ backup_data = {
         "Mud Shot",
         "Ice Punch"
       ],
+      "tr_id": 599,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -70349,6 +72368,7 @@ backup_data = {
         "Mud Shot",
         "Ice Punch"
       ],
+      "tr_id": 769,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -70389,6 +72409,7 @@ backup_data = {
         "Power-Up Punch",
         "Avalanche"
       ],
+      "tr_id": 528,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -70426,6 +72447,7 @@ backup_data = {
         "Power-Up Punch",
         "Avalanche"
       ],
+      "tr_id": 537,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -70463,6 +72485,7 @@ backup_data = {
         "Power-Up Punch",
         "Avalanche"
       ],
+      "tr_id": 663,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -70500,6 +72523,7 @@ backup_data = {
         "Power-Up Punch",
         "Avalanche"
       ],
+      "tr_id": 666,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -70537,6 +72561,7 @@ backup_data = {
         "Power-Up Punch",
         "Avalanche"
       ],
+      "tr_id": 647,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -70577,6 +72602,7 @@ backup_data = {
         "Water Pulse",
         "Shadow Ball"
       ],
+      "tr_id": 538,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -70615,6 +72641,7 @@ backup_data = {
         "Water Pulse",
         "Shadow Ball"
       ],
+      "tr_id": 541,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -70649,6 +72676,7 @@ backup_data = {
         "Water Pulse",
         "Shadow Ball"
       ],
+      "tr_id": 542,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -70683,6 +72711,7 @@ backup_data = {
         "Water Pulse",
         "Shadow Ball"
       ],
+      "tr_id": 543,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -70717,6 +72746,7 @@ backup_data = {
         "Water Pulse",
         "Shadow Ball"
       ],
+      "tr_id": 544,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -70753,6 +72783,7 @@ backup_data = {
         "Dazzling Gleam",
         "Energy Ball"
       ],
+      "tr_id": 545,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -70791,6 +72822,7 @@ backup_data = {
         "Dazzling Gleam",
         "Energy Ball"
       ],
+      "tr_id": 548,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -70825,6 +72857,7 @@ backup_data = {
         "Dazzling Gleam",
         "Energy Ball"
       ],
+      "tr_id": 549,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -70859,6 +72892,7 @@ backup_data = {
         "Dazzling Gleam",
         "Energy Ball"
       ],
+      "tr_id": 550,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -70893,6 +72927,7 @@ backup_data = {
         "Dazzling Gleam",
         "Energy Ball"
       ],
+      "tr_id": 551,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -70929,6 +72964,7 @@ backup_data = {
         "Poison Powder",
         "Flash"
       ],
+      "tr_id": 545,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -70967,6 +73003,7 @@ backup_data = {
         "Poison Powder",
         "Flash"
       ],
+      "tr_id": 548,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -71001,6 +73038,7 @@ backup_data = {
         "Poison Powder",
         "Flash"
       ],
+      "tr_id": 549,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -71035,6 +73073,7 @@ backup_data = {
         "Poison Powder",
         "Flash"
       ],
+      "tr_id": 550,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -71069,6 +73108,7 @@ backup_data = {
         "Poison Powder",
         "Flash"
       ],
+      "tr_id": 551,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -71105,6 +73145,7 @@ backup_data = {
         "Thunder Punch",
         "Toxic"
       ],
+      "tr_id": 545,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -71143,6 +73184,7 @@ backup_data = {
         "Thunder Punch",
         "Toxic"
       ],
+      "tr_id": 548,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -71177,6 +73219,7 @@ backup_data = {
         "Thunder Punch",
         "Toxic"
       ],
+      "tr_id": 549,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -71211,6 +73254,7 @@ backup_data = {
         "Thunder Punch",
         "Toxic"
       ],
+      "tr_id": 550,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -71245,6 +73289,7 @@ backup_data = {
         "Thunder Punch",
         "Toxic"
       ],
+      "tr_id": 551,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -71271,14 +73316,15 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Captivate",
         "Gyro Ball",
         "Heal Bell",
-        "Wake-Up Slap"
+        "Wake-up Slap"
       ],
+      "tr_id": 652,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -71314,6 +73360,7 @@ backup_data = {
         "Ice Punch",
         "Rock Smash"
       ],
+      "tr_id": 545,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -71352,6 +73399,7 @@ backup_data = {
         "Ice Punch",
         "Rock Smash"
       ],
+      "tr_id": 548,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -71386,6 +73434,7 @@ backup_data = {
         "Ice Punch",
         "Rock Smash"
       ],
+      "tr_id": 549,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -71420,6 +73469,7 @@ backup_data = {
         "Ice Punch",
         "Rock Smash"
       ],
+      "tr_id": 550,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -71454,6 +73504,7 @@ backup_data = {
         "Ice Punch",
         "Rock Smash"
       ],
+      "tr_id": 551,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -71482,7 +73533,7 @@ backup_data = {
       },
       "item": null,
       "level": 39,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Payback",
@@ -71490,6 +73541,7 @@ backup_data = {
         "Sucker Punch",
         "Pin Missile"
       ],
+      "tr_id": 554,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -71524,6 +73576,7 @@ backup_data = {
         "Dark Pulse",
         "Scorching Sands"
       ],
+      "tr_id": 601,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -71561,6 +73614,7 @@ backup_data = {
         "Dark Pulse",
         "Scorching Sands"
       ],
+      "tr_id": 602,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -71598,6 +73652,7 @@ backup_data = {
         "Dark Pulse",
         "Destiny Bond"
       ],
+      "tr_id": 710,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -71630,7 +73685,7 @@ backup_data = {
       },
       "item": null,
       "level": 62,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sweet Scent",
@@ -71638,6 +73693,7 @@ backup_data = {
         "Leaf Storm",
         "Superpower"
       ],
+      "tr_id": 560,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -71666,7 +73722,7 @@ backup_data = {
       },
       "item": null,
       "level": 38,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Dual Wingbeat",
@@ -71674,6 +73730,7 @@ backup_data = {
         "Cotton Guard",
         "Dragon Pulse"
       ],
+      "tr_id": 561,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -71702,7 +73759,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Flame Burst",
@@ -71710,6 +73767,7 @@ backup_data = {
         "Fire Punch",
         "Lava Plume"
       ],
+      "tr_id": 570,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -71736,7 +73794,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Harden",
@@ -71744,6 +73802,7 @@ backup_data = {
         "Aqua Jet",
         "Fury Cutter"
       ],
+      "tr_id": 571,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -71770,7 +73829,7 @@ backup_data = {
       },
       "item": null,
       "level": 11,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Leer",
@@ -71778,6 +73837,7 @@ backup_data = {
         "Rock Throw",
         "Scary Face"
       ],
+      "tr_id": 571,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -71804,7 +73864,7 @@ backup_data = {
       },
       "item": null,
       "level": 17,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Water Gun",
@@ -71812,6 +73872,7 @@ backup_data = {
         "Bubble",
         "Double Slap"
       ],
+      "tr_id": 572,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -71846,6 +73907,7 @@ backup_data = {
         "Earth Power",
         "Sludge Bomb"
       ],
+      "tr_id": 579,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -71875,7 +73937,7 @@ backup_data = {
       },
       "item": null,
       "level": 76,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Giga Drain",
@@ -71883,6 +73945,7 @@ backup_data = {
         "Ingrain",
         "Confuse Ray"
       ],
+      "tr_id": 804,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -71919,6 +73982,7 @@ backup_data = {
         "Ice Punch",
         "Accelerock"
       ],
+      "tr_id": 579,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -71956,6 +74020,7 @@ backup_data = {
         "Rock Slide",
         "Fusion Bolt"
       ],
+      "tr_id": 659,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -71988,7 +74053,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Superpower",
@@ -71996,6 +74061,7 @@ backup_data = {
         "Jaw Lock",
         "Dragon Dance"
       ],
+      "tr_id": 580,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -72020,7 +74086,7 @@ backup_data = {
       },
       "item": null,
       "level": 50,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Screech",
@@ -72028,6 +74094,7 @@ backup_data = {
         "Aqua Fang",
         "Superpower"
       ],
+      "tr_id": 735,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -72054,7 +74121,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Agility",
@@ -72062,6 +74129,7 @@ backup_data = {
         "Twin Beam",
         "Crunch"
       ],
+      "tr_id": 581,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -72088,7 +74156,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Zen Headbutt",
@@ -72096,6 +74164,7 @@ backup_data = {
         "Psychic",
         "Quiver Dance"
       ],
+      "tr_id": 583,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -72120,7 +74189,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Stun Spore",
@@ -72128,6 +74197,7 @@ backup_data = {
         "Sleep Powder",
         "Leech Life"
       ],
+      "tr_id": 708,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -72154,7 +74224,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Signal Beam",
@@ -72162,6 +74232,7 @@ backup_data = {
         "Future Sight",
         "Stored Power"
       ],
+      "tr_id": 584,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -72188,7 +74259,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Imprison",
@@ -72196,6 +74267,7 @@ backup_data = {
         "Misty Terrain",
         "Quick Guard"
       ],
+      "tr_id": 591,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -72220,7 +74292,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Psyshock",
@@ -72228,6 +74300,7 @@ backup_data = {
         "Miracle Eye",
         "Reflect"
       ],
+      "tr_id": 746,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -72262,6 +74335,7 @@ backup_data = {
         "Thunder Wave",
         "Life Dew"
       ],
+      "tr_id": 592,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72300,6 +74374,7 @@ backup_data = {
         "Thunder Wave",
         "Life Dew"
       ],
+      "tr_id": 593,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72338,6 +74413,7 @@ backup_data = {
         "Thunder Wave",
         "Life Dew"
       ],
+      "tr_id": 599,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72376,6 +74452,7 @@ backup_data = {
         "Thunder Wave",
         "Life Dew"
       ],
+      "tr_id": 600,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72414,6 +74491,7 @@ backup_data = {
         "Thunder Wave",
         "Life Dew"
       ],
+      "tr_id": 768,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72452,6 +74530,7 @@ backup_data = {
         "Thunder Wave",
         "Life Dew"
       ],
+      "tr_id": 769,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72492,6 +74571,7 @@ backup_data = {
         "Swords Dance",
         "Stomping Tantrum"
       ],
+      "tr_id": 596,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -72521,7 +74601,7 @@ backup_data = {
       },
       "item": null,
       "level": 76,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Water Pulse",
@@ -72529,6 +74609,7 @@ backup_data = {
         "Aerial Ace",
         "Slash"
       ],
+      "tr_id": 804,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -72565,6 +74646,7 @@ backup_data = {
         "Dragon Pulse",
         "Earth Power"
       ],
+      "tr_id": 596,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -72604,6 +74686,7 @@ backup_data = {
         "Sucker Punch",
         "Jump Kick"
       ],
+      "tr_id": 597,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -72641,6 +74724,7 @@ backup_data = {
         "Head Smash",
         "Close Combat"
       ],
+      "tr_id": 732,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72680,6 +74764,7 @@ backup_data = {
         "Accelerock",
         "Wild Charge"
       ],
+      "tr_id": 597,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72717,6 +74802,7 @@ backup_data = {
         "Headlong Rush",
         "Extreme Speed"
       ],
+      "tr_id": 745,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72757,6 +74843,7 @@ backup_data = {
         "Sludge Bomb",
         "Hidden Power"
       ],
+      "tr_id": 597,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -72796,6 +74883,7 @@ backup_data = {
         "Sludge Bomb",
         "Scorching Sands"
       ],
+      "tr_id": 597,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -72833,6 +74921,7 @@ backup_data = {
         "Sludge Bomb",
         "Scorching Sands"
       ],
+      "tr_id": 732,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -72864,7 +74953,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Imprison",
@@ -72872,6 +74961,7 @@ backup_data = {
         "Calm Mind",
         "Me First"
       ],
+      "tr_id": 598,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72906,6 +74996,7 @@ backup_data = {
         "Earthquake",
         "Hyper Voice"
       ],
+      "tr_id": 743,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -72946,6 +75037,7 @@ backup_data = {
         "Flare Blitz",
         "Bulldoze"
       ],
+      "tr_id": 601,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -72985,6 +75077,7 @@ backup_data = {
         "Psychic",
         "Hidden Power"
       ],
+      "tr_id": 601,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -73022,6 +75115,7 @@ backup_data = {
         "Psychic",
         "Hidden Power"
       ],
+      "tr_id": 602,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -73061,6 +75155,7 @@ backup_data = {
         "Earth Power",
         "Eruption"
       ],
+      "tr_id": 601,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -73098,6 +75193,7 @@ backup_data = {
         "Earth Power",
         "Slack Off"
       ],
+      "tr_id": 602,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -73137,6 +75233,7 @@ backup_data = {
         "Body Press",
         "Rock Slide"
       ],
+      "tr_id": 601,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -73166,13 +75263,14 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Metal Claw",
         "Smack Down",
         "Scary Face"
       ],
+      "tr_id": 853,
       "sub_index": 0,
       "ai_tags": []
     }
@@ -73197,13 +75295,14 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sing",
         "Defense Curl",
         "Pound"
       ],
+      "tr_id": 603,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -73230,13 +75329,14 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Absorb",
         "Tackle",
         "Stun Spore"
       ],
+      "tr_id": 603,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -73263,12 +75363,13 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Absorb",
         "Bubble"
       ],
+      "tr_id": 604,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -73293,12 +75394,13 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Absorb",
         "Bubble"
       ],
+      "tr_id": 607,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -73323,12 +75425,13 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Absorb",
         "Bubble"
       ],
+      "tr_id": 608,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -73353,12 +75456,13 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Absorb",
         "Bubble"
       ],
+      "tr_id": 609,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -73383,12 +75487,13 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Absorb",
         "Bubble"
       ],
+      "tr_id": 610,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -73415,7 +75520,7 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
@@ -73423,6 +75528,7 @@ backup_data = {
         "Leer",
         "Lick"
       ],
+      "tr_id": 604,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -73447,7 +75553,7 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
@@ -73455,6 +75561,7 @@ backup_data = {
         "Leer",
         "Lick"
       ],
+      "tr_id": 607,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -73479,7 +75586,7 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
@@ -73487,6 +75594,7 @@ backup_data = {
         "Leer",
         "Lick"
       ],
+      "tr_id": 608,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -73511,7 +75619,7 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
@@ -73519,6 +75627,7 @@ backup_data = {
         "Leer",
         "Lick"
       ],
+      "tr_id": 609,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -73543,7 +75652,7 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
@@ -73551,6 +75660,7 @@ backup_data = {
         "Leer",
         "Lick"
       ],
+      "tr_id": 610,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -73577,12 +75687,13 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wing Attack",
         "Tackle"
       ],
+      "tr_id": 604,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -73607,12 +75718,13 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wing Attack",
         "Tackle"
       ],
+      "tr_id": 607,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -73637,12 +75749,13 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wing Attack",
         "Tackle"
       ],
+      "tr_id": 608,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -73667,12 +75780,13 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wing Attack",
         "Tackle"
       ],
+      "tr_id": 609,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -73697,12 +75811,13 @@ backup_data = {
       },
       "item": null,
       "level": 8,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wing Attack",
         "Tackle"
       ],
+      "tr_id": 610,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -73737,6 +75852,7 @@ backup_data = {
         "Pounce",
         "Dual Wingbeat"
       ],
+      "tr_id": 606,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -73775,6 +75891,7 @@ backup_data = {
         "Dual Wingbeat",
         "Swords Dance"
       ],
+      "tr_id": 711,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -73816,6 +75933,7 @@ backup_data = {
         "Pounce",
         "Dual Wingbeat"
       ],
+      "tr_id": 606,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -73856,6 +75974,7 @@ backup_data = {
         "Dazzling Gleam",
         "Energy Ball"
       ],
+      "tr_id": 611,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -73896,6 +76015,7 @@ backup_data = {
         "Sucker Punch",
         "Night Slash"
       ],
+      "tr_id": 612,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -73926,7 +76046,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Night Shade",
@@ -73934,6 +76054,7 @@ backup_data = {
         "Poison Fang",
         "Sucker Punch"
       ],
+      "tr_id": 756,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -73968,6 +76089,7 @@ backup_data = {
         "Psychic Noise",
         "Sludge Bomb"
       ],
+      "tr_id": 612,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -73998,7 +76120,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Jab",
@@ -74006,6 +76128,7 @@ backup_data = {
         "Boomburst",
         "Shift Gear"
       ],
+      "tr_id": 653,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -74039,6 +76162,7 @@ backup_data = {
         "Boomburst",
         "Hidden Power"
       ],
+      "tr_id": 712,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -74079,6 +76203,7 @@ backup_data = {
         "Drain Punch",
         "Earthquake"
       ],
+      "tr_id": 612,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -74119,6 +76244,7 @@ backup_data = {
         "Dazzling Gleam",
         "Grass Knot"
       ],
+      "tr_id": 612,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -74151,7 +76277,7 @@ backup_data = {
       },
       "item": null,
       "level": 72,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wish",
@@ -74159,6 +76285,7 @@ backup_data = {
         "Light Screen",
         "Safeguard"
       ],
+      "tr_id": 613,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74185,7 +76312,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Moonblast",
@@ -74193,6 +76320,7 @@ backup_data = {
         "Spotlight",
         "Sparkly Swirl"
       ],
+      "tr_id": 614,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74217,7 +76345,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Moonblast",
@@ -74225,6 +76353,7 @@ backup_data = {
         "Spotlight",
         "Sparkly Swirl"
       ],
+      "tr_id": 673,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -74249,7 +76378,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Moonlight",
@@ -74257,6 +76386,7 @@ backup_data = {
         "Sleep Powder",
         "Ingrain"
       ],
+      "tr_id": 703,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74289,6 +76419,7 @@ backup_data = {
         "Moonblast",
         "Flash"
       ],
+      "tr_id": 764,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -74321,7 +76452,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Recycle",
@@ -74329,6 +76460,7 @@ backup_data = {
         "Magic Room",
         "Heal Block"
       ],
+      "tr_id": 614,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -74353,7 +76485,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Metal Sound",
@@ -74361,6 +76493,7 @@ backup_data = {
         "Draining Kiss",
         "Crafty Shield"
       ],
+      "tr_id": 702,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -74387,12 +76520,13 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Gentle",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vise Grip",
         "String Shot"
       ],
+      "tr_id": 615,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74419,7 +76553,7 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "String Shot",
@@ -74427,6 +76561,7 @@ backup_data = {
         "Spider Web",
         "Thunder Wave"
       ],
+      "tr_id": 615,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -74453,13 +76588,14 @@ backup_data = {
       },
       "item": null,
       "level": 6,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "String Shot",
         "Poison Sting"
       ],
+      "tr_id": 616,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74486,11 +76622,12 @@ backup_data = {
       },
       "item": null,
       "level": 6,
-      "nature": "Careful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Struggle Bug"
       ],
+      "tr_id": 616,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -74517,13 +76654,14 @@ backup_data = {
       },
       "item": null,
       "level": 6,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Water Sport",
         "Bubble",
         "Infestation"
       ],
+      "tr_id": 616,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -74550,7 +76688,7 @@ backup_data = {
       },
       "item": null,
       "level": 6,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Poison Sting",
@@ -74558,6 +76696,7 @@ backup_data = {
         "Constrict",
         "Absorb"
       ],
+      "tr_id": 616,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move"
@@ -74584,13 +76723,14 @@ backup_data = {
       },
       "item": null,
       "level": 9,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Supersonic",
         "Swift"
       ],
+      "tr_id": 617,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74615,7 +76755,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Comet Punch",
@@ -74623,6 +76763,7 @@ backup_data = {
         "Bug Buzz",
         "Double-Edge"
       ],
+      "tr_id": 619,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74649,13 +76790,14 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Detect",
         "Detect",
         "Harden"
       ],
+      "tr_id": 617,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -74682,7 +76824,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Heavy Slam",
@@ -74690,6 +76832,7 @@ backup_data = {
         "Power Whip",
         "Spirit Shackle"
       ],
+      "tr_id": 618,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74716,7 +76859,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swallow",
@@ -74724,6 +76867,7 @@ backup_data = {
         "Wring Out",
         "Power Whip"
       ],
+      "tr_id": 618,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -74748,7 +76892,7 @@ backup_data = {
       },
       "item": null,
       "level": 30,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Vine Whip",
@@ -74756,6 +76900,7 @@ backup_data = {
         "Ingrain",
         "Feint Attack"
       ],
+      "tr_id": 704,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -74782,13 +76927,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
         "Harden",
         "Absorb"
       ],
+      "tr_id": 621,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74813,13 +76959,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
         "Harden",
         "Absorb"
       ],
+      "tr_id": 622,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74844,13 +76991,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
         "Harden",
         "Absorb"
       ],
+      "tr_id": 623,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74875,13 +77023,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
         "Harden",
         "Absorb"
       ],
+      "tr_id": 624,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74906,13 +77055,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Scratch",
         "Harden",
         "Absorb"
       ],
+      "tr_id": 625,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -74939,13 +77089,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ember",
         "Bug Bite",
         "Wrap"
       ],
+      "tr_id": 621,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -74970,13 +77121,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ember",
         "Bug Bite",
         "Wrap"
       ],
+      "tr_id": 622,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -75001,13 +77153,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ember",
         "Bug Bite",
         "Wrap"
       ],
+      "tr_id": 623,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -75032,13 +77185,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ember",
         "Bug Bite",
         "Wrap"
       ],
+      "tr_id": 624,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -75063,13 +77217,14 @@ backup_data = {
       },
       "item": null,
       "level": 7,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Ember",
         "Bug Bite",
         "Wrap"
       ],
+      "tr_id": 625,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -75104,6 +77259,7 @@ backup_data = {
         "Rock Slide",
         "Ice Shard"
       ],
+      "tr_id": 627,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -75142,6 +77298,7 @@ backup_data = {
         "Rock Slide",
         "Ice Shard"
       ],
+      "tr_id": 636,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -75176,6 +77333,7 @@ backup_data = {
         "Rock Slide",
         "Ice Shard"
       ],
+      "tr_id": 637,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -75210,6 +77368,7 @@ backup_data = {
         "Rock Slide",
         "Ice Shard"
       ],
+      "tr_id": 638,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -75244,6 +77403,7 @@ backup_data = {
         "Rock Slide",
         "Ice Shard"
       ],
+      "tr_id": 639,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -75272,7 +77432,7 @@ backup_data = {
       },
       "item": null,
       "level": 38,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Sweet Scent",
@@ -75280,6 +77440,7 @@ backup_data = {
         "Toxic",
         "Synthesis"
       ],
+      "tr_id": 628,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -75314,6 +77475,7 @@ backup_data = {
         "Liquidation",
         "Zen Headbutt"
       ],
+      "tr_id": 629,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -75352,6 +77514,7 @@ backup_data = {
         "Liquidation",
         "Zen Headbutt"
       ],
+      "tr_id": 633,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -75388,6 +77551,7 @@ backup_data = {
         "Pluck",
         "Rock Slide"
       ],
+      "tr_id": 629,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -75426,6 +77590,7 @@ backup_data = {
         "Pluck",
         "Rock Slide"
       ],
+      "tr_id": 633,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move"
@@ -75462,6 +77627,7 @@ backup_data = {
         "Leech Seed",
         "Thunder Wave"
       ],
+      "tr_id": 630,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -75500,6 +77666,7 @@ backup_data = {
         "Stealth Rock",
         "Explosion"
       ],
+      "tr_id": 493,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -75540,6 +77707,7 @@ backup_data = {
         "Heavy Slam",
         "Curse"
       ],
+      "tr_id": 630,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -75578,6 +77746,7 @@ backup_data = {
         "Earthquake",
         "Stone Edge"
       ],
+      "tr_id": 710,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -75616,6 +77785,7 @@ backup_data = {
         "Earthquake",
         "Stone Edge"
       ],
+      "tr_id": 65,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -75656,6 +77826,7 @@ backup_data = {
         "Heavy Slam",
         "Curse"
       ],
+      "tr_id": 630,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -75694,6 +77865,7 @@ backup_data = {
         "Earthquake",
         "Stone Edge"
       ],
+      "tr_id": 710,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -75732,6 +77904,7 @@ backup_data = {
         "Earthquake",
         "Stone Edge"
       ],
+      "tr_id": 65,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -75772,6 +77945,7 @@ backup_data = {
         "Body Press",
         "Earthquake"
       ],
+      "tr_id": 630,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -75804,7 +77978,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Defense Curl",
@@ -75812,6 +77986,7 @@ backup_data = {
         "Rock Polish",
         "Rollout"
       ],
+      "tr_id": 631,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -75836,7 +78011,7 @@ backup_data = {
       },
       "item": null,
       "level": 21,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rollout",
@@ -75844,6 +78019,7 @@ backup_data = {
         "Rock Tomb",
         "Smack Down"
       ],
+      "tr_id": 836,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -75870,7 +78046,7 @@ backup_data = {
       },
       "item": null,
       "level": 21,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rollout",
@@ -75878,6 +78054,7 @@ backup_data = {
         "Rock Tomb",
         "Smack Down"
       ],
+      "tr_id": 837,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -75904,7 +78081,7 @@ backup_data = {
       },
       "item": null,
       "level": 21,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rollout",
@@ -75912,6 +78089,7 @@ backup_data = {
         "Rock Tomb",
         "Smack Down"
       ],
+      "tr_id": 838,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -75938,7 +78116,7 @@ backup_data = {
       },
       "item": null,
       "level": 21,
-      "nature": "Docile",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Rollout",
@@ -75946,6 +78124,7 @@ backup_data = {
         "Rock Tomb",
         "Smack Down"
       ],
+      "tr_id": 839,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -75974,7 +78153,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Detect",
@@ -75982,6 +78161,7 @@ backup_data = {
         "X-Scissor",
         "Flail"
       ],
+      "tr_id": 634,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -76006,7 +78186,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Detect",
@@ -76014,6 +78194,7 @@ backup_data = {
         "X-Scissor",
         "Flail"
       ],
+      "tr_id": 635,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -76040,7 +78221,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bug Bite",
@@ -76048,6 +78229,7 @@ backup_data = {
         "False Swipe",
         "Bug Buzz"
       ],
+      "tr_id": 634,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -76072,7 +78254,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bug Bite",
@@ -76080,6 +78262,7 @@ backup_data = {
         "False Swipe",
         "Bug Buzz"
       ],
+      "tr_id": 635,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -76106,7 +78289,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Bug Buzz",
@@ -76114,6 +78297,7 @@ backup_data = {
         "Double-Edge",
         "Infestation"
       ],
+      "tr_id": 642,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -76138,7 +78322,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Bug Buzz",
@@ -76146,6 +78330,7 @@ backup_data = {
         "Double-Edge",
         "Infestation"
       ],
+      "tr_id": 643,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -76170,7 +78355,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Bug Buzz",
@@ -76178,6 +78363,7 @@ backup_data = {
         "Double-Edge",
         "Infestation"
       ],
+      "tr_id": 644,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -76202,7 +78388,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Bug Buzz",
@@ -76210,6 +78396,7 @@ backup_data = {
         "Double-Edge",
         "Infestation"
       ],
+      "tr_id": 645,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -76234,7 +78421,7 @@ backup_data = {
       },
       "item": null,
       "level": 56,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Bug Buzz",
@@ -76242,6 +78429,7 @@ backup_data = {
         "Double-Edge",
         "Infestation"
       ],
+      "tr_id": 646,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -76266,7 +78454,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Struggle Bug",
@@ -76274,6 +78462,7 @@ backup_data = {
         "Helping Hand",
         "Signal Beam"
       ],
+      "tr_id": 802,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -76310,6 +78499,7 @@ backup_data = {
         "Double-Edge",
         "Infestation"
       ],
+      "tr_id": 642,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -76342,6 +78532,7 @@ backup_data = {
         "Double-Edge",
         "Infestation"
       ],
+      "tr_id": 643,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -76374,6 +78565,7 @@ backup_data = {
         "Double-Edge",
         "Infestation"
       ],
+      "tr_id": 644,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -76406,6 +78598,7 @@ backup_data = {
         "Double-Edge",
         "Infestation"
       ],
+      "tr_id": 645,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -76438,6 +78631,7 @@ backup_data = {
         "Double-Edge",
         "Infestation"
       ],
+      "tr_id": 646,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -76462,7 +78656,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Moonlight",
@@ -76470,6 +78664,7 @@ backup_data = {
         "Pounce",
         "Encore"
       ],
+      "tr_id": 802,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -76498,7 +78693,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Flamethrower",
@@ -76506,6 +78701,7 @@ backup_data = {
         "Feint Attack",
         "Bind"
       ],
+      "tr_id": 648,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -76534,7 +78730,7 @@ backup_data = {
       },
       "item": null,
       "level": 27,
-      "nature": "Quiet",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Charge",
@@ -76542,6 +78738,7 @@ backup_data = {
         "Nuzzle",
         "Magnet Rise"
       ],
+      "tr_id": 649,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -76575,6 +78772,7 @@ backup_data = {
         "Drill Peck",
         "Extreme Speed"
       ],
+      "tr_id": 654,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -76607,6 +78805,7 @@ backup_data = {
         "Ice Shard",
         "Steel Wing"
       ],
+      "tr_id": 851,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -76639,7 +78838,7 @@ backup_data = {
       },
       "item": null,
       "level": 60,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Screech",
@@ -76647,6 +78846,7 @@ backup_data = {
         "Air Slash",
         "Bug Buzz"
       ],
+      "tr_id": 655,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -76681,6 +78881,7 @@ backup_data = {
         "Aerial Ace",
         "Rock Smash"
       ],
+      "tr_id": 656,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -76720,6 +78921,7 @@ backup_data = {
         "Hidden Power",
         "Flip Turn"
       ],
+      "tr_id": 658,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -76760,6 +78962,7 @@ backup_data = {
         "Giga Drain",
         "Quiver Dance"
       ],
+      "tr_id": 661,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -76797,6 +79000,7 @@ backup_data = {
         "Giga Drain",
         "Quiver Dance"
       ],
+      "tr_id": 664,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -76836,6 +79040,7 @@ backup_data = {
         "Superpower",
         "Zen Headbutt"
       ],
+      "tr_id": 662,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -76873,6 +79078,7 @@ backup_data = {
         "Superpower",
         "Zen Headbutt"
       ],
+      "tr_id": 665,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -76912,6 +79118,7 @@ backup_data = {
         "Play Rough",
         "Roost"
       ],
+      "tr_id": 663,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -76949,6 +79156,7 @@ backup_data = {
         "Play Rough",
         "Roost"
       ],
+      "tr_id": 666,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -76986,6 +79194,7 @@ backup_data = {
         "Electro Ball",
         "Nature's Madness"
       ],
+      "tr_id": 659,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -77026,6 +79235,7 @@ backup_data = {
         "Throat Chop",
         "Swords Dance"
       ],
+      "tr_id": 663,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -77063,6 +79273,7 @@ backup_data = {
         "Throat Chop",
         "Swords Dance"
       ],
+      "tr_id": 666,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -77102,6 +79313,7 @@ backup_data = {
         "Zing Zap",
         "Discharge"
       ],
+      "tr_id": 667,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -77136,6 +79348,7 @@ backup_data = {
         "Thunderbolt",
         "Extreme Speed"
       ],
+      "tr_id": 669,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -77168,6 +79381,7 @@ backup_data = {
         "Brick Break",
         "Facade"
       ],
+      "tr_id": 677,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -77200,7 +79414,7 @@ backup_data = {
       },
       "item": null,
       "level": 66,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Earth Power",
@@ -77208,6 +79422,7 @@ backup_data = {
         "Lock-On",
         "Zap Cannon"
       ],
+      "tr_id": 671,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -77234,7 +79449,7 @@ backup_data = {
       },
       "item": null,
       "level": 34,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Power Gem",
@@ -77242,6 +79457,7 @@ backup_data = {
         "Discharge",
         "Sandstorm"
       ],
+      "tr_id": 746,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -77276,6 +79492,7 @@ backup_data = {
         "Fire Fang",
         "Ice Fang"
       ],
+      "tr_id": 677,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -77306,7 +79523,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Hyper Fang",
@@ -77314,6 +79531,7 @@ backup_data = {
         "Thrash",
         "Rest"
       ],
+      "tr_id": 765,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -77340,7 +79558,7 @@ backup_data = {
       },
       "item": null,
       "level": 38,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Ice Fang",
@@ -77348,6 +79566,7 @@ backup_data = {
         "Ancient Power",
         "Mist"
       ],
+      "tr_id": 679,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -77372,7 +79591,7 @@ backup_data = {
       },
       "item": null,
       "level": 38,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Ice Fang",
@@ -77380,6 +79599,7 @@ backup_data = {
         "Ancient Power",
         "Mist"
       ],
+      "tr_id": 679,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -77406,7 +79626,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Psychic",
@@ -77414,6 +79634,7 @@ backup_data = {
         "Rain Dance",
         "Heal Pulse"
       ],
+      "tr_id": 686,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -77440,7 +79661,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Psychic",
@@ -77448,6 +79669,7 @@ backup_data = {
         "Rain Dance",
         "Heal Pulse"
       ],
+      "tr_id": 686,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -77480,6 +79702,7 @@ backup_data = {
         "Grass Knot",
         "Venoshock"
       ],
+      "tr_id": 700,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -77512,7 +79735,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Safeguard",
@@ -77520,6 +79743,7 @@ backup_data = {
         "Helping Hand",
         "Healing Wish"
       ],
+      "tr_id": 693,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -77544,7 +79768,7 @@ backup_data = {
       },
       "item": null,
       "level": 26,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -77552,6 +79776,7 @@ backup_data = {
         "Protect",
         "Water Pulse"
       ],
+      "tr_id": 757,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -77578,7 +79803,7 @@ backup_data = {
       },
       "item": null,
       "level": 16,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Torment",
@@ -77586,6 +79811,7 @@ backup_data = {
         "Nature Power",
         "Sucker Punch"
       ],
+      "tr_id": 694,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -77612,7 +79838,7 @@ backup_data = {
       },
       "item": null,
       "level": 16,
-      "nature": "Bashful",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Absorb",
@@ -77620,6 +79846,7 @@ backup_data = {
         "Aurora Beam",
         "Fake Out"
       ],
+      "tr_id": 695,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -77646,7 +79873,7 @@ backup_data = {
       },
       "item": null,
       "level": 16,
-      "nature": "Naughty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Lick",
@@ -77654,6 +79881,7 @@ backup_data = {
         "Headbutt",
         "Hone Claws"
       ],
+      "tr_id": 695,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -77680,7 +79908,7 @@ backup_data = {
       },
       "item": null,
       "level": 20,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Wrap",
@@ -77688,6 +79916,7 @@ backup_data = {
         "Slam",
         "Water Pulse"
       ],
+      "tr_id": 698,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -77722,6 +79951,7 @@ backup_data = {
         "Grass Knot",
         "Quick Attack"
       ],
+      "tr_id": 699,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -77762,6 +79992,7 @@ backup_data = {
         "Ice Shard",
         "Drain Punch"
       ],
+      "tr_id": 700,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -77802,6 +80033,7 @@ backup_data = {
         "Muddy Water",
         "Slack Off"
       ],
+      "tr_id": 701,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -77834,7 +80066,7 @@ backup_data = {
       },
       "item": null,
       "level": 24,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Curse",
@@ -77842,6 +80074,7 @@ backup_data = {
         "Confuse Ray",
         "Sucker Punch"
       ],
+      "tr_id": 702,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -77868,7 +80101,7 @@ backup_data = {
       },
       "item": null,
       "level": 30,
-      "nature": "Mild",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Infestation",
@@ -77876,6 +80109,7 @@ backup_data = {
         "Mega Drain",
         "Disable"
       ],
+      "tr_id": 705,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -77902,7 +80136,7 @@ backup_data = {
       },
       "item": null,
       "level": 31,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slam",
@@ -77910,6 +80144,7 @@ backup_data = {
         "Acrobatics",
         "Agility"
       ],
+      "tr_id": 706,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -77936,7 +80171,7 @@ backup_data = {
       },
       "item": null,
       "level": 32,
-      "nature": "Timid",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Fury Swipes",
@@ -77944,6 +80179,7 @@ backup_data = {
         "Power Gem",
         "Heal Order"
       ],
+      "tr_id": 706,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -77970,7 +80206,7 @@ backup_data = {
       },
       "item": null,
       "level": 31,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Detect",
@@ -77978,6 +80214,7 @@ backup_data = {
         "Uproar",
         "Pursuit"
       ],
+      "tr_id": 707,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -78010,6 +80247,7 @@ backup_data = {
         "Psychic",
         "Detect"
       ],
+      "tr_id": 65,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -78042,7 +80280,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Pursuit",
@@ -78050,6 +80288,7 @@ backup_data = {
         "Confuse Ray",
         "Curse"
       ],
+      "tr_id": 708,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -78076,7 +80315,7 @@ backup_data = {
       },
       "item": null,
       "level": 37,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slash",
@@ -78084,6 +80323,7 @@ backup_data = {
         "Crunch",
         "Scary Face"
       ],
+      "tr_id": 709,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -78118,6 +80358,7 @@ backup_data = {
         "Psychic",
         "Yawn"
       ],
+      "tr_id": 713,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -78148,7 +80389,7 @@ backup_data = {
       },
       "item": null,
       "level": 63,
-      "nature": "Lax",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Yawn",
@@ -78156,6 +80397,7 @@ backup_data = {
         "Calm Mind",
         "Protect"
       ],
+      "tr_id": 797,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -78192,6 +80434,7 @@ backup_data = {
         "Earth Power",
         "Psychic"
       ],
+      "tr_id": 713,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -78232,6 +80475,7 @@ backup_data = {
         "Fire Punch",
         "U-turn"
       ],
+      "tr_id": 714,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -78272,6 +80516,7 @@ backup_data = {
         "Explosion",
         "Crunch"
       ],
+      "tr_id": 714,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -78312,6 +80557,7 @@ backup_data = {
         "Explosion",
         "Crunch"
       ],
+      "tr_id": 714,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -78344,7 +80590,7 @@ backup_data = {
       },
       "item": null,
       "level": 28,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Defense Curl",
@@ -78352,6 +80598,7 @@ backup_data = {
         "Psybeam",
         "Hypnosis"
       ],
+      "tr_id": 715,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -78386,6 +80633,7 @@ backup_data = {
         "Overheat",
         "Torch Song"
       ],
+      "tr_id": 718,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -78410,7 +80658,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down",
@@ -78418,6 +80666,7 @@ backup_data = {
         "Endeavor",
         "Echoed Voice"
       ],
+      "tr_id": 747,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -78450,6 +80699,7 @@ backup_data = {
         "Dark Pulse",
         "Scorching Sands"
       ],
+      "tr_id": 493,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -78482,7 +80732,7 @@ backup_data = {
       },
       "item": null,
       "level": 70,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double-Edge",
@@ -78490,6 +80740,7 @@ backup_data = {
         "Hammer Arm",
         "Head Smash"
       ],
+      "tr_id": 724,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -78522,6 +80773,7 @@ backup_data = {
         "Trailblaze",
         "Power-Up Punch"
       ],
+      "tr_id": 852,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -78560,6 +80812,7 @@ backup_data = {
         "Trailblaze",
         "Sucker Punch"
       ],
+      "tr_id": 23,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -78600,6 +80853,7 @@ backup_data = {
         "Flash Cannon",
         "Hydro Pump"
       ],
+      "tr_id": 732,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -78631,7 +80885,7 @@ backup_data = {
       },
       "item": null,
       "level": 55,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Crush Claw",
@@ -78639,6 +80893,7 @@ backup_data = {
         "Whirlwind",
         "Double-Edge"
       ],
+      "tr_id": 738,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -78665,7 +80920,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slash",
@@ -78673,6 +80928,7 @@ backup_data = {
         "Superpower",
         "Psycho Boost"
       ],
+      "tr_id": 740,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -78697,7 +80953,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slash",
@@ -78705,6 +80961,7 @@ backup_data = {
         "Superpower",
         "Psycho Boost"
       ],
+      "tr_id": 816,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -78729,7 +80986,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slash",
@@ -78737,6 +80994,7 @@ backup_data = {
         "Superpower",
         "Psycho Boost"
       ],
+      "tr_id": 817,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -78761,7 +81019,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slash",
@@ -78769,6 +81027,7 @@ backup_data = {
         "Superpower",
         "Psycho Boost"
       ],
+      "tr_id": 818,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -78793,7 +81052,7 @@ backup_data = {
       },
       "item": null,
       "level": 54,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Slash",
@@ -78801,6 +81060,7 @@ backup_data = {
         "Superpower",
         "Psycho Boost"
       ],
+      "tr_id": 819,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -78833,6 +81093,7 @@ backup_data = {
         "Psycho Cut",
         "Pluck"
       ],
+      "tr_id": 755,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -78873,6 +81134,7 @@ backup_data = {
         "Earthquake",
         "Body Slam"
       ],
+      "tr_id": 743,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -78913,6 +81175,7 @@ backup_data = {
         "Play Rough",
         "Swords Dance"
       ],
+      "tr_id": 743,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -78953,6 +81216,7 @@ backup_data = {
         "Hex",
         "Confuse Ray"
       ],
+      "tr_id": 745,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -78985,7 +81249,7 @@ backup_data = {
       },
       "item": null,
       "level": 36,
-      "nature": "Sassy",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Swift",
@@ -78993,6 +81257,7 @@ backup_data = {
         "Sweet Kiss",
         "Thunder Wave"
       ],
+      "tr_id": 746,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move"
@@ -79019,7 +81284,7 @@ backup_data = {
       },
       "item": null,
       "level": 35,
-      "nature": "Lonely",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Double Slap",
@@ -79027,6 +81292,7 @@ backup_data = {
         "Entrainment",
         "Take Down"
       ],
+      "tr_id": 747,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -79053,7 +81319,7 @@ backup_data = {
       },
       "item": null,
       "level": 40,
-      "nature": "Relaxed",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Focus Energy",
@@ -79061,6 +81327,7 @@ backup_data = {
         "Dragon Claw",
         "Zen Headbutt"
       ],
+      "tr_id": 752,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -79087,13 +81354,14 @@ backup_data = {
       },
       "item": null,
       "level": 9,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Incinerate",
         "Rapid Spin",
         "Smack Down"
       ],
+      "tr_id": 753,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -79120,13 +81388,14 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
         "Harden",
         "Headbutt"
       ],
+      "tr_id": 753,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -79153,7 +81422,7 @@ backup_data = {
       },
       "item": null,
       "level": 9,
-      "nature": "Hasty",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Tackle",
@@ -79161,6 +81430,7 @@ backup_data = {
         "Vine Whip",
         "Tail Whip"
       ],
+      "tr_id": 754,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -79187,7 +81457,7 @@ backup_data = {
       },
       "item": null,
       "level": 10,
-      "nature": "Modest",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Gust",
@@ -79195,6 +81465,7 @@ backup_data = {
         "Leer",
         "Quick Attack"
       ],
+      "tr_id": 754,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move"
@@ -79229,6 +81500,7 @@ backup_data = {
         "Facade",
         "Zippy Zap"
       ],
+      "tr_id": 764,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -79261,7 +81533,7 @@ backup_data = {
       },
       "item": null,
       "level": 65,
-      "nature": "Brave",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Bug Buzz",
@@ -79269,6 +81541,7 @@ backup_data = {
         "Power Swap",
         "Final Gambit"
       ],
+      "tr_id": 766,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move"
@@ -79295,7 +81568,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synchronoise",
@@ -79303,6 +81576,7 @@ backup_data = {
         "Overdrive",
         "Hyper Beam"
       ],
+      "tr_id": 767,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79329,7 +81603,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synchronoise",
@@ -79337,6 +81611,7 @@ backup_data = {
         "Overdrive",
         "Hyper Beam"
       ],
+      "tr_id": 828,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79363,7 +81638,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synchronoise",
@@ -79371,6 +81646,7 @@ backup_data = {
         "Overdrive",
         "Hyper Beam"
       ],
+      "tr_id": 829,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79397,7 +81673,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synchronoise",
@@ -79405,6 +81681,7 @@ backup_data = {
         "Overdrive",
         "Hyper Beam"
       ],
+      "tr_id": 830,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79431,7 +81708,7 @@ backup_data = {
       },
       "item": null,
       "level": 64,
-      "nature": "Adamant",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Synchronoise",
@@ -79439,6 +81716,7 @@ backup_data = {
         "Overdrive",
         "Hyper Beam"
       ],
+      "tr_id": 831,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79467,7 +81745,7 @@ backup_data = {
       },
       "item": null,
       "level": 48,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Yawn",
@@ -79475,6 +81753,7 @@ backup_data = {
         "Calm Mind",
         "Protect"
       ],
+      "tr_id": 794,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79501,7 +81780,7 @@ backup_data = {
       },
       "item": null,
       "level": 53,
-      "nature": "Quirky",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Yawn",
@@ -79509,6 +81788,7 @@ backup_data = {
         "Calm Mind",
         "Protect"
       ],
+      "tr_id": 795,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -79535,7 +81815,7 @@ backup_data = {
       },
       "item": null,
       "level": 58,
-      "nature": "Calm",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Yawn",
@@ -79543,6 +81823,7 @@ backup_data = {
         "Calm Mind",
         "Protect"
       ],
+      "tr_id": 796,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -79571,7 +81852,7 @@ backup_data = {
       },
       "item": null,
       "level": 53,
-      "nature": "Impish",
+      "nature": "Hardy",
       "battle_type": "Doubles",
       "moves": [
         "Hypnosis",
@@ -79579,6 +81860,7 @@ backup_data = {
         "Headbutt",
         "Protect"
       ],
+      "tr_id": 795,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79607,11 +81889,12 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Naive",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down"
       ],
+      "tr_id": 805,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79638,11 +81921,12 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down"
       ],
+      "tr_id": 806,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79669,11 +81953,12 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Serious",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down"
       ],
+      "tr_id": 807,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79700,11 +81985,12 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down"
       ],
+      "tr_id": 808,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79731,11 +82017,12 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Bold",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down"
       ],
+      "tr_id": 809,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79762,11 +82049,12 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Jolly",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down"
       ],
+      "tr_id": 810,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79793,11 +82081,12 @@ backup_data = {
       },
       "item": null,
       "level": 5,
-      "nature": "Rash",
+      "nature": "Hardy",
       "battle_type": "Singles",
       "moves": [
         "Take Down"
       ],
+      "tr_id": 811,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79834,6 +82123,7 @@ backup_data = {
         "Roar",
         "Stealth Rock"
       ],
+      "tr_id": 710,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -79874,6 +82164,7 @@ backup_data = {
         "Sludge Wave",
         "Psychic"
       ],
+      "tr_id": 710,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -79914,6 +82205,7 @@ backup_data = {
         "Knock Off",
         "Ice Spinner"
       ],
+      "tr_id": 710,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -79954,6 +82246,7 @@ backup_data = {
         "Zen Headbutt",
         "Rock Polish"
       ],
+      "tr_id": 710,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -79994,6 +82287,7 @@ backup_data = {
         "Mega Drain",
         "Facade"
       ],
+      "tr_id": 852,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -80034,6 +82328,7 @@ backup_data = {
         "Leech Seed",
         "Synthesis"
       ],
+      "tr_id": 852,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -80072,6 +82367,7 @@ backup_data = {
         "Leech Seed",
         "Synthesis"
       ],
+      "tr_id": 852,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -80112,6 +82408,7 @@ backup_data = {
         "Giga Drain",
         "Hyper Voice"
       ],
+      "tr_id": 23,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -80152,6 +82449,7 @@ backup_data = {
         "Flamethrower",
         "Extrasensory"
       ],
+      "tr_id": 336,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -80193,6 +82491,7 @@ backup_data = {
         "Shadow Sneak",
         "Return"
       ],
+      "tr_id": 336,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -80234,6 +82533,7 @@ backup_data = {
         "Psychic",
         "Aura Sphere"
       ],
+      "tr_id": 566,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -80275,6 +82575,7 @@ backup_data = {
         "Hammer Arm",
         "Recover"
       ],
+      "tr_id": 566,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -80316,6 +82617,7 @@ backup_data = {
         "Facade",
         "Victory Dance"
       ],
+      "tr_id": 566,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -80357,6 +82659,7 @@ backup_data = {
         "Vacuum Wave",
         "Dragon Pulse"
       ],
+      "tr_id": 566,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -80398,6 +82701,7 @@ backup_data = {
         "Iron Head",
         "Sucker Punch"
       ],
+      "tr_id": 566,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -80437,6 +82741,7 @@ backup_data = {
         "Low Kick",
         "Kowtow Cleave"
       ],
+      "tr_id": 727,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -80476,6 +82781,7 @@ backup_data = {
         "Iron Head",
         "Low Kick"
       ],
+      "tr_id": 660,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -80514,6 +82820,7 @@ backup_data = {
         "Iron Head",
         "Brick Break"
       ],
+      "tr_id": 74,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -80554,6 +82861,7 @@ backup_data = {
         "Bulk Up",
         "Poison Jab"
       ],
+      "tr_id": 626,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -80592,6 +82900,7 @@ backup_data = {
         "Aqua Jet",
         "U-turn"
       ],
+      "tr_id": 25,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -80630,6 +82939,7 @@ backup_data = {
         "Iron Head",
         "Close Combat"
       ],
+      "tr_id": 45,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -80670,6 +82980,7 @@ backup_data = {
         "Ice Beam",
         "Thunderbolt"
       ],
+      "tr_id": 626,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -80710,6 +83021,7 @@ backup_data = {
         "Thunder Punch",
         "Ice Punch"
       ],
+      "tr_id": 711,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -80749,6 +83061,7 @@ backup_data = {
         "Ice Punch",
         "Thunder Punch"
       ],
+      "tr_id": 25,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -80789,6 +83102,7 @@ backup_data = {
         "Play Rough",
         "High Horsepower"
       ],
+      "tr_id": 711,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -80830,6 +83144,7 @@ backup_data = {
         "Play Rough",
         "High Horsepower"
       ],
+      "tr_id": 711,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -80871,6 +83186,7 @@ backup_data = {
         "Ice Shard",
         "Sleep Powder"
       ],
+      "tr_id": 851,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -80911,6 +83227,7 @@ backup_data = {
         "Hidden Power",
         "Signal Beam"
       ],
+      "tr_id": 851,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -80951,6 +83268,7 @@ backup_data = {
         "Bulldoze",
         "Ice Shard"
       ],
+      "tr_id": 851,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -80991,6 +83309,7 @@ backup_data = {
         "Overheat",
         "Taunt"
       ],
+      "tr_id": 712,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -81031,6 +83350,7 @@ backup_data = {
         "Close Combat",
         "Heavy Slam"
       ],
+      "tr_id": 712,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -81069,6 +83389,7 @@ backup_data = {
         "Electric Terrain",
         "Force Palm"
       ],
+      "tr_id": 659,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -81109,6 +83430,7 @@ backup_data = {
         "Fake Out",
         "Facade"
       ],
+      "tr_id": 712,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -81149,6 +83471,7 @@ backup_data = {
         "Boomburst",
         "Hidden Power"
       ],
+      "tr_id": 712,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -81188,6 +83511,7 @@ backup_data = {
         "Quick Attack",
         "Mach Punch"
       ],
+      "tr_id": 855,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -81227,6 +83551,7 @@ backup_data = {
         "Absorb",
         "Twister"
       ],
+      "tr_id": 855,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -81267,6 +83592,7 @@ backup_data = {
         "Baby-Doll Eyes",
         "Peck"
       ],
+      "tr_id": 855,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -81307,6 +83633,7 @@ backup_data = {
         "Boomburst",
         "Dark Pulse"
       ],
+      "tr_id": 744,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -81345,6 +83672,7 @@ backup_data = {
         "Boomburst",
         "Dark Pulse"
       ],
+      "tr_id": 858,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -81382,6 +83710,7 @@ backup_data = {
         "Boomburst",
         "Dark Pulse"
       ],
+      "tr_id": 859,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -81421,6 +83750,7 @@ backup_data = {
         "High Jump Kick",
         "Play Rough"
       ],
+      "tr_id": 744,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -81461,6 +83791,7 @@ backup_data = {
         "Play Rough",
         "U-turn"
       ],
+      "tr_id": 858,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -81498,6 +83829,7 @@ backup_data = {
         "Play Rough",
         "Triple Axel"
       ],
+      "tr_id": 859,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -81535,6 +83867,7 @@ backup_data = {
         "Play Rough",
         "Energy Ball"
       ],
+      "tr_id": 726,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -81573,6 +83906,7 @@ backup_data = {
         "Flower Trick",
         "Sucker Punch"
       ],
+      "tr_id": 45,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -81613,6 +83947,7 @@ backup_data = {
         "Psycho Cut",
         "Megahorn"
       ],
+      "tr_id": 858,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -81650,6 +83985,7 @@ backup_data = {
         "Psycho Cut",
         "Megahorn"
       ],
+      "tr_id": 859,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -81689,6 +84025,7 @@ backup_data = {
         "Psychic",
         "Mind Blown"
       ],
+      "tr_id": 859,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -81728,6 +84065,7 @@ backup_data = {
         "Air Cutter",
         "Roost"
       ],
+      "tr_id": 856,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -81768,6 +84106,7 @@ backup_data = {
         "Air Cutter",
         "Roost"
       ],
+      "tr_id": 856,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -81808,6 +84147,7 @@ backup_data = {
         "Air Cutter",
         "Roost"
       ],
+      "tr_id": 856,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -81848,6 +84188,7 @@ backup_data = {
         "Air Cutter",
         "Roost"
       ],
+      "tr_id": 856,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -81888,6 +84229,7 @@ backup_data = {
         "Play Rough",
         "Shadow Sneak"
       ],
+      "tr_id": 755,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -81928,6 +84270,7 @@ backup_data = {
         "Rock Slide",
         "Heavy Slam"
       ],
+      "tr_id": 755,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -81968,6 +84311,7 @@ backup_data = {
         "Taunt",
         "Drain Punch"
       ],
+      "tr_id": 227,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -82008,6 +84352,7 @@ backup_data = {
         "High Horsepower",
         "Dragon Dance"
       ],
+      "tr_id": 227,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -82046,6 +84391,7 @@ backup_data = {
         "Earthquake",
         "Dragon Dance"
       ],
+      "tr_id": 647,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -82086,6 +84432,7 @@ backup_data = {
         "Signal Beam",
         "Aura Sphere"
       ],
+      "tr_id": 227,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -82124,6 +84471,7 @@ backup_data = {
         "Aura Sphere",
         "Agility"
       ],
+      "tr_id": 493,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -82164,6 +84512,7 @@ backup_data = {
         "Rock Slide",
         "Play Rough"
       ],
+      "tr_id": 857,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -82204,6 +84553,7 @@ backup_data = {
         "Flare Blitz",
         "Earthquake"
       ],
+      "tr_id": 857,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -82244,6 +84594,7 @@ backup_data = {
         "Sludge Wave",
         "Power Gem"
       ],
+      "tr_id": 726,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -82282,6 +84633,7 @@ backup_data = {
         "Sludge Wave",
         "Power Gem"
       ],
+      "tr_id": 647,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -82322,6 +84674,7 @@ backup_data = {
         "Hyper Voice",
         "Torch Song"
       ],
+      "tr_id": 726,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -82360,6 +84713,7 @@ backup_data = {
         "Hyper Voice",
         "Flame Charge"
       ],
+      "tr_id": 647,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -82400,6 +84754,7 @@ backup_data = {
         "Crunch",
         "Dragon Claw"
       ],
+      "tr_id": 726,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -82440,6 +84795,7 @@ backup_data = {
         "Dazzling Gleam",
         "Psyshock"
       ],
+      "tr_id": 24,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -82480,6 +84836,7 @@ backup_data = {
         "Parting Shot",
         "Multi-Attack"
       ],
+      "tr_id": 24,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -82518,6 +84875,7 @@ backup_data = {
         "Dragon Claw",
         "Shadow Claw"
       ],
+      "tr_id": 65,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -82558,6 +84916,7 @@ backup_data = {
         "Dark Void",
         "Nasty Plot"
       ],
+      "tr_id": 25,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -82598,6 +84957,7 @@ backup_data = {
         "Earthquake",
         "Dragon Dance"
       ],
+      "tr_id": 660,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -82636,6 +84996,7 @@ backup_data = {
         "Dragon Claw",
         "Dragon Dance"
       ],
+      "tr_id": 493,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -82676,6 +85037,7 @@ backup_data = {
         "Nuzzle",
         "Volt Switch"
       ],
+      "tr_id": 660,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -82716,6 +85078,7 @@ backup_data = {
         "Ice Shard",
         "Stone Edge"
       ],
+      "tr_id": 71,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -82756,6 +85119,7 @@ backup_data = {
         "Grass Knot",
         "Psychic"
       ],
+      "tr_id": 493,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -82796,6 +85160,7 @@ backup_data = {
         "Sucker Punch",
         "Swords Dance"
       ],
+      "tr_id": 493,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -82836,6 +85201,7 @@ backup_data = {
         "Aura Sphere",
         "Agility"
       ],
+      "tr_id": 493,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -82876,6 +85242,7 @@ backup_data = {
         "Surf",
         "Ice Beam"
       ],
+      "tr_id": 493,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -82916,6 +85283,7 @@ backup_data = {
         "Flame Charge",
         "Swords Dance"
       ],
+      "tr_id": 493,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -82956,6 +85324,7 @@ backup_data = {
         "Crunch",
         "Rock Slide"
       ],
+      "tr_id": 493,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -82996,6 +85365,7 @@ backup_data = {
         "Crunch",
         "Thunderbolt"
       ],
+      "tr_id": 493,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -83036,6 +85406,7 @@ backup_data = {
         "X-Scissor",
         "Parting Shot"
       ],
+      "tr_id": 493,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -83076,6 +85447,7 @@ backup_data = {
         "Flamethrower",
         "Work Up"
       ],
+      "tr_id": 493,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -83116,6 +85488,7 @@ backup_data = {
         "Rock Slide",
         "Silver Wind"
       ],
+      "tr_id": 65,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -83156,6 +85529,7 @@ backup_data = {
         "Shadow Ball",
         "Yawn"
       ],
+      "tr_id": 65,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -83196,6 +85570,7 @@ backup_data = {
         "Rock Slide",
         "Parting Shot"
       ],
+      "tr_id": 65,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -83236,6 +85611,7 @@ backup_data = {
         "Shadow Ball",
         "Hidden Power"
       ],
+      "tr_id": 65,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -83276,6 +85652,7 @@ backup_data = {
         "Flame Charge",
         "Swords Dance"
       ],
+      "tr_id": 65,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -83316,6 +85693,7 @@ backup_data = {
         "Fire Fang",
         "Ice Fang"
       ],
+      "tr_id": 65,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -83356,6 +85734,7 @@ backup_data = {
         "Flamethrower",
         "Surf"
       ],
+      "tr_id": 65,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -83396,6 +85775,7 @@ backup_data = {
         "Bug Bite",
         "Rock Smash"
       ],
+      "tr_id": 647,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -83436,6 +85816,7 @@ backup_data = {
         "Air Cutter",
         "Ominous Wind"
       ],
+      "tr_id": 647,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -83476,6 +85857,7 @@ backup_data = {
         "Stomping Tantrum",
         "Swords Dance"
       ],
+      "tr_id": 647,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -83516,6 +85898,7 @@ backup_data = {
         "Ice Beam",
         "Parting Shot"
       ],
+      "tr_id": 647,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -83556,6 +85939,7 @@ backup_data = {
         "Flamethrower",
         "Surf"
       ],
+      "tr_id": 647,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -83596,6 +85980,7 @@ backup_data = {
         "Flame Charge",
         "Swords Dance"
       ],
+      "tr_id": 647,
       "sub_index": 2,
       "ai_tags": [
         "Check Bad Move",
@@ -83636,6 +86021,7 @@ backup_data = {
         "Fire Fang",
         "Rock Slide"
       ],
+      "tr_id": 647,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -83676,6 +86062,7 @@ backup_data = {
         "Psychic Fangs",
         "Swords Dance"
       ],
+      "tr_id": 647,
       "sub_index": 4,
       "ai_tags": [
         "Check Bad Move",
@@ -83716,6 +86103,7 @@ backup_data = {
         "Shadow Claw",
         "Parting Shot"
       ],
+      "tr_id": 647,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -83756,6 +86144,7 @@ backup_data = {
         "Close Combat",
         "Ice Punch"
       ],
+      "tr_id": 647,
       "sub_index": 0,
       "ai_tags": [
         "Check Bad Move",
@@ -83796,6 +86185,7 @@ backup_data = {
         "Earth Power",
         "Hidden Power"
       ],
+      "tr_id": 647,
       "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
@@ -83836,6 +86226,7 @@ backup_data = {
         "Earthquake",
         "Dragon Dance"
       ],
+      "tr_id": 647,
       "sub_index": 6,
       "ai_tags": [
         "Check Bad Move",
@@ -83876,6 +86267,7 @@ backup_data = {
         "Ice Beam",
         "Water Spout"
       ],
+      "tr_id": 34,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -83913,9 +86305,11 @@ backup_data = {
       "moves": [
         "Body Press",
         "Iron Defense",
-        "Behemoth Bash",
+        "Iron Head",
         "Play Rough"
       ],
+      "tr_id": 860,
+      "sub_index": 3,
       "ai_tags": [
         "Check Bad Move",
         "Try To Faint",
@@ -83924,7 +86318,7 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Dauntless Shield",
-      "sub_index": 3
+      "sub_index": 6
     }
   },
   "Palkia-Primal": {
@@ -83955,6 +86349,7 @@ backup_data = {
         "Aura Sphere",
         "Hydro Pump"
       ],
+      "tr_id": 589,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -83995,6 +86390,7 @@ backup_data = {
         "Fire Blast",
         "Ice Beam"
       ],
+      "tr_id": 590,
       "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
@@ -84035,6 +86431,7 @@ backup_data = {
         "Earth Power",
         "Extreme Speed"
       ],
+      "tr_id": 264,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -84075,6 +86472,7 @@ backup_data = {
         "Body Press",
         "Rock Slide"
       ],
+      "tr_id": 601,
       "sub_index": 5,
       "ai_tags": [
         "Check Bad Move",
@@ -84086,10258 +86484,5 @@ backup_data = {
       "ability": "Desolate Land",
       "sub_index": 6
     }
-  }
-}
-
-backup_moves = {
-  "-": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 0
-  },
-  "Pound": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 35,
-    "makesContact": true
-  },
-  "Karate Chop": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Fighting",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 25,
-    "makesContact": true
-  },
-  "Double Slap": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 15,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Comet Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 18,
-    "type": "Normal",
-    "acc": 85,
-    "pp": 15,
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Mega Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Normal",
-    "acc": 85,
-    "pp": 20,
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Pay Day": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "PAYDAY",
-    "effChance": 100
-  },
-  "Fire Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isPunch": true,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 10
-  },
-  "Ice Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isPunch": true,
-    "secondaries": true,
-    "addEff": "FREEZE_OR_FROSTBITE",
-    "effChance": 10
-  },
-  "Thunder Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isPunch": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 10
-  },
-  "Scratch": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 35,
-    "makesContact": true
-  },
-  "Vise Grip": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 55,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 30,
-    "makesContact": true
-  },
-  "Guillotine": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "OHKO",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 30,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Razor Wind": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "TWO",
-    "bp": 80,
-    "type": "Normal",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "isWind": true
-  },
-  "Swords Dance": {
-    "flags": {
-      "isDance": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20,
-    "isDance": true
-  },
-  "Cut": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 25,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Gust": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 35,
-    "isWind": true
-  },
-  "Wing Attack": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 35,
-    "makesContact": true
-  },
-  "Whirlwind": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 6,
-    "pp": 20,
-    "priority": 6,
-    "isWind": true
-  },
-  "Fly": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "SEMI",
-    "bp": 90,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Bind": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 15,
-    "type": "Normal",
-    "acc": 85,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "WRAP",
-    "effChance": 100
-  },
-  "Slam": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Vine Whip": {
-    "flags": {
-      "makesContact": true
-    },
-    "pp": 25,
-    "eff": "HIT",
-    "bp": 45,
-    "type": "Grass",
-    "acc": 100,
-    "makesContact": true
-  },
-  "Stomp": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30,
-    "isKick": true
-  },
-  "Double Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 30,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 30,
-    "makesContact": true,
-    "multihit": [
-      2,
-      2
-    ],
-    "isKick": true
-  },
-  "Mega Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Normal",
-    "acc": 75,
-    "pp": 5,
-    "makesContact": true,
-    "isKick": true
-  },
-  "Jump Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "bp": 100,
-    "eff": "RECOIL",
-    "type": "Fighting",
-    "acc": 95,
-    "pp": 10,
-    "makesContact": true,
-    "isKick": true
-  },
-  "Rolling Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Fighting",
-    "acc": 85,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30,
-    "isKick": true
-  },
-  "Sand Attack": {
-    "flags": {},
-    "eff": "EVSN",
-    "bp": 0,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 15
-  },
-  "Headbutt": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Horn Attack": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 25,
-    "makesContact": true
-  },
-  "Fury Attack": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 20,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Horn Drill": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "OHKO",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 30,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Tackle": {
-    "flags": {
-      "makesContact": true
-    },
-    "bp": 40,
-    "eff": "HIT",
-    "type": "Normal",
-    "acc": 100,
-    "pp": 35,
-    "makesContact": true
-  },
-  "Body Slam": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Wrap": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 15,
-    "type": "Normal",
-    "acc": 90,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "WRAP",
-    "effChance": 100
-  },
-  "Take Down": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Normal",
-    "acc": 100,
-    "recoil": [
-      25,
-      100
-    ],
-    "pp": 20,
-    "makesContact": true
-  },
-  "Thrash": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "THRASH",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Double-Edge": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Normal",
-    "acc": 100,
-    "recoil": [
-      33,
-      100
-    ],
-    "pp": 15,
-    "makesContact": true
-  },
-  "Tail Whip": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 30,
-    "target": "allAdjacentFoes"
-  },
-  "Poison Sting": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 15,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 35,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 30
-  },
-  "Twineedle": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 25,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 20,
-    "multihit": [
-      2,
-      2
-    ],
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 20
-  },
-  "Pin Missile": {
-    "flags": {},
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 25,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 20
-  },
-  "Leer": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 30,
-    "target": "allAdjacentFoes"
-  },
-  "Bite": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 25,
-    "makesContact": true,
-    "isBite": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Growl": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 40,
-    "target": "allAdjacentFoes",
-    "isSound": true
-  },
-  "Roar": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 6,
-    "pp": 20,
-    "priority": 6,
-    "isSound": true
-  },
-  "Sing": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 55,
-    "pp": 15,
-    "isSound": true
-  },
-  "Supersonic": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 55,
-    "pp": 20,
-    "isSound": true
-  },
-  "Sonic Boom": {
-    "flags": {},
-    "eff": "FIXED",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 90,
-    "pp": 20
-  },
-  "Disable": {
-    "flags": {},
-    "acc": 100,
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "pp": 20
-  },
-  "Acid": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 30,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_1 ",
-    "effChance": 10
-  },
-  "Ember": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 25,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 10
-  },
-  "Flamethrower": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 10
-  },
-  "Mist": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Ice",
-    "acc": 0,
-    "pp": 30
-  },
-  "Water Gun": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Water",
-    "acc": 100,
-    "pp": 25
-  },
-  "Hydro Pump": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 110,
-    "type": "Water",
-    "acc": 80,
-    "pp": 5
-  },
-  "Surf": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Water",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacent"
-  },
-  "Ice Beam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "FREEZE_OR_FROSTBITE",
-    "effChance": 10
-  },
-  "Blizzard": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "BLIZZARD",
-    "bp": 110,
-    "type": "Ice",
-    "acc": 70,
-    "pp": 5,
-    "target": "allAdjacentFoes",
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "FREEZE_OR_FROSTBITE",
-    "effChance": 10
-  },
-  "Psybeam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 10
-  },
-  "Bubble Beam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Water",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 10
-  },
-  "Aurora Beam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "ATK_MINUS_1",
-    "effChance": 10
-  },
-  "Hyper Beam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 150,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "RECHARGE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Peck": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 35,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 35,
-    "makesContact": true
-  },
-  "Drill Peck": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Submission": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 20,
-    "recoil": [
-      25,
-      100
-    ],
-    "makesContact": true
-  },
-  "Low Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "LOW",
-    "bp": 1,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "isKick": true
-  },
-  "Counter": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "COUNTER",
-    "bp": 1,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 20,
-    "priority": 5,
-    "makesContact": true
-  },
-  "Seismic Toss": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "LEVEL",
-    "bp": 1,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Strength": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Absorb": {
-    "flags": {},
-    "eff": "ABSORB",
-    "bp": 25,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 25,
-    "drain": [
-      50,
-      100
-    ]
-  },
-  "Mega Drain": {
-    "flags": {},
-    "eff": "ABSORB",
-    "bp": 120,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 15,
-    "drain": [
-      50,
-      100
-    ]
-  },
-  "Leech Seed": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 90,
-    "pp": 10
-  },
-  "Growth": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20
-  },
-  "Razor Leaf": {
-    "flags": {
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 55,
-    "type": "Grass",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 25,
-    "target": "allAdjacentFoes",
-    "isSword": true
-  },
-  "Solar Beam": {
-    "flags": {},
-    "eff": "SOLAR",
-    "bp": 120,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10
-  },
-  "Poison Powder": {
-    "flags": {
-      "isPowder": true
-    },
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 75,
-    "pp": 35,
-    "isPowder": true
-  },
-  "Stun Spore": {
-    "flags": {
-      "isPowder": true
-    },
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 75,
-    "pp": 30,
-    "isPowder": true
-  },
-  "Sleep Powder": {
-    "flags": {
-      "isPowder": true
-    },
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 75,
-    "pp": 15,
-    "isPowder": true
-  },
-  "Petal Dance": {
-    "flags": {
-      "makesContact": true,
-      "isDance": true
-    },
-    "bp": 120,
-    "eff": "HIT",
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isDance": true,
-    "secondaries": true,
-    "addEff": "THRASH",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "String Shot": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Bug",
-    "acc": 95,
-    "pp": 40,
-    "target": "allAdjacentFoes"
-  },
-  "Dragon Rage": {
-    "flags": {},
-    "eff": "FIXED",
-    "bp": 1,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 10
-  },
-  "Fire Spin": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 35,
-    "type": "Fire",
-    "acc": 85,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "WRAP",
-    "effChance": 100
-  },
-  "Thunder Shock": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 30,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 10
-  },
-  "Thunderbolt": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 10
-  },
-  "Thunder Wave": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Electric",
-    "acc": 90,
-    "pp": 20
-  },
-  "Thunder": {
-    "flags": {},
-    "eff": "THUNDER",
-    "bp": 110,
-    "type": "Electric",
-    "acc": 70,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Rock Throw": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 15
-  },
-  "Earthquake": {
-    "flags": {},
-    "eff": "EARTHQUAKE",
-    "bp": 100,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacent"
-  },
-  "Fissure": {
-    "flags": {},
-    "eff": "OHKO",
-    "bp": 1,
-    "type": "Ground",
-    "acc": 30,
-    "pp": 5
-  },
-  "Dig": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "SEMI",
-    "bp": 80,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Toxic": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 90,
-    "pp": 10
-  },
-  "Confusion": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 25,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 10
-  },
-  "Psychic": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_1",
-    "effChance": 10
-  },
-  "Hypnosis": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 60,
-    "pp": 20
-  },
-  "Meditate": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 40
-  },
-  "Agility": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 30
-  },
-  "Quick Attack": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 30,
-    "priority": 1,
-    "makesContact": true
-  },
-  "Rage": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "RAGE",
-    "bp": 20,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Teleport": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 20,
-    "priority": 6
-  },
-  "Night Shade": {
-    "flags": {},
-    "eff": "LEVEL",
-    "bp": 1,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 15
-  },
-  "Mimic": {
-    "flags": {},
-    "eff": "ACC",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Screech": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 85,
-    "pp": 40,
-    "isSound": true
-  },
-  "Double Team": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 15
-  },
-  "Recover": {
-    "flags": {
-      "isHealing": true
-    },
-    "pp": 5,
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "isHealing": true
-  },
-  "Harden": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 30
-  },
-  "Minimize": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Smokescreen": {
-    "flags": {},
-    "eff": "EVSN",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20
-  },
-  "Confuse Ray": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 10
-  },
-  "Withdraw": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Water",
-    "acc": 0,
-    "pp": 40
-  },
-  "Defense Curl": {
-    "flags": {},
-    "eff": "ACC",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 40
-  },
-  "Barrier": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 20
-  },
-  "Light Screen": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 30
-  },
-  "Haze": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Ice",
-    "acc": 0,
-    "pp": 30
-  },
-  "Reflect": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 20
-  },
-  "Focus Energy": {
-    "flags": {},
-    "eff": "ACC",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 30
-  },
-  "Bide": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "BIDE",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 4,
-    "pp": 10,
-    "priority": 4,
-    "makesContact": true
-  },
-  "Metronome": {
-    "flags": {},
-    "eff": "METRONOME",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Mirror Move": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Flying",
-    "acc": 0,
-    "pp": 20
-  },
-  "Self-Destruct": {
-    "flags": {},
-    "eff": "EXPLOSION",
-    "bp": 100,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacent"
-  },
-  "Egg Bomb": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Normal",
-    "acc": 75,
-    "pp": 10,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Lick": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 6,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 30,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Smog": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 6,
-    "type": "Poison",
-    "acc": 70,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 40
-  },
-  "Sludge": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 30
-  },
-  "Bone Club": {
-    "flags": {
-      "isBone": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Ground",
-    "acc": 85,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 10,
-    "isBone": true
-  },
-  "Fire Blast": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 110,
-    "type": "Fire",
-    "acc": 85,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 10
-  },
-  "Waterfall": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Water",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 20
-  },
-  "Clamp": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 35,
-    "type": "Water",
-    "acc": 85,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "WRAP",
-    "effChance": 100
-  },
-  "Swift": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20,
-    "target": "allAdjacentFoes"
-  },
-  "Skull Bash": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "TWO",
-    "bp": 6,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Spike Cannon": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "isBullet": true,
-    "isBallistic": true,
-    "bp": 20,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15
-  },
-  "Constrict": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 10,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 35,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 10
-  },
-  "Amnesia": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 20
-  },
-  "Kinesis": {
-    "flags": {},
-    "eff": "EVSN",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 80,
-    "pp": 15
-  },
-  "Soft-Boiled": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "isHealing": true
-  },
-  "High Jump Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "bp": 85,
-    "eff": "RECOIL",
-    "type": "Fighting",
-    "acc": 90,
-    "pp": 10,
-    "makesContact": true,
-    "isKick": true
-  },
-  "Glare": {
-    "flags": {},
-    "acc": 100,
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Normal",
-    "pp": 30
-  },
-  "Dream Eater": {
-    "flags": {},
-    "eff": "DREAM",
-    "bp": 100,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 15
-  },
-  "Poison Gas": {
-    "flags": {},
-    "acc": 90,
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Poison",
-    "pp": 40,
-    "target": "allAdjacentFoes"
-  },
-  "Barrage": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 15,
-    "type": "Normal",
-    "acc": 85,
-    "pp": 20,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Leech Life": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "ABSORB",
-    "bp": 80,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 15,
-    "drain": [
-      50,
-      100
-    ],
-    "makesContact": true
-  },
-  "Lovely Kiss": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 85,
-    "pp": 10
-  },
-  "Sky Attack": {
-    "flags": {},
-    "eff": "TWO",
-    "bp": 140,
-    "type": "Flying",
-    "acc": 90,
-    "pp": 5,
-    "crit_stage": 3,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Transform": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Bubble": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 6,
-    "type": "Water",
-    "acc": 100,
-    "pp": 30,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 10
-  },
-  "Dizzy Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isPunch": true,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 20
-  },
-  "Spore": {
-    "flags": {
-      "isPowder": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 15,
-    "isPowder": true
-  },
-  "Flash": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "ATK_MINUS_1",
-    "effChance": 50
-  },
-  "Psywave": {
-    "flags": {},
-    "eff": "PSYWAVE",
-    "bp": 1,
-    "type": "Psychic",
-    "acc": 6,
-    "pp": 15
-  },
-  "Splash": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 40
-  },
-  "Acid Armor": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 0,
-    "pp": 20
-  },
-  "Crabhammer": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Water",
-    "acc": 90,
-    "crit_stage": 1,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Explosion": {
-    "flags": {},
-    "eff": "EXPLOSION",
-    "bp": 150,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacent"
-  },
-  "Fury Swipes": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 18,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Bonemerang": {
-    "flags": {
-      "isBone": true
-    },
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "multihit": [
-      2,
-      2
-    ],
-    "isBone": true
-  },
-  "Rest": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 5,
-    "isHealing": true
-  },
-  "Rock Slide": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 20
-  },
-  "Hyper Fang": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isBite": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 10
-  },
-  "Sharpen": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 30
-  },
-  "Conversion": {
-    "flags": {},
-    "eff": "ALL",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 30
-  },
-  "Tri Attack": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "TRI_ATTACK",
-    "effChance": 20
-  },
-  "Super Fang": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "SUPER",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 90,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Slash": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Normal",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 20,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Substitute": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 5
-  },
-  "Struggle": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "acc": 100,
-    "secondaries": true,
-    "addEff": "RECOIL_HP_25",
-    "addEffTarget": "self",
-    "effChance": 100,
-    "recoil": [
-      25,
-      100
-    ],
-    "bp": 50,
-    "type": "Normal",
-    "pp": 1,
-    "makesContact": true
-  },
-  "Sketch": {
-    "flags": {},
-    "eff": "ALL",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 1
-  },
-  "Triple Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "TRIPLE",
-    "bp": 20,
-    "type": "Fighting",
-    "acc": 90,
-    "pp": 10,
-    "makesContact": true,
-    "multihit": [
-      3,
-      3
-    ],
-    "isKick": true
-  },
-  "Thief": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 25,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "STEAL_ITEM",
-    "effChance": 100
-  },
-  "Spider Web": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 10
-  },
-  "Mind Reader": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 4,
-    "pp": 5
-  },
-  "Nightmare": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Ghost",
-    "acc": 4,
-    "pp": 15
-  },
-  "Flame Wheel": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 25,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 10
-  },
-  "Snore": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "SNORE",
-    "bp": 50,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15,
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Curse": {
-    "flags": {},
-    "eff": "CURSE",
-    "bp": 0,
-    "type": "Ghost",
-    "acc": 0,
-    "pp": 10
-  },
-  "Flail": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "FLAIL",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Conversion 2": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 30
-  },
-  "Aeroblast": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Flying",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 5,
-    "isWind": true
-  },
-  "Cotton Spore": {
-    "flags": {
-      "isPowder": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 5,
-    "pp": 40,
-    "target": "allAdjacentFoes",
-    "isPowder": true
-  },
-  "Reversal": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "FLAIL",
-    "bp": 1,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Spite": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 10
-  },
-  "Powder Snow": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 25,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "FREEZE_OR_FROSTBITE",
-    "effChance": 10
-  },
-  "Protect": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10,
-    "priority": 5
-  },
-  "Mach Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 30,
-    "priority": 1,
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Scary Face": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 5,
-    "pp": 10
-  },
-  "Feint Attack": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Sweet Kiss": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 75,
-    "pp": 10
-  },
-  "Belly Drum": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Sludge Bomb": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 10,
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 30
-  },
-  "Mud-Slap": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10
-  },
-  "Octazooka": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Spikes": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Ground",
-    "acc": 0,
-    "pp": 20
-  },
-  "Zap Cannon": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Electric",
-    "acc": 50,
-    "pp": 5,
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 100
-  },
-  "Foresight": {
-    "flags": {},
-    "eff": "BOOST",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 5,
-    "pp": 40
-  },
-  "Destiny Bond": {
-    "flags": {},
-    "eff": "FOLLOW",
-    "bp": 0,
-    "type": "Ghost",
-    "acc": 0,
-    "pp": 5
-  },
-  "Perish Song": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 5,
-    "isSound": true
-  },
-  "Icy Wind": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 55,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacentFoes",
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 100
-  },
-  "Detect": {
-    "flags": {},
-    "eff": "EVSN",
-    "bp": 0,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 5,
-    "priority": 5
-  },
-  "Bone Rush": {
-    "flags": {
-      "isBone": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 25,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "isBone": true
-  },
-  "Lock-On": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 4,
-    "pp": 5
-  },
-  "Outrage": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "THRASH",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Sandstorm": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Rock",
-    "acc": 0,
-    "pp": 10,
-    "isWind": true
-  },
-  "Giga Drain": {
-    "flags": {},
-    "eff": "ABSORB",
-    "bp": 75,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10,
-    "drain": [
-      50,
-      100
-    ]
-  },
-  "Endure": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10,
-    "priority": 5
-  },
-  "Charm": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 5
-  },
-  "Rollout": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "ROLLOUT",
-    "bp": 30,
-    "type": "Rock",
-    "acc": 90,
-    "pp": 20,
-    "makesContact": true
-  },
-  "False Swipe": {
-    "flags": {
-      "isSword": true,
-      "makesContact": true
-    },
-    "eff": "FALSE",
-    "isSword": true,
-    "bp": 40,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 40,
-    "makesContact": true
-  },
-  "Swagger": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 90,
-    "pp": 15
-  },
-  "Milk Drink": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 5,
-    "isHealing": true
-  },
-  "Spark": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Fury Cutter": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "bp": 40,
-    "eff": "FURY",
-    "type": "Bug",
-    "acc": 95,
-    "pp": 20,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Steel Wing": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 25,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 10
-  },
-  "Mean Look": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 5
-  },
-  "Attract": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15
-  },
-  "Sleep Talk": {
-    "flags": {},
-    "eff": "BOOST",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Heal Bell": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 5,
-    "isSound": true
-  },
-  "Return": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "RETURN",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Present": {
-    "flags": {},
-    "eff": "PRESENT",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 90,
-    "pp": 15
-  },
-  "Frustration": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "FRUSTRATION",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Safeguard": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 25
-  },
-  "Pain Split": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20
-  },
-  "Sacred Fire": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Fire",
-    "acc": 95,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 50
-  },
-  "Magnitude": {
-    "flags": {},
-    "eff": "MAGNITUDE",
-    "bp": 1,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 30,
-    "target": "allAdjacent"
-  },
-  "Dynamic Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Fighting",
-    "acc": 50,
-    "pp": 5,
-    "makesContact": true,
-    "isPunch": true,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 100
-  },
-  "Megahorn": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Bug",
-    "acc": 85,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Dragon Breath": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Baton Pass": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 40
-  },
-  "Encore": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5
-  },
-  "Pursuit": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "PURSUIT",
-    "bp": 40,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Rapid Spin": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 40,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "RAPID_SPIN",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Sweet Scent": {
-    "flags": {},
-    "eff": "ACC",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "target": "allAdjacentFoes"
-  },
-  "Iron Tail": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Steel",
-    "acc": 75,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 30
-  },
-  "Metal Claw": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 35,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "ATK_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 10
-  },
-  "Vital Throw": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 10,
-    "priority": 1,
-    "makesContact": true
-  },
-  "Morning Sun": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 5,
-    "isHealing": true
-  },
-  "Synthesis": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 5,
-    "isHealing": true
-  },
-  "Moonlight": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 5,
-    "isHealing": true
-  },
-  "Hidden Power": {
-    "flags": {},
-    "bp": 6,
-    "eff": "HIDDEN",
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15
-  },
-  "Cross Chop": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Fighting",
-    "acc": 80,
-    "crit_stage": 1,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Twister": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 20,
-    "target": "allAdjacentFoes",
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 20
-  },
-  "Rain Dance": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Water",
-    "acc": 0,
-    "pp": 5
-  },
-  "Sunny Day": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Fire",
-    "acc": 0,
-    "pp": 5
-  },
-  "Crunch": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isBite": true,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 20
-  },
-  "Mirror Coat": {
-    "flags": {},
-    "eff": "MIRROR",
-    "bp": 1,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 20,
-    "priority": 5
-  },
-  "Psych Up": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Extreme Speed": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "priority": 5,
-    "makesContact": true
-  },
-  "Ancient Power": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "ALL_STATS_UP",
-    "addEffTarget": "self",
-    "effChance": 10
-  },
-  "Shadow Ball": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 15,
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_1",
-    "effChance": 20
-  },
-  "Future Sight": {
-    "flags": {},
-    "bp": 120,
-    "eff": "FUTURE",
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10
-  },
-  "Rock Smash": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 50
-  },
-  "Whirlpool": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 35,
-    "type": "Water",
-    "acc": 85,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "WRAP",
-    "effChance": 100
-  },
-  "Beat Up": {
-    "flags": {},
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 25,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10
-  },
-  "Fake Out": {
-    "flags": {
-      "makesContact": true
-    },
-    "priority": 5,
-    "makesContact": true,
-    "eff": "FIRST",
-    "bp": 40,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 100
-  },
-  "Uproar": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "UPROAR",
-    "bp": 90,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "UPROAR",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Stockpile": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20
-  },
-  "Spit Up": {
-    "flags": {},
-    "eff": "SPIT",
-    "bp": 4,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10
-  },
-  "Swallow": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10,
-    "isHealing": true
-  },
-  "Heat Wave": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 95,
-    "type": "Fire",
-    "acc": 90,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 10
-  },
-  "Hail": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Ice",
-    "acc": 0,
-    "pp": 10
-  },
-  "Torment": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 15
-  },
-  "Flatter": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 15
-  },
-  "Will-O-Wisp": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Fire",
-    "acc": 6,
-    "pp": 15
-  },
-  "Memento": {
-    "flags": {},
-    "eff": "RESTORE",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10
-  },
-  "Facade": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "FACADE",
-    "bp": 70,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Focus Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "FOCUS",
-    "bp": 150,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 20,
-    "priority": 3,
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Smelling Salts": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "DOUBLE",
-    "bp": 6,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "REMOVE_STATUS",
-    "effChance": 100
-  },
-  "Follow Me": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "priority": 6
-  },
-  "Nature Power": {
-    "flags": {},
-    "eff": "NATURE",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20
-  },
-  "Charge": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 20
-  },
-  "Taunt": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 20
-  },
-  "Helping Hand": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "priority": 5
-  },
-  "Trick": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10
-  },
-  "Role Play": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Wish": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10,
-    "isHealing": true
-  },
-  "Assist": {
-    "flags": {},
-    "eff": "ASSIST",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20
-  },
-  "Ingrain": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 20
-  },
-  "Superpower": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "ATK_DEF_DOWN",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Magic Coat": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 15,
-    "priority": 4
-  },
-  "Recycle": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10
-  },
-  "Revenge": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "REVENGE",
-    "bp": 60,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "priority": 4,
-    "makesContact": true
-  },
-  "Brick Break": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "BRICK",
-    "bp": 75,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Yawn": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Knock Off": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "KNOCK",
-    "bp": 65,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "KNOCK_OFF",
-    "effChance": 100
-  },
-  "Endeavor": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "ENDEAVOR",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Eruption": {
-    "flags": {},
-    "eff": "POWER",
-    "bp": 150,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacentFoes"
-  },
-  "Skill Swap": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Imprison": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10
-  },
-  "Refresh": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20
-  },
-  "Grudge": {
-    "flags": {},
-    "eff": "FOLLOW",
-    "bp": 0,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 5
-  },
-  "Snatch": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10,
-    "priority": 4
-  },
-  "Secret Power": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "SECRET_POWER",
-    "effChance": 30
-  },
-  "Dive": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "SEMI",
-    "bp": 80,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Arm Thrust": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 25,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Camouflage": {
-    "flags": {},
-    "eff": "EVSN",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20
-  },
-  "Tail Glow": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 20
-  },
-  "Luster Purge": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_1",
-    "effChance": 50
-  },
-  "Mist Ball": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_1",
-    "effChance": 50
-  },
-  "Feather Dance": {
-    "flags": {
-      "isDance": true
-    },
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 5,
-    "isDance": true
-  },
-  "Teeter Dance": {
-    "flags": {
-      "isDance": true
-    },
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "target": "allAdjacent",
-    "isDance": true
-  },
-  "Blaze Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Fire",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 10,
-    "isKick": true
-  },
-  "Mud Sport": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 15
-  },
-  "Ice Ball": {
-    "flags": {
-      "makesContact": true,
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "ROLLOUT",
-    "bp": 30,
-    "type": "Ice",
-    "acc": 90,
-    "pp": 20,
-    "makesContact": true,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Needle Arm": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 95,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Slack Off": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "isHealing": true
-  },
-  "Hyper Voice": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "isSound": true
-  },
-  "Poison Fang": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isBite": true,
-    "secondaries": true,
-    "addEff": "TOXIC",
-    "effChance": 0
-  },
-  "Crush Claw": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 50
-  },
-  "Blast Burn": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 160,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "RECHARGE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Hydro Cannon": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 160,
-    "type": "Water",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "RECHARGE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Meteor Mash": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Steel",
-    "acc": 90,
-    "pp": 10,
-    "makesContact": true,
-    "isPunch": true,
-    "secondaries": true,
-    "addEff": "ATK_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 20
-  },
-  "Astonish": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 30,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Weather Ball": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "WEATHER",
-    "bp": 160,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Aromatherapy": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 5
-  },
-  "Fake Tears": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 20
-  },
-  "Air Cutter": {
-    "flags": {
-      "isWind": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Flying",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 25,
-    "target": "allAdjacentFoes",
-    "isWind": true,
-    "isSword": true
-  },
-  "Overheat": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 130,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_2",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Odor Sleuth": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 4,
-    "pp": 40
-  },
-  "Rock Tomb": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 100
-  },
-  "Silver Wind": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 5,
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "ALL_STATS_UP",
-    "addEffTarget": "self",
-    "effChance": 10
-  },
-  "Metal Sound": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Steel",
-    "acc": 85,
-    "pp": 40,
-    "isSound": true
-  },
-  "Grass Whistle": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 55,
-    "pp": 15,
-    "isSound": true
-  },
-  "Tickle": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20
-  },
-  "Cosmic Power": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 20
-  },
-  "Water Spout": {
-    "flags": {},
-    "eff": "POWER",
-    "bp": 150,
-    "type": "Water",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacentFoes"
-  },
-  "Signal Beam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 10
-  },
-  "Shadow Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Ghost",
-    "acc": 0,
-    "pp": 20,
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Extrasensory": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 10
-  },
-  "Sky Uppercut": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Sand Tomb": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 35,
-    "type": "Ground",
-    "acc": 85,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "WRAP",
-    "effChance": 100
-  },
-  "Sheer Cold": {
-    "flags": {},
-    "eff": "OHKO",
-    "bp": 1,
-    "type": "Ice",
-    "acc": 30,
-    "pp": 5
-  },
-  "Muddy Water": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 95,
-    "type": "Water",
-    "acc": 85,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "ATK_MINUS_1",
-    "effChance": 40
-  },
-  "Bullet Seed": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 25,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 30,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Aerial Ace": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Flying",
-    "acc": 0,
-    "pp": 20,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Icicle Spear": {
-    "flags": {},
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 5,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 30
-  },
-  "Iron Defense": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 15
-  },
-  "Block": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 5
-  },
-  "Howl": {
-    "flags": {
-      "isSound": true
-    },
-    "bp": 0,
-    "eff": "ATK",
-    "type": "Normal",
-    "acc": 0,
-    "pp": 40,
-    "isSound": true
-  },
-  "Dragon Claw": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Frenzy Plant": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 160,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "RECHARGE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Bulk Up": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 20
-  },
-  "Bounce": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "SEMI",
-    "bp": 85,
-    "type": "Flying",
-    "acc": 85,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Mud Shot": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 55,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 100
-  },
-  "Poison Tail": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Poison",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 25,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 10
-  },
-  "Covet": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 5,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 25,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "STEAL_ITEM",
-    "effChance": 100
-  },
-  "Volt Tackle": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Electric",
-    "acc": 100,
-    "recoil": [
-      33,
-      100
-    ],
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 10
-  },
-  "Magical Leaf": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 20
-  },
-  "Water Sport": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Water",
-    "acc": 100,
-    "pp": 15
-  },
-  "Calm Mind": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 20
-  },
-  "Leaf Blade": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Grass",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 15,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Dragon Dance": {
-    "flags": {
-      "isDance": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Dragon",
-    "acc": 0,
-    "pp": 20,
-    "isDance": true
-  },
-  "Rock Blast": {
-    "flags": {
-      "isBullet": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 25,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 10,
-    "isBullet": true
-  },
-  "Shock Wave": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 20
-  },
-  "Water Pulse": {
-    "flags": {
-      "isPulse": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Water",
-    "acc": 100,
-    "pp": 20,
-    "isPulse": true,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 20
-  },
-  "Doom Desire": {
-    "flags": {},
-    "eff": "FUTURE",
-    "bp": 5,
-    "type": "Steel",
-    "acc": 5,
-    "pp": 5
-  },
-  "Psycho Boost": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 140,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_2",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Roost": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Flying",
-    "acc": 0,
-    "pp": 5,
-    "isHealing": true
-  },
-  "Gravity": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 5
-  },
-  "Miracle Eye": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 40
-  },
-  "Wake-Up Slap": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "DOUBLE",
-    "bp": 70,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "REMOVE_STATUS",
-    "effChance": 100
-  },
-  "Hammer Arm": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isPunch": true,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Gyro Ball": {
-    "flags": {
-      "makesContact": true,
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "GYRO",
-    "bp": 1,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Healing Wish": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "HEALING",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10,
-    "isHealing": true
-  },
-  "Brine": {
-    "flags": {},
-    "eff": "BRINE",
-    "bp": 65,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10
-  },
-  "Natural Gift": {
-    "flags": {},
-    "eff": "NATURAL",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15
-  },
-  "Feint": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 30,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "priority": 2,
-    "secondaries": true,
-    "addEff": "FEINT",
-    "effChance": 100
-  },
-  "Pluck": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "BUG_BITE",
-    "effChance": 100
-  },
-  "Tailwind": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "BOOST",
-    "bp": 0,
-    "type": "Flying",
-    "acc": 0,
-    "pp": 15,
-    "isWind": true
-  },
-  "Acupressure": {
-    "flags": {},
-    "eff": "BOOST",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 30
-  },
-  "Metal Burst": {
-    "flags": {},
-    "eff": "METAL",
-    "bp": 1,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 10
-  },
-  "U-turn": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Close Combat": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_SPDEF_DOWN",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Payback": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "PAYBACK",
-    "bp": 50,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Assurance": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "ASSURANCE",
-    "bp": 60,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Embargo": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 15
-  },
-  "Fling": {
-    "flags": {},
-    "eff": "FLING",
-    "bp": 1,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10
-  },
-  "Psycho Shift": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 6,
-    "pp": 10
-  },
-  "Trump Card": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "TRUMP",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Heal Block": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacentFoes"
-  },
-  "Wring Out": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "POWER",
-    "bp": 120,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Power Trick": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Gastro Acid": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 10
-  },
-  "Lucky Chant": {
-    "flags": {},
-    "eff": "EVSN",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 30
-  },
-  "Me First": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20
-  },
-  "Copycat": {
-    "flags": {},
-    "eff": "ACC",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20
-  },
-  "Power Swap": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Guard Swap": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Punishment": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "PUNISHMENT",
-    "bp": 60,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Last Resort": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "LAST",
-    "bp": 5,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Worry Seed": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10
-  },
-  "Sucker Punch": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "SUCKER",
-    "bp": 7,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 5,
-    "priority": 1,
-    "makesContact": true
-  },
-  "Toxic Spikes": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 0,
-    "pp": 20
-  },
-  "Heart Swap": {
-    "flags": {},
-    "eff": "BOOST",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Aqua Ring": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Water",
-    "acc": 0,
-    "pp": 20
-  },
-  "Magnet Rise": {
-    "flags": {},
-    "eff": "EVSN",
-    "bp": 0,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 10
-  },
-  "Flare Blitz": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Fire",
-    "acc": 100,
-    "recoil": [
-      33,
-      100
-    ],
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 10
-  },
-  "Force Palm": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Aura Sphere": {
-    "flags": {
-      "isPulse": true,
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 20,
-    "isPulse": true,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Rock Polish": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Rock",
-    "acc": 0,
-    "pp": 20
-  },
-  "Poison Jab": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 30
-  },
-  "Dark Pulse": {
-    "flags": {
-      "isPulse": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 15,
-    "isPulse": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 20
-  },
-  "Night Slash": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Dark",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 15,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Aqua Tail": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Seed Bomb": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 15,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Air Slash": {
-    "flags": {
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 15,
-    "isSword": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "X-Scissor": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Bug Buzz": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 10,
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_1",
-    "effChance": 10
-  },
-  "Dragon Pulse": {
-    "flags": {
-      "isPulse": true
-    },
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 10,
-    "isPulse": true
-  },
-  "Dragon Rush": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Dragon",
-    "acc": 75,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Power Gem": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 20
-  },
-  "Drain Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "ABSORB",
-    "bp": 75,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "drain": [
-      50,
-      100
-    ],
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Vacuum Wave": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 30,
-    "priority": 1
-  },
-  "Focus Blast": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Fighting",
-    "acc": 70,
-    "pp": 5,
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_1",
-    "effChance": 10
-  },
-  "Energy Ball": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10,
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_1",
-    "effChance": 10
-  },
-  "Brave Bird": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Flying",
-    "acc": 100,
-    "recoil": [
-      33,
-      100
-    ],
-    "pp": 15,
-    "makesContact": true
-  },
-  "Earth Power": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_1",
-    "effChance": 10
-  },
-  "Switcheroo": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10
-  },
-  "Giga Impact": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 150,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "RECHARGE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Nasty Plot": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 20
-  },
-  "Bullet Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 30,
-    "priority": 1,
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Avalanche": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "REVENGE",
-    "bp": 60,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 10,
-    "priority": 4,
-    "makesContact": true
-  },
-  "Ice Shard": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 30,
-    "priority": 1
-  },
-  "Shadow Claw": {
-    "flags": {
-      "isSword": true,
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Ghost",
-    "acc": 100,
-    "crit_stage": 1,
-    "isSword": true,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Thunder Fang": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isBite": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 10
-  },
-  "Ice Fang": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isBite": true,
-    "secondaries": true,
-    "addEff": "FREEZE_OR_FROSTBITE",
-    "effChance": 10
-  },
-  "Fire Fang": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isBite": true,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 10
-  },
-  "Aqua Fang": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isBite": true
-  },
-  "Shadow Sneak": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 30,
-    "priority": 1,
-    "makesContact": true
-  },
-  "Mud Bomb": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Psycho Cut": {
-    "flags": {
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Psychic",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 20,
-    "isSword": true
-  },
-  "Zen Headbutt": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 20
-  },
-  "Mirror Shot": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "ACC_MINUS_1",
-    "effChance": 30
-  },
-  "Flash Cannon": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "isBullet": true,
-    "isBallistic": true,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_1",
-    "effChance": 10
-  },
-  "Rock Climb": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Normal",
-    "acc": 85,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 20
-  },
-  "Defog": {
-    "flags": {},
-    "eff": "ACC",
-    "bp": 0,
-    "type": "Flying",
-    "acc": 0,
-    "pp": 15
-  },
-  "Trick Room": {
-    "flags": {},
-    "eff": "ACC",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 5,
-    "priority": 7
-  },
-  "Draco Meteor": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 130,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_2",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Discharge": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacent",
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Lava Plume": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacent",
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 30
-  },
-  "Leaf Storm": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 130,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_2",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Power Whip": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Grass",
-    "acc": 90,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Rock Wrecker": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 150,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 5,
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "RECHARGE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Cross Poison": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Poison",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 20,
-    "makesContact": true,
-    "isSword": true,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 10
-  },
-  "Gunk Shot": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Poison",
-    "acc": 80,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 30
-  },
-  "Iron Head": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Magnet Bomb": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 20,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Stone Edge": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Rock",
-    "acc": 90,
-    "crit_stage": 1,
-    "pp": 5
-  },
-  "Captivate": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "target": "allAdjacentFoes"
-  },
-  "Stealth Rock": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Rock",
-    "acc": 0,
-    "pp": 20
-  },
-  "Grass Knot": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "LOW",
-    "bp": 1,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Chatter": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 20,
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 100
-  },
-  "Judgment": {
-    "flags": {},
-    "eff": "CHANGE",
-    "bp": 100,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10
-  },
-  "Bug Bite": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "BUG_BITE",
-    "effChance": 100
-  },
-  "Charge Beam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_ATK_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Wood Hammer": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Grass",
-    "acc": 100,
-    "recoil": [
-      33,
-      100
-    ],
-    "pp": 15,
-    "makesContact": true
-  },
-  "Aqua Jet": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Water",
-    "acc": 100,
-    "pp": 20,
-    "priority": 1,
-    "makesContact": true
-  },
-  "Attack Order": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Bug",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 15
-  },
-  "Defend Order": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 10
-  },
-  "Heal Order": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 10,
-    "isHealing": true
-  },
-  "Head Smash": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 150,
-    "type": "Rock",
-    "acc": 85,
-    "recoil": [
-      50,
-      100
-    ],
-    "pp": 5,
-    "makesContact": true
-  },
-  "Double Hit": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 35,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "multihit": [
-      2,
-      2
-    ]
-  },
-  "Roar of Time": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 10,
-    "priority": 6
-  },
-  "Spacial Rend": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Dragon",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 5
-  },
-  "Lunar Dance": {
-    "flags": {
-      "isHealing": true,
-      "isDance": true
-    },
-    "eff": "HEALING",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10,
-    "isHealing": true,
-    "isDance": true
-  },
-  "Crush Grip": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "POWER",
-    "bp": 120,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Magma Storm": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Fire",
-    "acc": 75,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "WRAP",
-    "effChance": 100
-  },
-  "Dark Void": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 80,
-    "pp": 10,
-    "target": "allAdjacentFoes"
-  },
-  "Dark Hole": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "SLEEP",
-    "effChance": 40
-  },
-  "Seed Flare": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Grass",
-    "acc": 85,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_2",
-    "effChance": 40
-  },
-  "Ominous Wind": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 5,
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "ALL_STATS_UP",
-    "addEffTarget": "self",
-    "effChance": 10
-  },
-  "Shadow Force": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "SEMI",
-    "bp": 120,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FEINT",
-    "effChance": 100
-  },
-  "Hone Claws": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 15
-  },
-  "Wide Guard": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Rock",
-    "acc": 0,
-    "pp": 10,
-    "priority": 3
-  },
-  "Guard Split": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Power Split": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Wonder Room": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10,
-    "priority": 6
-  },
-  "Psyshock": {
-    "flags": {},
-    "eff": "PSYSHOCK",
-    "bp": 80,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10
-  },
-  "Venoshock": {
-    "flags": {},
-    "eff": "DOUBLE",
-    "bp": 65,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 10
-  },
-  "Autotomize": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 15
-  },
-  "Rage Powder": {
-    "flags": {
-      "isPowder": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 20,
-    "priority": 6,
-    "isPowder": true
-  },
-  "Telekinesis": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 15
-  },
-  "Magic Room": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10,
-    "priority": 6
-  },
-  "Smack Down": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "SMACK_DOWN",
-    "effChance": 100
-  },
-  "Storm Throw": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    ".willCrit": true
-  },
-  "Flame Burst": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "FLAME_BURST",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Sludge Wave": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 95,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacent",
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 10
-  },
-  "Quiver Dance": {
-    "flags": {
-      "isDance": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 20,
-    "isDance": true
-  },
-  "Heavy Slam": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HEAT",
-    "bp": 1,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Synchronoise": {
-    "flags": {},
-    "eff": "SYNCHRONOISE",
-    "bp": 120,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacent"
-  },
-  "Electro Ball": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "ELECTRO",
-    "bp": 1,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 10,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Soak": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Water",
-    "acc": 100,
-    "pp": 20
-  },
-  "Flame Charge": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "SPD_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Coil": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 0,
-    "pp": 20
-  },
-  "Low Sweep": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 100,
-    "isKick": true
-  },
-  "Acid Spray": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 20,
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_2",
-    "effChance": 100
-  },
-  "Foul Play": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "FOUL",
-    "bp": 95,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Simple Beam": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15
-  },
-  "Entrainment": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15
-  },
-  "After You": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 15
-  },
-  "Round": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "ROUND",
-    "bp": 60,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15,
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "ROUND",
-    "effChance": 100
-  },
-  "Echoed Voice": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "ECHOED",
-    "bp": 40,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15,
-    "isSound": true
-  },
-  "Chip Away": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Clear Smog": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Poison",
-    "acc": 0,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "CLEAR_SMOG",
-    "effChance": 100
-  },
-  "Stored Power": {
-    "flags": {},
-    "eff": "STORED",
-    "bp": 20,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10
-  },
-  "Quick Guard": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 15,
-    "priority": 3
-  },
-  "Ally Switch": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 15,
-    "priority": 7
-  },
-  "Scald": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Water",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 30
-  },
-  "Shell Smash": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 15
-  },
-  "Heal Pulse": {
-    "flags": {
-      "isHealing": true,
-      "isPulse": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10,
-    "isHealing": true,
-    "isPulse": true
-  },
-  "Hex": {
-    "flags": {},
-    "eff": "DOUBLE",
-    "bp": 160,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 10
-  },
-  "Sky Drop": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "SKY",
-    "bp": 60,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Shift Gear": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 10
-  },
-  "Circle Throw": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "priority": 6,
-    "makesContact": true
-  },
-  "Incinerate": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "INCINERATE",
-    "effChance": 100
-  },
-  "Quash": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 15
-  },
-  "Acrobatics": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "ACROBATICS",
-    "bp": 55,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Reflect Type": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 15
-  },
-  "Retaliate": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "RETALIATE",
-    "bp": 70,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Final Gambit": {
-    "flags": {},
-    "eff": "FINAL",
-    "bp": 1,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 5
-  },
-  "Bestow": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 15
-  },
-  "Inferno": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Fire",
-    "acc": 50,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 100
-  },
-  "Water Pledge": {
-    "flags": {},
-    "eff": "PLEDGE",
-    "bp": 80,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10
-  },
-  "Fire Pledge": {
-    "flags": {},
-    "eff": "PLEDGE",
-    "bp": 80,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 10
-  },
-  "Grass Pledge": {
-    "flags": {},
-    "eff": "PLEDGE",
-    "bp": 80,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10
-  },
-  "Volt Switch": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 20
-  },
-  "Struggle Bug": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 20,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_1",
-    "effChance": 100
-  },
-  "Bulldoze": {
-    "flags": {},
-    "eff": "EARTHQUAKE",
-    "bp": 60,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 20,
-    "target": "allAdjacent",
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 100
-  },
-  "Frost Breath": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 10,
-    ".willCrit": true
-  },
-  "Dragon Tail": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 10,
-    "priority": 6,
-    "makesContact": true
-  },
-  "Work Up": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 30
-  },
-  "Electroweb": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 55,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 100
-  },
-  "Wild Charge": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Electric",
-    "acc": 100,
-    "recoil": [
-      25,
-      100
-    ],
-    "pp": 15,
-    "makesContact": true
-  },
-  "Drill Run": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Ground",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Dual Chop": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "multihit": [
-      2,
-      2
-    ]
-  },
-  "Heart Stamp": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 25,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Horn Leech": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "ABSORB",
-    "bp": 75,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10,
-    "drain": [
-      50,
-      100
-    ],
-    "makesContact": true
-  },
-  "Sacred Sword": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Razor Shell": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 75,
-    "crit_stage": 1,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Heat Crash": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HEAT",
-    "bp": 1,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Leaf Tornado": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10,
-    "isWind": true
-  },
-  "Steamroller": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Cotton Guard": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 10
-  },
-  "Night Daze": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 95,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10
-  },
-  "Psystrike": {
-    "flags": {},
-    "eff": "PSYSHOCK",
-    "bp": 100,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10
-  },
-  "Tail Slap": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 25,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Hurricane": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "THUNDER",
-    "bp": 110,
-    "type": "Flying",
-    "acc": 70,
-    "pp": 10,
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 30
-  },
-  "Head Charge": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Normal",
-    "acc": 100,
-    "recoil": [
-      25,
-      100
-    ],
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 10
-  },
-  "Gear Grind": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 180,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "multihit": [
-      2,
-      2
-    ]
-  },
-  "Searing Shot": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacent",
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 30
-  },
-  "Techno Blast": {
-    "flags": {},
-    "eff": "CHANGE",
-    "bp": 120,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5
-  },
-  "Relic Song": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "RELIC",
-    "bp": 75,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "SLEEP",
-    "effChance": 10
-  },
-  "Secret Sword": {
-    "flags": {
-      "isSword": true
-    },
-    "eff": "PSYSHOCK",
-    "bp": 85,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "isSword": true
-  },
-  "Glaciate": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 100
-  },
-  "Bolt Strike": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 130,
-    "type": "Electric",
-    "acc": 85,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 20
-  },
-  "Blue Flare": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 130,
-    "type": "Fire",
-    "acc": 85,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 20
-  },
-  "Fiery Dance": {
-    "flags": {
-      "isDance": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 10,
-    "isDance": true,
-    "secondaries": true,
-    "addEff": "SP_ATK_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 50
-  },
-  "Freeze Shock": {
-    "flags": {},
-    "eff": "TWO",
-    "bp": 140,
-    "type": "Ice",
-    "acc": 90,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Ice Burn": {
-    "flags": {},
-    "eff": "TWO",
-    "bp": 140,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 30
-  },
-  "Snarl": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 55,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacentFoes",
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_1",
-    "effChance": 100
-  },
-  "Icicle Crash": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "V-create": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 220,
-    "type": "Fire",
-    "acc": 95,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "V_CREATE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Fusion Flare": {
-    "flags": {},
-    "eff": "FUSION",
-    "bp": 100,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 5
-  },
-  "Fusion Bolt": {
-    "flags": {},
-    "eff": "FUSION",
-    "bp": 100,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 5
-  },
-  "Flying Press": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "TWO",
-    "bp": 170,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Mat Block": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 5
-  },
-  "Belch": {
-    "flags": {},
-    "eff": "BELCH",
-    "bp": 120,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 10
-  },
-  "Rototiller": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Ground",
-    "acc": 0,
-    "pp": 10
-  },
-  "Sticky Web": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 20
-  },
-  "Fell Stinger": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "FELL",
-    "bp": 50,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 25,
-    "makesContact": true
-  },
-  "Phantom Force": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "SEMI",
-    "bp": 90,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FEINT",
-    "effChance": 100
-  },
-  "Trick-or-Treat": {
-    "flags": {},
-    "eff": "ALL",
-    "bp": 0,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 20
-  },
-  "Noble Roar": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 30,
-    "isSound": true
-  },
-  "Ion Deluge": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 5,
-    "priority": 1
-  },
-  "Parabolic Charge": {
-    "flags": {},
-    "eff": "ABSORB",
-    "bp": 75,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 20,
-    "target": "allAdjacent",
-    "drain": [
-      50,
-      100
-    ]
-  },
-  "Forest's Curse": {
-    "flags": {},
-    "eff": "ALL",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 20
-  },
-  "Petal Blizzard": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacent",
-    "isWind": true
-  },
-  "Freeze-Dry": {
-    "flags": {},
-    "eff": "SUPER",
-    "bp": 70,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "FREEZE_OR_FROSTBITE",
-    "effChance": 10
-  },
-  "Disarming Voice": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 15,
-    "target": "allAdjacentFoes",
-    "isSound": true
-  },
-  "Parting Shot": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "RESTORE",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 20,
-    "isSound": true
-  },
-  "Topsy-Turvy": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 7,
-    "pp": 20
-  },
-  "Draining Kiss": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "ABSORB",
-    "bp": 50,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 10,
-    "drain": [
-      75,
-      100
-    ],
-    "makesContact": true
-  },
-  "Crafty Shield": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 10,
-    "priority": 3
-  },
-  "Flower Shield": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 10
-  },
-  "Grassy Terrain": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 10
-  },
-  "Misty Terrain": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 10
-  },
-  "Electrify": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 20
-  },
-  "Play Rough": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "ATK_MINUS_1",
-    "effChance": 10
-  },
-  "Fairy Wind": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 30,
-    "isWind": true
-  },
-  "Moonblast": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 95,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_1",
-    "effChance": 30
-  },
-  "Boomburst": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 140,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacent",
-    "isSound": true
-  },
-  "Fairy Lock": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 10
-  },
-  "King's Shield": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 5,
-    "priority": 4
-  },
-  "Play Nice": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20
-  },
-  "Confide": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20,
-    "isSound": true
-  },
-  "Diamond Storm": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "DEF_PLUS_2:",
-    "addEffTarget": "self",
-    "effChance": 50
-  },
-  "Steam Eruption": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Water",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 30
-  },
-  "Hyperspace Hole": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "FEINT",
-    "effChance": 100
-  },
-  "Water Shuriken": {
-    "flags": {},
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 15,
-    "type": "Water",
-    "acc": 100,
-    "pp": 20,
-    "priority": 1
-  },
-  "Mystical Fire": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_1",
-    "effChance": 100
-  },
-  "Spiky Shield": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 5,
-    "priority": 4
-  },
-  "Aromatic Mist": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 20
-  },
-  "Eerie Impulse": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 15
-  },
-  "Venom Drench": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 20,
-    "target": "allAdjacentFoes"
-  },
-  "Powder": {
-    "flags": {
-      "isPowder": true
-    },
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 20,
-    "priority": 1,
-    "isPowder": true
-  },
-  "Geomancy": {
-    "flags": {},
-    "eff": "ALL",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 10
-  },
-  "Magnetic Flux": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 20
-  },
-  "Happy Hour": {
-    "flags": {},
-    "eff": "ALL",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 30
-  },
-  "Electric Terrain": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 10
-  },
-  "Dazzling Gleam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacentFoes"
-  },
-  "Celebrate": {
-    "flags": {},
-    "eff": "ALL",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 40
-  },
-  "Hold Hands": {
-    "flags": {},
-    "eff": "ALL",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 40
-  },
-  "Baby-Doll Eyes": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 30,
-    "priority": 1
-  },
-  "Nuzzle": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 20,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 100
-  },
-  "Hold Back": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "FALSE",
-    "bp": 40,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 40,
-    "makesContact": true
-  },
-  "Infestation": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 20,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "WRAP",
-    "effChance": 100
-  },
-  "Power-Up Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "isPunch": true,
-    "secondaries": true,
-    "addEff": "ATK_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Oblivion Wing": {
-    "flags": {},
-    "eff": "ABSORB",
-    "bp": 80,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 10,
-    "drain": [
-      75,
-      100
-    ]
-  },
-  "Thousand Arrows": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "SMACK_DOWN",
-    "effChance": 100
-  },
-  "Thousand Waves": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "PREVENT_ESCAPE",
-    "effChance": 100
-  },
-  "Land's Wrath": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacentFoes"
-  },
-  "Light Of Ruin": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 140,
-    "type": "Fairy",
-    "acc": 100,
-    "recoil": [
-      50,
-      100
-    ],
-    "pp": 5
-  },
-  "Origin Pulse": {
-    "flags": {
-      "isPulse": true
-    },
-    "eff": "HIT",
-    "bp": 110,
-    "type": "Water",
-    "acc": 85,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "isPulse": true
-  },
-  "Precipice Blades": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Ground",
-    "acc": 85,
-    "pp": 10,
-    "target": "allAdjacentFoes"
-  },
-  "Dragon Ascent": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_SPDEF_DOWN",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Hyperspace Fury": {
-    "flags": {},
-    "eff": "HYPERSPACE",
-    "bp": 100,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 100
-  },
-  "Shore Up": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Ground",
-    "acc": 0,
-    "pp": 5,
-    "isHealing": true
-  },
-  "First Impression": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "FIRST",
-    "bp": 90,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 10,
-    "priority": 2,
-    "makesContact": true
-  },
-  "Baneful Bunker": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 0,
-    "pp": 5,
-    "priority": 4
-  },
-  "Spirit Shackle": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "PREVENT_ESCAPE",
-    "effChance": 100
-  },
-  "Darkest Lariat": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Sparkling Aria": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacent",
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "REMOVE_STATUS",
-    "effChance": 100
-  },
-  "Ice Hammer": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Floral Healing": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 10,
-    "isHealing": true
-  },
-  "High Horsepower": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 95,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isKick": true
-  },
-  "Strength Sap": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10
-  },
-  "Solar Blade": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "SOLAR",
-    "bp": 125,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Leafage": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 40
-  },
-  "Spotlight": {
-    "flags": {},
-    "eff": "SPDEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 15,
-    "priority": 3
-  },
-  "Toxic Thread": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 20
-  },
-  "Laser Focus": {
-    "flags": {},
-    "eff": "ATK",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 30
-  },
-  "Gear Up": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 20
-  },
-  "Throat Chop": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "THROAT_CHOP",
-    "effChance": 100
-  },
-  "Pollen Puff": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 15,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Anchor Shot": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "PREVENT_ESCAPE",
-    "effChance": 100
-  },
-  "Psychic Terrain": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Lunge": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "ATK_MINUS_1",
-    "effChance": 100
-  },
-  "Fire Lash": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 100
-  },
-  "Power Trip": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "STORED",
-    "bp": 20,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Burn Up": {
-    "flags": {},
-    "eff": "FAIL",
-    "bp": 130,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "REMOVE_ARG_TYPE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Speed Swap": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Smart Strike": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Purify": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "ALL",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 0,
-    "pp": 20,
-    "isHealing": true
-  },
-  "Revelation Dance": {
-    "flags": {
-      "isDance": true
-    },
-    "eff": "REVELATION",
-    "bp": 100,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 15,
-    "isDance": true
-  },
-  "Core Enforcer": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 140,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "CORE_ENFORCER",
-    "effChance": 100
-  },
-  "Trop Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "ATK_MINUS_1",
-    "effChance": 100,
-    "isKick": true
-  },
-  "Instruct": {
-    "flags": {},
-    "eff": "SPATK",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 15
-  },
-  "Beak Blast": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "BEAK",
-    "bp": 100,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 15,
-    "priority": 3,
-    "isBullet": true,
-    "isBallistic": true
-  },
-  "Clanging Scales": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 110,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacentFoes",
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Dragon Hammer": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Brutal Swing": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 20,
-    "target": "allAdjacent",
-    "makesContact": true
-  },
-  "Aurora Veil": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Ice",
-    "acc": 0,
-    "pp": 20
-  },
-  "Shell Trap": {
-    "flags": {},
-    "eff": "SHELL",
-    "bp": 150,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacentFoes",
-    "priority": 3
-  },
-  "Fleur Cannon": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 130,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_2",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Psychic Fangs": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "BRICK",
-    "bp": 85,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isBite": true
-  },
-  "Stomping Tantrum": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "STOMPING",
-    "bp": 75,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Shadow Bone": {
-    "flags": {
-      "isBone": true
-    },
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 20,
-    "isBone": true
-  },
-  "Accelerock": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 20,
-    "priority": 1,
-    "makesContact": true
-  },
-  "Liquidation": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 20
-  },
-  "Prismatic Laser": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 160,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "RECHARGE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Spectral Thief": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "SPECTRAL",
-    "bp": 90,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Sunsteel Strike": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Moongeist Beam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 5
-  },
-  "Tearful Look": {
-    "flags": {},
-    "eff": "DEF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20
-  },
-  "Zing Zap": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Nature's Madness": {
-    "flags": {},
-    "eff": "SUPER",
-    "bp": 1,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 10
-  },
-  "Multi-Attack": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "CHANGE",
-    "bp": 120,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Mind Blown": {
-    "flags": {},
-    "eff": "MIND",
-    "bp": 150,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacent"
-  },
-  "Plasma Fists": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isPunch": true,
-    "secondaries": true,
-    "addEff": "ION_DELUGE",
-    "effChance": 100
-  },
-  "Photon Geyser": {
-    "flags": {},
-    "eff": "PHOTON",
-    "bp": 100,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 5
-  },
-  "Zippy Zap": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 5,
-    "priority": 2,
-    "makesContact": true,
-    ".willCrit": true
-  },
-  "Splishy Splash": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Water",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Floaty Fall": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Pika Papow": {
-    "flags": {},
-    "eff": "RETURN",
-    "bp": 1,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 20
-  },
-  "Bouncy Bubble": {
-    "flags": {},
-    "eff": "ABSORB",
-    "bp": 90,
-    "type": "Water",
-    "acc": 100,
-    "pp": 5,
-    "drain": [
-      50,
-      100
-    ]
-  },
-  "Buzzy Buzz": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 8,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 100
-  },
-  "Sizzly Slide": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 8,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 100
-  },
-  "Glitzy Glow": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 8,
-    "type": "Psychic",
-    "acc": 8,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "LIGHT_SCREEN",
-    "effChance": 100
-  },
-  "Baddy Bad": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 8,
-    "type": "Dark",
-    "acc": 8,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "REFLECT",
-    "effChance": 100
-  },
-  "Sappy Seed": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 95,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "LEECH_SEED",
-    "effChance": 100
-  },
-  "Freezy Frost": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 95,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "HAZE",
-    "effChance": 100
-  },
-  "Sparkly Swirl": {
-    "flags": {},
-    "eff": "SPARKLY",
-    "bp": 95,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "AROMATHERAPY, Added 0 for Sheer Force boos",
-    "effChance": 100
-  },
-  "Veevee Volley": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "RETURN",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Double Iron Bash": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "isPunch": true,
-    "multihit": [
-      2,
-      2
-    ],
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Dynamax Cannon": {
-    "flags": {},
-    "eff": "DYNAMAX",
-    "bp": 100,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 5
-  },
-  "Snipe Shot": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "SNIPE",
-    "bp": 70,
-    "isBullet": true,
-    "isBallistic": true,
-    "type": "Water",
-    "acc": 100,
-    "crit_stage": 2,
-    "pp": 15
-  },
-  "Jaw Lock": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isBite": true,
-    "secondaries": true,
-    "addEff": "PREVENT_ESCAPE",
-    "effChance": 100
-  },
-  "Stuff Cheeks": {
-    "flags": {},
-    "eff": "STUFF",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "No Retreat": {
-    "flags": {},
-    "eff": "NO",
-    "bp": 0,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 5
-  },
-  "Tar Shot": {
-    "flags": {},
-    "eff": "TAR",
-    "bp": 0,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 15
-  },
-  "Magic Powder": {
-    "flags": {
-      "isPowder": true
-    },
-    "eff": "SOAK",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 20,
-    "isPowder": true
-  },
-  "Dragon Darts": {
-    "flags": {},
-    "eff": "DRAGON",
-    "bp": 50,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 10,
-    "multihit": [
-      2,
-      2
-    ]
-  },
-  "Teatime": {
-    "flags": {},
-    "eff": "TEATIME",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Octolock": {
-    "flags": {},
-    "eff": "OCTOLOCK",
-    "bp": 0,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 15
-  },
-  "Bolt Beak": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "BOLT",
-    "bp": 85,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Fishious Rend": {
-    "flags": {
-      "makesContact": true,
-      "isBite": true
-    },
-    "eff": "BOLT",
-    "bp": 85,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isBite": true
-  },
-  "Court Change": {
-    "flags": {},
-    "eff": "COURT",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10
-  },
-  "Clangorous Soul": {
-    "flags": {
-      "isSound": true,
-      "isDance": true
-    },
-    "eff": "CLANGOROUS",
-    "bp": 0,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 5,
-    "isSound": true,
-    "isDance": true
-  },
-  "Body Press": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "BODY",
-    "bp": 80,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Decorate": {
-    "flags": {},
-    "eff": "DECORATE",
-    "bp": 0,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 15
-  },
-  "Drum Beating": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 100
-  },
-  "Snap Trap": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Steel",
-    "acc": 85,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "WRAP",
-    "effChance": 100
-  },
-  "Pyro Ball": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Fire",
-    "acc": 90,
-    "pp": 5,
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 10,
-    "isKick": true
-  },
-  "Behemoth Blade": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "DYNAMAX",
-    "bp": 100,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Behemoth Bash": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "DYNAMAX",
-    "bp": 100,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Aura Wheel": {
-    "flags": {},
-    "eff": "AURA",
-    "bp": 110,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SPD_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Breaking Swipe": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacentFoes",
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "ATK_MINUS_1",
-    "effChance": 100
-  },
-  "Branch Poke": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 40,
-    "makesContact": true
-  },
-  "Overdrive": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "isSound": true
-  },
-  "Apple Acid": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_1",
-    "effChance": 100
-  },
-  "Grav Apple": {
-    "flags": {},
-    "eff": "GRAV",
-    "bp": 80,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 100
-  },
-  "Spirit Break": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_1",
-    "effChance": 100
-  },
-  "Strange Steam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 20
-  },
-  "Life Dew": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "JUNGLE",
-    "bp": 0,
-    "type": "Water",
-    "acc": 0,
-    "pp": 10,
-    "isHealing": true
-  },
-  "Obstruct": {
-    "flags": {},
-    "eff": "PROTECT",
-    "bp": 0,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 5,
-    "priority": 4
-  },
-  "False Surrender": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Meteor Assault": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 160,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "RECHARGE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Eternabeam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 160,
-    "type": "Dragon",
-    "acc": 90,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "RECHARGE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Steel Beam": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 140,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 5
-  },
-  "Expanding Force": {
-    "flags": {},
-    "eff": "EXPANDING",
-    "bp": 80,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10
-  },
-  "Steel Roller": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 130,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Scale Shot": {
-    "flags": {},
-    "eff": "MULTI",
-    "multihit": [
-      2,
-      5
-    ],
-    "bp": 25,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 20
-  },
-  "Meteor Beam": {
-    "flags": {},
-    "eff": "TWO",
-    "bp": 120,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_ATK_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Shell Side Arm": {
-    "flags": {},
-    "eff": "SHELL",
-    "bp": 100,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 10
-  },
-  "Draco Barrage": {
-    "flags": {},
-    "eff": "SHELL",
-    "bp": 100,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 5,
-    "recoil": [
-      33,
-      100
-    ]
-  },
-  "Misty Explosion": {
-    "flags": {},
-    "eff": "EXPLOSION",
-    "bp": 100,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacent"
-  },
-  "Grassy Glide": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "GRASSY",
-    "bp": 60,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Rising Voltage": {
-    "flags": {},
-    "eff": "RISING",
-    "bp": 70,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 20
-  },
-  "Terrain Pulse": {
-    "flags": {
-      "isPulse": true
-    },
-    "eff": "TERRAIN",
-    "bp": 50,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "isPulse": true
-  },
-  "Skitter Smack": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "SP_ATK_MINUS_1",
-    "effChance": 100
-  },
-  "Burning Jealousy": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 100
-  },
-  "Lash Out": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "LASH",
-    "bp": 75,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Poltergeist": {
-    "flags": {},
-    "eff": "POLTERGEIST",
-    "bp": 110,
-    "type": "Ghost",
-    "acc": 90,
-    "pp": 5
-  },
-  "Corrosive Gas": {
-    "flags": {},
-    "eff": "CORROSIVE",
-    "bp": 0,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 40,
-    "target": "allAdjacent"
-  },
-  "Coaching": {
-    "flags": {},
-    "eff": "COACHING",
-    "bp": 0,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 10
-  },
-  "Flip Turn": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Water",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true
-  },
-  "Triple Axel": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "TRIPLE",
-    "bp": 20,
-    "type": "Ice",
-    "acc": 90,
-    "pp": 10,
-    "makesContact": true,
-    "multihit": [
-      3,
-      3
-    ],
-    "isKick": true
-  },
-  "Dual Wingbeat": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Flying",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "multihit": [
-      2,
-      2
-    ]
-  },
-  "Scorching Sands": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 30
-  },
-  "Jungle Healing": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "JUNGLE",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 10,
-    "isHealing": true
-  },
-  "Wicked Blow": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 75,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    ".willCrit": true,
-    "isPunch": true
-  },
-  "Surging Strikes": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 25,
-    "type": "Water",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    ".willCrit": true,
-    "isPunch": true,
-    "multihit": [
-      3,
-      3
-    ]
-  },
-  "Thunder Cage": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Electric",
-    "acc": 90,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "WRAP",
-    "effChance": 100
-  },
-  "Dragon Energy": {
-    "flags": {},
-    "eff": "POWER",
-    "bp": 150,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacentFoes"
-  },
-  "Freezing Glare": {
-    "flags": {},
-    "bp": 90,
-    "eff": "HIT",
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "FREEZE_OR_FROSTBITE",
-    "effChance": 30
-  },
-  "Fiery Wrath": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 20
-  },
-  "Thunderous Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 100,
-    "isKick": true
-  },
-  "Glacial Lance": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacentFoes"
-  },
-  "Astral Barrage": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacentFoes"
-  },
-  "Eerie Spell": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 5,
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "EERIE_SPELL",
-    "effChance": 100
-  },
-  "Dire Claw": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DIRE_CLAW",
-    "effChance": 50
-  },
-  "Psyshield Bash": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "DEF_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Power Shift": {
-    "flags": {},
-    "eff": "POWER",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Stone Axe": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Rock",
-    "acc": 90,
-    "pp": 15,
-    "makesContact": true,
-    "isSword": true,
-    "secondaries": true,
-    "addEff": "STEALTH_ROCK",
-    "effChance": 100
-  },
-  "Springtide Storm": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Fairy",
-    "acc": 90,
-    "pp": 5,
-    "target": "allAdjacentFoes",
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "ATK_MINUS_1",
-    "effChance": 30
-  },
-  "Mystical Power": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_ATK_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Raging Fury": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 9,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "THRASH",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Wave Crash": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Water",
-    "acc": 100,
-    "recoil": [
-      33,
-      100
-    ],
-    "pp": 10,
-    "makesContact": true
-  },
-  "Chloroblast": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 120,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 15
-  },
-  "Mountain Gale": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Ice",
-    "acc": 90,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 30
-  },
-  "Victory Dance": {
-    "flags": {
-      "isDance": true
-    },
-    "eff": "VICTORY",
-    "bp": 0,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 20,
-    "isDance": true
-  },
-  "Headlong Rush": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 9,
-    "type": "Ground",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "isPunch": true,
-    "secondaries": true,
-    "addEff": "DEF_SPDEF_DOWN",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Barb Barrage": {
-    "flags": {},
-    "eff": "DOUBLE",
-    "bp": 60,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 50
-  },
-  "Esper Wing": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Psychic",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SPD_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Bitter Malice": {
-    "flags": {},
-    "eff": "DOUBLE",
-    "bp": 60,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "FREEZE_OR_FROSTBITE",
-    "effChance": 30
-  },
-  "Shelter": {
-    "flags": {},
-    "eff": "DEFENSE",
-    "bp": 0,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 10
-  },
-  "Triple Arrows": {
-    "flags": {
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 15,
-    "crit_stage": 1,
-    "secondaries": true,
-    "addEff": "DEF_MINUS_1",
-    "effChance": 50,
-    "isKick": true
-  },
-  "Infernal Parade": {
-    "flags": {},
-    "eff": "DOUBLE",
-    "bp": 60,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 30
-  },
-  "Ceaseless Edge": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 65,
-    "type": "Dark",
-    "acc": 90,
-    "pp": 15,
-    "makesContact": true,
-    "isSword": true,
-    "secondaries": true,
-    "addEff": "SPIKES",
-    "effChance": 100
-  },
-  "Bleakwind Storm": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "RAIN",
-    "bp": 100,
-    "type": "Flying",
-    "acc": 90,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 30
-  },
-  "Wildbolt Storm": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "RAIN",
-    "bp": 100,
-    "type": "Electric",
-    "acc": 90,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 20
-  },
-  "Sandsear Storm": {
-    "flags": {
-      "isWind": true
-    },
-    "eff": "RAIN",
-    "bp": 100,
-    "type": "Ground",
-    "acc": 90,
-    "pp": 10,
-    "target": "allAdjacentFoes",
-    "isWind": true,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 20
-  },
-  "Lunar Blessing": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "JUNGLE",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10,
-    "isHealing": true
-  },
-  "Take Heart": {
-    "flags": {},
-    "eff": "TAKE",
-    "bp": 0,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Tera Blast": {
-    "flags": {},
-    "eff": "TERA",
-    "bp": 80,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "TERA_BLAST",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Silk Trap": {
-    "flags": {},
-    "eff": "PROTECT",
-    "bp": 0,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 5,
-    "priority": 4
-  },
-  "Axe Kick": {
-    "flags": {
-      "makesContact": true,
-      "isKick": true
-    },
-    "eff": "RECOIL",
-    "bp": 120,
-    "type": "Fighting",
-    "acc": 90,
-    "pp": 10,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 30,
-    "isKick": true
-  },
-  "Last Respects": {
-    "flags": {},
-    "eff": "LAST",
-    "bp": 50,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 10
-  },
-  "Lumina Crash": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_DEF_MINUS_2",
-    "effChance": 100
-  },
-  "Order Up": {
-    "flags": {},
-    "eff": "ORDER",
-    "bp": 80,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "ORDER_UP",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Jet Punch": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Water",
-    "acc": 100,
-    "pp": 15,
-    "priority": 1,
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Spicy Extract": {
-    "flags": {},
-    "eff": "SPICY",
-    "bp": 0,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 15
-  },
-  "Spin Out": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 110,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_2",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Population Bomb": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "POPULATION",
-    "bp": 20,
-    "type": "Normal",
-    "acc": 90,
-    "pp": 10,
-    "makesContact": true,
-    "isSword": true,
-    "multihit": [
-      10,
-      10
-    ]
-  },
-  "Ice Spinner": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Ice",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Glaive Rush": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "GLAIVE",
-    "bp": 120,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Revival Blessing": {
-    "flags": {
-      "isHealing": true
-    },
-    "eff": "REVIVAL",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 1,
-    "isHealing": true
-  },
-  "Salt Cure": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 15,
-    "secondaries": true,
-    "addEff": "SALT_CURE",
-    "effChance": 100
-  },
-  "Triple Dive": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 40,
-    "type": "Water",
-    "acc": 90,
-    "pp": 10,
-    "makesContact": true,
-    "multihit": [
-      3,
-      3
-    ]
-  },
-  "Mortal Spin": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 30,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacentFoes",
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "RAPID_SPIN",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Doodle": {
-    "flags": {},
-    "eff": "DOODLE",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10
-  },
-  "Fillet Away": {
-    "flags": {},
-    "eff": "RECOVER",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Kowtow Cleave": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 85,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 10,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Flower Trick": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 10,
-    ".willCrit": true
-  },
-  "Torch Song": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 10,
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "SP_ATK_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Aqua Step": {
-    "flags": {
-      "makesContact": true,
-      "isDance": true,
-      "isKick": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Water",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isDance": true,
-    "secondaries": true,
-    "addEff": "SPD_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100,
-    "isKick": true
-  },
-  "Raging Bull": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "RAGING",
-    "bp": 90,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Make It Rain": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 5,
-    "target": "allAdjacentFoes",
-    "secondaries": true,
-    "addEff": "PAYDAY",
-    "effChance": 100
-  },
-  "Ruination": {
-    "flags": {},
-    "eff": "SUPER",
-    "bp": 1,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10
-  },
-  "Collision Course": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "COLLISION",
-    "bp": 100,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Electro Drift": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "COLLISION",
-    "bp": 100,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Shed Tail": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Chilly Reception": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Ice",
-    "acc": 0,
-    "pp": 10
-  },
-  "Tidy Up": {
-    "flags": {},
-    "eff": "TIDY",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Snowscape": {
-    "flags": {},
-    "eff": "SPD",
-    "bp": 0,
-    "type": "Ice",
-    "acc": 0,
-    "pp": 10
-  },
-  "Pounce": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Bug",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "SPD_MINUS_1",
-    "effChance": 100
-  },
-  "Trailblaze": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 20,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "SPD_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Chilling Water": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Water",
-    "acc": 100,
-    "pp": 20,
-    "secondaries": true,
-    "addEff": "ATK_MINUS_1",
-    "effChance": 100
-  },
-  "Hyper Drill": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true
-  },
-  "Twin Beam": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "multihit": [
-      2,
-      2
-    ]
-  },
-  "Rage Fist": {
-    "flags": {
-      "makesContact": true,
-      "isPunch": true
-    },
-    "eff": "RAGE",
-    "bp": 50,
-    "type": "Ghost",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true,
-    "isPunch": true
-  },
-  "Armor Cannon": {
-    "flags": {
-      "isPulse": true
-    },
-    "eff": "HIT",
-    "bp": 120,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 5,
-    "isPulse": true,
-    "secondaries": true,
-    "addEff": "DEF_SPDEF_DOWN",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Bitter Blade": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true,
-      "isHealing": true
-    },
-    "eff": "ABSORB",
-    "bp": 90,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 10,
-    "drain": [
-      50,
-      100
-    ],
-    "makesContact": true,
-    "isSword": true,
-    "isHealing": true
-  },
-  "Double Shock": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "FAIL",
-    "bp": 120,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "REMOVE_ARG_TYPE",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Gigaton Hammer": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 160,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 5
-  },
-  "Comeuppance": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "METAL",
-    "bp": 1,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Aqua Cutter": {
-    "flags": {
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 70,
-    "type": "Water",
-    "acc": 100,
-    "crit_stage": 1,
-    "pp": 20,
-    "isSword": true
-  },
-  "Blazing Torque": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 30
-  },
-  "Wicked Torque": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Dark",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SLEEP",
-    "effChance": 10
-  },
-  "Noxious Torque": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "POISON",
-    "effChance": 30
-  },
-  "Combat Torque": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 30
-  },
-  "Magical Torque": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 30
-  },
-  "Psyblade": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "PSYBLADE",
-    "bp": 80,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 15,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Hydro Steam": {
-    "flags": {},
-    "eff": "HYDRO",
-    "bp": 80,
-    "type": "Water",
-    "acc": 100,
-    "pp": 15
-  },
-  "Blood Moon": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 140,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5
-  },
-  "Matcha Gotcha": {
-    "flags": {},
-    "eff": "ABSORB",
-    "bp": 80,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 15,
-    "target": "allAdjacentFoes",
-    "drain": [
-      50,
-      100
-    ],
-    "secondaries": true,
-    "addEff": "BURN",
-    "effChance": 20
-  },
-  "Syrup Bomb": {
-    "flags": {
-      "isBullet": true,
-      "isBallistic": true
-    },
-    "eff": "HIT",
-    "bp": 60,
-    "type": "Grass",
-    "acc": 85,
-    "pp": 10,
-    "isBullet": true,
-    "isBallistic": true,
-    "secondaries": true,
-    "addEff": "SYRUP_BOMB",
-    "effChance": 100
-  },
-  "Ivy Cudgel": {
-    "flags": {},
-    "eff": "IVY",
-    "bp": 100,
-    "type": "Grass",
-    "acc": 100,
-    "pp": 10,
-    "crit_stage": 1
-  },
-  "Electro Shot": {
-    "flags": {},
-    "eff": "TWO",
-    "bp": 130,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 10,
-    "secondaries": true,
-    "addEff": "SP_ATK_PLUS_1",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Tera Starstorm": {
-    "flags": {},
-    "eff": "TERA",
-    "bp": 120,
-    "type": "Normal",
-    "acc": 100,
-    "pp": 5
-  },
-  "Fickle Beam": {
-    "flags": {},
-    "eff": "FICKLE",
-    "bp": 80,
-    "type": "Dragon",
-    "acc": 100,
-    "pp": 5
-  },
-  "Burning Bulwark": {
-    "flags": {},
-    "eff": "RESET",
-    "bp": 0,
-    "type": "Fire",
-    "acc": 0,
-    "pp": 5,
-    "priority": 4
-  },
-  "Thunderclap": {
-    "flags": {},
-    "eff": "SUCKER",
-    "bp": 70,
-    "type": "Electric",
-    "acc": 100,
-    "pp": 5,
-    "priority": 1
-  },
-  "Mighty Cleave": {
-    "flags": {
-      "makesContact": true,
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 90,
-    "type": "Rock",
-    "acc": 100,
-    "pp": 5,
-    "makesContact": true,
-    "isSword": true
-  },
-  "Tachyon Cutter": {
-    "flags": {
-      "isSword": true
-    },
-    "eff": "HIT",
-    "bp": 50,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 10,
-    "multihit": [
-      2,
-      2
-    ],
-    "isSword": true
-  },
-  "Hard Press": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "POWER",
-    "bp": 100,
-    "type": "Steel",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Dragon Cheer": {
-    "flags": {},
-    "eff": "DRAGON",
-    "bp": 0,
-    "type": "Dragon",
-    "acc": 0,
-    "pp": 15
-  },
-  "Alluring Voice": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 80,
-    "type": "Fairy",
-    "acc": 100,
-    "pp": 10,
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "CONFUSION",
-    "effChance": 100
-  },
-  "Temper Flare": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "STOMPING",
-    "bp": 75,
-    "type": "Fire",
-    "acc": 100,
-    "pp": 10,
-    "makesContact": true
-  },
-  "Supercell Slam": {
-    "flags": {
-      "makesContact": true
-    },
-    "eff": "RECOIL",
-    "bp": 120,
-    "type": "Electric",
-    "acc": 95,
-    "pp": 15,
-    "makesContact": true
-  },
-  "Psychic Noise": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "UPPER",
-    "bp": 75,
-    "type": "Psychic",
-    "acc": 100,
-    "pp": 10,
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "PSYCHIC_NOISE",
-    "effChance": 100
-  },
-  "Upper Hand": {
-    "flags": {
-      "makesContact": true
-    },
-    "bp": 65,
-    "type": "Fighting",
-    "acc": 100,
-    "pp": 15,
-    "priority": 3,
-    "makesContact": true,
-    "secondaries": true,
-    "addEff": "FLINCH",
-    "effChance": 100
-  },
-  "Malignant Chain": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 100,
-    "type": "Poison",
-    "acc": 100,
-    "pp": 5,
-    "secondaries": true,
-    "addEff": "TOXIC",
-    "effChance": 50
-  },
-  "Breakneck Blitz": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 1
-  },
-  "All Out Pummeling": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 1
-  },
-  "Supersonic Skystrike": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Flying",
-    "acc": 0,
-    "pp": 1
-  },
-  "Acid Downpour": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Poison",
-    "acc": 0,
-    "pp": 1
-  },
-  "Tectonic Rage": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Ground",
-    "acc": 0,
-    "pp": 1
-  },
-  "Continental Crush": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Rock",
-    "acc": 0,
-    "pp": 1
-  },
-  "Savage Spin Out": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 1
-  },
-  "Never Ending Nightmare": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Ghost",
-    "acc": 0,
-    "pp": 1
-  },
-  "Corkscrew Crash": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 1
-  },
-  "Inferno Overdrive": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Fire",
-    "acc": 0,
-    "pp": 1
-  },
-  "Hydro Vortex": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Water",
-    "acc": 0,
-    "pp": 1
-  },
-  "Bloom Doom": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 1
-  },
-  "Gigavolt Havoc": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 1
-  },
-  "Shattered Psyche": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 1
-  },
-  "Subzero Slammer": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Ice",
-    "acc": 0,
-    "pp": 1
-  },
-  "Devastating Drake": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Dragon",
-    "acc": 0,
-    "pp": 1
-  },
-  "Black Hole Eclipse": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 1
-  },
-  "Twinkle Tackle": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 1,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 1
-  },
-  "Catastropika": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 210,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 1
-  },
-  "10,000,000 Volt Thunderbolt": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 195,
-    "type": "Electric",
-    "acc": 0,
-    "crit_stage": 2,
-    "pp": 1
-  },
-  "Stoked Sparksurfer": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 175,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 1,
-    "secondaries": true,
-    "addEff": "PARALYSIS",
-    "effChance": 100
-  },
-  "Extreme Evoboost": {
-    "flags": {},
-    "eff": "EXTREME",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 1
-  },
-  "Pulverizing Pancake": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 210,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 1
-  },
-  "Genesis Supernova": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 185,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 1
-  },
-  "Sinister Arrow Raid": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 180,
-    "type": "Ghost",
-    "acc": 0,
-    "pp": 1
-  },
-  "Malicious Moonsault": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 180,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 1
-  },
-  "Oceanic Operetta": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 195,
-    "type": "Water",
-    "acc": 0,
-    "pp": 1
-  },
-  "Splintered Stormshards": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 190,
-    "type": "Rock",
-    "acc": 0,
-    "pp": 1
-  },
-  "Let's Snuggle Forever": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 190,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 1
-  },
-  "Clangorous Soulblaze": {
-    "flags": {
-      "isSound": true
-    },
-    "eff": "HIT",
-    "bp": 185,
-    "type": "Dragon",
-    "acc": 0,
-    "pp": 1,
-    "target": "allAdjacentFoes",
-    "isSound": true,
-    "secondaries": true,
-    "addEff": "ALL_STATS_UP",
-    "addEffTarget": "self",
-    "effChance": 100
-  },
-  "Guardian of Alola": {
-    "flags": {},
-    "eff": "GUARDIAN",
-    "bp": 1,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 1
-  },
-  "Searing Sunraze Smash": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 200,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 1
-  },
-  "Menacing Moonraze Maelstrom": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 200,
-    "type": "Ghost",
-    "acc": 0,
-    "pp": 1
-  },
-  "Light That Burns The Sky": {
-    "flags": {},
-    "eff": "PHOTON",
-    "bp": 200,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 1
-  },
-  "Soul Stealing 7 Star Strike": {
-    "flags": {},
-    "eff": "HIT",
-    "bp": 195,
-    "type": "Ghost",
-    "acc": 0,
-    "pp": 1
-  },
-  "Max Guard": {
-    "flags": {},
-    "eff": "PROTECT",
-    "bp": 0,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10,
-    "priority": 4
-  },
-  "Max Flare": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Fire",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Flutterby": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Lightning": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Strike": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Knuckle": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Phantasm": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Ghost",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Hailstorm": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Ice",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Ooze": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Poison",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Geyser": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Water",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Airstream": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Flying",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Starfall": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Wyrmwind": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Dragon",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Mindstorm": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Rockfall": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Rock",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Quake": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Ground",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Darkness": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 1,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Overgrowth": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 10
-  },
-  "Max Steelspike": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Vine Lash": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Wildfire": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Fire",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Canonade": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Water",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Befuddle": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Bug",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Volt Crash": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Gold Rush": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Chi Strike": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Fighting",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Terror": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Ghost",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Foam Burst": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Water",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Resonance": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Ice",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Cuddle": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Replenish": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Normal",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Malodor": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Poison",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Meltdown": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Drum Solo": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Fireball": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Fire",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Hydrosnipe": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Water",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Wind Rage": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Flying",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Gravitas": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Psychic",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Stonesurge": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Water",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Volcalith": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Rock",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Tartness": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Sweetness": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Grass",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Sandblast": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Ground",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Stun Shock": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Electric",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Centiferno": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Fire",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Smite": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Snooze": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Finale": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Fairy",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Steelsurge": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Steel",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Depletion": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Dragon",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max One Blow": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Dark",
-    "acc": 0,
-    "pp": 10
-  },
-  "G-Max Rapid Flow": {
-    "flags": {},
-    "eff": "MAX",
-    "bp": 10,
-    "type": "Water",
-    "acc": 0,
-    "pp": 10
   }
 }

@@ -4,7 +4,8 @@
     const BATTLE_LOG_SYNC_MAX_ATTEMPTS = 6;
     const BATTLE_LOG_SYNC_BASE_RETRY_MS = 400;
     const BATTLE_LOG_PACKED_MAGIC = "NBL1";
-    const BATTLE_LOG_PACKED_VERSION = 1;
+    const BATTLE_LOG_PACKED_MIN_VERSION = 1;
+    const BATTLE_LOG_PACKED_MAX_VERSION = 2;
     let lastRenderedBattleLogRaw = null;
     let lastRenderedCustomLeadsRaw = null;
     let syncBattleLogsInFlight = false;
@@ -32,8 +33,18 @@
         return String(value ?? "").replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
     }
 
+    function toBattleSpriteSlug(value) {
+        const raw = String(value ?? "").toLowerCase();
+        return raw
+            .replace(/[\s_.-]+/g, "-")
+            .replace(/[^a-z0-9-]/g, "")
+            .replace(/-+/g, "-")
+            .replace(/^-|-$/g, "");
+    }
+
     function spritePath(species) {
-        return `./img/pokesprite/${safeCleanString(species)}.png`;
+        const slug = toBattleSpriteSlug(species) || safeCleanString(species);
+        return `./img/pokesprite/${slug}.png`;
     }
 
     function getBattleLogMoveDisplayName(moveName) {
@@ -65,8 +76,35 @@
         }
     }
 
-    function isBattleLogEnabledForTitle() {
-        return typeof window.TITLE === "string" && ["Pokemon Null", "Emerald Imperium 1.3"].includes(window.TITLE);
+    function getCurrentTitle() {
+        return typeof window.TITLE === "string" ? window.TITLE : "";
+    }
+
+    function cleanSpeciesKey(speciesName) {
+        return String(speciesName || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+    }
+
+    function formatImperiumItemName(rawName) {
+        if (!rawName) return "";
+        const raw = String(rawName || "");
+        if (!raw || raw === "NONE") return "";
+
+        if (typeof window.itemTitleize === "function") {
+            try {
+                const titleized = window.itemTitleize(raw);
+                if (typeof titleized === "string" && titleized.trim()) {
+                    return titleized.trim();
+                }
+            } catch (_err) {
+            }
+        }
+
+        return raw
+            .toLowerCase()
+            .split(/[_\s-]+/)
+            .map((part) => (part ? (part.charAt(0).toUpperCase() + part.slice(1)) : ""))
+            .join(" ")
+            .trim();
     }
 
     function applyBattleLogTabVisibility() {
@@ -163,10 +201,134 @@
         return "Unknown";
     }
 
+    function resolveImperiumAbilityNameForBattleLog(speciesId, abilitySlot) {
+        const speciesList = Array.isArray(window.emImpMons) ? window.emImpMons : [];
+        const primaryAbilitiesBySpecies = (window.abilsPrimary && typeof window.abilsPrimary === "object") ? window.abilsPrimary : null;
+        const fallbackAbilitiesBySpecies = (window.abils && typeof window.abils === "object") ? window.abils : null;
+        const speciesName = (speciesId >= 0 && speciesId < speciesList.length) ? speciesList[speciesId] : null;
+        if (!speciesName || speciesName === "None") return "Unknown";
+
+        function resolveAbilityListFromMap(abilityMap) {
+            if (!abilityMap || typeof abilityMap !== "object") return null;
+            let list = abilityMap[speciesName];
+            if (Array.isArray(list)) return list;
+            const speciesKey = cleanSpeciesKey(speciesName);
+            for (const abilitySpecies in abilityMap) {
+                if (!Object.prototype.hasOwnProperty.call(abilityMap, abilitySpecies)) continue;
+                if (cleanSpeciesKey(abilitySpecies) === speciesKey) {
+                    list = abilityMap[abilitySpecies];
+                    break;
+                }
+            }
+            return Array.isArray(list) ? list : null;
+        }
+
+        let abilities = resolveAbilityListFromMap(primaryAbilitiesBySpecies);
+        if (!Array.isArray(abilities)) {
+            abilities = resolveAbilityListFromMap(fallbackAbilitiesBySpecies);
+        }
+        if (!Array.isArray(abilities)) return "Unknown";
+
+        const normalizedSlot = (Number.isInteger(abilitySlot) && abilitySlot >= 0 && abilitySlot <= 3) ? abilitySlot : 0;
+        const preferredIndexes = (normalizedSlot === 0)
+            ? [0, 1, 2]
+            : (normalizedSlot === 1)
+                ? [1, 0, 2]
+                : [2, 0, 1];
+
+        for (let i = 0; i < preferredIndexes.length; i += 1) {
+            const ability = abilities[preferredIndexes[i]];
+            if (ability && ability !== "-" && ability !== "None") {
+                return ability;
+            }
+        }
+        for (let i = 0; i < abilities.length; i += 1) {
+            const fallback = abilities[i];
+            if (fallback && fallback !== "-" && fallback !== "None") {
+                return fallback;
+            }
+        }
+        return "Unknown";
+    }
+
+    function getNullEnumList(kind) {
+        if (kind === "species" && Array.isArray(window.nullMons)) {
+            return ["", ...window.nullMons];
+        }
+        if (kind === "move" && Array.isArray(window.nullMoves)) {
+            return window.nullMoves;
+        }
+        if (kind === "item" && Array.isArray(window.nullItems)) {
+            return ["None", ...window.nullItems];
+        }
+        return null;
+    }
+
+    function getImperiumEnumList(kind) {
+        if (kind === "species" && Array.isArray(window.emImpMons)) {
+            return window.emImpMons;
+        }
+        if (kind === "move" && Array.isArray(window.pokeemeraldMoves)) {
+            return window.pokeemeraldMoves;
+        }
+        if (kind === "item" && Array.isArray(window.emImpItems)) {
+            return window.emImpItems.map((raw, idx) => {
+                if (idx === 0) return "None";
+                const formatted = formatImperiumItemName(raw);
+                return formatted || "None";
+            });
+        }
+        return null;
+    }
+
+    const BATTLE_LOG_ROM_ADAPTERS = [
+        {
+            id: "null",
+            matchesTitle: (title) => title === "Pokemon Null",
+            enabled: true,
+            getEnumList: getNullEnumList,
+            getNatureList: () => Array.isArray(window.nullNatures) ? window.nullNatures : [],
+            resolveAbilityName: resolveNullAbilityNameForBattleLog,
+        },
+        {
+            id: "emerald-imperium",
+            matchesTitle: (title) => typeof title === "string" && title.includes("Emerald Imperium"),
+            enabled: true,
+            getEnumList: getImperiumEnumList,
+            getNatureList: () => Array.isArray(window.natures) ? window.natures : [],
+            resolveAbilityName: resolveImperiumAbilityNameForBattleLog,
+        },
+    ];
+
+    function getActiveBattleLogRomAdapter() {
+        const title = getCurrentTitle();
+        for (let i = 0; i < BATTLE_LOG_ROM_ADAPTERS.length; i += 1) {
+            const adapter = BATTLE_LOG_ROM_ADAPTERS[i];
+            if (adapter && typeof adapter.matchesTitle === "function" && adapter.matchesTitle(title)) {
+                return adapter;
+            }
+        }
+        return null;
+    }
+
+    function logActiveBattleLogRomAdapter(contextLabel) {
+        const adapter = getActiveBattleLogRomAdapter();
+        const adapterId = adapter && adapter.id ? adapter.id : "none";
+        const title = getCurrentTitle() || "(empty)";
+        const context = contextLabel ? String(contextLabel) : "runtime";
+        console.log(`[battle_log] adapter=${adapterId} title="${title}" context=${context}`);
+    }
+
+    function isBattleLogEnabledForTitle() {
+        const adapter = getActiveBattleLogRomAdapter();
+        return !!(adapter && adapter.enabled);
+    }
+
     function decodePackedBattleLogPayload(payloadBytes) {
         const bytes = payloadBytes instanceof Uint8Array
             ? payloadBytes
             : new Uint8Array(payloadBytes || new ArrayBuffer(0));
+        const romAdapter = getActiveBattleLogRomAdapter();
 
         if (bytes.length < 5) {
             throw new Error("Packed /battle_log payload too short");
@@ -177,11 +339,16 @@
             throw new Error(`Invalid /battle_log magic: ${magic}`);
         }
         const version = bytes[4];
-        if (version !== BATTLE_LOG_PACKED_VERSION) {
+        if (version < BATTLE_LOG_PACKED_MIN_VERSION || version > BATTLE_LOG_PACKED_MAX_VERSION) {
             throw new Error(`Unsupported /battle_log packed version: ${version}`);
         }
 
-        const natureList = Array.isArray(window.nullNatures) ? window.nullNatures : [];
+        const natureList = (romAdapter && typeof romAdapter.getNatureList === "function")
+            ? (romAdapter.getNatureList() || [])
+            : [];
+        const resolveAbilityName = (romAdapter && typeof romAdapter.resolveAbilityName === "function")
+            ? romAdapter.resolveAbilityName
+            : (() => "Unknown");
         const totalBits = bytes.length * 8;
         let bitPos = 40;
         const events = [];
@@ -211,12 +378,15 @@
         while (bitsRemaining() >= 2) {
             const eventType = readBits(2);
             if (eventType === 0) {
-                if (bitsRemaining() < (16 + 16 + 3)) {
+                const hasPartyHighestLevel = version >= 2;
+                const sessionStartExtraBits = hasPartyHighestLevel ? 7 : 0;
+                if (bitsRemaining() < (16 + 16 + 3 + sessionStartExtraBits)) {
                     break;
                 }
                 const enemyTrainerIdA = readBits(16);
                 const enemyTrainerIdB = readBits(16);
                 let partyCount = readBits(3);
+                const pPartyHighestLevel = hasPartyHighestLevel ? readBits(7) : null;
                 if (partyCount > 6) {
                     partyCount = 6;
                 }
@@ -238,7 +408,7 @@
                     const natureName = (natureId >= 0 && natureId < natureList.length && natureList[natureId])
                         ? natureList[natureId]
                         : "Hardy";
-                    const abilityName = resolveNullAbilityNameForBattleLog(species, abilitySlot);
+                    const abilityName = resolveAbilityName(species, abilitySlot);
                     party.push({
                         species,
                         ability: abilityName,
@@ -256,6 +426,7 @@
                     type: "session_start",
                     enemyTrainerIdA: enemyTrainerIdA === 0xFFFF ? null : enemyTrainerIdA,
                     enemyTrainerIdB: enemyTrainerIdB === 0xFFFF ? null : enemyTrainerIdB,
+                    pPartyHighestLevel: Number.isFinite(pPartyHighestLevel) ? pPartyHighestLevel : null,
                     pParty: party,
                 });
             } else if (eventType === 1) {
@@ -294,6 +465,7 @@
         if (syncBattleLogsInFlight) {
             return;
         }
+        logActiveBattleLogRomAdapter("sync");
         syncBattleLogsInFlight = true;
         setBattleLogUploadStatus("Syncing...", false);
         try {
@@ -340,29 +512,12 @@
         }
     }
 
-    function getNullEnumList(kind) {
-        if (typeof window.TITLE !== "string" || window.TITLE !== "Pokemon Null") {
-            return null;
-        }
-
-        if (kind === "species" && Array.isArray(window.nullMons)) {
-            // Null species IDs are 1-based in nullMons, so pad index 0.
-            return ["", ...window.nullMons];
-        }
-        if (kind === "move" && Array.isArray(window.nullMoves)) {
-            return window.nullMoves;
-        }
-        if (kind === "item" && Array.isArray(window.nullItems)) {
-            // Null item IDs are 1-based in nullItems, so pad index 0.
-            return ["None", ...window.nullItems];
-        }
-
-        return null;
-    }
-
     function getEnumList(kind) {
-        const nullEnumList = getNullEnumList(kind);
-        if (nullEnumList) return nullEnumList;
+        const adapter = getActiveBattleLogRomAdapter();
+        if (adapter && typeof adapter.getEnumList === "function") {
+            const adapterEnumList = adapter.getEnumList(kind);
+            if (adapterEnumList) return adapterEnumList;
+        }
 
         if (kind === "species" && Array.isArray(window.sav_pok_names)) return window.sav_pok_names;
         if (kind === "move" && Array.isArray(window.sav_move_names)) return window.sav_move_names;
@@ -606,8 +761,7 @@
         return parsed;
     }
 
-    function getBattleLogTrainerSplitIndex(trainerId) {
-        const level = tryParseTrainerLeadLevel(trainerId);
+    function getBattleLogSplitIndexForLevel(level) {
         if (!Number.isFinite(level)) return null;
         if (typeof window.TITLE !== "string" || !window.TITLE) return null;
         if (!window.splitData || !window.splitData[window.TITLE]) return null;
@@ -636,8 +790,43 @@
         return splitIndex;
     }
 
-    function getBattleLogTrainerSplitTypeClass(trainerId) {
-        const splitIndex = getBattleLogTrainerSplitIndex(trainerId);
+    function getSessionPartyHighestLevel(session) {
+        const start = session && session.start;
+        if (!start || typeof start !== "object") {
+            return null;
+        }
+
+        const direct = Number(start.pPartyHighestLevel);
+        if (Number.isFinite(direct) && direct > 0) {
+            return direct;
+        }
+
+        const party = Array.isArray(start.pParty) ? start.pParty : [];
+        let highest = 0;
+        party.forEach((mon) => {
+            const level = Number(mon && mon.level);
+            if (Number.isFinite(level) && level > highest) {
+                highest = level;
+            }
+        });
+        return highest > 0 ? highest : null;
+    }
+
+    function getBattleLogSessionLevel(session) {
+        const sessionLevel = getSessionPartyHighestLevel(session);
+        if (Number.isFinite(sessionLevel) && sessionLevel > 0) {
+            return sessionLevel;
+        }
+        const trainerId = getSessionTrainerId(session);
+        return tryParseTrainerLeadLevel(trainerId);
+    }
+
+    function getBattleLogSessionSplitIndex(session) {
+        return getBattleLogSplitIndexForLevel(getBattleLogSessionLevel(session));
+    }
+
+    function getBattleLogSessionSplitTypeClass(session) {
+        const splitIndex = getBattleLogSessionSplitIndex(session);
         if (splitIndex == null) return "";
         if (typeof window.TITLE !== "string" || !window.TITLE) return "";
         if (!window.splitData || !window.splitData[window.TITLE]) return "";
@@ -892,15 +1081,16 @@
     function renderSession(session, index) {
         const trainerId = getSessionTrainerId(session);
         const trainerName = parseTrainerName(trainerId);
-        const splitTypeClass = getBattleLogTrainerSplitTypeClass(trainerId);
-        const pKoCount = session.events.filter((e) => e.type === "pKo").length;
+        const splitTypeClass = getBattleLogSessionSplitTypeClass(session);
         const aiKoCount = session.events.filter((e) => e.type === "aiKo").length;
+        const deathSummaryClass = aiKoCount > 0 ? "deaths" : "deathless";
+        const deathSummaryText = aiKoCount > 0 ? `${aiKoCount} Deaths` : "Deathless";
 
         return `
             <div class="battle-session" data-battle-index="${index}">
                 <div class="battle-session-header${splitTypeClass ? ` ${escHtml(splitTypeClass)}` : ""}" role="button" tabindex="0" aria-expanded="false">
                     <div class="battle-session-title">Vs ${escHtml(trainerName)}</div>
-                    <div class="battle-session-meta">${escHtml(`${pKoCount} pKo${aiKoCount ? ` - ${aiKoCount} aiKo` : ""}`)}</div>
+                    <div class="battle-session-meta ${deathSummaryClass}">${escHtml(deathSummaryText)}</div>
                 </div>
                 <div class="battle-session-body">
                     ${renderTeam(session)}
@@ -1010,7 +1200,7 @@
 
         const filteredSessions = sessions.filter((session) => {
             if (activeBattleLogSplitFilter === "all") return true;
-            const splitIndex = getBattleLogTrainerSplitIndex(getSessionTrainerId(session));
+            const splitIndex = getBattleLogSessionSplitIndex(session);
             return splitIndex != null && Number(splitIndex) === Number(activeBattleLogSplitFilter);
         });
 
@@ -1137,8 +1327,9 @@
 
     document.addEventListener("DOMContentLoaded", function () {
         bindUi();
+        logActiveBattleLogRomAdapter("DOMContentLoaded");
         applyBattleLogTabVisibility();
-        if (typeof window.TITLE === "string" && window.TITLE === "Pokemon Null") {
+        if (isBattleLogEnabledForTitle()) {
             setViewMode("battle-log");
         } else {
             setViewMode("fragsheet");
