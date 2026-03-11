@@ -232,7 +232,7 @@ function setGameSettings(title) {
     showAI = false;
     $('#sync-lua').show()
     $('label[for="snow"]').show()
-    $('label[for="hail"]').hide()
+    $('label[for="hail"]').show()
     $('#maxL').next().remove()
     $('#maxR').next().remove()
   } else if (title == "Sterling Silver") {
