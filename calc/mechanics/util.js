@@ -829,7 +829,7 @@ function getStatDescriptionText(gen, pokemon, stat, powerTrickActive, wonderRoom
 }
 exports.getStatDescriptionText = getStatDescriptionText;
 
-function handleFixedDamageMoves(attacker, move) {
+function handleFixedDamageMoves(attacker, move, defender=null) {
     if (move.named('Seismic Toss', 'Night Shade')) {
         return attacker.level;
     }
@@ -838,7 +838,7 @@ function handleFixedDamageMoves(attacker, move) {
     }
     else if (move.named('Sonic Boom')) {
         return 20;
-    }
+    } 
     return 0;
 }
 exports.handleFixedDamageMoves = handleFixedDamageMoves;

@@ -310,6 +310,10 @@ if (["Pokemon Null"].includes(TITLE)) {
             result.damage = attacker.curHP();
             return result;
         }
+        if (move.named('Super Fang')) {
+            result.damage = Math.floor(defender.curHP() / 2);
+            return result; 
+        }
         if (move.named('Guardian of Alola')) {
             var zLostHP = Math.floor((defender.curHP() * 3) / 4);
             if (field.defenderSide.isProtected && attacker.item && attacker.item.includes(' Z')) {

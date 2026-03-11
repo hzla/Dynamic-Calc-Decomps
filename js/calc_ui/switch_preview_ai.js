@@ -228,7 +228,7 @@ function postKoMatchupData(attackerVDefenderResults, defenderVAttackerResults) {
         }
 
         // 2hko means threatener, ignore explosion
-        if (damage[0] > attacker.originalCurHP / 2 && move.name != "Explosion") {
+        if (damage[0] >= attacker.originalCurHP / 2 && move.name != "Explosion") {
             isThreaten = true
 
             if (move.priority && defenderFastestKill >= 2) {
