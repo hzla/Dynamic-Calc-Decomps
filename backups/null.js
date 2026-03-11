@@ -24311,7 +24311,7 @@ backup_data = {
                     ],
                     [
                         59,
-                        "Temper Flare)"
+                        "Temper Flare"
                     ],
                     [
                         62,
@@ -121206,7 +121206,7 @@ backup_data = {
                     ],
                     [
                         41,
-                        "Dazzling Gleam)"
+                        "Dazzling Gleam"
                     ],
                     [
                         45,
@@ -121379,7 +121379,7 @@ backup_data = {
                     ],
                     [
                         41,
-                        "Dazzling Gleam)"
+                        "Dazzling Gleam"
                     ],
                     [
                         45,
@@ -121563,7 +121563,7 @@ backup_data = {
                     ],
                     [
                         41,
-                        "Dazzling Gleam)"
+                        "Dazzling Gleam"
                     ],
                     [
                         45,
@@ -170739,7 +170739,7 @@ backup_data = {
                     ],
                     [
                         41,
-                        "Dazzling Gleam)"
+                        "Dazzling Gleam"
                     ],
                     [
                         45,
@@ -199137,7 +199137,7 @@ backup_data = {
                 "slot": 1,
                 "ability": "Imposter"
             },
-            "Lvl 64 Cooltrainer Alexia (Confusion Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Alexia Confusion Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -206578,7 +206578,7 @@ backup_data = {
                 "ability": "Contrary",
                 "gender": "Male"
             },
-            "Lvl 64 Cooltrainer Alexia (Confusion Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Alexia Confusion Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -210723,7 +210723,7 @@ backup_data = {
                 "ability": "Triage",
                 "gender": "Male"
             },
-            "Lvl 64 Cooltrainer Dan (Grassy Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Dan Grassy Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -210807,7 +210807,7 @@ backup_data = {
                 "ability": "Dry Skin",
                 "gender": "Male"
             },
-            "Lvl 66 Cooltrainer Kya (Psychic Room) |Petalburg Gym|":
+            "Lvl 66 Cooltrainer Kya Psychic Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -215804,7 +215804,7 @@ backup_data = {
                 "ability": "Technician",
                 "gender": "Male"
             },
-            "Lvl 64 Cooltrainer Alexia (Confusion Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Alexia Confusion Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -220326,7 +220326,7 @@ backup_data = {
                 "ability": "Swarm",
                 "gender": "Male"
             },
-            "Lvl 64 Cooltrainer Emmie (Offense Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Emmie Offense Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -224961,7 +224961,7 @@ backup_data = {
                 "ability": "Technician",
                 "gender": "Male"
             },
-            "Lvl 66 Pokémaniac Shinji (Inverse Room) |Petalburg Gym|":
+            "Lvl 66 Pokémaniac Shinji Inverse Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -227147,7 +227147,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "gender": "Male"
             },
-            "Lvl 64 Cooltrainer Brian (Crit Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Brian Crit Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -228823,7 +228823,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "gender": "Female"
             },
-            "Lvl 65 Cooltrainer George (Pass Room) |Petalburg Gym|":
+            "Lvl 65 Cooltrainer George Pass Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -230037,7 +230037,7 @@ backup_data = {
                 "ability": "Unnerve",
                 "gender": "Male"
             },
-            "Lvl 65 Cooltrainer Alexia (Confusion Room) |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Alexia Confusion Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -233891,7 +233891,7 @@ backup_data = {
         },
         "Cyclizar":
         {
-            "Lvl 64 Cooltrainer Emmie (Offense Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Emmie Offense Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -233946,7 +233946,7 @@ backup_data = {
         },
         "Bewear":
         {
-            "Lvl 64 Cooltrainer Emmie (Offense Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Emmie Offense Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234003,7 +234003,7 @@ backup_data = {
         },
         "Staraptor":
         {
-            "Lvl 65 Cooltrainer Emmie (Offense Room) |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Emmie Offense Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234060,7 +234060,7 @@ backup_data = {
         },
         "Greedent":
         {
-            "Lvl 64 Cooltrainer Lauren (Defense Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Lauren Defense Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234090,7 +234090,7 @@ backup_data = {
         },
         "Mudsdale":
         {
-            "Lvl 64 Cooltrainer Lauren (Defense Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Lauren Defense Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234174,7 +234174,7 @@ backup_data = {
         },
         "Dubwool":
         {
-            "Lvl 64 Cooltrainer Lauren (Defense Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Lauren Defense Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234204,7 +234204,7 @@ backup_data = {
         },
         "Braviary":
         {
-            "Lvl 65 Cooltrainer Lauren (Defense Room) |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Lauren Defense Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234261,7 +234261,7 @@ backup_data = {
         },
         "Unfezant":
         {
-            "Lvl 64 Cooltrainer Brian (Crit Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Brian Crit Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234291,7 +234291,7 @@ backup_data = {
         },
         "Snorlax":
         {
-            "Lvl 64 Cooltrainer Brian (Crit Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Brian Crit Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234348,7 +234348,7 @@ backup_data = {
         },
         "Decidueye-Hisui":
         {
-            "Lvl 65 Cooltrainer Brian (Crit Room) |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Brian Crit Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234405,7 +234405,7 @@ backup_data = {
         },
         "Drapion":
         {
-            "Lvl 64 Cooltrainer Brian (Crit Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Brian Crit Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234462,7 +234462,7 @@ backup_data = {
         },
         "Pecharunt":
         {
-            "Lvl 64 Cooltrainer Alexia (Confusion Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Alexia Confusion Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234491,7 +234491,7 @@ backup_data = {
         },
         "Ninjask":
         {
-            "Lvl 64 Cooltrainer George (Pass Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer George Pass Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234548,7 +234548,7 @@ backup_data = {
         },
         "Exploud":
         {
-            "Lvl 64 Cooltrainer George (Pass Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer George Pass Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234632,7 +234632,7 @@ backup_data = {
         },
         "Bouffalant":
         {
-            "Lvl 64 Cooltrainer George (Pass Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer George Pass Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234689,7 +234689,7 @@ backup_data = {
         },
         "Drampa":
         {
-            "Lvl 64 Cooltrainer George (Pass Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer George Pass Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234773,7 +234773,7 @@ backup_data = {
         },
         "Rillaboom":
         {
-            "Lvl 65 Cooltrainer Dan (Grassy Room) |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Dan Grassy Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234857,7 +234857,7 @@ backup_data = {
         },
         "Miltank":
         {
-            "Lvl 64 Cooltrainer Dan (Grassy Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Dan Grassy Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234887,7 +234887,7 @@ backup_data = {
         },
         "Meloetta":
         {
-            "Lvl 65 Cooltrainer Dan (Grassy Room) |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Dan Grassy Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234913,7 +234913,7 @@ backup_data = {
                 "tr_id": 91,
                 "ability": "Serene Grace"
             },
-            "Lvl 64 Cooltrainer Kya (Psychic Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Kya Psychic Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234968,7 +234968,7 @@ backup_data = {
         },
         "Toucannon":
         {
-            "Lvl 66 Cooltrainer Dan (Grassy Room) |Petalburg Gym|":
+            "Lvl 66 Cooltrainer Dan Grassy Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235052,7 +235052,7 @@ backup_data = {
         },
         "Indeedee":
         {
-            "Lvl 65 Cooltrainer Kya (Psychic Room) |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Kya Psychic Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235082,7 +235082,7 @@ backup_data = {
         },
         "Bisharp":
         {
-            "Lvl 65 Cooltrainer Kya (Psychic Room) |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Kya Psychic Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235112,7 +235112,7 @@ backup_data = {
         },
         "Delphox":
         {
-            "Lvl 64 Cooltrainer Kya (Psychic Room) |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Kya Psychic Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235251,7 +235251,7 @@ backup_data = {
         },
         "Terapagos":
         {
-            "Lvl 64 Pokémaniac Shinji (Inverse Room) |Petalburg Gym|":
+            "Lvl 64 Pokémaniac Shinji Inverse Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235308,7 +235308,7 @@ backup_data = {
         },
         "Porygon-Z":
         {
-            "Lvl 64 Pokémaniac Shinji (Inverse Room) |Petalburg Gym|":
+            "Lvl 64 Pokémaniac Shinji Inverse Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235363,7 +235363,7 @@ backup_data = {
         },
         "Squawkabilly":
         {
-            "Lvl 66 Pokémaniac Shinji (Inverse Room) |Petalburg Gym|":
+            "Lvl 66 Pokémaniac Shinji Inverse Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235393,7 +235393,7 @@ backup_data = {
         },
         "Malamar":
         {
-            "Lvl 65 Pokémaniac Shinji (Inverse Room) |Petalburg Gym|":
+            "Lvl 65 Pokémaniac Shinji Inverse Room |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -257868,7 +257868,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "tr_id": 813,
-                "ability": "As One (Glastrier)"
+                "ability": "As One Glastrier"
             }
         },
         "Arceus-Bug":
@@ -258354,7 +258354,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "tr_id": 258,
-                "ability": "As One (Spectrier)"
+                "ability": "As One Spectrier"
             }
         },
         "Silvally-Fairy":
