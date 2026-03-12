@@ -74,6 +74,7 @@ function get_trainer_poks(trainer_name)
         partner_white_space = ""
     }
 
+
     for (i in TR_NAMES) {
 
         if (TR_NAMES[i].includes(og_trainer_name + og_white_space) || ((TR_NAMES[i].includes(partnerName + partner_white_space)))) {

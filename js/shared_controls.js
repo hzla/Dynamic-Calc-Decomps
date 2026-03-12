@@ -455,9 +455,6 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 		backup_move = backup_moves[moveName] || backup_moves[cleanString(moveName)]
 	}
 
-	console.log(moveName)
-
-
 	if (ppObj && moveName != "(No Move)" && typeof backup_move != "undefined") {
 		if (isPlayer) {
 			ppObj.val(backup_move.pp	)
@@ -823,6 +820,9 @@ $(".set-selector").change(function () {
 
 
 	} else {
+		if (typeof partnerName != "undefined" && partnerName && CURRENT_TRAINER_POKS && CURRENT_TRAINER_POKS[0]) {
+			CURRENT_TRAINER_POKS = get_trainer_poks($('#p2 .set-selector .select2-chosen').text())
+		}
 		var left_max_hp = $("#p1 .max-hp").text()		
 		$("#p1 .current-hp").val(left_max_hp)//.change()
 	}

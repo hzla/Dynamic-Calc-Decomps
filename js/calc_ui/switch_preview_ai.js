@@ -570,9 +570,6 @@ function get_next_in() {
 
             matchup = postKoMatchupData(player_results, results)
 
-            if (!trainer_poks[subIndex]) {
-                console.log("wtf")
-            }
             matchup["type_matchup"] = type_matchup
 
             matchup.move = matchup.move.replace("Hidden Power", "HP")

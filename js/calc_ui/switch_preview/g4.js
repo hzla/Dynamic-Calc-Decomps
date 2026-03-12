@@ -88,7 +88,7 @@ function get_next_in_g4() {
 
     // get mons with SE moves and sort by type matchup and trainer order
     var se_mons = []
-    var se_indexes = []
+    var se_mon_ids = []
 
     // Exact internal stale score source for the Gen 4 bug:
     // among mons that fail Phase 1, keep the lowest exact 40-based Phase 1 score,
@@ -206,7 +206,7 @@ function get_next_in_g4() {
 
             if (isSE && !full_immune) {
                 se_mons.push([trainer_poks[i], 0, "", sub_index, pok_data["moves"], effectiveness])
-                se_indexes.push(sub_index)
+                se_mon_ids.push(trainer_poks[i])
                 added_to_se_bucket = true
                 break
             }
@@ -241,7 +241,7 @@ function get_next_in_g4() {
         var pok_data = SETDEX_BW[pok_name][tr_name]
         var sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
 
-        if (se_indexes.includes(sub_index)) {
+        if (se_mon_ids.includes(trainer_poks[i])) {
             continue
         }
 
