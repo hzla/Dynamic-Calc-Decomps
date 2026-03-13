@@ -244,7 +244,7 @@ if (["Pokemon Null"].includes(TITLE)) {
             (move.named('Poltergeist') && !defender.item)) {
             return result;
         }
-        if ((field.hasWeather('Harsh Sunshine') && move.hasType('Water')) ||
+        if ((field.hasWeather('Harsh Sunshine') && move.hasType('Water') && !move.named('Hydro Steam')) ||
             (field.hasWeather('Heavy Rain') && move.hasType('Fire'))) {
             desc.weather = field.weather;
             return result;
@@ -377,7 +377,11 @@ if (["Pokemon Null"].includes(TITLE)) {
             baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 1024) / 4096);
         }
         var noWeatherBoost = defender.hasItem('Utility Umbrella');
-        if (!noWeatherBoost &&
+        if (field.hasWeather('Sun') && move.named('Hydro Steam') && !attacker.hasItem('Utility Umbrella')) {
+            baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 6144) / 4096);
+            desc.weather = field.weather;
+        }
+        else if (!noWeatherBoost &&
             ((field.hasWeather('Sun', 'Harsh Sunshine') && move.hasType('Fire')) ||
                 (field.hasWeather('Rain', 'Heavy Rain') && move.hasType('Water')))) {
             baseDamage = (0, util_2.pokeRound)((0, util_2.OF32)(baseDamage * 6144) / 4096);
