@@ -7585,7 +7585,7 @@ backup_data = {
                 "nature": "Mild",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "HP Poison",
                     "Self-Destruct",
                     "Psybeam"
@@ -7617,7 +7617,7 @@ backup_data = {
                 "nature": "Mild",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "HP Poison",
                     "Self-Destruct",
                     "Psybeam"
@@ -7684,7 +7684,7 @@ backup_data = {
                     "Tackle",
                     "Smog",
                     "HP Poison",
-                    "SmokeScreen"
+                    "Smokescreen"
                 ],
                 "sub_index": 1,
                 "ability": "Levitate",
@@ -8161,7 +8161,7 @@ backup_data = {
                 "nature": "Sassy",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "HP Poison",
                     "Self-Destruct",
                     "Psybeam"
@@ -8193,7 +8193,7 @@ backup_data = {
                 "nature": "Sassy",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "HP Poison",
                     "Self-Destruct",
                     "Psybeam"
@@ -8260,7 +8260,7 @@ backup_data = {
                 "nature": "Impish",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Feint Attack",
                     "Fire Punch",
                     "HP Electric"
@@ -8612,7 +8612,7 @@ backup_data = {
                 "nature": "Relaxed",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Feint Attack",
                     "Fire Punch",
                     "HP Electric"
@@ -9193,7 +9193,7 @@ backup_data = {
                 [
                     "Sludge Bomb",
                     "Double Hit",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance"
                 ],
                 "sub_index": 1,
@@ -9225,7 +9225,7 @@ backup_data = {
                 [
                     "Sludge Bomb",
                     "Double Hit",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Assurance"
                 ],
                 "sub_index": 1,
@@ -9257,7 +9257,7 @@ backup_data = {
                 [
                     "Sludge Bomb",
                     "Double Hit",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Thunder"
                 ],
                 "sub_index": 1,
@@ -21978,7 +21978,7 @@ backup_data = {
                 "moves":
                 [
                     "Close Combat",
-                    "HeadlongRush",
+                    "Headlong Rush",
                     "Stone Edge",
                     "Explosion"
                 ],
@@ -23182,7 +23182,7 @@ backup_data = {
                     "Stone Edge",
                     "Fire Punch",
                     "Dragon Rush",
-                    "HeadlongRush"
+                    "Headlong Rush"
                 ],
                 "sub_index": 2,
                 "ability": "Rock Head",
@@ -28316,7 +28316,7 @@ backup_data = {
                 "moves":
                 [
                     "Superpower",
-                    "HeadlongRush",
+                    "Headlong Rush",
                     "Double-Edge",
                     "Head Smash"
                 ],
@@ -28541,7 +28541,7 @@ backup_data = {
                 [
                     "Dragon Dance",
                     "Facade",
-                    "HeadlongRush",
+                    "Headlong Rush",
                     "Cross Chop"
                 ],
                 "sub_index": 3,
@@ -28571,7 +28571,7 @@ backup_data = {
                 "nature": "Lax",
                 "moves":
                 [
-                    "HeadlongRush",
+                    "Headlong Rush",
                     "Superpower",
                     "Giga Impact",
                     "Head Smash"
@@ -53498,7 +53498,7 @@ backup_data = {
                 [
                     "Flare Blitz",
                     "Shadow Force",
-                    "HeadlongRush",
+                    "Headlong Rush",
                     "Sucker Punch"
                 ],
                 "sub_index": 5,
@@ -59557,7 +59557,7 @@ backup_data = {
                 "moves":
                 [
                     "Hydro Cannon",
-                    "HeadlongRush",
+                    "Headlong Rush",
                     "Ice Punch",
                     "Yawn"
                 ],
@@ -60348,7 +60348,7 @@ backup_data = {
                     "Cross Chop",
                     "Facade",
                     "Close Combat",
-                    "HeadlongRush"
+                    "Headlong Rush"
                 ],
                 "sub_index": 0,
                 "ability": "Intimidate",
@@ -64054,7 +64054,7 @@ backup_data = {
                 "nature": "Timid",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "HP Fire",
                     "Quick Attack",
                     "Mud Shot"
@@ -66240,7 +66240,7 @@ backup_data = {
                 "nature": "Sassy",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "HP Dragon",
                     "Surf",
                     "Waterfall"
@@ -67583,7 +67583,7 @@ backup_data = {
                 "moves":
                 [
                     "Bubble",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun"
                 ],
@@ -67615,7 +67615,7 @@ backup_data = {
                 "moves":
                 [
                     "Bubble",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun"
                 ],
@@ -67647,7 +67647,7 @@ backup_data = {
                 "moves":
                 [
                     "Bubble",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun"
                 ],
@@ -67679,7 +67679,7 @@ backup_data = {
                 "moves":
                 [
                     "Bubble",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Water Gun"
                 ],
@@ -67742,7 +67742,7 @@ backup_data = {
                 "nature": "Adamant",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Brine",
                     "HP Dragon"
@@ -67774,7 +67774,7 @@ backup_data = {
                 "nature": "Adamant",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Leer",
                     "Brine",
                     "HP Dragon"
@@ -68676,7 +68676,7 @@ backup_data = {
                 [
                     "Growl",
                     "Flame Wheel",
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Fire Spin"
                 ],
                 "sub_index": 1,
@@ -71689,7 +71689,7 @@ backup_data = {
                 "nature": "Sassy",
                 "moves":
                 [
-                    "SmokeScreen",
+                    "Smokescreen",
                     "Feint Attack",
                     "Fire Punch",
                     "HP Electric"
@@ -72649,7 +72649,7 @@ backup_data = {
                     ],
                     [
                         11,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         14,
@@ -72761,7 +72761,7 @@ backup_data = {
                     ],
                     [
                         11,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         15,
@@ -75284,7 +75284,7 @@ backup_data = {
                     ],
                     [
                         53,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ]
                 ],
                 "tms":
@@ -78698,7 +78698,7 @@ backup_data = {
                     ],
                     [
                         51,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ]
                 ],
                 "tms":
@@ -78892,7 +78892,7 @@ backup_data = {
                     ],
                     [
                         1,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         1,
@@ -80691,7 +80691,7 @@ backup_data = {
                     ],
                     [
                         60,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         63,
@@ -80823,7 +80823,7 @@ backup_data = {
                     ],
                     [
                         64,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         67,
@@ -84861,7 +84861,7 @@ backup_data = {
                     ],
                     [
                         10,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         15,
@@ -84984,7 +84984,7 @@ backup_data = {
                     ],
                     [
                         10,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         15,
@@ -85748,7 +85748,7 @@ backup_data = {
                     ],
                     [
                         4,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         8,
@@ -85837,7 +85837,7 @@ backup_data = {
                     ],
                     [
                         4,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         8,
@@ -86915,7 +86915,7 @@ backup_data = {
                     ],
                     [
                         11,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         16,
@@ -87213,7 +87213,7 @@ backup_data = {
                     ],
                     [
                         61,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ]
                 ],
                 "tms":
@@ -87595,7 +87595,7 @@ backup_data = {
                     ],
                     [
                         6,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         10,
@@ -90411,7 +90411,7 @@ backup_data = {
                     ],
                     [
                         6,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         10,
@@ -90510,7 +90510,7 @@ backup_data = {
                     ],
                     [
                         6,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         10,
@@ -90623,7 +90623,7 @@ backup_data = {
                     ],
                     [
                         6,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         10,
@@ -97088,7 +97088,7 @@ backup_data = {
                     ],
                     [
                         52,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         56,
@@ -97914,7 +97914,7 @@ backup_data = {
                     ],
                     [
                         1,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         6,
@@ -99608,7 +99608,7 @@ backup_data = {
                     ],
                     [
                         4,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         8,
@@ -99905,7 +99905,7 @@ backup_data = {
                     ],
                     [
                         59,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         65,
@@ -100861,7 +100861,7 @@ backup_data = {
                     ],
                     [
                         10,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         16,
@@ -103418,7 +103418,7 @@ backup_data = {
                     ],
                     [
                         53,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         56,
@@ -107551,7 +107551,7 @@ backup_data = {
                     ],
                     [
                         1,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         7,
@@ -110922,7 +110922,7 @@ backup_data = {
                     ],
                     [
                         10,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         14,
@@ -111667,7 +111667,7 @@ backup_data = {
                     ],
                     [
                         1,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         1,
@@ -115672,7 +115672,7 @@ backup_data = {
                 [
                     [
                         1,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         1,
@@ -118183,7 +118183,7 @@ backup_data = {
                     ],
                     [
                         75,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         80,
@@ -118794,7 +118794,7 @@ backup_data = {
                 [
                     [
                         1,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ],
                     [
                         1,
@@ -124001,7 +124001,7 @@ backup_data = {
                     ],
                     [
                         14,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         17,
@@ -124123,7 +124123,7 @@ backup_data = {
                     ],
                     [
                         14,
-                        "SmokeScreen"
+                        "Smokescreen"
                     ],
                     [
                         17,
@@ -126036,7 +126036,7 @@ backup_data = {
                     ],
                     [
                         55,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ]
                 ],
                 "tms":
@@ -129115,7 +129115,7 @@ backup_data = {
                     ],
                     [
                         64,
-                        "HeadlongRush"
+                        "Headlong Rush"
                     ]
                 ],
                 "tms":
@@ -135176,7 +135176,7 @@ backup_data = {
             "priority": 0,
             "e_id": 147
         },
-        "HeadlongRush":
+        "Headlong Rush":
         {
             "basePower": 120,
             "pp": 5,
@@ -135338,7 +135338,7 @@ backup_data = {
             "priority": 0,
             "e_id": 108
         },
-        "SmokeScreen":
+        "Smokescreen":
         {
             "basePower": 0,
             "pp": 2,
@@ -138633,7 +138633,7 @@ backup_data = {
         "Submission": "HP Fighting",
         "Thunder Shock": "HP Electric",
         "Rock Throw": "HP Rock",
-        "Fissure": "HeadlongRush",
+        "Fissure": "Headlong Rush",
         "Sludge": "HP Poison",
         "Psywave": "HP Psychic",
         "Fury Swipes": "Dual Chop",

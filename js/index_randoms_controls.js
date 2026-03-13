@@ -439,7 +439,13 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field, displayProbabilities=t
 			p2.moves[i].name = "Growl"
 			p2.moves[i].category = "Status"
 		} else {
-			p2.moves[i].category = moves[p2.moves[i].originalName]["category"]
+			try {
+				p2.moves[i].category = moves[p2.moves[i].originalName]["category"]
+			} catch {
+				console.log(`Resolving unknown move ${p2.moves[i].originalName}`)
+				p2.moves[i].category = moves[p2.moves[i].name]["category"]
+			}
+			
 		}
 		
 		// p2.moves[i].overrides = {}
