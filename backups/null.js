@@ -24311,7 +24311,7 @@ backup_data = {
                     ],
                     [
                         59,
-                        "Temper Flare"
+                        "Temper Flare)"
                     ],
                     [
                         62,
@@ -121206,7 +121206,7 @@ backup_data = {
                     ],
                     [
                         41,
-                        "Dazzling Gleam"
+                        "Dazzling Gleam)"
                     ],
                     [
                         45,
@@ -121379,7 +121379,7 @@ backup_data = {
                     ],
                     [
                         41,
-                        "Dazzling Gleam"
+                        "Dazzling Gleam)"
                     ],
                     [
                         45,
@@ -121563,7 +121563,7 @@ backup_data = {
                     ],
                     [
                         41,
-                        "Dazzling Gleam"
+                        "Dazzling Gleam)"
                     ],
                     [
                         45,
@@ -170739,7 +170739,7 @@ backup_data = {
                     ],
                     [
                         41,
-                        "Dazzling Gleam"
+                        "Dazzling Gleam)"
                     ],
                     [
                         45,
@@ -180880,180 +180880,10 @@ backup_data = {
             },
             "bs":
             {
-                "at": 70,
-                "df": 72,
-                "sa": 53,
-                "sd": 62,
-                "hp": 100,
-                "sp": 100
-            },
-            "evos":
-            [],
-            "types":
-            [
-                "Water"
-            ],
-            "genderRatio": 50,
-            "gr": 5,
-            "abilities":
-            [
-                "Zero To Hero",
-                "None"
-            ]
-        },
-         "Palafin-Hero":
-        {
-            "learnset_info":
-            {
-                "learnset":
-                [
-                    [
-                        1,
-                        "Drain Punch"
-                    ],
-                    [
-                        1,
-                        "Water Gun"
-                    ],
-                    [
-                        1,
-                        "Supersonic"
-                    ],
-                    [
-                        7,
-                        "Astonish"
-                    ],
-                    [
-                        10,
-                        "Focus Energy"
-                    ],
-                    [
-                        13,
-                        "Aqua Jet"
-                    ],
-                    [
-                        17,
-                        "Double Hit"
-                    ],
-                    [
-                        21,
-                        "Dive"
-                    ],
-                    [
-                        25,
-                        "Charm"
-                    ],
-                    [
-                        29,
-                        "Mist"
-                    ],
-                    [
-                        34,
-                        "Body Slam"
-                    ],
-                    [
-                        39,
-                        "Counter"
-                    ],
-                    [
-                        44,
-                        "Liquidation"
-                    ],
-                    [
-                        50,
-                        "Acrobatics"
-                    ],
-                    [
-                        55,
-                        "Hydro Pump"
-                    ],
-                    [
-                        60,
-                        "Jet Punch"
-                    ],
-                    [
-                        75,
-                        "Close Combat"
-                    ],
-                    [
-                        80,
-                        "Aqua Tail"
-                    ],
-                    [
-                        85,
-                        "Flip Turn"
-                    ],
-                    [
-                        90,
-                        "Wave Crash"
-                    ],
-                    [
-                        95,
-                        "Tickle"
-                    ],
-                    [
-                        99,
-                        "Fling"
-                    ]
-                ],
-                "tms":
-                [
-                    "Cut",
-                    "Acrobatics",
-                    "Agility",
-                    "Aura Sphere",
-                    "Blizzard",
-                    "Body Slam",
-                    "Bulk Up",
-                    "Charm",
-                    "Chilling Water",
-                    "Close Combat",
-                    "Disarming Voice",
-                    "Drain Punch",
-                    "Draining Kiss",
-                    "Encore",
-                    "Endure",
-                    "Facade",
-                    "Fling",
-                    "Focus Blast",
-                    "Giga Impact",
-                    "Grass Knot",
-                    "Helping Hand",
-                    "Hydro Pump",
-                    "Hyper Beam",
-                    "Hyper Voice",
-                    "Ice Beam",
-                    "Ice Punch",
-                    "Icy Wind",
-                    "Iron Head",
-                    "Liquidation",
-                    "Outrage",
-                    "Protect",
-                    "Rain Dance",
-                    "Rest",
-                    "Reversal",
-                    "Rock Smash",
-                    "Sleep Talk",
-                    "Substitute",
-                    "Surf",
-                    "Swift",
-                    "Take Down",
-                    "Taunt",
-                    "Tera Blast",
-                    "Water Pulse",
-                    "Waterfall",
-                    "Whirlpool",
-                    "Zen Headbutt"
-                ]
-            },
-            "bs":
-            {
                 "at": 160,
                 "df": 97,
                 "sa": 106,
-                "sd": 100,
-                "hp": 100,
-                "sp": 100
+                "sd": 100
             },
             "evos":
             [],
@@ -199137,7 +198967,7 @@ backup_data = {
                 "slot": 1,
                 "ability": "Imposter"
             },
-            "Lvl 64 Cooltrainer Alexia Confusion Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Alexia (Confusion Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -206578,7 +206408,7 @@ backup_data = {
                 "ability": "Contrary",
                 "gender": "Male"
             },
-            "Lvl 64 Cooltrainer Alexia Confusion Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Alexia (Confusion Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -210723,7 +210553,7 @@ backup_data = {
                 "ability": "Triage",
                 "gender": "Male"
             },
-            "Lvl 64 Cooltrainer Dan Grassy Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Dan (Grassy Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -210807,7 +210637,7 @@ backup_data = {
                 "ability": "Dry Skin",
                 "gender": "Male"
             },
-            "Lvl 66 Cooltrainer Kya Psychic Room |Petalburg Gym|":
+            "Lvl 66 Cooltrainer Kya (Psychic Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -215804,7 +215634,7 @@ backup_data = {
                 "ability": "Technician",
                 "gender": "Male"
             },
-            "Lvl 64 Cooltrainer Alexia Confusion Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Alexia (Confusion Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -220326,7 +220156,7 @@ backup_data = {
                 "ability": "Swarm",
                 "gender": "Male"
             },
-            "Lvl 64 Cooltrainer Emmie Offense Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Emmie (Offense Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -223923,6 +223753,36 @@ backup_data = {
                 "gender": "Female"
             }
         },
+        "Chimecho-Mega":
+        {
+            "Lvl 55 Psychic Brandi |Route 117|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Chimechite",
+                "level": 55,
+                "nature": "Calm",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Wonder Room",
+                    "Flash Cannon",
+                    "Cosmic Power",
+                    "Baton Pass"
+                ],
+                "sub_index": 6,
+                "tr_id": 756,
+                "ability": "Levitate",
+                "gender": "Female"
+            }
+        },
         "Grumpig":
         {
             "Lvl 54 Psychic Brandi |Route 117|":
@@ -224961,7 +224821,7 @@ backup_data = {
                 "ability": "Technician",
                 "gender": "Male"
             },
-            "Lvl 66 Pokémaniac Shinji Inverse Room |Petalburg Gym|":
+            "Lvl 66 Pokémaniac Shinji (Inverse Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -227147,7 +227007,7 @@ backup_data = {
                 "ability": "Super Luck",
                 "gender": "Male"
             },
-            "Lvl 64 Cooltrainer Brian Crit Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Brian (Crit Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -228823,7 +228683,7 @@ backup_data = {
                 "ability": "Speed Boost",
                 "gender": "Female"
             },
-            "Lvl 65 Cooltrainer George Pass Room |Petalburg Gym|":
+            "Lvl 65 Cooltrainer George (Pass Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -229245,6 +229105,36 @@ backup_data = {
                 "gender": "Female"
             }
         },
+        "Raichu-Mega-X":
+        {
+            "Lvl 63 Triathlete Benjamin & Triathlete Alyssa |Route 110|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Raichunite X",
+                "level": 63,
+                "nature": "Impish",
+                "battle_type": "Doubles",
+                "moves":
+                [
+                    "Fake Out",
+                    "Fake Tears",
+                    "Nuzzle",
+                    "Knock Off"
+                ],
+                "sub_index": 6,
+                "tr_id": 353,
+                "ability": "Static",
+                "gender": "Male"
+            }
+        },
         "Ninetales-Alola":
         {
             "Lvl 62 Triathlete Benjamin & Triathlete Alyssa |Route 110|":
@@ -229299,6 +229189,36 @@ backup_data = {
                 "sub_index": 0,
                 "tr_id": 450,
                 "ability": "Snow Warning",
+                "gender": "Female"
+            }
+        },
+        "Raichu-Mega-Y":
+        {
+            "Lvl 63* Triathlete Benjamin & Triathlete Alyssa |Route 110|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Raichunite Y",
+                "level": 63,
+                "nature": "Timid",
+                "battle_type": "Doubles",
+                "moves":
+                [
+                    "Thunderbolt",
+                    "Discharge",
+                    "Grass Knot",
+                    "Signal Beam"
+                ],
+                "sub_index": 6,
+                "tr_id": 701,
+                "ability": "Static",
                 "gender": "Female"
             }
         },
@@ -230037,7 +229957,7 @@ backup_data = {
                 "ability": "Unnerve",
                 "gender": "Male"
             },
-            "Lvl 65 Cooltrainer Alexia Confusion Room |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Alexia (Confusion Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -233891,7 +233811,7 @@ backup_data = {
         },
         "Cyclizar":
         {
-            "Lvl 64 Cooltrainer Emmie Offense Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Emmie (Offense Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -233946,7 +233866,7 @@ backup_data = {
         },
         "Bewear":
         {
-            "Lvl 64 Cooltrainer Emmie Offense Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Emmie (Offense Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234003,7 +233923,7 @@ backup_data = {
         },
         "Staraptor":
         {
-            "Lvl 65 Cooltrainer Emmie Offense Room |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Emmie (Offense Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234060,7 +233980,7 @@ backup_data = {
         },
         "Greedent":
         {
-            "Lvl 64 Cooltrainer Lauren Defense Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Lauren (Defense Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234090,7 +234010,7 @@ backup_data = {
         },
         "Mudsdale":
         {
-            "Lvl 64 Cooltrainer Lauren Defense Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Lauren (Defense Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234174,7 +234094,7 @@ backup_data = {
         },
         "Dubwool":
         {
-            "Lvl 64 Cooltrainer Lauren Defense Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Lauren (Defense Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234204,7 +234124,7 @@ backup_data = {
         },
         "Braviary":
         {
-            "Lvl 65 Cooltrainer Lauren Defense Room |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Lauren (Defense Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234261,7 +234181,7 @@ backup_data = {
         },
         "Unfezant":
         {
-            "Lvl 64 Cooltrainer Brian Crit Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Brian (Crit Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234291,7 +234211,7 @@ backup_data = {
         },
         "Snorlax":
         {
-            "Lvl 64 Cooltrainer Brian Crit Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Brian (Crit Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234348,7 +234268,7 @@ backup_data = {
         },
         "Decidueye-Hisui":
         {
-            "Lvl 65 Cooltrainer Brian Crit Room |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Brian (Crit Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234405,7 +234325,7 @@ backup_data = {
         },
         "Drapion":
         {
-            "Lvl 64 Cooltrainer Brian Crit Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Brian (Crit Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234462,7 +234382,7 @@ backup_data = {
         },
         "Pecharunt":
         {
-            "Lvl 64 Cooltrainer Alexia Confusion Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Alexia (Confusion Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234491,7 +234411,7 @@ backup_data = {
         },
         "Ninjask":
         {
-            "Lvl 64 Cooltrainer George Pass Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer George (Pass Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234548,7 +234468,7 @@ backup_data = {
         },
         "Exploud":
         {
-            "Lvl 64 Cooltrainer George Pass Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer George (Pass Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234632,7 +234552,7 @@ backup_data = {
         },
         "Bouffalant":
         {
-            "Lvl 64 Cooltrainer George Pass Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer George (Pass Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234689,7 +234609,7 @@ backup_data = {
         },
         "Drampa":
         {
-            "Lvl 64 Cooltrainer George Pass Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer George (Pass Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234773,7 +234693,7 @@ backup_data = {
         },
         "Rillaboom":
         {
-            "Lvl 65 Cooltrainer Dan Grassy Room |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Dan (Grassy Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234857,7 +234777,7 @@ backup_data = {
         },
         "Miltank":
         {
-            "Lvl 64 Cooltrainer Dan Grassy Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Dan (Grassy Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234887,7 +234807,7 @@ backup_data = {
         },
         "Meloetta":
         {
-            "Lvl 65 Cooltrainer Dan Grassy Room |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Dan (Grassy Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234913,7 +234833,7 @@ backup_data = {
                 "tr_id": 91,
                 "ability": "Serene Grace"
             },
-            "Lvl 64 Cooltrainer Kya Psychic Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Kya (Psychic Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -234968,7 +234888,7 @@ backup_data = {
         },
         "Toucannon":
         {
-            "Lvl 66 Cooltrainer Dan Grassy Room |Petalburg Gym|":
+            "Lvl 66 Cooltrainer Dan (Grassy Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235052,7 +234972,7 @@ backup_data = {
         },
         "Indeedee":
         {
-            "Lvl 65 Cooltrainer Kya Psychic Room |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Kya (Psychic Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235082,7 +235002,7 @@ backup_data = {
         },
         "Bisharp":
         {
-            "Lvl 65 Cooltrainer Kya Psychic Room |Petalburg Gym|":
+            "Lvl 65 Cooltrainer Kya (Psychic Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235112,7 +235032,7 @@ backup_data = {
         },
         "Delphox":
         {
-            "Lvl 64 Cooltrainer Kya Psychic Room |Petalburg Gym|":
+            "Lvl 64 Cooltrainer Kya (Psychic Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235251,7 +235171,7 @@ backup_data = {
         },
         "Terapagos":
         {
-            "Lvl 64 Pokémaniac Shinji Inverse Room |Petalburg Gym|":
+            "Lvl 64 Pokémaniac Shinji (Inverse Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235308,7 +235228,7 @@ backup_data = {
         },
         "Porygon-Z":
         {
-            "Lvl 64 Pokémaniac Shinji Inverse Room |Petalburg Gym|":
+            "Lvl 64 Pokémaniac Shinji (Inverse Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235363,7 +235283,7 @@ backup_data = {
         },
         "Squawkabilly":
         {
-            "Lvl 66 Pokémaniac Shinji Inverse Room |Petalburg Gym|":
+            "Lvl 66 Pokémaniac Shinji (Inverse Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -235393,7 +235313,7 @@ backup_data = {
         },
         "Malamar":
         {
-            "Lvl 65 Pokémaniac Shinji Inverse Room |Petalburg Gym|":
+            "Lvl 65 Pokémaniac Shinji (Inverse Room) |Petalburg Gym|":
             {
                 "ivs":
                 {
@@ -238580,6 +238500,36 @@ backup_data = {
                 "sub_index": 2,
                 "tr_id": 719,
                 "ability": "Super Luck",
+                "gender": "Male"
+            }
+        },
+        "Crabominable-Mega":
+        {
+            "Lvl 70 Ninja Boy Lung |Route 113|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Crabominite",
+                "level": 70,
+                "nature": "Adamant",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Mountain Gale",
+                    "Thunder Punch",
+                    "Iron Defense",
+                    "Amnesia"
+                ],
+                "sub_index": 6,
+                "tr_id": 420,
+                "ability": "Hyper Cutter",
                 "gender": "Male"
             }
         },
@@ -242061,6 +242011,36 @@ backup_data = {
                 "gender": "Male"
             }
         },
+        "Meowstic-Mega":
+        {
+            "Lvl 69 Psychic Marlene |Route 115|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Meowsticite",
+                "level": 69,
+                "nature": "Timid",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Reflect",
+                    "Light Screen",
+                    "Psychic Terrain",
+                    "Signal Beam"
+                ],
+                "sub_index": 6,
+                "tr_id": 752,
+                "ability": "Keen Eye",
+                "gender": "Male"
+            }
+        },
         "Mr. Rime":
         {
             "Lvl 69 Psychic Marlene |Route 115|":
@@ -244357,6 +244337,63 @@ backup_data = {
                 "ability": "Protosynthesis"
             }
         },
+        "Scovillain-Mega":
+        {
+            "Lvl 71 Hiker Eli |Lavaridge Gym|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Scovillainite",
+                "level": 71,
+                "nature": "Hasty",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Growth",
+                    "Solar Beam",
+                    "Temper Flare",
+                    "Scorching Sands"
+                ],
+                "sub_index": 6,
+                "tr_id": 501,
+                "ability": "Chlorophyll",
+                "gender": "Male"
+            },
+            "Lvl 94 Swimmer Susie |Route 131|":
+            {
+                "ivs":
+                {
+                    "hp": 30,
+                    "at": 31,
+                    "df": 30,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Scovillainite",
+                "level": 94,
+                "nature": "Timid",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Overheat",
+                    "Leaf Storm",
+                    "Hidden Power",
+                    "Spicy Extract"
+                ],
+                "sub_index": 6,
+                "tr_id": 456,
+                "ability": "Chlorophyll",
+                "gender": "Female"
+            }
+        },
         "Haxorus":
         {
             "Lvl 72 Hiker Eli |Lavaridge Gym|":
@@ -245787,6 +245824,36 @@ backup_data = {
                 "sub_index": 1,
                 "tr_id": 335,
                 "ability": "Steelworker"
+            }
+        },
+        "Tatsugiri-Mega":
+        {
+            "Lvl 72 Fisherman Ordeaux |Route 118|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Tatsugirinite",
+                "level": 72,
+                "nature": "Modest",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Nasty Plot",
+                    "Surf",
+                    "Dragon Pulse",
+                    "Thunderbolt"
+                ],
+                "sub_index": 6,
+                "tr_id": 343,
+                "ability": "Commander",
+                "gender": "Male"
             }
         },
         "Dondozo":
@@ -251228,6 +251295,36 @@ backup_data = {
                 "gender": "Male"
             }
         },
+        "Staraptor-Mega":
+        {
+            "Lvl 76 Bird Keeper Narth |Fortree Gym|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Staraptite",
+                "level": 76,
+                "nature": "Adamant",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Close Combat",
+                    "Dual Wingbeat",
+                    "Tailwind",
+                    "Pursuit"
+                ],
+                "sub_index": 6,
+                "tr_id": 803,
+                "ability": "Intimidate",
+                "gender": "Male"
+            }
+        },
         "Moltres-Galar":
         {
             "Lvl 76 Bird Keeper Narth |Fortree Gym|":
@@ -251255,6 +251352,35 @@ backup_data = {
                 "sub_index": 4,
                 "tr_id": 803,
                 "ability": "Berserk"
+            }
+        },
+        "Golurk-Mega":
+        {
+            "Lvl 77 Ranger FrankJosh |Fortree Gym|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Golurkite",
+                "level": 77,
+                "nature": "Adamant",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Headlong Rush",
+                    "Poltergeist",
+                    "Stone Edge",
+                    "Rock Polish"
+                ],
+                "sub_index": 6,
+                "tr_id": 655,
+                "ability": "Iron Fist"
             }
         },
         "Fezandipiti":
@@ -253104,6 +253230,36 @@ backup_data = {
                 "gender": "Male"
             }
         },
+        "Malamar-Mega":
+        {
+            "Lvl 80 Pyre Team Aqua Grunt #2 |Mt. Pyre|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Malamarite",
+                "level": 80,
+                "nature": "Timid",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Extrasensory",
+                    "Dark Pulse",
+                    "Nature Power",
+                    "Minimize"
+                ],
+                "sub_index": 6,
+                "tr_id": 24,
+                "ability": "Neuroforce",
+                "gender": "Male"
+            }
+        },
         "Barbaracle-Mega":
         {
             "Lvl 80 Pyre Team Aqua Grunt #4 |Mt. Pyre|":
@@ -254497,6 +254653,36 @@ backup_data = {
                 "ability": "Quark Drive"
             }
         },
+        "Glimmora-Mega":
+        {
+            "Lvl 87 Expert Cash |Route 125|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Glimmoranite",
+                "level": 87,
+                "nature": "Timid",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Ancient Power",
+                    "Venoshock",
+                    "Earth Power",
+                    "Toxic"
+                ],
+                "sub_index": 6,
+                "tr_id": 506,
+                "ability": "Toxic Debris",
+                "gender": "Female"
+            }
+        },
         "Silvally-Psychic":
         {
             "Lvl 86 Pokémon Trainer Leaf 1 |Mossdeep City|":
@@ -254524,6 +254710,36 @@ backup_data = {
                 "sub_index": 2,
                 "tr_id": 852,
                 "ability": "RKS System"
+            }
+        },
+        "Absol-Mega-Z":
+        {
+            "Lvl 85 Pokémon Trainer Leaf 1 |Mossdeep City|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Absolite Z",
+                "level": 85,
+                "nature": "Jolly",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Poltergeist",
+                    "Knock Off",
+                    "Play Rough",
+                    "Pursuit"
+                ],
+                "sub_index": 6,
+                "tr_id": 852,
+                "ability": "Aura Break",
+                "gender": "Female"
             }
         },
         "Indeedee-F":
@@ -255539,6 +255755,36 @@ backup_data = {
                 "gender": "Male"
             }
         },
+        "Heatran-Mega":
+        {
+            "Lvl 86 Space Center Team Magma Grunt #5 |Space Center|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Heatranite",
+                "level": 86,
+                "nature": "Bold",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Stealth Rock",
+                    "Flash Cannon",
+                    "Will-O-Wisp",
+                    "Rest"
+                ],
+                "sub_index": 6,
+                "tr_id": 589,
+                "ability": "Flash Fire",
+                "gender": "Male"
+            }
+        },
         "Xurkitree":
         {
             "Lvl 86 Space Center Team Magma Grunt #5 |Space Center|":
@@ -255595,6 +255841,35 @@ backup_data = {
                 "sub_index": 3,
                 "tr_id": 589,
                 "ability": "Inner Focus"
+            }
+        },
+        "Darkrai-Mega":
+        {
+            "Lvl 86 Space Center Team Magma Grunt #6 |Space Center|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Darkranite",
+                "level": 86,
+                "nature": "Bold",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Dark Void",
+                    "Nightmare",
+                    "Dream Eater",
+                    "Memento"
+                ],
+                "sub_index": 6,
+                "tr_id": 590,
+                "ability": "Bad Dreams"
             }
         },
         "Terrakion":
@@ -257266,6 +257541,35 @@ backup_data = {
                 "ability": "Soul-Heart"
             }
         },
+        "Zeraora-Mega":
+        {
+            "Lvl 95 Beauty Bridget & Lady Brianna |Sootopolis Gym|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Zeraorite",
+                "level": 95,
+                "nature": "Jolly",
+                "battle_type": "Doubles",
+                "moves":
+                [
+                    "Fake Out",
+                    "Plasma Fists",
+                    "Close Combat",
+                    "Ice Punch"
+                ],
+                "sub_index": 6,
+                "tr_id": 118,
+                "ability": "Static"
+            }
+        },
         "Squawkabilly-Blue":
         {
             "Lvl 95 Beauty Bridget & Lady Brianna |Sootopolis Gym|":
@@ -257349,6 +257653,36 @@ backup_data = {
                 "sub_index": 3,
                 "tr_id": 261,
                 "ability": "Beads of Ruin"
+            }
+        },
+        "Baxcalibur-Mega":
+        {
+            "Lvl 95 Pokéfan Bethany |Sootopolis Gym|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Baxcalibrite",
+                "level": 95,
+                "nature": "Jolly",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Dragon Dance",
+                    "Glaive Rush",
+                    "Icicle Crash",
+                    "Earthquake"
+                ],
+                "sub_index": 6,
+                "tr_id": 301,
+                "ability": "Hyper Cutter",
+                "gender": "Female"
             }
         },
         "Kyurem":
@@ -257609,6 +257943,175 @@ backup_data = {
                 "gender": "Male"
             }
         },
+        "Golisopod-Mega":
+        {
+            "Lvl 96 Team Rocket Grunt #1 |Route 123|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Golisopite",
+                "level": 96,
+                "nature": "Adamant",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "First Impression",
+                    "Aqua Jet",
+                    "Sucker Punch",
+                    "Swords Dance"
+                ],
+                "sub_index": 6,
+                "tr_id": 430,
+                "ability": "Emergency Exit",
+                "gender": "Male"
+            },
+            "Lvl 100 Naturalist Greta 2 |Victory Road|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Golisopite",
+                "level": 100,
+                "nature": "Adamant",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "First Impression",
+                    "Liquidation",
+                    "Leech Life",
+                    "Hard Press"
+                ],
+                "sub_index": 6,
+                "tr_id": 817,
+                "ability": "Emergency Exit",
+                "gender": "Female"
+            }
+        },
+        "Garchomp-Mega-Z":
+        {
+            "Lvl 96 Team Rocket Grunt #2 |Route 123|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Garchompite Z",
+                "level": 96,
+                "nature": "Timid",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Draco Meteor",
+                    "Surf",
+                    "Substitute",
+                    "Laser Focus"
+                ],
+                "sub_index": 6,
+                "tr_id": 431,
+                "ability": "Sand Veil",
+                "gender": "Male"
+            },
+            "Lvl 97 Rival Wally 3 |Victory Road|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 30,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Garchompite Z",
+                "level": 97,
+                "nature": "Timid",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Dragon Pulse",
+                    "Fire Blast",
+                    "Nasty Plot",
+                    "Hidden Power"
+                ],
+                "sub_index": 6,
+                "tr_id": 658,
+                "ability": "Sand Veil",
+                "gender": "Male"
+            }
+        },
+        "Magearna-Mega":
+        {
+            "Lvl 96 Team Rocket Grunt #3 |Route 123|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Magearnite",
+                "level": 96,
+                "nature": "Hasty",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Gear Grind",
+                    "Play Rough",
+                    "Thunderbolt",
+                    "Shift Gear"
+                ],
+                "sub_index": 6,
+                "tr_id": 432,
+                "ability": "Soul-Heart"
+            },
+            "Lvl 100 Superstar Tucker 1 |Victory Road|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Magearnite",
+                "level": 100,
+                "nature": "Timid",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Moonblast",
+                    "Flash Cannon",
+                    "Focus Blast",
+                    "Calm Mind"
+                ],
+                "sub_index": 6,
+                "tr_id": 806,
+                "ability": "Soul-Heart"
+            }
+        },
         "Registeel":
         {
             "Lvl 96 Cooltrainer Yoru |Route 123|":
@@ -257723,6 +258226,36 @@ backup_data = {
                 "sub_index": 2,
                 "tr_id": 29,
                 "ability": "Unseen Fist",
+                "gender": "Male"
+            }
+        },
+        "Lucario-Mega-Z":
+        {
+            "Lvl 98 Expert Niklas |Route 123|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Lucarionite Z",
+                "level": 98,
+                "nature": "Timid",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Nasty Plot",
+                    "Focus Blast",
+                    "Flash Cannon",
+                    "Dark Pulse"
+                ],
+                "sub_index": 6,
+                "tr_id": 29,
+                "ability": "Steadfast",
                 "gender": "Male"
             }
         },
@@ -257868,7 +258401,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "tr_id": 813,
-                "ability": "As One Glastrier"
+                "ability": "As One (Glastrier)"
             }
         },
         "Arceus-Bug":
@@ -258354,7 +258887,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "tr_id": 258,
-                "ability": "As One Spectrier"
+                "ability": "As One (Spectrier)"
             }
         },
         "Silvally-Fairy":
