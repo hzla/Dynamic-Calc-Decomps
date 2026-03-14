@@ -136,6 +136,8 @@ function calculateDPP(gen, attacker, defender, move, field) {
         return result;
     }
     var ignoresWonderGuard = move.hasType('???') || move.named('Fire Fang') || move.named('Doom Desire') || move.named('Future Sight');
+    
+
     if ((!ignoresWonderGuard && defender.hasAbility('Wonder Guard') && typeEffectiveness <= 1) ||
         (move.hasType('Fire') && defender.hasAbility('Flash Fire')) ||
         (move.hasType('Water') && defender.hasAbility('Dry Skin', 'Water Absorb')) ||
@@ -143,8 +145,17 @@ function calculateDPP(gen, attacker, defender, move, field) {
         (move.hasType('Ground') && !field.isGravity &&
             !defender.hasItem('Iron Ball') && defender.hasAbility('Levitate')) ||
         (move.flags.sound && defender.hasAbility('Soundproof'))) {
-        desc.defenderAbility = defender.ability;
-        return result;
+        
+        if (!calcingForSwitchIns) {
+            desc.defenderAbility = defender.ability;
+            return result; 
+        } else {
+            if (move.named("Weather Ball", "Judgment") || move.name.includes("Hidden Power")) {
+                console.log("immunity skipped")
+                // Do nothing
+            }
+        }
+            
     }
     desc.HPEVs = "".concat(defender.evs.hp, " HP");
     var fixedDamage = (0, util_1.handleFixedDamageMoves)(attacker, move);
@@ -175,10 +186,13 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 desc.moveBP = basePower;
                 break;
             case 'Facade':
-                if (attacker.hasStatus('par', 'psn', 'tox', 'brn')) {
-                    basePower = move.bp * 2;
-                    desc.moveBP = basePower;
+                if (!calcingForSwitchIns) {
+                    if (attacker.hasStatus('par', 'psn', 'tox', 'brn')) {
+                        basePower = move.bp * 2;
+                        desc.moveBP = basePower;
+                    }   
                 }
+                
                 break;
             case 'Flail':
             case 'Reversal':
@@ -212,9 +226,11 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 desc.moveBP = basePower;
                 break;
             case 'Wake-Up Slap':
-                if (defender.hasStatus('slp')) {
-                    basePower *= 2;
-                    desc.moveBP = basePower;
+                if (!calcingForSwitchIns) {
+                    if (defender.hasStatus('slp')) {
+                        basePower *= 2;
+                        desc.moveBP = basePower;
+                    }
                 }
                 break;
             case 'Nature Power':

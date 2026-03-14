@@ -1,26 +1,3 @@
-GEN4_PHASE2_IGNORE_LIST = [
-    "Reversal",
-    "Flail",
-    "Frustration",
-    "Return",
-    "Low Kick",
-    "Magnitude",
-    "Present",
-    "Endeavor",
-    "Night Shade",
-    "Seismic Toss",
-    "Psywave",
-    "Sonicboom",
-    "Dragon Rage",
-    "Super Fang",
-    "Fissure",
-    "Horn Drill",
-    "Sheer Cold",
-    "Guillotine",
-    "Grass Knot",
-    "Gyro Ball"
-]
-
 function get_next_in_g4() {
     if (typeof CURRENT_TRAINER_POKS === "undefined") {
         return
@@ -155,7 +132,13 @@ function get_next_in_g4() {
         }
 
         var exact_phase1_score_40 = g4_phase1_score_40(type1, type2, player_type1, player_type2)
+
+
+        console.log()
+
         var full_immune = (effectiveness == 0)
+
+
 
         // check moves for SE
         var isSE = false
@@ -169,6 +152,15 @@ function get_next_in_g4() {
                 mov_data["type"] = plate_type
             }
 
+            if (pok_data["moves"][j] == "Weather Ball") {
+                var weather = p1field.weather
+                var weatherBallTypes = {"Sun": "Fire", "Hail": "Ice", "Rain": "Water", "Sand": "Rock"}
+                mov_data["type"] = weatherBallTypes[weather] || "Normal"
+                console.log(mov_data["type"])
+            }
+
+
+
             // Curse can't be supereffective against anything
             if (!mov_data || mov_name == "Curse") {
                 continue
@@ -179,9 +171,14 @@ function get_next_in_g4() {
             if (mov_data) {
                 var groundWeak = ["Aerodactyl","Skarmory"]
                 var electricWeak = ["Gligar", "Gliscor"]
+                var scrappyWeak = ["Sableye", "Spiritomb"]
+
+                if (pok_data.ability == "Normalize") {
+                    mov_data["type"] = "Normal"
+                }
 
                 // Fairy type insertion bugs
-                if (TITLE == "Reengae Platinum") {
+                if (TITLE == "Renegade Platinum") {
                     groundWeak.push("Zapdos")
                     groundWeak.push("Zubat")
                     groundWeak.push("Golbat")
@@ -206,6 +203,14 @@ function get_next_in_g4() {
                 }
 
                 if (player_pok == "Altaria" && mov_data["type"] == "Dragon") {
+                    isSE = true
+                }
+
+                if (player_pok == "Altaria" && mov_data["type"] == "Dragon") {
+                    isSE = true
+                }
+
+                if (mov_data["type"] == "Fighting" && scrappyWeak.includes(player_pok) && pok_data.ability == "Scrappy") {
                     isSE = true
                 }
 
@@ -284,7 +289,9 @@ function get_next_in_g4() {
         }
 
         // because the game only counts multihits moves as 1
+        calcingForSwitchIns = true
         var results = calculateAllMoves(settings.damageGen, p1, p1field, p2, p2field, false)[1]
+        calcingForSwitchIns = false
 
         var highestDamage = 0
         var highestDamageName = ""
@@ -292,7 +299,7 @@ function get_next_in_g4() {
         for (n in results) {
             var dmg = 0
             var moveName = results[n].move.name
-            var isIgnoredPhase2Move = GEN4_PHASE2_IGNORE_LIST.includes(moveName)
+            var isIgnoredPhase2Move = moves[moveName].bp == 1
             var useBuggedPhase2Damage = false
 
             if (
