@@ -174,12 +174,34 @@ function get_next_in_g4() {
                 continue
             }
 
+
+
             if (mov_data) {
-                if (mov_data["type"] == "Ground" && "Skarmory,Aerodactyl,Zapdos,Crobat,Moltres".includes(player_pok)) {
+                var groundWeak = ["Aerodactyl","Skarmory"]
+                var electricWeak = ["Gligar", "Gliscor"]
+
+                // Fairy type insertion bugs
+                if (TITLE == "Reengae Platinum") {
+                    groundWeak.push("Zapdos")
+                    groundWeak.push("Zubat")
+                    groundWeak.push("Golbat")
+                    groundWeak.push("Crobat")
+                    groundWeak.push("Moltres")
+
+                    electricWeak.push("Gastrodon")
+                    electricWeak.push("Marshtomp")
+                    electricWeak.push("Swampert")
+                    electricWeak.push("Barboach")
+                    electricWeak.push("Whishcash")
+                    electricWeak.push("Wooper")
+                    electricWeak.push("Quagsire")
+                }
+
+                if (mov_data["type"] == "Ground" && groundWeak.includes(player_pok)) {
                     isSE = true
                 }
 
-                if (mov_data["type"] == "Electric" && "Gastrodon,Swampert,Whishcash,Quagsire,Marshtomp".includes(player_pok)) {
+                if (mov_data["type"] == "Electric" && electricWeak.includes(player_pok)) {
                     isSE = true
                 }
 
@@ -273,9 +295,6 @@ function get_next_in_g4() {
             var isIgnoredPhase2Move = GEN4_PHASE2_IGNORE_LIST.includes(moveName)
             var useBuggedPhase2Damage = false
 
-            // Emulate the bug:
-            // If this is the first Phase 2 mon checked and its first move is ignored,
-            // use the stale exact internal 40-based Phase 1 score instead of skipping.
             if (
                 is_first_phase2_mon &&
                 parseInt(n) === 0 &&
