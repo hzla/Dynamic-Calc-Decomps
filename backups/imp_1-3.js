@@ -36414,7 +36414,7 @@ backup_data = {
         "Flame Charge",
         "Sacred Fire",
         "Facade",
-        "Flame Charge"
+        "Superpower"
       ],
       "tr_id": 493,
       "sub_index": 1,
