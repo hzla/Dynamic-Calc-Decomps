@@ -915,7 +915,6 @@ $(".set-selector").change(function () {
 					if (!(typeof partnerName != undefined && partnerName != null) && (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation")) {
 						$('#singles-format').click()
 					} else {
-						console.log("clicked")
 						$('#doubles-format').click()
 					} 
 				}
