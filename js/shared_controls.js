@@ -891,7 +891,7 @@ $(".set-selector").change(function () {
 
 				if (settings.damageGen == 4 || settings.damageGen == 5) {
 					ai = setdex[pokemonName][setName]["ai"]
-					for (n in [1,2,3,4,5,6]) {
+					for (n in [1,2,3,4,5,6,7,8,9,10,11]) {
 						n = parseInt(n)
 						if (ai & (1 << n)) {
 							$(`#ai${n + 1}`).show()
@@ -915,6 +915,7 @@ $(".set-selector").change(function () {
 					if (!(typeof partnerName != undefined && partnerName != null) && (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation")) {
 						$('#singles-format').click()
 					} else {
+						console.log("clicked")
 						$('#doubles-format').click()
 					} 
 				}
@@ -1783,8 +1784,8 @@ $(".notation").change(function () {
 });
 
 function clearField() {
-	$("#singles-format").prop("checked", false);
-	$("#doubles-format").prop("checked", true);
+	$("#singles-format").prop("checked", true);
+	$("#doubles-format").prop("checked", false);
 	$("#clear").prop("checked", true);
 	$("#clear-cascade").prop("checked", true);
 	$("#gscClear").prop("checked", true);
