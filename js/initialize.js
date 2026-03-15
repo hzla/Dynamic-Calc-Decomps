@@ -131,7 +131,8 @@ SOURCES = {
   "blind": "Blinding White 2",
   "a6f5b7e55bbd7ebbdd52": "Rigorous Red",
   "bb8579a3798fd63b429d": "Royal Sapphire",
-  "null": "Pokemon Null"
+  "null": "Pokemon Null",
+  "pk": "Platinum Kaizo"
 }
 
 $(document).ready(function() {
@@ -216,6 +217,20 @@ function setGameSettings(title) {
     }
     settings.sourceType = "full"
     settings.typeChart = 6;
+    settings.critGen = 5;
+    save_expansion = false
+    showDex = true;
+    showAI = true;
+    $('label[for="snow"]').hide()
+  } else if (title == "Platinum Kaizo") {
+    gameGen = 4
+    settings.damageGen = 4
+    if (!settings.noSwitch) {
+      settings.gameSwitchIn = 4;
+      settings.switchIn = 4;  
+    }
+    settings.sourceType = "full"
+    settings.typeChart = 5;
     settings.critGen = 5;
     save_expansion = false
     showDex = true;

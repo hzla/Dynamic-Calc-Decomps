@@ -813,13 +813,45 @@ function isValidJSON(str) {
     }
 }
 
+function importLuaJsonDumpForCurrentTitle(pokes) {
+	const parsed = typeof pokes === "string" ? JSON.parse(pokes) : pokes;
+
+	if (TITLE.includes("Platinum")) {
+		if (typeof loadPokeLuaGen4RawBoxDump !== "function") {
+			throw new Error("Platinum Lua box dump importer is unavailable");
+		}
+		return loadPokeLuaGen4RawBoxDump(parsed);
+	}
+
+	if (typeof loadPokeLuaGen3RawBoxDump !== "function") {
+		throw new Error("Lua box dump importer is unavailable");
+	}
+
+	return loadPokeLuaGen3RawBoxDump(parsed);
+}
+
+function importPolledMasterBoxPayload(boxPayload) {
+	if (TITLE.includes("Platinum")) {
+		if (typeof loadPokeLuaGen4RawBoxDump !== "function") {
+			throw new Error("Platinum Lua box dump importer is unavailable");
+		}
+		const result = loadPokeLuaGen4RawBoxDump(boxPayload);
+		const importBtn = document.getElementById("import");
+		if (importBtn && typeof importBtn.click === "function") {
+			importBtn.click();
+		}
+		return result;
+	}
+
+	return importLuaJsonDumpForCurrentTitle(boxPayload);
+}
+
+window.importPolledMasterBoxPayload = importPolledMasterBoxPayload;
+
 function addSets(pokes, name) {
 	if (isValidJSON(pokes)) {
 		try {
-			if (typeof loadPokeLuaGen4RawBoxDump !== "function") {
-				throw new Error("Lua box dump importer is unavailable");
-			}
-			const luaDumpResult = loadPokeLuaGen3RawBoxDump(pokes);
+			const luaDumpResult = importLuaJsonDumpForCurrentTitle(pokes);
 			if (!luaDumpResult || typeof luaDumpResult.showdownImport !== "string") {
 				throw new Error("Lua box dump import did not return showdown text");
 			}

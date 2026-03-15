@@ -16,7 +16,7 @@
     isReadInFlight: false,
     lastMasterRawText: null,
     lastBoxSignature: null,
-    lastBattleSnapshotSignature: null,
+    lastBattleLogSignature: null,
     lastReadAt: null,
     lastError: null,
     selectedFileName: null,
@@ -67,33 +67,28 @@
   function syncBattleLogToLocalStorage(parsedMaster) {
     try {
       const battleLogPayload = parsedMaster && parsedMaster.battlelog ? parsedMaster.battlelog : null;
-      localStorage.setItem("battleLog", JSON.stringify(battleLogPayload));
+      localStorage.setItem("battleLogs", JSON.stringify(battleLogPayload));
     } catch (err) {
-      console.error("[MasterPoller] failed to sync localStorage.battleLog", err);
+      console.error("[MasterPoller] failed to sync localStorage.battleLogs", err);
     }
   }
 
   function importPartyBoxFromMaster(parsedMaster, reason) {
     try {
       const boxWrapper = parsedMaster && parsedMaster.box ? parsedMaster.box : null;
-      const boxData = boxWrapper && boxWrapper.data ? boxWrapper.data : null;
-      if (!boxData) {
+      const boxPayload = boxWrapper && Object.prototype.hasOwnProperty.call(boxWrapper, "payload")
+        ? boxWrapper.payload
+        : null;
+      if (!boxPayload) {
         return false;
       }
 
-      if (typeof window.loadPokeLuaGen4RawBoxDump !== "function") {
-        console.warn("[MasterPoller] Lua box importer is unavailable");
+      if (typeof window.importPolledMasterBoxPayload !== "function") {
+        console.warn("[MasterPoller] polled master box importer is unavailable");
         return false;
       }
 
-      window.loadPokeLuaGen4RawBoxDump(boxData);
-
-      const importBtn = document.getElementById("import");
-      if (importBtn && typeof importBtn.click === "function") {
-        importBtn.click();
-      } else {
-        console.warn("[MasterPoller] import button not found after loading Lua box dump");
-      }
+      window.importPolledMasterBoxPayload(boxPayload);
 
       console.log("[MasterPoller] imported party/box from master", {
         reason,
@@ -126,11 +121,10 @@
       const previousRawText = state.lastMasterRawText;
 
       const boxSignature = computeSectionSignature(parsedMaster.box ?? null);
-      const battleSnapshotSignature = computeSectionSignature(parsedMaster.battleSnapshot ?? null);
+      const battleLogSignature = computeSectionSignature(parsedMaster.battlelog ?? null);
       const isFirstSuccessfulLoad = !state.hasLoadedOnce;
 
       window.latestPolledMasterSheetData = parsedMaster;
-      syncBattleLogToLocalStorage(parsedMaster);
       state.lastMasterRawText = rawText;
       state.lastReadAt = new Date().toISOString();
       state.lastError = null;
@@ -138,11 +132,15 @@
 
       if (isFirstSuccessfulLoad) {
         state.lastBoxSignature = boxSignature;
-        state.lastBattleSnapshotSignature = battleSnapshotSignature;
+        state.lastBattleLogSignature = battleLogSignature;
         state.hasLoadedOnce = true;
+        syncBattleLogToLocalStorage(parsedMaster);
         importPartyBoxFromMaster(parsedMaster, "initial-load");
+        if (typeof window.renderBattleLogView === "function") {
+          window.renderBattleLogView(true);
+        }
 
-        console.log("[MasterPoller] initial master loaded", {
+        console.log("[MasterPoller] initial attempt master loaded", {
           trainerId: parsedMaster?.trainerId,
           file: state.selectedFileName
         });
@@ -162,9 +160,13 @@
         console.log("[MasterPoller] box changed", parsedMaster.box ?? null);
       }
 
-      if (battleSnapshotSignature !== state.lastBattleSnapshotSignature) {
-        state.lastBattleSnapshotSignature = battleSnapshotSignature;
-        console.log("[MasterPoller] battleSnapshot changed", parsedMaster.battleSnapshot ?? null);
+      if (battleLogSignature !== state.lastBattleLogSignature) {
+        state.lastBattleLogSignature = battleLogSignature;
+        syncBattleLogToLocalStorage(parsedMaster);
+        if (typeof window.renderBattleLogView === "function") {
+          window.renderBattleLogView(true);
+        }
+        console.log("[MasterPoller] battle-log changed", parsedMaster.battlelog ?? null);
       }
 
       return true;
@@ -241,7 +243,7 @@
     state.hasLoadedOnce = false;
     state.lastMasterRawText = null;
     state.lastBoxSignature = null;
-    state.lastBattleSnapshotSignature = null;
+    state.lastBattleLogSignature = null;
 
     const initialOk = await window.pollMasterFileOnce();
     if (initialOk) {

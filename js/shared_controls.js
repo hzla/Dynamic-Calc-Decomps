@@ -1141,6 +1141,12 @@ $(".set-selector").change(function () {
 		} else {
 			pokeObj.find(".status").val("Healthy")//.change();
 		}
+
+		if (typeof setdex[pokemonName] != "undefined" && typeof setdex[pokemonName][setName] != "undefined" && setdex[pokemonName][setName]["gender"]) {
+			pokeObj.find(".gender").val(setdex[pokemonName][setName]["gender"])//.change();
+		} 
+
+
 		
 	}
 

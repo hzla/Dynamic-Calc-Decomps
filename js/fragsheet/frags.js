@@ -84,7 +84,7 @@ function extractLevel(str) {
 }
 
 function addFrag(e) {
-	if (TITLE != "Pokemon Null") {
+	if (TITLE != "Pokemon Null" && TITLE != "Platinum Kaizo") {
 		e.preventDefault()
 		let speciesName = $('.select2-chosen')[0].innerHTML.split(" (")[0]
 		let fragged =  $('.select2-chosen')[5].innerHTML

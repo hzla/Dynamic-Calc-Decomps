@@ -70,7 +70,7 @@ $(document).ready(function() {
 	 	$('.poke-sprite').click(function() {
 	 		
 	 		if ($(this).parent().attr('id') == "p2") {
-	 			if (TITLE != "Pokemon Null") {
+	 			if (TITLE != "Pokemon Null" && TITLE != "Platinum Kaizo") {
 	 				return
 	 			}
 	 		}

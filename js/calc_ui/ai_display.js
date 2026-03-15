@@ -1,4 +1,67 @@
-   $(document).on('click', '#show-ai', function() {
+const GEN4_AI_FLAG_RENDER_ORDER = {
+    ai1: { option: "basic", title: "BASIC AI" },
+    ai2: { option: "strong", title: "EVALUATE ATKS AI" },
+    ai3: { option: "expert", title: "EXPERT AI" },
+    ai4: { option: "setupFirstTurn", title: "1ST TURN SETUP AI" },
+    ai5: { option: "risky", title: "RISKY AI" },
+    ai6: { option: "damagePriority", title: "PRIO DAMAGE AI" },
+    ai7: { option: "batonPass", title: "BATON PASS AI" },
+    ai9: { option: "checkHp", title: "CHECK HP AI" },
+    ai10: { option: "weather", title: "WEATHER AI" },
+    ai11: { option: "harrassment", title: "HARASS AI" }
+}
+
+function escapeAiHtml(text) {
+    return String(text)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;")
+}
+
+function getVisibleGen4AiSections() {
+    let visibleSections = []
+
+    $('#ai-tags .ai-tag:visible').each(function() {
+        let sectionConfig = GEN4_AI_FLAG_RENDER_ORDER[this.id]
+        if (sectionConfig) {
+            visibleSections.push(sectionConfig)
+        }
+    })
+
+    return visibleSections
+}
+
+function renderAiBlocks(blocks) {
+    let html = ""
+
+    if (!Array.isArray(blocks)) {
+        return html
+    }
+
+    for (let i = 0; i < blocks.length; i++) {
+        let block = blocks[i]
+        if (!block || !block.type) {
+            continue
+        }
+
+        if (block.type === "spacer") {
+            html += `<div class="ai-spacer"></div>`
+            continue
+        }
+
+        if (block.type === "line") {
+            let indent = Number.isFinite(block.indent) ? block.indent : 0
+            let text = block.text ? block.text : ""
+            html += `<div class="ai-line" style="--ai-indent:${indent};">${escapeAiHtml(text)}</div>`
+        }
+    }
+
+    return html
+}
+
+$(document).on('click', '#show-ai', function() {
         
         let selectedMoveBtn = $(".results-right .visually-hidden:checked + .btn")
         if (selectedMoveBtn.length === 0) {
@@ -18,72 +81,46 @@
             }
 
             let moveData = moves[move]
-            function escapeHtml(text) {
-                return String(text)
-                    .replace(/&/g, "&amp;")
-                    .replace(/</g, "&lt;")
-                    .replace(/>/g, "&gt;")
-                    .replace(/"/g, "&quot;")
-                    .replace(/'/g, "&#39;")
-            }
-
             if (!moveData || moveData.e_id === undefined || moveData.e_id === null) {
-                $("#ai-container").html(`<div class="ai-empty">No AI data found for ${escapeHtml(move)}.</div>`)
+                $("#ai-container").html(`<div class="ai-empty">No AI data found for ${escapeAiHtml(move)}.</div>`)
                 return
             }
 
-            let effectId = moveData.e_id
+            let visibleSections = getVisibleGen4AiSections()
+            let aiQueryOptions = {
+                moveName: move,
+                moveType: moveData.type
+            }
 
-            let doublesOn = $('#doubles-format').is(':checked')
-            let aiInfo = getAiTextByEffectId(effectId, { basic: true, strong: true, expert: true, double: doublesOn, moveType: moves[move].type})
+            for (let i = 0; i < visibleSections.length; i++) {
+                aiQueryOptions[visibleSections[i].option] = true
+            }
+
+            let aiInfo = getAiTextByEffectId(moveData.e_id, aiQueryOptions)
             let aiHtml = ""
 
-            aiHtml += `<div class="ai-header"><h2>${escapeHtml(move)} AI: Effect ${escapeHtml(aiInfo.effectId)}</h2></div>`
+            aiHtml += `<div class="ai-header"><h2>${escapeAiHtml(move)} AI: Effect ${escapeAiHtml(aiInfo.effectId)}</h2></div>`
 
             let sectionsRendered = 0
-            let sectionOrder = ["basic", "strong", "expert", "doubleEnemy"]
-            for (let i = 0; i < sectionOrder.length; i++) {
-                let sectionKey = sectionOrder[i]
-                if (!aiInfo || !aiInfo.ai || !aiInfo.ai[sectionKey]) {
+            for (let i = 0; i < visibleSections.length; i++) {
+                let sectionConfig = visibleSections[i]
+                let section = aiInfo && aiInfo.ai ? aiInfo.ai[sectionConfig.option] : null
+                if (!section) {
                     continue
                 }
 
-                let section = aiInfo.ai[sectionKey]
                 aiHtml += `<div class="ai-section">`
-                aiHtml += `<div class="ai-section-title">${escapeHtml(sectionKey.replace("doubleEnemy", "Doubles").toUpperCase())} AI</div>`
-                aiHtml += `<div class="ai-lines">`
-
-                if (Array.isArray(section.blocks)) {
-                    for (let b = 0; b < section.blocks.length; b++) {
-                        let block = section.blocks[b]
-                        if (!block || !block.type) {
-                            continue
-                        }
-
-                        if (block.type === "spacer") {
-                            aiHtml += `<div class="ai-spacer"></div>`
-                            continue
-                        }
-
-                        if (block.type === "line") {
-                            let indent = Number.isFinite(block.indent) ? block.indent : 0
-                            let text = block.text ? block.text : ""
-                            aiHtml += `<div class="ai-line" style="--ai-indent:${indent};">${escapeHtml(text)}</div>`
-                        }
-                    }
-                }
-
-                aiHtml += `</div></div>`
+                aiHtml += `<div class="ai-section-title">${escapeAiHtml(sectionConfig.title)}</div>`
+                aiHtml += `<div class="ai-lines">${renderAiBlocks(section.blocks)}</div>`
+                aiHtml += `</div>`
                 sectionsRendered += 1
             }
 
             if (sectionsRendered === 0) {
-                aiHtml += `<div class="ai-empty">No AI logic found for this move.</div>`
+                aiHtml += `<div class="ai-empty">No AI logic found for the flags visible on this trainer set.</div>`
             }
 
             $("#ai-container").html(aiHtml)
-
-
             return
         }    
         // For game gen 5
@@ -107,5 +144,3 @@
             $("#ai-container").html(ai_html)
         }
    })
-
-

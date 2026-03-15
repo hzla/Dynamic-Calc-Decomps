@@ -251,6 +251,49 @@
         return "Unknown";
     }
 
+    function getPlatinumNatureList() {
+        if (Array.isArray(window.natures) && window.natures.length) {
+            return window.natures;
+        }
+        return [
+            "Hardy", "Lonely", "Brave", "Adamant", "Naughty",
+            "Bold", "Docile", "Relaxed", "Impish", "Lax",
+            "Timid", "Hasty", "Serious", "Jolly", "Naive",
+            "Modest", "Mild", "Quiet", "Bashful", "Rash",
+            "Calm", "Gentle", "Sassy", "Careful", "Quirky"
+        ];
+    }
+
+    function resolvePlatinumAbilityNameForBattleLog(speciesId, abilityValue, abilitySlot) {
+        const directAbilityId = Number(abilityValue);
+        if (Number.isInteger(directAbilityId) && directAbilityId > 0) {
+            return decodeEnumId(directAbilityId, "ability");
+        }
+
+        const speciesName = decodeEnumId(Number(speciesId), "species");
+        const pokedexEntry = speciesName && window.pokedex ? window.pokedex[speciesName] : null;
+        const abilities = pokedexEntry && pokedexEntry.abilities ? pokedexEntry.abilities : null;
+        if (!abilities || typeof abilities !== "object") {
+            return "Unknown";
+        }
+
+        const normalizedSlot = Number(abilitySlot);
+        const preferredKeys = normalizedSlot === 2
+            ? ["1", "0", "H"]
+            : normalizedSlot === 3
+                ? ["H", "0", "1"]
+                : ["0", "1", "H"];
+
+        for (let i = 0; i < preferredKeys.length; i += 1) {
+            const abilityName = abilities[preferredKeys[i]];
+            if (abilityName && abilityName !== "-" && abilityName !== "None") {
+                return abilityName;
+            }
+        }
+
+        return "Unknown";
+    }
+
     function getNullEnumList(kind) {
         if (kind === "species" && Array.isArray(window.nullMons)) {
             return ["", ...window.nullMons];
@@ -297,6 +340,13 @@
             getEnumList: getImperiumEnumList,
             getNatureList: () => Array.isArray(window.natures) ? window.natures : [],
             resolveAbilityName: resolveImperiumAbilityNameForBattleLog,
+        },
+        {
+            id: "platinum",
+            matchesTitle: (title) => typeof title === "string" && title.includes("Platinum"),
+            enabled: true,
+            getNatureList: getPlatinumNatureList,
+            resolveAbilityName: resolvePlatinumAbilityNameForBattleLog,
         },
     ];
 
@@ -543,23 +593,53 @@
         return decoded;
     }
 
+    function decodeNatureId(natureId, adapter) {
+        if (!Number.isInteger(natureId)) return natureId;
+        const natureList = adapter && typeof adapter.getNatureList === "function"
+            ? (adapter.getNatureList() || [])
+            : [];
+        if (natureId < 0 || natureId >= natureList.length) {
+            return natureId;
+        }
+        return natureList[natureId] || natureId;
+    }
+
+    function decodeMoveId(moveId) {
+        const decoded = decodeEnumId(moveId, "move");
+        return typeof decoded === "string" ? getBattleLogMoveDisplayName(decoded) : decoded;
+    }
+
     function decodeBattleLogRecordIds(record) {
         if (!record || typeof record !== "object") return record;
 
         const cloned = JSON.parse(JSON.stringify(record));
         const type = cloned.type;
+        const adapter = getActiveBattleLogRomAdapter();
 
         if (type === "session_start" && Array.isArray(cloned.pParty)) {
             cloned.pParty = cloned.pParty.map((mon) => {
                 if (!mon || typeof mon !== "object") return mon;
 
                 const nextMon = { ...mon };
-                nextMon.species = decodeEnumId(nextMon.species, "species");
-                nextMon.ability = decodeEnumId(nextMon.ability, "ability");
+                const speciesId = Number(nextMon.species);
+                nextMon.species = decodeEnumId(speciesId, "species");
                 nextMon.heldItem = decodeEnumId(nextMon.heldItem, "item");
+                if (Number.isInteger(nextMon.natureId)) {
+                    nextMon.nature = decodeNatureId(nextMon.natureId, adapter);
+                }
+
+                if (adapter && adapter.id === "platinum") {
+                    nextMon.ability = resolvePlatinumAbilityNameForBattleLog(
+                        speciesId,
+                        nextMon.ability,
+                        nextMon.abilitySlot
+                    );
+                } else {
+                    nextMon.ability = decodeEnumId(nextMon.ability, "ability");
+                }
 
                 if (Array.isArray(nextMon.moves)) {
-                    nextMon.moves = nextMon.moves.map((moveId) => decodeEnumId(moveId, "move"));
+                    nextMon.moves = nextMon.moves.map((moveId) => decodeMoveId(moveId));
                 }
 
                 return nextMon;
@@ -568,7 +648,7 @@
             cloned.pSpecies = decodeEnumId(cloned.pSpecies, "species");
             cloned.aiSpecies = decodeEnumId(cloned.aiSpecies, "species");
             if ("move" in cloned) {
-                cloned.move = decodeEnumId(cloned.move, "move");
+                cloned.move = decodeMoveId(cloned.move);
             }
         }
 

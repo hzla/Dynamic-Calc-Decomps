@@ -32,7 +32,8 @@ backupFiles = {
 	"Blinding White 2": "blind",
 	"Emerald Kaizo": "ek",
 	"Royal Sapphire": "roysaph",
-	"Pokemon Null": "null"
+	"Pokemon Null": "null",
+	"Platinum Kaizo": "pk"
 }
 
 
