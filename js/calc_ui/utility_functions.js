@@ -101,9 +101,11 @@ function updateBoxAnim() {
     }, 500)
 }
 
-function pack12BitInts(values, maxLen = 100) {
+function pack12BitInts(values, maxLen) {
   if (!Array.isArray(values)) throw new TypeError("values must be an array");
-  if (values.length > maxLen) throw new RangeError(`max ${maxLen} values`);
+  if (Number.isFinite(maxLen) && values.length > maxLen) {
+    throw new RangeError(`max ${maxLen} values`);
+  }
 
   const n = values.length;
   const totalBits = n * 12;
@@ -134,7 +136,7 @@ function bytesToBase64(bytes) {
   return btoa(bin);
 }
 
-function pack12BitIntsToBase64(values, maxLen = 100) {
+function pack12BitIntsToBase64(values, maxLen) {
   return bytesToBase64(pack12BitInts(values, maxLen));
 }
 
@@ -143,7 +145,7 @@ function pack12BitIntsToBase64(values, maxLen = 100) {
  */
 function unpack12BitInts(bytes, count) {
   if (!(bytes instanceof Uint8Array)) throw new TypeError("bytes must be Uint8Array");
-  if (!Number.isInteger(count) || count < 0 || count > 100) throw new RangeError("bad count");
+  if (!Number.isInteger(count) || count < 0) throw new RangeError("bad count");
 
   const neededBits = count * 12;
   if (bytes.length * 8 < neededBits) throw new RangeError("not enough data");

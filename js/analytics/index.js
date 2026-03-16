@@ -31,13 +31,37 @@ function getPartyData() {
 	return partyData;
 }
 
+function pruneCustomSetsWithoutMyBox() {
+  let removedAny = false;
+
+  for (const speciesName in (customSets || {})) {
+    if (!customSets[speciesName] || !customSets[speciesName]["My Box"]) {
+      delete customSets[speciesName];
+      removedAny = true;
+    }
+  }
+
+  if (removedAny) {
+    localStorage.customsets = JSON.stringify(customSets);
+  }
+}
+
 function getBoxData() {
   const boxIds = [];
   const pok_names = TITLE.includes("Imperium") ? emImpMons : sav_pok_names;
 
+  pruneCustomSetsWithoutMyBox();
+
   for (const speciesName in (customSets || {})) {
+    const speciesSets = customSets[speciesName];
+    if (!speciesSets || !speciesSets["My Box"]) {
+      continue;
+    }
+
     const speciesId = pok_names.indexOf(speciesName);
-    if (speciesId !== -1) boxIds.push(speciesId);
+    if (speciesId !== -1) {
+      boxIds.push(speciesId);
+    }
   }
 
   const boxCount = boxIds.length;
@@ -63,38 +87,42 @@ function getBoxData() {
 }
 
 function getSnapshot() {
-  const partyData = getPartyData();
-  const currentAiPok = get_current_in?.();
-  const { boxDataB64, boxCount } = getBoxData();
+  try {
+    const partyData = getPartyData();
+    const currentAiPok = get_current_in?.();
+    const { boxDataB64, boxCount } = getBoxData();
 
-  if (partyData.length < 6) return null;
+    if (partyData.length < 6) return null;
 
-  const snapshot = {};
+    const snapshot = {};
 
 
-  if (TITLE == "Pokemon Null") { //trainer name over id for pokemon null
-  	snapshot.tr =
-    (currentAiPok && currentAiPok.tr_id != null && lastAiTrainerName || String(currentAiPok.tr_id))
-     || "";
-  } else {
-  	snapshot.tr =
-    (currentAiPok && currentAiPok.tr_id != null && String(currentAiPok.tr_id)) ||
-    lastAiTrainerName ||
-    "";
+    if (TITLE == "Pokemon Null") { //trainer name over id for pokemon null
+    	snapshot.tr =
+      (currentAiPok && currentAiPok.tr_id != null && lastAiTrainerName || String(currentAiPok.tr_id))
+       || "";
+    } else {
+    	snapshot.tr =
+      (currentAiPok && currentAiPok.tr_id != null && String(currentAiPok.tr_id)) ||
+      lastAiTrainerName ||
+      "";
+    }
+    
+
+    snapshot.party = partyData;
+    snapshot.title = typeof TITLE !== "undefined" ? String(TITLE) : "";
+    snapshot.tid = (localStorage && localStorage.lastTid) ? String(localStorage.lastTid) : "";
+
+    snapshot.box_count = boxCount;
+    snapshot.box_data_b64 = boxDataB64; // send base64 string; Edge will decode to bytea
+
+    if (!snapshot.title || !snapshot.tid || !snapshot.tr) return null;
+
+    return snapshot;
+  } catch (error) {
+    console.error("Failed to build analytics snapshot", error);
+    return null;
   }
-  
-
-  snapshot.party = partyData;
-  snapshot.title = typeof TITLE !== "undefined" ? String(TITLE) : "";
-  snapshot.tid = (localStorage && localStorage.lastTid) ? String(localStorage.lastTid) : "";
-
-  // NEW:
-  snapshot.box_count = boxCount;
-  snapshot.box_data_b64 = boxDataB64; // send base64 string; Edge will decode to bytea
-
-  if (!snapshot.title || !snapshot.tid || !snapshot.tr) return null;
-
-  return snapshot;
 }
 
 
@@ -274,6 +302,3 @@ async function fetchTopItems(opts) {
 window.fetchTopSpecies = fetchTopSpecies;
 window.fetchTopMoves = fetchTopMoves;
 window.fetchTopItems = fetchTopItems;
-
-
-

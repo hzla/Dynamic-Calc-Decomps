@@ -651,6 +651,9 @@ $('#delete-enc').click(function() {
         var sets = JSON.parse(localStorage.customsets)
 
         delete sets[speciesName]['My Box']
+        if (sets[speciesName] && Object.keys(sets[speciesName]).length === 0) {
+            delete sets[speciesName]
+        }
         localStorage.toDelete = speciesName
         localStorage.customsets = JSON.stringify(sets)
 

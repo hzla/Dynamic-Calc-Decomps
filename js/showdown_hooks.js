@@ -162,6 +162,9 @@ $(document).ready(function() {
         var sets = JSON.parse(localStorage.customsets)
         if (confirm(`Delete ${species} from imported sets?`)) {
             delete sets[species]['My Box']
+            if (sets[species] && Object.keys(sets[species]).length === 0) {
+                delete sets[species]
+            }
             delete SETDEX_BW[species]['My Box']
             localStorage.customsets = JSON.stringify(sets)
             $(`[data-id='${$('.set-selector')[0].value}']`).remove()
