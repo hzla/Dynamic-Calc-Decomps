@@ -662,13 +662,6 @@ function loadMovesData() {
         continue //completely overite if custom move data found
     }
 
-    if (moveName == "Snap Trap") {
-        console.log("snap")
-    }
-
-
-
-
 
     if (moveName == '(No Move)') {
         continue

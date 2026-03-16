@@ -248,6 +248,11 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 basePower = (hitCount + 1) * 10;
                 desc.moveBP = move.hits === 2 ? 30 : move.hits === 3 ? 60 : 10;
                 break;
+            case 'Rock Wrecker':
+            case 'Triple Axel':
+                basePower = 50;
+                desc.moveBP = move.hits === 2 ? 90 : move.hits === 3 ? 150 : 40;
+                break;
             default:
                 basePower = move.bp;
         }

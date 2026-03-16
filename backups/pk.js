@@ -16471,7 +16471,7 @@ backup_data = {
                 "spriteId": 29,
                 "orientation": 1
             },
-            "Lvl 39 Pkmn Trainer Rival4 ": {
+            "Lvl 39 Pkmn Trainer CみとみいrVとぷい4 ": {
                 "level": 39,
                 "tr_id": 470,
                 "ai": 279,
@@ -16501,7 +16501,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 39 Pkmn Trainer Rival5 ": {
+            "Lvl 39 Pkmn Trainer CみとみいrVとぷい5 ": {
                 "level": 39,
                 "tr_id": 471,
                 "ai": 279,
@@ -16531,7 +16531,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 39 Pkmn Trainer Rival6 ": {
+            "Lvl 39 Pkmn Trainer CみとみいrVとぷい6 ": {
                 "level": 39,
                 "tr_id": 472,
                 "ai": 279,
@@ -16561,7 +16561,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer Rival7 ": {
+            "Lvl 46 Pkmn Trainer CみとみいrVとぷい7 ": {
                 "level": 46,
                 "tr_id": 473,
                 "ai": 7,
@@ -16591,7 +16591,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer Rival8 ": {
+            "Lvl 46 Pkmn Trainer CみとみいrVとぷい8 ": {
                 "level": 46,
                 "tr_id": 474,
                 "ai": 7,
@@ -16621,7 +16621,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer Rival9 ": {
+            "Lvl 46 Pkmn Trainer CみとみいrVとぷい9 ": {
                 "level": 46,
                 "tr_id": 475,
                 "ai": 7,
@@ -16651,7 +16651,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Pkmn Trainer Rival10 ": {
+            "Lvl 55 Pkmn Trainer CみとみいrVとぷい10 ": {
                 "level": 55,
                 "tr_id": 476,
                 "ai": 7,
@@ -16681,7 +16681,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Pkmn Trainer Rival11 ": {
+            "Lvl 55 Pkmn Trainer CみとみいrVとぷい11 ": {
                 "level": 55,
                 "tr_id": 477,
                 "ai": 7,
@@ -16711,7 +16711,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Pkmn Trainer Rival12 ": {
+            "Lvl 55 Pkmn Trainer CみとみいrVとぷい12 ": {
                 "level": 55,
                 "tr_id": 478,
                 "ai": 7,
@@ -16741,7 +16741,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival13 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -16771,7 +16771,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival14 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -16801,7 +16801,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival |Route 223| ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -16863,7 +16863,7 @@ backup_data = {
                 "partner": 507,
                 "weather": "Hail"
             },
-            "Lvl 100 Pkmn Trainer Rival15 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -16893,7 +16893,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival16 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -16923,7 +16923,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival17 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -19781,7 +19781,7 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 2
             },
-            "Lvl 39 Pkmn Trainer Rival6 ": {
+            "Lvl 39 Pkmn Trainer CみとみいrVとぷい6 ": {
                 "level": 39,
                 "tr_id": 472,
                 "ai": 279,
@@ -25126,7 +25126,7 @@ backup_data = {
                 "partner": 443,
                 "tagPartner": 612
             },
-            "Lvl 39 Pkmn Trainer Rival4 ": {
+            "Lvl 39 Pkmn Trainer CみとみいrVとぷい4 ": {
                 "level": 39,
                 "tr_id": 470,
                 "ai": 279,
@@ -30241,7 +30241,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer Rival18 ": {
+            "Lvl 59 Pkmn Trainer CみとみいrVとぷい18 ": {
                 "level": 59,
                 "tr_id": 837,
                 "ai": 7,
@@ -30271,7 +30271,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer Rival20 ": {
+            "Lvl 59 Pkmn Trainer CみとみいrVとぷい20 ": {
                 "level": 59,
                 "tr_id": 839,
                 "ai": 7,
@@ -30301,7 +30301,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer Rival21 ": {
+            "Lvl 69 Pkmn Trainer CみとみいrVとぷい21 ": {
                 "level": 69,
                 "tr_id": 840,
                 "ai": 7,
@@ -30331,7 +30331,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer Rival23 ": {
+            "Lvl 69 Pkmn Trainer CみとみいrVとぷい23 ": {
                 "level": 69,
                 "tr_id": 842,
                 "ai": 7,
@@ -30391,7 +30391,7 @@ backup_data = {
                 "spriteId": 38,
                 "orientation": 1
             },
-            "Lvl 79 Pkmn Trainer Rival27 ": {
+            "Lvl 79 Pkmn Trainer CみとみいrVとぷい27 ": {
                 "level": 79,
                 "tr_id": 871,
                 "ai": 7,
@@ -30421,7 +30421,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 79 Pkmn Trainer Rival29 ": {
+            "Lvl 79 Pkmn Trainer CみとみいrVとぷい29 ": {
                 "level": 79,
                 "tr_id": 873,
                 "ai": 7,
@@ -30451,7 +30451,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer Rival30 ": {
+            "Lvl 52 Pkmn Trainer CみとみいrVとぷい30 ": {
                 "level": 52,
                 "tr_id": 923,
                 "ai": 7,
@@ -30481,7 +30481,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer Rival32 ": {
+            "Lvl 52 Pkmn Trainer CみとみいrVとぷい32 ": {
                 "level": 52,
                 "tr_id": 925,
                 "ai": 7,
@@ -35325,7 +35325,7 @@ backup_data = {
                 "spriteId": 41,
                 "orientation": 2
             },
-            "Lvl 47 Pkmn Trainer Rival7 ": {
+            "Lvl 47 Pkmn Trainer CみとみいrVとぷい7 ": {
                 "level": 47,
                 "tr_id": 473,
                 "ai": 7,
@@ -35355,7 +35355,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Pkmn Trainer Rival8 ": {
+            "Lvl 47 Pkmn Trainer CみとみいrVとぷい8 ": {
                 "level": 47,
                 "tr_id": 474,
                 "ai": 7,
@@ -35385,7 +35385,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Pkmn Trainer Rival9 ": {
+            "Lvl 47 Pkmn Trainer CみとみいrVとぷい9 ": {
                 "level": 47,
                 "tr_id": 475,
                 "ai": 7,
@@ -35415,7 +35415,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer Rival10 ": {
+            "Lvl 56 Pkmn Trainer CみとみいrVとぷい10 ": {
                 "level": 56,
                 "tr_id": 476,
                 "ai": 7,
@@ -35445,7 +35445,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer Rival11 ": {
+            "Lvl 56 Pkmn Trainer CみとみいrVとぷい11 ": {
                 "level": 56,
                 "tr_id": 477,
                 "ai": 7,
@@ -35475,7 +35475,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer Rival12 ": {
+            "Lvl 56 Pkmn Trainer CみとみいrVとぷい12 ": {
                 "level": 56,
                 "tr_id": 478,
                 "ai": 7,
@@ -35746,7 +35746,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer Rival18 ": {
+            "Lvl 61 Pkmn Trainer CみとみいrVとぷい18 ": {
                 "level": 61,
                 "tr_id": 837,
                 "ai": 7,
@@ -35776,7 +35776,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer Rival19 ": {
+            "Lvl 61 Pkmn Trainer CみとみいrVとぷい19 ": {
                 "level": 61,
                 "tr_id": 838,
                 "ai": 7,
@@ -35806,7 +35806,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer Rival20 ": {
+            "Lvl 61 Pkmn Trainer CみとみいrVとぷい20 ": {
                 "level": 61,
                 "tr_id": 839,
                 "ai": 7,
@@ -35836,7 +35836,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer Rival21 ": {
+            "Lvl 71 Pkmn Trainer CみとみいrVとぷい21 ": {
                 "level": 71,
                 "tr_id": 840,
                 "ai": 7,
@@ -35866,7 +35866,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer Rival22 ": {
+            "Lvl 71 Pkmn Trainer CみとみいrVとぷい22 ": {
                 "level": 71,
                 "tr_id": 841,
                 "ai": 7,
@@ -35896,7 +35896,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer Rival23 ": {
+            "Lvl 71 Pkmn Trainer CみとみいrVとぷい23 ": {
                 "level": 71,
                 "tr_id": 842,
                 "ai": 7,
@@ -35926,7 +35926,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer Rival27 ": {
+            "Lvl 81 Pkmn Trainer CみとみいrVとぷい27 ": {
                 "level": 81,
                 "tr_id": 871,
                 "ai": 7,
@@ -35956,7 +35956,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer Rival28 ": {
+            "Lvl 81 Pkmn Trainer CみとみいrVとぷい28 ": {
                 "level": 81,
                 "tr_id": 872,
                 "ai": 7,
@@ -35986,7 +35986,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer Rival29 ": {
+            "Lvl 81 Pkmn Trainer CみとみいrVとぷい29 ": {
                 "level": 81,
                 "tr_id": 873,
                 "ai": 7,
@@ -36016,7 +36016,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer Rival30 ": {
+            "Lvl 53 Pkmn Trainer CみとみいrVとぷい30 ": {
                 "level": 53,
                 "tr_id": 923,
                 "ai": 7,
@@ -36046,7 +36046,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer Rival31 ": {
+            "Lvl 53 Pkmn Trainer CみとみいrVとぷい31 ": {
                 "level": 53,
                 "tr_id": 924,
                 "ai": 7,
@@ -36076,7 +36076,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer Rival32 ": {
+            "Lvl 53 Pkmn Trainer CみとみいrVとぷい32 ": {
                 "level": 53,
                 "tr_id": 925,
                 "ai": 7,
@@ -36199,7 +36199,7 @@ backup_data = {
                 "spriteId": 10,
                 "orientation": 3
             },
-            "Lvl 47 Pkmn Trainer Rival7 ": {
+            "Lvl 47 Pkmn Trainer CみとみいrVとぷい7 ": {
                 "level": 47,
                 "tr_id": 473,
                 "ai": 7,
@@ -36229,7 +36229,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer Rival10 ": {
+            "Lvl 56 Pkmn Trainer CみとみいrVとぷい10 ": {
                 "level": 56,
                 "tr_id": 476,
                 "ai": 7,
@@ -36259,7 +36259,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival13 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -36322,7 +36322,7 @@ backup_data = {
                 "tagPartner": 861,
                 "weather": "Fog"
             },
-            "Lvl 100 Pkmn Trainer Rival15 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -38997,7 +38997,7 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 40 Pkmn Trainer Rival4 ": {
+            "Lvl 40 Pkmn Trainer CみとみいrVとぷい4 ": {
                 "level": 40,
                 "tr_id": 470,
                 "ai": 279,
@@ -39027,7 +39027,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Pkmn Trainer Rival7 ": {
+            "Lvl 50 Pkmn Trainer CみとみいrVとぷい7 ": {
                 "level": 50,
                 "tr_id": 473,
                 "ai": 7,
@@ -39057,7 +39057,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 57 Pkmn Trainer Rival10 ": {
+            "Lvl 57 Pkmn Trainer CみとみいrVとぷい10 ": {
                 "level": 57,
                 "tr_id": 476,
                 "ai": 7,
@@ -39087,7 +39087,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival13 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -39212,7 +39212,7 @@ backup_data = {
                 "spriteId": 10,
                 "orientation": 3
             },
-            "Lvl 100 Pkmn Trainer Rival15 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -39392,7 +39392,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Pkmn Trainer Rival18 ": {
+            "Lvl 65 Pkmn Trainer CみとみいrVとぷい18 ": {
                 "level": 65,
                 "tr_id": 837,
                 "ai": 7,
@@ -39422,7 +39422,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 75 Pkmn Trainer Rival21 ": {
+            "Lvl 75 Pkmn Trainer CみとみいrVとぷい21 ": {
                 "level": 75,
                 "tr_id": 840,
                 "ai": 7,
@@ -39513,7 +39513,7 @@ backup_data = {
                 "orientation": null,
                 "weather": "Sand"
             },
-            "Lvl 85 Pkmn Trainer Rival27 ": {
+            "Lvl 85 Pkmn Trainer CみとみいrVとぷい27 ": {
                 "level": 85,
                 "tr_id": 871,
                 "ai": 7,
@@ -39543,7 +39543,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer Rival30 ": {
+            "Lvl 56 Pkmn Trainer CみとみいrVとぷい30 ": {
                 "level": 56,
                 "tr_id": 923,
                 "ai": 7,
@@ -44146,7 +44146,7 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 3
             },
-            "Lvl 40 Pkmn Trainer Rival5 ": {
+            "Lvl 40 Pkmn Trainer CみとみいrVとぷい5 ": {
                 "level": 40,
                 "tr_id": 471,
                 "ai": 279,
@@ -44176,7 +44176,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Pkmn Trainer Rival8 ": {
+            "Lvl 50 Pkmn Trainer CみとみいrVとぷい8 ": {
                 "level": 50,
                 "tr_id": 474,
                 "ai": 7,
@@ -44206,7 +44206,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 57 Pkmn Trainer Rival11 ": {
+            "Lvl 57 Pkmn Trainer CみとみいrVとぷい11 ": {
                 "level": 57,
                 "tr_id": 477,
                 "ai": 7,
@@ -44236,7 +44236,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival14 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -44327,7 +44327,7 @@ backup_data = {
                 "spriteId": 49,
                 "orientation": 2
             },
-            "Lvl 100 Pkmn Trainer Rival16 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -44477,7 +44477,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Pkmn Trainer Rival19 ": {
+            "Lvl 65 Pkmn Trainer CみとみいrVとぷい19 ": {
                 "level": 65,
                 "tr_id": 838,
                 "ai": 7,
@@ -44507,7 +44507,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 75 Pkmn Trainer Rival22 ": {
+            "Lvl 75 Pkmn Trainer CみとみいrVとぷい22 ": {
                 "level": 75,
                 "tr_id": 841,
                 "ai": 7,
@@ -44537,7 +44537,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 85 Pkmn Trainer Rival28 ": {
+            "Lvl 85 Pkmn Trainer CみとみいrVとぷい28 ": {
                 "level": 85,
                 "tr_id": 872,
                 "ai": 7,
@@ -44567,7 +44567,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer Rival31 ": {
+            "Lvl 56 Pkmn Trainer CみとみいrVとぷい31 ": {
                 "level": 56,
                 "tr_id": 924,
                 "ai": 7,
@@ -45411,7 +45411,7 @@ backup_data = {
                 "partner": 458,
                 "tagPartner": 612
             },
-            "Lvl 38 Pkmn Trainer Rival4 ": {
+            "Lvl 38 Pkmn Trainer CみとみいrVとぷい4 ": {
                 "level": 38,
                 "tr_id": 470,
                 "ai": 279,
@@ -45441,7 +45441,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer Rival5 ": {
+            "Lvl 38 Pkmn Trainer CみとみいrVとぷい5 ": {
                 "level": 38,
                 "tr_id": 471,
                 "ai": 279,
@@ -45471,7 +45471,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer Rival6 ": {
+            "Lvl 38 Pkmn Trainer CみとみいrVとぷい6 ": {
                 "level": 38,
                 "tr_id": 472,
                 "ai": 279,
@@ -45501,7 +45501,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Pkmn Trainer Rival7 ": {
+            "Lvl 47 Pkmn Trainer CみとみいrVとぷい7 ": {
                 "level": 47,
                 "tr_id": 473,
                 "ai": 7,
@@ -45531,7 +45531,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Pkmn Trainer Rival8 ": {
+            "Lvl 47 Pkmn Trainer CみとみいrVとぷい8 ": {
                 "level": 47,
                 "tr_id": 474,
                 "ai": 7,
@@ -45561,7 +45561,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Pkmn Trainer Rival9 ": {
+            "Lvl 47 Pkmn Trainer CみとみいrVとぷい9 ": {
                 "level": 47,
                 "tr_id": 475,
                 "ai": 7,
@@ -45591,7 +45591,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer Rival10 ": {
+            "Lvl 54 Pkmn Trainer CみとみいrVとぷい10 ": {
                 "level": 54,
                 "tr_id": 476,
                 "ai": 7,
@@ -45621,7 +45621,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer Rival11 ": {
+            "Lvl 54 Pkmn Trainer CみとみいrVとぷい11 ": {
                 "level": 54,
                 "tr_id": 477,
                 "ai": 7,
@@ -45651,7 +45651,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer Rival12 ": {
+            "Lvl 54 Pkmn Trainer CみとみいrVとぷい12 ": {
                 "level": 54,
                 "tr_id": 478,
                 "ai": 7,
@@ -45681,7 +45681,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival13 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -45711,7 +45711,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival14 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -45741,7 +45741,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival |Route 223| ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -45835,7 +45835,7 @@ backup_data = {
                 "tagPartner": 865,
                 "weather": "Hail"
             },
-            "Lvl 100 Pkmn Trainer Rival15 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -45865,7 +45865,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival16 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -45895,7 +45895,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival17 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -50624,7 +50624,7 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 47 Pkmn Trainer Rival8 ": {
+            "Lvl 47 Pkmn Trainer CみとみいrVとぷい8 ": {
                 "level": 47,
                 "tr_id": 474,
                 "ai": 7,
@@ -50654,7 +50654,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer Rival11 ": {
+            "Lvl 56 Pkmn Trainer CみとみいrVとぷい11 ": {
                 "level": 56,
                 "tr_id": 477,
                 "ai": 7,
@@ -50684,7 +50684,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival14 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -50775,7 +50775,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival16 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -53602,7 +53602,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer Rival18 ": {
+            "Lvl 63 Pkmn Trainer CみとみいrVとぷい18 ": {
                 "level": 63,
                 "tr_id": 837,
                 "ai": 7,
@@ -53632,7 +53632,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer Rival19 ": {
+            "Lvl 63 Pkmn Trainer CみとみいrVとぷい19 ": {
                 "level": 63,
                 "tr_id": 838,
                 "ai": 7,
@@ -53662,7 +53662,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer Rival20 ": {
+            "Lvl 63 Pkmn Trainer CみとみいrVとぷい20 ": {
                 "level": 63,
                 "tr_id": 839,
                 "ai": 7,
@@ -53692,7 +53692,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 73 Pkmn Trainer Rival21 ": {
+            "Lvl 73 Pkmn Trainer CみとみいrVとぷい21 ": {
                 "level": 73,
                 "tr_id": 840,
                 "ai": 7,
@@ -53722,7 +53722,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 73 Pkmn Trainer Rival22 ": {
+            "Lvl 73 Pkmn Trainer CみとみいrVとぷい22 ": {
                 "level": 73,
                 "tr_id": 841,
                 "ai": 7,
@@ -53752,7 +53752,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 73 Pkmn Trainer Rival23 ": {
+            "Lvl 73 Pkmn Trainer CみとみいrVとぷい23 ": {
                 "level": 73,
                 "tr_id": 842,
                 "ai": 7,
@@ -53782,7 +53782,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 83 Pkmn Trainer Rival27 ": {
+            "Lvl 83 Pkmn Trainer CみとみいrVとぷい27 ": {
                 "level": 83,
                 "tr_id": 871,
                 "ai": 7,
@@ -53812,7 +53812,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 83 Pkmn Trainer Rival28 ": {
+            "Lvl 83 Pkmn Trainer CみとみいrVとぷい28 ": {
                 "level": 83,
                 "tr_id": 872,
                 "ai": 7,
@@ -53842,7 +53842,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 83 Pkmn Trainer Rival29 ": {
+            "Lvl 83 Pkmn Trainer CみとみいrVとぷい29 ": {
                 "level": 83,
                 "tr_id": 873,
                 "ai": 7,
@@ -53902,7 +53902,7 @@ backup_data = {
                 "spriteId": 61,
                 "orientation": 0
             },
-            "Lvl 54 Pkmn Trainer Rival30 ": {
+            "Lvl 54 Pkmn Trainer CみとみいrVとぷい30 ": {
                 "level": 54,
                 "tr_id": 923,
                 "ai": 7,
@@ -53932,7 +53932,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer Rival31 ": {
+            "Lvl 54 Pkmn Trainer CみとみいrVとぷい31 ": {
                 "level": 54,
                 "tr_id": 924,
                 "ai": 7,
@@ -53962,7 +53962,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer Rival32 ": {
+            "Lvl 54 Pkmn Trainer CみとみいrVとぷい32 ": {
                 "level": 54,
                 "tr_id": 925,
                 "ai": 7,
@@ -58975,7 +58975,7 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 47 Pkmn Trainer Rival9 ": {
+            "Lvl 47 Pkmn Trainer CみとみいrVとぷい9 ": {
                 "level": 47,
                 "tr_id": 475,
                 "ai": 7,
@@ -59005,7 +59005,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer Rival12 ": {
+            "Lvl 56 Pkmn Trainer CみとみいrVとぷい12 ": {
                 "level": 56,
                 "tr_id": 478,
                 "ai": 7,
@@ -59035,7 +59035,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival |Route 223| ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -59222,7 +59222,7 @@ backup_data = {
                 "tagPartner": 863,
                 "weather": "Rain"
             },
-            "Lvl 100 Pkmn Trainer Rival17 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -67532,7 +67532,7 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Hail"
             },
-            "Lvl 38 Pkmn Trainer Rival4 ": {
+            "Lvl 38 Pkmn Trainer CみとみいrVとぷい4 ": {
                 "level": 38,
                 "tr_id": 470,
                 "ai": 279,
@@ -67562,7 +67562,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer Rival5 ": {
+            "Lvl 38 Pkmn Trainer CみとみいrVとぷい5 ": {
                 "level": 38,
                 "tr_id": 471,
                 "ai": 279,
@@ -67592,7 +67592,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer Rival6 ": {
+            "Lvl 38 Pkmn Trainer CみとみいrVとぷい6 ": {
                 "level": 38,
                 "tr_id": 472,
                 "ai": 279,
@@ -67622,7 +67622,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival13 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -67652,7 +67652,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival14 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -67682,7 +67682,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival |Route 223| ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -67744,7 +67744,7 @@ backup_data = {
                 "partner": 508,
                 "weather": "Hail"
             },
-            "Lvl 100 Pkmn Trainer Rival15 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -67774,7 +67774,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival16 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -67804,7 +67804,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival17 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -68520,7 +68520,7 @@ backup_data = {
                 "spriteId": 31,
                 "orientation": 2
             },
-            "Lvl 40 Pkmn Trainer Rival6 ": {
+            "Lvl 40 Pkmn Trainer CみとみいrVとぷい6 ": {
                 "level": 40,
                 "tr_id": 472,
                 "ai": 279,
@@ -68550,7 +68550,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Pkmn Trainer Rival9 ": {
+            "Lvl 50 Pkmn Trainer CみとみいrVとぷい9 ": {
                 "level": 50,
                 "tr_id": 475,
                 "ai": 7,
@@ -68580,7 +68580,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 57 Pkmn Trainer Rival12 ": {
+            "Lvl 57 Pkmn Trainer CみとみいrVとぷい12 ": {
                 "level": 57,
                 "tr_id": 478,
                 "ai": 7,
@@ -68610,7 +68610,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival |Route 223| ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -68796,7 +68796,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival17 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -69041,7 +69041,7 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Rain"
             },
-            "Lvl 65 Pkmn Trainer Rival20 ": {
+            "Lvl 65 Pkmn Trainer CみとみいrVとぷい20 ": {
                 "level": 65,
                 "tr_id": 839,
                 "ai": 7,
@@ -69071,7 +69071,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 75 Pkmn Trainer Rival23 ": {
+            "Lvl 75 Pkmn Trainer CみとみいrVとぷい23 ": {
                 "level": 75,
                 "tr_id": 842,
                 "ai": 7,
@@ -69101,7 +69101,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 85 Pkmn Trainer Rival29 ": {
+            "Lvl 85 Pkmn Trainer CみとみいrVとぷい29 ": {
                 "level": 85,
                 "tr_id": 873,
                 "ai": 7,
@@ -69131,7 +69131,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer Rival32 ": {
+            "Lvl 56 Pkmn Trainer CみとみいrVとぷい32 ": {
                 "level": 56,
                 "tr_id": 925,
                 "ai": 7,
@@ -72665,7 +72665,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer Rival18 ": {
+            "Lvl 59 Pkmn Trainer CみとみいrVとぷい18 ": {
                 "level": 59,
                 "tr_id": 837,
                 "ai": 7,
@@ -72695,7 +72695,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer Rival19 ": {
+            "Lvl 59 Pkmn Trainer CみとみいrVとぷい19 ": {
                 "level": 59,
                 "tr_id": 838,
                 "ai": 7,
@@ -72725,7 +72725,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer Rival21 ": {
+            "Lvl 69 Pkmn Trainer CみとみいrVとぷい21 ": {
                 "level": 69,
                 "tr_id": 840,
                 "ai": 7,
@@ -72755,7 +72755,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer Rival22 ": {
+            "Lvl 69 Pkmn Trainer CみとみいrVとぷい22 ": {
                 "level": 69,
                 "tr_id": 841,
                 "ai": 7,
@@ -72845,7 +72845,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 79 Pkmn Trainer Rival27 ": {
+            "Lvl 79 Pkmn Trainer CみとみいrVとぷい27 ": {
                 "level": 79,
                 "tr_id": 871,
                 "ai": 7,
@@ -72875,7 +72875,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 79 Pkmn Trainer Rival28 ": {
+            "Lvl 79 Pkmn Trainer CみとみいrVとぷい28 ": {
                 "level": 79,
                 "tr_id": 872,
                 "ai": 7,
@@ -72905,7 +72905,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer Rival30 ": {
+            "Lvl 52 Pkmn Trainer CみとみいrVとぷい30 ": {
                 "level": 52,
                 "tr_id": 923,
                 "ai": 7,
@@ -72935,7 +72935,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer Rival31 ": {
+            "Lvl 52 Pkmn Trainer CみとみいrVとぷい31 ": {
                 "level": 52,
                 "tr_id": 924,
                 "ai": 7,
@@ -72998,7 +72998,7 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 9 Pkmn Trainer Rival ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい ": {
                 "level": 9,
                 "tr_id": 247,
                 "ai": 39,
@@ -73028,7 +73028,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer Rival2 ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい2 ": {
                 "level": 9,
                 "tr_id": 248,
                 "ai": 39,
@@ -73058,7 +73058,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer Rival3 ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい3 ": {
                 "level": 9,
                 "tr_id": 249,
                 "ai": 39,
@@ -73491,7 +73491,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer Rival18 ": {
+            "Lvl 61 Pkmn Trainer CみとみいrVとぷい18 ": {
                 "level": 61,
                 "tr_id": 837,
                 "ai": 7,
@@ -73521,7 +73521,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer Rival19 ": {
+            "Lvl 61 Pkmn Trainer CみとみいrVとぷい19 ": {
                 "level": 61,
                 "tr_id": 838,
                 "ai": 7,
@@ -73551,7 +73551,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer Rival20 ": {
+            "Lvl 61 Pkmn Trainer CみとみいrVとぷい20 ": {
                 "level": 61,
                 "tr_id": 839,
                 "ai": 7,
@@ -73581,7 +73581,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer Rival21 ": {
+            "Lvl 71 Pkmn Trainer CみとみいrVとぷい21 ": {
                 "level": 71,
                 "tr_id": 840,
                 "ai": 7,
@@ -73611,7 +73611,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer Rival22 ": {
+            "Lvl 71 Pkmn Trainer CみとみいrVとぷい22 ": {
                 "level": 71,
                 "tr_id": 841,
                 "ai": 7,
@@ -73641,7 +73641,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer Rival23 ": {
+            "Lvl 71 Pkmn Trainer CみとみいrVとぷい23 ": {
                 "level": 71,
                 "tr_id": 842,
                 "ai": 7,
@@ -73701,7 +73701,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer Rival27 ": {
+            "Lvl 81 Pkmn Trainer CみとみいrVとぷい27 ": {
                 "level": 81,
                 "tr_id": 871,
                 "ai": 7,
@@ -73731,7 +73731,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer Rival28 ": {
+            "Lvl 81 Pkmn Trainer CみとみいrVとぷい28 ": {
                 "level": 81,
                 "tr_id": 872,
                 "ai": 7,
@@ -73761,7 +73761,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer Rival29 ": {
+            "Lvl 81 Pkmn Trainer CみとみいrVとぷい29 ": {
                 "level": 81,
                 "tr_id": 873,
                 "ai": 7,
@@ -73791,7 +73791,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer Rival30 ": {
+            "Lvl 53 Pkmn Trainer CみとみいrVとぷい30 ": {
                 "level": 53,
                 "tr_id": 923,
                 "ai": 7,
@@ -73821,7 +73821,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer Rival31 ": {
+            "Lvl 53 Pkmn Trainer CみとみいrVとぷい31 ": {
                 "level": 53,
                 "tr_id": 924,
                 "ai": 7,
@@ -73851,7 +73851,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer Rival32 ": {
+            "Lvl 53 Pkmn Trainer CみとみいrVとぷい32 ": {
                 "level": 53,
                 "tr_id": 925,
                 "ai": 7,
@@ -81012,7 +81012,7 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 39 Pkmn Trainer Rival5 ": {
+            "Lvl 39 Pkmn Trainer CみとみいrVとぷい5 ": {
                 "level": 39,
                 "tr_id": 471,
                 "ai": 279,
@@ -82380,7 +82380,7 @@ backup_data = {
                 "partner": 383,
                 "tagPartner": 612
             },
-            "Lvl 38 Pkmn Trainer Rival4 ": {
+            "Lvl 38 Pkmn Trainer CみとみいrVとぷい4 ": {
                 "level": 38,
                 "tr_id": 470,
                 "ai": 279,
@@ -82410,7 +82410,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer Rival5 ": {
+            "Lvl 38 Pkmn Trainer CみとみいrVとぷい5 ": {
                 "level": 38,
                 "tr_id": 471,
                 "ai": 279,
@@ -82440,7 +82440,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer Rival6 ": {
+            "Lvl 38 Pkmn Trainer CみとみいrVとぷい6 ": {
                 "level": 38,
                 "tr_id": 472,
                 "ai": 279,
@@ -82470,7 +82470,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer Rival7 ": {
+            "Lvl 46 Pkmn Trainer CみとみいrVとぷい7 ": {
                 "level": 46,
                 "tr_id": 473,
                 "ai": 7,
@@ -82500,7 +82500,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer Rival8 ": {
+            "Lvl 46 Pkmn Trainer CみとみいrVとぷい8 ": {
                 "level": 46,
                 "tr_id": 474,
                 "ai": 7,
@@ -82530,7 +82530,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer Rival9 ": {
+            "Lvl 46 Pkmn Trainer CみとみいrVとぷい9 ": {
                 "level": 46,
                 "tr_id": 475,
                 "ai": 7,
@@ -82560,7 +82560,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Pkmn Trainer Rival10 ": {
+            "Lvl 55 Pkmn Trainer CみとみいrVとぷい10 ": {
                 "level": 55,
                 "tr_id": 476,
                 "ai": 7,
@@ -82590,7 +82590,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Pkmn Trainer Rival11 ": {
+            "Lvl 55 Pkmn Trainer CみとみいrVとぷい11 ": {
                 "level": 55,
                 "tr_id": 477,
                 "ai": 7,
@@ -82620,7 +82620,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer Rival12 ": {
+            "Lvl 54 Pkmn Trainer CみとみいrVとぷい12 ": {
                 "level": 54,
                 "tr_id": 478,
                 "ai": 7,
@@ -82650,7 +82650,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival13 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -82680,7 +82680,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival14 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -82710,7 +82710,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival |Route 223| ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -82740,7 +82740,7 @@ backup_data = {
                 "spriteId": 54,
                 "orientation": 3
             },
-            "Lvl 100 Pkmn Trainer Rival15 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -82770,7 +82770,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival16 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -82800,7 +82800,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Rival17 ": {
+            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -84319,7 +84319,7 @@ backup_data = {
             }
         },
         "Taillow": {
-            "Lvl 9 Pkmn Trainer Rival ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい ": {
                 "level": 9,
                 "tr_id": 247,
                 "ai": 39,
@@ -84349,7 +84349,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer Rival2 ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい2 ": {
                 "level": 9,
                 "tr_id": 248,
                 "ai": 39,
@@ -84379,7 +84379,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer Rival3 ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい3 ": {
                 "level": 9,
                 "tr_id": 249,
                 "ai": 39,
@@ -84411,7 +84411,7 @@ backup_data = {
             }
         },
         "Slakoth": {
-            "Lvl 9 Pkmn Trainer Rival ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい ": {
                 "level": 9,
                 "tr_id": 247,
                 "ai": 39,
@@ -84441,7 +84441,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer Rival2 ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい2 ": {
                 "level": 9,
                 "tr_id": 248,
                 "ai": 39,
@@ -84471,7 +84471,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer Rival3 ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい3 ": {
                 "level": 9,
                 "tr_id": 249,
                 "ai": 39,
@@ -84503,7 +84503,7 @@ backup_data = {
             }
         },
         "Mankey": {
-            "Lvl 9 Pkmn Trainer Rival ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい ": {
                 "level": 9,
                 "tr_id": 247,
                 "ai": 39,
@@ -84533,7 +84533,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer Rival2 ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい2 ": {
                 "level": 9,
                 "tr_id": 248,
                 "ai": 39,
@@ -84563,7 +84563,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer Rival3 ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい3 ": {
                 "level": 9,
                 "tr_id": 249,
                 "ai": 39,
@@ -84595,7 +84595,7 @@ backup_data = {
             }
         },
         "Elekid": {
-            "Lvl 9 Pkmn Trainer Rival ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい ": {
                 "level": 9,
                 "tr_id": 247,
                 "ai": 39,
@@ -84625,7 +84625,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer Rival2 ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい2 ": {
                 "level": 9,
                 "tr_id": 248,
                 "ai": 39,
@@ -84655,7 +84655,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer Rival3 ": {
+            "Lvl 9 Pkmn Trainer CみとみいrVとぷい3 ": {
                 "level": 9,
                 "tr_id": 249,
                 "ai": 39,
@@ -84687,7 +84687,7 @@ backup_data = {
             }
         },
         "Turtwig": {
-            "Lvl 10 Pkmn Trainer Rival ": {
+            "Lvl 10 Pkmn Trainer CみとみいrVとぷい ": {
                 "level": 10,
                 "tr_id": 247,
                 "ai": 39,
@@ -84867,7 +84867,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 5 Pkmn Trainer Rival24 ": {
+            "Lvl 5 Pkmn Trainer CみとみいrVとぷい24 ": {
                 "level": 5,
                 "tr_id": 850,
                 "ai": 35,
@@ -84899,7 +84899,7 @@ backup_data = {
             }
         },
         "Chimchar": {
-            "Lvl 10 Pkmn Trainer Rival2 ": {
+            "Lvl 10 Pkmn Trainer CみとみいrVとぷい2 ": {
                 "level": 10,
                 "tr_id": 248,
                 "ai": 39,
@@ -85079,7 +85079,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 5 Pkmn Trainer Rival25 ": {
+            "Lvl 5 Pkmn Trainer CみとみいrVとぷい25 ": {
                 "level": 5,
                 "tr_id": 851,
                 "ai": 35,
@@ -85111,7 +85111,7 @@ backup_data = {
             }
         },
         "Piplup": {
-            "Lvl 10 Pkmn Trainer Rival3 ": {
+            "Lvl 10 Pkmn Trainer CみとみいrVとぷい3 ": {
                 "level": 10,
                 "tr_id": 249,
                 "ai": 39,
@@ -85321,7 +85321,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 5 Pkmn Trainer Rival26 ": {
+            "Lvl 5 Pkmn Trainer CみとみいrVとぷい26 ": {
                 "level": 5,
                 "tr_id": 852,
                 "ai": 35,
@@ -87369,7 +87369,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer Rival19 ": {
+            "Lvl 59 Pkmn Trainer CみとみいrVとぷい19 ": {
                 "level": 59,
                 "tr_id": 838,
                 "ai": 7,
@@ -87399,7 +87399,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer Rival20 ": {
+            "Lvl 59 Pkmn Trainer CみとみいrVとぷい20 ": {
                 "level": 59,
                 "tr_id": 839,
                 "ai": 7,
@@ -87429,7 +87429,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer Rival22 ": {
+            "Lvl 69 Pkmn Trainer CみとみいrVとぷい22 ": {
                 "level": 69,
                 "tr_id": 841,
                 "ai": 7,
@@ -87459,7 +87459,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer Rival23 ": {
+            "Lvl 69 Pkmn Trainer CみとみいrVとぷい23 ": {
                 "level": 69,
                 "tr_id": 842,
                 "ai": 7,
@@ -87519,7 +87519,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 79 Pkmn Trainer Rival28 ": {
+            "Lvl 79 Pkmn Trainer CみとみいrVとぷい28 ": {
                 "level": 79,
                 "tr_id": 872,
                 "ai": 7,
@@ -87549,7 +87549,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 79 Pkmn Trainer Rival29 ": {
+            "Lvl 79 Pkmn Trainer CみとみいrVとぷい29 ": {
                 "level": 79,
                 "tr_id": 873,
                 "ai": 7,
@@ -87579,7 +87579,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer Rival31 ": {
+            "Lvl 52 Pkmn Trainer CみとみいrVとぷい31 ": {
                 "level": 52,
                 "tr_id": 924,
                 "ai": 7,
@@ -87609,7 +87609,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer Rival32 ": {
+            "Lvl 52 Pkmn Trainer CみとみいrVとぷい32 ": {
                 "level": 52,
                 "tr_id": 925,
                 "ai": 7,
@@ -153267,7 +153267,8 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 44
+            "e_id": 44,
+            "multihit": 2
         },
         "Water Ball": {
             "basePower": 100,
@@ -153403,7 +153404,8 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 71
+            "e_id": 71,
+            "makesContact": true
         },
         "Slam": {
             "basePower": 120,
@@ -153539,7 +153541,12 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 262
+            "e_id": 262,
+            "target": "normal",
+            "recoil": [
+                1,
+                3
+            ]
         },
         "Double-Edge": {
             "basePower": 140,
@@ -153747,7 +153754,11 @@ backup_data = {
             "type": "Normal",
             "category": "Special",
             "priority": 0,
-            "e_id": 48
+            "e_id": 48,
+            "recoil": [
+                1,
+                2
+            ]
         },
         "Peck": {
             "basePower": 40,
@@ -153883,7 +153894,8 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 76
+            "e_id": 76,
+            "target": "allAdjacentFoes"
         },
         "String Shot": {
             "basePower": 0,
@@ -154179,7 +154191,9 @@ backup_data = {
             "type": "Dark",
             "category": "Physical",
             "priority": -1,
-            "e_id": 227
+            "e_id": 227,
+            "target": "normal",
+            "makesContact": false
         },
         "Metronome": {
             "basePower": 0,
@@ -154227,7 +154241,8 @@ backup_data = {
             "type": "Poison",
             "category": "Special",
             "priority": 0,
-            "e_id": 2
+            "e_id": 2,
+            "target": "allAdjacentFoes"
         },
         "Sludge": {
             "basePower": 70,
@@ -154299,7 +154314,8 @@ backup_data = {
             "type": "Ice",
             "category": "Special",
             "priority": 0,
-            "e_id": 0
+            "e_id": 0,
+            "makesContact": false
         },
         "Amnesia": {
             "basePower": 0,
@@ -154387,7 +154403,11 @@ backup_data = {
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
-            "e_id": 262
+            "e_id": 262,
+            "recoil": [
+                1,
+                3
+            ]
         },
         "Transform": {
             "basePower": 0,
@@ -154435,7 +154455,8 @@ backup_data = {
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
-            "e_id": 88
+            "e_id": 88,
+            "makesContact": true
         },
         "HP Water": {
             "basePower": 70,
@@ -154843,7 +154864,12 @@ backup_data = {
             "type": "Dragon",
             "category": "Physical",
             "priority": 0,
-            "e_id": 269
+            "e_id": 269,
+            "target": "normal",
+            "recoil": [
+                1,
+                2
+            ]
         },
         "Sandstorm": {
             "basePower": 0,
@@ -154915,7 +154941,8 @@ backup_data = {
             "type": "Electric",
             "category": "Physical",
             "priority": 0,
-            "e_id": 262
+            "e_id": 262,
+            "makesContact": true
         },
         "Fury Cutter": {
             "basePower": 30,
@@ -155019,7 +155046,8 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 70
+            "e_id": 70,
+            "target": "allAdjacent"
         },
         "Dynamic Punch": {
             "basePower": 120,
@@ -155291,7 +155319,8 @@ backup_data = {
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
-            "e_id": 261
+            "e_id": 261,
+            "target": "normal"
         },
         "Heat Wave": {
             "basePower": 100,
@@ -155451,7 +155480,11 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 48
+            "e_id": 48,
+            "recoil": [
+                1,
+                2
+            ]
         },
         "Magic Coat": {
             "basePower": 0,
@@ -155515,7 +155548,11 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 253
+            "e_id": 253,
+            "recoil": [
+                1,
+                3
+            ]
         },
         "Skill Swap": {
             "basePower": 0,
@@ -155555,7 +155592,8 @@ backup_data = {
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
-            "e_id": 43
+            "e_id": 43,
+            "makesContact": true
         },
         "Secret Power": {
             "basePower": 85,
@@ -155699,7 +155737,11 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 253
+            "e_id": 253,
+            "recoil": [
+                1,
+                3
+            ]
         },
         "Hydro Cannon": {
             "basePower": 150,
@@ -155707,7 +155749,11 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 198
+            "e_id": 198,
+            "recoil": [
+                1,
+                3
+            ]
         },
         "Meteor Mash": {
             "basePower": 100,
@@ -155763,7 +155809,11 @@ backup_data = {
             "type": "Fire",
             "category": "Special",
             "priority": 0,
-            "e_id": 253
+            "e_id": 253,
+            "recoil": [
+                1,
+                3
+            ]
         },
         "Odor Sleuth": {
             "basePower": 0,
@@ -155827,7 +155877,11 @@ backup_data = {
             "type": "Water",
             "category": "Special",
             "priority": 0,
-            "e_id": 190
+            "e_id": 190,
+            "recoil": [
+                1,
+                3
+            ]
         },
         "Signal Beam": {
             "basePower": 95,
@@ -155947,7 +156001,8 @@ backup_data = {
             "type": "Grass",
             "category": "Special",
             "priority": 0,
-            "e_id": 262
+            "e_id": 262,
+            "makesContact": true
         },
         "Bulk Up": {
             "basePower": 0,
@@ -156203,7 +156258,11 @@ backup_data = {
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
-            "e_id": 182
+            "e_id": 182,
+            "recoil": [
+                1,
+                4
+            ]
         },
         "Payback": {
             "basePower": 60,
@@ -156259,7 +156318,8 @@ backup_data = {
             "type": "Water",
             "category": "Physical",
             "priority": 0,
-            "e_id": 43
+            "e_id": 43,
+            "makesContact": true
         },
         "Wring Out": {
             "basePower": 75,
@@ -156571,7 +156631,11 @@ backup_data = {
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
-            "e_id": 48
+            "e_id": 48,
+            "recoil": [
+                1,
+                2
+            ]
         },
         "Nasty Plot": {
             "basePower": 0,
@@ -156595,7 +156659,9 @@ backup_data = {
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
-            "e_id": 274
+            "e_id": 274,
+            "target": "allAdjacentFoes",
+            "makesContact": false
         },
         "Ice Shard": {
             "basePower": 40,
@@ -156611,7 +156677,11 @@ backup_data = {
             "type": "Ghost",
             "category": "Physical",
             "priority": 0,
-            "e_id": 29
+            "e_id": 29,
+            "multihit": [
+                2,
+                5
+            ]
         },
         "Thunder Fang": {
             "basePower": 90,
@@ -156715,7 +156785,11 @@ backup_data = {
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
-            "e_id": 48
+            "e_id": 48,
+            "recoil": [
+                1,
+                2
+            ]
         },
         "Discharge": {
             "basePower": 80,
@@ -156755,7 +156829,11 @@ backup_data = {
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
-            "e_id": 104
+            "e_id": 104,
+            "multihit": [
+                1,
+                3
+            ]
         },
         "Cross Poison": {
             "basePower": 95,
@@ -156827,7 +156905,8 @@ backup_data = {
             "type": "Flying",
             "category": "Special",
             "priority": 0,
-            "e_id": 267
+            "e_id": 267,
+            "target": "allAdjacent"
         },
         "Judgment": {
             "basePower": 120,
@@ -156875,7 +156954,8 @@ backup_data = {
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
-            "e_id": 2
+            "e_id": 2,
+            "target": "allAdjacentFoes"
         },
         "Defend Order": {
             "basePower": 0,
@@ -156915,7 +156995,12 @@ backup_data = {
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
-            "e_id": 80
+            "e_id": 80,
+            "target": "allAdjacentFoes",
+            "recoil": [
+                1,
+                3
+            ]
         },
         "Spacial Rend": {
             "basePower": 120,
