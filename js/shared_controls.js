@@ -932,6 +932,9 @@ $(".set-selector").change(function () {
 	var fullSetName = $(this).val();
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
+	var shouldAdjustWeather = false
+
+
 
 	var maybePartner = false
 	if (setName != 'Blank Set' && setdex[pokemonName] && typeof setdex[pokemonName][setName] != undefined) {
@@ -942,6 +945,19 @@ $(".set-selector").change(function () {
 	if ($(this).hasClass('opposing')) {
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName, maybePartner)
 		localStorage["right"] = fullSetName
+
+		var trName = setName.replace(/^Lvl\s+[+-]?\d+\s+/, "")
+		if (!prevTrainerName) {
+			prevTrainerName = trName
+		} else if (trName == prevTrainerName) {
+			console.log("still same trainer")
+		} else if (prevTrainerName && prevTrainerName != trName) {
+			console.log("new trainer")
+			shouldAdjustWeather = true
+			prevTrainerName = trName
+		}
+
+
 		var sprite = setdex
 		var right_max_hp = $("#p2 .max-hp").text()
 		$("#p2 .current-hp").val(right_max_hp)//.change()
@@ -1054,10 +1070,12 @@ $(".set-selector").change(function () {
 				
 
 				if (weather) {
-					// $(`#${weather.toLowerCase()}`).prop("checked", true);
-				} else {
-					// console.log(lastManualWeather)
-					// $(`#clear`).prop("checked", true);
+					$(`#${weather.toLowerCase()}`).prop("checked", true);
+				} else if (shouldAdjustWeather) {
+					if (!["Drought", "Drizzle", "Sand Stream", "Snow Warning", "Desolate Land", "Primordial Sea", "Delta Stream", "Orichalcum Pulse"].includes(setdex[pokemonName][setName].ability)) {
+						$(`#clear`).prop("checked", true);
+					}
+					
 				}
 				
 

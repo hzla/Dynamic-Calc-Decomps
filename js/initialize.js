@@ -48,6 +48,9 @@ let terminalStarted     = false;
 let partnerName         = null;
 let showDex = false;
 let showAI = false;
+let lastClickedWeather = null
+let prevTrainerName = null
+let currentTrainerName = null
 
 let bestDmgAgainstCurrent        = 0;
 let bestPrioDmgAgainstCurrent    = 0;

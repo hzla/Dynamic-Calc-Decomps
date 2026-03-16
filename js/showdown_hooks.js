@@ -382,6 +382,8 @@ $(document).ready(function() {
         var weather = $(this).text()
         var sprite = $('#p2 .poke-sprite').attr('src')
 
+        lastClickedWeather = weather
+
         var cast_regx = /castform-?[a-z]*/i
         var cherr_regx = /cherrim-?[a-z]*/i
 
