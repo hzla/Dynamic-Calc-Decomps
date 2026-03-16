@@ -1436,6 +1436,10 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 		var setName = pokeInfo.find("input.set-selector").val();
 		var name;
 
+		console.log(setName)
+
+
+
 		if (setName.indexOf("(") === -1) {
 			name = setName;
 		} else {
