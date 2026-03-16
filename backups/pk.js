@@ -99417,7 +99417,7 @@ backup_data = {
                 "orientation": 0
             }
         },
-        "Burmy-Sandy":
+        "Burmy":
         {
             "Lvl 12 Bug Catcher Sebastian |Hearthome City| ":
             {
