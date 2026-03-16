@@ -491,6 +491,10 @@ function get_current_learnset() {
         pok_name = "Ogerpon"
     }
 
+    if (pok_name.includes("Maushold")) {
+        pok_name = "Maushold"
+    }
+
     console.log(pok_name)
     pok_name = pok_name.replaceAll("é", "é")
     current_learnset = em_imp_primary_mons[pok_name]
