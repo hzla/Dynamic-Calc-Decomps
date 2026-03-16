@@ -1054,9 +1054,10 @@ $(".set-selector").change(function () {
 				
 
 				if (weather) {
-					$(`#${weather.toLowerCase()}`).prop("checked", true);
+					// $(`#${weather.toLowerCase()}`).prop("checked", true);
 				} else {
-					$(`#clear`).prop("checked", true);
+					// console.log(lastManualWeather)
+					// $(`#clear`).prop("checked", true);
 				}
 				
 

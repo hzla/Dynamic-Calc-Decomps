@@ -245,8 +245,14 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 desc.moveBP = basePower;
                 break;
             case 'Triple Kick':
-                basePower = (hitCount + 1) * 10;
-                desc.moveBP = move.hits === 2 ? 30 : move.hits === 3 ? 60 : 10;
+                if (TITLE == "Platinum Kaizo") {
+                    basePower = 40;
+                    desc.moveBP = move.hits === 2 ? 70 : move.hits === 3 ? 120 : 30;
+                } else {
+                    basePower = (hitCount + 1) * 10;
+                    desc.moveBP = move.hits === 2 ? 30 : move.hits === 3 ? 60 : 10;
+                }
+                
                 break;
             case 'Rock Wrecker':
             case 'Triple Axel':
