@@ -23,7 +23,21 @@ module.exports = defineConfig({
 	    testTrainer: 'Cynthia',
 	    testTrainerMonFirstMove: 'Surf',
 	    save: 'rp_test'
-	  }
+	  },
+    // {
+    //   title: "Pokemon Null",
+    //   url: './index.html?data=null',
+    //   testTrainer: 'Flint',
+    //   testTrainerMonFirstMove: 'Fire Blast',
+    //   save: 'rp_test'
+    // },
+    // {
+    //   title: "Platinum Kaizo",
+    //   url: './index.html?data=pk',
+    //   testTrainer: 'Flint',
+    //   testTrainerMonFirstMove: 'Fire Blast',
+    //   save: 'rp_test'
+    // }
 	]
   }
 
