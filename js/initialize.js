@@ -403,7 +403,7 @@ if (SOURCES[params.get('data')]) {
 }
 
 function setBaseGame(title) {
-
+    window.baseGame ||= ""
     if (title.includes("Inclement") ) {
         window.baseGame = "inc_em"
     } else if (title.includes("Imperium")) {
