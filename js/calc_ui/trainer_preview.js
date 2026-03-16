@@ -43,10 +43,53 @@ function get_custom_trainer_names() {
     }
     return trainer_names
 }
+
+function get_trainer_name(set_name) {
+    if (!set_name) {
+        return null
+    }
+
+    var trainer_name = set_name.split(/Lvl [-+]?\d+ /)[1]
+    if (!trainer_name) {
+        return null
+    }
+
+    return trainer_name.replace(/\)\[\d+\]$/, "").replace(/\s?\)$/, "").replace(/\s$/, "")
+}
+
+function get_partner_name_from_tr_id(tr_id) {
+    if (!tr_id || !customLeads || !customLeads[tr_id]) {
+        return null
+    }
+
+    return get_trainer_name(customLeads[tr_id])
+}
+
+function get_set_partner_name(set_id) {
+    if (!set_id) {
+        return null
+    }
+
+    var pok_name = set_id.split(" (")[0]
+    var tr_name = set_id.split(" (")[1]
+
+    if (!pok_name || !tr_name) {
+        return null
+    }
+
+    tr_name = tr_name.replace(/\)\[\d+\]$/, "").replace(/\)$/, "")
+
+    if (!setdex[pok_name] || !setdex[pok_name][tr_name]) {
+        return null
+    }
+
+    return get_partner_name_from_tr_id(setdex[pok_name][tr_name]["partner"])
+}
     
 
 // Gets the trainers list of pokemon
-function get_trainer_poks(trainer_name)
+// maybePartner is tr_id of possible partner
+function get_trainer_poks(trainer_name, maybePartner=false)
 {
     if (typeof TR_NAMES == 'undefined') {
         return []
@@ -54,14 +97,14 @@ function get_trainer_poks(trainer_name)
 
     var all_poks = setdex
     var matches = []
+    function push_match(match) {
+        if (!matches.includes(match)) {
+            matches.push(match)
+        }
+    }
 
     trainer_name = trainer_name.replace("*", "")
-    var og_trainer_name = trainer_name.split(/Lvl [-+]?\d+ /)[1]
-
-
-    if (og_trainer_name) {
-        og_trainer_name = og_trainer_name.replace(/.?\)/, "")
-    }
+    var og_trainer_name = get_trainer_name(trainer_name)
 
     let og_white_space = " "
     let partner_white_space = " "
@@ -70,24 +113,28 @@ function get_trainer_poks(trainer_name)
         og_white_space = ""
     }
 
-    if (partnerName && partnerName.includes(" - ")) {
+    var maybePartnerName = get_partner_name_from_tr_id(maybePartner)
+
+    var tempPartnerName = maybePartnerName || partnerName
+
+    if (tempPartnerName && tempPartnerName.includes(" - ")) {
         partner_white_space = ""
     }
 
 
     for (i in TR_NAMES) {
 
-        if (TR_NAMES[i].includes(og_trainer_name + og_white_space) || ((TR_NAMES[i].includes(partnerName + partner_white_space)))) {
+        if (TR_NAMES[i].includes(og_trainer_name + og_white_space) || ((TR_NAMES[i].includes(tempPartnerName + partner_white_space)))) {
             
 
             // To avoid cases where grunt1 matches grunt11, we check the last word in the set string to make sure it's  an actual match
             if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-               matches.push(TR_NAMES[i])
+               push_match(TR_NAMES[i])
 
             }
-            if (partnerName) {
-                if (partnerName.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (partnerName.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-                   matches.push(TR_NAMES[i])
+            if (tempPartnerName) {
+                if (tempPartnerName.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (tempPartnerName.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
+                   push_match(TR_NAMES[i])
                 }  
             }    
         }
@@ -98,7 +145,7 @@ function get_trainer_poks(trainer_name)
 
             if (TR_NAMES[i].includes(og_trainer_name)) {
                 if (og_trainer_name.split(" ").at(-1) == TR_NAMES[i].split(" ").at(-2) || (og_trainer_name.split(" ").at(-2) == TR_NAMES[i].split(" ").at(-2))) {
-                   matches.push(TR_NAMES[i])
+                   push_match(TR_NAMES[i])
                 }    
             }
         }
@@ -117,14 +164,17 @@ function get_current_in() {
 }
 
 function setOpposing(id) {
+    var selectedTrainerSet = $('.set-selector .select2-chosen')[1] ? $('.set-selector .select2-chosen')[1].innerHTML : currentTrainerSet
+    var setPartnerName = get_set_partner_name(selectedTrainerSet)
+    var tempPartnerName = setPartnerName || partnerName
+
     // if in multi battle mode and user selects pokemon from already set partner, switch partners
-    if (partnerName && id.includes(partnerName)) {
-        partnerName = $('.set-selector .select2-chosen')[1].innerHTML.split(/Lvl [-+]?\d+ /)[1]
+    if (!setPartnerName && tempPartnerName && id.includes(tempPartnerName)) {
+        partnerName = get_trainer_name(selectedTrainerSet)
         if (partnerName) {
-            partnerName = partnerName.replace(/\s?\)/, "").replace(/\s$/, "")
             console.log(`Switching partners: ${partnerName}`)
+            localStorage.partnerName = partnerName
         }
-        localStorage.partnerName = partnerName
     }
 
     currentTrainerSet = id

@@ -832,6 +832,30 @@ table td {
     margin-top: 20px;
 }
 
+.trainer-pok-list.dual-trainer-preview {
+    display: block;
+}
+
+.trainer-preview-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trainer-preview-label,
+.trainer-preview-separator {
+    width: calc(100% - 10px);
+    margin: 8px 0 4px 10px;
+    color: rgba(255,255,255,0.8);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.trainer-preview-separator {
+    padding-top: 8px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
 .trainer-pok-list.opposing {
     /*margin-top:  70px;*/
 /*    flex-wrap:  nowrap;*/

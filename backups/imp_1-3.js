@@ -86309,7 +86309,6 @@ backup_data = {
         "Hydro Pump"
       ],
       "tr_id": 589,
-      "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
         "Try To Faint",
@@ -86318,7 +86317,7 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Primal Armor",
-      "sub_index": 6
+      "sub_index": 7
     }
   },
   "Dialga-Primal": {
@@ -86350,7 +86349,6 @@ backup_data = {
         "Ice Beam"
       ],
       "tr_id": 590,
-      "sub_index": 1,
       "ai_tags": [
         "Check Bad Move",
         "Try To Faint",
@@ -86359,7 +86357,7 @@ backup_data = {
         "Omniscient"
       ],
       "ability": "Primal Armor",
-      "sub_index": 6
+      "sub_index": 7
     }
   },
   "Rayquaza-Mega": {

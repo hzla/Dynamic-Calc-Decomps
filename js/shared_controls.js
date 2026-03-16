@@ -642,90 +642,219 @@ function smogonAnalysis(pokemonName) {
 
 // auto-update set details on select
 
+function getTrainerPreviewMeta(setId) {
+	var subIndexMatch = setId.match(/\[(\d+)\]$/);
+
+	return {
+		subIndex: subIndexMatch ? parseInt(subIndexMatch[1], 10) : null
+	};
+}
+
+function getTrainerPreviewName(setId) {
+	if (!setId) {
+		return ""
+	}
+
+	var trainerName = setId.split(/Lvl [-+]?\d+ /)[1]
+	if (!trainerName) {
+		return ""
+	}
+
+	return trainerName.replace(/\)\[\d+\]$/, "").replace(/\s?\)$/, "").replace(/\s$/, "")
+}
+
+function getTrainerPreviewPartnerNameFromSet(setId) {
+	if (!setId) {
+		return ""
+	}
+
+	var species = setId.split(" (")[0]
+	var set_name = setId.split(" (")[1]
+
+	if (!species || !set_name) {
+		return ""
+	}
+
+	set_name = set_name.replace(/\)\[\d+\]$/, "").replace(/\)$/, "")
+
+	if (!setdex[species] || !setdex[species][set_name] || !setdex[species][set_name].partner || !customLeads || !customLeads[setdex[species][set_name].partner]) {
+		return ""
+	}
+
+	return getTrainerPreviewName(customLeads[setdex[species][set_name].partner])
+}
+
+function getTrainerPreviewPartnerIdFromSet(setId) {
+	if (!setId) {
+		return false
+	}
+
+	var species = setId.split(" (")[0]
+	var set_name = setId.split(" (")[1]
+
+	if (!species || !set_name) {
+		return false
+	}
+
+	set_name = set_name.replace(/\)\[\d+\]$/, "").replace(/\)$/, "")
+
+	if (!setdex[species] || !setdex[species][set_name]) {
+		return false
+	}
+
+	return setdex[species][set_name].partner || false
+}
+
+function renderTrainerPreviewPok(next_pok) {
+	var pok_name = next_pok[0].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
+	for (let n = 0; n < 4; n++) {
+		if (!next_pok[4][n]) {
+			next_pok[4][n] = ""
+		}
+	}
+
+	var dataID = next_pok[0].split("[")[0]
+	if (next_pok[0].includes($('input.opposing').val()) && settings.noSwitch != "1" && (settings.damageGen >= 3 && settings.damageGen <= 5)){
+		return ""
+	}
+
+	var isFainted = ""
+	if (fainted.includes(dataID)) {
+		isFainted = "fainted"
+	}
+
+	var isLead = ""
+
+	if (next_pok[0].includes("[0]") && (settings.gameSwitchIn == 4 || settings.gameSwitchIn == 5)) {
+		isLead = "lead"
+	}
+	if (next_pok[0].includes("[1]") && (settings.gameSwitchIn == 4 || settings.gameSwitchIn == 5) && battle_type != "Singles" && TITLE != "Platinum Kaizo") {
+		isLead = "lead"
+	}
+	if (next_pok[0].includes("[2]") && (settings.gameSwitchIn == 4 || settings.gameSwitchIn == 5) && battle_type == "Triples") {
+		isLead = "lead"
+	}
+
+	var pok = `<div class="trainer-pok-container">
+	<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
+
+	var species = next_pok[0].split(" (")[0]
+	var set_name = next_pok[0].split(" (")[1].split(")")[0]
+	var item = setdex[species][set_name]["item"]
+
+	if (item && item != "-" && !item.toLowerCase().includes("none")) {
+		item_name = item.toLowerCase().replace(" ", "_").replace("'","") 
+		pok += `<img class="trainer-pok-item" src="./img/items/${item_name}.png">`
+	}
+
+	let pps = []
+	if (movePPs[dataID]) {
+		pps = movePPs[dataID]
+	} else {
+		pps = [1,1,1,1]
+	}
+
+	if (settings.gameSwitchIn == 5 || settings.gameSwitchIn == 4) { 
+		pok +=`
+		<div class="bp-info${pps[0] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][0])}">${next_pok[4][0].replace("Hidden Power", "HP")}</div>
+		<div class="bp-info${pps[1] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][1])}">${next_pok[4][1].replace("Hidden Power", "HP")}</div>
+		<div class="bp-info${pps[2] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][2])}">${next_pok[4][2].replace("Hidden Power", "HP")}</div>
+		<div class="bp-info${pps[3] == '0' ? 'nopp' : ''}" data-strong="${next_pok[2].includes(next_pok[4][3])}">${next_pok[4][3].replace("Hidden Power", "HP")}</div>`
+	} else {
+		pok +=`<div class="bp-infos">
+		<div class="bp-info ${pps[0] == '0' ? 'nopp' : ''}">${next_pok[4][0].replace("Hidden Power", "HP")}</div>
+		<div class="bp-info ${pps[1] == '0' ? 'nopp' : ''}">${next_pok[4][1].replace("Hidden Power", "HP")}</div>
+		<div class="bp-info ${pps[2] == '0' ? 'nopp' : ''}">${next_pok[4][2].replace("Hidden Power", "HP")}</div>
+		<div class="bp-info ${pps[3] == '0' ? 'nopp' : ''}">${next_pok[4][3].replace("Hidden Power", "HP")}</div></div>`
+	}
+
+	if (TITLE.includes("1.3") || TITLE == "Pokemon Null") {
+		pok += next_pok[5]
+	}
+
+	pok += `</div>`
+	return pok
+}
+
 function refresh_next_in() {
 	var next_poks = get_next_in()
 
 	var trpok_html = ""
+	var renderedEntries = []
+	var subIndexCounts = {}
+	var selectedOpposingSet = $('input.opposing').val()
+	var primaryTrainerName = getTrainerPreviewName(selectedOpposingSet)
+	var setPartnerId = getTrainerPreviewPartnerIdFromSet(selectedOpposingSet)
+	var resolvedPartnerName = getTrainerPreviewPartnerNameFromSet(selectedOpposingSet) || partnerName
+	var fallbackPartnerNames = []
 
 	for (i in next_poks ) {
-		var pok_name = next_poks[i][0].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
-		for (let n = 0; n < 4; n++) {
-			if (!next_poks[i][4][n]) {
-				next_poks[i][4][n] = ""
-			}
+		var meta = getTrainerPreviewMeta(next_poks[i][0])
+		var trainerName = getTrainerPreviewName(next_poks[i][0])
+		if (meta.subIndex !== null) {
+			subIndexCounts[meta.subIndex] = (subIndexCounts[meta.subIndex] || 0) + 1
 		}
 
-		var dataID = next_poks[i][0].split("[")[0]
-		if (next_poks[i][0].includes($('input.opposing').val()) && settings.noSwitch != "1" && (settings.damageGen >= 3 && settings.damageGen <= 5)){
-			
+		var pok = renderTrainerPreviewPok(next_poks[i])
+		if (!pok) {
 			continue
 		}
 
-		var isFainted = ""
-		if (fainted.includes(dataID)) {
-			isFainted = "fainted"
-		}
+		renderedEntries.push({
+			pok: pok,
+			subIndex: meta.subIndex,
+			trainerName: trainerName
+		})
 
-		var isLead = ""
-
-		if (next_poks[i][0].includes("[0]") && (settings.gameSwitchIn == 4 || settings.gameSwitchIn == 5)) {
-			isLead = "lead"
-		}
-		if (next_poks[i][0].includes("[1]") && (settings.gameSwitchIn == 4 || settings.gameSwitchIn == 5) && battle_type != "Singles") {
-			isLead = "lead"
-		}
-		if (next_poks[i][0].includes("[2]") && (settings.gameSwitchIn == 4 || settings.gameSwitchIn == 5) && battle_type == "Triples") {
-			isLead = "lead"
-		}
-
-		var pok = `<div class="trainer-pok-container">
-		<img class="trainer-pok right-side hl-disabled ${isFainted} ${isLead}" src="./img/${sprite_style}/${pok_name.replace(" ", "").replace(/-s$/, "")}.png" data-id="${dataID}">`
-
-		
-
-
-		var species = next_poks[i][0].split(" (")[0]
-		var set_name = next_poks[i][0].split(" (")[1].split(")")[0]
-		var item = setdex[species][set_name]["item"]
-
-		if (item && item != "-" && !item.toLowerCase().includes("none")) {
-			item_name = item.toLowerCase().replace(" ", "_").replace("'","") 
-            pok += `<img class="trainer-pok-item" src="./img/items/${item_name}.png">`
-		}
-
-		let pps = []
-		// console.log(next_poks[i][0])
-		if (movePPs[dataID]) {
-			pps = movePPs[dataID]
-		} else {
-			pps = [1,1,1,1]
-		}
-
-		if (settings.gameSwitchIn == 5 || settings.gameSwitchIn == 4) { 
-			pok +=`
-			<div class="bp-info${pps[0] == '0' ? 'nopp' : ''}" data-strong="${next_poks[i][2].includes(next_poks[i][4][0])}">${next_poks[i][4][0].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info${pps[1] == '0' ? 'nopp' : ''}" data-strong="${next_poks[i][2].includes(next_poks[i][4][1])}">${next_poks[i][4][1].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info${pps[2] == '0' ? 'nopp' : ''}" data-strong="${next_poks[i][2].includes(next_poks[i][4][2])}">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info${pps[3] == '0' ? 'nopp' : ''}" data-strong="${next_poks[i][2].includes(next_poks[i][4][3])}">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div>
-			</div>`
-		} else {
-			pok +=`<div class="bp-infos">
-			<div class="bp-info ${pps[0] == '0' ? 'nopp' : ''}">${next_poks[i][4][0].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info ${pps[1] == '0' ? 'nopp' : ''}">${next_poks[i][4][1].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info ${pps[2] == '0' ? 'nopp' : ''}">${next_poks[i][4][2].replace("Hidden Power", "HP")}</div>
-			<div class="bp-info ${pps[3] == '0' ? 'nopp' : ''}">${next_poks[i][4][3].replace("Hidden Power", "HP")}</div></div>`
-		}
-		
-		
-
-		
-		if (TITLE.includes("1.3") || TITLE == "Pokemon Null") {
-			pok += next_poks[i][5]
-		}
-
-		pok += `</div>`
-		
 		trpok_html += pok
+	}
+
+	var hasDuplicateSubIndex = Object.values(subIndexCounts).some(function(count) {
+		return count > 1
+	})
+	var useGenericTrainerLabels = !setPartnerId && !partnerName && hasDuplicateSubIndex
+	var primaryTrainerPoks = []
+	var partnerTrainerPoks = []
+	var genericSubIndexSeen = {}
+
+	for (i in renderedEntries) {
+		var entry = renderedEntries[i]
+		if (!resolvedPartnerName && entry.trainerName && entry.trainerName != primaryTrainerName && !fallbackPartnerNames.includes(entry.trainerName)) {
+			fallbackPartnerNames.push(entry.trainerName)
+		}
+
+		if (useGenericTrainerLabels) {
+			var genericIndex = entry.subIndex === null ? 0 : entry.subIndex
+			genericSubIndexSeen[genericIndex] ||= 0
+			if (genericSubIndexSeen[genericIndex] === 0) {
+				primaryTrainerPoks.push(entry.pok)
+			} else {
+				partnerTrainerPoks.push(entry.pok)
+			}
+			genericSubIndexSeen[genericIndex] += 1
+		} else if (entry.trainerName == primaryTrainerName || !primaryTrainerName) {
+			primaryTrainerPoks.push(entry.pok)
+		} else {
+			partnerTrainerPoks.push(entry.pok)
+		}
+	}
+
+	if (!resolvedPartnerName && fallbackPartnerNames[0]) {
+		resolvedPartnerName = fallbackPartnerNames[0]
+	}
+
+	var showPartnerSections = primaryTrainerPoks.length > 0 && partnerTrainerPoks.length > 0 && (hasDuplicateSubIndex || resolvedPartnerName)
+	if (showPartnerSections) {
+		var trainerOneHtml = primaryTrainerPoks.join("")
+		var trainerTwoHtml = partnerTrainerPoks.join("")
+		var trainerOneLabel = useGenericTrainerLabels ? `<div class="trainer-preview-label">Trainer 1</div>` : ""
+		var trainerSeparator = useGenericTrainerLabels ? `Trainer 2` : `Partner: ${resolvedPartnerName}`
+		trpok_html = `${trainerOneLabel}<div class="trainer-preview-section trainer-preview-primary">${trainerOneHtml}</div>
+		<div class="trainer-preview-separator">${trainerSeparator}</div>
+		<div class="trainer-preview-section trainer-preview-partner">${trainerTwoHtml}</div>`
+		$('.opposing.trainer-pok-list').addClass('dual-trainer-preview')
+	} else {
+		$('.opposing.trainer-pok-list').removeClass('dual-trainer-preview')
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
 
@@ -804,13 +933,14 @@ $(".set-selector").change(function () {
 	var pokemonName = fullSetName.substring(0, fullSetName.indexOf(" ("));
 	var setName = fullSetName.substring(fullSetName.indexOf("(") + 1, fullSetName.lastIndexOf(")"));
 
+	var maybePartner = false
 	if (setName != 'Blank Set' && setdex[pokemonName] && typeof setdex[pokemonName][setName] != undefined) {
 		currentSetLevel = setdex[pokemonName][setName]["level"]
+		maybePartner = setdex[pokemonName][setName].partner 
 	}
 
-
 	if ($(this).hasClass('opposing')) {
-		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName)
+		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName, maybePartner)
 		localStorage["right"] = fullSetName
 		var sprite = setdex
 		var right_max_hp = $("#p2 .max-hp").text()
@@ -820,8 +950,10 @@ $(".set-selector").change(function () {
 
 
 	} else {
-		if (typeof partnerName != "undefined" && partnerName && CURRENT_TRAINER_POKS && CURRENT_TRAINER_POKS[0]) {
-			CURRENT_TRAINER_POKS = get_trainer_poks($('#p2 .set-selector .select2-chosen').text())
+		var currentOpposingSet = $('#p2 .set-selector .select2-chosen').text()
+		var currentOpposingPartner = getTrainerPreviewPartnerIdFromSet(currentOpposingSet)
+		if ((partnerName || currentOpposingPartner) && CURRENT_TRAINER_POKS && CURRENT_TRAINER_POKS[0]) {
+			CURRENT_TRAINER_POKS = get_trainer_poks(currentOpposingSet, currentOpposingPartner)
 		}
 		var left_max_hp = $("#p1 .max-hp").text()		
 		$("#p1 .current-hp").val(left_max_hp)//.change()
@@ -835,6 +967,7 @@ $(".set-selector").change(function () {
 				// var sprite = setdex[pokemonName][setName]["sprite"]
 				
 				battle_type = setdex[pokemonName][setName]["battle_type"]
+				weather = setdex[pokemonName][setName]["weather"]
 				var ai = setdex[pokemonName][setName]["ai_tags"] 
 				
 
@@ -919,6 +1052,12 @@ $(".set-selector").change(function () {
 					} 
 				}
 				
+
+				if (weather) {
+					$(`#${weather.toLowerCase()}`).prop("checked", true);
+				} else {
+					$(`#clear`).prop("checked", true);
+				}
 				
 
 				let enemy_moves = setdex[pokemonName][setName].moves
