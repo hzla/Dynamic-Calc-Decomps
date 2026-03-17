@@ -32,7 +32,7 @@ var Field = (function () {
         this.isSwordOfRuin = !!field.isSwordOfRuin;
 
         this.isAuraBreak = field.isAuraBreak || false;
-        this.isInverseBattle = !!field.isInverseBattle;
+        this.isInverse = !!field.isInverse;
         this.isFairyAura = field.isFairyAura || false;
         this.isDarkAura = field.isDarkAura || false;
         this.attackerSide = new Side(field.attackerSide || {});
@@ -64,7 +64,7 @@ var Field = (function () {
             terrain: this.terrain,
             isMagicRoom: this.isMagicRoom,
             isWonderRoom: this.isWonderRoom,
-            isInverseBattle: this.isInverseBattle,
+            isInverse: this.isInverse,
             isGravity: this.isGravity,
             attackerSide: this.attackerSide,
             defenderSide: this.defenderSide,

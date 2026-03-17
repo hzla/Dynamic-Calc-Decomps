@@ -249,7 +249,7 @@ function setGameSettings(title) {
     showDex = true;
     showAI = false;
     $('#sync-lua').show()
-    $('label[for="snow"]').show()
+    $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
     $('label[for="hail"]').show()
     $('#maxL').next().remove()
     $('#maxR').next().remove()

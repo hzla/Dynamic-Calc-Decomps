@@ -209,15 +209,19 @@ if (["Pokemon Null"].includes(TITLE)) {
         var type2Effectiveness = defender.types[1]
             ? (0, util_2.getMoveEffectiveness)(gen, move, defender.types[1], isGhostRevealed, field.isGravity, isRingTarget)
             : 1;
-        var typeEffectiveness = type1Effectiveness * type2Effectiveness;
         if (field.isInverse) {
-            if (typeEffectiveness === 0) {
-                typeEffectiveness = 2;
-            }
-            else {
-                typeEffectiveness = 1 / typeEffectiveness;
-            }
+            if (type1Effectiveness === 0 || type1Effectiveness === 0.5)
+                type1Effectiveness = 2;
+            else if (type1Effectiveness === 2)
+                type1Effectiveness = 0.5;
+            
+            if (type2Effectiveness === 0 || type2Effectiveness === 0.5)
+                type2Effectiveness = 2;
+            else if (type2Effectiveness === 2)
+                type2Effectiveness = 0.5;
         }
+        var typeEffectiveness = type1Effectiveness * type2Effectiveness;
+
         if (defender.teraType && defender.teraType !== 'Stellar') {
             typeEffectiveness = (0, util_2.getMoveEffectiveness)(gen, move, defender.teraType, isGhostRevealed, field.isGravity, isRingTarget);
         }
@@ -650,6 +654,13 @@ if (["Pokemon Null"].includes(TITLE)) {
                 basePower = move.bp * (((0, util_2.isGrounded)(defender, field) && field.hasTerrain('Electric')) ? 2 : 1);
                 desc.moveBP = basePower;
                 break;
+            case 'Psyblade':
+                basePower = move.bp * (field.hasTerrain('Electric') ? 1.5 : 1);
+                if (field.hasTerrain('Electric')) {
+                    desc.moveBP = basePower;
+                    desc.terrain = field.terrain;
+                }
+            break;
             case 'Fling':
                 basePower = (0, items_1.getFlingPower)(attacker.item);
                 desc.moveBP = basePower;
