@@ -451,12 +451,18 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	let resultText = $(`#resultDamage${isPlayer ? 'L' : 'R'}${moveIndex}`)
 
 	backup_move = move
+	var moveAcc = 0
+	var fogAcc = 0
 	if (typeof backup_moves != "undefined") {
 		backup_move = backup_moves[moveName] || backup_moves[cleanString(moveName)]
+		if (typeof backup_move != "undefined") {
+			moveAcc = backup_move.acc || 0
+			fogAcc = parseInt(moveAcc * 0.6) 
+		}
+		
 	}
 
-	var moveAcc = backup_move.acc || 0
-	var fogAcc = parseInt(moveAcc * 0.6) 
+	
 	
 	if (fogAcc == 0) {
 		fogAcc = "-"
