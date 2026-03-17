@@ -838,13 +838,20 @@ function parsePKM(chunk, is_party=false, offset=0) {
         boxPokOffsets[mon_name]["moves_index"] = move_data_offset
     }
 
-
-    if (nn.toLowerCase() != mon_name.toLowerCase()) {
+    try {
+        if (nn.toLowerCase() != mon_name.toLowerCase()) {
         // console.log([nn, mon_name])
         showdownString += `${nn} (${mon_name}) @ ${item_name}\n`
-    } else {
+        } else {
+            showdownString += `${mon_name} @ ${item_name}\n`
+        }  
+    } catch {
+        console.log(mon_name)
         showdownString += `${mon_name} @ ${item_name}\n`
+
     }
+
+    
     
 
     var exp = (decryptedData[mon_data_offset + 5] << 16) | (decryptedData[mon_data_offset + 4]  & 0xFFFF)
