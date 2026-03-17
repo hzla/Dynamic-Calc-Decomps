@@ -46890,7 +46890,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Wormadam-Sandy": {
+        "Wormadam-Sandy-Glitched": {
             "Lvl 49 Galactic Dia |Clamberclaw Cliffs| ": {
                 "level": 49,
                 "tr_id": 72,
@@ -70798,7 +70798,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Wormadam-Trash": {
+        "Wormadam-Trash-Glitched": {
             "Lvl 64 Cyclist Miguel |Canalave City| ": {
                 "level": 64,
                 "tr_id": 153,
@@ -92223,7 +92223,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Deoxys-Defense": {
+        "Deoxys-Defense-Glitched": {
             "Lvl 90 Galactic Boss Cyrus ": {
                 "level": 90,
                 "tr_id": 403,
@@ -92469,7 +92469,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Deoxys-Attack": {
+        "Deoxys-Attack-Glitched": {
             "Lvl 93 Galactic Boss Cyrus2 ": {
                 "level": 93,
                 "tr_id": 404,
@@ -94383,7 +94383,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Deoxys-Speed": {
+        "Deoxys-Speed-Glitched": {
             "Lvl 35 Scientist Shaun6 ": {
                 "level": 35,
                 "tr_id": 747,
@@ -94633,7 +94633,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Shaymin-Sky": {
+        "Shaymin-Sky-Glitched": {
             "Lvl 100 Champion Cynthia ": {
                 "level": 100,
                 "tr_id": 870,

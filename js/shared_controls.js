@@ -950,9 +950,7 @@ $(".set-selector").change(function () {
 		if (!prevTrainerName) {
 			prevTrainerName = trName
 		} else if (trName == prevTrainerName) {
-			console.log("still same trainer")
-		} else if (prevTrainerName && prevTrainerName != trName) {
-			console.log("new trainer")
+		} else if (prevTrainerName && prevTrainerName != trName && !partnerName) {
 			shouldAdjustWeather = true
 			prevTrainerName = trName
 		}
