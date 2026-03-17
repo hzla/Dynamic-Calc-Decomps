@@ -224443,7 +224443,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "tr_id": 538,
-                "ability": "Shed Skin",
+                "ability": "Intimidate",
                 "gender": "Male"
             },
             "Lvl 93 Triathlete Barron & Stephin |Route 129|":
@@ -268375,7 +268375,8 @@ backup_data = {
             "eff": "BURN",
             "type": "Ground",
             "acc": 100,
-            "isWind": true
+            "isWind": true,
+            "target": "anyAdjacent"
         },
         "lunarblessing":
         {
