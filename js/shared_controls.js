@@ -455,20 +455,37 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 		backup_move = backup_moves[moveName] || backup_moves[cleanString(moveName)]
 	}
 
+	var moveAcc = backup_move.acc || 0
+	var fogAcc = parseInt(moveAcc * 0.6) 
+	
+	if (fogAcc == 0) {
+		fogAcc = "-"
+	} else {
+		fogAcc = `${fogAcc}%`
+	}
+
+
 	if (ppObj && moveName != "(No Move)" && typeof backup_move != "undefined") {
 		if (isPlayer) {
-			ppObj.val(backup_move.pp	)
+			ppObj.val(backup_move.pp)
 		} else {
 			movePPs[fullSetName][moveIndex] ||= backup_move.pp	
 			let ppVal = movePPs[fullSetName][moveIndex] 
 			ppObj.val(ppVal)
-		}		
+		}
+		$(moveObj).parent().find('.move-acc').text(fogAcc)			
 	} else {
 		try {
 			$(moveObj).parent().find('.move-pp').val(backup_move.pp)
+			$(moveObj).parent().find('.move-acc').text(fogAcc)		
 		} catch {
-		}
-		
+		}	
+	}
+
+	if ($('#fog').prop('checked')) {
+		$('.move-acc').css('display', 'inline-block')
+	} else {
+		$('.move-acc').hide()
 	}
 				
 	var m = moveName.match(HIDDEN_POWER_REGEX);
@@ -1075,7 +1092,6 @@ $(".set-selector").change(function () {
 					}
 					
 				}
-				
 
 				let enemy_moves = setdex[pokemonName][setName].moves
 

@@ -87,6 +87,9 @@ function calculateDPP(gen, attacker, defender, move, field) {
             move.type = 'Ice';
             basePower *= 2;
         }
+        else if (field.hasWeather('Fog')) {
+            basePower *= 2;
+        }
         else {
             move.type = 'Normal';
         }
@@ -488,7 +491,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         }
         else if ((field.hasWeather('Sun') && move.hasType('Water')) ||
             (field.hasWeather('Rain') && move.hasType('Fire')) ||
-            (move.named('Solar Beam') && field.hasWeather('Rain', 'Sand', 'Hail'))) {
+            (move.named('Solar Beam') && field.hasWeather('Rain', 'Sand', 'Hail', 'Fog'))) {
             baseDamage = Math.floor(baseDamage * 0.5);
             desc.weather = field.weather;
         }

@@ -477,6 +477,11 @@ input {
     display: none;
 }
 
+.move-acc {
+    display: none;
+    width: 54px;
+}
+
 .move-result-subgroup div {
     height: 39px;
     display: flex;

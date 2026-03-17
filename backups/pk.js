@@ -46890,7 +46890,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Wormadam-Sandy-Glitched": {
+        "Wormadam-Sandy": {
             "Lvl 49 Galactic Dia |Clamberclaw Cliffs| ": {
                 "level": 49,
                 "tr_id": 72,
@@ -70798,7 +70798,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Wormadam-Trash-Glitched": {
+        "Wormadam-Trash": {
             "Lvl 64 Cyclist Miguel |Canalave City| ": {
                 "level": 64,
                 "tr_id": 153,
@@ -92223,7 +92223,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Deoxys-Defense-Glitched": {
+        "Deoxys-Defense": {
             "Lvl 90 Galactic Boss Cyrus ": {
                 "level": 90,
                 "tr_id": 403,
@@ -92469,7 +92469,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Deoxys-Attack-Glitched": {
+        "Deoxys-Attack": {
             "Lvl 93 Galactic Boss Cyrus2 ": {
                 "level": 93,
                 "tr_id": 404,
@@ -94383,7 +94383,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Deoxys-Speed-Glitched": {
+        "Deoxys-Speed": {
             "Lvl 35 Scientist Shaun6 ": {
                 "level": 35,
                 "tr_id": 747,
@@ -94633,7 +94633,7 @@ backup_data = {
                 "orientation": null
             }
         },
-        "Shaymin-Sky-Glitched": {
+        "Shaymin-Sky": {
             "Lvl 100 Champion Cynthia ": {
                 "level": 100,
                 "tr_id": 870,
@@ -150675,7 +150675,7 @@ backup_data = {
                 ]
             }
         },
-        "Deoxys-Attack-Glitched": {
+        "Deoxys-Attack": {
             "bs": {
                 "hp": 90,
                 "at": 150,
@@ -150955,7 +150955,7 @@ backup_data = {
                 ]
             }
         },
-        "Deoxys-Defense-Glitched": {
+        "Deoxys-Defense": {
             "bs": {
                 "hp": 90,
                 "at": 150,
@@ -151235,7 +151235,7 @@ backup_data = {
                 ]
             }
         },
-        "Deoxys-Speed-Glitched": {
+        "Deoxys-Speed": {
             "bs": {
                 "hp": 90,
                 "at": 150,
@@ -151478,7 +151478,7 @@ backup_data = {
                 ]
             }
         },
-        "Wormadam-Sandy-Glitched": {
+        "Wormadam-Sandy": {
             "bs": {
                 "hp": 60,
                 "at": 79,
@@ -151691,7 +151691,7 @@ backup_data = {
                 ]
             }
         },
-        "Wormadam-Trash-Glitched": {
+        "Wormadam-Trash": {
             "bs": {
                 "hp": 60,
                 "at": 79,
@@ -151912,7 +151912,7 @@ backup_data = {
                 ]
             }
         },
-        "Giratina-Origin-Glitched": {
+        "Giratina-Origin": {
             "bs": {
                 "hp": 150,
                 "at": 100,
@@ -152125,7 +152125,7 @@ backup_data = {
                 ]
             }
         },
-        "Shaymin-Sky-Glitched": {
+        "Shaymin-Sky": {
             "bs": {
                 "hp": 100,
                 "at": 100,
@@ -152325,7 +152325,7 @@ backup_data = {
                 ]
             }
         },
-        "Rotom-Heat-Glitched": {
+        "Rotom-Heat": {
             "bs": {
                 "hp": 50,
                 "at": 65,
@@ -152529,7 +152529,7 @@ backup_data = {
                 ]
             }
         },
-        "Rotom-Wash-Glitched": {
+        "Rotom-Wash": {
             "bs": {
                 "hp": 50,
                 "at": 65,
@@ -152733,7 +152733,7 @@ backup_data = {
                 ]
             }
         },
-        "Rotom-Frost-Glitched": {
+        "Rotom-Frost": {
             "bs": {
                 "hp": 50,
                 "at": 65,
@@ -152937,7 +152937,7 @@ backup_data = {
                 ]
             }
         },
-        "Rotom-Fan-Glitched": {
+        "Rotom-Fan": {
             "bs": {
                 "hp": 50,
                 "at": 65,
@@ -153141,7 +153141,7 @@ backup_data = {
                 ]
             }
         },
-        "Rotom-Mow-Glitched": {
+        "Rotom-Mow": {
             "bs": {
                 "hp": 50,
                 "at": 65,
@@ -153248,6 +153248,7 @@ backup_data = {
         "Pound": {
             "basePower": 40,
             "pp": 35,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153256,6 +153257,7 @@ backup_data = {
         "Karate Chop": {
             "basePower": 50,
             "pp": 25,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -153264,6 +153266,7 @@ backup_data = {
         "Double Slap": {
             "basePower": 30,
             "pp": 10,
+            "acc": 90,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153273,6 +153276,7 @@ backup_data = {
         "Water Ball": {
             "basePower": 100,
             "pp": 15,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -153281,6 +153285,7 @@ backup_data = {
         "Mega Punch": {
             "basePower": 80,
             "pp": 20,
+            "acc": 85,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153289,6 +153294,7 @@ backup_data = {
         "Pay Day": {
             "basePower": 40,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153297,6 +153303,7 @@ backup_data = {
         "Fire Punch": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
@@ -153305,6 +153312,7 @@ backup_data = {
         "Ice Punch": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
@@ -153313,6 +153321,7 @@ backup_data = {
         "Thunder Punch": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Electric",
             "category": "Physical",
             "priority": 0,
@@ -153321,6 +153330,7 @@ backup_data = {
         "Scratch": {
             "basePower": 40,
             "pp": 35,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153329,6 +153339,7 @@ backup_data = {
         "Vise Grip": {
             "basePower": 90,
             "pp": 30,
+            "acc": 100,
             "type": "Water",
             "category": "Physical",
             "priority": 0,
@@ -153337,6 +153348,7 @@ backup_data = {
         "Guillotine": {
             "basePower": 1,
             "pp": 8,
+            "acc": 30,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153345,6 +153357,7 @@ backup_data = {
         "Razor Wind": {
             "basePower": 80,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -153353,6 +153366,7 @@ backup_data = {
         "Swords Dance": {
             "basePower": 0,
             "pp": 30,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -153361,6 +153375,7 @@ backup_data = {
         "Cut": {
             "basePower": 50,
             "pp": 30,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153369,6 +153384,7 @@ backup_data = {
         "Gust": {
             "basePower": 40,
             "pp": 35,
+            "acc": 100,
             "type": "Flying",
             "category": "Special",
             "priority": 0,
@@ -153377,6 +153393,7 @@ backup_data = {
         "Wing Attack": {
             "basePower": 60,
             "pp": 35,
+            "acc": 100,
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
@@ -153385,6 +153402,7 @@ backup_data = {
         "Whirlwind": {
             "basePower": 0,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": -6,
@@ -153393,6 +153411,7 @@ backup_data = {
         "Fly": {
             "basePower": 90,
             "pp": 15,
+            "acc": 95,
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
@@ -153401,6 +153420,7 @@ backup_data = {
         "Mystical Fire": {
             "basePower": 75,
             "pp": 20,
+            "acc": 0,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -153410,6 +153430,7 @@ backup_data = {
         "Slam": {
             "basePower": 120,
             "pp": 8,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153418,6 +153439,7 @@ backup_data = {
         "Vine Whip": {
             "basePower": 35,
             "pp": 15,
+            "acc": 100,
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
@@ -153426,6 +153448,7 @@ backup_data = {
         "Stomp": {
             "basePower": 90,
             "pp": 20,
+            "acc": 100,
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
@@ -153434,6 +153457,7 @@ backup_data = {
         "Double Kick": {
             "basePower": 30,
             "pp": 30,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -153442,6 +153466,7 @@ backup_data = {
         "Mega Kick": {
             "basePower": 140,
             "pp": 8,
+            "acc": 90,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153450,6 +153475,7 @@ backup_data = {
         "Jump Kick": {
             "basePower": 120,
             "pp": 25,
+            "acc": 90,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -153458,6 +153484,7 @@ backup_data = {
         "Rolling Kick": {
             "basePower": 60,
             "pp": 15,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -153466,6 +153493,7 @@ backup_data = {
         "Sand Attack": {
             "basePower": 0,
             "pp": 5,
+            "acc": 100,
             "type": "Ground",
             "category": "Status",
             "priority": 0,
@@ -153474,6 +153502,7 @@ backup_data = {
         "Headbutt": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153482,6 +153511,7 @@ backup_data = {
         "Fire Ball": {
             "basePower": 100,
             "pp": 25,
+            "acc": 100,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -153490,6 +153520,7 @@ backup_data = {
         "Fury Attack": {
             "basePower": 15,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153498,6 +153529,7 @@ backup_data = {
         "Horn Drill": {
             "basePower": 1,
             "pp": 5,
+            "acc": 30,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153506,6 +153538,7 @@ backup_data = {
         "Tackle": {
             "basePower": 35,
             "pp": 35,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153514,6 +153547,7 @@ backup_data = {
         "Body Slam": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153522,6 +153556,7 @@ backup_data = {
         "Wrap": {
             "basePower": 15,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153530,6 +153565,7 @@ backup_data = {
         "Take Down": {
             "basePower": 90,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153538,6 +153574,7 @@ backup_data = {
         "Thrash": {
             "basePower": 120,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153551,6 +153588,7 @@ backup_data = {
         "Double-Edge": {
             "basePower": 140,
             "pp": 8,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153559,6 +153597,7 @@ backup_data = {
         "Tail Whip": {
             "basePower": 0,
             "pp": 1,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -153567,6 +153606,7 @@ backup_data = {
         "Poison Sting": {
             "basePower": 40,
             "pp": 35,
+            "acc": 100,
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
@@ -153575,6 +153615,7 @@ backup_data = {
         "Twineedle": {
             "basePower": 50,
             "pp": 20,
+            "acc": 100,
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
@@ -153583,6 +153624,7 @@ backup_data = {
         "Pin Missile": {
             "basePower": 25,
             "pp": 15,
+            "acc": 100,
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
@@ -153591,6 +153633,7 @@ backup_data = {
         "Leer": {
             "basePower": 0,
             "pp": 30,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -153599,6 +153642,7 @@ backup_data = {
         "Bite": {
             "basePower": 60,
             "pp": 25,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -153607,6 +153651,7 @@ backup_data = {
         "Growl": {
             "basePower": 0,
             "pp": 40,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -153615,6 +153660,7 @@ backup_data = {
         "Roar": {
             "basePower": 0,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": -6,
@@ -153623,6 +153669,7 @@ backup_data = {
         "Sing": {
             "basePower": 0,
             "pp": 8,
+            "acc": 70,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -153631,6 +153678,7 @@ backup_data = {
         "Supersonic": {
             "basePower": 0,
             "pp": 20,
+            "acc": 70,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -153639,6 +153687,7 @@ backup_data = {
         "Sonic Boom": {
             "basePower": 1,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -153647,6 +153696,7 @@ backup_data = {
         "Disable": {
             "basePower": 0,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -153655,6 +153705,7 @@ backup_data = {
         "Acid": {
             "basePower": 40,
             "pp": 30,
+            "acc": 100,
             "type": "Poison",
             "category": "Special",
             "priority": 0,
@@ -153663,6 +153714,7 @@ backup_data = {
         "Ember": {
             "basePower": 40,
             "pp": 25,
+            "acc": 100,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -153671,6 +153723,7 @@ backup_data = {
         "Flamethrower": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -153679,6 +153732,7 @@ backup_data = {
         "Mist": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Ice",
             "category": "Status",
             "priority": 0,
@@ -153687,6 +153741,7 @@ backup_data = {
         "Water Gun": {
             "basePower": 40,
             "pp": 25,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -153695,6 +153750,7 @@ backup_data = {
         "Hydro Pump": {
             "basePower": 120,
             "pp": 8,
+            "acc": 85,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -153703,6 +153759,7 @@ backup_data = {
         "Surf": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -153711,6 +153768,7 @@ backup_data = {
         "Ice Beam": {
             "basePower": 95,
             "pp": 10,
+            "acc": 100,
             "type": "Ice",
             "category": "Special",
             "priority": 0,
@@ -153719,6 +153777,7 @@ backup_data = {
         "Blizzard": {
             "basePower": 120,
             "pp": 5,
+            "acc": 70,
             "type": "Ice",
             "category": "Special",
             "priority": 0,
@@ -153727,6 +153786,7 @@ backup_data = {
         "Psybeam": {
             "basePower": 65,
             "pp": 20,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
@@ -153735,6 +153795,7 @@ backup_data = {
         "Bubble Beam": {
             "basePower": 65,
             "pp": 20,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -153743,6 +153804,7 @@ backup_data = {
         "Aurora Beam": {
             "basePower": 60,
             "pp": 20,
+            "acc": 0,
             "type": "Ice",
             "category": "Special",
             "priority": 0,
@@ -153751,6 +153813,7 @@ backup_data = {
         "Hyper Beam": {
             "basePower": 180,
             "pp": 8,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -153763,6 +153826,7 @@ backup_data = {
         "Peck": {
             "basePower": 40,
             "pp": 35,
+            "acc": 100,
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
@@ -153771,6 +153835,7 @@ backup_data = {
         "Drill Peck": {
             "basePower": 80,
             "pp": 20,
+            "acc": 100,
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
@@ -153779,6 +153844,7 @@ backup_data = {
         "Submission": {
             "basePower": 90,
             "pp": 8,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -153787,6 +153853,7 @@ backup_data = {
         "Low Kick": {
             "basePower": 1,
             "pp": 20,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -153795,6 +153862,7 @@ backup_data = {
         "Counter": {
             "basePower": 1,
             "pp": 20,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": -5,
@@ -153803,6 +153871,7 @@ backup_data = {
         "Seismic Toss": {
             "basePower": 1,
             "pp": 20,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -153811,6 +153880,7 @@ backup_data = {
         "Strength": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -153819,6 +153889,7 @@ backup_data = {
         "Absorb": {
             "basePower": 60,
             "pp": 25,
+            "acc": 100,
             "type": "Dark",
             "category": "Special",
             "priority": 0,
@@ -153827,6 +153898,7 @@ backup_data = {
         "Mega Drain": {
             "basePower": 40,
             "pp": 15,
+            "acc": 100,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -153835,6 +153907,7 @@ backup_data = {
         "Leech Seed": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Grass",
             "category": "Status",
             "priority": 0,
@@ -153843,6 +153916,7 @@ backup_data = {
         "Growth": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -153851,6 +153925,7 @@ backup_data = {
         "Razor Leaf": {
             "basePower": 60,
             "pp": 25,
+            "acc": 100,
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
@@ -153859,6 +153934,7 @@ backup_data = {
         "Solar Beam": {
             "basePower": 120,
             "pp": 10,
+            "acc": 100,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -153867,6 +153943,7 @@ backup_data = {
         "Poison Powder": {
             "basePower": 0,
             "pp": 35,
+            "acc": 100,
             "type": "Poison",
             "category": "Status",
             "priority": 0,
@@ -153875,6 +153952,7 @@ backup_data = {
         "Stun Spore": {
             "basePower": 0,
             "pp": 30,
+            "acc": 90,
             "type": "Grass",
             "category": "Status",
             "priority": 0,
@@ -153883,6 +153961,7 @@ backup_data = {
         "Sleep Powder": {
             "basePower": 0,
             "pp": 15,
+            "acc": 75,
             "type": "Grass",
             "category": "Status",
             "priority": 0,
@@ -153891,6 +153970,7 @@ backup_data = {
         "Petal Dance": {
             "basePower": 100,
             "pp": 20,
+            "acc": 100,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -153900,6 +153980,7 @@ backup_data = {
         "String Shot": {
             "basePower": 0,
             "pp": 40,
+            "acc": 100,
             "type": "Bug",
             "category": "Status",
             "priority": 0,
@@ -153908,6 +153989,7 @@ backup_data = {
         "Dragon Rage": {
             "basePower": 1,
             "pp": 10,
+            "acc": 100,
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
@@ -153916,6 +153998,7 @@ backup_data = {
         "Fire Spin": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -153924,6 +154007,7 @@ backup_data = {
         "Thunder Shock": {
             "basePower": 40,
             "pp": 30,
+            "acc": 100,
             "type": "Electric",
             "category": "Special",
             "priority": 0,
@@ -153932,6 +154016,7 @@ backup_data = {
         "Thunderbolt": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Electric",
             "category": "Special",
             "priority": 0,
@@ -153940,6 +154025,7 @@ backup_data = {
         "Thunder Wave": {
             "basePower": 0,
             "pp": 20,
+            "acc": 100,
             "type": "Electric",
             "category": "Status",
             "priority": 0,
@@ -153948,6 +154034,7 @@ backup_data = {
         "Thunder": {
             "basePower": 120,
             "pp": 10,
+            "acc": 70,
             "type": "Electric",
             "category": "Special",
             "priority": 0,
@@ -153956,6 +154043,7 @@ backup_data = {
         "Rock Throw": {
             "basePower": 50,
             "pp": 15,
+            "acc": 100,
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
@@ -153964,6 +154052,7 @@ backup_data = {
         "Earthquake": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
@@ -153972,6 +154061,7 @@ backup_data = {
         "Fissure": {
             "basePower": 1,
             "pp": 5,
+            "acc": 30,
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
@@ -153980,6 +154070,7 @@ backup_data = {
         "Dig": {
             "basePower": 60,
             "pp": 10,
+            "acc": 100,
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
@@ -153988,6 +154079,7 @@ backup_data = {
         "Toxic": {
             "basePower": 0,
             "pp": 10,
+            "acc": 100,
             "type": "Poison",
             "category": "Status",
             "priority": 0,
@@ -153996,6 +154088,7 @@ backup_data = {
         "Confusion": {
             "basePower": 50,
             "pp": 25,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
@@ -154004,6 +154097,7 @@ backup_data = {
         "Psychic": {
             "basePower": 90,
             "pp": 10,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
@@ -154012,6 +154106,7 @@ backup_data = {
         "Hypnosis": {
             "basePower": 0,
             "pp": 20,
+            "acc": 70,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -154020,6 +154115,7 @@ backup_data = {
         "Meditate": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -154028,6 +154124,7 @@ backup_data = {
         "Agility": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -154036,6 +154133,7 @@ backup_data = {
         "Quick Attack": {
             "basePower": 40,
             "pp": 30,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 1,
@@ -154044,6 +154142,7 @@ backup_data = {
         "Rage": {
             "basePower": 70,
             "pp": 20,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -154052,6 +154151,7 @@ backup_data = {
         "Teleport": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 1,
@@ -154060,6 +154160,7 @@ backup_data = {
         "Night Shade": {
             "basePower": 1,
             "pp": 15,
+            "acc": 100,
             "type": "Ghost",
             "category": "Special",
             "priority": 0,
@@ -154068,6 +154169,7 @@ backup_data = {
         "Mimic": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154076,6 +154178,7 @@ backup_data = {
         "Screech": {
             "basePower": 0,
             "pp": 5,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154084,6 +154187,7 @@ backup_data = {
         "Double Team": {
             "basePower": 0,
             "pp": 6,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154092,6 +154196,7 @@ backup_data = {
         "Recover": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154100,6 +154205,7 @@ backup_data = {
         "Harden": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154108,6 +154214,7 @@ backup_data = {
         "Minimize": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154116,6 +154223,7 @@ backup_data = {
         "SmokeScreen": {
             "basePower": 0,
             "pp": 5,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154124,6 +154232,7 @@ backup_data = {
         "Confuse Ray": {
             "basePower": 0,
             "pp": 10,
+            "acc": 100,
             "type": "Ghost",
             "category": "Status",
             "priority": 0,
@@ -154132,6 +154241,7 @@ backup_data = {
         "Withdraw": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Water",
             "category": "Status",
             "priority": 0,
@@ -154140,6 +154250,7 @@ backup_data = {
         "Rock Ball": {
             "basePower": 100,
             "pp": 15,
+            "acc": 100,
             "type": "Rock",
             "category": "Special",
             "priority": 0,
@@ -154148,6 +154259,7 @@ backup_data = {
         "Barrier": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -154156,6 +154268,7 @@ backup_data = {
         "Light Screen": {
             "basePower": 0,
             "pp": 2,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -154164,6 +154277,7 @@ backup_data = {
         "Haze": {
             "basePower": 0,
             "pp": 30,
+            "acc": 0,
             "type": "Ice",
             "category": "Status",
             "priority": 0,
@@ -154172,6 +154286,7 @@ backup_data = {
         "Reflect": {
             "basePower": 0,
             "pp": 2,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -154180,6 +154295,7 @@ backup_data = {
         "Focus Energy": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154188,6 +154304,7 @@ backup_data = {
         "Bide": {
             "basePower": 1,
             "pp": 10,
+            "acc": 0,
             "type": "Dark",
             "category": "Physical",
             "priority": -1,
@@ -154198,6 +154315,7 @@ backup_data = {
         "Metronome": {
             "basePower": 0,
             "pp": 40,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154206,6 +154324,7 @@ backup_data = {
         "Mirror Move": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Flying",
             "category": "Status",
             "priority": 0,
@@ -154214,6 +154333,7 @@ backup_data = {
         "Self-Destruct": {
             "basePower": 200,
             "pp": 5,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -154222,6 +154342,7 @@ backup_data = {
         "Egg Bomb": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
@@ -154230,6 +154351,7 @@ backup_data = {
         "Lick": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Ghost",
             "category": "Physical",
             "priority": 0,
@@ -154238,6 +154360,7 @@ backup_data = {
         "Smog": {
             "basePower": 60,
             "pp": 20,
+            "acc": 100,
             "type": "Poison",
             "category": "Special",
             "priority": 0,
@@ -154247,6 +154370,7 @@ backup_data = {
         "Sludge": {
             "basePower": 70,
             "pp": 20,
+            "acc": 100,
             "type": "Poison",
             "category": "Special",
             "priority": 0,
@@ -154255,6 +154379,7 @@ backup_data = {
         "Bone Club": {
             "basePower": 65,
             "pp": 20,
+            "acc": 100,
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
@@ -154263,6 +154388,7 @@ backup_data = {
         "Fire Blast": {
             "basePower": 120,
             "pp": 5,
+            "acc": 85,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -154271,6 +154397,7 @@ backup_data = {
         "Waterfall": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Water",
             "category": "Physical",
             "priority": 0,
@@ -154279,6 +154406,7 @@ backup_data = {
         "Clamp": {
             "basePower": 120,
             "pp": 10,
+            "acc": 75,
             "type": "Water",
             "category": "Physical",
             "priority": 0,
@@ -154287,6 +154415,7 @@ backup_data = {
         "Swift": {
             "basePower": 60,
             "pp": 20,
+            "acc": 0,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -154295,6 +154424,7 @@ backup_data = {
         "Solar-Beam": {
             "basePower": 120,
             "pp": 15,
+            "acc": 100,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -154303,6 +154433,7 @@ backup_data = {
         "Hail Ball": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Ice",
             "category": "Special",
             "priority": 0,
@@ -154311,6 +154442,7 @@ backup_data = {
         "Constrict": {
             "basePower": 100,
             "pp": 15,
+            "acc": 100,
             "type": "Ice",
             "category": "Special",
             "priority": 0,
@@ -154320,6 +154452,7 @@ backup_data = {
         "Amnesia": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -154328,6 +154461,7 @@ backup_data = {
         "Kinesis": {
             "basePower": 0,
             "pp": 15,
+            "acc": 100,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -154336,6 +154470,7 @@ backup_data = {
         "Soft-Boiled": {
             "basePower": 0,
             "pp": 25,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154344,6 +154479,7 @@ backup_data = {
         "High Jump Kick": {
             "basePower": 150,
             "pp": 20,
+            "acc": 90,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -154352,6 +154488,7 @@ backup_data = {
         "Glare": {
             "basePower": 0,
             "pp": 30,
+            "acc": 100,
             "type": "Dark",
             "category": "Status",
             "priority": 0,
@@ -154360,6 +154497,7 @@ backup_data = {
         "Dream Eater": {
             "basePower": 100,
             "pp": 15,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
@@ -154368,6 +154506,7 @@ backup_data = {
         "Poison Gas": {
             "basePower": 0,
             "pp": 40,
+            "acc": 85,
             "type": "Poison",
             "category": "Status",
             "priority": 0,
@@ -154376,6 +154515,7 @@ backup_data = {
         "Hurricane": {
             "basePower": 120,
             "pp": 8,
+            "acc": 70,
             "type": "Flying",
             "category": "Special",
             "priority": 0,
@@ -154384,6 +154524,7 @@ backup_data = {
         "Leech Life": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
@@ -154392,6 +154533,7 @@ backup_data = {
         "Lovely Kiss": {
             "basePower": 0,
             "pp": 10,
+            "acc": 90,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154400,6 +154542,7 @@ backup_data = {
         "Sky Attack": {
             "basePower": 120,
             "pp": 5,
+            "acc": 100,
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
@@ -154412,6 +154555,7 @@ backup_data = {
         "Transform": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 1,
@@ -154420,6 +154564,7 @@ backup_data = {
         "Bubble": {
             "basePower": 40,
             "pp": 30,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -154428,6 +154573,7 @@ backup_data = {
         "Dizzy Punch": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -154436,6 +154582,7 @@ backup_data = {
         "Spore": {
             "basePower": 0,
             "pp": 15,
+            "acc": 100,
             "type": "Grass",
             "category": "Status",
             "priority": 0,
@@ -154444,6 +154591,7 @@ backup_data = {
         "Flash": {
             "basePower": 0,
             "pp": 5,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154452,6 +154600,7 @@ backup_data = {
         "Triple Axel": {
             "basePower": 40,
             "pp": 15,
+            "acc": 100,
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
@@ -154461,6 +154610,7 @@ backup_data = {
         "HP Water": {
             "basePower": 70,
             "pp": 20,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -154469,6 +154619,7 @@ backup_data = {
         "Acid Armor": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Poison",
             "category": "Status",
             "priority": 0,
@@ -154477,6 +154628,7 @@ backup_data = {
         "Crabhammer": {
             "basePower": 120,
             "pp": 10,
+            "acc": 100,
             "type": "Water",
             "category": "Physical",
             "priority": 0,
@@ -154485,6 +154637,7 @@ backup_data = {
         "Explosion": {
             "basePower": 250,
             "pp": 5,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -154493,6 +154646,7 @@ backup_data = {
         "Fury Swipes": {
             "basePower": 30,
             "pp": 15,
+            "acc": 90,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -154501,6 +154655,7 @@ backup_data = {
         "Bonemerang": {
             "basePower": 60,
             "pp": 10,
+            "acc": 100,
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
@@ -154509,6 +154664,7 @@ backup_data = {
         "Rest": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -154517,6 +154673,7 @@ backup_data = {
         "Rock Slide": {
             "basePower": 75,
             "pp": 10,
+            "acc": 100,
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
@@ -154525,6 +154682,7 @@ backup_data = {
         "Hyper Fang": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -154533,6 +154691,7 @@ backup_data = {
         "Sharpen": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154541,6 +154700,7 @@ backup_data = {
         "HP Ice": {
             "basePower": 70,
             "pp": 30,
+            "acc": 100,
             "type": "Ice",
             "category": "Special",
             "priority": 0,
@@ -154549,6 +154709,7 @@ backup_data = {
         "Tri Attack": {
             "basePower": 95,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -154557,6 +154718,7 @@ backup_data = {
         "Super Fang": {
             "basePower": 1,
             "pp": 10,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -154565,6 +154727,7 @@ backup_data = {
         "Slash": {
             "basePower": 70,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -154573,6 +154736,7 @@ backup_data = {
         "Substitute": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154581,6 +154745,7 @@ backup_data = {
         "Struggle": {
             "basePower": 50,
             "pp": 1,
+            "acc": 0,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -154589,6 +154754,7 @@ backup_data = {
         "Sketch": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154597,6 +154763,7 @@ backup_data = {
         "Triple Kick": {
             "basePower": 30,
             "pp": 10,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -154605,6 +154772,7 @@ backup_data = {
         "Thief": {
             "basePower": 40,
             "pp": 10,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -154613,6 +154781,7 @@ backup_data = {
         "Spider Web": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Bug",
             "category": "Status",
             "priority": 1,
@@ -154621,6 +154790,7 @@ backup_data = {
         "Mind Reader": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154629,6 +154799,7 @@ backup_data = {
         "HP Ghost": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Ghost",
             "category": "Special",
             "priority": 0,
@@ -154637,6 +154808,7 @@ backup_data = {
         "Flame Wheel": {
             "basePower": 70,
             "pp": 25,
+            "acc": 100,
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
@@ -154645,6 +154817,7 @@ backup_data = {
         "Snore": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -154653,6 +154826,7 @@ backup_data = {
         "Curse": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Fairy",
             "category": "Status",
             "priority": 0,
@@ -154661,6 +154835,7 @@ backup_data = {
         "Flail": {
             "basePower": 1,
             "pp": 15,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -154669,6 +154844,7 @@ backup_data = {
         "Conversion 2": {
             "basePower": 0,
             "pp": 30,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154677,6 +154853,7 @@ backup_data = {
         "Aeroblast": {
             "basePower": 120,
             "pp": 5,
+            "acc": 100,
             "type": "Flying",
             "category": "Special",
             "priority": 0,
@@ -154685,6 +154862,7 @@ backup_data = {
         "Cotton Spore": {
             "basePower": 0,
             "pp": 40,
+            "acc": 100,
             "type": "Grass",
             "category": "Status",
             "priority": 0,
@@ -154693,6 +154871,7 @@ backup_data = {
         "Reversal": {
             "basePower": 1,
             "pp": 15,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -154701,6 +154880,7 @@ backup_data = {
         "Spite": {
             "basePower": 0,
             "pp": 10,
+            "acc": 100,
             "type": "Ghost",
             "category": "Status",
             "priority": 0,
@@ -154709,6 +154889,7 @@ backup_data = {
         "Powder Snow": {
             "basePower": 40,
             "pp": 25,
+            "acc": 100,
             "type": "Ice",
             "category": "Special",
             "priority": 0,
@@ -154717,6 +154898,7 @@ backup_data = {
         "Protect": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 3,
@@ -154725,6 +154907,7 @@ backup_data = {
         "Mach Punch": {
             "basePower": 40,
             "pp": 15,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 1,
@@ -154733,6 +154916,7 @@ backup_data = {
         "Scary Face": {
             "basePower": 0,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154741,6 +154925,7 @@ backup_data = {
         "Feint Attack": {
             "basePower": 60,
             "pp": 20,
+            "acc": 0,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -154749,6 +154934,7 @@ backup_data = {
         "Sweet Kiss": {
             "basePower": 0,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154757,6 +154943,7 @@ backup_data = {
         "Belly Drum": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154765,6 +154952,7 @@ backup_data = {
         "Sludge Bomb": {
             "basePower": 95,
             "pp": 10,
+            "acc": 100,
             "type": "Poison",
             "category": "Special",
             "priority": 0,
@@ -154773,6 +154961,7 @@ backup_data = {
         "Mud-Slap": {
             "basePower": 20,
             "pp": 10,
+            "acc": 100,
             "type": "Ground",
             "category": "Special",
             "priority": 0,
@@ -154781,6 +154970,7 @@ backup_data = {
         "Octazooka": {
             "basePower": 95,
             "pp": 10,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -154789,6 +154979,7 @@ backup_data = {
         "Spikes": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Ground",
             "category": "Status",
             "priority": 1,
@@ -154797,6 +154988,7 @@ backup_data = {
         "Zap Cannon": {
             "basePower": 120,
             "pp": 5,
+            "acc": 50,
             "type": "Electric",
             "category": "Special",
             "priority": 0,
@@ -154805,6 +154997,7 @@ backup_data = {
         "Foresight": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154813,6 +155006,7 @@ backup_data = {
         "Destiny Bond": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Ghost",
             "category": "Status",
             "priority": 0,
@@ -154821,6 +155015,7 @@ backup_data = {
         "Perish Song": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154829,6 +155024,7 @@ backup_data = {
         "Icy Wind": {
             "basePower": 55,
             "pp": 15,
+            "acc": 95,
             "type": "Ice",
             "category": "Special",
             "priority": 0,
@@ -154837,6 +155033,7 @@ backup_data = {
         "Detect": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Fighting",
             "category": "Status",
             "priority": 3,
@@ -154845,6 +155042,7 @@ backup_data = {
         "Bone Rush": {
             "basePower": 25,
             "pp": 10,
+            "acc": 100,
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
@@ -154853,6 +155051,7 @@ backup_data = {
         "Lock-On": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154861,6 +155060,7 @@ backup_data = {
         "Outrage": {
             "basePower": 140,
             "pp": 15,
+            "acc": 100,
             "type": "Dragon",
             "category": "Physical",
             "priority": 0,
@@ -154874,6 +155074,7 @@ backup_data = {
         "Sandstorm": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Rock",
             "category": "Status",
             "priority": 0,
@@ -154882,6 +155083,7 @@ backup_data = {
         "Giga Drain": {
             "basePower": 75,
             "pp": 15,
+            "acc": 100,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -154890,6 +155092,7 @@ backup_data = {
         "Endure": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 3,
@@ -154898,6 +155101,7 @@ backup_data = {
         "Charm": {
             "basePower": 0,
             "pp": 3,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154906,6 +155110,7 @@ backup_data = {
         "Rollout": {
             "basePower": 40,
             "pp": 5,
+            "acc": 100,
             "type": "Rock",
             "category": "Physical",
             "priority": 1,
@@ -154914,6 +155119,7 @@ backup_data = {
         "False Swipe": {
             "basePower": 40,
             "pp": 40,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -154922,6 +155128,7 @@ backup_data = {
         "Swagger": {
             "basePower": 0,
             "pp": 15,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154930,6 +155137,7 @@ backup_data = {
         "Milk Drink": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154938,6 +155146,7 @@ backup_data = {
         "Wild Charge": {
             "basePower": 120,
             "pp": 20,
+            "acc": 100,
             "type": "Electric",
             "category": "Physical",
             "priority": 0,
@@ -154947,6 +155156,7 @@ backup_data = {
         "Fury Cutter": {
             "basePower": 30,
             "pp": 20,
+            "acc": 100,
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
@@ -154955,6 +155165,7 @@ backup_data = {
         "Steel Wing": {
             "basePower": 80,
             "pp": 25,
+            "acc": 100,
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
@@ -154963,6 +155174,7 @@ backup_data = {
         "Mean Look": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 1,
@@ -154971,6 +155183,7 @@ backup_data = {
         "Attract": {
             "basePower": 0,
             "pp": 15,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154979,6 +155192,7 @@ backup_data = {
         "Sleep Talk": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 1,
@@ -154987,6 +155201,7 @@ backup_data = {
         "Heal Bell": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -154995,6 +155210,7 @@ backup_data = {
         "Return": {
             "basePower": 121,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -155003,6 +155219,7 @@ backup_data = {
         "Present": {
             "basePower": 1,
             "pp": 15,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -155011,6 +155228,7 @@ backup_data = {
         "Frustration": {
             "basePower": 121,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -155019,6 +155237,7 @@ backup_data = {
         "Safeguard": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155027,6 +155246,7 @@ backup_data = {
         "Pain Split": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155035,6 +155255,7 @@ backup_data = {
         "Sacred Fire": {
             "basePower": 120,
             "pp": 5,
+            "acc": 100,
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
@@ -155043,6 +155264,7 @@ backup_data = {
         "Bulldoze": {
             "basePower": 60,
             "pp": 30,
+            "acc": 100,
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
@@ -155052,6 +155274,7 @@ backup_data = {
         "Dynamic Punch": {
             "basePower": 120,
             "pp": 5,
+            "acc": 50,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -155060,6 +155283,7 @@ backup_data = {
         "Megahorn": {
             "basePower": 120,
             "pp": 10,
+            "acc": 85,
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
@@ -155068,6 +155292,7 @@ backup_data = {
         "Dragon Breath": {
             "basePower": 70,
             "pp": 20,
+            "acc": 100,
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
@@ -155076,6 +155301,7 @@ backup_data = {
         "Baton Pass": {
             "basePower": 0,
             "pp": 40,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 1,
@@ -155084,6 +155310,7 @@ backup_data = {
         "Encore": {
             "basePower": 0,
             "pp": 3,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155092,6 +155319,7 @@ backup_data = {
         "Pursuit": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -155100,6 +155328,7 @@ backup_data = {
         "HP Fire": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -155108,6 +155337,7 @@ backup_data = {
         "Sweet Scent": {
             "basePower": 0,
             "pp": 2,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155116,6 +155346,7 @@ backup_data = {
         "Iron Tail": {
             "basePower": 120,
             "pp": 15,
+            "acc": 90,
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
@@ -155124,6 +155355,7 @@ backup_data = {
         "Metal Claw": {
             "basePower": 50,
             "pp": 35,
+            "acc": 100,
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
@@ -155132,6 +155364,7 @@ backup_data = {
         "Vital Throw": {
             "basePower": 90,
             "pp": 10,
+            "acc": 0,
             "type": "Fighting",
             "category": "Physical",
             "priority": -1,
@@ -155140,6 +155373,7 @@ backup_data = {
         "Morning Sun": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155148,6 +155382,7 @@ backup_data = {
         "Synthesis": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Grass",
             "category": "Status",
             "priority": 0,
@@ -155156,6 +155391,7 @@ backup_data = {
         "Moonlight": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155164,6 +155400,7 @@ backup_data = {
         "Hidden Power": {
             "basePower": 1,
             "pp": 15,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -155172,6 +155409,7 @@ backup_data = {
         "Cross Chop": {
             "basePower": 100,
             "pp": 5,
+            "acc": 85,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -155180,6 +155418,7 @@ backup_data = {
         "Twister": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
@@ -155188,6 +155427,7 @@ backup_data = {
         "Rain Dance": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Water",
             "category": "Status",
             "priority": 0,
@@ -155196,6 +155436,7 @@ backup_data = {
         "Sunny Day": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Fire",
             "category": "Status",
             "priority": 0,
@@ -155204,6 +155445,7 @@ backup_data = {
         "Crunch": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -155212,6 +155454,7 @@ backup_data = {
         "Mirror Coat": {
             "basePower": 1,
             "pp": 20,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": -5,
@@ -155220,6 +155463,7 @@ backup_data = {
         "Psych Up": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155228,6 +155472,7 @@ backup_data = {
         "Extreme Speed": {
             "basePower": 100,
             "pp": 8,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 2,
@@ -155236,6 +155481,7 @@ backup_data = {
         "Ancient Power": {
             "basePower": 80,
             "pp": 10,
+            "acc": 100,
             "type": "Rock",
             "category": "Special",
             "priority": 0,
@@ -155244,6 +155490,7 @@ backup_data = {
         "Shadow Ball": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Ghost",
             "category": "Special",
             "priority": 0,
@@ -155252,6 +155499,7 @@ backup_data = {
         "Future Sight": {
             "basePower": 120,
             "pp": 15,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
@@ -155260,6 +155508,7 @@ backup_data = {
         "Rock Smash": {
             "basePower": 40,
             "pp": 15,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -155268,6 +155517,7 @@ backup_data = {
         "Whirlpool": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -155276,6 +155526,7 @@ backup_data = {
         "Beat Up": {
             "basePower": 30,
             "pp": 10,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -155284,6 +155535,7 @@ backup_data = {
         "Fake Out": {
             "basePower": 40,
             "pp": 5,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 3,
@@ -155292,6 +155544,7 @@ backup_data = {
         "Uproar": {
             "basePower": 50,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -155300,6 +155553,7 @@ backup_data = {
         "Stockpile": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155308,6 +155562,7 @@ backup_data = {
         "HP Rock": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Rock",
             "category": "Special",
             "priority": 0,
@@ -155316,6 +155571,7 @@ backup_data = {
         "Swallow": {
             "basePower": 90,
             "pp": 10,
+            "acc": 100,
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
@@ -155325,6 +155581,7 @@ backup_data = {
         "Heat Wave": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -155333,6 +155590,7 @@ backup_data = {
         "Hail": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Ice",
             "category": "Status",
             "priority": 0,
@@ -155341,6 +155599,7 @@ backup_data = {
         "Torment": {
             "basePower": 0,
             "pp": 15,
+            "acc": 100,
             "type": "Dark",
             "category": "Status",
             "priority": 0,
@@ -155349,6 +155608,7 @@ backup_data = {
         "Flatter": {
             "basePower": 0,
             "pp": 15,
+            "acc": 100,
             "type": "Dark",
             "category": "Status",
             "priority": 0,
@@ -155357,6 +155617,7 @@ backup_data = {
         "Will-O-Wisp": {
             "basePower": 0,
             "pp": 15,
+            "acc": 85,
             "type": "Fire",
             "category": "Status",
             "priority": 0,
@@ -155365,6 +155626,7 @@ backup_data = {
         "Memento": {
             "basePower": 255,
             "pp": 10,
+            "acc": 100,
             "type": "Dark",
             "category": "Special",
             "priority": 0,
@@ -155373,6 +155635,7 @@ backup_data = {
         "Facade": {
             "basePower": 80,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -155381,6 +155644,7 @@ backup_data = {
         "Focus Punch": {
             "basePower": 150,
             "pp": 20,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": -3,
@@ -155389,6 +155653,7 @@ backup_data = {
         "Smelling Salts": {
             "basePower": 90,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -155397,6 +155662,7 @@ backup_data = {
         "Follow Me": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 3,
@@ -155405,6 +155671,7 @@ backup_data = {
         "Nature Power": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155413,6 +155680,7 @@ backup_data = {
         "Charge": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Electric",
             "category": "Status",
             "priority": 0,
@@ -155421,6 +155689,7 @@ backup_data = {
         "HP Dark": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Dark",
             "category": "Special",
             "priority": 0,
@@ -155429,6 +155698,7 @@ backup_data = {
         "Helping Hand": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 5,
@@ -155437,6 +155707,7 @@ backup_data = {
         "HP Psychic": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
@@ -155445,6 +155716,7 @@ backup_data = {
         "Role Play": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -155453,6 +155725,7 @@ backup_data = {
         "Wish": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155461,6 +155734,7 @@ backup_data = {
         "Assist": {
             "basePower": 0,
             "pp": 35,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155469,6 +155743,7 @@ backup_data = {
         "Ingrain": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Grass",
             "category": "Status",
             "priority": 0,
@@ -155477,6 +155752,7 @@ backup_data = {
         "Superpower": {
             "basePower": 140,
             "pp": 5,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -155489,6 +155765,7 @@ backup_data = {
         "Magic Coat": {
             "basePower": 0,
             "pp": 15,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 4,
@@ -155497,6 +155774,7 @@ backup_data = {
         "Recycle": {
             "basePower": 0,
             "pp": 15,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155505,6 +155783,7 @@ backup_data = {
         "Revenge": {
             "basePower": 60,
             "pp": 10,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -155513,6 +155792,7 @@ backup_data = {
         "Brick Break": {
             "basePower": 75,
             "pp": 15,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -155521,6 +155801,7 @@ backup_data = {
         "Yawn": {
             "basePower": 0,
             "pp": 10,
+            "acc": 70,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155529,6 +155810,7 @@ backup_data = {
         "Knock Off": {
             "basePower": 80,
             "pp": 20,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -155537,6 +155819,7 @@ backup_data = {
         "Endeavor": {
             "basePower": 1,
             "pp": 5,
+            "acc": 100,
             "type": "Fairy",
             "category": "Physical",
             "priority": 0,
@@ -155545,6 +155828,7 @@ backup_data = {
         "Eruption": {
             "basePower": 150,
             "pp": 5,
+            "acc": 100,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -155557,6 +155841,7 @@ backup_data = {
         "Skill Swap": {
             "basePower": 0,
             "pp": 2,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -155565,6 +155850,7 @@ backup_data = {
         "Imprison": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -155573,6 +155859,7 @@ backup_data = {
         "Refresh": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155581,6 +155868,7 @@ backup_data = {
         "Grudge": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Ghost",
             "category": "Status",
             "priority": 0,
@@ -155589,6 +155877,7 @@ backup_data = {
         "Drill Run": {
             "basePower": 80,
             "pp": 10,
+            "acc": 100,
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
@@ -155598,6 +155887,7 @@ backup_data = {
         "Secret Power": {
             "basePower": 85,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -155606,6 +155896,7 @@ backup_data = {
         "Dive": {
             "basePower": 80,
             "pp": 10,
+            "acc": 100,
             "type": "Water",
             "category": "Physical",
             "priority": 0,
@@ -155614,6 +155905,7 @@ backup_data = {
         "HP Fighting": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Fighting",
             "category": "Special",
             "priority": 0,
@@ -155622,6 +155914,7 @@ backup_data = {
         "Camouflage": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155630,6 +155923,7 @@ backup_data = {
         "Tail Glow": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Bug",
             "category": "Status",
             "priority": 2,
@@ -155638,6 +155932,7 @@ backup_data = {
         "Luster Purge": {
             "basePower": 100,
             "pp": 5,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
@@ -155646,6 +155941,7 @@ backup_data = {
         "Mist Ball": {
             "basePower": 100,
             "pp": 5,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
@@ -155654,6 +155950,7 @@ backup_data = {
         "Feather Dance": {
             "basePower": 0,
             "pp": 3,
+            "acc": 100,
             "type": "Flying",
             "category": "Status",
             "priority": 0,
@@ -155662,6 +155959,7 @@ backup_data = {
         "Teeter Dance": {
             "basePower": 0,
             "pp": 20,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155670,6 +155968,7 @@ backup_data = {
         "Blaze Kick": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
@@ -155678,6 +155977,7 @@ backup_data = {
         "HP Ground": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Ground",
             "category": "Special",
             "priority": 0,
@@ -155686,6 +155986,7 @@ backup_data = {
         "Ice Ball": {
             "basePower": 120,
             "pp": 20,
+            "acc": 70,
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
@@ -155694,6 +155995,7 @@ backup_data = {
         "Needle Arm": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
@@ -155702,6 +156004,7 @@ backup_data = {
         "Slack Off": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155710,6 +156013,7 @@ backup_data = {
         "Hyper Voice": {
             "basePower": 110,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -155718,6 +156022,7 @@ backup_data = {
         "Poison Fang": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
@@ -155726,6 +156031,7 @@ backup_data = {
         "Crush Claw": {
             "basePower": 120,
             "pp": 10,
+            "acc": 95,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -155734,6 +156040,7 @@ backup_data = {
         "Blast Burn": {
             "basePower": 150,
             "pp": 5,
+            "acc": 95,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -155746,6 +156053,7 @@ backup_data = {
         "Hydro Cannon": {
             "basePower": 150,
             "pp": 5,
+            "acc": 95,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -155758,6 +156066,7 @@ backup_data = {
         "Meteor Mash": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
@@ -155766,6 +156075,7 @@ backup_data = {
         "Astonish": {
             "basePower": 40,
             "pp": 15,
+            "acc": 100,
             "type": "Ghost",
             "category": "Physical",
             "priority": 0,
@@ -155774,6 +156084,7 @@ backup_data = {
         "Weather Ball": {
             "basePower": 50,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -155782,6 +156093,7 @@ backup_data = {
         "Aromatherapy": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Grass",
             "category": "Status",
             "priority": 0,
@@ -155790,6 +156102,7 @@ backup_data = {
         "Fake Tears": {
             "basePower": 0,
             "pp": 3,
+            "acc": 100,
             "type": "Dark",
             "category": "Status",
             "priority": 0,
@@ -155798,6 +156111,7 @@ backup_data = {
         "Air Cutter": {
             "basePower": 60,
             "pp": 25,
+            "acc": 100,
             "type": "Flying",
             "category": "Special",
             "priority": 0,
@@ -155806,6 +156120,7 @@ backup_data = {
         "Overheat": {
             "basePower": 120,
             "pp": 5,
+            "acc": 100,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -155818,6 +156133,7 @@ backup_data = {
         "Odor Sleuth": {
             "basePower": 0,
             "pp": 40,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155826,6 +156142,7 @@ backup_data = {
         "Rock Tomb": {
             "basePower": 70,
             "pp": 10,
+            "acc": 100,
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
@@ -155834,6 +156151,7 @@ backup_data = {
         "Silver Wind": {
             "basePower": 80,
             "pp": 5,
+            "acc": 0,
             "type": "Bug",
             "category": "Special",
             "priority": 0,
@@ -155842,6 +156160,7 @@ backup_data = {
         "Metal Sound": {
             "basePower": 0,
             "pp": 3,
+            "acc": 100,
             "type": "Steel",
             "category": "Status",
             "priority": 0,
@@ -155850,6 +156169,7 @@ backup_data = {
         "Grass Whistle": {
             "basePower": 0,
             "pp": 15,
+            "acc": 70,
             "type": "Grass",
             "category": "Status",
             "priority": 0,
@@ -155858,6 +156178,7 @@ backup_data = {
         "Tickle": {
             "basePower": 0,
             "pp": 6,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155866,6 +156187,7 @@ backup_data = {
         "Cosmic Power": {
             "basePower": 0,
             "pp": 6,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -155874,6 +156196,7 @@ backup_data = {
         "Water Spout": {
             "basePower": 150,
             "pp": 5,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -155886,6 +156209,7 @@ backup_data = {
         "Signal Beam": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Bug",
             "category": "Special",
             "priority": 0,
@@ -155894,6 +156218,7 @@ backup_data = {
         "Shadow Punch": {
             "basePower": 95,
             "pp": 20,
+            "acc": 0,
             "type": "Ghost",
             "category": "Physical",
             "priority": 0,
@@ -155902,6 +156227,7 @@ backup_data = {
         "Extrasensory": {
             "basePower": 90,
             "pp": 30,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
@@ -155910,6 +156236,7 @@ backup_data = {
         "Sky Uppercut": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -155918,6 +156245,7 @@ backup_data = {
         "Sand Tomb": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Ground",
             "category": "Physical",
             "priority": 0,
@@ -155926,6 +156254,7 @@ backup_data = {
         "Sheer Cold": {
             "basePower": 70,
             "pp": 5,
+            "acc": 50,
             "type": "Ice",
             "category": "Special",
             "priority": 0,
@@ -155934,6 +156263,7 @@ backup_data = {
         "Muddy Water": {
             "basePower": 95,
             "pp": 10,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -155942,6 +156272,7 @@ backup_data = {
         "Bullet Seed": {
             "basePower": 25,
             "pp": 30,
+            "acc": 100,
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
@@ -155950,6 +156281,7 @@ backup_data = {
         "Aerial Ace": {
             "basePower": 60,
             "pp": 20,
+            "acc": 0,
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
@@ -155958,6 +156290,7 @@ backup_data = {
         "Icicle Spear": {
             "basePower": 25,
             "pp": 30,
+            "acc": 100,
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
@@ -155966,6 +156299,7 @@ backup_data = {
         "Iron Defense": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Steel",
             "category": "Status",
             "priority": 0,
@@ -155974,6 +156308,7 @@ backup_data = {
         "Block": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 7,
@@ -155982,6 +156317,7 @@ backup_data = {
         "Howl": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -155990,6 +156326,7 @@ backup_data = {
         "Dragon Claw": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Dragon",
             "category": "Physical",
             "priority": 0,
@@ -155998,6 +156335,7 @@ backup_data = {
         "Frenzy Plant": {
             "basePower": 150,
             "pp": 5,
+            "acc": 95,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -156007,6 +156345,7 @@ backup_data = {
         "Bulk Up": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Fighting",
             "category": "Status",
             "priority": 0,
@@ -156015,6 +156354,7 @@ backup_data = {
         "Bounce": {
             "basePower": 85,
             "pp": 5,
+            "acc": 100,
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
@@ -156023,6 +156363,7 @@ backup_data = {
         "Mud Shot": {
             "basePower": 55,
             "pp": 15,
+            "acc": 100,
             "type": "Ground",
             "category": "Special",
             "priority": 0,
@@ -156031,6 +156372,7 @@ backup_data = {
         "Poison Tail": {
             "basePower": 120,
             "pp": 5,
+            "acc": 100,
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
@@ -156039,6 +156381,7 @@ backup_data = {
         "HP Grass": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -156047,6 +156390,7 @@ backup_data = {
         "Volt Tackle": {
             "basePower": 150,
             "pp": 5,
+            "acc": 100,
             "type": "Electric",
             "category": "Physical",
             "priority": 0,
@@ -156055,6 +156399,7 @@ backup_data = {
         "Magical Leaf": {
             "basePower": 60,
             "pp": 15,
+            "acc": 0,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -156063,6 +156408,7 @@ backup_data = {
         "Scald": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -156071,6 +156417,7 @@ backup_data = {
         "Calm Mind": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -156079,6 +156426,7 @@ backup_data = {
         "Leaf Blade": {
             "basePower": 95,
             "pp": 15,
+            "acc": 100,
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
@@ -156087,6 +156435,7 @@ backup_data = {
         "Dragon Dance": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Dragon",
             "category": "Status",
             "priority": 0,
@@ -156095,6 +156444,7 @@ backup_data = {
         "Rock Blast": {
             "basePower": 25,
             "pp": 8,
+            "acc": 100,
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
@@ -156103,6 +156453,7 @@ backup_data = {
         "Shock Wave": {
             "basePower": 60,
             "pp": 15,
+            "acc": 0,
             "type": "Electric",
             "category": "Special",
             "priority": 0,
@@ -156111,6 +156462,7 @@ backup_data = {
         "Water Pulse": {
             "basePower": 60,
             "pp": 20,
+            "acc": 0,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -156119,6 +156471,7 @@ backup_data = {
         "Doom Desire": {
             "basePower": 250,
             "pp": 5,
+            "acc": 100,
             "type": "Steel",
             "category": "Special",
             "priority": 0,
@@ -156127,6 +156480,7 @@ backup_data = {
         "Psycho Boost": {
             "basePower": 140,
             "pp": 5,
+            "acc": 100,
             "type": "Psychic",
             "category": "Special",
             "priority": 0,
@@ -156135,6 +156489,7 @@ backup_data = {
         "Roost": {
             "basePower": 0,
             "pp": 8,
+            "acc": 0,
             "type": "Flying",
             "category": "Status",
             "priority": 0,
@@ -156143,6 +156498,7 @@ backup_data = {
         "Gravity": {
             "basePower": 0,
             "pp": 5,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 1,
@@ -156151,6 +156507,7 @@ backup_data = {
         "Miracle Eye": {
             "basePower": 0,
             "pp": 40,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -156159,6 +156516,7 @@ backup_data = {
         "Wake-Up Slap": {
             "basePower": 60,
             "pp": 10,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -156167,6 +156525,7 @@ backup_data = {
         "Hammer Arm": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -156175,6 +156534,7 @@ backup_data = {
         "Gyro Ball": {
             "basePower": 1,
             "pp": 8,
+            "acc": 100,
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
@@ -156183,6 +156543,7 @@ backup_data = {
         "HP Electric": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Electric",
             "category": "Special",
             "priority": 0,
@@ -156191,6 +156552,7 @@ backup_data = {
         "Brine": {
             "basePower": 65,
             "pp": 10,
+            "acc": 100,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -156199,6 +156561,7 @@ backup_data = {
         "Natural Gift": {
             "basePower": 1,
             "pp": 1,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -156207,6 +156570,7 @@ backup_data = {
         "Feint": {
             "basePower": 80,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 2,
@@ -156215,6 +156579,7 @@ backup_data = {
         "Pluck": {
             "basePower": 50,
             "pp": 5,
+            "acc": 100,
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
@@ -156223,6 +156588,7 @@ backup_data = {
         "Tailwind": {
             "basePower": 0,
             "pp": 30,
+            "acc": 0,
             "type": "Flying",
             "category": "Status",
             "priority": 5,
@@ -156231,6 +156597,7 @@ backup_data = {
         "Acupressure": {
             "basePower": 0,
             "pp": 30,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -156239,6 +156606,7 @@ backup_data = {
         "Metal Burst": {
             "basePower": 1,
             "pp": 10,
+            "acc": 100,
             "type": "Steel",
             "category": "Physical",
             "priority": -2,
@@ -156247,6 +156615,7 @@ backup_data = {
         "U-turn": {
             "basePower": 80,
             "pp": 20,
+            "acc": 100,
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
@@ -156255,6 +156624,7 @@ backup_data = {
         "Close Combat": {
             "basePower": 120,
             "pp": 5,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -156267,6 +156637,7 @@ backup_data = {
         "Payback": {
             "basePower": 60,
             "pp": 10,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -156275,6 +156646,7 @@ backup_data = {
         "Assurance": {
             "basePower": 70,
             "pp": 10,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -156283,6 +156655,7 @@ backup_data = {
         "Embargo": {
             "basePower": 0,
             "pp": 15,
+            "acc": 100,
             "type": "Dark",
             "category": "Status",
             "priority": 0,
@@ -156291,6 +156664,7 @@ backup_data = {
         "Fling": {
             "basePower": 1,
             "pp": 10,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -156299,6 +156673,7 @@ backup_data = {
         "Psycho Shift": {
             "basePower": 0,
             "pp": 10,
+            "acc": 100,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -156307,6 +156682,7 @@ backup_data = {
         "Trump Card": {
             "basePower": 1,
             "pp": 1,
+            "acc": 0,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -156315,6 +156691,7 @@ backup_data = {
         "Aqua Cutter": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Water",
             "category": "Physical",
             "priority": 0,
@@ -156324,6 +156701,7 @@ backup_data = {
         "Wring Out": {
             "basePower": 75,
             "pp": 5,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -156332,6 +156710,7 @@ backup_data = {
         "Power Trick": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -156340,6 +156719,7 @@ backup_data = {
         "Gastro Acid": {
             "basePower": 0,
             "pp": 10,
+            "acc": 100,
             "type": "Poison",
             "category": "Status",
             "priority": 0,
@@ -156348,6 +156728,7 @@ backup_data = {
         "Lucky Chant": {
             "basePower": 0,
             "pp": 30,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 2,
@@ -156356,6 +156737,7 @@ backup_data = {
         "Me First": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 1,
@@ -156364,6 +156746,7 @@ backup_data = {
         "Copycat": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Normal",
             "category": "Status",
             "priority": 1,
@@ -156372,6 +156755,7 @@ backup_data = {
         "Power Swap": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -156380,6 +156764,7 @@ backup_data = {
         "Guard Swap": {
             "basePower": 0,
             "pp": 3,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 0,
@@ -156388,6 +156773,7 @@ backup_data = {
         "Punishment": {
             "basePower": 1,
             "pp": 5,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -156396,6 +156782,7 @@ backup_data = {
         "Last Resort": {
             "basePower": 130,
             "pp": 5,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -156404,6 +156791,7 @@ backup_data = {
         "Worry Seed": {
             "basePower": 0,
             "pp": 10,
+            "acc": 100,
             "type": "Grass",
             "category": "Status",
             "priority": 0,
@@ -156412,6 +156800,7 @@ backup_data = {
         "Sucker Punch": {
             "basePower": 80,
             "pp": 5,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 2,
@@ -156420,6 +156809,7 @@ backup_data = {
         "Toxic Spikes": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Poison",
             "category": "Status",
             "priority": 1,
@@ -156428,6 +156818,7 @@ backup_data = {
         "Heart Swap": {
             "basePower": 95,
             "pp": 10,
+            "acc": 0,
             "type": "Water",
             "category": "Special",
             "priority": 0,
@@ -156436,6 +156827,7 @@ backup_data = {
         "Aqua Ring": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Water",
             "category": "Status",
             "priority": 0,
@@ -156444,6 +156836,7 @@ backup_data = {
         "Magnet Rise": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Electric",
             "category": "Status",
             "priority": 1,
@@ -156452,6 +156845,7 @@ backup_data = {
         "Flare Blitz": {
             "basePower": 120,
             "pp": 8,
+            "acc": 100,
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
@@ -156460,6 +156854,7 @@ backup_data = {
         "Force Palm": {
             "basePower": 85,
             "pp": 10,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -156468,6 +156863,7 @@ backup_data = {
         "Aura Sphere": {
             "basePower": 90,
             "pp": 10,
+            "acc": 0,
             "type": "Fighting",
             "category": "Special",
             "priority": 0,
@@ -156476,6 +156872,7 @@ backup_data = {
         "Rock Polish": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Rock",
             "category": "Status",
             "priority": 0,
@@ -156484,6 +156881,7 @@ backup_data = {
         "Poison Jab": {
             "basePower": 80,
             "pp": 20,
+            "acc": 100,
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
@@ -156492,6 +156890,7 @@ backup_data = {
         "Dark Pulse": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Dark",
             "category": "Special",
             "priority": 0,
@@ -156500,6 +156899,7 @@ backup_data = {
         "Night Slash": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Dark",
             "category": "Physical",
             "priority": 0,
@@ -156508,6 +156908,7 @@ backup_data = {
         "Aqua Tail": {
             "basePower": 120,
             "pp": 10,
+            "acc": 85,
             "type": "Water",
             "category": "Physical",
             "priority": 0,
@@ -156516,6 +156917,7 @@ backup_data = {
         "Seed Bomb": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
@@ -156524,6 +156926,7 @@ backup_data = {
         "Air Slash": {
             "basePower": 75,
             "pp": 20,
+            "acc": 100,
             "type": "Flying",
             "category": "Special",
             "priority": 0,
@@ -156532,6 +156935,7 @@ backup_data = {
         "X-Scissor": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
@@ -156540,6 +156944,7 @@ backup_data = {
         "Bug Buzz": {
             "basePower": 90,
             "pp": 10,
+            "acc": 100,
             "type": "Bug",
             "category": "Special",
             "priority": 0,
@@ -156548,6 +156953,7 @@ backup_data = {
         "Dragon Pulse": {
             "basePower": 90,
             "pp": 10,
+            "acc": 0,
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
@@ -156556,6 +156962,7 @@ backup_data = {
         "Dragon Rush": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Dragon",
             "category": "Physical",
             "priority": 0,
@@ -156564,6 +156971,7 @@ backup_data = {
         "Power Gem": {
             "basePower": 90,
             "pp": 20,
+            "acc": 100,
             "type": "Rock",
             "category": "Special",
             "priority": 0,
@@ -156572,6 +156980,7 @@ backup_data = {
         "Drain Punch": {
             "basePower": 75,
             "pp": 5,
+            "acc": 100,
             "type": "Fighting",
             "category": "Physical",
             "priority": 0,
@@ -156580,6 +156989,7 @@ backup_data = {
         "Vacuum Wave": {
             "basePower": 40,
             "pp": 30,
+            "acc": 100,
             "type": "Fighting",
             "category": "Special",
             "priority": 1,
@@ -156588,6 +156998,7 @@ backup_data = {
         "Focus Blast": {
             "basePower": 120,
             "pp": 5,
+            "acc": 85,
             "type": "Fighting",
             "category": "Special",
             "priority": 0,
@@ -156596,6 +157007,7 @@ backup_data = {
         "Energy Ball": {
             "basePower": 80,
             "pp": 10,
+            "acc": 100,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -156604,6 +157016,7 @@ backup_data = {
         "Brave Bird": {
             "basePower": 120,
             "pp": 15,
+            "acc": 100,
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
@@ -156612,6 +157025,7 @@ backup_data = {
         "Earth Power": {
             "basePower": 90,
             "pp": 10,
+            "acc": 100,
             "type": "Ground",
             "category": "Special",
             "priority": 0,
@@ -156620,6 +157034,7 @@ backup_data = {
         "HP Flying": {
             "basePower": 70,
             "pp": 15,
+            "acc": 100,
             "type": "Flying",
             "category": "Special",
             "priority": 0,
@@ -156628,6 +157043,7 @@ backup_data = {
         "Giga Impact": {
             "basePower": 180,
             "pp": 5,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -156640,6 +157056,7 @@ backup_data = {
         "Nasty Plot": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Fairy",
             "category": "Status",
             "priority": 0,
@@ -156648,6 +157065,7 @@ backup_data = {
         "Bullet Punch": {
             "basePower": 40,
             "pp": 10,
+            "acc": 100,
             "type": "Steel",
             "category": "Physical",
             "priority": 1,
@@ -156656,6 +157074,7 @@ backup_data = {
         "Avalanche": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
@@ -156666,6 +157085,7 @@ backup_data = {
         "Ice Shard": {
             "basePower": 40,
             "pp": 10,
+            "acc": 100,
             "type": "Ice",
             "category": "Physical",
             "priority": 1,
@@ -156674,6 +157094,7 @@ backup_data = {
         "Shadow Claw": {
             "basePower": 25,
             "pp": 15,
+            "acc": 100,
             "type": "Ghost",
             "category": "Physical",
             "priority": 0,
@@ -156686,6 +157107,7 @@ backup_data = {
         "Thunder Fang": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Electric",
             "category": "Physical",
             "priority": 0,
@@ -156694,6 +157116,7 @@ backup_data = {
         "Ice Fang": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Ice",
             "category": "Physical",
             "priority": 0,
@@ -156702,6 +157125,7 @@ backup_data = {
         "Fire Fang": {
             "basePower": 90,
             "pp": 15,
+            "acc": 100,
             "type": "Fire",
             "category": "Physical",
             "priority": 0,
@@ -156710,6 +157134,7 @@ backup_data = {
         "Shadow Sneak": {
             "basePower": 40,
             "pp": 10,
+            "acc": 100,
             "type": "Ghost",
             "category": "Physical",
             "priority": 1,
@@ -156718,6 +157143,7 @@ backup_data = {
         "Mud Bomb": {
             "basePower": 65,
             "pp": 10,
+            "acc": 100,
             "type": "Ground",
             "category": "Special",
             "priority": 0,
@@ -156726,6 +157152,7 @@ backup_data = {
         "Psycho Cut": {
             "basePower": 90,
             "pp": 20,
+            "acc": 100,
             "type": "Psychic",
             "category": "Physical",
             "priority": 0,
@@ -156734,6 +157161,7 @@ backup_data = {
         "Zen Headbutt": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Psychic",
             "category": "Physical",
             "priority": 0,
@@ -156742,6 +157170,7 @@ backup_data = {
         "Mirror Shot": {
             "basePower": 120,
             "pp": 10,
+            "acc": 100,
             "type": "Steel",
             "category": "Special",
             "priority": 0,
@@ -156750,6 +157179,7 @@ backup_data = {
         "Flash Cannon": {
             "basePower": 80,
             "pp": 10,
+            "acc": 100,
             "type": "Steel",
             "category": "Special",
             "priority": 0,
@@ -156758,6 +157188,7 @@ backup_data = {
         "Rock Climb": {
             "basePower": 90,
             "pp": 20,
+            "acc": 100,
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
@@ -156766,6 +157197,7 @@ backup_data = {
         "Defog": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Flying",
             "category": "Status",
             "priority": 0,
@@ -156774,6 +157206,7 @@ backup_data = {
         "Trick Room": {
             "basePower": 0,
             "pp": 1,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 7,
@@ -156782,6 +157215,7 @@ backup_data = {
         "Draco Meteor": {
             "basePower": 140,
             "pp": 5,
+            "acc": 100,
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
@@ -156794,6 +157228,7 @@ backup_data = {
         "Discharge": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Electric",
             "category": "Special",
             "priority": 0,
@@ -156802,6 +157237,7 @@ backup_data = {
         "Lava Plume": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -156810,6 +157246,7 @@ backup_data = {
         "Leaf Storm": {
             "basePower": 120,
             "pp": 5,
+            "acc": 85,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -156818,6 +157255,7 @@ backup_data = {
         "Power Whip": {
             "basePower": 120,
             "pp": 10,
+            "acc": 85,
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
@@ -156826,6 +157264,7 @@ backup_data = {
         "Rock Wrecker": {
             "basePower": 40,
             "pp": 8,
+            "acc": 100,
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
@@ -156838,6 +157277,7 @@ backup_data = {
         "Cross Poison": {
             "basePower": 95,
             "pp": 20,
+            "acc": 100,
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
@@ -156846,6 +157286,7 @@ backup_data = {
         "Gunk Shot": {
             "basePower": 120,
             "pp": 8,
+            "acc": 100,
             "type": "Poison",
             "category": "Physical",
             "priority": 0,
@@ -156854,6 +157295,7 @@ backup_data = {
         "Iron Head": {
             "basePower": 80,
             "pp": 15,
+            "acc": 100,
             "type": "Steel",
             "category": "Physical",
             "priority": 0,
@@ -156862,6 +157304,7 @@ backup_data = {
         "Magnet Bomb": {
             "basePower": 100,
             "pp": 20,
+            "acc": 0,
             "type": "Steel",
             "category": "Special",
             "priority": 0,
@@ -156870,6 +157313,7 @@ backup_data = {
         "Stone Edge": {
             "basePower": 120,
             "pp": 5,
+            "acc": 80,
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
@@ -156878,6 +157322,7 @@ backup_data = {
         "Captivate": {
             "basePower": 0,
             "pp": 3,
+            "acc": 100,
             "type": "Normal",
             "category": "Status",
             "priority": 0,
@@ -156886,6 +157331,7 @@ backup_data = {
         "Stealth Rock": {
             "basePower": 0,
             "pp": 20,
+            "acc": 0,
             "type": "Rock",
             "category": "Status",
             "priority": 1,
@@ -156894,6 +157340,7 @@ backup_data = {
         "Grass Knot": {
             "basePower": 1,
             "pp": 20,
+            "acc": 100,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -156902,6 +157349,7 @@ backup_data = {
         "Chatter": {
             "basePower": 120,
             "pp": 20,
+            "acc": 100,
             "type": "Flying",
             "category": "Special",
             "priority": 0,
@@ -156911,6 +157359,7 @@ backup_data = {
         "Judgment": {
             "basePower": 120,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -156919,6 +157368,7 @@ backup_data = {
         "Bug Bite": {
             "basePower": 60,
             "pp": 20,
+            "acc": 100,
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
@@ -156927,6 +157377,7 @@ backup_data = {
         "Charge Beam": {
             "basePower": 50,
             "pp": 10,
+            "acc": 100,
             "type": "Electric",
             "category": "Special",
             "priority": 0,
@@ -156935,6 +157386,7 @@ backup_data = {
         "Wood Hammer": {
             "basePower": 120,
             "pp": 15,
+            "acc": 100,
             "type": "Grass",
             "category": "Physical",
             "priority": 0,
@@ -156943,6 +157395,7 @@ backup_data = {
         "Aqua Jet": {
             "basePower": 40,
             "pp": 5,
+            "acc": 100,
             "type": "Water",
             "category": "Physical",
             "priority": 1,
@@ -156951,6 +157404,7 @@ backup_data = {
         "Attack Order": {
             "basePower": 120,
             "pp": 15,
+            "acc": 100,
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
@@ -156960,6 +157414,7 @@ backup_data = {
         "Defend Order": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Bug",
             "category": "Status",
             "priority": 1,
@@ -156968,6 +157423,7 @@ backup_data = {
         "Heal Order": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Bug",
             "category": "Status",
             "priority": 0,
@@ -156976,6 +157432,7 @@ backup_data = {
         "Head Smash": {
             "basePower": 150,
             "pp": 5,
+            "acc": 100,
             "type": "Rock",
             "category": "Physical",
             "priority": 0,
@@ -156984,6 +157441,7 @@ backup_data = {
         "Double Hit": {
             "basePower": 60,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -156992,6 +157450,7 @@ backup_data = {
         "Roar of Time": {
             "basePower": 150,
             "pp": 5,
+            "acc": 100,
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
@@ -157005,6 +157464,7 @@ backup_data = {
         "Spacial Rend": {
             "basePower": 120,
             "pp": 5,
+            "acc": 100,
             "type": "Dragon",
             "category": "Special",
             "priority": 0,
@@ -157013,6 +157473,7 @@ backup_data = {
         "Lunar Dance": {
             "basePower": 0,
             "pp": 10,
+            "acc": 0,
             "type": "Psychic",
             "category": "Status",
             "priority": 1,
@@ -157021,6 +157482,7 @@ backup_data = {
         "Crush Grip": {
             "basePower": 150,
             "pp": 5,
+            "acc": 100,
             "type": "Normal",
             "category": "Physical",
             "priority": 0,
@@ -157029,6 +157491,7 @@ backup_data = {
         "Magma Storm": {
             "basePower": 120,
             "pp": 5,
+            "acc": 100,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -157037,6 +157500,7 @@ backup_data = {
         "Dark Void": {
             "basePower": 0,
             "pp": 5,
+            "acc": 90,
             "type": "Dark",
             "category": "Status",
             "priority": 0,
@@ -157045,6 +157509,7 @@ backup_data = {
         "Seed Flare": {
             "basePower": 120,
             "pp": 5,
+            "acc": 100,
             "type": "Grass",
             "category": "Special",
             "priority": 0,
@@ -157053,6 +157518,7 @@ backup_data = {
         "Ominous Wind": {
             "basePower": 80,
             "pp": 5,
+            "acc": 0,
             "type": "Ghost",
             "category": "Special",
             "priority": 0,
@@ -157061,6 +157527,7 @@ backup_data = {
         "Shadow Force": {
             "basePower": 120,
             "pp": 5,
+            "acc": 100,
             "type": "Ghost",
             "category": "Physical",
             "priority": 0,
@@ -157069,6 +157536,7 @@ backup_data = {
         "MOVE_468": {
             "basePower": 60,
             "pp": 10,
+            "acc": 0,
             "type": "Fire",
             "category": "Special",
             "priority": 0,
@@ -157077,6 +157545,7 @@ backup_data = {
         "MOVE_469": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
@@ -157085,6 +157554,7 @@ backup_data = {
         "MOVE_470": {
             "basePower": 100,
             "pp": 10,
+            "acc": 100,
             "type": "Normal",
             "category": "Special",
             "priority": 0,
