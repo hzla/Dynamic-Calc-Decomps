@@ -16471,7 +16471,7 @@ backup_data = {
                 "spriteId": 29,
                 "orientation": 1
             },
-            "Lvl 39 Pkmn Trainer CみとみいrVとぷい4 ": {
+            "Lvl 39 Pkmn Trainer Barry4 ": {
                 "level": 39,
                 "tr_id": 470,
                 "ai": 279,
@@ -16501,7 +16501,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 39 Pkmn Trainer CみとみいrVとぷい5 ": {
+            "Lvl 39 Pkmn Trainer Barry5 ": {
                 "level": 39,
                 "tr_id": 471,
                 "ai": 279,
@@ -16531,7 +16531,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 39 Pkmn Trainer CみとみいrVとぷい6 ": {
+            "Lvl 39 Pkmn Trainer Barry6 ": {
                 "level": 39,
                 "tr_id": 472,
                 "ai": 279,
@@ -16561,7 +16561,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer CみとみいrVとぷい7 ": {
+            "Lvl 46 Pkmn Trainer Barry7 ": {
                 "level": 46,
                 "tr_id": 473,
                 "ai": 7,
@@ -16591,7 +16591,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer CみとみいrVとぷい8 ": {
+            "Lvl 46 Pkmn Trainer Barry8 ": {
                 "level": 46,
                 "tr_id": 474,
                 "ai": 7,
@@ -16621,7 +16621,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer CみとみいrVとぷい9 ": {
+            "Lvl 46 Pkmn Trainer Barry9 ": {
                 "level": 46,
                 "tr_id": 475,
                 "ai": 7,
@@ -16651,7 +16651,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Pkmn Trainer CみとみいrVとぷい10 ": {
+            "Lvl 55 Pkmn Trainer Barry10 ": {
                 "level": 55,
                 "tr_id": 476,
                 "ai": 7,
@@ -16681,7 +16681,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Pkmn Trainer CみとみいrVとぷい11 ": {
+            "Lvl 55 Pkmn Trainer Barry11 ": {
                 "level": 55,
                 "tr_id": 477,
                 "ai": 7,
@@ -16711,7 +16711,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Pkmn Trainer CみとみいrVとぷい12 ": {
+            "Lvl 55 Pkmn Trainer Barry12 ": {
                 "level": 55,
                 "tr_id": 478,
                 "ai": 7,
@@ -16741,7 +16741,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
+            "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -16771,7 +16771,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
+            "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -16801,7 +16801,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
+            "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -16863,7 +16863,7 @@ backup_data = {
                 "partner": 507,
                 "weather": "Hail"
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
+            "Lvl 100 Pkmn Trainer Barry15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -16893,7 +16893,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
+            "Lvl 100 Pkmn Trainer Barry16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -16923,7 +16923,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
+            "Lvl 100 Pkmn Trainer Barry17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -19781,7 +19781,7 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 2
             },
-            "Lvl 39 Pkmn Trainer CみとみいrVとぷい6 ": {
+            "Lvl 39 Pkmn Trainer Barry6 ": {
                 "level": 39,
                 "tr_id": 472,
                 "ai": 279,
@@ -25126,7 +25126,7 @@ backup_data = {
                 "partner": 443,
                 "tagPartner": 612
             },
-            "Lvl 39 Pkmn Trainer CみとみいrVとぷい4 ": {
+            "Lvl 39 Pkmn Trainer Barry4 ": {
                 "level": 39,
                 "tr_id": 470,
                 "ai": 279,
@@ -30241,7 +30241,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer CみとみいrVとぷい18 ": {
+            "Lvl 59 Pkmn Trainer Barry18 ": {
                 "level": 59,
                 "tr_id": 837,
                 "ai": 7,
@@ -30271,7 +30271,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer CみとみいrVとぷい20 ": {
+            "Lvl 59 Pkmn Trainer Barry20 ": {
                 "level": 59,
                 "tr_id": 839,
                 "ai": 7,
@@ -30301,7 +30301,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer CみとみいrVとぷい21 ": {
+            "Lvl 69 Pkmn Trainer Barry21 ": {
                 "level": 69,
                 "tr_id": 840,
                 "ai": 7,
@@ -30331,7 +30331,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer CみとみいrVとぷい23 ": {
+            "Lvl 69 Pkmn Trainer Barry23 ": {
                 "level": 69,
                 "tr_id": 842,
                 "ai": 7,
@@ -30391,7 +30391,7 @@ backup_data = {
                 "spriteId": 38,
                 "orientation": 1
             },
-            "Lvl 79 Pkmn Trainer CみとみいrVとぷい27 ": {
+            "Lvl 79 Pkmn Trainer Barry27 ": {
                 "level": 79,
                 "tr_id": 871,
                 "ai": 7,
@@ -30421,7 +30421,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 79 Pkmn Trainer CみとみいrVとぷい29 ": {
+            "Lvl 79 Pkmn Trainer Barry29 ": {
                 "level": 79,
                 "tr_id": 873,
                 "ai": 7,
@@ -30451,7 +30451,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer CみとみいrVとぷい30 ": {
+            "Lvl 52 Pkmn Trainer Barry30 ": {
                 "level": 52,
                 "tr_id": 923,
                 "ai": 7,
@@ -30481,7 +30481,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer CみとみいrVとぷい32 ": {
+            "Lvl 52 Pkmn Trainer Barry32 ": {
                 "level": 52,
                 "tr_id": 925,
                 "ai": 7,
@@ -35325,7 +35325,7 @@ backup_data = {
                 "spriteId": 41,
                 "orientation": 2
             },
-            "Lvl 47 Pkmn Trainer CみとみいrVとぷい7 ": {
+            "Lvl 47 Pkmn Trainer Barry7 ": {
                 "level": 47,
                 "tr_id": 473,
                 "ai": 7,
@@ -35355,7 +35355,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Pkmn Trainer CみとみいrVとぷい8 ": {
+            "Lvl 47 Pkmn Trainer Barry8 ": {
                 "level": 47,
                 "tr_id": 474,
                 "ai": 7,
@@ -35385,7 +35385,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Pkmn Trainer CみとみいrVとぷい9 ": {
+            "Lvl 47 Pkmn Trainer Barry9 ": {
                 "level": 47,
                 "tr_id": 475,
                 "ai": 7,
@@ -35415,7 +35415,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer CみとみいrVとぷい10 ": {
+            "Lvl 56 Pkmn Trainer Barry10 ": {
                 "level": 56,
                 "tr_id": 476,
                 "ai": 7,
@@ -35445,7 +35445,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer CみとみいrVとぷい11 ": {
+            "Lvl 56 Pkmn Trainer Barry11 ": {
                 "level": 56,
                 "tr_id": 477,
                 "ai": 7,
@@ -35475,7 +35475,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer CみとみいrVとぷい12 ": {
+            "Lvl 56 Pkmn Trainer Barry12 ": {
                 "level": 56,
                 "tr_id": 478,
                 "ai": 7,
@@ -35746,7 +35746,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer CみとみいrVとぷい18 ": {
+            "Lvl 61 Pkmn Trainer Barry18 ": {
                 "level": 61,
                 "tr_id": 837,
                 "ai": 7,
@@ -35776,7 +35776,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer CみとみいrVとぷい19 ": {
+            "Lvl 61 Pkmn Trainer Barry19 ": {
                 "level": 61,
                 "tr_id": 838,
                 "ai": 7,
@@ -35806,7 +35806,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer CみとみいrVとぷい20 ": {
+            "Lvl 61 Pkmn Trainer Barry20 ": {
                 "level": 61,
                 "tr_id": 839,
                 "ai": 7,
@@ -35836,7 +35836,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer CみとみいrVとぷい21 ": {
+            "Lvl 71 Pkmn Trainer Barry21 ": {
                 "level": 71,
                 "tr_id": 840,
                 "ai": 7,
@@ -35866,7 +35866,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer CみとみいrVとぷい22 ": {
+            "Lvl 71 Pkmn Trainer Barry22 ": {
                 "level": 71,
                 "tr_id": 841,
                 "ai": 7,
@@ -35896,7 +35896,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer CみとみいrVとぷい23 ": {
+            "Lvl 71 Pkmn Trainer Barry23 ": {
                 "level": 71,
                 "tr_id": 842,
                 "ai": 7,
@@ -35926,7 +35926,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer CみとみいrVとぷい27 ": {
+            "Lvl 81 Pkmn Trainer Barry27 ": {
                 "level": 81,
                 "tr_id": 871,
                 "ai": 7,
@@ -35956,7 +35956,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer CみとみいrVとぷい28 ": {
+            "Lvl 81 Pkmn Trainer Barry28 ": {
                 "level": 81,
                 "tr_id": 872,
                 "ai": 7,
@@ -35986,7 +35986,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer CみとみいrVとぷい29 ": {
+            "Lvl 81 Pkmn Trainer Barry29 ": {
                 "level": 81,
                 "tr_id": 873,
                 "ai": 7,
@@ -36016,7 +36016,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer CみとみいrVとぷい30 ": {
+            "Lvl 53 Pkmn Trainer Barry30 ": {
                 "level": 53,
                 "tr_id": 923,
                 "ai": 7,
@@ -36046,7 +36046,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer CみとみいrVとぷい31 ": {
+            "Lvl 53 Pkmn Trainer Barry31 ": {
                 "level": 53,
                 "tr_id": 924,
                 "ai": 7,
@@ -36076,7 +36076,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer CみとみいrVとぷい32 ": {
+            "Lvl 53 Pkmn Trainer Barry32 ": {
                 "level": 53,
                 "tr_id": 925,
                 "ai": 7,
@@ -36199,7 +36199,7 @@ backup_data = {
                 "spriteId": 10,
                 "orientation": 3
             },
-            "Lvl 47 Pkmn Trainer CみとみいrVとぷい7 ": {
+            "Lvl 47 Pkmn Trainer Barry7 ": {
                 "level": 47,
                 "tr_id": 473,
                 "ai": 7,
@@ -36229,7 +36229,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer CみとみいrVとぷい10 ": {
+            "Lvl 56 Pkmn Trainer Barry10 ": {
                 "level": 56,
                 "tr_id": 476,
                 "ai": 7,
@@ -36259,7 +36259,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
+            "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -36322,7 +36322,7 @@ backup_data = {
                 "tagPartner": 861,
                 "weather": "Fog"
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
+            "Lvl 100 Pkmn Trainer Barry15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -38997,7 +38997,7 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 40 Pkmn Trainer CみとみいrVとぷい4 ": {
+            "Lvl 40 Pkmn Trainer Barry4 ": {
                 "level": 40,
                 "tr_id": 470,
                 "ai": 279,
@@ -39027,7 +39027,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Pkmn Trainer CみとみいrVとぷい7 ": {
+            "Lvl 50 Pkmn Trainer Barry7 ": {
                 "level": 50,
                 "tr_id": 473,
                 "ai": 7,
@@ -39057,7 +39057,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 57 Pkmn Trainer CみとみいrVとぷい10 ": {
+            "Lvl 57 Pkmn Trainer Barry10 ": {
                 "level": 57,
                 "tr_id": 476,
                 "ai": 7,
@@ -39087,7 +39087,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
+            "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -39212,7 +39212,7 @@ backup_data = {
                 "spriteId": 10,
                 "orientation": 3
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
+            "Lvl 100 Pkmn Trainer Barry15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -39392,7 +39392,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Pkmn Trainer CみとみいrVとぷい18 ": {
+            "Lvl 65 Pkmn Trainer Barry18 ": {
                 "level": 65,
                 "tr_id": 837,
                 "ai": 7,
@@ -39422,7 +39422,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 75 Pkmn Trainer CみとみいrVとぷい21 ": {
+            "Lvl 75 Pkmn Trainer Barry21 ": {
                 "level": 75,
                 "tr_id": 840,
                 "ai": 7,
@@ -39513,7 +39513,7 @@ backup_data = {
                 "orientation": null,
                 "weather": "Sand"
             },
-            "Lvl 85 Pkmn Trainer CみとみいrVとぷい27 ": {
+            "Lvl 85 Pkmn Trainer Barry27 ": {
                 "level": 85,
                 "tr_id": 871,
                 "ai": 7,
@@ -39543,7 +39543,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer CみとみいrVとぷい30 ": {
+            "Lvl 56 Pkmn Trainer Barry30 ": {
                 "level": 56,
                 "tr_id": 923,
                 "ai": 7,
@@ -44146,7 +44146,7 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 3
             },
-            "Lvl 40 Pkmn Trainer CみとみいrVとぷい5 ": {
+            "Lvl 40 Pkmn Trainer Barry5 ": {
                 "level": 40,
                 "tr_id": 471,
                 "ai": 279,
@@ -44176,7 +44176,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Pkmn Trainer CみとみいrVとぷい8 ": {
+            "Lvl 50 Pkmn Trainer Barry8 ": {
                 "level": 50,
                 "tr_id": 474,
                 "ai": 7,
@@ -44206,7 +44206,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 57 Pkmn Trainer CみとみいrVとぷい11 ": {
+            "Lvl 57 Pkmn Trainer Barry11 ": {
                 "level": 57,
                 "tr_id": 477,
                 "ai": 7,
@@ -44236,7 +44236,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
+            "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -44327,7 +44327,7 @@ backup_data = {
                 "spriteId": 49,
                 "orientation": 2
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
+            "Lvl 100 Pkmn Trainer Barry16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -44477,7 +44477,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 65 Pkmn Trainer CみとみいrVとぷい19 ": {
+            "Lvl 65 Pkmn Trainer Barry19 ": {
                 "level": 65,
                 "tr_id": 838,
                 "ai": 7,
@@ -44507,7 +44507,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 75 Pkmn Trainer CみとみいrVとぷい22 ": {
+            "Lvl 75 Pkmn Trainer Barry22 ": {
                 "level": 75,
                 "tr_id": 841,
                 "ai": 7,
@@ -44537,7 +44537,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 85 Pkmn Trainer CみとみいrVとぷい28 ": {
+            "Lvl 85 Pkmn Trainer Barry28 ": {
                 "level": 85,
                 "tr_id": 872,
                 "ai": 7,
@@ -44567,7 +44567,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer CみとみいrVとぷい31 ": {
+            "Lvl 56 Pkmn Trainer Barry31 ": {
                 "level": 56,
                 "tr_id": 924,
                 "ai": 7,
@@ -45411,7 +45411,7 @@ backup_data = {
                 "partner": 458,
                 "tagPartner": 612
             },
-            "Lvl 38 Pkmn Trainer CみとみいrVとぷい4 ": {
+            "Lvl 38 Pkmn Trainer Barry4 ": {
                 "level": 38,
                 "tr_id": 470,
                 "ai": 279,
@@ -45441,7 +45441,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer CみとみいrVとぷい5 ": {
+            "Lvl 38 Pkmn Trainer Barry5 ": {
                 "level": 38,
                 "tr_id": 471,
                 "ai": 279,
@@ -45471,7 +45471,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer CみとみいrVとぷい6 ": {
+            "Lvl 38 Pkmn Trainer Barry6 ": {
                 "level": 38,
                 "tr_id": 472,
                 "ai": 279,
@@ -45501,7 +45501,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Pkmn Trainer CみとみいrVとぷい7 ": {
+            "Lvl 47 Pkmn Trainer Barry7 ": {
                 "level": 47,
                 "tr_id": 473,
                 "ai": 7,
@@ -45531,7 +45531,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Pkmn Trainer CみとみいrVとぷい8 ": {
+            "Lvl 47 Pkmn Trainer Barry8 ": {
                 "level": 47,
                 "tr_id": 474,
                 "ai": 7,
@@ -45561,7 +45561,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 47 Pkmn Trainer CみとみいrVとぷい9 ": {
+            "Lvl 47 Pkmn Trainer Barry9 ": {
                 "level": 47,
                 "tr_id": 475,
                 "ai": 7,
@@ -45591,7 +45591,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer CみとみいrVとぷい10 ": {
+            "Lvl 54 Pkmn Trainer Barry10 ": {
                 "level": 54,
                 "tr_id": 476,
                 "ai": 7,
@@ -45621,7 +45621,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer CみとみいrVとぷい11 ": {
+            "Lvl 54 Pkmn Trainer Barry11 ": {
                 "level": 54,
                 "tr_id": 477,
                 "ai": 7,
@@ -45651,7 +45651,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer CみとみいrVとぷい12 ": {
+            "Lvl 54 Pkmn Trainer Barry12 ": {
                 "level": 54,
                 "tr_id": 478,
                 "ai": 7,
@@ -45681,7 +45681,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
+            "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -45711,7 +45711,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
+            "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -45741,7 +45741,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
+            "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -45835,7 +45835,7 @@ backup_data = {
                 "tagPartner": 865,
                 "weather": "Hail"
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
+            "Lvl 100 Pkmn Trainer Barry15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -45865,7 +45865,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
+            "Lvl 100 Pkmn Trainer Barry16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -45895,7 +45895,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
+            "Lvl 100 Pkmn Trainer Barry17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -50624,7 +50624,7 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 47 Pkmn Trainer CみとみいrVとぷい8 ": {
+            "Lvl 47 Pkmn Trainer Barry8 ": {
                 "level": 47,
                 "tr_id": 474,
                 "ai": 7,
@@ -50654,7 +50654,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer CみとみいrVとぷい11 ": {
+            "Lvl 56 Pkmn Trainer Barry11 ": {
                 "level": 56,
                 "tr_id": 477,
                 "ai": 7,
@@ -50684,7 +50684,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
+            "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -50775,7 +50775,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
+            "Lvl 100 Pkmn Trainer Barry16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -53602,7 +53602,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer CみとみいrVとぷい18 ": {
+            "Lvl 63 Pkmn Trainer Barry18 ": {
                 "level": 63,
                 "tr_id": 837,
                 "ai": 7,
@@ -53632,7 +53632,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer CみとみいrVとぷい19 ": {
+            "Lvl 63 Pkmn Trainer Barry19 ": {
                 "level": 63,
                 "tr_id": 838,
                 "ai": 7,
@@ -53662,7 +53662,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Pkmn Trainer CみとみいrVとぷい20 ": {
+            "Lvl 63 Pkmn Trainer Barry20 ": {
                 "level": 63,
                 "tr_id": 839,
                 "ai": 7,
@@ -53692,7 +53692,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 73 Pkmn Trainer CみとみいrVとぷい21 ": {
+            "Lvl 73 Pkmn Trainer Barry21 ": {
                 "level": 73,
                 "tr_id": 840,
                 "ai": 7,
@@ -53722,7 +53722,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 73 Pkmn Trainer CみとみいrVとぷい22 ": {
+            "Lvl 73 Pkmn Trainer Barry22 ": {
                 "level": 73,
                 "tr_id": 841,
                 "ai": 7,
@@ -53752,7 +53752,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 73 Pkmn Trainer CみとみいrVとぷい23 ": {
+            "Lvl 73 Pkmn Trainer Barry23 ": {
                 "level": 73,
                 "tr_id": 842,
                 "ai": 7,
@@ -53782,7 +53782,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 83 Pkmn Trainer CみとみいrVとぷい27 ": {
+            "Lvl 83 Pkmn Trainer Barry27 ": {
                 "level": 83,
                 "tr_id": 871,
                 "ai": 7,
@@ -53812,7 +53812,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 83 Pkmn Trainer CみとみいrVとぷい28 ": {
+            "Lvl 83 Pkmn Trainer Barry28 ": {
                 "level": 83,
                 "tr_id": 872,
                 "ai": 7,
@@ -53842,7 +53842,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 83 Pkmn Trainer CみとみいrVとぷい29 ": {
+            "Lvl 83 Pkmn Trainer Barry29 ": {
                 "level": 83,
                 "tr_id": 873,
                 "ai": 7,
@@ -53902,7 +53902,7 @@ backup_data = {
                 "spriteId": 61,
                 "orientation": 0
             },
-            "Lvl 54 Pkmn Trainer CみとみいrVとぷい30 ": {
+            "Lvl 54 Pkmn Trainer Barry30 ": {
                 "level": 54,
                 "tr_id": 923,
                 "ai": 7,
@@ -53932,7 +53932,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer CみとみいrVとぷい31 ": {
+            "Lvl 54 Pkmn Trainer Barry31 ": {
                 "level": 54,
                 "tr_id": 924,
                 "ai": 7,
@@ -53962,7 +53962,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer CみとみいrVとぷい32 ": {
+            "Lvl 54 Pkmn Trainer Barry32 ": {
                 "level": 54,
                 "tr_id": 925,
                 "ai": 7,
@@ -58975,7 +58975,7 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 47 Pkmn Trainer CみとみいrVとぷい9 ": {
+            "Lvl 47 Pkmn Trainer Barry9 ": {
                 "level": 47,
                 "tr_id": 475,
                 "ai": 7,
@@ -59005,7 +59005,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer CみとみいrVとぷい12 ": {
+            "Lvl 56 Pkmn Trainer Barry12 ": {
                 "level": 56,
                 "tr_id": 478,
                 "ai": 7,
@@ -59035,7 +59035,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
+            "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -59222,7 +59222,7 @@ backup_data = {
                 "tagPartner": 863,
                 "weather": "Rain"
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
+            "Lvl 100 Pkmn Trainer Barry17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -67532,7 +67532,7 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Hail"
             },
-            "Lvl 38 Pkmn Trainer CみとみいrVとぷい4 ": {
+            "Lvl 38 Pkmn Trainer Barry4 ": {
                 "level": 38,
                 "tr_id": 470,
                 "ai": 279,
@@ -67562,7 +67562,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer CみとみいrVとぷい5 ": {
+            "Lvl 38 Pkmn Trainer Barry5 ": {
                 "level": 38,
                 "tr_id": 471,
                 "ai": 279,
@@ -67592,7 +67592,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer CみとみいrVとぷい6 ": {
+            "Lvl 38 Pkmn Trainer Barry6 ": {
                 "level": 38,
                 "tr_id": 472,
                 "ai": 279,
@@ -67622,7 +67622,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
+            "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -67652,7 +67652,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
+            "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -67682,7 +67682,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
+            "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -67744,7 +67744,7 @@ backup_data = {
                 "partner": 508,
                 "weather": "Hail"
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
+            "Lvl 100 Pkmn Trainer Barry15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -67774,7 +67774,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
+            "Lvl 100 Pkmn Trainer Barry16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -67804,7 +67804,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
+            "Lvl 100 Pkmn Trainer Barry17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -68520,7 +68520,7 @@ backup_data = {
                 "spriteId": 31,
                 "orientation": 2
             },
-            "Lvl 40 Pkmn Trainer CみとみいrVとぷい6 ": {
+            "Lvl 40 Pkmn Trainer Barry6 ": {
                 "level": 40,
                 "tr_id": 472,
                 "ai": 279,
@@ -68550,7 +68550,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 50 Pkmn Trainer CみとみいrVとぷい9 ": {
+            "Lvl 50 Pkmn Trainer Barry9 ": {
                 "level": 50,
                 "tr_id": 475,
                 "ai": 7,
@@ -68580,7 +68580,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 57 Pkmn Trainer CみとみいrVとぷい12 ": {
+            "Lvl 57 Pkmn Trainer Barry12 ": {
                 "level": 57,
                 "tr_id": 478,
                 "ai": 7,
@@ -68610,7 +68610,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
+            "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -68796,7 +68796,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
+            "Lvl 100 Pkmn Trainer Barry17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -69041,7 +69041,7 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Rain"
             },
-            "Lvl 65 Pkmn Trainer CみとみいrVとぷい20 ": {
+            "Lvl 65 Pkmn Trainer Barry20 ": {
                 "level": 65,
                 "tr_id": 839,
                 "ai": 7,
@@ -69071,7 +69071,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 75 Pkmn Trainer CみとみいrVとぷい23 ": {
+            "Lvl 75 Pkmn Trainer Barry23 ": {
                 "level": 75,
                 "tr_id": 842,
                 "ai": 7,
@@ -69101,7 +69101,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 85 Pkmn Trainer CみとみいrVとぷい29 ": {
+            "Lvl 85 Pkmn Trainer Barry29 ": {
                 "level": 85,
                 "tr_id": 873,
                 "ai": 7,
@@ -69131,7 +69131,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Pkmn Trainer CみとみいrVとぷい32 ": {
+            "Lvl 56 Pkmn Trainer Barry32 ": {
                 "level": 56,
                 "tr_id": 925,
                 "ai": 7,
@@ -72665,7 +72665,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer CみとみいrVとぷい18 ": {
+            "Lvl 59 Pkmn Trainer Barry18 ": {
                 "level": 59,
                 "tr_id": 837,
                 "ai": 7,
@@ -72695,7 +72695,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer CみとみいrVとぷい19 ": {
+            "Lvl 59 Pkmn Trainer Barry19 ": {
                 "level": 59,
                 "tr_id": 838,
                 "ai": 7,
@@ -72725,7 +72725,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer CみとみいrVとぷい21 ": {
+            "Lvl 69 Pkmn Trainer Barry21 ": {
                 "level": 69,
                 "tr_id": 840,
                 "ai": 7,
@@ -72755,7 +72755,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer CみとみいrVとぷい22 ": {
+            "Lvl 69 Pkmn Trainer Barry22 ": {
                 "level": 69,
                 "tr_id": 841,
                 "ai": 7,
@@ -72845,7 +72845,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 79 Pkmn Trainer CみとみいrVとぷい27 ": {
+            "Lvl 79 Pkmn Trainer Barry27 ": {
                 "level": 79,
                 "tr_id": 871,
                 "ai": 7,
@@ -72875,7 +72875,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 79 Pkmn Trainer CみとみいrVとぷい28 ": {
+            "Lvl 79 Pkmn Trainer Barry28 ": {
                 "level": 79,
                 "tr_id": 872,
                 "ai": 7,
@@ -72905,7 +72905,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer CみとみいrVとぷい30 ": {
+            "Lvl 52 Pkmn Trainer Barry30 ": {
                 "level": 52,
                 "tr_id": 923,
                 "ai": 7,
@@ -72935,7 +72935,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer CみとみいrVとぷい31 ": {
+            "Lvl 52 Pkmn Trainer Barry31 ": {
                 "level": 52,
                 "tr_id": 924,
                 "ai": 7,
@@ -72998,7 +72998,7 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい ": {
+            "Lvl 9 Pkmn Trainer Barry ": {
                 "level": 9,
                 "tr_id": 247,
                 "ai": 39,
@@ -73028,7 +73028,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい2 ": {
+            "Lvl 9 Pkmn Trainer Barry2 ": {
                 "level": 9,
                 "tr_id": 248,
                 "ai": 39,
@@ -73058,7 +73058,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい3 ": {
+            "Lvl 9 Pkmn Trainer Barry3 ": {
                 "level": 9,
                 "tr_id": 249,
                 "ai": 39,
@@ -73491,7 +73491,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer CみとみいrVとぷい18 ": {
+            "Lvl 61 Pkmn Trainer Barry18 ": {
                 "level": 61,
                 "tr_id": 837,
                 "ai": 7,
@@ -73521,7 +73521,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer CみとみいrVとぷい19 ": {
+            "Lvl 61 Pkmn Trainer Barry19 ": {
                 "level": 61,
                 "tr_id": 838,
                 "ai": 7,
@@ -73551,7 +73551,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Pkmn Trainer CみとみいrVとぷい20 ": {
+            "Lvl 61 Pkmn Trainer Barry20 ": {
                 "level": 61,
                 "tr_id": 839,
                 "ai": 7,
@@ -73581,7 +73581,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer CみとみいrVとぷい21 ": {
+            "Lvl 71 Pkmn Trainer Barry21 ": {
                 "level": 71,
                 "tr_id": 840,
                 "ai": 7,
@@ -73611,7 +73611,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer CみとみいrVとぷい22 ": {
+            "Lvl 71 Pkmn Trainer Barry22 ": {
                 "level": 71,
                 "tr_id": 841,
                 "ai": 7,
@@ -73641,7 +73641,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 71 Pkmn Trainer CみとみいrVとぷい23 ": {
+            "Lvl 71 Pkmn Trainer Barry23 ": {
                 "level": 71,
                 "tr_id": 842,
                 "ai": 7,
@@ -73701,7 +73701,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer CみとみいrVとぷい27 ": {
+            "Lvl 81 Pkmn Trainer Barry27 ": {
                 "level": 81,
                 "tr_id": 871,
                 "ai": 7,
@@ -73731,7 +73731,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer CみとみいrVとぷい28 ": {
+            "Lvl 81 Pkmn Trainer Barry28 ": {
                 "level": 81,
                 "tr_id": 872,
                 "ai": 7,
@@ -73761,7 +73761,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 81 Pkmn Trainer CみとみいrVとぷい29 ": {
+            "Lvl 81 Pkmn Trainer Barry29 ": {
                 "level": 81,
                 "tr_id": 873,
                 "ai": 7,
@@ -73791,7 +73791,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer CみとみいrVとぷい30 ": {
+            "Lvl 53 Pkmn Trainer Barry30 ": {
                 "level": 53,
                 "tr_id": 923,
                 "ai": 7,
@@ -73821,7 +73821,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer CみとみいrVとぷい31 ": {
+            "Lvl 53 Pkmn Trainer Barry31 ": {
                 "level": 53,
                 "tr_id": 924,
                 "ai": 7,
@@ -73851,7 +73851,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Pkmn Trainer CみとみいrVとぷい32 ": {
+            "Lvl 53 Pkmn Trainer Barry32 ": {
                 "level": 53,
                 "tr_id": 925,
                 "ai": 7,
@@ -81012,7 +81012,7 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 39 Pkmn Trainer CみとみいrVとぷい5 ": {
+            "Lvl 39 Pkmn Trainer Barry5 ": {
                 "level": 39,
                 "tr_id": 471,
                 "ai": 279,
@@ -82380,7 +82380,7 @@ backup_data = {
                 "partner": 383,
                 "tagPartner": 612
             },
-            "Lvl 38 Pkmn Trainer CみとみいrVとぷい4 ": {
+            "Lvl 38 Pkmn Trainer Barry4 ": {
                 "level": 38,
                 "tr_id": 470,
                 "ai": 279,
@@ -82410,7 +82410,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer CみとみいrVとぷい5 ": {
+            "Lvl 38 Pkmn Trainer Barry5 ": {
                 "level": 38,
                 "tr_id": 471,
                 "ai": 279,
@@ -82440,7 +82440,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 38 Pkmn Trainer CみとみいrVとぷい6 ": {
+            "Lvl 38 Pkmn Trainer Barry6 ": {
                 "level": 38,
                 "tr_id": 472,
                 "ai": 279,
@@ -82470,7 +82470,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer CみとみいrVとぷい7 ": {
+            "Lvl 46 Pkmn Trainer Barry7 ": {
                 "level": 46,
                 "tr_id": 473,
                 "ai": 7,
@@ -82500,7 +82500,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer CみとみいrVとぷい8 ": {
+            "Lvl 46 Pkmn Trainer Barry8 ": {
                 "level": 46,
                 "tr_id": 474,
                 "ai": 7,
@@ -82530,7 +82530,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 46 Pkmn Trainer CみとみいrVとぷい9 ": {
+            "Lvl 46 Pkmn Trainer Barry9 ": {
                 "level": 46,
                 "tr_id": 475,
                 "ai": 7,
@@ -82560,7 +82560,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Pkmn Trainer CみとみいrVとぷい10 ": {
+            "Lvl 55 Pkmn Trainer Barry10 ": {
                 "level": 55,
                 "tr_id": 476,
                 "ai": 7,
@@ -82590,7 +82590,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Pkmn Trainer CみとみいrVとぷい11 ": {
+            "Lvl 55 Pkmn Trainer Barry11 ": {
                 "level": 55,
                 "tr_id": 477,
                 "ai": 7,
@@ -82620,7 +82620,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Pkmn Trainer CみとみいrVとぷい12 ": {
+            "Lvl 54 Pkmn Trainer Barry12 ": {
                 "level": 54,
                 "tr_id": 478,
                 "ai": 7,
@@ -82650,7 +82650,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい13 ": {
+            "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
                 "ai": 135,
@@ -82680,7 +82680,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい14 ": {
+            "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
@@ -82710,7 +82710,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい |Route 223| ": {
+            "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
                 "ai": 135,
@@ -82740,7 +82740,7 @@ backup_data = {
                 "spriteId": 54,
                 "orientation": 3
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい15 ": {
+            "Lvl 100 Pkmn Trainer Barry15 ": {
                 "level": 100,
                 "tr_id": 607,
                 "ai": 135,
@@ -82770,7 +82770,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい16 ": {
+            "Lvl 100 Pkmn Trainer Barry16 ": {
                 "level": 100,
                 "tr_id": 619,
                 "ai": 135,
@@ -82800,7 +82800,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer CみとみいrVとぷい17 ": {
+            "Lvl 100 Pkmn Trainer Barry17 ": {
                 "level": 100,
                 "tr_id": 620,
                 "ai": 135,
@@ -84319,7 +84319,7 @@ backup_data = {
             }
         },
         "Taillow": {
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい ": {
+            "Lvl 9 Pkmn Trainer Barry ": {
                 "level": 9,
                 "tr_id": 247,
                 "ai": 39,
@@ -84349,7 +84349,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい2 ": {
+            "Lvl 9 Pkmn Trainer Barry2 ": {
                 "level": 9,
                 "tr_id": 248,
                 "ai": 39,
@@ -84379,7 +84379,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい3 ": {
+            "Lvl 9 Pkmn Trainer Barry3 ": {
                 "level": 9,
                 "tr_id": 249,
                 "ai": 39,
@@ -84411,7 +84411,7 @@ backup_data = {
             }
         },
         "Slakoth": {
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい ": {
+            "Lvl 9 Pkmn Trainer Barry ": {
                 "level": 9,
                 "tr_id": 247,
                 "ai": 39,
@@ -84441,7 +84441,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい2 ": {
+            "Lvl 9 Pkmn Trainer Barry2 ": {
                 "level": 9,
                 "tr_id": 248,
                 "ai": 39,
@@ -84471,7 +84471,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい3 ": {
+            "Lvl 9 Pkmn Trainer Barry3 ": {
                 "level": 9,
                 "tr_id": 249,
                 "ai": 39,
@@ -84503,7 +84503,7 @@ backup_data = {
             }
         },
         "Mankey": {
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい ": {
+            "Lvl 9 Pkmn Trainer Barry ": {
                 "level": 9,
                 "tr_id": 247,
                 "ai": 39,
@@ -84533,7 +84533,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい2 ": {
+            "Lvl 9 Pkmn Trainer Barry2 ": {
                 "level": 9,
                 "tr_id": 248,
                 "ai": 39,
@@ -84563,7 +84563,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい3 ": {
+            "Lvl 9 Pkmn Trainer Barry3 ": {
                 "level": 9,
                 "tr_id": 249,
                 "ai": 39,
@@ -84595,7 +84595,7 @@ backup_data = {
             }
         },
         "Elekid": {
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい ": {
+            "Lvl 9 Pkmn Trainer Barry ": {
                 "level": 9,
                 "tr_id": 247,
                 "ai": 39,
@@ -84625,7 +84625,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい2 ": {
+            "Lvl 9 Pkmn Trainer Barry2 ": {
                 "level": 9,
                 "tr_id": 248,
                 "ai": 39,
@@ -84655,7 +84655,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 9 Pkmn Trainer CみとみいrVとぷい3 ": {
+            "Lvl 9 Pkmn Trainer Barry3 ": {
                 "level": 9,
                 "tr_id": 249,
                 "ai": 39,
@@ -84687,7 +84687,7 @@ backup_data = {
             }
         },
         "Turtwig": {
-            "Lvl 10 Pkmn Trainer CみとみいrVとぷい ": {
+            "Lvl 10 Pkmn Trainer Barry ": {
                 "level": 10,
                 "tr_id": 247,
                 "ai": 39,
@@ -84867,7 +84867,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 5 Pkmn Trainer CみとみいrVとぷい24 ": {
+            "Lvl 5 Pkmn Trainer Barry24 ": {
                 "level": 5,
                 "tr_id": 850,
                 "ai": 35,
@@ -84899,7 +84899,7 @@ backup_data = {
             }
         },
         "Chimchar": {
-            "Lvl 10 Pkmn Trainer CみとみいrVとぷい2 ": {
+            "Lvl 10 Pkmn Trainer Barry2 ": {
                 "level": 10,
                 "tr_id": 248,
                 "ai": 39,
@@ -85079,7 +85079,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 5 Pkmn Trainer CみとみいrVとぷい25 ": {
+            "Lvl 5 Pkmn Trainer Barry25 ": {
                 "level": 5,
                 "tr_id": 851,
                 "ai": 35,
@@ -85111,7 +85111,7 @@ backup_data = {
             }
         },
         "Piplup": {
-            "Lvl 10 Pkmn Trainer CみとみいrVとぷい3 ": {
+            "Lvl 10 Pkmn Trainer Barry3 ": {
                 "level": 10,
                 "tr_id": 249,
                 "ai": 39,
@@ -85321,7 +85321,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 5 Pkmn Trainer CみとみいrVとぷい26 ": {
+            "Lvl 5 Pkmn Trainer Barry26 ": {
                 "level": 5,
                 "tr_id": 852,
                 "ai": 35,
@@ -86845,7 +86845,7 @@ backup_data = {
                 "orientation": 3
             }
         },
-        "Nidoran-F": {
+        "Nidoran-M": {
             "Lvl 10 Camper Curtis |Hearthome City| ": {
                 "level": 10,
                 "tr_id": 265,
@@ -86875,36 +86875,6 @@ backup_data = {
                 "location": "Hearthome City",
                 "spriteId": 0,
                 "orientation": 1
-            },
-            "Lvl 10 Picnicker Diana |Hearthome City| ": {
-                "level": 10,
-                "tr_id": 329,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "",
-                "item": "Zoom Lens",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "nature": "Naive",
-                "moves": [
-                    "Lovely Kiss",
-                    "Sludge Bomb",
-                    "Double Kick",
-                    "Bite"
-                ],
-                "sub_index": 4,
-                "ability": "Poison Point",
-                "gender": "Female",
-                "location": "Hearthome City",
-                "spriteId": 68,
-                "orientation": 3
             }
         },
         "Sneasel": {
@@ -87369,7 +87339,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer CみとみいrVとぷい19 ": {
+            "Lvl 59 Pkmn Trainer Barry19 ": {
                 "level": 59,
                 "tr_id": 838,
                 "ai": 7,
@@ -87399,7 +87369,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 59 Pkmn Trainer CみとみいrVとぷい20 ": {
+            "Lvl 59 Pkmn Trainer Barry20 ": {
                 "level": 59,
                 "tr_id": 839,
                 "ai": 7,
@@ -87429,7 +87399,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer CみとみいrVとぷい22 ": {
+            "Lvl 69 Pkmn Trainer Barry22 ": {
                 "level": 69,
                 "tr_id": 841,
                 "ai": 7,
@@ -87459,7 +87429,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Pkmn Trainer CみとみいrVとぷい23 ": {
+            "Lvl 69 Pkmn Trainer Barry23 ": {
                 "level": 69,
                 "tr_id": 842,
                 "ai": 7,
@@ -87519,7 +87489,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 79 Pkmn Trainer CみとみいrVとぷい28 ": {
+            "Lvl 79 Pkmn Trainer Barry28 ": {
                 "level": 79,
                 "tr_id": 872,
                 "ai": 7,
@@ -87549,7 +87519,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 79 Pkmn Trainer CみとみいrVとぷい29 ": {
+            "Lvl 79 Pkmn Trainer Barry29 ": {
                 "level": 79,
                 "tr_id": 873,
                 "ai": 7,
@@ -87579,7 +87549,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer CみとみいrVとぷい31 ": {
+            "Lvl 52 Pkmn Trainer Barry31 ": {
                 "level": 52,
                 "tr_id": 924,
                 "ai": 7,
@@ -87609,7 +87579,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Pkmn Trainer CみとみいrVとぷい32 ": {
+            "Lvl 52 Pkmn Trainer Barry32 ": {
                 "level": 52,
                 "tr_id": 925,
                 "ai": 7,
@@ -91299,6 +91269,38 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Inner Focus",
+                "gender": "Female",
+                "location": "Hearthome City",
+                "spriteId": 68,
+                "orientation": 3
+            }
+        },
+        "Nidoran-F": {
+            "Lvl 10 Picnicker Diana |Hearthome City| ": {
+                "level": 10,
+                "tr_id": 329,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "Zoom Lens",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Naive",
+                "moves": [
+                    "Lovely Kiss",
+                    "Sludge Bomb",
+                    "Double Kick",
+                    "Bite"
+                ],
+                "sub_index": 4,
+                "ability": "Poison Point",
                 "gender": "Female",
                 "location": "Hearthome City",
                 "spriteId": 68,
@@ -97638,12 +97640,12 @@ backup_data = {
         },
         "Nidoran-F": {
             "bs": {
-                "hp": 46,
-                "at": 57,
-                "df": 40,
+                "hp": 55,
+                "at": 47,
+                "df": 52,
                 "sa": 40,
                 "sd": 40,
-                "sp": 50
+                "sp": 41
             },
             "types": [
                 "Poison"
@@ -97656,55 +97658,55 @@ backup_data = {
                 "learnset": [
                     [
                         1,
-                        "Acid"
-                    ],
-                    [
-                        1,
-                        "Tackle"
-                    ],
-                    [
-                        7,
-                        "Peck"
-                    ],
-                    [
-                        9,
-                        "Double Kick"
-                    ],
-                    [
-                        13,
                         "Poison Sting"
                     ],
                     [
+                        1,
+                        "Scratch"
+                    ],
+                    [
+                        7,
+                        "Double Kick"
+                    ],
+                    [
+                        9,
+                        "Bite"
+                    ],
+                    [
+                        13,
+                        "Sludge"
+                    ],
+                    [
                         19,
-                        "Fury Attack"
+                        "Dig"
                     ],
                     [
                         21,
-                        "Earth Power"
+                        "Body Slam"
                     ],
                     [
                         25,
-                        "Drill Peck"
+                        "Drill Run"
                     ],
                     [
                         31,
-                        "Poison Fang"
+                        "Crunch"
                     ],
                     [
                         33,
-                        "Thrash"
+                        "Toxic"
                     ],
                     [
                         37,
-                        "Punishment"
+                        "Earth Power"
                     ],
                     [
                         43,
-                        "Megahorn"
+                        "Poison Fang"
                     ],
                     [
-                        55,
-                        "Head Smash"
+                        45,
+                        "Shadow Ball"
                     ]
                 ],
                 "tms": [
@@ -97725,6 +97727,7 @@ backup_data = {
                     "Double Team",
                     "Shock Wave",
                     "Sludge Bomb",
+                    "Aerial Ace",
                     "Facade",
                     "Secret Power",
                     "Rest",
@@ -97966,6 +97969,114 @@ backup_data = {
                     "Strength",
                     "Rock Smash",
                     "Rock Climb"
+                ]
+            }
+        },
+        "Nidoran-M": {
+            "bs": {
+                "hp": 46,
+                "at": 57,
+                "df": 40,
+                "sa": 40,
+                "sd": 40,
+                "sp": 50
+            },
+            "types": [
+                "Poison"
+            ],
+            "abilities": {
+                "0": "Poison Point",
+                "1": "Rivalry"
+            },
+            "learnset_info": {
+                "learnset": [
+                    [
+                        1,
+                        "Acid"
+                    ],
+                    [
+                        1,
+                        "Tackle"
+                    ],
+                    [
+                        7,
+                        "Peck"
+                    ],
+                    [
+                        9,
+                        "Double Kick"
+                    ],
+                    [
+                        13,
+                        "Poison Sting"
+                    ],
+                    [
+                        19,
+                        "Fury Attack"
+                    ],
+                    [
+                        21,
+                        "Earth Power"
+                    ],
+                    [
+                        25,
+                        "Drill Peck"
+                    ],
+                    [
+                        31,
+                        "Poison Fang"
+                    ],
+                    [
+                        33,
+                        "Thrash"
+                    ],
+                    [
+                        37,
+                        "Punishment"
+                    ],
+                    [
+                        43,
+                        "Megahorn"
+                    ],
+                    [
+                        55,
+                        "Head Smash"
+                    ]
+                ],
+                "tms": [
+                    "Water Pulse",
+                    "Toxic",
+                    "Hidden Power",
+                    "Sunny Day",
+                    "Ice Beam",
+                    "Blizzard",
+                    "Tackle",
+                    "Rain Dance",
+                    "Frustration",
+                    "Iron Tail",
+                    "Thunderbolt",
+                    "Thunder",
+                    "Return",
+                    "Dig",
+                    "Double Team",
+                    "Shock Wave",
+                    "Sludge Bomb",
+                    "Facade",
+                    "Secret Power",
+                    "Rest",
+                    "Attract",
+                    "Thief",
+                    "Endure",
+                    "Shadow Claw",
+                    "Captivate",
+                    "Sleep Talk",
+                    "Natural Gift",
+                    "Poison Jab",
+                    "Swagger",
+                    "Substitute",
+                    "Cut",
+                    "Strength",
+                    "Rock Smash"
                 ]
             }
         },
@@ -150675,142 +150786,6 @@ backup_data = {
                 ]
             }
         },
-        "Deoxys-Attack": {
-            "bs": {
-                "hp": 90,
-                "at": 150,
-                "df": 70,
-                "sa": 150,
-                "sd": 70,
-                "sp": 150
-            },
-            "types": [
-                "Psychic"
-            ],
-            "abilities": {
-                "0": "Magic Guard"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Leer"
-                    ],
-                    [
-                        1,
-                        "Wrap"
-                    ],
-                    [
-                        9,
-                        "Night Shade"
-                    ],
-                    [
-                        17,
-                        "Teleport"
-                    ],
-                    [
-                        25,
-                        "Pursuit"
-                    ],
-                    [
-                        33,
-                        "Pursuit"
-                    ],
-                    [
-                        41,
-                        "Psychic"
-                    ],
-                    [
-                        49,
-                        "Superpower"
-                    ],
-                    [
-                        57,
-                        "Psycho Shift"
-                    ],
-                    [
-                        65,
-                        "Zen Headbutt"
-                    ],
-                    [
-                        73,
-                        "Cosmic Power"
-                    ],
-                    [
-                        81,
-                        "Zap Cannon"
-                    ],
-                    [
-                        89,
-                        "Psycho Boost"
-                    ],
-                    [
-                        97,
-                        "Hyper Beam"
-                    ]
-                ],
-                "tms": [
-                    "Focus Punch",
-                    "Water Pulse",
-                    "Calm Mind",
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Feint Attack",
-                    "Ice Beam",
-                    "Snore",
-                    "Light Screen",
-                    "Tackle",
-                    "Rain Dance",
-                    "Safeguard",
-                    "Frustration",
-                    "Solar Beam",
-                    "Thunderbolt",
-                    "Thunder",
-                    "Return",
-                    "Psychic",
-                    "Shadow Ball",
-                    "Brick Break",
-                    "Double Team",
-                    "Reflect",
-                    "Shock Wave",
-                    "Rock Tomb",
-                    "Aerial Ace",
-                    "Torment",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Skill Swap",
-                    "Drill Run",
-                    "Focus Blast",
-                    "Energy Ball",
-                    "Fling",
-                    "Charge Beam",
-                    "Endure",
-                    "Drain Punch",
-                    "Recycle",
-                    "Giga Impact",
-                    "Flash",
-                    "Avalanche",
-                    "Thunder Wave",
-                    "Stealth Rock",
-                    "Psych Up",
-                    "Rock Slide",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Poison Jab",
-                    "Dream Eater",
-                    "Grass Knot",
-                    "Swagger",
-                    "Substitute",
-                    "Flash Cannon",
-                    "Miracle Eye",
-                    "Cut",
-                    "Strength",
-                    "Rock Smash"
-                ]
-            }
-        },
         "Deoxys-Defense": {
             "bs": {
                 "hp": 90,
@@ -150819,150 +150794,6 @@ backup_data = {
                 "sa": 100,
                 "sd": 150,
                 "sp": 90
-            },
-            "types": [
-                "Psychic"
-            ],
-            "abilities": {
-                "0": "Magic Guard"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Leer"
-                    ],
-                    [
-                        1,
-                        "Wrap"
-                    ],
-                    [
-                        9,
-                        "Night Shade"
-                    ],
-                    [
-                        17,
-                        "Teleport"
-                    ],
-                    [
-                        25,
-                        "Knock Off"
-                    ],
-                    [
-                        33,
-                        "Spikes"
-                    ],
-                    [
-                        41,
-                        "Psychic"
-                    ],
-                    [
-                        49,
-                        "Protect"
-                    ],
-                    [
-                        57,
-                        "Psycho Shift"
-                    ],
-                    [
-                        65,
-                        "Zen Headbutt"
-                    ],
-                    [
-                        73,
-                        "Iron Defense"
-                    ],
-                    [
-                        73,
-                        "Amnesia"
-                    ],
-                    [
-                        81,
-                        "Recover"
-                    ],
-                    [
-                        89,
-                        "Psycho Boost"
-                    ],
-                    [
-                        97,
-                        "Counter"
-                    ],
-                    [
-                        97,
-                        "Mirror Coat"
-                    ]
-                ],
-                "tms": [
-                    "Focus Punch",
-                    "Water Pulse",
-                    "Calm Mind",
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Feint Attack",
-                    "Ice Beam",
-                    "Snore",
-                    "Light Screen",
-                    "Tackle",
-                    "Rain Dance",
-                    "Safeguard",
-                    "Frustration",
-                    "Solar Beam",
-                    "Thunderbolt",
-                    "Thunder",
-                    "Return",
-                    "Psychic",
-                    "Shadow Ball",
-                    "Brick Break",
-                    "Double Team",
-                    "Reflect",
-                    "Shock Wave",
-                    "Rock Tomb",
-                    "Aerial Ace",
-                    "Torment",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Skill Swap",
-                    "Drill Run",
-                    "Focus Blast",
-                    "Energy Ball",
-                    "Fling",
-                    "Charge Beam",
-                    "Endure",
-                    "Drain Punch",
-                    "Recycle",
-                    "Giga Impact",
-                    "Flash",
-                    "Avalanche",
-                    "Thunder Wave",
-                    "Stealth Rock",
-                    "Psych Up",
-                    "Rock Slide",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Poison Jab",
-                    "Dream Eater",
-                    "Grass Knot",
-                    "Swagger",
-                    "Substitute",
-                    "Flash Cannon",
-                    "Miracle Eye",
-                    "Cut",
-                    "Strength",
-                    "Rock Smash"
-                ]
-            }
-        },
-        "Deoxys-Defense": {
-            "bs": {
-                "hp": 90,
-                "at": 150,
-                "df": 70,
-                "sa": 150,
-                "sd": 70,
-                "sp": 150
             },
             "types": [
                 "Psychic"
@@ -151235,142 +151066,6 @@ backup_data = {
                 ]
             }
         },
-        "Deoxys-Speed": {
-            "bs": {
-                "hp": 90,
-                "at": 150,
-                "df": 70,
-                "sa": 150,
-                "sd": 70,
-                "sp": 150
-            },
-            "types": [
-                "Psychic"
-            ],
-            "abilities": {
-                "0": "Magic Guard"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Leer"
-                    ],
-                    [
-                        1,
-                        "Wrap"
-                    ],
-                    [
-                        9,
-                        "Night Shade"
-                    ],
-                    [
-                        17,
-                        "Double Team"
-                    ],
-                    [
-                        25,
-                        "Knock Off"
-                    ],
-                    [
-                        33,
-                        "Pursuit"
-                    ],
-                    [
-                        41,
-                        "Psychic"
-                    ],
-                    [
-                        49,
-                        "Swift"
-                    ],
-                    [
-                        57,
-                        "Psycho Shift"
-                    ],
-                    [
-                        65,
-                        "Zen Headbutt"
-                    ],
-                    [
-                        73,
-                        "Agility"
-                    ],
-                    [
-                        81,
-                        "Recover"
-                    ],
-                    [
-                        89,
-                        "Psycho Boost"
-                    ],
-                    [
-                        97,
-                        "Extreme Speed"
-                    ]
-                ],
-                "tms": [
-                    "Focus Punch",
-                    "Water Pulse",
-                    "Calm Mind",
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Feint Attack",
-                    "Ice Beam",
-                    "Snore",
-                    "Light Screen",
-                    "Tackle",
-                    "Rain Dance",
-                    "Safeguard",
-                    "Frustration",
-                    "Solar Beam",
-                    "Thunderbolt",
-                    "Thunder",
-                    "Return",
-                    "Psychic",
-                    "Shadow Ball",
-                    "Brick Break",
-                    "Double Team",
-                    "Reflect",
-                    "Shock Wave",
-                    "Rock Tomb",
-                    "Aerial Ace",
-                    "Torment",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Skill Swap",
-                    "Drill Run",
-                    "Focus Blast",
-                    "Energy Ball",
-                    "Fling",
-                    "Charge Beam",
-                    "Endure",
-                    "Drain Punch",
-                    "Recycle",
-                    "Giga Impact",
-                    "Flash",
-                    "Avalanche",
-                    "Thunder Wave",
-                    "Stealth Rock",
-                    "Psych Up",
-                    "Rock Slide",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Poison Jab",
-                    "Dream Eater",
-                    "Grass Knot",
-                    "Swagger",
-                    "Substitute",
-                    "Flash Cannon",
-                    "Miracle Eye",
-                    "Cut",
-                    "Strength",
-                    "Rock Smash"
-                ]
-            }
-        },
         "Wormadam-Sandy": {
             "bs": {
                 "hp": 60,
@@ -151478,113 +151173,6 @@ backup_data = {
                 ]
             }
         },
-        "Wormadam-Sandy": {
-            "bs": {
-                "hp": 60,
-                "at": 79,
-                "df": 85,
-                "sa": 79,
-                "sd": 105,
-                "sp": 36
-            },
-            "types": [
-                "Bug",
-                "Ground"
-            ],
-            "abilities": {
-                "0": "Snow Cloak"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Tackle"
-                    ],
-                    [
-                        10,
-                        "Protect"
-                    ],
-                    [
-                        15,
-                        "Bug Bite"
-                    ],
-                    [
-                        20,
-                        "Hidden Power"
-                    ],
-                    [
-                        23,
-                        "Protect"
-                    ],
-                    [
-                        26,
-                        "Rock Blast"
-                    ],
-                    [
-                        29,
-                        "Harden"
-                    ],
-                    [
-                        32,
-                        "Psybeam"
-                    ],
-                    [
-                        35,
-                        "Captivate"
-                    ],
-                    [
-                        38,
-                        "Flail"
-                    ],
-                    [
-                        41,
-                        "Attract"
-                    ],
-                    [
-                        44,
-                        "Psychic"
-                    ],
-                    [
-                        47,
-                        "Head Smash"
-                    ]
-                ],
-                "tms": [
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Snore",
-                    "Tackle",
-                    "Rain Dance",
-                    "Safeguard",
-                    "Frustration",
-                    "Earthquake",
-                    "Return",
-                    "Dig",
-                    "Psychic",
-                    "Shadow Ball",
-                    "Double Team",
-                    "Sandstorm",
-                    "Rock Tomb",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Attract",
-                    "Thief",
-                    "Skill Swap",
-                    "Endure",
-                    "Giga Impact",
-                    "Flash",
-                    "Psych Up",
-                    "Captivate",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Dream Eater",
-                    "Swagger",
-                    "Substitute"
-                ]
-            }
-        },
         "Wormadam-Trash": {
             "bs": {
                 "hp": 60,
@@ -151592,112 +151180,6 @@ backup_data = {
                 "df": 95,
                 "sa": 69,
                 "sd": 95,
-                "sp": 36
-            },
-            "types": [
-                "Bug",
-                "Steel"
-            ],
-            "abilities": {
-                "0": "Snow Cloak"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Tackle"
-                    ],
-                    [
-                        10,
-                        "Protect"
-                    ],
-                    [
-                        15,
-                        "Bug Bite"
-                    ],
-                    [
-                        20,
-                        "Hidden Power"
-                    ],
-                    [
-                        23,
-                        "Protect"
-                    ],
-                    [
-                        26,
-                        "Mirror Shot"
-                    ],
-                    [
-                        29,
-                        "Metal Sound"
-                    ],
-                    [
-                        32,
-                        "Psybeam"
-                    ],
-                    [
-                        35,
-                        "Captivate"
-                    ],
-                    [
-                        38,
-                        "Flail"
-                    ],
-                    [
-                        41,
-                        "Attract"
-                    ],
-                    [
-                        44,
-                        "Psychic"
-                    ],
-                    [
-                        47,
-                        "Iron Head"
-                    ]
-                ],
-                "tms": [
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Snore",
-                    "Tackle",
-                    "Rain Dance",
-                    "Safeguard",
-                    "Frustration",
-                    "Return",
-                    "Psychic",
-                    "Shadow Ball",
-                    "Double Team",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Attract",
-                    "Thief",
-                    "Skill Swap",
-                    "Endure",
-                    "Giga Impact",
-                    "Flash",
-                    "Gyro Ball",
-                    "Stealth Rock",
-                    "Psych Up",
-                    "Captivate",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Dream Eater",
-                    "Swagger",
-                    "Substitute",
-                    "Flash Cannon"
-                ]
-            }
-        },
-        "Wormadam-Trash": {
-            "bs": {
-                "hp": 60,
-                "at": 79,
-                "df": 85,
-                "sa": 79,
-                "sd": 105,
                 "sp": 36
             },
             "types": [
@@ -151912,121 +151394,6 @@ backup_data = {
                 ]
             }
         },
-        "Giratina-Origin": {
-            "bs": {
-                "hp": 150,
-                "at": 100,
-                "df": 120,
-                "sa": 100,
-                "sd": 120,
-                "sp": 90
-            },
-            "types": [
-                "Ghost",
-                "Dragon"
-            ],
-            "abilities": {
-                "0": "Levitate"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Dragon Breath"
-                    ],
-                    [
-                        1,
-                        "Scary Face"
-                    ],
-                    [
-                        10,
-                        "Ominous Wind"
-                    ],
-                    [
-                        20,
-                        "Ancient Power"
-                    ],
-                    [
-                        30,
-                        "Dragon Claw"
-                    ],
-                    [
-                        40,
-                        "Shadow Force"
-                    ],
-                    [
-                        50,
-                        "Shadow Ball"
-                    ],
-                    [
-                        60,
-                        "Earth Power"
-                    ],
-                    [
-                        70,
-                        "Slash"
-                    ],
-                    [
-                        80,
-                        "Shadow Claw"
-                    ],
-                    [
-                        90,
-                        "Aura Sphere"
-                    ]
-                ],
-                "tms": [
-                    "Dragon Claw",
-                    "Calm Mind",
-                    "Roar",
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Snore",
-                    "Tackle",
-                    "Rain Dance",
-                    "Safeguard",
-                    "Frustration",
-                    "Iron Tail",
-                    "Thunderbolt",
-                    "Thunder",
-                    "Earthquake",
-                    "Return",
-                    "Psychic",
-                    "Shadow Ball",
-                    "Double Team",
-                    "Shock Wave",
-                    "Aerial Ace",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Steel Wing",
-                    "Energy Ball",
-                    "Charge Beam",
-                    "Endure",
-                    "Dragon Pulse",
-                    "Will-O-Wisp",
-                    "Silver Wind",
-                    "Shadow Claw",
-                    "Payback",
-                    "Giga Impact",
-                    "Stone Edge",
-                    "Thunder Wave",
-                    "Psych Up",
-                    "Dark Pulse",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Dream Eater",
-                    "Swagger",
-                    "Substitute",
-                    "Cut",
-                    "Fly",
-                    "Strength",
-                    "Rock Smash",
-                    "Rock Climb"
-                ]
-            }
-        },
         "Shaymin-Sky": {
             "bs": {
                 "hp": 100,
@@ -152125,104 +151492,6 @@ backup_data = {
                 ]
             }
         },
-        "Shaymin-Sky": {
-            "bs": {
-                "hp": 100,
-                "at": 100,
-                "df": 100,
-                "sa": 100,
-                "sd": 100,
-                "sp": 100
-            },
-            "types": [
-                "Grass",
-                "Flying"
-            ],
-            "abilities": {
-                "0": "Serene Grace"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Growth"
-                    ],
-                    [
-                        10,
-                        "Magical Leaf"
-                    ],
-                    [
-                        19,
-                        "Leech Seed"
-                    ],
-                    [
-                        28,
-                        "Quick Attack"
-                    ],
-                    [
-                        37,
-                        "Sweet Scent"
-                    ],
-                    [
-                        46,
-                        "Natural Gift"
-                    ],
-                    [
-                        55,
-                        "Worry Seed"
-                    ],
-                    [
-                        64,
-                        "Air Slash"
-                    ],
-                    [
-                        73,
-                        "Energy Ball"
-                    ],
-                    [
-                        82,
-                        "Sweet Kiss"
-                    ],
-                    [
-                        91,
-                        "Leaf Storm"
-                    ],
-                    [
-                        100,
-                        "Seed Flare"
-                    ]
-                ],
-                "tms": [
-                    "Toxic",
-                    "Bullet Seed",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Snore",
-                    "Tackle",
-                    "Giga Drain",
-                    "Safeguard",
-                    "Frustration",
-                    "Solar Beam",
-                    "Return",
-                    "Psychic",
-                    "Double Team",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Energy Ball",
-                    "Endure",
-                    "Giga Impact",
-                    "Flash",
-                    "Swords Dance",
-                    "Psych Up",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Grass Knot",
-                    "Swagger",
-                    "Substitute"
-                ]
-            }
-        },
         "Rotom-Heat": {
             "bs": {
                 "hp": 50,
@@ -152288,210 +151557,6 @@ backup_data = {
                     [
                         60,
                         "Flamethrower"
-                    ]
-                ],
-                "tms": [
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Light Screen",
-                    "Tackle",
-                    "Rain Dance",
-                    "Frustration",
-                    "Thunderbolt",
-                    "Thunder",
-                    "Return",
-                    "Shadow Ball",
-                    "Double Team",
-                    "Reflect",
-                    "Shock Wave",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Thief",
-                    "Drill Run",
-                    "Charge Beam",
-                    "Endure",
-                    "Will-O-Wisp",
-                    "Flash",
-                    "Thunder Wave",
-                    "Psych Up",
-                    "Dark Pulse",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Dream Eater",
-                    "Swagger",
-                    "Substitute"
-                ]
-            }
-        },
-        "Rotom-Heat": {
-            "bs": {
-                "hp": 50,
-                "at": 65,
-                "df": 107,
-                "sa": 105,
-                "sd": 107,
-                "sp": 91
-            },
-            "types": [
-                "Electric",
-                "Ghost"
-            ],
-            "abilities": {
-                "0": "Levitate"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Psybeam"
-                    ],
-                    [
-                        1,
-                        "Astonish"
-                    ],
-                    [
-                        1,
-                        "Thunder Wave"
-                    ],
-                    [
-                        1,
-                        "Thunder Shock"
-                    ],
-                    [
-                        1,
-                        "Confuse Ray"
-                    ],
-                    [
-                        8,
-                        "Uproar"
-                    ],
-                    [
-                        22,
-                        "Shock Wave"
-                    ],
-                    [
-                        29,
-                        "Ominous Wind"
-                    ],
-                    [
-                        43,
-                        "Charge"
-                    ],
-                    [
-                        50,
-                        "Discharge"
-                    ],
-                    [
-                        55,
-                        "Will-O-Wisp"
-                    ],
-                    [
-                        60,
-                        "Flamethrower"
-                    ]
-                ],
-                "tms": [
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Light Screen",
-                    "Tackle",
-                    "Rain Dance",
-                    "Frustration",
-                    "Thunderbolt",
-                    "Thunder",
-                    "Return",
-                    "Shadow Ball",
-                    "Double Team",
-                    "Reflect",
-                    "Shock Wave",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Thief",
-                    "Drill Run",
-                    "Charge Beam",
-                    "Endure",
-                    "Will-O-Wisp",
-                    "Flash",
-                    "Thunder Wave",
-                    "Psych Up",
-                    "Dark Pulse",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Dream Eater",
-                    "Swagger",
-                    "Substitute"
-                ]
-            }
-        },
-        "Rotom-Wash": {
-            "bs": {
-                "hp": 50,
-                "at": 65,
-                "df": 107,
-                "sa": 105,
-                "sd": 107,
-                "sp": 91
-            },
-            "types": [
-                "Electric",
-                "Ghost"
-            ],
-            "abilities": {
-                "0": "Levitate"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Psybeam"
-                    ],
-                    [
-                        1,
-                        "Astonish"
-                    ],
-                    [
-                        1,
-                        "Thunder Wave"
-                    ],
-                    [
-                        1,
-                        "Thunder Shock"
-                    ],
-                    [
-                        1,
-                        "Confuse Ray"
-                    ],
-                    [
-                        8,
-                        "Uproar"
-                    ],
-                    [
-                        22,
-                        "Shock Wave"
-                    ],
-                    [
-                        29,
-                        "Ominous Wind"
-                    ],
-                    [
-                        43,
-                        "Charge"
-                    ],
-                    [
-                        50,
-                        "Discharge"
-                    ],
-                    [
-                        55,
-                        "Whirlpool"
-                    ],
-                    [
-                        60,
-                        "Scald"
                     ]
                 ],
                 "tms": [
@@ -152733,108 +151798,6 @@ backup_data = {
                 ]
             }
         },
-        "Rotom-Frost": {
-            "bs": {
-                "hp": 50,
-                "at": 65,
-                "df": 107,
-                "sa": 105,
-                "sd": 107,
-                "sp": 91
-            },
-            "types": [
-                "Electric",
-                "Ghost"
-            ],
-            "abilities": {
-                "0": "Levitate"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Psybeam"
-                    ],
-                    [
-                        1,
-                        "Astonish"
-                    ],
-                    [
-                        1,
-                        "Thunder Wave"
-                    ],
-                    [
-                        1,
-                        "Thunder Shock"
-                    ],
-                    [
-                        1,
-                        "Confuse Ray"
-                    ],
-                    [
-                        8,
-                        "Uproar"
-                    ],
-                    [
-                        22,
-                        "Shock Wave"
-                    ],
-                    [
-                        29,
-                        "Ominous Wind"
-                    ],
-                    [
-                        43,
-                        "Charge"
-                    ],
-                    [
-                        50,
-                        "Discharge"
-                    ],
-                    [
-                        55,
-                        "Ice Shard"
-                    ],
-                    [
-                        60,
-                        "Ice Beam"
-                    ]
-                ],
-                "tms": [
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Light Screen",
-                    "Tackle",
-                    "Rain Dance",
-                    "Frustration",
-                    "Thunderbolt",
-                    "Thunder",
-                    "Return",
-                    "Shadow Ball",
-                    "Double Team",
-                    "Reflect",
-                    "Shock Wave",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Thief",
-                    "Drill Run",
-                    "Charge Beam",
-                    "Endure",
-                    "Will-O-Wisp",
-                    "Flash",
-                    "Thunder Wave",
-                    "Psych Up",
-                    "Dark Pulse",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Dream Eater",
-                    "Swagger",
-                    "Substitute"
-                ]
-            }
-        },
         "Rotom-Fan": {
             "bs": {
                 "hp": 50,
@@ -152900,210 +151863,6 @@ backup_data = {
                     [
                         60,
                         "Defog"
-                    ]
-                ],
-                "tms": [
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Light Screen",
-                    "Tackle",
-                    "Rain Dance",
-                    "Frustration",
-                    "Thunderbolt",
-                    "Thunder",
-                    "Return",
-                    "Shadow Ball",
-                    "Double Team",
-                    "Reflect",
-                    "Shock Wave",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Thief",
-                    "Drill Run",
-                    "Charge Beam",
-                    "Endure",
-                    "Will-O-Wisp",
-                    "Flash",
-                    "Thunder Wave",
-                    "Psych Up",
-                    "Dark Pulse",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Dream Eater",
-                    "Swagger",
-                    "Substitute"
-                ]
-            }
-        },
-        "Rotom-Fan": {
-            "bs": {
-                "hp": 50,
-                "at": 65,
-                "df": 107,
-                "sa": 105,
-                "sd": 107,
-                "sp": 91
-            },
-            "types": [
-                "Electric",
-                "Ghost"
-            ],
-            "abilities": {
-                "0": "Levitate"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Psybeam"
-                    ],
-                    [
-                        1,
-                        "Astonish"
-                    ],
-                    [
-                        1,
-                        "Thunder Wave"
-                    ],
-                    [
-                        1,
-                        "Thunder Shock"
-                    ],
-                    [
-                        1,
-                        "Confuse Ray"
-                    ],
-                    [
-                        8,
-                        "Uproar"
-                    ],
-                    [
-                        22,
-                        "Shock Wave"
-                    ],
-                    [
-                        29,
-                        "Ominous Wind"
-                    ],
-                    [
-                        43,
-                        "Charge"
-                    ],
-                    [
-                        50,
-                        "Discharge"
-                    ],
-                    [
-                        55,
-                        "Hurricane"
-                    ],
-                    [
-                        60,
-                        "Defog"
-                    ]
-                ],
-                "tms": [
-                    "Toxic",
-                    "Hidden Power",
-                    "Sunny Day",
-                    "Light Screen",
-                    "Tackle",
-                    "Rain Dance",
-                    "Frustration",
-                    "Thunderbolt",
-                    "Thunder",
-                    "Return",
-                    "Shadow Ball",
-                    "Double Team",
-                    "Reflect",
-                    "Shock Wave",
-                    "Facade",
-                    "Secret Power",
-                    "Rest",
-                    "Thief",
-                    "Drill Run",
-                    "Charge Beam",
-                    "Endure",
-                    "Will-O-Wisp",
-                    "Flash",
-                    "Thunder Wave",
-                    "Psych Up",
-                    "Dark Pulse",
-                    "Sleep Talk",
-                    "Natural Gift",
-                    "Dream Eater",
-                    "Swagger",
-                    "Substitute"
-                ]
-            }
-        },
-        "Rotom-Mow": {
-            "bs": {
-                "hp": 50,
-                "at": 65,
-                "df": 107,
-                "sa": 105,
-                "sd": 107,
-                "sp": 91
-            },
-            "types": [
-                "Electric",
-                "Ghost"
-            ],
-            "abilities": {
-                "0": "Levitate"
-            },
-            "learnset_info": {
-                "learnset": [
-                    [
-                        1,
-                        "Psybeam"
-                    ],
-                    [
-                        1,
-                        "Astonish"
-                    ],
-                    [
-                        1,
-                        "Thunder Wave"
-                    ],
-                    [
-                        1,
-                        "Thunder Shock"
-                    ],
-                    [
-                        1,
-                        "Confuse Ray"
-                    ],
-                    [
-                        8,
-                        "Uproar"
-                    ],
-                    [
-                        22,
-                        "Shock Wave"
-                    ],
-                    [
-                        29,
-                        "Ominous Wind"
-                    ],
-                    [
-                        43,
-                        "Charge"
-                    ],
-                    [
-                        50,
-                        "Discharge"
-                    ],
-                    [
-                        55,
-                        "Giga Drain"
-                    ],
-                    [
-                        60,
-                        "Energy Ball"
                     ]
                 ],
                 "tms": [
