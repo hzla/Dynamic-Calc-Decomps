@@ -86845,7 +86845,7 @@ backup_data = {
                 "orientation": 3
             }
         },
-        "NIDORAN♀": {
+        "Nidoran-F": {
             "Lvl 10 Camper Curtis |Hearthome City| ": {
                 "level": 10,
                 "tr_id": 265,
@@ -97636,7 +97636,7 @@ backup_data = {
                 ]
             }
         },
-        "NIDORAN♀": {
+        "Nidoran-F": {
             "bs": {
                 "hp": 46,
                 "at": 57,

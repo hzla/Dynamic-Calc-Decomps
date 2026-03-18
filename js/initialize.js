@@ -680,9 +680,16 @@ function loadMovesData() {
       "Magnitude": 70
     }
 
-    if (move in special_case_power_overrides) {
+
+
+    if (TITLE == "Platinum Kaizo") {
+        special_case_power_overrides["Return"] = 121
+    }
+
+
+    if (moveName in special_case_power_overrides) {
       moves[moveName]["bp"] = special_case_power_overrides[moveName]
-         MOVES_BY_ID[g][moveId].basePower = special_case_power_overrides[moveName]
+      MOVES_BY_ID[g][moveId].basePower = special_case_power_overrides[moveName]
     }
         
     var optional_move_params = ["type", "category", "e_id", "multihit", "target", "recoil", "overrideBP", "secondaries", "drain", "priority", "willCrit"]  
