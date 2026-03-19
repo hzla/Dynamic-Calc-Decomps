@@ -220,11 +220,15 @@ function toggle_additional_field_options() {
 }
 
 function applySyncLuaVisibility() {
-    if (localStorage.syncLua == '1') {
-        $('#sync-master').show()
-    } else {
-        $('#sync-master').hide()
-    }
+    var syncEnabled = localStorage.syncLua == '1';
+    var usesHttpLuaSync = typeof TITLE === "string" && (
+        TITLE.includes("Imperium") ||
+        TITLE == "Pokemon Null" ||
+        TITLE.includes("Platinum")
+    );
+
+    $('#sync-master').toggle(syncEnabled && !usesHttpLuaSync);
+    $('#sync-lua').toggle(syncEnabled && usesHttpLuaSync);
 }
 
 

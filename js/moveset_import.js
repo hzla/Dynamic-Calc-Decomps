@@ -831,18 +831,6 @@ function importLuaJsonDumpForCurrentTitle(pokes) {
 }
 
 function importPolledMasterBoxPayload(boxPayload) {
-	if (TITLE.includes("Platinum")) {
-		if (typeof loadPokeLuaGen4RawBoxDump !== "function") {
-			throw new Error("Platinum Lua box dump importer is unavailable");
-		}
-		const result = loadPokeLuaGen4RawBoxDump(boxPayload);
-		const importBtn = document.getElementById("import");
-		if (importBtn && typeof importBtn.click === "function") {
-			importBtn.click();
-		}
-		return result;
-	}
-
 	return importLuaJsonDumpForCurrentTitle(boxPayload);
 }
 
@@ -1054,6 +1042,7 @@ const LUA_UPDATE_MAX_ATTEMPTS = 6;
 const LUA_UPDATE_BASE_RETRY_MS = 400;
 const LUA_UPDATE_URL = "http://127.0.0.1:31124/update";
 const LUA_BOX_URL = "http://127.0.0.1:31124/box";
+const LUA_PLATINUM_PACKED_BOX_URL = "http://127.0.0.1:31124/box/packed";
 
 function computeLuaRetryDelayMs(attempt, baseDelayMs) {
 	var base = Number(baseDelayMs) || 200;
@@ -1141,6 +1130,82 @@ function fetchLuaBytesWithRetry(url, attempt, maxAttempts, retryDelayMs) {
 				return fetchLuaBytesWithRetry(url, attempt + 1, maxAttempts, retryDelayMs);
 			});
 		});
+}
+
+function readUint16LE(bytes, offset) {
+	if (!bytes || (offset + 1) >= bytes.length) {
+		return 0;
+	}
+	return ((bytes[offset] | (bytes[offset + 1] << 8)) >>> 0);
+}
+
+function uint8ArrayToHexString(bytes) {
+	if (!(bytes instanceof Uint8Array)) {
+		bytes = new Uint8Array(bytes || new ArrayBuffer(0));
+	}
+	var out = "";
+	for (var i = 0; i < bytes.length; i += 1) {
+		out += bytes[i].toString(16).padStart(2, "0");
+	}
+	return out;
+}
+
+function decodePlatinumPackedBoxToShowdownText(payloadBytes) {
+	var bytes = payloadBytes instanceof Uint8Array
+		? payloadBytes
+		: new Uint8Array(payloadBytes || new ArrayBuffer(0));
+	if (bytes.length < 18) {
+		throw new Error("Packed Platinum box payload is too short");
+	}
+
+	var magic = String.fromCharCode(bytes[0], bytes[1], bytes[2], bytes[3]);
+	if (magic !== "DPB1") {
+		throw new Error("Unexpected Platinum packed box header: " + magic);
+	}
+
+	if (typeof loadPokeLuaGen4RawBoxDump !== "function") {
+		throw new Error("Platinum Lua box dump importer is unavailable");
+	}
+
+	var trainerId = readUint16LE(bytes, 4);
+	var secretId = readUint16LE(bytes, 6);
+	var partyCount = bytes[8] >>> 0;
+	var boxCount = bytes[9] >>> 0;
+	var partyStructSize = readUint16LE(bytes, 10);
+	var boxStructSize = readUint16LE(bytes, 12);
+	var boxSlotsDumped = readUint16LE(bytes, 14);
+	var currentBoxIndex = bytes[16] >>> 0;
+	var headerSize = 18;
+	var partyByteLength = partyCount * partyStructSize;
+	var boxByteLength = boxSlotsDumped * boxStructSize;
+	var expectedLength = headerSize + partyByteLength + boxByteLength;
+
+	if (bytes.length < expectedLength) {
+		throw new Error("Packed Platinum box payload is truncated");
+	}
+
+	var partyBytes = bytes.slice(headerSize, headerSize + partyByteLength);
+	var boxBytes = bytes.slice(headerSize + partyByteLength, expectedLength);
+	var dump = {
+		trainerId: trainerId,
+		secretId: secretId,
+		partyCount: partyCount,
+		currentBoxIndex: currentBoxIndex,
+		boxCount: boxCount,
+		partyStructSize: partyStructSize,
+		boxStructSize: boxStructSize,
+		boxSlotsDumped: boxSlotsDumped,
+		partyEncoding: "hex",
+		boxesEncoding: "hex",
+		party: uint8ArrayToHexString(partyBytes),
+		boxes: uint8ArrayToHexString(boxBytes),
+	};
+
+	var result = loadPokeLuaGen4RawBoxDump(dump);
+	if (!result || typeof result.showdownImport !== "string") {
+		throw new Error("Platinum packed box decode did not return showdown text");
+	}
+	return result.showdownImport;
 }
 
 function decodeNullPackedBoxToShowdownText(payloadBytes) {
@@ -1565,6 +1630,22 @@ $("#sync-lua").click(() => {
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
 			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the Latest Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnullv1.1.lua\n\n Last Updated 3/9/2026\nYou can now view logs/frags for any battles played while using the latest Lua script on the Battle Logs tab of the Fragsheet page");
+		}).finally(resetSyncState);
+		return;
+	}
+	if (TITLE.includes("Platinum")) {
+		console.log("Fetching Platinum packed box")
+		fetchLuaBytesWithRetry(LUA_PLATINUM_PACKED_BOX_URL, 1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (bytes) {
+			var showdownText = decodePlatinumPackedBoxToShowdownText(bytes);
+			if (!showdownText || !showdownText.trim()) {
+				throw new Error("Empty decoded /box/packed payload");
+			}
+			$('.import-team-text').val(showdownText)
+			$('#import').click()
+			$('.import-team-text').val("")
+		}).catch(function (err) {
+			console.error("Lua sync failed", err);
+			alert("Please ensure DeSmuME is running, the Pokemon HTTP API is enabled, and Pokemon HTTP API Game is set to Pokemon Platinum.");
 		}).finally(resetSyncState);
 		return;
 	}

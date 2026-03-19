@@ -211,6 +211,7 @@ $(document).ready(function() {
 
 // Game specific configs and modifications
 function setGameSettings(title) {
+  $('label[for="fog"]').hide()
   if (title == "Renegade Platinum") {
     gameGen = 4
     settings.damageGen = 4
@@ -239,6 +240,7 @@ function setGameSettings(title) {
     showDex = true;
     showAI = true;
     $('label[for="snow"]').hide()
+    $('label[for="fog"]').show()
   } else if (title == "Pokemon Null") {
     gameGen = 8
     settings.damageGen = 8
@@ -419,6 +421,7 @@ function setBaseGame(title) {
     } else if (TITLE.includes("Platinum") ) {
       baseGame = "Pt"
       save_expansion = false
+      $('#sync-lua').show()
     } else if (TITLE.includes(" Black") || TITLE.includes(" White")) {
       baseGame = "BW"
       if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
