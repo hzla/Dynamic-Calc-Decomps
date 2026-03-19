@@ -389,10 +389,6 @@ function box_rolls() {
             }
 
 
-            if (playerMon.ability == "Skill Link" && playerMon.name == "Toucannon") {
-                console.log(player_dmg)
-            }
-
             if (can_kill(player_dmg, p1hp * dealt_min_roll / 100)) {
                 killers.push({"set": box[m], "move": player_results[j].move.originalName})
                 $(`.trainer-pok[data-id='${box[m]}']`).addClass('killer')
@@ -404,9 +400,13 @@ function box_rolls() {
             var opposingMove = opposing_results[j].move
 
             // assume ai always gets max hits
-            // if (moves[opposingMove.name] && moves[opposingMove.name].multihit) {
-            //     opposing_dmg = opposing_dmg * moves[opposingMove.name].multihit[moves[opposingMove.name].multihit.length - 1]
-            // }
+            if (moves[opposingMove.name] && moves[opposingMove.name].multihit) {
+                // pad dmg matrix to max
+                while (opposing_dmg.length < moves[opposingMove.name].multihit[moves[opposingMove.name].multihit.length - 1]) {
+                    opposing_dmg.push(opposing_dmg[0])
+                }
+            }
+
 
 
             if (!can_topkill(opposing_dmg, monHp * taken_max_roll / 100) && (selected_move_index == 0 || j == selected_move_index - 1)) {
