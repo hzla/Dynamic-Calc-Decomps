@@ -343,7 +343,7 @@
         },
         {
             id: "platinum",
-            matchesTitle: (title) => typeof title === "string" && title.includes("Platinum"),
+            matchesTitle: (title) => title === "Platinum Kaizo",
             enabled: true,
             getNatureList: getPlatinumNatureList,
             resolveAbilityName: resolvePlatinumAbilityNameForBattleLog,
@@ -511,6 +511,33 @@
         return { events };
     }
 
+    function decodeBattleLogResponsePayload(payloadBytes) {
+        const bytes = payloadBytes instanceof Uint8Array
+            ? payloadBytes
+            : new Uint8Array(payloadBytes || new ArrayBuffer(0));
+
+        if (!bytes || bytes.length === 0) {
+            throw new Error("Empty /battle_log response");
+        }
+
+        const hasPackedMagic = bytes.length >= 4 &&
+            String.fromCharCode(bytes[0], bytes[1], bytes[2], bytes[3]) === BATTLE_LOG_PACKED_MAGIC;
+        if (hasPackedMagic) {
+            return decodePackedBattleLogPayload(bytes);
+        }
+
+        const text = new TextDecoder("utf-8").decode(bytes).trim();
+        if (!text) {
+            throw new Error("Empty /battle_log response");
+        }
+
+        try {
+            return JSON.parse(text);
+        } catch (err) {
+            throw new Error(`Invalid JSON /battle_log payload: ${err && err.message ? err.message : String(err)}`);
+        }
+    }
+
     async function syncBattleLogsFromLuaUpdate() {
         if (syncBattleLogsInFlight) {
             return;
@@ -529,12 +556,9 @@
                         throw new Error(`HTTP ${response.status}`);
                     }
                     const bytes = new Uint8Array(await response.arrayBuffer());
-                    if (!bytes || bytes.length === 0) {
-                        throw new Error("Empty /battle_log response");
-                    }
-                    payload = decodePackedBattleLogPayload(bytes);
+                    payload = decodeBattleLogResponsePayload(bytes);
                     if (typeof payload === "undefined") {
-                        throw new Error("Invalid packed /battle_log payload");
+                        throw new Error("Invalid /battle_log payload");
                     }
                     lastErr = null;
                     break;

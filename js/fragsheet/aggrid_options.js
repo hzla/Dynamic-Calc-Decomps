@@ -46,7 +46,8 @@ SOURCES = {
     "null": "Pokemon Null",
     "sterlingsilver": "Sterling Silver",
     "fro": "Fire Red Omega",
-    "casc": "Cascade White"
+    "casc": "Cascade White",
+    "pk": "Platinum Kaizo"
 }
 
 function initializeSplits() {

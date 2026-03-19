@@ -421,7 +421,7 @@ function setBaseGame(title) {
     } else if (TITLE.includes("Platinum") ) {
       baseGame = "Pt"
       save_expansion = false
-      // $('#sync-lua').show()
+      $('#sync-lua').show()
     } else if (TITLE.includes(" Black") || TITLE.includes(" White")) {
       baseGame = "BW"
       if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
