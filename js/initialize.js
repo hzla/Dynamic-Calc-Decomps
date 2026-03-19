@@ -318,7 +318,7 @@ function setGameSettings(title) {
     settings.gameSwitchIn = 5;
     settings.switchIn = 5; 
     settings.damageGen = 5;
-    settings.gen = 5;
+    settings.gen = 8;
     settings.critGen = 5;
     settings.typeChart = 5;
     settings.sourceType = "full"
