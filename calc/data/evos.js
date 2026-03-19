@@ -5703,7 +5703,7 @@ evoData = {
   },
   "Basculegion": {
     "evos": [],
-    "anc": "Basculin-Blue-Striped"
+    "anc": "Basculin"
   },
   "Braviary-Hisui": {
     "evos": [],
