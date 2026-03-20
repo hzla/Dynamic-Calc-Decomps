@@ -328,11 +328,11 @@ function tryParseLuaRawPartySlot0WithFallback(chunk, offset=0) {
     return parsePKM(normalizedChunk, true, offset);
 }
 
-// Parse a PokeLua Gen 4 Box-<tid>.json dump where `party` and `boxes` contain raw bytes.
-// Reuses parsePKM() so offsets/decryption stay aligned with the main Gen 4 save parser.
+// Parse a DS PokeLua/DeSmuME Box-<tid>.json dump where `party` and `boxes` contain raw bytes.
+// Reuses parsePKM() so offsets/decryption stay aligned with the main Gen 4/5 save parser.
 function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
-    if (!(baseGame == "Pt" || baseGame == "HGSS")) {
-        throw new Error("parsePokeLuaGen4RawBoxDump only supports Gen 4 Pt/HGSS");
+    if (!(baseGame == "Pt" || baseGame == "HGSS" || baseGame == "BW")) {
+        throw new Error("parsePokeLuaGen4RawBoxDump only supports DS Pt/HGSS/BW");
     }
 
     const dump = (typeof boxDumpInput === "string") ? JSON.parse(boxDumpInput) : boxDumpInput;
@@ -352,11 +352,19 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
     const boxSlotsFromBytes = Math.floor((dump.boxes.length / 2) / boxStruct);
     const boxSlotsParsed = Math.min(boxSlotsDumped, boxSlotsFromBytes);
 
-    if (partyStruct !== 236 || boxStruct !== 136) {
-        throw new Error(`Unexpected struct sizes for Gen 4 dump (party=${partyStruct}, box=${boxStruct})`);
+    if (boxStruct !== 136) {
+        throw new Error(`Unexpected box struct size for DS dump (box=${boxStruct})`);
     }
 
-    partyPokSize = 236;
+    if ((baseGame == "Pt" || baseGame == "HGSS") && partyStruct !== 236) {
+        throw new Error(`Unexpected party struct size for Gen 4 dump (party=${partyStruct})`);
+    }
+
+    if (baseGame == "BW" && partyStruct !== 220) {
+        throw new Error(`Unexpected party struct size for BW dump (party=${partyStruct})`);
+    }
+
+    partyPokSize = partyStruct;
     battleStatSize = (partyPokSize - 136) / 2;
     resetParsedPokemonGlobalsForGen4Import();
 
@@ -368,7 +376,7 @@ function parsePokeLuaGen4RawBoxDump(boxDumpInput) {
     for (let i = 0; i < partyCountParsed; i++) {
         const start = i * partyStruct;
         const chunk = partyBytes.slice(start, start + partyStruct);
-        if (i === 0) {
+        if (i === 0 && (baseGame == "Pt" || baseGame == "HGSS")) {
             showdownImport += tryParseLuaRawPartySlot0WithFallback(chunk, start);
         } else {
             showdownImport += parsePKM(chunk, true, start);

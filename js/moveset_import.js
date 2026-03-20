@@ -813,12 +813,22 @@ function isValidJSON(str) {
     }
 }
 
+function isDsPackedBoxTitle(title) {
+	return typeof title === "string" && (
+		title.includes("Platinum") ||
+		title.includes("Black") ||
+		title.includes("White") ||
+		title.includes("Gold") ||
+		title.includes("Silver")
+	);
+}
+
 function importLuaJsonDumpForCurrentTitle(pokes) {
 	const parsed = typeof pokes === "string" ? JSON.parse(pokes) : pokes;
 
-	if (TITLE.includes("Platinum")) {
+	if (isDsPackedBoxTitle(TITLE)) {
 		if (typeof loadPokeLuaGen4RawBoxDump !== "function") {
-			throw new Error("Platinum Lua box dump importer is unavailable");
+			throw new Error("DS Lua box dump importer is unavailable");
 		}
 		return loadPokeLuaGen4RawBoxDump(parsed);
 	}
@@ -1150,21 +1160,21 @@ function uint8ArrayToHexString(bytes) {
 	return out;
 }
 
-function decodePlatinumPackedBoxToShowdownText(payloadBytes) {
+function decodeDsPackedBoxToShowdownText(payloadBytes) {
 	var bytes = payloadBytes instanceof Uint8Array
 		? payloadBytes
 		: new Uint8Array(payloadBytes || new ArrayBuffer(0));
 	if (bytes.length < 18) {
-		throw new Error("Packed Platinum box payload is too short");
+		throw new Error("Packed DS box payload is too short");
 	}
 
 	var magic = String.fromCharCode(bytes[0], bytes[1], bytes[2], bytes[3]);
 	if (magic !== "DPB1") {
-		throw new Error("Unexpected Platinum packed box header: " + magic);
+		throw new Error("Unexpected DS packed box header: " + magic);
 	}
 
 	if (typeof loadPokeLuaGen4RawBoxDump !== "function") {
-		throw new Error("Platinum Lua box dump importer is unavailable");
+		throw new Error("DS Lua box dump importer is unavailable");
 	}
 
 	var trainerId = readUint16LE(bytes, 4);
@@ -1181,7 +1191,7 @@ function decodePlatinumPackedBoxToShowdownText(payloadBytes) {
 	var expectedLength = headerSize + partyByteLength + boxByteLength;
 
 	if (bytes.length < expectedLength) {
-		throw new Error("Packed Platinum box payload is truncated");
+		throw new Error("Packed DS box payload is truncated");
 	}
 
 	var partyBytes = bytes.slice(headerSize, headerSize + partyByteLength);
@@ -1203,7 +1213,7 @@ function decodePlatinumPackedBoxToShowdownText(payloadBytes) {
 
 	var result = loadPokeLuaGen4RawBoxDump(dump);
 	if (!result || typeof result.showdownImport !== "string") {
-		throw new Error("Platinum packed box decode did not return showdown text");
+		throw new Error("DS packed box decode did not return showdown text");
 	}
 	return result.showdownImport;
 }
@@ -1633,10 +1643,10 @@ $("#sync-lua").click(() => {
 		}).finally(resetSyncState);
 		return;
 	}
-	if (TITLE.includes("Platinum")) {
-		console.log("Fetching Platinum packed box")
+	if (isDsPackedBoxTitle(TITLE)) {
+		console.log("Fetching DS packed box")
 		fetchLuaBytesWithRetry(LUA_PLATINUM_PACKED_BOX_URL, 1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (bytes) {
-			var showdownText = decodePlatinumPackedBoxToShowdownText(bytes);
+			var showdownText = decodeDsPackedBoxToShowdownText(bytes);
 			if (!showdownText || !showdownText.trim()) {
 				throw new Error("Empty decoded /box/packed payload");
 			}
@@ -1645,7 +1655,7 @@ $("#sync-lua").click(() => {
 			$('.import-team-text').val("")
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
-			alert("Please ensure DeSmuME is running, the Pokemon HTTP API is enabled, and Pokemon HTTP API Game is set to Pokemon Platinum.");
+			alert("Please ensure DeSmuME Nuzlockers Edition is running, the Pokemon HTTP API is enabled, and Pokemon HTTP API Game is set to the matching DS game profile. \n\nhttps://github.com/hzla/Desmume-Pokemon-Nuzlockers-Edition");
 		}).finally(resetSyncState);
 		return;
 	}

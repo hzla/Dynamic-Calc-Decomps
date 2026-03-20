@@ -226,6 +226,7 @@ function setGameSettings(title) {
     showDex = true;
     showAI = true;
     $('label[for="snow"]').hide()
+
   } else if (title == "Platinum Kaizo") {
     gameGen = 4
     settings.damageGen = 4
@@ -428,9 +429,11 @@ function setBaseGame(title) {
         baseVersion = "BW2"
       } else {
         baseVersion = "BW"
+        $('#sync-lua').show()
       }
     } else if (title.includes("Gold") || title.includes("Silver")) {
       window.baseGame = "HGSS"
+      $('#sync-lua').show()
     } else if (title.includes("Null")) {
         window.baseGame = "null"
 

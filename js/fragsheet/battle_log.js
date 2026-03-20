@@ -264,6 +264,16 @@
         ];
     }
 
+    function isPlatinumStyleBattleLogTitle(title) {
+        return typeof title === "string" && (
+            title.includes("Platinum") ||
+            title.includes("Black") ||
+            title.includes("White") ||
+            title.includes("Gold") ||
+            title.includes("Silver")
+        );
+    }
+
     function resolvePlatinumAbilityNameForBattleLog(speciesId, abilityValue, abilitySlot) {
         const directAbilityId = Number(abilityValue);
         if (Number.isInteger(directAbilityId) && directAbilityId > 0) {
@@ -343,7 +353,7 @@
         },
         {
             id: "platinum",
-            matchesTitle: (title) => title === "Platinum Kaizo",
+            matchesTitle: (title) => isPlatinumStyleBattleLogTitle(title),
             enabled: true,
             getNatureList: getPlatinumNatureList,
             resolveAbilityName: resolvePlatinumAbilityNameForBattleLog,
