@@ -227,7 +227,7 @@ var RBY = {
         bs: { hp: 95, at: 95, df: 85, sp: 55, sl: 125 },
         weightkg: 120
     },
-    'Farfetch\u2019d': {
+    'Farfetch’d': {
         types: ['Normal', 'Flying'],
         bs: { hp: 52, at: 65, df: 55, sp: 60, sl: 58 },
         weightkg: 15
@@ -854,7 +854,7 @@ var GSC_PATCH = {
     Electrode: { bs: { sa: 80, sd: 80 }, gender: 'N' },
     Exeggcute: { bs: { sa: 60, sd: 45 } },
     Exeggutor: { bs: { sa: 125, sd: 65 } },
-    'Farfetch\u2019d': { bs: { sa: 58, sd: 62 } },
+    'Farfetch’d': { bs: { sa: 58, sd: 62 } },
     Fearow: { bs: { sa: 61, sd: 61 } },
     Flareon: { bs: { sa: 95, sd: 110 } },
     Gastly: { bs: { sa: 100, sd: 35 } },
@@ -1537,7 +1537,7 @@ var ADV_PATCH = {
     Electrode: { abilities: { 0: 'Soundproof' } },
     Exeggcute: { abilities: { 0: 'Chlorophyll' } },
     Exeggutor: { abilities: { 0: 'Chlorophyll' } },
-    'Farfetch\u2019d': { abilities: { 0: 'Keen Eye' } },
+    'Farfetch’d': { abilities: { 0: 'Keen Eye' } },
     Fearow: { abilities: { 0: 'Keen Eye' } },
     Flareon: { abilities: { 0: 'Flash Fire' } },
     Gastly: { abilities: { 0: 'Levitate' } },
@@ -6362,7 +6362,7 @@ var SM_PATCH = {
     Eevee: { otherFormes: ['Eevee-Starter'] },
     Electrode: { bs: { sp: 150 } },
     Exeggutor: { bs: { sd: 75 }, otherFormes: ['Exeggutor-Alola'] },
-    'Farfetch\u2019d': { bs: { at: 90 } },
+    'Farfetch’d': { bs: { at: 90 } },
     Gengar: { abilities: { 0: 'Cursed Body' } },
     Geodude: { otherFormes: ['Geodude-Alola'] },
     Golem: { otherFormes: ['Golem-Alola'] },
@@ -7667,7 +7667,7 @@ var SS_PATCH = {
     Darumaka: { otherFormes: ['Darumaka-Galar'] },
     Eevee: { otherFormes: ['Eevee-Gmax'] },
     Equilibra: { bs: { sa: 133 } },
-    'Farfetch\u2019d': { otherFormes: ['Farfetch\u2019d-Galar'] },
+    'Farfetch’d': { otherFormes: ['Farfetch’d-Galar'] },
     Garbodor: { otherFormes: ['Garbodor-Gmax'] },
     Gengar: { otherFormes: ['Gengar-Gmax', 'Gengar-Mega'] },
     Kingler: { otherFormes: ['Kingler-Gmax'] },
@@ -8140,13 +8140,13 @@ var SS_PATCH = {
         abilities: { 0: 'Battle Armor' },
         gender: 'N'
     },
-    'Farfetch\u2019d-Galar': {
+    'Farfetch’d-Galar': {
         types: ['Fighting'],
         bs: { hp: 52, at: 95, df: 55, sa: 58, sd: 62, sp: 55 },
         weightkg: 15,
         abilities: { 0: 'Steadfast' },
         nfe: true,
-        baseSpecies: 'Farfetch\u2019d'
+        baseSpecies: 'Farfetch’d'
     },
     Flapple: {
         types: ['Grass', 'Dragon'],
@@ -8614,7 +8614,7 @@ var SS_PATCH = {
         baseSpecies: 'Sinistea',
         gender: 'N'
     },
-    'Sirfetch\u2019d': {
+    'Sirfetch’d': {
         types: ['Fighting'],
         bs: { hp: 62, at: 135, df: 95, sa: 68, sd: 82, sp: 65 },
         weightkg: 117,
@@ -8978,7 +8978,7 @@ var RR_PATCH = {
     'Emolga': { bs: { at: 55, sa: 95 } },
     'Exploud': { bs: { at: 81, sp: 73 } },
     'Falinks': { types: ['Fighting', 'Bug'], bs: { hp: 75, sa: 60 } },
-    'Farfetch\u2019d': { types: ['Fighting', 'Flying'], bs: { hp: 75, df: 70, sd: 77, sp: 65 } },
+    'Farfetch’d': { types: ['Fighting', 'Flying'], bs: { hp: 75, df: 70, sd: 77, sp: 65 } },
     'Fearow': { bs: { at: 100, sp: 115 }, abilities: { 0: 'Sniper' } },
     'Feebas': { otherFormes: ['Feebas-Sevii'] },
     'Flapple': { otherFormes: ['Flapple-Mega'] },
@@ -9119,7 +9119,7 @@ var RR_PATCH = {
     'Silvally-Rock': { bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 }, abilities: { 0: 'Battle Armor' } },
     'Silvally-Steel': { bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 }, abilities: { 0: 'Battle Armor' } },
     'Silvally-Water': { bs: { hp: 100, at: 100, df: 100, sa: 100, sd: 100, sp: 100 }, abilities: { 0: 'Battle Armor' } },
-    'Sirfetch\u2019d': { bs: { hp: 82 } },
+    'Sirfetch’d': { bs: { hp: 82 } },
     'Sizzlipede': { otherFormes: ['Sizzlipede-Sevii'] },
     'Skuntank': { bs: { sa: 91 } },
     'Sliggoo': { otherFormes: ['Sliggoo-Hisui'] },

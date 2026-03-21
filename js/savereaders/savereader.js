@@ -754,6 +754,10 @@ function parsePKM(chunk, is_party=false, offset=0) {
 
     mon_name = SPECIES_BY_ID[gen][cleanString(mon_name)].name
 
+    if (typeof mon_name == "undefined" && decryptedData[mon_data_offset] == 83) {
+        mon_name = "Farfetch’d"
+    }
+
     
 
     if (mon_name in mon_forms) {
