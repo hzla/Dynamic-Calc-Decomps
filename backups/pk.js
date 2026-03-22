@@ -155779,7 +155779,7 @@ backup_data = {
             "type": "Flying",
             "category": "Physical",
             "priority": 0,
-            "e_id": 182
+            "e_id": 182,
         },
         "Earth Power": {
             "basePower": 90,

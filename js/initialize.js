@@ -826,6 +826,13 @@ function loadMovesData() {
         moves.Avalanche.target = 'allAdjacentFoes'
 
     }
+
+    if (TITLE == "Platinum Kaizo") {
+
+        // moves["Take Down"]["recoil"] = [1,4]
+        // MOVES_BY_ID[g].takedown["recoil"] = [1,4]
+
+    }
 }
 
 function loadDataSource(data) {

@@ -636,6 +636,22 @@ function getItem(currentRow, j) {
 	}
 }
 
+function extractGenderFromImportHeader(headerLine) {
+	var result = {
+		header: headerLine,
+		gender: undefined,
+	};
+	if (!headerLine) {
+		return result;
+	}
+
+	result.header = headerLine.replace(/\s+\(([MFN])\)(?=\s*@|$)/, function(match, gender) {
+		result.gender = gender;
+		return "";
+	});
+	return result;
+}
+
 function getMoves(currentPoke, rows, offset) {
 	var movesFound = false;
 	var moves = [];
@@ -727,6 +743,9 @@ function addToDex(poke) {
 	}
 	if (poke.ability !== undefined) {
 		dexObject.ability = poke.ability;
+	}
+	if (poke.gender !== undefined) {
+		dexObject.gender = poke.gender;
 	}
 
 
@@ -876,8 +895,8 @@ function addSets(pokes, name) {
 		// 	currentParty.push(rows[i])
 		// }
 
-
-		currentRow = rows[i].split(/[()@]/);
+		var headerInfo = extractGenderFromImportHeader(rows[i]);
+		currentRow = headerInfo.header.split(/[()@]/);
 		
 		if (item) {
 			currentRow.push(item)
@@ -893,6 +912,7 @@ function addSets(pokes, name) {
 
 				currentPoke = calc.SPECIES[8][currentRow[j].trim()];
 				currentPoke.name = currentRow[j].trim();
+				currentPoke.gender = headerInfo.gender;
 				currentPoke.item = getItem(currentRow, j + 1);
 				if (j === 1 && currentRow[0].trim()) {
 					currentPoke.nameProp = "My Box";
@@ -1652,7 +1672,7 @@ $("#sync-lua").click(() => {
 			}
 			$('.import-team-text').val(showdownText)
 			$('#import').click()
-			$('.import-team-text').val("")
+			// $('.import-team-text').val("")
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
 			alert("Please ensure DeSmuME Nuzlockers Edition is running, the Pokemon HTTP API is enabled, and Pokemon HTTP API Game is set to the matching DS game profile. \n\nhttps://github.com/hzla/Desmume-Pokemon-Nuzlockers-Edition");

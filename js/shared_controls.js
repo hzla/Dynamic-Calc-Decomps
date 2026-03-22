@@ -1320,9 +1320,16 @@ $(".set-selector").change(function () {
 			pokeObj.find(".status").val("Healthy")//.change();
 		}
 
-		if (typeof setdex[pokemonName] != "undefined" && typeof setdex[pokemonName][setName] != "undefined" && setdex[pokemonName][setName]["gender"]) {
-			pokeObj.find(".gender").val(setdex[pokemonName][setName]["gender"])//.change();
-		} 
+		if (typeof setdex[pokemonName] != "undefined" && typeof setdex[pokemonName][setName] != "undefined") {
+			var setGender = getGender(setdex[pokemonName][setName]["gender"]);
+			if (setGender === "M") {
+				pokeObj.find(".gender").val("Male");
+			} else if (setGender === "F") {
+				pokeObj.find(".gender").val("Female");
+			} else {
+				pokeObj.find(".gender").val("");
+			}
+		}
 
 
 		
@@ -1599,14 +1606,15 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			status = 'brn'
 		}
 		
-		return new calc.Pokemon(gen, name, {
-			level: tmpLvl,
-			ability: set.ability,
-			abilityOn: true,
-			item: set.item || "",
-			nature: set.nature,
-			ivs: ivs,
-			evs: evs,
+			return new calc.Pokemon(gen, name, {
+				level: tmpLvl,
+				ability: set.ability,
+				abilityOn: true,
+				item: set.item || "",
+				gender: getGender(set.gender),
+				nature: set.nature,
+				ivs: ivs,
+				evs: evs,
 			moves: pokemonMoves,
 			status: status
 		});

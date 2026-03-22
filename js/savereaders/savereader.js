@@ -749,6 +749,15 @@ function parsePKM(chunk, is_party=false, offset=0) {
     var move_data_offset = shiftOrder.indexOf(1) * 16
     var met_data_offset = shiftOrder.indexOf(3) * 16
     var nn_data_offset = shiftOrder.indexOf(2) * 16
+    var gender_forme_word = decryptedData[move_data_offset + 12]
+    var gender = ""
+    if (((gender_forme_word >> 2) & 0x1) === 1) {
+        gender = "N"
+    } else if (((gender_forme_word >> 1) & 0x1) === 1) {
+        gender = "F"
+    } else {
+        gender = "M"
+    }
 
     var mon_name = sav_pok_names[decryptedData[mon_data_offset]]
 
@@ -853,15 +862,21 @@ function parsePKM(chunk, is_party=false, offset=0) {
     try {
         if (nn.toLowerCase() != mon_name.toLowerCase()) {
         // console.log([nn, mon_name])
-        showdownString += `${nn} (${mon_name}) @ ${item_name}\n`
+        showdownString += `${nn} (${mon_name})`
         } else {
-            showdownString += `${mon_name} @ ${item_name}\n`
+            showdownString += `${mon_name}`
         }  
     } catch {
         console.log(mon_name)
-        showdownString += `${mon_name} @ ${item_name}\n`
+        showdownString += `${mon_name}`
 
     }
+
+    if (gender && gender !== "N") {
+        showdownString += ` (${gender})`
+    }
+
+    showdownString += ` @ ${item_name}\n`
 
     
     
