@@ -753,7 +753,17 @@ function addToDex(poke) {
 	if (isInt(poke.ability)) {
 		// console.log(`cannot find ability for ${poke.name}`)
 		if (TITLE.includes("Imperium")) {
-			dexObject.ability = em_imp_primary_mons[poke.name]['abilities'][parseInt(poke.ability)]
+			var abilityIndex = parseInt(poke.ability);
+			var abilityList = (typeof abilsPrimary === "object" && abilsPrimary) ? abilsPrimary[poke.name] : null;
+			if (!Array.isArray(abilityList) && typeof abils === "object" && abils) {
+				abilityList = abils[poke.name];
+			}
+			if (!Array.isArray(abilityList) && typeof em_imp_primary_mons === "object" && em_imp_primary_mons[poke.name]) {
+				abilityList = em_imp_primary_mons[poke.name]['abilities'];
+			}
+			if (Array.isArray(abilityList) && abilityList[abilityIndex]) {
+				dexObject.ability = abilityList[abilityIndex];
+			}
 		}
 	}
 	
@@ -1449,15 +1459,26 @@ function decodeImperiumPackedBoxToShowdownText(payloadBytes) {
 	var items = (typeof emImpItems !== "undefined" && Array.isArray(emImpItems)) ? emImpItems : [];
 	var natureNames = (typeof natures !== "undefined" && Array.isArray(natures)) ? natures : [];
 	var emLocations = (typeof locations !== "undefined" && locations && Array.isArray(locations["EM"])) ? locations["EM"] : [];
-	var abilitiesBySpecies = (typeof abils === "object" && abils) ? abils : {};
-	var abilityKeyLookup = {};
-	for (var abilitySpecies in abilitiesBySpecies) {
-		if (!Object.prototype.hasOwnProperty.call(abilitiesBySpecies, abilitySpecies)) {
+	var primaryAbilitiesBySpecies = (typeof abilsPrimary === "object" && abilsPrimary) ? abilsPrimary : {};
+	var fallbackAbilitiesBySpecies = (typeof abils === "object" && abils) ? abils : {};
+	var primaryAbilityKeyLookup = {};
+	var fallbackAbilityKeyLookup = {};
+	for (var primaryAbilitySpecies in primaryAbilitiesBySpecies) {
+		if (!Object.prototype.hasOwnProperty.call(primaryAbilitiesBySpecies, primaryAbilitySpecies)) {
 			continue;
 		}
-		var cleaned = String(abilitySpecies || "").toLowerCase().replace(/[^a-z0-9]/g, "");
-		if (cleaned && !abilityKeyLookup[cleaned]) {
-			abilityKeyLookup[cleaned] = abilitiesBySpecies[abilitySpecies];
+		var primaryCleaned = String(primaryAbilitySpecies || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+		if (primaryCleaned && !primaryAbilityKeyLookup[primaryCleaned]) {
+			primaryAbilityKeyLookup[primaryCleaned] = primaryAbilitiesBySpecies[primaryAbilitySpecies];
+		}
+	}
+	for (var fallbackAbilitySpecies in fallbackAbilitiesBySpecies) {
+		if (!Object.prototype.hasOwnProperty.call(fallbackAbilitiesBySpecies, fallbackAbilitySpecies)) {
+			continue;
+		}
+		var fallbackCleaned = String(fallbackAbilitySpecies || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+		if (fallbackCleaned && !fallbackAbilityKeyLookup[fallbackCleaned]) {
+			fallbackAbilityKeyLookup[fallbackCleaned] = fallbackAbilitiesBySpecies[fallbackAbilitySpecies];
 		}
 	}
 
@@ -1501,10 +1522,16 @@ function decodeImperiumPackedBoxToShowdownText(payloadBytes) {
 	}
 
 	function resolveAbilityName(speciesName, abilitySlot) {
-		var list = abilitiesBySpecies[speciesName];
+		var list = primaryAbilitiesBySpecies[speciesName];
+		if (!Array.isArray(list)) {
+			list = fallbackAbilitiesBySpecies[speciesName];
+		}
 		if (!Array.isArray(list)) {
 			var speciesKey = String(speciesName || "").toLowerCase().replace(/[^a-z0-9]/g, "");
-			list = abilityKeyLookup[speciesKey];
+			list = primaryAbilityKeyLookup[speciesKey];
+			if (!Array.isArray(list)) {
+				list = fallbackAbilityKeyLookup[speciesKey];
+			}
 		}
 		if (!Array.isArray(list)) {
 			return "Unknown";
