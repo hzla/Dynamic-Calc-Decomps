@@ -835,13 +835,17 @@ function refresh_next_in() {
 
 	var playerPokSpeciesName = $('.select2-chosen').first().text().split(" (")[0].trim()
 
+	try {
+		if (playerPokSpeciesName.length > 0) {
+			var playerLvl = parseInt($('#levelL1').val())
+			var expTable = expTables[sav_pok_growths[sav_pok_names.indexOf(playerPokSpeciesName)]]
+			expNeededToLevelFully = expTable[playerLvl] - expTable[playerLvl - 1]
+		}
 
-	if (playerPokSpeciesName.length > 0) {
-		var playerLvl = parseInt($('#levelL1').val())
-		var expTable = expTables[sav_pok_growths[sav_pok_names.indexOf(playerPokSpeciesName)]]
-		expNeededToLevelFully = expTable[playerLvl] - expTable[playerLvl - 1]
+	} catch {
+		expNeededToLevelFully = 1
 	}
-
+	
 	for (i in next_poks ) {
 		var meta = getTrainerPreviewMeta(next_poks[i][0])
 		var trainerName = getTrainerPreviewName(next_poks[i][0])
