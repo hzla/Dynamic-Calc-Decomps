@@ -94,11 +94,20 @@ function get_next_in_g4() {
             continue
         }
 
+
+        
+
+        
+
         var type1 = pokedex[pok_name]["types"][0]
         var type2 = pokedex[pok_name]["types"][1] || type1
 
         var pok_data = SETDEX_BW[pok_name][tr_name]
         var sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
+
+        var expYield = Math.floor(Math.floor(expYields[cleanString(pok_name)] * pok_data.level / 7) * 1.5);
+
+
 
         var plate_type = null
         if (pok_data["ability"] == "Multitype") {
@@ -133,8 +142,6 @@ function get_next_in_g4() {
 
         var exact_phase1_score_40 = g4_phase1_score_40(type1, type2, player_type1, player_type2)
 
-
-        console.log()
 
         var full_immune = (effectiveness == 0)
 
@@ -232,7 +239,7 @@ function get_next_in_g4() {
             }
 
             if (isSE && !full_immune) {
-                se_mons.push([trainer_poks[i], 0, "", sub_index, pok_data["moves"], effectiveness])
+                se_mons.push([trainer_poks[i], 0, "", sub_index, pok_data["moves"], effectiveness, '', '', expYield])
                 se_mon_ids.push(trainer_poks[i])
                 added_to_se_bucket = true
                 break
@@ -268,9 +275,15 @@ function get_next_in_g4() {
         var pok_data = SETDEX_BW[pok_name][tr_name]
         var sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""))
 
+        expYield = Math.floor(Math.floor(expYields[cleanString(pok_name)] * pok_data.level / 7) * 1.5);
+
+
+
         if (se_mon_ids.includes(trainer_poks[i])) {
             continue
         }
+
+
 
         var is_first_phase2_mon = !checked_first_phase2_mon
         checked_first_phase2_mon = true
@@ -340,8 +353,7 @@ function get_next_in_g4() {
                 }
             }
         }
-
-        other_mons.push([trainer_poks[i], 0, "", sub_index, pok_data["moves"], highestDamage, highestDamageName])
+        other_mons.push([trainer_poks[i], 0, "", sub_index, pok_data["moves"], highestDamage, highestDamageName, '', expYield])
     }
 
     console.log(se_mons.sort(sort_trpoks_g4).concat(other_mons.sort(sort_trpoks_g4)))

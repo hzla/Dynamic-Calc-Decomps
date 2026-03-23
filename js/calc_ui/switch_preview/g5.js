@@ -1,3 +1,45 @@
+function g5ExpFixedPointSqrt(val) {
+    return Math.round(Math.sqrt(val) * 4096)
+}
+
+function g5ExpPow25(val) {
+    return Math.floor((val * val * g5ExpFixedPointSqrt(val)) / 4096)
+}
+
+function g5ExpMulRatio(value, ratio) {
+    var scaled = value * ratio
+    var decimal = scaled & 4095
+    scaled >>= 12
+
+    if (decimal > 2048) {
+        scaled += 1
+    }
+
+    return scaled
+}
+
+function g5CalcTrainerPreviewExpYield(player, opposingName, opposingLevel) {
+    var baseYield = expYields[cleanString(opposingName)]
+    if (!baseYield || !player || !player.level || !opposingLevel) {
+        return 0
+    }
+
+    // Match BW's trainer battle path for the active participant:
+    // base exp, trainer bonus, level scaling, then Lucky Egg.
+    var baseExp = Math.floor((baseYield * opposingLevel) / 5)
+    baseExp = Math.floor((baseExp * 15) / 10)
+
+    var numer = g5ExpPow25(opposingLevel * 2 + 10)
+    var denom = g5ExpPow25(opposingLevel + player.level + 10)
+    var expYield = Math.floor((baseExp * numer) / denom) + 1
+
+    if (player.hasItem("Lucky Egg")) {
+        expYield = g5ExpMulRatio(expYield, 6144)
+    }
+
+    return expYield
+}
+
 function get_next_in_g5() {  
     
     var trainer_poks = CURRENT_TRAINER_POKS
@@ -41,6 +83,7 @@ function get_next_in_g5() {
         var pok_data = SETDEX_BW[pok_name][tr_name]
 
         var opposing = createPokemon(`${pok_name} (${tr_name})`)
+        var expYield = g5CalcTrainerPreviewExpYield(player, pok_name, opposing.level)
         var isFaster = opposing.stats.spe >= player.stats.spe
         var opposingIgnoresAbilities = opposing.hasAbility("Mold Breaker", "Teravolt", "Turboblaze" ,"Neutralizing Gas") || opposing.hasItem("Tera Drill", "Ability Drill")
 
@@ -248,7 +291,7 @@ function get_next_in_g5() {
 
             }
         }
-        ranked_trainer_poks.push([trainer_poks[i], strongest_move_bp, strongest_move, sub_index, pok_data["moves"]])
+        ranked_trainer_poks.push([trainer_poks[i], strongest_move_bp, strongest_move, sub_index, pok_data["moves"], "", "", "", expYield])
     }
 
 

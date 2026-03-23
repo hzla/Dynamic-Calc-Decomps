@@ -328,8 +328,12 @@ function get_next_in_g3() {
             continue;
         }
 
+
+
         var enemy = createPokemon(`${pok_name} (${tr_name})`);
         enemyDex = pokedex[pok_name];
+
+        expYield = Math.floor(Math.floor(expYields[cleanString(pok_name)] * enemy.level / 7) * 1.5);
 
 
         var enemyTypes = enemyDex.types.slice();
@@ -415,19 +419,21 @@ function get_next_in_g3() {
         } else {
             reason = `phase2 (damage=${bestDamage}, bestMove=${bestMove || "None"})`;
         }
-        ranked_trainer_poks.push([trainer_poks[i], score, bestMove, sub_index, setdex[pok_name][tr_name]["moves"], reason, phase1Score, bestDamage]);
+        console.log(`${pok_name} ${expYield}`)
+        ranked_trainer_poks.push([trainer_poks[i], score, bestMove, sub_index, setdex[pok_name][tr_name]["moves"], reason, phase1Score, bestDamage, expYield]);
     }
 
     ranked_trainer_poks = ranked_trainer_poks.sort(sort_trpoks_g3);
-    console.log(ranked_trainer_poks.map((entry, idx) => ({
-        order: idx + 1,
-        pokemon: entry[0],
-        reason: entry[5],
-        score: entry[1],
-        typeScore: entry[6],
-        bestDamage: entry[7],
-        bestMove: entry[2]
-    })));
+    console.log(ranked_trainer_poks)
+    // console.log(ranked_trainer_poks.map((entry, idx) => ({
+    //     order: idx + 1,
+    //     pokemon: entry[0],
+    //     reason: entry[5],
+    //     score: entry[1],
+    //     typeScore: entry[6],
+    //     bestDamage: entry[7],
+    //     bestMove: entry[2]
+    // })));
     return ranked_trainer_poks;
 }
 

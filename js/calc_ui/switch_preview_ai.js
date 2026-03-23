@@ -442,6 +442,16 @@ function get_next_in() {
         return
     }
 
+    if (typeof expYields === "undefined") {
+        if (TITLE == "Platinum Kaizo") {
+            expYields = pkExpYields
+        } else if (settings.gameSwitchIn == 5)  {
+            expYields = vanillaG5ExpYields
+        } else {
+            expYields = vanillaExpYields
+        }
+    }
+
     if (settings.gameSwitchIn == 4) {
         return get_next_in_g4()
     }

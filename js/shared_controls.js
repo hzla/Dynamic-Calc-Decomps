@@ -791,11 +791,31 @@ function renderTrainerPreviewPok(next_pok) {
 		<div class="bp-info ${pps[3] == '0' ? 'nopp' : ''}">${next_pok[4][3].replace("Hidden Power", "HP")}</div></div>`
 	}
 
+
+
 	if (TITLE.includes("1.3") || TITLE == "Pokemon Null") {
 		pok += next_pok[5]
 	}
 
+
+
+	if ((settings.damageGen <= 4 || settings.damageGen == 5) && typeof next_pok[8] !== "undefined") {
+		var expGain = Number(next_pok[8]) || 0
+		var expRatio = 0
+		if (typeof expNeededToLevelFully !== "undefined" && expNeededToLevelFully > 0) {
+			expRatio = Math.max(0, Math.min(1, expGain / expNeededToLevelFully))
+		}
+
+		pok += `<div class="exp-bar">
+			<div class="exp-bar-fill" style="width:${(expRatio * 100).toFixed(1)}%"></div>
+			<div class="exp-bar-label">+${expGain} EXP</div>
+		</div>`
+	}
+
 	pok += `</div>`
+
+
+
 	return pok
 }
 
@@ -810,6 +830,17 @@ function refresh_next_in() {
 	var setPartnerId = getTrainerPreviewPartnerIdFromSet(selectedOpposingSet)
 	var resolvedPartnerName = getTrainerPreviewPartnerNameFromSet(selectedOpposingSet) || partnerName
 	var fallbackPartnerNames = []
+
+	
+
+	var playerPokSpeciesName = $('.select2-chosen').first().text().split(" (")[0].trim()
+
+
+	if (playerPokSpeciesName.length > 0) {
+		var playerLvl = parseInt($('#levelL1').val())
+		var expTable = expTables[sav_pok_growths[sav_pok_names.indexOf(playerPokSpeciesName)]]
+		expNeededToLevelFully = expTable[playerLvl] - expTable[playerLvl - 1]
+	}
 
 	for (i in next_poks ) {
 		var meta = getTrainerPreviewMeta(next_poks[i][0])
