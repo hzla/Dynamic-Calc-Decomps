@@ -903,6 +903,7 @@ table td {
 .trainer-preview-separator {
     padding-top: 8px;
     border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 20px;
 }
 
 .trainer-pok-list.opposing {

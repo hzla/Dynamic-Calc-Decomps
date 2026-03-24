@@ -121,6 +121,11 @@ $(document).ready(function() {
                         } else {
                             console.log("now reading box from block 1")
                         }
+
+                        var trainerIdOffset = smallBlockStart + (baseGame == "HGSS" ? 0x74 : 0x78)
+                        var tid = view[trainerIdOffset] | (view[trainerIdOffset + 1] << 8)
+                        var sid = view[trainerIdOffset + 2] | (view[trainerIdOffset + 3] << 8)
+                        localStorage.lastTid = tid + (sid * 0x10000)
                     } else if (baseGame == "BW") {
                             const tidSid =  read32BitIntegerFromUint8Array(view,  0x19414); // BW2
                             localStorage.lastTid = tidSid;  
