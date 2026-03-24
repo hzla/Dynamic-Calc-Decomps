@@ -196,6 +196,8 @@ async function fetchFromStatsView(viewName, { title, tr, limit }) {
 		throw new Error("SUPABASE_ANON_KEY not set");
 	}
 
+
+
 	const q = [];
 	q.push("select=*");
 	if (title != null) q.push(postgrestEq("title", title));
@@ -263,6 +265,7 @@ function getCurrentTitleAndTr() {
 	const snap = (typeof getSnapshot === "function") ? getSnapshot() : null;
 	const title = (snap && snap.title) ? snap.title : (typeof TITLE !== "undefined" ? String(TITLE) : "");
 	const tr = (snap && snap.tr) ? snap.tr : "";
+	console.log(tr)
 	return { title, tr };
 }
 

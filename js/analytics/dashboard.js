@@ -143,6 +143,45 @@ function templateSelection(item) {
   return item.text;
 }
 
+function getUsageTrainerKey(data) {
+  if (TITLE === "Pokemon Null") return data.id;
+  return data.tr_id ?? data.id;
+}
+
+function updateTrainerQueryParam(trainerName) {
+  const url = new URL(window.location.href);
+  if (trainerName) {
+    url.searchParams.set("trainer", trainerName);
+  } else {
+    url.searchParams.delete("trainer");
+  }
+  window.history.replaceState({}, "", url);
+}
+
+function findTrainerOptionById(select2Data, trainerName) {
+  for (const section of select2Data) {
+    if (!Array.isArray(section.children)) continue;
+    for (const group of section.children) {
+      if (!Array.isArray(group.children)) continue;
+      const match = group.children.find(child => child.id === trainerName);
+      if (match) return match;
+    }
+  }
+  return null;
+}
+
+function renderTrainerSelection(data) {
+  if (!data || !data.id) return;
+
+  const displayName = data.id;               // what you render the team with
+  const usageName   = getUsageTrainerKey(data); // what you query usage with
+  const team = TRAINERS[displayName] || [];
+
+  updateTrainerQueryParam(displayName);
+  renderTeam(displayName, team);
+  renderTrainerUsageDashboard(usageName);
+}
+
 $(function () {
   const data = buildSelect2Data(TRAINERS);
 
@@ -176,19 +215,19 @@ $(function () {
 
   $("#trainerSelect")
   .on("select2:select", function (e) {
-    const data = e.params.data;
-
-    const displayName = data.id;               // what you render the team with
-    const usageName   = data.tr_id ?? data.id; // what you query usage with
-
-    const team = TRAINERS[displayName] || [];
-
-    renderTeam(displayName, team);
-    renderTrainerUsageDashboard(usageName);
+    renderTrainerSelection(e.params.data);
   })
   .on("select2:clear", function () {
+    updateTrainerQueryParam("");
     $("#out").html('<div class="emptyState">Select a trainer to render their team.</div>');
   });
+
+  const queriedTrainer = new URLSearchParams(window.location.search).get("trainer");
+  const selectedTrainer = queriedTrainer ? findTrainerOptionById(data, queriedTrainer) : null;
+  if (selectedTrainer) {
+    $("#trainerSelect").val(selectedTrainer.id).trigger("change");
+    renderTrainerSelection(selectedTrainer);
+  }
  });
 
 
@@ -538,5 +577,3 @@ async function renderTrainerUsageDashboard(trainerName) {
   renderUsageDash(rows);
   renderBattlesDash(rows);
 }
-
-
