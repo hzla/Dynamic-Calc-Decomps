@@ -503,6 +503,23 @@ function initPlatinum() {
             }
         } 
     }
+
+    if (poksData['Cherrim']) {
+        pokedex[`Cherrim-Sunshine-Glitched`] = {
+            "types": [
+                "Grass"
+            ],
+            "bs": poksData['Cherrim']['bs'],
+            "weightkg": 0.3,
+            "abilities": {
+                "0": "Flower Gift"
+            },
+            "otherFormes": [
+                "Cherrim",
+                "Cherrim-Sunshine"
+            ]
+        }
+}
     
     if (poksData['Deoxys']) {
         for (let i = 0; i < deoxys_info.length; i++) {
