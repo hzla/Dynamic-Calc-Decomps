@@ -251,7 +251,7 @@ function setGameSettings(title) {
     settings.critGen = 6;
     showDex = true;
     showAI = false;
-    $('#sync-lua').show()
+    $('#sync-lua, #desmume-icon').show()
     $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
     $('label[for="hail"]').show()
     $('#maxL').next().remove()
@@ -418,22 +418,22 @@ function setBaseGame(title) {
         if (localStorage.switchInfo == '1') {
           $('.trainer-pok-list.opposing').addClass('ai-show')
         }
-        $('#sync-lua').show()
+        $('#sync-lua, #desmume-icon').show()
     } else if (TITLE.includes("Platinum") ) {
       baseGame = "Pt"
       save_expansion = false
-      $('#sync-lua').show()
+      $('#sync-lua, #desmume-icon').show()
     } else if (TITLE.includes(" Black") || TITLE.includes(" White")) {
       baseGame = "BW"
       if (TITLE.includes("Black 2") || TITLE.includes("White 2")) {
         baseVersion = "BW2"
       } else {
         baseVersion = "BW"
-        $('#sync-lua').show()
+        $('#sync-lua, #desmume-icon').show()
       }
     } else if (title.includes("Gold") || title.includes("Silver")) {
       window.baseGame = "HGSS"
-      $('#sync-lua').show()
+      $('#sync-lua, #desmume-icon').show()
     } else if (title.includes("Null")) {
         window.baseGame = "null"
 
