@@ -185,8 +185,8 @@ function getFinalSpeed(gen, pokemon, field, side) {
         speedMods.push(6144);
     }
     if (pokemon.hasItem('Choice Scarf', 'Tera C-Scarf') ||
-        (pokemon.named('Farfetch\u2019d', 'Farfetch\u2019d-Galar') && pokemon.hasItem('Leek') && (TITLE.includes("Imperium") || TITLE.includes("Radical")) ) ||
-        (pokemon.named('Porygon-Z') && pokemon.hasItem('Up-Grade') && (TITLE.includes("Imperium") || TITLE.includes("Radical"))) {
+        (pokemon.named('Farfetch\u2019d', 'Farfetch\u2019d-Galar') && pokemon.hasItem('Leek') && (TITLE.includes("Imperium") || TITLE.includes("Radical"))) ||
+        (pokemon.named('Porygon-Z') && pokemon.hasItem('Up-Grade') && (TITLE.includes("Imperium") || TITLE.includes("Radical")))) {
         speedMods.push(6144);
     }
     else if (pokemon.hasItem.apply(pokemon, __spreadArray(['Iron Ball'], __read(EV_ITEMS), false))) {
