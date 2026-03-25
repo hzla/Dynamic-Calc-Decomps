@@ -153919,7 +153919,8 @@ backup_data = {
             "type": "Bug",
             "category": "Physical",
             "priority": 0,
-            "e_id": 88
+            "e_id": 88,
+            "multihit": 3
         },
         "Steel Wing": {
             "basePower": 80,

@@ -184,6 +184,12 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 }
                 break;
             case 'Eruption':
+                if (TITLE == "Platinum Kaizo") {
+                    break
+                }
+                basePower = Math.max(1, Math.floor((basePower * attacker.curHP()) / attacker.maxHP()));
+                desc.moveBP = basePower;
+                break;
             case 'Water Spout':
                 basePower = Math.max(1, Math.floor((basePower * attacker.curHP()) / attacker.maxHP()));
                 desc.moveBP = basePower;
@@ -247,10 +253,18 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 basePower = Math.floor((defender.curHP() * 120) / defender.maxHP()) + 1;
                 desc.moveBP = basePower;
                 break;
+            case 'Fury Cutter':
+                if (TITLE == "Platinum Kaizo") {
+                    basePower = (hitCount + 1) * 30;
+                    desc.moveBP = move.hits === 2 ? 90 : move.hits === 3 ? 180 : 30;
+                } else {
+                    break
+                }     
+                break;
             case 'Triple Kick':
                 if (TITLE == "Platinum Kaizo") {
-                    basePower = 40;
-                    desc.moveBP = move.hits === 2 ? 70 : move.hits === 3 ? 120 : 30;
+                    basePower = (hitCount + 1) * 30;
+                    desc.moveBP = move.hits === 2 ? 90 : move.hits === 3 ? 180 : 30;
                 } else {
                     basePower = (hitCount + 1) * 10;
                     desc.moveBP = move.hits === 2 ? 30 : move.hits === 3 ? 60 : 10;
@@ -259,8 +273,8 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 break;
             case 'Rock Wrecker':
             case 'Triple Axel':
-                basePower = 50;
-                desc.moveBP = move.hits === 2 ? 90 : move.hits === 3 ? 150 : 40;
+                basePower = (hitCount + 1) * 40;;
+                desc.moveBP = move.hits === 2 ? 120 : move.hits === 3 ? 240 : 40;
                 break;
             default:
                 basePower = move.bp;
