@@ -1,5 +1,6 @@
 ﻿(function () {
     const BATTLE_LOG_STORAGE_KEY = "battleLogs";
+    const BATTLE_LOG_SOURCE_META_KEY = "battleLogSourceMeta";
     const BATTLE_LOG_SYNC_URL = "http://127.0.0.1:31124/battle_log";
     const BATTLE_LOG_SYNC_MAX_ATTEMPTS = 6;
     const BATTLE_LOG_SYNC_BASE_RETRY_MS = 400;
@@ -133,7 +134,11 @@
         if (data == null) {
             return { source: null, data: null };
         }
-        return { source: `localStorage:${BATTLE_LOG_STORAGE_KEY}`, data };
+        const meta = readLocalStorageJson(BATTLE_LOG_SOURCE_META_KEY);
+        const source = (meta && typeof meta === "object" && meta.label)
+            ? String(meta.label)
+            : `localStorage:${BATTLE_LOG_STORAGE_KEY}`;
+        return { source, data };
     }
 
     function getBattleLogStorageFingerprint() {
@@ -148,6 +153,17 @@
         el.textContent = String(message || "");
         el.style.borderColor = isError ? "#b65b63" : "#68686e";
         el.style.color = isError ? "#ffb6bd" : "#bdbdbd";
+    }
+
+    function setBattleLogSourceMeta(meta) {
+        try {
+            if (!meta) {
+                localStorage.removeItem(BATTLE_LOG_SOURCE_META_KEY);
+                return;
+            }
+            localStorage.setItem(BATTLE_LOG_SOURCE_META_KEY, JSON.stringify(meta));
+        } catch (_err) {
+        }
     }
 
     function delayMs(ms) {
@@ -586,6 +602,11 @@
             }
 
             localStorage.setItem(BATTLE_LOG_STORAGE_KEY, JSON.stringify(payload ?? null));
+            setBattleLogSourceMeta({
+                type: "live_sync",
+                label: "Source: Live Sync",
+                loadedAt: Date.now()
+            });
             setBattleLogUploadStatus(`Synced @ ${new Date().toLocaleTimeString()}`, false);
             renderBattleLogView(true);
         } catch (err) {
@@ -730,6 +751,58 @@
             return normalizeRecords(parsed);
         } catch (e) {
             return { records, parseErrors: [`Invalid JSON: ${e.message}`] };
+        }
+    }
+
+    function extractBattleLogImportPayload(parsed) {
+        if (parsed == null) {
+            throw new Error("Battle log file is empty");
+        }
+
+        if (Array.isArray(parsed)) {
+            return parsed;
+        }
+
+        if (typeof parsed !== "object") {
+            throw new Error("Unsupported battle log file format");
+        }
+
+        if (Array.isArray(parsed.events)) {
+            return { events: parsed.events };
+        }
+
+        if (parsed.battlelog && typeof parsed.battlelog === "object" && Array.isArray(parsed.battlelog.events)) {
+            return { battlelog: parsed.battlelog };
+        }
+
+        throw new Error("JSON file does not contain battlelog.events");
+    }
+
+    async function importBattleLogFromAttemptFile(file) {
+        if (!file) {
+            return;
+        }
+
+        setBattleLogUploadStatus(`Loading ${file.name}...`, false);
+        try {
+            const text = await file.text();
+            if (!text || !text.trim()) {
+                throw new Error("Selected file is empty");
+            }
+            const parsed = JSON.parse(text);
+            const payload = extractBattleLogImportPayload(parsed);
+            localStorage.setItem(BATTLE_LOG_STORAGE_KEY, JSON.stringify(payload));
+            setBattleLogSourceMeta({
+                type: "attempt_file",
+                fileName: file.name,
+                label: `Source: ${file.name}`,
+                loadedAt: Date.now()
+            });
+            setBattleLogUploadStatus(`Loaded ${file.name}`, false);
+            renderBattleLogView(true);
+        } catch (err) {
+            console.error("Failed to import battle log attempt file", err);
+            setBattleLogUploadStatus(`Load failed: ${err && err.message ? err.message : String(err)}`, true);
         }
     }
 
@@ -1329,7 +1402,11 @@
             return;
         }
 
-        let html = `<div class="battle-log-note">${escHtml(filteredSessions.length)} battle(s)${activeBattleLogSplitFilter === "all" ? "" : ` (filtered)`}</div>`;
+        let html = "";
+        if (resolved.source) {
+            html += `<div class="battle-log-note">${escHtml(resolved.source)}</div>`;
+        }
+        html += `<div class="battle-log-note">${escHtml(filteredSessions.length)} battle(s)${activeBattleLogSplitFilter === "all" ? "" : ` (filtered)`}</div>`;
         if (parseErrors.length) {
             html += `<div class="battle-log-note">${escHtml(parseErrors.length)} parse error(s) encountered while parsing battle log JSON.</div>`;
         }
@@ -1424,6 +1501,21 @@
             syncBattleLogBtn.textContent = "Sync";
             syncBattleLogBtn.addEventListener("click", function () {
                 syncBattleLogsFromLuaUpdate();
+            });
+        }
+
+        const battleLogFileInput = document.getElementById("battle-log-file-input");
+        const loadBattleLogFileBtn = document.getElementById("load-battle-log-file");
+        if (loadBattleLogFileBtn && battleLogFileInput) {
+            loadBattleLogFileBtn.addEventListener("click", function () {
+                battleLogFileInput.click();
+            });
+            battleLogFileInput.addEventListener("change", function (event) {
+                const file = event && event.target && event.target.files && event.target.files[0]
+                    ? event.target.files[0]
+                    : null;
+                importBattleLogFromAttemptFile(file);
+                battleLogFileInput.value = "";
             });
         }
 
