@@ -156,6 +156,10 @@ $(".sl .dvs").keyup(function () {
 	calcHP(poke);
 });
 
+$(".ivs, .dvs").bind("keyup change", function () {
+	refreshInferredHiddenPower($(this).closest(".poke-info"));
+});
+
 function getHPDVs(poke) {
 	return (~~poke.find(".at .dvs").val() % 2) * 8 +
 (~~poke.find(".df .dvs").val() % 2) * 4 +
@@ -426,6 +430,39 @@ function autosetStatus(p, item) {
 	}
 }
 
+function shouldInferPlatinumHiddenPower(moveName) {
+	return typeof TITLE === "string" && TITLE.includes("Platinum") && moveName === "Hidden Power";
+}
+
+function getHiddenPowerDetailsFromIVs(pokeObj, moveName) {
+	if (!shouldInferPlatinumHiddenPower(moveName)) {
+		return null;
+	}
+
+	var ivs = {};
+	for (var i = 0; i < LEGACY_STATS[gen].length; i++) {
+		var legacyStat = LEGACY_STATS[gen][i];
+		var stat = legacyStatToStat(legacyStat);
+		ivs[stat] = gen > 2 ?
+			~~pokeObj.find("." + legacyStat + " .ivs").val() :
+			~~pokeObj.find("." + legacyStat + " .dvs").val() * 2 + 1;
+	}
+
+	return calc.Stats.getHiddenPower(GENERATION, ivs, true);
+}
+
+function refreshInferredHiddenPower(pokeObj) {
+	if (typeof TITLE !== "string" || !TITLE.includes("Platinum")) {
+		return;
+	}
+
+	pokeObj.find("select.move-selector").each(function () {
+		if ($(this).val() === "Hidden Power") {
+			showMoveExtras(this);
+		}
+	});
+}
+
 $(".status").bind("keyup change", function () {
 	if ($(this).val() === 'Badly Poisoned') {
 		$(this).parent().children(".toxic-counter").show();
@@ -496,10 +533,15 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 				
 	var m = moveName.match(HIDDEN_POWER_REGEX);
 	var pokeObj = $(moveObj).closest(".poke-info");
+	var inferredHiddenPower = getHiddenPowerDetailsFromIVs(pokeObj, moveName);
 	var pokemon = createPokemon(pokeObj);
 
+	if (inferredHiddenPower) {
+		moveGroupObj.children(".move-bp").val(inferredHiddenPower.power);
+	}
+
 	if (changingSets) {
-		if (m) {
+		if (m && !inferredHiddenPower) {
 			
 
 
@@ -546,7 +588,7 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 		}
 	}	
 	$(moveObj).attr('data-prev', moveName);
-	moveGroupObj.children(".move-type").val(move.type);
+	moveGroupObj.children(".move-type").val(inferredHiddenPower ? inferredHiddenPower.type : move.type);
 	moveGroupObj.children(".move-cat").val(move.category);
 
 	let isCrit = false
@@ -1784,12 +1826,18 @@ function getMoveDetails(moveInfo, species, ability, item, useMax, moveName=false
 		var hits = 1
 		// console.log("limit")
 	} else {
-		var hits = +moveInfo.find(".move-hits").val();
+	var hits = +moveInfo.find(".move-hits").val();
 	}
 	var timesUsed = +moveInfo.find(".stat-drops").val();
 	var timesUsedWithMetronome = moveInfo.find(".metronome").is(':visible') ? +moveInfo.find(".metronome").val() : 1;
+	var inferredHiddenPower = getHiddenPowerDetailsFromIVs(moveInfo.closest(".poke-info"), moveName);
 	
-	if (moveName != moveInfo.find("select.move-selector").val() || moveName.includes("Hidden Power")) {
+	if (inferredHiddenPower) {
+		var overrides = {
+			basePower: inferredHiddenPower.power,
+			type: inferredHiddenPower.type
+		};
+	} else if (moveName != moveInfo.find("select.move-selector").val() || moveName.includes("Hidden Power")) {
 		var overrides = {}
 	} else {
 		var overrides = {
