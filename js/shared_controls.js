@@ -792,8 +792,6 @@ function renderTrainerPreviewPok(next_pok) {
 	}
 
 
-
-
 	if (TITLE.includes("1.3") || TITLE == "Pokemon Null") {
 		pok += next_pok[5]
 	}
@@ -916,6 +914,8 @@ function refresh_next_in() {
 		$('.opposing.trainer-pok-list').removeClass('dual-trainer-preview')
 	}
 	$('.opposing.trainer-pok-list').html(trpok_html)
+
+	// console.log(get_current_in().tr_id)
 
 	if (localStorage.switchInfo == '1') {
 		simplifySwitchScores()
