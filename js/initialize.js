@@ -252,7 +252,7 @@ function setGameSettings(title) {
     settings.critGen = 6;
     showDex = true;
     showAI = false;
-    $('#sync-lua, #desmume-icon').show()
+    $('#sync-lua').show()
     $('label[for="snow"]').show().removeClass('btn-right').addClass('btn-mid')
     $('label[for="hail"]').show()
     $('#maxL').next().remove()
@@ -419,7 +419,7 @@ function setBaseGame(title) {
         if (localStorage.switchInfo == '1') {
           $('.trainer-pok-list.opposing').addClass('ai-show')
         }
-        $('#sync-lua, #desmume-icon').show()
+        $('#sync-lua').show()
     } else if (TITLE.includes("Platinum") ) {
       baseGame = "Pt"
       save_expansion = false

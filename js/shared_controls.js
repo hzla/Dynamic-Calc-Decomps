@@ -644,21 +644,23 @@ function showItemExtras(itemObj) {
 
 	let pokeInfo = $(itemObj).parents('.poke-info')
 	
-
-	if (itemName) {
-		if (itemName.includes("Tera ")) {
-			teraType = pokeInfo.find('.move1 .move-type').val()
-			pokeInfo.find(".type1").val(teraType).css('border', '1px solid #bb86fc')
-			pokeInfo.find('.type2').val("")
-		} else {
-			let pokeName = pokeInfo.find('.select2-chosen').text().split(" (")[0]
-			let oldTypes = pokedex[pokeName].types
-			pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
-			if (oldTypes.length > 1) {
-				pokeInfo.find('.type2').val(oldTypes[1])
+	if (TITLE.includes("Cascade")) {
+		if (itemName) {
+			if (itemName.includes("Tera ")) {
+				teraType = pokeInfo.find('.move1 .move-type').val()
+				pokeInfo.find(".type1").val(teraType).css('border', '1px solid #bb86fc')
+				pokeInfo.find('.type2').val("")
+			} else {
+				let pokeName = pokeInfo.find('.select2-chosen').text().split(" (")[0]
+				let oldTypes = pokedex[pokeName].types
+				pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
+				if (oldTypes.length > 1) {
+					pokeInfo.find('.type2').val(oldTypes[1])
+				}
 			}
 		}
 	}
+	
 	
 }
 
