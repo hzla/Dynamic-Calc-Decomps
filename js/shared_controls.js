@@ -397,39 +397,6 @@ function autosetTerrain(ability, i) {
 	}
 }
 
-$("#p1 .item").bind("keyup change", function () {
-	autosetStatus("#p1", $(this).val());
-});
-
-var lastManualStatus = {"#p1": "Healthy"};
-var lastAutoStatus = {"#p1": "Healthy"};
-function autosetStatus(p, item) {
-	var currentStatus = $(p + " .status").val();
-	if (currentStatus !== lastAutoStatus[p]) {
-		lastManualStatus[p] = currentStatus;
-	}
-	if (p == "#p2") {
-		var ability = $('#abilityR1').val()
-	} else {
-		var ability = $('#abilityL1').val()
-	}
-	if (item === "Flame Orb" && ability != "Water Veil") {
-		lastAutoStatus[p] = "Burned";
-		$(p + " .status").val("Burned");
-		$(p + " .status").change();
-	} else if (item === "Toxic Orb") {
-		lastAutoStatus[p] = "Badly Poisoned";
-		$(p + " .status").val("Badly Poisoned");
-		$(p + " .status").change();
-	} else {
-		lastAutoStatus[p] = "Healthy";
-		if (currentStatus !== lastManualStatus[p]) {
-			$(p + " .status").val(lastManualStatus[p]);
-			$(p + " .status").change();
-		}
-	}
-}
-
 function shouldInferPlatinumHiddenPower(moveName) {
 	return typeof TITLE === "string" && TITLE.includes("Platinum") && moveName === "Hidden Power";
 }
@@ -664,6 +631,8 @@ $(".move-selector").change(function () {
 });
 
 
+var lastItem = {p1: "(none)", p2: "(none)"};
+
 function showItemExtras(itemObj) {
 	var itemName = $(itemObj).val();
 	var $metronomeControl = $(itemObj).closest('.poke-info').find('.metronome');
@@ -693,8 +662,51 @@ function showItemExtras(itemObj) {
 	
 }
 
+function syncItemState(itemObj) {
+	var $itemObj = $(itemObj);
+	var pokeObj = $itemObj.closest('.poke-info');
+	if (!pokeObj.length) {
+		return;
+	}
+
+	var itemName = $itemObj.val();
+	showItemExtras(itemObj);
+
+	if (itemName === "Flame Orb" && pokeObj.find(".ability").val() !== "Water Veil") {
+		pokeObj.find(".status").val("Burned");
+		pokeObj.find(".status").change();
+	} else if (itemName === "Toxic Orb") {
+		pokeObj.find(".status").val("Badly Poisoned");
+		pokeObj.find(".status").change();
+	} else if (
+		(lastItem[pokeObj.attr('id')] === "Flame Orb" && pokeObj.find(".status").val() === "Burned") ||
+		(lastItem[pokeObj.attr('id')] === "Toxic Orb" && pokeObj.find(".status").val() === "Badly Poisoned")
+	) {
+		pokeObj.find(".status").val("Healthy");
+		pokeObj.find(".status").change();
+	}
+
+	for (var i = 1; i <= 4; i++) {
+		var moveSelector = ".move" + i;
+		var moveHits = 3;
+		var moveName = pokeObj.find(moveSelector).find(".select2-chosen").text();
+		var move = moves[moveName] || moves['(No Move)'];
+		if (move.multiaccuracy) {
+			moveHits = move.multihit;
+		} else if (pokeObj.find(".ability").val() === 'Skill Link') {
+			moveHits = 5;
+		} else if (itemName === 'Loaded Dice') {
+			moveHits = 4;
+		}
+		pokeObj.find(moveSelector).find(".move-hits").val(moveHits);
+	}
+
+	autosetQP(pokeObj);
+	lastItem[pokeObj.attr('id')] = itemName;
+}
+
 $(".item").change(function () {
-	showItemExtras(this)
+	syncItemState(this);
 });
 
 function smogonAnalysis(pokemonName) {
@@ -1390,7 +1402,6 @@ $(".set-selector").change(function () {
 		calcStats(pokeObj);
 		showAbilityExtras(abilityObj);
 		abilityObj.trigger('recalc')
-		showItemExtras();
 		if (pokemon.gender === "N") {
 			pokeObj.find(".gender").parent().hide();
 			pokeObj.find(".gender").val("");
@@ -1401,6 +1412,7 @@ $(".set-selector").change(function () {
 		} else {
 			pokeObj.find(".status").val("Healthy")//.change();
 		}
+		syncItemState(itemObj);
 
 		if (typeof setdex[pokemonName] != "undefined" && typeof setdex[pokemonName][setName] != "undefined") {
 			var setGender = getGender(setdex[pokemonName][setName]["gender"]);
@@ -1565,7 +1577,7 @@ $(".forme").change(function () {
 	container.find(".ability").keyup();
 
 	if ($(this).val().indexOf("-Mega") !== -1 && $(this).val() !== "Rayquaza-Mega") {
-		container.find(".item").val("").keyup();
+		container.find(".item").val("").change();
 	} else {
 		container.find(".item").prop("disabled", false);
 	}
