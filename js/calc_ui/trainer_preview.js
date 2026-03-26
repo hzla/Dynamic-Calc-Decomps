@@ -57,6 +57,38 @@ function get_trainer_name(set_name) {
     return trainer_name.replace(/\)\[\d+\]$/, "").replace(/\s?\)$/, "").replace(/\s$/, "")
 }
 
+function maybeRenderTeamVariations(tr_id) {
+    
+    $('#alt-team-bar').hide()
+
+    let altTeamHtml = ""
+
+    if (typeof rivalVariations != "undefined" && rivalVariations[tr_id]){
+        if (rivalVariations[tr_id].length == 3) {
+            altTeamHtml += `<div class="rival alt-team ${rivalVariations[tr_id][0] == tr_id ? "curr" : ""}" data-next="${rivalVariations[tr_id][0]}">${starters[0]}</div>`
+            altTeamHtml += `<div class="rival alt-team ${rivalVariations[tr_id][1] == tr_id ? "curr" : ""}" data-next="${rivalVariations[tr_id][1]}">${starters[1]}</div>`
+            altTeamHtml += `<div class="rival alt-team ${rivalVariations[tr_id][2] == tr_id ? "curr" : ""}" data-next="${rivalVariations[tr_id][2]}">${starters[2]}</div>`
+        } else if (rivalVariations[tr_id].length == 6) {
+            altTeamHtml += `<div class="rival alt-team ${rivalVariations[tr_id][0] == tr_id ? "curr" : ""}" data-next="${rivalVariations[tr_id][0]}">Dawn ${starters[0]}</div>`
+            altTeamHtml += `<div class="rival alt-team ${rivalVariations[tr_id][1] == tr_id ? "curr" : ""}" data-next="${rivalVariations[tr_id][1]}">Dawn ${starters[1]}</div>`
+            altTeamHtml += `<div class="rival alt-team ${rivalVariations[tr_id][2] == tr_id ? "curr" : ""}" data-next="${rivalVariations[tr_id][2]}">Dawn ${starters[2]}</div>`
+            altTeamHtml += `<div class="rival alt-team ${rivalVariations[tr_id][3] == tr_id ? "curr" : ""}" data-next="${rivalVariations[tr_id][3]}">Lucas ${starters[0]}</div>`
+            altTeamHtml += `<div class="rival alt-team ${rivalVariations[tr_id][4] == tr_id ? "curr" : ""}" data-next="${rivalVariations[tr_id][4]}">Lucas ${starters[1]}</div>`
+            altTeamHtml += `<div class="rival alt-team ${rivalVariations[tr_id][5] == tr_id ? "curr" : ""}" data-next="${rivalVariations[tr_id][5]}">Lucas ${starters[2]}</div>`
+        }
+        $('#alt-team-bar').html(altTeamHtml).show()
+    }
+
+    if (typeof teamVariations != "undefined" && teamVariations[tr_id]){
+        console.log(`Alt teams: ${teamVariations[tr_id]}`)
+
+        for (let teamIdx in teamVariations[tr_id]) {
+            altTeamHtml += `<div class="alt-team ${teamVariations[tr_id][teamIdx] == tr_id ? "curr" : ""}" data-next="${teamVariations[tr_id][teamIdx]}">Team ${parseInt(teamIdx) + 1}</div>`
+        }
+        $('#alt-team-bar').html(altTeamHtml).show()
+    }
+}
+
 function get_partner_name_from_tr_id(tr_id) {
     if (!tr_id || !customLeads || !customLeads[tr_id]) {
         return null

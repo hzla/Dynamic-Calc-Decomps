@@ -102,7 +102,7 @@ $(document).ready(function() {
         $(this).prev().click()
    })
    
-   $(document).on('click', '.nav-tag', function() {
+   $(document).on('click', '.nav-tag, .alt-team', function() {
         var set = ""
         const nextIdRaw = $(this).attr('data-next')
         const nextId = parseInt(nextIdRaw, 10)
@@ -117,7 +117,6 @@ $(document).ready(function() {
             5007: "Ponyta (Lvl 28 Root Academy Trainer #4 Slot3 |Root Academy|)"
         }
 
-        console.log(nextId)
         if (TITLE === "Pokemon Null" && !Number.isNaN(nextId) && pokemonNullOrderReroutes[nextId]) {
             set = pokemonNullOrderReroutes[nextId]
         }

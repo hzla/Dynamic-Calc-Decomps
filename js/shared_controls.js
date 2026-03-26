@@ -793,6 +793,7 @@ function renderTrainerPreviewPok(next_pok) {
 
 
 
+
 	if (TITLE.includes("1.3") || TITLE == "Pokemon Null") {
 		pok += next_pok[5]
 	}
@@ -1067,8 +1068,12 @@ $(".set-selector").change(function () {
 					let prev = null
 
 					if (npoint_data.order[setdex[pokemonName][setName]["tr_id"]]) {
-						next = npoint_data.order[setdex[pokemonName][setName]["tr_id"]].next
-						prev = npoint_data.order[setdex[pokemonName][setName]["tr_id"]].prev
+
+						let tr_id = setdex[pokemonName][setName]["tr_id"]
+						next = npoint_data.order[tr_id].next
+						prev = npoint_data.order[tr_id].prev
+
+						maybeRenderTeamVariations(tr_id)
 					}
 
 					if (npoint_data.order[setdex[pokemonName][setName]["synthId"]]) {

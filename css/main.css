@@ -839,6 +839,31 @@ html, body {
     width:  auto;
 }
 
+#alt-team-bar {
+    margin-top: 40px;
+    margin-left: 10px;
+    display: flex;
+    border-top: 1px solid rgb(118,118,118);
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.alt-team {
+    cursor: pointer; 
+    text-align: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 4px 0px;
+    width: 85px;
+}
+
+.alt-team:hover, .alt-team.curr {
+    border: 1px solid #bb86fc;;
+}
+
+.rival.alt-team {
+    width: 33.33%;
+}
 
 #dynamic-type-bug {
     display: flex;

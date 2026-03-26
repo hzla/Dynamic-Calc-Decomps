@@ -7984,7 +7984,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 74 Elite Four Lucian |Oreburgh Gate| ":
+            "Lvl 74 Elite Four Lucian ":
             {
                 "level": 74,
                 "tr_id": 264,
@@ -8176,7 +8176,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 86 Elite Four Lucian ":
+            "Lvl 86 Elite Four Lucian Rematch ":
             {
                 "level": 86,
                 "tr_id": 869,
@@ -35337,7 +35337,7 @@ backup_data = {
                 "spriteId": 10,
                 "orientation": 2
             },
-            "Lvl 77 Champion Cynthia |Snowpoint City| ":
+            "Lvl 77 Champion Cynthia ":
             {
                 "level": 77,
                 "tr_id": 267,
@@ -35497,7 +35497,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 88 Champion Cynthia ":
+            "Lvl 88 Champion Cynthia Rematch ":
             {
                 "level": 88,
                 "tr_id": 870,
@@ -43343,7 +43343,7 @@ backup_data = {
                 "spriteId": 67,
                 "orientation": 0
             },
-            "Lvl 74 Elite Four Lucian |Oreburgh Gate| ":
+            "Lvl 74 Elite Four Lucian ":
             {
                 "level": 74,
                 "tr_id": 264,
@@ -43535,7 +43535,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 86 Elite Four Lucian ":
+            "Lvl 86 Elite Four Lucian Rematch ":
             {
                 "level": 86,
                 "tr_id": 869,
@@ -50615,7 +50615,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 77 Champion Cynthia |Snowpoint City| ":
+            "Lvl 77 Champion Cynthia ":
             {
                 "level": 77,
                 "tr_id": 267,
@@ -50807,7 +50807,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 88 Champion Cynthia ":
+            "Lvl 88 Champion Cynthia Rematch ":
             {
                 "level": 88,
                 "tr_id": 870,
@@ -65690,7 +65690,7 @@ backup_data = {
                 "spriteId": 68,
                 "orientation": 2
             },
-            "Lvl 74 Elite Four Lucian |Oreburgh Gate| ":
+            "Lvl 74 Elite Four Lucian ":
             {
                 "level": 74,
                 "tr_id": 264,
@@ -65754,7 +65754,7 @@ backup_data = {
                 "spriteId": 18,
                 "orientation": 0
             },
-            "Lvl 86 Elite Four Lucian ":
+            "Lvl 86 Elite Four Lucian Rematch ":
             {
                 "level": 86,
                 "tr_id": 869,
@@ -67166,7 +67166,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 74 Elite Four Lucian |Oreburgh Gate| ":
+            "Lvl 74 Elite Four Lucian ":
             {
                 "level": 74,
                 "tr_id": 264,
@@ -72576,7 +72576,7 @@ backup_data = {
         },
         "Alakazam":
         {
-            "Lvl 74 Elite Four Lucian |Oreburgh Gate| ":
+            "Lvl 74 Elite Four Lucian ":
             {
                 "level": 74,
                 "tr_id": 264,
@@ -72928,7 +72928,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 86 Elite Four Lucian ":
+            "Lvl 86 Elite Four Lucian Rematch ":
             {
                 "level": 86,
                 "tr_id": 869,
@@ -73987,7 +73987,7 @@ backup_data = {
         },
         "Gallade":
         {
-            "Lvl 75 Elite Four Lucian |Oreburgh Gate| ":
+            "Lvl 75 Elite Four Lucian ":
             {
                 "level": 75,
                 "tr_id": 264,
@@ -74179,7 +74179,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 86 Elite Four Lucian ":
+            "Lvl 86 Elite Four Lucian Rematch ":
             {
                 "level": 86,
                 "tr_id": 869,
@@ -74604,7 +74604,7 @@ backup_data = {
         },
         "Spiritomb":
         {
-            "Lvl 77 Champion Cynthia |Snowpoint City| ":
+            "Lvl 77 Champion Cynthia ":
             {
                 "level": 77,
                 "tr_id": 267,
@@ -74700,7 +74700,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 88 Champion Cynthia ":
+            "Lvl 88 Champion Cynthia Rematch ":
             {
                 "level": 88,
                 "tr_id": 870,
@@ -74831,7 +74831,7 @@ backup_data = {
         },
         "Roserade":
         {
-            "Lvl 77 Champion Cynthia |Snowpoint City| ":
+            "Lvl 77 Champion Cynthia ":
             {
                 "level": 77,
                 "tr_id": 267,
@@ -75218,7 +75218,7 @@ backup_data = {
         },
         "Togekiss":
         {
-            "Lvl 77 Champion Cynthia |Snowpoint City| ":
+            "Lvl 77 Champion Cynthia ":
             {
                 "level": 77,
                 "tr_id": 267,
@@ -75410,7 +75410,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 88 Champion Cynthia ":
+            "Lvl 88 Champion Cynthia Rematch ":
             {
                 "level": 88,
                 "tr_id": 870,
@@ -75573,7 +75573,7 @@ backup_data = {
         },
         "Garchomp":
         {
-            "Lvl 78 Champion Cynthia |Snowpoint City| ":
+            "Lvl 78 Champion Cynthia ":
             {
                 "level": 78,
                 "tr_id": 267,
@@ -75701,7 +75701,7 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 88 Champion Cynthia ":
+            "Lvl 88 Champion Cynthia Rematch ":
             {
                 "level": 88,
                 "tr_id": 870,
@@ -91209,7 +91209,7 @@ backup_data = {
         },
         "Latios":
         {
-            "Lvl 87 Elite Four Lucian ":
+            "Lvl 87 Elite Four Lucian Rematch ":
             {
                 "level": 87,
                 "tr_id": 869,
@@ -91244,7 +91244,7 @@ backup_data = {
         },
         "Rayquaza":
         {
-            "Lvl 89 Champion Cynthia ":
+            "Lvl 89 Champion Cynthia Rematch ":
             {
                 "level": 89,
                 "tr_id": 870,
