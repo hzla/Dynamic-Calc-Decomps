@@ -40,6 +40,59 @@ function g5CalcTrainerPreviewExpYield(player, opposingName, opposingLevel) {
     return expYield
 }
 
+function g5GetMatchupTypes(type1, type2) {
+    var matchupTypes = []
+
+    if (type1 && type1 !== "None") {
+        matchupTypes.push(type1)
+    }
+
+    if (type2 && type2 !== "None" && type2 !== type1) {
+        matchupTypes.push(type2)
+    }
+
+    return matchupTypes
+}
+
+function g5GetCascadePreviewTypes(pokemon, fallbackTypes) {
+    if (pokemon.item && pokemon.item.startsWith("Tera ") && pokemon.moves[0] && pokemon.moves[0].type) {
+        return [pokemon.moves[0].type]
+    }
+
+    return g5GetMatchupTypes(fallbackTypes[0], fallbackTypes[1])
+}
+
+function g5ApplyCascadeMatchupBpMod(bp, targetTypes, switchInTypes) {
+    if (!bp || !targetTypes.length || !switchInTypes.length) {
+        return bp
+    }
+
+    var defensiveTypeInfo = get_type_info(switchInTypes)
+    var typeEffectiveness = []
+
+    for (var i = 0; i < targetTypes.length; i++) {
+        typeEffectiveness.push(defensiveTypeInfo[targetTypes[i]] || 1)
+    }
+
+    if (typeEffectiveness.some(function(effectiveness) { return effectiveness >= 4; })) {
+        return Math.floor(bp / 2)
+    }
+
+    if (typeEffectiveness.some(function(effectiveness) { return effectiveness >= 2; })) {
+        return Math.floor((bp * 3) / 4)
+    }
+
+    if (typeEffectiveness.every(function(effectiveness) { return effectiveness <= 0.25; })) {
+        return bp + Math.floor(bp / 2)
+    }
+
+    if (typeEffectiveness.every(function(effectiveness) { return effectiveness <= 0.5; })) {
+        return bp + Math.floor(bp / 4)
+    }
+
+    return bp
+}
+
 function get_next_in_g5() {  
     
     var trainer_poks = CURRENT_TRAINER_POKS
@@ -65,6 +118,7 @@ function get_next_in_g5() {
     var ranked_trainer_poks = []
 
     var player = createPokemon($('#p1'))
+    var playerMatchupTypes = g5GetCascadePreviewTypes(player, [player_type1, player_type2])
     var playerIgnoresAbilities = player.hasAbility("Mold Breaker", "Teravolt", "Turboblaze" ,"Neutralizing Gas") || player.hasItem("Tera Drill", "Ability Drill")
 
 
@@ -76,16 +130,13 @@ function get_next_in_g5() {
         var sub_index = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", "")
         var types = pokedex[pok_name].types
 
-        
-
-
-
         var pok_data = SETDEX_BW[pok_name][tr_name]
 
         var opposing = createPokemon(`${pok_name} (${tr_name})`)
         var expYield = g5CalcTrainerPreviewExpYield(player, pok_name, opposing.level)
         var isFaster = opposing.stats.spe >= player.stats.spe
         var opposingIgnoresAbilities = opposing.hasAbility("Mold Breaker", "Teravolt", "Turboblaze" ,"Neutralizing Gas") || opposing.hasItem("Tera Drill", "Ability Drill")
+        var switchInTypes = g5GetCascadePreviewTypes(opposing, types)
 
 
         for (let move of opposing.moves) {
@@ -101,8 +152,6 @@ function get_next_in_g5() {
 
                        
             if (TITLE.includes("Cascade")) {
-
-                
                 // Type change modifiers
                 var isAerilate = false;
                 var isPixilate = false;
@@ -280,6 +329,9 @@ function get_next_in_g5() {
             }
 
             var bp = moveBp * type_info[move.type]
+            if (settings.customCascadeSwitchAI) {
+                bp = g5ApplyCascadeMatchupBpMod(bp, playerMatchupTypes, switchInTypes)
+            }
 
             if (bp > strongest_move_bp) {
                 strongest_move_bp = bp
