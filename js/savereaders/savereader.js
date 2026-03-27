@@ -766,7 +766,14 @@ function parsePKM(chunk, is_party=false, offset=0) {
 
     var mon_name = sav_pok_names[decryptedData[mon_data_offset]]
 
-    mon_name = SPECIES_BY_ID[gen][cleanString(mon_name)].name
+    try {
+       mon_name = SPECIES_BY_ID[gen][cleanString(mon_name)].name 
+   } catch {
+        console.log(`failed to parse species id: ${decryptedData[mon_data_offset]}`)
+        return ""
+   }
+
+    
 
     if (typeof mon_name == "undefined" && decryptedData[mon_data_offset] == 83) {
         mon_name = "Farfetch’d"
