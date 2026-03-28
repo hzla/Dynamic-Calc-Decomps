@@ -503,6 +503,8 @@ function get_next_in() {
     let player_results_list = []
     let ai_results_list = []
 
+    var expYield = 0
+
     for (let subIndex in trainer_poks) {
         analysis = ""
 
@@ -511,6 +513,9 @@ function get_next_in() {
         currentlyCalcingAgainst = trainer_poks[subIndex].slice(0,-3)
 
         let isCurrent = currentp2.name == p2.name
+
+
+        expYield = Math.floor(Math.floor(expYields[cleanString(p2.name)] * p2.level / 7) * 1.5);
 
 
 
@@ -711,7 +716,8 @@ function get_next_in() {
 
         }
 
-        ranked_trainer_poks.push([trainer_poks[subIndex], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup])
+
+        ranked_trainer_poks.push([trainer_poks[subIndex], switchInScore, matchup.move, sub_index, pok_data["moves"], analysis, matchup,null,expYield])
     }
 
     
