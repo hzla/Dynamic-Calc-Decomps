@@ -1,0 +1,620 @@
+================
+
+Aeroblast
+
+Old ID: 43
+New ID: 36
+Old Effect: High crit ratio (43)
+New Effect: Chance of either Paralyzing; Burning; or Freezing target (36)
+
+================
+
+Attack Order
+
+Old ID: 43
+New ID: 2
+Old Effect: High crit ratio (43)
+New Effect: Chance to Poison (2)
+
+================
+
+Aurora Beam
+
+Old ID: 68
+New ID: 17
+Old Effect: Lowers Atk (68)
+New Effect: Always hits (17)
+
+================
+
+Avalanche
+
+Old ID: 185
+New ID: 274
+Old Effect: 2x power if the user has been hit this turn (185)
+New Effect: Chance of causing Freeze; chance of causing Flinch (274)
+
+================
+
+Bide
+
+Old ID: 26
+New ID: 227
+Old Effect: Bide effect (26)
+New Effect: Damage= 1.5x damage dealt by the target's last attack (227)
+
+================
+
+Blast Burn
+
+Old ID: 80
+New ID: 253
+Old Effect: Recharge turn (80)
+New Effect: Chance of causing Burn; 1/3 damage dealt recoil (253)
+
+================
+
+Bounce
+
+Old ID: 263
+New ID: 6
+Old Effect: Bounce effect (263)
+New Effect: Chance to Paralyze (6)
+
+================
+
+Brave Bird
+
+Old ID: 198
+New ID: 182
+Old Effect: 1/3 damage dealt recoil (198)
+New Effect: Lowers user's Atk and Def (182)
+
+================
+
+Bulldoze
+
+Old ID: 42
+New ID: 70
+Old Effect: Binding move effect (42)
+New Effect: Lowers Spd (70)
+
+================
+
+Clamp
+
+Old ID: 42
+New ID: 261
+Old Effect: Binding move effect (42)
+New Effect: Whirlpool effect (261)
+
+================
+
+Close Combat
+
+Old ID: 229
+New ID: 182
+Old Effect: Lowers user's Def and SpDef (229)
+New Effect: Lowers user's Atk and Def (182)
+
+================
+
+Crush Grip
+
+Old ID: 237
+New ID: 261
+Old Effect: Power = Base power + 120 x (Target's Current HP / Target's Maximum HP) (237)
+New Effect: Whirlpool effect (261)
+
+================
+
+Dig
+
+Old ID: 256
+New ID: 0
+Old Effect: Dig effect (256)
+New Effect: None (0)
+
+================
+
+Dive
+
+Old ID: 255
+New ID: 0
+Old Effect: Dive effect (255)
+New Effect: None (0)
+
+================
+
+Double Slap
+
+Old ID: 29
+New ID: 44
+Old Effect: Hits target multiple times (29)
+New Effect: Hits twice (44)
+
+================
+
+Draco Meteor
+
+Old ID: 204
+New ID: 48
+Old Effect: Lowers user's SpAtk harshly (204)
+New Effect: Recoil% damage dealt to self (48)
+
+================
+
+Dragon Claw
+
+Old ID: 0
+New ID: 43
+Old Effect: None (0)
+New Effect: High crit ratio (43)
+
+================
+
+Dragon Pulse
+
+Old ID: 0
+New ID: 17
+Old Effect: None (0)
+New Effect: Always hits (17)
+
+================
+
+Drill Peck
+
+Old ID: 0
+New ID: 43
+Old Effect: None (0)
+New Effect: High crit ratio (43)
+
+================
+
+Drill Run
+
+Old ID: 38
+New ID: 43
+Old Effect: OHKO (38)
+New Effect: High crit ratio (43)
+
+================
+
+Eruption
+
+Old ID: 190
+New ID: 253
+Old Effect: Power= Base power x(user's current HP/ user's max HP) (190)
+New Effect: Chance of causing Burn; 1/3 damage dealt recoil (253)
+
+================
+
+Extreme Speed
+
+Old ID: 103
+New ID: 0
+Old Effect: + Priority (103)
+New Effect: None (0)
+
+================
+
+Fake Tears
+
+Old ID: 62
+New ID: 60
+Old Effect: Sharply lowers SpDef (62)
+New Effect: Sharply lowers Spd (60)
+
+================
+
+Fire Spin
+
+Old ID: 42
+New ID: 261
+Old Effect: Binding move effect (42)
+New Effect: Whirlpool effect (261)
+
+================
+
+Frenzy Plant
+
+Old ID: 80
+New ID: 262
+Old Effect: Recharge turn (80)
+New Effect: 1/3 damage dealt recoil (262)
+
+================
+
+Frustration
+
+Old ID: 123
+New ID: 0
+Old Effect: Frustration effect (123)
+New Effect: None (0)
+
+================
+
+Fury Cutter
+
+Old ID: 119
+New ID: 88
+Old Effect: 2x power for every consecutive hit (119)
+New Effect: Deals up to user's level x1.5 damage (88)
+
+================
+
+Giga Impact
+
+Old ID: 80
+New ID: 48
+Old Effect: Recharge turn (80)
+New Effect: Recoil% damage dealt to self (48)
+
+================
+
+Heart Swap
+
+Old ID: 250
+New ID: 3
+Old Effect: Swaps the user's stat changes with the target's (250)
+New Effect: Damages target; heals user up to 50% of damage dealt (3)
+
+================
+
+Hurricane
+
+Old ID: 146
+New ID: 141
+Old Effect: Twister effect (146)
+New Effect: 141 (141)
+
+================
+
+Hydro Cannon
+
+Old ID: 80
+New ID: 198
+Old Effect: Recharge turn (80)
+New Effect: 1/3 damage dealt recoil (198)
+
+================
+
+Hyper Beam
+
+Old ID: 80
+New ID: 48
+Old Effect: Recharge turn (80)
+New Effect: Recoil% damage dealt to self (48)
+
+================
+
+Ice Ball
+
+Old ID: 117
+New ID: 260
+Old Effect: Rollout effect (117)
+New Effect: Always hits in Hail (260)
+
+================
+
+Kinesis
+
+Old ID: 23
+New ID: 62
+Old Effect: Lowers Accuracy (23)
+New Effect: Sharply lowers SpDef (62)
+
+================
+
+Leaf Storm
+
+Old ID: 204
+New ID: 0
+Old Effect: Lowers user's SpAtk harshly (204)
+New Effect: None (0)
+
+================
+
+Magma Storm
+
+Old ID: 42
+New ID: 261
+Old Effect: Binding move effect (42)
+New Effect: Whirlpool effect (261)
+
+================
+
+Megahorn
+
+Old ID: 0
+New ID: 43
+Old Effect: None (0)
+New Effect: High crit ratio (43)
+
+================
+
+Memento
+
+Old ID: 168
+New ID: 7
+Old Effect: User faints and target's Atk and SpAtk are lowered sharply (168)
+New Effect: Selfdestruct/ Explosion effect (7)
+
+================
+
+Metal Sound
+
+Old ID: 62
+New ID: 60
+Old Effect: Sharply lowers SpDef (62)
+New Effect: Sharply lowers Spd (60)
+
+================
+
+Needle Arm
+
+Old ID: 31
+New ID: 0
+Old Effect: Chance to Flinch (31)
+New Effect: None (0)
+
+================
+
+Outrage
+
+Old ID: 27
+New ID: 269
+Old Effect: Locked into move for 2-3 turns; confuses user after (27)
+New Effect: 1/2 damage dealt recoil (269)
+
+================
+
+Overheat
+
+Old ID: 204
+New ID: 253
+Old Effect: Lowers user's SpAtk harshly (204)
+New Effect: Chance of causing Burn; 1/3 damage dealt recoil (253)
+
+================
+
+Petal Dance
+
+Old ID: 27
+New ID: 76
+Old Effect: Locked into move for 2-3 turns; confuses user after (27)
+New Effect: Chance to Confuse (76)
+
+================
+
+Poison Gas
+
+Old ID: 66
+New ID: 33
+Old Effect: Guaranteed Poison (66)
+New Effect: Badly Poisons (33)
+
+================
+
+Power Whip
+
+Old ID: 0
+New ID: 43
+Old Effect: None (0)
+New Effect: High crit ratio (43)
+
+================
+
+Psycho Boost
+
+Old ID: 204
+New ID: 0
+Old Effect: Lowers user's SpAtk harshly (204)
+New Effect: None (0)
+
+================
+
+Rage
+
+Old ID: 81
+New ID: 128
+Old Effect: Locked into move; raises Atk whenever hit (81)
+New Effect: Pursuit effect (128)
+
+================
+
+Return
+
+Old ID: 121
+New ID: 0
+Old Effect: Return effect (121)
+New Effect: None (0)
+
+================
+
+Revenge
+
+Old ID: 185
+New ID: 230
+Old Effect: 2x power if the user has been hit this turn (185)
+New Effect: 2x Power if user moves after target (230)
+
+================
+
+Rock Wrecker
+
+Old ID: 80
+New ID: 104
+Old Effect: Recharge turn (80)
+New Effect: Hits the target up to 3 times; increases power by 10 with each hit (104)
+
+================
+
+Rollout
+
+Old ID: 117
+New ID: 0
+Old Effect: Rollout effect (117)
+New Effect: None (0)
+
+================
+
+Scald
+
+Old ID: 221
+New ID: 125
+Old Effect: 2x power if target is at or below 1/2 HP (221)
+New Effect: Thaws user; chance to Burn (125)
+
+================
+
+Shadow Claw
+
+Old ID: 43
+New ID: 29
+Old Effect: High crit ratio (43)
+New Effect: Hits target multiple times (29)
+
+================
+
+Sheer Cold
+
+Old ID: 38
+New ID: 260
+Old Effect: OHKO (38)
+New Effect: Always hits in Hail (260)
+
+================
+
+Sky Attack
+
+Old ID: 75
+New ID: 262
+Old Effect: Attacks next turn; chance of flinch; increased crit ratio (75)
+New Effect: 1/3 damage dealt recoil (262)
+
+================
+
+Sky Uppercut
+
+Old ID: 207
+New ID: 149
+Old Effect: Can hit Pokemon during semi-invulnerable turns of Fly/Bounce (207)
+New Effect: 2x Damage on Pokemon using Bounce/Fly (149)
+
+================
+
+Slam
+
+Old ID: 0
+New ID: 6
+Old Effect: None (0)
+New Effect: Chance to Paralyze (6)
+
+================
+
+Stockpile
+
+Old ID: 160
+New ID: 206
+Old Effect: Stockpile effect (160)
+New Effect: Raises user's Def and SpDef (206)
+
+================
+
+Sucker Punch
+
+Old ID: 248
+New ID: 0
+Old Effect: Fails if the target did not select a damaging move or has already moved (248)
+New Effect: None (0)
+
+================
+
+Superpower
+
+Old ID: 182
+New ID: 48
+Old Effect: Lowers user's Atk and Def (182)
+New Effect: Recoil% damage dealt to self (48)
+
+================
+
+Swallow
+
+Old ID: 162
+New ID: 261
+Old Effect: Swallow effect (162)
+New Effect: Whirlpool effect (261)
+
+================
+
+Teeter Dance
+
+Old ID: 199
+New ID: 49
+Old Effect: Guaranteed Confusion (199)
+New Effect: Guaranteed Confusion (49)
+
+================
+
+Thief
+
+Old ID: 105
+New ID: 85
+Old Effect: Steals target's held item (105)
+New Effect: Splash effect (85)
+
+================
+
+Thrash
+
+Old ID: 27
+New ID: 262
+Old Effect: Locked into move for 2-3 turns; confuses user after (27)
+New Effect: 1/3 damage dealt recoil (262)
+
+================
+
+Vital Throw
+
+Old ID: 78
+New ID: 17
+Old Effect: Vital Throw effect (78)
+New Effect: Always hits (17)
+
+================
+
+Wrap
+
+Old ID: 42
+New ID: 261
+Old Effect: Binding move effect (42)
+New Effect: Whirlpool effect (261)
+
+================
+
+Wring Out
+
+Old ID: 237
+New ID: 221
+Old Effect: Power = Base power + 120 x (Target's Current HP / Target's Maximum HP) (237)
+New Effect: 2x power if target is at or below 1/2 HP (221)
+
+================
+
+X-Scissor
+
+Old ID: 0
+New ID: 43
+Old Effect: None (0)
+New Effect: High crit ratio (43)
+
+================
+
+Yawn
+
+Old ID: 187
+New ID: 1
+Old Effect: Yawn effect (187)
+New Effect: Causes Sleep (1)

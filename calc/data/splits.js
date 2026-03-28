@@ -59,6 +59,16 @@ splitData = {
 		"titles": ["Roark", "Gardenia", "Fantina", "Maylene", "Wake", "Byron", "Candice", "Volkner", "Elite 4"],
 		"types": ["rock", "grass", "ghost", "fighting", "water", "steel", "ice", "electric"]
 	},
+	"Platinum": {
+		"lvls": [14, 22, 26, 32, 37, 41, 44, 50, 59],
+		"titles": ["Roark", "Gardenia", "Fantina", "Maylene", "Wake", "Byron", "Candice", "Volkner", "Elite 4"],
+		"types": ["rock", "grass", "ghost", "fighting", "water", "steel", "ice", "electric"]
+	},
+	"Platinum Kaizo": {
+		"lvls": [16, 28, 38, 47, 54, 65, 73, 84, 100],
+		"titles": ["Roark", "Gardenia", "Fantina", "Maylene", "Wake", "Byron", "Candice", "Volkner", "Elite 4"],
+		"types": ["rock", "grass", "ghost", "fighting", "water", "steel", "ice", "electric"]
+	},
 	"Rising Ruby/Sinking Saphire": {
 		"lvls": [16, 19, 28, 38, 42, 50, 62, 67, 79],
 		"titles": ["Roxanne", "Brawly", "Wattson", "Flannery", "Norman", "Winona", "Tate&Liza", "Wallace", "Elite 4"],

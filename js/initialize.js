@@ -104,6 +104,7 @@ SOURCES = {
   "f109940e5639c3702e6d": "Rising Ruby/Sinking Saphire",
   "00734d33040067eb7e9f": "Grand Colloseum 2.0",
   "ek": "Emerald Kaizo",
+  "pt": "Platinum",
   "13fc25a3b19071978dd6": "Platinum",
   "be0a4fedbe0ff31e47b0": "Heart Gold/Soul Silver",
   "78381c312866ee2e6ff9": "Black/White",
@@ -227,8 +228,7 @@ function setGameSettings(title) {
     showDex = true;
     showAI = true;
     $('label[for="snow"]').hide()
-
-  } else if (title == "Platinum Kaizo") {
+  } else if (title == "Platinum Kaizo" || title == "Platinum") {
     gameGen = 4
     settings.damageGen = 4
     if (!settings.noSwitch) {
