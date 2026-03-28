@@ -203,7 +203,7 @@ function toggleThemes() {
 }
 
 function toggle_box_rolls() {
-    localStorage.boxrolls = (parseInt(localStorage.boxrolls) + 1) % 2   
+    localStorage.boxrolls = (parseInt(localStorage.boxrolls) + 1) % 2
 }
 
 function toggle_dynamic_type_bug() {
@@ -244,6 +244,8 @@ $('#toggle-boxroll .slider').click(function(){
     $('#player-poks-filter').toggle()
     if ($('#player-poks-filter:visible').length > 0) {
         box_rolls()
+    } else {
+        $('.faster, .killer, .defender').removeClass('faster killer defender')
     }
 })
 

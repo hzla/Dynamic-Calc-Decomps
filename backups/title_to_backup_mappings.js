@@ -33,7 +33,8 @@ backupFiles = {
 	"Emerald Kaizo": "ek",
 	"Royal Sapphire": "roysaph",
 	"Pokemon Null": "null",
-	"Platinum Kaizo": "pk"
+	"Platinum Kaizo": "pkv5",
+	"Platinum Kaizo v4": "pk"
 }
 
 

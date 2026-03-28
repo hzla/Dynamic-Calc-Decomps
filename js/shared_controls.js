@@ -853,7 +853,6 @@ function renderTrainerPreviewPok(next_pok) {
 	}
 
 
-
 	if ((settings.damageGen <= 4 || settings.damageGen == 5) && typeof next_pok[8] !== "undefined") {
 		var expGain = Number(next_pok[8]) || 0
 		var expRatio = 0
@@ -1488,7 +1487,7 @@ function highlightMoves() {
 				if (resultText.includes(" - ")) {
 					let highRoll = parseInt(resultText.split(" - ")[1].replace("%", ""))
 
-					if (highRoll * critMult >= p1Hp) {
+					if (highRoll * critMult >= p1Hp && !["Shell Armor", "Battle Armor"].includes($('#abilityL1').val())) {
 						$(`#resultDamageR${idx}`).css('border', '1px solid rgba(241,250,140,0.8)')
 					} 
 					if (highRoll >= p1Hp) {

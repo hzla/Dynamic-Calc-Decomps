@@ -20,6 +20,10 @@ $(document).ready(function() {
         sav_pok_names[657] = "Gastrodon-East"
     }
 
+    if (TITLE == "Platinum Kaizo") {
+        sav_pok_growths = pk_pok_growths
+    }
+
     document.getElementById('save-upload-g45').addEventListener('change', function(event, forceBlock2=false) {
     if ($('#save-upload').length > 0) return;
     const file = event.target.files[0];

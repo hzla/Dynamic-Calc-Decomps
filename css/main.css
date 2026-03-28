@@ -1004,7 +1004,9 @@ table td {
     overflow: scroll;
     min-height: 65px;
     justify-content: flex-start;
+    gap: 0px 8px;
     margin-top:  10px;
+    padding-bottom: 10px;
 
 }
 
@@ -1029,11 +1031,15 @@ table td {
 }
 
 .player-party .trainer-pok-container {
-    width: calc(16.66% - 3px);
+    width: calc(16.66% - 5px);
     margin: 0;
     padding: 0;
     position: relative;
     margin-right: 3px;
+}
+
+.player-party .trainer-pok-container:first-child {
+    margin-left: 10px;
 }
 
 .player-party .trainer-pok.left-side {
@@ -1107,11 +1113,13 @@ table td {
 }
 
 #faster-label {
-    color:  #f1fa8c;
+    color:  rgb(139, 233, 253);
 }
 
-.faster {
-    box-shadow: inset 0 0 0 1px #f1fa8c;
+.trainer-pok.left-side.faster {
+    border-bottom: 3px solid rgb(139, 233, 253);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .trainer-pok.left-side.killer {
@@ -1196,9 +1204,9 @@ table td {
 
 
 .trainer-pok-list .pokesprite.left-side, .pokesprite .trainer-pok.left-side {
-    margin: 0px;
+    margin: 0px 5px;
     height: 65px;
-    width: auto;
+    width: 84px;
 }
 
 .trainer-pok.right-side {

@@ -163,7 +163,6 @@ function get_next_in_g4() {
                 var weather = p1field.weather
                 var weatherBallTypes = {"Sun": "Fire", "Hail": "Ice", "Rain": "Water", "Sand": "Rock"}
                 mov_data["type"] = weatherBallTypes[weather] || "Normal"
-                console.log(mov_data["type"])
             }
 
 
