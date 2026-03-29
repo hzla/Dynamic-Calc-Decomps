@@ -452,7 +452,7 @@ function get_next_in() {
         }
     }
 
-    if (settings.gameSwitchIn == 4) {
+    if (settings.gameSwitchIn == 4 || TITLE == "Platinum Kaizo") {
         return get_next_in_g4()
     }
 

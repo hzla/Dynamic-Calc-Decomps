@@ -150,6 +150,7 @@ function get_next_in_g4() {
         // check moves for SE
         var isSE = false
         var added_to_se_bucket = false
+        var seMoves = []
 
         for (j in pok_data["moves"]) {
             var mov_name = pok_data["moves"][j]
@@ -238,7 +239,7 @@ function get_next_in_g4() {
             }
 
             if (isSE && !full_immune) {
-                se_mons.push([trainer_poks[i], 0, "", sub_index, pok_data["moves"], effectiveness, '', '', expYield])
+                se_mons.push([trainer_poks[i], 0, mov_name, sub_index, pok_data["moves"], effectiveness, '', '', expYield, exact_phase1_score_40])
                 se_mon_ids.push(trainer_poks[i])
                 added_to_se_bucket = true
                 break
@@ -352,7 +353,7 @@ function get_next_in_g4() {
                 }
             }
         }
-        other_mons.push([trainer_poks[i], 0, "", sub_index, pok_data["moves"], highestDamage, highestDamageName, '', expYield])
+        other_mons.push([trainer_poks[i], 0, "", sub_index, pok_data["moves"], highestDamage, highestDamageName, '', expYield, null])
     }
 
     console.log(se_mons.sort(sort_trpoks_g4).concat(other_mons.sort(sort_trpoks_g4)))

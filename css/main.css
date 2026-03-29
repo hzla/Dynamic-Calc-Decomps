@@ -241,6 +241,18 @@ input[type="file"] {
     min-height: 17px;
 }
 
+.bp-last {
+    margin-bottom: 10px;
+}
+
+.type-mu {
+    color: #ff5555;
+}
+
+.p2-dmg {
+    color: #1abc9c;
+}
+
 .exp-bar {
     font-size: 12px;
     margin-top: 10px;
