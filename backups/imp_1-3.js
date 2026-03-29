@@ -42391,7 +42391,7 @@ backup_data = {
         "Smart Switching",
         "Omniscient"
       ],
-      "ability": "The Gripper"
+      "ability": "THE GRIPPER"
     }
   },
   "Dragapult": {
