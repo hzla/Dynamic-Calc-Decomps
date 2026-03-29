@@ -62,11 +62,12 @@ $(document).ready(function() {
 		silentLoadDex()
 	}
 	
-	 $('#open-dex').click(function() {
+	 $('#open-dex, #main-nav-dex').click(function(e) {
+	 	e.preventDefault()
 	 	loadDex(`?game=${cleanString(TITLE)}`)
 	 })
 
-	 if ($('#open-dex:visible').length > 0) {
+	 if ($('#open-dex:visible, #main-nav-dex:visible').length > 0) {
 	 	$('.poke-sprite').click(function() {
 	 		
 	 		if ($(this).parent().attr('id') == "p2") {
@@ -92,7 +93,6 @@ $(document).ready(function() {
 	 	})
 	 }
 })
-
 
 
 

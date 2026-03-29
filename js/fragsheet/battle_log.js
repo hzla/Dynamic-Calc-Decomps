@@ -11,6 +11,7 @@
     let lastRenderedCustomLeadsRaw = null;
     let syncBattleLogsInFlight = false;
     let activeBattleLogSplitFilter = "all";
+    let battleLogUiInitialized = false;
     const BATTLE_LOG_ID_PLACEHOLDERS = {
         species: "Unknown",
         move: "Unknown",
@@ -1420,6 +1421,45 @@
         lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
     }
 
+    function getBattleLogSpeciesBattleCounts() {
+        const resolved = resolveBattleLogSource();
+        if (!resolved.data) {
+            return {};
+        }
+
+        const { records } = normalizeRecords(resolved.data);
+        const sessions = dedupeSessionsByTrainerId(groupSessions(records));
+        const speciesBattleCounts = {};
+
+        sessions.forEach((session) => {
+            const speciesSeenThisBattle = {};
+            const party = Array.isArray(session && session.start && session.start.pParty) ? session.start.pParty : [];
+
+            party.forEach((mon) => {
+                const species = mon && mon.species ? String(mon.species) : "";
+                if (species) {
+                    speciesSeenThisBattle[species] = true;
+                }
+            });
+
+            if (!Object.keys(speciesSeenThisBattle).length) {
+                const events = Array.isArray(session && session.events) ? session.events : [];
+                events.forEach((event) => {
+                    const species = event && event.pSpecies ? String(event.pSpecies) : "";
+                    if (species) {
+                        speciesSeenThisBattle[species] = true;
+                    }
+                });
+            }
+
+            Object.keys(speciesSeenThisBattle).forEach((species) => {
+                speciesBattleCounts[species] = (speciesBattleCounts[species] || 0) + 1;
+            });
+        });
+
+        return speciesBattleCounts;
+    }
+
     function setViewMode(mode) {
         if (mode === "battle-log" && !isBattleLogEnabledForTitle()) {
             mode = "fragsheet";
@@ -1447,6 +1487,11 @@
     }
 
     function bindUi() {
+        if (battleLogUiInitialized) {
+            return;
+        }
+        battleLogUiInitialized = true;
+
         $(document).on("click", ".view-tab", function () {
             setViewMode($(this).attr("data-view"));
         });
@@ -1532,14 +1577,28 @@
         window.setFragsheetViewMode = setViewMode;
     }
 
-    document.addEventListener("DOMContentLoaded", function () {
+    function initializeBattleLogUi() {
         bindUi();
         logActiveBattleLogRomAdapter("DOMContentLoaded");
         applyBattleLogTabVisibility();
+        if (document.getElementById("main-view-tabs")) {
+            setViewMode("fragsheet");
+            return;
+        }
         if (isBattleLogEnabledForTitle()) {
             setViewMode("battle-log");
         } else {
             setViewMode("fragsheet");
         }
-    });
+    }
+
+    window.ensureBattleLogUiInitialized = initializeBattleLogUi;
+    window.setEmbeddedFragsheetMode = function (mode) {
+        initializeBattleLogUi();
+        setViewMode(mode);
+    };
+    window.isBattleLogEnabledForTitle = isBattleLogEnabledForTitle;
+    window.getBattleLogSpeciesBattleCounts = getBattleLogSpeciesBattleCounts;
+
+    document.addEventListener("DOMContentLoaded", initializeBattleLogUi);
 })();

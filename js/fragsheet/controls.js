@@ -68,13 +68,29 @@ function resetSheet() {
     }
 }
 
-$('input').on('cellValueChanged', function(e) {
-  console.log(e)
-})
+let fragsheetControlsInitialized = false;
 
+function ensureFragsheetControlsInitialized() {
+    if (fragsheetControlsInitialized) {
+        return true;
+    }
 
-$('#import-sheet').click(importSheet);
-$('#export-sheet').click(exportSheet);
-$('#reset-sheet').click(resetSheet);
+    if (!document.getElementById('import-sheet') || !document.getElementById('export-sheet') || !document.getElementById('reset-sheet')) {
+        return false;
+    }
 
+    $('input').on('cellValueChanged', function(e) {
+      console.log(e)
+    })
+
+    $('#import-sheet').off('click', importSheet).on('click', importSheet);
+    $('#export-sheet').off('click', exportSheet).on('click', exportSheet);
+    $('#reset-sheet').off('click', resetSheet).on('click', resetSheet);
+    fragsheetControlsInitialized = true;
+    return true;
+}
+
+window.ensureFragsheetControlsInitialized = ensureFragsheetControlsInitialized;
+
+document.addEventListener('DOMContentLoaded', ensureFragsheetControlsInitialized);
 

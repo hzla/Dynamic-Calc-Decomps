@@ -6,9 +6,11 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?b0af1ccf" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?40fae308" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
+    <link type="text/css" rel="stylesheet" href="./css/frags.css?d7b2a13a" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
-    <link type="text/css" rel="stylesheet" href="./css/settings-ui.css?2f51c971" />
+    <link type="text/css" rel="stylesheet" href="./css/settings-ui.css?a542a771" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css?1" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/jquery.terminal-2.43.0.min.css?1" />
     <script src="
@@ -96,6 +98,7 @@
 
     <script src="./js/vendor/jquery.terminal-2.43.0.min.js"></script>
     <script src="./js/vendor/ai.min.js?43f880cb"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/31.0.1/ag-grid-community.min.js"></script>
 
 
 </head>
@@ -120,18 +123,8 @@
 </div>
  -->
 
-<div class="wrapper" style="margin-top: 20px;">
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="open-dex">
-      <path d="M0 0 C5.28 0 10.56 0 16 0 C16 7.92 16 15.84 16 24 C10.72 24 5.44 24 0 24 C0 16.08 0 8.16 0 0 Z M1 1 C1 2.98 1 4.96 1 7 C2.32 6.67 3.64 6.34 5 6 C4.01 6 3.02 6 2 6 C2 4.68 2 3.36 2 2 C3.32 2 4.64 2 6 2 C6.33 3.32 6.66 4.64 7 6 C7.33 5.67 7.66 5.34 8 5 C10.32817964 4.63239269 12.6618385 4.29758419 15 4 C15 3.01 15 2.02 15 1 C10.38 1 5.76 1 1 1 Z M8 7 C5.69 7.33 3.38 7.66 1 8 C1 12.95 1 17.9 1 23 C4.96 23 8.92 23 13 23 C13 17.06 13 11.12 13 5 C10.67642489 4.81509993 10.67642489 4.81509993 8 7 Z M14 5 C15 7 15 7 15 7 Z M14 8 C14 11.96 14 15.92 14 20 C14.33 20 14.66 20 15 20 C15 16.04 15 12.08 15 8 C14.67 8 14.34 8 14 8 Z M14 21 C15 23 15 23 15 23 Z " fill="#f1f1f1" transform="translate(4,0)"/>
-      <path d="M0 0 C1.98 0 3.96 0 6 0 C6 0.33 6 0.66 6 1 C4.02 1 2.04 1 0 1 C0 0.67 0 0.34 0 0 Z " fill="#f1f1f1" transform="translate(9,21)"/>
-      <path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.99 2 1.98 2 3 C1.34 3 0.68 3 0 3 C0 2.01 0 1.02 0 0 Z " fill="#f1f1f1" transform="translate(6,13)"/>
-      <path d="" fill="#f1f1f1" transform="translate(0,0)"/>
-      <path d="" fill="#f1f1f1" transform="translate(0,0)"/>
-      <path d="" fill="#f1f1f1" transform="translate(0,0)"/>
-    </svg>
-
-
-    <div aria-label="Settings" role="region" class="header-settings">
+<div class="wrapper app-shell" style="margin-top: 20px;">
+    <div aria-label="Settings" role="region" class="header-settings app-header-shell">
         
         <img src="./img/menu.svg" id="open-menu">
 
@@ -259,6 +252,13 @@
 
         </span>
         <div id="rom-title"></div>
+        <div id="main-view-tabs" aria-label="Main views" role="tablist">
+            <button type="button" class="main-view-tab active" data-view="calculator">Calculator</button>
+            <button type="button" class="main-view-tab" id="main-nav-dex">Dex</button>
+            <button type="button" class="main-view-tab" data-view="box">Box</button>
+            <button type="button" class="main-view-tab" data-view="fragsheet">Fragsheet</button>
+            <button type="button" class="main-view-tab" id="main-nav-battle-log" data-view="battle-log">Battle Log</button>
+        </div>
         <span class="genSelection" aria-labelledby="selectGenInstruction" role="radiogroup" title="Select the generation.">
             <span class="visually-hidden" id="selectGenInstruction">Select the generation.</span>
             <input class="gen visually-hidden" type="radio" name="gen" value="1" id="gen1" /><label class="btn btn-small btn-left" for="gen1">RBY</label>
@@ -273,7 +273,7 @@
         <select class="calc-select">
             
             <optgroup label="Romhacks">
-                <option selected="selected" >Other Romhacks</option>
+                <option selected="selected" >Romhacks</option>
                 <option data-source="https://hzla.github.io/Dynamic-Calc/?data=7a1ed35468b22ea01103&dmgGen=6&gen=6">Ancestral X</option>
                 <option data-source="https://hzla.github.io/Dynamic-Calc/?data=9aa37533b7c000992d92&gen=5&types=5">Blaze Black</option>
                 <option data-source="https://hzla.github.io/Dynamic-Calc/?data=04770c9a89687b02a9f5&gen=8&types=5">Blaze Black 2 Original</option>
@@ -329,6 +329,7 @@
                
         </select>
     </div>
+    <div id="calculator-view" class="main-page-view">
     <hr />
 
     <!-- <div id="show-mid">Import/Options</div> -->
@@ -2055,6 +2056,73 @@
         </fieldset>
     </div>
     </div>
+    </div>
+    <div id="fragsheet-shell" class="main-page-view">
+        <div class="container embedded-fragsheet-container">
+            <div id="sheet-btns">
+                <div class="sheet-btn" id="import-sheet"><span class="btn-icon">↑</span> Import</div>
+                <div class="sheet-btn" id="export-sheet"><span class="btn-icon">↓</span> Export</div>
+            </div>
+
+            <div id="battle-log-split-tabs" aria-label="Battle log split filters"></div>
+
+            <div id="tabs">
+                <div class="tab active" id="all-simple-tab" data-split="all-simple">All Splits Consolidated</div>
+                <div class="tab" id="all-tab" data-split="all">All Splits Detailed</div>
+                <div class="tab" id="split-0-tab" data-split="0"></div>
+                <div class="tab" id="split-1-tab" data-split="1"></div>
+                <div class="tab" id="split-2-tab" data-split="2"></div>
+                <div class="tab" id="split-3-tab" data-split="3"></div>
+                <div class="tab" id="split-4-tab" data-split="4"></div>
+                <div class="tab" id="split-5-tab" data-split="5"></div>
+                <div class="tab" id="split-6-tab" data-split="6"></div>
+                <div class="tab" id="split-7-tab" data-split="7"></div>
+                <div class="tab" id="split-8-tab" data-split="8"></div>
+                <div class="tab" id="stats-tab" data-split="9">Mon Stats/IVs</div>
+            </div>
+
+            <div class="embedded-fragsheet-main">
+                <div id="myGrid" class="ag-theme-alpine-dark"></div>
+
+                <div id="battle-log-view">
+                    <div id="battle-log-toolbar">
+                        <button type="button" id="sync-battle-log" class="battle-log-toolbar-btn">Sync</button>
+                        <button type="button" id="load-battle-log-file" class="battle-log-toolbar-btn">Load Battle Log (from Desmume Save Folder "Battery/Dumps")</button>
+                        <input type="file" id="battle-log-file-input" accept=".json,application/json" hidden>
+                        <div id="battle-log-upload-status" class="battle-log-note" style="display:none; margin: 0;">Not synced yet.</div>
+                    </div>
+                    <div id="battle-log-container"></div>
+                </div>
+
+                <div id="frag-history">
+                    <h2 id="stat-title">Click Row to Show Battle History</h2>
+                    <div class="split-container" id="split-1-container"></div>
+                    <div id="battle-log-fragsheet-panel" aria-live="polite"></div>
+                </div>
+            </div>
+
+            <div id="delete-btns">
+                <div id="delete-enc">Delete</div>
+                <div id="reset-sheet">Reset Sheet</div>
+            </div>
+        </div>
+    </div>
+    <div id="box-view" class="main-page-view">
+        <div id="box-controls">
+            <div class="box-controls-search-row">
+                <input type="text" id="box-search-input" placeholder="Name, learnset, ability, item, etc.">
+                <button type="button" id="box-clear-filters">Clear</button>
+            </div>
+            <div id="box-sort-buttons"></div>
+            <div id="box-type-filters"></div>
+        </div>
+        <div id="box-view-empty" class="box-placeholder-card">
+            <div id="box-empty-kicker" class="box-placeholder-kicker">No Box Data</div>
+            <h2 id="box-empty-title">Import a save or box payload</h2>
+            <p id="box-empty-copy">The box view populates from `customSets`. Use the existing save or import flow in the calculator to load your box.</p>
+        </div>
+        <div id="box-card-grid"></div>
+    </div>
     <script type="text/javascript">
         var linkExtension = '.html';
     </script>
@@ -2096,8 +2164,14 @@
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?becca158"></script>
     <script type="text/javascript" src="./js/calc_ui/master_file_poller.js"></script>
     <script type="text/javascript" src="./js/calc_ui/menu_settings.js?c81f0738"></script>
-    <script type="text/javascript" src="./js/calc_ui/dex.js?52c2ad75"></script>
-    <script type="text/javascript" src="./js/initialize.js?2b327311"></script>
+    <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?c13fc875"></script>
+    <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa3"></script>
+    <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
+    <script type="text/javascript" src="./js/fragsheet/battle_log.js?46d12bb5"></script>
+    <script type="text/javascript" src="./js/calc_ui/box_view.js"></script>
+    <script type="text/javascript" src="./js/calc_ui/main_nav.js"></script>
+    <script type="text/javascript" src="./js/calc_ui/dex.js?8b762232"></script>
+    <script type="text/javascript" src="./js/initialize.js?d120329b"></script>
     <script type="text/javascript" src="./js/calc_ui/player_box.js?588b452c"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?dee5dbfb"></script>

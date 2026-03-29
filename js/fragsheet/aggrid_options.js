@@ -1,4 +1,5 @@
 params = new URLSearchParams(window.location.search);
+let fragsheetGridInitialized = false;
 SOURCES = {
     "9aa37533b7c000992d92": "Blaze Black/Volt White",
    "04770c9a89687b02a9f5": "Blaze Black 2/Volt White 2 Original",
@@ -359,7 +360,7 @@ function displayFragHistory(rowData) {
         let seenTrainers = {}
 
         for (const frag of fragList) {
-            let trName = extractTrainerName(frag)
+            let trName = formatFragHistoryTrainerName(extractTrainerName(frag))
             
             let pokName = extractPokemonName(frag)
             let spritePath = `./img/pokesprite/${pokName.toLowerCase().replace(/[ :'.-]+/g, '-').replace(/^-|-glitched$|-$/g, '')}.png`
@@ -395,6 +396,13 @@ function extractTrainerName(str) {
     // Find "Lvl " followed by numbers, then capture everything after it until the closing parenthesis
     const match = str.match(/Lvl \d+\s+(.+?)\s*\)/);
     return match ? match[1].trim() : null;
+}
+
+function formatFragHistoryTrainerName(name) {
+    if (!name) {
+        return name;
+    }
+    return String(name).split("|")[0].trim();
 }
 
 function extractPokemonName(str) {
@@ -686,12 +694,23 @@ function addRowTitles(gridApi) {
 
 
 
-// Initialize the grid
-document.addEventListener('DOMContentLoaded', () => {
+function ensureFragsheetGridInitialized() {
+    if (fragsheetGridInitialized) {
+        return window.gridApi || null;
+    }
+
+    const gridDiv = document.querySelector('#myGrid');
+    if (!gridDiv || typeof agGrid === "undefined") {
+        return null;
+    }
+
+    if (typeof TITLE !== "string" || !splitData[TITLE]) {
+        return null;
+    }
+
     initializeSplits()
     setColumnDefs()
     createRowData()
-
 
     const gridOptions = {
         columnDefs: columnDefs,
@@ -715,6 +734,11 @@ document.addEventListener('DOMContentLoaded', () => {
         rowHeight: 80,
         headerHeight: 40
     };
-    gridDiv = document.querySelector('#myGrid');
-    gridApi = agGrid.createGrid(gridDiv, gridOptions);
-});
+    window.gridApi = agGrid.createGrid(gridDiv, gridOptions);
+    fragsheetGridInitialized = true;
+    return window.gridApi;
+}
+
+window.ensureFragsheetGridInitialized = ensureFragsheetGridInitialized;
+
+document.addEventListener('DOMContentLoaded', ensureFragsheetGridInitialized);

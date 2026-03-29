@@ -69,6 +69,19 @@ let currentTypeMatchup           = 2;
 
 let dynamicTypeBugActive = true;
 
+function updateHeaderShellState() {
+  if (typeof window.updateMainPageHeaderState !== "function") {
+    return;
+  }
+
+  window.updateMainPageHeaderState({
+    title: typeof TITLE === "string" ? TITLE : "",
+    showDex,
+    showBattleLog: typeof window.isBattleLogEnabledForTitle === "function" ? window.isBattleLogEnabledForTitle() : false,
+    showMainNav: $('#desmume-icon').is(':visible')
+  })
+}
+
 // --- Defaults ---------------------------------------------------------------
 
 setSettingsDefaults();
@@ -345,13 +358,11 @@ function setGameSettings(title) {
     $('label[for="hail"]').hide()
     settings.sourceType = "onlyTrainers"
   }
-  if (showDex) {
-    $('#open-dex').show()
-    $('#dex-show').show()
-  }
-  if (showAI) {
-    $('#show-ai').show()
-  }
+  $('#open-dex, #main-nav-dex').toggle(showDex)
+  $('#dex-show').toggle(showDex)
+  $('#show-ai').toggle(showAI)
+
+  updateHeaderShellState()
 
   toggleGen3SwitchGuide();
 }
@@ -459,6 +470,12 @@ function setBaseGame(title) {
     if (!baseGame) {
         $('#read-save').hide()
     } 
+
+    if (typeof window.updateMainPageTitle === "function") {
+      window.updateMainPageTitle(TITLE)
+    }
+
+    updateHeaderShellState()
 }
 function initCalc() {
   
