@@ -4,7 +4,7 @@ const vm = require('vm');
 
 const BACKUPS_DIR = __dirname;
 const DEFAULT_HGSS_PATH = path.join(BACKUPS_DIR, 'pt.js');
-const DEFAULT_PK_PATH = path.join(BACKUPS_DIR, 'pk.js');
+const DEFAULT_PK_PATH = path.join(BACKUPS_DIR, 'pkv5.js');
 const DEFAULT_EFFECTS_PATH = path.resolve(BACKUPS_DIR, '../../../Pokeweb-Live/Reference_Files/g4_effects.txt');
 const DEFAULT_AI_HELPER_PATH = path.resolve(BACKUPS_DIR, '../js/vendor/ai.min.js');
 const DEFAULT_OUTPUT_PATH = path.join(BACKUPS_DIR, 'move-effect-changes.md');

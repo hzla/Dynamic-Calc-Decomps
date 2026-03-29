@@ -756,7 +756,7 @@ function getTrainerPreviewPartnerNameFromSet(setId) {
 
 	set_name = set_name.replace(/\)\[\d+\]$/, "").replace(/\)$/, "")
 
-	if (!setdex[species] || !setdex[species][set_name] || !setdex[species][set_name].partner || !customLeads || !customLeads[setdex[species][set_name].partner]) {
+	if (!setdex[species] || !setdex[species][set_name] || !setdex[species][set_name].partner || typeof customLeads === "undefined" || !customLeads || !customLeads[setdex[species][set_name].partner]) {
 		return ""
 	}
 
@@ -1082,6 +1082,7 @@ $(".set-selector").change(function () {
 		$("#p2 .current-hp").val(right_max_hp)//.change()
 
 		movePPs[fullSetName] ||= [];
+		refreshTagPartnerPreview()
 
 
 	} else {
@@ -2338,7 +2339,9 @@ $(document).ready(function () {
 
     if (localStorage["left"]) {
         $(`[data-id='${localStorage["left"]}']`).click()
-    }    
+    } else {
+		refreshTagPartnerPreview()
+	}
 
     if (localStorage["right"]) {
       var set = localStorage["right"]

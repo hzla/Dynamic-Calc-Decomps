@@ -927,6 +927,9 @@ table td {
     flex-wrap: wrap;
 }
 
+.trainer-preview-partner {
+    padding-bottom: 10px;
+}
 .trainer-preview-label,
 .trainer-preview-separator {
     width: calc(100% - 10px);
@@ -941,6 +944,10 @@ table td {
     padding-top: 8px;
     border-top: 1px solid rgba(255,255,255,0.2);
     margin-top: 20px;
+}
+
+.tag-partner-label {
+    margin-top: 0px;
 }
 
 .trainer-pok-list.opposing {
@@ -1034,6 +1041,24 @@ table td {
     justify-content: flex-start ;
 }
 
+.tag-partner-preview-wrapper {
+    display: none;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.tag-partner-preview {
+    background-size: 100% 595px;
+    background-repeat: no-repeat;
+    height: auto;
+    min-width: 100%;
+    overflow: scroll;
+    min-height: 96px;
+    justify-content: flex-start;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 .trainer-pok-item {
     position: absolute;
     left: 6px;
@@ -1042,6 +1067,7 @@ table td {
     cursor: pointer;
 }
 
+.tag-partner-preview .trainer-pok-container,
 .player-party .trainer-pok-container {
     width: calc(16.66% - 5px);
     margin: 0;
@@ -1050,15 +1076,21 @@ table td {
     margin-right: 3px;
 }
 
+.tag-partner-preview .trainer-pok-container:first-child,
 .player-party .trainer-pok-container:first-child {
     margin-left: 10px;
 }
 
+.tag-partner-preview .trainer-pok.tag-partner-pok,
 .player-party .trainer-pok.left-side {
     background: rgba(255,255,255,0.1);
     background-size: cover ;
     height:  100%;
     width:  100%;
+}
+
+.tag-partner-preview .trainer-pok.tag-partner-pok {
+    cursor: pointer;
 }
 
 #clear-party {

@@ -2,6 +2,43 @@
 
 
 $(document).ready(function() {
+    function loadLeftSideSet(set) {
+        localStorage["left"] = set
+        $('.player').val(set)
+
+        let speciesName = extractPokemonName(set)
+
+        if (typeof localStorage.encounters != "undefined") {
+            let encounters = getEncounters()
+
+            // get encounter setdata from customSets if empty
+            if (customSets[speciesName] && encounters[speciesName] && encounters[speciesName].setData == {}) {
+                encounters[speciesName].setData = customSets[speciesName]
+            }
+
+            if (encounters[speciesName] && encounters[speciesName].setData && encounters[speciesName].setData["My Box"] && encounters[speciesName].setData["My Box"].met) {
+                const met = toTitleCase(encounters[speciesName].setData["My Box"].met)
+                const fragCount = encounters[speciesName].fragCount
+
+                $('#met-loc').text(`${met}`).show()
+                $('#frag-count').text(`Frags: ${fragCount}`).show()
+            } else {
+                $('#met-loc, #frag-count').hide()
+            }
+        } else {
+            $('#met-loc, #frag-count').hide()
+        }
+
+        $('.player').change()
+        $('.set-selector').first().change()
+        $('.player .select2-chosen').text(set)
+
+        get_box()
+        box_rolls()
+
+        currentLvl = parseInt($('#levelL1').val())
+    }
+
     $(document).on('blur', 'input, select', function() {
         refresh_next_in()
         localStorage.lvlCap = $('#lvl-cap').val()
@@ -270,6 +307,7 @@ $(document).ready(function() {
         $('#edge').hide()
         currentParty = []
         localStorage.currentParty = ""
+        refreshTagPartnerPreview()
    })
 
    $(document).on('click', '.resultDamage', function() {
@@ -412,49 +450,21 @@ $(document).ready(function() {
    })
 
     $(document).on('click', '.trainer-pok.left-side', function() {
-        var set = $(this).attr('data-id')
-        localStorage["left"] = set 
-        $('.player').val(set)
-
-        let speciesName = extractPokemonName(set)
-
-        if (typeof localStorage.encounters != "undefined") {
-            let encounters = getEncounters()
-
-
-            // get encounter setdata from customSets if empty
-            if (customSets[speciesName] && encounters[speciesName] && encounters[speciesName].setData == {}) {
-                encounters[speciesName].setData = customSets[speciesName]
-            }
-
-            if (encounters[speciesName] && encounters[speciesName].setData && encounters[speciesName].setData["My Box"] && encounters[speciesName].setData["My Box"].met) {
-                const met = toTitleCase(encounters[speciesName].setData["My Box"].met)
-                const fragCount = encounters[speciesName].fragCount
-
-                $('#met-loc').text(`${met}`).show()
-                $('#frag-count').text(`Frags: ${fragCount}`).show()
-            } else {
-                $('#met-loc, #frag-count').hide()
-            }            
-        } else {
-            $('#met-loc, #frag-count').hide()
-        }
-        $('.player').change()
-
-        $('.set-selector').first().change()
-
-    
-        $('.player .select2-chosen').text(set)
-        // if ($('.info-group:not(.opp) > * > .forme').is(':visible')) {
-        //     $('.info-group:not(.opp) > * > .forme').change()
-        // }
-        get_box()
-        box_rolls()
-
-        currentLvl = parseInt($('#levelL1').val())
+        loadLeftSideSet($(this).attr('data-id'))
 
         var right_max_hp = $("#p1 .max-hp").text()
         $("#p1 .current-hp").val(right_max_hp)//.change()
+    })
+
+    $(document).on('click', '.tag-partner-preview .tag-partner-pok', function() {
+        loadLeftSideSet($(this).attr('data-id'))
+
+        var right_max_hp = $("#p1 .max-hp").text()
+        $("#p1 .current-hp").val(right_max_hp)//.change()
+    })
+
+    $(document).on('contextmenu', '.tag-partner-preview .tag-partner-pok', function(e) {
+        e.preventDefault()
     })
 
     $(document).on('blur', '#max-taken, #min-dealt', function() {

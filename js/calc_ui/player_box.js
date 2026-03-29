@@ -75,8 +75,14 @@ function sort_box_by_dex(attr) {
     mons.detach().appendTo(box);
 }
 
-function abv(s) {
-    if (($('.player-party').width() / s.length <= 50)) {
+function abv(s, containerSelector = '.player-party') {
+    if (!s) {
+        return ""
+    }
+
+    var container = $(containerSelector)
+    var containerWidth = container.width() || container.parent().width() || $('.player-party').width() || $('.trainer-poks').first().width() || 0
+    if ((containerWidth / s.length <= 50)) {
         if (s.split(" ")[1]) {
             return (s.split(" ")[0][0] + " " + s.split(" ")[1]).slice(0,13)
         } else {
@@ -86,6 +92,82 @@ function abv(s) {
     } else {
         return s
     }
+}
+
+function getPreviewSpriteName(species_name) {
+    return species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
+}
+
+function getSelectedTagPartnerSourceSetId() {
+    return $('.opposing.set-selector').first().val() || $('.opposing .select2-chosen').first().text() || ""
+}
+
+function getSetDataBySetId(setId) {
+    if (!setId || !setId.includes(" (")) {
+        return null
+    }
+
+    var species_name = setId.substring(0, setId.indexOf(" ("))
+    var set_name = setId.substring(setId.indexOf("(") + 1, setId.lastIndexOf(")"))
+    set_name = set_name.replace(/\)\[\d+\]$/, "").replace(/\[\d+\]$/, "")
+
+    if (!setdex[species_name] || !setdex[species_name][set_name]) {
+        return null
+    }
+
+    return setdex[species_name][set_name]
+}
+
+function getTagPartnerIdFromSet(setId) {
+    var set_data = getSetDataBySetId(setId)
+    if (!set_data) {
+        return false
+    }
+    return set_data.tagPartner || false
+}
+
+function getTrainerSetsById(trainerId) {
+    if (!trainerId || !setdex) {
+        return []
+    }
+
+    var normalizedTrainerId = Number(trainerId)
+    var trainerSets = []
+    var orderIndex = 0
+
+    for (const [speciesName, sets] of Object.entries(setdex)) {
+        for (const [setName, setData] of Object.entries(sets)) {
+            if (!setData || Number(setData.tr_id) !== normalizedTrainerId) {
+                continue
+            }
+
+            trainerSets.push({
+                setId: `${speciesName} (${setName})`,
+                speciesName: speciesName,
+                setData: setData,
+                subIndex: Number.isFinite(Number(setData.sub_index)) ? Number(setData.sub_index) : Number.MAX_SAFE_INTEGER,
+                orderIndex: orderIndex
+            })
+            orderIndex++
+        }
+    }
+
+    trainerSets.sort(function(a, b) {
+        if (a.subIndex !== b.subIndex) {
+            return a.subIndex - b.subIndex
+        }
+        return a.orderIndex - b.orderIndex
+    })
+
+    return trainerSets
+}
+
+function getTagPartnerTrainerName(trainerId) {
+    if (typeof customLeads !== "undefined" && customLeads && customLeads[trainerId]) {
+        return get_trainer_name(customLeads[trainerId]) || "Tag Partner"
+    }
+
+    return "Tag Partner"
 }
 
 function sort_box_by_name(aToZ = true) {
@@ -110,32 +192,107 @@ function sort_box_by_name(aToZ = true) {
     mons.detach().appendTo(box);
 }
 
-function generatePartyHTML(set_data, species_name) {
-    let partyHTML = ""
-
-
-    var sprite_name = species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
-    var data_id = species_name + " (My Box)"
- 
+function generateCompactPreviewHTML({ setData, speciesName, dataId, interactiveClass = "", containerSelector = ".player-party", showItem = true, showNature = true, showAbility = true }) {
+    var sprite_name = getPreviewSpriteName(speciesName)
+    var imageClass = interactiveClass ? ` ${interactiveClass}` : ""
     var pok = `<div class="trainer-pok-container">
-        <img class="trainer-pok left-side" src="./img/${sprite_style}/${sprite_name}.png" data-id="${data_id}">`
-    if (set_data['item']) {
-        item_name = set_data['item'].toLowerCase().replace(" ", "_").replace("'", "") 
+        <img class="trainer-pok${imageClass}" src="./img/${sprite_style}/${sprite_name}.png" data-id="${dataId}">`
+
+    if (showItem && setData['item']) {
+        var item_name = setData['item'].toLowerCase().replace(" ", "_").replace("'", "")
         pok += `<img class="trainer-pok-item" src="./img/items/${item_name}.png">`
     }
 
-    for (let i in [1,2,3,4]) {
-        if (set_data['moves'][i]) {
-           pok += `<div class="bp-info">${abv(set_data['moves'][i].replace("Hidden Power", "HP"))}</div>` 
-       } else {
-           pok += `<div class="bp-info"> - </div>` 
-       }   
+    var moves = setData['moves'] || []
+    for (var i = 0; i < 4; i++) {
+        if (moves[i]) {
+            pok += `<div class="bp-info">${abv(moves[i].replace("Hidden Power", "HP"), containerSelector)}</div>`
+        } else {
+            pok += `<div class="bp-info"> - </div>`
+        }
     }
 
-    pok += `<div class="bp-info nature-info">${set_data['nature']}</div>` 
-    pok += `<div class="bp-info extra-info">${set_data['ability']}</div>` 
+    if (showNature) {
+        pok += `<div class="bp-info nature-info">${setData['nature'] || ""}</div>`
+    }
+
+    if (showAbility) {
+        pok += `<div class="bp-info extra-info">${setData['ability'] || ""}</div>`
+    }
+
     pok += `</div>`
     return pok
+}
+
+function generatePartyHTML(set_data, species_name) {
+    return generateCompactPreviewHTML({
+        setData: set_data,
+        speciesName: species_name,
+        dataId: species_name + " (My Box)",
+        interactiveClass: "left-side",
+        containerSelector: ".player-party",
+        showItem: true,
+        showNature: true,
+        showAbility: true
+    })
+}
+
+function refreshTagPartnerPreview() {
+    var wrapper = $('.tag-partner-preview-wrapper')
+    var destination = $('.tag-partner-preview')
+    var selectedSetId = getSelectedTagPartnerSourceSetId()
+    var tagPartnerId = getTagPartnerIdFromSet(selectedSetId)
+
+    destination.html("")
+
+    if (!tagPartnerId) {
+        wrapper.hide()
+        $('.tag-partner-label').text('Tag Partner').attr('title', 'Tag Partner')
+        return
+    }
+
+    console.log('[Tag Partner] detected tag partner on right-side set', {
+        sourceSetId: selectedSetId,
+        tagPartnerId: tagPartnerId,
+        selectedSetData: getSetDataBySetId(selectedSetId)
+    })
+
+    var trainerSets = getTrainerSetsById(tagPartnerId)
+    if (!trainerSets.length) {
+        console.warn('[Tag Partner] no sets found for detected tag partner trainer id', {
+            sourceSetId: selectedSetId,
+            tagPartnerId: tagPartnerId
+        })
+        wrapper.hide()
+        $('.tag-partner-label').text('Tag Partner').attr('title', 'Tag Partner')
+        return
+    }
+
+    var trainerName = getTagPartnerTrainerName(tagPartnerId)
+    console.log('[Tag Partner] rendering tag partner preview', {
+        sourceSetId: selectedSetId,
+        tagPartnerId: tagPartnerId,
+        trainerName: trainerName,
+        trainerSetIds: trainerSets.map(function(trainerSet) {
+            return trainerSet.setId
+        })
+    })
+    $('.tag-partner-label').text('Tag Partner').attr('title', `Tag Partner: ${trainerName}`)
+
+    for (const trainerSet of trainerSets) {
+        destination.append(generateCompactPreviewHTML({
+            setData: trainerSet.setData,
+            speciesName: trainerSet.speciesName,
+            dataId: trainerSet.setId,
+            interactiveClass: "tag-partner-pok",
+            containerSelector: ".tag-partner-preview",
+            showItem: false,
+            showNature: false,
+            showAbility: false
+        }))
+    }
+
+    wrapper.show()
 }
 
 function displayParty() {
@@ -173,6 +330,8 @@ function displayParty() {
             destination.append(pok)
         }
     }
+
+    refreshTagPartnerPreview()
 }
 
 

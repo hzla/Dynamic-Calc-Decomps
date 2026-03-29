@@ -47,6 +47,7 @@ let calcingForSwitchIns = false;
 let changingSets        = false;
 let terminalStarted     = false;
 let partnerName         = null;
+let customLeads         = null;
 let showDex = false;
 let showAI = false;
 let lastClickedWeather = null

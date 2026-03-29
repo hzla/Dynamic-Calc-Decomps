@@ -90,7 +90,7 @@ function maybeRenderTeamVariations(tr_id) {
 }
 
 function get_partner_name_from_tr_id(tr_id) {
-    if (!tr_id || !customLeads || !customLeads[tr_id]) {
+    if (!tr_id || typeof customLeads === "undefined" || !customLeads || !customLeads[tr_id]) {
         return null
     }
 
