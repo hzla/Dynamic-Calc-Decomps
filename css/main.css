@@ -1715,6 +1715,12 @@ table td {
     margin-right: 3px;
 }
 
+.tag-partner-preview .trainer-pok-container {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
 .tag-partner-preview .trainer-pok-container:first-child,
 .player-party .trainer-pok-container:first-child {
     margin-left: 10px;
@@ -1730,6 +1736,10 @@ table td {
 
 .tag-partner-preview .trainer-pok.tag-partner-pok {
     cursor: pointer;
+}
+
+.tag-partner-preview .trainer-pok-container:hover {
+    border-color: #1abc9c;
 }
 
 #clear-party {
