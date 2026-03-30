@@ -229,6 +229,10 @@ function applySyncLuaVisibility() {
 
     $('#sync-master').toggle(syncEnabled && !usesHttpLuaSync);
     $('#sync-lua').toggle(syncEnabled && usesHttpLuaSync);
+
+    if (typeof updateHeaderShellState === "function") {
+        updateHeaderShellState();
+    }
 }
 
 

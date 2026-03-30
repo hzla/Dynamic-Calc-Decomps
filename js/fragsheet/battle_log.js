@@ -866,15 +866,24 @@
     }
 
     function dedupeSessionsByTrainerId(sessions) {
-        const seenTrainerIds = {};
-        return sessions.filter((session) => {
+        const lastSessionIndexByTrainerId = {};
+
+        sessions.forEach((session, index) => {
             const trainerId = getSessionTrainerId(session);
-            const key = trainerId == null ? "__missing_trainer_id__" : String(trainerId);
-            if (seenTrainerIds[key]) {
-                return false;
+            if (trainerId == null) {
+                return;
             }
-            seenTrainerIds[key] = true;
-            return true;
+
+            lastSessionIndexByTrainerId[String(trainerId)] = index;
+        });
+
+        return sessions.filter((session, index) => {
+            const trainerId = getSessionTrainerId(session);
+            if (trainerId == null) {
+                return true;
+            }
+
+            return lastSessionIndexByTrainerId[String(trainerId)] === index;
         });
     }
 

@@ -119,7 +119,7 @@
         }
 
         const mainTabs = document.getElementById("main-view-tabs");
-        const showMainNav = !!state.showMainNav;
+        const showMainNav = state.showMainNav !== false;
         if (mainTabs) {
             mainTabs.classList.toggle("main-view-tabs-hidden", !showMainNav);
         }
@@ -136,10 +136,6 @@
 
         if (currentMainPageView === "battle-log" && !state.showBattleLog) {
             setMainPageView("fragsheet");
-        }
-
-        if (!showMainNav) {
-            setMainPageView("calculator");
         }
     }
 

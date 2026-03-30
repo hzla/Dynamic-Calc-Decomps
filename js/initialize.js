@@ -74,11 +74,14 @@ function updateHeaderShellState() {
     return;
   }
 
+  const syncMasterVisible = $('#sync-master').is(':visible');
+  const syncLuaVisible = $('#sync-lua').is(':visible');
+
   window.updateMainPageHeaderState({
     title: typeof TITLE === "string" ? TITLE : "",
     showDex,
-    showBattleLog: typeof window.isBattleLogEnabledForTitle === "function" ? window.isBattleLogEnabledForTitle() : false,
-    showMainNav: $('#desmume-icon').is(':visible')
+    showBattleLog: syncMasterVisible || syncLuaVisible,
+    showMainNav: true
   })
 }
 
