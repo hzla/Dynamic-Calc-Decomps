@@ -98,6 +98,10 @@ function getPreviewSpriteName(species_name) {
     return species_name.toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
 }
 
+var manualTagPartnerSelectionPending = false
+var manualTagPartnerTrainerId = false
+var manualTagPartnerLockedTrainerIds = []
+
 function getSelectedTagPartnerSourceSetId() {
     return $('.opposing.set-selector').first().val() || $('.opposing .select2-chosen').first().text() || ""
 }
@@ -116,6 +120,15 @@ function getSetDataBySetId(setId) {
     }
 
     return setdex[species_name][set_name]
+}
+
+function getTrainerIdFromSet(setId) {
+    var setData = getSetDataBySetId(setId)
+    if (!setData || !setData.tr_id) {
+        return false
+    }
+
+    return Number(setData.tr_id)
 }
 
 function getTagPartnerIdFromSet(setId) {
@@ -168,6 +181,77 @@ function getTagPartnerTrainerName(trainerId) {
     }
 
     return "Tag Partner"
+}
+
+function setTagPartnerLabel(labelText, titleText) {
+    $('.tag-partner-label').text(labelText).attr('title', titleText || labelText)
+    $('.tag-partner-header').attr('title', titleText || labelText)
+}
+
+function beginManualTagPartnerSelection() {
+    manualTagPartnerSelectionPending = true
+    $('.player.set-selector').first().select2('open')
+}
+
+function clearManualTagPartnerSelectionPending() {
+    manualTagPartnerSelectionPending = false
+}
+
+function isManualTagPartnerSelectionPending() {
+    return manualTagPartnerSelectionPending
+}
+
+function clearManualTagPartnerOverride() {
+    manualTagPartnerTrainerId = false
+    manualTagPartnerLockedTrainerIds = []
+}
+
+function getCurrentTrainerPreviewIds() {
+    var trainerIds = []
+
+    function pushTrainerId(setId) {
+        var trainerId = getTrainerIdFromSet((setId || "").split("[")[0])
+        if (trainerId && !trainerIds.includes(trainerId)) {
+            trainerIds.push(trainerId)
+        }
+    }
+
+    if (typeof CURRENT_TRAINER_POKS !== "undefined" && CURRENT_TRAINER_POKS && CURRENT_TRAINER_POKS.length) {
+        for (const trainerSet of CURRENT_TRAINER_POKS) {
+            pushTrainerId(Array.isArray(trainerSet) ? trainerSet[0] : trainerSet)
+        }
+    }
+
+    if (!trainerIds.length) {
+        pushTrainerId(getSelectedTagPartnerSourceSetId())
+    }
+
+    return trainerIds
+}
+
+function setManualTagPartnerFromSet(setId) {
+    var trainerId = getTrainerIdFromSet(setId)
+    if (!trainerId) {
+        return false
+    }
+
+    manualTagPartnerTrainerId = trainerId
+    manualTagPartnerLockedTrainerIds = getCurrentTrainerPreviewIds()
+    refreshTagPartnerPreview()
+    return true
+}
+
+function maybeClearManualTagPartnerOverride(selectedSetId) {
+    if (!manualTagPartnerTrainerId || !manualTagPartnerLockedTrainerIds.length) {
+        return
+    }
+
+    var currentTrainerId = getTrainerIdFromSet(selectedSetId)
+    if (!currentTrainerId || manualTagPartnerLockedTrainerIds.includes(currentTrainerId)) {
+        return
+    }
+
+    clearManualTagPartnerOverride()
 }
 
 function sort_box_by_name(aToZ = true) {
@@ -241,13 +325,14 @@ function refreshTagPartnerPreview() {
     var wrapper = $('.tag-partner-preview-wrapper')
     var destination = $('.tag-partner-preview')
     var selectedSetId = getSelectedTagPartnerSourceSetId()
-    var tagPartnerId = getTagPartnerIdFromSet(selectedSetId)
+    maybeClearManualTagPartnerOverride(selectedSetId)
+    var tagPartnerId = manualTagPartnerTrainerId || getTagPartnerIdFromSet(selectedSetId)
 
     destination.html("")
 
     if (!tagPartnerId) {
         wrapper.hide()
-        $('.tag-partner-label').text('Tag Partner').attr('title', 'Tag Partner')
+        setTagPartnerLabel('Tag Partner', 'Tag Partner')
         return
     }
 
@@ -264,7 +349,7 @@ function refreshTagPartnerPreview() {
             tagPartnerId: tagPartnerId
         })
         wrapper.hide()
-        $('.tag-partner-label').text('Tag Partner').attr('title', 'Tag Partner')
+        setTagPartnerLabel('Tag Partner', 'Tag Partner')
         return
     }
 
@@ -277,7 +362,7 @@ function refreshTagPartnerPreview() {
             return trainerSet.setId
         })
     })
-    $('.tag-partner-label').text('Tag Partner').attr('title', `Tag Partner: ${trainerName}`)
+    setTagPartnerLabel('Tag Partner', `Tag Partner: ${trainerName}`)
 
     for (const trainerSet of trainerSets) {
         destination.append(generateCompactPreviewHTML({

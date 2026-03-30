@@ -408,6 +408,26 @@ $(document).ready(function() {
         }, 1);
     });
 
+    $('.player.set-selector').on('select2-selecting', function(e) {
+        if (!isManualTagPartnerSelectionPending()) {
+            return
+        }
+
+        var selectedSetId = (e.choice && e.choice.id) || e.val || ""
+        clearManualTagPartnerSelectionPending()
+        e.preventDefault()
+
+        if (selectedSetId) {
+            setManualTagPartnerFromSet(selectedSetId)
+        }
+
+        $(this).select2('close')
+    })
+
+    $('.player.set-selector').on('select2-close', function() {
+        clearManualTagPartnerSelectionPending()
+    })
+
     $('body').on('change', 'select', function(e) {
         if (!e.originalEvent) return;
         console.log("refreshing team preview")
@@ -461,6 +481,11 @@ $(document).ready(function() {
 
         var right_max_hp = $("#p1 .max-hp").text()
         $("#p1 .current-hp").val(right_max_hp)//.change()
+    })
+
+    $(document).on('click', '.tag-partner-change', function(e) {
+        e.preventDefault()
+        beginManualTagPartnerSelection()
     })
 
     $(document).on('contextmenu', '.tag-partner-preview .tag-partner-pok', function(e) {
