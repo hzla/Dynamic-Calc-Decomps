@@ -401,6 +401,9 @@ function getFlingPower(item) {
         return 20;
     if (item.includes('Berry') || FLING_10.has(item))
         return 10;
+    if (item == "Bicycle") {
+        return 150;
+    }
     return 0;
 }
 

@@ -314,6 +314,7 @@ var DPP = ADV.concat([
     'Yache Berry',
     'Zap Plate',
     'Zoom Lens',
+    "Bicycle"
 ]);
 var BW = DPP.concat([
     'Absorb Bulb',
