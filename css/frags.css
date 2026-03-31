@@ -178,12 +178,10 @@ a:visited {
     margin-bottom: 10px;
 }
 
-#import-sheet {
-    width: calc(50% - 25px);
-}
-
-#export-sheet {
-    width: calc(50% - 25px);
+#import-sheet,
+#export-sheet,
+#reload-box-battlelog {
+    width: calc(33.33% - 17px);
 }
 
 #reset-sheet {
@@ -937,7 +935,8 @@ body.battle-log-mode #battle-log-fragsheet-panel {
 }
 
 #fragsheet-shell #import-sheet,
-#fragsheet-shell #export-sheet {
+#fragsheet-shell #export-sheet,
+#fragsheet-shell #reload-box-battlelog {
     width: auto;
     flex: 1 1 180px;
     margin-bottom: 0;

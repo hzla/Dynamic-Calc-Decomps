@@ -68,6 +68,103 @@ function resetSheet() {
     }
 }
 
+function cloneEncounterSetData(setData) {
+    if (!setData || typeof setData !== "object") {
+        return {}
+    }
+
+    if (typeof structuredClone === "function") {
+        return structuredClone(setData)
+    }
+
+    return JSON.parse(JSON.stringify(setData))
+}
+
+function getCurrentBoxSetsForReload() {
+    if (typeof customSets === "object" && customSets) {
+        return customSets
+    }
+
+    try {
+        return JSON.parse(localStorage.customsets || "{}")
+    } catch (_error) {
+        return {}
+    }
+}
+
+function rebuildFragsheetFromCurrentBox() {
+    const currentBoxSets = getCurrentBoxSetsForReload()
+    const rebuiltEncounters = {}
+
+    for (const [speciesName, setData] of Object.entries(currentBoxSets)) {
+        if (!setData || !setData["My Box"]) {
+            continue
+        }
+
+        const encounter = {
+            setData: cloneEncounterSetData(setData),
+            fragCount: 0,
+            frags: [],
+            prevoFragCount: 0,
+            alive: true,
+            hide: false
+        }
+
+        delete encounter.setData["My Box"].moves
+        delete encounter.setData["My Box"].isCustomSet
+        delete encounter.setData["My Box"].level
+
+        rebuiltEncounters[speciesName] = encounter
+
+        let preFrags = [0, [], false, false]
+        if (typeof window.prevoData === "function") {
+            try {
+                preFrags = window.prevoData(speciesName, rebuiltEncounters) || preFrags
+            } catch (_error) {
+                preFrags = [0, [], false, false]
+            }
+        }
+
+        encounter.prevoFragCount = Number(preFrags[0]) || 0
+        encounter.fragCount = encounter.prevoFragCount
+        encounter.frags = Array.isArray(preFrags[1]) ? [...preFrags[1]] : []
+
+        if (preFrags[2]) {
+            encounter.setData["My Box"].met = preFrags[2]
+        }
+
+        if (preFrags[3]) {
+            encounter.setData["My Box"].nn = preFrags[3]
+        }
+    }
+
+    localStorage.encounters = JSON.stringify(rebuiltEncounters)
+    window.encounters = rebuiltEncounters
+    if (typeof encounters !== "undefined") {
+        encounters = rebuiltEncounters
+    }
+
+    return rebuiltEncounters
+}
+
+function reloadFragsheetFromBoxAndBattleLog() {
+    if (!confirm("Reload the fragsheet from your current box and then reapply frag counts from the battle log? This will clear current fragsheet encounter and frag data first.")) {
+        return
+    }
+
+    rebuildFragsheetFromCurrentBox()
+
+    if (typeof window.refreshTables === "function" && window.gridApi) {
+        window.refreshTables()
+    }
+
+    if (typeof window.renderBattleLogView === "function") {
+        window.renderBattleLogView(true)
+    } else if (typeof window.refreshTables === "function" && window.gridApi) {
+        window.refreshTables()
+    }
+}
+
 let fragsheetControlsInitialized = false;
 
 function ensureFragsheetControlsInitialized() {
@@ -75,7 +172,7 @@ function ensureFragsheetControlsInitialized() {
         return true;
     }
 
-    if (!document.getElementById('import-sheet') || !document.getElementById('export-sheet') || !document.getElementById('reset-sheet')) {
+    if (!document.getElementById('import-sheet') || !document.getElementById('export-sheet') || !document.getElementById('reset-sheet') || !document.getElementById('reload-box-battlelog')) {
         return false;
     }
 
@@ -85,12 +182,13 @@ function ensureFragsheetControlsInitialized() {
 
     $('#import-sheet').off('click', importSheet).on('click', importSheet);
     $('#export-sheet').off('click', exportSheet).on('click', exportSheet);
+    $('#reload-box-battlelog').off('click', reloadFragsheetFromBoxAndBattleLog).on('click', reloadFragsheetFromBoxAndBattleLog);
     $('#reset-sheet').off('click', resetSheet).on('click', resetSheet);
     fragsheetControlsInitialized = true;
     return true;
 }
 
 window.ensureFragsheetControlsInitialized = ensureFragsheetControlsInitialized;
+window.reloadFragsheetFromBoxAndBattleLog = reloadFragsheetFromBoxAndBattleLog;
 
 document.addEventListener('DOMContentLoaded', ensureFragsheetControlsInitialized);
-

@@ -1093,13 +1093,55 @@
             return;
         }
 
+        function resolveEncounterSpeciesForBattleLogMon(species) {
+            if (!species || !window.encounters || typeof window.encounters !== "object") {
+                return null;
+            }
+
+            if (window.encounters[species]) {
+                return species;
+            }
+
+            const evoMap = (window.evoData && typeof window.evoData === "object") ? window.evoData : null;
+            if (!evoMap) {
+                return null;
+            }
+
+            let speciesKey = species;
+            let evoEntry = evoMap[speciesKey];
+
+            if (!evoEntry && String(species).includes("-")) {
+                speciesKey = String(species).split("-")[0];
+                evoEntry = evoMap[speciesKey];
+            }
+
+            if (!evoEntry || !evoEntry.anc || !evoMap[evoEntry.anc]) {
+                return null;
+            }
+
+            const evolutionChain = [evoEntry.anc].concat(evoMap[evoEntry.anc].evos || []);
+            const sourceIndex = evolutionChain.indexOf(speciesKey);
+            if (sourceIndex < 0) {
+                return null;
+            }
+
+            for (let i = evolutionChain.length - 1; i > sourceIndex; i -= 1) {
+                const evolvedSpecies = evolutionChain[i];
+                if (window.encounters[evolvedSpecies]) {
+                    return evolvedSpecies;
+                }
+            }
+
+            return null;
+        }
+
         const speciesPresent = {};
 
         sessions.forEach((session) => {
             const party = Array.isArray(session && session.start && session.start.pParty) ? session.start.pParty : [];
             party.forEach((mon) => {
-                const species = mon && mon.species;
-                if (species && window.encounters[species]) {
+                const species = resolveEncounterSpeciesForBattleLogMon(mon && mon.species);
+                if (species) {
                     speciesPresent[species] = true;
                 }
             });
@@ -1130,7 +1172,7 @@
                 }
 
                 if (!event || event.type !== "pKo") return;
-                const pSpecies = event.pSpecies;
+                const pSpecies = resolveEncounterSpeciesForBattleLogMon(event.pSpecies);
                 const aiSpecies = event.aiSpecies || "Unknown";
                 if (!pSpecies || !window.encounters[pSpecies]) return;
 

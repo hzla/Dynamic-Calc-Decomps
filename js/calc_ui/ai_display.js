@@ -61,6 +61,14 @@ function renderAiBlocks(blocks) {
     return html
 }
 
+function getAiHeaderLinkHtml() {
+    if (TITLE !== "Platinum Kaizo") {
+        return ""
+    }
+
+    return `<a class="ai-header-link" href="https://gist.github.com/hzla/2af68d802a571d6f1ba5e061981a36cc" target="_blank" rel="noopener noreferrer">Click Here to see detailed PK AI changes</a>`
+}
+
 $(document).on('click', '#show-ai', function() {
         
         let selectedMoveBtn = $(".results-right .visually-hidden:checked + .btn")
@@ -99,7 +107,7 @@ $(document).on('click', '#show-ai', function() {
             let aiInfo = getAiTextByEffectId(moveData.e_id, aiQueryOptions)
             let aiHtml = ""
 
-            aiHtml += `<div class="ai-header"><h2>${escapeAiHtml(move)} AI: Effect ${escapeAiHtml(aiInfo.effectId)}</h2></div>`
+            aiHtml += `<div class="ai-header"><h2>${escapeAiHtml(move)} AI: Effect ${escapeAiHtml(aiInfo.effectId)}</h2>${getAiHeaderLinkHtml()}</div>`
 
             let sectionsRendered = 0
             for (let i = 0; i < visibleSections.length; i++) {
@@ -135,7 +143,7 @@ $(document).on('click', '#show-ai', function() {
             var ai_content = g5Effects[effect_code]
 
             ai_html = ""
-            ai_html += `<h2>${move} AI</h2><br>`
+            ai_html += `<div class="ai-header"><h2>${move} AI</h2>${getAiHeaderLinkHtml()}</div><br>`
 
             for (n in ai_content) {
                 ai_html += ai_content[n].replace("\t", "&ensp;")
