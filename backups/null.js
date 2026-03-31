@@ -213479,7 +213479,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "tr_id": 820,
-                "ability": "Huge Power",
+                "ability": "Intimidate",
                 "gender": "Male"
             },
             "Lvl 100 Frontier Head Noland |Victory Road|":
