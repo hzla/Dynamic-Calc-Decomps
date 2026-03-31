@@ -2458,6 +2458,10 @@ select.toxic-counter {
     border: 1px solid #bb86fc ;
 }
 
+#fragsheet-howto {
+    display: none !important;
+}
+
 .field-info.sun {
     background-color: rgba(168, 71, 0, 0.15);
 }

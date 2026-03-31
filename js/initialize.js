@@ -137,6 +137,7 @@ SOURCES = {
   "5b789b0056c18c5c668b": "Platinum Redux 2.6",
   "de22f896c09fceb0b273": "Maximum Platinum",
   "casc": "Cascade White",
+  "casc2": "Cascade White Dev",
   "ee9b421600cd6487e4e3": "Photonic Sun/Prismatic Moon",
   "d3501821feaa976d581a": "Azure Platinum",
   "fro": "Fire Red Omega",
