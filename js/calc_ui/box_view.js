@@ -500,8 +500,24 @@
     function renderBoxCard(entry) {
         const moves = Array.isArray(entry.setData.moves) ? entry.setData.moves.slice(0, 4) : [];
         const metLocation = entry.setData.met ? String(entry.setData.met).trim() : "";
+        const statRows = [];
         while (moves.length < 4) {
             moves.push("");
+        }
+
+        if (entry.fragCount > 0) {
+            statRows.push(`
+                <div class="box-card-stat-row">
+                    <span class="box-card-stat-value">${escapeHtml(entry.fragCount)} Frags</span>
+                </div>
+            `);
+        }
+        if (entry.battleCount > 0) {
+            statRows.push(`
+                <div class="box-card-stat-row">
+                    <span class="box-card-stat-value">${escapeHtml(entry.battleCount)} Battles</span>
+                </div>
+            `);
         }
 
         return `
@@ -520,12 +536,7 @@
                                 <div class="box-card-level">Lv. ${escapeHtml(entry.level)}${metLocation ? ` <span class="box-card-level-separator">|</span> ${escapeHtml(metLocation)}` : ""}</div>
                                 <div class="box-card-level box-card-submeta">${escapeHtml(entry.setData.ability || "Unknown")}</div>
                                 <div class="box-card-stats">
-                                    <div class="box-card-stat-row">
-                                        <span class="box-card-stat-value">${escapeHtml(entry.fragCount)} Frags</span>
-                                    </div>
-                                    <div class="box-card-stat-row">
-                                        <span class="box-card-stat-value">${escapeHtml(entry.battleCount)} Battles</span>
-                                    </div>
+                                    ${statRows.join("")}
                                 </div>
                             </div>
                         </div>
