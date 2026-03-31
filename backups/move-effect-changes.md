@@ -1,8 +1,8 @@
 # Move Effect Changes
 
-Compared `pt.js` against `pkv5.js`.
+Compared `pt.js` against `pkv5h.js`.
 
-Found **72** moves where the shared move name has a different `e_id`.
+Found **71** moves where the shared move name has a different `e_id`.
 
 ---
 
@@ -28,7 +28,7 @@ Otherwise:
   25% (64/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -40,7 +40,7 @@ Otherwise:
 50% of the time, score +2.
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -70,7 +70,7 @@ Otherwise:
   25% (64/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -82,7 +82,7 @@ Otherwise:
 50% of the time, score +2.
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -103,7 +103,7 @@ Otherwise:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the user's current accuracy is reduced to -5 or lower, or the target's current evasion is boosted to +5 or more:
@@ -136,7 +136,7 @@ Else:
   Score +2 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -148,7 +148,7 @@ Else:
 50% of the time, score +2.
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -172,7 +172,7 @@ If the user's HP is under 91%:
   Score -2 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the foe is asleep, infatuated, or confused:
@@ -213,7 +213,7 @@ If the target's ability is Wonder Guard, and the effectiveness of the move is no
   Score -12 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -244,7 +244,7 @@ If the user will attack before the target:
 (No applicable AI procedures)
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 50% of the time, score +2.
@@ -277,7 +277,7 @@ If the user will move before the target, and the user's HP is over 40%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -297,7 +297,7 @@ If the target's ability is Wonder Guard, and the effectiveness of the move is no
   Score -12 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -317,7 +317,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -367,7 +367,7 @@ Otherwise:
   68.8% (176/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -394,7 +394,7 @@ If the user's ability is Rock Head or Magic Guard:
   Score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -423,7 +423,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 4x (damaging or non damaging):
@@ -448,7 +448,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
   50% (128/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -460,7 +460,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
 (No applicable AI procedures)
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 68.75% of the time, score +2.
@@ -490,7 +490,7 @@ If the user will move before the target, and the user's HP is under 61%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -519,7 +519,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 4x (damaging or non damaging):
@@ -548,7 +548,7 @@ Otherwise:
   72.7% (186/256) chance of score +2 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -581,7 +581,7 @@ If the target's HP is over 85%:
   90.2% (231/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -603,7 +603,7 @@ If the target's ability is Wonder Guard, and the effectiveness of the move is no
   Score -12 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -619,7 +619,7 @@ If the target's ability is Wonder Guard, and the effectiveness of the move is no
 (No applicable AI procedures)
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 68.75% of the time, score +2.
@@ -662,7 +662,7 @@ Otherwise:
   68.8% (176/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -705,7 +705,7 @@ Otherwise:
   68.8% (176/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -726,7 +726,7 @@ Otherwise:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -754,7 +754,7 @@ If the user will move before the target, and the user's HP is under 61%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -781,7 +781,7 @@ If the user's ability is Rock Head or Magic Guard:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -800,7 +800,7 @@ Otherwise:
 (No applicable AI procedures)
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 50% of the time, score +2.
@@ -821,7 +821,7 @@ Otherwise:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the user's current accuracy is reduced to -5 or lower, or the target's current evasion is boosted to +5 or more:
@@ -848,7 +848,7 @@ If the user's current accuracy is reduced to -3 or lower, or the target's curren
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -867,7 +867,7 @@ Otherwise:
 (No applicable AI procedures)
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 50% of the time, score +2.
@@ -891,7 +891,7 @@ Unconditionally:
   25% (64/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -926,7 +926,7 @@ If the target is a higher level than the user:
   Score -10 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -969,7 +969,7 @@ Otherwise:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -985,7 +985,7 @@ If the user's ability is Rock Head or Magic Guard:
 (No applicable AI procedures)
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -1005,7 +1005,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -1035,7 +1035,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -1054,7 +1054,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -1088,7 +1088,7 @@ If the target's HP is under 71%:
   Score -2 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the user will move before the target:
@@ -1114,7 +1114,7 @@ If the target's ability is Clear Body or White Smoke:
   Score -10 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -1154,7 +1154,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
   50% (128/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -1166,7 +1166,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
 (No applicable AI procedures)
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 68.75% of the time, score +2.
@@ -1199,7 +1199,7 @@ If the user will move before the target, and the user's HP is over 40%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -1212,7 +1212,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -1240,7 +1240,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -1263,7 +1263,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -1275,7 +1275,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 50% of the time, score +2.
@@ -1308,7 +1308,7 @@ If the user will move before the target, and the user's HP is over 40%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -1325,74 +1325,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
-
-```text
-If the move can KO the target:
-  Score +4 and terminate
-
-If this is a damaging move, and the move cannot KO the target, and a different move the user knows would do more damage to the target:
-  Score -1 and terminate
-
-If the effectiveness of the move is 4x (damaging or non damaging):
-  68.8% (176/256) chance of score +2 and terminate
-```
-
----
-
-## Head Smash
-
-- Old ID: `269`
-- New ID: `48`
-- Old Effect: 1/2 damage recoil (269)
-- New Effect: 1/4 damage recoil (48)
-
-- Changed non-expert AI sections: BASIC AI, EVALUATE ATKS AI
-
-### Old Expert AI (pt.js)
-
-```text
-If the effectiveness of the move is 1/2x, 1/4x, or 0x:
-  No scoring change and terminate
-
-If the user's ability is Rock Head or Magic Guard:
-  Score +1 and terminate
-```
-
-### New Expert AI (pkv5.js)
-
-```text
-If the effectiveness of the move is 1/2x, 1/4x, or 0x:
-  No scoring change and terminate
-
-If the user's ability is Rock Head or Magic Guard:
-  Score +1 and terminate
-```
-
-### Old BASIC AI (pt.js)
-
-```text
-(No applicable AI procedures)
-```
-
-### New BASIC AI (pkv5.js)
-
-```text
-If the effectiveness of the move is 0x:
-  Score -10 and terminate
-
-If the target's ability is Wonder Guard, and the effectiveness of the move is not 2x or 4x, and the user's ability is not Mold Breaker:
-  Score -12 and terminate
-```
-
-### Old EVALUATE ATKS AI (pt.js)
-
-```text
-If the effectiveness of the move is 4x (damaging or non damaging):
-  68.8% (176/256) chance of score +2 and terminate
-```
-
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -1436,7 +1369,7 @@ Else:
   Score -2 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -1462,7 +1395,7 @@ Otherwise:
   Score -10 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -1502,7 +1435,7 @@ If the user will move before the target, and the user's HP is over 40%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -1522,7 +1455,7 @@ If the target's ability is Wonder Guard, and the effectiveness of the move is no
   Score -12 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -1542,7 +1475,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -1582,7 +1515,7 @@ If the user will move before the target, and the user's HP is over 40%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -1599,7 +1532,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -1627,7 +1560,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -1679,7 +1612,7 @@ Otherwise:
   72.7% (186/256) chance of score -2 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the user's HP is under 70%, or the target's special defense is reduced to -3 or lower:
@@ -1711,7 +1644,7 @@ If the target's ability is Clear Body or White Smoke:
   Score -10 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -1749,7 +1682,7 @@ If the user will move before the target, and the user's HP is under 61%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -1773,7 +1706,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
   50% (128/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -1785,7 +1718,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
 (No applicable AI procedures)
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 68.75% of the time, score +2.
@@ -1808,7 +1741,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -1827,7 +1760,7 @@ Otherwise:
 (No applicable AI procedures)
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 50% of the time, score +2.
@@ -1866,7 +1799,7 @@ Else:
   80.5% (206/256) chance of score -3 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the target's evasion is boosted to +1 or more:
@@ -1910,7 +1843,7 @@ If the user has no living party members:
   Score -10 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -1945,7 +1878,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 Unconditionally:
@@ -1961,7 +1894,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 50% of the time, score +2.
@@ -1988,7 +1921,7 @@ If the target's HP is under 71%:
   Score -2 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the user will move before the target:
@@ -2017,7 +1950,7 @@ If the target's ability is Clear Body or White Smoke:
   Score -10 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -2057,7 +1990,7 @@ If the target's ability is Clear Body or White Smoke:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2068,11 +2001,9 @@ If the target's ability is Clear Body or White Smoke:
 ## Outrage
 
 - Old ID: `27`
-- New ID: `269`
+- New ID: `48`
 - Old Effect: Locked into move for 2-3 turns; confuses User after (27)
-- New Effect: 1/2 damage recoil (269)
-
-- Changed non-expert AI sections: BASIC AI, EVALUATE ATKS AI
+- New Effect: 1/4 damage recoil (48)
 
 ### Old Expert AI (pt.js)
 
@@ -2080,7 +2011,7 @@ If the target's ability is Clear Body or White Smoke:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -2088,42 +2019,6 @@ If the effectiveness of the move is 1/2x, 1/4x, or 0x:
 
 If the user's ability is Rock Head or Magic Guard:
   Score +1 and terminate
-```
-
-### Old BASIC AI (pt.js)
-
-```text
-If the effectiveness of the move is 0x:
-  Score -10 and terminate
-
-If the target's ability is Wonder Guard, and the effectiveness of the move is not 2x or 4x, and the user's ability is not Mold Breaker:
-  Score -12 and terminate
-```
-
-### New BASIC AI (pkv5.js)
-
-```text
-(No applicable AI procedures)
-```
-
-### Old EVALUATE ATKS AI (pt.js)
-
-```text
-If the move can KO the target:
-  Score +4 and terminate
-
-If this is a damaging move, and the move cannot KO the target, and a different move the user knows would do more damage to the target:
-  Score -1 and terminate
-
-If the effectiveness of the move is 4x (damaging or non damaging):
-  68.8% (176/256) chance of score +2 and terminate
-```
-
-### New EVALUATE ATKS AI (pkv5.js)
-
-```text
-If the effectiveness of the move is 4x (damaging or non damaging):
-  68.8% (176/256) chance of score +2 and terminate
 ```
 
 ---
@@ -2148,7 +2043,7 @@ If the user will move before the target, and the user's HP is under 61%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -2173,7 +2068,7 @@ If the user's ability is Rock Head or Magic Guard:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2197,7 +2092,7 @@ If the user's HP is under 50%, or the target's HP is under 51%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the user has a move that inflicts damage:
@@ -2217,7 +2112,7 @@ If the user knows the move Protect or Detect:
 68.75% of the time, score +2.
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2229,7 +2124,7 @@ If the user knows the move Protect or Detect:
 50% of the time, score +2.
 ```
 
-### New HARASS AI (pkv5.js)
+### New HARASS AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2252,7 +2147,7 @@ If the user knows the move Protect or Detect:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -2271,7 +2166,7 @@ Otherwise:
 (No applicable AI procedures)
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 50% of the time, score +2.
@@ -2299,7 +2194,7 @@ If the user will move before the target, and the user's HP is under 61%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2320,7 +2215,7 @@ If the user will move before the target, and the user's HP is under 61%:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If this is the user's first turn in battle, or the target is Ghost or Psychic type:
@@ -2345,7 +2240,7 @@ If the target knows the move U-Turn:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2372,7 +2267,7 @@ Else:
   Score +2 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -2409,7 +2304,7 @@ If the user will move before the target, and the user's HP is over 40%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2422,7 +2317,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -2450,7 +2345,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2474,7 +2369,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
   50% (128/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2486,7 +2381,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
 (No applicable AI procedures)
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 68.75% of the time, score +2.
@@ -2516,7 +2411,7 @@ Otherwise:
   25% (64/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2528,7 +2423,7 @@ Otherwise:
 50% of the time, score +2.
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2552,7 +2447,7 @@ Unconditionally:
   25% (64/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -2584,7 +2479,7 @@ If the target is a higher level than the user:
   Score -10 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -2600,7 +2495,7 @@ If the target's ability is Wonder Guard, and the effectiveness of the move is no
 50% of the time, score +2.
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2633,7 +2528,7 @@ If the user's HP is under 39%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2645,7 +2540,7 @@ If the user's HP is under 39%:
 (No applicable AI procedures)
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -2662,7 +2557,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -2690,7 +2585,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2711,7 +2606,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2734,7 +2629,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the user's current special defense is boosted to +3 or more:
@@ -2773,7 +2668,7 @@ If the user's Stockpile count is 3:
   Score -10 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -2798,7 +2693,7 @@ If the user's current special defense is boosted to +6:
 (No applicable AI procedures)
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 68.75% of the time, score +2.
@@ -2825,7 +2720,7 @@ If the user's ability is Rock Head or Magic Guard:
   Score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2837,7 +2732,7 @@ If the user's ability is Rock Head or Magic Guard:
 (No applicable AI procedures)
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 68.75% of the time, score +2.
@@ -2864,7 +2759,7 @@ Unconditionally:
   75% (192/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2876,7 +2771,7 @@ Unconditionally:
 (No applicable AI procedures)
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -2896,7 +2791,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -2915,7 +2810,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 50% of the time, score +2.
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -2948,7 +2843,7 @@ If the user will move before the target, and the user's HP is over 40%:
   Score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -2965,7 +2860,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the move can KO the target:
@@ -3009,7 +2904,7 @@ Otherwise:
   92.2% (236/256) chance of score +2 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -3031,7 +2926,7 @@ If the user's Stockpile count is 0:
   Score -10 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -3047,7 +2942,7 @@ If the target's ability is Wonder Guard, and the effectiveness of the move is no
 (No applicable AI procedures)
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 68.75% of the time, score +2.
@@ -3074,7 +2969,7 @@ If the user's ability is Rock Head or Magic Guard:
   Score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -3103,7 +2998,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
   68.8% (176/256) chance of score +2 and terminate
 ```
 
-### New EVALUATE ATKS AI (pkv5.js)
+### New EVALUATE ATKS AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 4x (damaging or non damaging):
@@ -3127,7 +3022,7 @@ If the effectiveness of the move is 4x (damaging or non damaging):
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the target's HP is over 70%:
@@ -3153,7 +3048,7 @@ If the target's ability is Wonder Guard, and the effectiveness of the move is no
   Score -12 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -3219,7 +3114,7 @@ Attached list
 - Black Sludge
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -3240,7 +3135,7 @@ Attached list
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -3263,7 +3158,7 @@ Attached list
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -3275,7 +3170,7 @@ Attached list
 (No applicable AI procedures)
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 68.75% of the time, score +2.
@@ -3303,7 +3198,7 @@ Otherwise:
   23.9% (1957/8192) chance of score -1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the user's current accuracy is reduced to -5 or lower, or the target's current evasion is boosted to +5 or more:
@@ -3331,7 +3226,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
   50% (128/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -3343,7 +3238,7 @@ If the target is badly poisoned, or infatuated, or under the effect or Curse, or
 (No applicable AI procedures)
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 68.75% of the time, score +2.
@@ -3376,7 +3271,7 @@ If the target's HP is over 85%:
   90.2% (231/256) chance of score +1 and terminate
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -3403,7 +3298,7 @@ If the target's ability is Wonder Guard, and the effectiveness of the move is no
   Score -12 and terminate
 ```
 
-### New BASIC AI (pkv5.js)
+### New BASIC AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 0x:
@@ -3430,7 +3325,7 @@ If the target's ability is Wonder Guard, and the effectiveness of the move is no
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the effectiveness of the move is 1/2x, 1/4x, or 0x:
@@ -3449,7 +3344,7 @@ Otherwise:
 (No applicable AI procedures)
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 50% of the time, score +2.
@@ -3472,7 +3367,7 @@ Otherwise:
 (No applicable AI procedures)
 ```
 
-### New Expert AI (pkv5.js)
+### New Expert AI (pkv5h.js)
 
 ```text
 If the user also knows the move Nightmare or Dream Eater:
@@ -3485,7 +3380,7 @@ If the user also knows the move Nightmare or Dream Eater:
 68.75% of the time, score +2.
 ```
 
-### New 1ST TURN SETUP AI (pkv5.js)
+### New 1ST TURN SETUP AI (pkv5h.js)
 
 ```text
 (No applicable AI procedures)
@@ -3497,7 +3392,7 @@ If the user also knows the move Nightmare or Dream Eater:
 (No applicable AI procedures)
 ```
 
-### New RISKY AI (pkv5.js)
+### New RISKY AI (pkv5h.js)
 
 ```text
 50% of the time, score +2.

@@ -200,8 +200,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
                         basePower = move.bp * 2;
                         desc.moveBP = basePower;
                     }   
-                }
-                
+                }     
                 break;
             case 'Flail':
             case 'Reversal':
@@ -217,7 +216,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
             case 'Grass Knot':
             case 'Low Kick':
                 var w = defender.weightkg;
-                basePower = w >= 200 ? 120 : w >= 100 ? 100 : w >= 50 ? 80 : w >= 25 ? 60 : w >= 10 ? 40 : 20;
+                basePower = w > 200 ? 120 : w > 100 ? 100 : w > 50 ? 80 : w > 25 ? 60 : w > 10 ? 40 : 20;
                 desc.moveBP = basePower;
                 break;
             case 'Gyro Ball':
@@ -255,16 +254,16 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 break;
             case 'Fury Cutter':
                 if (TITLE == "Platinum Kaizo") {
-                    basePower = (hitCount + 1) * 30;
-                    desc.moveBP = move.hits === 2 ? 90 : move.hits === 3 ? 180 : 30;
+                    basePower = (hitCount + 1) * 20;
+                    desc.moveBP = move.hits === 2 ? 60 : move.hits === 3 ? 120 : 30;
                 } else {
                     break
                 }     
                 break;
             case 'Triple Kick':
                 if (TITLE == "Platinum Kaizo") {
-                    basePower = (hitCount + 1) * 30;
-                    desc.moveBP = move.hits === 2 ? 90 : move.hits === 3 ? 180 : 30;
+                    basePower = (hitCount + 1) * 20;
+                    desc.moveBP = move.hits === 2 ? 60 : move.hits === 3 ? 120 : 30;
                 } else {
                     basePower = (hitCount + 1) * 10;
                     desc.moveBP = move.hits === 2 ? 30 : move.hits === 3 ? 60 : 10;
@@ -272,9 +271,14 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 
                 break;
             case 'Rock Wrecker':
+                if (TITLE == "Platinum Kaizo") {
+                    basePower = (hitCount + 1) * 20;;
+                    desc.moveBP = move.hits === 2 ? 70 : move.hits === 3 ? 120 : 30; 
+                }
+                break;
             case 'Triple Axel':
-                basePower = (hitCount + 1) * 40;;
-                desc.moveBP = move.hits === 2 ? 120 : move.hits === 3 ? 240 : 40;
+                basePower = (hitCount + 1) * 20;;
+                desc.moveBP = move.hits === 2 ? 70 : move.hits === 3 ? 120 : 30;
                 break;
             default:
                 basePower = move.bp;

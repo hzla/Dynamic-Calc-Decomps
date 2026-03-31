@@ -533,7 +533,8 @@
                         <div class="box-card-heading">
                             <div class="box-card-title-group">
                                 <div class="box-card-name">${escapeHtml(entry.displayName)}${entry.genderMarkup ? ` ${entry.genderMarkup}` : ""}</div>
-                                <div class="box-card-level">Lv. ${escapeHtml(entry.level)}${metLocation ? ` <span class="box-card-level-separator">|</span> ${escapeHtml(metLocation)}` : ""}</div>
+                                <div class="box-card-level">Lv. ${escapeHtml(entry.level)}</div>
+                                ${metLocation ? `<div class="box-card-level">${escapeHtml(metLocation)}</div>` : ""}
                                 <div class="box-card-level box-card-submeta">${escapeHtml(entry.setData.ability || "Unknown")}</div>
                                 <div class="box-card-stats">
                                     ${statRows.join("")}

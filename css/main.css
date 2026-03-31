@@ -818,7 +818,7 @@ input[type="file"] {
 }
 
 .box-card-stat-value {
-    color: #f8f8f2;
+    color: rgba(241, 241, 241, 0.72);
     font-weight: 400;
 }
 
@@ -844,7 +844,7 @@ input[type="file"] {
 
 .box-card-radar-meta {
     width: 100%;
-    display: grid;
+    display: none;
     gap: 4px;
 }
 
