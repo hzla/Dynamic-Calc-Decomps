@@ -11,6 +11,10 @@ function loadDex(url) {
 
 	// Set iframe properties
 	iframe.src = `https://ddex-chi.vercel.app/${url}`;
+
+	// Comment out for prod
+	// iframe.src = `http://localhost:3000/${url}`;
+
 	iframe.style.position = 'fixed';
 	iframe.style.top = '50%';
 	iframe.style.left = '50%';
