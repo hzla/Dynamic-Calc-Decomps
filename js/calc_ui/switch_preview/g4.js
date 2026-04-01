@@ -356,11 +356,24 @@ function get_next_in_g4() {
         other_mons.push([trainer_poks[i], 0, "", sub_index, pok_data["moves"], highestDamage, highestDamageName, '', expYield, null])
     }
 
-    console.log(se_mons.sort(sort_trpoks_g4).concat(other_mons.sort(sort_trpoks_g4)))
-    return (se_mons.sort(sort_trpoks_g4).concat(other_mons.sort(sort_trpoks_g4)))
+    orderedMons = []
+
+    if (settings.noSwitch) {
+        orderedMons = se_mons.concat(other_mons).sort(sort_trpoks_g4)
+    } else {
+        orderedMons = se_mons.sort(sort_trpoks_g4).concat(other_mons.sort(sort_trpoks_g4))
+    }
+
+    console.log(orderedMons)
+    return (orderedMons)
 }
 
 function sort_trpoks_g4(a, b) {
+    console.log(settings.noSwitch)
+    if (settings.noSwitch) {
+        return (b[3] > a[3]) ? -1 : 1;
+    }
+
     if (a[5] === b[5]) {
         return (b[3] > a[3]) ? -1 : 1;
     }
@@ -368,3 +381,5 @@ function sort_trpoks_g4(a, b) {
         return (b[5] < a[5]) ? -1 : 1;
     }
 }
+
+
