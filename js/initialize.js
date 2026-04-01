@@ -385,6 +385,9 @@ if (SOURCES[params.get('data')]) {
     TITLE = SOURCES[params.get('data')] || "NONE"
 
     setGameSettings(TITLE)
+    if (typeof applyAutoImportMegasVisibility === "function") {
+        applyAutoImportMegasVisibility()
+    }
     window.baseGame ||= ""
     setBaseGame(TITLE)
     // if (TITLE.includes("Inclement") ) {

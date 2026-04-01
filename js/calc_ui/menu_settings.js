@@ -74,6 +74,10 @@ function setSettingsDefaults() {
     localStorage.filterAbilities = 1
   }
 
+  if (typeof localStorage.autoImportMegas === 'undefined') {
+    localStorage.autoImportMegas = 1
+  }
+
   if (typeof localStorage.dynamicTypeBug === 'undefined') {
     localStorage.dynamicTypeBug = 1
   }
@@ -167,6 +171,7 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.highlightMoves == '1') {
         $('#toggle-hl-moves input').prop('checked', true)
     }
+    syncAutoImportMegaToggles()
     if (localStorage.enableAnalytics == '1') {
         $('#toggle-analytics input').prop('checked', true)
     }
@@ -176,6 +181,7 @@ function setSettingsTogglesFromLocalStorage() {
     }
 
     applySyncLuaVisibility()
+    applyAutoImportMegasVisibility()
 }
 
 function toggleBoxSpriteStyle() {
@@ -235,6 +241,23 @@ function applySyncLuaVisibility() {
     }
 }
 
+function applyAutoImportMegasVisibility() {
+    var isVisible = Boolean(settings && settings.damageGen >= 6)
+    $('#toggle-auto-import-megas').toggle(isVisible)
+    $('#toggle-auto-import-megas-inline').toggle(isVisible)
+}
+
+function syncAutoImportMegaToggles() {
+    var enabled = localStorage.autoImportMegas == '1'
+    $('#toggle-auto-import-megas input').prop('checked', enabled)
+    $('#toggle-auto-import-megas-inline input').prop('checked', enabled)
+}
+
+function toggleAutoImportMegas() {
+    localStorage.autoImportMegas = (parseInt(localStorage.autoImportMegas) + 1) % 2
+    syncAutoImportMegaToggles()
+}
+
 
 // Settings Event Bindings
 
@@ -261,6 +284,9 @@ $('#toggle-battle-notes .slider').click(function(){
 $('#toggle-hl-moves .slider').click(function(){
     localStorage.highlightMoves = (parseInt(localStorage.highlightMoves) + 1) % 2   
 })
+
+$('#toggle-auto-import-megas .slider').click(toggleAutoImportMegas)
+$('#toggle-auto-import-megas-inline .slider').click(toggleAutoImportMegas)
 
 $('#toggle-additional-field-options').click(function(){
     localStorage.showAdditionalFieldOptions = (parseInt(localStorage.showAdditionalFieldOptions) + 1) % 2   

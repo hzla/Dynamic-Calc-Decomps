@@ -1546,7 +1546,33 @@ table td {
 }
 
 .trainer-poks-label {
-    margin:  10px 0px;
+    margin:  10px 10px;
+}
+
+.mega-box-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mini-switch {
+    width: 32px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+.mini-switch .slider {
+    border-radius: 16px;
+}
+
+.mini-switch .slider:before {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.mini-switch input:checked + .slider:before {
+    transform: translateX(16px);
 }
 
 .trainer-pok-list {
@@ -1686,6 +1712,27 @@ table td {
     margin-top:  10px;
     padding-bottom: 10px;
 
+}
+
+.player-megas-wrapper {
+    display: none;
+    margin-top: 12px;
+}
+
+.player-megas {
+    background: rgba(255,255,255,0.1);
+    background-size: 100% 595px;
+    background-repeat: no-repeat;
+    height: auto;
+    width: calc(100% - 20px);
+    border-radius: 10px;
+    margin-left: 10px;
+    overflow: scroll;
+    min-height: 65px;
+    justify-content: flex-start;
+    gap: 0px 8px;
+    margin-top: 10px;
+    padding: 10px 0px;
 }
 
 .player-party {

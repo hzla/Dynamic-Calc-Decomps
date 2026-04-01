@@ -705,42 +705,255 @@ function getMoves(currentPoke, rows, offset) {
 	return currentPoke;
 }
 
-function addToDex(poke) {
-	var dexObject = {};
+function cloneImportedSetData(setData) {
+	if (!setData || typeof setData !== "object") {
+		return {};
+	}
 
+	if (typeof structuredClone === "function") {
+		return structuredClone(setData);
+	}
+
+	return JSON.parse(JSON.stringify(setData));
+}
+
+function getStoredCustomSets() {
+	if (!localStorage.customsets) {
+		return {};
+	}
+
+	try {
+		return JSON.parse(localStorage.customsets);
+	} catch (_error) {
+		return {};
+	}
+}
+
+function isMegaSpeciesName(speciesName) {
+	return typeof speciesName === "string" && speciesName.includes("-Mega");
+}
+
+function getMegaBaseSpeciesName(speciesName) {
+	if (!speciesName) {
+		return speciesName;
+	}
+
+	var species = pokedex[speciesName];
+	return species && species.baseSpecies ? species.baseSpecies : speciesName;
+}
+
+function getMegaCandidateFormes(baseSpeciesName) {
+	var species = pokedex[baseSpeciesName];
+	if (!species || !Array.isArray(species.otherFormes)) {
+		return [];
+	}
+
+	return species.otherFormes.filter(function(formeName) {
+		return isMegaSpeciesName(formeName) && pokedex[formeName];
+	});
+}
+
+function getMegaStoneMap() {
+	if (typeof calc !== "undefined" && calc && calc.MEGA_STONES) {
+		return calc.MEGA_STONES;
+	}
+	if (typeof exports !== "undefined" && exports && exports.MEGA_STONES) {
+		return exports.MEGA_STONES;
+	}
+	return {};
+}
+
+function getMegaItemSuffix(itemName) {
+	if (typeof itemName !== "string") {
+		return "";
+	}
+
+	var match = itemName.match(/(?:\s|-)(X|Y|O|D|Z)$/i);
+	return match ? match[1].toUpperCase() : "";
+}
+
+function getItemMatchedMegaFormes(baseSpeciesName, heldItem) {
+	var candidateFormes = getMegaCandidateFormes(baseSpeciesName);
+	if (!heldItem || !candidateFormes.length) {
+		return [];
+	}
+
+	var mappedSpecies = getMegaStoneMap()[heldItem];
+	if (!mappedSpecies) {
+		return [];
+	}
+
+	if (candidateFormes.includes(mappedSpecies)) {
+		return [mappedSpecies];
+	}
+
+	if (candidateFormes.length === 1 && mappedSpecies === baseSpeciesName) {
+		return [candidateFormes[0]];
+	}
+
+	if (mappedSpecies !== baseSpeciesName) {
+		var directMatches = candidateFormes.filter(function(formeName) {
+			return formeName.indexOf(mappedSpecies) === 0;
+		});
+		if (directMatches.length) {
+			return directMatches;
+		}
+	}
+
+	var suffix = getMegaItemSuffix(heldItem);
+	if (!suffix) {
+		return [];
+	}
+
+	return candidateFormes.filter(function(formeName) {
+		return formeName.endsWith("-" + suffix);
+	});
+}
+
+function shouldAutoImportMegaForme(megaSpeciesName) {
+	if (!megaSpeciesName) {
+		return false;
+	}
+
+	if (backup_data && backup_data.poks) {
+		return Boolean(backup_data.poks[megaSpeciesName]);
+	}
+
+	if (typeof ZA_PATCH !== "undefined" && ZA_PATCH && ZA_PATCH[megaSpeciesName]) {
+		return false;
+	}
+
+	return true;
+}
+
+function getAutoImportMegaFormes(baseSpeciesName) {
+	return getMegaCandidateFormes(baseSpeciesName).filter(function(formeName) {
+		return shouldAutoImportMegaForme(formeName);
+	});
+}
+
+function getMegaPrimaryAbility(megaSpeciesName, fallbackAbility) {
+	var megaSpecies = pokedex[megaSpeciesName];
+	if (!megaSpecies || !megaSpecies.abilities) {
+		return fallbackAbility;
+	}
+
+	return megaSpecies.abilities[0] ||
+		megaSpecies.abilities["0"] ||
+		Object.values(megaSpecies.abilities)[0] ||
+		fallbackAbility;
+}
+
+function buildDerivedMegaSet(baseSetData, megaSpeciesName, baseSpeciesName) {
+	var megaSet = cloneImportedSetData(baseSetData);
+	megaSet.ability = getMegaPrimaryAbility(megaSpeciesName, megaSet.ability);
+	megaSet.megaImportMode = "auto";
+	megaSet.megaBaseSpecies = baseSpeciesName;
+	return megaSet;
+}
+
+function removeAutoImportedMega(customsets, megaSpeciesName) {
+	if (!customsets[megaSpeciesName] || !customsets[megaSpeciesName]["My Box"]) {
+		return;
+	}
+
+	if (customsets[megaSpeciesName]["My Box"].megaImportMode !== "auto") {
+		return;
+	}
+
+	delete customsets[megaSpeciesName]["My Box"];
+	if (Object.keys(customsets[megaSpeciesName]).length === 0) {
+		delete customsets[megaSpeciesName];
+	}
+}
+
+function reconcileMegaImports(importedRows, customsets) {
+	if (!Array.isArray(importedRows) || !importedRows.length || !customsets) {
+		return customsets;
+	}
+
+	var touchedBaseSpecies = [];
+	var shouldDeriveMegas = Boolean(settings && settings.damageGen >= 6);
+	var autoImportAllMegas = shouldDeriveMegas && localStorage.autoImportMegas == "1";
+
+	for (var i = 0; i < importedRows.length; i++) {
+		var importedRow = importedRows[i];
+		if (!importedRow || !importedRow.speciesName) {
+			continue;
+		}
+
+		if (isMegaSpeciesName(importedRow.speciesName)) {
+			var explicitMegaSet = customsets[importedRow.speciesName] && customsets[importedRow.speciesName]["My Box"];
+			if (explicitMegaSet) {
+				explicitMegaSet.megaImportMode = "explicit";
+				explicitMegaSet.megaBaseSpecies = getMegaBaseSpeciesName(importedRow.speciesName);
+			}
+			continue;
+		}
+
+		if (!touchedBaseSpecies.includes(importedRow.speciesName)) {
+			touchedBaseSpecies.push(importedRow.speciesName);
+		}
+	}
+
+	for (var baseIndex = 0; baseIndex < touchedBaseSpecies.length; baseIndex++) {
+		var baseSpeciesName = touchedBaseSpecies[baseIndex];
+		var baseSet = customsets[baseSpeciesName] && customsets[baseSpeciesName]["My Box"];
+		var eligibleMegas = [];
+
+		if (shouldDeriveMegas && baseSet) {
+			eligibleMegas = autoImportAllMegas
+				? getAutoImportMegaFormes(baseSpeciesName)
+				: getItemMatchedMegaFormes(baseSpeciesName, baseSet.item);
+		}
+
+		var eligibleMegaMap = {};
+		for (var megaIdx = 0; megaIdx < eligibleMegas.length; megaIdx++) {
+			eligibleMegaMap[eligibleMegas[megaIdx]] = true;
+		}
+
+		var megaCandidates = getMegaCandidateFormes(baseSpeciesName);
+		for (var candidateIdx = 0; candidateIdx < megaCandidates.length; candidateIdx++) {
+			var megaSpeciesName = megaCandidates[candidateIdx];
+			var existingMegaSet = customsets[megaSpeciesName] && customsets[megaSpeciesName]["My Box"];
+
+			if (!eligibleMegaMap[megaSpeciesName]) {
+				if (existingMegaSet && existingMegaSet.megaImportMode === "auto" && existingMegaSet.megaBaseSpecies === baseSpeciesName) {
+					removeAutoImportedMega(customsets, megaSpeciesName);
+				}
+				continue;
+			}
+
+			if (existingMegaSet && existingMegaSet.megaImportMode === "explicit") {
+				continue;
+			}
+
+			if (!customsets[megaSpeciesName]) {
+				customsets[megaSpeciesName] = {};
+			}
+			customsets[megaSpeciesName]["My Box"] = buildDerivedMegaSet(baseSet, megaSpeciesName, baseSpeciesName);
+		}
+	}
+
+	return customsets;
+}
+
+function buildDexObject(poke) {
+	var dexObject = {};
+	var speciesName = poke.name;
 
 	if (typeof npoint_data.poks_replacements != "undefined") {
 		if (typeof pokChanges === "undefined") {
-			pokChanges = {}
+			pokChanges = {};
 		}
-		
-		pokChanges[TITLE] = npoint_data.poks_replacements
 
-		if (pokChanges[TITLE] && pokChanges[TITLE][poke.name]) {
-			poke.name = pokChanges[TITLE][poke.name] 
+		pokChanges[TITLE] = npoint_data.poks_replacements;
+
+		if (pokChanges[TITLE] && pokChanges[TITLE][speciesName]) {
+			speciesName = pokChanges[TITLE][speciesName];
 		}
 	}
 
-	
-	if ($("#randoms").prop("checked")) {
-		if (GEN8RANDOMBATTLE[poke.name] == undefined) GEN8RANDOMBATTLE[poke.name] = {};
-		if (GEN7RANDOMBATTLE[poke.name] == undefined) GEN7RANDOMBATTLE[poke.name] = {};
-		if (GEN6RANDOMBATTLE[poke.name] == undefined) GEN6RANDOMBATTLE[poke.name] = {};
-		if (GEN5RANDOMBATTLE[poke.name] == undefined) GEN5RANDOMBATTLE[poke.name] = {};
-		if (GEN4RANDOMBATTLE[poke.name] == undefined) GEN4RANDOMBATTLE[poke.name] = {};
-		if (GEN3RANDOMBATTLE[poke.name] == undefined) GEN3RANDOMBATTLE[poke.name] = {};
-		if (GEN2RANDOMBATTLE[poke.name] == undefined) GEN2RANDOMBATTLE[poke.name] = {};
-		if (GEN1RANDOMBATTLE[poke.name] == undefined) GEN1RANDOMBATTLE[poke.name] = {};
-	} else {
-		if (SETDEX_SS[poke.name] == undefined) SETDEX_SS[poke.name] = {};
-		if (SETDEX_SM[poke.name] == undefined) SETDEX_SM[poke.name] = {};
-		if (SETDEX_XY[poke.name] == undefined) SETDEX_XY[poke.name] = {};
-		if (SETDEX_BW[poke.name] == undefined) SETDEX_BW[poke.name] = {};
-		if (SETDEX_DPP[poke.name] == undefined) SETDEX_DPP[poke.name] = {};
-		if (SETDEX_ADV[poke.name] == undefined) SETDEX_ADV[poke.name] = {};
-		if (SETDEX_GSC[poke.name] == undefined) SETDEX_GSC[poke.name] = {};
-		if (SETDEX_RBY[poke.name] == undefined) SETDEX_RBY[poke.name] = {};
-	}
 	if (poke.ability !== undefined) {
 		dexObject.ability = poke.ability;
 	}
@@ -748,25 +961,21 @@ function addToDex(poke) {
 		dexObject.gender = poke.gender;
 	}
 
-
-
 	if (isInt(poke.ability)) {
-		// console.log(`cannot find ability for ${poke.name}`)
 		if (TITLE.includes("Imperium")) {
 			var abilityIndex = parseInt(poke.ability);
-			var abilityList = (typeof abilsPrimary === "object" && abilsPrimary) ? abilsPrimary[poke.name] : null;
+			var abilityList = (typeof abilsPrimary === "object" && abilsPrimary) ? abilsPrimary[speciesName] : null;
 			if (!Array.isArray(abilityList) && typeof abils === "object" && abils) {
-				abilityList = abils[poke.name];
+				abilityList = abils[speciesName];
 			}
-			if (!Array.isArray(abilityList) && typeof em_imp_primary_mons === "object" && em_imp_primary_mons[poke.name]) {
-				abilityList = em_imp_primary_mons[poke.name]['abilities'];
+			if (!Array.isArray(abilityList) && typeof em_imp_primary_mons === "object" && em_imp_primary_mons[speciesName]) {
+				abilityList = em_imp_primary_mons[speciesName]['abilities'];
 			}
 			if (Array.isArray(abilityList) && abilityList[abilityIndex]) {
 				dexObject.ability = abilityList[abilityIndex];
 			}
 		}
 	}
-	
 
 	dexObject.level = poke.level;
 	dexObject.evs = poke.evs;
@@ -774,42 +983,75 @@ function addToDex(poke) {
 	dexObject.moves = poke.moves;
 	dexObject.nature = poke.nature;
 	dexObject.item = poke.item;
-	dexObject.nn = poke.nn
+	dexObject.nn = poke.nn;
 	dexObject.isCustomSet = poke.isCustomSet;
 
 	if (typeof poke["met"] != "undefined") {
-		dexObject.met = poke["met"] 
+		dexObject.met = poke["met"];
 	}
 
-	var customsets;
-	if (localStorage.customsets) {
-		customsets = JSON.parse(localStorage.customsets);
-	} else {
-		customsets = {};
+	return {
+		speciesName: speciesName,
+		dexObject: dexObject
+	};
+}
+
+function upsertImportedSet(customsets, poke) {
+	var importedSet = buildDexObject(poke);
+	if (!customsets[importedSet.speciesName]) {
+		customsets[importedSet.speciesName] = {};
 	}
-	// console.log(poke.nameProp)
 
-	if (!customsets[poke.name]) {
-		customsets[poke.name] = {};
-	}
+	customsets[importedSet.speciesName]["My Box"] = importedSet.dexObject;
 
-	customsets[poke.name]["My Box"] = dexObject;
-	
-	
-
-
-	if (poke.name === "Aegislash-Blade") {
+	if (importedSet.speciesName === "Aegislash-Blade") {
 		if (!customsets["Aegislash-Shield"]) {
 			customsets["Aegislash-Shield"] = {};
 		}
-		customsets["Aegislash-Shield"][poke.nameProp] = dexObject;
+		customsets["Aegislash-Shield"][poke.nameProp] = cloneImportedSetData(importedSet.dexObject);
 	}
 
+	return importedSet;
+}
 
+function addToDex(poke) {
+	var customsets = getStoredCustomSets();
+	var importedSet = upsertImportedSet(customsets, poke);
+	reconcileMegaImports([{ speciesName: importedSet.speciesName }], customsets);
 	updateDex(customsets);
 }
 
+function getCustomSetBuckets() {
+	return [SETDEX_SS, SETDEX_SM, SETDEX_XY, SETDEX_BW, SETDEX_DPP, SETDEX_ADV, SETDEX_GSC, SETDEX_RBY];
+}
+
+function removeDeletedCustomSets(previousCustomsets, nextCustomsets) {
+	var buckets = getCustomSetBuckets();
+
+	for (var previousPokemon in previousCustomsets) {
+		var hadMyBox = previousCustomsets[previousPokemon] && previousCustomsets[previousPokemon]["My Box"];
+		var stillHasMyBox = nextCustomsets[previousPokemon] && nextCustomsets[previousPokemon]["My Box"];
+		if (!hadMyBox || stillHasMyBox) {
+			continue;
+		}
+
+		for (var bucketIdx = 0; bucketIdx < buckets.length; bucketIdx++) {
+			var bucket = buckets[bucketIdx];
+			if (!bucket[previousPokemon]) {
+				continue;
+			}
+			delete bucket[previousPokemon]["My Box"];
+			if (Object.keys(bucket[previousPokemon]).length === 0) {
+				delete bucket[previousPokemon];
+			}
+		}
+	}
+}
+
 function updateDex(customsets) {
+	var previousCustomsets = getStoredCustomSets();
+	removeDeletedCustomSets(previousCustomsets, customsets);
+
 	for (var pokemon in customsets) {
 		for (var moveset in customsets[pokemon]) {
 			if (!SETDEX_SS[pokemon]) SETDEX_SS[pokemon] = {};
@@ -894,6 +1136,8 @@ function addSets(pokes, name) {
 	var currentRow;
 	var currentPoke;
 	var addedpokes = 0;
+	var importedRows = [];
+	var customsets = getStoredCustomSets();
 	// currentParty = []
 	for (var i = 0; i < rows.length; i++) {
 		var item = false
@@ -940,18 +1184,23 @@ function addSets(pokes, name) {
 				
 				currentPoke = getStats(currentPoke, rows, i + 1);
 				currentPoke = getMoves(currentPoke, rows, i);
-				addToDex(currentPoke);
+				var importedSet = upsertImportedSet(customsets, currentPoke);
+				importedRows.push({
+					speciesName: importedSet.speciesName
+				});
 				addedpokes++;
 			}
 		}
 	}
 	if (addedpokes > 0) {
+		reconcileMegaImports(importedRows, customsets);
+		updateDex(customsets);
 		get_box()
 		// alert("Successfully imported " + addedpokes + " set(s)");
-		$('.player-poks').addClass('shake')
+		$('.player-poks, .player-megas').addClass('shake')
 		customSets = JSON.parse(localStorage.customsets);
 		setTimeout(function(){
-			$('.player-poks').removeClass('shake')
+			$('.player-poks, .player-megas').removeClass('shake')
 		}, 500)
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
 		displayParty()
@@ -1054,18 +1303,14 @@ function checkExeptions(poke) {
 }
 
 $("#clearSets").click(function () {
-	localStorage.removeItem("customsets");
+	updateDex({})
 	customSets = {}
 	$("#importedSetsOptions").hide();
 	
-	// Remove Set Data from Dropdown
-	$('.trainer-pok.left-side').each(function() {
-		var species_name = $(this).attr('data-id').replace(" (My Box)", "")
-		delete SETDEX_BW[species_name]["My Box"]
-	})
-
 	// Remove Icons
 	$('.trainer-pok.left-side').remove()
+	$('.player-megas').html("")
+	$('.player-megas-wrapper').hide()
 	$('#clear-party').click()
 	localStorage.legalTms = ''
 	updateBoxAnim()

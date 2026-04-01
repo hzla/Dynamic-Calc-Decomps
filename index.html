@@ -6,11 +6,11 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?add3533a" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?5fb91315" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?24ad300e" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
-    <link type="text/css" rel="stylesheet" href="./css/settings-ui.css?a542a771" />
+    <link type="text/css" rel="stylesheet" href="./css/settings-ui.css?41103280" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css?1" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/jquery.terminal-2.43.0.min.css?1" />
     <script src="
@@ -223,6 +223,15 @@
               <div class="menu-label">
                 Move Highlighting
               </div> 
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div id="toggle-auto-import-megas" class="menu-item">
+              <div class="menu-label">
+                Auto Import Megas
+              </div>
               <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
@@ -997,6 +1006,21 @@
 
                 </div>
 
+            </div>
+
+            <div class="player-megas-wrapper">
+                <div class="trainer-poks-label mega-box-header">
+                    <span>Auto Import Megas</span>
+                    <label class="switch mini-switch" id="toggle-auto-import-megas-inline">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="trainer-poks">
+                    <div class="trainer-pok-list player-megas">
+
+                    </div>
+                </div>
             </div>
 
             <div id="tooltip">Right click on mon to add to party view</div>
@@ -2165,19 +2189,19 @@
     <script type="text/javascript" src="./js/battle_console/console_functions.js?4"></script>
     <script type="text/javascript" src="./js/battle_console/battle_console.js?4"></script>
     
-    <script type="text/javascript" src="./js/calc_ui/utility_functions.js?becca158"></script>
+    <script type="text/javascript" src="./js/calc_ui/utility_functions.js?6a193211"></script>
     <script type="text/javascript" src="./js/calc_ui/master_file_poller.js"></script>
-    <script type="text/javascript" src="./js/calc_ui/menu_settings.js?bbd9f4a8"></script>
-    <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?c13fc875"></script>
+    <script type="text/javascript" src="./js/calc_ui/menu_settings.js?6e9b4b47"></script>
+    <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?af46e0d3"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa4"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
-    <script type="text/javascript" src="./js/fragsheet/battle_log.js?ae0bc4f2"></script>
+    <script type="text/javascript" src="./js/fragsheet/battle_log.js?4193774c"></script>
     <script type="text/javascript" src="./js/calc_ui/box_view.js"></script>
     <script type="text/javascript" src="./js/calc_ui/main_nav.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex_box_bridge.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex.js?8bed2a63"></script>
-    <script type="text/javascript" src="./js/initialize.js?83aa2138"></script>
-    <script type="text/javascript" src="./js/calc_ui/player_box.js?7a07368f"></script>
+    <script type="text/javascript" src="./js/initialize.js?44ca695b"></script>
+    <script type="text/javascript" src="./js/calc_ui/player_box.js?8d3cc135"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?dee5dbfb"></script>
     <script type="text/javascript" src="./js/calc_ui/switch_preview/g3.js?49432eca"></script>
@@ -2223,7 +2247,7 @@
     <script type="text/javascript" src="./calc/pokemon.js?59377ee6"></script>
     <script type="text/javascript" src="./calc/field.js?acbd6284"></script>
     <script type="text/javascript" src="./calc/items.js?ce9218cf"></script>
-    <script type="text/javascript" src="./calc/mechanics/util.js?fec761b6"></script>
+    <script type="text/javascript" src="./calc/mechanics/util.js?6a5c82b5"></script>
     <script type="text/javascript" src="./calc/mechanics/boostModifiers.js?13c1ef48"></script>
 
     <script type="text/javascript" src="./calc/mechanics/gen789.js?ef56ddd1"></script>
@@ -2242,8 +2266,8 @@
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
     <script type="text/javascript" src="./js/shared_controls.js?af701503"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?df5c4a7b"></script>
-    <script type="text/javascript" src="./js/moveset_import.js?94847280"></script>
-    <script type="text/javascript" src="./js/fragsheet/frags.js?4a046c3b"></script>
+    <script type="text/javascript" src="./js/moveset_import.js?df6b7756"></script>
+    <script type="text/javascript" src="./js/fragsheet/frags.js?968a9727"></script>
     <script type="text/javascript" src="./js/analytics/index.js?5cdef21a"></script>
 
     <script type="text/javascript" src="./js/tab_comms/ms_comms.js?1"></script>
