@@ -12,7 +12,9 @@
 		"http://127.0.0.1:31124/box",
 		"http://localhost:31124/box",
 	];
-	var BOX_FETCH_TIMEOUT = 1500;
+	var BOX_FETCH_TIMEOUT = 10000;
+	var BOX_MAX_ATTEMPTS = 4;
+	var BOX_BASE_RETRY_MS = 400;
 	var STATIC_ALLOWED_ORIGINS = [
 		"https://ddex-chi.vercel.app",
 		"http://localhost:3001",
@@ -63,16 +65,189 @@
 		return String((error && error.message) || error || "Unknown error");
 	}
 
-	function fetchEndpoint(url) {
+	function safeJsonParse(rawValue, fallback) {
+		try {
+			return rawValue ? JSON.parse(rawValue) : fallback;
+		} catch (error) {
+			return fallback;
+		}
+	}
+
+	function delayMs(ms) {
+		return new Promise(function (resolve) {
+			window.setTimeout(resolve, ms);
+		});
+	}
+
+	function computeRetryDelayMs(attempt) {
+		var step = Math.max(0, (Number(attempt) || 1) - 1);
+		var next = Math.min(1800, BOX_BASE_RETRY_MS * Math.pow(2, step));
+		return Math.floor(next);
+	}
+
+	function isRetryableFetchError(error) {
+		var message = buildErrorMessage(error).toLowerCase();
+		return (
+			message.indexOf("failed to fetch") !== -1 ||
+			message.indexOf("networkerror") !== -1 ||
+			message.indexOf("load failed") !== -1 ||
+			message.indexOf("empty response") !== -1 ||
+			message.indexOf("signal is aborted") !== -1
+		);
+	}
+
+	function logBridge(eventName, details) {
+		if (details !== undefined) {
+			console.log("[DDEX Bridge][Calc]", eventName, details);
+			return;
+		}
+			console.log("[DDEX Bridge][Calc]", eventName);
+	}
+
+	function getCustomSetsMap() {
+		if (window.customSets && typeof window.customSets === "object") {
+			return window.customSets;
+		}
+		return safeJsonParse(window.localStorage && window.localStorage.customsets, {});
+	}
+
+	function normalizeNumber(value, fallbackValue) {
+		var numeric = Number(value);
+		return Number.isFinite(numeric) ? numeric : fallbackValue;
+	}
+
+	function formatHeader(speciesName, setData) {
+		var nickname = String((setData && setData.nn) || "").trim();
+		var gender = String((setData && setData.gender) || "").trim().toUpperCase();
+		var item = String((setData && setData.item) || "").trim();
+		var header = "";
+
+		if (nickname && nickname !== speciesName) {
+			header = nickname + " (" + speciesName + ")";
+		} else {
+			header = speciesName;
+		}
+
+		if (gender === "M" || gender === "F") {
+			header += " (" + gender + ")";
+		}
+		if (item) {
+			header += " @ " + item;
+		}
+
+		return header;
+	}
+
+	function formatStatLine(label, valuesByStat, order, fallbackValue) {
+		var parts = [];
+		for (var i = 0; i < order.length; i++) {
+			var statInfo = order[i];
+			var amount = normalizeNumber(valuesByStat && valuesByStat[statInfo.key], fallbackValue);
+			parts.push(amount + " " + statInfo.label);
+		}
+		return label + ": " + parts.join(" / ");
+	}
+
+	function serializeCustomSet(speciesName, setData) {
+		if (!setData || typeof setData !== "object") return "";
+
+		var lines = [];
+		lines.push(formatHeader(speciesName, setData));
+		lines.push("Level: " + normalizeNumber(setData.level, 100));
+
+		if (setData.nature) {
+			lines.push(String(setData.nature).trim() + " Nature");
+		}
+		if (setData.ability) {
+			lines.push("Ability: " + String(setData.ability).trim());
+		}
+
+		lines.push(
+			formatStatLine(
+				"EVs",
+				setData.evs,
+				[
+					{ key: "hp", label: "HP" },
+					{ key: "at", label: "Atk" },
+					{ key: "df", label: "Def" },
+					{ key: "sa", label: "SpA" },
+					{ key: "sd", label: "SpD" },
+					{ key: "sp", label: "Spe" },
+				],
+				0,
+			),
+		);
+		lines.push(
+			formatStatLine(
+				"IVs",
+				setData.ivs,
+				[
+					{ key: "hp", label: "HP" },
+					{ key: "at", label: "Atk" },
+					{ key: "df", label: "Def" },
+					{ key: "sa", label: "SpA" },
+					{ key: "sd", label: "SpD" },
+					{ key: "sp", label: "Spe" },
+				],
+				31,
+			),
+		);
+
+		var moves = Array.isArray(setData.moves) ? setData.moves : [];
+		for (var moveIndex = 0; moveIndex < moves.length; moveIndex++) {
+			var moveName = String(moves[moveIndex] || "").trim();
+			if (!moveName) continue;
+			lines.push("- " + moveName);
+		}
+
+		if (setData.met) {
+			lines.push("Met: " + String(setData.met).trim());
+		}
+
+		return lines.join("\n");
+	}
+
+	function buildCustomSetsPayload() {
+		var customSetsMap = getCustomSetsMap();
+		var speciesNames = Object.keys(customSetsMap || {});
+		var blocks = [];
+
+		speciesNames.sort();
+
+		for (var i = 0; i < speciesNames.length; i++) {
+			var speciesName = speciesNames[i];
+			var speciesSets = customSetsMap[speciesName];
+			if (!speciesSets || typeof speciesSets !== "object" || !speciesSets["My Box"]) {
+				continue;
+			}
+
+			var block = serializeCustomSet(speciesName, speciesSets["My Box"]);
+			if (!block) continue;
+			blocks.push(block);
+		}
+
+		return {
+			payloadText: blocks.join("\n\n"),
+			count: blocks.length,
+		};
+	}
+
+	function fetchEndpoint(url, attempt) {
 		var controller =
 			typeof window.AbortController === "function" ? new AbortController() : null;
 		var timeoutId = null;
+		var currentAttempt = Number(attempt) || 1;
 
 		if (controller) {
 			timeoutId = window.setTimeout(function () {
 				controller.abort();
 			}, BOX_FETCH_TIMEOUT);
 		}
+		logBridge("fetch start", {
+			url: url,
+			attempt: currentAttempt,
+			timeoutMs: BOX_FETCH_TIMEOUT,
+		});
 
 		return window
 			.fetch(url, {
@@ -86,7 +261,30 @@
 						"Unexpected response status: " + (response && response.status),
 					);
 				}
-				return response.text();
+				return response.text().then(function (payloadText) {
+					if (!payloadText || !payloadText.trim()) {
+						throw new Error("Empty response from " + url);
+					}
+					logBridge("fetch success", {
+						url: url,
+						attempt: currentAttempt,
+						payloadLength: payloadText.length,
+					});
+					return payloadText;
+				});
+			})
+			.catch(function (error) {
+				logBridge("fetch failed", {
+					url: url,
+					attempt: currentAttempt,
+					error: buildErrorMessage(error),
+				});
+				if (!isRetryableFetchError(error) || currentAttempt >= BOX_MAX_ATTEMPTS) {
+					throw error;
+				}
+				return delayMs(computeRetryDelayMs(currentAttempt)).then(function () {
+					return fetchEndpoint(url, currentAttempt + 1);
+				});
 			})
 			.finally(function () {
 				if (timeoutId !== null) clearTimeout(timeoutId);
@@ -94,6 +292,15 @@
 	}
 
 	function fetchBoxPayload() {
+		var customSetsPayload = buildCustomSetsPayload();
+		if (customSetsPayload.count > 0 && customSetsPayload.payloadText.trim()) {
+			logBridge("using customSets payload", {
+				entryCount: customSetsPayload.count,
+				payloadLength: customSetsPayload.payloadText.length,
+			});
+			return Promise.resolve(customSetsPayload.payloadText);
+		}
+
 		var index = 0;
 		var lastError = null;
 
@@ -103,7 +310,7 @@
 			}
 
 			var endpoint = BOX_ENDPOINTS[index++];
-			return fetchEndpoint(endpoint).catch(function (error) {
+			return fetchEndpoint(endpoint, 1).catch(function (error) {
 				lastError = new Error(endpoint + " failed: " + buildErrorMessage(error));
 				return tryNextEndpoint();
 			});
@@ -117,12 +324,25 @@
 		if (data.type !== BOX_REQUEST_TYPE || !data.requestId) {
 			return;
 		}
+		logBridge("request received", {
+			requestId: data.requestId,
+			origin: event.origin,
+		});
 		if (!event.source || !isAllowedDexOrigin(event.origin)) {
+			logBridge("request rejected", {
+				requestId: data.requestId,
+				origin: event.origin,
+			});
 			return;
 		}
 
 		fetchBoxPayload()
 			.then(function (payloadText) {
+				logBridge("response sent", {
+					requestId: data.requestId,
+					origin: event.origin,
+					payloadLength: payloadText.length,
+				});
 				event.source.postMessage(
 					{
 						type: BOX_RESPONSE_TYPE,
@@ -134,6 +354,11 @@
 				);
 			})
 			.catch(function (error) {
+				logBridge("response failed", {
+					requestId: data.requestId,
+					origin: event.origin,
+					error: buildErrorMessage(error),
+				});
 				event.source.postMessage(
 					{
 						type: BOX_RESPONSE_TYPE,
