@@ -602,14 +602,14 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 						pokeInfo.find(".type1").val(teraType).css('border', '1px solid #bb86fc')
 						pokeInfo.find('.type2').val("")
 					} else {
-						let pokeName = pokeInfo.find('.select2-chosen').text().split(" (")[0]
-						if (pokedex[pokeName]) {
-							let oldTypes = pokedex[pokeName].types
-							pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
-							if (oldTypes.length > 1) {
-								pokeInfo.find('.type2').val(oldTypes[1])
-							}
-						}
+						// let pokeName = pokeInfo.find('.select2-chosen').first().text().split(" (")[0]
+						// if (pokedex[pokeName]) {
+						// 	let oldTypes = pokedex[pokeName].types
+						// 	pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
+						// 	if (oldTypes.length > 1) {
+						// 		pokeInfo.find('.type2').val(oldTypes[1])
+						// 	}
+						// }
 						
 					}
 				}
@@ -651,12 +651,16 @@ function showItemExtras(itemObj) {
 				pokeInfo.find(".type1").val(teraType).css('border', '1px solid #bb86fc')
 				pokeInfo.find('.type2').val("")
 			} else {
-				let pokeName = pokeInfo.find('.select2-chosen').text().split(" (")[0]
-				let oldTypes = pokedex[pokeName].types
-				pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
-				if (oldTypes.length > 1) {
-					pokeInfo.find('.type2').val(oldTypes[1])
-				}
+				// let pokeName = pokeInfo.find('.select2-chosen').first().text().split(" (")[0]
+				// console.log(pokeName)
+				// if (pokedex[pokeName]) {
+				// 	let oldTypes = pokedex[pokeName].types
+				// 	pokeInfo.find('.type1').val(oldTypes[0]).css('border', '')
+				// 	if (oldTypes.length > 1) {
+				// 		pokeInfo.find('.type2').val(oldTypes[1])
+				// 	}
+				// }
+				
 			}
 		}
 	}
