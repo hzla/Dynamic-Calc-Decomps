@@ -173,7 +173,9 @@ local state = {
     actionIndex = 0,
     lastMoveByBattler = {},
     prevBattlers = {},
+    prevEnemyParty = {},
     emittedKoKeys = {},
+    recordedEnemyKos = {},
     lastLayoutName = nil,
     lastBattleMonSize = nil,
     runtimeFlagsAddr = nil,
@@ -1338,8 +1340,9 @@ local function decodePartyMon(monAddr, slotIndex)
     local move4 = (ss1[2] >> 16) & CONFIG.struct.max_move_id
     local misc0 = ss3[1] or 0
     local misc1 = ss3[2] or 0
-    local altAbility = (misc1 >> 31) & 0x1
-    local abilityNum = altAbility
+    local misc2 = ss3[3] or 0
+    local abilityNum = (misc2 >> 29) & 0x3
+    local altAbility = abilityNum
     local isEgg = ((flags >> 2) & 0x1) == 1
     local natureId = personality % 25
     local metLocation = (misc0 >> 8) & 0xFF
@@ -1412,8 +1415,9 @@ local function decodeBoxMon(boxMonAddr, boxIndex, slotIndex)
     local move4 = (ss1[2] >> 16) & CONFIG.struct.max_move_id
     local misc0 = ss3[1] or 0
     local misc1 = ss3[2] or 0
-    local altAbility = (misc1 >> 31) & 0x1
-    local abilityNum = altAbility
+    local misc2 = ss3[3] or 0
+    local abilityNum = (misc2 >> 29) & 0x3
+    local altAbility = abilityNum
     local isEgg = ((flags >> 2) & 0x1) == 1
     local natureId = personality % 25
     local metLocation = (misc0 >> 8) & 0xFF
@@ -1512,6 +1516,32 @@ local function buildPlayerPartySnapshot()
                 isEgg = mon.isEgg,
                 personality = mon.personality,
                 moves = mon.moves,
+            }
+        end
+    end
+    return out
+end
+
+local function buildEnemyPartySnapshot()
+    local out = {}
+    if not CONFIG.addresses.gEnemyParty then
+        return out
+    end
+
+    local enemyCount = getEnemyPartyCount() or CONFIG.struct.party_size
+    if enemyCount < 1 or enemyCount > CONFIG.struct.party_size then
+        enemyCount = CONFIG.struct.party_size
+    end
+
+    for slot = 0, enemyCount - 1 do
+        local mon = decodePartyMon(CONFIG.addresses.gEnemyParty + slot * CONFIG.struct.party_mon_size, slot)
+        if mon then
+            out[slot] = {
+                slot = slot,
+                species = mon.species,
+                hp = mon.currentHP,
+                maxHP = mon.maxHP,
+                personality = mon.personality,
             }
         end
     end
@@ -2256,6 +2286,74 @@ local function getBestAttributionOpp(snapshots, koBattler, koSide)
     return bestBattler or candidates[1]
 end
 
+local function makeEnemyKoKey(slotIndex, speciesId)
+    return string.format("%s:%d:%d", tostring(state.sessionSignature), tonumber(slotIndex) or -1, tonumber(speciesId) or 0)
+end
+
+local function hasRecordedEnemyKo(slotIndex, speciesId)
+    return state.recordedEnemyKos[makeEnemyKoKey(slotIndex, speciesId)] == true
+end
+
+local function recordEnemyKo(slotIndex, speciesId)
+    state.recordedEnemyKos[makeEnemyKoKey(slotIndex, speciesId)] = true
+end
+
+local function emitEnemyKoFallbackEvent(snapshots, enemyMon)
+    if not enemyMon or enemyMon.species == nil then
+        return
+    end
+    if hasRecordedEnemyKo(enemyMon.slot, enemyMon.species) then
+        return
+    end
+
+    state.actionIndex = state.actionIndex + 1
+    recordEnemyKo(enemyMon.slot, enemyMon.species)
+
+    local nonKoBattler = getBestAttributionOpp(snapshots, nil, 1)
+    local nonKoSnap = (nonKoBattler ~= nil) and snapshots[nonKoBattler] or nil
+
+    log(string.format(
+        "[Gen3 M2] fallback assigned missed enemy KO: turn=%d enemySlot=%s enemySpecies=%s playerSlot=%s playerSpecies=%s",
+        state.actionIndex,
+        tostring(enemyMon.slot),
+        tostring(enemyMon.species),
+        nonKoSnap and tostring(nonKoSnap.partyIndex) or "nil",
+        nonKoSnap and tostring(nonKoSnap.species) or "nil"
+    ))
+
+    emitRecord({
+        type = "ko",
+        frame = state.frame,
+        actionIndex = state.actionIndex,
+        koSide = 1,
+        koSpecies = enemyMon.species,
+        aiPartySlot = enemyMon.slot,
+        nonKoBattler = nonKoSnap and nonKoSnap.battler or nil,
+        nonKoSide = nonKoSnap and nonKoSnap.side or nil,
+        nonKoSpecies = nonKoSnap and nonKoSnap.species or nil,
+        source = "enemy_party_fallback",
+    })
+
+    emitCondensedRecord({
+        type = "pKo",
+        turn = state.actionIndex,
+        pSlot = nonKoSnap and nonKoSnap.partyIndex or nil,
+        pSpecies = nonKoSnap and nonKoSnap.species or nil,
+        aiSpecies = enemyMon.species,
+        aiPartySlot = enemyMon.slot,
+    })
+end
+
+local function emitMissingEnemyPartyKoEvents(snapshots, enemyParty)
+    for slot = 0, CONFIG.struct.party_size - 1 do
+        local prevMon = state.prevEnemyParty[slot]
+        local currMon = enemyParty[slot]
+        if prevMon and currMon and prevMon.hp and currMon.hp and prevMon.hp > 0 and currMon.hp == 0 then
+            emitEnemyKoFallbackEvent(snapshots, currMon)
+        end
+    end
+end
+
 local function emitKoEvent(snapshots, koSnap, hpBefore, hpAfter)
     local koKey = string.format("%s:%d:%d:%d:%d", tostring(state.sessionSignature), koSnap.battler, state.actionIndex, hpBefore, hpAfter)
     if state.emittedKoKeys[koKey] then
@@ -2303,6 +2401,7 @@ local function emitKoEvent(snapshots, koSnap, hpBefore, hpAfter)
     })
 
     if koSnap.side == 1 then
+        recordEnemyKo(koSnap.partyIndex, koSnap.species)
         local nonKoSnap = (nonKoBattler ~= nil) and snapshots[nonKoBattler] or nil
         emitCondensedRecord({
             type = "pKo",
@@ -2367,7 +2466,9 @@ local function resetBattleState(signature)
     state.inactiveFrames = 0
     state.actionIndex = 0
     state.lastMoveByBattler = {}
+    state.prevEnemyParty = {}
     state.emittedKoKeys = {}
+    state.recordedEnemyKos = {}
     state.lastLayoutName = nil
     state.lastBattleMonSize = nil
     state.warnedRuntimeUnresolved = false
@@ -2384,7 +2485,9 @@ local function clearBattleState()
     state.actionIndex = 0
     state.lastMoveByBattler = {}
     state.prevBattlers = {}
+    state.prevEnemyParty = {}
     state.emittedKoKeys = {}
+    state.recordedEnemyKos = {}
     state.lastLayoutName = nil
     state.lastBattleMonSize = nil
     state.warnedRuntimeUnresolved = false
@@ -2418,6 +2521,7 @@ local function pollBattleState()
     local runtime = nil
     local battlersCount = nil
     local snapshots = nil
+    local enemyParty = buildEnemyPartySnapshot()
     if flagsAddr then
         runtime = selectBestBattleRuntime(flagsAddr)
         if runtime then
@@ -2482,6 +2586,7 @@ local function pollBattleState()
             state.trainerA = trainerA
             state.trainerB = trainerB
             state.prevBattlers = snapshots
+            state.prevEnemyParty = enemyParty
             state.lastLayoutName = runtime and runtime.layoutName or nil
             state.lastBattleMonSize = runtime and runtime.monSize or nil
             emitSessionStart(flags, flagsAddr, battlersCount, signature, state.lastLayoutName, state.lastBattleMonSize)
@@ -2533,7 +2638,10 @@ local function pollBattleState()
             end
         end
 
+        emitMissingEnemyPartyKoEvents(snapshots, enemyParty)
+
         state.prevBattlers = snapshots
+        state.prevEnemyParty = enemyParty
         return
     end
 
@@ -4030,6 +4138,103 @@ end
 
 function milestone2_http_handle_debug(method, path)
     return handleHttpRequest(method or "GET", path or "/ping")
+end
+
+function milestone2_debug_party_read()
+    local playerPartyBase = getPlayerPartyBase()
+    local partyCountAddr = getPlayerPartyCountAddr()
+    local partyCount = getPlayerPartyCount()
+
+    log(string.format(
+        "[Gen3 M2] party-read base=%s partyCountAddr=%s partyCount=%s partyMonSize=%s",
+        hex8(playerPartyBase),
+        hex8(partyCountAddr),
+        tostring(partyCount),
+        tostring(CONFIG.struct.party_mon_size)
+    ))
+
+    if not playerPartyBase then
+        log("[Gen3 M2] party-read: player party base unavailable.")
+        return
+    end
+
+    for slot = 0, CONFIG.struct.party_size - 1 do
+        local slotAddr = playerPartyBase + slot * CONFIG.struct.party_mon_size
+        local rawHex = bytesToHex(slotAddr, CONFIG.struct.party_mon_size)
+        local mon = decodePartyMon(slotAddr, slot)
+        if mon then
+            local moveNames = {}
+            for i = 1, 4 do
+                moveNames[i] = getMoveName(mon.moves and mon.moves[i]) or tostring(mon.moves and mon.moves[i] or 0)
+            end
+            log(string.format(
+                "[Gen3 M2] party-read slot=%d addr=%s species=%s(%s) level=%s hp=%s/%s item=%s(%s) nature=%s abilitySlot=%s pid=%s otId=%s moves=[%s | %s | %s | %s]",
+                slot,
+                hex8(slotAddr),
+                getSpeciesName(mon.species) or "Unknown",
+                tostring(mon.species),
+                tostring(mon.level),
+                tostring(mon.currentHP),
+                tostring(mon.maxHP),
+                getHeldItemName(mon.heldItem) or "None",
+                tostring(mon.heldItem),
+                getNatureNameFromId(mon.natureId) or tostring(mon.natureId),
+                tostring(mon.abilityNum),
+                tostring(mon.personality),
+                tostring(mon.otId),
+                moveNames[1],
+                moveNames[2],
+                moveNames[3],
+                moveNames[4]
+            ))
+        else
+            log(string.format(
+                "[Gen3 M2] party-read slot=%d addr=%s decode=nil",
+                slot,
+                hex8(slotAddr)
+            ))
+        end
+        log(string.format(
+            "[Gen3 M2] party-read slot=%d rawHex=%s",
+            slot,
+            rawHex
+        ))
+    end
+
+    local snapshot = buildPlayerPartySnapshot()
+    log(string.format("[Gen3 M2] party-read snapshotCount=%d", #snapshot))
+    for i = 1, #snapshot do
+        local mon = snapshot[i]
+        log(string.format(
+            "[Gen3 M2] party-read snapshot slot=%s species=%s(%s) level=%s hp=%s/%s item=%s(%s)",
+            tostring(mon.slot),
+            getSpeciesName(mon.species) or "Unknown",
+            tostring(mon.species),
+            tostring(mon.level),
+            tostring(mon.hp),
+            tostring(mon.maxHP),
+            getHeldItemName(mon.heldItem) or "None",
+            tostring(mon.heldItem)
+        ))
+    end
+
+    local payload, err = buildPartyBoxPayload()
+    if not payload then
+        log(string.format("[Gen3 M2] party-read buildPartyBoxPayload failed: %s", tostring(err)))
+        return
+    end
+
+    log(string.format(
+        "[Gen3 M2] party-read /box payload partyCount=%s partyHexLen=%d boxSlotsDumped=%s boxesHexLen=%d",
+        tostring(payload.partyCount),
+        type(payload.party) == "string" and #payload.party or 0,
+        tostring(payload.boxSlotsDumped),
+        type(payload.boxes) == "string" and #payload.boxes or 0
+    ))
+    log(string.format(
+        "[Gen3 M2] party-read /box payload partyHex=%s",
+        tostring(payload.party or "")
+    ))
 end
 
 function milestone2_debug_append_event(record)

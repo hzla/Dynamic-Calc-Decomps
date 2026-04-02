@@ -95,9 +95,9 @@ function hashPokemonPair(arr) {
 
 function updateBoxAnim() {
     // Shake box
-    $('.player-poks').addClass('shake')
+    $('.player-poks, .player-megas').addClass('shake')
     setTimeout(function(){
-        $('.player-poks').removeClass('shake')
+        $('.player-poks, .player-megas').removeClass('shake')
     }, 500)
 }
 

@@ -152,7 +152,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
             speedMods.push(2744);
         }
         if (pokemon.hasItem('Mascot Badge')) {
-            speedMods.push(8192);
+            speedMods.push(6144);
         }
     }
 

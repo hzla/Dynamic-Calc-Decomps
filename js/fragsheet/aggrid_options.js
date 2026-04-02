@@ -432,20 +432,58 @@ function findRowDataBySpecies(speciesName) {
 }
 
 // Returns [fragCount, frags, met location, nickname]
-function prevoData(speciesName, encounters) {
-    let ancestor = evoData[speciesName]["anc"]
+function resolveEvoEntry(speciesName) {
+    let resolvedSpeciesName = speciesName
+    let evoEntry = evoData[resolvedSpeciesName]
 
-    if (ancestor == speciesName) {
+    if (!evoEntry && speciesName.includes("-")) {
+        resolvedSpeciesName = speciesName.split("-")[0]
+        evoEntry = evoData[resolvedSpeciesName]
+    }
+
+    if (!evoEntry) {
+        return null
+    }
+
+    let ancestor = evoEntry["anc"] || resolvedSpeciesName
+    let ancestorEntry = evoData[ancestor]
+
+    if (!ancestorEntry && ancestor.includes("-")) {
+        ancestor = ancestor.split("-")[0]
+        ancestorEntry = evoData[ancestor]
+    }
+
+    if (!ancestorEntry) {
+        return null
+    }
+
+    return {
+        resolvedSpeciesName: resolvedSpeciesName,
+        ancestor: ancestor,
+        ancestorEntry: ancestorEntry
+    }
+}
+
+function prevoData(speciesName, encounters) {
+    let resolved = resolveEvoEntry(speciesName)
+    if (!resolved) {
+        return [0, [], false, false]
+    }
+
+    let ancestor = resolved.ancestor
+    let resolvedSpeciesName = resolved.resolvedSpeciesName
+
+    if (ancestor == resolvedSpeciesName) {
         console.log("Is not evolved form")
         return [0, [], false, false]
     }
 
-    let evos = [ancestor].concat(evoData[ancestor]["evos"])
+    let evos = [ancestor].concat(resolved.ancestorEntry["evos"] || [])
 
     // Look for later evolutions first
     for (let i = evos.length - 1; i >= 0; i--) {
         mon = evos[i]
-        if (encounters[mon] && mon != speciesName) {
+        if (encounters[mon] && mon != resolvedSpeciesName) {
             return [encounters[mon].fragCount, encounters[mon].frags, encounters[mon].setData["My Box"].met, encounters[mon].setData["My Box"].nn]
         }
     }
@@ -466,7 +504,8 @@ function createRowData() {
         encRow = {}
         encRow.totalKo = 0
 
-        let evolutions = evoData[evoData[enc].anc].evos
+        let resolved = resolveEvoEntry(enc)
+        let evolutions = resolved ? (resolved.ancestorEntry["evos"] || []) : []
 
         let foundEvo = false
         for (evo of evolutions) {

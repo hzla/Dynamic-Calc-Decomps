@@ -254,8 +254,8 @@ function maybeClearManualTagPartnerOverride(selectedSetId) {
     clearManualTagPartnerOverride()
 }
 
-function sort_box_by_name(aToZ = true) {
-    var box = $('.player-poks'),
+function sort_box_by_name(aToZ = true, selector = '.player-poks') {
+    var box = $(selector),
     mons = box.children('.trainer-pok');
  
     mons.sort(function(a,b){
@@ -274,6 +274,19 @@ function sort_box_by_name(aToZ = true) {
         return 0;
     });   
     mons.detach().appendTo(box);
+}
+
+function isMegaBoxEntry(speciesName) {
+    return typeof speciesName === "string" && speciesName.includes("-Mega")
+}
+
+function toggleMegaBoxVisibility(hasMegas) {
+    $('.player-megas-wrapper').toggle(Boolean(settings && settings.damageGen >= 6 && hasMegas))
+}
+
+function buildBoxSpriteHTML(setId, highlights) {
+    var pok_name = setId.split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace(".","").replace("’","").replace(":","-")
+    return `<img class="trainer-pok left-side ${sprite_style} ${highlights}" src="./img/${sprite_style}/${pok_name}.png" data-id="${setId}">`
 }
 
 function generateCompactPreviewHTML({ setData, speciesName, dataId, interactiveClass = "", containerSelector = ".player-party", showItem = true, showNature = true, showAbility = true }) {
@@ -427,18 +440,20 @@ function get_box() {
     var box = []
 
     var box_html = ""
+    var mega_box_html = ""
+    var megaCount = 0
 
     for (i in names) {
         if (names[i].includes("My Box")) {
-            box.push(names[i].split("[")[0])
+            var setId = names[i].split("[")[0]
+            var speciesName = setId.split(" (")[0]
+            box.push(setId)
 
-            var pok_name = names[i].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace(".","").replace("’","").replace(":","-")
-            
-            if (encounters && encounters[names[i].split(" (")[0]] && !encounters[names[i].split(" (")[0]].alive) {
+            if (encounters && encounters[speciesName] && !encounters[speciesName].alive) {
                 continue
             }
 
-            var set_name = names[i].split("[")[0].trim()
+            var set_name = setId.trim()
             var highlights = ""
 
             if (typeof monHighlights != "undefined") {
@@ -455,17 +470,25 @@ function get_box() {
                     highlights += ' baiter'
                 }
             }
-            var pok = `<img class="trainer-pok left-side ${sprite_style} ${highlights}" src="./img/${sprite_style}/${pok_name}.png" data-id="${names[i].split("[")[0]}">`
+            var pok = buildBoxSpriteHTML(setId, highlights)
 
-            box_html += pok
+            if (isMegaBoxEntry(speciesName)) {
+                mega_box_html += pok
+                megaCount += 1
+            } else {
+                box_html += pok
+            }
         }   
     }
 
 
     $('.player-poks').html(box_html)
-    sort_box_by_name()
+    $('.player-megas').html(mega_box_html)
+    sort_box_by_name(true, '.player-poks')
+    sort_box_by_name(true, '.player-megas')
+    toggleMegaBoxVisibility(megaCount > 0)
 
-    if ($('.trainer-pok.left-side').length >= 10) {
+    if ($('.player-poks .trainer-pok.left-side, .player-megas .trainer-pok.left-side').length >= 10) {
         $('#search-row').css('display', 'flex')
     }
     filter_box()
@@ -481,30 +504,30 @@ function applyHighlights() {
 
 function filter_box() {
     let search_string = $('#search-box').val().toLowerCase()
-    let container = $('.trainer-pok-list.player-poks')
+    let containers = $('.trainer-pok-list.player-poks, .trainer-pok-list.player-megas')
 
     // Hide Prevos
     if (localStorage.hidePrevos == '1' && typeof customSets != 'undefined') {
-        container.find('.pokesprite').show()
+        containers.find('.trainer-pok.left-side').show()
         for (set in customSets) {
             let set_id = `${set} (My Box)`
             if (shouldHidePrevo(set)) {
-               container.find(`[data-id='${set_id}']`).hide()
+               containers.find(`[data-id='${set_id}']`).hide()
             }
         }
     }
 
     // Return if search string is too short
     if (search_string.length < 2) {
-        container.find('.pokesprite').removeClass('active')
+        containers.find('.trainer-pok.left-side').removeClass('active')
         return
     }
 
-    container.find('.pokesprite').removeClass('active')
+    containers.find('.trainer-pok.left-side').removeClass('active')
     for (set in customSets) {
 
         // remove megas
-        baseSet = set
+        let baseSet = set
         if (set.includes("-Mega")) {
             baseSet = set.replace("-Mega-X", "").replace("-Mega-Y", "").replace("-Mega-D", "").replace("-Mega-O", "").replace("-Mega", "")
         }
@@ -534,12 +557,12 @@ function filter_box() {
 
         const lowerCasePokName = set.toLowerCase()
         if (setInfo.includes(search_string) || lowerCasePokName.includes(search_string) || pokedexInfo.includes(search_string) || backupDataInfo.includes(search_string)) {
-            container.find(`[data-id='${set_id}']`).addClass('active')
+            containers.find(`[data-id='${set_id}']`).addClass('active')
         }
 
         if (learnset) {
             if (learnset.includes(search_string)) {
-                container.find(`[data-id='${set_id}']`).addClass('active')
+                containers.find(`[data-id='${set_id}']`).addClass('active')
             }
         }
     }

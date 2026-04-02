@@ -1318,13 +1318,33 @@
         `;
     }
 
+    function getPlayerDeathCount(session) {
+        const uniqueDeaths = new Set();
+        const events = Array.isArray(session && session.events) ? session.events : [];
+
+        events.forEach((event) => {
+            if (!event || event.type !== "aiKo") return;
+
+            if (typeof event.pSlot === "number") {
+                uniqueDeaths.add(`slot:${event.pSlot}`);
+                return;
+            }
+
+            if (event.pSpecies) {
+                uniqueDeaths.add(`species:${String(event.pSpecies).toLowerCase()}`);
+            }
+        });
+
+        return uniqueDeaths.size;
+    }
+
     function renderSession(session, index) {
         const trainerId = getSessionTrainerId(session);
         const trainerName = parseTrainerName(trainerId);
         const splitTypeClass = getBattleLogSessionSplitTypeClass(session);
-        const aiKoCount = session.events.filter((e) => e.type === "aiKo").length;
-        const deathSummaryClass = aiKoCount > 0 ? "deaths" : "deathless";
-        const deathSummaryText = aiKoCount > 0 ? `${aiKoCount} Deaths` : "Deathless";
+        const deathCount = getPlayerDeathCount(session);
+        const deathSummaryClass = deathCount > 0 ? "deaths" : "deathless";
+        const deathSummaryText = deathCount > 0 ? `${deathCount} Deaths` : "Deathless";
 
         return `
             <div class="battle-session" data-battle-index="${index}">

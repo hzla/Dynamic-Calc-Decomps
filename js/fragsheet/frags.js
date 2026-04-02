@@ -163,30 +163,40 @@ function toggleEncounterStatus(e) {
 
 // Returns [fragCount, frags, met location, nickname]
 function prevoData(speciesName, encounters) {
-    
-    let ancestor = {}
+    let resolvedSpeciesName = speciesName
+    let evoEntry = evoData[resolvedSpeciesName]
 
-	try {
-		ancestor = evoData[speciesName]["anc"]
-	} catch {
-		console.log(speciesName)
-		speciesName = speciesName.split("-")[0]
-		ancestor = evoData[speciesName]
-	}
-    
+    if (!evoEntry && speciesName.includes("-")) {
+        resolvedSpeciesName = speciesName.split("-")[0]
+        evoEntry = evoData[resolvedSpeciesName]
+    }
 
-    if (ancestor == speciesName) {
+    if (!evoEntry) {
         return [0, [], false, false]
     }
 
+    let ancestor = evoEntry["anc"] || resolvedSpeciesName
+    let ancestorEntry = evoData[ancestor]
 
+    if (!ancestorEntry && ancestor.includes("-")) {
+        ancestor = ancestor.split("-")[0]
+        ancestorEntry = evoData[ancestor]
+    }
 
-    let evos = [ancestor].concat(evoData[ancestor]["evos"])
+    if (!ancestorEntry) {
+        return [0, [], false, false]
+    }
+
+    if (ancestor == resolvedSpeciesName) {
+        return [0, [], false, false]
+    }
+
+    let evos = [ancestor].concat(ancestorEntry["evos"] || [])
 
     // Look for later evolutions first
     for (let i = evos.length - 1; i >= 0; i--) {
         mon = evos[i]
-        if (encounters[mon] && mon != speciesName) {
+        if (encounters[mon] && mon != resolvedSpeciesName) {
             return [encounters[mon].fragCount, encounters[mon].frags, encounters[mon].setData["My Box"].met, encounters[mon].setData["My Box"].nn]
         }
     }
@@ -244,7 +254,6 @@ $(document).ready(function(){
 	});
 
 })
-
 
 
 
