@@ -404,6 +404,9 @@ function getFlingPower(item) {
     if (item == "Bicycle") {
         return 150;
     }
+    if (item == "Town Map") {
+        return 120;
+    }
     return 0;
 }
 

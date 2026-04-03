@@ -189,6 +189,8 @@ if (TITLE.includes("Imperium")) {
 
                             invalidData = false
                             // decrypt substructs
+
+
                             for (let i = 0; i <= 11; i++) {
                                 let block = null
                                 try {
@@ -227,7 +229,8 @@ if (TITLE.includes("Imperium")) {
                             }
 
 
-                            
+
+
 
 
 
@@ -256,6 +259,8 @@ if (TITLE.includes("Imperium")) {
                                 offset = lastFoundAt + 2
                                 continue
                             }
+
+
 
 
                             // get Level
@@ -302,6 +307,8 @@ if (TITLE.includes("Imperium")) {
                                 continue
                             }
 
+
+
                    
 
 
@@ -347,6 +354,8 @@ if (TITLE.includes("Imperium")) {
                                 offset = lastFoundAt + 2
                                 continue
                             }
+
+                            console.log([offset, speciesName, tid])
 
                             // get moves
                             let move1 = pokeemeraldMoves[[decrypted[moves_index * 3]] & 0x07FF]

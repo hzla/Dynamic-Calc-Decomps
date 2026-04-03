@@ -59,7 +59,7 @@ if (["Pokemon Null"].includes(TITLE)) {
             return result;
         }
         if ((move.named('Shell Side Arm') || move.named('Draco Barrage')) &&
-            (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom) === 'Physical') {
+            (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom, field.weather) === 'Physical') {
             move.category = 'Physical';
             move.flags.contact = 1;
         }

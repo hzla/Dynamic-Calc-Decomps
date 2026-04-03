@@ -80,11 +80,15 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         desc.attackerItem = attacker.item;
         move.flags.contact = 0;
     }
+    
     if ( (move.named('Shell Side Arm') || move.named("Draco Barrage")) &&
-        (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom) === 'Physical') {
+        (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom, field.weather) === 'Physical') {
+
         move.category = 'Physical';
         move.flags.contact = 1;
     }
+
+
     var breaksProtect = move.breaksProtect || move.isZ || attacker.isDynamaxed ||
         (attacker.hasAbility('Unseen Fist') && move.flags.contact);
     if (field.defenderSide.isProtected && !breaksProtect) {

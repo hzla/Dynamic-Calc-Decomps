@@ -700,7 +700,20 @@ function getFinalDamage(baseAmount, i, effectiveness, isBurned, stabMod, finalMo
     return OF16(pokeRound(Math.max(1, OF32(damageAmount * finalMod) / 4096)));
 }
 exports.getFinalDamage = getFinalDamage;
-function getShellSideArmCategory(source, target, wonderRoomActive) {
+function getShellSideArmCategory(source, target, wonderRoomActive, weather) {
+    var targetDef = target.stats.def
+    var targetSpd = target.stats.spd
+
+    // if (target.hasAbility("Fur Coat")) {
+    //     targetDef *= 2
+    // } else if (target.hasAbility("Ice Scales")) {
+    //     targetSpd *= 2
+    // }
+
+    // if (target.hasItem("Assault Vest") || (weather == "Sand" && target.hasType('Rock'))) {
+    //     targetSpd *= 1.5
+    // }
+
     var physicalDamage = source.stats.atk / target.stats.def;
     var specialDamage = source.stats.spa / target.stats.spd;
     if (wonderRoomActive) {

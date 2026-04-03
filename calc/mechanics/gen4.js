@@ -334,7 +334,12 @@ function calculateDPP(gen, attacker, defender, move, field) {
             (attacker.hasItem('Griseous Orb') &&
                 attacker.named('Giratina-Origin') &&
                 move.hasType('Ghost', 'Dragon'))) {
-            basePower = Math.floor(basePower * 1.2);
+            if (TITLE == "Platinum Kaizo") {
+                basePower = Math.floor(basePower * 1.5);
+            } else {
+                basePower = Math.floor(basePower * 1.2);
+            }
+            
             desc.attackerItem = attacker.item;
         }
         if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage)) ||

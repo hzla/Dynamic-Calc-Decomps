@@ -369,7 +369,6 @@ function get_next_in_g4() {
 }
 
 function sort_trpoks_g4(a, b) {
-    console.log(settings.noSwitch)
     if (settings.noSwitch) {
         return (b[3] > a[3]) ? -1 : 1;
     }

@@ -5049,7 +5049,6 @@ var RR_PATCH = {
     'Triple Dive': { bp: 40 },
     'Triple Kick': { bp: 20, isKick: true, zp: 100 },
     'Trop Kick': { isKick: true },
-    'Volt Tackle': { recoil: [1, 4] },
     'Wicked Blow': { isPunch: false, zp: 190 },
     'Wildbolt Storm': { maxPower: 120 },
     'Zippy Zap': { priority: 1, zp: 100, maxPower: 120 },
