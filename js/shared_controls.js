@@ -727,9 +727,11 @@ function smogonAnalysis(pokemonName) {
 
 function getTrainerPreviewMeta(setId) {
 	var subIndexMatch = setId.match(/\[(\d+)\]$/);
+	var trainerId = getTrainerPreviewTrainerIdFromSet(setId)
 
 	return {
-		subIndex: subIndexMatch ? parseInt(subIndexMatch[1], 10) : null
+		subIndex: subIndexMatch ? parseInt(subIndexMatch[1], 10) : null,
+		trainerId: trainerId || null
 	};
 }
 
@@ -786,6 +788,27 @@ function getTrainerPreviewPartnerIdFromSet(setId) {
 	}
 
 	return setdex[species][set_name].partner || false
+}
+
+function getTrainerPreviewTrainerIdFromSet(setId) {
+	if (!setId) {
+		return false
+	}
+
+	var species = setId.split(" (")[0]
+	var set_name = setId.split(" (")[1]
+
+	if (!species || !set_name) {
+		return false
+	}
+
+	set_name = set_name.replace(/\)\[\d+\]$/, "").replace(/\)$/, "")
+
+	if (!setdex[species] || !setdex[species][set_name]) {
+		return false
+	}
+
+	return Number(setdex[species][set_name].tr_id) || false
 }
 
 function renderTrainerPreviewPok(next_pok) {
@@ -892,9 +915,11 @@ function refresh_next_in() {
 	var subIndexCounts = {}
 	var selectedOpposingSet = $('input.opposing').val()
 	var primaryTrainerName = getTrainerPreviewName(selectedOpposingSet)
+	var primaryTrainerId = getTrainerPreviewTrainerIdFromSet(selectedOpposingSet)
 	var setPartnerId = getTrainerPreviewPartnerIdFromSet(selectedOpposingSet)
 	var resolvedPartnerName = getTrainerPreviewPartnerNameFromSet(selectedOpposingSet) || partnerName
 	var fallbackPartnerNames = []
+	var trainerIdCounts = {}
 
 	
 
@@ -917,6 +942,9 @@ function refresh_next_in() {
 		if (meta.subIndex !== null) {
 			subIndexCounts[meta.subIndex] = (subIndexCounts[meta.subIndex] || 0) + 1
 		}
+		if (meta.trainerId !== null) {
+			trainerIdCounts[meta.trainerId] = (trainerIdCounts[meta.trainerId] || 0) + 1
+		}
 
 		var pok = renderTrainerPreviewPok(next_poks[i])
 		if (!pok) {
@@ -926,6 +954,7 @@ function refresh_next_in() {
 		renderedEntries.push({
 			pok: pok,
 			subIndex: meta.subIndex,
+			trainerId: meta.trainerId,
 			trainerName: trainerName
 		})
 
@@ -935,7 +964,8 @@ function refresh_next_in() {
 	var hasDuplicateSubIndex = Object.values(subIndexCounts).some(function(count) {
 		return count > 1
 	})
-	var useGenericTrainerLabels = !setPartnerId && !partnerName && hasDuplicateSubIndex
+	var hasMultipleTrainerIds = Object.keys(trainerIdCounts).length > 1
+	var useGenericTrainerLabels = !setPartnerId && !partnerName && (hasMultipleTrainerIds || hasDuplicateSubIndex)
 	var primaryTrainerPoks = []
 	var partnerTrainerPoks = []
 	var genericSubIndexSeen = {}
@@ -946,10 +976,16 @@ function refresh_next_in() {
 			fallbackPartnerNames.push(entry.trainerName)
 		}
 
-		if (useGenericTrainerLabels) {
+		if (primaryTrainerId && entry.trainerId) {
+			if (entry.trainerId === primaryTrainerId) {
+				primaryTrainerPoks.push(entry.pok)
+			} else {
+				partnerTrainerPoks.push(entry.pok)
+			}
+		} else if (useGenericTrainerLabels) {
 			var genericIndex = entry.subIndex === null ? 0 : entry.subIndex
 			genericSubIndexSeen[genericIndex] ||= 0
-			if (genericSubIndexSeen[genericIndex] === 0) {
+			if (subIndexCounts[genericIndex] > 1 && genericSubIndexSeen[genericIndex] === 0) {
 				primaryTrainerPoks.push(entry.pok)
 			} else {
 				partnerTrainerPoks.push(entry.pok)
@@ -966,7 +1002,7 @@ function refresh_next_in() {
 		resolvedPartnerName = fallbackPartnerNames[0]
 	}
 
-	var showPartnerSections = primaryTrainerPoks.length > 0 && partnerTrainerPoks.length > 0 && (hasDuplicateSubIndex || resolvedPartnerName)
+	var showPartnerSections = primaryTrainerPoks.length > 0 && partnerTrainerPoks.length > 0 && (hasMultipleTrainerIds || hasDuplicateSubIndex || resolvedPartnerName)
 	if (showPartnerSections) {
 		var trainerOneHtml = primaryTrainerPoks.join("")
 		var trainerTwoHtml = partnerTrainerPoks.join("")

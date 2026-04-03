@@ -109,6 +109,87 @@ for (let calc of calcs) {
       });
     })
 
+    it('groups combined-name trainers by tr_id before falling back to sub_index', () => {
+      cy.window().then((win) => {
+        const speciesKeys = Object.keys(win.setdex)
+        const [primaryLead, primarySecond, partnerLead, partnerSecond, partnerExtra, partnerMega] = speciesKeys.slice(0, 6)
+        const trainerSetName = 'Lvl 63 Cypress Trainer One & Trainer Two |Route 110|'
+        const opposingSetId = `${primaryLead} (${trainerSetName})`
+        const primaryTrainerId = 359
+        const partnerTrainerId = 351
+        const primaryExpected = [
+          `${primaryLead} (${trainerSetName})`,
+          `${primarySecond} (${trainerSetName})`
+        ]
+        const partnerExpected = [
+          `${partnerLead} (${trainerSetName})`,
+          `${partnerSecond} (${trainerSetName})`,
+          `${partnerExtra} (${trainerSetName})`,
+          `${partnerMega} (${trainerSetName})`
+        ]
+        const baseSets = [
+          win.setdex[primaryLead],
+          win.setdex[primarySecond],
+          win.setdex[partnerLead],
+          win.setdex[partnerSecond],
+          win.setdex[partnerExtra],
+          win.setdex[partnerMega]
+        ]
+
+        ;[
+          [primaryLead, 0, primaryTrainerId],
+          [primarySecond, 1, primaryTrainerId],
+          [partnerLead, 0, partnerTrainerId],
+          [partnerSecond, 1, partnerTrainerId],
+          [partnerExtra, 2, partnerTrainerId],
+          [partnerMega, 6, partnerTrainerId]
+        ].forEach(([speciesName, subIndex, trainerId], idx) => {
+          const sourceSet = Object.values(baseSets[idx])[0]
+          win.setdex[speciesName][trainerSetName] = {
+            ...sourceSet,
+            item: '-',
+            level: 63,
+            sub_index: subIndex,
+            tr_id: trainerId,
+            moves: ['Protect', 'Tackle', 'Tailwind', 'Helping Hand']
+          }
+        })
+
+        win.$('input.opposing').val(opposingSetId)
+        win.partnerName = null
+        win.localStorage.switchInfo = '0'
+        win.__duplicateSubIndexOriginalGetNextIn = win.get_next_in
+        win.__duplicateSubIndexExpected = {
+          primary: primaryExpected,
+          partner: partnerExpected
+        }
+        win.get_next_in = () => ([
+          [`${primaryLead} (${trainerSetName})[0]`, 0, '', 0, ['Protect', 'Tackle', 'Tailwind', 'Helping Hand'], '', '', '', 0],
+          [`${primarySecond} (${trainerSetName})[1]`, 0, '', 1, ['Protect', 'Tackle', 'Tailwind', 'Helping Hand'], '', '', '', 0],
+          [`${partnerLead} (${trainerSetName})[0]`, 0, '', 0, ['Protect', 'Tackle', 'Tailwind', 'Helping Hand'], '', '', '', 0],
+          [`${partnerSecond} (${trainerSetName})[1]`, 0, '', 1, ['Protect', 'Tackle', 'Tailwind', 'Helping Hand'], '', '', '', 0],
+          [`${partnerExtra} (${trainerSetName})[2]`, 0, '', 2, ['Protect', 'Tackle', 'Tailwind', 'Helping Hand'], '', '', '', 0],
+          [`${partnerMega} (${trainerSetName})[6]`, 0, '', 6, ['Protect', 'Tackle', 'Tailwind', 'Helping Hand'], '', '', '', 0]
+        ])
+
+        win.refresh_next_in()
+      })
+
+      cy.get('.opposing.trainer-pok-list').should('have.class', 'dual-trainer-preview')
+      cy.get('.trainer-preview-primary .trainer-pok').should('have.length', 2)
+      cy.get('.trainer-preview-partner .trainer-pok').should('have.length', 4)
+
+      cy.window().then((win) => {
+        const primaryIds = win.$('.trainer-preview-primary .trainer-pok').map((_, el) => win.$(el).attr('data-id')).get()
+        const partnerIds = win.$('.trainer-preview-partner .trainer-pok').map((_, el) => win.$(el).attr('data-id')).get()
+
+        expect(primaryIds).to.deep.equal(win.__duplicateSubIndexExpected.primary)
+        expect(partnerIds).to.deep.equal(win.__duplicateSubIndexExpected.partner)
+
+        win.get_next_in = win.__duplicateSubIndexOriginalGetNextIn
+      })
+    })
+
     it('can import and navigate basic imported sets with no met location', () => {
       
       // Check that imports will show sprites in import box
@@ -280,4 +361,3 @@ for (let calc of calcs) {
 
 
 // check to make sure every listed move exists
-

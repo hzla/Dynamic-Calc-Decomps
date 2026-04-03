@@ -297,6 +297,15 @@ function wordsFromUint8LE(byteArray, byteOffset, byteLength) {
     return words;
 }
 
+function isPKMChunkEmpty(byteArray) {
+    for (let i = 0; i < byteArray.length; i++) {
+        if ((byteArray[i] || 0) !== 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
 function rewriteUint8FromWordsLE(targetBytes, byteOffset, words) {
     const bytes = convert16BitWordsToUint8Array(words);
     targetBytes.set(bytes, byteOffset);
@@ -467,7 +476,7 @@ function readPKMFromViewAtOffset(offset, isParty) {
   const raw = view.slice(offset, offset + CHUNK_SIZE);
 
   const pv = read32BitIntegerFromUint8Array(raw, 0);
-  if (pv === 0) {
+  if (isPKMChunkEmpty(raw)) {
     return { empty: true, offset, isParty, pv, raw };
   }
 
@@ -715,7 +724,7 @@ function parsePKM(chunk, is_party=false, offset=0) {
      // Extract the first 4 bytes and convert them to a 32-bit integer
     pv = read32BitIntegerFromUint8Array(chunk)
 
-    if (pv == 0) {
+    if (isPKMChunkEmpty(chunk)) {
         return ""
     }
 
