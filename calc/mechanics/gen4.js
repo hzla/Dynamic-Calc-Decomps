@@ -334,7 +334,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
             (attacker.hasItem('Griseous Orb') &&
                 attacker.named('Giratina-Origin') &&
                 move.hasType('Ghost', 'Dragon'))) {
-            if (TITLE == "Platinum Kaizo") {
+            if (TITLE == "Platinum Kaizo" && attacker.item.includes("Plate")) {
                 basePower = Math.floor(basePower * 1.5);
             } else {
                 basePower = Math.floor(basePower * 1.2);
