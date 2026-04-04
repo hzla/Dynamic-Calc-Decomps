@@ -1127,10 +1127,11 @@ if (["Pokemon Null"].includes(TITLE)) {
             (move.named('Shell Side Arm') && (0, util_2.getShellSideArmCategory)(attacker, defender, field.isWonderRoom) === 'Physical');
         var defenseStat = hitsPhysical ? 'def' : 'spd';
         desc.defenseEVs = "";
-        if (field.defenderSide.isPowerTrick && (field.isWonderRoom !== hitsPhysical)) {
-            desc.isPowerTrickDefender = true;
-            defender.rawStats[defenseStat] = defender.rawStats.atk;
-        }
+        // if (field.defenderSide.isPowerTrick && (field.isWonderRoom !== hitsPhysical)) {
+        //     desc.isPowerTrickDefender = true;
+        //     console.log(defenseStat)
+        //     defender.rawStats[defenseStat] = defender.rawStats.atk;
+        // }
         var boosts = defender.boosts[defenseStat];
         if (boosts === 0 ||
             (isCritical && boosts > 0) ||
