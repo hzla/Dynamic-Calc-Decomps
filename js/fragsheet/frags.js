@@ -1,5 +1,30 @@
 dbName = "Frags"
 
+function cloneEncounterSetData(setData) {
+	if (!setData || typeof setData !== "object") {
+		return {}
+	}
+
+	if (typeof structuredClone === "function") {
+		return structuredClone(setData)
+	}
+
+	return JSON.parse(JSON.stringify(setData))
+}
+
+function sanitizeEncounterSetData(setData) {
+	let sanitizedSetData = cloneEncounterSetData(setData)
+	if (!sanitizedSetData["My Box"]) {
+		sanitizedSetData["My Box"] = {}
+	}
+
+	delete sanitizedSetData["My Box"].moves
+	delete sanitizedSetData["My Box"].isCustomSet
+	delete sanitizedSetData["My Box"].level
+
+	return sanitizedSetData
+}
+
 
 // Add any new mons to encounters found in custom sets
 // Adds frag count of prevos to any new mons found
@@ -11,17 +36,17 @@ function importEncounters() {
 		currentEncounters = {}
 	}
 	for (const [speciesName, setData] of Object.entries(customSets)) {
+	  if (!setData["My Box"]) {
+		continue
+	  }
+
+	  let sanitizedSetData = sanitizeEncounterSetData(setData)
 		
 	  // add to encounters if doesn't exist
-	  if (!currentEncounters[speciesName] && setData["My Box"]) {
+	  if (!currentEncounters[speciesName]) {
 		// console.log(currentEncounters)s
 
-	  	let encounter = {setData: structuredClone(setData), fragCount: 0, frags: [], prevoFragCount: 0, alive: true, hide: false}
-
-	  		  	
-	  	delete encounter.setData["My Box"].moves
-	  	delete encounter.setData["My Box"].isCustomSet
-	  	delete encounter.setData["My Box"].level
+	  	let encounter = {setData: sanitizedSetData, fragCount: 0, frags: [], prevoFragCount: 0, alive: true, hide: false}
 
 	  	currentEncounters[speciesName] = encounter
 
@@ -42,7 +67,18 @@ function importEncounters() {
 	  	if (preFrags[3]) {
 	  		encounter.setData["My Box"].nn = preFrags[3]
 	  	}	  	
-	  } 
+	  } else {
+		currentEncounters[speciesName].setData = sanitizedSetData
+		if (typeof currentEncounters[speciesName].alive === "undefined") {
+			currentEncounters[speciesName].alive = true
+		}
+		if (!Array.isArray(currentEncounters[speciesName].frags)) {
+			currentEncounters[speciesName].frags = []
+		}
+		if (typeof currentEncounters[speciesName].fragCount !== "number") {
+			currentEncounters[speciesName].fragCount = currentEncounters[speciesName].frags.length
+		}
+	  }
 	}
 	localStorage.encounters = JSON.stringify(currentEncounters)  	
 	return currentEncounters
@@ -205,24 +241,10 @@ function prevoData(speciesName, encounters) {
 }
 
 function shouldHidePrevo(speciesName) {
-	let evos = []
-
-	try {
-		evos = evoData[speciesName]["evos"]
-	} catch {
-		return false
+	if (typeof window.shouldHideImportedPrevo === "function") {
+		return window.shouldHideImportedPrevo(speciesName, customSets)
 	}
-	
 
-	for (evo of evos) {
-		if (evo == speciesName) {
-			continue
-		} else {
-			if (customSets[evo] && !evo.includes("-Mega") && Object.keys(customSets[evo]).length != 0) {
-				return true
-			}
-		}
-	}
 	return false
 }
 
@@ -254,7 +276,6 @@ $(document).ready(function(){
 	});
 
 })
-
 
 
 

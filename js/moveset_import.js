@@ -729,6 +729,17 @@ function getStoredCustomSets() {
 	}
 }
 
+function createBoxImportBatchId() {
+	return String(Date.now()) + "-" + Math.random().toString(36).slice(2, 8);
+}
+
+function rememberLatestBoxImportBatchId(batchId) {
+	if (!batchId) {
+		return;
+	}
+	localStorage.latestBoxImportBatchId = String(batchId);
+}
+
 function isMegaSpeciesName(speciesName) {
 	return typeof speciesName === "string" && speciesName.includes("-Mega");
 }
@@ -990,6 +1001,10 @@ function buildDexObject(poke) {
 		dexObject.met = poke["met"];
 	}
 
+	if (poke.boxImportBatchId) {
+		dexObject.boxImportBatchId = String(poke.boxImportBatchId);
+	}
+
 	return {
 		speciesName: speciesName,
 		dexObject: dexObject
@@ -1016,8 +1031,11 @@ function upsertImportedSet(customsets, poke) {
 
 function addToDex(poke) {
 	var customsets = getStoredCustomSets();
+	var importBatchId = createBoxImportBatchId();
+	poke.boxImportBatchId = importBatchId;
 	var importedSet = upsertImportedSet(customsets, poke);
 	reconcileMegaImports([{ speciesName: importedSet.speciesName }], customsets);
+	rememberLatestBoxImportBatchId(importBatchId);
 	updateDex(customsets);
 }
 
@@ -1117,6 +1135,34 @@ function importPolledMasterBoxPayload(boxPayload) {
 
 window.importPolledMasterBoxPayload = importPolledMasterBoxPayload;
 
+function applyImportedBoxPreview(customsets) {
+	updateDex(customsets);
+	get_box();
+	$('.player-poks, .player-megas').addClass('shake');
+	customSets = JSON.parse(localStorage.customsets);
+	setTimeout(function(){
+		$('.player-poks, .player-megas').removeClass('shake');
+	}, 500);
+	$(allPokemon("#importedSetsOptions")).css("display", "inline");
+	displayParty();
+}
+
+function syncFragsheetFromImportedBox() {
+	if (typeof importEncounters !== "function") {
+		return;
+	}
+
+	try {
+		importEncounters();
+	} catch (error) {
+		console.error("Failed to sync imported box into fragsheet state", error);
+	}
+
+	if (splitData[TITLE]) {
+		$('#fragsheet-howto').show();
+	}
+}
+
 function addSets(pokes, name) {
 	if (isValidJSON(pokes)) {
 		try {
@@ -1138,6 +1184,7 @@ function addSets(pokes, name) {
 	var addedpokes = 0;
 	var importedRows = [];
 	var customsets = getStoredCustomSets();
+	var importBatchId = createBoxImportBatchId();
 	// currentParty = []
 	for (var i = 0; i < rows.length; i++) {
 		var item = false
@@ -1162,12 +1209,13 @@ function addSets(pokes, name) {
 			
 
 
-			if (calc.SPECIES[8][currentRow[j].trim()] !== undefined) {
+				if (calc.SPECIES[8][currentRow[j].trim()] !== undefined) {
 
-				currentPoke = calc.SPECIES[8][currentRow[j].trim()];
-				currentPoke.name = currentRow[j].trim();
-				currentPoke.gender = headerInfo.gender;
-				currentPoke.item = getItem(currentRow, j + 1);
+					currentPoke = calc.SPECIES[8][currentRow[j].trim()];
+					currentPoke.name = currentRow[j].trim();
+					currentPoke.boxImportBatchId = importBatchId;
+					currentPoke.gender = headerInfo.gender;
+					currentPoke.item = getItem(currentRow, j + 1);
 				if (j === 1 && currentRow[0].trim()) {
 					currentPoke.nameProp = "My Box";
 					currentPoke.nn = currentRow[0].trim()
@@ -1194,21 +1242,9 @@ function addSets(pokes, name) {
 	}
 	if (addedpokes > 0) {
 		reconcileMegaImports(importedRows, customsets);
-		updateDex(customsets);
-		get_box()
-		// alert("Successfully imported " + addedpokes + " set(s)");
-		$('.player-poks, .player-megas').addClass('shake')
-		customSets = JSON.parse(localStorage.customsets);
-		setTimeout(function(){
-			$('.player-poks, .player-megas').removeClass('shake')
-		}, 500)
-		$(allPokemon("#importedSetsOptions")).css("display", "inline");
-		displayParty()
-		importEncounters()
-
-		if (splitData[TITLE]) {
-			$('#fragsheet-howto').show()
-		}
+		rememberLatestBoxImportBatchId(importBatchId);
+		applyImportedBoxPreview(customsets);
+		syncFragsheetFromImportedBox();
 	} else {
 		alert("No sets imported, please check your syntax and try again");
 	}

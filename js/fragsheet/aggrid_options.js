@@ -464,6 +464,79 @@ function resolveEvoEntry(speciesName) {
     }
 }
 
+function getEvolutionChain(speciesName) {
+    let resolved = resolveEvoEntry(speciesName)
+    if (!resolved) {
+        return []
+    }
+
+    return [resolved.ancestor].concat(resolved.ancestorEntry["evos"] || [])
+}
+
+function getLatestBoxImportBatchId() {
+    return String(localStorage.latestBoxImportBatchId || "").trim()
+}
+
+function getImportBatchIdForSpeciesEntry(entry) {
+    if (!entry || typeof entry !== "object") {
+        return ""
+    }
+
+    if (entry["My Box"] && typeof entry["My Box"] === "object") {
+        return String(entry["My Box"].boxImportBatchId || entry["My Box"].importBatchId || "").trim()
+    }
+
+    if (entry.setData && entry.setData["My Box"] && typeof entry.setData["My Box"] === "object") {
+        return String(entry.setData["My Box"].boxImportBatchId || entry.setData["My Box"].importBatchId || "").trim()
+    }
+
+    return ""
+}
+
+function findLatestImportedLaterEvolution(speciesName, sourceData) {
+    let latestBatchId = getLatestBoxImportBatchId()
+    if (!latestBatchId || !sourceData || typeof sourceData !== "object") {
+        return null
+    }
+
+    if (getImportBatchIdForSpeciesEntry(sourceData[speciesName]) === latestBatchId) {
+        return null
+    }
+
+    let resolved = resolveEvoEntry(speciesName)
+    if (!resolved) {
+        return null
+    }
+
+    let evolutionChain = getEvolutionChain(speciesName)
+    let sourceIndex = evolutionChain.indexOf(resolved.resolvedSpeciesName)
+    if (sourceIndex < 0) {
+        sourceIndex = evolutionChain.indexOf(speciesName)
+    }
+
+    if (sourceIndex < 0) {
+        return null
+    }
+
+    for (let i = sourceIndex + 1; i < evolutionChain.length; i++) {
+        let evolvedSpecies = evolutionChain[i]
+        if (!sourceData[evolvedSpecies]) {
+            continue
+        }
+
+        if (getImportBatchIdForSpeciesEntry(sourceData[evolvedSpecies]) === latestBatchId) {
+            return evolvedSpecies
+        }
+    }
+
+    return null
+}
+
+window.findLatestImportedLaterEvolution = findLatestImportedLaterEvolution
+window.shouldHideImportedPrevo = function(speciesName, sourceData) {
+    return Boolean(findLatestImportedLaterEvolution(speciesName, sourceData))
+}
+
 function prevoData(speciesName, encounters) {
     let resolved = resolveEvoEntry(speciesName)
     if (!resolved) {
@@ -504,16 +577,7 @@ function createRowData() {
         encRow = {}
         encRow.totalKo = 0
 
-        let resolved = resolveEvoEntry(enc)
-        let evolutions = resolved ? (resolved.ancestorEntry["evos"] || []) : []
-
-        let foundEvo = false
-        for (evo of evolutions) {
-            if (typeof encounters[evo] != "undefined" && evo != enc && evolutions.indexOf(enc) < evolutions.indexOf(evo)) {
-                foundEvo = true
-                break
-            }
-        }
+        let foundEvo = findLatestImportedLaterEvolution(enc, encounters)
 
 
         // merge frags with prevos
