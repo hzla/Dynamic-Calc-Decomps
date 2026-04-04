@@ -435,6 +435,7 @@ function displayParty() {
 
 function get_box() {
     var names = get_trainer_names()
+    encounters = getEncounters()
 
     var box = []
 
@@ -447,6 +448,10 @@ function get_box() {
             var setId = names[i].split("[")[0]
             var speciesName = setId.split(" (")[0]
             box.push(setId)
+
+            if (encounters && encounters[speciesName] && !encounters[speciesName].alive) {
+                continue
+            }
 
             var set_name = setId.trim()
             var highlights = ""

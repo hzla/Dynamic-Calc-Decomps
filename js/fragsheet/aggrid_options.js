@@ -537,6 +537,36 @@ window.shouldHideImportedPrevo = function(speciesName, sourceData) {
     return Boolean(findLatestImportedLaterEvolution(speciesName, sourceData))
 }
 
+function findAnyLaterEvolutionInEncounters(speciesName, encounters) {
+    if (!encounters || typeof encounters !== "object") {
+        return null
+    }
+
+    let resolved = resolveEvoEntry(speciesName)
+    if (!resolved) {
+        return null
+    }
+
+    let evolutionChain = getEvolutionChain(speciesName)
+    let sourceIndex = evolutionChain.indexOf(resolved.resolvedSpeciesName)
+    if (sourceIndex < 0) {
+        sourceIndex = evolutionChain.indexOf(speciesName)
+    }
+
+    if (sourceIndex < 0) {
+        return null
+    }
+
+    for (let i = sourceIndex + 1; i < evolutionChain.length; i++) {
+        let evolvedSpecies = evolutionChain[i]
+        if (typeof encounters[evolvedSpecies] != "undefined") {
+            return evolvedSpecies
+        }
+    }
+
+    return null
+}
+
 function prevoData(speciesName, encounters) {
     let resolved = resolveEvoEntry(speciesName)
     if (!resolved) {
@@ -577,7 +607,7 @@ function createRowData() {
         encRow = {}
         encRow.totalKo = 0
 
-        let foundEvo = findLatestImportedLaterEvolution(enc, encounters)
+        let foundEvo = findAnyLaterEvolutionInEncounters(enc, encounters)
 
 
         // merge frags with prevos
