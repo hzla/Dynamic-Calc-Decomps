@@ -943,7 +943,7 @@
         }
 
         const parsed = parseInt(lvlMatch[1], 10);
-        return Number.isFinite(parsed) ? parsed : null;
+        return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
     }
 
     function parseTrainerName(trainerId) {
@@ -1010,12 +1010,12 @@
     }
 
     function getBattleLogSessionLevel(session) {
-        const sessionLevel = getSessionPartyHighestLevel(session);
-        if (Number.isFinite(sessionLevel) && sessionLevel > 0) {
-            return sessionLevel;
-        }
         const trainerId = getSessionTrainerId(session);
-        return tryParseTrainerLeadLevel(trainerId);
+        const trainerLeadLevel = tryParseTrainerLeadLevel(trainerId);
+        if (Number.isFinite(trainerLeadLevel) && trainerLeadLevel > 0) {
+            return trainerLeadLevel;
+        }
+        return getSessionPartyHighestLevel(session);
     }
 
     function getBattleLogSessionSplitIndex(session) {
