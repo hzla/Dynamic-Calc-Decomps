@@ -967,6 +967,9 @@ function loadDataSource(data) {
         delete moves['Armor Cannon'].isPulse 
         delete MOVES_BY_ID[g].armorcannon.flags.pulse
 
+        moves["Fury Attack"].bp = 20
+        MOVES_BY_ID[g].furyattack.basePower = 20
+
         if (TITLE.includes("1.3")) {
             $('#reasoning').show()
             $('.move-pp').show()
