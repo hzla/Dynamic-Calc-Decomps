@@ -286,7 +286,11 @@ function get_next_in_g4() {
 
 
         var is_first_phase2_mon = !checked_first_phase2_mon
-        checked_first_phase2_mon = true
+        
+        if (sub_index != get_current_in().sub_index) {
+            checked_first_phase2_mon = true
+        }
+        
 
         // p1 = createPokemon($("#p1"))
         // create mon with ignoteStatMods = true
