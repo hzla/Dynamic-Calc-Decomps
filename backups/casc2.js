@@ -1,5 +1,5 @@
 backup_data = {
-     "title":"Cascade White",
+  "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
   },
@@ -2976,9 +2976,9 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 0,
+      "hc_effect": "Hex",
       "target": "allAdjacentFoes",
-      "sf": true,
-      "hc_effect": "Hex"
+      "sf": true
     },
     "Wish": {
       "type": "Normal",
@@ -5372,8 +5372,7 @@ backup_data = {
       "accuracy": 100,
       "priority": 0,
       "e_id": 0,
-      "sf": true,
-      "hc_effect": "Hex"
+      "sf": true
     },
     "Sky Drop": {
       "type": "Flying",
@@ -7083,7 +7082,7 @@ backup_data = {
           ],
           [
             5,
-            "Barrage"
+            "Water Gun"
           ],
           [
             8,
@@ -7284,7 +7283,7 @@ backup_data = {
           ],
           [
             5,
-            "Barrage"
+            "Water Gun"
           ],
           [
             8,
@@ -13250,7 +13249,7 @@ backup_data = {
           ],
           [
             22,
-            "Double Slap"
+            "Trop Kick"
           ],
           [
             25,
@@ -13266,7 +13265,7 @@ backup_data = {
           ],
           [
             34,
-            "Sludge"
+            "Double Slap"
           ],
           [
             37,
@@ -13431,7 +13430,7 @@ backup_data = {
           ],
           [
             22,
-            "Double Slap"
+            "Trop Kick"
           ],
           [
             25,
@@ -13447,7 +13446,7 @@ backup_data = {
           ],
           [
             34,
-            "Sludge"
+            "Double Slap"
           ],
           [
             37,
@@ -13628,7 +13627,7 @@ backup_data = {
           ],
           [
             22,
-            "Double Slap"
+            "Trop Kick"
           ],
           [
             25,
@@ -13644,7 +13643,7 @@ backup_data = {
           ],
           [
             34,
-            "Sludge"
+            "Double Slap"
           ],
           [
             37,
@@ -18777,7 +18776,7 @@ backup_data = {
           ],
           [
             45,
-            "Rest"
+            "Iron Defense"
           ],
           [
             48,
@@ -18940,7 +18939,7 @@ backup_data = {
           ],
           [
             45,
-            "Rest"
+            "Iron Defense"
           ],
           [
             48,
@@ -18956,7 +18955,7 @@ backup_data = {
           ],
           [
             57,
-            "Curse"
+            "Rest"
           ],
           [
             62,
@@ -19117,7 +19116,7 @@ backup_data = {
           ],
           [
             45,
-            "Rest"
+            "Iron Defense"
           ],
           [
             48,
@@ -19133,7 +19132,7 @@ backup_data = {
           ],
           [
             57,
-            "Curse"
+            "Rest"
           ],
           [
             62,
@@ -33434,7 +33433,7 @@ backup_data = {
           ],
           [
             1,
-            "Barrage"
+            "Water Gun"
           ],
           [
             1,
@@ -33611,7 +33610,7 @@ backup_data = {
           ],
           [
             1,
-            "Barrage"
+            "Water Gun"
           ],
           [
             1,
@@ -37703,7 +37702,7 @@ backup_data = {
           ],
           [
             34,
-            "Double Slap"
+            "Moonblast"
           ],
           [
             37,
@@ -37715,7 +37714,7 @@ backup_data = {
           ],
           [
             43,
-            "Play Rough"
+            "Double Slap"
           ],
           [
             45,
@@ -43767,7 +43766,7 @@ backup_data = {
       "abs": [
         "Guts",
         "Quick Feet",
-        "Sap Sipper"
+        "Honey Gather"
       ],
       "evos": [
         "Ursaring"
@@ -50912,7 +50911,7 @@ backup_data = {
           ],
           [
             3,
-            "Barrage"
+            "Water Gun"
           ],
           [
             7,
@@ -51073,7 +51072,7 @@ backup_data = {
           ],
           [
             3,
-            "Barrage"
+            "Water Gun"
           ],
           [
             7,
@@ -60660,7 +60659,7 @@ backup_data = {
           ],
           [
             48,
-            "Curse"
+            "Bulk Up"
           ],
           [
             52,
@@ -60843,7 +60842,7 @@ backup_data = {
           ],
           [
             48,
-            "Curse"
+            "Bulk Up"
           ],
           [
             52,
@@ -61704,7 +61703,7 @@ backup_data = {
           ],
           [
             45,
-            "Curse"
+            "Will-O-Wisp"
           ],
           [
             49,
@@ -61882,7 +61881,7 @@ backup_data = {
           ],
           [
             45,
-            "Curse"
+            "Will-O-Wisp"
           ],
           [
             49,
@@ -62056,7 +62055,7 @@ backup_data = {
           ],
           [
             48,
-            "Curse"
+            "Bulk Up"
           ],
           [
             51,
@@ -66495,7 +66494,7 @@ backup_data = {
           ],
           [
             60,
-            "Curse"
+            "Hone Claws"
           ],
           [
             65,
@@ -73166,7 +73165,7 @@ backup_data = {
           ],
           [
             66,
-            "Curse"
+            "Growth"
           ],
           [
             70,
@@ -76687,7 +76686,7 @@ backup_data = {
           ],
           [
             54,
-            "Skull Bash"
+            "Head Smash"
           ]
         ],
         "tms": [
@@ -76861,15 +76860,15 @@ backup_data = {
           ],
           [
             54,
-            "Skull Bash"
-          ],
-          [
-            59,
             "Head Smash"
           ],
           [
+            59,
+            "Skull Bash"
+          ],
+          [
             64,
-            "Curse"
+            "Protect"
           ],
           [
             70,
@@ -101908,11 +101907,11 @@ backup_data = {
           ],
           [
             67,
-            "Curse"
+            "Rest"
           ],
           [
             72,
-            "Rest"
+            "Spikes"
           ],
           [
             77,
@@ -102090,11 +102089,11 @@ backup_data = {
           ],
           [
             67,
-            "Curse"
+            "Rest"
           ],
           [
             72,
-            "Rest"
+            "Spikes"
           ],
           [
             77,
@@ -126028,7 +126027,7 @@ backup_data = {
           "Destiny Bond"
         ],
         "sub_index": 0,
-        "ability": "Stench",
+        "ability": "Cursed Body",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
         "evs": {
@@ -126050,12 +126049,12 @@ backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "TM30",
-        "item": "Tera Orb",
+        "item": "Tera Gem",
         "nature": "Jolly",
         "moves": [
           "Dazzling Gleam",
           "Shadow Ball",
-          "Energy Ball",
+          "Hex",
           "Sludge Bomb"
         ],
         "sub_index": 4,
@@ -131054,13 +131053,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "None",
+        "item": "Chople Berry",
         "nature": "Rash",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Hyper Voice",
+          "Hydro Pump",
+          "Dragon Tail",
+          "Flip Turn"
         ],
         "sub_index": 0,
         "ability": "Refrigerate",
@@ -132561,7 +132560,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Loaded Dice",
-        "nature": "Jolly",
+        "nature": "Naive",
         "moves": [
           "Tail Slap",
           "Arm Thrust",
@@ -134440,13 +134439,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "None",
-        "nature": "Adamant",
+        "item": "Life Orb",
+        "nature": "Mild",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Thunder",
+          "Hydro Pump",
+          "Blizzard",
+          "Hurricane"
         ],
         "sub_index": 1,
         "ability": "Swift Swim",
@@ -144184,7 +144183,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Throat Spray",
-        "nature": "Adamant",
+        "nature": "Serious",
         "moves": [
           "Snore",
           "Torment",
@@ -149132,7 +149131,7 @@ backup_data = {
         "item": "Eviolite",
         "nature": "Bold",
         "moves": [
-          "Ominous Wind",
+          "Hex",
           "Curse",
           "Protect",
           "Night Shade"
@@ -149235,6 +149234,37 @@ backup_data = {
         "sub_index": 0,
         "ability": "Hyper Cutter",
         "sprite": "trainer_sprites/socialite.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      },
+      "Lvl 52 Johto Leader Morty ": {
+        "level": 52,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 229,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Doubles",
+        "reward_item": "TM30",
+        "item": "Loaded Dice",
+        "nature": "Naive",
+        "moves": [
+          "Fury Swipes",
+          "Shadow Claw",
+          "Thunder Wave",
+          "Pursuit"
+        ],
+        "sub_index": 2,
+        "ability": "Hyper Cutter",
+        "sprite": "trainer_sprites/johtoleader.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -150576,7 +150606,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Starf Berry",
-        "nature": "Bold",
+        "nature": "Relaxed",
         "moves": [
           "Glare",
           "Dizzy Punch",
@@ -151542,16 +151572,16 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "-",
+        "item": "Weakness Policy",
         "nature": "Sassy",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Hex",
+          "Scald",
+          "Recover",
+          "Bitter Malice"
         ],
         "sub_index": 2,
-        "ability": "Cursed Body",
+        "ability": "Water Absorb",
         "sprite": "trainer_sprites/fisherman.png",
         "form": 0,
         "evs": {
@@ -152510,7 +152540,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Trickster Herb",
-        "nature": "Mild",
+        "nature": "Quirky",
         "moves": [
           "Power Trip",
           "Double Team",
@@ -155824,7 +155854,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Choice Band",
-        "nature": "Relaxed",
+        "nature": "Lonely",
         "moves": [
           "Brave Bird",
           "Head Smash",
@@ -160303,37 +160333,6 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 52 Johto Leader Morty ": {
-        "level": 52,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 229,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Doubles",
-        "reward_item": "TM30",
-        "item": "Ghost Gem",
-        "nature": "Sassy",
-        "moves": [
-          "Shadow Force",
-          "Focus Punch",
-          "Thunder Wave",
-          "Hex"
-        ],
-        "sub_index": 2,
-        "ability": "Patient",
-        "sprite": "trainer_sprites/johtoleader.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
       "Lvl 57 Rival Benga3 - Starter 3": {
         "level": 57,
         "ai": 143,
@@ -161710,7 +161709,7 @@ backup_data = {
           "Body Slam",
           "Strength",
           "Milk Drink",
-          "Curse"
+          "Bulk Up"
         ],
         "sub_index": 2,
         "ability": "Scrappy",
@@ -163748,7 +163747,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Choice Scarf",
-        "nature": "Naughty",
+        "nature": "Bashful",
         "moves": [
           "Boomburst",
           "-----",
@@ -174023,7 +174022,7 @@ backup_data = {
         "moves": [
           "Snarl",
           "Tail Slap",
-          "Supercell Slam",
+          "Metronome",
           "Charm"
         ],
         "sub_index": 0,
@@ -182459,13 +182458,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "-",
-        "nature": "Naughty",
+        "item": "Black Sludge",
+        "nature": "Docile",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Venoshock",
+          "Draco Meteor",
+          "Substitute",
+          "Attract"
         ],
         "sub_index": 3,
         "ability": "Corrosion",
@@ -182680,13 +182679,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "-",
+        "item": "Air Balloon",
         "nature": "Serious",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Toxic Spikes",
+          "Baneful Bunker",
+          "Stealth Rock",
+          "Explosion"
         ],
         "sub_index": 0,
         "ability": "Water Absorb",
@@ -185141,7 +185140,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Babiri Berry",
-        "nature": "Calm",
+        "nature": "Careful",
         "moves": [
           "Shell Smash",
           "Rock Slide",
@@ -185329,7 +185328,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "Super Potion",
         "item": "Chople Berry",
-        "nature": "Brave",
+        "nature": "Quiet",
         "moves": [
           "Roar",
           "-----",
@@ -185768,13 +185767,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "-",
-        "nature": "Careful",
+        "item": "Bright Powder",
+        "nature": "Modest",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Venoshock",
+          "Hex",
+          "Scald",
+          "Baneful Bunker"
         ],
         "sub_index": 1,
         "ability": "Merciless",
@@ -186308,7 +186307,7 @@ backup_data = {
         "moves": [
           "Dive",
           "Mirror Coat",
-          "Curse",
+          "Bulk Up",
           "Giga Impact"
         ],
         "sub_index": 2,
@@ -187219,7 +187218,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Focus Band",
-        "nature": "Relaxed",
+        "nature": "Quirky",
         "moves": [
           "Sucker Punch",
           "Pursuit",
@@ -190897,7 +190896,7 @@ backup_data = {
         "moves": [
           "Avalanche",
           "Weather Crash",
-          "Curse",
+          "Bulk Up",
           "Slack Off"
         ],
         "sub_index": 2,
@@ -191116,10 +191115,10 @@ backup_data = {
         "item": "Eviolite",
         "nature": "Adamant",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Giga Impact",
+          "Gastro Acid",
+          "Recover",
+          "Yawn"
         ],
         "sub_index": 2,
         "ability": "Moisturize",
@@ -194718,7 +194717,7 @@ backup_data = {
           "Sweet Scent"
         ],
         "sub_index": 1,
-        "ability": "Sap Sipper",
+        "ability": "Honey Gather",
         "sprite": "trainer_sprites/youngster.png",
         "form": 0,
         "evs": {
@@ -196055,13 +196054,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "None",
+        "item": "King’s Rock",
         "nature": "Modest",
         "moves": [
-          "",
-          "",
-          "",
-          ""
+          "Dark Pulse",
+          "Triple Dive",
+          "Ice Beam",
+          "Detect"
         ],
         "sub_index": 3,
         "ability": "Speed Boost",
@@ -197522,7 +197521,7 @@ backup_data = {
         "moves": [
           "Dragon Tail",
           "Zen Headbutt",
-          "Curse",
+          "Bulk Up",
           "Razor Shell"
         ],
         "sub_index": 3,
@@ -200895,7 +200894,7 @@ backup_data = {
       }
     }
   },
-    "order": {
+  "order": {
     "162": {
       "id": 162,
       "next": 163,
@@ -202508,5 +202507,4 @@ backup_data = {
     }
   }
 
-  
 }
