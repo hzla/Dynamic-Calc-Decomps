@@ -255,7 +255,7 @@ function syncAutoImportMegaToggles() {
 
 function toggleAutoImportMegas() {
     localStorage.autoImportMegas = (parseInt(localStorage.autoImportMegas) + 1) % 2
-    syncAutoImportMegaToggles()
+    location.reload()
 }
 
 
