@@ -1241,7 +1241,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 0 Guitarist Brian2 ": {
+    "Lvl 0 Guitarist Brian 7 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -3743,7 +3743,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl 0 Guitarist Brian2 ": {
+    "Lvl 0 Guitarist Brian 7 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -13872,7 +13872,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl -1 Guitarist Brian 7 Badges ": {
+    "Lvl -1 Guitarist Brian 2 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 30,
@@ -14123,7 +14123,7 @@ backup_data = {
         "Check Bad Move"
       ]
     },
-    "Lvl -1 Guitarist Brian 7 Badges ": {
+    "Lvl -1 Guitarist Brian 2 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -14164,7 +14164,7 @@ backup_data = {
     }
   },
   "Sandy Shocks": {
-    "Lvl 0 Guitarist Brian2 ": {
+    "Lvl 0 Guitarist Brian 7 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -14243,7 +14243,7 @@ backup_data = {
     }
   },
   "Rhyperior": {
-    "Lvl 0 Guitarist Brian2 ": {
+    "Lvl 0 Guitarist Brian 7 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -14322,7 +14322,7 @@ backup_data = {
     }
   },
   "Rotom-Fan": {
-    "Lvl 0 Guitarist Brian2 ": {
+    "Lvl 0 Guitarist Brian 7 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
@@ -14363,7 +14363,7 @@ backup_data = {
     }
   },
   "Orthworm": {
-    "Lvl 0 Guitarist Brian2 ": {
+    "Lvl 0 Guitarist Brian 7 Badges ": {
       "ivs": {
         "hp": 31,
         "at": 31,
