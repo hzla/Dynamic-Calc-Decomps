@@ -726,6 +726,13 @@ function smogonAnalysis(pokemonName) {
 // auto-update set details on select
 
 function getTrainerPreviewMeta(setId) {
+	if (typeof setId !== "string" || !setId) {
+		return {
+			subIndex: null,
+			trainerId: null
+		};
+	}
+
 	var subIndexMatch = setId.match(/\[(\d+)\]$/);
 	var trainerId = getTrainerPreviewTrainerIdFromSet(setId)
 
@@ -812,6 +819,20 @@ function getTrainerPreviewTrainerIdFromSet(setId) {
 }
 
 function renderTrainerPreviewPok(next_pok) {
+	if (!Array.isArray(next_pok) || typeof next_pok[0] !== "string" || !next_pok[0]) {
+		return ""
+	}
+
+	if (!Array.isArray(next_pok[4])) {
+		next_pok[4] = []
+	}
+	if (typeof next_pok[2] !== "string") {
+		next_pok[2] = ""
+	}
+	if (typeof next_pok[5] !== "string") {
+		next_pok[5] = ""
+	}
+
 	var pok_name = next_pok[0].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
 	for (let n = 0; n < 4; n++) {
 		if (!next_pok[4][n]) {
@@ -846,6 +867,9 @@ function renderTrainerPreviewPok(next_pok) {
 
 	var species = next_pok[0].split(" (")[0]
 	var set_name = next_pok[0].split(" (")[1].split(")")[0]
+	if (!setdex[species] || !setdex[species][set_name]) {
+		return ""
+	}
 	var item = setdex[species][set_name]["item"]
 
 	if (item && item != "-" && !item.toLowerCase().includes("none")) {
@@ -910,6 +934,11 @@ function renderTrainerPreviewPok(next_pok) {
 function refresh_next_in() {
 	var next_poks = get_next_in()
 
+	if (!Array.isArray(next_poks)) {
+		$('.opposing.trainer-pok-list').removeClass('dual-trainer-preview').html("")
+		return
+	}
+
 	var trpok_html = ""
 	var renderedEntries = []
 	var subIndexCounts = {}
@@ -936,9 +965,16 @@ function refresh_next_in() {
 		expNeededToLevelFully = 1
 	}
 	
-	for (i in next_poks ) {
-		var meta = getTrainerPreviewMeta(next_poks[i][0])
-		var trainerName = getTrainerPreviewName(next_poks[i][0])
+	for (var i = 0; i < next_poks.length; i++) {
+		var nextPok = next_poks[i]
+		var setId = Array.isArray(nextPok) ? nextPok[0] : null
+		if (typeof setId !== "string" || !setId) {
+			console.warn("Skipping malformed trainer preview entry", nextPok)
+			continue
+		}
+
+		var meta = getTrainerPreviewMeta(setId)
+		var trainerName = getTrainerPreviewName(setId)
 		if (meta.subIndex !== null) {
 			subIndexCounts[meta.subIndex] = (subIndexCounts[meta.subIndex] || 0) + 1
 		}
@@ -946,7 +982,7 @@ function refresh_next_in() {
 			trainerIdCounts[meta.trainerId] = (trainerIdCounts[meta.trainerId] || 0) + 1
 		}
 
-		var pok = renderTrainerPreviewPok(next_poks[i])
+		var pok = renderTrainerPreviewPok(nextPok)
 		if (!pok) {
 			continue
 		}
@@ -970,7 +1006,7 @@ function refresh_next_in() {
 	var partnerTrainerPoks = []
 	var genericSubIndexSeen = {}
 
-	for (i in renderedEntries) {
+	for (var i = 0; i < renderedEntries.length; i++) {
 		var entry = renderedEntries[i]
 		if (!resolvedPartnerName && entry.trainerName && entry.trainerName != primaryTrainerName && !fallbackPartnerNames.includes(entry.trainerName)) {
 			fallbackPartnerNames.push(entry.trainerName)

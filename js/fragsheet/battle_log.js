@@ -6,7 +6,7 @@
     const BATTLE_LOG_SYNC_BASE_RETRY_MS = 400;
     const BATTLE_LOG_PACKED_MAGIC = "NBL1";
     const BATTLE_LOG_PACKED_MIN_VERSION = 1;
-    const BATTLE_LOG_PACKED_MAX_VERSION = 2;
+    const BATTLE_LOG_PACKED_MAX_VERSION = 3;
     let lastRenderedBattleLogRaw = null;
     let lastRenderedCustomLeadsRaw = null;
     let syncBattleLogsInFlight = false;
@@ -456,7 +456,8 @@
             const eventType = readBits(2);
             if (eventType === 0) {
                 const hasPartyHighestLevel = version >= 2;
-                const sessionStartExtraBits = hasPartyHighestLevel ? 7 : 0;
+                const hasBadgeFields = version >= 3;
+                const sessionStartExtraBits = (hasPartyHighestLevel ? 7 : 0) + (hasBadgeFields ? (5 + 16) : 0);
                 if (bitsRemaining() < (16 + 16 + 3 + sessionStartExtraBits)) {
                     break;
                 }
@@ -464,6 +465,8 @@
                 const enemyTrainerIdB = readBits(16);
                 let partyCount = readBits(3);
                 const pPartyHighestLevel = hasPartyHighestLevel ? readBits(7) : null;
+                const badgeCount = hasBadgeFields ? readBits(5) : null;
+                const badgeFlags = hasBadgeFields ? readBits(16) : null;
                 if (partyCount > 6) {
                     partyCount = 6;
                 }
@@ -503,6 +506,8 @@
                     type: "session_start",
                     enemyTrainerIdA: enemyTrainerIdA === 0xFFFF ? null : enemyTrainerIdA,
                     enemyTrainerIdB: enemyTrainerIdB === 0xFFFF ? null : enemyTrainerIdB,
+                    badgeCount: Number.isFinite(badgeCount) ? badgeCount : null,
+                    badgeFlags: Number.isFinite(badgeFlags) ? badgeFlags : null,
                     pPartyHighestLevel: Number.isFinite(pPartyHighestLevel) ? pPartyHighestLevel : null,
                     pParty: party,
                 });
@@ -987,6 +992,40 @@
         return splitIndex;
     }
 
+    function popcount16(value) {
+        let remaining = Number(value);
+        if (!Number.isFinite(remaining) || remaining < 0) return null;
+        remaining &= 0xFFFF;
+        let count = 0;
+        while (remaining !== 0) {
+            count += (remaining & 1);
+            remaining >>>= 1;
+        }
+        return count;
+    }
+
+    function getBattleLogSplitIndexForBadgeCount(badgeCount) {
+        if (!Number.isFinite(badgeCount) || badgeCount < 0) return null;
+        const splitTabs = getBattleLogSplitTabsConfig();
+        if (!Array.isArray(splitTabs) || !splitTabs.length) return null;
+
+        return Math.min(Math.max(Math.floor(badgeCount), 0), splitTabs.length - 1);
+    }
+
+    function getBattleLogSessionBadgeCount(session) {
+        const start = session && session.start;
+        if (!start || typeof start !== "object") {
+            return null;
+        }
+
+        const direct = Number(start.badgeCount);
+        if (Number.isFinite(direct) && direct >= 0) {
+            return Math.floor(direct);
+        }
+
+        return popcount16(start.badgeFlags);
+    }
+
     function getSessionPartyHighestLevel(session) {
         const start = session && session.start;
         if (!start || typeof start !== "object") {
@@ -1019,6 +1058,10 @@
     }
 
     function getBattleLogSessionSplitIndex(session) {
+        const badgeSplitIndex = getBattleLogSplitIndexForBadgeCount(getBattleLogSessionBadgeCount(session));
+        if (badgeSplitIndex != null) {
+            return badgeSplitIndex;
+        }
         return getBattleLogSplitIndexForLevel(getBattleLogSessionLevel(session));
     }
 

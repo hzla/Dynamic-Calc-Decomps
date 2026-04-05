@@ -122,7 +122,7 @@ function get_next_in_g5() {
     var playerIgnoresAbilities = player.hasAbility("Mold Breaker", "Teravolt", "Turboblaze" ,"Neutralizing Gas") || player.hasItem("Tera Drill", "Ability Drill")
 
 
-    for (i in trainer_poks) {
+    for (var i = 0; i < trainer_poks.length; i++) {
         var pok_name = trainer_poks[i].split(" (")[0]
         var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
         var strongest_move_bp = 0

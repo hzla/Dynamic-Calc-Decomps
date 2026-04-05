@@ -505,7 +505,7 @@ function get_next_in() {
 
     var expYield = 0
 
-    for (let subIndex in trainer_poks) {
+    for (let subIndex = 0; subIndex < trainer_poks.length; subIndex++) {
         analysis = ""
 
         p2 = createPokemon(trainer_poks[subIndex].slice(0,-3))

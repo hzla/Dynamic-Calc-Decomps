@@ -87,7 +87,7 @@ function get_next_in_g4() {
         p1.ability = "Pressure"
     }
 
-    for (i in trainer_poks) {
+    for (var i = 0; i < trainer_poks.length; i++) {
         var pok_name = trainer_poks[i].split(" (")[0]
         var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
         if (!pokedex[pok_name]) {
@@ -152,7 +152,7 @@ function get_next_in_g4() {
         var added_to_se_bucket = false
         var seMoves = []
 
-        for (j in pok_data["moves"]) {
+        for (var j = 0; j < pok_data["moves"].length; j++) {
             var mov_name = pok_data["moves"][j]
             var mov_data = moves[mov_name]
 
@@ -267,7 +267,7 @@ function get_next_in_g4() {
     // The bug only affects the first Phase 2 mon checked.
     var checked_first_phase2_mon = false
 
-    for (i in trainer_poks) {
+    for (var i = 0; i < trainer_poks.length; i++) {
         var pok_name = trainer_poks[i].split(" (")[0]
         var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0]
         var type1 = pokedex[pok_name]["types"][0]
@@ -384,5 +384,3 @@ function sort_trpoks_g4(a, b) {
         return (b[5] < a[5]) ? -1 : 1;
     }
 }
-
-

@@ -7,6 +7,7 @@
         { key: "sd", label: "SpD" },
         { key: "sp", label: "Spe" }
     ];
+    const BOX_BASE_STAT_MAX = 255;
     const BOX_TYPE_FILTERS = [
         "normal", "fire", "water", "electric", "grass", "ice",
         "fighting", "poison", "ground", "flying", "psychic", "bug",
@@ -306,29 +307,64 @@
         };
     }
 
-    function buildRadarPolygon(values, radius, center) {
+    function buildRadarPolygon(values, radius, center, maxValue) {
+        const safeMax = Number(maxValue) > 0 ? Number(maxValue) : 31;
         return values.map((value, index) => {
-            const point = polarPoint(-90 + index * 60, (Math.max(0, Math.min(31, value)) / 31) * radius, center);
+            const normalized = Math.max(0, Math.min(safeMax, Number(value) || 0));
+            const point = polarPoint(-90 + index * 60, (normalized / safeMax) * radius, center);
             return `${point.x},${point.y}`;
         }).join(" ");
     }
 
-    function getIvRadarMarkup(setData) {
+    function getRadarMarkup(options) {
         const center = 60;
         const radius = 42;
-        const values = BOX_IV_STATS.map((stat) => getIvValue(setData, stat.key));
+        const stats = Array.isArray(options && options.stats) ? options.stats : BOX_IV_STATS;
+        const values = stats.map((stat) => Number(stat && stat.value) || 0);
         const levels = [1, 0.75, 0.5, 0.25];
-        const nature = getNatureModifiers(setData);
+        const maxValue = Number(options && options.maxValue) > 0 ? Number(options.maxValue) : 31;
+        const chartClass = options && options.chartClass ? String(options.chartClass) : "";
+        const shapeClass = options && options.shapeClass ? String(options.shapeClass) : "";
+        const axisClassName = options && options.axisClassName ? String(options.axisClassName) : "";
+        const ariaLabel = options && options.ariaLabel ? String(options.ariaLabel) : "Radar chart";
+        const title = options && options.title ? String(options.title) : "";
 
         const gridPolygons = levels.map((level) => {
-            const points = BOX_IV_STATS.map((_, index) => {
+            const points = stats.map((_, index) => {
                 const point = polarPoint(-90 + index * 60, radius * level, center);
                 return `${point.x},${point.y}`;
             }).join(" ");
-            return `<polygon class="box-iv-grid" points="${points}"></polygon>`;
+            return `<polygon class="box-radar-grid" points="${points}"></polygon>`;
         }).join("");
 
-        const axes = BOX_IV_STATS.map((stat, index) => {
+        const axes = stats.map((stat, index) => {
+            const axisClass = stat && stat.axisClass ? String(stat.axisClass) : "";
+            const point = polarPoint(-90 + index * 60, radius, center);
+            const labelPoint = polarPoint(-90 + index * 60, radius + 14, center);
+            const valuePoint = polarPoint(-90 + index * 60, radius + 2, center);
+            return `
+                <g class="box-radar-axis-group ${escapeHtml(axisClassName)} ${escapeHtml(axisClass)}">
+                    <line class="box-radar-axis" x1="${center}" y1="${center}" x2="${point.x}" y2="${point.y}"></line>
+                    <circle class="box-radar-point" cx="${valuePoint.x}" cy="${valuePoint.y}" r="3"></circle>
+                    <text class="box-radar-axis-label" x="${labelPoint.x}" y="${labelPoint.y}">${escapeHtml(stat.value)} ${escapeHtml(stat.label)}</text>
+                </g>
+            `;
+        }).join("");
+
+        return `
+            <svg class="box-radar ${escapeHtml(chartClass)}" viewBox="0 0 120 120" aria-label="${escapeHtml(ariaLabel)}">
+                <title>${escapeHtml(title)}</title>
+                ${gridPolygons}
+                ${axes}
+                <polygon class="box-radar-shape ${escapeHtml(shapeClass)}" points="${buildRadarPolygon(values, radius, center, maxValue)}"></polygon>
+                <circle class="box-radar-center" cx="${center}" cy="${center}" r="2"></circle>
+            </svg>
+        `;
+    }
+
+    function getIvRadarMarkup(setData) {
+        const nature = getNatureModifiers(setData);
+        const stats = BOX_IV_STATS.map((stat) => {
             const normalizedStatKey = NATURE_STAT_KEY_MAP[stat.key];
             let axisClass = "neutral";
             if (normalizedStatKey && normalizedStatKey !== "hp") {
@@ -339,26 +375,85 @@
                 }
             }
 
-            const point = polarPoint(-90 + index * 60, radius, center);
-            const labelPoint = polarPoint(-90 + index * 60, radius + 14, center);
-            const valuePoint = polarPoint(-90 + index * 60, radius + 2, center);
-            return `
-                <g class="box-iv-axis-group ${axisClass}">
-                    <line class="box-iv-axis" x1="${center}" y1="${center}" x2="${point.x}" y2="${point.y}"></line>
-                    <circle class="box-iv-point" cx="${valuePoint.x}" cy="${valuePoint.y}" r="3"></circle>
-                    <text class="box-iv-axis-label" x="${labelPoint.x}" y="${labelPoint.y}">${getIvValue(setData, stat.key)} ${stat.label}</text>
-                </g>
-            `;
-        }).join("");
+            return {
+                label: stat.label,
+                value: getIvValue(setData, stat.key),
+                axisClass
+            };
+        });
+
+        return getRadarMarkup({
+            stats,
+            maxValue: 31,
+            chartClass: "box-iv-radar",
+            shapeClass: "box-iv-shape",
+            axisClassName: "box-iv-axis-group",
+            ariaLabel: "IV radar chart",
+            title: stats.map((stat) => `${stat.label} ${stat.value}`).join(" / ")
+        });
+    }
+
+    function getBaseStatBarClass(value) {
+        const numericValue = Number(value) || 0;
+        if (numericValue >= 120) {
+            return "teal";
+        }
+        if (numericValue >= 90) {
+            return "lime";
+        }
+        if (numericValue >= 60) {
+            return "yellow";
+        }
+        return "orange";
+    }
+
+    function getBaseStatPanelMarkup(baseStats) {
+        const stats = [
+            { label: "HP", value: Number(baseStats && baseStats.hp) || 0 },
+            { label: "Atk", value: Number(baseStats && baseStats.at) || 0 },
+            { label: "Def", value: Number(baseStats && baseStats.df) || 0 },
+            { label: "Sp Atk", value: Number(baseStats && baseStats.sa) || 0 },
+            { label: "Sp Def", value: Number(baseStats && baseStats.sd) || 0 },
+            { label: "Spd", value: Number(baseStats && baseStats.sp) || 0 }
+        ];
+        const total = stats.reduce((sum, stat) => sum + stat.value, 0);
 
         return `
-            <svg class="box-iv-radar" viewBox="0 0 120 120" aria-label="IV radar chart">
-                <title>${BOX_IV_STATS.map((stat) => `${stat.label} ${getIvValue(setData, stat.key)}`).join(" / ")}</title>
-                ${gridPolygons}
-                ${axes}
-                <polygon class="box-iv-shape" points="${buildRadarPolygon(values, radius, center)}"></polygon>
-                <circle class="box-iv-center" cx="${center}" cy="${center}" r="2"></circle>
-            </svg>
+            <div class="box-base-stat-panel" aria-label="Base stats summary">
+                ${stats.map((stat) => `
+                    <div class="box-base-stat-row">
+                        <div class="box-base-stat-label">${escapeHtml(stat.label)}</div>
+                        <div class="box-base-stat-value">${escapeHtml(stat.value)}</div>
+                        <div class="box-base-stat-bar-track">
+                            <div
+                                class="box-base-stat-bar ${escapeHtml(getBaseStatBarClass(stat.value))}"
+                                style="width: ${escapeHtml(((Math.max(0, Math.min(BOX_BASE_STAT_MAX, stat.value)) / BOX_BASE_STAT_MAX) * 100).toFixed(1))}%"
+                            ></div>
+                        </div>
+                    </div>
+                `).join("")}
+                <div class="box-base-stat-total-row">
+                    <div class="box-base-stat-total-label">Total</div>
+                    <div class="box-base-stat-total-value">${escapeHtml(total)}</div>
+                </div>
+            </div>
+        `;
+    }
+
+    function getRadarTabsMarkup(entry) {
+        return `
+            <div class="box-card-radar-panels">
+                <div class="box-card-radar-panel active" data-radar-panel="ivs">
+                    ${getIvRadarMarkup(entry.setData)}
+                </div>
+                <div class="box-card-radar-panel box-card-radar-panel-stats" data-radar-panel="base-stats">
+                    ${getBaseStatPanelMarkup(entry.baseStats)}
+                </div>
+            </div>
+            <div class="box-card-radar-tabs" role="tablist" aria-label="Radar chart view">
+                <button type="button" role="tab" class="box-radar-tab active" data-radar-view="ivs" aria-selected="true">IVs</button>
+                <button type="button" role="tab" class="box-radar-tab" data-radar-view="base-stats" aria-selected="false">Base Stats</button>
+            </div>
         `;
     }
 
@@ -488,6 +583,25 @@
         return entry.typeSlugs.some((typeSlug) => boxViewState.activeTypeSlugs.has(typeSlug));
     }
 
+    function getBoxTypeCounts(entries) {
+        const counts = {};
+        BOX_TYPE_FILTERS.forEach((typeSlug) => {
+            counts[typeSlug] = 0;
+        });
+
+        const safeEntries = Array.isArray(entries) ? entries : [];
+        safeEntries.forEach((entry) => {
+            const typeSlugs = Array.isArray(entry && entry.typeSlugs) ? entry.typeSlugs : [];
+            typeSlugs.forEach((typeSlug) => {
+                if (typeof counts[typeSlug] === "number") {
+                    counts[typeSlug] += 1;
+                }
+            });
+        });
+
+        return counts;
+    }
+
     function setBoxEmptyState(kicker, title, copy) {
         const kickerEl = document.getElementById("box-empty-kicker");
         const titleEl = document.getElementById("box-empty-title");
@@ -501,6 +615,9 @@
         const moves = Array.isArray(entry.setData.moves) ? entry.setData.moves.slice(0, 4) : [];
         const metLocation = entry.setData.met ? String(entry.setData.met).trim() : "";
         const statRows = [];
+        const typeIcons = Array.isArray(entry.typeNames) ? entry.typeNames.map((typeName) => (
+            getTypeIconMarkup(typeName, "box-card-sprite-type-icon")
+        )).join("") : "";
         while (moves.length < 4) {
             moves.push("");
         }
@@ -527,6 +644,7 @@
                         <div class="box-card-sprite-wrap" data-dex-species="${escapeHtml(entry.speciesName)}">
                             <img class="box-card-sprite" src="./img/newhd/${escapeHtml(entry.spriteSlug)}.png" alt="${escapeHtml(entry.speciesName)}" onerror="this.src='./img/default.png'">
                             ${getItemSpriteMarkup(entry.setData.item)}
+                            ${typeIcons ? `<div class="box-card-sprite-types">${typeIcons}</div>` : ""}
                         </div>
                     </div>
                     <div class="box-card-main">
@@ -543,7 +661,7 @@
                         </div>
                     </div>
                     <div class="box-card-radar-wrap">
-                        ${getIvRadarMarkup(entry.setData)}
+                        ${getRadarTabsMarkup(entry)}
                         <div class="box-card-radar-meta">
                             ${getIvPercentileMarkup("Offense", entry.offensiveIvPercent)}
                             ${getIvPercentileMarkup("Defense", entry.defensiveIvPercent)}
@@ -572,9 +690,10 @@
         });
     }
 
-    function renderBoxControlsUi() {
+    function renderBoxControlsUi(typeCounts) {
         const sortButtons = document.getElementById("box-sort-buttons");
         const typeFilters = document.getElementById("box-type-filters");
+        const counts = typeCounts && typeof typeCounts === "object" ? typeCounts : {};
 
         if (sortButtons) {
             sortButtons.innerHTML = BOX_SORT_OPTIONS.map((option) => `
@@ -590,10 +709,11 @@
                     type="button"
                     class="box-type-filter${boxViewState.activeTypeSlugs.has(typeSlug) ? " active" : ""}"
                     data-box-type="${escapeHtml(typeSlug)}"
-                    aria-label="${escapeHtml(titleCaseSlug(typeSlug))}"
-                    title="${escapeHtml(titleCaseSlug(typeSlug))}"
+                    aria-label="${escapeHtml(`${titleCaseSlug(typeSlug)} (${Number(counts[typeSlug]) || 0})`)}"
+                    title="${escapeHtml(`${titleCaseSlug(typeSlug)} (${Number(counts[typeSlug]) || 0})`)}"
                 >
                     ${getTypeIconMarkup(typeSlug, "box-type-filter-icon")}
+                    <span class="box-type-filter-count">(${escapeHtml(Number(counts[typeSlug]) || 0)})</span>
                 </button>
             `).join("");
         }
@@ -647,6 +767,23 @@
         $(document).on("click", ".box-card-sprite-wrap", function () {
             openDexEntryForSpecies($(this).attr("data-dex-species"));
         });
+
+        $(document).on("click", ".box-radar-tab[data-radar-view]", function () {
+            const nextView = $(this).attr("data-radar-view");
+            const radarWrap = $(this).closest(".box-card-radar-wrap");
+            if (!nextView || !radarWrap.length) {
+                return;
+            }
+
+            radarWrap.find(".box-radar-tab").each(function () {
+                const isActive = $(this).attr("data-radar-view") === nextView;
+                $(this).toggleClass("active", isActive).attr("aria-selected", isActive ? "true" : "false");
+            });
+
+            radarWrap.find(".box-card-radar-panel").each(function () {
+                $(this).toggleClass("active", $(this).attr("data-radar-panel") === nextView);
+            });
+        });
     }
 
     function renderBoxView(force) {
@@ -663,10 +800,12 @@
             return;
         }
 
-        renderBoxControlsUi();
+        const allEntries = buildBoxMetaEntries();
+        const typeCounts = getBoxTypeCounts(allEntries);
+
+        renderBoxControlsUi(typeCounts);
         syncBoxControlsUi();
 
-        const allEntries = buildBoxMetaEntries();
         if (!allEntries.length) {
             cardGrid.innerHTML = "";
             setBoxEmptyState(

@@ -319,7 +319,7 @@ function get_next_in_g3() {
         dead.types = ["Normal"];
     }
 
-    for (i in trainer_poks) {
+    for (var i = 0; i < trainer_poks.length; i++) {
         var pok_name = trainer_poks[i].split(" (")[0];
         var tr_name = trainer_poks[i].split(" (")[1].replace(")", "").split("[")[0];
         var sub_index = parseInt(trainer_poks[i].split(" (")[1].replace(")", "").split("[")[1].replace("]", ""));
@@ -346,7 +346,7 @@ function get_next_in_g3() {
         var bestMove = "";
         var seMoves = [];
 
-        for (var j in enemy.moves) {
+        for (var j = 0; j < enemy.moves.length; j++) {
             var move = enemy.moves[j];
 
 
