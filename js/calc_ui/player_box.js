@@ -449,7 +449,10 @@ function get_box() {
             var speciesName = setId.split(" (")[0]
             box.push(setId)
 
-            if (encounters && encounters[speciesName] && !encounters[speciesName].alive) {
+            if (
+                (typeof window.isSpeciesFamilyMarkedDead === "function" && window.isSpeciesFamilyMarkedDead(speciesName, encounters)) ||
+                (encounters && encounters[speciesName] && !encounters[speciesName].alive)
+            ) {
                 continue
             }
 

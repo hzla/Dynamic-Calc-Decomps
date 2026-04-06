@@ -911,8 +911,11 @@ function reconcileMegaImports(importedRows, customsets) {
 		var baseSpeciesName = touchedBaseSpecies[baseIndex];
 		var baseSet = customsets[baseSpeciesName] && customsets[baseSpeciesName]["My Box"];
 		var eligibleMegas = [];
+		var baseFamilyMarkedDead = typeof window.isSpeciesFamilyMarkedDead === "function"
+			? window.isSpeciesFamilyMarkedDead(baseSpeciesName)
+			: false;
 
-		if (shouldDeriveMegas && baseSet) {
+		if (shouldDeriveMegas && baseSet && !baseFamilyMarkedDead) {
 			eligibleMegas = autoImportAllMegas
 				? getAutoImportMegaFormes(baseSpeciesName)
 				: getItemMatchedMegaFormes(baseSpeciesName, baseSet.item);

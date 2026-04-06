@@ -473,6 +473,57 @@ function getEvolutionChain(speciesName) {
     return [resolved.ancestor].concat(resolved.ancestorEntry["evos"] || [])
 }
 
+function getSpeciesFamilyMembers(speciesName) {
+    let chain = getEvolutionChain(speciesName)
+    if (chain.length) {
+        return chain
+    }
+    return speciesName ? [speciesName] : []
+}
+
+function safeParseStoredObject(rawValue) {
+    try {
+        return rawValue ? JSON.parse(rawValue) : {}
+    } catch (_error) {
+        return {}
+    }
+}
+
+function getStoredCustomSetsForSpeciesHelpers() {
+    if (typeof customSets === "object" && customSets) {
+        return customSets
+    }
+    return safeParseStoredObject(localStorage.customsets)
+}
+
+function speciesExistsInCustomSets(speciesName, boxSets) {
+    let sets = boxSets || getStoredCustomSetsForSpeciesHelpers()
+    return Boolean(sets && sets[speciesName] && sets[speciesName]["My Box"])
+}
+
+function speciesExistsInEncounterMap(speciesName, encounterMap) {
+    return Boolean(encounterMap && typeof encounterMap === "object" && encounterMap[speciesName])
+}
+
+function isSpeciesFamilyMarkedDead(speciesName, encounterMap) {
+    let encountersMap = encounterMap && typeof encounterMap === "object"
+        ? encounterMap
+        : safeParseStoredObject(localStorage.encounters)
+
+    let familyMembers = getSpeciesFamilyMembers(speciesName)
+    for (let i = 0; i < familyMembers.length; i++) {
+        let familySpecies = familyMembers[i]
+        if (encountersMap[familySpecies] && encountersMap[familySpecies].alive === false) {
+            return true
+        }
+    }
+
+    return false
+}
+
+window.getSpeciesFamilyMembers = getSpeciesFamilyMembers
+window.isSpeciesFamilyMarkedDead = isSpeciesFamilyMarkedDead
+
 function getLatestBoxImportBatchId() {
     return String(localStorage.latestBoxImportBatchId || "").trim()
 }
@@ -567,6 +618,36 @@ function findAnyLaterEvolutionInEncounters(speciesName, encounters) {
     return null
 }
 
+function findAnyLaterEvolutionInBoxOrEncounters(speciesName, encounters, boxSets) {
+    let resolved = resolveEvoEntry(speciesName)
+    if (!resolved) {
+        return null
+    }
+
+    let evolutionChain = getEvolutionChain(speciesName)
+    let sourceIndex = evolutionChain.indexOf(resolved.resolvedSpeciesName)
+    if (sourceIndex < 0) {
+        sourceIndex = evolutionChain.indexOf(speciesName)
+    }
+
+    if (sourceIndex < 0) {
+        return null
+    }
+
+    let currentBoxSets = boxSets || getStoredCustomSetsForSpeciesHelpers()
+    for (let i = sourceIndex + 1; i < evolutionChain.length; i++) {
+        let evolvedSpecies = evolutionChain[i]
+        if (
+            speciesExistsInEncounterMap(evolvedSpecies, encounters) ||
+            speciesExistsInCustomSets(evolvedSpecies, currentBoxSets)
+        ) {
+            return evolvedSpecies
+        }
+    }
+
+    return null
+}
+
 function prevoData(speciesName, encounters) {
     let resolved = resolveEvoEntry(speciesName)
     if (!resolved) {
@@ -602,12 +683,13 @@ function createRowData() {
     aliveCount = 0
     deadCount = 0
     rowData = []
+    let currentBoxSets = getStoredCustomSetsForSpeciesHelpers()
 
     for (enc in encounters) {
         encRow = {}
         encRow.totalKo = 0
 
-        let foundEvo = findAnyLaterEvolutionInEncounters(enc, encounters)
+        let foundEvo = findAnyLaterEvolutionInBoxOrEncounters(enc, encounters, currentBoxSets)
 
 
         // merge frags with prevos
