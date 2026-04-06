@@ -1,16 +1,45 @@
-function loadDex(url) {
-	// Create iframe element
+function getDexGameQuery() {
+	const gameId = cleanString(TITLE);
+	return gameId ? `game=${gameId}` : '';
+}
 
-	if ($('iframe').length > 0) {
-		$('iframe').show()
-		$('.iframe-close-btn').show()
+function withDexGameContext(path) {
+	const route = typeof path === 'string' ? path.replace(/^\/+/, '') : '';
+	const gameQuery = getDexGameQuery();
+	if (!gameQuery) {
+		return route;
+	}
+	if (!route) {
+		return `?${gameQuery}`;
+	}
+	if (route.includes('game=')) {
+		return route;
+	}
+	return route.includes('?') ? `${route}&${gameQuery}` : `${route}?${gameQuery}`;
+}
+
+function getDexFrameUrl(path) {
+	return `https://ddex-chi.vercel.app/${withDexGameContext(path)}`;
+}
+
+function loadDex(url) {
+	const frameUrl = getDexFrameUrl(url);
+	const existingFrame = document.querySelector('iframe.dex-window');
+
+	if (existingFrame) {
+		if (existingFrame.src !== frameUrl) {
+			existingFrame.src = frameUrl;
+		}
+		$(existingFrame).show();
+		$('.iframe-close-btn').show();
 		return;
 	}
 
 	const iframe = document.createElement('iframe');
 
 	// Set iframe properties
-	iframe.src = `https://ddex-chi.vercel.app/${url}`;
+	iframe.src = frameUrl;
+	iframe.className = 'dex-window';
 
 	// Comment out for prod
 	// iframe.src = `http://localhost:3000/${url}`;
@@ -55,9 +84,12 @@ function loadDex(url) {
 }
 
 function silentLoadDex(url) {
-	loadDex(`?game=${cleanString(TITLE)}`)
+	if (!getDexGameQuery()) {
+		return;
+	}
+	loadDex(url || '')
 	console.log("Dex initialized")
-	$('iframe').hide()
+	$('iframe.dex-window').hide()
 	$('.iframe-close-btn').hide()
 }
 
@@ -68,7 +100,7 @@ $(document).ready(function() {
 	
 	 $('#open-dex, #main-nav-dex').click(function(e) {
 	 	e.preventDefault()
-	 	loadDex(`?game=${cleanString(TITLE)}`)
+	 	loadDex('')
 	 })
 
 	 if ($('#open-dex:visible, #main-nav-dex:visible').length > 0) {
@@ -83,7 +115,7 @@ $(document).ready(function() {
 	 		var dexPok = $(this).attr('src').split("/")[3].split(".")[0]
 	 		
 
-	 		$('iframe').remove()
+	 		$('iframe.dex-window').remove()
 	 		$('.iframe-close-btn').remove()
 	 		loadDex(`pokemon/${dexPok}`)
 	 	})
@@ -91,14 +123,12 @@ $(document).ready(function() {
 	 	$('#dex-show').click(function() {
 	 		var dexPok = $(this).parents('.panel').find('.poke-sprite').attr('src').split("/")[3].split(".")[0]
 	 		console.log(dexPok)
-	 		$('iframe').remove()
+	 		$('iframe.dex-window').remove()
 	 		$('.iframe-close-btn').remove()
 	 		loadDex(`pokemon/${dexPok}`)
 	 	})
 	 }
 })
-
-
 
 
 
