@@ -964,9 +964,6 @@ function loadDataSource(data) {
         delete moves['Octazooka'].isPulse 
         delete MOVES_BY_ID[g].octazooka.flags.pulse
 
-        delete moves['Armor Cannon'].isPulse 
-        delete MOVES_BY_ID[g].armorcannon.flags.pulse
-
         moves["Fury Attack"].bp = 20
         MOVES_BY_ID[g].furyattack.basePower = 20
 
