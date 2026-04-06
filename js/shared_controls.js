@@ -829,8 +829,10 @@ function renderTrainerPreviewPok(next_pok) {
 	if (typeof next_pok[2] !== "string") {
 		next_pok[2] = ""
 	}
-	if (typeof next_pok[5] !== "string") {
+	if (typeof next_pok[5] === "undefined" || next_pok[5] === null) {
 		next_pok[5] = ""
+	} else if (typeof next_pok[5] !== "string") {
+		next_pok[5] = String(next_pok[5])
 	}
 
 	var pok_name = next_pok[0].split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace("’","").replace(":","-")
