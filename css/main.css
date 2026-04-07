@@ -1421,6 +1421,24 @@ input {
     white-space: pre-wrap;
 }
 
+#ai-container .ai-list-block {
+    margin-top: 10px;
+}
+
+#ai-container .ai-list-title {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+#ai-container .ai-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#ai-container .ai-list li + li {
+    margin-top: 4px;
+}
+
 #ai-container .ai-spacer {
     height: 16px;
 }

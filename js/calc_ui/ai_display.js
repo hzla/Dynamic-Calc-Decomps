@@ -11,6 +11,11 @@ const GEN4_AI_FLAG_RENDER_ORDER = {
     ai11: { option: "harrassment", title: "HARASS AI" }
 }
 
+const GEN4_DOUBLES_AI_RENDER_ORDER = [
+    { option: "doubleEnemy", title: "DOUBLES ENEMY AI" },
+    { option: "doubleAlly", title: "DOUBLES ALLY AI" }
+]
+
 function escapeAiHtml(text) {
     return String(text)
         .replace(/&/g, "&amp;")
@@ -31,6 +36,10 @@ function getVisibleGen4AiSections() {
     })
 
     return visibleSections
+}
+
+function shouldRenderGen4DoublesAi() {
+    return $('#doubles-format').is(':checked') || $('#ai8:visible').length > 0
 }
 
 function renderAiBlocks(blocks) {
@@ -55,6 +64,14 @@ function renderAiBlocks(blocks) {
             let indent = Number.isFinite(block.indent) ? block.indent : 0
             let text = block.text ? block.text : ""
             html += `<div class="ai-line" style="--ai-indent:${indent};">${escapeAiHtml(text)}</div>`
+            continue
+        }
+
+        if (block.type === "list") {
+            let title = block.title ? `<div class="ai-list-title">${escapeAiHtml(block.title)}</div>` : ""
+            let items = Array.isArray(block.items) ? block.items : []
+            let itemHtml = items.map(item => `<li>${escapeAiHtml(item)}</li>`).join("")
+            html += `<div class="ai-list-block">${title}<ul class="ai-list">${itemHtml}</ul></div>`
         }
     }
 
@@ -95,9 +112,17 @@ $(document).on('click', '#show-ai', function() {
             }
 
             let visibleSections = getVisibleGen4AiSections()
+            let sectionsToRender = visibleSections.slice()
             let aiQueryOptions = {
                 moveName: move,
                 moveType: moveData.type
+            }
+
+            if (shouldRenderGen4DoublesAi()) {
+                aiQueryOptions.double = true
+                aiQueryOptions.doubleEnemy = true
+                aiQueryOptions.doubleAlly = true
+                sectionsToRender = sectionsToRender.concat(GEN4_DOUBLES_AI_RENDER_ORDER)
             }
 
             for (let i = 0; i < visibleSections.length; i++) {
@@ -110,8 +135,8 @@ $(document).on('click', '#show-ai', function() {
             aiHtml += `<div class="ai-header"><h2>${escapeAiHtml(move)} AI: Effect ${escapeAiHtml(aiInfo.effectId)}</h2>${getAiHeaderLinkHtml()}</div>`
 
             let sectionsRendered = 0
-            for (let i = 0; i < visibleSections.length; i++) {
-                let sectionConfig = visibleSections[i]
+            for (let i = 0; i < sectionsToRender.length; i++) {
+                let sectionConfig = sectionsToRender[i]
                 let section = aiInfo && aiInfo.ai ? aiInfo.ai[sectionConfig.option] : null
                 if (!section) {
                     continue
