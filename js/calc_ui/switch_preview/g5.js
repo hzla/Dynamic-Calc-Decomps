@@ -67,11 +67,13 @@ function g5ApplyCascadeMatchupBpMod(bp, targetTypes, switchInTypes) {
         return bp
     }
 
-    var defensiveTypeInfo = get_type_info(switchInTypes)
+    var normalizedSwitchInTypes = [switchInTypes[0], switchInTypes[1] || switchInTypes[0]]
+    var defensiveTypeInfo = get_type_info(normalizedSwitchInTypes)
     var typeEffectiveness = []
 
     for (var i = 0; i < targetTypes.length; i++) {
-        typeEffectiveness.push(defensiveTypeInfo[targetTypes[i]] || 1)
+        var effectiveness = defensiveTypeInfo[targetTypes[i]]
+        typeEffectiveness.push(Number.isFinite(effectiveness) ? effectiveness : 1)
     }
 
     if (typeEffectiveness.some(function(effectiveness) { return effectiveness >= 4; })) {
@@ -82,7 +84,9 @@ function g5ApplyCascadeMatchupBpMod(bp, targetTypes, switchInTypes) {
         return Math.floor((bp * 3) / 4)
     }
 
-    if (typeEffectiveness.every(function(effectiveness) { return effectiveness <= 0.25; })) {
+    // Cascade switch preview gives the larger boost when the switch-in blanks
+    // either of the current player's typing options outright.
+    if (typeEffectiveness.some(function(effectiveness) { return effectiveness === 0; })) {
         return bp + Math.floor(bp / 2)
     }
 
