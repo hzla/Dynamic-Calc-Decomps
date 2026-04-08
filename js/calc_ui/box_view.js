@@ -294,8 +294,6 @@
             return;
         }
 
-        $("iframe").remove();
-        $(".iframe-close-btn").remove();
         window.loadDex(`pokemon/${normalizeSlug(speciesName)}`);
     }
 

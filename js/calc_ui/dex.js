@@ -5,95 +5,130 @@ function getDexGameQuery() {
 
 function withDexGameContext(path) {
 	const route = typeof path === 'string' ? path.replace(/^\/+/, '') : '';
-	const gameQuery = getDexGameQuery();
-	if (!gameQuery) {
-		return route;
+	const routeParts = route.split('?');
+	const routePath = routeParts.shift() || '';
+	const params = new URLSearchParams(routeParts.join('?'));
+	const gameId = cleanString(TITLE);
+
+	if (!params.has('embedded')) {
+		params.set('embedded', '1');
 	}
-	if (!route) {
-		return `?${gameQuery}`;
+	if (gameId && !params.has('game')) {
+		params.set('game', gameId);
 	}
-	if (route.includes('game=')) {
-		return route;
+
+	const query = params.toString();
+	if (!routePath) {
+		return query ? `?${query}` : '';
 	}
-	return route.includes('?') ? `${route}&${gameQuery}` : `${route}?${gameQuery}`;
+	return query ? `${routePath}?${query}` : routePath;
 }
 
 function getDexFrameUrl(path) {
-	return `https://ddex-chi.vercel.app/${withDexGameContext(path)}`;
+	return `http://localhost:3000/${withDexGameContext(path)}`;
+	// return `https://ddex-chi.vercel.app/${withDexGameContext(path)}`;
 }
 
-function loadDex(url) {
-	const frameUrl = getDexFrameUrl(url);
-	const existingFrame = document.querySelector('iframe.dex-window');
+function getDexViewSlot() {
+	return document.getElementById('dex-view-frame-slot');
+}
 
-	if (existingFrame) {
-		if (existingFrame.src !== frameUrl) {
-			existingFrame.src = frameUrl;
-		}
-		$(existingFrame).show();
-		$('.iframe-close-btn').show();
+function getDexFrame() {
+	return document.querySelector('#dex-view-frame-slot iframe.dex-window');
+}
+
+function getCalculatorViewHeight() {
+	const calculatorView = document.getElementById('calculator-view');
+	const visibleHeight = calculatorView ? Math.max(
+		calculatorView.getBoundingClientRect().height || 0,
+		calculatorView.scrollHeight || 0
+	) : 0;
+	if (visibleHeight > 0) {
+		window.__DEX_VIEW_HEIGHT__ = visibleHeight;
+		return visibleHeight;
+	}
+	return window.__DEX_VIEW_HEIGHT__ || 0;
+}
+
+function syncDexFrameLayout() {
+	const dexView = document.getElementById('dex-view');
+	const dexSlot = getDexViewSlot();
+	const iframe = getDexFrame();
+	const targetHeight = getCalculatorViewHeight();
+
+	if (dexView && targetHeight > 0) {
+		dexView.style.minHeight = `${targetHeight}px`;
+	}
+	if (dexSlot && targetHeight > 0) {
+		dexSlot.style.minHeight = `${targetHeight}px`;
+	}
+	if (iframe && targetHeight > 0) {
+		iframe.style.height = `${targetHeight}px`;
+	}
+}
+
+function ensureDexFrame(frameUrl) {
+	const dexSlot = getDexViewSlot();
+	if (!dexSlot) {
+		return null;
+	}
+
+	let iframe = getDexFrame();
+	if (!iframe) {
+		iframe = document.createElement('iframe');
+		iframe.className = 'dex-window';
+		iframe.src = frameUrl;
+		iframe.setAttribute('title', 'Dynamic Dex');
+		iframe.setAttribute('loading', 'eager');
+		dexSlot.appendChild(iframe);
+	}
+	return iframe;
+}
+
+function ensureDexViewLoaded() {
+	const frameUrl = getDexFrameUrl('');
+	const iframe = ensureDexFrame(frameUrl);
+	if (!iframe) {
+		return null;
+	}
+	if (!iframe.src) {
+		iframe.src = frameUrl;
+	}
+	syncDexFrameLayout();
+	return iframe;
+}
+
+function loadDex(url, options) {
+	const settings = options || {};
+	const frameUrl = getDexFrameUrl(url);
+	const iframe = ensureDexFrame(frameUrl);
+
+	if (!iframe) {
 		return;
 	}
 
-	const iframe = document.createElement('iframe');
+	if (iframe.src !== frameUrl) {
+		iframe.src = frameUrl;
+	}
 
-	// Set iframe properties
-	iframe.src = frameUrl;
-	iframe.className = 'dex-window';
+	syncDexFrameLayout();
 
-	// Comment out for prod
-	// iframe.src = `http://localhost:3000/${url}`;
-
-	iframe.style.position = 'fixed';
-	iframe.style.top = '50%';
-	iframe.style.left = '50%';
-	iframe.style.transform = 'translate(-50%, -50%)';
-	iframe.style.width = '40vw';
-	iframe.style.height = '90vh';
-	iframe.style.border = '2px solid #333';
-	iframe.style.borderRadius = '8px';
-	iframe.style.zIndex = '999999';
-	iframe.style.boxShadow = '0 4px 20px rgba(0,0,0,0.3)';
-
-	// Optional: Add a close button
-	const closeBtn = document.createElement('button');
-	closeBtn.className = 'iframe-close-btn';
-	closeBtn.textContent = '✕';
-	closeBtn.style.position = 'fixed';
-	closeBtn.style.top = 'calc(5vh - 20px)';
-	closeBtn.style.left = 'calc(70vw - 20px)';
-	closeBtn.style.zIndex = '1000000';
-	closeBtn.style.background = '#ff4444';
-	closeBtn.style.color = 'white';
-	closeBtn.style.border = 'none';
-	closeBtn.style.borderRadius = '50%';
-	closeBtn.style.width = '40px';
-	closeBtn.style.height = '40px';
-	closeBtn.style.cursor = 'pointer';
-	closeBtn.style.fontSize = '20px';
-	closeBtn.style.fontWeight = 'bold';
-
-	closeBtn.onclick = () => {
-	    iframe.style.display = 'none';
-	    closeBtn.style.display = 'none';
-	};
-
-	// Add elements to page
-	document.body.appendChild(iframe);
-	document.body.appendChild(closeBtn);
+	if (settings.activateTab !== false && typeof window.setMainPageView === 'function') {
+		window.setMainPageView('dex');
+	}
 }
 
 function silentLoadDex(url) {
 	if (!getDexGameQuery()) {
 		return;
 	}
-	loadDex(url || '')
+	loadDex(url || '', { activateTab: false })
 	console.log("Dex initialized")
-	$('iframe.dex-window').hide()
-	$('.iframe-close-btn').hide()
 }
 
 $(document).ready(function() {
+	syncDexFrameLayout()
+
 	if (showDex) {
 		silentLoadDex()
 	}
@@ -113,24 +148,17 @@ $(document).ready(function() {
 	 		}
 
 	 		var dexPok = $(this).attr('src').split("/")[3].split(".")[0]
-	 		
-
-	 		$('iframe.dex-window').remove()
-	 		$('.iframe-close-btn').remove()
 	 		loadDex(`pokemon/${dexPok}`)
 	 	})
 
 	 	$('#dex-show').click(function() {
 	 		var dexPok = $(this).parents('.panel').find('.poke-sprite').attr('src').split("/")[3].split(".")[0]
 	 		console.log(dexPok)
-	 		$('iframe.dex-window').remove()
-	 		$('.iframe-close-btn').remove()
 	 		loadDex(`pokemon/${dexPok}`)
 	 	})
 	 }
+
+	$(window).on('resize', syncDexFrameLayout)
+	window.ensureDexViewLoaded = ensureDexViewLoaded
+	window.syncDexFrameLayout = syncDexFrameLayout
 })
-
-
-
-
-

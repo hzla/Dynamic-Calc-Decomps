@@ -561,6 +561,22 @@ input[type="file"] {
     position: relative;
 }
 
+#dex-view,
+#dex-view-frame-slot {
+    position: relative;
+    width: 100%;
+}
+
+#dex-view .dex-window {
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
 #box-view {
     padding: 8px 0 0;
 }
