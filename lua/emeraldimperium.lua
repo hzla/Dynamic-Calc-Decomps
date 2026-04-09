@@ -131,6 +131,7 @@ local CONFIG = {
         write_full_log = false, -- when false, full M2 event stream is not written to disk
         mirror_console_events = false,
         mirror_console_startup = true,
+        master_write_every_session_end = 1, -- 1 = flush at each battle end; >1 batches multiple battles before writing.
     },
 
     http = {
@@ -212,6 +213,10 @@ local state = {
         sessionCounterByAttempt = {},
         lastBoxMetaByAttempt = {},
         cachedBoxPayloadByAttempt = {},
+        contextByAttempt = {},
+        dirtyMasterByAttempt = {},
+        dirtyMasterNeedsBoxRefreshByAttempt = {},
+        completedSessionsSinceFlushByAttempt = {},
     },
 }
 
@@ -335,18 +340,10 @@ local function jsonEncode(value)
             end
             return "[" .. table.concat(parts, ",") .. "]"
         end
-        local keys = {}
-        for k, _ in pairs(value) do
-            keys[#keys + 1] = { key = k, keyText = tostring(k) }
-        end
-        table.sort(keys, function(a, b)
-            return a.keyText < b.keyText
-        end)
         local parts = {}
-        for i = 1, #keys do
-            local key = keys[i].key
-            local keyText = keys[i].keyText
-            parts[#parts + 1] = "\"" .. jsonEscape(keyText) .. "\":" .. jsonEncode(value[key])
+        for key, childValue in pairs(value) do
+            local keyText = tostring(key)
+            parts[#parts + 1] = "\"" .. jsonEscape(keyText) .. "\":" .. jsonEncode(childValue)
         end
         return "{" .. table.concat(parts, ",") .. "}"
     end
@@ -359,6 +356,10 @@ local function appendJsonRecordToPath(path, record)
     end
 
     local f = io.open(path, "a")
+    if not f then
+        ensureDirExistsForPath(path)
+        f = io.open(path, "a")
+    end
     if not f then
         if state.frame - (state.lastOutputErrorFrame or -1000000) > 300 then
             log(string.format("[Gen3 M2] WARN unable to open log output path: %s", tostring(path)))
@@ -388,6 +389,81 @@ local function emitRecord(record)
     end
 end
 
+local ensuredDirCache = {}
+
+local function pathExists(path)
+    if not path or path == "" then
+        return false
+    end
+    local ok, _err, code = os.rename(path, path)
+    if ok then
+        return true
+    end
+    return tonumber(code) == 13
+end
+
+local function quoteForCmd(path)
+    return "\"" .. tostring(path or ""):gsub("\"", "\"\"") .. "\""
+end
+
+local function quoteForSh(path)
+    return "'" .. tostring(path or ""):gsub("'", "'\\''") .. "'"
+end
+
+local function isLikelyWindowsPath(path)
+    local text = tostring(path or "")
+    if text:match("^%a:[/\\]") then
+        return true
+    end
+    if text:find("\\", 1, true) then
+        return true
+    end
+    if os and os.getenv then
+        if os.getenv("ComSpec") or os.getenv("WINDIR") then
+            return true
+        end
+    end
+    return false
+end
+
+local function ensureDir(path)
+    if not path or path == "" then
+        return false
+    end
+    if ensuredDirCache[path] ~= nil then
+        return ensuredDirCache[path]
+    end
+    if pathExists(path) then
+        ensuredDirCache[path] = true
+        return true
+    end
+
+    local normalizedWinPath = tostring(path):gsub("/", "\\")
+    local windowsCmd = "mkdir " .. quoteForCmd(normalizedWinPath)
+    local unixCmd = "mkdir -p " .. quoteForSh(path)
+    local commands
+    if isLikelyWindowsPath(path) then
+        commands = { windowsCmd, unixCmd }
+    else
+        commands = { unixCmd, windowsCmd }
+    end
+
+    for i = 1, #commands do
+        local ok = os.execute(commands[i])
+        if ok == true or ok == 0 then
+            ensuredDirCache[path] = true
+            return true
+        end
+        if pathExists(path) then
+            ensuredDirCache[path] = true
+            return true
+        end
+    end
+
+    ensuredDirCache[path] = false
+    return false
+end
+
 local function ensureOutputDirExists()
     local path = nil
     if CONFIG.output then
@@ -408,7 +484,7 @@ local function ensureOutputDirExists()
     if not dir or dir == "" then
         return
     end
-    os.execute(string.format("mkdir -p \"%s\"", dir))
+    ensureDir(dir)
 end
 
 local function getDefaultCondensedBattleLogPath(trainerId)
@@ -420,15 +496,12 @@ ensureDirExistsForPath = function(path)
     if not path or path == "" then
         return
     end
-    if not os or not os.execute then
-        return
-    end
 
-    local dir = path:match("^(.*)/[^/]+$")
+    local dir = tostring(path):gsub("\\", "/"):match("^(.*)/[^/]+$")
     if not dir or dir == "" then
         return
     end
-    os.execute(string.format("mkdir -p \"%s\"", dir))
+    ensureDir(dir)
 end
 
 local function trim(s)
@@ -796,8 +869,11 @@ local function saveAttemptMap(data)
         return false
     end
     local path = getAttemptMapPath()
-    ensureDirExistsForPath(path)
     local f = io.open(path, "w")
+    if not f then
+        ensureDirExistsForPath(path)
+        f = io.open(path, "w")
+    end
     if not f then
         return false
     end
@@ -975,7 +1051,6 @@ local function ensureExportContext()
     local identity = resolveExportIdentity(existingKey)
     local attempt = getOrCreateAttemptForKey(identity.trainerKey)
     local attemptDir = getAttemptDir(attempt)
-    ensureDirExistsForPath(attemptDir .. "/.keep")
 
     state.export.current.trainerId = identity.trainerId
     state.export.current.secretId = identity.secretId
@@ -997,6 +1072,73 @@ local function getCurrentAttemptEvents()
         hydrateAttemptStateFromMaster(attempt, ctx.masterPath)
     end
     return state.export.eventsByAttempt[attempt], ctx
+end
+
+local function cacheAttemptContext(ctx)
+    if type(ctx) ~= "table" or ctx.attempt == nil then
+        return nil
+    end
+    local cached = {
+        trainerId = ctx.trainerId,
+        secretId = ctx.secretId,
+        trainerKey = ctx.trainerKey,
+        attempt = ctx.attempt,
+        attemptDir = ctx.attemptDir,
+        masterPath = ctx.masterPath,
+    }
+    state.export.contextByAttempt[ctx.attempt] = cached
+    return cached
+end
+
+local function getAttemptContext(attempt)
+    if attempt == nil then
+        return nil
+    end
+    local current = state.export.current
+    if type(current) == "table" and current.attempt == attempt then
+        return cacheAttemptContext(current)
+    end
+    local ctx = state.export.contextByAttempt[attempt]
+    if type(ctx) == "table" then
+        return ctx
+    end
+    local attemptDir = getAttemptDir(attempt)
+    ctx = {
+        trainerId = nil,
+        secretId = nil,
+        trainerKey = NULL_EXPORT.defaultTrainerKey,
+        attempt = attempt,
+        attemptDir = attemptDir,
+        masterPath = getMasterPath(attempt),
+    }
+    state.export.contextByAttempt[attempt] = ctx
+    return ctx
+end
+
+local function markAttemptMasterDirty(attempt, needsBoxRefresh)
+    if attempt == nil then
+        return
+    end
+    state.export.dirtyMasterByAttempt[attempt] = true
+    if needsBoxRefresh then
+        state.export.dirtyMasterNeedsBoxRefreshByAttempt[attempt] = true
+    end
+end
+
+local function markCurrentAttemptMasterDirty(needsBoxRefresh)
+    local ctx = ensureExportContext()
+    cacheAttemptContext(ctx)
+    markAttemptMasterDirty(ctx.attempt, needsBoxRefresh)
+    return ctx
+end
+
+local function clearAttemptMasterDirty(attempt)
+    if attempt == nil then
+        return
+    end
+    state.export.dirtyMasterByAttempt[attempt] = nil
+    state.export.dirtyMasterNeedsBoxRefreshByAttempt[attempt] = nil
+    state.export.completedSessionsSinceFlushByAttempt[attempt] = 0
 end
 
 getCurrentAttemptBattleLogEvents = function()
@@ -1046,27 +1188,40 @@ local function cacheCurrentAttemptBoxPayload(ctx)
     return payload
 end
 
-local function writeCurrentAttemptMaster(refreshBoxPayload)
-    local events, ctx = getCurrentAttemptEvents()
+local function buildAttemptMasterTable(ctx, refreshBoxPayload)
+    if type(ctx) ~= "table" or ctx.attempt == nil then
+        return nil
+    end
+    local attempt = ctx.attempt
+    local events = state.export.eventsByAttempt[attempt]
+    if type(events) ~= "table" then
+        hydrateAttemptStateFromMaster(attempt, ctx.masterPath)
+        events = state.export.eventsByAttempt[attempt]
+    end
     local boxPayload
     if refreshBoxPayload then
-        boxPayload = cacheCurrentAttemptBoxPayload(ctx)
+        local current = state.export.current
+        if type(current) == "table" and current.attempt == attempt then
+            boxPayload = cacheCurrentAttemptBoxPayload(ctx)
+        else
+            boxPayload = state.export.cachedBoxPayloadByAttempt[attempt]
+        end
     else
-        boxPayload = state.export.cachedBoxPayloadByAttempt[ctx.attempt]
+        boxPayload = state.export.cachedBoxPayloadByAttempt[attempt]
     end
-    local boxMeta = state.export.lastBoxMetaByAttempt[ctx.attempt] or {}
+    local boxMeta = state.export.lastBoxMetaByAttempt[attempt] or {}
     if boxPayload ~= nil then
         boxMeta = {
             updatedAt = os.date("%Y-%m-%dT%H:%M:%S"),
             partyCount = boxPayload.partyCount ~= JSON_NULL and boxPayload.partyCount or nil,
             boxSlotsDumped = boxPayload.boxSlotsDumped ~= JSON_NULL and boxPayload.boxSlotsDumped or nil,
         }
-        state.export.lastBoxMetaByAttempt[ctx.attempt] = boxMeta
+        state.export.lastBoxMetaByAttempt[attempt] = boxMeta
     end
 
-    local out = {
+    return {
         version = NULL_EXPORT.version,
-        attempt = ctx.attempt,
+        attempt = attempt,
         trainerId = jsonOrNull(ctx.trainerId),
         secretId = jsonOrNull(ctx.secretId),
         trainerKey = ctx.trainerKey or NULL_EXPORT.defaultTrainerKey,
@@ -1081,9 +1236,19 @@ local function writeCurrentAttemptMaster(refreshBoxPayload)
             payload = boxPayload or JSON_NULL,
         },
     }
+end
 
-    ensureDirExistsForPath(ctx.masterPath)
+local function writeAttemptMaster(ctx, refreshBoxPayload)
+    local out = buildAttemptMasterTable(ctx, refreshBoxPayload)
+    if type(out) ~= "table" then
+        return false
+    end
+
     local f = io.open(ctx.masterPath, "w")
+    if not f then
+        ensureDirExistsForPath(ctx.masterPath)
+        f = io.open(ctx.masterPath, "w")
+    end
     if not f then
         log(string.format("[Gen3 M2] WARN unable to write attempt master file: %s", tostring(ctx.masterPath)))
         return false
@@ -1091,11 +1256,48 @@ local function writeCurrentAttemptMaster(refreshBoxPayload)
     f:write(jsonEncode(out))
     f:write("\n")
     f:close()
+    clearAttemptMasterDirty(ctx.attempt)
     return true
 end
 
+local function writeCurrentAttemptMaster(refreshBoxPayload)
+    local _, ctx = getCurrentAttemptEvents()
+    cacheAttemptContext(ctx)
+    return writeAttemptMaster(ctx, refreshBoxPayload)
+end
+
+local function flushAttemptMasterIfDirty(attempt, forceBoxRefresh)
+    local dirty = state.export.dirtyMasterByAttempt[attempt]
+    if not dirty and not forceBoxRefresh then
+        return true
+    end
+    local ctx = getAttemptContext(attempt)
+    if type(ctx) ~= "table" then
+        return false
+    end
+    local needsBoxRefresh = forceBoxRefresh or state.export.dirtyMasterNeedsBoxRefreshByAttempt[attempt]
+    return writeAttemptMaster(ctx, needsBoxRefresh)
+end
+
+local function flushCurrentAttemptMasterIfDirty(forceBoxRefresh)
+    local ctx = ensureExportContext()
+    cacheAttemptContext(ctx)
+    return flushAttemptMasterIfDirty(ctx.attempt, forceBoxRefresh)
+end
+
+local function flushAllDirtyAttemptMasters()
+    local ok = true
+    for attempt, dirty in pairs(state.export.dirtyMasterByAttempt) do
+        if dirty and not flushAttemptMasterIfDirty(attempt, false) then
+            ok = false
+        end
+    end
+    return ok
+end
+
 local function updateMasterFile(_trainerId, _secretId)
-    return writeCurrentAttemptMaster(true)
+    markCurrentAttemptMasterDirty(true)
+    return flushCurrentAttemptMasterIfDirty(true)
 end
 
 appendBattleLogEvent = function(record)
@@ -1114,7 +1316,8 @@ appendBattleLogEvent = function(record)
         end
     end
     events[#events + 1] = record
-    writeCurrentAttemptMaster(false)
+    cacheAttemptContext(ctx)
+    markAttemptMasterDirty(ctx.attempt, false)
 end
 
 emitCondensedRecord = function(record, _trainerIdOverride)
@@ -2332,7 +2535,16 @@ local function emitSessionEnd(signature)
     emitCondensedRecord({
         type = "session_end",
     })
-    updateMasterFile()
+    local ctx = ensureExportContext()
+    local attempt = ctx and ctx.attempt or nil
+    local completed = (state.export.completedSessionsSinceFlushByAttempt[attempt] or 0) + 1
+    state.export.completedSessionsSinceFlushByAttempt[attempt] = completed
+
+    local flushInterval = tonumber(CONFIG.output and CONFIG.output.master_write_every_session_end) or 1
+    flushInterval = math.max(1, math.floor(flushInterval))
+    if completed >= flushInterval then
+        updateMasterFile()
+    end
 end
 
 local function emitMoveEvent(snap, slot, ppBefore, ppAfter, moveId)
@@ -3348,8 +3560,9 @@ end
 
 local function buildUpdateJsonResponseBody()
     local showdownText = buildShowdownText()
-    writeCurrentAttemptMaster(true)
-    local battleLogsRaw = readCurrentAttemptMasterRawJson() or "null"
+    local ctx = ensureExportContext()
+    cacheAttemptContext(ctx)
+    local battleLogsRaw = jsonEncode(buildAttemptMasterTable(ctx, true) or JSON_NULL)
     return string.format("{\"box\":%s,\"battleLogs\":%s}", jsonEncode(showdownText or ""), battleLogsRaw)
 end
 
@@ -3769,6 +3982,8 @@ local function forceCloseHttpState(httpState)
 end
 
 local function teardownThisScriptInstance(_reason)
+    flushAllDirtyAttemptMasters()
+
     local g = rawget(_G, EMERALD_SINGLETON_KEY)
     if type(g) == "table" and g.callbackOwnerToken == THIS_SCRIPT_TOKEN then
         removeCallbackQuiet(g.startCallbackId)
@@ -3818,9 +4033,7 @@ local function onStart()
     end
     state.scriptStarted = true
     log("Lua Script Loaded")
-    ensureOutputDirExists()
-    local ctx = ensureExportContext()
-    renderHowToUseBuffer(ctx)
+    renderHowToUseBuffer(nil)
     setupHttpServer()
     if CONFIG.output and CONFIG.output.mirror_console_startup then
         log(string.format("[Gen3 M2] Turn battle logger loaded (%s).", SCRIPT_VERSION))
@@ -4133,8 +4346,11 @@ local function dumpMemoryRangeToFile(startAddr, endAddrInclusive, path, label)
         finish & 0xFFFFFFFF
     )
     local outPath = path or defaultPath
-    ensureDirExistsForPath(outPath)
     local f = io.open(outPath, "w")
+    if not f then
+        ensureDirExistsForPath(outPath)
+        f = io.open(outPath, "w")
+    end
     if not f then
         log(string.format("[Gen3 M2] dump failed: could not open file '%s' for writing.", tostring(outPath)))
         return nil
@@ -4352,9 +4568,11 @@ function milestone2_dump_party_box_hex(path, boxSlotsDumped)
     local trainerId, _secretId = getPlayerTrainerIds()
     local defaultPath = string.format("/Users/andylee/Repos/vsrecorder/logs/Box-%d.json", trainerId or 0)
     local outPath = path or defaultPath
-    ensureDirExistsForPath(outPath)
-
     local f = io.open(outPath, "w")
+    if not f then
+        ensureDirExistsForPath(outPath)
+        f = io.open(outPath, "w")
+    end
     if not f then
         log(string.format("[Gen3 M2] dump-party-box failed: could not open '%s' for writing.", tostring(outPath)))
         return
