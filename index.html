@@ -8,7 +8,7 @@
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
     <link type="text/css" rel="stylesheet" href="./css/main.css?cab5801e" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
-    <link type="text/css" rel="stylesheet" href="./css/frags.css?24ad300e" />
+    <link type="text/css" rel="stylesheet" href="./css/frags.css?f84b1399" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
     <link type="text/css" rel="stylesheet" href="./css/settings-ui.css?41103280" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css?1" />
@@ -2117,6 +2117,7 @@
                     <div id="battle-log-toolbar">
                         <button type="button" id="sync-battle-log" class="battle-log-toolbar-btn">Sync</button>
                         <button type="button" id="load-battle-log-file" class="battle-log-toolbar-btn">Load Battle Log (from Desmume Save Folder "Battery/Dumps")</button>
+                        <button type="button" id="download-edited-battle-log-file" class="battle-log-toolbar-btn" style="display:none;">Download Edited Attempt</button>
                         <input type="file" id="battle-log-file-input" accept=".json,application/json" hidden>
                         <div id="battle-log-upload-status" class="battle-log-note" style="display:none; margin: 0;">Not synced yet.</div>
                     </div>
@@ -2196,7 +2197,7 @@
     <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?a9f05e34"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa4"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
-    <script type="text/javascript" src="./js/fragsheet/battle_log.js?c0c831bf"></script>
+    <script type="text/javascript" src="./js/fragsheet/battle_log.js?197889a6"></script>
     <script type="text/javascript" src="./js/calc_ui/box_view.js"></script>
     <script type="text/javascript" src="./js/calc_ui/main_nav.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex_box_bridge.js"></script>

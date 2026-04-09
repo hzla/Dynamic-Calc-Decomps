@@ -12,12 +12,15 @@
     let syncBattleLogsInFlight = false;
     let activeBattleLogSplitFilter = "all";
     let battleLogUiInitialized = false;
+    let editableAttemptFileState = null;
+    let battleLogEditModeEnabled = true;
     const BATTLE_LOG_ID_PLACEHOLDERS = {
         species: "Unknown",
         move: "Unknown",
         item: "None",
         ability: "Unknown"
     };
+    const BATTLE_LOG_SPECIES_DATALIST_ID = "battle-log-species-options";
 
     function escHtml(value) {
         return String(value ?? "")
@@ -145,6 +148,124 @@
     function getBattleLogStorageFingerprint() {
         const raw = localStorage.getItem(BATTLE_LOG_STORAGE_KEY);
         return raw == null ? "" : raw;
+    }
+
+    function cloneBattleLogValue(value) {
+        if (typeof structuredClone === "function") {
+            try {
+                return structuredClone(value);
+            } catch (_err) {
+            }
+        }
+        return JSON.parse(JSON.stringify(value));
+    }
+
+    function getBattleLogRecordsArray(payload) {
+        if (Array.isArray(payload)) {
+            return payload;
+        }
+        if (!payload || typeof payload !== "object") {
+            return null;
+        }
+        if (Array.isArray(payload.events)) {
+            return payload.events;
+        }
+        if (payload.battlelog && typeof payload.battlelog === "object" && Array.isArray(payload.battlelog.events)) {
+            return payload.battlelog.events;
+        }
+        return null;
+    }
+
+    function syncBattleLogPayloadEventCount(payload, records) {
+        if (!Array.isArray(records)) return;
+        const eventCount = records.length;
+        if (payload && typeof payload === "object" && !Array.isArray(payload) && Object.prototype.hasOwnProperty.call(payload, "eventCount")) {
+            payload.eventCount = eventCount;
+        }
+        if (payload && payload.battlelog && typeof payload.battlelog === "object") {
+            payload.battlelog.eventCount = eventCount;
+        }
+    }
+
+    function persistBattleLogPayload(payload) {
+        const records = getBattleLogRecordsArray(payload);
+        if (!Array.isArray(records)) {
+            return false;
+        }
+
+        syncBattleLogPayloadEventCount(payload, records);
+        const serialized = JSON.stringify(payload ?? null);
+        localStorage.setItem(BATTLE_LOG_STORAGE_KEY, serialized);
+
+        if (editableAttemptFileState) {
+            editableAttemptFileState.battleLogFingerprint = serialized;
+        }
+
+        return true;
+    }
+
+    function setEditableAttemptFileState(fileName, parsedRoot, payload) {
+        editableAttemptFileState = {
+            fileName: String(fileName || "attempt.json"),
+            parsedRoot: cloneBattleLogValue(parsedRoot),
+            battleLogFingerprint: JSON.stringify(payload ?? null)
+        };
+        battleLogEditModeEnabled = true;
+        updateBattleLogToolbarState();
+    }
+
+    function clearEditableAttemptFileState() {
+        editableAttemptFileState = null;
+        battleLogEditModeEnabled = true;
+        updateBattleLogToolbarState();
+    }
+
+    function hasEditableAttemptFileState() {
+        if (!editableAttemptFileState) {
+            return false;
+        }
+
+        const meta = readLocalStorageJson(BATTLE_LOG_SOURCE_META_KEY);
+        if (!meta || meta.type !== "attempt_file") {
+            return false;
+        }
+
+        const currentFingerprint = getBattleLogStorageFingerprint();
+        if (editableAttemptFileState.battleLogFingerprint && currentFingerprint !== editableAttemptFileState.battleLogFingerprint) {
+            editableAttemptFileState = null;
+            return false;
+        }
+
+        return true;
+    }
+
+    function updateBattleLogToolbarState() {
+        const downloadBtn = document.getElementById("download-edited-battle-log-file");
+        if (!downloadBtn) return;
+        downloadBtn.style.display = hasEditableAttemptFileState() ? "inline-flex" : "none";
+    }
+
+    function renderBattleLogEditModeToggle() {
+        if (!hasEditableAttemptFileState()) {
+            return "";
+        }
+
+        return `
+            <div class="battle-log-edit-toggle-row">
+                <label class="battle-log-edit-toggle">
+                    <span>Edit Battle Log</span>
+                    <input type="checkbox" id="battle-log-edit-mode-toggle"${battleLogEditModeEnabled ? " checked" : ""}>
+                    <span class="battle-log-edit-toggle-slider" aria-hidden="true"></span>
+                </label>
+            </div>
+        `;
+    }
+
+    function getAttemptUploadRoot(parsed) {
+        if (parsed && typeof parsed === "object" && !Array.isArray(parsed) && parsed.battlelog && Array.isArray(parsed.battlelog.events)) {
+            return parsed;
+        }
+        return null;
     }
 
     function setBattleLogUploadStatus(message, isError) {
@@ -607,6 +728,7 @@
                 throw (lastErr || new Error("Failed to sync from /battle_log"));
             }
 
+            clearEditableAttemptFileState();
             localStorage.setItem(BATTLE_LOG_STORAGE_KEY, JSON.stringify(payload ?? null));
             setBattleLogSourceMeta({
                 type: "live_sync",
@@ -654,6 +776,68 @@
         return decoded;
     }
 
+    function encodeEnumValue(value, kind) {
+        if (value == null) return null;
+        if (Number.isInteger(value)) return value;
+
+        const trimmed = String(value).trim();
+        if (!trimmed) return null;
+
+        const list = getEnumList(kind);
+        if (!Array.isArray(list) || !list.length) {
+            return trimmed;
+        }
+
+        const exactLower = trimmed.toLowerCase();
+        const cleanedNeedle = cleanSpeciesKey(trimmed);
+        let cleanedMatch = null;
+
+        for (let i = 0; i < list.length; i += 1) {
+            const candidate = list[i];
+            if (typeof candidate !== "string") continue;
+
+            const candidateTrimmed = candidate.trim();
+            if (!candidateTrimmed || candidateTrimmed === "???" || /^-+$/.test(candidateTrimmed)) {
+                continue;
+            }
+
+            if (candidateTrimmed.toLowerCase() === exactLower) {
+                return i;
+            }
+
+            if (cleanedMatch == null && cleanSpeciesKey(candidateTrimmed) === cleanedNeedle) {
+                cleanedMatch = i;
+            }
+        }
+
+        return cleanedMatch != null ? cleanedMatch : trimmed;
+    }
+
+    function getBattleLogSpeciesOptions() {
+        const list = getEnumList("species");
+        if (!Array.isArray(list)) return [];
+
+        return list.filter((value, index) => {
+            if (typeof value !== "string") return false;
+            const trimmed = value.trim();
+            if (!trimmed || trimmed === "???" || /^-+$/.test(trimmed)) return false;
+            if (index === 0 && trimmed.toLowerCase() === "unknown") return false;
+            return true;
+        });
+    }
+
+    function ensureBattleLogSpeciesDatalist() {
+        let datalist = document.getElementById(BATTLE_LOG_SPECIES_DATALIST_ID);
+        if (!datalist) {
+            datalist = document.createElement("datalist");
+            datalist.id = BATTLE_LOG_SPECIES_DATALIST_ID;
+            document.body.appendChild(datalist);
+        }
+
+        const options = getBattleLogSpeciesOptions();
+        datalist.innerHTML = options.map((speciesName) => `<option value="${escHtml(speciesName)}"></option>`).join("");
+    }
+
     function decodeNatureId(natureId, adapter) {
         if (!Number.isInteger(natureId)) return natureId;
         const natureList = adapter && typeof adapter.getNatureList === "function"
@@ -687,6 +871,9 @@
                 nextMon.heldItem = decodeEnumId(nextMon.heldItem, "item");
                 if (Number.isInteger(nextMon.natureId)) {
                     nextMon.nature = decodeNatureId(nextMon.natureId, adapter);
+                } else if (Number.isInteger(nextMon.nature)) {
+                    nextMon.natureId = nextMon.nature;
+                    nextMon.nature = decodeNatureId(nextMon.nature, adapter);
                 }
 
                 if (adapter && adapter.id === "platinum") {
@@ -798,6 +985,12 @@
             const parsed = JSON.parse(text);
             const payload = extractBattleLogImportPayload(parsed);
             localStorage.setItem(BATTLE_LOG_STORAGE_KEY, JSON.stringify(payload));
+            const attemptUploadRoot = getAttemptUploadRoot(parsed);
+            if (attemptUploadRoot) {
+                setEditableAttemptFileState(file.name, attemptUploadRoot, payload);
+            } else {
+                clearEditableAttemptFileState();
+            }
             setBattleLogSourceMeta({
                 type: "attempt_file",
                 fileName: file.name,
@@ -808,6 +1001,7 @@
             renderBattleLogView(true);
         } catch (err) {
             console.error("Failed to import battle log attempt file", err);
+            clearEditableAttemptFileState();
             setBattleLogUploadStatus(`Load failed: ${err && err.message ? err.message : String(err)}`, true);
         }
     }
@@ -851,6 +1045,77 @@
         }
 
         return sessions;
+    }
+
+    function groupRawSessions(records) {
+        const sessions = [];
+        let current = null;
+
+        (Array.isArray(records) ? records : []).forEach((record, index) => {
+            if (!record || typeof record !== "object") {
+                return;
+            }
+
+            const type = record.type;
+
+            if (type === "session_start") {
+                if (current) {
+                    current.incomplete = true;
+                    sessions.push(current);
+                }
+                current = {
+                    startIndex: index,
+                    endIndex: null,
+                    eventIndexes: [],
+                    rawStart: record,
+                    rawEvents: [],
+                    rawEnd: null,
+                    incomplete: false
+                };
+                return;
+            }
+
+            if (!current) return;
+
+            if (type === "session_end") {
+                current.endIndex = index;
+                current.rawEnd = record;
+                sessions.push(current);
+                current = null;
+                return;
+            }
+
+            current.eventIndexes.push(index);
+            current.rawEvents.push(record);
+        });
+
+        if (current) {
+            current.incomplete = true;
+            sessions.push(current);
+        }
+
+        return sessions;
+    }
+
+    function decodeRawSession(rawSession) {
+        return {
+            start: decodeBattleLogRecordIds(rawSession.rawStart),
+            events: rawSession.rawEvents.map((event) => decodeBattleLogRecordIds(event)),
+            end: rawSession.rawEnd ? decodeBattleLogRecordIds(rawSession.rawEnd) : null,
+            incomplete: !!rawSession.incomplete,
+            startIndex: rawSession.startIndex,
+            endIndex: rawSession.endIndex,
+            eventIndexes: rawSession.eventIndexes.slice(),
+            rawStart: rawSession.rawStart,
+            rawEvents: rawSession.rawEvents.slice(),
+            rawEnd: rawSession.rawEnd
+        };
+    }
+
+    function buildBattleLogSessionsFromPayload(payload) {
+        const records = getBattleLogRecordsArray(payload);
+        const rawSessions = groupRawSessions(records);
+        return dedupeSessionsByTrainerId(rawSessions.map(decodeRawSession));
     }
 
     function getSessionTrainerId(session) {
@@ -1282,7 +1547,265 @@
         return koLookup;
     }
 
-    function renderTeam(session) {
+    function getSessionPlayerChoices(session) {
+        const decodedTeam = Array.isArray(session.start && session.start.pParty) ? session.start.pParty : [];
+        const rawTeam = Array.isArray(session.rawStart && session.rawStart.pParty) ? session.rawStart.pParty : [];
+
+        return decodedTeam.map((mon, idx) => ({
+            index: idx,
+            label: String(mon && mon.species || `Slot ${idx + 1}`),
+            rawSpecies: rawTeam[idx] ? rawTeam[idx].species : undefined
+        }));
+    }
+
+    function getSessionEnemySpeciesSuggestions(session) {
+        const seen = {};
+        const suggestions = [];
+        const events = Array.isArray(session && session.events) ? session.events : [];
+
+        events.forEach((event) => {
+            const species = String(event && event.aiSpecies || "").trim();
+            const key = species.toLowerCase();
+            if (!species || seen[key]) return;
+            seen[key] = true;
+            suggestions.push(species);
+        });
+
+        return suggestions;
+    }
+
+    function getSessionPlayerIndexForEvent(session, event) {
+        const choices = getSessionPlayerChoices(session);
+        const slot = Number(event && event.pSlot);
+        if (Number.isInteger(slot) && slot >= 0 && slot < choices.length) {
+            return slot;
+        }
+
+        const speciesKey = String(event && event.pSpecies || "").toLowerCase();
+        const matchedIndex = choices.findIndex((choice) => choice.label.toLowerCase() === speciesKey);
+        return matchedIndex >= 0 ? matchedIndex : 0;
+    }
+
+    function renderSessionPlayerOptions(session, selectedIndex) {
+        return getSessionPlayerChoices(session).map((choice) => `
+            <option value="${escHtml(choice.index)}"${Number(choice.index) === Number(selectedIndex) ? " selected" : ""}>${escHtml(choice.label)}</option>
+        `).join("");
+    }
+
+    function getKoEventRows(session) {
+        const rows = [];
+        const events = Array.isArray(session && session.events) ? session.events : [];
+        const eventIndexes = Array.isArray(session && session.eventIndexes) ? session.eventIndexes : [];
+
+        events.forEach((event, index) => {
+            if (!event || (event.type !== "pKo" && event.type !== "aiKo")) return;
+            rows.push({
+                event,
+                rawEventIndex: eventIndexes[index]
+            });
+        });
+
+        return rows;
+    }
+
+    function groupRawSessionByStartIndex(records, startIndex) {
+        const rawSessions = groupRawSessions(records);
+        return rawSessions.find((session) => Number(session.startIndex) === Number(startIndex)) || null;
+    }
+
+    function getRawSessionInsertIndex(rawSession) {
+        if (!rawSession) return 0;
+        if (Number.isInteger(rawSession.endIndex)) {
+            return rawSession.endIndex;
+        }
+        if (Array.isArray(rawSession.eventIndexes) && rawSession.eventIndexes.length) {
+            return rawSession.eventIndexes[rawSession.eventIndexes.length - 1] + 1;
+        }
+        return rawSession.startIndex + 1;
+    }
+
+    function getNextKoTurnForSession(rawSession) {
+        let maxTurn = -1;
+        const rawEvents = Array.isArray(rawSession && rawSession.rawEvents) ? rawSession.rawEvents : [];
+
+        rawEvents.forEach((event) => {
+            const turn = Number(event && event.turn);
+            if (Number.isFinite(turn) && turn > maxTurn) {
+                maxTurn = turn;
+            }
+        });
+
+        return maxTurn >= 0 ? maxTurn + 1 : 0;
+    }
+
+    function buildKoRecordForSession(rawSession, role, playerIndex, enemySpeciesValue, existingRecord) {
+        const rawTeam = Array.isArray(rawSession && rawSession.rawStart && rawSession.rawStart.pParty) ? rawSession.rawStart.pParty : [];
+        const normalizedPlayerIndex = Number(playerIndex);
+        if (!Number.isInteger(normalizedPlayerIndex) || normalizedPlayerIndex < 0 || normalizedPlayerIndex >= rawTeam.length) {
+            return null;
+        }
+
+        const rawMon = rawTeam[normalizedPlayerIndex] || {};
+        const nextRecord = existingRecord && typeof existingRecord === "object" ? { ...existingRecord } : {};
+        nextRecord.type = role === "enemy" ? "aiKo" : "pKo";
+        nextRecord.pSlot = normalizedPlayerIndex;
+        if (typeof rawMon.species !== "undefined") {
+            nextRecord.pSpecies = rawMon.species;
+        }
+
+        const encodedEnemySpecies = encodeEnumValue(enemySpeciesValue, "species");
+        if (encodedEnemySpecies == null || encodedEnemySpecies === "") {
+            delete nextRecord.aiSpecies;
+        } else {
+            nextRecord.aiSpecies = encodedEnemySpecies;
+        }
+
+        if (!Number.isFinite(Number(nextRecord.turn))) {
+            nextRecord.turn = getNextKoTurnForSession(rawSession);
+        }
+
+        if (nextRecord.type === "aiKo") {
+            delete nextRecord.aiPartySlot;
+        }
+
+        return nextRecord;
+    }
+
+    function mutateBattleLogPayload(mutator) {
+        const resolved = resolveBattleLogSource();
+        if (!resolved.data) return false;
+
+        const payload = cloneBattleLogValue(resolved.data);
+        const records = getBattleLogRecordsArray(payload);
+        if (!Array.isArray(records)) return false;
+
+        const changed = mutator(payload, records);
+        if (!changed) return false;
+
+        if (!persistBattleLogPayload(payload)) {
+            return false;
+        }
+
+        renderBattleLogView(true);
+        return true;
+    }
+
+    function toggleBattleLogPartyFaint(sessionStartIndex, partyIndex) {
+        mutateBattleLogPayload((_payload, records) => {
+            const rawSession = groupRawSessionByStartIndex(records, sessionStartIndex);
+            if (!rawSession) return false;
+
+            const rawTeam = Array.isArray(rawSession.rawStart && rawSession.rawStart.pParty) ? rawSession.rawStart.pParty : [];
+            const rawSpecies = rawTeam[partyIndex] ? rawTeam[partyIndex].species : undefined;
+            let removedAny = false;
+
+            for (let i = getRawSessionInsertIndex(rawSession) - 1; i > rawSession.startIndex; i -= 1) {
+                const record = records[i];
+                if (!record || record.type !== "aiKo") continue;
+
+                const sameSlot = Number(record.pSlot) === Number(partyIndex);
+                const sameSpecies = typeof rawSpecies !== "undefined" && String(record.pSpecies) === String(rawSpecies);
+                if (!sameSlot && !sameSpecies) continue;
+
+                records.splice(i, 1);
+                removedAny = true;
+            }
+
+            if (removedAny) {
+                return true;
+            }
+
+            const nextRecord = buildKoRecordForSession(rawSession, "enemy", partyIndex, "", null);
+            if (!nextRecord) {
+                return false;
+            }
+
+            records.splice(getRawSessionInsertIndex(rawSession), 0, nextRecord);
+            return true;
+        });
+    }
+
+    function updateBattleLogKoEvent(sessionStartIndex, rawEventIndex, role, playerIndex, enemySpeciesValue) {
+        mutateBattleLogPayload((_payload, records) => {
+            const rawSession = groupRawSessionByStartIndex(records, sessionStartIndex);
+            if (!rawSession) return false;
+
+            const existingRecord = records[rawEventIndex];
+            if (!existingRecord || (existingRecord.type !== "pKo" && existingRecord.type !== "aiKo")) {
+                return false;
+            }
+
+            const nextRecord = buildKoRecordForSession(rawSession, role, playerIndex, enemySpeciesValue, existingRecord);
+            if (!nextRecord) {
+                return false;
+            }
+
+            records[rawEventIndex] = nextRecord;
+            return true;
+        });
+    }
+
+    function removeBattleLogKoEvent(rawEventIndex) {
+        mutateBattleLogPayload((_payload, records) => {
+            const record = records[rawEventIndex];
+            if (!record || (record.type !== "pKo" && record.type !== "aiKo")) {
+                return false;
+            }
+
+            records.splice(rawEventIndex, 1);
+            return true;
+        });
+    }
+
+    function addBattleLogKoEvent(sessionStartIndex, role, playerIndex, enemySpeciesValue) {
+        mutateBattleLogPayload((_payload, records) => {
+            const rawSession = groupRawSessionByStartIndex(records, sessionStartIndex);
+            if (!rawSession) return false;
+
+            const nextRecord = buildKoRecordForSession(rawSession, role, playerIndex, enemySpeciesValue, null);
+            if (!nextRecord) {
+                return false;
+            }
+
+            records.splice(getRawSessionInsertIndex(rawSession), 0, nextRecord);
+            return true;
+        });
+    }
+
+    function downloadEditedAttemptFile() {
+        if (!hasEditableAttemptFileState()) {
+            return;
+        }
+
+        const resolved = resolveBattleLogSource();
+        if (!resolved.data) {
+            return;
+        }
+
+        const editedRoot = cloneBattleLogValue(editableAttemptFileState.parsedRoot);
+        const editedPayload = cloneBattleLogValue(resolved.data);
+        const editedRecords = getBattleLogRecordsArray(editedPayload);
+        syncBattleLogPayloadEventCount(editedPayload, editedRecords);
+
+        if (editedRoot && typeof editedRoot === "object" && !Array.isArray(editedRoot)) {
+            editedRoot.battlelog = editedPayload && editedPayload.battlelog
+                ? cloneBattleLogValue(editedPayload.battlelog)
+                : cloneBattleLogValue(editedPayload);
+        }
+
+        const serialized = JSON.stringify(editedRoot, null, 2);
+        const blob = new Blob([serialized], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = editableAttemptFileState.fileName;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
+    function renderTeam(session, editable) {
         const team = Array.isArray(session.start && session.start.pParty) ? session.start.pParty : [];
         if (!team.length) {
             return '<div class="battle-team-empty">No player party snapshot found for this battle.</div>';
@@ -1294,9 +1817,22 @@
             const moveList = moves.length
                 ? `<ul class="battle-team-moves">${moves.map((move) => `<li>${escHtml(getBattleLogMoveDisplayName(move))}</li>`).join("")}</ul>`
                 : "";
+            const isFainted = !!koLookup[idx];
+            const editButton = editable
+                ? `
+                    <button
+                        type="button"
+                        class="battle-team-edit-btn${isFainted ? " fainted" : ""}"
+                        data-session-start-index="${escHtml(session.startIndex)}"
+                        data-party-index="${escHtml(idx)}"
+                        title="${isFainted ? "Unmark fainted" : "Mark fainted"}"
+                    >${isFainted ? "Undo" : "KO"}</button>
+                `
+                : "";
 
             return `
                 <div class="battle-team-card${koLookup[idx] ? " ko" : ""}">
+                    ${editButton}
                     <div class="battle-team-head">
                         <img src="${spritePath(mon.species)}" alt="${escHtml(mon.species)}" onerror="this.style.visibility='hidden'">
                         <div class="battle-team-species">${escHtml(mon.species || "Unknown")}</div>
@@ -1312,7 +1848,109 @@
         return `<div class="battle-team">${cards}</div>`;
     }
 
-    function renderEvents(session) {
+    function renderEditableEvents(session) {
+        const koRows = getKoEventRows(session);
+        const enemySuggestions = getSessionEnemySpeciesSuggestions(session);
+        const enemyHint = enemySuggestions.length ? enemySuggestions[0] : "";
+        const existingRows = koRows.length
+            ? koRows.map(({ event, rawEventIndex }) => {
+                const role = event.type === "aiKo" ? "enemy" : "player";
+                const selectedPlayerIndex = getSessionPlayerIndexForEvent(session, event);
+                return `
+                    <div class="battle-event-row battle-event-edit-row">
+                        <div class="battle-event-edit-cell">
+                            <select
+                                class="battle-log-edit-field battle-ko-role-select"
+                                data-session-start-index="${escHtml(session.startIndex)}"
+                                data-event-index="${escHtml(rawEventIndex)}"
+                            >
+                                <option value="player"${role === "player" ? " selected" : ""}>Your mon KO&#39;d enemy</option>
+                                <option value="enemy"${role === "enemy" ? " selected" : ""}>Enemy KO&#39;d your mon</option>
+                            </select>
+                        </div>
+                        <div class="battle-event-edit-cell">
+                            <select
+                                class="battle-log-edit-field battle-ko-player-select"
+                                data-session-start-index="${escHtml(session.startIndex)}"
+                                data-event-index="${escHtml(rawEventIndex)}"
+                            >
+                                ${renderSessionPlayerOptions(session, selectedPlayerIndex)}
+                            </select>
+                        </div>
+                        <div class="battle-event-edit-cell">
+                            <input
+                                type="text"
+                                class="battle-log-edit-field battle-ko-enemy-input"
+                                list="${BATTLE_LOG_SPECIES_DATALIST_ID}"
+                                value="${escHtml(event.aiSpecies || "")}"
+                                placeholder="Enemy Pokemon"
+                                data-session-start-index="${escHtml(session.startIndex)}"
+                                data-event-index="${escHtml(rawEventIndex)}"
+                            >
+                        </div>
+                        <div class="battle-event-edit-cell">
+                            <button
+                                type="button"
+                                class="battle-log-danger-btn battle-ko-delete-btn"
+                                data-event-index="${escHtml(rawEventIndex)}"
+                            >Delete</button>
+                        </div>
+                    </div>
+                `;
+            }).join("")
+            : '<div class="battle-events-empty">No KO events recorded in this session yet.</div>';
+
+        return `
+            <div class="battle-events battle-events-editable">
+                <div class="battle-events-header battle-events-header-editable">
+                    <div>KO Direction</div>
+                    <div>Your Party</div>
+                    <div>Enemy Pokemon</div>
+                    <div>Actions</div>
+                </div>
+                ${existingRows}
+                <div class="battle-event-add">
+                    <div class="battle-event-add-title">Add KO Event</div>
+                    <div class="battle-event-row battle-event-edit-row battle-event-add-row">
+                        <div class="battle-event-edit-cell">
+                            <select class="battle-log-edit-field battle-ko-add-role" data-session-start-index="${escHtml(session.startIndex)}">
+                                <option value="player">Your mon KO&#39;d enemy</option>
+                                <option value="enemy">Enemy KO&#39;d your mon</option>
+                            </select>
+                        </div>
+                        <div class="battle-event-edit-cell">
+                            <select class="battle-log-edit-field battle-ko-add-player" data-session-start-index="${escHtml(session.startIndex)}">
+                                ${renderSessionPlayerOptions(session, 0)}
+                            </select>
+                        </div>
+                        <div class="battle-event-edit-cell">
+                            <input
+                                type="text"
+                                class="battle-log-edit-field battle-ko-add-enemy"
+                                list="${BATTLE_LOG_SPECIES_DATALIST_ID}"
+                                value="${escHtml(enemyHint)}"
+                                placeholder="Enemy Pokemon"
+                                data-session-start-index="${escHtml(session.startIndex)}"
+                            >
+                        </div>
+                        <div class="battle-event-edit-cell">
+                            <button
+                                type="button"
+                                class="battle-log-action-btn battle-ko-add-btn"
+                                data-session-start-index="${escHtml(session.startIndex)}"
+                            >Add KO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    function renderEvents(session, editable) {
+        if (editable) {
+            return renderEditableEvents(session);
+        }
+
         const pKos = session.events.filter((event) => event.type === "pKo");
 
         if (!pKos.length) {
@@ -1381,7 +2019,7 @@
         return uniqueDeaths.size;
     }
 
-    function renderSession(session, index) {
+    function renderSession(session, index, editable) {
         const trainerId = getSessionTrainerId(session);
         const trainerName = parseTrainerName(trainerId);
         const splitTypeClass = getBattleLogSessionSplitTypeClass(session);
@@ -1390,17 +2028,61 @@
         const deathSummaryText = deathCount > 0 ? `${deathCount} Deaths` : "Deathless";
 
         return `
-            <div class="battle-session" data-battle-index="${index}">
+            <div class="battle-session" data-battle-index="${index}" data-session-start-index="${escHtml(session.startIndex)}">
                 <div class="battle-session-header${splitTypeClass ? ` ${escHtml(splitTypeClass)}` : ""}" role="button" tabindex="0" aria-expanded="false">
                     <div class="battle-session-title">Vs ${escHtml(trainerName)}</div>
                     <div class="battle-session-meta ${deathSummaryClass}">${escHtml(deathSummaryText)}</div>
                 </div>
                 <div class="battle-session-body">
-                    ${renderTeam(session)}
-                    ${renderEvents(session)}
+                    ${renderTeam(session, editable)}
+                    ${renderEvents(session, editable)}
                 </div>
             </div>
         `;
+    }
+
+    function snapshotBattleLogUiState() {
+        const battleLogView = document.getElementById("battle-log-view");
+        const expandedSessionIds = [];
+
+        document.querySelectorAll(".battle-session.expanded").forEach((node) => {
+            const sessionId = node.getAttribute("data-session-start-index");
+            if (sessionId != null && sessionId !== "") {
+                expandedSessionIds.push(String(sessionId));
+            }
+        });
+
+        return {
+            expandedSessionIds,
+            battleLogViewScrollTop: battleLogView ? battleLogView.scrollTop : 0
+        };
+    }
+
+    function restoreBattleLogUiState(uiState) {
+        if (!uiState) return;
+
+        const expandedLookup = {};
+        (Array.isArray(uiState.expandedSessionIds) ? uiState.expandedSessionIds : []).forEach((sessionId) => {
+            expandedLookup[String(sessionId)] = true;
+        });
+
+        document.querySelectorAll(".battle-session").forEach((node) => {
+            const sessionId = node.getAttribute("data-session-start-index");
+            if (!sessionId || !expandedLookup[String(sessionId)]) {
+                return;
+            }
+
+            node.classList.add("expanded");
+            const header = node.querySelector(".battle-session-header");
+            if (header) {
+                header.setAttribute("aria-expanded", "true");
+            }
+        });
+
+        const battleLogView = document.getElementById("battle-log-view");
+        if (battleLogView && Number.isFinite(uiState.battleLogViewScrollTop)) {
+            battleLogView.scrollTop = uiState.battleLogViewScrollTop;
+        }
     }
 
     function getEncounterMiniRows() {
@@ -1475,6 +2157,9 @@
     function renderBattleLogView(force) {
         const container = document.getElementById("battle-log-container");
         if (!container) return;
+        const uiState = snapshotBattleLogUiState();
+        updateBattleLogToolbarState();
+        ensureBattleLogSpeciesDatalist();
 
         const currentBattleLogRaw = getBattleLogStorageFingerprint();
         const currentCustomLeadsRaw = localStorage.getItem("customLeads");
@@ -1491,12 +2176,15 @@
             lastRenderedBattleLogRaw = currentBattleLogRaw;
             lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
             container.innerHTML = '<div class="battle-log-empty">No battle log data found.</div>';
+            restoreBattleLogUiState(uiState);
             renderBattleLogFragsheetPanel();
             return;
         }
 
-        const { records, parseErrors } = normalizeRecords(resolved.data);
-        const sessions = dedupeSessionsByTrainerId(groupSessions(records));
+        const { parseErrors } = normalizeRecords(resolved.data);
+        const sessions = buildBattleLogSessionsFromPayload(resolved.data);
+        const hasEditableAttempt = hasEditableAttemptFileState();
+        const editable = hasEditableAttempt && battleLogEditModeEnabled;
         rebuildEncounterFragsFromBattleLog(sessions);
         renderBattleLogFragsheetPanel();
         renderBattleLogSplitTabs();
@@ -1514,12 +2202,19 @@
                 <div class="battle-log-empty">No battle sessions found in battle log data.</div>
                 ${parseErrors.length ? `<div class="battle-log-note">${escHtml(parseErrors.length)} parse error(s) ignored.</div>` : ""}
             `;
+            restoreBattleLogUiState(uiState);
             return;
         }
 
         let html = "";
+        html += renderBattleLogEditModeToggle();
         if (resolved.source) {
             html += `<div class="battle-log-note">${escHtml(resolved.source)}</div>`;
+        }
+        if (hasEditableAttempt && editable) {
+            html += '<div class="battle-log-note">Editing enabled for this uploaded attempt. Use the party buttons and KO editor below, then download the updated attempt JSON.</div>';
+        } else if (hasEditableAttempt) {
+            html += '<div class="battle-log-note">Edit mode is off. Toggle it on to adjust faint markers and KO events for this uploaded attempt.</div>';
         }
         html += `<div class="battle-log-note">${escHtml(filteredSessions.length)} battle(s)${activeBattleLogSplitFilter === "all" ? "" : ` (filtered)`}</div>`;
         if (parseErrors.length) {
@@ -1528,9 +2223,10 @@
         if (!filteredSessions.length) {
             html += `<div class="battle-log-empty">No battles found for the selected split filter.</div>`;
         } else {
-            html += filteredSessions.map(renderSession).join("");
+            html += filteredSessions.map((session, index) => renderSession(session, index, editable)).join("");
         }
         container.innerHTML = html;
+        restoreBattleLogUiState(uiState);
         lastRenderedBattleLogRaw = currentBattleLogRaw;
         lastRenderedCustomLeadsRaw = currentCustomLeadsRaw;
     }
@@ -1541,8 +2237,7 @@
             return {};
         }
 
-        const { records } = normalizeRecords(resolved.data);
-        const sessions = dedupeSessionsByTrainerId(groupSessions(records));
+        const sessions = buildBattleLogSessionsFromPayload(resolved.data);
         const speciesBattleCounts = {};
 
         sessions.forEach((session) => {
@@ -1665,6 +2360,7 @@
 
         const battleLogFileInput = document.getElementById("battle-log-file-input");
         const loadBattleLogFileBtn = document.getElementById("load-battle-log-file");
+        const downloadEditedBattleLogBtn = document.getElementById("download-edited-battle-log-file");
         if (loadBattleLogFileBtn && battleLogFileInput) {
             loadBattleLogFileBtn.addEventListener("click", function () {
                 battleLogFileInput.click();
@@ -1677,6 +2373,11 @@
                 battleLogFileInput.value = "";
             });
         }
+        if (downloadEditedBattleLogBtn) {
+            downloadEditedBattleLogBtn.addEventListener("click", function () {
+                downloadEditedAttemptFile();
+            });
+        }
 
         $(document).on("click", ".battle-log-split-tab", function () {
             const next = $(this).attr("data-battle-log-split");
@@ -1687,6 +2388,46 @@
             }
         });
 
+        $(document).on("change", "#battle-log-edit-mode-toggle", function () {
+            battleLogEditModeEnabled = !!this.checked;
+            if (document.body.classList.contains("battle-log-mode")) {
+                renderBattleLogView(true);
+            }
+        });
+
+        $(document).on("click", ".battle-team-edit-btn", function (event) {
+            event.preventDefault();
+            const sessionStartIndex = Number($(this).attr("data-session-start-index"));
+            const partyIndex = Number($(this).attr("data-party-index"));
+            toggleBattleLogPartyFaint(sessionStartIndex, partyIndex);
+        });
+
+        $(document).on("change", ".battle-ko-role-select, .battle-ko-player-select, .battle-ko-enemy-input", function () {
+            const $row = $(this).closest(".battle-event-edit-row");
+            const sessionStartIndex = Number($row.find(".battle-ko-role-select").attr("data-session-start-index"));
+            const rawEventIndex = Number($row.find(".battle-ko-role-select").attr("data-event-index"));
+            const role = $row.find(".battle-ko-role-select").val();
+            const playerIndex = $row.find(".battle-ko-player-select").val();
+            const enemySpecies = $row.find(".battle-ko-enemy-input").val();
+            updateBattleLogKoEvent(sessionStartIndex, rawEventIndex, role, playerIndex, enemySpecies);
+        });
+
+        $(document).on("click", ".battle-ko-delete-btn", function (event) {
+            event.preventDefault();
+            const rawEventIndex = Number($(this).attr("data-event-index"));
+            removeBattleLogKoEvent(rawEventIndex);
+        });
+
+        $(document).on("click", ".battle-ko-add-btn", function (event) {
+            event.preventDefault();
+            const sessionStartIndex = Number($(this).attr("data-session-start-index"));
+            const $container = $(this).closest(".battle-event-add-row");
+            const role = $container.find(".battle-ko-add-role").val();
+            const playerIndex = $container.find(".battle-ko-add-player").val();
+            const enemySpecies = $container.find(".battle-ko-add-enemy").val();
+            addBattleLogKoEvent(sessionStartIndex, role, playerIndex, enemySpecies);
+        });
+
         window.renderBattleLogView = renderBattleLogView;
         window.setFragsheetViewMode = setViewMode;
     }
@@ -1695,6 +2436,7 @@
         bindUi();
         logActiveBattleLogRomAdapter("DOMContentLoaded");
         applyBattleLogTabVisibility();
+        updateBattleLogToolbarState();
         if (document.getElementById("main-view-tabs")) {
             setViewMode("fragsheet");
             return;
