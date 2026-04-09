@@ -1491,7 +1491,7 @@ local function decryptSubstructWords(monAddr, personality, otId)
     return blocks
 end
 
-local function decodePartyMon(monAddr, slotIndex)
+local function decodePartyMon(monAddr, slotIndex, allowFallback)
     local personality = read32(monAddr + 0x00)
     local otId = read32(monAddr + 0x04)
     local core = choosePartyMonCore(monAddr)
@@ -1560,7 +1560,10 @@ local function decodePartyMon(monAddr, slotIndex)
         end
     end
 
-    return buildFallbackPartyMon(monAddr, slotIndex, personality, otId, core)
+    if allowFallback then
+        return buildFallbackPartyMon(monAddr, slotIndex, personality, otId, core)
+    end
+    return nil
 end
 
 local function decodeBoxMon(boxMonAddr, boxIndex, slotIndex)
@@ -1643,13 +1646,9 @@ local function countLikelyPartyMons(base)
     local count = 0
     for slot = 0, CONFIG.struct.party_size - 1 do
         local monAddr = base + slot * CONFIG.struct.party_mon_size
-        if decodePartyMon(monAddr, slot) then
+        local core = choosePartyMonCore(monAddr)
+        if core and core.hasSpecies and core.level >= 1 and core.level <= 100 and core.maxHP > 0 and core.currentHP <= core.maxHP then
             count = count + 1
-        else
-            local core = choosePartyMonCore(monAddr)
-            if core and core.hasSpecies and core.level >= 1 and core.level <= 100 and core.maxHP > 0 and core.currentHP <= core.maxHP then
-                count = count + 1
-            end
         end
     end
     return count
@@ -1686,7 +1685,7 @@ local function buildPlayerPartySnapshot()
     end
 
     for slot = 0, partyCount - 1 do
-        local mon = decodePartyMon(playerParty + slot * CONFIG.struct.party_mon_size, slot)
+        local mon = decodePartyMon(playerParty + slot * CONFIG.struct.party_mon_size, slot, true)
         if mon then
             out[#out + 1] = {
                 slot = slot + 1,
@@ -1872,7 +1871,7 @@ local function buildPlayerPartyAndBoxSpeciesSnapshot()
     local playerParty = getPlayerPartyBase()
     if playerParty then
         for slot = 0, CONFIG.struct.party_size - 1 do
-            local mon = decodePartyMon(playerParty + slot * CONFIG.struct.party_mon_size, slot)
+            local mon = decodePartyMon(playerParty + slot * CONFIG.struct.party_mon_size, slot, true)
             if mon and mon.species then
                 out[#out + 1] = mon.species
             end
@@ -3055,7 +3054,7 @@ local function buildPackedBoxBytes()
     if partyCount > CONFIG.struct.party_size then partyCount = CONFIG.struct.party_size end
     if partyBase then
         for slot = 0, partyCount - 1 do
-            appendMon(decodePartyMon(partyBase + slot * CONFIG.struct.party_mon_size, slot), true)
+            appendMon(decodePartyMon(partyBase + slot * CONFIG.struct.party_mon_size, slot, true), true)
         end
     end
     local fallbackParty = getLatestKnownPlayerPartySnapshot()
@@ -4492,7 +4491,7 @@ function milestone2_debug_party_read()
                 ))
             end
         end
-        local mon = decodePartyMon(slotAddr, slot)
+        local mon = decodePartyMon(slotAddr, slot, true)
         if mon then
             local moveNames = {}
             for i = 1, 4 do
