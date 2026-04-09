@@ -474,6 +474,10 @@ function setBaseGame(title) {
         baseVersion = "BW2"
     }
 
+    if (!baseGame && settings.damageGen == 3) {
+        window.baseGame = "g3"
+    }
+
     if (!baseGame) {
         $('#read-save').hide()
     } 
