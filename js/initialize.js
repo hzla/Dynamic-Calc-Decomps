@@ -116,7 +116,7 @@ SOURCES = {
   "9e7113f0ee22dad116e1": "Platinum Redux 5.2 TC6",
   "b6e2693147e215f10f4a": "Radical Red 3.02",
   "e91164d90d06a009e6cc": "Radical Red 4.1 Hardcore",
-  "7a1ed35468b22ea01103": "Ancestral X",
+  "ancestralx": "Ancestral X",
   "8c3ca30ba346734d5e4f": "Run & Bun",
   "f109940e5639c3702e6d": "Rising Ruby/Sinking Saphire",
   "00734d33040067eb7e9f": "Grand Colloseum 2.0",
@@ -155,7 +155,8 @@ SOURCES = {
   "a6f5b7e55bbd7ebbdd52": "Rigorous Red",
   "bb8579a3798fd63b429d": "Royal Sapphire",
   "null": "Pokemon Null",
-  "pk": "Platinum Kaizo"
+  "pk": "Platinum Kaizo",
+  "navysaphire": "Navy Saphire"
 }
 
 $(document).ready(function() {
@@ -303,6 +304,18 @@ function setGameSettings(title) {
     showAI = true
     $('label[for="snow"]').hide()
     $('#ms-link').show()
+  } else if (TITLE == "Ancestral X" || TITLE == "Navy Saphire" || TITLE == "Reignited Ruby") {
+    gameGen = 6
+     if (!settings.noSwitch) {
+      settings.gameSwitchIn = 6;
+    }
+    settings.damageGen = 6;
+    settings.sourceType = "full"
+    save_expansion = false
+    settings.hasMastersheet = false;
+    showDex = false
+    showAI = false
+    $('label[for="snow"]').hide()
   } else if (TITLE == "Fire Red Omega" || TITLE == "Emerald Kaizo" || TITLE == "Royal Sapphire") {
     gameGen = 3
     settings.gameSwitchIn = 3; 
@@ -476,6 +489,10 @@ function setBaseGame(title) {
 
     if (!baseGame && settings.damageGen == 3) {
         window.baseGame = "g3"
+    } else if (!baseGame && settings.damageGen == 6) {
+        window.baseGame = "g6"
+    } else if (!baseGame && settings.damageGen == 7) {
+        window.baseGame = "g7"
     }
 
     if (!baseGame) {
@@ -948,6 +965,9 @@ function loadDataSource(data) {
       sav_item_names = includes["items"]
       sav_pok_growths = includes["growths"]
       sav_abilities = includes["abilities"]
+      if (typeof window.extendSavArraysToGen67 === "function") {
+        window.extendSavArraysToGen67()
+      }
     }
     $('#save-pok').show()
 
