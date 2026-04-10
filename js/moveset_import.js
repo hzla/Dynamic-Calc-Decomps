@@ -533,6 +533,118 @@ function ExportPokemon(pokeInfo) {
 	$("textarea.import-team-text").val(finalText);
 }
 
+function getExportStatValue(valuesByStat, statKeys, fallbackValue) {
+	if (!valuesByStat || typeof valuesByStat !== "object") {
+		return fallbackValue;
+	}
+
+	for (var keyIndex = 0; keyIndex < statKeys.length; keyIndex++) {
+		var rawValue = valuesByStat[statKeys[keyIndex]];
+		if (rawValue === undefined || rawValue === null || rawValue === "") {
+			continue;
+		}
+
+		var numericValue = Number(rawValue);
+		return Number.isFinite(numericValue) ? numericValue : fallbackValue;
+	}
+
+	return fallbackValue;
+}
+
+function buildShowdownExportText(speciesName, setData) {
+	if (!setData || typeof setData !== "object") {
+		return "";
+	}
+
+	var nickname = String(setData.nn || "").trim();
+	var gender = String(setData.gender || "").trim().toUpperCase();
+	var item = String(setData.item || "").trim();
+	var header = nickname && nickname !== speciesName ? nickname + " (" + speciesName + ")" : speciesName;
+	var lines = [];
+	var evParts = [];
+	var ivParts = [];
+	var statConfig = [
+		{ keys: ["hp"], label: "HP" },
+		{ keys: ["atk", "at"], label: "Atk" },
+		{ keys: ["def", "df"], label: "Def" },
+		{ keys: ["spa", "sa"], label: "SpA" },
+		{ keys: ["spd", "sd"], label: "SpD" },
+		{ keys: ["spe", "sp"], label: "Spe" }
+	];
+
+	if (gender === "M" || gender === "F") {
+		header += " (" + gender + ")";
+	}
+	if (item) {
+		header += " @ " + item;
+	}
+	lines.push(header);
+	lines.push("Level: " + getExportStatValue({ level: setData.level }, ["level"], 100));
+
+	if (setData.nature) {
+		lines.push(String(setData.nature).trim() + " Nature");
+	}
+	if (setData.ability) {
+		lines.push("Ability: " + String(setData.ability).trim());
+	}
+
+	for (var statIndex = 0; statIndex < statConfig.length; statIndex++) {
+		var statInfo = statConfig[statIndex];
+		var evValue = getExportStatValue(setData.evs, statInfo.keys, 0);
+		var ivValue = getExportStatValue(setData.ivs, statInfo.keys, 31);
+		if (evValue > 0) {
+			evParts.push(evValue + " " + statInfo.label);
+		}
+		if (ivValue < 31) {
+			ivParts.push(ivValue + " " + statInfo.label);
+		}
+	}
+
+	if (evParts.length) {
+		lines.push("EVs: " + serialize(evParts, " / "));
+	}
+	if (ivParts.length) {
+		lines.push("IVs: " + serialize(ivParts, " / "));
+	}
+
+	var moves = Array.isArray(setData.moves) ? setData.moves : [];
+	for (var moveIndex = 0; moveIndex < moves.length; moveIndex++) {
+		var moveName = String(moves[moveIndex] || "").trim();
+		if (!moveName || moveName === "(No Move)") {
+			continue;
+		}
+		lines.push("- " + moveName);
+	}
+
+	if (setData.met) {
+		lines.push("Met: " + String(setData.met).trim());
+	}
+
+	return lines.join("\n").trim();
+}
+
+function exportAllCustomSets() {
+	var customsets = getStoredCustomSets();
+	var speciesNames = Object.keys(customsets || {}).sort();
+	var exportedSets = [];
+
+	for (var speciesIndex = 0; speciesIndex < speciesNames.length; speciesIndex++) {
+		var speciesName = speciesNames[speciesIndex];
+		var myBoxSet = customsets[speciesName] && customsets[speciesName]["My Box"];
+		var exportedText = buildShowdownExportText(speciesName, myBoxSet);
+		if (!exportedText) {
+			continue;
+		}
+		exportedSets.push(exportedText);
+	}
+
+	$("textarea.import-team-text").val(exportedSets.join("\n\n"));
+}
+
+$("#exportAllL").click(function () {
+	exportAllCustomSets();
+});
+
 $("#exportL").click(function () {
 	ExportPokemon($("#p1"));
 });
