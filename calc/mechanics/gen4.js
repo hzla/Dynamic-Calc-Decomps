@@ -244,7 +244,11 @@ function calculateDPP(gen, attacker, defender, move, field) {
             case 'Nature Power':
                 move.category = 'Special';
                 move.secondaries = true;
-                basePower = 80;
+                if (calcingForSwitchIns) {
+                    basePower = 0;
+                } else {
+                    basePower = 80;
+                }
                 desc.moveName = 'Tri Attack';
                 break;
             case 'Crush Grip':
