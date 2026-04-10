@@ -21,8 +21,8 @@
 // LIVE CALC MODE
 $(document).ready(function() {
   IMAGE_FOLDER = "img"
-  // DEX_URL = `https://ddex-chi.vercel.app`
-  DEX_URL = `http://localhost:3000`
+  DEX_URL = `https://ddex-chi.vercel.app`
+  // DEX_URL = `http://localhost:3000`
   CALC_URL = `https://hzla.github.io/Dynamic-Calc-Decomps?data=${gameDataSlug}`
   // CALC_URL = `http://localhost:3001?data=${gameDataSlug}`
 })
