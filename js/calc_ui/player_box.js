@@ -576,6 +576,9 @@ function box_rolls() {
         return
     }
     var box = get_box()
+    var killers = []
+    var defenders = []
+    var faster = []
 
     var dealt_min_roll = $("#min-dealt").val()
     var taken_max_roll = $("#max-taken").val()
@@ -608,14 +611,18 @@ function box_rolls() {
         p1.ability = "Honey Gather"
     }
 
-    var killers = []
-    var defenders = []
-    var faster = []
+    if (!p1 || !Array.isArray(p1.types) || !p1.types[0]) {
+        return {"killers": killers, "defenders": defenders, "faster": faster}
+    }
+
     for (m = 0; m < box.length; m++) {
         if (p1.level < 1) {
             break;
         }
         var mon = createPokemon(box[m])
+        if (!mon || !Array.isArray(mon.types) || !mon.types[0]) {
+            continue
+        }
         var monSpeed = mon.rawStats.spe
 
         if (mon.ability == "Intimidate") {

@@ -15,10 +15,10 @@ local CONFIG = {
         gBattlerPartyIndexes = 0x02000348,
         gBattlerPositions = 0x02000350,
         gBattleMons = 0x02000360,
-        gPlayerParty = 0x0203769C,
-        gEnemyParty = 0x020378F4,
-        gEnemyPartyCount = 0x0203769A,
-        gPlayerPartyCount = 0x02037699,
+        gPlayerParty = 0x020375F8,
+        gEnemyParty = 0x02037850,
+        gEnemyPartyCount = 0x020375F6,
+        gPlayerPartyCount = 0x020375F5,
         gPokemonStoragePtr = 0x03006220,
         gSaveBlock2Ptr = 0x0300621C,
         gTrainerBattleOpponent_A = 0x020008DA,
@@ -131,6 +131,7 @@ local CONFIG = {
         write_full_log = false, -- when false, full M2 event stream is not written to disk
         mirror_console_events = false,
         mirror_console_startup = true,
+        master_write_every_session_end = 1, -- 1 = flush at each battle end; >1 batches multiple battles before writing.
     },
 
     http = {
@@ -212,6 +213,10 @@ local state = {
         sessionCounterByAttempt = {},
         lastBoxMetaByAttempt = {},
         cachedBoxPayloadByAttempt = {},
+        contextByAttempt = {},
+        dirtyMasterByAttempt = {},
+        dirtyMasterNeedsBoxRefreshByAttempt = {},
+        completedSessionsSinceFlushByAttempt = {},
     },
 }
 
@@ -223,6 +228,7 @@ local buildPartyBoxPayloadJson
 local buildLegacyPartyBoxPayloadJson
 local getLogsDir
 local getPlayerTrainerIds
+local getCurrentAttemptBattleLogEvents
 local ensureDirExistsForPath
 local appendBattleLogEvent
 local emitCondensedRecord
@@ -280,6 +286,13 @@ local function hex4(v)
     return string.format("0x%04X", v & 0xFFFF)
 end
 
+local function hex2(v)
+    if v == nil then
+        return "n/a"
+    end
+    return string.format("0x%02X", v & 0xFF)
+end
+
 local function jsonEscape(str)
     if str == nil then
         return ""
@@ -327,18 +340,10 @@ local function jsonEncode(value)
             end
             return "[" .. table.concat(parts, ",") .. "]"
         end
-        local keys = {}
-        for k, _ in pairs(value) do
-            keys[#keys + 1] = { key = k, keyText = tostring(k) }
-        end
-        table.sort(keys, function(a, b)
-            return a.keyText < b.keyText
-        end)
         local parts = {}
-        for i = 1, #keys do
-            local key = keys[i].key
-            local keyText = keys[i].keyText
-            parts[#parts + 1] = "\"" .. jsonEscape(keyText) .. "\":" .. jsonEncode(value[key])
+        for key, childValue in pairs(value) do
+            local keyText = tostring(key)
+            parts[#parts + 1] = "\"" .. jsonEscape(keyText) .. "\":" .. jsonEncode(childValue)
         end
         return "{" .. table.concat(parts, ",") .. "}"
     end
@@ -351,6 +356,10 @@ local function appendJsonRecordToPath(path, record)
     end
 
     local f = io.open(path, "a")
+    if not f then
+        ensureDirExistsForPath(path)
+        f = io.open(path, "a")
+    end
     if not f then
         if state.frame - (state.lastOutputErrorFrame or -1000000) > 300 then
             log(string.format("[Gen3 M2] WARN unable to open log output path: %s", tostring(path)))
@@ -380,6 +389,81 @@ local function emitRecord(record)
     end
 end
 
+local ensuredDirCache = {}
+
+local function pathExists(path)
+    if not path or path == "" then
+        return false
+    end
+    local ok, _err, code = os.rename(path, path)
+    if ok then
+        return true
+    end
+    return tonumber(code) == 13
+end
+
+local function quoteForCmd(path)
+    return "\"" .. tostring(path or ""):gsub("\"", "\"\"") .. "\""
+end
+
+local function quoteForSh(path)
+    return "'" .. tostring(path or ""):gsub("'", "'\\''") .. "'"
+end
+
+local function isLikelyWindowsPath(path)
+    local text = tostring(path or "")
+    if text:match("^%a:[/\\]") then
+        return true
+    end
+    if text:find("\\", 1, true) then
+        return true
+    end
+    if os and os.getenv then
+        if os.getenv("ComSpec") or os.getenv("WINDIR") then
+            return true
+        end
+    end
+    return false
+end
+
+local function ensureDir(path)
+    if not path or path == "" then
+        return false
+    end
+    if ensuredDirCache[path] ~= nil then
+        return ensuredDirCache[path]
+    end
+    if pathExists(path) then
+        ensuredDirCache[path] = true
+        return true
+    end
+
+    local normalizedWinPath = tostring(path):gsub("/", "\\")
+    local windowsCmd = "mkdir " .. quoteForCmd(normalizedWinPath)
+    local unixCmd = "mkdir -p " .. quoteForSh(path)
+    local commands
+    if isLikelyWindowsPath(path) then
+        commands = { windowsCmd, unixCmd }
+    else
+        commands = { unixCmd, windowsCmd }
+    end
+
+    for i = 1, #commands do
+        local ok = os.execute(commands[i])
+        if ok == true or ok == 0 then
+            ensuredDirCache[path] = true
+            return true
+        end
+        if pathExists(path) then
+            ensuredDirCache[path] = true
+            return true
+        end
+    end
+
+    ensuredDirCache[path] = false
+    return false
+end
+
 local function ensureOutputDirExists()
     local path = nil
     if CONFIG.output then
@@ -400,7 +484,7 @@ local function ensureOutputDirExists()
     if not dir or dir == "" then
         return
     end
-    os.execute(string.format("mkdir -p \"%s\"", dir))
+    ensureDir(dir)
 end
 
 local function getDefaultCondensedBattleLogPath(trainerId)
@@ -412,15 +496,12 @@ ensureDirExistsForPath = function(path)
     if not path or path == "" then
         return
     end
-    if not os or not os.execute then
-        return
-    end
 
-    local dir = path:match("^(.*)/[^/]+$")
+    local dir = tostring(path):gsub("\\", "/"):match("^(.*)/[^/]+$")
     if not dir or dir == "" then
         return
     end
-    os.execute(string.format("mkdir -p \"%s\"", dir))
+    ensureDir(dir)
 end
 
 local function trim(s)
@@ -788,8 +869,11 @@ local function saveAttemptMap(data)
         return false
     end
     local path = getAttemptMapPath()
-    ensureDirExistsForPath(path)
     local f = io.open(path, "w")
+    if not f then
+        ensureDirExistsForPath(path)
+        f = io.open(path, "w")
+    end
     if not f then
         return false
     end
@@ -967,7 +1051,6 @@ local function ensureExportContext()
     local identity = resolveExportIdentity(existingKey)
     local attempt = getOrCreateAttemptForKey(identity.trainerKey)
     local attemptDir = getAttemptDir(attempt)
-    ensureDirExistsForPath(attemptDir .. "/.keep")
 
     state.export.current.trainerId = identity.trainerId
     state.export.current.secretId = identity.secretId
@@ -991,7 +1074,74 @@ local function getCurrentAttemptEvents()
     return state.export.eventsByAttempt[attempt], ctx
 end
 
-local function getCurrentAttemptBattleLogEvents()
+local function cacheAttemptContext(ctx)
+    if type(ctx) ~= "table" or ctx.attempt == nil then
+        return nil
+    end
+    local cached = {
+        trainerId = ctx.trainerId,
+        secretId = ctx.secretId,
+        trainerKey = ctx.trainerKey,
+        attempt = ctx.attempt,
+        attemptDir = ctx.attemptDir,
+        masterPath = ctx.masterPath,
+    }
+    state.export.contextByAttempt[ctx.attempt] = cached
+    return cached
+end
+
+local function getAttemptContext(attempt)
+    if attempt == nil then
+        return nil
+    end
+    local current = state.export.current
+    if type(current) == "table" and current.attempt == attempt then
+        return cacheAttemptContext(current)
+    end
+    local ctx = state.export.contextByAttempt[attempt]
+    if type(ctx) == "table" then
+        return ctx
+    end
+    local attemptDir = getAttemptDir(attempt)
+    ctx = {
+        trainerId = nil,
+        secretId = nil,
+        trainerKey = NULL_EXPORT.defaultTrainerKey,
+        attempt = attempt,
+        attemptDir = attemptDir,
+        masterPath = getMasterPath(attempt),
+    }
+    state.export.contextByAttempt[attempt] = ctx
+    return ctx
+end
+
+local function markAttemptMasterDirty(attempt, needsBoxRefresh)
+    if attempt == nil then
+        return
+    end
+    state.export.dirtyMasterByAttempt[attempt] = true
+    if needsBoxRefresh then
+        state.export.dirtyMasterNeedsBoxRefreshByAttempt[attempt] = true
+    end
+end
+
+local function markCurrentAttemptMasterDirty(needsBoxRefresh)
+    local ctx = ensureExportContext()
+    cacheAttemptContext(ctx)
+    markAttemptMasterDirty(ctx.attempt, needsBoxRefresh)
+    return ctx
+end
+
+local function clearAttemptMasterDirty(attempt)
+    if attempt == nil then
+        return
+    end
+    state.export.dirtyMasterByAttempt[attempt] = nil
+    state.export.dirtyMasterNeedsBoxRefreshByAttempt[attempt] = nil
+    state.export.completedSessionsSinceFlushByAttempt[attempt] = 0
+end
+
+getCurrentAttemptBattleLogEvents = function()
     local events = getCurrentAttemptEvents()
     if type(events) ~= "table" then
         return {}
@@ -1038,27 +1188,40 @@ local function cacheCurrentAttemptBoxPayload(ctx)
     return payload
 end
 
-local function writeCurrentAttemptMaster(refreshBoxPayload)
-    local events, ctx = getCurrentAttemptEvents()
+local function buildAttemptMasterTable(ctx, refreshBoxPayload)
+    if type(ctx) ~= "table" or ctx.attempt == nil then
+        return nil
+    end
+    local attempt = ctx.attempt
+    local events = state.export.eventsByAttempt[attempt]
+    if type(events) ~= "table" then
+        hydrateAttemptStateFromMaster(attempt, ctx.masterPath)
+        events = state.export.eventsByAttempt[attempt]
+    end
     local boxPayload
     if refreshBoxPayload then
-        boxPayload = cacheCurrentAttemptBoxPayload(ctx)
+        local current = state.export.current
+        if type(current) == "table" and current.attempt == attempt then
+            boxPayload = cacheCurrentAttemptBoxPayload(ctx)
+        else
+            boxPayload = state.export.cachedBoxPayloadByAttempt[attempt]
+        end
     else
-        boxPayload = state.export.cachedBoxPayloadByAttempt[ctx.attempt]
+        boxPayload = state.export.cachedBoxPayloadByAttempt[attempt]
     end
-    local boxMeta = state.export.lastBoxMetaByAttempt[ctx.attempt] or {}
+    local boxMeta = state.export.lastBoxMetaByAttempt[attempt] or {}
     if boxPayload ~= nil then
         boxMeta = {
             updatedAt = os.date("%Y-%m-%dT%H:%M:%S"),
             partyCount = boxPayload.partyCount ~= JSON_NULL and boxPayload.partyCount or nil,
             boxSlotsDumped = boxPayload.boxSlotsDumped ~= JSON_NULL and boxPayload.boxSlotsDumped or nil,
         }
-        state.export.lastBoxMetaByAttempt[ctx.attempt] = boxMeta
+        state.export.lastBoxMetaByAttempt[attempt] = boxMeta
     end
 
-    local out = {
+    return {
         version = NULL_EXPORT.version,
-        attempt = ctx.attempt,
+        attempt = attempt,
         trainerId = jsonOrNull(ctx.trainerId),
         secretId = jsonOrNull(ctx.secretId),
         trainerKey = ctx.trainerKey or NULL_EXPORT.defaultTrainerKey,
@@ -1073,9 +1236,19 @@ local function writeCurrentAttemptMaster(refreshBoxPayload)
             payload = boxPayload or JSON_NULL,
         },
     }
+end
 
-    ensureDirExistsForPath(ctx.masterPath)
+local function writeAttemptMaster(ctx, refreshBoxPayload)
+    local out = buildAttemptMasterTable(ctx, refreshBoxPayload)
+    if type(out) ~= "table" then
+        return false
+    end
+
     local f = io.open(ctx.masterPath, "w")
+    if not f then
+        ensureDirExistsForPath(ctx.masterPath)
+        f = io.open(ctx.masterPath, "w")
+    end
     if not f then
         log(string.format("[Gen3 M2] WARN unable to write attempt master file: %s", tostring(ctx.masterPath)))
         return false
@@ -1083,11 +1256,48 @@ local function writeCurrentAttemptMaster(refreshBoxPayload)
     f:write(jsonEncode(out))
     f:write("\n")
     f:close()
+    clearAttemptMasterDirty(ctx.attempt)
     return true
 end
 
+local function writeCurrentAttemptMaster(refreshBoxPayload)
+    local _, ctx = getCurrentAttemptEvents()
+    cacheAttemptContext(ctx)
+    return writeAttemptMaster(ctx, refreshBoxPayload)
+end
+
+local function flushAttemptMasterIfDirty(attempt, forceBoxRefresh)
+    local dirty = state.export.dirtyMasterByAttempt[attempt]
+    if not dirty and not forceBoxRefresh then
+        return true
+    end
+    local ctx = getAttemptContext(attempt)
+    if type(ctx) ~= "table" then
+        return false
+    end
+    local needsBoxRefresh = forceBoxRefresh or state.export.dirtyMasterNeedsBoxRefreshByAttempt[attempt]
+    return writeAttemptMaster(ctx, needsBoxRefresh)
+end
+
+local function flushCurrentAttemptMasterIfDirty(forceBoxRefresh)
+    local ctx = ensureExportContext()
+    cacheAttemptContext(ctx)
+    return flushAttemptMasterIfDirty(ctx.attempt, forceBoxRefresh)
+end
+
+local function flushAllDirtyAttemptMasters()
+    local ok = true
+    for attempt, dirty in pairs(state.export.dirtyMasterByAttempt) do
+        if dirty and not flushAttemptMasterIfDirty(attempt, false) then
+            ok = false
+        end
+    end
+    return ok
+end
+
 local function updateMasterFile(_trainerId, _secretId)
-    return writeCurrentAttemptMaster(true)
+    markCurrentAttemptMasterDirty(true)
+    return flushCurrentAttemptMasterIfDirty(true)
 end
 
 appendBattleLogEvent = function(record)
@@ -1106,7 +1316,8 @@ appendBattleLogEvent = function(record)
         end
     end
     events[#events + 1] = record
-    writeCurrentAttemptMaster(false)
+    cacheAttemptContext(ctx)
+    markAttemptMasterDirty(ctx.attempt, false)
 end
 
 emitCondensedRecord = function(record, _trainerIdOverride)
@@ -1279,6 +1490,184 @@ local function getPlayerPartyCountAddr()
     return nil
 end
 
+local function getPartyMonLayoutCandidates()
+    return {
+        {
+            name = "default",
+            box_flags_offset = CONFIG.struct.box_flags_offset,
+            level_offset = CONFIG.struct.level_offset,
+            hp_offset = CONFIG.struct.hp_offset,
+            maxhp_offset = CONFIG.struct.maxhp_offset,
+        },
+        {
+            name = "compact_shifted",
+            box_flags_offset = 0x15,
+            level_offset = 0x14,
+            hp_offset = 0x16,
+            maxhp_offset = 0x18,
+        },
+    }
+end
+
+local function readPartyMonCore(monAddr, layout)
+    if not monAddr or type(layout) ~= "table" then
+        return nil
+    end
+
+    local flags = read8(monAddr + layout.box_flags_offset)
+    local level = read8(monAddr + layout.level_offset)
+    local curHP = read16le(monAddr + layout.hp_offset)
+    local maxHP = read16le(monAddr + layout.maxhp_offset)
+    if flags == nil or level == nil or curHP == nil or maxHP == nil then
+        return nil
+    end
+
+    local hasSpecies = ((flags >> 1) & 0x1) == 1
+    local isEgg = ((flags >> 2) & 0x1) == 1
+    local score = 0
+
+    if hasSpecies then
+        score = score + 4
+    end
+    if level >= 1 and level <= 100 then
+        score = score + 2
+    elseif level > 100 then
+        score = score - 2
+    end
+    if maxHP >= 1 and maxHP <= 999 then
+        score = score + 2
+    elseif maxHP > 999 then
+        score = score - 2
+    end
+    if maxHP > 0 and curHP >= 0 and curHP <= maxHP then
+        score = score + 2
+    elseif curHP > maxHP then
+        score = score - 2
+    end
+
+    return {
+        layoutName = layout.name or "unknown",
+        box_flags_offset = layout.box_flags_offset,
+        level_offset = layout.level_offset,
+        hp_offset = layout.hp_offset,
+        maxhp_offset = layout.maxhp_offset,
+        flags = flags,
+        hasSpecies = hasSpecies,
+        isEgg = isEgg,
+        level = level,
+        currentHP = curHP,
+        maxHP = maxHP,
+        score = score,
+    }
+end
+
+local function choosePartyMonCore(monAddr)
+    local candidates = getPartyMonLayoutCandidates()
+    local best = nil
+    for i = 1, #candidates do
+        local core = readPartyMonCore(monAddr, candidates[i])
+        if core and (best == nil or core.score > best.score) then
+            best = core
+        end
+    end
+    return best
+end
+
+local function getLatestKnownPlayerPartySnapshot()
+    local events = getCurrentAttemptBattleLogEvents()
+    if type(events) ~= "table" then
+        return nil
+    end
+
+    for i = #events, 1, -1 do
+        local ev = events[i]
+        if type(ev) == "table" and ev.type == "session_start" and type(ev.pParty) == "table" and #ev.pParty > 0 then
+            return ev.pParty, i
+        end
+    end
+    return nil
+end
+
+local function getFallbackPartySnapshotMon(slotIndex)
+    local snapshot = getLatestKnownPlayerPartySnapshot()
+    if type(snapshot) ~= "table" then
+        return nil, nil
+    end
+
+    local expectedSlot = tonumber(slotIndex)
+    if expectedSlot ~= nil then
+        expectedSlot = expectedSlot + 1
+        for i = 1, #snapshot do
+            local mon = snapshot[i]
+            if type(mon) == "table" and tonumber(mon.slot) == expectedSlot then
+                return mon, snapshot
+            end
+        end
+    end
+
+    local direct = snapshot[(slotIndex or 0) + 1]
+    if type(direct) == "table" then
+        return direct, snapshot
+    end
+    return nil, snapshot
+end
+
+local function buildFallbackPartyMon(monAddr, slotIndex, personality, otId, core)
+    local fallback, snapshot = getFallbackPartySnapshotMon(slotIndex)
+    if type(fallback) ~= "table" then
+        return nil
+    end
+
+    local species = tonumber(fallback.species)
+    if species == nil or species <= 0 then
+        return nil
+    end
+
+    local moves = {}
+    for i = 1, 4 do
+        moves[i] = tonumber(fallback.moves and fallback.moves[i]) or 0
+    end
+
+    local currentHP = core and core.currentHP or tonumber(fallback.hp) or tonumber(fallback.currentHP) or 0
+    local maxHP = core and core.maxHP or tonumber(fallback.maxHP) or currentHP
+    local level = core and core.level or tonumber(fallback.level) or 1
+    local abilityNum = tonumber(fallback.abilitySlot)
+    if abilityNum == nil then
+        abilityNum = tonumber(fallback.ability)
+    end
+    if abilityNum == nil then
+        abilityNum = 0
+    end
+
+    return {
+        slot = slotIndex,
+        species = species,
+        level = level,
+        heldItem = tonumber(fallback.heldItem) or 0,
+        moves = moves,
+        personality = personality,
+        otId = otId,
+        abilityNum = abilityNum,
+        altAbility = abilityNum,
+        isEgg = core and core.isEgg or false,
+        natureId = tonumber(fallback.natureId) or tonumber(fallback.nature) or 0,
+        metLocation = tonumber(fallback.metLocation) or 0,
+        metLevel = tonumber(fallback.metLevel) or 0,
+        experience = tonumber(fallback.experience) or 0,
+        hpIV = tonumber(fallback.hpIV) or 0,
+        attackIV = tonumber(fallback.attackIV) or 0,
+        defenseIV = tonumber(fallback.defenseIV) or 0,
+        spAttackIV = tonumber(fallback.spAttackIV) or 0,
+        spDefenseIV = tonumber(fallback.spDefenseIV) or 0,
+        speedIV = tonumber(fallback.speedIV) or 0,
+        currentHP = currentHP,
+        maxHP = maxHP,
+        debugSource = "session_start_fallback",
+        debugLayoutName = core and core.layoutName or "none",
+        debugFallbackPartyCount = type(snapshot) == "table" and #snapshot or 0,
+    }
+end
+
 local function decryptSubstructWords(monAddr, personality, otId)
     local key = (personality ~ otId) & 0xFFFFFFFF
     local order = SUBSTRUCT_ORDER[(personality % 24) + 1]
@@ -1305,83 +1694,79 @@ local function decryptSubstructWords(monAddr, personality, otId)
     return blocks
 end
 
-local function decodePartyMon(monAddr, slotIndex)
+local function decodePartyMon(monAddr, slotIndex, allowFallback)
     local personality = read32(monAddr + 0x00)
     local otId = read32(monAddr + 0x04)
-    local flags = read8(monAddr + CONFIG.struct.box_flags_offset)
-    local level = read8(monAddr + CONFIG.struct.level_offset)
-    local curHP = read16le(monAddr + CONFIG.struct.hp_offset)
-    local maxHP = read16le(monAddr + CONFIG.struct.maxhp_offset)
-    if personality == nil or otId == nil or flags == nil or level == nil then
+    local core = choosePartyMonCore(monAddr)
+    if personality == nil or otId == nil then
         return nil
     end
 
-    local hasSpecies = ((flags >> 1) & 0x1) == 1
-    if not hasSpecies then
-        return nil
+    if core and core.hasSpecies then
+        local blocks = decryptSubstructWords(monAddr, personality, otId)
+        if blocks then
+            local ss0 = blocks[1]
+            local ss1 = blocks[2]
+            local ss3 = blocks[4]
+
+            local species = ss0[1] & CONFIG.struct.max_species_id
+            local heldItem = (ss0[1] >> 16) & CONFIG.struct.max_item_id
+            local experience = ss0[2] or 0
+
+            local move1 = ss1[1] & CONFIG.struct.max_move_id
+            local move2 = (ss1[1] >> 16) & CONFIG.struct.max_move_id
+            local move3 = ss1[2] & CONFIG.struct.max_move_id
+            local move4 = (ss1[2] >> 16) & CONFIG.struct.max_move_id
+            local misc0 = ss3[1] or 0
+            local misc1 = ss3[2] or 0
+            local misc2 = ss3[3] or 0
+            local abilityNum = (misc2 >> 29) & 0x3
+            local altAbility = abilityNum
+            local natureId = personality % 25
+            local metLocation = (misc0 >> 8) & 0xFF
+            local metLevel = (misc0 >> 16) & 0x7F
+            local hpIV = misc1 & 0x1F
+            local attackIV = (misc1 >> 5) & 0x1F
+            local defenseIV = (misc1 >> 10) & 0x1F
+            local speedIV = (misc1 >> 15) & 0x1F
+            local spAttackIV = (misc1 >> 20) & 0x1F
+            local spDefenseIV = (misc1 >> 25) & 0x1F
+
+            if species ~= 0 and species <= CONFIG.struct.max_species_id then
+                return {
+                    slot = slotIndex,
+                    species = species,
+                    level = core.level,
+                    heldItem = heldItem,
+                    moves = { move1, move2, move3, move4 },
+                    personality = personality,
+                    otId = otId,
+                    abilityNum = abilityNum,
+                    altAbility = altAbility,
+                    isEgg = core.isEgg,
+                    natureId = natureId,
+                    metLocation = metLocation,
+                    metLevel = metLevel,
+                    experience = experience,
+                    hpIV = hpIV,
+                    attackIV = attackIV,
+                    defenseIV = defenseIV,
+                    spAttackIV = spAttackIV,
+                    spDefenseIV = spDefenseIV,
+                    speedIV = speedIV,
+                    currentHP = core.currentHP,
+                    maxHP = core.maxHP,
+                    debugSource = "live_struct",
+                    debugLayoutName = core.layoutName,
+                }
+            end
+        end
     end
 
-    local blocks = decryptSubstructWords(monAddr, personality, otId)
-    if not blocks then
-        return nil
+    if allowFallback then
+        return buildFallbackPartyMon(monAddr, slotIndex, personality, otId, core)
     end
-
-    local ss0 = blocks[1]
-    local ss1 = blocks[2]
-    local ss3 = blocks[4]
-
-    local species = ss0[1] & CONFIG.struct.max_species_id
-    local heldItem = (ss0[1] >> 16) & CONFIG.struct.max_item_id
-    local experience = ss0[2] or 0
-
-    local move1 = ss1[1] & CONFIG.struct.max_move_id
-    local move2 = (ss1[1] >> 16) & CONFIG.struct.max_move_id
-    local move3 = ss1[2] & CONFIG.struct.max_move_id
-    local move4 = (ss1[2] >> 16) & CONFIG.struct.max_move_id
-    local misc0 = ss3[1] or 0
-    local misc1 = ss3[2] or 0
-    local misc2 = ss3[3] or 0
-    local abilityNum = (misc2 >> 29) & 0x3
-    local altAbility = abilityNum
-    local isEgg = ((flags >> 2) & 0x1) == 1
-    local natureId = personality % 25
-    local metLocation = (misc0 >> 8) & 0xFF
-    local metLevel = (misc0 >> 16) & 0x7F
-    local hpIV = misc1 & 0x1F
-    local attackIV = (misc1 >> 5) & 0x1F
-    local defenseIV = (misc1 >> 10) & 0x1F
-    local speedIV = (misc1 >> 15) & 0x1F
-    local spAttackIV = (misc1 >> 20) & 0x1F
-    local spDefenseIV = (misc1 >> 25) & 0x1F
-
-    if species == 0 or species > CONFIG.struct.max_species_id then
-        return nil
-    end
-
-    return {
-        slot = slotIndex,
-        species = species,
-        level = level,
-        heldItem = heldItem,
-        moves = { move1, move2, move3, move4 },
-        personality = personality,
-        otId = otId,
-        abilityNum = abilityNum,
-        altAbility = altAbility,
-        isEgg = isEgg,
-        natureId = natureId,
-        metLocation = metLocation,
-        metLevel = metLevel,
-        experience = experience,
-        hpIV = hpIV,
-        attackIV = attackIV,
-        defenseIV = defenseIV,
-        spAttackIV = spAttackIV,
-        spDefenseIV = spDefenseIV,
-        speedIV = speedIV,
-        currentHP = curHP,
-        maxHP = maxHP,
-    }
+    return nil
 end
 
 local function decodeBoxMon(boxMonAddr, boxIndex, slotIndex)
@@ -1464,7 +1849,8 @@ local function countLikelyPartyMons(base)
     local count = 0
     for slot = 0, CONFIG.struct.party_size - 1 do
         local monAddr = base + slot * CONFIG.struct.party_mon_size
-        if decodePartyMon(monAddr, slot) then
+        local core = choosePartyMonCore(monAddr)
+        if core and core.hasSpecies and core.level >= 1 and core.level <= 100 and core.maxHP > 0 and core.currentHP <= core.maxHP then
             count = count + 1
         end
     end
@@ -1502,7 +1888,7 @@ local function buildPlayerPartySnapshot()
     end
 
     for slot = 0, partyCount - 1 do
-        local mon = decodePartyMon(playerParty + slot * CONFIG.struct.party_mon_size, slot)
+        local mon = decodePartyMon(playerParty + slot * CONFIG.struct.party_mon_size, slot, true)
         if mon then
             out[#out + 1] = {
                 slot = slot + 1,
@@ -1517,6 +1903,30 @@ local function buildPlayerPartySnapshot()
                 personality = mon.personality,
                 moves = mon.moves,
             }
+        end
+    end
+
+    if #out == 0 then
+        local snapshot = getLatestKnownPlayerPartySnapshot()
+        if type(snapshot) == "table" then
+            for i = 1, #snapshot do
+                local mon = snapshot[i]
+                if type(mon) == "table" then
+                    out[#out + 1] = {
+                        slot = tonumber(mon.slot) or i,
+                        species = tonumber(mon.species) or 0,
+                        level = tonumber(mon.level) or 1,
+                        hp = tonumber(mon.hp) or tonumber(mon.currentHP) or 0,
+                        maxHP = tonumber(mon.maxHP) or tonumber(mon.hp) or 0,
+                        heldItem = tonumber(mon.heldItem) or 0,
+                        abilitySlot = tonumber(mon.abilitySlot) or tonumber(mon.ability) or 0,
+                        nature = tonumber(mon.natureId) or tonumber(mon.nature) or 0,
+                        isEgg = false,
+                        personality = tonumber(mon.personality),
+                        moves = mon.moves,
+                    }
+                end
+            end
         end
     end
     return out
@@ -1664,7 +2074,7 @@ local function buildPlayerPartyAndBoxSpeciesSnapshot()
     local playerParty = getPlayerPartyBase()
     if playerParty then
         for slot = 0, CONFIG.struct.party_size - 1 do
-            local mon = decodePartyMon(playerParty + slot * CONFIG.struct.party_mon_size, slot)
+            local mon = decodePartyMon(playerParty + slot * CONFIG.struct.party_mon_size, slot, true)
             if mon and mon.species then
                 out[#out + 1] = mon.species
             end
@@ -2125,7 +2535,16 @@ local function emitSessionEnd(signature)
     emitCondensedRecord({
         type = "session_end",
     })
-    updateMasterFile()
+    local ctx = ensureExportContext()
+    local attempt = ctx and ctx.attempt or nil
+    local completed = (state.export.completedSessionsSinceFlushByAttempt[attempt] or 0) + 1
+    state.export.completedSessionsSinceFlushByAttempt[attempt] = completed
+
+    local flushInterval = tonumber(CONFIG.output and CONFIG.output.master_write_every_session_end) or 1
+    flushInterval = math.max(1, math.floor(flushInterval))
+    if completed >= flushInterval then
+        updateMasterFile()
+    end
 end
 
 local function emitMoveEvent(snap, slot, ppBefore, ppAfter, moveId)
@@ -2761,6 +3180,7 @@ local function buildPackedBoxBytes()
     local trainerId = 0
     local secretId = 0
     local partyHighestLevel = 1
+    local packedPartySlots = {}
 
     local function normalizeNatureId(mon)
         local n = tonumber(mon and mon.natureId)
@@ -2805,6 +3225,9 @@ local function buildPackedBoxBytes()
             return
         end
         if isParty then
+            if mon.slot ~= nil then
+                packedPartySlots[tonumber(mon.slot) or -1] = true
+            end
             local candidateLevel = tonumber(mon and mon.level)
             if candidateLevel ~= nil then
                 candidateLevel = math.floor(candidateLevel)
@@ -2843,7 +3266,38 @@ local function buildPackedBoxBytes()
     if partyCount > CONFIG.struct.party_size then partyCount = CONFIG.struct.party_size end
     if partyBase then
         for slot = 0, partyCount - 1 do
-            appendMon(decodePartyMon(partyBase + slot * CONFIG.struct.party_mon_size, slot), true)
+            appendMon(decodePartyMon(partyBase + slot * CONFIG.struct.party_mon_size, slot, true), true)
+        end
+    end
+    local fallbackParty = getLatestKnownPlayerPartySnapshot()
+    if type(fallbackParty) == "table" and #fallbackParty > 0 then
+        for i = 1, #fallbackParty do
+            local mon = fallbackParty[i]
+            local slot = tonumber(mon and mon.slot)
+            if slot ~= nil then
+                slot = slot - 1
+            else
+                slot = i - 1
+            end
+            if slot >= 0 and slot < CONFIG.struct.party_size and not packedPartySlots[slot] then
+                appendMon({
+                    slot = slot,
+                    species = tonumber(mon.species) or 0,
+                    level = tonumber(mon.level) or partyHighestLevel,
+                    hpIV = tonumber(mon.hpIV) or 0,
+                    attackIV = tonumber(mon.attackIV) or 0,
+                    defenseIV = tonumber(mon.defenseIV) or 0,
+                    spAttackIV = tonumber(mon.spAttackIV) or 0,
+                    spDefenseIV = tonumber(mon.spDefenseIV) or 0,
+                    speedIV = tonumber(mon.speedIV) or 0,
+                    moves = mon.moves,
+                    natureId = tonumber(mon.natureId) or tonumber(mon.nature) or 0,
+                    heldItem = tonumber(mon.heldItem) or 0,
+                    abilitySlot = tonumber(mon.abilitySlot) or tonumber(mon.ability) or 0,
+                    metLocation = tonumber(mon.metLocation) or 0,
+                    otId = tonumber(mon.otId) or 0,
+                }, true)
+            end
         end
     end
     if trainerId == 0 and secretId == 0 then
@@ -3106,8 +3560,9 @@ end
 
 local function buildUpdateJsonResponseBody()
     local showdownText = buildShowdownText()
-    writeCurrentAttemptMaster(true)
-    local battleLogsRaw = readCurrentAttemptMasterRawJson() or "null"
+    local ctx = ensureExportContext()
+    cacheAttemptContext(ctx)
+    local battleLogsRaw = jsonEncode(buildAttemptMasterTable(ctx, true) or JSON_NULL)
     return string.format("{\"box\":%s,\"battleLogs\":%s}", jsonEncode(showdownText or ""), battleLogsRaw)
 end
 
@@ -3527,6 +3982,8 @@ local function forceCloseHttpState(httpState)
 end
 
 local function teardownThisScriptInstance(_reason)
+    flushAllDirtyAttemptMasters()
+
     local g = rawget(_G, EMERALD_SINGLETON_KEY)
     if type(g) == "table" and g.callbackOwnerToken == THIS_SCRIPT_TOKEN then
         removeCallbackQuiet(g.startCallbackId)
@@ -3576,9 +4033,7 @@ local function onStart()
     end
     state.scriptStarted = true
     log("Lua Script Loaded")
-    ensureOutputDirExists()
-    local ctx = ensureExportContext()
-    renderHowToUseBuffer(ctx)
+    renderHowToUseBuffer(nil)
     setupHttpServer()
     if CONFIG.output and CONFIG.output.mirror_console_startup then
         log(string.format("[Gen3 M2] Turn battle logger loaded (%s).", SCRIPT_VERSION))
@@ -3870,25 +4325,46 @@ function moveScores(probeNearbyOffsets)
     milestone2_log_enemy_ai_move_scores(probeNearbyOffsets)
 end
 
-function milestone2_dump_ewram_head(path)
-    local startAddr = 0x02000000
-    local endAddr = 0x020005C0 -- inclusive
-    local outPath = path or "gen3_m2_ewram_02000000_020005C0.txt"
-    local f = io.open(outPath, "w")
-    if not f then
-        log(string.format("[Gen3 M2] dump failed: could not open file '%s' for writing.", tostring(outPath)))
-        return
+local function dumpMemoryRangeToFile(startAddr, endAddrInclusive, path, label)
+    local start = tonumber(startAddr)
+    local finish = tonumber(endAddrInclusive)
+    if start == nil or finish == nil or start > finish then
+        log(string.format(
+            "[Gen3 M2] dump failed: invalid range start=%s end=%s",
+            tostring(startAddr),
+            tostring(endAddrInclusive)
+        ))
+        return nil
     end
 
-    f:write(string.format("; [Gen3 M2] EWRAM dump %s..%s (inclusive)\n", hex8(startAddr), hex8(endAddr)))
+    local rangeLabel = label or "memory"
+    local defaultPath = string.format(
+        "%s/logs/%s_%08X_%08X.txt",
+        tostring(NULL_EXPORT.baseDir),
+        tostring(rangeLabel),
+        start & 0xFFFFFFFF,
+        finish & 0xFFFFFFFF
+    )
+    local outPath = path or defaultPath
+    local f = io.open(outPath, "w")
+    if not f then
+        ensureDirExistsForPath(outPath)
+        f = io.open(outPath, "w")
+    end
+    if not f then
+        log(string.format("[Gen3 M2] dump failed: could not open file '%s' for writing.", tostring(outPath)))
+        return nil
+    end
+
+    f:write(string.format("; [Gen3 M2] %s dump %s..%s (inclusive)\n", tostring(rangeLabel), hex8(start), hex8(finish)))
     f:write("; format: address: 16 bytes (hex)\n")
 
-    local addr = startAddr
-    while addr <= endAddr do
+    local addr = start
+    while addr <= finish do
         local line = string.format("%08X:", addr)
         for i = 0, 15 do
             local a = addr + i
-            if a <= endAddr then
+            if a <= finish then
                 local b = read8(a)
                 if b == nil then
                     line = line .. " ??"
@@ -3905,16 +4381,41 @@ function milestone2_dump_ewram_head(path)
 
     f:close()
     log(string.format(
-        "[Gen3 M2] dump written: %s (%d bytes, %s..%s)",
+        "[Gen3 M2] dump written: %s (%d bytes, %s..%s, label=%s)",
         tostring(outPath),
-        (endAddr - startAddr + 1),
-        hex8(startAddr),
-        hex8(endAddr)
+        (finish - start + 1),
+        hex8(start),
+        hex8(finish),
+        tostring(rangeLabel)
     ))
+    return outPath
+end
+
+function milestone2_dump_ewram_head(path)
+    local startAddr = 0x02000000
+    local endAddr = 0x020005C0 -- inclusive
+    return dumpMemoryRangeToFile(startAddr, endAddr, path, "ewram_head")
 end
 
 function milestone2_dump_ewram(path)
     milestone2_dump_ewram_head(path)
+end
+
+function milestone2_dump_ewram_full(path)
+    local startAddr = 0x02000000
+    local endAddr = 0x0203FFFF
+    return dumpMemoryRangeToFile(startAddr, endAddr, path, "ewram_full")
+end
+
+function milestone2_dump_scan_space(path)
+    local startAddr = (CONFIG.scan and CONFIG.scan.ewram_start) or 0x02000000
+    local endAddrExclusive = (CONFIG.scan and CONFIG.scan.ewram_end) or 0x02040000
+    local endAddr = endAddrExclusive - 1
+    return dumpMemoryRangeToFile(startAddr, endAddr, path, "ewram_scan_space")
+end
+
+function milestone2_dump_memory_range(startAddr, endAddrInclusive, path)
+    return dumpMemoryRangeToFile(startAddr, endAddrInclusive, path, "memory_range")
 end
 
 local function resolveRequestedBoxSlots(boxSlotsDumped)
@@ -4067,9 +4568,11 @@ function milestone2_dump_party_box_hex(path, boxSlotsDumped)
     local trainerId, _secretId = getPlayerTrainerIds()
     local defaultPath = string.format("/Users/andylee/Repos/vsrecorder/logs/Box-%d.json", trainerId or 0)
     local outPath = path or defaultPath
-    ensureDirExistsForPath(outPath)
-
     local f = io.open(outPath, "w")
+    if not f then
+        ensureDirExistsForPath(outPath)
+        f = io.open(outPath, "w")
+    end
     if not f then
         log(string.format("[Gen3 M2] dump-party-box failed: could not open '%s' for writing.", tostring(outPath)))
         return
@@ -4144,6 +4647,7 @@ function milestone2_debug_party_read()
     local playerPartyBase = getPlayerPartyBase()
     local partyCountAddr = getPlayerPartyCountAddr()
     local partyCount = getPlayerPartyCount()
+    local latestSnapshot = getLatestKnownPlayerPartySnapshot()
 
     log(string.format(
         "[Gen3 M2] party-read base=%s partyCountAddr=%s partyCount=%s partyMonSize=%s",
@@ -4152,6 +4656,23 @@ function milestone2_debug_party_read()
         tostring(partyCount),
         tostring(CONFIG.struct.party_mon_size)
     ))
+    if type(latestSnapshot) == "table" then
+        log(string.format("[Gen3 M2] party-read latest-session-start count=%d", #latestSnapshot))
+    else
+        log("[Gen3 M2] party-read latest-session-start count=nil")
+    end
+
+    if partyCountAddr then
+        for delta = -8, 8 do
+            local addr = partyCountAddr + delta
+            log(string.format(
+                "[Gen3 M2] party-read count-neighbor addr=%s delta=%d byte=%s",
+                hex8(addr),
+                delta,
+                hex2(read8(addr))
+            ))
+        end
+    end
 
     if not playerPartyBase then
         log("[Gen3 M2] party-read: player party base unavailable.")
@@ -4161,7 +4682,34 @@ function milestone2_debug_party_read()
     for slot = 0, CONFIG.struct.party_size - 1 do
         local slotAddr = playerPartyBase + slot * CONFIG.struct.party_mon_size
         local rawHex = bytesToHex(slotAddr, CONFIG.struct.party_mon_size)
-        local mon = decodePartyMon(slotAddr, slot)
+        local candidates = getPartyMonLayoutCandidates()
+        for i = 1, #candidates do
+            local core = readPartyMonCore(slotAddr, candidates[i])
+            if core then
+                log(string.format(
+                    "[Gen3 M2] party-read slot=%d cand=%s flags@%s=%s level@%s=%s hp@%s=%s maxHP@%s=%s hasSpecies=%s score=%s",
+                    slot,
+                    tostring(core.layoutName),
+                    hex2(candidates[i].box_flags_offset),
+                    hex2(core.flags),
+                    hex2(candidates[i].level_offset),
+                    tostring(core.level),
+                    hex2(candidates[i].hp_offset),
+                    tostring(core.currentHP),
+                    hex2(candidates[i].maxhp_offset),
+                    tostring(core.maxHP),
+                    tostring(core.hasSpecies),
+                    tostring(core.score)
+                ))
+            else
+                log(string.format(
+                    "[Gen3 M2] party-read slot=%d cand=%s unreadable",
+                    slot,
+                    tostring(candidates[i].name)
+                ))
+            end
+        end
+        local mon = decodePartyMon(slotAddr, slot, true)
         if mon then
             local moveNames = {}
             for i = 1, 4 do
@@ -4186,6 +4734,13 @@ function milestone2_debug_party_read()
                 moveNames[2],
                 moveNames[3],
                 moveNames[4]
+            ))
+            log(string.format(
+                "[Gen3 M2] party-read slot=%d decode-source=%s layout=%s fallbackSnapshotCount=%s",
+                slot,
+                tostring(mon.debugSource or "unknown"),
+                tostring(mon.debugLayoutName or "unknown"),
+                tostring(mon.debugFallbackPartyCount)
             ))
         else
             log(string.format(
@@ -4235,6 +4790,127 @@ function milestone2_debug_party_read()
         "[Gen3 M2] party-read /box payload partyHex=%s",
         tostring(payload.party or "")
     ))
+end
+
+function milestone2_debug_scan_party_bases(limit)
+    local results = {}
+    local layouts = getPartyMonLayoutCandidates()
+    local scanStart = CONFIG.scan and CONFIG.scan.ewram_start or 0x02000000
+    local scanEnd = CONFIG.scan and CONFIG.scan.ewram_end or 0x02040000
+    local stride = 4
+    local maxResults = tonumber(limit) or 12
+    if maxResults < 1 then
+        maxResults = 12
+    end
+
+    local function addResult(entry)
+        results[#results + 1] = entry
+    end
+
+    local maxBase = scanEnd - (CONFIG.struct.party_mon_size * CONFIG.struct.party_size)
+    for base = scanStart, maxBase, stride do
+        for i = 1, #layouts do
+            local layout = layouts[i]
+            local validCount = 0
+            local totalLevel = 0
+            local totalMaxHP = 0
+            local highestLevel = 0
+            local highestMaxHP = 0
+            local slotsText = {}
+            local contiguous = true
+
+            for slot = 0, CONFIG.struct.party_size - 1 do
+                local core = readPartyMonCore(base + slot * CONFIG.struct.party_mon_size, layout)
+                local valid = core
+                    and core.hasSpecies
+                    and core.level >= 1 and core.level <= 100
+                    and core.maxHP >= 1 and core.maxHP <= 999
+                    and core.currentHP >= 0 and core.currentHP <= core.maxHP
+                if valid then
+                    validCount = validCount + 1
+                    totalLevel = totalLevel + core.level
+                    totalMaxHP = totalMaxHP + core.maxHP
+                    if core.level > highestLevel then
+                        highestLevel = core.level
+                    end
+                    if core.maxHP > highestMaxHP then
+                        highestMaxHP = core.maxHP
+                    end
+                    slotsText[#slotsText + 1] = string.format("%d:%d/%d", slot, core.level, core.maxHP)
+                elseif validCount > 0 then
+                    contiguous = false
+                    break
+                end
+            end
+
+            if validCount >= 4 and contiguous then
+                local avgLevel = totalLevel / validCount
+                local avgMaxHP = totalMaxHP / validCount
+                local score = validCount * 1000 + highestLevel * 10 + highestMaxHP
+                local nearby = {}
+                for delta = -4, 4 do
+                    nearby[#nearby + 1] = string.format("%d:%s", delta, hex2(read8(base + delta)))
+                end
+                addResult({
+                    base = base,
+                    layoutName = layout.name,
+                    validCount = validCount,
+                    avgLevel = avgLevel,
+                    avgMaxHP = avgMaxHP,
+                    highestLevel = highestLevel,
+                    highestMaxHP = highestMaxHP,
+                    nearby = table.concat(nearby, " "),
+                    slots = table.concat(slotsText, " | "),
+                    score = score,
+                })
+            end
+        end
+    end
+
+    table.sort(results, function(a, b)
+        if a.score ~= b.score then
+            return a.score > b.score
+        end
+        if a.validCount ~= b.validCount then
+            return a.validCount > b.validCount
+        end
+        if a.highestLevel ~= b.highestLevel then
+            return a.highestLevel > b.highestLevel
+        end
+        if a.highestMaxHP ~= b.highestMaxHP then
+            return a.highestMaxHP > b.highestMaxHP
+        end
+        return a.base < b.base
+    end)
+
+    log(string.format(
+        "[Gen3 M2] party-scan scanned=%s..%s stride=%d candidates=%d",
+        hex8(scanStart),
+        hex8(scanEnd),
+        stride,
+        #results
+    ))
+
+    local outCount = #results
+    if outCount > maxResults then
+        outCount = maxResults
+    end
+    for i = 1, outCount do
+        local r = results[i]
+        log(string.format(
+            "[Gen3 M2] party-scan cand[%d] base=%s layout=%s valid=%d avgLevel=%.1f avgMaxHP=%.1f highestLevel=%d highestMaxHP=%d nearby={%s} slots={%s}",
+            i,
+            hex8(r.base),
+            tostring(r.layoutName),
+            r.validCount,
+            r.avgLevel,
+            r.avgMaxHP,
+            r.highestLevel,
+            r.highestMaxHP,
+            r.nearby,
+            r.slots
+        ))
+    end
 end
 
 function milestone2_debug_append_event(record)

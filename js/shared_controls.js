@@ -1745,6 +1745,40 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 		var name = pokeInfo.substring(0, pokeInfo.indexOf(" ("));
 		var setName = pokeInfo.substring(pokeInfo.indexOf("(") + 1, pokeInfo.lastIndexOf(")"));
 		var set = setdex[name][setName];
+		var ability = set.ability;
+		var item = set.item || "";
+		var speciesData = pokedex[name] || pokedex[name.replace(" ", "-")] || pokedex[name.replace("-", " ")] || pokedex[name.split("-")[0]];
+		var speciesOverrides = {};
+
+		if (speciesData) {
+			var sourceBaseStats = speciesData.baseStats || speciesData.bs;
+			if (sourceBaseStats) {
+				speciesOverrides.baseStats = {
+					hp: sourceBaseStats.hp,
+					atk: typeof sourceBaseStats.atk !== "undefined" ? sourceBaseStats.atk : sourceBaseStats.at,
+					def: typeof sourceBaseStats.def !== "undefined" ? sourceBaseStats.def : sourceBaseStats.df,
+					spa: typeof sourceBaseStats.spa !== "undefined" ? sourceBaseStats.spa : sourceBaseStats.sa,
+					spd: typeof sourceBaseStats.spd !== "undefined" ? sourceBaseStats.spd : sourceBaseStats.sd,
+					spe: typeof sourceBaseStats.spe !== "undefined" ? sourceBaseStats.spe : sourceBaseStats.sp,
+				};
+			}
+
+			if (speciesData.types && speciesData.types.length) {
+				speciesOverrides.types = speciesData.types.filter(Boolean).slice(0, 2);
+			}
+
+			if (typeof speciesData.weightkg !== "undefined") {
+				speciesOverrides.weightkg = speciesData.weightkg;
+			}
+
+			if (speciesData.abilities) {
+				speciesOverrides.abilities = speciesData.abilities;
+			}
+
+			if (speciesData.gender) {
+				speciesOverrides.gender = speciesData.gender;
+			}
+		}
 
 
 		var ivs = {};
@@ -1791,13 +1825,14 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 				level: tmpLvl,
 				ability: set.ability,
 				abilityOn: true,
-				item: set.item || "",
+				item: item,
 				gender: getGender(set.gender),
 				nature: set.nature,
 				ivs: ivs,
 				evs: evs,
 			moves: pokemonMoves,
-			status: status
+			status: status,
+			overrides: Object.keys(speciesOverrides).length ? speciesOverrides : undefined
 		});
 	} else {
 		var setName = pokeInfo.find("input.set-selector").val();

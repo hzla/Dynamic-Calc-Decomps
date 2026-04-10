@@ -23,6 +23,49 @@ moveChanges = {
 	    "Gust": "Twister",
 	    "Poison Gas": "Will-O-Wisp"
 	},
+	"Ancestral X": {
+	  "Fury Attack": "Scorching Swarm",
+	  "Scratch": "Breaking Swipe",
+	  "Fairy Wind": "Spirit Break",
+	  "Vice Grip": "Tussle",
+	  "Wing Attack": "Dual Wingbeat",
+	  "Needle Arm": "Trailblaze",
+	  "Vine Whip": "Trop Kick",
+	  "Stomp": "Ground Pound",
+	  "Horn Attack": "Headlong Rush",
+	  "Powder Snow": "Ice Hammer",
+	  "Bind": "Esper Wing",
+	  "Rolling Kick": "Fate's Flourish",
+	  "Rock Throw": "Accelerock",
+	  "Crush Claw": "Smart Strike",
+	  "Double Slap": "Steel Beam",
+	  "Lick": "Aqua Step",
+	  "Water Gun": "Chilling Water",
+	  "Pound": "Wave Crash"
+	},
+	"Royal Saphire": {
+	  "Vise Grip": "Head Smash",
+	  "Guillotine": "Bullet Punch",
+	  "Fury Attack": "Bug Buzz",
+	  "Horn Drill": "Drill Run",
+	  "Wrap": "Aqua Jet",
+	  "Fissure": "Earth Power",
+	  "Smog": "Dark Pulse",
+	  "Skull Bash": "Double Iron Bash",
+	  "Sky Attack": "Brave Bird",
+	  "Thief": "Night Slash",
+	  "Nightmare": "Ominous Wind",
+	  "Fury Cutter": "X-Scissor",
+	  "Stockpile": "Fire Pledge",
+	  "Arm Thrust": "Force Palm",
+	  "Ice Ball": "Ice Shard",
+	  "Astonish": "Shadow Sneak",
+	  "Air Cutter": "Air Slash",
+	  "Metal Sound": "Flash Cannon",
+	  "Sheer Cold": "Draco Meteor",
+	  "Icicle Spear": "Icicle Crash",
+	  "Covet": "Dual Wingbeat"
+	},
 	'Maximum Platinum': {
 		"Pound": "Hidden Power Grass",
 		"Payday": "Hidden Power Rock",
@@ -577,7 +620,20 @@ function getStats(currentPoke, rows, offset) {
 
 		switch (currentRow[0]) {
 		case 'Level':
-			currentPoke.level = parseInt(currentRow[1].trim());
+			var levelValue = currentRow[1] ? currentRow[1].trim() : "";
+			var expMatch = levelValue.match(/^(\d+)\s+EXP$/);
+			if (expMatch) {
+				var expValue = parseInt(expMatch[1], 10);
+				var resolvedLevel = resolveSavLevelFromExperience(currentPoke.name, expValue);
+				if (Number.isFinite(resolvedLevel)) {
+					currentPoke.level = resolvedLevel;
+				} else {
+					console.warn("Failed to resolve EXP-based level for species:", currentPoke.name, "EXP:", expValue);
+					currentPoke.level = 1;
+				}
+				break;
+			}
+			currentPoke.level = parseInt(levelValue);
 			break;
 		case 'EVs':
 			for (j = 1; j < currentRow.length; j++) {
@@ -650,6 +706,20 @@ function extractGenderFromImportHeader(headerLine) {
 		return "";
 	});
 	return result;
+}
+
+function findImportedSpeciesNameFromHeader(headerLine) {
+	var headerInfo = extractGenderFromImportHeader(headerLine);
+	var currentRow = headerInfo.header.split(/[()@]/);
+
+	for (var i = 0; i < currentRow.length; i++) {
+		var candidate = checkExeptions(currentRow[i].trim());
+		if (calc.SPECIES[8][candidate] !== undefined) {
+			return candidate;
+		}
+	}
+
+	return null;
 }
 
 function getMoves(currentPoke, rows, offset) {
@@ -1115,6 +1185,65 @@ function isDsPackedBoxTitle(title) {
 	);
 }
 
+function looksLikeImportableShowdownText(text) {
+	if (typeof text !== "string" || !text.trim() || isValidJSON(text)) {
+		return false;
+	}
+
+	var rows = text.split("\n");
+	var foundHeader = false;
+	var foundBody = false;
+
+	for (var i = 0; i < rows.length; i++) {
+		var trimmed = rows[i].trim();
+		if (!trimmed) {
+			continue;
+		}
+
+		if (!foundHeader && findImportedSpeciesNameFromHeader(trimmed)) {
+			foundHeader = true;
+		}
+		if (!foundBody && (trimmed.indexOf("Level:") === 0 || trimmed.indexOf("- ") === 0)) {
+			foundBody = true;
+		}
+		if (foundHeader && foundBody) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
+function importShowdownTextIntoImporter(showdownText, clearAfterImport) {
+	$('.import-team-text').val(showdownText);
+	$('#import').click();
+	if (clearAfterImport) {
+		$('.import-team-text').val("");
+	}
+}
+
+function tryImportShowdownTextFromClipboard() {
+	if (typeof navigator === "undefined" || !navigator.clipboard || typeof navigator.clipboard.readText !== "function") {
+		console.warn("Clipboard fallback is unavailable in this browser context.");
+		return Promise.resolve(false);
+	}
+
+	return navigator.clipboard.readText()
+		.then(function (clipboardText) {
+			if (!looksLikeImportableShowdownText(clipboardText)) {
+				console.warn("Clipboard fallback found no importable showdown text.");
+				return false;
+			}
+			console.log("Importing showdown text from clipboard fallback.");
+			importShowdownTextIntoImporter(clipboardText, false);
+			return true;
+		})
+		.catch(function (err) {
+			console.warn("Clipboard fallback failed to read text.", err);
+			return false;
+		});
+}
+
 function importLuaJsonDumpForCurrentTitle(pokes) {
 	const parsed = typeof pokes === "string" ? JSON.parse(pokes) : pokes;
 
@@ -1166,6 +1295,35 @@ function syncFragsheetFromImportedBox() {
 	}
 }
 
+function persistTrainerIdFromImportedText(rows) {
+	if (!rows || !rows.length) {
+		return;
+	}
+
+	for (var i = 0; i < rows.length; i++) {
+		var trimmed = String(rows[i] || "").trim();
+		if (!trimmed) {
+			continue;
+		}
+
+		var tidMatch = trimmed.match(/^TID:\s*(\d+):(\d+)\s*$/);
+		if (!tidMatch) {
+			return;
+		}
+
+		try {
+			if (typeof localStorage !== "undefined") {
+				var trainerId = parseInt(tidMatch[1], 10);
+				var secretId = parseInt(tidMatch[2], 10);
+				var combinedTrainerKey = ((trainerId & 0xFFFF) | ((secretId & 0xFFFF) << 16)) >>> 0;
+				localStorage.lastTid = String(combinedTrainerKey);
+			}
+		} catch (_err) {
+		}
+		return;
+	}
+}
+
 function addSets(pokes, name) {
 	if (isValidJSON(pokes)) {
 		try {
@@ -1182,6 +1340,7 @@ function addSets(pokes, name) {
 	}	
 
 	var rows = pokes.split("\n");
+	persistTrainerIdFromImportedText(rows);
 	var currentRow;
 	var currentPoke;
 	var addedpokes = 0;
@@ -1423,7 +1582,7 @@ function fetchLuaTextWithRetry(url, attempt, maxAttempts, retryDelayMs) {
 			});
 }
 
-function fetchLuaBytesWithRetry(url, attempt, maxAttempts, retryDelayMs) {
+function fetchLuaBytesOnce(url) {
 	return fetch(url, { cache: "no-store" })
 		.then(function (response) {
 			if (!response.ok) {
@@ -1436,13 +1595,12 @@ function fetchLuaBytesWithRetry(url, attempt, maxAttempts, retryDelayMs) {
 			if (bytes.length > 0) {
 				return bytes;
 			}
-			if (attempt >= maxAttempts) {
-				throw new Error("Empty response from " + url);
-			}
-			return delayMs(computeLuaRetryDelayMs(attempt, retryDelayMs)).then(function () {
-				return fetchLuaBytesWithRetry(url, attempt + 1, maxAttempts, retryDelayMs);
-			});
-		})
+			throw new Error("Empty response from " + url);
+		});
+}
+
+function fetchLuaBytesWithRetry(url, attempt, maxAttempts, retryDelayMs) {
+	return fetchLuaBytesOnce(url)
 		.catch(function (err) {
 			if (!isRetryableLuaFetchError(err)) {
 				throw err;
@@ -1452,6 +1610,39 @@ function fetchLuaBytesWithRetry(url, attempt, maxAttempts, retryDelayMs) {
 			}
 			return delayMs(computeLuaRetryDelayMs(attempt, retryDelayMs)).then(function () {
 				return fetchLuaBytesWithRetry(url, attempt + 1, maxAttempts, retryDelayMs);
+			});
+		});
+}
+
+function fetchDsPackedBoxWithClipboardFallback(url, maxAttempts, retryDelayMs) {
+	return fetchLuaBytesOnce(url)
+		.then(function (bytes) {
+			var showdownText = decodeDsPackedBoxToShowdownText(bytes);
+			if (!showdownText || !showdownText.trim()) {
+				throw new Error("Empty decoded /box/packed payload");
+			}
+			importShowdownTextIntoImporter(showdownText, false);
+			return "endpoint";
+		})
+		.catch(function (firstErr) {
+			console.warn("First DS /box/packed fetch attempt failed; checking clipboard fallback.", firstErr);
+			return tryImportShowdownTextFromClipboard().then(function (importedFromClipboard) {
+				if (importedFromClipboard) {
+					console.log("DS sync completed from clipboard fallback.");
+					return "clipboard";
+				}
+				if (maxAttempts <= 1) {
+					throw firstErr;
+				}
+				console.warn("Clipboard fallback unavailable; retrying DS /box/packed endpoint.");
+				return fetchLuaBytesWithRetry(url, 2, maxAttempts, retryDelayMs).then(function (bytes) {
+					var showdownText = decodeDsPackedBoxToShowdownText(bytes);
+					if (!showdownText || !showdownText.trim()) {
+						throw new Error("Empty decoded /box/packed payload");
+					}
+					importShowdownTextIntoImporter(showdownText, false);
+					return "endpoint";
+				});
 			});
 		});
 }
@@ -1949,9 +2140,7 @@ $("#sync-lua").click(() => {
 			if (!showdownText || !showdownText.trim()) {
 				throw new Error("Empty decoded /box payload");
 			}
-			$('.import-team-text').val(showdownText)
-			$('#import').click()
-			$('.import-team-text').val("")
+			importShowdownTextIntoImporter(showdownText, true);
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
 			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the Latest Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/emeraldimperium.lua\n\n Last Updated 3/10/2026");
@@ -1965,9 +2154,7 @@ $("#sync-lua").click(() => {
 			if (!showdownText || !showdownText.trim()) {
 				throw new Error("Empty decoded /box payload");
 			}
-			$('.import-team-text').val(showdownText)
-			$('#import').click()
-			$('.import-team-text').val("")
+			importShowdownTextIntoImporter(showdownText, true);
 		}).catch(function (err) {
 			console.error("Lua sync failed", err);
 			alert("Please ensure Lua script is running and MGBA is unpaused.\nDownload the Latest Lua script here: https://github.com/hzla/Dynamic-Calc-Decomps/blob/decomp/lua/pokemonnullv1.1.lua\n\n Last Updated 3/9/2026\nYou can now view logs/frags for any battles played while using the latest Lua script on the Battle Logs tab of the Fragsheet page");
@@ -1976,15 +2163,7 @@ $("#sync-lua").click(() => {
 	}
 	if (isDsPackedBoxTitle(TITLE)) {
 		console.log("Fetching DS packed box")
-		fetchLuaBytesWithRetry(LUA_PLATINUM_PACKED_BOX_URL, 1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (bytes) {
-			var showdownText = decodeDsPackedBoxToShowdownText(bytes);
-			if (!showdownText || !showdownText.trim()) {
-				throw new Error("Empty decoded /box/packed payload");
-			}
-			$('.import-team-text').val(showdownText)
-			$('#import').click()
-			// $('.import-team-text').val("")
-		}).catch(function (err) {
+		fetchDsPackedBoxWithClipboardFallback(LUA_PLATINUM_PACKED_BOX_URL, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).catch(function (err) {
 			console.error("Lua sync failed", err);
 			alert("Please ensure DeSmuME Nuzlockers Edition is running, the Pokemon HTTP API is enabled, and Pokemon HTTP API Game is set to the matching DS game profile. \n\nhttps://github.com/hzla/Desmume-Pokemon-Nuzlockers-Edition");
 		}).finally(resetSyncState);

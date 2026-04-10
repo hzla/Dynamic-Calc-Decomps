@@ -581,6 +581,61 @@ a:visited {
     padding: 12px;
 }
 
+.battle-log-edit-toggle-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.battle-log-edit-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #68686e;
+    border-radius: 999px;
+    background: #222628;
+    color: #ddd;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+}
+
+.battle-log-edit-toggle input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.battle-log-edit-toggle-slider {
+    position: relative;
+    width: 40px;
+    height: 22px;
+    border-radius: 999px;
+    background: #44484b;
+    transition: background 0.2s ease;
+}
+
+.battle-log-edit-toggle-slider::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    transition: transform 0.2s ease;
+}
+
+.battle-log-edit-toggle input:checked + .battle-log-edit-toggle-slider {
+    background: #4a7a52;
+}
+
+.battle-log-edit-toggle input:checked + .battle-log-edit-toggle-slider::after {
+    transform: translateX(18px);
+}
+
 #battle-log-toolbar {
     display: flex;
     align-items: center;
@@ -601,6 +656,33 @@ a:visited {
 
 .battle-log-toolbar-btn:hover {
     background: #2a2f32;
+}
+
+.battle-log-action-btn,
+.battle-log-danger-btn {
+    border: 1px solid #68686e;
+    border-radius: 5px;
+    background: #222628;
+    color: #ddd;
+    cursor: pointer;
+    padding: 5px 10px;
+    font: inherit;
+    width: auto;
+    min-width: 74px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.battle-log-action-btn:hover,
+.battle-log-danger-btn:hover {
+    background: #2a2f32;
+}
+
+.battle-log-danger-btn {
+    border-color: #b65b63;
+    color: #ffb6bd;
 }
 
 .battle-log-empty,
@@ -683,6 +765,7 @@ a:visited {
     border-radius: 6px;
     background: #202527;
     padding: 8px;
+    position: relative;
 }
 
 .battle-team-card.ko {
@@ -722,6 +805,33 @@ a:visited {
     margin: 6px 0 0 0;
     padding-left: 16px;
     font-size: 12px;
+}
+
+.battle-team-edit-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: 1px solid #4a7a52;
+    border-radius: 999px;
+    background: rgba(49, 111, 61, 0.22);
+    color: #d8f4de;
+    cursor: pointer;
+    padding: 4px 8px;
+    font: inherit;
+    font-size: 11px;
+    line-height: 1.1;
+    width: auto;
+    min-width: 44px;
+}
+
+.battle-team-edit-btn:hover {
+    background: rgba(49, 111, 61, 0.35);
+}
+
+.battle-team-edit-btn.fainted {
+    border-color: #b65b63;
+    background: rgba(128, 33, 45, 0.24);
+    color: #ffd5da;
 }
 
 .battle-team-empty {
@@ -791,6 +901,64 @@ a:visited {
     font-size: 12px;
     color: #bbb;
     background: #1f2426;
+}
+
+.battle-events-header-editable,
+.battle-event-edit-row {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr) minmax(112px, 128px);
+}
+
+.battle-events-header-editable > div,
+.battle-event-edit-row > div {
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.battle-event-edit-row > div {
+    padding: 0;
+}
+
+.battle-event-edit-cell {
+    padding: 8px 10px;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.battle-event-edit-row .battle-event-edit-cell:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.battle-log-edit-field {
+    width: 100%;
+    border: 1px solid #68686e;
+    border-radius: 5px;
+    background: #161a1c;
+    color: #f1f1f1;
+    font: inherit;
+    padding: 7px 8px;
+    box-sizing: border-box;
+}
+
+.battle-event-add {
+    padding: 0;
+    border-top: 1px solid rgba(104,104,110,0.45);
+    background: #202527;
+}
+
+.battle-event-add-title {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #bbb;
+    margin-bottom: 0;
+    padding: 10px 10px 8px;
+}
+
+.battle-event-add-row {
+    border-bottom: none;
 }
 
 #battle-log-fragsheet-panel {

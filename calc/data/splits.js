@@ -34,6 +34,11 @@ splitData = {
 		"titles": ["Brock", "Misty", "Lt. Surge", "Erika", "Koga", "Sabrina", "Blaine", "Giovanni", "Elite 4"],
 		"types": ["rock", "water", "electric", "grass", "poison", "psychic", "fire", "ground"]
 	},
+	"Rigorous Red": {
+		"lvls": [16, 28, 36, 50, 66, 74, 81, 90, 100],
+		"titles": ["Brock", "Misty", "Lt. Surge", "Erika", "Koga", "Sabrina", "Blaine", "Giovanni", "Elite 4"],
+		"types": ["rock", "water", "electric", "grass", "poison", "psychic", "fire", "ground"]
+	},
 	"Inclement Emerald No EVs": {
 		"lvls": [14, 20, 30, 40, 45, 55, 60, 70, 100],
 		"titles": ["Roxanne", "Brawly", "Wattson", "Flannery", "Norman", "Winona", "Tate&Liza", "Juan", "Elite 4"],
