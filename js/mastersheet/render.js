@@ -15,13 +15,14 @@
 // POKEWEB MODE or Use LIVE CALC MODE if not serving dex and calc locally
 // clicking on trainers will not update calc when testing locally (need same domain)
 // IMAGE_FOLDER = "images"
-// DEX_URL = "http://localhost:3001" 
+// DEX_URL = "http://localhost:3000" 
 // CALC_URL = "http://localhost:3002?data=casc"
 
 // LIVE CALC MODE
 $(document).ready(function() {
   IMAGE_FOLDER = "img"
-  DEX_URL = `https://ddex-chi.vercel.app`
+  // DEX_URL = `https://ddex-chi.vercel.app`
+  DEX_URL = `http://localhost:3000`
   CALC_URL = `https://hzla.github.io/Dynamic-Calc-Decomps?data=${gameDataSlug}`
   // CALC_URL = `http://localhost:3001?data=${gameDataSlug}`
 })
@@ -970,7 +971,6 @@ $(document).on("click", ".trainer-name", async function () {
   $('.filter-title').removeClass('active')
   $('.calc-tab').addClass('active')
 });
-
 
 
 
