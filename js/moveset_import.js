@@ -1295,6 +1295,35 @@ function syncFragsheetFromImportedBox() {
 	}
 }
 
+function persistTrainerIdFromImportedText(rows) {
+	if (!rows || !rows.length) {
+		return;
+	}
+
+	for (var i = 0; i < rows.length; i++) {
+		var trimmed = String(rows[i] || "").trim();
+		if (!trimmed) {
+			continue;
+		}
+
+		var tidMatch = trimmed.match(/^TID:\s*(\d+):(\d+)\s*$/);
+		if (!tidMatch) {
+			return;
+		}
+
+		try {
+			if (typeof localStorage !== "undefined") {
+				var trainerId = parseInt(tidMatch[1], 10);
+				var secretId = parseInt(tidMatch[2], 10);
+				var combinedTrainerKey = ((trainerId & 0xFFFF) | ((secretId & 0xFFFF) << 16)) >>> 0;
+				localStorage.lastTid = String(combinedTrainerKey);
+			}
+		} catch (_err) {
+		}
+		return;
+	}
+}
+
 function addSets(pokes, name) {
 	if (isValidJSON(pokes)) {
 		try {
@@ -1311,6 +1340,7 @@ function addSets(pokes, name) {
 	}	
 
 	var rows = pokes.split("\n");
+	persistTrainerIdFromImportedText(rows);
 	var currentRow;
 	var currentPoke;
 	var addedpokes = 0;
