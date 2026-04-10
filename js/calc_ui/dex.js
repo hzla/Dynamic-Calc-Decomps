@@ -25,8 +25,8 @@ function withDexGameContext(path) {
 }
 
 function getDexFrameUrl(path) {
-	return `http://localhost:3000/${withDexGameContext(path)}`;
-	// return `https://ddex-chi.vercel.app/${withDexGameContext(path)}`;
+	// return `http://localhost:3000/${withDexGameContext(path)}`;
+	return `https://ddex-chi.vercel.app/${withDexGameContext(path)}`;
 }
 
 function getDexViewSlot() {
