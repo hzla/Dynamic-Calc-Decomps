@@ -18,6 +18,7 @@
     function updateBodyViewClasses(viewName) {
         document.body.classList.remove(
             "main-page-calculator-view",
+            "main-page-dex-view",
             "main-page-box-view",
             "main-page-fragsheet-view",
             "main-page-battle-log-view"
@@ -33,11 +34,15 @@
 
     function setViewVisibility(viewName) {
         const calculatorView = document.getElementById("calculator-view");
+        const dexView = document.getElementById("dex-view");
         const fragsheetShell = document.getElementById("fragsheet-shell");
         const boxView = document.getElementById("box-view");
 
         if (calculatorView) {
             calculatorView.style.display = viewName === "calculator" ? "block" : "none";
+        }
+        if (dexView) {
+            dexView.style.display = viewName === "dex" ? "block" : "none";
         }
         if (fragsheetShell) {
             fragsheetShell.style.display = (viewName === "fragsheet" || viewName === "battle-log") ? "block" : "none";
@@ -78,7 +83,7 @@
         if (requested === "battle-log" && !isBattleLogAvailable()) {
             return "fragsheet";
         }
-        if (["calculator", "box", "fragsheet", "battle-log"].includes(requested)) {
+        if (["calculator", "dex", "box", "fragsheet", "battle-log"].includes(requested)) {
             return requested;
         }
         return "calculator";
@@ -97,6 +102,10 @@
             setEmbeddedMode("fragsheet");
         } else if (nextView === "battle-log") {
             setEmbeddedMode("battle-log");
+        } else if (nextView === "dex") {
+            if (typeof window.ensureDexViewLoaded === "function") {
+                window.ensureDexViewLoaded();
+            }
         } else if (nextView === "box") {
             if (typeof window.renderBoxView === "function") {
                 window.renderBoxView(true);
