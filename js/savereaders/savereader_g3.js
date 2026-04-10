@@ -104,10 +104,12 @@ function g3ShouldHandleSaveUpload() {
 }
 
 function parseGen3SaveFile(arrayBuffer) {
-    const bytes = new Uint8Array(arrayBuffer || 0);
-    if (bytes.length !== G3_FULL_SAVE_SIZE && bytes.length !== G3_HALF_SAVE_SIZE) {
-        throw new Error(`Unsupported Gen 3 save size: 0x${bytes.length.toString(16)}`);
+    const rawBytes = new Uint8Array(arrayBuffer || 0);
+    if (rawBytes.length < G3_HALF_SAVE_SIZE) {
+        throw new Error(`Gen 3 save is too small: 0x${rawBytes.length.toString(16)}`);
     }
+    const targetSize = rawBytes.length >= G3_FULL_SAVE_SIZE ? G3_FULL_SAVE_SIZE : G3_HALF_SAVE_SIZE;
+    const bytes = rawBytes.slice(0, targetSize);
 
     const activeSlot = g3DetermineActiveSlot(bytes);
     const buffers = g3RebuildLogicalBuffers(bytes, activeSlot);
