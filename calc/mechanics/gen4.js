@@ -178,7 +178,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         var turnOrder = attacker.stats.spe > defender.stats.spe ? 'first' : 'last';
         switch (move.name) {
             case 'Brine':
-                if (defender.curHP() <= defender.maxHP() / 2) {
+                if (defender.curHP() <= defender.maxHP() / 2 && !calcingForSwitchIns) {
                     basePower *= 2;
                     desc.moveBP = basePower;
                 }
@@ -236,6 +236,14 @@ function calculateDPP(gen, attacker, defender, move, field) {
             case 'Wake-Up Slap':
                 if (!calcingForSwitchIns) {
                     if (defender.hasStatus('slp')) {
+                        basePower *= 2;
+                        desc.moveBP = basePower;
+                    }
+                }
+                break;
+             case 'Smelling Salts':
+                if (!calcingForSwitchIns) {
+                    if (defender.hasStatus('par')) {
                         basePower *= 2;
                         desc.moveBP = basePower;
                     }

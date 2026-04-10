@@ -8890,8 +8890,7 @@ backup_data = {
                 "gender": "Female",
                 "location": "Pastoria City",
                 "spriteId": 53,
-                "orientation": 1,
-                "weather": "Sand"
+                "orientation": 1
             },
             "Lvl 90 Picnicker Tori |Wayward Cave| ": {
                 "level": 90,
@@ -14066,7 +14065,9 @@ backup_data = {
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
-                "orientation": null
+                "orientation": null,
+                "partner": 749,
+                "tagPartner": 612
             },
             "Lvl 38 Galactic Uranus2 ": {
                 "level": 38,
@@ -16771,7 +16772,7 @@ backup_data = {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
-                "battle_type": "Singles",
+                "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
                 "item": "Silk Scarf",
@@ -30013,7 +30014,7 @@ backup_data = {
                 "orientation": 2,
                 "partner": 289,
                 "tagPartner": 609,
-                "weather": "Sun"
+                "weather": "Rain"
             },
             "Lvl 90 Galactic Despina |Coronet Highlands| ": {
                 "level": 90,
@@ -38725,8 +38726,7 @@ backup_data = {
                 "gender": "Female",
                 "location": "Pastoria City",
                 "spriteId": 53,
-                "orientation": 1,
-                "weather": "Sand"
+                "orientation": 1
             },
             "Lvl 56 Galactic Iapetus |Eterna Forest| ": {
                 "level": 56,
@@ -40856,7 +40856,7 @@ backup_data = {
                 "orientation": 3,
                 "partner": 305,
                 "tagPartner": 609,
-                "weather": "Sun"
+                "weather": "Rain"
             },
             "Lvl 45 Parasol Lady Monet |Hearthome City| ": {
                 "level": 45,
@@ -41453,7 +41453,7 @@ backup_data = {
                 "orientation": 3,
                 "partner": 305,
                 "tagPartner": 609,
-                "weather": "Sun"
+                "weather": "Rain"
             },
             "Lvl 19 Commander Mars ": {
                 "level": 19,
@@ -42711,7 +42711,9 @@ backup_data = {
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
-                "orientation": null
+                "orientation": null,
+                "partner": 749,
+                "tagPartner": 612
             },
             "Lvl 69 Ace Trainer Tenzing ": {
                 "level": 69,
@@ -44250,7 +44252,7 @@ backup_data = {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
-                "battle_type": "Singles",
+                "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
                 "item": "Flame Plate",
@@ -44732,7 +44734,7 @@ backup_data = {
                 "orientation": 3,
                 "partner": 379,
                 "tagPartner": 609,
-                "weather": "Rain"
+                "weather": "Sun"
             },
             "Lvl 57 Galactic Iapetus |Eterna Forest| ": {
                 "level": 57,
@@ -45724,7 +45726,7 @@ backup_data = {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
-                "battle_type": "Singles",
+                "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
                 "item": "Ganlon Berry",
@@ -50695,7 +50697,7 @@ backup_data = {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
-                "battle_type": "Singles",
+                "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
                 "item": "Expert Belt",
@@ -54333,8 +54335,7 @@ backup_data = {
                 "gender": "Female",
                 "location": "Pastoria City",
                 "spriteId": 53,
-                "orientation": 1,
-                "weather": "Sand"
+                "orientation": 1
             },
             "Lvl 89 Galactic Epimetheus |Galactic HQ| ": {
                 "level": 89,
@@ -55199,7 +55200,9 @@ backup_data = {
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
-                "orientation": null
+                "orientation": null,
+                "partner": 750,
+                "tagPartner": 612
             }
         },
         "Mamoswine": {
@@ -55665,8 +55668,7 @@ backup_data = {
                 "gender": "Female",
                 "location": "Pastoria City",
                 "spriteId": 53,
-                "orientation": 1,
-                "weather": "Sand"
+                "orientation": 1
             },
             "Lvl 90 Youngster Butch |Pastoria City| ": {
                 "level": 90,
@@ -58684,7 +58686,7 @@ backup_data = {
                 "orientation": 0,
                 "partner": 378,
                 "tagPartner": 609,
-                "weather": "Rain"
+                "weather": "Sun"
             },
             "Lvl 88 Galactic Bianca2 |Galactic HQ| ": {
                 "level": 88,
@@ -59773,7 +59775,7 @@ backup_data = {
                 "orientation": 0,
                 "partner": 378,
                 "tagPartner": 609,
-                "weather": "Rain"
+                "weather": "Sun"
             },
             "Lvl 22 Galactic Neptune ": {
                 "level": 22,
@@ -60397,7 +60399,7 @@ backup_data = {
                 "orientation": 3,
                 "partner": 379,
                 "tagPartner": 609,
-                "weather": "Rain"
+                "weather": "Sun"
             },
             "Lvl 64 Galactic Tethys |Lake Valor| ": {
                 "level": 64,
@@ -62512,7 +62514,7 @@ backup_data = {
                 "orientation": 3,
                 "partner": 379,
                 "tagPartner": 609,
-                "weather": "Rain"
+                "weather": "Sun"
             },
             "Lvl 95 Galactic Thalassa ": {
                 "level": 95,
@@ -64046,7 +64048,7 @@ backup_data = {
                 "orientation": 2,
                 "partner": 289,
                 "tagPartner": 609,
-                "weather": "Sun"
+                "weather": "Rain"
             },
             "Lvl 89 Galactic Despina |Coronet Highlands| ": {
                 "level": 89,
@@ -65037,7 +65039,7 @@ backup_data = {
                 "orientation": 2,
                 "partner": 289,
                 "tagPartner": 609,
-                "weather": "Sun"
+                "weather": "Rain"
             },
             "Lvl 75 Sailor Jack |Canalave City| ": {
                 "level": 75,
@@ -67645,7 +67647,7 @@ backup_data = {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
-                "battle_type": "Singles",
+                "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
                 "item": "Flame Orb",
@@ -67919,7 +67921,7 @@ backup_data = {
                 "orientation": 3,
                 "partner": 305,
                 "tagPartner": 609,
-                "weather": "Sun"
+                "weather": "Rain"
             },
             "Lvl 62 Galactic Atlas ": {
                 "level": 62,
@@ -68933,7 +68935,9 @@ backup_data = {
                 "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
-                "orientation": null
+                "orientation": null,
+                "partner": 750,
+                "tagPartner": 612
             },
             "Lvl 68 Pkmn Trainer Lucas7 ": {
                 "level": 68,
@@ -72250,7 +72254,7 @@ backup_data = {
                 "orientation": 0,
                 "partner": 378,
                 "tagPartner": 609,
-                "weather": "Rain"
+                "weather": "Sun"
             },
             "Lvl 59 Galactic Daphnis |Lake Verity| ": {
                 "level": 59,
@@ -74335,7 +74339,7 @@ backup_data = {
                 "orientation": 2,
                 "partner": 289,
                 "tagPartner": 609,
-                "weather": "Sun"
+                "weather": "Rain"
             },
             "Lvl 87 Galactic Cupid |Galactic HQ| ": {
                 "level": 87,
@@ -76583,7 +76587,7 @@ backup_data = {
                 "orientation": 3,
                 "partner": 379,
                 "tagPartner": 609,
-                "weather": "Rain"
+                "weather": "Sun"
             },
             "Lvl 65 Galactic Rhea |Lake Verity| ": {
                 "level": 65,
@@ -78165,7 +78169,9 @@ backup_data = {
                 "ability": "Clear Body",
                 "location": "unknown_location",
                 "spriteId": null,
-                "orientation": null
+                "orientation": null,
+                "partner": 749,
+                "tagPartner": 612
             },
             "Lvl 69 Veteran Anton |Snowpoint City| ": {
                 "level": 69,
@@ -80927,7 +80933,7 @@ backup_data = {
                 "orientation": 0,
                 "partner": 378,
                 "tagPartner": 609,
-                "weather": "Rain"
+                "weather": "Sun"
             },
             "Lvl 56 Ace Trainer Micah |Lake Valor| ": {
                 "level": 56,
@@ -81799,8 +81805,7 @@ backup_data = {
                 "gender": "Female",
                 "location": "Pastoria City",
                 "spriteId": 53,
-                "orientation": 1,
-                "weather": "Sand"
+                "orientation": 1
             },
             "Lvl 53 Galactic Laomedeia ": {
                 "level": 53,
@@ -82664,7 +82669,7 @@ backup_data = {
                 "level": 100,
                 "tr_id": 480,
                 "ai": 135,
-                "battle_type": "Singles",
+                "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
                 "item": "Life Orb",
@@ -89208,7 +89213,7 @@ backup_data = {
                 "orientation": 3,
                 "partner": 305,
                 "tagPartner": 609,
-                "weather": "Sun"
+                "weather": "Rain"
             },
             "Lvl 64 Galactic Venus2 ": {
                 "level": 64,
@@ -91408,8 +91413,7 @@ backup_data = {
                 "gender": "Female",
                 "location": "Pastoria City",
                 "spriteId": 53,
-                "orientation": 1,
-                "weather": "Sand"
+                "orientation": 1
             },
             "Lvl 54 Galactic Laomedeia ": {
                 "level": 54,
@@ -94449,7 +94453,9 @@ backup_data = {
                 "ability": "Pressure",
                 "location": "unknown_location",
                 "spriteId": null,
-                "orientation": null
+                "orientation": null,
+                "partner": 750,
+                "tagPartner": 612
             }
         },
         "Giratina-Origin": {
