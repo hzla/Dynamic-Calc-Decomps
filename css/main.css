@@ -2124,6 +2124,7 @@ table td {
     margin:  10px;
     background-position-x: -20px;
     background-position-y: -20px ;
+    image-rendering: pixelated;
 /*    min-height:  96px;*/
 }
 

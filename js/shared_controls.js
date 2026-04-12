@@ -439,6 +439,23 @@ $(".status").bind("keyup change", function () {
 });
 
 var lockerMove = "";
+function getDisplayedEnemyMovePP(pp) {
+	if (TITLE !== "Pokemon Null 1.2") {
+		return pp
+	}
+
+	var ppNum = Number(pp)
+	if (Number.isNaN(ppNum)) {
+		return pp
+	}
+
+	if (ppNum === 1) {
+		return 8
+	}
+
+	return Math.floor(ppNum * 1.6)
+}
+
 function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 	if ($(moveObj).hasClass('bait-trigger')) {
 		return
@@ -479,14 +496,14 @@ function showMoveExtras(moveObj, ppObj=null, fullSetName="", index=null) {
 		if (isPlayer) {
 			ppObj.val(backup_move.pp)
 		} else {
-			movePPs[fullSetName][moveIndex] ||= backup_move.pp	
+			movePPs[fullSetName][moveIndex] ||= getDisplayedEnemyMovePP(backup_move.pp)
 			let ppVal = movePPs[fullSetName][moveIndex] 
 			ppObj.val(ppVal)
 		}
 		$(moveObj).parent().find('.move-acc').text(fogAcc)			
 	} else {
 		try {
-			$(moveObj).parent().find('.move-pp').val(backup_move.pp)
+			$(moveObj).parent().find('.move-pp').val(isPlayer ? backup_move.pp : getDisplayedEnemyMovePP(backup_move.pp))
 			$(moveObj).parent().find('.move-acc').text(fogAcc)		
 		} catch {
 		}	
