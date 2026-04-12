@@ -142,7 +142,7 @@ $(document).ready(function() {
 	 	$('.poke-sprite').click(function() {
 	 		
 	 		if ($(this).parent().attr('id') == "p2") {
-	 			if (TITLE != "Pokemon Null" && TITLE != "Platinum Kaizo") {
+	 			if (!TITLE.includes("Pokemon Null") && TITLE != "Platinum Kaizo") {
 	 				return
 	 			}
 	 		}

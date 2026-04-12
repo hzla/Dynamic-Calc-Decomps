@@ -154,7 +154,7 @@ $(document).ready(function() {
             5007: "Ponyta (Lvl 28 Root Academy Trainer #4 Slot3 |Root Academy|)"
         }
 
-        if (TITLE === "Pokemon Null" && !Number.isNaN(nextId) && pokemonNullOrderReroutes[nextId]) {
+        if (TITLE.includes(" Null") && !Number.isNaN(nextId) && pokemonNullOrderReroutes[nextId]) {
             set = pokemonNullOrderReroutes[nextId]
         }
         else if (TITLE.includes("Imperium")) {

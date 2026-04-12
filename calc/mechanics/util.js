@@ -197,7 +197,7 @@ function getFinalSpeed(gen, pokemon, field, side) {
     }
     speed = OF32(pokeRound((speed * chainMods(speedMods, 410, 131172)) / 4096));
     if (pokemon.hasStatus('par') && !pokemon.hasAbility('Quick Feet')) {
-        speed = Math.floor(OF32(speed * ((gen.num < 7 || TITLE == "Pokemon Null") ? 25 : 50)) / 100);
+        speed = Math.floor(OF32(speed * ((gen.num < 7 || TITLE.includes(" Null")) ? 25 : 50)) / 100);
     }
     speed = Math.min(gen.num <= 2 ? 999 : 10000, speed);
     return Math.max(0, speed);

@@ -154,7 +154,7 @@ SOURCES = {
   "blind": "Blinding White 2",
   "a6f5b7e55bbd7ebbdd52": "Rigorous Red",
   "bb8579a3798fd63b429d": "Royal Sapphire",
-  "null": "Pokemon Null",
+  "null": "Pokemon Null 1.2",
   "pk": "Platinum Kaizo",
   "navysaphire": "Navy Saphire"
 }
@@ -262,7 +262,7 @@ function setGameSettings(title) {
     showAI = true;
     $('label[for="snow"]').hide()
     $('label[for="fog"]').show()
-  } else if (title == "Pokemon Null") {
+  } else if (TITLE.includes(" Null")) {
     gameGen = 8
     settings.damageGen = 8
     // settings.noSwitch = 1
@@ -276,6 +276,8 @@ function setGameSettings(title) {
     $('label[for="hail"]').show()
     $('#maxL').next().remove()
     $('#maxR').next().remove()
+
+    
   } else if (title == "Sterling Silver") {
     gameGen = 4
     settings.damageGen = 4

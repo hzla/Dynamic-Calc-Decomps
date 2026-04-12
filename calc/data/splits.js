@@ -115,6 +115,11 @@ splitData = {
 		"titles": ["Roxanne", "Brawly", "Wattson", "Flannery", "Norman", "Winona", "Tate&Liza", "Juan", "Elite 4"],
 		"types": ["rock", "fighting", "electric", "fire", "normal", "flying", "psychic", "water"]
 	},
+	"Pokemon Null 1.2": {
+		"lvls": [38,45,59,66,72,77,86,95,100],
+		"titles": ["Roxanne", "Brawly", "Wattson", "Norman", "Flannery", "Winona", "Tate&Liza", "Steven", "Elite 4"],
+		"types": ["rock", "fighting", "electric", "fire", "normal", "flying", "psychic", "water"]
+	},
 	"Pokemon Null": {
 		"lvls": [38,45,59,66,72,77,86,95,100],
 		"titles": ["Roxanne", "Brawly", "Wattson", "Norman", "Flannery", "Winona", "Tate&Liza", "Steven", "Elite 4"],

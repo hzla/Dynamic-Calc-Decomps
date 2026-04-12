@@ -2259,7 +2259,7 @@ $("#sync-lua").click(() => {
 		}).finally(resetSyncState);
 		return;
 	}
-	if (TITLE == "Pokemon Null") {
+	if (TITLE.includes(" Null")) {
 		console.log("Fetching Box")
 		fetchLuaBytesWithRetry(LUA_BOX_URL, 1, LUA_UPDATE_MAX_ATTEMPTS, LUA_UPDATE_BASE_RETRY_MS).then(function (bytes) {
 			var showdownText = decodeNullPackedBoxToShowdownText(bytes);

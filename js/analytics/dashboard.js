@@ -144,7 +144,7 @@ function templateSelection(item) {
 }
 
 function getUsageTrainerKey(data) {
-  if (TITLE === "Pokemon Null") return data.id;
+  if (TITLE.includes(" Null")) return data.id;
   return data.tr_id ?? data.id;
 }
 

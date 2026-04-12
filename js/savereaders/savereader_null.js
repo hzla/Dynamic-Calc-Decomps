@@ -53,7 +53,7 @@ const NULL_MON_LAYOUT_BOX_SAVE = {
     levelOffset: null,
 };
 
-if (TITLE == "Pokemon Null") {
+if (TITLE.includes(" Null")) {
     let fileHandle = null;
     let lastContents = null;
     let watchIntervalId = null;

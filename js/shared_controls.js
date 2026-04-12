@@ -229,7 +229,7 @@ function showAbilityExtras(abilityObj) {
 
 	var TOGGLE_ABILITIES = ['Flash Fire', 'Intimidate', 'Minus', 'Plus', 'Slow Start', 'Unburden', 'Stakeout', 'Teraform Zero', 'Bull Rush', 'Quill Rush', 'Illusion', 'Dauntless Shield', 'Intrepid Sword', 'Download'];
 
-	if (TITLE == "Pokemon Null") {
+	if (TITLE.includes(" Null")) {
 		TOGGLE_ABILITIES.push("Illuminate")
 		TOGGLE_ABILITIES.push("Protean")
 	}
@@ -908,7 +908,7 @@ function renderTrainerPreviewPok(next_pok) {
 	}
 
 
-	if (TITLE.includes("1.3") || TITLE == "Pokemon Null") {
+	if (TITLE.includes("1.3") || TITLE.includes(" Null")) {
 		pok += next_pok[5]
 	}
 
@@ -1262,7 +1262,7 @@ $(".set-selector").change(function () {
 				}
 
 				
-				if (TITLE != "Pokemon Null") {
+				if (!TITLE.includes(" Null")) {
 					if (!(typeof partnerName != undefined && partnerName != null) && (battle_type == "Singles" || battle_type == undefined || battle_type == "Rotation")) {
 						$('#singles-format').click()
 					} else {

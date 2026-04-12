@@ -229,7 +229,7 @@ function applySyncLuaVisibility() {
     var syncEnabled = localStorage.syncLua == '1';
     var usesHttpLuaSync = typeof TITLE === "string" && (
         TITLE.includes("Imperium") ||
-        TITLE == "Pokemon Null" ||
+        TITLE.includes(" Null") ||
         TITLE.includes("Platinum")
     );
 

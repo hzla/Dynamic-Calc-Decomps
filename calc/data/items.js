@@ -321,6 +321,8 @@ var BW = DPP.concat([
     'Absorb Bulb',
     'Air Balloon',
     'Big Nugget',
+    'Big Pearl',
+    'Blue Scarf',
     'Binding Band',
     'Bug Gem',
     'Burn Drive',

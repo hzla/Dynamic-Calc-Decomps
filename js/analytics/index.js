@@ -97,7 +97,7 @@ function getSnapshot() {
     const snapshot = {};
 
 
-    if (TITLE == "Pokemon Null") { //trainer name over id for pokemon null
+    if (TITLE.includes(" Null")) { //trainer name over id for pokemon null
     	snapshot.tr =
       (currentAiPok && currentAiPok.tr_id != null && lastAiTrainerName || String(currentAiPok.tr_id))
        || "";

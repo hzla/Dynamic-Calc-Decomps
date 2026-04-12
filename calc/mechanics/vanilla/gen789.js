@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 
-if (["Pokemon Null"].includes(TITLE)) {
+if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
     console.log("Loading Baseline Gen 789 mechanics")
     var util_1 = require("../../util");
     var items_1 = require("../../items");
@@ -27,7 +27,7 @@ if (["Pokemon Null"].includes(TITLE)) {
         (0, util_2.computeFinalStats)(gen, attacker, defender, field, 'def', 'spd', 'spe');
         (0, util_2.checkIntimidate)(gen, attacker, defender);
         (0, util_2.checkIntimidate)(gen, defender, attacker);
-        if (TITLE == "Pokemon Null") {
+        if (TITLE.includes(" Null")) {
             (0, util_2.checkIlluminate)(gen, attacker, defender);
             (0, util_2.checkIlluminate)(gen, defender, attacker);           
         }
@@ -416,9 +416,9 @@ if (["Pokemon Null"].includes(TITLE)) {
         }
 
         if (attacker.hasAbility('Protean') && !attacker.teraType) {
-            if (TITLE == "Pokemon Null" && attacker.abilityOn) {
+            if (TITLE.includes(" Null") && attacker.abilityOn) {
                 stabMod += 2048;
-            } else if (TITLE == "Pokemon Null") {
+            } else if (TITLE.includes(" Null")) {
             } else {
                 stabMod += 2048;
             }
@@ -1204,7 +1204,7 @@ if (["Pokemon Null"].includes(TITLE)) {
             }
             dfMods.push(3072);
         }
-        if (TITLE == "Pokemon Null") {
+        if (TITLE.includes(" Null")) {
             if (move.named('Explosion', 'Self-Destruct', 'Misty Explosion')) {
                 dfMods.push(2048);
             }
