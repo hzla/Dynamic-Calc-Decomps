@@ -186,6 +186,36 @@ backup_data = {
                 "location": "Route 202",
                 "spriteId": 5,
                 "orientation": 1
+            },
+            "Lvl 67 Maid Yoki ": {
+                "level": 67,
+                "tr_id": 823,
+                "ai": 1,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Hasty",
+                "moves": [
+                    "Screech",
+                    "Sing",
+                    "Poison Sting",
+                    "-"
+                ],
+                "sub_index": 5,
+                "ability": "Shield Dust",
+                "gender": "Female",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
             }
         },
         "Caterpie": {
@@ -363,7 +393,7 @@ backup_data = {
                 "moves": [
                     "Growl",
                     "Bug Bite",
-                    "Rollout",
+                    "Accelerock",
                     "-"
                 ],
                 "sub_index": 1,
@@ -393,7 +423,7 @@ backup_data = {
                 "moves": [
                     "Growl",
                     "Bug Bite",
-                    "Rollout",
+                    "Accelerock",
                     "-"
                 ],
                 "sub_index": 0,
@@ -5955,7 +5985,7 @@ backup_data = {
                 "nature": "Impish",
                 "moves": [
                     "Mach Punch",
-                    "Rollout",
+                    "Accelerock",
                     "Aerial Ace",
                     "Bug Bite"
                 ],
@@ -6363,7 +6393,7 @@ backup_data = {
                 "nature": "Bashful",
                 "moves": [
                     "Fire Fang",
-                    "Rollout",
+                    "Accelerock",
                     "Crunch",
                     "Ice Fang"
                 ],
@@ -6400,36 +6430,6 @@ backup_data = {
                 "sub_index": 1,
                 "ability": "Adaptability",
                 "gender": "Female",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 23 Youngster Roland3 ": {
-                "level": 23,
-                "tr_id": 823,
-                "ai": 1,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "",
-                "item": "None",
-                "ivs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Naughty",
-                "moves": [
-                    "Shock Wave",
-                    "Fire Fang",
-                    "Rollout",
-                    "Crunch"
-                ],
-                "sub_index": 0,
-                "ability": "Adaptability",
-                "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -7232,7 +7232,7 @@ backup_data = {
                 "nature": "Quiet",
                 "moves": [
                     "Sucker Punch",
-                    "Rollout",
+                    "Accelerock",
                     "Earthquake",
                     "Self-Destruct"
                 ],
@@ -8156,8 +8156,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 23 Youngster Roland3 ": {
-                "level": 23,
+            "Lvl 67 Maid Yoki ": {
+                "level": 67,
                 "tr_id": 823,
                 "ai": 1,
                 "battle_type": "Singles",
@@ -8165,19 +8165,19 @@ backup_data = {
                 "form": "",
                 "item": "None",
                 "ivs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Hardy",
                 "moves": [
-                    "Headbutt",
-                    "Bite",
-                    "Whirlwind",
-                    "Submission"
+                    "Wake-Up Slap",
+                    "-",
+                    "-",
+                    "-"
                 ],
                 "sub_index": 1,
                 "ability": "Guts",
@@ -8372,10 +8372,10 @@ backup_data = {
                 "spriteId": 11,
                 "orientation": 2
             },
-            "Lvl 98 Idol Zoe |Victory Road| ": {
-                "level": 98,
+            "Lvl 99 Idol Zoe |Victory Road| ": {
+                "level": 99,
                 "tr_id": 236,
-                "ai": 7,
+                "ai": 29,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -8388,7 +8388,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Modest",
                 "moves": [
                     "Tackle",
                     "Fake Out",
@@ -8862,8 +8862,8 @@ backup_data = {
                 "spriteId": 52,
                 "orientation": 2
             },
-            "Lvl 60 Idol Skylar |Pastoria City| ": {
-                "level": 60,
+            "Lvl 62 Idol Skylar |Pastoria City| ": {
+                "level": 62,
                 "tr_id": 338,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -10733,7 +10733,7 @@ backup_data = {
                 "nature": "Adamant",
                 "moves": [
                     "Mach Punch",
-                    "Rollout",
+                    "Accelerock",
                     "Fake Out",
                     "Rolling Kick"
                 ],
@@ -10827,7 +10827,7 @@ backup_data = {
                     "Fake Out",
                     "Mach Punch",
                     "Blaze Kick",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 0,
                 "ability": "Technician",
@@ -10857,7 +10857,7 @@ backup_data = {
                     "Curse",
                     "Mach Punch",
                     "Fake Out",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 4,
                 "ability": "Technician",
@@ -10946,7 +10946,7 @@ backup_data = {
                 },
                 "nature": "Mild",
                 "moves": [
-                    "Rollout",
+                    "Accelerock",
                     "Iron Tail",
                     "Head Smash",
                     "Superpower"
@@ -11198,7 +11198,7 @@ backup_data = {
                 "nature": "Rash",
                 "moves": [
                     "Endure",
-                    "Rollout",
+                    "Accelerock",
                     "Earthquake",
                     "Self-Destruct"
                 ],
@@ -11228,7 +11228,7 @@ backup_data = {
                 "nature": "Quiet",
                 "moves": [
                     "Rock Polish",
-                    "Rollout",
+                    "Accelerock",
                     "Earthquake",
                     "Head Smash"
                 ],
@@ -12335,8 +12335,8 @@ backup_data = {
                 "spriteId": 37,
                 "orientation": 2
             },
-            "Lvl 49 Galactic Venus |Clamberclaw Cliffs| ": {
-                "level": 49,
+            "Lvl 53 Galactic Venus |Clamberclaw Cliffs| ": {
+                "level": 53,
                 "tr_id": 73,
                 "ai": 287,
                 "battle_type": "Singles",
@@ -12351,7 +12351,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Naughty",
                 "moves": [
                     "Toxic Spikes",
                     "Flamethrower",
@@ -12396,8 +12396,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 64 Galactic Venus2 ": {
-                "level": 64,
+            "Lvl 65 Galactic Venus2 ": {
+                "level": 65,
                 "tr_id": 426,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -12412,7 +12412,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Calm",
                 "moves": [
                     "Fire Blast",
                     "Sucker Punch",
@@ -12429,8 +12429,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sun"
             },
-            "Lvl 89 Galactic Larissa |Coronet Highlands| ": {
-                "level": 89,
+            "Lvl 92 Galactic Larissa |Coronet Highlands| ": {
+                "level": 92,
                 "tr_id": 518,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -12445,7 +12445,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Brave",
                 "moves": [
                     "Toxic Spikes",
                     "Feint Attack",
@@ -12460,8 +12460,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Fog"
             },
-            "Lvl 91 Galactic Venus3 ": {
-                "level": 91,
+            "Lvl 94 Galactic Venus3 ": {
+                "level": 94,
                 "tr_id": 527,
                 "ai": 167,
                 "battle_type": "Doubles",
@@ -12476,7 +12476,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Naughty",
                 "moves": [
                     "Fire Blast",
                     "Mud Bomb",
@@ -12821,7 +12821,7 @@ backup_data = {
                 },
                 "nature": "Relaxed",
                 "moves": [
-                    "Rollout",
+                    "Accelerock",
                     "Ice Shard",
                     "Bulldoze",
                     "Seed Bomb"
@@ -12852,7 +12852,7 @@ backup_data = {
                 "nature": "Calm",
                 "moves": [
                     "Seed Bomb",
-                    "Rollout",
+                    "Accelerock",
                     "Ice Shard",
                     "Earthquake"
                 ],
@@ -12863,10 +12863,10 @@ backup_data = {
                 "spriteId": 27,
                 "orientation": 1
             },
-            "Lvl 90 Beauty Jasmine ": {
-                "level": 90,
+            "Lvl 94 Beauty Jasmine ": {
+                "level": 94,
                 "tr_id": 222,
-                "ai": 7,
+                "ai": 63,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -12879,10 +12879,10 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Quiet",
                 "moves": [
                     "Head Smash",
-                    "Giga Impact",
+                    "Thrash",
                     "Ice Shard",
                     "Earthquake"
                 ],
@@ -12944,7 +12944,7 @@ backup_data = {
                 "moves": [
                     "Earthquake",
                     "Ice Shard",
-                    "Rollout",
+                    "Accelerock",
                     "Stone Edge"
                 ],
                 "sub_index": 1,
@@ -13034,7 +13034,7 @@ backup_data = {
                 "moves": [
                     "Roar",
                     "Slam",
-                    "Rollout",
+                    "Accelerock",
                     "Earthquake"
                 ],
                 "sub_index": 2,
@@ -13064,7 +13064,7 @@ backup_data = {
                 "moves": [
                     "Roar",
                     "Slam",
-                    "Rollout",
+                    "Accelerock",
                     "Earthquake"
                 ],
                 "sub_index": 2,
@@ -13478,8 +13478,8 @@ backup_data = {
                 "spriteId": 37,
                 "orientation": 0
             },
-            "Lvl 64 Galactic Mercury3 ": {
-                "level": 64,
+            "Lvl 65 Galactic Mercury3 ": {
+                "level": 65,
                 "tr_id": 419,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -13511,8 +13511,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sun"
             },
-            "Lvl 87 T.G. Squad Perdita |Coronet Highlands| ": {
-                "level": 87,
+            "Lvl 91 T.G. Squad Perdiita |Coronet Highlands| ": {
+                "level": 91,
                 "tr_id": 517,
                 "ai": 1287,
                 "battle_type": "Doubles",
@@ -13527,7 +13527,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Quiet",
                 "moves": [
                     "Secret Power",
                     "Pursuit",
@@ -13542,8 +13542,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Hail"
             },
-            "Lvl 87 Galactic Mercury4 ": {
-                "level": 87,
+            "Lvl 94 Galactic Mercury4 ": {
+                "level": 94,
                 "tr_id": 521,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -13558,7 +13558,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Brave",
                 "moves": [
                     "Fake Out",
                     "Fire Fang",
@@ -13637,8 +13637,8 @@ backup_data = {
                 "spriteId": 68,
                 "orientation": 2
             },
-            "Lvl 89 Cameraman Matt |Victory Road| ": {
-                "level": 89,
+            "Lvl 92 Cameraman Matt |Victory Road| ": {
+                "level": 92,
                 "tr_id": 233,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -13653,7 +13653,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Lax",
                 "moves": [
                     "Attract",
                     "Memento",
@@ -13667,8 +13667,8 @@ backup_data = {
                 "spriteId": 29,
                 "orientation": 3
             },
-            "Lvl 71 Ace Trainer Alicia |Route 214| ": {
-                "level": 71,
+            "Lvl 72 Ace Trainer Alicia |Route 214| ": {
+                "level": 72,
                 "tr_id": 271,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -13683,7 +13683,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Mild",
                 "moves": [
                     "Psychic",
                     "Wish",
@@ -13698,8 +13698,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Hail"
             },
-            "Lvl 64 Galactic Luna ": {
-                "level": 64,
+            "Lvl 65 Galactic Luna ": {
+                "level": 65,
                 "tr_id": 286,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -13731,8 +13731,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Hail"
             },
-            "Lvl 50 Galactic Amalthia ": {
-                "level": 50,
+            "Lvl 54 Galactic Amalthia ": {
+                "level": 54,
                 "tr_id": 490,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -13747,7 +13747,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Timid",
                 "moves": [
                     "Calm Mind",
                     "Psychic",
@@ -13762,8 +13762,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 53 Galactic Galatea |Iron Island| ": {
-                "level": 53,
+            "Lvl 54 Galactic Galatea |Iron Island| ": {
+                "level": 54,
                 "tr_id": 505,
                 "ai": 279,
                 "battle_type": "Doubles",
@@ -13778,7 +13778,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Impish",
                 "moves": [
                     "Psychic",
                     "Hyper Voice",
@@ -13794,8 +13794,8 @@ backup_data = {
                 "partner": 504,
                 "tagPartner": 609
             },
-            "Lvl 91 Galactic Rosalind ": {
-                "level": 91,
+            "Lvl 93 Galactic Rosalind ": {
+                "level": 93,
                 "tr_id": 509,
                 "ai": 47,
                 "battle_type": "Singles",
@@ -13810,7 +13810,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Gentle",
                 "moves": [
                     "Vacuum Wave",
                     "Shadow Ball",
@@ -14440,8 +14440,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 50 T.G. Squad Himalia ": {
-                "level": 50,
+            "Lvl 53 T.G. Squad Himalia ": {
+                "level": 53,
                 "tr_id": 79,
                 "ai": 1527,
                 "battle_type": "Doubles",
@@ -14456,7 +14456,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Careful",
                 "moves": [
                     "Baton Pass",
                     "Silver Wind",
@@ -14536,10 +14536,10 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 89 Idol Zoe |Victory Road| ": {
-                "level": 89,
+            "Lvl 96 Idol Zoe |Victory Road| ": {
+                "level": 96,
                 "tr_id": 236,
-                "ai": 7,
+                "ai": 29,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -14552,7 +14552,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Sassy",
                 "moves": [
                     "Destiny Bond",
                     "Pain Split",
@@ -14715,6 +14715,36 @@ backup_data = {
                 "sub_index": 4,
                 "ability": "Levitate",
                 "gender": "Female",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 100 Lady Emi ": {
+                "level": 100,
+                "tr_id": 674,
+                "ai": 24,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "RageCandyBar",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Hasty",
+                "moves": [
+                    "Destiny Bond",
+                    "Lunar Dance",
+                    "Spite",
+                    "Confuse Ray"
+                ],
+                "sub_index": 0,
+                "ability": " -",
+                "gender": "Male",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -15275,8 +15305,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 48 Galactic Dia |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 53 Galactic Dia |Clamberclaw Cliffs| ": {
+                "level": 53,
                 "tr_id": 72,
                 "ai": 351,
                 "battle_type": "Singles",
@@ -15291,7 +15321,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Relaxed",
                 "moves": [
                     "Minimize",
                     "Recover",
@@ -15305,8 +15335,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Fog"
             },
-            "Lvl 49 T.G. Squad Himalia ": {
-                "level": 49,
+            "Lvl 52 T.G. Squad Himalia ": {
+                "level": 52,
                 "tr_id": 79,
                 "ai": 1527,
                 "battle_type": "Doubles",
@@ -15321,7 +15351,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Modest",
                 "moves": [
                     "Avalanche",
                     "Waterfall",
@@ -15335,8 +15365,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 89 Bug Catcher Ford |Victory Road| ": {
-                "level": 89,
+            "Lvl 93 Bug Catcher Ford |Victory Road| ": {
+                "level": 93,
                 "tr_id": 235,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -15351,7 +15381,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Lax",
                 "moves": [
                     "Thunderbolt",
                     "Ice Beam",
@@ -15364,8 +15394,8 @@ backup_data = {
                 "spriteId": 33,
                 "orientation": 1
             },
-            "Lvl 61 Galactic Enceladus ": {
-                "level": 61,
+            "Lvl 64 Galactic Enceladus ": {
+                "level": 64,
                 "tr_id": 386,
                 "ai": 7,
                 "battle_type": "Doubles",
@@ -15380,7 +15410,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Modest",
                 "moves": [
                     "Blizzard",
                     "Whirlpool",
@@ -15396,8 +15426,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Hail"
             },
-            "Lvl 54 Galactic Hippocamp |Wayward Cave| ": {
-                "level": 54,
+            "Lvl 55 Galactic Hippocamp |Wayward Cave| ": {
+                "level": 55,
                 "tr_id": 457,
                 "ai": 159,
                 "battle_type": "Doubles",
@@ -15412,7 +15442,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Impish",
                 "moves": [
                     "Gravity",
                     "Hydro Pump",
@@ -15519,8 +15549,8 @@ backup_data = {
                 "partner": 532,
                 "weather": "Sand"
             },
-            "Lvl 71 Veteran Anton |Snowpoint City| ": {
-                "level": 71,
+            "Lvl 72 Veteran Anton |Snowpoint City| ": {
+                "level": 72,
                 "tr_id": 827,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -15535,7 +15565,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Docile",
+                "nature": "Impish",
                 "moves": [
                     "Blizzard",
                     "Thunderbolt",
@@ -15893,7 +15923,7 @@ backup_data = {
             "Lvl 100 Gambler John Keating |Victory Road| ": {
                 "level": 100,
                 "tr_id": 228,
-                "ai": 279,
+                "ai": 1047,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -16741,24 +16771,24 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Silk Scarf",
+                "item": "Focus Sash",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Docile",
                 "moves": [
                     "Double Hit",
                     "Fake Out",
-                    "Mud Bomb",
+                    "Triple Axel",
                     "Fire Punch"
                 ],
                 "sub_index": 3,
@@ -16771,24 +16801,24 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "Silk Scarf",
+                "item": "Focus Sash",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Docile",
                 "moves": [
                     "Double Hit",
                     "Fake Out",
-                    "Mud Bomb",
+                    "Triple Axel",
                     "Fire Punch"
                 ],
                 "sub_index": 3,
@@ -16801,11 +16831,11 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Silk Scarf",
+                "item": "Focus Sash",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -16818,7 +16848,7 @@ backup_data = {
                 "moves": [
                     "Double Hit",
                     "Fake Out",
-                    "Mud Bomb",
+                    "Triple Axel",
                     "Fire Punch"
                 ],
                 "sub_index": 3,
@@ -16828,8 +16858,8 @@ backup_data = {
                 "spriteId": 54,
                 "orientation": 3
             },
-            "Lvl 89 Galactic Bianca |Galactic HQ| ": {
-                "level": 89,
+            "Lvl 91 Galactic Bianca |Galactic HQ| ": {
+                "level": 91,
                 "tr_id": 508,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -16844,7 +16874,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Careful",
                 "moves": [
                     "Secret Power",
                     "Dynamic Punch",
@@ -17072,8 +17102,8 @@ backup_data = {
                 "spriteId": 32,
                 "orientation": 3
             },
-            "Lvl 50 Galactic Thebe |Pokémon Mansion| ": {
-                "level": 50,
+            "Lvl 53 Galactic Thebe |Pokémon Mansion| ": {
+                "level": 53,
                 "tr_id": 81,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -17088,7 +17118,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Sassy",
                 "moves": [
                     "Swallow",
                     "Gastro Acid",
@@ -17347,8 +17377,8 @@ backup_data = {
                 "spriteId": 43,
                 "orientation": 2
             },
-            "Lvl 51 Galactic Thebe |Pokémon Mansion| ": {
-                "level": 51,
+            "Lvl 54 Galactic Thebe |Pokémon Mansion| ": {
+                "level": 54,
                 "tr_id": 81,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -17363,7 +17393,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Adamant",
                 "moves": [
                     "Zap Cannon",
                     "Dynamic Punch",
@@ -17409,8 +17439,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Sun"
             },
-            "Lvl 55 Hiker David |Victory Road| ": {
-                "level": 55,
+            "Lvl 60 Hiker David |Victory Road| ": {
+                "level": 60,
                 "tr_id": 232,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -17425,7 +17455,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Docile",
                 "moves": [
                     "Flash Cannon",
                     "Zap Cannon",
@@ -17623,8 +17653,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Sun"
             },
-            "Lvl 48 Galactic Leda ": {
-                "level": 48,
+            "Lvl 51 Galactic Leda ": {
+                "level": 51,
                 "tr_id": 75,
                 "ai": 1199,
                 "battle_type": "Doubles",
@@ -17639,7 +17669,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Rash",
                 "moves": [
                     "Swords Dance",
                     "Facade",
@@ -17685,8 +17715,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Hail"
             },
-            "Lvl 58 Galactic Iapetus |Eterna Forest| ": {
-                "level": 58,
+            "Lvl 63 Galactic Iapetus |Eterna Forest| ": {
+                "level": 63,
                 "tr_id": 397,
                 "ai": 23,
                 "battle_type": "Doubles",
@@ -17701,7 +17731,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Serious",
                 "moves": [
                     "Explosion",
                     "Aqua Tail",
@@ -17718,8 +17748,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 49 Galactic Metis ": {
-                "level": 49,
+            "Lvl 53 Galactic Metis ": {
+                "level": 53,
                 "tr_id": 489,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -17734,7 +17764,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Hardy",
                 "moves": [
                     "Belly Drum",
                     "Facade",
@@ -17780,8 +17810,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 90 Galactic Valetudo ": {
-                "level": 90,
+            "Lvl 92 Galactic Valetudo ": {
+                "level": 92,
                 "tr_id": 512,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -17796,7 +17826,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Adamant",
                 "moves": [
                     "Secret Power",
                     "Earthquake",
@@ -18116,8 +18146,8 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 2
             },
-            "Lvl 67 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
-                "level": 67,
+            "Lvl 69 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
+                "level": 69,
                 "tr_id": 420,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -18132,7 +18162,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Lonely",
                 "moves": [
                     "Dark Void",
                     "Super Fang",
@@ -18305,8 +18335,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Fog"
             },
-            "Lvl 49 Galactic Luna |Clamberclaw Cliffs| ": {
-                "level": 49,
+            "Lvl 51 Galactic Luna |Clamberclaw Cliffs| ": {
+                "level": 51,
                 "tr_id": 66,
                 "ai": 95,
                 "battle_type": "Singles",
@@ -18321,7 +18351,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Docile",
                 "moves": [
                     "Double Team",
                     "Baton Pass",
@@ -18336,8 +18366,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 90 Roughneck Wyatt |Victory Road| ": {
-                "level": 90,
+            "Lvl 92 Roughneck Wyatt |Victory Road| ": {
+                "level": 92,
                 "tr_id": 234,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -18352,7 +18382,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Naive",
                 "moves": [
                     "Wish",
                     "Protect",
@@ -18366,8 +18396,8 @@ backup_data = {
                 "spriteId": 4,
                 "orientation": 1
             },
-            "Lvl 46 Collector Ripper |Route 214| ": {
-                "level": 46,
+            "Lvl 47 Collector Ripper |Route 214| ": {
+                "level": 47,
                 "tr_id": 272,
                 "ai": 87,
                 "battle_type": "Singles",
@@ -18382,7 +18412,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Naughty",
                 "moves": [
                     "Calm Mind",
                     "Baton Pass",
@@ -18516,8 +18546,8 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 2
             },
-            "Lvl 95 Galactic Umbriel |Coronet Highlands| ": {
-                "level": 95,
+            "Lvl 94 Galactic Umbriel |Coronet Highlands| ": {
+                "level": 94,
                 "tr_id": 530,
                 "ai": 1439,
                 "battle_type": "Singles",
@@ -18532,7 +18562,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Rash",
                 "moves": [
                     "Dark Pulse",
                     "Sleep Talk",
@@ -18641,8 +18671,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Fog"
             },
-            "Lvl 51 Galactic Themisto ": {
-                "level": 51,
+            "Lvl 55 T.G. Squad Themisto ": {
+                "level": 55,
                 "tr_id": 68,
                 "ai": 1479,
                 "battle_type": "Doubles",
@@ -18657,7 +18687,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Naughty",
                 "moves": [
                     "Spore",
                     "Follow Me",
@@ -18666,14 +18696,14 @@ backup_data = {
                 ],
                 "sub_index": 0,
                 "ability": "Dry Skin",
-                "gender": "Male",
+                "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 62 Galactic Pan |Lake Valor| ": {
-                "level": 62,
+            "Lvl 65 Galactic Pan |Lake Valor| ": {
+                "level": 65,
                 "tr_id": 399,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -18688,7 +18718,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Lax",
                 "moves": [
                     "Spore",
                     "X-Scissor",
@@ -19016,8 +19046,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Fog"
             },
-            "Lvl 49 Galactic Valetudo |Clamberclaw Cliffs| ": {
-                "level": 49,
+            "Lvl 52 Galactic Valetudo |Clamberclaw Cliffs| ": {
+                "level": 52,
                 "tr_id": 71,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -19032,7 +19062,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Sassy",
                 "moves": [
                     "Howl",
                     "Thunder Fang",
@@ -19623,8 +19653,8 @@ backup_data = {
                 "spriteId": 14,
                 "orientation": 1
             },
-            "Lvl 50 Galactic Thebe |Pokémon Mansion| ": {
-                "level": 50,
+            "Lvl 53 Galactic Thebe |Pokémon Mansion| ": {
+                "level": 53,
                 "tr_id": 81,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -19639,7 +19669,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Sassy",
                 "moves": [
                     "Earthquake",
                     "Rock Slide",
@@ -19685,8 +19715,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Sun"
             },
-            "Lvl 91 Bug Catcher Ford |Victory Road| ": {
-                "level": 91,
+            "Lvl 92 Bug Catcher Ford |Victory Road| ": {
+                "level": 92,
                 "tr_id": 235,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -19701,7 +19731,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Careful",
                 "moves": [
                     "Earthquake",
                     "Night Slash",
@@ -19991,8 +20021,8 @@ backup_data = {
                 "partner": 459,
                 "tagPartner": 612
             },
-            "Lvl 49 Galactic Amalthia ": {
-                "level": 49,
+            "Lvl 52 Galactic Amalthia ": {
+                "level": 52,
                 "tr_id": 490,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -20007,7 +20037,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Gentle",
                 "moves": [
                     "Dragon Dance",
                     "Aerial Ace",
@@ -20116,8 +20146,8 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 1
             },
-            "Lvl 51 Galactic Ganymede |Clamberclaw Cliffs| ": {
-                "level": 51,
+            "Lvl 53 Galactic Ganymede |Clamberclaw Cliffs| ": {
+                "level": 53,
                 "tr_id": 78,
                 "ai": 23,
                 "battle_type": "Singles",
@@ -20132,7 +20162,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Brave",
                 "moves": [
                     "Curse",
                     "Substitute",
@@ -20209,8 +20239,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 89 Hiker J.J Ahern ": {
-                "level": 89,
+            "Lvl 91 Hiker J.J Ahern ": {
+                "level": 91,
                 "tr_id": 237,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -20225,7 +20255,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Gentle",
                 "moves": [
                     "Night Shade",
                     "Psychic",
@@ -20329,8 +20359,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Galactic Phoebe |Pastoria City| ": {
-                "level": 61,
+            "Lvl 64 Galactic Phoebe |Pastoria City| ": {
+                "level": 64,
                 "tr_id": 400,
                 "ai": 1047,
                 "battle_type": "Doubles",
@@ -20345,7 +20375,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Adamant",
                 "moves": [
                     "Thunder",
                     "Shadow Ball",
@@ -20362,8 +20392,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 63 Galactic Mercury3 ": {
-                "level": 63,
+            "Lvl 65 Galactic Mercury3 ": {
+                "level": 65,
                 "tr_id": 419,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -20378,7 +20408,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Modest",
                 "moves": [
                     "Mystical Fire",
                     "Thunderbolt",
@@ -20395,8 +20425,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sun"
             },
-            "Lvl 50 Galactic Io |Wayward Cave| ": {
-                "level": 50,
+            "Lvl 53 Galactic Io |Wayward Cave| ": {
+                "level": 53,
                 "tr_id": 442,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -20411,7 +20441,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Rash",
                 "moves": [
                     "Perish Song",
                     "Substitute",
@@ -20426,8 +20456,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Fog"
             },
-            "Lvl 49 Galactic Metis ": {
-                "level": 49,
+            "Lvl 54 Galactic Metis ": {
+                "level": 54,
                 "tr_id": 489,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -20442,7 +20472,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Gentle",
                 "moves": [
                     "Substitute",
                     "Curse",
@@ -20457,8 +20487,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 86 Galactic Mercury4 ": {
-                "level": 86,
+            "Lvl 92 Galactic Mercury4 ": {
+                "level": 92,
                 "tr_id": 521,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -20676,7 +20706,7 @@ backup_data = {
             "Lvl 100 Elite Four Lucian ": {
                 "level": 100,
                 "tr_id": 869,
-                "ai": 335,
+                "ai": 351,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -20735,8 +20765,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Fog"
             },
-            "Lvl 48 Galactic Luna |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 50 Galactic Luna |Clamberclaw Cliffs| ": {
+                "level": 50,
                 "tr_id": 66,
                 "ai": 95,
                 "battle_type": "Singles",
@@ -20751,7 +20781,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Adamant",
                 "moves": [
                     "Calm Mind",
                     "Ancient Power",
@@ -20765,8 +20795,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 64 Galactic Luna ": {
-                "level": 64,
+            "Lvl 65 Galactic Luna ": {
+                "level": 65,
                 "tr_id": 286,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -20826,8 +20856,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Galactic Larissa ": {
-                "level": 54,
+            "Lvl 55 Galactic Larissa ": {
+                "level": 55,
                 "tr_id": 388,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -20842,7 +20872,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Gentle",
                 "moves": [
                     "Ancient Power",
                     "Ice Beam",
@@ -20887,8 +20917,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 T.G. Squad Phobos2 ": {
-                "level": 56,
+            "Lvl 58 T.G. Squad Phobos2 ": {
+                "level": 58,
                 "tr_id": 427,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -20903,7 +20933,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Docile",
                 "moves": [
                     "Cosmic Power",
                     "Lunar Dance",
@@ -21104,8 +21134,8 @@ backup_data = {
                 "spriteId": 7,
                 "orientation": 1
             },
-            "Lvl 51 Galactic Europa ": {
-                "level": 51,
+            "Lvl 53 Galactic Europa ": {
+                "level": 53,
                 "tr_id": 76,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -21120,7 +21150,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Modest",
                 "moves": [
                     "Toxic Spikes",
                     "Ice Beam",
@@ -21167,8 +21197,8 @@ backup_data = {
                 "partner": 337,
                 "weather": "Sun"
             },
-            "Lvl 91 Galactic Cordelia |Coronet Highlands| ": {
-                "level": 91,
+            "Lvl 93 Galactic Cordelia |Coronet Highlands| ": {
+                "level": 93,
                 "tr_id": 514,
                 "ai": 31,
                 "battle_type": "Singles",
@@ -21183,7 +21213,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Bashful",
                 "moves": [
                     "Blizzard",
                     "Earth Power",
@@ -21382,8 +21412,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Fog"
             },
-            "Lvl 47 Galactic Luna |Clamberclaw Cliffs| ": {
-                "level": 47,
+            "Lvl 50 Galactic Luna |Clamberclaw Cliffs| ": {
+                "level": 50,
                 "tr_id": 66,
                 "ai": 95,
                 "battle_type": "Singles",
@@ -21398,7 +21428,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Hasty",
                 "moves": [
                     "Belly Drum",
                     "Baton Pass",
@@ -21413,8 +21443,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 48 Galactic Dia |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 53 Galactic Dia |Clamberclaw Cliffs| ": {
+                "level": 53,
                 "tr_id": 72,
                 "ai": 351,
                 "battle_type": "Singles",
@@ -21429,7 +21459,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Lonely",
                 "moves": [
                     "Calm Mind",
                     "Minimize",
@@ -21474,8 +21504,8 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 1
             },
-            "Lvl 94 Fisherman Greg ": {
-                "level": 94,
+            "Lvl 95 Fisherman Greg ": {
+                "level": 95,
                 "tr_id": 168,
                 "ai": 199,
                 "battle_type": "Doubles",
@@ -21490,7 +21520,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Gentle",
                 "moves": [
                     "Belly Drum",
                     "Baton Pass",
@@ -21536,8 +21566,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Sun"
             },
-            "Lvl 62 Galactic Luna ": {
-                "level": 62,
+            "Lvl 63 Galactic Luna ": {
+                "level": 63,
                 "tr_id": 286,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -21552,7 +21582,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Docile",
                 "moves": [
                     "Follow Me",
                     "Double-Edge",
@@ -21569,8 +21599,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Hail"
             },
-            "Lvl 60 Galactic Mimas ": {
-                "level": 60,
+            "Lvl 64 Galactic Mimas ": {
+                "level": 64,
                 "tr_id": 373,
                 "ai": 287,
                 "battle_type": "Doubles",
@@ -21585,7 +21615,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Mild",
                 "moves": [
                     "Hyper Voice",
                     "Blizzard",
@@ -21665,8 +21695,8 @@ backup_data = {
                 "partner": 435,
                 "tagPartner": 608
             },
-            "Lvl 54 Galactic Galatea |Iron Island| ": {
-                "level": 54,
+            "Lvl 55 Galactic Galatea |Iron Island| ": {
+                "level": 55,
                 "tr_id": 505,
                 "ai": 279,
                 "battle_type": "Doubles",
@@ -21681,7 +21711,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Hardy",
                 "moves": [
                     "Follow Me",
                     "Soft-Boiled",
@@ -21729,8 +21759,8 @@ backup_data = {
                 "partner": 511,
                 "weather": "Hail"
             },
-            "Lvl 91 Galactic Prospero ": {
-                "level": 91,
+            "Lvl 92 Galactic Prospero ": {
+                "level": 92,
                 "tr_id": 526,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -21745,7 +21775,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Lax",
                 "moves": [
                     "Stealth Rock",
                     "Secret Power",
@@ -22071,8 +22101,8 @@ backup_data = {
                 "spriteId": 10,
                 "orientation": 1
             },
-            "Lvl 94 Fisherman Greg ": {
-                "level": 94,
+            "Lvl 95 Fisherman Greg ": {
+                "level": 95,
                 "tr_id": 168,
                 "ai": 199,
                 "battle_type": "Doubles",
@@ -22087,7 +22117,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Gentle",
                 "moves": [
                     "Aqua Tail",
                     "Bounce",
@@ -22133,8 +22163,8 @@ backup_data = {
                 "orientation": null,
                 "partner": 349
             },
-            "Lvl 62 Galactic Pandora |Eterna Forest| ": {
-                "level": 62,
+            "Lvl 66 Galactic Pandora |Eterna Forest| ": {
+                "level": 66,
                 "tr_id": 394,
                 "ai": 1079,
                 "battle_type": "Doubles",
@@ -22149,7 +22179,7 @@ backup_data = {
                     "sd": 29,
                     "sp": 29
                 },
-                "nature": "Hasty",
+                "nature": "Relaxed",
                 "moves": [
                     "Hurricane",
                     "Thunder",
@@ -22259,8 +22289,8 @@ backup_data = {
                 "partner": 528,
                 "tagPartner": 619
             },
-            "Lvl 63 Galactic Titan ": {
-                "level": 63,
+            "Lvl 65 Galactic Titan ": {
+                "level": 65,
                 "tr_id": 433,
                 "ai": 1191,
                 "battle_type": "Doubles",
@@ -22275,7 +22305,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Hasty",
                 "moves": [
                     "Dragon Dance",
                     "Ice Fang",
@@ -22292,8 +22322,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 53 Commander Jupiter3 ": {
-                "level": 53,
+            "Lvl 55 Commander Jupiter3 ": {
+                "level": 55,
                 "tr_id": 441,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -22308,7 +22338,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Impish",
+                "nature": "Careful",
                 "moves": [
                     "Aerial Ace",
                     "Aqua Tail",
@@ -22352,6 +22382,39 @@ backup_data = {
                 "location": "Galactic HQ",
                 "spriteId": 27,
                 "orientation": 0
+            },
+            "Lvl 84 Galactic Triton2 ": {
+                "level": 84,
+                "tr_id": 606,
+                "ai": 1159,
+                "battle_type": "Doubles",
+                "reward_item": "",
+                "form": "",
+                "item": "Berserk Gene",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Careful",
+                "moves": [
+                    "Aqua Tail",
+                    "Rage",
+                    "Bounce",
+                    "Avalanche"
+                ],
+                "sub_index": 5,
+                "ability": "Intimidate",
+                "gender": "Male",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null,
+                "partner": 581,
+                "tagPartner": 863,
+                "weather": "Rain"
             },
             "Lvl 71 T.G. Squad Hydra2 ": {
                 "level": 71,
@@ -22565,8 +22628,8 @@ backup_data = {
                 "spriteId": 19,
                 "orientation": 1
             },
-            "Lvl 52 Galactic Ganymede |Clamberclaw Cliffs| ": {
-                "level": 52,
+            "Lvl 55 Galactic Ganymede |Clamberclaw Cliffs| ": {
+                "level": 55,
                 "tr_id": 78,
                 "ai": 23,
                 "battle_type": "Singles",
@@ -22581,7 +22644,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Quiet",
                 "moves": [
                     "Stealth Rock",
                     "Explosion",
@@ -22656,8 +22719,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Galactic Titan ": {
-                "level": 63,
+            "Lvl 65 Galactic Titan ": {
+                "level": 65,
                 "tr_id": 433,
                 "ai": 1191,
                 "battle_type": "Doubles",
@@ -22672,7 +22735,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Impish",
+                "nature": "Bold",
                 "moves": [
                     "Explosion",
                     "Earthquake",
@@ -22739,7 +22802,7 @@ backup_data = {
                 "nature": "Careful",
                 "moves": [
                     "Power Trick",
-                    "Rollout",
+                    "Accelerock",
                     "Sand Tomb",
                     "Fire Fang"
                 ],
@@ -23084,8 +23147,8 @@ backup_data = {
                 "spriteId": 19,
                 "orientation": 1
             },
-            "Lvl 48 Galactic Themisto ": {
-                "level": 48,
+            "Lvl 53 T.G. Squad Themisto ": {
+                "level": 53,
                 "tr_id": 68,
                 "ai": 1479,
                 "battle_type": "Doubles",
@@ -23100,7 +23163,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Relaxed",
                 "moves": [
                     "Acupressure",
                     "Toxic Spikes",
@@ -23109,7 +23172,7 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "ability": "Rain Dish",
-                "gender": "Male",
+                "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null,
@@ -23237,8 +23300,8 @@ backup_data = {
                 "spriteId": 44,
                 "orientation": 2
             },
-            "Lvl 70 Skier Savannah |Snowpoint City| ": {
-                "level": 70,
+            "Lvl 71 Skier Savannah |Snowpoint City| ": {
+                "level": 71,
                 "tr_id": 270,
                 "ai": 47,
                 "battle_type": "Singles",
@@ -23253,7 +23316,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Adamant",
                 "moves": [
                     "Blizzard",
                     "Sludge Bomb",
@@ -23301,8 +23364,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Rain"
             },
-            "Lvl 92 Galactic Europa |Coronet Highlands| ": {
-                "level": 92,
+            "Lvl 93 Galactic Europa |Coronet Highlands| ": {
+                "level": 93,
                 "tr_id": 519,
                 "ai": 287,
                 "battle_type": "Singles",
@@ -23317,7 +23380,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Brave",
                 "moves": [
                     "Blizzard",
                     "Whirlpool",
@@ -23701,8 +23764,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 88 Clown Julia |Victory Road| ": {
-                "level": 88,
+            "Lvl 92 Clown Julia |Victory Road| ": {
+                "level": 92,
                 "tr_id": 229,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -23717,7 +23780,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Quiet",
                 "moves": [
                     "Sludge Bomb",
                     "Close Combat",
@@ -23762,8 +23825,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Galactic Pan |Lake Valor| ": {
-                "level": 61,
+            "Lvl 64 Galactic Pan |Lake Valor| ": {
+                "level": 64,
                 "tr_id": 399,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -23778,7 +23841,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Bashful",
                 "moves": [
                     "Fake Out",
                     "Gunk Shot",
@@ -24190,7 +24253,7 @@ backup_data = {
                     "Sing",
                     "Swords Dance",
                     "X-Scissor",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 4,
                 "ability": "Hyper Cutter",
@@ -24744,10 +24807,10 @@ backup_data = {
                 "spriteId": 0,
                 "orientation": 2
             },
-            "Lvl 89 Idol Zoe |Victory Road| ": {
-                "level": 89,
+            "Lvl 91 Idol Zoe |Victory Road| ": {
+                "level": 91,
                 "tr_id": 236,
-                "ai": 7,
+                "ai": 29,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -24774,8 +24837,8 @@ backup_data = {
                 "spriteId": 19,
                 "orientation": 2
             },
-            "Lvl 71 Skier Anas |Snowpoint City| ": {
-                "level": 71,
+            "Lvl 72 Skier Anas |Snowpoint City| ": {
+                "level": 72,
                 "tr_id": 269,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -24790,7 +24853,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Bashful",
                 "moves": [
                     "Earthquake",
                     "Ice Ball",
@@ -24804,8 +24867,8 @@ backup_data = {
                 "spriteId": 31,
                 "orientation": 2
             },
-            "Lvl 64 Galactic Pluto ": {
-                "level": 64,
+            "Lvl 65 Galactic Pluto ": {
+                "level": 65,
                 "tr_id": 282,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -24981,7 +25044,7 @@ backup_data = {
                 },
                 "nature": "Sassy",
                 "moves": [
-                    "Rollout",
+                    "Accelerock",
                     "U-turn",
                     "Assurance",
                     "Karate Chop"
@@ -25638,10 +25701,10 @@ backup_data = {
                 "spriteId": 11,
                 "orientation": 1
             },
-            "Lvl 91 Idol Zoe |Victory Road| ": {
-                "level": 91,
+            "Lvl 90 Idol Zoe |Victory Road| ": {
+                "level": 90,
                 "tr_id": 236,
-                "ai": 7,
+                "ai": 29,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -25654,7 +25717,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Brave",
                 "moves": [
                     "Roost",
                     "Ominous Wind",
@@ -26009,8 +26072,8 @@ backup_data = {
                 "spriteId": 13,
                 "orientation": 1
             },
-            "Lvl 85 Galactic Titania |Stark Mountain| ": {
-                "level": 85,
+            "Lvl 86 Galactic Titania |Stark Mountain| ": {
+                "level": 86,
                 "tr_id": 583,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -26025,7 +26088,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Lax",
                 "moves": [
                     "Gastro Acid",
                     "Pursuit",
@@ -26559,8 +26622,8 @@ backup_data = {
                 "spriteId": 42,
                 "orientation": 2
             },
-            "Lvl 89 Cameraman Matt |Victory Road| ": {
-                "level": 89,
+            "Lvl 92 Cameraman Matt |Victory Road| ": {
+                "level": 92,
                 "tr_id": 233,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -26575,7 +26638,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Lax",
                 "moves": [
                     "Leech Seed",
                     "Cotton Spore",
@@ -26589,8 +26652,8 @@ backup_data = {
                 "spriteId": 29,
                 "orientation": 3
             },
-            "Lvl 67 Galactic Hyperion |Iron Island| ": {
-                "level": 67,
+            "Lvl 72 Galactic Hyperion |Iron Island| ": {
+                "level": 72,
                 "tr_id": 288,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -26605,7 +26668,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Careful",
                 "moves": [
                     "Sleep Powder",
                     "Follow Me",
@@ -26652,8 +26715,8 @@ backup_data = {
                 "spriteId": 13,
                 "orientation": 3
             },
-            "Lvl 87 Galactic Titania |Stark Mountain| ": {
-                "level": 87,
+            "Lvl 88 Galactic Titania |Stark Mountain| ": {
+                "level": 88,
                 "tr_id": 583,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -26668,7 +26731,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Hasty",
                 "moves": [
                     "Leech Seed",
                     "Encore",
@@ -26715,8 +26778,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Lady Celeste ": {
-                "level": 56,
+            "Lvl 60 Lady Celeste ": {
+                "level": 60,
                 "tr_id": 893,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -26724,18 +26787,18 @@ backup_data = {
                 "form": "",
                 "item": "Leftovers",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Sassy",
+                "nature": "Mild",
                 "moves": [
                     "Memento",
-                    "Substitute",
                     "Sleep Powder",
+                    "Leech Seed",
                     "Protect"
                 ],
                 "sub_index": 0,
@@ -27210,8 +27273,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 58 Galactic Epimetheus ": {
-                "level": 58,
+            "Lvl 63 Galactic Epimetheus ": {
+                "level": 63,
                 "tr_id": 500,
                 "ai": 1335,
                 "battle_type": "Doubles",
@@ -27226,7 +27289,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Naughty",
                 "moves": [
                     "Sleep Powder",
                     "Solar-Beam",
@@ -27243,8 +27306,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Sun"
             },
-            "Lvl 92 Galactic Cupid ": {
-                "level": 92,
+            "Lvl 93 Galactic Cupid ": {
+                "level": 93,
                 "tr_id": 513,
                 "ai": 1423,
                 "battle_type": "Doubles",
@@ -27259,7 +27322,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Serious",
                 "moves": [
                     "Nature Power",
                     "Petal Dance",
@@ -27337,8 +27400,8 @@ backup_data = {
                 "spriteId": 42,
                 "orientation": 2
             },
-            "Lvl 60 Galactic Prometheus ": {
-                "level": 60,
+            "Lvl 64 Galactic Prometheus ": {
+                "level": 64,
                 "tr_id": 447,
                 "ai": 1047,
                 "battle_type": "Doubles",
@@ -27353,7 +27416,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Lax",
                 "moves": [
                     "Water Ball",
                     "Sleep Powder",
@@ -27401,8 +27464,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 90 Galactic Bianca |Galactic HQ| ": {
-                "level": 90,
+            "Lvl 92 Galactic Bianca |Galactic HQ| ": {
+                "level": 92,
                 "tr_id": 508,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -27417,7 +27480,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Quirky",
                 "moves": [
                     "Nature Power",
                     "Power Whip",
@@ -27586,8 +27649,8 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 3
             },
-            "Lvl 49 Galactic Amalthia ": {
-                "level": 49,
+            "Lvl 52 Galactic Amalthia ": {
+                "level": 52,
                 "tr_id": 490,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -27602,7 +27665,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Sassy",
                 "moves": [
                     "Stealth Rock",
                     "Explosion",
@@ -28308,7 +28371,7 @@ backup_data = {
                 "moves": [
                     "Giga Impact",
                     "Aqua Tail",
-                    "Rollout",
+                    "Accelerock",
                     "Iron Tail"
                 ],
                 "sub_index": 3,
@@ -28592,8 +28655,8 @@ backup_data = {
                 "spriteId": 11,
                 "orientation": 1
             },
-            "Lvl 51 Galactic Callisto ": {
-                "level": 51,
+            "Lvl 54 Galactic Callisto ": {
+                "level": 54,
                 "tr_id": 69,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -28608,7 +28671,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Hardy",
                 "moves": [
                     "Curse",
                     "Earthquake",
@@ -28809,8 +28872,8 @@ backup_data = {
                 "spriteId": 11,
                 "orientation": 1
             },
-            "Lvl 50 Galactic Europa ": {
-                "level": 50,
+            "Lvl 52 Galactic Europa ": {
+                "level": 52,
                 "tr_id": 76,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -28825,7 +28888,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Timid",
                 "moves": [
                     "Calm Mind",
                     "Water Pulse",
@@ -28902,8 +28965,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 89 Bug Catcher Ford |Victory Road| ": {
-                "level": 89,
+            "Lvl 95 Bug Catcher Ford |Victory Road| ": {
+                "level": 95,
                 "tr_id": 235,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -28918,7 +28981,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Rash",
                 "moves": [
                     "Earthquake",
                     "Surf",
@@ -28932,8 +28995,8 @@ backup_data = {
                 "spriteId": 33,
                 "orientation": 1
             },
-            "Lvl 71 Skier Anas |Snowpoint City| ": {
-                "level": 71,
+            "Lvl 72 Skier Anas |Snowpoint City| ": {
+                "level": 72,
                 "tr_id": 269,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -28948,7 +29011,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Hasty",
+                "nature": "Modest",
                 "moves": [
                     "Blizzard",
                     "Scald",
@@ -28993,8 +29056,8 @@ backup_data = {
                 "orientation": null,
                 "partner": 349
             },
-            "Lvl 54 Galactic Proteus |Lake Valor| ": {
-                "level": 54,
+            "Lvl 55 Galactic Proteus |Lake Valor| ": {
+                "level": 55,
                 "tr_id": 372,
                 "ai": 1679,
                 "battle_type": "Doubles",
@@ -29116,8 +29179,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Rain"
             },
-            "Lvl 89 Galactic Angrboda |Galactic HQ| ": {
-                "level": 89,
+            "Lvl 90 Galactic Angrboda |Galactic HQ| ": {
+                "level": 90,
                 "tr_id": 650,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -29132,7 +29195,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Quirky",
                 "moves": [
                     "Calm Mind",
                     "Slack Off",
@@ -29580,8 +29643,8 @@ backup_data = {
                 "spriteId": 40,
                 "orientation": 3
             },
-            "Lvl 50 Galactic Pluto |Clamberclaw Cliffs| ": {
-                "level": 50,
+            "Lvl 52 Galactic Pluto |Clamberclaw Cliffs| ": {
+                "level": 52,
                 "tr_id": 74,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -29596,7 +29659,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Bashful",
                 "moves": [
                     "Bonemerang",
                     "Bone Rush",
@@ -29611,8 +29674,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 51 T.G. Squad Himalia ": {
-                "level": 51,
+            "Lvl 54 T.G. Squad Himalia ": {
+                "level": 54,
                 "tr_id": 79,
                 "ai": 1527,
                 "battle_type": "Doubles",
@@ -29627,7 +29690,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Brave",
                 "moves": [
                     "Swords Dance",
                     "Bonemerang",
@@ -29765,8 +29828,8 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 2
             },
-            "Lvl 65 Galactic Rhea |Lake Verity| ": {
-                "level": 65,
+            "Lvl 67 Galactic Rhea |Lake Verity| ": {
+                "level": 67,
                 "tr_id": 418,
                 "ai": 1423,
                 "battle_type": "Doubles",
@@ -29781,7 +29844,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Naive",
                 "moves": [
                     "Rock Slide",
                     "Bone Rush",
@@ -29983,8 +30046,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Galactic Sao |Route 210| ": {
-                "level": 53,
+            "Lvl 54 Galactic Sao |Route 210| ": {
+                "level": 54,
                 "tr_id": 305,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -30016,8 +30079,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Rain"
             },
-            "Lvl 90 Galactic Despina |Coronet Highlands| ": {
-                "level": 90,
+            "Lvl 93 Galactic Despina |Coronet Highlands| ": {
+                "level": 93,
                 "tr_id": 507,
                 "ai": 527,
                 "battle_type": "Doubles",
@@ -30032,7 +30095,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Gentle",
                 "moves": [
                     "Solar Beam",
                     "Hypnosis",
@@ -30057,14 +30120,14 @@ backup_data = {
                 "form": "",
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Calm",
                 "moves": [
                     "Horn Drill",
                     "Double Team",
@@ -30628,7 +30691,7 @@ backup_data = {
             "Lvl 100 Gambler John Keating |Victory Road| ": {
                 "level": 100,
                 "tr_id": 228,
-                "ai": 279,
+                "ai": 1047,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -30746,8 +30809,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Galactic Galatea |Iron Island| ": {
-                "level": 54,
+            "Lvl 55 Galactic Galatea |Iron Island| ": {
+                "level": 55,
                 "tr_id": 505,
                 "ai": 279,
                 "battle_type": "Doubles",
@@ -30762,7 +30825,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Bold",
                 "moves": [
                     "Milk Drink",
                     "Curse",
@@ -31023,8 +31086,8 @@ backup_data = {
                 "spriteId": 14,
                 "orientation": 1
             },
-            "Lvl 48 Galactic Dia |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 53 Galactic Dia |Clamberclaw Cliffs| ": {
+                "level": 53,
                 "tr_id": 72,
                 "ai": 351,
                 "battle_type": "Singles",
@@ -31039,7 +31102,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Quirky",
                 "moves": [
                     "Magnet Bomb",
                     "Shock Wave",
@@ -31200,8 +31263,8 @@ backup_data = {
                 "orientation": 1,
                 "partner": 523
             },
-            "Lvl 93 Galactic Callisto |Coronet Highlands| ": {
-                "level": 93,
+            "Lvl 95 Galactic Callisto |Coronet Highlands| ": {
+                "level": 95,
                 "tr_id": 531,
                 "ai": 1679,
                 "battle_type": "Doubles",
@@ -31216,7 +31279,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Relaxed",
                 "moves": [
                     "Zap Cannon",
                     "Mirror Shot",
@@ -31238,7 +31301,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "Shuca Berry",
+                "item": "Chople Berry",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -31528,8 +31591,8 @@ backup_data = {
                 "spriteId": 14,
                 "orientation": 1
             },
-            "Lvl 48 Galactic Leda ": {
-                "level": 48,
+            "Lvl 52 Galactic Leda ": {
+                "level": 52,
                 "tr_id": 75,
                 "ai": 1199,
                 "battle_type": "Doubles",
@@ -31544,7 +31607,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Modest",
                 "moves": [
                     "Acupressure",
                     "Aerial Ace",
@@ -32494,7 +32557,7 @@ backup_data = {
                     "Stealth Rock",
                     "Self-Destruct",
                     "Brick Break",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 0,
                 "ability": "Rock Head",
@@ -33595,8 +33658,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Fog"
             },
-            "Lvl 55 Galactic Proteus |Lake Valor| ": {
-                "level": 55,
+            "Lvl 56 Galactic Proteus |Lake Valor| ": {
+                "level": 56,
                 "tr_id": 372,
                 "ai": 1679,
                 "battle_type": "Doubles",
@@ -34465,7 +34528,7 @@ backup_data = {
                 "moves": [
                     "Fire Punch",
                     "Self-Destruct",
-                    "Rollout",
+                    "Accelerock",
                     "Wood Hammer"
                 ],
                 "sub_index": 3,
@@ -34630,8 +34693,8 @@ backup_data = {
                 "spriteId": 7,
                 "orientation": 1
             },
-            "Lvl 52 Galactic Europa ": {
-                "level": 52,
+            "Lvl 54 Galactic Europa ": {
+                "level": 54,
                 "tr_id": 76,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -34646,7 +34709,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Impish",
                 "moves": [
                     "Nasty Plot",
                     "Substitute",
@@ -34785,8 +34848,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Sun"
             },
-            "Lvl 91 Dragon Tamer Clinton |Canalave City| ": {
-                "level": 91,
+            "Lvl 92 Dragon Tamer Clinton |Canalave City| ": {
+                "level": 92,
                 "tr_id": 231,
                 "ai": 63,
                 "battle_type": "Singles",
@@ -34801,7 +34864,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Mild",
                 "moves": [
                     "Lovely Kiss",
                     "Swallow",
@@ -34815,8 +34878,8 @@ backup_data = {
                 "spriteId": 19,
                 "orientation": 1
             },
-            "Lvl 69 Skier Anas |Snowpoint City| ": {
-                "level": 69,
+            "Lvl 70 Skier Anas |Snowpoint City| ": {
+                "level": 70,
                 "tr_id": 269,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -34831,7 +34894,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Hasty",
                 "moves": [
                     "Lovely Kiss",
                     "HP Fire",
@@ -34845,8 +34908,8 @@ backup_data = {
                 "spriteId": 31,
                 "orientation": 2
             },
-            "Lvl 95 Galactic Umbriel |Coronet Highlands| ": {
-                "level": 95,
+            "Lvl 92 Galactic Umbriel |Coronet Highlands| ": {
+                "level": 92,
                 "tr_id": 530,
                 "ai": 1439,
                 "battle_type": "Singles",
@@ -34861,7 +34924,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Calm",
                 "moves": [
                     "Substitute",
                     "Lovely Kiss",
@@ -35002,8 +35065,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 89 Galactic Angrboda |Galactic HQ| ": {
-                "level": 89,
+            "Lvl 91 Galactic Angrboda |Galactic HQ| ": {
+                "level": 91,
                 "tr_id": 650,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -35018,7 +35081,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Mild",
                 "moves": [
                     "Teleport",
                     "Whirlwind",
@@ -35315,11 +35378,11 @@ backup_data = {
             "Lvl 100 Gambler John Keating |Victory Road| ": {
                 "level": 100,
                 "tr_id": 228,
-                "ai": 279,
+                "ai": 1047,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Flame Plate",
+                "item": "Focus Band",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -35330,7 +35393,7 @@ backup_data = {
                 },
                 "nature": "Jolly",
                 "moves": [
-                    "Brave Bird",
+                    "Sky Attack",
                     "Double Team",
                     "Tailwind",
                     "Blaze Kick"
@@ -35522,8 +35585,98 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 89 Galactic Rosalind ": {
-                "level": 89,
+            "Lvl 100 Pkmn Trainer Barry13 ": {
+                "level": 100,
+                "tr_id": 479,
+                "ai": 23,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "Sky Plate",
+                "ivs": {
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
+                },
+                "nature": "Impish",
+                "moves": [
+                    "Sky Attack",
+                    "Giga Impact",
+                    "U-turn",
+                    "Close Combat"
+                ],
+                "sub_index": 1,
+                "ability": "Reckless",
+                "gender": "Male",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 100 Pkmn Trainer Barry14 ": {
+                "level": 100,
+                "tr_id": 480,
+                "ai": 23,
+                "battle_type": "Doubles",
+                "reward_item": "",
+                "form": "",
+                "item": "Sky Plate",
+                "ivs": {
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
+                },
+                "nature": "Docile",
+                "moves": [
+                    "Sky Attack",
+                    "Giga Impact",
+                    "U-turn",
+                    "Close Combat"
+                ],
+                "sub_index": 1,
+                "ability": "Reckless",
+                "gender": "Male",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
+                "level": 100,
+                "tr_id": 481,
+                "ai": 23,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "Sky Plate",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Naughty",
+                "moves": [
+                    "Sky Attack",
+                    "Giga Impact",
+                    "U-turn",
+                    "Close Combat"
+                ],
+                "sub_index": 1,
+                "ability": "Reckless",
+                "gender": "Male",
+                "location": "Route 223",
+                "spriteId": 54,
+                "orientation": 3
+            },
+            "Lvl 91 Galactic Rosalind ": {
+                "level": 91,
                 "tr_id": 509,
                 "ai": 47,
                 "battle_type": "Singles",
@@ -35538,7 +35691,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Bashful",
                 "moves": [
                     "Secret Power",
                     "Brave Bird",
@@ -36155,8 +36308,8 @@ backup_data = {
                 "spriteId": 8,
                 "orientation": 2
             },
-            "Lvl 48 Galactic Themisto ": {
-                "level": 48,
+            "Lvl 53 T.G. Squad Themisto ": {
+                "level": 53,
                 "tr_id": 68,
                 "ai": 1479,
                 "battle_type": "Doubles",
@@ -36171,7 +36324,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Docile",
                 "moves": [
                     "Close Combat",
                     "Rock Slide",
@@ -36279,25 +36432,25 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Expert Belt",
+                "item": "White Herb",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Quiet",
+                "nature": "Adamant",
                 "moves": [
+                    "Agility",
                     "Blaze Kick",
-                    "Bulldoze",
-                    "Stone Edge",
-                    "Low Kick"
+                    "Thunder Punch",
+                    "High Jump Kick"
                 ],
                 "sub_index": 4,
                 "ability": "Blaze",
@@ -36515,7 +36668,7 @@ backup_data = {
                 "moves": [
                     "Seed Bomb",
                     "Sucker Punch",
-                    "Rollout",
+                    "Accelerock",
                     "Low Kick"
                 ],
                 "sub_index": 4,
@@ -36557,8 +36710,8 @@ backup_data = {
                 "partner": 333,
                 "weather": "Sun"
             },
-            "Lvl 59 Galactic Prometheus ": {
-                "level": 59,
+            "Lvl 63 Galactic Prometheus ": {
+                "level": 63,
                 "tr_id": 447,
                 "ai": 1047,
                 "battle_type": "Doubles",
@@ -36573,7 +36726,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Modest",
                 "moves": [
                     "Fake Out",
                     "Dark Pulse",
@@ -36661,19 +36814,19 @@ backup_data = {
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Quirky",
+                "nature": "Brave",
                 "moves": [
                     "Sunny Day",
                     "Leaf Blade",
                     "Night Slash",
-                    "Fury Cutter"
+                    "X-Scissor"
                 ],
                 "sub_index": 2,
                 "ability": "Chlorophyll",
@@ -36715,8 +36868,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Sun"
             },
-            "Lvl 60 Galactic Prometheus ": {
-                "level": 60,
+            "Lvl 64 Galactic Prometheus ": {
+                "level": 64,
                 "tr_id": 447,
                 "ai": 1047,
                 "battle_type": "Doubles",
@@ -36731,7 +36884,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Adamant",
                 "moves": [
                     "Heat Wave",
                     "Ancient Power",
@@ -36799,7 +36952,7 @@ backup_data = {
                 "moves": [
                     "Lava Plume",
                     "Ancient Power",
-                    "Rollout",
+                    "Accelerock",
                     "Stealth Rock"
                 ],
                 "sub_index": 0,
@@ -36966,6 +37119,36 @@ backup_data = {
                 "location": "Galactic HQ",
                 "spriteId": 104,
                 "orientation": 3
+            },
+            "Lvl 67 Maid Yoki ": {
+                "level": 67,
+                "tr_id": 823,
+                "ai": 1,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Gentle",
+                "moves": [
+                    "Wake-Up Slap",
+                    "-",
+                    "-",
+                    "-"
+                ],
+                "sub_index": 0,
+                "ability": "Aftermath",
+                "gender": "Female",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
             }
         },
         "-----": {
@@ -37833,8 +38016,8 @@ backup_data = {
             }
         },
         "Nidoking": {
-            "Lvl 48 Galactic Luna |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 50 Galactic Luna |Clamberclaw Cliffs| ": {
+                "level": 50,
                 "tr_id": 66,
                 "ai": 95,
                 "battle_type": "Singles",
@@ -37849,7 +38032,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Bold",
                 "moves": [
                     "Toxic Spikes",
                     "Earth Power",
@@ -37864,8 +38047,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 49 Galactic Valetudo |Clamberclaw Cliffs| ": {
-                "level": 49,
+            "Lvl 52 Galactic Valetudo |Clamberclaw Cliffs| ": {
+                "level": 52,
                 "tr_id": 71,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -37880,7 +38063,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Bold",
                 "moves": [
                     "Earthquake",
                     "Megahorn",
@@ -37927,8 +38110,8 @@ backup_data = {
                 "partner": 173,
                 "weather": "Sun"
             },
-            "Lvl 90 Galactic Valetudo ": {
-                "level": 90,
+            "Lvl 92 Galactic Valetudo ": {
+                "level": 92,
                 "tr_id": 512,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -37943,7 +38126,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Brave",
                 "moves": [
                     "Blizzard",
                     "Earth Power",
@@ -37960,8 +38143,8 @@ backup_data = {
             }
         },
         "Azumarill": {
-            "Lvl 49 Galactic Luna |Clamberclaw Cliffs| ": {
-                "level": 49,
+            "Lvl 51 Galactic Luna |Clamberclaw Cliffs| ": {
+                "level": 51,
                 "tr_id": 66,
                 "ai": 95,
                 "battle_type": "Singles",
@@ -37976,7 +38159,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Gentle",
                 "moves": [
                     "Belly Drum",
                     "Aqua Tail",
@@ -38040,7 +38223,7 @@ backup_data = {
                 "nature": "Hardy",
                 "moves": [
                     "Iron Tail",
-                    "Rollout",
+                    "Accelerock",
                     "Aqua Tail",
                     "Giga Impact"
                 ],
@@ -38052,8 +38235,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 88 Aroma Lady Fadel ": {
-                "level": 88,
+            "Lvl 91 Aroma Lady Fadel ": {
+                "level": 91,
                 "tr_id": 224,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -38068,7 +38251,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Brave",
                 "moves": [
                     "Belly Drum",
                     "Aqua Jet",
@@ -38387,8 +38570,8 @@ backup_data = {
             }
         },
         "Ursaring": {
-            "Lvl 48 Galactic Luna |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 50 Galactic Luna |Clamberclaw Cliffs| ": {
+                "level": 50,
                 "tr_id": 66,
                 "ai": 95,
                 "battle_type": "Singles",
@@ -38403,7 +38586,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Lonely",
                 "moves": [
                     "Belly Drum",
                     "Crush Claw",
@@ -38509,8 +38692,8 @@ backup_data = {
                 "spriteId": 6,
                 "orientation": 2
             },
-            "Lvl 89 Galactic Cressida ": {
-                "level": 89,
+            "Lvl 92 Galactic Cressida ": {
+                "level": 92,
                 "tr_id": 511,
                 "ai": 1199,
                 "battle_type": "Doubles",
@@ -38525,7 +38708,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Quirky",
                 "moves": [
                     "Secret Power",
                     "Pursuit",
@@ -38533,7 +38716,7 @@ backup_data = {
                     "Close Combat"
                 ],
                 "sub_index": 2,
-                "ability": "Quick Feet",
+                "ability": "Guts",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -38625,7 +38808,7 @@ backup_data = {
                     "Facade",
                     "Earthquake",
                     "Swords Dance",
-                    "Shadow Claw"
+                    "Feint Attack"
                 ],
                 "sub_index": 1,
                 "ability": "Guts",
@@ -38636,10 +38819,10 @@ backup_data = {
             }
         },
         "Forretress": {
-            "Lvl 49 Galactic Terra ": {
-                "level": 49,
+            "Lvl 52 Galactic Terra ": {
+                "level": 52,
                 "tr_id": 67,
-                "ai": 271,
+                "ai": 303,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -38652,7 +38835,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Jolly",
                 "moves": [
                     "Stealth Rock",
                     "Spikes",
@@ -38698,8 +38881,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 58 Idol Skylar |Pastoria City| ": {
-                "level": 58,
+            "Lvl 60 Idol Skylar |Pastoria City| ": {
+                "level": 60,
                 "tr_id": 338,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -38728,8 +38911,8 @@ backup_data = {
                 "spriteId": 53,
                 "orientation": 1
             },
-            "Lvl 56 Galactic Iapetus |Eterna Forest| ": {
-                "level": 56,
+            "Lvl 60 Galactic Iapetus |Eterna Forest| ": {
+                "level": 60,
                 "tr_id": 397,
                 "ai": 23,
                 "battle_type": "Doubles",
@@ -38744,7 +38927,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Hardy",
                 "moves": [
                     "Explosion",
                     "Earthquake",
@@ -38761,8 +38944,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 54 Galactic Calypso |Iron Island| ": {
-                "level": 54,
+            "Lvl 55 Galactic Calypso |Iron Island| ": {
+                "level": 55,
                 "tr_id": 452,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -38777,12 +38960,12 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Adamant",
                 "moves": [
                     "Pin Missile",
                     "Gyro Ball",
                     "Sand Tomb",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 2,
                 "ability": "Heatproof",
@@ -38858,10 +39041,10 @@ backup_data = {
             }
         },
         "Torterra": {
-            "Lvl 48 Galactic Terra ": {
-                "level": 48,
+            "Lvl 54 Galactic Terra ": {
+                "level": 54,
                 "tr_id": 67,
-                "ai": 271,
+                "ai": 303,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -38874,7 +39057,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Quirky",
                 "moves": [
                     "Sand Tomb",
                     "Swords Dance",
@@ -38919,8 +39102,8 @@ backup_data = {
                 "spriteId": 48,
                 "orientation": 3
             },
-            "Lvl 88 Collector Tobias ": {
-                "level": 88,
+            "Lvl 91 Collector Tobias ": {
+                "level": 91,
                 "tr_id": 227,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -38935,7 +39118,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Impish",
                 "moves": [
                     "Outrage",
                     "Leaf Blade",
@@ -38980,8 +39163,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 64 Galactic Terra |Iron Island| ": {
-                "level": 64,
+            "Lvl 67 Galactic Terra |Iron Island| ": {
+                "level": 67,
                 "tr_id": 387,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -38989,14 +39172,14 @@ backup_data = {
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Careful",
                 "moves": [
                     "Sand Tomb",
                     "Wood Hammer",
@@ -39106,25 +39289,25 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
                 "item": "Meadow Plate",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Naive",
+                "nature": "Hardy",
                 "moves": [
-                    "Rock Climb",
+                    "Stone Edge",
                     "Wood Hammer",
-                    "Earthquake",
-                    "Swagger"
+                    "Sand Tomb",
+                    "Rock Polish"
                 ],
                 "sub_index": 5,
                 "ability": "Thick Fat",
@@ -39507,14 +39690,14 @@ backup_data = {
                 "form": "",
                 "item": "Leftovers",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Careful",
                 "moves": [
                     "Wood Hammer",
                     "Rock Polish",
@@ -39591,10 +39774,10 @@ backup_data = {
             }
         },
         "Drifblim": {
-            "Lvl 48 Galactic Terra ": {
-                "level": 48,
+            "Lvl 52 Galactic Terra ": {
+                "level": 52,
                 "tr_id": 67,
-                "ai": 271,
+                "ai": 303,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -39607,7 +39790,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Hasty",
                 "moves": [
                     "Calm Mind",
                     "Ominous Wind",
@@ -39805,8 +39988,8 @@ backup_data = {
                 "partner": 443,
                 "tagPartner": 612
             },
-            "Lvl 61 Galactic Phoebe |Pastoria City| ": {
-                "level": 61,
+            "Lvl 64 Galactic Phoebe |Pastoria City| ": {
+                "level": 64,
                 "tr_id": 400,
                 "ai": 1047,
                 "battle_type": "Doubles",
@@ -39821,7 +40004,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Hardy",
+                "nature": "Lonely",
                 "moves": [
                     "Hurricane",
                     "Ominous Wind",
@@ -40165,7 +40348,7 @@ backup_data = {
                     "Ominous Wind",
                     "Tailwind",
                     "Flamethrower",
-                    "Magic Coat"
+                    "Will-O-Wisp"
                 ],
                 "sub_index": 4,
                 "ability": "Unburden",
@@ -40266,10 +40449,10 @@ backup_data = {
             }
         },
         "Rampardos": {
-            "Lvl 48 Galactic Terra ": {
-                "level": 48,
+            "Lvl 51 Galactic Terra ": {
+                "level": 51,
                 "tr_id": 67,
-                "ai": 271,
+                "ai": 303,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -40282,12 +40465,12 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Serious",
                 "moves": [
                     "Swords Dance",
                     "Head Smash",
                     "Superpower",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 3,
                 "ability": "Rock Head",
@@ -40327,8 +40510,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Scientist Bill ": {
-                "level": 55,
+            "Lvl 59 Scientist Bill ": {
+                "level": 59,
                 "tr_id": 154,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -40343,9 +40526,9 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Hardy",
                 "moves": [
-                    "Rollout",
+                    "Accelerock",
                     "Zen Headbutt",
                     "Earthquake",
                     "Head Smash"
@@ -40417,8 +40600,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Galactic Halimede ": {
-                "level": 52,
+            "Lvl 53 Galactic Halimede ": {
+                "level": 53,
                 "tr_id": 446,
                 "ai": 1055,
                 "battle_type": "Doubles",
@@ -40433,7 +40616,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Docile",
+                "nature": "Lonely",
                 "moves": [
                     "Hammer Arm",
                     "Head Smash",
@@ -40543,10 +40726,10 @@ backup_data = {
             }
         },
         "Wailord": {
-            "Lvl 47 Galactic Terra ": {
-                "level": 47,
+            "Lvl 50 Galactic Terra ": {
+                "level": 50,
                 "tr_id": 67,
-                "ai": 271,
+                "ai": 303,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -40559,7 +40742,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Naughty",
                 "moves": [
                     "Toxic",
                     "Whirlpool",
@@ -40605,8 +40788,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Sun"
             },
-            "Lvl 84 Collector Tobias ": {
-                "level": 84,
+            "Lvl 86 Collector Tobias ": {
+                "level": 86,
                 "tr_id": 227,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -40621,7 +40804,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Adamant",
                 "moves": [
                     "Water Spout",
                     "Ice Beam",
@@ -40635,8 +40818,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 63 Commander Saturn ": {
-                "level": 63,
+            "Lvl 64 Commander Saturn ": {
+                "level": 64,
                 "tr_id": 408,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -40651,12 +40834,12 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Mild",
+                "nature": "Hardy",
                 "moves": [
                     "Water Spout",
                     "Ice Beam",
                     "Earthquake",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 2,
                 "ability": "Pressure",
@@ -40668,8 +40851,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 84 Commander Saturn |T.G. Eterna Bldg| ": {
-                "level": 84,
+            "Lvl 86 Commander Saturn |T.G. Eterna Bldg| ": {
+                "level": 86,
                 "tr_id": 409,
                 "ai": 399,
                 "battle_type": "Singles",
@@ -40684,7 +40867,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Careful",
                 "moves": [
                     "Water Spout",
                     "Curse",
@@ -40698,8 +40881,8 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 0
             },
-            "Lvl 84 Galactic Neptune |Stark Mountain| ": {
-                "level": 84,
+            "Lvl 85 Galactic Neptune |Stark Mountain| ": {
+                "level": 85,
                 "tr_id": 581,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -40714,7 +40897,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Serious",
                 "moves": [
                     "Earthquake",
                     "Water Spout",
@@ -40761,8 +40944,38 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 66 Veteran Anton |Snowpoint City| ": {
-                "level": 66,
+            "Lvl 100 Sinister Hooded Figure ": {
+                "level": 100,
+                "tr_id": 666,
+                "ai": 7,
+                "battle_type": "Doubles",
+                "reward_item": "",
+                "form": "",
+                "item": "Ganlon Berry",
+                "ivs": {
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
+                },
+                "nature": "Quiet",
+                "moves": [
+                    "Hydro Pump",
+                    "Fissure",
+                    "Sleep Talk",
+                    "Blizzard"
+                ],
+                "sub_index": 3,
+                "ability": "Pressure",
+                "gender": "Female",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 67 Veteran Anton |Snowpoint City| ": {
+                "level": 67,
                 "tr_id": 827,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -40777,12 +40990,12 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Brave",
+                "nature": "Careful",
                 "moves": [
                     "Ice Ball",
                     "Aqua Tail",
                     "Earthquake",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 3,
                 "ability": "Pressure",
@@ -40794,10 +41007,10 @@ backup_data = {
             }
         },
         "Castform": {
-            "Lvl 49 Galactic Terra ": {
-                "level": 49,
+            "Lvl 52 Galactic Terra ": {
+                "level": 52,
                 "tr_id": 67,
-                "ai": 271,
+                "ai": 303,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -40810,9 +41023,9 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Modest",
                 "moves": [
-                    "Water Ball",
+                    "Weather Ball",
                     "Shock Wave",
                     "Aurora Beam",
                     "Water Pulse"
@@ -40825,8 +41038,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 54 Galactic Neso |Route 210| ": {
-                "level": 54,
+            "Lvl 56 Galactic Neso |Route 210| ": {
+                "level": 56,
                 "tr_id": 289,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -40841,7 +41054,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Hasty",
                 "moves": [
                     "Heat Wave",
                     "Ice Beam",
@@ -40889,8 +41102,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 62 Galactic Mimas ": {
-                "level": 62,
+            "Lvl 66 Galactic Mimas ": {
+                "level": 66,
                 "tr_id": 373,
                 "ai": 287,
                 "battle_type": "Doubles",
@@ -40905,7 +41118,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Adamant",
                 "moves": [
                     "Blizzard",
                     "Hydro Pump",
@@ -40922,8 +41135,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Hail"
             },
-            "Lvl 64 Galactic Mercury3 ": {
-                "level": 64,
+            "Lvl 65 Galactic Mercury3 ": {
+                "level": 65,
                 "tr_id": 419,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -40938,7 +41151,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Naive",
                 "moves": [
                     "Ice Beam",
                     "Thunderbolt",
@@ -40955,8 +41168,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sun"
             },
-            "Lvl 54 Galactic Calypso |Iron Island| ": {
-                "level": 54,
+            "Lvl 55 Galactic Calypso |Iron Island| ": {
+                "level": 55,
                 "tr_id": 452,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -40971,7 +41184,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Gentle",
                 "moves": [
                     "Attract",
                     "Thunder",
@@ -40988,8 +41201,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Rain"
             },
-            "Lvl 94 Galactic Prospero ": {
-                "level": 94,
+            "Lvl 93 Galactic Prospero ": {
+                "level": 93,
                 "tr_id": 526,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -41004,7 +41217,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Impish",
                 "moves": [
                     "Blizzard",
                     "Thunderbolt",
@@ -41084,8 +41297,8 @@ backup_data = {
             }
         },
         "Hypno": {
-            "Lvl 49 Galactic Themisto ": {
-                "level": 49,
+            "Lvl 54 T.G. Squad Themisto ": {
+                "level": 54,
                 "tr_id": 68,
                 "ai": 1479,
                 "battle_type": "Doubles",
@@ -41109,7 +41322,7 @@ backup_data = {
                 ],
                 "sub_index": 1,
                 "ability": "Bad Dreams",
-                "gender": "Male",
+                "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null,
@@ -41175,8 +41388,8 @@ backup_data = {
                 "spriteId": 48,
                 "orientation": 1
             },
-            "Lvl 55 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
-                "level": 55,
+            "Lvl 57 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
+                "level": 57,
                 "tr_id": 420,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -41191,7 +41404,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Relaxed",
                 "moves": [
                     "Hypnosis",
                     "Rage",
@@ -41393,8 +41606,8 @@ backup_data = {
             }
         },
         "Solrock": {
-            "Lvl 48 Galactic Themisto ": {
-                "level": 48,
+            "Lvl 52 T.G. Squad Themisto ": {
+                "level": 52,
                 "tr_id": 68,
                 "ai": 1479,
                 "battle_type": "Doubles",
@@ -41409,7 +41622,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Docile",
                 "moves": [
                     "Sand Tomb",
                     "Zen Headbutt",
@@ -41423,8 +41636,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 54 Galactic Neso |Route 210| ": {
-                "level": 54,
+            "Lvl 55 Galactic Neso |Route 210| ": {
+                "level": 55,
                 "tr_id": 289,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -41439,7 +41652,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Lonely",
                 "moves": [
                     "Rock Slide",
                     "Zen Headbutt",
@@ -41485,8 +41698,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Sand"
             },
-            "Lvl 62 Galactic Mercury3 ": {
-                "level": 62,
+            "Lvl 65 Galactic Mercury3 ": {
+                "level": 65,
                 "tr_id": 419,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -41501,7 +41714,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Careful",
                 "moves": [
                     "Rock Polish",
                     "Flare Blitz",
@@ -41517,8 +41730,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sun"
             },
-            "Lvl 60 Galactic Prometheus ": {
-                "level": 60,
+            "Lvl 64 Galactic Prometheus ": {
+                "level": 64,
                 "tr_id": 447,
                 "ai": 1047,
                 "battle_type": "Doubles",
@@ -41533,7 +41746,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Modest",
                 "moves": [
                     "Flare Blitz",
                     "Rock Slide",
@@ -41579,8 +41792,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Fog"
             },
-            "Lvl 91 Galactic Rosalind ": {
-                "level": 91,
+            "Lvl 92 Galactic Rosalind ": {
+                "level": 92,
                 "tr_id": 509,
                 "ai": 47,
                 "battle_type": "Singles",
@@ -41595,7 +41808,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Serious",
                 "moves": [
                     "Explosion",
                     "Earthquake",
@@ -41729,8 +41942,8 @@ backup_data = {
             }
         },
         "Banette": {
-            "Lvl 48 Galactic Themisto ": {
-                "level": 48,
+            "Lvl 52 T.G. Squad Themisto ": {
+                "level": 52,
                 "tr_id": 68,
                 "ai": 1479,
                 "battle_type": "Doubles",
@@ -41745,7 +41958,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Modest",
                 "moves": [
                     "Shadow Punch",
                     "Rage",
@@ -41754,7 +41967,7 @@ backup_data = {
                 ],
                 "sub_index": 5,
                 "ability": "Clear Body",
-                "gender": "Male",
+                "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null,
@@ -41977,7 +42190,7 @@ backup_data = {
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "Lansat Berry",
+                "item": "Lum Berry",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -42032,8 +42245,8 @@ backup_data = {
             }
         },
         "Probopass": {
-            "Lvl 52 Galactic Callisto ": {
-                "level": 52,
+            "Lvl 54 Galactic Callisto ": {
+                "level": 54,
                 "tr_id": 69,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -42048,7 +42261,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Mild",
                 "moves": [
                     "Stealth Rock",
                     "Explosion",
@@ -42153,8 +42366,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Galactic Psamanthe ": {
-                "level": 54,
+            "Lvl 55 Galactic Psamanthe ": {
+                "level": 55,
                 "tr_id": 506,
                 "ai": 15,
                 "battle_type": "Doubles",
@@ -42169,7 +42382,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Hasty",
                 "moves": [
                     "Gravity",
                     "Earth Power",
@@ -42279,8 +42492,8 @@ backup_data = {
             }
         },
         "Cacturne": {
-            "Lvl 52 Galactic Callisto ": {
-                "level": 52,
+            "Lvl 54 Galactic Callisto ": {
+                "level": 54,
                 "tr_id": 69,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -42295,7 +42508,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Hardy",
                 "moves": [
                     "Toxic Spikes",
                     "Swords Dance",
@@ -42371,8 +42584,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 57 T.G. Squad Phobos2 ": {
-                "level": 57,
+            "Lvl 60 T.G. Squad Phobos2 ": {
+                "level": 60,
                 "tr_id": 427,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -42387,7 +42600,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Serious",
                 "moves": [
                     "Sucker Punch",
                     "Teeter Dance",
@@ -42501,8 +42714,8 @@ backup_data = {
             }
         },
         "Alakazam": {
-            "Lvl 50 Galactic Callisto ": {
-                "level": 50,
+            "Lvl 53 Galactic Callisto ": {
+                "level": 53,
                 "tr_id": 69,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -42517,7 +42730,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Jolly",
                 "moves": [
                     "Nasty Plot",
                     "Substitute",
@@ -42592,8 +42805,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 90 Galactic Prospero ": {
-                "level": 90,
+            "Lvl 91 Galactic Prospero ": {
+                "level": 91,
                 "tr_id": 526,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -42608,7 +42821,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Lonely",
                 "moves": [
                     "Psychic",
                     "Shadow Ball",
@@ -42622,36 +42835,6 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null,
                 "weather": "Hail"
-            },
-            "Lvl 59 Psychic Mitchell2 ": {
-                "level": 59,
-                "tr_id": 674,
-                "ai": 5,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "",
-                "item": "None",
-                "ivs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Lonely",
-                "moves": [
-                    "Teleport",
-                    "Psychic",
-                    "Recover",
-                    "Role Play"
-                ],
-                "sub_index": 1,
-                "ability": "Magic Guard",
-                "gender": "Male",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
             },
             "Lvl 61 Psychic Brittney ": {
                 "level": 61,
@@ -42715,8 +42898,8 @@ backup_data = {
                 "partner": 749,
                 "tagPartner": 612
             },
-            "Lvl 69 Ace Trainer Tenzing ": {
-                "level": 69,
+            "Lvl 70 Ace Trainer Tenzing ": {
+                "level": 70,
                 "tr_id": 828,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -42731,7 +42914,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Quirky",
+                "nature": "Rash",
                 "moves": [
                     "Psychic",
                     "Shadow Ball",
@@ -42838,8 +43021,8 @@ backup_data = {
             }
         },
         "Charizard": {
-            "Lvl 51 Galactic Callisto ": {
-                "level": 51,
+            "Lvl 53 Galactic Callisto ": {
+                "level": 53,
                 "tr_id": 69,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -42854,7 +43037,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Relaxed",
                 "moves": [
                     "Belly Drum",
                     "Fire Fang",
@@ -42869,8 +43052,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 88 Hiker J.J Ahern ": {
-                "level": 88,
+            "Lvl 91 Hiker J.J Ahern ": {
+                "level": 91,
                 "tr_id": 237,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -42885,7 +43068,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Hasty",
                 "moves": [
                     "Heat Wave",
                     "Earthquake",
@@ -42899,8 +43082,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 62 Galactic Hyperion |Iron Island| ": {
-                "level": 62,
+            "Lvl 65 Galactic Hyperion |Iron Island| ": {
+                "level": 65,
                 "tr_id": 288,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -42915,7 +43098,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Hasty",
                 "moves": [
                     "Heat Wave",
                     "Air Slash",
@@ -43119,8 +43302,8 @@ backup_data = {
             }
         },
         "Machamp": {
-            "Lvl 50 Galactic Callisto ": {
-                "level": 50,
+            "Lvl 53 Galactic Callisto ": {
+                "level": 53,
                 "tr_id": 69,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -43135,7 +43318,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Timid",
                 "moves": [
                     "Dynamic Punch",
                     "Stone Edge",
@@ -43816,8 +43999,8 @@ backup_data = {
                 "spriteId": 33,
                 "orientation": 3
             },
-            "Lvl 64 Galactic Tethys |Lake Valor| ": {
-                "level": 64,
+            "Lvl 67 Galactic Tethys |Lake Valor| ": {
+                "level": 67,
                 "tr_id": 417,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -43832,7 +44015,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Calm",
                 "moves": [
                     "Muddy Water",
                     "Ice Beam",
@@ -43881,8 +44064,8 @@ backup_data = {
                 "partner": 496,
                 "tagPartner": 612
             },
-            "Lvl 53 Galactic Thalassa |Wayward Cave| ": {
-                "level": 53,
+            "Lvl 54 Galactic Thalassa |Wayward Cave| ": {
+                "level": 54,
                 "tr_id": 453,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -43897,7 +44080,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Timid",
                 "moves": [
                     "Muddy Water",
                     "Ancient Power",
@@ -44008,8 +44191,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Hail"
             },
-            "Lvl 86 Roughneck Wyatt |Victory Road| ": {
-                "level": 86,
+            "Lvl 89 Roughneck Wyatt |Victory Road| ": {
+                "level": 89,
                 "tr_id": 234,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -44024,7 +44207,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Brave",
                 "moves": [
                     "Close Combat",
                     "Flare Blitz",
@@ -44251,25 +44434,25 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
                 "item": "Flame Plate",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Bashful",
+                "nature": "Naive",
                 "moves": [
-                    "Fire Punch",
+                    "Blast Burn",
                     "Cross Chop",
-                    "Earthquake",
-                    "Shadow Claw"
+                    "U-turn",
+                    "Thunder Punch"
                 ],
                 "sub_index": 5,
                 "ability": "Iron Fist",
@@ -44703,8 +44886,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 54 Galactic Nereid |Iron Island| ": {
-                "level": 54,
+            "Lvl 55 Galactic Nereid |Iron Island| ": {
+                "level": 55,
                 "tr_id": 378,
                 "ai": 15,
                 "battle_type": "Doubles",
@@ -44719,7 +44902,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Naughty",
                 "moves": [
                     "Spikes",
                     "Aqua Tail",
@@ -44736,8 +44919,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sun"
             },
-            "Lvl 57 Galactic Iapetus |Eterna Forest| ": {
-                "level": 57,
+            "Lvl 62 Galactic Iapetus |Eterna Forest| ": {
+                "level": 62,
                 "tr_id": 397,
                 "ai": 23,
                 "battle_type": "Doubles",
@@ -44752,7 +44935,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Mild",
                 "moves": [
                     "Explosion",
                     "-",
@@ -44801,8 +44984,8 @@ backup_data = {
             }
         },
         "Slowking": {
-            "Lvl 48 Galactic Valetudo |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 51 Galactic Valetudo |Clamberclaw Cliffs| ": {
+                "level": 51,
                 "tr_id": 71,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -44817,7 +45000,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Sassy",
                 "moves": [
                     "Nasty Plot",
                     "Psychic",
@@ -44956,8 +45139,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 85 Ruin Maniac Greg |Victory Road| ": {
-                "level": 85,
+            "Lvl 88 Ruin Maniac Greg |Victory Road| ": {
+                "level": 88,
                 "tr_id": 230,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -44972,7 +45155,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Lonely",
                 "moves": [
                     "Amnesia",
                     "Iron Defense",
@@ -44987,8 +45170,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Sand"
             },
-            "Lvl 87 Cameraman Matt |Victory Road| ": {
-                "level": 87,
+            "Lvl 90 Cameraman Matt |Victory Road| ": {
+                "level": 90,
                 "tr_id": 233,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -45003,7 +45186,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Modest",
                 "moves": [
                     "Toxic Spikes",
                     "Future Sight",
@@ -45017,8 +45200,8 @@ backup_data = {
                 "spriteId": 29,
                 "orientation": 3
             },
-            "Lvl 69 Skier Savannah |Snowpoint City| ": {
-                "level": 69,
+            "Lvl 70 Skier Savannah |Snowpoint City| ": {
+                "level": 70,
                 "tr_id": 270,
                 "ai": 47,
                 "battle_type": "Singles",
@@ -45033,7 +45216,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Sassy",
                 "moves": [
                     "Blizzard",
                     "Psychic",
@@ -45108,8 +45291,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Galactic Halimede ": {
-                "level": 54,
+            "Lvl 55 Galactic Halimede ": {
+                "level": 55,
                 "tr_id": 446,
                 "ai": 1055,
                 "battle_type": "Doubles",
@@ -45124,7 +45307,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Modest",
+                "nature": "Timid",
                 "moves": [
                     "Trick Room",
                     "Future Sight",
@@ -45268,11 +45451,11 @@ backup_data = {
             "Lvl 100 Elite Four Lucian ": {
                 "level": 100,
                 "tr_id": 869,
-                "ai": 335,
+                "ai": 351,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Kasib Berry",
+                "item": "Ganlon Berry",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -45297,8 +45480,8 @@ backup_data = {
             }
         },
         "Slaking": {
-            "Lvl 47 Galactic Valetudo |Clamberclaw Cliffs| ": {
-                "level": 47,
+            "Lvl 50 Galactic Valetudo |Clamberclaw Cliffs| ": {
+                "level": 50,
                 "tr_id": 71,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -45313,7 +45496,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Calm",
                 "moves": [
                     "Slack Off",
                     "Double Team",
@@ -45695,24 +45878,24 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
                 "item": "Ganlon Berry",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 29,
+                    "at": 29,
+                    "df": 29,
+                    "sa": 29,
+                    "sd": 29,
+                    "sp": 29
                 },
-                "nature": "Rash",
+                "nature": "Jolly",
                 "moves": [
                     "Slack Off",
-                    "Stockpile",
-                    "Body Slam",
+                    "Pursuit",
+                    "Crush Grip",
                     "Rage"
                 ],
                 "sub_index": 0,
@@ -45725,7 +45908,7 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
@@ -45741,8 +45924,8 @@ backup_data = {
                 "nature": "Jolly",
                 "moves": [
                     "Slack Off",
-                    "Stockpile",
-                    "Body Slam",
+                    "Pursuit",
+                    "Crush Grip",
                     "Rage"
                 ],
                 "sub_index": 0,
@@ -45755,24 +45938,24 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
                 "item": "Ganlon Berry",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Relaxed",
+                "nature": "Jolly",
                 "moves": [
                     "Slack Off",
-                    "Stockpile",
-                    "Body Slam",
+                    "Pursuit",
+                    "Crush Grip",
                     "Rage"
                 ],
                 "sub_index": 0,
@@ -45813,8 +45996,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 85 Galactic Oberon ": {
-                "level": 85,
+            "Lvl 90 Galactic Oberon ": {
+                "level": 90,
                 "tr_id": 582,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -45829,7 +46012,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Quiet",
                 "moves": [
                     "Secret Power",
                     "Slack Off",
@@ -45968,8 +46151,8 @@ backup_data = {
             }
         },
         "Kingdra": {
-            "Lvl 48 Galactic Valetudo |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 50 Galactic Valetudo |Clamberclaw Cliffs| ": {
+                "level": 50,
                 "tr_id": 71,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -46154,8 +46337,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 89 Roughneck Wyatt |Victory Road| ": {
-                "level": 89,
+            "Lvl 91 Roughneck Wyatt |Victory Road| ": {
+                "level": 91,
                 "tr_id": 234,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -46170,7 +46353,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Jolly",
                 "moves": [
                     "Hydro Pump",
                     "Draco Meteor",
@@ -46215,8 +46398,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 54 Galactic Hippocamp |Wayward Cave| ": {
-                "level": 54,
+            "Lvl 56 Galactic Hippocamp |Wayward Cave| ": {
+                "level": 56,
                 "tr_id": 457,
                 "ai": 159,
                 "battle_type": "Doubles",
@@ -46231,7 +46414,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Jolly",
                 "moves": [
                     "Twister",
                     "Hydro Pump",
@@ -46310,8 +46493,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Galactic Triton3 ": {
-                "level": 55,
+            "Lvl 56 Galactic Triton3 ": {
+                "level": 56,
                 "tr_id": 835,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -46326,7 +46509,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Modest",
                 "moves": [
                     "Muddy Water",
                     "Twister",
@@ -46345,8 +46528,8 @@ backup_data = {
             }
         },
         "Kingler": {
-            "Lvl 49 Galactic Valetudo |Clamberclaw Cliffs| ": {
-                "level": 49,
+            "Lvl 52 Galactic Valetudo |Clamberclaw Cliffs| ": {
+                "level": 52,
                 "tr_id": 71,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -46361,7 +46544,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Bold",
                 "moves": [
                     "Swords Dance",
                     "Slam",
@@ -46440,11 +46623,11 @@ backup_data = {
             "Lvl 100 Gambler John Keating |Victory Road| ": {
                 "level": 100,
                 "tr_id": 228,
-                "ai": 279,
+                "ai": 1047,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Berserk Gene",
+                "item": "Quick Claw",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -46455,10 +46638,10 @@ backup_data = {
                 },
                 "nature": "Naive",
                 "moves": [
-                    "Agility",
-                    "Vise Grip",
-                    "X-Scissor",
-                    "Metal Claw"
+                    "Crabhammer",
+                    "Giga Impact",
+                    "Fury Cutter",
+                    "Vise Grip"
                 ],
                 "sub_index": 4,
                 "ability": "Swift Swim",
@@ -46497,8 +46680,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Galactic Triton3 ": {
-                "level": 56,
+            "Lvl 57 Galactic Triton3 ": {
+                "level": 57,
                 "tr_id": 835,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -46513,7 +46696,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Modest",
                 "moves": [
                     "Vise Grip",
                     "Fury Cutter",
@@ -46539,14 +46722,14 @@ backup_data = {
                 "form": "",
                 "item": "Lum Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Jolly",
                 "moves": [
                     "Crabhammer",
                     "X-Scissor",
@@ -46563,8 +46746,8 @@ backup_data = {
             }
         },
         "Espeon": {
-            "Lvl 49 Galactic Dia |Clamberclaw Cliffs| ": {
-                "level": 49,
+            "Lvl 54 Galactic Dia |Clamberclaw Cliffs| ": {
+                "level": 54,
                 "tr_id": 72,
                 "ai": 351,
                 "battle_type": "Singles",
@@ -46579,7 +46762,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Relaxed",
                 "moves": [
                     "Substitute",
                     "Calm Mind",
@@ -46657,8 +46840,8 @@ backup_data = {
                 "partner": 180,
                 "weather": "Sun"
             },
-            "Lvl 93 Dragon Tamer Clinton |Canalave City| ": {
-                "level": 93,
+            "Lvl 94 Dragon Tamer Clinton |Canalave City| ": {
+                "level": 94,
                 "tr_id": 231,
                 "ai": 63,
                 "battle_type": "Singles",
@@ -46673,7 +46856,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Careful",
                 "moves": [
                     "Future Sight",
                     "Mimic",
@@ -46717,8 +46900,8 @@ backup_data = {
                 "spriteId": 50,
                 "orientation": 0
             },
-            "Lvl 48 Collector Ripper |Route 214| ": {
-                "level": 48,
+            "Lvl 49 Collector Ripper |Route 214| ": {
+                "level": 49,
                 "tr_id": 272,
                 "ai": 87,
                 "battle_type": "Singles",
@@ -46733,7 +46916,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Rash",
                 "moves": [
                     "Calm Mind",
                     "Baton Pass",
@@ -46838,8 +47021,8 @@ backup_data = {
                 "spriteId": 29,
                 "orientation": 3
             },
-            "Lvl 95 Galactic Ariel ": {
-                "level": 95,
+            "Lvl 94 Galactic Ariel ": {
+                "level": 94,
                 "tr_id": 529,
                 "ai": 1183,
                 "battle_type": "Singles",
@@ -46854,7 +47037,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Jolly",
                 "moves": [
                     "Sing",
                     "Hail Ball",
@@ -46901,8 +47084,8 @@ backup_data = {
             }
         },
         "Wormadam-Sandy": {
-            "Lvl 49 Galactic Dia |Clamberclaw Cliffs| ": {
-                "level": 49,
+            "Lvl 55 Galactic Dia |Clamberclaw Cliffs| ": {
+                "level": 55,
                 "tr_id": 72,
                 "ai": 351,
                 "battle_type": "Singles",
@@ -46917,7 +47100,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Calm",
                 "moves": [
                     "Bug Buzz",
                     "Earth Power",
@@ -47031,8 +47214,8 @@ backup_data = {
             }
         },
         "Haunter": {
-            "Lvl 50 Galactic Dia |Clamberclaw Cliffs| ": {
-                "level": 50,
+            "Lvl 54 Galactic Dia |Clamberclaw Cliffs| ": {
+                "level": 54,
                 "tr_id": 72,
                 "ai": 351,
                 "battle_type": "Singles",
@@ -47047,7 +47230,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Serious",
                 "moves": [
                     "Nasty Plot",
                     "Substitute",
@@ -47062,8 +47245,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Fog"
             },
-            "Lvl 63 Galactic Hyperion |Iron Island| ": {
-                "level": 63,
+            "Lvl 67 Galactic Hyperion |Iron Island| ": {
+                "level": 67,
                 "tr_id": 288,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -47078,7 +47261,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Bashful",
+                "nature": "Docile",
                 "moves": [
                     "Mystical Fire",
                     "Shadow Ball",
@@ -47252,8 +47435,8 @@ backup_data = {
             }
         },
         "Venusaur": {
-            "Lvl 48 Galactic Venus |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 51 Galactic Venus |Clamberclaw Cliffs| ": {
+                "level": 51,
                 "tr_id": 73,
                 "ai": 287,
                 "battle_type": "Singles",
@@ -47268,7 +47451,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Lax",
                 "moves": [
                     "Double Team",
                     "HP Fire",
@@ -47345,8 +47528,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 63 Galactic Venus2 ": {
-                "level": 63,
+            "Lvl 64 Galactic Venus2 ": {
+                "level": 64,
                 "tr_id": 426,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -47361,7 +47544,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naughty",
+                "nature": "Quirky",
                 "moves": [
                     "Sleep Powder",
                     "Solar Beam",
@@ -47378,8 +47561,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sun"
             },
-            "Lvl 90 Galactic Ferdinand ": {
-                "level": 90,
+            "Lvl 92 Galactic Ferdinand ": {
+                "level": 92,
                 "tr_id": 510,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -47394,7 +47577,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Relaxed",
                 "moves": [
                     "Sleep Powder",
                     "Nature Power",
@@ -47409,8 +47592,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Hail"
             },
-            "Lvl 84 Galactic Venus3 ": {
-                "level": 84,
+            "Lvl 90 Galactic Venus3 ": {
+                "level": 90,
                 "tr_id": 527,
                 "ai": 167,
                 "battle_type": "Doubles",
@@ -47425,7 +47608,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Timid",
                 "moves": [
                     "Sleep Powder",
                     "Solar-Beam",
@@ -47444,8 +47627,8 @@ backup_data = {
             }
         },
         "Blissey": {
-            "Lvl 48 Galactic Venus |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 52 Galactic Venus |Clamberclaw Cliffs| ": {
+                "level": 52,
                 "tr_id": 73,
                 "ai": 287,
                 "battle_type": "Singles",
@@ -47460,7 +47643,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Lonely",
                 "moves": [
                     "Minimize",
                     "Seismic Toss",
@@ -47638,14 +47821,14 @@ backup_data = {
                 "form": "",
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Impish",
+                "nature": "Quiet",
                 "moves": [
                     "Hyper Voice",
                     "Sunny Day",
@@ -47691,8 +47874,8 @@ backup_data = {
             }
         },
         "Milotic": {
-            "Lvl 47 Galactic Venus |Clamberclaw Cliffs| ": {
-                "level": 47,
+            "Lvl 51 Galactic Venus |Clamberclaw Cliffs| ": {
+                "level": 51,
                 "tr_id": 73,
                 "ai": 287,
                 "battle_type": "Singles",
@@ -47707,7 +47890,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Hasty",
                 "moves": [
                     "Recover",
                     "Double Team",
@@ -47906,36 +48089,6 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Rain"
             },
-            "Lvl 100 Sinister Hooded Figure ": {
-                "level": 100,
-                "tr_id": 666,
-                "ai": 7,
-                "battle_type": "Doubles",
-                "reward_item": "",
-                "form": "",
-                "item": "Ganlon Berry",
-                "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
-                },
-                "nature": "Sassy",
-                "moves": [
-                    "Scald",
-                    "Recover",
-                    "Mirror Coat",
-                    "Blizzard"
-                ],
-                "sub_index": 3,
-                "ability": "Filter",
-                "gender": "Female",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
-            },
             "Lvl 36 Galactic Cupid2 ": {
                 "level": 36,
                 "tr_id": 849,
@@ -47987,7 +48140,7 @@ backup_data = {
                 },
                 "nature": "Rash",
                 "moves": [
-                    "Aqua Ring",
+                    "Scald",
                     "Icy Wind",
                     "Muddy Water",
                     "Recover"
@@ -48001,8 +48154,8 @@ backup_data = {
             }
         },
         "Mismagius": {
-            "Lvl 48 Galactic Venus |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 51 Galactic Venus |Clamberclaw Cliffs| ": {
+                "level": 51,
                 "tr_id": 73,
                 "ai": 287,
                 "battle_type": "Singles",
@@ -48017,7 +48170,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Serious",
                 "moves": [
                     "Nasty Plot",
                     "Ominous Wind",
@@ -48032,10 +48185,10 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Fog"
             },
-            "Lvl 86 Beauty Jasmine ": {
-                "level": 86,
+            "Lvl 91 Beauty Jasmine ": {
+                "level": 91,
                 "tr_id": 222,
-                "ai": 7,
+                "ai": 63,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -48048,7 +48201,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Hasty",
                 "moves": [
                     "Shadow Ball",
                     "Energy Ball",
@@ -48183,8 +48336,8 @@ backup_data = {
                 "spriteId": 15,
                 "orientation": 3
             },
-            "Lvl 58 T.G. Squad Phobos2 ": {
-                "level": 58,
+            "Lvl 60 T.G. Squad Phobos2 ": {
+                "level": 60,
                 "tr_id": 427,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -48199,7 +48352,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Rash",
                 "moves": [
                     "Ominous Wind",
                     "Mean Look",
@@ -48278,8 +48431,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Maid Mocha ": {
-                "level": 55,
+            "Lvl 62 Maid Mocha ": {
+                "level": 62,
                 "tr_id": 898,
                 "ai": 135,
                 "battle_type": "Singles",
@@ -48294,7 +48447,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Careful",
                 "moves": [
                     "Perish Song",
                     "Destiny Bond",
@@ -48310,8 +48463,8 @@ backup_data = {
             }
         },
         "Houndoom": {
-            "Lvl 48 Galactic Venus |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 51 Galactic Venus |Clamberclaw Cliffs| ": {
+                "level": 51,
                 "tr_id": 73,
                 "ai": 287,
                 "battle_type": "Singles",
@@ -48326,7 +48479,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Careful",
                 "moves": [
                     "Nasty Plot",
                     "Dark Pulse",
@@ -48341,8 +48494,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Fog"
             },
-            "Lvl 85 Black Belt Roku |Victory Road| ": {
-                "level": 85,
+            "Lvl 92 Black Belt Roku |Victory Road| ": {
+                "level": 92,
                 "tr_id": 226,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -48357,7 +48510,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Hardy",
                 "moves": [
                     "Overheat",
                     "Dark Pulse",
@@ -48462,8 +48615,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 55 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
-                "level": 55,
+            "Lvl 57 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
+                "level": 57,
                 "tr_id": 420,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -48478,7 +48631,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Hasty",
                 "moves": [
                     "Heat Wave",
                     "Dark Pulse",
@@ -48708,8 +48861,8 @@ backup_data = {
             }
         },
         "Glalie": {
-            "Lvl 48 Galactic Pluto |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 53 Galactic Pluto |Clamberclaw Cliffs| ": {
+                "level": 53,
                 "tr_id": 74,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -48724,7 +48877,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Hasty",
                 "moves": [
                     "Spikes",
                     "Explosion",
@@ -48832,8 +48985,8 @@ backup_data = {
                 "orientation": null,
                 "partner": 693
             },
-            "Lvl 71 Ace Trainer Tenzing ": {
-                "level": 71,
+            "Lvl 72 Ace Trainer Tenzing ": {
+                "level": 72,
                 "tr_id": 828,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -48848,7 +49001,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Serious",
                 "moves": [
                     "Spikes",
                     "Explosion",
@@ -48865,8 +49018,8 @@ backup_data = {
             }
         },
         "Arbok": {
-            "Lvl 49 Galactic Pluto |Clamberclaw Cliffs| ": {
-                "level": 49,
+            "Lvl 52 Galactic Pluto |Clamberclaw Cliffs| ": {
+                "level": 52,
                 "tr_id": 74,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -48881,7 +49034,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Bold",
                 "moves": [
                     "Gastro Acid",
                     "Earthquake",
@@ -48927,8 +49080,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 87 T.G. Squad Amalthia ": {
-                "level": 87,
+            "Lvl 91 T.G. Squad Amalthia ": {
+                "level": 91,
                 "tr_id": 534,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -48943,7 +49096,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Lonely",
                 "moves": [
                     "Glare",
                     "Gunk Shot",
@@ -49050,8 +49203,8 @@ backup_data = {
             }
         },
         "Lucario": {
-            "Lvl 47 Galactic Pluto |Clamberclaw Cliffs| ": {
-                "level": 47,
+            "Lvl 51 Galactic Pluto |Clamberclaw Cliffs| ": {
+                "level": 51,
                 "tr_id": 74,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -49066,7 +49219,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Gentle",
                 "moves": [
                     "Nasty Plot",
                     "Aura Sphere",
@@ -49112,8 +49265,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Hail"
             },
-            "Lvl 86 Aroma Lady Fadel ": {
-                "level": 86,
+            "Lvl 89 Aroma Lady Fadel ": {
+                "level": 89,
                 "tr_id": 224,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -49128,7 +49281,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Rash",
                 "moves": [
                     "Nasty Plot",
                     "Aura Sphere",
@@ -49249,7 +49402,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Modest",
                 "moves": [
                     "Swords Dance",
                     "Close Combat",
@@ -49325,8 +49478,8 @@ backup_data = {
                 "partner": 454,
                 "tagPartner": 612
             },
-            "Lvl 87 T.G. Squad Perdita |Coronet Highlands| ": {
-                "level": 87,
+            "Lvl 92 T.G. Squad Perdiita |Coronet Highlands| ": {
+                "level": 92,
                 "tr_id": 517,
                 "ai": 1287,
                 "battle_type": "Doubles",
@@ -49341,7 +49494,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Adamant",
                 "moves": [
                     "Vacuum Wave",
                     "Dark Pulse",
@@ -49376,7 +49529,7 @@ backup_data = {
                 "moves": [
                     "Hyper Beam",
                     "Aura Sphere",
-                    "Weather Ball",
+                    "Hail Ball",
                     "Dark Pulse"
                 ],
                 "sub_index": 4,
@@ -49518,14 +49671,14 @@ backup_data = {
                 "form": "",
                 "item": "Scope Lens",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Timid",
+                "nature": "Naive",
                 "moves": [
                     "Extreme Speed",
                     "Cross Chop",
@@ -49541,8 +49694,8 @@ backup_data = {
             }
         },
         "Dusclops": {
-            "Lvl 48 Galactic Pluto |Clamberclaw Cliffs| ": {
-                "level": 48,
+            "Lvl 52 Galactic Pluto |Clamberclaw Cliffs| ": {
+                "level": 52,
                 "tr_id": 74,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -49557,7 +49710,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Lonely",
                 "moves": [
                     "Double Team",
                     "Substitute",
@@ -49725,8 +49878,8 @@ backup_data = {
             }
         },
         "Lapras": {
-            "Lvl 49 Galactic Pluto |Clamberclaw Cliffs| ": {
-                "level": 49,
+            "Lvl 52 Galactic Pluto |Clamberclaw Cliffs| ": {
+                "level": 52,
                 "tr_id": 74,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -49741,7 +49894,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Sassy",
                 "moves": [
                     "Perish Song",
                     "Block",
@@ -49817,8 +49970,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Hail"
             },
-            "Lvl 62 Galactic Enceladus ": {
-                "level": 62,
+            "Lvl 66 Galactic Enceladus ": {
+                "level": 66,
                 "tr_id": 386,
                 "ai": 7,
                 "battle_type": "Doubles",
@@ -49833,7 +49986,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Lax",
                 "moves": [
                     "Muddy Water",
                     "Blizzard",
@@ -49850,8 +50003,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Hail"
             },
-            "Lvl 90 Galactic Cressida ": {
-                "level": 90,
+            "Lvl 91 Galactic Cressida ": {
+                "level": 91,
                 "tr_id": 511,
                 "ai": 1199,
                 "battle_type": "Doubles",
@@ -49866,7 +50019,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Serious",
                 "moves": [
                     "Dragon Dance",
                     "Avalanche",
@@ -49905,7 +50058,7 @@ backup_data = {
                     "Hydro Pump",
                     "Sing"
                 ],
-                "sub_index": 4,
+                "sub_index": 5,
                 "ability": "Serene Grace",
                 "gender": "Female",
                 "location": "Coronet Highlands",
@@ -49922,14 +50075,14 @@ backup_data = {
                 "form": "",
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Modest",
                 "moves": [
                     "Horn Drill",
                     "Double Team",
@@ -50070,8 +50223,8 @@ backup_data = {
                 "spriteId": 10,
                 "orientation": 1
             },
-            "Lvl 91 Galactic Neptune |Stark Mountain| ": {
-                "level": 91,
+            "Lvl 90 Galactic Neptune |Stark Mountain| ": {
+                "level": 90,
                 "tr_id": 581,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -50195,8 +50348,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 57 Galactic Neptune2 ": {
-                "level": 57,
+            "Lvl 58 Galactic Neptune2 ": {
+                "level": 58,
                 "tr_id": 836,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -50211,7 +50364,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Lonely",
                 "moves": [
                     "Thunder",
                     "Avalanche",
@@ -50230,8 +50383,8 @@ backup_data = {
             }
         },
         "Weezing": {
-            "Lvl 49 Galactic Leda ": {
-                "level": 49,
+            "Lvl 52 Galactic Leda ": {
+                "level": 52,
                 "tr_id": 75,
                 "ai": 1199,
                 "battle_type": "Doubles",
@@ -50246,7 +50399,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Calm",
                 "moves": [
                     "Poison Gas",
                     "Heat Wave",
@@ -50384,8 +50537,8 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 3
             },
-            "Lvl 59 Galactic Epimetheus ": {
-                "level": 59,
+            "Lvl 63 Galactic Epimetheus ": {
+                "level": 63,
                 "tr_id": 500,
                 "ai": 1335,
                 "battle_type": "Doubles",
@@ -50400,7 +50553,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Jolly",
                 "moves": [
                     "Gunk Shot",
                     "Explosion",
@@ -50540,8 +50693,8 @@ backup_data = {
             }
         },
         "Sceptile": {
-            "Lvl 48 Galactic Leda ": {
-                "level": 48,
+            "Lvl 52 Galactic Leda ": {
+                "level": 52,
                 "tr_id": 75,
                 "ai": 1199,
                 "battle_type": "Doubles",
@@ -50556,7 +50709,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Jolly",
                 "moves": [
                     "Swords Dance",
                     "Rock Slide",
@@ -50696,25 +50849,25 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
-                "item": "Expert Belt",
+                "item": "White Herb",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Relaxed",
+                "nature": "Adamant",
                 "moves": [
-                    "Energy Ball",
-                    "Assurance",
-                    "Vacuum Wave",
-                    "Rock Slide"
+                    "Swords Dance",
+                    "Leaf Blade",
+                    "Earthquake",
+                    "Rock Climb"
                 ],
                 "sub_index": 4,
                 "ability": "Overgrow",
@@ -50723,8 +50876,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 91 Galactic Prospero ": {
-                "level": 91,
+            "Lvl 93 Galactic Prospero ": {
+                "level": 93,
                 "tr_id": 526,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -50739,7 +50892,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Jolly",
                 "moves": [
                     "Nature Power",
                     "Leaf Blade",
@@ -50823,14 +50976,14 @@ backup_data = {
                 "form": "",
                 "item": "Liechi Berry",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Jolly",
+                "nature": "Adamant",
                 "moves": [
                     "Leaf Blade",
                     "Thunder Punch",
@@ -50846,8 +50999,8 @@ backup_data = {
             }
         },
         "Gastrodon-East": {
-            "Lvl 49 Galactic Leda ": {
-                "level": 49,
+            "Lvl 53 Galactic Leda ": {
+                "level": 53,
                 "tr_id": 75,
                 "ai": 1199,
                 "battle_type": "Doubles",
@@ -50862,7 +51015,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Sassy",
                 "moves": [
                     "Earth Power",
                     "Muddy Water",
@@ -50908,8 +51061,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 59 Galactic Pan |Lake Valor| ": {
-                "level": 59,
+            "Lvl 63 Galactic Pan |Lake Valor| ": {
+                "level": 63,
                 "tr_id": 399,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -50924,7 +51077,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Careful",
                 "moves": [
                     "Muddy Water",
                     "Earth Power",
@@ -51003,8 +51156,8 @@ backup_data = {
             }
         },
         "Arcanine": {
-            "Lvl 47 Galactic Leda ": {
-                "level": 47,
+            "Lvl 52 Galactic Leda ": {
+                "level": 52,
                 "tr_id": 75,
                 "ai": 1199,
                 "battle_type": "Doubles",
@@ -51019,7 +51172,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Modest",
                 "moves": [
                     "Heat Wave",
                     "Extreme Speed",
@@ -51095,8 +51248,8 @@ backup_data = {
                 "spriteId": 44,
                 "orientation": 0
             },
-            "Lvl 87 Collector Tobias ": {
-                "level": 87,
+            "Lvl 90 Collector Tobias ": {
+                "level": 90,
                 "tr_id": 227,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -51111,7 +51264,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Impish",
                 "moves": [
                     "Flare Blitz",
                     "Extreme Speed",
@@ -51155,8 +51308,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Skier Savannah |Snowpoint City| ": {
-                "level": 69,
+            "Lvl 70 Skier Savannah |Snowpoint City| ": {
+                "level": 70,
                 "tr_id": 270,
                 "ai": 47,
                 "battle_type": "Singles",
@@ -51171,7 +51324,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Quiet",
                 "moves": [
                     "Fire Fang",
                     "Extreme Speed",
@@ -51338,8 +51491,8 @@ backup_data = {
                 "partner": 335,
                 "weather": "Sun"
             },
-            "Lvl 88 T.G. Squad Amalthia ": {
-                "level": 88,
+            "Lvl 91 T.G. Squad Amalthia ": {
+                "level": 91,
                 "tr_id": 534,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -51354,7 +51507,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Careful",
                 "moves": [
                     "Heat Wave",
                     "Extreme Speed",
@@ -51498,16 +51651,16 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Sitrus Berry",
+                "item": "Muscle Band",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Modest",
+                "nature": "Timid",
                 "moves": [
                     "Extreme Speed",
                     "Flare Blitz",
@@ -51523,8 +51676,8 @@ backup_data = {
             }
         },
         "Froslass": {
-            "Lvl 51 Galactic Europa ": {
-                "level": 51,
+            "Lvl 53 Galactic Europa ": {
+                "level": 53,
                 "tr_id": 76,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -51539,7 +51692,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Brave",
                 "moves": [
                     "Spikes",
                     "Aurora Beam",
@@ -51647,8 +51800,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 62 Galactic Luna ": {
-                "level": 62,
+            "Lvl 63 Galactic Luna ": {
+                "level": 63,
                 "tr_id": 286,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -51663,7 +51816,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Quiet",
                 "moves": [
                     "Blizzard",
                     "Thunder Wave",
@@ -51771,8 +51924,8 @@ backup_data = {
                 "spriteId": 5,
                 "orientation": 1
             },
-            "Lvl 61 Galactic Mimas ": {
-                "level": 61,
+            "Lvl 65 Galactic Mimas ": {
+                "level": 65,
                 "tr_id": 373,
                 "ai": 287,
                 "battle_type": "Doubles",
@@ -51787,7 +51940,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Jolly",
                 "moves": [
                     "Blizzard",
                     "Shadow Ball",
@@ -51930,8 +52083,8 @@ backup_data = {
             }
         },
         "Walrein": {
-            "Lvl 50 Galactic Europa ": {
-                "level": 50,
+            "Lvl 52 Galactic Europa ": {
+                "level": 52,
                 "tr_id": 76,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -51946,7 +52099,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Bold",
                 "moves": [
                     "Belly Drum",
                     "Ice Shard",
@@ -52052,8 +52205,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 62 Galactic Pluto ": {
-                "level": 62,
+            "Lvl 63 Galactic Pluto ": {
+                "level": 63,
                 "tr_id": 282,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -52085,8 +52238,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Hail"
             },
-            "Lvl 53 Galactic Proteus |Lake Valor| ": {
-                "level": 53,
+            "Lvl 55 Galactic Proteus |Lake Valor| ": {
+                "level": 55,
                 "tr_id": 372,
                 "ai": 1679,
                 "battle_type": "Doubles",
@@ -52101,7 +52254,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Docile",
                 "moves": [
                     "Ice Shard",
                     "Avalanche",
@@ -52180,8 +52333,8 @@ backup_data = {
                 "partner": 567,
                 "weather": "Hail"
             },
-            "Lvl 86 Galactic Oberon ": {
-                "level": 86,
+            "Lvl 87 Galactic Oberon ": {
+                "level": 87,
                 "tr_id": 582,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -52213,8 +52366,8 @@ backup_data = {
                 "tagPartner": 865,
                 "weather": "Hail"
             },
-            "Lvl 70 Ace Trainer Tenzing ": {
-                "level": 70,
+            "Lvl 71 Ace Trainer Tenzing ": {
+                "level": 71,
                 "tr_id": 828,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -52229,7 +52382,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Lax",
                 "moves": [
                     "Sheer Cold",
                     "Aqua Tail",
@@ -52246,8 +52399,8 @@ backup_data = {
             }
         },
         "Cradily": {
-            "Lvl 51 Galactic Europa ": {
-                "level": 51,
+            "Lvl 53 Galactic Europa ": {
+                "level": 53,
                 "tr_id": 76,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -52262,7 +52415,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Docile",
                 "moves": [
                     "Recover",
                     "Leech Seed",
@@ -52338,8 +52491,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 52 Galactic Hippocamp |Wayward Cave| ": {
-                "level": 52,
+            "Lvl 56 Galactic Hippocamp |Wayward Cave| ": {
+                "level": 56,
                 "tr_id": 457,
                 "ai": 159,
                 "battle_type": "Doubles",
@@ -52354,7 +52507,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Adamant",
                 "moves": [
                     "Sand Tomb",
                     "Ancient Power",
@@ -52405,8 +52558,8 @@ backup_data = {
             }
         },
         "Cloyster": {
-            "Lvl 51 Galactic Ganymede |Clamberclaw Cliffs| ": {
-                "level": 51,
+            "Lvl 53 Galactic Ganymede |Clamberclaw Cliffs| ": {
+                "level": 53,
                 "tr_id": 78,
                 "ai": 23,
                 "battle_type": "Singles",
@@ -52421,7 +52574,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Bold",
                 "moves": [
                     "Toxic Spikes",
                     "Clamp",
@@ -52467,8 +52620,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 87 Clown Julia |Victory Road| ": {
-                "level": 87,
+            "Lvl 90 Clown Julia |Victory Road| ": {
+                "level": 90,
                 "tr_id": 229,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -52483,7 +52636,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Brave",
                 "moves": [
                     "Hydro Pump",
                     "Icicle Spear",
@@ -52498,8 +52651,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Rain"
             },
-            "Lvl 72 Ace Trainer Alicia |Route 214| ": {
-                "level": 72,
+            "Lvl 73 Ace Trainer Alicia |Route 214| ": {
+                "level": 73,
                 "tr_id": 271,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -52514,7 +52667,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Naughty",
                 "moves": [
                     "Spikes",
                     "Explosion",
@@ -52529,8 +52682,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Hail"
             },
-            "Lvl 57 Galactic Iapetus |Eterna Forest| ": {
-                "level": 57,
+            "Lvl 61 Galactic Iapetus |Eterna Forest| ": {
+                "level": 61,
                 "tr_id": 397,
                 "ai": 23,
                 "battle_type": "Doubles",
@@ -52545,7 +52698,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Careful",
                 "moves": [
                     "Explosion",
                     "Clamp",
@@ -52660,8 +52813,8 @@ backup_data = {
             }
         },
         "Wobbuffet": {
-            "Lvl 50 Galactic Ganymede |Clamberclaw Cliffs| ": {
-                "level": 50,
+            "Lvl 52 Galactic Ganymede |Clamberclaw Cliffs| ": {
+                "level": 52,
                 "tr_id": 78,
                 "ai": 23,
                 "battle_type": "Singles",
@@ -52676,7 +52829,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Timid",
                 "moves": [
                     "Counter",
                     "Mirror Coat",
@@ -52691,8 +52844,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 87 Ruin Maniac Greg |Victory Road| ": {
-                "level": 87,
+            "Lvl 90 Ruin Maniac Greg |Victory Road| ": {
+                "level": 90,
                 "tr_id": 230,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -52707,7 +52860,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Docile",
                 "moves": [
                     "Counter",
                     "Mirror Coat",
@@ -52844,8 +52997,8 @@ backup_data = {
             }
         },
         "Hariyama": {
-            "Lvl 52 Galactic Ganymede |Clamberclaw Cliffs| ": {
-                "level": 52,
+            "Lvl 53 Galactic Ganymede |Clamberclaw Cliffs| ": {
+                "level": 53,
                 "tr_id": 78,
                 "ai": 23,
                 "battle_type": "Singles",
@@ -52860,12 +53013,12 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Quirky",
                 "moves": [
                     "Belly Drum",
                     "Vital Throw",
                     "Payback",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 4,
                 "ability": "Guts",
@@ -52936,8 +53089,8 @@ backup_data = {
                 "spriteId": 45,
                 "orientation": 2
             },
-            "Lvl 55 Hiker David |Victory Road| ": {
-                "level": 55,
+            "Lvl 59 Hiker David |Victory Road| ": {
+                "level": 59,
                 "tr_id": 232,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -52952,7 +53105,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Bold",
                 "moves": [
                     "Bullet Punch",
                     "Fake Out",
@@ -52996,8 +53149,8 @@ backup_data = {
                 "spriteId": 6,
                 "orientation": 2
             },
-            "Lvl 63 Galactic Titan ": {
-                "level": 63,
+            "Lvl 65 Galactic Titan ": {
+                "level": 65,
                 "tr_id": 433,
                 "ai": 1191,
                 "battle_type": "Doubles",
@@ -53012,7 +53165,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Docile",
+                "nature": "Adamant",
                 "moves": [
                     "Fake Out",
                     "Cross Chop",
@@ -53182,8 +53335,8 @@ backup_data = {
             }
         },
         "Snorlax": {
-            "Lvl 51 Galactic Ganymede |Clamberclaw Cliffs| ": {
-                "level": 51,
+            "Lvl 53 Galactic Ganymede |Clamberclaw Cliffs| ": {
+                "level": 53,
                 "tr_id": 78,
                 "ai": 23,
                 "battle_type": "Singles",
@@ -53198,7 +53351,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Calm",
                 "moves": [
                     "Slack Off",
                     "Rage",
@@ -53275,10 +53428,10 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 85 Beauty Jasmine ": {
-                "level": 85,
+            "Lvl 90 Beauty Jasmine ": {
+                "level": 90,
                 "tr_id": 222,
-                "ai": 7,
+                "ai": 63,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -53291,7 +53444,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Naughty",
                 "moves": [
                     "Swallow",
                     "Rock Climb",
@@ -53305,8 +53458,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 88 Bug Catcher Ford |Victory Road| ": {
-                "level": 88,
+            "Lvl 91 Bug Catcher Ford |Victory Road| ": {
+                "level": 91,
                 "tr_id": 235,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -53321,7 +53474,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Quirky",
                 "moves": [
                     "Submission",
                     "Flamethrower",
@@ -53335,8 +53488,8 @@ backup_data = {
                 "spriteId": 33,
                 "orientation": 1
             },
-            "Lvl 87 Hiker J.J Ahern ": {
-                "level": 87,
+            "Lvl 90 Hiker J.J Ahern ": {
+                "level": 90,
                 "tr_id": 237,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -53351,7 +53504,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Bold",
                 "moves": [
                     "Crunch",
                     "Body Slam",
@@ -53396,8 +53549,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 62 Galactic Titan ": {
-                "level": 62,
+            "Lvl 64 Galactic Titan ": {
+                "level": 64,
                 "tr_id": 433,
                 "ai": 1191,
                 "battle_type": "Doubles",
@@ -53412,7 +53565,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Bashful",
                 "moves": [
                     "Curse",
                     "Body Slam",
@@ -54002,8 +54155,8 @@ backup_data = {
             }
         },
         "Absol": {
-            "Lvl 50 T.G. Squad Himalia ": {
-                "level": 50,
+            "Lvl 53 T.G. Squad Himalia ": {
+                "level": 53,
                 "tr_id": 79,
                 "ai": 1527,
                 "battle_type": "Doubles",
@@ -54018,7 +54171,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Relaxed",
                 "moves": [
                     "Swords Dance",
                     "Feint Attack",
@@ -54093,6 +54246,37 @@ backup_data = {
                 "spriteId": 40,
                 "orientation": 3,
                 "weather": "Fog"
+            },
+            "Lvl 93 T.G. Squad Perdiita |Coronet Highlands| ": {
+                "level": 93,
+                "tr_id": 517,
+                "ai": 1287,
+                "battle_type": "Doubles",
+                "reward_item": "",
+                "form": "",
+                "item": "Leftovers",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Bold",
+                "moves": [
+                    "Sucker Punch",
+                    "Blizzard",
+                    "Superpower",
+                    "Charge Beam"
+                ],
+                "sub_index": 5,
+                "ability": "Super Luck",
+                "gender": "Male",
+                "location": "Coronet Highlands",
+                "spriteId": 104,
+                "orientation": 2,
+                "weather": "Hail"
             },
             "Lvl 56 Ace Trainer Mikayla ": {
                 "level": 56,
@@ -54246,8 +54430,8 @@ backup_data = {
             }
         },
         "Aggron": {
-            "Lvl 48 T.G. Squad Himalia ": {
-                "level": 48,
+            "Lvl 51 T.G. Squad Himalia ": {
+                "level": 51,
                 "tr_id": 79,
                 "ai": 1527,
                 "battle_type": "Doubles",
@@ -54262,7 +54446,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Quirky",
                 "moves": [
                     "Head Smash",
                     "Superpower",
@@ -54307,8 +54491,8 @@ backup_data = {
                 "spriteId": 48,
                 "orientation": 1
             },
-            "Lvl 57 Idol Skylar |Pastoria City| ": {
-                "level": 57,
+            "Lvl 61 Idol Skylar |Pastoria City| ": {
+                "level": 61,
                 "tr_id": 338,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -54460,8 +54644,8 @@ backup_data = {
             }
         },
         "Pidgeot": {
-            "Lvl 49 T.G. Squad Himalia ": {
-                "level": 49,
+            "Lvl 52 T.G. Squad Himalia ": {
+                "level": 52,
                 "tr_id": 79,
                 "ai": 1527,
                 "battle_type": "Doubles",
@@ -54476,7 +54660,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Calm",
                 "moves": [
                     "Aerial Ace",
                     "Swift",
@@ -54585,8 +54769,8 @@ backup_data = {
                 "partner": 175,
                 "weather": "Sun"
             },
-            "Lvl 88 T.G. Squad Amalthia ": {
-                "level": 88,
+            "Lvl 90 T.G. Squad Amalthia ": {
+                "level": 90,
                 "tr_id": 534,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -54601,7 +54785,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Bold",
                 "moves": [
                     "Heat Wave",
                     "Hyper Voice",
@@ -54988,8 +55172,8 @@ backup_data = {
                 "partner": 505,
                 "tagPartner": 609
             },
-            "Lvl 92 Galactic Valetudo ": {
-                "level": 92,
+            "Lvl 94 Galactic Valetudo ": {
+                "level": 94,
                 "tr_id": 512,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -55004,7 +55188,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Rash",
                 "moves": [
                     "Dynamic Punch",
                     "Stone Edge",
@@ -55267,8 +55451,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Hail"
             },
-            "Lvl 88 Roughneck Wyatt |Victory Road| ": {
-                "level": 88,
+            "Lvl 90 Roughneck Wyatt |Victory Road| ": {
+                "level": 90,
                 "tr_id": 234,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -55283,7 +55467,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Relaxed",
                 "moves": [
                     "Earthquake",
                     "Ice Shard",
@@ -55328,8 +55512,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Hail"
             },
-            "Lvl 60 Galactic Enceladus ": {
-                "level": 60,
+            "Lvl 65 Galactic Enceladus ": {
+                "level": 65,
                 "tr_id": 386,
                 "ai": 7,
                 "battle_type": "Doubles",
@@ -55344,7 +55528,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Bashful",
+                "nature": "Serious",
                 "moves": [
                     "Ice Ball",
                     "Stomp",
@@ -55454,8 +55638,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 69 Veteran Anton |Snowpoint City| ": {
-                "level": 69,
+            "Lvl 71 Veteran Anton |Snowpoint City| ": {
+                "level": 71,
                 "tr_id": 827,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -55470,7 +55654,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Quirky",
                 "moves": [
                     "Stealth Rock",
                     "Knock Off",
@@ -55524,14 +55708,14 @@ backup_data = {
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Rash",
                 "moves": [
                     "Sand Tomb",
                     "Avalanche",
@@ -55640,8 +55824,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Sand"
             },
-            "Lvl 56 Idol Skylar |Pastoria City| ": {
-                "level": 56,
+            "Lvl 58 Idol Skylar |Pastoria City| ": {
+                "level": 58,
                 "tr_id": 338,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -55889,8 +56073,8 @@ backup_data = {
             }
         },
         "Togekiss": {
-            "Lvl 49 Galactic Thebe |Pokémon Mansion| ": {
-                "level": 49,
+            "Lvl 53 Galactic Thebe |Pokémon Mansion| ": {
+                "level": 53,
                 "tr_id": 81,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -55905,7 +56089,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Rash",
                 "moves": [
                     "Tailwind",
                     "Aura Sphere",
@@ -56041,8 +56225,8 @@ backup_data = {
                 "orientation": null,
                 "partner": 349
             },
-            "Lvl 53 Galactic Galatea |Iron Island| ": {
-                "level": 53,
+            "Lvl 54 Galactic Galatea |Iron Island| ": {
+                "level": 54,
                 "tr_id": 505,
                 "ai": 279,
                 "battle_type": "Doubles",
@@ -56057,7 +56241,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Rash",
                 "moves": [
                     "Air Slash",
                     "Tri Attack",
@@ -56073,8 +56257,8 @@ backup_data = {
                 "partner": 504,
                 "tagPartner": 609
             },
-            "Lvl 91 Galactic Cupid ": {
-                "level": 91,
+            "Lvl 92 Galactic Cupid ": {
+                "level": 92,
                 "tr_id": 513,
                 "ai": 1423,
                 "battle_type": "Doubles",
@@ -56089,7 +56273,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Adamant",
                 "moves": [
                     "Follow Me",
                     "Soft-Boiled",
@@ -56137,8 +56321,8 @@ backup_data = {
                 "partner": 543,
                 "weather": "Sun"
             },
-            "Lvl 87 Galactic Titania |Stark Mountain| ": {
-                "level": 87,
+            "Lvl 89 Galactic Titania |Stark Mountain| ": {
+                "level": 89,
                 "tr_id": 583,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -56153,7 +56337,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Gentle",
                 "moves": [
                     "Gastro Acid",
                     "Air Slash",
@@ -56202,8 +56386,8 @@ backup_data = {
             }
         },
         "Breloom": {
-            "Lvl 49 Galactic Thebe |Pokémon Mansion| ": {
-                "level": 49,
+            "Lvl 52 Galactic Thebe |Pokémon Mansion| ": {
+                "level": 52,
                 "tr_id": 81,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -56218,7 +56402,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Quiet",
                 "moves": [
                     "Spore",
                     "Substitute",
@@ -56421,8 +56605,8 @@ backup_data = {
             }
         },
         "Spiritomb": {
-            "Lvl 48 Galactic Thebe |Pokémon Mansion| ": {
-                "level": 48,
+            "Lvl 51 Galactic Thebe |Pokémon Mansion| ": {
+                "level": 51,
                 "tr_id": 81,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -56437,7 +56621,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Bashful",
                 "moves": [
                     "Pursuit",
                     "Double Team",
@@ -56482,8 +56666,8 @@ backup_data = {
                 "spriteId": 48,
                 "orientation": 3
             },
-            "Lvl 89 Ruin Maniac Greg |Victory Road| ": {
-                "level": 89,
+            "Lvl 90 Ruin Maniac Greg |Victory Road| ": {
+                "level": 90,
                 "tr_id": 230,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -56498,7 +56682,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Calm",
                 "moves": [
                     "Double Team",
                     "Curse",
@@ -56633,8 +56817,8 @@ backup_data = {
                 "spriteId": 5,
                 "orientation": 1
             },
-            "Lvl 55 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
-                "level": 55,
+            "Lvl 56 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
+                "level": 56,
                 "tr_id": 420,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -56649,7 +56833,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Modest",
                 "moves": [
                     "Pain Split",
                     "Icy Wind",
@@ -56666,8 +56850,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 89 Galactic Larissa |Coronet Highlands| ": {
-                "level": 89,
+            "Lvl 92 Galactic Larissa |Coronet Highlands| ": {
+                "level": 92,
                 "tr_id": 518,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -56682,7 +56866,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Quirky",
                 "moves": [
                     "Mean Look",
                     "Curse",
@@ -56788,8 +56972,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 89 Galactic Angrboda |Galactic HQ| ": {
-                "level": 89,
+            "Lvl 90 Galactic Angrboda |Galactic HQ| ": {
+                "level": 90,
                 "tr_id": 650,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -56804,7 +56988,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Naive",
                 "moves": [
                     "Pursuit",
                     "Will-O-Wisp",
@@ -56882,8 +57066,8 @@ backup_data = {
                 "orientation": 2,
                 "partner": 119
             },
-            "Lvl 89 Black Belt Roku |Victory Road| ": {
-                "level": 89,
+            "Lvl 91 Black Belt Roku |Victory Road| ": {
+                "level": 91,
                 "tr_id": 226,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -56898,7 +57082,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Quirky",
                 "moves": [
                     "Crunch",
                     "Drain Punch",
@@ -56912,8 +57096,8 @@ backup_data = {
                 "spriteId": 18,
                 "orientation": 2
             },
-            "Lvl 56 Hiker David |Victory Road| ": {
-                "level": 56,
+            "Lvl 62 Hiker David |Victory Road| ": {
+                "level": 62,
                 "tr_id": 232,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -56928,7 +57112,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Modest",
                 "moves": [
                     "Metal Burst",
                     "Recover",
@@ -57185,8 +57369,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Galactic Pandora |Eterna Forest| ": {
-                "level": 61,
+            "Lvl 65 Galactic Pandora |Eterna Forest| ": {
+                "level": 65,
                 "tr_id": 394,
                 "ai": 1079,
                 "battle_type": "Doubles",
@@ -57201,7 +57385,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Impish",
+                "nature": "Jolly",
                 "moves": [
                     "Hurricane",
                     "Attack Order",
@@ -57218,8 +57402,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 53 Galactic Halimede ": {
-                "level": 53,
+            "Lvl 54 Galactic Halimede ": {
+                "level": 54,
                 "tr_id": 446,
                 "ai": 1055,
                 "battle_type": "Doubles",
@@ -57234,7 +57418,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Careful",
+                "nature": "Bashful",
                 "moves": [
                     "Attack Order",
                     "Spikes",
@@ -57250,8 +57434,8 @@ backup_data = {
                 "partner": 372,
                 "tagPartner": 609
             },
-            "Lvl 50 Galactic Metis ": {
-                "level": 50,
+            "Lvl 53 Galactic Metis ": {
+                "level": 53,
                 "tr_id": 489,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -57266,7 +57450,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Naughty",
                 "moves": [
                     "Toxic Spikes",
                     "Attack Order",
@@ -57351,14 +57535,14 @@ backup_data = {
                 "form": "",
                 "item": "Shell Bell",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Careful",
                 "moves": [
                     "Attack Order",
                     "Defend Order",
@@ -57381,14 +57565,14 @@ backup_data = {
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Lonely",
                 "moves": [
                     "Attack Order",
                     "Hurricane",
@@ -57556,8 +57740,8 @@ backup_data = {
                 "spriteId": 10,
                 "orientation": 3
             },
-            "Lvl 53 Commander Jupiter3 ": {
-                "level": 53,
+            "Lvl 55 Commander Jupiter3 ": {
+                "level": 55,
                 "tr_id": 441,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -57572,7 +57756,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Impish",
+                "nature": "Quirky",
                 "moves": [
                     "Giga Impact",
                     "Rage",
@@ -57587,8 +57771,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 89 Galactic Ferdinand ": {
-                "level": 89,
+            "Lvl 92 Galactic Ferdinand ": {
+                "level": 92,
                 "tr_id": 510,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -57603,7 +57787,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Adamant",
                 "moves": [
                     "Secret Power",
                     "Rage",
@@ -57618,8 +57802,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Hail"
             },
-            "Lvl 86 T.G. Squad Amalthia ": {
-                "level": 86,
+            "Lvl 90 T.G. Squad Amalthia ": {
+                "level": 90,
                 "tr_id": 534,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -57634,7 +57818,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Serious",
                 "moves": [
                     "Flare Blitz",
                     "Giga Impact",
@@ -57711,8 +57895,8 @@ backup_data = {
             }
         },
         "Grumpig": {
-            "Lvl 56 Policeman Bobby |Pokémon Mansion| ": {
-                "level": 56,
+            "Lvl 57 Policeman Bobby |Pokémon Mansion| ": {
+                "level": 57,
                 "tr_id": 88,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -57727,7 +57911,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Quiet",
                 "moves": [
                     "Flash",
                     "Drain Punch",
@@ -57893,36 +58077,6 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 0,
                 "partner": 631
-            },
-            "Lvl 59 Psychic Mitchell2 ": {
-                "level": 59,
-                "tr_id": 674,
-                "ai": 5,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "",
-                "item": "None",
-                "ivs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Modest",
-                "moves": [
-                    "Extrasensory",
-                    "Power Gem",
-                    "Shadow Ball",
-                    "Aura Sphere"
-                ],
-                "sub_index": 0,
-                "ability": "Thick Fat",
-                "gender": "Male",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
             },
             "Lvl 51 Double Team Stevie & Lindsey ": {
                 "level": 51,
@@ -58139,8 +58293,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Hail"
             },
-            "Lvl 56 Scientist Bill ": {
-                "level": 56,
+            "Lvl 59 Scientist Bill ": {
+                "level": 59,
                 "tr_id": 154,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -58155,7 +58309,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Hardy",
                 "moves": [
                     "Light Screen",
                     "Self-Destruct",
@@ -58168,8 +58322,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 86 Aroma Lady Fadel ": {
-                "level": 86,
+            "Lvl 89 Aroma Lady Fadel ": {
+                "level": 89,
                 "tr_id": 224,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -58184,7 +58338,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Calm",
                 "moves": [
                     "Reflect",
                     "Light Screen",
@@ -58285,8 +58439,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 56 Galactic Iapetus |Eterna Forest| ": {
-                "level": 56,
+            "Lvl 61 Galactic Iapetus |Eterna Forest| ": {
+                "level": 61,
                 "tr_id": 397,
                 "ai": 23,
                 "battle_type": "Doubles",
@@ -58301,7 +58455,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Hasty",
                 "moves": [
                     "Explosion",
                     "-",
@@ -58440,8 +58594,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 55 Sailor Cesar |Hearthome City| ": {
-                "level": 55,
+            "Lvl 58 Sailor Cesar |Hearthome City| ": {
+                "level": 58,
                 "tr_id": 279,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -58456,7 +58610,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Lonely",
                 "moves": [
                     "Earthquake",
                     "Crunch",
@@ -58501,8 +58655,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 90 Galactic Ferdinand ": {
-                "level": 90,
+            "Lvl 92 Galactic Ferdinand ": {
+                "level": 92,
                 "tr_id": 510,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -58517,7 +58671,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Modest",
                 "moves": [
                     "Blizzard",
                     "Pursuit",
@@ -58655,8 +58809,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Galactic Naid |Wayward Cave| ": {
-                "level": 54,
+            "Lvl 55 Galactic Naid |Wayward Cave| ": {
+                "level": 55,
                 "tr_id": 379,
                 "ai": 167,
                 "battle_type": "Doubles",
@@ -58671,7 +58825,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Brave",
                 "moves": [
                     "Rest",
                     "Waterfall",
@@ -58847,8 +59001,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Hail"
             },
-            "Lvl 95 Fisherman Greg ": {
-                "level": 95,
+            "Lvl 96 Fisherman Greg ": {
+                "level": 96,
                 "tr_id": 168,
                 "ai": 199,
                 "battle_type": "Doubles",
@@ -58863,7 +59017,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Naughty",
                 "moves": [
                     "Avalanche",
                     "Waterfall",
@@ -58940,8 +59094,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 62 Commander Mars2 ": {
-                "level": 62,
+            "Lvl 66 Commander Mars2 ": {
+                "level": 66,
                 "tr_id": 405,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -58949,14 +59103,14 @@ backup_data = {
                 "form": "",
                 "item": "Rindo Berry",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Naive",
                 "moves": [
                     "Muddy Water",
                     "Earthquake",
@@ -59036,11 +59190,41 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Expert Belt",
+                "item": "Rindo Berry",
+                "ivs": {
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
+                },
+                "nature": "Jolly",
+                "moves": [
+                    "Hydro Cannon",
+                    "Earthquake",
+                    "Yawn",
+                    "Avalanche"
+                ],
+                "sub_index": 4,
+                "ability": "Swift Swim",
+                "gender": "Male",
+                "location": "Route 223",
+                "spriteId": 54,
+                "orientation": 3
+            },
+            "Lvl 91 Galactic Cordelia |Coronet Highlands| ": {
+                "level": 91,
+                "tr_id": 514,
+                "ai": 31,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "Leftovers",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -59049,19 +59233,20 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Brave",
                 "moves": [
-                    "Surf",
-                    "Bulldoze",
-                    "Rock Slide",
-                    "Low Kick"
+                    "Spikes",
+                    "Ice Ball",
+                    "Sand Tomb",
+                    "Aqua Tail"
                 ],
                 "sub_index": 4,
                 "ability": "Swift Swim",
                 "gender": "Male",
-                "location": "Route 223",
-                "spriteId": 54,
-                "orientation": 3
+                "location": "Coronet Highlands",
+                "spriteId": 103,
+                "orientation": 2,
+                "weather": "Hail"
             },
             "Lvl 91 Commander Mars3 ": {
                 "level": 91,
@@ -59072,14 +59257,14 @@ backup_data = {
                 "form": "",
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Impish",
+                "nature": "Lonely",
                 "moves": [
                     "Avalanche",
                     "Earthquake",
@@ -59187,8 +59372,8 @@ backup_data = {
                 "spriteId": 10,
                 "orientation": 1
             },
-            "Lvl 85 Galactic Neptune |Stark Mountain| ": {
-                "level": 85,
+            "Lvl 86 Galactic Neptune |Stark Mountain| ": {
+                "level": 86,
                 "tr_id": 581,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -59203,7 +59388,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Docile",
                 "moves": [
                     "Earthquake",
                     "Waterfall",
@@ -59714,8 +59899,8 @@ backup_data = {
                 "spriteId": 45,
                 "orientation": 0
             },
-            "Lvl 88 Aroma Lady Fadel ": {
-                "level": 88,
+            "Lvl 90 Aroma Lady Fadel ": {
+                "level": 90,
                 "tr_id": 224,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -59730,7 +59915,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Docile",
                 "moves": [
                     "Dragon Dance",
                     "Roost",
@@ -60028,8 +60213,8 @@ backup_data = {
                 "spriteId": 38,
                 "orientation": 3
             },
-            "Lvl 56 Hiker David |Victory Road| ": {
-                "level": 56,
+            "Lvl 61 Hiker David |Victory Road| ": {
+                "level": 61,
                 "tr_id": 232,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -60044,7 +60229,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Calm",
                 "moves": [
                     "Glare",
                     "Iron Head",
@@ -60117,6 +60302,37 @@ backup_data = {
                 "location": "Veilstone City",
                 "spriteId": 29,
                 "orientation": 1
+            },
+            "Lvl 94 Galactic Prospero ": {
+                "level": 94,
+                "tr_id": 526,
+                "ai": 15,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "Leftovers",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Quiet",
+                "moves": [
+                    "Secret Power",
+                    "Pursuit",
+                    "Drill Run",
+                    "Agility"
+                ],
+                "sub_index": 2,
+                "ability": "Serene Grace",
+                "gender": "Male",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null,
+                "weather": "Hail"
             },
             "Lvl 85 Galactic Terra2 ": {
                 "level": 85,
@@ -60368,8 +60584,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 54 Galactic Nereid |Iron Island| ": {
-                "level": 54,
+            "Lvl 56 Galactic Nereid |Iron Island| ": {
+                "level": 56,
                 "tr_id": 378,
                 "ai": 15,
                 "battle_type": "Doubles",
@@ -60384,7 +60600,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Lonely",
                 "moves": [
                     "Fake Out",
                     "Ice Beam",
@@ -60401,8 +60617,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sun"
             },
-            "Lvl 64 Galactic Tethys |Lake Valor| ": {
-                "level": 64,
+            "Lvl 67 Galactic Tethys |Lake Valor| ": {
+                "level": 67,
                 "tr_id": 417,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -60417,7 +60633,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Calm",
                 "moves": [
                     "Muddy Water",
                     "Ice Beam",
@@ -60496,8 +60712,8 @@ backup_data = {
                 "spriteId": 45,
                 "orientation": 0
             },
-            "Lvl 62 Galactic Dione ": {
-                "level": 62,
+            "Lvl 65 Galactic Dione ": {
+                "level": 65,
                 "tr_id": 390,
                 "ai": 1063,
                 "battle_type": "Doubles",
@@ -60512,7 +60728,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Mild",
+                "nature": "Quiet",
                 "moves": [
                     "Vise Grip",
                     "Megahorn",
@@ -60684,8 +60900,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 49 Galactic Metis ": {
-                "level": 49,
+            "Lvl 53 Galactic Metis ": {
+                "level": 53,
                 "tr_id": 489,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -60700,7 +60916,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Timid",
                 "moves": [
                     "Belly Drum",
                     "Waterfall",
@@ -60808,8 +61024,8 @@ backup_data = {
                 "spriteId": 45,
                 "orientation": 3
             },
-            "Lvl 55 Sailor Cesar |Hearthome City| ": {
-                "level": 55,
+            "Lvl 60 Sailor Cesar |Hearthome City| ": {
+                "level": 60,
                 "tr_id": 279,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -60824,7 +61040,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Naive",
                 "moves": [
                     "Air Slash",
                     "Surf",
@@ -60839,8 +61055,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Rain"
             },
-            "Lvl 59 Galactic Daphnis |Lake Verity| ": {
-                "level": 59,
+            "Lvl 62 Galactic Daphnis |Lake Verity| ": {
+                "level": 62,
                 "tr_id": 425,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -60855,7 +61071,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Modest",
                 "moves": [
                     "Surf",
                     "Hurricane",
@@ -60902,8 +61118,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 89 Galactic Triton2 ": {
-                "level": 89,
+            "Lvl 84 Galactic Triton2 ": {
+                "level": 84,
                 "tr_id": 606,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -60918,7 +61134,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Gentle",
                 "moves": [
                     "Hurricane",
                     "Muddy Water",
@@ -61151,8 +61367,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 94 Hiker J.J Ahern ": {
-                "level": 94,
+            "Lvl 95 Hiker J.J Ahern ": {
+                "level": 95,
                 "tr_id": 237,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -61167,7 +61383,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Lonely",
                 "moves": [
                     "Thunder Wave",
                     "Thunderbolt",
@@ -61273,8 +61489,8 @@ backup_data = {
                 "spriteId": 13,
                 "orientation": 2
             },
-            "Lvl 86 Galactic Oberon ": {
-                "level": 86,
+            "Lvl 87 Galactic Oberon ": {
+                "level": 87,
                 "tr_id": 582,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -61289,7 +61505,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Hasty",
                 "moves": [
                     "Fake Out",
                     "Petal Dance",
@@ -61581,8 +61797,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 64 Galactic Tethys |Lake Valor| ": {
-                "level": 64,
+            "Lvl 67 Galactic Tethys |Lake Valor| ": {
+                "level": 67,
                 "tr_id": 417,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -61597,7 +61813,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Lax",
                 "moves": [
                     "Future Sight",
                     "Muddy Water",
@@ -61614,8 +61830,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 60 Galactic Daphnis |Lake Verity| ": {
-                "level": 60,
+            "Lvl 63 Galactic Daphnis |Lake Verity| ": {
+                "level": 63,
                 "tr_id": 425,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -61630,7 +61846,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Careful",
                 "moves": [
                     "Nasty Plot",
                     "Grass Knot",
@@ -62169,8 +62385,8 @@ backup_data = {
                 "partner": 335,
                 "weather": "Sun"
             },
-            "Lvl 92 Galactic Ferdinand ": {
-                "level": 92,
+            "Lvl 93 Galactic Ferdinand ": {
+                "level": 93,
                 "tr_id": 510,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -62356,8 +62572,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 66 Galactic Epimetheus ": {
-                "level": 66,
+            "Lvl 70 Galactic Epimetheus ": {
+                "level": 70,
                 "tr_id": 500,
                 "ai": 1335,
                 "battle_type": "Doubles",
@@ -62365,14 +62581,14 @@ backup_data = {
                 "form": "",
                 "item": "King’s Rock",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Careful",
                 "moves": [
                     "Nature Power",
                     "Scald",
@@ -62483,8 +62699,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 53 Galactic Nereid |Iron Island| ": {
-                "level": 53,
+            "Lvl 55 Galactic Nereid |Iron Island| ": {
+                "level": 55,
                 "tr_id": 378,
                 "ai": 15,
                 "battle_type": "Doubles",
@@ -62499,7 +62715,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Timid",
                 "moves": [
                     "Clamp",
                     "Sucker Punch",
@@ -62579,10 +62795,10 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 88 Beauty Jasmine ": {
-                "level": 88,
+            "Lvl 92 Beauty Jasmine ": {
+                "level": 92,
                 "tr_id": 222,
-                "ai": 7,
+                "ai": 63,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -62595,7 +62811,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Jolly",
                 "moves": [
                     "Zap Cannon",
                     "Scald",
@@ -62731,6 +62947,37 @@ backup_data = {
                 "spriteId": 12,
                 "orientation": 2,
                 "weather": "Rain"
+            },
+            "Lvl 92 Galactic Pluto2 ": {
+                "level": 92,
+                "tr_id": 520,
+                "ai": 19,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "Leftovers",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Lax",
+                "moves": [
+                    "Zap Cannon",
+                    "Blizzard",
+                    "Hydro Pump",
+                    "HP Ground"
+                ],
+                "sub_index": 5,
+                "ability": "Volt Absorb",
+                "gender": "Male",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null,
+                "weather": "Hail"
             },
             "Lvl 96 Galactic Thalassa ": {
                 "level": 96,
@@ -62887,8 +63134,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 54 Sailor Cesar |Hearthome City| ": {
-                "level": 54,
+            "Lvl 59 Sailor Cesar |Hearthome City| ": {
+                "level": 59,
                 "tr_id": 279,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -62903,7 +63150,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Naughty",
                 "moves": [
                     "Earthquake",
                     "Head Smash",
@@ -63038,8 +63285,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 58 Galactic Neptune2 ": {
-                "level": 58,
+            "Lvl 60 Galactic Neptune2 ": {
+                "level": 60,
                 "tr_id": 836,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -63054,7 +63301,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Quirky",
+                "nature": "Gentle",
                 "moves": [
                     "Head Smash",
                     "Yawn",
@@ -63163,8 +63410,8 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 3
             },
-            "Lvl 92 Galactic Ferdinand ": {
-                "level": 92,
+            "Lvl 94 Galactic Ferdinand ": {
+                "level": 94,
                 "tr_id": 510,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -63179,7 +63426,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Jolly",
                 "moves": [
                     "Metal Burst",
                     "Stealth Rock",
@@ -63346,8 +63593,8 @@ backup_data = {
                 "spriteId": 33,
                 "orientation": 3
             },
-            "Lvl 52 Galactic Calypso |Iron Island| ": {
-                "level": 52,
+            "Lvl 53 Galactic Calypso |Iron Island| ": {
+                "level": 53,
                 "tr_id": 452,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -63362,7 +63609,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Timid",
                 "moves": [
                     "Attract",
                     "Rock Slide",
@@ -63410,8 +63657,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Scientist Bill ": {
-                "level": 55,
+            "Lvl 59 Scientist Bill ": {
+                "level": 59,
                 "tr_id": 154,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -63426,7 +63673,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Rash",
                 "moves": [
                     "Flash Cannon",
                     "Calm Mind",
@@ -63499,8 +63746,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Hail"
             },
-            "Lvl 54 Galactic Larissa ": {
-                "level": 54,
+            "Lvl 56 Galactic Larissa ": {
+                "level": 56,
                 "tr_id": 388,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -63515,7 +63762,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Rash",
+                "nature": "Lax",
                 "moves": [
                     "Earthquake",
                     "Gyro Ball",
@@ -63562,8 +63809,8 @@ backup_data = {
                 "partner": 464,
                 "tagPartner": 608
             },
-            "Lvl 48 Galactic Metis ": {
-                "level": 48,
+            "Lvl 52 Galactic Metis ": {
+                "level": 52,
                 "tr_id": 489,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -63578,7 +63825,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Quirky",
                 "moves": [
                     "Curse",
                     "Gyro Ball",
@@ -63592,8 +63839,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 91 Galactic Larissa |Coronet Highlands| ": {
-                "level": 91,
+            "Lvl 92 Galactic Larissa |Coronet Highlands| ": {
+                "level": 92,
                 "tr_id": 518,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -63608,7 +63855,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Jolly",
                 "moves": [
                     "Future Sight",
                     "Double Team",
@@ -63681,8 +63928,8 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 2
             },
-            "Lvl 56 Waiter Doppio ": {
-                "level": 56,
+            "Lvl 57 Waiter Doppio ": {
+                "level": 57,
                 "tr_id": 897,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -63697,7 +63944,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Adamant",
                 "moves": [
                     "Confuse Ray",
                     "Hypnosis",
@@ -63927,10 +64174,10 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 87 Idol Zoe |Victory Road| ": {
-                "level": 87,
+            "Lvl 91 Idol Zoe |Victory Road| ": {
+                "level": 91,
                 "tr_id": 236,
-                "ai": 7,
+                "ai": 29,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -64017,8 +64264,8 @@ backup_data = {
                 "spriteId": 9,
                 "orientation": 2
             },
-            "Lvl 54 Galactic Sao |Route 210| ": {
-                "level": 54,
+            "Lvl 55 Galactic Sao |Route 210| ": {
+                "level": 55,
                 "tr_id": 305,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -64050,8 +64297,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Rain"
             },
-            "Lvl 89 Galactic Despina |Coronet Highlands| ": {
-                "level": 89,
+            "Lvl 92 Galactic Despina |Coronet Highlands| ": {
+                "level": 92,
                 "tr_id": 507,
                 "ai": 527,
                 "battle_type": "Doubles",
@@ -64066,7 +64313,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Hardy",
                 "moves": [
                     "Secret Power",
                     "Gravity",
@@ -64265,8 +64512,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Commander Jupiter3 ": {
-                "level": 53,
+            "Lvl 54 Commander Jupiter3 ": {
+                "level": 54,
                 "tr_id": 441,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -64281,7 +64528,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naive",
+                "nature": "Jolly",
                 "moves": [
                     "Acupressure",
                     "Vital Throw",
@@ -64452,8 +64699,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 64 Galactic Tethys |Lake Valor| ": {
-                "level": 64,
+            "Lvl 67 Galactic Tethys |Lake Valor| ": {
+                "level": 67,
                 "tr_id": 417,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -64468,7 +64715,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Naughty",
                 "moves": [
                     "Muddy Water",
                     "Lovely Kiss",
@@ -64902,7 +65149,7 @@ backup_data = {
                 },
                 "nature": "Impish",
                 "moves": [
-                    "Rollout",
+                    "Accelerock",
                     "Ice Shard",
                     "Bulldoze",
                     "Charm"
@@ -64947,8 +65194,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 91 Dragon Tamer Clinton |Canalave City| ": {
-                "level": 91,
+            "Lvl 92 Dragon Tamer Clinton |Canalave City| ": {
+                "level": 92,
                 "tr_id": 231,
                 "ai": 63,
                 "battle_type": "Singles",
@@ -64963,7 +65210,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Rash",
                 "moves": [
                     "Outrage",
                     "Slam",
@@ -65008,8 +65255,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 54 Galactic Sao |Route 210| ": {
-                "level": 54,
+            "Lvl 55 Galactic Sao |Route 210| ": {
+                "level": 55,
                 "tr_id": 305,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -65225,8 +65472,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Hail"
             },
-            "Lvl 57 Scientist Bill ": {
-                "level": 57,
+            "Lvl 61 Scientist Bill ": {
+                "level": 61,
                 "tr_id": 154,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -65241,7 +65488,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Quiet",
                 "moves": [
                     "Ice Beam",
                     "Tri Attack",
@@ -65312,8 +65559,8 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 2
             },
-            "Lvl 92 Galactic Larissa |Coronet Highlands| ": {
-                "level": 92,
+            "Lvl 95 Galactic Larissa |Coronet Highlands| ": {
+                "level": 95,
                 "tr_id": 518,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -65328,7 +65575,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Quirky",
                 "moves": [
                     "Recover",
                     "Swift",
@@ -65745,8 +65992,8 @@ backup_data = {
                 "spriteId": 68,
                 "orientation": 3
             },
-            "Lvl 96 Galactic Ariel ": {
-                "level": 96,
+            "Lvl 94 Galactic Ariel ": {
+                "level": 94,
                 "tr_id": 529,
                 "ai": 1183,
                 "battle_type": "Singles",
@@ -65761,7 +66008,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Adamant",
                 "moves": [
                     "Secret Power",
                     "Low Kick",
@@ -65932,8 +66179,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 95 Galactic Ariel ": {
-                "level": 95,
+            "Lvl 92 Galactic Ariel ": {
+                "level": 92,
                 "tr_id": 529,
                 "ai": 1183,
                 "battle_type": "Singles",
@@ -65948,7 +66195,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Bold",
                 "moves": [
                     "Nature Power",
                     "Petal Dance",
@@ -66057,8 +66304,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Hail"
             },
-            "Lvl 90 Dragon Tamer Clinton |Canalave City| ": {
-                "level": 90,
+            "Lvl 91 Dragon Tamer Clinton |Canalave City| ": {
+                "level": 91,
                 "tr_id": 231,
                 "ai": 63,
                 "battle_type": "Singles",
@@ -66073,7 +66320,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Lonely",
                 "moves": [
                     "Draco Meteor",
                     "Outrage",
@@ -66087,8 +66334,8 @@ backup_data = {
                 "spriteId": 19,
                 "orientation": 1
             },
-            "Lvl 86 Roughneck Wyatt |Victory Road| ": {
-                "level": 86,
+            "Lvl 89 Roughneck Wyatt |Victory Road| ": {
+                "level": 89,
                 "tr_id": 234,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -66103,7 +66350,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Sassy",
                 "moves": [
                     "Sky Attack",
                     "Dragon Claw",
@@ -66117,8 +66364,8 @@ backup_data = {
                 "spriteId": 4,
                 "orientation": 1
             },
-            "Lvl 64 Commander Saturn ": {
-                "level": 64,
+            "Lvl 65 Commander Saturn ": {
+                "level": 65,
                 "tr_id": 408,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -66133,7 +66380,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Hasty",
+                "nature": "Calm",
                 "moves": [
                     "Hurricane",
                     "Dragon Rush",
@@ -66150,8 +66397,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 49 Galactic Io |Wayward Cave| ": {
-                "level": 49,
+            "Lvl 52 Galactic Io |Wayward Cave| ": {
+                "level": 52,
                 "tr_id": 442,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -66166,7 +66413,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Impish",
                 "moves": [
                     "Draco Meteor",
                     "Dragon Rush",
@@ -66181,8 +66428,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Fog"
             },
-            "Lvl 87 T.G. Squad Amalthia ": {
-                "level": 87,
+            "Lvl 90 T.G. Squad Amalthia ": {
+                "level": 90,
                 "tr_id": 534,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -66197,7 +66444,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Careful",
                 "moves": [
                     "Dragon Pulse",
                     "Heat Wave",
@@ -66283,7 +66530,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "None",
+                "item": "Micle Berry",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -66296,7 +66543,7 @@ backup_data = {
                 "moves": [
                     "Dragon Claw",
                     "Aqua Tail",
-                    "Scary Face",
+                    "Fire Fang",
                     "Thunder Fang"
                 ],
                 "sub_index": 3,
@@ -66306,8 +66553,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Galactic Boss Cyrus4 ": {
-                "level": 53,
+            "Lvl 55 Galactic Boss Cyrus4 ": {
+                "level": 55,
                 "tr_id": 913,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -66322,7 +66569,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Mild",
+                "nature": "Naive",
                 "moves": [
                     "Dragon Dance",
                     "Aerial Ace",
@@ -66691,8 +66938,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Hail"
             },
-            "Lvl 70 Skier Anas |Snowpoint City| ": {
-                "level": 70,
+            "Lvl 71 Skier Anas |Snowpoint City| ": {
+                "level": 71,
                 "tr_id": 269,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -66707,7 +66954,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Mild",
+                "nature": "Calm",
                 "moves": [
                     "Extrasensory",
                     "Hyper Beam",
@@ -66753,8 +67000,8 @@ backup_data = {
                 "partner": 455,
                 "tagPartner": 612
             },
-            "Lvl 90 Galactic Valetudo ": {
-                "level": 90,
+            "Lvl 92 Galactic Valetudo ": {
+                "level": 92,
                 "tr_id": 512,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -66769,7 +67016,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Brave",
                 "moves": [
                     "Gravity",
                     "Secret Power",
@@ -67122,8 +67369,8 @@ backup_data = {
                 "spriteId": 41,
                 "orientation": 3
             },
-            "Lvl 49 Galactic Amalthia ": {
-                "level": 49,
+            "Lvl 53 Galactic Amalthia ": {
+                "level": 53,
                 "tr_id": 490,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -67138,7 +67385,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Timid",
                 "moves": [
                     "Belly Drum",
                     "Rage",
@@ -67266,7 +67513,7 @@ backup_data = {
                 "moves": [
                     "Supersonic",
                     "Stomp",
-                    "Rollout",
+                    "Accelerock",
                     "Water Ball"
                 ],
                 "sub_index": 2,
@@ -67416,7 +67663,7 @@ backup_data = {
                 "moves": [
                     "Supersonic",
                     "Stomp",
-                    "Rollout",
+                    "Accelerock",
                     "Water Ball"
                 ],
                 "sub_index": 2,
@@ -67613,98 +67860,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 100 Pkmn Trainer Barry13 ": {
-                "level": 100,
-                "tr_id": 479,
-                "ai": 135,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "",
-                "item": "Flame Orb",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "nature": "Jolly",
-                "moves": [
-                    "Facade",
-                    "Brave Bird",
-                    "Take Down",
-                    "Quick Attack"
-                ],
-                "sub_index": 1,
-                "ability": "Guts",
-                "gender": "Male",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 100 Pkmn Trainer Barry14 ": {
-                "level": 100,
-                "tr_id": 480,
-                "ai": 135,
-                "battle_type": "Doubles",
-                "reward_item": "",
-                "form": "",
-                "item": "Flame Orb",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "nature": "Jolly",
-                "moves": [
-                    "Facade",
-                    "Brave Bird",
-                    "Take Down",
-                    "Quick Attack"
-                ],
-                "sub_index": 1,
-                "ability": "Guts",
-                "gender": "Male",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
-            },
-            "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
-                "level": 100,
-                "tr_id": 481,
-                "ai": 135,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "",
-                "item": "Flame Orb",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "nature": "Relaxed",
-                "moves": [
-                    "Facade",
-                    "Brave Bird",
-                    "Take Down",
-                    "Quick Attack"
-                ],
-                "sub_index": 1,
-                "ability": "Guts",
-                "gender": "Male",
-                "location": "Route 223",
-                "spriteId": 54,
-                "orientation": 3
-            },
-            "Lvl 88 Galactic Despina |Coronet Highlands| ": {
-                "level": 88,
+            "Lvl 91 Galactic Despina |Coronet Highlands| ": {
+                "level": 91,
                 "tr_id": 507,
                 "ai": 527,
                 "battle_type": "Doubles",
@@ -67719,7 +67876,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Lax",
                 "moves": [
                     "Secret Power",
                     "Sky Attack",
@@ -67890,8 +68047,8 @@ backup_data = {
                 "partner": 492,
                 "weather": "Sun"
             },
-            "Lvl 53 Galactic Neso |Route 210| ": {
-                "level": 53,
+            "Lvl 54 Galactic Neso |Route 210| ": {
+                "level": 54,
                 "tr_id": 289,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -67906,7 +68063,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Lax",
                 "moves": [
                     "Sleep Powder",
                     "Psychic",
@@ -67923,8 +68080,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Rain"
             },
-            "Lvl 62 Galactic Atlas ": {
-                "level": 62,
+            "Lvl 66 Galactic Atlas ": {
+                "level": 66,
                 "tr_id": 499,
                 "ai": 55,
                 "battle_type": "Doubles",
@@ -67939,7 +68096,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Rash",
+                "nature": "Sassy",
                 "moves": [
                     "Explosion",
                     "Solar Beam",
@@ -67956,8 +68113,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Sun"
             },
-            "Lvl 89 Galactic Cordelia |Coronet Highlands| ": {
-                "level": 89,
+            "Lvl 91 Galactic Cordelia |Coronet Highlands| ": {
+                "level": 91,
                 "tr_id": 514,
                 "ai": 31,
                 "battle_type": "Singles",
@@ -67972,7 +68129,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Relaxed",
                 "moves": [
                     "Earthquake",
                     "Leaf Storm",
@@ -68356,8 +68513,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 97 Galactic Umbriel |Coronet Highlands| ": {
-                "level": 97,
+            "Lvl 94 Galactic Umbriel |Coronet Highlands| ": {
+                "level": 94,
                 "tr_id": 530,
                 "ai": 1439,
                 "battle_type": "Singles",
@@ -68372,7 +68529,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Jolly",
                 "moves": [
                     "Secret Power",
                     "Air Slash",
@@ -68450,8 +68607,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Hail"
             },
-            "Lvl 87 Clown Julia |Victory Road| ": {
-                "level": 87,
+            "Lvl 90 Clown Julia |Victory Road| ": {
+                "level": 90,
                 "tr_id": 229,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -68466,7 +68623,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Quiet",
                 "moves": [
                     "Waterfall",
                     "Triple Axel",
@@ -68481,8 +68638,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Rain"
             },
-            "Lvl 70 Skier Anas |Snowpoint City| ": {
-                "level": 70,
+            "Lvl 71 Skier Anas |Snowpoint City| ": {
+                "level": 71,
                 "tr_id": 269,
                 "ai": 279,
                 "battle_type": "Singles",
@@ -68497,7 +68654,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Bold",
                 "moves": [
                     "Avalanche",
                     "Earthquake",
@@ -68604,25 +68761,25 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
                 "item": "Splash Plate",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Mild",
+                "nature": "Impish",
                 "moves": [
-                    "Aqua Cutter",
+                    "Aqua Tail",
                     "Drill Peck",
                     "Earthquake",
-                    "Swagger"
+                    "Metal Burst"
                 ],
                 "sub_index": 5,
                 "ability": "Swift Swim",
@@ -68631,8 +68788,8 @@ backup_data = {
                 "spriteId": 54,
                 "orientation": 3
             },
-            "Lvl 89 Galactic Valetudo ": {
-                "level": 89,
+            "Lvl 91 Galactic Valetudo ": {
+                "level": 91,
                 "tr_id": 512,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -68647,7 +68804,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Hardy",
                 "moves": [
                     "Earthquake",
                     "Aqua Cutter",
@@ -68724,8 +68881,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Sand"
             },
-            "Lvl 88 Galactic Neptune |Stark Mountain| ": {
-                "level": 88,
+            "Lvl 86 Galactic Neptune |Stark Mountain| ": {
+                "level": 86,
                 "tr_id": 581,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -68740,7 +68897,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Lax",
                 "moves": [
                     "Earthquake",
                     "Waterfall",
@@ -69268,7 +69425,7 @@ backup_data = {
                 "nature": "Naive",
                 "moves": [
                     "Ice Ball",
-                    "Rollout",
+                    "Accelerock",
                     "Spikes",
                     "Earthquake"
                 ],
@@ -69495,8 +69652,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Galactic Dione ": {
-                "level": 61,
+            "Lvl 65 Galactic Dione ": {
+                "level": 65,
                 "tr_id": 390,
                 "ai": 1063,
                 "battle_type": "Doubles",
@@ -69511,7 +69668,7 @@ backup_data = {
                     "sd": 29,
                     "sp": 29
                 },
-                "nature": "Impish",
+                "nature": "Naughty",
                 "moves": [
                     "Fake Out",
                     "Earthquake",
@@ -70107,8 +70264,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 86 Clown Julia |Victory Road| ": {
-                "level": 86,
+            "Lvl 89 Clown Julia |Victory Road| ": {
+                "level": 89,
                 "tr_id": 229,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -70123,7 +70280,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Lonely",
                 "moves": [
                     "Night Slash",
                     "Triple Axel",
@@ -70138,8 +70295,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Rain"
             },
-            "Lvl 67 Ace Trainer Alicia |Route 214| ": {
-                "level": 67,
+            "Lvl 68 Ace Trainer Alicia |Route 214| ": {
+                "level": 68,
                 "tr_id": 271,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -70154,7 +70311,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Relaxed",
                 "moves": [
                     "Low Kick",
                     "Avalanche",
@@ -70178,14 +70335,14 @@ backup_data = {
                 "form": "",
                 "item": "Berserk Gene",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Quirky",
+                "nature": "Adamant",
                 "moves": [
                     "Triple Axel",
                     "Close Combat",
@@ -70360,14 +70517,14 @@ backup_data = {
                 "form": "",
                 "item": "Focus Sash",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 29,
+                    "at": 29,
+                    "df": 29,
+                    "sa": 29,
+                    "sd": 29,
+                    "sp": 29
                 },
-                "nature": "Timid",
+                "nature": "Lonely",
                 "moves": [
                     "Close Combat",
                     "Poison Jab",
@@ -70381,8 +70538,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Galactic Boss Cyrus4 ": {
-                "level": 55,
+            "Lvl 57 Galactic Boss Cyrus4 ": {
+                "level": 57,
                 "tr_id": 913,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -70390,14 +70547,14 @@ backup_data = {
                 "form": "",
                 "item": "Focus Band",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Naughty",
                 "moves": [
                     "Feint Attack",
                     "Aerial Ace",
@@ -70445,8 +70602,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Hail"
             },
-            "Lvl 70 Skier Savannah |Snowpoint City| ": {
-                "level": 70,
+            "Lvl 71 Skier Savannah |Snowpoint City| ": {
+                "level": 71,
                 "tr_id": 270,
                 "ai": 47,
                 "battle_type": "Singles",
@@ -70461,7 +70618,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Docile",
                 "moves": [
                     "Toxic",
                     "Blizzard",
@@ -70476,8 +70633,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Hail"
             },
-            "Lvl 46 Collector Ripper |Route 214| ": {
-                "level": 46,
+            "Lvl 47 Collector Ripper |Route 214| ": {
+                "level": 47,
                 "tr_id": 272,
                 "ai": 87,
                 "battle_type": "Singles",
@@ -70492,7 +70649,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Hasty",
                 "moves": [
                     "Calm Mind",
                     "Baton Pass",
@@ -70506,8 +70663,8 @@ backup_data = {
                 "spriteId": 18,
                 "orientation": 2
             },
-            "Lvl 63 Galactic Pluto ": {
-                "level": 63,
+            "Lvl 64 Galactic Pluto ": {
+                "level": 64,
                 "tr_id": 282,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -70570,8 +70727,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Hail"
             },
-            "Lvl 88 T.G. Squad Perdita |Coronet Highlands| ": {
-                "level": 88,
+            "Lvl 91 T.G. Squad Perdiita |Coronet Highlands| ": {
+                "level": 91,
                 "tr_id": 517,
                 "ai": 1287,
                 "battle_type": "Doubles",
@@ -70586,7 +70743,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Careful",
                 "moves": [
                     "Blizzard",
                     "Calm Mind",
@@ -70915,8 +71072,8 @@ backup_data = {
                 "spriteId": 27,
                 "orientation": 1
             },
-            "Lvl 61 Galactic Pandora |Eterna Forest| ": {
-                "level": 61,
+            "Lvl 65 Galactic Pandora |Eterna Forest| ": {
+                "level": 65,
                 "tr_id": 394,
                 "ai": 1079,
                 "battle_type": "Doubles",
@@ -70931,7 +71088,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Hardy",
+                "nature": "Gentle",
                 "moves": [
                     "Hurricane",
                     "Supersonic",
@@ -70948,8 +71105,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 51 Galactic Mercury |Lake Valor| ": {
-                "level": 51,
+            "Lvl 53 Galactic Mercury |Lake Valor| ": {
+                "level": 53,
                 "tr_id": 416,
                 "ai": 271,
                 "battle_type": "Doubles",
@@ -70964,7 +71121,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Brave",
                 "moves": [
                     "Sludge Bomb",
                     "Ominous Wind",
@@ -71073,8 +71230,8 @@ backup_data = {
             }
         },
         "Aerodactyl": {
-            "Lvl 54 Scientist Bill ": {
-                "level": 54,
+            "Lvl 58 Scientist Bill ": {
+                "level": 58,
                 "tr_id": 154,
                 "ai": 271,
                 "battle_type": "Singles",
@@ -71089,7 +71246,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Timid",
                 "moves": [
                     "Rock Slide",
                     "Iron Head",
@@ -71103,8 +71260,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 89 Bug Catcher Ford |Victory Road| ": {
-                "level": 89,
+            "Lvl 92 Bug Catcher Ford |Victory Road| ": {
+                "level": 92,
                 "tr_id": 235,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -71119,7 +71276,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Quirky",
                 "moves": [
                     "Earthquake",
                     "Sky Attack",
@@ -71133,8 +71290,8 @@ backup_data = {
                 "spriteId": 33,
                 "orientation": 1
             },
-            "Lvl 87 Hiker J.J Ahern ": {
-                "level": 87,
+            "Lvl 90 Hiker J.J Ahern ": {
+                "level": 90,
                 "tr_id": 237,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -71149,7 +71306,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Modest",
                 "moves": [
                     "Stone Edge",
                     "Iron Head",
@@ -71163,8 +71320,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Galactic Laomedeia ": {
-                "level": 53,
+            "Lvl 55 Galactic Laomedeia ": {
+                "level": 55,
                 "tr_id": 392,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -71179,7 +71336,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Rash",
                 "moves": [
                     "Rock Slide",
                     "Pursuit",
@@ -71196,8 +71353,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sand"
             },
-            "Lvl 89 Commander Mars3 ": {
-                "level": 89,
+            "Lvl 90 Commander Mars3 ": {
+                "level": 90,
                 "tr_id": 528,
                 "ai": 231,
                 "battle_type": "Doubles",
@@ -71212,7 +71369,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Hasty",
                 "moves": [
                     "Sky Attack",
                     "Rock Slide",
@@ -71297,14 +71454,14 @@ backup_data = {
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Mild",
                 "moves": [
                     "Sky Attack",
                     "Head Smash",
@@ -71785,8 +71942,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 46 Collector Ripper |Route 214| ": {
-                "level": 46,
+            "Lvl 47 Collector Ripper |Route 214| ": {
+                "level": 47,
                 "tr_id": 272,
                 "ai": 87,
                 "battle_type": "Singles",
@@ -71801,7 +71958,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Sassy",
                 "moves": [
                     "Calm Mind",
                     "Baton Pass",
@@ -71878,8 +72035,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 86 T.G. Squad Perdita |Coronet Highlands| ": {
-                "level": 86,
+            "Lvl 90 T.G. Squad Perdiita |Coronet Highlands| ": {
+                "level": 90,
                 "tr_id": 517,
                 "ai": 1287,
                 "battle_type": "Doubles",
@@ -71894,7 +72051,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Quiet",
                 "moves": [
                     "Blizzard",
                     "Calm Mind",
@@ -72223,8 +72380,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 53 Galactic Naid |Wayward Cave| ": {
-                "level": 53,
+            "Lvl 55 Galactic Naid |Wayward Cave| ": {
+                "level": 55,
                 "tr_id": 379,
                 "ai": 167,
                 "battle_type": "Doubles",
@@ -72256,8 +72413,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sun"
             },
-            "Lvl 59 Galactic Daphnis |Lake Verity| ": {
-                "level": 59,
+            "Lvl 63 Galactic Daphnis |Lake Verity| ": {
+                "level": 63,
                 "tr_id": 425,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -72272,7 +72429,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Bold",
                 "moves": [
                     "Surf",
                     "Ice Beam",
@@ -72815,14 +72972,14 @@ backup_data = {
                 "form": "",
                 "item": "Lum Berry",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Impish",
+                "nature": "Adamant",
                 "moves": [
                     "Waterfall",
                     "Double Hit",
@@ -73081,8 +73238,8 @@ backup_data = {
             }
         },
         "Blastoise": {
-            "Lvl 95 Fisherman Greg ": {
-                "level": 95,
+            "Lvl 96 Fisherman Greg ": {
+                "level": 96,
                 "tr_id": 168,
                 "ai": 199,
                 "battle_type": "Doubles",
@@ -73097,7 +73254,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Naughty",
                 "moves": [
                     "Follow Me",
                     "Yawn",
@@ -73112,8 +73269,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 88 Hiker J.J Ahern ": {
-                "level": 88,
+            "Lvl 91 Hiker J.J Ahern ": {
+                "level": 91,
                 "tr_id": 237,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -73128,7 +73285,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Serious",
                 "moves": [
                     "Hydro Pump",
                     "Blizzard",
@@ -73300,8 +73457,8 @@ backup_data = {
             }
         },
         "Heracross": {
-            "Lvl 96 Fisherman Greg ": {
-                "level": 96,
+            "Lvl 97 Fisherman Greg ": {
+                "level": 97,
                 "tr_id": 168,
                 "ai": 199,
                 "battle_type": "Doubles",
@@ -73316,7 +73473,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Gentle",
                 "moves": [
                     "Cross Chop",
                     "Rock Slide",
@@ -73874,8 +74031,8 @@ backup_data = {
             }
         },
         "Dragonite": {
-            "Lvl 94 Fisherman Greg ": {
-                "level": 94,
+            "Lvl 95 Fisherman Greg ": {
+                "level": 95,
                 "tr_id": 168,
                 "ai": 199,
                 "battle_type": "Doubles",
@@ -73890,7 +74047,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Bashful",
                 "moves": [
                     "Dragon Rush",
                     "Hydro Pump",
@@ -73905,8 +74062,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 86 Collector Tobias ": {
-                "level": 86,
+            "Lvl 88 Collector Tobias ": {
+                "level": 88,
                 "tr_id": 227,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -73921,7 +74078,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Jolly",
                 "moves": [
                     "Draco Meteor",
                     "Stone Edge",
@@ -73935,8 +74092,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 91 Dragon Tamer Clinton |Canalave City| ": {
-                "level": 91,
+            "Lvl 92 Dragon Tamer Clinton |Canalave City| ": {
+                "level": 92,
                 "tr_id": 231,
                 "ai": 63,
                 "battle_type": "Singles",
@@ -73951,7 +74108,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Impish",
                 "moves": [
                     "Dragon Breath",
                     "Aqua Jet",
@@ -73981,7 +74138,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Docile",
+                "nature": "Naughty",
                 "moves": [
                     "Iron Tail",
                     "Fire Spin",
@@ -73995,8 +74152,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 68 Ace Trainer Alicia |Route 214| ": {
-                "level": 68,
+            "Lvl 69 Ace Trainer Alicia |Route 214| ": {
+                "level": 69,
                 "tr_id": 271,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -74011,7 +74168,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Adamant",
+                "nature": "Impish",
                 "moves": [
                     "Blizzard",
                     "Twister",
@@ -74035,14 +74192,14 @@ backup_data = {
                 "form": "",
                 "item": "None",
                 "ivs": {
-                    "hp": 12,
-                    "at": 12,
-                    "df": 12,
-                    "sa": 12,
-                    "sd": 12,
-                    "sp": 12
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Careful",
                 "moves": [
                     "Horn Drill",
                     "Aerial Ace",
@@ -74057,8 +74214,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Fog"
             },
-            "Lvl 85 Galactic Mercury4 ": {
-                "level": 85,
+            "Lvl 90 Galactic Mercury4 ": {
+                "level": 90,
                 "tr_id": 521,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -74073,7 +74230,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Hasty",
                 "moves": [
                     "Outrage",
                     "Dragon Dance",
@@ -74152,8 +74309,8 @@ backup_data = {
                 "partner": 544,
                 "weather": "Sun"
             },
-            "Lvl 86 Galactic Triton2 ": {
-                "level": 86,
+            "Lvl 85 Galactic Triton2 ": {
+                "level": 85,
                 "tr_id": 606,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -74168,7 +74325,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Impish",
                 "moves": [
                     "Hydro Pump",
                     "Thunder",
@@ -74308,8 +74465,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Sun"
             },
-            "Lvl 52 Galactic Sao |Route 210| ": {
-                "level": 52,
+            "Lvl 57 Galactic Sao |Route 210| ": {
+                "level": 57,
                 "tr_id": 305,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -74324,7 +74481,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Lax",
                 "moves": [
                     "Flare Blitz",
                     "Leaf Blade",
@@ -74585,8 +74742,8 @@ backup_data = {
                 "spriteId": 40,
                 "orientation": 1
             },
-            "Lvl 88 Cameraman Matt |Victory Road| ": {
-                "level": 88,
+            "Lvl 91 Cameraman Matt |Victory Road| ": {
+                "level": 91,
                 "tr_id": 233,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -74601,7 +74758,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Serious",
                 "moves": [
                     "Attract",
                     "Giga Impact",
@@ -75099,8 +75256,8 @@ backup_data = {
                 "partner": 180,
                 "weather": "Sun"
             },
-            "Lvl 91 Cameraman Matt |Victory Road| ": {
-                "level": 91,
+            "Lvl 93 Cameraman Matt |Victory Road| ": {
+                "level": 93,
                 "tr_id": 233,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -75115,7 +75272,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Quirky",
                 "moves": [
                     "Pin Missile",
                     "Thunder",
@@ -75129,8 +75286,8 @@ backup_data = {
                 "spriteId": 29,
                 "orientation": 3
             },
-            "Lvl 90 Bug Catcher Ford |Victory Road| ": {
-                "level": 90,
+            "Lvl 91 Bug Catcher Ford |Victory Road| ": {
+                "level": 91,
                 "tr_id": 235,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -75159,8 +75316,8 @@ backup_data = {
                 "spriteId": 33,
                 "orientation": 1
             },
-            "Lvl 46 Collector Ripper |Route 214| ": {
-                "level": 46,
+            "Lvl 47 Collector Ripper |Route 214| ": {
+                "level": 47,
                 "tr_id": 272,
                 "ai": 87,
                 "battle_type": "Singles",
@@ -75175,7 +75332,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Serious",
                 "moves": [
                     "Calm Mind",
                     "Baton Pass",
@@ -75250,8 +75407,8 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 3
             },
-            "Lvl 86 T.G. Squad Perdita |Coronet Highlands| ": {
-                "level": 86,
+            "Lvl 90 T.G. Squad Perdiita |Coronet Highlands| ": {
+                "level": 90,
                 "tr_id": 517,
                 "ai": 1287,
                 "battle_type": "Doubles",
@@ -75266,7 +75423,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Calm",
                 "moves": [
                     "Hail Ball",
                     "Charge Beam",
@@ -75281,8 +75438,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Hail"
             },
-            "Lvl 70 Veteran Anton |Snowpoint City| ": {
-                "level": 70,
+            "Lvl 71 Veteran Anton |Snowpoint City| ": {
+                "level": 71,
                 "tr_id": 827,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -75297,7 +75454,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Lonely",
+                "nature": "Adamant",
                 "moves": [
                     "Sing",
                     "Hail Ball",
@@ -75360,7 +75517,7 @@ backup_data = {
                 },
                 "nature": "Mild",
                 "moves": [
-                    "Agility",
+                    "Growth",
                     "Thunder",
                     "Thunder Wave",
                     "Baton Pass"
@@ -75436,8 +75593,8 @@ backup_data = {
                 "partner": 492,
                 "weather": "Sun"
             },
-            "Lvl 54 Hiker David |Victory Road| ": {
-                "level": 54,
+            "Lvl 59 Hiker David |Victory Road| ": {
+                "level": 59,
                 "tr_id": 232,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -75456,7 +75613,7 @@ backup_data = {
                 "moves": [
                     "Rock Slide",
                     "Explosion",
-                    "Rollout",
+                    "Accelerock",
                     "Earthquake"
                 ],
                 "sub_index": 2,
@@ -75545,7 +75702,7 @@ backup_data = {
                 "nature": "Careful",
                 "moves": [
                     "Sucker Punch",
-                    "Rollout",
+                    "Accelerock",
                     "Earthquake",
                     "Explosion"
                 ],
@@ -75556,8 +75713,8 @@ backup_data = {
                 "spriteId": 41,
                 "orientation": 3
             },
-            "Lvl 49 Galactic Metis ": {
-                "level": 49,
+            "Lvl 53 Galactic Metis ": {
+                "level": 53,
                 "tr_id": 489,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -75572,7 +75729,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Lonely",
                 "moves": [
                     "Explosion",
                     "Stealth Rock",
@@ -75587,8 +75744,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Fog"
             },
-            "Lvl 62 Galactic Atlas ": {
-                "level": 62,
+            "Lvl 66 Galactic Atlas ": {
+                "level": 66,
                 "tr_id": 499,
                 "ai": 55,
                 "battle_type": "Doubles",
@@ -75603,7 +75760,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Brave",
+                "nature": "Bold",
                 "moves": [
                     "Earthquake",
                     "Rock Slide",
@@ -75866,8 +76023,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 63 Galactic Venus2 ": {
-                "level": 63,
+            "Lvl 64 Galactic Venus2 ": {
+                "level": 64,
                 "tr_id": 426,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -75882,7 +76039,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Quiet",
+                "nature": "Serious",
                 "moves": [
                     "Sleep Powder",
                     "Power Whip",
@@ -75899,8 +76056,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sun"
             },
-            "Lvl 59 Galactic Epimetheus ": {
-                "level": 59,
+            "Lvl 64 Galactic Epimetheus ": {
+                "level": 64,
                 "tr_id": 500,
                 "ai": 1335,
                 "battle_type": "Doubles",
@@ -75908,14 +76065,14 @@ backup_data = {
                 "form": "",
                 "item": "White Herb",
                 "ivs": {
-                    "hp": 30,
-                    "at": 30,
-                    "df": 30,
-                    "sa": 30,
-                    "sd": 30,
-                    "sp": 30
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Lonely",
                 "moves": [
                     "Sleep Powder",
                     "Power Whip",
@@ -76212,8 +76369,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 86 Black Belt Roku |Victory Road| ": {
-                "level": 86,
+            "Lvl 89 Black Belt Roku |Victory Road| ": {
+                "level": 89,
                 "tr_id": 226,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -76228,9 +76385,9 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Hardy",
                 "moves": [
-                    "Rollout",
+                    "Accelerock",
                     "Pursuit",
                     "Superpower",
                     "Avalanche"
@@ -76242,8 +76399,8 @@ backup_data = {
                 "spriteId": 18,
                 "orientation": 2
             },
-            "Lvl 87 Commander Jupiter2 ": {
-                "level": 87,
+            "Lvl 89 Commander Jupiter2 ": {
+                "level": 89,
                 "tr_id": 407,
                 "ai": 143,
                 "battle_type": "Doubles",
@@ -76258,7 +76415,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Hardy",
                 "moves": [
                     "Superpower",
                     "Rock Slide",
@@ -76339,8 +76496,8 @@ backup_data = {
                 "tagPartner": 865,
                 "weather": "Hail"
             },
-            "Lvl 69 Ace Trainer Tenzing ": {
-                "level": 69,
+            "Lvl 70 Ace Trainer Tenzing ": {
+                "level": 70,
                 "tr_id": 828,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -76355,7 +76512,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Docile",
                 "moves": [
                     "Blizzard",
                     "Ancient Power",
@@ -76462,8 +76619,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Rain"
             },
-            "Lvl 59 Galactic Daphnis |Lake Verity| ": {
-                "level": 59,
+            "Lvl 63 Galactic Daphnis |Lake Verity| ": {
+                "level": 63,
                 "tr_id": 425,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -76478,7 +76635,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Quirky",
                 "moves": [
                     "Surf",
                     "Rest",
@@ -76556,8 +76713,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Rain"
             },
-            "Lvl 53 Galactic Nereid |Iron Island| ": {
-                "level": 53,
+            "Lvl 55 Galactic Nereid |Iron Island| ": {
+                "level": 55,
                 "tr_id": 378,
                 "ai": 15,
                 "battle_type": "Doubles",
@@ -76572,7 +76729,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Bold",
                 "moves": [
                     "Giga Drain",
                     "Supersonic",
@@ -76589,8 +76746,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sun"
             },
-            "Lvl 65 Galactic Rhea |Lake Verity| ": {
-                "level": 65,
+            "Lvl 67 Galactic Rhea |Lake Verity| ": {
+                "level": 67,
                 "tr_id": 418,
                 "ai": 1423,
                 "battle_type": "Doubles",
@@ -76605,7 +76762,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Modest",
+                "nature": "Bold",
                 "moves": [
                     "Muddy Water",
                     "Giga Drain",
@@ -76984,7 +77141,7 @@ backup_data = {
                 "nature": "Hasty",
                 "moves": [
                     "Curse",
-                    "Rollout",
+                    "Accelerock",
                     "Quick Attack",
                     "Aqua Jet"
                 ],
@@ -77620,6 +77777,36 @@ backup_data = {
                 "orientation": null,
                 "partner": 463,
                 "tagPartner": 608
+            },
+            "Lvl 67 Maid Yoki ": {
+                "level": 67,
+                "tr_id": 823,
+                "ai": 1,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Mild",
+                "moves": [
+                    "Wake-Up Slap",
+                    "-",
+                    "-",
+                    "-"
+                ],
+                "sub_index": 4,
+                "ability": "Aftermath",
+                "gender": "Female",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
             }
         },
         "Wynaut": {
@@ -77868,10 +78055,10 @@ backup_data = {
             }
         },
         "Metagross": {
-            "Lvl 86 Beauty Jasmine ": {
-                "level": 86,
+            "Lvl 89 Beauty Jasmine ": {
+                "level": 89,
                 "tr_id": 222,
-                "ai": 7,
+                "ai": 63,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -77884,7 +78071,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Relaxed",
+                "nature": "Modest",
                 "moves": [
                     "Stealth Rock",
                     "Explosion",
@@ -77926,8 +78113,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Galactic Proteus |Lake Valor| ": {
-                "level": 53,
+            "Lvl 55 Galactic Proteus |Lake Valor| ": {
+                "level": 55,
                 "tr_id": 372,
                 "ai": 1679,
                 "battle_type": "Doubles",
@@ -77942,7 +78129,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Hardy",
+                "nature": "Sassy",
                 "moves": [
                     "Hammer Arm",
                     "Iron Head",
@@ -77957,8 +78144,8 @@ backup_data = {
                 "partner": 446,
                 "tagPartner": 609
             },
-            "Lvl 64 Commander Saturn ": {
-                "level": 64,
+            "Lvl 65 Commander Saturn ": {
+                "level": 65,
                 "tr_id": 408,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -77973,7 +78160,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naughty",
+                "nature": "Jolly",
                 "moves": [
                     "Meteor Mash",
                     "Earthquake",
@@ -78173,8 +78360,8 @@ backup_data = {
                 "partner": 749,
                 "tagPartner": 612
             },
-            "Lvl 69 Veteran Anton |Snowpoint City| ": {
-                "level": 69,
+            "Lvl 70 Veteran Anton |Snowpoint City| ": {
+                "level": 70,
                 "tr_id": 827,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -78189,7 +78376,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Sassy",
+                "nature": "Modest",
                 "moves": [
                     "Zen Headbutt",
                     "Meteor Mash",
@@ -78203,8 +78390,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Hail"
             },
-            "Lvl 53 Galactic Boss Cyrus4 ": {
-                "level": 53,
+            "Lvl 55 Galactic Boss Cyrus4 ": {
+                "level": 55,
                 "tr_id": 913,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -78212,14 +78399,14 @@ backup_data = {
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Quirky",
+                "nature": "Adamant",
                 "moves": [
                     "Explosion",
                     "Double Team",
@@ -78235,10 +78422,10 @@ backup_data = {
             }
         },
         "Ninetales": {
-            "Lvl 88 Beauty Jasmine ": {
-                "level": 88,
+            "Lvl 91 Beauty Jasmine ": {
+                "level": 91,
                 "tr_id": 222,
-                "ai": 7,
+                "ai": 63,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -78251,7 +78438,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Docile",
                 "moves": [
                     "Flamethrower",
                     "Will-O-Wisp",
@@ -78265,8 +78452,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 87 Cameraman Matt |Victory Road| ": {
-                "level": 87,
+            "Lvl 90 Cameraman Matt |Victory Road| ": {
+                "level": 90,
                 "tr_id": 233,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -78281,7 +78468,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Adamant",
                 "moves": [
                     "Attract",
                     "Blast Burn",
@@ -78295,8 +78482,8 @@ backup_data = {
                 "spriteId": 29,
                 "orientation": 3
             },
-            "Lvl 71 Ace Trainer Alicia |Route 214| ": {
-                "level": 71,
+            "Lvl 72 Ace Trainer Alicia |Route 214| ": {
+                "level": 72,
                 "tr_id": 271,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -78311,7 +78498,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Mild",
                 "moves": [
                     "Hail Ball",
                     "Fire Spin",
@@ -78326,8 +78513,8 @@ backup_data = {
                 "orientation": 0,
                 "weather": "Hail"
             },
-            "Lvl 63 Commander Mars2 ": {
-                "level": 63,
+            "Lvl 67 Commander Mars2 ": {
+                "level": 67,
                 "tr_id": 405,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -78335,19 +78522,19 @@ backup_data = {
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Naive",
+                "nature": "Timid",
                 "moves": [
                     "Blast Burn",
                     "Energy Ball",
                     "Memento",
-                    "Water Ball"
+                    "Rock Ball"
                 ],
                 "sub_index": 4,
                 "ability": "Magic Guard",
@@ -78359,14 +78546,14 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 90 Galactic Prospero ": {
-                "level": 90,
+            "Lvl 91 Galactic Prospero ": {
+                "level": 91,
                 "tr_id": 526,
                 "ai": 15,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Leftovers",
+                "item": "Life Orb",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -78375,14 +78562,14 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Hardy",
                 "moves": [
                     "Hail Ball",
-                    "Mystical Fire",
+                    "Blast Burn",
                     "Energy Ball",
                     "Dark Pulse"
                 ],
-                "sub_index": 2,
+                "sub_index": 5,
                 "ability": "Magic Guard",
                 "gender": "Female",
                 "location": "unknown_location",
@@ -78399,14 +78586,14 @@ backup_data = {
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Careful",
+                "nature": "Rash",
                 "moves": [
                     "Blast Burn",
                     "Protect",
@@ -78485,8 +78672,8 @@ backup_data = {
             }
         },
         "Yanmega": {
-            "Lvl 87 Aroma Lady Fadel ": {
-                "level": 87,
+            "Lvl 90 Aroma Lady Fadel ": {
+                "level": 90,
                 "tr_id": 224,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -78501,7 +78688,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Bashful",
                 "moves": [
                     "Bug Buzz",
                     "Air Slash",
@@ -78545,8 +78732,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Galactic Mercury |Lake Valor| ": {
-                "level": 52,
+            "Lvl 54 Galactic Mercury |Lake Valor| ": {
+                "level": 54,
                 "tr_id": 416,
                 "ai": 271,
                 "battle_type": "Doubles",
@@ -78561,7 +78748,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Rash",
                 "moves": [
                     "Ancient Power",
                     "Silver Wind",
@@ -78575,8 +78762,8 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 3
             },
-            "Lvl 84 Galactic Titania |Stark Mountain| ": {
-                "level": 84,
+            "Lvl 85 Galactic Titania |Stark Mountain| ": {
+                "level": 85,
                 "tr_id": 583,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -78591,7 +78778,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Hasty",
                 "moves": [
                     "Ancient Power",
                     "Bug Buzz",
@@ -78617,14 +78804,14 @@ backup_data = {
                 "form": "",
                 "item": "Charti Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Naughty",
                 "moves": [
                     "Bug Buzz",
                     "Hurricane",
@@ -78641,8 +78828,8 @@ backup_data = {
             }
         },
         "Trapinch": {
-            "Lvl 92 Aroma Lady Fadel ": {
-                "level": 92,
+            "Lvl 95 Aroma Lady Fadel ": {
+                "level": 95,
                 "tr_id": 224,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -78657,7 +78844,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Naughty",
                 "moves": [
                     "Fury Cutter",
                     "Crunch",
@@ -78764,8 +78951,8 @@ backup_data = {
                 "spriteId": 49,
                 "orientation": 1
             },
-            "Lvl 64 Galactic Dione ": {
-                "level": 64,
+            "Lvl 67 Galactic Dione ": {
+                "level": 67,
                 "tr_id": 390,
                 "ai": 1063,
                 "battle_type": "Doubles",
@@ -78780,7 +78967,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Lax",
+                "nature": "Timid",
                 "moves": [
                     "Earthquake",
                     "Rock Slide",
@@ -78797,8 +78984,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 94 Commander Saturn |T.G. Eterna Bldg| ": {
-                "level": 94,
+            "Lvl 95 Commander Saturn |T.G. Eterna Bldg| ": {
+                "level": 95,
                 "tr_id": 409,
                 "ai": 399,
                 "battle_type": "Singles",
@@ -78813,7 +79000,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Adamant",
                 "moves": [
                     "Earthquake",
                     "Sand Tomb",
@@ -78891,8 +79078,8 @@ backup_data = {
             }
         },
         "Claydol": {
-            "Lvl 87 Black Belt Roku |Victory Road| ": {
-                "level": 87,
+            "Lvl 90 Black Belt Roku |Victory Road| ": {
+                "level": 90,
                 "tr_id": 226,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -78907,7 +79094,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Brave",
                 "moves": [
                     "Spikes",
                     "Earthquake",
@@ -78949,8 +79136,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 62 Galactic Terra |Iron Island| ": {
-                "level": 62,
+            "Lvl 64 Galactic Terra |Iron Island| ": {
+                "level": 64,
                 "tr_id": 387,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -78965,7 +79152,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Rash",
                 "moves": [
                     "Earth Power",
                     "Ice Beam",
@@ -78981,8 +79168,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 55 Galactic Larissa ": {
-                "level": 55,
+            "Lvl 56 Galactic Larissa ": {
+                "level": 56,
                 "tr_id": 388,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -78997,7 +79184,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Brave",
+                "nature": "Jolly",
                 "moves": [
                     "Earthquake",
                     "Ice Beam",
@@ -79013,8 +79200,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sand"
             },
-            "Lvl 52 Galactic Mercury |Lake Valor| ": {
-                "level": 52,
+            "Lvl 54 Galactic Mercury |Lake Valor| ": {
+                "level": 54,
                 "tr_id": 416,
                 "ai": 271,
                 "battle_type": "Doubles",
@@ -79219,8 +79406,8 @@ backup_data = {
             }
         },
         "Honchkrow": {
-            "Lvl 87 Black Belt Roku |Victory Road| ": {
-                "level": 87,
+            "Lvl 90 Black Belt Roku |Victory Road| ": {
+                "level": 90,
                 "tr_id": 226,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -79235,7 +79422,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Serious",
                 "moves": [
                     "Sky Attack",
                     "Sucker Punch",
@@ -79339,8 +79526,8 @@ backup_data = {
                 "spriteId": 51,
                 "orientation": 1
             },
-            "Lvl 52 Galactic Mercury |Lake Valor| ": {
-                "level": 52,
+            "Lvl 55 Galactic Mercury |Lake Valor| ": {
+                "level": 55,
                 "tr_id": 416,
                 "ai": 271,
                 "battle_type": "Doubles",
@@ -79355,7 +79542,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Bold",
                 "moves": [
                     "Aerial Ace",
                     "Feint Attack",
@@ -79369,8 +79556,8 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 3
             },
-            "Lvl 57 T.G. Squad Phobos2 ": {
-                "level": 57,
+            "Lvl 58 T.G. Squad Phobos2 ": {
+                "level": 58,
                 "tr_id": 427,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -79385,7 +79572,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Gentle",
                 "moves": [
                     "Pursuit",
                     "Ominous Wind",
@@ -79465,8 +79652,8 @@ backup_data = {
             }
         },
         "Feraligatr": {
-            "Lvl 89 Black Belt Roku |Victory Road| ": {
-                "level": 89,
+            "Lvl 93 Black Belt Roku |Victory Road| ": {
+                "level": 93,
                 "tr_id": 226,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -79481,7 +79668,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Calm",
                 "moves": [
                     "Dragon Dance",
                     "Aqua Tail",
@@ -79526,8 +79713,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 84 Galactic Neptune |Stark Mountain| ": {
-                "level": 84,
+            "Lvl 89 Galactic Neptune |Stark Mountain| ": {
+                "level": 89,
                 "tr_id": 581,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -79542,7 +79729,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quiet",
+                "nature": "Hasty",
                 "moves": [
                     "Earthquake",
                     "Aqua Tail",
@@ -79592,8 +79779,8 @@ backup_data = {
             }
         },
         "Dusknoir": {
-            "Lvl 86 Collector Tobias ": {
-                "level": 86,
+            "Lvl 88 Collector Tobias ": {
+                "level": 88,
                 "tr_id": 227,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -79608,7 +79795,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Hardy",
                 "moves": [
                     "Shadow Punch",
                     "Earthquake",
@@ -79652,8 +79839,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 52 Galactic Halimede ": {
-                "level": 52,
+            "Lvl 53 Galactic Halimede ": {
+                "level": 53,
                 "tr_id": 446,
                 "ai": 1055,
                 "battle_type": "Doubles",
@@ -79668,7 +79855,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Naive",
                 "moves": [
                     "Trick Room",
                     "Shadow Punch",
@@ -79714,8 +79901,8 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 3
             },
-            "Lvl 91 Galactic Cordelia |Coronet Highlands| ": {
-                "level": 91,
+            "Lvl 92 Galactic Cordelia |Coronet Highlands| ": {
+                "level": 92,
                 "tr_id": 514,
                 "ai": 31,
                 "battle_type": "Singles",
@@ -79730,7 +79917,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naughty",
+                "nature": "Modest",
                 "moves": [
                     "Gravity",
                     "Dynamic Punch",
@@ -79836,36 +80023,6 @@ backup_data = {
                 "spriteId": 10,
                 "orientation": 1
             },
-            "Lvl 59 Psychic Mitchell2 ": {
-                "level": 59,
-                "tr_id": 674,
-                "ai": 5,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "",
-                "item": "None",
-                "ivs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
-                },
-                "nature": "Jolly",
-                "moves": [
-                    "Stone Edge",
-                    "Teleport",
-                    "Shadow Punch",
-                    "Hammer Arm"
-                ],
-                "sub_index": 2,
-                "ability": "Levitate",
-                "gender": "Male",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
-            },
             "Lvl 62 Leader Fantina2 ": {
                 "level": 62,
                 "tr_id": 860,
@@ -79928,8 +80085,8 @@ backup_data = {
             }
         },
         "Porygon-Z": {
-            "Lvl 89 Collector Tobias ": {
-                "level": 89,
+            "Lvl 90 Collector Tobias ": {
+                "level": 90,
                 "tr_id": 227,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -79944,7 +80101,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Timid",
                 "moves": [
                     "Tri Attack",
                     "Psychic",
@@ -79957,8 +80114,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 51 Galactic Io |Wayward Cave| ": {
-                "level": 51,
+            "Lvl 54 Galactic Io |Wayward Cave| ": {
+                "level": 54,
                 "tr_id": 442,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -79973,7 +80130,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Adamant",
                 "moves": [
                     "Swift",
                     "Nasty Plot",
@@ -79987,8 +80144,8 @@ backup_data = {
                 "orientation": 2,
                 "weather": "Fog"
             },
-            "Lvl 91 Galactic Cressida ": {
-                "level": 91,
+            "Lvl 92 Galactic Cressida ": {
+                "level": 92,
                 "tr_id": 511,
                 "ai": 1199,
                 "battle_type": "Doubles",
@@ -80003,7 +80160,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Jolly",
                 "moves": [
                     "Blizzard",
                     "Nasty Plot",
@@ -80116,14 +80273,14 @@ backup_data = {
                 "form": "",
                 "item": "Choice Scarf",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Hardy",
+                "nature": "Timid",
                 "moves": [
                     "Tri Attack",
                     "Hyper Beam",
@@ -80141,7 +80298,7 @@ backup_data = {
             "Lvl 100 Gambler John Keating |Victory Road| ": {
                 "level": 100,
                 "tr_id": 228,
-                "ai": 279,
+                "ai": 1047,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -80172,11 +80329,11 @@ backup_data = {
             "Lvl 100 Gambler John Keating |Victory Road| ": {
                 "level": 100,
                 "tr_id": 228,
-                "ai": 279,
+                "ai": 1047,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Charcoal",
+                "item": "Flame Plate",
                 "ivs": {
                     "hp": 30,
                     "at": 30,
@@ -80188,7 +80345,7 @@ backup_data = {
                 "nature": "Modest",
                 "moves": [
                     "Milk Drink",
-                    "Mystical Fire",
+                    "Magma Storm",
                     "Hyper Beam",
                     "Metronome"
                 ],
@@ -80260,8 +80417,8 @@ backup_data = {
                 "orientation": 1,
                 "weather": "Hail"
             },
-            "Lvl 51 Galactic Io |Wayward Cave| ": {
-                "level": 51,
+            "Lvl 53 Galactic Io |Wayward Cave| ": {
+                "level": 53,
                 "tr_id": 442,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -80276,7 +80433,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Gentle",
+                "nature": "Brave",
                 "moves": [
                     "Belly Drum",
                     "Lava Plume",
@@ -80360,16 +80517,16 @@ backup_data = {
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Black Glasses",
+                "item": "Charcoal",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Naive",
                 "moves": [
                     "Energy Ball",
                     "Focus Blast",
@@ -80446,8 +80603,8 @@ backup_data = {
             }
         },
         "Bronzong": {
-            "Lvl 85 Clown Julia |Victory Road| ": {
-                "level": 85,
+            "Lvl 90 Clown Julia |Victory Road| ": {
+                "level": 90,
                 "tr_id": 229,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -80462,7 +80619,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Quirky",
                 "moves": [
                     "Stealth Rock",
                     "Explosion",
@@ -80505,8 +80662,8 @@ backup_data = {
                 "spriteId": 50,
                 "orientation": 0
             },
-            "Lvl 56 Sailor Cesar |Hearthome City| ": {
-                "level": 56,
+            "Lvl 58 Sailor Cesar |Hearthome City| ": {
+                "level": 58,
                 "tr_id": 279,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -80521,7 +80678,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Relaxed",
                 "moves": [
                     "Stealth Rock",
                     "Gyro Ball",
@@ -80564,8 +80721,8 @@ backup_data = {
                 "spriteId": 33,
                 "orientation": 3
             },
-            "Lvl 54 Galactic Thalassa |Wayward Cave| ": {
-                "level": 54,
+            "Lvl 55 Galactic Thalassa |Wayward Cave| ": {
+                "level": 55,
                 "tr_id": 453,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -80580,7 +80737,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Careful",
                 "moves": [
                     "Gyro Ball",
                     "Zen Headbutt",
@@ -80809,8 +80966,8 @@ backup_data = {
             }
         },
         "Ludicolo": {
-            "Lvl 86 Clown Julia |Victory Road| ": {
-                "level": 86,
+            "Lvl 91 Clown Julia |Victory Road| ": {
+                "level": 91,
                 "tr_id": 229,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -80825,7 +80982,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Naive",
                 "moves": [
                     "Hydro Pump",
                     "Giga Drain",
@@ -80902,8 +81059,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 54 Galactic Naid |Wayward Cave| ": {
-                "level": 54,
+            "Lvl 55 Galactic Naid |Wayward Cave| ": {
+                "level": 55,
                 "tr_id": 379,
                 "ai": 167,
                 "battle_type": "Doubles",
@@ -80965,8 +81122,8 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 3
             },
-            "Lvl 59 Galactic Pan |Lake Valor| ": {
-                "level": 59,
+            "Lvl 63 Galactic Pan |Lake Valor| ": {
+                "level": 63,
                 "tr_id": 399,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -80981,7 +81138,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Mild",
                 "moves": [
                     "Muddy Water",
                     "Giga Drain",
@@ -81060,8 +81217,8 @@ backup_data = {
             }
         },
         "Hippowdon": {
-            "Lvl 88 Ruin Maniac Greg |Victory Road| ": {
-                "level": 88,
+            "Lvl 91 Ruin Maniac Greg |Victory Road| ": {
+                "level": 91,
                 "tr_id": 230,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -81076,7 +81233,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Bold",
                 "moves": [
                     "Roar",
                     "Slack Off",
@@ -81121,8 +81278,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 62 Commander Mars2 ": {
-                "level": 62,
+            "Lvl 65 Commander Mars2 ": {
+                "level": 65,
                 "tr_id": 405,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -81137,7 +81294,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Serious",
+                "nature": "Bold",
                 "moves": [
                     "Stealth Rock",
                     "Earthquake",
@@ -81405,8 +81562,8 @@ backup_data = {
             }
         },
         "Tangrowth": {
-            "Lvl 86 Ruin Maniac Greg |Victory Road| ": {
-                "level": 86,
+            "Lvl 89 Ruin Maniac Greg |Victory Road| ": {
+                "level": 89,
                 "tr_id": 230,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -81421,7 +81578,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Bold",
                 "moves": [
                     "Fling",
                     "Synthesis",
@@ -81529,8 +81686,8 @@ backup_data = {
                 "partner": 528,
                 "tagPartner": 619
             },
-            "Lvl 54 Commander Jupiter3 ": {
-                "level": 54,
+            "Lvl 56 Commander Jupiter3 ": {
+                "level": 56,
                 "tr_id": 441,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -81545,7 +81702,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Naive",
+                "nature": "Bold",
                 "moves": [
                     "Ancient Power",
                     "Frenzy Plant",
@@ -81569,14 +81726,14 @@ backup_data = {
                 "form": "",
                 "item": "Big Root",
                 "ivs": {
-                    "hp": 0,
-                    "at": 0,
-                    "df": 0,
-                    "sa": 0,
-                    "sd": 0,
-                    "sp": 0
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Bashful",
                 "moves": [
                     "Nature Power",
                     "Giga Drain",
@@ -81777,8 +81934,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Idol Skylar |Pastoria City| ": {
-                "level": 53,
+            "Lvl 55 Idol Skylar |Pastoria City| ": {
+                "level": 55,
                 "tr_id": 338,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -81807,8 +81964,8 @@ backup_data = {
                 "spriteId": 53,
                 "orientation": 1
             },
-            "Lvl 53 Galactic Laomedeia ": {
-                "level": 53,
+            "Lvl 55 Galactic Laomedeia ": {
+                "level": 55,
                 "tr_id": 392,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -81823,7 +81980,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Careful",
                 "moves": [
                     "Earthquake",
                     "Double Team",
@@ -81840,8 +81997,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sand"
             },
-            "Lvl 52 Galactic Mercury |Lake Valor| ": {
-                "level": 52,
+            "Lvl 54 Galactic Mercury |Lake Valor| ": {
+                "level": 54,
                 "tr_id": 416,
                 "ai": 271,
                 "battle_type": "Doubles",
@@ -81870,8 +82027,8 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 3
             },
-            "Lvl 57 T.G. Squad Phobos2 ": {
-                "level": 57,
+            "Lvl 59 T.G. Squad Phobos2 ": {
+                "level": 59,
                 "tr_id": 427,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -81886,7 +82043,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Sassy",
+                "nature": "Bashful",
                 "moves": [
                     "Sand Tomb",
                     "Aerial Ace",
@@ -81997,8 +82154,8 @@ backup_data = {
             }
         },
         "Muk": {
-            "Lvl 95 Dragon Tamer Clinton |Canalave City| ": {
-                "level": 95,
+            "Lvl 96 Dragon Tamer Clinton |Canalave City| ": {
+                "level": 96,
                 "tr_id": 231,
                 "ai": 63,
                 "battle_type": "Singles",
@@ -82013,7 +82170,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Bold",
                 "moves": [
                     "Explosion",
                     "Gunk Shot",
@@ -82241,8 +82398,8 @@ backup_data = {
             }
         },
         "Electivire": {
-            "Lvl 89 Roughneck Wyatt |Victory Road| ": {
-                "level": 89,
+            "Lvl 92 Roughneck Wyatt |Victory Road| ": {
+                "level": 92,
                 "tr_id": 234,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -82257,7 +82414,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Naughty",
                 "moves": [
                     "Volt Tackle",
                     "Ice Punch",
@@ -82638,22 +82795,22 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry13 ": {
                 "level": 100,
                 "tr_id": 479,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Bashful",
+                "nature": "Naive",
                 "moves": [
-                    "Drain Punch",
+                    "Pursuit",
                     "Earthquake",
                     "Ice Punch",
                     "Wild Charge"
@@ -82668,22 +82825,22 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry14 ": {
                 "level": 100,
                 "tr_id": 480,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Doubles",
                 "reward_item": "",
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Adamant",
+                "nature": "Naive",
                 "moves": [
-                    "Drain Punch",
+                    "Pursuit",
                     "Earthquake",
                     "Ice Punch",
                     "Wild Charge"
@@ -82698,22 +82855,22 @@ backup_data = {
             "Lvl 100 Pkmn Trainer Barry |Route 223| ": {
                 "level": 100,
                 "tr_id": 481,
-                "ai": 135,
+                "ai": 23,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
                 "item": "Life Orb",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Sassy",
+                "nature": "Naive",
                 "moves": [
-                    "Drain Punch",
+                    "Pursuit",
                     "Earthquake",
                     "Ice Punch",
                     "Wild Charge"
@@ -82880,7 +83037,7 @@ backup_data = {
             "Lvl 95 Idol Zoe |Victory Road| ": {
                 "level": 95,
                 "tr_id": 236,
-                "ai": 7,
+                "ai": 29,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "25",
@@ -83057,8 +83214,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 53 Galactic Despina |Iron Island| ": {
-                "level": 53,
+            "Lvl 55 Galactic Despina |Iron Island| ": {
+                "level": 55,
                 "tr_id": 504,
                 "ai": 1423,
                 "battle_type": "Doubles",
@@ -83073,7 +83230,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Careful",
                 "moves": [
                     "Rock Slide",
                     "Rock Polish",
@@ -83128,14 +83285,14 @@ backup_data = {
                 "form": "",
                 "item": "Sitrus Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Modest",
                 "moves": [
                     "Sand Tomb",
                     "Rock Wrecker",
@@ -83585,7 +83742,7 @@ backup_data = {
                 "nature": "Hardy",
                 "moves": [
                     "Aqua Jet",
-                    "Rollout",
+                    "Accelerock",
                     "Sleep Talk",
                     "-"
                 ],
@@ -83683,7 +83840,7 @@ backup_data = {
                 "moves": [
                     "Protect",
                     "Facade",
-                    "Rollout",
+                    "Accelerock",
                     "-"
                 ],
                 "sub_index": 2,
@@ -83977,7 +84134,7 @@ backup_data = {
                     "Recover",
                     "Water Pulse",
                     "Light Screen",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 3,
                 "ability": "Solid Rock",
@@ -84006,7 +84163,7 @@ backup_data = {
                 "nature": "Careful",
                 "moves": [
                     "Explosion",
-                    "Rollout",
+                    "Accelerock",
                     "Earthquake",
                     "Muddy Water"
                 ],
@@ -84036,7 +84193,7 @@ backup_data = {
                 "nature": "Careful",
                 "moves": [
                     "Explosion",
-                    "Rollout",
+                    "Accelerock",
                     "Earthquake",
                     "Muddy Water"
                 ],
@@ -84048,8 +84205,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Fog"
             },
-            "Lvl 55 Galactic Psamanthe ": {
-                "level": 55,
+            "Lvl 57 Galactic Psamanthe ": {
+                "level": 57,
                 "tr_id": 506,
                 "ai": 15,
                 "battle_type": "Doubles",
@@ -84064,7 +84221,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lax",
+                "nature": "Modest",
                 "moves": [
                     "Head Smash",
                     "Aqua Cutter",
@@ -84164,7 +84321,7 @@ backup_data = {
                 "nature": "Naive",
                 "moves": [
                     "Toxic",
-                    "Rollout",
+                    "Accelerock",
                     "Curse",
                     "Sand Tomb"
                 ],
@@ -84176,8 +84333,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Sand"
             },
-            "Lvl 48 Galactic Amalthia ": {
-                "level": 48,
+            "Lvl 52 Galactic Amalthia ": {
+                "level": 52,
                 "tr_id": 490,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -84192,7 +84349,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Mild",
                 "moves": [
                     "Double Team",
                     "Toxic",
@@ -85308,7 +85465,7 @@ backup_data = {
             "Lvl 5 Pkmn Trainer Barry26 ": {
                 "level": 5,
                 "tr_id": 852,
-                "ai": 35,
+                "ai": 0,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -85321,10 +85478,10 @@ backup_data = {
                     "sd": 0,
                     "sp": 0
                 },
-                "nature": "Bashful",
+                "nature": "Calm",
                 "moves": [
                     "Pound",
-                    "-",
+                    "Mist",
                     "-",
                     "-"
                 ],
@@ -85366,8 +85523,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 55 Sailor Cesar |Hearthome City| ": {
-                "level": 55,
+            "Lvl 62 Sailor Cesar |Hearthome City| ": {
+                "level": 62,
                 "tr_id": 279,
                 "ai": 7,
                 "battle_type": "Singles",
@@ -85382,7 +85539,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Lax",
                 "moves": [
                     "Mirror Shot",
                     "Thunder",
@@ -85456,8 +85613,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 63 Galactic Terra |Iron Island| ": {
-                "level": 63,
+            "Lvl 65 Galactic Terra |Iron Island| ": {
+                "level": 65,
                 "tr_id": 387,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -85472,7 +85629,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Gentle",
+                "nature": "Brave",
                 "moves": [
                     "Discharge",
                     "Mirror Shot",
@@ -85488,8 +85645,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 54 Galactic Larissa ": {
-                "level": 54,
+            "Lvl 55 Galactic Larissa ": {
+                "level": 55,
                 "tr_id": 388,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -85504,7 +85661,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Hasty",
                 "moves": [
                     "Discharge",
                     "Thunderbolt",
@@ -85520,8 +85677,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sand"
             },
-            "Lvl 89 Commander Jupiter2 ": {
-                "level": 89,
+            "Lvl 90 Commander Jupiter2 ": {
+                "level": 90,
                 "tr_id": 407,
                 "ai": 143,
                 "battle_type": "Doubles",
@@ -85536,7 +85693,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Docile",
                 "moves": [
                     "Explosion",
                     "Discharge",
@@ -85551,8 +85708,8 @@ backup_data = {
                 "partner": 528,
                 "tagPartner": 619
             },
-            "Lvl 54 Commander Jupiter3 ": {
-                "level": 54,
+            "Lvl 55 Commander Jupiter3 ": {
+                "level": 55,
                 "tr_id": 441,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -85560,12 +85717,12 @@ backup_data = {
                 "form": "",
                 "item": "Zoom Lens",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
                 "nature": "Modest",
                 "moves": [
@@ -85760,8 +85917,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 61 Commander Mars2 ": {
-                "level": 61,
+            "Lvl 65 Commander Mars2 ": {
+                "level": 65,
                 "tr_id": 405,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -85776,7 +85933,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naughty",
+                "nature": "Modest",
                 "moves": [
                     "Flash Cannon",
                     "Extrasensory",
@@ -85792,8 +85949,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 88 Commander Mars3 ": {
-                "level": 88,
+            "Lvl 89 Commander Mars3 ": {
+                "level": 89,
                 "tr_id": 528,
                 "ai": 231,
                 "battle_type": "Doubles",
@@ -85801,14 +85958,14 @@ backup_data = {
                 "form": "",
                 "item": "Lum Berry",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Quiet",
+                "nature": "Jolly",
                 "moves": [
                     "Follow Me",
                     "Iron Head",
@@ -86236,8 +86393,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 64 Galactic Rhea |Lake Verity| ": {
-                "level": 64,
+            "Lvl 66 Galactic Rhea |Lake Verity| ": {
+                "level": 66,
                 "tr_id": 418,
                 "ai": 1423,
                 "battle_type": "Doubles",
@@ -86252,7 +86409,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Timid",
                 "moves": [
                     "Bullet Punch",
                     "Bug Bite",
@@ -86269,8 +86426,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 49 Galactic Amalthia ": {
-                "level": 49,
+            "Lvl 53 Galactic Amalthia ": {
+                "level": 53,
                 "tr_id": 490,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -86285,7 +86442,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hasty",
+                "nature": "Mild",
                 "moves": [
                     "Swords Dance",
                     "Bullet Punch",
@@ -86424,8 +86581,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 55 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
-                "level": 55,
+            "Lvl 57 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
+                "level": 57,
                 "tr_id": 420,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -86440,7 +86597,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Lax",
                 "moves": [
                     "Acupressure",
                     "Ice Fang",
@@ -86457,8 +86614,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 49 Galactic Io |Wayward Cave| ": {
-                "level": 49,
+            "Lvl 52 Galactic Io |Wayward Cave| ": {
+                "level": 52,
                 "tr_id": 442,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -86473,7 +86630,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Impish",
+                "nature": "Lax",
                 "moves": [
                     "Acupressure",
                     "Pursuit",
@@ -87166,8 +87323,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 64 Galactic Rhea |Lake Verity| ": {
-                "level": 64,
+            "Lvl 67 Galactic Rhea |Lake Verity| ": {
+                "level": 67,
                 "tr_id": 418,
                 "ai": 1423,
                 "battle_type": "Doubles",
@@ -87182,7 +87339,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Adamant",
                 "moves": [
                     "Spikes",
                     "Leaf Storm",
@@ -87261,8 +87418,8 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 3
             },
-            "Lvl 90 Galactic Rosalind ": {
-                "level": 90,
+            "Lvl 91 Galactic Rosalind ": {
+                "level": 91,
                 "tr_id": 509,
                 "ai": 47,
                 "battle_type": "Singles",
@@ -87277,7 +87434,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Timid",
+                "nature": "Bold",
                 "moves": [
                     "Nature Power",
                     "Petal Dance",
@@ -87624,8 +87781,8 @@ backup_data = {
                 "spriteId": 31,
                 "orientation": 3
             },
-            "Lvl 60 Commander Mars2 ": {
-                "level": 60,
+            "Lvl 64 Commander Mars2 ": {
+                "level": 64,
                 "tr_id": 405,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -87640,7 +87797,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Bashful",
+                "nature": "Brave",
                 "moves": [
                     "Earthquake",
                     "Outrage",
@@ -87648,7 +87805,7 @@ backup_data = {
                     "Rock Slide"
                 ],
                 "sub_index": 1,
-                "ability": "Rough Skin",
+                "ability": "Sand Veil",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -87657,8 +87814,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sand"
             },
-            "Lvl 52 Galactic Psamanthe ": {
-                "level": 52,
+            "Lvl 55 Galactic Psamanthe ": {
+                "level": 55,
                 "tr_id": 506,
                 "ai": 15,
                 "battle_type": "Doubles",
@@ -87673,7 +87830,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Mild",
                 "moves": [
                     "Draco Meteor",
                     "Fire Blast",
@@ -87690,8 +87847,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sand"
             },
-            "Lvl 89 Commander Mars3 ": {
-                "level": 89,
+            "Lvl 90 Commander Mars3 ": {
+                "level": 90,
                 "tr_id": 528,
                 "ai": 231,
                 "battle_type": "Doubles",
@@ -87699,14 +87856,14 @@ backup_data = {
                 "form": "",
                 "item": "Yache Berry",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Calm",
+                "nature": "Brave",
                 "moves": [
                     "Outrage",
                     "Earthquake",
@@ -87714,7 +87871,7 @@ backup_data = {
                     "Sand Tomb"
                 ],
                 "sub_index": 0,
-                "ability": "Sand Veil",
+                "ability": "Rough Skin",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -87761,14 +87918,14 @@ backup_data = {
                 "form": "",
                 "item": "Yache Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Jolly",
                 "moves": [
                     "Sand Tomb",
                     "Dragon Claw",
@@ -87776,7 +87933,7 @@ backup_data = {
                     "Swords Dance"
                 ],
                 "sub_index": 3,
-                "ability": "Rough Skin",
+                "ability": "Sand Veil",
                 "gender": "Female",
                 "location": "unknown_location",
                 "spriteId": null,
@@ -87815,8 +87972,8 @@ backup_data = {
             }
         },
         "Leafeon": {
-            "Lvl 46 Collector Ripper |Route 214| ": {
-                "level": 46,
+            "Lvl 47 Collector Ripper |Route 214| ": {
+                "level": 47,
                 "tr_id": 272,
                 "ai": 87,
                 "battle_type": "Singles",
@@ -87831,7 +87988,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Gentle",
                 "moves": [
                     "Calm Mind",
                     "Baton Pass",
@@ -88028,8 +88185,8 @@ backup_data = {
             }
         },
         "Abomasnow": {
-            "Lvl 63 Galactic Pluto ": {
-                "level": 63,
+            "Lvl 64 Galactic Pluto ": {
+                "level": 64,
                 "tr_id": 282,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -88061,8 +88218,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Hail"
             },
-            "Lvl 59 Galactic Mimas ": {
-                "level": 59,
+            "Lvl 63 Galactic Mimas ": {
+                "level": 63,
                 "tr_id": 373,
                 "ai": 287,
                 "battle_type": "Doubles",
@@ -88077,7 +88234,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Adamant",
+                "nature": "Quirky",
                 "moves": [
                     "Blizzard",
                     "Wood Hammer",
@@ -88374,8 +88531,8 @@ backup_data = {
                 "spriteId": 33,
                 "orientation": 3
             },
-            "Lvl 54 Galactic Thalassa |Wayward Cave| ": {
-                "level": 54,
+            "Lvl 55 Galactic Thalassa |Wayward Cave| ": {
+                "level": 55,
                 "tr_id": 453,
                 "ai": 135,
                 "battle_type": "Doubles",
@@ -88390,7 +88547,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Docile",
                 "moves": [
                     "Fury Cutter",
                     "Rock Slide",
@@ -88592,8 +88749,8 @@ backup_data = {
                 "spriteId": 103,
                 "orientation": 3
             },
-            "Lvl 53 Galactic Laomedeia ": {
-                "level": 53,
+            "Lvl 56 Galactic Laomedeia ": {
+                "level": 56,
                 "tr_id": 392,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -88608,7 +88765,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Calm",
+                "nature": "Gentle",
                 "moves": [
                     "Me First",
                     "Sky Attack",
@@ -88625,8 +88782,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sand"
             },
-            "Lvl 55 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
-                "level": 55,
+            "Lvl 57 T.G. Squad Deimos |T.G. Eterna Bldg| ": {
+                "level": 57,
                 "tr_id": 420,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -88641,7 +88798,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Naive",
                 "moves": [
                     "Sky Attack",
                     "Psycho Boost",
@@ -88752,8 +88909,8 @@ backup_data = {
                 "partner": 455,
                 "tagPartner": 612
             },
-            "Lvl 86 Galactic Titania |Stark Mountain| ": {
-                "level": 86,
+            "Lvl 87 Galactic Titania |Stark Mountain| ": {
+                "level": 87,
                 "tr_id": 583,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -88768,7 +88925,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Rash",
+                "nature": "Naive",
                 "moves": [
                     "Weather Ball",
                     "Psycho Boost",
@@ -89182,8 +89339,8 @@ backup_data = {
             }
         },
         "Camerupt": {
-            "Lvl 54 Galactic Neso |Route 210| ": {
-                "level": 54,
+            "Lvl 55 Galactic Neso |Route 210| ": {
+                "level": 55,
                 "tr_id": 289,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -89215,8 +89372,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Rain"
             },
-            "Lvl 64 Galactic Venus2 ": {
-                "level": 64,
+            "Lvl 65 Galactic Venus2 ": {
+                "level": 65,
                 "tr_id": 426,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -89231,7 +89388,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Relaxed",
+                "nature": "Brave",
                 "moves": [
                     "Stealth Rock",
                     "Solar-Beam",
@@ -89248,8 +89405,8 @@ backup_data = {
                 "tagPartner": 477,
                 "weather": "Sun"
             },
-            "Lvl 61 Galactic Atlas ": {
-                "level": 61,
+            "Lvl 65 Galactic Atlas ": {
+                "level": 65,
                 "tr_id": 499,
                 "ai": 55,
                 "battle_type": "Doubles",
@@ -89264,7 +89421,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Timid",
+                "nature": "Careful",
                 "moves": [
                     "Earthquake",
                     "Eruption",
@@ -89302,7 +89459,7 @@ backup_data = {
                     "Flare Blitz",
                     "Stomp",
                     "Rock Slide",
-                    "Rollout"
+                    "Accelerock"
                 ],
                 "sub_index": 0,
                 "ability": "Drought",
@@ -90188,8 +90345,8 @@ backup_data = {
                 "spriteId": 104,
                 "orientation": 2
             },
-            "Lvl 53 Galactic Io |Wayward Cave| ": {
-                "level": 53,
+            "Lvl 56 Galactic Io |Wayward Cave| ": {
+                "level": 56,
                 "tr_id": 442,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -90204,7 +90361,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Impish",
                 "moves": [
                     "Spider Web",
                     "Follow Me",
@@ -90594,8 +90751,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Rain"
             },
-            "Lvl 62 Galactic Terra |Iron Island| ": {
-                "level": 62,
+            "Lvl 64 Galactic Terra |Iron Island| ": {
+                "level": 64,
                 "tr_id": 387,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -90610,7 +90767,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Rash",
+                "nature": "Timid",
                 "moves": [
                     "Discharge",
                     "Leaf Storm",
@@ -91385,8 +91542,8 @@ backup_data = {
             }
         },
         "Flygon": {
-            "Lvl 56 Idol Skylar |Pastoria City| ": {
-                "level": 56,
+            "Lvl 59 Idol Skylar |Pastoria City| ": {
+                "level": 59,
                 "tr_id": 338,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -91401,7 +91558,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Bashful",
                 "moves": [
                     "Draco Meteor",
                     "Stealth Rock",
@@ -91409,14 +91566,14 @@ backup_data = {
                     "Flamethrower"
                 ],
                 "sub_index": 0,
-                "ability": "Levitate",
+                "ability": "Sand Stream",
                 "gender": "Female",
                 "location": "Pastoria City",
                 "spriteId": 53,
                 "orientation": 1
             },
-            "Lvl 54 Galactic Laomedeia ": {
-                "level": 54,
+            "Lvl 55 Galactic Laomedeia ": {
+                "level": 55,
                 "tr_id": 392,
                 "ai": 1183,
                 "battle_type": "Doubles",
@@ -91431,7 +91588,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Hardy",
+                "nature": "Hasty",
                 "moves": [
                     "Bulldoze",
                     "Fire Spin",
@@ -91448,8 +91605,8 @@ backup_data = {
                 "tagPartner": 609,
                 "weather": "Sand"
             },
-            "Lvl 55 T.G. Squad Phobos2 ": {
-                "level": 55,
+            "Lvl 57 T.G. Squad Phobos2 ": {
+                "level": 57,
                 "tr_id": 427,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -91464,7 +91621,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Mild",
+                "nature": "Docile",
                 "moves": [
                     "Hyper Voice",
                     "Heat Wave",
@@ -91521,14 +91678,14 @@ backup_data = {
                 "form": "",
                 "item": "Yache Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Serious",
+                "nature": "Brave",
                 "moves": [
                     "Fury Cutter",
                     "Outrage",
@@ -92080,8 +92237,8 @@ backup_data = {
             }
         },
         "Rotom-Wash": {
-            "Lvl 62 Galactic Phoebe |Pastoria City| ": {
-                "level": 62,
+            "Lvl 66 Galactic Phoebe |Pastoria City| ": {
+                "level": 66,
                 "tr_id": 400,
                 "ai": 1047,
                 "battle_type": "Doubles",
@@ -92096,7 +92253,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Mild",
+                "nature": "Serious",
                 "moves": [
                     "Thunder",
                     "Shadow Ball",
@@ -92358,8 +92515,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 92 Galactic Boss Cyrus2 ": {
-                "level": 92,
+            "Lvl 93 Galactic Boss Cyrus2 ": {
+                "level": 93,
                 "tr_id": 404,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -92374,7 +92531,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Docile",
+                "nature": "Rash",
                 "moves": [
                     "Crush Grip",
                     "Drain Punch",
@@ -92451,8 +92608,8 @@ backup_data = {
             }
         },
         "Deoxys-Attack": {
-            "Lvl 93 Galactic Boss Cyrus2 ": {
-                "level": 93,
+            "Lvl 94 Galactic Boss Cyrus2 ": {
+                "level": 94,
                 "tr_id": 404,
                 "ai": 1175,
                 "battle_type": "Doubles",
@@ -92467,7 +92624,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Lonely",
                 "moves": [
                     "Psycho Boost",
                     "Superpower",
@@ -92482,8 +92639,8 @@ backup_data = {
             }
         },
         "Mesprit": {
-            "Lvl 65 Commander Mars2 ": {
-                "level": 65,
+            "Lvl 67 Commander Mars2 ": {
+                "level": 67,
                 "tr_id": 405,
                 "ai": 1159,
                 "battle_type": "Doubles",
@@ -92498,7 +92655,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Bashful",
+                "nature": "Modest",
                 "moves": [
                     "Calm Mind",
                     "Ice Beam",
@@ -92516,8 +92673,8 @@ backup_data = {
             }
         },
         "Regirock": {
-            "Lvl 89 Commander Jupiter2 ": {
-                "level": 89,
+            "Lvl 90 Commander Jupiter2 ": {
+                "level": 90,
                 "tr_id": 407,
                 "ai": 143,
                 "battle_type": "Doubles",
@@ -92532,7 +92689,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Careful",
+                "nature": "Docile",
                 "moves": [
                     "Explosion",
                     "Superpower",
@@ -92547,8 +92704,8 @@ backup_data = {
                 "partner": 528,
                 "tagPartner": 619
             },
-            "Lvl 52 Commander Jupiter3 ": {
-                "level": 52,
+            "Lvl 54 Commander Jupiter3 ": {
+                "level": 54,
                 "tr_id": 441,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -92556,14 +92713,14 @@ backup_data = {
                 "form": "",
                 "item": "Lum Berry",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Quirky",
+                "nature": "Relaxed",
                 "moves": [
                     "Rock Slide",
                     "Rock Polish",
@@ -92579,8 +92736,8 @@ backup_data = {
             }
         },
         "Latios": {
-            "Lvl 88 Commander Jupiter2 ": {
-                "level": 88,
+            "Lvl 89 Commander Jupiter2 ": {
+                "level": 89,
                 "tr_id": 407,
                 "ai": 143,
                 "battle_type": "Doubles",
@@ -92588,14 +92745,14 @@ backup_data = {
                 "form": "",
                 "item": "Colbur Berry",
                 "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
+                    "hp": 30,
+                    "at": 30,
+                    "df": 30,
+                    "sa": 30,
+                    "sd": 30,
+                    "sp": 30
                 },
-                "nature": "Sassy",
+                "nature": "Naive",
                 "moves": [
                     "Twister",
                     "Mystical Fire",
@@ -92613,8 +92770,8 @@ backup_data = {
             }
         },
         "Azelf": {
-            "Lvl 65 Commander Saturn ": {
-                "level": 65,
+            "Lvl 67 Commander Saturn ": {
+                "level": 67,
                 "tr_id": 408,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -92629,7 +92786,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Bashful",
+                "nature": "Hasty",
                 "moves": [
                     "Stealth Rock",
                     "Explosion",
@@ -92647,8 +92804,8 @@ backup_data = {
             }
         },
         "Cresselia": {
-            "Lvl 62 Commander Saturn ": {
-                "level": 62,
+            "Lvl 63 Commander Saturn ": {
+                "level": 63,
                 "tr_id": 408,
                 "ai": 1167,
                 "battle_type": "Doubles",
@@ -92663,7 +92820,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Bold",
+                "nature": "Calm",
                 "moves": [
                     "Calm Mind",
                     "Lunar Dance",
@@ -92680,8 +92837,8 @@ backup_data = {
                 "tagPartner": 610,
                 "weather": "Rain"
             },
-            "Lvl 85 Commander Saturn |T.G. Eterna Bldg| ": {
-                "level": 85,
+            "Lvl 86 Commander Saturn |T.G. Eterna Bldg| ": {
+                "level": 86,
                 "tr_id": 409,
                 "ai": 399,
                 "battle_type": "Singles",
@@ -92696,7 +92853,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Lonely",
+                "nature": "Timid",
                 "moves": [
                     "Calm Mind",
                     "Lunar Dance",
@@ -92713,7 +92870,7 @@ backup_data = {
             "Lvl 100 Elite Four Lucian ": {
                 "level": 100,
                 "tr_id": 869,
-                "ai": 335,
+                "ai": 351,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -93175,6 +93332,36 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
+            "Lvl 67 Maid Yoki ": {
+                "level": 67,
+                "tr_id": 823,
+                "ai": 1,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Naughty",
+                "moves": [
+                    "Wake-Up Slap",
+                    "-",
+                    "-",
+                    "-"
+                ],
+                "sub_index": 3,
+                "ability": "Trace",
+                "gender": "Female",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            },
             "Lvl 40 Scientist Fredrick |T.G. Eterna Bldg| ": {
                 "level": 40,
                 "tr_id": 830,
@@ -93589,8 +93776,8 @@ backup_data = {
             }
         },
         "Moltres": {
-            "Lvl 89 Galactic Venus3 ": {
-                "level": 89,
+            "Lvl 91 Galactic Venus3 ": {
+                "level": 91,
                 "tr_id": 527,
                 "ai": 167,
                 "battle_type": "Doubles",
@@ -93605,7 +93792,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Jolly",
+                "nature": "Adamant",
                 "moves": [
                     "Heat Wave",
                     "Air Slash",
@@ -93658,7 +93845,7 @@ backup_data = {
             "Lvl 100 Elite Four Lucian ": {
                 "level": 100,
                 "tr_id": 869,
-                "ai": 335,
+                "ai": 351,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
@@ -93718,8 +93905,8 @@ backup_data = {
                 "partner": 557,
                 "weather": "Sand"
             },
-            "Lvl 72 Ace Trainer Tenzing ": {
-                "level": 72,
+            "Lvl 73 Ace Trainer Tenzing ": {
+                "level": 73,
                 "tr_id": 828,
                 "ai": 15,
                 "battle_type": "Singles",
@@ -93734,7 +93921,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Naive",
+                "nature": "Lax",
                 "moves": [
                     "Charge Beam",
                     "HP Fire",
@@ -93748,8 +93935,8 @@ backup_data = {
                 "orientation": null,
                 "weather": "Hail"
             },
-            "Lvl 54 Galactic Boss Cyrus4 ": {
-                "level": 54,
+            "Lvl 56 Galactic Boss Cyrus4 ": {
+                "level": 56,
                 "tr_id": 913,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -93764,7 +93951,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Quiet",
+                "nature": "Rash",
                 "moves": [
                     "Shock Wave",
                     "Ominous Wind",
@@ -93810,8 +93997,8 @@ backup_data = {
                 "orientation": 3,
                 "weather": "Hail"
             },
-            "Lvl 52 Galactic Boss Cyrus4 ": {
-                "level": 52,
+            "Lvl 54 Galactic Boss Cyrus4 ": {
+                "level": 54,
                 "tr_id": 913,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -93826,12 +94013,12 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Sassy",
+                "nature": "Calm",
                 "moves": [
                     "Rest",
                     "Calm Mind",
                     "Water Pulse",
-                    "Solar-Beam"
+                    "Ominous Wind"
                 ],
                 "sub_index": 3,
                 "ability": "Pressure",
@@ -93874,8 +94061,8 @@ backup_data = {
             }
         },
         "Celebi": {
-            "Lvl 88 Galactic Titania |Stark Mountain| ": {
-                "level": 88,
+            "Lvl 90 Galactic Titania |Stark Mountain| ": {
+                "level": 90,
                 "tr_id": 583,
                 "ai": 1439,
                 "battle_type": "Doubles",
@@ -93890,7 +94077,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "nature": "Quirky",
+                "nature": "Naive",
                 "moves": [
                     "Nature Power",
                     "Leaf Storm",
@@ -94181,6 +94368,66 @@ backup_data = {
                 "orientation": null
             }
         },
+        "Darkrai": {
+            "Lvl 100 Lady Emi ": {
+                "level": 100,
+                "tr_id": 674,
+                "ai": 24,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "Lax Incense",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Careful",
+                "moves": [
+                    "Dark Void",
+                    "Confuse Ray",
+                    "Disable",
+                    "Double Team"
+                ],
+                "sub_index": 1,
+                "ability": "Bad Dreams",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            },
+            "Lvl 100 Champion Cynthia ": {
+                "level": 100,
+                "tr_id": 870,
+                "ai": 7,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "Custap Berry",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Modest",
+                "moves": [
+                    "Dark Void",
+                    "Dark Pulse",
+                    "Psychic",
+                    "Aura Sphere"
+                ],
+                "sub_index": 3,
+                "ability": "Bad Dreams",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
         "Groudon": {
             "Lvl 35 Scientist Shaun2 ": {
                 "level": 35,
@@ -94394,8 +94641,8 @@ backup_data = {
                 "spriteId": null,
                 "orientation": null
             },
-            "Lvl 54 Galactic Boss Cyrus4 ": {
-                "level": 54,
+            "Lvl 56 Galactic Boss Cyrus4 ": {
+                "level": 56,
                 "tr_id": 913,
                 "ai": 263,
                 "battle_type": "Singles",
@@ -94410,7 +94657,7 @@ backup_data = {
                     "sd": 30,
                     "sp": 30
                 },
-                "nature": "Bashful",
+                "nature": "Mild",
                 "moves": [
                     "Spikes",
                     "Psycho Boost",
@@ -94489,6 +94736,38 @@ backup_data = {
                 "orientation": null
             }
         },
+        "Bulbasaur": {
+            "Lvl 67 Maid Yoki ": {
+                "level": 67,
+                "tr_id": 823,
+                "ai": 1,
+                "battle_type": "Singles",
+                "reward_item": "",
+                "form": "",
+                "item": "None",
+                "ivs": {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "nature": "Gentle",
+                "moves": [
+                    "Vine Whip",
+                    "Wake-Up Slap",
+                    "-",
+                    "-"
+                ],
+                "sub_index": 2,
+                "ability": "Overgrow",
+                "gender": "Male",
+                "location": "unknown_location",
+                "spriteId": null,
+                "orientation": null
+            }
+        },
         "Abra": {
             "Lvl 20 Galactic Pluto |Fuego Ironworks| ": {
                 "level": 20,
@@ -94525,11 +94804,11 @@ backup_data = {
             "Lvl 100 Elite Four Lucian ": {
                 "level": 100,
                 "tr_id": 869,
-                "ai": 335,
+                "ai": 351,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
-                "item": "Salac Berry",
+                "item": "Apicot Berry",
                 "ivs": {
                     "hp": 31,
                     "at": 31,
@@ -94543,7 +94822,7 @@ backup_data = {
                     "Baton Pass",
                     "Nasty Plot",
                     "Dragon Dance",
-                    "Swords Dance"
+                    "Ominous Wind"
                 ],
                 "sub_index": 0,
                 "ability": "Simple",
@@ -94556,20 +94835,20 @@ backup_data = {
             "Lvl 100 Elite Four Lucian ": {
                 "level": 100,
                 "tr_id": 869,
-                "ai": 335,
+                "ai": 351,
                 "battle_type": "Singles",
                 "reward_item": "",
                 "form": "",
                 "item": "Lum Berry",
                 "ivs": {
-                    "hp": 24,
-                    "at": 24,
-                    "df": 24,
-                    "sa": 24,
-                    "sd": 24,
-                    "sp": 24
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
                 },
-                "nature": "Bashful",
+                "nature": "Calm",
                 "moves": [
                     "Aeroblast",
                     "Iron Head",
@@ -94640,37 +94919,6 @@ backup_data = {
                 ],
                 "sub_index": 2,
                 "ability": "Natural Cure",
-                "location": "unknown_location",
-                "spriteId": null,
-                "orientation": null
-            }
-        },
-        "Darkrai": {
-            "Lvl 100 Champion Cynthia ": {
-                "level": 100,
-                "tr_id": 870,
-                "ai": 7,
-                "battle_type": "Singles",
-                "reward_item": "",
-                "form": "",
-                "item": "Custap Berry",
-                "ivs": {
-                    "hp": 31,
-                    "at": 31,
-                    "df": 31,
-                    "sa": 31,
-                    "sd": 31,
-                    "sp": 31
-                },
-                "nature": "Modest",
-                "moves": [
-                    "Dark Void",
-                    "Dark Pulse",
-                    "Psychic",
-                    "Aura Sphere"
-                ],
-                "sub_index": 3,
-                "ability": "Bad Dreams",
                 "location": "unknown_location",
                 "spriteId": null,
                 "orientation": null
@@ -98590,12 +98838,8 @@ backup_data = {
                         "Energy Ball"
                     ],
                     [
-                        50,
-                        "Mystical Fire"
-                    ],
-                    [
                         68,
-                        "Blast Burn"
+                        "Mystical Fire"
                     ]
                 ],
                 "tms": [
@@ -100430,7 +100674,7 @@ backup_data = {
                         "Water Pulse"
                     ],
                     [
-                        18,
+                        17,
                         "Disable"
                     ],
                     [
@@ -102769,7 +103013,7 @@ backup_data = {
                     ],
                     [
                         99,
-                        "Rollout"
+                        "Accelerock"
                     ]
                 ],
                 "tms": [
@@ -102868,7 +103112,7 @@ backup_data = {
                     ],
                     [
                         22,
-                        "Rollout"
+                        "Accelerock"
                     ],
                     [
                         27,
@@ -107451,8 +107695,8 @@ backup_data = {
                         "Wring Out"
                     ],
                     [
-                        74,
-                        "Frenzy Plant"
+                        52,
+                        "Roar"
                     ]
                 ],
                 "tms": [
@@ -109351,6 +109595,14 @@ backup_data = {
                     [
                         55,
                         "Sing"
+                    ],
+                    [
+                        60,
+                        "Roar"
+                    ],
+                    [
+                        70,
+                        "Take Down"
                     ]
                 ],
                 "tms": [
@@ -111928,10 +112180,6 @@ backup_data = {
                     [
                         50,
                         "Synthesis"
-                    ],
-                    [
-                        54,
-                        "Frenzy Plant"
                     ]
                 ],
                 "tms": [
@@ -117640,7 +117888,7 @@ backup_data = {
                     ],
                     [
                         1,
-                        "Rollout"
+                        "Accelerock"
                     ],
                     [
                         1,
@@ -119424,7 +119672,7 @@ backup_data = {
                         "Ancient Power"
                     ],
                     [
-                        66,
+                        85,
                         "Magma Storm"
                     ]
                 ],
@@ -119732,7 +119980,7 @@ backup_data = {
                 "learnset": [
                     [
                         1,
-                        "Rollout"
+                        "Accelerock"
                     ],
                     [
                         4,
@@ -119901,10 +120149,6 @@ backup_data = {
                     [
                         50,
                         "Hydro Pump"
-                    ],
-                    [
-                        93,
-                        "Hydro Cannon"
                     ]
                 ],
                 "tms": [
@@ -120847,7 +121091,7 @@ backup_data = {
                     ],
                     [
                         37,
-                        "Rollout"
+                        "Accelerock"
                     ],
                     [
                         42,
@@ -120927,7 +121171,7 @@ backup_data = {
                     ],
                     [
                         6,
-                        "Rollout"
+                        "Accelerock"
                     ],
                     [
                         10,
@@ -120959,7 +121203,7 @@ backup_data = {
                     ],
                     [
                         46,
-                        "Rollout"
+                        "Accelerock"
                     ],
                     [
                         54,
@@ -130315,7 +130559,7 @@ backup_data = {
                     ],
                     [
                         1,
-                        "Rollout"
+                        "Accelerock"
                     ],
                     [
                         1,
@@ -131672,10 +131916,6 @@ backup_data = {
                         "Poison Fang"
                     ],
                     [
-                        57,
-                        "Hyper Beam"
-                    ],
-                    [
                         65,
                         "Earthquake"
                     ],
@@ -131775,10 +132015,6 @@ backup_data = {
                         "Supersonic"
                     ],
                     [
-                        35,
-                        "Bug Buzz"
-                    ],
-                    [
                         41,
                         "Whirlwind"
                     ],
@@ -131789,6 +132025,10 @@ backup_data = {
                     [
                         57,
                         "Earthquake"
+                    ],
+                    [
+                        65,
+                        "Bug Buzz"
                     ]
                 ],
                 "tms": [
@@ -136569,7 +136809,7 @@ backup_data = {
                     ],
                     [
                         99,
-                        "Rollout"
+                        "Accelerock"
                     ],
                     [
                         99,
@@ -137415,10 +137655,6 @@ backup_data = {
                     [
                         41,
                         "Iron Head"
-                    ],
-                    [
-                        41,
-                        "Self-Destruct"
                     ],
                     [
                         57,
@@ -140072,7 +140308,7 @@ backup_data = {
                     ],
                     [
                         16,
-                        "Rollout"
+                        "Accelerock"
                     ]
                 ],
                 "tms": []
@@ -141242,6 +141478,10 @@ backup_data = {
                     [
                         47,
                         "Earth Power"
+                    ],
+                    [
+                        48,
+                        "Synthesis"
                     ]
                 ],
                 "tms": [
@@ -141334,6 +141574,10 @@ backup_data = {
                     [
                         35,
                         "Silver Wind"
+                    ],
+                    [
+                        35,
+                        "Ominous Wind"
                     ],
                     [
                         38,
@@ -141588,7 +141832,7 @@ backup_data = {
                     ],
                     [
                         20,
-                        "Rollout"
+                        "Accelerock"
                     ],
                     [
                         21,
@@ -144173,7 +144417,7 @@ backup_data = {
             },
             "types": [
                 "Normal",
-                "Flying"
+                "Poison"
             ],
             "abilities": {
                 "0": "Scrappy",
@@ -144202,10 +144446,6 @@ backup_data = {
                         "Roar"
                     ],
                     [
-                        21,
-                        "Chatter"
-                    ],
-                    [
                         25,
                         "Copycat"
                     ],
@@ -144230,8 +144470,16 @@ backup_data = {
                         "Hyper Voice"
                     ],
                     [
+                        50,
+                        "Roar"
+                    ],
+                    [
                         65,
                         "Mirror Move"
+                    ],
+                    [
+                        75,
+                        "Chatter"
                     ]
                 ],
                 "tms": [
@@ -147105,6 +147353,14 @@ backup_data = {
                         "Stun Spore"
                     ],
                     [
+                        55,
+                        "Whirlwind"
+                    ],
+                    [
+                        55,
+                        "Roar"
+                    ],
+                    [
                         57,
                         "Endeavor"
                     ]
@@ -148917,6 +149173,10 @@ backup_data = {
                     [
                         29,
                         "Dark Pulse"
+                    ],
+                    [
+                        30,
+                        "Teleport"
                     ],
                     [
                         36,
@@ -151112,6 +151372,10 @@ backup_data = {
                         "Psychic"
                     ],
                     [
+                        45,
+                        "Earthquake"
+                    ],
+                    [
                         47,
                         "Head Smash"
                     ]
@@ -151193,10 +151457,6 @@ backup_data = {
                     [
                         26,
                         "Mirror Shot"
-                    ],
-                    [
-                        29,
-                        "Metal Sound"
                     ],
                     [
                         32,
@@ -152103,7 +152363,7 @@ backup_data = {
         },
         "Swords Dance": {
             "basePower": 0,
-            "pp": 30,
+            "pp": 2,
             "acc": 0,
             "type": "Normal",
             "category": "Status",
@@ -153623,7 +153883,7 @@ backup_data = {
         },
         "Spite": {
             "basePower": 0,
-            "pp": 10,
+            "pp": 3,
             "acc": 100,
             "type": "Ghost",
             "category": "Status",
@@ -153851,7 +154111,7 @@ backup_data = {
             "priority": 0,
             "e_id": 58
         },
-        "Rollout": {
+        "Accelerock": {
             "basePower": 40,
             "pp": 5,
             "acc": 100,
@@ -154734,7 +154994,7 @@ backup_data = {
         },
         "Ice Ball": {
             "basePower": 120,
-            "pp": 20,
+            "pp": 8,
             "acc": 70,
             "type": "Ice",
             "category": "Physical",
@@ -156325,6 +156585,7 @@ backup_data = {
         "Splash": "HP Water",
         "Conversion": "HP Ice",
         "Nightmare": "HP Ghost",
+        "Rollout": "Accelerock",
         "Spark": "Wild Charge",
         "Magnitude": "Bulldoze",
         "Rapid Spin": "HP Fire",
@@ -156340,5 +156601,5 @@ backup_data = {
         "Heal Block": "Aqua Cutter",
         "Switcheroo": "HP Flying"
     },
-    "title": "pkv5h"
+    "title": "pknight"
 };
