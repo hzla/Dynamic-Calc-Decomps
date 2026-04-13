@@ -118,7 +118,7 @@ SOURCES = {
   "e91164d90d06a009e6cc": "Radical Red 4.1 Hardcore",
   "ancestralx": "Ancestral X",
   "8c3ca30ba346734d5e4f": "Run & Bun",
-  "f109940e5639c3702e6d": "Rising Ruby/Sinking Saphire",
+  "f109940e5639c3702e6d": "Rising Ruby/Sinking Sapphire",
   "00734d33040067eb7e9f": "Grand Colloseum 2.0",
   "ek": "Emerald Kaizo",
   "pt": "Platinum",
@@ -156,7 +156,7 @@ SOURCES = {
   "bb8579a3798fd63b429d": "Royal Sapphire",
   "null": "Pokemon Null 1.2",
   "pk": "Platinum Kaizo",
-  "navysaphire": "Navy Saphire"
+  "navysapphire": "Navy Sapphire"
 }
 
 $(document).ready(function() {
@@ -306,7 +306,7 @@ function setGameSettings(title) {
     showAI = true
     $('label[for="snow"]').hide()
     $('#ms-link').show()
-  } else if (TITLE == "Ancestral X" || TITLE == "Navy Saphire" || TITLE == "Reignited Ruby") {
+  } else if (TITLE == "Ancestral X" || TITLE == "Navy Sapphire" || TITLE == "Reignited Ruby") {
     gameGen = 6
      if (!settings.noSwitch) {
       settings.gameSwitchIn = 6;
