@@ -361,7 +361,7 @@ function get_next_in_g5() {
     var endSwap = null
     var foundMega = false
     for (var i = 0; i < ranked_trainer_poks.length; i++) {
-                if (TITLE == "Ancestral X")
+                if (TITLE == "Ancestral X" || TITLE == "Navy Sapphire")
                     break;
 
         if (foundMega) {
