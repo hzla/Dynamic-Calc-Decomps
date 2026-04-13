@@ -510,6 +510,26 @@ input[type="file"] {
     box-shadow: none;
     flex: 1 1 520px;
     min-width: 320px;
+    flex-wrap: wrap;
+}
+
+.main-view-tabs-primary {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 1 1 auto;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+#main-view-version-tabs {
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+    margin-left: auto;
+    flex: 0 0 auto;
+    min-width: max-content;
 }
 
 #main-view-tabs.main-view-tabs-hidden {
@@ -543,6 +563,33 @@ input[type="file"] {
 
 .main-view-tab.active:hover {
     background: rgba(187, 134, 252, 0.28) !important;
+}
+
+.main-view-version-link {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 12px 18px;
+    color: #f1f1f1;
+    text-decoration: none;
+    line-height: 1;
+    transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.main-view-version-link:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+.main-view-version-link.active {
+    background: rgba(187, 134, 252, 0.22);
+    color: #fff;
+    box-shadow: inset 0 0 0 1px rgba(187, 134, 252, 0.32);
+}
+
+.main-view-version-link.active:hover {
+    background: rgba(187, 134, 252, 0.28);
 }
 
 #main-nav-dex,
@@ -2147,6 +2194,7 @@ table td {
     margin: 0px 5px;
     height: 65px;
     width: 84px;
+    margin-bottom: 4px;
 }
 
 .trainer-pok.right-side {
@@ -3060,6 +3108,12 @@ table.field {
     overflow-x: auto;
   }
 
+  #main-view-version-tabs {
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
   .header-settings.app-header-shell .calc-select {
     width: 188px;
   }
@@ -3130,6 +3184,12 @@ table.field {
 
 @media (width <= 960px) {
   .main-view-tab {
+    padding: 10px 14px;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  .main-view-version-link {
     padding: 10px 14px;
     font-size: 16px;
     white-space: nowrap;

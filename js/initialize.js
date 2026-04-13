@@ -155,6 +155,7 @@ SOURCES = {
   "a6f5b7e55bbd7ebbdd52": "Rigorous Red",
   "bb8579a3798fd63b429d": "Royal Sapphire",
   "null": "Pokemon Null 1.2",
+  "null11": "Pokemon Null 1.1",
   "pk": "Platinum Kaizo",
   "navysapphire": "Navy Sapphire"
 }

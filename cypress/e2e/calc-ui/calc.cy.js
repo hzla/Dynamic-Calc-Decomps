@@ -75,6 +75,41 @@ for (let calc of calcs) {
       cy.get('#rom-title').should('have.text', calc.title)
     })
 
+    it('shows version links for multi-version games', () => {
+      const versionConfig = (() => {
+        if (calc.title.includes('Emerald Imperium')) {
+          return calc.url.includes('evs=1')
+            ? { active: 'Evs', inactive: 'no Evs', href: 'evs=0' }
+            : { active: 'no Evs', inactive: 'Evs', href: 'evs=1' }
+        }
+
+        if (calc.title.includes('Pokemon Null')) {
+          return calc.url.includes('data=null12')
+            ? { active: '1.2', inactive: '1.1', href: 'data=null' }
+            : { active: '1.1', inactive: '1.2', href: 'data=null12' }
+        }
+
+        if (calc.title.includes('Radical Red')) {
+          return calc.url.includes('ced457ba9aa55731616c')
+            ? { active: 'Normal', inactive: 'HC', href: 'e91164d90d06a009e6cc' }
+            : { active: 'HC', inactive: 'Normal', href: 'ced457ba9aa55731616c' }
+        }
+
+        return null
+      })()
+
+      if (!versionConfig) {
+        cy.get('#main-view-version-tabs').should('not.be.visible')
+        return
+      }
+
+      cy.get('#main-view-version-tabs').should('be.visible')
+      cy.contains('#main-view-version-tabs .main-view-version-link.active', versionConfig.active).should('exist')
+      cy.contains('#main-view-version-tabs .main-view-version-link', versionConfig.inactive)
+        .should('have.attr', 'href')
+        .and('include', versionConfig.href)
+    })
+
 
     it('can display and navigate trainer sets', () => {
       cy.get('#clearSets').click()

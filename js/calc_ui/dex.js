@@ -8,7 +8,11 @@ function withDexGameContext(path) {
 	const routeParts = route.split('?');
 	const routePath = routeParts.shift() || '';
 	const params = new URLSearchParams(routeParts.join('?'));
-	const gameId = cleanString(TITLE);
+	let gameId = cleanString(TITLE);
+
+	if (gameId.includes("pokemonnull")) {
+		gameId = "pokemonnull"
+	}
 
 	if (!params.has('embedded')) {
 		params.set('embedded', '1');

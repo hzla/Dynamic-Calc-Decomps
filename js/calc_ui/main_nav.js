@@ -13,6 +13,86 @@
         }
         titleEl.textContent = title || "";
         titleEl.style.display = title ? "block" : "none";
+        renderGameVersionTabs(title);
+    }
+
+    function getMatchingGameVersionKey(title) {
+        if (typeof title !== "string" || !title || typeof window.gameVersions !== "object" || !window.gameVersions) {
+            return null;
+        }
+
+        return Object.keys(window.gameVersions)
+            .sort((left, right) => right.length - left.length)
+            .find((key) => title.includes(key)) || null;
+    }
+
+    function normalizeComparableUrl(urlLike) {
+        const url = new URL(urlLike, window.location.href);
+        const params = Array.from(url.searchParams.entries())
+            .sort(([leftKey, leftValue], [rightKey, rightValue]) => {
+                if (leftKey === rightKey) {
+                    return leftValue.localeCompare(rightValue);
+                }
+                return leftKey.localeCompare(rightKey);
+            })
+            .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
+            .join("&");
+
+        return `${url.pathname}${params ? `?${params}` : ""}`;
+    }
+
+    function isCurrentGameVersion(version, title) {
+        if (!version || !version.url) {
+            return false;
+        }
+
+        if (normalizeComparableUrl(version.url) === normalizeComparableUrl(window.location.href)) {
+            return true;
+        }
+
+        return typeof title === "string" && title.includes(version.id);
+    }
+
+    function renderGameVersionTabs(title) {
+        const versionTabs = document.getElementById("main-view-version-tabs");
+        if (!versionTabs) {
+            return;
+        }
+
+        versionTabs.innerHTML = "";
+        versionTabs.style.display = "none";
+
+        const versionKey = getMatchingGameVersionKey(title);
+        if (!versionKey) {
+            return;
+        }
+
+        const versions = window.gameVersions[versionKey];
+        if (!Array.isArray(versions) || versions.length < 2) {
+            return;
+        }
+
+        versions.forEach((version) => {
+            if (!version || !version.id || !version.url) {
+                return;
+            }
+
+            const link = document.createElement("a");
+            const isActive = isCurrentGameVersion(version, title);
+            link.className = `main-view-version-link${isActive ? " active" : ""}`;
+            link.href = version.url;
+            link.textContent = version.id;
+
+            if (isActive) {
+                link.setAttribute("aria-current", "page");
+            }
+
+            versionTabs.appendChild(link);
+        });
+
+        if (versionTabs.childElementCount > 0) {
+            versionTabs.style.display = "flex";
+        }
     }
 
     function updateBodyViewClasses(viewName) {
@@ -160,6 +240,7 @@
             });
         });
 
+        updateMainPageTitle(typeof window.TITLE === "string" ? window.TITLE : "");
         setMainPageView("calculator");
     }
 
