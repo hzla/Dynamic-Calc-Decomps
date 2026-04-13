@@ -456,7 +456,7 @@ function get_next_in() {
         return get_next_in_g4()
     }
 
-    if (settings.gameSwitchIn == 5) {
+    if (settings.gameSwitchIn >= 5 && settings.gameSwitchIn <= 7) {
         return get_next_in_g5()
     }
 
