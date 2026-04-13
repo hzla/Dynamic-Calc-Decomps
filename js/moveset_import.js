@@ -23,6 +23,9 @@ moveChanges = {
 	    "Gust": "Twister",
 	    "Poison Gas": "Will-O-Wisp"
 	},
+	'Navy Sapphire': {
+	    "Mega Kick": "High Horsepower"
+	},
 	"Ancestral X": {
 	  "Fury Attack": "Scorching Swarm",
 	  "Scratch": "Breaking Swipe",

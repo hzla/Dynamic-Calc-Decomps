@@ -129,7 +129,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
     var isMoisturize = false;
     var isGalvanize = false;
     var hasAteTypeChange = false;
-    var noTypeChange = move.named('Judgment', 'Nature Power', 'Techo Blast', 'Natural Gift', 'Weather Ball') || isAttackerTera;
+    var noTypeChange = move.named('Judgment', 'Nature Power', 'Techo Blast', 'Natural Gift', 'Weather Ball', 'Weather Crash') || isAttackerTera;
     if (!move.isZ && !noTypeChange) {
         var normal = move.hasType('Normal');
         if ((isAerilate = attacker.hasAbility('Aerilate') && normal)) {
@@ -387,6 +387,7 @@ function calculateBWXY(gen, attacker, defender, move, field) {
                 basePower = move.bp * (defender.hasStatus('par') ? 2 : 1);
                 desc.moveBP = basePower;
                 break;
+            case 'Weather Crash':
             case 'Weather Ball':
                 basePower = move.bp * (field.weather && !(field.hasWeather('Strong Winds') && (TITLE.includes("Cascade") && (defender.hasAbility("Overcoat") || defender.hasItem("Utility Umbrella")))) ? 2 : 1);
                 desc.moveBP = basePower;
