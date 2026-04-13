@@ -6,7 +6,7 @@
     <meta name="color-scheme" content="dark">
     <title>Dynamic Calc</title>
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css?01" />
-    <link type="text/css" rel="stylesheet" href="./css/main.css?cb057123" />
+    <link type="text/css" rel="stylesheet" href="./css/main.css?2b977b56" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?f84b1399" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
@@ -1001,8 +1001,21 @@
 
 
             <div id="search-row">
-              <div id="search-label">Search:</div>
-              <input type="text" id="search-box" placeholder="Name, learnset, ability, item, etc."></input>
+              <input type="text" id="search-box" placeholder="Search name, learnset, ability, etc."></input>
+              <select id="box-sort-select" aria-label="Sort box by">
+                <option value="species_name">Sort by: Name</option>
+                <option value="species_id">Sort by: Dex ID</option>
+                <option value="bst">Sort by: BST</option>
+                <option value="hp">Sort by: HP</option>
+                <option value="atk">Sort by: Atk</option>
+                <option value="def">Sort by: Def</option>
+                <option value="spa">Sort by: SpA</option>
+                <option value="spd">Sort by: SpD</option>
+                <option value="spe">Sort by: Spe</option>
+                <option value="damage_dealt">Sort by: Damage Dealt</option>
+                <option value="damage_taken">Sort by: Damage Taken</option>
+              </select>
+              <button type="button" id="box-sort-direction" aria-label="Toggle ascending sort" title="Ascending">↑</button>
             </div>
 
             <div class="trainer-poks ">
@@ -1029,6 +1042,7 @@
             </div>
 
             <div id="tooltip">Right click on mon to add to party view</div>
+            <div id="box-damage-tooltip"></div>
 
              <div id="player-poks-filter">
                 <div class="filter-row">
@@ -2212,7 +2226,7 @@
     <script type="text/javascript" src="./js/calc_ui/dex_box_bridge.js"></script>
     <script type="text/javascript" src="./js/calc_ui/dex.js?6f63fcac"></script>
     <script type="text/javascript" src="./js/initialize.js?3eab1b7b"></script>
-    <script type="text/javascript" src="./js/calc_ui/player_box.js?f1106797"></script>
+    <script type="text/javascript" src="./js/calc_ui/player_box.js?0c9a2a0a"></script>
 
     <script type="text/javascript" src="./js/calc_ui/switch_preview_ai.js?0600edbf"></script>
     <script type="text/javascript" src="./js/calc_ui/switch_preview/g3.js?532505d9"></script>
@@ -2222,7 +2236,7 @@
     <script type="text/javascript" src="./js/calc_ui/ai_display.js?4c40ce6e"></script>
 
     <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?a057001b"></script>
-    <script type="text/javascript" src="./js/showdown_hooks.js?cfd2bf85"></script>
+    <script type="text/javascript" src="./js/showdown_hooks.js?4425ef87"></script>
 
 
 
@@ -2285,7 +2299,7 @@
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
     <script type="text/javascript" src="./js/shared_controls.js?4a5e09bd"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?df5c4a7b"></script>
-    <script type="text/javascript" src="./js/moveset_import.js?008242ce"></script>
+    <script type="text/javascript" src="./js/moveset_import.js?0737dd92"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?d32ecc86"></script>
     <script type="text/javascript" src="./js/analytics/index.js?63b9ba20"></script>
 

@@ -182,6 +182,22 @@ $(document).ready(function() {
 
    $(document).on('keyup', '#search-box', filter_box)
 
+   $(document).on('change', '#box-sort-select', function() {
+        setBoxSortState($(this).val(), null)
+        refreshBoxDisplay()
+   })
+
+   $(document).on('click', '#box-sort-direction', function() {
+        toggleBoxSortDirection()
+        refreshBoxDisplay()
+   })
+
+   $(document).on('mouseenter', '.trainer-pok.left-side', maybeShowBoxDamageTooltip)
+   $(document).on('mousemove', '.trainer-pok.left-side', function(e) {
+        maybeShowBoxDamageTooltip(e)
+   })
+   $(document).on('mouseleave', '.trainer-pok.left-side', hideBoxDamageTooltip)
+
 
    $(document).on('click', '#learnset-show', function(e) {
         get_current_learnset()
@@ -203,7 +219,7 @@ $(document).ready(function() {
             }
             delete SETDEX_BW[species]['My Box']
             localStorage.customsets = JSON.stringify(sets)
-            $(`[data-id='${$('.set-selector')[0].value}']`).remove()
+            $(`[data-id='${$('.set-selector')[0].value}']`).closest('.box-sort-card').remove()
         }
    })
 
@@ -430,6 +446,7 @@ $(document).ready(function() {
 
     $('body').on('change', 'select', function(e) {
         if (!e.originalEvent) return;
+        if (this.id == 'box-sort-select') return;
         console.log("refreshing team preview")
         refresh_next_in()
     })
@@ -500,6 +517,18 @@ $(document).ready(function() {
 
     $(document).on('change', '#filter-move', box_rolls)
 
+    $(document).on('change', '.opposing.set-selector', function() {
+        if (isDamageBoxSortKey(BOX_SORT_STATE.key) || $('#player-poks-filter:visible').length > 0) {
+            refreshBoxDisplay()
+        }
+    })
+
+    $(document).on('change', '#p1 input, #p1 select, #p2 input, #p2 select, .field-info input, .field-info select', function() {
+        if (isDamageBoxSortKey(BOX_SORT_STATE.key) && $('#player-poks-filter:visible').length === 0) {
+            get_box()
+        }
+    })
+
     $(document).on('click', '#clear-filters', function(){
         $('#max-taken').val("")
         $('#min-dealt').val("")
@@ -507,5 +536,6 @@ $(document).ready(function() {
 
         poks.removeClass('defender')
         poks.removeClass('killer')
+        hideBoxDamageTooltip()
     })
 })

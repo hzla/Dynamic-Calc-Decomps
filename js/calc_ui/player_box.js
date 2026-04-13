@@ -1,5 +1,587 @@
 // Functions managing UI for right side player box
 
+var BOX_SORT_DEFAULT_KEY = "species_name"
+var BOX_SORT_DEFAULT_DIRECTION = "asc"
+var BOX_SORT_STORAGE_KEY = "boxSortKey"
+var BOX_SORT_DIRECTION_STORAGE_KEY = "boxSortDirection"
+var BOX_SORT_ALLOWED_KEYS = {
+    species_name: true,
+    species_id: true,
+    bst: true,
+    hp: true,
+    atk: true,
+    def: true,
+    spa: true,
+    spd: true,
+    spe: true,
+    damage_dealt: true,
+    damage_taken: true
+}
+var BOX_SORT_STATE = {
+    key: BOX_SORT_DEFAULT_KEY,
+    direction: BOX_SORT_DEFAULT_DIRECTION
+}
+var BOX_STAT_KEY_MAP = {
+    hp: "hp",
+    atk: "at",
+    def: "df",
+    spa: "sa",
+    spd: "sd",
+    spe: "sp"
+}
+var BOX_DAMAGE_SORT_KEYS = {
+    damage_dealt: true,
+    damage_taken: true
+}
+var BOX_MATCHUP_METRICS_CACHE = {
+    fingerprint: null,
+    metricsBySetId: {}
+}
+
+function isDamageBoxSortKey(sortKey) {
+    return Boolean(BOX_DAMAGE_SORT_KEYS[sortKey])
+}
+
+function getSavedBoxSortKey() {
+    var savedKey = localStorage.getItem(BOX_SORT_STORAGE_KEY)
+    if (savedKey && BOX_SORT_ALLOWED_KEYS[savedKey]) {
+        return savedKey
+    }
+    return BOX_SORT_DEFAULT_KEY
+}
+
+function getSavedBoxSortDirection() {
+    var savedDirection = localStorage.getItem(BOX_SORT_DIRECTION_STORAGE_KEY)
+    return savedDirection == "desc" ? "desc" : BOX_SORT_DEFAULT_DIRECTION
+}
+
+function persistBoxSortState() {
+    localStorage.setItem(BOX_SORT_STORAGE_KEY, BOX_SORT_STATE.key)
+    localStorage.setItem(BOX_SORT_DIRECTION_STORAGE_KEY, BOX_SORT_STATE.direction)
+}
+
+BOX_SORT_STATE.key = getSavedBoxSortKey()
+BOX_SORT_STATE.direction = getSavedBoxSortDirection()
+
+function escapeBoxSelectorValue(value) {
+    return String(value || "").replace(/\\/g, "\\\\").replace(/'/g, "\\'")
+}
+
+function normalizeBoxAbilityForCalc(pokemon) {
+    if (pokemon && pokemon.ability == "Intimidate") {
+        pokemon.ability = "Honey Gather"
+    }
+    return pokemon
+}
+
+function getBoxSpeciesNameFromSetId(setId) {
+    return String(setId || "").split(" (")[0]
+}
+
+function getBoxSpeciesBaseStats(speciesName) {
+    var speciesData = (pokedex && pokedex[speciesName]) || {}
+    var baseStats = speciesData.baseStats || speciesData.bs || {}
+    return {
+        hp: Number(baseStats.hp) || 0,
+        at: Number(baseStats.atk != null ? baseStats.atk : baseStats.at) || 0,
+        df: Number(baseStats.def != null ? baseStats.def : baseStats.df) || 0,
+        sa: Number(baseStats.spa != null ? baseStats.spa : baseStats.sa) || 0,
+        sd: Number(baseStats.spd != null ? baseStats.spd : baseStats.sd) || 0,
+        sp: Number(baseStats.spe != null ? baseStats.spe : baseStats.sp) || 0
+    }
+}
+
+function getBoxSpeciesId(speciesName) {
+    if (Array.isArray(window.nullMons)) {
+        var index = window.nullMons.indexOf(speciesName)
+        if (index >= 0) {
+            return index + 1
+        }
+    }
+    return Number.MAX_SAFE_INTEGER
+}
+
+function getBoxSearchRowShouldDisplay() {
+    return $('.player-poks .trainer-pok.left-side, .player-megas .trainer-pok.left-side').length > 0
+}
+
+function isFeaturedBoxSortKey(sortKey) {
+    return !["species_name", "species_id"].includes(sortKey)
+}
+
+function syncBoxSortControls() {
+    $('#search-row').css('display', getBoxSearchRowShouldDisplay() ? 'flex' : 'none')
+    $('#box-sort-select').val(BOX_SORT_STATE.key)
+    var isAscending = BOX_SORT_STATE.direction !== "desc"
+    $('#box-sort-direction')
+        .text(isAscending ? '↑' : '↓')
+        .toggleClass('desc', !isAscending)
+        .attr('title', isAscending ? 'Ascending' : 'Descending')
+        .attr('aria-label', `Toggle ${isAscending ? 'descending' : 'ascending'} sort`)
+}
+
+function setBoxSortState(nextKey, nextDirection) {
+    if (nextKey) {
+        BOX_SORT_STATE.key = nextKey
+    }
+    if (nextDirection) {
+        BOX_SORT_STATE.direction = nextDirection
+    }
+    persistBoxSortState()
+    syncBoxSortControls()
+}
+
+function toggleBoxSortDirection() {
+    BOX_SORT_STATE.direction = BOX_SORT_STATE.direction === "desc" ? "asc" : "desc"
+    persistBoxSortState()
+    syncBoxSortControls()
+}
+
+function getBoxInputFingerprint(selector) {
+    return $(selector).find('input, select').map(function() {
+        var key = this.id || this.name || this.className || this.tagName
+        var type = (this.type || "").toLowerCase()
+        var value = (type == "checkbox" || type == "radio") ? String(this.checked) : String($(this).val())
+        return `${key}:${value}`
+    }).get().join("|")
+}
+
+function getBoxMatchupContextOptions() {
+    var opponentInfo = $("#p2")
+    if (!opponentInfo.length) {
+        return null
+    }
+
+    var opponent = normalizeBoxAbilityForCalc(createPokemon(opponentInfo))
+    if (!opponent || !Array.isArray(opponent.types) || !opponent.types[0]) {
+        return null
+    }
+
+    var p1field = createField()
+    var p2field = p1field.clone().swap()
+    var opponentCurrentHp = Number($('#p2').find('#currentHpL1').val())
+    if (!opponentCurrentHp) {
+        opponentCurrentHp = Number(opponent.originalCurHP) || 0
+    }
+
+    var totalStats = $('.total.totalMod')
+    var opponentSpeed = parseInt(totalStats[1] && totalStats[1].innerHTML, 10)
+    if (!Number.isFinite(opponentSpeed)) {
+        opponentSpeed = Number(opponent.rawStats && opponent.rawStats.spe) || 0
+    }
+
+    return {
+        fingerprint: [
+            localStorage.customsets || "",
+            $('.opposing.set-selector').first().val() || "",
+            String(settings && settings.damageGen),
+            String($('#filter-move').val() || ""),
+            getBoxInputFingerprint('#p1'),
+            getBoxInputFingerprint('#p2'),
+            getBoxInputFingerprint('.field-info')
+        ].join("::"),
+        opponent: opponent,
+        p1field: p1field,
+        p2field: p2field,
+        opponentCurrentHp: opponentCurrentHp,
+        opponentSpeed: opponentSpeed,
+        selectedMoveIndex: $('#filter-move option:selected').index(),
+        dealtMinRoll: $("#min-dealt").val(),
+        takenMaxRoll: $("#max-taken").val()
+    }
+}
+
+function expandBoxDamageRolls(damage, moveName, attacker, requireSkillLink) {
+    if (!Array.isArray(damage)) {
+        return []
+    }
+
+    var expanded = Array.isArray(damage[0]) ? damage.map(function(row) {
+        return Array.isArray(row) ? row.slice() : row
+    }) : damage.slice()
+    var moveData = moves && moves[moveName] ? moves[moveName] : null
+    if (!moveData || !moveData.multihit) {
+        return normalize_damage(expanded)
+    }
+
+    if (requireSkillLink && (!attacker || attacker.ability != "Skill Link")) {
+        return normalize_damage(expanded)
+    }
+
+    var hitCounts = moveData.multihit
+    var targetHits = hitCounts[hitCounts.length - 1]
+    while (expanded.length < targetHits) {
+        expanded.push(Array.isArray(expanded[0]) ? expanded[0].slice() : expanded[0])
+    }
+    return normalize_damage(expanded)
+}
+
+function formatBoxDamagePercent(value) {
+    if (!Number.isFinite(value)) {
+        return "--"
+    }
+    return `${value.toFixed(1)}%`
+}
+
+function getBoxSortMetricValue(sortKey, setId) {
+    var speciesName = getBoxSpeciesNameFromSetId(setId)
+    var baseStats = getBoxSpeciesBaseStats(speciesName)
+
+    if (sortKey == "species_name") {
+        return speciesName
+    }
+
+    if (sortKey == "species_id") {
+        return getBoxSpeciesId(speciesName)
+    }
+
+    if (sortKey == "bst") {
+        return baseStats.hp + baseStats.at + baseStats.df + baseStats.sa + baseStats.sd + baseStats.sp
+    }
+
+    var statKey = BOX_STAT_KEY_MAP[sortKey]
+    if (statKey) {
+        return baseStats[statKey] || 0
+    }
+
+    if (isDamageBoxSortKey(sortKey)) {
+        var metrics = getBoxMatchupMetrics(setId)
+        if (sortKey == "damage_dealt") {
+            return Number.isFinite(metrics.bestMinDealtPercent) ? metrics.bestMinDealtPercent : null
+        }
+        return Number.isFinite(metrics.worstMaxTakenPercent) ? metrics.worstMaxTakenPercent : null
+    }
+
+    return speciesName
+}
+
+function buildBoxSortValueMap(setIds, sortKey, contextOptions) {
+    var valueMap = {}
+    var safeSetIds = Array.isArray(setIds) ? setIds : []
+
+    if (!safeSetIds.length) {
+        return valueMap
+    }
+
+    if (isDamageBoxSortKey(sortKey)) {
+        for (var i = 0; i < safeSetIds.length; i++) {
+            var damageSetId = safeSetIds[i]
+            var metrics = getBoxMatchupMetrics(damageSetId, contextOptions)
+            valueMap[damageSetId] = sortKey == "damage_dealt"
+                ? (Number.isFinite(metrics.bestMinDealtPercent) ? metrics.bestMinDealtPercent : null)
+                : (Number.isFinite(metrics.worstMaxTakenPercent) ? metrics.worstMaxTakenPercent : null)
+        }
+        return valueMap
+    }
+
+    for (var j = 0; j < safeSetIds.length; j++) {
+        var setId = safeSetIds[j]
+        valueMap[setId] = getBoxSortMetricValue(sortKey, setId)
+    }
+
+    return valueMap
+}
+
+function compareBoxSortValues(leftValue, rightValue) {
+    if (leftValue == null && rightValue == null) {
+        return 0
+    }
+    if (leftValue == null) {
+        return 1
+    }
+    if (rightValue == null) {
+        return -1
+    }
+
+    if (typeof leftValue === "string" || typeof rightValue === "string") {
+        var stringDiff = String(leftValue).localeCompare(String(rightValue))
+        return BOX_SORT_STATE.direction === "desc" ? -stringDiff : stringDiff
+    }
+
+    var numericDiff = Number(leftValue) - Number(rightValue)
+    return BOX_SORT_STATE.direction === "desc" ? -numericDiff : numericDiff
+}
+
+function applyCurrentBoxSort(selector, sortValueMap) {
+    var container = $(selector)
+    var mons = container.children('.box-sort-card').get()
+
+    mons.sort(function(leftNode, rightNode) {
+        var leftSetId = leftNode.getAttribute('data-set-id')
+        var rightSetId = rightNode.getAttribute('data-set-id')
+        var leftValue = sortValueMap && Object.prototype.hasOwnProperty.call(sortValueMap, leftSetId)
+            ? sortValueMap[leftSetId]
+            : getBoxSortMetricValue(BOX_SORT_STATE.key, leftSetId)
+        var rightValue = sortValueMap && Object.prototype.hasOwnProperty.call(sortValueMap, rightSetId)
+            ? sortValueMap[rightSetId]
+            : getBoxSortMetricValue(BOX_SORT_STATE.key, rightSetId)
+        var diff = compareBoxSortValues(
+            leftValue,
+            rightValue
+        )
+
+        if (diff !== 0) {
+            return diff
+        }
+
+        return getBoxSpeciesNameFromSetId(leftSetId).localeCompare(getBoxSpeciesNameFromSetId(rightSetId))
+    })
+
+    $(mons).detach().appendTo(container)
+}
+
+function formatFeaturedSortValue(sortKey, value) {
+    if (value == null || !Number.isFinite(Number(value))) {
+        return "--"
+    }
+
+    if (sortKey == "damage_dealt") {
+        return `${Number(value).toFixed(1)}%`
+    }
+    if (sortKey == "damage_taken") {
+        return `${Number(value).toFixed(1)}%`
+    }
+    return `${Math.round(Number(value))}`
+}
+
+function updateFeaturedBoxResults(selector, sortValueMap) {
+    var container = $(selector)
+    var cards = container.children('.box-sort-card')
+    cards.removeClass('featured')
+    cards.find('.box-sort-metric').text('')
+
+    if (!isFeaturedBoxSortKey(BOX_SORT_STATE.key)) {
+        return
+    }
+
+    cards.slice(0, 3).each(function() {
+        var setId = $(this).attr('data-set-id')
+        var sortValue = sortValueMap && Object.prototype.hasOwnProperty.call(sortValueMap, setId)
+            ? sortValueMap[setId]
+            : getBoxSortMetricValue(BOX_SORT_STATE.key, setId)
+        $(this)
+            .addClass('featured')
+            .find('.box-sort-metric')
+            .text(formatFeaturedSortValue(BOX_SORT_STATE.key, sortValue))
+    })
+}
+
+function getBoxMatchupMetrics(setId, options) {
+    options = options || getBoxMatchupContextOptions()
+    var speciesName = getBoxSpeciesNameFromSetId(setId)
+    var fallbackMetrics = {
+        setId: setId,
+        speciesName: speciesName,
+        speed: 0,
+        bestMinDealtPercent: null,
+        bestMinDealtMove: "",
+        worstMaxTakenPercent: null,
+        worstMaxTakenMove: "",
+        faster: false,
+        killer: false,
+        defender: false
+    }
+
+    if (!options) {
+        return fallbackMetrics
+    }
+
+    if (BOX_MATCHUP_METRICS_CACHE.fingerprint !== options.fingerprint) {
+        BOX_MATCHUP_METRICS_CACHE.fingerprint = options.fingerprint
+        BOX_MATCHUP_METRICS_CACHE.metricsBySetId = {}
+    }
+
+    if (BOX_MATCHUP_METRICS_CACHE.metricsBySetId[setId]) {
+        return BOX_MATCHUP_METRICS_CACHE.metricsBySetId[setId]
+    }
+
+    var mon = normalizeBoxAbilityForCalc(createPokemon(setId))
+    if (!mon || !Array.isArray(mon.types) || !mon.types[0]) {
+        BOX_MATCHUP_METRICS_CACHE.metricsBySetId[setId] = fallbackMetrics
+        return fallbackMetrics
+    }
+
+    var monSpeed = Number(mon.rawStats && mon.rawStats.spe) || 0
+    var monHp = Number(mon.originalCurHP) || 0
+    var dealtMinRoll = options.dealtMinRoll === "" ? 10000000 : Number(options.dealtMinRoll)
+    var takenMaxRoll = options.takenMaxRoll === "" ? -100000 : Number(options.takenMaxRoll)
+    var results = calculateAllMoves(settings.damageGen, options.opponent, options.p1field, mon, options.p2field, false)
+    var opposingResults = results[0] || []
+    var playerResults = results[1] || []
+    var defendCount = 0
+    var metrics = {
+        setId: setId,
+        speciesName: speciesName,
+        speed: monSpeed,
+        bestMinDealtPercent: null,
+        bestMinDealtMove: "",
+        worstMaxTakenPercent: null,
+        worstMaxTakenMove: "",
+        faster: monSpeed > options.opponentSpeed,
+        killer: false,
+        defender: false
+    }
+
+    for (var j = 0; j < 4; j++) {
+        if (playerResults[j]) {
+            var playerMoveName = playerResults[j].move.originalName || playerResults[j].move.name
+            var playerDamage = expandBoxDamageRolls(playerResults[j].damage, playerResults[j].move.name, playerResults[j].attacker, true)
+            if (playerDamage.length) {
+                var minDealtPercent = options.opponentCurrentHp > 0 ? (playerDamage[0] / options.opponentCurrentHp) * 100 : null
+                if (!Number.isFinite(metrics.bestMinDealtPercent) || minDealtPercent > metrics.bestMinDealtPercent) {
+                    metrics.bestMinDealtPercent = minDealtPercent
+                    metrics.bestMinDealtMove = playerMoveName
+                }
+                if (can_kill(playerDamage, options.opponentCurrentHp * dealtMinRoll / 100)) {
+                    metrics.killer = true
+                }
+            }
+        }
+
+        if (!opposingResults[j]) {
+            continue
+        }
+
+        var matchesSelectedMove = options.selectedMoveIndex == 0 || j == options.selectedMoveIndex - 1
+        var opposingMoveName = opposingResults[j].move.originalName || opposingResults[j].move.name
+        var opposingDamage = expandBoxDamageRolls(opposingResults[j].damage, opposingResults[j].move.name, opposingResults[j].attacker, false)
+        if (!opposingDamage.length) {
+            continue
+        }
+
+        var maxTakenPercent = monHp > 0 ? (opposingDamage[opposingDamage.length - 1] / monHp) * 100 : null
+        if (matchesSelectedMove && (!Number.isFinite(metrics.worstMaxTakenPercent) || maxTakenPercent > metrics.worstMaxTakenPercent)) {
+            metrics.worstMaxTakenPercent = maxTakenPercent
+            metrics.worstMaxTakenMove = opposingMoveName
+        }
+
+        if (!matchesSelectedMove) {
+            continue
+        }
+
+        if (!can_topkill(opposingDamage, monHp * takenMaxRoll / 100)) {
+            defendCount += 1
+            if (defendCount == 4 || options.selectedMoveIndex > 0) {
+                metrics.defender = true
+            }
+        }
+    }
+
+    BOX_MATCHUP_METRICS_CACHE.metricsBySetId[setId] = metrics
+    return metrics
+}
+
+function hideBoxDamageTooltip() {
+    $('#box-damage-tooltip').hide().html("")
+}
+
+function getBoxDamageTooltipLines(setId) {
+    var context = getBoxMatchupContextOptions()
+    if (!context) {
+        return []
+    }
+
+    var metrics = getBoxMatchupMetrics(setId, context)
+    var showThresholdTooltip = $('#player-poks-filter:visible').length > 0
+    var hasMinDealt = showThresholdTooltip && $("#min-dealt").val() !== ""
+    var hasMaxTaken = showThresholdTooltip && $("#max-taken").val() !== ""
+    var lines = []
+
+    if (hasMinDealt) {
+        lines.push(`${formatBoxDamagePercent(metrics.bestMinDealtPercent)}${metrics.bestMinDealtMove ? ` w/ ${metrics.bestMinDealtMove}` : ""}`)
+    }
+    if (hasMaxTaken) {
+        lines.push(`${formatBoxDamagePercent(metrics.worstMaxTakenPercent)}${metrics.worstMaxTakenMove ? ` from ${metrics.worstMaxTakenMove}` : ""}`)
+    }
+
+    if (!lines.length && BOX_SORT_STATE.key == "damage_dealt") {
+        lines.push(`${formatBoxDamagePercent(metrics.bestMinDealtPercent)}${metrics.bestMinDealtMove ? ` w/ ${metrics.bestMinDealtMove}` : ""}`)
+    }
+    if (!lines.length && BOX_SORT_STATE.key == "damage_taken") {
+        lines.push(`${formatBoxDamagePercent(metrics.worstMaxTakenPercent)}${metrics.worstMaxTakenMove ? ` from ${metrics.worstMaxTakenMove}` : ""}`)
+    }
+
+    return lines.filter(function(line) {
+        return !line.includes("--")
+    })
+}
+
+function updateBoxDamageTooltipPosition(event) {
+    var tooltip = $('#box-damage-tooltip')
+    if (!tooltip.is(':visible')) {
+        return
+    }
+    var hoverTarget = event && event.currentTarget ? event.currentTarget : null
+    var rect = hoverTarget && hoverTarget.getBoundingClientRect ? hoverTarget.getBoundingClientRect() : null
+    var tooltipWidth = tooltip.outerWidth()
+    var tooltipHeight = tooltip.outerHeight()
+    var left
+    var top
+
+    if (rect) {
+        left = rect.left + (rect.width / 2) - (tooltipWidth / 2)
+        top = rect.top - tooltipHeight - 8
+
+        var minLeft = 8
+        var maxLeft = window.innerWidth - tooltipWidth - 8
+        left = Math.max(minLeft, Math.min(maxLeft, left))
+
+        if (top < 8) {
+            top = rect.bottom + 8
+        }
+    } else {
+        left = event.pageX - (tooltipWidth / 2)
+        top = event.pageY - tooltipHeight - 10
+    }
+
+    tooltip.css({
+        left: `${left}px`,
+        top: `${top}px`
+    })
+}
+
+function maybeShowBoxDamageTooltip(event) {
+    var setId = $(event.currentTarget).attr('data-id')
+    if (!setId) {
+        hideBoxDamageTooltip()
+        return
+    }
+    if ($(event.currentTarget).closest('.box-sort-card').hasClass('featured')) {
+        hideBoxDamageTooltip()
+        return
+    }
+
+    var showForSort = isDamageBoxSortKey(BOX_SORT_STATE.key)
+    var showForFilters = $('#player-poks-filter:visible').length > 0 && ($("#min-dealt").val() !== "" || $("#max-taken").val() !== "")
+    if (!showForSort && !showForFilters) {
+        hideBoxDamageTooltip()
+        return
+    }
+
+    var lines = getBoxDamageTooltipLines(setId)
+    if (!lines.length) {
+        hideBoxDamageTooltip()
+        return
+    }
+
+    $('#box-damage-tooltip')
+        .html(lines.map(function(line) {
+            return `<div class="damage-line">${line}</div>`
+        }).join(""))
+        .show()
+
+    updateBoxDamageTooltipPosition(event)
+}
+
+function refreshBoxDisplay() {
+    hideBoxDamageTooltip()
+    if ($('#player-poks-filter:visible').length > 0) {
+        box_rolls()
+        return
+    }
+    get_box()
+}
+
 function sort_box_by_set(attr) {
     var box = $('.player-poks'),
     mons = box.children('.trainer-pok');
@@ -286,7 +868,10 @@ function toggleMegaBoxVisibility(hasMegas) {
 
 function buildBoxSpriteHTML(setId, highlights) {
     var pok_name = setId.split(" (")[0].toLowerCase().replace(" ","-").replace(".","").replace(".","").replace("’","").replace(":","-")
-    return `<img class="trainer-pok left-side ${sprite_style} ${highlights}" src="./img/${sprite_style}/${pok_name}.png" data-id="${setId}">`
+    return `<div class="box-sort-card" data-set-id="${setId}">
+        <div class="box-sort-metric"></div>
+        <img class="trainer-pok left-side ${sprite_style} ${highlights}" src="./img/${sprite_style}/${pok_name}.png" data-id="${setId}">
+    </div>`
 }
 
 function generateCompactPreviewHTML({ setData, speciesName, dataId, interactiveClass = "", containerSelector = ".player-party", showItem = true, showNature = true, showAbility = true }) {
@@ -436,6 +1021,7 @@ function displayParty() {
 function get_box() {
     var names = get_trainer_names()
     encounters = getEncounters()
+    hideBoxDamageTooltip()
 
     var box = []
 
@@ -487,13 +1073,17 @@ function get_box() {
 
     $('.player-poks').html(box_html)
     $('.player-megas').html(mega_box_html)
-    sort_box_by_name(true, '.player-poks')
-    sort_box_by_name(true, '.player-megas')
+    var renderedSetIds = $('.player-poks .box-sort-card, .player-megas .box-sort-card').map(function() {
+        return $(this).attr('data-set-id')
+    }).get()
+    var sortContextOptions = isDamageBoxSortKey(BOX_SORT_STATE.key) ? getBoxMatchupContextOptions() : null
+    var sortValueMap = buildBoxSortValueMap(renderedSetIds, BOX_SORT_STATE.key, sortContextOptions)
+    applyCurrentBoxSort('.player-poks', sortValueMap)
+    applyCurrentBoxSort('.player-megas', sortValueMap)
+    updateFeaturedBoxResults('.player-poks', sortValueMap)
+    updateFeaturedBoxResults('.player-megas', sortValueMap)
     toggleMegaBoxVisibility(megaCount > 0)
-
-    if ($('.player-poks .trainer-pok.left-side, .player-megas .trainer-pok.left-side').length >= 10) {
-        $('#search-row').css('display', 'flex')
-    }
+    syncBoxSortControls()
     filter_box()
 
 
@@ -511,11 +1101,11 @@ function filter_box() {
 
     // Hide Prevos
     if (localStorage.hidePrevos == '1' && typeof customSets != 'undefined') {
-        containers.find('.trainer-pok.left-side').show()
+        containers.find('.box-sort-card').show()
         for (set in customSets) {
             let set_id = `${set} (My Box)`
             if (typeof window.shouldHideImportedPrevo === "function" && window.shouldHideImportedPrevo(set, customSets)) {
-               containers.find(`[data-id='${set_id}']`).hide()
+               containers.find(`.box-sort-card[data-set-id='${escapeBoxSelectorValue(set_id)}']`).hide()
             }
         }
     }
@@ -580,119 +1170,33 @@ function box_rolls() {
     var defenders = []
     var faster = []
 
-    var dealt_min_roll = $("#min-dealt").val()
-    var taken_max_roll = $("#max-taken").val()
-
-
-
-    if ($("#min-dealt").val() == "") {
-        dealt_min_roll=10000000
-    } 
-
-    if ($("#max-taken").val() == "") {
-        taken_max_roll=-100000
-    }
-
-    
-
     $('.killer').removeClass('killer')
     $('.defender').removeClass('defender')
     $('.faster').removeClass('faster')
 
-    var p1field = createField();
-    var p2field = p1field.clone().swap();
-
-    var p1info = $("#p2");
-    var p1 = createPokemon(p1info);
-    var p1hp = $('#p2').find('#currentHpL1').val()
-    var p1speed = parseInt($('.total.totalMod')[1].innerHTML)
-
-    if (p1.ability == "Intimidate") {
-        p1.ability = "Honey Gather"
-    }
-
-    if (!p1 || !Array.isArray(p1.types) || !p1.types[0]) {
+    var contextOptions = getBoxMatchupContextOptions()
+    if (!contextOptions) {
         return {"killers": killers, "defenders": defenders, "faster": faster}
     }
 
     for (m = 0; m < box.length; m++) {
-        if (p1.level < 1) {
+        if (contextOptions.opponent.level < 1) {
             break;
         }
-        var mon = createPokemon(box[m])
-        if (!mon || !Array.isArray(mon.types) || !mon.types[0]) {
-            continue
-        }
-        var monSpeed = mon.rawStats.spe
-
-        if (mon.ability == "Intimidate") {
-            mon.ability = "Honey Gather"
-        }
-
-        if (monSpeed > p1speed) {
+        var metrics = getBoxMatchupMetrics(box[m], contextOptions)
+        if (metrics.faster) {
             faster.push({"set": box[m]})
             $(`.trainer-pok[data-id='${box[m]}']`).addClass('faster')
         }
 
-        var monHp = mon.originalCurHP
-        var selected_move_index = $('#filter-move option:selected').index()
-
-
-        if (!p1.name) {
-            return {"killers": killers, "defenders": defenders, "faster": faster}  
+        if (metrics.killer) {
+            killers.push({"set": box[m], "move": metrics.bestMinDealtMove})
+            $(`.trainer-pok[data-id='${box[m]}']`).addClass('killer')
         }
-        
-        var all_results = calculateAllMoves(settings.damageGen, p1, p1field, mon, p2field, false);
 
-        var opposing_results = all_results[0]
-        var player_results = all_results[1]
-
-        var defend_count = 0
-
-
- 
-        for (j = 0; j < 4; j++) {
-            player_dmg = player_results[j].damage
-
-
-            var playerMon = player_results[j].attacker
-            var playerMove = player_results[j].move
-            
-            if (moves[playerMove.name] && moves[playerMove.name].multihit && playerMon.ability == "Skill Link") {
-                // pad dmg matrix to max
-                while (player_dmg.length < moves[playerMove.name].multihit[moves[playerMove.name].multihit.length - 1]) {
-                    player_dmg.push(player_dmg[0])
-                }
-            }
-
-
-            if (can_kill(player_dmg, p1hp * dealt_min_roll / 100)) {
-                killers.push({"set": box[m], "move": player_results[j].move.originalName})
-                $(`.trainer-pok[data-id='${box[m]}']`).addClass('killer')
-            }
-
-            opposing_dmg = opposing_results[j].damage
-
-            var opposingMon = opposing_results[j].attacker
-            var opposingMove = opposing_results[j].move
-
-            // assume ai always gets max hits
-            if (moves[opposingMove.name] && moves[opposingMove.name].multihit) {
-                // pad dmg matrix to max
-                while (opposing_dmg.length < moves[opposingMove.name].multihit[moves[opposingMove.name].multihit.length - 1]) {
-                    opposing_dmg.push(opposing_dmg[0])
-                }
-            }
-
-
-
-            if (!can_topkill(opposing_dmg, monHp * taken_max_roll / 100) && (selected_move_index == 0 || j == selected_move_index - 1)) {
-                defend_count += 1
-                if (defend_count == 4 || selected_move_index > 0) {
-                    defenders.push({"set": box[m], "move": opposing_results[j].move.originalName})
-                    $(`.trainer-pok[data-id='${box[m]}']`).addClass('defender')
-                }         
-            }
+        if (metrics.defender) {
+            defenders.push({"set": box[m], "move": metrics.worstMaxTakenMove})
+            $(`.trainer-pok[data-id='${box[m]}']`).addClass('defender')
         }
     }
     return {"killers": killers, "defenders": defenders, "faster": faster}  

@@ -280,6 +280,103 @@ for (let calc of calcs) {
           }
         });
       }) 
+
+      it('shows box sort controls and preserves search highlights while sorting', () => {
+        cy.get('.player-poks .trainer-pok').its('length').should('be.gt', 0)
+        cy.get('#search-row').should('be.visible')
+        cy.get('#box-sort-select').should('have.value', 'species_name')
+        cy.get('#box-sort-direction').should('contain', '↑')
+
+        cy.get('.player-poks .trainer-pok').then(($mons) => {
+          const species = [...$mons].map((el) => el.getAttribute('data-id').split(' (')[0])
+          const expected = [...species].sort((left, right) => left.localeCompare(right))
+          expect(species).to.deep.equal(expected)
+        })
+
+        cy.get('#box-sort-direction').click()
+        cy.get('.player-poks .trainer-pok').then(($mons) => {
+          const species = [...$mons].map((el) => el.getAttribute('data-id').split(' (')[0])
+          const expected = [...species].sort((left, right) => right.localeCompare(left))
+          expect(species).to.deep.equal(expected)
+        })
+
+        cy.get('#box-sort-direction').click()
+        cy.get('#box-sort-select').select('bst')
+        cy.window().then((win) => {
+          const ids = [...win.document.querySelectorAll('.player-poks .trainer-pok')].map((el) => el.getAttribute('data-id'))
+          const bstValues = ids.map((id) => {
+            const species = id.split(' (')[0]
+            const stats = win.pokedex[species].baseStats || win.pokedex[species].bs
+            return stats.hp + (stats.atk ?? stats.at) + (stats.def ?? stats.df) + (stats.spa ?? stats.sa) + (stats.spd ?? stats.sd) + (stats.spe ?? stats.sp)
+          })
+          expect(bstValues).to.deep.equal([...bstValues].sort((left, right) => left - right))
+          win.get_box()
+        })
+
+        cy.get('#box-sort-select').should('have.value', 'bst')
+        cy.get('#search-box').clear().type('overgrow')
+        cy.get('.player-poks .trainer-pok.active, .player-megas .trainer-pok.active').its('length').should('be.gt', 0)
+        cy.get('#box-sort-select').select('spe')
+        cy.get('.player-poks .trainer-pok.active, .player-megas .trainer-pok.active').its('length').should('be.gt', 0)
+      })
+
+      if (calc.title.includes('Pokemon Null')) {
+        it('sorts by species id using nullMons order', () => {
+          cy.get('#box-sort-direction').then(($button) => {
+            if ($button.text().includes('↓')) {
+              cy.wrap($button).click()
+            }
+          })
+          cy.get('#box-sort-select').select('species_id')
+          cy.window().then((win) => {
+            const ids = [...win.document.querySelectorAll('.player-poks .trainer-pok')].map((el) => el.getAttribute('data-id'))
+            const speciesIds = ids.map((id) => win.nullMons.indexOf(id.split(' (')[0]) + 1)
+            expect(speciesIds).to.deep.equal([...speciesIds].sort((left, right) => left - right))
+          })
+        })
+      }
+
+      it('sorts by damage metrics and shows the hover tooltip for damage thresholds', () => {
+        cy.window().then((win) => {
+          win.localStorage.boxrolls = '1'
+          win.$('#player-poks-filter').show()
+          win.$('#min-dealt').val('')
+          win.$('#max-taken').val('')
+          win.box_rolls()
+        })
+
+        cy.get('#box-sort-select').select('damage_dealt')
+        cy.window().then((win) => {
+          const ids = [...win.document.querySelectorAll('.player-poks .trainer-pok')].map((el) => el.getAttribute('data-id'))
+          const dealtValues = ids
+            .map((id) => win.getBoxMatchupMetrics(id).bestMinDealtPercent)
+            .filter((value) => Number.isFinite(value))
+          expect(dealtValues).to.deep.equal([...dealtValues].sort((left, right) => left - right))
+        })
+
+        cy.get('.player-poks .trainer-pok').first().trigger('mouseenter', { pageX: 320, pageY: 460, force: true })
+        cy.get('#box-damage-tooltip').should('be.visible').and('contain', 'Min dealt:')
+
+        cy.get('#filter-move option').then(($options) => {
+          if ($options.length > 1) {
+            cy.get('#filter-move').select($options.eq(1).val())
+          }
+        })
+
+        cy.get('#box-sort-select').select('damage_taken')
+        cy.window().then((win) => {
+          const ids = [...win.document.querySelectorAll('.player-poks .trainer-pok')].map((el) => el.getAttribute('data-id'))
+          const takenValues = ids
+            .map((id) => win.getBoxMatchupMetrics(id).worstMaxTakenPercent)
+            .filter((value) => Number.isFinite(value))
+          expect(takenValues).to.deep.equal([...takenValues].sort((left, right) => left - right))
+        })
+
+        cy.get('#box-sort-select').select('species_name')
+        cy.get('#max-taken').clear().type('40').blur()
+        cy.get('.player-poks .trainer-pok').first().trigger('mouseenter', { pageX: 340, pageY: 480, force: true })
+        cy.get('#box-damage-tooltip').should('be.visible').and('contain', 'Max taken:')
+      })
     }
 
     if (calc.url.includes('dmgGen=8')) {

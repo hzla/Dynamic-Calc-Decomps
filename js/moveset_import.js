@@ -1621,9 +1621,11 @@ $("#clearSets").click(function () {
 	$("#importedSetsOptions").hide();
 	
 	// Remove Icons
-	$('.trainer-pok.left-side').remove()
+	$('.player-poks .box-sort-card, .player-megas .box-sort-card').remove()
 	$('.player-megas').html("")
 	$('.player-megas-wrapper').hide()
+	hideBoxDamageTooltip()
+	syncBoxSortControls()
 	$('#clear-party').click()
 	localStorage.legalTms = ''
 	updateBoxAnim()
