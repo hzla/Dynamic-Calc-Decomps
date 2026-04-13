@@ -1880,10 +1880,10 @@ mons = {
 "Ogerpon",
 "Archaludon",
 "Hydrapple",
-"Gouging Fire",
-"Raging Bolt",
-"Iron Boulder",
-"Iron Crown",
+"Gouging-Fire",
+"Raging-Bolt",
+"Iron-Boulder",
+"Iron-Crown",
 "Terapagos",
 "Pecharunt",
 "Venusaur-Mega",
@@ -3549,12 +3549,147 @@ local speciesNameLength=13
 local playerNameLength=7
 local boxMonSize=84
 local partyMonSize=104
-local partyloc=0x2005370 --gPlayerParty
-local partyCount=0x200536d --gPlayerPartyCount
-local storageLoc=0x200a154 -- gPokemonStorage
-local speciesInfo=0x83db3fc -- gSpeciesInfo
+local partyloc=0x02005370 -- gPlayerParty
+local partyCount=0x0200536D -- gPlayerPartyCount
+local enemyPartyCountLoc=0x0200536E -- gEnemyPartyCount
+local enemyPartyLoc=0x020055E0 -- gEnemyParty
+local storageLoc=0x0200A154 -- gPokemonStorage
+local speciesInfo=0x083DE378 -- gSpeciesInfo
+local speciesNameTable=0x083C4B34 -- gSpeciesNames
 
-local speciesNameTable=0x83b4db8
+local NULL_MAP_CACHE_KEY = "__VSRECORDER_POKEMON_NULL_MAP__"
+
+local function getOffsetMapScriptDir()
+	local info = debug and debug.getinfo and debug.getinfo(1, "S") or nil
+	local source = info and info.source or nil
+	if type(source) ~= "string" or source == "" then
+		return "."
+	end
+	if source:sub(1, 1) == "@" then
+		source = source:sub(2)
+	end
+	source = source:gsub("\\", "/")
+	local dir = source:match("^(.*)/[^/]+$")
+	if type(dir) == "string" and dir ~= "" then
+		return dir
+	end
+	return "."
+end
+
+local function normalizeOffsetMapPath(path)
+	local normalized = tostring(path or ""):gsub("\\", "/")
+	normalized = normalized:gsub("/+", "/")
+	normalized = normalized:gsub("/+$", "")
+	return normalized
+end
+
+local function joinOffsetMapPath(base, rel)
+	if rel:match("^%a:[/\\]") or rel:sub(1, 1) == "/" then
+		return normalizeOffsetMapPath(rel)
+	end
+	local normalizedBase = normalizeOffsetMapPath(base)
+	if normalizedBase == "" or normalizedBase == "." then
+		return normalizeOffsetMapPath(rel)
+	end
+	return normalizeOffsetMapPath(normalizedBase .. "/" .. rel)
+end
+
+local function buildPokemonNullMapPathCandidates()
+	local scriptDir = getOffsetMapScriptDir()
+	local relativeCandidates = {
+		"gen3/pokemonnull.map",
+		"../gen3/pokemonnull.map",
+		"../../gen3/pokemonnull.map",
+		"PokemonNull/pokeemerald.map",
+		"../PokemonNull/pokeemerald.map",
+		"../../PokemonNull/pokeemerald.map",
+	}
+	local candidates = {}
+	local seen = {}
+	for i = 1, #relativeCandidates do
+		local candidate = joinOffsetMapPath(scriptDir, relativeCandidates[i])
+		if candidate ~= "" and not seen[candidate] then
+			seen[candidate] = true
+			candidates[#candidates + 1] = candidate
+		end
+	end
+	return candidates
+end
+
+local function loadPokemonNullMapSymbols()
+	local cached = rawget(_G, NULL_MAP_CACHE_KEY)
+	if type(cached) == "table" and cached.loaded ~= nil then
+		return cached
+	end
+
+	local wanted = {
+		gBattlersCount = true,
+		gBattlerPartyIndexes = true,
+		gBattlerPositions = true,
+		gBattleMons = true,
+		gTrainerBattleOpponent_A = true,
+		gTrainerBattleOpponent_B = true,
+		gSaveBlock2Ptr = true,
+		gPlayerParty = true,
+		gPlayerPartyCount = true,
+		gEnemyParty = true,
+		gEnemyPartyCount = true,
+		gPokemonStorage = true,
+		gSpeciesInfo = true,
+		gSpeciesNames = true,
+	}
+	local result = {
+		loaded = false,
+		path = nil,
+		symbols = {},
+	}
+
+	local bestCount = 0
+	local candidates = buildPokemonNullMapPathCandidates()
+	for i = 1, #candidates do
+		local path = candidates[i]
+		local fh = io and io.open and io.open(path, "r") or nil
+		if fh then
+			local found = {}
+			local foundCount = 0
+			for line in fh:lines() do
+				local hex, name = line:match("^%s*0x([0-9A-Fa-f]+)%s+([%w_]+)")
+				if hex and wanted[name] and found[name] == nil then
+					found[name] = tonumber(hex, 16)
+					foundCount = foundCount + 1
+				end
+			end
+			fh:close()
+			if foundCount > bestCount then
+				bestCount = foundCount
+				result.loaded = foundCount > 0
+				result.path = path
+				result.symbols = found
+			end
+		end
+	end
+
+	_G[NULL_MAP_CACHE_KEY] = result
+	return result
+end
+
+local function getPokemonNullMapSymbol(name)
+	local data = loadPokemonNullMapSymbols()
+	local symbols = data and data.symbols or nil
+	if type(symbols) ~= "table" then
+		return nil
+	end
+	return symbols[name]
+end
+
+partyloc = getPokemonNullMapSymbol("gPlayerParty") or partyloc
+partyCount = getPokemonNullMapSymbol("gPlayerPartyCount") or partyCount
+enemyPartyCountLoc = getPokemonNullMapSymbol("gEnemyPartyCount") or enemyPartyCountLoc
+enemyPartyLoc = getPokemonNullMapSymbol("gEnemyParty") or enemyPartyLoc
+storageLoc = getPokemonNullMapSymbol("gPokemonStorage") or storageLoc
+speciesInfo = getPokemonNullMapSymbol("gSpeciesInfo") or speciesInfo
+speciesNameTable = getPokemonNullMapSymbol("gSpeciesNames") or speciesNameTable
+
 function getCurve(n)
 	return emu:read8(speciesInfo+(36*n)+21)
 end
@@ -4145,13 +4280,12 @@ end
 -- Null game battle logger (pinned runtime offsets).
 local NULL_BATTLE = {
 	addresses = {
-		gBattlersCount = 0x02004D40,
-		gBattlerPositions = 0x02004D4A,
-		gBattlerPartyIndexes = 0x02004D42,
-		gBattleMons = 0x02004D58,
-		-- Pinned from PokemonNull/pokeemerald.map (src/battle_setup.o)
-		gTrainerBattleOpponent_A = 0x0201962E,
-		gTrainerBattleOpponent_B = 0x02019630,
+		gBattlersCount = (getPokemonNullMapSymbol and getPokemonNullMapSymbol("gBattlersCount")) or 0x02004D40,
+		gBattlerPositions = (getPokemonNullMapSymbol and getPokemonNullMapSymbol("gBattlerPositions")) or 0x02004D4A,
+		gBattlerPartyIndexes = (getPokemonNullMapSymbol and getPokemonNullMapSymbol("gBattlerPartyIndexes")) or 0x02004D42,
+		gBattleMons = (getPokemonNullMapSymbol and getPokemonNullMapSymbol("gBattleMons")) or 0x02004D58,
+		gTrainerBattleOpponent_A = (getPokemonNullMapSymbol and getPokemonNullMapSymbol("gTrainerBattleOpponent_A")) or 0x0201962E,
+		gTrainerBattleOpponent_B = (getPokemonNullMapSymbol and getPokemonNullMapSymbol("gTrainerBattleOpponent_B")) or 0x02019630,
 	},
 	struct = {
 		battleMonSize = 0x60,
@@ -4168,6 +4302,7 @@ local NULL_BATTLE = {
 	sessionResetFrames = 300,
 	sessionStartPollFrames = 60,
 	sessionActivePollFrames = 6,
+	partySize = 6,
 	writeFullBattleLog = false,
 	classifyWildByEnemyCount = true,
 	consoleStartEndOnly = true,
@@ -4187,6 +4322,8 @@ local nullBattleState = {
 	lastSeenEnemyTrainerKey = nil,
 	actionIndex = 0,
 	prevSnapshots = {},
+	prevEnemyParty = {},
+	recordedEnemyKos = {},
 	koHistory = {},
 	fullEvents = {},
 	lastRuntimePollFrame = 0,
@@ -4208,8 +4345,7 @@ local BOX_CREATE = {
 	slotCount = 120,
 	slotsPerBox = 30,
 	slotStride = 84,
-	-- Pinned from PokemonNull/pokeemerald.map (gSaveBlock2Ptr)
-	gSaveBlock2Ptr = 0x03005E50,
+	gSaveBlock2Ptr = (getPokemonNullMapSymbol and getPokemonNullMapSymbol("gSaveBlock2Ptr")) or 0x03005E50,
 	secureOffset = 0x24, -- 36
 	-- Pinned from PokemonNull/include/pokemon.h (struct BoxPokemon with POKEMON_NAME_LENGTH=12, PLAYER_NAME_LENGTH=7)
 	flagsOffset = 0x15, -- 21
@@ -4292,6 +4428,7 @@ local NULL_EXPORT = {
 	version = "pokeemerald-expansion",
 	defaultTrainerKey = "unknown:unknown",
 	defaultBoxSlots = 120,
+	master_write_every_session_end = 1,
 }
 
 local nullExportState = {
@@ -4309,6 +4446,9 @@ local nullExportState = {
 	sessionCounterByAttempt = {},
 	lastBoxMetaByAttempt = {},
 	cachedBoxPayloadByAttempt = {},
+	dirtyMasterByAttempt = {},
+	dirtyMasterNeedsBoxRefreshByAttempt = {},
+	completedSessionsSinceFlushByAttempt = {},
 }
 
 -- Forward declaration for helpers defined later but used by early export writers.
@@ -4743,6 +4883,18 @@ local function ensureDirForFile(path)
 	return ensureDir(dir)
 end
 
+function openFileForWriteWithDirRetry(path)
+	if type(path) ~= "string" or path == "" then
+		return nil
+	end
+	local f = io.open(path, "w")
+	if f then
+		return f
+	end
+	ensureDirForFile(path)
+	return io.open(path, "w")
+end
+
 local function splitTrainerKey(key)
 	if type(key) ~= "string" then
 		return nil, nil
@@ -4774,7 +4926,6 @@ local function defaultAttemptMap()
 end
 
 local function loadAttemptMap()
-	ensureDir(NULL_EXPORT.baseDir)
 	local path = getAttemptMapPath()
 	local f = io.open(path, "r")
 	if not f then
@@ -4813,8 +4964,7 @@ local function saveAttemptMap(data)
 	table.sort(mapKeys)
 
 	local path = getAttemptMapPath()
-	ensureDirForFile(path)
-	local f = io.open(path, "w")
+	local f = openFileForWriteWithDirRetry(path)
 	if not f then
 		return false
 	end
@@ -4842,6 +4992,40 @@ local function ensureAttemptMapLoaded()
 	nullExportState.mapLoaded = true
 	nullExportState.mapData = data
 	return data
+end
+
+function getTrainerKeyForAttempt(attempt)
+	if attempt == nil then
+		return NULL_EXPORT.defaultTrainerKey
+	end
+	if nullExportState.current.attempt == attempt and type(nullExportState.current.trainerKey) == "string" then
+		return nullExportState.current.trainerKey
+	end
+	local mapData = ensureAttemptMapLoaded()
+	local entries = mapData and mapData.map or nil
+	if type(entries) ~= "table" then
+		return NULL_EXPORT.defaultTrainerKey
+	end
+	for key, mappedAttempt in pairs(entries) do
+		if tonumber(mappedAttempt) == tonumber(attempt) then
+			return key
+		end
+	end
+	return NULL_EXPORT.defaultTrainerKey
+end
+
+function buildExportContextForAttempt(attempt)
+	local trainerKey = getTrainerKeyForAttempt(attempt)
+	local trainerId, secretId = splitTrainerKey(trainerKey)
+	local attemptDir = string.format("%s/attempt_%d", NULL_EXPORT.baseDir, attempt)
+	return {
+		trainerId = trainerId,
+		secretId = secretId,
+		trainerKey = trainerKey,
+		attempt = attempt,
+		attemptDir = attemptDir,
+		masterPath = string.format("%s/attempt_%d.json", attemptDir, attempt),
+	}
 end
 
 local function resolvePlayerIdentityFromParty()
@@ -5087,7 +5271,6 @@ local function ensureExportContext()
 	local identity = resolveExportIdentity(nullExportState.current.trainerKey)
 	local attempt = getOrCreateAttemptForKey(identity.trainerKey)
 	local attemptDir = getAttemptDir(attempt)
-	ensureDir(attemptDir)
 
 	nullExportState.current.trainerId = identity.trainerId
 	nullExportState.current.secretId = identity.secretId
@@ -5320,24 +5503,52 @@ local function cacheCurrentAttemptBoxPayload(ctx, boxStartSlot, boxEndSlot)
 	return payload
 end
 
-local function writeCurrentAttemptMaster(refreshBoxPayload, boxStartSlot, boxEndSlot)
-	local events, ctx = getCurrentAttemptEvents()
+function markAttemptMasterDirty(attempt, needsBoxRefresh)
+	if attempt == nil then
+		return
+	end
+	nullExportState.dirtyMasterByAttempt[attempt] = true
+	if needsBoxRefresh then
+		nullExportState.dirtyMasterNeedsBoxRefreshByAttempt[attempt] = true
+	end
+end
+
+function clearAttemptMasterDirty(attempt)
+	if attempt == nil then
+		return
+	end
+	nullExportState.dirtyMasterByAttempt[attempt] = nil
+	nullExportState.dirtyMasterNeedsBoxRefreshByAttempt[attempt] = nil
+	nullExportState.completedSessionsSinceFlushByAttempt[attempt] = 0
+end
+
+function writeAttemptMaster(attempt, refreshBoxPayload, boxStartSlot, boxEndSlot)
+	if attempt == nil then
+		return false
+	end
+	local ctx = (nullExportState.current.attempt == attempt)
+		and nullExportState.current
+		or buildExportContextForAttempt(attempt)
+	local events = nullExportState.eventsByAttempt[attempt] or {}
 	local boxPayload = nil
 	if refreshBoxPayload then
-		boxPayload = cacheCurrentAttemptBoxPayload(ctx, boxStartSlot, boxEndSlot)
+		if nullExportState.current.attempt == attempt then
+			boxPayload = cacheCurrentAttemptBoxPayload(ctx, boxStartSlot, boxEndSlot)
+		else
+			boxPayload = nullExportState.cachedBoxPayloadByAttempt[attempt]
+		end
 	else
-		boxPayload = nullExportState.cachedBoxPayloadByAttempt[ctx.attempt]
+		boxPayload = nullExportState.cachedBoxPayloadByAttempt[attempt]
 	end
-	local boxMeta = nullExportState.lastBoxMetaByAttempt[ctx.attempt] or {}
+	local boxMeta = nullExportState.lastBoxMetaByAttempt[attempt] or {}
 	if boxPayload then
 		boxMeta = {
 			updatedAt = os.date("%Y-%m-%dT%H:%M:%S"),
 			partyCount = boxPayload.partyCount,
 			boxSlotsDumped = boxPayload.boxSlotsDumped,
 		}
-		nullExportState.lastBoxMetaByAttempt[ctx.attempt] = boxMeta
+		nullExportState.lastBoxMetaByAttempt[attempt] = boxMeta
 	end
-	ensureDirForFile(ctx.masterPath)
 	local out = {
 		version = NULL_EXPORT.version,
 		attempt = ctx.attempt,
@@ -5356,7 +5567,7 @@ local function writeCurrentAttemptMaster(refreshBoxPayload, boxStartSlot, boxEnd
 		},
 	}
 
-	local f = io.open(ctx.masterPath, "w")
+	local f = openFileForWriteWithDirRetry(ctx.masterPath)
 	if not f then
 		logNullBattle(string.format("WARN: could not write master file %s", tostring(ctx.masterPath)))
 		return false
@@ -5364,12 +5575,38 @@ local function writeCurrentAttemptMaster(refreshBoxPayload, boxStartSlot, boxEnd
 	f:write(jsonEncode(out))
 	f:write("\n")
 	f:close()
+	clearAttemptMasterDirty(attempt)
 	return true
+end
+
+local function writeCurrentAttemptMaster(refreshBoxPayload, boxStartSlot, boxEndSlot)
+	local _events, ctx = getCurrentAttemptEvents()
+	return writeAttemptMaster(ctx.attempt, refreshBoxPayload, boxStartSlot, boxEndSlot)
+end
+
+function flushAttemptMasterIfDirty(attempt, forceBoxRefresh, boxStartSlot, boxEndSlot)
+	if attempt == nil then
+		return false
+	end
+	local needsWrite = nullExportState.dirtyMasterByAttempt[attempt] == true
+	local needsBoxRefresh = nullExportState.dirtyMasterNeedsBoxRefreshByAttempt[attempt] == true
+	if not needsWrite and not forceBoxRefresh and not needsBoxRefresh then
+		return true
+	end
+	return writeAttemptMaster(attempt, forceBoxRefresh or needsBoxRefresh, boxStartSlot, boxEndSlot)
+end
+
+function flushAllDirtyAttemptMasters()
+	for attempt, isDirty in pairs(nullExportState.dirtyMasterByAttempt) do
+		if isDirty then
+			flushAttemptMasterIfDirty(attempt, false)
+		end
+	end
 end
 
 local function appendBattleLogEvent(record)
 	if not record or type(record) ~= "table" then
-		return
+		return nil
 	end
 	local events, ctx = getCurrentAttemptEvents()
 	if record.type == "session_start" then
@@ -5383,7 +5620,8 @@ local function appendBattleLogEvent(record)
 		end
 	end
 	events[#events + 1] = record
-	writeCurrentAttemptMaster(nil)
+	markAttemptMasterDirty(ctx.attempt, false)
+	return ctx
 end
 
 local function appendFullBattleEvent(record)
@@ -5427,7 +5665,6 @@ end
 
 local function getUniqueFullBattleLogPath(ctx)
 	local dir = getFullBattleLogsDir(ctx.attempt)
-	ensureDir(dir)
 	local trainerPart = sanitizeFilenameComponent(getTrainerIdFoughtForFile(), "unknownTrainer")
 	local levelPart = tonumber(nullBattleState.sessionFirstEnemyLevel) or 0
 	local speciesPart = sanitizeFilenameComponent(getSpeciesNameForFile(nullBattleState.sessionFirstEnemySpecies), "unknownSpecies")
@@ -5450,7 +5687,6 @@ end
 local function writeSessionFullBattleLog()
 	local ctx = ensureExportContext()
 	local path = getUniqueFullBattleLogPath(ctx)
-	ensureDirForFile(path)
 	local events = nullBattleState.fullEvents or {}
 	local out = {
 		version = NULL_EXPORT.version,
@@ -5469,7 +5705,7 @@ local function writeSessionFullBattleLog()
 			events = events,
 		},
 	}
-	local f = io.open(path, "w")
+	local f = openFileForWriteWithDirRetry(path)
 	if not f then
 		logNullBattle(string.format("WARN: could not write full battle log %s", tostring(path)))
 		return false
@@ -5527,7 +5763,14 @@ local function readS8(addr)
 end
 
 local function getEnemyPartyCountFallback()
-	local enemyCount = emu:read8(partyCount + 1)
+	local countAddr = enemyPartyCountLoc
+	if countAddr == nil and partyCount ~= nil then
+		countAddr = partyCount + 1
+	end
+	if countAddr == nil then
+		return nil
+	end
+	local enemyCount = emu:read8(countAddr)
 	if enemyCount ~= nil and enemyCount >= 0 and enemyCount <= 6 then
 		return enemyCount
 	end
@@ -5582,6 +5825,44 @@ function readPlayerPartyMonByPartyIndex(partyIndex)
 		return nil, nil
 	end
 	return mon, monAddr
+end
+
+local function getEnemyPartyBase()
+	if enemyPartyLoc ~= nil then
+		return enemyPartyLoc
+	end
+	if partyloc == nil or partyMonSize == nil then
+		return nil
+	end
+	return partyloc + (partyMonSize * (NULL_BATTLE.partySize or 6))
+end
+
+function buildEnemyPartySnapshot()
+	local out = {}
+	local enemyBase = getEnemyPartyBase()
+	if enemyBase == nil then
+		return out
+	end
+
+	local enemyCount = getEnemyPartyCountFallback() or (NULL_BATTLE.partySize or 6)
+	if enemyCount < 1 or enemyCount > (NULL_BATTLE.partySize or 6) then
+		enemyCount = NULL_BATTLE.partySize or 6
+	end
+
+	for slot = 0, enemyCount - 1 do
+		local monAddr = enemyBase + slot * partyMonSize
+		local mon = readPartyMon(monAddr)
+		if mon and mon.species and mon.species > 0 then
+			out[slot] = {
+				slot = slot,
+				species = mon.species,
+				hp = tonumber(mon.hp) or 0,
+				maxHP = tonumber(mon.maxHP) or 0,
+				personality = tonumber(mon.personality),
+			}
+		end
+	end
+	return out
 end
 
 local function readBattleSnapshot(battler)
@@ -7716,7 +7997,6 @@ local function armHardcodedNextTrainerMovesetIfConfigured()
 end
 
 local function emitSessionStart(rt, initialEnemyTrainerKey, enemyTrainerIdA, enemyTrainerIdB)
-	local ctx = ensureExportContext()
 	local sig = makeSessionSignature(rt)
 	nullBattleState.sessionSignature = sig
 	nullBattleState.sessionTrainerDisplayId = nextSyntheticSessionTrainerId()
@@ -7730,6 +8010,8 @@ local function emitSessionStart(rt, initialEnemyTrainerKey, enemyTrainerIdA, ene
 	nullBattleState.sessionFirstEnemyLevel = nil
 	nullBattleState.actionIndex = 0
 	nullBattleState.prevSnapshots = {}
+	nullBattleState.prevEnemyParty = buildEnemyPartySnapshot()
+	nullBattleState.recordedEnemyKos = {}
 	nullBattleState.koHistory = {}
 	nullBattleState.fullEvents = {}
 
@@ -7825,7 +8107,7 @@ local function emitSessionEnd()
 		nullBattleState.actionIndex,
 		tostring(nullBattleState.sessionSignature)
 	))
-	appendBattleLogEvent({
+	local ctx = appendBattleLogEvent({
 		type = "session_end",
 	})
 	if NULL_BATTLE.writeFullBattleLog then
@@ -7837,7 +8119,18 @@ local function emitSessionEnd()
 		})
 		writeSessionFullBattleLog()
 	end
-	writeCurrentAttemptMaster(nil)
+	local attempt = ctx and ctx.attempt or nil
+	if attempt ~= nil then
+		local completed = (nullExportState.completedSessionsSinceFlushByAttempt[attempt] or 0) + 1
+		nullExportState.completedSessionsSinceFlushByAttempt[attempt] = completed
+		local flushInterval = math.floor(tonumber(NULL_EXPORT.master_write_every_session_end) or 1)
+		if flushInterval < 1 then
+			flushInterval = 1
+		end
+		if completed >= flushInterval then
+			flushAttemptMasterIfDirty(attempt, false)
+		end
+	end
 	logNullBattle(string.format(
 		"BATTLE_END actionIndex=%d koList=[%s]",
 		nullBattleState.actionIndex,
@@ -7850,6 +8143,8 @@ local function emitSessionEnd()
 	nullBattleState.sessionFirstEnemySpecies = nil
 	nullBattleState.sessionFirstEnemyLevel = nil
 	nullBattleState.prevSnapshots = {}
+	nullBattleState.prevEnemyParty = {}
+	nullBattleState.recordedEnemyKos = {}
 	nullBattleState.koHistory = {}
 	nullBattleState.fullEvents = {}
 	nullBattleState.actionIndex = 0
@@ -7896,6 +8191,82 @@ local function pickKoAttribution(koSnap, runtime)
 	return bestSnap
 end
 
+local function makeEnemyKoKey(slotIndex, speciesId)
+	return string.format("%s:%d:%d", tostring(nullBattleState.sessionSignature), tonumber(slotIndex) or -1, tonumber(speciesId) or 0)
+end
+
+local function hasRecordedEnemyKo(slotIndex, speciesId)
+	return nullBattleState.recordedEnemyKos[makeEnemyKoKey(slotIndex, speciesId)] == true
+end
+
+local function recordEnemyKo(slotIndex, speciesId)
+	nullBattleState.recordedEnemyKos[makeEnemyKoKey(slotIndex, speciesId)] = true
+end
+
+local function emitFallbackEnemyKoEvent(enemyMon, runtime)
+	if not enemyMon or enemyMon.species == nil then
+		return
+	end
+	if hasRecordedEnemyKo(enemyMon.slot, enemyMon.species) then
+		return
+	end
+
+	nullBattleState.actionIndex = nullBattleState.actionIndex + 1
+	recordEnemyKo(enemyMon.slot, enemyMon.species)
+
+	local nonKoSnap = pickKoAttribution({
+		side = 1,
+	}, runtime)
+	nullBattleState.koHistory[#nullBattleState.koHistory + 1] = enemyMon.species
+
+	logNullBattle(string.format(
+		"KO_FALLBACK actionIndex=%d koSide=1 koSpecies=%s aiPartySlot=%s nonKoBattler=%s nonKoSide=%s nonKoSpecies=%s",
+		nullBattleState.actionIndex,
+		tostring(enemyMon.species),
+		tostring(enemyMon.slot),
+		nonKoSnap and tostring(nonKoSnap.battler) or "null",
+		nonKoSnap and tostring(nonKoSnap.side) or "null",
+		nonKoSnap and tostring(nonKoSnap.species) or "null"
+	))
+	if NULL_BATTLE.writeFullBattleLog then
+		appendFullBattleEvent({
+			type = "ko",
+			actionIndex = nullBattleState.actionIndex,
+			koSide = 1,
+			koSpecies = enemyMon.species,
+			aiPartySlot = enemyMon.slot,
+			nonKoBattler = nonKoSnap and nonKoSnap.battler or nil,
+			nonKoSide = nonKoSnap and nonKoSnap.side or nil,
+			nonKoSpecies = nonKoSnap and nonKoSnap.species or nil,
+			source = "enemy_party_fallback",
+		})
+	end
+	logNullBattle(string.format(
+		"KO_UPDATE latest=%s koList=[%s]",
+		formatSpeciesDisplay(enemyMon.species),
+		formatKoHistory(nullBattleState.koHistory)
+	))
+
+	appendBattleLogEvent({
+		type = "pKo",
+		turn = nullBattleState.actionIndex,
+		pSlot = nonKoSnap and nonKoSnap.partyIndex or nil,
+		pSpecies = nonKoSnap and nonKoSnap.species or nil,
+		aiSpecies = enemyMon.species,
+		aiPartySlot = enemyMon.slot,
+	})
+end
+
+local function emitMissingEnemyPartyKoEvents(runtime, enemyParty)
+	for slot = 0, (NULL_BATTLE.partySize or 6) - 1 do
+		local prevMon = nullBattleState.prevEnemyParty[slot]
+		local currMon = enemyParty[slot]
+		if prevMon and currMon and prevMon.hp and currMon.hp and prevMon.hp > 0 and currMon.hp == 0 then
+			emitFallbackEnemyKoEvent(currMon, runtime)
+		end
+	end
+end
+
 local function emitHpAndKoEvent(currSnap, prevSnap, runtime)
 	local hpBefore = prevSnap.hp
 	local hpAfter = currSnap.hp
@@ -7935,24 +8306,25 @@ local function emitHpAndKoEvent(currSnap, prevSnap, runtime)
 		))
 
 		local killerSpecies = nonKoSnap and nonKoSnap.species or nil
-			if currSnap.side == 1 then
-				appendBattleLogEvent({
-					type = "pKo",
-					turn = nullBattleState.actionIndex,
-					pSlot = nonKoSnap and nonKoSnap.partyIndex or nil,
-					pSpecies = killerSpecies,
-					aiSpecies = currSnap.species,
-					aiPartySlot = currSnap.partyIndex,
-				})
-			else
-				appendBattleLogEvent({
-					type = "aiKo",
-					turn = nullBattleState.actionIndex,
-					pSlot = currSnap.partyIndex,
-					pSpecies = currSnap.species,
-					aiSpecies = killerSpecies,
-				})
-			end
+		if currSnap.side == 1 then
+			recordEnemyKo(currSnap.partyIndex, currSnap.species)
+			appendBattleLogEvent({
+				type = "pKo",
+				turn = nullBattleState.actionIndex,
+				pSlot = nonKoSnap and nonKoSnap.partyIndex or nil,
+				pSpecies = killerSpecies,
+				aiSpecies = currSnap.species,
+				aiPartySlot = currSnap.partyIndex,
+			})
+		else
+			appendBattleLogEvent({
+				type = "aiKo",
+				turn = nullBattleState.actionIndex,
+				pSlot = currSnap.partyIndex,
+				pSpecies = currSnap.species,
+				aiSpecies = killerSpecies,
+			})
+		end
 	end
 end
 
@@ -7989,8 +8361,10 @@ function updateNullBattleLogger()
 	end
 	nullBattleState.lastRuntimePollFrame = nullBattleState.frame
 	local runtime = gatherBattleRuntime()
+	local enemyParty = buildEnemyPartySnapshot()
 	if runtime and tryApplyPendingNextTrainerMovesetOverride(runtime, nullBattleState.sessionActive and "session_active" or "session_start") then
 		runtime = gatherBattleRuntime() or runtime
+		enemyParty = buildEnemyPartySnapshot()
 	end
 	if not nullBattleState.sessionActive then
 		if runtime then
@@ -8058,6 +8432,8 @@ function updateNullBattleLogger()
 		end
 		nullBattleState.prevSnapshots[b] = curr
 	end
+	emitMissingEnemyPartyKoEvents(runtime, enemyParty)
+	nullBattleState.prevEnemyParty = enemyParty
 end
 -- <<< END 07_trainer_override_session.lua
 
@@ -8143,12 +8519,12 @@ nullSingleton.activeToken = (nullSingleton.activeToken or 0) + 1
 local THIS_SCRIPT_TOKEN = nullSingleton.activeToken
 _G[NULL_SINGLETON_KEY] = nullSingleton
 
-local function isActiveScriptInstance()
+function isActiveScriptInstance()
 	local g = rawget(_G, NULL_SINGLETON_KEY)
 	return type(g) == "table" and g.activeToken == THIS_SCRIPT_TOKEN
 end
 
-local function logHttp(msg)
+function logHttp(msg)
 	if console and console.log then
 		console:log(msg)
 	else
@@ -8156,7 +8532,7 @@ local function logHttp(msg)
 	end
 end
 
-local function noteClientCloseReason(reason)
+function noteClientCloseReason(reason)
 	local key = tostring(reason or "unknown")
 	local counts = nullHttpState.clientCloseReasons
 	if type(counts) ~= "table" then
@@ -8307,7 +8683,7 @@ function activateUpdateTrace(trace, method, path, version)
 	return trace
 end
 
-local function formatUncaughtLuaError(err)
+function formatUncaughtLuaError(err)
 	local msg = tostring(err)
 	if debug and debug.traceback then
 		local ok, traced = pcall(debug.traceback, msg, 2)
@@ -8318,7 +8694,7 @@ local function formatUncaughtLuaError(err)
 	return msg
 end
 
-local function runWithErrorLogging(context, fn, ...)
+function runWithErrorLogging(context, fn, ...)
 	if type(fn) ~= "function" then
 		return nil
 	end
@@ -8336,13 +8712,13 @@ local function runWithErrorLogging(context, fn, ...)
 	return a, b, c, d
 end
 
-local function makeSafeCallback(context, fn)
+function makeSafeCallback(context, fn)
 	return function(...)
 		runWithErrorLogging(context, fn, ...)
 	end
 end
 
-local function closeHttpSocketQuiet(sock)
+function closeHttpSocketQuiet(sock)
 	if not sock then
 		return
 	end
@@ -8351,7 +8727,7 @@ local function closeHttpSocketQuiet(sock)
 	end)
 end
 
-local function clearPendingHttpSend(sock)
+function clearPendingHttpSend(sock)
 	local pending = nullHttpState.pendingSends[sock]
 	if not pending then
 		return
@@ -8364,7 +8740,7 @@ local function clearPendingHttpSend(sock)
 	nullHttpState.pendingSends[sock] = nil
 end
 
-local function closeHttpClient(sock, reason)
+function closeHttpClient(sock, reason)
 	if not sock then
 		return
 	end
@@ -8395,7 +8771,7 @@ end
 
 local forceCloseHttpState
 
-local function markHttpServerDropped(reason)
+function markHttpServerDropped(reason)
 	local why = tostring(reason or "unknown")
 	nullHttpState.serverDropCount = (tonumber(nullHttpState.serverDropCount) or 0) + 1
 	nullHttpState.lastServerDropReason = why
@@ -8405,7 +8781,7 @@ local function markHttpServerDropped(reason)
 	nullHttpState.started = false
 end
 
-local function describeHttpErrorPayload(err)
+function describeHttpErrorPayload(err)
 	local errType = type(err)
 	if errType == "string" or errType == "number" or errType == "boolean" or err == nil then
 		return tostring(err)
@@ -8423,7 +8799,7 @@ local function describeHttpErrorPayload(err)
 	return tostring(err)
 end
 
-local function maybeRestartServerOnServerError(serverRef, summary)
+function maybeRestartServerOnServerError(serverRef, summary)
 	if serverRef ~= nullHttpState.server then
 		return
 	end
@@ -8438,7 +8814,7 @@ local function maybeRestartServerOnServerError(serverRef, summary)
 	nullHttpState.lastHealthCheckFrame = 0
 end
 
-local function removeCallbackQuiet(cbid)
+function removeCallbackQuiet(cbid)
 	if not cbid then
 		return
 	end
@@ -8488,8 +8864,12 @@ forceCloseHttpState = function(state)
 	state.requestTraceBySocket = {}
 end
 
-local function teardownThisScriptInstance(_)
+function teardownThisScriptInstance(_)
 	local g = rawget(_G, NULL_SINGLETON_KEY)
+	local okFlush, flushErr = pcall(flushAllDirtyAttemptMasters)
+	if not okFlush then
+		logHttp(string.format("[null-http] WARN failed to flush dirty attempt masters during teardown: %s", tostring(flushErr)))
+	end
 	if type(g) == "table" and g.callbackOwnerToken == THIS_SCRIPT_TOKEN then
 		removeCallbackQuiet(g.frameCallbackId)
 		removeCallbackQuiet(g.startCallbackId)
@@ -8512,7 +8892,7 @@ local function teardownThisScriptInstance(_)
 	end
 end
 
-local function teardownPreviousSingletonInstance()
+function teardownPreviousSingletonInstance()
 	local g = rawget(_G, NULL_SINGLETON_KEY)
 	if type(g) ~= "table" then
 		return
@@ -8534,7 +8914,7 @@ local function teardownPreviousSingletonInstance()
 	g.teardown = nil
 end
 
-local function parseHttpRequestHead(data)
+function parseHttpRequestHead(data)
 	if not data then
 		return nil
 	end
@@ -8559,14 +8939,14 @@ end
 
 local flushHttpResponse
 
-local function trimAsciiWhitespace(text)
+function trimAsciiWhitespace(text)
 	if type(text) ~= "string" then
 		return ""
 	end
 	return text:match("^%s*(.-)%s*$") or ""
 end
 
-local function readCurrentAttemptMasterRawJson(trace)
+function readCurrentAttemptMasterRawJson(trace)
 	queueOrLogUpdateTrace(trace, "master_read_start")
 	local okCtx, ctxOrErr = pcall(ensureExportContext)
 	if not okCtx then
@@ -8618,7 +8998,7 @@ local function readCurrentAttemptMasterRawJson(trace)
 	return raw
 end
 
-local function buildUpdateJsonResponseBody(trace)
+function buildUpdateJsonResponseBody(trace)
 	queueOrLogUpdateTrace(trace, "build_start")
 	local okPacked, packedOrErr = pcall(buildPackedBoxBytes)
 	if not okPacked then
@@ -8865,7 +9245,7 @@ function buildPackedBattleLogResponseBody(trace)
 	return payload, nil
 end
 
-local function shouldLogFlushProgressSample(trace, pending, previousOffset, nextOffset, totalLen)
+function shouldLogFlushProgressSample(trace, pending, previousOffset, nextOffset, totalLen)
 	if not trace or not trace.active or not pending then
 		return false
 	end
@@ -8890,7 +9270,7 @@ local function shouldLogFlushProgressSample(trace, pending, previousOffset, next
 	return false
 end
 
-local function sendHttpResponse(sock, statusCode, body, contentType)
+function sendHttpResponse(sock, statusCode, body, contentType)
 	if not sock then
 		return
 	end
@@ -9101,7 +9481,7 @@ flushHttpResponse = function(sock)
 	closeHttpClient(sock, "response_complete")
 end
 
-local function handleHttpRequest(method, path, trace)
+function handleHttpRequest(method, path, trace)
 	local normalizedPath = (path and path:match("^[^?]+")) or path
 	queueOrLogUpdateTrace(trace, "handler_enter", {
 		method = tostring(method),
@@ -9246,7 +9626,7 @@ local function handleHttpRequest(method, path, trace)
 	return 404, "Not Found", "text/plain; charset=utf-8"
 end
 
-local function handleHttpClientReceive(sock)
+function handleHttpClientReceive(sock)
 	local data = nullHttpState.clientBuffers[sock] or ""
 	local socketModule = nullHttpState.socketModule or rawget(_G, "socket")
 	local again = socketModule and socketModule.ERRORS and socketModule.ERRORS.AGAIN
@@ -9341,7 +9721,7 @@ local function handleHttpClientReceive(sock)
 	end
 end
 
-local function acceptHttpConnection()
+function acceptHttpConnection()
 	local server = nullHttpState.server
 	if not server then
 		return
@@ -9374,7 +9754,7 @@ local function acceptHttpConnection()
 	end
 end
 
-local function probeHttpServerSocketAlive()
+function probeHttpServerSocketAlive()
 	local server = nullHttpState.server
 	if not server then
 		return false, "server_nil"
@@ -9633,8 +10013,7 @@ function startScript()
 	nullScriptStarted = true
 	console:log("Lua Script Loaded")
 	armHardcodedNextTrainerMovesetIfConfigured()
-	local ctx = ensureExportContext()
-	renderHowToUseBuffer(ctx)
+	renderHowToUseBuffer(nil)
 	setupNullHttpServer()
 	if not partyBuffer then
 		partyBuffer = console:createBuffer("Showdown Export")
