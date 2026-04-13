@@ -1,4 +1,4 @@
-backup_data = {
+backup_data = backup_data = {
   "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
@@ -5913,7 +5913,7 @@ backup_data = {
       "e_id": 111
     }
   },
-  "poks": {
+   "poks": {
     "Bulbasaur": {
       "name": "Bulbasaur",
       "num": 1,
@@ -12117,7 +12117,7 @@ backup_data = {
           ],
           [
             7,
-            "Quick Attack"
+            "Confuse Ray"
           ],
           [
             10,
@@ -12133,7 +12133,7 @@ backup_data = {
           ],
           [
             19,
-            "Confuse Ray"
+            "Safeguard"
           ],
           [
             22,
@@ -12141,7 +12141,7 @@ backup_data = {
           ],
           [
             25,
-            "Safeguard"
+            "Curse"
           ],
           [
             28,
@@ -12297,7 +12297,7 @@ backup_data = {
           ],
           [
             7,
-            "Quick Attack"
+            "Confuse Ray"
           ],
           [
             10,
@@ -12313,7 +12313,7 @@ backup_data = {
           ],
           [
             19,
-            "Confuse Ray"
+            "Safeguard"
           ],
           [
             22,
@@ -12321,7 +12321,7 @@ backup_data = {
           ],
           [
             25,
-            "Safeguard"
+            "Curse"
           ],
           [
             28,
@@ -61989,7 +61989,7 @@ backup_data = {
       ],
       "bs": {
         "hp": 70,
-        "at": 85,
+        "at": 95,
         "df": 180,
         "sa": 95,
         "sd": 100,
@@ -62007,7 +62007,7 @@ backup_data = {
           ],
           [
             1,
-            "Rapid Spin"
+            "Yawn"
           ],
           [
             7,
@@ -62023,7 +62023,7 @@ backup_data = {
           ],
           [
             20,
-            "Temper Flare"
+            "Rapid Spin"
           ],
           [
             25,
@@ -62031,11 +62031,11 @@ backup_data = {
           ],
           [
             28,
-            "Yawn"
+            "Bulldoze"
           ],
           [
             31,
-            "Lava Plume"
+            "Temper Flare"
           ],
           [
             35,
@@ -62043,11 +62043,11 @@ backup_data = {
           ],
           [
             38,
-            "Amnesia"
+            "Snore"
           ],
           [
             41,
-            "Heat Crash"
+            "Lava Plume"
           ],
           [
             45,
@@ -62055,7 +62055,7 @@ backup_data = {
           ],
           [
             48,
-            "Bulk Up"
+            "Amnesia"
           ],
           [
             51,
@@ -62063,7 +62063,7 @@ backup_data = {
           ],
           [
             55,
-            "Heat Wave"
+            "Heat Crash"
           ],
           [
             60,
@@ -62533,12 +62533,12 @@ backup_data = {
         "None"
       ],
       "bs": {
-        "hp": 90,
-        "at": 90,
-        "df": 90,
-        "sa": 90,
-        "sd": 90,
-        "sp": 90
+        "hp": 95,
+        "at": 95,
+        "df": 95,
+        "sa": 95,
+        "sd": 95,
+        "sp": 95
       },
       "learnset_info": {
         "learnset": [
@@ -126722,8 +126722,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Leader Skyla ": {
-        "level": 55,
+      "Lvl 54 Leader Skyla ": {
+        "level": 54,
         "ai": 143,
         "noCh": false,
         "tr_id": 155,
@@ -129288,8 +129288,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Leader Marlon ": {
-        "level": 63,
+      "Lvl 62 Leader Marlon ": {
+        "level": 62,
         "ai": 15,
         "noCh": false,
         "tr_id": 160,
@@ -131666,8 +131666,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Leader Skyla ": {
-        "level": 55,
+      "Lvl 54 Leader Skyla ": {
+        "level": 54,
         "ai": 143,
         "noCh": false,
         "tr_id": 155,
@@ -132150,7 +132150,7 @@ backup_data = {
         },
         "battle_type": "Triples",
         "reward_item": "None",
-        "item": "None",
+        "item": "Iron Ball",
         "nature": "Sassy",
         "moves": [
           "Hex",
@@ -146107,8 +146107,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Leader Skyla ": {
-        "level": 55,
+      "Lvl 54 Leader Skyla ": {
+        "level": 54,
         "ai": 143,
         "noCh": false,
         "tr_id": 155,
@@ -146123,7 +146123,7 @@ backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Assault Vest",
-        "nature": "Rash",
+        "nature": "Brave",
         "moves": [
           "Steel Wing",
           "Dragon Rush",
@@ -156497,8 +156497,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Leader Skyla ": {
-        "level": 55,
+      "Lvl 54 Leader Skyla ": {
+        "level": 54,
         "ai": 143,
         "noCh": false,
         "tr_id": 155,
@@ -156997,8 +156997,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 63 Leader Marlon ": {
-        "level": 63,
+      "Lvl 62 Leader Marlon ": {
+        "level": 62,
         "ai": 15,
         "noCh": false,
         "tr_id": 160,
@@ -157013,7 +157013,7 @@ backup_data = {
         "battle_type": "Singles",
         "reward_item": "None",
         "item": "Weakness Policy",
-        "nature": "Serious",
+        "nature": "Hardy",
         "moves": [
           "Hurricane",
           "Thunder Wave",
@@ -161232,13 +161232,13 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "None",
+        "item": "Iron Ball",
         "nature": "Naive",
         "moves": [
           "Facade",
           "Dual Wingbeat",
           "Quick Attack",
-          "Bullet Seed"
+          "Rock Smash"
         ],
         "sub_index": 2,
         "ability": "Guts",
@@ -161425,7 +161425,7 @@ backup_data = {
         "item": "Assault Vest",
         "nature": "Brave",
         "moves": [
-          "Overheat",
+          "Blast Burn",
           "Explosion",
           "Giga Impact",
           "Body Press"
@@ -167020,11 +167020,11 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "None",
+        "item": "Iron Ball",
         "nature": "Hasty",
         "moves": [
           "Psycho Cut",
-          "Aura Sphere",
+          "Force Palm",
           "Ice Punch",
           "Fire Punch"
         ],
@@ -169885,8 +169885,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 55 Leader Skyla ": {
-        "level": 55,
+      "Lvl 54 Leader Skyla ": {
+        "level": 54,
         "ai": 143,
         "noCh": false,
         "tr_id": 155,
@@ -173467,8 +173467,8 @@ backup_data = {
       }
     },
     "Gyarados": {
-      "Lvl 63 Leader Marlon ": {
-        "level": 63,
+      "Lvl 62 Leader Marlon ": {
+        "level": 62,
         "ai": 15,
         "noCh": false,
         "tr_id": 160,
@@ -173624,8 +173624,8 @@ backup_data = {
       }
     },
     "Wailord": {
-      "Lvl 63 Leader Marlon ": {
-        "level": 63,
+      "Lvl 62 Leader Marlon ": {
+        "level": 62,
         "ai": 15,
         "noCh": false,
         "tr_id": 160,
@@ -173719,8 +173719,8 @@ backup_data = {
       }
     },
     "Carracosta": {
-      "Lvl 63 Leader Marlon ": {
-        "level": 63,
+      "Lvl 62 Leader Marlon ": {
+        "level": 62,
         "ai": 15,
         "noCh": false,
         "tr_id": 160,
@@ -173743,7 +173743,7 @@ backup_data = {
           "Substitute"
         ],
         "sub_index": 3,
-        "ability": "Shell Armor",
+        "ability": "Swift Swim",
         "sprite": "trainer_sprites/marlon.png",
         "form": 0,
         "evs": {
