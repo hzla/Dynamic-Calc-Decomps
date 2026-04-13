@@ -408,7 +408,8 @@ function getBoxMatchupMetrics(setId, options) {
     var results = calculateAllMoves(settings.damageGen, options.opponent, options.p1field, mon, options.p2field, false)
     var opposingResults = results[0] || []
     var playerResults = results[1] || []
-    var defendCount = 0
+    var matchingMoveCount = 0
+    var hasUnsafeTakenMove = false
     var metrics = {
         setId: setId,
         speciesName: speciesName,
@@ -443,6 +444,11 @@ function getBoxMatchupMetrics(setId, options) {
         }
 
         var matchesSelectedMove = options.selectedMoveIndex == 0 || j == options.selectedMoveIndex - 1
+        if (!matchesSelectedMove) {
+            continue
+        }
+
+        matchingMoveCount += 1
         var opposingMoveName = opposingResults[j].move.originalName || opposingResults[j].move.name
         var opposingDamage = expandBoxDamageRolls(opposingResults[j].damage, opposingResults[j].move.name, opposingResults[j].attacker, false)
         if (!opposingDamage.length) {
@@ -455,16 +461,13 @@ function getBoxMatchupMetrics(setId, options) {
             metrics.worstMaxTakenMove = opposingMoveName
         }
 
-        if (!matchesSelectedMove) {
-            continue
+        if (can_topkill(opposingDamage, monHp * takenMaxRoll / 100)) {
+            hasUnsafeTakenMove = true
         }
+    }
 
-        if (!can_topkill(opposingDamage, monHp * takenMaxRoll / 100)) {
-            defendCount += 1
-            if (defendCount == 4 || options.selectedMoveIndex > 0) {
-                metrics.defender = true
-            }
-        }
+    if (matchingMoveCount > 0 && !hasUnsafeTakenMove) {
+        metrics.defender = true
     }
 
     BOX_MATCHUP_METRICS_CACHE.metricsBySetId[setId] = metrics
