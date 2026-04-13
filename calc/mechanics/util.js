@@ -307,18 +307,18 @@ function checkForecast(pokemon, weather) {
         switch (weather) {
             case 'Sun':
             case 'Harsh Sunshine':
-                pokemon.types = ['Fire'];
+                pokemon.types = TITLE.includes("Cascade") ? ["Flying", "Fire"] : ["Fire"]   
                 break;
             case 'Rain':
             case 'Heavy Rain':
-                pokemon.types = ['Water'];
+                pokemon.types = TITLE.includes("Cascade") ? ["Flying", "Water"] : ["Water"]   
                 break;
             case 'Hail':
             case 'Snow':
-                pokemon.types = ['Ice'];
+                pokemon.types = TITLE.includes("Cascade") ? ["Flying", "Ice"] : ["Ice"]   
                 break;
             default:
-                pokemon.types = ['Normal'];
+                pokemon.types = TITLE.includes("Cascade") ? ["Flying"] : ["Normal"]    
         }
     }
 }
