@@ -1008,6 +1008,7 @@ if (["Pokemon Null", "Pokemon Null 1.2"].includes(TITLE)) {
         }
         var atMods = calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc);
         attack = (0, util_2.OF16)(Math.max(1, (0, util_2.pokeRound)((attack * (0, util_2.chainMods)(atMods, 410, 131072)) / 4096)));
+        console.log(`${attacker.name} ${attack}`)
         return attack;
     }
     exports.calculateAttackSMSSSV = calculateAttackSMSSSV;

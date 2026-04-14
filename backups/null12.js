@@ -1,5 +1,5 @@
 backup_data = {
-    "title": null,
+    "title": "latest-check",
     "poks":
     {
         "Bulbasaur":
@@ -3601,7 +3601,7 @@ backup_data = {
                 "sp": 80,
                 "sa": 65,
                 "sd": 79,
-                "at": 85
+                "at": 95
             },
             "evos":
             [],
@@ -8250,7 +8250,7 @@ backup_data = {
                 "sp": 120,
                 "sa": 50,
                 "sd": 70,
-                "at": 80
+                "at": 100
             },
             "evos":
             [],
@@ -13816,7 +13816,7 @@ backup_data = {
                 "sp": 60,
                 "sa": 58,
                 "sd": 62,
-                "at": 65
+                "at": 90
             },
             "evos":
             [],
@@ -13988,7 +13988,7 @@ backup_data = {
                 "df": 70,
                 "sa": 60,
                 "sd": 60,
-                "sp": 100
+                "sp": 110
             },
             "evos":
             [],
@@ -16819,7 +16819,7 @@ backup_data = {
                 "df": 70,
                 "sa": 80,
                 "sd": 80,
-                "sp": 140
+                "sp": 150
             },
             "evos":
             [],
@@ -17200,7 +17200,7 @@ backup_data = {
                 "df": 85,
                 "sp": 55,
                 "sa": 125,
-                "sd": 65
+                "sd": 75
             },
             "evos":
             [],
@@ -21954,8 +21954,6 @@ backup_data = {
             },
             "evos":
             [],
-            "genderRatio": 0,
-            "gr": 5,
             "types":
             [
                 "Normal"
@@ -21965,7 +21963,9 @@ backup_data = {
                 "Intimidate",
                 "Sheer Force",
                 "Anger Point"
-            ]
+            ],
+            "gr": 5,
+            "genderRatio": 0
         },
         "Magikarp":
         {
@@ -28349,7 +28349,7 @@ backup_data = {
                 "df": 50,
                 "sp": 70,
                 "sd": 96,
-                "sa": 76
+                "sa": 86
             },
             "evos":
             [],
@@ -28713,7 +28713,7 @@ backup_data = {
                 "df": 70,
                 "sp": 40,
                 "sa": 60,
-                "sd": 60
+                "sd": 70
             },
             "evos":
             [],
@@ -33172,16 +33172,14 @@ backup_data = {
             "bs":
             {
                 "hp": 55,
-                "at": 45,
-                "df": 45,
-                "sa": 25,
-                "sd": 25,
-                "sp": 15
+                "at": 55,
+                "df": 55,
+                "sp": 55,
+                "sa": 55,
+                "sd": 55
             },
             "evos":
             [],
-            "genderRatio": 50,
-            "gr": 0,
             "types":
             [
                 "Water",
@@ -33192,7 +33190,9 @@ backup_data = {
                 "Unaware",
                 "None",
                 "Water Absorb"
-            ]
+            ],
+            "gr": 0,
+            "genderRatio": 50
         },
         "Quagsire":
         {
@@ -36343,7 +36343,7 @@ backup_data = {
                 "sp": 85,
                 "sa": 55,
                 "sd": 55,
-                "df": 75
+                "df": 85
             },
             "evos":
             [],
@@ -37971,8 +37971,8 @@ backup_data = {
                 "at": 50,
                 "df": 120,
                 "sp": 30,
-                "hp": 50,
-                "sa": 80
+                "hp": 60,
+                "sa": 90
             },
             "evos":
             [],
@@ -38508,9 +38508,9 @@ backup_data = {
                 "at": 55,
                 "sp": 35,
                 "sa": 65,
-                "hp": 55,
-                "df": 85,
-                "sd": 85
+                "hp": 65,
+                "df": 95,
+                "sd": 95
             },
             "evos":
             [],
@@ -39223,7 +39223,7 @@ backup_data = {
                 "sp": 70,
                 "sa": 80,
                 "sd": 140,
-                "hp": 65
+                "hp": 85
             },
             "evos":
             [],
@@ -47908,7 +47908,7 @@ backup_data = {
                 "df": 60,
                 "sp": 125,
                 "sd": 50,
-                "sa": 50
+                "sa": 75
             },
             "evos":
             [],
@@ -48641,7 +48641,7 @@ backup_data = {
                 "df": 100,
                 "sp": 65,
                 "sd": 70,
-                "sa": 85
+                "sa": 95
             },
             "evos":
             [],
@@ -48986,8 +48986,8 @@ backup_data = {
                 "at": 60,
                 "df": 62,
                 "sd": 82,
-                "sp": 60,
-                "sa": 80
+                "sp": 80,
+                "sa": 100
             },
             "evos":
             [],
@@ -49745,7 +49745,7 @@ backup_data = {
                 "df": 65,
                 "sa": 55,
                 "sd": 55,
-                "sp": 70
+                "sp": 90
             },
             "evos":
             [],
@@ -55609,7 +55609,7 @@ backup_data = {
                 "sp": 70,
                 "sa": 95,
                 "sd": 85,
-                "hp": 70
+                "hp": 90
             },
             "evos":
             [],
@@ -55818,7 +55818,7 @@ backup_data = {
                 "sp": 70,
                 "sa": 55,
                 "sd": 65,
-                "hp": 70
+                "hp": 90
             },
             "evos":
             [],
@@ -61580,8 +61580,8 @@ backup_data = {
                 "at": 73,
                 "sp": 85,
                 "sa": 47,
-                "df": 55,
-                "sd": 75
+                "df": 75,
+                "sd": 85
             },
             "evos":
             [],
@@ -61683,8 +61683,8 @@ backup_data = {
                 "at": 47,
                 "sp": 85,
                 "sa": 73,
-                "df": 55,
-                "sd": 75
+                "df": 75,
+                "sd": 85
             },
             "evos":
             [],
@@ -65937,9 +65937,9 @@ backup_data = {
                 "at": 50,
                 "sp": 65,
                 "sa": 95,
-                "hp": 65,
-                "df": 70,
-                "sd": 80
+                "hp": 75,
+                "df": 80,
+                "sd": 90
             },
             "evos":
             [],
@@ -83502,10 +83502,6 @@ backup_data = {
                 [
                     [
                         1,
-                        "Eruption"
-                    ],
-                    [
-                        1,
                         "First Impression"
                     ],
                     [
@@ -89682,7 +89678,7 @@ backup_data = {
                 "sp": 72,
                 "sa": 55,
                 "sd": 43,
-                "hp": 55
+                "hp": 65
             },
             "evos":
             [],
@@ -94601,7 +94597,7 @@ backup_data = {
                 "sp": 45,
                 "sa": 65,
                 "sd": 75,
-                "at": 95
+                "at": 105
             },
             "evos":
             [],
@@ -98591,19 +98587,37 @@ backup_data = {
             "bs":
             {
                 "hp": 80,
-                "at": 100,
-                "df": 70,
-                "sa": 60,
-                "sd": 70,
-                "sp": 95
+                "at": 80,
+                "df": 80,
+                "sp": 80,
+                "sa": 80,
+                "sd": 80
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 80",
+                ".baseattack = 100",
+                ".basedefense = 70",
+                ".basespeed = 95",
+                ".basespattack = 60",
+                ".basespdefense = 70",
+                ".types = { type Normal",
+                "Type Grass"
+            ],
             "types":
             [
-                "Normal",
+                ".basehp = 80",
+                ".baseattack = 100",
+                ".basedefense = 70",
+                ".basespeed = 95",
+                ".basespattack = 60",
+                ".basespdefense = 70",
+                ".types = { normal",
                 "Grass"
             ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Emolga":
@@ -102838,7 +102852,7 @@ backup_data = {
                 "sp": 50,
                 "sa": 70,
                 "sd": 80,
-                "at": 110
+                "at": 130
             },
             "evos":
             [],
@@ -102923,8 +102937,8 @@ backup_data = {
                 "sp": 105,
                 "sa": 95,
                 "sd": 135,
-                "hp": 70,
-                "df": 30
+                "hp": 80,
+                "df": 50
             },
             "evos":
             [],
@@ -108967,27 +108981,38 @@ backup_data = {
             "bs":
             {
                 "hp": 71,
-                "at": 120,
-                "df": 95,
-                "sa": 120,
-                "sd": 95,
-                "sp": 99
+                "at": 71,
+                "df": 71,
+                "sp": 71,
+                "sa": 71,
+                "sd": 71
             },
             "evos":
             [],
-            "types":
-            [
-                "Bug",
-                "Steel"
-            ],
-            "genderRatio": 101,
-            "gr": 5,
             "abilities":
             [
-                "Analytic",
-                "None",
-                "Download"
-            ]
+                ".basehp = 71",
+                ".baseattack = 120",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 120",
+                ".basespdefense = 95",
+                ".types = { type Bug",
+                "Type Steel"
+            ],
+            "types":
+            [
+                ".basehp = 71",
+                ".baseattack = 120",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 120",
+                ".basespdefense = 95",
+                ".types = { bug",
+                "Steel"
+            ],
+            "gr": 5,
+            "genderRatio": 101
         },
         "Chespin":
         {
@@ -112170,26 +112195,38 @@ backup_data = {
             "bs":
             {
                 "hp": 44,
-                "at": 38,
-                "df": 39,
-                "sa": 61,
-                "sd": 79,
-                "sp": 42
+                "at": 44,
+                "df": 44,
+                "sp": 44,
+                "sa": 44,
+                "sd": 44
             },
             "evos":
             [],
-            "types":
-            [
-                "Fairy"
-            ],
-            "genderRatio": 100,
-            "gr": 0,
             "abilities":
             [
-                "Flower Veil",
-                "Symbiosis",
-                "Symbiosis"
-            ]
+                ".basehp = 44",
+                ".baseattack = 38",
+                ".basedefense = 39",
+                ".basespeed = 42",
+                ".basespattack = 61",
+                ".basespdefense = 79",
+                ".types = { type Fairy",
+                "Type Fairy"
+            ],
+            "types":
+            [
+                ".basehp = 44",
+                ".baseattack = 38",
+                ".basedefense = 39",
+                ".basespeed = 42",
+                ".basespattack = 61",
+                ".basespdefense = 79",
+                ".types = { fairy",
+                "Fairy"
+            ],
+            "gr": 0,
+            "genderRatio": 100
         },
         "Floette":
         {
@@ -112346,26 +112383,38 @@ backup_data = {
             "bs":
             {
                 "hp": 54,
-                "at": 45,
-                "df": 47,
-                "sa": 75,
-                "sd": 98,
-                "sp": 52
+                "at": 54,
+                "df": 54,
+                "sp": 54,
+                "sa": 54,
+                "sd": 54
             },
             "evos":
             [],
-            "types":
-            [
-                "Fairy"
-            ],
-            "genderRatio": 100,
-            "gr": 0,
             "abilities":
             [
-                "Flower Veil",
-                "Symbiosis",
-                "Symbiosis"
-            ]
+                ".basehp = 54",
+                ".baseattack = 45",
+                ".basedefense = 47",
+                ".basespeed = 52",
+                ".basespattack = 75",
+                ".basespdefense = 98",
+                ".types = { type Fairy",
+                "Type Fairy"
+            ],
+            "types":
+            [
+                ".basehp = 54",
+                ".baseattack = 45",
+                ".basedefense = 47",
+                ".basespeed = 52",
+                ".basespattack = 75",
+                ".basespdefense = 98",
+                ".types = { fairy",
+                "Fairy"
+            ],
+            "gr": 0,
+            "genderRatio": 100
         },
         "Florges":
         {
@@ -112539,26 +112588,38 @@ backup_data = {
             "bs":
             {
                 "hp": 78,
-                "at": 65,
-                "df": 68,
-                "sa": 112,
-                "sd": 154,
-                "sp": 75
+                "at": 78,
+                "df": 78,
+                "sp": 78,
+                "sa": 78,
+                "sd": 78
             },
             "evos":
             [],
-            "types":
-            [
-                "Fairy"
-            ],
-            "genderRatio": 100,
-            "gr": 0,
             "abilities":
             [
-                "Flower Veil",
-                "Symbiosis",
-                "Symbiosis"
-            ]
+                ".basehp = 78",
+                ".baseattack = 65",
+                ".basedefense = 68",
+                ".basespeed = 75",
+                ".basespattack = 112",
+                ".basespdefense = 154",
+                ".types = { type Fairy",
+                "Type Fairy"
+            ],
+            "types":
+            [
+                ".basehp = 78",
+                ".baseattack = 65",
+                ".basedefense = 68",
+                ".basespeed = 75",
+                ".basespattack = 112",
+                ".basespdefense = 154",
+                ".types = { fairy",
+                "Fairy"
+            ],
+            "gr": 0,
+            "genderRatio": 100
         },
         "Skiddo":
         {
@@ -113821,8 +113882,8 @@ backup_data = {
                 "at": 50,
                 "sp": 60,
                 "sa": 50,
-                "df": 150,
-                "sd": 150
+                "df": 140,
+                "sd": 140
             },
             "evos":
             [],
@@ -118726,6 +118787,17 @@ backup_data = {
             },
             "evos":
             [],
+            "abilities":
+            [
+                "Type Ghost",
+                "Type Grass"
+            ],
+            "types":
+            [
+                "Ghost",
+                "Grass"
+            ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Gourgeist":
@@ -118920,19 +118992,18 @@ backup_data = {
             },
             "evos":
             [],
+            "abilities":
+            [
+                "Type Ghost",
+                "Type Grass"
+            ],
             "types":
             [
                 "Ghost",
                 "Grass"
             ],
-            "genderRatio": 50,
             "gr": 0,
-            "abilities":
-            [
-                "Insomnia",
-                "Insomnia",
-                "Insomnia"
-            ]
+            "genderRatio": 50
         },
         "Bergmite":
         {
@@ -119619,18 +119690,37 @@ backup_data = {
             "bs":
             {
                 "hp": 126,
-                "at": 131,
-                "df": 95,
-                "sa": 131,
-                "sd": 98,
-                "sp": 99
+                "at": 126,
+                "df": 126,
+                "sp": 126,
+                "sa": 126,
+                "sd": 126
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 126",
+                ".baseattack = 131",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 131",
+                ".basespdefense = 98",
+                ".types = { type Fairy",
+                "Type Fairy"
+            ],
             "types":
             [
+                ".basehp = 126",
+                ".baseattack = 131",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 131",
+                ".basespdefense = 98",
+                ".types = { fairy",
                 "Fairy"
             ],
+            "gr": 5,
             "genderRatio": 101
         },
         "Yveltal":
@@ -123591,6 +123681,7 @@ backup_data = {
                     "Light Screen",
                     "Magic Room",
                     "Magical Leaf",
+                    "Misty Explosion",
                     "Nature Power",
                     "Play Rough",
                     "Pollen Puff",
@@ -128728,26 +128819,38 @@ backup_data = {
             "bs":
             {
                 "hp": 55,
-                "at": 90,
-                "df": 80,
-                "sa": 50,
-                "sd": 105,
-                "sp": 96
+                "at": 55,
+                "df": 55,
+                "sp": 55,
+                "sa": 55,
+                "sd": 55
             },
             "evos":
             [],
-            "types":
-            [
-                "Ghost",
-                "Fairy"
-            ],
-            "genderRatio": 50,
-            "gr": 0,
             "abilities":
             [
-                "Disguise",
-                "None"
-            ]
+                ".basehp = 55",
+                ".baseattack = 90",
+                ".basedefense = 80",
+                ".basespeed = 96",
+                ".basespattack = 50",
+                ".basespdefense = 105",
+                ".types = { type Ghost",
+                "Type Fairy"
+            ],
+            "types":
+            [
+                ".basehp = 55",
+                ".baseattack = 90",
+                ".basedefense = 80",
+                ".basespeed = 96",
+                ".basespattack = 50",
+                ".basespdefense = 105",
+                ".types = { ghost",
+                "Fairy"
+            ],
+            "gr": 0,
+            "genderRatio": 50
         },
         "Bruxish":
         {
@@ -138472,26 +138575,38 @@ backup_data = {
             "bs":
             {
                 "hp": 70,
-                "at": 85,
-                "df": 55,
-                "sa": 85,
-                "sd": 95,
-                "sp": 85
+                "at": 70,
+                "df": 70,
+                "sp": 70,
+                "sa": 70,
+                "sd": 70
             },
             "evos":
             [],
-            "types":
-            [
-                "Flying",
-                "Water"
-            ],
-            "genderRatio": 50,
-            "gr": 0,
             "abilities":
             [
-                "Gulp Missile",
-                "None"
-            ]
+                ".basehp = 70",
+                ".baseattack = 85",
+                ".basedefense = 55",
+                ".basespeed = 85",
+                ".basespattack = 85",
+                ".basespdefense = 95",
+                ".types = { type Flying",
+                "Type Water"
+            ],
+            "types":
+            [
+                ".basehp = 70",
+                ".baseattack = 85",
+                ".basedefense = 55",
+                ".basespeed = 85",
+                ".basespattack = 85",
+                ".basespdefense = 95",
+                ".types = { flying",
+                "Water"
+            ],
+            "gr": 0,
+            "genderRatio": 50
         },
         "Arrokuda":
         {
@@ -139575,26 +139690,38 @@ backup_data = {
             "bs":
             {
                 "hp": 40,
-                "at": 45,
-                "df": 45,
-                "sa": 74,
-                "sd": 54,
-                "sp": 50
+                "at": 40,
+                "df": 40,
+                "sp": 40,
+                "sa": 40,
+                "sd": 40
             },
             "evos":
             [],
-            "types":
-            [
-                "Ghost"
-            ],
-            "genderRatio": 101,
-            "gr": 0,
             "abilities":
             [
-                "Weak Armor",
-                "None",
-                "Cursed Body"
-            ]
+                ".basehp = 40",
+                ".baseattack = 45",
+                ".basedefense = 45",
+                ".basespeed = 50",
+                ".basespattack = 74",
+                ".basespdefense = 54",
+                ".types = { type Ghost",
+                "Type Ghost"
+            ],
+            "types":
+            [
+                ".basehp = 40",
+                ".baseattack = 45",
+                ".basedefense = 45",
+                ".basespeed = 50",
+                ".basespattack = 74",
+                ".basespdefense = 54",
+                ".types = { ghost",
+                "Ghost"
+            ],
+            "gr": 0,
+            "genderRatio": 101
         },
         "Polteageist":
         {
@@ -139725,26 +139852,38 @@ backup_data = {
             "bs":
             {
                 "hp": 60,
-                "at": 65,
-                "df": 65,
-                "sa": 134,
-                "sd": 114,
-                "sp": 70
+                "at": 60,
+                "df": 60,
+                "sp": 60,
+                "sa": 60,
+                "sd": 60
             },
             "evos":
             [],
-            "types":
-            [
-                "Ghost"
-            ],
-            "genderRatio": 101,
-            "gr": 0,
             "abilities":
             [
-                "Weak Armor",
-                "None",
-                "Cursed Body"
-            ]
+                ".basehp = 60",
+                ".baseattack = 65",
+                ".basedefense = 65",
+                ".basespeed = 70",
+                ".basespattack = 134",
+                ".basespdefense = 114",
+                ".types = { type Ghost",
+                "Type Ghost"
+            ],
+            "types":
+            [
+                ".basehp = 60",
+                ".baseattack = 65",
+                ".basedefense = 65",
+                ".basespeed = 70",
+                ".basespattack = 134",
+                ".basespdefense = 114",
+                ".types = { ghost",
+                "Ghost"
+            ],
+            "gr": 0,
+            "genderRatio": 101
         },
         "Hatenna":
         {
@@ -143232,26 +143371,38 @@ backup_data = {
             "bs":
             {
                 "hp": 58,
-                "at": 95,
+                "at": 58,
                 "df": 58,
-                "sa": 70,
-                "sd": 58,
-                "sp": 97
+                "sp": 58,
+                "sa": 58,
+                "sd": 58
             },
             "evos":
             [],
-            "types":
-            [
-                "Electric",
-                "Dark"
-            ],
-            "genderRatio": 50,
-            "gr": 0,
             "abilities":
             [
-                "Hunger Switch",
-                "None"
-            ]
+                ".basehp = 58",
+                ".baseattack = 95",
+                ".basedefense = 58",
+                ".basespeed = 97",
+                ".basespattack = 70",
+                ".basespdefense = 58",
+                ".types = { type Electric",
+                "Type Dark"
+            ],
+            "types":
+            [
+                ".basehp = 58",
+                ".baseattack = 95",
+                ".basedefense = 58",
+                ".basespeed = 97",
+                ".basespattack = 70",
+                ".basespdefense = 58",
+                ".types = { electric",
+                "Dark"
+            ],
+            "gr": 0,
+            "genderRatio": 50
         },
         "Cufant":
         {
@@ -145556,26 +145707,38 @@ backup_data = {
             "bs":
             {
                 "hp": 105,
-                "at": 120,
+                "at": 105,
                 "df": 105,
-                "sa": 70,
-                "sd": 95,
-                "sp": 105
+                "sp": 105,
+                "sa": 105,
+                "sd": 105
             },
             "evos":
             [],
-            "types":
-            [
-                "Dark",
-                "Grass"
-            ],
-            "genderRatio": 101,
-            "gr": 5,
             "abilities":
             [
-                "Sniper",
-                "None"
-            ]
+                ".basehp = 105",
+                ".baseattack = 120",
+                ".basedefense = 105",
+                ".basespeed = 105",
+                ".basespattack = 70",
+                ".basespdefense = 95",
+                ".types = { type Dark",
+                "Type Grass"
+            ],
+            "types":
+            [
+                ".basehp = 105",
+                ".baseattack = 120",
+                ".basedefense = 105",
+                ".basespeed = 105",
+                ".basespattack = 70",
+                ".basespdefense = 95",
+                ".types = { dark",
+                "Grass"
+            ],
+            "gr": 5,
+            "genderRatio": 101
         },
         "Regieleki":
         {
@@ -156658,11 +156821,11 @@ backup_data = {
             "bs":
             {
                 "hp": 55,
-                "at": 45,
-                "df": 45,
-                "sa": 25,
-                "sd": 25,
-                "sp": 15
+                "at": 55,
+                "df": 55,
+                "sp": 55,
+                "sa": 55,
+                "sd": 55
             },
             "evos":
             [],
@@ -156677,6 +156840,7 @@ backup_data = {
                 "None",
                 "Water Absorb"
             ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Tauros-Paldea-Combat":
@@ -156843,7 +157007,8 @@ backup_data = {
                 "None",
                 "Cud Chew"
             ],
-            "genderRatio": 50
+            "gr": 5,
+            "genderRatio": 0
         },
         "Tauros-Paldea-Blaze":
         {
@@ -157006,7 +157171,8 @@ backup_data = {
                 "None",
                 "Cud Chew"
             ],
-            "genderRatio": 50
+            "gr": 5,
+            "genderRatio": 0
         },
         "Tauros-Paldea-Aqua":
         {
@@ -157169,7 +157335,8 @@ backup_data = {
                 "None",
                 "Cud Chew"
             ],
-            "genderRatio": 50
+            "gr": 5,
+            "genderRatio": 0
         },
         "Deoxys-Attack":
         {
@@ -160389,10 +160556,6 @@ backup_data = {
                         "Wing Attack"
                     ],
                     [
-                        15,
-                        "Endure"
-                    ],
-                    [
                         18,
                         "Low Sweep"
                     ],
@@ -160500,10 +160663,6 @@ backup_data = {
                     [
                         10,
                         "Wing Attack"
-                    ],
-                    [
-                        15,
-                        "Endure"
                     ],
                     [
                         18,
@@ -160623,10 +160782,6 @@ backup_data = {
                     [
                         10,
                         "Wing Attack"
-                    ],
-                    [
-                        15,
-                        "Endure"
                     ],
                     [
                         18,
@@ -160891,18 +161046,18 @@ backup_data = {
             },
             "evos":
             [],
-            "types":
-            [
-                "Normal"
-            ],
-            "gr": 0,
             "genderRatio": 0,
             "abilities":
             [
                 "Thick Fat",
                 "Gluttony",
                 "Lingering Aroma"
-            ]
+            ],
+            "types":
+            [
+                "Normal"
+            ],
+            "gr": 0
         },
         "Oinkologne-F":
         {
@@ -160923,7 +161078,12 @@ backup_data = {
                 "Aroma Veil",
                 "Gluttony",
                 "Thick Fat"
-            ]
+            ],
+            "types":
+            [
+                "Normal"
+            ],
+            "gr": 0
         },
         "Tarountula":
         {
@@ -161978,26 +162138,38 @@ backup_data = {
             "bs":
             {
                 "hp": 74,
-                "at": 75,
-                "df": 70,
-                "sa": 65,
-                "sd": 75,
-                "sp": 111
+                "at": 74,
+                "df": 74,
+                "sp": 74,
+                "sa": 74,
+                "sd": 74
             },
             "evos":
             [],
-            "types":
-            [
-                "Normal"
-            ],
-            "genderRatio": 101,
-            "gr": 4,
             "abilities":
             [
-                "Technician",
-                "Technician",
-                "Friend Guard"
-            ]
+                ".basehp = 74",
+                ".baseattack = 75",
+                ".basedefense = 70",
+                ".basespeed = 111",
+                ".basespattack = 65",
+                ".basespdefense = 75",
+                ".types = { type Normal",
+                "Type Normal"
+            ],
+            "types":
+            [
+                ".basehp = 74",
+                ".baseattack = 75",
+                ".basedefense = 70",
+                ".basespeed = 111",
+                ".basespattack = 65",
+                ".basespdefense = 75",
+                ".types = { normal",
+                "Normal"
+            ],
+            "gr": 4,
+            "genderRatio": 101
         },
         "Fidough":
         {
@@ -162865,27 +163037,27 @@ backup_data = {
             "bs":
             {
                 "hp": 82,
-                "at": 96,
-                "df": 51,
-                "sa": 45,
-                "sd": 51,
-                "sp": 92
+                "at": 82,
+                "df": 82,
+                "sp": 82,
+                "sa": 82,
+                "sd": 82
             },
             "evos":
             [],
-            "types":
-            [
-                "Normal",
-                "Flying"
-            ],
-            "genderRatio": 50,
-            "gr": 1,
             "abilities":
             [
                 "Intimidate",
                 "None",
                 "Guts"
-            ]
+            ],
+            "types":
+            [
+                "Normal",
+                "Flying"
+            ],
+            "gr": 1,
+            "genderRatio": 50
         },
         "Nacli":
         {
@@ -167562,21 +167734,23 @@ backup_data = {
                 "at": 160,
                 "df": 97,
                 "sa": 106,
-                "sd": 100
+                "sd": 100,
+                "hp": 100,
+                "sp": 100
             },
             "evos":
             [],
+            "abilities":
+            [
+                "Type Water",
+                "Type Water"
+            ],
             "types":
             [
                 "Water"
             ],
-            "genderRatio": 50,
             "gr": 5,
-            "abilities":
-            [
-                "Zero To Hero",
-                "None"
-            ]
+            "genderRatio": 50
         },
         "Varoom":
         {
@@ -170247,26 +170421,38 @@ backup_data = {
             "bs":
             {
                 "hp": 125,
-                "at": 100,
-                "df": 80,
-                "sa": 85,
-                "sd": 75,
-                "sp": 55
+                "at": 125,
+                "df": 125,
+                "sp": 125,
+                "sa": 125,
+                "sd": 125
             },
             "evos":
             [],
-            "types":
-            [
-                "Normal"
-            ],
-            "genderRatio": 50,
-            "gr": 0,
             "abilities":
             [
-                "Serene Grace",
-                "None",
-                "Rattled"
-            ]
+                ".basehp = 125",
+                ".baseattack = 100",
+                ".basedefense = 80",
+                ".basespeed = 55",
+                ".basespattack = 85",
+                ".basespdefense = 75",
+                ".types = { type Normal",
+                "Type Normal"
+            ],
+            "types":
+            [
+                ".basehp = 125",
+                ".baseattack = 100",
+                ".basedefense = 80",
+                ".basespeed = 55",
+                ".basespattack = 85",
+                ".basespdefense = 75",
+                ".types = { normal",
+                "Normal"
+            ],
+            "gr": 0,
+            "genderRatio": 50
         },
         "Kingambit":
         {
@@ -172937,17 +173123,17 @@ backup_data = {
             },
             "evos":
             [],
-            "types":
-            [
-                "Ghost"
-            ],
-            "genderRatio": 101,
-            "gr": 5,
             "abilities":
             [
                 "Rattled",
                 "None"
-            ]
+            ],
+            "types":
+            [
+                "Ghost"
+            ],
+            "gr": 5,
+            "genderRatio": 101
         },
         "Gholdengo":
         {
@@ -174720,26 +174906,38 @@ backup_data = {
             "bs":
             {
                 "hp": 40,
-                "at": 45,
-                "df": 45,
-                "sd": 54,
-                "sp": 50
+                "at": 40,
+                "df": 40,
+                "sp": 40,
+                "sa": 40,
+                "sd": 40
             },
             "evos":
             [],
-            "types":
-            [
-                "Grass",
-                "Ghost"
-            ],
-            "genderRatio": 101,
-            "gr": 0,
             "abilities":
             [
-                "Hospitality",
-                "None",
-                "Heatproof"
-            ]
+                ".basehp = 40",
+                ".baseattack = 45",
+                ".basedefense = 45",
+                ".basespeed = 50",
+                ".basespattack = 74",
+                ".basespdefense = 54",
+                ".types = { type Grass",
+                "Type Ghost"
+            ],
+            "types":
+            [
+                ".basehp = 40",
+                ".baseattack = 45",
+                ".basedefense = 45",
+                ".basespeed = 50",
+                ".basespattack = 74",
+                ".basespdefense = 54",
+                ".types = { grass",
+                "Ghost"
+            ],
+            "gr": 0,
+            "genderRatio": 101
         },
         "Sinistcha":
         {
@@ -174855,27 +175053,38 @@ backup_data = {
             "bs":
             {
                 "hp": 71,
-                "at": 60,
-                "df": 106,
-                "sa": 121,
-                "sd": 80,
-                "sp": 70
+                "at": 71,
+                "df": 71,
+                "sp": 71,
+                "sa": 71,
+                "sd": 71
             },
             "evos":
             [],
-            "types":
-            [
-                "Grass",
-                "Ghost"
-            ],
-            "genderRatio": 101,
-            "gr": 0,
             "abilities":
             [
-                "Hospitality",
-                "None",
-                "Heatproof"
-            ]
+                ".basehp = 71",
+                ".baseattack = 60",
+                ".basedefense = 106",
+                ".basespeed = 70",
+                ".basespattack = 121",
+                ".basespdefense = 80",
+                ".types = { type Grass",
+                "Type Ghost"
+            ],
+            "types":
+            [
+                ".basehp = 71",
+                ".baseattack = 60",
+                ".basedefense = 106",
+                ".basespeed = 70",
+                ".basespattack = 121",
+                ".basespdefense = 80",
+                ".types = { grass",
+                "Ghost"
+            ],
+            "gr": 0,
+            "genderRatio": 101
         },
         "Okidogi":
         {
@@ -176522,26 +176731,6 @@ backup_data = {
                 "None"
             ]
         },
-        "Pumkpaboo":
-        {
-            "bs":
-            {},
-            "evos":
-            [],
-            "types":
-            [
-                "Ghost",
-                "Grass"
-            ],
-            "genderRatio": 50,
-            "gr": 0,
-            "abilities":
-            [
-                "Insomnia",
-                "Insomnia",
-                "Insomnia"
-            ]
-        },
         "Zygarde-10%":
         {
             "bs":
@@ -176559,26 +176748,6 @@ backup_data = {
             [
                 "Dragon",
                 "Ground"
-            ],
-            "genderRatio": 101
-        },
-        "Minior-Meteor":
-        {
-            "bs":
-            {
-                "hp": 60,
-                "at": 60,
-                "df": 100,
-                "sa": 60,
-                "sd": 100,
-                "sp": 60
-            },
-            "evos":
-            [],
-            "types":
-            [
-                "Rock",
-                "Flying"
             ],
             "genderRatio": 101
         },
@@ -176948,7 +177117,7 @@ backup_data = {
                 "df": 65,
                 "sp": 150,
                 "sa": 175,
-                "sd": 95
+                "sd": 105
             },
             "evos":
             [],
@@ -179090,19 +179259,37 @@ backup_data = {
             "bs":
             {
                 "hp": 71,
-                "at": 120,
-                "df": 95,
-                "sa": 120,
-                "sd": 95,
-                "sp": 99
+                "at": 71,
+                "df": 71,
+                "sp": 71,
+                "sa": 71,
+                "sd": 71
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 71",
+                ".baseattack = 120",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 120",
+                ".basespdefense = 95",
+                ".types = { type Bug",
+                "Type Steel"
+            ],
             "types":
             [
-                "Bug",
+                ".basehp = 71",
+                ".baseattack = 120",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 120",
+                ".basespdefense = 95",
+                ".types = { bug",
                 "Steel"
             ],
+            "gr": 5,
             "genderRatio": 101
         },
         "Genesect-Shock":
@@ -179110,19 +179297,37 @@ backup_data = {
             "bs":
             {
                 "hp": 71,
-                "at": 120,
-                "df": 95,
-                "sa": 120,
-                "sd": 95,
-                "sp": 99
+                "at": 71,
+                "df": 71,
+                "sp": 71,
+                "sa": 71,
+                "sd": 71
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 71",
+                ".baseattack = 120",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 120",
+                ".basespdefense = 95",
+                ".types = { type Bug",
+                "Type Steel"
+            ],
             "types":
             [
-                "Bug",
+                ".basehp = 71",
+                ".baseattack = 120",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 120",
+                ".basespdefense = 95",
+                ".types = { bug",
                 "Steel"
             ],
+            "gr": 5,
             "genderRatio": 101
         },
         "Genesect-Burn":
@@ -179130,19 +179335,37 @@ backup_data = {
             "bs":
             {
                 "hp": 71,
-                "at": 120,
-                "df": 95,
-                "sa": 120,
-                "sd": 95,
-                "sp": 99
+                "at": 71,
+                "df": 71,
+                "sp": 71,
+                "sa": 71,
+                "sd": 71
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 71",
+                ".baseattack = 120",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 120",
+                ".basespdefense = 95",
+                ".types = { type Bug",
+                "Type Steel"
+            ],
             "types":
             [
-                "Bug",
+                ".basehp = 71",
+                ".baseattack = 120",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 120",
+                ".basespdefense = 95",
+                ".types = { bug",
                 "Steel"
             ],
+            "gr": 5,
             "genderRatio": 101
         },
         "Genesect-Chill":
@@ -179150,19 +179373,37 @@ backup_data = {
             "bs":
             {
                 "hp": 71,
-                "at": 120,
-                "df": 95,
-                "sa": 120,
-                "sd": 95,
-                "sp": 99
+                "at": 71,
+                "df": 71,
+                "sp": 71,
+                "sa": 71,
+                "sd": 71
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 71",
+                ".baseattack = 120",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 120",
+                ".basespdefense = 95",
+                ".types = { type Bug",
+                "Type Steel"
+            ],
             "types":
             [
-                "Bug",
+                ".basehp = 71",
+                ".baseattack = 120",
+                ".basedefense = 95",
+                ".basespeed = 99",
+                ".basespattack = 120",
+                ".basespdefense = 95",
+                ".types = { bug",
                 "Steel"
             ],
+            "gr": 5,
             "genderRatio": 101
         },
         "Greninja-Ash":
@@ -179238,8 +179479,8 @@ backup_data = {
                 "hp": 60,
                 "df": 50,
                 "sp": 60,
-                "at": 150,
-                "sa": 150,
+                "at": 140,
+                "sa": 140,
                 "sd": 50
             },
             "evos":
@@ -179270,6 +179511,17 @@ backup_data = {
             },
             "evos":
             [],
+            "abilities":
+            [
+                "Type Ghost",
+                "Type Grass"
+            ],
+            "types":
+            [
+                "Ghost",
+                "Grass"
+            ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Pumpkaboo-Large":
@@ -179285,6 +179537,17 @@ backup_data = {
             },
             "evos":
             [],
+            "abilities":
+            [
+                "Type Ghost",
+                "Type Grass"
+            ],
+            "types":
+            [
+                "Ghost",
+                "Grass"
+            ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Pumpkaboo-Super":
@@ -179300,6 +179563,17 @@ backup_data = {
             },
             "evos":
             [],
+            "abilities":
+            [
+                "Type Ghost",
+                "Type Grass"
+            ],
+            "types":
+            [
+                "Ghost",
+                "Grass"
+            ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Gourgeist-Small":
@@ -179315,6 +179589,17 @@ backup_data = {
             },
             "evos":
             [],
+            "abilities":
+            [
+                "Type Ghost",
+                "Type Grass"
+            ],
+            "types":
+            [
+                "Ghost",
+                "Grass"
+            ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Gourgeist-Large":
@@ -179330,6 +179615,17 @@ backup_data = {
             },
             "evos":
             [],
+            "abilities":
+            [
+                "Type Ghost",
+                "Type Grass"
+            ],
+            "types":
+            [
+                "Ghost",
+                "Grass"
+            ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Gourgeist-Super":
@@ -179345,6 +179641,17 @@ backup_data = {
             },
             "evos":
             [],
+            "abilities":
+            [
+                "Type Ghost",
+                "Type Grass"
+            ],
+            "types":
+            [
+                "Ghost",
+                "Grass"
+            ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Zygarde-Complete":
@@ -179781,24 +180088,62 @@ backup_data = {
             ],
             "genderRatio": 101
         },
-        "Mimikyu-Busted":
+        "Minior-Meteor":
         {
             "bs":
             {
-                "hp": 55,
-                "at": 90,
-                "df": 80,
-                "sa": 50,
-                "sd": 105,
-                "sp": 96
+                "hp": 60,
+                "at": 60,
+                "df": 100,
+                "sa": 60,
+                "sd": 100,
+                "sp": 60
             },
             "evos":
             [],
             "types":
             [
-                "Ghost",
+                "Rock",
+                "Flying"
+            ],
+            "genderRatio": 101
+        },
+        "Mimikyu-Busted":
+        {
+            "bs":
+            {
+                "hp": 55,
+                "at": 55,
+                "df": 55,
+                "sp": 55,
+                "sa": 55,
+                "sd": 55
+            },
+            "evos":
+            [],
+            "abilities":
+            [
+                ".basehp = 55",
+                ".baseattack = 90",
+                ".basedefense = 80",
+                ".basespeed = 96",
+                ".basespattack = 50",
+                ".basespdefense = 105",
+                ".types = { type Ghost",
+                "Type Fairy"
+            ],
+            "types":
+            [
+                ".basehp = 55",
+                ".baseattack = 90",
+                ".basedefense = 80",
+                ".basespeed = 96",
+                ".basespattack = 50",
+                ".basespdefense = 105",
+                ".types = { ghost",
                 "Fairy"
             ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Necrozma-Dusk-Mane":
@@ -179905,19 +180250,37 @@ backup_data = {
             "bs":
             {
                 "hp": 70,
-                "at": 85,
-                "df": 55,
-                "sa": 85,
-                "sd": 95,
-                "sp": 85
+                "at": 70,
+                "df": 70,
+                "sp": 70,
+                "sa": 70,
+                "sd": 70
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 70",
+                ".baseattack = 85",
+                ".basedefense = 55",
+                ".basespeed = 85",
+                ".basespattack = 85",
+                ".basespdefense = 95",
+                ".types = { type Flying",
+                "Type Water"
+            ],
             "types":
             [
-                "Flying",
+                ".basehp = 70",
+                ".baseattack = 85",
+                ".basedefense = 55",
+                ".basespeed = 85",
+                ".basespattack = 85",
+                ".basespdefense = 95",
+                ".types = { flying",
                 "Water"
             ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Cramorant-Gorging":
@@ -179925,19 +180288,37 @@ backup_data = {
             "bs":
             {
                 "hp": 70,
-                "at": 85,
-                "df": 55,
-                "sa": 85,
-                "sd": 95,
-                "sp": 85
+                "at": 70,
+                "df": 70,
+                "sp": 70,
+                "sa": 70,
+                "sd": 70
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 70",
+                ".baseattack = 85",
+                ".basedefense = 55",
+                ".basespeed = 85",
+                ".basespattack = 85",
+                ".basespdefense = 95",
+                ".types = { type Flying",
+                "Type Water"
+            ],
             "types":
             [
-                "Flying",
+                ".basehp = 70",
+                ".baseattack = 85",
+                ".basedefense = 55",
+                ".basespeed = 85",
+                ".basespattack = 85",
+                ".basespdefense = 95",
+                ".types = { flying",
                 "Water"
             ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Sinistea-Antique":
@@ -179945,18 +180326,37 @@ backup_data = {
             "bs":
             {
                 "hp": 40,
-                "at": 45,
-                "df": 45,
-                "sa": 74,
-                "sd": 54,
-                "sp": 50
+                "at": 40,
+                "df": 40,
+                "sp": 40,
+                "sa": 40,
+                "sd": 40
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 40",
+                ".baseattack = 45",
+                ".basedefense = 45",
+                ".basespeed = 50",
+                ".basespattack = 74",
+                ".basespdefense = 54",
+                ".types = { type Ghost",
+                "Type Ghost"
+            ],
             "types":
             [
+                ".basehp = 40",
+                ".baseattack = 45",
+                ".basedefense = 45",
+                ".basespeed = 50",
+                ".basespattack = 74",
+                ".basespdefense = 54",
+                ".types = { ghost",
                 "Ghost"
             ],
+            "gr": 0,
             "genderRatio": 101
         },
         "Polteageist-Antique":
@@ -179964,18 +180364,37 @@ backup_data = {
             "bs":
             {
                 "hp": 60,
-                "at": 65,
-                "df": 65,
-                "sa": 134,
-                "sd": 114,
-                "sp": 70
+                "at": 60,
+                "df": 60,
+                "sp": 60,
+                "sa": 60,
+                "sd": 60
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 60",
+                ".baseattack = 65",
+                ".basedefense = 65",
+                ".basespeed = 70",
+                ".basespattack = 134",
+                ".basespdefense = 114",
+                ".types = { type Ghost",
+                "Type Ghost"
+            ],
             "types":
             [
+                ".basehp = 60",
+                ".baseattack = 65",
+                ".basedefense = 65",
+                ".basespeed = 70",
+                ".basespattack = 134",
+                ".basespdefense = 114",
+                ".types = { ghost",
                 "Ghost"
             ],
+            "gr": 0,
             "genderRatio": 101
         },
         "Eiscue-Noice":
@@ -180008,19 +180427,37 @@ backup_data = {
             "bs":
             {
                 "hp": 58,
-                "at": 95,
+                "at": 58,
                 "df": 58,
-                "sa": 70,
-                "sd": 58,
-                "sp": 97
+                "sp": 58,
+                "sa": 58,
+                "sd": 58
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 58",
+                ".baseattack = 95",
+                ".basedefense = 58",
+                ".basespeed = 97",
+                ".basespattack = 70",
+                ".basespdefense = 58",
+                ".types = { type Electric",
+                "Type Dark"
+            ],
             "types":
             [
-                "Electric",
+                ".basehp = 58",
+                ".baseattack = 95",
+                ".basedefense = 58",
+                ".basespeed = 97",
+                ".basespattack = 70",
+                ".basespdefense = 58",
+                ".types = { electric",
                 "Dark"
             ],
+            "gr": 0,
             "genderRatio": 50
         },
         "Zacian-Crowned":
@@ -180106,19 +180543,37 @@ backup_data = {
             "bs":
             {
                 "hp": 105,
-                "at": 120,
+                "at": 105,
                 "df": 105,
-                "sa": 70,
-                "sd": 95,
-                "sp": 105
+                "sp": 105,
+                "sa": 105,
+                "sd": 105
             },
             "evos":
             [],
+            "abilities":
+            [
+                ".basehp = 105",
+                ".baseattack = 120",
+                ".basedefense = 105",
+                ".basespeed = 105",
+                ".basespattack = 70",
+                ".basespdefense = 95",
+                ".types = { type Dark",
+                "Type Grass"
+            ],
             "types":
             [
-                "Dark",
+                ".basehp = 105",
+                ".baseattack = 120",
+                ".basedefense = 105",
+                ".basespeed = 105",
+                ".basespattack = 70",
+                ".basespdefense = 95",
+                ".types = { dark",
                 "Grass"
             ],
+            "gr": 5,
             "genderRatio": 101
         },
         "Enamorus-Therian":
@@ -180150,20 +180605,51 @@ backup_data = {
         "Mousehold-Four":
         {
             "bs":
-            {},
+            {
+                "hp": 74,
+                "at": 74,
+                "df": 74,
+                "sp": 74,
+                "sa": 74,
+                "sd": 74
+            },
             "evos":
-            []
+            [],
+            "abilities":
+            [
+                ".basehp = 74",
+                ".baseattack = 75",
+                ".basedefense = 70",
+                ".basespeed = 111",
+                ".basespattack = 65",
+                ".basespdefense = 75",
+                ".types = { type Normal",
+                "Type Normal"
+            ],
+            "types":
+            [
+                ".basehp = 74",
+                ".baseattack = 75",
+                ".basedefense = 70",
+                ".basespeed = 111",
+                ".basespattack = 65",
+                ".basespdefense = 75",
+                ".types = { normal",
+                "Normal"
+            ],
+            "gr": 4,
+            "genderRatio": 101
         },
         "Squawkabilly-Blue":
         {
             "bs":
             {
                 "hp": 82,
-                "at": 96,
-                "df": 51,
-                "sa": 45,
-                "sd": 51,
-                "sp": 92
+                "at": 82,
+                "df": 82,
+                "sp": 82,
+                "sa": 82,
+                "sd": 82
             },
             "evos":
             [],
@@ -180178,6 +180664,7 @@ backup_data = {
                 "Normal",
                 "Flying"
             ],
+            "gr": 1,
             "genderRatio": 50
         },
         "Squawkabilly-Yellow":
@@ -180185,11 +180672,11 @@ backup_data = {
             "bs":
             {
                 "hp": 82,
-                "at": 96,
-                "df": 51,
-                "sa": 45,
-                "sd": 51,
-                "sp": 92
+                "at": 82,
+                "df": 82,
+                "sp": 82,
+                "sa": 82,
+                "sd": 82
             },
             "evos":
             [],
@@ -180204,6 +180691,7 @@ backup_data = {
                 "Normal",
                 "Flying"
             ],
+            "gr": 1,
             "genderRatio": 50
         },
         "Squawkabilly-White":
@@ -180211,11 +180699,11 @@ backup_data = {
             "bs":
             {
                 "hp": 82,
-                "at": 96,
-                "df": 51,
-                "sa": 45,
-                "sd": 51,
-                "sp": 92
+                "at": 82,
+                "df": 82,
+                "sp": 82,
+                "sa": 82,
+                "sd": 82
             },
             "evos":
             [],
@@ -180230,6 +180718,7 @@ backup_data = {
                 "Normal",
                 "Flying"
             ],
+            "gr": 1,
             "genderRatio": 50
         },
         "Gimmighoul-Roaming":
@@ -180250,6 +180739,11 @@ backup_data = {
                 "Run Away",
                 "None"
             ],
+            "types":
+            [
+                "Ghost"
+            ],
+            "gr": 5,
             "genderRatio": 101
         },
         "Ogerpon-Wellspring":
@@ -199611,7 +200105,7 @@ backup_data = {
                 "ability": "Chlorophyll",
                 "gender": "Male"
             },
-            "Lvl 72 Dragon Tamer Jace |Lavaridge Gym|":
+            "Lvl 71 Dragon Tamer Jace |Lavaridge Gym|":
             {
                 "ivs":
                 {
@@ -199623,7 +200117,7 @@ backup_data = {
                     "sp": 31
                 },
                 "item": "Focus Sash",
-                "level": 72,
+                "level": 71,
                 "nature": "Timid",
                 "battle_type": "Singles",
                 "moves":
@@ -200912,7 +201406,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 26
                 },
-                "item": "Leftovers",
+                "item": "Hard Stone",
                 "level": 37,
                 "nature": "Relaxed",
                 "battle_type": "Singles",
@@ -204468,7 +204962,7 @@ backup_data = {
                 },
                 "item": "Passho Berry",
                 "level": 71,
-                "nature": "Calm",
+                "nature": "Timid",
                 "battle_type": "Singles",
                 "moves":
                 [
@@ -205281,7 +205775,7 @@ backup_data = {
                 "sub_index": 1,
                 "tr_id": 213,
                 "ability": "Cud Chew",
-                "gender": "Female"
+                "gender": "Male"
             },
             "Lvl 55 Hiker Mike |Rusturf Tunnel|":
             {
@@ -206453,7 +206947,7 @@ backup_data = {
                 "sub_index": 3,
                 "tr_id": 425,
                 "ability": "Cud Chew",
-                "gender": "Female"
+                "gender": "Male"
             },
             "Lvl 71 Team Magma Admin Tabitha 1 |Mt. Chimney|":
             {
@@ -213232,7 +213726,7 @@ backup_data = {
                     "Dragon Cheer",
                     "Shed Tail",
                     "Leaf Storm",
-                    "Dragon Energy"
+                    "Draco Meteor"
                 ],
                 "sub_index": 0,
                 "tr_id": 259,
@@ -213656,7 +214150,7 @@ backup_data = {
                 "ability": "Flame Body",
                 "gender": "Female"
             },
-            "Lvl 71 Dragon Tamer Jace |Lavaridge Gym|":
+            "Lvl 72 Dragon Tamer Jace |Lavaridge Gym|":
             {
                 "ivs":
                 {
@@ -213668,7 +214162,7 @@ backup_data = {
                     "sp": 31
                 },
                 "item": "Heat Rock",
-                "level": 71,
+                "level": 72,
                 "nature": "Jolly",
                 "battle_type": "Singles",
                 "moves":
@@ -214280,7 +214774,7 @@ backup_data = {
                     "at": 31,
                     "df": 31,
                     "sa": 31,
-                    "sd": 22,
+                    "sd": 21,
                     "sp": 31
                 },
                 "item": "Booster Energy",
@@ -222892,7 +223386,7 @@ backup_data = {
                 "battle_type": "Singles",
                 "moves":
                 [
-                    "Boomburst",
+                    "Hyper Voice",
                     "Flamethrower",
                     "Grass Knot",
                     "Memento"
@@ -225562,7 +226056,7 @@ backup_data = {
                 "sub_index": 2,
                 "tr_id": 32,
                 "ability": "Cud Chew",
-                "gender": "Female"
+                "gender": "Male"
             },
             "Lvl 83 Hideout Team Aqua Grunt #2 |Aqua Hideout|":
             {
@@ -228056,7 +228550,7 @@ backup_data = {
                     "sd": 31,
                     "sp": 31
                 },
-                "item": "Scope Lens",
+                "item": "Covert Cloak",
                 "level": 100,
                 "nature": "Modest",
                 "battle_type": "Doubles",
@@ -228065,7 +228559,7 @@ backup_data = {
                     "Draco Meteor",
                     "Hydro Pump",
                     "Ice Beam",
-                    "Agility"
+                    "Acupressure"
                 ],
                 "sub_index": 1,
                 "tr_id": 259,
@@ -231470,6 +231964,30 @@ backup_data = {
                 ],
                 "sub_index": 3,
                 "tr_id": 762,
+                "ability": "Shield Dust",
+                "gender": "Male"
+            },
+            "Lvl 81 Pyre Team Aqua Grunt #5 |Mt. Pyre|":
+            {
+                "ivs":
+                {
+                    "hp": 31,
+                    "at": 31,
+                    "df": 31,
+                    "sa": 31,
+                    "sd": 31,
+                    "sp": 31
+                },
+                "item": "Choice Specs",
+                "level": 81,
+                "nature": "Timid",
+                "battle_type": "Singles",
+                "moves":
+                [
+                    "Misty Explosion"
+                ],
+                "sub_index": 4,
+                "tr_id": 193,
                 "ability": "Shield Dust",
                 "gender": "Male"
             }
@@ -235157,7 +235675,7 @@ backup_data = {
                     "Hyper Voice",
                     "Heat Wave",
                     "Dragon Rush",
-                    "Tailwind"
+                    "Iron Head"
                 ],
                 "sub_index": 5,
                 "tr_id": 259,
@@ -236410,7 +236928,7 @@ backup_data = {
                 "ability": "Swift Swim",
                 "gender": "Male"
             },
-            "Lvl 86 Team Aqua Admin Matt |Aqua Hideout|":
+            "Lvl 87 Team Aqua Admin Matt |Aqua Hideout|":
             {
                 "ivs":
                 {
@@ -236422,7 +236940,7 @@ backup_data = {
                     "sp": 31
                 },
                 "item": "Muscle Band",
-                "level": 86,
+                "level": 87,
                 "nature": "Jolly",
                 "battle_type": "Singles",
                 "moves":
@@ -238940,7 +239458,7 @@ backup_data = {
                     "Meteor Mash",
                     "Psychic Fangs",
                     "Hammer Arm",
-                    "Knock Off"
+                    "Protect"
                 ],
                 "sub_index": 2,
                 "tr_id": null,
@@ -240929,7 +241447,7 @@ backup_data = {
                     "Calm Mind",
                     "Vacuum Wave"
                 ],
-                "sub_index": 4,
+                "sub_index": 5,
                 "tr_id": 193,
                 "ability": "Justified"
             }
@@ -242451,7 +242969,7 @@ backup_data = {
                     "Meteor Mash",
                     "Psychic Fangs",
                     "Hammer Arm",
-                    "Knock Off"
+                    "Protect"
                 ],
                 "sub_index": 6,
                 "tr_id": null,
@@ -245506,7 +246024,7 @@ backup_data = {
                     "Hyper Voice",
                     "Heat Wave",
                     "Dragon Rush",
-                    "Tailwind"
+                    "Iron Head"
                 ],
                 "sub_index": 6,
                 "tr_id": 259,
@@ -253379,11 +253897,11 @@ backup_data = {
                 2,
                 5
             ],
-            "bp": 25,
+            "bp": 20,
             "type": "Water",
             "acc": 100,
             "pp": 20,
-            "priority": 3
+            "priority": 2
         },
         "mysticalfire":
         {
