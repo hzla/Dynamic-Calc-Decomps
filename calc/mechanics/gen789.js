@@ -744,8 +744,8 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
 
     if (move.named('Knock Off')) {
         var resistedKnockOffDamage = (!defender.item || (0, util_2.isQPActive)(defender, field)) ||
-        (defender.named('Dialga-Origin') && defender.hasItem('Adamant Crystal')) ||
-        (defender.named('Palkia-Origin') && defender.hasItem('Lustrous Globe')) ||
+        (defender.named('Dialga-Origin', 'Dialga') && defender.hasItem('Adamant Crystal', 'Adamant Orb')) ||
+        (defender.named('Palkia-Origin', 'Palkia') && defender.hasItem('Lustrous Globe', 'Lustrous Orb')) ||
         (defender.name.includes('Giratina-Origin') && defender.item.includes('Griseous')) ||
         (defender.name.includes('Arceus') && defender.item.includes('Plate')) ||
         (defender.name.includes('Genesect') && defender.item.includes('Drive')) ||
@@ -941,7 +941,7 @@ function calculateBPModsSMSSSV(gen, attacker, defender, move, field, desc, baseP
         desc.attackerItem = attacker.item;
     }
     else if ((((attacker.hasItem('Adamant Crystal') && attacker.named('Dialga-Origin')) ||
-        (attacker.hasItem('Adamant Orb') && attacker.named('Dialga'))) &&
+        (attacker.hasItem('Adamant Orb') && attacker.named('Dialga')) && !TITLE.includes("Imperium")) &&
         move.hasType('Steel', 'Dragon')) ||
         (((attacker.hasItem('Lustrous Orb') &&
             attacker.named('Palkia')) ||

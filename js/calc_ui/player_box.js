@@ -354,7 +354,7 @@ function updateFeaturedBoxResults(selector, sortValueMap) {
         return
     }
 
-    cards.slice(0, 3).each(function() {
+    cards.slice(0, 6).each(function() {
         var setId = $(this).attr('data-set-id')
         var sortValue = sortValueMap && Object.prototype.hasOwnProperty.call(sortValueMap, setId)
             ? sortValueMap[setId]
