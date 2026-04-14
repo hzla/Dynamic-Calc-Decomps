@@ -119,6 +119,7 @@ var RBY = {
     Sludge: { bp: 65, type: 'Poison' },
     'Soft-Boiled': { bp: 0, category: 'Status', type: 'Normal' },
     'Solar Beam': { bp: 120, type: 'Grass' },
+    'Solar-Beam': { bp: 120, type: 'Grass' },
     'Sonic Boom': { bp: 1, type: 'Normal' },
     'Spike Cannon': { bp: 20, type: 'Normal', multihit: [2, 5] },
     Stomp: { bp: 65, type: 'Normal' },
