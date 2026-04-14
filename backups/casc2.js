@@ -1,4 +1,4 @@
-backup_data = backup_data = {
+backup_data = {
   "title":"Cascade White",
   "pok_replacements": {
     "": "badegg"
@@ -3512,7 +3512,7 @@ backup_data = backup_data = {
     },
     "Signal Beam": {
       "type": "Bug",
-      "basePower": 75,
+      "basePower": 85,
       "category": "Special",
       "pp": 15,
       "accuracy": 100,
@@ -5913,7 +5913,7 @@ backup_data = backup_data = {
       "e_id": 111
     }
   },
-   "poks": {
+  "poks": {
     "Bulbasaur": {
       "name": "Bulbasaur",
       "num": 1,
@@ -10182,7 +10182,7 @@ backup_data = backup_data = {
         "df": 90,
         "sa": 20,
         "sd": 35,
-        "sp": 90
+        "sp": 80
       },
       "learnset_info": {
         "learnset": [
@@ -10344,7 +10344,7 @@ backup_data = backup_data = {
         "df": 110,
         "sa": 25,
         "sd": 55,
-        "sp": 115
+        "sp": 105
       },
       "learnset_info": {
         "learnset": [
@@ -21354,13 +21354,16 @@ backup_data = backup_data = {
         "Water Absorb"
       ],
       "evos": [
+        "Muk",
         "Muk"
       ],
       "evoMethods": [
-        "level"
+        "level",
+        "useItem"
       ],
       "evoParams": [
-        38
+        42,
+        "Water Stone"
       ]
     },
     "Muk": {
@@ -21548,8 +21551,9 @@ backup_data = backup_data = {
         "Contagious",
         "Water Absorb"
       ],
-      "evoType": "level",
-      "evoLevel": 38
+      "evoType": "useItem",
+      "evoLevel": 42,
+      "evoItem": "Water Stone"
     },
     "Shellder": {
       "name": "Shellder",
@@ -30332,11 +30336,11 @@ backup_data = backup_data = {
           ],
           [
             43,
-            "Rock Blast"
+            "Icicle Spear"
           ],
           [
             45,
-            "Barrage"
+            "Aqua Tail"
           ],
           [
             49,
@@ -30344,7 +30348,7 @@ backup_data = backup_data = {
           ],
           [
             54,
-            "Aqua Tail"
+            "Rock Blast"
           ]
         ],
         "tms": [
@@ -30469,7 +30473,7 @@ backup_data = backup_data = {
           ],
           [
             1,
-            "Icicle Spear"
+            "Barrage"
           ],
           [
             6,
@@ -30521,11 +30525,11 @@ backup_data = backup_data = {
           ],
           [
             43,
-            "Rock Blast"
+            "Icicle Spear"
           ],
           [
             45,
-            "Barrage"
+            "Aqua Tail"
           ],
           [
             49,
@@ -30533,7 +30537,7 @@ backup_data = backup_data = {
           ],
           [
             54,
-            "Aqua Tail"
+            "Rock Blast"
           ],
           [
             60,
@@ -57624,7 +57628,7 @@ backup_data = backup_data = {
       ],
       "bs": {
         "hp": 50,
-        "at": 75,
+        "at": 65,
         "df": 65,
         "sa": 65,
         "sd": 65,
@@ -57816,7 +57820,7 @@ backup_data = backup_data = {
       ],
       "bs": {
         "hp": 70,
-        "at": 105,
+        "at": 95,
         "df": 95,
         "sa": 95,
         "sd": 95,
@@ -69562,8 +69566,8 @@ backup_data = backup_data = {
         "useItem"
       ],
       "evoParams": [
-        "Shiny Stone",
-        "Dawn Stone"
+        "Thunderstone",
+        "Water Stone"
       ]
     },
     "Huntail": {
@@ -69749,7 +69753,7 @@ backup_data = backup_data = {
         "Strong Jaw"
       ],
       "evoType": "useItem",
-      "evoItem": "Shiny Stone"
+      "evoItem": "Thunderstone"
     },
     "Gorebyss": {
       "name": "Gorebyss",
@@ -69940,7 +69944,7 @@ backup_data = backup_data = {
         "Majestic Ward"
       ],
       "evoType": "useItem",
-      "evoItem": "Dawn Stone"
+      "evoItem": "Water Stone"
     },
     "Relicanth": {
       "name": "Relicanth",
@@ -81830,7 +81834,7 @@ backup_data = backup_data = {
         "hp": 76,
         "at": 65,
         "df": 65,
-        "sa": 132,
+        "sa": 117,
         "sd": 52,
         "sp": 101
       },
@@ -83048,7 +83052,7 @@ backup_data = backup_data = {
           ],
           [
             60,
-            "Arm Thrust"
+            "High Jump Kick"
           ],
           [
             63,
@@ -108519,15 +108523,15 @@ backup_data = backup_data = {
           ],
           [
             23,
-            "Signal Beam"
-          ],
-          [
-            27,
             "Sucker Punch"
           ],
           [
-            30,
+            27,
             "Disable"
+          ],
+          [
+            30,
+            "Signal Beam"
           ],
           [
             33,
@@ -108688,15 +108692,15 @@ backup_data = backup_data = {
           ],
           [
             23,
-            "Signal Beam"
-          ],
-          [
-            27,
             "Sucker Punch"
           ],
           [
-            30,
+            27,
             "Disable"
+          ],
+          [
+            30,
+            "Signal Beam"
           ],
           [
             33,
@@ -126961,7 +126965,7 @@ backup_data = backup_data = {
         "moves": [
           "Bubble Beam",
           "Temper Flare",
-          "Bullet Seed",
+          "Seed Bomb",
           "Aqua Jet"
         ],
         "sub_index": 4,
@@ -130177,13 +130181,13 @@ backup_data = backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Chople Berry",
+        "item": "Normal Gem",
         "nature": "Lonely",
         "moves": [
           "Retaliate",
-          "Vital Throw",
-          "Attract",
-          "Shadow Punch"
+          "Double Kick",
+          "Rolling Kick",
+          "Dizzy Punch"
         ],
         "sub_index": 4,
         "ability": "Hustle",
@@ -134068,8 +134072,8 @@ backup_data = backup_data = {
         "moves": [
           "Solar Blade",
           "Poison Jab",
-          "Rock Climb",
-          "Sucker Punch"
+          "High Horsepower",
+          "Psychic Fangs"
         ],
         "sub_index": 3,
         "ability": "Arena Trap",
@@ -137916,12 +137920,12 @@ backup_data = backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Covert Cloak",
-        "nature": "Modest",
+        "item": "Scope Lens",
+        "nature": "Docile",
         "moves": [
-          "Cross Poison",
+          "Poison Fang",
           "Air Slash",
-          "Aura Sphere",
+          "Hypnosis",
           "Dark Pulse"
         ],
         "sub_index": 5,
@@ -145466,9 +145470,9 @@ backup_data = backup_data = {
         "battle_type": "Doubles",
         "reward_item": "None",
         "item": "Electric Gem",
-        "nature": "Brave",
+        "nature": "Timid",
         "moves": [
-          "Freeze-Dry",
+          "Ice Beam",
           "Icy Wind",
           "Charge Beam",
           "Light Screen"
@@ -150229,12 +150233,12 @@ backup_data = backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Leftovers",
+        "item": "Enigma Berry",
         "nature": "Relaxed",
         "moves": [
           "Drain Punch",
           "Mach Punch",
-          "Stone Edge",
+          "Rock Climb",
           "Slack Off"
         ],
         "sub_index": 4,
@@ -151265,7 +151269,7 @@ backup_data = backup_data = {
         "moves": [
           "Zap Cannon",
           "Night Daze",
-          "Close Combat",
+          "Jump Kick",
           "Thrash"
         ],
         "sub_index": 5,
@@ -171188,7 +171192,7 @@ backup_data = backup_data = {
         "item": "Focus Sash",
         "nature": "Mild",
         "moves": [
-          "Hyper Voice",
+          "Tri Attack",
           "Fire Pledge",
           "Grass Pledge",
           "Dazzling Gleam"
@@ -171311,11 +171315,11 @@ backup_data = backup_data = {
         },
         "battle_type": "Doubles",
         "reward_item": "None",
-        "item": "Wacan Berry",
+        "item": "Enigma Berry",
         "nature": "Quiet",
         "moves": [
           "Scald",
-          "Draining Kiss",
+          "Dazzling Gleam",
           "Follow Me",
           "Brine"
         ],
@@ -182396,7 +182400,7 @@ backup_data = backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Weakness Policy",
+        "item": "Attack Insurance",
         "nature": "Hardy",
         "moves": [
           "Twister",
@@ -186019,7 +186023,7 @@ backup_data = backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Charcoal",
+        "item": "Fire Gem",
         "nature": "Lax",
         "moves": [
           "Mystical Fire",
@@ -186653,7 +186657,7 @@ backup_data = backup_data = {
           "Fairy Wind",
           "Solar Beam",
           "Mystical Fire",
-          "Smog"
+          "Acid Spray"
         ],
         "sub_index": 5,
         "ability": "Chlorophyll",
@@ -194939,7 +194943,7 @@ backup_data = backup_data = {
           "Confusion",
           "Disarming Voice",
           "Magical Leaf",
-          "Relic Song"
+          "Swift"
         ],
         "sub_index": 1,
         "ability": "Trace",
@@ -194970,7 +194974,7 @@ backup_data = backup_data = {
           "Confusion",
           "Disarming Voice",
           "Magical Leaf",
-          "Relic Song"
+          "Swift"
         ],
         "sub_index": 1,
         "ability": "Trace",
@@ -198415,9 +198419,9 @@ backup_data = backup_data = {
         "item": "Coba Berry",
         "nature": "Bold",
         "moves": [
-          "Petal Blizzard",
-          "Fire Lash",
-          "Wild Charge",
+          "Seed Bomb",
+          "Blaze Kick",
+          "Slam",
           "Quick Attack"
         ],
         "sub_index": 2,
