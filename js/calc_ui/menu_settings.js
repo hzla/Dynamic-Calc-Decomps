@@ -58,6 +58,10 @@ function setSettingsDefaults() {
     localStorage.watchSaveFile = 0
   }
 
+  if (typeof localStorage.rememberHpStatus === 'undefined') {
+    localStorage.rememberHpStatus = 0
+  }
+
   if (typeof localStorage.syncLua === 'undefined') {
     localStorage.syncLua = 0
   }
@@ -128,17 +132,23 @@ function setSettingsDefaults() {
     $('#battle-notes .notes-text').html(localStorage.notes);
   }
 
+  applyImperiumOnlySettingsVisibility()
   setSettingsTogglesFromLocalStorage()
 }
 
 
 // Settings toggle
 function setSettingsTogglesFromLocalStorage() {
+    $('#save-toggle input, #toggle-remember-hp-status input, #toggle-sync-lua input, #save-filter-toggle input, #theme-toggle input, #toggle-boxroll input, #toggle-battle-notes input, #toggle-rand input, #toggle-abil input, #toggle-switch-info input, #toggle-hl-moves input, #toggle-analytics input, #dynamic-type-bug input').prop('checked', false)
+
     if (sprite_style == "pokesprite") {
         $('#sprite-toggle input').prop('checked', true)
     }
   if (localStorage.watchSaveFile == "1") {
     $('#save-toggle input').prop('checked', true)
+  }
+  if (localStorage.rememberHpStatus == "1") {
+    $('#toggle-remember-hp-status input').prop('checked', true)
   }
   if (localStorage.syncLua == "1") {
     $('#toggle-sync-lua input').prop('checked', true)
@@ -167,6 +177,8 @@ function setSettingsTogglesFromLocalStorage() {
     if (localStorage.switchInfo == '1') {
         $('#toggle-switch-info input').prop('checked', true)
         $('#dynamic-type-bug').css('display', 'flex')
+    } else {
+        $('#dynamic-type-bug').hide()
     }
     if (localStorage.highlightMoves == '1') {
         $('#toggle-hl-moves input').prop('checked', true)
@@ -182,6 +194,33 @@ function setSettingsTogglesFromLocalStorage() {
 
     applySyncLuaVisibility()
     applyAutoImportMegasVisibility()
+}
+
+function isImperiumTitle() {
+    return typeof TITLE === "string" && TITLE.includes("Imperium")
+}
+
+function applyImperiumOnlySettingsVisibility() {
+    var imperiumOnlySettings = [
+        { selector: '#toggle-switch-info', storageKey: 'switchInfo' },
+        { selector: '#save-filter-toggle', storageKey: 'filterSaveFile' },
+        { selector: '#toggle-abil', storageKey: 'filterAbilities' },
+        { selector: '#toggle-rand', storageKey: 'randomized' }
+    ]
+    var shouldShow = isImperiumTitle()
+
+    imperiumOnlySettings.forEach(function(setting) {
+        $(setting.selector).toggle(shouldShow)
+
+        if (!shouldShow) {
+            localStorage[setting.storageKey] = 0
+            $(setting.selector + ' input').prop('checked', false)
+        }
+    })
+
+    if (!shouldShow) {
+        $('#dynamic-type-bug').hide()
+    }
 }
 
 function toggleBoxSpriteStyle() {
@@ -302,6 +341,10 @@ $('#toggle-rand .slider').click(function(){
 $('#save-toggle .slider').click(function(){
     localStorage.watchSaveFile = (parseInt(localStorage.watchSaveFile) + 1) % 2;
     location.reload()   
+})
+
+$('#toggle-remember-hp-status .slider').click(function(){
+    localStorage.rememberHpStatus = (parseInt(localStorage.rememberHpStatus) + 1) % 2;
 })
 
 $('#toggle-sync-lua .slider').click(function(){

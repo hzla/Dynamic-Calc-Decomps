@@ -53,6 +53,286 @@ var CALC_STATUS = {
 	'Frozen': 'frz'
 };
 
+var STATUS_COLOR_MAP = {
+	'Burned': '#a34d14',
+	'Paralyzed': '#f1fa8c',
+	'Poisoned': '#ff79c6',
+	'Badly Poisoned': '#ff79c6',
+	'Frozen': '#8be9fd'
+};
+
+var STATUS_ALIAS_MAP = {
+	'': 'Healthy',
+	'healthy': 'Healthy',
+	'burn': 'Burned',
+	'burned': 'Burned',
+	'brn': 'Burned',
+	'paralysis': 'Paralyzed',
+	'paralyzed': 'Paralyzed',
+	'paralysed': 'Paralyzed',
+	'par': 'Paralyzed',
+	'poison': 'Poisoned',
+	'poisoned': 'Poisoned',
+	'psn': 'Poisoned',
+	'toxic': 'Badly Poisoned',
+	'toxic poison': 'Badly Poisoned',
+	'badly poisoned': 'Badly Poisoned',
+	'tox': 'Badly Poisoned',
+	'freeze': 'Frozen',
+	'frozen': 'Frozen',
+	'frz': 'Frozen',
+	'sleep': 'Asleep',
+	'asleep': 'Asleep',
+	'slp': 'Asleep'
+};
+
+var lastOpposingTrainerIdentity = null;
+
+function normalizeStoredStatus(statusValue) {
+	var normalizedKey = String(statusValue == null ? '' : statusValue).trim().toLowerCase();
+	return STATUS_ALIAS_MAP[normalizedKey] || 'Healthy';
+}
+
+function rememberHpStatusEnabled() {
+	return localStorage.rememberHpStatus == '1';
+}
+
+function getRememberedEnemyStateMap() {
+	if (!localStorage.rememberedEnemyHpStatus || typeof isValidJSON !== 'function' || !isValidJSON(localStorage.rememberedEnemyHpStatus)) {
+		return {};
+	}
+
+	return JSON.parse(localStorage.rememberedEnemyHpStatus);
+}
+
+function saveRememberedEnemyStateMap(stateMap) {
+	localStorage.rememberedEnemyHpStatus = JSON.stringify(stateMap || {});
+}
+
+function getRememberedStateForSet(pokeObj, setId) {
+	if (!rememberHpStatusEnabled() || !setId) {
+		return null;
+	}
+
+	if (setId.includes('(My Box)')) {
+		var speciesName = setId.substring(0, setId.indexOf(' ('));
+		if (customSets && customSets[speciesName] && customSets[speciesName]['My Box']) {
+			return customSets[speciesName]['My Box'];
+		}
+		return null;
+	}
+
+	if (pokeObj && pokeObj.prop('id') === 'p2') {
+		return getRememberedEnemyStateMap()[setId] || null;
+	}
+
+	return null;
+}
+
+function getSetDataFromSetId(setId) {
+	if (!setId || setId.indexOf(' (') === -1) {
+		return null;
+	}
+
+	var speciesName = setId.substring(0, setId.indexOf(' ('));
+	var setName = setId.substring(setId.indexOf('(') + 1, setId.lastIndexOf(')'));
+	setName = setName.replace(/\)\[\d+\]$/, "").replace(/\[\d+\]$/, "");
+
+	if (!setdex || !setdex[speciesName] || !setdex[speciesName][setName]) {
+		return null;
+	}
+
+	return setdex[speciesName][setName];
+}
+
+function applyRememberedHpStatusToPokeInfo(pokeObj, setId) {
+	var rememberedState = getRememberedStateForSet(pokeObj, setId);
+	if (!rememberedState || typeof rememberedState !== 'object') {
+		return;
+	}
+
+	var maxHp = parseInt(pokeObj.find('.max-hp').text(), 10) || 0;
+	var rememberedCurrentHp = parseInt(rememberedState.currentHp, 10);
+
+	if (typeof rememberedState.status !== 'undefined') {
+		pokeObj.find('.status').val(normalizeStoredStatus(rememberedState.status));
+		syncStatusSelectUi(pokeObj.find('.status'));
+	}
+
+	if (maxHp > 0 && Number.isFinite(rememberedCurrentHp)) {
+		rememberedCurrentHp = Math.max(0, Math.min(maxHp, rememberedCurrentHp));
+		pokeObj.find('.current-hp').val(rememberedCurrentHp);
+		calcPercentHP(pokeObj, maxHp, rememberedCurrentHp);
+	}
+}
+
+function persistRememberedHpStatusForPoke(pokeObj) {
+	if (!rememberHpStatusEnabled() || !pokeObj || !pokeObj.length) {
+		return;
+	}
+
+	var setId = pokeObj.find('input.set-selector').val();
+	if (!setId) {
+		return;
+	}
+
+	var maxHp = parseInt(pokeObj.find('.max-hp').text(), 10) || 0;
+	var currentHp = parseInt(pokeObj.find('.current-hp').val(), 10);
+	var normalizedStatus = normalizeStoredStatus(pokeObj.find('.status').val());
+
+	if (!Number.isFinite(currentHp)) {
+		currentHp = maxHp;
+	}
+	currentHp = Math.max(0, Math.min(maxHp, currentHp));
+
+	if (setId.includes('(My Box)')) {
+		var speciesName = setId.substring(0, setId.indexOf(' ('));
+		if (!customSets || !customSets[speciesName] || !customSets[speciesName]['My Box']) {
+			return;
+		}
+
+		customSets[speciesName]['My Box'].status = normalizedStatus;
+		if (maxHp > 0 && currentHp < maxHp) {
+			customSets[speciesName]['My Box'].currentHp = currentHp;
+		} else {
+			delete customSets[speciesName]['My Box'].currentHp;
+		}
+		updateDex(customSets);
+		customSets = JSON.parse(localStorage.customsets || '{}');
+		return;
+	}
+
+	if (pokeObj.prop('id') !== 'p2') {
+		return;
+	}
+
+	var rememberedEnemyState = getRememberedEnemyStateMap();
+	var baseEnemyStatus = getNormalizedSetStatus(getSetDataFromSetId(setId));
+	var nextEnemyState = {};
+	if (normalizedStatus !== baseEnemyStatus) {
+		nextEnemyState.status = normalizedStatus;
+	}
+	if (maxHp > 0 && currentHp < maxHp) {
+		nextEnemyState.currentHp = currentHp;
+	}
+
+	if (Object.keys(nextEnemyState).length > 0) {
+		rememberedEnemyState[setId] = nextEnemyState;
+	} else {
+		delete rememberedEnemyState[setId];
+	}
+
+	saveRememberedEnemyStateMap(rememberedEnemyState);
+}
+
+function getStatusDropdownColor(statusValue) {
+	return STATUS_COLOR_MAP[normalizeStoredStatus(statusValue)] || '';
+}
+
+function applyStatusSelectColor(statusSelect) {
+	var select = $(statusSelect);
+	if (!select.length) {
+		return;
+	}
+
+	var color = getStatusDropdownColor(select.val());
+	if (color) {
+		select.css('color', color);
+	} else {
+		select.css('color', '');
+	}
+}
+
+function syncStatusSelectUi(statusSelect) {
+	var select = $(statusSelect);
+	if (!select.length) {
+		return;
+	}
+
+	if (normalizeStoredStatus(select.val()) === 'Badly Poisoned') {
+		select.parent().children(".toxic-counter").show();
+	} else {
+		select.parent().children(".toxic-counter").hide();
+	}
+
+	applyStatusSelectColor(select);
+}
+
+function getNormalizedSetStatus(setData) {
+	return normalizeStoredStatus(setData && setData.status);
+}
+
+function getOpposingTrainerIdentity(setId) {
+	var trainerId = getTrainerPreviewTrainerIdFromSet(setId);
+	if (trainerId) {
+		return 'id:' + trainerId;
+	}
+
+	var trainerName = getTrainerPreviewName(setId);
+	if (trainerName) {
+		return 'name:' + trainerName.toLowerCase();
+	}
+
+	return '';
+}
+
+function resetAllPlayerCustomSetStatusesToHealthy(options) {
+	var config = options || {};
+	if (typeof customSets !== 'object' || !customSets) {
+		saveRememberedEnemyStateMap({});
+		return false;
+	}
+
+	var didUpdate = false;
+	for (var speciesName in customSets) {
+		if (!customSets[speciesName] || !customSets[speciesName]['My Box']) {
+			continue;
+		}
+
+		if (customSets[speciesName]['My Box'].status !== 'Healthy') {
+			customSets[speciesName]['My Box'].status = 'Healthy';
+			didUpdate = true;
+		} else if (typeof customSets[speciesName]['My Box'].status === 'undefined') {
+			customSets[speciesName]['My Box'].status = 'Healthy';
+			didUpdate = true;
+		}
+		if (typeof customSets[speciesName]['My Box'].currentHp !== 'undefined') {
+			delete customSets[speciesName]['My Box'].currentHp;
+			didUpdate = true;
+		}
+	}
+
+	saveRememberedEnemyStateMap({});
+
+	if (!didUpdate) {
+		if (config.syncActiveUi && $('#p1 .set-selector').val() && $('#p1 .set-selector').val().includes('(My Box)')) {
+			var leftMaxHp = parseInt($('#p1 .max-hp').text(), 10) || 0;
+			$('#p1 .status').val('Healthy');
+			if (leftMaxHp > 0) {
+				$('#p1 .current-hp').val(leftMaxHp);
+				calcPercentHP($('#p1'), leftMaxHp, leftMaxHp);
+			}
+			syncStatusSelectUi($('#p1 .status'));
+		}
+		return false;
+	}
+
+	updateDex(customSets);
+	customSets = JSON.parse(localStorage.customsets || '{}');
+
+	if (config.syncActiveUi && $('#p1 .set-selector').val() && $('#p1 .set-selector').val().includes('(My Box)')) {
+		var activeLeftMaxHp = parseInt($('#p1 .max-hp').text(), 10) || 0;
+		$('#p1 .status').val('Healthy');
+		if (activeLeftMaxHp > 0) {
+			$('#p1 .current-hp').val(activeLeftMaxHp);
+			calcPercentHP($('#p1'), activeLeftMaxHp, activeLeftMaxHp);
+		}
+		syncStatusSelectUi($('#p1 .status'));
+	}
+
+	return true;
+}
+
 function legacyStatToStat(st) {
 	switch (st) {
 	case 'hp':
@@ -176,6 +456,7 @@ function calcStats(poke) {
 function calcCurrentHP(poke, max, percent, skipDraw) {
 	var current = Math.round(Number(percent) * Number(max) / 100);
 	poke.find(".current-hp").val(current);
+	updateHpInputBorderState(poke, max, current);
 	if (!skipDraw) drawHealthBar(poke, max, current);
 	return current;
 }
@@ -188,8 +469,18 @@ function calcPercentHP(poke, max, current, skipDraw) {
 	}
 
 	poke.find(".percent-hp").val(percent);
+	updateHpInputBorderState(poke, max, current);
 	if (!skipDraw) drawHealthBar(poke, max, current);
 	return percent;
+}
+function updateHpInputBorderState(poke, max, current) {
+	var numericMax = Number(max);
+	var numericCurrent = Number(current);
+	var shouldHighlight = Number.isFinite(numericMax) && numericMax > 0 &&
+		Number.isFinite(numericCurrent) && numericCurrent < numericMax;
+	var borderColor = shouldHighlight ? '#ff5555' : '';
+
+	poke.find('.current-hp, .percent-hp').css('border-color', borderColor);
 }
 function drawHealthBar(poke, max, current) {
 	var fillPercent = 100 * current / max;
@@ -204,18 +495,26 @@ function drawHealthBar(poke, max, current) {
 	}
 	healthbar.css("background", "linear-gradient(to right, " + fillColor + " " + fillPercent + "%, white 0%");
 }
+function syncHpInputsAndPersist(hpInput) {
+	var poke = $(this).closest(".poke-info");
+	if (hpInput) {
+		poke = $(hpInput).closest(".poke-info");
+	}
+	var max = poke.find(".max-hp").text();
+	var input = hpInput ? $(hpInput) : $(this);
+	if (input.hasClass("current-hp")) {
+		validate(input, 0, max);
+		calcPercentHP(poke, max, input.val());
+	} else {
+		validate(input, 0, 100);
+		calcCurrentHP(poke, max, input.val());
+	}
+	persistRememberedHpStatusForPoke(poke);
+}
+
 // TODO: these HP inputs should really be input type=number with min=0, step=1, constrained by max=maxHP or 100
-$(".current-hp").keyup(function () {
-	var max = $(this).parent().children(".max-hp").text();
-	validate($(this), 0, max);
-	var current = $(this).val();
-	calcPercentHP($(this).parent(), max, current);
-});
-$(".percent-hp").keyup(function () {
-	var max = $(this).parent().children(".max-hp").text();
-	validate($(this), 0, 100);
-	var percent = $(this).val();
-	calcCurrentHP($(this).parent(), max, percent);
+$(".current-hp, .percent-hp").on("input keyup change blur", function () {
+	syncHpInputsAndPersist(this);
 });
 
 
@@ -430,11 +729,10 @@ function refreshInferredHiddenPower(pokeObj) {
 	});
 }
 
-$(".status").bind("keyup change", function () {
-	if ($(this).val() === 'Badly Poisoned') {
-		$(this).parent().children(".toxic-counter").show();
-	} else {
-		$(this).parent().children(".toxic-counter").hide();
+$(".status").bind("keyup change", function (e) {
+	syncStatusSelectUi(this);
+	if (e && e.type === 'change') {
+		persistRememberedHpStatusForPoke($(this).closest(".poke-info"));
 	}
 });
 
@@ -1161,6 +1459,15 @@ $(".set-selector").change(function () {
 	if ($(this).hasClass('opposing')) {
 		CURRENT_TRAINER_POKS = get_trainer_poks(fullSetName, maybePartner)
 		localStorage["right"] = fullSetName
+		var currentOpposingTrainerIdentity = getOpposingTrainerIdentity(fullSetName)
+		if (!initializing && lastOpposingTrainerIdentity && currentOpposingTrainerIdentity && lastOpposingTrainerIdentity !== currentOpposingTrainerIdentity) {
+			resetAllPlayerCustomSetStatusesToHealthy({
+				syncActiveUi: true
+			});
+		}
+		if (currentOpposingTrainerIdentity) {
+			lastOpposingTrainerIdentity = currentOpposingTrainerIdentity
+		}
 
 		var trName = setName.replace(/^Lvl\s+[+-]?\d+\s+/, "")
 		if (!prevTrainerName) {
@@ -1511,12 +1818,14 @@ $(".set-selector").change(function () {
 			pokeObj.find(".gender").val("");
 		} else pokeObj.find(".gender").parent().show();
 
-		if (typeof setdex[pokemonName] != "undefined" && typeof setdex[pokemonName][setName] != "undefined" && setdex[pokemonName][setName]["status"]) {
-			pokeObj.find(".status").val(setdex[pokemonName][setName]["status"])//.change();
+		if (typeof setdex[pokemonName] != "undefined" && typeof setdex[pokemonName][setName] != "undefined") {
+			pokeObj.find(".status").val(getNormalizedSetStatus(setdex[pokemonName][setName]));
 		} else {
-			pokeObj.find(".status").val("Healthy")//.change();
+			pokeObj.find(".status").val("Healthy");
 		}
+		syncStatusSelectUi(pokeObj.find(".status"));
 		syncItemState(itemObj);
+		applyRememberedHpStatusToPokeInfo(pokeObj, fullSetName);
 
 		if (typeof setdex[pokemonName] != "undefined" && typeof setdex[pokemonName][setName] != "undefined") {
 			var setGender = getGender(setdex[pokemonName][setName]["gender"]);
@@ -1828,15 +2137,7 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			// console.log(`adjusting ${name} to level ${tmpLvl} for pokemon creation`)
 		}
 
-		let status = ''
-
-		if (set.status == 'Badly Poisoned') {
-			status = 'tox'
-		} else if (set.status == 'Frozen') {
-			status = 'frz'
-		} else if (set.status == 'Burned') {
-			status = 'brn'
-		}
+		let status = CALC_STATUS[getNormalizedSetStatus(set)]
 		
 			return new calc.Pokemon(gen, name, {
 				level: tmpLvl,
@@ -1926,6 +2227,8 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			var move4 = customMoves[3]
 		} 
 
+		var normalizedUiStatus = normalizeStoredStatus(pokeInfo.find(".status").val());
+
 		return new calc.Pokemon(gen, name, {
 			level: ~~pokeInfo.find(".level").val(),
 			ability: ability,
@@ -1940,8 +2243,8 @@ function createPokemon(pokeInfo, customMoves=false, ignoreStatMods=false) {
 			boostedStat: pokeInfo.find(".boostedStat:visible").val() || undefined,
 			boosts: boosts,
 			curHP: curHP,
-			status: CALC_STATUS[pokeInfo.find(".status").val()],
-			toxicCounter: status === 'Badly Poisoned' ? ~~pokeInfo.find(".toxic-counter").val() : 0,
+			status: CALC_STATUS[normalizedUiStatus],
+			toxicCounter: normalizedUiStatus === 'Badly Poisoned' ? ~~pokeInfo.find(".toxic-counter").val() : 0,
 			moves: [
 				getMoveDetails(pokeInfo.find(".move1"), name, ability, item, isDynamaxed, move1),
 				getMoveDetails(pokeInfo.find(".move2"), name, ability, item, isDynamaxed, move2),

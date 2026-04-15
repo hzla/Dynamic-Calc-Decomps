@@ -488,16 +488,10 @@ $(document).ready(function() {
 
     $(document).on('click', '.trainer-pok.left-side', function() {
         loadLeftSideSet($(this).attr('data-id'))
-
-        var right_max_hp = $("#p1 .max-hp").text()
-        $("#p1 .current-hp").val(right_max_hp)//.change()
     })
 
     $(document).on('click', '.tag-partner-preview .tag-partner-pok', function() {
         loadLeftSideSet($(this).attr('data-id'))
-
-        var right_max_hp = $("#p1 .max-hp").text()
-        $("#p1 .current-hp").val(right_max_hp)//.change()
     })
 
     $(document).on('click', '.tag-partner-change', function(e) {

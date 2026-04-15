@@ -490,6 +490,7 @@ function placeBsBtn() {
 
 function ExportPokemon(pokeInfo) {
 	var pokemon = createPokemon(pokeInfo);
+	var canonicalStatus = typeof normalizeStoredStatus === "function" ? normalizeStoredStatus(pokeInfo.find(".status").val()) : "Healthy";
 	var EV_counter = 0;
 	var finalText = "";
 	finalText = pokemon.name + (pokemon.item ? " @ " + pokemon.item : "") + "\n";
@@ -525,6 +526,9 @@ function ExportPokemon(pokeInfo) {
 		finalText += serialize(IVs_Array, " / ");
 		finalText += "\n";
 	}
+	if (canonicalStatus !== "Healthy") {
+		finalText += "Status: " + canonicalStatus + "\n";
+	}
 
 	for (var i = 0; i < 4; i++) {
 		var moveName = pokemon.moves[i].name;
@@ -559,6 +563,7 @@ function buildShowdownExportText(speciesName, setData) {
 		return "";
 	}
 
+	var canonicalStatus = typeof normalizeStoredStatus === "function" ? normalizeStoredStatus(setData.status) : "Healthy";
 	var nickname = String(setData.nn || "").trim();
 	var gender = String(setData.gender || "").trim().toUpperCase();
 	var item = String(setData.item || "").trim();
@@ -608,6 +613,9 @@ function buildShowdownExportText(speciesName, setData) {
 	}
 	if (ivParts.length) {
 		lines.push("IVs: " + serialize(ivParts, " / "));
+	}
+	if (canonicalStatus !== "Healthy") {
+		lines.push("Status: " + canonicalStatus);
 	}
 
 	var moves = Array.isArray(setData.moves) ? setData.moves : [];
@@ -720,6 +728,7 @@ function statToLegacyStat(stat) {
 
 function getStats(currentPoke, rows, offset) {
 	currentPoke.nature = "Serious";
+	currentPoke.status = typeof normalizeStoredStatus === "function" ? normalizeStoredStatus(currentPoke.status) : "Healthy";
 	var currentEV;
 	var currentIV;
 	var currentAbility;
@@ -765,6 +774,9 @@ function getStats(currentPoke, rows, offset) {
 				ivs[currentIV[1]] = parseInt(currentIV[0]);
 			}
 			currentPoke.ivs = ivs;
+			break;
+		case 'Status':
+			currentPoke.status = typeof normalizeStoredStatus === "function" ? normalizeStoredStatus(currentRow[1]) : "Healthy";
 			break;
 
 		}
@@ -1183,6 +1195,7 @@ function buildDexObject(poke) {
 	dexObject.nature = poke.nature;
 	dexObject.item = poke.item;
 	dexObject.nn = poke.nn;
+	dexObject.status = typeof normalizeStoredStatus === "function" ? normalizeStoredStatus(poke.status) : "Healthy";
 	dexObject.isCustomSet = poke.isCustomSet;
 
 	if (typeof poke["met"] != "undefined") {

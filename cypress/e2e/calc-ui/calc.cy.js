@@ -55,6 +55,70 @@ function importSetText(text) {
   cy.get('#import').click()
 }
 
+function enableRememberHpStatus(win) {
+  win.localStorage.rememberHpStatus = '1'
+  win.$('#toggle-remember-hp-status input').prop('checked', true)
+}
+
+function findTrainerSwitchTargets(win) {
+  const trainerGroups = new Map()
+
+  for (const [speciesName, speciesSets] of Object.entries(win.setdex || {})) {
+    for (const [setName, setData] of Object.entries(speciesSets || {})) {
+      const trainerId = Number(setData && setData.tr_id)
+      if (!Number.isFinite(trainerId) || !trainerId) {
+        continue
+      }
+
+      const setId = `${speciesName} (${setName})`
+      if (!trainerGroups.has(trainerId)) {
+        trainerGroups.set(trainerId, [])
+      }
+      trainerGroups.get(trainerId).push(setId)
+    }
+  }
+
+  const groups = [...trainerGroups.entries()]
+    .map(([trainerId, setIds]) => ({ trainerId, setIds }))
+    .filter((group) => group.setIds.length > 0)
+
+  const sameTrainerGroup = groups.find((group) => group.setIds.length > 1)
+  if (!sameTrainerGroup) {
+    return null
+  }
+
+  const differentTrainerGroup = groups.find((group) => group.trainerId !== sameTrainerGroup.trainerId)
+  if (!differentTrainerGroup) {
+    return null
+  }
+
+  return {
+    initialSetId: sameTrainerGroup.setIds[0],
+    sameTrainerSetId: sameTrainerGroup.setIds[1],
+    differentTrainerSetId: differentTrainerGroup.setIds[0]
+  }
+}
+
+const statusImportText = [
+  'Eevee',
+  'Ability: Run Away',
+  'Level: 50',
+  'Jolly Nature',
+  '- Quick Attack',
+  '- Bite',
+  '- Protect',
+  '- Swift',
+  '',
+  'Pikachu',
+  'Ability: Static',
+  'Level: 50',
+  'Timid Nature',
+  '- Thunderbolt',
+  '- Quick Attack',
+  '- Iron Tail',
+  '- Volt Tackle'
+].join('\n')
+
 
 for (let calc of calcs) {
   describe(calc.title, () => {
@@ -245,6 +309,182 @@ for (let calc of calcs) {
       cy.get('#clearSets').click()
       cy.get('.player-poks .trainer-pok').should('have.length', 0)
     }) 
+
+    it('defaults imported sets without status to healthy', () => {
+      cy.get('#clearSets').click()
+      importSetText([
+        'Eevee',
+        'Ability: Run Away',
+        'Level: 50',
+        'Jolly Nature',
+        '- Quick Attack',
+        '- Bite',
+        '- Protect',
+        '- Swift'
+      ].join('\n'))
+
+      cy.window().then((win) => {
+        expect(win.customSets.Eevee['My Box'].status).to.eq('Healthy')
+      })
+
+      cy.get("[data-id='Eevee (My Box)']").click()
+      cy.get('#statusL1').should('have.value', 'Healthy')
+    })
+
+    it('persists status through the save button export-import roundtrip', () => {
+      cy.get('#clearSets').click()
+      importSetText(statusImportText)
+
+      cy.get("[data-id='Eevee (My Box)']").click()
+      cy.get('#statusL1').select('Burned')
+      cy.get('#save-pok').click()
+
+      cy.window().then((win) => {
+        expect(win.customSets.Eevee['My Box'].status).to.eq('Burned')
+      })
+
+      cy.get("[data-id='Pikachu (My Box)']").click()
+      cy.get("[data-id='Eevee (My Box)']").click()
+      cy.get('#statusL1').should('have.value', 'Burned')
+    })
+
+    it('treats legacy custom sets with missing status as healthy', () => {
+      cy.window().then((win) => {
+        const legacySets = {
+          Bulbasaur: {
+            'My Box': {
+              level: 50,
+              ability: 'Overgrow',
+              item: '',
+              nature: 'Calm',
+              evs: { hp: 0, at: 0, df: 0, sa: 0, sd: 0, sp: 0 },
+              ivs: { hp: 31, at: 31, df: 31, sa: 31, sd: 31, sp: 31 },
+              moves: ['Giga Drain', 'Sleep Powder', 'Protect', 'Sludge Bomb'],
+              nn: ''
+            }
+          }
+        }
+
+        win.localStorage.customsets = JSON.stringify(legacySets)
+        win.customSets = JSON.parse(win.localStorage.customsets)
+        win.updateDex(win.customSets)
+        win.get_box()
+      })
+
+      cy.get("[data-id='Bulbasaur (My Box)']").click()
+      cy.get('#statusL1').should('have.value', 'Healthy')
+    })
+
+    it('automatically remembers hp and status for both sides when enabled', () => {
+      cy.get('#clearSets').click()
+      importSetText(statusImportText)
+
+      cy.window().then((win) => {
+        enableRememberHpStatus(win)
+      })
+
+      cy.get("[data-id='Eevee (My Box)']").click()
+      cy.get('#statusL1').select('Burned')
+      cy.get('#p1 .current-hp').clear().type('41').blur()
+      cy.get("[data-id='Pikachu (My Box)']").click()
+      cy.get("[data-id='Eevee (My Box)']").click()
+      cy.get('#statusL1').should('have.value', 'Burned')
+      cy.get('#p1 .current-hp').should('have.value', '41')
+
+      cy.window().then((win) => {
+        const targets = findTrainerSwitchTargets(win)
+        expect(targets, 'trainer switch targets').to.not.equal(null)
+
+        win.lastOpposingTrainerIdentity = null
+        win.$('.opposing.set-selector').first().val(targets.initialSetId).change()
+      })
+
+      cy.get('#statusR1').select('Poisoned')
+      cy.get('#p2 .current-hp').clear().type('12').blur()
+
+      cy.window().then((win) => {
+        const targets = findTrainerSwitchTargets(win)
+        win.$('.opposing.set-selector').first().val(targets.sameTrainerSetId).change()
+        win.$('.opposing.set-selector').first().val(targets.initialSetId).change()
+      })
+
+      cy.get('#statusR1').should('have.value', 'Poisoned')
+      cy.get('#p2 .current-hp').should('have.value', '12')
+    })
+
+    it('resets remembered hp and status when switching to a different opposing trainer', () => {
+      cy.get('#clearSets').click()
+      importSetText(statusImportText)
+
+      cy.window().then((win) => {
+        enableRememberHpStatus(win)
+      })
+
+      cy.get("[data-id='Eevee (My Box)']").click()
+      cy.get('#statusL1').select('Burned')
+      cy.get('#p1 .current-hp').clear().type('41').blur()
+      cy.get('#statusL1').should('have.value', 'Burned')
+
+      cy.window().then((win) => {
+        const targets = findTrainerSwitchTargets(win)
+        expect(targets, 'trainer switch targets').to.not.equal(null)
+
+        win.lastOpposingTrainerIdentity = null
+        win.$('.opposing.set-selector').first().val(targets.initialSetId).change()
+      })
+
+      cy.get('#statusR1').select('Poisoned')
+      cy.get('#p2 .current-hp').clear().type('12').blur()
+
+      cy.window().then((win) => {
+        const targets = findTrainerSwitchTargets(win)
+        win.$('.opposing.set-selector').first().val(targets.differentTrainerSetId).change()
+
+        expect(win.customSets.Eevee['My Box'].status).to.eq('Healthy')
+        expect(win.customSets.Eevee['My Box'].currentHp).to.eq(undefined)
+        expect(win.localStorage.rememberedEnemyHpStatus).to.eq('{}')
+      })
+
+      cy.get('#statusL1').should('have.value', 'Healthy')
+      cy.window().then((win) => {
+        const maxHp = String(parseInt(win.$('#p1 .max-hp').text(), 10))
+        expect(win.$('#p1 .current-hp').val()).to.eq(maxHp)
+      })
+    })
+
+    it('colors status dropdowns based on the selected status', () => {
+      cy.get('#clearSets').click()
+      importSetText(statusImportText)
+      cy.get("[data-id='Eevee (My Box)']").click()
+
+      cy.get('#statusL1').select('Healthy').then(($select) => {
+        const defaultColor = getComputedStyle($select[0]).color
+
+        cy.wrap($select).select('Burned').should('have.css', 'color', 'rgb(163, 77, 20)')
+        cy.wrap($select).select('Paralyzed').should('have.css', 'color', 'rgb(241, 250, 140)')
+        cy.wrap($select).select('Poisoned').should('have.css', 'color', 'rgb(255, 121, 198)')
+        cy.wrap($select).select('Badly Poisoned').should('have.css', 'color', 'rgb(255, 121, 198)')
+        cy.wrap($select).select('Frozen').should('have.css', 'color', 'rgb(139, 233, 253)')
+        cy.wrap($select).select('Asleep').should('have.css', 'color', defaultColor)
+        cy.wrap($select).select('Healthy').should('have.css', 'color', defaultColor)
+      })
+
+      cy.get('#statusR1').select('Paralyzed').should('have.css', 'color', 'rgb(241, 250, 140)')
+    })
+
+    it('includes status in exports only when the status is not healthy', () => {
+      cy.get('#clearSets').click()
+      importSetText(statusImportText)
+      cy.get("[data-id='Eevee (My Box)']").click()
+
+      cy.get('#statusL1').select('Burned')
+      cy.get('#exportL').click()
+      cy.get('.import-team-text').should('contain.value', 'Status: Burned')
+
+      cy.get('#statusL1').select('Healthy')
+      cy.get('#exportL').click()
+      cy.get('.import-team-text').invoke('val').should('not.contain', 'Status:')
+    })
 
     if (calc.title) {
       it('can import a save', () => {

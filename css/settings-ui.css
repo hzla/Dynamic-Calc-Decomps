@@ -19,6 +19,21 @@
   display: none;
 }
 
+.menu-section-header {
+    color: #9f9f9f;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin: 12px 4px 4px;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+
+.menu-section-header:first-child {
+    margin-top: 4px;
+    padding-top: 0;
+}
+
 .menu-item {
     font-size: 16px;
     font-weight: 400;
@@ -28,7 +43,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 4px;
-    margin: 16px 0px;;
+    margin: 10px 0px;
 }
 
 

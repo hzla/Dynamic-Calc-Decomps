@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community/dist/styles/ag-theme-alpine-dark.css">
     <link type="text/css" rel="stylesheet" href="./css/frags.css?f84b1399" />
     <link type="text/css" rel="stylesheet" href="./css/encounters.css?2f51c970" />
-    <link type="text/css" rel="stylesheet" href="./css/settings-ui.css?41103280" />
+    <link type="text/css" rel="stylesheet" href="./css/settings-ui.css?15f070fe" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css?1" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/jquery.terminal-2.43.0.min.css?1" />
     <script src="
@@ -130,6 +130,7 @@
         <img src="./img/menu.svg" id="open-menu">
 
         <div id="settings-menu">
+            <div class="menu-section-header">Informational</div>
             <div id="toggle-boxroll" class="menu-item">
               <div class="menu-label">
                 Box Filters
@@ -148,6 +149,17 @@
                 <span class="slider round"></span>
               </label>
             </div>
+            <div id="toggle-hl-moves" class="menu-item">
+              <div class="menu-label">
+                Move Highlighting
+              </div> 
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+
+            <div class="menu-section-header">UI/Display</div>
              <div id="toggle-battle-notes" class="menu-item">
               <div class="menu-label">
                 Battle Notes
@@ -175,6 +187,8 @@
                 <span class="slider round"></span>
               </label>
             </div>
+
+            <div class="menu-section-header">Calc QOL</div>
             <div id="save-toggle" class="menu-item">
               <div class="menu-label">
                 Auto Update Save
@@ -184,10 +198,10 @@
                 <span class="slider round"></span>
               </label>
             </div>
-            <div id="toggle-sync-lua" class="menu-item">
+            <div id="toggle-remember-hp-status" class="menu-item">
               <div class="menu-label">
-                Sync Lua
-              </div> 
+                Remember HP/Status
+              </div>
               <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
@@ -211,6 +225,8 @@
                 <span class="slider round"></span>
               </label>
             </div>
+
+            <div class="menu-section-header">Misc</div>
             <div id="toggle-rand" class="menu-item">
               <div class="menu-label">
                 Randomized Save
@@ -220,9 +236,9 @@
                 <span class="slider round"></span>
               </label>
             </div>
-            <div id="toggle-hl-moves" class="menu-item">
+            <div id="toggle-sync-lua" class="menu-item">
               <div class="menu-label">
-                Move Highlighting
+                Sync Lua
               </div> 
               <label class="switch">
                 <input type="checkbox">
@@ -2216,7 +2232,7 @@
     
     <script type="text/javascript" src="./js/calc_ui/utility_functions.js?6a193211"></script>
     <script type="text/javascript" src="./js/calc_ui/master_file_poller.js"></script>
-    <script type="text/javascript" src="./js/calc_ui/menu_settings.js?9688014b"></script>
+    <script type="text/javascript" src="./js/calc_ui/menu_settings.js?4714b7b1"></script>
     <script type="text/javascript" src="./js/fragsheet/aggrid_options.js?d327eaa4"></script>
     <script type="text/javascript" src="./js/fragsheet/controls.js?b065caa4"></script>
     <script type="text/javascript" src="./js/fragsheet/move_changes.js?100000"></script>
@@ -2236,7 +2252,7 @@
     <script type="text/javascript" src="./js/calc_ui/ai_display.js?4c40ce6e"></script>
 
     <script type="text/javascript" src="./js/calc_ui/trainer_preview.js?a057001b"></script>
-    <script type="text/javascript" src="./js/showdown_hooks.js?4425ef87"></script>
+    <script type="text/javascript" src="./js/showdown_hooks.js?ffb5d43d"></script>
 
 
 
@@ -2297,9 +2313,9 @@
     <script type="text/javascript" src="./calc/result.js?d5c7552d"></script>
     <script type="text/javascript" src="./calc/adaptable.js?afeb3759"></script>
     <script type="text/javascript" src="./calc/index.js?2377cbc8"></script>
-    <script type="text/javascript" src="./js/shared_controls.js?4a5e09bd"></script>
+    <script type="text/javascript" src="./js/shared_controls.js?457cd9ed"></script>
     <script type="text/javascript" src="./js/index_randoms_controls.js?df5c4a7b"></script>
-    <script type="text/javascript" src="./js/moveset_import.js?0737dd92"></script>
+    <script type="text/javascript" src="./js/moveset_import.js?d879a33a"></script>
     <script type="text/javascript" src="./js/fragsheet/frags.js?d32ecc86"></script>
     <script type="text/javascript" src="./js/analytics/index.js?63b9ba20"></script>
 

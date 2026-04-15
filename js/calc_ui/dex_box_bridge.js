@@ -151,6 +151,9 @@
 	function serializeCustomSet(speciesName, setData) {
 		if (!setData || typeof setData !== "object") return "";
 
+		var canonicalStatus = typeof window.normalizeStoredStatus === "function"
+			? window.normalizeStoredStatus(setData.status)
+			: "Healthy";
 		var lines = [];
 		lines.push(formatHeader(speciesName, setData));
 		lines.push("Level: " + normalizeNumber(setData.level, 100));
@@ -192,6 +195,9 @@
 				31,
 			),
 		);
+		if (canonicalStatus !== "Healthy") {
+			lines.push("Status: " + canonicalStatus);
+		}
 
 		var moves = Array.isArray(setData.moves) ? setData.moves : [];
 		for (var moveIndex = 0; moveIndex < moves.length; moveIndex++) {
