@@ -123544,7 +123544,7 @@ backup_data = {
       ]
     }
   },
- "formatted_sets": {
+  "formatted_sets": {
     "Mienshao": {
       "Lvl 50 Smasher Elena ": {
         "level": 50,
@@ -125468,7 +125468,7 @@ backup_data = {
           "Baneful Bunker",
           "Seed Bomb"
         ],
-        "sub_index": 2,
+        "sub_index": 1,
         "ability": "Gourmand",
         "sprite": "trainer_sprites/shadow.png",
         "form": 0,
@@ -148960,8 +148960,8 @@ backup_data = {
           "df": 0
         }
       },
-      "Lvl 56 Team Plasma Shadow3 ": {
-        "level": 56,
+      "Lvl 57 Team Plasma Shadow3 ": {
+        "level": 57,
         "ai": 15,
         "noCh": false,
         "tr_id": 113,
@@ -148975,11 +148975,11 @@ backup_data = {
         },
         "battle_type": "Singles",
         "reward_item": "None",
-        "item": "Clear Amulet",
+        "item": "Colbur Berry",
         "nature": "Docile",
         "moves": [
           "Fake Out",
-          "Teeter Dance",
+          "Acupressure",
           "Dizzy Punch",
           "Stored Power"
         ],
@@ -162344,70 +162344,6 @@ backup_data = {
         "sub_index": 0,
         "ability": "Unaware",
         "sprite": "trainer_sprites/beauty.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      }
-    },
-    "Bibarel": {
-      "Lvl 56 Team Plasma Shadow3 ": {
-        "level": 56,
-        "ai": 15,
-        "noCh": false,
-        "tr_id": 113,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "Bright Powder",
-        "nature": "Docile",
-        "moves": [
-          "Chip Away",
-          "Torment",
-          "Slack Off",
-          "Acupressure"
-        ],
-        "sub_index": 1,
-        "ability": "Simple",
-        "sprite": "trainer_sprites/shadow.png",
-        "form": 0,
-        "evs": {
-          "df": 0
-        }
-      },
-      "Lvl 26 Worker Cliff - Twist Mountain": {
-        "level": 26,
-        "ai": 143,
-        "noCh": false,
-        "tr_id": 492,
-        "ivs": {
-          "hp": 31,
-          "at": 31,
-          "df": 31,
-          "sa": 31,
-          "sd": 31,
-          "sp": 31
-        },
-        "battle_type": "Singles",
-        "reward_item": "None",
-        "item": "None",
-        "nature": "Hasty",
-        "moves": [
-          "Barrage",
-          "Headbutt",
-          "Aqua Jet",
-          "Amnesia"
-        ],
-        "sub_index": 0,
-        "ability": "Huge Power",
-        "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
@@ -197593,6 +197529,39 @@ backup_data = {
         "sub_index": 5,
         "ability": "Intimidate",
         "sprite": "trainer_sprites/cobalion.png",
+        "form": 0,
+        "evs": {
+          "df": 0
+        }
+      }
+    },
+    "Bibarel": {
+      "Lvl 26 Worker Cliff - Twist Mountain": {
+        "level": 26,
+        "ai": 143,
+        "noCh": false,
+        "tr_id": 492,
+        "ivs": {
+          "hp": 31,
+          "at": 31,
+          "df": 31,
+          "sa": 31,
+          "sd": 31,
+          "sp": 31
+        },
+        "battle_type": "Singles",
+        "reward_item": "None",
+        "item": "None",
+        "nature": "Hasty",
+        "moves": [
+          "Barrage",
+          "Headbutt",
+          "Aqua Jet",
+          "Amnesia"
+        ],
+        "sub_index": 0,
+        "ability": "Huge Power",
+        "sprite": "trainer_sprites/worker.png",
         "form": 0,
         "evs": {
           "df": 0
