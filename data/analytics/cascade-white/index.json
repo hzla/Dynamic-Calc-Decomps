@@ -1,0 +1,1168 @@
+{
+  "title": "Cascade White",
+  "slug": "cascade-white",
+  "generatedAt": "2026-04-16T14:13:25.819887Z",
+  "historyLimit": 100,
+  "trainerCount": 105,
+  "overview": {
+    "runCount": 45,
+    "importantTrainerBattles": [
+      {
+        "displayName": "Kanto Leader Brock - Pledge Grove",
+        "usageKey": "764",
+        "trId": 764,
+        "leadLevel": 13,
+        "maxLevel": 14,
+        "runCount": 14
+      },
+      {
+        "displayName": "Leader Cheren",
+        "usageKey": "156",
+        "trId": 156,
+        "leadLevel": 13,
+        "maxLevel": 15,
+        "runCount": 11
+      },
+      {
+        "displayName": "Kanto Leader Misty - Virbank City",
+        "usageKey": "765",
+        "trId": 765,
+        "leadLevel": 20,
+        "maxLevel": 22,
+        "runCount": 6
+      },
+      {
+        "displayName": "Leader Roxie",
+        "usageKey": "157",
+        "trId": 157,
+        "leadLevel": 20,
+        "maxLevel": 23,
+        "runCount": 11
+      },
+      {
+        "displayName": "Kanto Leader Lt. Surge - Liberty Garden",
+        "usageKey": "766",
+        "trId": 766,
+        "leadLevel": 30,
+        "maxLevel": 31,
+        "runCount": 9
+      },
+      {
+        "displayName": "Leader Burgh",
+        "usageKey": "154",
+        "trId": 154,
+        "leadLevel": 30,
+        "maxLevel": 32,
+        "runCount": 5
+      },
+      {
+        "displayName": "Kanto Leader Erika - Lostlorn Forest",
+        "usageKey": "767",
+        "trId": 767,
+        "leadLevel": 39,
+        "maxLevel": 40,
+        "runCount": 3
+      },
+      {
+        "displayName": "Leader Elesa",
+        "usageKey": "153",
+        "trId": 153,
+        "leadLevel": 39,
+        "maxLevel": 41,
+        "runCount": 3
+      },
+      {
+        "displayName": "Leader Clay",
+        "usageKey": "158",
+        "trId": 158,
+        "leadLevel": 44,
+        "maxLevel": 46,
+        "runCount": 2
+      },
+      {
+        "displayName": "Sinnoh Leader Volkner",
+        "usageKey": "493",
+        "trId": 493,
+        "leadLevel": 51,
+        "maxLevel": 52,
+        "runCount": 2
+      },
+      {
+        "displayName": "Kanto Leader Sabrina - Celestial Tower",
+        "usageKey": "769",
+        "trId": 769,
+        "leadLevel": 52,
+        "maxLevel": 54,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Skyla",
+        "usageKey": "155",
+        "trId": 155,
+        "leadLevel": 54,
+        "maxLevel": 55,
+        "runCount": 1
+      }
+    ],
+    "starterGiftGroups": [],
+    "runDepth": {
+      "available": true,
+      "averageStep": 54.7,
+      "averagePct": 23.0,
+      "maxStep": 238,
+      "runsCounted": 45
+    }
+  },
+  "trainers": [
+    {
+      "displayName": "Janitor Orville - Floccesy Ranch",
+      "usageKey": "182",
+      "detailFile": "trainers/027.json",
+      "leadLevel": 9,
+      "maxLevel": 10,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 182
+    },
+    {
+      "displayName": "Lass Molly - Floccesy Ranch",
+      "usageKey": "181",
+      "detailFile": "trainers/026.json",
+      "leadLevel": 9,
+      "maxLevel": 10,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 181
+    },
+    {
+      "displayName": "PkMn Trainer Rival4 - Starter 1",
+      "usageKey": "166",
+      "detailFile": "trainers/012.json",
+      "leadLevel": 9,
+      "maxLevel": 11,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 166
+    },
+    {
+      "displayName": "PkMn Trainer Rival5 - Starter 2",
+      "usageKey": "167",
+      "detailFile": "trainers/013.json",
+      "leadLevel": 10,
+      "maxLevel": 11,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 167
+    },
+    {
+      "displayName": "PkMn Trainer Rival6 - Starter 3",
+      "usageKey": "168",
+      "detailFile": "trainers/014.json",
+      "leadLevel": 10,
+      "maxLevel": 11,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 168
+    },
+    {
+      "displayName": "Youngster Kenny - Floccesy Ranch",
+      "usageKey": "180",
+      "detailFile": "trainers/025.json",
+      "leadLevel": 10,
+      "maxLevel": 10,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 180
+    },
+    {
+      "displayName": "Lass Serena",
+      "usageKey": "172",
+      "detailFile": "trainers/018.json",
+      "leadLevel": 12,
+      "maxLevel": 13,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 172
+    },
+    {
+      "displayName": "School Kid Alberta",
+      "usageKey": "455",
+      "detailFile": "trainers/044.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 455
+    },
+    {
+      "displayName": "School Kid Cassie",
+      "usageKey": "170",
+      "detailFile": "trainers/016.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 170
+    },
+    {
+      "displayName": "School Kid Cassie2",
+      "usageKey": "748",
+      "detailFile": "trainers/094.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 748
+    },
+    {
+      "displayName": "School Kid Cassie3",
+      "usageKey": "750",
+      "detailFile": "trainers/096.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 750
+    },
+    {
+      "displayName": "School Kid Keston - Pinwheel Forest",
+      "usageKey": "633",
+      "detailFile": "trainers/071.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 633
+    },
+    {
+      "displayName": "School Kid Marsha - Route 3",
+      "usageKey": "394",
+      "detailFile": "trainers/043.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 394
+    },
+    {
+      "displayName": "School Kid Seymour",
+      "usageKey": "169",
+      "detailFile": "trainers/015.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 169
+    },
+    {
+      "displayName": "School Kid Seymour2",
+      "usageKey": "747",
+      "detailFile": "trainers/093.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 747
+    },
+    {
+      "displayName": "School Kid Seymour3",
+      "usageKey": "749",
+      "detailFile": "trainers/095.json",
+      "leadLevel": 12,
+      "maxLevel": 12,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 749
+    },
+    {
+      "displayName": "Kanto Leader Brock - Pledge Grove",
+      "usageKey": "764",
+      "detailFile": "trainers/098.json",
+      "leadLevel": 13,
+      "maxLevel": 14,
+      "isBoss": true,
+      "partySize": 5,
+      "trId": 764
+    },
+    {
+      "displayName": "Leader Cheren",
+      "usageKey": "156",
+      "detailFile": "trainers/008.json",
+      "leadLevel": 13,
+      "maxLevel": 15,
+      "isBoss": true,
+      "partySize": 5,
+      "trId": 156
+    },
+    {
+      "displayName": "Rival Benga3 - Floccesy Ranch - Starter 3",
+      "usageKey": "772",
+      "detailFile": "trainers/103.json",
+      "leadLevel": 13,
+      "maxLevel": 13,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 772
+    },
+    {
+      "displayName": "Youngster Pedro",
+      "usageKey": "171",
+      "detailFile": "trainers/017.json",
+      "leadLevel": 13,
+      "maxLevel": 13,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 171
+    },
+    {
+      "displayName": "Preschooler Albert - Route 20",
+      "usageKey": "173",
+      "detailFile": "trainers/019.json",
+      "leadLevel": 15,
+      "maxLevel": 16,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 173
+    },
+    {
+      "displayName": "Preschooler Lin - Route 20",
+      "usageKey": "174",
+      "detailFile": "trainers/020.json",
+      "leadLevel": 15,
+      "maxLevel": 16,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 174
+    },
+    {
+      "displayName": "Hiker Jerome",
+      "usageKey": "206",
+      "detailFile": "trainers/031.json",
+      "leadLevel": 16,
+      "maxLevel": 16,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 206
+    },
+    {
+      "displayName": "Nursery Aide Kimya - Route 20",
+      "usageKey": "176",
+      "detailFile": "trainers/022.json",
+      "leadLevel": 16,
+      "maxLevel": 17,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 176
+    },
+    {
+      "displayName": "PkMn Trainer Rival16 - Starter 1",
+      "usageKey": "556",
+      "detailFile": "trainers/064.json",
+      "leadLevel": 17,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 556
+    },
+    {
+      "displayName": "PkMn Trainer Rival17 - Abundant Shrine - Starter 2",
+      "usageKey": "557",
+      "detailFile": "trainers/065.json",
+      "leadLevel": 17,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 557
+    },
+    {
+      "displayName": "PkMn Trainer Rival18 - Abundant Shrine - Starter 3",
+      "usageKey": "558",
+      "detailFile": "trainers/066.json",
+      "leadLevel": 17,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 558
+    },
+    {
+      "displayName": "Youngster Masahiro - Virbank Complex",
+      "usageKey": "745",
+      "detailFile": "trainers/091.json",
+      "leadLevel": 17,
+      "maxLevel": 18,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 745
+    },
+    {
+      "displayName": "Youngster Waylon - Virbank Complex",
+      "usageKey": "746",
+      "detailFile": "trainers/092.json",
+      "leadLevel": 17,
+      "maxLevel": 18,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 746
+    },
+    {
+      "displayName": "Lass Daya - Virbank Complex",
+      "usageKey": "738",
+      "detailFile": "trainers/086.json",
+      "leadLevel": 18,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 738
+    },
+    {
+      "displayName": "Twins Lia & Lily - Route 20",
+      "usageKey": "175",
+      "detailFile": "trainers/021.json",
+      "leadLevel": 18,
+      "maxLevel": 18,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 175
+    },
+    {
+      "displayName": "Worker Isaac",
+      "usageKey": "203",
+      "detailFile": "trainers/028.json",
+      "leadLevel": 18,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 203
+    },
+    {
+      "displayName": "Worker Nathan",
+      "usageKey": "205",
+      "detailFile": "trainers/030.json",
+      "leadLevel": 18,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 205
+    },
+    {
+      "displayName": "Youngster Keita - Virbank Complex",
+      "usageKey": "645",
+      "detailFile": "trainers/073.json",
+      "leadLevel": 18,
+      "maxLevel": 18,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 645
+    },
+    {
+      "displayName": "Guitarist Billy Jo",
+      "usageKey": "179",
+      "detailFile": "trainers/024.json",
+      "leadLevel": 19,
+      "maxLevel": 21,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 179
+    },
+    {
+      "displayName": "Scientist Bryce - Virbank City",
+      "usageKey": "555",
+      "detailFile": "trainers/063.json",
+      "leadLevel": 19,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 555
+    },
+    {
+      "displayName": "Worker Mitchell",
+      "usageKey": "204",
+      "detailFile": "trainers/029.json",
+      "leadLevel": 19,
+      "maxLevel": 19,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 204
+    },
+    {
+      "displayName": "Kanto Leader Misty - Virbank City",
+      "usageKey": "765",
+      "detailFile": "trainers/099.json",
+      "leadLevel": 20,
+      "maxLevel": 22,
+      "isBoss": true,
+      "partySize": 5,
+      "trId": 765
+    },
+    {
+      "displayName": "Leader Roxie",
+      "usageKey": "157",
+      "detailFile": "trainers/009.json",
+      "leadLevel": 20,
+      "maxLevel": 23,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 157
+    },
+    {
+      "displayName": "Roughneck Nicky",
+      "usageKey": "178",
+      "detailFile": "trainers/023.json",
+      "leadLevel": 20,
+      "maxLevel": 21,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 178
+    },
+    {
+      "displayName": "Team Plasma Grunt44",
+      "usageKey": "690",
+      "detailFile": "trainers/079.json",
+      "leadLevel": 24,
+      "maxLevel": 25,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 690
+    },
+    {
+      "displayName": "Team Plasma Grunt48",
+      "usageKey": "763",
+      "detailFile": "trainers/097.json",
+      "leadLevel": 24,
+      "maxLevel": 25,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 763
+    },
+    {
+      "displayName": "Pokefan Norbert - Route 4",
+      "usageKey": "224",
+      "detailFile": "trainers/033.json",
+      "leadLevel": 25,
+      "maxLevel": 26,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 224
+    },
+    {
+      "displayName": "Nurse Kirsten - Castelia Sewers",
+      "usageKey": "119",
+      "detailFile": "trainers/001.json",
+      "leadLevel": 26,
+      "maxLevel": 26,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 119
+    },
+    {
+      "displayName": "Clerk F Britney - Castelia City",
+      "usageKey": "691",
+      "detailFile": "trainers/080.json",
+      "leadLevel": 27,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 691
+    },
+    {
+      "displayName": "Clerk M Clemens",
+      "usageKey": "501",
+      "detailFile": "trainers/051.json",
+      "leadLevel": 27,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 501
+    },
+    {
+      "displayName": "Clerk M Warren",
+      "usageKey": "502",
+      "detailFile": "trainers/052.json",
+      "leadLevel": 27,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 502
+    },
+    {
+      "displayName": "Janitor Brady - Castelia Sewers",
+      "usageKey": "462",
+      "detailFile": "trainers/045.json",
+      "leadLevel": 27,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 462
+    },
+    {
+      "displayName": "Worker Scott - Relic Passage",
+      "usageKey": "466",
+      "detailFile": "trainers/046.json",
+      "leadLevel": 27,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 466
+    },
+    {
+      "displayName": "Clerk M Gilligan - Castelia City",
+      "usageKey": "692",
+      "detailFile": "trainers/081.json",
+      "leadLevel": 28,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 692
+    },
+    {
+      "displayName": "Harlequin Jack",
+      "usageKey": "735",
+      "detailFile": "trainers/083.json",
+      "leadLevel": 28,
+      "maxLevel": 29,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 735
+    },
+    {
+      "displayName": "Roughneck Chance - Route 9",
+      "usageKey": "329",
+      "detailFile": "trainers/039.json",
+      "leadLevel": 28,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 329
+    },
+    {
+      "displayName": "Harlequin Anders - Castelia City",
+      "usageKey": "737",
+      "detailFile": "trainers/085.json",
+      "leadLevel": 29,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 737
+    },
+    {
+      "displayName": "Harlequin Clarence - Castelia City",
+      "usageKey": "734",
+      "detailFile": "trainers/082.json",
+      "leadLevel": 29,
+      "maxLevel": 29,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 734
+    },
+    {
+      "displayName": "Harlequin Gary - Castelia City",
+      "usageKey": "736",
+      "detailFile": "trainers/084.json",
+      "leadLevel": 29,
+      "maxLevel": 29,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 736
+    },
+    {
+      "displayName": "School Kid Neil",
+      "usageKey": "503",
+      "detailFile": "trainers/053.json",
+      "leadLevel": 29,
+      "maxLevel": 29,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 503
+    },
+    {
+      "displayName": "Kanto Leader Lt. Surge - Liberty Garden",
+      "usageKey": "766",
+      "detailFile": "trainers/100.json",
+      "leadLevel": 30,
+      "maxLevel": 31,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 766
+    },
+    {
+      "displayName": "Leader Burgh",
+      "usageKey": "154",
+      "detailFile": "trainers/006.json",
+      "leadLevel": 30,
+      "maxLevel": 32,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 154
+    },
+    {
+      "displayName": "Twins Tara & Val - Route 4",
+      "usageKey": "226",
+      "detailFile": "trainers/034.json",
+      "leadLevel": 33,
+      "maxLevel": 34,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 226
+    },
+    {
+      "displayName": "Team Plasma Colress2",
+      "usageKey": "358",
+      "detailFile": "trainers/040.json",
+      "leadLevel": 34,
+      "maxLevel": 35,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 358
+    },
+    {
+      "displayName": "Cosplayer Cassie - Join Avenue",
+      "usageKey": "13",
+      "detailFile": "trainers/002.json",
+      "leadLevel": 35,
+      "maxLevel": 35,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 13
+    },
+    {
+      "displayName": "Cosplayer Jared - Join Avenue",
+      "usageKey": "59",
+      "detailFile": "trainers/069.json",
+      "leadLevel": 35,
+      "maxLevel": 35,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 59
+    },
+    {
+      "displayName": "Lady Lina - Route 4",
+      "usageKey": "147",
+      "detailFile": "trainers/003.json",
+      "leadLevel": 35,
+      "maxLevel": 36,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 147
+    },
+    {
+      "displayName": "Cosplayer Amy - Join Avenue",
+      "usageKey": "248",
+      "detailFile": "trainers/035.json",
+      "leadLevel": 36,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 248
+    },
+    {
+      "displayName": "Cosplayer Anders - Join Avenue",
+      "usageKey": "48",
+      "detailFile": "trainers/047.json",
+      "leadLevel": 36,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 48
+    },
+    {
+      "displayName": "PkMn Ranger Jaden - Desert Resort",
+      "usageKey": "666",
+      "detailFile": "trainers/075.json",
+      "leadLevel": 36,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 666
+    },
+    {
+      "displayName": "Rival Benga4 - Route 4 - Starter 3",
+      "usageKey": "773",
+      "detailFile": "trainers/104.json",
+      "leadLevel": 36,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 773
+    },
+    {
+      "displayName": "Backers Bob & Rob - Nimbasa City",
+      "usageKey": "51",
+      "detailFile": "trainers/054.json",
+      "leadLevel": 37,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 51
+    },
+    {
+      "displayName": "Backers Kay & May - Nimbasa City",
+      "usageKey": "52",
+      "detailFile": "trainers/055.json",
+      "leadLevel": 37,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 52
+    },
+    {
+      "displayName": "Beauty Nikola",
+      "usageKey": "207",
+      "detailFile": "trainers/032.json",
+      "leadLevel": 37,
+      "maxLevel": 38,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 207
+    },
+    {
+      "displayName": "Cosplayer Miriam - Join Avenue",
+      "usageKey": "251",
+      "detailFile": "trainers/037.json",
+      "leadLevel": 37,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 251
+    },
+    {
+      "displayName": "Psychic Future - Desert Resort",
+      "usageKey": "669",
+      "detailFile": "trainers/076.json",
+      "leadLevel": 37,
+      "maxLevel": 37,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 669
+    },
+    {
+      "displayName": "Kanto Leader Erika - Lostlorn Forest",
+      "usageKey": "767",
+      "detailFile": "trainers/101.json",
+      "leadLevel": 39,
+      "maxLevel": 40,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 767
+    },
+    {
+      "displayName": "Leader Elesa",
+      "usageKey": "153",
+      "detailFile": "trainers/005.json",
+      "leadLevel": 39,
+      "maxLevel": 41,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 153
+    },
+    {
+      "displayName": "Linebacker Dan3 - Driftveil Drawbridge",
+      "usageKey": "65",
+      "detailFile": "trainers/074.json",
+      "leadLevel": 39,
+      "maxLevel": 39,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 65
+    },
+    {
+      "displayName": "Infielder Alex3 - Driftveil Drawbridge",
+      "usageKey": "56",
+      "detailFile": "trainers/067.json",
+      "leadLevel": 40,
+      "maxLevel": 41,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 56
+    },
+    {
+      "displayName": "Infielder Connor - Driftveil Drawbridge",
+      "usageKey": "57",
+      "detailFile": "trainers/068.json",
+      "leadLevel": 40,
+      "maxLevel": 41,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 57
+    },
+    {
+      "displayName": "Smasher Aspen3 - Driftveil Drawbridge",
+      "usageKey": "249",
+      "detailFile": "trainers/036.json",
+      "leadLevel": 40,
+      "maxLevel": 40,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 249
+    },
+    {
+      "displayName": "Worker Noel",
+      "usageKey": "324",
+      "detailFile": "trainers/038.json",
+      "leadLevel": 43,
+      "maxLevel": 43,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 324
+    },
+    {
+      "displayName": "Leader Clay",
+      "usageKey": "158",
+      "detailFile": "trainers/010.json",
+      "leadLevel": 44,
+      "maxLevel": 46,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 158
+    },
+    {
+      "displayName": "Team Plasma Grunt5",
+      "usageKey": "372",
+      "detailFile": "trainers/041.json",
+      "leadLevel": 46,
+      "maxLevel": 46,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 372
+    },
+    {
+      "displayName": "Team Plasma Grunt6",
+      "usageKey": "373",
+      "detailFile": "trainers/042.json",
+      "leadLevel": 46,
+      "maxLevel": 46,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 373
+    },
+    {
+      "displayName": "Team Plasma Colress4 - Chargestone Cave",
+      "usageKey": "739",
+      "detailFile": "trainers/087.json",
+      "leadLevel": 47,
+      "maxLevel": 48,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 739
+    },
+    {
+      "displayName": "Dancer Kidd - Chargestone Cave",
+      "usageKey": "743",
+      "detailFile": "trainers/089.json",
+      "leadLevel": 48,
+      "maxLevel": 48,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 743
+    },
+    {
+      "displayName": "Guitarist Anna - Chargestone Cave",
+      "usageKey": "537",
+      "detailFile": "trainers/056.json",
+      "leadLevel": 48,
+      "maxLevel": 48,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 537
+    },
+    {
+      "displayName": "Hiker Jameson - Chargestone Cave",
+      "usageKey": "741",
+      "detailFile": "trainers/088.json",
+      "leadLevel": 48,
+      "maxLevel": 49,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 741
+    },
+    {
+      "displayName": "Hiker Otto - Chargestone Cave",
+      "usageKey": "539",
+      "detailFile": "trainers/057.json",
+      "leadLevel": 48,
+      "maxLevel": 48,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 539
+    },
+    {
+      "displayName": "PkMn Ranger Briana - Chargestone Cave",
+      "usageKey": "543",
+      "detailFile": "trainers/060.json",
+      "leadLevel": 49,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 543
+    },
+    {
+      "displayName": "PkMn Ranger Louis - Chargestone Cave",
+      "usageKey": "544",
+      "detailFile": "trainers/061.json",
+      "leadLevel": 49,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 544
+    },
+    {
+      "displayName": "PkMn Trainer Bianca - Dreamyard",
+      "usageKey": "593",
+      "detailFile": "trainers/070.json",
+      "leadLevel": 49,
+      "maxLevel": 51,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 593
+    },
+    {
+      "displayName": "PkMn Trainer Rival14 - Starter 2",
+      "usageKey": "488",
+      "detailFile": "trainers/049.json",
+      "leadLevel": 49,
+      "maxLevel": 51,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 488
+    },
+    {
+      "displayName": "School Kid Dwight - Chargestone Cave",
+      "usageKey": "16",
+      "detailFile": "trainers/011.json",
+      "leadLevel": 49,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 16
+    },
+    {
+      "displayName": "Ace Trainer Belle - Mistralton Cave",
+      "usageKey": "683",
+      "detailFile": "trainers/078.json",
+      "leadLevel": 50,
+      "maxLevel": 51,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 683
+    },
+    {
+      "displayName": "Ace Trainer Vicki - Chargestone Cave",
+      "usageKey": "545",
+      "detailFile": "trainers/062.json",
+      "leadLevel": 50,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 545
+    },
+    {
+      "displayName": "Beauty Monika - Chargestone Cave",
+      "usageKey": "744",
+      "detailFile": "trainers/090.json",
+      "leadLevel": 50,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 744
+    },
+    {
+      "displayName": "Doctor Kit - Chargestone Cave",
+      "usageKey": "671",
+      "detailFile": "trainers/077.json",
+      "leadLevel": 50,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 671
+    },
+    {
+      "displayName": "Old Statue - Pinwheel Forest",
+      "usageKey": "634",
+      "detailFile": "trainers/072.json",
+      "leadLevel": 50,
+      "maxLevel": 51,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 634
+    },
+    {
+      "displayName": "Scientist Lumi - Chargestone Cave",
+      "usageKey": "542",
+      "detailFile": "trainers/059.json",
+      "leadLevel": 50,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 542
+    },
+    {
+      "displayName": "Scientist Ronald - Chargestone Cave",
+      "usageKey": "541",
+      "detailFile": "trainers/058.json",
+      "leadLevel": 50,
+      "maxLevel": 50,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 541
+    },
+    {
+      "displayName": "PkMn Trainer Rival13 - Clay Tunnel - Starter 1",
+      "usageKey": "487",
+      "detailFile": "trainers/048.json",
+      "leadLevel": 51,
+      "maxLevel": 51,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 487
+    },
+    {
+      "displayName": "Sinnoh Leader Volkner",
+      "usageKey": "493",
+      "detailFile": "trainers/050.json",
+      "leadLevel": 51,
+      "maxLevel": 52,
+      "isBoss": true,
+      "partySize": 5,
+      "trId": 493
+    },
+    {
+      "displayName": "Kanto Leader Sabrina - Celestial Tower",
+      "usageKey": "769",
+      "detailFile": "trainers/102.json",
+      "leadLevel": 52,
+      "maxLevel": 54,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 769
+    },
+    {
+      "displayName": "Pilot Chase - Mistralton City",
+      "usageKey": "152",
+      "detailFile": "trainers/004.json",
+      "leadLevel": 53,
+      "maxLevel": 53,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 152
+    },
+    {
+      "displayName": "Leader Skyla",
+      "usageKey": "155",
+      "detailFile": "trainers/007.json",
+      "leadLevel": 54,
+      "maxLevel": 55,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 155
+    },
+    {
+      "displayName": "Janitor Orville - Floccesy Ranch",
+      "usageKey": "Janitor Orville - Floccesy Ranch",
+      "detailFile": "trainers/105.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    }
+  ]
+}

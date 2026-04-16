@@ -7,6 +7,7 @@
 
   <!-- jQuery + Select2 -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
   <link type="text/css" rel="stylesheet" href="./css/usage.css?2f51c9699" />
@@ -17,7 +18,13 @@
 
 
   <script src="./js/calc_ui/utility_functions.js"></script>
+  <script>
+    window.DASHBOARD_ASSET_BASE = ".";
+    window.OFFLINE_ANALYTICS_BASE = "./data/analytics";
+  </script>
   <script src="./js/analytics/index.js?1"></script>
+  <script src="./js/analytics/offline_loader.js?1"></script>
+  <script src="./js/analytics/dashboard_game_config.js?1"></script>
   <script src="./js/analytics/dashboard.js?2"></script>
 
   <style>

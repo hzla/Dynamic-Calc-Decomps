@@ -1,0 +1,4562 @@
+{
+  "title": "Emerald Imperium 1.3",
+  "slug": "emerald-imperium-1-3",
+  "generatedAt": "2026-04-16T14:27:18.912190Z",
+  "historyLimit": 100,
+  "trainerCount": 386,
+  "overview": {
+    "runCount": 3284,
+    "importantTrainerBattles": [
+      {
+        "displayName": "Leader Byron",
+        "usageKey": "711",
+        "trId": 711,
+        "leadLevel": -1,
+        "maxLevel": 0,
+        "runCount": 32
+      },
+      {
+        "displayName": "Leader Candice",
+        "usageKey": "851",
+        "trId": 851,
+        "leadLevel": -1,
+        "maxLevel": -1,
+        "runCount": 181
+      },
+      {
+        "displayName": "Leader Fantina",
+        "usageKey": "336",
+        "trId": 336,
+        "leadLevel": -1,
+        "maxLevel": 0,
+        "runCount": 147
+      },
+      {
+        "displayName": "Leader Gardenia2",
+        "usageKey": "23",
+        "trId": 23,
+        "leadLevel": -1,
+        "maxLevel": 0,
+        "runCount": 10
+      },
+      {
+        "displayName": "Leader Maylene",
+        "usageKey": "566",
+        "trId": 566,
+        "leadLevel": -1,
+        "maxLevel": 0,
+        "runCount": 83
+      },
+      {
+        "displayName": "Leader Roark",
+        "usageKey": "710",
+        "trId": 710,
+        "leadLevel": -1,
+        "maxLevel": 0,
+        "runCount": 38
+      },
+      {
+        "displayName": "Leader Volkner",
+        "usageKey": "712",
+        "trId": 712,
+        "leadLevel": -1,
+        "maxLevel": 0,
+        "runCount": 26
+      },
+      {
+        "displayName": "Leader Wake",
+        "usageKey": "626",
+        "trId": 626,
+        "leadLevel": -1,
+        "maxLevel": 0,
+        "runCount": 48
+      },
+      {
+        "displayName": "Leader Roxanne",
+        "usageKey": "265",
+        "trId": 265,
+        "leadLevel": 14,
+        "maxLevel": 15,
+        "runCount": 186
+      },
+      {
+        "displayName": "Leader Roxanne5",
+        "usageKey": "773",
+        "trId": 773,
+        "leadLevel": 14,
+        "maxLevel": 15,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Brawly",
+        "usageKey": "266",
+        "trId": 266,
+        "leadLevel": 25,
+        "maxLevel": 25,
+        "runCount": 316
+      },
+      {
+        "displayName": "Leader Brawly2",
+        "usageKey": "774",
+        "trId": 774,
+        "leadLevel": 25,
+        "maxLevel": 25,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Brawly3",
+        "usageKey": "775",
+        "trId": 775,
+        "leadLevel": 25,
+        "maxLevel": 25,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Brawly5",
+        "usageKey": "777",
+        "trId": 777,
+        "leadLevel": 25,
+        "maxLevel": 25,
+        "runCount": 4
+      },
+      {
+        "displayName": "Leader Wattson",
+        "usageKey": "267",
+        "trId": 267,
+        "leadLevel": 34,
+        "maxLevel": 34,
+        "runCount": 211
+      },
+      {
+        "displayName": "Leader Wattson2",
+        "usageKey": "778",
+        "trId": 778,
+        "leadLevel": 34,
+        "maxLevel": 34,
+        "runCount": 1
+      },
+      {
+        "displayName": "Magma Leader Maxie Mt Chimney",
+        "usageKey": "602",
+        "trId": 602,
+        "leadLevel": 44,
+        "maxLevel": 44,
+        "runCount": 103
+      },
+      {
+        "displayName": "Leader Flannery",
+        "usageKey": "268",
+        "trId": 268,
+        "leadLevel": 47,
+        "maxLevel": 47,
+        "runCount": 140
+      },
+      {
+        "displayName": "Leader Norman",
+        "usageKey": "269",
+        "trId": 269,
+        "leadLevel": 59,
+        "maxLevel": 59,
+        "runCount": 87
+      },
+      {
+        "displayName": "Leader Norman2",
+        "usageKey": "786",
+        "trId": 786,
+        "leadLevel": 59,
+        "maxLevel": 59,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Norman5",
+        "usageKey": "789",
+        "trId": 789,
+        "leadLevel": 59,
+        "maxLevel": 59,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Winona",
+        "usageKey": "270",
+        "trId": 270,
+        "leadLevel": 68,
+        "maxLevel": 68,
+        "runCount": 64
+      },
+      {
+        "displayName": "Leader Winona3",
+        "usageKey": "791",
+        "trId": 791,
+        "leadLevel": 68,
+        "maxLevel": 68,
+        "runCount": 1
+      },
+      {
+        "displayName": "Aqua Leader Archie Hideout",
+        "usageKey": "30",
+        "trId": 30,
+        "leadLevel": 74,
+        "maxLevel": 74,
+        "runCount": 56
+      },
+      {
+        "displayName": "Leader Liza",
+        "usageKey": "569",
+        "trId": 569,
+        "leadLevel": 76,
+        "maxLevel": 76,
+        "runCount": 10
+      },
+      {
+        "displayName": "Leader Tate",
+        "usageKey": "568",
+        "trId": 568,
+        "leadLevel": 76,
+        "maxLevel": 76,
+        "runCount": 17
+      },
+      {
+        "displayName": "Aqua Leader Archie",
+        "usageKey": "34",
+        "trId": 34,
+        "leadLevel": 80,
+        "maxLevel": 80,
+        "runCount": 40
+      },
+      {
+        "displayName": "Magma Leader Maxie Magma Hideout",
+        "usageKey": "601",
+        "trId": 601,
+        "leadLevel": 80,
+        "maxLevel": 80,
+        "runCount": 50
+      },
+      {
+        "displayName": "Elite Four Drake",
+        "usageKey": "264",
+        "trId": 264,
+        "leadLevel": 82,
+        "maxLevel": 82,
+        "runCount": 51
+      },
+      {
+        "displayName": "Leader Juan",
+        "usageKey": "272",
+        "trId": 272,
+        "leadLevel": 82,
+        "maxLevel": 82,
+        "runCount": 45
+      },
+      {
+        "displayName": "Leader Juan2",
+        "usageKey": "798",
+        "trId": 798,
+        "leadLevel": 82,
+        "maxLevel": 82,
+        "runCount": 1
+      },
+      {
+        "displayName": "Champion Steven With Wallace",
+        "usageKey": "590",
+        "trId": 590,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 19
+      },
+      {
+        "displayName": "Champion Wallace With Steven",
+        "usageKey": "589",
+        "trId": 589,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 19
+      },
+      {
+        "displayName": "Elite Four Cynthia",
+        "usageKey": "860",
+        "trId": 860,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 47
+      },
+      {
+        "displayName": "Elite Four Glacia1",
+        "usageKey": "263",
+        "trId": 263,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 37
+      },
+      {
+        "displayName": "Elite Four Glacia2",
+        "usageKey": "588",
+        "trId": 588,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 39
+      },
+      {
+        "displayName": "Elite Four Phoebe1",
+        "usageKey": "262",
+        "trId": 262,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 45
+      },
+      {
+        "displayName": "Elite Four Phoebe2",
+        "usageKey": "587",
+        "trId": 587,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 41
+      },
+      {
+        "displayName": "Elite Four Sidney1",
+        "usageKey": "261",
+        "trId": 261,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 43
+      },
+      {
+        "displayName": "Elite Four Sidney2",
+        "usageKey": "586",
+        "trId": 586,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 38
+      },
+      {
+        "displayName": "Aqua Leader Archie",
+        "usageKey": "Aqua Leader Archie",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 41
+      },
+      {
+        "displayName": "Aqua Leader Archie Hideout",
+        "usageKey": "Aqua Leader Archie Hideout",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 63
+      },
+      {
+        "displayName": "Champion Steven With Wallace",
+        "usageKey": "Champion Steven With Wallace",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 10
+      },
+      {
+        "displayName": "Champion Wallace With Steven",
+        "usageKey": "Champion Wallace With Steven",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 13
+      },
+      {
+        "displayName": "Elite Four Cynthia",
+        "usageKey": "Elite Four Cynthia",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 42
+      },
+      {
+        "displayName": "Elite Four Drake",
+        "usageKey": "Elite Four Drake",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 43
+      },
+      {
+        "displayName": "Elite Four Glacia1",
+        "usageKey": "Elite Four Glacia1",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 37
+      },
+      {
+        "displayName": "Elite Four Glacia2",
+        "usageKey": "Elite Four Glacia2",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 37
+      },
+      {
+        "displayName": "Elite Four Phoebe1",
+        "usageKey": "Elite Four Phoebe1",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 34
+      },
+      {
+        "displayName": "Elite Four Phoebe2",
+        "usageKey": "Elite Four Phoebe2",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 30
+      },
+      {
+        "displayName": "Elite Four Sidney1",
+        "usageKey": "Elite Four Sidney1",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 35
+      },
+      {
+        "displayName": "Elite Four Sidney2",
+        "usageKey": "Elite Four Sidney2",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 25
+      },
+      {
+        "displayName": "Leader Brawly",
+        "usageKey": "Leader Brawly",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 344
+      },
+      {
+        "displayName": "Leader Brawly2",
+        "usageKey": "Leader Brawly2",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 6
+      },
+      {
+        "displayName": "Leader Brawly4",
+        "usageKey": "Leader Brawly4",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Brawly5",
+        "usageKey": "Leader Brawly5",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 5
+      },
+      {
+        "displayName": "Leader Byron",
+        "usageKey": "Leader Byron",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 28
+      },
+      {
+        "displayName": "Leader Candice",
+        "usageKey": "Leader Candice",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 212
+      },
+      {
+        "displayName": "Leader Fantina",
+        "usageKey": "Leader Fantina",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 147
+      },
+      {
+        "displayName": "Leader Flannery",
+        "usageKey": "Leader Flannery",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 182
+      },
+      {
+        "displayName": "Leader Flannery5",
+        "usageKey": "Leader Flannery5",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 2
+      },
+      {
+        "displayName": "Leader Gardenia",
+        "usageKey": "852",
+        "trId": 852,
+        "leadLevel": 0,
+        "maxLevel": 0,
+        "runCount": 43
+      },
+      {
+        "displayName": "Leader Gardenia",
+        "usageKey": "Leader Gardenia",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 48
+      },
+      {
+        "displayName": "Leader Gardenia2",
+        "usageKey": "Leader Gardenia2",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 12
+      },
+      {
+        "displayName": "Leader Juan",
+        "usageKey": "Leader Juan",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 33
+      },
+      {
+        "displayName": "Leader Juan5",
+        "usageKey": "Leader Juan5",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Liza",
+        "usageKey": "Leader Liza",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 6
+      },
+      {
+        "displayName": "Leader Maylene",
+        "usageKey": "Leader Maylene",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 85
+      },
+      {
+        "displayName": "Leader Norman",
+        "usageKey": "Leader Norman",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 119
+      },
+      {
+        "displayName": "Leader Norman2",
+        "usageKey": "Leader Norman2",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 2
+      },
+      {
+        "displayName": "Leader Norman5",
+        "usageKey": "Leader Norman5",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 2
+      },
+      {
+        "displayName": "Leader Roark",
+        "usageKey": "Leader Roark",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 31
+      },
+      {
+        "displayName": "Leader Roxanne",
+        "usageKey": "Leader Roxanne",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 203
+      },
+      {
+        "displayName": "Leader Roxanne2",
+        "usageKey": "Leader Roxanne2",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Roxanne5",
+        "usageKey": "Leader Roxanne5",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Tate",
+        "usageKey": "Leader Tate",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 11
+      },
+      {
+        "displayName": "Leader Volkner",
+        "usageKey": "Leader Volkner",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 14
+      },
+      {
+        "displayName": "Leader Wake",
+        "usageKey": "Leader Wake",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 51
+      },
+      {
+        "displayName": "Leader Wattson",
+        "usageKey": "Leader Wattson",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 257
+      },
+      {
+        "displayName": "Leader Wattson2",
+        "usageKey": "Leader Wattson2",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 3
+      },
+      {
+        "displayName": "Leader Wattson4",
+        "usageKey": "Leader Wattson4",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 1
+      },
+      {
+        "displayName": "Leader Wattson5",
+        "usageKey": "Leader Wattson5",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 2
+      },
+      {
+        "displayName": "Leader Winona",
+        "usageKey": "Leader Winona",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 74
+      },
+      {
+        "displayName": "Magma Leader Maxie Magma Hideout",
+        "usageKey": "Magma Leader Maxie Magma Hideout",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 50
+      },
+      {
+        "displayName": "Magma Leader Maxie Mt Chimney",
+        "usageKey": "Magma Leader Maxie Mt Chimney",
+        "trId": null,
+        "leadLevel": null,
+        "maxLevel": null,
+        "runCount": 156
+      }
+    ],
+    "starterGiftGroups": [],
+    "runDepth": {
+      "available": true,
+      "averageStep": 43.1,
+      "averagePct": 31.0,
+      "maxStep": 139,
+      "runsCounted": 3267
+    }
+  },
+  "trainers": [
+    {
+      "displayName": "Pkmn Breeder Ezekiel",
+      "usageKey": "538",
+      "detailFile": "trainers/081.json",
+      "leadLevel": -4,
+      "maxLevel": -4,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 538
+    },
+    {
+      "displayName": "Pkmn Breeder Lydia",
+      "usageKey": "545",
+      "detailFile": "trainers/082.json",
+      "leadLevel": -4,
+      "maxLevel": -4,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 545
+    },
+    {
+      "displayName": "Guitarist Joseph",
+      "usageKey": "700",
+      "detailFile": "trainers/126.json",
+      "leadLevel": -3,
+      "maxLevel": -3,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 700
+    },
+    {
+      "displayName": "Pokefan Isabel",
+      "usageKey": "302",
+      "detailFile": "trainers/041.json",
+      "leadLevel": -3,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 302
+    },
+    {
+      "displayName": "Rival Dawn Route104",
+      "usageKey": "855",
+      "detailFile": "trainers/166.json",
+      "leadLevel": -3,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 855
+    },
+    {
+      "displayName": "Triathlete Alyssa",
+      "usageKey": "701",
+      "detailFile": "trainers/127.json",
+      "leadLevel": -3,
+      "maxLevel": -3,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 701
+    },
+    {
+      "displayName": "Beauty Jessica",
+      "usageKey": "127",
+      "detailFile": "trainers/003.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 127
+    },
+    {
+      "displayName": "Black Belt Daisuke",
+      "usageKey": "189",
+      "detailFile": "trainers/009.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 189
+    },
+    {
+      "displayName": "Bug Maniac Cale",
+      "usageKey": "764",
+      "detailFile": "trainers/149.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 764
+    },
+    {
+      "displayName": "Camper Rusty",
+      "usageKey": "215",
+      "detailFile": "trainers/015.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 215
+    },
+    {
+      "displayName": "Collector Edwin",
+      "usageKey": "512",
+      "detailFile": "trainers/066.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 512
+    },
+    {
+      "displayName": "Collector Edwin2",
+      "usageKey": "515",
+      "detailFile": "trainers/067.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 515
+    },
+    {
+      "displayName": "Fisherman Claude",
+      "usageKey": "338",
+      "detailFile": "trainers/047.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 338
+    },
+    {
+      "displayName": "Fisherman Kai",
+      "usageKey": "713",
+      "detailFile": "trainers/133.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 713
+    },
+    {
+      "displayName": "Hex Maniac Tammy",
+      "usageKey": "107",
+      "detailFile": "trainers/002.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 107
+    },
+    {
+      "displayName": "Hiker Alan",
+      "usageKey": "630",
+      "detailFile": "trainers/109.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 630
+    },
+    {
+      "displayName": "Hiker Lucas",
+      "usageKey": "629",
+      "detailFile": "trainers/108.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 629
+    },
+    {
+      "displayName": "Hiker Trent",
+      "usageKey": "627",
+      "detailFile": "trainers/107.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 627
+    },
+    {
+      "displayName": "Lass Robin",
+      "usageKey": "612",
+      "detailFile": "trainers/105.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 612
+    },
+    {
+      "displayName": "Lass Sally",
+      "usageKey": "611",
+      "detailFile": "trainers/104.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 611
+    },
+    {
+      "displayName": "Parasol Lady Madeline",
+      "usageKey": "434",
+      "detailFile": "trainers/056.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 434
+    },
+    {
+      "displayName": "Parasol Lady Madeline2",
+      "usageKey": "437",
+      "detailFile": "trainers/057.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 437
+    },
+    {
+      "displayName": "Picnicker Martha",
+      "usageKey": "473",
+      "detailFile": "trainers/063.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 473
+    },
+    {
+      "displayName": "Picnicker Rachel",
+      "usageKey": "275",
+      "detailFile": "trainers/034.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 275
+    },
+    {
+      "displayName": "Pokefan Kaleb",
+      "usageKey": "699",
+      "detailFile": "trainers/124.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 699
+    },
+    {
+      "displayName": "Psychic Edward",
+      "usageKey": "232",
+      "detailFile": "trainers/018.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 232
+    },
+    {
+      "displayName": "Rival Brendan Rustboro Mudkip",
+      "usageKey": "593",
+      "detailFile": "trainers/095.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 593
+    },
+    {
+      "displayName": "Rival Brendan Rustboro Torchic",
+      "usageKey": "599",
+      "detailFile": "trainers/098.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 599
+    },
+    {
+      "displayName": "Rival Brendan Rustboro Treecko",
+      "usageKey": "592",
+      "detailFile": "trainers/094.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 592
+    },
+    {
+      "displayName": "Rival Dawn Route111",
+      "usageKey": "744",
+      "detailFile": "trainers/144.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 744
+    },
+    {
+      "displayName": "Rival May Rustboro Mudkip",
+      "usageKey": "600",
+      "detailFile": "trainers/100.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 600
+    },
+    {
+      "displayName": "Rival May Rustboro Torchic",
+      "usageKey": "769",
+      "detailFile": "trainers/151.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 769
+    },
+    {
+      "displayName": "Rival May Rustboro Treecko",
+      "usageKey": "768",
+      "detailFile": "trainers/150.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 768
+    },
+    {
+      "displayName": "Ruin Maniac Dusty",
+      "usageKey": "44",
+      "detailFile": "trainers/058.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 44
+    },
+    {
+      "displayName": "School Kid Georgia",
+      "usageKey": "281",
+      "detailFile": "trainers/035.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 281
+    },
+    {
+      "displayName": "School Kid Ted",
+      "usageKey": "274",
+      "detailFile": "trainers/033.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 274
+    },
+    {
+      "displayName": "Team Aqua Grunt Petalburg Woods",
+      "usageKey": "10",
+      "detailFile": "trainers/001.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 10
+    },
+    {
+      "displayName": "Team Aqua Grunt Rusturf Tunnel",
+      "usageKey": "16",
+      "detailFile": "trainers/007.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 16
+    },
+    {
+      "displayName": "Twins Tori And Tia",
+      "usageKey": "677",
+      "detailFile": "trainers/123.json",
+      "leadLevel": -2,
+      "maxLevel": -2,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 677
+    },
+    {
+      "displayName": "Winstrate Vivi",
+      "usageKey": "606",
+      "detailFile": "trainers/103.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 606
+    },
+    {
+      "displayName": "Youngster Eddie",
+      "usageKey": "332",
+      "detailFile": "trainers/045.json",
+      "leadLevel": -2,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 332
+    },
+    {
+      "displayName": "Battle Girl Jenny",
+      "usageKey": "449",
+      "detailFile": "trainers/059.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 449
+    },
+    {
+      "displayName": "Beauty Johanna",
+      "usageKey": "647",
+      "detailFile": "trainers/110.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 647
+    },
+    {
+      "displayName": "Beauty Johanna 3 Badges",
+      "usageKey": "647",
+      "detailFile": "trainers/110.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 647
+    },
+    {
+      "displayName": "Camper Branden",
+      "usageKey": "745",
+      "detailFile": "trainers/145.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 745
+    },
+    {
+      "displayName": "Camper Drew",
+      "usageKey": "211",
+      "detailFile": "trainers/014.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 211
+    },
+    {
+      "displayName": "Gentleman Walter",
+      "usageKey": "254",
+      "detailFile": "trainers/021.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 254
+    },
+    {
+      "displayName": "Guitarist Brian",
+      "usageKey": "65",
+      "detailFile": "trainers/111.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 65
+    },
+    {
+      "displayName": "Guitarist Brian 2 Badges",
+      "usageKey": "65",
+      "detailFile": "trainers/111.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 65
+    },
+    {
+      "displayName": "Guitarist Brian 3 Badges",
+      "usageKey": "65",
+      "detailFile": "trainers/111.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 65
+    },
+    {
+      "displayName": "Kindler Spencer",
+      "usageKey": "159",
+      "detailFile": "trainers/006.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 159
+    },
+    {
+      "displayName": "Leader Byron",
+      "usageKey": "711",
+      "detailFile": "trainers/131.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 711
+    },
+    {
+      "displayName": "Leader Candice",
+      "usageKey": "851",
+      "detailFile": "trainers/164.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": true,
+      "partySize": 4,
+      "trId": 851
+    },
+    {
+      "displayName": "Leader Fantina",
+      "usageKey": "336",
+      "detailFile": "trainers/046.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 336
+    },
+    {
+      "displayName": "Leader Gardenia2",
+      "usageKey": "23",
+      "detailFile": "trainers/017.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 23
+    },
+    {
+      "displayName": "Leader Maylene",
+      "usageKey": "566",
+      "detailFile": "trainers/084.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 566
+    },
+    {
+      "displayName": "Leader Roark",
+      "usageKey": "710",
+      "detailFile": "trainers/130.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 710
+    },
+    {
+      "displayName": "Leader Volkner",
+      "usageKey": "712",
+      "detailFile": "trainers/132.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 712
+    },
+    {
+      "displayName": "Leader Wake",
+      "usageKey": "626",
+      "detailFile": "trainers/106.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 626
+    },
+    {
+      "displayName": "Picnicker Celia",
+      "usageKey": "743",
+      "detailFile": "trainers/143.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 743
+    },
+    {
+      "displayName": "Picnicker Charlotte",
+      "usageKey": "714",
+      "detailFile": "trainers/134.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 714
+    },
+    {
+      "displayName": "Pokefan Vanessa",
+      "usageKey": "300",
+      "detailFile": "trainers/040.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 300
+    },
+    {
+      "displayName": "Rival Brendan Route 110 Mudkip",
+      "usageKey": "521",
+      "detailFile": "trainers/069.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 521
+    },
+    {
+      "displayName": "Rival Brendan Route 110 Torchic",
+      "usageKey": "527",
+      "detailFile": "trainers/073.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 527
+    },
+    {
+      "displayName": "Rival Brendan Route 110 Treecko",
+      "usageKey": "524",
+      "detailFile": "trainers/071.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 524
+    },
+    {
+      "displayName": "Rival May Route 110 Mudkip",
+      "usageKey": "530",
+      "detailFile": "trainers/075.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 530
+    },
+    {
+      "displayName": "Rival May Route 110 Torchic",
+      "usageKey": "536",
+      "detailFile": "trainers/079.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 536
+    },
+    {
+      "displayName": "Rival May Route 110 Treecko",
+      "usageKey": "533",
+      "detailFile": "trainers/077.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 533
+    },
+    {
+      "displayName": "Rival Ursula",
+      "usageKey": "856",
+      "detailFile": "trainers/167.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 856
+    },
+    {
+      "displayName": "Rival Wally Route110",
+      "usageKey": "658",
+      "detailFile": "trainers/114.json",
+      "leadLevel": -1,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 658
+    },
+    {
+      "displayName": "Sailor Dwayne",
+      "usageKey": "493",
+      "detailFile": "trainers/065.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 493
+    },
+    {
+      "displayName": "Sailor Dwayne 3 Badges",
+      "usageKey": "493",
+      "detailFile": "trainers/065.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 493
+    },
+    {
+      "displayName": "Triathlete Declan",
+      "usageKey": "15",
+      "detailFile": "trainers/005.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 15
+    },
+    {
+      "displayName": "Triathlete Grace",
+      "usageKey": "450",
+      "detailFile": "trainers/061.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 450
+    },
+    {
+      "displayName": "Winstrate Vicky",
+      "usageKey": "312",
+      "detailFile": "trainers/042.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 312
+    },
+    {
+      "displayName": "Winstrate Victor",
+      "usageKey": "292",
+      "detailFile": "trainers/037.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 292
+    },
+    {
+      "displayName": "Winstrate Victoria",
+      "usageKey": "299",
+      "detailFile": "trainers/038.json",
+      "leadLevel": -1,
+      "maxLevel": -1,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 299
+    },
+    {
+      "displayName": "Beauty Johanna 4 Badges",
+      "usageKey": "647",
+      "detailFile": "trainers/110.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 647
+    },
+    {
+      "displayName": "Beauty Johanna 5 Badges",
+      "usageKey": "647",
+      "detailFile": "trainers/110.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 647
+    },
+    {
+      "displayName": "Beauty Johanna 6 Badges",
+      "usageKey": "647",
+      "detailFile": "trainers/110.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 647
+    },
+    {
+      "displayName": "Beauty Johanna 7 Badges",
+      "usageKey": "647",
+      "detailFile": "trainers/110.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 647
+    },
+    {
+      "displayName": "Guitarist Brian 4 Badges",
+      "usageKey": "65",
+      "detailFile": "trainers/111.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 65
+    },
+    {
+      "displayName": "Guitarist Brian 5 Badges",
+      "usageKey": "65",
+      "detailFile": "trainers/111.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 65
+    },
+    {
+      "displayName": "Guitarist Brian 6 Badges",
+      "usageKey": "65",
+      "detailFile": "trainers/111.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 65
+    },
+    {
+      "displayName": "Guitarist Brian 7 Badges",
+      "usageKey": "73",
+      "detailFile": "trainers/140.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 73
+    },
+    {
+      "displayName": "Leader Gardenia",
+      "usageKey": "852",
+      "detailFile": "trainers/165.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": true,
+      "partySize": 4,
+      "trId": 852
+    },
+    {
+      "displayName": "Rival Befools",
+      "usageKey": "659",
+      "detailFile": "trainers/115.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 659
+    },
+    {
+      "displayName": "Rival Burak",
+      "usageKey": "74",
+      "detailFile": "trainers/142.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 74
+    },
+    {
+      "displayName": "Rival Cap",
+      "usageKey": "857",
+      "detailFile": "trainers/168.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 857
+    },
+    {
+      "displayName": "Rival Danni",
+      "usageKey": "25",
+      "detailFile": "trainers/020.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 25
+    },
+    {
+      "displayName": "Rival Dollamike",
+      "usageKey": "24",
+      "detailFile": "trainers/019.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 24
+    },
+    {
+      "displayName": "Rival Iriv24",
+      "usageKey": "227",
+      "detailFile": "trainers/016.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 227
+    },
+    {
+      "displayName": "Rival Masta Janes",
+      "usageKey": "45",
+      "detailFile": "trainers/060.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 45
+    },
+    {
+      "displayName": "Rival Master Poucine",
+      "usageKey": "71",
+      "detailFile": "trainers/129.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 71
+    },
+    {
+      "displayName": "Rival Natn",
+      "usageKey": "660",
+      "detailFile": "trainers/116.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 660
+    },
+    {
+      "displayName": "Rival Oblivion Wing",
+      "usageKey": "72",
+      "detailFile": "trainers/136.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 72
+    },
+    {
+      "displayName": "Rival Sunbird",
+      "usageKey": "726",
+      "detailFile": "trainers/137.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 726
+    },
+    {
+      "displayName": "Rival Suneal",
+      "usageKey": "727",
+      "detailFile": "trainers/138.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 727
+    },
+    {
+      "displayName": "Rival X",
+      "usageKey": "755",
+      "detailFile": "trainers/147.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 755
+    },
+    {
+      "displayName": "Sailor Dwayne 4 Badges",
+      "usageKey": "493",
+      "detailFile": "trainers/065.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 493
+    },
+    {
+      "displayName": "Sailor Dwayne 5 Badges",
+      "usageKey": "493",
+      "detailFile": "trainers/065.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 493
+    },
+    {
+      "displayName": "Sailor Dwayne 6 Badges",
+      "usageKey": "493",
+      "detailFile": "trainers/065.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 493
+    },
+    {
+      "displayName": "Sailor Dwayne 7 Badges",
+      "usageKey": "493",
+      "detailFile": "trainers/065.json",
+      "leadLevel": 0,
+      "maxLevel": 0,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 493
+    },
+    {
+      "displayName": "Hiker Marc",
+      "usageKey": "571",
+      "detailFile": "trainers/087.json",
+      "leadLevel": 10,
+      "maxLevel": 11,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 571
+    },
+    {
+      "displayName": "Leader Roxanne",
+      "usageKey": "265",
+      "detailFile": "trainers/026.json",
+      "leadLevel": 14,
+      "maxLevel": 15,
+      "isBoss": true,
+      "partySize": 4,
+      "trId": 265
+    },
+    {
+      "displayName": "Leader Roxanne5",
+      "usageKey": "773",
+      "detailFile": "trainers/152.json",
+      "leadLevel": 14,
+      "maxLevel": 15,
+      "isBoss": true,
+      "partySize": 4,
+      "trId": 773
+    },
+    {
+      "displayName": "Aroma Lady Daisy",
+      "usageKey": "36",
+      "detailFile": "trainers/050.json",
+      "leadLevel": 24,
+      "maxLevel": 24,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 36
+    },
+    {
+      "displayName": "Fisherman Dale",
+      "usageKey": "341",
+      "detailFile": "trainers/049.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 341
+    },
+    {
+      "displayName": "Leader Brawly",
+      "usageKey": "266",
+      "detailFile": "trainers/027.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": true,
+      "partySize": 5,
+      "trId": 266
+    },
+    {
+      "displayName": "Leader Brawly2",
+      "usageKey": "774",
+      "detailFile": "trainers/153.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": true,
+      "partySize": 5,
+      "trId": 774
+    },
+    {
+      "displayName": "Leader Brawly3",
+      "usageKey": "775",
+      "detailFile": "trainers/154.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": true,
+      "partySize": 5,
+      "trId": 775
+    },
+    {
+      "displayName": "Leader Brawly5",
+      "usageKey": "777",
+      "detailFile": "trainers/155.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": true,
+      "partySize": 5,
+      "trId": 777
+    },
+    {
+      "displayName": "Twins Amy And Liv",
+      "usageKey": "481",
+      "detailFile": "trainers/064.json",
+      "leadLevel": 25,
+      "maxLevel": 25,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 481
+    },
+    {
+      "displayName": "Sr And Jr Anna And Meg",
+      "usageKey": "287",
+      "detailFile": "trainers/036.json",
+      "leadLevel": 26,
+      "maxLevel": 26,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 287
+    },
+    {
+      "displayName": "Guitarist Shawn",
+      "usageKey": "194",
+      "detailFile": "trainers/010.json",
+      "leadLevel": 27,
+      "maxLevel": 27,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 194
+    },
+    {
+      "displayName": "Triathlete Dylan",
+      "usageKey": "364",
+      "detailFile": "trainers/051.json",
+      "leadLevel": 27,
+      "maxLevel": 27,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 364
+    },
+    {
+      "displayName": "Bug Maniac Angelo",
+      "usageKey": "802",
+      "detailFile": "trainers/162.json",
+      "leadLevel": 28,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 802
+    },
+    {
+      "displayName": "Guitarist Dalton",
+      "usageKey": "196",
+      "detailFile": "trainers/011.json",
+      "leadLevel": 28,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 196
+    },
+    {
+      "displayName": "Youngster Deandre",
+      "usageKey": "715",
+      "detailFile": "trainers/135.json",
+      "leadLevel": 28,
+      "maxLevel": 28,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 715
+    },
+    {
+      "displayName": "Team Aqua Grunt Museum",
+      "usageKey": "20",
+      "detailFile": "trainers/012.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 20
+    },
+    {
+      "displayName": "Team Aqua Grunt Museum2",
+      "usageKey": "21",
+      "detailFile": "trainers/013.json",
+      "leadLevel": 30,
+      "maxLevel": 30,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 21
+    },
+    {
+      "displayName": "Picnicker Bianca",
+      "usageKey": "706",
+      "detailFile": "trainers/128.json",
+      "leadLevel": 31,
+      "maxLevel": 32,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 706
+    },
+    {
+      "displayName": "Rival Wally Mauville",
+      "usageKey": "656",
+      "detailFile": "trainers/112.json",
+      "leadLevel": 32,
+      "maxLevel": 32,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 656
+    },
+    {
+      "displayName": "Leader Wattson",
+      "usageKey": "267",
+      "detailFile": "trainers/028.json",
+      "leadLevel": 34,
+      "maxLevel": 34,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 267
+    },
+    {
+      "displayName": "Leader Wattson2",
+      "usageKey": "778",
+      "detailFile": "trainers/156.json",
+      "leadLevel": 34,
+      "maxLevel": 34,
+      "isBoss": true,
+      "partySize": 6,
+      "trId": 778
+    },
+    {
+      "displayName": "Ninja Boy Lung",
+      "usageKey": "420",
+      "detailFile": "trainers/055.json",
+      "leadLevel": 34,
+      "maxLevel": 35,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 420
+    },
+    {
+      "displayName": "Kindler Bryant",
+      "usageKey": "746",
+      "detailFile": "trainers/146.json",
+      "leadLevel": 35,
+      "maxLevel": 36,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 746
+    },
+    {
+      "displayName": "Team Magma Grunt Mt Chimney2",
+      "usageKey": "579",
+      "detailFile": "trainers/088.json",
+      "leadLevel": 42,
+      "maxLevel": 43,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 579
+    },
+    {
+      "displayName": "Magma Admin Courtney Mt Chimney",
+      "usageKey": "146",
+      "detailFile": "trainers/004.json",
+      "leadLevel": 43,
+      "maxLevel": 43,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 146
+    },
+    {
+      "displayName": "Magma Admin Tabitha Mt Chimney",
+      "usageKey": "597",
+      "detailFile": "trainers/097.json",
+      "leadLevel": 43,
+      "maxLevel": 44,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 597
+    },
+    {
+      "displayName": "Magma Leader Maxie Mt Chimney",
+      "usageKey": "602",
+      "detailFile": "trainers/102.json",
+      "leadLevel": 44,
+      "maxLevel": 44,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 602
+    },
+    {
+      "displayName": "Leader Flannery",
+      "usageKey": "268",
+      "detailFile": "trainers/029.json",
+      "leadLevel": 47,
+      "maxLevel": 47,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 268
+    },
+    {
+      "displayName": "Picnicker Heidi",
+      "usageKey": "469",
+      "detailFile": "trainers/062.json",
+      "leadLevel": 55,
+      "maxLevel": 55,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 469
+    },
+    {
+      "displayName": "Leader Norman",
+      "usageKey": "269",
+      "detailFile": "trainers/030.json",
+      "leadLevel": 59,
+      "maxLevel": 59,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 269
+    },
+    {
+      "displayName": "Leader Norman2",
+      "usageKey": "786",
+      "detailFile": "trainers/157.json",
+      "leadLevel": 59,
+      "maxLevel": 59,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 786
+    },
+    {
+      "displayName": "Leader Norman5",
+      "usageKey": "789",
+      "detailFile": "trainers/158.json",
+      "leadLevel": 59,
+      "maxLevel": 59,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 789
+    },
+    {
+      "displayName": "Battle Girl Callie",
+      "usageKey": "763",
+      "detailFile": "trainers/148.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 763
+    },
+    {
+      "displayName": "Team Aqua Grunt Weather Inst5",
+      "usageKey": "596",
+      "detailFile": "trainers/096.json",
+      "leadLevel": 63,
+      "maxLevel": 63,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 596
+    },
+    {
+      "displayName": "Aqua Admin Matt Weather Inst",
+      "usageKey": "18",
+      "detailFile": "trainers/008.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 4,
+      "trId": 18
+    },
+    {
+      "displayName": "Aqua Admin Shelly Weather Institute",
+      "usageKey": "32",
+      "detailFile": "trainers/043.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 32
+    },
+    {
+      "displayName": "Rival Brendan Route 119 Mudkip",
+      "usageKey": "522",
+      "detailFile": "trainers/070.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 522
+    },
+    {
+      "displayName": "Rival Brendan Route 119 Torchic",
+      "usageKey": "528",
+      "detailFile": "trainers/074.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 528
+    },
+    {
+      "displayName": "Rival Brendan Route 119 Treecko",
+      "usageKey": "525",
+      "detailFile": "trainers/072.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 525
+    },
+    {
+      "displayName": "Rival May Route 119 Mudkip",
+      "usageKey": "531",
+      "detailFile": "trainers/076.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 531
+    },
+    {
+      "displayName": "Rival May Route 119 Torchic",
+      "usageKey": "537",
+      "detailFile": "trainers/080.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 537
+    },
+    {
+      "displayName": "Rival May Route 119 Treecko",
+      "usageKey": "534",
+      "detailFile": "trainers/078.json",
+      "leadLevel": 64,
+      "maxLevel": 64,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 534
+    },
+    {
+      "displayName": "Leader Winona",
+      "usageKey": "270",
+      "detailFile": "trainers/031.json",
+      "leadLevel": 68,
+      "maxLevel": 68,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 270
+    },
+    {
+      "displayName": "Leader Winona3",
+      "usageKey": "791",
+      "detailFile": "trainers/159.json",
+      "leadLevel": 68,
+      "maxLevel": 68,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 791
+    },
+    {
+      "displayName": "Triathlete Chase",
+      "usageKey": "378",
+      "detailFile": "trainers/052.json",
+      "leadLevel": 68,
+      "maxLevel": 68,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 378
+    },
+    {
+      "displayName": "Team Aqua Grunt Seafloor Cavern",
+      "usageKey": "6",
+      "detailFile": "trainers/099.json",
+      "leadLevel": 70,
+      "maxLevel": 70,
+      "isBoss": false,
+      "partySize": 3,
+      "trId": 6
+    },
+    {
+      "displayName": "Dragon Tamer Nicolas",
+      "usageKey": "392",
+      "detailFile": "trainers/054.json",
+      "leadLevel": 71,
+      "maxLevel": 71,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 392
+    },
+    {
+      "displayName": "Rival Dawn Lilycove",
+      "usageKey": "858",
+      "detailFile": "trainers/169.json",
+      "leadLevel": 71,
+      "maxLevel": 71,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 858
+    },
+    {
+      "displayName": "Aqua Leader Archie Hideout",
+      "usageKey": "30",
+      "detailFile": "trainers/039.json",
+      "leadLevel": 74,
+      "maxLevel": 74,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 30
+    },
+    {
+      "displayName": "Lass Halle",
+      "usageKey": "546",
+      "detailFile": "trainers/083.json",
+      "leadLevel": 75,
+      "maxLevel": 75,
+      "isBoss": false,
+      "partySize": 2,
+      "trId": 546
+    },
+    {
+      "displayName": "Leader Liza",
+      "usageKey": "569",
+      "detailFile": "trainers/086.json",
+      "leadLevel": 76,
+      "maxLevel": 76,
+      "isBoss": true,
+      "partySize": 4,
+      "trId": 569
+    },
+    {
+      "displayName": "Leader Tate",
+      "usageKey": "568",
+      "detailFile": "trainers/085.json",
+      "leadLevel": 76,
+      "maxLevel": 76,
+      "isBoss": true,
+      "partySize": 4,
+      "trId": 568
+    },
+    {
+      "displayName": "Aqua Admin Matt Seafloor Cavern",
+      "usageKey": "7",
+      "detailFile": "trainers/125.json",
+      "leadLevel": 80,
+      "maxLevel": 80,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 7
+    },
+    {
+      "displayName": "Aqua Admin Shelly Seafloor Cavern",
+      "usageKey": "33",
+      "detailFile": "trainers/044.json",
+      "leadLevel": 80,
+      "maxLevel": 80,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 33
+    },
+    {
+      "displayName": "Aqua Leader Archie",
+      "usageKey": "34",
+      "detailFile": "trainers/048.json",
+      "leadLevel": 80,
+      "maxLevel": 80,
+      "isBoss": true,
+      "partySize": 8,
+      "trId": 34
+    },
+    {
+      "displayName": "Magma Admin Courtney",
+      "usageKey": "728",
+      "detailFile": "trainers/139.json",
+      "leadLevel": 80,
+      "maxLevel": 80,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 728
+    },
+    {
+      "displayName": "Magma Admin Tabitha Magma Hideout",
+      "usageKey": "732",
+      "detailFile": "trainers/141.json",
+      "leadLevel": 80,
+      "maxLevel": 80,
+      "isBoss": false,
+      "partySize": 5,
+      "trId": 732
+    },
+    {
+      "displayName": "Magma Leader Maxie Magma Hideout",
+      "usageKey": "601",
+      "detailFile": "trainers/101.json",
+      "leadLevel": 80,
+      "maxLevel": 80,
+      "isBoss": true,
+      "partySize": 8,
+      "trId": 601
+    },
+    {
+      "displayName": "Elite Four Drake",
+      "usageKey": "264",
+      "detailFile": "trainers/025.json",
+      "leadLevel": 82,
+      "maxLevel": 82,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 264
+    },
+    {
+      "displayName": "Leader Juan",
+      "usageKey": "272",
+      "detailFile": "trainers/032.json",
+      "leadLevel": 82,
+      "maxLevel": 82,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 272
+    },
+    {
+      "displayName": "Leader Juan2",
+      "usageKey": "798",
+      "detailFile": "trainers/160.json",
+      "leadLevel": 82,
+      "maxLevel": 82,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 798
+    },
+    {
+      "displayName": "Cooltrainer Albert",
+      "usageKey": "80",
+      "detailFile": "trainers/161.json",
+      "leadLevel": 83,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 80
+    },
+    {
+      "displayName": "Cooltrainer Caroline",
+      "usageKey": "99",
+      "detailFile": "trainers/174.json",
+      "leadLevel": 83,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 99
+    },
+    {
+      "displayName": "Cooltrainer Felix",
+      "usageKey": "38",
+      "detailFile": "trainers/053.json",
+      "leadLevel": 83,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 38
+    },
+    {
+      "displayName": "Cooltrainer Hope",
+      "usageKey": "96",
+      "detailFile": "trainers/172.json",
+      "leadLevel": 83,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 96
+    },
+    {
+      "displayName": "Cooltrainer Michelle",
+      "usageKey": "98",
+      "detailFile": "trainers/173.json",
+      "leadLevel": 83,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 98
+    },
+    {
+      "displayName": "Cooltrainer Samuel",
+      "usageKey": "81",
+      "detailFile": "trainers/163.json",
+      "leadLevel": 83,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 6,
+      "trId": 81
+    },
+    {
+      "displayName": "Rival Brendan Evergrande Mudkip",
+      "usageKey": "661",
+      "detailFile": "trainers/117.json",
+      "leadLevel": 84,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 661
+    },
+    {
+      "displayName": "Rival Brendan Evergrande Torchic",
+      "usageKey": "663",
+      "detailFile": "trainers/119.json",
+      "leadLevel": 84,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 663
+    },
+    {
+      "displayName": "Rival Brendan Evergrande Treecko",
+      "usageKey": "662",
+      "detailFile": "trainers/118.json",
+      "leadLevel": 84,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 662
+    },
+    {
+      "displayName": "Rival Dawn Evergrande",
+      "usageKey": "859",
+      "detailFile": "trainers/170.json",
+      "leadLevel": 84,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 859
+    },
+    {
+      "displayName": "Rival May Evergrande Mudkip",
+      "usageKey": "664",
+      "detailFile": "trainers/120.json",
+      "leadLevel": 84,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 664
+    },
+    {
+      "displayName": "Rival May Evergrande Torchic",
+      "usageKey": "666",
+      "detailFile": "trainers/122.json",
+      "leadLevel": 84,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 666
+    },
+    {
+      "displayName": "Rival May Evergrande Treecko",
+      "usageKey": "665",
+      "detailFile": "trainers/121.json",
+      "leadLevel": 84,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 665
+    },
+    {
+      "displayName": "Rival Wally Vr",
+      "usageKey": "519",
+      "detailFile": "trainers/068.json",
+      "leadLevel": 84,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 519
+    },
+    {
+      "displayName": "Rival Wally Vr2",
+      "usageKey": "657",
+      "detailFile": "trainers/113.json",
+      "leadLevel": 84,
+      "maxLevel": 84,
+      "isBoss": false,
+      "partySize": 7,
+      "trId": 657
+    },
+    {
+      "displayName": "Champion Steven With Wallace",
+      "usageKey": "590",
+      "detailFile": "trainers/093.json",
+      "leadLevel": 85,
+      "maxLevel": 85,
+      "isBoss": true,
+      "partySize": 5,
+      "trId": 590
+    },
+    {
+      "displayName": "Champion Wallace With Steven",
+      "usageKey": "589",
+      "detailFile": "trainers/092.json",
+      "leadLevel": 85,
+      "maxLevel": 85,
+      "isBoss": true,
+      "partySize": 5,
+      "trId": 589
+    },
+    {
+      "displayName": "Elite Four Cynthia",
+      "usageKey": "860",
+      "detailFile": "trainers/171.json",
+      "leadLevel": 85,
+      "maxLevel": 85,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 860
+    },
+    {
+      "displayName": "Elite Four Glacia1",
+      "usageKey": "263",
+      "detailFile": "trainers/024.json",
+      "leadLevel": 85,
+      "maxLevel": 85,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 263
+    },
+    {
+      "displayName": "Elite Four Glacia2",
+      "usageKey": "588",
+      "detailFile": "trainers/091.json",
+      "leadLevel": 85,
+      "maxLevel": 85,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 588
+    },
+    {
+      "displayName": "Elite Four Phoebe1",
+      "usageKey": "262",
+      "detailFile": "trainers/023.json",
+      "leadLevel": 85,
+      "maxLevel": 85,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 262
+    },
+    {
+      "displayName": "Elite Four Phoebe2",
+      "usageKey": "587",
+      "detailFile": "trainers/090.json",
+      "leadLevel": 85,
+      "maxLevel": 85,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 587
+    },
+    {
+      "displayName": "Elite Four Sidney1",
+      "usageKey": "261",
+      "detailFile": "trainers/022.json",
+      "leadLevel": 85,
+      "maxLevel": 85,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 261
+    },
+    {
+      "displayName": "Elite Four Sidney2",
+      "usageKey": "586",
+      "detailFile": "trainers/089.json",
+      "leadLevel": 85,
+      "maxLevel": 85,
+      "isBoss": true,
+      "partySize": 7,
+      "trId": 586
+    },
+    {
+      "displayName": "Aqua Admin Matt Seafloor Cavern",
+      "usageKey": "Aqua Admin Matt Seafloor Cavern",
+      "detailFile": "trainers/175.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Aqua Admin Matt Weather Inst",
+      "usageKey": "Aqua Admin Matt Weather Inst",
+      "detailFile": "trainers/176.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Aqua Admin Shelly Seafloor Cavern",
+      "usageKey": "Aqua Admin Shelly Seafloor Cavern",
+      "detailFile": "trainers/177.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Aqua Admin Shelly Weather Institute",
+      "usageKey": "Aqua Admin Shelly Weather Institute",
+      "detailFile": "trainers/178.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Aqua Leader Archie",
+      "usageKey": "Aqua Leader Archie",
+      "detailFile": "trainers/179.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Aqua Leader Archie Hideout",
+      "usageKey": "Aqua Leader Archie Hideout",
+      "detailFile": "trainers/180.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Aroma Lady Shayla",
+      "usageKey": "Aroma Lady Shayla",
+      "detailFile": "trainers/181.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Battle Girl Jenny",
+      "usageKey": "Battle Girl Jenny",
+      "detailFile": "trainers/182.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Battle Girl Jenny2",
+      "usageKey": "Battle Girl Jenny2",
+      "detailFile": "trainers/183.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Battle Girl Jenny5",
+      "usageKey": "Battle Girl Jenny5",
+      "detailFile": "trainers/184.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Beauty Jessica",
+      "usageKey": "Beauty Jessica",
+      "detailFile": "trainers/185.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Beauty Jessica2",
+      "usageKey": "Beauty Jessica2",
+      "detailFile": "trainers/186.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Beauty Johanna",
+      "usageKey": "Beauty Johanna",
+      "detailFile": "trainers/187.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Beauty Johanna 3 Badges",
+      "usageKey": "Beauty Johanna 3 Badges",
+      "detailFile": "trainers/188.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Beauty Johanna 4 Badges",
+      "usageKey": "Beauty Johanna 4 Badges",
+      "detailFile": "trainers/189.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Beauty Johanna 5 Badges",
+      "usageKey": "Beauty Johanna 5 Badges",
+      "detailFile": "trainers/190.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Beauty Johanna 6 Badges",
+      "usageKey": "Beauty Johanna 6 Badges",
+      "detailFile": "trainers/191.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Beauty Johanna 7 Badges",
+      "usageKey": "Beauty Johanna 7 Badges",
+      "detailFile": "trainers/192.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Bird Keeper Coby",
+      "usageKey": "Bird Keeper Coby",
+      "detailFile": "trainers/193.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Black Belt Daisuke",
+      "usageKey": "Black Belt Daisuke",
+      "detailFile": "trainers/194.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Bug Maniac Cale",
+      "usageKey": "Bug Maniac Cale",
+      "detailFile": "trainers/195.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Camper Branden",
+      "usageKey": "Camper Branden",
+      "detailFile": "trainers/196.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Camper Drew",
+      "usageKey": "Camper Drew",
+      "detailFile": "trainers/197.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Camper Rusty",
+      "usageKey": "Camper Rusty",
+      "detailFile": "trainers/198.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Champion Steven With Wallace",
+      "usageKey": "Champion Steven With Wallace",
+      "detailFile": "trainers/199.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Champion Wallace With Steven",
+      "usageKey": "Champion Wallace With Steven",
+      "detailFile": "trainers/200.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Collector Edwin",
+      "usageKey": "Collector Edwin",
+      "detailFile": "trainers/201.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Cooltrainer Albert",
+      "usageKey": "Cooltrainer Albert",
+      "detailFile": "trainers/202.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Cooltrainer Brooke",
+      "usageKey": "Cooltrainer Brooke",
+      "detailFile": "trainers/203.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Cooltrainer Caroline",
+      "usageKey": "Cooltrainer Caroline",
+      "detailFile": "trainers/204.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Cooltrainer Felix",
+      "usageKey": "Cooltrainer Felix",
+      "detailFile": "trainers/205.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Cooltrainer Hope",
+      "usageKey": "Cooltrainer Hope",
+      "detailFile": "trainers/206.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Cooltrainer Michelle",
+      "usageKey": "Cooltrainer Michelle",
+      "detailFile": "trainers/207.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Cooltrainer Samuel",
+      "usageKey": "Cooltrainer Samuel",
+      "detailFile": "trainers/208.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Cooltrainer Wilton",
+      "usageKey": "Cooltrainer Wilton",
+      "detailFile": "trainers/209.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Elite Four Cynthia",
+      "usageKey": "Elite Four Cynthia",
+      "detailFile": "trainers/210.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Elite Four Drake",
+      "usageKey": "Elite Four Drake",
+      "detailFile": "trainers/211.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Elite Four Glacia1",
+      "usageKey": "Elite Four Glacia1",
+      "detailFile": "trainers/212.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Elite Four Glacia2",
+      "usageKey": "Elite Four Glacia2",
+      "detailFile": "trainers/213.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Elite Four Phoebe1",
+      "usageKey": "Elite Four Phoebe1",
+      "detailFile": "trainers/214.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Elite Four Phoebe2",
+      "usageKey": "Elite Four Phoebe2",
+      "detailFile": "trainers/215.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Elite Four Sidney1",
+      "usageKey": "Elite Four Sidney1",
+      "detailFile": "trainers/216.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Elite Four Sidney2",
+      "usageKey": "Elite Four Sidney2",
+      "detailFile": "trainers/217.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Expert Vito",
+      "usageKey": "Expert Vito",
+      "detailFile": "trainers/218.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Fisherman Claude",
+      "usageKey": "Fisherman Claude",
+      "detailFile": "trainers/219.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Fisherman Elliot",
+      "usageKey": "Fisherman Elliot",
+      "detailFile": "trainers/220.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Fisherman Kai",
+      "usageKey": "Fisherman Kai",
+      "detailFile": "trainers/221.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Gentleman Walter",
+      "usageKey": "Gentleman Walter",
+      "detailFile": "trainers/222.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Guitarist Brian 3 Badges",
+      "usageKey": "Guitarist Brian 3 Badges",
+      "detailFile": "trainers/223.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Guitarist Brian 4 Badges",
+      "usageKey": "Guitarist Brian 4 Badges",
+      "detailFile": "trainers/224.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Guitarist Brian 5 Badges",
+      "usageKey": "Guitarist Brian 5 Badges",
+      "detailFile": "trainers/225.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Guitarist Brian 6 Badges",
+      "usageKey": "Guitarist Brian 6 Badges",
+      "detailFile": "trainers/226.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Guitarist Brian2",
+      "usageKey": "Guitarist Brian2",
+      "detailFile": "trainers/227.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Guitarist Dalton",
+      "usageKey": "Guitarist Dalton",
+      "detailFile": "trainers/228.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Guitarist Joseph",
+      "usageKey": "Guitarist Joseph",
+      "detailFile": "trainers/229.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Hex Maniac Tammy",
+      "usageKey": "Hex Maniac Tammy",
+      "detailFile": "trainers/230.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Hiker Alan",
+      "usageKey": "Hiker Alan",
+      "detailFile": "trainers/231.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Hiker Lenny",
+      "usageKey": "Hiker Lenny",
+      "detailFile": "trainers/232.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Hiker Lucas",
+      "usageKey": "Hiker Lucas",
+      "detailFile": "trainers/233.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Hiker Lucas2",
+      "usageKey": "Hiker Lucas2",
+      "detailFile": "trainers/234.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Hiker Trent",
+      "usageKey": "Hiker Trent",
+      "detailFile": "trainers/235.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Hiker Trent2",
+      "usageKey": "Hiker Trent2",
+      "detailFile": "trainers/236.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Hiker Trent5",
+      "usageKey": "Hiker Trent5",
+      "detailFile": "trainers/237.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Kindler Bernie",
+      "usageKey": "Kindler Bernie",
+      "detailFile": "trainers/238.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Kindler Spencer",
+      "usageKey": "Kindler Spencer",
+      "detailFile": "trainers/239.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Lady Sarah",
+      "usageKey": "Lady Sarah",
+      "detailFile": "trainers/240.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Lass Haley",
+      "usageKey": "Lass Haley",
+      "detailFile": "trainers/241.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Lass Halle",
+      "usageKey": "Lass Halle",
+      "detailFile": "trainers/242.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Lass Robin",
+      "usageKey": "Lass Robin",
+      "detailFile": "trainers/243.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Lass Sally",
+      "usageKey": "Lass Sally",
+      "detailFile": "trainers/244.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Brawly",
+      "usageKey": "Leader Brawly",
+      "detailFile": "trainers/245.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Brawly2",
+      "usageKey": "Leader Brawly2",
+      "detailFile": "trainers/246.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Brawly4",
+      "usageKey": "Leader Brawly4",
+      "detailFile": "trainers/247.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Brawly5",
+      "usageKey": "Leader Brawly5",
+      "detailFile": "trainers/248.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Byron",
+      "usageKey": "Leader Byron",
+      "detailFile": "trainers/249.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Candice",
+      "usageKey": "Leader Candice",
+      "detailFile": "trainers/250.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Fantina",
+      "usageKey": "Leader Fantina",
+      "detailFile": "trainers/251.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Flannery",
+      "usageKey": "Leader Flannery",
+      "detailFile": "trainers/252.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Flannery5",
+      "usageKey": "Leader Flannery5",
+      "detailFile": "trainers/253.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Gardenia",
+      "usageKey": "Leader Gardenia",
+      "detailFile": "trainers/254.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Gardenia2",
+      "usageKey": "Leader Gardenia2",
+      "detailFile": "trainers/255.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Juan",
+      "usageKey": "Leader Juan",
+      "detailFile": "trainers/256.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Juan5",
+      "usageKey": "Leader Juan5",
+      "detailFile": "trainers/257.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Liza",
+      "usageKey": "Leader Liza",
+      "detailFile": "trainers/258.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Maylene",
+      "usageKey": "Leader Maylene",
+      "detailFile": "trainers/259.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Norman",
+      "usageKey": "Leader Norman",
+      "detailFile": "trainers/260.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Norman2",
+      "usageKey": "Leader Norman2",
+      "detailFile": "trainers/261.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Norman5",
+      "usageKey": "Leader Norman5",
+      "detailFile": "trainers/262.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Roark",
+      "usageKey": "Leader Roark",
+      "detailFile": "trainers/263.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Roxanne",
+      "usageKey": "Leader Roxanne",
+      "detailFile": "trainers/264.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Roxanne2",
+      "usageKey": "Leader Roxanne2",
+      "detailFile": "trainers/265.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Roxanne5",
+      "usageKey": "Leader Roxanne5",
+      "detailFile": "trainers/266.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Tate",
+      "usageKey": "Leader Tate",
+      "detailFile": "trainers/267.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Volkner",
+      "usageKey": "Leader Volkner",
+      "detailFile": "trainers/268.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Wake",
+      "usageKey": "Leader Wake",
+      "detailFile": "trainers/269.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Wattson",
+      "usageKey": "Leader Wattson",
+      "detailFile": "trainers/270.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Wattson2",
+      "usageKey": "Leader Wattson2",
+      "detailFile": "trainers/271.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Wattson4",
+      "usageKey": "Leader Wattson4",
+      "detailFile": "trainers/272.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Wattson5",
+      "usageKey": "Leader Wattson5",
+      "detailFile": "trainers/273.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Leader Winona",
+      "usageKey": "Leader Winona",
+      "detailFile": "trainers/274.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Magma Admin Courtney",
+      "usageKey": "Magma Admin Courtney",
+      "detailFile": "trainers/275.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Magma Admin Courtney Mt Chimney",
+      "usageKey": "Magma Admin Courtney Mt Chimney",
+      "detailFile": "trainers/276.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Magma Admin Tabitha Magma Hideout",
+      "usageKey": "Magma Admin Tabitha Magma Hideout",
+      "detailFile": "trainers/277.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Magma Admin Tabitha Mt Chimney",
+      "usageKey": "Magma Admin Tabitha Mt Chimney",
+      "detailFile": "trainers/278.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Magma Leader Maxie Magma Hideout",
+      "usageKey": "Magma Leader Maxie Magma Hideout",
+      "detailFile": "trainers/279.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Magma Leader Maxie Mt Chimney",
+      "usageKey": "Magma Leader Maxie Mt Chimney",
+      "detailFile": "trainers/280.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": true,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Ninja Boy Lao",
+      "usageKey": "Ninja Boy Lao",
+      "detailFile": "trainers/281.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Parasol Lady Madeline",
+      "usageKey": "Parasol Lady Madeline",
+      "detailFile": "trainers/282.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Parasol Lady Madeline5",
+      "usageKey": "Parasol Lady Madeline5",
+      "detailFile": "trainers/283.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Picnicker Celia",
+      "usageKey": "Picnicker Celia",
+      "detailFile": "trainers/284.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Picnicker Charlotte",
+      "usageKey": "Picnicker Charlotte",
+      "detailFile": "trainers/285.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Picnicker Martha",
+      "usageKey": "Picnicker Martha",
+      "detailFile": "trainers/286.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Picnicker Rachel",
+      "usageKey": "Picnicker Rachel",
+      "detailFile": "trainers/287.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Pkmn Breeder Ezekiel",
+      "usageKey": "Pkmn Breeder Ezekiel",
+      "detailFile": "trainers/288.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Pkmn Breeder Ezekiel2",
+      "usageKey": "Pkmn Breeder Ezekiel2",
+      "detailFile": "trainers/289.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Pkmn Breeder Lydia",
+      "usageKey": "Pkmn Breeder Lydia",
+      "detailFile": "trainers/290.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Pokefan Isabel",
+      "usageKey": "Pokefan Isabel",
+      "detailFile": "trainers/291.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Pokefan Kaleb",
+      "usageKey": "Pokefan Kaleb",
+      "detailFile": "trainers/292.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Pokefan Vanessa",
+      "usageKey": "Pokefan Vanessa",
+      "detailFile": "trainers/293.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Psychic Edward",
+      "usageKey": "Psychic Edward",
+      "detailFile": "trainers/294.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Befools",
+      "usageKey": "Rival Befools",
+      "detailFile": "trainers/295.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Evergrande Mudkip",
+      "usageKey": "Rival Brendan Evergrande Mudkip",
+      "detailFile": "trainers/296.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Evergrande Torchic",
+      "usageKey": "Rival Brendan Evergrande Torchic",
+      "detailFile": "trainers/297.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Evergrande Treecko",
+      "usageKey": "Rival Brendan Evergrande Treecko",
+      "detailFile": "trainers/298.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Route 110 Mudkip",
+      "usageKey": "Rival Brendan Route 110 Mudkip",
+      "detailFile": "trainers/299.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Route 110 Torchic",
+      "usageKey": "Rival Brendan Route 110 Torchic",
+      "detailFile": "trainers/300.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Route 110 Treecko",
+      "usageKey": "Rival Brendan Route 110 Treecko",
+      "detailFile": "trainers/301.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Route 119 Mudkip",
+      "usageKey": "Rival Brendan Route 119 Mudkip",
+      "detailFile": "trainers/302.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Route 119 Torchic",
+      "usageKey": "Rival Brendan Route 119 Torchic",
+      "detailFile": "trainers/303.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Route 119 Treecko",
+      "usageKey": "Rival Brendan Route 119 Treecko",
+      "detailFile": "trainers/304.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Rustboro Mudkip",
+      "usageKey": "Rival Brendan Rustboro Mudkip",
+      "detailFile": "trainers/305.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Rustboro Torchic",
+      "usageKey": "Rival Brendan Rustboro Torchic",
+      "detailFile": "trainers/306.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Brendan Rustboro Treecko",
+      "usageKey": "Rival Brendan Rustboro Treecko",
+      "detailFile": "trainers/307.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Burak",
+      "usageKey": "Rival Burak",
+      "detailFile": "trainers/308.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Cap",
+      "usageKey": "Rival Cap",
+      "detailFile": "trainers/309.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Danni",
+      "usageKey": "Rival Danni",
+      "detailFile": "trainers/310.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Dawn Evergrande",
+      "usageKey": "Rival Dawn Evergrande",
+      "detailFile": "trainers/311.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Dawn Lilycove",
+      "usageKey": "Rival Dawn Lilycove",
+      "detailFile": "trainers/312.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Dawn Route104",
+      "usageKey": "Rival Dawn Route104",
+      "detailFile": "trainers/313.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Dawn Route111",
+      "usageKey": "Rival Dawn Route111",
+      "detailFile": "trainers/314.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Dollamike",
+      "usageKey": "Rival Dollamike",
+      "detailFile": "trainers/315.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Iriv24",
+      "usageKey": "Rival Iriv24",
+      "detailFile": "trainers/316.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Masta Janes",
+      "usageKey": "Rival Masta Janes",
+      "detailFile": "trainers/317.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Master Poucine",
+      "usageKey": "Rival Master Poucine",
+      "detailFile": "trainers/318.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Evergrande Mudkip",
+      "usageKey": "Rival May Evergrande Mudkip",
+      "detailFile": "trainers/319.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Evergrande Torchic",
+      "usageKey": "Rival May Evergrande Torchic",
+      "detailFile": "trainers/320.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Evergrande Treecko",
+      "usageKey": "Rival May Evergrande Treecko",
+      "detailFile": "trainers/321.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Route 110 Mudkip",
+      "usageKey": "Rival May Route 110 Mudkip",
+      "detailFile": "trainers/322.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Route 110 Torchic",
+      "usageKey": "Rival May Route 110 Torchic",
+      "detailFile": "trainers/323.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Route 110 Treecko",
+      "usageKey": "Rival May Route 110 Treecko",
+      "detailFile": "trainers/324.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Route 119 Mudkip",
+      "usageKey": "Rival May Route 119 Mudkip",
+      "detailFile": "trainers/325.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Route 119 Torchic",
+      "usageKey": "Rival May Route 119 Torchic",
+      "detailFile": "trainers/326.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Route 119 Treecko",
+      "usageKey": "Rival May Route 119 Treecko",
+      "detailFile": "trainers/327.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Rustboro Mudkip",
+      "usageKey": "Rival May Rustboro Mudkip",
+      "detailFile": "trainers/328.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Rustboro Torchic",
+      "usageKey": "Rival May Rustboro Torchic",
+      "detailFile": "trainers/329.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival May Rustboro Treecko",
+      "usageKey": "Rival May Rustboro Treecko",
+      "detailFile": "trainers/330.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Natn",
+      "usageKey": "Rival Natn",
+      "detailFile": "trainers/331.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Oblivion Wing",
+      "usageKey": "Rival Oblivion Wing",
+      "detailFile": "trainers/332.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Sunbird",
+      "usageKey": "Rival Sunbird",
+      "detailFile": "trainers/333.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Suneal",
+      "usageKey": "Rival Suneal",
+      "detailFile": "trainers/334.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Ursula",
+      "usageKey": "Rival Ursula",
+      "detailFile": "trainers/335.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Wally Mauville",
+      "usageKey": "Rival Wally Mauville",
+      "detailFile": "trainers/336.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Wally Route110",
+      "usageKey": "Rival Wally Route110",
+      "detailFile": "trainers/337.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Wally Vr",
+      "usageKey": "Rival Wally Vr",
+      "detailFile": "trainers/338.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival Wally Vr2",
+      "usageKey": "Rival Wally Vr2",
+      "detailFile": "trainers/339.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Rival X",
+      "usageKey": "Rival X",
+      "detailFile": "trainers/340.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Ruin Maniac Dusty",
+      "usageKey": "Ruin Maniac Dusty",
+      "detailFile": "trainers/341.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Ruin Maniac Dusty5",
+      "usageKey": "Ruin Maniac Dusty5",
+      "detailFile": "trainers/342.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Sailor Dwayne",
+      "usageKey": "Sailor Dwayne",
+      "detailFile": "trainers/343.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Sailor Dwayne 3 Badges",
+      "usageKey": "Sailor Dwayne 3 Badges",
+      "detailFile": "trainers/344.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Sailor Dwayne 4 Badges",
+      "usageKey": "Sailor Dwayne 4 Badges",
+      "detailFile": "trainers/345.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Sailor Dwayne 5 Badges",
+      "usageKey": "Sailor Dwayne 5 Badges",
+      "detailFile": "trainers/346.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Sailor Dwayne 6 Badges",
+      "usageKey": "Sailor Dwayne 6 Badges",
+      "detailFile": "trainers/347.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Sailor Dwayne 7 Badges",
+      "usageKey": "Sailor Dwayne 7 Badges",
+      "detailFile": "trainers/348.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "School Kid Georgia",
+      "usageKey": "School Kid Georgia",
+      "detailFile": "trainers/349.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "School Kid Ted",
+      "usageKey": "School Kid Ted",
+      "detailFile": "trainers/350.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Sr And Jr Anna And Meg",
+      "usageKey": "Sr And Jr Anna And Meg",
+      "detailFile": "trainers/351.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Sr And Jr Anna And Meg2",
+      "usageKey": "Sr And Jr Anna And Meg2",
+      "detailFile": "trainers/352.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Team Aqua Grunt Museum",
+      "usageKey": "Team Aqua Grunt Museum",
+      "detailFile": "trainers/353.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Team Aqua Grunt Museum2",
+      "usageKey": "Team Aqua Grunt Museum2",
+      "detailFile": "trainers/354.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Team Aqua Grunt Petalburg Woods",
+      "usageKey": "Team Aqua Grunt Petalburg Woods",
+      "detailFile": "trainers/355.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Team Aqua Grunt Rusturf Tunnel",
+      "usageKey": "Team Aqua Grunt Rusturf Tunnel",
+      "detailFile": "trainers/356.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Team Aqua Grunt Weather Inst5",
+      "usageKey": "Team Aqua Grunt Weather Inst5",
+      "detailFile": "trainers/357.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Team Magma Grunt Mt Chimney2",
+      "usageKey": "Team Magma Grunt Mt Chimney2",
+      "detailFile": "trainers/358.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Triathlete Alyssa",
+      "usageKey": "Triathlete Alyssa",
+      "detailFile": "trainers/359.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Triathlete Declan",
+      "usageKey": "Triathlete Declan",
+      "detailFile": "trainers/360.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Triathlete Dylan",
+      "usageKey": "Triathlete Dylan",
+      "detailFile": "trainers/361.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Triathlete Grace",
+      "usageKey": "Triathlete Grace",
+      "detailFile": "trainers/362.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Twins Amy And Liv",
+      "usageKey": "Twins Amy And Liv",
+      "detailFile": "trainers/363.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Twins Gina And Mia2",
+      "usageKey": "Twins Gina And Mia2",
+      "detailFile": "trainers/364.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Twins Tori And Tia",
+      "usageKey": "Twins Tori And Tia",
+      "detailFile": "trainers/365.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Winstrate Vicky",
+      "usageKey": "Winstrate Vicky",
+      "detailFile": "trainers/366.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Winstrate Victor",
+      "usageKey": "Winstrate Victor",
+      "detailFile": "trainers/367.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Winstrate Victoria",
+      "usageKey": "Winstrate Victoria",
+      "detailFile": "trainers/368.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Winstrate Vivi",
+      "usageKey": "Winstrate Vivi",
+      "detailFile": "trainers/369.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Youngster Deandre",
+      "usageKey": "Youngster Deandre",
+      "detailFile": "trainers/370.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    },
+    {
+      "displayName": "Youngster Eddie",
+      "usageKey": "Youngster Eddie",
+      "detailFile": "trainers/371.json",
+      "leadLevel": null,
+      "maxLevel": null,
+      "isBoss": false,
+      "partySize": 0,
+      "trId": null
+    }
+  ]
+}
