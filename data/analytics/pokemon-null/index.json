@@ -1,7 +1,7 @@
 {
   "title": "Pokemon Null",
   "slug": "pokemon-null",
-  "generatedAt": "2026-04-16T14:13:25.819887Z",
+  "generatedAt": "2026-04-16T15:36:11.324596Z",
   "historyLimit": 100,
   "trainerCount": 513,
   "overview": {
@@ -9,6 +9,7 @@
     "importantTrainerBattles": [
       {
         "displayName": "Leader Roxanne |Rustboro Gym|",
+        "sourceDisplayName": "Leader Roxanne |Rustboro Gym|",
         "usageKey": "Leader Roxanne |Rustboro Gym|",
         "trId": 265,
         "leadLevel": 37,
@@ -17,6 +18,7 @@
       },
       {
         "displayName": "Leader Brawly |Dewford Gym|",
+        "sourceDisplayName": "Leader Brawly |Dewford Gym|",
         "usageKey": "Leader Brawly |Dewford Gym|",
         "trId": 266,
         "leadLevel": 45,
@@ -25,6 +27,7 @@
       },
       {
         "displayName": "Ex Elite Four Glacia 1 |Icicle Cave|",
+        "sourceDisplayName": "Ex Elite Four Glacia 1 |Icicle Cave|",
         "usageKey": "Ex Elite Four Glacia 1 |Icicle Cave|",
         "trId": 263,
         "leadLevel": 51,
@@ -33,6 +36,7 @@
       },
       {
         "displayName": "Leader Wattson |Mauville Gym|",
+        "sourceDisplayName": "Leader Wattson |Mauville Gym|",
         "usageKey": "Leader Wattson |Mauville Gym|",
         "trId": 267,
         "leadLevel": 59,
@@ -41,6 +45,7 @@
       },
       {
         "displayName": "Leader Norman |Petalburg Gym|",
+        "sourceDisplayName": "Leader Norman |Petalburg Gym|",
         "usageKey": "Leader Norman |Petalburg Gym|",
         "trId": 269,
         "leadLevel": 66,
@@ -49,6 +54,7 @@
       },
       {
         "displayName": "Leader Flannery |Lavaridge Gym|",
+        "sourceDisplayName": "Leader Flannery |Lavaridge Gym|",
         "usageKey": "Leader Flannery |Lavaridge Gym|",
         "trId": 268,
         "leadLevel": 71,
@@ -57,6 +63,7 @@
       },
       {
         "displayName": "Leader Winona 1 |Fortree Gym|",
+        "sourceDisplayName": "Leader Winona 1 |Fortree Gym|",
         "usageKey": "Leader Winona 1 |Fortree Gym|",
         "trId": 270,
         "leadLevel": 77,
@@ -65,6 +72,7 @@
       },
       {
         "displayName": "Champion Wallace |Pok\u00e9mon League|",
+        "sourceDisplayName": "Champion Wallace |Pok\u00e9mon League|",
         "usageKey": "Champion Wallace |Pok\u00e9mon League|",
         "trId": 335,
         "leadLevel": 100,
@@ -73,6 +81,7 @@
       },
       {
         "displayName": "Elite Four Drake Singles |Pok\u00e9mon League|",
+        "sourceDisplayName": "Elite Four Drake Singles |Pok\u00e9mon League|",
         "usageKey": "Elite Four Drake Singles |Pok\u00e9mon League|",
         "trId": 264,
         "leadLevel": 100,
@@ -81,6 +90,7 @@
       },
       {
         "displayName": "Elite Four Rival Singles |Pok\u00e9mon League|",
+        "sourceDisplayName": "Elite Four Rival Singles |Pok\u00e9mon League|",
         "usageKey": "Elite Four Rival Singles |Pok\u00e9mon League|",
         "trId": 40,
         "leadLevel": 100,
@@ -89,6 +99,7 @@
       },
       {
         "displayName": "Elite Four Sidney Singles |Pok\u00e9mon League|",
+        "sourceDisplayName": "Elite Four Sidney Singles |Pok\u00e9mon League|",
         "usageKey": "Elite Four Sidney Singles |Pok\u00e9mon League|",
         "trId": 261,
         "leadLevel": 100,
@@ -97,6 +108,7 @@
       },
       {
         "displayName": "Champion Wallace",
+        "sourceDisplayName": "Champion Wallace",
         "usageKey": "Champion Wallace",
         "trId": null,
         "leadLevel": null,
@@ -105,6 +117,7 @@
       },
       {
         "displayName": "Elite Four Drake Doubles",
+        "sourceDisplayName": "Elite Four Drake Doubles",
         "usageKey": "Elite Four Drake Doubles",
         "trId": null,
         "leadLevel": null,
@@ -113,6 +126,7 @@
       },
       {
         "displayName": "Elite Four Drake Singles",
+        "sourceDisplayName": "Elite Four Drake Singles",
         "usageKey": "Elite Four Drake Singles",
         "trId": null,
         "leadLevel": null,
@@ -121,6 +135,7 @@
       },
       {
         "displayName": "Elite Four Phoebe Singles",
+        "sourceDisplayName": "Elite Four Phoebe Singles",
         "usageKey": "Elite Four Phoebe Singles",
         "trId": null,
         "leadLevel": null,
@@ -129,6 +144,7 @@
       },
       {
         "displayName": "Elite Four Rival Singles",
+        "sourceDisplayName": "Elite Four Rival Singles",
         "usageKey": "Elite Four Rival Singles",
         "trId": null,
         "leadLevel": null,
@@ -137,6 +153,7 @@
       },
       {
         "displayName": "Elite Four Sidney Doubles",
+        "sourceDisplayName": "Elite Four Sidney Doubles",
         "usageKey": "Elite Four Sidney Doubles",
         "trId": null,
         "leadLevel": null,
@@ -145,6 +162,7 @@
       },
       {
         "displayName": "Elite Four Sidney Singles",
+        "sourceDisplayName": "Elite Four Sidney Singles",
         "usageKey": "Elite Four Sidney Singles",
         "trId": null,
         "leadLevel": null,
@@ -153,6 +171,7 @@
       },
       {
         "displayName": "Ex Elite Four Glacia 1",
+        "sourceDisplayName": "Ex Elite Four Glacia 1",
         "usageKey": "Ex Elite Four Glacia 1",
         "trId": null,
         "leadLevel": null,
@@ -161,6 +180,7 @@
       },
       {
         "displayName": "Ex Elite Four Glacia 2",
+        "sourceDisplayName": "Ex Elite Four Glacia 2",
         "usageKey": "Ex Elite Four Glacia 2",
         "trId": null,
         "leadLevel": null,
@@ -169,6 +189,7 @@
       },
       {
         "displayName": "Ex Leader Juan",
+        "sourceDisplayName": "Ex Leader Juan",
         "usageKey": "Ex Leader Juan",
         "trId": null,
         "leadLevel": null,
@@ -177,6 +198,7 @@
       },
       {
         "displayName": "Leader Brawly",
+        "sourceDisplayName": "Leader Brawly",
         "usageKey": "Leader Brawly",
         "trId": null,
         "leadLevel": null,
@@ -185,6 +207,7 @@
       },
       {
         "displayName": "Leader Flannery",
+        "sourceDisplayName": "Leader Flannery",
         "usageKey": "Leader Flannery",
         "trId": null,
         "leadLevel": null,
@@ -193,6 +216,7 @@
       },
       {
         "displayName": "Leader Liza",
+        "sourceDisplayName": "Leader Liza",
         "usageKey": "Leader Liza",
         "trId": null,
         "leadLevel": null,
@@ -201,6 +225,7 @@
       },
       {
         "displayName": "Leader Norman",
+        "sourceDisplayName": "Leader Norman",
         "usageKey": "Leader Norman",
         "trId": null,
         "leadLevel": null,
@@ -209,6 +234,7 @@
       },
       {
         "displayName": "Leader Roxanne",
+        "sourceDisplayName": "Leader Roxanne",
         "usageKey": "Leader Roxanne",
         "trId": null,
         "leadLevel": null,
@@ -217,6 +243,7 @@
       },
       {
         "displayName": "Leader Steven",
+        "sourceDisplayName": "Leader Steven",
         "usageKey": "Leader Steven",
         "trId": null,
         "leadLevel": null,
@@ -225,6 +252,7 @@
       },
       {
         "displayName": "Leader Tate",
+        "sourceDisplayName": "Leader Tate",
         "usageKey": "Leader Tate",
         "trId": null,
         "leadLevel": null,
@@ -233,6 +261,7 @@
       },
       {
         "displayName": "Leader Wattson",
+        "sourceDisplayName": "Leader Wattson",
         "usageKey": "Leader Wattson",
         "trId": null,
         "leadLevel": null,
@@ -241,6 +270,7 @@
       },
       {
         "displayName": "Leader Winona 1",
+        "sourceDisplayName": "Leader Winona 1",
         "usageKey": "Leader Winona 1",
         "trId": null,
         "leadLevel": null,
@@ -249,6 +279,7 @@
       },
       {
         "displayName": "Leader Winona 2",
+        "sourceDisplayName": "Leader Winona 2",
         "usageKey": "Leader Winona 2",
         "trId": null,
         "leadLevel": null,
@@ -257,6 +288,7 @@
       },
       {
         "displayName": "Magma Leader Maxie & Tabitha",
+        "sourceDisplayName": "Magma Leader Maxie & Tabitha",
         "usageKey": "Magma Leader Maxie & Tabitha",
         "trId": null,
         "leadLevel": null,
@@ -265,6 +297,7 @@
       },
       {
         "displayName": "Team Aqua Leader Archie 2",
+        "sourceDisplayName": "Team Aqua Leader Archie 2",
         "usageKey": "Team Aqua Leader Archie 2",
         "trId": null,
         "leadLevel": null,
@@ -273,6 +306,7 @@
       },
       {
         "displayName": "Team Magma Leader Maxie 2",
+        "sourceDisplayName": "Team Magma Leader Maxie 2",
         "usageKey": "Team Magma Leader Maxie 2",
         "trId": null,
         "leadLevel": null,
@@ -525,7 +559,8 @@
       "maxLevel": 38,
       "isBoss": true,
       "partySize": 7,
-      "trId": 265
+      "trId": 265,
+      "sourceDisplayName": "Leader Roxanne |Rustboro Gym|"
     },
     {
       "displayName": "Fisherman Darian |Route 104|",
@@ -715,7 +750,8 @@
       "maxLevel": 45,
       "isBoss": true,
       "partySize": 7,
-      "trId": 266
+      "trId": 266,
+      "sourceDisplayName": "Leader Brawly |Dewford Gym|"
     },
     {
       "displayName": "Tuber Hailey |Route 109|",
@@ -815,7 +851,8 @@
       "maxLevel": 53,
       "isBoss": true,
       "partySize": 7,
-      "trId": 263
+      "trId": 263,
+      "sourceDisplayName": "Ex Elite Four Glacia 1 |Icicle Cave|"
     },
     {
       "displayName": "Guitarist Marcos |Icicle Cave|",
@@ -965,7 +1002,8 @@
       "maxLevel": 60,
       "isBoss": true,
       "partySize": 7,
-      "trId": 267
+      "trId": 267,
+      "sourceDisplayName": "Leader Wattson |Mauville Gym|"
     },
     {
       "displayName": "Land Cave Team Magma Grunt #4 |Land Cave|",
@@ -1205,7 +1243,8 @@
       "maxLevel": 67,
       "isBoss": true,
       "partySize": 7,
-      "trId": 269
+      "trId": 269,
+      "sourceDisplayName": "Leader Norman |Petalburg Gym|"
     },
     {
       "displayName": "Pok\u00e9fan Miguel |Verdanturf Tunnel|",
@@ -1465,7 +1504,8 @@
       "maxLevel": 73,
       "isBoss": true,
       "partySize": 7,
-      "trId": 268
+      "trId": 268,
+      "sourceDisplayName": "Leader Flannery |Lavaridge Gym|"
     },
     {
       "displayName": "Picnicker Diana |Jagged Pass|",
@@ -1795,7 +1835,8 @@
       "maxLevel": 78,
       "isBoss": true,
       "partySize": 7,
-      "trId": 270
+      "trId": 270,
+      "sourceDisplayName": "Leader Winona 1 |Fortree Gym|"
     },
     {
       "displayName": "Team Aqua Admin Shelly 1 |Weather Institute|",
@@ -2045,7 +2086,8 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 7,
-      "trId": 335
+      "trId": 335,
+      "sourceDisplayName": "Champion Wallace |Pok\u00e9mon League|"
     },
     {
       "displayName": "Elite Four Drake Singles |Pok\u00e9mon League|",
@@ -2055,7 +2097,8 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 7,
-      "trId": 264
+      "trId": 264,
+      "sourceDisplayName": "Elite Four Drake Singles |Pok\u00e9mon League|"
     },
     {
       "displayName": "Elite Four Rival Singles |Pok\u00e9mon League|",
@@ -2065,7 +2108,8 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 7,
-      "trId": 40
+      "trId": 40,
+      "sourceDisplayName": "Elite Four Rival Singles |Pok\u00e9mon League|"
     },
     {
       "displayName": "Elite Four Sidney Singles |Pok\u00e9mon League|",
@@ -2075,7 +2119,8 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 7,
-      "trId": 261
+      "trId": 261,
+      "sourceDisplayName": "Elite Four Sidney Singles |Pok\u00e9mon League|"
     },
     {
       "displayName": "104",
@@ -2795,7 +2840,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Champion Wallace"
     },
     {
       "displayName": "Confusion Room)",
@@ -3055,7 +3101,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Elite Four Drake Doubles"
     },
     {
       "displayName": "Elite Four Drake Singles",
@@ -3065,7 +3112,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Elite Four Drake Singles"
     },
     {
       "displayName": "Elite Four Phoebe Singles",
@@ -3075,7 +3123,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Elite Four Phoebe Singles"
     },
     {
       "displayName": "Elite Four Rival Singles",
@@ -3085,7 +3134,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Elite Four Rival Singles"
     },
     {
       "displayName": "Elite Four Sidney Doubles",
@@ -3095,7 +3145,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Elite Four Sidney Doubles"
     },
     {
       "displayName": "Elite Four Sidney Singles",
@@ -3105,7 +3156,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Elite Four Sidney Singles"
     },
     {
       "displayName": "Ex Elite Four Glacia 1",
@@ -3115,7 +3167,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Ex Elite Four Glacia 1"
     },
     {
       "displayName": "Ex Elite Four Glacia 2",
@@ -3125,7 +3178,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Ex Elite Four Glacia 2"
     },
     {
       "displayName": "Ex Leader Juan",
@@ -3135,7 +3189,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Ex Leader Juan"
     },
     {
       "displayName": "Expert Cash",
@@ -3785,7 +3840,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Leader Brawly"
     },
     {
       "displayName": "Leader Flannery",
@@ -3795,7 +3851,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Leader Flannery"
     },
     {
       "displayName": "Leader Liza",
@@ -3805,7 +3862,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Leader Liza"
     },
     {
       "displayName": "Leader Norman",
@@ -3815,7 +3873,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Leader Norman"
     },
     {
       "displayName": "Leader Roxanne",
@@ -3825,7 +3884,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Leader Roxanne"
     },
     {
       "displayName": "Leader Steven",
@@ -3835,7 +3895,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Leader Steven"
     },
     {
       "displayName": "Leader Tate",
@@ -3845,7 +3906,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Leader Tate"
     },
     {
       "displayName": "Leader Wattson",
@@ -3855,7 +3917,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Leader Wattson"
     },
     {
       "displayName": "Leader Winona 1",
@@ -3865,7 +3928,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Leader Winona 1"
     },
     {
       "displayName": "Leader Winona 2",
@@ -3875,7 +3939,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Leader Winona 2"
     },
     {
       "displayName": "Lilycove Rival Chespin",
@@ -3925,7 +3990,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Magma Leader Maxie & Tabitha"
     },
     {
       "displayName": "Mt.Chimney Team Magma Elite Grunt",
@@ -4975,7 +5041,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Team Aqua Leader Archie 2"
     },
     {
       "displayName": "Team Magma Admin Courtney 1",
@@ -5065,7 +5132,8 @@
       "maxLevel": null,
       "isBoss": true,
       "partySize": 0,
-      "trId": null
+      "trId": null,
+      "sourceDisplayName": "Team Magma Leader Maxie 2"
     },
     {
       "displayName": "Team Rocket Grunt #1",

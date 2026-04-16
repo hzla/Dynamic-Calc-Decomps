@@ -713,12 +713,15 @@ def resolve_important_trainers(index_entries: list[dict[str, Any]], title_config
             resolved.append(
                 {
                     **entry,
+                    "sourceDisplayName": entry["displayName"],
                     "displayName": item.get("label") or entry["displayName"],
                 }
             )
         return resolved
 
     derived = [entry for entry in index_entries if IMPORTANT_TRAINER_RE.search(entry["displayName"] or "")]
+    for entry in derived:
+        entry["sourceDisplayName"] = entry["displayName"]
     derived.sort(key=lambda entry: ((entry.get("maxLevel") or entry.get("leadLevel") or 9999), entry["displayName"]))
     return derived
 
@@ -745,8 +748,7 @@ def build_run_buckets(normalized_rows: list[dict[str, Any]]) -> dict[str, dict[s
     return runs
 
 
-def build_important_trainer_overview(index_entries: list[dict[str, Any]], runs_by_tid: dict[str, dict[str, Any]], title_config: dict[str, Any]) -> list[dict[str, Any]]:
-    important_trainers = resolve_important_trainers(index_entries, title_config)
+def build_important_trainer_overview(important_trainers: list[dict[str, Any]], runs_by_tid: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
     output = []
     for trainer in important_trainers:
         usage_key = str(trainer["usageKey"])
@@ -754,6 +756,7 @@ def build_important_trainer_overview(index_entries: list[dict[str, Any]], runs_b
         output.append(
             {
                 "displayName": trainer["displayName"],
+                "sourceDisplayName": trainer.get("sourceDisplayName") or trainer["displayName"],
                 "usageKey": usage_key,
                 "trId": trainer.get("trId"),
                 "leadLevel": trainer.get("leadLevel"),
@@ -795,6 +798,7 @@ def build_starter_gift_groups(
         for slice_item in slices:
             slice_item["pct"] = round((slice_item["count"] / total_detections) * 100) if total_detections else 0
             slice_item["runPct"] = round((slice_item["count"] / total_runs_matched) * 100) if total_runs_matched else 0
+        slices.sort(key=lambda slice_item: (-slice_item["count"], slice_item["species"]))
 
         results.append(
             {
@@ -810,6 +814,7 @@ def build_starter_gift_groups(
 def build_run_depth_overview(
     title: str,
     runs_by_tid: dict[str, dict[str, Any]],
+    important_trainers: list[dict[str, Any]],
     index_entries: list[dict[str, Any]],
     trainer_order_key: str | None,
 ) -> dict[str, Any]:
@@ -823,6 +828,30 @@ def build_run_depth_overview(
             usage_key_to_name[usage_key]
             for usage_key in run["usageKeys"]
             if usage_key in usage_key_to_name
+        }
+
+    def summarize_run_depth(
+        run_max_steps: list[int],
+        max_step: int,
+        marker_steps: list[dict[str, Any]],
+    ) -> dict[str, Any]:
+        histogram = [0] * max(max_step, 0)
+        for step in run_max_steps:
+            if 1 <= step <= max_step:
+                histogram[step - 1] += 1
+
+        average_step = sum(run_max_steps) / len(run_max_steps)
+        return {
+            "available": True,
+            "averageStep": round(average_step, 1),
+            "averagePct": round((average_step / max_step) * 100, 1) if max_step else 0,
+            "maxStep": max_step,
+            "runsCounted": len(run_max_steps),
+            "histogram": [
+                {"step": step, "count": histogram[step - 1]}
+                for step in range(1, max_step + 1)
+            ],
+            "importantTrainerMarkers": marker_steps,
         }
 
     if title == "Emerald Imperium 1.3":
@@ -839,15 +868,20 @@ def build_run_depth_overview(
 
         if not run_max_steps:
             return {"available": False, "reason": "missing_trainer_name_matches"}
-
-        average_step = sum(run_max_steps) / len(run_max_steps)
-        return {
-            "available": True,
-            "averageStep": round(average_step, 1),
-            "averagePct": round((average_step / max_step) * 100, 1) if max_step else 0,
-            "maxStep": max_step,
-            "runsCounted": len(run_max_steps),
-        }
+        marker_steps = []
+        for trainer in important_trainers:
+            source_name = trainer.get("sourceDisplayName") or trainer["displayName"]
+            step = depth_map.get(str(source_name))
+            if step is None:
+                continue
+            marker_steps.append(
+                {
+                    "label": trainer["displayName"],
+                    "step": step,
+                    "usageKey": str(trainer["usageKey"]),
+                }
+            )
+        return summarize_run_depth(run_max_steps, max_step, marker_steps)
 
     if not trainer_order_key:
         return {"available": False, "reason": "no_trainer_order"}
@@ -869,14 +903,19 @@ def build_run_depth_overview(
     if not run_max_steps:
         return {"available": False, "reason": "missing_numeric_trainer_ids"}
 
-    average_step = sum(run_max_steps) / len(run_max_steps)
-    return {
-        "available": True,
-        "averageStep": round(average_step, 1),
-        "averagePct": round((average_step / max_step) * 100, 1) if max_step else 0,
-        "maxStep": max_step,
-        "runsCounted": len(run_max_steps),
-    }
+    marker_steps = []
+    for trainer in important_trainers:
+        trainer_id = trainer.get("trId")
+        if trainer_id is None or trainer_id not in depth_map:
+            continue
+        marker_steps.append(
+            {
+                "label": trainer["displayName"],
+                "step": depth_map[trainer_id],
+                "usageKey": str(trainer["usageKey"]),
+            }
+        )
+    return summarize_run_depth(run_max_steps, max_step, marker_steps)
 
 
 def build_overview(
@@ -887,11 +926,12 @@ def build_overview(
     evo_data: dict[str, Any],
 ) -> dict[str, Any]:
     runs_by_tid = build_run_buckets(normalized_rows)
+    important_trainers = resolve_important_trainers(index_entries, title_config)
     return {
         "runCount": len(runs_by_tid),
-        "importantTrainerBattles": build_important_trainer_overview(index_entries, runs_by_tid, title_config),
+        "importantTrainerBattles": build_important_trainer_overview(important_trainers, runs_by_tid),
         "starterGiftGroups": build_starter_gift_groups(runs_by_tid, title_config, evo_data),
-        "runDepth": build_run_depth_overview(title, runs_by_tid, index_entries, title_config.get("trainerOrderKey")),
+        "runDepth": build_run_depth_overview(title, runs_by_tid, important_trainers, index_entries, title_config.get("trainerOrderKey")),
     }
 
 

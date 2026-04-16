@@ -174,7 +174,7 @@ function renderHeader(mode, options) {
   }
 
   if (controlsMeta) {
-    controlsMeta.textContent = mode === "overview" ? "Showing game overview." : `Showing ${options?.trainerName || "trainer"} details.`;
+    controlsMeta.textContent = "";
   }
 }
 
@@ -187,29 +187,44 @@ function clearOverviewCharts() {
   overviewCharts = [];
 }
 
-function overviewCard(title, value, meta) {
+function overviewCard(title, value) {
   return `
     <div class="overviewCard">
       <h3>${escapeHtml(title)}</h3>
       <div class="overviewStat">${escapeHtml(value)}</div>
-      <div class="overviewMeta">${escapeHtml(meta || "")}</div>
     </div>
   `;
 }
 
+function trainerSpriteSlug(name) {
+  return String(name ?? "")
+    .replace(/^(Leader|Elite Four|Champion)\s+/i, "")
+    .replace(/\s+With\s+.*$/i, "")
+    .split(/[\s/&|]+/)[0]
+    .replace(/[^a-z0-9-]/gi, "")
+    .toLowerCase();
+}
+
+function trainerSpriteSrc(name) {
+  return `${dashboardAssetBase()}/img/trainer_sprites/${trainerSpriteSlug(name) || "unknown"}.png`;
+}
+
 function renderImportantTrainerSection(overview) {
   const items = Array.isArray(overview?.importantTrainerBattles) ? overview.importantTrainerBattles : [];
-  const rows = items.length
+  const cards = items.length
     ? items
         .map(
           (item) => `
-            <div class="importantRow">
-              <div class="importantRowMain">
-                <div class="importantName">${escapeHtml(item.displayName)}</div>
-                <div class="importantDetail">Lead level ${escapeHtml(item.maxLevel ?? item.leadLevel ?? "—")}</div>
+            <button type="button" class="importantCard" data-trainer-name="${escapeHtml(item.sourceDisplayName || item.displayName)}">
+              <div class="importantSprite">
+                <img src="${trainerSpriteSrc(item.displayName)}" alt="${escapeHtml(item.displayName)}" loading="lazy"
+                     onerror="this.style.opacity=.35;this.title='Missing trainer sprite'">
               </div>
-              <div class="importantCount">${escapeHtml(formatNumber(item.runCount))} runs</div>
-            </div>
+              <div class="importantCardBody">
+                <div class="importantName">${escapeHtml(item.displayName)}</div>
+                <div class="importantCount">${escapeHtml(formatNumber(item.runCount))} runs</div>
+              </div>
+            </button>
           `
         )
         .join("")
@@ -218,24 +233,45 @@ function renderImportantTrainerSection(overview) {
   return `
     <section class="overviewSection">
       <div class="sectionHeader">
-        <h2>Important Trainer Coverage</h2>
-        <div class="sectionMeta">Distinct runs with recorded battles.</div>
+        <h2>Important Trainers</h2>
       </div>
-      <div class="importantList">${rows}</div>
+      <div class="importantGrid">${cards}</div>
     </section>
   `;
 }
 
+function filteredRunDepthMarkers(runDepth) {
+  const markers = Array.isArray(runDepth?.importantTrainerMarkers)
+    ? runDepth.importantTrainerMarkers.filter((marker) => String(marker?.label || "").trim())
+    : [];
+
+  const champions = markers.filter((marker) => /Champion/i.test(marker.label));
+  const championToShow = champions.length
+    ? champions.reduce((best, marker) => (Number(marker.step) > Number(best.step) ? marker : best))
+    : null;
+
+  return markers.filter((marker) => {
+    if (/Elite Four/i.test(marker.label)) return false;
+    if (/Champion/i.test(marker.label)) return championToShow && marker === championToShow;
+    return true;
+  });
+}
+
+function sortedGroupSlices(group) {
+  return [...(group?.slices || [])].sort((a, b) => (b.count - a.count) || a.species.localeCompare(b.species));
+}
+
 function starterChartLegend(group) {
-  return (group.slices || [])
+  return sortedGroupSlices(group)
     .map(
       (slice, index) => `
         <div class="chartLegendRow">
           <div class="chartLegendMain">
-            <span class="chartSwatch" style="background:${OVERVIEW_CHART_COLORS[index % OVERVIEW_CHART_COLORS.length]}"></span>
+            <img class="chartLegendSprite" src="${spriteSrc(slice.species)}" alt="${escapeHtml(slice.species)}" loading="lazy"
+                 onerror="this.style.opacity=.35;this.title='Missing sprite'">
             <span>${escapeHtml(slice.species)}</span>
           </div>
-          <span>${escapeHtml(formatNumber(slice.count))} runs • ${escapeHtml(formatPercent(slice.runPct))}</span>
+          <span class="chartLegendPct">${escapeHtml(formatPercent(slice.pct))}</span>
         </div>
       `
     )
@@ -252,10 +288,7 @@ function renderStarterGiftCharts(overview) {
     .map(
       (group, index) => `
         <div class="chartCard">
-          <div>
-            <h3>${escapeHtml(group.label)}</h3>
-            <div class="sectionMeta">${escapeHtml(formatNumber(group.totalRunsMatched || 0))} runs matched. Runs can contribute multiple slices.</div>
-          </div>
+          <h3>${escapeHtml(group.label)}</h3>
           <div class="chartWrap">
             <canvas id="starter-chart-${index}" aria-label="${escapeHtml(group.label)} distribution"></canvas>
           </div>
@@ -269,7 +302,6 @@ function renderStarterGiftCharts(overview) {
     <section class="overviewSection">
       <div class="sectionHeader">
         <h2>Starter / Gift Distribution</h2>
-        <div class="sectionMeta">Pie charts show share of detections; legend shows per-run coverage.</div>
       </div>
       <div class="chartGrid">${cards}</div>
     </section>
@@ -286,8 +318,9 @@ function hydrateStarterGiftCharts(overview) {
     const canvas = document.getElementById(`starter-chart-${index}`);
     if (!canvas) return;
 
-    const labels = group.slices.map((slice) => slice.species);
-    const data = group.slices.map((slice) => slice.count);
+    const slices = sortedGroupSlices(group);
+    const labels = slices.map((slice) => slice.species);
+    const data = slices.map((slice) => slice.count);
     if (!data.length) return;
 
     const chart = new Chart(canvas, {
@@ -310,8 +343,8 @@ function hydrateStarterGiftCharts(overview) {
           tooltip: {
             callbacks: {
               label(context) {
-                const slice = group.slices[context.dataIndex];
-                return `${slice.species}: ${slice.count} runs (${slice.runPct}%)`;
+                const slice = slices[context.dataIndex];
+                return `${slice.species}: ${slice.pct}%`;
               },
             },
           },
@@ -322,16 +355,141 @@ function hydrateStarterGiftCharts(overview) {
   });
 }
 
+function hydrateRunDepthChart(runDepth) {
+  if (typeof Chart === "undefined" || !runDepth || runDepth.available === false) return;
+
+  const canvas = document.getElementById("run-depth-chart");
+  const histogram = Array.isArray(runDepth.histogram) ? runDepth.histogram : [];
+  if (!canvas || !histogram.length) return;
+
+  const labels = histogram.map((entry) => entry.step);
+  const exactCounts = histogram.map((entry) => entry.count);
+  const data = new Array(exactCounts.length);
+  let runningTotal = 0;
+  for (let index = exactCounts.length - 1; index >= 0; index -= 1) {
+    runningTotal += Number(exactCounts[index]) || 0;
+    data[index] = runningTotal;
+  }
+  const visibleMarkers = filteredRunDepthMarkers(runDepth);
+  const markerMap = new Map();
+  visibleMarkers.forEach((marker) => {
+    const step = Number(marker.step);
+    if (!Number.isFinite(step)) return;
+    if (!markerMap.has(step)) markerMap.set(step, []);
+    markerMap.get(step).push(marker.label);
+  });
+
+  const chart = new Chart(canvas, {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [
+        {
+          data,
+          backgroundColor: "rgba(139, 233, 253, 0.45)",
+          borderColor: "#8be9fd",
+          borderWidth: 1,
+          borderRadius: 2,
+          barPercentage: 1,
+          categoryPercentage: 1,
+        },
+      ],
+    },
+    options: {
+      maintainAspectRatio: false,
+      animation: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            title(items) {
+              return `Run depth ${labels[items[0].dataIndex]}`;
+            },
+            label(context) {
+              return `${context.raw} runs reached at least this point`;
+            },
+            afterBody(items) {
+              const step = labels[items[0].dataIndex];
+              const markers = markerMap.get(Number(step)) || [];
+              return markers.length ? `Important trainer: ${markers.join(", ")}` : "";
+            },
+          },
+        },
+      },
+      scales: {
+        x: {
+          title: {
+            display: true,
+            text: "Run depth",
+          },
+          ticks: {
+            autoSkip: false,
+            maxRotation: 65,
+            minRotation: 65,
+            callback(value, index) {
+              const step = labels[index];
+              const markers = markerMap.get(Number(step));
+              if (markers && markers.length) return [`${step}`, ...markers];
+              return "";
+            },
+          },
+        },
+        y: {
+          beginAtZero: true,
+          ticks: {
+            precision: 0,
+          },
+          title: {
+            display: true,
+            text: "Runs reached",
+          },
+        },
+      },
+    },
+  });
+  overviewCharts.push(chart);
+}
+
+async function selectTrainerByName(trainerName) {
+  if (!trainerName) return;
+  const select2Data = Array.isArray(window.select2TrainerData) ? window.select2TrainerData : [];
+  const selectedTrainer = findTrainerOptionById(select2Data, trainerName);
+  if (!selectedTrainer) return;
+
+  $("#trainerSelect").val(selectedTrainer.id).trigger("change");
+  await renderTrainerSelection(selectedTrainer);
+}
+
+function wireOverviewInteractions() {
+  $(".importantCard").off("click").on("click", function () {
+    const trainerName = this.dataset.trainerName;
+    if (!trainerName) return;
+    void selectTrainerByName(trainerName);
+  });
+}
+
 function renderRunDepthSection(runDepth) {
   if (!runDepth || runDepth.available === false) {
-    return overviewCard("Average Run Depth", "—", "Not available for this game.");
+    return `
+      <section class="overviewSection">
+        <div class="sectionHeader">
+          <h2>Average Run Depth</h2>
+        </div>
+        <div class="emptyState">Not available for this game.</div>
+      </section>
+    `;
   }
 
-  return overviewCard(
-    "Average Run Depth",
-    `${Math.round(runDepth.averageStep || 0)} / ${formatNumber(runDepth.maxStep || 0)}`,
-    `${formatPercent(runDepth.averagePct)} of trainer order across ${formatNumber(runDepth.runsCounted || 0)} runs`
-  );
+  return `
+    <section class="overviewSection">
+      <div class="sectionHeader">
+        <h2>Average Run Depth</h2>
+      </div>
+      <div class="runDepthWrap">
+        <canvas id="run-depth-chart" aria-label="Average run depth distribution"></canvas>
+      </div>
+    </section>
+  `;
 }
 
 function renderOverview(indexData) {
@@ -339,24 +497,23 @@ function renderOverview(indexData) {
   renderHeader("overview", { generatedAt: indexData?.generatedAt });
 
   const overview = indexData?.overview || {};
-  const tracked = Array.isArray(indexData?.trainers) ? indexData.trainers.length : 0;
-  const importantTrainerCount = Array.isArray(overview.importantTrainerBattles) ? overview.importantTrainerBattles.length : 0;
   const starterSection = renderStarterGiftCharts(overview);
 
   const html = `
     <div class="overview">
       <div class="overviewGrid">
-        ${overviewCard("Runs", formatNumber(overview.runCount || 0), "Unique player trainer IDs recorded for this game.")}
-        ${overviewCard("Tracked Trainers", formatNumber(tracked), `${formatNumber(importantTrainerCount)} important trainers in overview.`)}
-        ${renderRunDepthSection(overview.runDepth)}
+        ${overviewCard("Runs", formatNumber(overview.runCount || 0))}
       </div>
       ${renderImportantTrainerSection(overview)}
+      ${renderRunDepthSection(overview.runDepth)}
       ${starterSection}
     </div>
   `;
 
   $("#out").html(html);
   hydrateStarterGiftCharts(overview);
+  hydrateRunDepthChart(overview.runDepth);
+  wireOverviewInteractions();
 }
 
 function renderTeam(trainerName, team) {
@@ -687,6 +844,7 @@ async function initializeDashboard() {
   }
 
   const data = buildSelect2Data(trainerEntries);
+  window.select2TrainerData = data;
 
   $("#trainerSelect").select2({
     data,
@@ -726,8 +884,7 @@ async function initializeDashboard() {
   const queriedTrainer = new URLSearchParams(window.location.search).get("trainer");
   const selectedTrainer = queriedTrainer ? findTrainerOptionById(data, queriedTrainer) : null;
   if (selectedTrainer) {
-    $("#trainerSelect").val(selectedTrainer.id).trigger("change");
-    await renderTrainerSelection(selectedTrainer);
+    await selectTrainerByName(selectedTrainer.id);
     return;
   }
 

@@ -1,7 +1,7 @@
 {
   "title": "Vintage White Plus",
   "slug": "vintage-white-plus",
-  "generatedAt": "2026-04-16T14:13:25.819887Z",
+  "generatedAt": "2026-04-16T15:36:11.324596Z",
   "historyLimit": 100,
   "trainerCount": 208,
   "overview": {
@@ -9,6 +9,7 @@
     "importantTrainerBattles": [
       {
         "displayName": "Leader Chili",
+        "sourceDisplayName": "Leader Chili",
         "usageKey": "11",
         "trId": 11,
         "leadLevel": 14,
@@ -17,6 +18,7 @@
       },
       {
         "displayName": "Leader Cilan",
+        "sourceDisplayName": "Leader Cilan",
         "usageKey": "12",
         "trId": 12,
         "leadLevel": 14,
@@ -25,6 +27,7 @@
       },
       {
         "displayName": "Leader Cress",
+        "sourceDisplayName": "Leader Cress",
         "usageKey": "13",
         "trId": 13,
         "leadLevel": 14,
@@ -33,6 +36,7 @@
       },
       {
         "displayName": "Leader Lenora",
+        "sourceDisplayName": "Leader Lenora",
         "usageKey": "21",
         "trId": 21,
         "leadLevel": 25,
@@ -41,6 +45,7 @@
       },
       {
         "displayName": "Leader Burgh",
+        "sourceDisplayName": "Leader Burgh",
         "usageKey": "22",
         "trId": 22,
         "leadLevel": 33,
@@ -49,6 +54,7 @@
       },
       {
         "displayName": "Leader Elesa",
+        "sourceDisplayName": "Leader Elesa",
         "usageKey": "23",
         "trId": 23,
         "leadLevel": 42,
@@ -57,6 +63,7 @@
       },
       {
         "displayName": "Leader Clay",
+        "sourceDisplayName": "Leader Clay",
         "usageKey": "24",
         "trId": 24,
         "leadLevel": 56,
@@ -65,6 +72,7 @@
       },
       {
         "displayName": "Leader Skyla",
+        "sourceDisplayName": "Leader Skyla",
         "usageKey": "25",
         "trId": 25,
         "leadLevel": 65,
@@ -73,6 +81,7 @@
       },
       {
         "displayName": "Leader Brycen",
+        "sourceDisplayName": "Leader Brycen",
         "usageKey": "131",
         "trId": 131,
         "leadLevel": 74,
@@ -81,6 +90,7 @@
       },
       {
         "displayName": "Leader Iris",
+        "sourceDisplayName": "Leader Iris",
         "usageKey": "132",
         "trId": 132,
         "leadLevel": 86,
@@ -89,6 +99,7 @@
       },
       {
         "displayName": "Champion Alder",
+        "sourceDisplayName": "Champion Alder",
         "usageKey": "407",
         "trId": 407,
         "leadLevel": 100,
@@ -97,6 +108,7 @@
       },
       {
         "displayName": "Elite Four Caitlin",
+        "sourceDisplayName": "Elite Four Caitlin",
         "usageKey": "231",
         "trId": 231,
         "leadLevel": 100,
@@ -105,6 +117,7 @@
       },
       {
         "displayName": "Elite Four Grimsley",
+        "sourceDisplayName": "Elite Four Grimsley",
         "usageKey": "230",
         "trId": 230,
         "leadLevel": 100,
@@ -113,6 +126,7 @@
       },
       {
         "displayName": "Elite Four Marshal",
+        "sourceDisplayName": "Elite Four Marshal",
         "usageKey": "229",
         "trId": 229,
         "leadLevel": 100,
@@ -121,6 +135,7 @@
       },
       {
         "displayName": "Elite Four Shauntal",
+        "sourceDisplayName": "Elite Four Shauntal",
         "usageKey": "228",
         "trId": 228,
         "leadLevel": 100,
@@ -183,7 +198,8 @@
       "maxLevel": 15,
       "isBoss": true,
       "partySize": 3,
-      "trId": 11
+      "trId": 11,
+      "sourceDisplayName": "Leader Chili"
     },
     {
       "displayName": "Leader Cilan",
@@ -193,7 +209,8 @@
       "maxLevel": 15,
       "isBoss": true,
       "partySize": 3,
-      "trId": 12
+      "trId": 12,
+      "sourceDisplayName": "Leader Cilan"
     },
     {
       "displayName": "Leader Cress",
@@ -203,7 +220,8 @@
       "maxLevel": 15,
       "isBoss": true,
       "partySize": 3,
-      "trId": 13
+      "trId": 13,
+      "sourceDisplayName": "Leader Cress"
     },
     {
       "displayName": "PkMn Trainer Cheren12",
@@ -383,7 +401,8 @@
       "maxLevel": 28,
       "isBoss": true,
       "partySize": 6,
-      "trId": 21
+      "trId": 21,
+      "sourceDisplayName": "Leader Lenora"
     },
     {
       "displayName": "Worker Gus - Route 4",
@@ -543,7 +562,8 @@
       "maxLevel": 35,
       "isBoss": true,
       "partySize": 6,
-      "trId": 22
+      "trId": 22,
+      "sourceDisplayName": "Leader Burgh"
     },
     {
       "displayName": "Team Plasma Grunt18",
@@ -823,7 +843,8 @@
       "maxLevel": 44,
       "isBoss": true,
       "partySize": 6,
-      "trId": 23
+      "trId": 23,
+      "sourceDisplayName": "Leader Elesa"
     },
     {
       "displayName": "Team Plasma N",
@@ -1053,7 +1074,8 @@
       "maxLevel": 58,
       "isBoss": true,
       "partySize": 6,
-      "trId": 24
+      "trId": 24,
+      "sourceDisplayName": "Leader Clay"
     },
     {
       "displayName": "Ace Trainer Elmer - Route 7",
@@ -1403,7 +1425,8 @@
       "maxLevel": 67,
       "isBoss": true,
       "partySize": 6,
-      "trId": 25
+      "trId": 25,
+      "sourceDisplayName": "Leader Skyla"
     },
     {
       "displayName": "Swimmer F Joyce - Route 17",
@@ -1653,7 +1676,8 @@
       "maxLevel": 74,
       "isBoss": true,
       "partySize": 6,
-      "trId": 131
+      "trId": 131,
+      "sourceDisplayName": "Leader Brycen"
     },
     {
       "displayName": "Team Plasma Grunt24 - Dragonspiral Tower",
@@ -2013,7 +2037,8 @@
       "maxLevel": 86,
       "isBoss": true,
       "partySize": 6,
-      "trId": 132
+      "trId": 132,
+      "sourceDisplayName": "Leader Iris"
     },
     {
       "displayName": "PkMn Trainer Cheren19",
@@ -2103,7 +2128,8 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 407
+      "trId": 407,
+      "sourceDisplayName": "Champion Alder"
     },
     {
       "displayName": "Elite Four Caitlin",
@@ -2113,7 +2139,8 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 231
+      "trId": 231,
+      "sourceDisplayName": "Elite Four Caitlin"
     },
     {
       "displayName": "Elite Four Grimsley",
@@ -2123,7 +2150,8 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 230
+      "trId": 230,
+      "sourceDisplayName": "Elite Four Grimsley"
     },
     {
       "displayName": "Elite Four Marshal",
@@ -2133,7 +2161,8 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 229
+      "trId": 229,
+      "sourceDisplayName": "Elite Four Marshal"
     },
     {
       "displayName": "Elite Four Shauntal",
@@ -2143,7 +2172,8 @@
       "maxLevel": 100,
       "isBoss": true,
       "partySize": 6,
-      "trId": 228
+      "trId": 228,
+      "sourceDisplayName": "Elite Four Shauntal"
     },
     {
       "displayName": "PkMn Trainer Cynthia",

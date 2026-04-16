@@ -1,78 +1,15 @@
 {
   "title": "Emerald Imperium 1.3",
   "slug": "emerald-imperium-1-3",
-  "generatedAt": "2026-04-16T14:27:18.912190Z",
+  "generatedAt": "2026-04-16T15:36:11.324596Z",
   "historyLimit": 100,
   "trainerCount": 386,
   "overview": {
     "runCount": 3284,
     "importantTrainerBattles": [
       {
-        "displayName": "Leader Byron",
-        "usageKey": "711",
-        "trId": 711,
-        "leadLevel": -1,
-        "maxLevel": 0,
-        "runCount": 32
-      },
-      {
-        "displayName": "Leader Candice",
-        "usageKey": "851",
-        "trId": 851,
-        "leadLevel": -1,
-        "maxLevel": -1,
-        "runCount": 181
-      },
-      {
-        "displayName": "Leader Fantina",
-        "usageKey": "336",
-        "trId": 336,
-        "leadLevel": -1,
-        "maxLevel": 0,
-        "runCount": 147
-      },
-      {
-        "displayName": "Leader Gardenia2",
-        "usageKey": "23",
-        "trId": 23,
-        "leadLevel": -1,
-        "maxLevel": 0,
-        "runCount": 10
-      },
-      {
-        "displayName": "Leader Maylene",
-        "usageKey": "566",
-        "trId": 566,
-        "leadLevel": -1,
-        "maxLevel": 0,
-        "runCount": 83
-      },
-      {
-        "displayName": "Leader Roark",
-        "usageKey": "710",
-        "trId": 710,
-        "leadLevel": -1,
-        "maxLevel": 0,
-        "runCount": 38
-      },
-      {
-        "displayName": "Leader Volkner",
-        "usageKey": "712",
-        "trId": 712,
-        "leadLevel": -1,
-        "maxLevel": 0,
-        "runCount": 26
-      },
-      {
-        "displayName": "Leader Wake",
-        "usageKey": "626",
-        "trId": 626,
-        "leadLevel": -1,
-        "maxLevel": 0,
-        "runCount": 48
-      },
-      {
         "displayName": "Leader Roxanne",
+        "sourceDisplayName": "Leader Roxanne",
         "usageKey": "265",
         "trId": 265,
         "leadLevel": 14,
@@ -80,15 +17,8 @@
         "runCount": 186
       },
       {
-        "displayName": "Leader Roxanne5",
-        "usageKey": "773",
-        "trId": 773,
-        "leadLevel": 14,
-        "maxLevel": 15,
-        "runCount": 1
-      },
-      {
         "displayName": "Leader Brawly",
+        "sourceDisplayName": "Leader Brawly",
         "usageKey": "266",
         "trId": 266,
         "leadLevel": 25,
@@ -96,31 +26,8 @@
         "runCount": 316
       },
       {
-        "displayName": "Leader Brawly2",
-        "usageKey": "774",
-        "trId": 774,
-        "leadLevel": 25,
-        "maxLevel": 25,
-        "runCount": 1
-      },
-      {
-        "displayName": "Leader Brawly3",
-        "usageKey": "775",
-        "trId": 775,
-        "leadLevel": 25,
-        "maxLevel": 25,
-        "runCount": 1
-      },
-      {
-        "displayName": "Leader Brawly5",
-        "usageKey": "777",
-        "trId": 777,
-        "leadLevel": 25,
-        "maxLevel": 25,
-        "runCount": 4
-      },
-      {
         "displayName": "Leader Wattson",
+        "sourceDisplayName": "Leader Wattson",
         "usageKey": "267",
         "trId": 267,
         "leadLevel": 34,
@@ -128,23 +35,8 @@
         "runCount": 211
       },
       {
-        "displayName": "Leader Wattson2",
-        "usageKey": "778",
-        "trId": 778,
-        "leadLevel": 34,
-        "maxLevel": 34,
-        "runCount": 1
-      },
-      {
-        "displayName": "Magma Leader Maxie Mt Chimney",
-        "usageKey": "602",
-        "trId": 602,
-        "leadLevel": 44,
-        "maxLevel": 44,
-        "runCount": 103
-      },
-      {
         "displayName": "Leader Flannery",
+        "sourceDisplayName": "Leader Flannery",
         "usageKey": "268",
         "trId": 268,
         "leadLevel": 47,
@@ -153,6 +45,7 @@
       },
       {
         "displayName": "Leader Norman",
+        "sourceDisplayName": "Leader Norman",
         "usageKey": "269",
         "trId": 269,
         "leadLevel": 59,
@@ -160,23 +53,8 @@
         "runCount": 87
       },
       {
-        "displayName": "Leader Norman2",
-        "usageKey": "786",
-        "trId": 786,
-        "leadLevel": 59,
-        "maxLevel": 59,
-        "runCount": 1
-      },
-      {
-        "displayName": "Leader Norman5",
-        "usageKey": "789",
-        "trId": 789,
-        "leadLevel": 59,
-        "maxLevel": 59,
-        "runCount": 1
-      },
-      {
         "displayName": "Leader Winona",
+        "sourceDisplayName": "Leader Winona",
         "usageKey": "270",
         "trId": 270,
         "leadLevel": 68,
@@ -184,31 +62,8 @@
         "runCount": 64
       },
       {
-        "displayName": "Leader Winona3",
-        "usageKey": "791",
-        "trId": 791,
-        "leadLevel": 68,
-        "maxLevel": 68,
-        "runCount": 1
-      },
-      {
-        "displayName": "Aqua Leader Archie Hideout",
-        "usageKey": "30",
-        "trId": 30,
-        "leadLevel": 74,
-        "maxLevel": 74,
-        "runCount": 56
-      },
-      {
-        "displayName": "Leader Liza",
-        "usageKey": "569",
-        "trId": 569,
-        "leadLevel": 76,
-        "maxLevel": 76,
-        "runCount": 10
-      },
-      {
         "displayName": "Leader Tate",
+        "sourceDisplayName": "Leader Tate",
         "usageKey": "568",
         "trId": 568,
         "leadLevel": 76,
@@ -216,31 +71,17 @@
         "runCount": 17
       },
       {
-        "displayName": "Aqua Leader Archie",
-        "usageKey": "34",
-        "trId": 34,
-        "leadLevel": 80,
-        "maxLevel": 80,
-        "runCount": 40
-      },
-      {
-        "displayName": "Magma Leader Maxie Magma Hideout",
-        "usageKey": "601",
-        "trId": 601,
-        "leadLevel": 80,
-        "maxLevel": 80,
-        "runCount": 50
-      },
-      {
-        "displayName": "Elite Four Drake",
-        "usageKey": "264",
-        "trId": 264,
-        "leadLevel": 82,
-        "maxLevel": 82,
-        "runCount": 51
+        "displayName": "Leader Liza",
+        "sourceDisplayName": "Leader Liza",
+        "usageKey": "569",
+        "trId": 569,
+        "leadLevel": 76,
+        "maxLevel": 76,
+        "runCount": 10
       },
       {
         "displayName": "Leader Juan",
+        "sourceDisplayName": "Leader Juan",
         "usageKey": "272",
         "trId": 272,
         "leadLevel": 82,
@@ -248,15 +89,44 @@
         "runCount": 45
       },
       {
-        "displayName": "Leader Juan2",
-        "usageKey": "798",
-        "trId": 798,
-        "leadLevel": 82,
-        "maxLevel": 82,
-        "runCount": 1
+        "displayName": "Elite Four Sidney",
+        "sourceDisplayName": "Elite Four Sidney1",
+        "usageKey": "261",
+        "trId": 261,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 43
+      },
+      {
+        "displayName": "Elite Four Phoebe",
+        "sourceDisplayName": "Elite Four Phoebe1",
+        "usageKey": "262",
+        "trId": 262,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 45
+      },
+      {
+        "displayName": "Elite Four Glacia",
+        "sourceDisplayName": "Elite Four Glacia1",
+        "usageKey": "263",
+        "trId": 263,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 37
+      },
+      {
+        "displayName": "Elite Four Cynthia",
+        "sourceDisplayName": "Elite Four Cynthia",
+        "usageKey": "860",
+        "trId": 860,
+        "leadLevel": 85,
+        "maxLevel": 85,
+        "runCount": 47
       },
       {
         "displayName": "Champion Steven With Wallace",
+        "sourceDisplayName": "Champion Steven With Wallace",
         "usageKey": "590",
         "trId": 590,
         "leadLevel": 85,
@@ -265,436 +135,1395 @@
       },
       {
         "displayName": "Champion Wallace With Steven",
+        "sourceDisplayName": "Champion Wallace With Steven",
         "usageKey": "589",
         "trId": 589,
         "leadLevel": 85,
         "maxLevel": 85,
         "runCount": 19
-      },
-      {
-        "displayName": "Elite Four Cynthia",
-        "usageKey": "860",
-        "trId": 860,
-        "leadLevel": 85,
-        "maxLevel": 85,
-        "runCount": 47
-      },
-      {
-        "displayName": "Elite Four Glacia1",
-        "usageKey": "263",
-        "trId": 263,
-        "leadLevel": 85,
-        "maxLevel": 85,
-        "runCount": 37
-      },
-      {
-        "displayName": "Elite Four Glacia2",
-        "usageKey": "588",
-        "trId": 588,
-        "leadLevel": 85,
-        "maxLevel": 85,
-        "runCount": 39
-      },
-      {
-        "displayName": "Elite Four Phoebe1",
-        "usageKey": "262",
-        "trId": 262,
-        "leadLevel": 85,
-        "maxLevel": 85,
-        "runCount": 45
-      },
-      {
-        "displayName": "Elite Four Phoebe2",
-        "usageKey": "587",
-        "trId": 587,
-        "leadLevel": 85,
-        "maxLevel": 85,
-        "runCount": 41
-      },
-      {
-        "displayName": "Elite Four Sidney1",
-        "usageKey": "261",
-        "trId": 261,
-        "leadLevel": 85,
-        "maxLevel": 85,
-        "runCount": 43
-      },
-      {
-        "displayName": "Elite Four Sidney2",
-        "usageKey": "586",
-        "trId": 586,
-        "leadLevel": 85,
-        "maxLevel": 85,
-        "runCount": 38
-      },
-      {
-        "displayName": "Aqua Leader Archie",
-        "usageKey": "Aqua Leader Archie",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 41
-      },
-      {
-        "displayName": "Aqua Leader Archie Hideout",
-        "usageKey": "Aqua Leader Archie Hideout",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 63
-      },
-      {
-        "displayName": "Champion Steven With Wallace",
-        "usageKey": "Champion Steven With Wallace",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 10
-      },
-      {
-        "displayName": "Champion Wallace With Steven",
-        "usageKey": "Champion Wallace With Steven",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 13
-      },
-      {
-        "displayName": "Elite Four Cynthia",
-        "usageKey": "Elite Four Cynthia",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 42
-      },
-      {
-        "displayName": "Elite Four Drake",
-        "usageKey": "Elite Four Drake",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 43
-      },
-      {
-        "displayName": "Elite Four Glacia1",
-        "usageKey": "Elite Four Glacia1",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 37
-      },
-      {
-        "displayName": "Elite Four Glacia2",
-        "usageKey": "Elite Four Glacia2",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 37
-      },
-      {
-        "displayName": "Elite Four Phoebe1",
-        "usageKey": "Elite Four Phoebe1",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 34
-      },
-      {
-        "displayName": "Elite Four Phoebe2",
-        "usageKey": "Elite Four Phoebe2",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 30
-      },
-      {
-        "displayName": "Elite Four Sidney1",
-        "usageKey": "Elite Four Sidney1",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 35
-      },
-      {
-        "displayName": "Elite Four Sidney2",
-        "usageKey": "Elite Four Sidney2",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 25
-      },
-      {
-        "displayName": "Leader Brawly",
-        "usageKey": "Leader Brawly",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 344
-      },
-      {
-        "displayName": "Leader Brawly2",
-        "usageKey": "Leader Brawly2",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 6
-      },
-      {
-        "displayName": "Leader Brawly4",
-        "usageKey": "Leader Brawly4",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 1
-      },
-      {
-        "displayName": "Leader Brawly5",
-        "usageKey": "Leader Brawly5",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 5
-      },
-      {
-        "displayName": "Leader Byron",
-        "usageKey": "Leader Byron",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 28
-      },
-      {
-        "displayName": "Leader Candice",
-        "usageKey": "Leader Candice",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 212
-      },
-      {
-        "displayName": "Leader Fantina",
-        "usageKey": "Leader Fantina",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 147
-      },
-      {
-        "displayName": "Leader Flannery",
-        "usageKey": "Leader Flannery",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 182
-      },
-      {
-        "displayName": "Leader Flannery5",
-        "usageKey": "Leader Flannery5",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 2
-      },
-      {
-        "displayName": "Leader Gardenia",
-        "usageKey": "852",
-        "trId": 852,
-        "leadLevel": 0,
-        "maxLevel": 0,
-        "runCount": 43
-      },
-      {
-        "displayName": "Leader Gardenia",
-        "usageKey": "Leader Gardenia",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 48
-      },
-      {
-        "displayName": "Leader Gardenia2",
-        "usageKey": "Leader Gardenia2",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 12
-      },
-      {
-        "displayName": "Leader Juan",
-        "usageKey": "Leader Juan",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 33
-      },
-      {
-        "displayName": "Leader Juan5",
-        "usageKey": "Leader Juan5",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 1
-      },
-      {
-        "displayName": "Leader Liza",
-        "usageKey": "Leader Liza",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 6
-      },
-      {
-        "displayName": "Leader Maylene",
-        "usageKey": "Leader Maylene",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 85
-      },
-      {
-        "displayName": "Leader Norman",
-        "usageKey": "Leader Norman",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 119
-      },
-      {
-        "displayName": "Leader Norman2",
-        "usageKey": "Leader Norman2",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 2
-      },
-      {
-        "displayName": "Leader Norman5",
-        "usageKey": "Leader Norman5",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 2
-      },
-      {
-        "displayName": "Leader Roark",
-        "usageKey": "Leader Roark",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 31
-      },
-      {
-        "displayName": "Leader Roxanne",
-        "usageKey": "Leader Roxanne",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 203
-      },
-      {
-        "displayName": "Leader Roxanne2",
-        "usageKey": "Leader Roxanne2",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 1
-      },
-      {
-        "displayName": "Leader Roxanne5",
-        "usageKey": "Leader Roxanne5",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 1
-      },
-      {
-        "displayName": "Leader Tate",
-        "usageKey": "Leader Tate",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 11
-      },
-      {
-        "displayName": "Leader Volkner",
-        "usageKey": "Leader Volkner",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 14
-      },
-      {
-        "displayName": "Leader Wake",
-        "usageKey": "Leader Wake",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 51
-      },
-      {
-        "displayName": "Leader Wattson",
-        "usageKey": "Leader Wattson",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 257
-      },
-      {
-        "displayName": "Leader Wattson2",
-        "usageKey": "Leader Wattson2",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 3
-      },
-      {
-        "displayName": "Leader Wattson4",
-        "usageKey": "Leader Wattson4",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 1
-      },
-      {
-        "displayName": "Leader Wattson5",
-        "usageKey": "Leader Wattson5",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 2
-      },
-      {
-        "displayName": "Leader Winona",
-        "usageKey": "Leader Winona",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 74
-      },
-      {
-        "displayName": "Magma Leader Maxie Magma Hideout",
-        "usageKey": "Magma Leader Maxie Magma Hideout",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 50
-      },
-      {
-        "displayName": "Magma Leader Maxie Mt Chimney",
-        "usageKey": "Magma Leader Maxie Mt Chimney",
-        "trId": null,
-        "leadLevel": null,
-        "maxLevel": null,
-        "runCount": 156
       }
     ],
-    "starterGiftGroups": [],
+    "starterGiftGroups": [
+      {
+        "label": "Starters",
+        "totalRunsMatched": 3175,
+        "slices": [
+          {
+            "species": "Chimchar",
+            "count": 765,
+            "pct": 7,
+            "runPct": 24
+          },
+          {
+            "species": "Sprigatito",
+            "count": 640,
+            "pct": 6,
+            "runPct": 20
+          },
+          {
+            "species": "Piplup",
+            "count": 532,
+            "pct": 5,
+            "runPct": 17
+          },
+          {
+            "species": "Popplio",
+            "count": 494,
+            "pct": 5,
+            "runPct": 16
+          },
+          {
+            "species": "Turtwig",
+            "count": 488,
+            "pct": 5,
+            "runPct": 15
+          },
+          {
+            "species": "Mudkip",
+            "count": 445,
+            "pct": 4,
+            "runPct": 14
+          },
+          {
+            "species": "Litten",
+            "count": 437,
+            "pct": 4,
+            "runPct": 14
+          },
+          {
+            "species": "Torchic",
+            "count": 427,
+            "pct": 4,
+            "runPct": 13
+          },
+          {
+            "species": "Treecko",
+            "count": 393,
+            "pct": 4,
+            "runPct": 12
+          },
+          {
+            "species": "Scorbunny",
+            "count": 392,
+            "pct": 4,
+            "runPct": 12
+          },
+          {
+            "species": "Charmander",
+            "count": 378,
+            "pct": 4,
+            "runPct": 12
+          },
+          {
+            "species": "Fuecoco",
+            "count": 375,
+            "pct": 4,
+            "runPct": 12
+          },
+          {
+            "species": "Fennekin",
+            "count": 373,
+            "pct": 4,
+            "runPct": 12
+          },
+          {
+            "species": "Chikorita",
+            "count": 361,
+            "pct": 3,
+            "runPct": 11
+          },
+          {
+            "species": "Froakie",
+            "count": 358,
+            "pct": 3,
+            "runPct": 11
+          },
+          {
+            "species": "Grookey",
+            "count": 350,
+            "pct": 3,
+            "runPct": 11
+          },
+          {
+            "species": "Tepig",
+            "count": 336,
+            "pct": 3,
+            "runPct": 11
+          },
+          {
+            "species": "Sobble",
+            "count": 335,
+            "pct": 3,
+            "runPct": 11
+          },
+          {
+            "species": "Totodile",
+            "count": 332,
+            "pct": 3,
+            "runPct": 10
+          },
+          {
+            "species": "Oshawott",
+            "count": 326,
+            "pct": 3,
+            "runPct": 10
+          },
+          {
+            "species": "Bulbasaur",
+            "count": 322,
+            "pct": 3,
+            "runPct": 10
+          },
+          {
+            "species": "Chespin",
+            "count": 322,
+            "pct": 3,
+            "runPct": 10
+          },
+          {
+            "species": "Snivy",
+            "count": 291,
+            "pct": 3,
+            "runPct": 9
+          },
+          {
+            "species": "Quaxly",
+            "count": 286,
+            "pct": 3,
+            "runPct": 9
+          },
+          {
+            "species": "Squirtle",
+            "count": 276,
+            "pct": 3,
+            "runPct": 9
+          },
+          {
+            "species": "Rowlet",
+            "count": 238,
+            "pct": 2,
+            "runPct": 7
+          },
+          {
+            "species": "Cyndaquil",
+            "count": 214,
+            "pct": 2,
+            "runPct": 7
+          }
+        ]
+      },
+      {
+        "label": "Roamers",
+        "totalRunsMatched": 140,
+        "slices": [
+          {
+            "species": "Enamorus",
+            "count": 26,
+            "pct": 10,
+            "runPct": 19
+          },
+          {
+            "species": "Raikou",
+            "count": 20,
+            "pct": 8,
+            "runPct": 14
+          },
+          {
+            "species": "Terrakion",
+            "count": 20,
+            "pct": 8,
+            "runPct": 14
+          },
+          {
+            "species": "Tornadus",
+            "count": 20,
+            "pct": 8,
+            "runPct": 14
+          },
+          {
+            "species": "Articuno",
+            "count": 19,
+            "pct": 7,
+            "runPct": 14
+          },
+          {
+            "species": "Keldeo",
+            "count": 19,
+            "pct": 7,
+            "runPct": 14
+          },
+          {
+            "species": "Entei",
+            "count": 17,
+            "pct": 7,
+            "runPct": 12
+          },
+          {
+            "species": "Thundurus",
+            "count": 17,
+            "pct": 7,
+            "runPct": 12
+          },
+          {
+            "species": "Virizion",
+            "count": 17,
+            "pct": 7,
+            "runPct": 12
+          },
+          {
+            "species": "Zapdos",
+            "count": 14,
+            "pct": 5,
+            "runPct": 10
+          },
+          {
+            "species": "Landorus",
+            "count": 13,
+            "pct": 5,
+            "runPct": 9
+          },
+          {
+            "species": "Moltres",
+            "count": 13,
+            "pct": 5,
+            "runPct": 9
+          },
+          {
+            "species": "Suicune",
+            "count": 13,
+            "pct": 5,
+            "runPct": 9
+          },
+          {
+            "species": "Cobalion",
+            "count": 10,
+            "pct": 4,
+            "runPct": 7
+          },
+          {
+            "species": "Calyrex",
+            "count": 9,
+            "pct": 4,
+            "runPct": 6
+          },
+          {
+            "species": "Cresselia",
+            "count": 9,
+            "pct": 4,
+            "runPct": 6
+          }
+        ]
+      },
+      {
+        "label": "Route 109 Seashore House",
+        "totalRunsMatched": 1622,
+        "slices": [
+          {
+            "species": "Magby",
+            "count": 439,
+            "pct": 15,
+            "runPct": 27
+          },
+          {
+            "species": "Misdreavus",
+            "count": 377,
+            "pct": 13,
+            "runPct": 23
+          },
+          {
+            "species": "Scyther",
+            "count": 349,
+            "pct": 12,
+            "runPct": 22
+          },
+          {
+            "species": "Heracross",
+            "count": 339,
+            "pct": 12,
+            "runPct": 21
+          },
+          {
+            "species": "Pinsir",
+            "count": 224,
+            "pct": 8,
+            "runPct": 14
+          },
+          {
+            "species": "Elekid",
+            "count": 201,
+            "pct": 7,
+            "runPct": 12
+          },
+          {
+            "species": "Pansear",
+            "count": 154,
+            "pct": 5,
+            "runPct": 9
+          },
+          {
+            "species": "Eevee",
+            "count": 132,
+            "pct": 5,
+            "runPct": 8
+          },
+          {
+            "species": "Riolu",
+            "count": 132,
+            "pct": 5,
+            "runPct": 8
+          },
+          {
+            "species": "Panpour",
+            "count": 120,
+            "pct": 4,
+            "runPct": 7
+          },
+          {
+            "species": "Tyrogue",
+            "count": 120,
+            "pct": 4,
+            "runPct": 7
+          },
+          {
+            "species": "Charcadet",
+            "count": 118,
+            "pct": 4,
+            "runPct": 7
+          },
+          {
+            "species": "Togepi",
+            "count": 77,
+            "pct": 3,
+            "runPct": 5
+          },
+          {
+            "species": "Pansage",
+            "count": 42,
+            "pct": 1,
+            "runPct": 3
+          },
+          {
+            "species": "Type: Null",
+            "count": 38,
+            "pct": 1,
+            "runPct": 2
+          },
+          {
+            "species": "Smoochum",
+            "count": 32,
+            "pct": 1,
+            "runPct": 2
+          },
+          {
+            "species": "Aerodactyl",
+            "count": 28,
+            "pct": 1,
+            "runPct": 2
+          }
+        ]
+      },
+      {
+        "label": "Shoal Cave Low Tide Lower Room",
+        "totalRunsMatched": 430,
+        "slices": [
+          {
+            "species": "Flutter Mane",
+            "count": 103,
+            "pct": 11,
+            "runPct": 24
+          },
+          {
+            "species": "Great Tusk",
+            "count": 58,
+            "pct": 6,
+            "runPct": 13
+          },
+          {
+            "species": "Scream Tail",
+            "count": 55,
+            "pct": 6,
+            "runPct": 13
+          },
+          {
+            "species": "Iron Valiant",
+            "count": 52,
+            "pct": 5,
+            "runPct": 12
+          },
+          {
+            "species": "Roaring Moon",
+            "count": 50,
+            "pct": 5,
+            "runPct": 12
+          },
+          {
+            "species": "Iron Bundle",
+            "count": 48,
+            "pct": 5,
+            "runPct": 11
+          },
+          {
+            "species": "Sandy Shocks",
+            "count": 45,
+            "pct": 5,
+            "runPct": 10
+          },
+          {
+            "species": "Iron Hands",
+            "count": 36,
+            "pct": 4,
+            "runPct": 8
+          },
+          {
+            "species": "Celesteela",
+            "count": 32,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Iron Treads",
+            "count": 31,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Nihilego",
+            "count": 31,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Gouging Fire",
+            "count": 30,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Raging Bolt",
+            "count": 30,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Iron Thorns",
+            "count": 28,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Poipole",
+            "count": 28,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Walking Wake",
+            "count": 28,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Iron Boulder",
+            "count": 25,
+            "pct": 3,
+            "runPct": 6
+          },
+          {
+            "species": "Iron Jugulis",
+            "count": 25,
+            "pct": 3,
+            "runPct": 6
+          },
+          {
+            "species": "Slither Wing",
+            "count": 25,
+            "pct": 3,
+            "runPct": 6
+          },
+          {
+            "species": "Iron Crown",
+            "count": 23,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Iron Leaves",
+            "count": 23,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Iron Moth",
+            "count": 22,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Blacephalon",
+            "count": 21,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Brute Bonnet",
+            "count": 21,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Xurkitree",
+            "count": 21,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Pheromosa",
+            "count": 20,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Buzzwole",
+            "count": 18,
+            "pct": 2,
+            "runPct": 4
+          },
+          {
+            "species": "Guzzlord",
+            "count": 17,
+            "pct": 2,
+            "runPct": 4
+          },
+          {
+            "species": "Stakataka",
+            "count": 17,
+            "pct": 2,
+            "runPct": 4
+          }
+        ]
+      },
+      {
+        "label": "Victory Road 1F",
+        "totalRunsMatched": 430,
+        "slices": [
+          {
+            "species": "Flutter Mane",
+            "count": 103,
+            "pct": 11,
+            "runPct": 24
+          },
+          {
+            "species": "Great Tusk",
+            "count": 58,
+            "pct": 6,
+            "runPct": 13
+          },
+          {
+            "species": "Scream Tail",
+            "count": 55,
+            "pct": 6,
+            "runPct": 13
+          },
+          {
+            "species": "Iron Valiant",
+            "count": 52,
+            "pct": 5,
+            "runPct": 12
+          },
+          {
+            "species": "Roaring Moon",
+            "count": 50,
+            "pct": 5,
+            "runPct": 12
+          },
+          {
+            "species": "Iron Bundle",
+            "count": 48,
+            "pct": 5,
+            "runPct": 11
+          },
+          {
+            "species": "Sandy Shocks",
+            "count": 45,
+            "pct": 5,
+            "runPct": 10
+          },
+          {
+            "species": "Iron Hands",
+            "count": 36,
+            "pct": 4,
+            "runPct": 8
+          },
+          {
+            "species": "Celesteela",
+            "count": 32,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Iron Treads",
+            "count": 31,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Nihilego",
+            "count": 31,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Gouging Fire",
+            "count": 30,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Raging Bolt",
+            "count": 30,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Iron Thorns",
+            "count": 28,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Poipole",
+            "count": 28,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Walking Wake",
+            "count": 28,
+            "pct": 3,
+            "runPct": 7
+          },
+          {
+            "species": "Iron Boulder",
+            "count": 25,
+            "pct": 3,
+            "runPct": 6
+          },
+          {
+            "species": "Iron Jugulis",
+            "count": 25,
+            "pct": 3,
+            "runPct": 6
+          },
+          {
+            "species": "Slither Wing",
+            "count": 25,
+            "pct": 3,
+            "runPct": 6
+          },
+          {
+            "species": "Iron Crown",
+            "count": 23,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Iron Leaves",
+            "count": 23,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Iron Moth",
+            "count": 22,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Blacephalon",
+            "count": 21,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Brute Bonnet",
+            "count": 21,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Xurkitree",
+            "count": 21,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Pheromosa",
+            "count": 20,
+            "pct": 2,
+            "runPct": 5
+          },
+          {
+            "species": "Buzzwole",
+            "count": 18,
+            "pct": 2,
+            "runPct": 4
+          },
+          {
+            "species": "Guzzlord",
+            "count": 17,
+            "pct": 2,
+            "runPct": 4
+          },
+          {
+            "species": "Stakataka",
+            "count": 17,
+            "pct": 2,
+            "runPct": 4
+          }
+        ]
+      }
+    ],
     "runDepth": {
       "available": true,
       "averageStep": 43.1,
       "averagePct": 31.0,
       "maxStep": 139,
-      "runsCounted": 3267
+      "runsCounted": 3267,
+      "histogram": [
+        {
+          "step": 1,
+          "count": 2
+        },
+        {
+          "step": 2,
+          "count": 10
+        },
+        {
+          "step": 3,
+          "count": 139
+        },
+        {
+          "step": 4,
+          "count": 172
+        },
+        {
+          "step": 5,
+          "count": 26
+        },
+        {
+          "step": 6,
+          "count": 30
+        },
+        {
+          "step": 7,
+          "count": 34
+        },
+        {
+          "step": 8,
+          "count": 48
+        },
+        {
+          "step": 9,
+          "count": 31
+        },
+        {
+          "step": 10,
+          "count": 17
+        },
+        {
+          "step": 11,
+          "count": 14
+        },
+        {
+          "step": 12,
+          "count": 19
+        },
+        {
+          "step": 13,
+          "count": 379
+        },
+        {
+          "step": 14,
+          "count": 6
+        },
+        {
+          "step": 15,
+          "count": 93
+        },
+        {
+          "step": 16,
+          "count": 2
+        },
+        {
+          "step": 17,
+          "count": 1
+        },
+        {
+          "step": 18,
+          "count": 18
+        },
+        {
+          "step": 19,
+          "count": 30
+        },
+        {
+          "step": 20,
+          "count": 23
+        },
+        {
+          "step": 21,
+          "count": 13
+        },
+        {
+          "step": 22,
+          "count": 21
+        },
+        {
+          "step": 23,
+          "count": 15
+        },
+        {
+          "step": 24,
+          "count": 5
+        },
+        {
+          "step": 25,
+          "count": 21
+        },
+        {
+          "step": 26,
+          "count": 11
+        },
+        {
+          "step": 27,
+          "count": 25
+        },
+        {
+          "step": 28,
+          "count": 21
+        },
+        {
+          "step": 29,
+          "count": 30
+        },
+        {
+          "step": 30,
+          "count": 61
+        },
+        {
+          "step": 31,
+          "count": 27
+        },
+        {
+          "step": 32,
+          "count": 204
+        },
+        {
+          "step": 33,
+          "count": 11
+        },
+        {
+          "step": 34,
+          "count": 10
+        },
+        {
+          "step": 35,
+          "count": 126
+        },
+        {
+          "step": 36,
+          "count": 30
+        },
+        {
+          "step": 37,
+          "count": 16
+        },
+        {
+          "step": 38,
+          "count": 32
+        },
+        {
+          "step": 39,
+          "count": 70
+        },
+        {
+          "step": 40,
+          "count": 22
+        },
+        {
+          "step": 41,
+          "count": 32
+        },
+        {
+          "step": 42,
+          "count": 48
+        },
+        {
+          "step": 43,
+          "count": 86
+        },
+        {
+          "step": 44,
+          "count": 16
+        },
+        {
+          "step": 45,
+          "count": 10
+        },
+        {
+          "step": 46,
+          "count": 34
+        },
+        {
+          "step": 47,
+          "count": 81
+        },
+        {
+          "step": 48,
+          "count": 29
+        },
+        {
+          "step": 49,
+          "count": 124
+        },
+        {
+          "step": 50,
+          "count": 0
+        },
+        {
+          "step": 51,
+          "count": 4
+        },
+        {
+          "step": 52,
+          "count": 6
+        },
+        {
+          "step": 53,
+          "count": 8
+        },
+        {
+          "step": 54,
+          "count": 12
+        },
+        {
+          "step": 55,
+          "count": 17
+        },
+        {
+          "step": 56,
+          "count": 7
+        },
+        {
+          "step": 57,
+          "count": 8
+        },
+        {
+          "step": 58,
+          "count": 40
+        },
+        {
+          "step": 59,
+          "count": 12
+        },
+        {
+          "step": 60,
+          "count": 22
+        },
+        {
+          "step": 61,
+          "count": 16
+        },
+        {
+          "step": 62,
+          "count": 14
+        },
+        {
+          "step": 63,
+          "count": 12
+        },
+        {
+          "step": 64,
+          "count": 21
+        },
+        {
+          "step": 65,
+          "count": 11
+        },
+        {
+          "step": 66,
+          "count": 12
+        },
+        {
+          "step": 67,
+          "count": 26
+        },
+        {
+          "step": 68,
+          "count": 80
+        },
+        {
+          "step": 69,
+          "count": 17
+        },
+        {
+          "step": 70,
+          "count": 4
+        },
+        {
+          "step": 71,
+          "count": 2
+        },
+        {
+          "step": 72,
+          "count": 19
+        },
+        {
+          "step": 73,
+          "count": 3
+        },
+        {
+          "step": 74,
+          "count": 7
+        },
+        {
+          "step": 75,
+          "count": 9
+        },
+        {
+          "step": 76,
+          "count": 3
+        },
+        {
+          "step": 77,
+          "count": 3
+        },
+        {
+          "step": 78,
+          "count": 5
+        },
+        {
+          "step": 79,
+          "count": 16
+        },
+        {
+          "step": 80,
+          "count": 10
+        },
+        {
+          "step": 81,
+          "count": 14
+        },
+        {
+          "step": 82,
+          "count": 38
+        },
+        {
+          "step": 83,
+          "count": 13
+        },
+        {
+          "step": 84,
+          "count": 2
+        },
+        {
+          "step": 85,
+          "count": 4
+        },
+        {
+          "step": 86,
+          "count": 9
+        },
+        {
+          "step": 87,
+          "count": 3
+        },
+        {
+          "step": 88,
+          "count": 7
+        },
+        {
+          "step": 89,
+          "count": 24
+        },
+        {
+          "step": 90,
+          "count": 27
+        },
+        {
+          "step": 91,
+          "count": 12
+        },
+        {
+          "step": 92,
+          "count": 16
+        },
+        {
+          "step": 93,
+          "count": 2
+        },
+        {
+          "step": 94,
+          "count": 3
+        },
+        {
+          "step": 95,
+          "count": 13
+        },
+        {
+          "step": 96,
+          "count": 2
+        },
+        {
+          "step": 97,
+          "count": 1
+        },
+        {
+          "step": 98,
+          "count": 5
+        },
+        {
+          "step": 99,
+          "count": 1
+        },
+        {
+          "step": 100,
+          "count": 0
+        },
+        {
+          "step": 101,
+          "count": 6
+        },
+        {
+          "step": 102,
+          "count": 10
+        },
+        {
+          "step": 103,
+          "count": 22
+        },
+        {
+          "step": 104,
+          "count": 3
+        },
+        {
+          "step": 105,
+          "count": 10
+        },
+        {
+          "step": 106,
+          "count": 14
+        },
+        {
+          "step": 107,
+          "count": 17
+        },
+        {
+          "step": 108,
+          "count": 2
+        },
+        {
+          "step": 109,
+          "count": 0
+        },
+        {
+          "step": 110,
+          "count": 0
+        },
+        {
+          "step": 111,
+          "count": 0
+        },
+        {
+          "step": 112,
+          "count": 0
+        },
+        {
+          "step": 113,
+          "count": 2
+        },
+        {
+          "step": 114,
+          "count": 0
+        },
+        {
+          "step": 115,
+          "count": 18
+        },
+        {
+          "step": 116,
+          "count": 13
+        },
+        {
+          "step": 117,
+          "count": 3
+        },
+        {
+          "step": 118,
+          "count": 5
+        },
+        {
+          "step": 119,
+          "count": 1
+        },
+        {
+          "step": 120,
+          "count": 2
+        },
+        {
+          "step": 121,
+          "count": 0
+        },
+        {
+          "step": 122,
+          "count": 2
+        },
+        {
+          "step": 123,
+          "count": 5
+        },
+        {
+          "step": 124,
+          "count": 21
+        },
+        {
+          "step": 125,
+          "count": 4
+        },
+        {
+          "step": 126,
+          "count": 5
+        },
+        {
+          "step": 127,
+          "count": 6
+        },
+        {
+          "step": 128,
+          "count": 3
+        },
+        {
+          "step": 129,
+          "count": 7
+        },
+        {
+          "step": 130,
+          "count": 9
+        },
+        {
+          "step": 131,
+          "count": 1
+        },
+        {
+          "step": 132,
+          "count": 7
+        },
+        {
+          "step": 133,
+          "count": 7
+        },
+        {
+          "step": 134,
+          "count": 6
+        },
+        {
+          "step": 135,
+          "count": 10
+        },
+        {
+          "step": 136,
+          "count": 13
+        },
+        {
+          "step": 137,
+          "count": 45
+        },
+        {
+          "step": 138,
+          "count": 13
+        },
+        {
+          "step": 139,
+          "count": 28
+        }
+      ],
+      "importantTrainerMarkers": [
+        {
+          "label": "Leader Roxanne",
+          "step": 4,
+          "usageKey": "265"
+        },
+        {
+          "label": "Leader Brawly",
+          "step": 13,
+          "usageKey": "266"
+        },
+        {
+          "label": "Leader Wattson",
+          "step": 32,
+          "usageKey": "267"
+        },
+        {
+          "label": "Leader Flannery",
+          "step": 49,
+          "usageKey": "268"
+        },
+        {
+          "label": "Leader Norman",
+          "step": 68,
+          "usageKey": "269"
+        },
+        {
+          "label": "Leader Winona",
+          "step": 82,
+          "usageKey": "270"
+        },
+        {
+          "label": "Leader Tate",
+          "step": 99,
+          "usageKey": "568"
+        },
+        {
+          "label": "Leader Liza",
+          "step": 100,
+          "usageKey": "569"
+        },
+        {
+          "label": "Leader Juan",
+          "step": 115,
+          "usageKey": "272"
+        },
+        {
+          "label": "Elite Four Sidney",
+          "step": 131,
+          "usageKey": "261"
+        },
+        {
+          "label": "Elite Four Phoebe",
+          "step": 133,
+          "usageKey": "262"
+        },
+        {
+          "label": "Elite Four Glacia",
+          "step": 135,
+          "usageKey": "263"
+        },
+        {
+          "label": "Elite Four Cynthia",
+          "step": 137,
+          "usageKey": "860"
+        },
+        {
+          "label": "Champion Steven With Wallace",
+          "step": 139,
+          "usageKey": "590"
+        },
+        {
+          "label": "Champion Wallace With Steven",
+          "step": 138,
+          "usageKey": "589"
+        }
+      ]
     }
   },
   "trainers": [

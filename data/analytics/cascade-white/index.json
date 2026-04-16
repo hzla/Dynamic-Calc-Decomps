@@ -1,7 +1,7 @@
 {
   "title": "Cascade White",
   "slug": "cascade-white",
-  "generatedAt": "2026-04-16T14:13:25.819887Z",
+  "generatedAt": "2026-04-16T15:36:11.324596Z",
   "historyLimit": 100,
   "trainerCount": 105,
   "overview": {
@@ -9,6 +9,7 @@
     "importantTrainerBattles": [
       {
         "displayName": "Kanto Leader Brock - Pledge Grove",
+        "sourceDisplayName": "Kanto Leader Brock - Pledge Grove",
         "usageKey": "764",
         "trId": 764,
         "leadLevel": 13,
@@ -17,6 +18,7 @@
       },
       {
         "displayName": "Leader Cheren",
+        "sourceDisplayName": "Leader Cheren",
         "usageKey": "156",
         "trId": 156,
         "leadLevel": 13,
@@ -25,6 +27,7 @@
       },
       {
         "displayName": "Kanto Leader Misty - Virbank City",
+        "sourceDisplayName": "Kanto Leader Misty - Virbank City",
         "usageKey": "765",
         "trId": 765,
         "leadLevel": 20,
@@ -33,6 +36,7 @@
       },
       {
         "displayName": "Leader Roxie",
+        "sourceDisplayName": "Leader Roxie",
         "usageKey": "157",
         "trId": 157,
         "leadLevel": 20,
@@ -41,6 +45,7 @@
       },
       {
         "displayName": "Kanto Leader Lt. Surge - Liberty Garden",
+        "sourceDisplayName": "Kanto Leader Lt. Surge - Liberty Garden",
         "usageKey": "766",
         "trId": 766,
         "leadLevel": 30,
@@ -49,6 +54,7 @@
       },
       {
         "displayName": "Leader Burgh",
+        "sourceDisplayName": "Leader Burgh",
         "usageKey": "154",
         "trId": 154,
         "leadLevel": 30,
@@ -57,6 +63,7 @@
       },
       {
         "displayName": "Kanto Leader Erika - Lostlorn Forest",
+        "sourceDisplayName": "Kanto Leader Erika - Lostlorn Forest",
         "usageKey": "767",
         "trId": 767,
         "leadLevel": 39,
@@ -65,6 +72,7 @@
       },
       {
         "displayName": "Leader Elesa",
+        "sourceDisplayName": "Leader Elesa",
         "usageKey": "153",
         "trId": 153,
         "leadLevel": 39,
@@ -73,6 +81,7 @@
       },
       {
         "displayName": "Leader Clay",
+        "sourceDisplayName": "Leader Clay",
         "usageKey": "158",
         "trId": 158,
         "leadLevel": 44,
@@ -81,6 +90,7 @@
       },
       {
         "displayName": "Sinnoh Leader Volkner",
+        "sourceDisplayName": "Sinnoh Leader Volkner",
         "usageKey": "493",
         "trId": 493,
         "leadLevel": 51,
@@ -89,6 +99,7 @@
       },
       {
         "displayName": "Kanto Leader Sabrina - Celestial Tower",
+        "sourceDisplayName": "Kanto Leader Sabrina - Celestial Tower",
         "usageKey": "769",
         "trId": 769,
         "leadLevel": 52,
@@ -97,6 +108,7 @@
       },
       {
         "displayName": "Leader Skyla",
+        "sourceDisplayName": "Leader Skyla",
         "usageKey": "155",
         "trId": 155,
         "leadLevel": 54,
@@ -110,7 +122,1023 @@
       "averageStep": 54.7,
       "averagePct": 23.0,
       "maxStep": 238,
-      "runsCounted": 45
+      "runsCounted": 45,
+      "histogram": [
+        {
+          "step": 1,
+          "count": 0
+        },
+        {
+          "step": 2,
+          "count": 0
+        },
+        {
+          "step": 3,
+          "count": 0
+        },
+        {
+          "step": 4,
+          "count": 0
+        },
+        {
+          "step": 5,
+          "count": 0
+        },
+        {
+          "step": 6,
+          "count": 0
+        },
+        {
+          "step": 7,
+          "count": 0
+        },
+        {
+          "step": 8,
+          "count": 2
+        },
+        {
+          "step": 9,
+          "count": 3
+        },
+        {
+          "step": 10,
+          "count": 0
+        },
+        {
+          "step": 11,
+          "count": 2
+        },
+        {
+          "step": 12,
+          "count": 1
+        },
+        {
+          "step": 13,
+          "count": 8
+        },
+        {
+          "step": 14,
+          "count": 0
+        },
+        {
+          "step": 15,
+          "count": 0
+        },
+        {
+          "step": 16,
+          "count": 0
+        },
+        {
+          "step": 17,
+          "count": 0
+        },
+        {
+          "step": 18,
+          "count": 0
+        },
+        {
+          "step": 19,
+          "count": 0
+        },
+        {
+          "step": 20,
+          "count": 1
+        },
+        {
+          "step": 21,
+          "count": 0
+        },
+        {
+          "step": 22,
+          "count": 1
+        },
+        {
+          "step": 23,
+          "count": 1
+        },
+        {
+          "step": 24,
+          "count": 2
+        },
+        {
+          "step": 25,
+          "count": 3
+        },
+        {
+          "step": 26,
+          "count": 1
+        },
+        {
+          "step": 27,
+          "count": 0
+        },
+        {
+          "step": 28,
+          "count": 0
+        },
+        {
+          "step": 29,
+          "count": 0
+        },
+        {
+          "step": 30,
+          "count": 1
+        },
+        {
+          "step": 31,
+          "count": 1
+        },
+        {
+          "step": 32,
+          "count": 0
+        },
+        {
+          "step": 33,
+          "count": 0
+        },
+        {
+          "step": 34,
+          "count": 0
+        },
+        {
+          "step": 35,
+          "count": 0
+        },
+        {
+          "step": 36,
+          "count": 0
+        },
+        {
+          "step": 37,
+          "count": 1
+        },
+        {
+          "step": 38,
+          "count": 0
+        },
+        {
+          "step": 39,
+          "count": 0
+        },
+        {
+          "step": 40,
+          "count": 0
+        },
+        {
+          "step": 41,
+          "count": 0
+        },
+        {
+          "step": 42,
+          "count": 1
+        },
+        {
+          "step": 43,
+          "count": 0
+        },
+        {
+          "step": 44,
+          "count": 0
+        },
+        {
+          "step": 45,
+          "count": 3
+        },
+        {
+          "step": 46,
+          "count": 0
+        },
+        {
+          "step": 47,
+          "count": 0
+        },
+        {
+          "step": 48,
+          "count": 1
+        },
+        {
+          "step": 49,
+          "count": 0
+        },
+        {
+          "step": 50,
+          "count": 0
+        },
+        {
+          "step": 51,
+          "count": 0
+        },
+        {
+          "step": 52,
+          "count": 0
+        },
+        {
+          "step": 53,
+          "count": 0
+        },
+        {
+          "step": 54,
+          "count": 0
+        },
+        {
+          "step": 55,
+          "count": 0
+        },
+        {
+          "step": 56,
+          "count": 0
+        },
+        {
+          "step": 57,
+          "count": 0
+        },
+        {
+          "step": 58,
+          "count": 0
+        },
+        {
+          "step": 59,
+          "count": 0
+        },
+        {
+          "step": 60,
+          "count": 0
+        },
+        {
+          "step": 61,
+          "count": 0
+        },
+        {
+          "step": 62,
+          "count": 0
+        },
+        {
+          "step": 63,
+          "count": 0
+        },
+        {
+          "step": 64,
+          "count": 1
+        },
+        {
+          "step": 65,
+          "count": 0
+        },
+        {
+          "step": 66,
+          "count": 0
+        },
+        {
+          "step": 67,
+          "count": 0
+        },
+        {
+          "step": 68,
+          "count": 0
+        },
+        {
+          "step": 69,
+          "count": 1
+        },
+        {
+          "step": 70,
+          "count": 0
+        },
+        {
+          "step": 71,
+          "count": 0
+        },
+        {
+          "step": 72,
+          "count": 0
+        },
+        {
+          "step": 73,
+          "count": 0
+        },
+        {
+          "step": 74,
+          "count": 0
+        },
+        {
+          "step": 75,
+          "count": 0
+        },
+        {
+          "step": 76,
+          "count": 0
+        },
+        {
+          "step": 77,
+          "count": 0
+        },
+        {
+          "step": 78,
+          "count": 0
+        },
+        {
+          "step": 79,
+          "count": 1
+        },
+        {
+          "step": 80,
+          "count": 0
+        },
+        {
+          "step": 81,
+          "count": 0
+        },
+        {
+          "step": 82,
+          "count": 0
+        },
+        {
+          "step": 83,
+          "count": 0
+        },
+        {
+          "step": 84,
+          "count": 0
+        },
+        {
+          "step": 85,
+          "count": 0
+        },
+        {
+          "step": 86,
+          "count": 0
+        },
+        {
+          "step": 87,
+          "count": 0
+        },
+        {
+          "step": 88,
+          "count": 0
+        },
+        {
+          "step": 89,
+          "count": 1
+        },
+        {
+          "step": 90,
+          "count": 0
+        },
+        {
+          "step": 91,
+          "count": 0
+        },
+        {
+          "step": 92,
+          "count": 0
+        },
+        {
+          "step": 93,
+          "count": 0
+        },
+        {
+          "step": 94,
+          "count": 1
+        },
+        {
+          "step": 95,
+          "count": 0
+        },
+        {
+          "step": 96,
+          "count": 0
+        },
+        {
+          "step": 97,
+          "count": 0
+        },
+        {
+          "step": 98,
+          "count": 0
+        },
+        {
+          "step": 99,
+          "count": 0
+        },
+        {
+          "step": 100,
+          "count": 0
+        },
+        {
+          "step": 101,
+          "count": 0
+        },
+        {
+          "step": 102,
+          "count": 0
+        },
+        {
+          "step": 103,
+          "count": 0
+        },
+        {
+          "step": 104,
+          "count": 0
+        },
+        {
+          "step": 105,
+          "count": 0
+        },
+        {
+          "step": 106,
+          "count": 0
+        },
+        {
+          "step": 107,
+          "count": 0
+        },
+        {
+          "step": 108,
+          "count": 0
+        },
+        {
+          "step": 109,
+          "count": 0
+        },
+        {
+          "step": 110,
+          "count": 0
+        },
+        {
+          "step": 111,
+          "count": 0
+        },
+        {
+          "step": 112,
+          "count": 0
+        },
+        {
+          "step": 113,
+          "count": 0
+        },
+        {
+          "step": 114,
+          "count": 0
+        },
+        {
+          "step": 115,
+          "count": 0
+        },
+        {
+          "step": 116,
+          "count": 0
+        },
+        {
+          "step": 117,
+          "count": 0
+        },
+        {
+          "step": 118,
+          "count": 0
+        },
+        {
+          "step": 119,
+          "count": 0
+        },
+        {
+          "step": 120,
+          "count": 1
+        },
+        {
+          "step": 121,
+          "count": 0
+        },
+        {
+          "step": 122,
+          "count": 0
+        },
+        {
+          "step": 123,
+          "count": 0
+        },
+        {
+          "step": 124,
+          "count": 0
+        },
+        {
+          "step": 125,
+          "count": 0
+        },
+        {
+          "step": 126,
+          "count": 0
+        },
+        {
+          "step": 127,
+          "count": 0
+        },
+        {
+          "step": 128,
+          "count": 0
+        },
+        {
+          "step": 129,
+          "count": 0
+        },
+        {
+          "step": 130,
+          "count": 0
+        },
+        {
+          "step": 131,
+          "count": 0
+        },
+        {
+          "step": 132,
+          "count": 0
+        },
+        {
+          "step": 133,
+          "count": 0
+        },
+        {
+          "step": 134,
+          "count": 0
+        },
+        {
+          "step": 135,
+          "count": 0
+        },
+        {
+          "step": 136,
+          "count": 0
+        },
+        {
+          "step": 137,
+          "count": 0
+        },
+        {
+          "step": 138,
+          "count": 0
+        },
+        {
+          "step": 139,
+          "count": 0
+        },
+        {
+          "step": 140,
+          "count": 0
+        },
+        {
+          "step": 141,
+          "count": 0
+        },
+        {
+          "step": 142,
+          "count": 0
+        },
+        {
+          "step": 143,
+          "count": 0
+        },
+        {
+          "step": 144,
+          "count": 0
+        },
+        {
+          "step": 145,
+          "count": 0
+        },
+        {
+          "step": 146,
+          "count": 0
+        },
+        {
+          "step": 147,
+          "count": 0
+        },
+        {
+          "step": 148,
+          "count": 0
+        },
+        {
+          "step": 149,
+          "count": 0
+        },
+        {
+          "step": 150,
+          "count": 0
+        },
+        {
+          "step": 151,
+          "count": 0
+        },
+        {
+          "step": 152,
+          "count": 0
+        },
+        {
+          "step": 153,
+          "count": 0
+        },
+        {
+          "step": 154,
+          "count": 0
+        },
+        {
+          "step": 155,
+          "count": 0
+        },
+        {
+          "step": 156,
+          "count": 0
+        },
+        {
+          "step": 157,
+          "count": 0
+        },
+        {
+          "step": 158,
+          "count": 0
+        },
+        {
+          "step": 159,
+          "count": 0
+        },
+        {
+          "step": 160,
+          "count": 0
+        },
+        {
+          "step": 161,
+          "count": 0
+        },
+        {
+          "step": 162,
+          "count": 0
+        },
+        {
+          "step": 163,
+          "count": 0
+        },
+        {
+          "step": 164,
+          "count": 0
+        },
+        {
+          "step": 165,
+          "count": 0
+        },
+        {
+          "step": 166,
+          "count": 1
+        },
+        {
+          "step": 167,
+          "count": 0
+        },
+        {
+          "step": 168,
+          "count": 0
+        },
+        {
+          "step": 169,
+          "count": 0
+        },
+        {
+          "step": 170,
+          "count": 0
+        },
+        {
+          "step": 171,
+          "count": 0
+        },
+        {
+          "step": 172,
+          "count": 0
+        },
+        {
+          "step": 173,
+          "count": 0
+        },
+        {
+          "step": 174,
+          "count": 0
+        },
+        {
+          "step": 175,
+          "count": 0
+        },
+        {
+          "step": 176,
+          "count": 0
+        },
+        {
+          "step": 177,
+          "count": 0
+        },
+        {
+          "step": 178,
+          "count": 0
+        },
+        {
+          "step": 179,
+          "count": 0
+        },
+        {
+          "step": 180,
+          "count": 0
+        },
+        {
+          "step": 181,
+          "count": 0
+        },
+        {
+          "step": 182,
+          "count": 0
+        },
+        {
+          "step": 183,
+          "count": 0
+        },
+        {
+          "step": 184,
+          "count": 0
+        },
+        {
+          "step": 185,
+          "count": 0
+        },
+        {
+          "step": 186,
+          "count": 0
+        },
+        {
+          "step": 187,
+          "count": 0
+        },
+        {
+          "step": 188,
+          "count": 0
+        },
+        {
+          "step": 189,
+          "count": 0
+        },
+        {
+          "step": 190,
+          "count": 0
+        },
+        {
+          "step": 191,
+          "count": 0
+        },
+        {
+          "step": 192,
+          "count": 0
+        },
+        {
+          "step": 193,
+          "count": 0
+        },
+        {
+          "step": 194,
+          "count": 0
+        },
+        {
+          "step": 195,
+          "count": 1
+        },
+        {
+          "step": 196,
+          "count": 0
+        },
+        {
+          "step": 197,
+          "count": 0
+        },
+        {
+          "step": 198,
+          "count": 0
+        },
+        {
+          "step": 199,
+          "count": 0
+        },
+        {
+          "step": 200,
+          "count": 0
+        },
+        {
+          "step": 201,
+          "count": 1
+        },
+        {
+          "step": 202,
+          "count": 0
+        },
+        {
+          "step": 203,
+          "count": 0
+        },
+        {
+          "step": 204,
+          "count": 0
+        },
+        {
+          "step": 205,
+          "count": 0
+        },
+        {
+          "step": 206,
+          "count": 1
+        },
+        {
+          "step": 207,
+          "count": 0
+        },
+        {
+          "step": 208,
+          "count": 0
+        },
+        {
+          "step": 209,
+          "count": 0
+        },
+        {
+          "step": 210,
+          "count": 0
+        },
+        {
+          "step": 211,
+          "count": 0
+        },
+        {
+          "step": 212,
+          "count": 0
+        },
+        {
+          "step": 213,
+          "count": 0
+        },
+        {
+          "step": 214,
+          "count": 0
+        },
+        {
+          "step": 215,
+          "count": 0
+        },
+        {
+          "step": 216,
+          "count": 0
+        },
+        {
+          "step": 217,
+          "count": 0
+        },
+        {
+          "step": 218,
+          "count": 0
+        },
+        {
+          "step": 219,
+          "count": 0
+        },
+        {
+          "step": 220,
+          "count": 0
+        },
+        {
+          "step": 221,
+          "count": 0
+        },
+        {
+          "step": 222,
+          "count": 0
+        },
+        {
+          "step": 223,
+          "count": 0
+        },
+        {
+          "step": 224,
+          "count": 0
+        },
+        {
+          "step": 225,
+          "count": 0
+        },
+        {
+          "step": 226,
+          "count": 0
+        },
+        {
+          "step": 227,
+          "count": 1
+        },
+        {
+          "step": 228,
+          "count": 0
+        },
+        {
+          "step": 229,
+          "count": 0
+        },
+        {
+          "step": 230,
+          "count": 0
+        },
+        {
+          "step": 231,
+          "count": 0
+        },
+        {
+          "step": 232,
+          "count": 0
+        },
+        {
+          "step": 233,
+          "count": 0
+        },
+        {
+          "step": 234,
+          "count": 0
+        },
+        {
+          "step": 235,
+          "count": 1
+        },
+        {
+          "step": 236,
+          "count": 0
+        },
+        {
+          "step": 237,
+          "count": 0
+        },
+        {
+          "step": 238,
+          "count": 0
+        }
+      ],
+      "importantTrainerMarkers": [
+        {
+          "label": "Kanto Leader Brock - Pledge Grove",
+          "step": 20,
+          "usageKey": "764"
+        },
+        {
+          "label": "Leader Cheren",
+          "step": 25,
+          "usageKey": "156"
+        },
+        {
+          "label": "Kanto Leader Misty - Virbank City",
+          "step": 35,
+          "usageKey": "765"
+        },
+        {
+          "label": "Leader Roxie",
+          "step": 45,
+          "usageKey": "157"
+        },
+        {
+          "label": "Kanto Leader Lt. Surge - Liberty Garden",
+          "step": 64,
+          "usageKey": "766"
+        },
+        {
+          "label": "Leader Burgh",
+          "step": 69,
+          "usageKey": "154"
+        },
+        {
+          "label": "Kanto Leader Erika - Lostlorn Forest",
+          "step": 120,
+          "usageKey": "767"
+        },
+        {
+          "label": "Leader Elesa",
+          "step": 126,
+          "usageKey": "153"
+        },
+        {
+          "label": "Leader Clay",
+          "step": 156,
+          "usageKey": "158"
+        },
+        {
+          "label": "Sinnoh Leader Volkner",
+          "step": 205,
+          "usageKey": "493"
+        },
+        {
+          "label": "Kanto Leader Sabrina - Celestial Tower",
+          "step": 221,
+          "usageKey": "769"
+        },
+        {
+          "label": "Leader Skyla",
+          "step": 227,
+          "usageKey": "155"
+        }
+      ]
     }
   },
   "trainers": [
@@ -282,7 +1310,8 @@
       "maxLevel": 14,
       "isBoss": true,
       "partySize": 5,
-      "trId": 764
+      "trId": 764,
+      "sourceDisplayName": "Kanto Leader Brock - Pledge Grove"
     },
     {
       "displayName": "Leader Cheren",
@@ -292,7 +1321,8 @@
       "maxLevel": 15,
       "isBoss": true,
       "partySize": 5,
-      "trId": 156
+      "trId": 156,
+      "sourceDisplayName": "Leader Cheren"
     },
     {
       "displayName": "Rival Benga3 - Floccesy Ranch - Starter 3",
@@ -492,7 +1522,8 @@
       "maxLevel": 22,
       "isBoss": true,
       "partySize": 5,
-      "trId": 765
+      "trId": 765,
+      "sourceDisplayName": "Kanto Leader Misty - Virbank City"
     },
     {
       "displayName": "Leader Roxie",
@@ -502,7 +1533,8 @@
       "maxLevel": 23,
       "isBoss": true,
       "partySize": 6,
-      "trId": 157
+      "trId": 157,
+      "sourceDisplayName": "Leader Roxie"
     },
     {
       "displayName": "Roughneck Nicky",
@@ -682,7 +1714,8 @@
       "maxLevel": 31,
       "isBoss": true,
       "partySize": 6,
-      "trId": 766
+      "trId": 766,
+      "sourceDisplayName": "Kanto Leader Lt. Surge - Liberty Garden"
     },
     {
       "displayName": "Leader Burgh",
@@ -692,7 +1725,8 @@
       "maxLevel": 32,
       "isBoss": true,
       "partySize": 6,
-      "trId": 154
+      "trId": 154,
+      "sourceDisplayName": "Leader Burgh"
     },
     {
       "displayName": "Twins Tara & Val - Route 4",
@@ -842,7 +1876,8 @@
       "maxLevel": 40,
       "isBoss": true,
       "partySize": 6,
-      "trId": 767
+      "trId": 767,
+      "sourceDisplayName": "Kanto Leader Erika - Lostlorn Forest"
     },
     {
       "displayName": "Leader Elesa",
@@ -852,7 +1887,8 @@
       "maxLevel": 41,
       "isBoss": true,
       "partySize": 6,
-      "trId": 153
+      "trId": 153,
+      "sourceDisplayName": "Leader Elesa"
     },
     {
       "displayName": "Linebacker Dan3 - Driftveil Drawbridge",
@@ -912,7 +1948,8 @@
       "maxLevel": 46,
       "isBoss": true,
       "partySize": 6,
-      "trId": 158
+      "trId": 158,
+      "sourceDisplayName": "Leader Clay"
     },
     {
       "displayName": "Team Plasma Grunt5",
@@ -1122,7 +2159,8 @@
       "maxLevel": 52,
       "isBoss": true,
       "partySize": 5,
-      "trId": 493
+      "trId": 493,
+      "sourceDisplayName": "Sinnoh Leader Volkner"
     },
     {
       "displayName": "Kanto Leader Sabrina - Celestial Tower",
@@ -1132,7 +2170,8 @@
       "maxLevel": 54,
       "isBoss": true,
       "partySize": 6,
-      "trId": 769
+      "trId": 769,
+      "sourceDisplayName": "Kanto Leader Sabrina - Celestial Tower"
     },
     {
       "displayName": "Pilot Chase - Mistralton City",
@@ -1152,7 +2191,8 @@
       "maxLevel": 55,
       "isBoss": true,
       "partySize": 6,
-      "trId": 155
+      "trId": 155,
+      "sourceDisplayName": "Leader Skyla"
     },
     {
       "displayName": "Janitor Orville - Floccesy Ranch",
